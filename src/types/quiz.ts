@@ -10,7 +10,7 @@ export type QuizType =
   | "VOCABULARY_MEANING"
   | "VOCABULARY_READING";
 
-export type QuizMode = "meaning" | "grammar" | "example" | "nuance";
+export type QuizMode = "meaning" | "grammar" | "example" | "sentenceOrder" | "nuance";
 
 export type QuizPhase = "NORMAL" | "REVIEW" | "SET_COMPLETE";
 
@@ -18,6 +18,14 @@ export interface QuizChoice {
   id: string;
   text: string;
   sourceGrammarId?: string;
+}
+
+export interface SentenceOrderQuestionData {
+  prefix: string;
+  suffix: string;
+  fullSentence: string;
+  translationKo: string;
+  correctChoiceIds: string[];
 }
 
 export interface QuizQuestion {
@@ -28,7 +36,9 @@ export interface QuizQuestion {
   subPrompt?: string;
   choices: QuizChoice[];
   answerChoiceId: string;
+  answerChoiceIds?: string[];
   explanation: string;
+  sentenceOrder?: SentenceOrderQuestionData;
   sourceGrammarId?: string;
   sourceVocabularyId?: string;
   sourceExampleId?: string;
@@ -38,6 +48,7 @@ export interface QuizQuestion {
 export interface WrongAnswerRecord {
   questionId: string;
   selectedChoiceId?: string;
+  selectedChoiceIds?: string[];
   inputAnswer?: string;
   correctAnswer: string;
   answeredAt: string;
@@ -71,12 +82,14 @@ export interface PersistedQuizSession {
 
 export interface UserAnswer {
   selectedChoiceId?: string;
+  selectedChoiceIds?: string[];
   inputAnswer?: string;
 }
 
 export interface AnswerResult {
   isCorrect: boolean;
   selectedChoiceId?: string;
+  selectedChoiceIds?: string[];
   inputAnswer?: string;
   correctAnswer: string;
   explanation: string;

@@ -28,7 +28,8 @@ function QuizSessionPanel({ mode, grammarItems, onModeChange }: QuizSessionPanel
 
   const answeredCount = session.correctCount + session.wrongCount;
   const accuracy = answeredCount > 0 ? `${Math.round((session.correctCount / answeredCount) * 100)}%` : "—";
-  const selectedChoiceId = answerResult?.selectedChoiceId ?? null;
+  const selectedChoiceId = answerResult?.selectedChoiceId;
+  const selectedChoiceIds = answerResult?.selectedChoiceIds;
   const displayQuestion = session.currentQuestion ?? (answerResult !== null ? answeredQuestion : null);
   const isLastQuestion = session.currentQuestionIndex >= session.currentQuestions.length - 1;
   const progressText =
@@ -41,12 +42,12 @@ function QuizSessionPanel({ mode, grammarItems, onModeChange }: QuizSessionPanel
       : "세트 결과 보기 →"
     : "다음 문제 →";
 
-  const handleSelect = (choiceId: string) => {
+  const handleAnswer = (answer: Parameters<typeof session.answerCurrentQuestion>[0]) => {
     if (answerResult !== null || session.currentQuestion === undefined) {
       return;
     }
 
-    setAnswerResult(session.answerCurrentQuestion({ selectedChoiceId: choiceId }));
+    setAnswerResult(session.answerCurrentQuestion(answer));
     setAnsweredQuestion(session.currentQuestion);
   };
 
@@ -144,9 +145,10 @@ function QuizSessionPanel({ mode, grammarItems, onModeChange }: QuizSessionPanel
           question={displayQuestion}
           questionIndex={session.currentQuestionIndex}
           selectedChoiceId={selectedChoiceId}
+          selectedChoiceIds={selectedChoiceIds}
           totalQuestions={session.currentQuestions.length}
+          onAnswer={handleAnswer}
           onNext={handleNext}
-          onSelect={handleSelect}
         />
       )}
     </>

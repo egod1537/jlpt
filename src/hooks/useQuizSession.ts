@@ -30,6 +30,12 @@ interface UseQuizSessionResult extends QuizSessionState {
 }
 
 function getCorrectAnswer(question: QuizQuestion): string {
+  if (question.answerChoiceIds !== undefined) {
+    return question.answerChoiceIds
+      .map((choiceId) => question.choices.find((choice) => choice.id === choiceId)?.text ?? choiceId)
+      .join(" / ");
+  }
+
   return question.choices.find((choice) => choice.id === question.answerChoiceId)?.text ?? question.answerChoiceId;
 }
 
@@ -41,6 +47,7 @@ function buildWrongAnswerRecord(
   return {
     questionId: question.id,
     selectedChoiceId: answer.selectedChoiceId,
+    selectedChoiceIds: answer.selectedChoiceIds,
     inputAnswer: answer.inputAnswer,
     correctAnswer: getCorrectAnswer(question),
     answeredAt: new Date().toISOString(),
@@ -49,6 +56,14 @@ function buildWrongAnswerRecord(
 }
 
 function isAnswerCorrect(question: QuizQuestion, answer: UserAnswer): boolean {
+  if (question.answerChoiceIds !== undefined) {
+    return (
+      answer.selectedChoiceIds !== undefined &&
+      question.answerChoiceIds.length === answer.selectedChoiceIds.length &&
+      question.answerChoiceIds.every((choiceId, index) => choiceId === answer.selectedChoiceIds?.[index])
+    );
+  }
+
   if (answer.selectedChoiceId !== undefined) {
     return answer.selectedChoiceId === question.answerChoiceId;
   }
@@ -164,6 +179,7 @@ export function useQuizSession({ setSize, questionPool }: UseQuizSessionOptions)
     const result: AnswerResult = {
       isCorrect,
       selectedChoiceId: answer.selectedChoiceId,
+      selectedChoiceIds: answer.selectedChoiceIds,
       inputAnswer: answer.inputAnswer,
       correctAnswer: getCorrectAnswer(question),
       explanation: question.explanation,
