@@ -1,10 +1,11 @@
-import type { GrammarExample, GrammarItem } from "../types/grammar";
-import type { FillBlankSentenceContext } from "../types/grammar";
+import type { FillBlankSentenceContext, GrammarExample, GrammarItem } from "../types/grammar";
 import type { QuizChoice, QuizMode, QuizQuestion, QuizType, SentenceOrderQuestionData } from "../types/quiz";
 import { fillBlankQuestions, type FillBlankQuestion } from "../data/quiz/fillBlankQuestions";
 import { sentenceOrderQuestions, type SentenceOrderQuestion } from "../data/quiz/sentenceOrderQuestions";
 import { generateFillBlankChoices, generateGrammarChoices } from "./choiceGenerator";
 import { shuffle, shuffleWithSeed } from "./shuffle";
+
+export const QUESTIONS_PER_GRAMMAR = 20;
 
 export const quizModes: Array<{ id: QuizMode; label: string }> = [
   { id: "meaning", label: "뜻 맞추기" },
@@ -19,6 +20,29 @@ function modeToQuizType(mode: QuizMode): QuizType {
   if (mode === "example") return "EXAMPLE_BLANK";
   return "SENTENCE_ORDER";
 }
+
+interface ExampleTargetMatch {
+  example: GrammarExample;
+  target: string;
+  targetIndex: number;
+}
+
+const TARGET_FORM_OVERRIDES: Readonly<Record<string, readonly string[]>> = {
+  "n2-011": ["かいもなく", "がいがある"],
+  "n2-020": ["と思ったら", "かと思うと"],
+  "n2-032": ["きった", "きれる", "きれない", "きる"],
+  "n2-044": ["際は", "際に"],
+  "n2-050": ["末に", "末の"],
+  "n2-075": ["ではありませんか", "ではないか"],
+  "n2-076": ["じゃありませんか", "ではないか"],
+  "n2-077": ["でほしいものだ", "てほしいものだ"],
+  "n2-088": ["どころではなかった", "どころではない", "ところではない"],
+  "n2-132": ["抜きで", "ぬきで"],
+  "n2-133": ["ぬいた", "ぬく"],
+  "n2-166": ["もうとしていた", "ようとしている"],
+  "n2-178": ["んじゃありません", "んじゃない"],
+  "n2-179": ["んです", "んだ"],
+};
 
 function buildChoices(items: readonly GrammarItem[], textSelector: (item: GrammarItem) => string): QuizChoice[] {
   return items.map((item) => ({
@@ -39,6 +63,10 @@ function expandOptionalParentheses(value: string): string[] {
   const optional = match[1] ?? "";
   const after = value.slice(match.index + match[0].length);
 
+  if (/[가-힣]/.test(optional)) {
+    return expandOptionalParentheses(`${before}${after}`);
+  }
+
   return [
     ...expandOptionalParentheses(`${before}${optional}${after}`),
     ...expandOptionalParentheses(`${before}${after}`),
@@ -47,6 +75,7 @@ function expandOptionalParentheses(value: string): string[] {
 
 function getExpressionVariants(item: GrammarItem): string[] {
   const rawCandidates = [
+    ...(TARGET_FORM_OVERRIDES[item.id] ?? []),
     item.expression,
     item.expression.replace(/（[^）]+）/g, ""),
     ...item.expression.split(/[\/／]/),
@@ -79,33 +108,77 @@ function getExpressionVariants(item: GrammarItem): string[] {
   return [...new Set(variants)].sort((a, b) => b.length - a.length);
 }
 
-function findExampleWithExpression(item: GrammarItem): { example: GrammarExample; expression: string } {
+function findExampleTargetMatches(item: GrammarItem): ExampleTargetMatch[] {
   const variants = getExpressionVariants(item);
+  const matches: ExampleTargetMatch[] = [];
 
-  for (const example of item.examples) {
-    const expression = variants.find((variant) => example.japanese.includes(variant));
+  item.examples.forEach((example) => {
+    const exampleMatches: ExampleTargetMatch[] = [];
 
-    if (expression !== undefined) {
-      return { example, expression };
-    }
+    variants.forEach((target) => {
+      let searchIndex = 0;
+
+      while (searchIndex < example.japanese.length) {
+        const targetIndex = example.japanese.indexOf(target, searchIndex);
+
+        if (targetIndex < 0) {
+          break;
+        }
+
+        exampleMatches.push({ example, target, targetIndex });
+        searchIndex = targetIndex + Math.max(1, target.length);
+      }
+    });
+
+    exampleMatches
+      .sort((left, right) => right.target.length - left.target.length || left.targetIndex - right.targetIndex)
+      .forEach((match) => {
+        const overlapsLongerMatch = matches.some(
+          (existing) =>
+            existing.example.id === match.example.id &&
+            existing.targetIndex <= match.targetIndex &&
+            existing.targetIndex + existing.target.length >= match.targetIndex + match.target.length,
+        );
+
+        if (!overlapsLongerMatch) {
+          matches.push(match);
+        }
+      });
+  });
+
+  return matches;
+}
+
+function findExampleWithExpression(item: GrammarItem): ExampleTargetMatch {
+  const match = findExampleTargetMatches(item)[0];
+
+  if (match !== undefined) {
+    return match;
   }
 
+  const variants = getExpressionVariants(item);
+  const fallbackExample = item.examples[0] ?? {
+    id: `${item.id}-fallback-example`,
+    japanese: item.expression,
+    korean: item.meaningKo,
+  };
+  const fallbackTarget = variants[0] ?? item.expression;
+
   return {
-    example: item.examples[0] ?? {
-      id: `${item.id}-fallback-example`,
-      japanese: item.expression,
-      korean: item.meaningKo,
-    },
-    expression: variants[0] ?? item.expression,
+    example: fallbackExample,
+    target: fallbackTarget,
+    targetIndex: fallbackExample.japanese.indexOf(fallbackTarget),
   };
 }
 
-function blankExpression(sentence: string, expression: string): string {
-  if (sentence.includes(expression)) {
-    return sentence.replace(expression, "（　　　）");
+function blankTarget(match: ExampleTargetMatch): string {
+  if (match.targetIndex < 0) {
+    return `${match.example.japanese}　（　　　）`;
   }
 
-  return `${sentence}　（　　　）`;
+  return `${match.example.japanese.slice(0, match.targetIndex)}（　　　）${match.example.japanese.slice(
+    match.targetIndex + match.target.length,
+  )}`;
 }
 
 function buildDefaultFillBlankContext(item: GrammarItem): FillBlankSentenceContext {
@@ -359,7 +432,9 @@ export function generateQuizQuestion(
 ): QuizQuestion {
   const questionId = `${mode}-${correct.id}`;
   const choiceItems = generateGrammarChoices(correct, allGrammar, 4, questionId);
-  const { example, expression } = findExampleWithExpression(correct);
+  const exampleMatch = findExampleWithExpression(correct);
+  const { example } = exampleMatch;
+  const expression = exampleMatch.target;
 
   if (mode === "meaning") {
     return {
@@ -402,12 +477,13 @@ export function generateQuizQuestion(
       seed: questionId,
     });
     const answerChoiceId = fillBlankChoices.find((choice) => choice.grammarId === correct.id && !choice.isSimilarDistractor)?.id;
+    const sentenceWithBlank = blankTarget(exampleMatch);
 
     return {
       id: questionId,
       type: modeToQuizType(mode),
       level: correct.level,
-      prompt: blankExpression(example.japanese, expression),
+      prompt: sentenceWithBlank,
       subPrompt: "次の文の（　　　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
       choices: fillBlankChoices.map((choice) => ({
         id: choice.id,
@@ -423,7 +499,7 @@ export function generateQuizQuestion(
       }),
       fillBlank: {
         sentence: example.japanese,
-        sentenceWithBlank: blankExpression(example.japanese, expression),
+        sentenceWithBlank,
         korean: example.korean,
         sourceGrammarIds: [correct.id, ...correct.similarGrammarIds],
         answerBaseExpression: correct.expression,

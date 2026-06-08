@@ -25,7 +25,91 @@ export function buildGrammarQuestionPool(
 function shouldUseSequentialSets(questionPool: readonly QuizQuestion[]): boolean {
   const quizType = questionPool[0]?.type;
 
-  return quizType === "GRAMMAR_MEANING" || quizType === "GRAMMAR_SELECT" || quizType === "SENTENCE_ORDER";
+  return (
+    quizType === "GRAMMAR_MEANING" ||
+    quizType === "GRAMMAR_SELECT" ||
+    quizType === "EXAMPLE_BLANK" ||
+    quizType === "SENTENCE_ORDER"
+  );
+}
+
+function shouldUseUniqueAnswerGrammarSets(questionPool: readonly QuizQuestion[]): boolean {
+  const quizType = questionPool[0]?.type;
+
+  return quizType === "EXAMPLE_BLANK" || quizType === "SENTENCE_ORDER";
+}
+
+function getAnswerGrammarKey(question: QuizQuestion): string {
+  return question.sourceGrammarId ?? `question:${question.id}`;
+}
+
+export function hasUniqueAnswerGrammars(questions: readonly QuizQuestion[]): boolean {
+  const answerGrammarKeys = questions.map(getAnswerGrammarKey);
+
+  return new Set(answerGrammarKeys).size === answerGrammarKeys.length;
+}
+
+export function arrangeQuestionsIntoUniqueAnswerSets(
+  questionPool: readonly QuizQuestion[],
+  setSize: number,
+): QuizQuestion[] {
+  if (questionPool.length === 0) {
+    return [];
+  }
+
+  const setCount = Math.ceil(questionPool.length / setSize);
+  const groupedQuestions = new Map<string, QuizQuestion[]>();
+
+  questionPool.forEach((question) => {
+    const answerGrammarKey = getAnswerGrammarKey(question);
+    const group = groupedQuestions.get(answerGrammarKey) ?? [];
+
+    group.push(question);
+    groupedQuestions.set(answerGrammarKey, group);
+  });
+
+  const groups = [...groupedQuestions.values()].sort((left, right) => right.length - left.length);
+  const largestGroupSize = groups[0]?.length ?? 0;
+
+  if (largestGroupSize > setCount) {
+    throw new Error("There are too many questions with the same answer grammar to keep every set unique.");
+  }
+
+  const targetSetSizes = Array.from({ length: setCount }, (_, setIndex) =>
+    setIndex === setCount - 1 ? questionPool.length - setSize * setIndex : setSize,
+  );
+  const questionSets = targetSetSizes.map(() => [] as QuizQuestion[]);
+
+  groups.forEach((group) => {
+    const usedSetIndexes = new Set<number>();
+
+    group.forEach((question) => {
+      let selectedSetIndex = -1;
+      let largestRemainingCapacity = -1;
+
+      questionSets.forEach((questionSet, setIndex) => {
+        const remainingCapacity = (targetSetSizes[setIndex] ?? 0) - questionSet.length;
+
+        if (
+          !usedSetIndexes.has(setIndex) &&
+          remainingCapacity > 0 &&
+          remainingCapacity > largestRemainingCapacity
+        ) {
+          selectedSetIndex = setIndex;
+          largestRemainingCapacity = remainingCapacity;
+        }
+      });
+
+      if (selectedSetIndex < 0) {
+        throw new Error("Unable to distribute questions without repeating an answer grammar in a set.");
+      }
+
+      questionSets[selectedSetIndex]?.push(question);
+      usedSetIndexes.add(selectedSetIndex);
+    });
+  });
+
+  return questionSets.flat();
 }
 
 export function buildQuizSet(
@@ -37,8 +121,11 @@ export function buildQuizSet(
     const totalSets = Math.max(1, Math.ceil(questionPool.length / setSize));
     const normalizedSetIndex = currentSetIndex % totalSets;
     const startIndex = normalizedSetIndex * setSize;
+    const orderedQuestionPool = shouldUseUniqueAnswerGrammarSets(questionPool)
+      ? arrangeQuestionsIntoUniqueAnswerSets(questionPool, setSize)
+      : questionPool;
 
-    return questionPool.slice(startIndex, startIndex + setSize);
+    return orderedQuestionPool.slice(startIndex, startIndex + setSize);
   }
 
   return shuffle(questionPool).slice(0, setSize);

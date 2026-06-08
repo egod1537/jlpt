@@ -21,7 +21,7 @@ interface QuizSessionPanelProps {
 const QUIZ_SET_SIZE = 20;
 
 function usesSelectableSets(mode: QuizMode): boolean {
-  return mode === "meaning" || mode === "grammar" || mode === "sentenceOrder";
+  return mode === "meaning" || mode === "grammar" || mode === "example" || mode === "sentenceOrder";
 }
 
 function QuizSessionPanel({ mode, grammarItems, onModeChange }: QuizSessionPanelProps) {

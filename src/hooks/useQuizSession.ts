@@ -8,7 +8,12 @@ import type {
   UserAnswer,
   WrongAnswerRecord,
 } from "../types/quiz";
-import { buildQuizSet, getQuestionsByIds, getReviewQuestions } from "../utils/quizSetBuilder";
+import {
+  buildQuizSet,
+  getQuestionsByIds,
+  getReviewQuestions,
+  hasUniqueAnswerGrammars,
+} from "../utils/quizSetBuilder";
 import {
   clearPersistedQuizSession,
   loadPersistedQuizSession,
@@ -89,7 +94,12 @@ function withProceedFlag(state: Omit<QuizSessionState, "canProceedToNextSet">): 
 function shouldNormalizeSetIndex(questionPool: readonly QuizQuestion[]): boolean {
   const quizType = questionPool[0]?.type;
 
-  return quizType === "GRAMMAR_MEANING" || quizType === "GRAMMAR_SELECT" || quizType === "SENTENCE_ORDER";
+  return (
+    quizType === "GRAMMAR_MEANING" ||
+    quizType === "GRAMMAR_SELECT" ||
+    quizType === "EXAMPLE_BLANK" ||
+    quizType === "SENTENCE_ORDER"
+  );
 }
 
 function normalizeSetIndex(
@@ -151,6 +161,10 @@ function restoreState(
   const persistedQuestions = getQuestionsByIds(questionPool, persisted.currentQuestionIds);
 
   if (persistedQuestions.length === 0) {
+    return null;
+  }
+
+  if (!hasUniqueAnswerGrammars(persistedQuestions)) {
     return null;
   }
 
