@@ -70,7 +70,7 @@ export function QuizSetResult({
             다음 세트로
           </button>
           <button className="quiz-secondary-btn" type="button" onClick={onReset}>
-            세션 초기화
+            현재 세트 다시 시작
           </button>
         </div>
       </div>

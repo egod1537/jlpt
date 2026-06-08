@@ -26,6 +26,7 @@ interface UseQuizSessionResult extends QuizSessionState {
   startReviewSession: () => void;
   goToNextQuestion: () => void;
   goToNextSet: () => void;
+  startSet: (setIndex: number) => void;
   resetSession: () => void;
 }
 
@@ -85,16 +86,38 @@ function withProceedFlag(state: Omit<QuizSessionState, "canProceedToNextSet">): 
   };
 }
 
+function shouldNormalizeSetIndex(questionPool: readonly QuizQuestion[]): boolean {
+  const quizType = questionPool[0]?.type;
+
+  return quizType === "GRAMMAR_MEANING" || quizType === "GRAMMAR_SELECT" || quizType === "SENTENCE_ORDER";
+}
+
+function normalizeSetIndex(
+  questionPool: readonly QuizQuestion[],
+  setSize: number,
+  currentSetIndex: number,
+): number {
+  if (!shouldNormalizeSetIndex(questionPool)) {
+    return currentSetIndex;
+  }
+
+  const totalSets = Math.max(1, Math.ceil(questionPool.length / setSize));
+
+  return currentSetIndex % totalSets;
+}
+
 function createNormalState(
   questionPool: readonly QuizQuestion[],
   setSize: number,
   currentSetIndex: number,
 ): QuizSessionState {
+  const normalizedSetIndex = normalizeSetIndex(questionPool, setSize, currentSetIndex);
+
   return withProceedFlag({
-    currentSetIndex,
+    currentSetIndex: normalizedSetIndex,
     phase: "NORMAL",
     currentQuestionIndex: 0,
-    currentQuestions: buildQuizSet(questionPool, setSize, currentSetIndex),
+    currentQuestions: buildQuizSet(questionPool, setSize, normalizedSetIndex),
     wrongQueue: [],
     correctCount: 0,
     wrongCount: 0,
@@ -142,8 +165,10 @@ function restoreState(
     return createNormalState(questionPool, setSize, persisted.currentSetIndex);
   }
 
+  const currentSetIndex = normalizeSetIndex(questionPool, setSize, persisted.currentSetIndex);
+
   return withProceedFlag({
-    currentSetIndex: persisted.currentSetIndex,
+    currentSetIndex,
     phase,
     currentQuestionIndex: clampQuestionIndex(persisted.currentQuestionIndex, restoredQuestions),
     currentQuestions: restoredQuestions,
@@ -319,6 +344,10 @@ export function useQuizSession({ setSize, questionPool }: UseQuizSessionOptions)
     setState((currentState) => createNormalState(questionPool, setSize, currentState.currentSetIndex + 1));
   };
 
+  const startSet = (setIndex: number) => {
+    setState(createNormalState(questionPool, setSize, setIndex));
+  };
+
   const resetSession = () => {
     clearPersistedQuizSession();
     setState(createNormalState(questionPool, setSize, 0));
@@ -340,6 +369,7 @@ export function useQuizSession({ setSize, questionPool }: UseQuizSessionOptions)
     startReviewSession,
     goToNextQuestion,
     goToNextSet,
+    startSet,
     resetSession,
   };
 }

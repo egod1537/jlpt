@@ -16,7 +16,7 @@ export function buildGrammarQuestionPool(
   if (mode === "sentenceOrder") {
     const manualQuestions = getManualSentenceOrderQuestions();
 
-    return manualQuestions.length > 0 ? manualQuestions : generatedQuestions;
+    return [...manualQuestions, ...generatedQuestions];
   }
 
   return generatedQuestions;
@@ -25,7 +25,7 @@ export function buildGrammarQuestionPool(
 function shouldUseSequentialSets(questionPool: readonly QuizQuestion[]): boolean {
   const quizType = questionPool[0]?.type;
 
-  return quizType === "GRAMMAR_MEANING" || quizType === "GRAMMAR_SELECT";
+  return quizType === "GRAMMAR_MEANING" || quizType === "GRAMMAR_SELECT" || quizType === "SENTENCE_ORDER";
 }
 
 export function buildQuizSet(

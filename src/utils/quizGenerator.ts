@@ -11,15 +11,13 @@ export const quizModes: Array<{ id: QuizMode; label: string }> = [
   { id: "grammar", label: "문법 맞추기" },
   { id: "example", label: "빈칸 문제" },
   { id: "sentenceOrder", label: "문장 배열" },
-  { id: "nuance", label: "뉘앙스 구분" },
 ];
 
 function modeToQuizType(mode: QuizMode): QuizType {
   if (mode === "meaning") return "GRAMMAR_MEANING";
   if (mode === "grammar") return "GRAMMAR_SELECT";
   if (mode === "example") return "EXAMPLE_BLANK";
-  if (mode === "sentenceOrder") return "SENTENCE_ORDER";
-  return "NUANCE_SELECT";
+  return "SENTENCE_ORDER";
 }
 
 function buildChoices(items: readonly GrammarItem[], textSelector: (item: GrammarItem) => string): QuizChoice[] {
@@ -460,20 +458,7 @@ export function generateQuizQuestion(
     };
   }
 
-  const nuanceChoiceItems = shuffle(choiceItems);
-
-  return {
-    id: questionId,
-    type: modeToQuizType(mode),
-    level: correct.level,
-    prompt: correct.expression,
-    subPrompt: correct.meaningKo,
-    choices: buildChoices(nuanceChoiceItems, (item) => item.nuanceKo),
-    answerChoiceId: correct.id,
-    explanation: correct.nuanceKo,
-    sourceGrammarId: correct.id,
-    tags: correct.tags,
-  };
+  throw new Error(`Unsupported quiz mode: ${mode}`);
 }
 
 export function generateQuizSet(

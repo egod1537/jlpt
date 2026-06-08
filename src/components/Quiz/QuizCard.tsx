@@ -19,7 +19,7 @@ function getQuestionLabel(question: QuizQuestion): string {
   if (question.type === "GRAMMAR_SELECT") return "어떤 문법 표현인가?";
   if (question.type === "EXAMPLE_BLANK") return "JLPT 빈칸 문제";
   if (question.type === "SENTENCE_ORDER") return "JLPT 문장 배열";
-  return "이 문법과 일치하는 뉘앙스를 선택하세요";
+  return "문제를 풀어보세요";
 }
 
 function getPromptClass(question: QuizQuestion): string {
@@ -97,7 +97,6 @@ export function QuizCard({
   const progress = Math.round((questionIndex / totalQuestions) * 100);
   const isSentenceOrderQuestion = question.type === "SENTENCE_ORDER";
   const isAnswered = selectedChoiceId !== undefined || selectedChoiceIds !== undefined;
-  const isNuanceQuestion = question.type === "NUANCE_SELECT";
   const visibleOrder = selectedChoiceIds ?? draftOrder;
 
   useEffect(() => {
@@ -218,12 +217,11 @@ export function QuizCard({
           )}
         </>
       ) : (
-        <div className={`quiz-choices${isNuanceQuestion ? " single-column" : ""}`}>
+        <div className="quiz-choices">
           {question.choices.map((choice) => (
             <ChoiceButton
               answerChoiceId={question.answerChoiceId}
               choice={choice}
-              compact={isNuanceQuestion}
               key={choice.id}
               selectedChoiceId={selectedChoiceId ?? null}
               onSelect={(choiceId) => onAnswer({ selectedChoiceId: choiceId })}

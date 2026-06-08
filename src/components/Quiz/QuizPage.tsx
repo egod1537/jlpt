@@ -20,6 +20,10 @@ interface QuizSessionPanelProps {
 
 const QUIZ_SET_SIZE = 20;
 
+function usesSelectableSets(mode: QuizMode): boolean {
+  return mode === "meaning" || mode === "grammar" || mode === "sentenceOrder";
+}
+
 function QuizSessionPanel({ mode, grammarItems, onModeChange }: QuizSessionPanelProps) {
   const questionPool = useMemo(() => buildGrammarQuestionPool(mode, grammarItems), [grammarItems, mode]);
   const session = useQuizSession({ questionPool, setSize: QUIZ_SET_SIZE });
@@ -27,6 +31,7 @@ function QuizSessionPanel({ mode, grammarItems, onModeChange }: QuizSessionPanel
   const [answeredQuestion, setAnsweredQuestion] = useState<QuizQuestion | null>(null);
 
   const answeredCount = session.correctCount + session.wrongCount;
+  const setCount = Math.ceil(questionPool.length / QUIZ_SET_SIZE);
   const accuracy = answeredCount > 0 ? `${Math.round((session.correctCount / answeredCount) * 100)}%` : "—";
   const selectedChoiceId = answerResult?.selectedChoiceId;
   const selectedChoiceIds = answerResult?.selectedChoiceIds;
@@ -69,8 +74,14 @@ function QuizSessionPanel({ mode, grammarItems, onModeChange }: QuizSessionPanel
     setAnsweredQuestion(null);
   };
 
+  const handleSetSelect = (setIndex: number) => {
+    session.startSet(setIndex);
+    setAnswerResult(null);
+    setAnsweredQuestion(null);
+  };
+
   const handleReset = () => {
-    session.resetSession();
+    session.startSet(session.currentSetIndex);
     setAnswerResult(null);
     setAnsweredQuestion(null);
   };
@@ -115,6 +126,32 @@ function QuizSessionPanel({ mode, grammarItems, onModeChange }: QuizSessionPanel
       </div>
 
       <QuizModeSelector activeMode={mode} onModeChange={onModeChange} />
+
+      {usesSelectableSets(mode) && (
+        <div className="quiz-set-selector" aria-label="문제 세트 선택">
+          <span className="set-selector-label">세트 선택</span>
+          <div className="set-selector-buttons">
+            {Array.from({ length: setCount }, (_, setIndex) => {
+              const startNumber = setIndex * QUIZ_SET_SIZE + 1;
+              const endNumber = Math.min((setIndex + 1) * QUIZ_SET_SIZE, questionPool.length);
+
+              return (
+                <button
+                  className={`set-selector-btn${session.currentSetIndex === setIndex ? " active" : ""}`}
+                  key={setIndex}
+                  type="button"
+                  onClick={() => handleSetSelect(setIndex)}
+                >
+                  {setIndex + 1}세트
+                  <span>
+                    {startNumber}-{endNumber}
+                  </span>
+                </button>
+              );
+            })}
+          </div>
+        </div>
+      )}
 
       {session.phase === "REVIEW" && (
         <ReviewGate

@@ -6,12 +6,11 @@ export type QuizType =
   | "EXAMPLE_BLANK"
   | "FILL_BLANK"
   | "SENTENCE_ORDER"
-  | "NUANCE_SELECT"
   | "CONNECTION_SELECT"
   | "VOCABULARY_MEANING"
   | "VOCABULARY_READING";
 
-export type QuizMode = "meaning" | "grammar" | "example" | "sentenceOrder" | "nuance";
+export type QuizMode = "meaning" | "grammar" | "example" | "sentenceOrder";
 
 export type QuizPhase = "NORMAL" | "REVIEW" | "SET_COMPLETE";
 
