@@ -334,7 +334,7 @@ function splitJapaneseChunks(value: string, maxChunks: number): string[] {
   }
 
   const chunks = normalized
-    .split(/(?<=、)|(?<=て)|(?<=で)|(?<=に)|(?<=を)|(?<=は)|(?<=が)|(?<=と)|(?<=も)|(?<=べきだ)|(?<=だ)|(?<=です)/)
+    .split(/(?<=、)|(?<=て)|(?<=で)|(?<=に)|(?<=を)|(?<=は)|(?<=が)|(?<=も)|(?<=べきだ)|(?<=だ)|(?<=です)/)
     .map((chunk) => chunk.replace(/、/g, "").trim())
     .filter(Boolean);
 
@@ -418,7 +418,7 @@ function buildSentenceOrderData(
       prefix,
       suffix,
       fullSentence: example.japanese,
-      sentenceWithBlanks: `${prefix}${safePieces.map(() => "____").join(" ")}${suffix}`,
+      sentenceWithBlanks: `${prefix}${prefix ? " " : ""}${safePieces.map(() => "____").join(" ")}${suffix ? ` ${suffix}` : ""}`,
       translationKo: example.korean,
       correctChoiceIds: correctChoices.map((choice) => choice.id),
     },

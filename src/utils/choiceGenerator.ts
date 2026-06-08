@@ -89,8 +89,9 @@ function scoreBlankChoiceForm(item: GrammarItem, context: FillBlankSentenceConte
 
 function cleanBaseExpression(expression: string): string {
   return expression
-    .replace(/（([^）]+)）/g, "$1")
+    .replace(/（([^）]+)）/g, (_, optional: string) => (/[가-힣]/.test(optional) ? "" : optional))
     .replace(/\([^)]*\)/g, "")
+    .replace(/[가-힣]+/g, "")
     .split(/[\/／~～]/)[0]
     .trim();
 }
