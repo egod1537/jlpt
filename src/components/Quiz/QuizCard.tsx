@@ -52,6 +52,37 @@ function SentenceOrderPrompt({ question }: { question: QuizQuestion }) {
   );
 }
 
+function SentenceOrderPreview({
+  question,
+  selectedPieceIds,
+}: {
+  question: QuizQuestion;
+  selectedPieceIds: readonly string[];
+}) {
+  const sentenceWithBlanks = question.sentenceOrder?.sentenceWithBlanks ?? question.subPrompt ?? "";
+  const parts = sentenceWithBlanks.split("____");
+
+  return (
+    <div className="sentence-order-line live">
+      {parts.map((part, index) => {
+        const selectedChoice = question.choices.find((choice) => choice.id === selectedPieceIds[index]);
+
+        return (
+          <span className="sentence-order-fragment" key={`${question.id}-fragment-${index}`}>
+            {part}
+            {index < parts.length - 1 &&
+              (selectedChoice === undefined ? (
+                <span className="sentence-blank">{index + 1}</span>
+              ) : (
+                <span className="sentence-filled-piece">{selectedChoice.text}</span>
+              ))}
+          </span>
+        );
+      })}
+    </div>
+  );
+}
+
 export function QuizCard({
   question,
   questionIndex,
@@ -78,17 +109,24 @@ export function QuizCard({
       return;
     }
 
-    const nextOrder = [...draftOrder, choiceId];
-    setDraftOrder(nextOrder);
+    setDraftOrder((items) => [...items, choiceId]);
+  };
 
-    if (nextOrder.length === question.choices.length) {
-      onAnswer({ selectedChoiceIds: nextOrder });
+  const handleSentencePieceRemove = (choiceId: string) => {
+    if (!isAnswered) {
+      setDraftOrder((items) => items.filter((item) => item !== choiceId));
     }
   };
 
-  const handleSentenceUndo = () => {
+  const handleSentenceReset = () => {
     if (!isAnswered) {
-      setDraftOrder((items) => items.slice(0, -1));
+      setDraftOrder([]);
+    }
+  };
+
+  const handleSentenceCheck = () => {
+    if (!isAnswered && draftOrder.length === question.choices.length) {
+      onAnswer({ selectedPieceIds: draftOrder });
     }
   };
 
@@ -108,11 +146,12 @@ export function QuizCard({
         <>
           <div className={getPromptClass(question)}>{question.prompt}</div>
           <SentenceOrderPrompt question={question} />
+          <SentenceOrderPreview question={question} selectedPieceIds={visibleOrder} />
         </>
       ) : (
         <div className={getPromptClass(question)}>{question.prompt}</div>
       )}
-      {question.subPrompt !== undefined && <div className="quiz-sub">{question.subPrompt}</div>}
+      {question.subPrompt !== undefined && !isSentenceOrderQuestion && <div className="quiz-sub">{question.subPrompt}</div>}
 
       {isSentenceOrderQuestion ? (
         <>
@@ -121,13 +160,27 @@ export function QuizCard({
               const selectedChoice = question.choices.find((item) => item.id === visibleOrder[index]);
 
               return (
-                <div className="selected-order-slot" key={choice.id}>
+                <button
+                  className="selected-order-slot"
+                  disabled={isAnswered || selectedChoice === undefined}
+                  key={choice.id}
+                  type="button"
+                  onClick={() => selectedChoice !== undefined && handleSentencePieceRemove(selectedChoice.id)}
+                >
                   <span>{index + 1}</span>
                   {selectedChoice?.text ?? ""}
-                </div>
+                </button>
               );
             })}
           </div>
+          {!isAnswered && visibleOrder.length > 0 && (
+            <div className="selected-order-text">
+              선택한 순서:{" "}
+              {visibleOrder
+                .map((choiceId) => question.choices.find((item) => item.id === choiceId)?.text ?? choiceId)
+                .join(" / ")}
+            </div>
+          )}
           <div className="quiz-choices single-column sentence-choice-grid">
             {question.choices.map((choice, index) => {
               const selectedIndex = visibleOrder.indexOf(choice.id);
@@ -149,9 +202,19 @@ export function QuizCard({
             })}
           </div>
           {!isAnswered && (
-            <button className="sentence-undo-btn" disabled={draftOrder.length === 0} type="button" onClick={handleSentenceUndo}>
-              선택 취소
-            </button>
+            <div className="sentence-order-actions">
+              <button className="sentence-undo-btn" disabled={draftOrder.length === 0} type="button" onClick={handleSentenceReset}>
+                초기화
+              </button>
+              <button
+                className="sentence-check-btn"
+                disabled={draftOrder.length !== question.choices.length}
+                type="button"
+                onClick={handleSentenceCheck}
+              >
+                정답 확인
+              </button>
+            </div>
           )}
         </>
       ) : (

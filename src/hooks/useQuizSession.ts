@@ -47,7 +47,8 @@ function buildWrongAnswerRecord(
   return {
     questionId: question.id,
     selectedChoiceId: answer.selectedChoiceId,
-    selectedChoiceIds: answer.selectedChoiceIds,
+    selectedChoiceIds: answer.selectedChoiceIds ?? answer.selectedPieceIds,
+    selectedPieceIds: answer.selectedPieceIds,
     inputAnswer: answer.inputAnswer,
     correctAnswer: getCorrectAnswer(question),
     answeredAt: new Date().toISOString(),
@@ -56,11 +57,13 @@ function buildWrongAnswerRecord(
 }
 
 function isAnswerCorrect(question: QuizQuestion, answer: UserAnswer): boolean {
+  const selectedChoiceIds = answer.selectedChoiceIds ?? answer.selectedPieceIds;
+
   if (question.answerChoiceIds !== undefined) {
     return (
-      answer.selectedChoiceIds !== undefined &&
-      question.answerChoiceIds.length === answer.selectedChoiceIds.length &&
-      question.answerChoiceIds.every((choiceId, index) => choiceId === answer.selectedChoiceIds?.[index])
+      selectedChoiceIds !== undefined &&
+      question.answerChoiceIds.length === selectedChoiceIds.length &&
+      question.answerChoiceIds.every((choiceId, index) => choiceId === selectedChoiceIds[index])
     );
   }
 
@@ -91,7 +94,7 @@ function createNormalState(
     currentSetIndex,
     phase: "NORMAL",
     currentQuestionIndex: 0,
-    currentQuestions: buildQuizSet(questionPool, setSize),
+    currentQuestions: buildQuizSet(questionPool, setSize, currentSetIndex),
     wrongQueue: [],
     correctCount: 0,
     wrongCount: 0,
@@ -179,7 +182,8 @@ export function useQuizSession({ setSize, questionPool }: UseQuizSessionOptions)
     const result: AnswerResult = {
       isCorrect,
       selectedChoiceId: answer.selectedChoiceId,
-      selectedChoiceIds: answer.selectedChoiceIds,
+      selectedChoiceIds: answer.selectedChoiceIds ?? answer.selectedPieceIds,
+      selectedPieceIds: answer.selectedPieceIds,
       inputAnswer: answer.inputAnswer,
       correctAnswer: getCorrectAnswer(question),
       explanation: question.explanation,

@@ -12,7 +12,10 @@ export const n2Grammar: GrammarItem[] = [
     "nuanceKo": "오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
     "register": "중립",
     "frequency": 3,
-    "similarGrammarIds": [],
+    "similarGrammarIds": [
+      "n2-050",
+      "n2-059"
+    ],
     "similarExpressionNames": [
       "すえ（に）"
     ],
@@ -29,7 +32,26 @@ export const n2Grammar: GrammarItem[] = [
         "korean": "이 문제는 장시간 논의 끝에 결론이 미뤄졌다."
       }
     ],
-    "tags": []
+    "tags": [
+      "結果",
+      "悪い結果"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "past-verb",
+        "label": "Vた + あげく",
+        "text": "したあげく",
+        "requiredContext": "앞에 동사 과거형 의미가 필요한 문장",
+        "note": "오랜 과정 뒤 부정적 결과"
+      },
+      {
+        "formId": "noun-no",
+        "label": "Nの + あげく",
+        "text": "議論のあげく",
+        "requiredContext": "명사 과정이 필요한 문장",
+        "note": "논의·고민 끝의 부정적 결과"
+      }
+    ]
   },
   {
     "id": "n2-002",
@@ -42,7 +64,10 @@ export const n2Grammar: GrammarItem[] = [
     "nuanceKo": "감정·상태가 너무 강해서 평소와 다른 결과가 나옴.",
     "register": "중립",
     "frequency": 3,
-    "similarGrammarIds": [],
+    "similarGrammarIds": [
+      "n2-001",
+      "n2-059"
+    ],
     "similarExpressionNames": [
       "ばかりに"
     ],
@@ -59,7 +84,27 @@ export const n2Grammar: GrammarItem[] = [
         "korean": "시험 문제는 쉬웠는데 지나치게 생각한 나머지 틀렸다."
       }
     ],
-    "tags": []
+    "tags": [
+      "原因",
+      "程度",
+      "結果"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "dictionary-verb",
+        "label": "V辞書形 + あまり",
+        "text": "するあまり",
+        "requiredContext": "앞에 동사 사전형 의미가 필요한 문장",
+        "note": "지나친 감정·상태가 원인"
+      },
+      {
+        "formId": "past-verb",
+        "label": "Vた + あまり",
+        "text": "したあまり",
+        "requiredContext": "앞에 동사 과거형 의미가 필요한 문장",
+        "note": "지나친 행위 뒤 예상 밖 결과"
+      }
+    ]
   },
   {
     "id": "n2-003",
@@ -72,7 +117,11 @@ export const n2Grammar: GrammarItem[] = [
     "nuanceKo": "앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
     "register": "중립",
     "frequency": 3,
-    "similarGrammarIds": [],
+    "similarGrammarIds": [
+      "n2-007",
+      "n2-028",
+      "n2-059"
+    ],
     "similarExpressionNames": [
       "上は",
       "からには"
@@ -90,7 +139,27 @@ export const n2Grammar: GrammarItem[] = [
         "korean": "학생인 이상 공부를 최우선으로 하세요."
       }
     ],
-    "tags": []
+    "tags": [
+      "条件",
+      "責任",
+      "義務"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "past-verb",
+        "label": "Vた + 以上は",
+        "text": "した以上は",
+        "requiredContext": "앞에 동사 과거형 의미가 필요한 문장",
+        "note": "책임·의무·각오 문맥"
+      },
+      {
+        "formId": "noun-dearu",
+        "label": "Nである + 以上は",
+        "text": "学生である以上は",
+        "requiredContext": "명사 조건 문맥",
+        "note": "신분·입장에 따른 의무"
+      }
+    ]
   },
   {
     "id": "n2-004",
@@ -196,7 +265,10 @@ export const n2Grammar: GrammarItem[] = [
     "nuanceKo": "결심·각오가 강함. 이렇게 된 이상 당연히 해야 한다.",
     "register": "문어체",
     "frequency": 1,
-    "similarGrammarIds": [],
+    "similarGrammarIds": [
+      "n2-003",
+      "n2-028"
+    ],
     "similarExpressionNames": [
       "以上（は）",
       "からには"
@@ -214,7 +286,28 @@ export const n2Grammar: GrammarItem[] = [
         "korean": "실행하는 이상 충분한 준비가 필요하다."
       }
     ],
-    "tags": []
+    "tags": [
+      "条件",
+      "責任",
+      "義務",
+      "文語"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "dictionary-verb",
+        "label": "V辞書形 + 上は",
+        "text": "する上は",
+        "requiredContext": "앞에 동사 사전형 의미가 필요한 문장",
+        "note": "각오·결심이 강한 문어체"
+      },
+      {
+        "formId": "past-verb",
+        "label": "Vた + 上は",
+        "text": "した上は",
+        "requiredContext": "앞에 동사 과거형 의미가 필요한 문장",
+        "note": "이미 정한 이상 책임지는 문맥"
+      }
+    ]
   },
   {
     "id": "n2-008",
@@ -794,7 +887,11 @@ export const n2Grammar: GrammarItem[] = [
     "nuanceKo": "앞 이유만으로 뒤 결론이 반드시 성립하지 않음.",
     "register": "중립",
     "frequency": 3,
-    "similarGrammarIds": [],
+    "similarGrammarIds": [
+      "n2-003",
+      "n2-054",
+      "n2-059"
+    ],
     "similarExpressionNames": [
       "からには",
       "ので"
@@ -807,7 +904,27 @@ export const n2Grammar: GrammarItem[] = [
         "korean": "미국에 살았다고 해서 영어를 잘한다고는 할 수 없다."
       }
     ],
-    "tags": []
+    "tags": [
+      "理由",
+      "否定",
+      "制限"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "plain-form",
+        "label": "普通形 + からといって",
+        "text": "からといって",
+        "requiredContext": "앞말이 보통형으로 이미 끝난 문장",
+        "note": "뒤에 부정·제한 표현이 옴"
+      },
+      {
+        "formId": "past-verb",
+        "label": "Vた + からといって",
+        "text": "したからといって",
+        "requiredContext": "앞에 동사 과거형 의미가 필요한 문장",
+        "note": "그 이유만으로는 성립하지 않음"
+      }
+    ]
   },
   {
     "id": "n2-029",
@@ -1366,7 +1483,10 @@ export const n2Grammar: GrammarItem[] = [
     "nuanceKo": "오랜 과정 끝의 결론. あげく보다 중립적.",
     "register": "중립",
     "frequency": 2,
-    "similarGrammarIds": [],
+    "similarGrammarIds": [
+      "n2-001",
+      "n2-059"
+    ],
     "similarExpressionNames": [
       "あげく",
       "結果"
@@ -1379,7 +1499,25 @@ export const n2Grammar: GrammarItem[] = [
         "korean": "귀국한다는 것은 한참 고민한 끝에 내린 결론입니다."
       }
     ],
-    "tags": []
+    "tags": [
+      "結果"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "past-verb",
+        "label": "Vた + 末に",
+        "text": "した末に",
+        "requiredContext": "앞에 동사 과거형 의미가 필요한 문장",
+        "note": "오랜 과정 끝의 중립적 결과"
+      },
+      {
+        "formId": "noun-no",
+        "label": "Nの + 末に",
+        "text": "議論の末に",
+        "requiredContext": "명사 과정이 필요한 문장",
+        "note": "논의·고민 끝의 결론"
+      }
+    ]
   },
   {
     "id": "n2-051",
@@ -1470,7 +1608,10 @@ export const n2Grammar: GrammarItem[] = [
     "nuanceKo": "그만한 이유가 있어 기대대로라는 긍정 평가.",
     "register": "중립",
     "frequency": 3,
-    "similarGrammarIds": [],
+    "similarGrammarIds": [
+      "n2-028",
+      "n2-055"
+    ],
     "similarExpressionNames": [
       "だけに",
       "だけのことはある"
@@ -1483,7 +1624,27 @@ export const n2Grammar: GrammarItem[] = [
         "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다."
       }
     ],
-    "tags": []
+    "tags": [
+      "理由",
+      "評価",
+      "肯定"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "plain-form",
+        "label": "普通形 + だけあって",
+        "text": "だけあって",
+        "requiredContext": "앞말이 보통형으로 이미 끝난 문장",
+        "note": "기대에 맞는 긍정 평가"
+      },
+      {
+        "formId": "past-verb",
+        "label": "Vた + だけあって",
+        "text": "しただけあって",
+        "requiredContext": "앞에 동사 과거형 의미가 필요한 문장",
+        "note": "그만한 이유가 있어 납득되는 결과"
+      }
+    ]
   },
   {
     "id": "n2-055",
@@ -1600,7 +1761,11 @@ export const n2Grammar: GrammarItem[] = [
     "nuanceKo": "해도 원하는 결과가 나오지 않음.",
     "register": "중립",
     "frequency": 2,
-    "similarGrammarIds": [],
+    "similarGrammarIds": [
+      "n2-028",
+      "n2-003",
+      "n2-001"
+    ],
     "similarExpressionNames": [
       "ても",
       "ものの"
@@ -1613,7 +1778,20 @@ export const n2Grammar: GrammarItem[] = [
         "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다."
       }
     ],
-    "tags": []
+    "tags": [
+      "仮定",
+      "否定",
+      "制限"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "past-verb",
+        "label": "Vた + ところで",
+        "text": "したところで",
+        "requiredContext": "앞에 동사 과거형 의미가 필요한 문장",
+        "note": "해도 원하는 결과가 나오지 않는 문맥"
+      }
+    ]
   },
   {
     "id": "n2-060",

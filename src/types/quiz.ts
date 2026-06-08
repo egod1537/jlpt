@@ -4,6 +4,7 @@ export type QuizType =
   | "GRAMMAR_MEANING"
   | "GRAMMAR_SELECT"
   | "EXAMPLE_BLANK"
+  | "FILL_BLANK"
   | "SENTENCE_ORDER"
   | "NUANCE_SELECT"
   | "CONNECTION_SELECT"
@@ -18,12 +19,27 @@ export interface QuizChoice {
   id: string;
   text: string;
   sourceGrammarId?: string;
+  baseExpression?: string;
+  conjugatedExpression?: string;
+  isSimilarDistractor?: boolean;
+}
+
+export interface FillBlankQuestionDetails {
+  sentence: string;
+  sentenceWithBlank: string;
+  korean: string;
+  sourceGrammarIds: string[];
+  answerBaseExpression?: string;
+  answerMeaningKo?: string;
+  answerConnection?: string;
+  confusingNotes?: string[];
 }
 
 export interface SentenceOrderQuestionData {
   prefix: string;
   suffix: string;
   fullSentence: string;
+  sentenceWithBlanks: string;
   translationKo: string;
   correctChoiceIds: string[];
 }
@@ -39,7 +55,9 @@ export interface QuizQuestion {
   answerChoiceIds?: string[];
   explanation: string;
   sentenceOrder?: SentenceOrderQuestionData;
+  fillBlank?: FillBlankQuestionDetails;
   sourceGrammarId?: string;
+  sourceGrammarIds?: string[];
   sourceVocabularyId?: string;
   sourceExampleId?: string;
   tags: string[];
@@ -49,6 +67,7 @@ export interface WrongAnswerRecord {
   questionId: string;
   selectedChoiceId?: string;
   selectedChoiceIds?: string[];
+  selectedPieceIds?: string[];
   inputAnswer?: string;
   correctAnswer: string;
   answeredAt: string;
@@ -83,6 +102,7 @@ export interface PersistedQuizSession {
 export interface UserAnswer {
   selectedChoiceId?: string;
   selectedChoiceIds?: string[];
+  selectedPieceIds?: string[];
   inputAnswer?: string;
 }
 
@@ -90,6 +110,7 @@ export interface AnswerResult {
   isCorrect: boolean;
   selectedChoiceId?: string;
   selectedChoiceIds?: string[];
+  selectedPieceIds?: string[];
   inputAnswer?: string;
   correctAnswer: string;
   explanation: string;

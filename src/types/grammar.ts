@@ -11,6 +11,14 @@ export interface GrammarExample {
   explanation?: string;
 }
 
+export interface BlankChoiceForm {
+  formId: string;
+  label: string;
+  text: string;
+  requiredContext?: string;
+  note?: string;
+}
+
 export interface GrammarItem {
   id: string;
   no: number;
@@ -27,6 +35,26 @@ export interface GrammarItem {
   warningKo?: string;
   examples: GrammarExample[];
   tags: string[];
+  blankChoiceForms?: BlankChoiceForm[];
+}
+
+export interface FillBlankSentenceContext {
+  requiredConnectionType:
+    | "V_PAST"
+    | "V_DICTIONARY"
+    | "V_MASU_STEM"
+    | "V_NAI_STEM"
+    | "NOUN"
+    | "NA_ADJ"
+    | "I_ADJ"
+    | "PLAIN_FORM"
+    | "ANY";
+  semanticTags: string[];
+  expectsNegativeConclusion?: boolean;
+  expectsDutyOrResponsibility?: boolean;
+  expectsBadResult?: boolean;
+  expectsPossibility?: boolean;
+  expectsContrast?: boolean;
 }
 
 export interface GrammarCategory {

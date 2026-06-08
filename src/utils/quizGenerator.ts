@@ -1,6 +1,9 @@
 import type { GrammarExample, GrammarItem } from "../types/grammar";
+import type { FillBlankSentenceContext } from "../types/grammar";
 import type { QuizChoice, QuizMode, QuizQuestion, QuizType, SentenceOrderQuestionData } from "../types/quiz";
-import { generateGrammarChoices } from "./choiceGenerator";
+import { fillBlankQuestions, type FillBlankQuestion } from "../data/quiz/fillBlankQuestions";
+import { sentenceOrderQuestions, type SentenceOrderQuestion } from "../data/quiz/sentenceOrderQuestions";
+import { generateFillBlankChoices, generateGrammarChoices } from "./choiceGenerator";
 import { shuffle, shuffleWithSeed } from "./shuffle";
 
 export const quizModes: Array<{ id: QuizMode; label: string }> = [
@@ -107,6 +110,147 @@ function blankExpression(sentence: string, expression: string): string {
   return `${sentence}　（　　　）`;
 }
 
+function buildDefaultFillBlankContext(item: GrammarItem): FillBlankSentenceContext {
+  const connection = item.connection;
+  const requiredConnectionType = /Vた/.test(connection)
+    ? "V_PAST"
+    : /V辞書形/.test(connection)
+      ? "V_DICTIONARY"
+      : /Vます形語幹/.test(connection)
+        ? "V_MASU_STEM"
+        : /Vない形語幹/.test(connection)
+          ? "V_NAI_STEM"
+          : /普通形/.test(connection)
+            ? "PLAIN_FORM"
+            : /N\+|Nの|Nである/.test(connection)
+              ? "NOUN"
+              : "ANY";
+
+  return {
+    requiredConnectionType,
+    semanticTags: item.tags,
+    expectsNegativeConclusion: /否定|制限|とは限らない|わけではない|부정|제한/.test(
+      item.tags.join(" ") + item.nuanceKo + (item.warningKo ?? ""),
+    ),
+    expectsDutyOrResponsibility: /責任|義務|べき|당연|책임|의무/.test(item.tags.join(" ") + item.nuanceKo),
+    expectsBadResult: /悪い結果|부정적|나쁜|望ましくない/.test(item.tags.join(" ") + item.nuanceKo),
+  };
+}
+
+function buildConfusingNotes(questionGrammarIds: readonly string[], grammarById: ReadonlyMap<string, GrammarItem>): string[] {
+  return questionGrammarIds
+    .map((id) => grammarById.get(id))
+    .filter((item): item is GrammarItem => item !== undefined)
+    .map((item) => `${item.expression}: ${item.warningKo ?? item.nuanceKo}`);
+}
+
+function splitSentenceBlanks(sentenceWithBlanks: string): { prefix: string; suffix: string } {
+  const firstBlankIndex = sentenceWithBlanks.indexOf("____");
+  const lastBlankIndex = sentenceWithBlanks.lastIndexOf("____");
+
+  if (firstBlankIndex < 0 || lastBlankIndex < 0) {
+    return {
+      prefix: sentenceWithBlanks,
+      suffix: "",
+    };
+  }
+
+  return {
+    prefix: sentenceWithBlanks.slice(0, firstBlankIndex),
+    suffix: sentenceWithBlanks.slice(lastBlankIndex + "____".length),
+  };
+}
+
+function buildFillBlankExplanation(params: {
+  explanation: string;
+}): string {
+  return params.explanation;
+}
+
+export function buildManualFillBlankQuestion(
+  question: FillBlankQuestion,
+  allGrammar: readonly GrammarItem[],
+): QuizQuestion {
+  const grammarById = new Map(allGrammar.map((item) => [item.id, item]));
+  const answerChoice = question.choices.find((choice) => choice.id === question.answerChoiceId);
+  const correctGrammar = answerChoice === undefined ? undefined : grammarById.get(answerChoice.grammarId);
+  const choices: QuizChoice[] = question.choices.map((choice) => ({
+    id: choice.id,
+    text: choice.text,
+    sourceGrammarId: choice.grammarId,
+    baseExpression: choice.baseExpression,
+    conjugatedExpression: choice.conjugatedExpression,
+    isSimilarDistractor: choice.isSimilarDistractor,
+  }));
+  const confusingNotes = buildConfusingNotes(
+    question.sourceGrammarIds.filter((id) => id !== correctGrammar?.id),
+    grammarById,
+  );
+
+  return {
+    id: question.id,
+    type: "EXAMPLE_BLANK",
+    level: question.level,
+    prompt: question.sentenceWithBlank,
+    subPrompt: "次の文の（　　　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+    choices,
+    answerChoiceId: question.answerChoiceId,
+    explanation: buildFillBlankExplanation({
+      explanation: question.explanation,
+    }),
+    fillBlank: {
+      sentence: question.sentence,
+      sentenceWithBlank: question.sentenceWithBlank,
+      korean: question.korean,
+      sourceGrammarIds: question.sourceGrammarIds,
+      answerBaseExpression: answerChoice?.baseExpression ?? correctGrammar?.expression,
+      answerMeaningKo: correctGrammar?.meaningKo,
+      answerConnection: correctGrammar?.connection,
+      confusingNotes,
+    },
+    sourceGrammarId: correctGrammar?.id ?? answerChoice?.grammarId,
+    sourceGrammarIds: question.sourceGrammarIds,
+    tags: question.tags,
+  };
+}
+
+export function buildManualSentenceOrderQuestion(question: SentenceOrderQuestion): QuizQuestion {
+  const sortedPieces = [...question.pieces].sort((left, right) => left.order - right.order);
+  const correctPieceIds = question.correctPieceIds.length > 0 ? question.correctPieceIds : sortedPieces.map((piece) => piece.id);
+  const { prefix, suffix } = splitSentenceBlanks(question.sentenceWithBlanks);
+  const choices = shuffleWithSeed(
+    question.pieces.map((piece) => ({
+      id: piece.id,
+      text: piece.text,
+      sourceGrammarId: question.sourceGrammarIds[0],
+    })),
+    `${question.id}:sentence-pieces`,
+  );
+
+  return {
+    id: question.id,
+    type: "SENTENCE_ORDER",
+    level: question.level,
+    prompt: "次の文が正しい文になるように、1・2・3・4を並べ替えなさい。",
+    subPrompt: question.sentenceWithBlanks,
+    choices,
+    answerChoiceId: correctPieceIds.join(">"),
+    answerChoiceIds: correctPieceIds,
+    explanation: question.explanation,
+    sentenceOrder: {
+      prefix,
+      suffix,
+      fullSentence: question.sentence,
+      sentenceWithBlanks: question.sentenceWithBlanks,
+      translationKo: question.korean,
+      correctChoiceIds: correctPieceIds,
+    },
+    sourceGrammarId: question.sourceGrammarIds[0],
+    sourceGrammarIds: question.sourceGrammarIds,
+    tags: question.tags,
+  };
+}
+
 function normalizeSentencePart(value: string): string {
   return value.replace(/^[、。！？\s]+/, "").replace(/[。！？\s]+$/, "");
 }
@@ -203,6 +347,7 @@ function buildSentenceOrderData(
       prefix,
       suffix,
       fullSentence: example.japanese,
+      sentenceWithBlanks: `${prefix}${safePieces.map(() => "____").join(" ")}${suffix}`,
       translationKo: example.korean,
       correctChoiceIds: correctChoices.map((choice) => choice.id),
     },
@@ -249,15 +394,45 @@ export function generateQuizQuestion(
   }
 
   if (mode === "example") {
+    const sentenceContext = buildDefaultFillBlankContext(correct);
+    const fillBlankChoices = generateFillBlankChoices({
+      correctGrammar: correct,
+      sentenceContext,
+      allGrammar,
+      count: 4,
+      sourceGrammarIds: correct.similarGrammarIds,
+      seed: questionId,
+    });
+    const answerChoiceId = fillBlankChoices.find((choice) => choice.grammarId === correct.id && !choice.isSimilarDistractor)?.id;
+
     return {
       id: questionId,
       type: modeToQuizType(mode),
       level: correct.level,
       prompt: blankExpression(example.japanese, expression),
       subPrompt: "次の文の（　　　）に入る最もよいものを、1・2・3・4から一つ選びなさい。",
-      choices: buildChoices(choiceItems, (item) => item.expression),
-      answerChoiceId: correct.id,
-      explanation: `${correct.nuanceKo} ${example.korean}`,
+      choices: fillBlankChoices.map((choice) => ({
+        id: choice.id,
+        text: choice.text,
+        sourceGrammarId: choice.grammarId,
+        baseExpression: choice.baseExpression,
+        conjugatedExpression: choice.conjugatedExpression,
+        isSimilarDistractor: choice.isSimilarDistractor,
+      })),
+      answerChoiceId: answerChoiceId ?? `${questionId}-answer`,
+      explanation: buildFillBlankExplanation({
+        explanation: `${correct.nuanceKo} ${example.korean}`,
+      }),
+      fillBlank: {
+        sentence: example.japanese,
+        sentenceWithBlank: blankExpression(example.japanese, expression),
+        korean: example.korean,
+        sourceGrammarIds: [correct.id, ...correct.similarGrammarIds],
+        answerBaseExpression: correct.expression,
+        answerMeaningKo: correct.meaningKo,
+        answerConnection: correct.connection,
+        confusingNotes: buildConfusingNotes(correct.similarGrammarIds, new Map(allGrammar.map((item) => [item.id, item]))),
+      },
       sourceGrammarId: correct.id,
       sourceExampleId: example.id,
       tags: correct.tags,
@@ -309,4 +484,12 @@ export function generateQuizSet(
   return shuffle(grammarItems)
     .slice(0, count)
     .map((item) => generateQuizQuestion(mode, item, grammarItems));
+}
+
+export function getManualFillBlankQuestions(allGrammar: readonly GrammarItem[]): QuizQuestion[] {
+  return fillBlankQuestions.map((question) => buildManualFillBlankQuestion(question, allGrammar));
+}
+
+export function getManualSentenceOrderQuestions(): QuizQuestion[] {
+  return sentenceOrderQuestions.map(buildManualSentenceOrderQuestion);
 }

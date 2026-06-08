@@ -683,6 +683,33 @@ button {
   line-height: 1.8;
 }
 
+.sentence-order-line.live {
+  margin: -0.35rem 0 1rem;
+  padding: 0.8rem 0.9rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg2);
+}
+
+.sentence-order-fragment {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.sentence-filled-piece {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2rem;
+  padding: 0 0.55rem;
+  border-radius: 6px;
+  border: 1px solid var(--accent);
+  background: var(--tag);
+  color: var(--accent);
+  font-size: 0.9rem;
+}
+
 .sentence-blank {
   min-width: 3rem;
   height: 2rem;
@@ -812,6 +839,17 @@ button {
   padding: 0.55rem;
   line-height: 1.4;
   font-size: 0.8rem;
+  text-align: left;
+  cursor: pointer;
+}
+
+.selected-order-slot:hover:not(:disabled) {
+  border-color: var(--accent);
+}
+
+.selected-order-slot:disabled {
+  cursor: default;
+  opacity: 0.8;
 }
 
 .selected-order-slot span {
@@ -819,6 +857,20 @@ button {
   color: var(--text3);
   font-size: 0.68rem;
   margin-bottom: 0.2rem;
+}
+
+.selected-order-text {
+  color: var(--text2);
+  font-size: 0.82rem;
+  line-height: 1.6;
+  margin: -0.25rem 0 0.75rem;
+}
+
+.sentence-order-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.65rem;
+  margin-bottom: 1rem;
 }
 
 .sentence-undo-btn {
@@ -829,16 +881,30 @@ button {
   color: var(--text2);
   cursor: pointer;
   padding: 0.7rem;
-  margin-bottom: 1rem;
 }
 
-.sentence-undo-btn:hover:not(:disabled) {
+.sentence-check-btn {
+  width: 100%;
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  background: var(--accent);
+  color: #1a1400;
+  cursor: pointer;
+  padding: 0.7rem;
+  font-weight: 700;
+}
+
+.sentence-undo-btn:hover:not(:disabled),
+.sentence-check-btn:hover:not(:disabled) {
   background: var(--bg3);
   color: var(--text);
 }
 
-.sentence-undo-btn:disabled {
+.sentence-undo-btn:disabled,
+.sentence-check-btn:disabled {
   color: var(--text3);
+  border-color: var(--border2);
+  background: transparent;
   cursor: not-allowed;
 }
 
@@ -866,6 +932,10 @@ button {
   color: var(--text2);
   font-size: 0.82rem;
   margin-top: 0.4rem;
+}
+
+.result-detail.preserve-lines {
+  white-space: pre-line;
 }
 
 .quiz-next-btn {
