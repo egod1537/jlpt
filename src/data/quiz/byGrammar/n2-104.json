@@ -267,15 +267,23 @@
       ]
     },
     {
-      "id": "fb-extra-n2-104-1",
+      "id": "fb-created-n2-104-01",
       "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlank": "私（　　　）まだまだ経験が足りません。",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
-      "answerChoiceId": "fb-extra-n2-104-1-a",
+      "sentence": "休日なんか家で静かに過ごせば十分だ。",
+      "sentenceWithBlank": "休日（　　　）家で静かに過ごせば十分だ。",
+      "korean": "휴일 따위는 집에서 조용히 보내면 충분하다.",
+      "answerChoiceId": "fb-created-n2-104-01-a",
       "choices": [
         {
-          "id": "fb-extra-n2-104-1-b",
+          "id": "fb-created-n2-104-01-a",
+          "text": "なんか",
+          "grammarId": "n2-104",
+          "baseExpression": "なんて/なんか/など",
+          "conjugatedExpression": "なんか",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-104-01-b",
           "text": "に関して",
           "grammarId": "n2-112",
           "baseExpression": "に関して",
@@ -283,7 +291,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-104-1-c",
+          "id": "fb-created-n2-104-01-c",
           "text": "に加えて",
           "grammarId": "n2-113",
           "baseExpression": "に加えて",
@@ -291,23 +299,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-104-1-d",
+          "id": "fb-created-n2-104-01-d",
           "text": "にこしたことはない",
           "grammarId": "n2-114",
           "baseExpression": "にこしたことはない",
           "conjugatedExpression": "にこしたことはない",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-104-1-a",
-          "text": "なんか",
-          "grammarId": "n2-104",
-          "baseExpression": "なんて/なんか/など",
-          "conjugatedExpression": "なんか",
-          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '휴일 따위는 집에서 조용히 보내면 충분하다.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
       "sourceGrammarIds": [
         "n2-104",
         "n2-112",
@@ -315,237 +315,20 @@
         "n2-114"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra-n2-104-2",
+      "id": "fb-created-n2-104-02",
       "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlank": "私（　　　）まだまだ経験が足りません。",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
-      "answerChoiceId": "fb-extra-n2-104-2-d",
+      "sentence": "高級車なんか狭い町ではかえって不便だ。",
+      "sentenceWithBlank": "高級車（　　　）狭い町ではかえって不便だ。",
+      "korean": "고급차 따위는 좁은 동네에서는 오히려 불편하다.",
+      "answerChoiceId": "fb-created-n2-104-02-a",
       "choices": [
         {
-          "id": "fb-extra-n2-104-2-c",
-          "text": "にかかわらず",
-          "grammarId": "n2-107",
-          "baseExpression": "にかかわらず",
-          "conjugatedExpression": "にかかわらず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-104-2-d",
-          "text": "なんか",
-          "grammarId": "n2-104",
-          "baseExpression": "なんて/なんか/など",
-          "conjugatedExpression": "なんか",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-104-2-a",
-          "text": "にあたって",
-          "grammarId": "n2-105",
-          "baseExpression": "にあたって",
-          "conjugatedExpression": "にあたって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-104-2-b",
-          "text": "に応じて",
-          "grammarId": "n2-106",
-          "baseExpression": "に応じて",
-          "conjugatedExpression": "に応じて",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
-      "sourceGrammarIds": [
-        "n2-104",
-        "n2-105",
-        "n2-106",
-        "n2-107"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-104-3",
-      "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlank": "私（　　　）まだまだ経験が足りません。",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
-      "answerChoiceId": "fb-extra-n2-104-3-c",
-      "choices": [
-        {
-          "id": "fb-extra-n2-104-3-d",
-          "text": "というものではない",
-          "grammarId": "n2-081",
-          "baseExpression": "というものではない",
-          "conjugatedExpression": "というものではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-104-3-a",
-          "text": "というものは",
-          "grammarId": "n2-082",
-          "baseExpression": "というものは",
-          "conjugatedExpression": "というものは",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-104-3-b",
-          "text": "といえば",
-          "grammarId": "n2-083",
-          "baseExpression": "といえば",
-          "conjugatedExpression": "といえば",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-104-3-c",
-          "text": "なんか",
-          "grammarId": "n2-104",
-          "baseExpression": "なんて/なんか/など",
-          "conjugatedExpression": "なんか",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
-      "sourceGrammarIds": [
-        "n2-104",
-        "n2-081",
-        "n2-082",
-        "n2-083"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-104-4",
-      "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlank": "私（　　　）まだまだ経験が足りません。",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
-      "answerChoiceId": "fb-extra-n2-104-4-b",
-      "choices": [
-        {
-          "id": "fb-extra-n2-104-4-a",
-          "text": "かのように",
-          "grammarId": "n2-024",
-          "baseExpression": "かのように",
-          "conjugatedExpression": "かのように",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-104-4-b",
-          "text": "なんか",
-          "grammarId": "n2-104",
-          "baseExpression": "なんて/なんか/など",
-          "conjugatedExpression": "なんか",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-104-4-c",
-          "text": "かねない",
-          "grammarId": "n2-022",
-          "baseExpression": "かねない",
-          "conjugatedExpression": "かねない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-104-4-d",
-          "text": "かねる",
-          "grammarId": "n2-023",
-          "baseExpression": "かねる",
-          "conjugatedExpression": "かねる",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
-      "sourceGrammarIds": [
-        "n2-104",
-        "n2-022",
-        "n2-023",
-        "n2-024"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-104-5",
-      "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlank": "私（　　　）まだまだ経験が足りません。",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
-      "answerChoiceId": "fb-extra-n2-104-5-a",
-      "choices": [
-        {
-          "id": "fb-extra-n2-104-5-b",
-          "text": "はもとより",
-          "grammarId": "n2-144",
-          "baseExpression": "はもとより",
-          "conjugatedExpression": "はもとより",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-104-5-c",
-          "text": "べきだ",
-          "grammarId": "n2-145",
-          "baseExpression": "べきだ",
-          "conjugatedExpression": "べきだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-104-5-d",
-          "text": "まい",
-          "grammarId": "n2-146",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-104-5-a",
-          "text": "なんか",
-          "grammarId": "n2-104",
-          "baseExpression": "なんて/なんか/など",
-          "conjugatedExpression": "なんか",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
-      "sourceGrammarIds": [
-        "n2-104",
-        "n2-144",
-        "n2-145",
-        "n2-146"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-104-01",
-      "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlank": "私（　　　）まだまだ経験が足りません。",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
-      "answerChoiceId": "fb-extra20-n2-104-01-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-104-01-b",
+          "id": "fb-created-n2-104-02-b",
           "text": "に関して",
           "grammarId": "n2-112",
           "baseExpression": "に関して",
@@ -553,7 +336,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-104-01-c",
+          "id": "fb-created-n2-104-02-c",
           "text": "に加えて",
           "grammarId": "n2-113",
           "baseExpression": "に加えて",
@@ -561,7 +344,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-104-01-d",
+          "id": "fb-created-n2-104-02-d",
           "text": "にこしたことはない",
           "grammarId": "n2-114",
           "baseExpression": "にこしたことはない",
@@ -569,7 +352,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-104-01-a",
+          "id": "fb-created-n2-104-02-a",
           "text": "なんか",
           "grammarId": "n2-104",
           "baseExpression": "なんて/なんか/など",
@@ -577,7 +360,7 @@
           "isSimilarDistractor": false
         }
       ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '고급차 따위는 좁은 동네에서는 오히려 불편하다.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
       "sourceGrammarIds": [
         "n2-104",
         "n2-112",
@@ -585,253 +368,20 @@
         "n2-114"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-104-02",
+      "id": "fb-created-n2-104-03",
       "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlank": "私（　　　）まだまだ経験が足りません。",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
-      "answerChoiceId": "fb-extra20-n2-104-02-d",
+      "sentence": "彼の約束なんかもう誰も信じていない。",
+      "sentenceWithBlank": "彼の約束（　　　）もう誰も信じていない。",
+      "korean": "그의 약속 따위는 이제 아무도 믿지 않는다.",
+      "answerChoiceId": "fb-created-n2-104-03-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-104-02-a",
-          "text": "にあたって",
-          "grammarId": "n2-105",
-          "baseExpression": "にあたって",
-          "conjugatedExpression": "にあたって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-104-02-b",
-          "text": "に応じて",
-          "grammarId": "n2-106",
-          "baseExpression": "に応じて",
-          "conjugatedExpression": "に応じて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-104-02-c",
-          "text": "にかかわらず",
-          "grammarId": "n2-107",
-          "baseExpression": "にかかわらず",
-          "conjugatedExpression": "にかかわらず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-104-02-d",
-          "text": "なんか",
-          "grammarId": "n2-104",
-          "baseExpression": "なんて/なんか/など",
-          "conjugatedExpression": "なんか",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
-      "sourceGrammarIds": [
-        "n2-104",
-        "n2-105",
-        "n2-106",
-        "n2-107"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-104-03",
-      "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlank": "私（　　　）まだまだ経験が足りません。",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
-      "answerChoiceId": "fb-extra20-n2-104-03-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-104-03-d",
-          "text": "というものではない",
-          "grammarId": "n2-081",
-          "baseExpression": "というものではない",
-          "conjugatedExpression": "というものではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-104-03-a",
-          "text": "というものは",
-          "grammarId": "n2-082",
-          "baseExpression": "というものは",
-          "conjugatedExpression": "というものは",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-104-03-b",
-          "text": "といえば",
-          "grammarId": "n2-083",
-          "baseExpression": "といえば",
-          "conjugatedExpression": "といえば",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-104-03-c",
-          "text": "なんか",
-          "grammarId": "n2-104",
-          "baseExpression": "なんて/なんか/など",
-          "conjugatedExpression": "なんか",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
-      "sourceGrammarIds": [
-        "n2-104",
-        "n2-081",
-        "n2-082",
-        "n2-083"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-104-04",
-      "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlank": "私（　　　）まだまだ経験が足りません。",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
-      "answerChoiceId": "fb-extra20-n2-104-04-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-104-04-c",
-          "text": "かねない",
-          "grammarId": "n2-022",
-          "baseExpression": "かねない",
-          "conjugatedExpression": "かねない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-104-04-d",
-          "text": "かねる",
-          "grammarId": "n2-023",
-          "baseExpression": "かねる",
-          "conjugatedExpression": "かねる",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-104-04-a",
-          "text": "かのように",
-          "grammarId": "n2-024",
-          "baseExpression": "かのように",
-          "conjugatedExpression": "かのように",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-104-04-b",
-          "text": "なんか",
-          "grammarId": "n2-104",
-          "baseExpression": "なんて/なんか/など",
-          "conjugatedExpression": "なんか",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
-      "sourceGrammarIds": [
-        "n2-104",
-        "n2-022",
-        "n2-023",
-        "n2-024"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-104-05",
-      "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlank": "私（　　　）まだまだ経験が足りません。",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
-      "answerChoiceId": "fb-extra20-n2-104-05-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-104-05-b",
-          "text": "はもとより",
-          "grammarId": "n2-144",
-          "baseExpression": "はもとより",
-          "conjugatedExpression": "はもとより",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-104-05-c",
-          "text": "べきだ",
-          "grammarId": "n2-145",
-          "baseExpression": "べきだ",
-          "conjugatedExpression": "べきだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-104-05-d",
-          "text": "まい",
-          "grammarId": "n2-146",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-104-05-a",
-          "text": "なんか",
-          "grammarId": "n2-104",
-          "baseExpression": "なんて/なんか/など",
-          "conjugatedExpression": "なんか",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
-      "sourceGrammarIds": [
-        "n2-104",
-        "n2-144",
-        "n2-145",
-        "n2-146"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-104-06",
-      "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlank": "私（　　　）まだまだ経験が足りません。",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
-      "answerChoiceId": "fb-extra20-n2-104-06-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-104-06-a",
-          "text": "なんか",
-          "grammarId": "n2-104",
-          "baseExpression": "なんて/なんか/など",
-          "conjugatedExpression": "なんか",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-104-06-b",
-          "text": "に関して",
-          "grammarId": "n2-112",
-          "baseExpression": "に関して",
-          "conjugatedExpression": "に関して",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-104-06-c",
+          "id": "fb-created-n2-104-03-c",
           "text": "に加えて",
           "grammarId": "n2-113",
           "baseExpression": "に加えて",
@@ -839,253 +389,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-104-06-d",
-          "text": "にこしたことはない",
-          "grammarId": "n2-114",
-          "baseExpression": "にこしたことはない",
-          "conjugatedExpression": "にこしたことはない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
-      "sourceGrammarIds": [
-        "n2-104",
-        "n2-112",
-        "n2-113",
-        "n2-114"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-104-07",
-      "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlank": "私（　　　）まだまだ経験が足りません。",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
-      "answerChoiceId": "fb-extra20-n2-104-07-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-104-07-d",
-          "text": "なんか",
-          "grammarId": "n2-104",
-          "baseExpression": "なんて/なんか/など",
-          "conjugatedExpression": "なんか",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-104-07-a",
-          "text": "にあたって",
-          "grammarId": "n2-105",
-          "baseExpression": "にあたって",
-          "conjugatedExpression": "にあたって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-104-07-b",
-          "text": "に応じて",
-          "grammarId": "n2-106",
-          "baseExpression": "に応じて",
-          "conjugatedExpression": "に応じて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-104-07-c",
-          "text": "にかかわらず",
-          "grammarId": "n2-107",
-          "baseExpression": "にかかわらず",
-          "conjugatedExpression": "にかかわらず",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
-      "sourceGrammarIds": [
-        "n2-104",
-        "n2-105",
-        "n2-106",
-        "n2-107"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-104-08",
-      "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlank": "私（　　　）まだまだ経験が足りません。",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
-      "answerChoiceId": "fb-extra20-n2-104-08-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-104-08-c",
-          "text": "なんか",
-          "grammarId": "n2-104",
-          "baseExpression": "なんて/なんか/など",
-          "conjugatedExpression": "なんか",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-104-08-d",
-          "text": "というものではない",
-          "grammarId": "n2-081",
-          "baseExpression": "というものではない",
-          "conjugatedExpression": "というものではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-104-08-a",
-          "text": "というものは",
-          "grammarId": "n2-082",
-          "baseExpression": "というものは",
-          "conjugatedExpression": "というものは",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-104-08-b",
-          "text": "といえば",
-          "grammarId": "n2-083",
-          "baseExpression": "といえば",
-          "conjugatedExpression": "といえば",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
-      "sourceGrammarIds": [
-        "n2-104",
-        "n2-081",
-        "n2-082",
-        "n2-083"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-104-09",
-      "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlank": "私（　　　）まだまだ経験が足りません。",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
-      "answerChoiceId": "fb-extra20-n2-104-09-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-104-09-b",
-          "text": "なんか",
-          "grammarId": "n2-104",
-          "baseExpression": "なんて/なんか/など",
-          "conjugatedExpression": "なんか",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-104-09-c",
-          "text": "かねない",
-          "grammarId": "n2-022",
-          "baseExpression": "かねない",
-          "conjugatedExpression": "かねない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-104-09-d",
-          "text": "かねる",
-          "grammarId": "n2-023",
-          "baseExpression": "かねる",
-          "conjugatedExpression": "かねる",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-104-09-a",
-          "text": "かのように",
-          "grammarId": "n2-024",
-          "baseExpression": "かのように",
-          "conjugatedExpression": "かのように",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
-      "sourceGrammarIds": [
-        "n2-104",
-        "n2-022",
-        "n2-023",
-        "n2-024"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-104-10",
-      "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlank": "私（　　　）まだまだ経験が足りません。",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
-      "answerChoiceId": "fb-extra20-n2-104-10-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-104-10-a",
-          "text": "なんか",
-          "grammarId": "n2-104",
-          "baseExpression": "なんて/なんか/など",
-          "conjugatedExpression": "なんか",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-104-10-b",
-          "text": "はもとより",
-          "grammarId": "n2-144",
-          "baseExpression": "はもとより",
-          "conjugatedExpression": "はもとより",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-104-10-c",
-          "text": "べきだ",
-          "grammarId": "n2-145",
-          "baseExpression": "べきだ",
-          "conjugatedExpression": "べきだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-104-10-d",
-          "text": "まい",
-          "grammarId": "n2-146",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
-      "sourceGrammarIds": [
-        "n2-104",
-        "n2-144",
-        "n2-145",
-        "n2-146"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-104-11",
-      "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlank": "私（　　　）まだまだ経験が足りません。",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
-      "answerChoiceId": "fb-extra20-n2-104-11-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-104-11-d",
+          "id": "fb-created-n2-104-03-d",
           "text": "にこしたことはない",
           "grammarId": "n2-114",
           "baseExpression": "にこしたことはない",
@@ -1093,7 +397,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-104-11-a",
+          "id": "fb-created-n2-104-03-a",
           "text": "なんか",
           "grammarId": "n2-104",
           "baseExpression": "なんて/なんか/など",
@@ -1101,285 +405,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-104-11-b",
-          "text": "に関して",
-          "grammarId": "n2-112",
-          "baseExpression": "に関して",
-          "conjugatedExpression": "に関して",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-104-11-c",
-          "text": "に加えて",
-          "grammarId": "n2-113",
-          "baseExpression": "に加えて",
-          "conjugatedExpression": "に加えて",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
-      "sourceGrammarIds": [
-        "n2-104",
-        "n2-112",
-        "n2-113",
-        "n2-114"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-104-12",
-      "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlank": "私（　　　）まだまだ経験が足りません。",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
-      "answerChoiceId": "fb-extra20-n2-104-12-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-104-12-c",
-          "text": "にかかわらず",
-          "grammarId": "n2-107",
-          "baseExpression": "にかかわらず",
-          "conjugatedExpression": "にかかわらず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-104-12-d",
-          "text": "なんか",
-          "grammarId": "n2-104",
-          "baseExpression": "なんて/なんか/など",
-          "conjugatedExpression": "なんか",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-104-12-a",
-          "text": "にあたって",
-          "grammarId": "n2-105",
-          "baseExpression": "にあたって",
-          "conjugatedExpression": "にあたって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-104-12-b",
-          "text": "に応じて",
-          "grammarId": "n2-106",
-          "baseExpression": "に応じて",
-          "conjugatedExpression": "に応じて",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
-      "sourceGrammarIds": [
-        "n2-104",
-        "n2-105",
-        "n2-106",
-        "n2-107"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-104-13",
-      "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlank": "私（　　　）まだまだ経験が足りません。",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
-      "answerChoiceId": "fb-extra20-n2-104-13-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-104-13-b",
-          "text": "といえば",
-          "grammarId": "n2-083",
-          "baseExpression": "といえば",
-          "conjugatedExpression": "といえば",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-104-13-c",
-          "text": "なんか",
-          "grammarId": "n2-104",
-          "baseExpression": "なんて/なんか/など",
-          "conjugatedExpression": "なんか",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-104-13-d",
-          "text": "というものではない",
-          "grammarId": "n2-081",
-          "baseExpression": "というものではない",
-          "conjugatedExpression": "というものではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-104-13-a",
-          "text": "というものは",
-          "grammarId": "n2-082",
-          "baseExpression": "というものは",
-          "conjugatedExpression": "というものは",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
-      "sourceGrammarIds": [
-        "n2-104",
-        "n2-081",
-        "n2-082",
-        "n2-083"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-104-14",
-      "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlank": "私（　　　）まだまだ経験が足りません。",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
-      "answerChoiceId": "fb-extra20-n2-104-14-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-104-14-a",
-          "text": "かのように",
-          "grammarId": "n2-024",
-          "baseExpression": "かのように",
-          "conjugatedExpression": "かのように",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-104-14-b",
-          "text": "なんか",
-          "grammarId": "n2-104",
-          "baseExpression": "なんて/なんか/など",
-          "conjugatedExpression": "なんか",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-104-14-c",
-          "text": "かねない",
-          "grammarId": "n2-022",
-          "baseExpression": "かねない",
-          "conjugatedExpression": "かねない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-104-14-d",
-          "text": "かねる",
-          "grammarId": "n2-023",
-          "baseExpression": "かねる",
-          "conjugatedExpression": "かねる",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
-      "sourceGrammarIds": [
-        "n2-104",
-        "n2-022",
-        "n2-023",
-        "n2-024"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-104-15",
-      "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlank": "私（　　　）まだまだ経験が足りません。",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
-      "answerChoiceId": "fb-extra20-n2-104-15-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-104-15-d",
-          "text": "まい",
-          "grammarId": "n2-146",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-104-15-a",
-          "text": "なんか",
-          "grammarId": "n2-104",
-          "baseExpression": "なんて/なんか/など",
-          "conjugatedExpression": "なんか",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-104-15-b",
-          "text": "はもとより",
-          "grammarId": "n2-144",
-          "baseExpression": "はもとより",
-          "conjugatedExpression": "はもとより",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-104-15-c",
-          "text": "べきだ",
-          "grammarId": "n2-145",
-          "baseExpression": "べきだ",
-          "conjugatedExpression": "べきだ",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
-      "sourceGrammarIds": [
-        "n2-104",
-        "n2-144",
-        "n2-145",
-        "n2-146"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-104-16",
-      "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlank": "私（　　　）まだまだ経験が足りません。",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
-      "answerChoiceId": "fb-extra20-n2-104-16-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-104-16-c",
-          "text": "に加えて",
-          "grammarId": "n2-113",
-          "baseExpression": "に加えて",
-          "conjugatedExpression": "に加えて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-104-16-d",
-          "text": "にこしたことはない",
-          "grammarId": "n2-114",
-          "baseExpression": "にこしたことはない",
-          "conjugatedExpression": "にこしたことはない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-104-16-a",
-          "text": "なんか",
-          "grammarId": "n2-104",
-          "baseExpression": "なんて/なんか/など",
-          "conjugatedExpression": "なんか",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-104-16-b",
+          "id": "fb-created-n2-104-03-b",
           "text": "に関して",
           "grammarId": "n2-112",
           "baseExpression": "に関して",
@@ -1387,7 +413,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '그의 약속 따위는 이제 아무도 믿지 않는다.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
       "sourceGrammarIds": [
         "n2-104",
         "n2-112",
@@ -1395,37 +421,28 @@
         "n2-114"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-104-17",
+      "id": "fb-created-n2-104-04",
       "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlank": "私（　　　）まだまだ経験が足りません。",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
-      "answerChoiceId": "fb-extra20-n2-104-17-d",
+      "sentence": "占いなんかに人生を決められたくない。",
+      "sentenceWithBlank": "占い（　　　）に人生を決められたくない。",
+      "korean": "점 따위에 내 인생을 맡기고 싶지 않다.",
+      "answerChoiceId": "fb-created-n2-104-04-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-104-17-b",
-          "text": "に応じて",
-          "grammarId": "n2-106",
-          "baseExpression": "に応じて",
-          "conjugatedExpression": "に応じて",
+          "id": "fb-created-n2-104-04-d",
+          "text": "にこしたことはない",
+          "grammarId": "n2-114",
+          "baseExpression": "にこしたことはない",
+          "conjugatedExpression": "にこしたことはない",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-104-17-c",
-          "text": "にかかわらず",
-          "grammarId": "n2-107",
-          "baseExpression": "にかかわらず",
-          "conjugatedExpression": "にかかわらず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-104-17-d",
+          "id": "fb-created-n2-104-04-a",
           "text": "なんか",
           "grammarId": "n2-104",
           "baseExpression": "なんて/なんか/など",
@@ -1433,53 +450,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-104-17-a",
-          "text": "にあたって",
-          "grammarId": "n2-105",
-          "baseExpression": "にあたって",
-          "conjugatedExpression": "にあたって",
+          "id": "fb-created-n2-104-04-b",
+          "text": "に関して",
+          "grammarId": "n2-112",
+          "baseExpression": "に関して",
+          "conjugatedExpression": "に関して",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-104-04-c",
+          "text": "に加えて",
+          "grammarId": "n2-113",
+          "baseExpression": "に加えて",
+          "conjugatedExpression": "に加えて",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '점 따위에 내 인생을 맡기고 싶지 않다.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
       "sourceGrammarIds": [
         "n2-104",
-        "n2-105",
-        "n2-106",
-        "n2-107"
+        "n2-112",
+        "n2-113",
+        "n2-114"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-104-18",
+      "id": "fb-created-n2-104-05",
       "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlank": "私（　　　）まだまだ経験が足りません。",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
-      "answerChoiceId": "fb-extra20-n2-104-18-c",
+      "sentence": "肩書なんかなくても彼女の実力は伝わる。",
+      "sentenceWithBlank": "肩書（　　　）なくても彼女の実力は伝わる。",
+      "korean": "직함 따위가 없어도 그녀의 실력은 드러난다.",
+      "answerChoiceId": "fb-created-n2-104-05-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-104-18-a",
-          "text": "というものは",
-          "grammarId": "n2-082",
-          "baseExpression": "というものは",
-          "conjugatedExpression": "というものは",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-104-18-b",
-          "text": "といえば",
-          "grammarId": "n2-083",
-          "baseExpression": "といえば",
-          "conjugatedExpression": "といえば",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-104-18-c",
+          "id": "fb-created-n2-104-05-a",
           "text": "なんか",
           "grammarId": "n2-104",
           "baseExpression": "なんて/なんか/など",
@@ -1487,53 +495,121 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-104-18-d",
-          "text": "というものではない",
-          "grammarId": "n2-081",
-          "baseExpression": "というものではない",
-          "conjugatedExpression": "というものではない",
+          "id": "fb-created-n2-104-05-b",
+          "text": "に関して",
+          "grammarId": "n2-112",
+          "baseExpression": "に関して",
+          "conjugatedExpression": "に関して",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-104-05-c",
+          "text": "に加えて",
+          "grammarId": "n2-113",
+          "baseExpression": "に加えて",
+          "conjugatedExpression": "に加えて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-104-05-d",
+          "text": "にこしたことはない",
+          "grammarId": "n2-114",
+          "baseExpression": "にこしたことはない",
+          "conjugatedExpression": "にこしたことはない",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '직함 따위가 없어도 그녀의 실력은 드러난다.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
       "sourceGrammarIds": [
         "n2-104",
-        "n2-081",
-        "n2-082",
-        "n2-083"
+        "n2-112",
+        "n2-113",
+        "n2-114"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-104-19",
+      "id": "fb-created-n2-104-06",
       "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlank": "私（　　　）まだまだ経験が足りません。",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
-      "answerChoiceId": "fb-extra20-n2-104-19-b",
+      "sentence": "失恋なんかで店を休むわけにはいかない。",
+      "sentenceWithBlank": "失恋（　　　）で店を休むわけにはいかない。",
+      "korean": "실연 따위로 가게를 쉴 수는 없다.",
+      "answerChoiceId": "fb-created-n2-104-06-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-104-19-d",
-          "text": "かねる",
-          "grammarId": "n2-023",
-          "baseExpression": "かねる",
-          "conjugatedExpression": "かねる",
+          "id": "fb-created-n2-104-06-b",
+          "text": "に関して",
+          "grammarId": "n2-112",
+          "baseExpression": "に関して",
+          "conjugatedExpression": "に関して",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-104-19-a",
-          "text": "かのように",
-          "grammarId": "n2-024",
-          "baseExpression": "かのように",
-          "conjugatedExpression": "かのように",
+          "id": "fb-created-n2-104-06-c",
+          "text": "に加えて",
+          "grammarId": "n2-113",
+          "baseExpression": "に加えて",
+          "conjugatedExpression": "に加えて",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-104-19-b",
+          "id": "fb-created-n2-104-06-d",
+          "text": "にこしたことはない",
+          "grammarId": "n2-114",
+          "baseExpression": "にこしたことはない",
+          "conjugatedExpression": "にこしたことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-104-06-a",
+          "text": "なんか",
+          "grammarId": "n2-104",
+          "baseExpression": "なんて/なんか/など",
+          "conjugatedExpression": "なんか",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '실연 따위로 가게를 쉴 수는 없다.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
+      "sourceGrammarIds": [
+        "n2-104",
+        "n2-112",
+        "n2-113",
+        "n2-114"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-104-07",
+      "level": "N2",
+      "sentence": "古い傷なんか今さら気にする必要はない。",
+      "sentenceWithBlank": "古い傷（　　　）今さら気にする必要はない。",
+      "korean": "오래된 흉터 따위는 이제 와서 신경 쓸 필요가 없다.",
+      "answerChoiceId": "fb-created-n2-104-07-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-104-07-c",
+          "text": "に加えて",
+          "grammarId": "n2-113",
+          "baseExpression": "に加えて",
+          "conjugatedExpression": "に加えて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-104-07-d",
+          "text": "にこしたことはない",
+          "grammarId": "n2-114",
+          "baseExpression": "にこしたことはない",
+          "conjugatedExpression": "にこしたことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-104-07-a",
           "text": "なんか",
           "grammarId": "n2-104",
           "baseExpression": "なんて/なんか/など",
@@ -1541,53 +617,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-104-19-c",
-          "text": "かねない",
-          "grammarId": "n2-022",
-          "baseExpression": "かねない",
-          "conjugatedExpression": "かねない",
+          "id": "fb-created-n2-104-07-b",
+          "text": "に関して",
+          "grammarId": "n2-112",
+          "baseExpression": "に関して",
+          "conjugatedExpression": "に関して",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '오래된 흉터 따위는 이제 와서 신경 쓸 필요가 없다.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
       "sourceGrammarIds": [
         "n2-104",
-        "n2-022",
-        "n2-023",
-        "n2-024"
+        "n2-112",
+        "n2-113",
+        "n2-114"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-104-20",
+      "id": "fb-created-n2-104-08",
       "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlank": "私（　　　）まだまだ経験が足りません。",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
-      "answerChoiceId": "fb-extra20-n2-104-20-a",
+      "sentence": "賞金なんかより家族の笑顔のほうがうれしい。",
+      "sentenceWithBlank": "賞金（　　　）より家族の笑顔のほうがうれしい。",
+      "korean": "상금 따위보다 가족의 웃는 얼굴이 더 기쁘다.",
+      "answerChoiceId": "fb-created-n2-104-08-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-104-20-c",
-          "text": "べきだ",
-          "grammarId": "n2-145",
-          "baseExpression": "べきだ",
-          "conjugatedExpression": "べきだ",
+          "id": "fb-created-n2-104-08-d",
+          "text": "にこしたことはない",
+          "grammarId": "n2-114",
+          "baseExpression": "にこしたことはない",
+          "conjugatedExpression": "にこしたことはない",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-104-20-d",
-          "text": "まい",
-          "grammarId": "n2-146",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-104-20-a",
+          "id": "fb-created-n2-104-08-a",
           "text": "なんか",
           "grammarId": "n2-104",
           "baseExpression": "なんて/なんか/など",
@@ -1595,25 +662,933 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-104-20-b",
-          "text": "はもとより",
-          "grammarId": "n2-144",
-          "baseExpression": "はもとより",
-          "conjugatedExpression": "はもとより",
+          "id": "fb-created-n2-104-08-b",
+          "text": "に関して",
+          "grammarId": "n2-112",
+          "baseExpression": "に関して",
+          "conjugatedExpression": "に関して",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-104-08-c",
+          "text": "に加えて",
+          "grammarId": "n2-113",
+          "baseExpression": "に加えて",
+          "conjugatedExpression": "に加えて",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '상금 따위보다 가족의 웃는 얼굴이 더 기쁘다.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
       "sourceGrammarIds": [
         "n2-104",
-        "n2-144",
-        "n2-145",
-        "n2-146"
+        "n2-112",
+        "n2-113",
+        "n2-114"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-104-09",
+      "level": "N2",
+      "sentence": "渋滞なんか予想して早めに港へ向かった。",
+      "sentenceWithBlank": "渋滞（　　　）予想して早めに港へ向かった。",
+      "korean": "교통 체증 같은 것을 예상해 일찍 항구로 향했다.",
+      "answerChoiceId": "fb-created-n2-104-09-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-104-09-a",
+          "text": "なんか",
+          "grammarId": "n2-104",
+          "baseExpression": "なんて/なんか/など",
+          "conjugatedExpression": "なんか",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-104-09-b",
+          "text": "に関して",
+          "grammarId": "n2-112",
+          "baseExpression": "に関して",
+          "conjugatedExpression": "に関して",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-104-09-c",
+          "text": "に加えて",
+          "grammarId": "n2-113",
+          "baseExpression": "に加えて",
+          "conjugatedExpression": "に加えて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-104-09-d",
+          "text": "にこしたことはない",
+          "grammarId": "n2-114",
+          "baseExpression": "にこしたことはない",
+          "conjugatedExpression": "にこしたことはない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '교통 체증 같은 것을 예상해 일찍 항구로 향했다.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
+      "sourceGrammarIds": [
+        "n2-104",
+        "n2-112",
+        "n2-113",
+        "n2-114"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-104-10",
+      "level": "N2",
+      "sentence": "退職なんか突然言い出してどうしたの。",
+      "sentenceWithBlank": "退職（　　　）突然言い出してどうしたの。",
+      "korean": "퇴직이라니, 갑자기 그런 말을 꺼내고 무슨 일이야?",
+      "answerChoiceId": "fb-created-n2-104-10-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-104-10-b",
+          "text": "に関して",
+          "grammarId": "n2-112",
+          "baseExpression": "に関して",
+          "conjugatedExpression": "に関して",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-104-10-c",
+          "text": "に加えて",
+          "grammarId": "n2-113",
+          "baseExpression": "に加えて",
+          "conjugatedExpression": "に加えて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-104-10-d",
+          "text": "にこしたことはない",
+          "grammarId": "n2-114",
+          "baseExpression": "にこしたことはない",
+          "conjugatedExpression": "にこしたことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-104-10-a",
+          "text": "なんか",
+          "grammarId": "n2-104",
+          "baseExpression": "なんて/なんか/など",
+          "conjugatedExpression": "なんか",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '퇴직이라니, 갑자기 그런 말을 꺼내고 무슨 일이야?'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
+      "sourceGrammarIds": [
+        "n2-104",
+        "n2-112",
+        "n2-113",
+        "n2-114"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-104-11",
+      "level": "N2",
+      "sentence": "社長なんか僕に務まるはずがない。",
+      "sentenceWithBlank": "社長（　　　）僕に務まるはずがない。",
+      "korean": "사장 같은 자리가 나한테 맞을 리가 없다.",
+      "answerChoiceId": "fb-created-n2-104-11-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-104-11-c",
+          "text": "に加えて",
+          "grammarId": "n2-113",
+          "baseExpression": "に加えて",
+          "conjugatedExpression": "に加えて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-104-11-d",
+          "text": "にこしたことはない",
+          "grammarId": "n2-114",
+          "baseExpression": "にこしたことはない",
+          "conjugatedExpression": "にこしたことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-104-11-a",
+          "text": "なんか",
+          "grammarId": "n2-104",
+          "baseExpression": "なんて/なんか/など",
+          "conjugatedExpression": "なんか",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-104-11-b",
+          "text": "に関して",
+          "grammarId": "n2-112",
+          "baseExpression": "に関して",
+          "conjugatedExpression": "に関して",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '사장 같은 자리가 나한테 맞을 리가 없다.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
+      "sourceGrammarIds": [
+        "n2-104",
+        "n2-112",
+        "n2-113",
+        "n2-114"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-104-12",
+      "level": "N2",
+      "sentence": "真夏に鍋料理なんか食べる気になれない。",
+      "sentenceWithBlank": "真夏に鍋料理（　　　）食べる気になれない。",
+      "korean": "한여름에 전골 요리 따위는 먹고 싶은 마음이 들지 않는다.",
+      "answerChoiceId": "fb-created-n2-104-12-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-104-12-d",
+          "text": "にこしたことはない",
+          "grammarId": "n2-114",
+          "baseExpression": "にこしたことはない",
+          "conjugatedExpression": "にこしたことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-104-12-a",
+          "text": "なんか",
+          "grammarId": "n2-104",
+          "baseExpression": "なんて/なんか/など",
+          "conjugatedExpression": "なんか",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-104-12-b",
+          "text": "に関して",
+          "grammarId": "n2-112",
+          "baseExpression": "に関して",
+          "conjugatedExpression": "に関して",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-104-12-c",
+          "text": "に加えて",
+          "grammarId": "n2-113",
+          "baseExpression": "に加えて",
+          "conjugatedExpression": "に加えて",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '한여름에 전골 요리 따위는 먹고 싶은 마음이 들지 않는다.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
+      "sourceGrammarIds": [
+        "n2-104",
+        "n2-112",
+        "n2-113",
+        "n2-114"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-104-13",
+      "level": "N2",
+      "sentence": "うわさなんか放っておけば自然に消えるよ。",
+      "sentenceWithBlank": "うわさ（　　　）放っておけば自然に消えるよ。",
+      "korean": "소문 따위는 내버려 두면 자연히 사라질 거야.",
+      "answerChoiceId": "fb-created-n2-104-13-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-104-13-a",
+          "text": "なんか",
+          "grammarId": "n2-104",
+          "baseExpression": "なんて/なんか/など",
+          "conjugatedExpression": "なんか",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-104-13-b",
+          "text": "に関して",
+          "grammarId": "n2-112",
+          "baseExpression": "に関して",
+          "conjugatedExpression": "に関して",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-104-13-c",
+          "text": "に加えて",
+          "grammarId": "n2-113",
+          "baseExpression": "に加えて",
+          "conjugatedExpression": "に加えて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-104-13-d",
+          "text": "にこしたことはない",
+          "grammarId": "n2-114",
+          "baseExpression": "にこしたことはない",
+          "conjugatedExpression": "にこしたことはない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '소문 따위는 내버려 두면 자연히 사라질 거야.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
+      "sourceGrammarIds": [
+        "n2-104",
+        "n2-112",
+        "n2-113",
+        "n2-114"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-104-14",
+      "level": "N2",
+      "sentence": "雨なんかに負けず祭りの行列は進んだ。",
+      "sentenceWithBlank": "雨（　　　）に負けず祭りの行列は進んだ。",
+      "korean": "비 따위에 굴하지 않고 축제 행렬은 나아갔다.",
+      "answerChoiceId": "fb-created-n2-104-14-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-104-14-b",
+          "text": "に関して",
+          "grammarId": "n2-112",
+          "baseExpression": "に関して",
+          "conjugatedExpression": "に関して",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-104-14-c",
+          "text": "に加えて",
+          "grammarId": "n2-113",
+          "baseExpression": "に加えて",
+          "conjugatedExpression": "に加えて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-104-14-d",
+          "text": "にこしたことはない",
+          "grammarId": "n2-114",
+          "baseExpression": "にこしたことはない",
+          "conjugatedExpression": "にこしたことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-104-14-a",
+          "text": "なんか",
+          "grammarId": "n2-104",
+          "baseExpression": "なんて/なんか/など",
+          "conjugatedExpression": "なんか",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '비 따위에 굴하지 않고 축제 행렬은 나아갔다.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
+      "sourceGrammarIds": [
+        "n2-104",
+        "n2-112",
+        "n2-113",
+        "n2-114"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-104-15",
+      "level": "N2",
+      "sentence": "指輪なんかなくても二人の気持ちは変わらない。",
+      "sentenceWithBlank": "指輪（　　　）なくても二人の気持ちは変わらない。",
+      "korean": "반지 따위가 없어도 두 사람의 마음은 변하지 않는다.",
+      "answerChoiceId": "fb-created-n2-104-15-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-104-15-c",
+          "text": "に加えて",
+          "grammarId": "n2-113",
+          "baseExpression": "に加えて",
+          "conjugatedExpression": "に加えて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-104-15-d",
+          "text": "にこしたことはない",
+          "grammarId": "n2-114",
+          "baseExpression": "にこしたことはない",
+          "conjugatedExpression": "にこしたことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-104-15-a",
+          "text": "なんか",
+          "grammarId": "n2-104",
+          "baseExpression": "なんて/なんか/など",
+          "conjugatedExpression": "なんか",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-104-15-b",
+          "text": "に関して",
+          "grammarId": "n2-112",
+          "baseExpression": "に関して",
+          "conjugatedExpression": "に関して",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '반지 따위가 없어도 두 사람의 마음은 변하지 않는다.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
+      "sourceGrammarIds": [
+        "n2-104",
+        "n2-112",
+        "n2-113",
+        "n2-114"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-104-16",
+      "level": "N2",
+      "sentence": "都会の暮らしなんか私には合わない。",
+      "sentenceWithBlank": "都会の暮らし（　　　）私には合わない。",
+      "korean": "도시 생활 따위는 나와 맞지 않는다.",
+      "answerChoiceId": "fb-created-n2-104-16-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-104-16-d",
+          "text": "にこしたことはない",
+          "grammarId": "n2-114",
+          "baseExpression": "にこしたことはない",
+          "conjugatedExpression": "にこしたことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-104-16-a",
+          "text": "なんか",
+          "grammarId": "n2-104",
+          "baseExpression": "なんて/なんか/など",
+          "conjugatedExpression": "なんか",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-104-16-b",
+          "text": "に関して",
+          "grammarId": "n2-112",
+          "baseExpression": "に関して",
+          "conjugatedExpression": "に関して",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-104-16-c",
+          "text": "に加えて",
+          "grammarId": "n2-113",
+          "baseExpression": "に加えて",
+          "conjugatedExpression": "に加えて",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '도시 생활 따위는 나와 맞지 않는다.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
+      "sourceGrammarIds": [
+        "n2-104",
+        "n2-112",
+        "n2-113",
+        "n2-114"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-104-17",
+      "level": "N2",
+      "sentence": "一度の失敗なんかで夢を諦めるな。",
+      "sentenceWithBlank": "一度の失敗（　　　）で夢を諦めるな。",
+      "korean": "한 번의 실패 따위로 꿈을 포기하지 마라.",
+      "answerChoiceId": "fb-created-n2-104-17-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-104-17-a",
+          "text": "なんか",
+          "grammarId": "n2-104",
+          "baseExpression": "なんて/なんか/など",
+          "conjugatedExpression": "なんか",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-104-17-b",
+          "text": "に関して",
+          "grammarId": "n2-112",
+          "baseExpression": "に関して",
+          "conjugatedExpression": "に関して",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-104-17-c",
+          "text": "に加えて",
+          "grammarId": "n2-113",
+          "baseExpression": "に加えて",
+          "conjugatedExpression": "に加えて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-104-17-d",
+          "text": "にこしたことはない",
+          "grammarId": "n2-114",
+          "baseExpression": "にこしたことはない",
+          "conjugatedExpression": "にこしたことはない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '한 번의 실패 따위로 꿈을 포기하지 마라.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
+      "sourceGrammarIds": [
+        "n2-104",
+        "n2-112",
+        "n2-113",
+        "n2-114"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-104-18",
+      "level": "N2",
+      "sentence": "冷凍食品なんか使わず祖父は毎朝だしを取る。",
+      "sentenceWithBlank": "冷凍食品（　　　）使わず祖父は毎朝だしを取る。",
+      "korean": "냉동식품 따위는 쓰지 않고 할아버지는 매일 아침 육수를 낸다.",
+      "answerChoiceId": "fb-created-n2-104-18-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-104-18-b",
+          "text": "に関して",
+          "grammarId": "n2-112",
+          "baseExpression": "に関して",
+          "conjugatedExpression": "に関して",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-104-18-c",
+          "text": "に加えて",
+          "grammarId": "n2-113",
+          "baseExpression": "に加えて",
+          "conjugatedExpression": "に加えて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-104-18-d",
+          "text": "にこしたことはない",
+          "grammarId": "n2-114",
+          "baseExpression": "にこしたことはない",
+          "conjugatedExpression": "にこしたことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-104-18-a",
+          "text": "なんか",
+          "grammarId": "n2-104",
+          "baseExpression": "なんて/なんか/など",
+          "conjugatedExpression": "なんか",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '냉동식품 따위는 쓰지 않고 할아버지는 매일 아침 육수를 낸다.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
+      "sourceGrammarIds": [
+        "n2-104",
+        "n2-112",
+        "n2-113",
+        "n2-114"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-104-19",
+      "level": "N2",
+      "sentence": "匿名の批判なんか相手にしなくていい。",
+      "sentenceWithBlank": "匿名の批判（　　　）相手にしなくていい。",
+      "korean": "익명의 비판 따위는 상대하지 않아도 된다.",
+      "answerChoiceId": "fb-created-n2-104-19-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-104-19-c",
+          "text": "に加えて",
+          "grammarId": "n2-113",
+          "baseExpression": "に加えて",
+          "conjugatedExpression": "に加えて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-104-19-d",
+          "text": "にこしたことはない",
+          "grammarId": "n2-114",
+          "baseExpression": "にこしたことはない",
+          "conjugatedExpression": "にこしたことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-104-19-a",
+          "text": "なんか",
+          "grammarId": "n2-104",
+          "baseExpression": "なんて/なんか/など",
+          "conjugatedExpression": "なんか",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-104-19-b",
+          "text": "に関して",
+          "grammarId": "n2-112",
+          "baseExpression": "に関して",
+          "conjugatedExpression": "に関して",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '익명의 비판 따위는 상대하지 않아도 된다.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
+      "sourceGrammarIds": [
+        "n2-104",
+        "n2-112",
+        "n2-113",
+        "n2-114"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-104-20",
+      "level": "N2",
+      "sentence": "泥棒なんか入らないと油断して鍵をかけなかった。",
+      "sentenceWithBlank": "泥棒（　　　）入らないと油断して鍵をかけなかった。",
+      "korean": "도둑 같은 건 들지 않을 거라고 방심해 문을 잠그지 않았다.",
+      "answerChoiceId": "fb-created-n2-104-20-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-104-20-d",
+          "text": "にこしたことはない",
+          "grammarId": "n2-114",
+          "baseExpression": "にこしたことはない",
+          "conjugatedExpression": "にこしたことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-104-20-a",
+          "text": "なんか",
+          "grammarId": "n2-104",
+          "baseExpression": "なんて/なんか/など",
+          "conjugatedExpression": "なんか",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-104-20-b",
+          "text": "に関して",
+          "grammarId": "n2-112",
+          "baseExpression": "に関して",
+          "conjugatedExpression": "に関して",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-104-20-c",
+          "text": "に加えて",
+          "grammarId": "n2-113",
+          "baseExpression": "に加えて",
+          "conjugatedExpression": "に加えて",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '도둑 같은 건 들지 않을 거라고 방심해 문을 잠그지 않았다.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
+      "sourceGrammarIds": [
+        "n2-104",
+        "n2-112",
+        "n2-113",
+        "n2-114"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-104-21",
+      "level": "N2",
+      "sentence": "機械なんかに職人の勘は再現できない。",
+      "sentenceWithBlank": "機械（　　　）に職人の勘は再現できない。",
+      "korean": "기계 따위로는 장인의 감각을 재현할 수 없다.",
+      "answerChoiceId": "fb-created-n2-104-21-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-104-21-a",
+          "text": "なんか",
+          "grammarId": "n2-104",
+          "baseExpression": "なんて/なんか/など",
+          "conjugatedExpression": "なんか",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-104-21-b",
+          "text": "に関して",
+          "grammarId": "n2-112",
+          "baseExpression": "に関して",
+          "conjugatedExpression": "に関して",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-104-21-c",
+          "text": "に加えて",
+          "grammarId": "n2-113",
+          "baseExpression": "に加えて",
+          "conjugatedExpression": "に加えて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-104-21-d",
+          "text": "にこしたことはない",
+          "grammarId": "n2-114",
+          "baseExpression": "にこしたことはない",
+          "conjugatedExpression": "にこしたことはない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '기계 따위로는 장인의 감각을 재현할 수 없다.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
+      "sourceGrammarIds": [
+        "n2-104",
+        "n2-112",
+        "n2-113",
+        "n2-114"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-104-22",
+      "level": "N2",
+      "sentence": "弟なんか一人で海外へ引っ越してしまった。",
+      "sentenceWithBlank": "弟（　　　）一人で海外へ引っ越してしまった。",
+      "korean": "남동생은 무려 혼자 해외로 이사해 버렸다.",
+      "answerChoiceId": "fb-created-n2-104-22-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-104-22-b",
+          "text": "に関して",
+          "grammarId": "n2-112",
+          "baseExpression": "に関して",
+          "conjugatedExpression": "に関して",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-104-22-c",
+          "text": "に加えて",
+          "grammarId": "n2-113",
+          "baseExpression": "に加えて",
+          "conjugatedExpression": "に加えて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-104-22-d",
+          "text": "にこしたことはない",
+          "grammarId": "n2-114",
+          "baseExpression": "にこしたことはない",
+          "conjugatedExpression": "にこしたことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-104-22-a",
+          "text": "なんか",
+          "grammarId": "n2-104",
+          "baseExpression": "なんて/なんか/など",
+          "conjugatedExpression": "なんか",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '남동생은 무려 혼자 해외로 이사해 버렸다.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
+      "sourceGrammarIds": [
+        "n2-104",
+        "n2-112",
+        "n2-113",
+        "n2-114"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-104-23",
+      "level": "N2",
+      "sentence": "風邪なんかすぐ治ると思って無理をした。",
+      "sentenceWithBlank": "風邪（　　　）すぐ治ると思って無理をした。",
+      "korean": "감기 따위는 금방 나을 거라고 생각해 무리했다.",
+      "answerChoiceId": "fb-created-n2-104-23-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-104-23-c",
+          "text": "に加えて",
+          "grammarId": "n2-113",
+          "baseExpression": "に加えて",
+          "conjugatedExpression": "に加えて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-104-23-d",
+          "text": "にこしたことはない",
+          "grammarId": "n2-114",
+          "baseExpression": "にこしたことはない",
+          "conjugatedExpression": "にこしたことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-104-23-a",
+          "text": "なんか",
+          "grammarId": "n2-104",
+          "baseExpression": "なんて/なんか/など",
+          "conjugatedExpression": "なんか",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-104-23-b",
+          "text": "に関して",
+          "grammarId": "n2-112",
+          "baseExpression": "に関して",
+          "conjugatedExpression": "に関して",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '감기 따위는 금방 나을 거라고 생각해 무리했다.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
+      "sourceGrammarIds": [
+        "n2-104",
+        "n2-112",
+        "n2-113",
+        "n2-114"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-104-24",
+      "level": "N2",
+      "sentence": "政治家なんか信用できないと父は言い切った。",
+      "sentenceWithBlank": "政治家（　　　）信用できないと父は言い切った。",
+      "korean": "정치인 따위는 믿을 수 없다고 아버지는 단언했다.",
+      "answerChoiceId": "fb-created-n2-104-24-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-104-24-d",
+          "text": "にこしたことはない",
+          "grammarId": "n2-114",
+          "baseExpression": "にこしたことはない",
+          "conjugatedExpression": "にこしたことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-104-24-a",
+          "text": "なんか",
+          "grammarId": "n2-104",
+          "baseExpression": "なんて/なんか/など",
+          "conjugatedExpression": "なんか",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-104-24-b",
+          "text": "に関して",
+          "grammarId": "n2-112",
+          "baseExpression": "に関して",
+          "conjugatedExpression": "に関して",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-104-24-c",
+          "text": "に加えて",
+          "grammarId": "n2-113",
+          "baseExpression": "に加えて",
+          "conjugatedExpression": "に加えて",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '정치인 따위는 믿을 수 없다고 아버지는 단언했다.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
+      "sourceGrammarIds": [
+        "n2-104",
+        "n2-112",
+        "n2-113",
+        "n2-114"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-104-25",
+      "level": "N2",
+      "sentence": "深夜の公園なんか子どもを連れて行く場所ではない。",
+      "sentenceWithBlank": "深夜の公園（　　　）子どもを連れて行く場所ではない。",
+      "korean": "심야의 공원 따위는 아이를 데려갈 곳이 아니다.",
+      "answerChoiceId": "fb-created-n2-104-25-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-104-25-a",
+          "text": "なんか",
+          "grammarId": "n2-104",
+          "baseExpression": "なんて/なんか/など",
+          "conjugatedExpression": "なんか",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-104-25-b",
+          "text": "に関して",
+          "grammarId": "n2-112",
+          "baseExpression": "に関して",
+          "conjugatedExpression": "に関して",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-104-25-c",
+          "text": "に加えて",
+          "grammarId": "n2-113",
+          "baseExpression": "に加えて",
+          "conjugatedExpression": "に加えて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-104-25-d",
+          "text": "にこしたことはない",
+          "grammarId": "n2-114",
+          "baseExpression": "にこしたことはない",
+          "conjugatedExpression": "にこしたことはない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '심야의 공원 따위는 아이를 데려갈 곳이 아니다.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
+      "sourceGrammarIds": [
+        "n2-104",
+        "n2-112",
+        "n2-113",
+        "n2-114"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
       ]
     }
   ],
@@ -1834,1103 +1809,1153 @@
       ]
     },
     {
-      "id": "so-extra-n2-104-1",
+      "id": "so-created-n2-104-01",
       "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlanks": "私 ____ ____ ____ ____",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
+      "sentence": "休日なんか家で静かに過ごせば十分だ。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "휴일 따위는 집에서 조용히 보내면 충분하다.",
       "pieces": [
         {
-          "id": "so-extra-n2-104-1-p3",
-          "text": "経験が足りません",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-104-1-p4",
-          "text": "なんか",
+          "id": "so-created-n2-104-01-p1",
+          "text": "休日なんか",
           "order": 1
         },
         {
-          "id": "so-extra-n2-104-1-p1",
-          "text": "まだ",
+          "id": "so-created-n2-104-01-p2",
+          "text": "家で静かに",
           "order": 2
         },
         {
-          "id": "so-extra-n2-104-1-p2",
-          "text": "まだ",
+          "id": "so-created-n2-104-01-p3",
+          "text": "過ごせば",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-104-01-p4",
+          "text": "十分だ。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-104-1-p4",
-        "so-extra-n2-104-1-p1",
-        "so-extra-n2-104-1-p2",
-        "so-extra-n2-104-1-p3"
+        "so-created-n2-104-01-p1",
+        "so-created-n2-104-01-p2",
+        "so-created-n2-104-01-p3",
+        "so-created-n2-104-01-p4"
       ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '휴일 따위는 집에서 조용히 보내면 충분하다.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
       "sourceGrammarIds": [
-        "n2-104"
+        "n2-104",
+        "n2-112",
+        "n2-113",
+        "n2-114"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-104-2",
+      "id": "so-created-n2-104-02",
       "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlanks": "私 ____ ____ ____ ____",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
+      "sentence": "高級車なんか狭い町ではかえって不便だ。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "고급차 따위는 좁은 동네에서는 오히려 불편하다.",
       "pieces": [
         {
-          "id": "so-extra-n2-104-2-p4",
-          "text": "まだ",
-          "order": 2
-        },
-        {
-          "id": "so-extra-n2-104-2-p1",
-          "text": "まだ",
-          "order": 3
-        },
-        {
-          "id": "so-extra-n2-104-2-p2",
-          "text": "経験が足りません",
+          "id": "so-created-n2-104-02-p4",
+          "text": "不便だ。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-104-2-p3",
-          "text": "なんか",
+          "id": "so-created-n2-104-02-p1",
+          "text": "高級車",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-104-02-p2",
+          "text": "なんか狭い",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-104-02-p3",
+          "text": "町ではかえって",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-104-2-p3",
-        "so-extra-n2-104-2-p4",
-        "so-extra-n2-104-2-p1",
-        "so-extra-n2-104-2-p2"
+        "so-created-n2-104-02-p1",
+        "so-created-n2-104-02-p2",
+        "so-created-n2-104-02-p3",
+        "so-created-n2-104-02-p4"
       ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '고급차 따위는 좁은 동네에서는 오히려 불편하다.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
       "sourceGrammarIds": [
-        "n2-104"
+        "n2-104",
+        "n2-112",
+        "n2-113",
+        "n2-114"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-104-3",
+      "id": "so-created-n2-104-03",
       "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlanks": "____ ____ ____ ____ まだまだ経験が足りません。",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
+      "sentence": "彼の約束なんかもう誰も信じていない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "그의 약속 따위는 이제 아무도 믿지 않는다.",
       "pieces": [
         {
-          "id": "so-extra-n2-104-3-p1",
-          "text": "まだ",
+          "id": "so-created-n2-104-03-p3",
+          "text": "もう誰も",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-104-03-p4",
+          "text": "信じていない。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-104-3-p2",
-          "text": "私",
+          "id": "so-created-n2-104-03-p1",
+          "text": "彼の約束",
           "order": 1
         },
         {
-          "id": "so-extra-n2-104-3-p3",
+          "id": "so-created-n2-104-03-p2",
           "text": "なんか",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-104-3-p4",
-          "text": "まだ",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-104-3-p2",
-        "so-extra-n2-104-3-p3",
-        "so-extra-n2-104-3-p4",
-        "so-extra-n2-104-3-p1"
+        "so-created-n2-104-03-p1",
+        "so-created-n2-104-03-p2",
+        "so-created-n2-104-03-p3",
+        "so-created-n2-104-03-p4"
       ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '그의 약속 따위는 이제 아무도 믿지 않는다.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
       "sourceGrammarIds": [
-        "n2-104"
+        "n2-104",
+        "n2-112",
+        "n2-113",
+        "n2-114"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-104-4",
+      "id": "so-created-n2-104-04",
       "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlanks": "私 ____ ____ ____ ____",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
+      "sentence": "占いなんかに人生を決められたくない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "점 따위에 내 인생을 맡기고 싶지 않다.",
       "pieces": [
         {
-          "id": "so-extra-n2-104-4-p2",
-          "text": "まだ",
+          "id": "so-created-n2-104-04-p2",
+          "text": "なんか",
           "order": 2
         },
         {
-          "id": "so-extra-n2-104-4-p3",
-          "text": "まだ",
+          "id": "so-created-n2-104-04-p3",
+          "text": "に人生を",
           "order": 3
         },
         {
-          "id": "so-extra-n2-104-4-p4",
-          "text": "経験が足りません",
+          "id": "so-created-n2-104-04-p4",
+          "text": "決められたくない。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-104-4-p1",
-          "text": "なんか",
+          "id": "so-created-n2-104-04-p1",
+          "text": "占い",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-104-4-p1",
-        "so-extra-n2-104-4-p2",
-        "so-extra-n2-104-4-p3",
-        "so-extra-n2-104-4-p4"
+        "so-created-n2-104-04-p1",
+        "so-created-n2-104-04-p2",
+        "so-created-n2-104-04-p3",
+        "so-created-n2-104-04-p4"
       ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '점 따위에 내 인생을 맡기고 싶지 않다.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
       "sourceGrammarIds": [
-        "n2-104"
+        "n2-104",
+        "n2-112",
+        "n2-113",
+        "n2-114"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-104-5",
+      "id": "so-created-n2-104-05",
       "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlanks": "私 ____ ____ ____ ____",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
+      "sentence": "肩書なんかなくても彼女の実力は伝わる。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "직함 따위가 없어도 그녀의 실력은 드러난다.",
       "pieces": [
         {
-          "id": "so-extra-n2-104-5-p3",
-          "text": "経験が足りません",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-104-5-p4",
-          "text": "なんか",
+          "id": "so-created-n2-104-05-p1",
+          "text": "肩書なんか",
           "order": 1
         },
         {
-          "id": "so-extra-n2-104-5-p1",
-          "text": "まだ",
+          "id": "so-created-n2-104-05-p2",
+          "text": "なくても",
           "order": 2
         },
         {
-          "id": "so-extra-n2-104-5-p2",
-          "text": "まだ",
+          "id": "so-created-n2-104-05-p3",
+          "text": "彼女の実力は",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-104-05-p4",
+          "text": "伝わる。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-104-5-p4",
-        "so-extra-n2-104-5-p1",
-        "so-extra-n2-104-5-p2",
-        "so-extra-n2-104-5-p3"
+        "so-created-n2-104-05-p1",
+        "so-created-n2-104-05-p2",
+        "so-created-n2-104-05-p3",
+        "so-created-n2-104-05-p4"
       ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '직함 따위가 없어도 그녀의 실력은 드러난다.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
       "sourceGrammarIds": [
-        "n2-104"
+        "n2-104",
+        "n2-112",
+        "n2-113",
+        "n2-114"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-104-01",
+      "id": "so-created-n2-104-06",
       "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlanks": "私 ____ ____ ____ ____",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
+      "sentence": "失恋なんかで店を休むわけにはいかない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "실연 따위로 가게를 쉴 수는 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-104-01-p3",
-          "text": "経験が足りません",
+          "id": "so-created-n2-104-06-p4",
+          "text": "休むわけにはいかない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-104-01-p4",
-          "text": "なんか",
+          "id": "so-created-n2-104-06-p1",
+          "text": "失恋",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-104-01-p1",
-          "text": "まだ",
+          "id": "so-created-n2-104-06-p2",
+          "text": "なんか",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-104-01-p2",
-          "text": "まだ",
+          "id": "so-created-n2-104-06-p3",
+          "text": "で店を",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-104-01-p4",
-        "so-extra20-n2-104-01-p1",
-        "so-extra20-n2-104-01-p2",
-        "so-extra20-n2-104-01-p3"
+        "so-created-n2-104-06-p1",
+        "so-created-n2-104-06-p2",
+        "so-created-n2-104-06-p3",
+        "so-created-n2-104-06-p4"
       ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '실연 따위로 가게를 쉴 수는 없다.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
       "sourceGrammarIds": [
-        "n2-104"
+        "n2-104",
+        "n2-112",
+        "n2-113",
+        "n2-114"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-104-02",
+      "id": "so-created-n2-104-07",
       "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlanks": "私 ____ ____ ____ ____",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
+      "sentence": "古い傷なんか今さら気にする必要はない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "오래된 흉터 따위는 이제 와서 신경 쓸 필요가 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-104-02-p2",
-          "text": "経験が足りません",
+          "id": "so-created-n2-104-07-p3",
+          "text": "気にする",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-104-07-p4",
+          "text": "必要はない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-104-02-p3",
-          "text": "なんか",
+          "id": "so-created-n2-104-07-p1",
+          "text": "古い傷",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-104-02-p4",
-          "text": "まだ",
+          "id": "so-created-n2-104-07-p2",
+          "text": "なんか今さら",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-104-02-p1",
-          "text": "まだ",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-104-02-p3",
-        "so-extra20-n2-104-02-p4",
-        "so-extra20-n2-104-02-p1",
-        "so-extra20-n2-104-02-p2"
+        "so-created-n2-104-07-p1",
+        "so-created-n2-104-07-p2",
+        "so-created-n2-104-07-p3",
+        "so-created-n2-104-07-p4"
       ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '오래된 흉터 따위는 이제 와서 신경 쓸 필요가 없다.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
       "sourceGrammarIds": [
-        "n2-104"
+        "n2-104",
+        "n2-112",
+        "n2-113",
+        "n2-114"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-104-03",
+      "id": "so-created-n2-104-08",
       "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlanks": "____ ____ ____ ____ まだまだ経験が足りません。",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
+      "sentence": "賞金なんかより家族の笑顔のほうがうれしい。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "상금 따위보다 가족의 웃는 얼굴이 더 기쁘다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-104-03-p1",
-          "text": "まだ",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-104-03-p2",
-          "text": "私",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-104-03-p3",
+          "id": "so-created-n2-104-08-p2",
           "text": "なんか",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-104-03-p4",
-          "text": "まだ",
+          "id": "so-created-n2-104-08-p3",
+          "text": "より家族の",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-104-08-p4",
+          "text": "笑顔のほうがうれしい。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-104-08-p1",
+          "text": "賞金",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-104-03-p2",
-        "so-extra20-n2-104-03-p3",
-        "so-extra20-n2-104-03-p4",
-        "so-extra20-n2-104-03-p1"
+        "so-created-n2-104-08-p1",
+        "so-created-n2-104-08-p2",
+        "so-created-n2-104-08-p3",
+        "so-created-n2-104-08-p4"
       ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '상금 따위보다 가족의 웃는 얼굴이 더 기쁘다.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
       "sourceGrammarIds": [
-        "n2-104"
+        "n2-104",
+        "n2-112",
+        "n2-113",
+        "n2-114"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-104-04",
+      "id": "so-created-n2-104-09",
       "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlanks": "私 ____ ____ ____ ____",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
+      "sentence": "渋滞なんか予想して早めに港へ向かった。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "교통 체증 같은 것을 예상해 일찍 항구로 향했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-104-04-p4",
-          "text": "経験が足りません",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-104-04-p1",
-          "text": "なんか",
+          "id": "so-created-n2-104-09-p1",
+          "text": "渋滞なんか",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-104-04-p2",
-          "text": "まだ",
+          "id": "so-created-n2-104-09-p2",
+          "text": "予想して",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-104-04-p3",
-          "text": "まだ",
+          "id": "so-created-n2-104-09-p3",
+          "text": "早めに港へ",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-104-09-p4",
+          "text": "向かった。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-104-04-p1",
-        "so-extra20-n2-104-04-p2",
-        "so-extra20-n2-104-04-p3",
-        "so-extra20-n2-104-04-p4"
+        "so-created-n2-104-09-p1",
+        "so-created-n2-104-09-p2",
+        "so-created-n2-104-09-p3",
+        "so-created-n2-104-09-p4"
       ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '교통 체증 같은 것을 예상해 일찍 항구로 향했다.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
       "sourceGrammarIds": [
-        "n2-104"
+        "n2-104",
+        "n2-112",
+        "n2-113",
+        "n2-114"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-104-05",
+      "id": "so-created-n2-104-10",
       "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlanks": "私 ____ ____ ____ ____",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
+      "sentence": "退職なんか突然言い出してどうしたの。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "퇴직이라니, 갑자기 그런 말을 꺼내고 무슨 일이야?",
       "pieces": [
         {
-          "id": "so-extra20-n2-104-05-p3",
-          "text": "経験が足りません",
+          "id": "so-created-n2-104-10-p4",
+          "text": "出してどうしたの。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-104-05-p4",
-          "text": "なんか",
+          "id": "so-created-n2-104-10-p1",
+          "text": "退職",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-104-05-p1",
-          "text": "まだ",
+          "id": "so-created-n2-104-10-p2",
+          "text": "なんか",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-104-05-p2",
-          "text": "まだ",
+          "id": "so-created-n2-104-10-p3",
+          "text": "突然言い",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-104-05-p4",
-        "so-extra20-n2-104-05-p1",
-        "so-extra20-n2-104-05-p2",
-        "so-extra20-n2-104-05-p3"
+        "so-created-n2-104-10-p1",
+        "so-created-n2-104-10-p2",
+        "so-created-n2-104-10-p3",
+        "so-created-n2-104-10-p4"
       ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '퇴직이라니, 갑자기 그런 말을 꺼내고 무슨 일이야?'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
       "sourceGrammarIds": [
-        "n2-104"
+        "n2-104",
+        "n2-112",
+        "n2-113",
+        "n2-114"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-104-06",
+      "id": "so-created-n2-104-11",
       "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlanks": "私 ____ ____ ____ ____",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
+      "sentence": "社長なんか僕に務まるはずがない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "사장 같은 자리가 나한테 맞을 리가 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-104-06-p2",
-          "text": "まだ",
+          "id": "so-created-n2-104-11-p3",
+          "text": "僕に",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-104-06-p3",
-          "text": "経験が足りません",
+          "id": "so-created-n2-104-11-p4",
+          "text": "務まるはずがない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-104-06-p4",
-          "text": "なんか",
+          "id": "so-created-n2-104-11-p1",
+          "text": "社長",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-104-06-p1",
-          "text": "まだ",
+          "id": "so-created-n2-104-11-p2",
+          "text": "なんか",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-104-06-p4",
-        "so-extra20-n2-104-06-p1",
-        "so-extra20-n2-104-06-p2",
-        "so-extra20-n2-104-06-p3"
+        "so-created-n2-104-11-p1",
+        "so-created-n2-104-11-p2",
+        "so-created-n2-104-11-p3",
+        "so-created-n2-104-11-p4"
       ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '사장 같은 자리가 나한테 맞을 리가 없다.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
       "sourceGrammarIds": [
-        "n2-104"
+        "n2-104",
+        "n2-112",
+        "n2-113",
+        "n2-114"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-104-07",
+      "id": "so-created-n2-104-12",
       "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlanks": "私 ____ ____ ____ ____",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
+      "sentence": "真夏に鍋料理なんか食べる気になれない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "한여름에 전골 요리 따위는 먹고 싶은 마음이 들지 않는다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-104-07-p1",
-          "text": "まだ",
+          "id": "so-created-n2-104-12-p2",
+          "text": "料理なんか",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-104-12-p3",
+          "text": "食べる",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-104-07-p2",
-          "text": "経験が足りません",
+          "id": "so-created-n2-104-12-p4",
+          "text": "気になれない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-104-07-p3",
-          "text": "なんか",
+          "id": "so-created-n2-104-12-p1",
+          "text": "真夏に鍋",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-104-07-p4",
-          "text": "まだ",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-104-07-p3",
-        "so-extra20-n2-104-07-p4",
-        "so-extra20-n2-104-07-p1",
-        "so-extra20-n2-104-07-p2"
+        "so-created-n2-104-12-p1",
+        "so-created-n2-104-12-p2",
+        "so-created-n2-104-12-p3",
+        "so-created-n2-104-12-p4"
       ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '한여름에 전골 요리 따위는 먹고 싶은 마음이 들지 않는다.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
       "sourceGrammarIds": [
-        "n2-104"
+        "n2-104",
+        "n2-112",
+        "n2-113",
+        "n2-114"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-104-08",
+      "id": "so-created-n2-104-13",
       "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlanks": "____ ____ ____ ____ まだまだ経験が足りません。",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
+      "sentence": "うわさなんか放っておけば自然に消えるよ。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "소문 따위는 내버려 두면 자연히 사라질 거야.",
       "pieces": [
         {
-          "id": "so-extra20-n2-104-08-p4",
-          "text": "まだ",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-104-08-p1",
-          "text": "まだ",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-104-08-p2",
-          "text": "私",
+          "id": "so-created-n2-104-13-p1",
+          "text": "うわさなんか",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-104-08-p3",
-          "text": "なんか",
+          "id": "so-created-n2-104-13-p2",
+          "text": "放っておけば",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-104-13-p3",
+          "text": "自然に",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-104-13-p4",
+          "text": "消えるよ。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-104-08-p2",
-        "so-extra20-n2-104-08-p3",
-        "so-extra20-n2-104-08-p4",
-        "so-extra20-n2-104-08-p1"
+        "so-created-n2-104-13-p1",
+        "so-created-n2-104-13-p2",
+        "so-created-n2-104-13-p3",
+        "so-created-n2-104-13-p4"
       ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '소문 따위는 내버려 두면 자연히 사라질 거야.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
       "sourceGrammarIds": [
-        "n2-104"
+        "n2-104",
+        "n2-112",
+        "n2-113",
+        "n2-114"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-104-09",
+      "id": "so-created-n2-104-14",
       "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlanks": "私 ____ ____ ____ ____",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
+      "sentence": "雨なんかに負けず祭りの行列は進んだ。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "비 따위에 굴하지 않고 축제 행렬은 나아갔다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-104-09-p3",
-          "text": "まだ",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-104-09-p4",
-          "text": "経験が足りません",
+          "id": "so-created-n2-104-14-p4",
+          "text": "進んだ。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-104-09-p1",
-          "text": "なんか",
+          "id": "so-created-n2-104-14-p1",
+          "text": "雨なんか",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-104-09-p2",
-          "text": "まだ",
+          "id": "so-created-n2-104-14-p2",
+          "text": "に負けず",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-104-14-p3",
+          "text": "祭りの行列は",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-104-09-p1",
-        "so-extra20-n2-104-09-p2",
-        "so-extra20-n2-104-09-p3",
-        "so-extra20-n2-104-09-p4"
+        "so-created-n2-104-14-p1",
+        "so-created-n2-104-14-p2",
+        "so-created-n2-104-14-p3",
+        "so-created-n2-104-14-p4"
       ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '비 따위에 굴하지 않고 축제 행렬은 나아갔다.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
       "sourceGrammarIds": [
-        "n2-104"
+        "n2-104",
+        "n2-112",
+        "n2-113",
+        "n2-114"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-104-10",
+      "id": "so-created-n2-104-15",
       "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlanks": "私 ____ ____ ____ ____",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
+      "sentence": "指輪なんかなくても二人の気持ちは変わらない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "반지 따위가 없어도 두 사람의 마음은 변하지 않는다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-104-10-p2",
-          "text": "まだ",
+          "id": "so-created-n2-104-15-p3",
+          "text": "二人の気持ちは",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-104-10-p3",
-          "text": "経験が足りません",
+          "id": "so-created-n2-104-15-p4",
+          "text": "変わらない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-104-10-p4",
-          "text": "なんか",
+          "id": "so-created-n2-104-15-p1",
+          "text": "指輪なんか",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-104-10-p1",
-          "text": "まだ",
+          "id": "so-created-n2-104-15-p2",
+          "text": "なくても",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-104-10-p4",
-        "so-extra20-n2-104-10-p1",
-        "so-extra20-n2-104-10-p2",
-        "so-extra20-n2-104-10-p3"
+        "so-created-n2-104-15-p1",
+        "so-created-n2-104-15-p2",
+        "so-created-n2-104-15-p3",
+        "so-created-n2-104-15-p4"
       ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '반지 따위가 없어도 두 사람의 마음은 변하지 않는다.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
       "sourceGrammarIds": [
-        "n2-104"
+        "n2-104",
+        "n2-112",
+        "n2-113",
+        "n2-114"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-104-11",
+      "id": "so-created-n2-104-16",
       "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlanks": "私 ____ ____ ____ ____",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
+      "sentence": "都会の暮らしなんか私には合わない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "도시 생활 따위는 나와 맞지 않는다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-104-11-p1",
-          "text": "まだ",
+          "id": "so-created-n2-104-16-p2",
+          "text": "暮らし",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-104-11-p2",
-          "text": "まだ",
+          "id": "so-created-n2-104-16-p3",
+          "text": "なんか私には",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-104-11-p3",
-          "text": "経験が足りません",
+          "id": "so-created-n2-104-16-p4",
+          "text": "合わない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-104-11-p4",
-          "text": "なんか",
+          "id": "so-created-n2-104-16-p1",
+          "text": "都会の",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-104-11-p4",
-        "so-extra20-n2-104-11-p1",
-        "so-extra20-n2-104-11-p2",
-        "so-extra20-n2-104-11-p3"
+        "so-created-n2-104-16-p1",
+        "so-created-n2-104-16-p2",
+        "so-created-n2-104-16-p3",
+        "so-created-n2-104-16-p4"
       ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '도시 생활 따위는 나와 맞지 않는다.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
       "sourceGrammarIds": [
-        "n2-104"
+        "n2-104",
+        "n2-112",
+        "n2-113",
+        "n2-114"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-104-12",
+      "id": "so-created-n2-104-17",
       "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlanks": "私 ____ ____ ____ ____",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
+      "sentence": "一度の失敗なんかで夢を諦めるな。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "한 번의 실패 따위로 꿈을 포기하지 마라.",
       "pieces": [
         {
-          "id": "so-extra20-n2-104-12-p4",
-          "text": "まだ",
+          "id": "so-created-n2-104-17-p1",
+          "text": "一度の",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-104-17-p2",
+          "text": "失敗なんか",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-104-12-p1",
-          "text": "まだ",
+          "id": "so-created-n2-104-17-p3",
+          "text": "で夢を",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-104-12-p2",
-          "text": "経験が足りません",
+          "id": "so-created-n2-104-17-p4",
+          "text": "諦めるな。",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-104-12-p3",
-          "text": "なんか",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-104-12-p3",
-        "so-extra20-n2-104-12-p4",
-        "so-extra20-n2-104-12-p1",
-        "so-extra20-n2-104-12-p2"
+        "so-created-n2-104-17-p1",
+        "so-created-n2-104-17-p2",
+        "so-created-n2-104-17-p3",
+        "so-created-n2-104-17-p4"
       ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '한 번의 실패 따위로 꿈을 포기하지 마라.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
       "sourceGrammarIds": [
-        "n2-104"
+        "n2-104",
+        "n2-112",
+        "n2-113",
+        "n2-114"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-104-13",
+      "id": "so-created-n2-104-18",
       "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlanks": "____ ____ ____ ____ まだまだ経験が足りません。",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
+      "sentence": "冷凍食品なんか使わず祖父は毎朝だしを取る。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "냉동식품 따위는 쓰지 않고 할아버지는 매일 아침 육수를 낸다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-104-13-p3",
-          "text": "なんか",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-104-13-p4",
-          "text": "まだ",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-104-13-p1",
-          "text": "まだ",
+          "id": "so-created-n2-104-18-p4",
+          "text": "取る。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-104-13-p2",
-          "text": "私",
+          "id": "so-created-n2-104-18-p1",
+          "text": "冷凍食品なんか",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-104-18-p2",
+          "text": "使わず祖父は",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-104-18-p3",
+          "text": "毎朝だしを",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-104-13-p2",
-        "so-extra20-n2-104-13-p3",
-        "so-extra20-n2-104-13-p4",
-        "so-extra20-n2-104-13-p1"
+        "so-created-n2-104-18-p1",
+        "so-created-n2-104-18-p2",
+        "so-created-n2-104-18-p3",
+        "so-created-n2-104-18-p4"
       ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '냉동식품 따위는 쓰지 않고 할아버지는 매일 아침 육수를 낸다.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
       "sourceGrammarIds": [
-        "n2-104"
+        "n2-104",
+        "n2-112",
+        "n2-113",
+        "n2-114"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-104-14",
+      "id": "so-created-n2-104-19",
       "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlanks": "私 ____ ____ ____ ____",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
+      "sentence": "匿名の批判なんか相手にしなくていい。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "익명의 비판 따위는 상대하지 않아도 된다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-104-14-p2",
-          "text": "まだ",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-104-14-p3",
-          "text": "まだ",
+          "id": "so-created-n2-104-19-p3",
+          "text": "なんか",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-104-14-p4",
-          "text": "経験が足りません",
+          "id": "so-created-n2-104-19-p4",
+          "text": "相手にしなくていい。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-104-14-p1",
-          "text": "なんか",
+          "id": "so-created-n2-104-19-p1",
+          "text": "匿名の",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-104-19-p2",
+          "text": "批判",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-104-14-p1",
-        "so-extra20-n2-104-14-p2",
-        "so-extra20-n2-104-14-p3",
-        "so-extra20-n2-104-14-p4"
+        "so-created-n2-104-19-p1",
+        "so-created-n2-104-19-p2",
+        "so-created-n2-104-19-p3",
+        "so-created-n2-104-19-p4"
       ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '익명의 비판 따위는 상대하지 않아도 된다.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
       "sourceGrammarIds": [
-        "n2-104"
+        "n2-104",
+        "n2-112",
+        "n2-113",
+        "n2-114"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-104-15",
+      "id": "so-created-n2-104-20",
       "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlanks": "私 ____ ____ ____ ____",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
+      "sentence": "泥棒なんか入らないと油断して鍵をかけなかった。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "도둑 같은 건 들지 않을 거라고 방심해 문을 잠그지 않았다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-104-15-p1",
-          "text": "まだ",
+          "id": "so-created-n2-104-20-p2",
+          "text": "入らないと",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-104-15-p2",
-          "text": "まだ",
+          "id": "so-created-n2-104-20-p3",
+          "text": "油断して",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-104-15-p3",
-          "text": "経験が足りません",
+          "id": "so-created-n2-104-20-p4",
+          "text": "鍵をかけなかった。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-104-15-p4",
-          "text": "なんか",
+          "id": "so-created-n2-104-20-p1",
+          "text": "泥棒なんか",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-104-15-p4",
-        "so-extra20-n2-104-15-p1",
-        "so-extra20-n2-104-15-p2",
-        "so-extra20-n2-104-15-p3"
+        "so-created-n2-104-20-p1",
+        "so-created-n2-104-20-p2",
+        "so-created-n2-104-20-p3",
+        "so-created-n2-104-20-p4"
       ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '도둑 같은 건 들지 않을 거라고 방심해 문을 잠그지 않았다.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
       "sourceGrammarIds": [
-        "n2-104"
+        "n2-104",
+        "n2-112",
+        "n2-113",
+        "n2-114"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-104-16",
+      "id": "so-created-n2-104-21",
       "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlanks": "私 ____ ____ ____ ____",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
+      "sentence": "機械なんかに職人の勘は再現できない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "기계 따위로는 장인의 감각을 재현할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-104-16-p4",
-          "text": "なんか",
+          "id": "so-created-n2-104-21-p1",
+          "text": "機械",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-104-16-p1",
-          "text": "まだ",
+          "id": "so-created-n2-104-21-p2",
+          "text": "なんかに",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-104-16-p2",
-          "text": "まだ",
+          "id": "so-created-n2-104-21-p3",
+          "text": "職人の勘は",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-104-16-p3",
-          "text": "経験が足りません",
+          "id": "so-created-n2-104-21-p4",
+          "text": "再現できない。",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-104-16-p4",
-        "so-extra20-n2-104-16-p1",
-        "so-extra20-n2-104-16-p2",
-        "so-extra20-n2-104-16-p3"
+        "so-created-n2-104-21-p1",
+        "so-created-n2-104-21-p2",
+        "so-created-n2-104-21-p3",
+        "so-created-n2-104-21-p4"
       ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '기계 따위로는 장인의 감각을 재현할 수 없다.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
       "sourceGrammarIds": [
-        "n2-104"
+        "n2-104",
+        "n2-112",
+        "n2-113",
+        "n2-114"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-104-17",
+      "id": "so-created-n2-104-22",
       "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlanks": "私 ____ ____ ____ ____",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
+      "sentence": "弟なんか一人で海外へ引っ越してしまった。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "남동생은 무려 혼자 해외로 이사해 버렸다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-104-17-p3",
-          "text": "なんか",
+          "id": "so-created-n2-104-22-p4",
+          "text": "引っ越してしまった。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-104-22-p1",
+          "text": "弟なんか",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-104-17-p4",
-          "text": "まだ",
+          "id": "so-created-n2-104-22-p2",
+          "text": "一人で",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-104-17-p1",
-          "text": "まだ",
+          "id": "so-created-n2-104-22-p3",
+          "text": "海外へ",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-104-17-p2",
-          "text": "経験が足りません",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-104-17-p3",
-        "so-extra20-n2-104-17-p4",
-        "so-extra20-n2-104-17-p1",
-        "so-extra20-n2-104-17-p2"
+        "so-created-n2-104-22-p1",
+        "so-created-n2-104-22-p2",
+        "so-created-n2-104-22-p3",
+        "so-created-n2-104-22-p4"
       ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '남동생은 무려 혼자 해외로 이사해 버렸다.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
       "sourceGrammarIds": [
-        "n2-104"
+        "n2-104",
+        "n2-112",
+        "n2-113",
+        "n2-114"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-104-18",
+      "id": "so-created-n2-104-23",
       "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlanks": "____ ____ ____ ____ まだまだ経験が足りません。",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
+      "sentence": "風邪なんかすぐ治ると思って無理をした。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "감기 따위는 금방 나을 거라고 생각해 무리했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-104-18-p2",
-          "text": "私",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-104-18-p3",
-          "text": "なんか",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-104-18-p4",
-          "text": "まだ",
+          "id": "so-created-n2-104-23-p3",
+          "text": "思って",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-104-18-p1",
-          "text": "まだ",
+          "id": "so-created-n2-104-23-p4",
+          "text": "無理をした。",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-104-23-p1",
+          "text": "風邪なんか",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-104-23-p2",
+          "text": "すぐ治ると",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-104-18-p2",
-        "so-extra20-n2-104-18-p3",
-        "so-extra20-n2-104-18-p4",
-        "so-extra20-n2-104-18-p1"
+        "so-created-n2-104-23-p1",
+        "so-created-n2-104-23-p2",
+        "so-created-n2-104-23-p3",
+        "so-created-n2-104-23-p4"
       ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '감기 따위는 금방 나을 거라고 생각해 무리했다.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
       "sourceGrammarIds": [
-        "n2-104"
+        "n2-104",
+        "n2-112",
+        "n2-113",
+        "n2-114"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-104-19",
+      "id": "so-created-n2-104-24",
       "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlanks": "私 ____ ____ ____ ____",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
+      "sentence": "政治家なんか信用できないと父は言い切った。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "정치인 따위는 믿을 수 없다고 아버지는 단언했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-104-19-p1",
-          "text": "なんか",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-104-19-p2",
-          "text": "まだ",
+          "id": "so-created-n2-104-24-p2",
+          "text": "信用できないと",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-104-19-p3",
-          "text": "まだ",
+          "id": "so-created-n2-104-24-p3",
+          "text": "父は言い",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-104-19-p4",
-          "text": "経験が足りません",
+          "id": "so-created-n2-104-24-p4",
+          "text": "切った。",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-104-24-p1",
+          "text": "政治家なんか",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-104-19-p1",
-        "so-extra20-n2-104-19-p2",
-        "so-extra20-n2-104-19-p3",
-        "so-extra20-n2-104-19-p4"
+        "so-created-n2-104-24-p1",
+        "so-created-n2-104-24-p2",
+        "so-created-n2-104-24-p3",
+        "so-created-n2-104-24-p4"
       ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '정치인 따위는 믿을 수 없다고 아버지는 단언했다.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
       "sourceGrammarIds": [
-        "n2-104"
+        "n2-104",
+        "n2-112",
+        "n2-113",
+        "n2-114"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-104-20",
+      "id": "so-created-n2-104-25",
       "level": "N2",
-      "sentence": "私なんかまだまだ経験が足りません。",
-      "sentenceWithBlanks": "私 ____ ____ ____ ____",
-      "korean": "저 같은 사람은 아직 경험이 부족합니다.",
+      "sentence": "深夜の公園なんか子どもを連れて行く場所ではない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "심야의 공원 따위는 아이를 데려갈 곳이 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-104-20-p4",
-          "text": "なんか",
+          "id": "so-created-n2-104-25-p1",
+          "text": "深夜の公園",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-104-20-p1",
-          "text": "まだ",
+          "id": "so-created-n2-104-25-p2",
+          "text": "なんか子どもを",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-104-20-p2",
-          "text": "まだ",
+          "id": "so-created-n2-104-25-p3",
+          "text": "連れて行く",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-104-20-p3",
-          "text": "経験が足りません",
+          "id": "so-created-n2-104-25-p4",
+          "text": "場所ではない。",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-104-20-p4",
-        "so-extra20-n2-104-20-p1",
-        "so-extra20-n2-104-20-p2",
-        "so-extra20-n2-104-20-p3"
+        "so-created-n2-104-25-p1",
+        "so-created-n2-104-25-p2",
+        "so-created-n2-104-25-p3",
+        "so-created-n2-104-25-p4"
       ],
-      "explanation": "「なんて/なんか/など」는 ~따위, ~라고, ~라니라는 뜻이다. 가볍게 예시, 낮춤, 놀람·비판.",
+      "explanation": "「なんか」는 '~따위, ~라고, ~라니'라는 뜻을 나타낸다. 이 문장에서는 '심야의 공원 따위는 아이를 데려갈 곳이 아니다.'라는 상황에 쓰였으며, 가볍게 예시, 낮춤, 놀람·비판. 주의할 점은 なんて는 가장 구어적이고 경시·놀람 뉘앙스. など는 중립적 열거. 격식체에서 なんて는 X.",
       "sourceGrammarIds": [
-        "n2-104"
+        "n2-104",
+        "n2-112",
+        "n2-113",
+        "n2-114"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     }
   ]

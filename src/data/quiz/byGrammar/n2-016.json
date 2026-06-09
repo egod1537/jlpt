@@ -267,15 +267,23 @@
       ]
     },
     {
-      "id": "fb-extra-n2-016-1",
+      "id": "fb-created-n2-016-01",
       "level": "N2",
-      "sentence": "母は夕食を作りかけて、長電話をしている。",
-      "sentenceWithBlank": "母は夕食を作り（　　　）て、長電話をしている。",
-      "korean": "어머니는 저녁을 만들다 말고 긴 전화를 하고 있다.",
-      "answerChoiceId": "fb-extra-n2-016-1-a",
+      "sentence": "読みかけの小説をベンチに残したまま、彼は急いで列車に乗った。",
+      "sentenceWithBlank": "読み（　　　）の小説をベンチに残したまま、彼は急いで列車に乗った。",
+      "korean": "그는 읽다 만 소설을 벤치에 남겨 둔 채 서둘러 열차에 탔다.",
+      "answerChoiceId": "fb-created-n2-016-01-a",
       "choices": [
         {
-          "id": "fb-extra-n2-016-1-b",
+          "id": "fb-created-n2-016-01-a",
+          "text": "かけ",
+          "grammarId": "n2-016",
+          "baseExpression": "かける",
+          "conjugatedExpression": "かけ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-016-01-b",
           "text": "っぽい",
           "grammarId": "n2-068",
           "baseExpression": "っぽい",
@@ -283,7 +291,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-016-1-c",
+          "id": "fb-created-n2-016-01-c",
           "text": "て以来",
           "grammarId": "n2-069",
           "baseExpression": "て以来",
@@ -291,23 +299,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-016-1-d",
+          "id": "fb-created-n2-016-01-d",
           "text": "てこそ",
           "grammarId": "n2-070",
           "baseExpression": "てこそ",
           "conjugatedExpression": "てこそ",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-016-1-a",
-          "text": "かけ",
-          "grammarId": "n2-016",
-          "baseExpression": "かける",
-          "conjugatedExpression": "かけ",
-          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '그는 읽다 만 소설을 벤치에 남겨 둔 채 서둘러 열차에 탔다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
       "sourceGrammarIds": [
         "n2-016",
         "n2-068",
@@ -315,299 +315,20 @@
         "n2-070"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra-n2-016-2",
+      "id": "fb-created-n2-016-02",
       "level": "N2",
-      "sentence": "こんなところに食べかけのりんごを置いて、あの子はどこへ行ったのだろう。",
-      "sentenceWithBlank": "こんなところに食べ（　　　）のりんごを置いて、あの子はどこへ行ったのだろう。",
-      "korean": "이런 곳에 먹다 만 사과를 두고 그 아이는 어디로 간 걸까.",
-      "answerChoiceId": "fb-extra-n2-016-2-d",
+      "sentence": "消えかけた街灯が、夜道を歩く人の足元をかすかに照らしていた。",
+      "sentenceWithBlank": "消え（　　　）た街灯が、夜道を歩く人の足元をかすかに照らしていた。",
+      "korean": "꺼져 가던 가로등이 밤길을 걷는 사람의 발밑을 희미하게 비추고 있었다.",
+      "answerChoiceId": "fb-created-n2-016-02-d",
       "choices": [
         {
-          "id": "fb-extra-n2-016-2-c",
-          "text": "ものだから",
-          "grammarId": "n2-159",
-          "baseExpression": "ものだから",
-          "conjugatedExpression": "ものだから",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-016-2-d",
-          "text": "かけ",
-          "grammarId": "n2-016",
-          "baseExpression": "かける",
-          "conjugatedExpression": "かけ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-016-2-a",
-          "text": "ものだ",
-          "grammarId": "n2-157",
-          "baseExpression": "ものだ",
-          "conjugatedExpression": "ものだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-016-2-b",
-          "text": "ものだ",
-          "grammarId": "n2-158",
-          "baseExpression": "ものだ/ものではない",
-          "conjugatedExpression": "ものだ",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
-      "sourceGrammarIds": [
-        "n2-016",
-        "n2-157",
-        "n2-158",
-        "n2-159"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-016-3",
-      "level": "N2",
-      "sentence": "母は夕食を作りかけて、長電話をしている。",
-      "sentenceWithBlank": "母は夕食を作り（　　　）て、長電話をしている。",
-      "korean": "어머니는 저녁을 만들다 말고 긴 전화를 하고 있다.",
-      "answerChoiceId": "fb-extra-n2-016-3-c",
-      "choices": [
-        {
-          "id": "fb-extra-n2-016-3-d",
-          "text": "てはかなわない",
-          "grammarId": "n2-074",
-          "baseExpression": "てはかなわない",
-          "conjugatedExpression": "てはかなわない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-016-3-a",
-          "text": "ではないか",
-          "grammarId": "n2-075",
-          "baseExpression": "ではないか",
-          "conjugatedExpression": "ではないか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-016-3-b",
-          "text": "ではないか",
-          "grammarId": "n2-076",
-          "baseExpression": "ではないか",
-          "conjugatedExpression": "ではないか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-016-3-c",
-          "text": "かけ",
-          "grammarId": "n2-016",
-          "baseExpression": "かける",
-          "conjugatedExpression": "かけ",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
-      "sourceGrammarIds": [
-        "n2-016",
-        "n2-074",
-        "n2-075",
-        "n2-076"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-016-4",
-      "level": "N2",
-      "sentence": "こんなところに食べかけのりんごを置いて、あの子はどこへ行ったのだろう。",
-      "sentenceWithBlank": "こんなところに食べ（　　　）のりんごを置いて、あの子はどこへ行ったのだろう。",
-      "korean": "이런 곳에 먹다 만 사과를 두고 그 아이는 어디로 간 걸까.",
-      "answerChoiceId": "fb-extra-n2-016-4-b",
-      "choices": [
-        {
-          "id": "fb-extra-n2-016-4-a",
-          "text": "にほかならない",
-          "grammarId": "n2-129",
-          "baseExpression": "にほかならない",
-          "conjugatedExpression": "にほかならない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-016-4-b",
-          "text": "かけ",
-          "grammarId": "n2-016",
-          "baseExpression": "かける",
-          "conjugatedExpression": "かけ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-016-4-c",
-          "text": "につけて",
-          "grammarId": "n2-127",
-          "baseExpression": "につけて",
-          "conjugatedExpression": "につけて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-016-4-d",
-          "text": "に伴って",
-          "grammarId": "n2-128",
-          "baseExpression": "に伴って",
-          "conjugatedExpression": "に伴って",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
-      "sourceGrammarIds": [
-        "n2-016",
-        "n2-127",
-        "n2-128",
-        "n2-129"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-016-5",
-      "level": "N2",
-      "sentence": "母は夕食を作りかけて、長電話をしている。",
-      "sentenceWithBlank": "母は夕食を作り（　　　）て、長電話をしている。",
-      "korean": "어머니는 저녁을 만들다 말고 긴 전화를 하고 있다.",
-      "answerChoiceId": "fb-extra-n2-016-5-a",
-      "choices": [
-        {
-          "id": "fb-extra-n2-016-5-b",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-016-5-c",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-016-5-d",
-          "text": "ないことはない",
-          "grammarId": "n2-098",
-          "baseExpression": "ないことはない",
-          "conjugatedExpression": "ないことはない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-016-5-a",
-          "text": "かけ",
-          "grammarId": "n2-016",
-          "baseExpression": "かける",
-          "conjugatedExpression": "かけ",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
-      "sourceGrammarIds": [
-        "n2-016",
-        "n2-096",
-        "n2-097",
-        "n2-098"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-016-01",
-      "level": "N2",
-      "sentence": "母は夕食を作りかけて、長電話をしている。",
-      "sentenceWithBlank": "母は夕食を作り（　　　）て、長電話をしている。",
-      "korean": "어머니는 저녁을 만들다 말고 긴 전화를 하고 있다.",
-      "answerChoiceId": "fb-extra20-n2-016-01-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-016-01-b",
-          "text": "っぽい",
-          "grammarId": "n2-068",
-          "baseExpression": "っぽい",
-          "conjugatedExpression": "っぽい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-016-01-c",
-          "text": "て以来",
-          "grammarId": "n2-069",
-          "baseExpression": "て以来",
-          "conjugatedExpression": "て以来",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-016-01-d",
-          "text": "てこそ",
-          "grammarId": "n2-070",
-          "baseExpression": "てこそ",
-          "conjugatedExpression": "てこそ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-016-01-a",
-          "text": "かけ",
-          "grammarId": "n2-016",
-          "baseExpression": "かける",
-          "conjugatedExpression": "かけ",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
-      "sourceGrammarIds": [
-        "n2-016",
-        "n2-068",
-        "n2-069",
-        "n2-070"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-016-02",
-      "level": "N2",
-      "sentence": "こんなところに食べかけのりんごを置いて、あの子はどこへ行ったのだろう。",
-      "sentenceWithBlank": "こんなところに食べ（　　　）のりんごを置いて、あの子はどこへ行ったのだろう。",
-      "korean": "이런 곳에 먹다 만 사과를 두고 그 아이는 어디로 간 걸까.",
-      "answerChoiceId": "fb-extra20-n2-016-02-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-016-02-a",
-          "text": "ものだ",
-          "grammarId": "n2-157",
-          "baseExpression": "ものだ",
-          "conjugatedExpression": "ものだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-016-02-b",
+          "id": "fb-created-n2-016-02-b",
           "text": "ものだ",
           "grammarId": "n2-158",
           "baseExpression": "ものだ/ものではない",
@@ -615,7 +336,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-016-02-c",
+          "id": "fb-created-n2-016-02-c",
           "text": "ものだから",
           "grammarId": "n2-159",
           "baseExpression": "ものだから",
@@ -623,199 +344,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-016-02-d",
-          "text": "かけ",
-          "grammarId": "n2-016",
-          "baseExpression": "かける",
-          "conjugatedExpression": "かけ",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
-      "sourceGrammarIds": [
-        "n2-016",
-        "n2-157",
-        "n2-158",
-        "n2-159"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-016-03",
-      "level": "N2",
-      "sentence": "母は夕食を作りかけて、長電話をしている。",
-      "sentenceWithBlank": "母は夕食を作り（　　　）て、長電話をしている。",
-      "korean": "어머니는 저녁을 만들다 말고 긴 전화를 하고 있다.",
-      "answerChoiceId": "fb-extra20-n2-016-03-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-016-03-d",
-          "text": "てはかなわない",
-          "grammarId": "n2-074",
-          "baseExpression": "てはかなわない",
-          "conjugatedExpression": "てはかなわない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-016-03-a",
-          "text": "ではないか",
-          "grammarId": "n2-075",
-          "baseExpression": "ではないか",
-          "conjugatedExpression": "ではないか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-016-03-b",
-          "text": "ではないか",
-          "grammarId": "n2-076",
-          "baseExpression": "ではないか",
-          "conjugatedExpression": "ではないか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-016-03-c",
-          "text": "かけ",
-          "grammarId": "n2-016",
-          "baseExpression": "かける",
-          "conjugatedExpression": "かけ",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
-      "sourceGrammarIds": [
-        "n2-016",
-        "n2-074",
-        "n2-075",
-        "n2-076"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-016-04",
-      "level": "N2",
-      "sentence": "こんなところに食べかけのりんごを置いて、あの子はどこへ行ったのだろう。",
-      "sentenceWithBlank": "こんなところに食べ（　　　）のりんごを置いて、あの子はどこへ行ったのだろう。",
-      "korean": "이런 곳에 먹다 만 사과를 두고 그 아이는 어디로 간 걸까.",
-      "answerChoiceId": "fb-extra20-n2-016-04-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-016-04-c",
-          "text": "につけて",
-          "grammarId": "n2-127",
-          "baseExpression": "につけて",
-          "conjugatedExpression": "につけて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-016-04-d",
-          "text": "に伴って",
-          "grammarId": "n2-128",
-          "baseExpression": "に伴って",
-          "conjugatedExpression": "に伴って",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-016-04-a",
-          "text": "にほかならない",
-          "grammarId": "n2-129",
-          "baseExpression": "にほかならない",
-          "conjugatedExpression": "にほかならない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-016-04-b",
-          "text": "かけ",
-          "grammarId": "n2-016",
-          "baseExpression": "かける",
-          "conjugatedExpression": "かけ",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
-      "sourceGrammarIds": [
-        "n2-016",
-        "n2-127",
-        "n2-128",
-        "n2-129"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-016-05",
-      "level": "N2",
-      "sentence": "母は夕食を作りかけて、長電話をしている。",
-      "sentenceWithBlank": "母は夕食を作り（　　　）て、長電話をしている。",
-      "korean": "어머니는 저녁을 만들다 말고 긴 전화를 하고 있다.",
-      "answerChoiceId": "fb-extra20-n2-016-05-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-016-05-b",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-016-05-c",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-016-05-d",
-          "text": "ないことはない",
-          "grammarId": "n2-098",
-          "baseExpression": "ないことはない",
-          "conjugatedExpression": "ないことはない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-016-05-a",
-          "text": "かけ",
-          "grammarId": "n2-016",
-          "baseExpression": "かける",
-          "conjugatedExpression": "かけ",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
-      "sourceGrammarIds": [
-        "n2-016",
-        "n2-096",
-        "n2-097",
-        "n2-098"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-016-06",
-      "level": "N2",
-      "sentence": "母は夕食を作りかけて、長電話をしている。",
-      "sentenceWithBlank": "母は夕食を作り（　　　）て、長電話をしている。",
-      "korean": "어머니는 저녁을 만들다 말고 긴 전화를 하고 있다.",
-      "answerChoiceId": "fb-extra20-n2-016-06-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-016-06-a",
+          "id": "fb-created-n2-016-02-d",
           "text": "かけ",
           "grammarId": "n2-016",
           "baseExpression": "かける",
@@ -823,85 +352,15 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-016-06-b",
-          "text": "っぽい",
-          "grammarId": "n2-068",
-          "baseExpression": "っぽい",
-          "conjugatedExpression": "っぽい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-016-06-c",
-          "text": "て以来",
-          "grammarId": "n2-069",
-          "baseExpression": "て以来",
-          "conjugatedExpression": "て以来",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-016-06-d",
-          "text": "てこそ",
-          "grammarId": "n2-070",
-          "baseExpression": "てこそ",
-          "conjugatedExpression": "てこそ",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
-      "sourceGrammarIds": [
-        "n2-016",
-        "n2-068",
-        "n2-069",
-        "n2-070"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-016-07",
-      "level": "N2",
-      "sentence": "こんなところに食べかけのりんごを置いて、あの子はどこへ行ったのだろう。",
-      "sentenceWithBlank": "こんなところに食べ（　　　）のりんごを置いて、あの子はどこへ行ったのだろう。",
-      "korean": "이런 곳에 먹다 만 사과를 두고 그 아이는 어디로 간 걸까.",
-      "answerChoiceId": "fb-extra20-n2-016-07-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-016-07-d",
-          "text": "かけ",
-          "grammarId": "n2-016",
-          "baseExpression": "かける",
-          "conjugatedExpression": "かけ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-016-07-a",
+          "id": "fb-created-n2-016-02-a",
           "text": "ものだ",
           "grammarId": "n2-157",
           "baseExpression": "ものだ",
           "conjugatedExpression": "ものだ",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-016-07-b",
-          "text": "ものだ",
-          "grammarId": "n2-158",
-          "baseExpression": "ものだ/ものではない",
-          "conjugatedExpression": "ものだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-016-07-c",
-          "text": "ものだから",
-          "grammarId": "n2-159",
-          "baseExpression": "ものだから",
-          "conjugatedExpression": "ものだから",
-          "isSimilarDistractor": true
         }
       ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '꺼져 가던 가로등이 밤길을 걷는 사람의 발밑을 희미하게 비추고 있었다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
       "sourceGrammarIds": [
         "n2-016",
         "n2-157",
@@ -909,453 +368,20 @@
         "n2-159"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-016-08",
+      "id": "fb-created-n2-016-03",
       "level": "N2",
-      "sentence": "母は夕食を作りかけて、長電話をしている。",
-      "sentenceWithBlank": "母は夕食を作り（　　　）て、長電話をしている。",
-      "korean": "어머니는 저녁을 만들다 말고 긴 전화를 하고 있다.",
-      "answerChoiceId": "fb-extra20-n2-016-08-c",
+      "sentence": "言いかけた謝罪を飲み込み、部長は黙って会議室を出た。",
+      "sentenceWithBlank": "言い（　　　）た謝罪を飲み込み、部長は黙って会議室を出た。",
+      "korean": "부장은 하려다 만 사과를 삼키고 말없이 회의실을 나갔다.",
+      "answerChoiceId": "fb-created-n2-016-03-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-016-08-c",
-          "text": "かけ",
-          "grammarId": "n2-016",
-          "baseExpression": "かける",
-          "conjugatedExpression": "かけ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-016-08-d",
-          "text": "てはかなわない",
-          "grammarId": "n2-074",
-          "baseExpression": "てはかなわない",
-          "conjugatedExpression": "てはかなわない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-016-08-a",
-          "text": "ではないか",
-          "grammarId": "n2-075",
-          "baseExpression": "ではないか",
-          "conjugatedExpression": "ではないか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-016-08-b",
-          "text": "ではないか",
-          "grammarId": "n2-076",
-          "baseExpression": "ではないか",
-          "conjugatedExpression": "ではないか",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
-      "sourceGrammarIds": [
-        "n2-016",
-        "n2-074",
-        "n2-075",
-        "n2-076"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-016-09",
-      "level": "N2",
-      "sentence": "こんなところに食べかけのりんごを置いて、あの子はどこへ行ったのだろう。",
-      "sentenceWithBlank": "こんなところに食べ（　　　）のりんごを置いて、あの子はどこへ行ったのだろう。",
-      "korean": "이런 곳에 먹다 만 사과를 두고 그 아이는 어디로 간 걸까.",
-      "answerChoiceId": "fb-extra20-n2-016-09-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-016-09-b",
-          "text": "かけ",
-          "grammarId": "n2-016",
-          "baseExpression": "かける",
-          "conjugatedExpression": "かけ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-016-09-c",
-          "text": "につけて",
-          "grammarId": "n2-127",
-          "baseExpression": "につけて",
-          "conjugatedExpression": "につけて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-016-09-d",
-          "text": "に伴って",
-          "grammarId": "n2-128",
-          "baseExpression": "に伴って",
-          "conjugatedExpression": "に伴って",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-016-09-a",
-          "text": "にほかならない",
-          "grammarId": "n2-129",
-          "baseExpression": "にほかならない",
-          "conjugatedExpression": "にほかならない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
-      "sourceGrammarIds": [
-        "n2-016",
-        "n2-127",
-        "n2-128",
-        "n2-129"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-016-10",
-      "level": "N2",
-      "sentence": "母は夕食を作りかけて、長電話をしている。",
-      "sentenceWithBlank": "母は夕食を作り（　　　）て、長電話をしている。",
-      "korean": "어머니는 저녁을 만들다 말고 긴 전화를 하고 있다.",
-      "answerChoiceId": "fb-extra20-n2-016-10-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-016-10-a",
-          "text": "かけ",
-          "grammarId": "n2-016",
-          "baseExpression": "かける",
-          "conjugatedExpression": "かけ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-016-10-b",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-016-10-c",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-016-10-d",
-          "text": "ないことはない",
-          "grammarId": "n2-098",
-          "baseExpression": "ないことはない",
-          "conjugatedExpression": "ないことはない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
-      "sourceGrammarIds": [
-        "n2-016",
-        "n2-096",
-        "n2-097",
-        "n2-098"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-016-11",
-      "level": "N2",
-      "sentence": "母は夕食を作りかけて、長電話をしている。",
-      "sentenceWithBlank": "母は夕食を作り（　　　）て、長電話をしている。",
-      "korean": "어머니는 저녁을 만들다 말고 긴 전화를 하고 있다.",
-      "answerChoiceId": "fb-extra20-n2-016-11-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-016-11-d",
-          "text": "てこそ",
-          "grammarId": "n2-070",
-          "baseExpression": "てこそ",
-          "conjugatedExpression": "てこそ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-016-11-a",
-          "text": "かけ",
-          "grammarId": "n2-016",
-          "baseExpression": "かける",
-          "conjugatedExpression": "かけ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-016-11-b",
-          "text": "っぽい",
-          "grammarId": "n2-068",
-          "baseExpression": "っぽい",
-          "conjugatedExpression": "っぽい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-016-11-c",
-          "text": "て以来",
-          "grammarId": "n2-069",
-          "baseExpression": "て以来",
-          "conjugatedExpression": "て以来",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
-      "sourceGrammarIds": [
-        "n2-016",
-        "n2-068",
-        "n2-069",
-        "n2-070"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-016-12",
-      "level": "N2",
-      "sentence": "こんなところに食べかけのりんごを置いて、あの子はどこへ行ったのだろう。",
-      "sentenceWithBlank": "こんなところに食べ（　　　）のりんごを置いて、あの子はどこへ行ったのだろう。",
-      "korean": "이런 곳에 먹다 만 사과를 두고 그 아이는 어디로 간 걸까.",
-      "answerChoiceId": "fb-extra20-n2-016-12-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-016-12-c",
-          "text": "ものだから",
-          "grammarId": "n2-159",
-          "baseExpression": "ものだから",
-          "conjugatedExpression": "ものだから",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-016-12-d",
-          "text": "かけ",
-          "grammarId": "n2-016",
-          "baseExpression": "かける",
-          "conjugatedExpression": "かけ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-016-12-a",
-          "text": "ものだ",
-          "grammarId": "n2-157",
-          "baseExpression": "ものだ",
-          "conjugatedExpression": "ものだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-016-12-b",
-          "text": "ものだ",
-          "grammarId": "n2-158",
-          "baseExpression": "ものだ/ものではない",
-          "conjugatedExpression": "ものだ",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
-      "sourceGrammarIds": [
-        "n2-016",
-        "n2-157",
-        "n2-158",
-        "n2-159"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-016-13",
-      "level": "N2",
-      "sentence": "母は夕食を作りかけて、長電話をしている。",
-      "sentenceWithBlank": "母は夕食を作り（　　　）て、長電話をしている。",
-      "korean": "어머니는 저녁을 만들다 말고 긴 전화를 하고 있다.",
-      "answerChoiceId": "fb-extra20-n2-016-13-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-016-13-b",
-          "text": "ではないか",
-          "grammarId": "n2-076",
-          "baseExpression": "ではないか",
-          "conjugatedExpression": "ではないか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-016-13-c",
-          "text": "かけ",
-          "grammarId": "n2-016",
-          "baseExpression": "かける",
-          "conjugatedExpression": "かけ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-016-13-d",
-          "text": "てはかなわない",
-          "grammarId": "n2-074",
-          "baseExpression": "てはかなわない",
-          "conjugatedExpression": "てはかなわない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-016-13-a",
-          "text": "ではないか",
-          "grammarId": "n2-075",
-          "baseExpression": "ではないか",
-          "conjugatedExpression": "ではないか",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
-      "sourceGrammarIds": [
-        "n2-016",
-        "n2-074",
-        "n2-075",
-        "n2-076"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-016-14",
-      "level": "N2",
-      "sentence": "こんなところに食べかけのりんごを置いて、あの子はどこへ行ったのだろう。",
-      "sentenceWithBlank": "こんなところに食べ（　　　）のりんごを置いて、あの子はどこへ行ったのだろう。",
-      "korean": "이런 곳에 먹다 만 사과를 두고 그 아이는 어디로 간 걸까.",
-      "answerChoiceId": "fb-extra20-n2-016-14-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-016-14-a",
-          "text": "にほかならない",
-          "grammarId": "n2-129",
-          "baseExpression": "にほかならない",
-          "conjugatedExpression": "にほかならない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-016-14-b",
-          "text": "かけ",
-          "grammarId": "n2-016",
-          "baseExpression": "かける",
-          "conjugatedExpression": "かけ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-016-14-c",
-          "text": "につけて",
-          "grammarId": "n2-127",
-          "baseExpression": "につけて",
-          "conjugatedExpression": "につけて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-016-14-d",
-          "text": "に伴って",
-          "grammarId": "n2-128",
-          "baseExpression": "に伴って",
-          "conjugatedExpression": "に伴って",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
-      "sourceGrammarIds": [
-        "n2-016",
-        "n2-127",
-        "n2-128",
-        "n2-129"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-016-15",
-      "level": "N2",
-      "sentence": "母は夕食を作りかけて、長電話をしている。",
-      "sentenceWithBlank": "母は夕食を作り（　　　）て、長電話をしている。",
-      "korean": "어머니는 저녁을 만들다 말고 긴 전화를 하고 있다.",
-      "answerChoiceId": "fb-extra20-n2-016-15-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-016-15-d",
-          "text": "ないことはない",
-          "grammarId": "n2-098",
-          "baseExpression": "ないことはない",
-          "conjugatedExpression": "ないことはない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-016-15-a",
-          "text": "かけ",
-          "grammarId": "n2-016",
-          "baseExpression": "かける",
-          "conjugatedExpression": "かけ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-016-15-b",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-016-15-c",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
-      "sourceGrammarIds": [
-        "n2-016",
-        "n2-096",
-        "n2-097",
-        "n2-098"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-016-16",
-      "level": "N2",
-      "sentence": "母は夕食を作りかけて、長電話をしている。",
-      "sentenceWithBlank": "母は夕食を作り（　　　）て、長電話をしている。",
-      "korean": "어머니는 저녁을 만들다 말고 긴 전화를 하고 있다.",
-      "answerChoiceId": "fb-extra20-n2-016-16-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-016-16-c",
+          "id": "fb-created-n2-016-03-c",
           "text": "て以来",
           "grammarId": "n2-069",
           "baseExpression": "て以来",
@@ -1363,7 +389,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-016-16-d",
+          "id": "fb-created-n2-016-03-d",
           "text": "てこそ",
           "grammarId": "n2-070",
           "baseExpression": "てこそ",
@@ -1371,7 +397,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-016-16-a",
+          "id": "fb-created-n2-016-03-a",
           "text": "かけ",
           "grammarId": "n2-016",
           "baseExpression": "かける",
@@ -1379,7 +405,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-016-16-b",
+          "id": "fb-created-n2-016-03-b",
           "text": "っぽい",
           "grammarId": "n2-068",
           "baseExpression": "っぽい",
@@ -1387,7 +413,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '부장은 하려다 만 사과를 삼키고 말없이 회의실을 나갔다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
       "sourceGrammarIds": [
         "n2-016",
         "n2-068",
@@ -1395,21 +421,36 @@
         "n2-070"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-016-17",
+      "id": "fb-created-n2-016-04",
       "level": "N2",
-      "sentence": "こんなところに食べかけのりんごを置いて、あの子はどこへ行ったのだろう。",
-      "sentenceWithBlank": "こんなところに食べ（　　　）のりんごを置いて、あの子はどこへ行ったのだろう。",
-      "korean": "이런 곳에 먹다 만 사과를 두고 그 아이는 어디로 간 걸까.",
-      "answerChoiceId": "fb-extra20-n2-016-17-d",
+      "sentence": "崩れかけの石垣には近づかないよう、住民に警告が出された。",
+      "sentenceWithBlank": "崩れ（　　　）の石垣には近づかないよう、住民に警告が出された。",
+      "korean": "무너지기 직전인 돌담에는 접근하지 말라는 경고가 주민들에게 내려졌다.",
+      "answerChoiceId": "fb-created-n2-016-04-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-016-17-b",
+          "id": "fb-created-n2-016-04-d",
+          "text": "かけ",
+          "grammarId": "n2-016",
+          "baseExpression": "かける",
+          "conjugatedExpression": "かけ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-016-04-a",
+          "text": "ものだ",
+          "grammarId": "n2-157",
+          "baseExpression": "ものだ",
+          "conjugatedExpression": "ものだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-016-04-b",
           "text": "ものだ",
           "grammarId": "n2-158",
           "baseExpression": "ものだ/ものではない",
@@ -1417,31 +458,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-016-17-c",
+          "id": "fb-created-n2-016-04-c",
           "text": "ものだから",
           "grammarId": "n2-159",
           "baseExpression": "ものだから",
           "conjugatedExpression": "ものだから",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-016-17-d",
-          "text": "かけ",
-          "grammarId": "n2-016",
-          "baseExpression": "かける",
-          "conjugatedExpression": "かけ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-016-17-a",
-          "text": "ものだ",
-          "grammarId": "n2-157",
-          "baseExpression": "ものだ",
-          "conjugatedExpression": "ものだ",
-          "isSimilarDistractor": true
         }
       ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '무너지기 직전인 돌담에는 접근하지 말라는 경고가 주민들에게 내려졌다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
       "sourceGrammarIds": [
         "n2-016",
         "n2-157",
@@ -1449,37 +474,20 @@
         "n2-159"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-016-18",
+      "id": "fb-created-n2-016-05",
       "level": "N2",
-      "sentence": "母は夕食を作りかけて、長電話をしている。",
-      "sentenceWithBlank": "母は夕食を作り（　　　）て、長電話をしている。",
-      "korean": "어머니는 저녁을 만들다 말고 긴 전화를 하고 있다.",
-      "answerChoiceId": "fb-extra20-n2-016-18-c",
+      "sentence": "眠りかけた赤ん坊が、玄関のベルに驚いて泣き出した。",
+      "sentenceWithBlank": "眠り（　　　）た赤ん坊が、玄関のベルに驚いて泣き出した。",
+      "korean": "막 잠들려던 아기가 현관 벨 소리에 놀라 울기 시작했다.",
+      "answerChoiceId": "fb-created-n2-016-05-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-016-18-a",
-          "text": "ではないか",
-          "grammarId": "n2-075",
-          "baseExpression": "ではないか",
-          "conjugatedExpression": "ではないか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-016-18-b",
-          "text": "ではないか",
-          "grammarId": "n2-076",
-          "baseExpression": "ではないか",
-          "conjugatedExpression": "ではないか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-016-18-c",
+          "id": "fb-created-n2-016-05-a",
           "text": "かけ",
           "grammarId": "n2-016",
           "baseExpression": "かける",
@@ -1487,53 +495,68 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-016-18-d",
-          "text": "てはかなわない",
-          "grammarId": "n2-074",
-          "baseExpression": "てはかなわない",
-          "conjugatedExpression": "てはかなわない",
+          "id": "fb-created-n2-016-05-b",
+          "text": "っぽい",
+          "grammarId": "n2-068",
+          "baseExpression": "っぽい",
+          "conjugatedExpression": "っぽい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-016-05-c",
+          "text": "て以来",
+          "grammarId": "n2-069",
+          "baseExpression": "て以来",
+          "conjugatedExpression": "て以来",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-016-05-d",
+          "text": "てこそ",
+          "grammarId": "n2-070",
+          "baseExpression": "てこそ",
+          "conjugatedExpression": "てこそ",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '막 잠들려던 아기가 현관 벨 소리에 놀라 울기 시작했다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
       "sourceGrammarIds": [
         "n2-016",
-        "n2-074",
-        "n2-075",
-        "n2-076"
+        "n2-068",
+        "n2-069",
+        "n2-070"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-016-19",
+      "id": "fb-created-n2-016-06",
       "level": "N2",
-      "sentence": "こんなところに食べかけのりんごを置いて、あの子はどこへ行ったのだろう。",
-      "sentenceWithBlank": "こんなところに食べ（　　　）のりんごを置いて、あの子はどこへ行ったのだろう。",
-      "korean": "이런 곳에 먹다 만 사과를 두고 그 아이는 어디로 간 걸까.",
-      "answerChoiceId": "fb-extra20-n2-016-19-b",
+      "sentence": "沈みかけた漁船から、乗組員全員が救助艇へ移された。",
+      "sentenceWithBlank": "沈み（　　　）た漁船から、乗組員全員が救助艇へ移された。",
+      "korean": "가라앉기 시작한 어선에서 선원 전원이 구조정으로 옮겨졌다.",
+      "answerChoiceId": "fb-created-n2-016-06-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-016-19-d",
-          "text": "に伴って",
-          "grammarId": "n2-128",
-          "baseExpression": "に伴って",
-          "conjugatedExpression": "に伴って",
+          "id": "fb-created-n2-016-06-b",
+          "text": "ものだ",
+          "grammarId": "n2-158",
+          "baseExpression": "ものだ/ものではない",
+          "conjugatedExpression": "ものだ",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-016-19-a",
-          "text": "にほかならない",
-          "grammarId": "n2-129",
-          "baseExpression": "にほかならない",
-          "conjugatedExpression": "にほかならない",
+          "id": "fb-created-n2-016-06-c",
+          "text": "ものだから",
+          "grammarId": "n2-159",
+          "baseExpression": "ものだから",
+          "conjugatedExpression": "ものだから",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-016-19-b",
+          "id": "fb-created-n2-016-06-d",
           "text": "かけ",
           "grammarId": "n2-016",
           "baseExpression": "かける",
@@ -1541,53 +564,52 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-016-19-c",
-          "text": "につけて",
-          "grammarId": "n2-127",
-          "baseExpression": "につけて",
-          "conjugatedExpression": "につけて",
+          "id": "fb-created-n2-016-06-a",
+          "text": "ものだ",
+          "grammarId": "n2-157",
+          "baseExpression": "ものだ",
+          "conjugatedExpression": "ものだ",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '가라앉기 시작한 어선에서 선원 전원이 구조정으로 옮겨졌다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
       "sourceGrammarIds": [
         "n2-016",
-        "n2-127",
-        "n2-128",
-        "n2-129"
+        "n2-157",
+        "n2-158",
+        "n2-159"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-016-20",
+      "id": "fb-created-n2-016-07",
       "level": "N2",
-      "sentence": "母は夕食を作りかけて、長電話をしている。",
-      "sentenceWithBlank": "母は夕食を作り（　　　）て、長電話をしている。",
-      "korean": "어머니는 저녁을 만들다 말고 긴 전화를 하고 있다.",
-      "answerChoiceId": "fb-extra20-n2-016-20-a",
+      "sentence": "書きかけの申請書を保存せずに閉じたため、入力内容が消えてしまった。",
+      "sentenceWithBlank": "書き（　　　）の申請書を保存せずに閉じたため、入力内容が消えてしまった。",
+      "korean": "작성하다 만 신청서를 저장하지 않고 닫는 바람에 입력 내용이 사라져 버렸다.",
+      "answerChoiceId": "fb-created-n2-016-07-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-016-20-c",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
+          "id": "fb-created-n2-016-07-c",
+          "text": "て以来",
+          "grammarId": "n2-069",
+          "baseExpression": "て以来",
+          "conjugatedExpression": "て以来",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-016-20-d",
-          "text": "ないことはない",
-          "grammarId": "n2-098",
-          "baseExpression": "ないことはない",
-          "conjugatedExpression": "ないことはない",
+          "id": "fb-created-n2-016-07-d",
+          "text": "てこそ",
+          "grammarId": "n2-070",
+          "baseExpression": "てこそ",
+          "conjugatedExpression": "てこそ",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-016-20-a",
+          "id": "fb-created-n2-016-07-a",
           "text": "かけ",
           "grammarId": "n2-016",
           "baseExpression": "かける",
@@ -1595,25 +617,978 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-016-20-b",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
+          "id": "fb-created-n2-016-07-b",
+          "text": "っぽい",
+          "grammarId": "n2-068",
+          "baseExpression": "っぽい",
+          "conjugatedExpression": "っぽい",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '작성하다 만 신청서를 저장하지 않고 닫는 바람에 입력 내용이 사라져 버렸다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
       "sourceGrammarIds": [
         "n2-016",
-        "n2-096",
-        "n2-097",
-        "n2-098"
+        "n2-068",
+        "n2-069",
+        "n2-070"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-016-08",
+      "level": "N2",
+      "sentence": "割れかけた窓ガラスを、管理人が板で一時的にふさいだ。",
+      "sentenceWithBlank": "割れ（　　　）た窓ガラスを、管理人が板で一時的にふさいだ。",
+      "korean": "관리인이 금이 가 깨지기 직전인 유리창을 판자로 임시로 막았다.",
+      "answerChoiceId": "fb-created-n2-016-08-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-016-08-d",
+          "text": "かけ",
+          "grammarId": "n2-016",
+          "baseExpression": "かける",
+          "conjugatedExpression": "かけ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-016-08-a",
+          "text": "ものだ",
+          "grammarId": "n2-157",
+          "baseExpression": "ものだ",
+          "conjugatedExpression": "ものだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-016-08-b",
+          "text": "ものだ",
+          "grammarId": "n2-158",
+          "baseExpression": "ものだ/ものではない",
+          "conjugatedExpression": "ものだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-016-08-c",
+          "text": "ものだから",
+          "grammarId": "n2-159",
+          "baseExpression": "ものだから",
+          "conjugatedExpression": "ものだから",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '관리인이 금이 가 깨지기 직전인 유리창을 판자로 임시로 막았다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
+      "sourceGrammarIds": [
+        "n2-016",
+        "n2-157",
+        "n2-158",
+        "n2-159"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-016-09",
+      "level": "N2",
+      "sentence": "忘れかけていた祖父の声が、古い録音から鮮明によみがえった。",
+      "sentenceWithBlank": "忘れ（　　　）ていた祖父の声が、古い録音から鮮明によみがえった。",
+      "korean": "잊어 가고 있던 할아버지의 목소리가 오래된 녹음에서 생생하게 되살아났다.",
+      "answerChoiceId": "fb-created-n2-016-09-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-016-09-a",
+          "text": "かけ",
+          "grammarId": "n2-016",
+          "baseExpression": "かける",
+          "conjugatedExpression": "かけ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-016-09-b",
+          "text": "っぽい",
+          "grammarId": "n2-068",
+          "baseExpression": "っぽい",
+          "conjugatedExpression": "っぽい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-016-09-c",
+          "text": "て以来",
+          "grammarId": "n2-069",
+          "baseExpression": "て以来",
+          "conjugatedExpression": "て以来",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-016-09-d",
+          "text": "てこそ",
+          "grammarId": "n2-070",
+          "baseExpression": "てこそ",
+          "conjugatedExpression": "てこそ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '잊어 가고 있던 할아버지의 목소리가 오래된 녹음에서 생생하게 되살아났다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
+      "sourceGrammarIds": [
+        "n2-016",
+        "n2-068",
+        "n2-069",
+        "n2-070"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-016-10",
+      "level": "N2",
+      "sentence": "渡りかけた橋が強風で揺れ、登山客は岸へ引き返した。",
+      "sentenceWithBlank": "渡り（　　　）た橋が強風で揺れ、登山客は岸へ引き返した。",
+      "korean": "건너기 시작한 다리가 강풍에 흔들려 등산객은 강가로 되돌아왔다.",
+      "answerChoiceId": "fb-created-n2-016-10-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-016-10-b",
+          "text": "ものだ",
+          "grammarId": "n2-158",
+          "baseExpression": "ものだ/ものではない",
+          "conjugatedExpression": "ものだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-016-10-c",
+          "text": "ものだから",
+          "grammarId": "n2-159",
+          "baseExpression": "ものだから",
+          "conjugatedExpression": "ものだから",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-016-10-d",
+          "text": "かけ",
+          "grammarId": "n2-016",
+          "baseExpression": "かける",
+          "conjugatedExpression": "かけ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-016-10-a",
+          "text": "ものだ",
+          "grammarId": "n2-157",
+          "baseExpression": "ものだ",
+          "conjugatedExpression": "ものだ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '건너기 시작한 다리가 강풍에 흔들려 등산객은 강가로 되돌아왔다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
+      "sourceGrammarIds": [
+        "n2-016",
+        "n2-157",
+        "n2-158",
+        "n2-159"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-016-11",
+      "level": "N2",
+      "sentence": "冷めかけたスープを、店員が新しいものと交換してくれた。",
+      "sentenceWithBlank": "冷め（　　　）たスープを、店員が新しいものと交換してくれた。",
+      "korean": "식어 가던 수프를 점원이 새것으로 바꿔 주었다.",
+      "answerChoiceId": "fb-created-n2-016-11-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-016-11-c",
+          "text": "て以来",
+          "grammarId": "n2-069",
+          "baseExpression": "て以来",
+          "conjugatedExpression": "て以来",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-016-11-d",
+          "text": "てこそ",
+          "grammarId": "n2-070",
+          "baseExpression": "てこそ",
+          "conjugatedExpression": "てこそ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-016-11-a",
+          "text": "かけ",
+          "grammarId": "n2-016",
+          "baseExpression": "かける",
+          "conjugatedExpression": "かけ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-016-11-b",
+          "text": "っぽい",
+          "grammarId": "n2-068",
+          "baseExpression": "っぽい",
+          "conjugatedExpression": "っぽい",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '식어 가던 수프를 점원이 새것으로 바꿔 주었다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
+      "sourceGrammarIds": [
+        "n2-016",
+        "n2-068",
+        "n2-069",
+        "n2-070"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-016-12",
+      "level": "N2",
+      "sentence": "完成しかけた設計図を見直すと、配管の位置に重大なミスが見つかった。",
+      "sentenceWithBlank": "完成し（　　　）た設計図を見直すと、配管の位置に重大なミスが見つかった。",
+      "korean": "거의 완성되어 가던 설계도를 다시 살펴보니 배관 위치에서 중대한 실수가 발견되었다.",
+      "answerChoiceId": "fb-created-n2-016-12-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-016-12-d",
+          "text": "かけ",
+          "grammarId": "n2-016",
+          "baseExpression": "かける",
+          "conjugatedExpression": "かけ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-016-12-a",
+          "text": "ものだ",
+          "grammarId": "n2-157",
+          "baseExpression": "ものだ",
+          "conjugatedExpression": "ものだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-016-12-b",
+          "text": "ものだ",
+          "grammarId": "n2-158",
+          "baseExpression": "ものだ/ものではない",
+          "conjugatedExpression": "ものだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-016-12-c",
+          "text": "ものだから",
+          "grammarId": "n2-159",
+          "baseExpression": "ものだから",
+          "conjugatedExpression": "ものだから",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '거의 완성되어 가던 설계도를 다시 살펴보니 배관 위치에서 중대한 실수가 발견되었다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
+      "sourceGrammarIds": [
+        "n2-016",
+        "n2-157",
+        "n2-158",
+        "n2-159"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-016-13",
+      "level": "N2",
+      "sentence": "閉まりかけた扉に傘が挟まり、エレベーターが再び開いた。",
+      "sentenceWithBlank": "閉まり（　　　）た扉に傘が挟まり、エレベーターが再び開いた。",
+      "korean": "닫히려던 문에 우산이 끼어 엘리베이터가 다시 열렸다.",
+      "answerChoiceId": "fb-created-n2-016-13-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-016-13-a",
+          "text": "かけ",
+          "grammarId": "n2-016",
+          "baseExpression": "かける",
+          "conjugatedExpression": "かけ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-016-13-b",
+          "text": "っぽい",
+          "grammarId": "n2-068",
+          "baseExpression": "っぽい",
+          "conjugatedExpression": "っぽい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-016-13-c",
+          "text": "て以来",
+          "grammarId": "n2-069",
+          "baseExpression": "て以来",
+          "conjugatedExpression": "て以来",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-016-13-d",
+          "text": "てこそ",
+          "grammarId": "n2-070",
+          "baseExpression": "てこそ",
+          "conjugatedExpression": "てこそ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '닫히려던 문에 우산이 끼어 엘리베이터가 다시 열렸다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
+      "sourceGrammarIds": [
+        "n2-016",
+        "n2-068",
+        "n2-069",
+        "n2-070"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-016-14",
+      "level": "N2",
+      "sentence": "咲きかけの桜が、突然の雪で白く覆われている。",
+      "sentenceWithBlank": "咲き（　　　）の桜が、突然の雪で白く覆われている。",
+      "korean": "막 피기 시작한 벚꽃이 갑작스러운 눈에 하얗게 덮여 있다.",
+      "answerChoiceId": "fb-created-n2-016-14-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-016-14-b",
+          "text": "ものだ",
+          "grammarId": "n2-158",
+          "baseExpression": "ものだ/ものではない",
+          "conjugatedExpression": "ものだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-016-14-c",
+          "text": "ものだから",
+          "grammarId": "n2-159",
+          "baseExpression": "ものだから",
+          "conjugatedExpression": "ものだから",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-016-14-d",
+          "text": "かけ",
+          "grammarId": "n2-016",
+          "baseExpression": "かける",
+          "conjugatedExpression": "かけ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-016-14-a",
+          "text": "ものだ",
+          "grammarId": "n2-157",
+          "baseExpression": "ものだ",
+          "conjugatedExpression": "ものだ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '막 피기 시작한 벚꽃이 갑작스러운 눈에 하얗게 덮여 있다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
+      "sourceGrammarIds": [
+        "n2-016",
+        "n2-157",
+        "n2-158",
+        "n2-159"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-016-15",
+      "level": "N2",
+      "sentence": "倒れかけた看板を、通りかかった警備員がすぐに支えた。",
+      "sentenceWithBlank": "倒れ（　　　）た看板を、通りかかった警備員がすぐに支えた。",
+      "korean": "쓰러지려던 간판을 지나가던 경비원이 곧바로 붙잡아 받쳤다.",
+      "answerChoiceId": "fb-created-n2-016-15-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-016-15-c",
+          "text": "て以来",
+          "grammarId": "n2-069",
+          "baseExpression": "て以来",
+          "conjugatedExpression": "て以来",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-016-15-d",
+          "text": "てこそ",
+          "grammarId": "n2-070",
+          "baseExpression": "てこそ",
+          "conjugatedExpression": "てこそ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-016-15-a",
+          "text": "かけ",
+          "grammarId": "n2-016",
+          "baseExpression": "かける",
+          "conjugatedExpression": "かけ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-016-15-b",
+          "text": "っぽい",
+          "grammarId": "n2-068",
+          "baseExpression": "っぽい",
+          "conjugatedExpression": "っぽい",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '쓰러지려던 간판을 지나가던 경비원이 곧바로 붙잡아 받쳤다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
+      "sourceGrammarIds": [
+        "n2-016",
+        "n2-068",
+        "n2-069",
+        "n2-070"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-016-16",
+      "level": "N2",
+      "sentence": "編みかけの帽子は、引っ越しの荷物に紛れて行方不明になった。",
+      "sentenceWithBlank": "編み（　　　）の帽子は、引っ越しの荷物に紛れて行方不明になった。",
+      "korean": "뜨다 만 모자는 이삿짐에 섞여 행방을 알 수 없게 되었다.",
+      "answerChoiceId": "fb-created-n2-016-16-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-016-16-d",
+          "text": "かけ",
+          "grammarId": "n2-016",
+          "baseExpression": "かける",
+          "conjugatedExpression": "かけ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-016-16-a",
+          "text": "ものだ",
+          "grammarId": "n2-157",
+          "baseExpression": "ものだ",
+          "conjugatedExpression": "ものだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-016-16-b",
+          "text": "ものだ",
+          "grammarId": "n2-158",
+          "baseExpression": "ものだ/ものではない",
+          "conjugatedExpression": "ものだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-016-16-c",
+          "text": "ものだから",
+          "grammarId": "n2-159",
+          "baseExpression": "ものだから",
+          "conjugatedExpression": "ものだから",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '뜨다 만 모자는 이삿짐에 섞여 행방을 알 수 없게 되었다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
+      "sourceGrammarIds": [
+        "n2-016",
+        "n2-157",
+        "n2-158",
+        "n2-159"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-016-17",
+      "level": "N2",
+      "sentence": "溶けかけた氷像を守るため、職人たちは会場の温度を下げた。",
+      "sentenceWithBlank": "溶け（　　　）た氷像を守るため、職人たちは会場の温度を下げた。",
+      "korean": "녹기 시작한 얼음 조각상을 지키기 위해 장인들은 행사장 온도를 낮췄다.",
+      "answerChoiceId": "fb-created-n2-016-17-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-016-17-a",
+          "text": "かけ",
+          "grammarId": "n2-016",
+          "baseExpression": "かける",
+          "conjugatedExpression": "かけ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-016-17-b",
+          "text": "っぽい",
+          "grammarId": "n2-068",
+          "baseExpression": "っぽい",
+          "conjugatedExpression": "っぽい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-016-17-c",
+          "text": "て以来",
+          "grammarId": "n2-069",
+          "baseExpression": "て以来",
+          "conjugatedExpression": "て以来",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-016-17-d",
+          "text": "てこそ",
+          "grammarId": "n2-070",
+          "baseExpression": "てこそ",
+          "conjugatedExpression": "てこそ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '녹기 시작한 얼음 조각상을 지키기 위해 장인들은 행사장 온도를 낮췄다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
+      "sourceGrammarIds": [
+        "n2-016",
+        "n2-068",
+        "n2-069",
+        "n2-070"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-016-18",
+      "level": "N2",
+      "sentence": "走りかけた犬を飼い主が呼び止め、衝突事故を防いだ。",
+      "sentenceWithBlank": "走り（　　　）た犬を飼い主が呼び止め、衝突事故を防いだ。",
+      "korean": "달려 나가려던 개를 주인이 불러 세워 충돌 사고를 막았다.",
+      "answerChoiceId": "fb-created-n2-016-18-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-016-18-b",
+          "text": "ものだ",
+          "grammarId": "n2-158",
+          "baseExpression": "ものだ/ものではない",
+          "conjugatedExpression": "ものだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-016-18-c",
+          "text": "ものだから",
+          "grammarId": "n2-159",
+          "baseExpression": "ものだから",
+          "conjugatedExpression": "ものだから",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-016-18-d",
+          "text": "かけ",
+          "grammarId": "n2-016",
+          "baseExpression": "かける",
+          "conjugatedExpression": "かけ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-016-18-a",
+          "text": "ものだ",
+          "grammarId": "n2-157",
+          "baseExpression": "ものだ",
+          "conjugatedExpression": "ものだ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '달려 나가려던 개를 주인이 불러 세워 충돌 사고를 막았다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
+      "sourceGrammarIds": [
+        "n2-016",
+        "n2-157",
+        "n2-158",
+        "n2-159"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-016-19",
+      "level": "N2",
+      "sentence": "諦めかけた捜索隊の無線に、遭難者から応答が入った。",
+      "sentenceWithBlank": "諦め（　　　）た捜索隊の無線に、遭難者から応答が入った。",
+      "korean": "수색을 포기하려던 구조대의 무전에 조난자로부터 응답이 들어왔다.",
+      "answerChoiceId": "fb-created-n2-016-19-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-016-19-c",
+          "text": "て以来",
+          "grammarId": "n2-069",
+          "baseExpression": "て以来",
+          "conjugatedExpression": "て以来",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-016-19-d",
+          "text": "てこそ",
+          "grammarId": "n2-070",
+          "baseExpression": "てこそ",
+          "conjugatedExpression": "てこそ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-016-19-a",
+          "text": "かけ",
+          "grammarId": "n2-016",
+          "baseExpression": "かける",
+          "conjugatedExpression": "かけ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-016-19-b",
+          "text": "っぽい",
+          "grammarId": "n2-068",
+          "baseExpression": "っぽい",
+          "conjugatedExpression": "っぽい",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '수색을 포기하려던 구조대의 무전에 조난자로부터 응답이 들어왔다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
+      "sourceGrammarIds": [
+        "n2-016",
+        "n2-068",
+        "n2-069",
+        "n2-070"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-016-20",
+      "level": "N2",
+      "sentence": "乾きかけの壁に猫が触れ、塗料の跡が床まで続いていた。",
+      "sentenceWithBlank": "乾き（　　　）の壁に猫が触れ、塗料の跡が床まで続いていた。",
+      "korean": "마르다 만 벽에 고양이가 닿아 페인트 자국이 바닥까지 이어져 있었다.",
+      "answerChoiceId": "fb-created-n2-016-20-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-016-20-d",
+          "text": "かけ",
+          "grammarId": "n2-016",
+          "baseExpression": "かける",
+          "conjugatedExpression": "かけ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-016-20-a",
+          "text": "ものだ",
+          "grammarId": "n2-157",
+          "baseExpression": "ものだ",
+          "conjugatedExpression": "ものだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-016-20-b",
+          "text": "ものだ",
+          "grammarId": "n2-158",
+          "baseExpression": "ものだ/ものではない",
+          "conjugatedExpression": "ものだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-016-20-c",
+          "text": "ものだから",
+          "grammarId": "n2-159",
+          "baseExpression": "ものだから",
+          "conjugatedExpression": "ものだから",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '마르다 만 벽에 고양이가 닿아 페인트 자국이 바닥까지 이어져 있었다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
+      "sourceGrammarIds": [
+        "n2-016",
+        "n2-157",
+        "n2-158",
+        "n2-159"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-016-21",
+      "level": "N2",
+      "sentence": "ほどけかけた靴ひもを踏んで、配達員は階段で転びそうになった。",
+      "sentenceWithBlank": "ほどけ（　　　）た靴ひもを踏んで、配達員は階段で転びそうになった。",
+      "korean": "풀리기 시작한 신발 끈을 밟아 배달원은 계단에서 넘어질 뻔했다.",
+      "answerChoiceId": "fb-created-n2-016-21-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-016-21-a",
+          "text": "かけ",
+          "grammarId": "n2-016",
+          "baseExpression": "かける",
+          "conjugatedExpression": "かけ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-016-21-b",
+          "text": "っぽい",
+          "grammarId": "n2-068",
+          "baseExpression": "っぽい",
+          "conjugatedExpression": "っぽい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-016-21-c",
+          "text": "て以来",
+          "grammarId": "n2-069",
+          "baseExpression": "て以来",
+          "conjugatedExpression": "て以来",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-016-21-d",
+          "text": "てこそ",
+          "grammarId": "n2-070",
+          "baseExpression": "てこそ",
+          "conjugatedExpression": "てこそ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '풀리기 시작한 신발 끈을 밟아 배달원은 계단에서 넘어질 뻔했다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
+      "sourceGrammarIds": [
+        "n2-016",
+        "n2-068",
+        "n2-069",
+        "n2-070"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-016-22",
+      "level": "N2",
+      "sentence": "途切れかけた通信が回復し、管制室は飛行士の無事を確認した。",
+      "sentenceWithBlank": "途切れ（　　　）た通信が回復し、管制室は飛行士の無事を確認した。",
+      "korean": "끊기려던 통신이 복구되어 관제실은 비행사의 무사함을 확인했다.",
+      "answerChoiceId": "fb-created-n2-016-22-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-016-22-b",
+          "text": "ものだ",
+          "grammarId": "n2-158",
+          "baseExpression": "ものだ/ものではない",
+          "conjugatedExpression": "ものだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-016-22-c",
+          "text": "ものだから",
+          "grammarId": "n2-159",
+          "baseExpression": "ものだから",
+          "conjugatedExpression": "ものだから",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-016-22-d",
+          "text": "かけ",
+          "grammarId": "n2-016",
+          "baseExpression": "かける",
+          "conjugatedExpression": "かけ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-016-22-a",
+          "text": "ものだ",
+          "grammarId": "n2-157",
+          "baseExpression": "ものだ",
+          "conjugatedExpression": "ものだ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '끊기려던 통신이 복구되어 관제실은 비행사의 무사함을 확인했다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
+      "sourceGrammarIds": [
+        "n2-016",
+        "n2-157",
+        "n2-158",
+        "n2-159"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-016-23",
+      "level": "N2",
+      "sentence": "焼けかけの陶器を窯から出したせいで、表面にひびが入った。",
+      "sentenceWithBlank": "焼け（　　　）の陶器を窯から出したせいで、表面にひびが入った。",
+      "korean": "굽다 만 도자기를 가마에서 꺼내는 바람에 표면에 금이 갔다.",
+      "answerChoiceId": "fb-created-n2-016-23-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-016-23-c",
+          "text": "て以来",
+          "grammarId": "n2-069",
+          "baseExpression": "て以来",
+          "conjugatedExpression": "て以来",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-016-23-d",
+          "text": "てこそ",
+          "grammarId": "n2-070",
+          "baseExpression": "てこそ",
+          "conjugatedExpression": "てこそ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-016-23-a",
+          "text": "かけ",
+          "grammarId": "n2-016",
+          "baseExpression": "かける",
+          "conjugatedExpression": "かけ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-016-23-b",
+          "text": "っぽい",
+          "grammarId": "n2-068",
+          "baseExpression": "っぽい",
+          "conjugatedExpression": "っぽい",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '굽다 만 도자기를 가마에서 꺼내는 바람에 표면에 금이 갔다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
+      "sourceGrammarIds": [
+        "n2-016",
+        "n2-068",
+        "n2-069",
+        "n2-070"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-016-24",
+      "level": "N2",
+      "sentence": "漏れかけた燃料を整備士が発見し、出航は直前に中止された。",
+      "sentenceWithBlank": "漏れ（　　　）た燃料を整備士が発見し、出航は直前に中止された。",
+      "korean": "새기 시작한 연료를 정비사가 발견하여 출항은 직전에 취소되었다.",
+      "answerChoiceId": "fb-created-n2-016-24-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-016-24-d",
+          "text": "かけ",
+          "grammarId": "n2-016",
+          "baseExpression": "かける",
+          "conjugatedExpression": "かけ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-016-24-a",
+          "text": "ものだ",
+          "grammarId": "n2-157",
+          "baseExpression": "ものだ",
+          "conjugatedExpression": "ものだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-016-24-b",
+          "text": "ものだ",
+          "grammarId": "n2-158",
+          "baseExpression": "ものだ/ものではない",
+          "conjugatedExpression": "ものだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-016-24-c",
+          "text": "ものだから",
+          "grammarId": "n2-159",
+          "baseExpression": "ものだから",
+          "conjugatedExpression": "ものだから",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '새기 시작한 연료를 정비사가 발견하여 출항은 직전에 취소되었다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
+      "sourceGrammarIds": [
+        "n2-016",
+        "n2-157",
+        "n2-158",
+        "n2-159"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-016-25",
+      "level": "N2",
+      "sentence": "生えかけの永久歯が痛むので、少年は硬い物を避けている。",
+      "sentenceWithBlank": "生え（　　　）の永久歯が痛むので、少年は硬い物を避けている。",
+      "korean": "막 나기 시작한 영구치가 아파서 소년은 딱딱한 음식을 피하고 있다.",
+      "answerChoiceId": "fb-created-n2-016-25-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-016-25-a",
+          "text": "かけ",
+          "grammarId": "n2-016",
+          "baseExpression": "かける",
+          "conjugatedExpression": "かけ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-016-25-b",
+          "text": "っぽい",
+          "grammarId": "n2-068",
+          "baseExpression": "っぽい",
+          "conjugatedExpression": "っぽい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-016-25-c",
+          "text": "て以来",
+          "grammarId": "n2-069",
+          "baseExpression": "て以来",
+          "conjugatedExpression": "て以来",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-016-25-d",
+          "text": "てこそ",
+          "grammarId": "n2-070",
+          "baseExpression": "てこそ",
+          "conjugatedExpression": "てこそ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '막 나기 시작한 영구치가 아파서 소년은 딱딱한 음식을 피하고 있다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
+      "sourceGrammarIds": [
+        "n2-016",
+        "n2-068",
+        "n2-069",
+        "n2-070"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
       ]
     }
   ],
@@ -1834,1103 +1809,1153 @@
       ]
     },
     {
-      "id": "so-extra-n2-016-1",
+      "id": "so-created-n2-016-01",
       "level": "N2",
-      "sentence": "母は夕食を作りかけて、長電話をしている。",
-      "sentenceWithBlanks": "母は夕食を作り ____ ____ ____ ____",
-      "korean": "어머니는 저녁을 만들다 말고 긴 전화를 하고 있다.",
+      "sentence": "読みかけの小説をベンチに残したまま、彼は急いで列車に乗った。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 急いで列車に乗った。",
+      "korean": "그는 읽다 만 소설을 벤치에 남겨 둔 채 서둘러 열차에 탔다.",
       "pieces": [
         {
-          "id": "so-extra-n2-016-1-p3",
-          "text": "している",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-016-1-p4",
-          "text": "かけ",
+          "id": "so-created-n2-016-01-p1",
+          "text": "読みかけの",
           "order": 1
         },
         {
-          "id": "so-extra-n2-016-1-p1",
-          "text": "て",
+          "id": "so-created-n2-016-01-p2",
+          "text": "小説をベンチに",
           "order": 2
         },
         {
-          "id": "so-extra-n2-016-1-p2",
-          "text": "長電話を",
+          "id": "so-created-n2-016-01-p3",
+          "text": "残したまま、",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-016-01-p4",
+          "text": "彼は",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-016-1-p4",
-        "so-extra-n2-016-1-p1",
-        "so-extra-n2-016-1-p2",
-        "so-extra-n2-016-1-p3"
+        "so-created-n2-016-01-p1",
+        "so-created-n2-016-01-p2",
+        "so-created-n2-016-01-p3",
+        "so-created-n2-016-01-p4"
       ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '그는 읽다 만 소설을 벤치에 남겨 둔 채 서둘러 열차에 탔다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
       "sourceGrammarIds": [
-        "n2-016"
+        "n2-016",
+        "n2-068",
+        "n2-069",
+        "n2-070"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-016-2",
+      "id": "so-created-n2-016-02",
       "level": "N2",
-      "sentence": "こんなところに食べかけのりんごを置いて、あの子はどこへ行ったのだろう。",
-      "sentenceWithBlanks": "こんなところに食べ ____ ____ ____ ____",
-      "korean": "이런 곳에 먹다 만 사과를 두고 그 아이는 어디로 간 걸까.",
+      "sentence": "消えかけた街灯が、夜道を歩く人の足元をかすかに照らしていた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 照らしていた。",
+      "korean": "꺼져 가던 가로등이 밤길을 걷는 사람의 발밑을 희미하게 비추고 있었다.",
       "pieces": [
         {
-          "id": "so-extra-n2-016-2-p4",
-          "text": "のりんごを",
-          "order": 2
-        },
-        {
-          "id": "so-extra-n2-016-2-p1",
-          "text": "置いて",
-          "order": 3
-        },
-        {
-          "id": "so-extra-n2-016-2-p2",
-          "text": "あの子はどこへ行ったのだろう",
+          "id": "so-created-n2-016-02-p4",
+          "text": "足元をかすかに",
           "order": 4
         },
         {
-          "id": "so-extra-n2-016-2-p3",
-          "text": "かけ",
+          "id": "so-created-n2-016-02-p1",
+          "text": "消えかけ",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-016-02-p2",
+          "text": "た街灯が、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-016-02-p3",
+          "text": "夜道を歩く人の",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-016-2-p3",
-        "so-extra-n2-016-2-p4",
-        "so-extra-n2-016-2-p1",
-        "so-extra-n2-016-2-p2"
+        "so-created-n2-016-02-p1",
+        "so-created-n2-016-02-p2",
+        "so-created-n2-016-02-p3",
+        "so-created-n2-016-02-p4"
       ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '꺼져 가던 가로등이 밤길을 걷는 사람의 발밑을 희미하게 비추고 있었다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
       "sourceGrammarIds": [
-        "n2-016"
+        "n2-016",
+        "n2-157",
+        "n2-158",
+        "n2-159"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-016-3",
+      "id": "so-created-n2-016-03",
       "level": "N2",
-      "sentence": "母は夕食を作りかけて、長電話をしている。",
-      "sentenceWithBlanks": "____ ____ ____ ____ て、長電話をしている。",
-      "korean": "어머니는 저녁을 만들다 말고 긴 전화를 하고 있다.",
+      "sentence": "言いかけた謝罪を飲み込み、部長は黙って会議室を出た。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 室を出た。",
+      "korean": "부장은 하려다 만 사과를 삼키고 말없이 회의실을 나갔다.",
       "pieces": [
         {
-          "id": "so-extra-n2-016-3-p1",
-          "text": "長電話を",
+          "id": "so-created-n2-016-03-p3",
+          "text": "飲み込み、",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-016-03-p4",
+          "text": "部長は黙って会議",
           "order": 4
         },
         {
-          "id": "so-extra-n2-016-3-p2",
-          "text": "作り",
+          "id": "so-created-n2-016-03-p1",
+          "text": "言いかけ",
           "order": 1
         },
         {
-          "id": "so-extra-n2-016-3-p3",
-          "text": "かけ",
+          "id": "so-created-n2-016-03-p2",
+          "text": "た謝罪を",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-016-3-p4",
-          "text": "て",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-016-3-p2",
-        "so-extra-n2-016-3-p3",
-        "so-extra-n2-016-3-p4",
-        "so-extra-n2-016-3-p1"
+        "so-created-n2-016-03-p1",
+        "so-created-n2-016-03-p2",
+        "so-created-n2-016-03-p3",
+        "so-created-n2-016-03-p4"
       ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '부장은 하려다 만 사과를 삼키고 말없이 회의실을 나갔다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
       "sourceGrammarIds": [
-        "n2-016"
+        "n2-016",
+        "n2-068",
+        "n2-069",
+        "n2-070"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-016-4",
+      "id": "so-created-n2-016-04",
       "level": "N2",
-      "sentence": "こんなところに食べかけのりんごを置いて、あの子はどこへ行ったのだろう。",
-      "sentenceWithBlanks": "こんなところに食べ ____ ____ ____ ____",
-      "korean": "이런 곳에 먹다 만 사과를 두고 그 아이는 어디로 간 걸까.",
+      "sentence": "崩れかけの石垣には近づかないよう、住民に警告が出された。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 出された。",
+      "korean": "무너지기 직전인 돌담에는 접근하지 말라는 경고가 주민들에게 내려졌다.",
       "pieces": [
         {
-          "id": "so-extra-n2-016-4-p2",
-          "text": "のりんごを",
+          "id": "so-created-n2-016-04-p2",
+          "text": "の石垣には",
           "order": 2
         },
         {
-          "id": "so-extra-n2-016-4-p3",
-          "text": "置いて",
+          "id": "so-created-n2-016-04-p3",
+          "text": "近づかないよう、",
           "order": 3
         },
         {
-          "id": "so-extra-n2-016-4-p4",
-          "text": "あの子はどこへ行ったのだろう",
+          "id": "so-created-n2-016-04-p4",
+          "text": "住民に警告が",
           "order": 4
         },
         {
-          "id": "so-extra-n2-016-4-p1",
-          "text": "かけ",
+          "id": "so-created-n2-016-04-p1",
+          "text": "崩れかけ",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-016-4-p1",
-        "so-extra-n2-016-4-p2",
-        "so-extra-n2-016-4-p3",
-        "so-extra-n2-016-4-p4"
+        "so-created-n2-016-04-p1",
+        "so-created-n2-016-04-p2",
+        "so-created-n2-016-04-p3",
+        "so-created-n2-016-04-p4"
       ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '무너지기 직전인 돌담에는 접근하지 말라는 경고가 주민들에게 내려졌다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
       "sourceGrammarIds": [
-        "n2-016"
+        "n2-016",
+        "n2-157",
+        "n2-158",
+        "n2-159"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-016-5",
+      "id": "so-created-n2-016-05",
       "level": "N2",
-      "sentence": "母は夕食を作りかけて、長電話をしている。",
-      "sentenceWithBlanks": "母は夕食を作り ____ ____ ____ ____",
-      "korean": "어머니는 저녁을 만들다 말고 긴 전화를 하고 있다.",
+      "sentence": "眠りかけた赤ん坊が、玄関のベルに驚いて泣き出した。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 出した。",
+      "korean": "막 잠들려던 아기가 현관 벨 소리에 놀라 울기 시작했다.",
       "pieces": [
         {
-          "id": "so-extra-n2-016-5-p3",
-          "text": "している",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-016-5-p4",
-          "text": "かけ",
+          "id": "so-created-n2-016-05-p1",
+          "text": "眠りかけた",
           "order": 1
         },
         {
-          "id": "so-extra-n2-016-5-p1",
-          "text": "て",
+          "id": "so-created-n2-016-05-p2",
+          "text": "赤ん坊が、",
           "order": 2
         },
         {
-          "id": "so-extra-n2-016-5-p2",
-          "text": "長電話を",
+          "id": "so-created-n2-016-05-p3",
+          "text": "玄関のベルに",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-016-05-p4",
+          "text": "驚いて泣き",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-016-5-p4",
-        "so-extra-n2-016-5-p1",
-        "so-extra-n2-016-5-p2",
-        "so-extra-n2-016-5-p3"
+        "so-created-n2-016-05-p1",
+        "so-created-n2-016-05-p2",
+        "so-created-n2-016-05-p3",
+        "so-created-n2-016-05-p4"
       ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '막 잠들려던 아기가 현관 벨 소리에 놀라 울기 시작했다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
       "sourceGrammarIds": [
-        "n2-016"
+        "n2-016",
+        "n2-068",
+        "n2-069",
+        "n2-070"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-016-01",
+      "id": "so-created-n2-016-06",
       "level": "N2",
-      "sentence": "母は夕食を作りかけて、長電話をしている。",
-      "sentenceWithBlanks": "母は夕食を作り ____ ____ ____ ____",
-      "korean": "어머니는 저녁을 만들다 말고 긴 전화를 하고 있다.",
+      "sentence": "沈みかけた漁船から、乗組員全員が救助艇へ移された。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 移された。",
+      "korean": "가라앉기 시작한 어선에서 선원 전원이 구조정으로 옮겨졌다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-016-01-p3",
-          "text": "している",
+          "id": "so-created-n2-016-06-p4",
+          "text": "救助艇へ",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-016-01-p4",
-          "text": "かけ",
+          "id": "so-created-n2-016-06-p1",
+          "text": "沈みかけた",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-016-01-p1",
-          "text": "て",
+          "id": "so-created-n2-016-06-p2",
+          "text": "漁船から、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-016-01-p2",
-          "text": "長電話を",
+          "id": "so-created-n2-016-06-p3",
+          "text": "乗組員全員が",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-016-01-p4",
-        "so-extra20-n2-016-01-p1",
-        "so-extra20-n2-016-01-p2",
-        "so-extra20-n2-016-01-p3"
+        "so-created-n2-016-06-p1",
+        "so-created-n2-016-06-p2",
+        "so-created-n2-016-06-p3",
+        "so-created-n2-016-06-p4"
       ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '가라앉기 시작한 어선에서 선원 전원이 구조정으로 옮겨졌다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
       "sourceGrammarIds": [
-        "n2-016"
+        "n2-016",
+        "n2-157",
+        "n2-158",
+        "n2-159"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-016-02",
+      "id": "so-created-n2-016-07",
       "level": "N2",
-      "sentence": "こんなところに食べかけのりんごを置いて、あの子はどこへ行ったのだろう。",
-      "sentenceWithBlanks": "こんなところに食べ ____ ____ ____ ____",
-      "korean": "이런 곳에 먹다 만 사과를 두고 그 아이는 어디로 간 걸까.",
+      "sentence": "書きかけの申請書を保存せずに閉じたため、入力内容が消えてしまった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 内容が消えてしまった。",
+      "korean": "작성하다 만 신청서를 저장하지 않고 닫는 바람에 입력 내용이 사라져 버렸다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-016-02-p2",
-          "text": "あの子はどこへ行ったのだろう",
+          "id": "so-created-n2-016-07-p3",
+          "text": "保存せずに",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-016-07-p4",
+          "text": "閉じたため、入力",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-016-02-p3",
-          "text": "かけ",
+          "id": "so-created-n2-016-07-p1",
+          "text": "書きかけ",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-016-02-p4",
-          "text": "のりんごを",
+          "id": "so-created-n2-016-07-p2",
+          "text": "の申請書を",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-016-02-p1",
-          "text": "置いて",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-016-02-p3",
-        "so-extra20-n2-016-02-p4",
-        "so-extra20-n2-016-02-p1",
-        "so-extra20-n2-016-02-p2"
+        "so-created-n2-016-07-p1",
+        "so-created-n2-016-07-p2",
+        "so-created-n2-016-07-p3",
+        "so-created-n2-016-07-p4"
       ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '작성하다 만 신청서를 저장하지 않고 닫는 바람에 입력 내용이 사라져 버렸다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
       "sourceGrammarIds": [
-        "n2-016"
+        "n2-016",
+        "n2-068",
+        "n2-069",
+        "n2-070"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-016-03",
+      "id": "so-created-n2-016-08",
       "level": "N2",
-      "sentence": "母は夕食を作りかけて、長電話をしている。",
-      "sentenceWithBlanks": "____ ____ ____ ____ て、長電話をしている。",
-      "korean": "어머니는 저녁을 만들다 말고 긴 전화를 하고 있다.",
+      "sentence": "割れかけた窓ガラスを、管理人が板で一時的にふさいだ。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "관리인이 금이 가 깨지기 직전인 유리창을 판자로 임시로 막았다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-016-03-p1",
-          "text": "長電話を",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-016-03-p2",
-          "text": "作り",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-016-03-p3",
-          "text": "かけ",
+          "id": "so-created-n2-016-08-p2",
+          "text": "窓ガラスを、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-016-03-p4",
-          "text": "て",
+          "id": "so-created-n2-016-08-p3",
+          "text": "管理人が板で一時",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-016-08-p4",
+          "text": "的にふさいだ。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-016-08-p1",
+          "text": "割れかけた",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-016-03-p2",
-        "so-extra20-n2-016-03-p3",
-        "so-extra20-n2-016-03-p4",
-        "so-extra20-n2-016-03-p1"
+        "so-created-n2-016-08-p1",
+        "so-created-n2-016-08-p2",
+        "so-created-n2-016-08-p3",
+        "so-created-n2-016-08-p4"
       ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '관리인이 금이 가 깨지기 직전인 유리창을 판자로 임시로 막았다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
       "sourceGrammarIds": [
-        "n2-016"
+        "n2-016",
+        "n2-157",
+        "n2-158",
+        "n2-159"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-016-04",
+      "id": "so-created-n2-016-09",
       "level": "N2",
-      "sentence": "こんなところに食べかけのりんごを置いて、あの子はどこへ行ったのだろう。",
-      "sentenceWithBlanks": "こんなところに食べ ____ ____ ____ ____",
-      "korean": "이런 곳에 먹다 만 사과를 두고 그 아이는 어디로 간 걸까.",
+      "sentence": "忘れかけていた祖父の声が、古い録音から鮮明によみがえった。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "잊어 가고 있던 할아버지의 목소리가 오래된 녹음에서 생생하게 되살아났다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-016-04-p4",
-          "text": "あの子はどこへ行ったのだろう",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-016-04-p1",
-          "text": "かけ",
+          "id": "so-created-n2-016-09-p1",
+          "text": "忘れかけていた",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-016-04-p2",
-          "text": "のりんごを",
+          "id": "so-created-n2-016-09-p2",
+          "text": "祖父の声が、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-016-04-p3",
-          "text": "置いて",
+          "id": "so-created-n2-016-09-p3",
+          "text": "古い録音から",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-016-09-p4",
+          "text": "鮮明によみがえった。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-016-04-p1",
-        "so-extra20-n2-016-04-p2",
-        "so-extra20-n2-016-04-p3",
-        "so-extra20-n2-016-04-p4"
+        "so-created-n2-016-09-p1",
+        "so-created-n2-016-09-p2",
+        "so-created-n2-016-09-p3",
+        "so-created-n2-016-09-p4"
       ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '잊어 가고 있던 할아버지의 목소리가 오래된 녹음에서 생생하게 되살아났다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
       "sourceGrammarIds": [
-        "n2-016"
+        "n2-016",
+        "n2-068",
+        "n2-069",
+        "n2-070"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-016-05",
+      "id": "so-created-n2-016-10",
       "level": "N2",
-      "sentence": "母は夕食を作りかけて、長電話をしている。",
-      "sentenceWithBlanks": "母は夕食を作り ____ ____ ____ ____",
-      "korean": "어머니는 저녁을 만들다 말고 긴 전화를 하고 있다.",
+      "sentence": "渡りかけた橋が強風で揺れ、登山客は岸へ引き返した。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "건너기 시작한 다리가 강풍에 흔들려 등산객은 강가로 되돌아왔다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-016-05-p3",
-          "text": "している",
+          "id": "so-created-n2-016-10-p4",
+          "text": "引き返した。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-016-05-p4",
-          "text": "かけ",
+          "id": "so-created-n2-016-10-p1",
+          "text": "渡りかけた橋が",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-016-05-p1",
-          "text": "て",
+          "id": "so-created-n2-016-10-p2",
+          "text": "強風で揺れ、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-016-05-p2",
-          "text": "長電話を",
+          "id": "so-created-n2-016-10-p3",
+          "text": "登山客は岸へ",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-016-05-p4",
-        "so-extra20-n2-016-05-p1",
-        "so-extra20-n2-016-05-p2",
-        "so-extra20-n2-016-05-p3"
+        "so-created-n2-016-10-p1",
+        "so-created-n2-016-10-p2",
+        "so-created-n2-016-10-p3",
+        "so-created-n2-016-10-p4"
       ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '건너기 시작한 다리가 강풍에 흔들려 등산객은 강가로 되돌아왔다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
       "sourceGrammarIds": [
-        "n2-016"
+        "n2-016",
+        "n2-157",
+        "n2-158",
+        "n2-159"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-016-06",
+      "id": "so-created-n2-016-11",
       "level": "N2",
-      "sentence": "母は夕食を作りかけて、長電話をしている。",
-      "sentenceWithBlanks": "母は夕食を作り ____ ____ ____ ____",
-      "korean": "어머니는 저녁을 만들다 말고 긴 전화를 하고 있다.",
+      "sentence": "冷めかけたスープを、店員が新しいものと交換してくれた。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "식어 가던 수프를 점원이 새것으로 바꿔 주었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-016-06-p2",
-          "text": "長電話を",
+          "id": "so-created-n2-016-11-p3",
+          "text": "新しいものと",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-016-06-p3",
-          "text": "している",
+          "id": "so-created-n2-016-11-p4",
+          "text": "交換してくれた。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-016-06-p4",
-          "text": "かけ",
+          "id": "so-created-n2-016-11-p1",
+          "text": "冷めかけた",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-016-06-p1",
-          "text": "て",
+          "id": "so-created-n2-016-11-p2",
+          "text": "スープを、店員が",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-016-06-p4",
-        "so-extra20-n2-016-06-p1",
-        "so-extra20-n2-016-06-p2",
-        "so-extra20-n2-016-06-p3"
+        "so-created-n2-016-11-p1",
+        "so-created-n2-016-11-p2",
+        "so-created-n2-016-11-p3",
+        "so-created-n2-016-11-p4"
       ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '식어 가던 수프를 점원이 새것으로 바꿔 주었다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
       "sourceGrammarIds": [
-        "n2-016"
+        "n2-016",
+        "n2-068",
+        "n2-069",
+        "n2-070"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-016-07",
+      "id": "so-created-n2-016-12",
       "level": "N2",
-      "sentence": "こんなところに食べかけのりんごを置いて、あの子はどこへ行ったのだろう。",
-      "sentenceWithBlanks": "こんなところに食べ ____ ____ ____ ____",
-      "korean": "이런 곳에 먹다 만 사과를 두고 그 아이는 어디로 간 걸까.",
+      "sentence": "完成しかけた設計図を見直すと、配管の位置に重大なミスが見つかった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 重大なミスが見つかった。",
+      "korean": "거의 완성되어 가던 설계도를 다시 살펴보니 배관 위치에서 중대한 실수가 발견되었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-016-07-p1",
-          "text": "置いて",
+          "id": "so-created-n2-016-12-p2",
+          "text": "た設計図を",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-016-12-p3",
+          "text": "見直すと、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-016-07-p2",
-          "text": "あの子はどこへ行ったのだろう",
+          "id": "so-created-n2-016-12-p4",
+          "text": "配管の位置に",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-016-07-p3",
-          "text": "かけ",
+          "id": "so-created-n2-016-12-p1",
+          "text": "完成しかけ",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-016-07-p4",
-          "text": "のりんごを",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-016-07-p3",
-        "so-extra20-n2-016-07-p4",
-        "so-extra20-n2-016-07-p1",
-        "so-extra20-n2-016-07-p2"
+        "so-created-n2-016-12-p1",
+        "so-created-n2-016-12-p2",
+        "so-created-n2-016-12-p3",
+        "so-created-n2-016-12-p4"
       ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '거의 완성되어 가던 설계도를 다시 살펴보니 배관 위치에서 중대한 실수가 발견되었다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
       "sourceGrammarIds": [
-        "n2-016"
+        "n2-016",
+        "n2-157",
+        "n2-158",
+        "n2-159"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-016-08",
+      "id": "so-created-n2-016-13",
       "level": "N2",
-      "sentence": "母は夕食を作りかけて、長電話をしている。",
-      "sentenceWithBlanks": "____ ____ ____ ____ て、長電話をしている。",
-      "korean": "어머니는 저녁을 만들다 말고 긴 전화를 하고 있다.",
+      "sentence": "閉まりかけた扉に傘が挟まり、エレベーターが再び開いた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 再び開いた。",
+      "korean": "닫히려던 문에 우산이 끼어 엘리베이터가 다시 열렸다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-016-08-p4",
-          "text": "て",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-016-08-p1",
-          "text": "長電話を",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-016-08-p2",
-          "text": "作り",
+          "id": "so-created-n2-016-13-p1",
+          "text": "閉まりかけ",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-016-08-p3",
-          "text": "かけ",
+          "id": "so-created-n2-016-13-p2",
+          "text": "た扉に傘が",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-016-13-p3",
+          "text": "挟まり、",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-016-13-p4",
+          "text": "エレベーターが",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-016-08-p2",
-        "so-extra20-n2-016-08-p3",
-        "so-extra20-n2-016-08-p4",
-        "so-extra20-n2-016-08-p1"
+        "so-created-n2-016-13-p1",
+        "so-created-n2-016-13-p2",
+        "so-created-n2-016-13-p3",
+        "so-created-n2-016-13-p4"
       ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '닫히려던 문에 우산이 끼어 엘리베이터가 다시 열렸다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
       "sourceGrammarIds": [
-        "n2-016"
+        "n2-016",
+        "n2-068",
+        "n2-069",
+        "n2-070"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-016-09",
+      "id": "so-created-n2-016-14",
       "level": "N2",
-      "sentence": "こんなところに食べかけのりんごを置いて、あの子はどこへ行ったのだろう。",
-      "sentenceWithBlanks": "こんなところに食べ ____ ____ ____ ____",
-      "korean": "이런 곳에 먹다 만 사과를 두고 그 아이는 어디로 간 걸까.",
+      "sentence": "咲きかけの桜が、突然の雪で白く覆われている。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "막 피기 시작한 벚꽃이 갑작스러운 눈에 하얗게 덮여 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-016-09-p3",
-          "text": "置いて",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-016-09-p4",
-          "text": "あの子はどこへ行ったのだろう",
+          "id": "so-created-n2-016-14-p4",
+          "text": "覆われている。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-016-09-p1",
-          "text": "かけ",
+          "id": "so-created-n2-016-14-p1",
+          "text": "咲きかけの",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-016-09-p2",
-          "text": "のりんごを",
+          "id": "so-created-n2-016-14-p2",
+          "text": "桜が、突然の",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-016-14-p3",
+          "text": "雪で白く",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-016-09-p1",
-        "so-extra20-n2-016-09-p2",
-        "so-extra20-n2-016-09-p3",
-        "so-extra20-n2-016-09-p4"
+        "so-created-n2-016-14-p1",
+        "so-created-n2-016-14-p2",
+        "so-created-n2-016-14-p3",
+        "so-created-n2-016-14-p4"
       ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '막 피기 시작한 벚꽃이 갑작스러운 눈에 하얗게 덮여 있다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
       "sourceGrammarIds": [
-        "n2-016"
+        "n2-016",
+        "n2-157",
+        "n2-158",
+        "n2-159"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-016-10",
+      "id": "so-created-n2-016-15",
       "level": "N2",
-      "sentence": "母は夕食を作りかけて、長電話をしている。",
-      "sentenceWithBlanks": "母は夕食を作り ____ ____ ____ ____",
-      "korean": "어머니는 저녁을 만들다 말고 긴 전화를 하고 있다.",
+      "sentence": "倒れかけた看板を、通りかかった警備員がすぐに支えた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 支えた。",
+      "korean": "쓰러지려던 간판을 지나가던 경비원이 곧바로 붙잡아 받쳤다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-016-10-p2",
-          "text": "長電話を",
+          "id": "so-created-n2-016-15-p3",
+          "text": "通りかかった",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-016-10-p3",
-          "text": "している",
+          "id": "so-created-n2-016-15-p4",
+          "text": "警備員がすぐに",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-016-10-p4",
-          "text": "かけ",
+          "id": "so-created-n2-016-15-p1",
+          "text": "倒れかけ",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-016-10-p1",
-          "text": "て",
+          "id": "so-created-n2-016-15-p2",
+          "text": "た看板を、",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-016-10-p4",
-        "so-extra20-n2-016-10-p1",
-        "so-extra20-n2-016-10-p2",
-        "so-extra20-n2-016-10-p3"
+        "so-created-n2-016-15-p1",
+        "so-created-n2-016-15-p2",
+        "so-created-n2-016-15-p3",
+        "so-created-n2-016-15-p4"
       ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '쓰러지려던 간판을 지나가던 경비원이 곧바로 붙잡아 받쳤다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
       "sourceGrammarIds": [
-        "n2-016"
+        "n2-016",
+        "n2-068",
+        "n2-069",
+        "n2-070"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-016-11",
+      "id": "so-created-n2-016-16",
       "level": "N2",
-      "sentence": "母は夕食を作りかけて、長電話をしている。",
-      "sentenceWithBlanks": "母は夕食を作り ____ ____ ____ ____",
-      "korean": "어머니는 저녁을 만들다 말고 긴 전화를 하고 있다.",
+      "sentence": "編みかけの帽子は、引っ越しの荷物に紛れて行方不明になった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 行方不明になった。",
+      "korean": "뜨다 만 모자는 이삿짐에 섞여 행방을 알 수 없게 되었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-016-11-p1",
-          "text": "て",
+          "id": "so-created-n2-016-16-p2",
+          "text": "の帽子は、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-016-11-p2",
-          "text": "長電話を",
+          "id": "so-created-n2-016-16-p3",
+          "text": "引っ越しの",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-016-11-p3",
-          "text": "している",
+          "id": "so-created-n2-016-16-p4",
+          "text": "荷物に紛れて",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-016-11-p4",
-          "text": "かけ",
+          "id": "so-created-n2-016-16-p1",
+          "text": "編みかけ",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-016-11-p4",
-        "so-extra20-n2-016-11-p1",
-        "so-extra20-n2-016-11-p2",
-        "so-extra20-n2-016-11-p3"
+        "so-created-n2-016-16-p1",
+        "so-created-n2-016-16-p2",
+        "so-created-n2-016-16-p3",
+        "so-created-n2-016-16-p4"
       ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '뜨다 만 모자는 이삿짐에 섞여 행방을 알 수 없게 되었다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
       "sourceGrammarIds": [
-        "n2-016"
+        "n2-016",
+        "n2-157",
+        "n2-158",
+        "n2-159"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-016-12",
+      "id": "so-created-n2-016-17",
       "level": "N2",
-      "sentence": "こんなところに食べかけのりんごを置いて、あの子はどこへ行ったのだろう。",
-      "sentenceWithBlanks": "こんなところに食べ ____ ____ ____ ____",
-      "korean": "이런 곳에 먹다 만 사과를 두고 그 아이는 어디로 간 걸까.",
+      "sentence": "溶けかけた氷像を守るため、職人たちは会場の温度を下げた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 温度を下げた。",
+      "korean": "녹기 시작한 얼음 조각상을 지키기 위해 장인들은 행사장 온도를 낮췄다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-016-12-p4",
-          "text": "のりんごを",
+          "id": "so-created-n2-016-17-p1",
+          "text": "溶けかけた氷",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-016-17-p2",
+          "text": "像を守るため、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-016-12-p1",
-          "text": "置いて",
+          "id": "so-created-n2-016-17-p3",
+          "text": "職人たちは",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-016-12-p2",
-          "text": "あの子はどこへ行ったのだろう",
+          "id": "so-created-n2-016-17-p4",
+          "text": "会場の",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-016-12-p3",
-          "text": "かけ",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-016-12-p3",
-        "so-extra20-n2-016-12-p4",
-        "so-extra20-n2-016-12-p1",
-        "so-extra20-n2-016-12-p2"
+        "so-created-n2-016-17-p1",
+        "so-created-n2-016-17-p2",
+        "so-created-n2-016-17-p3",
+        "so-created-n2-016-17-p4"
       ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '녹기 시작한 얼음 조각상을 지키기 위해 장인들은 행사장 온도를 낮췄다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
       "sourceGrammarIds": [
-        "n2-016"
+        "n2-016",
+        "n2-068",
+        "n2-069",
+        "n2-070"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-016-13",
+      "id": "so-created-n2-016-18",
       "level": "N2",
-      "sentence": "母は夕食を作りかけて、長電話をしている。",
-      "sentenceWithBlanks": "____ ____ ____ ____ て、長電話をしている。",
-      "korean": "어머니는 저녁을 만들다 말고 긴 전화를 하고 있다.",
+      "sentence": "走りかけた犬を飼い主が呼び止め、衝突事故を防いだ。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 防いだ。",
+      "korean": "달려 나가려던 개를 주인이 불러 세워 충돌 사고를 막았다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-016-13-p3",
-          "text": "かけ",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-016-13-p4",
-          "text": "て",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-016-13-p1",
-          "text": "長電話を",
+          "id": "so-created-n2-016-18-p4",
+          "text": "衝突事故を",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-016-13-p2",
-          "text": "作り",
+          "id": "so-created-n2-016-18-p1",
+          "text": "走りかけた",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-016-18-p2",
+          "text": "犬を飼い主が",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-016-18-p3",
+          "text": "呼び止め、",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-016-13-p2",
-        "so-extra20-n2-016-13-p3",
-        "so-extra20-n2-016-13-p4",
-        "so-extra20-n2-016-13-p1"
+        "so-created-n2-016-18-p1",
+        "so-created-n2-016-18-p2",
+        "so-created-n2-016-18-p3",
+        "so-created-n2-016-18-p4"
       ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '달려 나가려던 개를 주인이 불러 세워 충돌 사고를 막았다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
       "sourceGrammarIds": [
-        "n2-016"
+        "n2-016",
+        "n2-157",
+        "n2-158",
+        "n2-159"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-016-14",
+      "id": "so-created-n2-016-19",
       "level": "N2",
-      "sentence": "こんなところに食べかけのりんごを置いて、あの子はどこへ行ったのだろう。",
-      "sentenceWithBlanks": "こんなところに食べ ____ ____ ____ ____",
-      "korean": "이런 곳에 먹다 만 사과를 두고 그 아이는 어디로 간 걸까.",
+      "sentence": "諦めかけた捜索隊の無線に、遭難者から応答が入った。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 入った。",
+      "korean": "수색을 포기하려던 구조대의 무전에 조난자로부터 응답이 들어왔다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-016-14-p2",
-          "text": "のりんごを",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-016-14-p3",
-          "text": "置いて",
+          "id": "so-created-n2-016-19-p3",
+          "text": "無線に、遭難",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-016-14-p4",
-          "text": "あの子はどこへ行ったのだろう",
+          "id": "so-created-n2-016-19-p4",
+          "text": "者から応答が",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-016-14-p1",
-          "text": "かけ",
+          "id": "so-created-n2-016-19-p1",
+          "text": "諦めかけ",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-016-19-p2",
+          "text": "た捜索隊の",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-016-14-p1",
-        "so-extra20-n2-016-14-p2",
-        "so-extra20-n2-016-14-p3",
-        "so-extra20-n2-016-14-p4"
+        "so-created-n2-016-19-p1",
+        "so-created-n2-016-19-p2",
+        "so-created-n2-016-19-p3",
+        "so-created-n2-016-19-p4"
       ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '수색을 포기하려던 구조대의 무전에 조난자로부터 응답이 들어왔다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
       "sourceGrammarIds": [
-        "n2-016"
+        "n2-016",
+        "n2-068",
+        "n2-069",
+        "n2-070"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-016-15",
+      "id": "so-created-n2-016-20",
       "level": "N2",
-      "sentence": "母は夕食を作りかけて、長電話をしている。",
-      "sentenceWithBlanks": "母は夕食を作り ____ ____ ____ ____",
-      "korean": "어머니는 저녁을 만들다 말고 긴 전화를 하고 있다.",
+      "sentence": "乾きかけの壁に猫が触れ、塗料の跡が床まで続いていた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 続いていた。",
+      "korean": "마르다 만 벽에 고양이가 닿아 페인트 자국이 바닥까지 이어져 있었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-016-15-p1",
-          "text": "て",
+          "id": "so-created-n2-016-20-p2",
+          "text": "の壁に猫が",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-016-15-p2",
-          "text": "長電話を",
+          "id": "so-created-n2-016-20-p3",
+          "text": "触れ、塗料の",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-016-15-p3",
-          "text": "している",
+          "id": "so-created-n2-016-20-p4",
+          "text": "跡が床まで",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-016-15-p4",
-          "text": "かけ",
+          "id": "so-created-n2-016-20-p1",
+          "text": "乾きかけ",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-016-15-p4",
-        "so-extra20-n2-016-15-p1",
-        "so-extra20-n2-016-15-p2",
-        "so-extra20-n2-016-15-p3"
+        "so-created-n2-016-20-p1",
+        "so-created-n2-016-20-p2",
+        "so-created-n2-016-20-p3",
+        "so-created-n2-016-20-p4"
       ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '마르다 만 벽에 고양이가 닿아 페인트 자국이 바닥까지 이어져 있었다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
       "sourceGrammarIds": [
-        "n2-016"
+        "n2-016",
+        "n2-157",
+        "n2-158",
+        "n2-159"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-016-16",
+      "id": "so-created-n2-016-21",
       "level": "N2",
-      "sentence": "母は夕食を作りかけて、長電話をしている。",
-      "sentenceWithBlanks": "母は夕食を作り ____ ____ ____ ____",
-      "korean": "어머니는 저녁을 만들다 말고 긴 전화를 하고 있다.",
+      "sentence": "ほどけかけた靴ひもを踏んで、配達員は階段で転びそうになった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 転びそうになった。",
+      "korean": "풀리기 시작한 신발 끈을 밟아 배달원은 계단에서 넘어질 뻔했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-016-16-p4",
-          "text": "かけ",
+          "id": "so-created-n2-016-21-p1",
+          "text": "ほどけかけ",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-016-16-p1",
-          "text": "て",
+          "id": "so-created-n2-016-21-p2",
+          "text": "た靴ひもを",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-016-16-p2",
-          "text": "長電話を",
+          "id": "so-created-n2-016-21-p3",
+          "text": "踏んで、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-016-16-p3",
-          "text": "している",
+          "id": "so-created-n2-016-21-p4",
+          "text": "配達員は階段で",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-016-16-p4",
-        "so-extra20-n2-016-16-p1",
-        "so-extra20-n2-016-16-p2",
-        "so-extra20-n2-016-16-p3"
+        "so-created-n2-016-21-p1",
+        "so-created-n2-016-21-p2",
+        "so-created-n2-016-21-p3",
+        "so-created-n2-016-21-p4"
       ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '풀리기 시작한 신발 끈을 밟아 배달원은 계단에서 넘어질 뻔했다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
       "sourceGrammarIds": [
-        "n2-016"
+        "n2-016",
+        "n2-068",
+        "n2-069",
+        "n2-070"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-016-17",
+      "id": "so-created-n2-016-22",
       "level": "N2",
-      "sentence": "こんなところに食べかけのりんごを置いて、あの子はどこへ行ったのだろう。",
-      "sentenceWithBlanks": "こんなところに食べ ____ ____ ____ ____",
-      "korean": "이런 곳에 먹다 만 사과를 두고 그 아이는 어디로 간 걸까.",
+      "sentence": "途切れかけた通信が回復し、管制室は飛行士の無事を確認した。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 無事を確認した。",
+      "korean": "끊기려던 통신이 복구되어 관제실은 비행사의 무사함을 확인했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-016-17-p3",
-          "text": "かけ",
+          "id": "so-created-n2-016-22-p4",
+          "text": "室は飛行士の",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-016-22-p1",
+          "text": "途切れかけ",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-016-17-p4",
-          "text": "のりんごを",
+          "id": "so-created-n2-016-22-p2",
+          "text": "た通信が",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-016-17-p1",
-          "text": "置いて",
+          "id": "so-created-n2-016-22-p3",
+          "text": "回復し、管制",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-016-17-p2",
-          "text": "あの子はどこへ行ったのだろう",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-016-17-p3",
-        "so-extra20-n2-016-17-p4",
-        "so-extra20-n2-016-17-p1",
-        "so-extra20-n2-016-17-p2"
+        "so-created-n2-016-22-p1",
+        "so-created-n2-016-22-p2",
+        "so-created-n2-016-22-p3",
+        "so-created-n2-016-22-p4"
       ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '끊기려던 통신이 복구되어 관제실은 비행사의 무사함을 확인했다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
       "sourceGrammarIds": [
-        "n2-016"
+        "n2-016",
+        "n2-157",
+        "n2-158",
+        "n2-159"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-016-18",
+      "id": "so-created-n2-016-23",
       "level": "N2",
-      "sentence": "母は夕食を作りかけて、長電話をしている。",
-      "sentenceWithBlanks": "____ ____ ____ ____ て、長電話をしている。",
-      "korean": "어머니는 저녁을 만들다 말고 긴 전화를 하고 있다.",
+      "sentence": "焼けかけの陶器を窯から出したせいで、表面にひびが入った。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 入った。",
+      "korean": "굽다 만 도자기를 가마에서 꺼내는 바람에 표면에 금이 갔다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-016-18-p2",
-          "text": "作り",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-016-18-p3",
-          "text": "かけ",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-016-18-p4",
-          "text": "て",
+          "id": "so-created-n2-016-23-p3",
+          "text": "出したせいで、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-016-18-p1",
-          "text": "長電話を",
+          "id": "so-created-n2-016-23-p4",
+          "text": "表面にひびが",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-016-23-p1",
+          "text": "焼けかけの",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-016-23-p2",
+          "text": "陶器を窯から",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-016-18-p2",
-        "so-extra20-n2-016-18-p3",
-        "so-extra20-n2-016-18-p4",
-        "so-extra20-n2-016-18-p1"
+        "so-created-n2-016-23-p1",
+        "so-created-n2-016-23-p2",
+        "so-created-n2-016-23-p3",
+        "so-created-n2-016-23-p4"
       ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '굽다 만 도자기를 가마에서 꺼내는 바람에 표면에 금이 갔다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
       "sourceGrammarIds": [
-        "n2-016"
+        "n2-016",
+        "n2-068",
+        "n2-069",
+        "n2-070"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-016-19",
+      "id": "so-created-n2-016-24",
       "level": "N2",
-      "sentence": "こんなところに食べかけのりんごを置いて、あの子はどこへ行ったのだろう。",
-      "sentenceWithBlanks": "こんなところに食べ ____ ____ ____ ____",
-      "korean": "이런 곳에 먹다 만 사과를 두고 그 아이는 어디로 간 걸까.",
+      "sentence": "漏れかけた燃料を整備士が発見し、出航は直前に中止された。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 中止された。",
+      "korean": "새기 시작한 연료를 정비사가 발견하여 출항은 직전에 취소되었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-016-19-p1",
-          "text": "かけ",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-016-19-p2",
-          "text": "のりんごを",
+          "id": "so-created-n2-016-24-p2",
+          "text": "燃料を整備",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-016-19-p3",
-          "text": "置いて",
+          "id": "so-created-n2-016-24-p3",
+          "text": "士が発見し、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-016-19-p4",
-          "text": "あの子はどこへ行ったのだろう",
+          "id": "so-created-n2-016-24-p4",
+          "text": "出航は直前に",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-016-24-p1",
+          "text": "漏れかけた",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-016-19-p1",
-        "so-extra20-n2-016-19-p2",
-        "so-extra20-n2-016-19-p3",
-        "so-extra20-n2-016-19-p4"
+        "so-created-n2-016-24-p1",
+        "so-created-n2-016-24-p2",
+        "so-created-n2-016-24-p3",
+        "so-created-n2-016-24-p4"
       ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '새기 시작한 연료를 정비사가 발견하여 출항은 직전에 취소되었다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
       "sourceGrammarIds": [
-        "n2-016"
+        "n2-016",
+        "n2-157",
+        "n2-158",
+        "n2-159"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-016-20",
+      "id": "so-created-n2-016-25",
       "level": "N2",
-      "sentence": "母は夕食を作りかけて、長電話をしている。",
-      "sentenceWithBlanks": "母は夕食を作り ____ ____ ____ ____",
-      "korean": "어머니는 저녁을 만들다 말고 긴 전화를 하고 있다.",
+      "sentence": "生えかけの永久歯が痛むので、少年は硬い物を避けている。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 避けている。",
+      "korean": "막 나기 시작한 영구치가 아파서 소년은 딱딱한 음식을 피하고 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-016-20-p4",
-          "text": "かけ",
+          "id": "so-created-n2-016-25-p1",
+          "text": "生えかけ",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-016-20-p1",
-          "text": "て",
+          "id": "so-created-n2-016-25-p2",
+          "text": "の永久歯が",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-016-20-p2",
-          "text": "長電話を",
+          "id": "so-created-n2-016-25-p3",
+          "text": "痛むので、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-016-20-p3",
-          "text": "している",
+          "id": "so-created-n2-016-25-p4",
+          "text": "少年は硬い物を",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-016-20-p4",
-        "so-extra20-n2-016-20-p1",
-        "so-extra20-n2-016-20-p2",
-        "so-extra20-n2-016-20-p3"
+        "so-created-n2-016-25-p1",
+        "so-created-n2-016-25-p2",
+        "so-created-n2-016-25-p3",
+        "so-created-n2-016-25-p4"
       ],
-      "explanation": "「かける」는 ~하다가 말다, 막 ~하려고 하다라는 뜻이다. 동작이 시작되었지만 완료되지 않음.",
+      "explanation": "「かけ」는 '~하다가 말다, 막 ~하려고 하다'라는 뜻을 나타낸다. 이 문장에서는 '막 나기 시작한 영구치가 아파서 소년은 딱딱한 음식을 피하고 있다.'라는 상황에 쓰였으며, 동작이 시작되었지만 완료되지 않음. 주의할 점은 「かけの」로 명사 수식도 됨(食べかけのパン). 완료되지 않은 상태 강조.",
       "sourceGrammarIds": [
-        "n2-016"
+        "n2-016",
+        "n2-068",
+        "n2-069",
+        "n2-070"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     }
   ]

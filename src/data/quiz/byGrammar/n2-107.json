@@ -267,15 +267,23 @@
       ]
     },
     {
-      "id": "fb-extra-n2-107-1",
+      "id": "fb-created-n2-107-01",
       "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlank": "年齢（　　　）、誰でも参加できます。",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
-      "answerChoiceId": "fb-extra-n2-107-1-d",
+      "sentence": "天候にかかわらず、救助隊は予定どおり捜索を続ける。",
+      "sentenceWithBlank": "天候（　　　）、救助隊は予定どおり捜索を続ける。",
+      "korean": "날씨와 관계없이 구조대는 예정대로 수색을 계속한다.",
+      "answerChoiceId": "fb-created-n2-107-01-d",
       "choices": [
         {
-          "id": "fb-extra-n2-107-1-a",
+          "id": "fb-created-n2-107-01-d",
+          "text": "にかかわらず",
+          "grammarId": "n2-107",
+          "baseExpression": "にかかわらず",
+          "conjugatedExpression": "にかかわらず",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-107-01-a",
           "text": "わけではない",
           "grammarId": "n2-169",
           "baseExpression": "わけではない",
@@ -283,7 +291,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-107-1-b",
+          "id": "fb-created-n2-107-01-b",
           "text": "わけにはいかない",
           "grammarId": "n2-170",
           "baseExpression": "わけにはいかない",
@@ -291,23 +299,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-107-1-c",
+          "id": "fb-created-n2-107-01-c",
           "text": "わりには",
           "grammarId": "n2-171",
           "baseExpression": "わりには",
           "conjugatedExpression": "わりには",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-107-1-d",
-          "text": "にかかわらず",
-          "grammarId": "n2-107",
-          "baseExpression": "にかかわらず",
-          "conjugatedExpression": "にかかわらず",
-          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '날씨와 관계없이 구조대는 예정대로 수색을 계속한다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
       "sourceGrammarIds": [
         "n2-107",
         "n2-169",
@@ -315,237 +315,20 @@
         "n2-171"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra-n2-107-2",
+      "id": "fb-created-n2-107-02",
       "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlank": "年齢（　　　）、誰でも参加できます。",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
-      "answerChoiceId": "fb-extra-n2-107-2-a",
+      "sentence": "経験の有無にかかわらず、この工房では職人を募集している。",
+      "sentenceWithBlank": "経験の有無（　　　）、この工房では職人を募集している。",
+      "korean": "경험 유무와 관계없이 이 공방에서는 장인을 모집하고 있다.",
+      "answerChoiceId": "fb-created-n2-107-02-d",
       "choices": [
         {
-          "id": "fb-extra-n2-107-2-b",
-          "text": "に相違ない",
-          "grammarId": "n2-124",
-          "baseExpression": "に相違ない",
-          "conjugatedExpression": "に相違ない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-107-2-c",
-          "text": "に沿って",
-          "grammarId": "n2-125",
-          "baseExpression": "に沿って",
-          "conjugatedExpression": "に沿って",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-107-2-d",
-          "text": "につき",
-          "grammarId": "n2-126",
-          "baseExpression": "につき",
-          "conjugatedExpression": "につき",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-107-2-a",
-          "text": "にかかわらず",
-          "grammarId": "n2-107",
-          "baseExpression": "にかかわらず",
-          "conjugatedExpression": "にかかわらず",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
-      "sourceGrammarIds": [
-        "n2-107",
-        "n2-124",
-        "n2-125",
-        "n2-126"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-107-3",
-      "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlank": "年齢（　　　）、誰でも参加できます。",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
-      "answerChoiceId": "fb-extra-n2-107-3-b",
-      "choices": [
-        {
-          "id": "fb-extra-n2-107-3-c",
-          "text": "ざるを得ない",
-          "grammarId": "n2-046",
-          "baseExpression": "ざるを得ない",
-          "conjugatedExpression": "ざるを得ない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-107-3-d",
-          "text": "次第",
-          "grammarId": "n2-047",
-          "baseExpression": "次第",
-          "conjugatedExpression": "次第",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-107-3-a",
-          "text": "次第だ",
-          "grammarId": "n2-048",
-          "baseExpression": "次第だ",
-          "conjugatedExpression": "次第だ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-107-3-b",
-          "text": "にかかわらず",
-          "grammarId": "n2-107",
-          "baseExpression": "にかかわらず",
-          "conjugatedExpression": "にかかわらず",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
-      "sourceGrammarIds": [
-        "n2-107",
-        "n2-046",
-        "n2-047",
-        "n2-048"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-107-4",
-      "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlank": "年齢（　　　）、誰でも参加できます。",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
-      "answerChoiceId": "fb-extra-n2-107-4-c",
-      "choices": [
-        {
-          "id": "fb-extra-n2-107-4-d",
-          "text": "た上で",
-          "grammarId": "n2-005",
-          "baseExpression": "た上で",
-          "conjugatedExpression": "た上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-107-4-a",
-          "text": "上で",
-          "grammarId": "n2-006",
-          "baseExpression": "上で",
-          "conjugatedExpression": "上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-107-4-b",
-          "text": "する上は",
-          "grammarId": "n2-007",
-          "baseExpression": "上は",
-          "conjugatedExpression": "する上は",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-107-4-c",
-          "text": "にかかわらず",
-          "grammarId": "n2-107",
-          "baseExpression": "にかかわらず",
-          "conjugatedExpression": "にかかわらず",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
-      "sourceGrammarIds": [
-        "n2-107",
-        "n2-005",
-        "n2-006",
-        "n2-007"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-107-5",
-      "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlank": "年齢（　　　）、誰でも参加できます。",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
-      "answerChoiceId": "fb-extra-n2-107-5-d",
-      "choices": [
-        {
-          "id": "fb-extra-n2-107-5-a",
-          "text": "かける",
-          "grammarId": "n2-016",
-          "baseExpression": "かける",
-          "conjugatedExpression": "かける",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-107-5-b",
-          "text": "がたい",
-          "grammarId": "n2-017",
-          "baseExpression": "がたい",
-          "conjugatedExpression": "がたい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-107-5-c",
-          "text": "がだけに",
-          "grammarId": "n2-018",
-          "baseExpression": "がだけに",
-          "conjugatedExpression": "がだけに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-107-5-d",
-          "text": "にかかわらず",
-          "grammarId": "n2-107",
-          "baseExpression": "にかかわらず",
-          "conjugatedExpression": "にかかわらず",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
-      "sourceGrammarIds": [
-        "n2-107",
-        "n2-016",
-        "n2-017",
-        "n2-018"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-107-01",
-      "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlank": "年齢（　　　）、誰でも参加できます。",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
-      "answerChoiceId": "fb-extra20-n2-107-01-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-107-01-a",
+          "id": "fb-created-n2-107-02-a",
           "text": "わけではない",
           "grammarId": "n2-169",
           "baseExpression": "わけではない",
@@ -553,7 +336,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-107-01-b",
+          "id": "fb-created-n2-107-02-b",
           "text": "わけにはいかない",
           "grammarId": "n2-170",
           "baseExpression": "わけにはいかない",
@@ -561,7 +344,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-107-01-c",
+          "id": "fb-created-n2-107-02-c",
           "text": "わりには",
           "grammarId": "n2-171",
           "baseExpression": "わりには",
@@ -569,7 +352,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-107-01-d",
+          "id": "fb-created-n2-107-02-d",
           "text": "にかかわらず",
           "grammarId": "n2-107",
           "baseExpression": "にかかわらず",
@@ -577,7 +360,7 @@
           "isSimilarDistractor": false
         }
       ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '경험 유무와 관계없이 이 공방에서는 장인을 모집하고 있다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
       "sourceGrammarIds": [
         "n2-107",
         "n2-169",
@@ -585,253 +368,20 @@
         "n2-171"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-107-02",
+      "id": "fb-created-n2-107-03",
       "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlank": "年齢（　　　）、誰でも参加できます。",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
-      "answerChoiceId": "fb-extra20-n2-107-02-a",
+      "sentence": "国籍にかかわらず、条件を満たす住民には補助金が支給される。",
+      "sentenceWithBlank": "国籍（　　　）、条件を満たす住民には補助金が支給される。",
+      "korean": "국적과 관계없이 조건을 충족하는 주민에게는 보조금이 지급된다.",
+      "answerChoiceId": "fb-created-n2-107-03-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-107-02-d",
-          "text": "につき",
-          "grammarId": "n2-126",
-          "baseExpression": "につき",
-          "conjugatedExpression": "につき",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-107-02-a",
-          "text": "にかかわらず",
-          "grammarId": "n2-107",
-          "baseExpression": "にかかわらず",
-          "conjugatedExpression": "にかかわらず",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-107-02-b",
-          "text": "に相違ない",
-          "grammarId": "n2-124",
-          "baseExpression": "に相違ない",
-          "conjugatedExpression": "に相違ない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-107-02-c",
-          "text": "に沿って",
-          "grammarId": "n2-125",
-          "baseExpression": "に沿って",
-          "conjugatedExpression": "に沿って",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
-      "sourceGrammarIds": [
-        "n2-107",
-        "n2-124",
-        "n2-125",
-        "n2-126"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-107-03",
-      "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlank": "年齢（　　　）、誰でも参加できます。",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
-      "answerChoiceId": "fb-extra20-n2-107-03-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-107-03-c",
-          "text": "ざるを得ない",
-          "grammarId": "n2-046",
-          "baseExpression": "ざるを得ない",
-          "conjugatedExpression": "ざるを得ない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-107-03-d",
-          "text": "次第",
-          "grammarId": "n2-047",
-          "baseExpression": "次第",
-          "conjugatedExpression": "次第",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-107-03-a",
-          "text": "次第だ",
-          "grammarId": "n2-048",
-          "baseExpression": "次第だ",
-          "conjugatedExpression": "次第だ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-107-03-b",
-          "text": "にかかわらず",
-          "grammarId": "n2-107",
-          "baseExpression": "にかかわらず",
-          "conjugatedExpression": "にかかわらず",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
-      "sourceGrammarIds": [
-        "n2-107",
-        "n2-046",
-        "n2-047",
-        "n2-048"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-107-04",
-      "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlank": "年齢（　　　）、誰でも参加できます。",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
-      "answerChoiceId": "fb-extra20-n2-107-04-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-107-04-b",
-          "text": "する上は",
-          "grammarId": "n2-007",
-          "baseExpression": "上は",
-          "conjugatedExpression": "する上は",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-107-04-c",
-          "text": "にかかわらず",
-          "grammarId": "n2-107",
-          "baseExpression": "にかかわらず",
-          "conjugatedExpression": "にかかわらず",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-107-04-d",
-          "text": "た上で",
-          "grammarId": "n2-005",
-          "baseExpression": "た上で",
-          "conjugatedExpression": "た上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-107-04-a",
-          "text": "上で",
-          "grammarId": "n2-006",
-          "baseExpression": "上で",
-          "conjugatedExpression": "上で",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
-      "sourceGrammarIds": [
-        "n2-107",
-        "n2-005",
-        "n2-006",
-        "n2-007"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-107-05",
-      "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlank": "年齢（　　　）、誰でも参加できます。",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
-      "answerChoiceId": "fb-extra20-n2-107-05-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-107-05-a",
-          "text": "かける",
-          "grammarId": "n2-016",
-          "baseExpression": "かける",
-          "conjugatedExpression": "かける",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-107-05-b",
-          "text": "がたい",
-          "grammarId": "n2-017",
-          "baseExpression": "がたい",
-          "conjugatedExpression": "がたい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-107-05-c",
-          "text": "がだけに",
-          "grammarId": "n2-018",
-          "baseExpression": "がだけに",
-          "conjugatedExpression": "がだけに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-107-05-d",
-          "text": "にかかわらず",
-          "grammarId": "n2-107",
-          "baseExpression": "にかかわらず",
-          "conjugatedExpression": "にかかわらず",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
-      "sourceGrammarIds": [
-        "n2-107",
-        "n2-016",
-        "n2-017",
-        "n2-018"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-107-06",
-      "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlank": "年齢（　　　）、誰でも参加できます。",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
-      "answerChoiceId": "fb-extra20-n2-107-06-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-107-06-d",
-          "text": "にかかわらず",
-          "grammarId": "n2-107",
-          "baseExpression": "にかかわらず",
-          "conjugatedExpression": "にかかわらず",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-107-06-a",
-          "text": "わけではない",
-          "grammarId": "n2-169",
-          "baseExpression": "わけではない",
-          "conjugatedExpression": "わけではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-107-06-b",
+          "id": "fb-created-n2-107-03-b",
           "text": "わけにはいかない",
           "grammarId": "n2-170",
           "baseExpression": "わけにはいかない",
@@ -839,253 +389,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-107-06-c",
-          "text": "わりには",
-          "grammarId": "n2-171",
-          "baseExpression": "わりには",
-          "conjugatedExpression": "わりには",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
-      "sourceGrammarIds": [
-        "n2-107",
-        "n2-169",
-        "n2-170",
-        "n2-171"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-107-07",
-      "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlank": "年齢（　　　）、誰でも参加できます。",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
-      "answerChoiceId": "fb-extra20-n2-107-07-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-107-07-c",
-          "text": "に沿って",
-          "grammarId": "n2-125",
-          "baseExpression": "に沿って",
-          "conjugatedExpression": "に沿って",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-107-07-d",
-          "text": "につき",
-          "grammarId": "n2-126",
-          "baseExpression": "につき",
-          "conjugatedExpression": "につき",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-107-07-a",
-          "text": "にかかわらず",
-          "grammarId": "n2-107",
-          "baseExpression": "にかかわらず",
-          "conjugatedExpression": "にかかわらず",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-107-07-b",
-          "text": "に相違ない",
-          "grammarId": "n2-124",
-          "baseExpression": "に相違ない",
-          "conjugatedExpression": "に相違ない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
-      "sourceGrammarIds": [
-        "n2-107",
-        "n2-124",
-        "n2-125",
-        "n2-126"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-107-08",
-      "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlank": "年齢（　　　）、誰でも参加できます。",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
-      "answerChoiceId": "fb-extra20-n2-107-08-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-107-08-b",
-          "text": "にかかわらず",
-          "grammarId": "n2-107",
-          "baseExpression": "にかかわらず",
-          "conjugatedExpression": "にかかわらず",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-107-08-c",
-          "text": "ざるを得ない",
-          "grammarId": "n2-046",
-          "baseExpression": "ざるを得ない",
-          "conjugatedExpression": "ざるを得ない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-107-08-d",
-          "text": "次第",
-          "grammarId": "n2-047",
-          "baseExpression": "次第",
-          "conjugatedExpression": "次第",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-107-08-a",
-          "text": "次第だ",
-          "grammarId": "n2-048",
-          "baseExpression": "次第だ",
-          "conjugatedExpression": "次第だ",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
-      "sourceGrammarIds": [
-        "n2-107",
-        "n2-046",
-        "n2-047",
-        "n2-048"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-107-09",
-      "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlank": "年齢（　　　）、誰でも参加できます。",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
-      "answerChoiceId": "fb-extra20-n2-107-09-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-107-09-a",
-          "text": "上で",
-          "grammarId": "n2-006",
-          "baseExpression": "上で",
-          "conjugatedExpression": "上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-107-09-b",
-          "text": "する上は",
-          "grammarId": "n2-007",
-          "baseExpression": "上は",
-          "conjugatedExpression": "する上は",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-107-09-c",
-          "text": "にかかわらず",
-          "grammarId": "n2-107",
-          "baseExpression": "にかかわらず",
-          "conjugatedExpression": "にかかわらず",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-107-09-d",
-          "text": "た上で",
-          "grammarId": "n2-005",
-          "baseExpression": "た上で",
-          "conjugatedExpression": "た上で",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
-      "sourceGrammarIds": [
-        "n2-107",
-        "n2-005",
-        "n2-006",
-        "n2-007"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-107-10",
-      "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlank": "年齢（　　　）、誰でも参加できます。",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
-      "answerChoiceId": "fb-extra20-n2-107-10-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-107-10-d",
-          "text": "にかかわらず",
-          "grammarId": "n2-107",
-          "baseExpression": "にかかわらず",
-          "conjugatedExpression": "にかかわらず",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-107-10-a",
-          "text": "かける",
-          "grammarId": "n2-016",
-          "baseExpression": "かける",
-          "conjugatedExpression": "かける",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-107-10-b",
-          "text": "がたい",
-          "grammarId": "n2-017",
-          "baseExpression": "がたい",
-          "conjugatedExpression": "がたい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-107-10-c",
-          "text": "がだけに",
-          "grammarId": "n2-018",
-          "baseExpression": "がだけに",
-          "conjugatedExpression": "がだけに",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
-      "sourceGrammarIds": [
-        "n2-107",
-        "n2-016",
-        "n2-017",
-        "n2-018"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-107-11",
-      "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlank": "年齢（　　　）、誰でも参加できます。",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
-      "answerChoiceId": "fb-extra20-n2-107-11-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-107-11-c",
+          "id": "fb-created-n2-107-03-c",
           "text": "わりには",
           "grammarId": "n2-171",
           "baseExpression": "わりには",
@@ -1093,7 +397,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-107-11-d",
+          "id": "fb-created-n2-107-03-d",
           "text": "にかかわらず",
           "grammarId": "n2-107",
           "baseExpression": "にかかわらず",
@@ -1101,285 +405,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-107-11-a",
-          "text": "わけではない",
-          "grammarId": "n2-169",
-          "baseExpression": "わけではない",
-          "conjugatedExpression": "わけではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-107-11-b",
-          "text": "わけにはいかない",
-          "grammarId": "n2-170",
-          "baseExpression": "わけにはいかない",
-          "conjugatedExpression": "わけにはいかない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
-      "sourceGrammarIds": [
-        "n2-107",
-        "n2-169",
-        "n2-170",
-        "n2-171"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-107-12",
-      "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlank": "年齢（　　　）、誰でも参加できます。",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
-      "answerChoiceId": "fb-extra20-n2-107-12-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-107-12-b",
-          "text": "に相違ない",
-          "grammarId": "n2-124",
-          "baseExpression": "に相違ない",
-          "conjugatedExpression": "に相違ない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-107-12-c",
-          "text": "に沿って",
-          "grammarId": "n2-125",
-          "baseExpression": "に沿って",
-          "conjugatedExpression": "に沿って",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-107-12-d",
-          "text": "につき",
-          "grammarId": "n2-126",
-          "baseExpression": "につき",
-          "conjugatedExpression": "につき",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-107-12-a",
-          "text": "にかかわらず",
-          "grammarId": "n2-107",
-          "baseExpression": "にかかわらず",
-          "conjugatedExpression": "にかかわらず",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
-      "sourceGrammarIds": [
-        "n2-107",
-        "n2-124",
-        "n2-125",
-        "n2-126"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-107-13",
-      "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlank": "年齢（　　　）、誰でも参加できます。",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
-      "answerChoiceId": "fb-extra20-n2-107-13-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-107-13-a",
-          "text": "次第だ",
-          "grammarId": "n2-048",
-          "baseExpression": "次第だ",
-          "conjugatedExpression": "次第だ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-107-13-b",
-          "text": "にかかわらず",
-          "grammarId": "n2-107",
-          "baseExpression": "にかかわらず",
-          "conjugatedExpression": "にかかわらず",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-107-13-c",
-          "text": "ざるを得ない",
-          "grammarId": "n2-046",
-          "baseExpression": "ざるを得ない",
-          "conjugatedExpression": "ざるを得ない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-107-13-d",
-          "text": "次第",
-          "grammarId": "n2-047",
-          "baseExpression": "次第",
-          "conjugatedExpression": "次第",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
-      "sourceGrammarIds": [
-        "n2-107",
-        "n2-046",
-        "n2-047",
-        "n2-048"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-107-14",
-      "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlank": "年齢（　　　）、誰でも参加できます。",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
-      "answerChoiceId": "fb-extra20-n2-107-14-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-107-14-d",
-          "text": "た上で",
-          "grammarId": "n2-005",
-          "baseExpression": "た上で",
-          "conjugatedExpression": "た上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-107-14-a",
-          "text": "上で",
-          "grammarId": "n2-006",
-          "baseExpression": "上で",
-          "conjugatedExpression": "上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-107-14-b",
-          "text": "する上は",
-          "grammarId": "n2-007",
-          "baseExpression": "上は",
-          "conjugatedExpression": "する上は",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-107-14-c",
-          "text": "にかかわらず",
-          "grammarId": "n2-107",
-          "baseExpression": "にかかわらず",
-          "conjugatedExpression": "にかかわらず",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
-      "sourceGrammarIds": [
-        "n2-107",
-        "n2-005",
-        "n2-006",
-        "n2-007"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-107-15",
-      "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlank": "年齢（　　　）、誰でも参加できます。",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
-      "answerChoiceId": "fb-extra20-n2-107-15-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-107-15-c",
-          "text": "がだけに",
-          "grammarId": "n2-018",
-          "baseExpression": "がだけに",
-          "conjugatedExpression": "がだけに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-107-15-d",
-          "text": "にかかわらず",
-          "grammarId": "n2-107",
-          "baseExpression": "にかかわらず",
-          "conjugatedExpression": "にかかわらず",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-107-15-a",
-          "text": "かける",
-          "grammarId": "n2-016",
-          "baseExpression": "かける",
-          "conjugatedExpression": "かける",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-107-15-b",
-          "text": "がたい",
-          "grammarId": "n2-017",
-          "baseExpression": "がたい",
-          "conjugatedExpression": "がたい",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
-      "sourceGrammarIds": [
-        "n2-107",
-        "n2-016",
-        "n2-017",
-        "n2-018"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-107-16",
-      "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlank": "年齢（　　　）、誰でも参加できます。",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
-      "answerChoiceId": "fb-extra20-n2-107-16-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-107-16-b",
-          "text": "わけにはいかない",
-          "grammarId": "n2-170",
-          "baseExpression": "わけにはいかない",
-          "conjugatedExpression": "わけにはいかない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-107-16-c",
-          "text": "わりには",
-          "grammarId": "n2-171",
-          "baseExpression": "わりには",
-          "conjugatedExpression": "わりには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-107-16-d",
-          "text": "にかかわらず",
-          "grammarId": "n2-107",
-          "baseExpression": "にかかわらず",
-          "conjugatedExpression": "にかかわらず",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-107-16-a",
+          "id": "fb-created-n2-107-03-a",
           "text": "わけではない",
           "grammarId": "n2-169",
           "baseExpression": "わけではない",
@@ -1387,7 +413,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '국적과 관계없이 조건을 충족하는 주민에게는 보조금이 지급된다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
       "sourceGrammarIds": [
         "n2-107",
         "n2-169",
@@ -1395,21 +421,28 @@
         "n2-171"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-107-17",
+      "id": "fb-created-n2-107-04",
       "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlank": "年齢（　　　）、誰でも参加できます。",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
-      "answerChoiceId": "fb-extra20-n2-107-17-a",
+      "sentence": "注文金額にかかわらず、離島への配送には追加料金がかかる。",
+      "sentenceWithBlank": "注文金額（　　　）、離島への配送には追加料金がかかる。",
+      "korean": "주문 금액과 관계없이 외딴섬 배송에는 추가 요금이 든다.",
+      "answerChoiceId": "fb-created-n2-107-04-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-107-17-a",
+          "id": "fb-created-n2-107-04-c",
+          "text": "わりには",
+          "grammarId": "n2-171",
+          "baseExpression": "わりには",
+          "conjugatedExpression": "わりには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-04-d",
           "text": "にかかわらず",
           "grammarId": "n2-107",
           "baseExpression": "にかかわらず",
@@ -1417,69 +450,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-107-17-b",
-          "text": "に相違ない",
-          "grammarId": "n2-124",
-          "baseExpression": "に相違ない",
-          "conjugatedExpression": "に相違ない",
+          "id": "fb-created-n2-107-04-a",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-107-17-c",
-          "text": "に沿って",
-          "grammarId": "n2-125",
-          "baseExpression": "に沿って",
-          "conjugatedExpression": "に沿って",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-107-17-d",
-          "text": "につき",
-          "grammarId": "n2-126",
-          "baseExpression": "につき",
-          "conjugatedExpression": "につき",
+          "id": "fb-created-n2-107-04-b",
+          "text": "わけにはいかない",
+          "grammarId": "n2-170",
+          "baseExpression": "わけにはいかない",
+          "conjugatedExpression": "わけにはいかない",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '주문 금액과 관계없이 외딴섬 배송에는 추가 요금이 든다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
       "sourceGrammarIds": [
         "n2-107",
-        "n2-124",
-        "n2-125",
-        "n2-126"
+        "n2-169",
+        "n2-170",
+        "n2-171"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-107-18",
+      "id": "fb-created-n2-107-05",
       "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlank": "年齢（　　　）、誰でも参加できます。",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
-      "answerChoiceId": "fb-extra20-n2-107-18-b",
+      "sentence": "症状が軽いか重いかにかかわらず、異変を感じたら医師に相談してください。",
+      "sentenceWithBlank": "症状が軽いか重いか（　　　）、異変を感じたら医師に相談してください。",
+      "korean": "증상이 가볍든 심하든 관계없이 이상을 느끼면 의사와 상담해 주세요.",
+      "answerChoiceId": "fb-created-n2-107-05-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-107-18-d",
-          "text": "次第",
-          "grammarId": "n2-047",
-          "baseExpression": "次第",
-          "conjugatedExpression": "次第",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-107-18-a",
-          "text": "次第だ",
-          "grammarId": "n2-048",
-          "baseExpression": "次第だ",
-          "conjugatedExpression": "次第だ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-107-18-b",
+          "id": "fb-created-n2-107-05-d",
           "text": "にかかわらず",
           "grammarId": "n2-107",
           "baseExpression": "にかかわらず",
@@ -1487,37 +495,121 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-107-18-c",
-          "text": "ざるを得ない",
-          "grammarId": "n2-046",
-          "baseExpression": "ざるを得ない",
-          "conjugatedExpression": "ざるを得ない",
+          "id": "fb-created-n2-107-05-a",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-05-b",
+          "text": "わけにはいかない",
+          "grammarId": "n2-170",
+          "baseExpression": "わけにはいかない",
+          "conjugatedExpression": "わけにはいかない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-05-c",
+          "text": "わりには",
+          "grammarId": "n2-171",
+          "baseExpression": "わりには",
+          "conjugatedExpression": "わりには",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '증상이 가볍든 심하든 관계없이 이상을 느끼면 의사와 상담해 주세요.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
       "sourceGrammarIds": [
         "n2-107",
-        "n2-046",
-        "n2-047",
-        "n2-048"
+        "n2-169",
+        "n2-170",
+        "n2-171"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-107-19",
+      "id": "fb-created-n2-107-06",
       "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlank": "年齢（　　　）、誰でも参加できます。",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
-      "answerChoiceId": "fb-extra20-n2-107-19-c",
+      "sentence": "契約が成立したかどうかにかかわらず、提出された個人情報は厳重に管理される。",
+      "sentenceWithBlank": "契約が成立したかどうか（　　　）、提出された個人情報は厳重に管理される。",
+      "korean": "계약 성립 여부와 관계없이 제출된 개인정보는 엄격하게 관리된다.",
+      "answerChoiceId": "fb-created-n2-107-06-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-107-19-c",
+          "id": "fb-created-n2-107-06-a",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-06-b",
+          "text": "わけにはいかない",
+          "grammarId": "n2-170",
+          "baseExpression": "わけにはいかない",
+          "conjugatedExpression": "わけにはいかない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-06-c",
+          "text": "わりには",
+          "grammarId": "n2-171",
+          "baseExpression": "わりには",
+          "conjugatedExpression": "わりには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-06-d",
+          "text": "にかかわらず",
+          "grammarId": "n2-107",
+          "baseExpression": "にかかわらず",
+          "conjugatedExpression": "にかかわらず",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '계약 성립 여부와 관계없이 제출된 개인정보는 엄격하게 관리된다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
+      "sourceGrammarIds": [
+        "n2-107",
+        "n2-169",
+        "n2-170",
+        "n2-171"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-107-07",
+      "level": "N2",
+      "sentence": "乗車距離にかかわらず、深夜は一律の割増料金が適用される。",
+      "sentenceWithBlank": "乗車距離（　　　）、深夜は一律の割増料金が適用される。",
+      "korean": "승차 거리와 관계없이 심야에는 일률적인 할증 요금이 적용된다.",
+      "answerChoiceId": "fb-created-n2-107-07-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-107-07-b",
+          "text": "わけにはいかない",
+          "grammarId": "n2-170",
+          "baseExpression": "わけにはいかない",
+          "conjugatedExpression": "わけにはいかない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-07-c",
+          "text": "わりには",
+          "grammarId": "n2-171",
+          "baseExpression": "わりには",
+          "conjugatedExpression": "わりには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-07-d",
           "text": "にかかわらず",
           "grammarId": "n2-107",
           "baseExpression": "にかかわらず",
@@ -1525,69 +617,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-107-19-d",
-          "text": "た上で",
-          "grammarId": "n2-005",
-          "baseExpression": "た上で",
-          "conjugatedExpression": "た上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-107-19-a",
-          "text": "上で",
-          "grammarId": "n2-006",
-          "baseExpression": "上で",
-          "conjugatedExpression": "上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-107-19-b",
-          "text": "する上は",
-          "grammarId": "n2-007",
-          "baseExpression": "上は",
-          "conjugatedExpression": "する上は",
+          "id": "fb-created-n2-107-07-a",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '승차 거리와 관계없이 심야에는 일률적인 할증 요금이 적용된다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
       "sourceGrammarIds": [
         "n2-107",
-        "n2-005",
-        "n2-006",
-        "n2-007"
+        "n2-169",
+        "n2-170",
+        "n2-171"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-107-20",
+      "id": "fb-created-n2-107-08",
       "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlank": "年齢（　　　）、誰でも参加できます。",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
-      "answerChoiceId": "fb-extra20-n2-107-20-d",
+      "sentence": "結果が成功か失敗かにかかわらず、研究記録はすべて保存しておくべきだ。",
+      "sentenceWithBlank": "結果が成功か失敗か（　　　）、研究記録はすべて保存しておくべきだ。",
+      "korean": "결과가 성공이든 실패든 관계없이 연구 기록은 모두 보존해 두어야 한다.",
+      "answerChoiceId": "fb-created-n2-107-08-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-107-20-b",
-          "text": "がたい",
-          "grammarId": "n2-017",
-          "baseExpression": "がたい",
-          "conjugatedExpression": "がたい",
+          "id": "fb-created-n2-107-08-c",
+          "text": "わりには",
+          "grammarId": "n2-171",
+          "baseExpression": "わりには",
+          "conjugatedExpression": "わりには",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-107-20-c",
-          "text": "がだけに",
-          "grammarId": "n2-018",
-          "baseExpression": "がだけに",
-          "conjugatedExpression": "がだけに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-107-20-d",
+          "id": "fb-created-n2-107-08-d",
           "text": "にかかわらず",
           "grammarId": "n2-107",
           "baseExpression": "にかかわらず",
@@ -1595,25 +662,933 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-107-20-a",
-          "text": "かける",
-          "grammarId": "n2-016",
-          "baseExpression": "かける",
-          "conjugatedExpression": "かける",
+          "id": "fb-created-n2-107-08-a",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-08-b",
+          "text": "わけにはいかない",
+          "grammarId": "n2-170",
+          "baseExpression": "わけにはいかない",
+          "conjugatedExpression": "わけにはいかない",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '결과가 성공이든 실패든 관계없이 연구 기록은 모두 보존해 두어야 한다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
       "sourceGrammarIds": [
         "n2-107",
-        "n2-016",
-        "n2-017",
-        "n2-018"
+        "n2-169",
+        "n2-170",
+        "n2-171"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-107-09",
+      "level": "N2",
+      "sentence": "座席の位置にかかわらず、この劇場では舞台全体を見渡せる。",
+      "sentenceWithBlank": "座席の位置（　　　）、この劇場では舞台全体を見渡せる。",
+      "korean": "좌석 위치와 관계없이 이 극장에서는 무대 전체를 바라볼 수 있다.",
+      "answerChoiceId": "fb-created-n2-107-09-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-107-09-d",
+          "text": "にかかわらず",
+          "grammarId": "n2-107",
+          "baseExpression": "にかかわらず",
+          "conjugatedExpression": "にかかわらず",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-107-09-a",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-09-b",
+          "text": "わけにはいかない",
+          "grammarId": "n2-170",
+          "baseExpression": "わけにはいかない",
+          "conjugatedExpression": "わけにはいかない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-09-c",
+          "text": "わりには",
+          "grammarId": "n2-171",
+          "baseExpression": "わりには",
+          "conjugatedExpression": "わりには",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '좌석 위치와 관계없이 이 극장에서는 무대 전체를 바라볼 수 있다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
+      "sourceGrammarIds": [
+        "n2-107",
+        "n2-169",
+        "n2-170",
+        "n2-171"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-107-10",
+      "level": "N2",
+      "sentence": "雇用形態にかかわらず、全従業員には健康診断を受ける権利がある。",
+      "sentenceWithBlank": "雇用形態（　　　）、全従業員には健康診断を受ける権利がある。",
+      "korean": "고용 형태와 관계없이 모든 종업원에게는 건강검진을 받을 권리가 있다.",
+      "answerChoiceId": "fb-created-n2-107-10-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-107-10-a",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-10-b",
+          "text": "わけにはいかない",
+          "grammarId": "n2-170",
+          "baseExpression": "わけにはいかない",
+          "conjugatedExpression": "わけにはいかない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-10-c",
+          "text": "わりには",
+          "grammarId": "n2-171",
+          "baseExpression": "わりには",
+          "conjugatedExpression": "わりには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-10-d",
+          "text": "にかかわらず",
+          "grammarId": "n2-107",
+          "baseExpression": "にかかわらず",
+          "conjugatedExpression": "にかかわらず",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '고용 형태와 관계없이 모든 종업원에게는 건강검진을 받을 권리가 있다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
+      "sourceGrammarIds": [
+        "n2-107",
+        "n2-169",
+        "n2-170",
+        "n2-171"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-107-11",
+      "level": "N2",
+      "sentence": "故意であったかどうかにかかわらず、設備を壊した事実は報告しなければならない。",
+      "sentenceWithBlank": "故意であったかどうか（　　　）、設備を壊した事実は報告しなければならない。",
+      "korean": "고의였는지 여부와 관계없이 설비를 파손한 사실은 보고해야 한다.",
+      "answerChoiceId": "fb-created-n2-107-11-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-107-11-b",
+          "text": "わけにはいかない",
+          "grammarId": "n2-170",
+          "baseExpression": "わけにはいかない",
+          "conjugatedExpression": "わけにはいかない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-11-c",
+          "text": "わりには",
+          "grammarId": "n2-171",
+          "baseExpression": "わりには",
+          "conjugatedExpression": "わりには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-11-d",
+          "text": "にかかわらず",
+          "grammarId": "n2-107",
+          "baseExpression": "にかかわらず",
+          "conjugatedExpression": "にかかわらず",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-107-11-a",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '고의였는지 여부와 관계없이 설비를 파손한 사실은 보고해야 한다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
+      "sourceGrammarIds": [
+        "n2-107",
+        "n2-169",
+        "n2-170",
+        "n2-171"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-107-12",
+      "level": "N2",
+      "sentence": "収入にかかわらず、地域の子どもは無料で食堂を利用できる。",
+      "sentenceWithBlank": "収入（　　　）、地域の子どもは無料で食堂を利用できる。",
+      "korean": "소득과 관계없이 지역 어린이는 무료로 식당을 이용할 수 있다.",
+      "answerChoiceId": "fb-created-n2-107-12-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-107-12-c",
+          "text": "わりには",
+          "grammarId": "n2-171",
+          "baseExpression": "わりには",
+          "conjugatedExpression": "わりには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-12-d",
+          "text": "にかかわらず",
+          "grammarId": "n2-107",
+          "baseExpression": "にかかわらず",
+          "conjugatedExpression": "にかかわらず",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-107-12-a",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-12-b",
+          "text": "わけにはいかない",
+          "grammarId": "n2-170",
+          "baseExpression": "わけにはいかない",
+          "conjugatedExpression": "わけにはいかない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '소득과 관계없이 지역 어린이는 무료로 식당을 이용할 수 있다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
+      "sourceGrammarIds": [
+        "n2-107",
+        "n2-169",
+        "n2-170",
+        "n2-171"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-107-13",
+      "level": "N2",
+      "sentence": "市場価格にかかわらず、漁師たちは毎朝決まった量を直売所へ届ける。",
+      "sentenceWithBlank": "市場価格（　　　）、漁師たちは毎朝決まった量を直売所へ届ける。",
+      "korean": "시장 가격과 관계없이 어부들은 매일 아침 정해진 양을 직판장에 배달한다.",
+      "answerChoiceId": "fb-created-n2-107-13-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-107-13-d",
+          "text": "にかかわらず",
+          "grammarId": "n2-107",
+          "baseExpression": "にかかわらず",
+          "conjugatedExpression": "にかかわらず",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-107-13-a",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-13-b",
+          "text": "わけにはいかない",
+          "grammarId": "n2-170",
+          "baseExpression": "わけにはいかない",
+          "conjugatedExpression": "わけにはいかない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-13-c",
+          "text": "わりには",
+          "grammarId": "n2-171",
+          "baseExpression": "わりには",
+          "conjugatedExpression": "わりには",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '시장 가격과 관계없이 어부들은 매일 아침 정해진 양을 직판장에 배달한다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
+      "sourceGrammarIds": [
+        "n2-107",
+        "n2-169",
+        "n2-170",
+        "n2-171"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-107-14",
+      "level": "N2",
+      "sentence": "端末の種類にかかわらず、この決済サービスには同じ手数料が設定されている。",
+      "sentenceWithBlank": "端末の種類（　　　）、この決済サービスには同じ手数料が設定されている。",
+      "korean": "단말기 종류와 관계없이 이 결제 서비스에는 동일한 수수료가 설정되어 있다.",
+      "answerChoiceId": "fb-created-n2-107-14-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-107-14-a",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-14-b",
+          "text": "わけにはいかない",
+          "grammarId": "n2-170",
+          "baseExpression": "わけにはいかない",
+          "conjugatedExpression": "わけにはいかない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-14-c",
+          "text": "わりには",
+          "grammarId": "n2-171",
+          "baseExpression": "わりには",
+          "conjugatedExpression": "わりには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-14-d",
+          "text": "にかかわらず",
+          "grammarId": "n2-107",
+          "baseExpression": "にかかわらず",
+          "conjugatedExpression": "にかかわらず",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '단말기 종류와 관계없이 이 결제 서비스에는 동일한 수수료가 설정되어 있다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
+      "sourceGrammarIds": [
+        "n2-107",
+        "n2-169",
+        "n2-170",
+        "n2-171"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-107-15",
+      "level": "N2",
+      "sentence": "賛成か反対かにかかわらず、住民は再開発案について意見を提出できる。",
+      "sentenceWithBlank": "賛成か反対か（　　　）、住民は再開発案について意見を提出できる。",
+      "korean": "찬성이든 반대든 관계없이 주민은 재개발안에 대한 의견을 제출할 수 있다.",
+      "answerChoiceId": "fb-created-n2-107-15-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-107-15-b",
+          "text": "わけにはいかない",
+          "grammarId": "n2-170",
+          "baseExpression": "わけにはいかない",
+          "conjugatedExpression": "わけにはいかない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-15-c",
+          "text": "わりには",
+          "grammarId": "n2-171",
+          "baseExpression": "わりには",
+          "conjugatedExpression": "わりには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-15-d",
+          "text": "にかかわらず",
+          "grammarId": "n2-107",
+          "baseExpression": "にかかわらず",
+          "conjugatedExpression": "にかかわらず",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-107-15-a",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '찬성이든 반대든 관계없이 주민은 재개발안에 대한 의견을 제출할 수 있다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
+      "sourceGrammarIds": [
+        "n2-107",
+        "n2-169",
+        "n2-170",
+        "n2-171"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-107-16",
+      "level": "N2",
+      "sentence": "荷物の大きさにかかわらず、貴重品をロッカーに放置してはいけない。",
+      "sentenceWithBlank": "荷物の大きさ（　　　）、貴重品をロッカーに放置してはいけない。",
+      "korean": "짐의 크기와 관계없이 귀중품을 보관함에 방치해서는 안 된다.",
+      "answerChoiceId": "fb-created-n2-107-16-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-107-16-c",
+          "text": "わりには",
+          "grammarId": "n2-171",
+          "baseExpression": "わりには",
+          "conjugatedExpression": "わりには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-16-d",
+          "text": "にかかわらず",
+          "grammarId": "n2-107",
+          "baseExpression": "にかかわらず",
+          "conjugatedExpression": "にかかわらず",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-107-16-a",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-16-b",
+          "text": "わけにはいかない",
+          "grammarId": "n2-170",
+          "baseExpression": "わけにはいかない",
+          "conjugatedExpression": "わけにはいかない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '짐의 크기와 관계없이 귀중품을 보관함에 방치해서는 안 된다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
+      "sourceGrammarIds": [
+        "n2-107",
+        "n2-169",
+        "n2-170",
+        "n2-171"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-107-17",
+      "level": "N2",
+      "sentence": "過去の成績にかかわらず、監督は今季の状態を見て先発選手を決める。",
+      "sentenceWithBlank": "過去の成績（　　　）、監督は今季の状態を見て先発選手を決める。",
+      "korean": "과거 성적과 관계없이 감독은 이번 시즌의 상태를 보고 선발 선수를 정한다.",
+      "answerChoiceId": "fb-created-n2-107-17-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-107-17-d",
+          "text": "にかかわらず",
+          "grammarId": "n2-107",
+          "baseExpression": "にかかわらず",
+          "conjugatedExpression": "にかかわらず",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-107-17-a",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-17-b",
+          "text": "わけにはいかない",
+          "grammarId": "n2-170",
+          "baseExpression": "わけにはいかない",
+          "conjugatedExpression": "わけにはいかない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-17-c",
+          "text": "わりには",
+          "grammarId": "n2-171",
+          "baseExpression": "わりには",
+          "conjugatedExpression": "わりには",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '과거 성적과 관계없이 감독은 이번 시즌의 상태를 보고 선발 선수를 정한다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
+      "sourceGrammarIds": [
+        "n2-107",
+        "n2-169",
+        "n2-170",
+        "n2-171"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-107-18",
+      "level": "N2",
+      "sentence": "婚姻関係にかかわらず、同居して介護した人には申請資格が認められる。",
+      "sentenceWithBlank": "婚姻関係（　　　）、同居して介護した人には申請資格が認められる。",
+      "korean": "혼인 관계와 관계없이 동거하며 간병한 사람에게는 신청 자격이 인정된다.",
+      "answerChoiceId": "fb-created-n2-107-18-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-107-18-a",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-18-b",
+          "text": "わけにはいかない",
+          "grammarId": "n2-170",
+          "baseExpression": "わけにはいかない",
+          "conjugatedExpression": "わけにはいかない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-18-c",
+          "text": "わりには",
+          "grammarId": "n2-171",
+          "baseExpression": "わりには",
+          "conjugatedExpression": "わりには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-18-d",
+          "text": "にかかわらず",
+          "grammarId": "n2-107",
+          "baseExpression": "にかかわらず",
+          "conjugatedExpression": "にかかわらず",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '혼인 관계와 관계없이 동거하며 간병한 사람에게는 신청 자격이 인정된다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
+      "sourceGrammarIds": [
+        "n2-107",
+        "n2-169",
+        "n2-170",
+        "n2-171"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-107-19",
+      "level": "N2",
+      "sentence": "客が来るか来ないかにかかわらず、店主は毎晩入口の花を生け替える。",
+      "sentenceWithBlank": "客が来るか来ないか（　　　）、店主は毎晩入口の花を生け替える。",
+      "korean": "손님이 오든 오지 않든 관계없이 가게 주인은 매일 밤 입구의 꽃을 새로 꽂는다.",
+      "answerChoiceId": "fb-created-n2-107-19-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-107-19-b",
+          "text": "わけにはいかない",
+          "grammarId": "n2-170",
+          "baseExpression": "わけにはいかない",
+          "conjugatedExpression": "わけにはいかない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-19-c",
+          "text": "わりには",
+          "grammarId": "n2-171",
+          "baseExpression": "わりには",
+          "conjugatedExpression": "わりには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-19-d",
+          "text": "にかかわらず",
+          "grammarId": "n2-107",
+          "baseExpression": "にかかわらず",
+          "conjugatedExpression": "にかかわらず",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-107-19-a",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '손님이 오든 오지 않든 관계없이 가게 주인은 매일 밤 입구의 꽃을 새로 꽂는다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
+      "sourceGrammarIds": [
+        "n2-107",
+        "n2-169",
+        "n2-170",
+        "n2-171"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-107-20",
+      "level": "N2",
+      "sentence": "作物の収穫量にかかわらず、農家は借りた機械の代金を月末までに払う必要がある。",
+      "sentenceWithBlank": "作物の収穫量（　　　）、農家は借りた機械の代金を月末までに払う必要がある。",
+      "korean": "작물 수확량과 관계없이 농가는 빌린 기계 대금을 월말까지 지급해야 한다.",
+      "answerChoiceId": "fb-created-n2-107-20-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-107-20-c",
+          "text": "わりには",
+          "grammarId": "n2-171",
+          "baseExpression": "わりには",
+          "conjugatedExpression": "わりには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-20-d",
+          "text": "にかかわらず",
+          "grammarId": "n2-107",
+          "baseExpression": "にかかわらず",
+          "conjugatedExpression": "にかかわらず",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-107-20-a",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-20-b",
+          "text": "わけにはいかない",
+          "grammarId": "n2-170",
+          "baseExpression": "わけにはいかない",
+          "conjugatedExpression": "わけにはいかない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '작물 수확량과 관계없이 농가는 빌린 기계 대금을 월말까지 지급해야 한다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
+      "sourceGrammarIds": [
+        "n2-107",
+        "n2-169",
+        "n2-170",
+        "n2-171"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-107-21",
+      "level": "N2",
+      "sentence": "本人に責任があるか否かにかかわらず、事故後は所定の窓口へ連絡することになっている。",
+      "sentenceWithBlank": "本人に責任があるか否か（　　　）、事故後は所定の窓口へ連絡することになっている。",
+      "korean": "본인에게 책임이 있는지 없는지와 관계없이 사고 후에는 지정된 창구로 연락하게 되어 있다.",
+      "answerChoiceId": "fb-created-n2-107-21-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-107-21-d",
+          "text": "にかかわらず",
+          "grammarId": "n2-107",
+          "baseExpression": "にかかわらず",
+          "conjugatedExpression": "にかかわらず",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-107-21-a",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-21-b",
+          "text": "わけにはいかない",
+          "grammarId": "n2-170",
+          "baseExpression": "わけにはいかない",
+          "conjugatedExpression": "わけにはいかない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-21-c",
+          "text": "わりには",
+          "grammarId": "n2-171",
+          "baseExpression": "わりには",
+          "conjugatedExpression": "わりには",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '본인에게 책임이 있는지 없는지와 관계없이 사고 후에는 지정된 창구로 연락하게 되어 있다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
+      "sourceGrammarIds": [
+        "n2-107",
+        "n2-169",
+        "n2-170",
+        "n2-171"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-107-22",
+      "level": "N2",
+      "sentence": "滞在期間にかかわらず、入国時にはこの申告書の提出を求められる。",
+      "sentenceWithBlank": "滞在期間（　　　）、入国時にはこの申告書の提出を求められる。",
+      "korean": "체류 기간과 관계없이 입국 시에는 이 신고서 제출을 요구받는다.",
+      "answerChoiceId": "fb-created-n2-107-22-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-107-22-a",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-22-b",
+          "text": "わけにはいかない",
+          "grammarId": "n2-170",
+          "baseExpression": "わけにはいかない",
+          "conjugatedExpression": "わけにはいかない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-22-c",
+          "text": "わりには",
+          "grammarId": "n2-171",
+          "baseExpression": "わりには",
+          "conjugatedExpression": "わりには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-22-d",
+          "text": "にかかわらず",
+          "grammarId": "n2-107",
+          "baseExpression": "にかかわらず",
+          "conjugatedExpression": "にかかわらず",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '체류 기간과 관계없이 입국 시에는 이 신고서 제출을 요구받는다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
+      "sourceGrammarIds": [
+        "n2-107",
+        "n2-169",
+        "n2-170",
+        "n2-171"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-107-23",
+      "level": "N2",
+      "sentence": "知名度にかかわらず、審査員は作品の完成度だけを基準に受賞者を選んだ。",
+      "sentenceWithBlank": "知名度（　　　）、審査員は作品の完成度だけを基準に受賞者を選んだ。",
+      "korean": "인지도와 관계없이 심사위원은 작품의 완성도만을 기준으로 수상자를 선정했다.",
+      "answerChoiceId": "fb-created-n2-107-23-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-107-23-b",
+          "text": "わけにはいかない",
+          "grammarId": "n2-170",
+          "baseExpression": "わけにはいかない",
+          "conjugatedExpression": "わけにはいかない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-23-c",
+          "text": "わりには",
+          "grammarId": "n2-171",
+          "baseExpression": "わりには",
+          "conjugatedExpression": "わりには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-23-d",
+          "text": "にかかわらず",
+          "grammarId": "n2-107",
+          "baseExpression": "にかかわらず",
+          "conjugatedExpression": "にかかわらず",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-107-23-a",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '인지도와 관계없이 심사위원은 작품의 완성도만을 기준으로 수상자를 선정했다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
+      "sourceGrammarIds": [
+        "n2-107",
+        "n2-169",
+        "n2-170",
+        "n2-171"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-107-24",
+      "level": "N2",
+      "sentence": "電話がつながるかどうかにかかわらず、緊急時には現場へ向かうよう指示された。",
+      "sentenceWithBlank": "電話がつながるかどうか（　　　）、緊急時には現場へ向かうよう指示された。",
+      "korean": "전화 연결 여부와 관계없이 긴급 시에는 현장으로 가라는 지시를 받았다.",
+      "answerChoiceId": "fb-created-n2-107-24-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-107-24-c",
+          "text": "わりには",
+          "grammarId": "n2-171",
+          "baseExpression": "わりには",
+          "conjugatedExpression": "わりには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-24-d",
+          "text": "にかかわらず",
+          "grammarId": "n2-107",
+          "baseExpression": "にかかわらず",
+          "conjugatedExpression": "にかかわらず",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-107-24-a",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-24-b",
+          "text": "わけにはいかない",
+          "grammarId": "n2-170",
+          "baseExpression": "わけにはいかない",
+          "conjugatedExpression": "わけにはいかない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '전화 연결 여부와 관계없이 긴급 시에는 현장으로 가라는 지시를 받았다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
+      "sourceGrammarIds": [
+        "n2-107",
+        "n2-169",
+        "n2-170",
+        "n2-171"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-107-25",
+      "level": "N2",
+      "sentence": "傷の深さにかかわらず、使用済みの刃物に触れた場合は感染検査が必要だ。",
+      "sentenceWithBlank": "傷の深さ（　　　）、使用済みの刃物に触れた場合は感染検査が必要だ。",
+      "korean": "상처의 깊이와 관계없이 사용한 칼날에 닿은 경우에는 감염 검사가 필요하다.",
+      "answerChoiceId": "fb-created-n2-107-25-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-107-25-d",
+          "text": "にかかわらず",
+          "grammarId": "n2-107",
+          "baseExpression": "にかかわらず",
+          "conjugatedExpression": "にかかわらず",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-107-25-a",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-25-b",
+          "text": "わけにはいかない",
+          "grammarId": "n2-170",
+          "baseExpression": "わけにはいかない",
+          "conjugatedExpression": "わけにはいかない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-107-25-c",
+          "text": "わりには",
+          "grammarId": "n2-171",
+          "baseExpression": "わりには",
+          "conjugatedExpression": "わりには",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '상처의 깊이와 관계없이 사용한 칼날에 닿은 경우에는 감염 검사가 필요하다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
+      "sourceGrammarIds": [
+        "n2-107",
+        "n2-169",
+        "n2-170",
+        "n2-171"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
       ]
     }
   ],
@@ -1834,1103 +1809,1153 @@
       ]
     },
     {
-      "id": "so-extra-n2-107-1",
+      "id": "so-created-n2-107-01",
       "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlanks": "年齢 ____ ____ ____ ____",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
+      "sentence": "天候にかかわらず、救助隊は予定どおり捜索を続ける。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "날씨와 관계없이 구조대는 예정대로 수색을 계속한다.",
       "pieces": [
         {
-          "id": "so-extra-n2-107-1-p2",
-          "text": "参加できます",
+          "id": "so-created-n2-107-01-p4",
+          "text": "捜索を続ける。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-107-1-p3",
-          "text": "にかかわらず",
+          "id": "so-created-n2-107-01-p1",
+          "text": "天候にかかわらず、",
           "order": 1
         },
         {
-          "id": "so-extra-n2-107-1-p4",
-          "text": "誰で",
+          "id": "so-created-n2-107-01-p2",
+          "text": "救助隊は",
           "order": 2
         },
         {
-          "id": "so-extra-n2-107-1-p1",
-          "text": "も",
+          "id": "so-created-n2-107-01-p3",
+          "text": "予定どおり",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-107-1-p3",
-        "so-extra-n2-107-1-p4",
-        "so-extra-n2-107-1-p1",
-        "so-extra-n2-107-1-p2"
+        "so-created-n2-107-01-p1",
+        "so-created-n2-107-01-p2",
+        "so-created-n2-107-01-p3",
+        "so-created-n2-107-01-p4"
       ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '날씨와 관계없이 구조대는 예정대로 수색을 계속한다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
       "sourceGrammarIds": [
-        "n2-107"
+        "n2-107",
+        "n2-169",
+        "n2-170",
+        "n2-171"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-107-2",
+      "id": "so-created-n2-107-02",
       "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlanks": "年齢 ____ ____ ____ ____",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
+      "sentence": "経験の有無にかかわらず、この工房では職人を募集している。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "경험 유무와 관계없이 이 공방에서는 장인을 모집하고 있다.",
       "pieces": [
         {
-          "id": "so-extra-n2-107-2-p3",
-          "text": "参加できます",
+          "id": "so-created-n2-107-02-p3",
+          "text": "この工房では職人を",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-107-02-p4",
+          "text": "募集している。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-107-2-p4",
-          "text": "にかかわらず",
+          "id": "so-created-n2-107-02-p1",
+          "text": "経験の有無",
           "order": 1
         },
         {
-          "id": "so-extra-n2-107-2-p1",
-          "text": "誰で",
+          "id": "so-created-n2-107-02-p2",
+          "text": "にかかわらず、",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-107-2-p2",
-          "text": "も",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-107-2-p4",
-        "so-extra-n2-107-2-p1",
-        "so-extra-n2-107-2-p2",
-        "so-extra-n2-107-2-p3"
+        "so-created-n2-107-02-p1",
+        "so-created-n2-107-02-p2",
+        "so-created-n2-107-02-p3",
+        "so-created-n2-107-02-p4"
       ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '경험 유무와 관계없이 이 공방에서는 장인을 모집하고 있다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
       "sourceGrammarIds": [
-        "n2-107"
+        "n2-107",
+        "n2-169",
+        "n2-170",
+        "n2-171"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-107-3",
+      "id": "so-created-n2-107-03",
       "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、誰でも参加できます。",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
+      "sentence": "国籍にかかわらず、条件を満たす住民には補助金が支給される。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "국적과 관계없이 조건을 충족하는 주민에게는 보조금이 지급된다.",
       "pieces": [
         {
-          "id": "so-extra-n2-107-3-p4",
-          "text": "も",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-107-3-p1",
-          "text": "齢",
-          "order": 1
-        },
-        {
-          "id": "so-extra-n2-107-3-p2",
-          "text": "にかかわらず",
+          "id": "so-created-n2-107-03-p2",
+          "text": "条件を満たす",
           "order": 2
         },
         {
-          "id": "so-extra-n2-107-3-p3",
-          "text": "誰で",
+          "id": "so-created-n2-107-03-p3",
+          "text": "住民には補助金が",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-107-03-p4",
+          "text": "支給される。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-107-03-p1",
+          "text": "国籍にかかわらず、",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-107-3-p1",
-        "so-extra-n2-107-3-p2",
-        "so-extra-n2-107-3-p3",
-        "so-extra-n2-107-3-p4"
+        "so-created-n2-107-03-p1",
+        "so-created-n2-107-03-p2",
+        "so-created-n2-107-03-p3",
+        "so-created-n2-107-03-p4"
       ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '국적과 관계없이 조건을 충족하는 주민에게는 보조금이 지급된다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
       "sourceGrammarIds": [
-        "n2-107"
+        "n2-107",
+        "n2-169",
+        "n2-170",
+        "n2-171"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-107-4",
+      "id": "so-created-n2-107-04",
       "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlanks": "年齢 ____ ____ ____ ____",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
+      "sentence": "注文金額にかかわらず、離島への配送には追加料金がかかる。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "주문 금액과 관계없이 외딴섬 배송에는 추가 요금이 든다.",
       "pieces": [
         {
-          "id": "so-extra-n2-107-4-p1",
-          "text": "参加できます",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-107-4-p2",
-          "text": "にかかわらず",
+          "id": "so-created-n2-107-04-p1",
+          "text": "注文金額",
           "order": 1
         },
         {
-          "id": "so-extra-n2-107-4-p3",
-          "text": "誰で",
+          "id": "so-created-n2-107-04-p2",
+          "text": "にかかわらず、",
           "order": 2
         },
         {
-          "id": "so-extra-n2-107-4-p4",
-          "text": "も",
+          "id": "so-created-n2-107-04-p3",
+          "text": "離島への配送には",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-107-04-p4",
+          "text": "追加料金がかかる。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-107-4-p2",
-        "so-extra-n2-107-4-p3",
-        "so-extra-n2-107-4-p4",
-        "so-extra-n2-107-4-p1"
+        "so-created-n2-107-04-p1",
+        "so-created-n2-107-04-p2",
+        "so-created-n2-107-04-p3",
+        "so-created-n2-107-04-p4"
       ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '주문 금액과 관계없이 외딴섬 배송에는 추가 요금이 든다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
       "sourceGrammarIds": [
-        "n2-107"
+        "n2-107",
+        "n2-169",
+        "n2-170",
+        "n2-171"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-107-5",
+      "id": "so-created-n2-107-05",
       "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlanks": "年齢 ____ ____ ____ ____",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
+      "sentence": "症状が軽いか重いかにかかわらず、異変を感じたら医師に相談してください。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 相談してください。",
+      "korean": "증상이 가볍든 심하든 관계없이 이상을 느끼면 의사와 상담해 주세요.",
       "pieces": [
         {
-          "id": "so-extra-n2-107-5-p2",
-          "text": "参加できます",
+          "id": "so-created-n2-107-05-p4",
+          "text": "感じたら医師に",
           "order": 4
         },
         {
-          "id": "so-extra-n2-107-5-p3",
-          "text": "にかかわらず",
+          "id": "so-created-n2-107-05-p1",
+          "text": "症状が軽いか重いか",
           "order": 1
         },
         {
-          "id": "so-extra-n2-107-5-p4",
-          "text": "誰で",
+          "id": "so-created-n2-107-05-p2",
+          "text": "にかかわらず、",
           "order": 2
         },
         {
-          "id": "so-extra-n2-107-5-p1",
-          "text": "も",
+          "id": "so-created-n2-107-05-p3",
+          "text": "異変を",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-107-5-p3",
-        "so-extra-n2-107-5-p4",
-        "so-extra-n2-107-5-p1",
-        "so-extra-n2-107-5-p2"
+        "so-created-n2-107-05-p1",
+        "so-created-n2-107-05-p2",
+        "so-created-n2-107-05-p3",
+        "so-created-n2-107-05-p4"
       ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '증상이 가볍든 심하든 관계없이 이상을 느끼면 의사와 상담해 주세요.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
       "sourceGrammarIds": [
-        "n2-107"
+        "n2-107",
+        "n2-169",
+        "n2-170",
+        "n2-171"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-107-01",
+      "id": "so-created-n2-107-06",
       "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlanks": "年齢 ____ ____ ____ ____",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
+      "sentence": "契約が成立したかどうかにかかわらず、提出された個人情報は厳重に管理される。",
+      "sentenceWithBlanks": "契約が成立したかどうか ____ ____ ____ ____",
+      "korean": "계약 성립 여부와 관계없이 제출된 개인정보는 엄격하게 관리된다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-107-01-p2",
-          "text": "参加できます",
+          "id": "so-created-n2-107-06-p3",
+          "text": "情報は厳重に",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-107-06-p4",
+          "text": "管理される。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-107-01-p3",
-          "text": "にかかわらず",
+          "id": "so-created-n2-107-06-p1",
+          "text": "にかかわらず、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-107-01-p4",
-          "text": "誰で",
+          "id": "so-created-n2-107-06-p2",
+          "text": "提出された個人",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-107-01-p1",
-          "text": "も",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-107-01-p3",
-        "so-extra20-n2-107-01-p4",
-        "so-extra20-n2-107-01-p1",
-        "so-extra20-n2-107-01-p2"
+        "so-created-n2-107-06-p1",
+        "so-created-n2-107-06-p2",
+        "so-created-n2-107-06-p3",
+        "so-created-n2-107-06-p4"
       ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '계약 성립 여부와 관계없이 제출된 개인정보는 엄격하게 관리된다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
       "sourceGrammarIds": [
-        "n2-107"
+        "n2-107",
+        "n2-169",
+        "n2-170",
+        "n2-171"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-107-02",
+      "id": "so-created-n2-107-07",
       "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlanks": "年齢 ____ ____ ____ ____",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
+      "sentence": "乗車距離にかかわらず、深夜は一律の割増料金が適用される。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 適用される。",
+      "korean": "승차 거리와 관계없이 심야에는 일률적인 할증 요금이 적용된다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-107-02-p1",
-          "text": "誰で",
+          "id": "so-created-n2-107-07-p2",
+          "text": "にかかわらず、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-107-02-p2",
-          "text": "も",
+          "id": "so-created-n2-107-07-p3",
+          "text": "深夜は一律の",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-107-02-p3",
-          "text": "参加できます",
+          "id": "so-created-n2-107-07-p4",
+          "text": "割増料金が",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-107-02-p4",
-          "text": "にかかわらず",
+          "id": "so-created-n2-107-07-p1",
+          "text": "乗車距離",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-107-02-p4",
-        "so-extra20-n2-107-02-p1",
-        "so-extra20-n2-107-02-p2",
-        "so-extra20-n2-107-02-p3"
+        "so-created-n2-107-07-p1",
+        "so-created-n2-107-07-p2",
+        "so-created-n2-107-07-p3",
+        "so-created-n2-107-07-p4"
       ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '승차 거리와 관계없이 심야에는 일률적인 할증 요금이 적용된다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
       "sourceGrammarIds": [
-        "n2-107"
+        "n2-107",
+        "n2-169",
+        "n2-170",
+        "n2-171"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-107-03",
+      "id": "so-created-n2-107-08",
       "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、誰でも参加できます。",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
+      "sentence": "結果が成功か失敗かにかかわらず、研究記録はすべて保存しておくべきだ。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 保存しておくべきだ。",
+      "korean": "결과가 성공이든 실패든 관계없이 연구 기록은 모두 보존해 두어야 한다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-107-03-p4",
-          "text": "も",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-107-03-p1",
-          "text": "齢",
+          "id": "so-created-n2-107-08-p1",
+          "text": "結果が",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-107-03-p2",
-          "text": "にかかわらず",
+          "id": "so-created-n2-107-08-p2",
+          "text": "成功か失敗か",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-107-03-p3",
-          "text": "誰で",
+          "id": "so-created-n2-107-08-p3",
+          "text": "にかかわらず、",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-107-08-p4",
+          "text": "研究記録はすべて",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-107-03-p1",
-        "so-extra20-n2-107-03-p2",
-        "so-extra20-n2-107-03-p3",
-        "so-extra20-n2-107-03-p4"
+        "so-created-n2-107-08-p1",
+        "so-created-n2-107-08-p2",
+        "so-created-n2-107-08-p3",
+        "so-created-n2-107-08-p4"
       ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '결과가 성공이든 실패든 관계없이 연구 기록은 모두 보존해 두어야 한다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
       "sourceGrammarIds": [
-        "n2-107"
+        "n2-107",
+        "n2-169",
+        "n2-170",
+        "n2-171"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-107-04",
+      "id": "so-created-n2-107-09",
       "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlanks": "年齢 ____ ____ ____ ____",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
+      "sentence": "座席の位置にかかわらず、この劇場では舞台全体を見渡せる。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 見渡せる。",
+      "korean": "좌석 위치와 관계없이 이 극장에서는 무대 전체를 바라볼 수 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-107-04-p3",
-          "text": "誰で",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-107-04-p4",
-          "text": "も",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-107-04-p1",
-          "text": "参加できます",
+          "id": "so-created-n2-107-09-p4",
+          "text": "舞台全体を",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-107-04-p2",
-          "text": "にかかわらず",
+          "id": "so-created-n2-107-09-p1",
+          "text": "座席の位置",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-107-09-p2",
+          "text": "にかかわらず、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-107-09-p3",
+          "text": "この劇場では",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-107-04-p2",
-        "so-extra20-n2-107-04-p3",
-        "so-extra20-n2-107-04-p4",
-        "so-extra20-n2-107-04-p1"
+        "so-created-n2-107-09-p1",
+        "so-created-n2-107-09-p2",
+        "so-created-n2-107-09-p3",
+        "so-created-n2-107-09-p4"
       ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '좌석 위치와 관계없이 이 극장에서는 무대 전체를 바라볼 수 있다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
       "sourceGrammarIds": [
-        "n2-107"
+        "n2-107",
+        "n2-169",
+        "n2-170",
+        "n2-171"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-107-05",
+      "id": "so-created-n2-107-10",
       "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlanks": "年齢 ____ ____ ____ ____",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
+      "sentence": "雇用形態にかかわらず、全従業員には健康診断を受ける権利がある。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 受ける権利がある。",
+      "korean": "고용 형태와 관계없이 모든 종업원에게는 건강검진을 받을 권리가 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-107-05-p2",
-          "text": "参加できます",
+          "id": "so-created-n2-107-10-p3",
+          "text": "全従業員には",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-107-10-p4",
+          "text": "健康診断を",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-107-05-p3",
-          "text": "にかかわらず",
+          "id": "so-created-n2-107-10-p1",
+          "text": "雇用形態",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-107-05-p4",
-          "text": "誰で",
+          "id": "so-created-n2-107-10-p2",
+          "text": "にかかわらず、",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-107-05-p1",
-          "text": "も",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-107-05-p3",
-        "so-extra20-n2-107-05-p4",
-        "so-extra20-n2-107-05-p1",
-        "so-extra20-n2-107-05-p2"
+        "so-created-n2-107-10-p1",
+        "so-created-n2-107-10-p2",
+        "so-created-n2-107-10-p3",
+        "so-created-n2-107-10-p4"
       ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '고용 형태와 관계없이 모든 종업원에게는 건강검진을 받을 권리가 있다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
       "sourceGrammarIds": [
-        "n2-107"
+        "n2-107",
+        "n2-169",
+        "n2-170",
+        "n2-171"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-107-06",
+      "id": "so-created-n2-107-11",
       "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlanks": "年齢 ____ ____ ____ ____",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
+      "sentence": "故意であったかどうかにかかわらず、設備を壊した事実は報告しなければならない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 報告しなければならない。",
+      "korean": "고의였는지 여부와 관계없이 설비를 파손한 사실은 보고해야 한다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-107-06-p1",
-          "text": "も",
+          "id": "so-created-n2-107-11-p2",
+          "text": "にかかわらず、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-107-11-p3",
+          "text": "設備を",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-107-06-p2",
-          "text": "参加できます",
+          "id": "so-created-n2-107-11-p4",
+          "text": "壊した事実は",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-107-06-p3",
-          "text": "にかかわらず",
+          "id": "so-created-n2-107-11-p1",
+          "text": "故意であったかどうか",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-107-06-p4",
-          "text": "誰で",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-107-06-p3",
-        "so-extra20-n2-107-06-p4",
-        "so-extra20-n2-107-06-p1",
-        "so-extra20-n2-107-06-p2"
+        "so-created-n2-107-11-p1",
+        "so-created-n2-107-11-p2",
+        "so-created-n2-107-11-p3",
+        "so-created-n2-107-11-p4"
       ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '고의였는지 여부와 관계없이 설비를 파손한 사실은 보고해야 한다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
       "sourceGrammarIds": [
-        "n2-107"
+        "n2-107",
+        "n2-169",
+        "n2-170",
+        "n2-171"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-107-07",
+      "id": "so-created-n2-107-12",
       "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlanks": "年齢 ____ ____ ____ ____",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
+      "sentence": "収入にかかわらず、地域の子どもは無料で食堂を利用できる。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "소득과 관계없이 지역 어린이는 무료로 식당을 이용할 수 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-107-07-p4",
-          "text": "にかかわらず",
+          "id": "so-created-n2-107-12-p1",
+          "text": "収入にかかわらず、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-107-07-p1",
-          "text": "誰で",
+          "id": "so-created-n2-107-12-p2",
+          "text": "地域の子どもは",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-107-07-p2",
-          "text": "も",
+          "id": "so-created-n2-107-12-p3",
+          "text": "無料で食堂を",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-107-07-p3",
-          "text": "参加できます",
+          "id": "so-created-n2-107-12-p4",
+          "text": "利用できる。",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-107-07-p4",
-        "so-extra20-n2-107-07-p1",
-        "so-extra20-n2-107-07-p2",
-        "so-extra20-n2-107-07-p3"
+        "so-created-n2-107-12-p1",
+        "so-created-n2-107-12-p2",
+        "so-created-n2-107-12-p3",
+        "so-created-n2-107-12-p4"
       ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '소득과 관계없이 지역 어린이는 무료로 식당을 이용할 수 있다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
       "sourceGrammarIds": [
-        "n2-107"
+        "n2-107",
+        "n2-169",
+        "n2-170",
+        "n2-171"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-107-08",
+      "id": "so-created-n2-107-13",
       "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、誰でも参加できます。",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
+      "sentence": "市場価格にかかわらず、漁師たちは毎朝決まった量を直売所へ届ける。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 直売所へ届ける。",
+      "korean": "시장 가격과 관계없이 어부들은 매일 아침 정해진 양을 직판장에 배달한다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-107-08-p3",
-          "text": "誰で",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-107-08-p4",
-          "text": "も",
+          "id": "so-created-n2-107-13-p4",
+          "text": "決まった量を",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-107-08-p1",
-          "text": "齢",
+          "id": "so-created-n2-107-13-p1",
+          "text": "市場価格",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-107-08-p2",
-          "text": "にかかわらず",
+          "id": "so-created-n2-107-13-p2",
+          "text": "にかかわらず、",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-107-13-p3",
+          "text": "漁師たちは毎朝",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-107-08-p1",
-        "so-extra20-n2-107-08-p2",
-        "so-extra20-n2-107-08-p3",
-        "so-extra20-n2-107-08-p4"
+        "so-created-n2-107-13-p1",
+        "so-created-n2-107-13-p2",
+        "so-created-n2-107-13-p3",
+        "so-created-n2-107-13-p4"
       ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '시장 가격과 관계없이 어부들은 매일 아침 정해진 양을 직판장에 배달한다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
       "sourceGrammarIds": [
-        "n2-107"
+        "n2-107",
+        "n2-169",
+        "n2-170",
+        "n2-171"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-107-09",
+      "id": "so-created-n2-107-14",
       "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlanks": "年齢 ____ ____ ____ ____",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
+      "sentence": "端末の種類にかかわらず、この決済サービスには同じ手数料が設定されている。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 手数料が設定されている。",
+      "korean": "단말기 종류와 관계없이 이 결제 서비스에는 동일한 수수료가 설정되어 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-107-09-p2",
-          "text": "にかかわらず",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-107-09-p3",
-          "text": "誰で",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-107-09-p4",
-          "text": "も",
+          "id": "so-created-n2-107-14-p3",
+          "text": "この決済",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-107-09-p1",
-          "text": "参加できます",
+          "id": "so-created-n2-107-14-p4",
+          "text": "サービスには同じ",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-107-14-p1",
+          "text": "端末の種類",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-107-14-p2",
+          "text": "にかかわらず、",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-107-09-p2",
-        "so-extra20-n2-107-09-p3",
-        "so-extra20-n2-107-09-p4",
-        "so-extra20-n2-107-09-p1"
+        "so-created-n2-107-14-p1",
+        "so-created-n2-107-14-p2",
+        "so-created-n2-107-14-p3",
+        "so-created-n2-107-14-p4"
       ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '단말기 종류와 관계없이 이 결제 서비스에는 동일한 수수료가 설정되어 있다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
       "sourceGrammarIds": [
-        "n2-107"
+        "n2-107",
+        "n2-169",
+        "n2-170",
+        "n2-171"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-107-10",
+      "id": "so-created-n2-107-15",
       "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlanks": "年齢 ____ ____ ____ ____",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
+      "sentence": "賛成か反対かにかかわらず、住民は再開発案について意見を提出できる。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 提出できる。",
+      "korean": "찬성이든 반대든 관계없이 주민은 재개발안에 대한 의견을 제출할 수 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-107-10-p1",
-          "text": "も",
+          "id": "so-created-n2-107-15-p2",
+          "text": "にかかわらず、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-107-15-p3",
+          "text": "住民は再開",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-107-10-p2",
-          "text": "参加できます",
+          "id": "so-created-n2-107-15-p4",
+          "text": "発案について意見を",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-107-10-p3",
-          "text": "にかかわらず",
+          "id": "so-created-n2-107-15-p1",
+          "text": "賛成か反対か",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-107-10-p4",
-          "text": "誰で",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-107-10-p3",
-        "so-extra20-n2-107-10-p4",
-        "so-extra20-n2-107-10-p1",
-        "so-extra20-n2-107-10-p2"
+        "so-created-n2-107-15-p1",
+        "so-created-n2-107-15-p2",
+        "so-created-n2-107-15-p3",
+        "so-created-n2-107-15-p4"
       ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '찬성이든 반대든 관계없이 주민은 재개발안에 대한 의견을 제출할 수 있다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
       "sourceGrammarIds": [
-        "n2-107"
+        "n2-107",
+        "n2-169",
+        "n2-170",
+        "n2-171"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-107-11",
+      "id": "so-created-n2-107-16",
       "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlanks": "年齢 ____ ____ ____ ____",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
+      "sentence": "荷物の大きさにかかわらず、貴重品をロッカーに放置してはいけない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 放置してはいけない。",
+      "korean": "짐의 크기와 관계없이 귀중품을 보관함에 방치해서는 안 된다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-107-11-p4",
-          "text": "誰で",
+          "id": "so-created-n2-107-16-p1",
+          "text": "荷物の大きさ",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-107-16-p2",
+          "text": "にかかわらず、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-107-11-p1",
-          "text": "も",
+          "id": "so-created-n2-107-16-p3",
+          "text": "貴重品を",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-107-11-p2",
-          "text": "参加できます",
+          "id": "so-created-n2-107-16-p4",
+          "text": "ロッカーに",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-107-11-p3",
-          "text": "にかかわらず",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-107-11-p3",
-        "so-extra20-n2-107-11-p4",
-        "so-extra20-n2-107-11-p1",
-        "so-extra20-n2-107-11-p2"
+        "so-created-n2-107-16-p1",
+        "so-created-n2-107-16-p2",
+        "so-created-n2-107-16-p3",
+        "so-created-n2-107-16-p4"
       ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '짐의 크기와 관계없이 귀중품을 보관함에 방치해서는 안 된다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
       "sourceGrammarIds": [
-        "n2-107"
+        "n2-107",
+        "n2-169",
+        "n2-170",
+        "n2-171"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-107-12",
+      "id": "so-created-n2-107-17",
       "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlanks": "年齢 ____ ____ ____ ____",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
+      "sentence": "過去の成績にかかわらず、監督は今季の状態を見て先発選手を決める。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 先発選手を決める。",
+      "korean": "과거 성적과 관계없이 감독은 이번 시즌의 상태를 보고 선발 선수를 정한다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-107-12-p3",
-          "text": "参加できます",
+          "id": "so-created-n2-107-17-p4",
+          "text": "状態を見て",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-107-12-p4",
-          "text": "にかかわらず",
+          "id": "so-created-n2-107-17-p1",
+          "text": "過去の成績",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-107-12-p1",
-          "text": "誰で",
+          "id": "so-created-n2-107-17-p2",
+          "text": "にかかわらず、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-107-12-p2",
-          "text": "も",
+          "id": "so-created-n2-107-17-p3",
+          "text": "監督は今季の",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-107-12-p4",
-        "so-extra20-n2-107-12-p1",
-        "so-extra20-n2-107-12-p2",
-        "so-extra20-n2-107-12-p3"
+        "so-created-n2-107-17-p1",
+        "so-created-n2-107-17-p2",
+        "so-created-n2-107-17-p3",
+        "so-created-n2-107-17-p4"
       ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '과거 성적과 관계없이 감독은 이번 시즌의 상태를 보고 선발 선수를 정한다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
       "sourceGrammarIds": [
-        "n2-107"
+        "n2-107",
+        "n2-169",
+        "n2-170",
+        "n2-171"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-107-13",
+      "id": "so-created-n2-107-18",
       "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、誰でも参加できます。",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
+      "sentence": "婚姻関係にかかわらず、同居して介護した人には申請資格が認められる。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 資格が認められる。",
+      "korean": "혼인 관계와 관계없이 동거하며 간병한 사람에게는 신청 자격이 인정된다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-107-13-p2",
-          "text": "にかかわらず",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-107-13-p3",
-          "text": "誰で",
+          "id": "so-created-n2-107-18-p3",
+          "text": "同居して介護した",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-107-13-p4",
-          "text": "も",
+          "id": "so-created-n2-107-18-p4",
+          "text": "人には申請",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-107-13-p1",
-          "text": "齢",
+          "id": "so-created-n2-107-18-p1",
+          "text": "婚姻関係",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-107-18-p2",
+          "text": "にかかわらず、",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-107-13-p1",
-        "so-extra20-n2-107-13-p2",
-        "so-extra20-n2-107-13-p3",
-        "so-extra20-n2-107-13-p4"
+        "so-created-n2-107-18-p1",
+        "so-created-n2-107-18-p2",
+        "so-created-n2-107-18-p3",
+        "so-created-n2-107-18-p4"
       ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '혼인 관계와 관계없이 동거하며 간병한 사람에게는 신청 자격이 인정된다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
       "sourceGrammarIds": [
-        "n2-107"
+        "n2-107",
+        "n2-169",
+        "n2-170",
+        "n2-171"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-107-14",
+      "id": "so-created-n2-107-19",
       "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlanks": "年齢 ____ ____ ____ ____",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
+      "sentence": "客が来るか来ないかにかかわらず、店主は毎晩入口の花を生け替える。",
+      "sentenceWithBlanks": "客が来るか ____ ____ ____ ____ 替える。",
+      "korean": "손님이 오든 오지 않든 관계없이 가게 주인은 매일 밤 입구의 꽃을 새로 꽂는다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-107-14-p1",
-          "text": "参加できます",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-107-14-p2",
-          "text": "にかかわらず",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-107-14-p3",
-          "text": "誰で",
+          "id": "so-created-n2-107-19-p2",
+          "text": "にかかわらず、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-107-14-p4",
-          "text": "も",
+          "id": "so-created-n2-107-19-p3",
+          "text": "店主は毎晩",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-107-19-p4",
+          "text": "入口の花を生け",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-107-19-p1",
+          "text": "来ないか",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-107-14-p2",
-        "so-extra20-n2-107-14-p3",
-        "so-extra20-n2-107-14-p4",
-        "so-extra20-n2-107-14-p1"
+        "so-created-n2-107-19-p1",
+        "so-created-n2-107-19-p2",
+        "so-created-n2-107-19-p3",
+        "so-created-n2-107-19-p4"
       ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '손님이 오든 오지 않든 관계없이 가게 주인은 매일 밤 입구의 꽃을 새로 꽂는다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
       "sourceGrammarIds": [
-        "n2-107"
+        "n2-107",
+        "n2-169",
+        "n2-170",
+        "n2-171"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-107-15",
+      "id": "so-created-n2-107-20",
       "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlanks": "年齢 ____ ____ ____ ____",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
+      "sentence": "作物の収穫量にかかわらず、農家は借りた機械の代金を月末までに払う必要がある。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 代金を月末までに払う必要がある。",
+      "korean": "작물 수확량과 관계없이 농가는 빌린 기계 대금을 월말까지 지급해야 한다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-107-15-p4",
-          "text": "誰で",
+          "id": "so-created-n2-107-20-p1",
+          "text": "作物の収穫量",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-107-20-p2",
+          "text": "にかかわらず、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-107-15-p1",
-          "text": "も",
+          "id": "so-created-n2-107-20-p3",
+          "text": "農家は",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-107-15-p2",
-          "text": "参加できます",
+          "id": "so-created-n2-107-20-p4",
+          "text": "借りた機械の",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-107-15-p3",
-          "text": "にかかわらず",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-107-15-p3",
-        "so-extra20-n2-107-15-p4",
-        "so-extra20-n2-107-15-p1",
-        "so-extra20-n2-107-15-p2"
+        "so-created-n2-107-20-p1",
+        "so-created-n2-107-20-p2",
+        "so-created-n2-107-20-p3",
+        "so-created-n2-107-20-p4"
       ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '작물 수확량과 관계없이 농가는 빌린 기계 대금을 월말까지 지급해야 한다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
       "sourceGrammarIds": [
-        "n2-107"
+        "n2-107",
+        "n2-169",
+        "n2-170",
+        "n2-171"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-107-16",
+      "id": "so-created-n2-107-21",
       "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlanks": "年齢 ____ ____ ____ ____",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
+      "sentence": "本人に責任があるか否かにかかわらず、事故後は所定の窓口へ連絡することになっている。",
+      "sentenceWithBlanks": "本人に ____ ____ ____ ____ 連絡することになっている。",
+      "korean": "본인에게 책임이 있는지 없는지와 관계없이 사고 후에는 지정된 창구로 연락하게 되어 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-107-16-p3",
-          "text": "にかかわらず",
+          "id": "so-created-n2-107-21-p4",
+          "text": "所定の窓口へ",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-107-21-p1",
+          "text": "責任があるか否か",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-107-16-p4",
-          "text": "誰で",
+          "id": "so-created-n2-107-21-p2",
+          "text": "にかかわらず、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-107-16-p1",
-          "text": "も",
+          "id": "so-created-n2-107-21-p3",
+          "text": "事故後は",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-107-16-p2",
-          "text": "参加できます",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-107-16-p3",
-        "so-extra20-n2-107-16-p4",
-        "so-extra20-n2-107-16-p1",
-        "so-extra20-n2-107-16-p2"
+        "so-created-n2-107-21-p1",
+        "so-created-n2-107-21-p2",
+        "so-created-n2-107-21-p3",
+        "so-created-n2-107-21-p4"
       ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '본인에게 책임이 있는지 없는지와 관계없이 사고 후에는 지정된 창구로 연락하게 되어 있다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
       "sourceGrammarIds": [
-        "n2-107"
+        "n2-107",
+        "n2-169",
+        "n2-170",
+        "n2-171"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-107-17",
+      "id": "so-created-n2-107-22",
       "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlanks": "年齢 ____ ____ ____ ____",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
+      "sentence": "滞在期間にかかわらず、入国時にはこの申告書の提出を求められる。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 提出を求められる。",
+      "korean": "체류 기간과 관계없이 입국 시에는 이 신고서 제출을 요구받는다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-107-17-p2",
-          "text": "も",
+          "id": "so-created-n2-107-22-p3",
+          "text": "入国時にはこの",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-107-17-p3",
-          "text": "参加できます",
+          "id": "so-created-n2-107-22-p4",
+          "text": "申告書の",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-107-17-p4",
-          "text": "にかかわらず",
+          "id": "so-created-n2-107-22-p1",
+          "text": "滞在期間",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-107-17-p1",
-          "text": "誰で",
+          "id": "so-created-n2-107-22-p2",
+          "text": "にかかわらず、",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-107-17-p4",
-        "so-extra20-n2-107-17-p1",
-        "so-extra20-n2-107-17-p2",
-        "so-extra20-n2-107-17-p3"
+        "so-created-n2-107-22-p1",
+        "so-created-n2-107-22-p2",
+        "so-created-n2-107-22-p3",
+        "so-created-n2-107-22-p4"
       ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '체류 기간과 관계없이 입국 시에는 이 신고서 제출을 요구받는다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
       "sourceGrammarIds": [
-        "n2-107"
+        "n2-107",
+        "n2-169",
+        "n2-170",
+        "n2-171"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-107-18",
+      "id": "so-created-n2-107-23",
       "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、誰でも参加できます。",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
+      "sentence": "知名度にかかわらず、審査員は作品の完成度だけを基準に受賞者を選んだ。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 基準に受賞者を選んだ。",
+      "korean": "인지도와 관계없이 심사위원은 작품의 완성도만을 기준으로 수상자를 선정했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-107-18-p1",
-          "text": "齢",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-107-18-p2",
-          "text": "にかかわらず",
+          "id": "so-created-n2-107-23-p2",
+          "text": "にかかわらず、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-107-18-p3",
-          "text": "誰で",
+          "id": "so-created-n2-107-23-p3",
+          "text": "審査員は作品の",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-107-18-p4",
-          "text": "も",
+          "id": "so-created-n2-107-23-p4",
+          "text": "完成度だけを",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-107-23-p1",
+          "text": "知名度",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-107-18-p1",
-        "so-extra20-n2-107-18-p2",
-        "so-extra20-n2-107-18-p3",
-        "so-extra20-n2-107-18-p4"
+        "so-created-n2-107-23-p1",
+        "so-created-n2-107-23-p2",
+        "so-created-n2-107-23-p3",
+        "so-created-n2-107-23-p4"
       ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '인지도와 관계없이 심사위원은 작품의 완성도만을 기준으로 수상자를 선정했다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
       "sourceGrammarIds": [
-        "n2-107"
+        "n2-107",
+        "n2-169",
+        "n2-170",
+        "n2-171"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-107-19",
+      "id": "so-created-n2-107-24",
       "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlanks": "年齢 ____ ____ ____ ____",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
+      "sentence": "電話がつながるかどうかにかかわらず、緊急時には現場へ向かうよう指示された。",
+      "sentenceWithBlanks": "電話がつながるかどうか ____ ____ ____ ____",
+      "korean": "전화 연결 여부와 관계없이 긴급 시에는 현장으로 가라는 지시를 받았다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-107-19-p4",
-          "text": "も",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-107-19-p1",
-          "text": "参加できます",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-107-19-p2",
-          "text": "にかかわらず",
+          "id": "so-created-n2-107-24-p1",
+          "text": "にかかわらず、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-107-19-p3",
-          "text": "誰で",
+          "id": "so-created-n2-107-24-p2",
+          "text": "緊急時には",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-107-24-p3",
+          "text": "現場へ向かうよう",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-107-24-p4",
+          "text": "指示された。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-107-19-p2",
-        "so-extra20-n2-107-19-p3",
-        "so-extra20-n2-107-19-p4",
-        "so-extra20-n2-107-19-p1"
+        "so-created-n2-107-24-p1",
+        "so-created-n2-107-24-p2",
+        "so-created-n2-107-24-p3",
+        "so-created-n2-107-24-p4"
       ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '전화 연결 여부와 관계없이 긴급 시에는 현장으로 가라는 지시를 받았다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
       "sourceGrammarIds": [
-        "n2-107"
+        "n2-107",
+        "n2-169",
+        "n2-170",
+        "n2-171"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-107-20",
+      "id": "so-created-n2-107-25",
       "level": "N2",
-      "sentence": "年齢にかかわらず、誰でも参加できます。",
-      "sentenceWithBlanks": "年齢 ____ ____ ____ ____",
-      "korean": "나이에 관계없이 누구나 참가할 수 있습니다.",
+      "sentence": "傷の深さにかかわらず、使用済みの刃物に触れた場合は感染検査が必要だ。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 場合は感染検査が必要だ。",
+      "korean": "상처의 깊이와 관계없이 사용한 칼날에 닿은 경우에는 감염 검사가 필요하다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-107-20-p3",
-          "text": "にかかわらず",
+          "id": "so-created-n2-107-25-p4",
+          "text": "刃物に触れた",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-107-25-p1",
+          "text": "傷の深さ",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-107-20-p4",
-          "text": "誰で",
+          "id": "so-created-n2-107-25-p2",
+          "text": "にかかわらず、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-107-20-p1",
-          "text": "も",
+          "id": "so-created-n2-107-25-p3",
+          "text": "使用済みの",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-107-20-p2",
-          "text": "参加できます",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-107-20-p3",
-        "so-extra20-n2-107-20-p4",
-        "so-extra20-n2-107-20-p1",
-        "so-extra20-n2-107-20-p2"
+        "so-created-n2-107-25-p1",
+        "so-created-n2-107-25-p2",
+        "so-created-n2-107-25-p3",
+        "so-created-n2-107-25-p4"
       ],
-      "explanation": "「にかかわらず」는 ~에 관계없이라는 뜻이다. 조건의 영향을 받지 않음.",
+      "explanation": "「にかかわらず」는 '~에 관계없이'라는 뜻을 나타낸다. 이 문장에서는 '상처의 깊이와 관계없이 사용한 칼날에 닿은 경우에는 감염 검사가 필요하다.'라는 상황에 쓰였으며, 조건의 영향을 받지 않음. 주의할 점은 「雨にかかわらず」처럼 조건 무관. を問わず와 거의 동의이나 にかかわらず가 더 문어적.",
       "sourceGrammarIds": [
-        "n2-107"
+        "n2-107",
+        "n2-169",
+        "n2-170",
+        "n2-171"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     }
   ]

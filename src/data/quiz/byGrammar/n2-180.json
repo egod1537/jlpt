@@ -267,15 +267,23 @@
       ]
     },
     {
-      "id": "fb-extra-n2-180-1",
+      "id": "fb-created-n2-180-01",
       "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
-      "sentenceWithBlank": "こんなことならもっと勉強する（　　　）。",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
-      "answerChoiceId": "fb-extra-n2-180-1-a",
+      "sentence": "雨が降る前に洗濯物を取り込むんだった。",
+      "sentenceWithBlank": "雨が降る前に洗濯物を取り込む（　　　）。",
+      "korean": "비가 오기 전에 빨래를 걷어 둘 걸.",
+      "answerChoiceId": "fb-created-n2-180-01-a",
       "choices": [
         {
-          "id": "fb-extra-n2-180-1-b",
+          "id": "fb-created-n2-180-01-a",
+          "text": "んだった",
+          "grammarId": "n2-180",
+          "baseExpression": "んだった",
+          "conjugatedExpression": "んだった",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-180-01-b",
           "text": "ようものなら",
           "grammarId": "n2-167",
           "baseExpression": "ようものなら",
@@ -283,7 +291,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-180-1-c",
+          "id": "fb-created-n2-180-01-c",
           "text": "わけがない",
           "grammarId": "n2-168",
           "baseExpression": "わけがない",
@@ -291,23 +299,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-180-1-d",
+          "id": "fb-created-n2-180-01-d",
           "text": "わけではない",
           "grammarId": "n2-169",
           "baseExpression": "わけではない",
           "conjugatedExpression": "わけではない",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-180-1-a",
-          "text": "んだった",
-          "grammarId": "n2-180",
-          "baseExpression": "んだった",
-          "conjugatedExpression": "んだった",
-          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '비가 오기 전에 빨래를 걷어 둘 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
       "sourceGrammarIds": [
         "n2-180",
         "n2-167",
@@ -315,237 +315,20 @@
         "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra-n2-180-2",
+      "id": "fb-created-n2-180-02",
       "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
-      "sentenceWithBlank": "こんなことならもっと勉強する（　　　）。",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
-      "answerChoiceId": "fb-extra-n2-180-2-d",
+      "sentence": "終電の時刻を先に確かめるんだった。",
+      "sentenceWithBlank": "終電の時刻を先に確かめる（　　　）。",
+      "korean": "막차 시간을 미리 확인할 걸.",
+      "answerChoiceId": "fb-created-n2-180-02-a",
       "choices": [
         {
-          "id": "fb-extra-n2-180-2-c",
-          "text": "ざるを得ない",
-          "grammarId": "n2-046",
-          "baseExpression": "ざるを得ない",
-          "conjugatedExpression": "ざるを得ない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-180-2-d",
-          "text": "んだった",
-          "grammarId": "n2-180",
-          "baseExpression": "んだった",
-          "conjugatedExpression": "んだった",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-180-2-a",
-          "text": "際に",
-          "grammarId": "n2-044",
-          "baseExpression": "際に",
-          "conjugatedExpression": "際に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-180-2-b",
-          "text": "最中に",
-          "grammarId": "n2-045",
-          "baseExpression": "最中に",
-          "conjugatedExpression": "最中に",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
-      "sourceGrammarIds": [
-        "n2-180",
-        "n2-044",
-        "n2-045",
-        "n2-046"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-180-3",
-      "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
-      "sentenceWithBlank": "こんなことならもっと勉強する（　　　）。",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
-      "answerChoiceId": "fb-extra-n2-180-3-c",
-      "choices": [
-        {
-          "id": "fb-extra-n2-180-3-d",
-          "text": "からいうと",
-          "grammarId": "n2-025",
-          "baseExpression": "からいうと",
-          "conjugatedExpression": "からいうと",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-180-3-a",
-          "text": "からして",
-          "grammarId": "n2-026",
-          "baseExpression": "からして",
-          "conjugatedExpression": "からして",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-180-3-b",
-          "text": "からすると",
-          "grammarId": "n2-027",
-          "baseExpression": "からすると",
-          "conjugatedExpression": "からすると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-180-3-c",
-          "text": "んだった",
-          "grammarId": "n2-180",
-          "baseExpression": "んだった",
-          "conjugatedExpression": "んだった",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
-      "sourceGrammarIds": [
-        "n2-180",
-        "n2-025",
-        "n2-026",
-        "n2-027"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-180-4",
-      "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
-      "sentenceWithBlank": "こんなことならもっと勉強する（　　　）。",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
-      "answerChoiceId": "fb-extra-n2-180-4-b",
-      "choices": [
-        {
-          "id": "fb-extra-n2-180-4-a",
-          "text": "をめぐって",
-          "grammarId": "n2-176",
-          "baseExpression": "をめぐって",
-          "conjugatedExpression": "をめぐって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-180-4-b",
-          "text": "んだった",
-          "grammarId": "n2-180",
-          "baseExpression": "んだった",
-          "conjugatedExpression": "んだった",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-180-4-c",
-          "text": "を抜きにして",
-          "grammarId": "n2-174",
-          "baseExpression": "を抜きにして",
-          "conjugatedExpression": "を抜きにして",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-180-4-d",
-          "text": "をはじめ",
-          "grammarId": "n2-175",
-          "baseExpression": "をはじめ",
-          "conjugatedExpression": "をはじめ",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
-      "sourceGrammarIds": [
-        "n2-180",
-        "n2-174",
-        "n2-175",
-        "n2-176"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-180-5",
-      "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
-      "sentenceWithBlank": "こんなことならもっと勉強する（　　　）。",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
-      "answerChoiceId": "fb-extra-n2-180-5-a",
-      "choices": [
-        {
-          "id": "fb-extra-n2-180-5-b",
-          "text": "からすると",
-          "grammarId": "n2-027",
-          "baseExpression": "からすると",
-          "conjugatedExpression": "からすると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-180-5-c",
-          "text": "したからといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "したからといって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-180-5-d",
-          "text": "気味",
-          "grammarId": "n2-029",
-          "baseExpression": "気味",
-          "conjugatedExpression": "気味",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-180-5-a",
-          "text": "んだった",
-          "grammarId": "n2-180",
-          "baseExpression": "んだった",
-          "conjugatedExpression": "んだった",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
-      "sourceGrammarIds": [
-        "n2-180",
-        "n2-027",
-        "n2-028",
-        "n2-029"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-180-01",
-      "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
-      "sentenceWithBlank": "こんなことならもっと勉強する（　　　）。",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
-      "answerChoiceId": "fb-extra20-n2-180-01-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-180-01-b",
+          "id": "fb-created-n2-180-02-b",
           "text": "ようものなら",
           "grammarId": "n2-167",
           "baseExpression": "ようものなら",
@@ -553,7 +336,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-180-01-c",
+          "id": "fb-created-n2-180-02-c",
           "text": "わけがない",
           "grammarId": "n2-168",
           "baseExpression": "わけがない",
@@ -561,7 +344,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-180-01-d",
+          "id": "fb-created-n2-180-02-d",
           "text": "わけではない",
           "grammarId": "n2-169",
           "baseExpression": "わけではない",
@@ -569,7 +352,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-180-01-a",
+          "id": "fb-created-n2-180-02-a",
           "text": "んだった",
           "grammarId": "n2-180",
           "baseExpression": "んだった",
@@ -577,7 +360,7 @@
           "isSimilarDistractor": false
         }
       ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '막차 시간을 미리 확인할 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
       "sourceGrammarIds": [
         "n2-180",
         "n2-167",
@@ -585,253 +368,20 @@
         "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-180-02",
+      "id": "fb-created-n2-180-03",
       "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
-      "sentenceWithBlank": "こんなことならもっと勉強する（　　　）。",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
-      "answerChoiceId": "fb-extra20-n2-180-02-d",
+      "sentence": "歯が痛み出した時点で歯医者を予約するんだった。",
+      "sentenceWithBlank": "歯が痛み出した時点で歯医者を予約する（　　　）。",
+      "korean": "이가 아프기 시작했을 때 치과를 예약할 걸.",
+      "answerChoiceId": "fb-created-n2-180-03-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-180-02-a",
-          "text": "際に",
-          "grammarId": "n2-044",
-          "baseExpression": "際に",
-          "conjugatedExpression": "際に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-180-02-b",
-          "text": "最中に",
-          "grammarId": "n2-045",
-          "baseExpression": "最中に",
-          "conjugatedExpression": "最中に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-180-02-c",
-          "text": "ざるを得ない",
-          "grammarId": "n2-046",
-          "baseExpression": "ざるを得ない",
-          "conjugatedExpression": "ざるを得ない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-180-02-d",
-          "text": "んだった",
-          "grammarId": "n2-180",
-          "baseExpression": "んだった",
-          "conjugatedExpression": "んだった",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
-      "sourceGrammarIds": [
-        "n2-180",
-        "n2-044",
-        "n2-045",
-        "n2-046"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-180-03",
-      "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
-      "sentenceWithBlank": "こんなことならもっと勉強する（　　　）。",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
-      "answerChoiceId": "fb-extra20-n2-180-03-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-180-03-d",
-          "text": "からいうと",
-          "grammarId": "n2-025",
-          "baseExpression": "からいうと",
-          "conjugatedExpression": "からいうと",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-180-03-a",
-          "text": "からして",
-          "grammarId": "n2-026",
-          "baseExpression": "からして",
-          "conjugatedExpression": "からして",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-180-03-b",
-          "text": "からすると",
-          "grammarId": "n2-027",
-          "baseExpression": "からすると",
-          "conjugatedExpression": "からすると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-180-03-c",
-          "text": "んだった",
-          "grammarId": "n2-180",
-          "baseExpression": "んだった",
-          "conjugatedExpression": "んだった",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
-      "sourceGrammarIds": [
-        "n2-180",
-        "n2-025",
-        "n2-026",
-        "n2-027"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-180-04",
-      "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
-      "sentenceWithBlank": "こんなことならもっと勉強する（　　　）。",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
-      "answerChoiceId": "fb-extra20-n2-180-04-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-180-04-c",
-          "text": "を抜きにして",
-          "grammarId": "n2-174",
-          "baseExpression": "を抜きにして",
-          "conjugatedExpression": "を抜きにして",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-180-04-d",
-          "text": "をはじめ",
-          "grammarId": "n2-175",
-          "baseExpression": "をはじめ",
-          "conjugatedExpression": "をはじめ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-180-04-a",
-          "text": "をめぐって",
-          "grammarId": "n2-176",
-          "baseExpression": "をめぐって",
-          "conjugatedExpression": "をめぐって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-180-04-b",
-          "text": "んだった",
-          "grammarId": "n2-180",
-          "baseExpression": "んだった",
-          "conjugatedExpression": "んだった",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
-      "sourceGrammarIds": [
-        "n2-180",
-        "n2-174",
-        "n2-175",
-        "n2-176"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-180-05",
-      "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
-      "sentenceWithBlank": "こんなことならもっと勉強する（　　　）。",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
-      "answerChoiceId": "fb-extra20-n2-180-05-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-180-05-b",
-          "text": "からすると",
-          "grammarId": "n2-027",
-          "baseExpression": "からすると",
-          "conjugatedExpression": "からすると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-180-05-c",
-          "text": "したからといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "したからといって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-180-05-d",
-          "text": "気味",
-          "grammarId": "n2-029",
-          "baseExpression": "気味",
-          "conjugatedExpression": "気味",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-180-05-a",
-          "text": "んだった",
-          "grammarId": "n2-180",
-          "baseExpression": "んだった",
-          "conjugatedExpression": "んだった",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
-      "sourceGrammarIds": [
-        "n2-180",
-        "n2-027",
-        "n2-028",
-        "n2-029"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-180-06",
-      "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
-      "sentenceWithBlank": "こんなことならもっと勉強する（　　　）。",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
-      "answerChoiceId": "fb-extra20-n2-180-06-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-180-06-a",
-          "text": "んだった",
-          "grammarId": "n2-180",
-          "baseExpression": "んだった",
-          "conjugatedExpression": "んだった",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-180-06-b",
-          "text": "ようものなら",
-          "grammarId": "n2-167",
-          "baseExpression": "ようものなら",
-          "conjugatedExpression": "ようものなら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-180-06-c",
+          "id": "fb-created-n2-180-03-c",
           "text": "わけがない",
           "grammarId": "n2-168",
           "baseExpression": "わけがない",
@@ -839,253 +389,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-180-06-d",
-          "text": "わけではない",
-          "grammarId": "n2-169",
-          "baseExpression": "わけではない",
-          "conjugatedExpression": "わけではない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
-      "sourceGrammarIds": [
-        "n2-180",
-        "n2-167",
-        "n2-168",
-        "n2-169"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-180-07",
-      "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
-      "sentenceWithBlank": "こんなことならもっと勉強する（　　　）。",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
-      "answerChoiceId": "fb-extra20-n2-180-07-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-180-07-d",
-          "text": "んだった",
-          "grammarId": "n2-180",
-          "baseExpression": "んだった",
-          "conjugatedExpression": "んだった",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-180-07-a",
-          "text": "際に",
-          "grammarId": "n2-044",
-          "baseExpression": "際に",
-          "conjugatedExpression": "際に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-180-07-b",
-          "text": "最中に",
-          "grammarId": "n2-045",
-          "baseExpression": "最中に",
-          "conjugatedExpression": "最中に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-180-07-c",
-          "text": "ざるを得ない",
-          "grammarId": "n2-046",
-          "baseExpression": "ざるを得ない",
-          "conjugatedExpression": "ざるを得ない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
-      "sourceGrammarIds": [
-        "n2-180",
-        "n2-044",
-        "n2-045",
-        "n2-046"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-180-08",
-      "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
-      "sentenceWithBlank": "こんなことならもっと勉強する（　　　）。",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
-      "answerChoiceId": "fb-extra20-n2-180-08-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-180-08-c",
-          "text": "んだった",
-          "grammarId": "n2-180",
-          "baseExpression": "んだった",
-          "conjugatedExpression": "んだった",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-180-08-d",
-          "text": "からいうと",
-          "grammarId": "n2-025",
-          "baseExpression": "からいうと",
-          "conjugatedExpression": "からいうと",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-180-08-a",
-          "text": "からして",
-          "grammarId": "n2-026",
-          "baseExpression": "からして",
-          "conjugatedExpression": "からして",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-180-08-b",
-          "text": "からすると",
-          "grammarId": "n2-027",
-          "baseExpression": "からすると",
-          "conjugatedExpression": "からすると",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
-      "sourceGrammarIds": [
-        "n2-180",
-        "n2-025",
-        "n2-026",
-        "n2-027"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-180-09",
-      "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
-      "sentenceWithBlank": "こんなことならもっと勉強する（　　　）。",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
-      "answerChoiceId": "fb-extra20-n2-180-09-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-180-09-b",
-          "text": "んだった",
-          "grammarId": "n2-180",
-          "baseExpression": "んだった",
-          "conjugatedExpression": "んだった",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-180-09-c",
-          "text": "を抜きにして",
-          "grammarId": "n2-174",
-          "baseExpression": "を抜きにして",
-          "conjugatedExpression": "を抜きにして",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-180-09-d",
-          "text": "をはじめ",
-          "grammarId": "n2-175",
-          "baseExpression": "をはじめ",
-          "conjugatedExpression": "をはじめ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-180-09-a",
-          "text": "をめぐって",
-          "grammarId": "n2-176",
-          "baseExpression": "をめぐって",
-          "conjugatedExpression": "をめぐって",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
-      "sourceGrammarIds": [
-        "n2-180",
-        "n2-174",
-        "n2-175",
-        "n2-176"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-180-10",
-      "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
-      "sentenceWithBlank": "こんなことならもっと勉強する（　　　）。",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
-      "answerChoiceId": "fb-extra20-n2-180-10-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-180-10-a",
-          "text": "んだった",
-          "grammarId": "n2-180",
-          "baseExpression": "んだった",
-          "conjugatedExpression": "んだった",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-180-10-b",
-          "text": "からすると",
-          "grammarId": "n2-027",
-          "baseExpression": "からすると",
-          "conjugatedExpression": "からすると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-180-10-c",
-          "text": "したからといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "したからといって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-180-10-d",
-          "text": "気味",
-          "grammarId": "n2-029",
-          "baseExpression": "気味",
-          "conjugatedExpression": "気味",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
-      "sourceGrammarIds": [
-        "n2-180",
-        "n2-027",
-        "n2-028",
-        "n2-029"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-180-11",
-      "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
-      "sentenceWithBlank": "こんなことならもっと勉強する（　　　）。",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
-      "answerChoiceId": "fb-extra20-n2-180-11-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-180-11-d",
+          "id": "fb-created-n2-180-03-d",
           "text": "わけではない",
           "grammarId": "n2-169",
           "baseExpression": "わけではない",
@@ -1093,7 +397,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-180-11-a",
+          "id": "fb-created-n2-180-03-a",
           "text": "んだった",
           "grammarId": "n2-180",
           "baseExpression": "んだった",
@@ -1101,285 +405,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-180-11-b",
-          "text": "ようものなら",
-          "grammarId": "n2-167",
-          "baseExpression": "ようものなら",
-          "conjugatedExpression": "ようものなら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-180-11-c",
-          "text": "わけがない",
-          "grammarId": "n2-168",
-          "baseExpression": "わけがない",
-          "conjugatedExpression": "わけがない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
-      "sourceGrammarIds": [
-        "n2-180",
-        "n2-167",
-        "n2-168",
-        "n2-169"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-180-12",
-      "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
-      "sentenceWithBlank": "こんなことならもっと勉強する（　　　）。",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
-      "answerChoiceId": "fb-extra20-n2-180-12-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-180-12-c",
-          "text": "ざるを得ない",
-          "grammarId": "n2-046",
-          "baseExpression": "ざるを得ない",
-          "conjugatedExpression": "ざるを得ない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-180-12-d",
-          "text": "んだった",
-          "grammarId": "n2-180",
-          "baseExpression": "んだった",
-          "conjugatedExpression": "んだった",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-180-12-a",
-          "text": "際に",
-          "grammarId": "n2-044",
-          "baseExpression": "際に",
-          "conjugatedExpression": "際に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-180-12-b",
-          "text": "最中に",
-          "grammarId": "n2-045",
-          "baseExpression": "最中に",
-          "conjugatedExpression": "最中に",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
-      "sourceGrammarIds": [
-        "n2-180",
-        "n2-044",
-        "n2-045",
-        "n2-046"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-180-13",
-      "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
-      "sentenceWithBlank": "こんなことならもっと勉強する（　　　）。",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
-      "answerChoiceId": "fb-extra20-n2-180-13-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-180-13-b",
-          "text": "からすると",
-          "grammarId": "n2-027",
-          "baseExpression": "からすると",
-          "conjugatedExpression": "からすると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-180-13-c",
-          "text": "んだった",
-          "grammarId": "n2-180",
-          "baseExpression": "んだった",
-          "conjugatedExpression": "んだった",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-180-13-d",
-          "text": "からいうと",
-          "grammarId": "n2-025",
-          "baseExpression": "からいうと",
-          "conjugatedExpression": "からいうと",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-180-13-a",
-          "text": "からして",
-          "grammarId": "n2-026",
-          "baseExpression": "からして",
-          "conjugatedExpression": "からして",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
-      "sourceGrammarIds": [
-        "n2-180",
-        "n2-025",
-        "n2-026",
-        "n2-027"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-180-14",
-      "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
-      "sentenceWithBlank": "こんなことならもっと勉強する（　　　）。",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
-      "answerChoiceId": "fb-extra20-n2-180-14-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-180-14-a",
-          "text": "をめぐって",
-          "grammarId": "n2-176",
-          "baseExpression": "をめぐって",
-          "conjugatedExpression": "をめぐって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-180-14-b",
-          "text": "んだった",
-          "grammarId": "n2-180",
-          "baseExpression": "んだった",
-          "conjugatedExpression": "んだった",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-180-14-c",
-          "text": "を抜きにして",
-          "grammarId": "n2-174",
-          "baseExpression": "を抜きにして",
-          "conjugatedExpression": "を抜きにして",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-180-14-d",
-          "text": "をはじめ",
-          "grammarId": "n2-175",
-          "baseExpression": "をはじめ",
-          "conjugatedExpression": "をはじめ",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
-      "sourceGrammarIds": [
-        "n2-180",
-        "n2-174",
-        "n2-175",
-        "n2-176"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-180-15",
-      "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
-      "sentenceWithBlank": "こんなことならもっと勉強する（　　　）。",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
-      "answerChoiceId": "fb-extra20-n2-180-15-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-180-15-d",
-          "text": "気味",
-          "grammarId": "n2-029",
-          "baseExpression": "気味",
-          "conjugatedExpression": "気味",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-180-15-a",
-          "text": "んだった",
-          "grammarId": "n2-180",
-          "baseExpression": "んだった",
-          "conjugatedExpression": "んだった",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-180-15-b",
-          "text": "からすると",
-          "grammarId": "n2-027",
-          "baseExpression": "からすると",
-          "conjugatedExpression": "からすると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-180-15-c",
-          "text": "したからといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "したからといって",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
-      "sourceGrammarIds": [
-        "n2-180",
-        "n2-027",
-        "n2-028",
-        "n2-029"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-180-16",
-      "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
-      "sentenceWithBlank": "こんなことならもっと勉強する（　　　）。",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
-      "answerChoiceId": "fb-extra20-n2-180-16-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-180-16-c",
-          "text": "わけがない",
-          "grammarId": "n2-168",
-          "baseExpression": "わけがない",
-          "conjugatedExpression": "わけがない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-180-16-d",
-          "text": "わけではない",
-          "grammarId": "n2-169",
-          "baseExpression": "わけではない",
-          "conjugatedExpression": "わけではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-180-16-a",
-          "text": "んだった",
-          "grammarId": "n2-180",
-          "baseExpression": "んだった",
-          "conjugatedExpression": "んだった",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-180-16-b",
+          "id": "fb-created-n2-180-03-b",
           "text": "ようものなら",
           "grammarId": "n2-167",
           "baseExpression": "ようものなら",
@@ -1387,7 +413,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '이가 아프기 시작했을 때 치과를 예약할 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
       "sourceGrammarIds": [
         "n2-180",
         "n2-167",
@@ -1395,37 +421,28 @@
         "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-180-17",
+      "id": "fb-created-n2-180-04",
       "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
-      "sentenceWithBlank": "こんなことならもっと勉強する（　　　）。",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
-      "answerChoiceId": "fb-extra20-n2-180-17-d",
+      "sentence": "値上がりする前に航空券を買うんだった。",
+      "sentenceWithBlank": "値上がりする前に航空券を買う（　　　）。",
+      "korean": "값이 오르기 전에 항공권을 살 걸.",
+      "answerChoiceId": "fb-created-n2-180-04-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-180-17-b",
-          "text": "最中に",
-          "grammarId": "n2-045",
-          "baseExpression": "最中に",
-          "conjugatedExpression": "最中に",
+          "id": "fb-created-n2-180-04-d",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-180-17-c",
-          "text": "ざるを得ない",
-          "grammarId": "n2-046",
-          "baseExpression": "ざるを得ない",
-          "conjugatedExpression": "ざるを得ない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-180-17-d",
+          "id": "fb-created-n2-180-04-a",
           "text": "んだった",
           "grammarId": "n2-180",
           "baseExpression": "んだった",
@@ -1433,53 +450,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-180-17-a",
-          "text": "際に",
-          "grammarId": "n2-044",
-          "baseExpression": "際に",
-          "conjugatedExpression": "際に",
+          "id": "fb-created-n2-180-04-b",
+          "text": "ようものなら",
+          "grammarId": "n2-167",
+          "baseExpression": "ようものなら",
+          "conjugatedExpression": "ようものなら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-180-04-c",
+          "text": "わけがない",
+          "grammarId": "n2-168",
+          "baseExpression": "わけがない",
+          "conjugatedExpression": "わけがない",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '값이 오르기 전에 항공권을 살 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
       "sourceGrammarIds": [
         "n2-180",
-        "n2-044",
-        "n2-045",
-        "n2-046"
+        "n2-167",
+        "n2-168",
+        "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-180-18",
+      "id": "fb-created-n2-180-05",
       "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
-      "sentenceWithBlank": "こんなことならもっと勉強する（　　　）。",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
-      "answerChoiceId": "fb-extra20-n2-180-18-c",
+      "sentence": "引っ越す前に隣のおばあさんへ挨拶するんだった。",
+      "sentenceWithBlank": "引っ越す前に隣のおばあさんへ挨拶する（　　　）。",
+      "korean": "이사하기 전에 옆집 할머니께 인사드릴 걸.",
+      "answerChoiceId": "fb-created-n2-180-05-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-180-18-a",
-          "text": "からして",
-          "grammarId": "n2-026",
-          "baseExpression": "からして",
-          "conjugatedExpression": "からして",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-180-18-b",
-          "text": "からすると",
-          "grammarId": "n2-027",
-          "baseExpression": "からすると",
-          "conjugatedExpression": "からすると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-180-18-c",
+          "id": "fb-created-n2-180-05-a",
           "text": "んだった",
           "grammarId": "n2-180",
           "baseExpression": "んだった",
@@ -1487,53 +495,121 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-180-18-d",
-          "text": "からいうと",
-          "grammarId": "n2-025",
-          "baseExpression": "からいうと",
-          "conjugatedExpression": "からいうと",
+          "id": "fb-created-n2-180-05-b",
+          "text": "ようものなら",
+          "grammarId": "n2-167",
+          "baseExpression": "ようものなら",
+          "conjugatedExpression": "ようものなら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-180-05-c",
+          "text": "わけがない",
+          "grammarId": "n2-168",
+          "baseExpression": "わけがない",
+          "conjugatedExpression": "わけがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-180-05-d",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '이사하기 전에 옆집 할머니께 인사드릴 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
       "sourceGrammarIds": [
         "n2-180",
-        "n2-025",
-        "n2-026",
-        "n2-027"
+        "n2-167",
+        "n2-168",
+        "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-180-19",
+      "id": "fb-created-n2-180-06",
       "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
-      "sentenceWithBlank": "こんなことならもっと勉強する（　　　）。",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
-      "answerChoiceId": "fb-extra20-n2-180-19-b",
+      "sentence": "面接には予備の履歴書も持っていくんだった。",
+      "sentenceWithBlank": "面接には予備の履歴書も持っていく（　　　）。",
+      "korean": "면접에는 여분의 이력서도 가져갈 걸.",
+      "answerChoiceId": "fb-created-n2-180-06-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-180-19-d",
-          "text": "をはじめ",
-          "grammarId": "n2-175",
-          "baseExpression": "をはじめ",
-          "conjugatedExpression": "をはじめ",
+          "id": "fb-created-n2-180-06-b",
+          "text": "ようものなら",
+          "grammarId": "n2-167",
+          "baseExpression": "ようものなら",
+          "conjugatedExpression": "ようものなら",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-180-19-a",
-          "text": "をめぐって",
-          "grammarId": "n2-176",
-          "baseExpression": "をめぐって",
-          "conjugatedExpression": "をめぐって",
+          "id": "fb-created-n2-180-06-c",
+          "text": "わけがない",
+          "grammarId": "n2-168",
+          "baseExpression": "わけがない",
+          "conjugatedExpression": "わけがない",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-180-19-b",
+          "id": "fb-created-n2-180-06-d",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-180-06-a",
+          "text": "んだった",
+          "grammarId": "n2-180",
+          "baseExpression": "んだった",
+          "conjugatedExpression": "んだった",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '면접에는 여분의 이력서도 가져갈 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
+      "sourceGrammarIds": [
+        "n2-180",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-180-07",
+      "level": "N2",
+      "sentence": "海に入るなら日焼け止めを塗るんだった。",
+      "sentenceWithBlank": "海に入るなら日焼け止めを塗る（　　　）。",
+      "korean": "바다에 들어갈 거라면 자외선 차단제를 바를 걸.",
+      "answerChoiceId": "fb-created-n2-180-07-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-180-07-c",
+          "text": "わけがない",
+          "grammarId": "n2-168",
+          "baseExpression": "わけがない",
+          "conjugatedExpression": "わけがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-180-07-d",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-180-07-a",
           "text": "んだった",
           "grammarId": "n2-180",
           "baseExpression": "んだった",
@@ -1541,53 +617,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-180-19-c",
-          "text": "を抜きにして",
-          "grammarId": "n2-174",
-          "baseExpression": "を抜きにして",
-          "conjugatedExpression": "を抜きにして",
+          "id": "fb-created-n2-180-07-b",
+          "text": "ようものなら",
+          "grammarId": "n2-167",
+          "baseExpression": "ようものなら",
+          "conjugatedExpression": "ようものなら",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '바다에 들어갈 거라면 자외선 차단제를 바를 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
       "sourceGrammarIds": [
         "n2-180",
-        "n2-174",
-        "n2-175",
-        "n2-176"
+        "n2-167",
+        "n2-168",
+        "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-180-20",
+      "id": "fb-created-n2-180-08",
       "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
-      "sentenceWithBlank": "こんなことならもっと勉強する（　　　）。",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
-      "answerChoiceId": "fb-extra20-n2-180-20-a",
+      "sentence": "祖父が元気なうちに昔の話を聞いておくんだった。",
+      "sentenceWithBlank": "祖父が元気なうちに昔の話を聞いておく（　　　）。",
+      "korean": "할아버지가 건강하실 때 옛날이야기를 들어 둘 걸.",
+      "answerChoiceId": "fb-created-n2-180-08-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-180-20-c",
-          "text": "したからといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "したからといって",
+          "id": "fb-created-n2-180-08-d",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-180-20-d",
-          "text": "気味",
-          "grammarId": "n2-029",
-          "baseExpression": "気味",
-          "conjugatedExpression": "気味",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-180-20-a",
+          "id": "fb-created-n2-180-08-a",
           "text": "んだった",
           "grammarId": "n2-180",
           "baseExpression": "んだった",
@@ -1595,25 +662,933 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-180-20-b",
-          "text": "からすると",
-          "grammarId": "n2-027",
-          "baseExpression": "からすると",
-          "conjugatedExpression": "からすると",
+          "id": "fb-created-n2-180-08-b",
+          "text": "ようものなら",
+          "grammarId": "n2-167",
+          "baseExpression": "ようものなら",
+          "conjugatedExpression": "ようものなら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-180-08-c",
+          "text": "わけがない",
+          "grammarId": "n2-168",
+          "baseExpression": "わけがない",
+          "conjugatedExpression": "わけがない",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '할아버지가 건강하실 때 옛날이야기를 들어 둘 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
       "sourceGrammarIds": [
         "n2-180",
-        "n2-027",
-        "n2-028",
-        "n2-029"
+        "n2-167",
+        "n2-168",
+        "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-180-09",
+      "level": "N2",
+      "sentence": "契約書に判を押す前に条件を読み直すんだった。",
+      "sentenceWithBlank": "契約書に判を押す前に条件を読み直す（　　　）。",
+      "korean": "계약서에 도장을 찍기 전에 조건을 다시 읽어 볼 걸.",
+      "answerChoiceId": "fb-created-n2-180-09-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-180-09-a",
+          "text": "んだった",
+          "grammarId": "n2-180",
+          "baseExpression": "んだった",
+          "conjugatedExpression": "んだった",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-180-09-b",
+          "text": "ようものなら",
+          "grammarId": "n2-167",
+          "baseExpression": "ようものなら",
+          "conjugatedExpression": "ようものなら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-180-09-c",
+          "text": "わけがない",
+          "grammarId": "n2-168",
+          "baseExpression": "わけがない",
+          "conjugatedExpression": "わけがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-180-09-d",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '계약서에 도장을 찍기 전에 조건을 다시 읽어 볼 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
+      "sourceGrammarIds": [
+        "n2-180",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-180-10",
+      "level": "N2",
+      "sentence": "山頂の寒さに備えて厚手の上着を選ぶんだった。",
+      "sentenceWithBlank": "山頂の寒さに備えて厚手の上着を選ぶ（　　　）。",
+      "korean": "산 정상의 추위에 대비해 두꺼운 겉옷을 고를 걸.",
+      "answerChoiceId": "fb-created-n2-180-10-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-180-10-b",
+          "text": "ようものなら",
+          "grammarId": "n2-167",
+          "baseExpression": "ようものなら",
+          "conjugatedExpression": "ようものなら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-180-10-c",
+          "text": "わけがない",
+          "grammarId": "n2-168",
+          "baseExpression": "わけがない",
+          "conjugatedExpression": "わけがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-180-10-d",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-180-10-a",
+          "text": "んだった",
+          "grammarId": "n2-180",
+          "baseExpression": "んだった",
+          "conjugatedExpression": "んだった",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '산 정상의 추위에 대비해 두꺼운 겉옷을 고를 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
+      "sourceGrammarIds": [
+        "n2-180",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-180-11",
+      "level": "N2",
+      "sentence": "料理を出す前に味見をするんだった。",
+      "sentenceWithBlank": "料理を出す前に味見をする（　　　）。",
+      "korean": "요리를 내기 전에 맛을 볼 걸.",
+      "answerChoiceId": "fb-created-n2-180-11-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-180-11-c",
+          "text": "わけがない",
+          "grammarId": "n2-168",
+          "baseExpression": "わけがない",
+          "conjugatedExpression": "わけがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-180-11-d",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-180-11-a",
+          "text": "んだった",
+          "grammarId": "n2-180",
+          "baseExpression": "んだった",
+          "conjugatedExpression": "んだった",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-180-11-b",
+          "text": "ようものなら",
+          "grammarId": "n2-167",
+          "baseExpression": "ようものなら",
+          "conjugatedExpression": "ようものなら",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '요리를 내기 전에 맛을 볼 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
+      "sourceGrammarIds": [
+        "n2-180",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-180-12",
+      "level": "N2",
+      "sentence": "駐車場の番号を写真に残すんだった。",
+      "sentenceWithBlank": "駐車場の番号を写真に残す（　　　）。",
+      "korean": "주차장 번호를 사진으로 남겨 둘 걸.",
+      "answerChoiceId": "fb-created-n2-180-12-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-180-12-d",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-180-12-a",
+          "text": "んだった",
+          "grammarId": "n2-180",
+          "baseExpression": "んだった",
+          "conjugatedExpression": "んだった",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-180-12-b",
+          "text": "ようものなら",
+          "grammarId": "n2-167",
+          "baseExpression": "ようものなら",
+          "conjugatedExpression": "ようものなら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-180-12-c",
+          "text": "わけがない",
+          "grammarId": "n2-168",
+          "baseExpression": "わけがない",
+          "conjugatedExpression": "わけがない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '주차장 번호를 사진으로 남겨 둘 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
+      "sourceGrammarIds": [
+        "n2-180",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-180-13",
+      "level": "N2",
+      "sentence": "大事なデータは別の端末にも保存するんだった。",
+      "sentenceWithBlank": "大事なデータは別の端末にも保存する（　　　）。",
+      "korean": "중요한 데이터는 다른 기기에도 저장할 걸.",
+      "answerChoiceId": "fb-created-n2-180-13-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-180-13-a",
+          "text": "んだった",
+          "grammarId": "n2-180",
+          "baseExpression": "んだった",
+          "conjugatedExpression": "んだった",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-180-13-b",
+          "text": "ようものなら",
+          "grammarId": "n2-167",
+          "baseExpression": "ようものなら",
+          "conjugatedExpression": "ようものなら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-180-13-c",
+          "text": "わけがない",
+          "grammarId": "n2-168",
+          "baseExpression": "わけがない",
+          "conjugatedExpression": "わけがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-180-13-d",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '중요한 데이터는 다른 기기에도 저장할 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
+      "sourceGrammarIds": [
+        "n2-180",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-180-14",
+      "level": "N2",
+      "sentence": "渋滞を避けて一本早いバスに乗るんだった。",
+      "sentenceWithBlank": "渋滞を避けて一本早いバスに乗る（　　　）。",
+      "korean": "정체를 피해 한 대 이른 버스를 탈 걸.",
+      "answerChoiceId": "fb-created-n2-180-14-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-180-14-b",
+          "text": "ようものなら",
+          "grammarId": "n2-167",
+          "baseExpression": "ようものなら",
+          "conjugatedExpression": "ようものなら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-180-14-c",
+          "text": "わけがない",
+          "grammarId": "n2-168",
+          "baseExpression": "わけがない",
+          "conjugatedExpression": "わけがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-180-14-d",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-180-14-a",
+          "text": "んだった",
+          "grammarId": "n2-180",
+          "baseExpression": "んだった",
+          "conjugatedExpression": "んだった",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '정체를 피해 한 대 이른 버스를 탈 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
+      "sourceGrammarIds": [
+        "n2-180",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-180-15",
+      "level": "N2",
+      "sentence": "猫が逃げないように網戸を閉めるんだった。",
+      "sentenceWithBlank": "猫が逃げないように網戸を閉める（　　　）。",
+      "korean": "고양이가 달아나지 않도록 방충망을 닫을 걸.",
+      "answerChoiceId": "fb-created-n2-180-15-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-180-15-c",
+          "text": "わけがない",
+          "grammarId": "n2-168",
+          "baseExpression": "わけがない",
+          "conjugatedExpression": "わけがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-180-15-d",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-180-15-a",
+          "text": "んだった",
+          "grammarId": "n2-180",
+          "baseExpression": "んだった",
+          "conjugatedExpression": "んだった",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-180-15-b",
+          "text": "ようものなら",
+          "grammarId": "n2-167",
+          "baseExpression": "ようものなら",
+          "conjugatedExpression": "ようものなら",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '고양이가 달아나지 않도록 방충망을 닫을 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
+      "sourceGrammarIds": [
+        "n2-180",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-180-16",
+      "level": "N2",
+      "sentence": "割引期間中に冷蔵庫を買い替えるんだった。",
+      "sentenceWithBlank": "割引期間中に冷蔵庫を買い替える（　　　）。",
+      "korean": "할인 기간에 냉장고를 바꿀 걸.",
+      "answerChoiceId": "fb-created-n2-180-16-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-180-16-d",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-180-16-a",
+          "text": "んだった",
+          "grammarId": "n2-180",
+          "baseExpression": "んだった",
+          "conjugatedExpression": "んだった",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-180-16-b",
+          "text": "ようものなら",
+          "grammarId": "n2-167",
+          "baseExpression": "ようものなら",
+          "conjugatedExpression": "ようものなら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-180-16-c",
+          "text": "わけがない",
+          "grammarId": "n2-168",
+          "baseExpression": "わけがない",
+          "conjugatedExpression": "わけがない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '할인 기간에 냉장고를 바꿀 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
+      "sourceGrammarIds": [
+        "n2-180",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-180-17",
+      "level": "N2",
+      "sentence": "弟の忠告を素直に受け入れるんだった。",
+      "sentenceWithBlank": "弟の忠告を素直に受け入れる（　　　）。",
+      "korean": "남동생의 충고를 순순히 받아들일 걸.",
+      "answerChoiceId": "fb-created-n2-180-17-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-180-17-a",
+          "text": "んだった",
+          "grammarId": "n2-180",
+          "baseExpression": "んだった",
+          "conjugatedExpression": "んだった",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-180-17-b",
+          "text": "ようものなら",
+          "grammarId": "n2-167",
+          "baseExpression": "ようものなら",
+          "conjugatedExpression": "ようものなら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-180-17-c",
+          "text": "わけがない",
+          "grammarId": "n2-168",
+          "baseExpression": "わけがない",
+          "conjugatedExpression": "わけがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-180-17-d",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '남동생의 충고를 순순히 받아들일 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
+      "sourceGrammarIds": [
+        "n2-180",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-180-18",
+      "level": "N2",
+      "sentence": "犬の散歩に出る前に玄関の鍵を確認するんだった。",
+      "sentenceWithBlank": "犬の散歩に出る前に玄関の鍵を確認する（　　　）。",
+      "korean": "개를 산책시키러 나가기 전에 현관문 잠금을 확인할 걸.",
+      "answerChoiceId": "fb-created-n2-180-18-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-180-18-b",
+          "text": "ようものなら",
+          "grammarId": "n2-167",
+          "baseExpression": "ようものなら",
+          "conjugatedExpression": "ようものなら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-180-18-c",
+          "text": "わけがない",
+          "grammarId": "n2-168",
+          "baseExpression": "わけがない",
+          "conjugatedExpression": "わけがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-180-18-d",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-180-18-a",
+          "text": "んだった",
+          "grammarId": "n2-180",
+          "baseExpression": "んだった",
+          "conjugatedExpression": "んだった",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '개를 산책시키러 나가기 전에 현관문 잠금을 확인할 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
+      "sourceGrammarIds": [
+        "n2-180",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-180-19",
+      "level": "N2",
+      "sentence": "取引先へのメールに見積書を添付するんだった。",
+      "sentenceWithBlank": "取引先へのメールに見積書を添付する（　　　）。",
+      "korean": "거래처에 보내는 메일에 견적서를 첨부할 걸.",
+      "answerChoiceId": "fb-created-n2-180-19-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-180-19-c",
+          "text": "わけがない",
+          "grammarId": "n2-168",
+          "baseExpression": "わけがない",
+          "conjugatedExpression": "わけがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-180-19-d",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-180-19-a",
+          "text": "んだった",
+          "grammarId": "n2-180",
+          "baseExpression": "んだった",
+          "conjugatedExpression": "んだった",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-180-19-b",
+          "text": "ようものなら",
+          "grammarId": "n2-167",
+          "baseExpression": "ようものなら",
+          "conjugatedExpression": "ようものなら",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '거래처에 보내는 메일에 견적서를 첨부할 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
+      "sourceGrammarIds": [
+        "n2-180",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-180-20",
+      "level": "N2",
+      "sentence": "祭りが終わる前に家族で写真を撮るんだった。",
+      "sentenceWithBlank": "祭りが終わる前に家族で写真を撮る（　　　）。",
+      "korean": "축제가 끝나기 전에 가족과 사진을 찍을 걸.",
+      "answerChoiceId": "fb-created-n2-180-20-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-180-20-d",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-180-20-a",
+          "text": "んだった",
+          "grammarId": "n2-180",
+          "baseExpression": "んだった",
+          "conjugatedExpression": "んだった",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-180-20-b",
+          "text": "ようものなら",
+          "grammarId": "n2-167",
+          "baseExpression": "ようものなら",
+          "conjugatedExpression": "ようものなら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-180-20-c",
+          "text": "わけがない",
+          "grammarId": "n2-168",
+          "baseExpression": "わけがない",
+          "conjugatedExpression": "わけがない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '축제가 끝나기 전에 가족과 사진을 찍을 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
+      "sourceGrammarIds": [
+        "n2-180",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-180-21",
+      "level": "N2",
+      "sentence": "庭仕事を始める前に虫よけを使うんだった。",
+      "sentenceWithBlank": "庭仕事を始める前に虫よけを使う（　　　）。",
+      "korean": "정원 일을 시작하기 전에 벌레 퇴치제를 사용할 걸.",
+      "answerChoiceId": "fb-created-n2-180-21-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-180-21-a",
+          "text": "んだった",
+          "grammarId": "n2-180",
+          "baseExpression": "んだった",
+          "conjugatedExpression": "んだった",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-180-21-b",
+          "text": "ようものなら",
+          "grammarId": "n2-167",
+          "baseExpression": "ようものなら",
+          "conjugatedExpression": "ようものなら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-180-21-c",
+          "text": "わけがない",
+          "grammarId": "n2-168",
+          "baseExpression": "わけがない",
+          "conjugatedExpression": "わけがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-180-21-d",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '정원 일을 시작하기 전에 벌레 퇴치제를 사용할 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
+      "sourceGrammarIds": [
+        "n2-180",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-180-22",
+      "level": "N2",
+      "sentence": "故障した時計を捨てずに修理へ出すんだった。",
+      "sentenceWithBlank": "故障した時計を捨てずに修理へ出す（　　　）。",
+      "korean": "고장 난 시계를 버리지 말고 수리를 맡길 걸.",
+      "answerChoiceId": "fb-created-n2-180-22-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-180-22-b",
+          "text": "ようものなら",
+          "grammarId": "n2-167",
+          "baseExpression": "ようものなら",
+          "conjugatedExpression": "ようものなら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-180-22-c",
+          "text": "わけがない",
+          "grammarId": "n2-168",
+          "baseExpression": "わけがない",
+          "conjugatedExpression": "わけがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-180-22-d",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-180-22-a",
+          "text": "んだった",
+          "grammarId": "n2-180",
+          "baseExpression": "んだった",
+          "conjugatedExpression": "んだった",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '고장 난 시계를 버리지 말고 수리를 맡길 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
+      "sourceGrammarIds": [
+        "n2-180",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-180-23",
+      "level": "N2",
+      "sentence": "空港で慌てないように荷物の重さを量るんだった。",
+      "sentenceWithBlank": "空港で慌てないように荷物の重さを量る（　　　）。",
+      "korean": "공항에서 당황하지 않도록 짐 무게를 재 볼 걸.",
+      "answerChoiceId": "fb-created-n2-180-23-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-180-23-c",
+          "text": "わけがない",
+          "grammarId": "n2-168",
+          "baseExpression": "わけがない",
+          "conjugatedExpression": "わけがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-180-23-d",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-180-23-a",
+          "text": "んだった",
+          "grammarId": "n2-180",
+          "baseExpression": "んだった",
+          "conjugatedExpression": "んだった",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-180-23-b",
+          "text": "ようものなら",
+          "grammarId": "n2-167",
+          "baseExpression": "ようものなら",
+          "conjugatedExpression": "ようものなら",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '공항에서 당황하지 않도록 짐 무게를 재 볼 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
+      "sourceGrammarIds": [
+        "n2-180",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-180-24",
+      "level": "N2",
+      "sentence": "店を閉める前にレジの釣り銭を数えるんだった。",
+      "sentenceWithBlank": "店を閉める前にレジの釣り銭を数える（　　　）。",
+      "korean": "가게를 닫기 전에 계산대의 거스름돈을 셀 걸.",
+      "answerChoiceId": "fb-created-n2-180-24-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-180-24-d",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-180-24-a",
+          "text": "んだった",
+          "grammarId": "n2-180",
+          "baseExpression": "んだった",
+          "conjugatedExpression": "んだった",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-180-24-b",
+          "text": "ようものなら",
+          "grammarId": "n2-167",
+          "baseExpression": "ようものなら",
+          "conjugatedExpression": "ようものなら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-180-24-c",
+          "text": "わけがない",
+          "grammarId": "n2-168",
+          "baseExpression": "わけがない",
+          "conjugatedExpression": "わけがない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '가게를 닫기 전에 계산대의 거스름돈을 셀 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
+      "sourceGrammarIds": [
+        "n2-180",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-180-25",
+      "level": "N2",
+      "sentence": "彼女が町を離れる前に気持ちを伝えるんだった。",
+      "sentenceWithBlank": "彼女が町を離れる前に気持ちを伝える（　　　）。",
+      "korean": "그녀가 도시를 떠나기 전에 마음을 전할 걸.",
+      "answerChoiceId": "fb-created-n2-180-25-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-180-25-a",
+          "text": "んだった",
+          "grammarId": "n2-180",
+          "baseExpression": "んだった",
+          "conjugatedExpression": "んだった",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-180-25-b",
+          "text": "ようものなら",
+          "grammarId": "n2-167",
+          "baseExpression": "ようものなら",
+          "conjugatedExpression": "ようものなら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-180-25-c",
+          "text": "わけがない",
+          "grammarId": "n2-168",
+          "baseExpression": "わけがない",
+          "conjugatedExpression": "わけがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-180-25-d",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '그녀가 도시를 떠나기 전에 마음을 전할 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
+      "sourceGrammarIds": [
+        "n2-180",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
       ]
     }
   ],
@@ -1834,1103 +1809,1153 @@
       ]
     },
     {
-      "id": "so-extra-n2-180-1",
+      "id": "so-created-n2-180-01",
       "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
+      "sentence": "雨が降る前に洗濯物を取り込むんだった。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
+      "korean": "비가 오기 전에 빨래를 걷어 둘 걸.",
       "pieces": [
         {
-          "id": "so-extra-n2-180-1-p3",
-          "text": "だった",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-180-1-p4",
-          "text": "こんなこと",
+          "id": "so-created-n2-180-01-p1",
+          "text": "雨が降る",
           "order": 1
         },
         {
-          "id": "so-extra-n2-180-1-p1",
-          "text": "ならもっと",
+          "id": "so-created-n2-180-01-p2",
+          "text": "前に洗濯",
           "order": 2
         },
         {
-          "id": "so-extra-n2-180-1-p2",
-          "text": "勉強するん",
+          "id": "so-created-n2-180-01-p3",
+          "text": "物を取り込む",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-180-01-p4",
+          "text": "んだった。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-180-1-p4",
-        "so-extra-n2-180-1-p1",
-        "so-extra-n2-180-1-p2",
-        "so-extra-n2-180-1-p3"
+        "so-created-n2-180-01-p1",
+        "so-created-n2-180-01-p2",
+        "so-created-n2-180-01-p3",
+        "so-created-n2-180-01-p4"
       ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '비가 오기 전에 빨래를 걷어 둘 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
       "sourceGrammarIds": [
-        "n2-180"
+        "n2-180",
+        "n2-167",
+        "n2-168",
+        "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-180-2",
+      "id": "so-created-n2-180-02",
       "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
+      "sentence": "終電の時刻を先に確かめるんだった。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
+      "korean": "막차 시간을 미리 확인할 걸.",
       "pieces": [
         {
-          "id": "so-extra-n2-180-2-p4",
-          "text": "ならもっと",
-          "order": 2
-        },
-        {
-          "id": "so-extra-n2-180-2-p1",
-          "text": "勉強するん",
-          "order": 3
-        },
-        {
-          "id": "so-extra-n2-180-2-p2",
-          "text": "だった",
+          "id": "so-created-n2-180-02-p4",
+          "text": "んだった。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-180-2-p3",
-          "text": "こんなこと",
+          "id": "so-created-n2-180-02-p1",
+          "text": "終電の",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-180-02-p2",
+          "text": "時刻を先に",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-180-02-p3",
+          "text": "確かめる",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-180-2-p3",
-        "so-extra-n2-180-2-p4",
-        "so-extra-n2-180-2-p1",
-        "so-extra-n2-180-2-p2"
+        "so-created-n2-180-02-p1",
+        "so-created-n2-180-02-p2",
+        "so-created-n2-180-02-p3",
+        "so-created-n2-180-02-p4"
       ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '막차 시간을 미리 확인할 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
       "sourceGrammarIds": [
-        "n2-180"
+        "n2-180",
+        "n2-167",
+        "n2-168",
+        "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-180-3",
+      "id": "so-created-n2-180-03",
       "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
+      "sentence": "歯が痛み出した時点で歯医者を予約するんだった。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
+      "korean": "이가 아프기 시작했을 때 치과를 예약할 걸.",
       "pieces": [
         {
-          "id": "so-extra-n2-180-3-p1",
-          "text": "だった",
+          "id": "so-created-n2-180-03-p3",
+          "text": "予約する",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-180-03-p4",
+          "text": "んだった。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-180-3-p2",
-          "text": "こんなこと",
+          "id": "so-created-n2-180-03-p1",
+          "text": "歯が痛み出した",
           "order": 1
         },
         {
-          "id": "so-extra-n2-180-3-p3",
-          "text": "ならもっと",
+          "id": "so-created-n2-180-03-p2",
+          "text": "時点で歯医者を",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-180-3-p4",
-          "text": "勉強するん",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-180-3-p2",
-        "so-extra-n2-180-3-p3",
-        "so-extra-n2-180-3-p4",
-        "so-extra-n2-180-3-p1"
+        "so-created-n2-180-03-p1",
+        "so-created-n2-180-03-p2",
+        "so-created-n2-180-03-p3",
+        "so-created-n2-180-03-p4"
       ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '이가 아프기 시작했을 때 치과를 예약할 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
       "sourceGrammarIds": [
-        "n2-180"
+        "n2-180",
+        "n2-167",
+        "n2-168",
+        "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-180-4",
+      "id": "so-created-n2-180-04",
       "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
+      "sentence": "値上がりする前に航空券を買うんだった。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
+      "korean": "값이 오르기 전에 항공권을 살 걸.",
       "pieces": [
         {
-          "id": "so-extra-n2-180-4-p2",
-          "text": "ならもっと",
+          "id": "so-created-n2-180-04-p2",
+          "text": "前に航空",
           "order": 2
         },
         {
-          "id": "so-extra-n2-180-4-p3",
-          "text": "勉強するん",
+          "id": "so-created-n2-180-04-p3",
+          "text": "券を買う",
           "order": 3
         },
         {
-          "id": "so-extra-n2-180-4-p4",
-          "text": "だった",
+          "id": "so-created-n2-180-04-p4",
+          "text": "んだった。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-180-4-p1",
-          "text": "こんなこと",
+          "id": "so-created-n2-180-04-p1",
+          "text": "値上がりする",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-180-4-p1",
-        "so-extra-n2-180-4-p2",
-        "so-extra-n2-180-4-p3",
-        "so-extra-n2-180-4-p4"
+        "so-created-n2-180-04-p1",
+        "so-created-n2-180-04-p2",
+        "so-created-n2-180-04-p3",
+        "so-created-n2-180-04-p4"
       ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '값이 오르기 전에 항공권을 살 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
       "sourceGrammarIds": [
-        "n2-180"
+        "n2-180",
+        "n2-167",
+        "n2-168",
+        "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-180-5",
+      "id": "so-created-n2-180-05",
       "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
+      "sentence": "引っ越す前に隣のおばあさんへ挨拶するんだった。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
+      "korean": "이사하기 전에 옆집 할머니께 인사드릴 걸.",
       "pieces": [
         {
-          "id": "so-extra-n2-180-5-p3",
-          "text": "だった",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-180-5-p4",
-          "text": "こんなこと",
+          "id": "so-created-n2-180-05-p1",
+          "text": "引っ越す前に",
           "order": 1
         },
         {
-          "id": "so-extra-n2-180-5-p1",
-          "text": "ならもっと",
+          "id": "so-created-n2-180-05-p2",
+          "text": "隣のおばあさんへ",
           "order": 2
         },
         {
-          "id": "so-extra-n2-180-5-p2",
-          "text": "勉強するん",
+          "id": "so-created-n2-180-05-p3",
+          "text": "挨拶する",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-180-05-p4",
+          "text": "んだった。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-180-5-p4",
-        "so-extra-n2-180-5-p1",
-        "so-extra-n2-180-5-p2",
-        "so-extra-n2-180-5-p3"
+        "so-created-n2-180-05-p1",
+        "so-created-n2-180-05-p2",
+        "so-created-n2-180-05-p3",
+        "so-created-n2-180-05-p4"
       ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '이사하기 전에 옆집 할머니께 인사드릴 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
       "sourceGrammarIds": [
-        "n2-180"
+        "n2-180",
+        "n2-167",
+        "n2-168",
+        "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-180-01",
+      "id": "so-created-n2-180-06",
       "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
+      "sentence": "面接には予備の履歴書も持っていくんだった。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
+      "korean": "면접에는 여분의 이력서도 가져갈 걸.",
       "pieces": [
         {
-          "id": "so-extra20-n2-180-01-p3",
-          "text": "だった",
+          "id": "so-created-n2-180-06-p4",
+          "text": "んだった。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-180-01-p4",
-          "text": "こんなこと",
+          "id": "so-created-n2-180-06-p1",
+          "text": "面接には",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-180-01-p1",
-          "text": "ならもっと",
+          "id": "so-created-n2-180-06-p2",
+          "text": "予備の履歴",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-180-01-p2",
-          "text": "勉強するん",
+          "id": "so-created-n2-180-06-p3",
+          "text": "書も持っていく",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-180-01-p4",
-        "so-extra20-n2-180-01-p1",
-        "so-extra20-n2-180-01-p2",
-        "so-extra20-n2-180-01-p3"
+        "so-created-n2-180-06-p1",
+        "so-created-n2-180-06-p2",
+        "so-created-n2-180-06-p3",
+        "so-created-n2-180-06-p4"
       ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '면접에는 여분의 이력서도 가져갈 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
       "sourceGrammarIds": [
-        "n2-180"
+        "n2-180",
+        "n2-167",
+        "n2-168",
+        "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-180-02",
+      "id": "so-created-n2-180-07",
       "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
+      "sentence": "海に入るなら日焼け止めを塗るんだった。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
+      "korean": "바다에 들어갈 거라면 자외선 차단제를 바를 걸.",
       "pieces": [
         {
-          "id": "so-extra20-n2-180-02-p2",
-          "text": "だった",
+          "id": "so-created-n2-180-07-p3",
+          "text": "止めを塗る",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-180-07-p4",
+          "text": "んだった。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-180-02-p3",
-          "text": "こんなこと",
+          "id": "so-created-n2-180-07-p1",
+          "text": "海に入るなら",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-180-02-p4",
-          "text": "ならもっと",
+          "id": "so-created-n2-180-07-p2",
+          "text": "日焼け",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-180-02-p1",
-          "text": "勉強するん",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-180-02-p3",
-        "so-extra20-n2-180-02-p4",
-        "so-extra20-n2-180-02-p1",
-        "so-extra20-n2-180-02-p2"
+        "so-created-n2-180-07-p1",
+        "so-created-n2-180-07-p2",
+        "so-created-n2-180-07-p3",
+        "so-created-n2-180-07-p4"
       ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '바다에 들어갈 거라면 자외선 차단제를 바를 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
       "sourceGrammarIds": [
-        "n2-180"
+        "n2-180",
+        "n2-167",
+        "n2-168",
+        "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-180-03",
+      "id": "so-created-n2-180-08",
       "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
+      "sentence": "祖父が元気なうちに昔の話を聞いておくんだった。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
+      "korean": "할아버지가 건강하실 때 옛날이야기를 들어 둘 걸.",
       "pieces": [
         {
-          "id": "so-extra20-n2-180-03-p1",
-          "text": "だった",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-180-03-p2",
-          "text": "こんなこと",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-180-03-p3",
-          "text": "ならもっと",
+          "id": "so-created-n2-180-08-p2",
+          "text": "元気なうちに昔の",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-180-03-p4",
-          "text": "勉強するん",
+          "id": "so-created-n2-180-08-p3",
+          "text": "話を聞いておく",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-180-08-p4",
+          "text": "んだった。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-180-08-p1",
+          "text": "祖父が",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-180-03-p2",
-        "so-extra20-n2-180-03-p3",
-        "so-extra20-n2-180-03-p4",
-        "so-extra20-n2-180-03-p1"
+        "so-created-n2-180-08-p1",
+        "so-created-n2-180-08-p2",
+        "so-created-n2-180-08-p3",
+        "so-created-n2-180-08-p4"
       ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '할아버지가 건강하실 때 옛날이야기를 들어 둘 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
       "sourceGrammarIds": [
-        "n2-180"
+        "n2-180",
+        "n2-167",
+        "n2-168",
+        "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-180-04",
+      "id": "so-created-n2-180-09",
       "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
+      "sentence": "契約書に判を押す前に条件を読み直すんだった。",
+      "sentenceWithBlanks": "契約 ____ ____ ____ ____",
+      "korean": "계약서에 도장을 찍기 전에 조건을 다시 읽어 볼 걸.",
       "pieces": [
         {
-          "id": "so-extra20-n2-180-04-p4",
-          "text": "だった",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-180-04-p1",
-          "text": "こんなこと",
+          "id": "so-created-n2-180-09-p1",
+          "text": "書に判を押す",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-180-04-p2",
-          "text": "ならもっと",
+          "id": "so-created-n2-180-09-p2",
+          "text": "前に条件を",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-180-04-p3",
-          "text": "勉強するん",
+          "id": "so-created-n2-180-09-p3",
+          "text": "読み直す",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-180-09-p4",
+          "text": "んだった。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-180-04-p1",
-        "so-extra20-n2-180-04-p2",
-        "so-extra20-n2-180-04-p3",
-        "so-extra20-n2-180-04-p4"
+        "so-created-n2-180-09-p1",
+        "so-created-n2-180-09-p2",
+        "so-created-n2-180-09-p3",
+        "so-created-n2-180-09-p4"
       ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '계약서에 도장을 찍기 전에 조건을 다시 읽어 볼 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
       "sourceGrammarIds": [
-        "n2-180"
+        "n2-180",
+        "n2-167",
+        "n2-168",
+        "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-180-05",
+      "id": "so-created-n2-180-10",
       "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
+      "sentence": "山頂の寒さに備えて厚手の上着を選ぶんだった。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
+      "korean": "산 정상의 추위에 대비해 두꺼운 겉옷을 고를 걸.",
       "pieces": [
         {
-          "id": "so-extra20-n2-180-05-p3",
-          "text": "だった",
+          "id": "so-created-n2-180-10-p4",
+          "text": "んだった。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-180-05-p4",
-          "text": "こんなこと",
+          "id": "so-created-n2-180-10-p1",
+          "text": "山頂の寒さに",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-180-05-p1",
-          "text": "ならもっと",
+          "id": "so-created-n2-180-10-p2",
+          "text": "備えて厚手の",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-180-05-p2",
-          "text": "勉強するん",
+          "id": "so-created-n2-180-10-p3",
+          "text": "上着を選ぶ",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-180-05-p4",
-        "so-extra20-n2-180-05-p1",
-        "so-extra20-n2-180-05-p2",
-        "so-extra20-n2-180-05-p3"
+        "so-created-n2-180-10-p1",
+        "so-created-n2-180-10-p2",
+        "so-created-n2-180-10-p3",
+        "so-created-n2-180-10-p4"
       ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '산 정상의 추위에 대비해 두꺼운 겉옷을 고를 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
       "sourceGrammarIds": [
-        "n2-180"
+        "n2-180",
+        "n2-167",
+        "n2-168",
+        "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-180-06",
+      "id": "so-created-n2-180-11",
       "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
+      "sentence": "料理を出す前に味見をするんだった。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
+      "korean": "요리를 내기 전에 맛을 볼 걸.",
       "pieces": [
         {
-          "id": "so-extra20-n2-180-06-p2",
-          "text": "勉強するん",
+          "id": "so-created-n2-180-11-p3",
+          "text": "味見をする",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-180-06-p3",
-          "text": "だった",
+          "id": "so-created-n2-180-11-p4",
+          "text": "んだった。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-180-06-p4",
-          "text": "こんなこと",
+          "id": "so-created-n2-180-11-p1",
+          "text": "料理を",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-180-06-p1",
-          "text": "ならもっと",
+          "id": "so-created-n2-180-11-p2",
+          "text": "出す前に",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-180-06-p4",
-        "so-extra20-n2-180-06-p1",
-        "so-extra20-n2-180-06-p2",
-        "so-extra20-n2-180-06-p3"
+        "so-created-n2-180-11-p1",
+        "so-created-n2-180-11-p2",
+        "so-created-n2-180-11-p3",
+        "so-created-n2-180-11-p4"
       ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '요리를 내기 전에 맛을 볼 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
       "sourceGrammarIds": [
-        "n2-180"
+        "n2-180",
+        "n2-167",
+        "n2-168",
+        "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-180-07",
+      "id": "so-created-n2-180-12",
       "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
+      "sentence": "駐車場の番号を写真に残すんだった。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
+      "korean": "주차장 번호를 사진으로 남겨 둘 걸.",
       "pieces": [
         {
-          "id": "so-extra20-n2-180-07-p1",
-          "text": "勉強するん",
+          "id": "so-created-n2-180-12-p2",
+          "text": "番号を",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-180-12-p3",
+          "text": "写真に残す",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-180-07-p2",
-          "text": "だった",
+          "id": "so-created-n2-180-12-p4",
+          "text": "んだった。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-180-07-p3",
-          "text": "こんなこと",
+          "id": "so-created-n2-180-12-p1",
+          "text": "駐車場の",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-180-07-p4",
-          "text": "ならもっと",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-180-07-p3",
-        "so-extra20-n2-180-07-p4",
-        "so-extra20-n2-180-07-p1",
-        "so-extra20-n2-180-07-p2"
+        "so-created-n2-180-12-p1",
+        "so-created-n2-180-12-p2",
+        "so-created-n2-180-12-p3",
+        "so-created-n2-180-12-p4"
       ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '주차장 번호를 사진으로 남겨 둘 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
       "sourceGrammarIds": [
-        "n2-180"
+        "n2-180",
+        "n2-167",
+        "n2-168",
+        "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-180-08",
+      "id": "so-created-n2-180-13",
       "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
+      "sentence": "大事なデータは別の端末にも保存するんだった。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
+      "korean": "중요한 데이터는 다른 기기에도 저장할 걸.",
       "pieces": [
         {
-          "id": "so-extra20-n2-180-08-p4",
-          "text": "勉強するん",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-180-08-p1",
-          "text": "だった",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-180-08-p2",
-          "text": "こんなこと",
+          "id": "so-created-n2-180-13-p1",
+          "text": "大事なデータは",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-180-08-p3",
-          "text": "ならもっと",
+          "id": "so-created-n2-180-13-p2",
+          "text": "別の端末にも",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-180-13-p3",
+          "text": "保存する",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-180-13-p4",
+          "text": "んだった。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-180-08-p2",
-        "so-extra20-n2-180-08-p3",
-        "so-extra20-n2-180-08-p4",
-        "so-extra20-n2-180-08-p1"
+        "so-created-n2-180-13-p1",
+        "so-created-n2-180-13-p2",
+        "so-created-n2-180-13-p3",
+        "so-created-n2-180-13-p4"
       ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '중요한 데이터는 다른 기기에도 저장할 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
       "sourceGrammarIds": [
-        "n2-180"
+        "n2-180",
+        "n2-167",
+        "n2-168",
+        "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-180-09",
+      "id": "so-created-n2-180-14",
       "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
+      "sentence": "渋滞を避けて一本早いバスに乗るんだった。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
+      "korean": "정체를 피해 한 대 이른 버스를 탈 걸.",
       "pieces": [
         {
-          "id": "so-extra20-n2-180-09-p3",
-          "text": "勉強するん",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-180-09-p4",
-          "text": "だった",
+          "id": "so-created-n2-180-14-p4",
+          "text": "んだった。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-180-09-p1",
-          "text": "こんなこと",
+          "id": "so-created-n2-180-14-p1",
+          "text": "渋滞を避けて",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-180-09-p2",
-          "text": "ならもっと",
+          "id": "so-created-n2-180-14-p2",
+          "text": "一本早い",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-180-14-p3",
+          "text": "バスに乗る",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-180-09-p1",
-        "so-extra20-n2-180-09-p2",
-        "so-extra20-n2-180-09-p3",
-        "so-extra20-n2-180-09-p4"
+        "so-created-n2-180-14-p1",
+        "so-created-n2-180-14-p2",
+        "so-created-n2-180-14-p3",
+        "so-created-n2-180-14-p4"
       ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '정체를 피해 한 대 이른 버스를 탈 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
       "sourceGrammarIds": [
-        "n2-180"
+        "n2-180",
+        "n2-167",
+        "n2-168",
+        "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-180-10",
+      "id": "so-created-n2-180-15",
       "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
+      "sentence": "猫が逃げないように網戸を閉めるんだった。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
+      "korean": "고양이가 달아나지 않도록 방충망을 닫을 걸.",
       "pieces": [
         {
-          "id": "so-extra20-n2-180-10-p2",
-          "text": "勉強するん",
+          "id": "so-created-n2-180-15-p3",
+          "text": "網戸を閉める",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-180-10-p3",
-          "text": "だった",
+          "id": "so-created-n2-180-15-p4",
+          "text": "んだった。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-180-10-p4",
-          "text": "こんなこと",
+          "id": "so-created-n2-180-15-p1",
+          "text": "猫が",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-180-10-p1",
-          "text": "ならもっと",
+          "id": "so-created-n2-180-15-p2",
+          "text": "逃げないように",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-180-10-p4",
-        "so-extra20-n2-180-10-p1",
-        "so-extra20-n2-180-10-p2",
-        "so-extra20-n2-180-10-p3"
+        "so-created-n2-180-15-p1",
+        "so-created-n2-180-15-p2",
+        "so-created-n2-180-15-p3",
+        "so-created-n2-180-15-p4"
       ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '고양이가 달아나지 않도록 방충망을 닫을 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
       "sourceGrammarIds": [
-        "n2-180"
+        "n2-180",
+        "n2-167",
+        "n2-168",
+        "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-180-11",
+      "id": "so-created-n2-180-16",
       "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
+      "sentence": "割引期間中に冷蔵庫を買い替えるんだった。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
+      "korean": "할인 기간에 냉장고를 바꿀 걸.",
       "pieces": [
         {
-          "id": "so-extra20-n2-180-11-p1",
-          "text": "ならもっと",
+          "id": "so-created-n2-180-16-p2",
+          "text": "中に冷蔵庫を",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-180-11-p2",
-          "text": "勉強するん",
+          "id": "so-created-n2-180-16-p3",
+          "text": "買い替える",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-180-11-p3",
-          "text": "だった",
+          "id": "so-created-n2-180-16-p4",
+          "text": "んだった。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-180-11-p4",
-          "text": "こんなこと",
+          "id": "so-created-n2-180-16-p1",
+          "text": "割引期間",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-180-11-p4",
-        "so-extra20-n2-180-11-p1",
-        "so-extra20-n2-180-11-p2",
-        "so-extra20-n2-180-11-p3"
+        "so-created-n2-180-16-p1",
+        "so-created-n2-180-16-p2",
+        "so-created-n2-180-16-p3",
+        "so-created-n2-180-16-p4"
       ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '할인 기간에 냉장고를 바꿀 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
       "sourceGrammarIds": [
-        "n2-180"
+        "n2-180",
+        "n2-167",
+        "n2-168",
+        "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-180-12",
+      "id": "so-created-n2-180-17",
       "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
+      "sentence": "弟の忠告を素直に受け入れるんだった。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
+      "korean": "남동생의 충고를 순순히 받아들일 걸.",
       "pieces": [
         {
-          "id": "so-extra20-n2-180-12-p4",
-          "text": "ならもっと",
+          "id": "so-created-n2-180-17-p1",
+          "text": "弟の忠告を",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-180-17-p2",
+          "text": "素直に",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-180-12-p1",
-          "text": "勉強するん",
+          "id": "so-created-n2-180-17-p3",
+          "text": "受け入れる",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-180-12-p2",
-          "text": "だった",
+          "id": "so-created-n2-180-17-p4",
+          "text": "んだった。",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-180-12-p3",
-          "text": "こんなこと",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-180-12-p3",
-        "so-extra20-n2-180-12-p4",
-        "so-extra20-n2-180-12-p1",
-        "so-extra20-n2-180-12-p2"
+        "so-created-n2-180-17-p1",
+        "so-created-n2-180-17-p2",
+        "so-created-n2-180-17-p3",
+        "so-created-n2-180-17-p4"
       ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '남동생의 충고를 순순히 받아들일 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
       "sourceGrammarIds": [
-        "n2-180"
+        "n2-180",
+        "n2-167",
+        "n2-168",
+        "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-180-13",
+      "id": "so-created-n2-180-18",
       "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
+      "sentence": "犬の散歩に出る前に玄関の鍵を確認するんだった。",
+      "sentenceWithBlanks": "犬の ____ ____ ____ ____",
+      "korean": "개를 산책시키러 나가기 전에 현관문 잠금을 확인할 걸.",
       "pieces": [
         {
-          "id": "so-extra20-n2-180-13-p3",
-          "text": "ならもっと",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-180-13-p4",
-          "text": "勉強するん",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-180-13-p1",
-          "text": "だった",
+          "id": "so-created-n2-180-18-p4",
+          "text": "んだった。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-180-13-p2",
-          "text": "こんなこと",
+          "id": "so-created-n2-180-18-p1",
+          "text": "散歩に出る",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-180-18-p2",
+          "text": "前に玄関の",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-180-18-p3",
+          "text": "鍵を確認する",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-180-13-p2",
-        "so-extra20-n2-180-13-p3",
-        "so-extra20-n2-180-13-p4",
-        "so-extra20-n2-180-13-p1"
+        "so-created-n2-180-18-p1",
+        "so-created-n2-180-18-p2",
+        "so-created-n2-180-18-p3",
+        "so-created-n2-180-18-p4"
       ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '개를 산책시키러 나가기 전에 현관문 잠금을 확인할 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
       "sourceGrammarIds": [
-        "n2-180"
+        "n2-180",
+        "n2-167",
+        "n2-168",
+        "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-180-14",
+      "id": "so-created-n2-180-19",
       "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
+      "sentence": "取引先へのメールに見積書を添付するんだった。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
+      "korean": "거래처에 보내는 메일에 견적서를 첨부할 걸.",
       "pieces": [
         {
-          "id": "so-extra20-n2-180-14-p2",
-          "text": "ならもっと",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-180-14-p3",
-          "text": "勉強するん",
+          "id": "so-created-n2-180-19-p3",
+          "text": "書を添付する",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-180-14-p4",
-          "text": "だった",
+          "id": "so-created-n2-180-19-p4",
+          "text": "んだった。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-180-14-p1",
-          "text": "こんなこと",
+          "id": "so-created-n2-180-19-p1",
+          "text": "取引先への",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-180-19-p2",
+          "text": "メールに見積",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-180-14-p1",
-        "so-extra20-n2-180-14-p2",
-        "so-extra20-n2-180-14-p3",
-        "so-extra20-n2-180-14-p4"
+        "so-created-n2-180-19-p1",
+        "so-created-n2-180-19-p2",
+        "so-created-n2-180-19-p3",
+        "so-created-n2-180-19-p4"
       ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '거래처에 보내는 메일에 견적서를 첨부할 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
       "sourceGrammarIds": [
-        "n2-180"
+        "n2-180",
+        "n2-167",
+        "n2-168",
+        "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-180-15",
+      "id": "so-created-n2-180-20",
       "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
+      "sentence": "祭りが終わる前に家族で写真を撮るんだった。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
+      "korean": "축제가 끝나기 전에 가족과 사진을 찍을 걸.",
       "pieces": [
         {
-          "id": "so-extra20-n2-180-15-p1",
-          "text": "ならもっと",
+          "id": "so-created-n2-180-20-p2",
+          "text": "前に家族で",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-180-15-p2",
-          "text": "勉強するん",
+          "id": "so-created-n2-180-20-p3",
+          "text": "写真を撮る",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-180-15-p3",
-          "text": "だった",
+          "id": "so-created-n2-180-20-p4",
+          "text": "んだった。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-180-15-p4",
-          "text": "こんなこと",
+          "id": "so-created-n2-180-20-p1",
+          "text": "祭りが終わる",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-180-15-p4",
-        "so-extra20-n2-180-15-p1",
-        "so-extra20-n2-180-15-p2",
-        "so-extra20-n2-180-15-p3"
+        "so-created-n2-180-20-p1",
+        "so-created-n2-180-20-p2",
+        "so-created-n2-180-20-p3",
+        "so-created-n2-180-20-p4"
       ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '축제가 끝나기 전에 가족과 사진을 찍을 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
       "sourceGrammarIds": [
-        "n2-180"
+        "n2-180",
+        "n2-167",
+        "n2-168",
+        "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-180-16",
+      "id": "so-created-n2-180-21",
       "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
+      "sentence": "庭仕事を始める前に虫よけを使うんだった。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
+      "korean": "정원 일을 시작하기 전에 벌레 퇴치제를 사용할 걸.",
       "pieces": [
         {
-          "id": "so-extra20-n2-180-16-p4",
-          "text": "こんなこと",
+          "id": "so-created-n2-180-21-p1",
+          "text": "庭仕事を",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-180-16-p1",
-          "text": "ならもっと",
+          "id": "so-created-n2-180-21-p2",
+          "text": "始める前に",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-180-16-p2",
-          "text": "勉強するん",
+          "id": "so-created-n2-180-21-p3",
+          "text": "虫よけを使う",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-180-16-p3",
-          "text": "だった",
+          "id": "so-created-n2-180-21-p4",
+          "text": "んだった。",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-180-16-p4",
-        "so-extra20-n2-180-16-p1",
-        "so-extra20-n2-180-16-p2",
-        "so-extra20-n2-180-16-p3"
+        "so-created-n2-180-21-p1",
+        "so-created-n2-180-21-p2",
+        "so-created-n2-180-21-p3",
+        "so-created-n2-180-21-p4"
       ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '정원 일을 시작하기 전에 벌레 퇴치제를 사용할 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
       "sourceGrammarIds": [
-        "n2-180"
+        "n2-180",
+        "n2-167",
+        "n2-168",
+        "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-180-17",
+      "id": "so-created-n2-180-22",
       "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
+      "sentence": "故障した時計を捨てずに修理へ出すんだった。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
+      "korean": "고장 난 시계를 버리지 말고 수리를 맡길 걸.",
       "pieces": [
         {
-          "id": "so-extra20-n2-180-17-p3",
-          "text": "こんなこと",
+          "id": "so-created-n2-180-22-p4",
+          "text": "んだった。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-180-22-p1",
+          "text": "故障した",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-180-17-p4",
-          "text": "ならもっと",
+          "id": "so-created-n2-180-22-p2",
+          "text": "時計を捨てずに",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-180-17-p1",
-          "text": "勉強するん",
+          "id": "so-created-n2-180-22-p3",
+          "text": "修理へ出す",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-180-17-p2",
-          "text": "だった",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-180-17-p3",
-        "so-extra20-n2-180-17-p4",
-        "so-extra20-n2-180-17-p1",
-        "so-extra20-n2-180-17-p2"
+        "so-created-n2-180-22-p1",
+        "so-created-n2-180-22-p2",
+        "so-created-n2-180-22-p3",
+        "so-created-n2-180-22-p4"
       ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '고장 난 시계를 버리지 말고 수리를 맡길 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
       "sourceGrammarIds": [
-        "n2-180"
+        "n2-180",
+        "n2-167",
+        "n2-168",
+        "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-180-18",
+      "id": "so-created-n2-180-23",
       "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
+      "sentence": "空港で慌てないように荷物の重さを量るんだった。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
+      "korean": "공항에서 당황하지 않도록 짐 무게를 재 볼 걸.",
       "pieces": [
         {
-          "id": "so-extra20-n2-180-18-p2",
-          "text": "こんなこと",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-180-18-p3",
-          "text": "ならもっと",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-180-18-p4",
-          "text": "勉強するん",
+          "id": "so-created-n2-180-23-p3",
+          "text": "荷物の重さを",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-180-18-p1",
-          "text": "だった",
+          "id": "so-created-n2-180-23-p4",
+          "text": "量るんだった。",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-180-23-p1",
+          "text": "空港で",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-180-23-p2",
+          "text": "慌てないように",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-180-18-p2",
-        "so-extra20-n2-180-18-p3",
-        "so-extra20-n2-180-18-p4",
-        "so-extra20-n2-180-18-p1"
+        "so-created-n2-180-23-p1",
+        "so-created-n2-180-23-p2",
+        "so-created-n2-180-23-p3",
+        "so-created-n2-180-23-p4"
       ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '공항에서 당황하지 않도록 짐 무게를 재 볼 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
       "sourceGrammarIds": [
-        "n2-180"
+        "n2-180",
+        "n2-167",
+        "n2-168",
+        "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-180-19",
+      "id": "so-created-n2-180-24",
       "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
+      "sentence": "店を閉める前にレジの釣り銭を数えるんだった。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
+      "korean": "가게를 닫기 전에 계산대의 거스름돈을 셀 걸.",
       "pieces": [
         {
-          "id": "so-extra20-n2-180-19-p1",
-          "text": "こんなこと",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-180-19-p2",
-          "text": "ならもっと",
+          "id": "so-created-n2-180-24-p2",
+          "text": "前にレジの",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-180-19-p3",
-          "text": "勉強するん",
+          "id": "so-created-n2-180-24-p3",
+          "text": "釣り銭を数える",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-180-19-p4",
-          "text": "だった",
+          "id": "so-created-n2-180-24-p4",
+          "text": "んだった。",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-180-24-p1",
+          "text": "店を閉める",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-180-19-p1",
-        "so-extra20-n2-180-19-p2",
-        "so-extra20-n2-180-19-p3",
-        "so-extra20-n2-180-19-p4"
+        "so-created-n2-180-24-p1",
+        "so-created-n2-180-24-p2",
+        "so-created-n2-180-24-p3",
+        "so-created-n2-180-24-p4"
       ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '가게를 닫기 전에 계산대의 거스름돈을 셀 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
       "sourceGrammarIds": [
-        "n2-180"
+        "n2-180",
+        "n2-167",
+        "n2-168",
+        "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-180-20",
+      "id": "so-created-n2-180-25",
       "level": "N2",
-      "sentence": "こんなことならもっと勉強するんだった。",
+      "sentence": "彼女が町を離れる前に気持ちを伝えるんだった。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "이럴 줄 알았으면 더 공부할 걸.",
+      "korean": "그녀가 도시를 떠나기 전에 마음을 전할 걸.",
       "pieces": [
         {
-          "id": "so-extra20-n2-180-20-p4",
-          "text": "こんなこと",
+          "id": "so-created-n2-180-25-p1",
+          "text": "彼女が町を",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-180-20-p1",
-          "text": "ならもっと",
+          "id": "so-created-n2-180-25-p2",
+          "text": "離れる前に",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-180-20-p2",
-          "text": "勉強するん",
+          "id": "so-created-n2-180-25-p3",
+          "text": "気持ちを伝える",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-180-20-p3",
-          "text": "だった",
+          "id": "so-created-n2-180-25-p4",
+          "text": "んだった。",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-180-20-p4",
-        "so-extra20-n2-180-20-p1",
-        "so-extra20-n2-180-20-p2",
-        "so-extra20-n2-180-20-p3"
+        "so-created-n2-180-25-p1",
+        "so-created-n2-180-25-p2",
+        "so-created-n2-180-25-p3",
+        "so-created-n2-180-25-p4"
       ],
-      "explanation": "「んだった」는 ~할 걸, ~하면 좋았을 텐데라는 뜻이다. 후회.",
+      "explanation": "「んだった」는 '~할 걸, ~하면 좋았을 텐데'라는 뜻을 나타낸다. 이 문장에서는 '그녀가 도시를 떠나기 전에 마음을 전할 걸.'라는 상황에 쓰였으며, 후회. 주의할 점은 「もっと勉強するんだった」처럼 후회. ばよかった와 거의 동의지만 んだった가 더 구어적.",
       "sourceGrammarIds": [
-        "n2-180"
+        "n2-180",
+        "n2-167",
+        "n2-168",
+        "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     }
   ]

@@ -267,15 +267,23 @@
       ]
     },
     {
-      "id": "fb-extra-n2-103-1",
+      "id": "fb-created-n2-103-01",
       "level": "N2",
-      "sentence": "難しいが、できなくもない。",
-      "sentenceWithBlank": "難しいが、でき（　　　）。",
-      "korean": "어렵지만 못 할 것도 없다.",
-      "answerChoiceId": "fb-extra-n2-103-1-d",
+      "sentence": "終電は出たが、駅から家まで歩いて帰れなくもない。",
+      "sentenceWithBlank": "終電は出たが、駅から家まで歩いて帰れ（　　　）。",
+      "korean": "막차는 떠났지만, 역에서 집까지 걸어서 돌아가지 못할 것도 없다.",
+      "answerChoiceId": "fb-created-n2-103-01-d",
       "choices": [
         {
-          "id": "fb-extra-n2-103-1-a",
+          "id": "fb-created-n2-103-01-d",
+          "text": "なくもない",
+          "grammarId": "n2-103",
+          "baseExpression": "なくもない",
+          "conjugatedExpression": "なくもない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-103-01-a",
           "text": "べきだ",
           "grammarId": "n2-145",
           "baseExpression": "べきだ",
@@ -283,7 +291,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-103-1-b",
+          "id": "fb-created-n2-103-01-b",
           "text": "まい",
           "grammarId": "n2-146",
           "baseExpression": "まい",
@@ -291,23 +299,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-103-1-c",
+          "id": "fb-created-n2-103-01-c",
           "text": "まい",
           "grammarId": "n2-147",
           "baseExpression": "まい",
           "conjugatedExpression": "まい",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-103-1-d",
-          "text": "なくもない",
-          "grammarId": "n2-103",
-          "baseExpression": "なくもない",
-          "conjugatedExpression": "なくもない",
-          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '막차는 떠났지만, 역에서 집까지 걸어서 돌아가지 못할 것도 없다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
       "sourceGrammarIds": [
         "n2-103",
         "n2-145",
@@ -315,237 +315,20 @@
         "n2-147"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra-n2-103-2",
+      "id": "fb-created-n2-103-02",
       "level": "N2",
-      "sentence": "難しいが、できなくもない。",
-      "sentenceWithBlank": "難しいが、でき（　　　）。",
-      "korean": "어렵지만 못 할 것도 없다.",
-      "answerChoiceId": "fb-extra-n2-103-2-a",
+      "sentence": "この傷なら、丁寧に磨けば目立たなくもない。",
+      "sentenceWithBlank": "この傷なら、丁寧に磨けば目立た（　　　）。",
+      "korean": "이 흠집이라면 정성껏 닦으면 눈에 띄지 않을 수도 있다.",
+      "answerChoiceId": "fb-created-n2-103-02-d",
       "choices": [
         {
-          "id": "fb-extra-n2-103-2-b",
-          "text": "といえば",
-          "grammarId": "n2-083",
-          "baseExpression": "といえば",
-          "conjugatedExpression": "といえば",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-103-2-c",
-          "text": "とかといった",
-          "grammarId": "n2-084",
-          "baseExpression": "とかといった",
-          "conjugatedExpression": "とかといった",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-103-2-d",
-          "text": "といったら",
-          "grammarId": "n2-085",
-          "baseExpression": "といったら",
-          "conjugatedExpression": "といったら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-103-2-a",
-          "text": "なくもない",
-          "grammarId": "n2-103",
-          "baseExpression": "なくもない",
-          "conjugatedExpression": "なくもない",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
-      "sourceGrammarIds": [
-        "n2-103",
-        "n2-083",
-        "n2-084",
-        "n2-085"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-103-3",
-      "level": "N2",
-      "sentence": "難しいが、できなくもない。",
-      "sentenceWithBlank": "難しいが、でき（　　　）。",
-      "korean": "어렵지만 못 할 것도 없다.",
-      "answerChoiceId": "fb-extra-n2-103-3-b",
-      "choices": [
-        {
-          "id": "fb-extra-n2-103-3-c",
-          "text": "ようものなら",
-          "grammarId": "n2-167",
-          "baseExpression": "ようものなら",
-          "conjugatedExpression": "ようものなら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-103-3-d",
-          "text": "わけがない",
-          "grammarId": "n2-168",
-          "baseExpression": "わけがない",
-          "conjugatedExpression": "わけがない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-103-3-a",
-          "text": "わけではない",
-          "grammarId": "n2-169",
-          "baseExpression": "わけではない",
-          "conjugatedExpression": "わけではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-103-3-b",
-          "text": "なくもない",
-          "grammarId": "n2-103",
-          "baseExpression": "なくもない",
-          "conjugatedExpression": "なくもない",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
-      "sourceGrammarIds": [
-        "n2-103",
-        "n2-167",
-        "n2-168",
-        "n2-169"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-103-4",
-      "level": "N2",
-      "sentence": "難しいが、できなくもない。",
-      "sentenceWithBlank": "難しいが、でき（　　　）。",
-      "korean": "어렵지만 못 할 것도 없다.",
-      "answerChoiceId": "fb-extra-n2-103-4-c",
-      "choices": [
-        {
-          "id": "fb-extra-n2-103-4-d",
-          "text": "を抜きにして",
-          "grammarId": "n2-174",
-          "baseExpression": "を抜きにして",
-          "conjugatedExpression": "を抜きにして",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-103-4-a",
-          "text": "をはじめ",
-          "grammarId": "n2-175",
-          "baseExpression": "をはじめ",
-          "conjugatedExpression": "をはじめ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-103-4-b",
-          "text": "をめぐって",
-          "grammarId": "n2-176",
-          "baseExpression": "をめぐって",
-          "conjugatedExpression": "をめぐって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-103-4-c",
-          "text": "なくもない",
-          "grammarId": "n2-103",
-          "baseExpression": "なくもない",
-          "conjugatedExpression": "なくもない",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
-      "sourceGrammarIds": [
-        "n2-103",
-        "n2-174",
-        "n2-175",
-        "n2-176"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-103-5",
-      "level": "N2",
-      "sentence": "難しいが、できなくもない。",
-      "sentenceWithBlank": "難しいが、でき（　　　）。",
-      "korean": "어렵지만 못 할 것도 없다.",
-      "answerChoiceId": "fb-extra-n2-103-5-d",
-      "choices": [
-        {
-          "id": "fb-extra-n2-103-5-a",
-          "text": "に先立って",
-          "grammarId": "n2-117",
-          "baseExpression": "に先立って",
-          "conjugatedExpression": "に先立って",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-103-5-b",
-          "text": "にしたところで",
-          "grammarId": "n2-118",
-          "baseExpression": "にしたところで",
-          "conjugatedExpression": "にしたところで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-103-5-c",
-          "text": "にしたら",
-          "grammarId": "n2-119",
-          "baseExpression": "にしたら",
-          "conjugatedExpression": "にしたら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-103-5-d",
-          "text": "なくもない",
-          "grammarId": "n2-103",
-          "baseExpression": "なくもない",
-          "conjugatedExpression": "なくもない",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
-      "sourceGrammarIds": [
-        "n2-103",
-        "n2-117",
-        "n2-118",
-        "n2-119"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-103-01",
-      "level": "N2",
-      "sentence": "難しいが、できなくもない。",
-      "sentenceWithBlank": "難しいが、でき（　　　）。",
-      "korean": "어렵지만 못 할 것도 없다.",
-      "answerChoiceId": "fb-extra20-n2-103-01-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-103-01-a",
+          "id": "fb-created-n2-103-02-a",
           "text": "べきだ",
           "grammarId": "n2-145",
           "baseExpression": "べきだ",
@@ -553,7 +336,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-103-01-b",
+          "id": "fb-created-n2-103-02-b",
           "text": "まい",
           "grammarId": "n2-146",
           "baseExpression": "まい",
@@ -561,7 +344,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-103-01-c",
+          "id": "fb-created-n2-103-02-c",
           "text": "まい",
           "grammarId": "n2-147",
           "baseExpression": "まい",
@@ -569,7 +352,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-103-01-d",
+          "id": "fb-created-n2-103-02-d",
           "text": "なくもない",
           "grammarId": "n2-103",
           "baseExpression": "なくもない",
@@ -577,7 +360,7 @@
           "isSimilarDistractor": false
         }
       ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '이 흠집이라면 정성껏 닦으면 눈에 띄지 않을 수도 있다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
       "sourceGrammarIds": [
         "n2-103",
         "n2-145",
@@ -585,253 +368,20 @@
         "n2-147"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-103-02",
+      "id": "fb-created-n2-103-03",
       "level": "N2",
-      "sentence": "難しいが、できなくもない。",
-      "sentenceWithBlank": "難しいが、でき（　　　）。",
-      "korean": "어렵지만 못 할 것도 없다.",
-      "answerChoiceId": "fb-extra20-n2-103-02-a",
+      "sentence": "予算を少し増やせば、海の見える部屋を選べなくもない。",
+      "sentenceWithBlank": "予算を少し増やせば、海の見える部屋を選べ（　　　）。",
+      "korean": "예산을 조금 늘리면 바다가 보이는 방을 선택하지 못할 것도 없다.",
+      "answerChoiceId": "fb-created-n2-103-03-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-103-02-d",
-          "text": "といったら",
-          "grammarId": "n2-085",
-          "baseExpression": "といったら",
-          "conjugatedExpression": "といったら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-103-02-a",
-          "text": "なくもない",
-          "grammarId": "n2-103",
-          "baseExpression": "なくもない",
-          "conjugatedExpression": "なくもない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-103-02-b",
-          "text": "といえば",
-          "grammarId": "n2-083",
-          "baseExpression": "といえば",
-          "conjugatedExpression": "といえば",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-103-02-c",
-          "text": "とかといった",
-          "grammarId": "n2-084",
-          "baseExpression": "とかといった",
-          "conjugatedExpression": "とかといった",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
-      "sourceGrammarIds": [
-        "n2-103",
-        "n2-083",
-        "n2-084",
-        "n2-085"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-103-03",
-      "level": "N2",
-      "sentence": "難しいが、できなくもない。",
-      "sentenceWithBlank": "難しいが、でき（　　　）。",
-      "korean": "어렵지만 못 할 것도 없다.",
-      "answerChoiceId": "fb-extra20-n2-103-03-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-103-03-c",
-          "text": "ようものなら",
-          "grammarId": "n2-167",
-          "baseExpression": "ようものなら",
-          "conjugatedExpression": "ようものなら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-103-03-d",
-          "text": "わけがない",
-          "grammarId": "n2-168",
-          "baseExpression": "わけがない",
-          "conjugatedExpression": "わけがない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-103-03-a",
-          "text": "わけではない",
-          "grammarId": "n2-169",
-          "baseExpression": "わけではない",
-          "conjugatedExpression": "わけではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-103-03-b",
-          "text": "なくもない",
-          "grammarId": "n2-103",
-          "baseExpression": "なくもない",
-          "conjugatedExpression": "なくもない",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
-      "sourceGrammarIds": [
-        "n2-103",
-        "n2-167",
-        "n2-168",
-        "n2-169"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-103-04",
-      "level": "N2",
-      "sentence": "難しいが、できなくもない。",
-      "sentenceWithBlank": "難しいが、でき（　　　）。",
-      "korean": "어렵지만 못 할 것도 없다.",
-      "answerChoiceId": "fb-extra20-n2-103-04-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-103-04-b",
-          "text": "をめぐって",
-          "grammarId": "n2-176",
-          "baseExpression": "をめぐって",
-          "conjugatedExpression": "をめぐって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-103-04-c",
-          "text": "なくもない",
-          "grammarId": "n2-103",
-          "baseExpression": "なくもない",
-          "conjugatedExpression": "なくもない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-103-04-d",
-          "text": "を抜きにして",
-          "grammarId": "n2-174",
-          "baseExpression": "を抜きにして",
-          "conjugatedExpression": "を抜きにして",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-103-04-a",
-          "text": "をはじめ",
-          "grammarId": "n2-175",
-          "baseExpression": "をはじめ",
-          "conjugatedExpression": "をはじめ",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
-      "sourceGrammarIds": [
-        "n2-103",
-        "n2-174",
-        "n2-175",
-        "n2-176"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-103-05",
-      "level": "N2",
-      "sentence": "難しいが、できなくもない。",
-      "sentenceWithBlank": "難しいが、でき（　　　）。",
-      "korean": "어렵지만 못 할 것도 없다.",
-      "answerChoiceId": "fb-extra20-n2-103-05-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-103-05-a",
-          "text": "に先立って",
-          "grammarId": "n2-117",
-          "baseExpression": "に先立って",
-          "conjugatedExpression": "に先立って",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-103-05-b",
-          "text": "にしたところで",
-          "grammarId": "n2-118",
-          "baseExpression": "にしたところで",
-          "conjugatedExpression": "にしたところで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-103-05-c",
-          "text": "にしたら",
-          "grammarId": "n2-119",
-          "baseExpression": "にしたら",
-          "conjugatedExpression": "にしたら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-103-05-d",
-          "text": "なくもない",
-          "grammarId": "n2-103",
-          "baseExpression": "なくもない",
-          "conjugatedExpression": "なくもない",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
-      "sourceGrammarIds": [
-        "n2-103",
-        "n2-117",
-        "n2-118",
-        "n2-119"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-103-06",
-      "level": "N2",
-      "sentence": "難しいが、できなくもない。",
-      "sentenceWithBlank": "難しいが、でき（　　　）。",
-      "korean": "어렵지만 못 할 것도 없다.",
-      "answerChoiceId": "fb-extra20-n2-103-06-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-103-06-d",
-          "text": "なくもない",
-          "grammarId": "n2-103",
-          "baseExpression": "なくもない",
-          "conjugatedExpression": "なくもない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-103-06-a",
-          "text": "べきだ",
-          "grammarId": "n2-145",
-          "baseExpression": "べきだ",
-          "conjugatedExpression": "べきだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-103-06-b",
+          "id": "fb-created-n2-103-03-b",
           "text": "まい",
           "grammarId": "n2-146",
           "baseExpression": "まい",
@@ -839,253 +389,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-103-06-c",
-          "text": "まい",
-          "grammarId": "n2-147",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
-      "sourceGrammarIds": [
-        "n2-103",
-        "n2-145",
-        "n2-146",
-        "n2-147"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-103-07",
-      "level": "N2",
-      "sentence": "難しいが、できなくもない。",
-      "sentenceWithBlank": "難しいが、でき（　　　）。",
-      "korean": "어렵지만 못 할 것도 없다.",
-      "answerChoiceId": "fb-extra20-n2-103-07-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-103-07-c",
-          "text": "とかといった",
-          "grammarId": "n2-084",
-          "baseExpression": "とかといった",
-          "conjugatedExpression": "とかといった",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-103-07-d",
-          "text": "といったら",
-          "grammarId": "n2-085",
-          "baseExpression": "といったら",
-          "conjugatedExpression": "といったら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-103-07-a",
-          "text": "なくもない",
-          "grammarId": "n2-103",
-          "baseExpression": "なくもない",
-          "conjugatedExpression": "なくもない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-103-07-b",
-          "text": "といえば",
-          "grammarId": "n2-083",
-          "baseExpression": "といえば",
-          "conjugatedExpression": "といえば",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
-      "sourceGrammarIds": [
-        "n2-103",
-        "n2-083",
-        "n2-084",
-        "n2-085"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-103-08",
-      "level": "N2",
-      "sentence": "難しいが、できなくもない。",
-      "sentenceWithBlank": "難しいが、でき（　　　）。",
-      "korean": "어렵지만 못 할 것도 없다.",
-      "answerChoiceId": "fb-extra20-n2-103-08-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-103-08-b",
-          "text": "なくもない",
-          "grammarId": "n2-103",
-          "baseExpression": "なくもない",
-          "conjugatedExpression": "なくもない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-103-08-c",
-          "text": "ようものなら",
-          "grammarId": "n2-167",
-          "baseExpression": "ようものなら",
-          "conjugatedExpression": "ようものなら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-103-08-d",
-          "text": "わけがない",
-          "grammarId": "n2-168",
-          "baseExpression": "わけがない",
-          "conjugatedExpression": "わけがない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-103-08-a",
-          "text": "わけではない",
-          "grammarId": "n2-169",
-          "baseExpression": "わけではない",
-          "conjugatedExpression": "わけではない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
-      "sourceGrammarIds": [
-        "n2-103",
-        "n2-167",
-        "n2-168",
-        "n2-169"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-103-09",
-      "level": "N2",
-      "sentence": "難しいが、できなくもない。",
-      "sentenceWithBlank": "難しいが、でき（　　　）。",
-      "korean": "어렵지만 못 할 것도 없다.",
-      "answerChoiceId": "fb-extra20-n2-103-09-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-103-09-a",
-          "text": "をはじめ",
-          "grammarId": "n2-175",
-          "baseExpression": "をはじめ",
-          "conjugatedExpression": "をはじめ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-103-09-b",
-          "text": "をめぐって",
-          "grammarId": "n2-176",
-          "baseExpression": "をめぐって",
-          "conjugatedExpression": "をめぐって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-103-09-c",
-          "text": "なくもない",
-          "grammarId": "n2-103",
-          "baseExpression": "なくもない",
-          "conjugatedExpression": "なくもない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-103-09-d",
-          "text": "を抜きにして",
-          "grammarId": "n2-174",
-          "baseExpression": "を抜きにして",
-          "conjugatedExpression": "を抜きにして",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
-      "sourceGrammarIds": [
-        "n2-103",
-        "n2-174",
-        "n2-175",
-        "n2-176"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-103-10",
-      "level": "N2",
-      "sentence": "難しいが、できなくもない。",
-      "sentenceWithBlank": "難しいが、でき（　　　）。",
-      "korean": "어렵지만 못 할 것도 없다.",
-      "answerChoiceId": "fb-extra20-n2-103-10-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-103-10-d",
-          "text": "なくもない",
-          "grammarId": "n2-103",
-          "baseExpression": "なくもない",
-          "conjugatedExpression": "なくもない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-103-10-a",
-          "text": "に先立って",
-          "grammarId": "n2-117",
-          "baseExpression": "に先立って",
-          "conjugatedExpression": "に先立って",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-103-10-b",
-          "text": "にしたところで",
-          "grammarId": "n2-118",
-          "baseExpression": "にしたところで",
-          "conjugatedExpression": "にしたところで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-103-10-c",
-          "text": "にしたら",
-          "grammarId": "n2-119",
-          "baseExpression": "にしたら",
-          "conjugatedExpression": "にしたら",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
-      "sourceGrammarIds": [
-        "n2-103",
-        "n2-117",
-        "n2-118",
-        "n2-119"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-103-11",
-      "level": "N2",
-      "sentence": "難しいが、できなくもない。",
-      "sentenceWithBlank": "難しいが、でき（　　　）。",
-      "korean": "어렵지만 못 할 것도 없다.",
-      "answerChoiceId": "fb-extra20-n2-103-11-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-103-11-c",
+          "id": "fb-created-n2-103-03-c",
           "text": "まい",
           "grammarId": "n2-147",
           "baseExpression": "まい",
@@ -1093,7 +397,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-103-11-d",
+          "id": "fb-created-n2-103-03-d",
           "text": "なくもない",
           "grammarId": "n2-103",
           "baseExpression": "なくもない",
@@ -1101,285 +405,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-103-11-a",
-          "text": "べきだ",
-          "grammarId": "n2-145",
-          "baseExpression": "べきだ",
-          "conjugatedExpression": "べきだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-103-11-b",
-          "text": "まい",
-          "grammarId": "n2-146",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
-      "sourceGrammarIds": [
-        "n2-103",
-        "n2-145",
-        "n2-146",
-        "n2-147"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-103-12",
-      "level": "N2",
-      "sentence": "難しいが、できなくもない。",
-      "sentenceWithBlank": "難しいが、でき（　　　）。",
-      "korean": "어렵지만 못 할 것도 없다.",
-      "answerChoiceId": "fb-extra20-n2-103-12-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-103-12-b",
-          "text": "といえば",
-          "grammarId": "n2-083",
-          "baseExpression": "といえば",
-          "conjugatedExpression": "といえば",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-103-12-c",
-          "text": "とかといった",
-          "grammarId": "n2-084",
-          "baseExpression": "とかといった",
-          "conjugatedExpression": "とかといった",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-103-12-d",
-          "text": "といったら",
-          "grammarId": "n2-085",
-          "baseExpression": "といったら",
-          "conjugatedExpression": "といったら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-103-12-a",
-          "text": "なくもない",
-          "grammarId": "n2-103",
-          "baseExpression": "なくもない",
-          "conjugatedExpression": "なくもない",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
-      "sourceGrammarIds": [
-        "n2-103",
-        "n2-083",
-        "n2-084",
-        "n2-085"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-103-13",
-      "level": "N2",
-      "sentence": "難しいが、できなくもない。",
-      "sentenceWithBlank": "難しいが、でき（　　　）。",
-      "korean": "어렵지만 못 할 것도 없다.",
-      "answerChoiceId": "fb-extra20-n2-103-13-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-103-13-a",
-          "text": "わけではない",
-          "grammarId": "n2-169",
-          "baseExpression": "わけではない",
-          "conjugatedExpression": "わけではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-103-13-b",
-          "text": "なくもない",
-          "grammarId": "n2-103",
-          "baseExpression": "なくもない",
-          "conjugatedExpression": "なくもない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-103-13-c",
-          "text": "ようものなら",
-          "grammarId": "n2-167",
-          "baseExpression": "ようものなら",
-          "conjugatedExpression": "ようものなら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-103-13-d",
-          "text": "わけがない",
-          "grammarId": "n2-168",
-          "baseExpression": "わけがない",
-          "conjugatedExpression": "わけがない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
-      "sourceGrammarIds": [
-        "n2-103",
-        "n2-167",
-        "n2-168",
-        "n2-169"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-103-14",
-      "level": "N2",
-      "sentence": "難しいが、できなくもない。",
-      "sentenceWithBlank": "難しいが、でき（　　　）。",
-      "korean": "어렵지만 못 할 것도 없다.",
-      "answerChoiceId": "fb-extra20-n2-103-14-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-103-14-d",
-          "text": "を抜きにして",
-          "grammarId": "n2-174",
-          "baseExpression": "を抜きにして",
-          "conjugatedExpression": "を抜きにして",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-103-14-a",
-          "text": "をはじめ",
-          "grammarId": "n2-175",
-          "baseExpression": "をはじめ",
-          "conjugatedExpression": "をはじめ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-103-14-b",
-          "text": "をめぐって",
-          "grammarId": "n2-176",
-          "baseExpression": "をめぐって",
-          "conjugatedExpression": "をめぐって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-103-14-c",
-          "text": "なくもない",
-          "grammarId": "n2-103",
-          "baseExpression": "なくもない",
-          "conjugatedExpression": "なくもない",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
-      "sourceGrammarIds": [
-        "n2-103",
-        "n2-174",
-        "n2-175",
-        "n2-176"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-103-15",
-      "level": "N2",
-      "sentence": "難しいが、できなくもない。",
-      "sentenceWithBlank": "難しいが、でき（　　　）。",
-      "korean": "어렵지만 못 할 것도 없다.",
-      "answerChoiceId": "fb-extra20-n2-103-15-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-103-15-c",
-          "text": "にしたら",
-          "grammarId": "n2-119",
-          "baseExpression": "にしたら",
-          "conjugatedExpression": "にしたら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-103-15-d",
-          "text": "なくもない",
-          "grammarId": "n2-103",
-          "baseExpression": "なくもない",
-          "conjugatedExpression": "なくもない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-103-15-a",
-          "text": "に先立って",
-          "grammarId": "n2-117",
-          "baseExpression": "に先立って",
-          "conjugatedExpression": "に先立って",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-103-15-b",
-          "text": "にしたところで",
-          "grammarId": "n2-118",
-          "baseExpression": "にしたところで",
-          "conjugatedExpression": "にしたところで",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
-      "sourceGrammarIds": [
-        "n2-103",
-        "n2-117",
-        "n2-118",
-        "n2-119"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-103-16",
-      "level": "N2",
-      "sentence": "難しいが、できなくもない。",
-      "sentenceWithBlank": "難しいが、でき（　　　）。",
-      "korean": "어렵지만 못 할 것도 없다.",
-      "answerChoiceId": "fb-extra20-n2-103-16-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-103-16-b",
-          "text": "まい",
-          "grammarId": "n2-146",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-103-16-c",
-          "text": "まい",
-          "grammarId": "n2-147",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-103-16-d",
-          "text": "なくもない",
-          "grammarId": "n2-103",
-          "baseExpression": "なくもない",
-          "conjugatedExpression": "なくもない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-103-16-a",
+          "id": "fb-created-n2-103-03-a",
           "text": "べきだ",
           "grammarId": "n2-145",
           "baseExpression": "べきだ",
@@ -1387,7 +413,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '예산을 조금 늘리면 바다가 보이는 방을 선택하지 못할 것도 없다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
       "sourceGrammarIds": [
         "n2-103",
         "n2-145",
@@ -1395,21 +421,28 @@
         "n2-147"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-103-17",
+      "id": "fb-created-n2-103-04",
       "level": "N2",
-      "sentence": "難しいが、できなくもない。",
-      "sentenceWithBlank": "難しいが、でき（　　　）。",
-      "korean": "어렵지만 못 할 것도 없다.",
-      "answerChoiceId": "fb-extra20-n2-103-17-a",
+      "sentence": "香辛料は強いが、このカレーも食べられなくもない。",
+      "sentenceWithBlank": "香辛料は強いが、このカレーも食べられ（　　　）。",
+      "korean": "향신료 맛이 강하지만, 이 카레도 못 먹을 정도는 아니다.",
+      "answerChoiceId": "fb-created-n2-103-04-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-103-17-a",
+          "id": "fb-created-n2-103-04-c",
+          "text": "まい",
+          "grammarId": "n2-147",
+          "baseExpression": "まい",
+          "conjugatedExpression": "まい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-04-d",
           "text": "なくもない",
           "grammarId": "n2-103",
           "baseExpression": "なくもない",
@@ -1417,69 +450,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-103-17-b",
-          "text": "といえば",
-          "grammarId": "n2-083",
-          "baseExpression": "といえば",
-          "conjugatedExpression": "といえば",
+          "id": "fb-created-n2-103-04-a",
+          "text": "べきだ",
+          "grammarId": "n2-145",
+          "baseExpression": "べきだ",
+          "conjugatedExpression": "べきだ",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-103-17-c",
-          "text": "とかといった",
-          "grammarId": "n2-084",
-          "baseExpression": "とかといった",
-          "conjugatedExpression": "とかといった",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-103-17-d",
-          "text": "といったら",
-          "grammarId": "n2-085",
-          "baseExpression": "といったら",
-          "conjugatedExpression": "といったら",
+          "id": "fb-created-n2-103-04-b",
+          "text": "まい",
+          "grammarId": "n2-146",
+          "baseExpression": "まい",
+          "conjugatedExpression": "まい",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '향신료 맛이 강하지만, 이 카레도 못 먹을 정도는 아니다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
       "sourceGrammarIds": [
         "n2-103",
-        "n2-083",
-        "n2-084",
-        "n2-085"
+        "n2-145",
+        "n2-146",
+        "n2-147"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-103-18",
+      "id": "fb-created-n2-103-05",
       "level": "N2",
-      "sentence": "難しいが、できなくもない。",
-      "sentenceWithBlank": "難しいが、でき（　　　）。",
-      "korean": "어렵지만 못 할 것도 없다.",
-      "answerChoiceId": "fb-extra20-n2-103-18-b",
+      "sentence": "三日あれば、壊れた門を一人で直せなくもない。",
+      "sentenceWithBlank": "三日あれば、壊れた門を一人で直せ（　　　）。",
+      "korean": "사흘이 있으면 망가진 문을 혼자 고치지 못할 것도 없다.",
+      "answerChoiceId": "fb-created-n2-103-05-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-103-18-d",
-          "text": "わけがない",
-          "grammarId": "n2-168",
-          "baseExpression": "わけがない",
-          "conjugatedExpression": "わけがない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-103-18-a",
-          "text": "わけではない",
-          "grammarId": "n2-169",
-          "baseExpression": "わけではない",
-          "conjugatedExpression": "わけではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-103-18-b",
+          "id": "fb-created-n2-103-05-d",
           "text": "なくもない",
           "grammarId": "n2-103",
           "baseExpression": "なくもない",
@@ -1487,37 +495,121 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-103-18-c",
-          "text": "ようものなら",
-          "grammarId": "n2-167",
-          "baseExpression": "ようものなら",
-          "conjugatedExpression": "ようものなら",
+          "id": "fb-created-n2-103-05-a",
+          "text": "べきだ",
+          "grammarId": "n2-145",
+          "baseExpression": "べきだ",
+          "conjugatedExpression": "べきだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-05-b",
+          "text": "まい",
+          "grammarId": "n2-146",
+          "baseExpression": "まい",
+          "conjugatedExpression": "まい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-05-c",
+          "text": "まい",
+          "grammarId": "n2-147",
+          "baseExpression": "まい",
+          "conjugatedExpression": "まい",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '사흘이 있으면 망가진 문을 혼자 고치지 못할 것도 없다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
       "sourceGrammarIds": [
         "n2-103",
-        "n2-167",
-        "n2-168",
-        "n2-169"
+        "n2-145",
+        "n2-146",
+        "n2-147"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-103-19",
+      "id": "fb-created-n2-103-06",
       "level": "N2",
-      "sentence": "難しいが、できなくもない。",
-      "sentenceWithBlank": "難しいが、でき（　　　）。",
-      "korean": "어렵지만 못 할 것도 없다.",
-      "answerChoiceId": "fb-extra20-n2-103-19-c",
+      "sentence": "彼の事情を聞くと、約束を破った理由も理解できなくもない。",
+      "sentenceWithBlank": "彼の事情を聞くと、約束を破った理由も理解でき（　　　）。",
+      "korean": "그의 사정을 들으니 약속을 어긴 이유도 이해하지 못할 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-103-06-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-103-19-c",
+          "id": "fb-created-n2-103-06-a",
+          "text": "べきだ",
+          "grammarId": "n2-145",
+          "baseExpression": "べきだ",
+          "conjugatedExpression": "べきだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-06-b",
+          "text": "まい",
+          "grammarId": "n2-146",
+          "baseExpression": "まい",
+          "conjugatedExpression": "まい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-06-c",
+          "text": "まい",
+          "grammarId": "n2-147",
+          "baseExpression": "まい",
+          "conjugatedExpression": "まい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-06-d",
+          "text": "なくもない",
+          "grammarId": "n2-103",
+          "baseExpression": "なくもない",
+          "conjugatedExpression": "なくもない",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '그의 사정을 들으니 약속을 어긴 이유도 이해하지 못할 것은 아니다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
+      "sourceGrammarIds": [
+        "n2-103",
+        "n2-145",
+        "n2-146",
+        "n2-147"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-103-07",
+      "level": "N2",
+      "sentence": "早朝に出発するなら、日帰りで島を回れなくもない。",
+      "sentenceWithBlank": "早朝に出発するなら、日帰りで島を回れ（　　　）。",
+      "korean": "이른 아침에 출발한다면 당일치기로 섬을 둘러보지 못할 것도 없다.",
+      "answerChoiceId": "fb-created-n2-103-07-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-103-07-b",
+          "text": "まい",
+          "grammarId": "n2-146",
+          "baseExpression": "まい",
+          "conjugatedExpression": "まい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-07-c",
+          "text": "まい",
+          "grammarId": "n2-147",
+          "baseExpression": "まい",
+          "conjugatedExpression": "まい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-07-d",
           "text": "なくもない",
           "grammarId": "n2-103",
           "baseExpression": "なくもない",
@@ -1525,69 +617,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-103-19-d",
-          "text": "を抜きにして",
-          "grammarId": "n2-174",
-          "baseExpression": "を抜きにして",
-          "conjugatedExpression": "を抜きにして",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-103-19-a",
-          "text": "をはじめ",
-          "grammarId": "n2-175",
-          "baseExpression": "をはじめ",
-          "conjugatedExpression": "をはじめ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-103-19-b",
-          "text": "をめぐって",
-          "grammarId": "n2-176",
-          "baseExpression": "をめぐって",
-          "conjugatedExpression": "をめぐって",
+          "id": "fb-created-n2-103-07-a",
+          "text": "べきだ",
+          "grammarId": "n2-145",
+          "baseExpression": "べきだ",
+          "conjugatedExpression": "べきだ",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '이른 아침에 출발한다면 당일치기로 섬을 둘러보지 못할 것도 없다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
       "sourceGrammarIds": [
         "n2-103",
-        "n2-174",
-        "n2-175",
-        "n2-176"
+        "n2-145",
+        "n2-146",
+        "n2-147"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-103-20",
+      "id": "fb-created-n2-103-08",
       "level": "N2",
-      "sentence": "難しいが、できなくもない。",
-      "sentenceWithBlank": "難しいが、でき（　　　）。",
-      "korean": "어렵지만 못 할 것도 없다.",
-      "answerChoiceId": "fb-extra20-n2-103-20-d",
+      "sentence": "多少窮屈でも、五人ならこの車に乗れなくもない。",
+      "sentenceWithBlank": "多少窮屈でも、五人ならこの車に乗れ（　　　）。",
+      "korean": "다소 비좁아도 다섯 명이라면 이 차에 타지 못할 것도 없다.",
+      "answerChoiceId": "fb-created-n2-103-08-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-103-20-b",
-          "text": "にしたところで",
-          "grammarId": "n2-118",
-          "baseExpression": "にしたところで",
-          "conjugatedExpression": "にしたところで",
+          "id": "fb-created-n2-103-08-c",
+          "text": "まい",
+          "grammarId": "n2-147",
+          "baseExpression": "まい",
+          "conjugatedExpression": "まい",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-103-20-c",
-          "text": "にしたら",
-          "grammarId": "n2-119",
-          "baseExpression": "にしたら",
-          "conjugatedExpression": "にしたら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-103-20-d",
+          "id": "fb-created-n2-103-08-d",
           "text": "なくもない",
           "grammarId": "n2-103",
           "baseExpression": "なくもない",
@@ -1595,25 +662,933 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-103-20-a",
-          "text": "に先立って",
-          "grammarId": "n2-117",
-          "baseExpression": "に先立って",
-          "conjugatedExpression": "に先立って",
+          "id": "fb-created-n2-103-08-a",
+          "text": "べきだ",
+          "grammarId": "n2-145",
+          "baseExpression": "べきだ",
+          "conjugatedExpression": "べきだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-08-b",
+          "text": "まい",
+          "grammarId": "n2-146",
+          "baseExpression": "まい",
+          "conjugatedExpression": "まい",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '다소 비좁아도 다섯 명이라면 이 차에 타지 못할 것도 없다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
       "sourceGrammarIds": [
         "n2-103",
-        "n2-117",
-        "n2-118",
-        "n2-119"
+        "n2-145",
+        "n2-146",
+        "n2-147"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-103-09",
+      "level": "N2",
+      "sentence": "資料が不十分とはいえ、事故の原因を推測できなくもない。",
+      "sentenceWithBlank": "資料が不十分とはいえ、事故の原因を推測でき（　　　）。",
+      "korean": "자료가 불충분하긴 하지만 사고 원인을 추측하지 못할 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-103-09-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-103-09-d",
+          "text": "なくもない",
+          "grammarId": "n2-103",
+          "baseExpression": "なくもない",
+          "conjugatedExpression": "なくもない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-103-09-a",
+          "text": "べきだ",
+          "grammarId": "n2-145",
+          "baseExpression": "べきだ",
+          "conjugatedExpression": "べきだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-09-b",
+          "text": "まい",
+          "grammarId": "n2-146",
+          "baseExpression": "まい",
+          "conjugatedExpression": "まい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-09-c",
+          "text": "まい",
+          "grammarId": "n2-147",
+          "baseExpression": "まい",
+          "conjugatedExpression": "まい",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '자료가 불충분하긴 하지만 사고 원인을 추측하지 못할 것은 아니다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
+      "sourceGrammarIds": [
+        "n2-103",
+        "n2-145",
+        "n2-146",
+        "n2-147"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-103-10",
+      "level": "N2",
+      "sentence": "古い型だが、部品を交換すればまだ使えなくもない。",
+      "sentenceWithBlank": "古い型だが、部品を交換すればまだ使え（　　　）。",
+      "korean": "구형이지만 부품을 교체하면 아직 사용하지 못할 정도는 아니다.",
+      "answerChoiceId": "fb-created-n2-103-10-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-103-10-a",
+          "text": "べきだ",
+          "grammarId": "n2-145",
+          "baseExpression": "べきだ",
+          "conjugatedExpression": "べきだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-10-b",
+          "text": "まい",
+          "grammarId": "n2-146",
+          "baseExpression": "まい",
+          "conjugatedExpression": "まい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-10-c",
+          "text": "まい",
+          "grammarId": "n2-147",
+          "baseExpression": "まい",
+          "conjugatedExpression": "まい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-10-d",
+          "text": "なくもない",
+          "grammarId": "n2-103",
+          "baseExpression": "なくもない",
+          "conjugatedExpression": "なくもない",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '구형이지만 부품을 교체하면 아직 사용하지 못할 정도는 아니다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
+      "sourceGrammarIds": [
+        "n2-103",
+        "n2-145",
+        "n2-146",
+        "n2-147"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-103-11",
+      "level": "N2",
+      "sentence": "報酬次第では、その危険な撮影を引き受けなくもない。",
+      "sentenceWithBlank": "報酬次第では、その危険な撮影を引き受け（　　　）。",
+      "korean": "보수에 따라서는 그 위험한 촬영을 맡을 수도 있다.",
+      "answerChoiceId": "fb-created-n2-103-11-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-103-11-b",
+          "text": "まい",
+          "grammarId": "n2-146",
+          "baseExpression": "まい",
+          "conjugatedExpression": "まい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-11-c",
+          "text": "まい",
+          "grammarId": "n2-147",
+          "baseExpression": "まい",
+          "conjugatedExpression": "まい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-11-d",
+          "text": "なくもない",
+          "grammarId": "n2-103",
+          "baseExpression": "なくもない",
+          "conjugatedExpression": "なくもない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-103-11-a",
+          "text": "べきだ",
+          "grammarId": "n2-145",
+          "baseExpression": "べきだ",
+          "conjugatedExpression": "べきだ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '보수에 따라서는 그 위험한 촬영을 맡을 수도 있다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
+      "sourceGrammarIds": [
+        "n2-103",
+        "n2-145",
+        "n2-146",
+        "n2-147"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-103-12",
+      "level": "N2",
+      "sentence": "妹が同行するなら、親も海外旅行を許さなくもない。",
+      "sentenceWithBlank": "妹が同行するなら、親も海外旅行を許さ（　　　）。",
+      "korean": "여동생이 동행한다면 부모님도 해외여행을 허락할 가능성은 있다.",
+      "answerChoiceId": "fb-created-n2-103-12-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-103-12-c",
+          "text": "まい",
+          "grammarId": "n2-147",
+          "baseExpression": "まい",
+          "conjugatedExpression": "まい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-12-d",
+          "text": "なくもない",
+          "grammarId": "n2-103",
+          "baseExpression": "なくもない",
+          "conjugatedExpression": "なくもない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-103-12-a",
+          "text": "べきだ",
+          "grammarId": "n2-145",
+          "baseExpression": "べきだ",
+          "conjugatedExpression": "べきだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-12-b",
+          "text": "まい",
+          "grammarId": "n2-146",
+          "baseExpression": "まい",
+          "conjugatedExpression": "まい",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '여동생이 동행한다면 부모님도 해외여행을 허락할 가능성은 있다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
+      "sourceGrammarIds": [
+        "n2-103",
+        "n2-145",
+        "n2-146",
+        "n2-147"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-103-13",
+      "level": "N2",
+      "sentence": "一晩水につければ、この乾燥豆も柔らかくならなくもない。",
+      "sentenceWithBlank": "一晩水につければ、この乾燥豆も柔らかくなら（　　　）。",
+      "korean": "하룻밤 물에 불리면 이 말린 콩도 부드러워지지 않는 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-103-13-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-103-13-d",
+          "text": "なくもない",
+          "grammarId": "n2-103",
+          "baseExpression": "なくもない",
+          "conjugatedExpression": "なくもない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-103-13-a",
+          "text": "べきだ",
+          "grammarId": "n2-145",
+          "baseExpression": "べきだ",
+          "conjugatedExpression": "べきだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-13-b",
+          "text": "まい",
+          "grammarId": "n2-146",
+          "baseExpression": "まい",
+          "conjugatedExpression": "まい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-13-c",
+          "text": "まい",
+          "grammarId": "n2-147",
+          "baseExpression": "まい",
+          "conjugatedExpression": "まい",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '하룻밤 물에 불리면 이 말린 콩도 부드러워지지 않는 것은 아니다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
+      "sourceGrammarIds": [
+        "n2-103",
+        "n2-145",
+        "n2-146",
+        "n2-147"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-103-14",
+      "level": "N2",
+      "sentence": "条件を見直してくれるなら、契約の延長を考えなくもない。",
+      "sentenceWithBlank": "条件を見直してくれるなら、契約の延長を考え（　　　）。",
+      "korean": "조건을 재검토해 준다면 계약 연장을 고려할 수도 있다.",
+      "answerChoiceId": "fb-created-n2-103-14-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-103-14-a",
+          "text": "べきだ",
+          "grammarId": "n2-145",
+          "baseExpression": "べきだ",
+          "conjugatedExpression": "べきだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-14-b",
+          "text": "まい",
+          "grammarId": "n2-146",
+          "baseExpression": "まい",
+          "conjugatedExpression": "まい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-14-c",
+          "text": "まい",
+          "grammarId": "n2-147",
+          "baseExpression": "まい",
+          "conjugatedExpression": "まい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-14-d",
+          "text": "なくもない",
+          "grammarId": "n2-103",
+          "baseExpression": "なくもない",
+          "conjugatedExpression": "なくもない",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '조건을 재검토해 준다면 계약 연장을 고려할 수도 있다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
+      "sourceGrammarIds": [
+        "n2-103",
+        "n2-145",
+        "n2-146",
+        "n2-147"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-103-15",
+      "level": "N2",
+      "sentence": "雲が切れれば、山頂から流星群を観測できなくもない。",
+      "sentenceWithBlank": "雲が切れれば、山頂から流星群を観測でき（　　　）。",
+      "korean": "구름이 걷히면 산 정상에서 유성우를 관측하지 못할 것도 없다.",
+      "answerChoiceId": "fb-created-n2-103-15-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-103-15-b",
+          "text": "まい",
+          "grammarId": "n2-146",
+          "baseExpression": "まい",
+          "conjugatedExpression": "まい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-15-c",
+          "text": "まい",
+          "grammarId": "n2-147",
+          "baseExpression": "まい",
+          "conjugatedExpression": "まい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-15-d",
+          "text": "なくもない",
+          "grammarId": "n2-103",
+          "baseExpression": "なくもない",
+          "conjugatedExpression": "なくもない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-103-15-a",
+          "text": "べきだ",
+          "grammarId": "n2-145",
+          "baseExpression": "べきだ",
+          "conjugatedExpression": "べきだ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '구름이 걷히면 산 정상에서 유성우를 관측하지 못할 것도 없다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
+      "sourceGrammarIds": [
+        "n2-103",
+        "n2-145",
+        "n2-146",
+        "n2-147"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-103-16",
+      "level": "N2",
+      "sentence": "この布なら、工夫すれば舞台衣装に見せられなくもない。",
+      "sentenceWithBlank": "この布なら、工夫すれば舞台衣装に見せられ（　　　）。",
+      "korean": "이 천이라면 궁리하기에 따라 무대 의상처럼 보이게 할 수도 있다.",
+      "answerChoiceId": "fb-created-n2-103-16-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-103-16-c",
+          "text": "まい",
+          "grammarId": "n2-147",
+          "baseExpression": "まい",
+          "conjugatedExpression": "まい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-16-d",
+          "text": "なくもない",
+          "grammarId": "n2-103",
+          "baseExpression": "なくもない",
+          "conjugatedExpression": "なくもない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-103-16-a",
+          "text": "べきだ",
+          "grammarId": "n2-145",
+          "baseExpression": "べきだ",
+          "conjugatedExpression": "べきだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-16-b",
+          "text": "まい",
+          "grammarId": "n2-146",
+          "baseExpression": "まい",
+          "conjugatedExpression": "まい",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '이 천이라면 궁리하기에 따라 무대 의상처럼 보이게 할 수도 있다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
+      "sourceGrammarIds": [
+        "n2-103",
+        "n2-145",
+        "n2-146",
+        "n2-147"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-103-17",
+      "level": "N2",
+      "sentence": "兄の提案には、賛成したくなる部分がなくもない。",
+      "sentenceWithBlank": "兄の提案には、賛成したくなる部分が（　　　）。",
+      "korean": "형의 제안에는 찬성하고 싶어지는 부분이 없지는 않다.",
+      "answerChoiceId": "fb-created-n2-103-17-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-103-17-d",
+          "text": "なくもない",
+          "grammarId": "n2-103",
+          "baseExpression": "なくもない",
+          "conjugatedExpression": "なくもない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-103-17-a",
+          "text": "べきだ",
+          "grammarId": "n2-145",
+          "baseExpression": "べきだ",
+          "conjugatedExpression": "べきだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-17-b",
+          "text": "まい",
+          "grammarId": "n2-146",
+          "baseExpression": "まい",
+          "conjugatedExpression": "まい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-17-c",
+          "text": "まい",
+          "grammarId": "n2-147",
+          "baseExpression": "まい",
+          "conjugatedExpression": "まい",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '형의 제안에는 찬성하고 싶어지는 부분이 없지는 않다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
+      "sourceGrammarIds": [
+        "n2-103",
+        "n2-145",
+        "n2-146",
+        "n2-147"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-103-18",
+      "level": "N2",
+      "sentence": "売り主が値下げするなら、あの土地を買わなくもない。",
+      "sentenceWithBlank": "売り主が値下げするなら、あの土地を買わ（　　　）。",
+      "korean": "판매자가 가격을 낮춘다면 그 땅을 살 의향이 전혀 없는 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-103-18-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-103-18-a",
+          "text": "べきだ",
+          "grammarId": "n2-145",
+          "baseExpression": "べきだ",
+          "conjugatedExpression": "べきだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-18-b",
+          "text": "まい",
+          "grammarId": "n2-146",
+          "baseExpression": "まい",
+          "conjugatedExpression": "まい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-18-c",
+          "text": "まい",
+          "grammarId": "n2-147",
+          "baseExpression": "まい",
+          "conjugatedExpression": "まい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-18-d",
+          "text": "なくもない",
+          "grammarId": "n2-103",
+          "baseExpression": "なくもない",
+          "conjugatedExpression": "なくもない",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '판매자가 가격을 낮춘다면 그 땅을 살 의향이 전혀 없는 것은 아니다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
+      "sourceGrammarIds": [
+        "n2-103",
+        "n2-145",
+        "n2-146",
+        "n2-147"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-103-19",
+      "level": "N2",
+      "sentence": "途中で休憩を取れば、祖父も展望台まで登れなくもない。",
+      "sentenceWithBlank": "途中で休憩を取れば、祖父も展望台まで登れ（　　　）。",
+      "korean": "도중에 쉬어 간다면 할아버지도 전망대까지 오르지 못할 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-103-19-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-103-19-b",
+          "text": "まい",
+          "grammarId": "n2-146",
+          "baseExpression": "まい",
+          "conjugatedExpression": "まい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-19-c",
+          "text": "まい",
+          "grammarId": "n2-147",
+          "baseExpression": "まい",
+          "conjugatedExpression": "まい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-19-d",
+          "text": "なくもない",
+          "grammarId": "n2-103",
+          "baseExpression": "なくもない",
+          "conjugatedExpression": "なくもない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-103-19-a",
+          "text": "べきだ",
+          "grammarId": "n2-145",
+          "baseExpression": "べきだ",
+          "conjugatedExpression": "べきだ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '도중에 쉬어 간다면 할아버지도 전망대까지 오르지 못할 것은 아니다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
+      "sourceGrammarIds": [
+        "n2-103",
+        "n2-145",
+        "n2-146",
+        "n2-147"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-103-20",
+      "level": "N2",
+      "sentence": "防音工事をすれば、この倉庫でも録音できなくもない。",
+      "sentenceWithBlank": "防音工事をすれば、この倉庫でも録音でき（　　　）。",
+      "korean": "방음 공사를 하면 이 창고에서도 녹음하지 못할 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-103-20-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-103-20-c",
+          "text": "まい",
+          "grammarId": "n2-147",
+          "baseExpression": "まい",
+          "conjugatedExpression": "まい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-20-d",
+          "text": "なくもない",
+          "grammarId": "n2-103",
+          "baseExpression": "なくもない",
+          "conjugatedExpression": "なくもない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-103-20-a",
+          "text": "べきだ",
+          "grammarId": "n2-145",
+          "baseExpression": "べきだ",
+          "conjugatedExpression": "べきだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-20-b",
+          "text": "まい",
+          "grammarId": "n2-146",
+          "baseExpression": "まい",
+          "conjugatedExpression": "まい",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '방음 공사를 하면 이 창고에서도 녹음하지 못할 것은 아니다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
+      "sourceGrammarIds": [
+        "n2-103",
+        "n2-145",
+        "n2-146",
+        "n2-147"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-103-21",
+      "level": "N2",
+      "sentence": "今夜中に申請すれば、明日の便に荷物を載せられなくもない。",
+      "sentenceWithBlank": "今夜中に申請すれば、明日の便に荷物を載せられ（　　　）。",
+      "korean": "오늘 밤 안에 신청하면 내일 운항편에 짐을 싣지 못할 것도 없다.",
+      "answerChoiceId": "fb-created-n2-103-21-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-103-21-d",
+          "text": "なくもない",
+          "grammarId": "n2-103",
+          "baseExpression": "なくもない",
+          "conjugatedExpression": "なくもない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-103-21-a",
+          "text": "べきだ",
+          "grammarId": "n2-145",
+          "baseExpression": "べきだ",
+          "conjugatedExpression": "べきだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-21-b",
+          "text": "まい",
+          "grammarId": "n2-146",
+          "baseExpression": "まい",
+          "conjugatedExpression": "まい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-21-c",
+          "text": "まい",
+          "grammarId": "n2-147",
+          "baseExpression": "まい",
+          "conjugatedExpression": "まい",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '오늘 밤 안에 신청하면 내일 운항편에 짐을 싣지 못할 것도 없다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
+      "sourceGrammarIds": [
+        "n2-103",
+        "n2-145",
+        "n2-146",
+        "n2-147"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-103-22",
+      "level": "N2",
+      "sentence": "声の調子からすると、彼女が風邪をひいていると思えなくもない。",
+      "sentenceWithBlank": "声の調子からすると、彼女が風邪をひいていると思え（　　　）。",
+      "korean": "목소리 상태로 보아 그녀가 감기에 걸렸다고 볼 수도 있다.",
+      "answerChoiceId": "fb-created-n2-103-22-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-103-22-a",
+          "text": "べきだ",
+          "grammarId": "n2-145",
+          "baseExpression": "べきだ",
+          "conjugatedExpression": "べきだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-22-b",
+          "text": "まい",
+          "grammarId": "n2-146",
+          "baseExpression": "まい",
+          "conjugatedExpression": "まい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-22-c",
+          "text": "まい",
+          "grammarId": "n2-147",
+          "baseExpression": "まい",
+          "conjugatedExpression": "まい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-22-d",
+          "text": "なくもない",
+          "grammarId": "n2-103",
+          "baseExpression": "なくもない",
+          "conjugatedExpression": "なくもない",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '목소리 상태로 보아 그녀가 감기에 걸렸다고 볼 수도 있다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
+      "sourceGrammarIds": [
+        "n2-103",
+        "n2-145",
+        "n2-146",
+        "n2-147"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-103-23",
+      "level": "N2",
+      "sentence": "水量は少ないものの、小型の発電機なら動かせなくもない。",
+      "sentenceWithBlank": "水量は少ないものの、小型の発電機なら動かせ（　　　）。",
+      "korean": "수량은 적지만 소형 발전기라면 작동시키지 못할 것도 없다.",
+      "answerChoiceId": "fb-created-n2-103-23-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-103-23-b",
+          "text": "まい",
+          "grammarId": "n2-146",
+          "baseExpression": "まい",
+          "conjugatedExpression": "まい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-23-c",
+          "text": "まい",
+          "grammarId": "n2-147",
+          "baseExpression": "まい",
+          "conjugatedExpression": "まい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-23-d",
+          "text": "なくもない",
+          "grammarId": "n2-103",
+          "baseExpression": "なくもない",
+          "conjugatedExpression": "なくもない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-103-23-a",
+          "text": "べきだ",
+          "grammarId": "n2-145",
+          "baseExpression": "べきだ",
+          "conjugatedExpression": "べきだ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '수량은 적지만 소형 발전기라면 작동시키지 못할 것도 없다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
+      "sourceGrammarIds": [
+        "n2-103",
+        "n2-145",
+        "n2-146",
+        "n2-147"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-103-24",
+      "level": "N2",
+      "sentence": "会場を変更すれば、予定どおり披露宴を開けなくもない。",
+      "sentenceWithBlank": "会場を変更すれば、予定どおり披露宴を開け（　　　）。",
+      "korean": "장소를 변경하면 예정대로 피로연을 열지 못할 것도 없다.",
+      "answerChoiceId": "fb-created-n2-103-24-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-103-24-c",
+          "text": "まい",
+          "grammarId": "n2-147",
+          "baseExpression": "まい",
+          "conjugatedExpression": "まい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-24-d",
+          "text": "なくもない",
+          "grammarId": "n2-103",
+          "baseExpression": "なくもない",
+          "conjugatedExpression": "なくもない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-103-24-a",
+          "text": "べきだ",
+          "grammarId": "n2-145",
+          "baseExpression": "べきだ",
+          "conjugatedExpression": "べきだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-24-b",
+          "text": "まい",
+          "grammarId": "n2-146",
+          "baseExpression": "まい",
+          "conjugatedExpression": "まい",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '장소를 변경하면 예정대로 피로연을 열지 못할 것도 없다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
+      "sourceGrammarIds": [
+        "n2-103",
+        "n2-145",
+        "n2-146",
+        "n2-147"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-103-25",
+      "level": "N2",
+      "sentence": "脂っこさを抑えれば、この料理を定番メニューに加えなくもない。",
+      "sentenceWithBlank": "脂っこさを抑えれば、この料理を定番メニューに加え（　　　）。",
+      "korean": "느끼함을 줄인다면 이 요리를 정식 메뉴에 추가할 수도 있다.",
+      "answerChoiceId": "fb-created-n2-103-25-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-103-25-d",
+          "text": "なくもない",
+          "grammarId": "n2-103",
+          "baseExpression": "なくもない",
+          "conjugatedExpression": "なくもない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-103-25-a",
+          "text": "べきだ",
+          "grammarId": "n2-145",
+          "baseExpression": "べきだ",
+          "conjugatedExpression": "べきだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-25-b",
+          "text": "まい",
+          "grammarId": "n2-146",
+          "baseExpression": "まい",
+          "conjugatedExpression": "まい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-103-25-c",
+          "text": "まい",
+          "grammarId": "n2-147",
+          "baseExpression": "まい",
+          "conjugatedExpression": "まい",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '느끼함을 줄인다면 이 요리를 정식 메뉴에 추가할 수도 있다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
+      "sourceGrammarIds": [
+        "n2-103",
+        "n2-145",
+        "n2-146",
+        "n2-147"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
       ]
     }
   ],
@@ -1834,1103 +1809,1153 @@
       ]
     },
     {
-      "id": "so-extra-n2-103-1",
+      "id": "so-created-n2-103-01",
       "level": "N2",
-      "sentence": "難しいが、できなくもない。",
+      "sentence": "終電は出たが、駅から家まで歩いて帰れなくもない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어렵지만 못 할 것도 없다.",
+      "korean": "막차는 떠났지만, 역에서 집까지 걸어서 돌아가지 못할 것도 없다.",
       "pieces": [
         {
-          "id": "so-extra-n2-103-1-p2",
-          "text": "ない",
+          "id": "so-created-n2-103-01-p4",
+          "text": "なくもない。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-103-1-p3",
-          "text": "難しいが",
+          "id": "so-created-n2-103-01-p1",
+          "text": "終電は出たが、",
           "order": 1
         },
         {
-          "id": "so-extra-n2-103-1-p4",
-          "text": "で",
+          "id": "so-created-n2-103-01-p2",
+          "text": "駅から家まで",
           "order": 2
         },
         {
-          "id": "so-extra-n2-103-1-p1",
-          "text": "きなくも",
+          "id": "so-created-n2-103-01-p3",
+          "text": "歩いて帰れ",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-103-1-p3",
-        "so-extra-n2-103-1-p4",
-        "so-extra-n2-103-1-p1",
-        "so-extra-n2-103-1-p2"
+        "so-created-n2-103-01-p1",
+        "so-created-n2-103-01-p2",
+        "so-created-n2-103-01-p3",
+        "so-created-n2-103-01-p4"
       ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '막차는 떠났지만, 역에서 집까지 걸어서 돌아가지 못할 것도 없다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
       "sourceGrammarIds": [
-        "n2-103"
+        "n2-103",
+        "n2-145",
+        "n2-146",
+        "n2-147"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-103-2",
+      "id": "so-created-n2-103-02",
       "level": "N2",
-      "sentence": "難しいが、できなくもない。",
+      "sentence": "この傷なら、丁寧に磨けば目立たなくもない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어렵지만 못 할 것도 없다.",
+      "korean": "이 흠집이라면 정성껏 닦으면 눈에 띄지 않을 수도 있다.",
       "pieces": [
         {
-          "id": "so-extra-n2-103-2-p3",
-          "text": "ない",
+          "id": "so-created-n2-103-02-p3",
+          "text": "磨けば目立た",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-103-02-p4",
+          "text": "なくもない。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-103-2-p4",
-          "text": "難しいが",
+          "id": "so-created-n2-103-02-p1",
+          "text": "この傷なら、",
           "order": 1
         },
         {
-          "id": "so-extra-n2-103-2-p1",
-          "text": "で",
+          "id": "so-created-n2-103-02-p2",
+          "text": "丁寧に",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-103-2-p2",
-          "text": "きなくも",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-103-2-p4",
-        "so-extra-n2-103-2-p1",
-        "so-extra-n2-103-2-p2",
-        "so-extra-n2-103-2-p3"
+        "so-created-n2-103-02-p1",
+        "so-created-n2-103-02-p2",
+        "so-created-n2-103-02-p3",
+        "so-created-n2-103-02-p4"
       ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '이 흠집이라면 정성껏 닦으면 눈에 띄지 않을 수도 있다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
       "sourceGrammarIds": [
-        "n2-103"
+        "n2-103",
+        "n2-145",
+        "n2-146",
+        "n2-147"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-103-3",
+      "id": "so-created-n2-103-03",
       "level": "N2",
-      "sentence": "難しいが、できなくもない。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어렵지만 못 할 것도 없다.",
+      "sentence": "予算を少し増やせば、海の見える部屋を選べなくもない。",
+      "sentenceWithBlanks": "予算を ____ ____ ____ ____",
+      "korean": "예산을 조금 늘리면 바다가 보이는 방을 선택하지 못할 것도 없다.",
       "pieces": [
         {
-          "id": "so-extra-n2-103-3-p4",
-          "text": "ない",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-103-3-p1",
-          "text": "難しいが",
-          "order": 1
-        },
-        {
-          "id": "so-extra-n2-103-3-p2",
-          "text": "で",
+          "id": "so-created-n2-103-03-p2",
+          "text": "海の見える",
           "order": 2
         },
         {
-          "id": "so-extra-n2-103-3-p3",
-          "text": "きなくも",
+          "id": "so-created-n2-103-03-p3",
+          "text": "部屋を選べ",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-103-03-p4",
+          "text": "なくもない。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-103-03-p1",
+          "text": "少し増やせば、",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-103-3-p1",
-        "so-extra-n2-103-3-p2",
-        "so-extra-n2-103-3-p3",
-        "so-extra-n2-103-3-p4"
+        "so-created-n2-103-03-p1",
+        "so-created-n2-103-03-p2",
+        "so-created-n2-103-03-p3",
+        "so-created-n2-103-03-p4"
       ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '예산을 조금 늘리면 바다가 보이는 방을 선택하지 못할 것도 없다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
       "sourceGrammarIds": [
-        "n2-103"
+        "n2-103",
+        "n2-145",
+        "n2-146",
+        "n2-147"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-103-4",
+      "id": "so-created-n2-103-04",
       "level": "N2",
-      "sentence": "難しいが、できなくもない。",
+      "sentence": "香辛料は強いが、このカレーも食べられなくもない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어렵지만 못 할 것도 없다.",
+      "korean": "향신료 맛이 강하지만, 이 카레도 못 먹을 정도는 아니다.",
       "pieces": [
         {
-          "id": "so-extra-n2-103-4-p1",
-          "text": "ない",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-103-4-p2",
-          "text": "難しいが",
+          "id": "so-created-n2-103-04-p1",
+          "text": "香辛料は",
           "order": 1
         },
         {
-          "id": "so-extra-n2-103-4-p3",
-          "text": "で",
+          "id": "so-created-n2-103-04-p2",
+          "text": "強いが、この",
           "order": 2
         },
         {
-          "id": "so-extra-n2-103-4-p4",
-          "text": "きなくも",
+          "id": "so-created-n2-103-04-p3",
+          "text": "カレーも食べられ",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-103-04-p4",
+          "text": "なくもない。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-103-4-p2",
-        "so-extra-n2-103-4-p3",
-        "so-extra-n2-103-4-p4",
-        "so-extra-n2-103-4-p1"
+        "so-created-n2-103-04-p1",
+        "so-created-n2-103-04-p2",
+        "so-created-n2-103-04-p3",
+        "so-created-n2-103-04-p4"
       ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '향신료 맛이 강하지만, 이 카레도 못 먹을 정도는 아니다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
       "sourceGrammarIds": [
-        "n2-103"
+        "n2-103",
+        "n2-145",
+        "n2-146",
+        "n2-147"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-103-5",
+      "id": "so-created-n2-103-05",
       "level": "N2",
-      "sentence": "難しいが、できなくもない。",
+      "sentence": "三日あれば、壊れた門を一人で直せなくもない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어렵지만 못 할 것도 없다.",
+      "korean": "사흘이 있으면 망가진 문을 혼자 고치지 못할 것도 없다.",
       "pieces": [
         {
-          "id": "so-extra-n2-103-5-p2",
-          "text": "ない",
+          "id": "so-created-n2-103-05-p4",
+          "text": "なくもない。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-103-5-p3",
-          "text": "難しいが",
+          "id": "so-created-n2-103-05-p1",
+          "text": "三日あれば、",
           "order": 1
         },
         {
-          "id": "so-extra-n2-103-5-p4",
-          "text": "で",
+          "id": "so-created-n2-103-05-p2",
+          "text": "壊れた門を",
           "order": 2
         },
         {
-          "id": "so-extra-n2-103-5-p1",
-          "text": "きなくも",
+          "id": "so-created-n2-103-05-p3",
+          "text": "一人で直せ",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-103-5-p3",
-        "so-extra-n2-103-5-p4",
-        "so-extra-n2-103-5-p1",
-        "so-extra-n2-103-5-p2"
+        "so-created-n2-103-05-p1",
+        "so-created-n2-103-05-p2",
+        "so-created-n2-103-05-p3",
+        "so-created-n2-103-05-p4"
       ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '사흘이 있으면 망가진 문을 혼자 고치지 못할 것도 없다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
       "sourceGrammarIds": [
-        "n2-103"
+        "n2-103",
+        "n2-145",
+        "n2-146",
+        "n2-147"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-103-01",
+      "id": "so-created-n2-103-06",
       "level": "N2",
-      "sentence": "難しいが、できなくもない。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어렵지만 못 할 것도 없다.",
+      "sentence": "彼の事情を聞くと、約束を破った理由も理解できなくもない。",
+      "sentenceWithBlanks": "彼の ____ ____ ____ ____",
+      "korean": "그의 사정을 들으니 약속을 어긴 이유도 이해하지 못할 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-103-01-p2",
-          "text": "ない",
+          "id": "so-created-n2-103-06-p3",
+          "text": "理由も理解でき",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-103-06-p4",
+          "text": "なくもない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-103-01-p3",
-          "text": "難しいが",
+          "id": "so-created-n2-103-06-p1",
+          "text": "事情を聞くと、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-103-01-p4",
-          "text": "で",
+          "id": "so-created-n2-103-06-p2",
+          "text": "約束を破った",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-103-01-p1",
-          "text": "きなくも",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-103-01-p3",
-        "so-extra20-n2-103-01-p4",
-        "so-extra20-n2-103-01-p1",
-        "so-extra20-n2-103-01-p2"
+        "so-created-n2-103-06-p1",
+        "so-created-n2-103-06-p2",
+        "so-created-n2-103-06-p3",
+        "so-created-n2-103-06-p4"
       ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '그의 사정을 들으니 약속을 어긴 이유도 이해하지 못할 것은 아니다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
       "sourceGrammarIds": [
-        "n2-103"
+        "n2-103",
+        "n2-145",
+        "n2-146",
+        "n2-147"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-103-02",
+      "id": "so-created-n2-103-07",
       "level": "N2",
-      "sentence": "難しいが、できなくもない。",
+      "sentence": "早朝に出発するなら、日帰りで島を回れなくもない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어렵지만 못 할 것도 없다.",
+      "korean": "이른 아침에 출발한다면 당일치기로 섬을 둘러보지 못할 것도 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-103-02-p1",
-          "text": "で",
+          "id": "so-created-n2-103-07-p2",
+          "text": "出発するなら、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-103-02-p2",
-          "text": "きなくも",
+          "id": "so-created-n2-103-07-p3",
+          "text": "日帰りで島を",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-103-02-p3",
-          "text": "ない",
+          "id": "so-created-n2-103-07-p4",
+          "text": "回れなくもない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-103-02-p4",
-          "text": "難しいが",
+          "id": "so-created-n2-103-07-p1",
+          "text": "早朝に",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-103-02-p4",
-        "so-extra20-n2-103-02-p1",
-        "so-extra20-n2-103-02-p2",
-        "so-extra20-n2-103-02-p3"
+        "so-created-n2-103-07-p1",
+        "so-created-n2-103-07-p2",
+        "so-created-n2-103-07-p3",
+        "so-created-n2-103-07-p4"
       ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '이른 아침에 출발한다면 당일치기로 섬을 둘러보지 못할 것도 없다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
       "sourceGrammarIds": [
-        "n2-103"
+        "n2-103",
+        "n2-145",
+        "n2-146",
+        "n2-147"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-103-03",
+      "id": "so-created-n2-103-08",
       "level": "N2",
-      "sentence": "難しいが、できなくもない。",
+      "sentence": "多少窮屈でも、五人ならこの車に乗れなくもない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어렵지만 못 할 것도 없다.",
+      "korean": "다소 비좁아도 다섯 명이라면 이 차에 타지 못할 것도 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-103-03-p4",
-          "text": "ない",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-103-03-p1",
-          "text": "難しいが",
+          "id": "so-created-n2-103-08-p1",
+          "text": "多少窮屈でも、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-103-03-p2",
-          "text": "で",
+          "id": "so-created-n2-103-08-p2",
+          "text": "五人ならこの",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-103-03-p3",
-          "text": "きなくも",
+          "id": "so-created-n2-103-08-p3",
+          "text": "車に乗れ",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-103-08-p4",
+          "text": "なくもない。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-103-03-p1",
-        "so-extra20-n2-103-03-p2",
-        "so-extra20-n2-103-03-p3",
-        "so-extra20-n2-103-03-p4"
+        "so-created-n2-103-08-p1",
+        "so-created-n2-103-08-p2",
+        "so-created-n2-103-08-p3",
+        "so-created-n2-103-08-p4"
       ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '다소 비좁아도 다섯 명이라면 이 차에 타지 못할 것도 없다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
       "sourceGrammarIds": [
-        "n2-103"
+        "n2-103",
+        "n2-145",
+        "n2-146",
+        "n2-147"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-103-04",
+      "id": "so-created-n2-103-09",
       "level": "N2",
-      "sentence": "難しいが、できなくもない。",
+      "sentence": "資料が不十分とはいえ、事故の原因を推測できなくもない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어렵지만 못 할 것도 없다.",
+      "korean": "자료가 불충분하긴 하지만 사고 원인을 추측하지 못할 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-103-04-p3",
-          "text": "で",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-103-04-p4",
-          "text": "きなくも",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-103-04-p1",
-          "text": "ない",
+          "id": "so-created-n2-103-09-p4",
+          "text": "推測できなくもない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-103-04-p2",
-          "text": "難しいが",
+          "id": "so-created-n2-103-09-p1",
+          "text": "資料が",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-103-09-p2",
+          "text": "不十分とはいえ、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-103-09-p3",
+          "text": "事故の原因を",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-103-04-p2",
-        "so-extra20-n2-103-04-p3",
-        "so-extra20-n2-103-04-p4",
-        "so-extra20-n2-103-04-p1"
+        "so-created-n2-103-09-p1",
+        "so-created-n2-103-09-p2",
+        "so-created-n2-103-09-p3",
+        "so-created-n2-103-09-p4"
       ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '자료가 불충분하긴 하지만 사고 원인을 추측하지 못할 것은 아니다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
       "sourceGrammarIds": [
-        "n2-103"
+        "n2-103",
+        "n2-145",
+        "n2-146",
+        "n2-147"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-103-05",
+      "id": "so-created-n2-103-10",
       "level": "N2",
-      "sentence": "難しいが、できなくもない。",
+      "sentence": "古い型だが、部品を交換すればまだ使えなくもない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어렵지만 못 할 것도 없다.",
+      "korean": "구형이지만 부품을 교체하면 아직 사용하지 못할 정도는 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-103-05-p2",
-          "text": "ない",
+          "id": "so-created-n2-103-10-p3",
+          "text": "交換すればまだ",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-103-10-p4",
+          "text": "使えなくもない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-103-05-p3",
-          "text": "難しいが",
+          "id": "so-created-n2-103-10-p1",
+          "text": "古い型だが、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-103-05-p4",
-          "text": "で",
+          "id": "so-created-n2-103-10-p2",
+          "text": "部品を",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-103-05-p1",
-          "text": "きなくも",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-103-05-p3",
-        "so-extra20-n2-103-05-p4",
-        "so-extra20-n2-103-05-p1",
-        "so-extra20-n2-103-05-p2"
+        "so-created-n2-103-10-p1",
+        "so-created-n2-103-10-p2",
+        "so-created-n2-103-10-p3",
+        "so-created-n2-103-10-p4"
       ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '구형이지만 부품을 교체하면 아직 사용하지 못할 정도는 아니다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
       "sourceGrammarIds": [
-        "n2-103"
+        "n2-103",
+        "n2-145",
+        "n2-146",
+        "n2-147"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-103-06",
+      "id": "so-created-n2-103-11",
       "level": "N2",
-      "sentence": "難しいが、できなくもない。",
+      "sentence": "報酬次第では、その危険な撮影を引き受けなくもない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어렵지만 못 할 것도 없다.",
+      "korean": "보수에 따라서는 그 위험한 촬영을 맡을 수도 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-103-06-p1",
-          "text": "きなくも",
+          "id": "so-created-n2-103-11-p2",
+          "text": "危険な撮影を",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-103-11-p3",
+          "text": "引き受け",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-103-06-p2",
-          "text": "ない",
+          "id": "so-created-n2-103-11-p4",
+          "text": "なくもない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-103-06-p3",
-          "text": "難しいが",
+          "id": "so-created-n2-103-11-p1",
+          "text": "報酬次第では、その",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-103-06-p4",
-          "text": "で",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-103-06-p3",
-        "so-extra20-n2-103-06-p4",
-        "so-extra20-n2-103-06-p1",
-        "so-extra20-n2-103-06-p2"
+        "so-created-n2-103-11-p1",
+        "so-created-n2-103-11-p2",
+        "so-created-n2-103-11-p3",
+        "so-created-n2-103-11-p4"
       ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '보수에 따라서는 그 위험한 촬영을 맡을 수도 있다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
       "sourceGrammarIds": [
-        "n2-103"
+        "n2-103",
+        "n2-145",
+        "n2-146",
+        "n2-147"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-103-07",
+      "id": "so-created-n2-103-12",
       "level": "N2",
-      "sentence": "難しいが、できなくもない。",
+      "sentence": "妹が同行するなら、親も海外旅行を許さなくもない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어렵지만 못 할 것도 없다.",
+      "korean": "여동생이 동행한다면 부모님도 해외여행을 허락할 가능성은 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-103-07-p4",
-          "text": "難しいが",
+          "id": "so-created-n2-103-12-p1",
+          "text": "妹が",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-103-07-p1",
-          "text": "で",
+          "id": "so-created-n2-103-12-p2",
+          "text": "同行するなら、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-103-07-p2",
-          "text": "きなくも",
+          "id": "so-created-n2-103-12-p3",
+          "text": "親も海外旅行を",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-103-07-p3",
-          "text": "ない",
+          "id": "so-created-n2-103-12-p4",
+          "text": "許さなくもない。",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-103-07-p4",
-        "so-extra20-n2-103-07-p1",
-        "so-extra20-n2-103-07-p2",
-        "so-extra20-n2-103-07-p3"
+        "so-created-n2-103-12-p1",
+        "so-created-n2-103-12-p2",
+        "so-created-n2-103-12-p3",
+        "so-created-n2-103-12-p4"
       ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '여동생이 동행한다면 부모님도 해외여행을 허락할 가능성은 있다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
       "sourceGrammarIds": [
-        "n2-103"
+        "n2-103",
+        "n2-145",
+        "n2-146",
+        "n2-147"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-103-08",
+      "id": "so-created-n2-103-13",
       "level": "N2",
-      "sentence": "難しいが、できなくもない。",
+      "sentence": "一晩水につければ、この乾燥豆も柔らかくならなくもない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어렵지만 못 할 것도 없다.",
+      "korean": "하룻밤 물에 불리면 이 말린 콩도 부드러워지지 않는 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-103-08-p3",
-          "text": "きなくも",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-103-08-p4",
-          "text": "ない",
+          "id": "so-created-n2-103-13-p4",
+          "text": "なくもない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-103-08-p1",
-          "text": "難しいが",
+          "id": "so-created-n2-103-13-p1",
+          "text": "一晩",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-103-08-p2",
-          "text": "で",
+          "id": "so-created-n2-103-13-p2",
+          "text": "水につければ、この",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-103-13-p3",
+          "text": "乾燥豆も柔らかくなら",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-103-08-p1",
-        "so-extra20-n2-103-08-p2",
-        "so-extra20-n2-103-08-p3",
-        "so-extra20-n2-103-08-p4"
+        "so-created-n2-103-13-p1",
+        "so-created-n2-103-13-p2",
+        "so-created-n2-103-13-p3",
+        "so-created-n2-103-13-p4"
       ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '하룻밤 물에 불리면 이 말린 콩도 부드러워지지 않는 것은 아니다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
       "sourceGrammarIds": [
-        "n2-103"
+        "n2-103",
+        "n2-145",
+        "n2-146",
+        "n2-147"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-103-09",
+      "id": "so-created-n2-103-14",
       "level": "N2",
-      "sentence": "難しいが、できなくもない。",
+      "sentence": "条件を見直してくれるなら、契約の延長を考えなくもない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어렵지만 못 할 것도 없다.",
+      "korean": "조건을 재검토해 준다면 계약 연장을 고려할 수도 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-103-09-p2",
-          "text": "難しいが",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-103-09-p3",
-          "text": "で",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-103-09-p4",
-          "text": "きなくも",
+          "id": "so-created-n2-103-14-p3",
+          "text": "契約の延長を",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-103-09-p1",
-          "text": "ない",
+          "id": "so-created-n2-103-14-p4",
+          "text": "考えなくもない。",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-103-14-p1",
+          "text": "条件を",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-103-14-p2",
+          "text": "見直してくれるなら、",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-103-09-p2",
-        "so-extra20-n2-103-09-p3",
-        "so-extra20-n2-103-09-p4",
-        "so-extra20-n2-103-09-p1"
+        "so-created-n2-103-14-p1",
+        "so-created-n2-103-14-p2",
+        "so-created-n2-103-14-p3",
+        "so-created-n2-103-14-p4"
       ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '조건을 재검토해 준다면 계약 연장을 고려할 수도 있다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
       "sourceGrammarIds": [
-        "n2-103"
+        "n2-103",
+        "n2-145",
+        "n2-146",
+        "n2-147"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-103-10",
+      "id": "so-created-n2-103-15",
       "level": "N2",
-      "sentence": "難しいが、できなくもない。",
+      "sentence": "雲が切れれば、山頂から流星群を観測できなくもない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어렵지만 못 할 것도 없다.",
+      "korean": "구름이 걷히면 산 정상에서 유성우를 관측하지 못할 것도 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-103-10-p1",
-          "text": "きなくも",
+          "id": "so-created-n2-103-15-p2",
+          "text": "山頂から",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-103-15-p3",
+          "text": "流星群を観測でき",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-103-10-p2",
-          "text": "ない",
+          "id": "so-created-n2-103-15-p4",
+          "text": "なくもない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-103-10-p3",
-          "text": "難しいが",
+          "id": "so-created-n2-103-15-p1",
+          "text": "雲が切れれば、",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-103-10-p4",
-          "text": "で",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-103-10-p3",
-        "so-extra20-n2-103-10-p4",
-        "so-extra20-n2-103-10-p1",
-        "so-extra20-n2-103-10-p2"
+        "so-created-n2-103-15-p1",
+        "so-created-n2-103-15-p2",
+        "so-created-n2-103-15-p3",
+        "so-created-n2-103-15-p4"
       ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '구름이 걷히면 산 정상에서 유성우를 관측하지 못할 것도 없다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
       "sourceGrammarIds": [
-        "n2-103"
+        "n2-103",
+        "n2-145",
+        "n2-146",
+        "n2-147"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-103-11",
+      "id": "so-created-n2-103-16",
       "level": "N2",
-      "sentence": "難しいが、できなくもない。",
+      "sentence": "この布なら、工夫すれば舞台衣装に見せられなくもない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어렵지만 못 할 것도 없다.",
+      "korean": "이 천이라면 궁리하기에 따라 무대 의상처럼 보이게 할 수도 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-103-11-p4",
-          "text": "で",
+          "id": "so-created-n2-103-16-p1",
+          "text": "この布なら、",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-103-16-p2",
+          "text": "工夫すれば舞台",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-103-11-p1",
-          "text": "きなくも",
+          "id": "so-created-n2-103-16-p3",
+          "text": "衣装に見せられ",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-103-11-p2",
-          "text": "ない",
+          "id": "so-created-n2-103-16-p4",
+          "text": "なくもない。",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-103-11-p3",
-          "text": "難しいが",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-103-11-p3",
-        "so-extra20-n2-103-11-p4",
-        "so-extra20-n2-103-11-p1",
-        "so-extra20-n2-103-11-p2"
+        "so-created-n2-103-16-p1",
+        "so-created-n2-103-16-p2",
+        "so-created-n2-103-16-p3",
+        "so-created-n2-103-16-p4"
       ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '이 천이라면 궁리하기에 따라 무대 의상처럼 보이게 할 수도 있다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
       "sourceGrammarIds": [
-        "n2-103"
+        "n2-103",
+        "n2-145",
+        "n2-146",
+        "n2-147"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-103-12",
+      "id": "so-created-n2-103-17",
       "level": "N2",
-      "sentence": "難しいが、できなくもない。",
+      "sentence": "兄の提案には、賛成したくなる部分がなくもない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어렵지만 못 할 것도 없다.",
+      "korean": "형의 제안에는 찬성하고 싶어지는 부분이 없지는 않다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-103-12-p3",
-          "text": "ない",
+          "id": "so-created-n2-103-17-p4",
+          "text": "なくもない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-103-12-p4",
-          "text": "難しいが",
+          "id": "so-created-n2-103-17-p1",
+          "text": "兄の提案には、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-103-12-p1",
-          "text": "で",
+          "id": "so-created-n2-103-17-p2",
+          "text": "賛成したくなる",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-103-12-p2",
-          "text": "きなくも",
+          "id": "so-created-n2-103-17-p3",
+          "text": "部分が",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-103-12-p4",
-        "so-extra20-n2-103-12-p1",
-        "so-extra20-n2-103-12-p2",
-        "so-extra20-n2-103-12-p3"
+        "so-created-n2-103-17-p1",
+        "so-created-n2-103-17-p2",
+        "so-created-n2-103-17-p3",
+        "so-created-n2-103-17-p4"
       ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '형의 제안에는 찬성하고 싶어지는 부분이 없지는 않다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
       "sourceGrammarIds": [
-        "n2-103"
+        "n2-103",
+        "n2-145",
+        "n2-146",
+        "n2-147"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-103-13",
+      "id": "so-created-n2-103-18",
       "level": "N2",
-      "sentence": "難しいが、できなくもない。",
+      "sentence": "売り主が値下げするなら、あの土地を買わなくもない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어렵지만 못 할 것도 없다.",
+      "korean": "판매자가 가격을 낮춘다면 그 땅을 살 의향이 전혀 없는 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-103-13-p2",
-          "text": "で",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-103-13-p3",
-          "text": "きなくも",
+          "id": "so-created-n2-103-18-p3",
+          "text": "土地を買わ",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-103-13-p4",
-          "text": "ない",
+          "id": "so-created-n2-103-18-p4",
+          "text": "なくもない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-103-13-p1",
-          "text": "難しいが",
+          "id": "so-created-n2-103-18-p1",
+          "text": "売り主が",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-103-18-p2",
+          "text": "値下げするなら、あの",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-103-13-p1",
-        "so-extra20-n2-103-13-p2",
-        "so-extra20-n2-103-13-p3",
-        "so-extra20-n2-103-13-p4"
+        "so-created-n2-103-18-p1",
+        "so-created-n2-103-18-p2",
+        "so-created-n2-103-18-p3",
+        "so-created-n2-103-18-p4"
       ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '판매자가 가격을 낮춘다면 그 땅을 살 의향이 전혀 없는 것은 아니다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
       "sourceGrammarIds": [
-        "n2-103"
+        "n2-103",
+        "n2-145",
+        "n2-146",
+        "n2-147"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-103-14",
+      "id": "so-created-n2-103-19",
       "level": "N2",
-      "sentence": "難しいが、できなくもない。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어렵지만 못 할 것도 없다.",
+      "sentence": "途中で休憩を取れば、祖父も展望台まで登れなくもない。",
+      "sentenceWithBlanks": "途中で ____ ____ ____ ____",
+      "korean": "도중에 쉬어 간다면 할아버지도 전망대까지 오르지 못할 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-103-14-p1",
-          "text": "ない",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-103-14-p2",
-          "text": "難しいが",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-103-14-p3",
-          "text": "で",
+          "id": "so-created-n2-103-19-p2",
+          "text": "祖父も展望",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-103-14-p4",
-          "text": "きなくも",
+          "id": "so-created-n2-103-19-p3",
+          "text": "台まで登れ",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-103-19-p4",
+          "text": "なくもない。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-103-19-p1",
+          "text": "休憩を取れば、",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-103-14-p2",
-        "so-extra20-n2-103-14-p3",
-        "so-extra20-n2-103-14-p4",
-        "so-extra20-n2-103-14-p1"
+        "so-created-n2-103-19-p1",
+        "so-created-n2-103-19-p2",
+        "so-created-n2-103-19-p3",
+        "so-created-n2-103-19-p4"
       ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '도중에 쉬어 간다면 할아버지도 전망대까지 오르지 못할 것은 아니다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
       "sourceGrammarIds": [
-        "n2-103"
+        "n2-103",
+        "n2-145",
+        "n2-146",
+        "n2-147"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-103-15",
+      "id": "so-created-n2-103-20",
       "level": "N2",
-      "sentence": "難しいが、できなくもない。",
+      "sentence": "防音工事をすれば、この倉庫でも録音できなくもない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어렵지만 못 할 것도 없다.",
+      "korean": "방음 공사를 하면 이 창고에서도 녹음하지 못할 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-103-15-p4",
-          "text": "で",
+          "id": "so-created-n2-103-20-p1",
+          "text": "防音",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-103-20-p2",
+          "text": "工事をすれば、この",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-103-15-p1",
-          "text": "きなくも",
+          "id": "so-created-n2-103-20-p3",
+          "text": "倉庫でも録音でき",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-103-15-p2",
-          "text": "ない",
+          "id": "so-created-n2-103-20-p4",
+          "text": "なくもない。",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-103-15-p3",
-          "text": "難しいが",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-103-15-p3",
-        "so-extra20-n2-103-15-p4",
-        "so-extra20-n2-103-15-p1",
-        "so-extra20-n2-103-15-p2"
+        "so-created-n2-103-20-p1",
+        "so-created-n2-103-20-p2",
+        "so-created-n2-103-20-p3",
+        "so-created-n2-103-20-p4"
       ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '방음 공사를 하면 이 창고에서도 녹음하지 못할 것은 아니다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
       "sourceGrammarIds": [
-        "n2-103"
+        "n2-103",
+        "n2-145",
+        "n2-146",
+        "n2-147"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-103-16",
+      "id": "so-created-n2-103-21",
       "level": "N2",
-      "sentence": "難しいが、できなくもない。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어렵지만 못 할 것도 없다.",
+      "sentence": "今夜中に申請すれば、明日の便に荷物を載せられなくもない。",
+      "sentenceWithBlanks": "今夜 ____ ____ ____ ____",
+      "korean": "오늘 밤 안에 신청하면 내일 운항편에 짐을 싣지 못할 것도 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-103-16-p3",
-          "text": "難しいが",
+          "id": "so-created-n2-103-21-p4",
+          "text": "なくもない。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-103-21-p1",
+          "text": "中に申請すれば、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-103-16-p4",
-          "text": "で",
+          "id": "so-created-n2-103-21-p2",
+          "text": "明日の便に",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-103-16-p1",
-          "text": "きなくも",
+          "id": "so-created-n2-103-21-p3",
+          "text": "荷物を載せられ",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-103-16-p2",
-          "text": "ない",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-103-16-p3",
-        "so-extra20-n2-103-16-p4",
-        "so-extra20-n2-103-16-p1",
-        "so-extra20-n2-103-16-p2"
+        "so-created-n2-103-21-p1",
+        "so-created-n2-103-21-p2",
+        "so-created-n2-103-21-p3",
+        "so-created-n2-103-21-p4"
       ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '오늘 밤 안에 신청하면 내일 운항편에 짐을 싣지 못할 것도 없다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
       "sourceGrammarIds": [
-        "n2-103"
+        "n2-103",
+        "n2-145",
+        "n2-146",
+        "n2-147"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-103-17",
+      "id": "so-created-n2-103-22",
       "level": "N2",
-      "sentence": "難しいが、できなくもない。",
+      "sentence": "声の調子からすると、彼女が風邪をひいていると思えなくもない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어렵지만 못 할 것도 없다.",
+      "korean": "목소리 상태로 보아 그녀가 감기에 걸렸다고 볼 수도 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-103-17-p2",
-          "text": "きなくも",
+          "id": "so-created-n2-103-22-p3",
+          "text": "風邪をひいていると",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-103-17-p3",
-          "text": "ない",
+          "id": "so-created-n2-103-22-p4",
+          "text": "思えなくもない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-103-17-p4",
-          "text": "難しいが",
+          "id": "so-created-n2-103-22-p1",
+          "text": "声の調子からすると、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-103-17-p1",
-          "text": "で",
+          "id": "so-created-n2-103-22-p2",
+          "text": "彼女が",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-103-17-p4",
-        "so-extra20-n2-103-17-p1",
-        "so-extra20-n2-103-17-p2",
-        "so-extra20-n2-103-17-p3"
+        "so-created-n2-103-22-p1",
+        "so-created-n2-103-22-p2",
+        "so-created-n2-103-22-p3",
+        "so-created-n2-103-22-p4"
       ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '목소리 상태로 보아 그녀가 감기에 걸렸다고 볼 수도 있다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
       "sourceGrammarIds": [
-        "n2-103"
+        "n2-103",
+        "n2-145",
+        "n2-146",
+        "n2-147"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-103-18",
+      "id": "so-created-n2-103-23",
       "level": "N2",
-      "sentence": "難しいが、できなくもない。",
+      "sentence": "水量は少ないものの、小型の発電機なら動かせなくもない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어렵지만 못 할 것도 없다.",
+      "korean": "수량은 적지만 소형 발전기라면 작동시키지 못할 것도 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-103-18-p1",
-          "text": "難しいが",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-103-18-p2",
-          "text": "で",
+          "id": "so-created-n2-103-23-p2",
+          "text": "少ないものの、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-103-18-p3",
-          "text": "きなくも",
+          "id": "so-created-n2-103-23-p3",
+          "text": "小型の発電機なら",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-103-18-p4",
-          "text": "ない",
+          "id": "so-created-n2-103-23-p4",
+          "text": "動かせなくもない。",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-103-23-p1",
+          "text": "水量は",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-103-18-p1",
-        "so-extra20-n2-103-18-p2",
-        "so-extra20-n2-103-18-p3",
-        "so-extra20-n2-103-18-p4"
+        "so-created-n2-103-23-p1",
+        "so-created-n2-103-23-p2",
+        "so-created-n2-103-23-p3",
+        "so-created-n2-103-23-p4"
       ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '수량은 적지만 소형 발전기라면 작동시키지 못할 것도 없다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
       "sourceGrammarIds": [
-        "n2-103"
+        "n2-103",
+        "n2-145",
+        "n2-146",
+        "n2-147"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-103-19",
+      "id": "so-created-n2-103-24",
       "level": "N2",
-      "sentence": "難しいが、できなくもない。",
+      "sentence": "会場を変更すれば、予定どおり披露宴を開けなくもない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어렵지만 못 할 것도 없다.",
+      "korean": "장소를 변경하면 예정대로 피로연을 열지 못할 것도 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-103-19-p4",
-          "text": "きなくも",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-103-19-p1",
-          "text": "ない",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-103-19-p2",
-          "text": "難しいが",
+          "id": "so-created-n2-103-24-p1",
+          "text": "会場を変更すれば、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-103-19-p3",
-          "text": "で",
+          "id": "so-created-n2-103-24-p2",
+          "text": "予定どおり",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-103-24-p3",
+          "text": "披露宴を開け",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-103-24-p4",
+          "text": "なくもない。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-103-19-p2",
-        "so-extra20-n2-103-19-p3",
-        "so-extra20-n2-103-19-p4",
-        "so-extra20-n2-103-19-p1"
+        "so-created-n2-103-24-p1",
+        "so-created-n2-103-24-p2",
+        "so-created-n2-103-24-p3",
+        "so-created-n2-103-24-p4"
       ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '장소를 변경하면 예정대로 피로연을 열지 못할 것도 없다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
       "sourceGrammarIds": [
-        "n2-103"
+        "n2-103",
+        "n2-145",
+        "n2-146",
+        "n2-147"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-103-20",
+      "id": "so-created-n2-103-25",
       "level": "N2",
-      "sentence": "難しいが、できなくもない。",
+      "sentence": "脂っこさを抑えれば、この料理を定番メニューに加えなくもない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어렵지만 못 할 것도 없다.",
+      "korean": "느끼함을 줄인다면 이 요리를 정식 메뉴에 추가할 수도 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-103-20-p3",
-          "text": "難しいが",
+          "id": "so-created-n2-103-25-p4",
+          "text": "加えなくもない。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-103-25-p1",
+          "text": "脂っこさを",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-103-20-p4",
-          "text": "で",
+          "id": "so-created-n2-103-25-p2",
+          "text": "抑えれば、この",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-103-20-p1",
-          "text": "きなくも",
+          "id": "so-created-n2-103-25-p3",
+          "text": "料理を定番メニューに",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-103-20-p2",
-          "text": "ない",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-103-20-p3",
-        "so-extra20-n2-103-20-p4",
-        "so-extra20-n2-103-20-p1",
-        "so-extra20-n2-103-20-p2"
+        "so-created-n2-103-25-p1",
+        "so-created-n2-103-25-p2",
+        "so-created-n2-103-25-p3",
+        "so-created-n2-103-25-p4"
       ],
-      "explanation": "「なくもない」는 ~하기도 한다, ~하지 않는 것은 아니다라는 뜻이다. 약한 인정.",
+      "explanation": "「なくもない」는 '~하기도 한다, ~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '느끼함을 줄인다면 이 요리를 정식 메뉴에 추가할 수도 있다.'라는 상황에 쓰였으며, 약한 인정. 주의할 점은 약한 긍정. 「できなくもない」= 불가는 아님. 적극성이 낮은 긍정.",
       "sourceGrammarIds": [
-        "n2-103"
+        "n2-103",
+        "n2-145",
+        "n2-146",
+        "n2-147"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     }
   ]

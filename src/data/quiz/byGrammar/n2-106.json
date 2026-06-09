@@ -267,15 +267,23 @@
       ]
     },
     {
-      "id": "fb-extra-n2-106-1",
+      "id": "fb-created-n2-106-01",
       "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlank": "状況（　　　）、計画を変更する必要がある。",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
-      "answerChoiceId": "fb-extra-n2-106-1-c",
+      "sentence": "来場者の年齢に応じて、配布するパンフレットを分けている。",
+      "sentenceWithBlank": "来場者の年齢（　　　）、配布するパンフレットを分けている。",
+      "korean": "방문객의 연령에 따라 배포하는 안내 책자를 구분하고 있다.",
+      "answerChoiceId": "fb-created-n2-106-01-c",
       "choices": [
         {
-          "id": "fb-extra-n2-106-1-d",
+          "id": "fb-created-n2-106-01-c",
+          "text": "に応じて",
+          "grammarId": "n2-106",
+          "baseExpression": "に応じて",
+          "conjugatedExpression": "に応じて",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-106-01-d",
           "text": "とはいうものの",
           "grammarId": "n2-093",
           "baseExpression": "とはいうものの",
@@ -283,7 +291,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-106-1-a",
+          "id": "fb-created-n2-106-01-a",
           "text": "とは限らない",
           "grammarId": "n2-094",
           "baseExpression": "とは限らない",
@@ -291,23 +299,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-106-1-b",
+          "id": "fb-created-n2-106-01-b",
           "text": "ともなると",
           "grammarId": "n2-095",
           "baseExpression": "ともなると",
           "conjugatedExpression": "ともなると",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-106-1-c",
-          "text": "に応じて",
-          "grammarId": "n2-106",
-          "baseExpression": "に応じて",
-          "conjugatedExpression": "に応じて",
-          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '방문객의 연령에 따라 배포하는 안내 책자를 구분하고 있다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
       "sourceGrammarIds": [
         "n2-106",
         "n2-093",
@@ -315,237 +315,20 @@
         "n2-095"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra-n2-106-2",
+      "id": "fb-created-n2-106-02",
       "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlank": "状況（　　　）、計画を変更する必要がある。",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
-      "answerChoiceId": "fb-extra-n2-106-2-b",
+      "sentence": "川の水位に応じて、水門の開き具合が自動的に調節される。",
+      "sentenceWithBlank": "川の水位（　　　）、水門の開き具合が自動的に調節される。",
+      "korean": "강의 수위에 따라 수문의 개방 정도가 자동으로 조절된다.",
+      "answerChoiceId": "fb-created-n2-106-02-c",
       "choices": [
         {
-          "id": "fb-extra-n2-106-2-a",
-          "text": "ところではない",
-          "grammarId": "n2-088",
-          "baseExpression": "ところではない",
-          "conjugatedExpression": "ところではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-106-2-b",
-          "text": "に応じて",
-          "grammarId": "n2-106",
-          "baseExpression": "に応じて",
-          "conjugatedExpression": "に応じて",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-106-2-c",
-          "text": "どころか",
-          "grammarId": "n2-086",
-          "baseExpression": "どころか",
-          "conjugatedExpression": "どころか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-106-2-d",
-          "text": "ところだった",
-          "grammarId": "n2-087",
-          "baseExpression": "ところだった",
-          "conjugatedExpression": "ところだった",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
-      "sourceGrammarIds": [
-        "n2-106",
-        "n2-086",
-        "n2-087",
-        "n2-088"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-106-3",
-      "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlank": "状況（　　　）、計画を変更する必要がある。",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
-      "answerChoiceId": "fb-extra-n2-106-3-a",
-      "choices": [
-        {
-          "id": "fb-extra-n2-106-3-b",
-          "text": "ぬきで",
-          "grammarId": "n2-132",
-          "baseExpression": "ぬきで",
-          "conjugatedExpression": "ぬきで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-106-3-c",
-          "text": "ぬく",
-          "grammarId": "n2-133",
-          "baseExpression": "ぬく",
-          "conjugatedExpression": "ぬく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-106-3-d",
-          "text": "の上で",
-          "grammarId": "n2-134",
-          "baseExpression": "の上で",
-          "conjugatedExpression": "の上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-106-3-a",
-          "text": "に応じて",
-          "grammarId": "n2-106",
-          "baseExpression": "に応じて",
-          "conjugatedExpression": "に応じて",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
-      "sourceGrammarIds": [
-        "n2-106",
-        "n2-132",
-        "n2-133",
-        "n2-134"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-106-4",
-      "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlank": "状況（　　　）、計画を変更する必要がある。",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
-      "answerChoiceId": "fb-extra-n2-106-4-d",
-      "choices": [
-        {
-          "id": "fb-extra-n2-106-4-c",
-          "text": "わりには",
-          "grammarId": "n2-171",
-          "baseExpression": "わりには",
-          "conjugatedExpression": "わりには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-106-4-d",
-          "text": "に応じて",
-          "grammarId": "n2-106",
-          "baseExpression": "に応じて",
-          "conjugatedExpression": "に応じて",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-106-4-a",
-          "text": "わけではない",
-          "grammarId": "n2-169",
-          "baseExpression": "わけではない",
-          "conjugatedExpression": "わけではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-106-4-b",
-          "text": "わけにはいかない",
-          "grammarId": "n2-170",
-          "baseExpression": "わけにはいかない",
-          "conjugatedExpression": "わけにはいかない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
-      "sourceGrammarIds": [
-        "n2-106",
-        "n2-169",
-        "n2-170",
-        "n2-171"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-106-5",
-      "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlank": "状況（　　　）、計画を変更する必要がある。",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
-      "answerChoiceId": "fb-extra-n2-106-5-c",
-      "choices": [
-        {
-          "id": "fb-extra-n2-106-5-d",
-          "text": "まい",
-          "grammarId": "n2-146",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-106-5-a",
-          "text": "まい",
-          "grammarId": "n2-147",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-106-5-b",
-          "text": "まいか",
-          "grammarId": "n2-148",
-          "baseExpression": "まいか",
-          "conjugatedExpression": "まいか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-106-5-c",
-          "text": "に応じて",
-          "grammarId": "n2-106",
-          "baseExpression": "に応じて",
-          "conjugatedExpression": "に応じて",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
-      "sourceGrammarIds": [
-        "n2-106",
-        "n2-146",
-        "n2-147",
-        "n2-148"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-106-01",
-      "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlank": "状況（　　　）、計画を変更する必要がある。",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
-      "answerChoiceId": "fb-extra20-n2-106-01-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-106-01-d",
+          "id": "fb-created-n2-106-02-d",
           "text": "とはいうものの",
           "grammarId": "n2-093",
           "baseExpression": "とはいうものの",
@@ -553,7 +336,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-106-01-a",
+          "id": "fb-created-n2-106-02-a",
           "text": "とは限らない",
           "grammarId": "n2-094",
           "baseExpression": "とは限らない",
@@ -561,7 +344,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-106-01-b",
+          "id": "fb-created-n2-106-02-b",
           "text": "ともなると",
           "grammarId": "n2-095",
           "baseExpression": "ともなると",
@@ -569,7 +352,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-106-01-c",
+          "id": "fb-created-n2-106-02-c",
           "text": "に応じて",
           "grammarId": "n2-106",
           "baseExpression": "に応じて",
@@ -577,7 +360,7 @@
           "isSimilarDistractor": false
         }
       ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '강의 수위에 따라 수문의 개방 정도가 자동으로 조절된다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
       "sourceGrammarIds": [
         "n2-106",
         "n2-093",
@@ -585,253 +368,20 @@
         "n2-095"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-106-02",
+      "id": "fb-created-n2-106-03",
       "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlank": "状況（　　　）、計画を変更する必要がある。",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
-      "answerChoiceId": "fb-extra20-n2-106-02-b",
+      "sentence": "患者の症状に応じて、医師が薬の量を細かく調整した。",
+      "sentenceWithBlank": "患者の症状（　　　）、医師が薬の量を細かく調整した。",
+      "korean": "환자의 증상에 따라 의사가 약의 양을 세밀하게 조정했다.",
+      "answerChoiceId": "fb-created-n2-106-03-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-106-02-c",
-          "text": "どころか",
-          "grammarId": "n2-086",
-          "baseExpression": "どころか",
-          "conjugatedExpression": "どころか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-106-02-d",
-          "text": "ところだった",
-          "grammarId": "n2-087",
-          "baseExpression": "ところだった",
-          "conjugatedExpression": "ところだった",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-106-02-a",
-          "text": "ところではない",
-          "grammarId": "n2-088",
-          "baseExpression": "ところではない",
-          "conjugatedExpression": "ところではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-106-02-b",
-          "text": "に応じて",
-          "grammarId": "n2-106",
-          "baseExpression": "に応じて",
-          "conjugatedExpression": "に応じて",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
-      "sourceGrammarIds": [
-        "n2-106",
-        "n2-086",
-        "n2-087",
-        "n2-088"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-106-03",
-      "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlank": "状況（　　　）、計画を変更する必要がある。",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
-      "answerChoiceId": "fb-extra20-n2-106-03-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-106-03-b",
-          "text": "ぬきで",
-          "grammarId": "n2-132",
-          "baseExpression": "ぬきで",
-          "conjugatedExpression": "ぬきで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-106-03-c",
-          "text": "ぬく",
-          "grammarId": "n2-133",
-          "baseExpression": "ぬく",
-          "conjugatedExpression": "ぬく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-106-03-d",
-          "text": "の上で",
-          "grammarId": "n2-134",
-          "baseExpression": "の上で",
-          "conjugatedExpression": "の上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-106-03-a",
-          "text": "に応じて",
-          "grammarId": "n2-106",
-          "baseExpression": "に応じて",
-          "conjugatedExpression": "に応じて",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
-      "sourceGrammarIds": [
-        "n2-106",
-        "n2-132",
-        "n2-133",
-        "n2-134"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-106-04",
-      "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlank": "状況（　　　）、計画を変更する必要がある。",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
-      "answerChoiceId": "fb-extra20-n2-106-04-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-106-04-a",
-          "text": "わけではない",
-          "grammarId": "n2-169",
-          "baseExpression": "わけではない",
-          "conjugatedExpression": "わけではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-106-04-b",
-          "text": "わけにはいかない",
-          "grammarId": "n2-170",
-          "baseExpression": "わけにはいかない",
-          "conjugatedExpression": "わけにはいかない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-106-04-c",
-          "text": "わりには",
-          "grammarId": "n2-171",
-          "baseExpression": "わりには",
-          "conjugatedExpression": "わりには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-106-04-d",
-          "text": "に応じて",
-          "grammarId": "n2-106",
-          "baseExpression": "に応じて",
-          "conjugatedExpression": "に応じて",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
-      "sourceGrammarIds": [
-        "n2-106",
-        "n2-169",
-        "n2-170",
-        "n2-171"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-106-05",
-      "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlank": "状況（　　　）、計画を変更する必要がある。",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
-      "answerChoiceId": "fb-extra20-n2-106-05-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-106-05-d",
-          "text": "まい",
-          "grammarId": "n2-146",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-106-05-a",
-          "text": "まい",
-          "grammarId": "n2-147",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-106-05-b",
-          "text": "まいか",
-          "grammarId": "n2-148",
-          "baseExpression": "まいか",
-          "conjugatedExpression": "まいか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-106-05-c",
-          "text": "に応じて",
-          "grammarId": "n2-106",
-          "baseExpression": "に応じて",
-          "conjugatedExpression": "に応じて",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
-      "sourceGrammarIds": [
-        "n2-106",
-        "n2-146",
-        "n2-147",
-        "n2-148"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-106-06",
-      "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlank": "状況（　　　）、計画を変更する必要がある。",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
-      "answerChoiceId": "fb-extra20-n2-106-06-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-106-06-c",
-          "text": "に応じて",
-          "grammarId": "n2-106",
-          "baseExpression": "に応じて",
-          "conjugatedExpression": "に応じて",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-106-06-d",
-          "text": "とはいうものの",
-          "grammarId": "n2-093",
-          "baseExpression": "とはいうものの",
-          "conjugatedExpression": "とはいうものの",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-106-06-a",
+          "id": "fb-created-n2-106-03-a",
           "text": "とは限らない",
           "grammarId": "n2-094",
           "baseExpression": "とは限らない",
@@ -839,253 +389,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-106-06-b",
-          "text": "ともなると",
-          "grammarId": "n2-095",
-          "baseExpression": "ともなると",
-          "conjugatedExpression": "ともなると",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
-      "sourceGrammarIds": [
-        "n2-106",
-        "n2-093",
-        "n2-094",
-        "n2-095"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-106-07",
-      "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlank": "状況（　　　）、計画を変更する必要がある。",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
-      "answerChoiceId": "fb-extra20-n2-106-07-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-106-07-b",
-          "text": "に応じて",
-          "grammarId": "n2-106",
-          "baseExpression": "に応じて",
-          "conjugatedExpression": "に応じて",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-106-07-c",
-          "text": "どころか",
-          "grammarId": "n2-086",
-          "baseExpression": "どころか",
-          "conjugatedExpression": "どころか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-106-07-d",
-          "text": "ところだった",
-          "grammarId": "n2-087",
-          "baseExpression": "ところだった",
-          "conjugatedExpression": "ところだった",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-106-07-a",
-          "text": "ところではない",
-          "grammarId": "n2-088",
-          "baseExpression": "ところではない",
-          "conjugatedExpression": "ところではない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
-      "sourceGrammarIds": [
-        "n2-106",
-        "n2-086",
-        "n2-087",
-        "n2-088"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-106-08",
-      "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlank": "状況（　　　）、計画を変更する必要がある。",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
-      "answerChoiceId": "fb-extra20-n2-106-08-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-106-08-a",
-          "text": "に応じて",
-          "grammarId": "n2-106",
-          "baseExpression": "に応じて",
-          "conjugatedExpression": "に応じて",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-106-08-b",
-          "text": "ぬきで",
-          "grammarId": "n2-132",
-          "baseExpression": "ぬきで",
-          "conjugatedExpression": "ぬきで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-106-08-c",
-          "text": "ぬく",
-          "grammarId": "n2-133",
-          "baseExpression": "ぬく",
-          "conjugatedExpression": "ぬく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-106-08-d",
-          "text": "の上で",
-          "grammarId": "n2-134",
-          "baseExpression": "の上で",
-          "conjugatedExpression": "の上で",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
-      "sourceGrammarIds": [
-        "n2-106",
-        "n2-132",
-        "n2-133",
-        "n2-134"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-106-09",
-      "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlank": "状況（　　　）、計画を変更する必要がある。",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
-      "answerChoiceId": "fb-extra20-n2-106-09-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-106-09-d",
-          "text": "に応じて",
-          "grammarId": "n2-106",
-          "baseExpression": "に応じて",
-          "conjugatedExpression": "に応じて",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-106-09-a",
-          "text": "わけではない",
-          "grammarId": "n2-169",
-          "baseExpression": "わけではない",
-          "conjugatedExpression": "わけではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-106-09-b",
-          "text": "わけにはいかない",
-          "grammarId": "n2-170",
-          "baseExpression": "わけにはいかない",
-          "conjugatedExpression": "わけにはいかない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-106-09-c",
-          "text": "わりには",
-          "grammarId": "n2-171",
-          "baseExpression": "わりには",
-          "conjugatedExpression": "わりには",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
-      "sourceGrammarIds": [
-        "n2-106",
-        "n2-169",
-        "n2-170",
-        "n2-171"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-106-10",
-      "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlank": "状況（　　　）、計画を変更する必要がある。",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
-      "answerChoiceId": "fb-extra20-n2-106-10-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-106-10-c",
-          "text": "に応じて",
-          "grammarId": "n2-106",
-          "baseExpression": "に応じて",
-          "conjugatedExpression": "に応じて",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-106-10-d",
-          "text": "まい",
-          "grammarId": "n2-146",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-106-10-a",
-          "text": "まい",
-          "grammarId": "n2-147",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-106-10-b",
-          "text": "まいか",
-          "grammarId": "n2-148",
-          "baseExpression": "まいか",
-          "conjugatedExpression": "まいか",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
-      "sourceGrammarIds": [
-        "n2-106",
-        "n2-146",
-        "n2-147",
-        "n2-148"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-106-11",
-      "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlank": "状況（　　　）、計画を変更する必要がある。",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
-      "answerChoiceId": "fb-extra20-n2-106-11-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-106-11-b",
+          "id": "fb-created-n2-106-03-b",
           "text": "ともなると",
           "grammarId": "n2-095",
           "baseExpression": "ともなると",
@@ -1093,7 +397,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-106-11-c",
+          "id": "fb-created-n2-106-03-c",
           "text": "に応じて",
           "grammarId": "n2-106",
           "baseExpression": "に応じて",
@@ -1101,285 +405,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-106-11-d",
-          "text": "とはいうものの",
-          "grammarId": "n2-093",
-          "baseExpression": "とはいうものの",
-          "conjugatedExpression": "とはいうものの",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-106-11-a",
-          "text": "とは限らない",
-          "grammarId": "n2-094",
-          "baseExpression": "とは限らない",
-          "conjugatedExpression": "とは限らない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
-      "sourceGrammarIds": [
-        "n2-106",
-        "n2-093",
-        "n2-094",
-        "n2-095"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-106-12",
-      "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlank": "状況（　　　）、計画を変更する必要がある。",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
-      "answerChoiceId": "fb-extra20-n2-106-12-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-106-12-a",
-          "text": "ところではない",
-          "grammarId": "n2-088",
-          "baseExpression": "ところではない",
-          "conjugatedExpression": "ところではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-106-12-b",
-          "text": "に応じて",
-          "grammarId": "n2-106",
-          "baseExpression": "に応じて",
-          "conjugatedExpression": "に応じて",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-106-12-c",
-          "text": "どころか",
-          "grammarId": "n2-086",
-          "baseExpression": "どころか",
-          "conjugatedExpression": "どころか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-106-12-d",
-          "text": "ところだった",
-          "grammarId": "n2-087",
-          "baseExpression": "ところだった",
-          "conjugatedExpression": "ところだった",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
-      "sourceGrammarIds": [
-        "n2-106",
-        "n2-086",
-        "n2-087",
-        "n2-088"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-106-13",
-      "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlank": "状況（　　　）、計画を変更する必要がある。",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
-      "answerChoiceId": "fb-extra20-n2-106-13-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-106-13-d",
-          "text": "の上で",
-          "grammarId": "n2-134",
-          "baseExpression": "の上で",
-          "conjugatedExpression": "の上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-106-13-a",
-          "text": "に応じて",
-          "grammarId": "n2-106",
-          "baseExpression": "に応じて",
-          "conjugatedExpression": "に応じて",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-106-13-b",
-          "text": "ぬきで",
-          "grammarId": "n2-132",
-          "baseExpression": "ぬきで",
-          "conjugatedExpression": "ぬきで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-106-13-c",
-          "text": "ぬく",
-          "grammarId": "n2-133",
-          "baseExpression": "ぬく",
-          "conjugatedExpression": "ぬく",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
-      "sourceGrammarIds": [
-        "n2-106",
-        "n2-132",
-        "n2-133",
-        "n2-134"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-106-14",
-      "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlank": "状況（　　　）、計画を変更する必要がある。",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
-      "answerChoiceId": "fb-extra20-n2-106-14-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-106-14-c",
-          "text": "わりには",
-          "grammarId": "n2-171",
-          "baseExpression": "わりには",
-          "conjugatedExpression": "わりには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-106-14-d",
-          "text": "に応じて",
-          "grammarId": "n2-106",
-          "baseExpression": "に応じて",
-          "conjugatedExpression": "に応じて",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-106-14-a",
-          "text": "わけではない",
-          "grammarId": "n2-169",
-          "baseExpression": "わけではない",
-          "conjugatedExpression": "わけではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-106-14-b",
-          "text": "わけにはいかない",
-          "grammarId": "n2-170",
-          "baseExpression": "わけにはいかない",
-          "conjugatedExpression": "わけにはいかない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
-      "sourceGrammarIds": [
-        "n2-106",
-        "n2-169",
-        "n2-170",
-        "n2-171"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-106-15",
-      "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlank": "状況（　　　）、計画を変更する必要がある。",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
-      "answerChoiceId": "fb-extra20-n2-106-15-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-106-15-b",
-          "text": "まいか",
-          "grammarId": "n2-148",
-          "baseExpression": "まいか",
-          "conjugatedExpression": "まいか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-106-15-c",
-          "text": "に応じて",
-          "grammarId": "n2-106",
-          "baseExpression": "に応じて",
-          "conjugatedExpression": "に応じて",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-106-15-d",
-          "text": "まい",
-          "grammarId": "n2-146",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-106-15-a",
-          "text": "まい",
-          "grammarId": "n2-147",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
-      "sourceGrammarIds": [
-        "n2-106",
-        "n2-146",
-        "n2-147",
-        "n2-148"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-106-16",
-      "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlank": "状況（　　　）、計画を変更する必要がある。",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
-      "answerChoiceId": "fb-extra20-n2-106-16-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-106-16-a",
-          "text": "とは限らない",
-          "grammarId": "n2-094",
-          "baseExpression": "とは限らない",
-          "conjugatedExpression": "とは限らない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-106-16-b",
-          "text": "ともなると",
-          "grammarId": "n2-095",
-          "baseExpression": "ともなると",
-          "conjugatedExpression": "ともなると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-106-16-c",
-          "text": "に応じて",
-          "grammarId": "n2-106",
-          "baseExpression": "に応じて",
-          "conjugatedExpression": "に応じて",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-106-16-d",
+          "id": "fb-created-n2-106-03-d",
           "text": "とはいうものの",
           "grammarId": "n2-093",
           "baseExpression": "とはいうものの",
@@ -1387,7 +413,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '환자의 증상에 따라 의사가 약의 양을 세밀하게 조정했다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
       "sourceGrammarIds": [
         "n2-106",
         "n2-093",
@@ -1395,37 +421,28 @@
         "n2-095"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-106-17",
+      "id": "fb-created-n2-106-04",
       "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlank": "状況（　　　）、計画を変更する必要がある。",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
-      "answerChoiceId": "fb-extra20-n2-106-17-b",
+      "sentence": "収穫量に応じて、農協が臨時の保管場所を確保する。",
+      "sentenceWithBlank": "収穫量（　　　）、農協が臨時の保管場所を確保する。",
+      "korean": "수확량에 따라 농협이 임시 보관 장소를 확보한다.",
+      "answerChoiceId": "fb-created-n2-106-04-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-106-17-d",
-          "text": "ところだった",
-          "grammarId": "n2-087",
-          "baseExpression": "ところだった",
-          "conjugatedExpression": "ところだった",
+          "id": "fb-created-n2-106-04-b",
+          "text": "ともなると",
+          "grammarId": "n2-095",
+          "baseExpression": "ともなると",
+          "conjugatedExpression": "ともなると",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-106-17-a",
-          "text": "ところではない",
-          "grammarId": "n2-088",
-          "baseExpression": "ところではない",
-          "conjugatedExpression": "ところではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-106-17-b",
+          "id": "fb-created-n2-106-04-c",
           "text": "に応じて",
           "grammarId": "n2-106",
           "baseExpression": "に応じて",
@@ -1433,53 +450,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-106-17-c",
-          "text": "どころか",
-          "grammarId": "n2-086",
-          "baseExpression": "どころか",
-          "conjugatedExpression": "どころか",
+          "id": "fb-created-n2-106-04-d",
+          "text": "とはいうものの",
+          "grammarId": "n2-093",
+          "baseExpression": "とはいうものの",
+          "conjugatedExpression": "とはいうものの",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-106-04-a",
+          "text": "とは限らない",
+          "grammarId": "n2-094",
+          "baseExpression": "とは限らない",
+          "conjugatedExpression": "とは限らない",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '수확량에 따라 농협이 임시 보관 장소를 확보한다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
       "sourceGrammarIds": [
         "n2-106",
-        "n2-086",
-        "n2-087",
-        "n2-088"
+        "n2-093",
+        "n2-094",
+        "n2-095"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-106-18",
+      "id": "fb-created-n2-106-05",
       "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlank": "状況（　　　）、計画を変更する必要がある。",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
-      "answerChoiceId": "fb-extra20-n2-106-18-a",
+      "sentence": "風の強さに応じて、競技の開始時刻が繰り下げられることもある。",
+      "sentenceWithBlank": "風の強さ（　　　）、競技の開始時刻が繰り下げられることもある。",
+      "korean": "바람의 세기에 따라 경기 시작 시각이 늦춰지기도 한다.",
+      "answerChoiceId": "fb-created-n2-106-05-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-106-18-c",
-          "text": "ぬく",
-          "grammarId": "n2-133",
-          "baseExpression": "ぬく",
-          "conjugatedExpression": "ぬく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-106-18-d",
-          "text": "の上で",
-          "grammarId": "n2-134",
-          "baseExpression": "の上で",
-          "conjugatedExpression": "の上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-106-18-a",
+          "id": "fb-created-n2-106-05-c",
           "text": "に応じて",
           "grammarId": "n2-106",
           "baseExpression": "に応じて",
@@ -1487,53 +495,121 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-106-18-b",
-          "text": "ぬきで",
-          "grammarId": "n2-132",
-          "baseExpression": "ぬきで",
-          "conjugatedExpression": "ぬきで",
+          "id": "fb-created-n2-106-05-d",
+          "text": "とはいうものの",
+          "grammarId": "n2-093",
+          "baseExpression": "とはいうものの",
+          "conjugatedExpression": "とはいうものの",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-106-05-a",
+          "text": "とは限らない",
+          "grammarId": "n2-094",
+          "baseExpression": "とは限らない",
+          "conjugatedExpression": "とは限らない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-106-05-b",
+          "text": "ともなると",
+          "grammarId": "n2-095",
+          "baseExpression": "ともなると",
+          "conjugatedExpression": "ともなると",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '바람의 세기에 따라 경기 시작 시각이 늦춰지기도 한다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
       "sourceGrammarIds": [
         "n2-106",
-        "n2-132",
-        "n2-133",
-        "n2-134"
+        "n2-093",
+        "n2-094",
+        "n2-095"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-106-19",
+      "id": "fb-created-n2-106-06",
       "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlank": "状況（　　　）、計画を変更する必要がある。",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
-      "answerChoiceId": "fb-extra20-n2-106-19-d",
+      "sentence": "社員の実績に応じて、年度末に特別手当が支給される。",
+      "sentenceWithBlank": "社員の実績（　　　）、年度末に特別手当が支給される。",
+      "korean": "사원의 실적에 따라 연도 말에 특별 수당이 지급된다.",
+      "answerChoiceId": "fb-created-n2-106-06-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-106-19-b",
-          "text": "わけにはいかない",
-          "grammarId": "n2-170",
-          "baseExpression": "わけにはいかない",
-          "conjugatedExpression": "わけにはいかない",
+          "id": "fb-created-n2-106-06-d",
+          "text": "とはいうものの",
+          "grammarId": "n2-093",
+          "baseExpression": "とはいうものの",
+          "conjugatedExpression": "とはいうものの",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-106-19-c",
-          "text": "わりには",
-          "grammarId": "n2-171",
-          "baseExpression": "わりには",
-          "conjugatedExpression": "わりには",
+          "id": "fb-created-n2-106-06-a",
+          "text": "とは限らない",
+          "grammarId": "n2-094",
+          "baseExpression": "とは限らない",
+          "conjugatedExpression": "とは限らない",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-106-19-d",
+          "id": "fb-created-n2-106-06-b",
+          "text": "ともなると",
+          "grammarId": "n2-095",
+          "baseExpression": "ともなると",
+          "conjugatedExpression": "ともなると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-106-06-c",
+          "text": "に応じて",
+          "grammarId": "n2-106",
+          "baseExpression": "に応じて",
+          "conjugatedExpression": "に応じて",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '사원의 실적에 따라 연도 말에 특별 수당이 지급된다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
+      "sourceGrammarIds": [
+        "n2-106",
+        "n2-093",
+        "n2-094",
+        "n2-095"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-106-07",
+      "level": "N2",
+      "sentence": "部屋の明るさに応じて、照明の色合いがゆっくり変化する。",
+      "sentenceWithBlank": "部屋の明るさ（　　　）、照明の色合いがゆっくり変化する。",
+      "korean": "방의 밝기에 따라 조명의 색조가 서서히 변한다.",
+      "answerChoiceId": "fb-created-n2-106-07-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-106-07-a",
+          "text": "とは限らない",
+          "grammarId": "n2-094",
+          "baseExpression": "とは限らない",
+          "conjugatedExpression": "とは限らない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-106-07-b",
+          "text": "ともなると",
+          "grammarId": "n2-095",
+          "baseExpression": "ともなると",
+          "conjugatedExpression": "ともなると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-106-07-c",
           "text": "に応じて",
           "grammarId": "n2-106",
           "baseExpression": "に応じて",
@@ -1541,53 +617,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-106-19-a",
-          "text": "わけではない",
-          "grammarId": "n2-169",
-          "baseExpression": "わけではない",
-          "conjugatedExpression": "わけではない",
+          "id": "fb-created-n2-106-07-d",
+          "text": "とはいうものの",
+          "grammarId": "n2-093",
+          "baseExpression": "とはいうものの",
+          "conjugatedExpression": "とはいうものの",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '방의 밝기에 따라 조명의 색조가 서서히 변한다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
       "sourceGrammarIds": [
         "n2-106",
-        "n2-169",
-        "n2-170",
-        "n2-171"
+        "n2-093",
+        "n2-094",
+        "n2-095"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-106-20",
+      "id": "fb-created-n2-106-08",
       "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlank": "状況（　　　）、計画を変更する必要がある。",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
-      "answerChoiceId": "fb-extra20-n2-106-20-c",
+      "sentence": "荷物の大きさに応じて、最適な配送車両を手配します。",
+      "sentenceWithBlank": "荷物の大きさ（　　　）、最適な配送車両を手配します。",
+      "korean": "짐의 크기에 따라 가장 적합한 배송 차량을 배정합니다.",
+      "answerChoiceId": "fb-created-n2-106-08-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-106-20-a",
-          "text": "まい",
-          "grammarId": "n2-147",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
+          "id": "fb-created-n2-106-08-b",
+          "text": "ともなると",
+          "grammarId": "n2-095",
+          "baseExpression": "ともなると",
+          "conjugatedExpression": "ともなると",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-106-20-b",
-          "text": "まいか",
-          "grammarId": "n2-148",
-          "baseExpression": "まいか",
-          "conjugatedExpression": "まいか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-106-20-c",
+          "id": "fb-created-n2-106-08-c",
           "text": "に応じて",
           "grammarId": "n2-106",
           "baseExpression": "に応じて",
@@ -1595,25 +662,933 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-106-20-d",
-          "text": "まい",
-          "grammarId": "n2-146",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
+          "id": "fb-created-n2-106-08-d",
+          "text": "とはいうものの",
+          "grammarId": "n2-093",
+          "baseExpression": "とはいうものの",
+          "conjugatedExpression": "とはいうものの",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-106-08-a",
+          "text": "とは限らない",
+          "grammarId": "n2-094",
+          "baseExpression": "とは限らない",
+          "conjugatedExpression": "とは限らない",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '짐의 크기에 따라 가장 적합한 배송 차량을 배정합니다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
       "sourceGrammarIds": [
         "n2-106",
-        "n2-146",
-        "n2-147",
-        "n2-148"
+        "n2-093",
+        "n2-094",
+        "n2-095"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-106-09",
+      "level": "N2",
+      "sentence": "観客の反応に応じて、司会者は進行の速さを変えていた。",
+      "sentenceWithBlank": "観客の反応（　　　）、司会者は進行の速さを変えていた。",
+      "korean": "관객의 반응에 따라 사회자는 진행 속도를 바꾸고 있었다.",
+      "answerChoiceId": "fb-created-n2-106-09-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-106-09-c",
+          "text": "に応じて",
+          "grammarId": "n2-106",
+          "baseExpression": "に応じて",
+          "conjugatedExpression": "に応じて",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-106-09-d",
+          "text": "とはいうものの",
+          "grammarId": "n2-093",
+          "baseExpression": "とはいうものの",
+          "conjugatedExpression": "とはいうものの",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-106-09-a",
+          "text": "とは限らない",
+          "grammarId": "n2-094",
+          "baseExpression": "とは限らない",
+          "conjugatedExpression": "とは限らない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-106-09-b",
+          "text": "ともなると",
+          "grammarId": "n2-095",
+          "baseExpression": "ともなると",
+          "conjugatedExpression": "ともなると",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '관객의 반응에 따라 사회자는 진행 속도를 바꾸고 있었다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
+      "sourceGrammarIds": [
+        "n2-106",
+        "n2-093",
+        "n2-094",
+        "n2-095"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-106-10",
+      "level": "N2",
+      "sentence": "道路の混雑度に応じて、料金所へ向かう車線が切り替わる。",
+      "sentenceWithBlank": "道路の混雑度（　　　）、料金所へ向かう車線が切り替わる。",
+      "korean": "도로의 혼잡도에 따라 요금소로 향하는 차선이 전환된다.",
+      "answerChoiceId": "fb-created-n2-106-10-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-106-10-d",
+          "text": "とはいうものの",
+          "grammarId": "n2-093",
+          "baseExpression": "とはいうものの",
+          "conjugatedExpression": "とはいうものの",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-106-10-a",
+          "text": "とは限らない",
+          "grammarId": "n2-094",
+          "baseExpression": "とは限らない",
+          "conjugatedExpression": "とは限らない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-106-10-b",
+          "text": "ともなると",
+          "grammarId": "n2-095",
+          "baseExpression": "ともなると",
+          "conjugatedExpression": "ともなると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-106-10-c",
+          "text": "に応じて",
+          "grammarId": "n2-106",
+          "baseExpression": "に応じて",
+          "conjugatedExpression": "に応じて",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '도로의 혼잡도에 따라 요금소로 향하는 차선이 전환된다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
+      "sourceGrammarIds": [
+        "n2-106",
+        "n2-093",
+        "n2-094",
+        "n2-095"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-106-11",
+      "level": "N2",
+      "sentence": "家族の人数に応じて、借りられる公営住宅の広さが決まる。",
+      "sentenceWithBlank": "家族の人数（　　　）、借りられる公営住宅の広さが決まる。",
+      "korean": "가족 수에 따라 임차할 수 있는 공영 주택의 크기가 정해진다.",
+      "answerChoiceId": "fb-created-n2-106-11-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-106-11-a",
+          "text": "とは限らない",
+          "grammarId": "n2-094",
+          "baseExpression": "とは限らない",
+          "conjugatedExpression": "とは限らない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-106-11-b",
+          "text": "ともなると",
+          "grammarId": "n2-095",
+          "baseExpression": "ともなると",
+          "conjugatedExpression": "ともなると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-106-11-c",
+          "text": "に応じて",
+          "grammarId": "n2-106",
+          "baseExpression": "に応じて",
+          "conjugatedExpression": "に応じて",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-106-11-d",
+          "text": "とはいうものの",
+          "grammarId": "n2-093",
+          "baseExpression": "とはいうものの",
+          "conjugatedExpression": "とはいうものの",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '가족 수에 따라 임차할 수 있는 공영 주택의 크기가 정해진다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
+      "sourceGrammarIds": [
+        "n2-106",
+        "n2-093",
+        "n2-094",
+        "n2-095"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-106-12",
+      "level": "N2",
+      "sentence": "季節に応じて、旅館の夕食には旬の魚が並ぶ。",
+      "sentenceWithBlank": "季節（　　　）、旅館の夕食には旬の魚が並ぶ。",
+      "korean": "계절에 따라 료칸의 저녁 식사에는 제철 생선이 오른다.",
+      "answerChoiceId": "fb-created-n2-106-12-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-106-12-b",
+          "text": "ともなると",
+          "grammarId": "n2-095",
+          "baseExpression": "ともなると",
+          "conjugatedExpression": "ともなると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-106-12-c",
+          "text": "に応じて",
+          "grammarId": "n2-106",
+          "baseExpression": "に応じて",
+          "conjugatedExpression": "に応じて",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-106-12-d",
+          "text": "とはいうものの",
+          "grammarId": "n2-093",
+          "baseExpression": "とはいうものの",
+          "conjugatedExpression": "とはいうものの",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-106-12-a",
+          "text": "とは限らない",
+          "grammarId": "n2-094",
+          "baseExpression": "とは限らない",
+          "conjugatedExpression": "とは限らない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '계절에 따라 료칸의 저녁 식사에는 제철 생선이 오른다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
+      "sourceGrammarIds": [
+        "n2-106",
+        "n2-093",
+        "n2-094",
+        "n2-095"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-106-13",
+      "level": "N2",
+      "sentence": "犬の体重に応じて、首輪の長さを適切に合わせてください。",
+      "sentenceWithBlank": "犬の体重（　　　）、首輪の長さを適切に合わせてください。",
+      "korean": "개의 체중에 맞춰 목줄 길이를 적절히 조절해 주세요.",
+      "answerChoiceId": "fb-created-n2-106-13-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-106-13-c",
+          "text": "に応じて",
+          "grammarId": "n2-106",
+          "baseExpression": "に応じて",
+          "conjugatedExpression": "に応じて",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-106-13-d",
+          "text": "とはいうものの",
+          "grammarId": "n2-093",
+          "baseExpression": "とはいうものの",
+          "conjugatedExpression": "とはいうものの",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-106-13-a",
+          "text": "とは限らない",
+          "grammarId": "n2-094",
+          "baseExpression": "とは限らない",
+          "conjugatedExpression": "とは限らない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-106-13-b",
+          "text": "ともなると",
+          "grammarId": "n2-095",
+          "baseExpression": "ともなると",
+          "conjugatedExpression": "ともなると",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '개의 체중에 맞춰 목줄 길이를 적절히 조절해 주세요.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
+      "sourceGrammarIds": [
+        "n2-106",
+        "n2-093",
+        "n2-094",
+        "n2-095"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-106-14",
+      "level": "N2",
+      "sentence": "火災の規模に応じて、消防本部は周辺地域から応援を呼ぶ。",
+      "sentenceWithBlank": "火災の規模（　　　）、消防本部は周辺地域から応援を呼ぶ。",
+      "korean": "화재 규모에 따라 소방본부는 주변 지역에 지원을 요청한다.",
+      "answerChoiceId": "fb-created-n2-106-14-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-106-14-d",
+          "text": "とはいうものの",
+          "grammarId": "n2-093",
+          "baseExpression": "とはいうものの",
+          "conjugatedExpression": "とはいうものの",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-106-14-a",
+          "text": "とは限らない",
+          "grammarId": "n2-094",
+          "baseExpression": "とは限らない",
+          "conjugatedExpression": "とは限らない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-106-14-b",
+          "text": "ともなると",
+          "grammarId": "n2-095",
+          "baseExpression": "ともなると",
+          "conjugatedExpression": "ともなると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-106-14-c",
+          "text": "に応じて",
+          "grammarId": "n2-106",
+          "baseExpression": "に応じて",
+          "conjugatedExpression": "に応じて",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '화재 규모에 따라 소방본부는 주변 지역에 지원을 요청한다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
+      "sourceGrammarIds": [
+        "n2-106",
+        "n2-093",
+        "n2-094",
+        "n2-095"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-106-15",
+      "level": "N2",
+      "sentence": "客の予算に応じて、職人が指輪の素材を提案してくれた。",
+      "sentenceWithBlank": "客の予算（　　　）、職人が指輪の素材を提案してくれた。",
+      "korean": "손님의 예산에 맞춰 장인이 반지의 소재를 제안해 주었다.",
+      "answerChoiceId": "fb-created-n2-106-15-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-106-15-a",
+          "text": "とは限らない",
+          "grammarId": "n2-094",
+          "baseExpression": "とは限らない",
+          "conjugatedExpression": "とは限らない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-106-15-b",
+          "text": "ともなると",
+          "grammarId": "n2-095",
+          "baseExpression": "ともなると",
+          "conjugatedExpression": "ともなると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-106-15-c",
+          "text": "に応じて",
+          "grammarId": "n2-106",
+          "baseExpression": "に応じて",
+          "conjugatedExpression": "に応じて",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-106-15-d",
+          "text": "とはいうものの",
+          "grammarId": "n2-093",
+          "baseExpression": "とはいうものの",
+          "conjugatedExpression": "とはいうものの",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '손님의 예산에 맞춰 장인이 반지의 소재를 제안해 주었다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
+      "sourceGrammarIds": [
+        "n2-106",
+        "n2-093",
+        "n2-094",
+        "n2-095"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-106-16",
+      "level": "N2",
+      "sentence": "潮の流れに応じて、漁師たちは網を下ろす位置を見極める。",
+      "sentenceWithBlank": "潮の流れ（　　　）、漁師たちは網を下ろす位置を見極める。",
+      "korean": "조류의 흐름에 따라 어부들은 그물을 내릴 위치를 판단한다.",
+      "answerChoiceId": "fb-created-n2-106-16-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-106-16-b",
+          "text": "ともなると",
+          "grammarId": "n2-095",
+          "baseExpression": "ともなると",
+          "conjugatedExpression": "ともなると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-106-16-c",
+          "text": "に応じて",
+          "grammarId": "n2-106",
+          "baseExpression": "に応じて",
+          "conjugatedExpression": "に応じて",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-106-16-d",
+          "text": "とはいうものの",
+          "grammarId": "n2-093",
+          "baseExpression": "とはいうものの",
+          "conjugatedExpression": "とはいうものの",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-106-16-a",
+          "text": "とは限らない",
+          "grammarId": "n2-094",
+          "baseExpression": "とは限らない",
+          "conjugatedExpression": "とは限らない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '조류의 흐름에 따라 어부들은 그물을 내릴 위치를 판단한다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
+      "sourceGrammarIds": [
+        "n2-106",
+        "n2-093",
+        "n2-094",
+        "n2-095"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-106-17",
+      "level": "N2",
+      "sentence": "被害の程度に応じて、自治体から修理費の一部が補助される。",
+      "sentenceWithBlank": "被害の程度（　　　）、自治体から修理費の一部が補助される。",
+      "korean": "피해 정도에 따라 지방자치단체에서 수리비 일부를 지원한다.",
+      "answerChoiceId": "fb-created-n2-106-17-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-106-17-c",
+          "text": "に応じて",
+          "grammarId": "n2-106",
+          "baseExpression": "に応じて",
+          "conjugatedExpression": "に応じて",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-106-17-d",
+          "text": "とはいうものの",
+          "grammarId": "n2-093",
+          "baseExpression": "とはいうものの",
+          "conjugatedExpression": "とはいうものの",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-106-17-a",
+          "text": "とは限らない",
+          "grammarId": "n2-094",
+          "baseExpression": "とは限らない",
+          "conjugatedExpression": "とは限らない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-106-17-b",
+          "text": "ともなると",
+          "grammarId": "n2-095",
+          "baseExpression": "ともなると",
+          "conjugatedExpression": "ともなると",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '피해 정도에 따라 지방자치단체에서 수리비 일부를 지원한다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
+      "sourceGrammarIds": [
+        "n2-106",
+        "n2-093",
+        "n2-094",
+        "n2-095"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-106-18",
+      "level": "N2",
+      "sentence": "利用時間に応じて、駐車料金が十五分単位で加算されます。",
+      "sentenceWithBlank": "利用時間（　　　）、駐車料金が十五分単位で加算されます。",
+      "korean": "이용 시간에 따라 주차 요금이 15분 단위로 추가됩니다.",
+      "answerChoiceId": "fb-created-n2-106-18-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-106-18-d",
+          "text": "とはいうものの",
+          "grammarId": "n2-093",
+          "baseExpression": "とはいうものの",
+          "conjugatedExpression": "とはいうものの",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-106-18-a",
+          "text": "とは限らない",
+          "grammarId": "n2-094",
+          "baseExpression": "とは限らない",
+          "conjugatedExpression": "とは限らない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-106-18-b",
+          "text": "ともなると",
+          "grammarId": "n2-095",
+          "baseExpression": "ともなると",
+          "conjugatedExpression": "ともなると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-106-18-c",
+          "text": "に応じて",
+          "grammarId": "n2-106",
+          "baseExpression": "に応じて",
+          "conjugatedExpression": "に応じて",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '이용 시간에 따라 주차 요금이 15분 단위로 추가됩니다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
+      "sourceGrammarIds": [
+        "n2-106",
+        "n2-093",
+        "n2-094",
+        "n2-095"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-106-19",
+      "level": "N2",
+      "sentence": "木材の硬さに応じて、大工は使う刃物を選び直した。",
+      "sentenceWithBlank": "木材の硬さ（　　　）、大工は使う刃物を選び直した。",
+      "korean": "목재의 단단함에 따라 목수는 사용할 날붙이를 다시 골랐다.",
+      "answerChoiceId": "fb-created-n2-106-19-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-106-19-a",
+          "text": "とは限らない",
+          "grammarId": "n2-094",
+          "baseExpression": "とは限らない",
+          "conjugatedExpression": "とは限らない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-106-19-b",
+          "text": "ともなると",
+          "grammarId": "n2-095",
+          "baseExpression": "ともなると",
+          "conjugatedExpression": "ともなると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-106-19-c",
+          "text": "に応じて",
+          "grammarId": "n2-106",
+          "baseExpression": "に応じて",
+          "conjugatedExpression": "に応じて",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-106-19-d",
+          "text": "とはいうものの",
+          "grammarId": "n2-093",
+          "baseExpression": "とはいうものの",
+          "conjugatedExpression": "とはいうものの",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '목재의 단단함에 따라 목수는 사용할 날붙이를 다시 골랐다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
+      "sourceGrammarIds": [
+        "n2-106",
+        "n2-093",
+        "n2-094",
+        "n2-095"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-106-20",
+      "level": "N2",
+      "sentence": "注文の件数に応じて、厨房へ入るスタッフを増員する。",
+      "sentenceWithBlank": "注文の件数（　　　）、厨房へ入るスタッフを増員する。",
+      "korean": "주문 건수에 따라 주방에 투입하는 직원을 늘린다.",
+      "answerChoiceId": "fb-created-n2-106-20-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-106-20-b",
+          "text": "ともなると",
+          "grammarId": "n2-095",
+          "baseExpression": "ともなると",
+          "conjugatedExpression": "ともなると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-106-20-c",
+          "text": "に応じて",
+          "grammarId": "n2-106",
+          "baseExpression": "に応じて",
+          "conjugatedExpression": "に応じて",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-106-20-d",
+          "text": "とはいうものの",
+          "grammarId": "n2-093",
+          "baseExpression": "とはいうものの",
+          "conjugatedExpression": "とはいうものの",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-106-20-a",
+          "text": "とは限らない",
+          "grammarId": "n2-094",
+          "baseExpression": "とは限らない",
+          "conjugatedExpression": "とは限らない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '주문 건수에 따라 주방에 투입하는 직원을 늘린다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
+      "sourceGrammarIds": [
+        "n2-106",
+        "n2-093",
+        "n2-094",
+        "n2-095"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-106-21",
+      "level": "N2",
+      "sentence": "視力の変化に応じて、眼鏡のレンズを交換したほうがいい。",
+      "sentenceWithBlank": "視力の変化（　　　）、眼鏡のレンズを交換したほうがいい。",
+      "korean": "시력 변화에 따라 안경 렌즈를 교체하는 편이 좋다.",
+      "answerChoiceId": "fb-created-n2-106-21-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-106-21-c",
+          "text": "に応じて",
+          "grammarId": "n2-106",
+          "baseExpression": "に応じて",
+          "conjugatedExpression": "に応じて",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-106-21-d",
+          "text": "とはいうものの",
+          "grammarId": "n2-093",
+          "baseExpression": "とはいうものの",
+          "conjugatedExpression": "とはいうものの",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-106-21-a",
+          "text": "とは限らない",
+          "grammarId": "n2-094",
+          "baseExpression": "とは限らない",
+          "conjugatedExpression": "とは限らない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-106-21-b",
+          "text": "ともなると",
+          "grammarId": "n2-095",
+          "baseExpression": "ともなると",
+          "conjugatedExpression": "ともなると",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '시력 변화에 따라 안경 렌즈를 교체하는 편이 좋다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
+      "sourceGrammarIds": [
+        "n2-106",
+        "n2-093",
+        "n2-094",
+        "n2-095"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-106-22",
+      "level": "N2",
+      "sentence": "土地の傾斜に応じて、建築家は玄関の位置をずらした。",
+      "sentenceWithBlank": "土地の傾斜（　　　）、建築家は玄関の位置をずらした。",
+      "korean": "땅의 경사에 맞춰 건축가는 현관 위치를 옮겼다.",
+      "answerChoiceId": "fb-created-n2-106-22-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-106-22-d",
+          "text": "とはいうものの",
+          "grammarId": "n2-093",
+          "baseExpression": "とはいうものの",
+          "conjugatedExpression": "とはいうものの",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-106-22-a",
+          "text": "とは限らない",
+          "grammarId": "n2-094",
+          "baseExpression": "とは限らない",
+          "conjugatedExpression": "とは限らない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-106-22-b",
+          "text": "ともなると",
+          "grammarId": "n2-095",
+          "baseExpression": "ともなると",
+          "conjugatedExpression": "ともなると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-106-22-c",
+          "text": "に応じて",
+          "grammarId": "n2-106",
+          "baseExpression": "に応じて",
+          "conjugatedExpression": "に応じて",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '땅의 경사에 맞춰 건축가는 현관 위치를 옮겼다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
+      "sourceGrammarIds": [
+        "n2-106",
+        "n2-093",
+        "n2-094",
+        "n2-095"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-106-23",
+      "level": "N2",
+      "sentence": "電力の使用量に応じて、料金の単価が段階的に上がる仕組みだ。",
+      "sentenceWithBlank": "電力の使用量（　　　）、料金の単価が段階的に上がる仕組みだ。",
+      "korean": "전력 사용량에 따라 요금 단가가 단계적으로 오르는 구조다.",
+      "answerChoiceId": "fb-created-n2-106-23-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-106-23-a",
+          "text": "とは限らない",
+          "grammarId": "n2-094",
+          "baseExpression": "とは限らない",
+          "conjugatedExpression": "とは限らない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-106-23-b",
+          "text": "ともなると",
+          "grammarId": "n2-095",
+          "baseExpression": "ともなると",
+          "conjugatedExpression": "ともなると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-106-23-c",
+          "text": "に応じて",
+          "grammarId": "n2-106",
+          "baseExpression": "に応じて",
+          "conjugatedExpression": "に応じて",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-106-23-d",
+          "text": "とはいうものの",
+          "grammarId": "n2-093",
+          "baseExpression": "とはいうものの",
+          "conjugatedExpression": "とはいうものの",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '전력 사용량에 따라 요금 단가가 단계적으로 오르는 구조다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
+      "sourceGrammarIds": [
+        "n2-106",
+        "n2-093",
+        "n2-094",
+        "n2-095"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-106-24",
+      "level": "N2",
+      "sentence": "花の種類に応じて、店員は異なる温度の冷蔵庫で管理している。",
+      "sentenceWithBlank": "花の種類（　　　）、店員は異なる温度の冷蔵庫で管理している。",
+      "korean": "꽃의 종류에 따라 점원은 서로 다른 온도의 냉장고에서 관리하고 있다.",
+      "answerChoiceId": "fb-created-n2-106-24-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-106-24-b",
+          "text": "ともなると",
+          "grammarId": "n2-095",
+          "baseExpression": "ともなると",
+          "conjugatedExpression": "ともなると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-106-24-c",
+          "text": "に応じて",
+          "grammarId": "n2-106",
+          "baseExpression": "に応じて",
+          "conjugatedExpression": "に応じて",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-106-24-d",
+          "text": "とはいうものの",
+          "grammarId": "n2-093",
+          "baseExpression": "とはいうものの",
+          "conjugatedExpression": "とはいうものの",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-106-24-a",
+          "text": "とは限らない",
+          "grammarId": "n2-094",
+          "baseExpression": "とは限らない",
+          "conjugatedExpression": "とは限らない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '꽃의 종류에 따라 점원은 서로 다른 온도의 냉장고에서 관리하고 있다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
+      "sourceGrammarIds": [
+        "n2-106",
+        "n2-093",
+        "n2-094",
+        "n2-095"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-106-25",
+      "level": "N2",
+      "sentence": "子どもの成長に応じて、机の高さを少しずつ上げられる。",
+      "sentenceWithBlank": "子どもの成長（　　　）、机の高さを少しずつ上げられる。",
+      "korean": "아이의 성장에 맞춰 책상 높이를 조금씩 올릴 수 있다.",
+      "answerChoiceId": "fb-created-n2-106-25-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-106-25-c",
+          "text": "に応じて",
+          "grammarId": "n2-106",
+          "baseExpression": "に応じて",
+          "conjugatedExpression": "に応じて",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-106-25-d",
+          "text": "とはいうものの",
+          "grammarId": "n2-093",
+          "baseExpression": "とはいうものの",
+          "conjugatedExpression": "とはいうものの",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-106-25-a",
+          "text": "とは限らない",
+          "grammarId": "n2-094",
+          "baseExpression": "とは限らない",
+          "conjugatedExpression": "とは限らない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-106-25-b",
+          "text": "ともなると",
+          "grammarId": "n2-095",
+          "baseExpression": "ともなると",
+          "conjugatedExpression": "ともなると",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '아이의 성장에 맞춰 책상 높이를 조금씩 올릴 수 있다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
+      "sourceGrammarIds": [
+        "n2-106",
+        "n2-093",
+        "n2-094",
+        "n2-095"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
       ]
     }
   ],
@@ -1834,1103 +1809,1153 @@
       ]
     },
     {
-      "id": "so-extra-n2-106-1",
+      "id": "so-created-n2-106-01",
       "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlanks": "状況 ____ ____ ____ ____",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
+      "sentence": "来場者の年齢に応じて、配布するパンフレットを分けている。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "방문객의 연령에 따라 배포하는 안내 책자를 구분하고 있다.",
       "pieces": [
         {
-          "id": "so-extra-n2-106-1-p1",
-          "text": "ある",
+          "id": "so-created-n2-106-01-p3",
+          "text": "パンフレットを",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-106-01-p4",
+          "text": "分けている。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-106-1-p2",
-          "text": "に応じて",
+          "id": "so-created-n2-106-01-p1",
+          "text": "来場者の年齢",
           "order": 1
         },
         {
-          "id": "so-extra-n2-106-1-p3",
-          "text": "計画を",
+          "id": "so-created-n2-106-01-p2",
+          "text": "に応じて、配布する",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-106-1-p4",
-          "text": "変更する必要が",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-106-1-p2",
-        "so-extra-n2-106-1-p3",
-        "so-extra-n2-106-1-p4",
-        "so-extra-n2-106-1-p1"
+        "so-created-n2-106-01-p1",
+        "so-created-n2-106-01-p2",
+        "so-created-n2-106-01-p3",
+        "so-created-n2-106-01-p4"
       ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '방문객의 연령에 따라 배포하는 안내 책자를 구분하고 있다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
       "sourceGrammarIds": [
-        "n2-106"
+        "n2-106",
+        "n2-093",
+        "n2-094",
+        "n2-095"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-106-2",
+      "id": "so-created-n2-106-02",
       "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlanks": "状況 ____ ____ ____ ____",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
+      "sentence": "川の水位に応じて、水門の開き具合が自動的に調節される。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 調節される。",
+      "korean": "강의 수위에 따라 수문의 개방 정도가 자동으로 조절된다.",
       "pieces": [
         {
-          "id": "so-extra-n2-106-2-p2",
-          "text": "計画を",
+          "id": "so-created-n2-106-02-p2",
+          "text": "に応じて、",
           "order": 2
         },
         {
-          "id": "so-extra-n2-106-2-p3",
-          "text": "変更する必要が",
+          "id": "so-created-n2-106-02-p3",
+          "text": "水門の開き",
           "order": 3
         },
         {
-          "id": "so-extra-n2-106-2-p4",
-          "text": "ある",
+          "id": "so-created-n2-106-02-p4",
+          "text": "具合が自動的に",
           "order": 4
         },
         {
-          "id": "so-extra-n2-106-2-p1",
-          "text": "に応じて",
+          "id": "so-created-n2-106-02-p1",
+          "text": "川の水位",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-106-2-p1",
-        "so-extra-n2-106-2-p2",
-        "so-extra-n2-106-2-p3",
-        "so-extra-n2-106-2-p4"
+        "so-created-n2-106-02-p1",
+        "so-created-n2-106-02-p2",
+        "so-created-n2-106-02-p3",
+        "so-created-n2-106-02-p4"
       ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '강의 수위에 따라 수문의 개방 정도가 자동으로 조절된다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
       "sourceGrammarIds": [
-        "n2-106"
+        "n2-106",
+        "n2-093",
+        "n2-094",
+        "n2-095"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-106-3",
+      "id": "so-created-n2-106-03",
       "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、計画を変更する必要がある。",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
+      "sentence": "患者の症状に応じて、医師が薬の量を細かく調整した。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 調整した。",
+      "korean": "환자의 증상에 따라 의사가 약의 양을 세밀하게 조정했다.",
       "pieces": [
         {
-          "id": "so-extra-n2-106-3-p3",
-          "text": "変更する必要が",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-106-3-p4",
-          "text": "況",
+          "id": "so-created-n2-106-03-p1",
+          "text": "患者の症状",
           "order": 1
         },
         {
-          "id": "so-extra-n2-106-3-p1",
-          "text": "に応じて",
+          "id": "so-created-n2-106-03-p2",
+          "text": "に応じて、",
           "order": 2
         },
         {
-          "id": "so-extra-n2-106-3-p2",
-          "text": "計画を",
+          "id": "so-created-n2-106-03-p3",
+          "text": "医師が薬の",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-106-03-p4",
+          "text": "量を細かく",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-106-3-p4",
-        "so-extra-n2-106-3-p1",
-        "so-extra-n2-106-3-p2",
-        "so-extra-n2-106-3-p3"
+        "so-created-n2-106-03-p1",
+        "so-created-n2-106-03-p2",
+        "so-created-n2-106-03-p3",
+        "so-created-n2-106-03-p4"
       ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '환자의 증상에 따라 의사가 약의 양을 세밀하게 조정했다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
       "sourceGrammarIds": [
-        "n2-106"
+        "n2-106",
+        "n2-093",
+        "n2-094",
+        "n2-095"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-106-4",
+      "id": "so-created-n2-106-04",
       "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlanks": "状況 ____ ____ ____ ____",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
+      "sentence": "収穫量に応じて、農協が臨時の保管場所を確保する。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "수확량에 따라 농협이 임시 보관 장소를 확보한다.",
       "pieces": [
         {
-          "id": "so-extra-n2-106-4-p4",
-          "text": "計画を",
-          "order": 2
-        },
-        {
-          "id": "so-extra-n2-106-4-p1",
-          "text": "変更する必要が",
-          "order": 3
-        },
-        {
-          "id": "so-extra-n2-106-4-p2",
-          "text": "ある",
+          "id": "so-created-n2-106-04-p4",
+          "text": "確保する。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-106-4-p3",
-          "text": "に応じて",
+          "id": "so-created-n2-106-04-p1",
+          "text": "収穫量に応じて、",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-106-04-p2",
+          "text": "農協が臨時の",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-106-04-p3",
+          "text": "保管場所を",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-106-4-p3",
-        "so-extra-n2-106-4-p4",
-        "so-extra-n2-106-4-p1",
-        "so-extra-n2-106-4-p2"
+        "so-created-n2-106-04-p1",
+        "so-created-n2-106-04-p2",
+        "so-created-n2-106-04-p3",
+        "so-created-n2-106-04-p4"
       ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '수확량에 따라 농협이 임시 보관 장소를 확보한다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
       "sourceGrammarIds": [
-        "n2-106"
+        "n2-106",
+        "n2-093",
+        "n2-094",
+        "n2-095"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-106-5",
+      "id": "so-created-n2-106-05",
       "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlanks": "状況 ____ ____ ____ ____",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
+      "sentence": "風の強さに応じて、競技の開始時刻が繰り下げられることもある。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "바람의 세기에 따라 경기 시작 시각이 늦춰지기도 한다.",
       "pieces": [
         {
-          "id": "so-extra-n2-106-5-p1",
-          "text": "ある",
+          "id": "so-created-n2-106-05-p3",
+          "text": "開始時刻が繰り",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-106-05-p4",
+          "text": "下げられることもある。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-106-5-p2",
-          "text": "に応じて",
+          "id": "so-created-n2-106-05-p1",
+          "text": "風の強さ",
           "order": 1
         },
         {
-          "id": "so-extra-n2-106-5-p3",
-          "text": "計画を",
+          "id": "so-created-n2-106-05-p2",
+          "text": "に応じて、競技の",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-106-5-p4",
-          "text": "変更する必要が",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-106-5-p2",
-        "so-extra-n2-106-5-p3",
-        "so-extra-n2-106-5-p4",
-        "so-extra-n2-106-5-p1"
+        "so-created-n2-106-05-p1",
+        "so-created-n2-106-05-p2",
+        "so-created-n2-106-05-p3",
+        "so-created-n2-106-05-p4"
       ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '바람의 세기에 따라 경기 시작 시각이 늦춰지기도 한다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
       "sourceGrammarIds": [
-        "n2-106"
+        "n2-106",
+        "n2-093",
+        "n2-094",
+        "n2-095"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-106-01",
+      "id": "so-created-n2-106-06",
       "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlanks": "状況 ____ ____ ____ ____",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
+      "sentence": "社員の実績に応じて、年度末に特別手当が支給される。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "사원의 실적에 따라 연도 말에 특별 수당이 지급된다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-106-01-p1",
-          "text": "ある",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-106-01-p2",
-          "text": "に応じて",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-106-01-p3",
-          "text": "計画を",
+          "id": "so-created-n2-106-06-p2",
+          "text": "に応じて、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-106-01-p4",
-          "text": "変更する必要が",
+          "id": "so-created-n2-106-06-p3",
+          "text": "年度末に特別",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-106-06-p4",
+          "text": "手当が支給される。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-106-06-p1",
+          "text": "社員の実績",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-106-01-p2",
-        "so-extra20-n2-106-01-p3",
-        "so-extra20-n2-106-01-p4",
-        "so-extra20-n2-106-01-p1"
+        "so-created-n2-106-06-p1",
+        "so-created-n2-106-06-p2",
+        "so-created-n2-106-06-p3",
+        "so-created-n2-106-06-p4"
       ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '사원의 실적에 따라 연도 말에 특별 수당이 지급된다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
       "sourceGrammarIds": [
-        "n2-106"
+        "n2-106",
+        "n2-093",
+        "n2-094",
+        "n2-095"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-106-02",
+      "id": "so-created-n2-106-07",
       "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlanks": "状況 ____ ____ ____ ____",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
+      "sentence": "部屋の明るさに応じて、照明の色合いがゆっくり変化する。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "방의 밝기에 따라 조명의 색조가 서서히 변한다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-106-02-p4",
-          "text": "ある",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-106-02-p1",
-          "text": "に応じて",
+          "id": "so-created-n2-106-07-p1",
+          "text": "部屋の明るさ",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-106-02-p2",
-          "text": "計画を",
+          "id": "so-created-n2-106-07-p2",
+          "text": "に応じて、照明の",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-106-02-p3",
-          "text": "変更する必要が",
+          "id": "so-created-n2-106-07-p3",
+          "text": "色合いがゆっくり",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-106-07-p4",
+          "text": "変化する。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-106-02-p1",
-        "so-extra20-n2-106-02-p2",
-        "so-extra20-n2-106-02-p3",
-        "so-extra20-n2-106-02-p4"
+        "so-created-n2-106-07-p1",
+        "so-created-n2-106-07-p2",
+        "so-created-n2-106-07-p3",
+        "so-created-n2-106-07-p4"
       ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '방의 밝기에 따라 조명의 색조가 서서히 변한다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
       "sourceGrammarIds": [
-        "n2-106"
+        "n2-106",
+        "n2-093",
+        "n2-094",
+        "n2-095"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-106-03",
+      "id": "so-created-n2-106-08",
       "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、計画を変更する必要がある。",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
+      "sentence": "荷物の大きさに応じて、最適な配送車両を手配します。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "짐의 크기에 따라 가장 적합한 배송 차량을 배정합니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-106-03-p3",
-          "text": "変更する必要が",
+          "id": "so-created-n2-106-08-p4",
+          "text": "手配します。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-106-03-p4",
-          "text": "況",
+          "id": "so-created-n2-106-08-p1",
+          "text": "荷物の大きさ",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-106-03-p1",
-          "text": "に応じて",
+          "id": "so-created-n2-106-08-p2",
+          "text": "に応じて、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-106-03-p2",
-          "text": "計画を",
+          "id": "so-created-n2-106-08-p3",
+          "text": "最適な配送車両を",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-106-03-p4",
-        "so-extra20-n2-106-03-p1",
-        "so-extra20-n2-106-03-p2",
-        "so-extra20-n2-106-03-p3"
+        "so-created-n2-106-08-p1",
+        "so-created-n2-106-08-p2",
+        "so-created-n2-106-08-p3",
+        "so-created-n2-106-08-p4"
       ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '짐의 크기에 따라 가장 적합한 배송 차량을 배정합니다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
       "sourceGrammarIds": [
-        "n2-106"
+        "n2-106",
+        "n2-093",
+        "n2-094",
+        "n2-095"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-106-04",
+      "id": "so-created-n2-106-09",
       "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlanks": "状況 ____ ____ ____ ____",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
+      "sentence": "観客の反応に応じて、司会者は進行の速さを変えていた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 変えていた。",
+      "korean": "관객의 반응에 따라 사회자는 진행 속도를 바꾸고 있었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-106-04-p2",
-          "text": "ある",
+          "id": "so-created-n2-106-09-p3",
+          "text": "司会者は",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-106-09-p4",
+          "text": "進行の速さを",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-106-04-p3",
-          "text": "に応じて",
+          "id": "so-created-n2-106-09-p1",
+          "text": "観客の反応",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-106-04-p4",
-          "text": "計画を",
+          "id": "so-created-n2-106-09-p2",
+          "text": "に応じて、",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-106-04-p1",
-          "text": "変更する必要が",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-106-04-p3",
-        "so-extra20-n2-106-04-p4",
-        "so-extra20-n2-106-04-p1",
-        "so-extra20-n2-106-04-p2"
+        "so-created-n2-106-09-p1",
+        "so-created-n2-106-09-p2",
+        "so-created-n2-106-09-p3",
+        "so-created-n2-106-09-p4"
       ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '관객의 반응에 따라 사회자는 진행 속도를 바꾸고 있었다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
       "sourceGrammarIds": [
-        "n2-106"
+        "n2-106",
+        "n2-093",
+        "n2-094",
+        "n2-095"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-106-05",
+      "id": "so-created-n2-106-10",
       "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlanks": "状況 ____ ____ ____ ____",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
+      "sentence": "道路の混雑度に応じて、料金所へ向かう車線が切り替わる。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 切り替わる。",
+      "korean": "도로의 혼잡도에 따라 요금소로 향하는 차선이 전환된다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-106-05-p1",
-          "text": "ある",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-106-05-p2",
-          "text": "に応じて",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-106-05-p3",
-          "text": "計画を",
+          "id": "so-created-n2-106-10-p2",
+          "text": "度に応じて、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-106-05-p4",
-          "text": "変更する必要が",
+          "id": "so-created-n2-106-10-p3",
+          "text": "料金所へ",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-106-10-p4",
+          "text": "向かう車線が",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-106-10-p1",
+          "text": "道路の混雑",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-106-05-p2",
-        "so-extra20-n2-106-05-p3",
-        "so-extra20-n2-106-05-p4",
-        "so-extra20-n2-106-05-p1"
+        "so-created-n2-106-10-p1",
+        "so-created-n2-106-10-p2",
+        "so-created-n2-106-10-p3",
+        "so-created-n2-106-10-p4"
       ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '도로의 혼잡도에 따라 요금소로 향하는 차선이 전환된다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
       "sourceGrammarIds": [
-        "n2-106"
+        "n2-106",
+        "n2-093",
+        "n2-094",
+        "n2-095"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-106-06",
+      "id": "so-created-n2-106-11",
       "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlanks": "状況 ____ ____ ____ ____",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
+      "sentence": "家族の人数に応じて、借りられる公営住宅の広さが決まる。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 決まる。",
+      "korean": "가족 수에 따라 임차할 수 있는 공영 주택의 크기가 정해진다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-106-06-p4",
-          "text": "変更する必要が",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-106-06-p1",
-          "text": "ある",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-106-06-p2",
-          "text": "に応じて",
+          "id": "so-created-n2-106-11-p1",
+          "text": "家族の人数",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-106-06-p3",
-          "text": "計画を",
+          "id": "so-created-n2-106-11-p2",
+          "text": "に応じて、",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-106-11-p3",
+          "text": "借りられる公営",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-106-11-p4",
+          "text": "住宅の広さが",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-106-06-p2",
-        "so-extra20-n2-106-06-p3",
-        "so-extra20-n2-106-06-p4",
-        "so-extra20-n2-106-06-p1"
+        "so-created-n2-106-11-p1",
+        "so-created-n2-106-11-p2",
+        "so-created-n2-106-11-p3",
+        "so-created-n2-106-11-p4"
       ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '가족 수에 따라 임차할 수 있는 공영 주택의 크기가 정해진다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
       "sourceGrammarIds": [
-        "n2-106"
+        "n2-106",
+        "n2-093",
+        "n2-094",
+        "n2-095"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-106-07",
+      "id": "so-created-n2-106-12",
       "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlanks": "状況 ____ ____ ____ ____",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
+      "sentence": "季節に応じて、旅館の夕食には旬の魚が並ぶ。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "계절에 따라 료칸의 저녁 식사에는 제철 생선이 오른다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-106-07-p3",
-          "text": "変更する必要が",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-106-07-p4",
-          "text": "ある",
+          "id": "so-created-n2-106-12-p4",
+          "text": "魚が並ぶ。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-106-07-p1",
-          "text": "に応じて",
+          "id": "so-created-n2-106-12-p1",
+          "text": "季節に応じて、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-106-07-p2",
-          "text": "計画を",
+          "id": "so-created-n2-106-12-p2",
+          "text": "旅館の",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-106-12-p3",
+          "text": "夕食には旬の",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-106-07-p1",
-        "so-extra20-n2-106-07-p2",
-        "so-extra20-n2-106-07-p3",
-        "so-extra20-n2-106-07-p4"
+        "so-created-n2-106-12-p1",
+        "so-created-n2-106-12-p2",
+        "so-created-n2-106-12-p3",
+        "so-created-n2-106-12-p4"
       ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '계절에 따라 료칸의 저녁 식사에는 제철 생선이 오른다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
       "sourceGrammarIds": [
-        "n2-106"
+        "n2-106",
+        "n2-093",
+        "n2-094",
+        "n2-095"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-106-08",
+      "id": "so-created-n2-106-13",
       "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、計画を変更する必要がある。",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
+      "sentence": "犬の体重に応じて、首輪の長さを適切に合わせてください。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "개의 체중에 맞춰 목줄 길이를 적절히 조절해 주세요.",
       "pieces": [
         {
-          "id": "so-extra20-n2-106-08-p2",
-          "text": "計画を",
+          "id": "so-created-n2-106-13-p3",
+          "text": "長さを適切に",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-106-08-p3",
-          "text": "変更する必要が",
+          "id": "so-created-n2-106-13-p4",
+          "text": "合わせてください。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-106-08-p4",
-          "text": "況",
+          "id": "so-created-n2-106-13-p1",
+          "text": "犬の体重",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-106-08-p1",
-          "text": "に応じて",
+          "id": "so-created-n2-106-13-p2",
+          "text": "に応じて、首輪の",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-106-08-p4",
-        "so-extra20-n2-106-08-p1",
-        "so-extra20-n2-106-08-p2",
-        "so-extra20-n2-106-08-p3"
+        "so-created-n2-106-13-p1",
+        "so-created-n2-106-13-p2",
+        "so-created-n2-106-13-p3",
+        "so-created-n2-106-13-p4"
       ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '개의 체중에 맞춰 목줄 길이를 적절히 조절해 주세요.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
       "sourceGrammarIds": [
-        "n2-106"
+        "n2-106",
+        "n2-093",
+        "n2-094",
+        "n2-095"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-106-09",
+      "id": "so-created-n2-106-14",
       "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlanks": "状況 ____ ____ ____ ____",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
+      "sentence": "火災の規模に応じて、消防本部は周辺地域から応援を呼ぶ。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 応援を呼ぶ。",
+      "korean": "화재 규모에 따라 소방본부는 주변 지역에 지원을 요청한다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-106-09-p1",
-          "text": "変更する必要が",
+          "id": "so-created-n2-106-14-p2",
+          "text": "に応じて、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-106-14-p3",
+          "text": "消防本部は",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-106-09-p2",
-          "text": "ある",
+          "id": "so-created-n2-106-14-p4",
+          "text": "周辺地域から",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-106-09-p3",
-          "text": "に応じて",
+          "id": "so-created-n2-106-14-p1",
+          "text": "火災の規模",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-106-09-p4",
-          "text": "計画を",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-106-09-p3",
-        "so-extra20-n2-106-09-p4",
-        "so-extra20-n2-106-09-p1",
-        "so-extra20-n2-106-09-p2"
+        "so-created-n2-106-14-p1",
+        "so-created-n2-106-14-p2",
+        "so-created-n2-106-14-p3",
+        "so-created-n2-106-14-p4"
       ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '화재 규모에 따라 소방본부는 주변 지역에 지원을 요청한다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
       "sourceGrammarIds": [
-        "n2-106"
+        "n2-106",
+        "n2-093",
+        "n2-094",
+        "n2-095"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-106-10",
+      "id": "so-created-n2-106-15",
       "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlanks": "状況 ____ ____ ____ ____",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
+      "sentence": "客の予算に応じて、職人が指輪の素材を提案してくれた。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "손님의 예산에 맞춰 장인이 반지의 소재를 제안해 주었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-106-10-p4",
-          "text": "変更する必要が",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-106-10-p1",
-          "text": "ある",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-106-10-p2",
-          "text": "に応じて",
+          "id": "so-created-n2-106-15-p1",
+          "text": "客の予算",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-106-10-p3",
-          "text": "計画を",
+          "id": "so-created-n2-106-15-p2",
+          "text": "に応じて、職人が",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-106-15-p3",
+          "text": "指輪の素材を",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-106-15-p4",
+          "text": "提案してくれた。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-106-10-p2",
-        "so-extra20-n2-106-10-p3",
-        "so-extra20-n2-106-10-p4",
-        "so-extra20-n2-106-10-p1"
+        "so-created-n2-106-15-p1",
+        "so-created-n2-106-15-p2",
+        "so-created-n2-106-15-p3",
+        "so-created-n2-106-15-p4"
       ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '손님의 예산에 맞춰 장인이 반지의 소재를 제안해 주었다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
       "sourceGrammarIds": [
-        "n2-106"
+        "n2-106",
+        "n2-093",
+        "n2-094",
+        "n2-095"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-106-11",
+      "id": "so-created-n2-106-16",
       "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlanks": "状況 ____ ____ ____ ____",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
+      "sentence": "潮の流れに応じて、漁師たちは網を下ろす位置を見極める。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 見極める。",
+      "korean": "조류의 흐름에 따라 어부들은 그물을 내릴 위치를 판단한다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-106-11-p3",
-          "text": "計画を",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-106-11-p4",
-          "text": "変更する必要が",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-106-11-p1",
-          "text": "ある",
+          "id": "so-created-n2-106-16-p4",
+          "text": "下ろす位置を",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-106-11-p2",
-          "text": "に応じて",
+          "id": "so-created-n2-106-16-p1",
+          "text": "潮の流れ",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-106-16-p2",
+          "text": "に応じて、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-106-16-p3",
+          "text": "漁師たちは網を",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-106-11-p2",
-        "so-extra20-n2-106-11-p3",
-        "so-extra20-n2-106-11-p4",
-        "so-extra20-n2-106-11-p1"
+        "so-created-n2-106-16-p1",
+        "so-created-n2-106-16-p2",
+        "so-created-n2-106-16-p3",
+        "so-created-n2-106-16-p4"
       ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '조류의 흐름에 따라 어부들은 그물을 내릴 위치를 판단한다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
       "sourceGrammarIds": [
-        "n2-106"
+        "n2-106",
+        "n2-093",
+        "n2-094",
+        "n2-095"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-106-12",
+      "id": "so-created-n2-106-17",
       "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlanks": "状況 ____ ____ ____ ____",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
+      "sentence": "被害の程度に応じて、自治体から修理費の一部が補助される。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "피해 정도에 따라 지방자치단체에서 수리비 일부를 지원한다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-106-12-p2",
-          "text": "計画を",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-106-12-p3",
-          "text": "変更する必要が",
+          "id": "so-created-n2-106-17-p3",
+          "text": "自治体から修理費の",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-106-12-p4",
-          "text": "ある",
+          "id": "so-created-n2-106-17-p4",
+          "text": "一部が補助される。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-106-12-p1",
-          "text": "に応じて",
+          "id": "so-created-n2-106-17-p1",
+          "text": "被害の程度",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-106-17-p2",
+          "text": "に応じて、",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-106-12-p1",
-        "so-extra20-n2-106-12-p2",
-        "so-extra20-n2-106-12-p3",
-        "so-extra20-n2-106-12-p4"
+        "so-created-n2-106-17-p1",
+        "so-created-n2-106-17-p2",
+        "so-created-n2-106-17-p3",
+        "so-created-n2-106-17-p4"
       ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '피해 정도에 따라 지방자치단체에서 수리비 일부를 지원한다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
       "sourceGrammarIds": [
-        "n2-106"
+        "n2-106",
+        "n2-093",
+        "n2-094",
+        "n2-095"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-106-13",
+      "id": "so-created-n2-106-18",
       "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、計画を変更する必要がある。",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
+      "sentence": "利用時間に応じて、駐車料金が十五分単位で加算されます。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 加算されます。",
+      "korean": "이용 시간에 따라 주차 요금이 15분 단위로 추가됩니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-106-13-p1",
-          "text": "に応じて",
+          "id": "so-created-n2-106-18-p2",
+          "text": "に応じて、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-106-13-p2",
-          "text": "計画を",
+          "id": "so-created-n2-106-18-p3",
+          "text": "駐車料金が",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-106-13-p3",
-          "text": "変更する必要が",
+          "id": "so-created-n2-106-18-p4",
+          "text": "十五分単位で",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-106-13-p4",
-          "text": "況",
+          "id": "so-created-n2-106-18-p1",
+          "text": "利用時間",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-106-13-p4",
-        "so-extra20-n2-106-13-p1",
-        "so-extra20-n2-106-13-p2",
-        "so-extra20-n2-106-13-p3"
+        "so-created-n2-106-18-p1",
+        "so-created-n2-106-18-p2",
+        "so-created-n2-106-18-p3",
+        "so-created-n2-106-18-p4"
       ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '이용 시간에 따라 주차 요금이 15분 단위로 추가됩니다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
       "sourceGrammarIds": [
-        "n2-106"
+        "n2-106",
+        "n2-093",
+        "n2-094",
+        "n2-095"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-106-14",
+      "id": "so-created-n2-106-19",
       "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlanks": "状況 ____ ____ ____ ____",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
+      "sentence": "木材の硬さに応じて、大工は使う刃物を選び直した。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 直した。",
+      "korean": "목재의 단단함에 따라 목수는 사용할 날붙이를 다시 골랐다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-106-14-p4",
-          "text": "計画を",
+          "id": "so-created-n2-106-19-p1",
+          "text": "木材の硬さ",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-106-19-p2",
+          "text": "に応じて、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-106-14-p1",
-          "text": "変更する必要が",
+          "id": "so-created-n2-106-19-p3",
+          "text": "大工は使う",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-106-14-p2",
-          "text": "ある",
+          "id": "so-created-n2-106-19-p4",
+          "text": "刃物を選び",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-106-14-p3",
-          "text": "に応じて",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-106-14-p3",
-        "so-extra20-n2-106-14-p4",
-        "so-extra20-n2-106-14-p1",
-        "so-extra20-n2-106-14-p2"
+        "so-created-n2-106-19-p1",
+        "so-created-n2-106-19-p2",
+        "so-created-n2-106-19-p3",
+        "so-created-n2-106-19-p4"
       ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '목재의 단단함에 따라 목수는 사용할 날붙이를 다시 골랐다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
       "sourceGrammarIds": [
-        "n2-106"
+        "n2-106",
+        "n2-093",
+        "n2-094",
+        "n2-095"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-106-15",
+      "id": "so-created-n2-106-20",
       "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlanks": "状況 ____ ____ ____ ____",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
+      "sentence": "注文の件数に応じて、厨房へ入るスタッフを増員する。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "주문 건수에 따라 주방에 투입하는 직원을 늘린다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-106-15-p3",
-          "text": "計画を",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-106-15-p4",
-          "text": "変更する必要が",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-106-15-p1",
-          "text": "ある",
+          "id": "so-created-n2-106-20-p4",
+          "text": "増員する。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-106-15-p2",
-          "text": "に応じて",
+          "id": "so-created-n2-106-20-p1",
+          "text": "注文の件数",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-106-20-p2",
+          "text": "に応じて、厨房へ",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-106-20-p3",
+          "text": "入るスタッフを",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-106-15-p2",
-        "so-extra20-n2-106-15-p3",
-        "so-extra20-n2-106-15-p4",
-        "so-extra20-n2-106-15-p1"
+        "so-created-n2-106-20-p1",
+        "so-created-n2-106-20-p2",
+        "so-created-n2-106-20-p3",
+        "so-created-n2-106-20-p4"
       ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '주문 건수에 따라 주방에 투입하는 직원을 늘린다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
       "sourceGrammarIds": [
-        "n2-106"
+        "n2-106",
+        "n2-093",
+        "n2-094",
+        "n2-095"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-106-16",
+      "id": "so-created-n2-106-21",
       "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlanks": "状況 ____ ____ ____ ____",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
+      "sentence": "視力の変化に応じて、眼鏡のレンズを交換したほうがいい。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "시력 변화에 따라 안경 렌즈를 교체하는 편이 좋다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-106-16-p2",
-          "text": "に応じて",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-106-16-p3",
-          "text": "計画を",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-106-16-p4",
-          "text": "変更する必要が",
+          "id": "so-created-n2-106-21-p3",
+          "text": "眼鏡のレンズを",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-106-16-p1",
-          "text": "ある",
+          "id": "so-created-n2-106-21-p4",
+          "text": "交換したほうがいい。",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-106-21-p1",
+          "text": "視力の変化",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-106-21-p2",
+          "text": "に応じて、",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-106-16-p2",
-        "so-extra20-n2-106-16-p3",
-        "so-extra20-n2-106-16-p4",
-        "so-extra20-n2-106-16-p1"
+        "so-created-n2-106-21-p1",
+        "so-created-n2-106-21-p2",
+        "so-created-n2-106-21-p3",
+        "so-created-n2-106-21-p4"
       ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '시력 변화에 따라 안경 렌즈를 교체하는 편이 좋다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
       "sourceGrammarIds": [
-        "n2-106"
+        "n2-106",
+        "n2-093",
+        "n2-094",
+        "n2-095"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-106-17",
+      "id": "so-created-n2-106-22",
       "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlanks": "状況 ____ ____ ____ ____",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
+      "sentence": "土地の傾斜に応じて、建築家は玄関の位置をずらした。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "땅의 경사에 맞춰 건축가는 현관 위치를 옮겼다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-106-17-p1",
-          "text": "に応じて",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-106-17-p2",
-          "text": "計画を",
+          "id": "so-created-n2-106-22-p2",
+          "text": "に応じて、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-106-17-p3",
-          "text": "変更する必要が",
+          "id": "so-created-n2-106-22-p3",
+          "text": "建築家は玄関の",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-106-17-p4",
-          "text": "ある",
+          "id": "so-created-n2-106-22-p4",
+          "text": "位置をずらした。",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-106-22-p1",
+          "text": "土地の傾斜",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-106-17-p1",
-        "so-extra20-n2-106-17-p2",
-        "so-extra20-n2-106-17-p3",
-        "so-extra20-n2-106-17-p4"
+        "so-created-n2-106-22-p1",
+        "so-created-n2-106-22-p2",
+        "so-created-n2-106-22-p3",
+        "so-created-n2-106-22-p4"
       ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '땅의 경사에 맞춰 건축가는 현관 위치를 옮겼다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
       "sourceGrammarIds": [
-        "n2-106"
+        "n2-106",
+        "n2-093",
+        "n2-094",
+        "n2-095"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-106-18",
+      "id": "so-created-n2-106-23",
       "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、計画を変更する必要がある。",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
+      "sentence": "電力の使用量に応じて、料金の単価が段階的に上がる仕組みだ。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 上がる仕組みだ。",
+      "korean": "전력 사용량에 따라 요금 단가가 단계적으로 오르는 구조다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-106-18-p4",
-          "text": "況",
+          "id": "so-created-n2-106-23-p1",
+          "text": "電力の使用量",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-106-18-p1",
-          "text": "に応じて",
+          "id": "so-created-n2-106-23-p2",
+          "text": "に応じて、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-106-18-p2",
-          "text": "計画を",
+          "id": "so-created-n2-106-23-p3",
+          "text": "料金の単価が",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-106-18-p3",
-          "text": "変更する必要が",
+          "id": "so-created-n2-106-23-p4",
+          "text": "段階的に",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-106-18-p4",
-        "so-extra20-n2-106-18-p1",
-        "so-extra20-n2-106-18-p2",
-        "so-extra20-n2-106-18-p3"
+        "so-created-n2-106-23-p1",
+        "so-created-n2-106-23-p2",
+        "so-created-n2-106-23-p3",
+        "so-created-n2-106-23-p4"
       ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '전력 사용량에 따라 요금 단가가 단계적으로 오르는 구조다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
       "sourceGrammarIds": [
-        "n2-106"
+        "n2-106",
+        "n2-093",
+        "n2-094",
+        "n2-095"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-106-19",
+      "id": "so-created-n2-106-24",
       "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlanks": "状況 ____ ____ ____ ____",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
+      "sentence": "花の種類に応じて、店員は異なる温度の冷蔵庫で管理している。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 管理している。",
+      "korean": "꽃의 종류에 따라 점원은 서로 다른 온도의 냉장고에서 관리하고 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-106-19-p3",
-          "text": "に応じて",
+          "id": "so-created-n2-106-24-p4",
+          "text": "温度の冷蔵庫で",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-106-24-p1",
+          "text": "花の種類",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-106-19-p4",
-          "text": "計画を",
+          "id": "so-created-n2-106-24-p2",
+          "text": "に応じて、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-106-19-p1",
-          "text": "変更する必要が",
+          "id": "so-created-n2-106-24-p3",
+          "text": "店員は異なる",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-106-19-p2",
-          "text": "ある",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-106-19-p3",
-        "so-extra20-n2-106-19-p4",
-        "so-extra20-n2-106-19-p1",
-        "so-extra20-n2-106-19-p2"
+        "so-created-n2-106-24-p1",
+        "so-created-n2-106-24-p2",
+        "so-created-n2-106-24-p3",
+        "so-created-n2-106-24-p4"
       ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '꽃의 종류에 따라 점원은 서로 다른 온도의 냉장고에서 관리하고 있다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
       "sourceGrammarIds": [
-        "n2-106"
+        "n2-106",
+        "n2-093",
+        "n2-094",
+        "n2-095"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-106-20",
+      "id": "so-created-n2-106-25",
       "level": "N2",
-      "sentence": "状況に応じて、計画を変更する必要がある。",
-      "sentenceWithBlanks": "状況 ____ ____ ____ ____",
-      "korean": "상황에 따라 계획을 변경할 필요가 있다.",
+      "sentence": "子どもの成長に応じて、机の高さを少しずつ上げられる。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "아이의 성장에 맞춰 책상 높이를 조금씩 올릴 수 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-106-20-p2",
-          "text": "に応じて",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-106-20-p3",
-          "text": "計画を",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-106-20-p4",
-          "text": "変更する必要が",
+          "id": "so-created-n2-106-25-p3",
+          "text": "高さを少しずつ",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-106-20-p1",
-          "text": "ある",
+          "id": "so-created-n2-106-25-p4",
+          "text": "上げられる。",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-106-25-p1",
+          "text": "子どもの成長",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-106-25-p2",
+          "text": "に応じて、机の",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-106-20-p2",
-        "so-extra20-n2-106-20-p3",
-        "so-extra20-n2-106-20-p4",
-        "so-extra20-n2-106-20-p1"
+        "so-created-n2-106-25-p1",
+        "so-created-n2-106-25-p2",
+        "so-created-n2-106-25-p3",
+        "so-created-n2-106-25-p4"
       ],
-      "explanation": "「に応じて」는 ~에 따라서, ~에 상응해서라는 뜻이다. 상황·조건에 맞춰 변화.",
+      "explanation": "「に応じて」는 '~에 따라서, ~에 상응해서'라는 뜻을 나타낸다. 이 문장에서는 '아이의 성장에 맞춰 책상 높이를 조금씩 올릴 수 있다.'라는 상황에 쓰였으며, 상황·조건에 맞춰 변화. 주의할 점은 「状況に応じて」처럼 유동적 대응. によって는 원인·수단도 포함. に応じて는 적응 초점.",
       "sourceGrammarIds": [
-        "n2-106"
+        "n2-106",
+        "n2-093",
+        "n2-094",
+        "n2-095"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     }
   ]

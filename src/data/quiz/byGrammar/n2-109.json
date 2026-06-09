@@ -267,15 +267,23 @@
       ]
     },
     {
-      "id": "fb-extra-n2-109-1",
+      "id": "fb-created-n2-109-01",
       "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlank": "日本（　　　）、世界中で環境問題が深刻になっている。",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
-      "answerChoiceId": "fb-extra-n2-109-1-b",
+      "sentence": "年齢に限らず、地域のマラソン大会には誰でも参加できる。",
+      "sentenceWithBlank": "年齢（　　　）、地域のマラソン大会には誰でも参加できる。",
+      "korean": "나이에 상관없이 지역 마라톤 대회에는 누구나 참가할 수 있다.",
+      "answerChoiceId": "fb-created-n2-109-01-b",
       "choices": [
         {
-          "id": "fb-extra-n2-109-1-c",
+          "id": "fb-created-n2-109-01-b",
+          "text": "に限らず",
+          "grammarId": "n2-109",
+          "baseExpression": "に限らず",
+          "conjugatedExpression": "に限らず",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-109-01-c",
           "text": "ざるを得ない",
           "grammarId": "n2-046",
           "baseExpression": "ざるを得ない",
@@ -283,7 +291,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-109-1-d",
+          "id": "fb-created-n2-109-01-d",
           "text": "次第",
           "grammarId": "n2-047",
           "baseExpression": "次第",
@@ -291,23 +299,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-109-1-a",
+          "id": "fb-created-n2-109-01-a",
           "text": "次第だ",
           "grammarId": "n2-048",
           "baseExpression": "次第だ",
           "conjugatedExpression": "次第だ",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-109-1-b",
-          "text": "に限らず",
-          "grammarId": "n2-109",
-          "baseExpression": "に限らず",
-          "conjugatedExpression": "に限らず",
-          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '나이에 상관없이 지역 마라톤 대회에는 누구나 참가할 수 있다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
       "sourceGrammarIds": [
         "n2-109",
         "n2-046",
@@ -315,237 +315,20 @@
         "n2-048"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra-n2-109-2",
+      "id": "fb-created-n2-109-02",
       "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlank": "日本（　　　）、世界中で環境問題が深刻になっている。",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
-      "answerChoiceId": "fb-extra-n2-109-2-c",
+      "sentence": "都市部に限らず、山間の集落でも宅配サービスの利用が増えている。",
+      "sentenceWithBlank": "都市部（　　　）、山間の集落でも宅配サービスの利用が増えている。",
+      "korean": "도시 지역뿐만 아니라 산간 마을에서도 택배 서비스 이용이 늘고 있다.",
+      "answerChoiceId": "fb-created-n2-109-02-b",
       "choices": [
         {
-          "id": "fb-extra-n2-109-2-d",
-          "text": "ことだ",
-          "grammarId": "n2-037",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-109-2-a",
-          "text": "ことだ",
-          "grammarId": "n2-038",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-109-2-b",
-          "text": "ことだし",
-          "grammarId": "n2-039",
-          "baseExpression": "ことだし",
-          "conjugatedExpression": "ことだし",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-109-2-c",
-          "text": "に限らず",
-          "grammarId": "n2-109",
-          "baseExpression": "に限らず",
-          "conjugatedExpression": "に限らず",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
-      "sourceGrammarIds": [
-        "n2-109",
-        "n2-037",
-        "n2-038",
-        "n2-039"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-109-3",
-      "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlank": "日本（　　　）、世界中で環境問題が深刻になっている。",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
-      "answerChoiceId": "fb-extra-n2-109-3-d",
-      "choices": [
-        {
-          "id": "fb-extra-n2-109-3-a",
-          "text": "次第だ",
-          "grammarId": "n2-048",
-          "baseExpression": "次第だ",
-          "conjugatedExpression": "次第だ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-109-3-b",
-          "text": "次第で",
-          "grammarId": "n2-049",
-          "baseExpression": "次第で/次第では",
-          "conjugatedExpression": "次第で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-109-3-c",
-          "text": "議論の末に",
-          "grammarId": "n2-050",
-          "baseExpression": "すえに",
-          "conjugatedExpression": "議論の末に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-109-3-d",
-          "text": "に限らず",
-          "grammarId": "n2-109",
-          "baseExpression": "に限らず",
-          "conjugatedExpression": "に限らず",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
-      "sourceGrammarIds": [
-        "n2-109",
-        "n2-048",
-        "n2-049",
-        "n2-050"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-109-4",
-      "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlank": "日本（　　　）、世界中で環境問題が深刻になっている。",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
-      "answerChoiceId": "fb-extra-n2-109-4-a",
-      "choices": [
-        {
-          "id": "fb-extra-n2-109-4-b",
-          "text": "がち",
-          "grammarId": "n2-019",
-          "baseExpression": "がち",
-          "conjugatedExpression": "がち",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-109-4-c",
-          "text": "かと思うと",
-          "grammarId": "n2-020",
-          "baseExpression": "かと思うと",
-          "conjugatedExpression": "かと思うと",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-109-4-d",
-          "text": "かないかのうちに",
-          "grammarId": "n2-021",
-          "baseExpression": "かないかのうちに",
-          "conjugatedExpression": "かないかのうちに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-109-4-a",
-          "text": "に限らず",
-          "grammarId": "n2-109",
-          "baseExpression": "に限らず",
-          "conjugatedExpression": "に限らず",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
-      "sourceGrammarIds": [
-        "n2-109",
-        "n2-019",
-        "n2-020",
-        "n2-021"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-109-5",
-      "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlank": "日本（　　　）、世界中で環境問題が深刻になっている。",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
-      "answerChoiceId": "fb-extra-n2-109-5-b",
-      "choices": [
-        {
-          "id": "fb-extra-n2-109-5-c",
-          "text": "にすぎない",
-          "grammarId": "n2-123",
-          "baseExpression": "にすぎない",
-          "conjugatedExpression": "にすぎない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-109-5-d",
-          "text": "に相違ない",
-          "grammarId": "n2-124",
-          "baseExpression": "に相違ない",
-          "conjugatedExpression": "に相違ない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-109-5-a",
-          "text": "に沿って",
-          "grammarId": "n2-125",
-          "baseExpression": "に沿って",
-          "conjugatedExpression": "に沿って",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-109-5-b",
-          "text": "に限らず",
-          "grammarId": "n2-109",
-          "baseExpression": "に限らず",
-          "conjugatedExpression": "に限らず",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
-      "sourceGrammarIds": [
-        "n2-109",
-        "n2-123",
-        "n2-124",
-        "n2-125"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-109-01",
-      "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlank": "日本（　　　）、世界中で環境問題が深刻になっている。",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
-      "answerChoiceId": "fb-extra20-n2-109-01-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-109-01-c",
+          "id": "fb-created-n2-109-02-c",
           "text": "ざるを得ない",
           "grammarId": "n2-046",
           "baseExpression": "ざるを得ない",
@@ -553,7 +336,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-109-01-d",
+          "id": "fb-created-n2-109-02-d",
           "text": "次第",
           "grammarId": "n2-047",
           "baseExpression": "次第",
@@ -561,7 +344,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-109-01-a",
+          "id": "fb-created-n2-109-02-a",
           "text": "次第だ",
           "grammarId": "n2-048",
           "baseExpression": "次第だ",
@@ -569,7 +352,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-109-01-b",
+          "id": "fb-created-n2-109-02-b",
           "text": "に限らず",
           "grammarId": "n2-109",
           "baseExpression": "に限らず",
@@ -577,7 +360,7 @@
           "isSimilarDistractor": false
         }
       ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '도시 지역뿐만 아니라 산간 마을에서도 택배 서비스 이용이 늘고 있다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
       "sourceGrammarIds": [
         "n2-109",
         "n2-046",
@@ -585,253 +368,20 @@
         "n2-048"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-109-02",
+      "id": "fb-created-n2-109-03",
       "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlank": "日本（　　　）、世界中で環境問題が深刻になっている。",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
-      "answerChoiceId": "fb-extra20-n2-109-02-c",
+      "sentence": "社員に限らず、取引先の担当者も創立記念式典に招かれた。",
+      "sentenceWithBlank": "社員（　　　）、取引先の担当者も創立記念式典に招かれた。",
+      "korean": "직원뿐만 아니라 거래처 담당자도 창립 기념식에 초대받았다.",
+      "answerChoiceId": "fb-created-n2-109-03-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-109-02-b",
-          "text": "ことだし",
-          "grammarId": "n2-039",
-          "baseExpression": "ことだし",
-          "conjugatedExpression": "ことだし",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-109-02-c",
-          "text": "に限らず",
-          "grammarId": "n2-109",
-          "baseExpression": "に限らず",
-          "conjugatedExpression": "に限らず",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-109-02-d",
-          "text": "ことだ",
-          "grammarId": "n2-037",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-109-02-a",
-          "text": "ことだ",
-          "grammarId": "n2-038",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
-      "sourceGrammarIds": [
-        "n2-109",
-        "n2-037",
-        "n2-038",
-        "n2-039"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-109-03",
-      "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlank": "日本（　　　）、世界中で環境問題が深刻になっている。",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
-      "answerChoiceId": "fb-extra20-n2-109-03-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-109-03-a",
-          "text": "次第だ",
-          "grammarId": "n2-048",
-          "baseExpression": "次第だ",
-          "conjugatedExpression": "次第だ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-109-03-b",
-          "text": "次第で",
-          "grammarId": "n2-049",
-          "baseExpression": "次第で/次第では",
-          "conjugatedExpression": "次第で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-109-03-c",
-          "text": "議論の末に",
-          "grammarId": "n2-050",
-          "baseExpression": "すえに",
-          "conjugatedExpression": "議論の末に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-109-03-d",
-          "text": "に限らず",
-          "grammarId": "n2-109",
-          "baseExpression": "に限らず",
-          "conjugatedExpression": "に限らず",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
-      "sourceGrammarIds": [
-        "n2-109",
-        "n2-048",
-        "n2-049",
-        "n2-050"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-109-04",
-      "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlank": "日本（　　　）、世界中で環境問題が深刻になっている。",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
-      "answerChoiceId": "fb-extra20-n2-109-04-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-109-04-d",
-          "text": "かないかのうちに",
-          "grammarId": "n2-021",
-          "baseExpression": "かないかのうちに",
-          "conjugatedExpression": "かないかのうちに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-109-04-a",
-          "text": "に限らず",
-          "grammarId": "n2-109",
-          "baseExpression": "に限らず",
-          "conjugatedExpression": "に限らず",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-109-04-b",
-          "text": "がち",
-          "grammarId": "n2-019",
-          "baseExpression": "がち",
-          "conjugatedExpression": "がち",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-109-04-c",
-          "text": "かと思うと",
-          "grammarId": "n2-020",
-          "baseExpression": "かと思うと",
-          "conjugatedExpression": "かと思うと",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
-      "sourceGrammarIds": [
-        "n2-109",
-        "n2-019",
-        "n2-020",
-        "n2-021"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-109-05",
-      "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlank": "日本（　　　）、世界中で環境問題が深刻になっている。",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
-      "answerChoiceId": "fb-extra20-n2-109-05-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-109-05-c",
-          "text": "にすぎない",
-          "grammarId": "n2-123",
-          "baseExpression": "にすぎない",
-          "conjugatedExpression": "にすぎない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-109-05-d",
-          "text": "に相違ない",
-          "grammarId": "n2-124",
-          "baseExpression": "に相違ない",
-          "conjugatedExpression": "に相違ない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-109-05-a",
-          "text": "に沿って",
-          "grammarId": "n2-125",
-          "baseExpression": "に沿って",
-          "conjugatedExpression": "に沿って",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-109-05-b",
-          "text": "に限らず",
-          "grammarId": "n2-109",
-          "baseExpression": "に限らず",
-          "conjugatedExpression": "に限らず",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
-      "sourceGrammarIds": [
-        "n2-109",
-        "n2-123",
-        "n2-124",
-        "n2-125"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-109-06",
-      "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlank": "日本（　　　）、世界中で環境問題が深刻になっている。",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
-      "answerChoiceId": "fb-extra20-n2-109-06-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-109-06-b",
-          "text": "に限らず",
-          "grammarId": "n2-109",
-          "baseExpression": "に限らず",
-          "conjugatedExpression": "に限らず",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-109-06-c",
-          "text": "ざるを得ない",
-          "grammarId": "n2-046",
-          "baseExpression": "ざるを得ない",
-          "conjugatedExpression": "ざるを得ない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-109-06-d",
+          "id": "fb-created-n2-109-03-d",
           "text": "次第",
           "grammarId": "n2-047",
           "baseExpression": "次第",
@@ -839,99 +389,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-109-06-a",
-          "text": "次第だ",
-          "grammarId": "n2-048",
-          "baseExpression": "次第だ",
-          "conjugatedExpression": "次第だ",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
-      "sourceGrammarIds": [
-        "n2-109",
-        "n2-046",
-        "n2-047",
-        "n2-048"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-109-07",
-      "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlank": "日本（　　　）、世界中で環境問題が深刻になっている。",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
-      "answerChoiceId": "fb-extra20-n2-109-07-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-109-07-a",
-          "text": "ことだ",
-          "grammarId": "n2-038",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-109-07-b",
-          "text": "ことだし",
-          "grammarId": "n2-039",
-          "baseExpression": "ことだし",
-          "conjugatedExpression": "ことだし",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-109-07-c",
-          "text": "に限らず",
-          "grammarId": "n2-109",
-          "baseExpression": "に限らず",
-          "conjugatedExpression": "に限らず",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-109-07-d",
-          "text": "ことだ",
-          "grammarId": "n2-037",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
-      "sourceGrammarIds": [
-        "n2-109",
-        "n2-037",
-        "n2-038",
-        "n2-039"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-109-08",
-      "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlank": "日本（　　　）、世界中で環境問題が深刻になっている。",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
-      "answerChoiceId": "fb-extra20-n2-109-08-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-109-08-d",
-          "text": "に限らず",
-          "grammarId": "n2-109",
-          "baseExpression": "に限らず",
-          "conjugatedExpression": "に限らず",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-109-08-a",
+          "id": "fb-created-n2-109-03-a",
           "text": "次第だ",
           "grammarId": "n2-048",
           "baseExpression": "次第だ",
@@ -939,61 +397,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-109-08-b",
-          "text": "次第で",
-          "grammarId": "n2-049",
-          "baseExpression": "次第で/次第では",
-          "conjugatedExpression": "次第で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-109-08-c",
-          "text": "議論の末に",
-          "grammarId": "n2-050",
-          "baseExpression": "すえに",
-          "conjugatedExpression": "議論の末に",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
-      "sourceGrammarIds": [
-        "n2-109",
-        "n2-048",
-        "n2-049",
-        "n2-050"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-109-09",
-      "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlank": "日本（　　　）、世界中で環境問題が深刻になっている。",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
-      "answerChoiceId": "fb-extra20-n2-109-09-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-109-09-c",
-          "text": "かと思うと",
-          "grammarId": "n2-020",
-          "baseExpression": "かと思うと",
-          "conjugatedExpression": "かと思うと",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-109-09-d",
-          "text": "かないかのうちに",
-          "grammarId": "n2-021",
-          "baseExpression": "かないかのうちに",
-          "conjugatedExpression": "かないかのうちに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-109-09-a",
+          "id": "fb-created-n2-109-03-b",
           "text": "に限らず",
           "grammarId": "n2-109",
           "baseExpression": "に限らず",
@@ -1001,385 +405,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-109-09-b",
-          "text": "がち",
-          "grammarId": "n2-019",
-          "baseExpression": "がち",
-          "conjugatedExpression": "がち",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
-      "sourceGrammarIds": [
-        "n2-109",
-        "n2-019",
-        "n2-020",
-        "n2-021"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-109-10",
-      "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlank": "日本（　　　）、世界中で環境問題が深刻になっている。",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
-      "answerChoiceId": "fb-extra20-n2-109-10-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-109-10-b",
-          "text": "に限らず",
-          "grammarId": "n2-109",
-          "baseExpression": "に限らず",
-          "conjugatedExpression": "に限らず",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-109-10-c",
-          "text": "にすぎない",
-          "grammarId": "n2-123",
-          "baseExpression": "にすぎない",
-          "conjugatedExpression": "にすぎない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-109-10-d",
-          "text": "に相違ない",
-          "grammarId": "n2-124",
-          "baseExpression": "に相違ない",
-          "conjugatedExpression": "に相違ない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-109-10-a",
-          "text": "に沿って",
-          "grammarId": "n2-125",
-          "baseExpression": "に沿って",
-          "conjugatedExpression": "に沿って",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
-      "sourceGrammarIds": [
-        "n2-109",
-        "n2-123",
-        "n2-124",
-        "n2-125"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-109-11",
-      "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlank": "日本（　　　）、世界中で環境問題が深刻になっている。",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
-      "answerChoiceId": "fb-extra20-n2-109-11-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-109-11-a",
-          "text": "次第だ",
-          "grammarId": "n2-048",
-          "baseExpression": "次第だ",
-          "conjugatedExpression": "次第だ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-109-11-b",
-          "text": "に限らず",
-          "grammarId": "n2-109",
-          "baseExpression": "に限らず",
-          "conjugatedExpression": "に限らず",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-109-11-c",
-          "text": "ざるを得ない",
-          "grammarId": "n2-046",
-          "baseExpression": "ざるを得ない",
-          "conjugatedExpression": "ざるを得ない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-109-11-d",
-          "text": "次第",
-          "grammarId": "n2-047",
-          "baseExpression": "次第",
-          "conjugatedExpression": "次第",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
-      "sourceGrammarIds": [
-        "n2-109",
-        "n2-046",
-        "n2-047",
-        "n2-048"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-109-12",
-      "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlank": "日本（　　　）、世界中で環境問題が深刻になっている。",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
-      "answerChoiceId": "fb-extra20-n2-109-12-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-109-12-d",
-          "text": "ことだ",
-          "grammarId": "n2-037",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-109-12-a",
-          "text": "ことだ",
-          "grammarId": "n2-038",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-109-12-b",
-          "text": "ことだし",
-          "grammarId": "n2-039",
-          "baseExpression": "ことだし",
-          "conjugatedExpression": "ことだし",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-109-12-c",
-          "text": "に限らず",
-          "grammarId": "n2-109",
-          "baseExpression": "に限らず",
-          "conjugatedExpression": "に限らず",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
-      "sourceGrammarIds": [
-        "n2-109",
-        "n2-037",
-        "n2-038",
-        "n2-039"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-109-13",
-      "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlank": "日本（　　　）、世界中で環境問題が深刻になっている。",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
-      "answerChoiceId": "fb-extra20-n2-109-13-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-109-13-c",
-          "text": "議論の末に",
-          "grammarId": "n2-050",
-          "baseExpression": "すえに",
-          "conjugatedExpression": "議論の末に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-109-13-d",
-          "text": "に限らず",
-          "grammarId": "n2-109",
-          "baseExpression": "に限らず",
-          "conjugatedExpression": "に限らず",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-109-13-a",
-          "text": "次第だ",
-          "grammarId": "n2-048",
-          "baseExpression": "次第だ",
-          "conjugatedExpression": "次第だ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-109-13-b",
-          "text": "次第で",
-          "grammarId": "n2-049",
-          "baseExpression": "次第で/次第では",
-          "conjugatedExpression": "次第で",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
-      "sourceGrammarIds": [
-        "n2-109",
-        "n2-048",
-        "n2-049",
-        "n2-050"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-109-14",
-      "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlank": "日本（　　　）、世界中で環境問題が深刻になっている。",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
-      "answerChoiceId": "fb-extra20-n2-109-14-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-109-14-b",
-          "text": "がち",
-          "grammarId": "n2-019",
-          "baseExpression": "がち",
-          "conjugatedExpression": "がち",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-109-14-c",
-          "text": "かと思うと",
-          "grammarId": "n2-020",
-          "baseExpression": "かと思うと",
-          "conjugatedExpression": "かと思うと",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-109-14-d",
-          "text": "かないかのうちに",
-          "grammarId": "n2-021",
-          "baseExpression": "かないかのうちに",
-          "conjugatedExpression": "かないかのうちに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-109-14-a",
-          "text": "に限らず",
-          "grammarId": "n2-109",
-          "baseExpression": "に限らず",
-          "conjugatedExpression": "に限らず",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
-      "sourceGrammarIds": [
-        "n2-109",
-        "n2-019",
-        "n2-020",
-        "n2-021"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-109-15",
-      "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlank": "日本（　　　）、世界中で環境問題が深刻になっている。",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
-      "answerChoiceId": "fb-extra20-n2-109-15-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-109-15-a",
-          "text": "に沿って",
-          "grammarId": "n2-125",
-          "baseExpression": "に沿って",
-          "conjugatedExpression": "に沿って",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-109-15-b",
-          "text": "に限らず",
-          "grammarId": "n2-109",
-          "baseExpression": "に限らず",
-          "conjugatedExpression": "に限らず",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-109-15-c",
-          "text": "にすぎない",
-          "grammarId": "n2-123",
-          "baseExpression": "にすぎない",
-          "conjugatedExpression": "にすぎない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-109-15-d",
-          "text": "に相違ない",
-          "grammarId": "n2-124",
-          "baseExpression": "に相違ない",
-          "conjugatedExpression": "に相違ない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
-      "sourceGrammarIds": [
-        "n2-109",
-        "n2-123",
-        "n2-124",
-        "n2-125"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-109-16",
-      "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlank": "日本（　　　）、世界中で環境問題が深刻になっている。",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
-      "answerChoiceId": "fb-extra20-n2-109-16-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-109-16-d",
-          "text": "次第",
-          "grammarId": "n2-047",
-          "baseExpression": "次第",
-          "conjugatedExpression": "次第",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-109-16-a",
-          "text": "次第だ",
-          "grammarId": "n2-048",
-          "baseExpression": "次第だ",
-          "conjugatedExpression": "次第だ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-109-16-b",
-          "text": "に限らず",
-          "grammarId": "n2-109",
-          "baseExpression": "に限らず",
-          "conjugatedExpression": "に限らず",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-109-16-c",
+          "id": "fb-created-n2-109-03-c",
           "text": "ざるを得ない",
           "grammarId": "n2-046",
           "baseExpression": "ざるを得ない",
@@ -1387,7 +413,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '직원뿐만 아니라 거래처 담당자도 창립 기념식에 초대받았다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
       "sourceGrammarIds": [
         "n2-109",
         "n2-046",
@@ -1395,21 +421,28 @@
         "n2-048"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-109-17",
+      "id": "fb-created-n2-109-04",
       "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlank": "日本（　　　）、世界中で環境問題が深刻になっている。",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
-      "answerChoiceId": "fb-extra20-n2-109-17-c",
+      "sentence": "週末に限らず、この海岸沿いの道路は夕方になると渋滞する。",
+      "sentenceWithBlank": "週末（　　　）、この海岸沿いの道路は夕方になると渋滞する。",
+      "korean": "주말뿐만 아니라 평일에도 이 해안 도로는 저녁이 되면 정체된다.",
+      "answerChoiceId": "fb-created-n2-109-04-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-109-17-c",
+          "id": "fb-created-n2-109-04-a",
+          "text": "次第だ",
+          "grammarId": "n2-048",
+          "baseExpression": "次第だ",
+          "conjugatedExpression": "次第だ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-04-b",
           "text": "に限らず",
           "grammarId": "n2-109",
           "baseExpression": "に限らず",
@@ -1417,69 +450,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-109-17-d",
-          "text": "ことだ",
-          "grammarId": "n2-037",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
+          "id": "fb-created-n2-109-04-c",
+          "text": "ざるを得ない",
+          "grammarId": "n2-046",
+          "baseExpression": "ざるを得ない",
+          "conjugatedExpression": "ざるを得ない",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-109-17-a",
-          "text": "ことだ",
-          "grammarId": "n2-038",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-109-17-b",
-          "text": "ことだし",
-          "grammarId": "n2-039",
-          "baseExpression": "ことだし",
-          "conjugatedExpression": "ことだし",
+          "id": "fb-created-n2-109-04-d",
+          "text": "次第",
+          "grammarId": "n2-047",
+          "baseExpression": "次第",
+          "conjugatedExpression": "次第",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '주말뿐만 아니라 평일에도 이 해안 도로는 저녁이 되면 정체된다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
       "sourceGrammarIds": [
         "n2-109",
-        "n2-037",
-        "n2-038",
-        "n2-039"
+        "n2-046",
+        "n2-047",
+        "n2-048"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-109-18",
+      "id": "fb-created-n2-109-05",
       "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlank": "日本（　　　）、世界中で環境問題が深刻になっている。",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
-      "answerChoiceId": "fb-extra20-n2-109-18-d",
+      "sentence": "専門家に限らず、一般の住民からも再開発への意見を募集している。",
+      "sentenceWithBlank": "専門家（　　　）、一般の住民からも再開発への意見を募集している。",
+      "korean": "전문가뿐만 아니라 일반 주민에게서도 재개발에 관한 의견을 모집하고 있다.",
+      "answerChoiceId": "fb-created-n2-109-05-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-109-18-b",
-          "text": "次第で",
-          "grammarId": "n2-049",
-          "baseExpression": "次第で/次第では",
-          "conjugatedExpression": "次第で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-109-18-c",
-          "text": "議論の末に",
-          "grammarId": "n2-050",
-          "baseExpression": "すえに",
-          "conjugatedExpression": "議論の末に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-109-18-d",
+          "id": "fb-created-n2-109-05-b",
           "text": "に限らず",
           "grammarId": "n2-109",
           "baseExpression": "に限らず",
@@ -1487,7 +495,23 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-109-18-a",
+          "id": "fb-created-n2-109-05-c",
+          "text": "ざるを得ない",
+          "grammarId": "n2-046",
+          "baseExpression": "ざるを得ない",
+          "conjugatedExpression": "ざるを得ない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-05-d",
+          "text": "次第",
+          "grammarId": "n2-047",
+          "baseExpression": "次第",
+          "conjugatedExpression": "次第",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-05-a",
           "text": "次第だ",
           "grammarId": "n2-048",
           "baseExpression": "次第だ",
@@ -1495,29 +519,97 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '전문가뿐만 아니라 일반 주민에게서도 재개발에 관한 의견을 모집하고 있다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
       "sourceGrammarIds": [
         "n2-109",
-        "n2-048",
-        "n2-049",
-        "n2-050"
+        "n2-046",
+        "n2-047",
+        "n2-048"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-109-19",
+      "id": "fb-created-n2-109-06",
       "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlank": "日本（　　　）、世界中で環境問題が深刻になっている。",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
-      "answerChoiceId": "fb-extra20-n2-109-19-a",
+      "sentence": "高級店に限らず、町の食堂でも地元産の野菜が使われ始めた。",
+      "sentenceWithBlank": "高級店（　　　）、町の食堂でも地元産の野菜が使われ始めた。",
+      "korean": "고급 음식점뿐만 아니라 동네 식당에서도 현지에서 생산된 채소를 사용하기 시작했다.",
+      "answerChoiceId": "fb-created-n2-109-06-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-109-19-a",
+          "id": "fb-created-n2-109-06-c",
+          "text": "ざるを得ない",
+          "grammarId": "n2-046",
+          "baseExpression": "ざるを得ない",
+          "conjugatedExpression": "ざるを得ない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-06-d",
+          "text": "次第",
+          "grammarId": "n2-047",
+          "baseExpression": "次第",
+          "conjugatedExpression": "次第",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-06-a",
+          "text": "次第だ",
+          "grammarId": "n2-048",
+          "baseExpression": "次第だ",
+          "conjugatedExpression": "次第だ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-06-b",
+          "text": "に限らず",
+          "grammarId": "n2-109",
+          "baseExpression": "に限らず",
+          "conjugatedExpression": "に限らず",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '고급 음식점뿐만 아니라 동네 식당에서도 현지에서 생산된 채소를 사용하기 시작했다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
+      "sourceGrammarIds": [
+        "n2-109",
+        "n2-046",
+        "n2-047",
+        "n2-048"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-109-07",
+      "level": "N2",
+      "sentence": "子育て世代に限らず、単身者にも広い公園のある街は人気が高い。",
+      "sentenceWithBlank": "子育て世代（　　　）、単身者にも広い公園のある街は人気が高い。",
+      "korean": "육아 세대뿐만 아니라 1인 가구에게도 넓은 공원이 있는 도시는 인기가 많다.",
+      "answerChoiceId": "fb-created-n2-109-07-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-109-07-d",
+          "text": "次第",
+          "grammarId": "n2-047",
+          "baseExpression": "次第",
+          "conjugatedExpression": "次第",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-07-a",
+          "text": "次第だ",
+          "grammarId": "n2-048",
+          "baseExpression": "次第だ",
+          "conjugatedExpression": "次第だ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-07-b",
           "text": "に限らず",
           "grammarId": "n2-109",
           "baseExpression": "に限らず",
@@ -1525,69 +617,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-109-19-b",
-          "text": "がち",
-          "grammarId": "n2-019",
-          "baseExpression": "がち",
-          "conjugatedExpression": "がち",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-109-19-c",
-          "text": "かと思うと",
-          "grammarId": "n2-020",
-          "baseExpression": "かと思うと",
-          "conjugatedExpression": "かと思うと",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-109-19-d",
-          "text": "かないかのうちに",
-          "grammarId": "n2-021",
-          "baseExpression": "かないかのうちに",
-          "conjugatedExpression": "かないかのうちに",
+          "id": "fb-created-n2-109-07-c",
+          "text": "ざるを得ない",
+          "grammarId": "n2-046",
+          "baseExpression": "ざるを得ない",
+          "conjugatedExpression": "ざるを得ない",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '육아 세대뿐만 아니라 1인 가구에게도 넓은 공원이 있는 도시는 인기가 많다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
       "sourceGrammarIds": [
         "n2-109",
-        "n2-019",
-        "n2-020",
-        "n2-021"
+        "n2-046",
+        "n2-047",
+        "n2-048"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-109-20",
+      "id": "fb-created-n2-109-08",
       "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlank": "日本（　　　）、世界中で環境問題が深刻になっている。",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
-      "answerChoiceId": "fb-extra20-n2-109-20-b",
+      "sentence": "国内線に限らず、国際線でも機内への液体の持ち込みが制限されている。",
+      "sentenceWithBlank": "国内線（　　　）、国際線でも機内への液体の持ち込みが制限されている。",
+      "korean": "국내선뿐만 아니라 국제선에서도 기내 액체 반입이 제한되어 있다.",
+      "answerChoiceId": "fb-created-n2-109-08-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-109-20-d",
-          "text": "に相違ない",
-          "grammarId": "n2-124",
-          "baseExpression": "に相違ない",
-          "conjugatedExpression": "に相違ない",
+          "id": "fb-created-n2-109-08-a",
+          "text": "次第だ",
+          "grammarId": "n2-048",
+          "baseExpression": "次第だ",
+          "conjugatedExpression": "次第だ",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-109-20-a",
-          "text": "に沿って",
-          "grammarId": "n2-125",
-          "baseExpression": "に沿って",
-          "conjugatedExpression": "に沿って",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-109-20-b",
+          "id": "fb-created-n2-109-08-b",
           "text": "に限らず",
           "grammarId": "n2-109",
           "baseExpression": "に限らず",
@@ -1595,25 +662,933 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-109-20-c",
-          "text": "にすぎない",
-          "grammarId": "n2-123",
-          "baseExpression": "にすぎない",
-          "conjugatedExpression": "にすぎない",
+          "id": "fb-created-n2-109-08-c",
+          "text": "ざるを得ない",
+          "grammarId": "n2-046",
+          "baseExpression": "ざるを得ない",
+          "conjugatedExpression": "ざるを得ない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-08-d",
+          "text": "次第",
+          "grammarId": "n2-047",
+          "baseExpression": "次第",
+          "conjugatedExpression": "次第",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '국내선뿐만 아니라 국제선에서도 기내 액체 반입이 제한되어 있다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
       "sourceGrammarIds": [
         "n2-109",
-        "n2-123",
-        "n2-124",
-        "n2-125"
+        "n2-046",
+        "n2-047",
+        "n2-048"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-109-09",
+      "level": "N2",
+      "sentence": "大雨の日に限らず、雪解けの時期にも川の水位を確認する必要がある。",
+      "sentenceWithBlank": "大雨の日（　　　）、雪解けの時期にも川の水位を確認する必要がある。",
+      "korean": "폭우가 내리는 날뿐만 아니라 눈이 녹는 시기에도 강의 수위를 확인할 필요가 있다.",
+      "answerChoiceId": "fb-created-n2-109-09-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-109-09-b",
+          "text": "に限らず",
+          "grammarId": "n2-109",
+          "baseExpression": "に限らず",
+          "conjugatedExpression": "に限らず",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-109-09-c",
+          "text": "ざるを得ない",
+          "grammarId": "n2-046",
+          "baseExpression": "ざるを得ない",
+          "conjugatedExpression": "ざるを得ない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-09-d",
+          "text": "次第",
+          "grammarId": "n2-047",
+          "baseExpression": "次第",
+          "conjugatedExpression": "次第",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-09-a",
+          "text": "次第だ",
+          "grammarId": "n2-048",
+          "baseExpression": "次第だ",
+          "conjugatedExpression": "次第だ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '폭우가 내리는 날뿐만 아니라 눈이 녹는 시기에도 강의 수위를 확인할 필요가 있다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
+      "sourceGrammarIds": [
+        "n2-109",
+        "n2-046",
+        "n2-047",
+        "n2-048"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-109-10",
+      "level": "N2",
+      "sentence": "正社員に限らず、契約スタッフにも育児支援制度が適用される。",
+      "sentenceWithBlank": "正社員（　　　）、契約スタッフにも育児支援制度が適用される。",
+      "korean": "정규직뿐만 아니라 계약직 직원에게도 육아 지원 제도가 적용된다.",
+      "answerChoiceId": "fb-created-n2-109-10-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-109-10-c",
+          "text": "ざるを得ない",
+          "grammarId": "n2-046",
+          "baseExpression": "ざるを得ない",
+          "conjugatedExpression": "ざるを得ない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-10-d",
+          "text": "次第",
+          "grammarId": "n2-047",
+          "baseExpression": "次第",
+          "conjugatedExpression": "次第",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-10-a",
+          "text": "次第だ",
+          "grammarId": "n2-048",
+          "baseExpression": "次第だ",
+          "conjugatedExpression": "次第だ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-10-b",
+          "text": "に限らず",
+          "grammarId": "n2-109",
+          "baseExpression": "に限らず",
+          "conjugatedExpression": "に限らず",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '정규직뿐만 아니라 계약직 직원에게도 육아 지원 제도가 적용된다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
+      "sourceGrammarIds": [
+        "n2-109",
+        "n2-046",
+        "n2-047",
+        "n2-048"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-109-11",
+      "level": "N2",
+      "sentence": "観光客に限らず、近隣の住民もこの朝市で新鮮な魚を買っている。",
+      "sentenceWithBlank": "観光客（　　　）、近隣の住民もこの朝市で新鮮な魚を買っている。",
+      "korean": "관광객뿐만 아니라 인근 주민들도 이 아침 시장에서 신선한 생선을 사고 있다.",
+      "answerChoiceId": "fb-created-n2-109-11-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-109-11-d",
+          "text": "次第",
+          "grammarId": "n2-047",
+          "baseExpression": "次第",
+          "conjugatedExpression": "次第",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-11-a",
+          "text": "次第だ",
+          "grammarId": "n2-048",
+          "baseExpression": "次第だ",
+          "conjugatedExpression": "次第だ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-11-b",
+          "text": "に限らず",
+          "grammarId": "n2-109",
+          "baseExpression": "に限らず",
+          "conjugatedExpression": "に限らず",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-109-11-c",
+          "text": "ざるを得ない",
+          "grammarId": "n2-046",
+          "baseExpression": "ざるを得ない",
+          "conjugatedExpression": "ざるを得ない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '관광객뿐만 아니라 인근 주민들도 이 아침 시장에서 신선한 생선을 사고 있다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
+      "sourceGrammarIds": [
+        "n2-109",
+        "n2-046",
+        "n2-047",
+        "n2-048"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-109-12",
+      "level": "N2",
+      "sentence": "手術後に限らず、退院してからも定期的な血圧測定が欠かせない。",
+      "sentenceWithBlank": "手術後（　　　）、退院してからも定期的な血圧測定が欠かせない。",
+      "korean": "수술 후뿐만 아니라 퇴원한 뒤에도 정기적인 혈압 측정이 필수적이다.",
+      "answerChoiceId": "fb-created-n2-109-12-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-109-12-a",
+          "text": "次第だ",
+          "grammarId": "n2-048",
+          "baseExpression": "次第だ",
+          "conjugatedExpression": "次第だ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-12-b",
+          "text": "に限らず",
+          "grammarId": "n2-109",
+          "baseExpression": "に限らず",
+          "conjugatedExpression": "に限らず",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-109-12-c",
+          "text": "ざるを得ない",
+          "grammarId": "n2-046",
+          "baseExpression": "ざるを得ない",
+          "conjugatedExpression": "ざるを得ない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-12-d",
+          "text": "次第",
+          "grammarId": "n2-047",
+          "baseExpression": "次第",
+          "conjugatedExpression": "次第",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '수술 후뿐만 아니라 퇴원한 뒤에도 정기적인 혈압 측정이 필수적이다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
+      "sourceGrammarIds": [
+        "n2-109",
+        "n2-046",
+        "n2-047",
+        "n2-048"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-109-13",
+      "level": "N2",
+      "sentence": "若い職人に限らず、熟練者も新しい加工技術の習得に励んでいる。",
+      "sentenceWithBlank": "若い職人（　　　）、熟練者も新しい加工技術の習得に励んでいる。",
+      "korean": "젊은 장인뿐만 아니라 숙련자도 새로운 가공 기술을 익히는 데 힘쓰고 있다.",
+      "answerChoiceId": "fb-created-n2-109-13-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-109-13-b",
+          "text": "に限らず",
+          "grammarId": "n2-109",
+          "baseExpression": "に限らず",
+          "conjugatedExpression": "に限らず",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-109-13-c",
+          "text": "ざるを得ない",
+          "grammarId": "n2-046",
+          "baseExpression": "ざるを得ない",
+          "conjugatedExpression": "ざるを得ない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-13-d",
+          "text": "次第",
+          "grammarId": "n2-047",
+          "baseExpression": "次第",
+          "conjugatedExpression": "次第",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-13-a",
+          "text": "次第だ",
+          "grammarId": "n2-048",
+          "baseExpression": "次第だ",
+          "conjugatedExpression": "次第だ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '젊은 장인뿐만 아니라 숙련자도 새로운 가공 기술을 익히는 데 힘쓰고 있다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
+      "sourceGrammarIds": [
+        "n2-109",
+        "n2-046",
+        "n2-047",
+        "n2-048"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-109-14",
+      "level": "N2",
+      "sentence": "結婚式に限らず、家族の小さな集まりでもこの会場を借りられる。",
+      "sentenceWithBlank": "結婚式（　　　）、家族の小さな集まりでもこの会場を借りられる。",
+      "korean": "결혼식뿐만 아니라 가족의 소규모 모임에도 이 장소를 빌릴 수 있다.",
+      "answerChoiceId": "fb-created-n2-109-14-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-109-14-c",
+          "text": "ざるを得ない",
+          "grammarId": "n2-046",
+          "baseExpression": "ざるを得ない",
+          "conjugatedExpression": "ざるを得ない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-14-d",
+          "text": "次第",
+          "grammarId": "n2-047",
+          "baseExpression": "次第",
+          "conjugatedExpression": "次第",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-14-a",
+          "text": "次第だ",
+          "grammarId": "n2-048",
+          "baseExpression": "次第だ",
+          "conjugatedExpression": "次第だ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-14-b",
+          "text": "に限らず",
+          "grammarId": "n2-109",
+          "baseExpression": "に限らず",
+          "conjugatedExpression": "に限らず",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '결혼식뿐만 아니라 가족의 소규모 모임에도 이 장소를 빌릴 수 있다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
+      "sourceGrammarIds": [
+        "n2-109",
+        "n2-046",
+        "n2-047",
+        "n2-048"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-109-15",
+      "level": "N2",
+      "sentence": "現金に限らず、交通系の電子マネーでも屋台の代金を支払える。",
+      "sentenceWithBlank": "現金（　　　）、交通系の電子マネーでも屋台の代金を支払える。",
+      "korean": "현금뿐만 아니라 교통카드형 전자 화폐로도 노점의 대금을 지불할 수 있다.",
+      "answerChoiceId": "fb-created-n2-109-15-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-109-15-d",
+          "text": "次第",
+          "grammarId": "n2-047",
+          "baseExpression": "次第",
+          "conjugatedExpression": "次第",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-15-a",
+          "text": "次第だ",
+          "grammarId": "n2-048",
+          "baseExpression": "次第だ",
+          "conjugatedExpression": "次第だ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-15-b",
+          "text": "に限らず",
+          "grammarId": "n2-109",
+          "baseExpression": "に限らず",
+          "conjugatedExpression": "に限らず",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-109-15-c",
+          "text": "ざるを得ない",
+          "grammarId": "n2-046",
+          "baseExpression": "ざるを得ない",
+          "conjugatedExpression": "ざるを得ない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '현금뿐만 아니라 교통카드형 전자 화폐로도 노점의 대금을 지불할 수 있다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
+      "sourceGrammarIds": [
+        "n2-109",
+        "n2-046",
+        "n2-047",
+        "n2-048"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-109-16",
+      "level": "N2",
+      "sentence": "春に限らず、この温室では一年を通して色鮮やかな花が咲く。",
+      "sentenceWithBlank": "春（　　　）、この温室では一年を通して色鮮やかな花が咲く。",
+      "korean": "봄뿐만 아니라 이 온실에서는 일 년 내내 형형색색의 꽃이 핀다.",
+      "answerChoiceId": "fb-created-n2-109-16-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-109-16-a",
+          "text": "次第だ",
+          "grammarId": "n2-048",
+          "baseExpression": "次第だ",
+          "conjugatedExpression": "次第だ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-16-b",
+          "text": "に限らず",
+          "grammarId": "n2-109",
+          "baseExpression": "に限らず",
+          "conjugatedExpression": "に限らず",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-109-16-c",
+          "text": "ざるを得ない",
+          "grammarId": "n2-046",
+          "baseExpression": "ざるを得ない",
+          "conjugatedExpression": "ざるを得ない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-16-d",
+          "text": "次第",
+          "grammarId": "n2-047",
+          "baseExpression": "次第",
+          "conjugatedExpression": "次第",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '봄뿐만 아니라 이 온실에서는 일 년 내내 형형색색의 꽃이 핀다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
+      "sourceGrammarIds": [
+        "n2-109",
+        "n2-046",
+        "n2-047",
+        "n2-048"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-109-17",
+      "level": "N2",
+      "sentence": "警察官に限らず、駅員も迷子の捜索に協力してくれた。",
+      "sentenceWithBlank": "警察官（　　　）、駅員も迷子の捜索に協力してくれた。",
+      "korean": "경찰관뿐만 아니라 역무원도 미아 수색에 협조해 주었다.",
+      "answerChoiceId": "fb-created-n2-109-17-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-109-17-b",
+          "text": "に限らず",
+          "grammarId": "n2-109",
+          "baseExpression": "に限らず",
+          "conjugatedExpression": "に限らず",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-109-17-c",
+          "text": "ざるを得ない",
+          "grammarId": "n2-046",
+          "baseExpression": "ざるを得ない",
+          "conjugatedExpression": "ざるを得ない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-17-d",
+          "text": "次第",
+          "grammarId": "n2-047",
+          "baseExpression": "次第",
+          "conjugatedExpression": "次第",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-17-a",
+          "text": "次第だ",
+          "grammarId": "n2-048",
+          "baseExpression": "次第だ",
+          "conjugatedExpression": "次第だ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '경찰관뿐만 아니라 역무원도 미아 수색에 협조해 주었다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
+      "sourceGrammarIds": [
+        "n2-109",
+        "n2-046",
+        "n2-047",
+        "n2-048"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-109-18",
+      "level": "N2",
+      "sentence": "食品に限らず、衣料品の包装にも再生素材が採用されている。",
+      "sentenceWithBlank": "食品（　　　）、衣料品の包装にも再生素材が採用されている。",
+      "korean": "식품뿐만 아니라 의류 포장에도 재생 소재가 채택되고 있다.",
+      "answerChoiceId": "fb-created-n2-109-18-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-109-18-c",
+          "text": "ざるを得ない",
+          "grammarId": "n2-046",
+          "baseExpression": "ざるを得ない",
+          "conjugatedExpression": "ざるを得ない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-18-d",
+          "text": "次第",
+          "grammarId": "n2-047",
+          "baseExpression": "次第",
+          "conjugatedExpression": "次第",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-18-a",
+          "text": "次第だ",
+          "grammarId": "n2-048",
+          "baseExpression": "次第だ",
+          "conjugatedExpression": "次第だ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-18-b",
+          "text": "に限らず",
+          "grammarId": "n2-109",
+          "baseExpression": "に限らず",
+          "conjugatedExpression": "に限らず",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '식품뿐만 아니라 의류 포장에도 재생 소재가 채택되고 있다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
+      "sourceGrammarIds": [
+        "n2-109",
+        "n2-046",
+        "n2-047",
+        "n2-048"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-109-19",
+      "level": "N2",
+      "sentence": "災害時に限らず、普段から隣人との連絡手段を確保しておくべきだ。",
+      "sentenceWithBlank": "災害時（　　　）、普段から隣人との連絡手段を確保しておくべきだ。",
+      "korean": "재해 때뿐만 아니라 평소에도 이웃과 연락할 수단을 확보해 두어야 한다.",
+      "answerChoiceId": "fb-created-n2-109-19-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-109-19-d",
+          "text": "次第",
+          "grammarId": "n2-047",
+          "baseExpression": "次第",
+          "conjugatedExpression": "次第",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-19-a",
+          "text": "次第だ",
+          "grammarId": "n2-048",
+          "baseExpression": "次第だ",
+          "conjugatedExpression": "次第だ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-19-b",
+          "text": "に限らず",
+          "grammarId": "n2-109",
+          "baseExpression": "に限らず",
+          "conjugatedExpression": "に限らず",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-109-19-c",
+          "text": "ざるを得ない",
+          "grammarId": "n2-046",
+          "baseExpression": "ざるを得ない",
+          "conjugatedExpression": "ざるを得ない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '재해 때뿐만 아니라 평소에도 이웃과 연락할 수단을 확보해 두어야 한다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
+      "sourceGrammarIds": [
+        "n2-109",
+        "n2-046",
+        "n2-047",
+        "n2-048"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-109-20",
+      "level": "N2",
+      "sentence": "本店に限らず、すべての支店で不要になった衣服を回収している。",
+      "sentenceWithBlank": "本店（　　　）、すべての支店で不要になった衣服を回収している。",
+      "korean": "본점뿐만 아니라 모든 지점에서 불필요해진 옷을 수거하고 있다.",
+      "answerChoiceId": "fb-created-n2-109-20-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-109-20-a",
+          "text": "次第だ",
+          "grammarId": "n2-048",
+          "baseExpression": "次第だ",
+          "conjugatedExpression": "次第だ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-20-b",
+          "text": "に限らず",
+          "grammarId": "n2-109",
+          "baseExpression": "に限らず",
+          "conjugatedExpression": "に限らず",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-109-20-c",
+          "text": "ざるを得ない",
+          "grammarId": "n2-046",
+          "baseExpression": "ざるを得ない",
+          "conjugatedExpression": "ざるを得ない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-20-d",
+          "text": "次第",
+          "grammarId": "n2-047",
+          "baseExpression": "次第",
+          "conjugatedExpression": "次第",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '본점뿐만 아니라 모든 지점에서 불필요해진 옷을 수거하고 있다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
+      "sourceGrammarIds": [
+        "n2-109",
+        "n2-046",
+        "n2-047",
+        "n2-048"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-109-21",
+      "level": "N2",
+      "sentence": "受賞作品に限らず、最終選考に残った写真も市役所に展示される。",
+      "sentenceWithBlank": "受賞作品（　　　）、最終選考に残った写真も市役所に展示される。",
+      "korean": "수상 작품뿐만 아니라 최종 심사에 오른 사진도 시청에 전시된다.",
+      "answerChoiceId": "fb-created-n2-109-21-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-109-21-b",
+          "text": "に限らず",
+          "grammarId": "n2-109",
+          "baseExpression": "に限らず",
+          "conjugatedExpression": "に限らず",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-109-21-c",
+          "text": "ざるを得ない",
+          "grammarId": "n2-046",
+          "baseExpression": "ざるを得ない",
+          "conjugatedExpression": "ざるを得ない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-21-d",
+          "text": "次第",
+          "grammarId": "n2-047",
+          "baseExpression": "次第",
+          "conjugatedExpression": "次第",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-21-a",
+          "text": "次第だ",
+          "grammarId": "n2-048",
+          "baseExpression": "次第だ",
+          "conjugatedExpression": "次第だ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '수상 작품뿐만 아니라 최종 심사에 오른 사진도 시청에 전시된다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
+      "sourceGrammarIds": [
+        "n2-109",
+        "n2-046",
+        "n2-047",
+        "n2-048"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-109-22",
+      "level": "N2",
+      "sentence": "病院に限らず、介護施設でも夜間に働く看護師が不足している。",
+      "sentenceWithBlank": "病院（　　　）、介護施設でも夜間に働く看護師が不足している。",
+      "korean": "병원뿐만 아니라 요양 시설에서도 야간에 근무할 간호사가 부족하다.",
+      "answerChoiceId": "fb-created-n2-109-22-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-109-22-c",
+          "text": "ざるを得ない",
+          "grammarId": "n2-046",
+          "baseExpression": "ざるを得ない",
+          "conjugatedExpression": "ざるを得ない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-22-d",
+          "text": "次第",
+          "grammarId": "n2-047",
+          "baseExpression": "次第",
+          "conjugatedExpression": "次第",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-22-a",
+          "text": "次第だ",
+          "grammarId": "n2-048",
+          "baseExpression": "次第だ",
+          "conjugatedExpression": "次第だ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-22-b",
+          "text": "に限らず",
+          "grammarId": "n2-109",
+          "baseExpression": "に限らず",
+          "conjugatedExpression": "に限らず",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '병원뿐만 아니라 요양 시설에서도 야간에 근무할 간호사가 부족하다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
+      "sourceGrammarIds": [
+        "n2-109",
+        "n2-046",
+        "n2-047",
+        "n2-048"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-109-23",
+      "level": "N2",
+      "sentence": "大型犬に限らず、小型犬にも外出時の暑さ対策が求められる。",
+      "sentenceWithBlank": "大型犬（　　　）、小型犬にも外出時の暑さ対策が求められる。",
+      "korean": "대형견뿐만 아니라 소형견에게도 외출 시 더위 대책이 필요하다.",
+      "answerChoiceId": "fb-created-n2-109-23-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-109-23-d",
+          "text": "次第",
+          "grammarId": "n2-047",
+          "baseExpression": "次第",
+          "conjugatedExpression": "次第",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-23-a",
+          "text": "次第だ",
+          "grammarId": "n2-048",
+          "baseExpression": "次第だ",
+          "conjugatedExpression": "次第だ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-23-b",
+          "text": "に限らず",
+          "grammarId": "n2-109",
+          "baseExpression": "に限らず",
+          "conjugatedExpression": "に限らず",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-109-23-c",
+          "text": "ざるを得ない",
+          "grammarId": "n2-046",
+          "baseExpression": "ざるを得ない",
+          "conjugatedExpression": "ざるを得ない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '대형견뿐만 아니라 소형견에게도 외출 시 더위 대책이 필요하다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
+      "sourceGrammarIds": [
+        "n2-109",
+        "n2-046",
+        "n2-047",
+        "n2-048"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-109-24",
+      "level": "N2",
+      "sentence": "輸出企業に限らず、海外から原料を仕入れる農家も為替変動の影響を受ける。",
+      "sentenceWithBlank": "輸出企業（　　　）、海外から原料を仕入れる農家も為替変動の影響を受ける。",
+      "korean": "수출 기업뿐만 아니라 해외에서 원료를 들여오는 농가도 환율 변동의 영향을 받는다.",
+      "answerChoiceId": "fb-created-n2-109-24-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-109-24-a",
+          "text": "次第だ",
+          "grammarId": "n2-048",
+          "baseExpression": "次第だ",
+          "conjugatedExpression": "次第だ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-24-b",
+          "text": "に限らず",
+          "grammarId": "n2-109",
+          "baseExpression": "に限らず",
+          "conjugatedExpression": "に限らず",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-109-24-c",
+          "text": "ざるを得ない",
+          "grammarId": "n2-046",
+          "baseExpression": "ざるを得ない",
+          "conjugatedExpression": "ざるを得ない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-24-d",
+          "text": "次第",
+          "grammarId": "n2-047",
+          "baseExpression": "次第",
+          "conjugatedExpression": "次第",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '수출 기업뿐만 아니라 해외에서 원료를 들여오는 농가도 환율 변동의 영향을 받는다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
+      "sourceGrammarIds": [
+        "n2-109",
+        "n2-046",
+        "n2-047",
+        "n2-048"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-109-25",
+      "level": "N2",
+      "sentence": "目撃者に限らず、周辺を走っていた車の映像も事故原因の特定に役立った。",
+      "sentenceWithBlank": "目撃者（　　　）、周辺を走っていた車の映像も事故原因の特定に役立った。",
+      "korean": "목격자뿐만 아니라 주변을 달리던 차량의 영상도 사고 원인을 밝히는 데 도움이 되었다.",
+      "answerChoiceId": "fb-created-n2-109-25-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-109-25-b",
+          "text": "に限らず",
+          "grammarId": "n2-109",
+          "baseExpression": "に限らず",
+          "conjugatedExpression": "に限らず",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-109-25-c",
+          "text": "ざるを得ない",
+          "grammarId": "n2-046",
+          "baseExpression": "ざるを得ない",
+          "conjugatedExpression": "ざるを得ない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-25-d",
+          "text": "次第",
+          "grammarId": "n2-047",
+          "baseExpression": "次第",
+          "conjugatedExpression": "次第",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-109-25-a",
+          "text": "次第だ",
+          "grammarId": "n2-048",
+          "baseExpression": "次第だ",
+          "conjugatedExpression": "次第だ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '목격자뿐만 아니라 주변을 달리던 차량의 영상도 사고 원인을 밝히는 데 도움이 되었다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
+      "sourceGrammarIds": [
+        "n2-109",
+        "n2-046",
+        "n2-047",
+        "n2-048"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
       ]
     }
   ],
@@ -1834,1103 +1809,1153 @@
       ]
     },
     {
-      "id": "so-extra-n2-109-1",
+      "id": "so-created-n2-109-01",
       "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlanks": "日本 ____ ____ ____ ____",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
+      "sentence": "年齢に限らず、地域のマラソン大会には誰でも参加できる。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "나이에 상관없이 지역 마라톤 대회에는 누구나 참가할 수 있다.",
       "pieces": [
         {
-          "id": "so-extra-n2-109-1-p4",
-          "text": "深刻になっている",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-109-1-p1",
-          "text": "に限らず",
-          "order": 1
-        },
-        {
-          "id": "so-extra-n2-109-1-p2",
-          "text": "世界中で",
+          "id": "so-created-n2-109-01-p2",
+          "text": "地域のマラソン",
           "order": 2
         },
         {
-          "id": "so-extra-n2-109-1-p3",
-          "text": "環境問題が",
+          "id": "so-created-n2-109-01-p3",
+          "text": "大会には誰でも",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-109-01-p4",
+          "text": "参加できる。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-109-01-p1",
+          "text": "年齢に限らず、",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-109-1-p1",
-        "so-extra-n2-109-1-p2",
-        "so-extra-n2-109-1-p3",
-        "so-extra-n2-109-1-p4"
+        "so-created-n2-109-01-p1",
+        "so-created-n2-109-01-p2",
+        "so-created-n2-109-01-p3",
+        "so-created-n2-109-01-p4"
       ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '나이에 상관없이 지역 마라톤 대회에는 누구나 참가할 수 있다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
       "sourceGrammarIds": [
-        "n2-109"
+        "n2-109",
+        "n2-046",
+        "n2-047",
+        "n2-048"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-109-2",
+      "id": "so-created-n2-109-02",
       "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlanks": "日本 ____ ____ ____ ____",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
+      "sentence": "都市部に限らず、山間の集落でも宅配サービスの利用が増えている。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 利用が増えている。",
+      "korean": "도시 지역뿐만 아니라 산간 마을에서도 택배 서비스 이용이 늘고 있다.",
       "pieces": [
         {
-          "id": "so-extra-n2-109-2-p1",
-          "text": "深刻になっている",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-109-2-p2",
-          "text": "に限らず",
+          "id": "so-created-n2-109-02-p1",
+          "text": "都市部",
           "order": 1
         },
         {
-          "id": "so-extra-n2-109-2-p3",
-          "text": "世界中で",
+          "id": "so-created-n2-109-02-p2",
+          "text": "に限らず、",
           "order": 2
         },
         {
-          "id": "so-extra-n2-109-2-p4",
-          "text": "環境問題が",
+          "id": "so-created-n2-109-02-p3",
+          "text": "山間の集落でも",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-109-02-p4",
+          "text": "宅配サービスの",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-109-2-p2",
-        "so-extra-n2-109-2-p3",
-        "so-extra-n2-109-2-p4",
-        "so-extra-n2-109-2-p1"
+        "so-created-n2-109-02-p1",
+        "so-created-n2-109-02-p2",
+        "so-created-n2-109-02-p3",
+        "so-created-n2-109-02-p4"
       ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '도시 지역뿐만 아니라 산간 마을에서도 택배 서비스 이용이 늘고 있다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
       "sourceGrammarIds": [
-        "n2-109"
+        "n2-109",
+        "n2-046",
+        "n2-047",
+        "n2-048"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-109-3",
+      "id": "so-created-n2-109-03",
       "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、世界中で環境問題が深刻になっている。",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
+      "sentence": "社員に限らず、取引先の担当者も創立記念式典に招かれた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 招かれた。",
+      "korean": "직원뿐만 아니라 거래처 담당자도 창립 기념식에 초대받았다.",
       "pieces": [
         {
-          "id": "so-extra-n2-109-3-p2",
-          "text": "環境問題が",
+          "id": "so-created-n2-109-03-p4",
+          "text": "記念式典に",
           "order": 4
         },
         {
-          "id": "so-extra-n2-109-3-p3",
-          "text": "本",
+          "id": "so-created-n2-109-03-p1",
+          "text": "社員に限らず、",
           "order": 1
         },
         {
-          "id": "so-extra-n2-109-3-p4",
-          "text": "に限らず",
+          "id": "so-created-n2-109-03-p2",
+          "text": "取引先の",
           "order": 2
         },
         {
-          "id": "so-extra-n2-109-3-p1",
-          "text": "世界中で",
+          "id": "so-created-n2-109-03-p3",
+          "text": "担当者も創立",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-109-3-p3",
-        "so-extra-n2-109-3-p4",
-        "so-extra-n2-109-3-p1",
-        "so-extra-n2-109-3-p2"
+        "so-created-n2-109-03-p1",
+        "so-created-n2-109-03-p2",
+        "so-created-n2-109-03-p3",
+        "so-created-n2-109-03-p4"
       ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '직원뿐만 아니라 거래처 담당자도 창립 기념식에 초대받았다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
       "sourceGrammarIds": [
-        "n2-109"
+        "n2-109",
+        "n2-046",
+        "n2-047",
+        "n2-048"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-109-4",
+      "id": "so-created-n2-109-04",
       "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlanks": "日本 ____ ____ ____ ____",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
+      "sentence": "週末に限らず、この海岸沿いの道路は夕方になると渋滞する。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 渋滞する。",
+      "korean": "주말뿐만 아니라 평일에도 이 해안 도로는 저녁이 되면 정체된다.",
       "pieces": [
         {
-          "id": "so-extra-n2-109-4-p3",
-          "text": "深刻になっている",
+          "id": "so-created-n2-109-04-p3",
+          "text": "沿いの道路は",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-109-04-p4",
+          "text": "夕方になると",
           "order": 4
         },
         {
-          "id": "so-extra-n2-109-4-p4",
-          "text": "に限らず",
+          "id": "so-created-n2-109-04-p1",
+          "text": "週末に限らず、",
           "order": 1
         },
         {
-          "id": "so-extra-n2-109-4-p1",
-          "text": "世界中で",
+          "id": "so-created-n2-109-04-p2",
+          "text": "この海岸",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-109-4-p2",
-          "text": "環境問題が",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-109-4-p4",
-        "so-extra-n2-109-4-p1",
-        "so-extra-n2-109-4-p2",
-        "so-extra-n2-109-4-p3"
+        "so-created-n2-109-04-p1",
+        "so-created-n2-109-04-p2",
+        "so-created-n2-109-04-p3",
+        "so-created-n2-109-04-p4"
       ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '주말뿐만 아니라 평일에도 이 해안 도로는 저녁이 되면 정체된다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
       "sourceGrammarIds": [
-        "n2-109"
+        "n2-109",
+        "n2-046",
+        "n2-047",
+        "n2-048"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-109-5",
+      "id": "so-created-n2-109-05",
       "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlanks": "日本 ____ ____ ____ ____",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
+      "sentence": "専門家に限らず、一般の住民からも再開発への意見を募集している。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 意見を募集している。",
+      "korean": "전문가뿐만 아니라 일반 주민에게서도 재개발에 관한 의견을 모집하고 있다.",
       "pieces": [
         {
-          "id": "so-extra-n2-109-5-p4",
-          "text": "深刻になっている",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-109-5-p1",
-          "text": "に限らず",
-          "order": 1
-        },
-        {
-          "id": "so-extra-n2-109-5-p2",
-          "text": "世界中で",
+          "id": "so-created-n2-109-05-p2",
+          "text": "に限らず、",
           "order": 2
         },
         {
-          "id": "so-extra-n2-109-5-p3",
-          "text": "環境問題が",
+          "id": "so-created-n2-109-05-p3",
+          "text": "一般の住民からも",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-109-05-p4",
+          "text": "再開発への",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-109-05-p1",
+          "text": "専門家",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-109-5-p1",
-        "so-extra-n2-109-5-p2",
-        "so-extra-n2-109-5-p3",
-        "so-extra-n2-109-5-p4"
+        "so-created-n2-109-05-p1",
+        "so-created-n2-109-05-p2",
+        "so-created-n2-109-05-p3",
+        "so-created-n2-109-05-p4"
       ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '전문가뿐만 아니라 일반 주민에게서도 재개발에 관한 의견을 모집하고 있다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
       "sourceGrammarIds": [
-        "n2-109"
+        "n2-109",
+        "n2-046",
+        "n2-047",
+        "n2-048"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-109-01",
+      "id": "so-created-n2-109-06",
       "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlanks": "日本 ____ ____ ____ ____",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
+      "sentence": "高級店に限らず、町の食堂でも地元産の野菜が使われ始めた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 使われ始めた。",
+      "korean": "고급 음식점뿐만 아니라 동네 식당에서도 현지에서 생산된 채소를 사용하기 시작했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-109-01-p4",
-          "text": "深刻になっている",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-109-01-p1",
-          "text": "に限らず",
+          "id": "so-created-n2-109-06-p1",
+          "text": "高級店",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-109-01-p2",
-          "text": "世界中で",
+          "id": "so-created-n2-109-06-p2",
+          "text": "に限らず、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-109-01-p3",
-          "text": "環境問題が",
+          "id": "so-created-n2-109-06-p3",
+          "text": "町の食堂でも",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-109-06-p4",
+          "text": "地元産の野菜が",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-109-01-p1",
-        "so-extra20-n2-109-01-p2",
-        "so-extra20-n2-109-01-p3",
-        "so-extra20-n2-109-01-p4"
+        "so-created-n2-109-06-p1",
+        "so-created-n2-109-06-p2",
+        "so-created-n2-109-06-p3",
+        "so-created-n2-109-06-p4"
       ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '고급 음식점뿐만 아니라 동네 식당에서도 현지에서 생산된 채소를 사용하기 시작했다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
       "sourceGrammarIds": [
-        "n2-109"
+        "n2-109",
+        "n2-046",
+        "n2-047",
+        "n2-048"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-109-02",
+      "id": "so-created-n2-109-07",
       "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlanks": "日本 ____ ____ ____ ____",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
+      "sentence": "子育て世代に限らず、単身者にも広い公園のある街は人気が高い。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 街は人気が高い。",
+      "korean": "육아 세대뿐만 아니라 1인 가구에게도 넓은 공원이 있는 도시는 인기가 많다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-109-02-p3",
-          "text": "世界中で",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-109-02-p4",
-          "text": "環境問題が",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-109-02-p1",
-          "text": "深刻になっている",
+          "id": "so-created-n2-109-07-p4",
+          "text": "広い公園のある",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-109-02-p2",
-          "text": "に限らず",
+          "id": "so-created-n2-109-07-p1",
+          "text": "子育て世代",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-109-07-p2",
+          "text": "に限らず、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-109-07-p3",
+          "text": "単身者にも",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-109-02-p2",
-        "so-extra20-n2-109-02-p3",
-        "so-extra20-n2-109-02-p4",
-        "so-extra20-n2-109-02-p1"
+        "so-created-n2-109-07-p1",
+        "so-created-n2-109-07-p2",
+        "so-created-n2-109-07-p3",
+        "so-created-n2-109-07-p4"
       ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '육아 세대뿐만 아니라 1인 가구에게도 넓은 공원이 있는 도시는 인기가 많다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
       "sourceGrammarIds": [
-        "n2-109"
+        "n2-109",
+        "n2-046",
+        "n2-047",
+        "n2-048"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-109-03",
+      "id": "so-created-n2-109-08",
       "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、世界中で環境問題が深刻になっている。",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
+      "sentence": "国内線に限らず、国際線でも機内への液体の持ち込みが制限されている。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 制限されている。",
+      "korean": "국내선뿐만 아니라 국제선에서도 기내 액체 반입이 제한되어 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-109-03-p2",
-          "text": "環境問題が",
+          "id": "so-created-n2-109-08-p3",
+          "text": "機内への液体の",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-109-08-p4",
+          "text": "持ち込みが",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-109-03-p3",
-          "text": "本",
+          "id": "so-created-n2-109-08-p1",
+          "text": "国内線に限らず、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-109-03-p4",
-          "text": "に限らず",
+          "id": "so-created-n2-109-08-p2",
+          "text": "国際線でも",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-109-03-p1",
-          "text": "世界中で",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-109-03-p3",
-        "so-extra20-n2-109-03-p4",
-        "so-extra20-n2-109-03-p1",
-        "so-extra20-n2-109-03-p2"
+        "so-created-n2-109-08-p1",
+        "so-created-n2-109-08-p2",
+        "so-created-n2-109-08-p3",
+        "so-created-n2-109-08-p4"
       ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '국내선뿐만 아니라 국제선에서도 기내 액체 반입이 제한되어 있다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
       "sourceGrammarIds": [
-        "n2-109"
+        "n2-109",
+        "n2-046",
+        "n2-047",
+        "n2-048"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-109-04",
+      "id": "so-created-n2-109-09",
       "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlanks": "日本 ____ ____ ____ ____",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
+      "sentence": "大雨の日に限らず、雪解けの時期にも川の水位を確認する必要がある。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 確認する必要がある。",
+      "korean": "폭우가 내리는 날뿐만 아니라 눈이 녹는 시기에도 강의 수위를 확인할 필요가 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-109-04-p1",
-          "text": "世界中で",
+          "id": "so-created-n2-109-09-p2",
+          "text": "に限らず、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-109-04-p2",
-          "text": "環境問題が",
+          "id": "so-created-n2-109-09-p3",
+          "text": "雪解けの時期にも",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-109-04-p3",
-          "text": "深刻になっている",
+          "id": "so-created-n2-109-09-p4",
+          "text": "川の水位を",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-109-04-p4",
-          "text": "に限らず",
+          "id": "so-created-n2-109-09-p1",
+          "text": "大雨の日",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-109-04-p4",
-        "so-extra20-n2-109-04-p1",
-        "so-extra20-n2-109-04-p2",
-        "so-extra20-n2-109-04-p3"
+        "so-created-n2-109-09-p1",
+        "so-created-n2-109-09-p2",
+        "so-created-n2-109-09-p3",
+        "so-created-n2-109-09-p4"
       ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '폭우가 내리는 날뿐만 아니라 눈이 녹는 시기에도 강의 수위를 확인할 필요가 있다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
       "sourceGrammarIds": [
-        "n2-109"
+        "n2-109",
+        "n2-046",
+        "n2-047",
+        "n2-048"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-109-05",
+      "id": "so-created-n2-109-10",
       "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlanks": "日本 ____ ____ ____ ____",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
+      "sentence": "正社員に限らず、契約スタッフにも育児支援制度が適用される。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 適用される。",
+      "korean": "정규직뿐만 아니라 계약직 직원에게도 육아 지원 제도가 적용된다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-109-05-p4",
-          "text": "深刻になっている",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-109-05-p1",
-          "text": "に限らず",
+          "id": "so-created-n2-109-10-p1",
+          "text": "正社員",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-109-05-p2",
-          "text": "世界中で",
+          "id": "so-created-n2-109-10-p2",
+          "text": "に限らず、契約",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-109-05-p3",
-          "text": "環境問題が",
+          "id": "so-created-n2-109-10-p3",
+          "text": "スタッフにも",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-109-10-p4",
+          "text": "育児支援制度が",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-109-05-p1",
-        "so-extra20-n2-109-05-p2",
-        "so-extra20-n2-109-05-p3",
-        "so-extra20-n2-109-05-p4"
+        "so-created-n2-109-10-p1",
+        "so-created-n2-109-10-p2",
+        "so-created-n2-109-10-p3",
+        "so-created-n2-109-10-p4"
       ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '정규직뿐만 아니라 계약직 직원에게도 육아 지원 제도가 적용된다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
       "sourceGrammarIds": [
-        "n2-109"
+        "n2-109",
+        "n2-046",
+        "n2-047",
+        "n2-048"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-109-06",
+      "id": "so-created-n2-109-11",
       "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlanks": "日本 ____ ____ ____ ____",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
+      "sentence": "観光客に限らず、近隣の住民もこの朝市で新鮮な魚を買っている。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 魚を買っている。",
+      "korean": "관광객뿐만 아니라 인근 주민들도 이 아침 시장에서 신선한 생선을 사고 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-109-06-p3",
-          "text": "環境問題が",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-109-06-p4",
-          "text": "深刻になっている",
+          "id": "so-created-n2-109-11-p4",
+          "text": "朝市で新鮮な",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-109-06-p1",
-          "text": "に限らず",
+          "id": "so-created-n2-109-11-p1",
+          "text": "観光客",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-109-06-p2",
-          "text": "世界中で",
+          "id": "so-created-n2-109-11-p2",
+          "text": "に限らず、",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-109-11-p3",
+          "text": "近隣の住民もこの",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-109-06-p1",
-        "so-extra20-n2-109-06-p2",
-        "so-extra20-n2-109-06-p3",
-        "so-extra20-n2-109-06-p4"
+        "so-created-n2-109-11-p1",
+        "so-created-n2-109-11-p2",
+        "so-created-n2-109-11-p3",
+        "so-created-n2-109-11-p4"
       ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '관광객뿐만 아니라 인근 주민들도 이 아침 시장에서 신선한 생선을 사고 있다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
       "sourceGrammarIds": [
-        "n2-109"
+        "n2-109",
+        "n2-046",
+        "n2-047",
+        "n2-048"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-109-07",
+      "id": "so-created-n2-109-12",
       "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlanks": "日本 ____ ____ ____ ____",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
+      "sentence": "手術後に限らず、退院してからも定期的な血圧測定が欠かせない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 測定が欠かせない。",
+      "korean": "수술 후뿐만 아니라 퇴원한 뒤에도 정기적인 혈압 측정이 필수적이다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-109-07-p2",
-          "text": "に限らず",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-109-07-p3",
-          "text": "世界中で",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-109-07-p4",
-          "text": "環境問題が",
+          "id": "so-created-n2-109-12-p3",
+          "text": "退院してからも",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-109-07-p1",
-          "text": "深刻になっている",
+          "id": "so-created-n2-109-12-p4",
+          "text": "定期的な血圧",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-109-12-p1",
+          "text": "手術後",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-109-12-p2",
+          "text": "に限らず、",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-109-07-p2",
-        "so-extra20-n2-109-07-p3",
-        "so-extra20-n2-109-07-p4",
-        "so-extra20-n2-109-07-p1"
+        "so-created-n2-109-12-p1",
+        "so-created-n2-109-12-p2",
+        "so-created-n2-109-12-p3",
+        "so-created-n2-109-12-p4"
       ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '수술 후뿐만 아니라 퇴원한 뒤에도 정기적인 혈압 측정이 필수적이다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
       "sourceGrammarIds": [
-        "n2-109"
+        "n2-109",
+        "n2-046",
+        "n2-047",
+        "n2-048"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-109-08",
+      "id": "so-created-n2-109-13",
       "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、世界中で環境問題が深刻になっている。",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
+      "sentence": "若い職人に限らず、熟練者も新しい加工技術の習得に励んでいる。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 習得に励んでいる。",
+      "korean": "젊은 장인뿐만 아니라 숙련자도 새로운 가공 기술을 익히는 데 힘쓰고 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-109-08-p1",
-          "text": "世界中で",
+          "id": "so-created-n2-109-13-p2",
+          "text": "に限らず、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-109-13-p3",
+          "text": "熟練者も新しい",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-109-08-p2",
-          "text": "環境問題が",
+          "id": "so-created-n2-109-13-p4",
+          "text": "加工技術の",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-109-08-p3",
-          "text": "本",
+          "id": "so-created-n2-109-13-p1",
+          "text": "若い職人",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-109-08-p4",
-          "text": "に限らず",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-109-08-p3",
-        "so-extra20-n2-109-08-p4",
-        "so-extra20-n2-109-08-p1",
-        "so-extra20-n2-109-08-p2"
+        "so-created-n2-109-13-p1",
+        "so-created-n2-109-13-p2",
+        "so-created-n2-109-13-p3",
+        "so-created-n2-109-13-p4"
       ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '젊은 장인뿐만 아니라 숙련자도 새로운 가공 기술을 익히는 데 힘쓰고 있다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
       "sourceGrammarIds": [
-        "n2-109"
+        "n2-109",
+        "n2-046",
+        "n2-047",
+        "n2-048"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-109-09",
+      "id": "so-created-n2-109-14",
       "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlanks": "日本 ____ ____ ____ ____",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
+      "sentence": "結婚式に限らず、家族の小さな集まりでもこの会場を借りられる。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "결혼식뿐만 아니라 가족의 소규모 모임에도 이 장소를 빌릴 수 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-109-09-p4",
-          "text": "に限らず",
+          "id": "so-created-n2-109-14-p1",
+          "text": "結婚式に限らず、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-109-09-p1",
-          "text": "世界中で",
+          "id": "so-created-n2-109-14-p2",
+          "text": "家族の小さな",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-109-09-p2",
-          "text": "環境問題が",
+          "id": "so-created-n2-109-14-p3",
+          "text": "集まりでもこの",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-109-09-p3",
-          "text": "深刻になっている",
+          "id": "so-created-n2-109-14-p4",
+          "text": "会場を借りられる。",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-109-09-p4",
-        "so-extra20-n2-109-09-p1",
-        "so-extra20-n2-109-09-p2",
-        "so-extra20-n2-109-09-p3"
+        "so-created-n2-109-14-p1",
+        "so-created-n2-109-14-p2",
+        "so-created-n2-109-14-p3",
+        "so-created-n2-109-14-p4"
       ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '결혼식뿐만 아니라 가족의 소규모 모임에도 이 장소를 빌릴 수 있다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
       "sourceGrammarIds": [
-        "n2-109"
+        "n2-109",
+        "n2-046",
+        "n2-047",
+        "n2-048"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-109-10",
+      "id": "so-created-n2-109-15",
       "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlanks": "日本 ____ ____ ____ ____",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
+      "sentence": "現金に限らず、交通系の電子マネーでも屋台の代金を支払える。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 代金を支払える。",
+      "korean": "현금뿐만 아니라 교통카드형 전자 화폐로도 노점의 대금을 지불할 수 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-109-10-p3",
-          "text": "環境問題が",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-109-10-p4",
-          "text": "深刻になっている",
+          "id": "so-created-n2-109-15-p4",
+          "text": "屋台の",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-109-10-p1",
-          "text": "に限らず",
+          "id": "so-created-n2-109-15-p1",
+          "text": "現金に限らず、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-109-10-p2",
-          "text": "世界中で",
+          "id": "so-created-n2-109-15-p2",
+          "text": "交通系の電子",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-109-15-p3",
+          "text": "マネーでも",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-109-10-p1",
-        "so-extra20-n2-109-10-p2",
-        "so-extra20-n2-109-10-p3",
-        "so-extra20-n2-109-10-p4"
+        "so-created-n2-109-15-p1",
+        "so-created-n2-109-15-p2",
+        "so-created-n2-109-15-p3",
+        "so-created-n2-109-15-p4"
       ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '현금뿐만 아니라 교통카드형 전자 화폐로도 노점의 대금을 지불할 수 있다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
       "sourceGrammarIds": [
-        "n2-109"
+        "n2-109",
+        "n2-046",
+        "n2-047",
+        "n2-048"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-109-11",
+      "id": "so-created-n2-109-16",
       "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlanks": "日本 ____ ____ ____ ____",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
+      "sentence": "春に限らず、この温室では一年を通して色鮮やかな花が咲く。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 花が咲く。",
+      "korean": "봄뿐만 아니라 이 온실에서는 일 년 내내 형형색색의 꽃이 핀다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-109-11-p2",
-          "text": "世界中で",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-109-11-p3",
-          "text": "環境問題が",
+          "id": "so-created-n2-109-16-p3",
+          "text": "一年を通して",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-109-11-p4",
-          "text": "深刻になっている",
+          "id": "so-created-n2-109-16-p4",
+          "text": "色鮮やかな",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-109-11-p1",
-          "text": "に限らず",
+          "id": "so-created-n2-109-16-p1",
+          "text": "春に限らず、",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-109-16-p2",
+          "text": "この温室では",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-109-11-p1",
-        "so-extra20-n2-109-11-p2",
-        "so-extra20-n2-109-11-p3",
-        "so-extra20-n2-109-11-p4"
+        "so-created-n2-109-16-p1",
+        "so-created-n2-109-16-p2",
+        "so-created-n2-109-16-p3",
+        "so-created-n2-109-16-p4"
       ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '봄뿐만 아니라 이 온실에서는 일 년 내내 형형색색의 꽃이 핀다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
       "sourceGrammarIds": [
-        "n2-109"
+        "n2-109",
+        "n2-046",
+        "n2-047",
+        "n2-048"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-109-12",
+      "id": "so-created-n2-109-17",
       "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlanks": "日本 ____ ____ ____ ____",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
+      "sentence": "警察官に限らず、駅員も迷子の捜索に協力してくれた。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "경찰관뿐만 아니라 역무원도 미아 수색에 협조해 주었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-109-12-p1",
-          "text": "深刻になっている",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-109-12-p2",
-          "text": "に限らず",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-109-12-p3",
-          "text": "世界中で",
+          "id": "so-created-n2-109-17-p2",
+          "text": "に限らず、駅員も",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-109-12-p4",
-          "text": "環境問題が",
+          "id": "so-created-n2-109-17-p3",
+          "text": "迷子の捜索に",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-109-17-p4",
+          "text": "協力してくれた。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-109-17-p1",
+          "text": "警察官",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-109-12-p2",
-        "so-extra20-n2-109-12-p3",
-        "so-extra20-n2-109-12-p4",
-        "so-extra20-n2-109-12-p1"
+        "so-created-n2-109-17-p1",
+        "so-created-n2-109-17-p2",
+        "so-created-n2-109-17-p3",
+        "so-created-n2-109-17-p4"
       ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '경찰관뿐만 아니라 역무원도 미아 수색에 협조해 주었다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
       "sourceGrammarIds": [
-        "n2-109"
+        "n2-109",
+        "n2-046",
+        "n2-047",
+        "n2-048"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-109-13",
+      "id": "so-created-n2-109-18",
       "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、世界中で環境問題が深刻になっている。",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
+      "sentence": "食品に限らず、衣料品の包装にも再生素材が採用されている。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 採用されている。",
+      "korean": "식품뿐만 아니라 의류 포장에도 재생 소재가 채택되고 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-109-13-p4",
-          "text": "に限らず",
+          "id": "so-created-n2-109-18-p1",
+          "text": "食品に限らず、",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-109-18-p2",
+          "text": "衣料品の",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-109-13-p1",
-          "text": "世界中で",
+          "id": "so-created-n2-109-18-p3",
+          "text": "包装にも",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-109-13-p2",
-          "text": "環境問題が",
+          "id": "so-created-n2-109-18-p4",
+          "text": "再生素材が",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-109-13-p3",
-          "text": "本",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-109-13-p3",
-        "so-extra20-n2-109-13-p4",
-        "so-extra20-n2-109-13-p1",
-        "so-extra20-n2-109-13-p2"
+        "so-created-n2-109-18-p1",
+        "so-created-n2-109-18-p2",
+        "so-created-n2-109-18-p3",
+        "so-created-n2-109-18-p4"
       ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '식품뿐만 아니라 의류 포장에도 재생 소재가 채택되고 있다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
       "sourceGrammarIds": [
-        "n2-109"
+        "n2-109",
+        "n2-046",
+        "n2-047",
+        "n2-048"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-109-14",
+      "id": "so-created-n2-109-19",
       "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlanks": "日本 ____ ____ ____ ____",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
+      "sentence": "災害時に限らず、普段から隣人との連絡手段を確保しておくべきだ。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 確保しておくべきだ。",
+      "korean": "재해 때뿐만 아니라 평소에도 이웃과 연락할 수단을 확보해 두어야 한다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-109-14-p3",
-          "text": "深刻になっている",
+          "id": "so-created-n2-109-19-p4",
+          "text": "連絡手段を",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-109-14-p4",
-          "text": "に限らず",
+          "id": "so-created-n2-109-19-p1",
+          "text": "災害時に限らず、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-109-14-p1",
-          "text": "世界中で",
+          "id": "so-created-n2-109-19-p2",
+          "text": "普段から",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-109-14-p2",
-          "text": "環境問題が",
+          "id": "so-created-n2-109-19-p3",
+          "text": "隣人との",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-109-14-p4",
-        "so-extra20-n2-109-14-p1",
-        "so-extra20-n2-109-14-p2",
-        "so-extra20-n2-109-14-p3"
+        "so-created-n2-109-19-p1",
+        "so-created-n2-109-19-p2",
+        "so-created-n2-109-19-p3",
+        "so-created-n2-109-19-p4"
       ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '재해 때뿐만 아니라 평소에도 이웃과 연락할 수단을 확보해 두어야 한다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
       "sourceGrammarIds": [
-        "n2-109"
+        "n2-109",
+        "n2-046",
+        "n2-047",
+        "n2-048"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-109-15",
+      "id": "so-created-n2-109-20",
       "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlanks": "日本 ____ ____ ____ ____",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
+      "sentence": "本店に限らず、すべての支店で不要になった衣服を回収している。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "본점뿐만 아니라 모든 지점에서 불필요해진 옷을 수거하고 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-109-15-p2",
-          "text": "世界中で",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-109-15-p3",
-          "text": "環境問題が",
+          "id": "so-created-n2-109-20-p3",
+          "text": "不要になった衣服を",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-109-15-p4",
-          "text": "深刻になっている",
+          "id": "so-created-n2-109-20-p4",
+          "text": "回収している。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-109-15-p1",
-          "text": "に限らず",
+          "id": "so-created-n2-109-20-p1",
+          "text": "本店に限らず、",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-109-20-p2",
+          "text": "すべての支店で",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-109-15-p1",
-        "so-extra20-n2-109-15-p2",
-        "so-extra20-n2-109-15-p3",
-        "so-extra20-n2-109-15-p4"
+        "so-created-n2-109-20-p1",
+        "so-created-n2-109-20-p2",
+        "so-created-n2-109-20-p3",
+        "so-created-n2-109-20-p4"
       ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '본점뿐만 아니라 모든 지점에서 불필요해진 옷을 수거하고 있다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
       "sourceGrammarIds": [
-        "n2-109"
+        "n2-109",
+        "n2-046",
+        "n2-047",
+        "n2-048"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-109-16",
+      "id": "so-created-n2-109-21",
       "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlanks": "日本 ____ ____ ____ ____",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
+      "sentence": "受賞作品に限らず、最終選考に残った写真も市役所に展示される。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 市役所に展示される。",
+      "korean": "수상 작품뿐만 아니라 최종 심사에 오른 사진도 시청에 전시된다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-109-16-p1",
-          "text": "に限らず",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-109-16-p2",
-          "text": "世界中で",
+          "id": "so-created-n2-109-21-p2",
+          "text": "に限らず、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-109-16-p3",
-          "text": "環境問題が",
+          "id": "so-created-n2-109-21-p3",
+          "text": "最終選考に",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-109-16-p4",
-          "text": "深刻になっている",
+          "id": "so-created-n2-109-21-p4",
+          "text": "残った写真も",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-109-21-p1",
+          "text": "受賞作品",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-109-16-p1",
-        "so-extra20-n2-109-16-p2",
-        "so-extra20-n2-109-16-p3",
-        "so-extra20-n2-109-16-p4"
+        "so-created-n2-109-21-p1",
+        "so-created-n2-109-21-p2",
+        "so-created-n2-109-21-p3",
+        "so-created-n2-109-21-p4"
       ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '수상 작품뿐만 아니라 최종 심사에 오른 사진도 시청에 전시된다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
       "sourceGrammarIds": [
-        "n2-109"
+        "n2-109",
+        "n2-046",
+        "n2-047",
+        "n2-048"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-109-17",
+      "id": "so-created-n2-109-22",
       "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlanks": "日本 ____ ____ ____ ____",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
+      "sentence": "病院に限らず、介護施設でも夜間に働く看護師が不足している。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 師が不足している。",
+      "korean": "병원뿐만 아니라 요양 시설에서도 야간에 근무할 간호사가 부족하다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-109-17-p4",
-          "text": "環境問題が",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-109-17-p1",
-          "text": "深刻になっている",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-109-17-p2",
-          "text": "に限らず",
+          "id": "so-created-n2-109-22-p1",
+          "text": "病院に限らず、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-109-17-p3",
-          "text": "世界中で",
+          "id": "so-created-n2-109-22-p2",
+          "text": "介護施設でも",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-109-22-p3",
+          "text": "夜間に",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-109-22-p4",
+          "text": "働く看護",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-109-17-p2",
-        "so-extra20-n2-109-17-p3",
-        "so-extra20-n2-109-17-p4",
-        "so-extra20-n2-109-17-p1"
+        "so-created-n2-109-22-p1",
+        "so-created-n2-109-22-p2",
+        "so-created-n2-109-22-p3",
+        "so-created-n2-109-22-p4"
       ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '병원뿐만 아니라 요양 시설에서도 야간에 근무할 간호사가 부족하다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
       "sourceGrammarIds": [
-        "n2-109"
+        "n2-109",
+        "n2-046",
+        "n2-047",
+        "n2-048"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-109-18",
+      "id": "so-created-n2-109-23",
       "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、世界中で環境問題が深刻になっている。",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
+      "sentence": "大型犬に限らず、小型犬にも外出時の暑さ対策が求められる。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 求められる。",
+      "korean": "대형견뿐만 아니라 소형견에게도 외출 시 더위 대책이 필요하다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-109-18-p3",
-          "text": "本",
+          "id": "so-created-n2-109-23-p4",
+          "text": "時の暑さ対策が",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-109-23-p1",
+          "text": "大型犬",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-109-18-p4",
-          "text": "に限らず",
+          "id": "so-created-n2-109-23-p2",
+          "text": "に限らず、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-109-18-p1",
-          "text": "世界中で",
+          "id": "so-created-n2-109-23-p3",
+          "text": "小型犬にも外出",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-109-18-p2",
-          "text": "環境問題が",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-109-18-p3",
-        "so-extra20-n2-109-18-p4",
-        "so-extra20-n2-109-18-p1",
-        "so-extra20-n2-109-18-p2"
+        "so-created-n2-109-23-p1",
+        "so-created-n2-109-23-p2",
+        "so-created-n2-109-23-p3",
+        "so-created-n2-109-23-p4"
       ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '대형견뿐만 아니라 소형견에게도 외출 시 더위 대책이 필요하다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
       "sourceGrammarIds": [
-        "n2-109"
+        "n2-109",
+        "n2-046",
+        "n2-047",
+        "n2-048"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-109-19",
+      "id": "so-created-n2-109-24",
       "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlanks": "日本 ____ ____ ____ ____",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
+      "sentence": "輸出企業に限らず、海外から原料を仕入れる農家も為替変動の影響を受ける。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 為替変動の影響を受ける。",
+      "korean": "수출 기업뿐만 아니라 해외에서 원료를 들여오는 농가도 환율 변동의 영향을 받는다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-109-19-p2",
-          "text": "環境問題が",
+          "id": "so-created-n2-109-24-p3",
+          "text": "海外から原料を",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-109-19-p3",
-          "text": "深刻になっている",
+          "id": "so-created-n2-109-24-p4",
+          "text": "仕入れる農家も",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-109-19-p4",
-          "text": "に限らず",
+          "id": "so-created-n2-109-24-p1",
+          "text": "輸出企業",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-109-19-p1",
-          "text": "世界中で",
+          "id": "so-created-n2-109-24-p2",
+          "text": "に限らず、",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-109-19-p4",
-        "so-extra20-n2-109-19-p1",
-        "so-extra20-n2-109-19-p2",
-        "so-extra20-n2-109-19-p3"
+        "so-created-n2-109-24-p1",
+        "so-created-n2-109-24-p2",
+        "so-created-n2-109-24-p3",
+        "so-created-n2-109-24-p4"
       ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '수출 기업뿐만 아니라 해외에서 원료를 들여오는 농가도 환율 변동의 영향을 받는다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
       "sourceGrammarIds": [
-        "n2-109"
+        "n2-109",
+        "n2-046",
+        "n2-047",
+        "n2-048"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-109-20",
+      "id": "so-created-n2-109-25",
       "level": "N2",
-      "sentence": "日本に限らず、世界中で環境問題が深刻になっている。",
-      "sentenceWithBlanks": "日本 ____ ____ ____ ____",
-      "korean": "일본뿐만 아니라 전 세계에서 환경 문제가 심각해지고 있다.",
+      "sentence": "目撃者に限らず、周辺を走っていた車の映像も事故原因の特定に役立った。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 事故原因の特定に役立った。",
+      "korean": "목격자뿐만 아니라 주변을 달리던 차량의 영상도 사고 원인을 밝히는 데 도움이 되었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-109-20-p1",
-          "text": "に限らず",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-109-20-p2",
-          "text": "世界中で",
+          "id": "so-created-n2-109-25-p2",
+          "text": "に限らず、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-109-20-p3",
-          "text": "環境問題が",
+          "id": "so-created-n2-109-25-p3",
+          "text": "周辺を走っていた",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-109-20-p4",
-          "text": "深刻になっている",
+          "id": "so-created-n2-109-25-p4",
+          "text": "車の映像も",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-109-25-p1",
+          "text": "目撃者",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-109-20-p1",
-        "so-extra20-n2-109-20-p2",
-        "so-extra20-n2-109-20-p3",
-        "so-extra20-n2-109-20-p4"
+        "so-created-n2-109-25-p1",
+        "so-created-n2-109-25-p2",
+        "so-created-n2-109-25-p3",
+        "so-created-n2-109-25-p4"
       ],
-      "explanation": "「に限らず」는 ~에 한정되지 않고, ~뿐만 아니라라는 뜻이다. 범위를 넓힘.",
+      "explanation": "「に限らず」는 '~에 한정되지 않고, ~뿐만 아니라'라는 뜻을 나타낸다. 이 문장에서는 '목격자뿐만 아니라 주변을 달리던 차량의 영상도 사고 원인을 밝히는 데 도움이 되었다.'라는 상황에 쓰였으며, 범위를 넓힘. 주의할 점은 「日本に限らず」= 일본뿐 아니라. のみならず보다 격식도가 약간 낮음.",
       "sourceGrammarIds": [
-        "n2-109"
+        "n2-109",
+        "n2-046",
+        "n2-047",
+        "n2-048"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     }
   ]

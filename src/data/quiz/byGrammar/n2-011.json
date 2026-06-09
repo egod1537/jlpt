@@ -267,15 +267,23 @@
       ]
     },
     {
-      "id": "fb-extra-n2-011-1",
+      "id": "fb-created-n2-011-01",
       "level": "N2",
-      "sentence": "この子は教えたことはすぐ覚えるので、教えがいがある。",
-      "sentenceWithBlank": "この子は教えたことはすぐ覚えるので、教え（　　　）。",
-      "korean": "이 아이는 가르친 것을 바로 외우므로 가르칠 보람이 있다.",
-      "answerChoiceId": "fb-extra-n2-011-1-d",
+      "sentence": "連日の訓練で新人隊員の動きが見違えるほど良くなり、鍛えがいがあると感じた。",
+      "sentenceWithBlank": "連日の訓練で新人隊員の動きが見違えるほど良くなり、鍛え（　　　）と感じた。",
+      "korean": "연일 훈련한 덕분에 신입 대원의 움직임이 몰라보게 좋아져서 단련시킨 보람이 있다고 느꼈다.",
+      "answerChoiceId": "fb-created-n2-011-01-d",
       "choices": [
         {
-          "id": "fb-extra-n2-011-1-a",
+          "id": "fb-created-n2-011-01-d",
+          "text": "がいがある",
+          "grammarId": "n2-011",
+          "baseExpression": "甲斐があって",
+          "conjugatedExpression": "がいがある",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-011-01-a",
           "text": "つつ",
           "grammarId": "n2-065",
           "baseExpression": "つつ",
@@ -283,7 +291,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-011-1-b",
+          "id": "fb-created-n2-011-01-b",
           "text": "つつある",
           "grammarId": "n2-066",
           "baseExpression": "つつある",
@@ -291,23 +299,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-011-1-c",
+          "id": "fb-created-n2-011-01-c",
           "text": "っぱなし",
           "grammarId": "n2-067",
           "baseExpression": "っぱなし",
           "conjugatedExpression": "っぱなし",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-011-1-d",
-          "text": "がいがある",
-          "grammarId": "n2-011",
-          "baseExpression": "甲斐があって",
-          "conjugatedExpression": "がいがある",
-          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '연일 훈련한 덕분에 신입 대원의 움직임이 몰라보게 좋아져서 단련시킨 보람이 있다고 느꼈다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
       "sourceGrammarIds": [
         "n2-011",
         "n2-065",
@@ -315,91 +315,20 @@
         "n2-067"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra-n2-011-2",
+      "id": "fb-created-n2-011-02",
       "level": "N2",
-      "sentence": "時間とお金を使って遠くまで来たかいもなく、名物の桜はほとんど散ってしまっていた。",
-      "sentenceWithBlank": "時間とお金を使って遠くまで来た（　　　）、名物の桜はほとんど散ってしまっていた。",
-      "korean": "시간과 돈을 들여 멀리 왔지만 보람도 없이 벚꽃은 거의 져 있었다.",
-      "answerChoiceId": "fb-extra-n2-011-2-a",
+      "sentence": "保護した子犬が元気に走り回る姿を見ると、世話しがいがある。",
+      "sentenceWithBlank": "保護した子犬が元気に走り回る姿を見ると、世話し（　　　）。",
+      "korean": "구조한 강아지가 건강하게 뛰어다니는 모습을 보면 돌본 보람이 있다.",
+      "answerChoiceId": "fb-created-n2-011-02-d",
       "choices": [
         {
-          "id": "fb-extra-n2-011-2-b",
-          "text": "を契機に",
-          "grammarId": "n2-172",
-          "baseExpression": "を契機に",
-          "conjugatedExpression": "を契機に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-011-2-c",
-          "text": "を問わず",
-          "grammarId": "n2-173",
-          "baseExpression": "を問わず",
-          "conjugatedExpression": "を問わず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-011-2-d",
-          "text": "を抜きにして",
-          "grammarId": "n2-174",
-          "baseExpression": "を抜きにして",
-          "conjugatedExpression": "を抜きにして",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-011-2-a",
-          "text": "かいもなく",
-          "grammarId": "n2-011",
-          "baseExpression": "甲斐があって",
-          "conjugatedExpression": "かいもなく",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
-      "sourceGrammarIds": [
-        "n2-011",
-        "n2-172",
-        "n2-173",
-        "n2-174"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-011-3",
-      "level": "N2",
-      "sentence": "この子は教えたことはすぐ覚えるので、教えがいがある。",
-      "sentenceWithBlank": "この子は教えたことはすぐ覚えるので、教え（　　　）。",
-      "korean": "이 아이는 가르친 것을 바로 외우므로 가르칠 보람이 있다.",
-      "answerChoiceId": "fb-extra-n2-011-3-b",
-      "choices": [
-        {
-          "id": "fb-extra-n2-011-3-c",
-          "text": "っこない",
-          "grammarId": "n2-063",
-          "baseExpression": "っこない",
-          "conjugatedExpression": "っこない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-011-3-d",
-          "text": "つつ",
-          "grammarId": "n2-064",
-          "baseExpression": "つつ",
-          "conjugatedExpression": "つつ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-011-3-a",
+          "id": "fb-created-n2-011-02-a",
           "text": "つつ",
           "grammarId": "n2-065",
           "baseExpression": "つつ",
@@ -407,153 +336,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-011-3-b",
-          "text": "がいがある",
-          "grammarId": "n2-011",
-          "baseExpression": "甲斐があって",
-          "conjugatedExpression": "がいがある",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
-      "sourceGrammarIds": [
-        "n2-011",
-        "n2-063",
-        "n2-064",
-        "n2-065"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-011-4",
-      "level": "N2",
-      "sentence": "時間とお金を使って遠くまで来たかいもなく、名物の桜はほとんど散ってしまっていた。",
-      "sentenceWithBlank": "時間とお金を使って遠くまで来た（　　　）、名物の桜はほとんど散ってしまっていた。",
-      "korean": "시간과 돈을 들여 멀리 왔지만 보람도 없이 벚꽃은 거의 져 있었다.",
-      "answerChoiceId": "fb-extra-n2-011-4-c",
-      "choices": [
-        {
-          "id": "fb-extra-n2-011-4-d",
-          "text": "どころか",
-          "grammarId": "n2-086",
-          "baseExpression": "どころか",
-          "conjugatedExpression": "どころか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-011-4-a",
-          "text": "ところだった",
-          "grammarId": "n2-087",
-          "baseExpression": "ところだった",
-          "conjugatedExpression": "ところだった",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-011-4-b",
-          "text": "ところではない",
-          "grammarId": "n2-088",
-          "baseExpression": "ところではない",
-          "conjugatedExpression": "ところではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-011-4-c",
-          "text": "かいもなく",
-          "grammarId": "n2-011",
-          "baseExpression": "甲斐があって",
-          "conjugatedExpression": "かいもなく",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
-      "sourceGrammarIds": [
-        "n2-011",
-        "n2-086",
-        "n2-087",
-        "n2-088"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-011-5",
-      "level": "N2",
-      "sentence": "この子は教えたことはすぐ覚えるので、教えがいがある。",
-      "sentenceWithBlank": "この子は教えたことはすぐ覚えるので、教え（　　　）。",
-      "korean": "이 아이는 가르친 것을 바로 외우므로 가르칠 보람이 있다.",
-      "answerChoiceId": "fb-extra-n2-011-5-d",
-      "choices": [
-        {
-          "id": "fb-extra-n2-011-5-a",
-          "text": "ところをみると",
-          "grammarId": "n2-089",
-          "baseExpression": "ところをみると",
-          "conjugatedExpression": "ところをみると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-011-5-b",
-          "text": "としてない",
-          "grammarId": "n2-090",
-          "baseExpression": "としてない",
-          "conjugatedExpression": "としてない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-011-5-c",
-          "text": "とともに",
-          "grammarId": "n2-091",
-          "baseExpression": "とともに",
-          "conjugatedExpression": "とともに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-011-5-d",
-          "text": "がいがある",
-          "grammarId": "n2-011",
-          "baseExpression": "甲斐があって",
-          "conjugatedExpression": "がいがある",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
-      "sourceGrammarIds": [
-        "n2-011",
-        "n2-089",
-        "n2-090",
-        "n2-091"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-011-01",
-      "level": "N2",
-      "sentence": "この子は教えたことはすぐ覚えるので、教えがいがある。",
-      "sentenceWithBlank": "この子は教えたことはすぐ覚えるので、教え（　　　）。",
-      "korean": "이 아이는 가르친 것을 바로 외우므로 가르칠 보람이 있다.",
-      "answerChoiceId": "fb-extra20-n2-011-01-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-011-01-a",
-          "text": "つつ",
-          "grammarId": "n2-065",
-          "baseExpression": "つつ",
-          "conjugatedExpression": "つつ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-011-01-b",
+          "id": "fb-created-n2-011-02-b",
           "text": "つつある",
           "grammarId": "n2-066",
           "baseExpression": "つつある",
@@ -561,7 +344,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-011-01-c",
+          "id": "fb-created-n2-011-02-c",
           "text": "っぱなし",
           "grammarId": "n2-067",
           "baseExpression": "っぱなし",
@@ -569,7 +352,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-011-01-d",
+          "id": "fb-created-n2-011-02-d",
           "text": "がいがある",
           "grammarId": "n2-011",
           "baseExpression": "甲斐があって",
@@ -577,7 +360,7 @@
           "isSimilarDistractor": false
         }
       ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '구조한 강아지가 건강하게 뛰어다니는 모습을 보면 돌본 보람이 있다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
       "sourceGrammarIds": [
         "n2-011",
         "n2-065",
@@ -585,253 +368,20 @@
         "n2-067"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-011-02",
+      "id": "fb-created-n2-011-03",
       "level": "N2",
-      "sentence": "時間とお金を使って遠くまで来たかいもなく、名物の桜はほとんど散ってしまっていた。",
-      "sentenceWithBlank": "時間とお金を使って遠くまで来た（　　　）、名物の桜はほとんど散ってしまっていた。",
-      "korean": "시간과 돈을 들여 멀리 왔지만 보람도 없이 벚꽃은 거의 져 있었다.",
-      "answerChoiceId": "fb-extra20-n2-011-02-a",
+      "sentence": "難しい注文ほど職人としての腕を試せるから、引き受けがいがある。",
+      "sentenceWithBlank": "難しい注文ほど職人としての腕を試せるから、引き受け（　　　）。",
+      "korean": "어려운 주문일수록 장인으로서의 실력을 시험할 수 있으니 맡을 보람이 있다.",
+      "answerChoiceId": "fb-created-n2-011-03-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-011-02-d",
-          "text": "を抜きにして",
-          "grammarId": "n2-174",
-          "baseExpression": "を抜きにして",
-          "conjugatedExpression": "を抜きにして",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-011-02-a",
-          "text": "かいもなく",
-          "grammarId": "n2-011",
-          "baseExpression": "甲斐があって",
-          "conjugatedExpression": "かいもなく",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-011-02-b",
-          "text": "を契機に",
-          "grammarId": "n2-172",
-          "baseExpression": "を契機に",
-          "conjugatedExpression": "を契機に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-011-02-c",
-          "text": "を問わず",
-          "grammarId": "n2-173",
-          "baseExpression": "を問わず",
-          "conjugatedExpression": "を問わず",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
-      "sourceGrammarIds": [
-        "n2-011",
-        "n2-172",
-        "n2-173",
-        "n2-174"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-011-03",
-      "level": "N2",
-      "sentence": "この子は教えたことはすぐ覚えるので、教えがいがある。",
-      "sentenceWithBlank": "この子は教えたことはすぐ覚えるので、教え（　　　）。",
-      "korean": "이 아이는 가르친 것을 바로 외우므로 가르칠 보람이 있다.",
-      "answerChoiceId": "fb-extra20-n2-011-03-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-011-03-c",
-          "text": "っこない",
-          "grammarId": "n2-063",
-          "baseExpression": "っこない",
-          "conjugatedExpression": "っこない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-011-03-d",
-          "text": "つつ",
-          "grammarId": "n2-064",
-          "baseExpression": "つつ",
-          "conjugatedExpression": "つつ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-011-03-a",
-          "text": "つつ",
-          "grammarId": "n2-065",
-          "baseExpression": "つつ",
-          "conjugatedExpression": "つつ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-011-03-b",
-          "text": "がいがある",
-          "grammarId": "n2-011",
-          "baseExpression": "甲斐があって",
-          "conjugatedExpression": "がいがある",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
-      "sourceGrammarIds": [
-        "n2-011",
-        "n2-063",
-        "n2-064",
-        "n2-065"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-011-04",
-      "level": "N2",
-      "sentence": "時間とお金を使って遠くまで来たかいもなく、名物の桜はほとんど散ってしまっていた。",
-      "sentenceWithBlank": "時間とお金を使って遠くまで来た（　　　）、名物の桜はほとんど散ってしまっていた。",
-      "korean": "시간과 돈을 들여 멀리 왔지만 보람도 없이 벚꽃은 거의 져 있었다.",
-      "answerChoiceId": "fb-extra20-n2-011-04-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-011-04-b",
-          "text": "ところではない",
-          "grammarId": "n2-088",
-          "baseExpression": "ところではない",
-          "conjugatedExpression": "ところではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-011-04-c",
-          "text": "かいもなく",
-          "grammarId": "n2-011",
-          "baseExpression": "甲斐があって",
-          "conjugatedExpression": "かいもなく",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-011-04-d",
-          "text": "どころか",
-          "grammarId": "n2-086",
-          "baseExpression": "どころか",
-          "conjugatedExpression": "どころか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-011-04-a",
-          "text": "ところだった",
-          "grammarId": "n2-087",
-          "baseExpression": "ところだった",
-          "conjugatedExpression": "ところだった",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
-      "sourceGrammarIds": [
-        "n2-011",
-        "n2-086",
-        "n2-087",
-        "n2-088"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-011-05",
-      "level": "N2",
-      "sentence": "この子は教えたことはすぐ覚えるので、教えがいがある。",
-      "sentenceWithBlank": "この子は教えたことはすぐ覚えるので、教え（　　　）。",
-      "korean": "이 아이는 가르친 것을 바로 외우므로 가르칠 보람이 있다.",
-      "answerChoiceId": "fb-extra20-n2-011-05-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-011-05-a",
-          "text": "ところをみると",
-          "grammarId": "n2-089",
-          "baseExpression": "ところをみると",
-          "conjugatedExpression": "ところをみると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-011-05-b",
-          "text": "としてない",
-          "grammarId": "n2-090",
-          "baseExpression": "としてない",
-          "conjugatedExpression": "としてない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-011-05-c",
-          "text": "とともに",
-          "grammarId": "n2-091",
-          "baseExpression": "とともに",
-          "conjugatedExpression": "とともに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-011-05-d",
-          "text": "がいがある",
-          "grammarId": "n2-011",
-          "baseExpression": "甲斐があって",
-          "conjugatedExpression": "がいがある",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
-      "sourceGrammarIds": [
-        "n2-011",
-        "n2-089",
-        "n2-090",
-        "n2-091"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-011-06",
-      "level": "N2",
-      "sentence": "この子は教えたことはすぐ覚えるので、教えがいがある。",
-      "sentenceWithBlank": "この子は教えたことはすぐ覚えるので、教え（　　　）。",
-      "korean": "이 아이는 가르친 것을 바로 외우므로 가르칠 보람이 있다.",
-      "answerChoiceId": "fb-extra20-n2-011-06-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-011-06-d",
-          "text": "がいがある",
-          "grammarId": "n2-011",
-          "baseExpression": "甲斐があって",
-          "conjugatedExpression": "がいがある",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-011-06-a",
-          "text": "つつ",
-          "grammarId": "n2-065",
-          "baseExpression": "つつ",
-          "conjugatedExpression": "つつ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-011-06-b",
+          "id": "fb-created-n2-011-03-b",
           "text": "つつある",
           "grammarId": "n2-066",
           "baseExpression": "つつある",
@@ -839,15 +389,31 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-011-06-c",
+          "id": "fb-created-n2-011-03-c",
           "text": "っぱなし",
           "grammarId": "n2-067",
           "baseExpression": "っぱなし",
           "conjugatedExpression": "っぱなし",
           "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-011-03-d",
+          "text": "がいがある",
+          "grammarId": "n2-011",
+          "baseExpression": "甲斐があって",
+          "conjugatedExpression": "がいがある",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-011-03-a",
+          "text": "つつ",
+          "grammarId": "n2-065",
+          "baseExpression": "つつ",
+          "conjugatedExpression": "つつ",
+          "isSimilarDistractor": true
         }
       ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '어려운 주문일수록 장인으로서의 실력을 시험할 수 있으니 맡을 보람이 있다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
       "sourceGrammarIds": [
         "n2-011",
         "n2-065",
@@ -855,237 +421,20 @@
         "n2-067"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-011-07",
+      "id": "fb-created-n2-011-04",
       "level": "N2",
-      "sentence": "時間とお金を使って遠くまで来たかいもなく、名物の桜はほとんど散ってしまっていた。",
-      "sentenceWithBlank": "時間とお金を使って遠くまで来た（　　　）、名物の桜はほとんど散ってしまっていた。",
-      "korean": "시간과 돈을 들여 멀리 왔지만 보람도 없이 벚꽃은 거의 져 있었다.",
-      "answerChoiceId": "fb-extra20-n2-011-07-a",
+      "sentence": "祖父が毎朝うれしそうに食べてくれるので、早起きして朝食を作りがいがある。",
+      "sentenceWithBlank": "祖父が毎朝うれしそうに食べてくれるので、早起きして朝食を作り（　　　）。",
+      "korean": "할아버지가 매일 아침 기쁘게 드셔 주셔서 일찍 일어나 아침을 만들 보람이 있다.",
+      "answerChoiceId": "fb-created-n2-011-04-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-011-07-c",
-          "text": "を問わず",
-          "grammarId": "n2-173",
-          "baseExpression": "を問わず",
-          "conjugatedExpression": "を問わず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-011-07-d",
-          "text": "を抜きにして",
-          "grammarId": "n2-174",
-          "baseExpression": "を抜きにして",
-          "conjugatedExpression": "を抜きにして",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-011-07-a",
-          "text": "かいもなく",
-          "grammarId": "n2-011",
-          "baseExpression": "甲斐があって",
-          "conjugatedExpression": "かいもなく",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-011-07-b",
-          "text": "を契機に",
-          "grammarId": "n2-172",
-          "baseExpression": "を契機に",
-          "conjugatedExpression": "を契機に",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
-      "sourceGrammarIds": [
-        "n2-011",
-        "n2-172",
-        "n2-173",
-        "n2-174"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-011-08",
-      "level": "N2",
-      "sentence": "この子は教えたことはすぐ覚えるので、教えがいがある。",
-      "sentenceWithBlank": "この子は教えたことはすぐ覚えるので、教え（　　　）。",
-      "korean": "이 아이는 가르친 것을 바로 외우므로 가르칠 보람이 있다.",
-      "answerChoiceId": "fb-extra20-n2-011-08-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-011-08-b",
-          "text": "がいがある",
-          "grammarId": "n2-011",
-          "baseExpression": "甲斐があって",
-          "conjugatedExpression": "がいがある",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-011-08-c",
-          "text": "っこない",
-          "grammarId": "n2-063",
-          "baseExpression": "っこない",
-          "conjugatedExpression": "っこない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-011-08-d",
-          "text": "つつ",
-          "grammarId": "n2-064",
-          "baseExpression": "つつ",
-          "conjugatedExpression": "つつ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-011-08-a",
-          "text": "つつ",
-          "grammarId": "n2-065",
-          "baseExpression": "つつ",
-          "conjugatedExpression": "つつ",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
-      "sourceGrammarIds": [
-        "n2-011",
-        "n2-063",
-        "n2-064",
-        "n2-065"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-011-09",
-      "level": "N2",
-      "sentence": "時間とお金を使って遠くまで来たかいもなく、名物の桜はほとんど散ってしまっていた。",
-      "sentenceWithBlank": "時間とお金を使って遠くまで来た（　　　）、名物の桜はほとんど散ってしまっていた。",
-      "korean": "시간과 돈을 들여 멀리 왔지만 보람도 없이 벚꽃은 거의 져 있었다.",
-      "answerChoiceId": "fb-extra20-n2-011-09-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-011-09-a",
-          "text": "ところだった",
-          "grammarId": "n2-087",
-          "baseExpression": "ところだった",
-          "conjugatedExpression": "ところだった",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-011-09-b",
-          "text": "ところではない",
-          "grammarId": "n2-088",
-          "baseExpression": "ところではない",
-          "conjugatedExpression": "ところではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-011-09-c",
-          "text": "かいもなく",
-          "grammarId": "n2-011",
-          "baseExpression": "甲斐があって",
-          "conjugatedExpression": "かいもなく",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-011-09-d",
-          "text": "どころか",
-          "grammarId": "n2-086",
-          "baseExpression": "どころか",
-          "conjugatedExpression": "どころか",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
-      "sourceGrammarIds": [
-        "n2-011",
-        "n2-086",
-        "n2-087",
-        "n2-088"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-011-10",
-      "level": "N2",
-      "sentence": "この子は教えたことはすぐ覚えるので、教えがいがある。",
-      "sentenceWithBlank": "この子は教えたことはすぐ覚えるので、教え（　　　）。",
-      "korean": "이 아이는 가르친 것을 바로 외우므로 가르칠 보람이 있다.",
-      "answerChoiceId": "fb-extra20-n2-011-10-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-011-10-d",
-          "text": "がいがある",
-          "grammarId": "n2-011",
-          "baseExpression": "甲斐があって",
-          "conjugatedExpression": "がいがある",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-011-10-a",
-          "text": "ところをみると",
-          "grammarId": "n2-089",
-          "baseExpression": "ところをみると",
-          "conjugatedExpression": "ところをみると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-011-10-b",
-          "text": "としてない",
-          "grammarId": "n2-090",
-          "baseExpression": "としてない",
-          "conjugatedExpression": "としてない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-011-10-c",
-          "text": "とともに",
-          "grammarId": "n2-091",
-          "baseExpression": "とともに",
-          "conjugatedExpression": "とともに",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
-      "sourceGrammarIds": [
-        "n2-011",
-        "n2-089",
-        "n2-090",
-        "n2-091"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-011-11",
-      "level": "N2",
-      "sentence": "この子は教えたことはすぐ覚えるので、教えがいがある。",
-      "sentenceWithBlank": "この子は教えたことはすぐ覚えるので、教え（　　　）。",
-      "korean": "이 아이는 가르친 것을 바로 외우므로 가르칠 보람이 있다.",
-      "answerChoiceId": "fb-extra20-n2-011-11-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-011-11-c",
+          "id": "fb-created-n2-011-04-c",
           "text": "っぱなし",
           "grammarId": "n2-067",
           "baseExpression": "っぱなし",
@@ -1093,7 +442,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-011-11-d",
+          "id": "fb-created-n2-011-04-d",
           "text": "がいがある",
           "grammarId": "n2-011",
           "baseExpression": "甲斐があって",
@@ -1101,7 +450,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-011-11-a",
+          "id": "fb-created-n2-011-04-a",
           "text": "つつ",
           "grammarId": "n2-065",
           "baseExpression": "つつ",
@@ -1109,7 +458,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-011-11-b",
+          "id": "fb-created-n2-011-04-b",
           "text": "つつある",
           "grammarId": "n2-066",
           "baseExpression": "つつある",
@@ -1117,7 +466,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '할아버지가 매일 아침 기쁘게 드셔 주셔서 일찍 일어나 아침을 만들 보람이 있다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
       "sourceGrammarIds": [
         "n2-011",
         "n2-065",
@@ -1125,75 +474,28 @@
         "n2-067"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-011-12",
+      "id": "fb-created-n2-011-05",
       "level": "N2",
-      "sentence": "時間とお金を使って遠くまで来たかいもなく、名物の桜はほとんど散ってしまっていた。",
-      "sentenceWithBlank": "時間とお金を使って遠くまで来た（　　　）、名物の桜はほとんど散ってしまっていた。",
-      "korean": "시간과 돈을 들여 멀리 왔지만 보람도 없이 벚꽃은 거의 져 있었다.",
-      "answerChoiceId": "fb-extra20-n2-011-12-a",
+      "sentence": "観客が最後まで身を乗り出して見てくれる舞台は、演じがいがある。",
+      "sentenceWithBlank": "観客が最後まで身を乗り出して見てくれる舞台は、演じ（　　　）。",
+      "korean": "관객이 끝까지 몸을 앞으로 내밀며 봐 주는 무대는 연기할 보람이 있다.",
+      "answerChoiceId": "fb-created-n2-011-05-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-011-12-b",
-          "text": "を契機に",
-          "grammarId": "n2-172",
-          "baseExpression": "を契機に",
-          "conjugatedExpression": "を契機に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-011-12-c",
-          "text": "を問わず",
-          "grammarId": "n2-173",
-          "baseExpression": "を問わず",
-          "conjugatedExpression": "を問わず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-011-12-d",
-          "text": "を抜きにして",
-          "grammarId": "n2-174",
-          "baseExpression": "を抜きにして",
-          "conjugatedExpression": "を抜きにして",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-011-12-a",
-          "text": "かいもなく",
+          "id": "fb-created-n2-011-05-d",
+          "text": "がいがある",
           "grammarId": "n2-011",
           "baseExpression": "甲斐があって",
-          "conjugatedExpression": "かいもなく",
+          "conjugatedExpression": "がいがある",
           "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
-      "sourceGrammarIds": [
-        "n2-011",
-        "n2-172",
-        "n2-173",
-        "n2-174"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-011-13",
-      "level": "N2",
-      "sentence": "この子は教えたことはすぐ覚えるので、教えがいがある。",
-      "sentenceWithBlank": "この子は教えたことはすぐ覚えるので、教え（　　　）。",
-      "korean": "이 아이는 가르친 것을 바로 외우므로 가르칠 보람이 있다.",
-      "answerChoiceId": "fb-extra20-n2-011-13-b",
-      "choices": [
+        },
         {
-          "id": "fb-extra20-n2-011-13-a",
+          "id": "fb-created-n2-011-05-a",
           "text": "つつ",
           "grammarId": "n2-065",
           "baseExpression": "つつ",
@@ -1201,161 +503,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-011-13-b",
-          "text": "がいがある",
-          "grammarId": "n2-011",
-          "baseExpression": "甲斐があって",
-          "conjugatedExpression": "がいがある",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-011-13-c",
-          "text": "っこない",
-          "grammarId": "n2-063",
-          "baseExpression": "っこない",
-          "conjugatedExpression": "っこない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-011-13-d",
-          "text": "つつ",
-          "grammarId": "n2-064",
-          "baseExpression": "つつ",
-          "conjugatedExpression": "つつ",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
-      "sourceGrammarIds": [
-        "n2-011",
-        "n2-063",
-        "n2-064",
-        "n2-065"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-011-14",
-      "level": "N2",
-      "sentence": "時間とお金を使って遠くまで来たかいもなく、名物の桜はほとんど散ってしまっていた。",
-      "sentenceWithBlank": "時間とお金を使って遠くまで来た（　　　）、名物の桜はほとんど散ってしまっていた。",
-      "korean": "시간과 돈을 들여 멀리 왔지만 보람도 없이 벚꽃은 거의 져 있었다.",
-      "answerChoiceId": "fb-extra20-n2-011-14-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-011-14-d",
-          "text": "どころか",
-          "grammarId": "n2-086",
-          "baseExpression": "どころか",
-          "conjugatedExpression": "どころか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-011-14-a",
-          "text": "ところだった",
-          "grammarId": "n2-087",
-          "baseExpression": "ところだった",
-          "conjugatedExpression": "ところだった",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-011-14-b",
-          "text": "ところではない",
-          "grammarId": "n2-088",
-          "baseExpression": "ところではない",
-          "conjugatedExpression": "ところではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-011-14-c",
-          "text": "かいもなく",
-          "grammarId": "n2-011",
-          "baseExpression": "甲斐があって",
-          "conjugatedExpression": "かいもなく",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
-      "sourceGrammarIds": [
-        "n2-011",
-        "n2-086",
-        "n2-087",
-        "n2-088"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-011-15",
-      "level": "N2",
-      "sentence": "この子は教えたことはすぐ覚えるので、教えがいがある。",
-      "sentenceWithBlank": "この子は教えたことはすぐ覚えるので、教え（　　　）。",
-      "korean": "이 아이는 가르친 것을 바로 외우므로 가르칠 보람이 있다.",
-      "answerChoiceId": "fb-extra20-n2-011-15-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-011-15-c",
-          "text": "とともに",
-          "grammarId": "n2-091",
-          "baseExpression": "とともに",
-          "conjugatedExpression": "とともに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-011-15-d",
-          "text": "がいがある",
-          "grammarId": "n2-011",
-          "baseExpression": "甲斐があって",
-          "conjugatedExpression": "がいがある",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-011-15-a",
-          "text": "ところをみると",
-          "grammarId": "n2-089",
-          "baseExpression": "ところをみると",
-          "conjugatedExpression": "ところをみると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-011-15-b",
-          "text": "としてない",
-          "grammarId": "n2-090",
-          "baseExpression": "としてない",
-          "conjugatedExpression": "としてない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
-      "sourceGrammarIds": [
-        "n2-011",
-        "n2-089",
-        "n2-090",
-        "n2-091"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-011-16",
-      "level": "N2",
-      "sentence": "この子は教えたことはすぐ覚えるので、教えがいがある。",
-      "sentenceWithBlank": "この子は教えたことはすぐ覚えるので、教え（　　　）。",
-      "korean": "이 아이는 가르친 것을 바로 외우므로 가르칠 보람이 있다.",
-      "answerChoiceId": "fb-extra20-n2-011-16-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-011-16-b",
+          "id": "fb-created-n2-011-05-b",
           "text": "つつある",
           "grammarId": "n2-066",
           "baseExpression": "つつある",
@@ -1363,31 +511,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-011-16-c",
+          "id": "fb-created-n2-011-05-c",
           "text": "っぱなし",
           "grammarId": "n2-067",
           "baseExpression": "っぱなし",
           "conjugatedExpression": "っぱなし",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-011-16-d",
-          "text": "がいがある",
-          "grammarId": "n2-011",
-          "baseExpression": "甲斐があって",
-          "conjugatedExpression": "がいがある",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-011-16-a",
-          "text": "つつ",
-          "grammarId": "n2-065",
-          "baseExpression": "つつ",
-          "conjugatedExpression": "つつ",
-          "isSimilarDistractor": true
         }
       ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '관객이 끝까지 몸을 앞으로 내밀며 봐 주는 무대는 연기할 보람이 있다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
       "sourceGrammarIds": [
         "n2-011",
         "n2-065",
@@ -1395,83 +527,20 @@
         "n2-067"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-011-17",
+      "id": "fb-created-n2-011-06",
       "level": "N2",
-      "sentence": "時間とお金を使って遠くまで来たかいもなく、名物の桜はほとんど散ってしまっていた。",
-      "sentenceWithBlank": "時間とお金を使って遠くまで来た（　　　）、名物の桜はほとんど散ってしまっていた。",
-      "korean": "시간과 돈을 들여 멀리 왔지만 보람도 없이 벚꽃은 거의 져 있었다.",
-      "answerChoiceId": "fb-extra20-n2-011-17-a",
+      "sentence": "利用者から生活が楽になったと報告を受け、この機能は開発しがいがあると思った。",
+      "sentenceWithBlank": "利用者から生活が楽になったと報告を受け、この機能は開発し（　　　）と思った。",
+      "korean": "사용자로부터 생활이 편해졌다는 보고를 받고 이 기능은 개발할 보람이 있다고 생각했다.",
+      "answerChoiceId": "fb-created-n2-011-06-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-011-17-a",
-          "text": "かいもなく",
-          "grammarId": "n2-011",
-          "baseExpression": "甲斐があって",
-          "conjugatedExpression": "かいもなく",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-011-17-b",
-          "text": "を契機に",
-          "grammarId": "n2-172",
-          "baseExpression": "を契機に",
-          "conjugatedExpression": "を契機に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-011-17-c",
-          "text": "を問わず",
-          "grammarId": "n2-173",
-          "baseExpression": "を問わず",
-          "conjugatedExpression": "を問わず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-011-17-d",
-          "text": "を抜きにして",
-          "grammarId": "n2-174",
-          "baseExpression": "を抜きにして",
-          "conjugatedExpression": "を抜きにして",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
-      "sourceGrammarIds": [
-        "n2-011",
-        "n2-172",
-        "n2-173",
-        "n2-174"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-011-18",
-      "level": "N2",
-      "sentence": "この子は教えたことはすぐ覚えるので、教えがいがある。",
-      "sentenceWithBlank": "この子は教えたことはすぐ覚えるので、教え（　　　）。",
-      "korean": "이 아이는 가르친 것을 바로 외우므로 가르칠 보람이 있다.",
-      "answerChoiceId": "fb-extra20-n2-011-18-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-011-18-d",
-          "text": "つつ",
-          "grammarId": "n2-064",
-          "baseExpression": "つつ",
-          "conjugatedExpression": "つつ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-011-18-a",
+          "id": "fb-created-n2-011-06-a",
           "text": "つつ",
           "grammarId": "n2-065",
           "baseExpression": "つつ",
@@ -1479,7 +548,68 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-011-18-b",
+          "id": "fb-created-n2-011-06-b",
+          "text": "つつある",
+          "grammarId": "n2-066",
+          "baseExpression": "つつある",
+          "conjugatedExpression": "つつある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-011-06-c",
+          "text": "っぱなし",
+          "grammarId": "n2-067",
+          "baseExpression": "っぱなし",
+          "conjugatedExpression": "っぱなし",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-011-06-d",
+          "text": "がいがある",
+          "grammarId": "n2-011",
+          "baseExpression": "甲斐があって",
+          "conjugatedExpression": "がいがある",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '사용자로부터 생활이 편해졌다는 보고를 받고 이 기능은 개발할 보람이 있다고 생각했다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
+      "sourceGrammarIds": [
+        "n2-011",
+        "n2-065",
+        "n2-066",
+        "n2-067"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-011-07",
+      "level": "N2",
+      "sentence": "地域の人々が積極的に意見を出してくれるため、この公園は整備しがいがある。",
+      "sentenceWithBlank": "地域の人々が積極的に意見を出してくれるため、この公園は整備し（　　　）。",
+      "korean": "지역 주민들이 적극적으로 의견을 내 주기 때문에 이 공원은 정비할 보람이 있다.",
+      "answerChoiceId": "fb-created-n2-011-07-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-011-07-b",
+          "text": "つつある",
+          "grammarId": "n2-066",
+          "baseExpression": "つつある",
+          "conjugatedExpression": "つつある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-011-07-c",
+          "text": "っぱなし",
+          "grammarId": "n2-067",
+          "baseExpression": "っぱなし",
+          "conjugatedExpression": "っぱなし",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-011-07-d",
           "text": "がいがある",
           "grammarId": "n2-011",
           "baseExpression": "甲斐があって",
@@ -1487,107 +617,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-011-18-c",
-          "text": "っこない",
-          "grammarId": "n2-063",
-          "baseExpression": "っこない",
-          "conjugatedExpression": "っこない",
+          "id": "fb-created-n2-011-07-a",
+          "text": "つつ",
+          "grammarId": "n2-065",
+          "baseExpression": "つつ",
+          "conjugatedExpression": "つつ",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '지역 주민들이 적극적으로 의견을 내 주기 때문에 이 공원은 정비할 보람이 있다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
       "sourceGrammarIds": [
         "n2-011",
-        "n2-063",
-        "n2-064",
-        "n2-065"
+        "n2-065",
+        "n2-066",
+        "n2-067"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-011-19",
+      "id": "fb-created-n2-011-08",
       "level": "N2",
-      "sentence": "時間とお金を使って遠くまで来たかいもなく、名物の桜はほとんど散ってしまっていた。",
-      "sentenceWithBlank": "時間とお金を使って遠くまで来た（　　　）、名物の桜はほとんど散ってしまっていた。",
-      "korean": "시간과 돈을 들여 멀리 왔지만 보람도 없이 벚꽃은 거의 져 있었다.",
-      "answerChoiceId": "fb-extra20-n2-011-19-c",
+      "sentence": "患者が少しずつ自力で歩けるようになると、リハビリを支えがいがあると実感する。",
+      "sentenceWithBlank": "患者が少しずつ自力で歩けるようになると、リハビリを支え（　　　）と実感する。",
+      "korean": "환자가 조금씩 스스로 걸을 수 있게 되면 재활을 지원한 보람이 있다고 실감한다.",
+      "answerChoiceId": "fb-created-n2-011-08-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-011-19-c",
-          "text": "かいもなく",
-          "grammarId": "n2-011",
-          "baseExpression": "甲斐があって",
-          "conjugatedExpression": "かいもなく",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-011-19-d",
-          "text": "どころか",
-          "grammarId": "n2-086",
-          "baseExpression": "どころか",
-          "conjugatedExpression": "どころか",
+          "id": "fb-created-n2-011-08-c",
+          "text": "っぱなし",
+          "grammarId": "n2-067",
+          "baseExpression": "っぱなし",
+          "conjugatedExpression": "っぱなし",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-011-19-a",
-          "text": "ところだった",
-          "grammarId": "n2-087",
-          "baseExpression": "ところだった",
-          "conjugatedExpression": "ところだった",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-011-19-b",
-          "text": "ところではない",
-          "grammarId": "n2-088",
-          "baseExpression": "ところではない",
-          "conjugatedExpression": "ところではない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
-      "sourceGrammarIds": [
-        "n2-011",
-        "n2-086",
-        "n2-087",
-        "n2-088"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-011-20",
-      "level": "N2",
-      "sentence": "この子は教えたことはすぐ覚えるので、教えがいがある。",
-      "sentenceWithBlank": "この子は教えたことはすぐ覚えるので、教え（　　　）。",
-      "korean": "이 아이는 가르친 것을 바로 외우므로 가르칠 보람이 있다.",
-      "answerChoiceId": "fb-extra20-n2-011-20-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-011-20-b",
-          "text": "としてない",
-          "grammarId": "n2-090",
-          "baseExpression": "としてない",
-          "conjugatedExpression": "としてない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-011-20-c",
-          "text": "とともに",
-          "grammarId": "n2-091",
-          "baseExpression": "とともに",
-          "conjugatedExpression": "とともに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-011-20-d",
+          "id": "fb-created-n2-011-08-d",
           "text": "がいがある",
           "grammarId": "n2-011",
           "baseExpression": "甲斐があって",
@@ -1595,25 +662,933 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-011-20-a",
-          "text": "ところをみると",
-          "grammarId": "n2-089",
-          "baseExpression": "ところをみると",
-          "conjugatedExpression": "ところをみると",
+          "id": "fb-created-n2-011-08-a",
+          "text": "つつ",
+          "grammarId": "n2-065",
+          "baseExpression": "つつ",
+          "conjugatedExpression": "つつ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-011-08-b",
+          "text": "つつある",
+          "grammarId": "n2-066",
+          "baseExpression": "つつある",
+          "conjugatedExpression": "つつある",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '환자가 조금씩 스스로 걸을 수 있게 되면 재활을 지원한 보람이 있다고 실감한다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
       "sourceGrammarIds": [
         "n2-011",
-        "n2-089",
-        "n2-090",
-        "n2-091"
+        "n2-065",
+        "n2-066",
+        "n2-067"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-011-09",
+      "level": "N2",
+      "sentence": "無名の作家にも熱心な読者がついたので、この作品を出版しがいがある。",
+      "sentenceWithBlank": "無名の作家にも熱心な読者がついたので、この作品を出版し（　　　）。",
+      "korean": "무명 작가에게도 열성 독자가 생겼으니 이 작품을 출판할 보람이 있다.",
+      "answerChoiceId": "fb-created-n2-011-09-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-011-09-d",
+          "text": "がいがある",
+          "grammarId": "n2-011",
+          "baseExpression": "甲斐があって",
+          "conjugatedExpression": "がいがある",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-011-09-a",
+          "text": "つつ",
+          "grammarId": "n2-065",
+          "baseExpression": "つつ",
+          "conjugatedExpression": "つつ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-011-09-b",
+          "text": "つつある",
+          "grammarId": "n2-066",
+          "baseExpression": "つつある",
+          "conjugatedExpression": "つつある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-011-09-c",
+          "text": "っぱなし",
+          "grammarId": "n2-067",
+          "baseExpression": "っぱなし",
+          "conjugatedExpression": "っぱなし",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '무명 작가에게도 열성 독자가 생겼으니 이 작품을 출판할 보람이 있다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
+      "sourceGrammarIds": [
+        "n2-011",
+        "n2-065",
+        "n2-066",
+        "n2-067"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-011-10",
+      "level": "N2",
+      "sentence": "荒れた畑でも収穫量が年々増えており、土を改良しがいがある。",
+      "sentenceWithBlank": "荒れた畑でも収穫量が年々増えており、土を改良し（　　　）。",
+      "korean": "황폐했던 밭에서도 수확량이 해마다 늘고 있어 토양을 개량할 보람이 있다.",
+      "answerChoiceId": "fb-created-n2-011-10-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-011-10-a",
+          "text": "つつ",
+          "grammarId": "n2-065",
+          "baseExpression": "つつ",
+          "conjugatedExpression": "つつ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-011-10-b",
+          "text": "つつある",
+          "grammarId": "n2-066",
+          "baseExpression": "つつある",
+          "conjugatedExpression": "つつある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-011-10-c",
+          "text": "っぱなし",
+          "grammarId": "n2-067",
+          "baseExpression": "っぱなし",
+          "conjugatedExpression": "っぱなし",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-011-10-d",
+          "text": "がいがある",
+          "grammarId": "n2-011",
+          "baseExpression": "甲斐があって",
+          "conjugatedExpression": "がいがある",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '황폐했던 밭에서도 수확량이 해마다 늘고 있어 토양을 개량할 보람이 있다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
+      "sourceGrammarIds": [
+        "n2-011",
+        "n2-065",
+        "n2-066",
+        "n2-067"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-011-11",
+      "level": "N2",
+      "sentence": "一度断られた取引先が提案に関心を示し始め、粘り強く交渉しがいがある。",
+      "sentenceWithBlank": "一度断られた取引先が提案に関心を示し始め、粘り強く交渉し（　　　）。",
+      "korean": "한 번 거절했던 거래처가 제안에 관심을 보이기 시작해 끈기 있게 협상할 보람이 있다.",
+      "answerChoiceId": "fb-created-n2-011-11-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-011-11-b",
+          "text": "つつある",
+          "grammarId": "n2-066",
+          "baseExpression": "つつある",
+          "conjugatedExpression": "つつある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-011-11-c",
+          "text": "っぱなし",
+          "grammarId": "n2-067",
+          "baseExpression": "っぱなし",
+          "conjugatedExpression": "っぱなし",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-011-11-d",
+          "text": "がいがある",
+          "grammarId": "n2-011",
+          "baseExpression": "甲斐があって",
+          "conjugatedExpression": "がいがある",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-011-11-a",
+          "text": "つつ",
+          "grammarId": "n2-065",
+          "baseExpression": "つつ",
+          "conjugatedExpression": "つつ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '한 번 거절했던 거래처가 제안에 관심을 보이기 시작해 끈기 있게 협상할 보람이 있다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
+      "sourceGrammarIds": [
+        "n2-011",
+        "n2-065",
+        "n2-066",
+        "n2-067"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-011-12",
+      "level": "N2",
+      "sentence": "少ない材料から意外な味を生み出せる料理は、工夫しがいがある。",
+      "sentenceWithBlank": "少ない材料から意外な味を生み出せる料理は、工夫し（　　　）。",
+      "korean": "적은 재료로 의외의 맛을 만들어 낼 수 있는 요리는 궁리할 보람이 있다.",
+      "answerChoiceId": "fb-created-n2-011-12-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-011-12-c",
+          "text": "っぱなし",
+          "grammarId": "n2-067",
+          "baseExpression": "っぱなし",
+          "conjugatedExpression": "っぱなし",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-011-12-d",
+          "text": "がいがある",
+          "grammarId": "n2-011",
+          "baseExpression": "甲斐があって",
+          "conjugatedExpression": "がいがある",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-011-12-a",
+          "text": "つつ",
+          "grammarId": "n2-065",
+          "baseExpression": "つつ",
+          "conjugatedExpression": "つつ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-011-12-b",
+          "text": "つつある",
+          "grammarId": "n2-066",
+          "baseExpression": "つつある",
+          "conjugatedExpression": "つつある",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '적은 재료로 의외의 맛을 만들어 낼 수 있는 요리는 궁리할 보람이 있다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
+      "sourceGrammarIds": [
+        "n2-011",
+        "n2-065",
+        "n2-066",
+        "n2-067"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-011-13",
+      "level": "N2",
+      "sentence": "何度修理しても持ち主が大切に使ってくれる時計には、直しがいがある。",
+      "sentenceWithBlank": "何度修理しても持ち主が大切に使ってくれる時計には、直し（　　　）。",
+      "korean": "몇 번을 수리해도 주인이 소중히 사용해 주는 시계는 고칠 보람이 있다.",
+      "answerChoiceId": "fb-created-n2-011-13-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-011-13-d",
+          "text": "がいがある",
+          "grammarId": "n2-011",
+          "baseExpression": "甲斐があって",
+          "conjugatedExpression": "がいがある",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-011-13-a",
+          "text": "つつ",
+          "grammarId": "n2-065",
+          "baseExpression": "つつ",
+          "conjugatedExpression": "つつ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-011-13-b",
+          "text": "つつある",
+          "grammarId": "n2-066",
+          "baseExpression": "つつある",
+          "conjugatedExpression": "つつある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-011-13-c",
+          "text": "っぱなし",
+          "grammarId": "n2-067",
+          "baseExpression": "っぱなし",
+          "conjugatedExpression": "っぱなし",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '몇 번을 수리해도 주인이 소중히 사용해 주는 시계는 고칠 보람이 있다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
+      "sourceGrammarIds": [
+        "n2-011",
+        "n2-065",
+        "n2-066",
+        "n2-067"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-011-14",
+      "level": "N2",
+      "sentence": "住民の避難時間が確実に短くなるなら、この防災計画は見直しがいがある。",
+      "sentenceWithBlank": "住民の避難時間が確実に短くなるなら、この防災計画は見直し（　　　）。",
+      "korean": "주민들의 대피 시간이 확실히 짧아진다면 이 방재 계획은 재검토할 보람이 있다.",
+      "answerChoiceId": "fb-created-n2-011-14-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-011-14-a",
+          "text": "つつ",
+          "grammarId": "n2-065",
+          "baseExpression": "つつ",
+          "conjugatedExpression": "つつ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-011-14-b",
+          "text": "つつある",
+          "grammarId": "n2-066",
+          "baseExpression": "つつある",
+          "conjugatedExpression": "つつある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-011-14-c",
+          "text": "っぱなし",
+          "grammarId": "n2-067",
+          "baseExpression": "っぱなし",
+          "conjugatedExpression": "っぱなし",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-011-14-d",
+          "text": "がいがある",
+          "grammarId": "n2-011",
+          "baseExpression": "甲斐があって",
+          "conjugatedExpression": "がいがある",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '주민들의 대피 시간이 확실히 짧아진다면 이 방재 계획은 재검토할 보람이 있다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
+      "sourceGrammarIds": [
+        "n2-011",
+        "n2-065",
+        "n2-066",
+        "n2-067"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-011-15",
+      "level": "N2",
+      "sentence": "弟が毎月少しずつ借金を返しているのを見ると、保証人になって支えがいがある。",
+      "sentenceWithBlank": "弟が毎月少しずつ借金を返しているのを見ると、保証人になって支え（　　　）。",
+      "korean": "남동생이 매달 조금씩 빚을 갚는 모습을 보면 보증인이 되어 도운 보람이 있다.",
+      "answerChoiceId": "fb-created-n2-011-15-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-011-15-b",
+          "text": "つつある",
+          "grammarId": "n2-066",
+          "baseExpression": "つつある",
+          "conjugatedExpression": "つつある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-011-15-c",
+          "text": "っぱなし",
+          "grammarId": "n2-067",
+          "baseExpression": "っぱなし",
+          "conjugatedExpression": "っぱなし",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-011-15-d",
+          "text": "がいがある",
+          "grammarId": "n2-011",
+          "baseExpression": "甲斐があって",
+          "conjugatedExpression": "がいがある",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-011-15-a",
+          "text": "つつ",
+          "grammarId": "n2-065",
+          "baseExpression": "つつ",
+          "conjugatedExpression": "つつ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '남동생이 매달 조금씩 빚을 갚는 모습을 보면 보증인이 되어 도운 보람이 있다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
+      "sourceGrammarIds": [
+        "n2-011",
+        "n2-065",
+        "n2-066",
+        "n2-067"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-011-16",
+      "level": "N2",
+      "sentence": "森に野鳥が戻ってきたことで、長年植樹を続けがいがあると確信した。",
+      "sentenceWithBlank": "森に野鳥が戻ってきたことで、長年植樹を続け（　　　）と確信した。",
+      "korean": "숲에 들새가 돌아온 것을 보고 오랫동안 나무 심기를 계속한 보람이 있다고 확신했다.",
+      "answerChoiceId": "fb-created-n2-011-16-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-011-16-c",
+          "text": "っぱなし",
+          "grammarId": "n2-067",
+          "baseExpression": "っぱなし",
+          "conjugatedExpression": "っぱなし",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-011-16-d",
+          "text": "がいがある",
+          "grammarId": "n2-011",
+          "baseExpression": "甲斐があって",
+          "conjugatedExpression": "がいがある",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-011-16-a",
+          "text": "つつ",
+          "grammarId": "n2-065",
+          "baseExpression": "つつ",
+          "conjugatedExpression": "つつ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-011-16-b",
+          "text": "つつある",
+          "grammarId": "n2-066",
+          "baseExpression": "つつある",
+          "conjugatedExpression": "つつある",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '숲에 들새가 돌아온 것을 보고 오랫동안 나무 심기를 계속한 보람이 있다고 확신했다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
+      "sourceGrammarIds": [
+        "n2-011",
+        "n2-065",
+        "n2-066",
+        "n2-067"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-011-17",
+      "level": "N2",
+      "sentence": "高齢の客が安心して買い物できる店なら、働きがいがある。",
+      "sentenceWithBlank": "高齢の客が安心して買い物できる店なら、働き（　　　）。",
+      "korean": "고령의 손님이 안심하고 쇼핑할 수 있는 가게라면 일할 보람이 있다.",
+      "answerChoiceId": "fb-created-n2-011-17-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-011-17-d",
+          "text": "がいがある",
+          "grammarId": "n2-011",
+          "baseExpression": "甲斐があって",
+          "conjugatedExpression": "がいがある",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-011-17-a",
+          "text": "つつ",
+          "grammarId": "n2-065",
+          "baseExpression": "つつ",
+          "conjugatedExpression": "つつ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-011-17-b",
+          "text": "つつある",
+          "grammarId": "n2-066",
+          "baseExpression": "つつある",
+          "conjugatedExpression": "つつある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-011-17-c",
+          "text": "っぱなし",
+          "grammarId": "n2-067",
+          "baseExpression": "っぱなし",
+          "conjugatedExpression": "っぱなし",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '고령의 손님이 안심하고 쇼핑할 수 있는 가게라면 일할 보람이 있다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
+      "sourceGrammarIds": [
+        "n2-011",
+        "n2-065",
+        "n2-066",
+        "n2-067"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-011-18",
+      "level": "N2",
+      "sentence": "家族の思い出が詰まった古民家だけに、手間をかけて残しがいがある。",
+      "sentenceWithBlank": "家族の思い出が詰まった古民家だけに、手間をかけて残し（　　　）。",
+      "korean": "가족의 추억이 가득한 오래된 민가인 만큼 손을 들여 보존할 보람이 있다.",
+      "answerChoiceId": "fb-created-n2-011-18-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-011-18-a",
+          "text": "つつ",
+          "grammarId": "n2-065",
+          "baseExpression": "つつ",
+          "conjugatedExpression": "つつ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-011-18-b",
+          "text": "つつある",
+          "grammarId": "n2-066",
+          "baseExpression": "つつある",
+          "conjugatedExpression": "つつある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-011-18-c",
+          "text": "っぱなし",
+          "grammarId": "n2-067",
+          "baseExpression": "っぱなし",
+          "conjugatedExpression": "っぱなし",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-011-18-d",
+          "text": "がいがある",
+          "grammarId": "n2-011",
+          "baseExpression": "甲斐があって",
+          "conjugatedExpression": "がいがある",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '가족의 추억이 가득한 오래된 민가인 만큼 손을 들여 보존할 보람이 있다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
+      "sourceGrammarIds": [
+        "n2-011",
+        "n2-065",
+        "n2-066",
+        "n2-067"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-011-19",
+      "level": "N2",
+      "sentence": "寄付金の使い道が具体的に公開されている団体は、応援しがいがある。",
+      "sentenceWithBlank": "寄付金の使い道が具体的に公開されている団体は、応援し（　　　）。",
+      "korean": "기부금의 사용처를 구체적으로 공개하는 단체는 응원할 보람이 있다.",
+      "answerChoiceId": "fb-created-n2-011-19-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-011-19-b",
+          "text": "つつある",
+          "grammarId": "n2-066",
+          "baseExpression": "つつある",
+          "conjugatedExpression": "つつある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-011-19-c",
+          "text": "っぱなし",
+          "grammarId": "n2-067",
+          "baseExpression": "っぱなし",
+          "conjugatedExpression": "っぱなし",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-011-19-d",
+          "text": "がいがある",
+          "grammarId": "n2-011",
+          "baseExpression": "甲斐があって",
+          "conjugatedExpression": "がいがある",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-011-19-a",
+          "text": "つつ",
+          "grammarId": "n2-065",
+          "baseExpression": "つつ",
+          "conjugatedExpression": "つつ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '기부금의 사용처를 구체적으로 공개하는 단체는 응원할 보람이 있다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
+      "sourceGrammarIds": [
+        "n2-011",
+        "n2-065",
+        "n2-066",
+        "n2-067"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-011-20",
+      "level": "N2",
+      "sentence": "新人記者が独自の視点で記事を書くようになり、厳しく指導しがいがある。",
+      "sentenceWithBlank": "新人記者が独自の視点で記事を書くようになり、厳しく指導し（　　　）。",
+      "korean": "신입 기자가 독자적인 시각으로 기사를 쓰게 되어 엄격하게 지도할 보람이 있다.",
+      "answerChoiceId": "fb-created-n2-011-20-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-011-20-c",
+          "text": "っぱなし",
+          "grammarId": "n2-067",
+          "baseExpression": "っぱなし",
+          "conjugatedExpression": "っぱなし",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-011-20-d",
+          "text": "がいがある",
+          "grammarId": "n2-011",
+          "baseExpression": "甲斐があって",
+          "conjugatedExpression": "がいがある",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-011-20-a",
+          "text": "つつ",
+          "grammarId": "n2-065",
+          "baseExpression": "つつ",
+          "conjugatedExpression": "つつ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-011-20-b",
+          "text": "つつある",
+          "grammarId": "n2-066",
+          "baseExpression": "つつある",
+          "conjugatedExpression": "つつある",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '신입 기자가 독자적인 시각으로 기사를 쓰게 되어 엄격하게 지도할 보람이 있다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
+      "sourceGrammarIds": [
+        "n2-011",
+        "n2-065",
+        "n2-066",
+        "n2-067"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-011-21",
+      "level": "N2",
+      "sentence": "一人暮らしの母が毎晩楽しそうに話すので、欠かさず電話しがいがある。",
+      "sentenceWithBlank": "一人暮らしの母が毎晩楽しそうに話すので、欠かさず電話し（　　　）。",
+      "korean": "혼자 사는 어머니가 매일 밤 즐겁게 이야기하시니 빠짐없이 전화할 보람이 있다.",
+      "answerChoiceId": "fb-created-n2-011-21-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-011-21-d",
+          "text": "がいがある",
+          "grammarId": "n2-011",
+          "baseExpression": "甲斐があって",
+          "conjugatedExpression": "がいがある",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-011-21-a",
+          "text": "つつ",
+          "grammarId": "n2-065",
+          "baseExpression": "つつ",
+          "conjugatedExpression": "つつ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-011-21-b",
+          "text": "つつある",
+          "grammarId": "n2-066",
+          "baseExpression": "つつある",
+          "conjugatedExpression": "つつある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-011-21-c",
+          "text": "っぱなし",
+          "grammarId": "n2-067",
+          "baseExpression": "っぱなし",
+          "conjugatedExpression": "っぱなし",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '혼자 사는 어머니가 매일 밤 즐겁게 이야기하시니 빠짐없이 전화할 보람이 있다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
+      "sourceGrammarIds": [
+        "n2-011",
+        "n2-065",
+        "n2-066",
+        "n2-067"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-011-22",
+      "level": "N2",
+      "sentence": "市場に出せない魚でも喜んで食べる客がいるなら、新しい商品を考えがいがある。",
+      "sentenceWithBlank": "市場に出せない魚でも喜んで食べる客がいるなら、新しい商品を考え（　　　）。",
+      "korean": "시장에 내놓을 수 없는 생선도 기꺼이 먹는 손님이 있다면 새 상품을 고안할 보람이 있다.",
+      "answerChoiceId": "fb-created-n2-011-22-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-011-22-a",
+          "text": "つつ",
+          "grammarId": "n2-065",
+          "baseExpression": "つつ",
+          "conjugatedExpression": "つつ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-011-22-b",
+          "text": "つつある",
+          "grammarId": "n2-066",
+          "baseExpression": "つつある",
+          "conjugatedExpression": "つつある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-011-22-c",
+          "text": "っぱなし",
+          "grammarId": "n2-067",
+          "baseExpression": "っぱなし",
+          "conjugatedExpression": "っぱなし",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-011-22-d",
+          "text": "がいがある",
+          "grammarId": "n2-011",
+          "baseExpression": "甲斐があって",
+          "conjugatedExpression": "がいがある",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '시장에 내놓을 수 없는 생선도 기꺼이 먹는 손님이 있다면 새 상품을 고안할 보람이 있다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
+      "sourceGrammarIds": [
+        "n2-011",
+        "n2-065",
+        "n2-066",
+        "n2-067"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-011-23",
+      "level": "N2",
+      "sentence": "難民の家族が安全な住居を得られる仕事には、取り組みがいがある。",
+      "sentenceWithBlank": "難民の家族が安全な住居を得られる仕事には、取り組み（　　　）。",
+      "korean": "난민 가족이 안전한 주거를 얻을 수 있게 하는 일은 매진할 보람이 있다.",
+      "answerChoiceId": "fb-created-n2-011-23-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-011-23-b",
+          "text": "つつある",
+          "grammarId": "n2-066",
+          "baseExpression": "つつある",
+          "conjugatedExpression": "つつある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-011-23-c",
+          "text": "っぱなし",
+          "grammarId": "n2-067",
+          "baseExpression": "っぱなし",
+          "conjugatedExpression": "っぱなし",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-011-23-d",
+          "text": "がいがある",
+          "grammarId": "n2-011",
+          "baseExpression": "甲斐があって",
+          "conjugatedExpression": "がいがある",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-011-23-a",
+          "text": "つつ",
+          "grammarId": "n2-065",
+          "baseExpression": "つつ",
+          "conjugatedExpression": "つつ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '난민 가족이 안전한 주거를 얻을 수 있게 하는 일은 매진할 보람이 있다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
+      "sourceGrammarIds": [
+        "n2-011",
+        "n2-065",
+        "n2-066",
+        "n2-067"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-011-24",
+      "level": "N2",
+      "sentence": "わずかな証拠から事件の全体像に近づけるため、調べがいがある。",
+      "sentenceWithBlank": "わずかな証拠から事件の全体像に近づけるため、調べ（　　　）。",
+      "korean": "작은 증거만으로도 사건의 전체 모습에 다가갈 수 있어서 조사할 보람이 있다.",
+      "answerChoiceId": "fb-created-n2-011-24-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-011-24-c",
+          "text": "っぱなし",
+          "grammarId": "n2-067",
+          "baseExpression": "っぱなし",
+          "conjugatedExpression": "っぱなし",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-011-24-d",
+          "text": "がいがある",
+          "grammarId": "n2-011",
+          "baseExpression": "甲斐があって",
+          "conjugatedExpression": "がいがある",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-011-24-a",
+          "text": "つつ",
+          "grammarId": "n2-065",
+          "baseExpression": "つつ",
+          "conjugatedExpression": "つつ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-011-24-b",
+          "text": "つつある",
+          "grammarId": "n2-066",
+          "baseExpression": "つつある",
+          "conjugatedExpression": "つつある",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '작은 증거만으로도 사건의 전체 모습에 다가갈 수 있어서 조사할 보람이 있다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
+      "sourceGrammarIds": [
+        "n2-011",
+        "n2-065",
+        "n2-066",
+        "n2-067"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-011-25",
+      "level": "N2",
+      "sentence": "利用者の声が運行改善に直接反映される路線は、意見を伝えがいがある。",
+      "sentenceWithBlank": "利用者の声が運行改善に直接反映される路線は、意見を伝え（　　　）。",
+      "korean": "이용자의 목소리가 운행 개선에 직접 반영되는 노선은 의견을 전달할 보람이 있다.",
+      "answerChoiceId": "fb-created-n2-011-25-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-011-25-d",
+          "text": "がいがある",
+          "grammarId": "n2-011",
+          "baseExpression": "甲斐があって",
+          "conjugatedExpression": "がいがある",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-011-25-a",
+          "text": "つつ",
+          "grammarId": "n2-065",
+          "baseExpression": "つつ",
+          "conjugatedExpression": "つつ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-011-25-b",
+          "text": "つつある",
+          "grammarId": "n2-066",
+          "baseExpression": "つつある",
+          "conjugatedExpression": "つつある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-011-25-c",
+          "text": "っぱなし",
+          "grammarId": "n2-067",
+          "baseExpression": "っぱなし",
+          "conjugatedExpression": "っぱなし",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '이용자의 목소리가 운행 개선에 직접 반영되는 노선은 의견을 전달할 보람이 있다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
+      "sourceGrammarIds": [
+        "n2-011",
+        "n2-065",
+        "n2-066",
+        "n2-067"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
       ]
     }
   ],
@@ -1834,1103 +1809,1153 @@
       ]
     },
     {
-      "id": "so-extra-n2-011-1",
+      "id": "so-created-n2-011-01",
       "level": "N2",
-      "sentence": "この子は教えたことはすぐ覚えるので、教えがいがある。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "이 아이는 가르친 것을 바로 외우므로 가르칠 보람이 있다.",
+      "sentence": "連日の訓練で新人隊員の動きが見違えるほど良くなり、鍛えがいがあると感じた。",
+      "sentenceWithBlanks": "連日の訓練で新人隊員の ____ ____ ____ ____",
+      "korean": "연일 훈련한 덕분에 신입 대원의 움직임이 몰라보게 좋아져서 단련시킨 보람이 있다고 느꼈다.",
       "pieces": [
         {
-          "id": "so-extra-n2-011-1-p2",
-          "text": "教えがいがある",
+          "id": "so-created-n2-011-01-p4",
+          "text": "と感じた。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-011-1-p3",
-          "text": "この子は",
+          "id": "so-created-n2-011-01-p1",
+          "text": "動きが見違えるほど",
           "order": 1
         },
         {
-          "id": "so-extra-n2-011-1-p4",
-          "text": "教えたことは",
+          "id": "so-created-n2-011-01-p2",
+          "text": "良くなり、",
           "order": 2
         },
         {
-          "id": "so-extra-n2-011-1-p1",
-          "text": "すぐ覚えるので",
+          "id": "so-created-n2-011-01-p3",
+          "text": "鍛えがいがある",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-011-1-p3",
-        "so-extra-n2-011-1-p4",
-        "so-extra-n2-011-1-p1",
-        "so-extra-n2-011-1-p2"
+        "so-created-n2-011-01-p1",
+        "so-created-n2-011-01-p2",
+        "so-created-n2-011-01-p3",
+        "so-created-n2-011-01-p4"
       ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '연일 훈련한 덕분에 신입 대원의 움직임이 몰라보게 좋아져서 단련시킨 보람이 있다고 느꼈다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
       "sourceGrammarIds": [
-        "n2-011"
+        "n2-011",
+        "n2-065",
+        "n2-066",
+        "n2-067"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-011-2",
+      "id": "so-created-n2-011-02",
       "level": "N2",
-      "sentence": "時間とお金を使って遠くまで来たかいもなく、名物の桜はほとんど散ってしまっていた。",
-      "sentenceWithBlanks": "時間とお金を使って遠くまで来た ____ ____ ____ ____",
-      "korean": "시간과 돈을 들여 멀리 왔지만 보람도 없이 벚꽃은 거의 져 있었다.",
+      "sentence": "保護した子犬が元気に走り回る姿を見ると、世話しがいがある。",
+      "sentenceWithBlanks": "保護した ____ ____ ____ ____",
+      "korean": "구조한 강아지가 건강하게 뛰어다니는 모습을 보면 돌본 보람이 있다.",
       "pieces": [
         {
-          "id": "so-extra-n2-011-2-p3",
-          "text": "しまっていた",
+          "id": "so-created-n2-011-02-p3",
+          "text": "見ると、世話し",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-011-02-p4",
+          "text": "がいがある。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-011-2-p4",
-          "text": "かいもなく",
+          "id": "so-created-n2-011-02-p1",
+          "text": "子犬が元気に",
           "order": 1
         },
         {
-          "id": "so-extra-n2-011-2-p1",
-          "text": "名物の桜は",
+          "id": "so-created-n2-011-02-p2",
+          "text": "走り回る姿を",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-011-2-p2",
-          "text": "ほとんど散って",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-011-2-p4",
-        "so-extra-n2-011-2-p1",
-        "so-extra-n2-011-2-p2",
-        "so-extra-n2-011-2-p3"
+        "so-created-n2-011-02-p1",
+        "so-created-n2-011-02-p2",
+        "so-created-n2-011-02-p3",
+        "so-created-n2-011-02-p4"
       ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '구조한 강아지가 건강하게 뛰어다니는 모습을 보면 돌본 보람이 있다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
       "sourceGrammarIds": [
-        "n2-011"
+        "n2-011",
+        "n2-065",
+        "n2-066",
+        "n2-067"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-011-3",
+      "id": "so-created-n2-011-03",
       "level": "N2",
-      "sentence": "この子は教えたことはすぐ覚えるので、教えがいがある。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "이 아이는 가르친 것을 바로 외우므로 가르칠 보람이 있다.",
+      "sentence": "難しい注文ほど職人としての腕を試せるから、引き受けがいがある。",
+      "sentenceWithBlanks": "難しい ____ ____ ____ ____",
+      "korean": "어려운 주문일수록 장인으로서의 실력을 시험할 수 있으니 맡을 보람이 있다.",
       "pieces": [
         {
-          "id": "so-extra-n2-011-3-p4",
-          "text": "教えがいがある",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-011-3-p1",
-          "text": "この子は",
-          "order": 1
-        },
-        {
-          "id": "so-extra-n2-011-3-p2",
-          "text": "教えたことは",
+          "id": "so-created-n2-011-03-p2",
+          "text": "職人としての",
           "order": 2
         },
         {
-          "id": "so-extra-n2-011-3-p3",
-          "text": "すぐ覚えるので",
+          "id": "so-created-n2-011-03-p3",
+          "text": "腕を試せるから、",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-011-03-p4",
+          "text": "引き受けがいがある。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-011-03-p1",
+          "text": "注文ほど",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-011-3-p1",
-        "so-extra-n2-011-3-p2",
-        "so-extra-n2-011-3-p3",
-        "so-extra-n2-011-3-p4"
+        "so-created-n2-011-03-p1",
+        "so-created-n2-011-03-p2",
+        "so-created-n2-011-03-p3",
+        "so-created-n2-011-03-p4"
       ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '어려운 주문일수록 장인으로서의 실력을 시험할 수 있으니 맡을 보람이 있다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
       "sourceGrammarIds": [
-        "n2-011"
+        "n2-011",
+        "n2-065",
+        "n2-066",
+        "n2-067"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-011-4",
+      "id": "so-created-n2-011-04",
       "level": "N2",
-      "sentence": "時間とお金を使って遠くまで来たかいもなく、名物の桜はほとんど散ってしまっていた。",
-      "sentenceWithBlanks": "時間とお金を使って遠くまで来た ____ ____ ____ ____",
-      "korean": "시간과 돈을 들여 멀리 왔지만 보람도 없이 벚꽃은 거의 져 있었다.",
+      "sentence": "祖父が毎朝うれしそうに食べてくれるので、早起きして朝食を作りがいがある。",
+      "sentenceWithBlanks": "祖父が毎朝うれしそうに ____ ____ ____ ____",
+      "korean": "할아버지가 매일 아침 기쁘게 드셔 주셔서 일찍 일어나 아침을 만들 보람이 있다.",
       "pieces": [
         {
-          "id": "so-extra-n2-011-4-p1",
-          "text": "しまっていた",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-011-4-p2",
-          "text": "かいもなく",
+          "id": "so-created-n2-011-04-p1",
+          "text": "食べてくれるので、",
           "order": 1
         },
         {
-          "id": "so-extra-n2-011-4-p3",
-          "text": "名物の桜は",
+          "id": "so-created-n2-011-04-p2",
+          "text": "早起きして",
           "order": 2
         },
         {
-          "id": "so-extra-n2-011-4-p4",
-          "text": "ほとんど散って",
+          "id": "so-created-n2-011-04-p3",
+          "text": "朝食を作り",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-011-04-p4",
+          "text": "がいがある。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-011-4-p2",
-        "so-extra-n2-011-4-p3",
-        "so-extra-n2-011-4-p4",
-        "so-extra-n2-011-4-p1"
+        "so-created-n2-011-04-p1",
+        "so-created-n2-011-04-p2",
+        "so-created-n2-011-04-p3",
+        "so-created-n2-011-04-p4"
       ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '할아버지가 매일 아침 기쁘게 드셔 주셔서 일찍 일어나 아침을 만들 보람이 있다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
       "sourceGrammarIds": [
-        "n2-011"
+        "n2-011",
+        "n2-065",
+        "n2-066",
+        "n2-067"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-011-5",
+      "id": "so-created-n2-011-05",
       "level": "N2",
-      "sentence": "この子は教えたことはすぐ覚えるので、教えがいがある。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "이 아이는 가르친 것을 바로 외우므로 가르칠 보람이 있다.",
+      "sentence": "観客が最後まで身を乗り出して見てくれる舞台は、演じがいがある。",
+      "sentenceWithBlanks": "観客が最後まで ____ ____ ____ ____",
+      "korean": "관객이 끝까지 몸을 앞으로 내밀며 봐 주는 무대는 연기할 보람이 있다.",
       "pieces": [
         {
-          "id": "so-extra-n2-011-5-p2",
-          "text": "教えがいがある",
+          "id": "so-created-n2-011-05-p4",
+          "text": "がいがある。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-011-5-p3",
-          "text": "この子は",
+          "id": "so-created-n2-011-05-p1",
+          "text": "身を乗り出して",
           "order": 1
         },
         {
-          "id": "so-extra-n2-011-5-p4",
-          "text": "教えたことは",
+          "id": "so-created-n2-011-05-p2",
+          "text": "見てくれる",
           "order": 2
         },
         {
-          "id": "so-extra-n2-011-5-p1",
-          "text": "すぐ覚えるので",
+          "id": "so-created-n2-011-05-p3",
+          "text": "舞台は、演じ",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-011-5-p3",
-        "so-extra-n2-011-5-p4",
-        "so-extra-n2-011-5-p1",
-        "so-extra-n2-011-5-p2"
+        "so-created-n2-011-05-p1",
+        "so-created-n2-011-05-p2",
+        "so-created-n2-011-05-p3",
+        "so-created-n2-011-05-p4"
       ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '관객이 끝까지 몸을 앞으로 내밀며 봐 주는 무대는 연기할 보람이 있다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
       "sourceGrammarIds": [
-        "n2-011"
+        "n2-011",
+        "n2-065",
+        "n2-066",
+        "n2-067"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-011-01",
+      "id": "so-created-n2-011-06",
       "level": "N2",
-      "sentence": "この子は教えたことはすぐ覚えるので、教えがいがある。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "이 아이는 가르친 것을 바로 외우므로 가르칠 보람이 있다.",
+      "sentence": "利用者から生活が楽になったと報告を受け、この機能は開発しがいがあると思った。",
+      "sentenceWithBlanks": "利用者から生活が楽になったと ____ ____ ____ ____",
+      "korean": "사용자로부터 생활이 편해졌다는 보고를 받고 이 기능은 개발할 보람이 있다고 생각했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-011-01-p2",
-          "text": "教えがいがある",
+          "id": "so-created-n2-011-06-p3",
+          "text": "がいがある",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-011-06-p4",
+          "text": "と思った。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-011-01-p3",
-          "text": "この子は",
+          "id": "so-created-n2-011-06-p1",
+          "text": "報告を受け、この",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-011-01-p4",
-          "text": "教えたことは",
+          "id": "so-created-n2-011-06-p2",
+          "text": "機能は開発し",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-011-01-p1",
-          "text": "すぐ覚えるので",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-011-01-p3",
-        "so-extra20-n2-011-01-p4",
-        "so-extra20-n2-011-01-p1",
-        "so-extra20-n2-011-01-p2"
+        "so-created-n2-011-06-p1",
+        "so-created-n2-011-06-p2",
+        "so-created-n2-011-06-p3",
+        "so-created-n2-011-06-p4"
       ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '사용자로부터 생활이 편해졌다는 보고를 받고 이 기능은 개발할 보람이 있다고 생각했다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
       "sourceGrammarIds": [
-        "n2-011"
+        "n2-011",
+        "n2-065",
+        "n2-066",
+        "n2-067"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-011-02",
+      "id": "so-created-n2-011-07",
       "level": "N2",
-      "sentence": "時間とお金を使って遠くまで来たかいもなく、名物の桜はほとんど散ってしまっていた。",
-      "sentenceWithBlanks": "時間とお金を使って遠くまで来た ____ ____ ____ ____",
-      "korean": "시간과 돈을 들여 멀리 왔지만 보람도 없이 벚꽃은 거의 져 있었다.",
+      "sentence": "地域の人々が積極的に意見を出してくれるため、この公園は整備しがいがある。",
+      "sentenceWithBlanks": "地域の人々が ____ ____ ____ ____",
+      "korean": "지역 주민들이 적극적으로 의견을 내 주기 때문에 이 공원은 정비할 보람이 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-011-02-p1",
-          "text": "名物の桜は",
+          "id": "so-created-n2-011-07-p2",
+          "text": "出してくれるため、この",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-011-02-p2",
-          "text": "ほとんど散って",
+          "id": "so-created-n2-011-07-p3",
+          "text": "公園は整備し",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-011-02-p3",
-          "text": "しまっていた",
+          "id": "so-created-n2-011-07-p4",
+          "text": "がいがある。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-011-02-p4",
-          "text": "かいもなく",
+          "id": "so-created-n2-011-07-p1",
+          "text": "積極的に意見を",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-011-02-p4",
-        "so-extra20-n2-011-02-p1",
-        "so-extra20-n2-011-02-p2",
-        "so-extra20-n2-011-02-p3"
+        "so-created-n2-011-07-p1",
+        "so-created-n2-011-07-p2",
+        "so-created-n2-011-07-p3",
+        "so-created-n2-011-07-p4"
       ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '지역 주민들이 적극적으로 의견을 내 주기 때문에 이 공원은 정비할 보람이 있다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
       "sourceGrammarIds": [
-        "n2-011"
+        "n2-011",
+        "n2-065",
+        "n2-066",
+        "n2-067"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-011-03",
+      "id": "so-created-n2-011-08",
       "level": "N2",
-      "sentence": "この子は教えたことはすぐ覚えるので、教えがいがある。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "이 아이는 가르친 것을 바로 외우므로 가르칠 보람이 있다.",
+      "sentence": "患者が少しずつ自力で歩けるようになると、リハビリを支えがいがあると実感する。",
+      "sentenceWithBlanks": "患者が少しずつ自力で ____ ____ ____ ____",
+      "korean": "환자가 조금씩 스스로 걸을 수 있게 되면 재활을 지원한 보람이 있다고 실감한다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-011-03-p4",
-          "text": "教えがいがある",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-011-03-p1",
-          "text": "この子は",
+          "id": "so-created-n2-011-08-p1",
+          "text": "歩けるようになると、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-011-03-p2",
-          "text": "教えたことは",
+          "id": "so-created-n2-011-08-p2",
+          "text": "リハビリを",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-011-03-p3",
-          "text": "すぐ覚えるので",
+          "id": "so-created-n2-011-08-p3",
+          "text": "支えがいがある",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-011-08-p4",
+          "text": "と実感する。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-011-03-p1",
-        "so-extra20-n2-011-03-p2",
-        "so-extra20-n2-011-03-p3",
-        "so-extra20-n2-011-03-p4"
+        "so-created-n2-011-08-p1",
+        "so-created-n2-011-08-p2",
+        "so-created-n2-011-08-p3",
+        "so-created-n2-011-08-p4"
       ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '환자가 조금씩 스스로 걸을 수 있게 되면 재활을 지원한 보람이 있다고 실감한다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
       "sourceGrammarIds": [
-        "n2-011"
+        "n2-011",
+        "n2-065",
+        "n2-066",
+        "n2-067"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-011-04",
+      "id": "so-created-n2-011-09",
       "level": "N2",
-      "sentence": "時間とお金を使って遠くまで来たかいもなく、名物の桜はほとんど散ってしまっていた。",
-      "sentenceWithBlanks": "時間とお金を使って遠くまで来た ____ ____ ____ ____",
-      "korean": "시간과 돈을 들여 멀리 왔지만 보람도 없이 벚꽃은 거의 져 있었다.",
+      "sentence": "無名の作家にも熱心な読者がついたので、この作品を出版しがいがある。",
+      "sentenceWithBlanks": "無名の ____ ____ ____ ____",
+      "korean": "무명 작가에게도 열성 독자가 생겼으니 이 작품을 출판할 보람이 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-011-04-p3",
-          "text": "名物の桜は",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-011-04-p4",
-          "text": "ほとんど散って",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-011-04-p1",
-          "text": "しまっていた",
+          "id": "so-created-n2-011-09-p4",
+          "text": "がいがある。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-011-04-p2",
-          "text": "かいもなく",
+          "id": "so-created-n2-011-09-p1",
+          "text": "作家にも熱心な",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-011-09-p2",
+          "text": "読者がついたので、この",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-011-09-p3",
+          "text": "作品を出版し",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-011-04-p2",
-        "so-extra20-n2-011-04-p3",
-        "so-extra20-n2-011-04-p4",
-        "so-extra20-n2-011-04-p1"
+        "so-created-n2-011-09-p1",
+        "so-created-n2-011-09-p2",
+        "so-created-n2-011-09-p3",
+        "so-created-n2-011-09-p4"
       ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '무명 작가에게도 열성 독자가 생겼으니 이 작품을 출판할 보람이 있다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
       "sourceGrammarIds": [
-        "n2-011"
+        "n2-011",
+        "n2-065",
+        "n2-066",
+        "n2-067"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-011-05",
+      "id": "so-created-n2-011-10",
       "level": "N2",
-      "sentence": "この子は教えたことはすぐ覚えるので、教えがいがある。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "이 아이는 가르친 것을 바로 외우므로 가르칠 보람이 있다.",
+      "sentence": "荒れた畑でも収穫量が年々増えており、土を改良しがいがある。",
+      "sentenceWithBlanks": "荒れた畑でも ____ ____ ____ ____",
+      "korean": "황폐했던 밭에서도 수확량이 해마다 늘고 있어 토양을 개량할 보람이 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-011-05-p2",
-          "text": "教えがいがある",
+          "id": "so-created-n2-011-10-p3",
+          "text": "土を改良し",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-011-10-p4",
+          "text": "がいがある。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-011-05-p3",
-          "text": "この子は",
+          "id": "so-created-n2-011-10-p1",
+          "text": "収穫量が年々",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-011-05-p4",
-          "text": "教えたことは",
+          "id": "so-created-n2-011-10-p2",
+          "text": "増えており、",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-011-05-p1",
-          "text": "すぐ覚えるので",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-011-05-p3",
-        "so-extra20-n2-011-05-p4",
-        "so-extra20-n2-011-05-p1",
-        "so-extra20-n2-011-05-p2"
+        "so-created-n2-011-10-p1",
+        "so-created-n2-011-10-p2",
+        "so-created-n2-011-10-p3",
+        "so-created-n2-011-10-p4"
       ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '황폐했던 밭에서도 수확량이 해마다 늘고 있어 토양을 개량할 보람이 있다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
       "sourceGrammarIds": [
-        "n2-011"
+        "n2-011",
+        "n2-065",
+        "n2-066",
+        "n2-067"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-011-06",
+      "id": "so-created-n2-011-11",
       "level": "N2",
-      "sentence": "この子は教えたことはすぐ覚えるので、教えがいがある。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "이 아이는 가르친 것을 바로 외우므로 가르칠 보람이 있다.",
+      "sentence": "一度断られた取引先が提案に関心を示し始め、粘り強く交渉しがいがある。",
+      "sentenceWithBlanks": "一度断られた取引先が提案に ____ ____ ____ ____",
+      "korean": "한 번 거절했던 거래처가 제안에 관심을 보이기 시작해 끈기 있게 협상할 보람이 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-011-06-p1",
-          "text": "すぐ覚えるので",
+          "id": "so-created-n2-011-11-p2",
+          "text": "始め、粘り",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-011-11-p3",
+          "text": "強く交渉し",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-011-06-p2",
-          "text": "教えがいがある",
+          "id": "so-created-n2-011-11-p4",
+          "text": "がいがある。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-011-06-p3",
-          "text": "この子は",
+          "id": "so-created-n2-011-11-p1",
+          "text": "関心を示し",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-011-06-p4",
-          "text": "教えたことは",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-011-06-p3",
-        "so-extra20-n2-011-06-p4",
-        "so-extra20-n2-011-06-p1",
-        "so-extra20-n2-011-06-p2"
+        "so-created-n2-011-11-p1",
+        "so-created-n2-011-11-p2",
+        "so-created-n2-011-11-p3",
+        "so-created-n2-011-11-p4"
       ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '한 번 거절했던 거래처가 제안에 관심을 보이기 시작해 끈기 있게 협상할 보람이 있다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
       "sourceGrammarIds": [
-        "n2-011"
+        "n2-011",
+        "n2-065",
+        "n2-066",
+        "n2-067"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-011-07",
+      "id": "so-created-n2-011-12",
       "level": "N2",
-      "sentence": "時間とお金を使って遠くまで来たかいもなく、名物の桜はほとんど散ってしまっていた。",
-      "sentenceWithBlanks": "時間とお金を使って遠くまで来た ____ ____ ____ ____",
-      "korean": "시간과 돈을 들여 멀리 왔지만 보람도 없이 벚꽃은 거의 져 있었다.",
+      "sentence": "少ない材料から意外な味を生み出せる料理は、工夫しがいがある。",
+      "sentenceWithBlanks": "少ない ____ ____ ____ ____",
+      "korean": "적은 재료로 의외의 맛을 만들어 낼 수 있는 요리는 궁리할 보람이 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-011-07-p4",
-          "text": "かいもなく",
+          "id": "so-created-n2-011-12-p1",
+          "text": "材料から意外な",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-011-07-p1",
-          "text": "名物の桜は",
+          "id": "so-created-n2-011-12-p2",
+          "text": "味を生み出せる",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-011-07-p2",
-          "text": "ほとんど散って",
+          "id": "so-created-n2-011-12-p3",
+          "text": "料理は、工夫し",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-011-07-p3",
-          "text": "しまっていた",
+          "id": "so-created-n2-011-12-p4",
+          "text": "がいがある。",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-011-07-p4",
-        "so-extra20-n2-011-07-p1",
-        "so-extra20-n2-011-07-p2",
-        "so-extra20-n2-011-07-p3"
+        "so-created-n2-011-12-p1",
+        "so-created-n2-011-12-p2",
+        "so-created-n2-011-12-p3",
+        "so-created-n2-011-12-p4"
       ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '적은 재료로 의외의 맛을 만들어 낼 수 있는 요리는 궁리할 보람이 있다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
       "sourceGrammarIds": [
-        "n2-011"
+        "n2-011",
+        "n2-065",
+        "n2-066",
+        "n2-067"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-011-08",
+      "id": "so-created-n2-011-13",
       "level": "N2",
-      "sentence": "この子は教えたことはすぐ覚えるので、教えがいがある。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "이 아이는 가르친 것을 바로 외우므로 가르칠 보람이 있다.",
+      "sentence": "何度修理しても持ち主が大切に使ってくれる時計には、直しがいがある。",
+      "sentenceWithBlanks": "何度修理しても ____ ____ ____ ____",
+      "korean": "몇 번을 수리해도 주인이 소중히 사용해 주는 시계는 고칠 보람이 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-011-08-p3",
-          "text": "すぐ覚えるので",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-011-08-p4",
-          "text": "教えがいがある",
+          "id": "so-created-n2-011-13-p4",
+          "text": "がいがある。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-011-08-p1",
-          "text": "この子は",
+          "id": "so-created-n2-011-13-p1",
+          "text": "持ち主が大切に",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-011-08-p2",
-          "text": "教えたことは",
+          "id": "so-created-n2-011-13-p2",
+          "text": "使ってくれる",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-011-13-p3",
+          "text": "時計には、直し",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-011-08-p1",
-        "so-extra20-n2-011-08-p2",
-        "so-extra20-n2-011-08-p3",
-        "so-extra20-n2-011-08-p4"
+        "so-created-n2-011-13-p1",
+        "so-created-n2-011-13-p2",
+        "so-created-n2-011-13-p3",
+        "so-created-n2-011-13-p4"
       ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '몇 번을 수리해도 주인이 소중히 사용해 주는 시계는 고칠 보람이 있다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
       "sourceGrammarIds": [
-        "n2-011"
+        "n2-011",
+        "n2-065",
+        "n2-066",
+        "n2-067"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-011-09",
+      "id": "so-created-n2-011-14",
       "level": "N2",
-      "sentence": "時間とお金を使って遠くまで来たかいもなく、名物の桜はほとんど散ってしまっていた。",
-      "sentenceWithBlanks": "時間とお金を使って遠くまで来た ____ ____ ____ ____",
-      "korean": "시간과 돈을 들여 멀리 왔지만 보람도 없이 벚꽃은 거의 져 있었다.",
+      "sentence": "住民の避難時間が確実に短くなるなら、この防災計画は見直しがいがある。",
+      "sentenceWithBlanks": "住民の避難 ____ ____ ____ ____",
+      "korean": "주민들의 대피 시간이 확실히 짧아진다면 이 방재 계획은 재검토할 보람이 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-011-09-p2",
-          "text": "かいもなく",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-011-09-p3",
-          "text": "名物の桜は",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-011-09-p4",
-          "text": "ほとんど散って",
+          "id": "so-created-n2-011-14-p3",
+          "text": "防災計画は見直し",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-011-09-p1",
-          "text": "しまっていた",
+          "id": "so-created-n2-011-14-p4",
+          "text": "がいがある。",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-011-14-p1",
+          "text": "時間が確実に",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-011-14-p2",
+          "text": "短くなるなら、この",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-011-09-p2",
-        "so-extra20-n2-011-09-p3",
-        "so-extra20-n2-011-09-p4",
-        "so-extra20-n2-011-09-p1"
+        "so-created-n2-011-14-p1",
+        "so-created-n2-011-14-p2",
+        "so-created-n2-011-14-p3",
+        "so-created-n2-011-14-p4"
       ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '주민들의 대피 시간이 확실히 짧아진다면 이 방재 계획은 재검토할 보람이 있다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
       "sourceGrammarIds": [
-        "n2-011"
+        "n2-011",
+        "n2-065",
+        "n2-066",
+        "n2-067"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-011-10",
+      "id": "so-created-n2-011-15",
       "level": "N2",
-      "sentence": "この子は教えたことはすぐ覚えるので、教えがいがある。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "이 아이는 가르친 것을 바로 외우므로 가르칠 보람이 있다.",
+      "sentence": "弟が毎月少しずつ借金を返しているのを見ると、保証人になって支えがいがある。",
+      "sentenceWithBlanks": "弟が毎月少しずつ ____ ____ ____ ____",
+      "korean": "남동생이 매달 조금씩 빚을 갚는 모습을 보면 보증인이 되어 도운 보람이 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-011-10-p1",
-          "text": "すぐ覚えるので",
+          "id": "so-created-n2-011-15-p2",
+          "text": "見ると、保証",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-011-15-p3",
+          "text": "人になって支え",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-011-10-p2",
-          "text": "教えがいがある",
+          "id": "so-created-n2-011-15-p4",
+          "text": "がいがある。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-011-10-p3",
-          "text": "この子は",
+          "id": "so-created-n2-011-15-p1",
+          "text": "借金を返しているのを",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-011-10-p4",
-          "text": "教えたことは",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-011-10-p3",
-        "so-extra20-n2-011-10-p4",
-        "so-extra20-n2-011-10-p1",
-        "so-extra20-n2-011-10-p2"
+        "so-created-n2-011-15-p1",
+        "so-created-n2-011-15-p2",
+        "so-created-n2-011-15-p3",
+        "so-created-n2-011-15-p4"
       ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '남동생이 매달 조금씩 빚을 갚는 모습을 보면 보증인이 되어 도운 보람이 있다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
       "sourceGrammarIds": [
-        "n2-011"
+        "n2-011",
+        "n2-065",
+        "n2-066",
+        "n2-067"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-011-11",
+      "id": "so-created-n2-011-16",
       "level": "N2",
-      "sentence": "この子は教えたことはすぐ覚えるので、教えがいがある。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "이 아이는 가르친 것을 바로 외우므로 가르칠 보람이 있다.",
+      "sentence": "森に野鳥が戻ってきたことで、長年植樹を続けがいがあると確信した。",
+      "sentenceWithBlanks": "森に野鳥が ____ ____ ____ ____",
+      "korean": "숲에 들새가 돌아온 것을 보고 오랫동안 나무 심기를 계속한 보람이 있다고 확신했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-011-11-p4",
-          "text": "教えたことは",
+          "id": "so-created-n2-011-16-p1",
+          "text": "戻ってきたことで、",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-011-16-p2",
+          "text": "長年植樹を",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-011-11-p1",
-          "text": "すぐ覚えるので",
+          "id": "so-created-n2-011-16-p3",
+          "text": "続けがいがある",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-011-11-p2",
-          "text": "教えがいがある",
+          "id": "so-created-n2-011-16-p4",
+          "text": "と確信した。",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-011-11-p3",
-          "text": "この子は",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-011-11-p3",
-        "so-extra20-n2-011-11-p4",
-        "so-extra20-n2-011-11-p1",
-        "so-extra20-n2-011-11-p2"
+        "so-created-n2-011-16-p1",
+        "so-created-n2-011-16-p2",
+        "so-created-n2-011-16-p3",
+        "so-created-n2-011-16-p4"
       ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '숲에 들새가 돌아온 것을 보고 오랫동안 나무 심기를 계속한 보람이 있다고 확신했다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
       "sourceGrammarIds": [
-        "n2-011"
+        "n2-011",
+        "n2-065",
+        "n2-066",
+        "n2-067"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-011-12",
+      "id": "so-created-n2-011-17",
       "level": "N2",
-      "sentence": "時間とお金を使って遠くまで来たかいもなく、名物の桜はほとんど散ってしまっていた。",
-      "sentenceWithBlanks": "時間とお金を使って遠くまで来た ____ ____ ____ ____",
-      "korean": "시간과 돈을 들여 멀리 왔지만 보람도 없이 벚꽃은 거의 져 있었다.",
+      "sentence": "高齢の客が安心して買い物できる店なら、働きがいがある。",
+      "sentenceWithBlanks": "高齢の ____ ____ ____ ____",
+      "korean": "고령의 손님이 안심하고 쇼핑할 수 있는 가게라면 일할 보람이 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-011-12-p3",
-          "text": "しまっていた",
+          "id": "so-created-n2-011-17-p4",
+          "text": "がいがある。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-011-12-p4",
-          "text": "かいもなく",
+          "id": "so-created-n2-011-17-p1",
+          "text": "客が安心して",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-011-12-p1",
-          "text": "名物の桜は",
+          "id": "so-created-n2-011-17-p2",
+          "text": "買い物できる",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-011-12-p2",
-          "text": "ほとんど散って",
+          "id": "so-created-n2-011-17-p3",
+          "text": "店なら、働き",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-011-12-p4",
-        "so-extra20-n2-011-12-p1",
-        "so-extra20-n2-011-12-p2",
-        "so-extra20-n2-011-12-p3"
+        "so-created-n2-011-17-p1",
+        "so-created-n2-011-17-p2",
+        "so-created-n2-011-17-p3",
+        "so-created-n2-011-17-p4"
       ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '고령의 손님이 안심하고 쇼핑할 수 있는 가게라면 일할 보람이 있다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
       "sourceGrammarIds": [
-        "n2-011"
+        "n2-011",
+        "n2-065",
+        "n2-066",
+        "n2-067"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-011-13",
+      "id": "so-created-n2-011-18",
       "level": "N2",
-      "sentence": "この子は教えたことはすぐ覚えるので、教えがいがある。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "이 아이는 가르친 것을 바로 외우므로 가르칠 보람이 있다.",
+      "sentence": "家族の思い出が詰まった古民家だけに、手間をかけて残しがいがある。",
+      "sentenceWithBlanks": "家族の ____ ____ ____ ____",
+      "korean": "가족의 추억이 가득한 오래된 민가인 만큼 손을 들여 보존할 보람이 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-011-13-p2",
-          "text": "教えたことは",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-011-13-p3",
-          "text": "すぐ覚えるので",
+          "id": "so-created-n2-011-18-p3",
+          "text": "手間をかけて",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-011-13-p4",
-          "text": "教えがいがある",
+          "id": "so-created-n2-011-18-p4",
+          "text": "残しがいがある。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-011-13-p1",
-          "text": "この子は",
+          "id": "so-created-n2-011-18-p1",
+          "text": "思い出が詰まった",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-011-18-p2",
+          "text": "古民家だけに、",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-011-13-p1",
-        "so-extra20-n2-011-13-p2",
-        "so-extra20-n2-011-13-p3",
-        "so-extra20-n2-011-13-p4"
+        "so-created-n2-011-18-p1",
+        "so-created-n2-011-18-p2",
+        "so-created-n2-011-18-p3",
+        "so-created-n2-011-18-p4"
       ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '가족의 추억이 가득한 오래된 민가인 만큼 손을 들여 보존할 보람이 있다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
       "sourceGrammarIds": [
-        "n2-011"
+        "n2-011",
+        "n2-065",
+        "n2-066",
+        "n2-067"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-011-14",
+      "id": "so-created-n2-011-19",
       "level": "N2",
-      "sentence": "時間とお金を使って遠くまで来たかいもなく、名物の桜はほとんど散ってしまっていた。",
-      "sentenceWithBlanks": "時間とお金を使って遠くまで来た ____ ____ ____ ____",
-      "korean": "시간과 돈을 들여 멀리 왔지만 보람도 없이 벚꽃은 거의 져 있었다.",
+      "sentence": "寄付金の使い道が具体的に公開されている団体は、応援しがいがある。",
+      "sentenceWithBlanks": "寄付金の ____ ____ ____ ____",
+      "korean": "기부금의 사용처를 구체적으로 공개하는 단체는 응원할 보람이 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-011-14-p1",
-          "text": "しまっていた",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-011-14-p2",
-          "text": "かいもなく",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-011-14-p3",
-          "text": "名物の桜は",
+          "id": "so-created-n2-011-19-p2",
+          "text": "公開されている",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-011-14-p4",
-          "text": "ほとんど散って",
+          "id": "so-created-n2-011-19-p3",
+          "text": "団体は、応援し",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-011-19-p4",
+          "text": "がいがある。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-011-19-p1",
+          "text": "使い道が具体的に",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-011-14-p2",
-        "so-extra20-n2-011-14-p3",
-        "so-extra20-n2-011-14-p4",
-        "so-extra20-n2-011-14-p1"
+        "so-created-n2-011-19-p1",
+        "so-created-n2-011-19-p2",
+        "so-created-n2-011-19-p3",
+        "so-created-n2-011-19-p4"
       ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '기부금의 사용처를 구체적으로 공개하는 단체는 응원할 보람이 있다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
       "sourceGrammarIds": [
-        "n2-011"
+        "n2-011",
+        "n2-065",
+        "n2-066",
+        "n2-067"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-011-15",
+      "id": "so-created-n2-011-20",
       "level": "N2",
-      "sentence": "この子は教えたことはすぐ覚えるので、教えがいがある。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "이 아이는 가르친 것을 바로 외우므로 가르칠 보람이 있다.",
+      "sentence": "新人記者が独自の視点で記事を書くようになり、厳しく指導しがいがある。",
+      "sentenceWithBlanks": "新人記者が ____ ____ ____ ____",
+      "korean": "신입 기자가 독자적인 시각으로 기사를 쓰게 되어 엄격하게 지도할 보람이 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-011-15-p4",
-          "text": "教えたことは",
+          "id": "so-created-n2-011-20-p1",
+          "text": "独自の視点で記事を",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-011-20-p2",
+          "text": "書くようになり、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-011-15-p1",
-          "text": "すぐ覚えるので",
+          "id": "so-created-n2-011-20-p3",
+          "text": "厳しく指導し",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-011-15-p2",
-          "text": "教えがいがある",
+          "id": "so-created-n2-011-20-p4",
+          "text": "がいがある。",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-011-15-p3",
-          "text": "この子は",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-011-15-p3",
-        "so-extra20-n2-011-15-p4",
-        "so-extra20-n2-011-15-p1",
-        "so-extra20-n2-011-15-p2"
+        "so-created-n2-011-20-p1",
+        "so-created-n2-011-20-p2",
+        "so-created-n2-011-20-p3",
+        "so-created-n2-011-20-p4"
       ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '신입 기자가 독자적인 시각으로 기사를 쓰게 되어 엄격하게 지도할 보람이 있다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
       "sourceGrammarIds": [
-        "n2-011"
+        "n2-011",
+        "n2-065",
+        "n2-066",
+        "n2-067"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-011-16",
+      "id": "so-created-n2-011-21",
       "level": "N2",
-      "sentence": "この子は教えたことはすぐ覚えるので、教えがいがある。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "이 아이는 가르친 것을 바로 외우므로 가르칠 보람이 있다.",
+      "sentence": "一人暮らしの母が毎晩楽しそうに話すので、欠かさず電話しがいがある。",
+      "sentenceWithBlanks": "一人暮らしの ____ ____ ____ ____",
+      "korean": "혼자 사는 어머니가 매일 밤 즐겁게 이야기하시니 빠짐없이 전화할 보람이 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-011-16-p3",
-          "text": "この子は",
+          "id": "so-created-n2-011-21-p4",
+          "text": "がいがある。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-011-21-p1",
+          "text": "母が毎晩楽しそうに",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-011-16-p4",
-          "text": "教えたことは",
+          "id": "so-created-n2-011-21-p2",
+          "text": "話すので、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-011-16-p1",
-          "text": "すぐ覚えるので",
+          "id": "so-created-n2-011-21-p3",
+          "text": "欠かさず電話し",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-011-16-p2",
-          "text": "教えがいがある",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-011-16-p3",
-        "so-extra20-n2-011-16-p4",
-        "so-extra20-n2-011-16-p1",
-        "so-extra20-n2-011-16-p2"
+        "so-created-n2-011-21-p1",
+        "so-created-n2-011-21-p2",
+        "so-created-n2-011-21-p3",
+        "so-created-n2-011-21-p4"
       ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '혼자 사는 어머니가 매일 밤 즐겁게 이야기하시니 빠짐없이 전화할 보람이 있다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
       "sourceGrammarIds": [
-        "n2-011"
+        "n2-011",
+        "n2-065",
+        "n2-066",
+        "n2-067"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-011-17",
+      "id": "so-created-n2-011-22",
       "level": "N2",
-      "sentence": "時間とお金を使って遠くまで来たかいもなく、名物の桜はほとんど散ってしまっていた。",
-      "sentenceWithBlanks": "時間とお金を使って遠くまで来た ____ ____ ____ ____",
-      "korean": "시간과 돈을 들여 멀리 왔지만 보람도 없이 벚꽃은 거의 져 있었다.",
+      "sentence": "市場に出せない魚でも喜んで食べる客がいるなら、新しい商品を考えがいがある。",
+      "sentenceWithBlanks": "市場に出せない魚でも ____ ____ ____ ____",
+      "korean": "시장에 내놓을 수 없는 생선도 기꺼이 먹는 손님이 있다면 새 상품을 고안할 보람이 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-011-17-p2",
-          "text": "ほとんど散って",
+          "id": "so-created-n2-011-22-p3",
+          "text": "新しい商品を",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-011-17-p3",
-          "text": "しまっていた",
+          "id": "so-created-n2-011-22-p4",
+          "text": "考えがいがある。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-011-17-p4",
-          "text": "かいもなく",
+          "id": "so-created-n2-011-22-p1",
+          "text": "喜んで食べる",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-011-17-p1",
-          "text": "名物の桜は",
+          "id": "so-created-n2-011-22-p2",
+          "text": "客がいるなら、",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-011-17-p4",
-        "so-extra20-n2-011-17-p1",
-        "so-extra20-n2-011-17-p2",
-        "so-extra20-n2-011-17-p3"
+        "so-created-n2-011-22-p1",
+        "so-created-n2-011-22-p2",
+        "so-created-n2-011-22-p3",
+        "so-created-n2-011-22-p4"
       ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '시장에 내놓을 수 없는 생선도 기꺼이 먹는 손님이 있다면 새 상품을 고안할 보람이 있다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
       "sourceGrammarIds": [
-        "n2-011"
+        "n2-011",
+        "n2-065",
+        "n2-066",
+        "n2-067"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-011-18",
+      "id": "so-created-n2-011-23",
       "level": "N2",
-      "sentence": "この子は教えたことはすぐ覚えるので、教えがいがある。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "이 아이는 가르친 것을 바로 외우므로 가르칠 보람이 있다.",
+      "sentence": "難民の家族が安全な住居を得られる仕事には、取り組みがいがある。",
+      "sentenceWithBlanks": "難民の ____ ____ ____ ____",
+      "korean": "난민 가족이 안전한 주거를 얻을 수 있게 하는 일은 매진할 보람이 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-011-18-p1",
-          "text": "この子は",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-011-18-p2",
-          "text": "教えたことは",
+          "id": "so-created-n2-011-23-p2",
+          "text": "住居を得られる",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-011-18-p3",
-          "text": "すぐ覚えるので",
+          "id": "so-created-n2-011-23-p3",
+          "text": "仕事には、取り組み",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-011-18-p4",
-          "text": "教えがいがある",
+          "id": "so-created-n2-011-23-p4",
+          "text": "がいがある。",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-011-23-p1",
+          "text": "家族が安全な",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-011-18-p1",
-        "so-extra20-n2-011-18-p2",
-        "so-extra20-n2-011-18-p3",
-        "so-extra20-n2-011-18-p4"
+        "so-created-n2-011-23-p1",
+        "so-created-n2-011-23-p2",
+        "so-created-n2-011-23-p3",
+        "so-created-n2-011-23-p4"
       ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '난민 가족이 안전한 주거를 얻을 수 있게 하는 일은 매진할 보람이 있다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
       "sourceGrammarIds": [
-        "n2-011"
+        "n2-011",
+        "n2-065",
+        "n2-066",
+        "n2-067"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-011-19",
+      "id": "so-created-n2-011-24",
       "level": "N2",
-      "sentence": "時間とお金を使って遠くまで来たかいもなく、名物の桜はほとんど散ってしまっていた。",
-      "sentenceWithBlanks": "時間とお金を使って遠くまで来た ____ ____ ____ ____",
-      "korean": "시간과 돈을 들여 멀리 왔지만 보람도 없이 벚꽃은 거의 져 있었다.",
+      "sentence": "わずかな証拠から事件の全体像に近づけるため、調べがいがある。",
+      "sentenceWithBlanks": "わずかな ____ ____ ____ ____",
+      "korean": "작은 증거만으로도 사건의 전체 모습에 다가갈 수 있어서 조사할 보람이 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-011-19-p4",
-          "text": "ほとんど散って",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-011-19-p1",
-          "text": "しまっていた",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-011-19-p2",
-          "text": "かいもなく",
+          "id": "so-created-n2-011-24-p1",
+          "text": "証拠から",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-011-19-p3",
-          "text": "名物の桜は",
+          "id": "so-created-n2-011-24-p2",
+          "text": "事件の全体像に",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-011-24-p3",
+          "text": "近づけるため、",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-011-24-p4",
+          "text": "調べがいがある。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-011-19-p2",
-        "so-extra20-n2-011-19-p3",
-        "so-extra20-n2-011-19-p4",
-        "so-extra20-n2-011-19-p1"
+        "so-created-n2-011-24-p1",
+        "so-created-n2-011-24-p2",
+        "so-created-n2-011-24-p3",
+        "so-created-n2-011-24-p4"
       ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '작은 증거만으로도 사건의 전체 모습에 다가갈 수 있어서 조사할 보람이 있다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
       "sourceGrammarIds": [
-        "n2-011"
+        "n2-011",
+        "n2-065",
+        "n2-066",
+        "n2-067"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-011-20",
+      "id": "so-created-n2-011-25",
       "level": "N2",
-      "sentence": "この子は教えたことはすぐ覚えるので、教えがいがある。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "이 아이는 가르친 것을 바로 외우므로 가르칠 보람이 있다.",
+      "sentence": "利用者の声が運行改善に直接反映される路線は、意見を伝えがいがある。",
+      "sentenceWithBlanks": "利用者の声が運行 ____ ____ ____ ____",
+      "korean": "이용자의 목소리가 운행 개선에 직접 반영되는 노선은 의견을 전달할 보람이 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-011-20-p3",
-          "text": "この子は",
+          "id": "so-created-n2-011-25-p4",
+          "text": "伝えがいがある。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-011-25-p1",
+          "text": "改善に直接",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-011-20-p4",
-          "text": "教えたことは",
+          "id": "so-created-n2-011-25-p2",
+          "text": "反映される",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-011-20-p1",
-          "text": "すぐ覚えるので",
+          "id": "so-created-n2-011-25-p3",
+          "text": "路線は、意見を",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-011-20-p2",
-          "text": "教えがいがある",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-011-20-p3",
-        "so-extra20-n2-011-20-p4",
-        "so-extra20-n2-011-20-p1",
-        "so-extra20-n2-011-20-p2"
+        "so-created-n2-011-25-p1",
+        "so-created-n2-011-25-p2",
+        "so-created-n2-011-25-p3",
+        "so-created-n2-011-25-p4"
       ],
-      "explanation": "「甲斐があって」는 ~한 보람이 있어서라는 뜻이다. 노력·시간·돈을 들인 결과 좋은 성과가 나옴.",
+      "explanation": "「がいがある」는 '~한 보람이 있어서'라는 뜻을 나타낸다. 이 문장에서는 '이용자의 목소리가 운행 개선에 직접 반영되는 노선은 의견을 전달할 보람이 있다.'라는 상황에 쓰였으며, 노력·시간·돈을 들인 결과 좋은 성과가 나옴. 주의할 점은 甲斐がある는 '노력에 보람', だけあって는 '그만한 이유가 있어 납득'. 초점이 다름.",
       "sourceGrammarIds": [
-        "n2-011"
+        "n2-011",
+        "n2-065",
+        "n2-066",
+        "n2-067"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     }
   ]

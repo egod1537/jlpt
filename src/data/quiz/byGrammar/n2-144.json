@@ -267,15 +267,23 @@
       ]
     },
     {
-      "id": "fb-extra-n2-144-1",
+      "id": "fb-created-n2-144-01",
       "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlank": "彼は英語（　　　）、中国語もできる。",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
-      "answerChoiceId": "fb-extra-n2-144-1-a",
+      "sentence": "この病院では、平日はもとより、休日や深夜にも救急患者を受け入れている。",
+      "sentenceWithBlank": "この病院では、平日（　　　）、休日や深夜にも救急患者を受け入れている。",
+      "korean": "이 병원에서는 평일은 물론이고 휴일이나 심야에도 응급 환자를 받고 있다.",
+      "answerChoiceId": "fb-created-n2-144-01-a",
       "choices": [
         {
-          "id": "fb-extra-n2-144-1-b",
+          "id": "fb-created-n2-144-01-a",
+          "text": "はもとより",
+          "grammarId": "n2-144",
+          "baseExpression": "はもとより",
+          "conjugatedExpression": "はもとより",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-144-01-b",
           "text": "きり",
           "grammarId": "n2-031",
           "baseExpression": "きり",
@@ -283,7 +291,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-144-1-c",
+          "id": "fb-created-n2-144-01-c",
           "text": "きる",
           "grammarId": "n2-032",
           "baseExpression": "きる/きれる/きれない",
@@ -291,23 +299,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-144-1-d",
+          "id": "fb-created-n2-144-01-d",
           "text": "くせに",
           "grammarId": "n2-033",
           "baseExpression": "くせに",
           "conjugatedExpression": "くせに",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-144-1-a",
-          "text": "はもとより",
-          "grammarId": "n2-144",
-          "baseExpression": "はもとより",
-          "conjugatedExpression": "はもとより",
-          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '이 병원에서는 평일은 물론이고 휴일이나 심야에도 응급 환자를 받고 있다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
       "sourceGrammarIds": [
         "n2-144",
         "n2-031",
@@ -315,237 +315,20 @@
         "n2-033"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra-n2-144-2",
+      "id": "fb-created-n2-144-02",
       "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlank": "彼は英語（　　　）、中国語もできる。",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
-      "answerChoiceId": "fb-extra-n2-144-2-d",
+      "sentence": "その料亭は、料理の味はもとより、器の美しさでも客を魅了している。",
+      "sentenceWithBlank": "その料亭は、料理の味（　　　）、器の美しさでも客を魅了している。",
+      "korean": "그 요정은 요리의 맛은 물론이고 그릇의 아름다움으로도 손님을 매료시키고 있다.",
+      "answerChoiceId": "fb-created-n2-144-02-a",
       "choices": [
         {
-          "id": "fb-extra-n2-144-2-c",
-          "text": "とは限らない",
-          "grammarId": "n2-094",
-          "baseExpression": "とは限らない",
-          "conjugatedExpression": "とは限らない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-144-2-d",
-          "text": "はもとより",
-          "grammarId": "n2-144",
-          "baseExpression": "はもとより",
-          "conjugatedExpression": "はもとより",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-144-2-a",
-          "text": "とは",
-          "grammarId": "n2-092",
-          "baseExpression": "とは",
-          "conjugatedExpression": "とは",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-144-2-b",
-          "text": "とはいうものの",
-          "grammarId": "n2-093",
-          "baseExpression": "とはいうものの",
-          "conjugatedExpression": "とはいうものの",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
-      "sourceGrammarIds": [
-        "n2-144",
-        "n2-092",
-        "n2-093",
-        "n2-094"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-144-3",
-      "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlank": "彼は英語（　　　）、中国語もできる。",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
-      "answerChoiceId": "fb-extra-n2-144-3-c",
-      "choices": [
-        {
-          "id": "fb-extra-n2-144-3-d",
-          "text": "というものではない",
-          "grammarId": "n2-081",
-          "baseExpression": "というものではない",
-          "conjugatedExpression": "というものではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-144-3-a",
-          "text": "というものは",
-          "grammarId": "n2-082",
-          "baseExpression": "というものは",
-          "conjugatedExpression": "というものは",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-144-3-b",
-          "text": "といえば",
-          "grammarId": "n2-083",
-          "baseExpression": "といえば",
-          "conjugatedExpression": "といえば",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-144-3-c",
-          "text": "はもとより",
-          "grammarId": "n2-144",
-          "baseExpression": "はもとより",
-          "conjugatedExpression": "はもとより",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
-      "sourceGrammarIds": [
-        "n2-144",
-        "n2-081",
-        "n2-082",
-        "n2-083"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-144-4",
-      "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlank": "彼は英語（　　　）、中国語もできる。",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
-      "answerChoiceId": "fb-extra-n2-144-4-b",
-      "choices": [
-        {
-          "id": "fb-extra-n2-144-4-a",
-          "text": "に相違ない",
-          "grammarId": "n2-124",
-          "baseExpression": "に相違ない",
-          "conjugatedExpression": "に相違ない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-144-4-b",
-          "text": "はもとより",
-          "grammarId": "n2-144",
-          "baseExpression": "はもとより",
-          "conjugatedExpression": "はもとより",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-144-4-c",
-          "text": "にしろにしろ",
-          "grammarId": "n2-122",
-          "baseExpression": "にしろにしろ",
-          "conjugatedExpression": "にしろにしろ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-144-4-d",
-          "text": "にすぎない",
-          "grammarId": "n2-123",
-          "baseExpression": "にすぎない",
-          "conjugatedExpression": "にすぎない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
-      "sourceGrammarIds": [
-        "n2-144",
-        "n2-122",
-        "n2-123",
-        "n2-124"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-144-5",
-      "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlank": "彼は英語（　　　）、中国語もできる。",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
-      "answerChoiceId": "fb-extra-n2-144-5-a",
-      "choices": [
-        {
-          "id": "fb-extra-n2-144-5-b",
-          "text": "ともなると",
-          "grammarId": "n2-095",
-          "baseExpression": "ともなると",
-          "conjugatedExpression": "ともなると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-144-5-c",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-144-5-d",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-144-5-a",
-          "text": "はもとより",
-          "grammarId": "n2-144",
-          "baseExpression": "はもとより",
-          "conjugatedExpression": "はもとより",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
-      "sourceGrammarIds": [
-        "n2-144",
-        "n2-095",
-        "n2-096",
-        "n2-097"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-144-01",
-      "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlank": "彼は英語（　　　）、中国語もできる。",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
-      "answerChoiceId": "fb-extra20-n2-144-01-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-144-01-b",
+          "id": "fb-created-n2-144-02-b",
           "text": "きり",
           "grammarId": "n2-031",
           "baseExpression": "きり",
@@ -553,7 +336,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-144-01-c",
+          "id": "fb-created-n2-144-02-c",
           "text": "きる",
           "grammarId": "n2-032",
           "baseExpression": "きる/きれる/きれない",
@@ -561,7 +344,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-144-01-d",
+          "id": "fb-created-n2-144-02-d",
           "text": "くせに",
           "grammarId": "n2-033",
           "baseExpression": "くせに",
@@ -569,7 +352,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-144-01-a",
+          "id": "fb-created-n2-144-02-a",
           "text": "はもとより",
           "grammarId": "n2-144",
           "baseExpression": "はもとより",
@@ -577,7 +360,7 @@
           "isSimilarDistractor": false
         }
       ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '그 요정은 요리의 맛은 물론이고 그릇의 아름다움으로도 손님을 매료시키고 있다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
       "sourceGrammarIds": [
         "n2-144",
         "n2-031",
@@ -585,253 +368,20 @@
         "n2-033"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-144-02",
+      "id": "fb-created-n2-144-03",
       "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlank": "彼は英語（　　　）、中国語もできる。",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
-      "answerChoiceId": "fb-extra20-n2-144-02-d",
+      "sentence": "避難所には、高齢者はもとより、乳幼児やペットへの配慮も求められる。",
+      "sentenceWithBlank": "避難所には、高齢者（　　　）、乳幼児やペットへの配慮も求められる。",
+      "korean": "대피소에는 고령자는 물론이고 영유아와 반려동물에 대한 배려도 요구된다.",
+      "answerChoiceId": "fb-created-n2-144-03-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-144-02-a",
-          "text": "とは",
-          "grammarId": "n2-092",
-          "baseExpression": "とは",
-          "conjugatedExpression": "とは",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-144-02-b",
-          "text": "とはいうものの",
-          "grammarId": "n2-093",
-          "baseExpression": "とはいうものの",
-          "conjugatedExpression": "とはいうものの",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-144-02-c",
-          "text": "とは限らない",
-          "grammarId": "n2-094",
-          "baseExpression": "とは限らない",
-          "conjugatedExpression": "とは限らない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-144-02-d",
-          "text": "はもとより",
-          "grammarId": "n2-144",
-          "baseExpression": "はもとより",
-          "conjugatedExpression": "はもとより",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
-      "sourceGrammarIds": [
-        "n2-144",
-        "n2-092",
-        "n2-093",
-        "n2-094"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-144-03",
-      "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlank": "彼は英語（　　　）、中国語もできる。",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
-      "answerChoiceId": "fb-extra20-n2-144-03-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-144-03-d",
-          "text": "というものではない",
-          "grammarId": "n2-081",
-          "baseExpression": "というものではない",
-          "conjugatedExpression": "というものではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-144-03-a",
-          "text": "というものは",
-          "grammarId": "n2-082",
-          "baseExpression": "というものは",
-          "conjugatedExpression": "というものは",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-144-03-b",
-          "text": "といえば",
-          "grammarId": "n2-083",
-          "baseExpression": "といえば",
-          "conjugatedExpression": "といえば",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-144-03-c",
-          "text": "はもとより",
-          "grammarId": "n2-144",
-          "baseExpression": "はもとより",
-          "conjugatedExpression": "はもとより",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
-      "sourceGrammarIds": [
-        "n2-144",
-        "n2-081",
-        "n2-082",
-        "n2-083"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-144-04",
-      "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlank": "彼は英語（　　　）、中国語もできる。",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
-      "answerChoiceId": "fb-extra20-n2-144-04-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-144-04-c",
-          "text": "にしろにしろ",
-          "grammarId": "n2-122",
-          "baseExpression": "にしろにしろ",
-          "conjugatedExpression": "にしろにしろ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-144-04-d",
-          "text": "にすぎない",
-          "grammarId": "n2-123",
-          "baseExpression": "にすぎない",
-          "conjugatedExpression": "にすぎない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-144-04-a",
-          "text": "に相違ない",
-          "grammarId": "n2-124",
-          "baseExpression": "に相違ない",
-          "conjugatedExpression": "に相違ない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-144-04-b",
-          "text": "はもとより",
-          "grammarId": "n2-144",
-          "baseExpression": "はもとより",
-          "conjugatedExpression": "はもとより",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
-      "sourceGrammarIds": [
-        "n2-144",
-        "n2-122",
-        "n2-123",
-        "n2-124"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-144-05",
-      "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlank": "彼は英語（　　　）、中国語もできる。",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
-      "answerChoiceId": "fb-extra20-n2-144-05-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-144-05-b",
-          "text": "ともなると",
-          "grammarId": "n2-095",
-          "baseExpression": "ともなると",
-          "conjugatedExpression": "ともなると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-144-05-c",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-144-05-d",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-144-05-a",
-          "text": "はもとより",
-          "grammarId": "n2-144",
-          "baseExpression": "はもとより",
-          "conjugatedExpression": "はもとより",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
-      "sourceGrammarIds": [
-        "n2-144",
-        "n2-095",
-        "n2-096",
-        "n2-097"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-144-06",
-      "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlank": "彼は英語（　　　）、中国語もできる。",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
-      "answerChoiceId": "fb-extra20-n2-144-06-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-144-06-a",
-          "text": "はもとより",
-          "grammarId": "n2-144",
-          "baseExpression": "はもとより",
-          "conjugatedExpression": "はもとより",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-144-06-b",
-          "text": "きり",
-          "grammarId": "n2-031",
-          "baseExpression": "きり",
-          "conjugatedExpression": "きり",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-144-06-c",
+          "id": "fb-created-n2-144-03-c",
           "text": "きる",
           "grammarId": "n2-032",
           "baseExpression": "きる/きれる/きれない",
@@ -839,253 +389,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-144-06-d",
-          "text": "くせに",
-          "grammarId": "n2-033",
-          "baseExpression": "くせに",
-          "conjugatedExpression": "くせに",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
-      "sourceGrammarIds": [
-        "n2-144",
-        "n2-031",
-        "n2-032",
-        "n2-033"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-144-07",
-      "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlank": "彼は英語（　　　）、中国語もできる。",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
-      "answerChoiceId": "fb-extra20-n2-144-07-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-144-07-d",
-          "text": "はもとより",
-          "grammarId": "n2-144",
-          "baseExpression": "はもとより",
-          "conjugatedExpression": "はもとより",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-144-07-a",
-          "text": "とは",
-          "grammarId": "n2-092",
-          "baseExpression": "とは",
-          "conjugatedExpression": "とは",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-144-07-b",
-          "text": "とはいうものの",
-          "grammarId": "n2-093",
-          "baseExpression": "とはいうものの",
-          "conjugatedExpression": "とはいうものの",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-144-07-c",
-          "text": "とは限らない",
-          "grammarId": "n2-094",
-          "baseExpression": "とは限らない",
-          "conjugatedExpression": "とは限らない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
-      "sourceGrammarIds": [
-        "n2-144",
-        "n2-092",
-        "n2-093",
-        "n2-094"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-144-08",
-      "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlank": "彼は英語（　　　）、中国語もできる。",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
-      "answerChoiceId": "fb-extra20-n2-144-08-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-144-08-c",
-          "text": "はもとより",
-          "grammarId": "n2-144",
-          "baseExpression": "はもとより",
-          "conjugatedExpression": "はもとより",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-144-08-d",
-          "text": "というものではない",
-          "grammarId": "n2-081",
-          "baseExpression": "というものではない",
-          "conjugatedExpression": "というものではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-144-08-a",
-          "text": "というものは",
-          "grammarId": "n2-082",
-          "baseExpression": "というものは",
-          "conjugatedExpression": "というものは",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-144-08-b",
-          "text": "といえば",
-          "grammarId": "n2-083",
-          "baseExpression": "といえば",
-          "conjugatedExpression": "といえば",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
-      "sourceGrammarIds": [
-        "n2-144",
-        "n2-081",
-        "n2-082",
-        "n2-083"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-144-09",
-      "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlank": "彼は英語（　　　）、中国語もできる。",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
-      "answerChoiceId": "fb-extra20-n2-144-09-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-144-09-b",
-          "text": "はもとより",
-          "grammarId": "n2-144",
-          "baseExpression": "はもとより",
-          "conjugatedExpression": "はもとより",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-144-09-c",
-          "text": "にしろにしろ",
-          "grammarId": "n2-122",
-          "baseExpression": "にしろにしろ",
-          "conjugatedExpression": "にしろにしろ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-144-09-d",
-          "text": "にすぎない",
-          "grammarId": "n2-123",
-          "baseExpression": "にすぎない",
-          "conjugatedExpression": "にすぎない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-144-09-a",
-          "text": "に相違ない",
-          "grammarId": "n2-124",
-          "baseExpression": "に相違ない",
-          "conjugatedExpression": "に相違ない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
-      "sourceGrammarIds": [
-        "n2-144",
-        "n2-122",
-        "n2-123",
-        "n2-124"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-144-10",
-      "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlank": "彼は英語（　　　）、中国語もできる。",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
-      "answerChoiceId": "fb-extra20-n2-144-10-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-144-10-a",
-          "text": "はもとより",
-          "grammarId": "n2-144",
-          "baseExpression": "はもとより",
-          "conjugatedExpression": "はもとより",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-144-10-b",
-          "text": "ともなると",
-          "grammarId": "n2-095",
-          "baseExpression": "ともなると",
-          "conjugatedExpression": "ともなると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-144-10-c",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-144-10-d",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
-      "sourceGrammarIds": [
-        "n2-144",
-        "n2-095",
-        "n2-096",
-        "n2-097"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-144-11",
-      "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlank": "彼は英語（　　　）、中国語もできる。",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
-      "answerChoiceId": "fb-extra20-n2-144-11-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-144-11-d",
+          "id": "fb-created-n2-144-03-d",
           "text": "くせに",
           "grammarId": "n2-033",
           "baseExpression": "くせに",
@@ -1093,7 +397,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-144-11-a",
+          "id": "fb-created-n2-144-03-a",
           "text": "はもとより",
           "grammarId": "n2-144",
           "baseExpression": "はもとより",
@@ -1101,285 +405,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-144-11-b",
-          "text": "きり",
-          "grammarId": "n2-031",
-          "baseExpression": "きり",
-          "conjugatedExpression": "きり",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-144-11-c",
-          "text": "きる",
-          "grammarId": "n2-032",
-          "baseExpression": "きる/きれる/きれない",
-          "conjugatedExpression": "きる",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
-      "sourceGrammarIds": [
-        "n2-144",
-        "n2-031",
-        "n2-032",
-        "n2-033"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-144-12",
-      "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlank": "彼は英語（　　　）、中国語もできる。",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
-      "answerChoiceId": "fb-extra20-n2-144-12-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-144-12-c",
-          "text": "とは限らない",
-          "grammarId": "n2-094",
-          "baseExpression": "とは限らない",
-          "conjugatedExpression": "とは限らない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-144-12-d",
-          "text": "はもとより",
-          "grammarId": "n2-144",
-          "baseExpression": "はもとより",
-          "conjugatedExpression": "はもとより",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-144-12-a",
-          "text": "とは",
-          "grammarId": "n2-092",
-          "baseExpression": "とは",
-          "conjugatedExpression": "とは",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-144-12-b",
-          "text": "とはいうものの",
-          "grammarId": "n2-093",
-          "baseExpression": "とはいうものの",
-          "conjugatedExpression": "とはいうものの",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
-      "sourceGrammarIds": [
-        "n2-144",
-        "n2-092",
-        "n2-093",
-        "n2-094"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-144-13",
-      "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlank": "彼は英語（　　　）、中国語もできる。",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
-      "answerChoiceId": "fb-extra20-n2-144-13-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-144-13-b",
-          "text": "といえば",
-          "grammarId": "n2-083",
-          "baseExpression": "といえば",
-          "conjugatedExpression": "といえば",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-144-13-c",
-          "text": "はもとより",
-          "grammarId": "n2-144",
-          "baseExpression": "はもとより",
-          "conjugatedExpression": "はもとより",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-144-13-d",
-          "text": "というものではない",
-          "grammarId": "n2-081",
-          "baseExpression": "というものではない",
-          "conjugatedExpression": "というものではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-144-13-a",
-          "text": "というものは",
-          "grammarId": "n2-082",
-          "baseExpression": "というものは",
-          "conjugatedExpression": "というものは",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
-      "sourceGrammarIds": [
-        "n2-144",
-        "n2-081",
-        "n2-082",
-        "n2-083"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-144-14",
-      "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlank": "彼は英語（　　　）、中国語もできる。",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
-      "answerChoiceId": "fb-extra20-n2-144-14-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-144-14-a",
-          "text": "に相違ない",
-          "grammarId": "n2-124",
-          "baseExpression": "に相違ない",
-          "conjugatedExpression": "に相違ない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-144-14-b",
-          "text": "はもとより",
-          "grammarId": "n2-144",
-          "baseExpression": "はもとより",
-          "conjugatedExpression": "はもとより",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-144-14-c",
-          "text": "にしろにしろ",
-          "grammarId": "n2-122",
-          "baseExpression": "にしろにしろ",
-          "conjugatedExpression": "にしろにしろ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-144-14-d",
-          "text": "にすぎない",
-          "grammarId": "n2-123",
-          "baseExpression": "にすぎない",
-          "conjugatedExpression": "にすぎない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
-      "sourceGrammarIds": [
-        "n2-144",
-        "n2-122",
-        "n2-123",
-        "n2-124"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-144-15",
-      "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlank": "彼は英語（　　　）、中国語もできる。",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
-      "answerChoiceId": "fb-extra20-n2-144-15-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-144-15-d",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-144-15-a",
-          "text": "はもとより",
-          "grammarId": "n2-144",
-          "baseExpression": "はもとより",
-          "conjugatedExpression": "はもとより",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-144-15-b",
-          "text": "ともなると",
-          "grammarId": "n2-095",
-          "baseExpression": "ともなると",
-          "conjugatedExpression": "ともなると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-144-15-c",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
-      "sourceGrammarIds": [
-        "n2-144",
-        "n2-095",
-        "n2-096",
-        "n2-097"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-144-16",
-      "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlank": "彼は英語（　　　）、中国語もできる。",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
-      "answerChoiceId": "fb-extra20-n2-144-16-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-144-16-c",
-          "text": "きる",
-          "grammarId": "n2-032",
-          "baseExpression": "きる/きれる/きれない",
-          "conjugatedExpression": "きる",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-144-16-d",
-          "text": "くせに",
-          "grammarId": "n2-033",
-          "baseExpression": "くせに",
-          "conjugatedExpression": "くせに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-144-16-a",
-          "text": "はもとより",
-          "grammarId": "n2-144",
-          "baseExpression": "はもとより",
-          "conjugatedExpression": "はもとより",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-144-16-b",
+          "id": "fb-created-n2-144-03-b",
           "text": "きり",
           "grammarId": "n2-031",
           "baseExpression": "きり",
@@ -1387,7 +413,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '대피소에는 고령자는 물론이고 영유아와 반려동물에 대한 배려도 요구된다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
       "sourceGrammarIds": [
         "n2-144",
         "n2-031",
@@ -1395,37 +421,28 @@
         "n2-033"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-144-17",
+      "id": "fb-created-n2-144-04",
       "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlank": "彼は英語（　　　）、中国語もできる。",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
-      "answerChoiceId": "fb-extra20-n2-144-17-d",
+      "sentence": "新しい鉄道路線は、通勤客はもとより、地方を訪れる観光客にも利用されている。",
+      "sentenceWithBlank": "新しい鉄道路線は、通勤客（　　　）、地方を訪れる観光客にも利用されている。",
+      "korean": "새 철도 노선은 통근객은 물론이고 지방을 찾는 관광객에게도 이용되고 있다.",
+      "answerChoiceId": "fb-created-n2-144-04-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-144-17-b",
-          "text": "とはいうものの",
-          "grammarId": "n2-093",
-          "baseExpression": "とはいうものの",
-          "conjugatedExpression": "とはいうものの",
+          "id": "fb-created-n2-144-04-d",
+          "text": "くせに",
+          "grammarId": "n2-033",
+          "baseExpression": "くせに",
+          "conjugatedExpression": "くせに",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-144-17-c",
-          "text": "とは限らない",
-          "grammarId": "n2-094",
-          "baseExpression": "とは限らない",
-          "conjugatedExpression": "とは限らない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-144-17-d",
+          "id": "fb-created-n2-144-04-a",
           "text": "はもとより",
           "grammarId": "n2-144",
           "baseExpression": "はもとより",
@@ -1433,53 +450,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-144-17-a",
-          "text": "とは",
-          "grammarId": "n2-092",
-          "baseExpression": "とは",
-          "conjugatedExpression": "とは",
+          "id": "fb-created-n2-144-04-b",
+          "text": "きり",
+          "grammarId": "n2-031",
+          "baseExpression": "きり",
+          "conjugatedExpression": "きり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-144-04-c",
+          "text": "きる",
+          "grammarId": "n2-032",
+          "baseExpression": "きる/きれる/きれない",
+          "conjugatedExpression": "きる",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '새 철도 노선은 통근객은 물론이고 지방을 찾는 관광객에게도 이용되고 있다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
       "sourceGrammarIds": [
         "n2-144",
-        "n2-092",
-        "n2-093",
-        "n2-094"
+        "n2-031",
+        "n2-032",
+        "n2-033"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-144-18",
+      "id": "fb-created-n2-144-05",
       "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlank": "彼は英語（　　　）、中国語もできる。",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
-      "answerChoiceId": "fb-extra20-n2-144-18-c",
+      "sentence": "この職人の家具は、耐久性はもとより、現代的なデザインも高く評価されている。",
+      "sentenceWithBlank": "この職人の家具は、耐久性（　　　）、現代的なデザインも高く評価されている。",
+      "korean": "이 장인의 가구는 내구성은 물론이고 현대적인 디자인도 높이 평가받고 있다.",
+      "answerChoiceId": "fb-created-n2-144-05-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-144-18-a",
-          "text": "というものは",
-          "grammarId": "n2-082",
-          "baseExpression": "というものは",
-          "conjugatedExpression": "というものは",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-144-18-b",
-          "text": "といえば",
-          "grammarId": "n2-083",
-          "baseExpression": "といえば",
-          "conjugatedExpression": "といえば",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-144-18-c",
+          "id": "fb-created-n2-144-05-a",
           "text": "はもとより",
           "grammarId": "n2-144",
           "baseExpression": "はもとより",
@@ -1487,53 +495,121 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-144-18-d",
-          "text": "というものではない",
-          "grammarId": "n2-081",
-          "baseExpression": "というものではない",
-          "conjugatedExpression": "というものではない",
+          "id": "fb-created-n2-144-05-b",
+          "text": "きり",
+          "grammarId": "n2-031",
+          "baseExpression": "きり",
+          "conjugatedExpression": "きり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-144-05-c",
+          "text": "きる",
+          "grammarId": "n2-032",
+          "baseExpression": "きる/きれる/きれない",
+          "conjugatedExpression": "きる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-144-05-d",
+          "text": "くせに",
+          "grammarId": "n2-033",
+          "baseExpression": "くせに",
+          "conjugatedExpression": "くせに",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '이 장인의 가구는 내구성은 물론이고 현대적인 디자인도 높이 평가받고 있다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
       "sourceGrammarIds": [
         "n2-144",
-        "n2-081",
-        "n2-082",
-        "n2-083"
+        "n2-031",
+        "n2-032",
+        "n2-033"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-144-19",
+      "id": "fb-created-n2-144-06",
       "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlank": "彼は英語（　　　）、中国語もできる。",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
-      "answerChoiceId": "fb-extra20-n2-144-19-b",
+      "sentence": "彼女は大会前の練習はもとより、日々の食事管理にも細心の注意を払った。",
+      "sentenceWithBlank": "彼女は大会前の練習（　　　）、日々の食事管理にも細心の注意を払った。",
+      "korean": "그녀는 대회 전 훈련은 물론이고 평소 식단 관리에도 세심한 주의를 기울였다.",
+      "answerChoiceId": "fb-created-n2-144-06-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-144-19-d",
-          "text": "にすぎない",
-          "grammarId": "n2-123",
-          "baseExpression": "にすぎない",
-          "conjugatedExpression": "にすぎない",
+          "id": "fb-created-n2-144-06-b",
+          "text": "きり",
+          "grammarId": "n2-031",
+          "baseExpression": "きり",
+          "conjugatedExpression": "きり",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-144-19-a",
-          "text": "に相違ない",
-          "grammarId": "n2-124",
-          "baseExpression": "に相違ない",
-          "conjugatedExpression": "に相違ない",
+          "id": "fb-created-n2-144-06-c",
+          "text": "きる",
+          "grammarId": "n2-032",
+          "baseExpression": "きる/きれる/きれない",
+          "conjugatedExpression": "きる",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-144-19-b",
+          "id": "fb-created-n2-144-06-d",
+          "text": "くせに",
+          "grammarId": "n2-033",
+          "baseExpression": "くせに",
+          "conjugatedExpression": "くせに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-144-06-a",
+          "text": "はもとより",
+          "grammarId": "n2-144",
+          "baseExpression": "はもとより",
+          "conjugatedExpression": "はもとより",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '그녀는 대회 전 훈련은 물론이고 평소 식단 관리에도 세심한 주의를 기울였다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
+      "sourceGrammarIds": [
+        "n2-144",
+        "n2-031",
+        "n2-032",
+        "n2-033"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-144-07",
+      "level": "N2",
+      "sentence": "改装後のホテルは、客室はもとより、ロビーや庭園まで段差がなくなった。",
+      "sentenceWithBlank": "改装後のホテルは、客室（　　　）、ロビーや庭園まで段差がなくなった。",
+      "korean": "개조 후의 호텔은 객실은 물론이고 로비와 정원까지 단차가 없어졌다.",
+      "answerChoiceId": "fb-created-n2-144-07-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-144-07-c",
+          "text": "きる",
+          "grammarId": "n2-032",
+          "baseExpression": "きる/きれる/きれない",
+          "conjugatedExpression": "きる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-144-07-d",
+          "text": "くせに",
+          "grammarId": "n2-033",
+          "baseExpression": "くせに",
+          "conjugatedExpression": "くせに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-144-07-a",
           "text": "はもとより",
           "grammarId": "n2-144",
           "baseExpression": "はもとより",
@@ -1541,53 +617,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-144-19-c",
-          "text": "にしろにしろ",
-          "grammarId": "n2-122",
-          "baseExpression": "にしろにしろ",
-          "conjugatedExpression": "にしろにしろ",
+          "id": "fb-created-n2-144-07-b",
+          "text": "きり",
+          "grammarId": "n2-031",
+          "baseExpression": "きり",
+          "conjugatedExpression": "きり",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '개조 후의 호텔은 객실은 물론이고 로비와 정원까지 단차가 없어졌다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
       "sourceGrammarIds": [
         "n2-144",
-        "n2-122",
-        "n2-123",
-        "n2-124"
+        "n2-031",
+        "n2-032",
+        "n2-033"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-144-20",
+      "id": "fb-created-n2-144-08",
       "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlank": "彼は英語（　　　）、中国語もできる。",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
-      "answerChoiceId": "fb-extra20-n2-144-20-a",
+      "sentence": "災害に備え、食料はもとより、携帯ラジオや予備電池も倉庫に保管した。",
+      "sentenceWithBlank": "災害に備え、食料（　　　）、携帯ラジオや予備電池も倉庫に保管した。",
+      "korean": "재해에 대비해 식량은 물론이고 휴대용 라디오와 여분의 건전지도 창고에 보관했다.",
+      "answerChoiceId": "fb-created-n2-144-08-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-144-20-c",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
+          "id": "fb-created-n2-144-08-d",
+          "text": "くせに",
+          "grammarId": "n2-033",
+          "baseExpression": "くせに",
+          "conjugatedExpression": "くせに",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-144-20-d",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-144-20-a",
+          "id": "fb-created-n2-144-08-a",
           "text": "はもとより",
           "grammarId": "n2-144",
           "baseExpression": "はもとより",
@@ -1595,25 +662,933 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-144-20-b",
-          "text": "ともなると",
-          "grammarId": "n2-095",
-          "baseExpression": "ともなると",
-          "conjugatedExpression": "ともなると",
+          "id": "fb-created-n2-144-08-b",
+          "text": "きり",
+          "grammarId": "n2-031",
+          "baseExpression": "きり",
+          "conjugatedExpression": "きり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-144-08-c",
+          "text": "きる",
+          "grammarId": "n2-032",
+          "baseExpression": "きる/きれる/きれない",
+          "conjugatedExpression": "きる",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '재해에 대비해 식량은 물론이고 휴대용 라디오와 여분의 건전지도 창고에 보관했다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
       "sourceGrammarIds": [
         "n2-144",
-        "n2-095",
-        "n2-096",
-        "n2-097"
+        "n2-031",
+        "n2-032",
+        "n2-033"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-144-09",
+      "level": "N2",
+      "sentence": "安定した収穫には、土壌の状態はもとより、気温や降水量の把握も欠かせない。",
+      "sentenceWithBlank": "安定した収穫には、土壌の状態（　　　）、気温や降水量の把握も欠かせない。",
+      "korean": "안정적인 수확을 위해서는 토양 상태는 물론이고 기온과 강수량의 파악도 빼놓을 수 없다.",
+      "answerChoiceId": "fb-created-n2-144-09-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-144-09-a",
+          "text": "はもとより",
+          "grammarId": "n2-144",
+          "baseExpression": "はもとより",
+          "conjugatedExpression": "はもとより",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-144-09-b",
+          "text": "きり",
+          "grammarId": "n2-031",
+          "baseExpression": "きり",
+          "conjugatedExpression": "きり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-144-09-c",
+          "text": "きる",
+          "grammarId": "n2-032",
+          "baseExpression": "きる/きれる/きれない",
+          "conjugatedExpression": "きる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-144-09-d",
+          "text": "くせに",
+          "grammarId": "n2-033",
+          "baseExpression": "くせに",
+          "conjugatedExpression": "くせに",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '안정적인 수확을 위해서는 토양 상태는 물론이고 기온과 강수량의 파악도 빼놓을 수 없다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
+      "sourceGrammarIds": [
+        "n2-144",
+        "n2-031",
+        "n2-032",
+        "n2-033"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-144-10",
+      "level": "N2",
+      "sentence": "就職先を選ぶ際は、給与はもとより、勤務時間の柔軟性も重視した。",
+      "sentenceWithBlank": "就職先を選ぶ際は、給与（　　　）、勤務時間の柔軟性も重視した。",
+      "korean": "취직할 곳을 고를 때는 급여는 물론이고 근무 시간의 유연성도 중시했다.",
+      "answerChoiceId": "fb-created-n2-144-10-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-144-10-b",
+          "text": "きり",
+          "grammarId": "n2-031",
+          "baseExpression": "きり",
+          "conjugatedExpression": "きり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-144-10-c",
+          "text": "きる",
+          "grammarId": "n2-032",
+          "baseExpression": "きる/きれる/きれない",
+          "conjugatedExpression": "きる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-144-10-d",
+          "text": "くせに",
+          "grammarId": "n2-033",
+          "baseExpression": "くせに",
+          "conjugatedExpression": "くせに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-144-10-a",
+          "text": "はもとより",
+          "grammarId": "n2-144",
+          "baseExpression": "はもとより",
+          "conjugatedExpression": "はもとより",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '취직할 곳을 고를 때는 급여는 물론이고 근무 시간의 유연성도 중시했다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
+      "sourceGrammarIds": [
+        "n2-144",
+        "n2-031",
+        "n2-032",
+        "n2-033"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-144-11",
+      "level": "N2",
+      "sentence": "港町の祭りには、地元住民はもとより、海外からの旅行者も大勢集まった。",
+      "sentenceWithBlank": "港町の祭りには、地元住民（　　　）、海外からの旅行者も大勢集まった。",
+      "korean": "항구 도시의 축제에는 지역 주민은 물론이고 해외에서 온 여행객도 많이 모였다.",
+      "answerChoiceId": "fb-created-n2-144-11-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-144-11-c",
+          "text": "きる",
+          "grammarId": "n2-032",
+          "baseExpression": "きる/きれる/きれない",
+          "conjugatedExpression": "きる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-144-11-d",
+          "text": "くせに",
+          "grammarId": "n2-033",
+          "baseExpression": "くせに",
+          "conjugatedExpression": "くせに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-144-11-a",
+          "text": "はもとより",
+          "grammarId": "n2-144",
+          "baseExpression": "はもとより",
+          "conjugatedExpression": "はもとより",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-144-11-b",
+          "text": "きり",
+          "grammarId": "n2-031",
+          "baseExpression": "きり",
+          "conjugatedExpression": "きり",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '항구 도시의 축제에는 지역 주민은 물론이고 해외에서 온 여행객도 많이 모였다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
+      "sourceGrammarIds": [
+        "n2-144",
+        "n2-031",
+        "n2-032",
+        "n2-033"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-144-12",
+      "level": "N2",
+      "sentence": "この美術館では、展示作品はもとより、歴史ある建物そのものも見どころとなっている。",
+      "sentenceWithBlank": "この美術館では、展示作品（　　　）、歴史ある建物そのものも見どころとなっている。",
+      "korean": "이 미술관에서는 전시 작품은 물론이고 유서 깊은 건물 자체도 볼거리가 되고 있다.",
+      "answerChoiceId": "fb-created-n2-144-12-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-144-12-d",
+          "text": "くせに",
+          "grammarId": "n2-033",
+          "baseExpression": "くせに",
+          "conjugatedExpression": "くせに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-144-12-a",
+          "text": "はもとより",
+          "grammarId": "n2-144",
+          "baseExpression": "はもとより",
+          "conjugatedExpression": "はもとより",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-144-12-b",
+          "text": "きり",
+          "grammarId": "n2-031",
+          "baseExpression": "きり",
+          "conjugatedExpression": "きり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-144-12-c",
+          "text": "きる",
+          "grammarId": "n2-032",
+          "baseExpression": "きる/きれる/きれない",
+          "conjugatedExpression": "きる",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '이 미술관에서는 전시 작품은 물론이고 유서 깊은 건물 자체도 볼거리가 되고 있다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
+      "sourceGrammarIds": [
+        "n2-144",
+        "n2-031",
+        "n2-032",
+        "n2-033"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-144-13",
+      "level": "N2",
+      "sentence": "新設された橋は、自動車はもとより、歩行者や自転車の安全にも配慮されている。",
+      "sentenceWithBlank": "新設された橋は、自動車（　　　）、歩行者や自転車の安全にも配慮されている。",
+      "korean": "새로 건설된 다리는 자동차는 물론이고 보행자와 자전거의 안전도 고려하여 설계되었다.",
+      "answerChoiceId": "fb-created-n2-144-13-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-144-13-a",
+          "text": "はもとより",
+          "grammarId": "n2-144",
+          "baseExpression": "はもとより",
+          "conjugatedExpression": "はもとより",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-144-13-b",
+          "text": "きり",
+          "grammarId": "n2-031",
+          "baseExpression": "きり",
+          "conjugatedExpression": "きり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-144-13-c",
+          "text": "きる",
+          "grammarId": "n2-032",
+          "baseExpression": "きる/きれる/きれない",
+          "conjugatedExpression": "きる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-144-13-d",
+          "text": "くせに",
+          "grammarId": "n2-033",
+          "baseExpression": "くせに",
+          "conjugatedExpression": "くせに",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '새로 건설된 다리는 자동차는 물론이고 보행자와 자전거의 안전도 고려하여 설계되었다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
+      "sourceGrammarIds": [
+        "n2-144",
+        "n2-031",
+        "n2-032",
+        "n2-033"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-144-14",
+      "level": "N2",
+      "sentence": "新型の検査機器は、測定精度はもとより、持ち運びやすさにも優れている。",
+      "sentenceWithBlank": "新型の検査機器は、測定精度（　　　）、持ち運びやすさにも優れている。",
+      "korean": "신형 검사 기기는 측정 정확도는 물론이고 휴대성도 뛰어나다.",
+      "answerChoiceId": "fb-created-n2-144-14-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-144-14-b",
+          "text": "きり",
+          "grammarId": "n2-031",
+          "baseExpression": "きり",
+          "conjugatedExpression": "きり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-144-14-c",
+          "text": "きる",
+          "grammarId": "n2-032",
+          "baseExpression": "きる/きれる/きれない",
+          "conjugatedExpression": "きる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-144-14-d",
+          "text": "くせに",
+          "grammarId": "n2-033",
+          "baseExpression": "くせに",
+          "conjugatedExpression": "くせに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-144-14-a",
+          "text": "はもとより",
+          "grammarId": "n2-144",
+          "baseExpression": "はもとより",
+          "conjugatedExpression": "はもとより",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '신형 검사 기기는 측정 정확도는 물론이고 휴대성도 뛰어나다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
+      "sourceGrammarIds": [
+        "n2-144",
+        "n2-031",
+        "n2-032",
+        "n2-033"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-144-15",
+      "level": "N2",
+      "sentence": "二人の結婚を、家族はもとより、疎遠だった旧友まで祝福してくれた。",
+      "sentenceWithBlank": "二人の結婚を、家族（　　　）、疎遠だった旧友まで祝福してくれた。",
+      "korean": "두 사람의 결혼을 가족은 물론이고 소원했던 옛 친구들까지 축복해 주었다.",
+      "answerChoiceId": "fb-created-n2-144-15-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-144-15-c",
+          "text": "きる",
+          "grammarId": "n2-032",
+          "baseExpression": "きる/きれる/きれない",
+          "conjugatedExpression": "きる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-144-15-d",
+          "text": "くせに",
+          "grammarId": "n2-033",
+          "baseExpression": "くせに",
+          "conjugatedExpression": "くせに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-144-15-a",
+          "text": "はもとより",
+          "grammarId": "n2-144",
+          "baseExpression": "はもとより",
+          "conjugatedExpression": "はもとより",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-144-15-b",
+          "text": "きり",
+          "grammarId": "n2-031",
+          "baseExpression": "きり",
+          "conjugatedExpression": "きり",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '두 사람의 결혼을 가족은 물론이고 소원했던 옛 친구들까지 축복해 주었다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
+      "sourceGrammarIds": [
+        "n2-144",
+        "n2-031",
+        "n2-032",
+        "n2-033"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-144-16",
+      "level": "N2",
+      "sentence": "冬季の山小屋では、飲料水はもとより、応急処置用の医薬品も十分に確保している。",
+      "sentenceWithBlank": "冬季の山小屋では、飲料水（　　　）、応急処置用の医薬品も十分に確保している。",
+      "korean": "겨울철 산장에서는 식수는 물론이고 응급 처치용 의약품도 충분히 확보하고 있다.",
+      "answerChoiceId": "fb-created-n2-144-16-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-144-16-d",
+          "text": "くせに",
+          "grammarId": "n2-033",
+          "baseExpression": "くせに",
+          "conjugatedExpression": "くせに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-144-16-a",
+          "text": "はもとより",
+          "grammarId": "n2-144",
+          "baseExpression": "はもとより",
+          "conjugatedExpression": "はもとより",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-144-16-b",
+          "text": "きり",
+          "grammarId": "n2-031",
+          "baseExpression": "きり",
+          "conjugatedExpression": "きり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-144-16-c",
+          "text": "きる",
+          "grammarId": "n2-032",
+          "baseExpression": "きる/きれる/きれない",
+          "conjugatedExpression": "きる",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '겨울철 산장에서는 식수는 물론이고 응급 처치용 의약품도 충분히 확보하고 있다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
+      "sourceGrammarIds": [
+        "n2-144",
+        "n2-031",
+        "n2-032",
+        "n2-033"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-144-17",
+      "level": "N2",
+      "sentence": "情報漏えいを防ぐには、パスワード管理はもとより、アクセス記録の監視も必要だ。",
+      "sentenceWithBlank": "情報漏えいを防ぐには、パスワード管理（　　　）、アクセス記録の監視も必要だ。",
+      "korean": "정보 유출을 막으려면 비밀번호 관리는 물론이고 접속 기록 감시도 필요하다.",
+      "answerChoiceId": "fb-created-n2-144-17-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-144-17-a",
+          "text": "はもとより",
+          "grammarId": "n2-144",
+          "baseExpression": "はもとより",
+          "conjugatedExpression": "はもとより",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-144-17-b",
+          "text": "きり",
+          "grammarId": "n2-031",
+          "baseExpression": "きり",
+          "conjugatedExpression": "きり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-144-17-c",
+          "text": "きる",
+          "grammarId": "n2-032",
+          "baseExpression": "きる/きれる/きれない",
+          "conjugatedExpression": "きる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-144-17-d",
+          "text": "くせに",
+          "grammarId": "n2-033",
+          "baseExpression": "くせに",
+          "conjugatedExpression": "くせに",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '정보 유출을 막으려면 비밀번호 관리는 물론이고 접속 기록 감시도 필요하다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
+      "sourceGrammarIds": [
+        "n2-144",
+        "n2-031",
+        "n2-032",
+        "n2-033"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-144-18",
+      "level": "N2",
+      "sentence": "駅前のパン屋では、焼きたてのパンはもとより、季節のスープも人気を集めている。",
+      "sentenceWithBlank": "駅前のパン屋では、焼きたてのパン（　　　）、季節のスープも人気を集めている。",
+      "korean": "역 앞 빵집에서는 갓 구운 빵은 물론이고 계절 수프도 인기를 끌고 있다.",
+      "answerChoiceId": "fb-created-n2-144-18-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-144-18-b",
+          "text": "きり",
+          "grammarId": "n2-031",
+          "baseExpression": "きり",
+          "conjugatedExpression": "きり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-144-18-c",
+          "text": "きる",
+          "grammarId": "n2-032",
+          "baseExpression": "きる/きれる/きれない",
+          "conjugatedExpression": "きる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-144-18-d",
+          "text": "くせに",
+          "grammarId": "n2-033",
+          "baseExpression": "くせに",
+          "conjugatedExpression": "くせに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-144-18-a",
+          "text": "はもとより",
+          "grammarId": "n2-144",
+          "baseExpression": "はもとより",
+          "conjugatedExpression": "はもとより",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '역 앞 빵집에서는 갓 구운 빵은 물론이고 계절 수프도 인기를 끌고 있다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
+      "sourceGrammarIds": [
+        "n2-144",
+        "n2-031",
+        "n2-032",
+        "n2-033"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-144-19",
+      "level": "N2",
+      "sentence": "市場の再開発には、周辺住民はもとより、そこで働く商人たちの合意も不可欠だ。",
+      "sentenceWithBlank": "市場の再開発には、周辺住民（　　　）、そこで働く商人たちの合意も不可欠だ。",
+      "korean": "시장 재개발에는 인근 주민은 물론이고 그곳에서 일하는 상인들의 동의도 필수적이다.",
+      "answerChoiceId": "fb-created-n2-144-19-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-144-19-c",
+          "text": "きる",
+          "grammarId": "n2-032",
+          "baseExpression": "きる/きれる/きれない",
+          "conjugatedExpression": "きる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-144-19-d",
+          "text": "くせに",
+          "grammarId": "n2-033",
+          "baseExpression": "くせに",
+          "conjugatedExpression": "くせに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-144-19-a",
+          "text": "はもとより",
+          "grammarId": "n2-144",
+          "baseExpression": "はもとより",
+          "conjugatedExpression": "はもとより",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-144-19-b",
+          "text": "きり",
+          "grammarId": "n2-031",
+          "baseExpression": "きり",
+          "conjugatedExpression": "きり",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '시장 재개발에는 인근 주민은 물론이고 그곳에서 일하는 상인들의 동의도 필수적이다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
+      "sourceGrammarIds": [
+        "n2-144",
+        "n2-031",
+        "n2-032",
+        "n2-033"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-144-20",
+      "level": "N2",
+      "sentence": "この化粧品会社は、製品の効果はもとより、容器が環境に与える影響も検討している。",
+      "sentenceWithBlank": "この化粧品会社は、製品の効果（　　　）、容器が環境に与える影響も検討している。",
+      "korean": "이 화장품 회사는 제품의 효과는 물론이고 용기가 환경에 미치는 영향도 검토하고 있다.",
+      "answerChoiceId": "fb-created-n2-144-20-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-144-20-d",
+          "text": "くせに",
+          "grammarId": "n2-033",
+          "baseExpression": "くせに",
+          "conjugatedExpression": "くせに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-144-20-a",
+          "text": "はもとより",
+          "grammarId": "n2-144",
+          "baseExpression": "はもとより",
+          "conjugatedExpression": "はもとより",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-144-20-b",
+          "text": "きり",
+          "grammarId": "n2-031",
+          "baseExpression": "きり",
+          "conjugatedExpression": "きり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-144-20-c",
+          "text": "きる",
+          "grammarId": "n2-032",
+          "baseExpression": "きる/きれる/きれない",
+          "conjugatedExpression": "きる",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '이 화장품 회사는 제품의 효과는 물론이고 용기가 환경에 미치는 영향도 검토하고 있다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
+      "sourceGrammarIds": [
+        "n2-144",
+        "n2-031",
+        "n2-032",
+        "n2-033"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-144-21",
+      "level": "N2",
+      "sentence": "野外音楽祭では、出演者はもとより、舞台スタッフにも耳栓が配られた。",
+      "sentenceWithBlank": "野外音楽祭では、出演者（　　　）、舞台スタッフにも耳栓が配られた。",
+      "korean": "야외 음악제에서는 출연자는 물론이고 무대 스태프에게도 귀마개가 배부되었다.",
+      "answerChoiceId": "fb-created-n2-144-21-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-144-21-a",
+          "text": "はもとより",
+          "grammarId": "n2-144",
+          "baseExpression": "はもとより",
+          "conjugatedExpression": "はもとより",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-144-21-b",
+          "text": "きり",
+          "grammarId": "n2-031",
+          "baseExpression": "きり",
+          "conjugatedExpression": "きり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-144-21-c",
+          "text": "きる",
+          "grammarId": "n2-032",
+          "baseExpression": "きる/きれる/きれない",
+          "conjugatedExpression": "きる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-144-21-d",
+          "text": "くせに",
+          "grammarId": "n2-033",
+          "baseExpression": "くせに",
+          "conjugatedExpression": "くせに",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '야외 음악제에서는 출연자는 물론이고 무대 스태프에게도 귀마개가 배부되었다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
+      "sourceGrammarIds": [
+        "n2-144",
+        "n2-031",
+        "n2-032",
+        "n2-033"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-144-22",
+      "level": "N2",
+      "sentence": "優秀な救助犬には、鋭い嗅覚はもとより、長時間捜索を続ける体力も求められる。",
+      "sentenceWithBlank": "優秀な救助犬には、鋭い嗅覚（　　　）、長時間捜索を続ける体力も求められる。",
+      "korean": "우수한 구조견에게는 예민한 후각은 물론이고 장시간 수색을 계속할 체력도 요구된다.",
+      "answerChoiceId": "fb-created-n2-144-22-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-144-22-b",
+          "text": "きり",
+          "grammarId": "n2-031",
+          "baseExpression": "きり",
+          "conjugatedExpression": "きり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-144-22-c",
+          "text": "きる",
+          "grammarId": "n2-032",
+          "baseExpression": "きる/きれる/きれない",
+          "conjugatedExpression": "きる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-144-22-d",
+          "text": "くせに",
+          "grammarId": "n2-033",
+          "baseExpression": "くせに",
+          "conjugatedExpression": "くせに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-144-22-a",
+          "text": "はもとより",
+          "grammarId": "n2-144",
+          "baseExpression": "はもとより",
+          "conjugatedExpression": "はもとより",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '우수한 구조견에게는 예민한 후각은 물론이고 장시간 수색을 계속할 체력도 요구된다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
+      "sourceGrammarIds": [
+        "n2-144",
+        "n2-031",
+        "n2-032",
+        "n2-033"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-144-23",
+      "level": "N2",
+      "sentence": "市立図書館では、紙の書籍はもとより、新聞記事の電子データも閲覧できる。",
+      "sentenceWithBlank": "市立図書館では、紙の書籍（　　　）、新聞記事の電子データも閲覧できる。",
+      "korean": "시립 도서관에서는 종이책은 물론이고 신문 기사의 전자 데이터도 열람할 수 있다.",
+      "answerChoiceId": "fb-created-n2-144-23-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-144-23-c",
+          "text": "きる",
+          "grammarId": "n2-032",
+          "baseExpression": "きる/きれる/きれない",
+          "conjugatedExpression": "きる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-144-23-d",
+          "text": "くせに",
+          "grammarId": "n2-033",
+          "baseExpression": "くせに",
+          "conjugatedExpression": "くせに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-144-23-a",
+          "text": "はもとより",
+          "grammarId": "n2-144",
+          "baseExpression": "はもとより",
+          "conjugatedExpression": "はもとより",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-144-23-b",
+          "text": "きり",
+          "grammarId": "n2-031",
+          "baseExpression": "きり",
+          "conjugatedExpression": "きり",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '시립 도서관에서는 종이책은 물론이고 신문 기사의 전자 데이터도 열람할 수 있다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
+      "sourceGrammarIds": [
+        "n2-144",
+        "n2-031",
+        "n2-032",
+        "n2-033"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-144-24",
+      "level": "N2",
+      "sentence": "生鮮食品の輸送では、配送速度はもとより、荷台の温度管理が品質を左右する。",
+      "sentenceWithBlank": "生鮮食品の輸送では、配送速度（　　　）、荷台の温度管理が品質を左右する。",
+      "korean": "신선 식품 운송에서는 배송 속도는 물론이고 적재함의 온도 관리가 품질을 좌우한다.",
+      "answerChoiceId": "fb-created-n2-144-24-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-144-24-d",
+          "text": "くせに",
+          "grammarId": "n2-033",
+          "baseExpression": "くせに",
+          "conjugatedExpression": "くせに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-144-24-a",
+          "text": "はもとより",
+          "grammarId": "n2-144",
+          "baseExpression": "はもとより",
+          "conjugatedExpression": "はもとより",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-144-24-b",
+          "text": "きり",
+          "grammarId": "n2-031",
+          "baseExpression": "きり",
+          "conjugatedExpression": "きり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-144-24-c",
+          "text": "きる",
+          "grammarId": "n2-032",
+          "baseExpression": "きる/きれる/きれない",
+          "conjugatedExpression": "きる",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '신선 식품 운송에서는 배송 속도는 물론이고 적재함의 온도 관리가 품질을 좌우한다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
+      "sourceGrammarIds": [
+        "n2-144",
+        "n2-031",
+        "n2-032",
+        "n2-033"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-144-25",
+      "level": "N2",
+      "sentence": "映画監督は、脚本はもとより、撮影場所の光や音の響きまで入念に確認した。",
+      "sentenceWithBlank": "映画監督は、脚本（　　　）、撮影場所の光や音の響きまで入念に確認した。",
+      "korean": "영화감독은 각본은 물론이고 촬영 장소의 빛과 소리의 울림까지 꼼꼼히 확인했다.",
+      "answerChoiceId": "fb-created-n2-144-25-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-144-25-a",
+          "text": "はもとより",
+          "grammarId": "n2-144",
+          "baseExpression": "はもとより",
+          "conjugatedExpression": "はもとより",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-144-25-b",
+          "text": "きり",
+          "grammarId": "n2-031",
+          "baseExpression": "きり",
+          "conjugatedExpression": "きり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-144-25-c",
+          "text": "きる",
+          "grammarId": "n2-032",
+          "baseExpression": "きる/きれる/きれない",
+          "conjugatedExpression": "きる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-144-25-d",
+          "text": "くせに",
+          "grammarId": "n2-033",
+          "baseExpression": "くせに",
+          "conjugatedExpression": "くせに",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '영화감독은 각본은 물론이고 촬영 장소의 빛과 소리의 울림까지 꼼꼼히 확인했다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
+      "sourceGrammarIds": [
+        "n2-144",
+        "n2-031",
+        "n2-032",
+        "n2-033"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
       ]
     }
   ],
@@ -1834,1103 +1809,1153 @@
       ]
     },
     {
-      "id": "so-extra-n2-144-1",
+      "id": "so-created-n2-144-01",
       "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlanks": "彼は英語 ____ ____ ____ ____",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
+      "sentence": "この病院では、平日はもとより、休日や深夜にも救急患者を受け入れている。",
+      "sentenceWithBlanks": "この ____ ____ ____ ____ 受け入れている。",
+      "korean": "이 병원에서는 평일은 물론이고 휴일이나 심야에도 응급 환자를 받고 있다.",
       "pieces": [
         {
-          "id": "so-extra-n2-144-1-p3",
-          "text": "きる",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-144-1-p4",
-          "text": "はもとより",
+          "id": "so-created-n2-144-01-p1",
+          "text": "病院では、平日",
           "order": 1
         },
         {
-          "id": "so-extra-n2-144-1-p1",
-          "text": "中国語も",
+          "id": "so-created-n2-144-01-p2",
+          "text": "はもとより、",
           "order": 2
         },
         {
-          "id": "so-extra-n2-144-1-p2",
-          "text": "で",
+          "id": "so-created-n2-144-01-p3",
+          "text": "休日や深夜にも",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-144-01-p4",
+          "text": "救急患者を",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-144-1-p4",
-        "so-extra-n2-144-1-p1",
-        "so-extra-n2-144-1-p2",
-        "so-extra-n2-144-1-p3"
+        "so-created-n2-144-01-p1",
+        "so-created-n2-144-01-p2",
+        "so-created-n2-144-01-p3",
+        "so-created-n2-144-01-p4"
       ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '이 병원에서는 평일은 물론이고 휴일이나 심야에도 응급 환자를 받고 있다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
       "sourceGrammarIds": [
-        "n2-144"
+        "n2-144",
+        "n2-031",
+        "n2-032",
+        "n2-033"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-144-2",
+      "id": "so-created-n2-144-02",
       "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlanks": "彼は英語 ____ ____ ____ ____",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
+      "sentence": "その料亭は、料理の味はもとより、器の美しさでも客を魅了している。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 客を魅了している。",
+      "korean": "그 요정은 요리의 맛은 물론이고 그릇의 아름다움으로도 손님을 매료시키고 있다.",
       "pieces": [
         {
-          "id": "so-extra-n2-144-2-p4",
-          "text": "中国語も",
-          "order": 2
-        },
-        {
-          "id": "so-extra-n2-144-2-p1",
-          "text": "で",
-          "order": 3
-        },
-        {
-          "id": "so-extra-n2-144-2-p2",
-          "text": "きる",
+          "id": "so-created-n2-144-02-p4",
+          "text": "器の美しさでも",
           "order": 4
         },
         {
-          "id": "so-extra-n2-144-2-p3",
-          "text": "はもとより",
+          "id": "so-created-n2-144-02-p1",
+          "text": "その料亭は、",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-144-02-p2",
+          "text": "料理の味",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-144-02-p3",
+          "text": "はもとより、",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-144-2-p3",
-        "so-extra-n2-144-2-p4",
-        "so-extra-n2-144-2-p1",
-        "so-extra-n2-144-2-p2"
+        "so-created-n2-144-02-p1",
+        "so-created-n2-144-02-p2",
+        "so-created-n2-144-02-p3",
+        "so-created-n2-144-02-p4"
       ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '그 요정은 요리의 맛은 물론이고 그릇의 아름다움으로도 손님을 매료시키고 있다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
       "sourceGrammarIds": [
-        "n2-144"
+        "n2-144",
+        "n2-031",
+        "n2-032",
+        "n2-033"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-144-3",
+      "id": "so-created-n2-144-03",
       "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、中国語もできる。",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
+      "sentence": "避難所には、高齢者はもとより、乳幼児やペットへの配慮も求められる。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 求められる。",
+      "korean": "대피소에는 고령자는 물론이고 영유아와 반려동물에 대한 배려도 요구된다.",
       "pieces": [
         {
-          "id": "so-extra-n2-144-3-p1",
-          "text": "で",
+          "id": "so-created-n2-144-03-p3",
+          "text": "乳幼児や",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-144-03-p4",
+          "text": "ペットへの配慮も",
           "order": 4
         },
         {
-          "id": "so-extra-n2-144-3-p2",
-          "text": "英語",
+          "id": "so-created-n2-144-03-p1",
+          "text": "避難所には、高齢",
           "order": 1
         },
         {
-          "id": "so-extra-n2-144-3-p3",
-          "text": "はもとより",
+          "id": "so-created-n2-144-03-p2",
+          "text": "者はもとより、",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-144-3-p4",
-          "text": "中国語も",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-144-3-p2",
-        "so-extra-n2-144-3-p3",
-        "so-extra-n2-144-3-p4",
-        "so-extra-n2-144-3-p1"
+        "so-created-n2-144-03-p1",
+        "so-created-n2-144-03-p2",
+        "so-created-n2-144-03-p3",
+        "so-created-n2-144-03-p4"
       ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '대피소에는 고령자는 물론이고 영유아와 반려동물에 대한 배려도 요구된다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
       "sourceGrammarIds": [
-        "n2-144"
+        "n2-144",
+        "n2-031",
+        "n2-032",
+        "n2-033"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-144-4",
+      "id": "so-created-n2-144-04",
       "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlanks": "彼は英語 ____ ____ ____ ____",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
+      "sentence": "新しい鉄道路線は、通勤客はもとより、地方を訪れる観光客にも利用されている。",
+      "sentenceWithBlanks": "新しい鉄道路線は、 ____ ____ ____ ____ 利用されている。",
+      "korean": "새 철도 노선은 통근객은 물론이고 지방을 찾는 관광객에게도 이용되고 있다.",
       "pieces": [
         {
-          "id": "so-extra-n2-144-4-p2",
-          "text": "中国語も",
+          "id": "so-created-n2-144-04-p2",
+          "text": "はもとより、",
           "order": 2
         },
         {
-          "id": "so-extra-n2-144-4-p3",
-          "text": "で",
+          "id": "so-created-n2-144-04-p3",
+          "text": "地方を訪れる",
           "order": 3
         },
         {
-          "id": "so-extra-n2-144-4-p4",
-          "text": "きる",
+          "id": "so-created-n2-144-04-p4",
+          "text": "観光客にも",
           "order": 4
         },
         {
-          "id": "so-extra-n2-144-4-p1",
-          "text": "はもとより",
+          "id": "so-created-n2-144-04-p1",
+          "text": "通勤客",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-144-4-p1",
-        "so-extra-n2-144-4-p2",
-        "so-extra-n2-144-4-p3",
-        "so-extra-n2-144-4-p4"
+        "so-created-n2-144-04-p1",
+        "so-created-n2-144-04-p2",
+        "so-created-n2-144-04-p3",
+        "so-created-n2-144-04-p4"
       ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '새 철도 노선은 통근객은 물론이고 지방을 찾는 관광객에게도 이용되고 있다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
       "sourceGrammarIds": [
-        "n2-144"
+        "n2-144",
+        "n2-031",
+        "n2-032",
+        "n2-033"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-144-5",
+      "id": "so-created-n2-144-05",
       "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlanks": "彼は英語 ____ ____ ____ ____",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
+      "sentence": "この職人の家具は、耐久性はもとより、現代的なデザインも高く評価されている。",
+      "sentenceWithBlanks": "____ ____ ____ ____ デザインも高く評価されている。",
+      "korean": "이 장인의 가구는 내구성은 물론이고 현대적인 디자인도 높이 평가받고 있다.",
       "pieces": [
         {
-          "id": "so-extra-n2-144-5-p3",
-          "text": "きる",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-144-5-p4",
-          "text": "はもとより",
+          "id": "so-created-n2-144-05-p1",
+          "text": "この職人の",
           "order": 1
         },
         {
-          "id": "so-extra-n2-144-5-p1",
-          "text": "中国語も",
+          "id": "so-created-n2-144-05-p2",
+          "text": "家具は、耐久性",
           "order": 2
         },
         {
-          "id": "so-extra-n2-144-5-p2",
-          "text": "で",
+          "id": "so-created-n2-144-05-p3",
+          "text": "はもとより、",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-144-05-p4",
+          "text": "現代的な",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-144-5-p4",
-        "so-extra-n2-144-5-p1",
-        "so-extra-n2-144-5-p2",
-        "so-extra-n2-144-5-p3"
+        "so-created-n2-144-05-p1",
+        "so-created-n2-144-05-p2",
+        "so-created-n2-144-05-p3",
+        "so-created-n2-144-05-p4"
       ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '이 장인의 가구는 내구성은 물론이고 현대적인 디자인도 높이 평가받고 있다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
       "sourceGrammarIds": [
-        "n2-144"
+        "n2-144",
+        "n2-031",
+        "n2-032",
+        "n2-033"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-144-01",
+      "id": "so-created-n2-144-06",
       "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlanks": "彼は英語 ____ ____ ____ ____",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
+      "sentence": "彼女は大会前の練習はもとより、日々の食事管理にも細心の注意を払った。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 管理にも細心の注意を払った。",
+      "korean": "그녀는 대회 전 훈련은 물론이고 평소 식단 관리에도 세심한 주의를 기울였다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-144-01-p3",
-          "text": "きる",
+          "id": "so-created-n2-144-06-p4",
+          "text": "日々の食事",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-144-01-p4",
-          "text": "はもとより",
+          "id": "so-created-n2-144-06-p1",
+          "text": "彼女は大会",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-144-01-p1",
-          "text": "中国語も",
+          "id": "so-created-n2-144-06-p2",
+          "text": "前の練習",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-144-01-p2",
-          "text": "で",
+          "id": "so-created-n2-144-06-p3",
+          "text": "はもとより、",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-144-01-p4",
-        "so-extra20-n2-144-01-p1",
-        "so-extra20-n2-144-01-p2",
-        "so-extra20-n2-144-01-p3"
+        "so-created-n2-144-06-p1",
+        "so-created-n2-144-06-p2",
+        "so-created-n2-144-06-p3",
+        "so-created-n2-144-06-p4"
       ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '그녀는 대회 전 훈련은 물론이고 평소 식단 관리에도 세심한 주의를 기울였다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
       "sourceGrammarIds": [
-        "n2-144"
+        "n2-144",
+        "n2-031",
+        "n2-032",
+        "n2-033"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-144-02",
+      "id": "so-created-n2-144-07",
       "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlanks": "彼は英語 ____ ____ ____ ____",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
+      "sentence": "改装後のホテルは、客室はもとより、ロビーや庭園まで段差がなくなった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 段差がなくなった。",
+      "korean": "개조 후의 호텔은 객실은 물론이고 로비와 정원까지 단차가 없어졌다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-144-02-p2",
-          "text": "きる",
+          "id": "so-created-n2-144-07-p3",
+          "text": "はもとより、",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-144-07-p4",
+          "text": "ロビーや庭園まで",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-144-02-p3",
-          "text": "はもとより",
+          "id": "so-created-n2-144-07-p1",
+          "text": "改装後の",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-144-02-p4",
-          "text": "中国語も",
+          "id": "so-created-n2-144-07-p2",
+          "text": "ホテルは、客室",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-144-02-p1",
-          "text": "で",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-144-02-p3",
-        "so-extra20-n2-144-02-p4",
-        "so-extra20-n2-144-02-p1",
-        "so-extra20-n2-144-02-p2"
+        "so-created-n2-144-07-p1",
+        "so-created-n2-144-07-p2",
+        "so-created-n2-144-07-p3",
+        "so-created-n2-144-07-p4"
       ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '개조 후의 호텔은 객실은 물론이고 로비와 정원까지 단차가 없어졌다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
       "sourceGrammarIds": [
-        "n2-144"
+        "n2-144",
+        "n2-031",
+        "n2-032",
+        "n2-033"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-144-03",
+      "id": "so-created-n2-144-08",
       "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、中国語もできる。",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
+      "sentence": "災害に備え、食料はもとより、携帯ラジオや予備電池も倉庫に保管した。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 電池も倉庫に保管した。",
+      "korean": "재해에 대비해 식량은 물론이고 휴대용 라디오와 여분의 건전지도 창고에 보관했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-144-03-p1",
-          "text": "で",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-144-03-p2",
-          "text": "英語",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-144-03-p3",
-          "text": "はもとより",
+          "id": "so-created-n2-144-08-p2",
+          "text": "備え、食料",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-144-03-p4",
-          "text": "中国語も",
+          "id": "so-created-n2-144-08-p3",
+          "text": "はもとより、",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-144-08-p4",
+          "text": "携帯ラジオや予備",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-144-08-p1",
+          "text": "災害に",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-144-03-p2",
-        "so-extra20-n2-144-03-p3",
-        "so-extra20-n2-144-03-p4",
-        "so-extra20-n2-144-03-p1"
+        "so-created-n2-144-08-p1",
+        "so-created-n2-144-08-p2",
+        "so-created-n2-144-08-p3",
+        "so-created-n2-144-08-p4"
       ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '재해에 대비해 식량은 물론이고 휴대용 라디오와 여분의 건전지도 창고에 보관했다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
       "sourceGrammarIds": [
-        "n2-144"
+        "n2-144",
+        "n2-031",
+        "n2-032",
+        "n2-033"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-144-04",
+      "id": "so-created-n2-144-09",
       "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlanks": "彼は英語 ____ ____ ____ ____",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
+      "sentence": "安定した収穫には、土壌の状態はもとより、気温や降水量の把握も欠かせない。",
+      "sentenceWithBlanks": "安定した ____ ____ ____ ____ 欠かせない。",
+      "korean": "안정적인 수확을 위해서는 토양 상태는 물론이고 기온과 강수량의 파악도 빼놓을 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-144-04-p4",
-          "text": "きる",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-144-04-p1",
-          "text": "はもとより",
+          "id": "so-created-n2-144-09-p1",
+          "text": "収穫には、土壌の",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-144-04-p2",
-          "text": "中国語も",
+          "id": "so-created-n2-144-09-p2",
+          "text": "状態はもとより、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-144-04-p3",
-          "text": "で",
+          "id": "so-created-n2-144-09-p3",
+          "text": "気温や",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-144-09-p4",
+          "text": "降水量の把握も",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-144-04-p1",
-        "so-extra20-n2-144-04-p2",
-        "so-extra20-n2-144-04-p3",
-        "so-extra20-n2-144-04-p4"
+        "so-created-n2-144-09-p1",
+        "so-created-n2-144-09-p2",
+        "so-created-n2-144-09-p3",
+        "so-created-n2-144-09-p4"
       ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '안정적인 수확을 위해서는 토양 상태는 물론이고 기온과 강수량의 파악도 빼놓을 수 없다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
       "sourceGrammarIds": [
-        "n2-144"
+        "n2-144",
+        "n2-031",
+        "n2-032",
+        "n2-033"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-144-05",
+      "id": "so-created-n2-144-10",
       "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlanks": "彼は英語 ____ ____ ____ ____",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
+      "sentence": "就職先を選ぶ際は、給与はもとより、勤務時間の柔軟性も重視した。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 柔軟性も重視した。",
+      "korean": "취직할 곳을 고를 때는 급여는 물론이고 근무 시간의 유연성도 중시했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-144-05-p3",
-          "text": "きる",
+          "id": "so-created-n2-144-10-p4",
+          "text": "勤務時間の",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-144-05-p4",
-          "text": "はもとより",
+          "id": "so-created-n2-144-10-p1",
+          "text": "就職先を選ぶ",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-144-05-p1",
-          "text": "中国語も",
+          "id": "so-created-n2-144-10-p2",
+          "text": "際は、給与",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-144-05-p2",
-          "text": "で",
+          "id": "so-created-n2-144-10-p3",
+          "text": "はもとより、",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-144-05-p4",
-        "so-extra20-n2-144-05-p1",
-        "so-extra20-n2-144-05-p2",
-        "so-extra20-n2-144-05-p3"
+        "so-created-n2-144-10-p1",
+        "so-created-n2-144-10-p2",
+        "so-created-n2-144-10-p3",
+        "so-created-n2-144-10-p4"
       ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '취직할 곳을 고를 때는 급여는 물론이고 근무 시간의 유연성도 중시했다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
       "sourceGrammarIds": [
-        "n2-144"
+        "n2-144",
+        "n2-031",
+        "n2-032",
+        "n2-033"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-144-06",
+      "id": "so-created-n2-144-11",
       "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlanks": "彼は英語 ____ ____ ____ ____",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
+      "sentence": "港町の祭りには、地元住民はもとより、海外からの旅行者も大勢集まった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 者も大勢集まった。",
+      "korean": "항구 도시의 축제에는 지역 주민은 물론이고 해외에서 온 여행객도 많이 모였다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-144-06-p2",
-          "text": "で",
+          "id": "so-created-n2-144-11-p3",
+          "text": "はもとより、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-144-06-p3",
-          "text": "きる",
+          "id": "so-created-n2-144-11-p4",
+          "text": "海外からの旅行",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-144-06-p4",
-          "text": "はもとより",
+          "id": "so-created-n2-144-11-p1",
+          "text": "港町の祭りには、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-144-06-p1",
-          "text": "中国語も",
+          "id": "so-created-n2-144-11-p2",
+          "text": "地元住民",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-144-06-p4",
-        "so-extra20-n2-144-06-p1",
-        "so-extra20-n2-144-06-p2",
-        "so-extra20-n2-144-06-p3"
+        "so-created-n2-144-11-p1",
+        "so-created-n2-144-11-p2",
+        "so-created-n2-144-11-p3",
+        "so-created-n2-144-11-p4"
       ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '항구 도시의 축제에는 지역 주민은 물론이고 해외에서 온 여행객도 많이 모였다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
       "sourceGrammarIds": [
-        "n2-144"
+        "n2-144",
+        "n2-031",
+        "n2-032",
+        "n2-033"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-144-07",
+      "id": "so-created-n2-144-12",
       "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlanks": "彼は英語 ____ ____ ____ ____",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
+      "sentence": "この美術館では、展示作品はもとより、歴史ある建物そのものも見どころとなっている。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 見どころとなっている。",
+      "korean": "이 미술관에서는 전시 작품은 물론이고 유서 깊은 건물 자체도 볼거리가 되고 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-144-07-p1",
-          "text": "で",
+          "id": "so-created-n2-144-12-p2",
+          "text": "展示作品",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-144-12-p3",
+          "text": "はもとより、歴史ある",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-144-07-p2",
-          "text": "きる",
+          "id": "so-created-n2-144-12-p4",
+          "text": "建物そのものも",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-144-07-p3",
-          "text": "はもとより",
+          "id": "so-created-n2-144-12-p1",
+          "text": "この美術館では、",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-144-07-p4",
-          "text": "中国語も",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-144-07-p3",
-        "so-extra20-n2-144-07-p4",
-        "so-extra20-n2-144-07-p1",
-        "so-extra20-n2-144-07-p2"
+        "so-created-n2-144-12-p1",
+        "so-created-n2-144-12-p2",
+        "so-created-n2-144-12-p3",
+        "so-created-n2-144-12-p4"
       ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '이 미술관에서는 전시 작품은 물론이고 유서 깊은 건물 자체도 볼거리가 되고 있다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
       "sourceGrammarIds": [
-        "n2-144"
+        "n2-144",
+        "n2-031",
+        "n2-032",
+        "n2-033"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-144-08",
+      "id": "so-created-n2-144-13",
       "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、中国語もできる。",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
+      "sentence": "新設された橋は、自動車はもとより、歩行者や自転車の安全にも配慮されている。",
+      "sentenceWithBlanks": "新設された ____ ____ ____ ____ 配慮されている。",
+      "korean": "새로 건설된 다리는 자동차는 물론이고 보행자와 자전거의 안전도 고려하여 설계되었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-144-08-p4",
-          "text": "中国語も",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-144-08-p1",
-          "text": "で",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-144-08-p2",
-          "text": "英語",
+          "id": "so-created-n2-144-13-p1",
+          "text": "橋は、自動車",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-144-08-p3",
-          "text": "はもとより",
+          "id": "so-created-n2-144-13-p2",
+          "text": "はもとより、",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-144-13-p3",
+          "text": "歩行者や",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-144-13-p4",
+          "text": "自転車の安全にも",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-144-08-p2",
-        "so-extra20-n2-144-08-p3",
-        "so-extra20-n2-144-08-p4",
-        "so-extra20-n2-144-08-p1"
+        "so-created-n2-144-13-p1",
+        "so-created-n2-144-13-p2",
+        "so-created-n2-144-13-p3",
+        "so-created-n2-144-13-p4"
       ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '새로 건설된 다리는 자동차는 물론이고 보행자와 자전거의 안전도 고려하여 설계되었다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
       "sourceGrammarIds": [
-        "n2-144"
+        "n2-144",
+        "n2-031",
+        "n2-032",
+        "n2-033"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-144-09",
+      "id": "so-created-n2-144-14",
       "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlanks": "彼は英語 ____ ____ ____ ____",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
+      "sentence": "新型の検査機器は、測定精度はもとより、持ち運びやすさにも優れている。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 優れている。",
+      "korean": "신형 검사 기기는 측정 정확도는 물론이고 휴대성도 뛰어나다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-144-09-p3",
-          "text": "で",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-144-09-p4",
-          "text": "きる",
+          "id": "so-created-n2-144-14-p4",
+          "text": "持ち運びやすさにも",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-144-09-p1",
-          "text": "はもとより",
+          "id": "so-created-n2-144-14-p1",
+          "text": "新型の検査",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-144-09-p2",
-          "text": "中国語も",
+          "id": "so-created-n2-144-14-p2",
+          "text": "機器は、測定",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-144-14-p3",
+          "text": "精度はもとより、",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-144-09-p1",
-        "so-extra20-n2-144-09-p2",
-        "so-extra20-n2-144-09-p3",
-        "so-extra20-n2-144-09-p4"
+        "so-created-n2-144-14-p1",
+        "so-created-n2-144-14-p2",
+        "so-created-n2-144-14-p3",
+        "so-created-n2-144-14-p4"
       ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '신형 검사 기기는 측정 정확도는 물론이고 휴대성도 뛰어나다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
       "sourceGrammarIds": [
-        "n2-144"
+        "n2-144",
+        "n2-031",
+        "n2-032",
+        "n2-033"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-144-10",
+      "id": "so-created-n2-144-15",
       "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlanks": "彼は英語 ____ ____ ____ ____",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
+      "sentence": "二人の結婚を、家族はもとより、疎遠だった旧友まで祝福してくれた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 祝福してくれた。",
+      "korean": "두 사람의 결혼을 가족은 물론이고 소원했던 옛 친구들까지 축복해 주었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-144-10-p2",
-          "text": "で",
+          "id": "so-created-n2-144-15-p3",
+          "text": "疎遠だった",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-144-10-p3",
-          "text": "きる",
+          "id": "so-created-n2-144-15-p4",
+          "text": "旧友まで",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-144-10-p4",
-          "text": "はもとより",
+          "id": "so-created-n2-144-15-p1",
+          "text": "二人の結婚を、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-144-10-p1",
-          "text": "中国語も",
+          "id": "so-created-n2-144-15-p2",
+          "text": "家族はもとより、",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-144-10-p4",
-        "so-extra20-n2-144-10-p1",
-        "so-extra20-n2-144-10-p2",
-        "so-extra20-n2-144-10-p3"
+        "so-created-n2-144-15-p1",
+        "so-created-n2-144-15-p2",
+        "so-created-n2-144-15-p3",
+        "so-created-n2-144-15-p4"
       ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '두 사람의 결혼을 가족은 물론이고 소원했던 옛 친구들까지 축복해 주었다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
       "sourceGrammarIds": [
-        "n2-144"
+        "n2-144",
+        "n2-031",
+        "n2-032",
+        "n2-033"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-144-11",
+      "id": "so-created-n2-144-16",
       "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlanks": "彼は英語 ____ ____ ____ ____",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
+      "sentence": "冬季の山小屋では、飲料水はもとより、応急処置用の医薬品も十分に確保している。",
+      "sentenceWithBlanks": "冬季の山小屋では、 ____ ____ ____ ____ 確保している。",
+      "korean": "겨울철 산장에서는 식수는 물론이고 응급 처치용 의약품도 충분히 확보하고 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-144-11-p1",
-          "text": "中国語も",
+          "id": "so-created-n2-144-16-p2",
+          "text": "はもとより、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-144-11-p2",
-          "text": "で",
+          "id": "so-created-n2-144-16-p3",
+          "text": "応急処置用の",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-144-11-p3",
-          "text": "きる",
+          "id": "so-created-n2-144-16-p4",
+          "text": "医薬品も十分に",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-144-11-p4",
-          "text": "はもとより",
+          "id": "so-created-n2-144-16-p1",
+          "text": "飲料水",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-144-11-p4",
-        "so-extra20-n2-144-11-p1",
-        "so-extra20-n2-144-11-p2",
-        "so-extra20-n2-144-11-p3"
+        "so-created-n2-144-16-p1",
+        "so-created-n2-144-16-p2",
+        "so-created-n2-144-16-p3",
+        "so-created-n2-144-16-p4"
       ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '겨울철 산장에서는 식수는 물론이고 응급 처치용 의약품도 충분히 확보하고 있다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
       "sourceGrammarIds": [
-        "n2-144"
+        "n2-144",
+        "n2-031",
+        "n2-032",
+        "n2-033"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-144-12",
+      "id": "so-created-n2-144-17",
       "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlanks": "彼は英語 ____ ____ ____ ____",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
+      "sentence": "情報漏えいを防ぐには、パスワード管理はもとより、アクセス記録の監視も必要だ。",
+      "sentenceWithBlanks": "情報漏えいを防ぐには、 ____ ____ ____ ____",
+      "korean": "정보 유출을 막으려면 비밀번호 관리는 물론이고 접속 기록 감시도 필요하다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-144-12-p4",
-          "text": "中国語も",
+          "id": "so-created-n2-144-17-p1",
+          "text": "パスワード管理",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-144-17-p2",
+          "text": "はもとより、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-144-12-p1",
-          "text": "で",
+          "id": "so-created-n2-144-17-p3",
+          "text": "アクセス記録の",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-144-12-p2",
-          "text": "きる",
+          "id": "so-created-n2-144-17-p4",
+          "text": "監視も必要だ。",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-144-12-p3",
-          "text": "はもとより",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-144-12-p3",
-        "so-extra20-n2-144-12-p4",
-        "so-extra20-n2-144-12-p1",
-        "so-extra20-n2-144-12-p2"
+        "so-created-n2-144-17-p1",
+        "so-created-n2-144-17-p2",
+        "so-created-n2-144-17-p3",
+        "so-created-n2-144-17-p4"
       ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '정보 유출을 막으려면 비밀번호 관리는 물론이고 접속 기록 감시도 필요하다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
       "sourceGrammarIds": [
-        "n2-144"
+        "n2-144",
+        "n2-031",
+        "n2-032",
+        "n2-033"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-144-13",
+      "id": "so-created-n2-144-18",
       "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、中国語もできる。",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
+      "sentence": "駅前のパン屋では、焼きたてのパンはもとより、季節のスープも人気を集めている。",
+      "sentenceWithBlanks": "駅前のパン ____ ____ ____ ____ 集めている。",
+      "korean": "역 앞 빵집에서는 갓 구운 빵은 물론이고 계절 수프도 인기를 끌고 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-144-13-p3",
-          "text": "はもとより",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-144-13-p4",
-          "text": "中国語も",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-144-13-p1",
-          "text": "で",
+          "id": "so-created-n2-144-18-p4",
+          "text": "スープも人気を",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-144-13-p2",
-          "text": "英語",
+          "id": "so-created-n2-144-18-p1",
+          "text": "屋では、",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-144-18-p2",
+          "text": "焼きたてのパン",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-144-18-p3",
+          "text": "はもとより、季節の",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-144-13-p2",
-        "so-extra20-n2-144-13-p3",
-        "so-extra20-n2-144-13-p4",
-        "so-extra20-n2-144-13-p1"
+        "so-created-n2-144-18-p1",
+        "so-created-n2-144-18-p2",
+        "so-created-n2-144-18-p3",
+        "so-created-n2-144-18-p4"
       ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '역 앞 빵집에서는 갓 구운 빵은 물론이고 계절 수프도 인기를 끌고 있다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
       "sourceGrammarIds": [
-        "n2-144"
+        "n2-144",
+        "n2-031",
+        "n2-032",
+        "n2-033"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-144-14",
+      "id": "so-created-n2-144-19",
       "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlanks": "彼は英語 ____ ____ ____ ____",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
+      "sentence": "市場の再開発には、周辺住民はもとより、そこで働く商人たちの合意も不可欠だ。",
+      "sentenceWithBlanks": "市場の ____ ____ ____ ____ 商人たちの合意も不可欠だ。",
+      "korean": "시장 재개발에는 인근 주민은 물론이고 그곳에서 일하는 상인들의 동의도 필수적이다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-144-14-p2",
-          "text": "中国語も",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-144-14-p3",
-          "text": "で",
+          "id": "so-created-n2-144-19-p3",
+          "text": "はもとより、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-144-14-p4",
-          "text": "きる",
+          "id": "so-created-n2-144-19-p4",
+          "text": "そこで働く",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-144-14-p1",
-          "text": "はもとより",
+          "id": "so-created-n2-144-19-p1",
+          "text": "再開発には、",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-144-19-p2",
+          "text": "周辺住民",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-144-14-p1",
-        "so-extra20-n2-144-14-p2",
-        "so-extra20-n2-144-14-p3",
-        "so-extra20-n2-144-14-p4"
+        "so-created-n2-144-19-p1",
+        "so-created-n2-144-19-p2",
+        "so-created-n2-144-19-p3",
+        "so-created-n2-144-19-p4"
       ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '시장 재개발에는 인근 주민은 물론이고 그곳에서 일하는 상인들의 동의도 필수적이다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
       "sourceGrammarIds": [
-        "n2-144"
+        "n2-144",
+        "n2-031",
+        "n2-032",
+        "n2-033"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-144-15",
+      "id": "so-created-n2-144-20",
       "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlanks": "彼は英語 ____ ____ ____ ____",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
+      "sentence": "この化粧品会社は、製品の効果はもとより、容器が環境に与える影響も検討している。",
+      "sentenceWithBlanks": "この化粧品会社は、 ____ ____ ____ ____ 検討している。",
+      "korean": "이 화장품 회사는 제품의 효과는 물론이고 용기가 환경에 미치는 영향도 검토하고 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-144-15-p1",
-          "text": "中国語も",
+          "id": "so-created-n2-144-20-p2",
+          "text": "はもとより、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-144-15-p2",
-          "text": "で",
+          "id": "so-created-n2-144-20-p3",
+          "text": "容器が環境に",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-144-15-p3",
-          "text": "きる",
+          "id": "so-created-n2-144-20-p4",
+          "text": "与える影響も",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-144-15-p4",
-          "text": "はもとより",
+          "id": "so-created-n2-144-20-p1",
+          "text": "製品の効果",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-144-15-p4",
-        "so-extra20-n2-144-15-p1",
-        "so-extra20-n2-144-15-p2",
-        "so-extra20-n2-144-15-p3"
+        "so-created-n2-144-20-p1",
+        "so-created-n2-144-20-p2",
+        "so-created-n2-144-20-p3",
+        "so-created-n2-144-20-p4"
       ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '이 화장품 회사는 제품의 효과는 물론이고 용기가 환경에 미치는 영향도 검토하고 있다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
       "sourceGrammarIds": [
-        "n2-144"
+        "n2-144",
+        "n2-031",
+        "n2-032",
+        "n2-033"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-144-16",
+      "id": "so-created-n2-144-21",
       "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlanks": "彼は英語 ____ ____ ____ ____",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
+      "sentence": "野外音楽祭では、出演者はもとより、舞台スタッフにも耳栓が配られた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 耳栓が配られた。",
+      "korean": "야외 음악제에서는 출연자는 물론이고 무대 스태프에게도 귀마개가 배부되었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-144-16-p4",
-          "text": "はもとより",
+          "id": "so-created-n2-144-21-p1",
+          "text": "野外音楽",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-144-16-p1",
-          "text": "中国語も",
+          "id": "so-created-n2-144-21-p2",
+          "text": "祭では、出演",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-144-16-p2",
-          "text": "で",
+          "id": "so-created-n2-144-21-p3",
+          "text": "者はもとより、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-144-16-p3",
-          "text": "きる",
+          "id": "so-created-n2-144-21-p4",
+          "text": "舞台スタッフにも",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-144-16-p4",
-        "so-extra20-n2-144-16-p1",
-        "so-extra20-n2-144-16-p2",
-        "so-extra20-n2-144-16-p3"
+        "so-created-n2-144-21-p1",
+        "so-created-n2-144-21-p2",
+        "so-created-n2-144-21-p3",
+        "so-created-n2-144-21-p4"
       ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '야외 음악제에서는 출연자는 물론이고 무대 스태프에게도 귀마개가 배부되었다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
       "sourceGrammarIds": [
-        "n2-144"
+        "n2-144",
+        "n2-031",
+        "n2-032",
+        "n2-033"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-144-17",
+      "id": "so-created-n2-144-22",
       "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlanks": "彼は英語 ____ ____ ____ ____",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
+      "sentence": "優秀な救助犬には、鋭い嗅覚はもとより、長時間捜索を続ける体力も求められる。",
+      "sentenceWithBlanks": "優秀な救助犬には、 ____ ____ ____ ____ 求められる。",
+      "korean": "우수한 구조견에게는 예민한 후각은 물론이고 장시간 수색을 계속할 체력도 요구된다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-144-17-p3",
-          "text": "はもとより",
+          "id": "so-created-n2-144-22-p4",
+          "text": "続ける体力も",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-144-22-p1",
+          "text": "鋭い嗅覚",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-144-17-p4",
-          "text": "中国語も",
+          "id": "so-created-n2-144-22-p2",
+          "text": "はもとより、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-144-17-p1",
-          "text": "で",
+          "id": "so-created-n2-144-22-p3",
+          "text": "長時間捜索を",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-144-17-p2",
-          "text": "きる",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-144-17-p3",
-        "so-extra20-n2-144-17-p4",
-        "so-extra20-n2-144-17-p1",
-        "so-extra20-n2-144-17-p2"
+        "so-created-n2-144-22-p1",
+        "so-created-n2-144-22-p2",
+        "so-created-n2-144-22-p3",
+        "so-created-n2-144-22-p4"
       ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '우수한 구조견에게는 예민한 후각은 물론이고 장시간 수색을 계속할 체력도 요구된다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
       "sourceGrammarIds": [
-        "n2-144"
+        "n2-144",
+        "n2-031",
+        "n2-032",
+        "n2-033"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-144-18",
+      "id": "so-created-n2-144-23",
       "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、中国語もできる。",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
+      "sentence": "市立図書館では、紙の書籍はもとより、新聞記事の電子データも閲覧できる。",
+      "sentenceWithBlanks": "市立図書館では、 ____ ____ ____ ____ 閲覧できる。",
+      "korean": "시립 도서관에서는 종이책은 물론이고 신문 기사의 전자 데이터도 열람할 수 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-144-18-p2",
-          "text": "英語",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-144-18-p3",
-          "text": "はもとより",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-144-18-p4",
-          "text": "中国語も",
+          "id": "so-created-n2-144-23-p3",
+          "text": "新聞記事の",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-144-18-p1",
-          "text": "で",
+          "id": "so-created-n2-144-23-p4",
+          "text": "電子データも",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-144-23-p1",
+          "text": "紙の書籍",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-144-23-p2",
+          "text": "はもとより、",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-144-18-p2",
-        "so-extra20-n2-144-18-p3",
-        "so-extra20-n2-144-18-p4",
-        "so-extra20-n2-144-18-p1"
+        "so-created-n2-144-23-p1",
+        "so-created-n2-144-23-p2",
+        "so-created-n2-144-23-p3",
+        "so-created-n2-144-23-p4"
       ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '시립 도서관에서는 종이책은 물론이고 신문 기사의 전자 데이터도 열람할 수 있다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
       "sourceGrammarIds": [
-        "n2-144"
+        "n2-144",
+        "n2-031",
+        "n2-032",
+        "n2-033"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-144-19",
+      "id": "so-created-n2-144-24",
       "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlanks": "彼は英語 ____ ____ ____ ____",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
+      "sentence": "生鮮食品の輸送では、配送速度はもとより、荷台の温度管理が品質を左右する。",
+      "sentenceWithBlanks": "生鮮食品の輸送では、 ____ ____ ____ ____ 左右する。",
+      "korean": "신선 식품 운송에서는 배송 속도는 물론이고 적재함의 온도 관리가 품질을 좌우한다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-144-19-p1",
-          "text": "はもとより",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-144-19-p2",
-          "text": "中国語も",
+          "id": "so-created-n2-144-24-p2",
+          "text": "はもとより、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-144-19-p3",
-          "text": "で",
+          "id": "so-created-n2-144-24-p3",
+          "text": "荷台の温度",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-144-19-p4",
-          "text": "きる",
+          "id": "so-created-n2-144-24-p4",
+          "text": "管理が品質を",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-144-24-p1",
+          "text": "配送速度",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-144-19-p1",
-        "so-extra20-n2-144-19-p2",
-        "so-extra20-n2-144-19-p3",
-        "so-extra20-n2-144-19-p4"
+        "so-created-n2-144-24-p1",
+        "so-created-n2-144-24-p2",
+        "so-created-n2-144-24-p3",
+        "so-created-n2-144-24-p4"
       ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '신선 식품 운송에서는 배송 속도는 물론이고 적재함의 온도 관리가 품질을 좌우한다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
       "sourceGrammarIds": [
-        "n2-144"
+        "n2-144",
+        "n2-031",
+        "n2-032",
+        "n2-033"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-144-20",
+      "id": "so-created-n2-144-25",
       "level": "N2",
-      "sentence": "彼は英語はもとより、中国語もできる。",
-      "sentenceWithBlanks": "彼は英語 ____ ____ ____ ____",
-      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
+      "sentence": "映画監督は、脚本はもとより、撮影場所の光や音の響きまで入念に確認した。",
+      "sentenceWithBlanks": "映画 ____ ____ ____ ____ 響きまで入念に確認した。",
+      "korean": "영화감독은 각본은 물론이고 촬영 장소의 빛과 소리의 울림까지 꼼꼼히 확인했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-144-20-p4",
-          "text": "はもとより",
+          "id": "so-created-n2-144-25-p1",
+          "text": "監督は、脚本",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-144-20-p1",
-          "text": "中国語も",
+          "id": "so-created-n2-144-25-p2",
+          "text": "はもとより、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-144-20-p2",
-          "text": "で",
+          "id": "so-created-n2-144-25-p3",
+          "text": "撮影場所の",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-144-20-p3",
-          "text": "きる",
+          "id": "so-created-n2-144-25-p4",
+          "text": "光や音の",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-144-20-p4",
-        "so-extra20-n2-144-20-p1",
-        "so-extra20-n2-144-20-p2",
-        "so-extra20-n2-144-20-p3"
+        "so-created-n2-144-25-p1",
+        "so-created-n2-144-25-p2",
+        "so-created-n2-144-25-p3",
+        "so-created-n2-144-25-p4"
       ],
-      "explanation": "「はもとより」는 ~은 물론이고라는 뜻이다. 당연한 것에 더해 다른 것도 포함.",
+      "explanation": "「はもとより」는 '~은 물론이고'라는 뜻을 나타낸다. 이 문장에서는 '영화감독은 각본은 물론이고 촬영 장소의 빛과 소리의 울림까지 꼼꼼히 확인했다.'라는 상황에 쓰였으며, 당연한 것에 더해 다른 것도 포함. 주의할 점은 「英語はもとより」= 영어는 물론. はもちろん은 구어적, はもとより는 문어적.",
       "sourceGrammarIds": [
-        "n2-144"
+        "n2-144",
+        "n2-031",
+        "n2-032",
+        "n2-033"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     }
   ]

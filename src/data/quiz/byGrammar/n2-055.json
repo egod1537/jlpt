@@ -267,15 +267,23 @@
       ]
     },
     {
-      "id": "fb-extra-n2-055-1",
+      "id": "fb-created-n2-055-01",
       "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlank": "辻さんは子供の時からイギリスで教育を受けた（　　　）、きれいな英語を話す。",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
-      "answerChoiceId": "fb-extra-n2-055-1-d",
+      "sentence": "老舗の旅館だけに、客への心配りが細部まで行き届いている。",
+      "sentenceWithBlank": "老舗の旅館（　　　）、客への心配りが細部まで行き届いている。",
+      "korean": "오랜 전통을 지닌 여관인 만큼 손님을 배려하는 마음이 세세한 부분까지 미쳐 있다.",
+      "answerChoiceId": "fb-created-n2-055-01-d",
       "choices": [
         {
-          "id": "fb-extra-n2-055-1-a",
+          "id": "fb-created-n2-055-01-d",
+          "text": "だけに",
+          "grammarId": "n2-055",
+          "baseExpression": "だけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-055-01-a",
           "text": "ないことには",
           "grammarId": "n2-097",
           "baseExpression": "ないことには",
@@ -283,7 +291,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-055-1-b",
+          "id": "fb-created-n2-055-01-b",
           "text": "ないことはない",
           "grammarId": "n2-098",
           "baseExpression": "ないことはない",
@@ -291,23 +299,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-055-1-c",
+          "id": "fb-created-n2-055-01-c",
           "text": "ないではいられない",
           "grammarId": "n2-099",
           "baseExpression": "ないではいられない",
           "conjugatedExpression": "ないではいられない",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-055-1-d",
-          "text": "だけに",
-          "grammarId": "n2-055",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '오랜 전통을 지닌 여관인 만큼 손님을 배려하는 마음이 세세한 부분까지 미쳐 있다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
       "sourceGrammarIds": [
         "n2-055",
         "n2-097",
@@ -315,237 +315,20 @@
         "n2-099"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra-n2-055-2",
+      "id": "fb-created-n2-055-02",
       "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlank": "辻さんは子供の時からイギリスで教育を受けた（　　　）、きれいな英語を話す。",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
-      "answerChoiceId": "fb-extra-n2-055-2-a",
+      "sentence": "三年間待ち続けただけに、再会した瞬間は言葉が出なかった。",
+      "sentenceWithBlank": "三年間待ち続けた（　　　）、再会した瞬間は言葉が出なかった。",
+      "korean": "3년 동안 계속 기다려 온 만큼 다시 만난 순간에는 말이 나오지 않았다.",
+      "answerChoiceId": "fb-created-n2-055-02-d",
       "choices": [
         {
-          "id": "fb-extra-n2-055-2-b",
-          "text": "からすると",
-          "grammarId": "n2-027",
-          "baseExpression": "からすると",
-          "conjugatedExpression": "からすると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-055-2-c",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-055-2-d",
-          "text": "気味",
-          "grammarId": "n2-029",
-          "baseExpression": "気味",
-          "conjugatedExpression": "気味",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-055-2-a",
-          "text": "だけに",
-          "grammarId": "n2-055",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
-      "sourceGrammarIds": [
-        "n2-055",
-        "n2-027",
-        "n2-028",
-        "n2-029"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-055-3",
-      "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlank": "辻さんは子供の時からイギリスで教育を受けた（　　　）、きれいな英語を話す。",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
-      "answerChoiceId": "fb-extra-n2-055-3-b",
-      "choices": [
-        {
-          "id": "fb-extra-n2-055-3-c",
-          "text": "ようがない",
-          "grammarId": "n2-163",
-          "baseExpression": "ようがない",
-          "conjugatedExpression": "ようがない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-055-3-d",
-          "text": "ようかまいか",
-          "grammarId": "n2-164",
-          "baseExpression": "ようかまいか",
-          "conjugatedExpression": "ようかまいか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-055-3-a",
-          "text": "ようではないか",
-          "grammarId": "n2-165",
-          "baseExpression": "ようではないか",
-          "conjugatedExpression": "ようではないか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-055-3-b",
-          "text": "だけに",
-          "grammarId": "n2-055",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
-      "sourceGrammarIds": [
-        "n2-055",
-        "n2-163",
-        "n2-164",
-        "n2-165"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-055-4",
-      "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlank": "辻さんは子供の時からイギリスで教育を受けた（　　　）、きれいな英語を話す。",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
-      "answerChoiceId": "fb-extra-n2-055-4-c",
-      "choices": [
-        {
-          "id": "fb-extra-n2-055-4-d",
-          "text": "かないかのうちに",
-          "grammarId": "n2-021",
-          "baseExpression": "かないかのうちに",
-          "conjugatedExpression": "かないかのうちに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-055-4-a",
-          "text": "かねない",
-          "grammarId": "n2-022",
-          "baseExpression": "かねない",
-          "conjugatedExpression": "かねない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-055-4-b",
-          "text": "かねる",
-          "grammarId": "n2-023",
-          "baseExpression": "かねる",
-          "conjugatedExpression": "かねる",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-055-4-c",
-          "text": "だけに",
-          "grammarId": "n2-055",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
-      "sourceGrammarIds": [
-        "n2-055",
-        "n2-021",
-        "n2-022",
-        "n2-023"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-055-5",
-      "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlank": "辻さんは子供の時からイギリスで教育を受けた（　　　）、きれいな英語を話す。",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
-      "answerChoiceId": "fb-extra-n2-055-5-d",
-      "choices": [
-        {
-          "id": "fb-extra-n2-055-5-a",
-          "text": "かのように",
-          "grammarId": "n2-024",
-          "baseExpression": "かのように",
-          "conjugatedExpression": "かのように",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-055-5-b",
-          "text": "からいうと",
-          "grammarId": "n2-025",
-          "baseExpression": "からいうと",
-          "conjugatedExpression": "からいうと",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-055-5-c",
-          "text": "からして",
-          "grammarId": "n2-026",
-          "baseExpression": "からして",
-          "conjugatedExpression": "からして",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-055-5-d",
-          "text": "だけに",
-          "grammarId": "n2-055",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
-      "sourceGrammarIds": [
-        "n2-055",
-        "n2-024",
-        "n2-025",
-        "n2-026"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-055-01",
-      "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlank": "辻さんは子供の時からイギリスで教育を受けた（　　　）、きれいな英語を話す。",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
-      "answerChoiceId": "fb-extra20-n2-055-01-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-055-01-a",
+          "id": "fb-created-n2-055-02-a",
           "text": "ないことには",
           "grammarId": "n2-097",
           "baseExpression": "ないことには",
@@ -553,7 +336,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-055-01-b",
+          "id": "fb-created-n2-055-02-b",
           "text": "ないことはない",
           "grammarId": "n2-098",
           "baseExpression": "ないことはない",
@@ -561,7 +344,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-055-01-c",
+          "id": "fb-created-n2-055-02-c",
           "text": "ないではいられない",
           "grammarId": "n2-099",
           "baseExpression": "ないではいられない",
@@ -569,7 +352,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-055-01-d",
+          "id": "fb-created-n2-055-02-d",
           "text": "だけに",
           "grammarId": "n2-055",
           "baseExpression": "だけに",
@@ -577,7 +360,7 @@
           "isSimilarDistractor": false
         }
       ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '3년 동안 계속 기다려 온 만큼 다시 만난 순간에는 말이 나오지 않았다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
       "sourceGrammarIds": [
         "n2-055",
         "n2-097",
@@ -585,253 +368,20 @@
         "n2-099"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-055-02",
+      "id": "fb-created-n2-055-03",
       "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlank": "辻さんは子供の時からイギリスで教育を受けた（　　　）、きれいな英語を話す。",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
-      "answerChoiceId": "fb-extra20-n2-055-02-a",
+      "sentence": "このカメラはプロ向けだけに、暗い場所でも鮮明に撮影できる。",
+      "sentenceWithBlank": "このカメラはプロ向け（　　　）、暗い場所でも鮮明に撮影できる。",
+      "korean": "이 카메라는 전문가용인 만큼 어두운 곳에서도 선명하게 촬영할 수 있다.",
+      "answerChoiceId": "fb-created-n2-055-03-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-055-02-d",
-          "text": "気味",
-          "grammarId": "n2-029",
-          "baseExpression": "気味",
-          "conjugatedExpression": "気味",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-055-02-a",
-          "text": "だけに",
-          "grammarId": "n2-055",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-055-02-b",
-          "text": "からすると",
-          "grammarId": "n2-027",
-          "baseExpression": "からすると",
-          "conjugatedExpression": "からすると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-055-02-c",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
-      "sourceGrammarIds": [
-        "n2-055",
-        "n2-027",
-        "n2-028",
-        "n2-029"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-055-03",
-      "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlank": "辻さんは子供の時からイギリスで教育を受けた（　　　）、きれいな英語を話す。",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
-      "answerChoiceId": "fb-extra20-n2-055-03-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-055-03-c",
-          "text": "ようがない",
-          "grammarId": "n2-163",
-          "baseExpression": "ようがない",
-          "conjugatedExpression": "ようがない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-055-03-d",
-          "text": "ようかまいか",
-          "grammarId": "n2-164",
-          "baseExpression": "ようかまいか",
-          "conjugatedExpression": "ようかまいか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-055-03-a",
-          "text": "ようではないか",
-          "grammarId": "n2-165",
-          "baseExpression": "ようではないか",
-          "conjugatedExpression": "ようではないか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-055-03-b",
-          "text": "だけに",
-          "grammarId": "n2-055",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
-      "sourceGrammarIds": [
-        "n2-055",
-        "n2-163",
-        "n2-164",
-        "n2-165"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-055-04",
-      "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlank": "辻さんは子供の時からイギリスで教育を受けた（　　　）、きれいな英語を話す。",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
-      "answerChoiceId": "fb-extra20-n2-055-04-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-055-04-b",
-          "text": "かねる",
-          "grammarId": "n2-023",
-          "baseExpression": "かねる",
-          "conjugatedExpression": "かねる",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-055-04-c",
-          "text": "だけに",
-          "grammarId": "n2-055",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-055-04-d",
-          "text": "かないかのうちに",
-          "grammarId": "n2-021",
-          "baseExpression": "かないかのうちに",
-          "conjugatedExpression": "かないかのうちに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-055-04-a",
-          "text": "かねない",
-          "grammarId": "n2-022",
-          "baseExpression": "かねない",
-          "conjugatedExpression": "かねない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
-      "sourceGrammarIds": [
-        "n2-055",
-        "n2-021",
-        "n2-022",
-        "n2-023"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-055-05",
-      "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlank": "辻さんは子供の時からイギリスで教育を受けた（　　　）、きれいな英語を話す。",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
-      "answerChoiceId": "fb-extra20-n2-055-05-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-055-05-a",
-          "text": "かのように",
-          "grammarId": "n2-024",
-          "baseExpression": "かのように",
-          "conjugatedExpression": "かのように",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-055-05-b",
-          "text": "からいうと",
-          "grammarId": "n2-025",
-          "baseExpression": "からいうと",
-          "conjugatedExpression": "からいうと",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-055-05-c",
-          "text": "からして",
-          "grammarId": "n2-026",
-          "baseExpression": "からして",
-          "conjugatedExpression": "からして",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-055-05-d",
-          "text": "だけに",
-          "grammarId": "n2-055",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
-      "sourceGrammarIds": [
-        "n2-055",
-        "n2-024",
-        "n2-025",
-        "n2-026"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-055-06",
-      "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlank": "辻さんは子供の時からイギリスで教育を受けた（　　　）、きれいな英語を話す。",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
-      "answerChoiceId": "fb-extra20-n2-055-06-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-055-06-d",
-          "text": "だけに",
-          "grammarId": "n2-055",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-055-06-a",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-055-06-b",
+          "id": "fb-created-n2-055-03-b",
           "text": "ないことはない",
           "grammarId": "n2-098",
           "baseExpression": "ないことはない",
@@ -839,253 +389,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-055-06-c",
-          "text": "ないではいられない",
-          "grammarId": "n2-099",
-          "baseExpression": "ないではいられない",
-          "conjugatedExpression": "ないではいられない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
-      "sourceGrammarIds": [
-        "n2-055",
-        "n2-097",
-        "n2-098",
-        "n2-099"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-055-07",
-      "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlank": "辻さんは子供の時からイギリスで教育を受けた（　　　）、きれいな英語を話す。",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
-      "answerChoiceId": "fb-extra20-n2-055-07-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-055-07-c",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-055-07-d",
-          "text": "気味",
-          "grammarId": "n2-029",
-          "baseExpression": "気味",
-          "conjugatedExpression": "気味",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-055-07-a",
-          "text": "だけに",
-          "grammarId": "n2-055",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-055-07-b",
-          "text": "からすると",
-          "grammarId": "n2-027",
-          "baseExpression": "からすると",
-          "conjugatedExpression": "からすると",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
-      "sourceGrammarIds": [
-        "n2-055",
-        "n2-027",
-        "n2-028",
-        "n2-029"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-055-08",
-      "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlank": "辻さんは子供の時からイギリスで教育を受けた（　　　）、きれいな英語を話す。",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
-      "answerChoiceId": "fb-extra20-n2-055-08-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-055-08-b",
-          "text": "だけに",
-          "grammarId": "n2-055",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-055-08-c",
-          "text": "ようがない",
-          "grammarId": "n2-163",
-          "baseExpression": "ようがない",
-          "conjugatedExpression": "ようがない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-055-08-d",
-          "text": "ようかまいか",
-          "grammarId": "n2-164",
-          "baseExpression": "ようかまいか",
-          "conjugatedExpression": "ようかまいか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-055-08-a",
-          "text": "ようではないか",
-          "grammarId": "n2-165",
-          "baseExpression": "ようではないか",
-          "conjugatedExpression": "ようではないか",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
-      "sourceGrammarIds": [
-        "n2-055",
-        "n2-163",
-        "n2-164",
-        "n2-165"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-055-09",
-      "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlank": "辻さんは子供の時からイギリスで教育を受けた（　　　）、きれいな英語を話す。",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
-      "answerChoiceId": "fb-extra20-n2-055-09-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-055-09-a",
-          "text": "かねない",
-          "grammarId": "n2-022",
-          "baseExpression": "かねない",
-          "conjugatedExpression": "かねない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-055-09-b",
-          "text": "かねる",
-          "grammarId": "n2-023",
-          "baseExpression": "かねる",
-          "conjugatedExpression": "かねる",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-055-09-c",
-          "text": "だけに",
-          "grammarId": "n2-055",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-055-09-d",
-          "text": "かないかのうちに",
-          "grammarId": "n2-021",
-          "baseExpression": "かないかのうちに",
-          "conjugatedExpression": "かないかのうちに",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
-      "sourceGrammarIds": [
-        "n2-055",
-        "n2-021",
-        "n2-022",
-        "n2-023"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-055-10",
-      "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlank": "辻さんは子供の時からイギリスで教育を受けた（　　　）、きれいな英語を話す。",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
-      "answerChoiceId": "fb-extra20-n2-055-10-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-055-10-d",
-          "text": "だけに",
-          "grammarId": "n2-055",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-055-10-a",
-          "text": "かのように",
-          "grammarId": "n2-024",
-          "baseExpression": "かのように",
-          "conjugatedExpression": "かのように",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-055-10-b",
-          "text": "からいうと",
-          "grammarId": "n2-025",
-          "baseExpression": "からいうと",
-          "conjugatedExpression": "からいうと",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-055-10-c",
-          "text": "からして",
-          "grammarId": "n2-026",
-          "baseExpression": "からして",
-          "conjugatedExpression": "からして",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
-      "sourceGrammarIds": [
-        "n2-055",
-        "n2-024",
-        "n2-025",
-        "n2-026"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-055-11",
-      "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlank": "辻さんは子供の時からイギリスで教育を受けた（　　　）、きれいな英語を話す。",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
-      "answerChoiceId": "fb-extra20-n2-055-11-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-055-11-c",
+          "id": "fb-created-n2-055-03-c",
           "text": "ないではいられない",
           "grammarId": "n2-099",
           "baseExpression": "ないではいられない",
@@ -1093,7 +397,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-055-11-d",
+          "id": "fb-created-n2-055-03-d",
           "text": "だけに",
           "grammarId": "n2-055",
           "baseExpression": "だけに",
@@ -1101,285 +405,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-055-11-a",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-055-11-b",
-          "text": "ないことはない",
-          "grammarId": "n2-098",
-          "baseExpression": "ないことはない",
-          "conjugatedExpression": "ないことはない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
-      "sourceGrammarIds": [
-        "n2-055",
-        "n2-097",
-        "n2-098",
-        "n2-099"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-055-12",
-      "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlank": "辻さんは子供の時からイギリスで教育を受けた（　　　）、きれいな英語を話す。",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
-      "answerChoiceId": "fb-extra20-n2-055-12-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-055-12-b",
-          "text": "からすると",
-          "grammarId": "n2-027",
-          "baseExpression": "からすると",
-          "conjugatedExpression": "からすると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-055-12-c",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-055-12-d",
-          "text": "気味",
-          "grammarId": "n2-029",
-          "baseExpression": "気味",
-          "conjugatedExpression": "気味",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-055-12-a",
-          "text": "だけに",
-          "grammarId": "n2-055",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
-      "sourceGrammarIds": [
-        "n2-055",
-        "n2-027",
-        "n2-028",
-        "n2-029"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-055-13",
-      "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlank": "辻さんは子供の時からイギリスで教育を受けた（　　　）、きれいな英語を話す。",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
-      "answerChoiceId": "fb-extra20-n2-055-13-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-055-13-a",
-          "text": "ようではないか",
-          "grammarId": "n2-165",
-          "baseExpression": "ようではないか",
-          "conjugatedExpression": "ようではないか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-055-13-b",
-          "text": "だけに",
-          "grammarId": "n2-055",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-055-13-c",
-          "text": "ようがない",
-          "grammarId": "n2-163",
-          "baseExpression": "ようがない",
-          "conjugatedExpression": "ようがない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-055-13-d",
-          "text": "ようかまいか",
-          "grammarId": "n2-164",
-          "baseExpression": "ようかまいか",
-          "conjugatedExpression": "ようかまいか",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
-      "sourceGrammarIds": [
-        "n2-055",
-        "n2-163",
-        "n2-164",
-        "n2-165"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-055-14",
-      "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlank": "辻さんは子供の時からイギリスで教育を受けた（　　　）、きれいな英語を話す。",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
-      "answerChoiceId": "fb-extra20-n2-055-14-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-055-14-d",
-          "text": "かないかのうちに",
-          "grammarId": "n2-021",
-          "baseExpression": "かないかのうちに",
-          "conjugatedExpression": "かないかのうちに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-055-14-a",
-          "text": "かねない",
-          "grammarId": "n2-022",
-          "baseExpression": "かねない",
-          "conjugatedExpression": "かねない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-055-14-b",
-          "text": "かねる",
-          "grammarId": "n2-023",
-          "baseExpression": "かねる",
-          "conjugatedExpression": "かねる",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-055-14-c",
-          "text": "だけに",
-          "grammarId": "n2-055",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
-      "sourceGrammarIds": [
-        "n2-055",
-        "n2-021",
-        "n2-022",
-        "n2-023"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-055-15",
-      "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlank": "辻さんは子供の時からイギリスで教育を受けた（　　　）、きれいな英語を話す。",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
-      "answerChoiceId": "fb-extra20-n2-055-15-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-055-15-c",
-          "text": "からして",
-          "grammarId": "n2-026",
-          "baseExpression": "からして",
-          "conjugatedExpression": "からして",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-055-15-d",
-          "text": "だけに",
-          "grammarId": "n2-055",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-055-15-a",
-          "text": "かのように",
-          "grammarId": "n2-024",
-          "baseExpression": "かのように",
-          "conjugatedExpression": "かのように",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-055-15-b",
-          "text": "からいうと",
-          "grammarId": "n2-025",
-          "baseExpression": "からいうと",
-          "conjugatedExpression": "からいうと",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
-      "sourceGrammarIds": [
-        "n2-055",
-        "n2-024",
-        "n2-025",
-        "n2-026"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-055-16",
-      "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlank": "辻さんは子供の時からイギリスで教育を受けた（　　　）、きれいな英語を話す。",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
-      "answerChoiceId": "fb-extra20-n2-055-16-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-055-16-b",
-          "text": "ないことはない",
-          "grammarId": "n2-098",
-          "baseExpression": "ないことはない",
-          "conjugatedExpression": "ないことはない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-055-16-c",
-          "text": "ないではいられない",
-          "grammarId": "n2-099",
-          "baseExpression": "ないではいられない",
-          "conjugatedExpression": "ないではいられない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-055-16-d",
-          "text": "だけに",
-          "grammarId": "n2-055",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-055-16-a",
+          "id": "fb-created-n2-055-03-a",
           "text": "ないことには",
           "grammarId": "n2-097",
           "baseExpression": "ないことには",
@@ -1387,7 +413,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '이 카메라는 전문가용인 만큼 어두운 곳에서도 선명하게 촬영할 수 있다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
       "sourceGrammarIds": [
         "n2-055",
         "n2-097",
@@ -1395,21 +421,28 @@
         "n2-099"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-055-17",
+      "id": "fb-created-n2-055-04",
       "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlank": "辻さんは子供の時からイギリスで教育を受けた（　　　）、きれいな英語を話す。",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
-      "answerChoiceId": "fb-extra20-n2-055-17-a",
+      "sentence": "彼女は救急医療の経験が豊富なだけに、突然の事故にも冷静に対応した。",
+      "sentenceWithBlank": "彼女は救急医療の経験が豊富な（　　　）、突然の事故にも冷静に対応した。",
+      "korean": "그녀는 응급 의료 경험이 풍부한 만큼 갑작스러운 사고에도 침착하게 대응했다.",
+      "answerChoiceId": "fb-created-n2-055-04-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-055-17-a",
+          "id": "fb-created-n2-055-04-c",
+          "text": "ないではいられない",
+          "grammarId": "n2-099",
+          "baseExpression": "ないではいられない",
+          "conjugatedExpression": "ないではいられない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-04-d",
           "text": "だけに",
           "grammarId": "n2-055",
           "baseExpression": "だけに",
@@ -1417,69 +450,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-055-17-b",
-          "text": "からすると",
-          "grammarId": "n2-027",
-          "baseExpression": "からすると",
-          "conjugatedExpression": "からすると",
+          "id": "fb-created-n2-055-04-a",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-055-17-c",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-055-17-d",
-          "text": "気味",
-          "grammarId": "n2-029",
-          "baseExpression": "気味",
-          "conjugatedExpression": "気味",
+          "id": "fb-created-n2-055-04-b",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '그녀는 응급 의료 경험이 풍부한 만큼 갑작스러운 사고에도 침착하게 대응했다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
       "sourceGrammarIds": [
         "n2-055",
-        "n2-027",
-        "n2-028",
-        "n2-029"
+        "n2-097",
+        "n2-098",
+        "n2-099"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-055-18",
+      "id": "fb-created-n2-055-05",
       "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlank": "辻さんは子供の時からイギリスで教育を受けた（　　　）、きれいな英語を話す。",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
-      "answerChoiceId": "fb-extra20-n2-055-18-b",
+      "sentence": "収穫直後の桃だけに、口に入れると豊かな香りが広がった。",
+      "sentenceWithBlank": "収穫直後の桃（　　　）、口に入れると豊かな香りが広がった。",
+      "korean": "수확한 직후의 복숭아인 만큼 입에 넣자 풍부한 향이 퍼졌다.",
+      "answerChoiceId": "fb-created-n2-055-05-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-055-18-d",
-          "text": "ようかまいか",
-          "grammarId": "n2-164",
-          "baseExpression": "ようかまいか",
-          "conjugatedExpression": "ようかまいか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-055-18-a",
-          "text": "ようではないか",
-          "grammarId": "n2-165",
-          "baseExpression": "ようではないか",
-          "conjugatedExpression": "ようではないか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-055-18-b",
+          "id": "fb-created-n2-055-05-d",
           "text": "だけに",
           "grammarId": "n2-055",
           "baseExpression": "だけに",
@@ -1487,37 +495,121 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-055-18-c",
-          "text": "ようがない",
-          "grammarId": "n2-163",
-          "baseExpression": "ようがない",
-          "conjugatedExpression": "ようがない",
+          "id": "fb-created-n2-055-05-a",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-05-b",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-05-c",
+          "text": "ないではいられない",
+          "grammarId": "n2-099",
+          "baseExpression": "ないではいられない",
+          "conjugatedExpression": "ないではいられない",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '수확한 직후의 복숭아인 만큼 입에 넣자 풍부한 향이 퍼졌다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
       "sourceGrammarIds": [
         "n2-055",
-        "n2-163",
-        "n2-164",
-        "n2-165"
+        "n2-097",
+        "n2-098",
+        "n2-099"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-055-19",
+      "id": "fb-created-n2-055-06",
       "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlank": "辻さんは子供の時からイギリスで教育を受けた（　　　）、きれいな英語を話す。",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
-      "answerChoiceId": "fb-extra20-n2-055-19-c",
+      "sentence": "兄弟で立ち上げた会社だけに、経営方針について遠慮なく議論できる。",
+      "sentenceWithBlank": "兄弟で立ち上げた会社（　　　）、経営方針について遠慮なく議論できる。",
+      "korean": "형제가 함께 세운 회사인 만큼 경영 방침에 관해 거리낌 없이 논의할 수 있다.",
+      "answerChoiceId": "fb-created-n2-055-06-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-055-19-c",
+          "id": "fb-created-n2-055-06-a",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-06-b",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-06-c",
+          "text": "ないではいられない",
+          "grammarId": "n2-099",
+          "baseExpression": "ないではいられない",
+          "conjugatedExpression": "ないではいられない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-06-d",
+          "text": "だけに",
+          "grammarId": "n2-055",
+          "baseExpression": "だけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '형제가 함께 세운 회사인 만큼 경영 방침에 관해 거리낌 없이 논의할 수 있다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
+      "sourceGrammarIds": [
+        "n2-055",
+        "n2-097",
+        "n2-098",
+        "n2-099"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-055-07",
+      "level": "N2",
+      "sentence": "港に近い市場だけに、早朝から新鮮な魚がずらりと並ぶ。",
+      "sentenceWithBlank": "港に近い市場（　　　）、早朝から新鮮な魚がずらりと並ぶ。",
+      "korean": "항구와 가까운 시장인 만큼 이른 아침부터 신선한 생선이 빼곡히 진열된다.",
+      "answerChoiceId": "fb-created-n2-055-07-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-055-07-b",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-07-c",
+          "text": "ないではいられない",
+          "grammarId": "n2-099",
+          "baseExpression": "ないではいられない",
+          "conjugatedExpression": "ないではいられない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-07-d",
           "text": "だけに",
           "grammarId": "n2-055",
           "baseExpression": "だけに",
@@ -1525,69 +617,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-055-19-d",
-          "text": "かないかのうちに",
-          "grammarId": "n2-021",
-          "baseExpression": "かないかのうちに",
-          "conjugatedExpression": "かないかのうちに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-055-19-a",
-          "text": "かねない",
-          "grammarId": "n2-022",
-          "baseExpression": "かねない",
-          "conjugatedExpression": "かねない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-055-19-b",
-          "text": "かねる",
-          "grammarId": "n2-023",
-          "baseExpression": "かねる",
-          "conjugatedExpression": "かねる",
+          "id": "fb-created-n2-055-07-a",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '항구와 가까운 시장인 만큼 이른 아침부터 신선한 생선이 빼곡히 진열된다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
       "sourceGrammarIds": [
         "n2-055",
-        "n2-021",
-        "n2-022",
-        "n2-023"
+        "n2-097",
+        "n2-098",
+        "n2-099"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-055-20",
+      "id": "fb-created-n2-055-08",
       "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlank": "辻さんは子供の時からイギリスで教育を受けた（　　　）、きれいな英語を話す。",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
-      "answerChoiceId": "fb-extra20-n2-055-20-d",
+      "sentence": "長年山岳救助に携わってきただけに、隊長は天候の変化を素早く察知した。",
+      "sentenceWithBlank": "長年山岳救助に携わってきた（　　　）、隊長は天候の変化を素早く察知した。",
+      "korean": "오랫동안 산악 구조에 종사해 온 만큼 대장은 날씨의 변화를 재빨리 감지했다.",
+      "answerChoiceId": "fb-created-n2-055-08-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-055-20-b",
-          "text": "からいうと",
-          "grammarId": "n2-025",
-          "baseExpression": "からいうと",
-          "conjugatedExpression": "からいうと",
+          "id": "fb-created-n2-055-08-c",
+          "text": "ないではいられない",
+          "grammarId": "n2-099",
+          "baseExpression": "ないではいられない",
+          "conjugatedExpression": "ないではいられない",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-055-20-c",
-          "text": "からして",
-          "grammarId": "n2-026",
-          "baseExpression": "からして",
-          "conjugatedExpression": "からして",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-055-20-d",
+          "id": "fb-created-n2-055-08-d",
           "text": "だけに",
           "grammarId": "n2-055",
           "baseExpression": "だけに",
@@ -1595,25 +662,933 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-055-20-a",
-          "text": "かのように",
-          "grammarId": "n2-024",
-          "baseExpression": "かのように",
-          "conjugatedExpression": "かのように",
+          "id": "fb-created-n2-055-08-a",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-08-b",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '오랫동안 산악 구조에 종사해 온 만큼 대장은 날씨의 변화를 재빨리 감지했다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
       "sourceGrammarIds": [
         "n2-055",
-        "n2-024",
-        "n2-025",
-        "n2-026"
+        "n2-097",
+        "n2-098",
+        "n2-099"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-055-09",
+      "level": "N2",
+      "sentence": "初めて自分で設計した家だけに、完成した時の喜びは格別だった。",
+      "sentenceWithBlank": "初めて自分で設計した家（　　　）、完成した時の喜びは格別だった。",
+      "korean": "처음으로 직접 설계한 집인 만큼 완공되었을 때의 기쁨은 각별했다.",
+      "answerChoiceId": "fb-created-n2-055-09-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-055-09-d",
+          "text": "だけに",
+          "grammarId": "n2-055",
+          "baseExpression": "だけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-055-09-a",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-09-b",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-09-c",
+          "text": "ないではいられない",
+          "grammarId": "n2-099",
+          "baseExpression": "ないではいられない",
+          "conjugatedExpression": "ないではいられない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '처음으로 직접 설계한 집인 만큼 완공되었을 때의 기쁨은 각별했다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
+      "sourceGrammarIds": [
+        "n2-055",
+        "n2-097",
+        "n2-098",
+        "n2-099"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-055-10",
+      "level": "N2",
+      "sentence": "全国大会の決勝だけに、会場は開始前から緊張感に包まれていた。",
+      "sentenceWithBlank": "全国大会の決勝（　　　）、会場は開始前から緊張感に包まれていた。",
+      "korean": "전국 대회 결승인 만큼 경기장은 시작 전부터 긴장감에 휩싸여 있었다.",
+      "answerChoiceId": "fb-created-n2-055-10-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-055-10-a",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-10-b",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-10-c",
+          "text": "ないではいられない",
+          "grammarId": "n2-099",
+          "baseExpression": "ないではいられない",
+          "conjugatedExpression": "ないではいられない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-10-d",
+          "text": "だけに",
+          "grammarId": "n2-055",
+          "baseExpression": "だけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '전국 대회 결승인 만큼 경기장은 시작 전부터 긴장감에 휩싸여 있었다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
+      "sourceGrammarIds": [
+        "n2-055",
+        "n2-097",
+        "n2-098",
+        "n2-099"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-055-11",
+      "level": "N2",
+      "sentence": "祖母が毎日手入れしている庭だけに、どの季節にも花が絶えない。",
+      "sentenceWithBlank": "祖母が毎日手入れしている庭（　　　）、どの季節にも花が絶えない。",
+      "korean": "할머니가 매일 가꾸는 정원인 만큼 어느 계절에도 꽃이 끊이지 않는다.",
+      "answerChoiceId": "fb-created-n2-055-11-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-055-11-b",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-11-c",
+          "text": "ないではいられない",
+          "grammarId": "n2-099",
+          "baseExpression": "ないではいられない",
+          "conjugatedExpression": "ないではいられない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-11-d",
+          "text": "だけに",
+          "grammarId": "n2-055",
+          "baseExpression": "だけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-055-11-a",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '할머니가 매일 가꾸는 정원인 만큼 어느 계절에도 꽃이 끊이지 않는다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
+      "sourceGrammarIds": [
+        "n2-055",
+        "n2-097",
+        "n2-098",
+        "n2-099"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-055-12",
+      "level": "N2",
+      "sentence": "厳しい訓練を乗り越えただけに、新人消防士たちの動きには迷いがなかった。",
+      "sentenceWithBlank": "厳しい訓練を乗り越えた（　　　）、新人消防士たちの動きには迷いがなかった。",
+      "korean": "혹독한 훈련을 이겨 낸 만큼 신입 소방관들의 움직임에는 망설임이 없었다.",
+      "answerChoiceId": "fb-created-n2-055-12-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-055-12-c",
+          "text": "ないではいられない",
+          "grammarId": "n2-099",
+          "baseExpression": "ないではいられない",
+          "conjugatedExpression": "ないではいられない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-12-d",
+          "text": "だけに",
+          "grammarId": "n2-055",
+          "baseExpression": "だけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-055-12-a",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-12-b",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '혹독한 훈련을 이겨 낸 만큼 신입 소방관들의 움직임에는 망설임이 없었다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
+      "sourceGrammarIds": [
+        "n2-055",
+        "n2-097",
+        "n2-098",
+        "n2-099"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-055-13",
+      "level": "N2",
+      "sentence": "天然素材だけで仕上げた家具だけに、年月とともに味わいが増していく。",
+      "sentenceWithBlank": "天然素材だけで仕上げた家具（　　　）、年月とともに味わいが増していく。",
+      "korean": "천연 소재만으로 완성한 가구인 만큼 세월이 흐를수록 멋이 더해진다.",
+      "answerChoiceId": "fb-created-n2-055-13-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-055-13-d",
+          "text": "だけに",
+          "grammarId": "n2-055",
+          "baseExpression": "だけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-055-13-a",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-13-b",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-13-c",
+          "text": "ないではいられない",
+          "grammarId": "n2-099",
+          "baseExpression": "ないではいられない",
+          "conjugatedExpression": "ないではいられない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '천연 소재만으로 완성한 가구인 만큼 세월이 흐를수록 멋이 더해진다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
+      "sourceGrammarIds": [
+        "n2-055",
+        "n2-097",
+        "n2-098",
+        "n2-099"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-055-14",
+      "level": "N2",
+      "sentence": "この地域の水は透明度が高いだけに、川底の小石まではっきり見える。",
+      "sentenceWithBlank": "この地域の水は透明度が高い（　　　）、川底の小石まではっきり見える。",
+      "korean": "이 지역의 물은 투명도가 높은 만큼 강바닥의 자갈까지 선명하게 보인다.",
+      "answerChoiceId": "fb-created-n2-055-14-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-055-14-a",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-14-b",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-14-c",
+          "text": "ないではいられない",
+          "grammarId": "n2-099",
+          "baseExpression": "ないではいられない",
+          "conjugatedExpression": "ないではいられない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-14-d",
+          "text": "だけに",
+          "grammarId": "n2-055",
+          "baseExpression": "だけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '이 지역의 물은 투명도가 높은 만큼 강바닥의 자갈까지 선명하게 보인다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
+      "sourceGrammarIds": [
+        "n2-055",
+        "n2-097",
+        "n2-098",
+        "n2-099"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-055-15",
+      "level": "N2",
+      "sentence": "十年ぶりの新作だけに、その映画は公開初日から大きな注目を集めた。",
+      "sentenceWithBlank": "十年ぶりの新作（　　　）、その映画は公開初日から大きな注目を集めた。",
+      "korean": "10년 만의 신작인 만큼 그 영화는 개봉 첫날부터 큰 주목을 받았다.",
+      "answerChoiceId": "fb-created-n2-055-15-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-055-15-b",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-15-c",
+          "text": "ないではいられない",
+          "grammarId": "n2-099",
+          "baseExpression": "ないではいられない",
+          "conjugatedExpression": "ないではいられない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-15-d",
+          "text": "だけに",
+          "grammarId": "n2-055",
+          "baseExpression": "だけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-055-15-a",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '10년 만의 신작인 만큼 그 영화는 개봉 첫날부터 큰 주목을 받았다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
+      "sourceGrammarIds": [
+        "n2-055",
+        "n2-097",
+        "n2-098",
+        "n2-099"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-055-16",
+      "level": "N2",
+      "sentence": "普段から地域を歩き回っている配達員だけに、抜け道にも詳しい。",
+      "sentenceWithBlank": "普段から地域を歩き回っている配達員（　　　）、抜け道にも詳しい。",
+      "korean": "평소부터 지역 곳곳을 돌아다니는 배달원인 만큼 지름길도 잘 안다.",
+      "answerChoiceId": "fb-created-n2-055-16-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-055-16-c",
+          "text": "ないではいられない",
+          "grammarId": "n2-099",
+          "baseExpression": "ないではいられない",
+          "conjugatedExpression": "ないではいられない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-16-d",
+          "text": "だけに",
+          "grammarId": "n2-055",
+          "baseExpression": "だけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-055-16-a",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-16-b",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '평소부터 지역 곳곳을 돌아다니는 배달원인 만큼 지름길도 잘 안다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
+      "sourceGrammarIds": [
+        "n2-055",
+        "n2-097",
+        "n2-098",
+        "n2-099"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-055-17",
+      "level": "N2",
+      "sentence": "精密機器を扱う工場だけに、室内の温度は厳しく管理されている。",
+      "sentenceWithBlank": "精密機器を扱う工場（　　　）、室内の温度は厳しく管理されている。",
+      "korean": "정밀 기기를 취급하는 공장인 만큼 실내 온도는 엄격하게 관리되고 있다.",
+      "answerChoiceId": "fb-created-n2-055-17-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-055-17-d",
+          "text": "だけに",
+          "grammarId": "n2-055",
+          "baseExpression": "だけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-055-17-a",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-17-b",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-17-c",
+          "text": "ないではいられない",
+          "grammarId": "n2-099",
+          "baseExpression": "ないではいられない",
+          "conjugatedExpression": "ないではいられない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '정밀 기기를 취급하는 공장인 만큼 실내 온도는 엄격하게 관리되고 있다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
+      "sourceGrammarIds": [
+        "n2-055",
+        "n2-097",
+        "n2-098",
+        "n2-099"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-055-18",
+      "level": "N2",
+      "sentence": "幼い頃から海に親しんできただけに、彼は潮の流れを読むのがうまい。",
+      "sentenceWithBlank": "幼い頃から海に親しんできた（　　　）、彼は潮の流れを読むのがうまい。",
+      "korean": "어릴 때부터 바다와 가까이 지내 온 만큼 그는 조류를 읽는 데 능숙하다.",
+      "answerChoiceId": "fb-created-n2-055-18-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-055-18-a",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-18-b",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-18-c",
+          "text": "ないではいられない",
+          "grammarId": "n2-099",
+          "baseExpression": "ないではいられない",
+          "conjugatedExpression": "ないではいられない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-18-d",
+          "text": "だけに",
+          "grammarId": "n2-055",
+          "baseExpression": "だけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '어릴 때부터 바다와 가까이 지내 온 만큼 그는 조류를 읽는 데 능숙하다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
+      "sourceGrammarIds": [
+        "n2-055",
+        "n2-097",
+        "n2-098",
+        "n2-099"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-055-19",
+      "level": "N2",
+      "sentence": "市民の要望を直接聞いてきた議員だけに、今回の提案は生活の実情に即している。",
+      "sentenceWithBlank": "市民の要望を直接聞いてきた議員（　　　）、今回の提案は生活の実情に即している。",
+      "korean": "시민의 요구를 직접 들어 온 의원인 만큼 이번 제안은 생활의 실정에 부합한다.",
+      "answerChoiceId": "fb-created-n2-055-19-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-055-19-b",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-19-c",
+          "text": "ないではいられない",
+          "grammarId": "n2-099",
+          "baseExpression": "ないではいられない",
+          "conjugatedExpression": "ないではいられない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-19-d",
+          "text": "だけに",
+          "grammarId": "n2-055",
+          "baseExpression": "だけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-055-19-a",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '시민의 요구를 직접 들어 온 의원인 만큼 이번 제안은 생활의 실정에 부합한다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
+      "sourceGrammarIds": [
+        "n2-055",
+        "n2-097",
+        "n2-098",
+        "n2-099"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-055-20",
+      "level": "N2",
+      "sentence": "冬の間ずっと閉鎖されていた道路だけに、除雪後も路面の確認が慎重に行われた。",
+      "sentenceWithBlank": "冬の間ずっと閉鎖されていた道路（　　　）、除雪後も路面の確認が慎重に行われた。",
+      "korean": "겨울 내내 폐쇄되어 있던 도로인 만큼 제설 후에도 노면 점검이 신중하게 이루어졌다.",
+      "answerChoiceId": "fb-created-n2-055-20-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-055-20-c",
+          "text": "ないではいられない",
+          "grammarId": "n2-099",
+          "baseExpression": "ないではいられない",
+          "conjugatedExpression": "ないではいられない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-20-d",
+          "text": "だけに",
+          "grammarId": "n2-055",
+          "baseExpression": "だけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-055-20-a",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-20-b",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '겨울 내내 폐쇄되어 있던 도로인 만큼 제설 후에도 노면 점검이 신중하게 이루어졌다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
+      "sourceGrammarIds": [
+        "n2-055",
+        "n2-097",
+        "n2-098",
+        "n2-099"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-055-21",
+      "level": "N2",
+      "sentence": "家族全員が楽しみにしていた旅行だけに、出発の朝は誰よりも早く目が覚めた。",
+      "sentenceWithBlank": "家族全員が楽しみにしていた旅行（　　　）、出発の朝は誰よりも早く目が覚めた。",
+      "korean": "온 가족이 기대하던 여행인 만큼 출발하는 아침에는 누구보다 일찍 눈이 떠졌다.",
+      "answerChoiceId": "fb-created-n2-055-21-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-055-21-d",
+          "text": "だけに",
+          "grammarId": "n2-055",
+          "baseExpression": "だけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-055-21-a",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-21-b",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-21-c",
+          "text": "ないではいられない",
+          "grammarId": "n2-099",
+          "baseExpression": "ないではいられない",
+          "conjugatedExpression": "ないではいられない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '온 가족이 기대하던 여행인 만큼 출발하는 아침에는 누구보다 일찍 눈이 떠졌다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
+      "sourceGrammarIds": [
+        "n2-055",
+        "n2-097",
+        "n2-098",
+        "n2-099"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-055-22",
+      "level": "N2",
+      "sentence": "一流の職人が焼いた器だけに、手に取ると形の美しさがよく分かる。",
+      "sentenceWithBlank": "一流の職人が焼いた器（　　　）、手に取ると形の美しさがよく分かる。",
+      "korean": "일류 장인이 구운 그릇인 만큼 손에 들어 보면 형태의 아름다움을 잘 알 수 있다.",
+      "answerChoiceId": "fb-created-n2-055-22-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-055-22-a",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-22-b",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-22-c",
+          "text": "ないではいられない",
+          "grammarId": "n2-099",
+          "baseExpression": "ないではいられない",
+          "conjugatedExpression": "ないではいられない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-22-d",
+          "text": "だけに",
+          "grammarId": "n2-055",
+          "baseExpression": "だけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '일류 장인이 구운 그릇인 만큼 손에 들어 보면 형태의 아름다움을 잘 알 수 있다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
+      "sourceGrammarIds": [
+        "n2-055",
+        "n2-097",
+        "n2-098",
+        "n2-099"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-055-23",
+      "level": "N2",
+      "sentence": "多くの住民が利用する駅だけに、改修工事では安全性が最優先された。",
+      "sentenceWithBlank": "多くの住民が利用する駅（　　　）、改修工事では安全性が最優先された。",
+      "korean": "많은 주민이 이용하는 역인 만큼 보수 공사에서는 안전성이 최우선되었다.",
+      "answerChoiceId": "fb-created-n2-055-23-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-055-23-b",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-23-c",
+          "text": "ないではいられない",
+          "grammarId": "n2-099",
+          "baseExpression": "ないではいられない",
+          "conjugatedExpression": "ないではいられない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-23-d",
+          "text": "だけに",
+          "grammarId": "n2-055",
+          "baseExpression": "だけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-055-23-a",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '많은 주민이 이용하는 역인 만큼 보수 공사에서는 안전성이 최우선되었다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
+      "sourceGrammarIds": [
+        "n2-055",
+        "n2-097",
+        "n2-098",
+        "n2-099"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-055-24",
+      "level": "N2",
+      "sentence": "亡父から受け継いだ時計だけに、修理してでも長く使い続けたい。",
+      "sentenceWithBlank": "亡父から受け継いだ時計（　　　）、修理してでも長く使い続けたい。",
+      "korean": "돌아가신 아버지에게 물려받은 시계인 만큼 수리해서라도 오래 계속 사용하고 싶다.",
+      "answerChoiceId": "fb-created-n2-055-24-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-055-24-c",
+          "text": "ないではいられない",
+          "grammarId": "n2-099",
+          "baseExpression": "ないではいられない",
+          "conjugatedExpression": "ないではいられない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-24-d",
+          "text": "だけに",
+          "grammarId": "n2-055",
+          "baseExpression": "だけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-055-24-a",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-24-b",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '돌아가신 아버지에게 물려받은 시계인 만큼 수리해서라도 오래 계속 사용하고 싶다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
+      "sourceGrammarIds": [
+        "n2-055",
+        "n2-097",
+        "n2-098",
+        "n2-099"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-055-25",
+      "level": "N2",
+      "sentence": "世界各地の料理を味わってきた評論家だけに、香辛料のわずかな違いにも気づいた。",
+      "sentenceWithBlank": "世界各地の料理を味わってきた評論家（　　　）、香辛料のわずかな違いにも気づいた。",
+      "korean": "세계 각지의 요리를 맛보아 온 평론가인 만큼 향신료의 미세한 차이도 알아차렸다.",
+      "answerChoiceId": "fb-created-n2-055-25-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-055-25-d",
+          "text": "だけに",
+          "grammarId": "n2-055",
+          "baseExpression": "だけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-055-25-a",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-25-b",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-055-25-c",
+          "text": "ないではいられない",
+          "grammarId": "n2-099",
+          "baseExpression": "ないではいられない",
+          "conjugatedExpression": "ないではいられない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '세계 각지의 요리를 맛보아 온 평론가인 만큼 향신료의 미세한 차이도 알아차렸다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
+      "sourceGrammarIds": [
+        "n2-055",
+        "n2-097",
+        "n2-098",
+        "n2-099"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
       ]
     }
   ],
@@ -1834,1103 +1809,1153 @@
       ]
     },
     {
-      "id": "so-extra-n2-055-1",
+      "id": "so-created-n2-055-01",
       "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlanks": "辻さんは子供の時からイギリスで教育を受けた ____ ____ ____ ____",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
+      "sentence": "老舗の旅館だけに、客への心配りが細部まで行き届いている。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 届いている。",
+      "korean": "오랜 전통을 지닌 여관인 만큼 손님을 배려하는 마음이 세세한 부분까지 미쳐 있다.",
       "pieces": [
         {
-          "id": "so-extra-n2-055-1-p2",
-          "text": "を話す",
+          "id": "so-created-n2-055-01-p4",
+          "text": "細部まで行き",
           "order": 4
         },
         {
-          "id": "so-extra-n2-055-1-p3",
-          "text": "だけに",
+          "id": "so-created-n2-055-01-p1",
+          "text": "老舗の旅館",
           "order": 1
         },
         {
-          "id": "so-extra-n2-055-1-p4",
-          "text": "きれい",
+          "id": "so-created-n2-055-01-p2",
+          "text": "だけに、",
           "order": 2
         },
         {
-          "id": "so-extra-n2-055-1-p1",
-          "text": "な英語",
+          "id": "so-created-n2-055-01-p3",
+          "text": "客への心配りが",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-055-1-p3",
-        "so-extra-n2-055-1-p4",
-        "so-extra-n2-055-1-p1",
-        "so-extra-n2-055-1-p2"
+        "so-created-n2-055-01-p1",
+        "so-created-n2-055-01-p2",
+        "so-created-n2-055-01-p3",
+        "so-created-n2-055-01-p4"
       ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '오랜 전통을 지닌 여관인 만큼 손님을 배려하는 마음이 세세한 부분까지 미쳐 있다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
       "sourceGrammarIds": [
-        "n2-055"
+        "n2-055",
+        "n2-097",
+        "n2-098",
+        "n2-099"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-055-2",
+      "id": "so-created-n2-055-02",
       "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlanks": "辻さんは子供の時からイギリスで教育を受けた ____ ____ ____ ____",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
+      "sentence": "三年間待ち続けただけに、再会した瞬間は言葉が出なかった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 出なかった。",
+      "korean": "3년 동안 계속 기다려 온 만큼 다시 만난 순간에는 말이 나오지 않았다.",
       "pieces": [
         {
-          "id": "so-extra-n2-055-2-p3",
-          "text": "を話す",
+          "id": "so-created-n2-055-02-p3",
+          "text": "再会した",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-055-02-p4",
+          "text": "瞬間は言葉が",
           "order": 4
         },
         {
-          "id": "so-extra-n2-055-2-p4",
-          "text": "だけに",
+          "id": "so-created-n2-055-02-p1",
+          "text": "三年間待ち",
           "order": 1
         },
         {
-          "id": "so-extra-n2-055-2-p1",
-          "text": "きれい",
+          "id": "so-created-n2-055-02-p2",
+          "text": "続けただけに、",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-055-2-p2",
-          "text": "な英語",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-055-2-p4",
-        "so-extra-n2-055-2-p1",
-        "so-extra-n2-055-2-p2",
-        "so-extra-n2-055-2-p3"
+        "so-created-n2-055-02-p1",
+        "so-created-n2-055-02-p2",
+        "so-created-n2-055-02-p3",
+        "so-created-n2-055-02-p4"
       ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '3년 동안 계속 기다려 온 만큼 다시 만난 순간에는 말이 나오지 않았다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
       "sourceGrammarIds": [
-        "n2-055"
+        "n2-055",
+        "n2-097",
+        "n2-098",
+        "n2-099"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-055-3",
+      "id": "so-created-n2-055-03",
       "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、きれいな英語を話す。",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
+      "sentence": "このカメラはプロ向けだけに、暗い場所でも鮮明に撮影できる。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 鮮明に撮影できる。",
+      "korean": "이 카메라는 전문가용인 만큼 어두운 곳에서도 선명하게 촬영할 수 있다.",
       "pieces": [
         {
-          "id": "so-extra-n2-055-3-p4",
-          "text": "な英語",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-055-3-p1",
-          "text": "教育を受けた",
-          "order": 1
-        },
-        {
-          "id": "so-extra-n2-055-3-p2",
-          "text": "だけに",
+          "id": "so-created-n2-055-03-p2",
+          "text": "プロ向け",
           "order": 2
         },
         {
-          "id": "so-extra-n2-055-3-p3",
-          "text": "きれい",
+          "id": "so-created-n2-055-03-p3",
+          "text": "だけに、",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-055-03-p4",
+          "text": "暗い場所でも",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-055-03-p1",
+          "text": "このカメラは",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-055-3-p1",
-        "so-extra-n2-055-3-p2",
-        "so-extra-n2-055-3-p3",
-        "so-extra-n2-055-3-p4"
+        "so-created-n2-055-03-p1",
+        "so-created-n2-055-03-p2",
+        "so-created-n2-055-03-p3",
+        "so-created-n2-055-03-p4"
       ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '이 카메라는 전문가용인 만큼 어두운 곳에서도 선명하게 촬영할 수 있다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
       "sourceGrammarIds": [
-        "n2-055"
+        "n2-055",
+        "n2-097",
+        "n2-098",
+        "n2-099"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-055-4",
+      "id": "so-created-n2-055-04",
       "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlanks": "辻さんは子供の時からイギリスで教育を受けた ____ ____ ____ ____",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
+      "sentence": "彼女は救急医療の経験が豊富なだけに、突然の事故にも冷静に対応した。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 事故にも冷静に対応した。",
+      "korean": "그녀는 응급 의료 경험이 풍부한 만큼 갑작스러운 사고에도 침착하게 대응했다.",
       "pieces": [
         {
-          "id": "so-extra-n2-055-4-p1",
-          "text": "を話す",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-055-4-p2",
-          "text": "だけに",
+          "id": "so-created-n2-055-04-p1",
+          "text": "彼女は",
           "order": 1
         },
         {
-          "id": "so-extra-n2-055-4-p3",
-          "text": "きれい",
+          "id": "so-created-n2-055-04-p2",
+          "text": "救急医療の",
           "order": 2
         },
         {
-          "id": "so-extra-n2-055-4-p4",
-          "text": "な英語",
+          "id": "so-created-n2-055-04-p3",
+          "text": "経験が豊富な",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-055-04-p4",
+          "text": "だけに、突然の",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-055-4-p2",
-        "so-extra-n2-055-4-p3",
-        "so-extra-n2-055-4-p4",
-        "so-extra-n2-055-4-p1"
+        "so-created-n2-055-04-p1",
+        "so-created-n2-055-04-p2",
+        "so-created-n2-055-04-p3",
+        "so-created-n2-055-04-p4"
       ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '그녀는 응급 의료 경험이 풍부한 만큼 갑작스러운 사고에도 침착하게 대응했다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
       "sourceGrammarIds": [
-        "n2-055"
+        "n2-055",
+        "n2-097",
+        "n2-098",
+        "n2-099"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-055-5",
+      "id": "so-created-n2-055-05",
       "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlanks": "辻さんは子供の時からイギリスで教育を受けた ____ ____ ____ ____",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
+      "sentence": "収穫直後の桃だけに、口に入れると豊かな香りが広がった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 広がった。",
+      "korean": "수확한 직후의 복숭아인 만큼 입에 넣자 풍부한 향이 퍼졌다.",
       "pieces": [
         {
-          "id": "so-extra-n2-055-5-p2",
-          "text": "を話す",
+          "id": "so-created-n2-055-05-p4",
+          "text": "豊かな香りが",
           "order": 4
         },
         {
-          "id": "so-extra-n2-055-5-p3",
-          "text": "だけに",
+          "id": "so-created-n2-055-05-p1",
+          "text": "収穫直後の",
           "order": 1
         },
         {
-          "id": "so-extra-n2-055-5-p4",
-          "text": "きれい",
+          "id": "so-created-n2-055-05-p2",
+          "text": "桃だけに、",
           "order": 2
         },
         {
-          "id": "so-extra-n2-055-5-p1",
-          "text": "な英語",
+          "id": "so-created-n2-055-05-p3",
+          "text": "口に入れると",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-055-5-p3",
-        "so-extra-n2-055-5-p4",
-        "so-extra-n2-055-5-p1",
-        "so-extra-n2-055-5-p2"
+        "so-created-n2-055-05-p1",
+        "so-created-n2-055-05-p2",
+        "so-created-n2-055-05-p3",
+        "so-created-n2-055-05-p4"
       ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '수확한 직후의 복숭아인 만큼 입에 넣자 풍부한 향이 퍼졌다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
       "sourceGrammarIds": [
-        "n2-055"
+        "n2-055",
+        "n2-097",
+        "n2-098",
+        "n2-099"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-055-01",
+      "id": "so-created-n2-055-06",
       "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlanks": "辻さんは子供の時からイギリスで教育を受けた ____ ____ ____ ____",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
+      "sentence": "兄弟で立ち上げた会社だけに、経営方針について遠慮なく議論できる。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 遠慮なく議論できる。",
+      "korean": "형제가 함께 세운 회사인 만큼 경영 방침에 관해 거리낌 없이 논의할 수 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-055-01-p2",
-          "text": "を話す",
+          "id": "so-created-n2-055-06-p3",
+          "text": "だけに、経営",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-055-06-p4",
+          "text": "方針について",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-055-01-p3",
-          "text": "だけに",
+          "id": "so-created-n2-055-06-p1",
+          "text": "兄弟で立ち",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-055-01-p4",
-          "text": "きれい",
+          "id": "so-created-n2-055-06-p2",
+          "text": "上げた会社",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-055-01-p1",
-          "text": "な英語",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-055-01-p3",
-        "so-extra20-n2-055-01-p4",
-        "so-extra20-n2-055-01-p1",
-        "so-extra20-n2-055-01-p2"
+        "so-created-n2-055-06-p1",
+        "so-created-n2-055-06-p2",
+        "so-created-n2-055-06-p3",
+        "so-created-n2-055-06-p4"
       ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '형제가 함께 세운 회사인 만큼 경영 방침에 관해 거리낌 없이 논의할 수 있다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
       "sourceGrammarIds": [
-        "n2-055"
+        "n2-055",
+        "n2-097",
+        "n2-098",
+        "n2-099"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-055-02",
+      "id": "so-created-n2-055-07",
       "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlanks": "辻さんは子供の時からイギリスで教育を受けた ____ ____ ____ ____",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
+      "sentence": "港に近い市場だけに、早朝から新鮮な魚がずらりと並ぶ。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 並ぶ。",
+      "korean": "항구와 가까운 시장인 만큼 이른 아침부터 신선한 생선이 빼곡히 진열된다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-055-02-p1",
-          "text": "きれい",
+          "id": "so-created-n2-055-07-p2",
+          "text": "市場だけに、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-055-02-p2",
-          "text": "な英語",
+          "id": "so-created-n2-055-07-p3",
+          "text": "早朝から新鮮な",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-055-02-p3",
-          "text": "を話す",
+          "id": "so-created-n2-055-07-p4",
+          "text": "魚がずらりと",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-055-02-p4",
-          "text": "だけに",
+          "id": "so-created-n2-055-07-p1",
+          "text": "港に近い",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-055-02-p4",
-        "so-extra20-n2-055-02-p1",
-        "so-extra20-n2-055-02-p2",
-        "so-extra20-n2-055-02-p3"
+        "so-created-n2-055-07-p1",
+        "so-created-n2-055-07-p2",
+        "so-created-n2-055-07-p3",
+        "so-created-n2-055-07-p4"
       ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '항구와 가까운 시장인 만큼 이른 아침부터 신선한 생선이 빼곡히 진열된다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
       "sourceGrammarIds": [
-        "n2-055"
+        "n2-055",
+        "n2-097",
+        "n2-098",
+        "n2-099"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-055-03",
+      "id": "so-created-n2-055-08",
       "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、きれいな英語を話す。",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
+      "sentence": "長年山岳救助に携わってきただけに、隊長は天候の変化を素早く察知した。",
+      "sentenceWithBlanks": "長年山岳救助に携わってきた ____ ____ ____ ____",
+      "korean": "오랫동안 산악 구조에 종사해 온 만큼 대장은 날씨의 변화를 재빨리 감지했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-055-03-p4",
-          "text": "な英語",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-055-03-p1",
-          "text": "教育を受けた",
+          "id": "so-created-n2-055-08-p1",
+          "text": "だけに、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-055-03-p2",
-          "text": "だけに",
+          "id": "so-created-n2-055-08-p2",
+          "text": "隊長は天候の",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-055-03-p3",
-          "text": "きれい",
+          "id": "so-created-n2-055-08-p3",
+          "text": "変化を素早く",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-055-08-p4",
+          "text": "察知した。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-055-03-p1",
-        "so-extra20-n2-055-03-p2",
-        "so-extra20-n2-055-03-p3",
-        "so-extra20-n2-055-03-p4"
+        "so-created-n2-055-08-p1",
+        "so-created-n2-055-08-p2",
+        "so-created-n2-055-08-p3",
+        "so-created-n2-055-08-p4"
       ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '오랫동안 산악 구조에 종사해 온 만큼 대장은 날씨의 변화를 재빨리 감지했다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
       "sourceGrammarIds": [
-        "n2-055"
+        "n2-055",
+        "n2-097",
+        "n2-098",
+        "n2-099"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-055-04",
+      "id": "so-created-n2-055-09",
       "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlanks": "辻さんは子供の時からイギリスで教育を受けた ____ ____ ____ ____",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
+      "sentence": "初めて自分で設計した家だけに、完成した時の喜びは格別だった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 喜びは格別だった。",
+      "korean": "처음으로 직접 설계한 집인 만큼 완공되었을 때의 기쁨은 각별했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-055-04-p3",
-          "text": "きれい",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-055-04-p4",
-          "text": "な英語",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-055-04-p1",
-          "text": "を話す",
+          "id": "so-created-n2-055-09-p4",
+          "text": "完成した時の",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-055-04-p2",
-          "text": "だけに",
+          "id": "so-created-n2-055-09-p1",
+          "text": "初めて自分で",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-055-09-p2",
+          "text": "設計した",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-055-09-p3",
+          "text": "家だけに、",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-055-04-p2",
-        "so-extra20-n2-055-04-p3",
-        "so-extra20-n2-055-04-p4",
-        "so-extra20-n2-055-04-p1"
+        "so-created-n2-055-09-p1",
+        "so-created-n2-055-09-p2",
+        "so-created-n2-055-09-p3",
+        "so-created-n2-055-09-p4"
       ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '처음으로 직접 설계한 집인 만큼 완공되었을 때의 기쁨은 각별했다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
       "sourceGrammarIds": [
-        "n2-055"
+        "n2-055",
+        "n2-097",
+        "n2-098",
+        "n2-099"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-055-05",
+      "id": "so-created-n2-055-10",
       "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlanks": "辻さんは子供の時からイギリスで教育を受けた ____ ____ ____ ____",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
+      "sentence": "全国大会の決勝だけに、会場は開始前から緊張感に包まれていた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 包まれていた。",
+      "korean": "전국 대회 결승인 만큼 경기장은 시작 전부터 긴장감에 휩싸여 있었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-055-05-p2",
-          "text": "を話す",
+          "id": "so-created-n2-055-10-p3",
+          "text": "会場は開始",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-055-10-p4",
+          "text": "前から緊張感に",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-055-05-p3",
-          "text": "だけに",
+          "id": "so-created-n2-055-10-p1",
+          "text": "全国大会の",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-055-05-p4",
-          "text": "きれい",
+          "id": "so-created-n2-055-10-p2",
+          "text": "決勝だけに、",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-055-05-p1",
-          "text": "な英語",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-055-05-p3",
-        "so-extra20-n2-055-05-p4",
-        "so-extra20-n2-055-05-p1",
-        "so-extra20-n2-055-05-p2"
+        "so-created-n2-055-10-p1",
+        "so-created-n2-055-10-p2",
+        "so-created-n2-055-10-p3",
+        "so-created-n2-055-10-p4"
       ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '전국 대회 결승인 만큼 경기장은 시작 전부터 긴장감에 휩싸여 있었다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
       "sourceGrammarIds": [
-        "n2-055"
+        "n2-055",
+        "n2-097",
+        "n2-098",
+        "n2-099"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-055-06",
+      "id": "so-created-n2-055-11",
       "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlanks": "辻さんは子供の時からイギリスで教育を受けた ____ ____ ____ ____",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
+      "sentence": "祖母が毎日手入れしている庭だけに、どの季節にも花が絶えない。",
+      "sentenceWithBlanks": "祖母が毎日 ____ ____ ____ ____",
+      "korean": "할머니가 매일 가꾸는 정원인 만큼 어느 계절에도 꽃이 끊이지 않는다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-055-06-p1",
-          "text": "な英語",
+          "id": "so-created-n2-055-11-p2",
+          "text": "庭だけに、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-055-11-p3",
+          "text": "どの季節にも",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-055-06-p2",
-          "text": "を話す",
+          "id": "so-created-n2-055-11-p4",
+          "text": "花が絶えない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-055-06-p3",
-          "text": "だけに",
+          "id": "so-created-n2-055-11-p1",
+          "text": "手入れしている",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-055-06-p4",
-          "text": "きれい",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-055-06-p3",
-        "so-extra20-n2-055-06-p4",
-        "so-extra20-n2-055-06-p1",
-        "so-extra20-n2-055-06-p2"
+        "so-created-n2-055-11-p1",
+        "so-created-n2-055-11-p2",
+        "so-created-n2-055-11-p3",
+        "so-created-n2-055-11-p4"
       ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '할머니가 매일 가꾸는 정원인 만큼 어느 계절에도 꽃이 끊이지 않는다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
       "sourceGrammarIds": [
-        "n2-055"
+        "n2-055",
+        "n2-097",
+        "n2-098",
+        "n2-099"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-055-07",
+      "id": "so-created-n2-055-12",
       "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlanks": "辻さんは子供の時からイギリスで教育を受けた ____ ____ ____ ____",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
+      "sentence": "厳しい訓練を乗り越えただけに、新人消防士たちの動きには迷いがなかった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 動きには迷いがなかった。",
+      "korean": "혹독한 훈련을 이겨 낸 만큼 신입 소방관들의 움직임에는 망설임이 없었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-055-07-p4",
-          "text": "だけに",
+          "id": "so-created-n2-055-12-p1",
+          "text": "厳しい訓練を",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-055-07-p1",
-          "text": "きれい",
+          "id": "so-created-n2-055-12-p2",
+          "text": "乗り越えた",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-055-07-p2",
-          "text": "な英語",
+          "id": "so-created-n2-055-12-p3",
+          "text": "だけに、新人",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-055-07-p3",
-          "text": "を話す",
+          "id": "so-created-n2-055-12-p4",
+          "text": "消防士たちの",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-055-07-p4",
-        "so-extra20-n2-055-07-p1",
-        "so-extra20-n2-055-07-p2",
-        "so-extra20-n2-055-07-p3"
+        "so-created-n2-055-12-p1",
+        "so-created-n2-055-12-p2",
+        "so-created-n2-055-12-p3",
+        "so-created-n2-055-12-p4"
       ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '혹독한 훈련을 이겨 낸 만큼 신입 소방관들의 움직임에는 망설임이 없었다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
       "sourceGrammarIds": [
-        "n2-055"
+        "n2-055",
+        "n2-097",
+        "n2-098",
+        "n2-099"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-055-08",
+      "id": "so-created-n2-055-13",
       "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、きれいな英語を話す。",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
+      "sentence": "天然素材だけで仕上げた家具だけに、年月とともに味わいが増していく。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 味わいが増していく。",
+      "korean": "천연 소재만으로 완성한 가구인 만큼 세월이 흐를수록 멋이 더해진다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-055-08-p3",
-          "text": "きれい",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-055-08-p4",
-          "text": "な英語",
+          "id": "so-created-n2-055-13-p4",
+          "text": "月とともに",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-055-08-p1",
-          "text": "教育を受けた",
+          "id": "so-created-n2-055-13-p1",
+          "text": "天然素材だけで",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-055-08-p2",
-          "text": "だけに",
+          "id": "so-created-n2-055-13-p2",
+          "text": "仕上げた家具",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-055-13-p3",
+          "text": "だけに、年",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-055-08-p1",
-        "so-extra20-n2-055-08-p2",
-        "so-extra20-n2-055-08-p3",
-        "so-extra20-n2-055-08-p4"
+        "so-created-n2-055-13-p1",
+        "so-created-n2-055-13-p2",
+        "so-created-n2-055-13-p3",
+        "so-created-n2-055-13-p4"
       ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '천연 소재만으로 완성한 가구인 만큼 세월이 흐를수록 멋이 더해진다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
       "sourceGrammarIds": [
-        "n2-055"
+        "n2-055",
+        "n2-097",
+        "n2-098",
+        "n2-099"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-055-09",
+      "id": "so-created-n2-055-14",
       "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlanks": "辻さんは子供の時からイギリスで教育を受けた ____ ____ ____ ____",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
+      "sentence": "この地域の水は透明度が高いだけに、川底の小石まではっきり見える。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 小石まではっきり見える。",
+      "korean": "이 지역의 물은 투명도가 높은 만큼 강바닥의 자갈까지 선명하게 보인다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-055-09-p2",
-          "text": "だけに",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-055-09-p3",
-          "text": "きれい",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-055-09-p4",
-          "text": "な英語",
+          "id": "so-created-n2-055-14-p3",
+          "text": "高いだけに、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-055-09-p1",
-          "text": "を話す",
+          "id": "so-created-n2-055-14-p4",
+          "text": "川底の",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-055-14-p1",
+          "text": "この地域の",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-055-14-p2",
+          "text": "水は透明度が",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-055-09-p2",
-        "so-extra20-n2-055-09-p3",
-        "so-extra20-n2-055-09-p4",
-        "so-extra20-n2-055-09-p1"
+        "so-created-n2-055-14-p1",
+        "so-created-n2-055-14-p2",
+        "so-created-n2-055-14-p3",
+        "so-created-n2-055-14-p4"
       ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '이 지역의 물은 투명도가 높은 만큼 강바닥의 자갈까지 선명하게 보인다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
       "sourceGrammarIds": [
-        "n2-055"
+        "n2-055",
+        "n2-097",
+        "n2-098",
+        "n2-099"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-055-10",
+      "id": "so-created-n2-055-15",
       "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlanks": "辻さんは子供の時からイギリスで教育を受けた ____ ____ ____ ____",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
+      "sentence": "十年ぶりの新作だけに、その映画は公開初日から大きな注目を集めた。",
+      "sentenceWithBlanks": "十年ぶりの ____ ____ ____ ____ 注目を集めた。",
+      "korean": "10년 만의 신작인 만큼 그 영화는 개봉 첫날부터 큰 주목을 받았다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-055-10-p1",
-          "text": "な英語",
+          "id": "so-created-n2-055-15-p2",
+          "text": "その映画は",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-055-15-p3",
+          "text": "公開初日から",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-055-10-p2",
-          "text": "を話す",
+          "id": "so-created-n2-055-15-p4",
+          "text": "大きな",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-055-10-p3",
-          "text": "だけに",
+          "id": "so-created-n2-055-15-p1",
+          "text": "新作だけに、",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-055-10-p4",
-          "text": "きれい",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-055-10-p3",
-        "so-extra20-n2-055-10-p4",
-        "so-extra20-n2-055-10-p1",
-        "so-extra20-n2-055-10-p2"
+        "so-created-n2-055-15-p1",
+        "so-created-n2-055-15-p2",
+        "so-created-n2-055-15-p3",
+        "so-created-n2-055-15-p4"
       ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '10년 만의 신작인 만큼 그 영화는 개봉 첫날부터 큰 주목을 받았다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
       "sourceGrammarIds": [
-        "n2-055"
+        "n2-055",
+        "n2-097",
+        "n2-098",
+        "n2-099"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-055-11",
+      "id": "so-created-n2-055-16",
       "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlanks": "辻さんは子供の時からイギリスで教育を受けた ____ ____ ____ ____",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
+      "sentence": "普段から地域を歩き回っている配達員だけに、抜け道にも詳しい。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 詳しい。",
+      "korean": "평소부터 지역 곳곳을 돌아다니는 배달원인 만큼 지름길도 잘 안다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-055-11-p4",
-          "text": "きれい",
+          "id": "so-created-n2-055-16-p1",
+          "text": "普段から地域を",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-055-16-p2",
+          "text": "歩き回っている",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-055-11-p1",
-          "text": "な英語",
+          "id": "so-created-n2-055-16-p3",
+          "text": "配達員だけに、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-055-11-p2",
-          "text": "を話す",
+          "id": "so-created-n2-055-16-p4",
+          "text": "抜け道にも",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-055-11-p3",
-          "text": "だけに",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-055-11-p3",
-        "so-extra20-n2-055-11-p4",
-        "so-extra20-n2-055-11-p1",
-        "so-extra20-n2-055-11-p2"
+        "so-created-n2-055-16-p1",
+        "so-created-n2-055-16-p2",
+        "so-created-n2-055-16-p3",
+        "so-created-n2-055-16-p4"
       ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '평소부터 지역 곳곳을 돌아다니는 배달원인 만큼 지름길도 잘 안다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
       "sourceGrammarIds": [
-        "n2-055"
+        "n2-055",
+        "n2-097",
+        "n2-098",
+        "n2-099"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-055-12",
+      "id": "so-created-n2-055-17",
       "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlanks": "辻さんは子供の時からイギリスで教育を受けた ____ ____ ____ ____",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
+      "sentence": "精密機器を扱う工場だけに、室内の温度は厳しく管理されている。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 管理されている。",
+      "korean": "정밀 기기를 취급하는 공장인 만큼 실내 온도는 엄격하게 관리되고 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-055-12-p3",
-          "text": "を話す",
+          "id": "so-created-n2-055-17-p4",
+          "text": "温度は厳しく",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-055-12-p4",
-          "text": "だけに",
+          "id": "so-created-n2-055-17-p1",
+          "text": "精密機器を",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-055-12-p1",
-          "text": "きれい",
+          "id": "so-created-n2-055-17-p2",
+          "text": "扱う工場",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-055-12-p2",
-          "text": "な英語",
+          "id": "so-created-n2-055-17-p3",
+          "text": "だけに、室内の",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-055-12-p4",
-        "so-extra20-n2-055-12-p1",
-        "so-extra20-n2-055-12-p2",
-        "so-extra20-n2-055-12-p3"
+        "so-created-n2-055-17-p1",
+        "so-created-n2-055-17-p2",
+        "so-created-n2-055-17-p3",
+        "so-created-n2-055-17-p4"
       ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '정밀 기기를 취급하는 공장인 만큼 실내 온도는 엄격하게 관리되고 있다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
       "sourceGrammarIds": [
-        "n2-055"
+        "n2-055",
+        "n2-097",
+        "n2-098",
+        "n2-099"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-055-13",
+      "id": "so-created-n2-055-18",
       "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、きれいな英語を話す。",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
+      "sentence": "幼い頃から海に親しんできただけに、彼は潮の流れを読むのがうまい。",
+      "sentenceWithBlanks": "幼い ____ ____ ____ ____ 読むのがうまい。",
+      "korean": "어릴 때부터 바다와 가까이 지내 온 만큼 그는 조류를 읽는 데 능숙하다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-055-13-p2",
-          "text": "だけに",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-055-13-p3",
-          "text": "きれい",
+          "id": "so-created-n2-055-18-p3",
+          "text": "だけに、彼は",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-055-13-p4",
-          "text": "な英語",
+          "id": "so-created-n2-055-18-p4",
+          "text": "潮の流れを",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-055-13-p1",
-          "text": "教育を受けた",
+          "id": "so-created-n2-055-18-p1",
+          "text": "頃から海に",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-055-18-p2",
+          "text": "親しんできた",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-055-13-p1",
-        "so-extra20-n2-055-13-p2",
-        "so-extra20-n2-055-13-p3",
-        "so-extra20-n2-055-13-p4"
+        "so-created-n2-055-18-p1",
+        "so-created-n2-055-18-p2",
+        "so-created-n2-055-18-p3",
+        "so-created-n2-055-18-p4"
       ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '어릴 때부터 바다와 가까이 지내 온 만큼 그는 조류를 읽는 데 능숙하다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
       "sourceGrammarIds": [
-        "n2-055"
+        "n2-055",
+        "n2-097",
+        "n2-098",
+        "n2-099"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-055-14",
+      "id": "so-created-n2-055-19",
       "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlanks": "辻さんは子供の時からイギリスで教育を受けた ____ ____ ____ ____",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
+      "sentence": "市民の要望を直接聞いてきた議員だけに、今回の提案は生活の実情に即している。",
+      "sentenceWithBlanks": "市民の要望を直接 ____ ____ ____ ____ 即している。",
+      "korean": "시민의 요구를 직접 들어 온 의원인 만큼 이번 제안은 생활의 실정에 부합한다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-055-14-p1",
-          "text": "を話す",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-055-14-p2",
-          "text": "だけに",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-055-14-p3",
-          "text": "きれい",
+          "id": "so-created-n2-055-19-p2",
+          "text": "議員だけに、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-055-14-p4",
-          "text": "な英語",
+          "id": "so-created-n2-055-19-p3",
+          "text": "今回の提案は",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-055-19-p4",
+          "text": "生活の実情に",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-055-19-p1",
+          "text": "聞いてきた",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-055-14-p2",
-        "so-extra20-n2-055-14-p3",
-        "so-extra20-n2-055-14-p4",
-        "so-extra20-n2-055-14-p1"
+        "so-created-n2-055-19-p1",
+        "so-created-n2-055-19-p2",
+        "so-created-n2-055-19-p3",
+        "so-created-n2-055-19-p4"
       ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '시민의 요구를 직접 들어 온 의원인 만큼 이번 제안은 생활의 실정에 부합한다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
       "sourceGrammarIds": [
-        "n2-055"
+        "n2-055",
+        "n2-097",
+        "n2-098",
+        "n2-099"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-055-15",
+      "id": "so-created-n2-055-20",
       "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlanks": "辻さんは子供の時からイギリスで教育を受けた ____ ____ ____ ____",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
+      "sentence": "冬の間ずっと閉鎖されていた道路だけに、除雪後も路面の確認が慎重に行われた。",
+      "sentenceWithBlanks": "冬の間ずっと閉鎖されていた ____ ____ ____ ____",
+      "korean": "겨울 내내 폐쇄되어 있던 도로인 만큼 제설 후에도 노면 점검이 신중하게 이루어졌다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-055-15-p4",
-          "text": "きれい",
+          "id": "so-created-n2-055-20-p1",
+          "text": "道路だけに、",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-055-20-p2",
+          "text": "除雪後も路面の",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-055-15-p1",
-          "text": "な英語",
+          "id": "so-created-n2-055-20-p3",
+          "text": "確認が慎重に",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-055-15-p2",
-          "text": "を話す",
+          "id": "so-created-n2-055-20-p4",
+          "text": "行われた。",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-055-15-p3",
-          "text": "だけに",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-055-15-p3",
-        "so-extra20-n2-055-15-p4",
-        "so-extra20-n2-055-15-p1",
-        "so-extra20-n2-055-15-p2"
+        "so-created-n2-055-20-p1",
+        "so-created-n2-055-20-p2",
+        "so-created-n2-055-20-p3",
+        "so-created-n2-055-20-p4"
       ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '겨울 내내 폐쇄되어 있던 도로인 만큼 제설 후에도 노면 점검이 신중하게 이루어졌다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
       "sourceGrammarIds": [
-        "n2-055"
+        "n2-055",
+        "n2-097",
+        "n2-098",
+        "n2-099"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-055-16",
+      "id": "so-created-n2-055-21",
       "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlanks": "辻さんは子供の時からイギリスで教育を受けた ____ ____ ____ ____",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
+      "sentence": "家族全員が楽しみにしていた旅行だけに、出発の朝は誰よりも早く目が覚めた。",
+      "sentenceWithBlanks": "家族全員が楽しみにしていた ____ ____ ____ ____",
+      "korean": "온 가족이 기대하던 여행인 만큼 출발하는 아침에는 누구보다 일찍 눈이 떠졌다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-055-16-p3",
-          "text": "だけに",
+          "id": "so-created-n2-055-21-p4",
+          "text": "目が覚めた。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-055-21-p1",
+          "text": "旅行だけに、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-055-16-p4",
-          "text": "きれい",
+          "id": "so-created-n2-055-21-p2",
+          "text": "出発の朝は",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-055-16-p1",
-          "text": "な英語",
+          "id": "so-created-n2-055-21-p3",
+          "text": "誰よりも早く",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-055-16-p2",
-          "text": "を話す",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-055-16-p3",
-        "so-extra20-n2-055-16-p4",
-        "so-extra20-n2-055-16-p1",
-        "so-extra20-n2-055-16-p2"
+        "so-created-n2-055-21-p1",
+        "so-created-n2-055-21-p2",
+        "so-created-n2-055-21-p3",
+        "so-created-n2-055-21-p4"
       ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '온 가족이 기대하던 여행인 만큼 출발하는 아침에는 누구보다 일찍 눈이 떠졌다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
       "sourceGrammarIds": [
-        "n2-055"
+        "n2-055",
+        "n2-097",
+        "n2-098",
+        "n2-099"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-055-17",
+      "id": "so-created-n2-055-22",
       "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlanks": "辻さんは子供の時からイギリスで教育を受けた ____ ____ ____ ____",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
+      "sentence": "一流の職人が焼いた器だけに、手に取ると形の美しさがよく分かる。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 美しさがよく分かる。",
+      "korean": "일류 장인이 구운 그릇인 만큼 손에 들어 보면 형태의 아름다움을 잘 알 수 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-055-17-p2",
-          "text": "な英語",
+          "id": "so-created-n2-055-22-p3",
+          "text": "だけに、手に",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-055-17-p3",
-          "text": "を話す",
+          "id": "so-created-n2-055-22-p4",
+          "text": "取ると形の",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-055-17-p4",
-          "text": "だけに",
+          "id": "so-created-n2-055-22-p1",
+          "text": "一流の職人が",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-055-17-p1",
-          "text": "きれい",
+          "id": "so-created-n2-055-22-p2",
+          "text": "焼いた器",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-055-17-p4",
-        "so-extra20-n2-055-17-p1",
-        "so-extra20-n2-055-17-p2",
-        "so-extra20-n2-055-17-p3"
+        "so-created-n2-055-22-p1",
+        "so-created-n2-055-22-p2",
+        "so-created-n2-055-22-p3",
+        "so-created-n2-055-22-p4"
       ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '일류 장인이 구운 그릇인 만큼 손에 들어 보면 형태의 아름다움을 잘 알 수 있다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
       "sourceGrammarIds": [
-        "n2-055"
+        "n2-055",
+        "n2-097",
+        "n2-098",
+        "n2-099"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-055-18",
+      "id": "so-created-n2-055-23",
       "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、きれいな英語を話す。",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
+      "sentence": "多くの住民が利用する駅だけに、改修工事では安全性が最優先された。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 安全性が最優先された。",
+      "korean": "많은 주민이 이용하는 역인 만큼 보수 공사에서는 안전성이 최우선되었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-055-18-p1",
-          "text": "教育を受けた",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-055-18-p2",
-          "text": "だけに",
+          "id": "so-created-n2-055-23-p2",
+          "text": "利用する",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-055-18-p3",
-          "text": "きれい",
+          "id": "so-created-n2-055-23-p3",
+          "text": "駅だけに、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-055-18-p4",
-          "text": "な英語",
+          "id": "so-created-n2-055-23-p4",
+          "text": "改修工事では",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-055-23-p1",
+          "text": "多くの住民が",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-055-18-p1",
-        "so-extra20-n2-055-18-p2",
-        "so-extra20-n2-055-18-p3",
-        "so-extra20-n2-055-18-p4"
+        "so-created-n2-055-23-p1",
+        "so-created-n2-055-23-p2",
+        "so-created-n2-055-23-p3",
+        "so-created-n2-055-23-p4"
       ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '많은 주민이 이용하는 역인 만큼 보수 공사에서는 안전성이 최우선되었다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
       "sourceGrammarIds": [
-        "n2-055"
+        "n2-055",
+        "n2-097",
+        "n2-098",
+        "n2-099"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-055-19",
+      "id": "so-created-n2-055-24",
       "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlanks": "辻さんは子供の時からイギリスで教育を受けた ____ ____ ____ ____",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
+      "sentence": "亡父から受け継いだ時計だけに、修理してでも長く使い続けたい。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 使い続けたい。",
+      "korean": "돌아가신 아버지에게 물려받은 시계인 만큼 수리해서라도 오래 계속 사용하고 싶다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-055-19-p4",
-          "text": "な英語",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-055-19-p1",
-          "text": "を話す",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-055-19-p2",
-          "text": "だけに",
+          "id": "so-created-n2-055-24-p1",
+          "text": "亡父から",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-055-19-p3",
-          "text": "きれい",
+          "id": "so-created-n2-055-24-p2",
+          "text": "受け継いだ",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-055-24-p3",
+          "text": "時計だけに、",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-055-24-p4",
+          "text": "修理してでも長く",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-055-19-p2",
-        "so-extra20-n2-055-19-p3",
-        "so-extra20-n2-055-19-p4",
-        "so-extra20-n2-055-19-p1"
+        "so-created-n2-055-24-p1",
+        "so-created-n2-055-24-p2",
+        "so-created-n2-055-24-p3",
+        "so-created-n2-055-24-p4"
       ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '돌아가신 아버지에게 물려받은 시계인 만큼 수리해서라도 오래 계속 사용하고 싶다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
       "sourceGrammarIds": [
-        "n2-055"
+        "n2-055",
+        "n2-097",
+        "n2-098",
+        "n2-099"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-055-20",
+      "id": "so-created-n2-055-25",
       "level": "N2",
-      "sentence": "辻さんは子供の時からイギリスで教育を受けただけに、きれいな英語を話す。",
-      "sentenceWithBlanks": "辻さんは子供の時からイギリスで教育を受けた ____ ____ ____ ____",
-      "korean": "츠지 씨는 어릴 때부터 영국에서 교육받은 만큼 깨끗한 영어를 한다.",
+      "sentence": "世界各地の料理を味わってきた評論家だけに、香辛料のわずかな違いにも気づいた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 違いにも気づいた。",
+      "korean": "세계 각지의 요리를 맛보아 온 평론가인 만큼 향신료의 미세한 차이도 알아차렸다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-055-20-p3",
-          "text": "だけに",
+          "id": "so-created-n2-055-25-p4",
+          "text": "香辛料のわずかな",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-055-25-p1",
+          "text": "世界各地の料理を",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-055-20-p4",
-          "text": "きれい",
+          "id": "so-created-n2-055-25-p2",
+          "text": "味わってきた",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-055-20-p1",
-          "text": "な英語",
+          "id": "so-created-n2-055-25-p3",
+          "text": "評論家だけに、",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-055-20-p2",
-          "text": "を話す",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-055-20-p3",
-        "so-extra20-n2-055-20-p4",
-        "so-extra20-n2-055-20-p1",
-        "so-extra20-n2-055-20-p2"
+        "so-created-n2-055-25-p1",
+        "so-created-n2-055-25-p2",
+        "so-created-n2-055-25-p3",
+        "so-created-n2-055-25-p4"
       ],
-      "explanation": "「だけに（긍정）」는 ~인 만큼, ~이기 때문에라는 뜻이다. 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~인 만큼, ~이기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '세계 각지의 요리를 맛보아 온 평론가인 만큼 향신료의 미세한 차이도 알아차렸다.'라는 상황에 쓰였으며, 앞 사실 때문에 뒤가 더 당연하거나 강하게 느껴짐. 주의할 점은 だけに는 당연한 결과, からこそ는 역설적 강조. 뉘앙스가 미묘하게 다름.",
       "sourceGrammarIds": [
-        "n2-055"
+        "n2-055",
+        "n2-097",
+        "n2-098",
+        "n2-099"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     }
   ]

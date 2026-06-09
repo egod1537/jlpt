@@ -267,15 +267,23 @@
       ]
     },
     {
-      "id": "fb-extra-n2-143-1",
+      "id": "fb-created-n2-143-01",
       "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlank": "値段（　　　）、品質はとてもいい。",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
-      "answerChoiceId": "fb-extra-n2-143-1-d",
+      "sentence": "外観はともかく、この中古車は整備記録がきちんと残っている。",
+      "sentenceWithBlank": "外観（　　　）、この中古車は整備記録がきちんと残っている。",
+      "korean": "외관은 우선 제쳐두고, 이 중고차는 정비 기록이 제대로 남아 있다.",
+      "answerChoiceId": "fb-created-n2-143-01-d",
       "choices": [
         {
-          "id": "fb-extra-n2-143-1-a",
+          "id": "fb-created-n2-143-01-d",
+          "text": "はともかく",
+          "grammarId": "n2-143",
+          "baseExpression": "はともかく",
+          "conjugatedExpression": "はともかく",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-143-01-a",
           "text": "てでも",
           "grammarId": "n2-072",
           "baseExpression": "てでも",
@@ -283,7 +291,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-143-1-b",
+          "id": "fb-created-n2-143-01-b",
           "text": "てならない",
           "grammarId": "n2-073",
           "baseExpression": "てならない",
@@ -291,23 +299,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-143-1-c",
+          "id": "fb-created-n2-143-01-c",
           "text": "てはかなわない",
           "grammarId": "n2-074",
           "baseExpression": "てはかなわない",
           "conjugatedExpression": "てはかなわない",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-143-1-d",
-          "text": "はともかく",
-          "grammarId": "n2-143",
-          "baseExpression": "はともかく",
-          "conjugatedExpression": "はともかく",
-          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '외관은 우선 제쳐두고, 이 중고차는 정비 기록이 제대로 남아 있다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
       "sourceGrammarIds": [
         "n2-143",
         "n2-072",
@@ -315,237 +315,20 @@
         "n2-074"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra-n2-143-2",
+      "id": "fb-created-n2-143-02",
       "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlank": "値段（　　　）、品質はとてもいい。",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
-      "answerChoiceId": "fb-extra-n2-143-2-a",
+      "sentence": "勝敗はともかく、選手たちは最後まで全力で走り抜いた。",
+      "sentenceWithBlank": "勝敗（　　　）、選手たちは最後まで全力で走り抜いた。",
+      "korean": "승패는 우선 제쳐두고, 선수들은 마지막까지 온 힘을 다해 달렸다.",
+      "answerChoiceId": "fb-created-n2-143-02-d",
       "choices": [
         {
-          "id": "fb-extra-n2-143-2-b",
-          "text": "んだった",
-          "grammarId": "n2-180",
-          "baseExpression": "んだった",
-          "conjugatedExpression": "んだった",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-143-2-c",
-          "text": "んだって",
-          "grammarId": "n2-181",
-          "baseExpression": "んだって",
-          "conjugatedExpression": "んだって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-143-2-d",
-          "text": "したあげく",
-          "grammarId": "n2-001",
-          "baseExpression": "あげく",
-          "conjugatedExpression": "したあげく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-143-2-a",
-          "text": "はともかく",
-          "grammarId": "n2-143",
-          "baseExpression": "はともかく",
-          "conjugatedExpression": "はともかく",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
-      "sourceGrammarIds": [
-        "n2-143",
-        "n2-180",
-        "n2-181",
-        "n2-001"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-143-3",
-      "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlank": "値段（　　　）、品質はとてもいい。",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
-      "answerChoiceId": "fb-extra-n2-143-3-b",
-      "choices": [
-        {
-          "id": "fb-extra-n2-143-3-c",
-          "text": "まい",
-          "grammarId": "n2-147",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-143-3-d",
-          "text": "まいか",
-          "grammarId": "n2-148",
-          "baseExpression": "まいか",
-          "conjugatedExpression": "まいか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-143-3-a",
-          "text": "までして",
-          "grammarId": "n2-149",
-          "baseExpression": "までして",
-          "conjugatedExpression": "までして",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-143-3-b",
-          "text": "はともかく",
-          "grammarId": "n2-143",
-          "baseExpression": "はともかく",
-          "conjugatedExpression": "はともかく",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
-      "sourceGrammarIds": [
-        "n2-143",
-        "n2-147",
-        "n2-148",
-        "n2-149"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-143-4",
-      "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlank": "値段（　　　）、品質はとてもいい。",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
-      "answerChoiceId": "fb-extra-n2-143-4-c",
-      "choices": [
-        {
-          "id": "fb-extra-n2-143-4-d",
-          "text": "こととなると",
-          "grammarId": "n2-041",
-          "baseExpression": "こととなると",
-          "conjugatedExpression": "こととなると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-143-4-a",
-          "text": "ことなく",
-          "grammarId": "n2-042",
-          "baseExpression": "ことなく",
-          "conjugatedExpression": "ことなく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-143-4-b",
-          "text": "ことには",
-          "grammarId": "n2-043",
-          "baseExpression": "ことには",
-          "conjugatedExpression": "ことには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-143-4-c",
-          "text": "はともかく",
-          "grammarId": "n2-143",
-          "baseExpression": "はともかく",
-          "conjugatedExpression": "はともかく",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
-      "sourceGrammarIds": [
-        "n2-143",
-        "n2-041",
-        "n2-042",
-        "n2-043"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-143-5",
-      "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlank": "値段（　　　）、品質はとてもいい。",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
-      "answerChoiceId": "fb-extra-n2-143-5-d",
-      "choices": [
-        {
-          "id": "fb-extra-n2-143-5-a",
-          "text": "とかといった",
-          "grammarId": "n2-084",
-          "baseExpression": "とかといった",
-          "conjugatedExpression": "とかといった",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-143-5-b",
-          "text": "といったら",
-          "grammarId": "n2-085",
-          "baseExpression": "といったら",
-          "conjugatedExpression": "といったら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-143-5-c",
-          "text": "どころか",
-          "grammarId": "n2-086",
-          "baseExpression": "どころか",
-          "conjugatedExpression": "どころか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-143-5-d",
-          "text": "はともかく",
-          "grammarId": "n2-143",
-          "baseExpression": "はともかく",
-          "conjugatedExpression": "はともかく",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
-      "sourceGrammarIds": [
-        "n2-143",
-        "n2-084",
-        "n2-085",
-        "n2-086"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-143-01",
-      "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlank": "値段（　　　）、品質はとてもいい。",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
-      "answerChoiceId": "fb-extra20-n2-143-01-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-143-01-a",
+          "id": "fb-created-n2-143-02-a",
           "text": "てでも",
           "grammarId": "n2-072",
           "baseExpression": "てでも",
@@ -553,7 +336,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-143-01-b",
+          "id": "fb-created-n2-143-02-b",
           "text": "てならない",
           "grammarId": "n2-073",
           "baseExpression": "てならない",
@@ -561,7 +344,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-143-01-c",
+          "id": "fb-created-n2-143-02-c",
           "text": "てはかなわない",
           "grammarId": "n2-074",
           "baseExpression": "てはかなわない",
@@ -569,7 +352,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-143-01-d",
+          "id": "fb-created-n2-143-02-d",
           "text": "はともかく",
           "grammarId": "n2-143",
           "baseExpression": "はともかく",
@@ -577,7 +360,7 @@
           "isSimilarDistractor": false
         }
       ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '승패는 우선 제쳐두고, 선수들은 마지막까지 온 힘을 다해 달렸다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
       "sourceGrammarIds": [
         "n2-143",
         "n2-072",
@@ -585,253 +368,20 @@
         "n2-074"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-143-02",
+      "id": "fb-created-n2-143-03",
       "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlank": "値段（　　　）、品質はとてもいい。",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
-      "answerChoiceId": "fb-extra20-n2-143-02-a",
+      "sentence": "距離はともかく、荷物を抱えてこの坂を上るのはつらい。",
+      "sentenceWithBlank": "距離（　　　）、荷物を抱えてこの坂を上るのはつらい。",
+      "korean": "거리는 일단 제쳐두고, 짐을 안고 이 비탈길을 오르는 것은 힘들다.",
+      "answerChoiceId": "fb-created-n2-143-03-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-143-02-d",
-          "text": "したあげく",
-          "grammarId": "n2-001",
-          "baseExpression": "あげく",
-          "conjugatedExpression": "したあげく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-143-02-a",
-          "text": "はともかく",
-          "grammarId": "n2-143",
-          "baseExpression": "はともかく",
-          "conjugatedExpression": "はともかく",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-143-02-b",
-          "text": "んだった",
-          "grammarId": "n2-180",
-          "baseExpression": "んだった",
-          "conjugatedExpression": "んだった",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-143-02-c",
-          "text": "んだって",
-          "grammarId": "n2-181",
-          "baseExpression": "んだって",
-          "conjugatedExpression": "んだって",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
-      "sourceGrammarIds": [
-        "n2-143",
-        "n2-180",
-        "n2-181",
-        "n2-001"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-143-03",
-      "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlank": "値段（　　　）、品質はとてもいい。",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
-      "answerChoiceId": "fb-extra20-n2-143-03-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-143-03-c",
-          "text": "まい",
-          "grammarId": "n2-147",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-143-03-d",
-          "text": "まいか",
-          "grammarId": "n2-148",
-          "baseExpression": "まいか",
-          "conjugatedExpression": "まいか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-143-03-a",
-          "text": "までして",
-          "grammarId": "n2-149",
-          "baseExpression": "までして",
-          "conjugatedExpression": "までして",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-143-03-b",
-          "text": "はともかく",
-          "grammarId": "n2-143",
-          "baseExpression": "はともかく",
-          "conjugatedExpression": "はともかく",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
-      "sourceGrammarIds": [
-        "n2-143",
-        "n2-147",
-        "n2-148",
-        "n2-149"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-143-04",
-      "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlank": "値段（　　　）、品質はとてもいい。",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
-      "answerChoiceId": "fb-extra20-n2-143-04-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-143-04-b",
-          "text": "ことには",
-          "grammarId": "n2-043",
-          "baseExpression": "ことには",
-          "conjugatedExpression": "ことには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-143-04-c",
-          "text": "はともかく",
-          "grammarId": "n2-143",
-          "baseExpression": "はともかく",
-          "conjugatedExpression": "はともかく",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-143-04-d",
-          "text": "こととなると",
-          "grammarId": "n2-041",
-          "baseExpression": "こととなると",
-          "conjugatedExpression": "こととなると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-143-04-a",
-          "text": "ことなく",
-          "grammarId": "n2-042",
-          "baseExpression": "ことなく",
-          "conjugatedExpression": "ことなく",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
-      "sourceGrammarIds": [
-        "n2-143",
-        "n2-041",
-        "n2-042",
-        "n2-043"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-143-05",
-      "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlank": "値段（　　　）、品質はとてもいい。",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
-      "answerChoiceId": "fb-extra20-n2-143-05-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-143-05-a",
-          "text": "とかといった",
-          "grammarId": "n2-084",
-          "baseExpression": "とかといった",
-          "conjugatedExpression": "とかといった",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-143-05-b",
-          "text": "といったら",
-          "grammarId": "n2-085",
-          "baseExpression": "といったら",
-          "conjugatedExpression": "といったら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-143-05-c",
-          "text": "どころか",
-          "grammarId": "n2-086",
-          "baseExpression": "どころか",
-          "conjugatedExpression": "どころか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-143-05-d",
-          "text": "はともかく",
-          "grammarId": "n2-143",
-          "baseExpression": "はともかく",
-          "conjugatedExpression": "はともかく",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
-      "sourceGrammarIds": [
-        "n2-143",
-        "n2-084",
-        "n2-085",
-        "n2-086"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-143-06",
-      "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlank": "値段（　　　）、品質はとてもいい。",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
-      "answerChoiceId": "fb-extra20-n2-143-06-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-143-06-d",
-          "text": "はともかく",
-          "grammarId": "n2-143",
-          "baseExpression": "はともかく",
-          "conjugatedExpression": "はともかく",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-143-06-a",
-          "text": "てでも",
-          "grammarId": "n2-072",
-          "baseExpression": "てでも",
-          "conjugatedExpression": "てでも",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-143-06-b",
+          "id": "fb-created-n2-143-03-b",
           "text": "てならない",
           "grammarId": "n2-073",
           "baseExpression": "てならない",
@@ -839,253 +389,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-143-06-c",
-          "text": "てはかなわない",
-          "grammarId": "n2-074",
-          "baseExpression": "てはかなわない",
-          "conjugatedExpression": "てはかなわない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
-      "sourceGrammarIds": [
-        "n2-143",
-        "n2-072",
-        "n2-073",
-        "n2-074"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-143-07",
-      "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlank": "値段（　　　）、品質はとてもいい。",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
-      "answerChoiceId": "fb-extra20-n2-143-07-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-143-07-c",
-          "text": "んだって",
-          "grammarId": "n2-181",
-          "baseExpression": "んだって",
-          "conjugatedExpression": "んだって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-143-07-d",
-          "text": "したあげく",
-          "grammarId": "n2-001",
-          "baseExpression": "あげく",
-          "conjugatedExpression": "したあげく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-143-07-a",
-          "text": "はともかく",
-          "grammarId": "n2-143",
-          "baseExpression": "はともかく",
-          "conjugatedExpression": "はともかく",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-143-07-b",
-          "text": "んだった",
-          "grammarId": "n2-180",
-          "baseExpression": "んだった",
-          "conjugatedExpression": "んだった",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
-      "sourceGrammarIds": [
-        "n2-143",
-        "n2-180",
-        "n2-181",
-        "n2-001"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-143-08",
-      "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlank": "値段（　　　）、品質はとてもいい。",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
-      "answerChoiceId": "fb-extra20-n2-143-08-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-143-08-b",
-          "text": "はともかく",
-          "grammarId": "n2-143",
-          "baseExpression": "はともかく",
-          "conjugatedExpression": "はともかく",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-143-08-c",
-          "text": "まい",
-          "grammarId": "n2-147",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-143-08-d",
-          "text": "まいか",
-          "grammarId": "n2-148",
-          "baseExpression": "まいか",
-          "conjugatedExpression": "まいか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-143-08-a",
-          "text": "までして",
-          "grammarId": "n2-149",
-          "baseExpression": "までして",
-          "conjugatedExpression": "までして",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
-      "sourceGrammarIds": [
-        "n2-143",
-        "n2-147",
-        "n2-148",
-        "n2-149"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-143-09",
-      "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlank": "値段（　　　）、品質はとてもいい。",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
-      "answerChoiceId": "fb-extra20-n2-143-09-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-143-09-a",
-          "text": "ことなく",
-          "grammarId": "n2-042",
-          "baseExpression": "ことなく",
-          "conjugatedExpression": "ことなく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-143-09-b",
-          "text": "ことには",
-          "grammarId": "n2-043",
-          "baseExpression": "ことには",
-          "conjugatedExpression": "ことには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-143-09-c",
-          "text": "はともかく",
-          "grammarId": "n2-143",
-          "baseExpression": "はともかく",
-          "conjugatedExpression": "はともかく",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-143-09-d",
-          "text": "こととなると",
-          "grammarId": "n2-041",
-          "baseExpression": "こととなると",
-          "conjugatedExpression": "こととなると",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
-      "sourceGrammarIds": [
-        "n2-143",
-        "n2-041",
-        "n2-042",
-        "n2-043"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-143-10",
-      "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlank": "値段（　　　）、品質はとてもいい。",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
-      "answerChoiceId": "fb-extra20-n2-143-10-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-143-10-d",
-          "text": "はともかく",
-          "grammarId": "n2-143",
-          "baseExpression": "はともかく",
-          "conjugatedExpression": "はともかく",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-143-10-a",
-          "text": "とかといった",
-          "grammarId": "n2-084",
-          "baseExpression": "とかといった",
-          "conjugatedExpression": "とかといった",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-143-10-b",
-          "text": "といったら",
-          "grammarId": "n2-085",
-          "baseExpression": "といったら",
-          "conjugatedExpression": "といったら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-143-10-c",
-          "text": "どころか",
-          "grammarId": "n2-086",
-          "baseExpression": "どころか",
-          "conjugatedExpression": "どころか",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
-      "sourceGrammarIds": [
-        "n2-143",
-        "n2-084",
-        "n2-085",
-        "n2-086"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-143-11",
-      "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlank": "値段（　　　）、品質はとてもいい。",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
-      "answerChoiceId": "fb-extra20-n2-143-11-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-143-11-c",
+          "id": "fb-created-n2-143-03-c",
           "text": "てはかなわない",
           "grammarId": "n2-074",
           "baseExpression": "てはかなわない",
@@ -1093,7 +397,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-143-11-d",
+          "id": "fb-created-n2-143-03-d",
           "text": "はともかく",
           "grammarId": "n2-143",
           "baseExpression": "はともかく",
@@ -1101,285 +405,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-143-11-a",
-          "text": "てでも",
-          "grammarId": "n2-072",
-          "baseExpression": "てでも",
-          "conjugatedExpression": "てでも",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-143-11-b",
-          "text": "てならない",
-          "grammarId": "n2-073",
-          "baseExpression": "てならない",
-          "conjugatedExpression": "てならない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
-      "sourceGrammarIds": [
-        "n2-143",
-        "n2-072",
-        "n2-073",
-        "n2-074"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-143-12",
-      "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlank": "値段（　　　）、品質はとてもいい。",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
-      "answerChoiceId": "fb-extra20-n2-143-12-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-143-12-b",
-          "text": "んだった",
-          "grammarId": "n2-180",
-          "baseExpression": "んだった",
-          "conjugatedExpression": "んだった",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-143-12-c",
-          "text": "んだって",
-          "grammarId": "n2-181",
-          "baseExpression": "んだって",
-          "conjugatedExpression": "んだって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-143-12-d",
-          "text": "したあげく",
-          "grammarId": "n2-001",
-          "baseExpression": "あげく",
-          "conjugatedExpression": "したあげく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-143-12-a",
-          "text": "はともかく",
-          "grammarId": "n2-143",
-          "baseExpression": "はともかく",
-          "conjugatedExpression": "はともかく",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
-      "sourceGrammarIds": [
-        "n2-143",
-        "n2-180",
-        "n2-181",
-        "n2-001"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-143-13",
-      "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlank": "値段（　　　）、品質はとてもいい。",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
-      "answerChoiceId": "fb-extra20-n2-143-13-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-143-13-a",
-          "text": "までして",
-          "grammarId": "n2-149",
-          "baseExpression": "までして",
-          "conjugatedExpression": "までして",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-143-13-b",
-          "text": "はともかく",
-          "grammarId": "n2-143",
-          "baseExpression": "はともかく",
-          "conjugatedExpression": "はともかく",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-143-13-c",
-          "text": "まい",
-          "grammarId": "n2-147",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-143-13-d",
-          "text": "まいか",
-          "grammarId": "n2-148",
-          "baseExpression": "まいか",
-          "conjugatedExpression": "まいか",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
-      "sourceGrammarIds": [
-        "n2-143",
-        "n2-147",
-        "n2-148",
-        "n2-149"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-143-14",
-      "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlank": "値段（　　　）、品質はとてもいい。",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
-      "answerChoiceId": "fb-extra20-n2-143-14-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-143-14-d",
-          "text": "こととなると",
-          "grammarId": "n2-041",
-          "baseExpression": "こととなると",
-          "conjugatedExpression": "こととなると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-143-14-a",
-          "text": "ことなく",
-          "grammarId": "n2-042",
-          "baseExpression": "ことなく",
-          "conjugatedExpression": "ことなく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-143-14-b",
-          "text": "ことには",
-          "grammarId": "n2-043",
-          "baseExpression": "ことには",
-          "conjugatedExpression": "ことには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-143-14-c",
-          "text": "はともかく",
-          "grammarId": "n2-143",
-          "baseExpression": "はともかく",
-          "conjugatedExpression": "はともかく",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
-      "sourceGrammarIds": [
-        "n2-143",
-        "n2-041",
-        "n2-042",
-        "n2-043"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-143-15",
-      "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlank": "値段（　　　）、品質はとてもいい。",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
-      "answerChoiceId": "fb-extra20-n2-143-15-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-143-15-c",
-          "text": "どころか",
-          "grammarId": "n2-086",
-          "baseExpression": "どころか",
-          "conjugatedExpression": "どころか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-143-15-d",
-          "text": "はともかく",
-          "grammarId": "n2-143",
-          "baseExpression": "はともかく",
-          "conjugatedExpression": "はともかく",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-143-15-a",
-          "text": "とかといった",
-          "grammarId": "n2-084",
-          "baseExpression": "とかといった",
-          "conjugatedExpression": "とかといった",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-143-15-b",
-          "text": "といったら",
-          "grammarId": "n2-085",
-          "baseExpression": "といったら",
-          "conjugatedExpression": "といったら",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
-      "sourceGrammarIds": [
-        "n2-143",
-        "n2-084",
-        "n2-085",
-        "n2-086"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-143-16",
-      "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlank": "値段（　　　）、品質はとてもいい。",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
-      "answerChoiceId": "fb-extra20-n2-143-16-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-143-16-b",
-          "text": "てならない",
-          "grammarId": "n2-073",
-          "baseExpression": "てならない",
-          "conjugatedExpression": "てならない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-143-16-c",
-          "text": "てはかなわない",
-          "grammarId": "n2-074",
-          "baseExpression": "てはかなわない",
-          "conjugatedExpression": "てはかなわない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-143-16-d",
-          "text": "はともかく",
-          "grammarId": "n2-143",
-          "baseExpression": "はともかく",
-          "conjugatedExpression": "はともかく",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-143-16-a",
+          "id": "fb-created-n2-143-03-a",
           "text": "てでも",
           "grammarId": "n2-072",
           "baseExpression": "てでも",
@@ -1387,7 +413,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '거리는 일단 제쳐두고, 짐을 안고 이 비탈길을 오르는 것은 힘들다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
       "sourceGrammarIds": [
         "n2-143",
         "n2-072",
@@ -1395,21 +421,28 @@
         "n2-074"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-143-17",
+      "id": "fb-created-n2-143-04",
       "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlank": "値段（　　　）、品質はとてもいい。",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
-      "answerChoiceId": "fb-extra20-n2-143-17-a",
+      "sentence": "経歴はともかく、彼の交渉力なら海外の取引先にも通用する。",
+      "sentenceWithBlank": "経歴（　　　）、彼の交渉力なら海外の取引先にも通用する。",
+      "korean": "경력은 우선 제쳐두고, 그의 협상력이라면 해외 거래처에서도 통할 것이다.",
+      "answerChoiceId": "fb-created-n2-143-04-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-143-17-a",
+          "id": "fb-created-n2-143-04-c",
+          "text": "てはかなわない",
+          "grammarId": "n2-074",
+          "baseExpression": "てはかなわない",
+          "conjugatedExpression": "てはかなわない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-04-d",
           "text": "はともかく",
           "grammarId": "n2-143",
           "baseExpression": "はともかく",
@@ -1417,69 +450,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-143-17-b",
-          "text": "んだった",
-          "grammarId": "n2-180",
-          "baseExpression": "んだった",
-          "conjugatedExpression": "んだった",
+          "id": "fb-created-n2-143-04-a",
+          "text": "てでも",
+          "grammarId": "n2-072",
+          "baseExpression": "てでも",
+          "conjugatedExpression": "てでも",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-143-17-c",
-          "text": "んだって",
-          "grammarId": "n2-181",
-          "baseExpression": "んだって",
-          "conjugatedExpression": "んだって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-143-17-d",
-          "text": "したあげく",
-          "grammarId": "n2-001",
-          "baseExpression": "あげく",
-          "conjugatedExpression": "したあげく",
+          "id": "fb-created-n2-143-04-b",
+          "text": "てならない",
+          "grammarId": "n2-073",
+          "baseExpression": "てならない",
+          "conjugatedExpression": "てならない",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '경력은 우선 제쳐두고, 그의 협상력이라면 해외 거래처에서도 통할 것이다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
       "sourceGrammarIds": [
         "n2-143",
-        "n2-180",
-        "n2-181",
-        "n2-001"
+        "n2-072",
+        "n2-073",
+        "n2-074"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-143-18",
+      "id": "fb-created-n2-143-05",
       "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlank": "値段（　　　）、品質はとてもいい。",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
-      "answerChoiceId": "fb-extra20-n2-143-18-b",
+      "sentence": "天候はともかく、救助隊は夜明けと同時に捜索を再開する方針だ。",
+      "sentenceWithBlank": "天候（　　　）、救助隊は夜明けと同時に捜索を再開する方針だ。",
+      "korean": "날씨는 일단 제쳐두고, 구조대는 날이 밝는 동시에 수색을 재개할 방침이다.",
+      "answerChoiceId": "fb-created-n2-143-05-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-143-18-d",
-          "text": "まいか",
-          "grammarId": "n2-148",
-          "baseExpression": "まいか",
-          "conjugatedExpression": "まいか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-143-18-a",
-          "text": "までして",
-          "grammarId": "n2-149",
-          "baseExpression": "までして",
-          "conjugatedExpression": "までして",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-143-18-b",
+          "id": "fb-created-n2-143-05-d",
           "text": "はともかく",
           "grammarId": "n2-143",
           "baseExpression": "はともかく",
@@ -1487,37 +495,121 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-143-18-c",
-          "text": "まい",
-          "grammarId": "n2-147",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
+          "id": "fb-created-n2-143-05-a",
+          "text": "てでも",
+          "grammarId": "n2-072",
+          "baseExpression": "てでも",
+          "conjugatedExpression": "てでも",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-05-b",
+          "text": "てならない",
+          "grammarId": "n2-073",
+          "baseExpression": "てならない",
+          "conjugatedExpression": "てならない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-05-c",
+          "text": "てはかなわない",
+          "grammarId": "n2-074",
+          "baseExpression": "てはかなわない",
+          "conjugatedExpression": "てはかなわない",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '날씨는 일단 제쳐두고, 구조대는 날이 밝는 동시에 수색을 재개할 방침이다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
       "sourceGrammarIds": [
         "n2-143",
-        "n2-147",
-        "n2-148",
-        "n2-149"
+        "n2-072",
+        "n2-073",
+        "n2-074"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-143-19",
+      "id": "fb-created-n2-143-06",
       "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlank": "値段（　　　）、品質はとてもいい。",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
-      "answerChoiceId": "fb-extra20-n2-143-19-c",
+      "sentence": "見た目はともかく、この郷土料理は香辛料の使い方が絶妙だ。",
+      "sentenceWithBlank": "見た目（　　　）、この郷土料理は香辛料の使い方が絶妙だ。",
+      "korean": "겉모습은 우선 제쳐두고, 이 향토 요리는 향신료를 쓰는 방식이 절묘하다.",
+      "answerChoiceId": "fb-created-n2-143-06-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-143-19-c",
+          "id": "fb-created-n2-143-06-a",
+          "text": "てでも",
+          "grammarId": "n2-072",
+          "baseExpression": "てでも",
+          "conjugatedExpression": "てでも",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-06-b",
+          "text": "てならない",
+          "grammarId": "n2-073",
+          "baseExpression": "てならない",
+          "conjugatedExpression": "てならない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-06-c",
+          "text": "てはかなわない",
+          "grammarId": "n2-074",
+          "baseExpression": "てはかなわない",
+          "conjugatedExpression": "てはかなわない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-06-d",
+          "text": "はともかく",
+          "grammarId": "n2-143",
+          "baseExpression": "はともかく",
+          "conjugatedExpression": "はともかく",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '겉모습은 우선 제쳐두고, 이 향토 요리는 향신료를 쓰는 방식이 절묘하다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
+      "sourceGrammarIds": [
+        "n2-143",
+        "n2-072",
+        "n2-073",
+        "n2-074"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-143-07",
+      "level": "N2",
+      "sentence": "部屋の広さはともかく、駅まで徒歩三分という立地は魅力的だ。",
+      "sentenceWithBlank": "部屋の広さ（　　　）、駅まで徒歩三分という立地は魅力的だ。",
+      "korean": "방의 넓이는 일단 제쳐두고, 역까지 걸어서 3분이라는 입지는 매력적이다.",
+      "answerChoiceId": "fb-created-n2-143-07-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-143-07-b",
+          "text": "てならない",
+          "grammarId": "n2-073",
+          "baseExpression": "てならない",
+          "conjugatedExpression": "てならない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-07-c",
+          "text": "てはかなわない",
+          "grammarId": "n2-074",
+          "baseExpression": "てはかなわない",
+          "conjugatedExpression": "てはかなわない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-07-d",
           "text": "はともかく",
           "grammarId": "n2-143",
           "baseExpression": "はともかく",
@@ -1525,69 +617,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-143-19-d",
-          "text": "こととなると",
-          "grammarId": "n2-041",
-          "baseExpression": "こととなると",
-          "conjugatedExpression": "こととなると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-143-19-a",
-          "text": "ことなく",
-          "grammarId": "n2-042",
-          "baseExpression": "ことなく",
-          "conjugatedExpression": "ことなく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-143-19-b",
-          "text": "ことには",
-          "grammarId": "n2-043",
-          "baseExpression": "ことには",
-          "conjugatedExpression": "ことには",
+          "id": "fb-created-n2-143-07-a",
+          "text": "てでも",
+          "grammarId": "n2-072",
+          "baseExpression": "てでも",
+          "conjugatedExpression": "てでも",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '방의 넓이는 일단 제쳐두고, 역까지 걸어서 3분이라는 입지는 매력적이다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
       "sourceGrammarIds": [
         "n2-143",
-        "n2-041",
-        "n2-042",
-        "n2-043"
+        "n2-072",
+        "n2-073",
+        "n2-074"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-143-20",
+      "id": "fb-created-n2-143-08",
       "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlank": "値段（　　　）、品質はとてもいい。",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
-      "answerChoiceId": "fb-extra20-n2-143-20-d",
+      "sentence": "理由はともかく、無断欠勤が続けば現場の負担が増えてしまう。",
+      "sentenceWithBlank": "理由（　　　）、無断欠勤が続けば現場の負担が増えてしまう。",
+      "korean": "이유는 우선 제쳐두고, 무단결근이 계속되면 현장의 부담이 늘어나고 만다.",
+      "answerChoiceId": "fb-created-n2-143-08-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-143-20-b",
-          "text": "といったら",
-          "grammarId": "n2-085",
-          "baseExpression": "といったら",
-          "conjugatedExpression": "といったら",
+          "id": "fb-created-n2-143-08-c",
+          "text": "てはかなわない",
+          "grammarId": "n2-074",
+          "baseExpression": "てはかなわない",
+          "conjugatedExpression": "てはかなわない",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-143-20-c",
-          "text": "どころか",
-          "grammarId": "n2-086",
-          "baseExpression": "どころか",
-          "conjugatedExpression": "どころか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-143-20-d",
+          "id": "fb-created-n2-143-08-d",
           "text": "はともかく",
           "grammarId": "n2-143",
           "baseExpression": "はともかく",
@@ -1595,25 +662,933 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-143-20-a",
-          "text": "とかといった",
-          "grammarId": "n2-084",
-          "baseExpression": "とかといった",
-          "conjugatedExpression": "とかといった",
+          "id": "fb-created-n2-143-08-a",
+          "text": "てでも",
+          "grammarId": "n2-072",
+          "baseExpression": "てでも",
+          "conjugatedExpression": "てでも",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-08-b",
+          "text": "てならない",
+          "grammarId": "n2-073",
+          "baseExpression": "てならない",
+          "conjugatedExpression": "てならない",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '이유는 우선 제쳐두고, 무단결근이 계속되면 현장의 부담이 늘어나고 만다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
       "sourceGrammarIds": [
         "n2-143",
-        "n2-084",
-        "n2-085",
-        "n2-086"
+        "n2-072",
+        "n2-073",
+        "n2-074"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-143-09",
+      "level": "N2",
+      "sentence": "年齢はともかく、健康状態に問題がなければ船員として採用される可能性がある。",
+      "sentenceWithBlank": "年齢（　　　）、健康状態に問題がなければ船員として採用される可能性がある。",
+      "korean": "나이는 일단 제쳐두고, 건강 상태에 문제가 없다면 선원으로 채용될 가능성이 있다.",
+      "answerChoiceId": "fb-created-n2-143-09-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-143-09-d",
+          "text": "はともかく",
+          "grammarId": "n2-143",
+          "baseExpression": "はともかく",
+          "conjugatedExpression": "はともかく",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-143-09-a",
+          "text": "てでも",
+          "grammarId": "n2-072",
+          "baseExpression": "てでも",
+          "conjugatedExpression": "てでも",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-09-b",
+          "text": "てならない",
+          "grammarId": "n2-073",
+          "baseExpression": "てならない",
+          "conjugatedExpression": "てならない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-09-c",
+          "text": "てはかなわない",
+          "grammarId": "n2-074",
+          "baseExpression": "てはかなわない",
+          "conjugatedExpression": "てはかなわない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '나이는 일단 제쳐두고, 건강 상태에 문제가 없다면 선원으로 채용될 가능성이 있다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
+      "sourceGrammarIds": [
+        "n2-143",
+        "n2-072",
+        "n2-073",
+        "n2-074"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-143-10",
+      "level": "N2",
+      "sentence": "利益はともかく、この事業が地域の雇用を守った意義は大きい。",
+      "sentenceWithBlank": "利益（　　　）、この事業が地域の雇用を守った意義は大きい。",
+      "korean": "이익은 우선 제쳐두고, 이 사업이 지역의 고용을 지킨 의의는 크다.",
+      "answerChoiceId": "fb-created-n2-143-10-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-143-10-a",
+          "text": "てでも",
+          "grammarId": "n2-072",
+          "baseExpression": "てでも",
+          "conjugatedExpression": "てでも",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-10-b",
+          "text": "てならない",
+          "grammarId": "n2-073",
+          "baseExpression": "てならない",
+          "conjugatedExpression": "てならない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-10-c",
+          "text": "てはかなわない",
+          "grammarId": "n2-074",
+          "baseExpression": "てはかなわない",
+          "conjugatedExpression": "てはかなわない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-10-d",
+          "text": "はともかく",
+          "grammarId": "n2-143",
+          "baseExpression": "はともかく",
+          "conjugatedExpression": "はともかく",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '이익은 우선 제쳐두고, 이 사업이 지역의 고용을 지킨 의의는 크다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
+      "sourceGrammarIds": [
+        "n2-143",
+        "n2-072",
+        "n2-073",
+        "n2-074"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-143-11",
+      "level": "N2",
+      "sentence": "完成時期はともかく、設計上の安全性だけは妥協できない。",
+      "sentenceWithBlank": "完成時期（　　　）、設計上の安全性だけは妥協できない。",
+      "korean": "완공 시기는 일단 제쳐두고, 설계상의 안전성만큼은 타협할 수 없다.",
+      "answerChoiceId": "fb-created-n2-143-11-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-143-11-b",
+          "text": "てならない",
+          "grammarId": "n2-073",
+          "baseExpression": "てならない",
+          "conjugatedExpression": "てならない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-11-c",
+          "text": "てはかなわない",
+          "grammarId": "n2-074",
+          "baseExpression": "てはかなわない",
+          "conjugatedExpression": "てはかなわない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-11-d",
+          "text": "はともかく",
+          "grammarId": "n2-143",
+          "baseExpression": "はともかく",
+          "conjugatedExpression": "はともかく",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-143-11-a",
+          "text": "てでも",
+          "grammarId": "n2-072",
+          "baseExpression": "てでも",
+          "conjugatedExpression": "てでも",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '완공 시기는 일단 제쳐두고, 설계상의 안전성만큼은 타협할 수 없다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
+      "sourceGrammarIds": [
+        "n2-143",
+        "n2-072",
+        "n2-073",
+        "n2-074"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-143-12",
+      "level": "N2",
+      "sentence": "手段はともかく、一刻も早く避難者へ飲料水を届ける必要がある。",
+      "sentenceWithBlank": "手段（　　　）、一刻も早く避難者へ飲料水を届ける必要がある。",
+      "korean": "수단은 일단 제쳐두고, 한시라도 빨리 피난민에게 식수를 전달할 필요가 있다.",
+      "answerChoiceId": "fb-created-n2-143-12-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-143-12-c",
+          "text": "てはかなわない",
+          "grammarId": "n2-074",
+          "baseExpression": "てはかなわない",
+          "conjugatedExpression": "てはかなわない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-12-d",
+          "text": "はともかく",
+          "grammarId": "n2-143",
+          "baseExpression": "はともかく",
+          "conjugatedExpression": "はともかく",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-143-12-a",
+          "text": "てでも",
+          "grammarId": "n2-072",
+          "baseExpression": "てでも",
+          "conjugatedExpression": "てでも",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-12-b",
+          "text": "てならない",
+          "grammarId": "n2-073",
+          "baseExpression": "てならない",
+          "conjugatedExpression": "てならない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '수단은 일단 제쳐두고, 한시라도 빨리 피난민에게 식수를 전달할 필요가 있다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
+      "sourceGrammarIds": [
+        "n2-143",
+        "n2-072",
+        "n2-073",
+        "n2-074"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-143-13",
+      "level": "N2",
+      "sentence": "知名度はともかく、あの工房の家具は細部まで丁寧に仕上げられている。",
+      "sentenceWithBlank": "知名度（　　　）、あの工房の家具は細部まで丁寧に仕上げられている。",
+      "korean": "인지도는 우선 제쳐두고, 저 공방의 가구는 세부까지 정성스럽게 마감되어 있다.",
+      "answerChoiceId": "fb-created-n2-143-13-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-143-13-d",
+          "text": "はともかく",
+          "grammarId": "n2-143",
+          "baseExpression": "はともかく",
+          "conjugatedExpression": "はともかく",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-143-13-a",
+          "text": "てでも",
+          "grammarId": "n2-072",
+          "baseExpression": "てでも",
+          "conjugatedExpression": "てでも",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-13-b",
+          "text": "てならない",
+          "grammarId": "n2-073",
+          "baseExpression": "てならない",
+          "conjugatedExpression": "てならない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-13-c",
+          "text": "てはかなわない",
+          "grammarId": "n2-074",
+          "baseExpression": "てはかなわない",
+          "conjugatedExpression": "てはかなわない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '인지도는 우선 제쳐두고, 저 공방의 가구는 세부까지 정성스럽게 마감되어 있다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
+      "sourceGrammarIds": [
+        "n2-143",
+        "n2-072",
+        "n2-073",
+        "n2-074"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-143-14",
+      "level": "N2",
+      "sentence": "服装はともかく、受付での横柄な態度は改めたほうがいい。",
+      "sentenceWithBlank": "服装（　　　）、受付での横柄な態度は改めたほうがいい。",
+      "korean": "복장은 일단 제쳐두고, 접수처에서의 거만한 태도는 고치는 편이 좋다.",
+      "answerChoiceId": "fb-created-n2-143-14-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-143-14-a",
+          "text": "てでも",
+          "grammarId": "n2-072",
+          "baseExpression": "てでも",
+          "conjugatedExpression": "てでも",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-14-b",
+          "text": "てならない",
+          "grammarId": "n2-073",
+          "baseExpression": "てならない",
+          "conjugatedExpression": "てならない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-14-c",
+          "text": "てはかなわない",
+          "grammarId": "n2-074",
+          "baseExpression": "てはかなわない",
+          "conjugatedExpression": "てはかなわない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-14-d",
+          "text": "はともかく",
+          "grammarId": "n2-143",
+          "baseExpression": "はともかく",
+          "conjugatedExpression": "はともかく",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '복장은 일단 제쳐두고, 접수처에서의 거만한 태도는 고치는 편이 좋다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
+      "sourceGrammarIds": [
+        "n2-143",
+        "n2-072",
+        "n2-073",
+        "n2-074"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-143-15",
+      "level": "N2",
+      "sentence": "過去の失敗はともかく、今の対応からは十分な誠意が感じられる。",
+      "sentenceWithBlank": "過去の失敗（　　　）、今の対応からは十分な誠意が感じられる。",
+      "korean": "과거의 실패는 우선 제쳐두고, 지금의 대응에서는 충분한 성의가 느껴진다.",
+      "answerChoiceId": "fb-created-n2-143-15-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-143-15-b",
+          "text": "てならない",
+          "grammarId": "n2-073",
+          "baseExpression": "てならない",
+          "conjugatedExpression": "てならない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-15-c",
+          "text": "てはかなわない",
+          "grammarId": "n2-074",
+          "baseExpression": "てはかなわない",
+          "conjugatedExpression": "てはかなわない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-15-d",
+          "text": "はともかく",
+          "grammarId": "n2-143",
+          "baseExpression": "はともかく",
+          "conjugatedExpression": "はともかく",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-143-15-a",
+          "text": "てでも",
+          "grammarId": "n2-072",
+          "baseExpression": "てでも",
+          "conjugatedExpression": "てでも",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '과거의 실패는 우선 제쳐두고, 지금의 대응에서는 충분한 성의가 느껴진다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
+      "sourceGrammarIds": [
+        "n2-143",
+        "n2-072",
+        "n2-073",
+        "n2-074"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-143-16",
+      "level": "N2",
+      "sentence": "収穫量はともかく、今年のブドウは例年より糖度が高い。",
+      "sentenceWithBlank": "収穫量（　　　）、今年のブドウは例年より糖度が高い。",
+      "korean": "수확량은 일단 제쳐두고, 올해 포도는 예년보다 당도가 높다.",
+      "answerChoiceId": "fb-created-n2-143-16-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-143-16-c",
+          "text": "てはかなわない",
+          "grammarId": "n2-074",
+          "baseExpression": "てはかなわない",
+          "conjugatedExpression": "てはかなわない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-16-d",
+          "text": "はともかく",
+          "grammarId": "n2-143",
+          "baseExpression": "はともかく",
+          "conjugatedExpression": "はともかく",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-143-16-a",
+          "text": "てでも",
+          "grammarId": "n2-072",
+          "baseExpression": "てでも",
+          "conjugatedExpression": "てでも",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-16-b",
+          "text": "てならない",
+          "grammarId": "n2-073",
+          "baseExpression": "てならない",
+          "conjugatedExpression": "てならない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '수확량은 일단 제쳐두고, 올해 포도는 예년보다 당도가 높다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
+      "sourceGrammarIds": [
+        "n2-143",
+        "n2-072",
+        "n2-073",
+        "n2-074"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-143-17",
+      "level": "N2",
+      "sentence": "設備はともかく、あの診療所には住民から信頼される医師がいる。",
+      "sentenceWithBlank": "設備（　　　）、あの診療所には住民から信頼される医師がいる。",
+      "korean": "시설은 우선 제쳐두고, 저 진료소에는 주민들의 신뢰를 받는 의사가 있다.",
+      "answerChoiceId": "fb-created-n2-143-17-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-143-17-d",
+          "text": "はともかく",
+          "grammarId": "n2-143",
+          "baseExpression": "はともかく",
+          "conjugatedExpression": "はともかく",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-143-17-a",
+          "text": "てでも",
+          "grammarId": "n2-072",
+          "baseExpression": "てでも",
+          "conjugatedExpression": "てでも",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-17-b",
+          "text": "てならない",
+          "grammarId": "n2-073",
+          "baseExpression": "てならない",
+          "conjugatedExpression": "てならない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-17-c",
+          "text": "てはかなわない",
+          "grammarId": "n2-074",
+          "baseExpression": "てはかなわない",
+          "conjugatedExpression": "てはかなわない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '시설은 우선 제쳐두고, 저 진료소에는 주민들의 신뢰를 받는 의사가 있다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
+      "sourceGrammarIds": [
+        "n2-143",
+        "n2-072",
+        "n2-073",
+        "n2-074"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-143-18",
+      "level": "N2",
+      "sentence": "予算はともかく、候補地が土砂災害の危険区域にある点が気になる。",
+      "sentenceWithBlank": "予算（　　　）、候補地が土砂災害の危険区域にある点が気になる。",
+      "korean": "예산은 일단 제쳐두고, 후보지가 산사태 위험 구역에 있다는 점이 신경 쓰인다.",
+      "answerChoiceId": "fb-created-n2-143-18-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-143-18-a",
+          "text": "てでも",
+          "grammarId": "n2-072",
+          "baseExpression": "てでも",
+          "conjugatedExpression": "てでも",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-18-b",
+          "text": "てならない",
+          "grammarId": "n2-073",
+          "baseExpression": "てならない",
+          "conjugatedExpression": "てならない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-18-c",
+          "text": "てはかなわない",
+          "grammarId": "n2-074",
+          "baseExpression": "てはかなわない",
+          "conjugatedExpression": "てはかなわない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-18-d",
+          "text": "はともかく",
+          "grammarId": "n2-143",
+          "baseExpression": "はともかく",
+          "conjugatedExpression": "はともかく",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '예산은 일단 제쳐두고, 후보지가 산사태 위험 구역에 있다는 점이 신경 쓰인다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
+      "sourceGrammarIds": [
+        "n2-143",
+        "n2-072",
+        "n2-073",
+        "n2-074"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-143-19",
+      "level": "N2",
+      "sentence": "順位はともかく、自己ベストを更新できたことに本人は満足している。",
+      "sentenceWithBlank": "順位（　　　）、自己ベストを更新できたことに本人は満足している。",
+      "korean": "순위는 우선 제쳐두고, 개인 최고 기록을 경신한 것에 본인은 만족하고 있다.",
+      "answerChoiceId": "fb-created-n2-143-19-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-143-19-b",
+          "text": "てならない",
+          "grammarId": "n2-073",
+          "baseExpression": "てならない",
+          "conjugatedExpression": "てならない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-19-c",
+          "text": "てはかなわない",
+          "grammarId": "n2-074",
+          "baseExpression": "てはかなわない",
+          "conjugatedExpression": "てはかなわない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-19-d",
+          "text": "はともかく",
+          "grammarId": "n2-143",
+          "baseExpression": "はともかく",
+          "conjugatedExpression": "はともかく",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-143-19-a",
+          "text": "てでも",
+          "grammarId": "n2-072",
+          "baseExpression": "てでも",
+          "conjugatedExpression": "てでも",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '순위는 우선 제쳐두고, 개인 최고 기록을 경신한 것에 본인은 만족하고 있다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
+      "sourceGrammarIds": [
+        "n2-143",
+        "n2-072",
+        "n2-073",
+        "n2-074"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-143-20",
+      "level": "N2",
+      "sentence": "国籍はともかく、この職務には三年以上の実務経験が求められる。",
+      "sentenceWithBlank": "国籍（　　　）、この職務には三年以上の実務経験が求められる。",
+      "korean": "국적은 일단 제쳐두고, 이 직무에는 3년 이상의 실무 경험이 요구된다.",
+      "answerChoiceId": "fb-created-n2-143-20-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-143-20-c",
+          "text": "てはかなわない",
+          "grammarId": "n2-074",
+          "baseExpression": "てはかなわない",
+          "conjugatedExpression": "てはかなわない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-20-d",
+          "text": "はともかく",
+          "grammarId": "n2-143",
+          "baseExpression": "はともかく",
+          "conjugatedExpression": "はともかく",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-143-20-a",
+          "text": "てでも",
+          "grammarId": "n2-072",
+          "baseExpression": "てでも",
+          "conjugatedExpression": "てでも",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-20-b",
+          "text": "てならない",
+          "grammarId": "n2-073",
+          "baseExpression": "てならない",
+          "conjugatedExpression": "てならない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '국적은 일단 제쳐두고, 이 직무에는 3년 이상의 실무 경험이 요구된다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
+      "sourceGrammarIds": [
+        "n2-143",
+        "n2-072",
+        "n2-073",
+        "n2-074"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-143-21",
+      "level": "N2",
+      "sentence": "騒音はともかく、窓から海が一望できる点はこの宿の強みだ。",
+      "sentenceWithBlank": "騒音（　　　）、窓から海が一望できる点はこの宿の強みだ。",
+      "korean": "소음은 일단 제쳐두고, 창문으로 바다를 한눈에 볼 수 있다는 점은 이 숙소의 장점이다.",
+      "answerChoiceId": "fb-created-n2-143-21-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-143-21-d",
+          "text": "はともかく",
+          "grammarId": "n2-143",
+          "baseExpression": "はともかく",
+          "conjugatedExpression": "はともかく",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-143-21-a",
+          "text": "てでも",
+          "grammarId": "n2-072",
+          "baseExpression": "てでも",
+          "conjugatedExpression": "てでも",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-21-b",
+          "text": "てならない",
+          "grammarId": "n2-073",
+          "baseExpression": "てならない",
+          "conjugatedExpression": "てならない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-21-c",
+          "text": "てはかなわない",
+          "grammarId": "n2-074",
+          "baseExpression": "てはかなわない",
+          "conjugatedExpression": "てはかなわない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '소음은 일단 제쳐두고, 창문으로 바다를 한눈에 볼 수 있다는 점은 이 숙소의 장점이다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
+      "sourceGrammarIds": [
+        "n2-143",
+        "n2-072",
+        "n2-073",
+        "n2-074"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-143-22",
+      "level": "N2",
+      "sentence": "名称はともかく、この制度が高齢者の孤立を防いでいるのは確かだ。",
+      "sentenceWithBlank": "名称（　　　）、この制度が高齢者の孤立を防いでいるのは確かだ。",
+      "korean": "명칭은 일단 제쳐두고, 이 제도가 고령자의 고립을 막고 있는 것은 분명하다.",
+      "answerChoiceId": "fb-created-n2-143-22-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-143-22-a",
+          "text": "てでも",
+          "grammarId": "n2-072",
+          "baseExpression": "てでも",
+          "conjugatedExpression": "てでも",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-22-b",
+          "text": "てならない",
+          "grammarId": "n2-073",
+          "baseExpression": "てならない",
+          "conjugatedExpression": "てならない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-22-c",
+          "text": "てはかなわない",
+          "grammarId": "n2-074",
+          "baseExpression": "てはかなわない",
+          "conjugatedExpression": "てはかなわない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-22-d",
+          "text": "はともかく",
+          "grammarId": "n2-143",
+          "baseExpression": "はともかく",
+          "conjugatedExpression": "はともかく",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '명칭은 일단 제쳐두고, 이 제도가 고령자의 고립을 막고 있는 것은 분명하다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
+      "sourceGrammarIds": [
+        "n2-143",
+        "n2-072",
+        "n2-073",
+        "n2-074"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-143-23",
+      "level": "N2",
+      "sentence": "料理の種類はともかく、深夜でも温かい食事が取れるのはありがたい。",
+      "sentenceWithBlank": "料理の種類（　　　）、深夜でも温かい食事が取れるのはありがたい。",
+      "korean": "요리의 종류는 일단 제쳐두고, 심야에도 따뜻한 식사를 할 수 있다는 것은 고맙다.",
+      "answerChoiceId": "fb-created-n2-143-23-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-143-23-b",
+          "text": "てならない",
+          "grammarId": "n2-073",
+          "baseExpression": "てならない",
+          "conjugatedExpression": "てならない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-23-c",
+          "text": "てはかなわない",
+          "grammarId": "n2-074",
+          "baseExpression": "てはかなわない",
+          "conjugatedExpression": "てはかなわない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-23-d",
+          "text": "はともかく",
+          "grammarId": "n2-143",
+          "baseExpression": "はともかく",
+          "conjugatedExpression": "はともかく",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-143-23-a",
+          "text": "てでも",
+          "grammarId": "n2-072",
+          "baseExpression": "てでも",
+          "conjugatedExpression": "てでも",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '요리의 종류는 일단 제쳐두고, 심야에도 따뜻한 식사를 할 수 있다는 것은 고맙다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
+      "sourceGrammarIds": [
+        "n2-143",
+        "n2-072",
+        "n2-073",
+        "n2-074"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-143-24",
+      "level": "N2",
+      "sentence": "犯人の動機はともかく、警察はまず周辺住民の安全を確保すべきだ。",
+      "sentenceWithBlank": "犯人の動機（　　　）、警察はまず周辺住民の安全を確保すべきだ。",
+      "korean": "범인의 동기는 일단 제쳐두고, 경찰은 우선 인근 주민의 안전을 확보해야 한다.",
+      "answerChoiceId": "fb-created-n2-143-24-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-143-24-c",
+          "text": "てはかなわない",
+          "grammarId": "n2-074",
+          "baseExpression": "てはかなわない",
+          "conjugatedExpression": "てはかなわない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-24-d",
+          "text": "はともかく",
+          "grammarId": "n2-143",
+          "baseExpression": "はともかく",
+          "conjugatedExpression": "はともかく",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-143-24-a",
+          "text": "てでも",
+          "grammarId": "n2-072",
+          "baseExpression": "てでも",
+          "conjugatedExpression": "てでも",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-24-b",
+          "text": "てならない",
+          "grammarId": "n2-073",
+          "baseExpression": "てならない",
+          "conjugatedExpression": "てならない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '범인의 동기는 일단 제쳐두고, 경찰은 우선 인근 주민의 안전을 확보해야 한다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
+      "sourceGrammarIds": [
+        "n2-143",
+        "n2-072",
+        "n2-073",
+        "n2-074"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-143-25",
+      "level": "N2",
+      "sentence": "多少の傷はともかく、内部のデータが無事だったのは幸いだ。",
+      "sentenceWithBlank": "多少の傷（　　　）、内部のデータが無事だったのは幸いだ。",
+      "korean": "다소간의 흠집은 일단 제쳐두고, 내부 데이터가 무사했던 것은 다행이다.",
+      "answerChoiceId": "fb-created-n2-143-25-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-143-25-d",
+          "text": "はともかく",
+          "grammarId": "n2-143",
+          "baseExpression": "はともかく",
+          "conjugatedExpression": "はともかく",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-143-25-a",
+          "text": "てでも",
+          "grammarId": "n2-072",
+          "baseExpression": "てでも",
+          "conjugatedExpression": "てでも",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-25-b",
+          "text": "てならない",
+          "grammarId": "n2-073",
+          "baseExpression": "てならない",
+          "conjugatedExpression": "てならない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-143-25-c",
+          "text": "てはかなわない",
+          "grammarId": "n2-074",
+          "baseExpression": "てはかなわない",
+          "conjugatedExpression": "てはかなわない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '다소간의 흠집은 일단 제쳐두고, 내부 데이터가 무사했던 것은 다행이다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
+      "sourceGrammarIds": [
+        "n2-143",
+        "n2-072",
+        "n2-073",
+        "n2-074"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
       ]
     }
   ],
@@ -1834,1103 +1809,1153 @@
       ]
     },
     {
-      "id": "so-extra-n2-143-1",
+      "id": "so-created-n2-143-01",
       "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlanks": "値段 ____ ____ ____ ____",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
+      "sentence": "外観はともかく、この中古車は整備記録がきちんと残っている。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "외관은 우선 제쳐두고, 이 중고차는 정비 기록이 제대로 남아 있다.",
       "pieces": [
         {
-          "id": "so-extra-n2-143-1-p2",
-          "text": "もいい",
+          "id": "so-created-n2-143-01-p4",
+          "text": "残っている。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-143-1-p3",
-          "text": "はともかく",
+          "id": "so-created-n2-143-01-p1",
+          "text": "外観はともかく、",
           "order": 1
         },
         {
-          "id": "so-extra-n2-143-1-p4",
-          "text": "品質は",
+          "id": "so-created-n2-143-01-p2",
+          "text": "この中古車は整備",
           "order": 2
         },
         {
-          "id": "so-extra-n2-143-1-p1",
-          "text": "とて",
+          "id": "so-created-n2-143-01-p3",
+          "text": "記録がきちんと",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-143-1-p3",
-        "so-extra-n2-143-1-p4",
-        "so-extra-n2-143-1-p1",
-        "so-extra-n2-143-1-p2"
+        "so-created-n2-143-01-p1",
+        "so-created-n2-143-01-p2",
+        "so-created-n2-143-01-p3",
+        "so-created-n2-143-01-p4"
       ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '외관은 우선 제쳐두고, 이 중고차는 정비 기록이 제대로 남아 있다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
       "sourceGrammarIds": [
-        "n2-143"
+        "n2-143",
+        "n2-072",
+        "n2-073",
+        "n2-074"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-143-2",
+      "id": "so-created-n2-143-02",
       "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlanks": "値段 ____ ____ ____ ____",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
+      "sentence": "勝敗はともかく、選手たちは最後まで全力で走り抜いた。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "승패는 우선 제쳐두고, 선수들은 마지막까지 온 힘을 다해 달렸다.",
       "pieces": [
         {
-          "id": "so-extra-n2-143-2-p3",
-          "text": "もいい",
+          "id": "so-created-n2-143-02-p3",
+          "text": "最後まで全力で",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-143-02-p4",
+          "text": "走り抜いた。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-143-2-p4",
-          "text": "はともかく",
+          "id": "so-created-n2-143-02-p1",
+          "text": "勝敗はともかく、",
           "order": 1
         },
         {
-          "id": "so-extra-n2-143-2-p1",
-          "text": "品質は",
+          "id": "so-created-n2-143-02-p2",
+          "text": "選手たちは",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-143-2-p2",
-          "text": "とて",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-143-2-p4",
-        "so-extra-n2-143-2-p1",
-        "so-extra-n2-143-2-p2",
-        "so-extra-n2-143-2-p3"
+        "so-created-n2-143-02-p1",
+        "so-created-n2-143-02-p2",
+        "so-created-n2-143-02-p3",
+        "so-created-n2-143-02-p4"
       ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '승패는 우선 제쳐두고, 선수들은 마지막까지 온 힘을 다해 달렸다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
       "sourceGrammarIds": [
-        "n2-143"
+        "n2-143",
+        "n2-072",
+        "n2-073",
+        "n2-074"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-143-3",
+      "id": "so-created-n2-143-03",
       "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、品質はとてもいい。",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
+      "sentence": "距離はともかく、荷物を抱えてこの坂を上るのはつらい。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "거리는 일단 제쳐두고, 짐을 안고 이 비탈길을 오르는 것은 힘들다.",
       "pieces": [
         {
-          "id": "so-extra-n2-143-3-p4",
-          "text": "とて",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-143-3-p1",
-          "text": "段",
-          "order": 1
-        },
-        {
-          "id": "so-extra-n2-143-3-p2",
-          "text": "はともかく",
+          "id": "so-created-n2-143-03-p2",
+          "text": "荷物を",
           "order": 2
         },
         {
-          "id": "so-extra-n2-143-3-p3",
-          "text": "品質は",
+          "id": "so-created-n2-143-03-p3",
+          "text": "抱えてこの坂を",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-143-03-p4",
+          "text": "上るのはつらい。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-143-03-p1",
+          "text": "距離はともかく、",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-143-3-p1",
-        "so-extra-n2-143-3-p2",
-        "so-extra-n2-143-3-p3",
-        "so-extra-n2-143-3-p4"
+        "so-created-n2-143-03-p1",
+        "so-created-n2-143-03-p2",
+        "so-created-n2-143-03-p3",
+        "so-created-n2-143-03-p4"
       ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '거리는 일단 제쳐두고, 짐을 안고 이 비탈길을 오르는 것은 힘들다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
       "sourceGrammarIds": [
-        "n2-143"
+        "n2-143",
+        "n2-072",
+        "n2-073",
+        "n2-074"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-143-4",
+      "id": "so-created-n2-143-04",
       "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlanks": "値段 ____ ____ ____ ____",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
+      "sentence": "経歴はともかく、彼の交渉力なら海外の取引先にも通用する。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 先にも通用する。",
+      "korean": "경력은 우선 제쳐두고, 그의 협상력이라면 해외 거래처에서도 통할 것이다.",
       "pieces": [
         {
-          "id": "so-extra-n2-143-4-p1",
-          "text": "もいい",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-143-4-p2",
-          "text": "はともかく",
+          "id": "so-created-n2-143-04-p1",
+          "text": "経歴",
           "order": 1
         },
         {
-          "id": "so-extra-n2-143-4-p3",
-          "text": "品質は",
+          "id": "so-created-n2-143-04-p2",
+          "text": "はともかく、",
           "order": 2
         },
         {
-          "id": "so-extra-n2-143-4-p4",
-          "text": "とて",
+          "id": "so-created-n2-143-04-p3",
+          "text": "彼の交渉力なら",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-143-04-p4",
+          "text": "海外の取引",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-143-4-p2",
-        "so-extra-n2-143-4-p3",
-        "so-extra-n2-143-4-p4",
-        "so-extra-n2-143-4-p1"
+        "so-created-n2-143-04-p1",
+        "so-created-n2-143-04-p2",
+        "so-created-n2-143-04-p3",
+        "so-created-n2-143-04-p4"
       ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '경력은 우선 제쳐두고, 그의 협상력이라면 해외 거래처에서도 통할 것이다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
       "sourceGrammarIds": [
-        "n2-143"
+        "n2-143",
+        "n2-072",
+        "n2-073",
+        "n2-074"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-143-5",
+      "id": "so-created-n2-143-05",
       "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlanks": "値段 ____ ____ ____ ____",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
+      "sentence": "天候はともかく、救助隊は夜明けと同時に捜索を再開する方針だ。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 再開する方針だ。",
+      "korean": "날씨는 일단 제쳐두고, 구조대는 날이 밝는 동시에 수색을 재개할 방침이다.",
       "pieces": [
         {
-          "id": "so-extra-n2-143-5-p2",
-          "text": "もいい",
+          "id": "so-created-n2-143-05-p4",
+          "text": "と同時に捜索を",
           "order": 4
         },
         {
-          "id": "so-extra-n2-143-5-p3",
-          "text": "はともかく",
+          "id": "so-created-n2-143-05-p1",
+          "text": "天候",
           "order": 1
         },
         {
-          "id": "so-extra-n2-143-5-p4",
-          "text": "品質は",
+          "id": "so-created-n2-143-05-p2",
+          "text": "はともかく、",
           "order": 2
         },
         {
-          "id": "so-extra-n2-143-5-p1",
-          "text": "とて",
+          "id": "so-created-n2-143-05-p3",
+          "text": "救助隊は夜明け",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-143-5-p3",
-        "so-extra-n2-143-5-p4",
-        "so-extra-n2-143-5-p1",
-        "so-extra-n2-143-5-p2"
+        "so-created-n2-143-05-p1",
+        "so-created-n2-143-05-p2",
+        "so-created-n2-143-05-p3",
+        "so-created-n2-143-05-p4"
       ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '날씨는 일단 제쳐두고, 구조대는 날이 밝는 동시에 수색을 재개할 방침이다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
       "sourceGrammarIds": [
-        "n2-143"
+        "n2-143",
+        "n2-072",
+        "n2-073",
+        "n2-074"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-143-01",
+      "id": "so-created-n2-143-06",
       "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlanks": "値段 ____ ____ ____ ____",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
+      "sentence": "見た目はともかく、この郷土料理は香辛料の使い方が絶妙だ。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 絶妙だ。",
+      "korean": "겉모습은 우선 제쳐두고, 이 향토 요리는 향신료를 쓰는 방식이 절묘하다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-143-01-p2",
-          "text": "もいい",
+          "id": "so-created-n2-143-06-p3",
+          "text": "この郷土料理は",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-143-06-p4",
+          "text": "香辛料の使い方が",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-143-01-p3",
-          "text": "はともかく",
+          "id": "so-created-n2-143-06-p1",
+          "text": "見た目",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-143-01-p4",
-          "text": "品質は",
+          "id": "so-created-n2-143-06-p2",
+          "text": "はともかく、",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-143-01-p1",
-          "text": "とて",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-143-01-p3",
-        "so-extra20-n2-143-01-p4",
-        "so-extra20-n2-143-01-p1",
-        "so-extra20-n2-143-01-p2"
+        "so-created-n2-143-06-p1",
+        "so-created-n2-143-06-p2",
+        "so-created-n2-143-06-p3",
+        "so-created-n2-143-06-p4"
       ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '겉모습은 우선 제쳐두고, 이 향토 요리는 향신료를 쓰는 방식이 절묘하다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
       "sourceGrammarIds": [
-        "n2-143"
+        "n2-143",
+        "n2-072",
+        "n2-073",
+        "n2-074"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-143-02",
+      "id": "so-created-n2-143-07",
       "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlanks": "値段 ____ ____ ____ ____",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
+      "sentence": "部屋の広さはともかく、駅まで徒歩三分という立地は魅力的だ。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 魅力的だ。",
+      "korean": "방의 넓이는 일단 제쳐두고, 역까지 걸어서 3분이라는 입지는 매력적이다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-143-02-p1",
-          "text": "品質は",
+          "id": "so-created-n2-143-07-p2",
+          "text": "はともかく、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-143-02-p2",
-          "text": "とて",
+          "id": "so-created-n2-143-07-p3",
+          "text": "駅まで徒歩",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-143-02-p3",
-          "text": "もいい",
+          "id": "so-created-n2-143-07-p4",
+          "text": "三分という立地は",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-143-02-p4",
-          "text": "はともかく",
+          "id": "so-created-n2-143-07-p1",
+          "text": "部屋の広さ",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-143-02-p4",
-        "so-extra20-n2-143-02-p1",
-        "so-extra20-n2-143-02-p2",
-        "so-extra20-n2-143-02-p3"
+        "so-created-n2-143-07-p1",
+        "so-created-n2-143-07-p2",
+        "so-created-n2-143-07-p3",
+        "so-created-n2-143-07-p4"
       ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '방의 넓이는 일단 제쳐두고, 역까지 걸어서 3분이라는 입지는 매력적이다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
       "sourceGrammarIds": [
-        "n2-143"
+        "n2-143",
+        "n2-072",
+        "n2-073",
+        "n2-074"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-143-03",
+      "id": "so-created-n2-143-08",
       "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、品質はとてもいい。",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
+      "sentence": "理由はともかく、無断欠勤が続けば現場の負担が増えてしまう。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 増えてしまう。",
+      "korean": "이유는 우선 제쳐두고, 무단결근이 계속되면 현장의 부담이 늘어나고 만다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-143-03-p4",
-          "text": "とて",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-143-03-p1",
-          "text": "段",
+          "id": "so-created-n2-143-08-p1",
+          "text": "理由はともかく、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-143-03-p2",
-          "text": "はともかく",
+          "id": "so-created-n2-143-08-p2",
+          "text": "無断欠勤が",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-143-03-p3",
-          "text": "品質は",
+          "id": "so-created-n2-143-08-p3",
+          "text": "続けば",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-143-08-p4",
+          "text": "現場の負担が",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-143-03-p1",
-        "so-extra20-n2-143-03-p2",
-        "so-extra20-n2-143-03-p3",
-        "so-extra20-n2-143-03-p4"
+        "so-created-n2-143-08-p1",
+        "so-created-n2-143-08-p2",
+        "so-created-n2-143-08-p3",
+        "so-created-n2-143-08-p4"
       ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '이유는 우선 제쳐두고, 무단결근이 계속되면 현장의 부담이 늘어나고 만다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
       "sourceGrammarIds": [
-        "n2-143"
+        "n2-143",
+        "n2-072",
+        "n2-073",
+        "n2-074"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-143-04",
+      "id": "so-created-n2-143-09",
       "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlanks": "値段 ____ ____ ____ ____",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
+      "sentence": "年齢はともかく、健康状態に問題がなければ船員として採用される可能性がある。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 可能性がある。",
+      "korean": "나이는 일단 제쳐두고, 건강 상태에 문제가 없다면 선원으로 채용될 가능성이 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-143-04-p3",
-          "text": "品質は",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-143-04-p4",
-          "text": "とて",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-143-04-p1",
-          "text": "もいい",
+          "id": "so-created-n2-143-09-p4",
+          "text": "船員として採用される",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-143-04-p2",
-          "text": "はともかく",
+          "id": "so-created-n2-143-09-p1",
+          "text": "年齢はともかく、",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-143-09-p2",
+          "text": "健康状態に",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-143-09-p3",
+          "text": "問題がなければ",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-143-04-p2",
-        "so-extra20-n2-143-04-p3",
-        "so-extra20-n2-143-04-p4",
-        "so-extra20-n2-143-04-p1"
+        "so-created-n2-143-09-p1",
+        "so-created-n2-143-09-p2",
+        "so-created-n2-143-09-p3",
+        "so-created-n2-143-09-p4"
       ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '나이는 일단 제쳐두고, 건강 상태에 문제가 없다면 선원으로 채용될 가능성이 있다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
       "sourceGrammarIds": [
-        "n2-143"
+        "n2-143",
+        "n2-072",
+        "n2-073",
+        "n2-074"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-143-05",
+      "id": "so-created-n2-143-10",
       "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlanks": "値段 ____ ____ ____ ____",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
+      "sentence": "利益はともかく、この事業が地域の雇用を守った意義は大きい。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 意義は大きい。",
+      "korean": "이익은 우선 제쳐두고, 이 사업이 지역의 고용을 지킨 의의는 크다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-143-05-p2",
-          "text": "もいい",
+          "id": "so-created-n2-143-10-p3",
+          "text": "地域の",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-143-10-p4",
+          "text": "雇用を守った",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-143-05-p3",
-          "text": "はともかく",
+          "id": "so-created-n2-143-10-p1",
+          "text": "利益はともかく、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-143-05-p4",
-          "text": "品質は",
+          "id": "so-created-n2-143-10-p2",
+          "text": "この事業が",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-143-05-p1",
-          "text": "とて",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-143-05-p3",
-        "so-extra20-n2-143-05-p4",
-        "so-extra20-n2-143-05-p1",
-        "so-extra20-n2-143-05-p2"
+        "so-created-n2-143-10-p1",
+        "so-created-n2-143-10-p2",
+        "so-created-n2-143-10-p3",
+        "so-created-n2-143-10-p4"
       ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '이익은 우선 제쳐두고, 이 사업이 지역의 고용을 지킨 의의는 크다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
       "sourceGrammarIds": [
-        "n2-143"
+        "n2-143",
+        "n2-072",
+        "n2-073",
+        "n2-074"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-143-06",
+      "id": "so-created-n2-143-11",
       "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlanks": "値段 ____ ____ ____ ____",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
+      "sentence": "完成時期はともかく、設計上の安全性だけは妥協できない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 妥協できない。",
+      "korean": "완공 시기는 일단 제쳐두고, 설계상의 안전성만큼은 타협할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-143-06-p1",
-          "text": "とて",
+          "id": "so-created-n2-143-11-p2",
+          "text": "はともかく、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-143-11-p3",
+          "text": "設計上の",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-143-06-p2",
-          "text": "もいい",
+          "id": "so-created-n2-143-11-p4",
+          "text": "安全性だけは",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-143-06-p3",
-          "text": "はともかく",
+          "id": "so-created-n2-143-11-p1",
+          "text": "完成時期",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-143-06-p4",
-          "text": "品質は",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-143-06-p3",
-        "so-extra20-n2-143-06-p4",
-        "so-extra20-n2-143-06-p1",
-        "so-extra20-n2-143-06-p2"
+        "so-created-n2-143-11-p1",
+        "so-created-n2-143-11-p2",
+        "so-created-n2-143-11-p3",
+        "so-created-n2-143-11-p4"
       ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '완공 시기는 일단 제쳐두고, 설계상의 안전성만큼은 타협할 수 없다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
       "sourceGrammarIds": [
-        "n2-143"
+        "n2-143",
+        "n2-072",
+        "n2-073",
+        "n2-074"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-143-07",
+      "id": "so-created-n2-143-12",
       "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlanks": "値段 ____ ____ ____ ____",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
+      "sentence": "手段はともかく、一刻も早く避難者へ飲料水を届ける必要がある。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 届ける必要がある。",
+      "korean": "수단은 일단 제쳐두고, 한시라도 빨리 피난민에게 식수를 전달할 필요가 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-143-07-p4",
-          "text": "はともかく",
+          "id": "so-created-n2-143-12-p1",
+          "text": "手段",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-143-07-p1",
-          "text": "品質は",
+          "id": "so-created-n2-143-12-p2",
+          "text": "はともかく、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-143-07-p2",
-          "text": "とて",
+          "id": "so-created-n2-143-12-p3",
+          "text": "一刻も早く避難",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-143-07-p3",
-          "text": "もいい",
+          "id": "so-created-n2-143-12-p4",
+          "text": "者へ飲料水を",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-143-07-p4",
-        "so-extra20-n2-143-07-p1",
-        "so-extra20-n2-143-07-p2",
-        "so-extra20-n2-143-07-p3"
+        "so-created-n2-143-12-p1",
+        "so-created-n2-143-12-p2",
+        "so-created-n2-143-12-p3",
+        "so-created-n2-143-12-p4"
       ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '수단은 일단 제쳐두고, 한시라도 빨리 피난민에게 식수를 전달할 필요가 있다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
       "sourceGrammarIds": [
-        "n2-143"
+        "n2-143",
+        "n2-072",
+        "n2-073",
+        "n2-074"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-143-08",
+      "id": "so-created-n2-143-13",
       "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、品質はとてもいい。",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
+      "sentence": "知名度はともかく、あの工房の家具は細部まで丁寧に仕上げられている。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 仕上げられている。",
+      "korean": "인지도는 우선 제쳐두고, 저 공방의 가구는 세부까지 정성스럽게 마감되어 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-143-08-p3",
-          "text": "品質は",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-143-08-p4",
-          "text": "とて",
+          "id": "so-created-n2-143-13-p4",
+          "text": "細部まで丁寧に",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-143-08-p1",
-          "text": "段",
+          "id": "so-created-n2-143-13-p1",
+          "text": "知名度",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-143-08-p2",
-          "text": "はともかく",
+          "id": "so-created-n2-143-13-p2",
+          "text": "はともかく、",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-143-13-p3",
+          "text": "あの工房の家具は",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-143-08-p1",
-        "so-extra20-n2-143-08-p2",
-        "so-extra20-n2-143-08-p3",
-        "so-extra20-n2-143-08-p4"
+        "so-created-n2-143-13-p1",
+        "so-created-n2-143-13-p2",
+        "so-created-n2-143-13-p3",
+        "so-created-n2-143-13-p4"
       ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '인지도는 우선 제쳐두고, 저 공방의 가구는 세부까지 정성스럽게 마감되어 있다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
       "sourceGrammarIds": [
-        "n2-143"
+        "n2-143",
+        "n2-072",
+        "n2-073",
+        "n2-074"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-143-09",
+      "id": "so-created-n2-143-14",
       "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlanks": "値段 ____ ____ ____ ____",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
+      "sentence": "服装はともかく、受付での横柄な態度は改めたほうがいい。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "복장은 일단 제쳐두고, 접수처에서의 거만한 태도는 고치는 편이 좋다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-143-09-p2",
-          "text": "はともかく",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-143-09-p3",
-          "text": "品質は",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-143-09-p4",
-          "text": "とて",
+          "id": "so-created-n2-143-14-p3",
+          "text": "横柄な態度は",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-143-09-p1",
-          "text": "もいい",
+          "id": "so-created-n2-143-14-p4",
+          "text": "改めたほうがいい。",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-143-14-p1",
+          "text": "服装はともかく、",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-143-14-p2",
+          "text": "受付での",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-143-09-p2",
-        "so-extra20-n2-143-09-p3",
-        "so-extra20-n2-143-09-p4",
-        "so-extra20-n2-143-09-p1"
+        "so-created-n2-143-14-p1",
+        "so-created-n2-143-14-p2",
+        "so-created-n2-143-14-p3",
+        "so-created-n2-143-14-p4"
       ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '복장은 일단 제쳐두고, 접수처에서의 거만한 태도는 고치는 편이 좋다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
       "sourceGrammarIds": [
-        "n2-143"
+        "n2-143",
+        "n2-072",
+        "n2-073",
+        "n2-074"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-143-10",
+      "id": "so-created-n2-143-15",
       "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlanks": "値段 ____ ____ ____ ____",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
+      "sentence": "過去の失敗はともかく、今の対応からは十分な誠意が感じられる。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 感じられる。",
+      "korean": "과거의 실패는 우선 제쳐두고, 지금의 대응에서는 충분한 성의가 느껴진다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-143-10-p1",
-          "text": "とて",
+          "id": "so-created-n2-143-15-p2",
+          "text": "はともかく、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-143-15-p3",
+          "text": "今の対応からは",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-143-10-p2",
-          "text": "もいい",
+          "id": "so-created-n2-143-15-p4",
+          "text": "十分な誠意が",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-143-10-p3",
-          "text": "はともかく",
+          "id": "so-created-n2-143-15-p1",
+          "text": "過去の失敗",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-143-10-p4",
-          "text": "品質は",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-143-10-p3",
-        "so-extra20-n2-143-10-p4",
-        "so-extra20-n2-143-10-p1",
-        "so-extra20-n2-143-10-p2"
+        "so-created-n2-143-15-p1",
+        "so-created-n2-143-15-p2",
+        "so-created-n2-143-15-p3",
+        "so-created-n2-143-15-p4"
       ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '과거의 실패는 우선 제쳐두고, 지금의 대응에서는 충분한 성의가 느껴진다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
       "sourceGrammarIds": [
-        "n2-143"
+        "n2-143",
+        "n2-072",
+        "n2-073",
+        "n2-074"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-143-11",
+      "id": "so-created-n2-143-16",
       "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlanks": "値段 ____ ____ ____ ____",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
+      "sentence": "収穫量はともかく、今年のブドウは例年より糖度が高い。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 高い。",
+      "korean": "수확량은 일단 제쳐두고, 올해 포도는 예년보다 당도가 높다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-143-11-p4",
-          "text": "品質は",
+          "id": "so-created-n2-143-16-p1",
+          "text": "収穫量",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-143-16-p2",
+          "text": "はともかく、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-143-11-p1",
-          "text": "とて",
+          "id": "so-created-n2-143-16-p3",
+          "text": "今年のブドウは",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-143-11-p2",
-          "text": "もいい",
+          "id": "so-created-n2-143-16-p4",
+          "text": "例年より糖度が",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-143-11-p3",
-          "text": "はともかく",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-143-11-p3",
-        "so-extra20-n2-143-11-p4",
-        "so-extra20-n2-143-11-p1",
-        "so-extra20-n2-143-11-p2"
+        "so-created-n2-143-16-p1",
+        "so-created-n2-143-16-p2",
+        "so-created-n2-143-16-p3",
+        "so-created-n2-143-16-p4"
       ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '수확량은 일단 제쳐두고, 올해 포도는 예년보다 당도가 높다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
       "sourceGrammarIds": [
-        "n2-143"
+        "n2-143",
+        "n2-072",
+        "n2-073",
+        "n2-074"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-143-12",
+      "id": "so-created-n2-143-17",
       "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlanks": "値段 ____ ____ ____ ____",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
+      "sentence": "設備はともかく、あの診療所には住民から信頼される医師がいる。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "시설은 우선 제쳐두고, 저 진료소에는 주민들의 신뢰를 받는 의사가 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-143-12-p3",
-          "text": "もいい",
+          "id": "so-created-n2-143-17-p4",
+          "text": "医師がいる。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-143-12-p4",
-          "text": "はともかく",
+          "id": "so-created-n2-143-17-p1",
+          "text": "設備はともかく、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-143-12-p1",
-          "text": "品質は",
+          "id": "so-created-n2-143-17-p2",
+          "text": "あの診療所には",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-143-12-p2",
-          "text": "とて",
+          "id": "so-created-n2-143-17-p3",
+          "text": "住民から信頼される",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-143-12-p4",
-        "so-extra20-n2-143-12-p1",
-        "so-extra20-n2-143-12-p2",
-        "so-extra20-n2-143-12-p3"
+        "so-created-n2-143-17-p1",
+        "so-created-n2-143-17-p2",
+        "so-created-n2-143-17-p3",
+        "so-created-n2-143-17-p4"
       ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '시설은 우선 제쳐두고, 저 진료소에는 주민들의 신뢰를 받는 의사가 있다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
       "sourceGrammarIds": [
-        "n2-143"
+        "n2-143",
+        "n2-072",
+        "n2-073",
+        "n2-074"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-143-13",
+      "id": "so-created-n2-143-18",
       "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、品質はとてもいい。",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
+      "sentence": "予算はともかく、候補地が土砂災害の危険区域にある点が気になる。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 点が気になる。",
+      "korean": "예산은 일단 제쳐두고, 후보지가 산사태 위험 구역에 있다는 점이 신경 쓰인다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-143-13-p2",
-          "text": "はともかく",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-143-13-p3",
-          "text": "品質は",
+          "id": "so-created-n2-143-18-p3",
+          "text": "災害の危険",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-143-13-p4",
-          "text": "とて",
+          "id": "so-created-n2-143-18-p4",
+          "text": "区域にある",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-143-13-p1",
-          "text": "段",
+          "id": "so-created-n2-143-18-p1",
+          "text": "予算はともかく、",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-143-18-p2",
+          "text": "候補地が土砂",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-143-13-p1",
-        "so-extra20-n2-143-13-p2",
-        "so-extra20-n2-143-13-p3",
-        "so-extra20-n2-143-13-p4"
+        "so-created-n2-143-18-p1",
+        "so-created-n2-143-18-p2",
+        "so-created-n2-143-18-p3",
+        "so-created-n2-143-18-p4"
       ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '예산은 일단 제쳐두고, 후보지가 산사태 위험 구역에 있다는 점이 신경 쓰인다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
       "sourceGrammarIds": [
-        "n2-143"
+        "n2-143",
+        "n2-072",
+        "n2-073",
+        "n2-074"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-143-14",
+      "id": "so-created-n2-143-19",
       "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlanks": "値段 ____ ____ ____ ____",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
+      "sentence": "順位はともかく、自己ベストを更新できたことに本人は満足している。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 満足している。",
+      "korean": "순위는 우선 제쳐두고, 개인 최고 기록을 경신한 것에 본인은 만족하고 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-143-14-p1",
-          "text": "もいい",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-143-14-p2",
-          "text": "はともかく",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-143-14-p3",
-          "text": "品質は",
+          "id": "so-created-n2-143-19-p2",
+          "text": "自己ベストを",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-143-14-p4",
-          "text": "とて",
+          "id": "so-created-n2-143-19-p3",
+          "text": "更新できたことに",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-143-19-p4",
+          "text": "本人は",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-143-19-p1",
+          "text": "順位はともかく、",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-143-14-p2",
-        "so-extra20-n2-143-14-p3",
-        "so-extra20-n2-143-14-p4",
-        "so-extra20-n2-143-14-p1"
+        "so-created-n2-143-19-p1",
+        "so-created-n2-143-19-p2",
+        "so-created-n2-143-19-p3",
+        "so-created-n2-143-19-p4"
       ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '순위는 우선 제쳐두고, 개인 최고 기록을 경신한 것에 본인은 만족하고 있다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
       "sourceGrammarIds": [
-        "n2-143"
+        "n2-143",
+        "n2-072",
+        "n2-073",
+        "n2-074"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-143-15",
+      "id": "so-created-n2-143-20",
       "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlanks": "値段 ____ ____ ____ ____",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
+      "sentence": "国籍はともかく、この職務には三年以上の実務経験が求められる。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 経験が求められる。",
+      "korean": "국적은 일단 제쳐두고, 이 직무에는 3년 이상의 실무 경험이 요구된다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-143-15-p4",
-          "text": "品質は",
+          "id": "so-created-n2-143-20-p1",
+          "text": "国籍",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-143-20-p2",
+          "text": "はともかく、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-143-15-p1",
-          "text": "とて",
+          "id": "so-created-n2-143-20-p3",
+          "text": "この職務には",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-143-15-p2",
-          "text": "もいい",
+          "id": "so-created-n2-143-20-p4",
+          "text": "三年以上の実務",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-143-15-p3",
-          "text": "はともかく",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-143-15-p3",
-        "so-extra20-n2-143-15-p4",
-        "so-extra20-n2-143-15-p1",
-        "so-extra20-n2-143-15-p2"
+        "so-created-n2-143-20-p1",
+        "so-created-n2-143-20-p2",
+        "so-created-n2-143-20-p3",
+        "so-created-n2-143-20-p4"
       ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '국적은 일단 제쳐두고, 이 직무에는 3년 이상의 실무 경험이 요구된다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
       "sourceGrammarIds": [
-        "n2-143"
+        "n2-143",
+        "n2-072",
+        "n2-073",
+        "n2-074"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-143-16",
+      "id": "so-created-n2-143-21",
       "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlanks": "値段 ____ ____ ____ ____",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
+      "sentence": "騒音はともかく、窓から海が一望できる点はこの宿の強みだ。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 強みだ。",
+      "korean": "소음은 일단 제쳐두고, 창문으로 바다를 한눈에 볼 수 있다는 점은 이 숙소의 장점이다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-143-16-p3",
-          "text": "はともかく",
+          "id": "so-created-n2-143-21-p4",
+          "text": "点はこの宿の",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-143-21-p1",
+          "text": "騒音はともかく、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-143-16-p4",
-          "text": "品質は",
+          "id": "so-created-n2-143-21-p2",
+          "text": "窓から海が",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-143-16-p1",
-          "text": "とて",
+          "id": "so-created-n2-143-21-p3",
+          "text": "一望できる",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-143-16-p2",
-          "text": "もいい",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-143-16-p3",
-        "so-extra20-n2-143-16-p4",
-        "so-extra20-n2-143-16-p1",
-        "so-extra20-n2-143-16-p2"
+        "so-created-n2-143-21-p1",
+        "so-created-n2-143-21-p2",
+        "so-created-n2-143-21-p3",
+        "so-created-n2-143-21-p4"
       ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '소음은 일단 제쳐두고, 창문으로 바다를 한눈에 볼 수 있다는 점은 이 숙소의 장점이다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
       "sourceGrammarIds": [
-        "n2-143"
+        "n2-143",
+        "n2-072",
+        "n2-073",
+        "n2-074"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-143-17",
+      "id": "so-created-n2-143-22",
       "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlanks": "値段 ____ ____ ____ ____",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
+      "sentence": "名称はともかく、この制度が高齢者の孤立を防いでいるのは確かだ。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 防いでいるのは確かだ。",
+      "korean": "명칭은 일단 제쳐두고, 이 제도가 고령자의 고립을 막고 있는 것은 분명하다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-143-17-p2",
-          "text": "とて",
+          "id": "so-created-n2-143-22-p3",
+          "text": "この制度が",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-143-17-p3",
-          "text": "もいい",
+          "id": "so-created-n2-143-22-p4",
+          "text": "高齢者の孤立を",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-143-17-p4",
-          "text": "はともかく",
+          "id": "so-created-n2-143-22-p1",
+          "text": "名称",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-143-17-p1",
-          "text": "品質は",
+          "id": "so-created-n2-143-22-p2",
+          "text": "はともかく、",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-143-17-p4",
-        "so-extra20-n2-143-17-p1",
-        "so-extra20-n2-143-17-p2",
-        "so-extra20-n2-143-17-p3"
+        "so-created-n2-143-22-p1",
+        "so-created-n2-143-22-p2",
+        "so-created-n2-143-22-p3",
+        "so-created-n2-143-22-p4"
       ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '명칭은 일단 제쳐두고, 이 제도가 고령자의 고립을 막고 있는 것은 분명하다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
       "sourceGrammarIds": [
-        "n2-143"
+        "n2-143",
+        "n2-072",
+        "n2-073",
+        "n2-074"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-143-18",
+      "id": "so-created-n2-143-23",
       "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、品質はとてもいい。",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
+      "sentence": "料理の種類はともかく、深夜でも温かい食事が取れるのはありがたい。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 取れるのはありがたい。",
+      "korean": "요리의 종류는 일단 제쳐두고, 심야에도 따뜻한 식사를 할 수 있다는 것은 고맙다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-143-18-p1",
-          "text": "段",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-143-18-p2",
-          "text": "はともかく",
+          "id": "so-created-n2-143-23-p2",
+          "text": "はともかく、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-143-18-p3",
-          "text": "品質は",
+          "id": "so-created-n2-143-23-p3",
+          "text": "深夜でも",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-143-18-p4",
-          "text": "とて",
+          "id": "so-created-n2-143-23-p4",
+          "text": "温かい食事が",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-143-23-p1",
+          "text": "料理の種類",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-143-18-p1",
-        "so-extra20-n2-143-18-p2",
-        "so-extra20-n2-143-18-p3",
-        "so-extra20-n2-143-18-p4"
+        "so-created-n2-143-23-p1",
+        "so-created-n2-143-23-p2",
+        "so-created-n2-143-23-p3",
+        "so-created-n2-143-23-p4"
       ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '요리의 종류는 일단 제쳐두고, 심야에도 따뜻한 식사를 할 수 있다는 것은 고맙다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
       "sourceGrammarIds": [
-        "n2-143"
+        "n2-143",
+        "n2-072",
+        "n2-073",
+        "n2-074"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-143-19",
+      "id": "so-created-n2-143-24",
       "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlanks": "値段 ____ ____ ____ ____",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
+      "sentence": "犯人の動機はともかく、警察はまず周辺住民の安全を確保すべきだ。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 確保すべきだ。",
+      "korean": "범인의 동기는 일단 제쳐두고, 경찰은 우선 인근 주민의 안전을 확보해야 한다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-143-19-p4",
-          "text": "とて",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-143-19-p1",
-          "text": "もいい",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-143-19-p2",
-          "text": "はともかく",
+          "id": "so-created-n2-143-24-p1",
+          "text": "犯人の動機",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-143-19-p3",
-          "text": "品質は",
+          "id": "so-created-n2-143-24-p2",
+          "text": "はともかく、",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-143-24-p3",
+          "text": "警察はまず周辺",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-143-24-p4",
+          "text": "住民の安全を",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-143-19-p2",
-        "so-extra20-n2-143-19-p3",
-        "so-extra20-n2-143-19-p4",
-        "so-extra20-n2-143-19-p1"
+        "so-created-n2-143-24-p1",
+        "so-created-n2-143-24-p2",
+        "so-created-n2-143-24-p3",
+        "so-created-n2-143-24-p4"
       ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '범인의 동기는 일단 제쳐두고, 경찰은 우선 인근 주민의 안전을 확보해야 한다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
       "sourceGrammarIds": [
-        "n2-143"
+        "n2-143",
+        "n2-072",
+        "n2-073",
+        "n2-074"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-143-20",
+      "id": "so-created-n2-143-25",
       "level": "N2",
-      "sentence": "値段はともかく、品質はとてもいい。",
-      "sentenceWithBlanks": "値段 ____ ____ ____ ____",
-      "korean": "가격은 제쳐두고 품질은 매우 좋다.",
+      "sentence": "多少の傷はともかく、内部のデータが無事だったのは幸いだ。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "다소간의 흠집은 일단 제쳐두고, 내부 데이터가 무사했던 것은 다행이다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-143-20-p3",
-          "text": "はともかく",
+          "id": "so-created-n2-143-25-p4",
+          "text": "幸いだ。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-143-25-p1",
+          "text": "多少の傷はともかく、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-143-20-p4",
-          "text": "品質は",
+          "id": "so-created-n2-143-25-p2",
+          "text": "内部のデータが",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-143-20-p1",
-          "text": "とて",
+          "id": "so-created-n2-143-25-p3",
+          "text": "無事だったのは",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-143-20-p2",
-          "text": "もいい",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-143-20-p3",
-        "so-extra20-n2-143-20-p4",
-        "so-extra20-n2-143-20-p1",
-        "so-extra20-n2-143-20-p2"
+        "so-created-n2-143-25-p1",
+        "so-created-n2-143-25-p2",
+        "so-created-n2-143-25-p3",
+        "so-created-n2-143-25-p4"
       ],
-      "explanation": "「はともかく」는 ~은 우선 제쳐두고라는 뜻이다. 하나는 논외로 하고 중요한 것에 집중.",
+      "explanation": "「はともかく」는 '~은 우선 제쳐두고'라는 뜻을 나타낸다. 이 문장에서는 '다소간의 흠집은 일단 제쳐두고, 내부 데이터가 무사했던 것은 다행이다.'라는 상황에 쓰였으며, 하나는 논외로 하고 중요한 것에 집중. 주의할 점은 「値段はともかく」처럼 일단 논외로. はさておきより 조금 더 가벼운 어조.",
       "sourceGrammarIds": [
-        "n2-143"
+        "n2-143",
+        "n2-072",
+        "n2-073",
+        "n2-074"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     }
   ]

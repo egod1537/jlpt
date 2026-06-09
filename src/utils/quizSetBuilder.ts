@@ -7,19 +7,27 @@ export function buildGrammarQuestionPool(
   mode: QuizMode,
   grammarItems: readonly GrammarItem[],
 ): QuizQuestion[] {
-  const generatedQuestions = grammarItems.map((item) => generateQuizQuestion(mode, item, grammarItems));
-
   if (mode === "example") {
-    return [...getManualFillBlankQuestions(grammarItems), ...generatedQuestions];
+    const createdQuestions = getManualFillBlankQuestions(grammarItems).filter((question) =>
+      question.id.startsWith("fb-created-"),
+    );
+
+    if (createdQuestions.length > 0) {
+      return createdQuestions;
+    }
   }
 
   if (mode === "sentenceOrder") {
-    const manualQuestions = getManualSentenceOrderQuestions();
+    const createdQuestions = getManualSentenceOrderQuestions().filter((question) =>
+      question.id.startsWith("so-created-"),
+    );
 
-    return [...manualQuestions, ...generatedQuestions];
+    if (createdQuestions.length > 0) {
+      return createdQuestions;
+    }
   }
 
-  return generatedQuestions;
+  return grammarItems.map((item) => generateQuizQuestion(mode, item, grammarItems));
 }
 
 function shouldUseSequentialSets(questionPool: readonly QuizQuestion[]): boolean {
@@ -41,6 +49,28 @@ function shouldUseUniqueAnswerGrammarSets(questionPool: readonly QuizQuestion[])
 
 function getAnswerGrammarKey(question: QuizQuestion): string {
   return question.sourceGrammarId ?? `question:${question.id}`;
+}
+
+function groupQuestionsByAnswerGrammar(
+  questionPool: readonly QuizQuestion[],
+): QuizQuestion[][] {
+  const groupedQuestions = new Map<string, QuizQuestion[]>();
+
+  questionPool.forEach((question) => {
+    const answerGrammarKey = getAnswerGrammarKey(question);
+    const group = groupedQuestions.get(answerGrammarKey) ?? [];
+
+    group.push(question);
+    groupedQuestions.set(answerGrammarKey, group);
+  });
+
+  return [...groupedQuestions.values()];
+}
+
+export function getQuizQuestionCount(questionPool: readonly QuizQuestion[]): number {
+  return shouldUseUniqueAnswerGrammarSets(questionPool)
+    ? groupQuestionsByAnswerGrammar(questionPool).length
+    : questionPool.length;
 }
 
 export function hasUniqueAnswerGrammars(questions: readonly QuizQuestion[]): boolean {
@@ -116,17 +146,25 @@ export function buildQuizSet(
   questionPool: readonly QuizQuestion[],
   setSize: number,
   currentSetIndex = 0,
-  orderingSetSize = setSize,
 ): QuizQuestion[] {
+  if (shouldUseUniqueAnswerGrammarSets(questionPool)) {
+    const questionGroups = groupQuestionsByAnswerGrammar(questionPool);
+    const totalSets = Math.max(1, Math.ceil(questionGroups.length / setSize));
+    const normalizedSetIndex = currentSetIndex % totalSets;
+    const startIndex = normalizedSetIndex * setSize;
+
+    return questionGroups
+      .slice(startIndex, startIndex + setSize)
+      .map((group) => group[Math.floor(Math.random() * group.length)])
+      .filter((question): question is QuizQuestion => question !== undefined);
+  }
+
   if (shouldUseSequentialSets(questionPool)) {
     const totalSets = Math.max(1, Math.ceil(questionPool.length / setSize));
     const normalizedSetIndex = currentSetIndex % totalSets;
     const startIndex = normalizedSetIndex * setSize;
-    const orderedQuestionPool = shouldUseUniqueAnswerGrammarSets(questionPool)
-      ? arrangeQuestionsIntoUniqueAnswerSets(questionPool, orderingSetSize)
-      : questionPool;
 
-    return orderedQuestionPool.slice(startIndex, startIndex + setSize);
+    return questionPool.slice(startIndex, startIndex + setSize);
   }
 
   return shuffle(questionPool).slice(0, setSize);

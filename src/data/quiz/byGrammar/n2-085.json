@@ -267,15 +267,23 @@
       ]
     },
     {
-      "id": "fb-extra-n2-085-1",
+      "id": "fb-created-n2-085-01",
       "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlank": "この夏の暑さ（　　　）ひどかった。",
-      "korean": "이번 여름 더위는 정말 심했다.",
-      "answerChoiceId": "fb-extra-n2-085-1-a",
+      "sentence": "山頂から見た雲海の美しさといったら息をするのも忘れるほどだった。",
+      "sentenceWithBlank": "山頂から見た雲海の美しさ（　　　）息をするのも忘れるほどだった。",
+      "korean": "산 정상에서 본 운해의 아름다움은 숨 쉬는 것도 잊을 정도였다.",
+      "answerChoiceId": "fb-created-n2-085-01-a",
       "choices": [
         {
-          "id": "fb-extra-n2-085-1-c",
+          "id": "fb-created-n2-085-01-b",
+          "text": "ない限り",
+          "grammarId": "n2-096",
+          "baseExpression": "ない限り",
+          "conjugatedExpression": "ない限り",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-01-c",
           "text": "ないことには",
           "grammarId": "n2-097",
           "baseExpression": "ないことには",
@@ -283,7 +291,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-085-1-d",
+          "id": "fb-created-n2-085-01-d",
           "text": "ないことはない",
           "grammarId": "n2-098",
           "baseExpression": "ないことはない",
@@ -291,23 +299,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-085-1-a",
+          "id": "fb-created-n2-085-01-a",
           "text": "といったら",
           "grammarId": "n2-085",
           "baseExpression": "といったら",
           "conjugatedExpression": "といったら",
           "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-085-1-b",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
-          "isSimilarDistractor": true
         }
       ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '산 정상에서 본 운해의 아름다움은 숨 쉬는 것도 잊을 정도였다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
       "sourceGrammarIds": [
         "n2-085",
         "n2-096",
@@ -315,183 +315,20 @@
         "n2-098"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra-n2-085-2",
+      "id": "fb-created-n2-085-02",
       "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlank": "この夏の暑さ（　　　）ひどかった。",
-      "korean": "이번 여름 더위는 정말 심했다.",
-      "answerChoiceId": "fb-extra-n2-085-2-d",
+      "sentence": "停電した夜の病院の混乱といったら廊下を歩くのも難しいほどだった。",
+      "sentenceWithBlank": "停電した夜の病院の混乱（　　　）廊下を歩くのも難しいほどだった。",
+      "korean": "정전된 밤 병원의 혼란은 복도를 걷기도 어려울 정도였다.",
+      "answerChoiceId": "fb-created-n2-085-02-a",
       "choices": [
         {
-          "id": "fb-extra-n2-085-2-d",
-          "text": "といったら",
-          "grammarId": "n2-085",
-          "baseExpression": "といったら",
-          "conjugatedExpression": "といったら",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-085-2-a",
-          "text": "はさておき",
-          "grammarId": "n2-141",
-          "baseExpression": "はさておき",
-          "conjugatedExpression": "はさておき",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-085-2-b",
-          "text": "はというと",
-          "grammarId": "n2-142",
-          "baseExpression": "はというと",
-          "conjugatedExpression": "はというと",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-085-2-c",
-          "text": "はともかく",
-          "grammarId": "n2-143",
-          "baseExpression": "はともかく",
-          "conjugatedExpression": "はともかく",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
-      "sourceGrammarIds": [
-        "n2-085",
-        "n2-141",
-        "n2-142",
-        "n2-143"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-085-3",
-      "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlank": "この夏の暑さ（　　　）ひどかった。",
-      "korean": "이번 여름 더위는 정말 심했다.",
-      "answerChoiceId": "fb-extra-n2-085-3-c",
-      "choices": [
-        {
-          "id": "fb-extra-n2-085-3-a",
-          "text": "ともなると",
-          "grammarId": "n2-095",
-          "baseExpression": "ともなると",
-          "conjugatedExpression": "ともなると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-085-3-b",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-085-3-c",
-          "text": "といったら",
-          "grammarId": "n2-085",
-          "baseExpression": "といったら",
-          "conjugatedExpression": "といったら",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-085-3-d",
-          "text": "とは限らない",
-          "grammarId": "n2-094",
-          "baseExpression": "とは限らない",
-          "conjugatedExpression": "とは限らない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
-      "sourceGrammarIds": [
-        "n2-085",
-        "n2-094",
-        "n2-095",
-        "n2-096"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-085-4",
-      "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlank": "この夏の暑さ（　　　）ひどかった。",
-      "korean": "이번 여름 더위는 정말 심했다.",
-      "answerChoiceId": "fb-extra-n2-085-4-b",
-      "choices": [
-        {
-          "id": "fb-extra-n2-085-4-b",
-          "text": "といったら",
-          "grammarId": "n2-085",
-          "baseExpression": "といったら",
-          "conjugatedExpression": "といったら",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-085-4-c",
-          "text": "ばかりだ",
-          "grammarId": "n2-139",
-          "baseExpression": "ばかりだ",
-          "conjugatedExpression": "ばかりだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-085-4-d",
-          "text": "ばかりに",
-          "grammarId": "n2-140",
-          "baseExpression": "ばかりに",
-          "conjugatedExpression": "ばかりに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-085-4-a",
-          "text": "はさておき",
-          "grammarId": "n2-141",
-          "baseExpression": "はさておき",
-          "conjugatedExpression": "はさておき",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
-      "sourceGrammarIds": [
-        "n2-085",
-        "n2-139",
-        "n2-140",
-        "n2-141"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-085-5",
-      "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlank": "この夏の暑さ（　　　）ひどかった。",
-      "korean": "이번 여름 더위는 정말 심했다.",
-      "answerChoiceId": "fb-extra-n2-085-5-a",
-      "choices": [
-        {
-          "id": "fb-extra-n2-085-5-c",
+          "id": "fb-created-n2-085-02-c",
           "text": "ないことには",
           "grammarId": "n2-097",
           "baseExpression": "ないことには",
@@ -499,7 +336,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-085-5-d",
+          "id": "fb-created-n2-085-02-d",
           "text": "ないことはない",
           "grammarId": "n2-098",
           "baseExpression": "ないことはない",
@@ -507,7 +344,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-085-5-a",
+          "id": "fb-created-n2-085-02-a",
           "text": "といったら",
           "grammarId": "n2-085",
           "baseExpression": "といったら",
@@ -515,7 +352,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra-n2-085-5-b",
+          "id": "fb-created-n2-085-02-b",
           "text": "ない限り",
           "grammarId": "n2-096",
           "baseExpression": "ない限り",
@@ -523,7 +360,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '정전된 밤 병원의 혼란은 복도를 걷기도 어려울 정도였다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
       "sourceGrammarIds": [
         "n2-085",
         "n2-096",
@@ -531,29 +368,20 @@
         "n2-098"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-085-01",
+      "id": "fb-created-n2-085-03",
       "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlank": "この夏の暑さ（　　　）ひどかった。",
-      "korean": "이번 여름 더위는 정말 심했다.",
-      "answerChoiceId": "fb-extra20-n2-085-01-a",
+      "sentence": "十年ぶりに娘と再会した父の喜びといったら涙で言葉が出ないほどだった。",
+      "sentenceWithBlank": "十年ぶりに娘と再会した父の喜び（　　　）涙で言葉が出ないほどだった。",
+      "korean": "10년 만에 딸과 재회한 아버지의 기쁨은 눈물 때문에 말이 나오지 않을 정도였다.",
+      "answerChoiceId": "fb-created-n2-085-03-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-085-01-c",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-085-01-d",
+          "id": "fb-created-n2-085-03-d",
           "text": "ないことはない",
           "grammarId": "n2-098",
           "baseExpression": "ないことはない",
@@ -561,7 +389,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-085-01-a",
+          "id": "fb-created-n2-085-03-a",
           "text": "といったら",
           "grammarId": "n2-085",
           "baseExpression": "といったら",
@@ -569,99 +397,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-085-01-b",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
-      "sourceGrammarIds": [
-        "n2-085",
-        "n2-096",
-        "n2-097",
-        "n2-098"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-085-02",
-      "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlank": "この夏の暑さ（　　　）ひどかった。",
-      "korean": "이번 여름 더위는 정말 심했다.",
-      "answerChoiceId": "fb-extra20-n2-085-02-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-085-02-b",
-          "text": "はというと",
-          "grammarId": "n2-142",
-          "baseExpression": "はというと",
-          "conjugatedExpression": "はというと",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-085-02-c",
-          "text": "はともかく",
-          "grammarId": "n2-143",
-          "baseExpression": "はともかく",
-          "conjugatedExpression": "はともかく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-085-02-d",
-          "text": "といったら",
-          "grammarId": "n2-085",
-          "baseExpression": "といったら",
-          "conjugatedExpression": "といったら",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-085-02-a",
-          "text": "はさておき",
-          "grammarId": "n2-141",
-          "baseExpression": "はさておき",
-          "conjugatedExpression": "はさておき",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
-      "sourceGrammarIds": [
-        "n2-085",
-        "n2-141",
-        "n2-142",
-        "n2-143"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-085-03",
-      "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlank": "この夏の暑さ（　　　）ひどかった。",
-      "korean": "이번 여름 더위는 정말 심했다.",
-      "answerChoiceId": "fb-extra20-n2-085-03-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-085-03-a",
-          "text": "ともなると",
-          "grammarId": "n2-095",
-          "baseExpression": "ともなると",
-          "conjugatedExpression": "ともなると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-085-03-b",
+          "id": "fb-created-n2-085-03-b",
           "text": "ない限り",
           "grammarId": "n2-096",
           "baseExpression": "ない限り",
@@ -669,717 +405,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-085-03-c",
-          "text": "といったら",
-          "grammarId": "n2-085",
-          "baseExpression": "といったら",
-          "conjugatedExpression": "といったら",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-085-03-d",
-          "text": "とは限らない",
-          "grammarId": "n2-094",
-          "baseExpression": "とは限らない",
-          "conjugatedExpression": "とは限らない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
-      "sourceGrammarIds": [
-        "n2-085",
-        "n2-094",
-        "n2-095",
-        "n2-096"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-085-04",
-      "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlank": "この夏の暑さ（　　　）ひどかった。",
-      "korean": "이번 여름 더위는 정말 심했다.",
-      "answerChoiceId": "fb-extra20-n2-085-04-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-085-04-d",
-          "text": "ばかりに",
-          "grammarId": "n2-140",
-          "baseExpression": "ばかりに",
-          "conjugatedExpression": "ばかりに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-085-04-a",
-          "text": "はさておき",
-          "grammarId": "n2-141",
-          "baseExpression": "はさておき",
-          "conjugatedExpression": "はさておき",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-085-04-b",
-          "text": "といったら",
-          "grammarId": "n2-085",
-          "baseExpression": "といったら",
-          "conjugatedExpression": "といったら",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-085-04-c",
-          "text": "ばかりだ",
-          "grammarId": "n2-139",
-          "baseExpression": "ばかりだ",
-          "conjugatedExpression": "ばかりだ",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
-      "sourceGrammarIds": [
-        "n2-085",
-        "n2-139",
-        "n2-140",
-        "n2-141"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-085-05",
-      "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlank": "この夏の暑さ（　　　）ひどかった。",
-      "korean": "이번 여름 더위는 정말 심했다.",
-      "answerChoiceId": "fb-extra20-n2-085-05-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-085-05-c",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-085-05-d",
-          "text": "ないことはない",
-          "grammarId": "n2-098",
-          "baseExpression": "ないことはない",
-          "conjugatedExpression": "ないことはない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-085-05-a",
-          "text": "といったら",
-          "grammarId": "n2-085",
-          "baseExpression": "といったら",
-          "conjugatedExpression": "といったら",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-085-05-b",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
-      "sourceGrammarIds": [
-        "n2-085",
-        "n2-096",
-        "n2-097",
-        "n2-098"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-085-06",
-      "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlank": "この夏の暑さ（　　　）ひどかった。",
-      "korean": "이번 여름 더위는 정말 심했다.",
-      "answerChoiceId": "fb-extra20-n2-085-06-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-085-06-b",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-085-06-c",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-085-06-d",
-          "text": "ないことはない",
-          "grammarId": "n2-098",
-          "baseExpression": "ないことはない",
-          "conjugatedExpression": "ないことはない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-085-06-a",
-          "text": "といったら",
-          "grammarId": "n2-085",
-          "baseExpression": "といったら",
-          "conjugatedExpression": "といったら",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
-      "sourceGrammarIds": [
-        "n2-085",
-        "n2-096",
-        "n2-097",
-        "n2-098"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-085-07",
-      "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlank": "この夏の暑さ（　　　）ひどかった。",
-      "korean": "이번 여름 더위는 정말 심했다.",
-      "answerChoiceId": "fb-extra20-n2-085-07-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-085-07-a",
-          "text": "はさておき",
-          "grammarId": "n2-141",
-          "baseExpression": "はさておき",
-          "conjugatedExpression": "はさておき",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-085-07-b",
-          "text": "はというと",
-          "grammarId": "n2-142",
-          "baseExpression": "はというと",
-          "conjugatedExpression": "はというと",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-085-07-c",
-          "text": "はともかく",
-          "grammarId": "n2-143",
-          "baseExpression": "はともかく",
-          "conjugatedExpression": "はともかく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-085-07-d",
-          "text": "といったら",
-          "grammarId": "n2-085",
-          "baseExpression": "といったら",
-          "conjugatedExpression": "といったら",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
-      "sourceGrammarIds": [
-        "n2-085",
-        "n2-141",
-        "n2-142",
-        "n2-143"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-085-08",
-      "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlank": "この夏の暑さ（　　　）ひどかった。",
-      "korean": "이번 여름 더위는 정말 심했다.",
-      "answerChoiceId": "fb-extra20-n2-085-08-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-085-08-d",
-          "text": "とは限らない",
-          "grammarId": "n2-094",
-          "baseExpression": "とは限らない",
-          "conjugatedExpression": "とは限らない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-085-08-a",
-          "text": "ともなると",
-          "grammarId": "n2-095",
-          "baseExpression": "ともなると",
-          "conjugatedExpression": "ともなると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-085-08-b",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-085-08-c",
-          "text": "といったら",
-          "grammarId": "n2-085",
-          "baseExpression": "といったら",
-          "conjugatedExpression": "といったら",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
-      "sourceGrammarIds": [
-        "n2-085",
-        "n2-094",
-        "n2-095",
-        "n2-096"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-085-09",
-      "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlank": "この夏の暑さ（　　　）ひどかった。",
-      "korean": "이번 여름 더위는 정말 심했다.",
-      "answerChoiceId": "fb-extra20-n2-085-09-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-085-09-c",
-          "text": "ばかりだ",
-          "grammarId": "n2-139",
-          "baseExpression": "ばかりだ",
-          "conjugatedExpression": "ばかりだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-085-09-d",
-          "text": "ばかりに",
-          "grammarId": "n2-140",
-          "baseExpression": "ばかりに",
-          "conjugatedExpression": "ばかりに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-085-09-a",
-          "text": "はさておき",
-          "grammarId": "n2-141",
-          "baseExpression": "はさておき",
-          "conjugatedExpression": "はさておき",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-085-09-b",
-          "text": "といったら",
-          "grammarId": "n2-085",
-          "baseExpression": "といったら",
-          "conjugatedExpression": "といったら",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
-      "sourceGrammarIds": [
-        "n2-085",
-        "n2-139",
-        "n2-140",
-        "n2-141"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-085-10",
-      "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlank": "この夏の暑さ（　　　）ひどかった。",
-      "korean": "이번 여름 더위는 정말 심했다.",
-      "answerChoiceId": "fb-extra20-n2-085-10-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-085-10-b",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-085-10-c",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-085-10-d",
-          "text": "ないことはない",
-          "grammarId": "n2-098",
-          "baseExpression": "ないことはない",
-          "conjugatedExpression": "ないことはない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-085-10-a",
-          "text": "といったら",
-          "grammarId": "n2-085",
-          "baseExpression": "といったら",
-          "conjugatedExpression": "といったら",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
-      "sourceGrammarIds": [
-        "n2-085",
-        "n2-096",
-        "n2-097",
-        "n2-098"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-085-11",
-      "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlank": "この夏の暑さ（　　　）ひどかった。",
-      "korean": "이번 여름 더위는 정말 심했다.",
-      "answerChoiceId": "fb-extra20-n2-085-11-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-085-11-a",
-          "text": "といったら",
-          "grammarId": "n2-085",
-          "baseExpression": "といったら",
-          "conjugatedExpression": "といったら",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-085-11-b",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-085-11-c",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-085-11-d",
-          "text": "ないことはない",
-          "grammarId": "n2-098",
-          "baseExpression": "ないことはない",
-          "conjugatedExpression": "ないことはない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
-      "sourceGrammarIds": [
-        "n2-085",
-        "n2-096",
-        "n2-097",
-        "n2-098"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-085-12",
-      "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlank": "この夏の暑さ（　　　）ひどかった。",
-      "korean": "이번 여름 더위는 정말 심했다.",
-      "answerChoiceId": "fb-extra20-n2-085-12-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-085-12-d",
-          "text": "といったら",
-          "grammarId": "n2-085",
-          "baseExpression": "といったら",
-          "conjugatedExpression": "といったら",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-085-12-a",
-          "text": "はさておき",
-          "grammarId": "n2-141",
-          "baseExpression": "はさておき",
-          "conjugatedExpression": "はさておき",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-085-12-b",
-          "text": "はというと",
-          "grammarId": "n2-142",
-          "baseExpression": "はというと",
-          "conjugatedExpression": "はというと",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-085-12-c",
-          "text": "はともかく",
-          "grammarId": "n2-143",
-          "baseExpression": "はともかく",
-          "conjugatedExpression": "はともかく",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
-      "sourceGrammarIds": [
-        "n2-085",
-        "n2-141",
-        "n2-142",
-        "n2-143"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-085-13",
-      "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlank": "この夏の暑さ（　　　）ひどかった。",
-      "korean": "이번 여름 더위는 정말 심했다.",
-      "answerChoiceId": "fb-extra20-n2-085-13-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-085-13-c",
-          "text": "といったら",
-          "grammarId": "n2-085",
-          "baseExpression": "といったら",
-          "conjugatedExpression": "といったら",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-085-13-d",
-          "text": "とは限らない",
-          "grammarId": "n2-094",
-          "baseExpression": "とは限らない",
-          "conjugatedExpression": "とは限らない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-085-13-a",
-          "text": "ともなると",
-          "grammarId": "n2-095",
-          "baseExpression": "ともなると",
-          "conjugatedExpression": "ともなると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-085-13-b",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
-      "sourceGrammarIds": [
-        "n2-085",
-        "n2-094",
-        "n2-095",
-        "n2-096"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-085-14",
-      "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlank": "この夏の暑さ（　　　）ひどかった。",
-      "korean": "이번 여름 더위는 정말 심했다.",
-      "answerChoiceId": "fb-extra20-n2-085-14-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-085-14-b",
-          "text": "といったら",
-          "grammarId": "n2-085",
-          "baseExpression": "といったら",
-          "conjugatedExpression": "といったら",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-085-14-c",
-          "text": "ばかりだ",
-          "grammarId": "n2-139",
-          "baseExpression": "ばかりだ",
-          "conjugatedExpression": "ばかりだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-085-14-d",
-          "text": "ばかりに",
-          "grammarId": "n2-140",
-          "baseExpression": "ばかりに",
-          "conjugatedExpression": "ばかりに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-085-14-a",
-          "text": "はさておき",
-          "grammarId": "n2-141",
-          "baseExpression": "はさておき",
-          "conjugatedExpression": "はさておき",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
-      "sourceGrammarIds": [
-        "n2-085",
-        "n2-139",
-        "n2-140",
-        "n2-141"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-085-15",
-      "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlank": "この夏の暑さ（　　　）ひどかった。",
-      "korean": "이번 여름 더위는 정말 심했다.",
-      "answerChoiceId": "fb-extra20-n2-085-15-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-085-15-a",
-          "text": "といったら",
-          "grammarId": "n2-085",
-          "baseExpression": "といったら",
-          "conjugatedExpression": "といったら",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-085-15-b",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-085-15-c",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-085-15-d",
-          "text": "ないことはない",
-          "grammarId": "n2-098",
-          "baseExpression": "ないことはない",
-          "conjugatedExpression": "ないことはない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
-      "sourceGrammarIds": [
-        "n2-085",
-        "n2-096",
-        "n2-097",
-        "n2-098"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-085-16",
-      "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlank": "この夏の暑さ（　　　）ひどかった。",
-      "korean": "이번 여름 더위는 정말 심했다.",
-      "answerChoiceId": "fb-extra20-n2-085-16-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-085-16-d",
-          "text": "ないことはない",
-          "grammarId": "n2-098",
-          "baseExpression": "ないことはない",
-          "conjugatedExpression": "ないことはない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-085-16-a",
-          "text": "といったら",
-          "grammarId": "n2-085",
-          "baseExpression": "といったら",
-          "conjugatedExpression": "といったら",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-085-16-b",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-085-16-c",
+          "id": "fb-created-n2-085-03-c",
           "text": "ないことには",
           "grammarId": "n2-097",
           "baseExpression": "ないことには",
@@ -1387,7 +413,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '10년 만에 딸과 재회한 아버지의 기쁨은 눈물 때문에 말이 나오지 않을 정도였다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
       "sourceGrammarIds": [
         "n2-085",
         "n2-096",
@@ -1395,29 +421,20 @@
         "n2-098"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-085-17",
+      "id": "fb-created-n2-085-04",
       "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlank": "この夏の暑さ（　　　）ひどかった。",
-      "korean": "이번 여름 더위는 정말 심했다.",
-      "answerChoiceId": "fb-extra20-n2-085-17-d",
+      "sentence": "早朝の魚市場の活気といったら眠気が一瞬で吹き飛ぶほどだった。",
+      "sentenceWithBlank": "早朝の魚市場の活気（　　　）眠気が一瞬で吹き飛ぶほどだった。",
+      "korean": "이른 아침 수산시장의 활기는 졸음이 단번에 달아날 정도였다.",
+      "answerChoiceId": "fb-created-n2-085-04-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-085-17-c",
-          "text": "はともかく",
-          "grammarId": "n2-143",
-          "baseExpression": "はともかく",
-          "conjugatedExpression": "はともかく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-085-17-d",
+          "id": "fb-created-n2-085-04-a",
           "text": "といったら",
           "grammarId": "n2-085",
           "baseExpression": "といったら",
@@ -1425,45 +442,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-085-17-a",
-          "text": "はさておき",
-          "grammarId": "n2-141",
-          "baseExpression": "はさておき",
-          "conjugatedExpression": "はさておき",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-085-17-b",
-          "text": "はというと",
-          "grammarId": "n2-142",
-          "baseExpression": "はというと",
-          "conjugatedExpression": "はというと",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
-      "sourceGrammarIds": [
-        "n2-085",
-        "n2-141",
-        "n2-142",
-        "n2-143"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-085-18",
-      "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlank": "この夏の暑さ（　　　）ひどかった。",
-      "korean": "이번 여름 더위는 정말 심했다.",
-      "answerChoiceId": "fb-extra20-n2-085-18-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-085-18-b",
+          "id": "fb-created-n2-085-04-b",
           "text": "ない限り",
           "grammarId": "n2-096",
           "baseExpression": "ない限り",
@@ -1471,107 +450,60 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-085-18-c",
-          "text": "といったら",
-          "grammarId": "n2-085",
-          "baseExpression": "といったら",
-          "conjugatedExpression": "といったら",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-085-18-d",
-          "text": "とは限らない",
-          "grammarId": "n2-094",
-          "baseExpression": "とは限らない",
-          "conjugatedExpression": "とは限らない",
+          "id": "fb-created-n2-085-04-c",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-085-18-a",
-          "text": "ともなると",
-          "grammarId": "n2-095",
-          "baseExpression": "ともなると",
-          "conjugatedExpression": "ともなると",
+          "id": "fb-created-n2-085-04-d",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '이른 아침 수산시장의 활기는 졸음이 단번에 달아날 정도였다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
       "sourceGrammarIds": [
         "n2-085",
-        "n2-094",
-        "n2-095",
-        "n2-096"
+        "n2-096",
+        "n2-097",
+        "n2-098"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-085-19",
+      "id": "fb-created-n2-085-05",
       "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlank": "この夏の暑さ（　　　）ひどかった。",
-      "korean": "이번 여름 더위는 정말 심했다.",
-      "answerChoiceId": "fb-extra20-n2-085-19-b",
+      "sentence": "手術を待つ間の不安といったら時計を見るたびに胸が苦しくなった。",
+      "sentenceWithBlank": "手術を待つ間の不安（　　　）時計を見るたびに胸が苦しくなった。",
+      "korean": "수술을 기다리는 동안의 불안은 시계를 볼 때마다 가슴이 답답해질 정도였다.",
+      "answerChoiceId": "fb-created-n2-085-05-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-085-19-a",
-          "text": "はさておき",
-          "grammarId": "n2-141",
-          "baseExpression": "はさておき",
-          "conjugatedExpression": "はさておき",
+          "id": "fb-created-n2-085-05-b",
+          "text": "ない限り",
+          "grammarId": "n2-096",
+          "baseExpression": "ない限り",
+          "conjugatedExpression": "ない限り",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-085-19-b",
-          "text": "といったら",
-          "grammarId": "n2-085",
-          "baseExpression": "といったら",
-          "conjugatedExpression": "といったら",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-085-19-c",
-          "text": "ばかりだ",
-          "grammarId": "n2-139",
-          "baseExpression": "ばかりだ",
-          "conjugatedExpression": "ばかりだ",
+          "id": "fb-created-n2-085-05-c",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-085-19-d",
-          "text": "ばかりに",
-          "grammarId": "n2-140",
-          "baseExpression": "ばかりに",
-          "conjugatedExpression": "ばかりに",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
-      "sourceGrammarIds": [
-        "n2-085",
-        "n2-139",
-        "n2-140",
-        "n2-141"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-085-20",
-      "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlank": "この夏の暑さ（　　　）ひどかった。",
-      "korean": "이번 여름 더위는 정말 심했다.",
-      "answerChoiceId": "fb-extra20-n2-085-20-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-085-20-d",
+          "id": "fb-created-n2-085-05-d",
           "text": "ないことはない",
           "grammarId": "n2-098",
           "baseExpression": "ないことはない",
@@ -1579,31 +511,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-085-20-a",
+          "id": "fb-created-n2-085-05-a",
           "text": "といったら",
           "grammarId": "n2-085",
           "baseExpression": "といったら",
           "conjugatedExpression": "といったら",
           "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-085-20-b",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-085-20-c",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
-          "isSimilarDistractor": true
         }
       ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '수술을 기다리는 동안의 불안은 시계를 볼 때마다 가슴이 답답해질 정도였다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
       "sourceGrammarIds": [
         "n2-085",
         "n2-096",
@@ -1611,9 +527,1068 @@
         "n2-098"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-085-06",
+      "level": "N2",
+      "sentence": "老舗旅館で出された朝食の豪華さといったら食卓に皿が載りきらないほどだった。",
+      "sentenceWithBlank": "老舗旅館で出された朝食の豪華さ（　　　）食卓に皿が載りきらないほどだった。",
+      "korean": "유서 깊은 료칸에서 나온 아침 식사의 호화로움은 식탁에 접시가 다 올라가지 않을 정도였다.",
+      "answerChoiceId": "fb-created-n2-085-06-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-085-06-c",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-06-d",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-06-a",
+          "text": "といったら",
+          "grammarId": "n2-085",
+          "baseExpression": "といったら",
+          "conjugatedExpression": "といったら",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-085-06-b",
+          "text": "ない限り",
+          "grammarId": "n2-096",
+          "baseExpression": "ない限り",
+          "conjugatedExpression": "ない限り",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '유서 깊은 료칸에서 나온 아침 식사의 호화로움은 식탁에 접시가 다 올라가지 않을 정도였다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
+      "sourceGrammarIds": [
+        "n2-085",
+        "n2-096",
+        "n2-097",
+        "n2-098"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-085-07",
+      "level": "N2",
+      "sentence": "締め切り前日の編集部の忙しさといったら昼食を取る暇さえなかった。",
+      "sentenceWithBlank": "締め切り前日の編集部の忙しさ（　　　）昼食を取る暇さえなかった。",
+      "korean": "마감 전날 편집부의 분주함은 점심을 먹을 틈조차 없을 정도였다.",
+      "answerChoiceId": "fb-created-n2-085-07-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-085-07-d",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-07-a",
+          "text": "といったら",
+          "grammarId": "n2-085",
+          "baseExpression": "といったら",
+          "conjugatedExpression": "といったら",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-085-07-b",
+          "text": "ない限り",
+          "grammarId": "n2-096",
+          "baseExpression": "ない限り",
+          "conjugatedExpression": "ない限り",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-07-c",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '마감 전날 편집부의 분주함은 점심을 먹을 틈조차 없을 정도였다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
+      "sourceGrammarIds": [
+        "n2-085",
+        "n2-096",
+        "n2-097",
+        "n2-098"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-085-08",
+      "level": "N2",
+      "sentence": "祖母が作る梅干しの酸っぱさといったら一粒で顔中にしわが寄るほどだ。",
+      "sentenceWithBlank": "祖母が作る梅干しの酸っぱさ（　　　）一粒で顔中にしわが寄るほどだ。",
+      "korean": "할머니가 만드시는 우메보시의 신맛은 한 알만 먹어도 온 얼굴을 찡그릴 정도다.",
+      "answerChoiceId": "fb-created-n2-085-08-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-085-08-a",
+          "text": "といったら",
+          "grammarId": "n2-085",
+          "baseExpression": "といったら",
+          "conjugatedExpression": "といったら",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-085-08-b",
+          "text": "ない限り",
+          "grammarId": "n2-096",
+          "baseExpression": "ない限り",
+          "conjugatedExpression": "ない限り",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-08-c",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-08-d",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '할머니가 만드시는 우메보시의 신맛은 한 알만 먹어도 온 얼굴을 찡그릴 정도다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
+      "sourceGrammarIds": [
+        "n2-085",
+        "n2-096",
+        "n2-097",
+        "n2-098"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-085-09",
+      "level": "N2",
+      "sentence": "深夜に隣室から響く物音の不気味さといったら布団から出られなくなるほどだった。",
+      "sentenceWithBlank": "深夜に隣室から響く物音の不気味さ（　　　）布団から出られなくなるほどだった。",
+      "korean": "한밤중 옆방에서 울리는 소리의 섬뜩함은 이불 밖으로 나갈 수 없을 정도였다.",
+      "answerChoiceId": "fb-created-n2-085-09-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-085-09-b",
+          "text": "ない限り",
+          "grammarId": "n2-096",
+          "baseExpression": "ない限り",
+          "conjugatedExpression": "ない限り",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-09-c",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-09-d",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-09-a",
+          "text": "といったら",
+          "grammarId": "n2-085",
+          "baseExpression": "といったら",
+          "conjugatedExpression": "といったら",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '한밤중 옆방에서 울리는 소리의 섬뜩함은 이불 밖으로 나갈 수 없을 정도였다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
+      "sourceGrammarIds": [
+        "n2-085",
+        "n2-096",
+        "n2-097",
+        "n2-098"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-085-10",
+      "level": "N2",
+      "sentence": "台風が去った後の海岸の荒れようといったら巨大な流木が道路まで押し寄せていた。",
+      "sentenceWithBlank": "台風が去った後の海岸の荒れよう（　　　）巨大な流木が道路まで押し寄せていた。",
+      "korean": "태풍이 지나간 뒤 해안의 황폐한 모습은 거대한 유목이 도로까지 밀려와 있을 정도였다.",
+      "answerChoiceId": "fb-created-n2-085-10-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-085-10-c",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-10-d",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-10-a",
+          "text": "といったら",
+          "grammarId": "n2-085",
+          "baseExpression": "といったら",
+          "conjugatedExpression": "といったら",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-085-10-b",
+          "text": "ない限り",
+          "grammarId": "n2-096",
+          "baseExpression": "ない限り",
+          "conjugatedExpression": "ない限り",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '태풍이 지나간 뒤 해안의 황폐한 모습은 거대한 유목이 도로까지 밀려와 있을 정도였다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
+      "sourceGrammarIds": [
+        "n2-085",
+        "n2-096",
+        "n2-097",
+        "n2-098"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-085-11",
+      "level": "N2",
+      "sentence": "初舞台を終えた俳優の安堵といったら楽屋に戻るなり床に座り込むほどだった。",
+      "sentenceWithBlank": "初舞台を終えた俳優の安堵（　　　）楽屋に戻るなり床に座り込むほどだった。",
+      "korean": "첫 무대를 마친 배우의 안도감은 분장실로 돌아오자마자 바닥에 주저앉을 정도였다.",
+      "answerChoiceId": "fb-created-n2-085-11-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-085-11-d",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-11-a",
+          "text": "といったら",
+          "grammarId": "n2-085",
+          "baseExpression": "といったら",
+          "conjugatedExpression": "といったら",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-085-11-b",
+          "text": "ない限り",
+          "grammarId": "n2-096",
+          "baseExpression": "ない限り",
+          "conjugatedExpression": "ない限り",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-11-c",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '첫 무대를 마친 배우의 안도감은 분장실로 돌아오자마자 바닥에 주저앉을 정도였다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
+      "sourceGrammarIds": [
+        "n2-085",
+        "n2-096",
+        "n2-097",
+        "n2-098"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-085-12",
+      "level": "N2",
+      "sentence": "祭りの日の商店街の人出といったら向かいの店さえ見えないほどだった。",
+      "sentenceWithBlank": "祭りの日の商店街の人出（　　　）向かいの店さえ見えないほどだった。",
+      "korean": "축제 날 상점가의 인파는 맞은편 가게조차 보이지 않을 정도였다.",
+      "answerChoiceId": "fb-created-n2-085-12-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-085-12-a",
+          "text": "といったら",
+          "grammarId": "n2-085",
+          "baseExpression": "といったら",
+          "conjugatedExpression": "といったら",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-085-12-b",
+          "text": "ない限り",
+          "grammarId": "n2-096",
+          "baseExpression": "ない限り",
+          "conjugatedExpression": "ない限り",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-12-c",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-12-d",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '축제 날 상점가의 인파는 맞은편 가게조차 보이지 않을 정도였다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
+      "sourceGrammarIds": [
+        "n2-085",
+        "n2-096",
+        "n2-097",
+        "n2-098"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-085-13",
+      "level": "N2",
+      "sentence": "雪国の古民家で迎えた朝の静けさといったら自分の鼓動まで聞こえそうだった。",
+      "sentenceWithBlank": "雪国の古民家で迎えた朝の静けさ（　　　）自分の鼓動まで聞こえそうだった。",
+      "korean": "설국의 오래된 민가에서 맞은 아침의 고요함은 자신의 심장 소리까지 들릴 듯했다.",
+      "answerChoiceId": "fb-created-n2-085-13-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-085-13-b",
+          "text": "ない限り",
+          "grammarId": "n2-096",
+          "baseExpression": "ない限り",
+          "conjugatedExpression": "ない限り",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-13-c",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-13-d",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-13-a",
+          "text": "といったら",
+          "grammarId": "n2-085",
+          "baseExpression": "といったら",
+          "conjugatedExpression": "といったら",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '설국의 오래된 민가에서 맞은 아침의 고요함은 자신의 심장 소리까지 들릴 듯했다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
+      "sourceGrammarIds": [
+        "n2-085",
+        "n2-096",
+        "n2-097",
+        "n2-098"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-085-14",
+      "level": "N2",
+      "sentence": "空港で預けた荷物が消えた時の焦りといったら係員の説明も耳に入らなかった。",
+      "sentenceWithBlank": "空港で預けた荷物が消えた時の焦り（　　　）係員の説明も耳に入らなかった。",
+      "korean": "공항에서 맡긴 짐이 사라졌을 때의 초조함은 직원의 설명도 귀에 들어오지 않을 정도였다.",
+      "answerChoiceId": "fb-created-n2-085-14-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-085-14-c",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-14-d",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-14-a",
+          "text": "といったら",
+          "grammarId": "n2-085",
+          "baseExpression": "といったら",
+          "conjugatedExpression": "といったら",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-085-14-b",
+          "text": "ない限り",
+          "grammarId": "n2-096",
+          "baseExpression": "ない限り",
+          "conjugatedExpression": "ない限り",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '공항에서 맡긴 짐이 사라졌을 때의 초조함은 직원의 설명도 귀에 들어오지 않을 정도였다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
+      "sourceGrammarIds": [
+        "n2-085",
+        "n2-096",
+        "n2-097",
+        "n2-098"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-085-15",
+      "level": "N2",
+      "sentence": "炭鉱跡の地下通路の寒さといったら防寒着を着ていても歯が震えた。",
+      "sentenceWithBlank": "炭鉱跡の地下通路の寒さ（　　　）防寒着を着ていても歯が震えた。",
+      "korean": "폐광의 지하 통로 추위는 방한복을 입고 있어도 이가 떨릴 정도였다.",
+      "answerChoiceId": "fb-created-n2-085-15-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-085-15-d",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-15-a",
+          "text": "といったら",
+          "grammarId": "n2-085",
+          "baseExpression": "といったら",
+          "conjugatedExpression": "といったら",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-085-15-b",
+          "text": "ない限り",
+          "grammarId": "n2-096",
+          "baseExpression": "ない限り",
+          "conjugatedExpression": "ない限り",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-15-c",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '폐광의 지하 통로 추위는 방한복을 입고 있어도 이가 떨릴 정도였다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
+      "sourceGrammarIds": [
+        "n2-085",
+        "n2-096",
+        "n2-097",
+        "n2-098"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-085-16",
+      "level": "N2",
+      "sentence": "弟が拾ってきた子犬の愛らしさといったら家族全員が世話をしたがるほどだ。",
+      "sentenceWithBlank": "弟が拾ってきた子犬の愛らしさ（　　　）家族全員が世話をしたがるほどだ。",
+      "korean": "남동생이 데려온 강아지의 사랑스러움은 온 가족이 돌보고 싶어 할 정도다.",
+      "answerChoiceId": "fb-created-n2-085-16-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-085-16-a",
+          "text": "といったら",
+          "grammarId": "n2-085",
+          "baseExpression": "といったら",
+          "conjugatedExpression": "といったら",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-085-16-b",
+          "text": "ない限り",
+          "grammarId": "n2-096",
+          "baseExpression": "ない限り",
+          "conjugatedExpression": "ない限り",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-16-c",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-16-d",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '남동생이 데려온 강아지의 사랑스러움은 온 가족이 돌보고 싶어 할 정도다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
+      "sourceGrammarIds": [
+        "n2-085",
+        "n2-096",
+        "n2-097",
+        "n2-098"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-085-17",
+      "level": "N2",
+      "sentence": "新任の料理長の包丁さばきといったら固いカボチャまで紙のように薄く切ってしまう。",
+      "sentenceWithBlank": "新任の料理長の包丁さばき（　　　）固いカボチャまで紙のように薄く切ってしまう。",
+      "korean": "새로 부임한 주방장의 칼솜씨는 단단한 호박까지 종이처럼 얇게 썰어 버릴 정도다.",
+      "answerChoiceId": "fb-created-n2-085-17-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-085-17-b",
+          "text": "ない限り",
+          "grammarId": "n2-096",
+          "baseExpression": "ない限り",
+          "conjugatedExpression": "ない限り",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-17-c",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-17-d",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-17-a",
+          "text": "といったら",
+          "grammarId": "n2-085",
+          "baseExpression": "といったら",
+          "conjugatedExpression": "といったら",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '새로 부임한 주방장의 칼솜씨는 단단한 호박까지 종이처럼 얇게 썰어 버릴 정도다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
+      "sourceGrammarIds": [
+        "n2-085",
+        "n2-096",
+        "n2-097",
+        "n2-098"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-085-18",
+      "level": "N2",
+      "sentence": "引っ越し業者の手際の良さといったら家具一式が午前中に片づいてしまった。",
+      "sentenceWithBlank": "引っ越し業者の手際の良さ（　　　）家具一式が午前中に片づいてしまった。",
+      "korean": "이삿짐 업체의 능숙한 일 처리는 가구 일체가 오전 중에 다 정리될 정도였다.",
+      "answerChoiceId": "fb-created-n2-085-18-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-085-18-c",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-18-d",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-18-a",
+          "text": "といったら",
+          "grammarId": "n2-085",
+          "baseExpression": "といったら",
+          "conjugatedExpression": "といったら",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-085-18-b",
+          "text": "ない限り",
+          "grammarId": "n2-096",
+          "baseExpression": "ない限り",
+          "conjugatedExpression": "ない限り",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '이삿짐 업체의 능숙한 일 처리는 가구 일체가 오전 중에 다 정리될 정도였다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
+      "sourceGrammarIds": [
+        "n2-085",
+        "n2-096",
+        "n2-097",
+        "n2-098"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-085-19",
+      "level": "N2",
+      "sentence": "決勝戦で逆転された観客の落胆といったら終了後もしばらく席を立てないほどだった。",
+      "sentenceWithBlank": "決勝戦で逆転された観客の落胆（　　　）終了後もしばらく席を立てないほどだった。",
+      "korean": "결승전에서 역전당한 관중의 낙담은 경기가 끝난 뒤에도 한동안 자리에서 일어나지 못할 정도였다.",
+      "answerChoiceId": "fb-created-n2-085-19-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-085-19-d",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-19-a",
+          "text": "といったら",
+          "grammarId": "n2-085",
+          "baseExpression": "といったら",
+          "conjugatedExpression": "といったら",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-085-19-b",
+          "text": "ない限り",
+          "grammarId": "n2-096",
+          "baseExpression": "ない限り",
+          "conjugatedExpression": "ない限り",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-19-c",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '결승전에서 역전당한 관중의 낙담은 경기가 끝난 뒤에도 한동안 자리에서 일어나지 못할 정도였다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
+      "sourceGrammarIds": [
+        "n2-085",
+        "n2-096",
+        "n2-097",
+        "n2-098"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-085-20",
+      "level": "N2",
+      "sentence": "温泉街の坂道の急さといったら自転車を押して上るだけで息が切れた。",
+      "sentenceWithBlank": "温泉街の坂道の急さ（　　　）自転車を押して上るだけで息が切れた。",
+      "korean": "온천 마을 비탈길의 가파름은 자전거를 끌고 올라가기만 해도 숨이 찰 정도였다.",
+      "answerChoiceId": "fb-created-n2-085-20-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-085-20-a",
+          "text": "といったら",
+          "grammarId": "n2-085",
+          "baseExpression": "といったら",
+          "conjugatedExpression": "といったら",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-085-20-b",
+          "text": "ない限り",
+          "grammarId": "n2-096",
+          "baseExpression": "ない限り",
+          "conjugatedExpression": "ない限り",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-20-c",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-20-d",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '온천 마을 비탈길의 가파름은 자전거를 끌고 올라가기만 해도 숨이 찰 정도였다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
+      "sourceGrammarIds": [
+        "n2-085",
+        "n2-096",
+        "n2-097",
+        "n2-098"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-085-21",
+      "level": "N2",
+      "sentence": "海外赴任から戻った彼の変わりようといったら親しい同僚でさえ本人だと気づかなかった。",
+      "sentenceWithBlank": "海外赴任から戻った彼の変わりよう（　　　）親しい同僚でさえ本人だと気づかなかった。",
+      "korean": "해외 근무에서 돌아온 그의 변한 모습은 친한 동료조차 본인인 줄 알아보지 못할 정도였다.",
+      "answerChoiceId": "fb-created-n2-085-21-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-085-21-b",
+          "text": "ない限り",
+          "grammarId": "n2-096",
+          "baseExpression": "ない限り",
+          "conjugatedExpression": "ない限り",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-21-c",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-21-d",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-21-a",
+          "text": "といったら",
+          "grammarId": "n2-085",
+          "baseExpression": "といったら",
+          "conjugatedExpression": "といったら",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '해외 근무에서 돌아온 그의 변한 모습은 친한 동료조차 본인인 줄 알아보지 못할 정도였다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
+      "sourceGrammarIds": [
+        "n2-085",
+        "n2-096",
+        "n2-097",
+        "n2-098"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-085-22",
+      "level": "N2",
+      "sentence": "朝採れの桃の香りといったら箱を開ける前から部屋いっぱいに広がっていた。",
+      "sentenceWithBlank": "朝採れの桃の香り（　　　）箱を開ける前から部屋いっぱいに広がっていた。",
+      "korean": "아침에 갓 딴 복숭아의 향기는 상자를 열기 전부터 방 안 가득 퍼져 있을 정도였다.",
+      "answerChoiceId": "fb-created-n2-085-22-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-085-22-c",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-22-d",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-22-a",
+          "text": "といったら",
+          "grammarId": "n2-085",
+          "baseExpression": "といったら",
+          "conjugatedExpression": "といったら",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-085-22-b",
+          "text": "ない限り",
+          "grammarId": "n2-096",
+          "baseExpression": "ない限り",
+          "conjugatedExpression": "ない限り",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '아침에 갓 딴 복숭아의 향기는 상자를 열기 전부터 방 안 가득 퍼져 있을 정도였다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
+      "sourceGrammarIds": [
+        "n2-085",
+        "n2-096",
+        "n2-097",
+        "n2-098"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-085-23",
+      "level": "N2",
+      "sentence": "長年連れ添った夫を亡くした彼女の寂しさといったら庭の手入れもやめてしまうほどだった。",
+      "sentenceWithBlank": "長年連れ添った夫を亡くした彼女の寂しさ（　　　）庭の手入れもやめてしまうほどだった。",
+      "korean": "오랫동안 함께 산 남편을 잃은 그녀의 외로움은 정원 손질마저 그만둘 정도였다.",
+      "answerChoiceId": "fb-created-n2-085-23-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-085-23-d",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-23-a",
+          "text": "といったら",
+          "grammarId": "n2-085",
+          "baseExpression": "といったら",
+          "conjugatedExpression": "といったら",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-085-23-b",
+          "text": "ない限り",
+          "grammarId": "n2-096",
+          "baseExpression": "ない限り",
+          "conjugatedExpression": "ない限り",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-23-c",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '오랫동안 함께 산 남편을 잃은 그녀의 외로움은 정원 손질마저 그만둘 정도였다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
+      "sourceGrammarIds": [
+        "n2-085",
+        "n2-096",
+        "n2-097",
+        "n2-098"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-085-24",
+      "level": "N2",
+      "sentence": "工事現場を指揮する監督の声の大きさといったら離れた交差点まで届きそうだった。",
+      "sentenceWithBlank": "工事現場を指揮する監督の声の大きさ（　　　）離れた交差点まで届きそうだった。",
+      "korean": "공사 현장을 지휘하는 감독의 목소리 크기는 멀리 떨어진 교차로까지 들릴 듯했다.",
+      "answerChoiceId": "fb-created-n2-085-24-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-085-24-a",
+          "text": "といったら",
+          "grammarId": "n2-085",
+          "baseExpression": "といったら",
+          "conjugatedExpression": "といったら",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-085-24-b",
+          "text": "ない限り",
+          "grammarId": "n2-096",
+          "baseExpression": "ない限り",
+          "conjugatedExpression": "ない限り",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-24-c",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-24-d",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '공사 현장을 지휘하는 감독의 목소리 크기는 멀리 떨어진 교차로까지 들릴 듯했다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
+      "sourceGrammarIds": [
+        "n2-085",
+        "n2-096",
+        "n2-097",
+        "n2-098"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-085-25",
+      "level": "N2",
+      "sentence": "長距離列車で隣り合わせた二人の話の弾みようといったら終着駅でも別れを惜しむほどだった。",
+      "sentenceWithBlank": "長距離列車で隣り合わせた二人の話の弾みよう（　　　）終着駅でも別れを惜しむほどだった。",
+      "korean": "장거리 열차에서 나란히 앉은 두 사람의 대화가 무르익은 정도는 종착역에서도 헤어짐을 아쉬워할 만큼 대단했다.",
+      "answerChoiceId": "fb-created-n2-085-25-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-085-25-b",
+          "text": "ない限り",
+          "grammarId": "n2-096",
+          "baseExpression": "ない限り",
+          "conjugatedExpression": "ない限り",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-25-c",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-25-d",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-085-25-a",
+          "text": "といったら",
+          "grammarId": "n2-085",
+          "baseExpression": "といったら",
+          "conjugatedExpression": "といったら",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '장거리 열차에서 나란히 앉은 두 사람의 대화가 무르익은 정도는 종착역에서도 헤어짐을 아쉬워할 만큼 대단했다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
+      "sourceGrammarIds": [
+        "n2-085",
+        "n2-096",
+        "n2-097",
+        "n2-098"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
       ]
     }
   ],
@@ -1834,1103 +1809,1153 @@
       ]
     },
     {
-      "id": "so-extra-n2-085-1",
+      "id": "so-created-n2-085-01",
       "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlanks": "この夏の暑さ ____ ____ ____ ____",
-      "korean": "이번 여름 더위는 정말 심했다.",
+      "sentence": "山頂から見た雲海の美しさといったら息をするのも忘れるほどだった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 忘れるほどだった。",
+      "korean": "산 정상에서 본 운해의 아름다움은 숨 쉬는 것도 잊을 정도였다.",
       "pieces": [
         {
-          "id": "so-extra-n2-085-1-p4",
-          "text": "といったら",
-          "order": 1
-        },
-        {
-          "id": "so-extra-n2-085-1-p1",
-          "text": "ひど",
+          "id": "so-created-n2-085-01-p2",
+          "text": "雲海の美しさ",
           "order": 2
         },
         {
-          "id": "so-extra-n2-085-1-p2",
-          "text": "かっ",
+          "id": "so-created-n2-085-01-p3",
+          "text": "といったら",
           "order": 3
         },
         {
-          "id": "so-extra-n2-085-1-p3",
-          "text": "た",
+          "id": "so-created-n2-085-01-p4",
+          "text": "息をするのも",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-085-01-p1",
+          "text": "山頂から見た",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-085-1-p4",
-        "so-extra-n2-085-1-p1",
-        "so-extra-n2-085-1-p2",
-        "so-extra-n2-085-1-p3"
+        "so-created-n2-085-01-p1",
+        "so-created-n2-085-01-p2",
+        "so-created-n2-085-01-p3",
+        "so-created-n2-085-01-p4"
       ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '산 정상에서 본 운해의 아름다움은 숨 쉬는 것도 잊을 정도였다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
       "sourceGrammarIds": [
-        "n2-085"
+        "n2-085",
+        "n2-096",
+        "n2-097",
+        "n2-098"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-085-2",
+      "id": "so-created-n2-085-02",
       "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlanks": "この夏の暑さ ____ ____ ____ ____",
-      "korean": "이번 여름 더위는 정말 심했다.",
+      "sentence": "停電した夜の病院の混乱といったら廊下を歩くのも難しいほどだった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 難しいほどだった。",
+      "korean": "정전된 밤 병원의 혼란은 복도를 걷기도 어려울 정도였다.",
       "pieces": [
         {
-          "id": "so-extra-n2-085-2-p1",
-          "text": "かっ",
-          "order": 3
-        },
-        {
-          "id": "so-extra-n2-085-2-p2",
-          "text": "た",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-085-2-p3",
-          "text": "といったら",
+          "id": "so-created-n2-085-02-p1",
+          "text": "停電した夜の",
           "order": 1
         },
         {
-          "id": "so-extra-n2-085-2-p4",
-          "text": "ひど",
+          "id": "so-created-n2-085-02-p2",
+          "text": "病院の混乱",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-085-02-p3",
+          "text": "といったら",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-085-02-p4",
+          "text": "廊下を歩くのも",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-085-2-p3",
-        "so-extra-n2-085-2-p4",
-        "so-extra-n2-085-2-p1",
-        "so-extra-n2-085-2-p2"
+        "so-created-n2-085-02-p1",
+        "so-created-n2-085-02-p2",
+        "so-created-n2-085-02-p3",
+        "so-created-n2-085-02-p4"
       ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '정전된 밤 병원의 혼란은 복도를 걷기도 어려울 정도였다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
       "sourceGrammarIds": [
-        "n2-085"
+        "n2-085",
+        "n2-096",
+        "n2-097",
+        "n2-098"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-085-3",
+      "id": "so-created-n2-085-03",
       "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ ひどかった。",
-      "korean": "이번 여름 더위는 정말 심했다.",
+      "sentence": "十年ぶりに娘と再会した父の喜びといったら涙で言葉が出ないほどだった。",
+      "sentenceWithBlanks": "十年ぶりに ____ ____ ____ ____ 出ないほどだった。",
+      "korean": "10년 만에 딸과 재회한 아버지의 기쁨은 눈물 때문에 말이 나오지 않을 정도였다.",
       "pieces": [
         {
-          "id": "so-extra-n2-085-3-p2",
-          "text": "暑さ",
+          "id": "so-created-n2-085-03-p4",
+          "text": "涙で言葉が",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-085-03-p1",
+          "text": "娘と再会した",
           "order": 1
         },
         {
-          "id": "so-extra-n2-085-3-p3",
-          "text": "といったら",
+          "id": "so-created-n2-085-03-p2",
+          "text": "父の喜び",
           "order": 2
         },
         {
-          "id": "so-extra-n2-085-3-p4",
-          "text": "ひど",
+          "id": "so-created-n2-085-03-p3",
+          "text": "といったら",
           "order": 3
-        },
-        {
-          "id": "so-extra-n2-085-3-p1",
-          "text": "かっ",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-085-3-p2",
-        "so-extra-n2-085-3-p3",
-        "so-extra-n2-085-3-p4",
-        "so-extra-n2-085-3-p1"
+        "so-created-n2-085-03-p1",
+        "so-created-n2-085-03-p2",
+        "so-created-n2-085-03-p3",
+        "so-created-n2-085-03-p4"
       ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '10년 만에 딸과 재회한 아버지의 기쁨은 눈물 때문에 말이 나오지 않을 정도였다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
       "sourceGrammarIds": [
-        "n2-085"
+        "n2-085",
+        "n2-096",
+        "n2-097",
+        "n2-098"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-085-4",
+      "id": "so-created-n2-085-04",
       "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlanks": "この夏の暑さ ____ ____ ____ ____",
-      "korean": "이번 여름 더위는 정말 심했다.",
+      "sentence": "早朝の魚市場の活気といったら眠気が一瞬で吹き飛ぶほどだった。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "이른 아침 수산시장의 활기는 졸음이 단번에 달아날 정도였다.",
       "pieces": [
         {
-          "id": "so-extra-n2-085-4-p3",
-          "text": "かっ",
+          "id": "so-created-n2-085-04-p3",
+          "text": "眠気が一瞬で",
           "order": 3
         },
         {
-          "id": "so-extra-n2-085-4-p4",
-          "text": "た",
+          "id": "so-created-n2-085-04-p4",
+          "text": "吹き飛ぶほどだった。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-085-4-p1",
-          "text": "といったら",
+          "id": "so-created-n2-085-04-p1",
+          "text": "早朝の魚市場の",
           "order": 1
         },
         {
-          "id": "so-extra-n2-085-4-p2",
-          "text": "ひど",
+          "id": "so-created-n2-085-04-p2",
+          "text": "活気といったら",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-085-4-p1",
-        "so-extra-n2-085-4-p2",
-        "so-extra-n2-085-4-p3",
-        "so-extra-n2-085-4-p4"
+        "so-created-n2-085-04-p1",
+        "so-created-n2-085-04-p2",
+        "so-created-n2-085-04-p3",
+        "so-created-n2-085-04-p4"
       ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '이른 아침 수산시장의 활기는 졸음이 단번에 달아날 정도였다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
       "sourceGrammarIds": [
-        "n2-085"
+        "n2-085",
+        "n2-096",
+        "n2-097",
+        "n2-098"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-085-5",
+      "id": "so-created-n2-085-05",
       "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlanks": "この夏の暑さ ____ ____ ____ ____",
-      "korean": "이번 여름 더위는 정말 심했다.",
+      "sentence": "手術を待つ間の不安といったら時計を見るたびに胸が苦しくなった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 胸が苦しくなった。",
+      "korean": "수술을 기다리는 동안의 불안은 시계를 볼 때마다 가슴이 답답해질 정도였다.",
       "pieces": [
         {
-          "id": "so-extra-n2-085-5-p4",
-          "text": "といったら",
-          "order": 1
-        },
-        {
-          "id": "so-extra-n2-085-5-p1",
-          "text": "ひど",
+          "id": "so-created-n2-085-05-p2",
+          "text": "不安といったら",
           "order": 2
         },
         {
-          "id": "so-extra-n2-085-5-p2",
-          "text": "かっ",
+          "id": "so-created-n2-085-05-p3",
+          "text": "時計を",
           "order": 3
         },
         {
-          "id": "so-extra-n2-085-5-p3",
-          "text": "た",
+          "id": "so-created-n2-085-05-p4",
+          "text": "見るたびに",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-085-05-p1",
+          "text": "手術を待つ間の",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-085-5-p4",
-        "so-extra-n2-085-5-p1",
-        "so-extra-n2-085-5-p2",
-        "so-extra-n2-085-5-p3"
+        "so-created-n2-085-05-p1",
+        "so-created-n2-085-05-p2",
+        "so-created-n2-085-05-p3",
+        "so-created-n2-085-05-p4"
       ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '수술을 기다리는 동안의 불안은 시계를 볼 때마다 가슴이 답답해질 정도였다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
       "sourceGrammarIds": [
-        "n2-085"
+        "n2-085",
+        "n2-096",
+        "n2-097",
+        "n2-098"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-085-01",
+      "id": "so-created-n2-085-06",
       "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlanks": "この夏の暑さ ____ ____ ____ ____",
-      "korean": "이번 여름 더위는 정말 심했다.",
+      "sentence": "老舗旅館で出された朝食の豪華さといったら食卓に皿が載りきらないほどだった。",
+      "sentenceWithBlanks": "老舗 ____ ____ ____ ____ 載りきらないほどだった。",
+      "korean": "유서 깊은 료칸에서 나온 아침 식사의 호화로움은 식탁에 접시가 다 올라가지 않을 정도였다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-085-01-p4",
-          "text": "といったら",
+          "id": "so-created-n2-085-06-p1",
+          "text": "旅館で出された",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-085-01-p1",
-          "text": "ひど",
+          "id": "so-created-n2-085-06-p2",
+          "text": "朝食の豪華さ",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-085-01-p2",
-          "text": "かっ",
+          "id": "so-created-n2-085-06-p3",
+          "text": "といったら",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-085-01-p3",
-          "text": "た",
+          "id": "so-created-n2-085-06-p4",
+          "text": "食卓に皿が",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-085-01-p4",
-        "so-extra20-n2-085-01-p1",
-        "so-extra20-n2-085-01-p2",
-        "so-extra20-n2-085-01-p3"
+        "so-created-n2-085-06-p1",
+        "so-created-n2-085-06-p2",
+        "so-created-n2-085-06-p3",
+        "so-created-n2-085-06-p4"
       ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '유서 깊은 료칸에서 나온 아침 식사의 호화로움은 식탁에 접시가 다 올라가지 않을 정도였다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
       "sourceGrammarIds": [
-        "n2-085"
+        "n2-085",
+        "n2-096",
+        "n2-097",
+        "n2-098"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-085-02",
+      "id": "so-created-n2-085-07",
       "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlanks": "この夏の暑さ ____ ____ ____ ____",
-      "korean": "이번 여름 더위는 정말 심했다.",
+      "sentence": "締め切り前日の編集部の忙しさといったら昼食を取る暇さえなかった。",
+      "sentenceWithBlanks": "締め切り ____ ____ ____ ____ 暇さえなかった。",
+      "korean": "마감 전날 편집부의 분주함은 점심을 먹을 틈조차 없을 정도였다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-085-02-p3",
-          "text": "といったら",
+          "id": "so-created-n2-085-07-p4",
+          "text": "昼食を取る",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-085-07-p1",
+          "text": "前日の編集",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-085-02-p4",
-          "text": "ひど",
+          "id": "so-created-n2-085-07-p2",
+          "text": "部の忙しさ",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-085-02-p1",
-          "text": "かっ",
+          "id": "so-created-n2-085-07-p3",
+          "text": "といったら",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-085-02-p2",
-          "text": "た",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-085-02-p3",
-        "so-extra20-n2-085-02-p4",
-        "so-extra20-n2-085-02-p1",
-        "so-extra20-n2-085-02-p2"
+        "so-created-n2-085-07-p1",
+        "so-created-n2-085-07-p2",
+        "so-created-n2-085-07-p3",
+        "so-created-n2-085-07-p4"
       ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '마감 전날 편집부의 분주함은 점심을 먹을 틈조차 없을 정도였다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
       "sourceGrammarIds": [
-        "n2-085"
+        "n2-085",
+        "n2-096",
+        "n2-097",
+        "n2-098"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-085-03",
+      "id": "so-created-n2-085-08",
       "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ ひどかった。",
-      "korean": "이번 여름 더위는 정말 심했다.",
+      "sentence": "祖母が作る梅干しの酸っぱさといったら一粒で顔中にしわが寄るほどだ。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 中にしわが寄るほどだ。",
+      "korean": "할머니가 만드시는 우메보시의 신맛은 한 알만 먹어도 온 얼굴을 찡그릴 정도다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-085-03-p2",
-          "text": "暑さ",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-085-03-p3",
+          "id": "so-created-n2-085-08-p3",
           "text": "といったら",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-085-03-p4",
-          "text": "ひど",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-085-03-p1",
-          "text": "かっ",
+          "id": "so-created-n2-085-08-p4",
+          "text": "一粒で顔",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-085-08-p1",
+          "text": "祖母が作る",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-085-08-p2",
+          "text": "梅干しの酸っぱさ",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-085-03-p2",
-        "so-extra20-n2-085-03-p3",
-        "so-extra20-n2-085-03-p4",
-        "so-extra20-n2-085-03-p1"
+        "so-created-n2-085-08-p1",
+        "so-created-n2-085-08-p2",
+        "so-created-n2-085-08-p3",
+        "so-created-n2-085-08-p4"
       ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '할머니가 만드시는 우메보시의 신맛은 한 알만 먹어도 온 얼굴을 찡그릴 정도다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
       "sourceGrammarIds": [
-        "n2-085"
+        "n2-085",
+        "n2-096",
+        "n2-097",
+        "n2-098"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-085-04",
+      "id": "so-created-n2-085-09",
       "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlanks": "この夏の暑さ ____ ____ ____ ____",
-      "korean": "이번 여름 더위는 정말 심했다.",
+      "sentence": "深夜に隣室から響く物音の不気味さといったら布団から出られなくなるほどだった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 出られなくなるほどだった。",
+      "korean": "한밤중 옆방에서 울리는 소리의 섬뜩함은 이불 밖으로 나갈 수 없을 정도였다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-085-04-p1",
-          "text": "といったら",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-085-04-p2",
-          "text": "ひど",
+          "id": "so-created-n2-085-09-p2",
+          "text": "響く物音の",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-085-04-p3",
-          "text": "かっ",
+          "id": "so-created-n2-085-09-p3",
+          "text": "不気味さ",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-085-04-p4",
-          "text": "た",
+          "id": "so-created-n2-085-09-p4",
+          "text": "といったら布団から",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-085-09-p1",
+          "text": "深夜に隣室から",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-085-04-p1",
-        "so-extra20-n2-085-04-p2",
-        "so-extra20-n2-085-04-p3",
-        "so-extra20-n2-085-04-p4"
+        "so-created-n2-085-09-p1",
+        "so-created-n2-085-09-p2",
+        "so-created-n2-085-09-p3",
+        "so-created-n2-085-09-p4"
       ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '한밤중 옆방에서 울리는 소리의 섬뜩함은 이불 밖으로 나갈 수 없을 정도였다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
       "sourceGrammarIds": [
-        "n2-085"
+        "n2-085",
+        "n2-096",
+        "n2-097",
+        "n2-098"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-085-05",
+      "id": "so-created-n2-085-10",
       "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlanks": "この夏の暑さ ____ ____ ____ ____",
-      "korean": "이번 여름 더위는 정말 심했다.",
+      "sentence": "台風が去った後の海岸の荒れようといったら巨大な流木が道路まで押し寄せていた。",
+      "sentenceWithBlanks": "台風が ____ ____ ____ ____ 道路まで押し寄せていた。",
+      "korean": "태풍이 지나간 뒤 해안의 황폐한 모습은 거대한 유목이 도로까지 밀려와 있을 정도였다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-085-05-p4",
-          "text": "といったら",
+          "id": "so-created-n2-085-10-p1",
+          "text": "去った後の",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-085-05-p1",
-          "text": "ひど",
+          "id": "so-created-n2-085-10-p2",
+          "text": "海岸の荒れよう",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-085-05-p2",
-          "text": "かっ",
+          "id": "so-created-n2-085-10-p3",
+          "text": "といったら",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-085-05-p3",
-          "text": "た",
+          "id": "so-created-n2-085-10-p4",
+          "text": "巨大な流木が",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-085-05-p4",
-        "so-extra20-n2-085-05-p1",
-        "so-extra20-n2-085-05-p2",
-        "so-extra20-n2-085-05-p3"
+        "so-created-n2-085-10-p1",
+        "so-created-n2-085-10-p2",
+        "so-created-n2-085-10-p3",
+        "so-created-n2-085-10-p4"
       ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '태풍이 지나간 뒤 해안의 황폐한 모습은 거대한 유목이 도로까지 밀려와 있을 정도였다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
       "sourceGrammarIds": [
-        "n2-085"
+        "n2-085",
+        "n2-096",
+        "n2-097",
+        "n2-098"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-085-06",
+      "id": "so-created-n2-085-11",
       "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlanks": "この夏の暑さ ____ ____ ____ ____",
-      "korean": "이번 여름 더위는 정말 심했다.",
+      "sentence": "初舞台を終えた俳優の安堵といったら楽屋に戻るなり床に座り込むほどだった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 床に座り込むほどだった。",
+      "korean": "첫 무대를 마친 배우의 안도감은 분장실로 돌아오자마자 바닥에 주저앉을 정도였다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-085-06-p3",
-          "text": "た",
+          "id": "so-created-n2-085-11-p4",
+          "text": "楽屋に戻るなり",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-085-06-p4",
-          "text": "といったら",
+          "id": "so-created-n2-085-11-p1",
+          "text": "初舞台を終えた",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-085-06-p1",
-          "text": "ひど",
+          "id": "so-created-n2-085-11-p2",
+          "text": "俳優の安堵",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-085-06-p2",
-          "text": "かっ",
+          "id": "so-created-n2-085-11-p3",
+          "text": "といったら",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-085-06-p4",
-        "so-extra20-n2-085-06-p1",
-        "so-extra20-n2-085-06-p2",
-        "so-extra20-n2-085-06-p3"
+        "so-created-n2-085-11-p1",
+        "so-created-n2-085-11-p2",
+        "so-created-n2-085-11-p3",
+        "so-created-n2-085-11-p4"
       ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '첫 무대를 마친 배우의 안도감은 분장실로 돌아오자마자 바닥에 주저앉을 정도였다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
       "sourceGrammarIds": [
-        "n2-085"
+        "n2-085",
+        "n2-096",
+        "n2-097",
+        "n2-098"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-085-07",
+      "id": "so-created-n2-085-12",
       "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlanks": "この夏の暑さ ____ ____ ____ ____",
-      "korean": "이번 여름 더위는 정말 심했다.",
+      "sentence": "祭りの日の商店街の人出といったら向かいの店さえ見えないほどだった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 店さえ見えないほどだった。",
+      "korean": "축제 날 상점가의 인파는 맞은편 가게조차 보이지 않을 정도였다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-085-07-p2",
-          "text": "た",
+          "id": "so-created-n2-085-12-p3",
+          "text": "出といったら",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-085-12-p4",
+          "text": "向かいの",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-085-07-p3",
-          "text": "といったら",
+          "id": "so-created-n2-085-12-p1",
+          "text": "祭りの日の",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-085-07-p4",
-          "text": "ひど",
+          "id": "so-created-n2-085-12-p2",
+          "text": "商店街の人",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-085-07-p1",
-          "text": "かっ",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-085-07-p3",
-        "so-extra20-n2-085-07-p4",
-        "so-extra20-n2-085-07-p1",
-        "so-extra20-n2-085-07-p2"
+        "so-created-n2-085-12-p1",
+        "so-created-n2-085-12-p2",
+        "so-created-n2-085-12-p3",
+        "so-created-n2-085-12-p4"
       ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '축제 날 상점가의 인파는 맞은편 가게조차 보이지 않을 정도였다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
       "sourceGrammarIds": [
-        "n2-085"
+        "n2-085",
+        "n2-096",
+        "n2-097",
+        "n2-098"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-085-08",
+      "id": "so-created-n2-085-13",
       "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ ひどかった。",
-      "korean": "이번 여름 더위는 정말 심했다.",
+      "sentence": "雪国の古民家で迎えた朝の静けさといったら自分の鼓動まで聞こえそうだった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 自分の鼓動まで聞こえそうだった。",
+      "korean": "설국의 오래된 민가에서 맞은 아침의 고요함은 자신의 심장 소리까지 들릴 듯했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-085-08-p1",
-          "text": "かっ",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-085-08-p2",
-          "text": "暑さ",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-085-08-p3",
-          "text": "といったら",
+          "id": "so-created-n2-085-13-p2",
+          "text": "民家で迎えた",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-085-08-p4",
-          "text": "ひど",
+          "id": "so-created-n2-085-13-p3",
+          "text": "朝の静けさ",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-085-13-p4",
+          "text": "といったら",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-085-13-p1",
+          "text": "雪国の古",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-085-08-p2",
-        "so-extra20-n2-085-08-p3",
-        "so-extra20-n2-085-08-p4",
-        "so-extra20-n2-085-08-p1"
+        "so-created-n2-085-13-p1",
+        "so-created-n2-085-13-p2",
+        "so-created-n2-085-13-p3",
+        "so-created-n2-085-13-p4"
       ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '설국의 오래된 민가에서 맞은 아침의 고요함은 자신의 심장 소리까지 들릴 듯했다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
       "sourceGrammarIds": [
-        "n2-085"
+        "n2-085",
+        "n2-096",
+        "n2-097",
+        "n2-098"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-085-09",
+      "id": "so-created-n2-085-14",
       "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlanks": "この夏の暑さ ____ ____ ____ ____",
-      "korean": "이번 여름 더위는 정말 심했다.",
+      "sentence": "空港で預けた荷物が消えた時の焦りといったら係員の説明も耳に入らなかった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 係員の説明も耳に入らなかった。",
+      "korean": "공항에서 맡긴 짐이 사라졌을 때의 초조함은 직원의 설명도 귀에 들어오지 않을 정도였다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-085-09-p4",
-          "text": "た",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-085-09-p1",
-          "text": "といったら",
+          "id": "so-created-n2-085-14-p1",
+          "text": "空港で預けた",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-085-09-p2",
-          "text": "ひど",
+          "id": "so-created-n2-085-14-p2",
+          "text": "荷物が消えた",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-085-09-p3",
-          "text": "かっ",
+          "id": "so-created-n2-085-14-p3",
+          "text": "時の焦り",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-085-14-p4",
+          "text": "といったら",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-085-09-p1",
-        "so-extra20-n2-085-09-p2",
-        "so-extra20-n2-085-09-p3",
-        "so-extra20-n2-085-09-p4"
+        "so-created-n2-085-14-p1",
+        "so-created-n2-085-14-p2",
+        "so-created-n2-085-14-p3",
+        "so-created-n2-085-14-p4"
       ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '공항에서 맡긴 짐이 사라졌을 때의 초조함은 직원의 설명도 귀에 들어오지 않을 정도였다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
       "sourceGrammarIds": [
-        "n2-085"
+        "n2-085",
+        "n2-096",
+        "n2-097",
+        "n2-098"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-085-10",
+      "id": "so-created-n2-085-15",
       "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlanks": "この夏の暑さ ____ ____ ____ ____",
-      "korean": "이번 여름 더위는 정말 심했다.",
+      "sentence": "炭鉱跡の地下通路の寒さといったら防寒着を着ていても歯が震えた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 着ていても歯が震えた。",
+      "korean": "폐광의 지하 통로 추위는 방한복을 입고 있어도 이가 떨릴 정도였다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-085-10-p3",
-          "text": "た",
+          "id": "so-created-n2-085-15-p4",
+          "text": "防寒着を",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-085-10-p4",
-          "text": "といったら",
+          "id": "so-created-n2-085-15-p1",
+          "text": "炭鉱跡の地下",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-085-10-p1",
-          "text": "ひど",
+          "id": "so-created-n2-085-15-p2",
+          "text": "通路の寒さ",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-085-10-p2",
-          "text": "かっ",
+          "id": "so-created-n2-085-15-p3",
+          "text": "といったら",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-085-10-p4",
-        "so-extra20-n2-085-10-p1",
-        "so-extra20-n2-085-10-p2",
-        "so-extra20-n2-085-10-p3"
+        "so-created-n2-085-15-p1",
+        "so-created-n2-085-15-p2",
+        "so-created-n2-085-15-p3",
+        "so-created-n2-085-15-p4"
       ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '폐광의 지하 통로 추위는 방한복을 입고 있어도 이가 떨릴 정도였다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
       "sourceGrammarIds": [
-        "n2-085"
+        "n2-085",
+        "n2-096",
+        "n2-097",
+        "n2-098"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-085-11",
+      "id": "so-created-n2-085-16",
       "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlanks": "この夏の暑さ ____ ____ ____ ____",
-      "korean": "이번 여름 더위는 정말 심했다.",
+      "sentence": "弟が拾ってきた子犬の愛らしさといったら家族全員が世話をしたがるほどだ。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 世話をしたがるほどだ。",
+      "korean": "남동생이 데려온 강아지의 사랑스러움은 온 가족이 돌보고 싶어 할 정도다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-085-11-p2",
-          "text": "かっ",
+          "id": "so-created-n2-085-16-p3",
+          "text": "といったら",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-085-11-p3",
-          "text": "た",
+          "id": "so-created-n2-085-16-p4",
+          "text": "家族全員が",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-085-11-p4",
-          "text": "といったら",
+          "id": "so-created-n2-085-16-p1",
+          "text": "弟が拾ってきた",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-085-11-p1",
-          "text": "ひど",
+          "id": "so-created-n2-085-16-p2",
+          "text": "子犬の愛らしさ",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-085-11-p4",
-        "so-extra20-n2-085-11-p1",
-        "so-extra20-n2-085-11-p2",
-        "so-extra20-n2-085-11-p3"
+        "so-created-n2-085-16-p1",
+        "so-created-n2-085-16-p2",
+        "so-created-n2-085-16-p3",
+        "so-created-n2-085-16-p4"
       ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '남동생이 데려온 강아지의 사랑스러움은 온 가족이 돌보고 싶어 할 정도다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
       "sourceGrammarIds": [
-        "n2-085"
+        "n2-085",
+        "n2-096",
+        "n2-097",
+        "n2-098"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-085-12",
+      "id": "so-created-n2-085-17",
       "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlanks": "この夏の暑さ ____ ____ ____ ____",
-      "korean": "이번 여름 더위는 정말 심했다.",
+      "sentence": "新任の料理長の包丁さばきといったら固いカボチャまで紙のように薄く切ってしまう。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 紙のように薄く切ってしまう。",
+      "korean": "새로 부임한 주방장의 칼솜씨는 단단한 호박까지 종이처럼 얇게 썰어 버릴 정도다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-085-12-p1",
-          "text": "かっ",
+          "id": "so-created-n2-085-17-p2",
+          "text": "長の包丁さばき",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-085-17-p3",
+          "text": "といったら固い",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-085-12-p2",
-          "text": "た",
+          "id": "so-created-n2-085-17-p4",
+          "text": "カボチャまで",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-085-12-p3",
-          "text": "といったら",
+          "id": "so-created-n2-085-17-p1",
+          "text": "新任の料理",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-085-12-p4",
-          "text": "ひど",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-085-12-p3",
-        "so-extra20-n2-085-12-p4",
-        "so-extra20-n2-085-12-p1",
-        "so-extra20-n2-085-12-p2"
+        "so-created-n2-085-17-p1",
+        "so-created-n2-085-17-p2",
+        "so-created-n2-085-17-p3",
+        "so-created-n2-085-17-p4"
       ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '새로 부임한 주방장의 칼솜씨는 단단한 호박까지 종이처럼 얇게 썰어 버릴 정도다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
       "sourceGrammarIds": [
-        "n2-085"
+        "n2-085",
+        "n2-096",
+        "n2-097",
+        "n2-098"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-085-13",
+      "id": "so-created-n2-085-18",
       "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ ひどかった。",
-      "korean": "이번 여름 더위는 정말 심했다.",
+      "sentence": "引っ越し業者の手際の良さといったら家具一式が午前中に片づいてしまった。",
+      "sentenceWithBlanks": "引っ越し ____ ____ ____ ____ 中に片づいてしまった。",
+      "korean": "이삿짐 업체의 능숙한 일 처리는 가구 일체가 오전 중에 다 정리될 정도였다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-085-13-p4",
-          "text": "ひど",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-085-13-p1",
-          "text": "かっ",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-085-13-p2",
-          "text": "暑さ",
+          "id": "so-created-n2-085-18-p1",
+          "text": "業者の",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-085-13-p3",
-          "text": "といったら",
+          "id": "so-created-n2-085-18-p2",
+          "text": "手際の良さ",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-085-18-p3",
+          "text": "といったら",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-085-18-p4",
+          "text": "家具一式が午前",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-085-13-p2",
-        "so-extra20-n2-085-13-p3",
-        "so-extra20-n2-085-13-p4",
-        "so-extra20-n2-085-13-p1"
+        "so-created-n2-085-18-p1",
+        "so-created-n2-085-18-p2",
+        "so-created-n2-085-18-p3",
+        "so-created-n2-085-18-p4"
       ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '이삿짐 업체의 능숙한 일 처리는 가구 일체가 오전 중에 다 정리될 정도였다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
       "sourceGrammarIds": [
-        "n2-085"
+        "n2-085",
+        "n2-096",
+        "n2-097",
+        "n2-098"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-085-14",
+      "id": "so-created-n2-085-19",
       "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlanks": "この夏の暑さ ____ ____ ____ ____",
-      "korean": "이번 여름 더위는 정말 심했다.",
+      "sentence": "決勝戦で逆転された観客の落胆といったら終了後もしばらく席を立てないほどだった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 後もしばらく席を立てないほどだった。",
+      "korean": "결승전에서 역전당한 관중의 낙담은 경기가 끝난 뒤에도 한동안 자리에서 일어나지 못할 정도였다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-085-14-p3",
-          "text": "かっ",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-085-14-p4",
-          "text": "た",
+          "id": "so-created-n2-085-19-p4",
+          "text": "といったら終了",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-085-14-p1",
-          "text": "といったら",
+          "id": "so-created-n2-085-19-p1",
+          "text": "決勝戦で",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-085-14-p2",
-          "text": "ひど",
+          "id": "so-created-n2-085-19-p2",
+          "text": "逆転された",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-085-19-p3",
+          "text": "観客の落胆",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-085-14-p1",
-        "so-extra20-n2-085-14-p2",
-        "so-extra20-n2-085-14-p3",
-        "so-extra20-n2-085-14-p4"
+        "so-created-n2-085-19-p1",
+        "so-created-n2-085-19-p2",
+        "so-created-n2-085-19-p3",
+        "so-created-n2-085-19-p4"
       ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '결승전에서 역전당한 관중의 낙담은 경기가 끝난 뒤에도 한동안 자리에서 일어나지 못할 정도였다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
       "sourceGrammarIds": [
-        "n2-085"
+        "n2-085",
+        "n2-096",
+        "n2-097",
+        "n2-098"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-085-15",
+      "id": "so-created-n2-085-20",
       "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlanks": "この夏の暑さ ____ ____ ____ ____",
-      "korean": "이번 여름 더위는 정말 심했다.",
+      "sentence": "温泉街の坂道の急さといったら自転車を押して上るだけで息が切れた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 上るだけで息が切れた。",
+      "korean": "온천 마을 비탈길의 가파름은 자전거를 끌고 올라가기만 해도 숨이 찰 정도였다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-085-15-p2",
-          "text": "かっ",
+          "id": "so-created-n2-085-20-p3",
+          "text": "といったら",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-085-15-p3",
-          "text": "た",
+          "id": "so-created-n2-085-20-p4",
+          "text": "自転車を押して",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-085-15-p4",
-          "text": "といったら",
+          "id": "so-created-n2-085-20-p1",
+          "text": "温泉街の",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-085-15-p1",
-          "text": "ひど",
+          "id": "so-created-n2-085-20-p2",
+          "text": "坂道の急さ",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-085-15-p4",
-        "so-extra20-n2-085-15-p1",
-        "so-extra20-n2-085-15-p2",
-        "so-extra20-n2-085-15-p3"
+        "so-created-n2-085-20-p1",
+        "so-created-n2-085-20-p2",
+        "so-created-n2-085-20-p3",
+        "so-created-n2-085-20-p4"
       ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '온천 마을 비탈길의 가파름은 자전거를 끌고 올라가기만 해도 숨이 찰 정도였다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
       "sourceGrammarIds": [
-        "n2-085"
+        "n2-085",
+        "n2-096",
+        "n2-097",
+        "n2-098"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-085-16",
+      "id": "so-created-n2-085-21",
       "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlanks": "この夏の暑さ ____ ____ ____ ____",
-      "korean": "이번 여름 더위는 정말 심했다.",
+      "sentence": "海外赴任から戻った彼の変わりようといったら親しい同僚でさえ本人だと気づかなかった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 同僚でさえ本人だと気づかなかった。",
+      "korean": "해외 근무에서 돌아온 그의 변한 모습은 친한 동료조차 본인인 줄 알아보지 못할 정도였다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-085-16-p1",
-          "text": "ひど",
+          "id": "so-created-n2-085-21-p2",
+          "text": "戻った彼の",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-085-16-p2",
-          "text": "かっ",
+          "id": "so-created-n2-085-21-p3",
+          "text": "変わりよう",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-085-16-p3",
-          "text": "た",
+          "id": "so-created-n2-085-21-p4",
+          "text": "といったら親しい",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-085-16-p4",
-          "text": "といったら",
+          "id": "so-created-n2-085-21-p1",
+          "text": "海外赴任から",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-085-16-p4",
-        "so-extra20-n2-085-16-p1",
-        "so-extra20-n2-085-16-p2",
-        "so-extra20-n2-085-16-p3"
+        "so-created-n2-085-21-p1",
+        "so-created-n2-085-21-p2",
+        "so-created-n2-085-21-p3",
+        "so-created-n2-085-21-p4"
       ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '해외 근무에서 돌아온 그의 변한 모습은 친한 동료조차 본인인 줄 알아보지 못할 정도였다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
       "sourceGrammarIds": [
-        "n2-085"
+        "n2-085",
+        "n2-096",
+        "n2-097",
+        "n2-098"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-085-17",
+      "id": "so-created-n2-085-22",
       "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlanks": "この夏の暑さ ____ ____ ____ ____",
-      "korean": "이번 여름 더위는 정말 심했다.",
+      "sentence": "朝採れの桃の香りといったら箱を開ける前から部屋いっぱいに広がっていた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 部屋いっぱいに広がっていた。",
+      "korean": "아침에 갓 딴 복숭아의 향기는 상자를 열기 전부터 방 안 가득 퍼져 있을 정도였다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-085-17-p4",
-          "text": "ひど",
+          "id": "so-created-n2-085-22-p1",
+          "text": "朝採れの",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-085-22-p2",
+          "text": "桃の香り",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-085-17-p1",
-          "text": "かっ",
+          "id": "so-created-n2-085-22-p3",
+          "text": "といったら箱を",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-085-17-p2",
-          "text": "た",
+          "id": "so-created-n2-085-22-p4",
+          "text": "開ける前から",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-085-17-p3",
-          "text": "といったら",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-085-17-p3",
-        "so-extra20-n2-085-17-p4",
-        "so-extra20-n2-085-17-p1",
-        "so-extra20-n2-085-17-p2"
+        "so-created-n2-085-22-p1",
+        "so-created-n2-085-22-p2",
+        "so-created-n2-085-22-p3",
+        "so-created-n2-085-22-p4"
       ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '아침에 갓 딴 복숭아의 향기는 상자를 열기 전부터 방 안 가득 퍼져 있을 정도였다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
       "sourceGrammarIds": [
-        "n2-085"
+        "n2-085",
+        "n2-096",
+        "n2-097",
+        "n2-098"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-085-18",
+      "id": "so-created-n2-085-23",
       "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ ひどかった。",
-      "korean": "이번 여름 더위는 정말 심했다.",
+      "sentence": "長年連れ添った夫を亡くした彼女の寂しさといったら庭の手入れもやめてしまうほどだった。",
+      "sentenceWithBlanks": "長年連れ ____ ____ ____ ____ 手入れもやめてしまうほどだった。",
+      "korean": "오랫동안 함께 산 남편을 잃은 그녀의 외로움은 정원 손질마저 그만둘 정도였다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-085-18-p3",
-          "text": "といったら",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-085-18-p4",
-          "text": "ひど",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-085-18-p1",
-          "text": "かっ",
+          "id": "so-created-n2-085-23-p4",
+          "text": "といったら庭の",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-085-18-p2",
-          "text": "暑さ",
+          "id": "so-created-n2-085-23-p1",
+          "text": "添った夫を",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-085-23-p2",
+          "text": "亡くした",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-085-23-p3",
+          "text": "彼女の寂しさ",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-085-18-p2",
-        "so-extra20-n2-085-18-p3",
-        "so-extra20-n2-085-18-p4",
-        "so-extra20-n2-085-18-p1"
+        "so-created-n2-085-23-p1",
+        "so-created-n2-085-23-p2",
+        "so-created-n2-085-23-p3",
+        "so-created-n2-085-23-p4"
       ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '오랫동안 함께 산 남편을 잃은 그녀의 외로움은 정원 손질마저 그만둘 정도였다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
       "sourceGrammarIds": [
-        "n2-085"
+        "n2-085",
+        "n2-096",
+        "n2-097",
+        "n2-098"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-085-19",
+      "id": "so-created-n2-085-24",
       "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlanks": "この夏の暑さ ____ ____ ____ ____",
-      "korean": "이번 여름 더위는 정말 심했다.",
+      "sentence": "工事現場を指揮する監督の声の大きさといったら離れた交差点まで届きそうだった。",
+      "sentenceWithBlanks": "工事 ____ ____ ____ ____ 交差点まで届きそうだった。",
+      "korean": "공사 현장을 지휘하는 감독의 목소리 크기는 멀리 떨어진 교차로까지 들릴 듯했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-085-19-p2",
-          "text": "ひど",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-085-19-p3",
-          "text": "かっ",
+          "id": "so-created-n2-085-24-p3",
+          "text": "声の大きさ",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-085-19-p4",
-          "text": "た",
+          "id": "so-created-n2-085-24-p4",
+          "text": "といったら離れた",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-085-19-p1",
-          "text": "といったら",
+          "id": "so-created-n2-085-24-p1",
+          "text": "現場を",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-085-24-p2",
+          "text": "指揮する監督の",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-085-19-p1",
-        "so-extra20-n2-085-19-p2",
-        "so-extra20-n2-085-19-p3",
-        "so-extra20-n2-085-19-p4"
+        "so-created-n2-085-24-p1",
+        "so-created-n2-085-24-p2",
+        "so-created-n2-085-24-p3",
+        "so-created-n2-085-24-p4"
       ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '공사 현장을 지휘하는 감독의 목소리 크기는 멀리 떨어진 교차로까지 들릴 듯했다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
       "sourceGrammarIds": [
-        "n2-085"
+        "n2-085",
+        "n2-096",
+        "n2-097",
+        "n2-098"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-085-20",
+      "id": "so-created-n2-085-25",
       "level": "N2",
-      "sentence": "この夏の暑さといったらひどかった。",
-      "sentenceWithBlanks": "この夏の暑さ ____ ____ ____ ____",
-      "korean": "이번 여름 더위는 정말 심했다.",
+      "sentence": "長距離列車で隣り合わせた二人の話の弾みようといったら終着駅でも別れを惜しむほどだった。",
+      "sentenceWithBlanks": "長距離 ____ ____ ____ ____ 終着駅でも別れを惜しむほどだった。",
+      "korean": "장거리 열차에서 나란히 앉은 두 사람의 대화가 무르익은 정도는 종착역에서도 헤어짐을 아쉬워할 만큼 대단했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-085-20-p1",
-          "text": "ひど",
+          "id": "so-created-n2-085-25-p2",
+          "text": "合わせた二人の",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-085-20-p2",
-          "text": "かっ",
+          "id": "so-created-n2-085-25-p3",
+          "text": "話の弾みよう",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-085-20-p3",
-          "text": "た",
+          "id": "so-created-n2-085-25-p4",
+          "text": "といったら",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-085-20-p4",
-          "text": "といったら",
+          "id": "so-created-n2-085-25-p1",
+          "text": "列車で隣り",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-085-20-p4",
-        "so-extra20-n2-085-20-p1",
-        "so-extra20-n2-085-20-p2",
-        "so-extra20-n2-085-20-p3"
+        "so-created-n2-085-25-p1",
+        "so-created-n2-085-25-p2",
+        "so-created-n2-085-25-p3",
+        "so-created-n2-085-25-p4"
       ],
-      "explanation": "「といったら」는 ~은, ~는（강조·감탄）라는 뜻이다. 정도가 매우 큼. 감탄·강조.",
+      "explanation": "「といったら」는 '~은, ~는（강조·감탄）'라는 뜻을 나타낸다. 이 문장에서는 '장거리 열차에서 나란히 앉은 두 사람의 대화가 무르익은 정도는 종착역에서도 헤어짐을 아쉬워할 만큼 대단했다.'라는 상황에 쓰였으며, 정도가 매우 큼. 감탄·강조. 주의할 점은 감탄·강조의 구어체. 「暑さといったら！」처럼 단독으로도 씀.",
       "sourceGrammarIds": [
-        "n2-085"
+        "n2-085",
+        "n2-096",
+        "n2-097",
+        "n2-098"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     }
   ]

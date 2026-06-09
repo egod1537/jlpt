@@ -267,15 +267,23 @@
       ]
     },
     {
-      "id": "fb-extra-n2-097-1",
+      "id": "fb-created-n2-097-01",
       "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlank": "体が健康で（　　　）、いい仕事はできないだろう。",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
-      "answerChoiceId": "fb-extra-n2-097-1-b",
+      "sentence": "現地の被害状況を確認しないことには、必要な支援物資を決められない。",
+      "sentenceWithBlank": "現地の被害状況を確認し（　　　）、必要な支援物資を決められない。",
+      "korean": "현지의 피해 상황을 확인하지 않고서는 필요한 구호 물자를 결정할 수 없다.",
+      "answerChoiceId": "fb-created-n2-097-01-b",
       "choices": [
         {
-          "id": "fb-extra-n2-097-1-c",
+          "id": "fb-created-n2-097-01-b",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-097-01-c",
           "text": "きらいがある",
           "grammarId": "n2-030",
           "baseExpression": "きらいがある",
@@ -283,7 +291,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-097-1-d",
+          "id": "fb-created-n2-097-01-d",
           "text": "きり",
           "grammarId": "n2-031",
           "baseExpression": "きり",
@@ -291,23 +299,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-097-1-a",
+          "id": "fb-created-n2-097-01-a",
           "text": "きる",
           "grammarId": "n2-032",
           "baseExpression": "きる/きれる/きれない",
           "conjugatedExpression": "きる",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-097-1-b",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
-          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '현지의 피해 상황을 확인하지 않고서는 필요한 구호 물자를 결정할 수 없다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
       "sourceGrammarIds": [
         "n2-097",
         "n2-030",
@@ -315,237 +315,20 @@
         "n2-032"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra-n2-097-2",
+      "id": "fb-created-n2-097-02",
       "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlank": "体が健康で（　　　）、いい仕事はできないだろう。",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
-      "answerChoiceId": "fb-extra-n2-097-2-c",
+      "sentence": "本人の同意を得ないことには、この手術を進めるわけにはいかない。",
+      "sentenceWithBlank": "本人の同意を得（　　　）、この手術を進めるわけにはいかない。",
+      "korean": "본인의 동의를 얻지 않고서는 이 수술을 진행할 수 없다.",
+      "answerChoiceId": "fb-created-n2-097-02-b",
       "choices": [
         {
-          "id": "fb-extra-n2-097-2-d",
-          "text": "にしろにしろ",
-          "grammarId": "n2-122",
-          "baseExpression": "にしろにしろ",
-          "conjugatedExpression": "にしろにしろ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-097-2-a",
-          "text": "にすぎない",
-          "grammarId": "n2-123",
-          "baseExpression": "にすぎない",
-          "conjugatedExpression": "にすぎない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-097-2-b",
-          "text": "に相違ない",
-          "grammarId": "n2-124",
-          "baseExpression": "に相違ない",
-          "conjugatedExpression": "に相違ない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-097-2-c",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
-      "sourceGrammarIds": [
-        "n2-097",
-        "n2-122",
-        "n2-123",
-        "n2-124"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-097-3",
-      "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlank": "体が健康で（　　　）、いい仕事はできないだろう。",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
-      "answerChoiceId": "fb-extra-n2-097-3-d",
-      "choices": [
-        {
-          "id": "fb-extra-n2-097-3-a",
-          "text": "べきだ",
-          "grammarId": "n2-145",
-          "baseExpression": "べきだ",
-          "conjugatedExpression": "べきだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-097-3-b",
-          "text": "まい",
-          "grammarId": "n2-146",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-097-3-c",
-          "text": "まい",
-          "grammarId": "n2-147",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-097-3-d",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
-      "sourceGrammarIds": [
-        "n2-097",
-        "n2-145",
-        "n2-146",
-        "n2-147"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-097-4",
-      "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlank": "体が健康で（　　　）、いい仕事はできないだろう。",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
-      "answerChoiceId": "fb-extra-n2-097-4-a",
-      "choices": [
-        {
-          "id": "fb-extra-n2-097-4-b",
-          "text": "に限って",
-          "grammarId": "n2-108",
-          "baseExpression": "に限って",
-          "conjugatedExpression": "に限って",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-097-4-c",
-          "text": "に限らず",
-          "grammarId": "n2-109",
-          "baseExpression": "に限らず",
-          "conjugatedExpression": "に限らず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-097-4-d",
-          "text": "に限り",
-          "grammarId": "n2-110",
-          "baseExpression": "に限り",
-          "conjugatedExpression": "に限り",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-097-4-a",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
-      "sourceGrammarIds": [
-        "n2-097",
-        "n2-108",
-        "n2-109",
-        "n2-110"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-097-5",
-      "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlank": "体が健康で（　　　）、いい仕事はできないだろう。",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
-      "answerChoiceId": "fb-extra-n2-097-5-b",
-      "choices": [
-        {
-          "id": "fb-extra-n2-097-5-c",
-          "text": "だらけ",
-          "grammarId": "n2-062",
-          "baseExpression": "だらけ",
-          "conjugatedExpression": "だらけ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-097-5-d",
-          "text": "っこない",
-          "grammarId": "n2-063",
-          "baseExpression": "っこない",
-          "conjugatedExpression": "っこない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-097-5-a",
-          "text": "つつ",
-          "grammarId": "n2-064",
-          "baseExpression": "つつ",
-          "conjugatedExpression": "つつ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-097-5-b",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
-      "sourceGrammarIds": [
-        "n2-097",
-        "n2-062",
-        "n2-063",
-        "n2-064"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-097-01",
-      "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlank": "体が健康で（　　　）、いい仕事はできないだろう。",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
-      "answerChoiceId": "fb-extra20-n2-097-01-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-097-01-c",
+          "id": "fb-created-n2-097-02-c",
           "text": "きらいがある",
           "grammarId": "n2-030",
           "baseExpression": "きらいがある",
@@ -553,7 +336,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-097-01-d",
+          "id": "fb-created-n2-097-02-d",
           "text": "きり",
           "grammarId": "n2-031",
           "baseExpression": "きり",
@@ -561,7 +344,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-097-01-a",
+          "id": "fb-created-n2-097-02-a",
           "text": "きる",
           "grammarId": "n2-032",
           "baseExpression": "きる/きれる/きれない",
@@ -569,7 +352,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-097-01-b",
+          "id": "fb-created-n2-097-02-b",
           "text": "ないことには",
           "grammarId": "n2-097",
           "baseExpression": "ないことには",
@@ -577,7 +360,7 @@
           "isSimilarDistractor": false
         }
       ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '본인의 동의를 얻지 않고서는 이 수술을 진행할 수 없다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
       "sourceGrammarIds": [
         "n2-097",
         "n2-030",
@@ -585,253 +368,20 @@
         "n2-032"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-097-02",
+      "id": "fb-created-n2-097-03",
       "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlank": "体が健康で（　　　）、いい仕事はできないだろう。",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
-      "answerChoiceId": "fb-extra20-n2-097-02-c",
+      "sentence": "契約書の細部まで読まないことには、安心して署名できない。",
+      "sentenceWithBlank": "契約書の細部まで読ま（　　　）、安心して署名できない。",
+      "korean": "계약서의 세부 사항까지 읽지 않고서는 안심하고 서명할 수 없다.",
+      "answerChoiceId": "fb-created-n2-097-03-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-097-02-b",
-          "text": "に相違ない",
-          "grammarId": "n2-124",
-          "baseExpression": "に相違ない",
-          "conjugatedExpression": "に相違ない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-097-02-c",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-097-02-d",
-          "text": "にしろにしろ",
-          "grammarId": "n2-122",
-          "baseExpression": "にしろにしろ",
-          "conjugatedExpression": "にしろにしろ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-097-02-a",
-          "text": "にすぎない",
-          "grammarId": "n2-123",
-          "baseExpression": "にすぎない",
-          "conjugatedExpression": "にすぎない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
-      "sourceGrammarIds": [
-        "n2-097",
-        "n2-122",
-        "n2-123",
-        "n2-124"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-097-03",
-      "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlank": "体が健康で（　　　）、いい仕事はできないだろう。",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
-      "answerChoiceId": "fb-extra20-n2-097-03-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-097-03-a",
-          "text": "べきだ",
-          "grammarId": "n2-145",
-          "baseExpression": "べきだ",
-          "conjugatedExpression": "べきだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-097-03-b",
-          "text": "まい",
-          "grammarId": "n2-146",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-097-03-c",
-          "text": "まい",
-          "grammarId": "n2-147",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-097-03-d",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
-      "sourceGrammarIds": [
-        "n2-097",
-        "n2-145",
-        "n2-146",
-        "n2-147"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-097-04",
-      "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlank": "体が健康で（　　　）、いい仕事はできないだろう。",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
-      "answerChoiceId": "fb-extra20-n2-097-04-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-097-04-d",
-          "text": "に限り",
-          "grammarId": "n2-110",
-          "baseExpression": "に限り",
-          "conjugatedExpression": "に限り",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-097-04-a",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-097-04-b",
-          "text": "に限って",
-          "grammarId": "n2-108",
-          "baseExpression": "に限って",
-          "conjugatedExpression": "に限って",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-097-04-c",
-          "text": "に限らず",
-          "grammarId": "n2-109",
-          "baseExpression": "に限らず",
-          "conjugatedExpression": "に限らず",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
-      "sourceGrammarIds": [
-        "n2-097",
-        "n2-108",
-        "n2-109",
-        "n2-110"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-097-05",
-      "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlank": "体が健康で（　　　）、いい仕事はできないだろう。",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
-      "answerChoiceId": "fb-extra20-n2-097-05-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-097-05-c",
-          "text": "だらけ",
-          "grammarId": "n2-062",
-          "baseExpression": "だらけ",
-          "conjugatedExpression": "だらけ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-097-05-d",
-          "text": "っこない",
-          "grammarId": "n2-063",
-          "baseExpression": "っこない",
-          "conjugatedExpression": "っこない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-097-05-a",
-          "text": "つつ",
-          "grammarId": "n2-064",
-          "baseExpression": "つつ",
-          "conjugatedExpression": "つつ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-097-05-b",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
-      "sourceGrammarIds": [
-        "n2-097",
-        "n2-062",
-        "n2-063",
-        "n2-064"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-097-06",
-      "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlank": "体が健康で（　　　）、いい仕事はできないだろう。",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
-      "answerChoiceId": "fb-extra20-n2-097-06-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-097-06-b",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-097-06-c",
-          "text": "きらいがある",
-          "grammarId": "n2-030",
-          "baseExpression": "きらいがある",
-          "conjugatedExpression": "きらいがある",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-097-06-d",
+          "id": "fb-created-n2-097-03-d",
           "text": "きり",
           "grammarId": "n2-031",
           "baseExpression": "きり",
@@ -839,253 +389,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-097-06-a",
-          "text": "きる",
-          "grammarId": "n2-032",
-          "baseExpression": "きる/きれる/きれない",
-          "conjugatedExpression": "きる",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
-      "sourceGrammarIds": [
-        "n2-097",
-        "n2-030",
-        "n2-031",
-        "n2-032"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-097-07",
-      "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlank": "体が健康で（　　　）、いい仕事はできないだろう。",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
-      "answerChoiceId": "fb-extra20-n2-097-07-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-097-07-a",
-          "text": "にすぎない",
-          "grammarId": "n2-123",
-          "baseExpression": "にすぎない",
-          "conjugatedExpression": "にすぎない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-097-07-b",
-          "text": "に相違ない",
-          "grammarId": "n2-124",
-          "baseExpression": "に相違ない",
-          "conjugatedExpression": "に相違ない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-097-07-c",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-097-07-d",
-          "text": "にしろにしろ",
-          "grammarId": "n2-122",
-          "baseExpression": "にしろにしろ",
-          "conjugatedExpression": "にしろにしろ",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
-      "sourceGrammarIds": [
-        "n2-097",
-        "n2-122",
-        "n2-123",
-        "n2-124"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-097-08",
-      "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlank": "体が健康で（　　　）、いい仕事はできないだろう。",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
-      "answerChoiceId": "fb-extra20-n2-097-08-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-097-08-d",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-097-08-a",
-          "text": "べきだ",
-          "grammarId": "n2-145",
-          "baseExpression": "べきだ",
-          "conjugatedExpression": "べきだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-097-08-b",
-          "text": "まい",
-          "grammarId": "n2-146",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-097-08-c",
-          "text": "まい",
-          "grammarId": "n2-147",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
-      "sourceGrammarIds": [
-        "n2-097",
-        "n2-145",
-        "n2-146",
-        "n2-147"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-097-09",
-      "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlank": "体が健康で（　　　）、いい仕事はできないだろう。",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
-      "answerChoiceId": "fb-extra20-n2-097-09-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-097-09-c",
-          "text": "に限らず",
-          "grammarId": "n2-109",
-          "baseExpression": "に限らず",
-          "conjugatedExpression": "に限らず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-097-09-d",
-          "text": "に限り",
-          "grammarId": "n2-110",
-          "baseExpression": "に限り",
-          "conjugatedExpression": "に限り",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-097-09-a",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-097-09-b",
-          "text": "に限って",
-          "grammarId": "n2-108",
-          "baseExpression": "に限って",
-          "conjugatedExpression": "に限って",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
-      "sourceGrammarIds": [
-        "n2-097",
-        "n2-108",
-        "n2-109",
-        "n2-110"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-097-10",
-      "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlank": "体が健康で（　　　）、いい仕事はできないだろう。",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
-      "answerChoiceId": "fb-extra20-n2-097-10-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-097-10-b",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-097-10-c",
-          "text": "だらけ",
-          "grammarId": "n2-062",
-          "baseExpression": "だらけ",
-          "conjugatedExpression": "だらけ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-097-10-d",
-          "text": "っこない",
-          "grammarId": "n2-063",
-          "baseExpression": "っこない",
-          "conjugatedExpression": "っこない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-097-10-a",
-          "text": "つつ",
-          "grammarId": "n2-064",
-          "baseExpression": "つつ",
-          "conjugatedExpression": "つつ",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
-      "sourceGrammarIds": [
-        "n2-097",
-        "n2-062",
-        "n2-063",
-        "n2-064"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-097-11",
-      "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlank": "体が健康で（　　　）、いい仕事はできないだろう。",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
-      "answerChoiceId": "fb-extra20-n2-097-11-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-097-11-a",
+          "id": "fb-created-n2-097-03-a",
           "text": "きる",
           "grammarId": "n2-032",
           "baseExpression": "きる/きれる/きれない",
@@ -1093,7 +397,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-097-11-b",
+          "id": "fb-created-n2-097-03-b",
           "text": "ないことには",
           "grammarId": "n2-097",
           "baseExpression": "ないことには",
@@ -1101,285 +405,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-097-11-c",
-          "text": "きらいがある",
-          "grammarId": "n2-030",
-          "baseExpression": "きらいがある",
-          "conjugatedExpression": "きらいがある",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-097-11-d",
-          "text": "きり",
-          "grammarId": "n2-031",
-          "baseExpression": "きり",
-          "conjugatedExpression": "きり",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
-      "sourceGrammarIds": [
-        "n2-097",
-        "n2-030",
-        "n2-031",
-        "n2-032"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-097-12",
-      "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlank": "体が健康で（　　　）、いい仕事はできないだろう。",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
-      "answerChoiceId": "fb-extra20-n2-097-12-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-097-12-d",
-          "text": "にしろにしろ",
-          "grammarId": "n2-122",
-          "baseExpression": "にしろにしろ",
-          "conjugatedExpression": "にしろにしろ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-097-12-a",
-          "text": "にすぎない",
-          "grammarId": "n2-123",
-          "baseExpression": "にすぎない",
-          "conjugatedExpression": "にすぎない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-097-12-b",
-          "text": "に相違ない",
-          "grammarId": "n2-124",
-          "baseExpression": "に相違ない",
-          "conjugatedExpression": "に相違ない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-097-12-c",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
-      "sourceGrammarIds": [
-        "n2-097",
-        "n2-122",
-        "n2-123",
-        "n2-124"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-097-13",
-      "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlank": "体が健康で（　　　）、いい仕事はできないだろう。",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
-      "answerChoiceId": "fb-extra20-n2-097-13-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-097-13-c",
-          "text": "まい",
-          "grammarId": "n2-147",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-097-13-d",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-097-13-a",
-          "text": "べきだ",
-          "grammarId": "n2-145",
-          "baseExpression": "べきだ",
-          "conjugatedExpression": "べきだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-097-13-b",
-          "text": "まい",
-          "grammarId": "n2-146",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
-      "sourceGrammarIds": [
-        "n2-097",
-        "n2-145",
-        "n2-146",
-        "n2-147"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-097-14",
-      "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlank": "体が健康で（　　　）、いい仕事はできないだろう。",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
-      "answerChoiceId": "fb-extra20-n2-097-14-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-097-14-b",
-          "text": "に限って",
-          "grammarId": "n2-108",
-          "baseExpression": "に限って",
-          "conjugatedExpression": "に限って",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-097-14-c",
-          "text": "に限らず",
-          "grammarId": "n2-109",
-          "baseExpression": "に限らず",
-          "conjugatedExpression": "に限らず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-097-14-d",
-          "text": "に限り",
-          "grammarId": "n2-110",
-          "baseExpression": "に限り",
-          "conjugatedExpression": "に限り",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-097-14-a",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
-      "sourceGrammarIds": [
-        "n2-097",
-        "n2-108",
-        "n2-109",
-        "n2-110"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-097-15",
-      "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlank": "体が健康で（　　　）、いい仕事はできないだろう。",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
-      "answerChoiceId": "fb-extra20-n2-097-15-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-097-15-a",
-          "text": "つつ",
-          "grammarId": "n2-064",
-          "baseExpression": "つつ",
-          "conjugatedExpression": "つつ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-097-15-b",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-097-15-c",
-          "text": "だらけ",
-          "grammarId": "n2-062",
-          "baseExpression": "だらけ",
-          "conjugatedExpression": "だらけ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-097-15-d",
-          "text": "っこない",
-          "grammarId": "n2-063",
-          "baseExpression": "っこない",
-          "conjugatedExpression": "っこない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
-      "sourceGrammarIds": [
-        "n2-097",
-        "n2-062",
-        "n2-063",
-        "n2-064"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-097-16",
-      "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlank": "体が健康で（　　　）、いい仕事はできないだろう。",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
-      "answerChoiceId": "fb-extra20-n2-097-16-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-097-16-d",
-          "text": "きり",
-          "grammarId": "n2-031",
-          "baseExpression": "きり",
-          "conjugatedExpression": "きり",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-097-16-a",
-          "text": "きる",
-          "grammarId": "n2-032",
-          "baseExpression": "きる/きれる/きれない",
-          "conjugatedExpression": "きる",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-097-16-b",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-097-16-c",
+          "id": "fb-created-n2-097-03-c",
           "text": "きらいがある",
           "grammarId": "n2-030",
           "baseExpression": "きらいがある",
@@ -1387,7 +413,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '계약서의 세부 사항까지 읽지 않고서는 안심하고 서명할 수 없다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
       "sourceGrammarIds": [
         "n2-097",
         "n2-030",
@@ -1395,21 +421,28 @@
         "n2-032"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-097-17",
+      "id": "fb-created-n2-097-04",
       "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlank": "体が健康で（　　　）、いい仕事はできないだろう。",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
-      "answerChoiceId": "fb-extra20-n2-097-17-c",
+      "sentence": "土壌の成分を調べないことには、この畑に適した作物は選べない。",
+      "sentenceWithBlank": "土壌の成分を調べ（　　　）、この畑に適した作物は選べない。",
+      "korean": "토양 성분을 조사하지 않고서는 이 밭에 알맞은 작물을 고를 수 없다.",
+      "answerChoiceId": "fb-created-n2-097-04-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-097-17-c",
+          "id": "fb-created-n2-097-04-a",
+          "text": "きる",
+          "grammarId": "n2-032",
+          "baseExpression": "きる/きれる/きれない",
+          "conjugatedExpression": "きる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-04-b",
           "text": "ないことには",
           "grammarId": "n2-097",
           "baseExpression": "ないことには",
@@ -1417,69 +450,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-097-17-d",
-          "text": "にしろにしろ",
-          "grammarId": "n2-122",
-          "baseExpression": "にしろにしろ",
-          "conjugatedExpression": "にしろにしろ",
+          "id": "fb-created-n2-097-04-c",
+          "text": "きらいがある",
+          "grammarId": "n2-030",
+          "baseExpression": "きらいがある",
+          "conjugatedExpression": "きらいがある",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-097-17-a",
-          "text": "にすぎない",
-          "grammarId": "n2-123",
-          "baseExpression": "にすぎない",
-          "conjugatedExpression": "にすぎない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-097-17-b",
-          "text": "に相違ない",
-          "grammarId": "n2-124",
-          "baseExpression": "に相違ない",
-          "conjugatedExpression": "に相違ない",
+          "id": "fb-created-n2-097-04-d",
+          "text": "きり",
+          "grammarId": "n2-031",
+          "baseExpression": "きり",
+          "conjugatedExpression": "きり",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '토양 성분을 조사하지 않고서는 이 밭에 알맞은 작물을 고를 수 없다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
       "sourceGrammarIds": [
         "n2-097",
-        "n2-122",
-        "n2-123",
-        "n2-124"
+        "n2-030",
+        "n2-031",
+        "n2-032"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-097-18",
+      "id": "fb-created-n2-097-05",
       "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlank": "体が健康で（　　　）、いい仕事はできないだろう。",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
-      "answerChoiceId": "fb-extra20-n2-097-18-d",
+      "sentence": "故障の原因を突き止めないことには、工場の機械を再稼働させられない。",
+      "sentenceWithBlank": "故障の原因を突き止め（　　　）、工場の機械を再稼働させられない。",
+      "korean": "고장 원인을 밝혀내지 않고서는 공장 기계를 재가동할 수 없다.",
+      "answerChoiceId": "fb-created-n2-097-05-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-097-18-b",
-          "text": "まい",
-          "grammarId": "n2-146",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-097-18-c",
-          "text": "まい",
-          "grammarId": "n2-147",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-097-18-d",
+          "id": "fb-created-n2-097-05-b",
           "text": "ないことには",
           "grammarId": "n2-097",
           "baseExpression": "ないことには",
@@ -1487,37 +495,121 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-097-18-a",
-          "text": "べきだ",
-          "grammarId": "n2-145",
-          "baseExpression": "べきだ",
-          "conjugatedExpression": "べきだ",
+          "id": "fb-created-n2-097-05-c",
+          "text": "きらいがある",
+          "grammarId": "n2-030",
+          "baseExpression": "きらいがある",
+          "conjugatedExpression": "きらいがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-05-d",
+          "text": "きり",
+          "grammarId": "n2-031",
+          "baseExpression": "きり",
+          "conjugatedExpression": "きり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-05-a",
+          "text": "きる",
+          "grammarId": "n2-032",
+          "baseExpression": "きる/きれる/きれない",
+          "conjugatedExpression": "きる",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '고장 원인을 밝혀내지 않고서는 공장 기계를 재가동할 수 없다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
       "sourceGrammarIds": [
         "n2-097",
-        "n2-145",
-        "n2-146",
-        "n2-147"
+        "n2-030",
+        "n2-031",
+        "n2-032"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-097-19",
+      "id": "fb-created-n2-097-06",
       "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlank": "体が健康で（　　　）、いい仕事はできないだろう。",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
-      "answerChoiceId": "fb-extra20-n2-097-19-a",
+      "sentence": "資金の見通しが立たないことには、新店舗の開業日は発表できない。",
+      "sentenceWithBlank": "資金の見通しが立た（　　　）、新店舗の開業日は発表できない。",
+      "korean": "자금 전망이 서지 않고서는 새 점포의 개업일을 발표할 수 없다.",
+      "answerChoiceId": "fb-created-n2-097-06-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-097-19-a",
+          "id": "fb-created-n2-097-06-c",
+          "text": "きらいがある",
+          "grammarId": "n2-030",
+          "baseExpression": "きらいがある",
+          "conjugatedExpression": "きらいがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-06-d",
+          "text": "きり",
+          "grammarId": "n2-031",
+          "baseExpression": "きり",
+          "conjugatedExpression": "きり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-06-a",
+          "text": "きる",
+          "grammarId": "n2-032",
+          "baseExpression": "きる/きれる/きれない",
+          "conjugatedExpression": "きる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-06-b",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '자금 전망이 서지 않고서는 새 점포의 개업일을 발표할 수 없다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
+      "sourceGrammarIds": [
+        "n2-097",
+        "n2-030",
+        "n2-031",
+        "n2-032"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-097-07",
+      "level": "N2",
+      "sentence": "乗客全員の安全を確かめないことには、船は港を出られない。",
+      "sentenceWithBlank": "乗客全員の安全を確かめ（　　　）、船は港を出られない。",
+      "korean": "승객 전원의 안전을 확인하지 않고서는 배가 항구를 떠날 수 없다.",
+      "answerChoiceId": "fb-created-n2-097-07-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-097-07-d",
+          "text": "きり",
+          "grammarId": "n2-031",
+          "baseExpression": "きり",
+          "conjugatedExpression": "きり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-07-a",
+          "text": "きる",
+          "grammarId": "n2-032",
+          "baseExpression": "きる/きれる/きれない",
+          "conjugatedExpression": "きる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-07-b",
           "text": "ないことには",
           "grammarId": "n2-097",
           "baseExpression": "ないことには",
@@ -1525,69 +617,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-097-19-b",
-          "text": "に限って",
-          "grammarId": "n2-108",
-          "baseExpression": "に限って",
-          "conjugatedExpression": "に限って",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-097-19-c",
-          "text": "に限らず",
-          "grammarId": "n2-109",
-          "baseExpression": "に限らず",
-          "conjugatedExpression": "に限らず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-097-19-d",
-          "text": "に限り",
-          "grammarId": "n2-110",
-          "baseExpression": "に限り",
-          "conjugatedExpression": "に限り",
+          "id": "fb-created-n2-097-07-c",
+          "text": "きらいがある",
+          "grammarId": "n2-030",
+          "baseExpression": "きらいがある",
+          "conjugatedExpression": "きらいがある",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '승객 전원의 안전을 확인하지 않고서는 배가 항구를 떠날 수 없다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
       "sourceGrammarIds": [
         "n2-097",
-        "n2-108",
-        "n2-109",
-        "n2-110"
+        "n2-030",
+        "n2-031",
+        "n2-032"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-097-20",
+      "id": "fb-created-n2-097-08",
       "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlank": "体が健康で（　　　）、いい仕事はできないだろう。",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
-      "answerChoiceId": "fb-extra20-n2-097-20-b",
+      "sentence": "相手の希望を聞かないことには、結婚式の会場を予約しにくい。",
+      "sentenceWithBlank": "相手の希望を聞か（　　　）、結婚式の会場を予約しにくい。",
+      "korean": "상대방의 희망을 듣지 않고서는 결혼식장을 예약하기 어렵다.",
+      "answerChoiceId": "fb-created-n2-097-08-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-097-20-d",
-          "text": "っこない",
-          "grammarId": "n2-063",
-          "baseExpression": "っこない",
-          "conjugatedExpression": "っこない",
+          "id": "fb-created-n2-097-08-a",
+          "text": "きる",
+          "grammarId": "n2-032",
+          "baseExpression": "きる/きれる/きれない",
+          "conjugatedExpression": "きる",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-097-20-a",
-          "text": "つつ",
-          "grammarId": "n2-064",
-          "baseExpression": "つつ",
-          "conjugatedExpression": "つつ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-097-20-b",
+          "id": "fb-created-n2-097-08-b",
           "text": "ないことには",
           "grammarId": "n2-097",
           "baseExpression": "ないことには",
@@ -1595,25 +662,933 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-097-20-c",
-          "text": "だらけ",
-          "grammarId": "n2-062",
-          "baseExpression": "だらけ",
-          "conjugatedExpression": "だらけ",
+          "id": "fb-created-n2-097-08-c",
+          "text": "きらいがある",
+          "grammarId": "n2-030",
+          "baseExpression": "きらいがある",
+          "conjugatedExpression": "きらいがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-08-d",
+          "text": "きり",
+          "grammarId": "n2-031",
+          "baseExpression": "きり",
+          "conjugatedExpression": "きり",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '상대방의 희망을 듣지 않고서는 결혼식장을 예약하기 어렵다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
       "sourceGrammarIds": [
         "n2-097",
-        "n2-062",
-        "n2-063",
-        "n2-064"
+        "n2-030",
+        "n2-031",
+        "n2-032"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-097-09",
+      "level": "N2",
+      "sentence": "古い配管を交換しないことには、マンションの水漏れは根本的に解決できない。",
+      "sentenceWithBlank": "古い配管を交換し（　　　）、マンションの水漏れは根本的に解決できない。",
+      "korean": "낡은 배관을 교체하지 않고서는 아파트 누수를 근본적으로 해결할 수 없다.",
+      "answerChoiceId": "fb-created-n2-097-09-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-097-09-b",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-097-09-c",
+          "text": "きらいがある",
+          "grammarId": "n2-030",
+          "baseExpression": "きらいがある",
+          "conjugatedExpression": "きらいがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-09-d",
+          "text": "きり",
+          "grammarId": "n2-031",
+          "baseExpression": "きり",
+          "conjugatedExpression": "きり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-09-a",
+          "text": "きる",
+          "grammarId": "n2-032",
+          "baseExpression": "きる/きれる/きれない",
+          "conjugatedExpression": "きる",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '낡은 배관을 교체하지 않고서는 아파트 누수를 근본적으로 해결할 수 없다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
+      "sourceGrammarIds": [
+        "n2-097",
+        "n2-030",
+        "n2-031",
+        "n2-032"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-097-10",
+      "level": "N2",
+      "sentence": "輸入許可が下りないことには、港の荷物を国内へ運び込めない。",
+      "sentenceWithBlank": "輸入許可が下り（　　　）、港の荷物を国内へ運び込めない。",
+      "korean": "수입 허가가 나지 않고서는 항구의 화물을 국내로 반입할 수 없다.",
+      "answerChoiceId": "fb-created-n2-097-10-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-097-10-c",
+          "text": "きらいがある",
+          "grammarId": "n2-030",
+          "baseExpression": "きらいがある",
+          "conjugatedExpression": "きらいがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-10-d",
+          "text": "きり",
+          "grammarId": "n2-031",
+          "baseExpression": "きり",
+          "conjugatedExpression": "きり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-10-a",
+          "text": "きる",
+          "grammarId": "n2-032",
+          "baseExpression": "きる/きれる/きれない",
+          "conjugatedExpression": "きる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-10-b",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '수입 허가가 나지 않고서는 항구의 화물을 국내로 반입할 수 없다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
+      "sourceGrammarIds": [
+        "n2-097",
+        "n2-030",
+        "n2-031",
+        "n2-032"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-097-11",
+      "level": "N2",
+      "sentence": "候補者の経歴を十分に確かめないことには、後任を任せられない。",
+      "sentenceWithBlank": "候補者の経歴を十分に確かめ（　　　）、後任を任せられない。",
+      "korean": "후보자의 경력을 충분히 확인하지 않고서는 후임을 맡길 수 없다.",
+      "answerChoiceId": "fb-created-n2-097-11-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-097-11-d",
+          "text": "きり",
+          "grammarId": "n2-031",
+          "baseExpression": "きり",
+          "conjugatedExpression": "きり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-11-a",
+          "text": "きる",
+          "grammarId": "n2-032",
+          "baseExpression": "きる/きれる/きれない",
+          "conjugatedExpression": "きる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-11-b",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-097-11-c",
+          "text": "きらいがある",
+          "grammarId": "n2-030",
+          "baseExpression": "きらいがある",
+          "conjugatedExpression": "きらいがある",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '후보자의 경력을 충분히 확인하지 않고서는 후임을 맡길 수 없다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
+      "sourceGrammarIds": [
+        "n2-097",
+        "n2-030",
+        "n2-031",
+        "n2-032"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-097-12",
+      "level": "N2",
+      "sentence": "雪崩の危険がなくならないことには、山小屋まで救助隊を送れない。",
+      "sentenceWithBlank": "雪崩の危険がなくなら（　　　）、山小屋まで救助隊を送れない。",
+      "korean": "눈사태 위험이 사라지지 않고서는 산장까지 구조대를 보낼 수 없다.",
+      "answerChoiceId": "fb-created-n2-097-12-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-097-12-a",
+          "text": "きる",
+          "grammarId": "n2-032",
+          "baseExpression": "きる/きれる/きれない",
+          "conjugatedExpression": "きる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-12-b",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-097-12-c",
+          "text": "きらいがある",
+          "grammarId": "n2-030",
+          "baseExpression": "きらいがある",
+          "conjugatedExpression": "きらいがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-12-d",
+          "text": "きり",
+          "grammarId": "n2-031",
+          "baseExpression": "きり",
+          "conjugatedExpression": "きり",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '눈사태 위험이 사라지지 않고서는 산장까지 구조대를 보낼 수 없다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
+      "sourceGrammarIds": [
+        "n2-097",
+        "n2-030",
+        "n2-031",
+        "n2-032"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-097-13",
+      "level": "N2",
+      "sentence": "住民の理解を得ないことには、風力発電所の建設は始められない。",
+      "sentenceWithBlank": "住民の理解を得（　　　）、風力発電所の建設は始められない。",
+      "korean": "주민들의 이해를 얻지 않고서는 풍력 발전소 건설을 시작할 수 없다.",
+      "answerChoiceId": "fb-created-n2-097-13-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-097-13-b",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-097-13-c",
+          "text": "きらいがある",
+          "grammarId": "n2-030",
+          "baseExpression": "きらいがある",
+          "conjugatedExpression": "きらいがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-13-d",
+          "text": "きり",
+          "grammarId": "n2-031",
+          "baseExpression": "きり",
+          "conjugatedExpression": "きり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-13-a",
+          "text": "きる",
+          "grammarId": "n2-032",
+          "baseExpression": "きる/きれる/きれない",
+          "conjugatedExpression": "きる",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '주민들의 이해를 얻지 않고서는 풍력 발전소 건설을 시작할 수 없다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
+      "sourceGrammarIds": [
+        "n2-097",
+        "n2-030",
+        "n2-031",
+        "n2-032"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-097-14",
+      "level": "N2",
+      "sentence": "暗証番号を思い出さないことには、金庫の中の書類を取り出せない。",
+      "sentenceWithBlank": "暗証番号を思い出さ（　　　）、金庫の中の書類を取り出せない。",
+      "korean": "비밀번호를 떠올리지 않고서는 금고 안의 서류를 꺼낼 수 없다.",
+      "answerChoiceId": "fb-created-n2-097-14-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-097-14-c",
+          "text": "きらいがある",
+          "grammarId": "n2-030",
+          "baseExpression": "きらいがある",
+          "conjugatedExpression": "きらいがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-14-d",
+          "text": "きり",
+          "grammarId": "n2-031",
+          "baseExpression": "きり",
+          "conjugatedExpression": "きり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-14-a",
+          "text": "きる",
+          "grammarId": "n2-032",
+          "baseExpression": "きる/きれる/きれない",
+          "conjugatedExpression": "きる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-14-b",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '비밀번호를 떠올리지 않고서는 금고 안의 서류를 꺼낼 수 없다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
+      "sourceGrammarIds": [
+        "n2-097",
+        "n2-030",
+        "n2-031",
+        "n2-032"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-097-15",
+      "level": "N2",
+      "sentence": "市場の需要が回復しないことには、漁獲量を増やすのは難しい。",
+      "sentenceWithBlank": "市場の需要が回復し（　　　）、漁獲量を増やすのは難しい。",
+      "korean": "시장의 수요가 회복되지 않고서는 어획량을 늘리기 어렵다.",
+      "answerChoiceId": "fb-created-n2-097-15-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-097-15-d",
+          "text": "きり",
+          "grammarId": "n2-031",
+          "baseExpression": "きり",
+          "conjugatedExpression": "きり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-15-a",
+          "text": "きる",
+          "grammarId": "n2-032",
+          "baseExpression": "きる/きれる/きれない",
+          "conjugatedExpression": "きる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-15-b",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-097-15-c",
+          "text": "きらいがある",
+          "grammarId": "n2-030",
+          "baseExpression": "きらいがある",
+          "conjugatedExpression": "きらいがある",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '시장의 수요가 회복되지 않고서는 어획량을 늘리기 어렵다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
+      "sourceGrammarIds": [
+        "n2-097",
+        "n2-030",
+        "n2-031",
+        "n2-032"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-097-16",
+      "level": "N2",
+      "sentence": "患者のアレルギー歴が分からないことには、この薬を処方できない。",
+      "sentenceWithBlank": "患者のアレルギー歴が分から（　　　）、この薬を処方できない。",
+      "korean": "환자의 알레르기 병력을 알지 못하고서는 이 약을 처방할 수 없다.",
+      "answerChoiceId": "fb-created-n2-097-16-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-097-16-a",
+          "text": "きる",
+          "grammarId": "n2-032",
+          "baseExpression": "きる/きれる/きれない",
+          "conjugatedExpression": "きる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-16-b",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-097-16-c",
+          "text": "きらいがある",
+          "grammarId": "n2-030",
+          "baseExpression": "きらいがある",
+          "conjugatedExpression": "きらいがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-16-d",
+          "text": "きり",
+          "grammarId": "n2-031",
+          "baseExpression": "きり",
+          "conjugatedExpression": "きり",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '환자의 알레르기 병력을 알지 못하고서는 이 약을 처방할 수 없다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
+      "sourceGrammarIds": [
+        "n2-097",
+        "n2-030",
+        "n2-031",
+        "n2-032"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-097-17",
+      "level": "N2",
+      "sentence": "証拠となる映像が見つからないことには、事故の責任を判断できない。",
+      "sentenceWithBlank": "証拠となる映像が見つから（　　　）、事故の責任を判断できない。",
+      "korean": "증거가 될 영상이 발견되지 않고서는 사고의 책임을 판단할 수 없다.",
+      "answerChoiceId": "fb-created-n2-097-17-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-097-17-b",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-097-17-c",
+          "text": "きらいがある",
+          "grammarId": "n2-030",
+          "baseExpression": "きらいがある",
+          "conjugatedExpression": "きらいがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-17-d",
+          "text": "きり",
+          "grammarId": "n2-031",
+          "baseExpression": "きり",
+          "conjugatedExpression": "きり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-17-a",
+          "text": "きる",
+          "grammarId": "n2-032",
+          "baseExpression": "きる/きれる/きれない",
+          "conjugatedExpression": "きる",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '증거가 될 영상이 발견되지 않고서는 사고의 책임을 판단할 수 없다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
+      "sourceGrammarIds": [
+        "n2-097",
+        "n2-030",
+        "n2-031",
+        "n2-032"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-097-18",
+      "level": "N2",
+      "sentence": "雨がもう少し弱まらないことには、屋根の修理には取りかかれない。",
+      "sentenceWithBlank": "雨がもう少し弱まら（　　　）、屋根の修理には取りかかれない。",
+      "korean": "비가 조금 더 약해지지 않고서는 지붕 수리에 착수할 수 없다.",
+      "answerChoiceId": "fb-created-n2-097-18-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-097-18-c",
+          "text": "きらいがある",
+          "grammarId": "n2-030",
+          "baseExpression": "きらいがある",
+          "conjugatedExpression": "きらいがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-18-d",
+          "text": "きり",
+          "grammarId": "n2-031",
+          "baseExpression": "きり",
+          "conjugatedExpression": "きり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-18-a",
+          "text": "きる",
+          "grammarId": "n2-032",
+          "baseExpression": "きる/きれる/きれない",
+          "conjugatedExpression": "きる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-18-b",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '비가 조금 더 약해지지 않고서는 지붕 수리에 착수할 수 없다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
+      "sourceGrammarIds": [
+        "n2-097",
+        "n2-030",
+        "n2-031",
+        "n2-032"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-097-19",
+      "level": "N2",
+      "sentence": "離れて暮らす兄と相談しないことには、実家を売る決断はできない。",
+      "sentenceWithBlank": "離れて暮らす兄と相談し（　　　）、実家を売る決断はできない。",
+      "korean": "따로 사는 형과 상의하지 않고서는 본가를 팔기로 결정할 수 없다.",
+      "answerChoiceId": "fb-created-n2-097-19-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-097-19-d",
+          "text": "きり",
+          "grammarId": "n2-031",
+          "baseExpression": "きり",
+          "conjugatedExpression": "きり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-19-a",
+          "text": "きる",
+          "grammarId": "n2-032",
+          "baseExpression": "きる/きれる/きれない",
+          "conjugatedExpression": "きる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-19-b",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-097-19-c",
+          "text": "きらいがある",
+          "grammarId": "n2-030",
+          "baseExpression": "きらいがある",
+          "conjugatedExpression": "きらいがある",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '따로 사는 형과 상의하지 않고서는 본가를 팔기로 결정할 수 없다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
+      "sourceGrammarIds": [
+        "n2-097",
+        "n2-030",
+        "n2-031",
+        "n2-032"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-097-20",
+      "level": "N2",
+      "sentence": "採取した水を分析しないことには、川魚が減った理由は特定できない。",
+      "sentenceWithBlank": "採取した水を分析し（　　　）、川魚が減った理由は特定できない。",
+      "korean": "채취한 물을 분석하지 않고서는 민물고기가 줄어든 이유를 특정할 수 없다.",
+      "answerChoiceId": "fb-created-n2-097-20-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-097-20-a",
+          "text": "きる",
+          "grammarId": "n2-032",
+          "baseExpression": "きる/きれる/きれない",
+          "conjugatedExpression": "きる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-20-b",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-097-20-c",
+          "text": "きらいがある",
+          "grammarId": "n2-030",
+          "baseExpression": "きらいがある",
+          "conjugatedExpression": "きらいがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-20-d",
+          "text": "きり",
+          "grammarId": "n2-031",
+          "baseExpression": "きり",
+          "conjugatedExpression": "きり",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '채취한 물을 분석하지 않고서는 민물고기가 줄어든 이유를 특정할 수 없다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
+      "sourceGrammarIds": [
+        "n2-097",
+        "n2-030",
+        "n2-031",
+        "n2-032"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-097-21",
+      "level": "N2",
+      "sentence": "十分な睡眠を取らないことには、長距離運転に集中できそうもない。",
+      "sentenceWithBlank": "十分な睡眠を取ら（　　　）、長距離運転に集中できそうもない。",
+      "korean": "충분히 자지 않고서는 장거리 운전에 집중하기 어려울 것 같다.",
+      "answerChoiceId": "fb-created-n2-097-21-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-097-21-b",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-097-21-c",
+          "text": "きらいがある",
+          "grammarId": "n2-030",
+          "baseExpression": "きらいがある",
+          "conjugatedExpression": "きらいがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-21-d",
+          "text": "きり",
+          "grammarId": "n2-031",
+          "baseExpression": "きり",
+          "conjugatedExpression": "きり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-21-a",
+          "text": "きる",
+          "grammarId": "n2-032",
+          "baseExpression": "きる/きれる/きれない",
+          "conjugatedExpression": "きる",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '충분히 자지 않고서는 장거리 운전에 집중하기 어려울 것 같다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
+      "sourceGrammarIds": [
+        "n2-097",
+        "n2-030",
+        "n2-031",
+        "n2-032"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-097-22",
+      "level": "N2",
+      "sentence": "新しい飼い主の生活環境を知らないことには、保護犬を引き渡せない。",
+      "sentenceWithBlank": "新しい飼い主の生活環境を知ら（　　　）、保護犬を引き渡せない。",
+      "korean": "새 주인의 생활 환경을 알지 않고서는 보호견을 인계할 수 없다.",
+      "answerChoiceId": "fb-created-n2-097-22-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-097-22-c",
+          "text": "きらいがある",
+          "grammarId": "n2-030",
+          "baseExpression": "きらいがある",
+          "conjugatedExpression": "きらいがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-22-d",
+          "text": "きり",
+          "grammarId": "n2-031",
+          "baseExpression": "きり",
+          "conjugatedExpression": "きり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-22-a",
+          "text": "きる",
+          "grammarId": "n2-032",
+          "baseExpression": "きる/きれる/きれない",
+          "conjugatedExpression": "きる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-22-b",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '새 주인의 생활 환경을 알지 않고서는 보호견을 인계할 수 없다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
+      "sourceGrammarIds": [
+        "n2-097",
+        "n2-030",
+        "n2-031",
+        "n2-032"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-097-23",
+      "level": "N2",
+      "sentence": "国境付近の緊張が収まらないことには、避難した家族は故郷へ戻れない。",
+      "sentenceWithBlank": "国境付近の緊張が収まら（　　　）、避難した家族は故郷へ戻れない。",
+      "korean": "국경 부근의 긴장이 가라앉지 않고서는 피난한 가족들이 고향으로 돌아갈 수 없다.",
+      "answerChoiceId": "fb-created-n2-097-23-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-097-23-d",
+          "text": "きり",
+          "grammarId": "n2-031",
+          "baseExpression": "きり",
+          "conjugatedExpression": "きり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-23-a",
+          "text": "きる",
+          "grammarId": "n2-032",
+          "baseExpression": "きる/きれる/きれない",
+          "conjugatedExpression": "きる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-23-b",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-097-23-c",
+          "text": "きらいがある",
+          "grammarId": "n2-030",
+          "baseExpression": "きらいがある",
+          "conjugatedExpression": "きらいがある",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '국경 부근의 긴장이 가라앉지 않고서는 피난한 가족들이 고향으로 돌아갈 수 없다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
+      "sourceGrammarIds": [
+        "n2-097",
+        "n2-030",
+        "n2-031",
+        "n2-032"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-097-24",
+      "level": "N2",
+      "sentence": "試作品を実際に使ってみないことには、握りやすさまでは評価できない。",
+      "sentenceWithBlank": "試作品を実際に使ってみ（　　　）、握りやすさまでは評価できない。",
+      "korean": "시제품을 실제로 사용해 보지 않고서는 잡기 편한 정도까지 평가할 수 없다.",
+      "answerChoiceId": "fb-created-n2-097-24-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-097-24-a",
+          "text": "きる",
+          "grammarId": "n2-032",
+          "baseExpression": "きる/きれる/きれない",
+          "conjugatedExpression": "きる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-24-b",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-097-24-c",
+          "text": "きらいがある",
+          "grammarId": "n2-030",
+          "baseExpression": "きらいがある",
+          "conjugatedExpression": "きらいがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-24-d",
+          "text": "きり",
+          "grammarId": "n2-031",
+          "baseExpression": "きり",
+          "conjugatedExpression": "きり",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '시제품을 실제로 사용해 보지 않고서는 잡기 편한 정도까지 평가할 수 없다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
+      "sourceGrammarIds": [
+        "n2-097",
+        "n2-030",
+        "n2-031",
+        "n2-032"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-097-25",
+      "level": "N2",
+      "sentence": "家賃の滞納分を払わないことには、大家との信頼関係は取り戻せない。",
+      "sentenceWithBlank": "家賃の滞納分を払わ（　　　）、大家との信頼関係は取り戻せない。",
+      "korean": "밀린 집세를 내지 않고서는 집주인과의 신뢰 관계를 회복할 수 없다.",
+      "answerChoiceId": "fb-created-n2-097-25-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-097-25-b",
+          "text": "ないことには",
+          "grammarId": "n2-097",
+          "baseExpression": "ないことには",
+          "conjugatedExpression": "ないことには",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-097-25-c",
+          "text": "きらいがある",
+          "grammarId": "n2-030",
+          "baseExpression": "きらいがある",
+          "conjugatedExpression": "きらいがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-25-d",
+          "text": "きり",
+          "grammarId": "n2-031",
+          "baseExpression": "きり",
+          "conjugatedExpression": "きり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-097-25-a",
+          "text": "きる",
+          "grammarId": "n2-032",
+          "baseExpression": "きる/きれる/きれない",
+          "conjugatedExpression": "きる",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '밀린 집세를 내지 않고서는 집주인과의 신뢰 관계를 회복할 수 없다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
+      "sourceGrammarIds": [
+        "n2-097",
+        "n2-030",
+        "n2-031",
+        "n2-032"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
       ]
     }
   ],
@@ -1834,1103 +1809,1153 @@
       ]
     },
     {
-      "id": "so-extra-n2-097-1",
+      "id": "so-created-n2-097-01",
       "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlanks": "体が健康で ____ ____ ____ ____",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
+      "sentence": "現地の被害状況を確認しないことには、必要な支援物資を決められない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 物資を決められない。",
+      "korean": "현지의 피해 상황을 확인하지 않고서는 필요한 구호 물자를 결정할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra-n2-097-1-p4",
-          "text": "きないだろう",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-097-1-p1",
-          "text": "ないことには",
-          "order": 1
-        },
-        {
-          "id": "so-extra-n2-097-1-p2",
-          "text": "いい仕事は",
+          "id": "so-created-n2-097-01-p2",
+          "text": "状況を確認し",
           "order": 2
         },
         {
-          "id": "so-extra-n2-097-1-p3",
-          "text": "で",
+          "id": "so-created-n2-097-01-p3",
+          "text": "ないことには、",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-097-01-p4",
+          "text": "必要な支援",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-097-01-p1",
+          "text": "現地の被害",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-097-1-p1",
-        "so-extra-n2-097-1-p2",
-        "so-extra-n2-097-1-p3",
-        "so-extra-n2-097-1-p4"
+        "so-created-n2-097-01-p1",
+        "so-created-n2-097-01-p2",
+        "so-created-n2-097-01-p3",
+        "so-created-n2-097-01-p4"
       ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '현지의 피해 상황을 확인하지 않고서는 필요한 구호 물자를 결정할 수 없다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
       "sourceGrammarIds": [
-        "n2-097"
+        "n2-097",
+        "n2-030",
+        "n2-031",
+        "n2-032"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-097-2",
+      "id": "so-created-n2-097-02",
       "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlanks": "体が健康で ____ ____ ____ ____",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
+      "sentence": "本人の同意を得ないことには、この手術を進めるわけにはいかない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 進めるわけにはいかない。",
+      "korean": "본인의 동의를 얻지 않고서는 이 수술을 진행할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra-n2-097-2-p1",
-          "text": "きないだろう",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-097-2-p2",
-          "text": "ないことには",
+          "id": "so-created-n2-097-02-p1",
+          "text": "本人の",
           "order": 1
         },
         {
-          "id": "so-extra-n2-097-2-p3",
-          "text": "いい仕事は",
+          "id": "so-created-n2-097-02-p2",
+          "text": "同意を得",
           "order": 2
         },
         {
-          "id": "so-extra-n2-097-2-p4",
-          "text": "で",
+          "id": "so-created-n2-097-02-p3",
+          "text": "ないことには、",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-097-02-p4",
+          "text": "この手術を",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-097-2-p2",
-        "so-extra-n2-097-2-p3",
-        "so-extra-n2-097-2-p4",
-        "so-extra-n2-097-2-p1"
+        "so-created-n2-097-02-p1",
+        "so-created-n2-097-02-p2",
+        "so-created-n2-097-02-p3",
+        "so-created-n2-097-02-p4"
       ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '본인의 동의를 얻지 않고서는 이 수술을 진행할 수 없다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
       "sourceGrammarIds": [
-        "n2-097"
+        "n2-097",
+        "n2-030",
+        "n2-031",
+        "n2-032"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-097-3",
+      "id": "so-created-n2-097-03",
       "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、いい仕事はできないだろう。",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
+      "sentence": "契約書の細部まで読まないことには、安心して署名できない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 署名できない。",
+      "korean": "계약서의 세부 사항까지 읽지 않고서는 안심하고 서명할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra-n2-097-3-p2",
-          "text": "で",
+          "id": "so-created-n2-097-03-p4",
+          "text": "安心して",
           "order": 4
         },
         {
-          "id": "so-extra-n2-097-3-p3",
-          "text": "で",
+          "id": "so-created-n2-097-03-p1",
+          "text": "契約書の",
           "order": 1
         },
         {
-          "id": "so-extra-n2-097-3-p4",
-          "text": "ないことには",
+          "id": "so-created-n2-097-03-p2",
+          "text": "細部まで読ま",
           "order": 2
         },
         {
-          "id": "so-extra-n2-097-3-p1",
-          "text": "いい仕事は",
+          "id": "so-created-n2-097-03-p3",
+          "text": "ないことには、",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-097-3-p3",
-        "so-extra-n2-097-3-p4",
-        "so-extra-n2-097-3-p1",
-        "so-extra-n2-097-3-p2"
+        "so-created-n2-097-03-p1",
+        "so-created-n2-097-03-p2",
+        "so-created-n2-097-03-p3",
+        "so-created-n2-097-03-p4"
       ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '계약서의 세부 사항까지 읽지 않고서는 안심하고 서명할 수 없다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
       "sourceGrammarIds": [
-        "n2-097"
+        "n2-097",
+        "n2-030",
+        "n2-031",
+        "n2-032"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-097-4",
+      "id": "so-created-n2-097-04",
       "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlanks": "体が健康で ____ ____ ____ ____",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
+      "sentence": "土壌の成分を調べないことには、この畑に適した作物は選べない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 作物は選べない。",
+      "korean": "토양 성분을 조사하지 않고서는 이 밭에 알맞은 작물을 고를 수 없다.",
       "pieces": [
         {
-          "id": "so-extra-n2-097-4-p3",
-          "text": "きないだろう",
+          "id": "so-created-n2-097-04-p3",
+          "text": "ないことには、",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-097-04-p4",
+          "text": "この畑に適した",
           "order": 4
         },
         {
-          "id": "so-extra-n2-097-4-p4",
-          "text": "ないことには",
+          "id": "so-created-n2-097-04-p1",
+          "text": "土壌の",
           "order": 1
         },
         {
-          "id": "so-extra-n2-097-4-p1",
-          "text": "いい仕事は",
+          "id": "so-created-n2-097-04-p2",
+          "text": "成分を調べ",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-097-4-p2",
-          "text": "で",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-097-4-p4",
-        "so-extra-n2-097-4-p1",
-        "so-extra-n2-097-4-p2",
-        "so-extra-n2-097-4-p3"
+        "so-created-n2-097-04-p1",
+        "so-created-n2-097-04-p2",
+        "so-created-n2-097-04-p3",
+        "so-created-n2-097-04-p4"
       ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '토양 성분을 조사하지 않고서는 이 밭에 알맞은 작물을 고를 수 없다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
       "sourceGrammarIds": [
-        "n2-097"
+        "n2-097",
+        "n2-030",
+        "n2-031",
+        "n2-032"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-097-5",
+      "id": "so-created-n2-097-05",
       "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlanks": "体が健康で ____ ____ ____ ____",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
+      "sentence": "故障の原因を突き止めないことには、工場の機械を再稼働させられない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 再稼働させられない。",
+      "korean": "고장 원인을 밝혀내지 않고서는 공장 기계를 재가동할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra-n2-097-5-p4",
-          "text": "きないだろう",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-097-5-p1",
-          "text": "ないことには",
-          "order": 1
-        },
-        {
-          "id": "so-extra-n2-097-5-p2",
-          "text": "いい仕事は",
+          "id": "so-created-n2-097-05-p2",
+          "text": "突き止め",
           "order": 2
         },
         {
-          "id": "so-extra-n2-097-5-p3",
-          "text": "で",
+          "id": "so-created-n2-097-05-p3",
+          "text": "ないことには、",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-097-05-p4",
+          "text": "工場の機械を",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-097-05-p1",
+          "text": "故障の原因を",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-097-5-p1",
-        "so-extra-n2-097-5-p2",
-        "so-extra-n2-097-5-p3",
-        "so-extra-n2-097-5-p4"
+        "so-created-n2-097-05-p1",
+        "so-created-n2-097-05-p2",
+        "so-created-n2-097-05-p3",
+        "so-created-n2-097-05-p4"
       ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '고장 원인을 밝혀내지 않고서는 공장 기계를 재가동할 수 없다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
       "sourceGrammarIds": [
-        "n2-097"
+        "n2-097",
+        "n2-030",
+        "n2-031",
+        "n2-032"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-097-01",
+      "id": "so-created-n2-097-06",
       "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlanks": "体が健康で ____ ____ ____ ____",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
+      "sentence": "資金の見通しが立たないことには、新店舗の開業日は発表できない。",
+      "sentenceWithBlanks": "資金の ____ ____ ____ ____ 発表できない。",
+      "korean": "자금 전망이 서지 않고서는 새 점포의 개업일을 발표할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-097-01-p4",
-          "text": "きないだろう",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-097-01-p1",
-          "text": "ないことには",
+          "id": "so-created-n2-097-06-p1",
+          "text": "見通しが立た",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-097-01-p2",
-          "text": "いい仕事は",
+          "id": "so-created-n2-097-06-p2",
+          "text": "ないことには、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-097-01-p3",
-          "text": "で",
+          "id": "so-created-n2-097-06-p3",
+          "text": "新店舗の",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-097-06-p4",
+          "text": "開業日は",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-097-01-p1",
-        "so-extra20-n2-097-01-p2",
-        "so-extra20-n2-097-01-p3",
-        "so-extra20-n2-097-01-p4"
+        "so-created-n2-097-06-p1",
+        "so-created-n2-097-06-p2",
+        "so-created-n2-097-06-p3",
+        "so-created-n2-097-06-p4"
       ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '자금 전망이 서지 않고서는 새 점포의 개업일을 발표할 수 없다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
       "sourceGrammarIds": [
-        "n2-097"
+        "n2-097",
+        "n2-030",
+        "n2-031",
+        "n2-032"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-097-02",
+      "id": "so-created-n2-097-07",
       "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlanks": "体が健康で ____ ____ ____ ____",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
+      "sentence": "乗客全員の安全を確かめないことには、船は港を出られない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 出られない。",
+      "korean": "승객 전원의 안전을 확인하지 않고서는 배가 항구를 떠날 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-097-02-p3",
-          "text": "いい仕事は",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-097-02-p4",
-          "text": "で",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-097-02-p1",
-          "text": "きないだろう",
+          "id": "so-created-n2-097-07-p4",
+          "text": "船は港を",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-097-02-p2",
-          "text": "ないことには",
+          "id": "so-created-n2-097-07-p1",
+          "text": "乗客全員の",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-097-07-p2",
+          "text": "安全を確かめ",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-097-07-p3",
+          "text": "ないことには、",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-097-02-p2",
-        "so-extra20-n2-097-02-p3",
-        "so-extra20-n2-097-02-p4",
-        "so-extra20-n2-097-02-p1"
+        "so-created-n2-097-07-p1",
+        "so-created-n2-097-07-p2",
+        "so-created-n2-097-07-p3",
+        "so-created-n2-097-07-p4"
       ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '승객 전원의 안전을 확인하지 않고서는 배가 항구를 떠날 수 없다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
       "sourceGrammarIds": [
-        "n2-097"
+        "n2-097",
+        "n2-030",
+        "n2-031",
+        "n2-032"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-097-03",
+      "id": "so-created-n2-097-08",
       "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、いい仕事はできないだろう。",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
+      "sentence": "相手の希望を聞かないことには、結婚式の会場を予約しにくい。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "상대방의 희망을 듣지 않고서는 결혼식장을 예약하기 어렵다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-097-03-p2",
-          "text": "で",
+          "id": "so-created-n2-097-08-p3",
+          "text": "結婚式の会場を",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-097-08-p4",
+          "text": "予約しにくい。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-097-03-p3",
-          "text": "で",
+          "id": "so-created-n2-097-08-p1",
+          "text": "相手の希望を聞か",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-097-03-p4",
-          "text": "ないことには",
+          "id": "so-created-n2-097-08-p2",
+          "text": "ないことには、",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-097-03-p1",
-          "text": "いい仕事は",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-097-03-p3",
-        "so-extra20-n2-097-03-p4",
-        "so-extra20-n2-097-03-p1",
-        "so-extra20-n2-097-03-p2"
+        "so-created-n2-097-08-p1",
+        "so-created-n2-097-08-p2",
+        "so-created-n2-097-08-p3",
+        "so-created-n2-097-08-p4"
       ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '상대방의 희망을 듣지 않고서는 결혼식장을 예약하기 어렵다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
       "sourceGrammarIds": [
-        "n2-097"
+        "n2-097",
+        "n2-030",
+        "n2-031",
+        "n2-032"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-097-04",
+      "id": "so-created-n2-097-09",
       "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlanks": "体が健康で ____ ____ ____ ____",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
+      "sentence": "古い配管を交換しないことには、マンションの水漏れは根本的に解決できない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 根本的に解決できない。",
+      "korean": "낡은 배관을 교체하지 않고서는 아파트 누수를 근본적으로 해결할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-097-04-p1",
-          "text": "いい仕事は",
+          "id": "so-created-n2-097-09-p2",
+          "text": "ないことには、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-097-04-p2",
-          "text": "で",
+          "id": "so-created-n2-097-09-p3",
+          "text": "マンションの",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-097-04-p3",
-          "text": "きないだろう",
+          "id": "so-created-n2-097-09-p4",
+          "text": "水漏れは",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-097-04-p4",
-          "text": "ないことには",
+          "id": "so-created-n2-097-09-p1",
+          "text": "古い配管を交換し",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-097-04-p4",
-        "so-extra20-n2-097-04-p1",
-        "so-extra20-n2-097-04-p2",
-        "so-extra20-n2-097-04-p3"
+        "so-created-n2-097-09-p1",
+        "so-created-n2-097-09-p2",
+        "so-created-n2-097-09-p3",
+        "so-created-n2-097-09-p4"
       ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '낡은 배관을 교체하지 않고서는 아파트 누수를 근본적으로 해결할 수 없다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
       "sourceGrammarIds": [
-        "n2-097"
+        "n2-097",
+        "n2-030",
+        "n2-031",
+        "n2-032"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-097-05",
+      "id": "so-created-n2-097-10",
       "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlanks": "体が健康で ____ ____ ____ ____",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
+      "sentence": "輸入許可が下りないことには、港の荷物を国内へ運び込めない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 運び込めない。",
+      "korean": "수입 허가가 나지 않고서는 항구의 화물을 국내로 반입할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-097-05-p4",
-          "text": "きないだろう",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-097-05-p1",
-          "text": "ないことには",
+          "id": "so-created-n2-097-10-p1",
+          "text": "輸入許可が下り",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-097-05-p2",
-          "text": "いい仕事は",
+          "id": "so-created-n2-097-10-p2",
+          "text": "ないことには、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-097-05-p3",
-          "text": "で",
+          "id": "so-created-n2-097-10-p3",
+          "text": "港の荷物を",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-097-10-p4",
+          "text": "国内へ",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-097-05-p1",
-        "so-extra20-n2-097-05-p2",
-        "so-extra20-n2-097-05-p3",
-        "so-extra20-n2-097-05-p4"
+        "so-created-n2-097-10-p1",
+        "so-created-n2-097-10-p2",
+        "so-created-n2-097-10-p3",
+        "so-created-n2-097-10-p4"
       ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '수입 허가가 나지 않고서는 항구의 화물을 국내로 반입할 수 없다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
       "sourceGrammarIds": [
-        "n2-097"
+        "n2-097",
+        "n2-030",
+        "n2-031",
+        "n2-032"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-097-06",
+      "id": "so-created-n2-097-11",
       "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlanks": "体が健康で ____ ____ ____ ____",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
+      "sentence": "候補者の経歴を十分に確かめないことには、後任を任せられない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "후보자의 경력을 충분히 확인하지 않고서는 후임을 맡길 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-097-06-p3",
-          "text": "で",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-097-06-p4",
-          "text": "きないだろう",
+          "id": "so-created-n2-097-11-p4",
+          "text": "後任を任せられない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-097-06-p1",
-          "text": "ないことには",
+          "id": "so-created-n2-097-11-p1",
+          "text": "候補者の経歴を",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-097-06-p2",
-          "text": "いい仕事は",
+          "id": "so-created-n2-097-11-p2",
+          "text": "十分に確かめ",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-097-11-p3",
+          "text": "ないことには、",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-097-06-p1",
-        "so-extra20-n2-097-06-p2",
-        "so-extra20-n2-097-06-p3",
-        "so-extra20-n2-097-06-p4"
+        "so-created-n2-097-11-p1",
+        "so-created-n2-097-11-p2",
+        "so-created-n2-097-11-p3",
+        "so-created-n2-097-11-p4"
       ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '후보자의 경력을 충분히 확인하지 않고서는 후임을 맡길 수 없다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
       "sourceGrammarIds": [
-        "n2-097"
+        "n2-097",
+        "n2-030",
+        "n2-031",
+        "n2-032"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-097-07",
+      "id": "so-created-n2-097-12",
       "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlanks": "体が健康で ____ ____ ____ ____",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
+      "sentence": "雪崩の危険がなくならないことには、山小屋まで救助隊を送れない。",
+      "sentenceWithBlanks": "雪崩の ____ ____ ____ ____",
+      "korean": "눈사태 위험이 사라지지 않고서는 산장까지 구조대를 보낼 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-097-07-p2",
-          "text": "ないことには",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-097-07-p3",
-          "text": "いい仕事は",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-097-07-p4",
-          "text": "で",
+          "id": "so-created-n2-097-12-p3",
+          "text": "山小屋まで救助",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-097-07-p1",
-          "text": "きないだろう",
+          "id": "so-created-n2-097-12-p4",
+          "text": "隊を送れない。",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-097-12-p1",
+          "text": "危険がなくなら",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-097-12-p2",
+          "text": "ないことには、",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-097-07-p2",
-        "so-extra20-n2-097-07-p3",
-        "so-extra20-n2-097-07-p4",
-        "so-extra20-n2-097-07-p1"
+        "so-created-n2-097-12-p1",
+        "so-created-n2-097-12-p2",
+        "so-created-n2-097-12-p3",
+        "so-created-n2-097-12-p4"
       ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '눈사태 위험이 사라지지 않고서는 산장까지 구조대를 보낼 수 없다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
       "sourceGrammarIds": [
-        "n2-097"
+        "n2-097",
+        "n2-030",
+        "n2-031",
+        "n2-032"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-097-08",
+      "id": "so-created-n2-097-13",
       "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、いい仕事はできないだろう。",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
+      "sentence": "住民の理解を得ないことには、風力発電所の建設は始められない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 建設は始められない。",
+      "korean": "주민들의 이해를 얻지 않고서는 풍력 발전소 건설을 시작할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-097-08-p1",
-          "text": "いい仕事は",
+          "id": "so-created-n2-097-13-p2",
+          "text": "理解を得",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-097-13-p3",
+          "text": "ないことには、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-097-08-p2",
-          "text": "で",
+          "id": "so-created-n2-097-13-p4",
+          "text": "風力発電所の",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-097-08-p3",
-          "text": "で",
+          "id": "so-created-n2-097-13-p1",
+          "text": "住民の",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-097-08-p4",
-          "text": "ないことには",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-097-08-p3",
-        "so-extra20-n2-097-08-p4",
-        "so-extra20-n2-097-08-p1",
-        "so-extra20-n2-097-08-p2"
+        "so-created-n2-097-13-p1",
+        "so-created-n2-097-13-p2",
+        "so-created-n2-097-13-p3",
+        "so-created-n2-097-13-p4"
       ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '주민들의 이해를 얻지 않고서는 풍력 발전소 건설을 시작할 수 없다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
       "sourceGrammarIds": [
-        "n2-097"
+        "n2-097",
+        "n2-030",
+        "n2-031",
+        "n2-032"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-097-09",
+      "id": "so-created-n2-097-14",
       "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlanks": "体が健康で ____ ____ ____ ____",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
+      "sentence": "暗証番号を思い出さないことには、金庫の中の書類を取り出せない。",
+      "sentenceWithBlanks": "暗証 ____ ____ ____ ____ 出せない。",
+      "korean": "비밀번호를 떠올리지 않고서는 금고 안의 서류를 꺼낼 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-097-09-p4",
-          "text": "ないことには",
+          "id": "so-created-n2-097-14-p1",
+          "text": "番号を思い出さ",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-097-09-p1",
-          "text": "いい仕事は",
+          "id": "so-created-n2-097-14-p2",
+          "text": "ないことには、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-097-09-p2",
-          "text": "で",
+          "id": "so-created-n2-097-14-p3",
+          "text": "金庫の中の",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-097-09-p3",
-          "text": "きないだろう",
+          "id": "so-created-n2-097-14-p4",
+          "text": "書類を取り",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-097-09-p4",
-        "so-extra20-n2-097-09-p1",
-        "so-extra20-n2-097-09-p2",
-        "so-extra20-n2-097-09-p3"
+        "so-created-n2-097-14-p1",
+        "so-created-n2-097-14-p2",
+        "so-created-n2-097-14-p3",
+        "so-created-n2-097-14-p4"
       ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '비밀번호를 떠올리지 않고서는 금고 안의 서류를 꺼낼 수 없다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
       "sourceGrammarIds": [
-        "n2-097"
+        "n2-097",
+        "n2-030",
+        "n2-031",
+        "n2-032"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-097-10",
+      "id": "so-created-n2-097-15",
       "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlanks": "体が健康で ____ ____ ____ ____",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
+      "sentence": "市場の需要が回復しないことには、漁獲量を増やすのは難しい。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "시장의 수요가 회복되지 않고서는 어획량을 늘리기 어렵다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-097-10-p3",
-          "text": "で",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-097-10-p4",
-          "text": "きないだろう",
+          "id": "so-created-n2-097-15-p4",
+          "text": "増やすのは難しい。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-097-10-p1",
-          "text": "ないことには",
+          "id": "so-created-n2-097-15-p1",
+          "text": "市場の需要が回復し",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-097-10-p2",
-          "text": "いい仕事は",
+          "id": "so-created-n2-097-15-p2",
+          "text": "ないことには、",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-097-15-p3",
+          "text": "漁獲量を",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-097-10-p1",
-        "so-extra20-n2-097-10-p2",
-        "so-extra20-n2-097-10-p3",
-        "so-extra20-n2-097-10-p4"
+        "so-created-n2-097-15-p1",
+        "so-created-n2-097-15-p2",
+        "so-created-n2-097-15-p3",
+        "so-created-n2-097-15-p4"
       ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '시장의 수요가 회복되지 않고서는 어획량을 늘리기 어렵다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
       "sourceGrammarIds": [
-        "n2-097"
+        "n2-097",
+        "n2-030",
+        "n2-031",
+        "n2-032"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-097-11",
+      "id": "so-created-n2-097-16",
       "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlanks": "体が健康で ____ ____ ____ ____",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
+      "sentence": "患者のアレルギー歴が分からないことには、この薬を処方できない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 処方できない。",
+      "korean": "환자의 알레르기 병력을 알지 못하고서는 이 약을 처방할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-097-11-p2",
-          "text": "いい仕事は",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-097-11-p3",
-          "text": "で",
+          "id": "so-created-n2-097-16-p3",
+          "text": "ないことには、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-097-11-p4",
-          "text": "きないだろう",
+          "id": "so-created-n2-097-16-p4",
+          "text": "この薬を",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-097-11-p1",
-          "text": "ないことには",
+          "id": "so-created-n2-097-16-p1",
+          "text": "患者のアレルギー",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-097-16-p2",
+          "text": "歴が分から",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-097-11-p1",
-        "so-extra20-n2-097-11-p2",
-        "so-extra20-n2-097-11-p3",
-        "so-extra20-n2-097-11-p4"
+        "so-created-n2-097-16-p1",
+        "so-created-n2-097-16-p2",
+        "so-created-n2-097-16-p3",
+        "so-created-n2-097-16-p4"
       ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '환자의 알레르기 병력을 알지 못하고서는 이 약을 처방할 수 없다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
       "sourceGrammarIds": [
-        "n2-097"
+        "n2-097",
+        "n2-030",
+        "n2-031",
+        "n2-032"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-097-12",
+      "id": "so-created-n2-097-17",
       "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlanks": "体が健康で ____ ____ ____ ____",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
+      "sentence": "証拠となる映像が見つからないことには、事故の責任を判断できない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 判断できない。",
+      "korean": "증거가 될 영상이 발견되지 않고서는 사고의 책임을 판단할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-097-12-p1",
-          "text": "きないだろう",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-097-12-p2",
-          "text": "ないことには",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-097-12-p3",
-          "text": "いい仕事は",
+          "id": "so-created-n2-097-17-p2",
+          "text": "映像が見つから",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-097-12-p4",
-          "text": "で",
+          "id": "so-created-n2-097-17-p3",
+          "text": "ないことには、",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-097-17-p4",
+          "text": "事故の責任を",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-097-17-p1",
+          "text": "証拠となる",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-097-12-p2",
-        "so-extra20-n2-097-12-p3",
-        "so-extra20-n2-097-12-p4",
-        "so-extra20-n2-097-12-p1"
+        "so-created-n2-097-17-p1",
+        "so-created-n2-097-17-p2",
+        "so-created-n2-097-17-p3",
+        "so-created-n2-097-17-p4"
       ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '증거가 될 영상이 발견되지 않고서는 사고의 책임을 판단할 수 없다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
       "sourceGrammarIds": [
-        "n2-097"
+        "n2-097",
+        "n2-030",
+        "n2-031",
+        "n2-032"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-097-13",
+      "id": "so-created-n2-097-18",
       "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、いい仕事はできないだろう。",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
+      "sentence": "雨がもう少し弱まらないことには、屋根の修理には取りかかれない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 取りかかれない。",
+      "korean": "비가 조금 더 약해지지 않고서는 지붕 수리에 착수할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-097-13-p4",
-          "text": "ないことには",
+          "id": "so-created-n2-097-18-p1",
+          "text": "雨がもう少し",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-097-18-p2",
+          "text": "弱まら",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-097-13-p1",
-          "text": "いい仕事は",
+          "id": "so-created-n2-097-18-p3",
+          "text": "ないことには、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-097-13-p2",
-          "text": "で",
+          "id": "so-created-n2-097-18-p4",
+          "text": "屋根の修理には",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-097-13-p3",
-          "text": "で",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-097-13-p3",
-        "so-extra20-n2-097-13-p4",
-        "so-extra20-n2-097-13-p1",
-        "so-extra20-n2-097-13-p2"
+        "so-created-n2-097-18-p1",
+        "so-created-n2-097-18-p2",
+        "so-created-n2-097-18-p3",
+        "so-created-n2-097-18-p4"
       ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '비가 조금 더 약해지지 않고서는 지붕 수리에 착수할 수 없다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
       "sourceGrammarIds": [
-        "n2-097"
+        "n2-097",
+        "n2-030",
+        "n2-031",
+        "n2-032"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-097-14",
+      "id": "so-created-n2-097-19",
       "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlanks": "体が健康で ____ ____ ____ ____",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
+      "sentence": "離れて暮らす兄と相談しないことには、実家を売る決断はできない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 決断はできない。",
+      "korean": "따로 사는 형과 상의하지 않고서는 본가를 팔기로 결정할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-097-14-p3",
-          "text": "きないだろう",
+          "id": "so-created-n2-097-19-p4",
+          "text": "実家を売る",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-097-14-p4",
-          "text": "ないことには",
+          "id": "so-created-n2-097-19-p1",
+          "text": "離れて暮らす",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-097-14-p1",
-          "text": "いい仕事は",
+          "id": "so-created-n2-097-19-p2",
+          "text": "兄と相談し",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-097-14-p2",
-          "text": "で",
+          "id": "so-created-n2-097-19-p3",
+          "text": "ないことには、",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-097-14-p4",
-        "so-extra20-n2-097-14-p1",
-        "so-extra20-n2-097-14-p2",
-        "so-extra20-n2-097-14-p3"
+        "so-created-n2-097-19-p1",
+        "so-created-n2-097-19-p2",
+        "so-created-n2-097-19-p3",
+        "so-created-n2-097-19-p4"
       ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '따로 사는 형과 상의하지 않고서는 본가를 팔기로 결정할 수 없다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
       "sourceGrammarIds": [
-        "n2-097"
+        "n2-097",
+        "n2-030",
+        "n2-031",
+        "n2-032"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-097-15",
+      "id": "so-created-n2-097-20",
       "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlanks": "体が健康で ____ ____ ____ ____",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
+      "sentence": "採取した水を分析しないことには、川魚が減った理由は特定できない。",
+      "sentenceWithBlanks": "採取した ____ ____ ____ ____ 特定できない。",
+      "korean": "채취한 물을 분석하지 않고서는 민물고기가 줄어든 이유를 특정할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-097-15-p2",
-          "text": "いい仕事は",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-097-15-p3",
-          "text": "で",
+          "id": "so-created-n2-097-20-p3",
+          "text": "川魚が",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-097-15-p4",
-          "text": "きないだろう",
+          "id": "so-created-n2-097-20-p4",
+          "text": "減った理由は",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-097-15-p1",
-          "text": "ないことには",
+          "id": "so-created-n2-097-20-p1",
+          "text": "水を分析し",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-097-20-p2",
+          "text": "ないことには、",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-097-15-p1",
-        "so-extra20-n2-097-15-p2",
-        "so-extra20-n2-097-15-p3",
-        "so-extra20-n2-097-15-p4"
+        "so-created-n2-097-20-p1",
+        "so-created-n2-097-20-p2",
+        "so-created-n2-097-20-p3",
+        "so-created-n2-097-20-p4"
       ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '채취한 물을 분석하지 않고서는 민물고기가 줄어든 이유를 특정할 수 없다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
       "sourceGrammarIds": [
-        "n2-097"
+        "n2-097",
+        "n2-030",
+        "n2-031",
+        "n2-032"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-097-16",
+      "id": "so-created-n2-097-21",
       "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlanks": "体が健康で ____ ____ ____ ____",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
+      "sentence": "十分な睡眠を取らないことには、長距離運転に集中できそうもない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 集中できそうもない。",
+      "korean": "충분히 자지 않고서는 장거리 운전에 집중하기 어려울 것 같다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-097-16-p1",
-          "text": "ないことには",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-097-16-p2",
-          "text": "いい仕事は",
+          "id": "so-created-n2-097-21-p2",
+          "text": "睡眠を取ら",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-097-16-p3",
-          "text": "で",
+          "id": "so-created-n2-097-21-p3",
+          "text": "ないことには、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-097-16-p4",
-          "text": "きないだろう",
+          "id": "so-created-n2-097-21-p4",
+          "text": "長距離運転に",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-097-21-p1",
+          "text": "十分な",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-097-16-p1",
-        "so-extra20-n2-097-16-p2",
-        "so-extra20-n2-097-16-p3",
-        "so-extra20-n2-097-16-p4"
+        "so-created-n2-097-21-p1",
+        "so-created-n2-097-21-p2",
+        "so-created-n2-097-21-p3",
+        "so-created-n2-097-21-p4"
       ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '충분히 자지 않고서는 장거리 운전에 집중하기 어려울 것 같다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
       "sourceGrammarIds": [
-        "n2-097"
+        "n2-097",
+        "n2-030",
+        "n2-031",
+        "n2-032"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-097-17",
+      "id": "so-created-n2-097-22",
       "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlanks": "体が健康で ____ ____ ____ ____",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
+      "sentence": "新しい飼い主の生活環境を知らないことには、保護犬を引き渡せない。",
+      "sentenceWithBlanks": "新しい飼い主の ____ ____ ____ ____ 渡せない。",
+      "korean": "새 주인의 생활 환경을 알지 않고서는 보호견을 인계할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-097-17-p4",
-          "text": "で",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-097-17-p1",
-          "text": "きないだろう",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-097-17-p2",
-          "text": "ないことには",
+          "id": "so-created-n2-097-22-p1",
+          "text": "生活",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-097-17-p3",
-          "text": "いい仕事は",
+          "id": "so-created-n2-097-22-p2",
+          "text": "環境を知ら",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-097-22-p3",
+          "text": "ないことには、",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-097-22-p4",
+          "text": "保護犬を引き",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-097-17-p2",
-        "so-extra20-n2-097-17-p3",
-        "so-extra20-n2-097-17-p4",
-        "so-extra20-n2-097-17-p1"
+        "so-created-n2-097-22-p1",
+        "so-created-n2-097-22-p2",
+        "so-created-n2-097-22-p3",
+        "so-created-n2-097-22-p4"
       ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '새 주인의 생활 환경을 알지 않고서는 보호견을 인계할 수 없다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
       "sourceGrammarIds": [
-        "n2-097"
+        "n2-097",
+        "n2-030",
+        "n2-031",
+        "n2-032"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-097-18",
+      "id": "so-created-n2-097-23",
       "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、いい仕事はできないだろう。",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
+      "sentence": "国境付近の緊張が収まらないことには、避難した家族は故郷へ戻れない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 故郷へ戻れない。",
+      "korean": "국경 부근의 긴장이 가라앉지 않고서는 피난한 가족들이 고향으로 돌아갈 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-097-18-p3",
-          "text": "で",
+          "id": "so-created-n2-097-23-p4",
+          "text": "避難した家族は",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-097-23-p1",
+          "text": "国境付近の",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-097-18-p4",
-          "text": "ないことには",
+          "id": "so-created-n2-097-23-p2",
+          "text": "緊張が収まら",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-097-18-p1",
-          "text": "いい仕事は",
+          "id": "so-created-n2-097-23-p3",
+          "text": "ないことには、",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-097-18-p2",
-          "text": "で",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-097-18-p3",
-        "so-extra20-n2-097-18-p4",
-        "so-extra20-n2-097-18-p1",
-        "so-extra20-n2-097-18-p2"
+        "so-created-n2-097-23-p1",
+        "so-created-n2-097-23-p2",
+        "so-created-n2-097-23-p3",
+        "so-created-n2-097-23-p4"
       ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '국경 부근의 긴장이 가라앉지 않고서는 피난한 가족들이 고향으로 돌아갈 수 없다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
       "sourceGrammarIds": [
-        "n2-097"
+        "n2-097",
+        "n2-030",
+        "n2-031",
+        "n2-032"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-097-19",
+      "id": "so-created-n2-097-24",
       "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlanks": "体が健康で ____ ____ ____ ____",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
+      "sentence": "試作品を実際に使ってみないことには、握りやすさまでは評価できない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 評価できない。",
+      "korean": "시제품을 실제로 사용해 보지 않고서는 잡기 편한 정도까지 평가할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-097-19-p2",
-          "text": "で",
+          "id": "so-created-n2-097-24-p3",
+          "text": "ないことには、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-097-19-p3",
-          "text": "きないだろう",
+          "id": "so-created-n2-097-24-p4",
+          "text": "握りやすさまでは",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-097-19-p4",
-          "text": "ないことには",
+          "id": "so-created-n2-097-24-p1",
+          "text": "試作品を",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-097-19-p1",
-          "text": "いい仕事は",
+          "id": "so-created-n2-097-24-p2",
+          "text": "実際に使ってみ",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-097-19-p4",
-        "so-extra20-n2-097-19-p1",
-        "so-extra20-n2-097-19-p2",
-        "so-extra20-n2-097-19-p3"
+        "so-created-n2-097-24-p1",
+        "so-created-n2-097-24-p2",
+        "so-created-n2-097-24-p3",
+        "so-created-n2-097-24-p4"
       ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '시제품을 실제로 사용해 보지 않고서는 잡기 편한 정도까지 평가할 수 없다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
       "sourceGrammarIds": [
-        "n2-097"
+        "n2-097",
+        "n2-030",
+        "n2-031",
+        "n2-032"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-097-20",
+      "id": "so-created-n2-097-25",
       "level": "N2",
-      "sentence": "体が健康でないことには、いい仕事はできないだろう。",
-      "sentenceWithBlanks": "体が健康で ____ ____ ____ ____",
-      "korean": "몸이 건강하지 않고서는 좋은 일을 할 수 없을 것이다.",
+      "sentence": "家賃の滞納分を払わないことには、大家との信頼関係は取り戻せない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 関係は取り戻せない。",
+      "korean": "밀린 집세를 내지 않고서는 집주인과의 신뢰 관계를 회복할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-097-20-p1",
-          "text": "ないことには",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-097-20-p2",
-          "text": "いい仕事は",
+          "id": "so-created-n2-097-25-p2",
+          "text": "分を払わ",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-097-20-p3",
-          "text": "で",
+          "id": "so-created-n2-097-25-p3",
+          "text": "ないことには、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-097-20-p4",
-          "text": "きないだろう",
+          "id": "so-created-n2-097-25-p4",
+          "text": "大家との信頼",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-097-25-p1",
+          "text": "家賃の滞納",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-097-20-p1",
-        "so-extra20-n2-097-20-p2",
-        "so-extra20-n2-097-20-p3",
-        "so-extra20-n2-097-20-p4"
+        "so-created-n2-097-25-p1",
+        "so-created-n2-097-25-p2",
+        "so-created-n2-097-25-p3",
+        "so-created-n2-097-25-p4"
       ],
-      "explanation": "「ないことには」는 ~하기 전에는, ~하지 않고서는라는 뜻이다. 앞 조건이 충족되어야 뒤가 가능.",
+      "explanation": "「ないことには」는 '~하기 전에는, ~하지 않고서는'라는 뜻을 나타낸다. 이 문장에서는 '밀린 집세를 내지 않고서는 집주인과의 신뢰 관계를 회복할 수 없다.'라는 상황에 쓰였으며, 앞 조건이 충족되어야 뒤가 가능. 주의할 점은 「ことには」가 붙어 전제 조건을 더 명확히 강조. 뒤에 不可能·困難 표현이 옴.",
       "sourceGrammarIds": [
-        "n2-097"
+        "n2-097",
+        "n2-030",
+        "n2-031",
+        "n2-032"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     }
   ]

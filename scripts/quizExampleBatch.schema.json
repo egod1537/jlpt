@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["grammarSets"],
+  "properties": {
+    "grammarSets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["grammarId", "examples"],
+        "properties": {
+          "grammarId": {
+            "type": "string"
+          },
+          "examples": {
+            "type": "array",
+            "minItems": 25,
+            "maxItems": 25,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "sourceQuestionId",
+                "answer",
+                "japanese",
+                "korean",
+                "pieces"
+              ],
+              "properties": {
+                "sourceQuestionId": {
+                  "type": "string"
+                },
+                "answer": {
+                  "type": "string"
+                },
+                "japanese": {
+                  "type": "string"
+                },
+                "korean": {
+                  "type": "string"
+                },
+                "pieces": {
+                  "type": "array",
+                  "minItems": 4,
+                  "maxItems": 4,
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

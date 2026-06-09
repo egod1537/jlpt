@@ -267,15 +267,23 @@
       ]
     },
     {
-      "id": "fb-extra-n2-008-1",
+      "id": "fb-created-n2-008-01",
       "level": "N2",
-      "sentence": "この事故はいつでも起こり得ることとして十分注意が必要だ。",
-      "sentenceWithBlank": "この事故はいつでも起こり（　　　）こととして十分注意が必要だ。",
-      "korean": "이 사고는 언제든 일어날 수 있는 일로 충분한 주의가 필요하다.",
-      "answerChoiceId": "fb-extra-n2-008-1-b",
+      "sentence": "沿岸部では想定を超える高潮が発生し得るため、早めの避難が欠かせない。",
+      "sentenceWithBlank": "沿岸部では想定を超える高潮が発生し（　　　）ため、早めの避難が欠かせない。",
+      "korean": "해안 지역에서는 예상을 뛰어넘는 폭풍 해일이 발생할 가능성이 있으므로 조기 대피가 필수적이다.",
+      "answerChoiceId": "fb-created-n2-008-01-b",
       "choices": [
         {
-          "id": "fb-extra-n2-008-1-b",
+          "id": "fb-created-n2-008-01-a",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-008-01-b",
           "text": "得る",
           "grammarId": "n2-008",
           "baseExpression": "得るうる",
@@ -283,7 +291,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra-n2-008-1-c",
+          "id": "fb-created-n2-008-01-c",
           "text": "ようものなら",
           "grammarId": "n2-167",
           "baseExpression": "ようものなら",
@@ -291,23 +299,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-008-1-d",
+          "id": "fb-created-n2-008-01-d",
           "text": "わけがない",
           "grammarId": "n2-168",
           "baseExpression": "わけがない",
           "conjugatedExpression": "わけがない",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-008-1-a",
-          "text": "わけではない",
-          "grammarId": "n2-169",
-          "baseExpression": "わけではない",
-          "conjugatedExpression": "わけではない",
-          "isSimilarDistractor": true
         }
       ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '해안 지역에서는 예상을 뛰어넘는 폭풍 해일이 발생할 가능성이 있으므로 조기 대피가 필수적이다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
       "sourceGrammarIds": [
         "n2-008",
         "n2-167",
@@ -315,75 +315,20 @@
         "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra-n2-008-2",
+      "id": "fb-created-n2-008-02",
       "level": "N2",
-      "sentence": "彼が事件の現場にいたなんて、そんなことはあり得ない。",
-      "sentenceWithBlank": "彼が事件の現場にいたなんて、そんなことはあり得ない。　（　　　）",
-      "korean": "그가 사건 현장에 있었다니 그런 일은 있을 수 없다.",
-      "answerChoiceId": "fb-extra-n2-008-2-c",
+      "sentence": "長時間の停電は冷凍食品の品質を著しく低下させ得る。",
+      "sentenceWithBlank": "長時間の停電は冷凍食品の品質を著しく低下させ（　　　）。",
+      "korean": "장시간의 정전은 냉동식품의 품질을 현저히 떨어뜨릴 수 있다.",
+      "answerChoiceId": "fb-created-n2-008-02-b",
       "choices": [
         {
-          "id": "fb-extra-n2-008-2-c",
-          "text": "得るうる",
-          "grammarId": "n2-008",
-          "baseExpression": "得るうる",
-          "conjugatedExpression": "得るうる",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-008-2-d",
-          "text": "の上で",
-          "grammarId": "n2-134",
-          "baseExpression": "の上で",
-          "conjugatedExpression": "の上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-008-2-a",
-          "text": "のことだから",
-          "grammarId": "n2-135",
-          "baseExpression": "のことだから",
-          "conjugatedExpression": "のことだから",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-008-2-b",
-          "text": "のみならず",
-          "grammarId": "n2-136",
-          "baseExpression": "のみならず",
-          "conjugatedExpression": "のみならず",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
-      "sourceGrammarIds": [
-        "n2-008",
-        "n2-134",
-        "n2-135",
-        "n2-136"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-008-3",
-      "level": "N2",
-      "sentence": "この事故はいつでも起こり得ることとして十分注意が必要だ。",
-      "sentenceWithBlank": "この事故はいつでも起こり（　　　）こととして十分注意が必要だ。",
-      "korean": "이 사고는 언제든 일어날 수 있는 일로 충분한 주의가 필요하다.",
-      "answerChoiceId": "fb-extra-n2-008-3-d",
-      "choices": [
-        {
-          "id": "fb-extra-n2-008-3-d",
+          "id": "fb-created-n2-008-02-b",
           "text": "得る",
           "grammarId": "n2-008",
           "baseExpression": "得るうる",
@@ -391,169 +336,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra-n2-008-3-a",
-          "text": "わけではない",
-          "grammarId": "n2-169",
-          "baseExpression": "わけではない",
-          "conjugatedExpression": "わけではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-008-3-b",
-          "text": "わけにはいかない",
-          "grammarId": "n2-170",
-          "baseExpression": "わけにはいかない",
-          "conjugatedExpression": "わけにはいかない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-008-3-c",
-          "text": "わりには",
-          "grammarId": "n2-171",
-          "baseExpression": "わりには",
-          "conjugatedExpression": "わりには",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
-      "sourceGrammarIds": [
-        "n2-008",
-        "n2-169",
-        "n2-170",
-        "n2-171"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-008-4",
-      "level": "N2",
-      "sentence": "彼が事件の現場にいたなんて、そんなことはあり得ない。",
-      "sentenceWithBlank": "彼が事件の現場にいたなんて、そんなことはあり得ない。　（　　　）",
-      "korean": "그가 사건 현장에 있었다니 그런 일은 있을 수 없다.",
-      "answerChoiceId": "fb-extra-n2-008-4-a",
-      "choices": [
-        {
-          "id": "fb-extra-n2-008-4-a",
-          "text": "得るうる",
-          "grammarId": "n2-008",
-          "baseExpression": "得るうる",
-          "conjugatedExpression": "得るうる",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-008-4-b",
-          "text": "かける",
-          "grammarId": "n2-016",
-          "baseExpression": "かける",
-          "conjugatedExpression": "かける",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-008-4-c",
-          "text": "がたい",
-          "grammarId": "n2-017",
-          "baseExpression": "がたい",
-          "conjugatedExpression": "がたい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-008-4-d",
-          "text": "がだけに",
-          "grammarId": "n2-018",
-          "baseExpression": "がだけに",
-          "conjugatedExpression": "がだけに",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
-      "sourceGrammarIds": [
-        "n2-008",
-        "n2-016",
-        "n2-017",
-        "n2-018"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-008-5",
-      "level": "N2",
-      "sentence": "この事故はいつでも起こり得ることとして十分注意が必要だ。",
-      "sentenceWithBlank": "この事故はいつでも起こり（　　　）こととして十分注意が必要だ。",
-      "korean": "이 사고는 언제든 일어날 수 있는 일로 충분한 주의가 필요하다.",
-      "answerChoiceId": "fb-extra-n2-008-5-b",
-      "choices": [
-        {
-          "id": "fb-extra-n2-008-5-b",
-          "text": "得る",
-          "grammarId": "n2-008",
-          "baseExpression": "得るうる",
-          "conjugatedExpression": "得る",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-008-5-c",
-          "text": "にすぎない",
-          "grammarId": "n2-123",
-          "baseExpression": "にすぎない",
-          "conjugatedExpression": "にすぎない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-008-5-d",
-          "text": "に相違ない",
-          "grammarId": "n2-124",
-          "baseExpression": "に相違ない",
-          "conjugatedExpression": "に相違ない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-008-5-a",
-          "text": "に沿って",
-          "grammarId": "n2-125",
-          "baseExpression": "に沿って",
-          "conjugatedExpression": "に沿って",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
-      "sourceGrammarIds": [
-        "n2-008",
-        "n2-123",
-        "n2-124",
-        "n2-125"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-008-01",
-      "level": "N2",
-      "sentence": "この事故はいつでも起こり得ることとして十分注意が必要だ。",
-      "sentenceWithBlank": "この事故はいつでも起こり（　　　）こととして十分注意が必要だ。",
-      "korean": "이 사고는 언제든 일어날 수 있는 일로 충분한 주의가 필요하다.",
-      "answerChoiceId": "fb-extra20-n2-008-01-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-008-01-b",
-          "text": "得る",
-          "grammarId": "n2-008",
-          "baseExpression": "得るうる",
-          "conjugatedExpression": "得る",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-008-01-c",
+          "id": "fb-created-n2-008-02-c",
           "text": "ようものなら",
           "grammarId": "n2-167",
           "baseExpression": "ようものなら",
@@ -561,7 +344,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-008-01-d",
+          "id": "fb-created-n2-008-02-d",
           "text": "わけがない",
           "grammarId": "n2-168",
           "baseExpression": "わけがない",
@@ -569,7 +352,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-008-01-a",
+          "id": "fb-created-n2-008-02-a",
           "text": "わけではない",
           "grammarId": "n2-169",
           "baseExpression": "わけではない",
@@ -577,7 +360,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '장시간의 정전은 냉동식품의 품질을 현저히 떨어뜨릴 수 있다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
       "sourceGrammarIds": [
         "n2-008",
         "n2-167",
@@ -585,253 +368,20 @@
         "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-008-02",
+      "id": "fb-created-n2-008-03",
       "level": "N2",
-      "sentence": "彼が事件の現場にいたなんて、そんなことはあり得ない。",
-      "sentenceWithBlank": "彼が事件の現場にいたなんて、そんなことはあり得ない。　（　　　）",
-      "korean": "그가 사건 현장에 있었다니 그런 일은 있을 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-008-02-c",
+      "sentence": "不用意な発言が両国の外交関係を悪化させ得ることを忘れてはならない。",
+      "sentenceWithBlank": "不用意な発言が両国の外交関係を悪化させ（　　　）ことを忘れてはならない。",
+      "korean": "경솔한 발언이 양국의 외교 관계를 악화시킬 수 있다는 점을 잊어서는 안 된다.",
+      "answerChoiceId": "fb-created-n2-008-03-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-008-02-a",
-          "text": "のことだから",
-          "grammarId": "n2-135",
-          "baseExpression": "のことだから",
-          "conjugatedExpression": "のことだから",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-008-02-b",
-          "text": "のみならず",
-          "grammarId": "n2-136",
-          "baseExpression": "のみならず",
-          "conjugatedExpression": "のみならず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-008-02-c",
-          "text": "得るうる",
-          "grammarId": "n2-008",
-          "baseExpression": "得るうる",
-          "conjugatedExpression": "得るうる",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-008-02-d",
-          "text": "の上で",
-          "grammarId": "n2-134",
-          "baseExpression": "の上で",
-          "conjugatedExpression": "の上で",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
-      "sourceGrammarIds": [
-        "n2-008",
-        "n2-134",
-        "n2-135",
-        "n2-136"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-008-03",
-      "level": "N2",
-      "sentence": "この事故はいつでも起こり得ることとして十分注意が必要だ。",
-      "sentenceWithBlank": "この事故はいつでも起こり（　　　）こととして十分注意が必要だ。",
-      "korean": "이 사고는 언제든 일어날 수 있는 일로 충분한 주의가 필요하다.",
-      "answerChoiceId": "fb-extra20-n2-008-03-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-008-03-d",
-          "text": "得る",
-          "grammarId": "n2-008",
-          "baseExpression": "得るうる",
-          "conjugatedExpression": "得る",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-008-03-a",
-          "text": "わけではない",
-          "grammarId": "n2-169",
-          "baseExpression": "わけではない",
-          "conjugatedExpression": "わけではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-008-03-b",
-          "text": "わけにはいかない",
-          "grammarId": "n2-170",
-          "baseExpression": "わけにはいかない",
-          "conjugatedExpression": "わけにはいかない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-008-03-c",
-          "text": "わりには",
-          "grammarId": "n2-171",
-          "baseExpression": "わりには",
-          "conjugatedExpression": "わりには",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
-      "sourceGrammarIds": [
-        "n2-008",
-        "n2-169",
-        "n2-170",
-        "n2-171"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-008-04",
-      "level": "N2",
-      "sentence": "彼が事件の現場にいたなんて、そんなことはあり得ない。",
-      "sentenceWithBlank": "彼が事件の現場にいたなんて、そんなことはあり得ない。　（　　　）",
-      "korean": "그가 사건 현장에 있었다니 그런 일은 있을 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-008-04-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-008-04-c",
-          "text": "がたい",
-          "grammarId": "n2-017",
-          "baseExpression": "がたい",
-          "conjugatedExpression": "がたい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-008-04-d",
-          "text": "がだけに",
-          "grammarId": "n2-018",
-          "baseExpression": "がだけに",
-          "conjugatedExpression": "がだけに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-008-04-a",
-          "text": "得るうる",
-          "grammarId": "n2-008",
-          "baseExpression": "得るうる",
-          "conjugatedExpression": "得るうる",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-008-04-b",
-          "text": "かける",
-          "grammarId": "n2-016",
-          "baseExpression": "かける",
-          "conjugatedExpression": "かける",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
-      "sourceGrammarIds": [
-        "n2-008",
-        "n2-016",
-        "n2-017",
-        "n2-018"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-008-05",
-      "level": "N2",
-      "sentence": "この事故はいつでも起こり得ることとして十分注意が必要だ。",
-      "sentenceWithBlank": "この事故はいつでも起こり（　　　）こととして十分注意が必要だ。",
-      "korean": "이 사고는 언제든 일어날 수 있는 일로 충분한 주의가 필요하다.",
-      "answerChoiceId": "fb-extra20-n2-008-05-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-008-05-b",
-          "text": "得る",
-          "grammarId": "n2-008",
-          "baseExpression": "得るうる",
-          "conjugatedExpression": "得る",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-008-05-c",
-          "text": "にすぎない",
-          "grammarId": "n2-123",
-          "baseExpression": "にすぎない",
-          "conjugatedExpression": "にすぎない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-008-05-d",
-          "text": "に相違ない",
-          "grammarId": "n2-124",
-          "baseExpression": "に相違ない",
-          "conjugatedExpression": "に相違ない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-008-05-a",
-          "text": "に沿って",
-          "grammarId": "n2-125",
-          "baseExpression": "に沿って",
-          "conjugatedExpression": "に沿って",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
-      "sourceGrammarIds": [
-        "n2-008",
-        "n2-123",
-        "n2-124",
-        "n2-125"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-008-06",
-      "level": "N2",
-      "sentence": "この事故はいつでも起こり得ることとして十分注意が必要だ。",
-      "sentenceWithBlank": "この事故はいつでも起こり（　　　）こととして十分注意が必要だ。",
-      "korean": "이 사고는 언제든 일어날 수 있는 일로 충분한 주의가 필요하다.",
-      "answerChoiceId": "fb-extra20-n2-008-06-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-008-06-a",
-          "text": "わけではない",
-          "grammarId": "n2-169",
-          "baseExpression": "わけではない",
-          "conjugatedExpression": "わけではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-008-06-b",
-          "text": "得る",
-          "grammarId": "n2-008",
-          "baseExpression": "得るうる",
-          "conjugatedExpression": "得る",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-008-06-c",
+          "id": "fb-created-n2-008-03-c",
           "text": "ようものなら",
           "grammarId": "n2-167",
           "baseExpression": "ようものなら",
@@ -839,15 +389,31 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-008-06-d",
+          "id": "fb-created-n2-008-03-d",
           "text": "わけがない",
           "grammarId": "n2-168",
           "baseExpression": "わけがない",
           "conjugatedExpression": "わけがない",
           "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-008-03-a",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-008-03-b",
+          "text": "得る",
+          "grammarId": "n2-008",
+          "baseExpression": "得るうる",
+          "conjugatedExpression": "得る",
+          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '경솔한 발언이 양국의 외교 관계를 악화시킬 수 있다는 점을 잊어서는 안 된다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
       "sourceGrammarIds": [
         "n2-008",
         "n2-167",
@@ -855,237 +421,20 @@
         "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-008-07",
+      "id": "fb-created-n2-008-04",
       "level": "N2",
-      "sentence": "彼が事件の現場にいたなんて、そんなことはあり得ない。",
-      "sentenceWithBlank": "彼が事件の現場にいたなんて、そんなことはあり得ない。　（　　　）",
-      "korean": "그가 사건 현장에 있었다니 그런 일은 있을 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-008-07-c",
+      "sentence": "この薬は体質によって強い眠気を引き起こし得る。",
+      "sentenceWithBlank": "この薬は体質によって強い眠気を引き起こし（　　　）。",
+      "korean": "이 약은 체질에 따라 심한 졸음을 유발할 수 있다.",
+      "answerChoiceId": "fb-created-n2-008-04-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-008-07-d",
-          "text": "の上で",
-          "grammarId": "n2-134",
-          "baseExpression": "の上で",
-          "conjugatedExpression": "の上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-008-07-a",
-          "text": "のことだから",
-          "grammarId": "n2-135",
-          "baseExpression": "のことだから",
-          "conjugatedExpression": "のことだから",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-008-07-b",
-          "text": "のみならず",
-          "grammarId": "n2-136",
-          "baseExpression": "のみならず",
-          "conjugatedExpression": "のみならず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-008-07-c",
-          "text": "得るうる",
-          "grammarId": "n2-008",
-          "baseExpression": "得るうる",
-          "conjugatedExpression": "得るうる",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
-      "sourceGrammarIds": [
-        "n2-008",
-        "n2-134",
-        "n2-135",
-        "n2-136"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-008-08",
-      "level": "N2",
-      "sentence": "この事故はいつでも起こり得ることとして十分注意が必要だ。",
-      "sentenceWithBlank": "この事故はいつでも起こり（　　　）こととして十分注意が必要だ。",
-      "korean": "이 사고는 언제든 일어날 수 있는 일로 충분한 주의가 필요하다.",
-      "answerChoiceId": "fb-extra20-n2-008-08-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-008-08-c",
-          "text": "わりには",
-          "grammarId": "n2-171",
-          "baseExpression": "わりには",
-          "conjugatedExpression": "わりには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-008-08-d",
-          "text": "得る",
-          "grammarId": "n2-008",
-          "baseExpression": "得るうる",
-          "conjugatedExpression": "得る",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-008-08-a",
-          "text": "わけではない",
-          "grammarId": "n2-169",
-          "baseExpression": "わけではない",
-          "conjugatedExpression": "わけではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-008-08-b",
-          "text": "わけにはいかない",
-          "grammarId": "n2-170",
-          "baseExpression": "わけにはいかない",
-          "conjugatedExpression": "わけにはいかない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
-      "sourceGrammarIds": [
-        "n2-008",
-        "n2-169",
-        "n2-170",
-        "n2-171"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-008-09",
-      "level": "N2",
-      "sentence": "彼が事件の現場にいたなんて、そんなことはあり得ない。",
-      "sentenceWithBlank": "彼が事件の現場にいたなんて、そんなことはあり得ない。　（　　　）",
-      "korean": "그가 사건 현장에 있었다니 그런 일은 있을 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-008-09-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-008-09-b",
-          "text": "かける",
-          "grammarId": "n2-016",
-          "baseExpression": "かける",
-          "conjugatedExpression": "かける",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-008-09-c",
-          "text": "がたい",
-          "grammarId": "n2-017",
-          "baseExpression": "がたい",
-          "conjugatedExpression": "がたい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-008-09-d",
-          "text": "がだけに",
-          "grammarId": "n2-018",
-          "baseExpression": "がだけに",
-          "conjugatedExpression": "がだけに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-008-09-a",
-          "text": "得るうる",
-          "grammarId": "n2-008",
-          "baseExpression": "得るうる",
-          "conjugatedExpression": "得るうる",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
-      "sourceGrammarIds": [
-        "n2-008",
-        "n2-016",
-        "n2-017",
-        "n2-018"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-008-10",
-      "level": "N2",
-      "sentence": "この事故はいつでも起こり得ることとして十分注意が必要だ。",
-      "sentenceWithBlank": "この事故はいつでも起こり（　　　）こととして十分注意が必要だ。",
-      "korean": "이 사고는 언제든 일어날 수 있는 일로 충분한 주의가 필요하다.",
-      "answerChoiceId": "fb-extra20-n2-008-10-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-008-10-a",
-          "text": "に沿って",
-          "grammarId": "n2-125",
-          "baseExpression": "に沿って",
-          "conjugatedExpression": "に沿って",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-008-10-b",
-          "text": "得る",
-          "grammarId": "n2-008",
-          "baseExpression": "得るうる",
-          "conjugatedExpression": "得る",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-008-10-c",
-          "text": "にすぎない",
-          "grammarId": "n2-123",
-          "baseExpression": "にすぎない",
-          "conjugatedExpression": "にすぎない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-008-10-d",
-          "text": "に相違ない",
-          "grammarId": "n2-124",
-          "baseExpression": "に相違ない",
-          "conjugatedExpression": "に相違ない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
-      "sourceGrammarIds": [
-        "n2-008",
-        "n2-123",
-        "n2-124",
-        "n2-125"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-008-11",
-      "level": "N2",
-      "sentence": "この事故はいつでも起こり得ることとして十分注意が必要だ。",
-      "sentenceWithBlank": "この事故はいつでも起こり（　　　）こととして十分注意が必要だ。",
-      "korean": "이 사고는 언제든 일어날 수 있는 일로 충분한 주의가 필요하다.",
-      "answerChoiceId": "fb-extra20-n2-008-11-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-008-11-d",
+          "id": "fb-created-n2-008-04-d",
           "text": "わけがない",
           "grammarId": "n2-168",
           "baseExpression": "わけがない",
@@ -1093,7 +442,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-008-11-a",
+          "id": "fb-created-n2-008-04-a",
           "text": "わけではない",
           "grammarId": "n2-169",
           "baseExpression": "わけではない",
@@ -1101,7 +450,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-008-11-b",
+          "id": "fb-created-n2-008-04-b",
           "text": "得る",
           "grammarId": "n2-008",
           "baseExpression": "得るうる",
@@ -1109,7 +458,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-008-11-c",
+          "id": "fb-created-n2-008-04-c",
           "text": "ようものなら",
           "grammarId": "n2-167",
           "baseExpression": "ようものなら",
@@ -1117,7 +466,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '이 약은 체질에 따라 심한 졸음을 유발할 수 있다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
       "sourceGrammarIds": [
         "n2-008",
         "n2-167",
@@ -1125,199 +474,28 @@
         "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-008-12",
+      "id": "fb-created-n2-008-05",
       "level": "N2",
-      "sentence": "彼が事件の現場にいたなんて、そんなことはあり得ない。",
-      "sentenceWithBlank": "彼が事件の現場にいたなんて、そんなことはあり得ない。　（　　　）",
-      "korean": "그가 사건 현장에 있었다니 그런 일은 있을 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-008-12-c",
+      "sentence": "適切な修復を施せば、百年前の映像も鮮明さを取り戻し得る。",
+      "sentenceWithBlank": "適切な修復を施せば、百年前の映像も鮮明さを取り戻し（　　　）。",
+      "korean": "적절히 복원하면 백 년 전 영상도 선명함을 되찾을 수 있다.",
+      "answerChoiceId": "fb-created-n2-008-05-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-008-12-c",
-          "text": "得るうる",
-          "grammarId": "n2-008",
-          "baseExpression": "得るうる",
-          "conjugatedExpression": "得るうる",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-008-12-d",
-          "text": "の上で",
-          "grammarId": "n2-134",
-          "baseExpression": "の上で",
-          "conjugatedExpression": "の上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-008-12-a",
-          "text": "のことだから",
-          "grammarId": "n2-135",
-          "baseExpression": "のことだから",
-          "conjugatedExpression": "のことだから",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-008-12-b",
-          "text": "のみならず",
-          "grammarId": "n2-136",
-          "baseExpression": "のみならず",
-          "conjugatedExpression": "のみならず",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
-      "sourceGrammarIds": [
-        "n2-008",
-        "n2-134",
-        "n2-135",
-        "n2-136"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-008-13",
-      "level": "N2",
-      "sentence": "この事故はいつでも起こり得ることとして十分注意が必要だ。",
-      "sentenceWithBlank": "この事故はいつでも起こり（　　　）こととして十分注意が必要だ。",
-      "korean": "이 사고는 언제든 일어날 수 있는 일로 충분한 주의가 필요하다.",
-      "answerChoiceId": "fb-extra20-n2-008-13-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-008-13-b",
-          "text": "わけにはいかない",
-          "grammarId": "n2-170",
-          "baseExpression": "わけにはいかない",
-          "conjugatedExpression": "わけにはいかない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-008-13-c",
-          "text": "わりには",
-          "grammarId": "n2-171",
-          "baseExpression": "わりには",
-          "conjugatedExpression": "わりには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-008-13-d",
-          "text": "得る",
-          "grammarId": "n2-008",
-          "baseExpression": "得るうる",
-          "conjugatedExpression": "得る",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-008-13-a",
+          "id": "fb-created-n2-008-05-a",
           "text": "わけではない",
           "grammarId": "n2-169",
           "baseExpression": "わけではない",
           "conjugatedExpression": "わけではない",
           "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
-      "sourceGrammarIds": [
-        "n2-008",
-        "n2-169",
-        "n2-170",
-        "n2-171"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-008-14",
-      "level": "N2",
-      "sentence": "彼が事件の現場にいたなんて、そんなことはあり得ない。",
-      "sentenceWithBlank": "彼が事件の現場にいたなんて、そんなことはあり得ない。　（　　　）",
-      "korean": "그가 사건 현장에 있었다니 그런 일은 있을 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-008-14-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-008-14-a",
-          "text": "得るうる",
-          "grammarId": "n2-008",
-          "baseExpression": "得るうる",
-          "conjugatedExpression": "得るうる",
-          "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-008-14-b",
-          "text": "かける",
-          "grammarId": "n2-016",
-          "baseExpression": "かける",
-          "conjugatedExpression": "かける",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-008-14-c",
-          "text": "がたい",
-          "grammarId": "n2-017",
-          "baseExpression": "がたい",
-          "conjugatedExpression": "がたい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-008-14-d",
-          "text": "がだけに",
-          "grammarId": "n2-018",
-          "baseExpression": "がだけに",
-          "conjugatedExpression": "がだけに",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
-      "sourceGrammarIds": [
-        "n2-008",
-        "n2-016",
-        "n2-017",
-        "n2-018"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-008-15",
-      "level": "N2",
-      "sentence": "この事故はいつでも起こり得ることとして十分注意が必要だ。",
-      "sentenceWithBlank": "この事故はいつでも起こり（　　　）こととして十分注意が必要だ。",
-      "korean": "이 사고는 언제든 일어날 수 있는 일로 충분한 주의가 필요하다.",
-      "answerChoiceId": "fb-extra20-n2-008-15-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-008-15-d",
-          "text": "に相違ない",
-          "grammarId": "n2-124",
-          "baseExpression": "に相違ない",
-          "conjugatedExpression": "に相違ない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-008-15-a",
-          "text": "に沿って",
-          "grammarId": "n2-125",
-          "baseExpression": "に沿って",
-          "conjugatedExpression": "に沿って",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-008-15-b",
+          "id": "fb-created-n2-008-05-b",
           "text": "得る",
           "grammarId": "n2-008",
           "baseExpression": "得るうる",
@@ -1325,37 +503,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-008-15-c",
-          "text": "にすぎない",
-          "grammarId": "n2-123",
-          "baseExpression": "にすぎない",
-          "conjugatedExpression": "にすぎない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
-      "sourceGrammarIds": [
-        "n2-008",
-        "n2-123",
-        "n2-124",
-        "n2-125"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-008-16",
-      "level": "N2",
-      "sentence": "この事故はいつでも起こり得ることとして十分注意が必要だ。",
-      "sentenceWithBlank": "この事故はいつでも起こり（　　　）こととして十分注意が必要だ。",
-      "korean": "이 사고는 언제든 일어날 수 있는 일로 충분한 주의가 필요하다.",
-      "answerChoiceId": "fb-extra20-n2-008-16-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-008-16-c",
+          "id": "fb-created-n2-008-05-c",
           "text": "ようものなら",
           "grammarId": "n2-167",
           "baseExpression": "ようものなら",
@@ -1363,31 +511,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-008-16-d",
+          "id": "fb-created-n2-008-05-d",
           "text": "わけがない",
           "grammarId": "n2-168",
           "baseExpression": "わけがない",
           "conjugatedExpression": "わけがない",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-008-16-a",
-          "text": "わけではない",
-          "grammarId": "n2-169",
-          "baseExpression": "わけではない",
-          "conjugatedExpression": "わけではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-008-16-b",
-          "text": "得る",
-          "grammarId": "n2-008",
-          "baseExpression": "得るうる",
-          "conjugatedExpression": "得る",
-          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '적절히 복원하면 백 년 전 영상도 선명함을 되찾을 수 있다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
       "sourceGrammarIds": [
         "n2-008",
         "n2-167",
@@ -1395,75 +527,89 @@
         "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-008-17",
+      "id": "fb-created-n2-008-06",
       "level": "N2",
-      "sentence": "彼が事件の現場にいたなんて、そんなことはあり得ない。",
-      "sentenceWithBlank": "彼が事件の現場にいたなんて、そんなことはあり得ない。　（　　　）",
-      "korean": "그가 사건 현장에 있었다니 그런 일은 있을 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-008-17-c",
+      "sentence": "小さな亀裂でも放置すれば橋全体の強度に影響し得る。",
+      "sentenceWithBlank": "小さな亀裂でも放置すれば橋全体の強度に影響し（　　　）。",
+      "korean": "작은 균열이라도 방치하면 다리 전체의 강도에 영향을 미칠 수 있다.",
+      "answerChoiceId": "fb-created-n2-008-06-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-008-17-b",
-          "text": "のみならず",
-          "grammarId": "n2-136",
-          "baseExpression": "のみならず",
-          "conjugatedExpression": "のみならず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-008-17-c",
-          "text": "得るうる",
+          "id": "fb-created-n2-008-06-b",
+          "text": "得る",
           "grammarId": "n2-008",
           "baseExpression": "得るうる",
-          "conjugatedExpression": "得るうる",
+          "conjugatedExpression": "得る",
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-008-17-d",
-          "text": "の上で",
-          "grammarId": "n2-134",
-          "baseExpression": "の上で",
-          "conjugatedExpression": "の上で",
+          "id": "fb-created-n2-008-06-c",
+          "text": "ようものなら",
+          "grammarId": "n2-167",
+          "baseExpression": "ようものなら",
+          "conjugatedExpression": "ようものなら",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-008-17-a",
-          "text": "のことだから",
-          "grammarId": "n2-135",
-          "baseExpression": "のことだから",
-          "conjugatedExpression": "のことだから",
+          "id": "fb-created-n2-008-06-d",
+          "text": "わけがない",
+          "grammarId": "n2-168",
+          "baseExpression": "わけがない",
+          "conjugatedExpression": "わけがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-008-06-a",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '작은 균열이라도 방치하면 다리 전체의 강도에 영향을 미칠 수 있다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
       "sourceGrammarIds": [
         "n2-008",
-        "n2-134",
-        "n2-135",
-        "n2-136"
+        "n2-167",
+        "n2-168",
+        "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-008-18",
+      "id": "fb-created-n2-008-07",
       "level": "N2",
-      "sentence": "この事故はいつでも起こり得ることとして十分注意が必要だ。",
-      "sentenceWithBlank": "この事故はいつでも起こり（　　　）こととして十分注意が必要だ。",
-      "korean": "이 사고는 언제든 일어날 수 있는 일로 충분한 주의가 필요하다.",
-      "answerChoiceId": "fb-extra20-n2-008-18-d",
+      "sentence": "匿名で公開した情報から個人が特定され得るので、写真の背景にも注意してほしい。",
+      "sentenceWithBlank": "匿名で公開した情報から個人が特定され（　　　）ので、写真の背景にも注意してほしい。",
+      "korean": "익명으로 공개한 정보에서도 개인이 특정될 수 있으니 사진의 배경에도 주의하기 바란다.",
+      "answerChoiceId": "fb-created-n2-008-07-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-008-18-a",
+          "id": "fb-created-n2-008-07-c",
+          "text": "ようものなら",
+          "grammarId": "n2-167",
+          "baseExpression": "ようものなら",
+          "conjugatedExpression": "ようものなら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-008-07-d",
+          "text": "わけがない",
+          "grammarId": "n2-168",
+          "baseExpression": "わけがない",
+          "conjugatedExpression": "わけがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-008-07-a",
           "text": "わけではない",
           "grammarId": "n2-169",
           "baseExpression": "わけではない",
@@ -1471,23 +617,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-008-18-b",
-          "text": "わけにはいかない",
-          "grammarId": "n2-170",
-          "baseExpression": "わけにはいかない",
-          "conjugatedExpression": "わけにはいかない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-008-18-c",
-          "text": "わりには",
-          "grammarId": "n2-171",
-          "baseExpression": "わりには",
-          "conjugatedExpression": "わりには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-008-18-d",
+          "id": "fb-created-n2-008-07-b",
           "text": "得る",
           "grammarId": "n2-008",
           "baseExpression": "得るうる",
@@ -1495,107 +625,211 @@
           "isSimilarDistractor": false
         }
       ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '익명으로 공개한 정보에서도 개인이 특정될 수 있으니 사진의 배경에도 주의하기 바란다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
       "sourceGrammarIds": [
         "n2-008",
-        "n2-169",
-        "n2-170",
-        "n2-171"
+        "n2-167",
+        "n2-168",
+        "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-008-19",
+      "id": "fb-created-n2-008-08",
       "level": "N2",
-      "sentence": "彼が事件の現場にいたなんて、そんなことはあり得ない。",
-      "sentenceWithBlank": "彼が事件の現場にいたなんて、そんなことはあり得ない。　（　　　）",
-      "korean": "그가 사건 현장에 있었다니 그런 일은 있을 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-008-19-a",
+      "sentence": "複数の証言を照合すれば、失踪者の足取りを再現し得るかもしれない。",
+      "sentenceWithBlank": "複数の証言を照合すれば、失踪者の足取りを再現し（　　　）かもしれない。",
+      "korean": "여러 증언을 대조하면 실종자의 행적을 재구성할 수도 있다.",
+      "answerChoiceId": "fb-created-n2-008-08-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-008-19-d",
-          "text": "がだけに",
-          "grammarId": "n2-018",
-          "baseExpression": "がだけに",
-          "conjugatedExpression": "がだけに",
+          "id": "fb-created-n2-008-08-d",
+          "text": "わけがない",
+          "grammarId": "n2-168",
+          "baseExpression": "わけがない",
+          "conjugatedExpression": "わけがない",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-008-19-a",
-          "text": "得るうる",
+          "id": "fb-created-n2-008-08-a",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-008-08-b",
+          "text": "得る",
           "grammarId": "n2-008",
           "baseExpression": "得るうる",
-          "conjugatedExpression": "得るうる",
+          "conjugatedExpression": "得る",
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-008-19-b",
-          "text": "かける",
-          "grammarId": "n2-016",
-          "baseExpression": "かける",
-          "conjugatedExpression": "かける",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-008-19-c",
-          "text": "がたい",
-          "grammarId": "n2-017",
-          "baseExpression": "がたい",
-          "conjugatedExpression": "がたい",
+          "id": "fb-created-n2-008-08-c",
+          "text": "ようものなら",
+          "grammarId": "n2-167",
+          "baseExpression": "ようものなら",
+          "conjugatedExpression": "ようものなら",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '여러 증언을 대조하면 실종자의 행적을 재구성할 수도 있다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
       "sourceGrammarIds": [
         "n2-008",
-        "n2-016",
-        "n2-017",
-        "n2-018"
+        "n2-167",
+        "n2-168",
+        "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-008-20",
+      "id": "fb-created-n2-008-09",
       "level": "N2",
-      "sentence": "この事故はいつでも起こり得ることとして十分注意が必要だ。",
-      "sentenceWithBlank": "この事故はいつでも起こり（　　　）こととして十分注意が必要だ。",
-      "korean": "이 사고는 언제든 일어날 수 있는 일로 충분한 주의가 필요하다.",
-      "answerChoiceId": "fb-extra20-n2-008-20-b",
+      "sentence": "急激な金利上昇は住宅市場の冷え込みを招き得る。",
+      "sentenceWithBlank": "急激な金利上昇は住宅市場の冷え込みを招き（　　　）。",
+      "korean": "급격한 금리 상승은 주택 시장의 침체를 초래할 수 있다.",
+      "answerChoiceId": "fb-created-n2-008-09-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-008-20-c",
-          "text": "にすぎない",
-          "grammarId": "n2-123",
-          "baseExpression": "にすぎない",
-          "conjugatedExpression": "にすぎない",
+          "id": "fb-created-n2-008-09-a",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-008-20-d",
-          "text": "に相違ない",
-          "grammarId": "n2-124",
-          "baseExpression": "に相違ない",
-          "conjugatedExpression": "に相違ない",
+          "id": "fb-created-n2-008-09-b",
+          "text": "得る",
+          "grammarId": "n2-008",
+          "baseExpression": "得るうる",
+          "conjugatedExpression": "得る",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-008-09-c",
+          "text": "ようものなら",
+          "grammarId": "n2-167",
+          "baseExpression": "ようものなら",
+          "conjugatedExpression": "ようものなら",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-008-20-a",
-          "text": "に沿って",
-          "grammarId": "n2-125",
-          "baseExpression": "に沿って",
-          "conjugatedExpression": "に沿って",
+          "id": "fb-created-n2-008-09-d",
+          "text": "わけがない",
+          "grammarId": "n2-168",
+          "baseExpression": "わけがない",
+          "conjugatedExpression": "わけがない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '급격한 금리 상승은 주택 시장의 침체를 초래할 수 있다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
+      "sourceGrammarIds": [
+        "n2-008",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-008-10",
+      "level": "N2",
+      "sentence": "経験豊富な登山者でさえ、濃霧の中では進む方向を見失い得る。",
+      "sentenceWithBlank": "経験豊富な登山者でさえ、濃霧の中では進む方向を見失い（　　　）。",
+      "korean": "경험이 풍부한 등산가조차 짙은 안개 속에서는 나아갈 방향을 잃을 수 있다.",
+      "answerChoiceId": "fb-created-n2-008-10-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-008-10-b",
+          "text": "得る",
+          "grammarId": "n2-008",
+          "baseExpression": "得るうる",
+          "conjugatedExpression": "得る",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-008-10-c",
+          "text": "ようものなら",
+          "grammarId": "n2-167",
+          "baseExpression": "ようものなら",
+          "conjugatedExpression": "ようものなら",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-008-20-b",
+          "id": "fb-created-n2-008-10-d",
+          "text": "わけがない",
+          "grammarId": "n2-168",
+          "baseExpression": "わけがない",
+          "conjugatedExpression": "わけがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-008-10-a",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '경험이 풍부한 등산가조차 짙은 안개 속에서는 나아갈 방향을 잃을 수 있다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
+      "sourceGrammarIds": [
+        "n2-008",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-008-11",
+      "level": "N2",
+      "sentence": "一人の内部告発が業界全体の慣行を変え得る場合もある。",
+      "sentenceWithBlank": "一人の内部告発が業界全体の慣行を変え（　　　）場合もある。",
+      "korean": "한 사람의 내부 고발이 업계 전체의 관행을 바꿀 수도 있다.",
+      "answerChoiceId": "fb-created-n2-008-11-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-008-11-c",
+          "text": "ようものなら",
+          "grammarId": "n2-167",
+          "baseExpression": "ようものなら",
+          "conjugatedExpression": "ようものなら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-008-11-d",
+          "text": "わけがない",
+          "grammarId": "n2-168",
+          "baseExpression": "わけがない",
+          "conjugatedExpression": "わけがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-008-11-a",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-008-11-b",
           "text": "得る",
           "grammarId": "n2-008",
           "baseExpression": "得るうる",
@@ -1603,17 +837,758 @@
           "isSimilarDistractor": false
         }
       ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '한 사람의 내부 고발이 업계 전체의 관행을 바꿀 수도 있다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
       "sourceGrammarIds": [
         "n2-008",
-        "n2-123",
-        "n2-124",
-        "n2-125"
+        "n2-167",
+        "n2-168",
+        "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-008-12",
+      "level": "N2",
+      "sentence": "予防接種を受けても感染し得るが、重症化の危険は抑えられる。",
+      "sentenceWithBlank": "予防接種を受けても感染し（　　　）が、重症化の危険は抑えられる。",
+      "korean": "예방 접종을 받아도 감염될 수 있지만 중증으로 진행될 위험은 줄일 수 있다.",
+      "answerChoiceId": "fb-created-n2-008-12-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-008-12-d",
+          "text": "わけがない",
+          "grammarId": "n2-168",
+          "baseExpression": "わけがない",
+          "conjugatedExpression": "わけがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-008-12-a",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-008-12-b",
+          "text": "得る",
+          "grammarId": "n2-008",
+          "baseExpression": "得るうる",
+          "conjugatedExpression": "得る",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-008-12-c",
+          "text": "ようものなら",
+          "grammarId": "n2-167",
+          "baseExpression": "ようものなら",
+          "conjugatedExpression": "ようものなら",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '예방 접종을 받아도 감염될 수 있지만 중증으로 진행될 위험은 줄일 수 있다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
+      "sourceGrammarIds": [
+        "n2-008",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-008-13",
+      "level": "N2",
+      "sentence": "保存状態が良ければ、砂漠でも古代の布製品が発見され得る。",
+      "sentenceWithBlank": "保存状態が良ければ、砂漠でも古代の布製品が発見され（　　　）。",
+      "korean": "보존 상태가 좋다면 사막에서도 고대의 직물 제품이 발견될 수 있다.",
+      "answerChoiceId": "fb-created-n2-008-13-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-008-13-a",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-008-13-b",
+          "text": "得る",
+          "grammarId": "n2-008",
+          "baseExpression": "得るうる",
+          "conjugatedExpression": "得る",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-008-13-c",
+          "text": "ようものなら",
+          "grammarId": "n2-167",
+          "baseExpression": "ようものなら",
+          "conjugatedExpression": "ようものなら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-008-13-d",
+          "text": "わけがない",
+          "grammarId": "n2-168",
+          "baseExpression": "わけがない",
+          "conjugatedExpression": "わけがない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '보존 상태가 좋다면 사막에서도 고대의 직물 제품이 발견될 수 있다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
+      "sourceGrammarIds": [
+        "n2-008",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-008-14",
+      "level": "N2",
+      "sentence": "些細な入力ミスが巨額の送金事故につながり得る。",
+      "sentenceWithBlank": "些細な入力ミスが巨額の送金事故につながり（　　　）。",
+      "korean": "사소한 입력 실수가 거액의 송금 사고로 이어질 수 있다.",
+      "answerChoiceId": "fb-created-n2-008-14-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-008-14-b",
+          "text": "得る",
+          "grammarId": "n2-008",
+          "baseExpression": "得るうる",
+          "conjugatedExpression": "得る",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-008-14-c",
+          "text": "ようものなら",
+          "grammarId": "n2-167",
+          "baseExpression": "ようものなら",
+          "conjugatedExpression": "ようものなら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-008-14-d",
+          "text": "わけがない",
+          "grammarId": "n2-168",
+          "baseExpression": "わけがない",
+          "conjugatedExpression": "わけがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-008-14-a",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '사소한 입력 실수가 거액의 송금 사고로 이어질 수 있다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
+      "sourceGrammarIds": [
+        "n2-008",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-008-15",
+      "level": "N2",
+      "sentence": "住民同士の地道な対話は、長年の対立を解消し得る力を持っている。",
+      "sentenceWithBlank": "住民同士の地道な対話は、長年の対立を解消し（　　　）力を持っている。",
+      "korean": "주민들 사이의 꾸준한 대화에는 오랜 갈등을 해소할 수 있는 힘이 있다.",
+      "answerChoiceId": "fb-created-n2-008-15-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-008-15-c",
+          "text": "ようものなら",
+          "grammarId": "n2-167",
+          "baseExpression": "ようものなら",
+          "conjugatedExpression": "ようものなら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-008-15-d",
+          "text": "わけがない",
+          "grammarId": "n2-168",
+          "baseExpression": "わけがない",
+          "conjugatedExpression": "わけがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-008-15-a",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-008-15-b",
+          "text": "得る",
+          "grammarId": "n2-008",
+          "baseExpression": "得るうる",
+          "conjugatedExpression": "得る",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '주민들 사이의 꾸준한 대화에는 오랜 갈등을 해소할 수 있는 힘이 있다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
+      "sourceGrammarIds": [
+        "n2-008",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-008-16",
+      "level": "N2",
+      "sentence": "高温の倉庫に保管すると、この接着剤は本来の性能を失い得る。",
+      "sentenceWithBlank": "高温の倉庫に保管すると、この接着剤は本来の性能を失い（　　　）。",
+      "korean": "고온의 창고에 보관하면 이 접착제는 본래의 성능을 잃을 수 있다.",
+      "answerChoiceId": "fb-created-n2-008-16-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-008-16-d",
+          "text": "わけがない",
+          "grammarId": "n2-168",
+          "baseExpression": "わけがない",
+          "conjugatedExpression": "わけがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-008-16-a",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-008-16-b",
+          "text": "得る",
+          "grammarId": "n2-008",
+          "baseExpression": "得るうる",
+          "conjugatedExpression": "得る",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-008-16-c",
+          "text": "ようものなら",
+          "grammarId": "n2-167",
+          "baseExpression": "ようものなら",
+          "conjugatedExpression": "ようものなら",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '고온의 창고에 보관하면 이 접착제는 본래의 성능을 잃을 수 있다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
+      "sourceGrammarIds": [
+        "n2-008",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-008-17",
+      "level": "N2",
+      "sentence": "海底火山の活動が周辺海域の生態系を変化させ得ると研究者は見ている。",
+      "sentenceWithBlank": "海底火山の活動が周辺海域の生態系を変化させ（　　　）と研究者は見ている。",
+      "korean": "연구진은 해저 화산 활동이 주변 해역의 생태계를 변화시킬 수 있다고 보고 있다.",
+      "answerChoiceId": "fb-created-n2-008-17-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-008-17-a",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-008-17-b",
+          "text": "得る",
+          "grammarId": "n2-008",
+          "baseExpression": "得るうる",
+          "conjugatedExpression": "得る",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-008-17-c",
+          "text": "ようものなら",
+          "grammarId": "n2-167",
+          "baseExpression": "ようものなら",
+          "conjugatedExpression": "ようものなら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-008-17-d",
+          "text": "わけがない",
+          "grammarId": "n2-168",
+          "baseExpression": "わけがない",
+          "conjugatedExpression": "わけがない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '연구진은 해저 화산 활동이 주변 해역의 생태계를 변화시킬 수 있다고 보고 있다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
+      "sourceGrammarIds": [
+        "n2-008",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-008-18",
+      "level": "N2",
+      "sentence": "顧客への誠実な対応が、失われた信用を回復させ得る唯一の道だ。",
+      "sentenceWithBlank": "顧客への誠実な対応が、失われた信用を回復させ（　　　）唯一の道だ。",
+      "korean": "고객에게 성실히 대응하는 것이 잃어버린 신뢰를 회복시킬 수 있는 유일한 길이다.",
+      "answerChoiceId": "fb-created-n2-008-18-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-008-18-b",
+          "text": "得る",
+          "grammarId": "n2-008",
+          "baseExpression": "得るうる",
+          "conjugatedExpression": "得る",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-008-18-c",
+          "text": "ようものなら",
+          "grammarId": "n2-167",
+          "baseExpression": "ようものなら",
+          "conjugatedExpression": "ようものなら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-008-18-d",
+          "text": "わけがない",
+          "grammarId": "n2-168",
+          "baseExpression": "わけがない",
+          "conjugatedExpression": "わけがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-008-18-a",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '고객에게 성실히 대응하는 것이 잃어버린 신뢰를 회복시킬 수 있는 유일한 길이다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
+      "sourceGrammarIds": [
+        "n2-008",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-008-19",
+      "level": "N2",
+      "sentence": "気温が氷点下まで下がれば、濡れた路面は数分で凍結し得る。",
+      "sentenceWithBlank": "気温が氷点下まで下がれば、濡れた路面は数分で凍結し（　　　）。",
+      "korean": "기온이 영하까지 내려가면 젖은 노면은 몇 분 만에 얼어붙을 수 있다.",
+      "answerChoiceId": "fb-created-n2-008-19-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-008-19-c",
+          "text": "ようものなら",
+          "grammarId": "n2-167",
+          "baseExpression": "ようものなら",
+          "conjugatedExpression": "ようものなら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-008-19-d",
+          "text": "わけがない",
+          "grammarId": "n2-168",
+          "baseExpression": "わけがない",
+          "conjugatedExpression": "わけがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-008-19-a",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-008-19-b",
+          "text": "得る",
+          "grammarId": "n2-008",
+          "baseExpression": "得るうる",
+          "conjugatedExpression": "得る",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '기온이 영하까지 내려가면 젖은 노면은 몇 분 만에 얼어붙을 수 있다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
+      "sourceGrammarIds": [
+        "n2-008",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-008-20",
+      "level": "N2",
+      "sentence": "勤務時間の柔軟化は、介護を理由とする離職を減らし得る。",
+      "sentenceWithBlank": "勤務時間の柔軟化は、介護を理由とする離職を減らし（　　　）。",
+      "korean": "근무 시간의 유연화는 간병을 이유로 한 퇴직을 줄일 수 있다.",
+      "answerChoiceId": "fb-created-n2-008-20-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-008-20-d",
+          "text": "わけがない",
+          "grammarId": "n2-168",
+          "baseExpression": "わけがない",
+          "conjugatedExpression": "わけがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-008-20-a",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-008-20-b",
+          "text": "得る",
+          "grammarId": "n2-008",
+          "baseExpression": "得るうる",
+          "conjugatedExpression": "得る",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-008-20-c",
+          "text": "ようものなら",
+          "grammarId": "n2-167",
+          "baseExpression": "ようものなら",
+          "conjugatedExpression": "ようものなら",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '근무 시간의 유연화는 간병을 이유로 한 퇴직을 줄일 수 있다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
+      "sourceGrammarIds": [
+        "n2-008",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-008-21",
+      "level": "N2",
+      "sentence": "わずかな市場の変化でも、資金に余裕のない農家には致命傷となり得る。",
+      "sentenceWithBlank": "わずかな市場の変化でも、資金に余裕のない農家には致命傷となり（　　　）。",
+      "korean": "아주 작은 시장 변화도 자금 여유가 없는 농가에는 치명타가 될 수 있다.",
+      "answerChoiceId": "fb-created-n2-008-21-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-008-21-a",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-008-21-b",
+          "text": "得る",
+          "grammarId": "n2-008",
+          "baseExpression": "得るうる",
+          "conjugatedExpression": "得る",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-008-21-c",
+          "text": "ようものなら",
+          "grammarId": "n2-167",
+          "baseExpression": "ようものなら",
+          "conjugatedExpression": "ようものなら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-008-21-d",
+          "text": "わけがない",
+          "grammarId": "n2-168",
+          "baseExpression": "わけがない",
+          "conjugatedExpression": "わけがない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '아주 작은 시장 변화도 자금 여유가 없는 농가에는 치명타가 될 수 있다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
+      "sourceGrammarIds": [
+        "n2-008",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-008-22",
+      "level": "N2",
+      "sentence": "今後の交渉次第では、閉鎖予定の工場が操業を継続し得る。",
+      "sentenceWithBlank": "今後の交渉次第では、閉鎖予定の工場が操業を継続し（　　　）。",
+      "korean": "향후 협상에 따라서는 폐쇄 예정인 공장이 조업을 계속할 수도 있다.",
+      "answerChoiceId": "fb-created-n2-008-22-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-008-22-b",
+          "text": "得る",
+          "grammarId": "n2-008",
+          "baseExpression": "得るうる",
+          "conjugatedExpression": "得る",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-008-22-c",
+          "text": "ようものなら",
+          "grammarId": "n2-167",
+          "baseExpression": "ようものなら",
+          "conjugatedExpression": "ようものなら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-008-22-d",
+          "text": "わけがない",
+          "grammarId": "n2-168",
+          "baseExpression": "わけがない",
+          "conjugatedExpression": "わけがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-008-22-a",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '향후 협상에 따라서는 폐쇄 예정인 공장이 조업을 계속할 수도 있다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
+      "sourceGrammarIds": [
+        "n2-008",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-008-23",
+      "level": "N2",
+      "sentence": "幼い頃の記憶は、特定の香りをきっかけに突然よみがえり得る。",
+      "sentenceWithBlank": "幼い頃の記憶は、特定の香りをきっかけに突然よみがえり（　　　）。",
+      "korean": "어린 시절의 기억은 특정한 향기를 계기로 갑자기 되살아날 수 있다.",
+      "answerChoiceId": "fb-created-n2-008-23-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-008-23-c",
+          "text": "ようものなら",
+          "grammarId": "n2-167",
+          "baseExpression": "ようものなら",
+          "conjugatedExpression": "ようものなら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-008-23-d",
+          "text": "わけがない",
+          "grammarId": "n2-168",
+          "baseExpression": "わけがない",
+          "conjugatedExpression": "わけがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-008-23-a",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-008-23-b",
+          "text": "得る",
+          "grammarId": "n2-008",
+          "baseExpression": "得るうる",
+          "conjugatedExpression": "得る",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '어린 시절의 기억은 특정한 향기를 계기로 갑자기 되살아날 수 있다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
+      "sourceGrammarIds": [
+        "n2-008",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-008-24",
+      "level": "N2",
+      "sentence": "地域通貨の導入が商店街の売り上げを押し上げ得るか、半年間検証する。",
+      "sentenceWithBlank": "地域通貨の導入が商店街の売り上げを押し上げ（　　　）か、半年間検証する。",
+      "korean": "지역 화폐 도입이 상점가의 매출을 끌어올릴 수 있을지 반년 동안 검증한다.",
+      "answerChoiceId": "fb-created-n2-008-24-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-008-24-d",
+          "text": "わけがない",
+          "grammarId": "n2-168",
+          "baseExpression": "わけがない",
+          "conjugatedExpression": "わけがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-008-24-a",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-008-24-b",
+          "text": "得る",
+          "grammarId": "n2-008",
+          "baseExpression": "得るうる",
+          "conjugatedExpression": "得る",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-008-24-c",
+          "text": "ようものなら",
+          "grammarId": "n2-167",
+          "baseExpression": "ようものなら",
+          "conjugatedExpression": "ようものなら",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '지역 화폐 도입이 상점가의 매출을 끌어올릴 수 있을지 반년 동안 검증한다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
+      "sourceGrammarIds": [
+        "n2-008",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-008-25",
+      "level": "N2",
+      "sentence": "衛星画像の解析によって、地上調査では見逃す変化も捉え得る。",
+      "sentenceWithBlank": "衛星画像の解析によって、地上調査では見逃す変化も捉え（　　　）。",
+      "korean": "위성 영상 분석을 통해 지상 조사에서는 놓치는 변화도 포착할 수 있다.",
+      "answerChoiceId": "fb-created-n2-008-25-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-008-25-a",
+          "text": "わけではない",
+          "grammarId": "n2-169",
+          "baseExpression": "わけではない",
+          "conjugatedExpression": "わけではない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-008-25-b",
+          "text": "得る",
+          "grammarId": "n2-008",
+          "baseExpression": "得るうる",
+          "conjugatedExpression": "得る",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-008-25-c",
+          "text": "ようものなら",
+          "grammarId": "n2-167",
+          "baseExpression": "ようものなら",
+          "conjugatedExpression": "ようものなら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-008-25-d",
+          "text": "わけがない",
+          "grammarId": "n2-168",
+          "baseExpression": "わけがない",
+          "conjugatedExpression": "わけがない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '위성 영상 분석을 통해 지상 조사에서는 놓치는 변화도 포착할 수 있다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
+      "sourceGrammarIds": [
+        "n2-008",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
       ]
     }
   ],
@@ -1834,1103 +1809,1153 @@
       ]
     },
     {
-      "id": "so-extra-n2-008-1",
+      "id": "so-created-n2-008-01",
       "level": "N2",
-      "sentence": "この事故はいつでも起こり得ることとして十分注意が必要だ。",
-      "sentenceWithBlanks": "この事故はいつでも起こり ____ ____ ____ ____",
-      "korean": "이 사고는 언제든 일어날 수 있는 일로 충분한 주의가 필요하다.",
+      "sentence": "沿岸部では想定を超える高潮が発生し得るため、早めの避難が欠かせない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 早めの避難が欠かせない。",
+      "korean": "해안 지역에서는 예상을 뛰어넘는 폭풍 해일이 발생할 가능성이 있으므로 조기 대피가 필수적이다.",
       "pieces": [
         {
-          "id": "so-extra-n2-008-1-p3",
-          "text": "十分注意が",
-          "order": 3
-        },
-        {
-          "id": "so-extra-n2-008-1-p4",
-          "text": "必要だ",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-008-1-p1",
-          "text": "得る",
+          "id": "so-created-n2-008-01-p1",
+          "text": "沿岸部では",
           "order": 1
         },
         {
-          "id": "so-extra-n2-008-1-p2",
-          "text": "こととして",
+          "id": "so-created-n2-008-01-p2",
+          "text": "想定を超える",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-008-01-p3",
+          "text": "高潮が発生し",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-008-01-p4",
+          "text": "得るため、",
+          "order": 4
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-008-01-p1",
+        "so-created-n2-008-01-p2",
+        "so-created-n2-008-01-p3",
+        "so-created-n2-008-01-p4"
+      ],
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '해안 지역에서는 예상을 뛰어넘는 폭풍 해일이 발생할 가능성이 있으므로 조기 대피가 필수적이다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
+      "sourceGrammarIds": [
+        "n2-008",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "문장배열"
+      ]
+    },
+    {
+      "id": "so-created-n2-008-02",
+      "level": "N2",
+      "sentence": "長時間の停電は冷凍食品の品質を著しく低下させ得る。",
+      "sentenceWithBlanks": "長時間の ____ ____ ____ ____",
+      "korean": "장시간의 정전은 냉동식품의 품질을 현저히 떨어뜨릴 수 있다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-008-02-p4",
+          "text": "低下させ得る。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-008-02-p1",
+          "text": "停電は",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-008-02-p2",
+          "text": "冷凍食品の",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-008-02-p3",
+          "text": "品質を著しく",
+          "order": 3
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-008-02-p1",
+        "so-created-n2-008-02-p2",
+        "so-created-n2-008-02-p3",
+        "so-created-n2-008-02-p4"
+      ],
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '장시간의 정전은 냉동식품의 품질을 현저히 떨어뜨릴 수 있다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
+      "sourceGrammarIds": [
+        "n2-008",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "문장배열"
+      ]
+    },
+    {
+      "id": "so-created-n2-008-03",
+      "level": "N2",
+      "sentence": "不用意な発言が両国の外交関係を悪化させ得ることを忘れてはならない。",
+      "sentenceWithBlanks": "不用意な ____ ____ ____ ____ 忘れてはならない。",
+      "korean": "경솔한 발언이 양국의 외교 관계를 악화시킬 수 있다는 점을 잊어서는 안 된다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-008-03-p3",
+          "text": "悪化させ",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-008-03-p4",
+          "text": "得ることを",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-008-03-p1",
+          "text": "発言が両国の",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-008-03-p2",
+          "text": "外交関係を",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-008-1-p1",
-        "so-extra-n2-008-1-p2",
-        "so-extra-n2-008-1-p3",
-        "so-extra-n2-008-1-p4"
+        "so-created-n2-008-03-p1",
+        "so-created-n2-008-03-p2",
+        "so-created-n2-008-03-p3",
+        "so-created-n2-008-03-p4"
       ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '경솔한 발언이 양국의 외교 관계를 악화시킬 수 있다는 점을 잊어서는 안 된다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
       "sourceGrammarIds": [
-        "n2-008"
+        "n2-008",
+        "n2-167",
+        "n2-168",
+        "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-008-2",
+      "id": "so-created-n2-008-04",
       "level": "N2",
-      "sentence": "彼が事件の現場にいたなんて、そんなことはあり得ない。",
+      "sentence": "この薬は体質によって強い眠気を引き起こし得る。",
+      "sentenceWithBlanks": "この ____ ____ ____ ____",
+      "korean": "이 약은 체질에 따라 심한 졸음을 유발할 수 있다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-008-04-p2",
+          "text": "体質によって",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-008-04-p3",
+          "text": "強い眠気を引き",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-008-04-p4",
+          "text": "起こし得る。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-008-04-p1",
+          "text": "薬は",
+          "order": 1
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-008-04-p1",
+        "so-created-n2-008-04-p2",
+        "so-created-n2-008-04-p3",
+        "so-created-n2-008-04-p4"
+      ],
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '이 약은 체질에 따라 심한 졸음을 유발할 수 있다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
+      "sourceGrammarIds": [
+        "n2-008",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "문장배열"
+      ]
+    },
+    {
+      "id": "so-created-n2-008-05",
+      "level": "N2",
+      "sentence": "適切な修復を施せば、百年前の映像も鮮明さを取り戻し得る。",
+      "sentenceWithBlanks": "適切な修復を ____ ____ ____ ____",
+      "korean": "적절히 복원하면 백 년 전 영상도 선명함을 되찾을 수 있다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-008-05-p1",
+          "text": "施せば、百年",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-008-05-p2",
+          "text": "前の映像も",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-008-05-p3",
+          "text": "鮮明さを取り",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-008-05-p4",
+          "text": "戻し得る。",
+          "order": 4
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-008-05-p1",
+        "so-created-n2-008-05-p2",
+        "so-created-n2-008-05-p3",
+        "so-created-n2-008-05-p4"
+      ],
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '적절히 복원하면 백 년 전 영상도 선명함을 되찾을 수 있다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
+      "sourceGrammarIds": [
+        "n2-008",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "문장배열"
+      ]
+    },
+    {
+      "id": "so-created-n2-008-06",
+      "level": "N2",
+      "sentence": "小さな亀裂でも放置すれば橋全体の強度に影響し得る。",
+      "sentenceWithBlanks": "小さな ____ ____ ____ ____",
+      "korean": "작은 균열이라도 방치하면 다리 전체의 강도에 영향을 미칠 수 있다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-008-06-p4",
+          "text": "影響し得る。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-008-06-p1",
+          "text": "亀裂でも",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-008-06-p2",
+          "text": "放置すれば橋",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-008-06-p3",
+          "text": "全体の強度に",
+          "order": 3
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-008-06-p1",
+        "so-created-n2-008-06-p2",
+        "so-created-n2-008-06-p3",
+        "so-created-n2-008-06-p4"
+      ],
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '작은 균열이라도 방치하면 다리 전체의 강도에 영향을 미칠 수 있다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
+      "sourceGrammarIds": [
+        "n2-008",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "문장배열"
+      ]
+    },
+    {
+      "id": "so-created-n2-008-07",
+      "level": "N2",
+      "sentence": "匿名で公開した情報から個人が特定され得るので、写真の背景にも注意してほしい。",
+      "sentenceWithBlanks": "匿名で ____ ____ ____ ____ 背景にも注意してほしい。",
+      "korean": "익명으로 공개한 정보에서도 개인이 특정될 수 있으니 사진의 배경에도 주의하기 바란다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-008-07-p3",
+          "text": "特定され得る",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-008-07-p4",
+          "text": "ので、写真の",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-008-07-p1",
+          "text": "公開した",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-008-07-p2",
+          "text": "情報から個人が",
+          "order": 2
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-008-07-p1",
+        "so-created-n2-008-07-p2",
+        "so-created-n2-008-07-p3",
+        "so-created-n2-008-07-p4"
+      ],
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '익명으로 공개한 정보에서도 개인이 특정될 수 있으니 사진의 배경에도 주의하기 바란다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
+      "sourceGrammarIds": [
+        "n2-008",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "문장배열"
+      ]
+    },
+    {
+      "id": "so-created-n2-008-08",
+      "level": "N2",
+      "sentence": "複数の証言を照合すれば、失踪者の足取りを再現し得るかもしれない。",
+      "sentenceWithBlanks": "複数の ____ ____ ____ ____ かもしれない。",
+      "korean": "여러 증언을 대조하면 실종자의 행적을 재구성할 수도 있다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-008-08-p2",
+          "text": "照合すれば、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-008-08-p3",
+          "text": "失踪者の足取りを",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-008-08-p4",
+          "text": "再現し得る",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-008-08-p1",
+          "text": "証言を",
+          "order": 1
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-008-08-p1",
+        "so-created-n2-008-08-p2",
+        "so-created-n2-008-08-p3",
+        "so-created-n2-008-08-p4"
+      ],
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '여러 증언을 대조하면 실종자의 행적을 재구성할 수도 있다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
+      "sourceGrammarIds": [
+        "n2-008",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "문장배열"
+      ]
+    },
+    {
+      "id": "so-created-n2-008-09",
+      "level": "N2",
+      "sentence": "急激な金利上昇は住宅市場の冷え込みを招き得る。",
+      "sentenceWithBlanks": "急激な ____ ____ ____ ____",
+      "korean": "급격한 금리 상승은 주택 시장의 침체를 초래할 수 있다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-008-09-p1",
+          "text": "金利上昇は",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-008-09-p2",
+          "text": "住宅市場の",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-008-09-p3",
+          "text": "冷え込みを",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-008-09-p4",
+          "text": "招き得る。",
+          "order": 4
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-008-09-p1",
+        "so-created-n2-008-09-p2",
+        "so-created-n2-008-09-p3",
+        "so-created-n2-008-09-p4"
+      ],
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '급격한 금리 상승은 주택 시장의 침체를 초래할 수 있다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
+      "sourceGrammarIds": [
+        "n2-008",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "문장배열"
+      ]
+    },
+    {
+      "id": "so-created-n2-008-10",
+      "level": "N2",
+      "sentence": "経験豊富な登山者でさえ、濃霧の中では進む方向を見失い得る。",
+      "sentenceWithBlanks": "経験豊富な登山 ____ ____ ____ ____",
+      "korean": "경험이 풍부한 등산가조차 짙은 안개 속에서는 나아갈 방향을 잃을 수 있다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-008-10-p4",
+          "text": "見失い得る。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-008-10-p1",
+          "text": "者でさえ、",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-008-10-p2",
+          "text": "濃霧の中では",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-008-10-p3",
+          "text": "進む方向を",
+          "order": 3
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-008-10-p1",
+        "so-created-n2-008-10-p2",
+        "so-created-n2-008-10-p3",
+        "so-created-n2-008-10-p4"
+      ],
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '경험이 풍부한 등산가조차 짙은 안개 속에서는 나아갈 방향을 잃을 수 있다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
+      "sourceGrammarIds": [
+        "n2-008",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "문장배열"
+      ]
+    },
+    {
+      "id": "so-created-n2-008-11",
+      "level": "N2",
+      "sentence": "一人の内部告発が業界全体の慣行を変え得る場合もある。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 場合もある。",
+      "korean": "한 사람의 내부 고발이 업계 전체의 관행을 바꿀 수도 있다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-008-11-p3",
+          "text": "全体の慣行を",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-008-11-p4",
+          "text": "変え得る",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-008-11-p1",
+          "text": "一人の内部",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-008-11-p2",
+          "text": "告発が業界",
+          "order": 2
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-008-11-p1",
+        "so-created-n2-008-11-p2",
+        "so-created-n2-008-11-p3",
+        "so-created-n2-008-11-p4"
+      ],
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '한 사람의 내부 고발이 업계 전체의 관행을 바꿀 수도 있다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
+      "sourceGrammarIds": [
+        "n2-008",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "문장배열"
+      ]
+    },
+    {
+      "id": "so-created-n2-008-12",
+      "level": "N2",
+      "sentence": "予防接種を受けても感染し得るが、重症化の危険は抑えられる。",
+      "sentenceWithBlanks": "予防 ____ ____ ____ ____ 抑えられる。",
+      "korean": "예방 접종을 받아도 감염될 수 있지만 중증으로 진행될 위험은 줄일 수 있다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-008-12-p2",
+          "text": "感染し得る",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-008-12-p3",
+          "text": "が、重症",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-008-12-p4",
+          "text": "化の危険は",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-008-12-p1",
+          "text": "接種を受けても",
+          "order": 1
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-008-12-p1",
+        "so-created-n2-008-12-p2",
+        "so-created-n2-008-12-p3",
+        "so-created-n2-008-12-p4"
+      ],
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '예방 접종을 받아도 감염될 수 있지만 중증으로 진행될 위험은 줄일 수 있다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
+      "sourceGrammarIds": [
+        "n2-008",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "문장배열"
+      ]
+    },
+    {
+      "id": "so-created-n2-008-13",
+      "level": "N2",
+      "sentence": "保存状態が良ければ、砂漠でも古代の布製品が発見され得る。",
+      "sentenceWithBlanks": "保存状態が ____ ____ ____ ____",
+      "korean": "보존 상태가 좋다면 사막에서도 고대의 직물 제품이 발견될 수 있다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-008-13-p1",
+          "text": "良ければ、",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-008-13-p2",
+          "text": "砂漠でも",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-008-13-p3",
+          "text": "古代の布製品が",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-008-13-p4",
+          "text": "発見され得る。",
+          "order": 4
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-008-13-p1",
+        "so-created-n2-008-13-p2",
+        "so-created-n2-008-13-p3",
+        "so-created-n2-008-13-p4"
+      ],
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '보존 상태가 좋다면 사막에서도 고대의 직물 제품이 발견될 수 있다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
+      "sourceGrammarIds": [
+        "n2-008",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "문장배열"
+      ]
+    },
+    {
+      "id": "so-created-n2-008-14",
+      "level": "N2",
+      "sentence": "些細な入力ミスが巨額の送金事故につながり得る。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "그가 사건 현장에 있었다니 그런 일은 있을 수 없다.",
+      "korean": "사소한 입력 실수가 거액의 송금 사고로 이어질 수 있다.",
       "pieces": [
         {
-          "id": "so-extra-n2-008-2-p4",
-          "text": "いたなんて",
-          "order": 3
-        },
-        {
-          "id": "so-extra-n2-008-2-p1",
-          "text": "そんなことはあり得ない",
+          "id": "so-created-n2-008-14-p4",
+          "text": "得る。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-008-2-p2",
-          "text": "彼が",
+          "id": "so-created-n2-008-14-p1",
+          "text": "些細な入力",
           "order": 1
         },
         {
-          "id": "so-extra-n2-008-2-p3",
-          "text": "事件の現場に",
+          "id": "so-created-n2-008-14-p2",
+          "text": "ミスが巨額の送金",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-008-14-p3",
+          "text": "事故につながり",
+          "order": 3
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-008-14-p1",
+        "so-created-n2-008-14-p2",
+        "so-created-n2-008-14-p3",
+        "so-created-n2-008-14-p4"
+      ],
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '사소한 입력 실수가 거액의 송금 사고로 이어질 수 있다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
+      "sourceGrammarIds": [
+        "n2-008",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "문장배열"
+      ]
+    },
+    {
+      "id": "so-created-n2-008-15",
+      "level": "N2",
+      "sentence": "住民同士の地道な対話は、長年の対立を解消し得る力を持っている。",
+      "sentenceWithBlanks": "住民同士の ____ ____ ____ ____ 持っている。",
+      "korean": "주민들 사이의 꾸준한 대화에는 오랜 갈등을 해소할 수 있는 힘이 있다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-008-15-p3",
+          "text": "長年の対立を",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-008-15-p4",
+          "text": "解消し得る力を",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-008-15-p1",
+          "text": "地道な",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-008-15-p2",
+          "text": "対話は、",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-008-2-p2",
-        "so-extra-n2-008-2-p3",
-        "so-extra-n2-008-2-p4",
-        "so-extra-n2-008-2-p1"
+        "so-created-n2-008-15-p1",
+        "so-created-n2-008-15-p2",
+        "so-created-n2-008-15-p3",
+        "so-created-n2-008-15-p4"
       ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '주민들 사이의 꾸준한 대화에는 오랜 갈등을 해소할 수 있는 힘이 있다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
       "sourceGrammarIds": [
-        "n2-008"
+        "n2-008",
+        "n2-167",
+        "n2-168",
+        "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-008-3",
+      "id": "so-created-n2-008-16",
       "level": "N2",
-      "sentence": "この事故はいつでも起こり得ることとして十分注意が必要だ。",
-      "sentenceWithBlanks": "____ ____ ____ ____ こととして十分注意が必要だ。",
-      "korean": "이 사고는 언제든 일어날 수 있는 일로 충분한 주의가 필요하다.",
+      "sentence": "高温の倉庫に保管すると、この接着剤は本来の性能を失い得る。",
+      "sentenceWithBlanks": "高温の倉庫に ____ ____ ____ ____",
+      "korean": "고온의 창고에 보관하면 이 접착제는 본래의 성능을 잃을 수 있다.",
       "pieces": [
         {
-          "id": "so-extra-n2-008-3-p1",
-          "text": "こととして",
+          "id": "so-created-n2-008-16-p2",
+          "text": "接着剤は",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-008-16-p3",
+          "text": "本来の性能を",
           "order": 3
         },
         {
-          "id": "so-extra-n2-008-3-p2",
-          "text": "十分注意が",
+          "id": "so-created-n2-008-16-p4",
+          "text": "失い得る。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-008-3-p3",
-          "text": "も起こり",
+          "id": "so-created-n2-008-16-p1",
+          "text": "保管すると、この",
+          "order": 1
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-008-16-p1",
+        "so-created-n2-008-16-p2",
+        "so-created-n2-008-16-p3",
+        "so-created-n2-008-16-p4"
+      ],
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '고온의 창고에 보관하면 이 접착제는 본래의 성능을 잃을 수 있다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
+      "sourceGrammarIds": [
+        "n2-008",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "문장배열"
+      ]
+    },
+    {
+      "id": "so-created-n2-008-17",
+      "level": "N2",
+      "sentence": "海底火山の活動が周辺海域の生態系を変化させ得ると研究者は見ている。",
+      "sentenceWithBlanks": "海底 ____ ____ ____ ____ 研究者は見ている。",
+      "korean": "연구진은 해저 화산 활동이 주변 해역의 생태계를 변화시킬 수 있다고 보고 있다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-008-17-p1",
+          "text": "火山の活動が",
           "order": 1
         },
         {
-          "id": "so-extra-n2-008-3-p4",
-          "text": "得る",
+          "id": "so-created-n2-008-17-p2",
+          "text": "周辺海域の",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-008-17-p3",
+          "text": "生態系を",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-008-17-p4",
+          "text": "変化させ得ると",
+          "order": 4
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-008-17-p1",
+        "so-created-n2-008-17-p2",
+        "so-created-n2-008-17-p3",
+        "so-created-n2-008-17-p4"
+      ],
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '연구진은 해저 화산 활동이 주변 해역의 생태계를 변화시킬 수 있다고 보고 있다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
+      "sourceGrammarIds": [
+        "n2-008",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "문장배열"
+      ]
+    },
+    {
+      "id": "so-created-n2-008-18",
+      "level": "N2",
+      "sentence": "顧客への誠実な対応が、失われた信用を回復させ得る唯一の道だ。",
+      "sentenceWithBlanks": "顧客への誠実な ____ ____ ____ ____",
+      "korean": "고객에게 성실히 대응하는 것이 잃어버린 신뢰를 회복시킬 수 있는 유일한 길이다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-008-18-p4",
+          "text": "唯一の道だ。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-008-18-p1",
+          "text": "対応が、",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-008-18-p2",
+          "text": "失われた信用を",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-008-18-p3",
+          "text": "回復させ得る",
+          "order": 3
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-008-18-p1",
+        "so-created-n2-008-18-p2",
+        "so-created-n2-008-18-p3",
+        "so-created-n2-008-18-p4"
+      ],
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '고객에게 성실히 대응하는 것이 잃어버린 신뢰를 회복시킬 수 있는 유일한 길이다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
+      "sourceGrammarIds": [
+        "n2-008",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "문장배열"
+      ]
+    },
+    {
+      "id": "so-created-n2-008-19",
+      "level": "N2",
+      "sentence": "気温が氷点下まで下がれば、濡れた路面は数分で凍結し得る。",
+      "sentenceWithBlanks": "気温が ____ ____ ____ ____",
+      "korean": "기온이 영하까지 내려가면 젖은 노면은 몇 분 만에 얼어붙을 수 있다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-008-19-p3",
+          "text": "路面は数分で",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-008-19-p4",
+          "text": "凍結し得る。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-008-19-p1",
+          "text": "氷点下まで",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-008-19-p2",
+          "text": "下がれば、濡れた",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-008-3-p3",
-        "so-extra-n2-008-3-p4",
-        "so-extra-n2-008-3-p1",
-        "so-extra-n2-008-3-p2"
+        "so-created-n2-008-19-p1",
+        "so-created-n2-008-19-p2",
+        "so-created-n2-008-19-p3",
+        "so-created-n2-008-19-p4"
       ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '기온이 영하까지 내려가면 젖은 노면은 몇 분 만에 얼어붙을 수 있다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
       "sourceGrammarIds": [
-        "n2-008"
+        "n2-008",
+        "n2-167",
+        "n2-168",
+        "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-008-4",
+      "id": "so-created-n2-008-20",
       "level": "N2",
-      "sentence": "彼が事件の現場にいたなんて、そんなことはあり得ない。",
+      "sentence": "勤務時間の柔軟化は、介護を理由とする離職を減らし得る。",
+      "sentenceWithBlanks": "勤務時間の ____ ____ ____ ____",
+      "korean": "근무 시간의 유연화는 간병을 이유로 한 퇴직을 줄일 수 있다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-008-20-p2",
+          "text": "介護を",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-008-20-p3",
+          "text": "理由とする離職を",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-008-20-p4",
+          "text": "減らし得る。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-008-20-p1",
+          "text": "柔軟化は、",
+          "order": 1
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-008-20-p1",
+        "so-created-n2-008-20-p2",
+        "so-created-n2-008-20-p3",
+        "so-created-n2-008-20-p4"
+      ],
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '근무 시간의 유연화는 간병을 이유로 한 퇴직을 줄일 수 있다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
+      "sourceGrammarIds": [
+        "n2-008",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "문장배열"
+      ]
+    },
+    {
+      "id": "so-created-n2-008-21",
+      "level": "N2",
+      "sentence": "わずかな市場の変化でも、資金に余裕のない農家には致命傷となり得る。",
+      "sentenceWithBlanks": "わずかな ____ ____ ____ ____",
+      "korean": "아주 작은 시장 변화도 자금 여유가 없는 농가에는 치명타가 될 수 있다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-008-21-p1",
+          "text": "市場の変化でも、",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-008-21-p2",
+          "text": "資金に余裕のない",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-008-21-p3",
+          "text": "農家には",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-008-21-p4",
+          "text": "致命傷となり得る。",
+          "order": 4
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-008-21-p1",
+        "so-created-n2-008-21-p2",
+        "so-created-n2-008-21-p3",
+        "so-created-n2-008-21-p4"
+      ],
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '아주 작은 시장 변화도 자금 여유가 없는 농가에는 치명타가 될 수 있다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
+      "sourceGrammarIds": [
+        "n2-008",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "문장배열"
+      ]
+    },
+    {
+      "id": "so-created-n2-008-22",
+      "level": "N2",
+      "sentence": "今後の交渉次第では、閉鎖予定の工場が操業を継続し得る。",
+      "sentenceWithBlanks": "今後の交渉 ____ ____ ____ ____",
+      "korean": "향후 협상에 따라서는 폐쇄 예정인 공장이 조업을 계속할 수도 있다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-008-22-p4",
+          "text": "継続し得る。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-008-22-p1",
+          "text": "次第では、",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-008-22-p2",
+          "text": "閉鎖予定の",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-008-22-p3",
+          "text": "工場が操業を",
+          "order": 3
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-008-22-p1",
+        "so-created-n2-008-22-p2",
+        "so-created-n2-008-22-p3",
+        "so-created-n2-008-22-p4"
+      ],
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '향후 협상에 따라서는 폐쇄 예정인 공장이 조업을 계속할 수도 있다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
+      "sourceGrammarIds": [
+        "n2-008",
+        "n2-167",
+        "n2-168",
+        "n2-169"
+      ],
+      "tags": [
+        "신규예문",
+        "문장배열"
+      ]
+    },
+    {
+      "id": "so-created-n2-008-23",
+      "level": "N2",
+      "sentence": "幼い頃の記憶は、特定の香りをきっかけに突然よみがえり得る。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "그가 사건 현장에 있었다니 그런 일은 있을 수 없다.",
+      "korean": "어린 시절의 기억은 특정한 향기를 계기로 갑자기 되살아날 수 있다.",
       "pieces": [
         {
-          "id": "so-extra-n2-008-4-p2",
-          "text": "いたなんて",
+          "id": "so-created-n2-008-23-p3",
+          "text": "香りをきっかけに",
           "order": 3
         },
         {
-          "id": "so-extra-n2-008-4-p3",
-          "text": "そんなことはあり得ない",
+          "id": "so-created-n2-008-23-p4",
+          "text": "突然よみがえり得る。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-008-4-p4",
-          "text": "彼が",
+          "id": "so-created-n2-008-23-p1",
+          "text": "幼い頃の",
           "order": 1
         },
         {
-          "id": "so-extra-n2-008-4-p1",
-          "text": "事件の現場に",
+          "id": "so-created-n2-008-23-p2",
+          "text": "記憶は、特定の",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-008-4-p4",
-        "so-extra-n2-008-4-p1",
-        "so-extra-n2-008-4-p2",
-        "so-extra-n2-008-4-p3"
+        "so-created-n2-008-23-p1",
+        "so-created-n2-008-23-p2",
+        "so-created-n2-008-23-p3",
+        "so-created-n2-008-23-p4"
       ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '어린 시절의 기억은 특정한 향기를 계기로 갑자기 되살아날 수 있다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
       "sourceGrammarIds": [
-        "n2-008"
+        "n2-008",
+        "n2-167",
+        "n2-168",
+        "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-008-5",
+      "id": "so-created-n2-008-24",
       "level": "N2",
-      "sentence": "この事故はいつでも起こり得ることとして十分注意が必要だ。",
-      "sentenceWithBlanks": "この事故はいつでも起こり ____ ____ ____ ____",
-      "korean": "이 사고는 언제든 일어날 수 있는 일로 충분한 주의가 필요하다.",
+      "sentence": "地域通貨の導入が商店街の売り上げを押し上げ得るか、半年間検証する。",
+      "sentenceWithBlanks": "地域通貨の導入が ____ ____ ____ ____ 検証する。",
+      "korean": "지역 화폐 도입이 상점가의 매출을 끌어올릴 수 있을지 반년 동안 검증한다.",
       "pieces": [
         {
-          "id": "so-extra-n2-008-5-p3",
-          "text": "十分注意が",
+          "id": "so-created-n2-008-24-p2",
+          "text": "売り上げを",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-008-24-p3",
+          "text": "押し上げ得る",
           "order": 3
         },
         {
-          "id": "so-extra-n2-008-5-p4",
-          "text": "必要だ",
+          "id": "so-created-n2-008-24-p4",
+          "text": "か、半年間",
           "order": 4
         },
         {
-          "id": "so-extra-n2-008-5-p1",
-          "text": "得る",
+          "id": "so-created-n2-008-24-p1",
+          "text": "商店街の",
           "order": 1
-        },
-        {
-          "id": "so-extra-n2-008-5-p2",
-          "text": "こととして",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-008-5-p1",
-        "so-extra-n2-008-5-p2",
-        "so-extra-n2-008-5-p3",
-        "so-extra-n2-008-5-p4"
+        "so-created-n2-008-24-p1",
+        "so-created-n2-008-24-p2",
+        "so-created-n2-008-24-p3",
+        "so-created-n2-008-24-p4"
       ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '지역 화폐 도입이 상점가의 매출을 끌어올릴 수 있을지 반년 동안 검증한다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
       "sourceGrammarIds": [
-        "n2-008"
+        "n2-008",
+        "n2-167",
+        "n2-168",
+        "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-008-01",
+      "id": "so-created-n2-008-25",
       "level": "N2",
-      "sentence": "この事故はいつでも起こり得ることとして十分注意が必要だ。",
-      "sentenceWithBlanks": "この事故はいつでも起こり ____ ____ ____ ____",
-      "korean": "이 사고는 언제든 일어날 수 있는 일로 충분한 주의가 필요하다.",
+      "sentence": "衛星画像の解析によって、地上調査では見逃す変化も捉え得る。",
+      "sentenceWithBlanks": "衛星画像の ____ ____ ____ ____",
+      "korean": "위성 영상 분석을 통해 지상 조사에서는 놓치는 변화도 포착할 수 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-008-01-p3",
-          "text": "十分注意が",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-008-01-p4",
-          "text": "必要だ",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-008-01-p1",
-          "text": "得る",
+          "id": "so-created-n2-008-25-p1",
+          "text": "解析によって、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-008-01-p2",
-          "text": "こととして",
-          "order": 2
-        }
-      ],
-      "correctPieceIds": [
-        "so-extra20-n2-008-01-p1",
-        "so-extra20-n2-008-01-p2",
-        "so-extra20-n2-008-01-p3",
-        "so-extra20-n2-008-01-p4"
-      ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
-      "sourceGrammarIds": [
-        "n2-008"
-      ],
-      "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "so-extra20-n2-008-02",
-      "level": "N2",
-      "sentence": "彼が事件の現場にいたなんて、そんなことはあり得ない。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "그가 사건 현장에 있었다니 그런 일은 있을 수 없다.",
-      "pieces": [
-        {
-          "id": "so-extra20-n2-008-02-p2",
-          "text": "彼が",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-008-02-p3",
-          "text": "事件の現場に",
+          "id": "so-created-n2-008-25-p2",
+          "text": "地上調査では",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-008-02-p4",
-          "text": "いたなんて",
+          "id": "so-created-n2-008-25-p3",
+          "text": "見逃す変化も",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-008-02-p1",
-          "text": "そんなことはあり得ない",
+          "id": "so-created-n2-008-25-p4",
+          "text": "捉え得る。",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-008-02-p2",
-        "so-extra20-n2-008-02-p3",
-        "so-extra20-n2-008-02-p4",
-        "so-extra20-n2-008-02-p1"
+        "so-created-n2-008-25-p1",
+        "so-created-n2-008-25-p2",
+        "so-created-n2-008-25-p3",
+        "so-created-n2-008-25-p4"
       ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
+      "explanation": "「得る」는 '~할 수 있다, ~할 가능성이 있다'라는 뜻을 나타낸다. 이 문장에서는 '위성 영상 분석을 통해 지상 조사에서는 놓치는 변화도 포착할 수 있다.'라는 상황에 쓰였으며, 능력보다 가능성. 그런 일이 일어날 수도 있음. 주의할 점은 「うる」=가능성, 「える」=활용형. あり得る가 아닌 ありうる(文語), ありえる(회화) 구분.",
       "sourceGrammarIds": [
-        "n2-008"
+        "n2-008",
+        "n2-167",
+        "n2-168",
+        "n2-169"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "so-extra20-n2-008-03",
-      "level": "N2",
-      "sentence": "この事故はいつでも起こり得ることとして十分注意が必要だ。",
-      "sentenceWithBlanks": "____ ____ ____ ____ こととして十分注意が必要だ。",
-      "korean": "이 사고는 언제든 일어날 수 있는 일로 충분한 주의가 필요하다.",
-      "pieces": [
-        {
-          "id": "so-extra20-n2-008-03-p1",
-          "text": "こととして",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-008-03-p2",
-          "text": "十分注意が",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-008-03-p3",
-          "text": "も起こり",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-008-03-p4",
-          "text": "得る",
-          "order": 2
-        }
-      ],
-      "correctPieceIds": [
-        "so-extra20-n2-008-03-p3",
-        "so-extra20-n2-008-03-p4",
-        "so-extra20-n2-008-03-p1",
-        "so-extra20-n2-008-03-p2"
-      ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
-      "sourceGrammarIds": [
-        "n2-008"
-      ],
-      "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "so-extra20-n2-008-04",
-      "level": "N2",
-      "sentence": "彼が事件の現場にいたなんて、そんなことはあり得ない。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "그가 사건 현장에 있었다니 그런 일은 있을 수 없다.",
-      "pieces": [
-        {
-          "id": "so-extra20-n2-008-04-p4",
-          "text": "彼が",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-008-04-p1",
-          "text": "事件の現場に",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-008-04-p2",
-          "text": "いたなんて",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-008-04-p3",
-          "text": "そんなことはあり得ない",
-          "order": 4
-        }
-      ],
-      "correctPieceIds": [
-        "so-extra20-n2-008-04-p4",
-        "so-extra20-n2-008-04-p1",
-        "so-extra20-n2-008-04-p2",
-        "so-extra20-n2-008-04-p3"
-      ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
-      "sourceGrammarIds": [
-        "n2-008"
-      ],
-      "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "so-extra20-n2-008-05",
-      "level": "N2",
-      "sentence": "この事故はいつでも起こり得ることとして十分注意が必要だ。",
-      "sentenceWithBlanks": "この事故はいつでも起こり ____ ____ ____ ____",
-      "korean": "이 사고는 언제든 일어날 수 있는 일로 충분한 주의가 필요하다.",
-      "pieces": [
-        {
-          "id": "so-extra20-n2-008-05-p3",
-          "text": "十分注意が",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-008-05-p4",
-          "text": "必要だ",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-008-05-p1",
-          "text": "得る",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-008-05-p2",
-          "text": "こととして",
-          "order": 2
-        }
-      ],
-      "correctPieceIds": [
-        "so-extra20-n2-008-05-p1",
-        "so-extra20-n2-008-05-p2",
-        "so-extra20-n2-008-05-p3",
-        "so-extra20-n2-008-05-p4"
-      ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
-      "sourceGrammarIds": [
-        "n2-008"
-      ],
-      "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "so-extra20-n2-008-06",
-      "level": "N2",
-      "sentence": "この事故はいつでも起こり得ることとして十分注意が必要だ。",
-      "sentenceWithBlanks": "この事故はいつでも起こり ____ ____ ____ ____",
-      "korean": "이 사고는 언제든 일어날 수 있는 일로 충분한 주의가 필요하다.",
-      "pieces": [
-        {
-          "id": "so-extra20-n2-008-06-p2",
-          "text": "こととして",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-008-06-p3",
-          "text": "十分注意が",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-008-06-p4",
-          "text": "必要だ",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-008-06-p1",
-          "text": "得る",
-          "order": 1
-        }
-      ],
-      "correctPieceIds": [
-        "so-extra20-n2-008-06-p1",
-        "so-extra20-n2-008-06-p2",
-        "so-extra20-n2-008-06-p3",
-        "so-extra20-n2-008-06-p4"
-      ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
-      "sourceGrammarIds": [
-        "n2-008"
-      ],
-      "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "so-extra20-n2-008-07",
-      "level": "N2",
-      "sentence": "彼が事件の現場にいたなんて、そんなことはあり得ない。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "그가 사건 현장에 있었다니 그런 일은 있을 수 없다.",
-      "pieces": [
-        {
-          "id": "so-extra20-n2-008-07-p1",
-          "text": "そんなことはあり得ない",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-008-07-p2",
-          "text": "彼が",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-008-07-p3",
-          "text": "事件の現場に",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-008-07-p4",
-          "text": "いたなんて",
-          "order": 3
-        }
-      ],
-      "correctPieceIds": [
-        "so-extra20-n2-008-07-p2",
-        "so-extra20-n2-008-07-p3",
-        "so-extra20-n2-008-07-p4",
-        "so-extra20-n2-008-07-p1"
-      ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
-      "sourceGrammarIds": [
-        "n2-008"
-      ],
-      "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "so-extra20-n2-008-08",
-      "level": "N2",
-      "sentence": "この事故はいつでも起こり得ることとして十分注意が必要だ。",
-      "sentenceWithBlanks": "____ ____ ____ ____ こととして十分注意が必要だ。",
-      "korean": "이 사고는 언제든 일어날 수 있는 일로 충분한 주의가 필요하다.",
-      "pieces": [
-        {
-          "id": "so-extra20-n2-008-08-p4",
-          "text": "得る",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-008-08-p1",
-          "text": "こととして",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-008-08-p2",
-          "text": "十分注意が",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-008-08-p3",
-          "text": "も起こり",
-          "order": 1
-        }
-      ],
-      "correctPieceIds": [
-        "so-extra20-n2-008-08-p3",
-        "so-extra20-n2-008-08-p4",
-        "so-extra20-n2-008-08-p1",
-        "so-extra20-n2-008-08-p2"
-      ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
-      "sourceGrammarIds": [
-        "n2-008"
-      ],
-      "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "so-extra20-n2-008-09",
-      "level": "N2",
-      "sentence": "彼が事件の現場にいたなんて、そんなことはあり得ない。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "그가 사건 현장에 있었다니 그런 일은 있을 수 없다.",
-      "pieces": [
-        {
-          "id": "so-extra20-n2-008-09-p3",
-          "text": "そんなことはあり得ない",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-008-09-p4",
-          "text": "彼が",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-008-09-p1",
-          "text": "事件の現場に",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-008-09-p2",
-          "text": "いたなんて",
-          "order": 3
-        }
-      ],
-      "correctPieceIds": [
-        "so-extra20-n2-008-09-p4",
-        "so-extra20-n2-008-09-p1",
-        "so-extra20-n2-008-09-p2",
-        "so-extra20-n2-008-09-p3"
-      ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
-      "sourceGrammarIds": [
-        "n2-008"
-      ],
-      "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "so-extra20-n2-008-10",
-      "level": "N2",
-      "sentence": "この事故はいつでも起こり得ることとして十分注意が必要だ。",
-      "sentenceWithBlanks": "この事故はいつでも起こり ____ ____ ____ ____",
-      "korean": "이 사고는 언제든 일어날 수 있는 일로 충분한 주의가 필요하다.",
-      "pieces": [
-        {
-          "id": "so-extra20-n2-008-10-p2",
-          "text": "こととして",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-008-10-p3",
-          "text": "十分注意が",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-008-10-p4",
-          "text": "必要だ",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-008-10-p1",
-          "text": "得る",
-          "order": 1
-        }
-      ],
-      "correctPieceIds": [
-        "so-extra20-n2-008-10-p1",
-        "so-extra20-n2-008-10-p2",
-        "so-extra20-n2-008-10-p3",
-        "so-extra20-n2-008-10-p4"
-      ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
-      "sourceGrammarIds": [
-        "n2-008"
-      ],
-      "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "so-extra20-n2-008-11",
-      "level": "N2",
-      "sentence": "この事故はいつでも起こり得ることとして十分注意が必要だ。",
-      "sentenceWithBlanks": "この事故はいつでも起こり ____ ____ ____ ____",
-      "korean": "이 사고는 언제든 일어날 수 있는 일로 충분한 주의가 필요하다.",
-      "pieces": [
-        {
-          "id": "so-extra20-n2-008-11-p1",
-          "text": "得る",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-008-11-p2",
-          "text": "こととして",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-008-11-p3",
-          "text": "十分注意が",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-008-11-p4",
-          "text": "必要だ",
-          "order": 4
-        }
-      ],
-      "correctPieceIds": [
-        "so-extra20-n2-008-11-p1",
-        "so-extra20-n2-008-11-p2",
-        "so-extra20-n2-008-11-p3",
-        "so-extra20-n2-008-11-p4"
-      ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
-      "sourceGrammarIds": [
-        "n2-008"
-      ],
-      "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "so-extra20-n2-008-12",
-      "level": "N2",
-      "sentence": "彼が事件の現場にいたなんて、そんなことはあり得ない。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "그가 사건 현장에 있었다니 그런 일은 있을 수 없다.",
-      "pieces": [
-        {
-          "id": "so-extra20-n2-008-12-p4",
-          "text": "いたなんて",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-008-12-p1",
-          "text": "そんなことはあり得ない",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-008-12-p2",
-          "text": "彼が",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-008-12-p3",
-          "text": "事件の現場に",
-          "order": 2
-        }
-      ],
-      "correctPieceIds": [
-        "so-extra20-n2-008-12-p2",
-        "so-extra20-n2-008-12-p3",
-        "so-extra20-n2-008-12-p4",
-        "so-extra20-n2-008-12-p1"
-      ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
-      "sourceGrammarIds": [
-        "n2-008"
-      ],
-      "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "so-extra20-n2-008-13",
-      "level": "N2",
-      "sentence": "この事故はいつでも起こり得ることとして十分注意が必要だ。",
-      "sentenceWithBlanks": "____ ____ ____ ____ こととして十分注意が必要だ。",
-      "korean": "이 사고는 언제든 일어날 수 있는 일로 충분한 주의가 필요하다.",
-      "pieces": [
-        {
-          "id": "so-extra20-n2-008-13-p3",
-          "text": "も起こり",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-008-13-p4",
-          "text": "得る",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-008-13-p1",
-          "text": "こととして",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-008-13-p2",
-          "text": "十分注意が",
-          "order": 4
-        }
-      ],
-      "correctPieceIds": [
-        "so-extra20-n2-008-13-p3",
-        "so-extra20-n2-008-13-p4",
-        "so-extra20-n2-008-13-p1",
-        "so-extra20-n2-008-13-p2"
-      ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
-      "sourceGrammarIds": [
-        "n2-008"
-      ],
-      "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "so-extra20-n2-008-14",
-      "level": "N2",
-      "sentence": "彼が事件の現場にいたなんて、そんなことはあり得ない。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "그가 사건 현장에 있었다니 그런 일은 있을 수 없다.",
-      "pieces": [
-        {
-          "id": "so-extra20-n2-008-14-p2",
-          "text": "いたなんて",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-008-14-p3",
-          "text": "そんなことはあり得ない",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-008-14-p4",
-          "text": "彼が",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-008-14-p1",
-          "text": "事件の現場に",
-          "order": 2
-        }
-      ],
-      "correctPieceIds": [
-        "so-extra20-n2-008-14-p4",
-        "so-extra20-n2-008-14-p1",
-        "so-extra20-n2-008-14-p2",
-        "so-extra20-n2-008-14-p3"
-      ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
-      "sourceGrammarIds": [
-        "n2-008"
-      ],
-      "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "so-extra20-n2-008-15",
-      "level": "N2",
-      "sentence": "この事故はいつでも起こり得ることとして十分注意が必要だ。",
-      "sentenceWithBlanks": "この事故はいつでも起こり ____ ____ ____ ____",
-      "korean": "이 사고는 언제든 일어날 수 있는 일로 충분한 주의가 필요하다.",
-      "pieces": [
-        {
-          "id": "so-extra20-n2-008-15-p1",
-          "text": "得る",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-008-15-p2",
-          "text": "こととして",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-008-15-p3",
-          "text": "十分注意が",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-008-15-p4",
-          "text": "必要だ",
-          "order": 4
-        }
-      ],
-      "correctPieceIds": [
-        "so-extra20-n2-008-15-p1",
-        "so-extra20-n2-008-15-p2",
-        "so-extra20-n2-008-15-p3",
-        "so-extra20-n2-008-15-p4"
-      ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
-      "sourceGrammarIds": [
-        "n2-008"
-      ],
-      "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "so-extra20-n2-008-16",
-      "level": "N2",
-      "sentence": "この事故はいつでも起こり得ることとして十分注意が必要だ。",
-      "sentenceWithBlanks": "この事故はいつでも起こり ____ ____ ____ ____",
-      "korean": "이 사고는 언제든 일어날 수 있는 일로 충분한 주의가 필요하다.",
-      "pieces": [
-        {
-          "id": "so-extra20-n2-008-16-p4",
-          "text": "必要だ",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-008-16-p1",
-          "text": "得る",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-008-16-p2",
-          "text": "こととして",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-008-16-p3",
-          "text": "十分注意が",
-          "order": 3
-        }
-      ],
-      "correctPieceIds": [
-        "so-extra20-n2-008-16-p1",
-        "so-extra20-n2-008-16-p2",
-        "so-extra20-n2-008-16-p3",
-        "so-extra20-n2-008-16-p4"
-      ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
-      "sourceGrammarIds": [
-        "n2-008"
-      ],
-      "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "so-extra20-n2-008-17",
-      "level": "N2",
-      "sentence": "彼が事件の現場にいたなんて、そんなことはあり得ない。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "그가 사건 현장에 있었다니 그런 일은 있을 수 없다.",
-      "pieces": [
-        {
-          "id": "so-extra20-n2-008-17-p3",
-          "text": "事件の現場に",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-008-17-p4",
-          "text": "いたなんて",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-008-17-p1",
-          "text": "そんなことはあり得ない",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-008-17-p2",
-          "text": "彼が",
-          "order": 1
-        }
-      ],
-      "correctPieceIds": [
-        "so-extra20-n2-008-17-p2",
-        "so-extra20-n2-008-17-p3",
-        "so-extra20-n2-008-17-p4",
-        "so-extra20-n2-008-17-p1"
-      ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
-      "sourceGrammarIds": [
-        "n2-008"
-      ],
-      "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "so-extra20-n2-008-18",
-      "level": "N2",
-      "sentence": "この事故はいつでも起こり得ることとして十分注意が必要だ。",
-      "sentenceWithBlanks": "____ ____ ____ ____ こととして十分注意が必要だ。",
-      "korean": "이 사고는 언제든 일어날 수 있는 일로 충분한 주의가 필요하다.",
-      "pieces": [
-        {
-          "id": "so-extra20-n2-008-18-p2",
-          "text": "十分注意が",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-008-18-p3",
-          "text": "も起こり",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-008-18-p4",
-          "text": "得る",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-008-18-p1",
-          "text": "こととして",
-          "order": 3
-        }
-      ],
-      "correctPieceIds": [
-        "so-extra20-n2-008-18-p3",
-        "so-extra20-n2-008-18-p4",
-        "so-extra20-n2-008-18-p1",
-        "so-extra20-n2-008-18-p2"
-      ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
-      "sourceGrammarIds": [
-        "n2-008"
-      ],
-      "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "so-extra20-n2-008-19",
-      "level": "N2",
-      "sentence": "彼が事件の現場にいたなんて、そんなことはあり得ない。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "그가 사건 현장에 있었다니 그런 일은 있을 수 없다.",
-      "pieces": [
-        {
-          "id": "so-extra20-n2-008-19-p1",
-          "text": "事件の現場に",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-008-19-p2",
-          "text": "いたなんて",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-008-19-p3",
-          "text": "そんなことはあり得ない",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-008-19-p4",
-          "text": "彼が",
-          "order": 1
-        }
-      ],
-      "correctPieceIds": [
-        "so-extra20-n2-008-19-p4",
-        "so-extra20-n2-008-19-p1",
-        "so-extra20-n2-008-19-p2",
-        "so-extra20-n2-008-19-p3"
-      ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
-      "sourceGrammarIds": [
-        "n2-008"
-      ],
-      "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "so-extra20-n2-008-20",
-      "level": "N2",
-      "sentence": "この事故はいつでも起こり得ることとして十分注意が必要だ。",
-      "sentenceWithBlanks": "この事故はいつでも起こり ____ ____ ____ ____",
-      "korean": "이 사고는 언제든 일어날 수 있는 일로 충분한 주의가 필요하다.",
-      "pieces": [
-        {
-          "id": "so-extra20-n2-008-20-p4",
-          "text": "必要だ",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-008-20-p1",
-          "text": "得る",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-008-20-p2",
-          "text": "こととして",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-008-20-p3",
-          "text": "十分注意が",
-          "order": 3
-        }
-      ],
-      "correctPieceIds": [
-        "so-extra20-n2-008-20-p1",
-        "so-extra20-n2-008-20-p2",
-        "so-extra20-n2-008-20-p3",
-        "so-extra20-n2-008-20-p4"
-      ],
-      "explanation": "「得る（うる）」는 ~할 수 있다, ~할 가능성이 있다라는 뜻이다. 능력보다 가능성. 그런 일이 일어날 수도 있음.",
-      "sourceGrammarIds": [
-        "n2-008"
-      ],
-      "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     }
   ]

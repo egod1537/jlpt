@@ -267,15 +267,23 @@
       ]
     },
     {
-      "id": "fb-extra-n2-012-1",
+      "id": "fb-created-n2-012-01",
       "level": "N2",
-      "sentence": "小川氏がこの学校の校長でいるかぎり、校則は変えられないだろう。",
-      "sentenceWithBlank": "小川氏がこの学校の校長でいる（　　　）、校則は変えられないだろう。",
-      "korean": "오가와 씨가 이 학교 교장으로 있는 한 교칙은 바뀌지 않을 것이다.",
-      "answerChoiceId": "fb-extra-n2-012-1-a",
+      "sentence": "電波が届くかぎり、山小屋から本部へ現在地を報告できる。",
+      "sentenceWithBlank": "電波が届く（　　　）、山小屋から本部へ現在地を報告できる。",
+      "korean": "전파가 닿는 한 산장에서 본부로 현재 위치를 보고할 수 있다.",
+      "answerChoiceId": "fb-created-n2-012-01-a",
       "choices": [
         {
-          "id": "fb-extra-n2-012-1-b",
+          "id": "fb-created-n2-012-01-a",
+          "text": "かぎり",
+          "grammarId": "n2-012",
+          "baseExpression": "かぎりは",
+          "conjugatedExpression": "かぎり",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-012-01-b",
           "text": "からといって",
           "grammarId": "n2-028",
           "baseExpression": "からといって",
@@ -283,7 +291,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-012-1-c",
+          "id": "fb-created-n2-012-01-c",
           "text": "気味",
           "grammarId": "n2-029",
           "baseExpression": "気味",
@@ -291,23 +299,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-012-1-d",
+          "id": "fb-created-n2-012-01-d",
           "text": "きらいがある",
           "grammarId": "n2-030",
           "baseExpression": "きらいがある",
           "conjugatedExpression": "きらいがある",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-012-1-a",
-          "text": "かぎり",
-          "grammarId": "n2-012",
-          "baseExpression": "かぎりは",
-          "conjugatedExpression": "かぎり",
-          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '전파가 닿는 한 산장에서 본부로 현재 위치를 보고할 수 있다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
       "sourceGrammarIds": [
         "n2-012",
         "n2-028",
@@ -315,299 +315,20 @@
         "n2-030"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra-n2-012-2",
+      "id": "fb-created-n2-012-02",
       "level": "N2",
-      "sentence": "体が丈夫なかぎり、思い切り社会活動をしたいものだ。",
-      "sentenceWithBlank": "体が丈夫な（　　　）、思い切り社会活動をしたいものだ。",
-      "korean": "몸이 건강한 한 마음껏 사회활동을 하고 싶다.",
-      "answerChoiceId": "fb-extra-n2-012-2-d",
+      "sentence": "この川が澄んでいるかぎり、ホタルは毎年戻ってくるだろう。",
+      "sentenceWithBlank": "この川が澄んでいる（　　　）、ホタルは毎年戻ってくるだろう。",
+      "korean": "이 강이 맑은 상태인 한 반딧불이는 매년 돌아올 것이다.",
+      "answerChoiceId": "fb-created-n2-012-02-d",
       "choices": [
         {
-          "id": "fb-extra-n2-012-2-c",
-          "text": "ではないか",
-          "grammarId": "n2-075",
-          "baseExpression": "ではないか",
-          "conjugatedExpression": "ではないか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-012-2-d",
-          "text": "かぎり",
-          "grammarId": "n2-012",
-          "baseExpression": "かぎりは",
-          "conjugatedExpression": "かぎり",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-012-2-a",
-          "text": "てならない",
-          "grammarId": "n2-073",
-          "baseExpression": "てならない",
-          "conjugatedExpression": "てならない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-012-2-b",
-          "text": "てはかなわない",
-          "grammarId": "n2-074",
-          "baseExpression": "てはかなわない",
-          "conjugatedExpression": "てはかなわない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
-      "sourceGrammarIds": [
-        "n2-012",
-        "n2-073",
-        "n2-074",
-        "n2-075"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-012-3",
-      "level": "N2",
-      "sentence": "小川氏がこの学校の校長でいるかぎり、校則は変えられないだろう。",
-      "sentenceWithBlank": "小川氏がこの学校の校長でいる（　　　）、校則は変えられないだろう。",
-      "korean": "오가와 씨가 이 학교 교장으로 있는 한 교칙은 바뀌지 않을 것이다.",
-      "answerChoiceId": "fb-extra-n2-012-3-c",
-      "choices": [
-        {
-          "id": "fb-extra-n2-012-3-d",
-          "text": "にもかかわらず",
-          "grammarId": "n2-130",
-          "baseExpression": "にもかかわらず",
-          "conjugatedExpression": "にもかかわらず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-012-3-a",
-          "text": "にもとづいて",
-          "grammarId": "n2-131",
-          "baseExpression": "にもとづいて",
-          "conjugatedExpression": "にもとづいて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-012-3-b",
-          "text": "ぬきで",
-          "grammarId": "n2-132",
-          "baseExpression": "ぬきで",
-          "conjugatedExpression": "ぬきで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-012-3-c",
-          "text": "かぎり",
-          "grammarId": "n2-012",
-          "baseExpression": "かぎりは",
-          "conjugatedExpression": "かぎり",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
-      "sourceGrammarIds": [
-        "n2-012",
-        "n2-130",
-        "n2-131",
-        "n2-132"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-012-4",
-      "level": "N2",
-      "sentence": "体が丈夫なかぎり、思い切り社会活動をしたいものだ。",
-      "sentenceWithBlank": "体が丈夫な（　　　）、思い切り社会活動をしたいものだ。",
-      "korean": "몸이 건강한 한 마음껏 사회활동을 하고 싶다.",
-      "answerChoiceId": "fb-extra-n2-012-4-b",
-      "choices": [
-        {
-          "id": "fb-extra-n2-012-4-a",
-          "text": "に沿って",
-          "grammarId": "n2-125",
-          "baseExpression": "に沿って",
-          "conjugatedExpression": "に沿って",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-012-4-b",
-          "text": "かぎり",
-          "grammarId": "n2-012",
-          "baseExpression": "かぎりは",
-          "conjugatedExpression": "かぎり",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-012-4-c",
-          "text": "にすぎない",
-          "grammarId": "n2-123",
-          "baseExpression": "にすぎない",
-          "conjugatedExpression": "にすぎない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-012-4-d",
-          "text": "に相違ない",
-          "grammarId": "n2-124",
-          "baseExpression": "に相違ない",
-          "conjugatedExpression": "に相違ない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
-      "sourceGrammarIds": [
-        "n2-012",
-        "n2-123",
-        "n2-124",
-        "n2-125"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-012-5",
-      "level": "N2",
-      "sentence": "小川氏がこの学校の校長でいるかぎり、校則は変えられないだろう。",
-      "sentenceWithBlank": "小川氏がこの学校の校長でいる（　　　）、校則は変えられないだろう。",
-      "korean": "오가와 씨가 이 학교 교장으로 있는 한 교칙은 바뀌지 않을 것이다.",
-      "answerChoiceId": "fb-extra-n2-012-5-a",
-      "choices": [
-        {
-          "id": "fb-extra-n2-012-5-b",
-          "text": "はもとより",
-          "grammarId": "n2-144",
-          "baseExpression": "はもとより",
-          "conjugatedExpression": "はもとより",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-012-5-c",
-          "text": "べきだ",
-          "grammarId": "n2-145",
-          "baseExpression": "べきだ",
-          "conjugatedExpression": "べきだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-012-5-d",
-          "text": "まい",
-          "grammarId": "n2-146",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-012-5-a",
-          "text": "かぎり",
-          "grammarId": "n2-012",
-          "baseExpression": "かぎりは",
-          "conjugatedExpression": "かぎり",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
-      "sourceGrammarIds": [
-        "n2-012",
-        "n2-144",
-        "n2-145",
-        "n2-146"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-012-01",
-      "level": "N2",
-      "sentence": "小川氏がこの学校の校長でいるかぎり、校則は変えられないだろう。",
-      "sentenceWithBlank": "小川氏がこの学校の校長でいる（　　　）、校則は変えられないだろう。",
-      "korean": "오가와 씨가 이 학교 교장으로 있는 한 교칙은 바뀌지 않을 것이다.",
-      "answerChoiceId": "fb-extra20-n2-012-01-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-012-01-b",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-012-01-c",
-          "text": "気味",
-          "grammarId": "n2-029",
-          "baseExpression": "気味",
-          "conjugatedExpression": "気味",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-012-01-d",
-          "text": "きらいがある",
-          "grammarId": "n2-030",
-          "baseExpression": "きらいがある",
-          "conjugatedExpression": "きらいがある",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-012-01-a",
-          "text": "かぎり",
-          "grammarId": "n2-012",
-          "baseExpression": "かぎりは",
-          "conjugatedExpression": "かぎり",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
-      "sourceGrammarIds": [
-        "n2-012",
-        "n2-028",
-        "n2-029",
-        "n2-030"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-012-02",
-      "level": "N2",
-      "sentence": "体が丈夫なかぎり、思い切り社会活動をしたいものだ。",
-      "sentenceWithBlank": "体が丈夫な（　　　）、思い切り社会活動をしたいものだ。",
-      "korean": "몸이 건강한 한 마음껏 사회활동을 하고 싶다.",
-      "answerChoiceId": "fb-extra20-n2-012-02-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-012-02-a",
-          "text": "てならない",
-          "grammarId": "n2-073",
-          "baseExpression": "てならない",
-          "conjugatedExpression": "てならない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-012-02-b",
+          "id": "fb-created-n2-012-02-b",
           "text": "てはかなわない",
           "grammarId": "n2-074",
           "baseExpression": "てはかなわない",
@@ -615,7 +336,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-012-02-c",
+          "id": "fb-created-n2-012-02-c",
           "text": "ではないか",
           "grammarId": "n2-075",
           "baseExpression": "ではないか",
@@ -623,199 +344,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-012-02-d",
-          "text": "かぎり",
-          "grammarId": "n2-012",
-          "baseExpression": "かぎりは",
-          "conjugatedExpression": "かぎり",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
-      "sourceGrammarIds": [
-        "n2-012",
-        "n2-073",
-        "n2-074",
-        "n2-075"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-012-03",
-      "level": "N2",
-      "sentence": "小川氏がこの学校の校長でいるかぎり、校則は変えられないだろう。",
-      "sentenceWithBlank": "小川氏がこの学校の校長でいる（　　　）、校則は変えられないだろう。",
-      "korean": "오가와 씨가 이 학교 교장으로 있는 한 교칙은 바뀌지 않을 것이다.",
-      "answerChoiceId": "fb-extra20-n2-012-03-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-012-03-d",
-          "text": "にもかかわらず",
-          "grammarId": "n2-130",
-          "baseExpression": "にもかかわらず",
-          "conjugatedExpression": "にもかかわらず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-012-03-a",
-          "text": "にもとづいて",
-          "grammarId": "n2-131",
-          "baseExpression": "にもとづいて",
-          "conjugatedExpression": "にもとづいて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-012-03-b",
-          "text": "ぬきで",
-          "grammarId": "n2-132",
-          "baseExpression": "ぬきで",
-          "conjugatedExpression": "ぬきで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-012-03-c",
-          "text": "かぎり",
-          "grammarId": "n2-012",
-          "baseExpression": "かぎりは",
-          "conjugatedExpression": "かぎり",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
-      "sourceGrammarIds": [
-        "n2-012",
-        "n2-130",
-        "n2-131",
-        "n2-132"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-012-04",
-      "level": "N2",
-      "sentence": "体が丈夫なかぎり、思い切り社会活動をしたいものだ。",
-      "sentenceWithBlank": "体が丈夫な（　　　）、思い切り社会活動をしたいものだ。",
-      "korean": "몸이 건강한 한 마음껏 사회활동을 하고 싶다.",
-      "answerChoiceId": "fb-extra20-n2-012-04-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-012-04-c",
-          "text": "にすぎない",
-          "grammarId": "n2-123",
-          "baseExpression": "にすぎない",
-          "conjugatedExpression": "にすぎない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-012-04-d",
-          "text": "に相違ない",
-          "grammarId": "n2-124",
-          "baseExpression": "に相違ない",
-          "conjugatedExpression": "に相違ない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-012-04-a",
-          "text": "に沿って",
-          "grammarId": "n2-125",
-          "baseExpression": "に沿って",
-          "conjugatedExpression": "に沿って",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-012-04-b",
-          "text": "かぎり",
-          "grammarId": "n2-012",
-          "baseExpression": "かぎりは",
-          "conjugatedExpression": "かぎり",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
-      "sourceGrammarIds": [
-        "n2-012",
-        "n2-123",
-        "n2-124",
-        "n2-125"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-012-05",
-      "level": "N2",
-      "sentence": "小川氏がこの学校の校長でいるかぎり、校則は変えられないだろう。",
-      "sentenceWithBlank": "小川氏がこの学校の校長でいる（　　　）、校則は変えられないだろう。",
-      "korean": "오가와 씨가 이 학교 교장으로 있는 한 교칙은 바뀌지 않을 것이다.",
-      "answerChoiceId": "fb-extra20-n2-012-05-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-012-05-b",
-          "text": "はもとより",
-          "grammarId": "n2-144",
-          "baseExpression": "はもとより",
-          "conjugatedExpression": "はもとより",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-012-05-c",
-          "text": "べきだ",
-          "grammarId": "n2-145",
-          "baseExpression": "べきだ",
-          "conjugatedExpression": "べきだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-012-05-d",
-          "text": "まい",
-          "grammarId": "n2-146",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-012-05-a",
-          "text": "かぎり",
-          "grammarId": "n2-012",
-          "baseExpression": "かぎりは",
-          "conjugatedExpression": "かぎり",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
-      "sourceGrammarIds": [
-        "n2-012",
-        "n2-144",
-        "n2-145",
-        "n2-146"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-012-06",
-      "level": "N2",
-      "sentence": "小川氏がこの学校の校長でいるかぎり、校則は変えられないだろう。",
-      "sentenceWithBlank": "小川氏がこの学校の校長でいる（　　　）、校則は変えられないだろう。",
-      "korean": "오가와 씨가 이 학교 교장으로 있는 한 교칙은 바뀌지 않을 것이다.",
-      "answerChoiceId": "fb-extra20-n2-012-06-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-012-06-a",
+          "id": "fb-created-n2-012-02-d",
           "text": "かぎり",
           "grammarId": "n2-012",
           "baseExpression": "かぎりは",
@@ -823,85 +352,15 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-012-06-b",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-012-06-c",
-          "text": "気味",
-          "grammarId": "n2-029",
-          "baseExpression": "気味",
-          "conjugatedExpression": "気味",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-012-06-d",
-          "text": "きらいがある",
-          "grammarId": "n2-030",
-          "baseExpression": "きらいがある",
-          "conjugatedExpression": "きらいがある",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
-      "sourceGrammarIds": [
-        "n2-012",
-        "n2-028",
-        "n2-029",
-        "n2-030"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-012-07",
-      "level": "N2",
-      "sentence": "体が丈夫なかぎり、思い切り社会活動をしたいものだ。",
-      "sentenceWithBlank": "体が丈夫な（　　　）、思い切り社会活動をしたいものだ。",
-      "korean": "몸이 건강한 한 마음껏 사회활동을 하고 싶다.",
-      "answerChoiceId": "fb-extra20-n2-012-07-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-012-07-d",
-          "text": "かぎり",
-          "grammarId": "n2-012",
-          "baseExpression": "かぎりは",
-          "conjugatedExpression": "かぎり",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-012-07-a",
+          "id": "fb-created-n2-012-02-a",
           "text": "てならない",
           "grammarId": "n2-073",
           "baseExpression": "てならない",
           "conjugatedExpression": "てならない",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-012-07-b",
-          "text": "てはかなわない",
-          "grammarId": "n2-074",
-          "baseExpression": "てはかなわない",
-          "conjugatedExpression": "てはかなわない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-012-07-c",
-          "text": "ではないか",
-          "grammarId": "n2-075",
-          "baseExpression": "ではないか",
-          "conjugatedExpression": "ではないか",
-          "isSimilarDistractor": true
         }
       ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '이 강이 맑은 상태인 한 반딧불이는 매년 돌아올 것이다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
       "sourceGrammarIds": [
         "n2-012",
         "n2-073",
@@ -909,453 +368,20 @@
         "n2-075"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-012-08",
+      "id": "fb-created-n2-012-03",
       "level": "N2",
-      "sentence": "小川氏がこの学校の校長でいるかぎり、校則は変えられないだろう。",
-      "sentenceWithBlank": "小川氏がこの学校の校長でいる（　　　）、校則は変えられないだろう。",
-      "korean": "오가와 씨가 이 학교 교장으로 있는 한 교칙은 바뀌지 않을 것이다.",
-      "answerChoiceId": "fb-extra20-n2-012-08-c",
+      "sentence": "祖父が農業を続けるかぎり、私は週末に畑仕事を手伝うつもりだ。",
+      "sentenceWithBlank": "祖父が農業を続ける（　　　）、私は週末に畑仕事を手伝うつもりだ。",
+      "korean": "할아버지가 농사를 계속하는 한 나는 주말에 밭일을 도울 생각이다.",
+      "answerChoiceId": "fb-created-n2-012-03-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-012-08-c",
-          "text": "かぎり",
-          "grammarId": "n2-012",
-          "baseExpression": "かぎりは",
-          "conjugatedExpression": "かぎり",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-012-08-d",
-          "text": "にもかかわらず",
-          "grammarId": "n2-130",
-          "baseExpression": "にもかかわらず",
-          "conjugatedExpression": "にもかかわらず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-012-08-a",
-          "text": "にもとづいて",
-          "grammarId": "n2-131",
-          "baseExpression": "にもとづいて",
-          "conjugatedExpression": "にもとづいて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-012-08-b",
-          "text": "ぬきで",
-          "grammarId": "n2-132",
-          "baseExpression": "ぬきで",
-          "conjugatedExpression": "ぬきで",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
-      "sourceGrammarIds": [
-        "n2-012",
-        "n2-130",
-        "n2-131",
-        "n2-132"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-012-09",
-      "level": "N2",
-      "sentence": "体が丈夫なかぎり、思い切り社会活動をしたいものだ。",
-      "sentenceWithBlank": "体が丈夫な（　　　）、思い切り社会活動をしたいものだ。",
-      "korean": "몸이 건강한 한 마음껏 사회활동을 하고 싶다.",
-      "answerChoiceId": "fb-extra20-n2-012-09-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-012-09-b",
-          "text": "かぎり",
-          "grammarId": "n2-012",
-          "baseExpression": "かぎりは",
-          "conjugatedExpression": "かぎり",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-012-09-c",
-          "text": "にすぎない",
-          "grammarId": "n2-123",
-          "baseExpression": "にすぎない",
-          "conjugatedExpression": "にすぎない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-012-09-d",
-          "text": "に相違ない",
-          "grammarId": "n2-124",
-          "baseExpression": "に相違ない",
-          "conjugatedExpression": "に相違ない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-012-09-a",
-          "text": "に沿って",
-          "grammarId": "n2-125",
-          "baseExpression": "に沿って",
-          "conjugatedExpression": "に沿って",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
-      "sourceGrammarIds": [
-        "n2-012",
-        "n2-123",
-        "n2-124",
-        "n2-125"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-012-10",
-      "level": "N2",
-      "sentence": "小川氏がこの学校の校長でいるかぎり、校則は変えられないだろう。",
-      "sentenceWithBlank": "小川氏がこの学校の校長でいる（　　　）、校則は変えられないだろう。",
-      "korean": "오가와 씨가 이 학교 교장으로 있는 한 교칙은 바뀌지 않을 것이다.",
-      "answerChoiceId": "fb-extra20-n2-012-10-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-012-10-a",
-          "text": "かぎり",
-          "grammarId": "n2-012",
-          "baseExpression": "かぎりは",
-          "conjugatedExpression": "かぎり",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-012-10-b",
-          "text": "はもとより",
-          "grammarId": "n2-144",
-          "baseExpression": "はもとより",
-          "conjugatedExpression": "はもとより",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-012-10-c",
-          "text": "べきだ",
-          "grammarId": "n2-145",
-          "baseExpression": "べきだ",
-          "conjugatedExpression": "べきだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-012-10-d",
-          "text": "まい",
-          "grammarId": "n2-146",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
-      "sourceGrammarIds": [
-        "n2-012",
-        "n2-144",
-        "n2-145",
-        "n2-146"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-012-11",
-      "level": "N2",
-      "sentence": "小川氏がこの学校の校長でいるかぎり、校則は変えられないだろう。",
-      "sentenceWithBlank": "小川氏がこの学校の校長でいる（　　　）、校則は変えられないだろう。",
-      "korean": "오가와 씨가 이 학교 교장으로 있는 한 교칙은 바뀌지 않을 것이다.",
-      "answerChoiceId": "fb-extra20-n2-012-11-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-012-11-d",
-          "text": "きらいがある",
-          "grammarId": "n2-030",
-          "baseExpression": "きらいがある",
-          "conjugatedExpression": "きらいがある",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-012-11-a",
-          "text": "かぎり",
-          "grammarId": "n2-012",
-          "baseExpression": "かぎりは",
-          "conjugatedExpression": "かぎり",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-012-11-b",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-012-11-c",
-          "text": "気味",
-          "grammarId": "n2-029",
-          "baseExpression": "気味",
-          "conjugatedExpression": "気味",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
-      "sourceGrammarIds": [
-        "n2-012",
-        "n2-028",
-        "n2-029",
-        "n2-030"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-012-12",
-      "level": "N2",
-      "sentence": "体が丈夫なかぎり、思い切り社会活動をしたいものだ。",
-      "sentenceWithBlank": "体が丈夫な（　　　）、思い切り社会活動をしたいものだ。",
-      "korean": "몸이 건강한 한 마음껏 사회활동을 하고 싶다.",
-      "answerChoiceId": "fb-extra20-n2-012-12-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-012-12-c",
-          "text": "ではないか",
-          "grammarId": "n2-075",
-          "baseExpression": "ではないか",
-          "conjugatedExpression": "ではないか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-012-12-d",
-          "text": "かぎり",
-          "grammarId": "n2-012",
-          "baseExpression": "かぎりは",
-          "conjugatedExpression": "かぎり",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-012-12-a",
-          "text": "てならない",
-          "grammarId": "n2-073",
-          "baseExpression": "てならない",
-          "conjugatedExpression": "てならない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-012-12-b",
-          "text": "てはかなわない",
-          "grammarId": "n2-074",
-          "baseExpression": "てはかなわない",
-          "conjugatedExpression": "てはかなわない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
-      "sourceGrammarIds": [
-        "n2-012",
-        "n2-073",
-        "n2-074",
-        "n2-075"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-012-13",
-      "level": "N2",
-      "sentence": "小川氏がこの学校の校長でいるかぎり、校則は変えられないだろう。",
-      "sentenceWithBlank": "小川氏がこの学校の校長でいる（　　　）、校則は変えられないだろう。",
-      "korean": "오가와 씨가 이 학교 교장으로 있는 한 교칙은 바뀌지 않을 것이다.",
-      "answerChoiceId": "fb-extra20-n2-012-13-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-012-13-b",
-          "text": "ぬきで",
-          "grammarId": "n2-132",
-          "baseExpression": "ぬきで",
-          "conjugatedExpression": "ぬきで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-012-13-c",
-          "text": "かぎり",
-          "grammarId": "n2-012",
-          "baseExpression": "かぎりは",
-          "conjugatedExpression": "かぎり",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-012-13-d",
-          "text": "にもかかわらず",
-          "grammarId": "n2-130",
-          "baseExpression": "にもかかわらず",
-          "conjugatedExpression": "にもかかわらず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-012-13-a",
-          "text": "にもとづいて",
-          "grammarId": "n2-131",
-          "baseExpression": "にもとづいて",
-          "conjugatedExpression": "にもとづいて",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
-      "sourceGrammarIds": [
-        "n2-012",
-        "n2-130",
-        "n2-131",
-        "n2-132"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-012-14",
-      "level": "N2",
-      "sentence": "体が丈夫なかぎり、思い切り社会活動をしたいものだ。",
-      "sentenceWithBlank": "体が丈夫な（　　　）、思い切り社会活動をしたいものだ。",
-      "korean": "몸이 건강한 한 마음껏 사회활동을 하고 싶다.",
-      "answerChoiceId": "fb-extra20-n2-012-14-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-012-14-a",
-          "text": "に沿って",
-          "grammarId": "n2-125",
-          "baseExpression": "に沿って",
-          "conjugatedExpression": "に沿って",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-012-14-b",
-          "text": "かぎり",
-          "grammarId": "n2-012",
-          "baseExpression": "かぎりは",
-          "conjugatedExpression": "かぎり",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-012-14-c",
-          "text": "にすぎない",
-          "grammarId": "n2-123",
-          "baseExpression": "にすぎない",
-          "conjugatedExpression": "にすぎない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-012-14-d",
-          "text": "に相違ない",
-          "grammarId": "n2-124",
-          "baseExpression": "に相違ない",
-          "conjugatedExpression": "に相違ない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
-      "sourceGrammarIds": [
-        "n2-012",
-        "n2-123",
-        "n2-124",
-        "n2-125"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-012-15",
-      "level": "N2",
-      "sentence": "小川氏がこの学校の校長でいるかぎり、校則は変えられないだろう。",
-      "sentenceWithBlank": "小川氏がこの学校の校長でいる（　　　）、校則は変えられないだろう。",
-      "korean": "오가와 씨가 이 학교 교장으로 있는 한 교칙은 바뀌지 않을 것이다.",
-      "answerChoiceId": "fb-extra20-n2-012-15-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-012-15-d",
-          "text": "まい",
-          "grammarId": "n2-146",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-012-15-a",
-          "text": "かぎり",
-          "grammarId": "n2-012",
-          "baseExpression": "かぎりは",
-          "conjugatedExpression": "かぎり",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-012-15-b",
-          "text": "はもとより",
-          "grammarId": "n2-144",
-          "baseExpression": "はもとより",
-          "conjugatedExpression": "はもとより",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-012-15-c",
-          "text": "べきだ",
-          "grammarId": "n2-145",
-          "baseExpression": "べきだ",
-          "conjugatedExpression": "べきだ",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
-      "sourceGrammarIds": [
-        "n2-012",
-        "n2-144",
-        "n2-145",
-        "n2-146"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-012-16",
-      "level": "N2",
-      "sentence": "小川氏がこの学校の校長でいるかぎり、校則は変えられないだろう。",
-      "sentenceWithBlank": "小川氏がこの学校の校長でいる（　　　）、校則は変えられないだろう。",
-      "korean": "오가와 씨가 이 학교 교장으로 있는 한 교칙은 바뀌지 않을 것이다.",
-      "answerChoiceId": "fb-extra20-n2-012-16-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-012-16-c",
+          "id": "fb-created-n2-012-03-c",
           "text": "気味",
           "grammarId": "n2-029",
           "baseExpression": "気味",
@@ -1363,7 +389,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-012-16-d",
+          "id": "fb-created-n2-012-03-d",
           "text": "きらいがある",
           "grammarId": "n2-030",
           "baseExpression": "きらいがある",
@@ -1371,7 +397,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-012-16-a",
+          "id": "fb-created-n2-012-03-a",
           "text": "かぎり",
           "grammarId": "n2-012",
           "baseExpression": "かぎりは",
@@ -1379,7 +405,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-012-16-b",
+          "id": "fb-created-n2-012-03-b",
           "text": "からといって",
           "grammarId": "n2-028",
           "baseExpression": "からといって",
@@ -1387,7 +413,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '할아버지가 농사를 계속하는 한 나는 주말에 밭일을 도울 생각이다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
       "sourceGrammarIds": [
         "n2-012",
         "n2-028",
@@ -1395,21 +421,36 @@
         "n2-030"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-012-17",
+      "id": "fb-created-n2-012-04",
       "level": "N2",
-      "sentence": "体が丈夫なかぎり、思い切り社会活動をしたいものだ。",
-      "sentenceWithBlank": "体が丈夫な（　　　）、思い切り社会活動をしたいものだ。",
-      "korean": "몸이 건강한 한 마음껏 사회활동을 하고 싶다.",
-      "answerChoiceId": "fb-extra20-n2-012-17-d",
+      "sentence": "契約が有効であるかぎり、故障した機器は無料で交換される。",
+      "sentenceWithBlank": "契約が有効である（　　　）、故障した機器は無料で交換される。",
+      "korean": "계약이 유효한 한 고장 난 기기는 무료로 교환된다.",
+      "answerChoiceId": "fb-created-n2-012-04-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-012-17-b",
+          "id": "fb-created-n2-012-04-d",
+          "text": "かぎり",
+          "grammarId": "n2-012",
+          "baseExpression": "かぎりは",
+          "conjugatedExpression": "かぎり",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-012-04-a",
+          "text": "てならない",
+          "grammarId": "n2-073",
+          "baseExpression": "てならない",
+          "conjugatedExpression": "てならない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-012-04-b",
           "text": "てはかなわない",
           "grammarId": "n2-074",
           "baseExpression": "てはかなわない",
@@ -1417,31 +458,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-012-17-c",
+          "id": "fb-created-n2-012-04-c",
           "text": "ではないか",
           "grammarId": "n2-075",
           "baseExpression": "ではないか",
           "conjugatedExpression": "ではないか",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-012-17-d",
-          "text": "かぎり",
-          "grammarId": "n2-012",
-          "baseExpression": "かぎりは",
-          "conjugatedExpression": "かぎり",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-012-17-a",
-          "text": "てならない",
-          "grammarId": "n2-073",
-          "baseExpression": "てならない",
-          "conjugatedExpression": "てならない",
-          "isSimilarDistractor": true
         }
       ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '계약이 유효한 한 고장 난 기기는 무료로 교환된다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
       "sourceGrammarIds": [
         "n2-012",
         "n2-073",
@@ -1449,37 +474,20 @@
         "n2-075"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-012-18",
+      "id": "fb-created-n2-012-05",
       "level": "N2",
-      "sentence": "小川氏がこの学校の校長でいるかぎり、校則は変えられないだろう。",
-      "sentenceWithBlank": "小川氏がこの学校の校長でいる（　　　）、校則は変えられないだろう。",
-      "korean": "오가와 씨가 이 학교 교장으로 있는 한 교칙은 바뀌지 않을 것이다.",
-      "answerChoiceId": "fb-extra20-n2-012-18-c",
+      "sentence": "患者に回復の可能性が残っているかぎり、医療チームは治療を諦めない。",
+      "sentenceWithBlank": "患者に回復の可能性が残っている（　　　）、医療チームは治療を諦めない。",
+      "korean": "환자에게 회복 가능성이 남아 있는 한 의료진은 치료를 포기하지 않는다.",
+      "answerChoiceId": "fb-created-n2-012-05-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-012-18-a",
-          "text": "にもとづいて",
-          "grammarId": "n2-131",
-          "baseExpression": "にもとづいて",
-          "conjugatedExpression": "にもとづいて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-012-18-b",
-          "text": "ぬきで",
-          "grammarId": "n2-132",
-          "baseExpression": "ぬきで",
-          "conjugatedExpression": "ぬきで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-012-18-c",
+          "id": "fb-created-n2-012-05-a",
           "text": "かぎり",
           "grammarId": "n2-012",
           "baseExpression": "かぎりは",
@@ -1487,53 +495,68 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-012-18-d",
-          "text": "にもかかわらず",
-          "grammarId": "n2-130",
-          "baseExpression": "にもかかわらず",
-          "conjugatedExpression": "にもかかわらず",
+          "id": "fb-created-n2-012-05-b",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-012-05-c",
+          "text": "気味",
+          "grammarId": "n2-029",
+          "baseExpression": "気味",
+          "conjugatedExpression": "気味",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-012-05-d",
+          "text": "きらいがある",
+          "grammarId": "n2-030",
+          "baseExpression": "きらいがある",
+          "conjugatedExpression": "きらいがある",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '환자에게 회복 가능성이 남아 있는 한 의료진은 치료를 포기하지 않는다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
       "sourceGrammarIds": [
         "n2-012",
-        "n2-130",
-        "n2-131",
-        "n2-132"
+        "n2-028",
+        "n2-029",
+        "n2-030"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-012-19",
+      "id": "fb-created-n2-012-06",
       "level": "N2",
-      "sentence": "体が丈夫なかぎり、思い切り社会活動をしたいものだ。",
-      "sentenceWithBlank": "体が丈夫な（　　　）、思い切り社会活動をしたいものだ。",
-      "korean": "몸이 건강한 한 마음껏 사회활동을 하고 싶다.",
-      "answerChoiceId": "fb-extra20-n2-012-19-b",
+      "sentence": "強い風が吹くかぎり、港から漁船を出すことはできない。",
+      "sentenceWithBlank": "強い風が吹く（　　　）、港から漁船を出すことはできない。",
+      "korean": "강한 바람이 부는 한 항구에서 어선을 출항시킬 수 없다.",
+      "answerChoiceId": "fb-created-n2-012-06-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-012-19-d",
-          "text": "に相違ない",
-          "grammarId": "n2-124",
-          "baseExpression": "に相違ない",
-          "conjugatedExpression": "に相違ない",
+          "id": "fb-created-n2-012-06-b",
+          "text": "てはかなわない",
+          "grammarId": "n2-074",
+          "baseExpression": "てはかなわない",
+          "conjugatedExpression": "てはかなわない",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-012-19-a",
-          "text": "に沿って",
-          "grammarId": "n2-125",
-          "baseExpression": "に沿って",
-          "conjugatedExpression": "に沿って",
+          "id": "fb-created-n2-012-06-c",
+          "text": "ではないか",
+          "grammarId": "n2-075",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-012-19-b",
+          "id": "fb-created-n2-012-06-d",
           "text": "かぎり",
           "grammarId": "n2-012",
           "baseExpression": "かぎりは",
@@ -1541,53 +564,52 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-012-19-c",
-          "text": "にすぎない",
-          "grammarId": "n2-123",
-          "baseExpression": "にすぎない",
-          "conjugatedExpression": "にすぎない",
+          "id": "fb-created-n2-012-06-a",
+          "text": "てならない",
+          "grammarId": "n2-073",
+          "baseExpression": "てならない",
+          "conjugatedExpression": "てならない",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '강한 바람이 부는 한 항구에서 어선을 출항시킬 수 없다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
       "sourceGrammarIds": [
         "n2-012",
-        "n2-123",
-        "n2-124",
-        "n2-125"
+        "n2-073",
+        "n2-074",
+        "n2-075"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-012-20",
+      "id": "fb-created-n2-012-07",
       "level": "N2",
-      "sentence": "小川氏がこの学校の校長でいるかぎり、校則は変えられないだろう。",
-      "sentenceWithBlank": "小川氏がこの学校の校長でいる（　　　）、校則は変えられないだろう。",
-      "korean": "오가와 씨가 이 학교 교장으로 있는 한 교칙은 바뀌지 않을 것이다.",
-      "answerChoiceId": "fb-extra20-n2-012-20-a",
+      "sentence": "住民が反対しているかぎり、工場の建設計画は進まないだろう。",
+      "sentenceWithBlank": "住民が反対している（　　　）、工場の建設計画は進まないだろう。",
+      "korean": "주민들이 반대하는 한 공장 건설 계획은 진행되지 않을 것이다.",
+      "answerChoiceId": "fb-created-n2-012-07-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-012-20-c",
-          "text": "べきだ",
-          "grammarId": "n2-145",
-          "baseExpression": "べきだ",
-          "conjugatedExpression": "べきだ",
+          "id": "fb-created-n2-012-07-c",
+          "text": "気味",
+          "grammarId": "n2-029",
+          "baseExpression": "気味",
+          "conjugatedExpression": "気味",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-012-20-d",
-          "text": "まい",
-          "grammarId": "n2-146",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
+          "id": "fb-created-n2-012-07-d",
+          "text": "きらいがある",
+          "grammarId": "n2-030",
+          "baseExpression": "きらいがある",
+          "conjugatedExpression": "きらいがある",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-012-20-a",
+          "id": "fb-created-n2-012-07-a",
           "text": "かぎり",
           "grammarId": "n2-012",
           "baseExpression": "かぎりは",
@@ -1595,25 +617,978 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-012-20-b",
-          "text": "はもとより",
-          "grammarId": "n2-144",
-          "baseExpression": "はもとより",
-          "conjugatedExpression": "はもとより",
+          "id": "fb-created-n2-012-07-b",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '주민들이 반대하는 한 공장 건설 계획은 진행되지 않을 것이다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
       "sourceGrammarIds": [
         "n2-012",
-        "n2-144",
-        "n2-145",
-        "n2-146"
+        "n2-028",
+        "n2-029",
+        "n2-030"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-012-08",
+      "level": "N2",
+      "sentence": "この鍵を持っているかぎり、倉庫にはいつでも入れる。",
+      "sentenceWithBlank": "この鍵を持っている（　　　）、倉庫にはいつでも入れる。",
+      "korean": "이 열쇠를 가지고 있는 한 창고에는 언제든지 들어갈 수 있다.",
+      "answerChoiceId": "fb-created-n2-012-08-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-012-08-d",
+          "text": "かぎり",
+          "grammarId": "n2-012",
+          "baseExpression": "かぎりは",
+          "conjugatedExpression": "かぎり",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-012-08-a",
+          "text": "てならない",
+          "grammarId": "n2-073",
+          "baseExpression": "てならない",
+          "conjugatedExpression": "てならない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-012-08-b",
+          "text": "てはかなわない",
+          "grammarId": "n2-074",
+          "baseExpression": "てはかなわない",
+          "conjugatedExpression": "てはかなわない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-012-08-c",
+          "text": "ではないか",
+          "grammarId": "n2-075",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '이 열쇠를 가지고 있는 한 창고에는 언제든지 들어갈 수 있다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
+      "sourceGrammarIds": [
+        "n2-012",
+        "n2-073",
+        "n2-074",
+        "n2-075"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-012-09",
+      "level": "N2",
+      "sentence": "店に在庫があるかぎり、注文を受け付ける方針です。",
+      "sentenceWithBlank": "店に在庫がある（　　　）、注文を受け付ける方針です。",
+      "korean": "매장에 재고가 있는 한 주문을 받을 방침입니다.",
+      "answerChoiceId": "fb-created-n2-012-09-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-012-09-a",
+          "text": "かぎり",
+          "grammarId": "n2-012",
+          "baseExpression": "かぎりは",
+          "conjugatedExpression": "かぎり",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-012-09-b",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-012-09-c",
+          "text": "気味",
+          "grammarId": "n2-029",
+          "baseExpression": "気味",
+          "conjugatedExpression": "気味",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-012-09-d",
+          "text": "きらいがある",
+          "grammarId": "n2-030",
+          "baseExpression": "きらいがある",
+          "conjugatedExpression": "きらいがある",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '매장에 재고가 있는 한 주문을 받을 방침입니다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
+      "sourceGrammarIds": [
+        "n2-012",
+        "n2-028",
+        "n2-029",
+        "n2-030"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-012-10",
+      "level": "N2",
+      "sentence": "彼が事実を隠すかぎり、家族との信頼関係は取り戻せない。",
+      "sentenceWithBlank": "彼が事実を隠す（　　　）、家族との信頼関係は取り戻せない。",
+      "korean": "그가 사실을 숨기는 한 가족과의 신뢰 관계는 회복할 수 없다.",
+      "answerChoiceId": "fb-created-n2-012-10-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-012-10-b",
+          "text": "てはかなわない",
+          "grammarId": "n2-074",
+          "baseExpression": "てはかなわない",
+          "conjugatedExpression": "てはかなわない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-012-10-c",
+          "text": "ではないか",
+          "grammarId": "n2-075",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-012-10-d",
+          "text": "かぎり",
+          "grammarId": "n2-012",
+          "baseExpression": "かぎりは",
+          "conjugatedExpression": "かぎり",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-012-10-a",
+          "text": "てならない",
+          "grammarId": "n2-073",
+          "baseExpression": "てならない",
+          "conjugatedExpression": "てならない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '그가 사실을 숨기는 한 가족과의 신뢰 관계는 회복할 수 없다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
+      "sourceGrammarIds": [
+        "n2-012",
+        "n2-073",
+        "n2-074",
+        "n2-075"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-012-11",
+      "level": "N2",
+      "sentence": "エンジンが正常に動くかぎり、この発電機で避難所の電力を賄える。",
+      "sentenceWithBlank": "エンジンが正常に動く（　　　）、この発電機で避難所の電力を賄える。",
+      "korean": "엔진이 정상적으로 작동하는 한 이 발전기로 대피소의 전력을 충당할 수 있다.",
+      "answerChoiceId": "fb-created-n2-012-11-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-012-11-c",
+          "text": "気味",
+          "grammarId": "n2-029",
+          "baseExpression": "気味",
+          "conjugatedExpression": "気味",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-012-11-d",
+          "text": "きらいがある",
+          "grammarId": "n2-030",
+          "baseExpression": "きらいがある",
+          "conjugatedExpression": "きらいがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-012-11-a",
+          "text": "かぎり",
+          "grammarId": "n2-012",
+          "baseExpression": "かぎりは",
+          "conjugatedExpression": "かぎり",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-012-11-b",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '엔진이 정상적으로 작동하는 한 이 발전기로 대피소의 전력을 충당할 수 있다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
+      "sourceGrammarIds": [
+        "n2-012",
+        "n2-028",
+        "n2-029",
+        "n2-030"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-012-12",
+      "level": "N2",
+      "sentence": "地域に需要があるかぎり、移動販売車の運行を続けたい。",
+      "sentenceWithBlank": "地域に需要がある（　　　）、移動販売車の運行を続けたい。",
+      "korean": "지역에 수요가 있는 한 이동 판매 차량의 운행을 계속하고 싶다.",
+      "answerChoiceId": "fb-created-n2-012-12-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-012-12-d",
+          "text": "かぎり",
+          "grammarId": "n2-012",
+          "baseExpression": "かぎりは",
+          "conjugatedExpression": "かぎり",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-012-12-a",
+          "text": "てならない",
+          "grammarId": "n2-073",
+          "baseExpression": "てならない",
+          "conjugatedExpression": "てならない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-012-12-b",
+          "text": "てはかなわない",
+          "grammarId": "n2-074",
+          "baseExpression": "てはかなわない",
+          "conjugatedExpression": "てはかなわない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-012-12-c",
+          "text": "ではないか",
+          "grammarId": "n2-075",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '지역에 수요가 있는 한 이동 판매 차량의 운행을 계속하고 싶다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
+      "sourceGrammarIds": [
+        "n2-012",
+        "n2-073",
+        "n2-074",
+        "n2-075"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-012-13",
+      "level": "N2",
+      "sentence": "証拠が不足しているかぎり、容疑者を起訴するのは難しい。",
+      "sentenceWithBlank": "証拠が不足している（　　　）、容疑者を起訴するのは難しい。",
+      "korean": "증거가 부족한 한 용의자를 기소하기는 어렵다.",
+      "answerChoiceId": "fb-created-n2-012-13-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-012-13-a",
+          "text": "かぎり",
+          "grammarId": "n2-012",
+          "baseExpression": "かぎりは",
+          "conjugatedExpression": "かぎり",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-012-13-b",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-012-13-c",
+          "text": "気味",
+          "grammarId": "n2-029",
+          "baseExpression": "気味",
+          "conjugatedExpression": "気味",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-012-13-d",
+          "text": "きらいがある",
+          "grammarId": "n2-030",
+          "baseExpression": "きらいがある",
+          "conjugatedExpression": "きらいがある",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '증거가 부족한 한 용의자를 기소하기는 어렵다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
+      "sourceGrammarIds": [
+        "n2-012",
+        "n2-028",
+        "n2-029",
+        "n2-030"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-012-14",
+      "level": "N2",
+      "sentence": "子どもが望むかぎり、両親は海外での挑戦を支えるつもりだ。",
+      "sentenceWithBlank": "子どもが望む（　　　）、両親は海外での挑戦を支えるつもりだ。",
+      "korean": "아이가 원하는 한 부모는 해외에서의 도전을 지원할 생각이다.",
+      "answerChoiceId": "fb-created-n2-012-14-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-012-14-b",
+          "text": "てはかなわない",
+          "grammarId": "n2-074",
+          "baseExpression": "てはかなわない",
+          "conjugatedExpression": "てはかなわない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-012-14-c",
+          "text": "ではないか",
+          "grammarId": "n2-075",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-012-14-d",
+          "text": "かぎり",
+          "grammarId": "n2-012",
+          "baseExpression": "かぎりは",
+          "conjugatedExpression": "かぎり",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-012-14-a",
+          "text": "てならない",
+          "grammarId": "n2-073",
+          "baseExpression": "てならない",
+          "conjugatedExpression": "てならない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '아이가 원하는 한 부모는 해외에서의 도전을 지원할 생각이다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
+      "sourceGrammarIds": [
+        "n2-012",
+        "n2-073",
+        "n2-074",
+        "n2-075"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-012-15",
+      "level": "N2",
+      "sentence": "水位が上昇し続けるかぎり、周辺道路の通行止めは解除できない。",
+      "sentenceWithBlank": "水位が上昇し続ける（　　　）、周辺道路の通行止めは解除できない。",
+      "korean": "수위가 계속 상승하는 한 주변 도로의 통행금지는 해제할 수 없다.",
+      "answerChoiceId": "fb-created-n2-012-15-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-012-15-c",
+          "text": "気味",
+          "grammarId": "n2-029",
+          "baseExpression": "気味",
+          "conjugatedExpression": "気味",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-012-15-d",
+          "text": "きらいがある",
+          "grammarId": "n2-030",
+          "baseExpression": "きらいがある",
+          "conjugatedExpression": "きらいがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-012-15-a",
+          "text": "かぎり",
+          "grammarId": "n2-012",
+          "baseExpression": "かぎりは",
+          "conjugatedExpression": "かぎり",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-012-15-b",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '수위가 계속 상승하는 한 주변 도로의 통행금지는 해제할 수 없다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
+      "sourceGrammarIds": [
+        "n2-012",
+        "n2-028",
+        "n2-029",
+        "n2-030"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-012-16",
+      "level": "N2",
+      "sentence": "彼女が舞台に立つかぎり、私は客席から拍手を送り続ける。",
+      "sentenceWithBlank": "彼女が舞台に立つ（　　　）、私は客席から拍手を送り続ける。",
+      "korean": "그녀가 무대에 서는 한 나는 객석에서 계속 박수를 보낼 것이다.",
+      "answerChoiceId": "fb-created-n2-012-16-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-012-16-d",
+          "text": "かぎり",
+          "grammarId": "n2-012",
+          "baseExpression": "かぎりは",
+          "conjugatedExpression": "かぎり",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-012-16-a",
+          "text": "てならない",
+          "grammarId": "n2-073",
+          "baseExpression": "てならない",
+          "conjugatedExpression": "てならない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-012-16-b",
+          "text": "てはかなわない",
+          "grammarId": "n2-074",
+          "baseExpression": "てはかなわない",
+          "conjugatedExpression": "てはかなわない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-012-16-c",
+          "text": "ではないか",
+          "grammarId": "n2-075",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '그녀가 무대에 서는 한 나는 객석에서 계속 박수를 보낼 것이다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
+      "sourceGrammarIds": [
+        "n2-012",
+        "n2-073",
+        "n2-074",
+        "n2-075"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-012-17",
+      "level": "N2",
+      "sentence": "会社が個人情報を保存するかぎり、厳重な管理責任を負う。",
+      "sentenceWithBlank": "会社が個人情報を保存する（　　　）、厳重な管理責任を負う。",
+      "korean": "회사가 개인정보를 보관하는 한 엄중한 관리 책임을 진다.",
+      "answerChoiceId": "fb-created-n2-012-17-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-012-17-a",
+          "text": "かぎり",
+          "grammarId": "n2-012",
+          "baseExpression": "かぎりは",
+          "conjugatedExpression": "かぎり",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-012-17-b",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-012-17-c",
+          "text": "気味",
+          "grammarId": "n2-029",
+          "baseExpression": "気味",
+          "conjugatedExpression": "気味",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-012-17-d",
+          "text": "きらいがある",
+          "grammarId": "n2-030",
+          "baseExpression": "きらいがある",
+          "conjugatedExpression": "きらいがある",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '회사가 개인정보를 보관하는 한 엄중한 관리 책임을 진다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
+      "sourceGrammarIds": [
+        "n2-012",
+        "n2-028",
+        "n2-029",
+        "n2-030"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-012-18",
+      "level": "N2",
+      "sentence": "雪が積もっているかぎり、峠を越えるバスは運休となる。",
+      "sentenceWithBlank": "雪が積もっている（　　　）、峠を越えるバスは運休となる。",
+      "korean": "눈이 쌓여 있는 한 고개를 넘는 버스는 운행이 중단된다.",
+      "answerChoiceId": "fb-created-n2-012-18-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-012-18-b",
+          "text": "てはかなわない",
+          "grammarId": "n2-074",
+          "baseExpression": "てはかなわない",
+          "conjugatedExpression": "てはかなわない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-012-18-c",
+          "text": "ではないか",
+          "grammarId": "n2-075",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-012-18-d",
+          "text": "かぎり",
+          "grammarId": "n2-012",
+          "baseExpression": "かぎりは",
+          "conjugatedExpression": "かぎり",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-012-18-a",
+          "text": "てならない",
+          "grammarId": "n2-073",
+          "baseExpression": "てならない",
+          "conjugatedExpression": "てならない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '눈이 쌓여 있는 한 고개를 넘는 버스는 운행이 중단된다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
+      "sourceGrammarIds": [
+        "n2-012",
+        "n2-073",
+        "n2-074",
+        "n2-075"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-012-19",
+      "level": "N2",
+      "sentence": "互いに対話する意思があるかぎり、両国は衝突を避けられるはずだ。",
+      "sentenceWithBlank": "互いに対話する意思がある（　　　）、両国は衝突を避けられるはずだ。",
+      "korean": "서로 대화할 의사가 있는 한 양국은 충돌을 피할 수 있을 것이다.",
+      "answerChoiceId": "fb-created-n2-012-19-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-012-19-c",
+          "text": "気味",
+          "grammarId": "n2-029",
+          "baseExpression": "気味",
+          "conjugatedExpression": "気味",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-012-19-d",
+          "text": "きらいがある",
+          "grammarId": "n2-030",
+          "baseExpression": "きらいがある",
+          "conjugatedExpression": "きらいがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-012-19-a",
+          "text": "かぎり",
+          "grammarId": "n2-012",
+          "baseExpression": "かぎりは",
+          "conjugatedExpression": "かぎり",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-012-19-b",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '서로 대화할 의사가 있는 한 양국은 충돌을 피할 수 있을 것이다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
+      "sourceGrammarIds": [
+        "n2-012",
+        "n2-028",
+        "n2-029",
+        "n2-030"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-012-20",
+      "level": "N2",
+      "sentence": "母が一人で暮らすかぎり、毎朝必ず電話をかけることにしている。",
+      "sentenceWithBlank": "母が一人で暮らす（　　　）、毎朝必ず電話をかけることにしている。",
+      "korean": "어머니가 혼자 사시는 한 매일 아침 반드시 전화하기로 했다.",
+      "answerChoiceId": "fb-created-n2-012-20-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-012-20-d",
+          "text": "かぎり",
+          "grammarId": "n2-012",
+          "baseExpression": "かぎりは",
+          "conjugatedExpression": "かぎり",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-012-20-a",
+          "text": "てならない",
+          "grammarId": "n2-073",
+          "baseExpression": "てならない",
+          "conjugatedExpression": "てならない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-012-20-b",
+          "text": "てはかなわない",
+          "grammarId": "n2-074",
+          "baseExpression": "てはかなわない",
+          "conjugatedExpression": "てはかなわない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-012-20-c",
+          "text": "ではないか",
+          "grammarId": "n2-075",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '어머니가 혼자 사시는 한 매일 아침 반드시 전화하기로 했다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
+      "sourceGrammarIds": [
+        "n2-012",
+        "n2-073",
+        "n2-074",
+        "n2-075"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-012-21",
+      "level": "N2",
+      "sentence": "市場価格が下がり続けるかぎり、農家の収入改善は期待できない。",
+      "sentenceWithBlank": "市場価格が下がり続ける（　　　）、農家の収入改善は期待できない。",
+      "korean": "시장 가격이 계속 하락하는 한 농가의 소득 개선은 기대할 수 없다.",
+      "answerChoiceId": "fb-created-n2-012-21-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-012-21-a",
+          "text": "かぎり",
+          "grammarId": "n2-012",
+          "baseExpression": "かぎりは",
+          "conjugatedExpression": "かぎり",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-012-21-b",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-012-21-c",
+          "text": "気味",
+          "grammarId": "n2-029",
+          "baseExpression": "気味",
+          "conjugatedExpression": "気味",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-012-21-d",
+          "text": "きらいがある",
+          "grammarId": "n2-030",
+          "baseExpression": "きらいがある",
+          "conjugatedExpression": "きらいがある",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '시장 가격이 계속 하락하는 한 농가의 소득 개선은 기대할 수 없다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
+      "sourceGrammarIds": [
+        "n2-012",
+        "n2-028",
+        "n2-029",
+        "n2-030"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-012-22",
+      "level": "N2",
+      "sentence": "この森に餌が豊富にあるかぎり、野生の鹿は町まで下りてこない。",
+      "sentenceWithBlank": "この森に餌が豊富にある（　　　）、野生の鹿は町まで下りてこない。",
+      "korean": "이 숲에 먹이가 풍부하게 있는 한 야생 사슴은 마을까지 내려오지 않는다.",
+      "answerChoiceId": "fb-created-n2-012-22-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-012-22-b",
+          "text": "てはかなわない",
+          "grammarId": "n2-074",
+          "baseExpression": "てはかなわない",
+          "conjugatedExpression": "てはかなわない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-012-22-c",
+          "text": "ではないか",
+          "grammarId": "n2-075",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-012-22-d",
+          "text": "かぎり",
+          "grammarId": "n2-012",
+          "baseExpression": "かぎりは",
+          "conjugatedExpression": "かぎり",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-012-22-a",
+          "text": "てならない",
+          "grammarId": "n2-073",
+          "baseExpression": "てならない",
+          "conjugatedExpression": "てならない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '이 숲에 먹이가 풍부하게 있는 한 야생 사슴은 마을까지 내려오지 않는다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
+      "sourceGrammarIds": [
+        "n2-012",
+        "n2-073",
+        "n2-074",
+        "n2-075"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-012-23",
+      "level": "N2",
+      "sentence": "規則を守って利用するかぎり、誰でも共同工房の設備を借りられる。",
+      "sentenceWithBlank": "規則を守って利用する（　　　）、誰でも共同工房の設備を借りられる。",
+      "korean": "규칙을 지켜 이용하는 한 누구나 공동 작업장의 설비를 빌릴 수 있다.",
+      "answerChoiceId": "fb-created-n2-012-23-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-012-23-c",
+          "text": "気味",
+          "grammarId": "n2-029",
+          "baseExpression": "気味",
+          "conjugatedExpression": "気味",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-012-23-d",
+          "text": "きらいがある",
+          "grammarId": "n2-030",
+          "baseExpression": "きらいがある",
+          "conjugatedExpression": "きらいがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-012-23-a",
+          "text": "かぎり",
+          "grammarId": "n2-012",
+          "baseExpression": "かぎりは",
+          "conjugatedExpression": "かぎり",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-012-23-b",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '규칙을 지켜 이용하는 한 누구나 공동 작업장의 설비를 빌릴 수 있다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
+      "sourceGrammarIds": [
+        "n2-012",
+        "n2-028",
+        "n2-029",
+        "n2-030"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-012-24",
+      "level": "N2",
+      "sentence": "燃料が残っているかぎり、救助ヘリは捜索区域の上空を飛べる。",
+      "sentenceWithBlank": "燃料が残っている（　　　）、救助ヘリは捜索区域の上空を飛べる。",
+      "korean": "연료가 남아 있는 한 구조 헬기는 수색 구역 상공을 비행할 수 있다.",
+      "answerChoiceId": "fb-created-n2-012-24-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-012-24-d",
+          "text": "かぎり",
+          "grammarId": "n2-012",
+          "baseExpression": "かぎりは",
+          "conjugatedExpression": "かぎり",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-012-24-a",
+          "text": "てならない",
+          "grammarId": "n2-073",
+          "baseExpression": "てならない",
+          "conjugatedExpression": "てならない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-012-24-b",
+          "text": "てはかなわない",
+          "grammarId": "n2-074",
+          "baseExpression": "てはかなわない",
+          "conjugatedExpression": "てはかなわない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-012-24-c",
+          "text": "ではないか",
+          "grammarId": "n2-075",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '연료가 남아 있는 한 구조 헬기는 수색 구역 상공을 비행할 수 있다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
+      "sourceGrammarIds": [
+        "n2-012",
+        "n2-073",
+        "n2-074",
+        "n2-075"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-012-25",
+      "level": "N2",
+      "sentence": "自分の判断に疑問を感じるかぎり、私はこの書類に署名しない。",
+      "sentenceWithBlank": "自分の判断に疑問を感じる（　　　）、私はこの書類に署名しない。",
+      "korean": "내 판단에 의문을 느끼는 한 나는 이 서류에 서명하지 않겠다.",
+      "answerChoiceId": "fb-created-n2-012-25-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-012-25-a",
+          "text": "かぎり",
+          "grammarId": "n2-012",
+          "baseExpression": "かぎりは",
+          "conjugatedExpression": "かぎり",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-012-25-b",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-012-25-c",
+          "text": "気味",
+          "grammarId": "n2-029",
+          "baseExpression": "気味",
+          "conjugatedExpression": "気味",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-012-25-d",
+          "text": "きらいがある",
+          "grammarId": "n2-030",
+          "baseExpression": "きらいがある",
+          "conjugatedExpression": "きらいがある",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '내 판단에 의문을 느끼는 한 나는 이 서류에 서명하지 않겠다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
+      "sourceGrammarIds": [
+        "n2-012",
+        "n2-028",
+        "n2-029",
+        "n2-030"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
       ]
     }
   ],
@@ -1834,1103 +1809,1153 @@
       ]
     },
     {
-      "id": "so-extra-n2-012-1",
+      "id": "so-created-n2-012-01",
       "level": "N2",
-      "sentence": "小川氏がこの学校の校長でいるかぎり、校則は変えられないだろう。",
-      "sentenceWithBlanks": "小川氏がこの学校の校長でいる ____ ____ ____ ____",
-      "korean": "오가와 씨가 이 학교 교장으로 있는 한 교칙은 바뀌지 않을 것이다.",
+      "sentence": "電波が届くかぎり、山小屋から本部へ現在地を報告できる。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "전파가 닿는 한 산장에서 본부로 현재 위치를 보고할 수 있다.",
       "pieces": [
         {
-          "id": "so-extra-n2-012-1-p3",
-          "text": "ろう",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-012-1-p4",
-          "text": "かぎり",
+          "id": "so-created-n2-012-01-p1",
+          "text": "電波が届く",
           "order": 1
         },
         {
-          "id": "so-extra-n2-012-1-p1",
-          "text": "校則は",
+          "id": "so-created-n2-012-01-p2",
+          "text": "かぎり、山小屋から",
           "order": 2
         },
         {
-          "id": "so-extra-n2-012-1-p2",
-          "text": "変えられないだ",
+          "id": "so-created-n2-012-01-p3",
+          "text": "本部へ現在地を",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-012-01-p4",
+          "text": "報告できる。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-012-1-p4",
-        "so-extra-n2-012-1-p1",
-        "so-extra-n2-012-1-p2",
-        "so-extra-n2-012-1-p3"
+        "so-created-n2-012-01-p1",
+        "so-created-n2-012-01-p2",
+        "so-created-n2-012-01-p3",
+        "so-created-n2-012-01-p4"
       ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '전파가 닿는 한 산장에서 본부로 현재 위치를 보고할 수 있다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
       "sourceGrammarIds": [
-        "n2-012"
+        "n2-012",
+        "n2-028",
+        "n2-029",
+        "n2-030"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-012-2",
+      "id": "so-created-n2-012-02",
       "level": "N2",
-      "sentence": "体が丈夫なかぎり、思い切り社会活動をしたいものだ。",
-      "sentenceWithBlanks": "体が丈夫な ____ ____ ____ ____",
-      "korean": "몸이 건강한 한 마음껏 사회활동을 하고 싶다.",
+      "sentence": "この川が澄んでいるかぎり、ホタルは毎年戻ってくるだろう。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "이 강이 맑은 상태인 한 반딧불이는 매년 돌아올 것이다.",
       "pieces": [
         {
-          "id": "so-extra-n2-012-2-p4",
-          "text": "思い切り社会活動を",
-          "order": 2
-        },
-        {
-          "id": "so-extra-n2-012-2-p1",
-          "text": "したいも",
-          "order": 3
-        },
-        {
-          "id": "so-extra-n2-012-2-p2",
-          "text": "のだ",
+          "id": "so-created-n2-012-02-p4",
+          "text": "戻ってくるだろう。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-012-2-p3",
-          "text": "かぎり",
+          "id": "so-created-n2-012-02-p1",
+          "text": "この川が",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-012-02-p2",
+          "text": "澄んでいるかぎり、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-012-02-p3",
+          "text": "ホタルは毎年",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-012-2-p3",
-        "so-extra-n2-012-2-p4",
-        "so-extra-n2-012-2-p1",
-        "so-extra-n2-012-2-p2"
+        "so-created-n2-012-02-p1",
+        "so-created-n2-012-02-p2",
+        "so-created-n2-012-02-p3",
+        "so-created-n2-012-02-p4"
       ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '이 강이 맑은 상태인 한 반딧불이는 매년 돌아올 것이다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
       "sourceGrammarIds": [
-        "n2-012"
+        "n2-012",
+        "n2-073",
+        "n2-074",
+        "n2-075"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-012-3",
+      "id": "so-created-n2-012-03",
       "level": "N2",
-      "sentence": "小川氏がこの学校の校長でいるかぎり、校則は変えられないだろう。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、校則は変えられないだろう。",
-      "korean": "오가와 씨가 이 학교 교장으로 있는 한 교칙은 바뀌지 않을 것이다.",
+      "sentence": "祖父が農業を続けるかぎり、私は週末に畑仕事を手伝うつもりだ。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 手伝うつもりだ。",
+      "korean": "할아버지가 농사를 계속하는 한 나는 주말에 밭일을 도울 생각이다.",
       "pieces": [
         {
-          "id": "so-extra-n2-012-3-p1",
-          "text": "変えられないだ",
+          "id": "so-created-n2-012-03-p3",
+          "text": "私は週末に",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-012-03-p4",
+          "text": "畑仕事を",
           "order": 4
         },
         {
-          "id": "so-extra-n2-012-3-p2",
-          "text": "いる",
+          "id": "so-created-n2-012-03-p1",
+          "text": "祖父が農業を",
           "order": 1
         },
         {
-          "id": "so-extra-n2-012-3-p3",
-          "text": "かぎり",
+          "id": "so-created-n2-012-03-p2",
+          "text": "続けるかぎり、",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-012-3-p4",
-          "text": "校則は",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-012-3-p2",
-        "so-extra-n2-012-3-p3",
-        "so-extra-n2-012-3-p4",
-        "so-extra-n2-012-3-p1"
+        "so-created-n2-012-03-p1",
+        "so-created-n2-012-03-p2",
+        "so-created-n2-012-03-p3",
+        "so-created-n2-012-03-p4"
       ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '할아버지가 농사를 계속하는 한 나는 주말에 밭일을 도울 생각이다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
       "sourceGrammarIds": [
-        "n2-012"
+        "n2-012",
+        "n2-028",
+        "n2-029",
+        "n2-030"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-012-4",
+      "id": "so-created-n2-012-04",
       "level": "N2",
-      "sentence": "体が丈夫なかぎり、思い切り社会活動をしたいものだ。",
-      "sentenceWithBlanks": "体が丈夫な ____ ____ ____ ____",
-      "korean": "몸이 건강한 한 마음껏 사회활동을 하고 싶다.",
+      "sentence": "契約が有効であるかぎり、故障した機器は無料で交換される。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "계약이 유효한 한 고장 난 기기는 무료로 교환된다.",
       "pieces": [
         {
-          "id": "so-extra-n2-012-4-p2",
-          "text": "思い切り社会活動を",
+          "id": "so-created-n2-012-04-p2",
+          "text": "かぎり、故障した",
           "order": 2
         },
         {
-          "id": "so-extra-n2-012-4-p3",
-          "text": "したいも",
+          "id": "so-created-n2-012-04-p3",
+          "text": "機器は無料で",
           "order": 3
         },
         {
-          "id": "so-extra-n2-012-4-p4",
-          "text": "のだ",
+          "id": "so-created-n2-012-04-p4",
+          "text": "交換される。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-012-4-p1",
-          "text": "かぎり",
+          "id": "so-created-n2-012-04-p1",
+          "text": "契約が有効である",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-012-4-p1",
-        "so-extra-n2-012-4-p2",
-        "so-extra-n2-012-4-p3",
-        "so-extra-n2-012-4-p4"
+        "so-created-n2-012-04-p1",
+        "so-created-n2-012-04-p2",
+        "so-created-n2-012-04-p3",
+        "so-created-n2-012-04-p4"
       ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '계약이 유효한 한 고장 난 기기는 무료로 교환된다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
       "sourceGrammarIds": [
-        "n2-012"
+        "n2-012",
+        "n2-073",
+        "n2-074",
+        "n2-075"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-012-5",
+      "id": "so-created-n2-012-05",
       "level": "N2",
-      "sentence": "小川氏がこの学校の校長でいるかぎり、校則は変えられないだろう。",
-      "sentenceWithBlanks": "小川氏がこの学校の校長でいる ____ ____ ____ ____",
-      "korean": "오가와 씨가 이 학교 교장으로 있는 한 교칙은 바뀌지 않을 것이다.",
+      "sentence": "患者に回復の可能性が残っているかぎり、医療チームは治療を諦めない。",
+      "sentenceWithBlanks": "患者に ____ ____ ____ ____ 諦めない。",
+      "korean": "환자에게 회복 가능성이 남아 있는 한 의료진은 치료를 포기하지 않는다.",
       "pieces": [
         {
-          "id": "so-extra-n2-012-5-p3",
-          "text": "ろう",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-012-5-p4",
-          "text": "かぎり",
+          "id": "so-created-n2-012-05-p1",
+          "text": "回復の可能性が",
           "order": 1
         },
         {
-          "id": "so-extra-n2-012-5-p1",
-          "text": "校則は",
+          "id": "so-created-n2-012-05-p2",
+          "text": "残っている",
           "order": 2
         },
         {
-          "id": "so-extra-n2-012-5-p2",
-          "text": "変えられないだ",
+          "id": "so-created-n2-012-05-p3",
+          "text": "かぎり、医療",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-012-05-p4",
+          "text": "チームは治療を",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-012-5-p4",
-        "so-extra-n2-012-5-p1",
-        "so-extra-n2-012-5-p2",
-        "so-extra-n2-012-5-p3"
+        "so-created-n2-012-05-p1",
+        "so-created-n2-012-05-p2",
+        "so-created-n2-012-05-p3",
+        "so-created-n2-012-05-p4"
       ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '환자에게 회복 가능성이 남아 있는 한 의료진은 치료를 포기하지 않는다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
       "sourceGrammarIds": [
-        "n2-012"
+        "n2-012",
+        "n2-028",
+        "n2-029",
+        "n2-030"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-012-01",
+      "id": "so-created-n2-012-06",
       "level": "N2",
-      "sentence": "小川氏がこの学校の校長でいるかぎり、校則は変えられないだろう。",
-      "sentenceWithBlanks": "小川氏がこの学校の校長でいる ____ ____ ____ ____",
-      "korean": "오가와 씨가 이 학교 교장으로 있는 한 교칙은 바뀌지 않을 것이다.",
+      "sentence": "強い風が吹くかぎり、港から漁船を出すことはできない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "강한 바람이 부는 한 항구에서 어선을 출항시킬 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-012-01-p3",
-          "text": "ろう",
+          "id": "so-created-n2-012-06-p4",
+          "text": "出すことはできない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-012-01-p4",
-          "text": "かぎり",
+          "id": "so-created-n2-012-06-p1",
+          "text": "強い風が",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-012-01-p1",
-          "text": "校則は",
+          "id": "so-created-n2-012-06-p2",
+          "text": "吹くかぎり、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-012-01-p2",
-          "text": "変えられないだ",
+          "id": "so-created-n2-012-06-p3",
+          "text": "港から漁船を",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-012-01-p4",
-        "so-extra20-n2-012-01-p1",
-        "so-extra20-n2-012-01-p2",
-        "so-extra20-n2-012-01-p3"
+        "so-created-n2-012-06-p1",
+        "so-created-n2-012-06-p2",
+        "so-created-n2-012-06-p3",
+        "so-created-n2-012-06-p4"
       ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '강한 바람이 부는 한 항구에서 어선을 출항시킬 수 없다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
       "sourceGrammarIds": [
-        "n2-012"
+        "n2-012",
+        "n2-073",
+        "n2-074",
+        "n2-075"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-012-02",
+      "id": "so-created-n2-012-07",
       "level": "N2",
-      "sentence": "体が丈夫なかぎり、思い切り社会活動をしたいものだ。",
-      "sentenceWithBlanks": "体が丈夫な ____ ____ ____ ____",
-      "korean": "몸이 건강한 한 마음껏 사회활동을 하고 싶다.",
+      "sentence": "住民が反対しているかぎり、工場の建設計画は進まないだろう。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "주민들이 반대하는 한 공장 건설 계획은 진행되지 않을 것이다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-012-02-p2",
-          "text": "のだ",
+          "id": "so-created-n2-012-07-p3",
+          "text": "建設計画は",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-012-07-p4",
+          "text": "進まないだろう。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-012-02-p3",
-          "text": "かぎり",
+          "id": "so-created-n2-012-07-p1",
+          "text": "住民が反対している",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-012-02-p4",
-          "text": "思い切り社会活動を",
+          "id": "so-created-n2-012-07-p2",
+          "text": "かぎり、工場の",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-012-02-p1",
-          "text": "したいも",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-012-02-p3",
-        "so-extra20-n2-012-02-p4",
-        "so-extra20-n2-012-02-p1",
-        "so-extra20-n2-012-02-p2"
+        "so-created-n2-012-07-p1",
+        "so-created-n2-012-07-p2",
+        "so-created-n2-012-07-p3",
+        "so-created-n2-012-07-p4"
       ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '주민들이 반대하는 한 공장 건설 계획은 진행되지 않을 것이다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
       "sourceGrammarIds": [
-        "n2-012"
+        "n2-012",
+        "n2-028",
+        "n2-029",
+        "n2-030"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-012-03",
+      "id": "so-created-n2-012-08",
       "level": "N2",
-      "sentence": "小川氏がこの学校の校長でいるかぎり、校則は変えられないだろう。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、校則は変えられないだろう。",
-      "korean": "오가와 씨가 이 학교 교장으로 있는 한 교칙은 바뀌지 않을 것이다.",
+      "sentence": "この鍵を持っているかぎり、倉庫にはいつでも入れる。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "이 열쇠를 가지고 있는 한 창고에는 언제든지 들어갈 수 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-012-03-p1",
-          "text": "変えられないだ",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-012-03-p2",
-          "text": "いる",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-012-03-p3",
-          "text": "かぎり",
+          "id": "so-created-n2-012-08-p2",
+          "text": "持っているかぎり、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-012-03-p4",
-          "text": "校則は",
+          "id": "so-created-n2-012-08-p3",
+          "text": "倉庫にはいつでも",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-012-08-p4",
+          "text": "入れる。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-012-08-p1",
+          "text": "この鍵を",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-012-03-p2",
-        "so-extra20-n2-012-03-p3",
-        "so-extra20-n2-012-03-p4",
-        "so-extra20-n2-012-03-p1"
+        "so-created-n2-012-08-p1",
+        "so-created-n2-012-08-p2",
+        "so-created-n2-012-08-p3",
+        "so-created-n2-012-08-p4"
       ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '이 열쇠를 가지고 있는 한 창고에는 언제든지 들어갈 수 있다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
       "sourceGrammarIds": [
-        "n2-012"
+        "n2-012",
+        "n2-073",
+        "n2-074",
+        "n2-075"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-012-04",
+      "id": "so-created-n2-012-09",
       "level": "N2",
-      "sentence": "体が丈夫なかぎり、思い切り社会活動をしたいものだ。",
-      "sentenceWithBlanks": "体が丈夫な ____ ____ ____ ____",
-      "korean": "몸이 건강한 한 마음껏 사회활동을 하고 싶다.",
+      "sentence": "店に在庫があるかぎり、注文を受け付ける方針です。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "매장에 재고가 있는 한 주문을 받을 방침입니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-012-04-p4",
-          "text": "のだ",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-012-04-p1",
-          "text": "かぎり",
+          "id": "so-created-n2-012-09-p1",
+          "text": "店に在庫がある",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-012-04-p2",
-          "text": "思い切り社会活動を",
+          "id": "so-created-n2-012-09-p2",
+          "text": "かぎり、注文を",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-012-04-p3",
-          "text": "したいも",
+          "id": "so-created-n2-012-09-p3",
+          "text": "受け付ける",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-012-09-p4",
+          "text": "方針です。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-012-04-p1",
-        "so-extra20-n2-012-04-p2",
-        "so-extra20-n2-012-04-p3",
-        "so-extra20-n2-012-04-p4"
+        "so-created-n2-012-09-p1",
+        "so-created-n2-012-09-p2",
+        "so-created-n2-012-09-p3",
+        "so-created-n2-012-09-p4"
       ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '매장에 재고가 있는 한 주문을 받을 방침입니다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
       "sourceGrammarIds": [
-        "n2-012"
+        "n2-012",
+        "n2-028",
+        "n2-029",
+        "n2-030"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-012-05",
+      "id": "so-created-n2-012-10",
       "level": "N2",
-      "sentence": "小川氏がこの学校の校長でいるかぎり、校則は変えられないだろう。",
-      "sentenceWithBlanks": "小川氏がこの学校の校長でいる ____ ____ ____ ____",
-      "korean": "오가와 씨가 이 학교 교장으로 있는 한 교칙은 바뀌지 않을 것이다.",
+      "sentence": "彼が事実を隠すかぎり、家族との信頼関係は取り戻せない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 取り戻せない。",
+      "korean": "그가 사실을 숨기는 한 가족과의 신뢰 관계는 회복할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-012-05-p3",
-          "text": "ろう",
+          "id": "so-created-n2-012-10-p4",
+          "text": "信頼関係は",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-012-05-p4",
-          "text": "かぎり",
+          "id": "so-created-n2-012-10-p1",
+          "text": "彼が事実を",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-012-05-p1",
-          "text": "校則は",
+          "id": "so-created-n2-012-10-p2",
+          "text": "隠すかぎり、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-012-05-p2",
-          "text": "変えられないだ",
+          "id": "so-created-n2-012-10-p3",
+          "text": "家族との",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-012-05-p4",
-        "so-extra20-n2-012-05-p1",
-        "so-extra20-n2-012-05-p2",
-        "so-extra20-n2-012-05-p3"
+        "so-created-n2-012-10-p1",
+        "so-created-n2-012-10-p2",
+        "so-created-n2-012-10-p3",
+        "so-created-n2-012-10-p4"
       ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '그가 사실을 숨기는 한 가족과의 신뢰 관계는 회복할 수 없다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
       "sourceGrammarIds": [
-        "n2-012"
+        "n2-012",
+        "n2-073",
+        "n2-074",
+        "n2-075"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-012-06",
+      "id": "so-created-n2-012-11",
       "level": "N2",
-      "sentence": "小川氏がこの学校の校長でいるかぎり、校則は変えられないだろう。",
-      "sentenceWithBlanks": "小川氏がこの学校の校長でいる ____ ____ ____ ____",
-      "korean": "오가와 씨가 이 학교 교장으로 있는 한 교칙은 바뀌지 않을 것이다.",
+      "sentence": "エンジンが正常に動くかぎり、この発電機で避難所の電力を賄える。",
+      "sentenceWithBlanks": "エンジンが ____ ____ ____ ____ 賄える。",
+      "korean": "엔진이 정상적으로 작동하는 한 이 발전기로 대피소의 전력을 충당할 수 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-012-06-p2",
-          "text": "変えられないだ",
+          "id": "so-created-n2-012-11-p3",
+          "text": "この発電機で",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-012-06-p3",
-          "text": "ろう",
+          "id": "so-created-n2-012-11-p4",
+          "text": "避難所の電力を",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-012-06-p4",
-          "text": "かぎり",
+          "id": "so-created-n2-012-11-p1",
+          "text": "正常に動く",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-012-06-p1",
-          "text": "校則は",
+          "id": "so-created-n2-012-11-p2",
+          "text": "かぎり、",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-012-06-p4",
-        "so-extra20-n2-012-06-p1",
-        "so-extra20-n2-012-06-p2",
-        "so-extra20-n2-012-06-p3"
+        "so-created-n2-012-11-p1",
+        "so-created-n2-012-11-p2",
+        "so-created-n2-012-11-p3",
+        "so-created-n2-012-11-p4"
       ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '엔진이 정상적으로 작동하는 한 이 발전기로 대피소의 전력을 충당할 수 있다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
       "sourceGrammarIds": [
-        "n2-012"
+        "n2-012",
+        "n2-028",
+        "n2-029",
+        "n2-030"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-012-07",
+      "id": "so-created-n2-012-12",
       "level": "N2",
-      "sentence": "体が丈夫なかぎり、思い切り社会活動をしたいものだ。",
-      "sentenceWithBlanks": "体が丈夫な ____ ____ ____ ____",
-      "korean": "몸이 건강한 한 마음껏 사회활동을 하고 싶다.",
+      "sentence": "地域に需要があるかぎり、移動販売車の運行を続けたい。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 続けたい。",
+      "korean": "지역에 수요가 있는 한 이동 판매 차량의 운행을 계속하고 싶다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-012-07-p1",
-          "text": "したいも",
+          "id": "so-created-n2-012-12-p2",
+          "text": "需要がある",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-012-12-p3",
+          "text": "かぎり、移動",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-012-07-p2",
-          "text": "のだ",
+          "id": "so-created-n2-012-12-p4",
+          "text": "販売車の運行を",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-012-07-p3",
-          "text": "かぎり",
+          "id": "so-created-n2-012-12-p1",
+          "text": "地域に",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-012-07-p4",
-          "text": "思い切り社会活動を",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-012-07-p3",
-        "so-extra20-n2-012-07-p4",
-        "so-extra20-n2-012-07-p1",
-        "so-extra20-n2-012-07-p2"
+        "so-created-n2-012-12-p1",
+        "so-created-n2-012-12-p2",
+        "so-created-n2-012-12-p3",
+        "so-created-n2-012-12-p4"
       ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '지역에 수요가 있는 한 이동 판매 차량의 운행을 계속하고 싶다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
       "sourceGrammarIds": [
-        "n2-012"
+        "n2-012",
+        "n2-073",
+        "n2-074",
+        "n2-075"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-012-08",
+      "id": "so-created-n2-012-13",
       "level": "N2",
-      "sentence": "小川氏がこの学校の校長でいるかぎり、校則は変えられないだろう。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、校則は変えられないだろう。",
-      "korean": "오가와 씨가 이 학교 교장으로 있는 한 교칙은 바뀌지 않을 것이다.",
+      "sentence": "証拠が不足しているかぎり、容疑者を起訴するのは難しい。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "증거가 부족한 한 용의자를 기소하기는 어렵다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-012-08-p4",
-          "text": "校則は",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-012-08-p1",
-          "text": "変えられないだ",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-012-08-p2",
-          "text": "いる",
+          "id": "so-created-n2-012-13-p1",
+          "text": "証拠が不足している",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-012-08-p3",
-          "text": "かぎり",
+          "id": "so-created-n2-012-13-p2",
+          "text": "かぎり、容疑",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-012-13-p3",
+          "text": "者を起訴するのは",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-012-13-p4",
+          "text": "難しい。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-012-08-p2",
-        "so-extra20-n2-012-08-p3",
-        "so-extra20-n2-012-08-p4",
-        "so-extra20-n2-012-08-p1"
+        "so-created-n2-012-13-p1",
+        "so-created-n2-012-13-p2",
+        "so-created-n2-012-13-p3",
+        "so-created-n2-012-13-p4"
       ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '증거가 부족한 한 용의자를 기소하기는 어렵다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
       "sourceGrammarIds": [
-        "n2-012"
+        "n2-012",
+        "n2-028",
+        "n2-029",
+        "n2-030"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-012-09",
+      "id": "so-created-n2-012-14",
       "level": "N2",
-      "sentence": "体が丈夫なかぎり、思い切り社会活動をしたいものだ。",
-      "sentenceWithBlanks": "体が丈夫な ____ ____ ____ ____",
-      "korean": "몸이 건강한 한 마음껏 사회활동을 하고 싶다.",
+      "sentence": "子どもが望むかぎり、両親は海外での挑戦を支えるつもりだ。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "아이가 원하는 한 부모는 해외에서의 도전을 지원할 생각이다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-012-09-p3",
-          "text": "したいも",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-012-09-p4",
-          "text": "のだ",
+          "id": "so-created-n2-012-14-p4",
+          "text": "支えるつもりだ。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-012-09-p1",
-          "text": "かぎり",
+          "id": "so-created-n2-012-14-p1",
+          "text": "子どもが望む",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-012-09-p2",
-          "text": "思い切り社会活動を",
+          "id": "so-created-n2-012-14-p2",
+          "text": "かぎり、両親は",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-012-14-p3",
+          "text": "海外での挑戦を",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-012-09-p1",
-        "so-extra20-n2-012-09-p2",
-        "so-extra20-n2-012-09-p3",
-        "so-extra20-n2-012-09-p4"
+        "so-created-n2-012-14-p1",
+        "so-created-n2-012-14-p2",
+        "so-created-n2-012-14-p3",
+        "so-created-n2-012-14-p4"
       ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '아이가 원하는 한 부모는 해외에서의 도전을 지원할 생각이다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
       "sourceGrammarIds": [
-        "n2-012"
+        "n2-012",
+        "n2-073",
+        "n2-074",
+        "n2-075"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-012-10",
+      "id": "so-created-n2-012-15",
       "level": "N2",
-      "sentence": "小川氏がこの学校の校長でいるかぎり、校則は変えられないだろう。",
-      "sentenceWithBlanks": "小川氏がこの学校の校長でいる ____ ____ ____ ____",
-      "korean": "오가와 씨가 이 학교 교장으로 있는 한 교칙은 바뀌지 않을 것이다.",
+      "sentence": "水位が上昇し続けるかぎり、周辺道路の通行止めは解除できない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 解除できない。",
+      "korean": "수위가 계속 상승하는 한 주변 도로의 통행금지는 해제할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-012-10-p2",
-          "text": "変えられないだ",
+          "id": "so-created-n2-012-15-p3",
+          "text": "周辺道路の",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-012-10-p3",
-          "text": "ろう",
+          "id": "so-created-n2-012-15-p4",
+          "text": "通行止めは",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-012-10-p4",
-          "text": "かぎり",
+          "id": "so-created-n2-012-15-p1",
+          "text": "水位が上昇し",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-012-10-p1",
-          "text": "校則は",
+          "id": "so-created-n2-012-15-p2",
+          "text": "続けるかぎり、",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-012-10-p4",
-        "so-extra20-n2-012-10-p1",
-        "so-extra20-n2-012-10-p2",
-        "so-extra20-n2-012-10-p3"
+        "so-created-n2-012-15-p1",
+        "so-created-n2-012-15-p2",
+        "so-created-n2-012-15-p3",
+        "so-created-n2-012-15-p4"
       ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '수위가 계속 상승하는 한 주변 도로의 통행금지는 해제할 수 없다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
       "sourceGrammarIds": [
-        "n2-012"
+        "n2-012",
+        "n2-028",
+        "n2-029",
+        "n2-030"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-012-11",
+      "id": "so-created-n2-012-16",
       "level": "N2",
-      "sentence": "小川氏がこの学校の校長でいるかぎり、校則は変えられないだろう。",
-      "sentenceWithBlanks": "小川氏がこの学校の校長でいる ____ ____ ____ ____",
-      "korean": "오가와 씨가 이 학교 교장으로 있는 한 교칙은 바뀌지 않을 것이다.",
+      "sentence": "彼女が舞台に立つかぎり、私は客席から拍手を送り続ける。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 送り続ける。",
+      "korean": "그녀가 무대에 서는 한 나는 객석에서 계속 박수를 보낼 것이다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-012-11-p1",
-          "text": "校則は",
+          "id": "so-created-n2-012-16-p2",
+          "text": "立つかぎり、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-012-11-p2",
-          "text": "変えられないだ",
+          "id": "so-created-n2-012-16-p3",
+          "text": "私は客席から",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-012-11-p3",
-          "text": "ろう",
+          "id": "so-created-n2-012-16-p4",
+          "text": "拍手を",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-012-11-p4",
-          "text": "かぎり",
+          "id": "so-created-n2-012-16-p1",
+          "text": "彼女が舞台に",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-012-11-p4",
-        "so-extra20-n2-012-11-p1",
-        "so-extra20-n2-012-11-p2",
-        "so-extra20-n2-012-11-p3"
+        "so-created-n2-012-16-p1",
+        "so-created-n2-012-16-p2",
+        "so-created-n2-012-16-p3",
+        "so-created-n2-012-16-p4"
       ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '그녀가 무대에 서는 한 나는 객석에서 계속 박수를 보낼 것이다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
       "sourceGrammarIds": [
-        "n2-012"
+        "n2-012",
+        "n2-073",
+        "n2-074",
+        "n2-075"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-012-12",
+      "id": "so-created-n2-012-17",
       "level": "N2",
-      "sentence": "体が丈夫なかぎり、思い切り社会活動をしたいものだ。",
-      "sentenceWithBlanks": "体が丈夫な ____ ____ ____ ____",
-      "korean": "몸이 건강한 한 마음껏 사회활동을 하고 싶다.",
+      "sentence": "会社が個人情報を保存するかぎり、厳重な管理責任を負う。",
+      "sentenceWithBlanks": "会社が個人 ____ ____ ____ ____",
+      "korean": "회사가 개인정보를 보관하는 한 엄중한 관리 책임을 진다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-012-12-p4",
-          "text": "思い切り社会活動を",
+          "id": "so-created-n2-012-17-p1",
+          "text": "情報を保存する",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-012-17-p2",
+          "text": "かぎり、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-012-12-p1",
-          "text": "したいも",
+          "id": "so-created-n2-012-17-p3",
+          "text": "厳重な管理",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-012-12-p2",
-          "text": "のだ",
+          "id": "so-created-n2-012-17-p4",
+          "text": "責任を負う。",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-012-12-p3",
-          "text": "かぎり",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-012-12-p3",
-        "so-extra20-n2-012-12-p4",
-        "so-extra20-n2-012-12-p1",
-        "so-extra20-n2-012-12-p2"
+        "so-created-n2-012-17-p1",
+        "so-created-n2-012-17-p2",
+        "so-created-n2-012-17-p3",
+        "so-created-n2-012-17-p4"
       ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '회사가 개인정보를 보관하는 한 엄중한 관리 책임을 진다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
       "sourceGrammarIds": [
-        "n2-012"
+        "n2-012",
+        "n2-028",
+        "n2-029",
+        "n2-030"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-012-13",
+      "id": "so-created-n2-012-18",
       "level": "N2",
-      "sentence": "小川氏がこの学校の校長でいるかぎり、校則は変えられないだろう。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、校則は変えられないだろう。",
-      "korean": "오가와 씨가 이 학교 교장으로 있는 한 교칙은 바뀌지 않을 것이다.",
+      "sentence": "雪が積もっているかぎり、峠を越えるバスは運休となる。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "눈이 쌓여 있는 한 고개를 넘는 버스는 운행이 중단된다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-012-13-p3",
-          "text": "かぎり",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-012-13-p4",
-          "text": "校則は",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-012-13-p1",
-          "text": "変えられないだ",
+          "id": "so-created-n2-012-18-p4",
+          "text": "運休となる。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-012-13-p2",
-          "text": "いる",
+          "id": "so-created-n2-012-18-p1",
+          "text": "雪が積もっている",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-012-18-p2",
+          "text": "かぎり、峠を",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-012-18-p3",
+          "text": "越えるバスは",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-012-13-p2",
-        "so-extra20-n2-012-13-p3",
-        "so-extra20-n2-012-13-p4",
-        "so-extra20-n2-012-13-p1"
+        "so-created-n2-012-18-p1",
+        "so-created-n2-012-18-p2",
+        "so-created-n2-012-18-p3",
+        "so-created-n2-012-18-p4"
       ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '눈이 쌓여 있는 한 고개를 넘는 버스는 운행이 중단된다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
       "sourceGrammarIds": [
-        "n2-012"
+        "n2-012",
+        "n2-073",
+        "n2-074",
+        "n2-075"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-012-14",
+      "id": "so-created-n2-012-19",
       "level": "N2",
-      "sentence": "体が丈夫なかぎり、思い切り社会活動をしたいものだ。",
-      "sentenceWithBlanks": "体が丈夫な ____ ____ ____ ____",
-      "korean": "몸이 건강한 한 마음껏 사회활동을 하고 싶다.",
+      "sentence": "互いに対話する意思があるかぎり、両国は衝突を避けられるはずだ。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 避けられるはずだ。",
+      "korean": "서로 대화할 의사가 있는 한 양국은 충돌을 피할 수 있을 것이다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-012-14-p2",
-          "text": "思い切り社会活動を",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-012-14-p3",
-          "text": "したいも",
+          "id": "so-created-n2-012-19-p3",
+          "text": "かぎり、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-012-14-p4",
-          "text": "のだ",
+          "id": "so-created-n2-012-19-p4",
+          "text": "両国は衝突を",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-012-14-p1",
-          "text": "かぎり",
+          "id": "so-created-n2-012-19-p1",
+          "text": "互いに対話する",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-012-19-p2",
+          "text": "意思がある",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-012-14-p1",
-        "so-extra20-n2-012-14-p2",
-        "so-extra20-n2-012-14-p3",
-        "so-extra20-n2-012-14-p4"
+        "so-created-n2-012-19-p1",
+        "so-created-n2-012-19-p2",
+        "so-created-n2-012-19-p3",
+        "so-created-n2-012-19-p4"
       ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '서로 대화할 의사가 있는 한 양국은 충돌을 피할 수 있을 것이다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
       "sourceGrammarIds": [
-        "n2-012"
+        "n2-012",
+        "n2-028",
+        "n2-029",
+        "n2-030"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-012-15",
+      "id": "so-created-n2-012-20",
       "level": "N2",
-      "sentence": "小川氏がこの学校の校長でいるかぎり、校則は変えられないだろう。",
-      "sentenceWithBlanks": "小川氏がこの学校の校長でいる ____ ____ ____ ____",
-      "korean": "오가와 씨가 이 학교 교장으로 있는 한 교칙은 바뀌지 않을 것이다.",
+      "sentence": "母が一人で暮らすかぎり、毎朝必ず電話をかけることにしている。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "어머니가 혼자 사시는 한 매일 아침 반드시 전화하기로 했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-012-15-p1",
-          "text": "校則は",
+          "id": "so-created-n2-012-20-p2",
+          "text": "暮らすかぎり、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-012-15-p2",
-          "text": "変えられないだ",
+          "id": "so-created-n2-012-20-p3",
+          "text": "毎朝必ず",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-012-15-p3",
-          "text": "ろう",
+          "id": "so-created-n2-012-20-p4",
+          "text": "電話をかけることにしている。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-012-15-p4",
-          "text": "かぎり",
+          "id": "so-created-n2-012-20-p1",
+          "text": "母が一人で",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-012-15-p4",
-        "so-extra20-n2-012-15-p1",
-        "so-extra20-n2-012-15-p2",
-        "so-extra20-n2-012-15-p3"
+        "so-created-n2-012-20-p1",
+        "so-created-n2-012-20-p2",
+        "so-created-n2-012-20-p3",
+        "so-created-n2-012-20-p4"
       ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '어머니가 혼자 사시는 한 매일 아침 반드시 전화하기로 했다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
       "sourceGrammarIds": [
-        "n2-012"
+        "n2-012",
+        "n2-073",
+        "n2-074",
+        "n2-075"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-012-16",
+      "id": "so-created-n2-012-21",
       "level": "N2",
-      "sentence": "小川氏がこの学校の校長でいるかぎり、校則は変えられないだろう。",
-      "sentenceWithBlanks": "小川氏がこの学校の校長でいる ____ ____ ____ ____",
-      "korean": "오가와 씨가 이 학교 교장으로 있는 한 교칙은 바뀌지 않을 것이다.",
+      "sentence": "市場価格が下がり続けるかぎり、農家の収入改善は期待できない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 改善は期待できない。",
+      "korean": "시장 가격이 계속 하락하는 한 농가의 소득 개선은 기대할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-012-16-p4",
-          "text": "かぎり",
+          "id": "so-created-n2-012-21-p1",
+          "text": "市場価格が",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-012-16-p1",
-          "text": "校則は",
+          "id": "so-created-n2-012-21-p2",
+          "text": "下がり続ける",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-012-16-p2",
-          "text": "変えられないだ",
+          "id": "so-created-n2-012-21-p3",
+          "text": "かぎり、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-012-16-p3",
-          "text": "ろう",
+          "id": "so-created-n2-012-21-p4",
+          "text": "農家の収入",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-012-16-p4",
-        "so-extra20-n2-012-16-p1",
-        "so-extra20-n2-012-16-p2",
-        "so-extra20-n2-012-16-p3"
+        "so-created-n2-012-21-p1",
+        "so-created-n2-012-21-p2",
+        "so-created-n2-012-21-p3",
+        "so-created-n2-012-21-p4"
       ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '시장 가격이 계속 하락하는 한 농가의 소득 개선은 기대할 수 없다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
       "sourceGrammarIds": [
-        "n2-012"
+        "n2-012",
+        "n2-028",
+        "n2-029",
+        "n2-030"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-012-17",
+      "id": "so-created-n2-012-22",
       "level": "N2",
-      "sentence": "体が丈夫なかぎり、思い切り社会活動をしたいものだ。",
-      "sentenceWithBlanks": "体が丈夫な ____ ____ ____ ____",
-      "korean": "몸이 건강한 한 마음껏 사회활동을 하고 싶다.",
+      "sentence": "この森に餌が豊富にあるかぎり、野生の鹿は町まで下りてこない。",
+      "sentenceWithBlanks": "この ____ ____ ____ ____ 下りてこない。",
+      "korean": "이 숲에 먹이가 풍부하게 있는 한 야생 사슴은 마을까지 내려오지 않는다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-012-17-p3",
-          "text": "かぎり",
+          "id": "so-created-n2-012-22-p4",
+          "text": "鹿は町まで",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-012-22-p1",
+          "text": "森に餌が",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-012-17-p4",
-          "text": "思い切り社会活動を",
+          "id": "so-created-n2-012-22-p2",
+          "text": "豊富にある",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-012-17-p1",
-          "text": "したいも",
+          "id": "so-created-n2-012-22-p3",
+          "text": "かぎり、野生の",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-012-17-p2",
-          "text": "のだ",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-012-17-p3",
-        "so-extra20-n2-012-17-p4",
-        "so-extra20-n2-012-17-p1",
-        "so-extra20-n2-012-17-p2"
+        "so-created-n2-012-22-p1",
+        "so-created-n2-012-22-p2",
+        "so-created-n2-012-22-p3",
+        "so-created-n2-012-22-p4"
       ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '이 숲에 먹이가 풍부하게 있는 한 야생 사슴은 마을까지 내려오지 않는다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
       "sourceGrammarIds": [
-        "n2-012"
+        "n2-012",
+        "n2-073",
+        "n2-074",
+        "n2-075"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-012-18",
+      "id": "so-created-n2-012-23",
       "level": "N2",
-      "sentence": "小川氏がこの学校の校長でいるかぎり、校則は変えられないだろう。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、校則は変えられないだろう。",
-      "korean": "오가와 씨가 이 학교 교장으로 있는 한 교칙은 바뀌지 않을 것이다.",
+      "sentence": "規則を守って利用するかぎり、誰でも共同工房の設備を借りられる。",
+      "sentenceWithBlanks": "規則を ____ ____ ____ ____ 借りられる。",
+      "korean": "규칙을 지켜 이용하는 한 누구나 공동 작업장의 설비를 빌릴 수 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-012-18-p2",
-          "text": "いる",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-012-18-p3",
-          "text": "かぎり",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-012-18-p4",
-          "text": "校則は",
+          "id": "so-created-n2-012-23-p3",
+          "text": "誰でも共同",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-012-18-p1",
-          "text": "変えられないだ",
+          "id": "so-created-n2-012-23-p4",
+          "text": "工房の設備を",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-012-23-p1",
+          "text": "守って利用する",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-012-23-p2",
+          "text": "かぎり、",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-012-18-p2",
-        "so-extra20-n2-012-18-p3",
-        "so-extra20-n2-012-18-p4",
-        "so-extra20-n2-012-18-p1"
+        "so-created-n2-012-23-p1",
+        "so-created-n2-012-23-p2",
+        "so-created-n2-012-23-p3",
+        "so-created-n2-012-23-p4"
       ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '규칙을 지켜 이용하는 한 누구나 공동 작업장의 설비를 빌릴 수 있다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
       "sourceGrammarIds": [
-        "n2-012"
+        "n2-012",
+        "n2-028",
+        "n2-029",
+        "n2-030"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-012-19",
+      "id": "so-created-n2-012-24",
       "level": "N2",
-      "sentence": "体が丈夫なかぎり、思い切り社会活動をしたいものだ。",
-      "sentenceWithBlanks": "体が丈夫な ____ ____ ____ ____",
-      "korean": "몸이 건강한 한 마음껏 사회활동을 하고 싶다.",
+      "sentence": "燃料が残っているかぎり、救助ヘリは捜索区域の上空を飛べる。",
+      "sentenceWithBlanks": "燃料が残っている ____ ____ ____ ____",
+      "korean": "연료가 남아 있는 한 구조 헬기는 수색 구역 상공을 비행할 수 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-012-19-p1",
-          "text": "かぎり",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-012-19-p2",
-          "text": "思い切り社会活動を",
+          "id": "so-created-n2-012-24-p2",
+          "text": "ヘリは捜索",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-012-19-p3",
-          "text": "したいも",
+          "id": "so-created-n2-012-24-p3",
+          "text": "区域の上空を",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-012-19-p4",
-          "text": "のだ",
+          "id": "so-created-n2-012-24-p4",
+          "text": "飛べる。",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-012-24-p1",
+          "text": "かぎり、救助",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-012-19-p1",
-        "so-extra20-n2-012-19-p2",
-        "so-extra20-n2-012-19-p3",
-        "so-extra20-n2-012-19-p4"
+        "so-created-n2-012-24-p1",
+        "so-created-n2-012-24-p2",
+        "so-created-n2-012-24-p3",
+        "so-created-n2-012-24-p4"
       ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '연료가 남아 있는 한 구조 헬기는 수색 구역 상공을 비행할 수 있다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
       "sourceGrammarIds": [
-        "n2-012"
+        "n2-012",
+        "n2-073",
+        "n2-074",
+        "n2-075"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-012-20",
+      "id": "so-created-n2-012-25",
       "level": "N2",
-      "sentence": "小川氏がこの学校の校長でいるかぎり、校則は変えられないだろう。",
-      "sentenceWithBlanks": "小川氏がこの学校の校長でいる ____ ____ ____ ____",
-      "korean": "오가와 씨가 이 학교 교장으로 있는 한 교칙은 바뀌지 않을 것이다.",
+      "sentence": "自分の判断に疑問を感じるかぎり、私はこの書類に署名しない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 署名しない。",
+      "korean": "내 판단에 의문을 느끼는 한 나는 이 서류에 서명하지 않겠다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-012-20-p4",
-          "text": "かぎり",
+          "id": "so-created-n2-012-25-p1",
+          "text": "自分の判断に",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-012-20-p1",
-          "text": "校則は",
+          "id": "so-created-n2-012-25-p2",
+          "text": "疑問を感じる",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-012-20-p2",
-          "text": "変えられないだ",
+          "id": "so-created-n2-012-25-p3",
+          "text": "かぎり、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-012-20-p3",
-          "text": "ろう",
+          "id": "so-created-n2-012-25-p4",
+          "text": "私はこの書類に",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-012-20-p4",
-        "so-extra20-n2-012-20-p1",
-        "so-extra20-n2-012-20-p2",
-        "so-extra20-n2-012-20-p3"
+        "so-created-n2-012-25-p1",
+        "so-created-n2-012-25-p2",
+        "so-created-n2-012-25-p3",
+        "so-created-n2-012-25-p4"
       ],
-      "explanation": "「かぎり（は）」는 ~하는 한, ~인 한라는 뜻이다. 조건이 유지되는 동안 뒤 내용도 성립.",
+      "explanation": "「かぎり」는 '~하는 한, ~인 한'라는 뜻을 나타낸다. 이 문장에서는 '내 판단에 의문을 느끼는 한 나는 이 서류에 서명하지 않겠다.'라는 상황에 쓰였으며, 조건이 유지되는 동안 뒤 내용도 성립. 주의할 점은 「かぎり」는 조건 유지, 「間は」는 단순 기간. 의지 표현 여부로 구별.",
       "sourceGrammarIds": [
-        "n2-012"
+        "n2-012",
+        "n2-028",
+        "n2-029",
+        "n2-030"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     }
   ]

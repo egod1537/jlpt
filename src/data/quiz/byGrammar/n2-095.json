@@ -267,15 +267,23 @@
       ]
     },
     {
-      "id": "fb-extra-n2-095-1",
+      "id": "fb-created-n2-095-01",
       "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlank": "3人の子の親（　　　）、自由時間はかなり制限される。",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
-      "answerChoiceId": "fb-extra-n2-095-1-d",
+      "sentence": "国際空港の管制官ともなると、一瞬の判断にも重い責任が伴う。",
+      "sentenceWithBlank": "国際空港の管制官（　　　）、一瞬の判断にも重い責任が伴う。",
+      "korean": "국제공항의 관제사가 되면 순간적인 판단에도 막중한 책임이 따른다.",
+      "answerChoiceId": "fb-created-n2-095-01-d",
       "choices": [
         {
-          "id": "fb-extra-n2-095-1-a",
+          "id": "fb-created-n2-095-01-d",
+          "text": "ともなると",
+          "grammarId": "n2-095",
+          "baseExpression": "ともなると",
+          "conjugatedExpression": "ともなると",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-095-01-a",
           "text": "得るうる",
           "grammarId": "n2-008",
           "baseExpression": "得るうる",
@@ -283,7 +291,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-095-1-b",
+          "id": "fb-created-n2-095-01-b",
           "text": "おそれがある",
           "grammarId": "n2-009",
           "baseExpression": "おそれがある",
@@ -291,23 +299,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-095-1-c",
+          "id": "fb-created-n2-095-01-c",
           "text": "折に",
           "grammarId": "n2-010",
           "baseExpression": "折に",
           "conjugatedExpression": "折に",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-095-1-d",
-          "text": "ともなると",
-          "grammarId": "n2-095",
-          "baseExpression": "ともなると",
-          "conjugatedExpression": "ともなると",
-          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '국제공항의 관제사가 되면 순간적인 판단에도 막중한 책임이 따른다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
       "sourceGrammarIds": [
         "n2-095",
         "n2-008",
@@ -315,237 +315,20 @@
         "n2-010"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra-n2-095-2",
+      "id": "fb-created-n2-095-02",
       "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlank": "3人の子の親（　　　）、自由時間はかなり制限される。",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
-      "answerChoiceId": "fb-extra-n2-095-2-a",
+      "sentence": "創業百年の老舗ともなると、包装紙一枚にも店の品格が表れる。",
+      "sentenceWithBlank": "創業百年の老舗（　　　）、包装紙一枚にも店の品格が表れる。",
+      "korean": "창업 100년의 노포쯤 되면 포장지 한 장에도 가게의 품격이 드러난다.",
+      "answerChoiceId": "fb-created-n2-095-02-d",
       "choices": [
         {
-          "id": "fb-extra-n2-095-2-b",
-          "text": "に伴って",
-          "grammarId": "n2-128",
-          "baseExpression": "に伴って",
-          "conjugatedExpression": "に伴って",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-095-2-c",
-          "text": "にほかならない",
-          "grammarId": "n2-129",
-          "baseExpression": "にほかならない",
-          "conjugatedExpression": "にほかならない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-095-2-d",
-          "text": "にもかかわらず",
-          "grammarId": "n2-130",
-          "baseExpression": "にもかかわらず",
-          "conjugatedExpression": "にもかかわらず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-095-2-a",
-          "text": "ともなると",
-          "grammarId": "n2-095",
-          "baseExpression": "ともなると",
-          "conjugatedExpression": "ともなると",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
-      "sourceGrammarIds": [
-        "n2-095",
-        "n2-128",
-        "n2-129",
-        "n2-130"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-095-3",
-      "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlank": "3人の子の親（　　　）、自由時間はかなり制限される。",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
-      "answerChoiceId": "fb-extra-n2-095-3-b",
-      "choices": [
-        {
-          "id": "fb-extra-n2-095-3-c",
-          "text": "につけて",
-          "grammarId": "n2-127",
-          "baseExpression": "につけて",
-          "conjugatedExpression": "につけて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-095-3-d",
-          "text": "に伴って",
-          "grammarId": "n2-128",
-          "baseExpression": "に伴って",
-          "conjugatedExpression": "に伴って",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-095-3-a",
-          "text": "にほかならない",
-          "grammarId": "n2-129",
-          "baseExpression": "にほかならない",
-          "conjugatedExpression": "にほかならない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-095-3-b",
-          "text": "ともなると",
-          "grammarId": "n2-095",
-          "baseExpression": "ともなると",
-          "conjugatedExpression": "ともなると",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
-      "sourceGrammarIds": [
-        "n2-095",
-        "n2-127",
-        "n2-128",
-        "n2-129"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-095-4",
-      "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlank": "3人の子の親（　　　）、自由時間はかなり制限される。",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
-      "answerChoiceId": "fb-extra-n2-095-4-c",
-      "choices": [
-        {
-          "id": "fb-extra-n2-095-4-d",
-          "text": "やらやら",
-          "grammarId": "n2-162",
-          "baseExpression": "やらやら",
-          "conjugatedExpression": "やらやら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-095-4-a",
-          "text": "ようがない",
-          "grammarId": "n2-163",
-          "baseExpression": "ようがない",
-          "conjugatedExpression": "ようがない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-095-4-b",
-          "text": "ようかまいか",
-          "grammarId": "n2-164",
-          "baseExpression": "ようかまいか",
-          "conjugatedExpression": "ようかまいか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-095-4-c",
-          "text": "ともなると",
-          "grammarId": "n2-095",
-          "baseExpression": "ともなると",
-          "conjugatedExpression": "ともなると",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
-      "sourceGrammarIds": [
-        "n2-095",
-        "n2-162",
-        "n2-163",
-        "n2-164"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-095-5",
-      "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlank": "3人の子の親（　　　）、自由時間はかなり制限される。",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
-      "answerChoiceId": "fb-extra-n2-095-5-d",
-      "choices": [
-        {
-          "id": "fb-extra-n2-095-5-a",
-          "text": "ではないか",
-          "grammarId": "n2-076",
-          "baseExpression": "ではないか",
-          "conjugatedExpression": "ではないか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-095-5-b",
-          "text": "てほしいものだ",
-          "grammarId": "n2-077",
-          "baseExpression": "てほしいものだ",
-          "conjugatedExpression": "てほしいものだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-095-5-c",
-          "text": "てもさしつかえない",
-          "grammarId": "n2-078",
-          "baseExpression": "てもさしつかえない",
-          "conjugatedExpression": "てもさしつかえない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-095-5-d",
-          "text": "ともなると",
-          "grammarId": "n2-095",
-          "baseExpression": "ともなると",
-          "conjugatedExpression": "ともなると",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
-      "sourceGrammarIds": [
-        "n2-095",
-        "n2-076",
-        "n2-077",
-        "n2-078"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-095-01",
-      "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlank": "3人の子の親（　　　）、自由時間はかなり制限される。",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
-      "answerChoiceId": "fb-extra20-n2-095-01-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-095-01-a",
+          "id": "fb-created-n2-095-02-a",
           "text": "得るうる",
           "grammarId": "n2-008",
           "baseExpression": "得るうる",
@@ -553,7 +336,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-095-01-b",
+          "id": "fb-created-n2-095-02-b",
           "text": "おそれがある",
           "grammarId": "n2-009",
           "baseExpression": "おそれがある",
@@ -561,7 +344,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-095-01-c",
+          "id": "fb-created-n2-095-02-c",
           "text": "折に",
           "grammarId": "n2-010",
           "baseExpression": "折に",
@@ -569,7 +352,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-095-01-d",
+          "id": "fb-created-n2-095-02-d",
           "text": "ともなると",
           "grammarId": "n2-095",
           "baseExpression": "ともなると",
@@ -577,7 +360,7 @@
           "isSimilarDistractor": false
         }
       ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '창업 100년의 노포쯤 되면 포장지 한 장에도 가게의 품격이 드러난다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
       "sourceGrammarIds": [
         "n2-095",
         "n2-008",
@@ -585,253 +368,20 @@
         "n2-010"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-095-02",
+      "id": "fb-created-n2-095-03",
       "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlank": "3人の子の親（　　　）、自由時間はかなり制限される。",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
-      "answerChoiceId": "fb-extra20-n2-095-02-a",
+      "sentence": "人口百万人の都市ともなると、深夜でも救急車の往来が絶えない。",
+      "sentenceWithBlank": "人口百万人の都市（　　　）、深夜でも救急車の往来が絶えない。",
+      "korean": "인구 백만 명의 도시쯤 되면 심야에도 구급차의 왕래가 끊이지 않는다.",
+      "answerChoiceId": "fb-created-n2-095-03-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-095-02-d",
-          "text": "にもかかわらず",
-          "grammarId": "n2-130",
-          "baseExpression": "にもかかわらず",
-          "conjugatedExpression": "にもかかわらず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-095-02-a",
-          "text": "ともなると",
-          "grammarId": "n2-095",
-          "baseExpression": "ともなると",
-          "conjugatedExpression": "ともなると",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-095-02-b",
-          "text": "に伴って",
-          "grammarId": "n2-128",
-          "baseExpression": "に伴って",
-          "conjugatedExpression": "に伴って",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-095-02-c",
-          "text": "にほかならない",
-          "grammarId": "n2-129",
-          "baseExpression": "にほかならない",
-          "conjugatedExpression": "にほかならない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
-      "sourceGrammarIds": [
-        "n2-095",
-        "n2-128",
-        "n2-129",
-        "n2-130"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-095-03",
-      "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlank": "3人の子の親（　　　）、自由時間はかなり制限される。",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
-      "answerChoiceId": "fb-extra20-n2-095-03-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-095-03-c",
-          "text": "につけて",
-          "grammarId": "n2-127",
-          "baseExpression": "につけて",
-          "conjugatedExpression": "につけて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-095-03-d",
-          "text": "に伴って",
-          "grammarId": "n2-128",
-          "baseExpression": "に伴って",
-          "conjugatedExpression": "に伴って",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-095-03-a",
-          "text": "にほかならない",
-          "grammarId": "n2-129",
-          "baseExpression": "にほかならない",
-          "conjugatedExpression": "にほかならない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-095-03-b",
-          "text": "ともなると",
-          "grammarId": "n2-095",
-          "baseExpression": "ともなると",
-          "conjugatedExpression": "ともなると",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
-      "sourceGrammarIds": [
-        "n2-095",
-        "n2-127",
-        "n2-128",
-        "n2-129"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-095-04",
-      "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlank": "3人の子の親（　　　）、自由時間はかなり制限される。",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
-      "answerChoiceId": "fb-extra20-n2-095-04-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-095-04-b",
-          "text": "ようかまいか",
-          "grammarId": "n2-164",
-          "baseExpression": "ようかまいか",
-          "conjugatedExpression": "ようかまいか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-095-04-c",
-          "text": "ともなると",
-          "grammarId": "n2-095",
-          "baseExpression": "ともなると",
-          "conjugatedExpression": "ともなると",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-095-04-d",
-          "text": "やらやら",
-          "grammarId": "n2-162",
-          "baseExpression": "やらやら",
-          "conjugatedExpression": "やらやら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-095-04-a",
-          "text": "ようがない",
-          "grammarId": "n2-163",
-          "baseExpression": "ようがない",
-          "conjugatedExpression": "ようがない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
-      "sourceGrammarIds": [
-        "n2-095",
-        "n2-162",
-        "n2-163",
-        "n2-164"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-095-05",
-      "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlank": "3人の子の親（　　　）、自由時間はかなり制限される。",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
-      "answerChoiceId": "fb-extra20-n2-095-05-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-095-05-a",
-          "text": "ではないか",
-          "grammarId": "n2-076",
-          "baseExpression": "ではないか",
-          "conjugatedExpression": "ではないか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-095-05-b",
-          "text": "てほしいものだ",
-          "grammarId": "n2-077",
-          "baseExpression": "てほしいものだ",
-          "conjugatedExpression": "てほしいものだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-095-05-c",
-          "text": "てもさしつかえない",
-          "grammarId": "n2-078",
-          "baseExpression": "てもさしつかえない",
-          "conjugatedExpression": "てもさしつかえない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-095-05-d",
-          "text": "ともなると",
-          "grammarId": "n2-095",
-          "baseExpression": "ともなると",
-          "conjugatedExpression": "ともなると",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
-      "sourceGrammarIds": [
-        "n2-095",
-        "n2-076",
-        "n2-077",
-        "n2-078"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-095-06",
-      "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlank": "3人の子の親（　　　）、自由時間はかなり制限される。",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
-      "answerChoiceId": "fb-extra20-n2-095-06-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-095-06-d",
-          "text": "ともなると",
-          "grammarId": "n2-095",
-          "baseExpression": "ともなると",
-          "conjugatedExpression": "ともなると",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-095-06-a",
-          "text": "得るうる",
-          "grammarId": "n2-008",
-          "baseExpression": "得るうる",
-          "conjugatedExpression": "得るうる",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-095-06-b",
+          "id": "fb-created-n2-095-03-b",
           "text": "おそれがある",
           "grammarId": "n2-009",
           "baseExpression": "おそれがある",
@@ -839,253 +389,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-095-06-c",
-          "text": "折に",
-          "grammarId": "n2-010",
-          "baseExpression": "折に",
-          "conjugatedExpression": "折に",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
-      "sourceGrammarIds": [
-        "n2-095",
-        "n2-008",
-        "n2-009",
-        "n2-010"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-095-07",
-      "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlank": "3人の子の親（　　　）、自由時間はかなり制限される。",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
-      "answerChoiceId": "fb-extra20-n2-095-07-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-095-07-c",
-          "text": "にほかならない",
-          "grammarId": "n2-129",
-          "baseExpression": "にほかならない",
-          "conjugatedExpression": "にほかならない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-095-07-d",
-          "text": "にもかかわらず",
-          "grammarId": "n2-130",
-          "baseExpression": "にもかかわらず",
-          "conjugatedExpression": "にもかかわらず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-095-07-a",
-          "text": "ともなると",
-          "grammarId": "n2-095",
-          "baseExpression": "ともなると",
-          "conjugatedExpression": "ともなると",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-095-07-b",
-          "text": "に伴って",
-          "grammarId": "n2-128",
-          "baseExpression": "に伴って",
-          "conjugatedExpression": "に伴って",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
-      "sourceGrammarIds": [
-        "n2-095",
-        "n2-128",
-        "n2-129",
-        "n2-130"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-095-08",
-      "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlank": "3人の子の親（　　　）、自由時間はかなり制限される。",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
-      "answerChoiceId": "fb-extra20-n2-095-08-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-095-08-b",
-          "text": "ともなると",
-          "grammarId": "n2-095",
-          "baseExpression": "ともなると",
-          "conjugatedExpression": "ともなると",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-095-08-c",
-          "text": "につけて",
-          "grammarId": "n2-127",
-          "baseExpression": "につけて",
-          "conjugatedExpression": "につけて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-095-08-d",
-          "text": "に伴って",
-          "grammarId": "n2-128",
-          "baseExpression": "に伴って",
-          "conjugatedExpression": "に伴って",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-095-08-a",
-          "text": "にほかならない",
-          "grammarId": "n2-129",
-          "baseExpression": "にほかならない",
-          "conjugatedExpression": "にほかならない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
-      "sourceGrammarIds": [
-        "n2-095",
-        "n2-127",
-        "n2-128",
-        "n2-129"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-095-09",
-      "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlank": "3人の子の親（　　　）、自由時間はかなり制限される。",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
-      "answerChoiceId": "fb-extra20-n2-095-09-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-095-09-a",
-          "text": "ようがない",
-          "grammarId": "n2-163",
-          "baseExpression": "ようがない",
-          "conjugatedExpression": "ようがない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-095-09-b",
-          "text": "ようかまいか",
-          "grammarId": "n2-164",
-          "baseExpression": "ようかまいか",
-          "conjugatedExpression": "ようかまいか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-095-09-c",
-          "text": "ともなると",
-          "grammarId": "n2-095",
-          "baseExpression": "ともなると",
-          "conjugatedExpression": "ともなると",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-095-09-d",
-          "text": "やらやら",
-          "grammarId": "n2-162",
-          "baseExpression": "やらやら",
-          "conjugatedExpression": "やらやら",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
-      "sourceGrammarIds": [
-        "n2-095",
-        "n2-162",
-        "n2-163",
-        "n2-164"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-095-10",
-      "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlank": "3人の子の親（　　　）、自由時間はかなり制限される。",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
-      "answerChoiceId": "fb-extra20-n2-095-10-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-095-10-d",
-          "text": "ともなると",
-          "grammarId": "n2-095",
-          "baseExpression": "ともなると",
-          "conjugatedExpression": "ともなると",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-095-10-a",
-          "text": "ではないか",
-          "grammarId": "n2-076",
-          "baseExpression": "ではないか",
-          "conjugatedExpression": "ではないか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-095-10-b",
-          "text": "てほしいものだ",
-          "grammarId": "n2-077",
-          "baseExpression": "てほしいものだ",
-          "conjugatedExpression": "てほしいものだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-095-10-c",
-          "text": "てもさしつかえない",
-          "grammarId": "n2-078",
-          "baseExpression": "てもさしつかえない",
-          "conjugatedExpression": "てもさしつかえない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
-      "sourceGrammarIds": [
-        "n2-095",
-        "n2-076",
-        "n2-077",
-        "n2-078"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-095-11",
-      "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlank": "3人の子の親（　　　）、自由時間はかなり制限される。",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
-      "answerChoiceId": "fb-extra20-n2-095-11-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-095-11-c",
+          "id": "fb-created-n2-095-03-c",
           "text": "折に",
           "grammarId": "n2-010",
           "baseExpression": "折に",
@@ -1093,7 +397,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-095-11-d",
+          "id": "fb-created-n2-095-03-d",
           "text": "ともなると",
           "grammarId": "n2-095",
           "baseExpression": "ともなると",
@@ -1101,285 +405,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-095-11-a",
-          "text": "得るうる",
-          "grammarId": "n2-008",
-          "baseExpression": "得るうる",
-          "conjugatedExpression": "得るうる",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-095-11-b",
-          "text": "おそれがある",
-          "grammarId": "n2-009",
-          "baseExpression": "おそれがある",
-          "conjugatedExpression": "おそれがある",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
-      "sourceGrammarIds": [
-        "n2-095",
-        "n2-008",
-        "n2-009",
-        "n2-010"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-095-12",
-      "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlank": "3人の子の親（　　　）、自由時間はかなり制限される。",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
-      "answerChoiceId": "fb-extra20-n2-095-12-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-095-12-b",
-          "text": "に伴って",
-          "grammarId": "n2-128",
-          "baseExpression": "に伴って",
-          "conjugatedExpression": "に伴って",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-095-12-c",
-          "text": "にほかならない",
-          "grammarId": "n2-129",
-          "baseExpression": "にほかならない",
-          "conjugatedExpression": "にほかならない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-095-12-d",
-          "text": "にもかかわらず",
-          "grammarId": "n2-130",
-          "baseExpression": "にもかかわらず",
-          "conjugatedExpression": "にもかかわらず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-095-12-a",
-          "text": "ともなると",
-          "grammarId": "n2-095",
-          "baseExpression": "ともなると",
-          "conjugatedExpression": "ともなると",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
-      "sourceGrammarIds": [
-        "n2-095",
-        "n2-128",
-        "n2-129",
-        "n2-130"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-095-13",
-      "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlank": "3人の子の親（　　　）、自由時間はかなり制限される。",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
-      "answerChoiceId": "fb-extra20-n2-095-13-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-095-13-a",
-          "text": "にほかならない",
-          "grammarId": "n2-129",
-          "baseExpression": "にほかならない",
-          "conjugatedExpression": "にほかならない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-095-13-b",
-          "text": "ともなると",
-          "grammarId": "n2-095",
-          "baseExpression": "ともなると",
-          "conjugatedExpression": "ともなると",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-095-13-c",
-          "text": "につけて",
-          "grammarId": "n2-127",
-          "baseExpression": "につけて",
-          "conjugatedExpression": "につけて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-095-13-d",
-          "text": "に伴って",
-          "grammarId": "n2-128",
-          "baseExpression": "に伴って",
-          "conjugatedExpression": "に伴って",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
-      "sourceGrammarIds": [
-        "n2-095",
-        "n2-127",
-        "n2-128",
-        "n2-129"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-095-14",
-      "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlank": "3人の子の親（　　　）、自由時間はかなり制限される。",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
-      "answerChoiceId": "fb-extra20-n2-095-14-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-095-14-d",
-          "text": "やらやら",
-          "grammarId": "n2-162",
-          "baseExpression": "やらやら",
-          "conjugatedExpression": "やらやら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-095-14-a",
-          "text": "ようがない",
-          "grammarId": "n2-163",
-          "baseExpression": "ようがない",
-          "conjugatedExpression": "ようがない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-095-14-b",
-          "text": "ようかまいか",
-          "grammarId": "n2-164",
-          "baseExpression": "ようかまいか",
-          "conjugatedExpression": "ようかまいか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-095-14-c",
-          "text": "ともなると",
-          "grammarId": "n2-095",
-          "baseExpression": "ともなると",
-          "conjugatedExpression": "ともなると",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
-      "sourceGrammarIds": [
-        "n2-095",
-        "n2-162",
-        "n2-163",
-        "n2-164"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-095-15",
-      "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlank": "3人の子の親（　　　）、自由時間はかなり制限される。",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
-      "answerChoiceId": "fb-extra20-n2-095-15-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-095-15-c",
-          "text": "てもさしつかえない",
-          "grammarId": "n2-078",
-          "baseExpression": "てもさしつかえない",
-          "conjugatedExpression": "てもさしつかえない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-095-15-d",
-          "text": "ともなると",
-          "grammarId": "n2-095",
-          "baseExpression": "ともなると",
-          "conjugatedExpression": "ともなると",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-095-15-a",
-          "text": "ではないか",
-          "grammarId": "n2-076",
-          "baseExpression": "ではないか",
-          "conjugatedExpression": "ではないか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-095-15-b",
-          "text": "てほしいものだ",
-          "grammarId": "n2-077",
-          "baseExpression": "てほしいものだ",
-          "conjugatedExpression": "てほしいものだ",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
-      "sourceGrammarIds": [
-        "n2-095",
-        "n2-076",
-        "n2-077",
-        "n2-078"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-095-16",
-      "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlank": "3人の子の親（　　　）、自由時間はかなり制限される。",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
-      "answerChoiceId": "fb-extra20-n2-095-16-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-095-16-b",
-          "text": "おそれがある",
-          "grammarId": "n2-009",
-          "baseExpression": "おそれがある",
-          "conjugatedExpression": "おそれがある",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-095-16-c",
-          "text": "折に",
-          "grammarId": "n2-010",
-          "baseExpression": "折に",
-          "conjugatedExpression": "折に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-095-16-d",
-          "text": "ともなると",
-          "grammarId": "n2-095",
-          "baseExpression": "ともなると",
-          "conjugatedExpression": "ともなると",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-095-16-a",
+          "id": "fb-created-n2-095-03-a",
           "text": "得るうる",
           "grammarId": "n2-008",
           "baseExpression": "得るうる",
@@ -1387,7 +413,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '인구 백만 명의 도시쯤 되면 심야에도 구급차의 왕래가 끊이지 않는다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
       "sourceGrammarIds": [
         "n2-095",
         "n2-008",
@@ -1395,21 +421,28 @@
         "n2-010"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-095-17",
+      "id": "fb-created-n2-095-04",
       "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlank": "3人の子の親（　　　）、自由時間はかなり制限される。",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
-      "answerChoiceId": "fb-extra20-n2-095-17-a",
+      "sentence": "大型客船の船長ともなると、悪天候でも冷静に航路を決めなければならない。",
+      "sentenceWithBlank": "大型客船の船長（　　　）、悪天候でも冷静に航路を決めなければならない。",
+      "korean": "대형 여객선의 선장이 되면 악천후에도 침착하게 항로를 결정해야 한다.",
+      "answerChoiceId": "fb-created-n2-095-04-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-095-17-a",
+          "id": "fb-created-n2-095-04-c",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-04-d",
           "text": "ともなると",
           "grammarId": "n2-095",
           "baseExpression": "ともなると",
@@ -1417,69 +450,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-095-17-b",
-          "text": "に伴って",
-          "grammarId": "n2-128",
-          "baseExpression": "に伴って",
-          "conjugatedExpression": "に伴って",
+          "id": "fb-created-n2-095-04-a",
+          "text": "得るうる",
+          "grammarId": "n2-008",
+          "baseExpression": "得るうる",
+          "conjugatedExpression": "得るうる",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-095-17-c",
-          "text": "にほかならない",
-          "grammarId": "n2-129",
-          "baseExpression": "にほかならない",
-          "conjugatedExpression": "にほかならない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-095-17-d",
-          "text": "にもかかわらず",
-          "grammarId": "n2-130",
-          "baseExpression": "にもかかわらず",
-          "conjugatedExpression": "にもかかわらず",
+          "id": "fb-created-n2-095-04-b",
+          "text": "おそれがある",
+          "grammarId": "n2-009",
+          "baseExpression": "おそれがある",
+          "conjugatedExpression": "おそれがある",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '대형 여객선의 선장이 되면 악천후에도 침착하게 항로를 결정해야 한다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
       "sourceGrammarIds": [
         "n2-095",
-        "n2-128",
-        "n2-129",
-        "n2-130"
+        "n2-008",
+        "n2-009",
+        "n2-010"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-095-18",
+      "id": "fb-created-n2-095-05",
       "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlank": "3人の子の親（　　　）、自由時間はかなり制限される。",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
-      "answerChoiceId": "fb-extra20-n2-095-18-b",
+      "sentence": "世界大会の決勝ともなると、会場周辺の警備も一段と厳しくなる。",
+      "sentenceWithBlank": "世界大会の決勝（　　　）、会場周辺の警備も一段と厳しくなる。",
+      "korean": "세계 대회 결승쯤 되면 경기장 주변의 경비도 한층 더 엄격해진다.",
+      "answerChoiceId": "fb-created-n2-095-05-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-095-18-d",
-          "text": "に伴って",
-          "grammarId": "n2-128",
-          "baseExpression": "に伴って",
-          "conjugatedExpression": "に伴って",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-095-18-a",
-          "text": "にほかならない",
-          "grammarId": "n2-129",
-          "baseExpression": "にほかならない",
-          "conjugatedExpression": "にほかならない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-095-18-b",
+          "id": "fb-created-n2-095-05-d",
           "text": "ともなると",
           "grammarId": "n2-095",
           "baseExpression": "ともなると",
@@ -1487,37 +495,121 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-095-18-c",
-          "text": "につけて",
-          "grammarId": "n2-127",
-          "baseExpression": "につけて",
-          "conjugatedExpression": "につけて",
+          "id": "fb-created-n2-095-05-a",
+          "text": "得るうる",
+          "grammarId": "n2-008",
+          "baseExpression": "得るうる",
+          "conjugatedExpression": "得るうる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-05-b",
+          "text": "おそれがある",
+          "grammarId": "n2-009",
+          "baseExpression": "おそれがある",
+          "conjugatedExpression": "おそれがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-05-c",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '세계 대회 결승쯤 되면 경기장 주변의 경비도 한층 더 엄격해진다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
       "sourceGrammarIds": [
         "n2-095",
-        "n2-127",
-        "n2-128",
-        "n2-129"
+        "n2-008",
+        "n2-009",
+        "n2-010"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-095-19",
+      "id": "fb-created-n2-095-06",
       "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlank": "3人の子の親（　　　）、自由時間はかなり制限される。",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
-      "answerChoiceId": "fb-extra20-n2-095-19-c",
+      "sentence": "五つ星ホテルの料理長ともなると、食材の産地まで自ら確かめる。",
+      "sentenceWithBlank": "五つ星ホテルの料理長（　　　）、食材の産地まで自ら確かめる。",
+      "korean": "5성급 호텔의 총주방장이 되면 식재료의 산지까지 직접 확인한다.",
+      "answerChoiceId": "fb-created-n2-095-06-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-095-19-c",
+          "id": "fb-created-n2-095-06-a",
+          "text": "得るうる",
+          "grammarId": "n2-008",
+          "baseExpression": "得るうる",
+          "conjugatedExpression": "得るうる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-06-b",
+          "text": "おそれがある",
+          "grammarId": "n2-009",
+          "baseExpression": "おそれがある",
+          "conjugatedExpression": "おそれがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-06-c",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-06-d",
+          "text": "ともなると",
+          "grammarId": "n2-095",
+          "baseExpression": "ともなると",
+          "conjugatedExpression": "ともなると",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '5성급 호텔의 총주방장이 되면 식재료의 산지까지 직접 확인한다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
+      "sourceGrammarIds": [
+        "n2-095",
+        "n2-008",
+        "n2-009",
+        "n2-010"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-095-07",
+      "level": "N2",
+      "sentence": "結婚二十周年ともなると、派手な贈り物より穏やかな夕食がうれしい。",
+      "sentenceWithBlank": "結婚二十周年（　　　）、派手な贈り物より穏やかな夕食がうれしい。",
+      "korean": "결혼 20주년쯤 되면 화려한 선물보다 편안한 저녁 식사가 반갑다.",
+      "answerChoiceId": "fb-created-n2-095-07-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-095-07-b",
+          "text": "おそれがある",
+          "grammarId": "n2-009",
+          "baseExpression": "おそれがある",
+          "conjugatedExpression": "おそれがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-07-c",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-07-d",
           "text": "ともなると",
           "grammarId": "n2-095",
           "baseExpression": "ともなると",
@@ -1525,69 +617,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-095-19-d",
-          "text": "やらやら",
-          "grammarId": "n2-162",
-          "baseExpression": "やらやら",
-          "conjugatedExpression": "やらやら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-095-19-a",
-          "text": "ようがない",
-          "grammarId": "n2-163",
-          "baseExpression": "ようがない",
-          "conjugatedExpression": "ようがない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-095-19-b",
-          "text": "ようかまいか",
-          "grammarId": "n2-164",
-          "baseExpression": "ようかまいか",
-          "conjugatedExpression": "ようかまいか",
+          "id": "fb-created-n2-095-07-a",
+          "text": "得るうる",
+          "grammarId": "n2-008",
+          "baseExpression": "得るうる",
+          "conjugatedExpression": "得るうる",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '결혼 20주년쯤 되면 화려한 선물보다 편안한 저녁 식사가 반갑다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
       "sourceGrammarIds": [
         "n2-095",
-        "n2-162",
-        "n2-163",
-        "n2-164"
+        "n2-008",
+        "n2-009",
+        "n2-010"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-095-20",
+      "id": "fb-created-n2-095-08",
       "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlank": "3人の子の親（　　　）、自由時間はかなり制限される。",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
-      "answerChoiceId": "fb-extra20-n2-095-20-d",
+      "sentence": "山頂付近ともなると、真夏でも手袋なしでは指先が冷える。",
+      "sentenceWithBlank": "山頂付近（　　　）、真夏でも手袋なしでは指先が冷える。",
+      "korean": "산 정상 부근쯤 되면 한여름에도 장갑이 없으면 손끝이 시리다.",
+      "answerChoiceId": "fb-created-n2-095-08-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-095-20-b",
-          "text": "てほしいものだ",
-          "grammarId": "n2-077",
-          "baseExpression": "てほしいものだ",
-          "conjugatedExpression": "てほしいものだ",
+          "id": "fb-created-n2-095-08-c",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-095-20-c",
-          "text": "てもさしつかえない",
-          "grammarId": "n2-078",
-          "baseExpression": "てもさしつかえない",
-          "conjugatedExpression": "てもさしつかえない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-095-20-d",
+          "id": "fb-created-n2-095-08-d",
           "text": "ともなると",
           "grammarId": "n2-095",
           "baseExpression": "ともなると",
@@ -1595,25 +662,933 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-095-20-a",
-          "text": "ではないか",
-          "grammarId": "n2-076",
-          "baseExpression": "ではないか",
-          "conjugatedExpression": "ではないか",
+          "id": "fb-created-n2-095-08-a",
+          "text": "得るうる",
+          "grammarId": "n2-008",
+          "baseExpression": "得るうる",
+          "conjugatedExpression": "得るうる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-08-b",
+          "text": "おそれがある",
+          "grammarId": "n2-009",
+          "baseExpression": "おそれがある",
+          "conjugatedExpression": "おそれがある",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '산 정상 부근쯤 되면 한여름에도 장갑이 없으면 손끝이 시리다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
       "sourceGrammarIds": [
         "n2-095",
-        "n2-076",
-        "n2-077",
-        "n2-078"
+        "n2-008",
+        "n2-009",
+        "n2-010"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-095-09",
+      "level": "N2",
+      "sentence": "最高裁判所の判決ともなると、社会全体への影響も無視できない。",
+      "sentenceWithBlank": "最高裁判所の判決（　　　）、社会全体への影響も無視できない。",
+      "korean": "대법원의 판결쯤 되면 사회 전체에 미치는 영향도 무시할 수 없다.",
+      "answerChoiceId": "fb-created-n2-095-09-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-095-09-d",
+          "text": "ともなると",
+          "grammarId": "n2-095",
+          "baseExpression": "ともなると",
+          "conjugatedExpression": "ともなると",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-095-09-a",
+          "text": "得るうる",
+          "grammarId": "n2-008",
+          "baseExpression": "得るうる",
+          "conjugatedExpression": "得るうる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-09-b",
+          "text": "おそれがある",
+          "grammarId": "n2-009",
+          "baseExpression": "おそれがある",
+          "conjugatedExpression": "おそれがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-09-c",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '대법원의 판결쯤 되면 사회 전체에 미치는 영향도 무시할 수 없다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
+      "sourceGrammarIds": [
+        "n2-095",
+        "n2-008",
+        "n2-009",
+        "n2-010"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-095-10",
+      "level": "N2",
+      "sentence": "十億円規模の事業ともなると、自治体だけで資金を賄うのは難しい。",
+      "sentenceWithBlank": "十億円規模の事業（　　　）、自治体だけで資金を賄うのは難しい。",
+      "korean": "10억 엔 규모의 사업쯤 되면 지방자치단체만으로 자금을 충당하기는 어렵다.",
+      "answerChoiceId": "fb-created-n2-095-10-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-095-10-a",
+          "text": "得るうる",
+          "grammarId": "n2-008",
+          "baseExpression": "得るうる",
+          "conjugatedExpression": "得るうる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-10-b",
+          "text": "おそれがある",
+          "grammarId": "n2-009",
+          "baseExpression": "おそれがある",
+          "conjugatedExpression": "おそれがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-10-c",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-10-d",
+          "text": "ともなると",
+          "grammarId": "n2-095",
+          "baseExpression": "ともなると",
+          "conjugatedExpression": "ともなると",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '10억 엔 규모의 사업쯤 되면 지방자치단체만으로 자금을 충당하기는 어렵다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
+      "sourceGrammarIds": [
+        "n2-095",
+        "n2-008",
+        "n2-009",
+        "n2-010"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-095-11",
+      "level": "N2",
+      "sentence": "三代目の職人ともなると、木の香りだけで乾燥具合が分かるらしい。",
+      "sentenceWithBlank": "三代目の職人（　　　）、木の香りだけで乾燥具合が分かるらしい。",
+      "korean": "3대째 장인쯤 되면 나무 향만으로도 건조 상태를 안다고 한다.",
+      "answerChoiceId": "fb-created-n2-095-11-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-095-11-b",
+          "text": "おそれがある",
+          "grammarId": "n2-009",
+          "baseExpression": "おそれがある",
+          "conjugatedExpression": "おそれがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-11-c",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-11-d",
+          "text": "ともなると",
+          "grammarId": "n2-095",
+          "baseExpression": "ともなると",
+          "conjugatedExpression": "ともなると",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-095-11-a",
+          "text": "得るうる",
+          "grammarId": "n2-008",
+          "baseExpression": "得るうる",
+          "conjugatedExpression": "得るうる",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '3대째 장인쯤 되면 나무 향만으로도 건조 상태를 안다고 한다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
+      "sourceGrammarIds": [
+        "n2-095",
+        "n2-008",
+        "n2-009",
+        "n2-010"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-095-12",
+      "level": "N2",
+      "sentence": "海外支社の責任者ともなると、本社との交渉も重要な仕事になる。",
+      "sentenceWithBlank": "海外支社の責任者（　　　）、本社との交渉も重要な仕事になる。",
+      "korean": "해외 지사의 책임자가 되면 본사와의 협상도 중요한 업무가 된다.",
+      "answerChoiceId": "fb-created-n2-095-12-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-095-12-c",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-12-d",
+          "text": "ともなると",
+          "grammarId": "n2-095",
+          "baseExpression": "ともなると",
+          "conjugatedExpression": "ともなると",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-095-12-a",
+          "text": "得るうる",
+          "grammarId": "n2-008",
+          "baseExpression": "得るうる",
+          "conjugatedExpression": "得るうる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-12-b",
+          "text": "おそれがある",
+          "grammarId": "n2-009",
+          "baseExpression": "おそれがある",
+          "conjugatedExpression": "おそれがある",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '해외 지사의 책임자가 되면 본사와의 협상도 중요한 업무가 된다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
+      "sourceGrammarIds": [
+        "n2-095",
+        "n2-008",
+        "n2-009",
+        "n2-010"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-095-13",
+      "level": "N2",
+      "sentence": "築百年の民家ともなると、柱を残した改修には熟練の技が要る。",
+      "sentenceWithBlank": "築百年の民家（　　　）、柱を残した改修には熟練の技が要る。",
+      "korean": "지은 지 100년 된 민가쯤 되면 기둥을 보존하는 개수에는 숙련된 기술이 필요하다.",
+      "answerChoiceId": "fb-created-n2-095-13-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-095-13-d",
+          "text": "ともなると",
+          "grammarId": "n2-095",
+          "baseExpression": "ともなると",
+          "conjugatedExpression": "ともなると",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-095-13-a",
+          "text": "得るうる",
+          "grammarId": "n2-008",
+          "baseExpression": "得るうる",
+          "conjugatedExpression": "得るうる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-13-b",
+          "text": "おそれがある",
+          "grammarId": "n2-009",
+          "baseExpression": "おそれがある",
+          "conjugatedExpression": "おそれがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-13-c",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '지은 지 100년 된 민가쯤 되면 기둥을 보존하는 개수에는 숙련된 기술이 필요하다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
+      "sourceGrammarIds": [
+        "n2-095",
+        "n2-008",
+        "n2-009",
+        "n2-010"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-095-14",
+      "level": "N2",
+      "sentence": "月末ともなると、宅配業者には翌月分の注文が集中する。",
+      "sentenceWithBlank": "月末（　　　）、宅配業者には翌月分の注文が集中する。",
+      "korean": "월말쯤 되면 택배 업체에는 다음 달분 주문이 몰린다.",
+      "answerChoiceId": "fb-created-n2-095-14-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-095-14-a",
+          "text": "得るうる",
+          "grammarId": "n2-008",
+          "baseExpression": "得るうる",
+          "conjugatedExpression": "得るうる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-14-b",
+          "text": "おそれがある",
+          "grammarId": "n2-009",
+          "baseExpression": "おそれがある",
+          "conjugatedExpression": "おそれがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-14-c",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-14-d",
+          "text": "ともなると",
+          "grammarId": "n2-095",
+          "baseExpression": "ともなると",
+          "conjugatedExpression": "ともなると",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '월말쯤 되면 택배 업체에는 다음 달분 주문이 몰린다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
+      "sourceGrammarIds": [
+        "n2-095",
+        "n2-008",
+        "n2-009",
+        "n2-010"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-095-15",
+      "level": "N2",
+      "sentence": "樹齢千年の杉ともなると、地域の歴史を象徴する存在として守られる。",
+      "sentenceWithBlank": "樹齢千年の杉（　　　）、地域の歴史を象徴する存在として守られる。",
+      "korean": "수령 천 년의 삼나무쯤 되면 지역의 역사를 상징하는 존재로서 보호받는다.",
+      "answerChoiceId": "fb-created-n2-095-15-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-095-15-b",
+          "text": "おそれがある",
+          "grammarId": "n2-009",
+          "baseExpression": "おそれがある",
+          "conjugatedExpression": "おそれがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-15-c",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-15-d",
+          "text": "ともなると",
+          "grammarId": "n2-095",
+          "baseExpression": "ともなると",
+          "conjugatedExpression": "ともなると",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-095-15-a",
+          "text": "得るうる",
+          "grammarId": "n2-008",
+          "baseExpression": "得るうる",
+          "conjugatedExpression": "得るうる",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '수령 천 년의 삼나무쯤 되면 지역의 역사를 상징하는 존재로서 보호받는다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
+      "sourceGrammarIds": [
+        "n2-095",
+        "n2-008",
+        "n2-009",
+        "n2-010"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-095-16",
+      "level": "N2",
+      "sentence": "四人編成の弦楽団ともなると、わずかな呼吸のずれも演奏に響く。",
+      "sentenceWithBlank": "四人編成の弦楽団（　　　）、わずかな呼吸のずれも演奏に響く。",
+      "korean": "4인조 현악단쯤 되면 아주 작은 호흡의 어긋남도 연주에 영향을 준다.",
+      "answerChoiceId": "fb-created-n2-095-16-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-095-16-c",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-16-d",
+          "text": "ともなると",
+          "grammarId": "n2-095",
+          "baseExpression": "ともなると",
+          "conjugatedExpression": "ともなると",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-095-16-a",
+          "text": "得るうる",
+          "grammarId": "n2-008",
+          "baseExpression": "得るうる",
+          "conjugatedExpression": "得るうる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-16-b",
+          "text": "おそれがある",
+          "grammarId": "n2-009",
+          "baseExpression": "おそれがある",
+          "conjugatedExpression": "おそれがある",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '4인조 현악단쯤 되면 아주 작은 호흡의 어긋남도 연주에 영향을 준다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
+      "sourceGrammarIds": [
+        "n2-095",
+        "n2-008",
+        "n2-009",
+        "n2-010"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-095-17",
+      "level": "N2",
+      "sentence": "病院長ともなると、患者だけでなく職員の安全にも目を配る必要がある。",
+      "sentenceWithBlank": "病院長（　　　）、患者だけでなく職員の安全にも目を配る必要がある。",
+      "korean": "병원장이 되면 환자뿐 아니라 직원의 안전에도 주의를 기울일 필요가 있다.",
+      "answerChoiceId": "fb-created-n2-095-17-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-095-17-d",
+          "text": "ともなると",
+          "grammarId": "n2-095",
+          "baseExpression": "ともなると",
+          "conjugatedExpression": "ともなると",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-095-17-a",
+          "text": "得るうる",
+          "grammarId": "n2-008",
+          "baseExpression": "得るうる",
+          "conjugatedExpression": "得るうる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-17-b",
+          "text": "おそれがある",
+          "grammarId": "n2-009",
+          "baseExpression": "おそれがある",
+          "conjugatedExpression": "おそれがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-17-c",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '병원장이 되면 환자뿐 아니라 직원의 안전에도 주의를 기울일 필요가 있다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
+      "sourceGrammarIds": [
+        "n2-095",
+        "n2-008",
+        "n2-009",
+        "n2-010"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-095-18",
+      "level": "N2",
+      "sentence": "真冬の北海道ともなると、停車中の車内でも飲み物が凍ることがある。",
+      "sentenceWithBlank": "真冬の北海道（　　　）、停車中の車内でも飲み物が凍ることがある。",
+      "korean": "한겨울의 홋카이도쯤 되면 정차 중인 차 안에서도 음료가 얼 때가 있다.",
+      "answerChoiceId": "fb-created-n2-095-18-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-095-18-a",
+          "text": "得るうる",
+          "grammarId": "n2-008",
+          "baseExpression": "得るうる",
+          "conjugatedExpression": "得るうる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-18-b",
+          "text": "おそれがある",
+          "grammarId": "n2-009",
+          "baseExpression": "おそれがある",
+          "conjugatedExpression": "おそれがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-18-c",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-18-d",
+          "text": "ともなると",
+          "grammarId": "n2-095",
+          "baseExpression": "ともなると",
+          "conjugatedExpression": "ともなると",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '한겨울의 홋카이도쯤 되면 정차 중인 차 안에서도 음료가 얼 때가 있다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
+      "sourceGrammarIds": [
+        "n2-095",
+        "n2-008",
+        "n2-009",
+        "n2-010"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-095-19",
+      "level": "N2",
+      "sentence": "国宝級の仏像ともなると、移送には振動を抑える専用車両が使われる。",
+      "sentenceWithBlank": "国宝級の仏像（　　　）、移送には振動を抑える専用車両が使われる。",
+      "korean": "국보급 불상쯤 되면 운송에는 진동을 억제하는 전용 차량이 사용된다.",
+      "answerChoiceId": "fb-created-n2-095-19-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-095-19-b",
+          "text": "おそれがある",
+          "grammarId": "n2-009",
+          "baseExpression": "おそれがある",
+          "conjugatedExpression": "おそれがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-19-c",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-19-d",
+          "text": "ともなると",
+          "grammarId": "n2-095",
+          "baseExpression": "ともなると",
+          "conjugatedExpression": "ともなると",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-095-19-a",
+          "text": "得るうる",
+          "grammarId": "n2-008",
+          "baseExpression": "得るうる",
+          "conjugatedExpression": "得るうる",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '국보급 불상쯤 되면 운송에는 진동을 억제하는 전용 차량이 사용된다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
+      "sourceGrammarIds": [
+        "n2-095",
+        "n2-008",
+        "n2-009",
+        "n2-010"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-095-20",
+      "level": "N2",
+      "sentence": "百人を超える披露宴ともなると、席順を決めるだけでも数日かかる。",
+      "sentenceWithBlank": "百人を超える披露宴（　　　）、席順を決めるだけでも数日かかる。",
+      "korean": "백 명이 넘는 피로연쯤 되면 좌석 배치를 정하는 데만도 며칠이 걸린다.",
+      "answerChoiceId": "fb-created-n2-095-20-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-095-20-c",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-20-d",
+          "text": "ともなると",
+          "grammarId": "n2-095",
+          "baseExpression": "ともなると",
+          "conjugatedExpression": "ともなると",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-095-20-a",
+          "text": "得るうる",
+          "grammarId": "n2-008",
+          "baseExpression": "得るうる",
+          "conjugatedExpression": "得るうる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-20-b",
+          "text": "おそれがある",
+          "grammarId": "n2-009",
+          "baseExpression": "おそれがある",
+          "conjugatedExpression": "おそれがある",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '백 명이 넘는 피로연쯤 되면 좌석 배치를 정하는 데만도 며칠이 걸린다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
+      "sourceGrammarIds": [
+        "n2-095",
+        "n2-008",
+        "n2-009",
+        "n2-010"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-095-21",
+      "level": "N2",
+      "sentence": "希少なワインの競売ともなると、落札額が予想の倍に達することも珍しくない。",
+      "sentenceWithBlank": "希少なワインの競売（　　　）、落札額が予想の倍に達することも珍しくない。",
+      "korean": "희귀 와인의 경매쯤 되면 낙찰가가 예상의 두 배에 이르는 일도 드물지 않다.",
+      "answerChoiceId": "fb-created-n2-095-21-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-095-21-d",
+          "text": "ともなると",
+          "grammarId": "n2-095",
+          "baseExpression": "ともなると",
+          "conjugatedExpression": "ともなると",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-095-21-a",
+          "text": "得るうる",
+          "grammarId": "n2-008",
+          "baseExpression": "得るうる",
+          "conjugatedExpression": "得るうる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-21-b",
+          "text": "おそれがある",
+          "grammarId": "n2-009",
+          "baseExpression": "おそれがある",
+          "conjugatedExpression": "おそれがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-21-c",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '희귀 와인의 경매쯤 되면 낙찰가가 예상의 두 배에 이르는 일도 드물지 않다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
+      "sourceGrammarIds": [
+        "n2-095",
+        "n2-008",
+        "n2-009",
+        "n2-010"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-095-22",
+      "level": "N2",
+      "sentence": "新聞社の編集局長ともなると、災害時には記事の優先順位を即座に決める。",
+      "sentenceWithBlank": "新聞社の編集局長（　　　）、災害時には記事の優先順位を即座に決める。",
+      "korean": "신문사의 편집국장이 되면 재난 시에는 기사의 우선순위를 즉시 결정한다.",
+      "answerChoiceId": "fb-created-n2-095-22-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-095-22-a",
+          "text": "得るうる",
+          "grammarId": "n2-008",
+          "baseExpression": "得るうる",
+          "conjugatedExpression": "得るうる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-22-b",
+          "text": "おそれがある",
+          "grammarId": "n2-009",
+          "baseExpression": "おそれがある",
+          "conjugatedExpression": "おそれがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-22-c",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-22-d",
+          "text": "ともなると",
+          "grammarId": "n2-095",
+          "baseExpression": "ともなると",
+          "conjugatedExpression": "ともなると",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '신문사의 편집국장이 되면 재난 시에는 기사의 우선순위를 즉시 결정한다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
+      "sourceGrammarIds": [
+        "n2-095",
+        "n2-008",
+        "n2-009",
+        "n2-010"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-095-23",
+      "level": "N2",
+      "sentence": "全国展開の飲食店ともなると、産地の不作が全店舗の献立に影響する。",
+      "sentenceWithBlank": "全国展開の飲食店（　　　）、産地の不作が全店舗の献立に影響する。",
+      "korean": "전국적으로 운영되는 음식점쯤 되면 산지의 흉작이 모든 지점의 메뉴에 영향을 준다.",
+      "answerChoiceId": "fb-created-n2-095-23-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-095-23-b",
+          "text": "おそれがある",
+          "grammarId": "n2-009",
+          "baseExpression": "おそれがある",
+          "conjugatedExpression": "おそれがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-23-c",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-23-d",
+          "text": "ともなると",
+          "grammarId": "n2-095",
+          "baseExpression": "ともなると",
+          "conjugatedExpression": "ともなると",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-095-23-a",
+          "text": "得るうる",
+          "grammarId": "n2-008",
+          "baseExpression": "得るうる",
+          "conjugatedExpression": "得るうる",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '전국적으로 운영되는 음식점쯤 되면 산지의 흉작이 모든 지점의 메뉴에 영향을 준다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
+      "sourceGrammarIds": [
+        "n2-095",
+        "n2-008",
+        "n2-009",
+        "n2-010"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-095-24",
+      "level": "N2",
+      "sentence": "プロの登山家ともなると、天候の変化を雲の形からも読み取る。",
+      "sentenceWithBlank": "プロの登山家（　　　）、天候の変化を雲の形からも読み取る。",
+      "korean": "프로 산악인이 되면 날씨의 변화를 구름 모양으로도 읽어 낸다.",
+      "answerChoiceId": "fb-created-n2-095-24-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-095-24-c",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-24-d",
+          "text": "ともなると",
+          "grammarId": "n2-095",
+          "baseExpression": "ともなると",
+          "conjugatedExpression": "ともなると",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-095-24-a",
+          "text": "得るうる",
+          "grammarId": "n2-008",
+          "baseExpression": "得るうる",
+          "conjugatedExpression": "得るうる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-24-b",
+          "text": "おそれがある",
+          "grammarId": "n2-009",
+          "baseExpression": "おそれがある",
+          "conjugatedExpression": "おそれがある",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '프로 산악인이 되면 날씨의 변화를 구름 모양으로도 읽어 낸다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
+      "sourceGrammarIds": [
+        "n2-095",
+        "n2-008",
+        "n2-009",
+        "n2-010"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-095-25",
+      "level": "N2",
+      "sentence": "一家の大黒柱ともなると、自分の希望だけで転職先を選べない場合もある。",
+      "sentenceWithBlank": "一家の大黒柱（　　　）、自分の希望だけで転職先を選べない場合もある。",
+      "korean": "한 집안의 가장이 되면 자기 희망만으로 이직할 곳을 고르지 못하는 경우도 있다.",
+      "answerChoiceId": "fb-created-n2-095-25-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-095-25-d",
+          "text": "ともなると",
+          "grammarId": "n2-095",
+          "baseExpression": "ともなると",
+          "conjugatedExpression": "ともなると",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-095-25-a",
+          "text": "得るうる",
+          "grammarId": "n2-008",
+          "baseExpression": "得るうる",
+          "conjugatedExpression": "得るうる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-25-b",
+          "text": "おそれがある",
+          "grammarId": "n2-009",
+          "baseExpression": "おそれがある",
+          "conjugatedExpression": "おそれがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-095-25-c",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '한 집안의 가장이 되면 자기 희망만으로 이직할 곳을 고르지 못하는 경우도 있다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
+      "sourceGrammarIds": [
+        "n2-095",
+        "n2-008",
+        "n2-009",
+        "n2-010"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
       ]
     }
   ],
@@ -1834,1103 +1809,1153 @@
       ]
     },
     {
-      "id": "so-extra-n2-095-1",
+      "id": "so-created-n2-095-01",
       "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlanks": "3人の子の親 ____ ____ ____ ____",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
+      "sentence": "国際空港の管制官ともなると、一瞬の判断にも重い責任が伴う。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 重い責任が伴う。",
+      "korean": "국제공항의 관제사가 되면 순간적인 판단에도 막중한 책임이 따른다.",
       "pieces": [
         {
-          "id": "so-extra-n2-095-1-p2",
-          "text": "される",
+          "id": "so-created-n2-095-01-p4",
+          "text": "一瞬の判断にも",
           "order": 4
         },
         {
-          "id": "so-extra-n2-095-1-p3",
-          "text": "ともなると",
+          "id": "so-created-n2-095-01-p1",
+          "text": "国際空港の",
           "order": 1
         },
         {
-          "id": "so-extra-n2-095-1-p4",
-          "text": "自由時間は",
+          "id": "so-created-n2-095-01-p2",
+          "text": "管制官",
           "order": 2
         },
         {
-          "id": "so-extra-n2-095-1-p1",
-          "text": "かなり制限",
+          "id": "so-created-n2-095-01-p3",
+          "text": "ともなると、",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-095-1-p3",
-        "so-extra-n2-095-1-p4",
-        "so-extra-n2-095-1-p1",
-        "so-extra-n2-095-1-p2"
+        "so-created-n2-095-01-p1",
+        "so-created-n2-095-01-p2",
+        "so-created-n2-095-01-p3",
+        "so-created-n2-095-01-p4"
       ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '국제공항의 관제사가 되면 순간적인 판단에도 막중한 책임이 따른다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
       "sourceGrammarIds": [
-        "n2-095"
+        "n2-095",
+        "n2-008",
+        "n2-009",
+        "n2-010"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-095-2",
+      "id": "so-created-n2-095-02",
       "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlanks": "3人の子の親 ____ ____ ____ ____",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
+      "sentence": "創業百年の老舗ともなると、包装紙一枚にも店の品格が表れる。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 店の品格が表れる。",
+      "korean": "창업 100년의 노포쯤 되면 포장지 한 장에도 가게의 품격이 드러난다.",
       "pieces": [
         {
-          "id": "so-extra-n2-095-2-p3",
-          "text": "される",
+          "id": "so-created-n2-095-02-p3",
+          "text": "包装紙",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-095-02-p4",
+          "text": "一枚にも",
           "order": 4
         },
         {
-          "id": "so-extra-n2-095-2-p4",
-          "text": "ともなると",
+          "id": "so-created-n2-095-02-p1",
+          "text": "創業百年の老舗",
           "order": 1
         },
         {
-          "id": "so-extra-n2-095-2-p1",
-          "text": "自由時間は",
+          "id": "so-created-n2-095-02-p2",
+          "text": "ともなると、",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-095-2-p2",
-          "text": "かなり制限",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-095-2-p4",
-        "so-extra-n2-095-2-p1",
-        "so-extra-n2-095-2-p2",
-        "so-extra-n2-095-2-p3"
+        "so-created-n2-095-02-p1",
+        "so-created-n2-095-02-p2",
+        "so-created-n2-095-02-p3",
+        "so-created-n2-095-02-p4"
       ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '창업 100년의 노포쯤 되면 포장지 한 장에도 가게의 품격이 드러난다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
       "sourceGrammarIds": [
-        "n2-095"
+        "n2-095",
+        "n2-008",
+        "n2-009",
+        "n2-010"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-095-3",
+      "id": "so-created-n2-095-03",
       "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、自由時間はかなり制限される。",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
+      "sentence": "人口百万人の都市ともなると、深夜でも救急車の往来が絶えない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 往来が絶えない。",
+      "korean": "인구 백만 명의 도시쯤 되면 심야에도 구급차의 왕래가 끊이지 않는다.",
       "pieces": [
         {
-          "id": "so-extra-n2-095-3-p4",
-          "text": "かなり制限",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-095-3-p1",
-          "text": "の親",
-          "order": 1
-        },
-        {
-          "id": "so-extra-n2-095-3-p2",
-          "text": "ともなると",
+          "id": "so-created-n2-095-03-p2",
+          "text": "人の都市",
           "order": 2
         },
         {
-          "id": "so-extra-n2-095-3-p3",
-          "text": "自由時間は",
+          "id": "so-created-n2-095-03-p3",
+          "text": "ともなると、",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-095-03-p4",
+          "text": "深夜でも救急車の",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-095-03-p1",
+          "text": "人口百万",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-095-3-p1",
-        "so-extra-n2-095-3-p2",
-        "so-extra-n2-095-3-p3",
-        "so-extra-n2-095-3-p4"
+        "so-created-n2-095-03-p1",
+        "so-created-n2-095-03-p2",
+        "so-created-n2-095-03-p3",
+        "so-created-n2-095-03-p4"
       ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '인구 백만 명의 도시쯤 되면 심야에도 구급차의 왕래가 끊이지 않는다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
       "sourceGrammarIds": [
-        "n2-095"
+        "n2-095",
+        "n2-008",
+        "n2-009",
+        "n2-010"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-095-4",
+      "id": "so-created-n2-095-04",
       "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlanks": "3人の子の親 ____ ____ ____ ____",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
+      "sentence": "大型客船の船長ともなると、悪天候でも冷静に航路を決めなければならない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 決めなければならない。",
+      "korean": "대형 여객선의 선장이 되면 악천후에도 침착하게 항로를 결정해야 한다.",
       "pieces": [
         {
-          "id": "so-extra-n2-095-4-p1",
-          "text": "される",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-095-4-p2",
-          "text": "ともなると",
+          "id": "so-created-n2-095-04-p1",
+          "text": "大型客船の船長",
           "order": 1
         },
         {
-          "id": "so-extra-n2-095-4-p3",
-          "text": "自由時間は",
+          "id": "so-created-n2-095-04-p2",
+          "text": "ともなると、",
           "order": 2
         },
         {
-          "id": "so-extra-n2-095-4-p4",
-          "text": "かなり制限",
+          "id": "so-created-n2-095-04-p3",
+          "text": "悪天候でも",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-095-04-p4",
+          "text": "冷静に航路を",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-095-4-p2",
-        "so-extra-n2-095-4-p3",
-        "so-extra-n2-095-4-p4",
-        "so-extra-n2-095-4-p1"
+        "so-created-n2-095-04-p1",
+        "so-created-n2-095-04-p2",
+        "so-created-n2-095-04-p3",
+        "so-created-n2-095-04-p4"
       ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '대형 여객선의 선장이 되면 악천후에도 침착하게 항로를 결정해야 한다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
       "sourceGrammarIds": [
-        "n2-095"
+        "n2-095",
+        "n2-008",
+        "n2-009",
+        "n2-010"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-095-5",
+      "id": "so-created-n2-095-05",
       "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlanks": "3人の子の親 ____ ____ ____ ____",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
+      "sentence": "世界大会の決勝ともなると、会場周辺の警備も一段と厳しくなる。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 一段と厳しくなる。",
+      "korean": "세계 대회 결승쯤 되면 경기장 주변의 경비도 한층 더 엄격해진다.",
       "pieces": [
         {
-          "id": "so-extra-n2-095-5-p2",
-          "text": "される",
+          "id": "so-created-n2-095-05-p4",
+          "text": "警備も",
           "order": 4
         },
         {
-          "id": "so-extra-n2-095-5-p3",
-          "text": "ともなると",
+          "id": "so-created-n2-095-05-p1",
+          "text": "世界大会の決勝",
           "order": 1
         },
         {
-          "id": "so-extra-n2-095-5-p4",
-          "text": "自由時間は",
+          "id": "so-created-n2-095-05-p2",
+          "text": "ともなると、",
           "order": 2
         },
         {
-          "id": "so-extra-n2-095-5-p1",
-          "text": "かなり制限",
+          "id": "so-created-n2-095-05-p3",
+          "text": "会場周辺の",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-095-5-p3",
-        "so-extra-n2-095-5-p4",
-        "so-extra-n2-095-5-p1",
-        "so-extra-n2-095-5-p2"
+        "so-created-n2-095-05-p1",
+        "so-created-n2-095-05-p2",
+        "so-created-n2-095-05-p3",
+        "so-created-n2-095-05-p4"
       ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '세계 대회 결승쯤 되면 경기장 주변의 경비도 한층 더 엄격해진다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
       "sourceGrammarIds": [
-        "n2-095"
+        "n2-095",
+        "n2-008",
+        "n2-009",
+        "n2-010"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-095-01",
+      "id": "so-created-n2-095-06",
       "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlanks": "3人の子の親 ____ ____ ____ ____",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
+      "sentence": "五つ星ホテルの料理長ともなると、食材の産地まで自ら確かめる。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 自ら確かめる。",
+      "korean": "5성급 호텔의 총주방장이 되면 식재료의 산지까지 직접 확인한다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-095-01-p2",
-          "text": "される",
+          "id": "so-created-n2-095-06-p3",
+          "text": "長ともなると、",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-095-06-p4",
+          "text": "食材の産地まで",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-095-01-p3",
-          "text": "ともなると",
+          "id": "so-created-n2-095-06-p1",
+          "text": "五つ星",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-095-01-p4",
-          "text": "自由時間は",
+          "id": "so-created-n2-095-06-p2",
+          "text": "ホテルの料理",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-095-01-p1",
-          "text": "かなり制限",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-095-01-p3",
-        "so-extra20-n2-095-01-p4",
-        "so-extra20-n2-095-01-p1",
-        "so-extra20-n2-095-01-p2"
+        "so-created-n2-095-06-p1",
+        "so-created-n2-095-06-p2",
+        "so-created-n2-095-06-p3",
+        "so-created-n2-095-06-p4"
       ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '5성급 호텔의 총주방장이 되면 식재료의 산지까지 직접 확인한다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
       "sourceGrammarIds": [
-        "n2-095"
+        "n2-095",
+        "n2-008",
+        "n2-009",
+        "n2-010"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-095-02",
+      "id": "so-created-n2-095-07",
       "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlanks": "3人の子の親 ____ ____ ____ ____",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
+      "sentence": "結婚二十周年ともなると、派手な贈り物より穏やかな夕食がうれしい。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 夕食がうれしい。",
+      "korean": "결혼 20주년쯤 되면 화려한 선물보다 편안한 저녁 식사가 반갑다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-095-02-p1",
-          "text": "自由時間は",
+          "id": "so-created-n2-095-07-p2",
+          "text": "ともなると、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-095-02-p2",
-          "text": "かなり制限",
+          "id": "so-created-n2-095-07-p3",
+          "text": "派手な贈り物より",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-095-02-p3",
-          "text": "される",
+          "id": "so-created-n2-095-07-p4",
+          "text": "穏やかな",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-095-02-p4",
-          "text": "ともなると",
+          "id": "so-created-n2-095-07-p1",
+          "text": "結婚二十周年",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-095-02-p4",
-        "so-extra20-n2-095-02-p1",
-        "so-extra20-n2-095-02-p2",
-        "so-extra20-n2-095-02-p3"
+        "so-created-n2-095-07-p1",
+        "so-created-n2-095-07-p2",
+        "so-created-n2-095-07-p3",
+        "so-created-n2-095-07-p4"
       ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '결혼 20주년쯤 되면 화려한 선물보다 편안한 저녁 식사가 반갑다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
       "sourceGrammarIds": [
-        "n2-095"
+        "n2-095",
+        "n2-008",
+        "n2-009",
+        "n2-010"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-095-03",
+      "id": "so-created-n2-095-08",
       "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、自由時間はかなり制限される。",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
+      "sentence": "山頂付近ともなると、真夏でも手袋なしでは指先が冷える。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "산 정상 부근쯤 되면 한여름에도 장갑이 없으면 손끝이 시리다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-095-03-p4",
-          "text": "かなり制限",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-095-03-p1",
-          "text": "の親",
+          "id": "so-created-n2-095-08-p1",
+          "text": "山頂付近",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-095-03-p2",
-          "text": "ともなると",
+          "id": "so-created-n2-095-08-p2",
+          "text": "ともなると、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-095-03-p3",
-          "text": "自由時間は",
+          "id": "so-created-n2-095-08-p3",
+          "text": "真夏でも手袋なしでは",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-095-08-p4",
+          "text": "指先が冷える。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-095-03-p1",
-        "so-extra20-n2-095-03-p2",
-        "so-extra20-n2-095-03-p3",
-        "so-extra20-n2-095-03-p4"
+        "so-created-n2-095-08-p1",
+        "so-created-n2-095-08-p2",
+        "so-created-n2-095-08-p3",
+        "so-created-n2-095-08-p4"
       ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '산 정상 부근쯤 되면 한여름에도 장갑이 없으면 손끝이 시리다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
       "sourceGrammarIds": [
-        "n2-095"
+        "n2-095",
+        "n2-008",
+        "n2-009",
+        "n2-010"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-095-04",
+      "id": "so-created-n2-095-09",
       "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlanks": "3人の子の親 ____ ____ ____ ____",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
+      "sentence": "最高裁判所の判決ともなると、社会全体への影響も無視できない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 無視できない。",
+      "korean": "대법원의 판결쯤 되면 사회 전체에 미치는 영향도 무시할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-095-04-p3",
-          "text": "自由時間は",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-095-04-p4",
-          "text": "かなり制限",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-095-04-p1",
-          "text": "される",
+          "id": "so-created-n2-095-09-p4",
+          "text": "影響も",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-095-04-p2",
-          "text": "ともなると",
+          "id": "so-created-n2-095-09-p1",
+          "text": "最高裁判所の",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-095-09-p2",
+          "text": "判決ともなると、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-095-09-p3",
+          "text": "社会全体への",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-095-04-p2",
-        "so-extra20-n2-095-04-p3",
-        "so-extra20-n2-095-04-p4",
-        "so-extra20-n2-095-04-p1"
+        "so-created-n2-095-09-p1",
+        "so-created-n2-095-09-p2",
+        "so-created-n2-095-09-p3",
+        "so-created-n2-095-09-p4"
       ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '대법원의 판결쯤 되면 사회 전체에 미치는 영향도 무시할 수 없다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
       "sourceGrammarIds": [
-        "n2-095"
+        "n2-095",
+        "n2-008",
+        "n2-009",
+        "n2-010"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-095-05",
+      "id": "so-created-n2-095-10",
       "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlanks": "3人の子の親 ____ ____ ____ ____",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
+      "sentence": "十億円規模の事業ともなると、自治体だけで資金を賄うのは難しい。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 賄うのは難しい。",
+      "korean": "10억 엔 규모의 사업쯤 되면 지방자치단체만으로 자금을 충당하기는 어렵다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-095-05-p2",
-          "text": "される",
+          "id": "so-created-n2-095-10-p3",
+          "text": "自治体だけで",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-095-10-p4",
+          "text": "資金を",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-095-05-p3",
-          "text": "ともなると",
+          "id": "so-created-n2-095-10-p1",
+          "text": "十億円規模の",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-095-05-p4",
-          "text": "自由時間は",
+          "id": "so-created-n2-095-10-p2",
+          "text": "事業ともなると、",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-095-05-p1",
-          "text": "かなり制限",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-095-05-p3",
-        "so-extra20-n2-095-05-p4",
-        "so-extra20-n2-095-05-p1",
-        "so-extra20-n2-095-05-p2"
+        "so-created-n2-095-10-p1",
+        "so-created-n2-095-10-p2",
+        "so-created-n2-095-10-p3",
+        "so-created-n2-095-10-p4"
       ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '10억 엔 규모의 사업쯤 되면 지방자치단체만으로 자금을 충당하기는 어렵다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
       "sourceGrammarIds": [
-        "n2-095"
+        "n2-095",
+        "n2-008",
+        "n2-009",
+        "n2-010"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-095-06",
+      "id": "so-created-n2-095-11",
       "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlanks": "3人の子の親 ____ ____ ____ ____",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
+      "sentence": "三代目の職人ともなると、木の香りだけで乾燥具合が分かるらしい。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 具合が分かるらしい。",
+      "korean": "3대째 장인쯤 되면 나무 향만으로도 건조 상태를 안다고 한다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-095-06-p1",
-          "text": "かなり制限",
+          "id": "so-created-n2-095-11-p2",
+          "text": "ともなると、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-095-11-p3",
+          "text": "木の",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-095-06-p2",
-          "text": "される",
+          "id": "so-created-n2-095-11-p4",
+          "text": "香りだけで乾燥",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-095-06-p3",
-          "text": "ともなると",
+          "id": "so-created-n2-095-11-p1",
+          "text": "三代目の職人",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-095-06-p4",
-          "text": "自由時間は",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-095-06-p3",
-        "so-extra20-n2-095-06-p4",
-        "so-extra20-n2-095-06-p1",
-        "so-extra20-n2-095-06-p2"
+        "so-created-n2-095-11-p1",
+        "so-created-n2-095-11-p2",
+        "so-created-n2-095-11-p3",
+        "so-created-n2-095-11-p4"
       ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '3대째 장인쯤 되면 나무 향만으로도 건조 상태를 안다고 한다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
       "sourceGrammarIds": [
-        "n2-095"
+        "n2-095",
+        "n2-008",
+        "n2-009",
+        "n2-010"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-095-07",
+      "id": "so-created-n2-095-12",
       "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlanks": "3人の子の親 ____ ____ ____ ____",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
+      "sentence": "海外支社の責任者ともなると、本社との交渉も重要な仕事になる。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 重要な仕事になる。",
+      "korean": "해외 지사의 책임자가 되면 본사와의 협상도 중요한 업무가 된다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-095-07-p4",
-          "text": "ともなると",
+          "id": "so-created-n2-095-12-p1",
+          "text": "海外支社の",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-095-07-p1",
-          "text": "自由時間は",
+          "id": "so-created-n2-095-12-p2",
+          "text": "責任者",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-095-07-p2",
-          "text": "かなり制限",
+          "id": "so-created-n2-095-12-p3",
+          "text": "ともなると、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-095-07-p3",
-          "text": "される",
+          "id": "so-created-n2-095-12-p4",
+          "text": "本社との交渉も",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-095-07-p4",
-        "so-extra20-n2-095-07-p1",
-        "so-extra20-n2-095-07-p2",
-        "so-extra20-n2-095-07-p3"
+        "so-created-n2-095-12-p1",
+        "so-created-n2-095-12-p2",
+        "so-created-n2-095-12-p3",
+        "so-created-n2-095-12-p4"
       ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '해외 지사의 책임자가 되면 본사와의 협상도 중요한 업무가 된다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
       "sourceGrammarIds": [
-        "n2-095"
+        "n2-095",
+        "n2-008",
+        "n2-009",
+        "n2-010"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-095-08",
+      "id": "so-created-n2-095-13",
       "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、自由時間はかなり制限される。",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
+      "sentence": "築百年の民家ともなると、柱を残した改修には熟練の技が要る。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 熟練の技が要る。",
+      "korean": "지은 지 100년 된 민가쯤 되면 기둥을 보존하는 개수에는 숙련된 기술이 필요하다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-095-08-p3",
-          "text": "自由時間は",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-095-08-p4",
-          "text": "かなり制限",
+          "id": "so-created-n2-095-13-p4",
+          "text": "改修には",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-095-08-p1",
-          "text": "の親",
+          "id": "so-created-n2-095-13-p1",
+          "text": "築百年の民家",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-095-08-p2",
-          "text": "ともなると",
+          "id": "so-created-n2-095-13-p2",
+          "text": "ともなると、",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-095-13-p3",
+          "text": "柱を残した",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-095-08-p1",
-        "so-extra20-n2-095-08-p2",
-        "so-extra20-n2-095-08-p3",
-        "so-extra20-n2-095-08-p4"
+        "so-created-n2-095-13-p1",
+        "so-created-n2-095-13-p2",
+        "so-created-n2-095-13-p3",
+        "so-created-n2-095-13-p4"
       ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '지은 지 100년 된 민가쯤 되면 기둥을 보존하는 개수에는 숙련된 기술이 필요하다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
       "sourceGrammarIds": [
-        "n2-095"
+        "n2-095",
+        "n2-008",
+        "n2-009",
+        "n2-010"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-095-09",
+      "id": "so-created-n2-095-14",
       "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlanks": "3人の子の親 ____ ____ ____ ____",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
+      "sentence": "月末ともなると、宅配業者には翌月分の注文が集中する。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 集中する。",
+      "korean": "월말쯤 되면 택배 업체에는 다음 달분 주문이 몰린다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-095-09-p2",
-          "text": "ともなると",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-095-09-p3",
-          "text": "自由時間は",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-095-09-p4",
-          "text": "かなり制限",
+          "id": "so-created-n2-095-14-p3",
+          "text": "宅配業者には",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-095-09-p1",
-          "text": "される",
+          "id": "so-created-n2-095-14-p4",
+          "text": "翌月分の注文が",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-095-14-p1",
+          "text": "月末",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-095-14-p2",
+          "text": "ともなると、",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-095-09-p2",
-        "so-extra20-n2-095-09-p3",
-        "so-extra20-n2-095-09-p4",
-        "so-extra20-n2-095-09-p1"
+        "so-created-n2-095-14-p1",
+        "so-created-n2-095-14-p2",
+        "so-created-n2-095-14-p3",
+        "so-created-n2-095-14-p4"
       ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '월말쯤 되면 택배 업체에는 다음 달분 주문이 몰린다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
       "sourceGrammarIds": [
-        "n2-095"
+        "n2-095",
+        "n2-008",
+        "n2-009",
+        "n2-010"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-095-10",
+      "id": "so-created-n2-095-15",
       "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlanks": "3人の子の親 ____ ____ ____ ____",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
+      "sentence": "樹齢千年の杉ともなると、地域の歴史を象徴する存在として守られる。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 存在として守られる。",
+      "korean": "수령 천 년의 삼나무쯤 되면 지역의 역사를 상징하는 존재로서 보호받는다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-095-10-p1",
-          "text": "かなり制限",
+          "id": "so-created-n2-095-15-p2",
+          "text": "ともなると、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-095-15-p3",
+          "text": "地域の歴史を",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-095-10-p2",
-          "text": "される",
+          "id": "so-created-n2-095-15-p4",
+          "text": "象徴する",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-095-10-p3",
-          "text": "ともなると",
+          "id": "so-created-n2-095-15-p1",
+          "text": "樹齢千年の杉",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-095-10-p4",
-          "text": "自由時間は",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-095-10-p3",
-        "so-extra20-n2-095-10-p4",
-        "so-extra20-n2-095-10-p1",
-        "so-extra20-n2-095-10-p2"
+        "so-created-n2-095-15-p1",
+        "so-created-n2-095-15-p2",
+        "so-created-n2-095-15-p3",
+        "so-created-n2-095-15-p4"
       ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '수령 천 년의 삼나무쯤 되면 지역의 역사를 상징하는 존재로서 보호받는다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
       "sourceGrammarIds": [
-        "n2-095"
+        "n2-095",
+        "n2-008",
+        "n2-009",
+        "n2-010"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-095-11",
+      "id": "so-created-n2-095-16",
       "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlanks": "3人の子の親 ____ ____ ____ ____",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
+      "sentence": "四人編成の弦楽団ともなると、わずかな呼吸のずれも演奏に響く。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 演奏に響く。",
+      "korean": "4인조 현악단쯤 되면 아주 작은 호흡의 어긋남도 연주에 영향을 준다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-095-11-p4",
-          "text": "自由時間は",
+          "id": "so-created-n2-095-16-p1",
+          "text": "四人編成の弦楽",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-095-16-p2",
+          "text": "団ともなると、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-095-11-p1",
-          "text": "かなり制限",
+          "id": "so-created-n2-095-16-p3",
+          "text": "わずかな",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-095-11-p2",
-          "text": "される",
+          "id": "so-created-n2-095-16-p4",
+          "text": "呼吸のずれも",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-095-11-p3",
-          "text": "ともなると",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-095-11-p3",
-        "so-extra20-n2-095-11-p4",
-        "so-extra20-n2-095-11-p1",
-        "so-extra20-n2-095-11-p2"
+        "so-created-n2-095-16-p1",
+        "so-created-n2-095-16-p2",
+        "so-created-n2-095-16-p3",
+        "so-created-n2-095-16-p4"
       ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '4인조 현악단쯤 되면 아주 작은 호흡의 어긋남도 연주에 영향을 준다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
       "sourceGrammarIds": [
-        "n2-095"
+        "n2-095",
+        "n2-008",
+        "n2-009",
+        "n2-010"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-095-12",
+      "id": "so-created-n2-095-17",
       "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlanks": "3人の子の親 ____ ____ ____ ____",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
+      "sentence": "病院長ともなると、患者だけでなく職員の安全にも目を配る必要がある。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 配る必要がある。",
+      "korean": "병원장이 되면 환자뿐 아니라 직원의 안전에도 주의를 기울일 필요가 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-095-12-p3",
-          "text": "される",
+          "id": "so-created-n2-095-17-p4",
+          "text": "職員の安全にも目を",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-095-12-p4",
-          "text": "ともなると",
+          "id": "so-created-n2-095-17-p1",
+          "text": "病院長",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-095-12-p1",
-          "text": "自由時間は",
+          "id": "so-created-n2-095-17-p2",
+          "text": "ともなると、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-095-12-p2",
-          "text": "かなり制限",
+          "id": "so-created-n2-095-17-p3",
+          "text": "患者だけでなく",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-095-12-p4",
-        "so-extra20-n2-095-12-p1",
-        "so-extra20-n2-095-12-p2",
-        "so-extra20-n2-095-12-p3"
+        "so-created-n2-095-17-p1",
+        "so-created-n2-095-17-p2",
+        "so-created-n2-095-17-p3",
+        "so-created-n2-095-17-p4"
       ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '병원장이 되면 환자뿐 아니라 직원의 안전에도 주의를 기울일 필요가 있다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
       "sourceGrammarIds": [
-        "n2-095"
+        "n2-095",
+        "n2-008",
+        "n2-009",
+        "n2-010"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-095-13",
+      "id": "so-created-n2-095-18",
       "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、自由時間はかなり制限される。",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
+      "sentence": "真冬の北海道ともなると、停車中の車内でも飲み物が凍ることがある。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 凍ることがある。",
+      "korean": "한겨울의 홋카이도쯤 되면 정차 중인 차 안에서도 음료가 얼 때가 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-095-13-p2",
-          "text": "ともなると",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-095-13-p3",
-          "text": "自由時間は",
+          "id": "so-created-n2-095-18-p3",
+          "text": "停車中の",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-095-13-p4",
-          "text": "かなり制限",
+          "id": "so-created-n2-095-18-p4",
+          "text": "車内でも飲み物が",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-095-13-p1",
-          "text": "の親",
+          "id": "so-created-n2-095-18-p1",
+          "text": "真冬の北海道",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-095-18-p2",
+          "text": "ともなると、",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-095-13-p1",
-        "so-extra20-n2-095-13-p2",
-        "so-extra20-n2-095-13-p3",
-        "so-extra20-n2-095-13-p4"
+        "so-created-n2-095-18-p1",
+        "so-created-n2-095-18-p2",
+        "so-created-n2-095-18-p3",
+        "so-created-n2-095-18-p4"
       ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '한겨울의 홋카이도쯤 되면 정차 중인 차 안에서도 음료가 얼 때가 있다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
       "sourceGrammarIds": [
-        "n2-095"
+        "n2-095",
+        "n2-008",
+        "n2-009",
+        "n2-010"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-095-14",
+      "id": "so-created-n2-095-19",
       "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlanks": "3人の子の親 ____ ____ ____ ____",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
+      "sentence": "国宝級の仏像ともなると、移送には振動を抑える専用車両が使われる。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 専用車両が使われる。",
+      "korean": "국보급 불상쯤 되면 운송에는 진동을 억제하는 전용 차량이 사용된다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-095-14-p1",
-          "text": "される",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-095-14-p2",
-          "text": "ともなると",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-095-14-p3",
-          "text": "自由時間は",
+          "id": "so-created-n2-095-19-p2",
+          "text": "ともなると、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-095-14-p4",
-          "text": "かなり制限",
+          "id": "so-created-n2-095-19-p3",
+          "text": "移送には",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-095-19-p4",
+          "text": "振動を抑える",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-095-19-p1",
+          "text": "国宝級の仏像",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-095-14-p2",
-        "so-extra20-n2-095-14-p3",
-        "so-extra20-n2-095-14-p4",
-        "so-extra20-n2-095-14-p1"
+        "so-created-n2-095-19-p1",
+        "so-created-n2-095-19-p2",
+        "so-created-n2-095-19-p3",
+        "so-created-n2-095-19-p4"
       ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '국보급 불상쯤 되면 운송에는 진동을 억제하는 전용 차량이 사용된다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
       "sourceGrammarIds": [
-        "n2-095"
+        "n2-095",
+        "n2-008",
+        "n2-009",
+        "n2-010"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-095-15",
+      "id": "so-created-n2-095-20",
       "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlanks": "3人の子の親 ____ ____ ____ ____",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
+      "sentence": "百人を超える披露宴ともなると、席順を決めるだけでも数日かかる。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 日かかる。",
+      "korean": "백 명이 넘는 피로연쯤 되면 좌석 배치를 정하는 데만도 며칠이 걸린다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-095-15-p4",
-          "text": "自由時間は",
+          "id": "so-created-n2-095-20-p1",
+          "text": "百人を",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-095-20-p2",
+          "text": "超える披露宴",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-095-15-p1",
-          "text": "かなり制限",
+          "id": "so-created-n2-095-20-p3",
+          "text": "ともなると、席順を",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-095-15-p2",
-          "text": "される",
+          "id": "so-created-n2-095-20-p4",
+          "text": "決めるだけでも数",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-095-15-p3",
-          "text": "ともなると",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-095-15-p3",
-        "so-extra20-n2-095-15-p4",
-        "so-extra20-n2-095-15-p1",
-        "so-extra20-n2-095-15-p2"
+        "so-created-n2-095-20-p1",
+        "so-created-n2-095-20-p2",
+        "so-created-n2-095-20-p3",
+        "so-created-n2-095-20-p4"
       ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '백 명이 넘는 피로연쯤 되면 좌석 배치를 정하는 데만도 며칠이 걸린다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
       "sourceGrammarIds": [
-        "n2-095"
+        "n2-095",
+        "n2-008",
+        "n2-009",
+        "n2-010"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-095-16",
+      "id": "so-created-n2-095-21",
       "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlanks": "3人の子の親 ____ ____ ____ ____",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
+      "sentence": "希少なワインの競売ともなると、落札額が予想の倍に達することも珍しくない。",
+      "sentenceWithBlanks": "希少な ____ ____ ____ ____ 達することも珍しくない。",
+      "korean": "희귀 와인의 경매쯤 되면 낙찰가가 예상의 두 배에 이르는 일도 드물지 않다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-095-16-p3",
-          "text": "ともなると",
+          "id": "so-created-n2-095-21-p4",
+          "text": "予想の倍に",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-095-21-p1",
+          "text": "ワインの競売",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-095-16-p4",
-          "text": "自由時間は",
+          "id": "so-created-n2-095-21-p2",
+          "text": "ともなると、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-095-16-p1",
-          "text": "かなり制限",
+          "id": "so-created-n2-095-21-p3",
+          "text": "落札額が",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-095-16-p2",
-          "text": "される",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-095-16-p3",
-        "so-extra20-n2-095-16-p4",
-        "so-extra20-n2-095-16-p1",
-        "so-extra20-n2-095-16-p2"
+        "so-created-n2-095-21-p1",
+        "so-created-n2-095-21-p2",
+        "so-created-n2-095-21-p3",
+        "so-created-n2-095-21-p4"
       ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '희귀 와인의 경매쯤 되면 낙찰가가 예상의 두 배에 이르는 일도 드물지 않다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
       "sourceGrammarIds": [
-        "n2-095"
+        "n2-095",
+        "n2-008",
+        "n2-009",
+        "n2-010"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-095-17",
+      "id": "so-created-n2-095-22",
       "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlanks": "3人の子の親 ____ ____ ____ ____",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
+      "sentence": "新聞社の編集局長ともなると、災害時には記事の優先順位を即座に決める。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 優先順位を即座に決める。",
+      "korean": "신문사의 편집국장이 되면 재난 시에는 기사의 우선순위를 즉시 결정한다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-095-17-p2",
-          "text": "かなり制限",
+          "id": "so-created-n2-095-22-p3",
+          "text": "ともなると、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-095-17-p3",
-          "text": "される",
+          "id": "so-created-n2-095-22-p4",
+          "text": "災害時には記事の",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-095-17-p4",
-          "text": "ともなると",
+          "id": "so-created-n2-095-22-p1",
+          "text": "新聞社の",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-095-17-p1",
-          "text": "自由時間は",
+          "id": "so-created-n2-095-22-p2",
+          "text": "編集局長",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-095-17-p4",
-        "so-extra20-n2-095-17-p1",
-        "so-extra20-n2-095-17-p2",
-        "so-extra20-n2-095-17-p3"
+        "so-created-n2-095-22-p1",
+        "so-created-n2-095-22-p2",
+        "so-created-n2-095-22-p3",
+        "so-created-n2-095-22-p4"
       ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '신문사의 편집국장이 되면 재난 시에는 기사의 우선순위를 즉시 결정한다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
       "sourceGrammarIds": [
-        "n2-095"
+        "n2-095",
+        "n2-008",
+        "n2-009",
+        "n2-010"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-095-18",
+      "id": "so-created-n2-095-23",
       "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、自由時間はかなり制限される。",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
+      "sentence": "全国展開の飲食店ともなると、産地の不作が全店舗の献立に影響する。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 店舗の献立に影響する。",
+      "korean": "전국적으로 운영되는 음식점쯤 되면 산지의 흉작이 모든 지점의 메뉴에 영향을 준다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-095-18-p1",
-          "text": "の親",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-095-18-p2",
-          "text": "ともなると",
+          "id": "so-created-n2-095-23-p2",
+          "text": "飲食店",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-095-18-p3",
-          "text": "自由時間は",
+          "id": "so-created-n2-095-23-p3",
+          "text": "ともなると、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-095-18-p4",
-          "text": "かなり制限",
+          "id": "so-created-n2-095-23-p4",
+          "text": "産地の不作が全",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-095-23-p1",
+          "text": "全国展開の",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-095-18-p1",
-        "so-extra20-n2-095-18-p2",
-        "so-extra20-n2-095-18-p3",
-        "so-extra20-n2-095-18-p4"
+        "so-created-n2-095-23-p1",
+        "so-created-n2-095-23-p2",
+        "so-created-n2-095-23-p3",
+        "so-created-n2-095-23-p4"
       ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '전국적으로 운영되는 음식점쯤 되면 산지의 흉작이 모든 지점의 메뉴에 영향을 준다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
       "sourceGrammarIds": [
-        "n2-095"
+        "n2-095",
+        "n2-008",
+        "n2-009",
+        "n2-010"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-095-19",
+      "id": "so-created-n2-095-24",
       "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlanks": "3人の子の親 ____ ____ ____ ____",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
+      "sentence": "プロの登山家ともなると、天候の変化を雲の形からも読み取る。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 形からも読み取る。",
+      "korean": "프로 산악인이 되면 날씨의 변화를 구름 모양으로도 읽어 낸다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-095-19-p4",
-          "text": "かなり制限",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-095-19-p1",
-          "text": "される",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-095-19-p2",
-          "text": "ともなると",
+          "id": "so-created-n2-095-24-p1",
+          "text": "プロの登山家",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-095-19-p3",
-          "text": "自由時間は",
+          "id": "so-created-n2-095-24-p2",
+          "text": "ともなると、",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-095-24-p3",
+          "text": "天候の",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-095-24-p4",
+          "text": "変化を雲の",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-095-19-p2",
-        "so-extra20-n2-095-19-p3",
-        "so-extra20-n2-095-19-p4",
-        "so-extra20-n2-095-19-p1"
+        "so-created-n2-095-24-p1",
+        "so-created-n2-095-24-p2",
+        "so-created-n2-095-24-p3",
+        "so-created-n2-095-24-p4"
       ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '프로 산악인이 되면 날씨의 변화를 구름 모양으로도 읽어 낸다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
       "sourceGrammarIds": [
-        "n2-095"
+        "n2-095",
+        "n2-008",
+        "n2-009",
+        "n2-010"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-095-20",
+      "id": "so-created-n2-095-25",
       "level": "N2",
-      "sentence": "3人の子の親ともなると、自由時間はかなり制限される。",
-      "sentenceWithBlanks": "3人の子の親 ____ ____ ____ ____",
-      "korean": "세 아이의 부모가 되면 자유 시간은 꽤 제한된다.",
+      "sentence": "一家の大黒柱ともなると、自分の希望だけで転職先を選べない場合もある。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 選べない場合もある。",
+      "korean": "한 집안의 가장이 되면 자기 희망만으로 이직할 곳을 고르지 못하는 경우도 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-095-20-p3",
-          "text": "ともなると",
+          "id": "so-created-n2-095-25-p4",
+          "text": "転職先を",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-095-25-p1",
+          "text": "一家の大黒柱",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-095-20-p4",
-          "text": "自由時間は",
+          "id": "so-created-n2-095-25-p2",
+          "text": "ともなると、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-095-20-p1",
-          "text": "かなり制限",
+          "id": "so-created-n2-095-25-p3",
+          "text": "自分の希望だけで",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-095-20-p2",
-          "text": "される",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-095-20-p3",
-        "so-extra20-n2-095-20-p4",
-        "so-extra20-n2-095-20-p1",
-        "so-extra20-n2-095-20-p2"
+        "so-created-n2-095-25-p1",
+        "so-created-n2-095-25-p2",
+        "so-created-n2-095-25-p3",
+        "so-created-n2-095-25-p4"
       ],
-      "explanation": "「ともなると」는 ~이 되면, ~정도가 되면라는 뜻이다. 그 정도 단계가 되면 자연히 상황이 달라짐.",
+      "explanation": "「ともなると」는 '~이 되면, ~정도가 되면'라는 뜻을 나타낸다. 이 문장에서는 '한 집안의 가장이 되면 자기 희망만으로 이직할 곳을 고르지 못하는 경우도 있다.'라는 상황에 쓰였으며, 그 정도 단계가 되면 자연히 상황이 달라짐. 주의할 점은 「社長ともなると」처럼 높은 지위에 도달하면 당연히 따르는 변화를 말함.",
       "sourceGrammarIds": [
-        "n2-095"
+        "n2-095",
+        "n2-008",
+        "n2-009",
+        "n2-010"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     }
   ]

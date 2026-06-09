@@ -227,8 +227,8 @@ function splitSentenceBlanks(sentenceWithBlanks: string): { prefix: string; suff
   }
 
   return {
-    prefix: sentenceWithBlanks.slice(0, firstBlankIndex),
-    suffix: sentenceWithBlanks.slice(lastBlankIndex + "____".length),
+    prefix: sentenceWithBlanks.slice(0, firstBlankIndex).trimEnd(),
+    suffix: sentenceWithBlanks.slice(lastBlankIndex + "____".length).trimStart(),
   };
 }
 

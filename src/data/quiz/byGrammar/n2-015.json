@@ -267,15 +267,23 @@
       ]
     },
     {
-      "id": "fb-extra-n2-015-1",
+      "id": "fb-created-n2-015-01",
       "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlank": "ちょっと話した（　　　）、彼はいつもとまったくかわらないように思えた。",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
-      "answerChoiceId": "fb-extra-n2-015-1-d",
+      "sentence": "私が現場を確認したかぎりでは、建物に大きな損傷はなかった。",
+      "sentenceWithBlank": "私が現場を確認した（　　　）、建物に大きな損傷はなかった。",
+      "korean": "내가 현장을 확인한 바로는 건물에 큰 손상은 없었다.",
+      "answerChoiceId": "fb-created-n2-015-01-d",
       "choices": [
         {
-          "id": "fb-extra-n2-015-1-a",
+          "id": "fb-created-n2-015-01-d",
+          "text": "かぎりでは",
+          "grammarId": "n2-015",
+          "baseExpression": "かぎりでは",
+          "conjugatedExpression": "かぎりでは",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-015-01-a",
           "text": "がたい",
           "grammarId": "n2-017",
           "baseExpression": "がたい",
@@ -283,7 +291,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-015-1-b",
+          "id": "fb-created-n2-015-01-b",
           "text": "がだけに",
           "grammarId": "n2-018",
           "baseExpression": "がだけに",
@@ -291,23 +299,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-015-1-c",
+          "id": "fb-created-n2-015-01-c",
           "text": "がち",
           "grammarId": "n2-019",
           "baseExpression": "がち",
           "conjugatedExpression": "がち",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-015-1-d",
-          "text": "かぎりでは",
-          "grammarId": "n2-015",
-          "baseExpression": "かぎりでは",
-          "conjugatedExpression": "かぎりでは",
-          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '내가 현장을 확인한 바로는 건물에 큰 손상은 없었다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
       "sourceGrammarIds": [
         "n2-015",
         "n2-017",
@@ -315,237 +315,20 @@
         "n2-019"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra-n2-015-2",
+      "id": "fb-created-n2-015-02",
       "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlank": "ちょっと話した（　　　）、彼はいつもとまったくかわらないように思えた。",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
-      "answerChoiceId": "fb-extra-n2-015-2-a",
+      "sentence": "この契約書を読んだかぎりでは、途中解約に違約金は発生しない。",
+      "sentenceWithBlank": "この契約書を読んだ（　　　）、途中解約に違約金は発生しない。",
+      "korean": "이 계약서를 읽어 본 바로는 중도 해지에 위약금은 발생하지 않는다.",
+      "answerChoiceId": "fb-created-n2-015-02-d",
       "choices": [
         {
-          "id": "fb-extra-n2-015-2-b",
-          "text": "ものだ",
-          "grammarId": "n2-156",
-          "baseExpression": "ものだ",
-          "conjugatedExpression": "ものだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-015-2-c",
-          "text": "ものだ",
-          "grammarId": "n2-157",
-          "baseExpression": "ものだ",
-          "conjugatedExpression": "ものだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-015-2-d",
-          "text": "ものだ",
-          "grammarId": "n2-158",
-          "baseExpression": "ものだ/ものではない",
-          "conjugatedExpression": "ものだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-015-2-a",
-          "text": "かぎりでは",
-          "grammarId": "n2-015",
-          "baseExpression": "かぎりでは",
-          "conjugatedExpression": "かぎりでは",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
-      "sourceGrammarIds": [
-        "n2-015",
-        "n2-156",
-        "n2-157",
-        "n2-158"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-015-3",
-      "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlank": "ちょっと話した（　　　）、彼はいつもとまったくかわらないように思えた。",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
-      "answerChoiceId": "fb-extra-n2-015-3-b",
-      "choices": [
-        {
-          "id": "fb-extra-n2-015-3-c",
-          "text": "がち",
-          "grammarId": "n2-019",
-          "baseExpression": "がち",
-          "conjugatedExpression": "がち",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-015-3-d",
-          "text": "かと思うと",
-          "grammarId": "n2-020",
-          "baseExpression": "かと思うと",
-          "conjugatedExpression": "かと思うと",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-015-3-a",
-          "text": "かないかのうちに",
-          "grammarId": "n2-021",
-          "baseExpression": "かないかのうちに",
-          "conjugatedExpression": "かないかのうちに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-015-3-b",
-          "text": "かぎりでは",
-          "grammarId": "n2-015",
-          "baseExpression": "かぎりでは",
-          "conjugatedExpression": "かぎりでは",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
-      "sourceGrammarIds": [
-        "n2-015",
-        "n2-019",
-        "n2-020",
-        "n2-021"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-015-4",
-      "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlank": "ちょっと話した（　　　）、彼はいつもとまったくかわらないように思えた。",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
-      "answerChoiceId": "fb-extra-n2-015-4-c",
-      "choices": [
-        {
-          "id": "fb-extra-n2-015-4-d",
-          "text": "ものか",
-          "grammarId": "n2-154",
-          "baseExpression": "ものか",
-          "conjugatedExpression": "ものか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-015-4-a",
-          "text": "ものがある",
-          "grammarId": "n2-155",
-          "baseExpression": "ものがある",
-          "conjugatedExpression": "ものがある",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-015-4-b",
-          "text": "ものだ",
-          "grammarId": "n2-156",
-          "baseExpression": "ものだ",
-          "conjugatedExpression": "ものだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-015-4-c",
-          "text": "かぎりでは",
-          "grammarId": "n2-015",
-          "baseExpression": "かぎりでは",
-          "conjugatedExpression": "かぎりでは",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
-      "sourceGrammarIds": [
-        "n2-015",
-        "n2-154",
-        "n2-155",
-        "n2-156"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-015-5",
-      "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlank": "ちょっと話した（　　　）、彼はいつもとまったくかわらないように思えた。",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
-      "answerChoiceId": "fb-extra-n2-015-5-d",
-      "choices": [
-        {
-          "id": "fb-extra-n2-015-5-a",
-          "text": "かないかのうちに",
-          "grammarId": "n2-021",
-          "baseExpression": "かないかのうちに",
-          "conjugatedExpression": "かないかのうちに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-015-5-b",
-          "text": "かねない",
-          "grammarId": "n2-022",
-          "baseExpression": "かねない",
-          "conjugatedExpression": "かねない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-015-5-c",
-          "text": "かねる",
-          "grammarId": "n2-023",
-          "baseExpression": "かねる",
-          "conjugatedExpression": "かねる",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-015-5-d",
-          "text": "かぎりでは",
-          "grammarId": "n2-015",
-          "baseExpression": "かぎりでは",
-          "conjugatedExpression": "かぎりでは",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
-      "sourceGrammarIds": [
-        "n2-015",
-        "n2-021",
-        "n2-022",
-        "n2-023"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-015-01",
-      "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlank": "ちょっと話した（　　　）、彼はいつもとまったくかわらないように思えた。",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
-      "answerChoiceId": "fb-extra20-n2-015-01-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-015-01-a",
+          "id": "fb-created-n2-015-02-a",
           "text": "がたい",
           "grammarId": "n2-017",
           "baseExpression": "がたい",
@@ -553,7 +336,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-015-01-b",
+          "id": "fb-created-n2-015-02-b",
           "text": "がだけに",
           "grammarId": "n2-018",
           "baseExpression": "がだけに",
@@ -561,7 +344,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-015-01-c",
+          "id": "fb-created-n2-015-02-c",
           "text": "がち",
           "grammarId": "n2-019",
           "baseExpression": "がち",
@@ -569,7 +352,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-015-01-d",
+          "id": "fb-created-n2-015-02-d",
           "text": "かぎりでは",
           "grammarId": "n2-015",
           "baseExpression": "かぎりでは",
@@ -577,7 +360,7 @@
           "isSimilarDistractor": false
         }
       ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '이 계약서를 읽어 본 바로는 중도 해지에 위약금은 발생하지 않는다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
       "sourceGrammarIds": [
         "n2-015",
         "n2-017",
@@ -585,253 +368,20 @@
         "n2-019"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-015-02",
+      "id": "fb-created-n2-015-03",
       "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlank": "ちょっと話した（　　　）、彼はいつもとまったくかわらないように思えた。",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
-      "answerChoiceId": "fb-extra20-n2-015-02-a",
+      "sentence": "医師が検査結果を見たかぎりでは、緊急の手術は必要ないそうだ。",
+      "sentenceWithBlank": "医師が検査結果を見た（　　　）、緊急の手術は必要ないそうだ。",
+      "korean": "의사가 검사 결과를 본 바로는 긴급 수술은 필요하지 않다고 한다.",
+      "answerChoiceId": "fb-created-n2-015-03-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-015-02-d",
-          "text": "ものだ",
-          "grammarId": "n2-158",
-          "baseExpression": "ものだ/ものではない",
-          "conjugatedExpression": "ものだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-015-02-a",
-          "text": "かぎりでは",
-          "grammarId": "n2-015",
-          "baseExpression": "かぎりでは",
-          "conjugatedExpression": "かぎりでは",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-015-02-b",
-          "text": "ものだ",
-          "grammarId": "n2-156",
-          "baseExpression": "ものだ",
-          "conjugatedExpression": "ものだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-015-02-c",
-          "text": "ものだ",
-          "grammarId": "n2-157",
-          "baseExpression": "ものだ",
-          "conjugatedExpression": "ものだ",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
-      "sourceGrammarIds": [
-        "n2-015",
-        "n2-156",
-        "n2-157",
-        "n2-158"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-015-03",
-      "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlank": "ちょっと話した（　　　）、彼はいつもとまったくかわらないように思えた。",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
-      "answerChoiceId": "fb-extra20-n2-015-03-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-015-03-c",
-          "text": "がち",
-          "grammarId": "n2-019",
-          "baseExpression": "がち",
-          "conjugatedExpression": "がち",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-015-03-d",
-          "text": "かと思うと",
-          "grammarId": "n2-020",
-          "baseExpression": "かと思うと",
-          "conjugatedExpression": "かと思うと",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-015-03-a",
-          "text": "かないかのうちに",
-          "grammarId": "n2-021",
-          "baseExpression": "かないかのうちに",
-          "conjugatedExpression": "かないかのうちに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-015-03-b",
-          "text": "かぎりでは",
-          "grammarId": "n2-015",
-          "baseExpression": "かぎりでは",
-          "conjugatedExpression": "かぎりでは",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
-      "sourceGrammarIds": [
-        "n2-015",
-        "n2-019",
-        "n2-020",
-        "n2-021"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-015-04",
-      "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlank": "ちょっと話した（　　　）、彼はいつもとまったくかわらないように思えた。",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
-      "answerChoiceId": "fb-extra20-n2-015-04-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-015-04-b",
-          "text": "ものだ",
-          "grammarId": "n2-156",
-          "baseExpression": "ものだ",
-          "conjugatedExpression": "ものだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-015-04-c",
-          "text": "かぎりでは",
-          "grammarId": "n2-015",
-          "baseExpression": "かぎりでは",
-          "conjugatedExpression": "かぎりでは",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-015-04-d",
-          "text": "ものか",
-          "grammarId": "n2-154",
-          "baseExpression": "ものか",
-          "conjugatedExpression": "ものか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-015-04-a",
-          "text": "ものがある",
-          "grammarId": "n2-155",
-          "baseExpression": "ものがある",
-          "conjugatedExpression": "ものがある",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
-      "sourceGrammarIds": [
-        "n2-015",
-        "n2-154",
-        "n2-155",
-        "n2-156"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-015-05",
-      "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlank": "ちょっと話した（　　　）、彼はいつもとまったくかわらないように思えた。",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
-      "answerChoiceId": "fb-extra20-n2-015-05-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-015-05-a",
-          "text": "かないかのうちに",
-          "grammarId": "n2-021",
-          "baseExpression": "かないかのうちに",
-          "conjugatedExpression": "かないかのうちに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-015-05-b",
-          "text": "かねない",
-          "grammarId": "n2-022",
-          "baseExpression": "かねない",
-          "conjugatedExpression": "かねない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-015-05-c",
-          "text": "かねる",
-          "grammarId": "n2-023",
-          "baseExpression": "かねる",
-          "conjugatedExpression": "かねる",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-015-05-d",
-          "text": "かぎりでは",
-          "grammarId": "n2-015",
-          "baseExpression": "かぎりでは",
-          "conjugatedExpression": "かぎりでは",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
-      "sourceGrammarIds": [
-        "n2-015",
-        "n2-021",
-        "n2-022",
-        "n2-023"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-015-06",
-      "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlank": "ちょっと話した（　　　）、彼はいつもとまったくかわらないように思えた。",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
-      "answerChoiceId": "fb-extra20-n2-015-06-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-015-06-d",
-          "text": "かぎりでは",
-          "grammarId": "n2-015",
-          "baseExpression": "かぎりでは",
-          "conjugatedExpression": "かぎりでは",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-015-06-a",
-          "text": "がたい",
-          "grammarId": "n2-017",
-          "baseExpression": "がたい",
-          "conjugatedExpression": "がたい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-015-06-b",
+          "id": "fb-created-n2-015-03-b",
           "text": "がだけに",
           "grammarId": "n2-018",
           "baseExpression": "がだけに",
@@ -839,99 +389,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-015-06-c",
-          "text": "がち",
-          "grammarId": "n2-019",
-          "baseExpression": "がち",
-          "conjugatedExpression": "がち",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
-      "sourceGrammarIds": [
-        "n2-015",
-        "n2-017",
-        "n2-018",
-        "n2-019"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-015-07",
-      "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlank": "ちょっと話した（　　　）、彼はいつもとまったくかわらないように思えた。",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
-      "answerChoiceId": "fb-extra20-n2-015-07-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-015-07-c",
-          "text": "ものだ",
-          "grammarId": "n2-157",
-          "baseExpression": "ものだ",
-          "conjugatedExpression": "ものだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-015-07-d",
-          "text": "ものだ",
-          "grammarId": "n2-158",
-          "baseExpression": "ものだ/ものではない",
-          "conjugatedExpression": "ものだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-015-07-a",
-          "text": "かぎりでは",
-          "grammarId": "n2-015",
-          "baseExpression": "かぎりでは",
-          "conjugatedExpression": "かぎりでは",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-015-07-b",
-          "text": "ものだ",
-          "grammarId": "n2-156",
-          "baseExpression": "ものだ",
-          "conjugatedExpression": "ものだ",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
-      "sourceGrammarIds": [
-        "n2-015",
-        "n2-156",
-        "n2-157",
-        "n2-158"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-015-08",
-      "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlank": "ちょっと話した（　　　）、彼はいつもとまったくかわらないように思えた。",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
-      "answerChoiceId": "fb-extra20-n2-015-08-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-015-08-b",
-          "text": "かぎりでは",
-          "grammarId": "n2-015",
-          "baseExpression": "かぎりでは",
-          "conjugatedExpression": "かぎりでは",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-015-08-c",
+          "id": "fb-created-n2-015-03-c",
           "text": "がち",
           "grammarId": "n2-019",
           "baseExpression": "がち",
@@ -939,61 +397,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-015-08-d",
-          "text": "かと思うと",
-          "grammarId": "n2-020",
-          "baseExpression": "かと思うと",
-          "conjugatedExpression": "かと思うと",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-015-08-a",
-          "text": "かないかのうちに",
-          "grammarId": "n2-021",
-          "baseExpression": "かないかのうちに",
-          "conjugatedExpression": "かないかのうちに",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
-      "sourceGrammarIds": [
-        "n2-015",
-        "n2-019",
-        "n2-020",
-        "n2-021"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-015-09",
-      "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlank": "ちょっと話した（　　　）、彼はいつもとまったくかわらないように思えた。",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
-      "answerChoiceId": "fb-extra20-n2-015-09-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-015-09-a",
-          "text": "ものがある",
-          "grammarId": "n2-155",
-          "baseExpression": "ものがある",
-          "conjugatedExpression": "ものがある",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-015-09-b",
-          "text": "ものだ",
-          "grammarId": "n2-156",
-          "baseExpression": "ものだ",
-          "conjugatedExpression": "ものだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-015-09-c",
+          "id": "fb-created-n2-015-03-d",
           "text": "かぎりでは",
           "grammarId": "n2-015",
           "baseExpression": "かぎりでは",
@@ -1001,385 +405,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-015-09-d",
-          "text": "ものか",
-          "grammarId": "n2-154",
-          "baseExpression": "ものか",
-          "conjugatedExpression": "ものか",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
-      "sourceGrammarIds": [
-        "n2-015",
-        "n2-154",
-        "n2-155",
-        "n2-156"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-015-10",
-      "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlank": "ちょっと話した（　　　）、彼はいつもとまったくかわらないように思えた。",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
-      "answerChoiceId": "fb-extra20-n2-015-10-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-015-10-d",
-          "text": "かぎりでは",
-          "grammarId": "n2-015",
-          "baseExpression": "かぎりでは",
-          "conjugatedExpression": "かぎりでは",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-015-10-a",
-          "text": "かないかのうちに",
-          "grammarId": "n2-021",
-          "baseExpression": "かないかのうちに",
-          "conjugatedExpression": "かないかのうちに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-015-10-b",
-          "text": "かねない",
-          "grammarId": "n2-022",
-          "baseExpression": "かねない",
-          "conjugatedExpression": "かねない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-015-10-c",
-          "text": "かねる",
-          "grammarId": "n2-023",
-          "baseExpression": "かねる",
-          "conjugatedExpression": "かねる",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
-      "sourceGrammarIds": [
-        "n2-015",
-        "n2-021",
-        "n2-022",
-        "n2-023"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-015-11",
-      "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlank": "ちょっと話した（　　　）、彼はいつもとまったくかわらないように思えた。",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
-      "answerChoiceId": "fb-extra20-n2-015-11-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-015-11-c",
-          "text": "がち",
-          "grammarId": "n2-019",
-          "baseExpression": "がち",
-          "conjugatedExpression": "がち",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-015-11-d",
-          "text": "かぎりでは",
-          "grammarId": "n2-015",
-          "baseExpression": "かぎりでは",
-          "conjugatedExpression": "かぎりでは",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-015-11-a",
-          "text": "がたい",
-          "grammarId": "n2-017",
-          "baseExpression": "がたい",
-          "conjugatedExpression": "がたい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-015-11-b",
-          "text": "がだけに",
-          "grammarId": "n2-018",
-          "baseExpression": "がだけに",
-          "conjugatedExpression": "がだけに",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
-      "sourceGrammarIds": [
-        "n2-015",
-        "n2-017",
-        "n2-018",
-        "n2-019"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-015-12",
-      "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlank": "ちょっと話した（　　　）、彼はいつもとまったくかわらないように思えた。",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
-      "answerChoiceId": "fb-extra20-n2-015-12-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-015-12-b",
-          "text": "ものだ",
-          "grammarId": "n2-156",
-          "baseExpression": "ものだ",
-          "conjugatedExpression": "ものだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-015-12-c",
-          "text": "ものだ",
-          "grammarId": "n2-157",
-          "baseExpression": "ものだ",
-          "conjugatedExpression": "ものだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-015-12-d",
-          "text": "ものだ",
-          "grammarId": "n2-158",
-          "baseExpression": "ものだ/ものではない",
-          "conjugatedExpression": "ものだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-015-12-a",
-          "text": "かぎりでは",
-          "grammarId": "n2-015",
-          "baseExpression": "かぎりでは",
-          "conjugatedExpression": "かぎりでは",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
-      "sourceGrammarIds": [
-        "n2-015",
-        "n2-156",
-        "n2-157",
-        "n2-158"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-015-13",
-      "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlank": "ちょっと話した（　　　）、彼はいつもとまったくかわらないように思えた。",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
-      "answerChoiceId": "fb-extra20-n2-015-13-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-015-13-a",
-          "text": "かないかのうちに",
-          "grammarId": "n2-021",
-          "baseExpression": "かないかのうちに",
-          "conjugatedExpression": "かないかのうちに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-015-13-b",
-          "text": "かぎりでは",
-          "grammarId": "n2-015",
-          "baseExpression": "かぎりでは",
-          "conjugatedExpression": "かぎりでは",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-015-13-c",
-          "text": "がち",
-          "grammarId": "n2-019",
-          "baseExpression": "がち",
-          "conjugatedExpression": "がち",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-015-13-d",
-          "text": "かと思うと",
-          "grammarId": "n2-020",
-          "baseExpression": "かと思うと",
-          "conjugatedExpression": "かと思うと",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
-      "sourceGrammarIds": [
-        "n2-015",
-        "n2-019",
-        "n2-020",
-        "n2-021"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-015-14",
-      "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlank": "ちょっと話した（　　　）、彼はいつもとまったくかわらないように思えた。",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
-      "answerChoiceId": "fb-extra20-n2-015-14-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-015-14-d",
-          "text": "ものか",
-          "grammarId": "n2-154",
-          "baseExpression": "ものか",
-          "conjugatedExpression": "ものか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-015-14-a",
-          "text": "ものがある",
-          "grammarId": "n2-155",
-          "baseExpression": "ものがある",
-          "conjugatedExpression": "ものがある",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-015-14-b",
-          "text": "ものだ",
-          "grammarId": "n2-156",
-          "baseExpression": "ものだ",
-          "conjugatedExpression": "ものだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-015-14-c",
-          "text": "かぎりでは",
-          "grammarId": "n2-015",
-          "baseExpression": "かぎりでは",
-          "conjugatedExpression": "かぎりでは",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
-      "sourceGrammarIds": [
-        "n2-015",
-        "n2-154",
-        "n2-155",
-        "n2-156"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-015-15",
-      "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlank": "ちょっと話した（　　　）、彼はいつもとまったくかわらないように思えた。",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
-      "answerChoiceId": "fb-extra20-n2-015-15-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-015-15-c",
-          "text": "かねる",
-          "grammarId": "n2-023",
-          "baseExpression": "かねる",
-          "conjugatedExpression": "かねる",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-015-15-d",
-          "text": "かぎりでは",
-          "grammarId": "n2-015",
-          "baseExpression": "かぎりでは",
-          "conjugatedExpression": "かぎりでは",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-015-15-a",
-          "text": "かないかのうちに",
-          "grammarId": "n2-021",
-          "baseExpression": "かないかのうちに",
-          "conjugatedExpression": "かないかのうちに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-015-15-b",
-          "text": "かねない",
-          "grammarId": "n2-022",
-          "baseExpression": "かねない",
-          "conjugatedExpression": "かねない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
-      "sourceGrammarIds": [
-        "n2-015",
-        "n2-021",
-        "n2-022",
-        "n2-023"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-015-16",
-      "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlank": "ちょっと話した（　　　）、彼はいつもとまったくかわらないように思えた。",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
-      "answerChoiceId": "fb-extra20-n2-015-16-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-015-16-b",
-          "text": "がだけに",
-          "grammarId": "n2-018",
-          "baseExpression": "がだけに",
-          "conjugatedExpression": "がだけに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-015-16-c",
-          "text": "がち",
-          "grammarId": "n2-019",
-          "baseExpression": "がち",
-          "conjugatedExpression": "がち",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-015-16-d",
-          "text": "かぎりでは",
-          "grammarId": "n2-015",
-          "baseExpression": "かぎりでは",
-          "conjugatedExpression": "かぎりでは",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-015-16-a",
+          "id": "fb-created-n2-015-03-a",
           "text": "がたい",
           "grammarId": "n2-017",
           "baseExpression": "がたい",
@@ -1387,7 +413,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '의사가 검사 결과를 본 바로는 긴급 수술은 필요하지 않다고 한다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
       "sourceGrammarIds": [
         "n2-015",
         "n2-017",
@@ -1395,21 +421,28 @@
         "n2-019"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-015-17",
+      "id": "fb-created-n2-015-04",
       "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlank": "ちょっと話した（　　　）、彼はいつもとまったくかわらないように思えた。",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
-      "answerChoiceId": "fb-extra20-n2-015-17-a",
+      "sentence": "私が市場を調べたかぎりでは、この部品を国内で扱う会社は三社しかない。",
+      "sentenceWithBlank": "私が市場を調べた（　　　）、この部品を国内で扱う会社は三社しかない。",
+      "korean": "내가 시장을 조사한 바로는 이 부품을 국내에서 취급하는 회사는 세 곳뿐이다.",
+      "answerChoiceId": "fb-created-n2-015-04-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-015-17-a",
+          "id": "fb-created-n2-015-04-c",
+          "text": "がち",
+          "grammarId": "n2-019",
+          "baseExpression": "がち",
+          "conjugatedExpression": "がち",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-04-d",
           "text": "かぎりでは",
           "grammarId": "n2-015",
           "baseExpression": "かぎりでは",
@@ -1417,69 +450,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-015-17-b",
-          "text": "ものだ",
-          "grammarId": "n2-156",
-          "baseExpression": "ものだ",
-          "conjugatedExpression": "ものだ",
+          "id": "fb-created-n2-015-04-a",
+          "text": "がたい",
+          "grammarId": "n2-017",
+          "baseExpression": "がたい",
+          "conjugatedExpression": "がたい",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-015-17-c",
-          "text": "ものだ",
-          "grammarId": "n2-157",
-          "baseExpression": "ものだ",
-          "conjugatedExpression": "ものだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-015-17-d",
-          "text": "ものだ",
-          "grammarId": "n2-158",
-          "baseExpression": "ものだ/ものではない",
-          "conjugatedExpression": "ものだ",
+          "id": "fb-created-n2-015-04-b",
+          "text": "がだけに",
+          "grammarId": "n2-018",
+          "baseExpression": "がだけに",
+          "conjugatedExpression": "がだけに",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '내가 시장을 조사한 바로는 이 부품을 국내에서 취급하는 회사는 세 곳뿐이다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
       "sourceGrammarIds": [
         "n2-015",
-        "n2-156",
-        "n2-157",
-        "n2-158"
+        "n2-017",
+        "n2-018",
+        "n2-019"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-015-18",
+      "id": "fb-created-n2-015-05",
       "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlank": "ちょっと話した（　　　）、彼はいつもとまったくかわらないように思えた。",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
-      "answerChoiceId": "fb-extra20-n2-015-18-b",
+      "sentence": "昨夜ここから空を眺めたかぎりでは、流星は一つも見えなかった。",
+      "sentenceWithBlank": "昨夜ここから空を眺めた（　　　）、流星は一つも見えなかった。",
+      "korean": "어젯밤 여기서 하늘을 바라본 바로는 유성은 하나도 보이지 않았다.",
+      "answerChoiceId": "fb-created-n2-015-05-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-015-18-d",
-          "text": "かと思うと",
-          "grammarId": "n2-020",
-          "baseExpression": "かと思うと",
-          "conjugatedExpression": "かと思うと",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-015-18-a",
-          "text": "かないかのうちに",
-          "grammarId": "n2-021",
-          "baseExpression": "かないかのうちに",
-          "conjugatedExpression": "かないかのうちに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-015-18-b",
+          "id": "fb-created-n2-015-05-d",
           "text": "かぎりでは",
           "grammarId": "n2-015",
           "baseExpression": "かぎりでは",
@@ -1487,7 +495,23 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-015-18-c",
+          "id": "fb-created-n2-015-05-a",
+          "text": "がたい",
+          "grammarId": "n2-017",
+          "baseExpression": "がたい",
+          "conjugatedExpression": "がたい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-05-b",
+          "text": "がだけに",
+          "grammarId": "n2-018",
+          "baseExpression": "がだけに",
+          "conjugatedExpression": "がだけに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-05-c",
           "text": "がち",
           "grammarId": "n2-019",
           "baseExpression": "がち",
@@ -1495,29 +519,97 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '어젯밤 여기서 하늘을 바라본 바로는 유성은 하나도 보이지 않았다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
       "sourceGrammarIds": [
         "n2-015",
-        "n2-019",
-        "n2-020",
-        "n2-021"
+        "n2-017",
+        "n2-018",
+        "n2-019"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-015-19",
+      "id": "fb-created-n2-015-06",
       "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlank": "ちょっと話した（　　　）、彼はいつもとまったくかわらないように思えた。",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
-      "answerChoiceId": "fb-extra20-n2-015-19-c",
+      "sentence": "私が試乗したかぎりでは、この車は急な坂でも力不足を感じない。",
+      "sentenceWithBlank": "私が試乗した（　　　）、この車は急な坂でも力不足を感じない。",
+      "korean": "내가 시승해 본 바로는 이 차는 가파른 언덕에서도 힘이 부족하다는 느낌이 들지 않는다.",
+      "answerChoiceId": "fb-created-n2-015-06-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-015-19-c",
+          "id": "fb-created-n2-015-06-a",
+          "text": "がたい",
+          "grammarId": "n2-017",
+          "baseExpression": "がたい",
+          "conjugatedExpression": "がたい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-06-b",
+          "text": "がだけに",
+          "grammarId": "n2-018",
+          "baseExpression": "がだけに",
+          "conjugatedExpression": "がだけに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-06-c",
+          "text": "がち",
+          "grammarId": "n2-019",
+          "baseExpression": "がち",
+          "conjugatedExpression": "がち",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-06-d",
+          "text": "かぎりでは",
+          "grammarId": "n2-015",
+          "baseExpression": "かぎりでは",
+          "conjugatedExpression": "かぎりでは",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '내가 시승해 본 바로는 이 차는 가파른 언덕에서도 힘이 부족하다는 느낌이 들지 않는다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
+      "sourceGrammarIds": [
+        "n2-015",
+        "n2-017",
+        "n2-018",
+        "n2-019"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-015-07",
+      "level": "N2",
+      "sentence": "港の水質を測定したかぎりでは、有害物質の濃度は基準値以下だった。",
+      "sentenceWithBlank": "港の水質を測定した（　　　）、有害物質の濃度は基準値以下だった。",
+      "korean": "항구의 수질을 측정한 바로는 유해 물질의 농도는 기준치 이하였다.",
+      "answerChoiceId": "fb-created-n2-015-07-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-015-07-b",
+          "text": "がだけに",
+          "grammarId": "n2-018",
+          "baseExpression": "がだけに",
+          "conjugatedExpression": "がだけに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-07-c",
+          "text": "がち",
+          "grammarId": "n2-019",
+          "baseExpression": "がち",
+          "conjugatedExpression": "がち",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-07-d",
           "text": "かぎりでは",
           "grammarId": "n2-015",
           "baseExpression": "かぎりでは",
@@ -1525,69 +617,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-015-19-d",
-          "text": "ものか",
-          "grammarId": "n2-154",
-          "baseExpression": "ものか",
-          "conjugatedExpression": "ものか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-015-19-a",
-          "text": "ものがある",
-          "grammarId": "n2-155",
-          "baseExpression": "ものがある",
-          "conjugatedExpression": "ものがある",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-015-19-b",
-          "text": "ものだ",
-          "grammarId": "n2-156",
-          "baseExpression": "ものだ",
-          "conjugatedExpression": "ものだ",
+          "id": "fb-created-n2-015-07-a",
+          "text": "がたい",
+          "grammarId": "n2-017",
+          "baseExpression": "がたい",
+          "conjugatedExpression": "がたい",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '항구의 수질을 측정한 바로는 유해 물질의 농도는 기준치 이하였다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
       "sourceGrammarIds": [
         "n2-015",
-        "n2-154",
-        "n2-155",
-        "n2-156"
+        "n2-017",
+        "n2-018",
+        "n2-019"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-015-20",
+      "id": "fb-created-n2-015-08",
       "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlank": "ちょっと話した（　　　）、彼はいつもとまったくかわらないように思えた。",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
-      "answerChoiceId": "fb-extra20-n2-015-20-d",
+      "sentence": "私が防犯映像を確認したかぎりでは、店員に不審な行動は見られない。",
+      "sentenceWithBlank": "私が防犯映像を確認した（　　　）、店員に不審な行動は見られない。",
+      "korean": "내가 방범 영상을 확인한 바로는 점원에게 수상한 행동은 보이지 않는다.",
+      "answerChoiceId": "fb-created-n2-015-08-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-015-20-b",
-          "text": "かねない",
-          "grammarId": "n2-022",
-          "baseExpression": "かねない",
-          "conjugatedExpression": "かねない",
+          "id": "fb-created-n2-015-08-c",
+          "text": "がち",
+          "grammarId": "n2-019",
+          "baseExpression": "がち",
+          "conjugatedExpression": "がち",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-015-20-c",
-          "text": "かねる",
-          "grammarId": "n2-023",
-          "baseExpression": "かねる",
-          "conjugatedExpression": "かねる",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-015-20-d",
+          "id": "fb-created-n2-015-08-d",
           "text": "かぎりでは",
           "grammarId": "n2-015",
           "baseExpression": "かぎりでは",
@@ -1595,25 +662,933 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-015-20-a",
-          "text": "かないかのうちに",
-          "grammarId": "n2-021",
-          "baseExpression": "かないかのうちに",
-          "conjugatedExpression": "かないかのうちに",
+          "id": "fb-created-n2-015-08-a",
+          "text": "がたい",
+          "grammarId": "n2-017",
+          "baseExpression": "がたい",
+          "conjugatedExpression": "がたい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-08-b",
+          "text": "がだけに",
+          "grammarId": "n2-018",
+          "baseExpression": "がだけに",
+          "conjugatedExpression": "がだけに",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '내가 방범 영상을 확인한 바로는 점원에게 수상한 행동은 보이지 않는다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
       "sourceGrammarIds": [
         "n2-015",
-        "n2-021",
-        "n2-022",
-        "n2-023"
+        "n2-017",
+        "n2-018",
+        "n2-019"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-015-09",
+      "level": "N2",
+      "sentence": "祖父の記憶をたどったかぎりでは、この橋は戦後すぐに造られたらしい。",
+      "sentenceWithBlank": "祖父の記憶をたどった（　　　）、この橋は戦後すぐに造られたらしい。",
+      "korean": "할아버지가 기억을 더듬어 본 바로는 이 다리는 전쟁 직후에 지어진 듯하다.",
+      "answerChoiceId": "fb-created-n2-015-09-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-015-09-d",
+          "text": "かぎりでは",
+          "grammarId": "n2-015",
+          "baseExpression": "かぎりでは",
+          "conjugatedExpression": "かぎりでは",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-015-09-a",
+          "text": "がたい",
+          "grammarId": "n2-017",
+          "baseExpression": "がたい",
+          "conjugatedExpression": "がたい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-09-b",
+          "text": "がだけに",
+          "grammarId": "n2-018",
+          "baseExpression": "がだけに",
+          "conjugatedExpression": "がだけに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-09-c",
+          "text": "がち",
+          "grammarId": "n2-019",
+          "baseExpression": "がち",
+          "conjugatedExpression": "がち",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '할아버지가 기억을 더듬어 본 바로는 이 다리는 전쟁 직후에 지어진 듯하다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
+      "sourceGrammarIds": [
+        "n2-015",
+        "n2-017",
+        "n2-018",
+        "n2-019"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-015-10",
+      "level": "N2",
+      "sentence": "私が味見したかぎりでは、このスープに塩を足す必要はない。",
+      "sentenceWithBlank": "私が味見した（　　　）、このスープに塩を足す必要はない。",
+      "korean": "내가 맛을 본 바로는 이 수프에 소금을 더 넣을 필요는 없다.",
+      "answerChoiceId": "fb-created-n2-015-10-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-015-10-a",
+          "text": "がたい",
+          "grammarId": "n2-017",
+          "baseExpression": "がたい",
+          "conjugatedExpression": "がたい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-10-b",
+          "text": "がだけに",
+          "grammarId": "n2-018",
+          "baseExpression": "がだけに",
+          "conjugatedExpression": "がだけに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-10-c",
+          "text": "がち",
+          "grammarId": "n2-019",
+          "baseExpression": "がち",
+          "conjugatedExpression": "がち",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-10-d",
+          "text": "かぎりでは",
+          "grammarId": "n2-015",
+          "baseExpression": "かぎりでは",
+          "conjugatedExpression": "かぎりでは",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '내가 맛을 본 바로는 이 수프에 소금을 더 넣을 필요는 없다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
+      "sourceGrammarIds": [
+        "n2-015",
+        "n2-017",
+        "n2-018",
+        "n2-019"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-015-11",
+      "level": "N2",
+      "sentence": "農家が畑を見回ったかぎりでは、霜による被害は北側だけに限られている。",
+      "sentenceWithBlank": "農家が畑を見回った（　　　）、霜による被害は北側だけに限られている。",
+      "korean": "농부가 밭을 둘러본 바로는 서리 피해는 북쪽에만 한정되어 있다.",
+      "answerChoiceId": "fb-created-n2-015-11-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-015-11-b",
+          "text": "がだけに",
+          "grammarId": "n2-018",
+          "baseExpression": "がだけに",
+          "conjugatedExpression": "がだけに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-11-c",
+          "text": "がち",
+          "grammarId": "n2-019",
+          "baseExpression": "がち",
+          "conjugatedExpression": "がち",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-11-d",
+          "text": "かぎりでは",
+          "grammarId": "n2-015",
+          "baseExpression": "かぎりでは",
+          "conjugatedExpression": "かぎりでは",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-015-11-a",
+          "text": "がたい",
+          "grammarId": "n2-017",
+          "baseExpression": "がたい",
+          "conjugatedExpression": "がたい",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '농부가 밭을 둘러본 바로는 서리 피해는 북쪽에만 한정되어 있다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
+      "sourceGrammarIds": [
+        "n2-015",
+        "n2-017",
+        "n2-018",
+        "n2-019"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-015-12",
+      "level": "N2",
+      "sentence": "私が各部署の予定を確かめたかぎりでは、金曜の午後なら全員が参加できる。",
+      "sentenceWithBlank": "私が各部署の予定を確かめた（　　　）、金曜の午後なら全員が参加できる。",
+      "korean": "내가 각 부서의 일정을 확인한 바로는 금요일 오후라면 전원이 참석할 수 있다.",
+      "answerChoiceId": "fb-created-n2-015-12-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-015-12-c",
+          "text": "がち",
+          "grammarId": "n2-019",
+          "baseExpression": "がち",
+          "conjugatedExpression": "がち",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-12-d",
+          "text": "かぎりでは",
+          "grammarId": "n2-015",
+          "baseExpression": "かぎりでは",
+          "conjugatedExpression": "かぎりでは",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-015-12-a",
+          "text": "がたい",
+          "grammarId": "n2-017",
+          "baseExpression": "がたい",
+          "conjugatedExpression": "がたい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-12-b",
+          "text": "がだけに",
+          "grammarId": "n2-018",
+          "baseExpression": "がだけに",
+          "conjugatedExpression": "がだけに",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '내가 각 부서의 일정을 확인한 바로는 금요일 오후라면 전원이 참석할 수 있다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
+      "sourceGrammarIds": [
+        "n2-015",
+        "n2-017",
+        "n2-018",
+        "n2-019"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-015-13",
+      "level": "N2",
+      "sentence": "整備士がエンジン音を聞いたかぎりでは、異常の原因はベルトではなさそうだ。",
+      "sentenceWithBlank": "整備士がエンジン音を聞いた（　　　）、異常の原因はベルトではなさそうだ。",
+      "korean": "정비사가 엔진 소리를 들어 본 바로는 이상의 원인은 벨트가 아닌 듯하다.",
+      "answerChoiceId": "fb-created-n2-015-13-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-015-13-d",
+          "text": "かぎりでは",
+          "grammarId": "n2-015",
+          "baseExpression": "かぎりでは",
+          "conjugatedExpression": "かぎりでは",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-015-13-a",
+          "text": "がたい",
+          "grammarId": "n2-017",
+          "baseExpression": "がたい",
+          "conjugatedExpression": "がたい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-13-b",
+          "text": "がだけに",
+          "grammarId": "n2-018",
+          "baseExpression": "がだけに",
+          "conjugatedExpression": "がだけに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-13-c",
+          "text": "がち",
+          "grammarId": "n2-019",
+          "baseExpression": "がち",
+          "conjugatedExpression": "がち",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '정비사가 엔진 소리를 들어 본 바로는 이상의 원인은 벨트가 아닌 듯하다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
+      "sourceGrammarIds": [
+        "n2-015",
+        "n2-017",
+        "n2-018",
+        "n2-019"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-015-14",
+      "level": "N2",
+      "sentence": "私が周辺を歩いたかぎりでは、駅まで車椅子で通れる道は一本だけだった。",
+      "sentenceWithBlank": "私が周辺を歩いた（　　　）、駅まで車椅子で通れる道は一本だけだった。",
+      "korean": "내가 주변을 걸어 본 바로는 역까지 휠체어로 갈 수 있는 길은 하나뿐이었다.",
+      "answerChoiceId": "fb-created-n2-015-14-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-015-14-a",
+          "text": "がたい",
+          "grammarId": "n2-017",
+          "baseExpression": "がたい",
+          "conjugatedExpression": "がたい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-14-b",
+          "text": "がだけに",
+          "grammarId": "n2-018",
+          "baseExpression": "がだけに",
+          "conjugatedExpression": "がだけに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-14-c",
+          "text": "がち",
+          "grammarId": "n2-019",
+          "baseExpression": "がち",
+          "conjugatedExpression": "がち",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-14-d",
+          "text": "かぎりでは",
+          "grammarId": "n2-015",
+          "baseExpression": "かぎりでは",
+          "conjugatedExpression": "かぎりでは",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '내가 주변을 걸어 본 바로는 역까지 휠체어로 갈 수 있는 길은 하나뿐이었다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
+      "sourceGrammarIds": [
+        "n2-015",
+        "n2-017",
+        "n2-018",
+        "n2-019"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-015-15",
+      "level": "N2",
+      "sentence": "飼育員が今朝観察したかぎりでは、子熊の食欲は回復している。",
+      "sentenceWithBlank": "飼育員が今朝観察した（　　　）、子熊の食欲は回復している。",
+      "korean": "사육사가 오늘 아침 관찰한 바로는 새끼 곰의 식욕은 회복되고 있다.",
+      "answerChoiceId": "fb-created-n2-015-15-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-015-15-b",
+          "text": "がだけに",
+          "grammarId": "n2-018",
+          "baseExpression": "がだけに",
+          "conjugatedExpression": "がだけに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-15-c",
+          "text": "がち",
+          "grammarId": "n2-019",
+          "baseExpression": "がち",
+          "conjugatedExpression": "がち",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-15-d",
+          "text": "かぎりでは",
+          "grammarId": "n2-015",
+          "baseExpression": "かぎりでは",
+          "conjugatedExpression": "かぎりでは",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-015-15-a",
+          "text": "がたい",
+          "grammarId": "n2-017",
+          "baseExpression": "がたい",
+          "conjugatedExpression": "がたい",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '사육사가 오늘 아침 관찰한 바로는 새끼 곰의 식욕은 회복되고 있다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
+      "sourceGrammarIds": [
+        "n2-015",
+        "n2-017",
+        "n2-018",
+        "n2-019"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-015-16",
+      "level": "N2",
+      "sentence": "私が過去の売上を比較したかぎりでは、雨の日には温かい飲み物がよく売れる。",
+      "sentenceWithBlank": "私が過去の売上を比較した（　　　）、雨の日には温かい飲み物がよく売れる。",
+      "korean": "내가 과거 매출을 비교한 바로는 비 오는 날에는 따뜻한 음료가 잘 팔린다.",
+      "answerChoiceId": "fb-created-n2-015-16-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-015-16-c",
+          "text": "がち",
+          "grammarId": "n2-019",
+          "baseExpression": "がち",
+          "conjugatedExpression": "がち",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-16-d",
+          "text": "かぎりでは",
+          "grammarId": "n2-015",
+          "baseExpression": "かぎりでは",
+          "conjugatedExpression": "かぎりでは",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-015-16-a",
+          "text": "がたい",
+          "grammarId": "n2-017",
+          "baseExpression": "がたい",
+          "conjugatedExpression": "がたい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-16-b",
+          "text": "がだけに",
+          "grammarId": "n2-018",
+          "baseExpression": "がだけに",
+          "conjugatedExpression": "がだけに",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '내가 과거 매출을 비교한 바로는 비 오는 날에는 따뜻한 음료가 잘 팔린다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
+      "sourceGrammarIds": [
+        "n2-015",
+        "n2-017",
+        "n2-018",
+        "n2-019"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-015-17",
+      "level": "N2",
+      "sentence": "消防士が屋根裏を調べたかぎりでは、火元は台所ではないと考えられる。",
+      "sentenceWithBlank": "消防士が屋根裏を調べた（　　　）、火元は台所ではないと考えられる。",
+      "korean": "소방관이 다락을 조사한 바로는 발화 지점은 부엌이 아니라고 볼 수 있다.",
+      "answerChoiceId": "fb-created-n2-015-17-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-015-17-d",
+          "text": "かぎりでは",
+          "grammarId": "n2-015",
+          "baseExpression": "かぎりでは",
+          "conjugatedExpression": "かぎりでは",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-015-17-a",
+          "text": "がたい",
+          "grammarId": "n2-017",
+          "baseExpression": "がたい",
+          "conjugatedExpression": "がたい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-17-b",
+          "text": "がだけに",
+          "grammarId": "n2-018",
+          "baseExpression": "がだけに",
+          "conjugatedExpression": "がだけに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-17-c",
+          "text": "がち",
+          "grammarId": "n2-019",
+          "baseExpression": "がち",
+          "conjugatedExpression": "がち",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '소방관이 다락을 조사한 바로는 발화 지점은 부엌이 아니라고 볼 수 있다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
+      "sourceGrammarIds": [
+        "n2-015",
+        "n2-017",
+        "n2-018",
+        "n2-019"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-015-18",
+      "level": "N2",
+      "sentence": "私が二つの案を比べたかぎりでは、後者のほうが維持費を抑えられる。",
+      "sentenceWithBlank": "私が二つの案を比べた（　　　）、後者のほうが維持費を抑えられる。",
+      "korean": "내가 두 방안을 비교한 바로는 후자가 유지비를 줄일 수 있다.",
+      "answerChoiceId": "fb-created-n2-015-18-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-015-18-a",
+          "text": "がたい",
+          "grammarId": "n2-017",
+          "baseExpression": "がたい",
+          "conjugatedExpression": "がたい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-18-b",
+          "text": "がだけに",
+          "grammarId": "n2-018",
+          "baseExpression": "がだけに",
+          "conjugatedExpression": "がだけに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-18-c",
+          "text": "がち",
+          "grammarId": "n2-019",
+          "baseExpression": "がち",
+          "conjugatedExpression": "がち",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-18-d",
+          "text": "かぎりでは",
+          "grammarId": "n2-015",
+          "baseExpression": "かぎりでは",
+          "conjugatedExpression": "かぎりでは",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '내가 두 방안을 비교한 바로는 후자가 유지비를 줄일 수 있다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
+      "sourceGrammarIds": [
+        "n2-015",
+        "n2-017",
+        "n2-018",
+        "n2-019"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-015-19",
+      "level": "N2",
+      "sentence": "職人が表面に触れたかぎりでは、この器はまだ十分に乾いていない。",
+      "sentenceWithBlank": "職人が表面に触れた（　　　）、この器はまだ十分に乾いていない。",
+      "korean": "장인이 표면을 만져 본 바로는 이 그릇은 아직 충분히 마르지 않았다.",
+      "answerChoiceId": "fb-created-n2-015-19-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-015-19-b",
+          "text": "がだけに",
+          "grammarId": "n2-018",
+          "baseExpression": "がだけに",
+          "conjugatedExpression": "がだけに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-19-c",
+          "text": "がち",
+          "grammarId": "n2-019",
+          "baseExpression": "がち",
+          "conjugatedExpression": "がち",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-19-d",
+          "text": "かぎりでは",
+          "grammarId": "n2-015",
+          "baseExpression": "かぎりでは",
+          "conjugatedExpression": "かぎりでは",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-015-19-a",
+          "text": "がたい",
+          "grammarId": "n2-017",
+          "baseExpression": "がたい",
+          "conjugatedExpression": "がたい",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '장인이 표면을 만져 본 바로는 이 그릇은 아직 충분히 마르지 않았다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
+      "sourceGrammarIds": [
+        "n2-015",
+        "n2-017",
+        "n2-018",
+        "n2-019"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-015-20",
+      "level": "N2",
+      "sentence": "私が家系図をたどったかぎりでは、海外へ移住した親族はいない。",
+      "sentenceWithBlank": "私が家系図をたどった（　　　）、海外へ移住した親族はいない。",
+      "korean": "내가 가계도를 살펴본 바로는 해외로 이주한 친척은 없다.",
+      "answerChoiceId": "fb-created-n2-015-20-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-015-20-c",
+          "text": "がち",
+          "grammarId": "n2-019",
+          "baseExpression": "がち",
+          "conjugatedExpression": "がち",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-20-d",
+          "text": "かぎりでは",
+          "grammarId": "n2-015",
+          "baseExpression": "かぎりでは",
+          "conjugatedExpression": "かぎりでは",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-015-20-a",
+          "text": "がたい",
+          "grammarId": "n2-017",
+          "baseExpression": "がたい",
+          "conjugatedExpression": "がたい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-20-b",
+          "text": "がだけに",
+          "grammarId": "n2-018",
+          "baseExpression": "がだけに",
+          "conjugatedExpression": "がだけに",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '내가 가계도를 살펴본 바로는 해외로 이주한 친척은 없다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
+      "sourceGrammarIds": [
+        "n2-015",
+        "n2-017",
+        "n2-018",
+        "n2-019"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-015-21",
+      "level": "N2",
+      "sentence": "潜水士が船底を撮影したかぎりでは、燃料が漏れた形跡は確認できなかった。",
+      "sentenceWithBlank": "潜水士が船底を撮影した（　　　）、燃料が漏れた形跡は確認できなかった。",
+      "korean": "잠수사가 선저를 촬영한 바로는 연료가 유출된 흔적은 확인할 수 없었다.",
+      "answerChoiceId": "fb-created-n2-015-21-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-015-21-d",
+          "text": "かぎりでは",
+          "grammarId": "n2-015",
+          "baseExpression": "かぎりでは",
+          "conjugatedExpression": "かぎりでは",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-015-21-a",
+          "text": "がたい",
+          "grammarId": "n2-017",
+          "baseExpression": "がたい",
+          "conjugatedExpression": "がたい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-21-b",
+          "text": "がだけに",
+          "grammarId": "n2-018",
+          "baseExpression": "がだけに",
+          "conjugatedExpression": "がだけに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-21-c",
+          "text": "がち",
+          "grammarId": "n2-019",
+          "baseExpression": "がち",
+          "conjugatedExpression": "がち",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '잠수사가 선저를 촬영한 바로는 연료가 유출된 흔적은 확인할 수 없었다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
+      "sourceGrammarIds": [
+        "n2-015",
+        "n2-017",
+        "n2-018",
+        "n2-019"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-015-22",
+      "level": "N2",
+      "sentence": "私が実際に使ったかぎりでは、この傘は強風でも裏返りにくい。",
+      "sentenceWithBlank": "私が実際に使った（　　　）、この傘は強風でも裏返りにくい。",
+      "korean": "내가 실제로 사용해 본 바로는 이 우산은 강풍에도 뒤집히기 어렵다.",
+      "answerChoiceId": "fb-created-n2-015-22-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-015-22-a",
+          "text": "がたい",
+          "grammarId": "n2-017",
+          "baseExpression": "がたい",
+          "conjugatedExpression": "がたい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-22-b",
+          "text": "がだけに",
+          "grammarId": "n2-018",
+          "baseExpression": "がだけに",
+          "conjugatedExpression": "がだけに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-22-c",
+          "text": "がち",
+          "grammarId": "n2-019",
+          "baseExpression": "がち",
+          "conjugatedExpression": "がち",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-22-d",
+          "text": "かぎりでは",
+          "grammarId": "n2-015",
+          "baseExpression": "かぎりでは",
+          "conjugatedExpression": "かぎりでは",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '내가 실제로 사용해 본 바로는 이 우산은 강풍에도 뒤집히기 어렵다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
+      "sourceGrammarIds": [
+        "n2-015",
+        "n2-017",
+        "n2-018",
+        "n2-019"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-015-23",
+      "level": "N2",
+      "sentence": "鑑定士が印章を調べたかぎりでは、その掛け軸は江戸後期の作品だ。",
+      "sentenceWithBlank": "鑑定士が印章を調べた（　　　）、その掛け軸は江戸後期の作品だ。",
+      "korean": "감정사가 낙관을 조사한 바로는 그 족자는 에도 후기의 작품이다.",
+      "answerChoiceId": "fb-created-n2-015-23-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-015-23-b",
+          "text": "がだけに",
+          "grammarId": "n2-018",
+          "baseExpression": "がだけに",
+          "conjugatedExpression": "がだけに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-23-c",
+          "text": "がち",
+          "grammarId": "n2-019",
+          "baseExpression": "がち",
+          "conjugatedExpression": "がち",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-23-d",
+          "text": "かぎりでは",
+          "grammarId": "n2-015",
+          "baseExpression": "かぎりでは",
+          "conjugatedExpression": "かぎりでは",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-015-23-a",
+          "text": "がたい",
+          "grammarId": "n2-017",
+          "baseExpression": "がたい",
+          "conjugatedExpression": "がたい",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '감정사가 낙관을 조사한 바로는 그 족자는 에도 후기의 작품이다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
+      "sourceGrammarIds": [
+        "n2-015",
+        "n2-017",
+        "n2-018",
+        "n2-019"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-015-24",
+      "level": "N2",
+      "sentence": "私が近隣の住民に尋ねたかぎりでは、夜中に爆発音を聞いた人はいなかった。",
+      "sentenceWithBlank": "私が近隣の住民に尋ねた（　　　）、夜中に爆発音を聞いた人はいなかった。",
+      "korean": "내가 인근 주민들에게 물어본 바로는 한밤중에 폭발음을 들은 사람은 없었다.",
+      "answerChoiceId": "fb-created-n2-015-24-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-015-24-c",
+          "text": "がち",
+          "grammarId": "n2-019",
+          "baseExpression": "がち",
+          "conjugatedExpression": "がち",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-24-d",
+          "text": "かぎりでは",
+          "grammarId": "n2-015",
+          "baseExpression": "かぎりでは",
+          "conjugatedExpression": "かぎりでは",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-015-24-a",
+          "text": "がたい",
+          "grammarId": "n2-017",
+          "baseExpression": "がたい",
+          "conjugatedExpression": "がたい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-24-b",
+          "text": "がだけに",
+          "grammarId": "n2-018",
+          "baseExpression": "がだけに",
+          "conjugatedExpression": "がだけに",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '내가 인근 주민들에게 물어본 바로는 한밤중에 폭발음을 들은 사람은 없었다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
+      "sourceGrammarIds": [
+        "n2-015",
+        "n2-017",
+        "n2-018",
+        "n2-019"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-015-25",
+      "level": "N2",
+      "sentence": "庭師が枝の状態を観察したかぎりでは、この桜は来春も花を咲かせるだろう。",
+      "sentenceWithBlank": "庭師が枝の状態を観察した（　　　）、この桜は来春も花を咲かせるだろう。",
+      "korean": "정원사가 가지 상태를 관찰한 바로는 이 벚나무는 내년 봄에도 꽃을 피울 것이다.",
+      "answerChoiceId": "fb-created-n2-015-25-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-015-25-d",
+          "text": "かぎりでは",
+          "grammarId": "n2-015",
+          "baseExpression": "かぎりでは",
+          "conjugatedExpression": "かぎりでは",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-015-25-a",
+          "text": "がたい",
+          "grammarId": "n2-017",
+          "baseExpression": "がたい",
+          "conjugatedExpression": "がたい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-25-b",
+          "text": "がだけに",
+          "grammarId": "n2-018",
+          "baseExpression": "がだけに",
+          "conjugatedExpression": "がだけに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-015-25-c",
+          "text": "がち",
+          "grammarId": "n2-019",
+          "baseExpression": "がち",
+          "conjugatedExpression": "がち",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '정원사가 가지 상태를 관찰한 바로는 이 벚나무는 내년 봄에도 꽃을 피울 것이다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
+      "sourceGrammarIds": [
+        "n2-015",
+        "n2-017",
+        "n2-018",
+        "n2-019"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
       ]
     }
   ],
@@ -1834,1103 +1809,1153 @@
       ]
     },
     {
-      "id": "so-extra-n2-015-1",
+      "id": "so-created-n2-015-01",
       "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlanks": "ちょっと話した ____ ____ ____ ____",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
+      "sentence": "私が現場を確認したかぎりでは、建物に大きな損傷はなかった。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "내가 현장을 확인한 바로는 건물에 큰 손상은 없었다.",
       "pieces": [
         {
-          "id": "so-extra-n2-015-1-p2",
-          "text": "とまったくかわらないように思えた",
+          "id": "so-created-n2-015-01-p4",
+          "text": "損傷はなかった。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-015-1-p3",
-          "text": "かぎりでは",
+          "id": "so-created-n2-015-01-p1",
+          "text": "私が現場を確認した",
           "order": 1
         },
         {
-          "id": "so-extra-n2-015-1-p4",
-          "text": "彼は",
+          "id": "so-created-n2-015-01-p2",
+          "text": "かぎりでは、",
           "order": 2
         },
         {
-          "id": "so-extra-n2-015-1-p1",
-          "text": "いつも",
+          "id": "so-created-n2-015-01-p3",
+          "text": "建物に大きな",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-015-1-p3",
-        "so-extra-n2-015-1-p4",
-        "so-extra-n2-015-1-p1",
-        "so-extra-n2-015-1-p2"
+        "so-created-n2-015-01-p1",
+        "so-created-n2-015-01-p2",
+        "so-created-n2-015-01-p3",
+        "so-created-n2-015-01-p4"
       ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '내가 현장을 확인한 바로는 건물에 큰 손상은 없었다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
       "sourceGrammarIds": [
-        "n2-015"
+        "n2-015",
+        "n2-017",
+        "n2-018",
+        "n2-019"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-015-2",
+      "id": "so-created-n2-015-02",
       "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlanks": "ちょっと話した ____ ____ ____ ____",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
+      "sentence": "この契約書を読んだかぎりでは、途中解約に違約金は発生しない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 違約金は発生しない。",
+      "korean": "이 계약서를 읽어 본 바로는 중도 해지에 위약금은 발생하지 않는다.",
       "pieces": [
         {
-          "id": "so-extra-n2-015-2-p3",
-          "text": "とまったくかわらないように思えた",
+          "id": "so-created-n2-015-02-p3",
+          "text": "かぎりでは、",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-015-02-p4",
+          "text": "途中解約に",
           "order": 4
         },
         {
-          "id": "so-extra-n2-015-2-p4",
-          "text": "かぎりでは",
+          "id": "so-created-n2-015-02-p1",
+          "text": "この契約",
           "order": 1
         },
         {
-          "id": "so-extra-n2-015-2-p1",
-          "text": "彼は",
+          "id": "so-created-n2-015-02-p2",
+          "text": "書を読んだ",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-015-2-p2",
-          "text": "いつも",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-015-2-p4",
-        "so-extra-n2-015-2-p1",
-        "so-extra-n2-015-2-p2",
-        "so-extra-n2-015-2-p3"
+        "so-created-n2-015-02-p1",
+        "so-created-n2-015-02-p2",
+        "so-created-n2-015-02-p3",
+        "so-created-n2-015-02-p4"
       ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '이 계약서를 읽어 본 바로는 중도 해지에 위약금은 발생하지 않는다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
       "sourceGrammarIds": [
-        "n2-015"
+        "n2-015",
+        "n2-017",
+        "n2-018",
+        "n2-019"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-015-3",
+      "id": "so-created-n2-015-03",
       "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、彼はいつもとまったくかわらないように思えた。",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
+      "sentence": "医師が検査結果を見たかぎりでは、緊急の手術は必要ないそうだ。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 必要ないそうだ。",
+      "korean": "의사가 검사 결과를 본 바로는 긴급 수술은 필요하지 않다고 한다.",
       "pieces": [
         {
-          "id": "so-extra-n2-015-3-p4",
-          "text": "いつも",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-015-3-p1",
-          "text": "た",
-          "order": 1
-        },
-        {
-          "id": "so-extra-n2-015-3-p2",
-          "text": "かぎりでは",
+          "id": "so-created-n2-015-03-p2",
+          "text": "結果を見た",
           "order": 2
         },
         {
-          "id": "so-extra-n2-015-3-p3",
-          "text": "彼は",
+          "id": "so-created-n2-015-03-p3",
+          "text": "かぎりでは、",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-015-03-p4",
+          "text": "緊急の手術は",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-015-03-p1",
+          "text": "医師が検査",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-015-3-p1",
-        "so-extra-n2-015-3-p2",
-        "so-extra-n2-015-3-p3",
-        "so-extra-n2-015-3-p4"
+        "so-created-n2-015-03-p1",
+        "so-created-n2-015-03-p2",
+        "so-created-n2-015-03-p3",
+        "so-created-n2-015-03-p4"
       ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '의사가 검사 결과를 본 바로는 긴급 수술은 필요하지 않다고 한다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
       "sourceGrammarIds": [
-        "n2-015"
+        "n2-015",
+        "n2-017",
+        "n2-018",
+        "n2-019"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-015-4",
+      "id": "so-created-n2-015-04",
       "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlanks": "ちょっと話した ____ ____ ____ ____",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
+      "sentence": "私が市場を調べたかぎりでは、この部品を国内で扱う会社は三社しかない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 扱う会社は三社しかない。",
+      "korean": "내가 시장을 조사한 바로는 이 부품을 국내에서 취급하는 회사는 세 곳뿐이다.",
       "pieces": [
         {
-          "id": "so-extra-n2-015-4-p1",
-          "text": "とまったくかわらないように思えた",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-015-4-p2",
-          "text": "かぎりでは",
+          "id": "so-created-n2-015-04-p1",
+          "text": "私が市場を",
           "order": 1
         },
         {
-          "id": "so-extra-n2-015-4-p3",
-          "text": "彼は",
+          "id": "so-created-n2-015-04-p2",
+          "text": "調べた",
           "order": 2
         },
         {
-          "id": "so-extra-n2-015-4-p4",
-          "text": "いつも",
+          "id": "so-created-n2-015-04-p3",
+          "text": "かぎりでは、",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-015-04-p4",
+          "text": "この部品を国内で",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-015-4-p2",
-        "so-extra-n2-015-4-p3",
-        "so-extra-n2-015-4-p4",
-        "so-extra-n2-015-4-p1"
+        "so-created-n2-015-04-p1",
+        "so-created-n2-015-04-p2",
+        "so-created-n2-015-04-p3",
+        "so-created-n2-015-04-p4"
       ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '내가 시장을 조사한 바로는 이 부품을 국내에서 취급하는 회사는 세 곳뿐이다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
       "sourceGrammarIds": [
-        "n2-015"
+        "n2-015",
+        "n2-017",
+        "n2-018",
+        "n2-019"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-015-5",
+      "id": "so-created-n2-015-05",
       "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlanks": "ちょっと話した ____ ____ ____ ____",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
+      "sentence": "昨夜ここから空を眺めたかぎりでは、流星は一つも見えなかった。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "어젯밤 여기서 하늘을 바라본 바로는 유성은 하나도 보이지 않았다.",
       "pieces": [
         {
-          "id": "so-extra-n2-015-5-p2",
-          "text": "とまったくかわらないように思えた",
+          "id": "so-created-n2-015-05-p4",
+          "text": "見えなかった。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-015-5-p3",
-          "text": "かぎりでは",
+          "id": "so-created-n2-015-05-p1",
+          "text": "昨夜ここから空を",
           "order": 1
         },
         {
-          "id": "so-extra-n2-015-5-p4",
-          "text": "彼は",
+          "id": "so-created-n2-015-05-p2",
+          "text": "眺めたかぎりでは、",
           "order": 2
         },
         {
-          "id": "so-extra-n2-015-5-p1",
-          "text": "いつも",
+          "id": "so-created-n2-015-05-p3",
+          "text": "流星は一つも",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-015-5-p3",
-        "so-extra-n2-015-5-p4",
-        "so-extra-n2-015-5-p1",
-        "so-extra-n2-015-5-p2"
+        "so-created-n2-015-05-p1",
+        "so-created-n2-015-05-p2",
+        "so-created-n2-015-05-p3",
+        "so-created-n2-015-05-p4"
       ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '어젯밤 여기서 하늘을 바라본 바로는 유성은 하나도 보이지 않았다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
       "sourceGrammarIds": [
-        "n2-015"
+        "n2-015",
+        "n2-017",
+        "n2-018",
+        "n2-019"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-015-01",
+      "id": "so-created-n2-015-06",
       "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlanks": "ちょっと話した ____ ____ ____ ____",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
+      "sentence": "私が試乗したかぎりでは、この車は急な坂でも力不足を感じない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 力不足を感じない。",
+      "korean": "내가 시승해 본 바로는 이 차는 가파른 언덕에서도 힘이 부족하다는 느낌이 들지 않는다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-015-01-p2",
-          "text": "とまったくかわらないように思えた",
+          "id": "so-created-n2-015-06-p3",
+          "text": "この車は",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-015-06-p4",
+          "text": "急な坂でも",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-015-01-p3",
-          "text": "かぎりでは",
+          "id": "so-created-n2-015-06-p1",
+          "text": "私が試乗した",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-015-01-p4",
-          "text": "彼は",
+          "id": "so-created-n2-015-06-p2",
+          "text": "かぎりでは、",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-015-01-p1",
-          "text": "いつも",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-015-01-p3",
-        "so-extra20-n2-015-01-p4",
-        "so-extra20-n2-015-01-p1",
-        "so-extra20-n2-015-01-p2"
+        "so-created-n2-015-06-p1",
+        "so-created-n2-015-06-p2",
+        "so-created-n2-015-06-p3",
+        "so-created-n2-015-06-p4"
       ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '내가 시승해 본 바로는 이 차는 가파른 언덕에서도 힘이 부족하다는 느낌이 들지 않는다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
       "sourceGrammarIds": [
-        "n2-015"
+        "n2-015",
+        "n2-017",
+        "n2-018",
+        "n2-019"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-015-02",
+      "id": "so-created-n2-015-07",
       "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlanks": "ちょっと話した ____ ____ ____ ____",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
+      "sentence": "港の水質を測定したかぎりでは、有害物質の濃度は基準値以下だった。",
+      "sentenceWithBlanks": "港の水質を ____ ____ ____ ____ 以下だった。",
+      "korean": "항구의 수질을 측정한 바로는 유해 물질의 농도는 기준치 이하였다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-015-02-p1",
-          "text": "彼は",
+          "id": "so-created-n2-015-07-p2",
+          "text": "かぎりでは、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-015-02-p2",
-          "text": "いつも",
+          "id": "so-created-n2-015-07-p3",
+          "text": "有害物質の",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-015-02-p3",
-          "text": "とまったくかわらないように思えた",
+          "id": "so-created-n2-015-07-p4",
+          "text": "濃度は基準値",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-015-02-p4",
-          "text": "かぎりでは",
+          "id": "so-created-n2-015-07-p1",
+          "text": "測定した",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-015-02-p4",
-        "so-extra20-n2-015-02-p1",
-        "so-extra20-n2-015-02-p2",
-        "so-extra20-n2-015-02-p3"
+        "so-created-n2-015-07-p1",
+        "so-created-n2-015-07-p2",
+        "so-created-n2-015-07-p3",
+        "so-created-n2-015-07-p4"
       ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '항구의 수질을 측정한 바로는 유해 물질의 농도는 기준치 이하였다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
       "sourceGrammarIds": [
-        "n2-015"
+        "n2-015",
+        "n2-017",
+        "n2-018",
+        "n2-019"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-015-03",
+      "id": "so-created-n2-015-08",
       "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、彼はいつもとまったくかわらないように思えた。",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
+      "sentence": "私が防犯映像を確認したかぎりでは、店員に不審な行動は見られない。",
+      "sentenceWithBlanks": "私が ____ ____ ____ ____ 見られない。",
+      "korean": "내가 방범 영상을 확인한 바로는 점원에게 수상한 행동은 보이지 않는다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-015-03-p4",
-          "text": "いつも",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-015-03-p1",
-          "text": "た",
+          "id": "so-created-n2-015-08-p1",
+          "text": "防犯映像を",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-015-03-p2",
-          "text": "かぎりでは",
+          "id": "so-created-n2-015-08-p2",
+          "text": "確認した",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-015-03-p3",
-          "text": "彼は",
+          "id": "so-created-n2-015-08-p3",
+          "text": "かぎりでは、",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-015-08-p4",
+          "text": "店員に不審な行動は",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-015-03-p1",
-        "so-extra20-n2-015-03-p2",
-        "so-extra20-n2-015-03-p3",
-        "so-extra20-n2-015-03-p4"
+        "so-created-n2-015-08-p1",
+        "so-created-n2-015-08-p2",
+        "so-created-n2-015-08-p3",
+        "so-created-n2-015-08-p4"
       ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '내가 방범 영상을 확인한 바로는 점원에게 수상한 행동은 보이지 않는다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
       "sourceGrammarIds": [
-        "n2-015"
+        "n2-015",
+        "n2-017",
+        "n2-018",
+        "n2-019"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-015-04",
+      "id": "so-created-n2-015-09",
       "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlanks": "ちょっと話した ____ ____ ____ ____",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
+      "sentence": "祖父の記憶をたどったかぎりでは、この橋は戦後すぐに造られたらしい。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 造られたらしい。",
+      "korean": "할아버지가 기억을 더듬어 본 바로는 이 다리는 전쟁 직후에 지어진 듯하다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-015-04-p3",
-          "text": "彼は",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-015-04-p4",
-          "text": "いつも",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-015-04-p1",
-          "text": "とまったくかわらないように思えた",
+          "id": "so-created-n2-015-09-p4",
+          "text": "橋は戦後すぐに",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-015-04-p2",
-          "text": "かぎりでは",
+          "id": "so-created-n2-015-09-p1",
+          "text": "祖父の",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-015-09-p2",
+          "text": "記憶をたどった",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-015-09-p3",
+          "text": "かぎりでは、この",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-015-04-p2",
-        "so-extra20-n2-015-04-p3",
-        "so-extra20-n2-015-04-p4",
-        "so-extra20-n2-015-04-p1"
+        "so-created-n2-015-09-p1",
+        "so-created-n2-015-09-p2",
+        "so-created-n2-015-09-p3",
+        "so-created-n2-015-09-p4"
       ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '할아버지가 기억을 더듬어 본 바로는 이 다리는 전쟁 직후에 지어진 듯하다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
       "sourceGrammarIds": [
-        "n2-015"
+        "n2-015",
+        "n2-017",
+        "n2-018",
+        "n2-019"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-015-05",
+      "id": "so-created-n2-015-10",
       "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlanks": "ちょっと話した ____ ____ ____ ____",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
+      "sentence": "私が味見したかぎりでは、このスープに塩を足す必要はない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 必要はない。",
+      "korean": "내가 맛을 본 바로는 이 수프에 소금을 더 넣을 필요는 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-015-05-p2",
-          "text": "とまったくかわらないように思えた",
+          "id": "so-created-n2-015-10-p3",
+          "text": "このスープに",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-015-10-p4",
+          "text": "塩を足す",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-015-05-p3",
-          "text": "かぎりでは",
+          "id": "so-created-n2-015-10-p1",
+          "text": "私が味見した",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-015-05-p4",
-          "text": "彼は",
+          "id": "so-created-n2-015-10-p2",
+          "text": "かぎりでは、",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-015-05-p1",
-          "text": "いつも",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-015-05-p3",
-        "so-extra20-n2-015-05-p4",
-        "so-extra20-n2-015-05-p1",
-        "so-extra20-n2-015-05-p2"
+        "so-created-n2-015-10-p1",
+        "so-created-n2-015-10-p2",
+        "so-created-n2-015-10-p3",
+        "so-created-n2-015-10-p4"
       ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '내가 맛을 본 바로는 이 수프에 소금을 더 넣을 필요는 없다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
       "sourceGrammarIds": [
-        "n2-015"
+        "n2-015",
+        "n2-017",
+        "n2-018",
+        "n2-019"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-015-06",
+      "id": "so-created-n2-015-11",
       "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlanks": "ちょっと話した ____ ____ ____ ____",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
+      "sentence": "農家が畑を見回ったかぎりでは、霜による被害は北側だけに限られている。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 北側だけに限られている。",
+      "korean": "농부가 밭을 둘러본 바로는 서리 피해는 북쪽에만 한정되어 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-015-06-p1",
-          "text": "いつも",
+          "id": "so-created-n2-015-11-p2",
+          "text": "見回った",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-015-11-p3",
+          "text": "かぎりでは、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-015-06-p2",
-          "text": "とまったくかわらないように思えた",
+          "id": "so-created-n2-015-11-p4",
+          "text": "霜による被害は",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-015-06-p3",
-          "text": "かぎりでは",
+          "id": "so-created-n2-015-11-p1",
+          "text": "農家が畑を",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-015-06-p4",
-          "text": "彼は",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-015-06-p3",
-        "so-extra20-n2-015-06-p4",
-        "so-extra20-n2-015-06-p1",
-        "so-extra20-n2-015-06-p2"
+        "so-created-n2-015-11-p1",
+        "so-created-n2-015-11-p2",
+        "so-created-n2-015-11-p3",
+        "so-created-n2-015-11-p4"
       ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '농부가 밭을 둘러본 바로는 서리 피해는 북쪽에만 한정되어 있다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
       "sourceGrammarIds": [
-        "n2-015"
+        "n2-015",
+        "n2-017",
+        "n2-018",
+        "n2-019"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-015-07",
+      "id": "so-created-n2-015-12",
       "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlanks": "ちょっと話した ____ ____ ____ ____",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
+      "sentence": "私が各部署の予定を確かめたかぎりでは、金曜の午後なら全員が参加できる。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 午後なら全員が参加できる。",
+      "korean": "내가 각 부서의 일정을 확인한 바로는 금요일 오후라면 전원이 참석할 수 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-015-07-p4",
-          "text": "かぎりでは",
+          "id": "so-created-n2-015-12-p1",
+          "text": "私が各部署の",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-015-07-p1",
-          "text": "彼は",
+          "id": "so-created-n2-015-12-p2",
+          "text": "予定を確かめた",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-015-07-p2",
-          "text": "いつも",
+          "id": "so-created-n2-015-12-p3",
+          "text": "かぎりでは、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-015-07-p3",
-          "text": "とまったくかわらないように思えた",
+          "id": "so-created-n2-015-12-p4",
+          "text": "金曜の",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-015-07-p4",
-        "so-extra20-n2-015-07-p1",
-        "so-extra20-n2-015-07-p2",
-        "so-extra20-n2-015-07-p3"
+        "so-created-n2-015-12-p1",
+        "so-created-n2-015-12-p2",
+        "so-created-n2-015-12-p3",
+        "so-created-n2-015-12-p4"
       ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '내가 각 부서의 일정을 확인한 바로는 금요일 오후라면 전원이 참석할 수 있다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
       "sourceGrammarIds": [
-        "n2-015"
+        "n2-015",
+        "n2-017",
+        "n2-018",
+        "n2-019"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-015-08",
+      "id": "so-created-n2-015-13",
       "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、彼はいつもとまったくかわらないように思えた。",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
+      "sentence": "整備士がエンジン音を聞いたかぎりでは、異常の原因はベルトではなさそうだ。",
+      "sentenceWithBlanks": "整備 ____ ____ ____ ____ ベルトではなさそうだ。",
+      "korean": "정비사가 엔진 소리를 들어 본 바로는 이상의 원인은 벨트가 아닌 듯하다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-015-08-p3",
-          "text": "彼は",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-015-08-p4",
-          "text": "いつも",
+          "id": "so-created-n2-015-13-p4",
+          "text": "異常の原因は",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-015-08-p1",
-          "text": "た",
+          "id": "so-created-n2-015-13-p1",
+          "text": "士がエンジン",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-015-08-p2",
-          "text": "かぎりでは",
+          "id": "so-created-n2-015-13-p2",
+          "text": "音を聞いた",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-015-13-p3",
+          "text": "かぎりでは、",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-015-08-p1",
-        "so-extra20-n2-015-08-p2",
-        "so-extra20-n2-015-08-p3",
-        "so-extra20-n2-015-08-p4"
+        "so-created-n2-015-13-p1",
+        "so-created-n2-015-13-p2",
+        "so-created-n2-015-13-p3",
+        "so-created-n2-015-13-p4"
       ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '정비사가 엔진 소리를 들어 본 바로는 이상의 원인은 벨트가 아닌 듯하다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
       "sourceGrammarIds": [
-        "n2-015"
+        "n2-015",
+        "n2-017",
+        "n2-018",
+        "n2-019"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-015-09",
+      "id": "so-created-n2-015-14",
       "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlanks": "ちょっと話した ____ ____ ____ ____",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
+      "sentence": "私が周辺を歩いたかぎりでは、駅まで車椅子で通れる道は一本だけだった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 道は一本だけだった。",
+      "korean": "내가 주변을 걸어 본 바로는 역까지 휠체어로 갈 수 있는 길은 하나뿐이었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-015-09-p2",
-          "text": "かぎりでは",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-015-09-p3",
-          "text": "彼は",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-015-09-p4",
-          "text": "いつも",
+          "id": "so-created-n2-015-14-p3",
+          "text": "駅まで",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-015-09-p1",
-          "text": "とまったくかわらないように思えた",
+          "id": "so-created-n2-015-14-p4",
+          "text": "車椅子で通れる",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-015-14-p1",
+          "text": "私が周辺を歩いた",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-015-14-p2",
+          "text": "かぎりでは、",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-015-09-p2",
-        "so-extra20-n2-015-09-p3",
-        "so-extra20-n2-015-09-p4",
-        "so-extra20-n2-015-09-p1"
+        "so-created-n2-015-14-p1",
+        "so-created-n2-015-14-p2",
+        "so-created-n2-015-14-p3",
+        "so-created-n2-015-14-p4"
       ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '내가 주변을 걸어 본 바로는 역까지 휠체어로 갈 수 있는 길은 하나뿐이었다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
       "sourceGrammarIds": [
-        "n2-015"
+        "n2-015",
+        "n2-017",
+        "n2-018",
+        "n2-019"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-015-10",
+      "id": "so-created-n2-015-15",
       "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlanks": "ちょっと話した ____ ____ ____ ____",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
+      "sentence": "飼育員が今朝観察したかぎりでは、子熊の食欲は回復している。",
+      "sentenceWithBlanks": "飼育 ____ ____ ____ ____ 回復している。",
+      "korean": "사육사가 오늘 아침 관찰한 바로는 새끼 곰의 식욕은 회복되고 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-015-10-p1",
-          "text": "いつも",
+          "id": "so-created-n2-015-15-p2",
+          "text": "観察した",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-015-15-p3",
+          "text": "かぎりでは、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-015-10-p2",
-          "text": "とまったくかわらないように思えた",
+          "id": "so-created-n2-015-15-p4",
+          "text": "子熊の食欲は",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-015-10-p3",
-          "text": "かぎりでは",
+          "id": "so-created-n2-015-15-p1",
+          "text": "員が今朝",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-015-10-p4",
-          "text": "彼は",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-015-10-p3",
-        "so-extra20-n2-015-10-p4",
-        "so-extra20-n2-015-10-p1",
-        "so-extra20-n2-015-10-p2"
+        "so-created-n2-015-15-p1",
+        "so-created-n2-015-15-p2",
+        "so-created-n2-015-15-p3",
+        "so-created-n2-015-15-p4"
       ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '사육사가 오늘 아침 관찰한 바로는 새끼 곰의 식욕은 회복되고 있다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
       "sourceGrammarIds": [
-        "n2-015"
+        "n2-015",
+        "n2-017",
+        "n2-018",
+        "n2-019"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-015-11",
+      "id": "so-created-n2-015-16",
       "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlanks": "ちょっと話した ____ ____ ____ ____",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
+      "sentence": "私が過去の売上を比較したかぎりでは、雨の日には温かい飲み物がよく売れる。",
+      "sentenceWithBlanks": "私が ____ ____ ____ ____ 飲み物がよく売れる。",
+      "korean": "내가 과거 매출을 비교한 바로는 비 오는 날에는 따뜻한 음료가 잘 팔린다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-015-11-p4",
-          "text": "彼は",
+          "id": "so-created-n2-015-16-p1",
+          "text": "過去の売上を",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-015-16-p2",
+          "text": "比較した",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-015-11-p1",
-          "text": "いつも",
+          "id": "so-created-n2-015-16-p3",
+          "text": "かぎりでは、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-015-11-p2",
-          "text": "とまったくかわらないように思えた",
+          "id": "so-created-n2-015-16-p4",
+          "text": "雨の日には温かい",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-015-11-p3",
-          "text": "かぎりでは",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-015-11-p3",
-        "so-extra20-n2-015-11-p4",
-        "so-extra20-n2-015-11-p1",
-        "so-extra20-n2-015-11-p2"
+        "so-created-n2-015-16-p1",
+        "so-created-n2-015-16-p2",
+        "so-created-n2-015-16-p3",
+        "so-created-n2-015-16-p4"
       ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '내가 과거 매출을 비교한 바로는 비 오는 날에는 따뜻한 음료가 잘 팔린다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
       "sourceGrammarIds": [
-        "n2-015"
+        "n2-015",
+        "n2-017",
+        "n2-018",
+        "n2-019"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-015-12",
+      "id": "so-created-n2-015-17",
       "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlanks": "ちょっと話した ____ ____ ____ ____",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
+      "sentence": "消防士が屋根裏を調べたかぎりでは、火元は台所ではないと考えられる。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 台所ではないと考えられる。",
+      "korean": "소방관이 다락을 조사한 바로는 발화 지점은 부엌이 아니라고 볼 수 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-015-12-p3",
-          "text": "とまったくかわらないように思えた",
+          "id": "so-created-n2-015-17-p4",
+          "text": "火元は",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-015-12-p4",
-          "text": "かぎりでは",
+          "id": "so-created-n2-015-17-p1",
+          "text": "消防士が",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-015-12-p1",
-          "text": "彼は",
+          "id": "so-created-n2-015-17-p2",
+          "text": "屋根裏を調べた",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-015-12-p2",
-          "text": "いつも",
+          "id": "so-created-n2-015-17-p3",
+          "text": "かぎりでは、",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-015-12-p4",
-        "so-extra20-n2-015-12-p1",
-        "so-extra20-n2-015-12-p2",
-        "so-extra20-n2-015-12-p3"
+        "so-created-n2-015-17-p1",
+        "so-created-n2-015-17-p2",
+        "so-created-n2-015-17-p3",
+        "so-created-n2-015-17-p4"
       ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '소방관이 다락을 조사한 바로는 발화 지점은 부엌이 아니라고 볼 수 있다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
       "sourceGrammarIds": [
-        "n2-015"
+        "n2-015",
+        "n2-017",
+        "n2-018",
+        "n2-019"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-015-13",
+      "id": "so-created-n2-015-18",
       "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、彼はいつもとまったくかわらないように思えた。",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
+      "sentence": "私が二つの案を比べたかぎりでは、後者のほうが維持費を抑えられる。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 費を抑えられる。",
+      "korean": "내가 두 방안을 비교한 바로는 후자가 유지비를 줄일 수 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-015-13-p2",
-          "text": "かぎりでは",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-015-13-p3",
-          "text": "彼は",
+          "id": "so-created-n2-015-18-p3",
+          "text": "かぎりでは、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-015-13-p4",
-          "text": "いつも",
+          "id": "so-created-n2-015-18-p4",
+          "text": "後者のほうが維持",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-015-13-p1",
-          "text": "た",
+          "id": "so-created-n2-015-18-p1",
+          "text": "私が二つの",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-015-18-p2",
+          "text": "案を比べた",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-015-13-p1",
-        "so-extra20-n2-015-13-p2",
-        "so-extra20-n2-015-13-p3",
-        "so-extra20-n2-015-13-p4"
+        "so-created-n2-015-18-p1",
+        "so-created-n2-015-18-p2",
+        "so-created-n2-015-18-p3",
+        "so-created-n2-015-18-p4"
       ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '내가 두 방안을 비교한 바로는 후자가 유지비를 줄일 수 있다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
       "sourceGrammarIds": [
-        "n2-015"
+        "n2-015",
+        "n2-017",
+        "n2-018",
+        "n2-019"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-015-14",
+      "id": "so-created-n2-015-19",
       "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlanks": "ちょっと話した ____ ____ ____ ____",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
+      "sentence": "職人が表面に触れたかぎりでは、この器はまだ十分に乾いていない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 乾いていない。",
+      "korean": "장인이 표면을 만져 본 바로는 이 그릇은 아직 충분히 마르지 않았다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-015-14-p1",
-          "text": "とまったくかわらないように思えた",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-015-14-p2",
-          "text": "かぎりでは",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-015-14-p3",
-          "text": "彼は",
+          "id": "so-created-n2-015-19-p2",
+          "text": "表面に触れた",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-015-14-p4",
-          "text": "いつも",
+          "id": "so-created-n2-015-19-p3",
+          "text": "かぎりでは、この",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-015-19-p4",
+          "text": "器はまだ十分に",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-015-19-p1",
+          "text": "職人が",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-015-14-p2",
-        "so-extra20-n2-015-14-p3",
-        "so-extra20-n2-015-14-p4",
-        "so-extra20-n2-015-14-p1"
+        "so-created-n2-015-19-p1",
+        "so-created-n2-015-19-p2",
+        "so-created-n2-015-19-p3",
+        "so-created-n2-015-19-p4"
       ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '장인이 표면을 만져 본 바로는 이 그릇은 아직 충분히 마르지 않았다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
       "sourceGrammarIds": [
-        "n2-015"
+        "n2-015",
+        "n2-017",
+        "n2-018",
+        "n2-019"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-015-15",
+      "id": "so-created-n2-015-20",
       "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlanks": "ちょっと話した ____ ____ ____ ____",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
+      "sentence": "私が家系図をたどったかぎりでは、海外へ移住した親族はいない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "내가 가계도를 살펴본 바로는 해외로 이주한 친척은 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-015-15-p4",
-          "text": "彼は",
+          "id": "so-created-n2-015-20-p1",
+          "text": "私が家系図をたどった",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-015-20-p2",
+          "text": "かぎりでは、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-015-15-p1",
-          "text": "いつも",
+          "id": "so-created-n2-015-20-p3",
+          "text": "海外へ移住した",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-015-15-p2",
-          "text": "とまったくかわらないように思えた",
+          "id": "so-created-n2-015-20-p4",
+          "text": "親族はいない。",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-015-15-p3",
-          "text": "かぎりでは",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-015-15-p3",
-        "so-extra20-n2-015-15-p4",
-        "so-extra20-n2-015-15-p1",
-        "so-extra20-n2-015-15-p2"
+        "so-created-n2-015-20-p1",
+        "so-created-n2-015-20-p2",
+        "so-created-n2-015-20-p3",
+        "so-created-n2-015-20-p4"
       ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '내가 가계도를 살펴본 바로는 해외로 이주한 친척은 없다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
       "sourceGrammarIds": [
-        "n2-015"
+        "n2-015",
+        "n2-017",
+        "n2-018",
+        "n2-019"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-015-16",
+      "id": "so-created-n2-015-21",
       "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlanks": "ちょっと話した ____ ____ ____ ____",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
+      "sentence": "潜水士が船底を撮影したかぎりでは、燃料が漏れた形跡は確認できなかった。",
+      "sentenceWithBlanks": "潜水 ____ ____ ____ ____ 確認できなかった。",
+      "korean": "잠수사가 선저를 촬영한 바로는 연료가 유출된 흔적은 확인할 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-015-16-p3",
-          "text": "かぎりでは",
+          "id": "so-created-n2-015-21-p4",
+          "text": "燃料が漏れた形跡は",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-015-21-p1",
+          "text": "士が船底を",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-015-16-p4",
-          "text": "彼は",
+          "id": "so-created-n2-015-21-p2",
+          "text": "撮影した",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-015-16-p1",
-          "text": "いつも",
+          "id": "so-created-n2-015-21-p3",
+          "text": "かぎりでは、",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-015-16-p2",
-          "text": "とまったくかわらないように思えた",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-015-16-p3",
-        "so-extra20-n2-015-16-p4",
-        "so-extra20-n2-015-16-p1",
-        "so-extra20-n2-015-16-p2"
+        "so-created-n2-015-21-p1",
+        "so-created-n2-015-21-p2",
+        "so-created-n2-015-21-p3",
+        "so-created-n2-015-21-p4"
       ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '잠수사가 선저를 촬영한 바로는 연료가 유출된 흔적은 확인할 수 없었다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
       "sourceGrammarIds": [
-        "n2-015"
+        "n2-015",
+        "n2-017",
+        "n2-018",
+        "n2-019"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-015-17",
+      "id": "so-created-n2-015-22",
       "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlanks": "ちょっと話した ____ ____ ____ ____",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
+      "sentence": "私が実際に使ったかぎりでは、この傘は強風でも裏返りにくい。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 裏返りにくい。",
+      "korean": "내가 실제로 사용해 본 바로는 이 우산은 강풍에도 뒤집히기 어렵다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-015-17-p2",
-          "text": "いつも",
+          "id": "so-created-n2-015-22-p3",
+          "text": "この傘は",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-015-17-p3",
-          "text": "とまったくかわらないように思えた",
+          "id": "so-created-n2-015-22-p4",
+          "text": "強風でも",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-015-17-p4",
-          "text": "かぎりでは",
+          "id": "so-created-n2-015-22-p1",
+          "text": "私が実際に使った",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-015-17-p1",
-          "text": "彼は",
+          "id": "so-created-n2-015-22-p2",
+          "text": "かぎりでは、",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-015-17-p4",
-        "so-extra20-n2-015-17-p1",
-        "so-extra20-n2-015-17-p2",
-        "so-extra20-n2-015-17-p3"
+        "so-created-n2-015-22-p1",
+        "so-created-n2-015-22-p2",
+        "so-created-n2-015-22-p3",
+        "so-created-n2-015-22-p4"
       ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '내가 실제로 사용해 본 바로는 이 우산은 강풍에도 뒤집히기 어렵다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
       "sourceGrammarIds": [
-        "n2-015"
+        "n2-015",
+        "n2-017",
+        "n2-018",
+        "n2-019"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-015-18",
+      "id": "so-created-n2-015-23",
       "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、彼はいつもとまったくかわらないように思えた。",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
+      "sentence": "鑑定士が印章を調べたかぎりでは、その掛け軸は江戸後期の作品だ。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 江戸後期の作品だ。",
+      "korean": "감정사가 낙관을 조사한 바로는 그 족자는 에도 후기의 작품이다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-015-18-p1",
-          "text": "た",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-015-18-p2",
-          "text": "かぎりでは",
+          "id": "so-created-n2-015-23-p2",
+          "text": "印章を調べた",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-015-18-p3",
-          "text": "彼は",
+          "id": "so-created-n2-015-23-p3",
+          "text": "かぎりでは、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-015-18-p4",
-          "text": "いつも",
+          "id": "so-created-n2-015-23-p4",
+          "text": "その掛け軸は",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-015-23-p1",
+          "text": "鑑定士が",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-015-18-p1",
-        "so-extra20-n2-015-18-p2",
-        "so-extra20-n2-015-18-p3",
-        "so-extra20-n2-015-18-p4"
+        "so-created-n2-015-23-p1",
+        "so-created-n2-015-23-p2",
+        "so-created-n2-015-23-p3",
+        "so-created-n2-015-23-p4"
       ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '감정사가 낙관을 조사한 바로는 그 족자는 에도 후기의 작품이다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
       "sourceGrammarIds": [
-        "n2-015"
+        "n2-015",
+        "n2-017",
+        "n2-018",
+        "n2-019"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-015-19",
+      "id": "so-created-n2-015-24",
       "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlanks": "ちょっと話した ____ ____ ____ ____",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
+      "sentence": "私が近隣の住民に尋ねたかぎりでは、夜中に爆発音を聞いた人はいなかった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 音を聞いた人はいなかった。",
+      "korean": "내가 인근 주민들에게 물어본 바로는 한밤중에 폭발음을 들은 사람은 없었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-015-19-p4",
-          "text": "いつも",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-015-19-p1",
-          "text": "とまったくかわらないように思えた",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-015-19-p2",
-          "text": "かぎりでは",
+          "id": "so-created-n2-015-24-p1",
+          "text": "私が近隣の",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-015-19-p3",
-          "text": "彼は",
+          "id": "so-created-n2-015-24-p2",
+          "text": "住民に尋ねた",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-015-24-p3",
+          "text": "かぎりでは、",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-015-24-p4",
+          "text": "夜中に爆発",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-015-19-p2",
-        "so-extra20-n2-015-19-p3",
-        "so-extra20-n2-015-19-p4",
-        "so-extra20-n2-015-19-p1"
+        "so-created-n2-015-24-p1",
+        "so-created-n2-015-24-p2",
+        "so-created-n2-015-24-p3",
+        "so-created-n2-015-24-p4"
       ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '내가 인근 주민들에게 물어본 바로는 한밤중에 폭발음을 들은 사람은 없었다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
       "sourceGrammarIds": [
-        "n2-015"
+        "n2-015",
+        "n2-017",
+        "n2-018",
+        "n2-019"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-015-20",
+      "id": "so-created-n2-015-25",
       "level": "N2",
-      "sentence": "ちょっと話したかぎりでは、彼はいつもとまったくかわらないように思えた。",
-      "sentenceWithBlanks": "ちょっと話した ____ ____ ____ ____",
-      "korean": "잠깐 이야기해 본 바로는 그는 평소와 전혀 다르지 않아 보였다.",
+      "sentence": "庭師が枝の状態を観察したかぎりでは、この桜は来春も花を咲かせるだろう。",
+      "sentenceWithBlanks": "庭師が枝の ____ ____ ____ ____ 咲かせるだろう。",
+      "korean": "정원사가 가지 상태를 관찰한 바로는 이 벚나무는 내년 봄에도 꽃을 피울 것이다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-015-20-p3",
-          "text": "かぎりでは",
+          "id": "so-created-n2-015-25-p4",
+          "text": "来春も花を",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-015-25-p1",
+          "text": "状態を観察した",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-015-20-p4",
-          "text": "彼は",
+          "id": "so-created-n2-015-25-p2",
+          "text": "かぎりでは、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-015-20-p1",
-          "text": "いつも",
+          "id": "so-created-n2-015-25-p3",
+          "text": "この桜は",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-015-20-p2",
-          "text": "とまったくかわらないように思えた",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-015-20-p3",
-        "so-extra20-n2-015-20-p4",
-        "so-extra20-n2-015-20-p1",
-        "so-extra20-n2-015-20-p2"
+        "so-created-n2-015-25-p1",
+        "so-created-n2-015-25-p2",
+        "so-created-n2-015-25-p3",
+        "so-created-n2-015-25-p4"
       ],
-      "explanation": "「かぎりでは」는 ~의 한도 내에서는, ~하는 바로는라는 뜻이다. 자신이 알고 있거나 조사한 범위 안에서 판단.",
+      "explanation": "「かぎりでは」는 '~의 한도 내에서는, ~하는 바로는'라는 뜻을 나타낸다. 이 문장에서는 '정원사가 가지 상태를 관찰한 바로는 이 벚나무는 내년 봄에도 꽃을 피울 것이다.'라는 상황에 쓰였으며, 자신이 알고 있거나 조사한 범위 안에서 판단. 주의할 점은 「かぎりでは」는 자신의 경험·조사 범위, 「によると」는 외부 정보 출처.",
       "sourceGrammarIds": [
-        "n2-015"
+        "n2-015",
+        "n2-017",
+        "n2-018",
+        "n2-019"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     }
   ]

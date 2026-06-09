@@ -267,15 +267,23 @@
       ]
     },
     {
-      "id": "fb-extra-n2-096-1",
+      "id": "fb-created-n2-096-01",
       "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlank": "この建物は許可が（　　　）、見学できません。",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
-      "answerChoiceId": "fb-extra-n2-096-1-a",
+      "sentence": "台風が遠ざからない限り、漁船は港から出られない。",
+      "sentenceWithBlank": "台風が遠ざから（　　　）、漁船は港から出られない。",
+      "korean": "태풍이 멀어지지 않는 한 어선은 항구에서 출항할 수 없다.",
+      "answerChoiceId": "fb-created-n2-096-01-a",
       "choices": [
         {
-          "id": "fb-extra-n2-096-1-b",
+          "id": "fb-created-n2-096-01-a",
+          "text": "ない限り",
+          "grammarId": "n2-096",
+          "baseExpression": "ない限り",
+          "conjugatedExpression": "ない限り",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-096-01-b",
           "text": "げ",
           "grammarId": "n2-035",
           "baseExpression": "げ",
@@ -283,7 +291,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-096-1-c",
+          "id": "fb-created-n2-096-01-c",
           "text": "ことか",
           "grammarId": "n2-036",
           "baseExpression": "ことか",
@@ -291,23 +299,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-096-1-d",
+          "id": "fb-created-n2-096-01-d",
           "text": "ことだ",
           "grammarId": "n2-037",
           "baseExpression": "ことだ",
           "conjugatedExpression": "ことだ",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-096-1-a",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
-          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '태풍이 멀어지지 않는 한 어선은 항구에서 출항할 수 없다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
       "sourceGrammarIds": [
         "n2-096",
         "n2-035",
@@ -315,237 +315,20 @@
         "n2-037"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra-n2-096-2",
+      "id": "fb-created-n2-096-02",
       "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlank": "この建物は許可が（　　　）、見学できません。",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
-      "answerChoiceId": "fb-extra-n2-096-2-d",
+      "sentence": "本人が同意しない限り、病院は手術の日程を決めない。",
+      "sentenceWithBlank": "本人が同意し（　　　）、病院は手術の日程を決めない。",
+      "korean": "본인이 동의하지 않는 한 병원은 수술 일정을 정하지 않는다.",
+      "answerChoiceId": "fb-created-n2-096-02-a",
       "choices": [
         {
-          "id": "fb-extra-n2-096-2-c",
-          "text": "に応えて",
-          "grammarId": "n2-115",
-          "baseExpression": "に応えて",
-          "conjugatedExpression": "に応えて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-096-2-d",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-096-2-a",
-          "text": "に加えて",
-          "grammarId": "n2-113",
-          "baseExpression": "に加えて",
-          "conjugatedExpression": "に加えて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-096-2-b",
-          "text": "にこしたことはない",
-          "grammarId": "n2-114",
-          "baseExpression": "にこしたことはない",
-          "conjugatedExpression": "にこしたことはない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
-      "sourceGrammarIds": [
-        "n2-096",
-        "n2-113",
-        "n2-114",
-        "n2-115"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-096-3",
-      "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlank": "この建物は許可が（　　　）、見学できません。",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
-      "answerChoiceId": "fb-extra-n2-096-3-c",
-      "choices": [
-        {
-          "id": "fb-extra-n2-096-3-d",
-          "text": "こととなると",
-          "grammarId": "n2-041",
-          "baseExpression": "こととなると",
-          "conjugatedExpression": "こととなると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-096-3-a",
-          "text": "ことなく",
-          "grammarId": "n2-042",
-          "baseExpression": "ことなく",
-          "conjugatedExpression": "ことなく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-096-3-b",
-          "text": "ことには",
-          "grammarId": "n2-043",
-          "baseExpression": "ことには",
-          "conjugatedExpression": "ことには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-096-3-c",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
-      "sourceGrammarIds": [
-        "n2-096",
-        "n2-041",
-        "n2-042",
-        "n2-043"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-096-4",
-      "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlank": "この建物は許可が（　　　）、見学できません。",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
-      "answerChoiceId": "fb-extra-n2-096-4-b",
-      "choices": [
-        {
-          "id": "fb-extra-n2-096-4-a",
-          "text": "かける",
-          "grammarId": "n2-016",
-          "baseExpression": "かける",
-          "conjugatedExpression": "かける",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-096-4-b",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-096-4-c",
-          "text": "かぎりだ",
-          "grammarId": "n2-014",
-          "baseExpression": "かぎりだ",
-          "conjugatedExpression": "かぎりだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-096-4-d",
-          "text": "かぎりでは",
-          "grammarId": "n2-015",
-          "baseExpression": "かぎりでは",
-          "conjugatedExpression": "かぎりでは",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
-      "sourceGrammarIds": [
-        "n2-096",
-        "n2-014",
-        "n2-015",
-        "n2-016"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-096-5",
-      "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlank": "この建物は許可が（　　　）、見学できません。",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
-      "answerChoiceId": "fb-extra-n2-096-5-a",
-      "choices": [
-        {
-          "id": "fb-extra-n2-096-5-b",
-          "text": "に伴って",
-          "grammarId": "n2-128",
-          "baseExpression": "に伴って",
-          "conjugatedExpression": "に伴って",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-096-5-c",
-          "text": "にほかならない",
-          "grammarId": "n2-129",
-          "baseExpression": "にほかならない",
-          "conjugatedExpression": "にほかならない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-096-5-d",
-          "text": "にもかかわらず",
-          "grammarId": "n2-130",
-          "baseExpression": "にもかかわらず",
-          "conjugatedExpression": "にもかかわらず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-096-5-a",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
-      "sourceGrammarIds": [
-        "n2-096",
-        "n2-128",
-        "n2-129",
-        "n2-130"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-096-01",
-      "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlank": "この建物は許可が（　　　）、見学できません。",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
-      "answerChoiceId": "fb-extra20-n2-096-01-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-096-01-b",
+          "id": "fb-created-n2-096-02-b",
           "text": "げ",
           "grammarId": "n2-035",
           "baseExpression": "げ",
@@ -553,7 +336,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-096-01-c",
+          "id": "fb-created-n2-096-02-c",
           "text": "ことか",
           "grammarId": "n2-036",
           "baseExpression": "ことか",
@@ -561,7 +344,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-096-01-d",
+          "id": "fb-created-n2-096-02-d",
           "text": "ことだ",
           "grammarId": "n2-037",
           "baseExpression": "ことだ",
@@ -569,7 +352,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-096-01-a",
+          "id": "fb-created-n2-096-02-a",
           "text": "ない限り",
           "grammarId": "n2-096",
           "baseExpression": "ない限り",
@@ -577,7 +360,7 @@
           "isSimilarDistractor": false
         }
       ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '본인이 동의하지 않는 한 병원은 수술 일정을 정하지 않는다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
       "sourceGrammarIds": [
         "n2-096",
         "n2-035",
@@ -585,253 +368,20 @@
         "n2-037"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-096-02",
+      "id": "fb-created-n2-096-03",
       "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlank": "この建物は許可が（　　　）、見学できません。",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
-      "answerChoiceId": "fb-extra20-n2-096-02-d",
+      "sentence": "川の水位が下がらない限り、住民は自宅へ戻れない。",
+      "sentenceWithBlank": "川の水位が下がら（　　　）、住民は自宅へ戻れない。",
+      "korean": "강의 수위가 내려가지 않는 한 주민들은 집으로 돌아갈 수 없다.",
+      "answerChoiceId": "fb-created-n2-096-03-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-096-02-a",
-          "text": "に加えて",
-          "grammarId": "n2-113",
-          "baseExpression": "に加えて",
-          "conjugatedExpression": "に加えて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-096-02-b",
-          "text": "にこしたことはない",
-          "grammarId": "n2-114",
-          "baseExpression": "にこしたことはない",
-          "conjugatedExpression": "にこしたことはない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-096-02-c",
-          "text": "に応えて",
-          "grammarId": "n2-115",
-          "baseExpression": "に応えて",
-          "conjugatedExpression": "に応えて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-096-02-d",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
-      "sourceGrammarIds": [
-        "n2-096",
-        "n2-113",
-        "n2-114",
-        "n2-115"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-096-03",
-      "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlank": "この建物は許可が（　　　）、見学できません。",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
-      "answerChoiceId": "fb-extra20-n2-096-03-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-096-03-d",
-          "text": "こととなると",
-          "grammarId": "n2-041",
-          "baseExpression": "こととなると",
-          "conjugatedExpression": "こととなると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-096-03-a",
-          "text": "ことなく",
-          "grammarId": "n2-042",
-          "baseExpression": "ことなく",
-          "conjugatedExpression": "ことなく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-096-03-b",
-          "text": "ことには",
-          "grammarId": "n2-043",
-          "baseExpression": "ことには",
-          "conjugatedExpression": "ことには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-096-03-c",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
-      "sourceGrammarIds": [
-        "n2-096",
-        "n2-041",
-        "n2-042",
-        "n2-043"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-096-04",
-      "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlank": "この建物は許可が（　　　）、見学できません。",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
-      "answerChoiceId": "fb-extra20-n2-096-04-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-096-04-c",
-          "text": "かぎりだ",
-          "grammarId": "n2-014",
-          "baseExpression": "かぎりだ",
-          "conjugatedExpression": "かぎりだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-096-04-d",
-          "text": "かぎりでは",
-          "grammarId": "n2-015",
-          "baseExpression": "かぎりでは",
-          "conjugatedExpression": "かぎりでは",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-096-04-a",
-          "text": "かける",
-          "grammarId": "n2-016",
-          "baseExpression": "かける",
-          "conjugatedExpression": "かける",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-096-04-b",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
-      "sourceGrammarIds": [
-        "n2-096",
-        "n2-014",
-        "n2-015",
-        "n2-016"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-096-05",
-      "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlank": "この建物は許可が（　　　）、見学できません。",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
-      "answerChoiceId": "fb-extra20-n2-096-05-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-096-05-b",
-          "text": "に伴って",
-          "grammarId": "n2-128",
-          "baseExpression": "に伴って",
-          "conjugatedExpression": "に伴って",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-096-05-c",
-          "text": "にほかならない",
-          "grammarId": "n2-129",
-          "baseExpression": "にほかならない",
-          "conjugatedExpression": "にほかならない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-096-05-d",
-          "text": "にもかかわらず",
-          "grammarId": "n2-130",
-          "baseExpression": "にもかかわらず",
-          "conjugatedExpression": "にもかかわらず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-096-05-a",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
-      "sourceGrammarIds": [
-        "n2-096",
-        "n2-128",
-        "n2-129",
-        "n2-130"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-096-06",
-      "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlank": "この建物は許可が（　　　）、見学できません。",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
-      "answerChoiceId": "fb-extra20-n2-096-06-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-096-06-a",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-096-06-b",
-          "text": "げ",
-          "grammarId": "n2-035",
-          "baseExpression": "げ",
-          "conjugatedExpression": "げ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-096-06-c",
+          "id": "fb-created-n2-096-03-c",
           "text": "ことか",
           "grammarId": "n2-036",
           "baseExpression": "ことか",
@@ -839,253 +389,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-096-06-d",
-          "text": "ことだ",
-          "grammarId": "n2-037",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
-      "sourceGrammarIds": [
-        "n2-096",
-        "n2-035",
-        "n2-036",
-        "n2-037"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-096-07",
-      "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlank": "この建物は許可が（　　　）、見学できません。",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
-      "answerChoiceId": "fb-extra20-n2-096-07-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-096-07-d",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-096-07-a",
-          "text": "に加えて",
-          "grammarId": "n2-113",
-          "baseExpression": "に加えて",
-          "conjugatedExpression": "に加えて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-096-07-b",
-          "text": "にこしたことはない",
-          "grammarId": "n2-114",
-          "baseExpression": "にこしたことはない",
-          "conjugatedExpression": "にこしたことはない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-096-07-c",
-          "text": "に応えて",
-          "grammarId": "n2-115",
-          "baseExpression": "に応えて",
-          "conjugatedExpression": "に応えて",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
-      "sourceGrammarIds": [
-        "n2-096",
-        "n2-113",
-        "n2-114",
-        "n2-115"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-096-08",
-      "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlank": "この建物は許可が（　　　）、見学できません。",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
-      "answerChoiceId": "fb-extra20-n2-096-08-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-096-08-c",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-096-08-d",
-          "text": "こととなると",
-          "grammarId": "n2-041",
-          "baseExpression": "こととなると",
-          "conjugatedExpression": "こととなると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-096-08-a",
-          "text": "ことなく",
-          "grammarId": "n2-042",
-          "baseExpression": "ことなく",
-          "conjugatedExpression": "ことなく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-096-08-b",
-          "text": "ことには",
-          "grammarId": "n2-043",
-          "baseExpression": "ことには",
-          "conjugatedExpression": "ことには",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
-      "sourceGrammarIds": [
-        "n2-096",
-        "n2-041",
-        "n2-042",
-        "n2-043"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-096-09",
-      "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlank": "この建物は許可が（　　　）、見学できません。",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
-      "answerChoiceId": "fb-extra20-n2-096-09-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-096-09-b",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-096-09-c",
-          "text": "かぎりだ",
-          "grammarId": "n2-014",
-          "baseExpression": "かぎりだ",
-          "conjugatedExpression": "かぎりだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-096-09-d",
-          "text": "かぎりでは",
-          "grammarId": "n2-015",
-          "baseExpression": "かぎりでは",
-          "conjugatedExpression": "かぎりでは",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-096-09-a",
-          "text": "かける",
-          "grammarId": "n2-016",
-          "baseExpression": "かける",
-          "conjugatedExpression": "かける",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
-      "sourceGrammarIds": [
-        "n2-096",
-        "n2-014",
-        "n2-015",
-        "n2-016"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-096-10",
-      "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlank": "この建物は許可が（　　　）、見学できません。",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
-      "answerChoiceId": "fb-extra20-n2-096-10-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-096-10-a",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-096-10-b",
-          "text": "に伴って",
-          "grammarId": "n2-128",
-          "baseExpression": "に伴って",
-          "conjugatedExpression": "に伴って",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-096-10-c",
-          "text": "にほかならない",
-          "grammarId": "n2-129",
-          "baseExpression": "にほかならない",
-          "conjugatedExpression": "にほかならない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-096-10-d",
-          "text": "にもかかわらず",
-          "grammarId": "n2-130",
-          "baseExpression": "にもかかわらず",
-          "conjugatedExpression": "にもかかわらず",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
-      "sourceGrammarIds": [
-        "n2-096",
-        "n2-128",
-        "n2-129",
-        "n2-130"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-096-11",
-      "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlank": "この建物は許可が（　　　）、見学できません。",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
-      "answerChoiceId": "fb-extra20-n2-096-11-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-096-11-d",
+          "id": "fb-created-n2-096-03-d",
           "text": "ことだ",
           "grammarId": "n2-037",
           "baseExpression": "ことだ",
@@ -1093,7 +397,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-096-11-a",
+          "id": "fb-created-n2-096-03-a",
           "text": "ない限り",
           "grammarId": "n2-096",
           "baseExpression": "ない限り",
@@ -1101,285 +405,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-096-11-b",
-          "text": "げ",
-          "grammarId": "n2-035",
-          "baseExpression": "げ",
-          "conjugatedExpression": "げ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-096-11-c",
-          "text": "ことか",
-          "grammarId": "n2-036",
-          "baseExpression": "ことか",
-          "conjugatedExpression": "ことか",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
-      "sourceGrammarIds": [
-        "n2-096",
-        "n2-035",
-        "n2-036",
-        "n2-037"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-096-12",
-      "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlank": "この建物は許可が（　　　）、見学できません。",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
-      "answerChoiceId": "fb-extra20-n2-096-12-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-096-12-c",
-          "text": "に応えて",
-          "grammarId": "n2-115",
-          "baseExpression": "に応えて",
-          "conjugatedExpression": "に応えて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-096-12-d",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-096-12-a",
-          "text": "に加えて",
-          "grammarId": "n2-113",
-          "baseExpression": "に加えて",
-          "conjugatedExpression": "に加えて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-096-12-b",
-          "text": "にこしたことはない",
-          "grammarId": "n2-114",
-          "baseExpression": "にこしたことはない",
-          "conjugatedExpression": "にこしたことはない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
-      "sourceGrammarIds": [
-        "n2-096",
-        "n2-113",
-        "n2-114",
-        "n2-115"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-096-13",
-      "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlank": "この建物は許可が（　　　）、見学できません。",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
-      "answerChoiceId": "fb-extra20-n2-096-13-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-096-13-b",
-          "text": "ことには",
-          "grammarId": "n2-043",
-          "baseExpression": "ことには",
-          "conjugatedExpression": "ことには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-096-13-c",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-096-13-d",
-          "text": "こととなると",
-          "grammarId": "n2-041",
-          "baseExpression": "こととなると",
-          "conjugatedExpression": "こととなると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-096-13-a",
-          "text": "ことなく",
-          "grammarId": "n2-042",
-          "baseExpression": "ことなく",
-          "conjugatedExpression": "ことなく",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
-      "sourceGrammarIds": [
-        "n2-096",
-        "n2-041",
-        "n2-042",
-        "n2-043"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-096-14",
-      "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlank": "この建物は許可が（　　　）、見学できません。",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
-      "answerChoiceId": "fb-extra20-n2-096-14-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-096-14-a",
-          "text": "かける",
-          "grammarId": "n2-016",
-          "baseExpression": "かける",
-          "conjugatedExpression": "かける",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-096-14-b",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-096-14-c",
-          "text": "かぎりだ",
-          "grammarId": "n2-014",
-          "baseExpression": "かぎりだ",
-          "conjugatedExpression": "かぎりだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-096-14-d",
-          "text": "かぎりでは",
-          "grammarId": "n2-015",
-          "baseExpression": "かぎりでは",
-          "conjugatedExpression": "かぎりでは",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
-      "sourceGrammarIds": [
-        "n2-096",
-        "n2-014",
-        "n2-015",
-        "n2-016"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-096-15",
-      "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlank": "この建物は許可が（　　　）、見学できません。",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
-      "answerChoiceId": "fb-extra20-n2-096-15-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-096-15-d",
-          "text": "にもかかわらず",
-          "grammarId": "n2-130",
-          "baseExpression": "にもかかわらず",
-          "conjugatedExpression": "にもかかわらず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-096-15-a",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-096-15-b",
-          "text": "に伴って",
-          "grammarId": "n2-128",
-          "baseExpression": "に伴って",
-          "conjugatedExpression": "に伴って",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-096-15-c",
-          "text": "にほかならない",
-          "grammarId": "n2-129",
-          "baseExpression": "にほかならない",
-          "conjugatedExpression": "にほかならない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
-      "sourceGrammarIds": [
-        "n2-096",
-        "n2-128",
-        "n2-129",
-        "n2-130"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-096-16",
-      "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlank": "この建物は許可が（　　　）、見学できません。",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
-      "answerChoiceId": "fb-extra20-n2-096-16-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-096-16-c",
-          "text": "ことか",
-          "grammarId": "n2-036",
-          "baseExpression": "ことか",
-          "conjugatedExpression": "ことか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-096-16-d",
-          "text": "ことだ",
-          "grammarId": "n2-037",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-096-16-a",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-096-16-b",
+          "id": "fb-created-n2-096-03-b",
           "text": "げ",
           "grammarId": "n2-035",
           "baseExpression": "げ",
@@ -1387,7 +413,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '강의 수위가 내려가지 않는 한 주민들은 집으로 돌아갈 수 없다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
       "sourceGrammarIds": [
         "n2-096",
         "n2-035",
@@ -1395,37 +421,28 @@
         "n2-037"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-096-17",
+      "id": "fb-created-n2-096-04",
       "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlank": "この建物は許可が（　　　）、見学できません。",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
-      "answerChoiceId": "fb-extra20-n2-096-17-d",
+      "sentence": "部品が届かない限り、工場の生産ラインは再開できない。",
+      "sentenceWithBlank": "部品が届か（　　　）、工場の生産ラインは再開できない。",
+      "korean": "부품이 도착하지 않는 한 공장의 생산 라인은 재가동할 수 없다.",
+      "answerChoiceId": "fb-created-n2-096-04-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-096-17-b",
-          "text": "にこしたことはない",
-          "grammarId": "n2-114",
-          "baseExpression": "にこしたことはない",
-          "conjugatedExpression": "にこしたことはない",
+          "id": "fb-created-n2-096-04-d",
+          "text": "ことだ",
+          "grammarId": "n2-037",
+          "baseExpression": "ことだ",
+          "conjugatedExpression": "ことだ",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-096-17-c",
-          "text": "に応えて",
-          "grammarId": "n2-115",
-          "baseExpression": "に応えて",
-          "conjugatedExpression": "に応えて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-096-17-d",
+          "id": "fb-created-n2-096-04-a",
           "text": "ない限り",
           "grammarId": "n2-096",
           "baseExpression": "ない限り",
@@ -1433,53 +450,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-096-17-a",
-          "text": "に加えて",
-          "grammarId": "n2-113",
-          "baseExpression": "に加えて",
-          "conjugatedExpression": "に加えて",
+          "id": "fb-created-n2-096-04-b",
+          "text": "げ",
+          "grammarId": "n2-035",
+          "baseExpression": "げ",
+          "conjugatedExpression": "げ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-096-04-c",
+          "text": "ことか",
+          "grammarId": "n2-036",
+          "baseExpression": "ことか",
+          "conjugatedExpression": "ことか",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '부품이 도착하지 않는 한 공장의 생산 라인은 재가동할 수 없다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
       "sourceGrammarIds": [
         "n2-096",
-        "n2-113",
-        "n2-114",
-        "n2-115"
+        "n2-035",
+        "n2-036",
+        "n2-037"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-096-18",
+      "id": "fb-created-n2-096-05",
       "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlank": "この建物は許可が（　　　）、見学できません。",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
-      "answerChoiceId": "fb-extra20-n2-096-18-c",
+      "sentence": "借金を返さない限り、彼は新たな融資を受けられない。",
+      "sentenceWithBlank": "借金を返さ（　　　）、彼は新たな融資を受けられない。",
+      "korean": "빚을 갚지 않는 한 그는 새로운 대출을 받을 수 없다.",
+      "answerChoiceId": "fb-created-n2-096-05-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-096-18-a",
-          "text": "ことなく",
-          "grammarId": "n2-042",
-          "baseExpression": "ことなく",
-          "conjugatedExpression": "ことなく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-096-18-b",
-          "text": "ことには",
-          "grammarId": "n2-043",
-          "baseExpression": "ことには",
-          "conjugatedExpression": "ことには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-096-18-c",
+          "id": "fb-created-n2-096-05-a",
           "text": "ない限り",
           "grammarId": "n2-096",
           "baseExpression": "ない限り",
@@ -1487,53 +495,121 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-096-18-d",
-          "text": "こととなると",
-          "grammarId": "n2-041",
-          "baseExpression": "こととなると",
-          "conjugatedExpression": "こととなると",
+          "id": "fb-created-n2-096-05-b",
+          "text": "げ",
+          "grammarId": "n2-035",
+          "baseExpression": "げ",
+          "conjugatedExpression": "げ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-096-05-c",
+          "text": "ことか",
+          "grammarId": "n2-036",
+          "baseExpression": "ことか",
+          "conjugatedExpression": "ことか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-096-05-d",
+          "text": "ことだ",
+          "grammarId": "n2-037",
+          "baseExpression": "ことだ",
+          "conjugatedExpression": "ことだ",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '빚을 갚지 않는 한 그는 새로운 대출을 받을 수 없다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
       "sourceGrammarIds": [
         "n2-096",
-        "n2-041",
-        "n2-042",
-        "n2-043"
+        "n2-035",
+        "n2-036",
+        "n2-037"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-096-19",
+      "id": "fb-created-n2-096-06",
       "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlank": "この建物は許可が（　　　）、見学できません。",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
-      "answerChoiceId": "fb-extra20-n2-096-19-b",
+      "sentence": "雲が切れない限り、山頂から朝日は見えないだろう。",
+      "sentenceWithBlank": "雲が切れ（　　　）、山頂から朝日は見えないだろう。",
+      "korean": "구름이 걷히지 않는 한 산 정상에서 해돋이는 보이지 않을 것이다.",
+      "answerChoiceId": "fb-created-n2-096-06-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-096-19-d",
-          "text": "かぎりでは",
-          "grammarId": "n2-015",
-          "baseExpression": "かぎりでは",
-          "conjugatedExpression": "かぎりでは",
+          "id": "fb-created-n2-096-06-b",
+          "text": "げ",
+          "grammarId": "n2-035",
+          "baseExpression": "げ",
+          "conjugatedExpression": "げ",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-096-19-a",
-          "text": "かける",
-          "grammarId": "n2-016",
-          "baseExpression": "かける",
-          "conjugatedExpression": "かける",
+          "id": "fb-created-n2-096-06-c",
+          "text": "ことか",
+          "grammarId": "n2-036",
+          "baseExpression": "ことか",
+          "conjugatedExpression": "ことか",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-096-19-b",
+          "id": "fb-created-n2-096-06-d",
+          "text": "ことだ",
+          "grammarId": "n2-037",
+          "baseExpression": "ことだ",
+          "conjugatedExpression": "ことだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-096-06-a",
+          "text": "ない限り",
+          "grammarId": "n2-096",
+          "baseExpression": "ない限り",
+          "conjugatedExpression": "ない限り",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '구름이 걷히지 않는 한 산 정상에서 해돋이는 보이지 않을 것이다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
+      "sourceGrammarIds": [
+        "n2-096",
+        "n2-035",
+        "n2-036",
+        "n2-037"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-096-07",
+      "level": "N2",
+      "sentence": "暗証番号を入力しない限り、金庫の扉は開かない。",
+      "sentenceWithBlank": "暗証番号を入力し（　　　）、金庫の扉は開かない。",
+      "korean": "비밀번호를 입력하지 않는 한 금고 문은 열리지 않는다.",
+      "answerChoiceId": "fb-created-n2-096-07-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-096-07-c",
+          "text": "ことか",
+          "grammarId": "n2-036",
+          "baseExpression": "ことか",
+          "conjugatedExpression": "ことか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-096-07-d",
+          "text": "ことだ",
+          "grammarId": "n2-037",
+          "baseExpression": "ことだ",
+          "conjugatedExpression": "ことだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-096-07-a",
           "text": "ない限り",
           "grammarId": "n2-096",
           "baseExpression": "ない限り",
@@ -1541,53 +617,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-096-19-c",
-          "text": "かぎりだ",
-          "grammarId": "n2-014",
-          "baseExpression": "かぎりだ",
-          "conjugatedExpression": "かぎりだ",
+          "id": "fb-created-n2-096-07-b",
+          "text": "げ",
+          "grammarId": "n2-035",
+          "baseExpression": "げ",
+          "conjugatedExpression": "げ",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '비밀번호를 입력하지 않는 한 금고 문은 열리지 않는다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
       "sourceGrammarIds": [
         "n2-096",
-        "n2-014",
-        "n2-015",
-        "n2-016"
+        "n2-035",
+        "n2-036",
+        "n2-037"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-096-20",
+      "id": "fb-created-n2-096-08",
       "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlank": "この建物は許可が（　　　）、見学できません。",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
-      "answerChoiceId": "fb-extra20-n2-096-20-a",
+      "sentence": "道路の雪が解けない限り、山間部への配送は難しい。",
+      "sentenceWithBlank": "道路の雪が解け（　　　）、山間部への配送は難しい。",
+      "korean": "도로의 눈이 녹지 않는 한 산간 지역으로 배송하기는 어렵다.",
+      "answerChoiceId": "fb-created-n2-096-08-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-096-20-c",
-          "text": "にほかならない",
-          "grammarId": "n2-129",
-          "baseExpression": "にほかならない",
-          "conjugatedExpression": "にほかならない",
+          "id": "fb-created-n2-096-08-d",
+          "text": "ことだ",
+          "grammarId": "n2-037",
+          "baseExpression": "ことだ",
+          "conjugatedExpression": "ことだ",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-096-20-d",
-          "text": "にもかかわらず",
-          "grammarId": "n2-130",
-          "baseExpression": "にもかかわらず",
-          "conjugatedExpression": "にもかかわらず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-096-20-a",
+          "id": "fb-created-n2-096-08-a",
           "text": "ない限り",
           "grammarId": "n2-096",
           "baseExpression": "ない限り",
@@ -1595,25 +662,933 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-096-20-b",
-          "text": "に伴って",
-          "grammarId": "n2-128",
-          "baseExpression": "に伴って",
-          "conjugatedExpression": "に伴って",
+          "id": "fb-created-n2-096-08-b",
+          "text": "げ",
+          "grammarId": "n2-035",
+          "baseExpression": "げ",
+          "conjugatedExpression": "げ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-096-08-c",
+          "text": "ことか",
+          "grammarId": "n2-036",
+          "baseExpression": "ことか",
+          "conjugatedExpression": "ことか",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '도로의 눈이 녹지 않는 한 산간 지역으로 배송하기는 어렵다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
       "sourceGrammarIds": [
         "n2-096",
-        "n2-128",
-        "n2-129",
-        "n2-130"
+        "n2-035",
+        "n2-036",
+        "n2-037"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-096-09",
+      "level": "N2",
+      "sentence": "契約書に署名しない限り、鍵を引き渡すことはできません。",
+      "sentenceWithBlank": "契約書に署名し（　　　）、鍵を引き渡すことはできません。",
+      "korean": "계약서에 서명하지 않는 한 열쇠를 넘겨드릴 수 없습니다.",
+      "answerChoiceId": "fb-created-n2-096-09-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-096-09-a",
+          "text": "ない限り",
+          "grammarId": "n2-096",
+          "baseExpression": "ない限り",
+          "conjugatedExpression": "ない限り",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-096-09-b",
+          "text": "げ",
+          "grammarId": "n2-035",
+          "baseExpression": "げ",
+          "conjugatedExpression": "げ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-096-09-c",
+          "text": "ことか",
+          "grammarId": "n2-036",
+          "baseExpression": "ことか",
+          "conjugatedExpression": "ことか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-096-09-d",
+          "text": "ことだ",
+          "grammarId": "n2-037",
+          "baseExpression": "ことだ",
+          "conjugatedExpression": "ことだ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '계약서에 서명하지 않는 한 열쇠를 넘겨드릴 수 없습니다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
+      "sourceGrammarIds": [
+        "n2-096",
+        "n2-035",
+        "n2-036",
+        "n2-037"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-096-10",
+      "level": "N2",
+      "sentence": "原因を取り除かない限り、機械は何度でも停止する。",
+      "sentenceWithBlank": "原因を取り除か（　　　）、機械は何度でも停止する。",
+      "korean": "원인을 제거하지 않는 한 기계는 몇 번이고 멈춘다.",
+      "answerChoiceId": "fb-created-n2-096-10-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-096-10-b",
+          "text": "げ",
+          "grammarId": "n2-035",
+          "baseExpression": "げ",
+          "conjugatedExpression": "げ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-096-10-c",
+          "text": "ことか",
+          "grammarId": "n2-036",
+          "baseExpression": "ことか",
+          "conjugatedExpression": "ことか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-096-10-d",
+          "text": "ことだ",
+          "grammarId": "n2-037",
+          "baseExpression": "ことだ",
+          "conjugatedExpression": "ことだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-096-10-a",
+          "text": "ない限り",
+          "grammarId": "n2-096",
+          "baseExpression": "ない限り",
+          "conjugatedExpression": "ない限り",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '원인을 제거하지 않는 한 기계는 몇 번이고 멈춘다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
+      "sourceGrammarIds": [
+        "n2-096",
+        "n2-035",
+        "n2-036",
+        "n2-037"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-096-11",
+      "level": "N2",
+      "sentence": "家族が説得しない限り、祖父は運転をやめそうにない。",
+      "sentenceWithBlank": "家族が説得し（　　　）、祖父は運転をやめそうにない。",
+      "korean": "가족이 설득하지 않는 한 할아버지는 운전을 그만둘 것 같지 않다.",
+      "answerChoiceId": "fb-created-n2-096-11-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-096-11-c",
+          "text": "ことか",
+          "grammarId": "n2-036",
+          "baseExpression": "ことか",
+          "conjugatedExpression": "ことか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-096-11-d",
+          "text": "ことだ",
+          "grammarId": "n2-037",
+          "baseExpression": "ことだ",
+          "conjugatedExpression": "ことだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-096-11-a",
+          "text": "ない限り",
+          "grammarId": "n2-096",
+          "baseExpression": "ない限り",
+          "conjugatedExpression": "ない限り",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-096-11-b",
+          "text": "げ",
+          "grammarId": "n2-035",
+          "baseExpression": "げ",
+          "conjugatedExpression": "げ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '가족이 설득하지 않는 한 할아버지는 운전을 그만둘 것 같지 않다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
+      "sourceGrammarIds": [
+        "n2-096",
+        "n2-035",
+        "n2-036",
+        "n2-037"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-096-12",
+      "level": "N2",
+      "sentence": "気温が上がらない限り、この桜は開花しない。",
+      "sentenceWithBlank": "気温が上がら（　　　）、この桜は開花しない。",
+      "korean": "기온이 오르지 않는 한 이 벚꽃은 피지 않는다.",
+      "answerChoiceId": "fb-created-n2-096-12-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-096-12-d",
+          "text": "ことだ",
+          "grammarId": "n2-037",
+          "baseExpression": "ことだ",
+          "conjugatedExpression": "ことだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-096-12-a",
+          "text": "ない限り",
+          "grammarId": "n2-096",
+          "baseExpression": "ない限り",
+          "conjugatedExpression": "ない限り",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-096-12-b",
+          "text": "げ",
+          "grammarId": "n2-035",
+          "baseExpression": "げ",
+          "conjugatedExpression": "げ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-096-12-c",
+          "text": "ことか",
+          "grammarId": "n2-036",
+          "baseExpression": "ことか",
+          "conjugatedExpression": "ことか",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '기온이 오르지 않는 한 이 벚꽃은 피지 않는다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
+      "sourceGrammarIds": [
+        "n2-096",
+        "n2-035",
+        "n2-036",
+        "n2-037"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-096-13",
+      "level": "N2",
+      "sentence": "証拠が見つからない限り、警察は容疑者を逮捕できない。",
+      "sentenceWithBlank": "証拠が見つから（　　　）、警察は容疑者を逮捕できない。",
+      "korean": "증거가 발견되지 않는 한 경찰은 용의자를 체포할 수 없다.",
+      "answerChoiceId": "fb-created-n2-096-13-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-096-13-a",
+          "text": "ない限り",
+          "grammarId": "n2-096",
+          "baseExpression": "ない限り",
+          "conjugatedExpression": "ない限り",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-096-13-b",
+          "text": "げ",
+          "grammarId": "n2-035",
+          "baseExpression": "げ",
+          "conjugatedExpression": "げ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-096-13-c",
+          "text": "ことか",
+          "grammarId": "n2-036",
+          "baseExpression": "ことか",
+          "conjugatedExpression": "ことか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-096-13-d",
+          "text": "ことだ",
+          "grammarId": "n2-037",
+          "baseExpression": "ことだ",
+          "conjugatedExpression": "ことだ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '증거가 발견되지 않는 한 경찰은 용의자를 체포할 수 없다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
+      "sourceGrammarIds": [
+        "n2-096",
+        "n2-035",
+        "n2-036",
+        "n2-037"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-096-14",
+      "level": "N2",
+      "sentence": "予算案が承認されない限り、橋の工事は始まらない。",
+      "sentenceWithBlank": "予算案が承認され（　　　）、橋の工事は始まらない。",
+      "korean": "예산안이 승인되지 않는 한 다리 공사는 시작되지 않는다.",
+      "answerChoiceId": "fb-created-n2-096-14-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-096-14-b",
+          "text": "げ",
+          "grammarId": "n2-035",
+          "baseExpression": "げ",
+          "conjugatedExpression": "げ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-096-14-c",
+          "text": "ことか",
+          "grammarId": "n2-036",
+          "baseExpression": "ことか",
+          "conjugatedExpression": "ことか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-096-14-d",
+          "text": "ことだ",
+          "grammarId": "n2-037",
+          "baseExpression": "ことだ",
+          "conjugatedExpression": "ことだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-096-14-a",
+          "text": "ない限り",
+          "grammarId": "n2-096",
+          "baseExpression": "ない限り",
+          "conjugatedExpression": "ない限り",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '예산안이 승인되지 않는 한 다리 공사는 시작되지 않는다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
+      "sourceGrammarIds": [
+        "n2-096",
+        "n2-035",
+        "n2-036",
+        "n2-037"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-096-15",
+      "level": "N2",
+      "sentence": "通信環境が改善しない限り、離島での遠隔診療は普及しない。",
+      "sentenceWithBlank": "通信環境が改善し（　　　）、離島での遠隔診療は普及しない。",
+      "korean": "통신 환경이 개선되지 않는 한 외딴섬에서 원격 진료는 보급되지 않는다.",
+      "answerChoiceId": "fb-created-n2-096-15-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-096-15-c",
+          "text": "ことか",
+          "grammarId": "n2-036",
+          "baseExpression": "ことか",
+          "conjugatedExpression": "ことか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-096-15-d",
+          "text": "ことだ",
+          "grammarId": "n2-037",
+          "baseExpression": "ことだ",
+          "conjugatedExpression": "ことだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-096-15-a",
+          "text": "ない限り",
+          "grammarId": "n2-096",
+          "baseExpression": "ない限り",
+          "conjugatedExpression": "ない限り",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-096-15-b",
+          "text": "げ",
+          "grammarId": "n2-035",
+          "baseExpression": "げ",
+          "conjugatedExpression": "げ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '통신 환경이 개선되지 않는 한 외딴섬에서 원격 진료는 보급되지 않는다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
+      "sourceGrammarIds": [
+        "n2-096",
+        "n2-035",
+        "n2-036",
+        "n2-037"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-096-16",
+      "level": "N2",
+      "sentence": "審判が合図しない限り、選手はスタートしてはいけない。",
+      "sentenceWithBlank": "審判が合図し（　　　）、選手はスタートしてはいけない。",
+      "korean": "심판이 신호하지 않는 한 선수는 출발해서는 안 된다.",
+      "answerChoiceId": "fb-created-n2-096-16-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-096-16-d",
+          "text": "ことだ",
+          "grammarId": "n2-037",
+          "baseExpression": "ことだ",
+          "conjugatedExpression": "ことだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-096-16-a",
+          "text": "ない限り",
+          "grammarId": "n2-096",
+          "baseExpression": "ない限り",
+          "conjugatedExpression": "ない限り",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-096-16-b",
+          "text": "げ",
+          "grammarId": "n2-035",
+          "baseExpression": "げ",
+          "conjugatedExpression": "げ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-096-16-c",
+          "text": "ことか",
+          "grammarId": "n2-036",
+          "baseExpression": "ことか",
+          "conjugatedExpression": "ことか",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '심판이 신호하지 않는 한 선수는 출발해서는 안 된다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
+      "sourceGrammarIds": [
+        "n2-096",
+        "n2-035",
+        "n2-036",
+        "n2-037"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-096-17",
+      "level": "N2",
+      "sentence": "相続人全員が納得しない限り、土地は売却できない。",
+      "sentenceWithBlank": "相続人全員が納得し（　　　）、土地は売却できない。",
+      "korean": "상속인 전원이 납득하지 않는 한 토지는 매각할 수 없다.",
+      "answerChoiceId": "fb-created-n2-096-17-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-096-17-a",
+          "text": "ない限り",
+          "grammarId": "n2-096",
+          "baseExpression": "ない限り",
+          "conjugatedExpression": "ない限り",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-096-17-b",
+          "text": "げ",
+          "grammarId": "n2-035",
+          "baseExpression": "げ",
+          "conjugatedExpression": "げ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-096-17-c",
+          "text": "ことか",
+          "grammarId": "n2-036",
+          "baseExpression": "ことか",
+          "conjugatedExpression": "ことか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-096-17-d",
+          "text": "ことだ",
+          "grammarId": "n2-037",
+          "baseExpression": "ことだ",
+          "conjugatedExpression": "ことだ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '상속인 전원이 납득하지 않는 한 토지는 매각할 수 없다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
+      "sourceGrammarIds": [
+        "n2-096",
+        "n2-035",
+        "n2-036",
+        "n2-037"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-096-18",
+      "level": "N2",
+      "sentence": "潮が満ちない限り、この船を海へ戻すのは無理だ。",
+      "sentenceWithBlank": "潮が満ち（　　　）、この船を海へ戻すのは無理だ。",
+      "korean": "물이 차오르지 않는 한 이 배를 바다로 돌려보내기는 불가능하다.",
+      "answerChoiceId": "fb-created-n2-096-18-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-096-18-b",
+          "text": "げ",
+          "grammarId": "n2-035",
+          "baseExpression": "げ",
+          "conjugatedExpression": "げ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-096-18-c",
+          "text": "ことか",
+          "grammarId": "n2-036",
+          "baseExpression": "ことか",
+          "conjugatedExpression": "ことか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-096-18-d",
+          "text": "ことだ",
+          "grammarId": "n2-037",
+          "baseExpression": "ことだ",
+          "conjugatedExpression": "ことだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-096-18-a",
+          "text": "ない限り",
+          "grammarId": "n2-096",
+          "baseExpression": "ない限り",
+          "conjugatedExpression": "ない限り",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '물이 차오르지 않는 한 이 배를 바다로 돌려보내기는 불가능하다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
+      "sourceGrammarIds": [
+        "n2-096",
+        "n2-035",
+        "n2-036",
+        "n2-037"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-096-19",
+      "level": "N2",
+      "sentence": "住民票を移さない限り、その地域の選挙では投票できない。",
+      "sentenceWithBlank": "住民票を移さ（　　　）、その地域の選挙では投票できない。",
+      "korean": "주민등록을 옮기지 않는 한 그 지역 선거에서는 투표할 수 없다.",
+      "answerChoiceId": "fb-created-n2-096-19-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-096-19-c",
+          "text": "ことか",
+          "grammarId": "n2-036",
+          "baseExpression": "ことか",
+          "conjugatedExpression": "ことか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-096-19-d",
+          "text": "ことだ",
+          "grammarId": "n2-037",
+          "baseExpression": "ことだ",
+          "conjugatedExpression": "ことだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-096-19-a",
+          "text": "ない限り",
+          "grammarId": "n2-096",
+          "baseExpression": "ない限り",
+          "conjugatedExpression": "ない限り",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-096-19-b",
+          "text": "げ",
+          "grammarId": "n2-035",
+          "baseExpression": "げ",
+          "conjugatedExpression": "げ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '주민등록을 옮기지 않는 한 그 지역 선거에서는 투표할 수 없다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
+      "sourceGrammarIds": [
+        "n2-096",
+        "n2-035",
+        "n2-036",
+        "n2-037"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-096-20",
+      "level": "N2",
+      "sentence": "店主が戻らない限り、閉店後の注文には対応できません。",
+      "sentenceWithBlank": "店主が戻ら（　　　）、閉店後の注文には対応できません。",
+      "korean": "가게 주인이 돌아오지 않는 한 폐점 후 주문에는 대응할 수 없습니다.",
+      "answerChoiceId": "fb-created-n2-096-20-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-096-20-d",
+          "text": "ことだ",
+          "grammarId": "n2-037",
+          "baseExpression": "ことだ",
+          "conjugatedExpression": "ことだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-096-20-a",
+          "text": "ない限り",
+          "grammarId": "n2-096",
+          "baseExpression": "ない限り",
+          "conjugatedExpression": "ない限り",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-096-20-b",
+          "text": "げ",
+          "grammarId": "n2-035",
+          "baseExpression": "げ",
+          "conjugatedExpression": "げ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-096-20-c",
+          "text": "ことか",
+          "grammarId": "n2-036",
+          "baseExpression": "ことか",
+          "conjugatedExpression": "ことか",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '가게 주인이 돌아오지 않는 한 폐점 후 주문에는 대응할 수 없습니다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
+      "sourceGrammarIds": [
+        "n2-096",
+        "n2-035",
+        "n2-036",
+        "n2-037"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-096-21",
+      "level": "N2",
+      "sentence": "薬が効かない限り、今夜も痛みで眠れそうにない。",
+      "sentenceWithBlank": "薬が効か（　　　）、今夜も痛みで眠れそうにない。",
+      "korean": "약이 듣지 않는 한 오늘 밤도 통증 때문에 잠들 수 없을 것 같다.",
+      "answerChoiceId": "fb-created-n2-096-21-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-096-21-a",
+          "text": "ない限り",
+          "grammarId": "n2-096",
+          "baseExpression": "ない限り",
+          "conjugatedExpression": "ない限り",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-096-21-b",
+          "text": "げ",
+          "grammarId": "n2-035",
+          "baseExpression": "げ",
+          "conjugatedExpression": "げ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-096-21-c",
+          "text": "ことか",
+          "grammarId": "n2-036",
+          "baseExpression": "ことか",
+          "conjugatedExpression": "ことか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-096-21-d",
+          "text": "ことだ",
+          "grammarId": "n2-037",
+          "baseExpression": "ことだ",
+          "conjugatedExpression": "ことだ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '약이 듣지 않는 한 오늘 밤도 통증 때문에 잠들 수 없을 것 같다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
+      "sourceGrammarIds": [
+        "n2-096",
+        "n2-035",
+        "n2-036",
+        "n2-037"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-096-22",
+      "level": "N2",
+      "sentence": "消防隊が安全を確認しない限り、客はホテルに入れない。",
+      "sentenceWithBlank": "消防隊が安全を確認し（　　　）、客はホテルに入れない。",
+      "korean": "소방대가 안전을 확인하지 않는 한 투숙객은 호텔에 들어갈 수 없다.",
+      "answerChoiceId": "fb-created-n2-096-22-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-096-22-b",
+          "text": "げ",
+          "grammarId": "n2-035",
+          "baseExpression": "げ",
+          "conjugatedExpression": "げ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-096-22-c",
+          "text": "ことか",
+          "grammarId": "n2-036",
+          "baseExpression": "ことか",
+          "conjugatedExpression": "ことか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-096-22-d",
+          "text": "ことだ",
+          "grammarId": "n2-037",
+          "baseExpression": "ことだ",
+          "conjugatedExpression": "ことだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-096-22-a",
+          "text": "ない限り",
+          "grammarId": "n2-096",
+          "baseExpression": "ない限り",
+          "conjugatedExpression": "ない限り",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '소방대가 안전을 확인하지 않는 한 투숙객은 호텔에 들어갈 수 없다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
+      "sourceGrammarIds": [
+        "n2-096",
+        "n2-035",
+        "n2-036",
+        "n2-037"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-096-23",
+      "level": "N2",
+      "sentence": "雨が十分に降らない限り、農家は田植えを延期せざるを得ない。",
+      "sentenceWithBlank": "雨が十分に降ら（　　　）、農家は田植えを延期せざるを得ない。",
+      "korean": "비가 충분히 내리지 않는 한 농가는 모내기를 연기할 수밖에 없다.",
+      "answerChoiceId": "fb-created-n2-096-23-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-096-23-c",
+          "text": "ことか",
+          "grammarId": "n2-036",
+          "baseExpression": "ことか",
+          "conjugatedExpression": "ことか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-096-23-d",
+          "text": "ことだ",
+          "grammarId": "n2-037",
+          "baseExpression": "ことだ",
+          "conjugatedExpression": "ことだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-096-23-a",
+          "text": "ない限り",
+          "grammarId": "n2-096",
+          "baseExpression": "ない限り",
+          "conjugatedExpression": "ない限り",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-096-23-b",
+          "text": "げ",
+          "grammarId": "n2-035",
+          "baseExpression": "げ",
+          "conjugatedExpression": "げ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '비가 충분히 내리지 않는 한 농가는 모내기를 연기할 수밖에 없다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
+      "sourceGrammarIds": [
+        "n2-096",
+        "n2-035",
+        "n2-036",
+        "n2-037"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-096-24",
+      "level": "N2",
+      "sentence": "市場の需要が回復しない限り、鉱山の操業再開は望めない。",
+      "sentenceWithBlank": "市場の需要が回復し（　　　）、鉱山の操業再開は望めない。",
+      "korean": "시장의 수요가 회복되지 않는 한 광산의 조업 재개는 기대할 수 없다.",
+      "answerChoiceId": "fb-created-n2-096-24-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-096-24-d",
+          "text": "ことだ",
+          "grammarId": "n2-037",
+          "baseExpression": "ことだ",
+          "conjugatedExpression": "ことだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-096-24-a",
+          "text": "ない限り",
+          "grammarId": "n2-096",
+          "baseExpression": "ない限り",
+          "conjugatedExpression": "ない限り",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-096-24-b",
+          "text": "げ",
+          "grammarId": "n2-035",
+          "baseExpression": "げ",
+          "conjugatedExpression": "げ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-096-24-c",
+          "text": "ことか",
+          "grammarId": "n2-036",
+          "baseExpression": "ことか",
+          "conjugatedExpression": "ことか",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '시장의 수요가 회복되지 않는 한 광산의 조업 재개는 기대할 수 없다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
+      "sourceGrammarIds": [
+        "n2-096",
+        "n2-035",
+        "n2-036",
+        "n2-037"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-096-25",
+      "level": "N2",
+      "sentence": "飼い主が現れない限り、保護された犬は施設で暮らすことになる。",
+      "sentenceWithBlank": "飼い主が現れ（　　　）、保護された犬は施設で暮らすことになる。",
+      "korean": "주인이 나타나지 않는 한 보호된 개는 시설에서 지내게 된다.",
+      "answerChoiceId": "fb-created-n2-096-25-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-096-25-a",
+          "text": "ない限り",
+          "grammarId": "n2-096",
+          "baseExpression": "ない限り",
+          "conjugatedExpression": "ない限り",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-096-25-b",
+          "text": "げ",
+          "grammarId": "n2-035",
+          "baseExpression": "げ",
+          "conjugatedExpression": "げ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-096-25-c",
+          "text": "ことか",
+          "grammarId": "n2-036",
+          "baseExpression": "ことか",
+          "conjugatedExpression": "ことか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-096-25-d",
+          "text": "ことだ",
+          "grammarId": "n2-037",
+          "baseExpression": "ことだ",
+          "conjugatedExpression": "ことだ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '주인이 나타나지 않는 한 보호된 개는 시설에서 지내게 된다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
+      "sourceGrammarIds": [
+        "n2-096",
+        "n2-035",
+        "n2-036",
+        "n2-037"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
       ]
     }
   ],
@@ -1834,1103 +1809,1153 @@
       ]
     },
     {
-      "id": "so-extra-n2-096-1",
+      "id": "so-created-n2-096-01",
       "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlanks": "この建物は許可が ____ ____ ____ ____",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
+      "sentence": "台風が遠ざからない限り、漁船は港から出られない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "태풍이 멀어지지 않는 한 어선은 항구에서 출항할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra-n2-096-1-p3",
-          "text": "ん",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-096-1-p4",
-          "text": "ない限り",
+          "id": "so-created-n2-096-01-p1",
+          "text": "台風が遠ざから",
           "order": 1
         },
         {
-          "id": "so-extra-n2-096-1-p1",
-          "text": "見学で",
+          "id": "so-created-n2-096-01-p2",
+          "text": "ない限り、",
           "order": 2
         },
         {
-          "id": "so-extra-n2-096-1-p2",
-          "text": "きませ",
+          "id": "so-created-n2-096-01-p3",
+          "text": "漁船は港から",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-096-01-p4",
+          "text": "出られない。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-096-1-p4",
-        "so-extra-n2-096-1-p1",
-        "so-extra-n2-096-1-p2",
-        "so-extra-n2-096-1-p3"
+        "so-created-n2-096-01-p1",
+        "so-created-n2-096-01-p2",
+        "so-created-n2-096-01-p3",
+        "so-created-n2-096-01-p4"
       ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '태풍이 멀어지지 않는 한 어선은 항구에서 출항할 수 없다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
       "sourceGrammarIds": [
-        "n2-096"
+        "n2-096",
+        "n2-035",
+        "n2-036",
+        "n2-037"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-096-2",
+      "id": "so-created-n2-096-02",
       "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlanks": "この建物は許可が ____ ____ ____ ____",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
+      "sentence": "本人が同意しない限り、病院は手術の日程を決めない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "본인이 동의하지 않는 한 병원은 수술 일정을 정하지 않는다.",
       "pieces": [
         {
-          "id": "so-extra-n2-096-2-p4",
-          "text": "見学で",
-          "order": 2
-        },
-        {
-          "id": "so-extra-n2-096-2-p1",
-          "text": "きませ",
-          "order": 3
-        },
-        {
-          "id": "so-extra-n2-096-2-p2",
-          "text": "ん",
+          "id": "so-created-n2-096-02-p4",
+          "text": "日程を決めない。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-096-2-p3",
-          "text": "ない限り",
+          "id": "so-created-n2-096-02-p1",
+          "text": "本人が同意し",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-096-02-p2",
+          "text": "ない限り、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-096-02-p3",
+          "text": "病院は手術の",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-096-2-p3",
-        "so-extra-n2-096-2-p4",
-        "so-extra-n2-096-2-p1",
-        "so-extra-n2-096-2-p2"
+        "so-created-n2-096-02-p1",
+        "so-created-n2-096-02-p2",
+        "so-created-n2-096-02-p3",
+        "so-created-n2-096-02-p4"
       ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '본인이 동의하지 않는 한 병원은 수술 일정을 정하지 않는다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
       "sourceGrammarIds": [
-        "n2-096"
+        "n2-096",
+        "n2-035",
+        "n2-036",
+        "n2-037"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-096-3",
+      "id": "so-created-n2-096-03",
       "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、見学できません。",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
+      "sentence": "川の水位が下がらない限り、住民は自宅へ戻れない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "강의 수위가 내려가지 않는 한 주민들은 집으로 돌아갈 수 없다.",
       "pieces": [
         {
-          "id": "so-extra-n2-096-3-p1",
-          "text": "きませ",
+          "id": "so-created-n2-096-03-p3",
+          "text": "住民は自宅へ",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-096-03-p4",
+          "text": "戻れない。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-096-3-p2",
-          "text": "可が",
+          "id": "so-created-n2-096-03-p1",
+          "text": "川の水位が",
           "order": 1
         },
         {
-          "id": "so-extra-n2-096-3-p3",
-          "text": "ない限り",
+          "id": "so-created-n2-096-03-p2",
+          "text": "下がらない限り、",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-096-3-p4",
-          "text": "見学で",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-096-3-p2",
-        "so-extra-n2-096-3-p3",
-        "so-extra-n2-096-3-p4",
-        "so-extra-n2-096-3-p1"
+        "so-created-n2-096-03-p1",
+        "so-created-n2-096-03-p2",
+        "so-created-n2-096-03-p3",
+        "so-created-n2-096-03-p4"
       ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '강의 수위가 내려가지 않는 한 주민들은 집으로 돌아갈 수 없다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
       "sourceGrammarIds": [
-        "n2-096"
+        "n2-096",
+        "n2-035",
+        "n2-036",
+        "n2-037"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-096-4",
+      "id": "so-created-n2-096-04",
       "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlanks": "この建物は許可が ____ ____ ____ ____",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
+      "sentence": "部品が届かない限り、工場の生産ラインは再開できない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "부품이 도착하지 않는 한 공장의 생산 라인은 재가동할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra-n2-096-4-p2",
-          "text": "見学で",
+          "id": "so-created-n2-096-04-p2",
+          "text": "ない限り、工場の",
           "order": 2
         },
         {
-          "id": "so-extra-n2-096-4-p3",
-          "text": "きませ",
+          "id": "so-created-n2-096-04-p3",
+          "text": "生産ラインは",
           "order": 3
         },
         {
-          "id": "so-extra-n2-096-4-p4",
-          "text": "ん",
+          "id": "so-created-n2-096-04-p4",
+          "text": "再開できない。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-096-4-p1",
-          "text": "ない限り",
+          "id": "so-created-n2-096-04-p1",
+          "text": "部品が届か",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-096-4-p1",
-        "so-extra-n2-096-4-p2",
-        "so-extra-n2-096-4-p3",
-        "so-extra-n2-096-4-p4"
+        "so-created-n2-096-04-p1",
+        "so-created-n2-096-04-p2",
+        "so-created-n2-096-04-p3",
+        "so-created-n2-096-04-p4"
       ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '부품이 도착하지 않는 한 공장의 생산 라인은 재가동할 수 없다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
       "sourceGrammarIds": [
-        "n2-096"
+        "n2-096",
+        "n2-035",
+        "n2-036",
+        "n2-037"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-096-5",
+      "id": "so-created-n2-096-05",
       "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlanks": "この建物は許可が ____ ____ ____ ____",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
+      "sentence": "借金を返さない限り、彼は新たな融資を受けられない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "빚을 갚지 않는 한 그는 새로운 대출을 받을 수 없다.",
       "pieces": [
         {
-          "id": "so-extra-n2-096-5-p3",
-          "text": "ん",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-096-5-p4",
-          "text": "ない限り",
+          "id": "so-created-n2-096-05-p1",
+          "text": "借金を返さ",
           "order": 1
         },
         {
-          "id": "so-extra-n2-096-5-p1",
-          "text": "見学で",
+          "id": "so-created-n2-096-05-p2",
+          "text": "ない限り、彼は",
           "order": 2
         },
         {
-          "id": "so-extra-n2-096-5-p2",
-          "text": "きませ",
+          "id": "so-created-n2-096-05-p3",
+          "text": "新たな融資を",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-096-05-p4",
+          "text": "受けられない。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-096-5-p4",
-        "so-extra-n2-096-5-p1",
-        "so-extra-n2-096-5-p2",
-        "so-extra-n2-096-5-p3"
+        "so-created-n2-096-05-p1",
+        "so-created-n2-096-05-p2",
+        "so-created-n2-096-05-p3",
+        "so-created-n2-096-05-p4"
       ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '빚을 갚지 않는 한 그는 새로운 대출을 받을 수 없다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
       "sourceGrammarIds": [
-        "n2-096"
+        "n2-096",
+        "n2-035",
+        "n2-036",
+        "n2-037"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-096-01",
+      "id": "so-created-n2-096-06",
       "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlanks": "この建物は許可が ____ ____ ____ ____",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
+      "sentence": "雲が切れない限り、山頂から朝日は見えないだろう。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "구름이 걷히지 않는 한 산 정상에서 해돋이는 보이지 않을 것이다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-096-01-p3",
-          "text": "ん",
+          "id": "so-created-n2-096-06-p4",
+          "text": "見えないだろう。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-096-01-p4",
-          "text": "ない限り",
+          "id": "so-created-n2-096-06-p1",
+          "text": "雲が切れ",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-096-01-p1",
-          "text": "見学で",
+          "id": "so-created-n2-096-06-p2",
+          "text": "ない限り、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-096-01-p2",
-          "text": "きませ",
+          "id": "so-created-n2-096-06-p3",
+          "text": "山頂から朝日は",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-096-01-p4",
-        "so-extra20-n2-096-01-p1",
-        "so-extra20-n2-096-01-p2",
-        "so-extra20-n2-096-01-p3"
+        "so-created-n2-096-06-p1",
+        "so-created-n2-096-06-p2",
+        "so-created-n2-096-06-p3",
+        "so-created-n2-096-06-p4"
       ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '구름이 걷히지 않는 한 산 정상에서 해돋이는 보이지 않을 것이다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
       "sourceGrammarIds": [
-        "n2-096"
+        "n2-096",
+        "n2-035",
+        "n2-036",
+        "n2-037"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-096-02",
+      "id": "so-created-n2-096-07",
       "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlanks": "この建物は許可が ____ ____ ____ ____",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
+      "sentence": "暗証番号を入力しない限り、金庫の扉は開かない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "비밀번호를 입력하지 않는 한 금고 문은 열리지 않는다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-096-02-p2",
-          "text": "ん",
+          "id": "so-created-n2-096-07-p3",
+          "text": "金庫の扉は",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-096-07-p4",
+          "text": "開かない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-096-02-p3",
-          "text": "ない限り",
+          "id": "so-created-n2-096-07-p1",
+          "text": "暗証番号を",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-096-02-p4",
-          "text": "見学で",
+          "id": "so-created-n2-096-07-p2",
+          "text": "入力しない限り、",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-096-02-p1",
-          "text": "きませ",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-096-02-p3",
-        "so-extra20-n2-096-02-p4",
-        "so-extra20-n2-096-02-p1",
-        "so-extra20-n2-096-02-p2"
+        "so-created-n2-096-07-p1",
+        "so-created-n2-096-07-p2",
+        "so-created-n2-096-07-p3",
+        "so-created-n2-096-07-p4"
       ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '비밀번호를 입력하지 않는 한 금고 문은 열리지 않는다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
       "sourceGrammarIds": [
-        "n2-096"
+        "n2-096",
+        "n2-035",
+        "n2-036",
+        "n2-037"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-096-03",
+      "id": "so-created-n2-096-08",
       "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、見学できません。",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
+      "sentence": "道路の雪が解けない限り、山間部への配送は難しい。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 難しい。",
+      "korean": "도로의 눈이 녹지 않는 한 산간 지역으로 배송하기는 어렵다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-096-03-p1",
-          "text": "きませ",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-096-03-p2",
-          "text": "可が",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-096-03-p3",
-          "text": "ない限り",
+          "id": "so-created-n2-096-08-p2",
+          "text": "ない限り、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-096-03-p4",
-          "text": "見学で",
+          "id": "so-created-n2-096-08-p3",
+          "text": "山間部への",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-096-08-p4",
+          "text": "配送は",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-096-08-p1",
+          "text": "道路の雪が解け",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-096-03-p2",
-        "so-extra20-n2-096-03-p3",
-        "so-extra20-n2-096-03-p4",
-        "so-extra20-n2-096-03-p1"
+        "so-created-n2-096-08-p1",
+        "so-created-n2-096-08-p2",
+        "so-created-n2-096-08-p3",
+        "so-created-n2-096-08-p4"
       ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '도로의 눈이 녹지 않는 한 산간 지역으로 배송하기는 어렵다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
       "sourceGrammarIds": [
-        "n2-096"
+        "n2-096",
+        "n2-035",
+        "n2-036",
+        "n2-037"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-096-04",
+      "id": "so-created-n2-096-09",
       "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlanks": "この建物は許可が ____ ____ ____ ____",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
+      "sentence": "契約書に署名しない限り、鍵を引き渡すことはできません。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "계약서에 서명하지 않는 한 열쇠를 넘겨드릴 수 없습니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-096-04-p4",
-          "text": "ん",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-096-04-p1",
-          "text": "ない限り",
+          "id": "so-created-n2-096-09-p1",
+          "text": "契約書に",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-096-04-p2",
-          "text": "見学で",
+          "id": "so-created-n2-096-09-p2",
+          "text": "署名し",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-096-04-p3",
-          "text": "きませ",
+          "id": "so-created-n2-096-09-p3",
+          "text": "ない限り、鍵を",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-096-09-p4",
+          "text": "引き渡すことはできません。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-096-04-p1",
-        "so-extra20-n2-096-04-p2",
-        "so-extra20-n2-096-04-p3",
-        "so-extra20-n2-096-04-p4"
+        "so-created-n2-096-09-p1",
+        "so-created-n2-096-09-p2",
+        "so-created-n2-096-09-p3",
+        "so-created-n2-096-09-p4"
       ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '계약서에 서명하지 않는 한 열쇠를 넘겨드릴 수 없습니다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
       "sourceGrammarIds": [
-        "n2-096"
+        "n2-096",
+        "n2-035",
+        "n2-036",
+        "n2-037"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-096-05",
+      "id": "so-created-n2-096-10",
       "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlanks": "この建物は許可が ____ ____ ____ ____",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
+      "sentence": "原因を取り除かない限り、機械は何度でも停止する。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "원인을 제거하지 않는 한 기계는 몇 번이고 멈춘다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-096-05-p3",
-          "text": "ん",
+          "id": "so-created-n2-096-10-p4",
+          "text": "停止する。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-096-05-p4",
-          "text": "ない限り",
+          "id": "so-created-n2-096-10-p1",
+          "text": "原因を取り",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-096-05-p1",
-          "text": "見学で",
+          "id": "so-created-n2-096-10-p2",
+          "text": "除かない限り、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-096-05-p2",
-          "text": "きませ",
+          "id": "so-created-n2-096-10-p3",
+          "text": "機械は何度でも",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-096-05-p4",
-        "so-extra20-n2-096-05-p1",
-        "so-extra20-n2-096-05-p2",
-        "so-extra20-n2-096-05-p3"
+        "so-created-n2-096-10-p1",
+        "so-created-n2-096-10-p2",
+        "so-created-n2-096-10-p3",
+        "so-created-n2-096-10-p4"
       ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '원인을 제거하지 않는 한 기계는 몇 번이고 멈춘다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
       "sourceGrammarIds": [
-        "n2-096"
+        "n2-096",
+        "n2-035",
+        "n2-036",
+        "n2-037"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-096-06",
+      "id": "so-created-n2-096-11",
       "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlanks": "この建物は許可が ____ ____ ____ ____",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
+      "sentence": "家族が説得しない限り、祖父は運転をやめそうにない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "가족이 설득하지 않는 한 할아버지는 운전을 그만둘 것 같지 않다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-096-06-p2",
-          "text": "きませ",
+          "id": "so-created-n2-096-11-p3",
+          "text": "祖父は",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-096-06-p3",
-          "text": "ん",
+          "id": "so-created-n2-096-11-p4",
+          "text": "運転をやめそうにない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-096-06-p4",
-          "text": "ない限り",
+          "id": "so-created-n2-096-11-p1",
+          "text": "家族が説得し",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-096-06-p1",
-          "text": "見学で",
+          "id": "so-created-n2-096-11-p2",
+          "text": "ない限り、",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-096-06-p4",
-        "so-extra20-n2-096-06-p1",
-        "so-extra20-n2-096-06-p2",
-        "so-extra20-n2-096-06-p3"
+        "so-created-n2-096-11-p1",
+        "so-created-n2-096-11-p2",
+        "so-created-n2-096-11-p3",
+        "so-created-n2-096-11-p4"
       ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '가족이 설득하지 않는 한 할아버지는 운전을 그만둘 것 같지 않다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
       "sourceGrammarIds": [
-        "n2-096"
+        "n2-096",
+        "n2-035",
+        "n2-036",
+        "n2-037"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-096-07",
+      "id": "so-created-n2-096-12",
       "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlanks": "この建物は許可が ____ ____ ____ ____",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
+      "sentence": "気温が上がらない限り、この桜は開花しない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "기온이 오르지 않는 한 이 벚꽃은 피지 않는다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-096-07-p1",
-          "text": "きませ",
+          "id": "so-created-n2-096-12-p2",
+          "text": "ない限り、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-096-12-p3",
+          "text": "この桜は",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-096-07-p2",
-          "text": "ん",
+          "id": "so-created-n2-096-12-p4",
+          "text": "開花しない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-096-07-p3",
-          "text": "ない限り",
+          "id": "so-created-n2-096-12-p1",
+          "text": "気温が上がら",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-096-07-p4",
-          "text": "見学で",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-096-07-p3",
-        "so-extra20-n2-096-07-p4",
-        "so-extra20-n2-096-07-p1",
-        "so-extra20-n2-096-07-p2"
+        "so-created-n2-096-12-p1",
+        "so-created-n2-096-12-p2",
+        "so-created-n2-096-12-p3",
+        "so-created-n2-096-12-p4"
       ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '기온이 오르지 않는 한 이 벚꽃은 피지 않는다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
       "sourceGrammarIds": [
-        "n2-096"
+        "n2-096",
+        "n2-035",
+        "n2-036",
+        "n2-037"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-096-08",
+      "id": "so-created-n2-096-13",
       "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、見学できません。",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
+      "sentence": "証拠が見つからない限り、警察は容疑者を逮捕できない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "증거가 발견되지 않는 한 경찰은 용의자를 체포할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-096-08-p4",
-          "text": "見学で",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-096-08-p1",
-          "text": "きませ",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-096-08-p2",
-          "text": "可が",
+          "id": "so-created-n2-096-13-p1",
+          "text": "証拠が見つから",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-096-08-p3",
-          "text": "ない限り",
+          "id": "so-created-n2-096-13-p2",
+          "text": "ない限り、",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-096-13-p3",
+          "text": "警察は容疑者を",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-096-13-p4",
+          "text": "逮捕できない。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-096-08-p2",
-        "so-extra20-n2-096-08-p3",
-        "so-extra20-n2-096-08-p4",
-        "so-extra20-n2-096-08-p1"
+        "so-created-n2-096-13-p1",
+        "so-created-n2-096-13-p2",
+        "so-created-n2-096-13-p3",
+        "so-created-n2-096-13-p4"
       ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '증거가 발견되지 않는 한 경찰은 용의자를 체포할 수 없다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
       "sourceGrammarIds": [
-        "n2-096"
+        "n2-096",
+        "n2-035",
+        "n2-036",
+        "n2-037"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-096-09",
+      "id": "so-created-n2-096-14",
       "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlanks": "この建物は許可が ____ ____ ____ ____",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
+      "sentence": "予算案が承認されない限り、橋の工事は始まらない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "예산안이 승인되지 않는 한 다리 공사는 시작되지 않는다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-096-09-p3",
-          "text": "きませ",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-096-09-p4",
-          "text": "ん",
+          "id": "so-created-n2-096-14-p4",
+          "text": "始まらない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-096-09-p1",
-          "text": "ない限り",
+          "id": "so-created-n2-096-14-p1",
+          "text": "予算案が承認され",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-096-09-p2",
-          "text": "見学で",
+          "id": "so-created-n2-096-14-p2",
+          "text": "ない限り、",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-096-14-p3",
+          "text": "橋の工事は",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-096-09-p1",
-        "so-extra20-n2-096-09-p2",
-        "so-extra20-n2-096-09-p3",
-        "so-extra20-n2-096-09-p4"
+        "so-created-n2-096-14-p1",
+        "so-created-n2-096-14-p2",
+        "so-created-n2-096-14-p3",
+        "so-created-n2-096-14-p4"
       ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '예산안이 승인되지 않는 한 다리 공사는 시작되지 않는다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
       "sourceGrammarIds": [
-        "n2-096"
+        "n2-096",
+        "n2-035",
+        "n2-036",
+        "n2-037"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-096-10",
+      "id": "so-created-n2-096-15",
       "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlanks": "この建物は許可が ____ ____ ____ ____",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
+      "sentence": "通信環境が改善しない限り、離島での遠隔診療は普及しない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 普及しない。",
+      "korean": "통신 환경이 개선되지 않는 한 외딴섬에서 원격 진료는 보급되지 않는다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-096-10-p2",
-          "text": "きませ",
+          "id": "so-created-n2-096-15-p3",
+          "text": "離島での",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-096-10-p3",
-          "text": "ん",
+          "id": "so-created-n2-096-15-p4",
+          "text": "遠隔診療は",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-096-10-p4",
-          "text": "ない限り",
+          "id": "so-created-n2-096-15-p1",
+          "text": "通信環境が",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-096-10-p1",
-          "text": "見学で",
+          "id": "so-created-n2-096-15-p2",
+          "text": "改善しない限り、",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-096-10-p4",
-        "so-extra20-n2-096-10-p1",
-        "so-extra20-n2-096-10-p2",
-        "so-extra20-n2-096-10-p3"
+        "so-created-n2-096-15-p1",
+        "so-created-n2-096-15-p2",
+        "so-created-n2-096-15-p3",
+        "so-created-n2-096-15-p4"
       ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '통신 환경이 개선되지 않는 한 외딴섬에서 원격 진료는 보급되지 않는다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
       "sourceGrammarIds": [
-        "n2-096"
+        "n2-096",
+        "n2-035",
+        "n2-036",
+        "n2-037"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-096-11",
+      "id": "so-created-n2-096-16",
       "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlanks": "この建物は許可が ____ ____ ____ ____",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
+      "sentence": "審判が合図しない限り、選手はスタートしてはいけない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "심판이 신호하지 않는 한 선수는 출발해서는 안 된다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-096-11-p1",
-          "text": "見学で",
+          "id": "so-created-n2-096-16-p2",
+          "text": "ない限り、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-096-11-p2",
-          "text": "きませ",
+          "id": "so-created-n2-096-16-p3",
+          "text": "選手は",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-096-11-p3",
-          "text": "ん",
+          "id": "so-created-n2-096-16-p4",
+          "text": "スタートしてはいけない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-096-11-p4",
-          "text": "ない限り",
+          "id": "so-created-n2-096-16-p1",
+          "text": "審判が合図し",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-096-11-p4",
-        "so-extra20-n2-096-11-p1",
-        "so-extra20-n2-096-11-p2",
-        "so-extra20-n2-096-11-p3"
+        "so-created-n2-096-16-p1",
+        "so-created-n2-096-16-p2",
+        "so-created-n2-096-16-p3",
+        "so-created-n2-096-16-p4"
       ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '심판이 신호하지 않는 한 선수는 출발해서는 안 된다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
       "sourceGrammarIds": [
-        "n2-096"
+        "n2-096",
+        "n2-035",
+        "n2-036",
+        "n2-037"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-096-12",
+      "id": "so-created-n2-096-17",
       "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlanks": "この建物は許可が ____ ____ ____ ____",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
+      "sentence": "相続人全員が納得しない限り、土地は売却できない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "상속인 전원이 납득하지 않는 한 토지는 매각할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-096-12-p4",
-          "text": "見学で",
+          "id": "so-created-n2-096-17-p1",
+          "text": "相続人",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-096-17-p2",
+          "text": "全員が納得し",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-096-12-p1",
-          "text": "きませ",
+          "id": "so-created-n2-096-17-p3",
+          "text": "ない限り、土地は",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-096-12-p2",
-          "text": "ん",
+          "id": "so-created-n2-096-17-p4",
+          "text": "売却できない。",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-096-12-p3",
-          "text": "ない限り",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-096-12-p3",
-        "so-extra20-n2-096-12-p4",
-        "so-extra20-n2-096-12-p1",
-        "so-extra20-n2-096-12-p2"
+        "so-created-n2-096-17-p1",
+        "so-created-n2-096-17-p2",
+        "so-created-n2-096-17-p3",
+        "so-created-n2-096-17-p4"
       ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '상속인 전원이 납득하지 않는 한 토지는 매각할 수 없다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
       "sourceGrammarIds": [
-        "n2-096"
+        "n2-096",
+        "n2-035",
+        "n2-036",
+        "n2-037"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-096-13",
+      "id": "so-created-n2-096-18",
       "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、見学できません。",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
+      "sentence": "潮が満ちない限り、この船を海へ戻すのは無理だ。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "물이 차오르지 않는 한 이 배를 바다로 돌려보내기는 불가능하다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-096-13-p3",
-          "text": "ない限り",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-096-13-p4",
-          "text": "見学で",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-096-13-p1",
-          "text": "きませ",
+          "id": "so-created-n2-096-18-p4",
+          "text": "戻すのは無理だ。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-096-13-p2",
-          "text": "可が",
+          "id": "so-created-n2-096-18-p1",
+          "text": "潮が満ち",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-096-18-p2",
+          "text": "ない限り、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-096-18-p3",
+          "text": "この船を海へ",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-096-13-p2",
-        "so-extra20-n2-096-13-p3",
-        "so-extra20-n2-096-13-p4",
-        "so-extra20-n2-096-13-p1"
+        "so-created-n2-096-18-p1",
+        "so-created-n2-096-18-p2",
+        "so-created-n2-096-18-p3",
+        "so-created-n2-096-18-p4"
       ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '물이 차오르지 않는 한 이 배를 바다로 돌려보내기는 불가능하다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
       "sourceGrammarIds": [
-        "n2-096"
+        "n2-096",
+        "n2-035",
+        "n2-036",
+        "n2-037"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-096-14",
+      "id": "so-created-n2-096-19",
       "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlanks": "この建物は許可が ____ ____ ____ ____",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
+      "sentence": "住民票を移さない限り、その地域の選挙では投票できない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 投票できない。",
+      "korean": "주민등록을 옮기지 않는 한 그 지역 선거에서는 투표할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-096-14-p2",
-          "text": "見学で",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-096-14-p3",
-          "text": "きませ",
+          "id": "so-created-n2-096-19-p3",
+          "text": "その地域の",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-096-14-p4",
-          "text": "ん",
+          "id": "so-created-n2-096-19-p4",
+          "text": "選挙では",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-096-14-p1",
-          "text": "ない限り",
+          "id": "so-created-n2-096-19-p1",
+          "text": "住民票を移さ",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-096-19-p2",
+          "text": "ない限り、",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-096-14-p1",
-        "so-extra20-n2-096-14-p2",
-        "so-extra20-n2-096-14-p3",
-        "so-extra20-n2-096-14-p4"
+        "so-created-n2-096-19-p1",
+        "so-created-n2-096-19-p2",
+        "so-created-n2-096-19-p3",
+        "so-created-n2-096-19-p4"
       ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '주민등록을 옮기지 않는 한 그 지역 선거에서는 투표할 수 없다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
       "sourceGrammarIds": [
-        "n2-096"
+        "n2-096",
+        "n2-035",
+        "n2-036",
+        "n2-037"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-096-15",
+      "id": "so-created-n2-096-20",
       "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlanks": "この建物は許可が ____ ____ ____ ____",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
+      "sentence": "店主が戻らない限り、閉店後の注文には対応できません。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "가게 주인이 돌아오지 않는 한 폐점 후 주문에는 대응할 수 없습니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-096-15-p1",
-          "text": "見学で",
+          "id": "so-created-n2-096-20-p2",
+          "text": "ない限り、閉店",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-096-15-p2",
-          "text": "きませ",
+          "id": "so-created-n2-096-20-p3",
+          "text": "後の注文には",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-096-15-p3",
-          "text": "ん",
+          "id": "so-created-n2-096-20-p4",
+          "text": "対応できません。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-096-15-p4",
-          "text": "ない限り",
+          "id": "so-created-n2-096-20-p1",
+          "text": "店主が戻ら",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-096-15-p4",
-        "so-extra20-n2-096-15-p1",
-        "so-extra20-n2-096-15-p2",
-        "so-extra20-n2-096-15-p3"
+        "so-created-n2-096-20-p1",
+        "so-created-n2-096-20-p2",
+        "so-created-n2-096-20-p3",
+        "so-created-n2-096-20-p4"
       ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '가게 주인이 돌아오지 않는 한 폐점 후 주문에는 대응할 수 없습니다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
       "sourceGrammarIds": [
-        "n2-096"
+        "n2-096",
+        "n2-035",
+        "n2-036",
+        "n2-037"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-096-16",
+      "id": "so-created-n2-096-21",
       "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlanks": "この建物は許可が ____ ____ ____ ____",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
+      "sentence": "薬が効かない限り、今夜も痛みで眠れそうにない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "약이 듣지 않는 한 오늘 밤도 통증 때문에 잠들 수 없을 것 같다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-096-16-p4",
-          "text": "ない限り",
+          "id": "so-created-n2-096-21-p1",
+          "text": "薬が効か",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-096-16-p1",
-          "text": "見学で",
+          "id": "so-created-n2-096-21-p2",
+          "text": "ない限り、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-096-16-p2",
-          "text": "きませ",
+          "id": "so-created-n2-096-21-p3",
+          "text": "今夜も痛みで",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-096-16-p3",
-          "text": "ん",
+          "id": "so-created-n2-096-21-p4",
+          "text": "眠れそうにない。",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-096-16-p4",
-        "so-extra20-n2-096-16-p1",
-        "so-extra20-n2-096-16-p2",
-        "so-extra20-n2-096-16-p3"
+        "so-created-n2-096-21-p1",
+        "so-created-n2-096-21-p2",
+        "so-created-n2-096-21-p3",
+        "so-created-n2-096-21-p4"
       ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '약이 듣지 않는 한 오늘 밤도 통증 때문에 잠들 수 없을 것 같다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
       "sourceGrammarIds": [
-        "n2-096"
+        "n2-096",
+        "n2-035",
+        "n2-036",
+        "n2-037"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-096-17",
+      "id": "so-created-n2-096-22",
       "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlanks": "この建物は許可が ____ ____ ____ ____",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
+      "sentence": "消防隊が安全を確認しない限り、客はホテルに入れない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "소방대가 안전을 확인하지 않는 한 투숙객은 호텔에 들어갈 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-096-17-p3",
-          "text": "ない限り",
+          "id": "so-created-n2-096-22-p4",
+          "text": "入れない。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-096-22-p1",
+          "text": "消防隊が安全を",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-096-17-p4",
-          "text": "見学で",
+          "id": "so-created-n2-096-22-p2",
+          "text": "確認しない限り、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-096-17-p1",
-          "text": "きませ",
+          "id": "so-created-n2-096-22-p3",
+          "text": "客はホテルに",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-096-17-p2",
-          "text": "ん",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-096-17-p3",
-        "so-extra20-n2-096-17-p4",
-        "so-extra20-n2-096-17-p1",
-        "so-extra20-n2-096-17-p2"
+        "so-created-n2-096-22-p1",
+        "so-created-n2-096-22-p2",
+        "so-created-n2-096-22-p3",
+        "so-created-n2-096-22-p4"
       ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '소방대가 안전을 확인하지 않는 한 투숙객은 호텔에 들어갈 수 없다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
       "sourceGrammarIds": [
-        "n2-096"
+        "n2-096",
+        "n2-035",
+        "n2-036",
+        "n2-037"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-096-18",
+      "id": "so-created-n2-096-23",
       "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、見学できません。",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
+      "sentence": "雨が十分に降らない限り、農家は田植えを延期せざるを得ない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 得ない。",
+      "korean": "비가 충분히 내리지 않는 한 농가는 모내기를 연기할 수밖에 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-096-18-p2",
-          "text": "可が",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-096-18-p3",
-          "text": "ない限り",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-096-18-p4",
-          "text": "見学で",
+          "id": "so-created-n2-096-23-p3",
+          "text": "農家は田植えを",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-096-18-p1",
-          "text": "きませ",
+          "id": "so-created-n2-096-23-p4",
+          "text": "延期せざるを",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-096-23-p1",
+          "text": "雨が十分に",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-096-23-p2",
+          "text": "降らない限り、",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-096-18-p2",
-        "so-extra20-n2-096-18-p3",
-        "so-extra20-n2-096-18-p4",
-        "so-extra20-n2-096-18-p1"
+        "so-created-n2-096-23-p1",
+        "so-created-n2-096-23-p2",
+        "so-created-n2-096-23-p3",
+        "so-created-n2-096-23-p4"
       ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '비가 충분히 내리지 않는 한 농가는 모내기를 연기할 수밖에 없다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
       "sourceGrammarIds": [
-        "n2-096"
+        "n2-096",
+        "n2-035",
+        "n2-036",
+        "n2-037"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-096-19",
+      "id": "so-created-n2-096-24",
       "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlanks": "この建物は許可が ____ ____ ____ ____",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
+      "sentence": "市場の需要が回復しない限り、鉱山の操業再開は望めない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 望めない。",
+      "korean": "시장의 수요가 회복되지 않는 한 광산의 조업 재개는 기대할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-096-19-p1",
-          "text": "ない限り",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-096-19-p2",
-          "text": "見学で",
+          "id": "so-created-n2-096-24-p2",
+          "text": "需要が回復し",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-096-19-p3",
-          "text": "きませ",
+          "id": "so-created-n2-096-24-p3",
+          "text": "ない限り、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-096-19-p4",
-          "text": "ん",
+          "id": "so-created-n2-096-24-p4",
+          "text": "鉱山の操業再開は",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-096-24-p1",
+          "text": "市場の",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-096-19-p1",
-        "so-extra20-n2-096-19-p2",
-        "so-extra20-n2-096-19-p3",
-        "so-extra20-n2-096-19-p4"
+        "so-created-n2-096-24-p1",
+        "so-created-n2-096-24-p2",
+        "so-created-n2-096-24-p3",
+        "so-created-n2-096-24-p4"
       ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '시장의 수요가 회복되지 않는 한 광산의 조업 재개는 기대할 수 없다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
       "sourceGrammarIds": [
-        "n2-096"
+        "n2-096",
+        "n2-035",
+        "n2-036",
+        "n2-037"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-096-20",
+      "id": "so-created-n2-096-25",
       "level": "N2",
-      "sentence": "この建物は許可がない限り、見学できません。",
-      "sentenceWithBlanks": "この建物は許可が ____ ____ ____ ____",
-      "korean": "이 건물은 허가가 없는 한 견학할 수 없습니다.",
+      "sentence": "飼い主が現れない限り、保護された犬は施設で暮らすことになる。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "주인이 나타나지 않는 한 보호된 개는 시설에서 지내게 된다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-096-20-p4",
-          "text": "ない限り",
+          "id": "so-created-n2-096-25-p1",
+          "text": "飼い主が現れ",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-096-20-p1",
-          "text": "見学で",
+          "id": "so-created-n2-096-25-p2",
+          "text": "ない限り、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-096-20-p2",
-          "text": "きませ",
+          "id": "so-created-n2-096-25-p3",
+          "text": "保護された犬は施設で",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-096-20-p3",
-          "text": "ん",
+          "id": "so-created-n2-096-25-p4",
+          "text": "暮らすことになる。",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-096-20-p4",
-        "so-extra20-n2-096-20-p1",
-        "so-extra20-n2-096-20-p2",
-        "so-extra20-n2-096-20-p3"
+        "so-created-n2-096-25-p1",
+        "so-created-n2-096-25-p2",
+        "so-created-n2-096-25-p3",
+        "so-created-n2-096-25-p4"
       ],
-      "explanation": "「ない限り」는 ~가 없는 한, ~가 없으면라는 뜻이다. 그 조건이 없으면 뒤 일이 성립하지 않음.",
+      "explanation": "「ない限り」는 '~가 없는 한, ~가 없으면'라는 뜻을 나타낸다. 이 문장에서는 '주인이 나타나지 않는 한 보호된 개는 시설에서 지내게 된다.'라는 상황에 쓰였으며, 그 조건이 없으면 뒤 일이 성립하지 않음. 주의할 점은 조건 부정. 「許可がない限り」= 허가 없으면 불가. 강한 제한 표현.",
       "sourceGrammarIds": [
-        "n2-096"
+        "n2-096",
+        "n2-035",
+        "n2-036",
+        "n2-037"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     }
   ]

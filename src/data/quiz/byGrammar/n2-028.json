@@ -345,15 +345,23 @@
       ]
     },
     {
-      "id": "fb-extra-n2-028-1",
+      "id": "fb-created-n2-028-01",
       "level": "N2",
-      "sentence": "アメリカに住んでいたからといって、英語が完璧だとは限らない。",
-      "sentenceWithBlank": "アメリカに住んでいた（　　　）、英語が完璧だとは限らない。",
-      "korean": "미국에 살았다고 해서 영어가 완벽하다고는 할 수 없다.",
-      "answerChoiceId": "fb-extra-n2-028-1-a",
+      "sentence": "値段が高いからといって、そのワインが口に合うとは限らない。",
+      "sentenceWithBlank": "値段が高い（　　　）、そのワインが口に合うとは限らない。",
+      "korean": "가격이 비싸다고 해서 그 와인이 입맛에 맞는다고는 할 수 없다.",
+      "answerChoiceId": "fb-created-n2-028-01-a",
       "choices": [
         {
-          "id": "fb-extra-n2-028-1-b",
+          "id": "fb-created-n2-028-01-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-028-01-b",
           "text": "からには",
           "grammarId": "n2-003",
           "baseExpression": "以上は",
@@ -361,7 +369,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-028-1-c",
+          "id": "fb-created-n2-028-01-c",
           "text": "以上は",
           "grammarId": "n2-003",
           "baseExpression": "以上は",
@@ -369,23 +377,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-028-1-d",
+          "id": "fb-created-n2-028-01-d",
           "text": "だけあって",
           "grammarId": "n2-054",
           "baseExpression": "だけあって",
           "conjugatedExpression": "だけあって",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-028-1-a",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「からといって」は「〜という理由だけで、必ずしも〜とは言えない」という意味。後ろに「とは限らない」「わけではない」などの否定・制限表現が来やすい。",
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '가격이 비싸다고 해서 그 와인이 입맛에 맞는다고는 할 수 없다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
       "sourceGrammarIds": [
         "n2-028",
         "n2-003",
@@ -395,257 +395,20 @@
         "理由",
         "否定",
         "制限",
-        "유사문법",
-        "추가생성"
-      ],
-      "sentenceContext": {
-        "requiredConnectionType": "PLAIN_FORM",
-        "semanticTags": [
-          "이유",
-          "부정",
-          "제한"
-        ],
-        "expectsNegativeConclusion": true
-      }
-    },
-    {
-      "id": "fb-extra-n2-028-2",
-      "level": "N2",
-      "sentence": "アメリカに住んでいたからといって、英語がうまいとは限らない。",
-      "sentenceWithBlank": "アメリカに住んでいた（　　　）、英語がうまいとは限らない。",
-      "korean": "미국에 살았다고 해서 영어를 잘한다고는 할 수 없다.",
-      "answerChoiceId": "fb-extra-n2-028-2-d",
-      "choices": [
-        {
-          "id": "fb-extra-n2-028-2-c",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-028-2-d",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-028-2-a",
-          "text": "した以上は",
-          "grammarId": "n2-003",
-          "baseExpression": "以上は",
-          "conjugatedExpression": "した以上は",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-028-2-b",
-          "text": "だけあって",
-          "grammarId": "n2-054",
-          "baseExpression": "だけあって",
-          "conjugatedExpression": "だけあって",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「からといって」는 ~라고 해서라는 뜻이다. 앞 이유만으로 뒤 결론이 반드시 성립하지 않음.",
-      "sourceGrammarIds": [
-        "n2-028",
-        "n2-003",
-        "n2-054",
-        "n2-059"
-      ],
-      "tags": [
-        "理由",
-        "否定",
-        "制限",
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra-n2-028-3",
+      "id": "fb-created-n2-028-02",
       "level": "N2",
-      "sentence": "アメリカに住んでいたからといって、英語がうまいとは限らない。",
-      "sentenceWithBlank": "アメリカに住んでいた（　　　）、英語がうまいとは限らない。",
-      "korean": "미국에 살았다고 해서 영어를 잘한다고는 할 수 없다.",
-      "answerChoiceId": "fb-extra-n2-028-3-a",
+      "sentence": "一度謝ったからといって、失った信頼がすぐに戻るわけではない。",
+      "sentenceWithBlank": "一度謝った（　　　）、失った信頼がすぐに戻るわけではない。",
+      "korean": "한 번 사과했다고 해서 잃어버린 신뢰가 바로 회복되는 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-028-02-a",
       "choices": [
         {
-          "id": "fb-extra-n2-028-3-d",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-028-3-a",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-028-3-b",
-          "text": "した以上は",
-          "grammarId": "n2-003",
-          "baseExpression": "以上は",
-          "conjugatedExpression": "した以上は",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-028-3-c",
-          "text": "だけあって",
-          "grammarId": "n2-054",
-          "baseExpression": "だけあって",
-          "conjugatedExpression": "だけあって",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「からといって」는 ~라고 해서라는 뜻이다. 앞 이유만으로 뒤 결론이 반드시 성립하지 않음.",
-      "sourceGrammarIds": [
-        "n2-028",
-        "n2-003",
-        "n2-054",
-        "n2-059"
-      ],
-      "tags": [
-        "理由",
-        "否定",
-        "制限",
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-028-4",
-      "level": "N2",
-      "sentence": "アメリカに住んでいたからといって、英語がうまいとは限らない。",
-      "sentenceWithBlank": "アメリカに住んでいた（　　　）、英語がうまいとは限らない。",
-      "korean": "미국에 살았다고 해서 영어를 잘한다고는 할 수 없다.",
-      "answerChoiceId": "fb-extra-n2-028-4-b",
-      "choices": [
-        {
-          "id": "fb-extra-n2-028-4-a",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-028-4-b",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-028-4-c",
-          "text": "学生である以上は",
-          "grammarId": "n2-003",
-          "baseExpression": "以上は",
-          "conjugatedExpression": "学生である以上は",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-028-4-d",
-          "text": "しただけあって",
-          "grammarId": "n2-054",
-          "baseExpression": "だけあって",
-          "conjugatedExpression": "しただけあって",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「からといって」는 ~라고 해서라는 뜻이다. 앞 이유만으로 뒤 결론이 반드시 성립하지 않음.",
-      "sourceGrammarIds": [
-        "n2-028",
-        "n2-003",
-        "n2-054",
-        "n2-059"
-      ],
-      "tags": [
-        "理由",
-        "否定",
-        "制限",
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-028-5",
-      "level": "N2",
-      "sentence": "アメリカに住んでいたからといって、英語がうまいとは限らない。",
-      "sentenceWithBlank": "アメリカに住んでいた（　　　）、英語がうまいとは限らない。",
-      "korean": "미국에 살았다고 해서 영어를 잘한다고는 할 수 없다.",
-      "answerChoiceId": "fb-extra-n2-028-5-c",
-      "choices": [
-        {
-          "id": "fb-extra-n2-028-5-b",
-          "text": "した以上は",
-          "grammarId": "n2-003",
-          "baseExpression": "以上は",
-          "conjugatedExpression": "した以上は",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-028-5-c",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-028-5-d",
-          "text": "だけあって",
-          "grammarId": "n2-054",
-          "baseExpression": "だけあって",
-          "conjugatedExpression": "だけあって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-028-5-a",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「からといって」는 ~라고 해서라는 뜻이다. 앞 이유만으로 뒤 결론이 반드시 성립하지 않음.",
-      "sourceGrammarIds": [
-        "n2-028",
-        "n2-054",
-        "n2-059",
-        "n2-003"
-      ],
-      "tags": [
-        "理由",
-        "否定",
-        "制限",
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-028-01",
-      "level": "N2",
-      "sentence": "アメリカに住んでいたからといって、英語が完璧だとは限らない。",
-      "sentenceWithBlank": "アメリカに住んでいた（　　　）、英語が完璧だとは限らない。",
-      "korean": "미국에 살았다고 해서 영어가 완벽하다고는 할 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-028-01-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-028-01-b",
+          "id": "fb-created-n2-028-02-b",
           "text": "からには",
           "grammarId": "n2-003",
           "baseExpression": "以上は",
@@ -653,7 +416,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-028-01-c",
+          "id": "fb-created-n2-028-02-c",
           "text": "以上は",
           "grammarId": "n2-003",
           "baseExpression": "以上は",
@@ -661,7 +424,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-028-01-d",
+          "id": "fb-created-n2-028-02-d",
           "text": "だけあって",
           "grammarId": "n2-054",
           "baseExpression": "だけあって",
@@ -669,7 +432,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-028-01-a",
+          "id": "fb-created-n2-028-02-a",
           "text": "からといって",
           "grammarId": "n2-028",
           "baseExpression": "からといって",
@@ -677,7 +440,7 @@
           "isSimilarDistractor": false
         }
       ],
-      "explanation": "「からといって」は「〜という理由だけで、必ずしも〜とは言えない」という意味。後ろに「とは限らない」「わけではない」などの否定・制限表現が来やすい。",
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '한 번 사과했다고 해서 잃어버린 신뢰가 바로 회복되는 것은 아니다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
       "sourceGrammarIds": [
         "n2-028",
         "n2-003",
@@ -687,346 +450,52 @@
         "理由",
         "否定",
         "制限",
-        "유사문법",
-        "20개추가생성"
-      ],
-      "sentenceContext": {
-        "requiredConnectionType": "PLAIN_FORM",
-        "semanticTags": [
-          "이유",
-          "부정",
-          "제한"
-        ],
-        "expectsNegativeConclusion": true
-      }
-    },
-    {
-      "id": "fb-extra20-n2-028-02",
-      "level": "N2",
-      "sentence": "アメリカに住んでいたからといって、英語がうまいとは限らない。",
-      "sentenceWithBlank": "アメリカに住んでいた（　　　）、英語がうまいとは限らない。",
-      "korean": "미국에 살았다고 해서 영어를 잘한다고는 할 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-028-02-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-028-02-a",
-          "text": "した以上は",
-          "grammarId": "n2-003",
-          "baseExpression": "以上は",
-          "conjugatedExpression": "した以上は",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-028-02-b",
-          "text": "だけあって",
-          "grammarId": "n2-054",
-          "baseExpression": "だけあって",
-          "conjugatedExpression": "だけあって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-028-02-c",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-028-02-d",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「からといって」는 ~라고 해서라는 뜻이다. 앞 이유만으로 뒤 결론이 반드시 성립하지 않음.",
-      "sourceGrammarIds": [
-        "n2-028",
-        "n2-003",
-        "n2-054",
-        "n2-059"
-      ],
-      "tags": [
-        "理由",
-        "否定",
-        "制限",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-028-03",
+      "id": "fb-created-n2-028-03",
       "level": "N2",
-      "sentence": "アメリカに住んでいたからといって、英語がうまいとは限らない。",
-      "sentenceWithBlank": "アメリカに住んでいた（　　　）、英語がうまいとは限らない。",
-      "korean": "미국에 살았다고 해서 영어를 잘한다고는 할 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-028-03-a",
+      "sentence": "朝から雨が降っているからといって、野外公演が中止になるとは限らない。",
+      "sentenceWithBlank": "朝から雨が降っている（　　　）、野外公演が中止になるとは限らない。",
+      "korean": "아침부터 비가 온다고 해서 야외 공연이 취소된다고는 할 수 없다.",
+      "answerChoiceId": "fb-created-n2-028-03-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-028-03-d",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-028-03-a",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-028-03-b",
-          "text": "した以上は",
-          "grammarId": "n2-003",
-          "baseExpression": "以上は",
-          "conjugatedExpression": "した以上は",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-028-03-c",
-          "text": "だけあって",
-          "grammarId": "n2-054",
-          "baseExpression": "だけあって",
-          "conjugatedExpression": "だけあって",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「からといって」는 ~라고 해서라는 뜻이다. 앞 이유만으로 뒤 결론이 반드시 성립하지 않음.",
-      "sourceGrammarIds": [
-        "n2-028",
-        "n2-003",
-        "n2-054",
-        "n2-059"
-      ],
-      "tags": [
-        "理由",
-        "否定",
-        "制限",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-028-04",
-      "level": "N2",
-      "sentence": "アメリカに住んでいたからといって、英語がうまいとは限らない。",
-      "sentenceWithBlank": "アメリカに住んでいた（　　　）、英語がうまいとは限らない。",
-      "korean": "미국에 살았다고 해서 영어를 잘한다고는 할 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-028-04-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-028-04-c",
-          "text": "学生である以上は",
-          "grammarId": "n2-003",
-          "baseExpression": "以上は",
-          "conjugatedExpression": "学生である以上は",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-028-04-d",
-          "text": "しただけあって",
-          "grammarId": "n2-054",
-          "baseExpression": "だけあって",
-          "conjugatedExpression": "しただけあって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-028-04-a",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-028-04-b",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「からといって」는 ~라고 해서라는 뜻이다. 앞 이유만으로 뒤 결론이 반드시 성립하지 않음.",
-      "sourceGrammarIds": [
-        "n2-028",
-        "n2-003",
-        "n2-054",
-        "n2-059"
-      ],
-      "tags": [
-        "理由",
-        "否定",
-        "制限",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-028-05",
-      "level": "N2",
-      "sentence": "アメリカに住んでいたからといって、英語がうまいとは限らない。",
-      "sentenceWithBlank": "アメリカに住んでいた（　　　）、英語がうまいとは限らない。",
-      "korean": "미국에 살았다고 해서 영어를 잘한다고는 할 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-028-05-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-028-05-b",
-          "text": "した以上は",
-          "grammarId": "n2-003",
-          "baseExpression": "以上は",
-          "conjugatedExpression": "した以上は",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-028-05-c",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-028-05-d",
-          "text": "だけあって",
-          "grammarId": "n2-054",
-          "baseExpression": "だけあって",
-          "conjugatedExpression": "だけあって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-028-05-a",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「からといって」는 ~라고 해서라는 뜻이다. 앞 이유만으로 뒤 결론이 반드시 성립하지 않음.",
-      "sourceGrammarIds": [
-        "n2-028",
-        "n2-054",
-        "n2-059",
-        "n2-003"
-      ],
-      "tags": [
-        "理由",
-        "否定",
-        "制限",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-028-06",
-      "level": "N2",
-      "sentence": "アメリカに住んでいたからといって、英語がうまいとは限らない。",
-      "sentenceWithBlank": "アメリカに住んでいた（　　　）、英語がうまいとは限らない。",
-      "korean": "미국에 살았다고 해서 영어를 잘한다고는 할 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-028-06-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-028-06-a",
-          "text": "しただけあって",
-          "grammarId": "n2-054",
-          "baseExpression": "だけあって",
-          "conjugatedExpression": "しただけあって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-028-06-b",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-028-06-c",
-          "text": "学生である以上は",
-          "grammarId": "n2-003",
-          "baseExpression": "以上は",
-          "conjugatedExpression": "学生である以上は",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-028-06-d",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「からといって」는 ~라고 해서라는 뜻이다. 앞 이유만으로 뒤 결론이 반드시 성립하지 않음.",
-      "sourceGrammarIds": [
-        "n2-028",
-        "n2-054",
-        "n2-059",
-        "n2-003"
-      ],
-      "tags": [
-        "理由",
-        "否定",
-        "制限",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-028-07",
-      "level": "N2",
-      "sentence": "アメリカに住んでいたからといって、英語が完璧だとは限らない。",
-      "sentenceWithBlank": "アメリカに住んでいた（　　　）、英語が完璧だとは限らない。",
-      "korean": "미국에 살았다고 해서 영어가 완벽하다고는 할 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-028-07-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-028-07-d",
-          "text": "だけあって",
-          "grammarId": "n2-054",
-          "baseExpression": "だけあって",
-          "conjugatedExpression": "だけあって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-028-07-a",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-028-07-b",
-          "text": "からには",
-          "grammarId": "n2-003",
-          "baseExpression": "以上は",
-          "conjugatedExpression": "からには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-028-07-c",
+          "id": "fb-created-n2-028-03-c",
           "text": "以上は",
           "grammarId": "n2-003",
           "baseExpression": "以上は",
           "conjugatedExpression": "以上は",
           "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-03-d",
+          "text": "だけあって",
+          "grammarId": "n2-054",
+          "baseExpression": "だけあって",
+          "conjugatedExpression": "だけあって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-03-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-028-03-b",
+          "text": "からには",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "からには",
+          "isSimilarDistractor": true
         }
       ],
-      "explanation": "「からといって」は「〜という理由だけで、必ずしも〜とは言えない」という意味。後ろに「とは限らない」「わけではない」などの否定・制限表現が来やすい。",
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '아침부터 비가 온다고 해서 야외 공연이 취소된다고는 할 수 없다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
       "sourceGrammarIds": [
         "n2-028",
         "n2-003",
@@ -1036,94 +505,20 @@
         "理由",
         "否定",
         "制限",
-        "유사문법",
-        "20개추가생성"
-      ],
-      "sentenceContext": {
-        "requiredConnectionType": "PLAIN_FORM",
-        "semanticTags": [
-          "이유",
-          "부정",
-          "제한"
-        ],
-        "expectsNegativeConclusion": true
-      }
-    },
-    {
-      "id": "fb-extra20-n2-028-08",
-      "level": "N2",
-      "sentence": "アメリカに住んでいたからといって、英語がうまいとは限らない。",
-      "sentenceWithBlank": "アメリカに住んでいた（　　　）、英語がうまいとは限らない。",
-      "korean": "미국에 살았다고 해서 영어를 잘한다고는 할 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-028-08-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-028-08-c",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-028-08-d",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-028-08-a",
-          "text": "した以上は",
-          "grammarId": "n2-003",
-          "baseExpression": "以上は",
-          "conjugatedExpression": "した以上は",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-028-08-b",
-          "text": "だけあって",
-          "grammarId": "n2-054",
-          "baseExpression": "だけあって",
-          "conjugatedExpression": "だけあって",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「からといって」는 ~라고 해서라는 뜻이다. 앞 이유만으로 뒤 결론이 반드시 성립하지 않음.",
-      "sourceGrammarIds": [
-        "n2-028",
-        "n2-003",
-        "n2-054",
-        "n2-059"
-      ],
-      "tags": [
-        "理由",
-        "否定",
-        "制限",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-028-09",
+      "id": "fb-created-n2-028-04",
       "level": "N2",
-      "sentence": "アメリカに住んでいたからといって、英語がうまいとは限らない。",
-      "sentenceWithBlank": "アメリカに住んでいた（　　　）、英語がうまいとは限らない。",
-      "korean": "미국에 살았다고 해서 영어를 잘한다고는 할 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-028-09-a",
+      "sentence": "整備士の資格を持っているからといって、どんな故障でも直せるわけではない。",
+      "sentenceWithBlank": "整備士の資格を持っている（　　　）、どんな故障でも直せるわけではない。",
+      "korean": "정비사 자격증이 있다고 해서 어떤 고장이든 고칠 수 있는 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-028-04-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-028-09-b",
-          "text": "した以上は",
-          "grammarId": "n2-003",
-          "baseExpression": "以上は",
-          "conjugatedExpression": "した以上は",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-028-09-c",
+          "id": "fb-created-n2-028-04-d",
           "text": "だけあって",
           "grammarId": "n2-054",
           "baseExpression": "だけあって",
@@ -1131,56 +526,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-028-09-d",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-028-09-a",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「からといって」는 ~라고 해서라는 뜻이다. 앞 이유만으로 뒤 결론이 반드시 성립하지 않음.",
-      "sourceGrammarIds": [
-        "n2-028",
-        "n2-003",
-        "n2-054",
-        "n2-059"
-      ],
-      "tags": [
-        "理由",
-        "否定",
-        "制限",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-028-10",
-      "level": "N2",
-      "sentence": "アメリカに住んでいたからといって、英語がうまいとは限らない。",
-      "sentenceWithBlank": "アメリカに住んでいた（　　　）、英語がうまいとは限らない。",
-      "korean": "미국에 살았다고 해서 영어를 잘한다고는 할 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-028-10-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-028-10-a",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-028-10-b",
+          "id": "fb-created-n2-028-04-a",
           "text": "からといって",
           "grammarId": "n2-028",
           "baseExpression": "からといって",
@@ -1188,162 +534,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-028-10-c",
-          "text": "学生である以上は",
-          "grammarId": "n2-003",
-          "baseExpression": "以上は",
-          "conjugatedExpression": "学生である以上は",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-028-10-d",
-          "text": "しただけあって",
-          "grammarId": "n2-054",
-          "baseExpression": "だけあって",
-          "conjugatedExpression": "しただけあって",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「からといって」는 ~라고 해서라는 뜻이다. 앞 이유만으로 뒤 결론이 반드시 성립하지 않음.",
-      "sourceGrammarIds": [
-        "n2-028",
-        "n2-003",
-        "n2-054",
-        "n2-059"
-      ],
-      "tags": [
-        "理由",
-        "否定",
-        "制限",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-028-11",
-      "level": "N2",
-      "sentence": "アメリカに住んでいたからといって、英語がうまいとは限らない。",
-      "sentenceWithBlank": "アメリカに住んでいた（　　　）、英語がうまいとは限らない。",
-      "korean": "미국에 살았다고 해서 영어를 잘한다고는 할 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-028-11-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-028-11-d",
-          "text": "だけあって",
-          "grammarId": "n2-054",
-          "baseExpression": "だけあって",
-          "conjugatedExpression": "だけあって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-028-11-a",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-028-11-b",
-          "text": "した以上は",
-          "grammarId": "n2-003",
-          "baseExpression": "以上は",
-          "conjugatedExpression": "した以上は",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-028-11-c",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「からといって」는 ~라고 해서라는 뜻이다. 앞 이유만으로 뒤 결론이 반드시 성립하지 않음.",
-      "sourceGrammarIds": [
-        "n2-028",
-        "n2-054",
-        "n2-059",
-        "n2-003"
-      ],
-      "tags": [
-        "理由",
-        "否定",
-        "制限",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-028-12",
-      "level": "N2",
-      "sentence": "アメリカに住んでいたからといって、英語がうまいとは限らない。",
-      "sentenceWithBlank": "アメリカに住んでいた（　　　）、英語がうまいとは限らない。",
-      "korean": "미국에 살았다고 해서 영어를 잘한다고는 할 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-028-12-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-028-12-c",
-          "text": "学生である以上は",
-          "grammarId": "n2-003",
-          "baseExpression": "以上は",
-          "conjugatedExpression": "学生である以上は",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-028-12-d",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-028-12-a",
-          "text": "しただけあって",
-          "grammarId": "n2-054",
-          "baseExpression": "だけあって",
-          "conjugatedExpression": "しただけあって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-028-12-b",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「からといって」는 ~라고 해서라는 뜻이다. 앞 이유만으로 뒤 결론이 반드시 성립하지 않음.",
-      "sourceGrammarIds": [
-        "n2-028",
-        "n2-054",
-        "n2-059",
-        "n2-003"
-      ],
-      "tags": [
-        "理由",
-        "否定",
-        "制限",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-028-13",
-      "level": "N2",
-      "sentence": "アメリカに住んでいたからといって、英語が完璧だとは限らない。",
-      "sentenceWithBlank": "アメリカに住んでいた（　　　）、英語が完璧だとは限らない。",
-      "korean": "미국에 살았다고 해서 영어가 완벽하다고는 할 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-028-13-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-028-13-b",
+          "id": "fb-created-n2-028-04-b",
           "text": "からには",
           "grammarId": "n2-003",
           "baseExpression": "以上は",
@@ -1351,31 +542,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-028-13-c",
+          "id": "fb-created-n2-028-04-c",
           "text": "以上は",
           "grammarId": "n2-003",
           "baseExpression": "以上は",
           "conjugatedExpression": "以上は",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-028-13-d",
-          "text": "だけあって",
-          "grammarId": "n2-054",
-          "baseExpression": "だけあって",
-          "conjugatedExpression": "だけあって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-028-13-a",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「からといって」は「〜という理由だけで、必ずしも〜とは言えない」という意味。後ろに「とは限らない」「わけではない」などの否定・制限表現が来やすい。",
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '정비사 자격증이 있다고 해서 어떤 고장이든 고칠 수 있는 것은 아니다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
       "sourceGrammarIds": [
         "n2-028",
         "n2-003",
@@ -1385,94 +560,20 @@
         "理由",
         "否定",
         "制限",
-        "유사문법",
-        "20개추가생성"
-      ],
-      "sentenceContext": {
-        "requiredConnectionType": "PLAIN_FORM",
-        "semanticTags": [
-          "이유",
-          "부정",
-          "제한"
-        ],
-        "expectsNegativeConclusion": true
-      }
-    },
-    {
-      "id": "fb-extra20-n2-028-14",
-      "level": "N2",
-      "sentence": "アメリカに住んでいたからといって、英語がうまいとは限らない。",
-      "sentenceWithBlank": "アメリカに住んでいた（　　　）、英語がうまいとは限らない。",
-      "korean": "미국에 살았다고 해서 영어를 잘한다고는 할 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-028-14-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-028-14-a",
-          "text": "した以上は",
-          "grammarId": "n2-003",
-          "baseExpression": "以上は",
-          "conjugatedExpression": "した以上は",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-028-14-b",
-          "text": "だけあって",
-          "grammarId": "n2-054",
-          "baseExpression": "だけあって",
-          "conjugatedExpression": "だけあって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-028-14-c",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-028-14-d",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「からといって」는 ~라고 해서라는 뜻이다. 앞 이유만으로 뒤 결론이 반드시 성립하지 않음.",
-      "sourceGrammarIds": [
-        "n2-028",
-        "n2-003",
-        "n2-054",
-        "n2-059"
-      ],
-      "tags": [
-        "理由",
-        "否定",
-        "制限",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-028-15",
+      "id": "fb-created-n2-028-05",
       "level": "N2",
-      "sentence": "アメリカに住んでいたからといって、英語がうまいとは限らない。",
-      "sentenceWithBlank": "アメリカに住んでいた（　　　）、英語がうまいとは限らない。",
-      "korean": "미국에 살았다고 해서 영어를 잘한다고는 할 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-028-15-a",
+      "sentence": "家族に反対されたからといって、海外への移住を諦める必要はない。",
+      "sentenceWithBlank": "家族に反対された（　　　）、海外への移住を諦める必要はない。",
+      "korean": "가족이 반대했다고 해서 해외 이주를 포기할 필요는 없다.",
+      "answerChoiceId": "fb-created-n2-028-05-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-028-15-d",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-028-15-a",
+          "id": "fb-created-n2-028-05-a",
           "text": "からといって",
           "grammarId": "n2-028",
           "baseExpression": "からといって",
@@ -1480,235 +581,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-028-15-b",
-          "text": "した以上は",
-          "grammarId": "n2-003",
-          "baseExpression": "以上は",
-          "conjugatedExpression": "した以上は",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-028-15-c",
-          "text": "だけあって",
-          "grammarId": "n2-054",
-          "baseExpression": "だけあって",
-          "conjugatedExpression": "だけあって",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「からといって」는 ~라고 해서라는 뜻이다. 앞 이유만으로 뒤 결론이 반드시 성립하지 않음.",
-      "sourceGrammarIds": [
-        "n2-028",
-        "n2-003",
-        "n2-054",
-        "n2-059"
-      ],
-      "tags": [
-        "理由",
-        "否定",
-        "制限",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-028-16",
-      "level": "N2",
-      "sentence": "アメリカに住んでいたからといって、英語がうまいとは限らない。",
-      "sentenceWithBlank": "アメリカに住んでいた（　　　）、英語がうまいとは限らない。",
-      "korean": "미국에 살았다고 해서 영어를 잘한다고는 할 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-028-16-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-028-16-c",
-          "text": "学生である以上は",
-          "grammarId": "n2-003",
-          "baseExpression": "以上は",
-          "conjugatedExpression": "学生である以上は",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-028-16-d",
-          "text": "しただけあって",
-          "grammarId": "n2-054",
-          "baseExpression": "だけあって",
-          "conjugatedExpression": "しただけあって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-028-16-a",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-028-16-b",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「からといって」는 ~라고 해서라는 뜻이다. 앞 이유만으로 뒤 결론이 반드시 성립하지 않음.",
-      "sourceGrammarIds": [
-        "n2-028",
-        "n2-003",
-        "n2-054",
-        "n2-059"
-      ],
-      "tags": [
-        "理由",
-        "否定",
-        "制限",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-028-17",
-      "level": "N2",
-      "sentence": "アメリカに住んでいたからといって、英語がうまいとは限らない。",
-      "sentenceWithBlank": "アメリカに住んでいた（　　　）、英語がうまいとは限らない。",
-      "korean": "미국에 살았다고 해서 영어를 잘한다고는 할 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-028-17-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-028-17-b",
-          "text": "した以上は",
-          "grammarId": "n2-003",
-          "baseExpression": "以上は",
-          "conjugatedExpression": "した以上は",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-028-17-c",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-028-17-d",
-          "text": "だけあって",
-          "grammarId": "n2-054",
-          "baseExpression": "だけあって",
-          "conjugatedExpression": "だけあって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-028-17-a",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「からといって」는 ~라고 해서라는 뜻이다. 앞 이유만으로 뒤 결론이 반드시 성립하지 않음.",
-      "sourceGrammarIds": [
-        "n2-028",
-        "n2-054",
-        "n2-059",
-        "n2-003"
-      ],
-      "tags": [
-        "理由",
-        "否定",
-        "制限",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-028-18",
-      "level": "N2",
-      "sentence": "アメリカに住んでいたからといって、英語がうまいとは限らない。",
-      "sentenceWithBlank": "アメリカに住んでいた（　　　）、英語がうまいとは限らない。",
-      "korean": "미국에 살았다고 해서 영어를 잘한다고는 할 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-028-18-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-028-18-a",
-          "text": "しただけあって",
-          "grammarId": "n2-054",
-          "baseExpression": "だけあって",
-          "conjugatedExpression": "しただけあって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-028-18-b",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-028-18-c",
-          "text": "学生である以上は",
-          "grammarId": "n2-003",
-          "baseExpression": "以上は",
-          "conjugatedExpression": "学生である以上は",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-028-18-d",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「からといって」는 ~라고 해서라는 뜻이다. 앞 이유만으로 뒤 결론이 반드시 성립하지 않음.",
-      "sourceGrammarIds": [
-        "n2-028",
-        "n2-054",
-        "n2-059",
-        "n2-003"
-      ],
-      "tags": [
-        "理由",
-        "否定",
-        "制限",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-028-19",
-      "level": "N2",
-      "sentence": "アメリカに住んでいたからといって、英語が完璧だとは限らない。",
-      "sentenceWithBlank": "アメリカに住んでいた（　　　）、英語が完璧だとは限らない。",
-      "korean": "미국에 살았다고 해서 영어가 완벽하다고는 할 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-028-19-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-028-19-d",
-          "text": "だけあって",
-          "grammarId": "n2-054",
-          "baseExpression": "だけあって",
-          "conjugatedExpression": "だけあって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-028-19-a",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-028-19-b",
+          "id": "fb-created-n2-028-05-b",
           "text": "からには",
           "grammarId": "n2-003",
           "baseExpression": "以上は",
@@ -1716,15 +589,23 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-028-19-c",
+          "id": "fb-created-n2-028-05-c",
           "text": "以上は",
           "grammarId": "n2-003",
           "baseExpression": "以上は",
           "conjugatedExpression": "以上は",
           "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-05-d",
+          "text": "だけあって",
+          "grammarId": "n2-054",
+          "baseExpression": "だけあって",
+          "conjugatedExpression": "だけあって",
+          "isSimilarDistractor": true
         }
       ],
-      "explanation": "「からといって」は「〜という理由だけで、必ずしも〜とは言えない」という意味。後ろに「とは限らない」「わけではない」などの否定・制限表現が来やすい。",
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '가족이 반대했다고 해서 해외 이주를 포기할 필요는 없다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
       "sourceGrammarIds": [
         "n2-028",
         "n2-003",
@@ -1734,37 +615,91 @@
         "理由",
         "否定",
         "制限",
-        "유사문법",
-        "20개추가생성"
-      ],
-      "sentenceContext": {
-        "requiredConnectionType": "PLAIN_FORM",
-        "semanticTags": [
-          "이유",
-          "부정",
-          "제한"
-        ],
-        "expectsNegativeConclusion": true
-      }
+        "신규예문",
+        "빈칸"
+      ]
     },
     {
-      "id": "fb-extra20-n2-028-20",
+      "id": "fb-created-n2-028-06",
       "level": "N2",
-      "sentence": "アメリカに住んでいたからといって、英語がうまいとは限らない。",
-      "sentenceWithBlank": "アメリカに住んでいた（　　　）、英語がうまいとは限らない。",
-      "korean": "미국에 살았다고 해서 영어를 잘한다고는 할 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-028-20-d",
+      "sentence": "在宅勤務だからといって、一日中自由に過ごせるわけではない。",
+      "sentenceWithBlank": "在宅勤務だ（　　　）、一日中自由に過ごせるわけではない。",
+      "korean": "재택근무라고 해서 하루 종일 자유롭게 지낼 수 있는 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-028-06-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-028-20-c",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
+          "id": "fb-created-n2-028-06-b",
+          "text": "からには",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "からには",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-028-20-d",
+          "id": "fb-created-n2-028-06-c",
+          "text": "以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "以上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-06-d",
+          "text": "だけあって",
+          "grammarId": "n2-054",
+          "baseExpression": "だけあって",
+          "conjugatedExpression": "だけあって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-06-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '재택근무라고 해서 하루 종일 자유롭게 지낼 수 있는 것은 아니다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
+      "sourceGrammarIds": [
+        "n2-028",
+        "n2-003",
+        "n2-054"
+      ],
+      "tags": [
+        "理由",
+        "否定",
+        "制限",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-028-07",
+      "level": "N2",
+      "sentence": "評判の店だからといって、予約なしで入れるとは限らない。",
+      "sentenceWithBlank": "評判の店だ（　　　）、予約なしで入れるとは限らない。",
+      "korean": "평판이 좋은 식당이라고 해서 예약 없이 들어갈 수 있다고는 할 수 없다.",
+      "answerChoiceId": "fb-created-n2-028-07-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-028-07-c",
+          "text": "以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "以上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-07-d",
+          "text": "だけあって",
+          "grammarId": "n2-054",
+          "baseExpression": "だけあって",
+          "conjugatedExpression": "だけあって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-07-a",
           "text": "からといって",
           "grammarId": "n2-028",
           "baseExpression": "からといって",
@@ -1772,15 +707,117 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-028-20-a",
-          "text": "した以上は",
+          "id": "fb-created-n2-028-07-b",
+          "text": "からには",
           "grammarId": "n2-003",
           "baseExpression": "以上は",
-          "conjugatedExpression": "した以上は",
+          "conjugatedExpression": "からには",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '평판이 좋은 식당이라고 해서 예약 없이 들어갈 수 있다고는 할 수 없다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
+      "sourceGrammarIds": [
+        "n2-028",
+        "n2-003",
+        "n2-054"
+      ],
+      "tags": [
+        "理由",
+        "否定",
+        "制限",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-028-08",
+      "level": "N2",
+      "sentence": "子どもが黙っているからといって、事情を理解しているとは限らない。",
+      "sentenceWithBlank": "子どもが黙っている（　　　）、事情を理解しているとは限らない。",
+      "korean": "아이가 말없이 있다고 해서 사정을 이해하고 있다고는 할 수 없다.",
+      "answerChoiceId": "fb-created-n2-028-08-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-028-08-d",
+          "text": "だけあって",
+          "grammarId": "n2-054",
+          "baseExpression": "だけあって",
+          "conjugatedExpression": "だけあって",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-028-20-b",
+          "id": "fb-created-n2-028-08-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-028-08-b",
+          "text": "からには",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "からには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-08-c",
+          "text": "以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "以上は",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '아이가 말없이 있다고 해서 사정을 이해하고 있다고는 할 수 없다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
+      "sourceGrammarIds": [
+        "n2-028",
+        "n2-003",
+        "n2-054"
+      ],
+      "tags": [
+        "理由",
+        "否定",
+        "制限",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-028-09",
+      "level": "N2",
+      "sentence": "築年数が長いからといって、その建物が危険だと決めつけるべきではない。",
+      "sentenceWithBlank": "築年数が長い（　　　）、その建物が危険だと決めつけるべきではない。",
+      "korean": "지은 지 오래됐다고 해서 그 건물이 위험하다고 단정해서는 안 된다.",
+      "answerChoiceId": "fb-created-n2-028-09-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-028-09-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-028-09-b",
+          "text": "からには",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "からには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-09-c",
+          "text": "以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "以上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-09-d",
           "text": "だけあって",
           "grammarId": "n2-054",
           "baseExpression": "だけあって",
@@ -1788,20 +825,898 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「からといって」는 ~라고 해서라는 뜻이다. 앞 이유만으로 뒤 결론이 반드시 성립하지 않음.",
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '지은 지 오래됐다고 해서 그 건물이 위험하다고 단정해서는 안 된다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
       "sourceGrammarIds": [
         "n2-028",
         "n2-003",
-        "n2-054",
-        "n2-059"
+        "n2-054"
       ],
       "tags": [
         "理由",
         "否定",
         "制限",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-028-10",
+      "level": "N2",
+      "sentence": "給料が高いからといって、仕事にやりがいを感じられるわけではない。",
+      "sentenceWithBlank": "給料が高い（　　　）、仕事にやりがいを感じられるわけではない。",
+      "korean": "급여가 높다고 해서 일에서 보람을 느낄 수 있는 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-028-10-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-028-10-b",
+          "text": "からには",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "からには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-10-c",
+          "text": "以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "以上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-10-d",
+          "text": "だけあって",
+          "grammarId": "n2-054",
+          "baseExpression": "だけあって",
+          "conjugatedExpression": "だけあって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-10-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '급여가 높다고 해서 일에서 보람을 느낄 수 있는 것은 아니다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
+      "sourceGrammarIds": [
+        "n2-028",
+        "n2-003",
+        "n2-054"
+      ],
+      "tags": [
+        "理由",
+        "否定",
+        "制限",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-028-11",
+      "level": "N2",
+      "sentence": "有機栽培の食品だからといって、誰にもアレルギーが起きないとは限らない。",
+      "sentenceWithBlank": "有機栽培の食品だ（　　　）、誰にもアレルギーが起きないとは限らない。",
+      "korean": "유기농 식품이라고 해서 누구에게도 알레르기가 생기지 않는다고는 할 수 없다.",
+      "answerChoiceId": "fb-created-n2-028-11-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-028-11-c",
+          "text": "以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "以上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-11-d",
+          "text": "だけあって",
+          "grammarId": "n2-054",
+          "baseExpression": "だけあって",
+          "conjugatedExpression": "だけあって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-11-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-028-11-b",
+          "text": "からには",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "からには",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '유기농 식품이라고 해서 누구에게도 알레르기가 생기지 않는다고는 할 수 없다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
+      "sourceGrammarIds": [
+        "n2-028",
+        "n2-003",
+        "n2-054"
+      ],
+      "tags": [
+        "理由",
+        "否定",
+        "制限",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-028-12",
+      "level": "N2",
+      "sentence": "有名な医師が担当するからといって、手術の成功が保証されるわけではない。",
+      "sentenceWithBlank": "有名な医師が担当する（　　　）、手術の成功が保証されるわけではない。",
+      "korean": "유명한 의사가 담당한다고 해서 수술의 성공이 보장되는 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-028-12-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-028-12-d",
+          "text": "だけあって",
+          "grammarId": "n2-054",
+          "baseExpression": "だけあって",
+          "conjugatedExpression": "だけあって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-12-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-028-12-b",
+          "text": "からには",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "からには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-12-c",
+          "text": "以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "以上は",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '유명한 의사가 담당한다고 해서 수술의 성공이 보장되는 것은 아니다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
+      "sourceGrammarIds": [
+        "n2-028",
+        "n2-003",
+        "n2-054"
+      ],
+      "tags": [
+        "理由",
+        "否定",
+        "制限",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-028-13",
+      "level": "N2",
+      "sentence": "地図に近道と書いてあるからといって、早く着けるとは限らない。",
+      "sentenceWithBlank": "地図に近道と書いてある（　　　）、早く着けるとは限らない。",
+      "korean": "지도에 지름길이라고 적혀 있다고 해서 빨리 도착할 수 있다고는 할 수 없다.",
+      "answerChoiceId": "fb-created-n2-028-13-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-028-13-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-028-13-b",
+          "text": "からには",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "からには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-13-c",
+          "text": "以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "以上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-13-d",
+          "text": "だけあって",
+          "grammarId": "n2-054",
+          "baseExpression": "だけあって",
+          "conjugatedExpression": "だけあって",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '지도에 지름길이라고 적혀 있다고 해서 빨리 도착할 수 있다고는 할 수 없다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
+      "sourceGrammarIds": [
+        "n2-028",
+        "n2-003",
+        "n2-054"
+      ],
+      "tags": [
+        "理由",
+        "否定",
+        "制限",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-028-14",
+      "level": "N2",
+      "sentence": "結婚したからといって、孤独を感じなくなるわけではない。",
+      "sentenceWithBlank": "結婚した（　　　）、孤独を感じなくなるわけではない。",
+      "korean": "결혼했다고 해서 외로움을 느끼지 않게 되는 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-028-14-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-028-14-b",
+          "text": "からには",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "からには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-14-c",
+          "text": "以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "以上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-14-d",
+          "text": "だけあって",
+          "grammarId": "n2-054",
+          "baseExpression": "だけあって",
+          "conjugatedExpression": "だけあって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-14-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '결혼했다고 해서 외로움을 느끼지 않게 되는 것은 아니다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
+      "sourceGrammarIds": [
+        "n2-028",
+        "n2-003",
+        "n2-054"
+      ],
+      "tags": [
+        "理由",
+        "否定",
+        "制限",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-028-15",
+      "level": "N2",
+      "sentence": "大切な写真を削除したからといって、復元を諦める必要はない。",
+      "sentenceWithBlank": "大切な写真を削除した（　　　）、復元を諦める必要はない。",
+      "korean": "소중한 사진을 삭제했다고 해서 복원을 포기할 필요는 없다.",
+      "answerChoiceId": "fb-created-n2-028-15-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-028-15-c",
+          "text": "以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "以上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-15-d",
+          "text": "だけあって",
+          "grammarId": "n2-054",
+          "baseExpression": "だけあって",
+          "conjugatedExpression": "だけあって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-15-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-028-15-b",
+          "text": "からには",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "からには",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '소중한 사진을 삭제했다고 해서 복원을 포기할 필요는 없다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
+      "sourceGrammarIds": [
+        "n2-028",
+        "n2-003",
+        "n2-054"
+      ],
+      "tags": [
+        "理由",
+        "否定",
+        "制限",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-028-16",
+      "level": "N2",
+      "sentence": "契約の期限を過ぎたからといって、条件を交渉できないとは限らない。",
+      "sentenceWithBlank": "契約の期限を過ぎた（　　　）、条件を交渉できないとは限らない。",
+      "korean": "계약 기한이 지났다고 해서 조건을 협상할 수 없는 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-028-16-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-028-16-d",
+          "text": "だけあって",
+          "grammarId": "n2-054",
+          "baseExpression": "だけあって",
+          "conjugatedExpression": "だけあって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-16-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-028-16-b",
+          "text": "からには",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "からには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-16-c",
+          "text": "以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "以上は",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '계약 기한이 지났다고 해서 조건을 협상할 수 없는 것은 아니다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
+      "sourceGrammarIds": [
+        "n2-028",
+        "n2-003",
+        "n2-054"
+      ],
+      "tags": [
+        "理由",
+        "否定",
+        "制限",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-028-17",
+      "level": "N2",
+      "sentence": "地元の人が勧めたからといって、その料理が自分の好みに合うとは限らない。",
+      "sentenceWithBlank": "地元の人が勧めた（　　　）、その料理が自分の好みに合うとは限らない。",
+      "korean": "현지인이 추천했다고 해서 그 음식이 자기 취향에 맞는다고는 할 수 없다.",
+      "answerChoiceId": "fb-created-n2-028-17-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-028-17-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-028-17-b",
+          "text": "からには",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "からには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-17-c",
+          "text": "以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "以上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-17-d",
+          "text": "だけあって",
+          "grammarId": "n2-054",
+          "baseExpression": "だけあって",
+          "conjugatedExpression": "だけあって",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '현지인이 추천했다고 해서 그 음식이 자기 취향에 맞는다고는 할 수 없다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
+      "sourceGrammarIds": [
+        "n2-028",
+        "n2-003",
+        "n2-054"
+      ],
+      "tags": [
+        "理由",
+        "否定",
+        "制限",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-028-18",
+      "level": "N2",
+      "sentence": "毎日運動しているからといって、けがをしないわけではない。",
+      "sentenceWithBlank": "毎日運動している（　　　）、けがをしないわけではない。",
+      "korean": "매일 운동한다고 해서 부상을 입지 않는 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-028-18-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-028-18-b",
+          "text": "からには",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "からには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-18-c",
+          "text": "以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "以上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-18-d",
+          "text": "だけあって",
+          "grammarId": "n2-054",
+          "baseExpression": "だけあって",
+          "conjugatedExpression": "だけあって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-18-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '매일 운동한다고 해서 부상을 입지 않는 것은 아니다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
+      "sourceGrammarIds": [
+        "n2-028",
+        "n2-003",
+        "n2-054"
+      ],
+      "tags": [
+        "理由",
+        "否定",
+        "制限",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-028-19",
+      "level": "N2",
+      "sentence": "文章を人工知能が作ったからといって、人間による確認が不要なわけではない。",
+      "sentenceWithBlank": "文章を人工知能が作った（　　　）、人間による確認が不要なわけではない。",
+      "korean": "글을 인공지능이 작성했다고 해서 사람의 확인이 필요 없는 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-028-19-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-028-19-c",
+          "text": "以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "以上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-19-d",
+          "text": "だけあって",
+          "grammarId": "n2-054",
+          "baseExpression": "だけあって",
+          "conjugatedExpression": "だけあって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-19-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-028-19-b",
+          "text": "からには",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "からには",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '글을 인공지능이 작성했다고 해서 사람의 확인이 필요 없는 것은 아니다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
+      "sourceGrammarIds": [
+        "n2-028",
+        "n2-003",
+        "n2-054"
+      ],
+      "tags": [
+        "理由",
+        "否定",
+        "制限",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-028-20",
+      "level": "N2",
+      "sentence": "末っ子だからといって、わがままが許されるものではない。",
+      "sentenceWithBlank": "末っ子だ（　　　）、わがままが許されるものではない。",
+      "korean": "막내라고 해서 제멋대로 구는 것이 허용되는 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-028-20-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-028-20-d",
+          "text": "だけあって",
+          "grammarId": "n2-054",
+          "baseExpression": "だけあって",
+          "conjugatedExpression": "だけあって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-20-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-028-20-b",
+          "text": "からには",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "からには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-20-c",
+          "text": "以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "以上は",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '막내라고 해서 제멋대로 구는 것이 허용되는 것은 아니다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
+      "sourceGrammarIds": [
+        "n2-028",
+        "n2-003",
+        "n2-054"
+      ],
+      "tags": [
+        "理由",
+        "否定",
+        "制限",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-028-21",
+      "level": "N2",
+      "sentence": "田舎に住んでいるからといって、生活が不便だとは限らない。",
+      "sentenceWithBlank": "田舎に住んでいる（　　　）、生活が不便だとは限らない。",
+      "korean": "시골에 산다고 해서 생활이 불편하다고는 할 수 없다.",
+      "answerChoiceId": "fb-created-n2-028-21-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-028-21-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-028-21-b",
+          "text": "からには",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "からには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-21-c",
+          "text": "以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "以上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-21-d",
+          "text": "だけあって",
+          "grammarId": "n2-054",
+          "baseExpression": "だけあって",
+          "conjugatedExpression": "だけあって",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '시골에 산다고 해서 생활이 불편하다고는 할 수 없다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
+      "sourceGrammarIds": [
+        "n2-028",
+        "n2-003",
+        "n2-054"
+      ],
+      "tags": [
+        "理由",
+        "否定",
+        "制限",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-028-22",
+      "level": "N2",
+      "sentence": "営業成績が優秀だからといって、管理職に向いているとは限らない。",
+      "sentenceWithBlank": "営業成績が優秀だ（　　　）、管理職に向いているとは限らない。",
+      "korean": "영업 실적이 뛰어나다고 해서 관리직에 적합하다고는 할 수 없다.",
+      "answerChoiceId": "fb-created-n2-028-22-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-028-22-b",
+          "text": "からには",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "からには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-22-c",
+          "text": "以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "以上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-22-d",
+          "text": "だけあって",
+          "grammarId": "n2-054",
+          "baseExpression": "だけあって",
+          "conjugatedExpression": "だけあって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-22-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '영업 실적이 뛰어나다고 해서 관리직에 적합하다고는 할 수 없다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
+      "sourceGrammarIds": [
+        "n2-028",
+        "n2-003",
+        "n2-054"
+      ],
+      "tags": [
+        "理由",
+        "否定",
+        "制限",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-028-23",
+      "level": "N2",
+      "sentence": "新商品が初日に売り切れたからといって、人気が長く続くとは限らない。",
+      "sentenceWithBlank": "新商品が初日に売り切れた（　　　）、人気が長く続くとは限らない。",
+      "korean": "신제품이 첫날에 매진됐다고 해서 인기가 오래 지속된다고는 할 수 없다.",
+      "answerChoiceId": "fb-created-n2-028-23-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-028-23-c",
+          "text": "以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "以上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-23-d",
+          "text": "だけあって",
+          "grammarId": "n2-054",
+          "baseExpression": "だけあって",
+          "conjugatedExpression": "だけあって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-23-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-028-23-b",
+          "text": "からには",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "からには",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '신제품이 첫날에 매진됐다고 해서 인기가 오래 지속된다고는 할 수 없다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
+      "sourceGrammarIds": [
+        "n2-028",
+        "n2-003",
+        "n2-054"
+      ],
+      "tags": [
+        "理由",
+        "否定",
+        "制限",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-028-24",
+      "level": "N2",
+      "sentence": "熱が下がったからといって、完全に回復したわけではない。",
+      "sentenceWithBlank": "熱が下がった（　　　）、完全に回復したわけではない。",
+      "korean": "열이 내렸다고 해서 완전히 회복된 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-028-24-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-028-24-d",
+          "text": "だけあって",
+          "grammarId": "n2-054",
+          "baseExpression": "だけあって",
+          "conjugatedExpression": "だけあって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-24-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-028-24-b",
+          "text": "からには",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "からには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-24-c",
+          "text": "以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "以上は",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '열이 내렸다고 해서 완전히 회복된 것은 아니다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
+      "sourceGrammarIds": [
+        "n2-028",
+        "n2-003",
+        "n2-054"
+      ],
+      "tags": [
+        "理由",
+        "否定",
+        "制限",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-028-25",
+      "level": "N2",
+      "sentence": "会議で誰も反対しなかったからといって、全員が賛成したとは限らない。",
+      "sentenceWithBlank": "会議で誰も反対しなかった（　　　）、全員が賛成したとは限らない。",
+      "korean": "회의에서 아무도 반대하지 않았다고 해서 전원이 찬성했다고는 할 수 없다.",
+      "answerChoiceId": "fb-created-n2-028-25-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-028-25-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-028-25-b",
+          "text": "からには",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "からには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-25-c",
+          "text": "以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "以上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-028-25-d",
+          "text": "だけあって",
+          "grammarId": "n2-054",
+          "baseExpression": "だけあって",
+          "conjugatedExpression": "だけあって",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '회의에서 아무도 반대하지 않았다고 해서 전원이 찬성했다고는 할 수 없다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
+      "sourceGrammarIds": [
+        "n2-028",
+        "n2-003",
+        "n2-054"
+      ],
+      "tags": [
+        "理由",
+        "否定",
+        "制限",
+        "신규예문",
+        "빈칸"
       ]
     }
   ],
@@ -2125,1162 +2040,1203 @@
       ]
     },
     {
-      "id": "so-extra-n2-028-1",
+      "id": "so-created-n2-028-01",
       "level": "N2",
-      "sentence": "日本に住んでいたからといって、日本語が完璧だとは限らない。",
-      "sentenceWithBlanks": "日本に住んでいた ____ ____ ____ ____。",
-      "korean": "일본에 살았다고 해서 일본어가 완벽하다고는 할 수 없다.",
+      "sentence": "値段が高いからといって、そのワインが口に合うとは限らない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 限らない。",
+      "korean": "가격이 비싸다고 해서 그 와인이 입맛에 맞는다고는 할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra-n2-028-1-p3",
-          "text": "完璧だとは",
-          "order": 3
-        },
-        {
-          "id": "so-extra-n2-028-1-p4",
-          "text": "限らない",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-028-1-p1",
-          "text": "からといって",
+          "id": "so-created-n2-028-01-p1",
+          "text": "値段が高い",
           "order": 1
         },
         {
-          "id": "so-extra-n2-028-1-p2",
-          "text": "日本語が",
+          "id": "so-created-n2-028-01-p2",
+          "text": "からといって、",
           "order": 2
-        }
-      ],
-      "correctPieceIds": [
-        "so-extra-n2-028-1-p1",
-        "so-extra-n2-028-1-p2",
-        "so-extra-n2-028-1-p3",
-        "so-extra-n2-028-1-p4"
-      ],
-      "explanation": "「からといって」は、前の理由だけで後ろの結論が必ず成立するわけではないことを表す。後ろには「とは限らない」「わけではない」などの否定・制限表現が来やすい。",
-      "sourceGrammarIds": [
-        "n2-028"
-      ],
-      "tags": [
-        "理由",
-        "制限",
-        "否定呼応",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "so-extra-n2-028-2",
-      "level": "N2",
-      "sentence": "値段が高いからといって、品質がいいとは限らない。",
-      "sentenceWithBlanks": "値段が高い ____ ____ ____ ____。",
-      "korean": "가격이 비싸다고 해서 품질이 좋다고는 할 수 없다.",
-      "pieces": [
+        },
         {
-          "id": "so-extra-n2-028-2-p4",
-          "text": "いい",
+          "id": "so-created-n2-028-01-p3",
+          "text": "そのワインが",
           "order": 3
         },
         {
-          "id": "so-extra-n2-028-2-p1",
-          "text": "品質が",
-          "order": 2
-        },
-        {
-          "id": "so-extra-n2-028-2-p2",
-          "text": "からといって",
-          "order": 1
-        },
-        {
-          "id": "so-extra-n2-028-2-p3",
-          "text": "とは限らない",
+          "id": "so-created-n2-028-01-p4",
+          "text": "口に合うとは",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-028-2-p2",
-        "so-extra-n2-028-2-p1",
-        "so-extra-n2-028-2-p4",
-        "so-extra-n2-028-2-p3"
+        "so-created-n2-028-01-p1",
+        "so-created-n2-028-01-p2",
+        "so-created-n2-028-01-p3",
+        "so-created-n2-028-01-p4"
       ],
-      "explanation": "「からといって」は「〜だからといって必ずしも〜ではない」という意味で、後ろに「とは限らない」が来る。ここでは「値段が高い」という理由だけで「品質がいい」とは言えない、という文になる。",
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '가격이 비싸다고 해서 그 와인이 입맛에 맞는다고는 할 수 없다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
       "sourceGrammarIds": [
-        "n2-028"
-      ],
-      "tags": [
-        "理由",
-        "制限",
-        "否定呼応",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "so-extra-n2-028-3",
-      "level": "N2",
-      "sentence": "アメリカに住んでいたからといって、英語がうまいとは限らない。",
-      "sentenceWithBlanks": "アメリカに住んでいた ____ ____ ____ ____",
-      "korean": "미국에 살았다고 해서 영어를 잘한다고는 할 수 없다.",
-      "pieces": [
-        {
-          "id": "so-extra-n2-028-3-p1",
-          "text": "うまいとは",
-          "order": 3
-        },
-        {
-          "id": "so-extra-n2-028-3-p2",
-          "text": "限らない",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-028-3-p3",
-          "text": "からといって",
-          "order": 1
-        },
-        {
-          "id": "so-extra-n2-028-3-p4",
-          "text": "英語が",
-          "order": 2
-        }
-      ],
-      "correctPieceIds": [
-        "so-extra-n2-028-3-p3",
-        "so-extra-n2-028-3-p4",
-        "so-extra-n2-028-3-p1",
-        "so-extra-n2-028-3-p2"
-      ],
-      "explanation": "「からといって」는 ~라고 해서라는 뜻이다. 앞 이유만으로 뒤 결론이 반드시 성립하지 않음.",
-      "sourceGrammarIds": [
-        "n2-028"
+        "n2-028",
+        "n2-003",
+        "n2-054"
       ],
       "tags": [
         "理由",
         "否定",
         "制限",
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-028-4",
+      "id": "so-created-n2-028-02",
       "level": "N2",
-      "sentence": "アメリカに住んでいたからといって、英語がうまいとは限らない。",
-      "sentenceWithBlanks": "アメリカに住んでいた ____ ____ ____ ____",
-      "korean": "미국에 살았다고 해서 영어를 잘한다고는 할 수 없다.",
+      "sentence": "一度謝ったからといって、失った信頼がすぐに戻るわけではない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "한 번 사과했다고 해서 잃어버린 신뢰가 바로 회복되는 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra-n2-028-4-p2",
-          "text": "うまいとは",
-          "order": 3
-        },
-        {
-          "id": "so-extra-n2-028-4-p3",
-          "text": "限らない",
+          "id": "so-created-n2-028-02-p4",
+          "text": "戻るわけではない。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-028-4-p4",
-          "text": "からといって",
+          "id": "so-created-n2-028-02-p1",
+          "text": "一度謝った",
           "order": 1
         },
         {
-          "id": "so-extra-n2-028-4-p1",
-          "text": "英語が",
+          "id": "so-created-n2-028-02-p2",
+          "text": "からといって、",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-028-02-p3",
+          "text": "失った信頼がすぐに",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-028-4-p4",
-        "so-extra-n2-028-4-p1",
-        "so-extra-n2-028-4-p2",
-        "so-extra-n2-028-4-p3"
+        "so-created-n2-028-02-p1",
+        "so-created-n2-028-02-p2",
+        "so-created-n2-028-02-p3",
+        "so-created-n2-028-02-p4"
       ],
-      "explanation": "「からといって」는 ~라고 해서라는 뜻이다. 앞 이유만으로 뒤 결론이 반드시 성립하지 않음.",
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '한 번 사과했다고 해서 잃어버린 신뢰가 바로 회복되는 것은 아니다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
       "sourceGrammarIds": [
-        "n2-028"
+        "n2-028",
+        "n2-003",
+        "n2-054"
       ],
       "tags": [
         "理由",
         "否定",
         "制限",
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-028-5",
+      "id": "so-created-n2-028-03",
       "level": "N2",
-      "sentence": "アメリカに住んでいたからといって、英語がうまいとは限らない。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、英語がうまいとは限らない。",
-      "korean": "미국에 살았다고 해서 영어를 잘한다고는 할 수 없다.",
+      "sentence": "朝から雨が降っているからといって、野外公演が中止になるとは限らない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 限らない。",
+      "korean": "아침부터 비가 온다고 해서 야외 공연이 취소된다고는 할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra-n2-028-5-p3",
-          "text": "英語が",
+          "id": "so-created-n2-028-03-p3",
+          "text": "野外公演が",
           "order": 3
         },
         {
-          "id": "so-extra-n2-028-5-p4",
-          "text": "うまいとは",
+          "id": "so-created-n2-028-03-p4",
+          "text": "中止になるとは",
           "order": 4
         },
         {
-          "id": "so-extra-n2-028-5-p1",
-          "text": "いた",
+          "id": "so-created-n2-028-03-p1",
+          "text": "朝から雨が降っている",
           "order": 1
         },
         {
-          "id": "so-extra-n2-028-5-p2",
-          "text": "からといって",
+          "id": "so-created-n2-028-03-p2",
+          "text": "からといって、",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-028-5-p1",
-        "so-extra-n2-028-5-p2",
-        "so-extra-n2-028-5-p3",
-        "so-extra-n2-028-5-p4"
+        "so-created-n2-028-03-p1",
+        "so-created-n2-028-03-p2",
+        "so-created-n2-028-03-p3",
+        "so-created-n2-028-03-p4"
       ],
-      "explanation": "「からといって」는 ~라고 해서라는 뜻이다. 앞 이유만으로 뒤 결론이 반드시 성립하지 않음.",
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '아침부터 비가 온다고 해서 야외 공연이 취소된다고는 할 수 없다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
       "sourceGrammarIds": [
-        "n2-028"
+        "n2-028",
+        "n2-003",
+        "n2-054"
       ],
       "tags": [
         "理由",
         "否定",
         "制限",
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-028-01",
+      "id": "so-created-n2-028-04",
       "level": "N2",
-      "sentence": "日本に住んでいたからといって、日本語が完璧だとは限らない。",
-      "sentenceWithBlanks": "日本に住んでいた ____ ____ ____ ____。",
-      "korean": "일본에 살았다고 해서 일본어가 완벽하다고는 할 수 없다.",
+      "sentence": "整備士の資格を持っているからといって、どんな故障でも直せるわけではない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 直せるわけではない。",
+      "korean": "정비사 자격증이 있다고 해서 어떤 고장이든 고칠 수 있는 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-028-01-p3",
-          "text": "完璧だとは",
+          "id": "so-created-n2-028-04-p2",
+          "text": "持っている",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-028-04-p3",
+          "text": "からといって、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-028-01-p4",
-          "text": "限らない",
+          "id": "so-created-n2-028-04-p4",
+          "text": "どんな故障でも",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-028-01-p1",
-          "text": "からといって",
+          "id": "so-created-n2-028-04-p1",
+          "text": "整備士の資格を",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-028-01-p2",
-          "text": "日本語が",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-028-01-p1",
-        "so-extra20-n2-028-01-p2",
-        "so-extra20-n2-028-01-p3",
-        "so-extra20-n2-028-01-p4"
+        "so-created-n2-028-04-p1",
+        "so-created-n2-028-04-p2",
+        "so-created-n2-028-04-p3",
+        "so-created-n2-028-04-p4"
       ],
-      "explanation": "「からといって」は、前の理由だけで後ろの結論が必ず成立するわけではないことを表す。後ろには「とは限らない」「わけではない」などの否定・制限表現が来やすい。",
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '정비사 자격증이 있다고 해서 어떤 고장이든 고칠 수 있는 것은 아니다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
       "sourceGrammarIds": [
-        "n2-028"
-      ],
-      "tags": [
-        "理由",
-        "制限",
-        "否定呼応",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "so-extra20-n2-028-02",
-      "level": "N2",
-      "sentence": "値段が高いからといって、品質がいいとは限らない。",
-      "sentenceWithBlanks": "値段が高い ____ ____ ____ ____。",
-      "korean": "가격이 비싸다고 해서 품질이 좋다고는 할 수 없다.",
-      "pieces": [
-        {
-          "id": "so-extra20-n2-028-02-p2",
-          "text": "からといって",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-028-02-p3",
-          "text": "とは限らない",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-028-02-p4",
-          "text": "いい",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-028-02-p1",
-          "text": "品質が",
-          "order": 2
-        }
-      ],
-      "correctPieceIds": [
-        "so-extra20-n2-028-02-p2",
-        "so-extra20-n2-028-02-p1",
-        "so-extra20-n2-028-02-p4",
-        "so-extra20-n2-028-02-p3"
-      ],
-      "explanation": "「からといって」は「〜だからといって必ずしも〜ではない」という意味で、後ろに「とは限らない」が来る。ここでは「値段が高い」という理由だけで「品質がいい」とは言えない、という文になる。",
-      "sourceGrammarIds": [
-        "n2-028"
-      ],
-      "tags": [
-        "理由",
-        "制限",
-        "否定呼応",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "so-extra20-n2-028-03",
-      "level": "N2",
-      "sentence": "アメリカに住んでいたからといって、英語がうまいとは限らない。",
-      "sentenceWithBlanks": "アメリカに住んでいた ____ ____ ____ ____",
-      "korean": "미국에 살았다고 해서 영어를 잘한다고는 할 수 없다.",
-      "pieces": [
-        {
-          "id": "so-extra20-n2-028-03-p1",
-          "text": "うまいとは",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-028-03-p2",
-          "text": "限らない",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-028-03-p3",
-          "text": "からといって",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-028-03-p4",
-          "text": "英語が",
-          "order": 2
-        }
-      ],
-      "correctPieceIds": [
-        "so-extra20-n2-028-03-p3",
-        "so-extra20-n2-028-03-p4",
-        "so-extra20-n2-028-03-p1",
-        "so-extra20-n2-028-03-p2"
-      ],
-      "explanation": "「からといって」는 ~라고 해서라는 뜻이다. 앞 이유만으로 뒤 결론이 반드시 성립하지 않음.",
-      "sourceGrammarIds": [
-        "n2-028"
+        "n2-028",
+        "n2-003",
+        "n2-054"
       ],
       "tags": [
         "理由",
         "否定",
         "制限",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-028-04",
+      "id": "so-created-n2-028-05",
       "level": "N2",
-      "sentence": "アメリカに住んでいたからといって、英語がうまいとは限らない。",
-      "sentenceWithBlanks": "アメリカに住んでいた ____ ____ ____ ____",
-      "korean": "미국에 살았다고 해서 영어를 잘한다고는 할 수 없다.",
+      "sentence": "家族に反対されたからといって、海外への移住を諦める必要はない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 必要はない。",
+      "korean": "가족이 반대했다고 해서 해외 이주를 포기할 필요는 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-028-04-p4",
-          "text": "からといって",
+          "id": "so-created-n2-028-05-p1",
+          "text": "家族に反対された",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-028-04-p1",
-          "text": "英語が",
+          "id": "so-created-n2-028-05-p2",
+          "text": "からといって、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-028-04-p2",
-          "text": "うまいとは",
+          "id": "so-created-n2-028-05-p3",
+          "text": "海外への",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-028-04-p3",
-          "text": "限らない",
+          "id": "so-created-n2-028-05-p4",
+          "text": "移住を諦める",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-028-04-p4",
-        "so-extra20-n2-028-04-p1",
-        "so-extra20-n2-028-04-p2",
-        "so-extra20-n2-028-04-p3"
+        "so-created-n2-028-05-p1",
+        "so-created-n2-028-05-p2",
+        "so-created-n2-028-05-p3",
+        "so-created-n2-028-05-p4"
       ],
-      "explanation": "「からといって」는 ~라고 해서라는 뜻이다. 앞 이유만으로 뒤 결론이 반드시 성립하지 않음.",
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '가족이 반대했다고 해서 해외 이주를 포기할 필요는 없다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
       "sourceGrammarIds": [
-        "n2-028"
+        "n2-028",
+        "n2-003",
+        "n2-054"
       ],
       "tags": [
         "理由",
         "否定",
         "制限",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-028-05",
+      "id": "so-created-n2-028-06",
       "level": "N2",
-      "sentence": "アメリカに住んでいたからといって、英語がうまいとは限らない。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、英語がうまいとは限らない。",
-      "korean": "미국에 살았다고 해서 영어를 잘한다고는 할 수 없다.",
+      "sentence": "在宅勤務だからといって、一日中自由に過ごせるわけではない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "재택근무라고 해서 하루 종일 자유롭게 지낼 수 있는 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-028-05-p3",
-          "text": "英語が",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-028-05-p4",
-          "text": "うまいとは",
+          "id": "so-created-n2-028-06-p4",
+          "text": "過ごせるわけではない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-028-05-p1",
-          "text": "いた",
+          "id": "so-created-n2-028-06-p1",
+          "text": "在宅勤務だ",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-028-05-p2",
-          "text": "からといって",
+          "id": "so-created-n2-028-06-p2",
+          "text": "からといって、",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-028-06-p3",
+          "text": "一日中自由に",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-028-05-p1",
-        "so-extra20-n2-028-05-p2",
-        "so-extra20-n2-028-05-p3",
-        "so-extra20-n2-028-05-p4"
+        "so-created-n2-028-06-p1",
+        "so-created-n2-028-06-p2",
+        "so-created-n2-028-06-p3",
+        "so-created-n2-028-06-p4"
       ],
-      "explanation": "「からといって」는 ~라고 해서라는 뜻이다. 앞 이유만으로 뒤 결론이 반드시 성립하지 않음.",
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '재택근무라고 해서 하루 종일 자유롭게 지낼 수 있는 것은 아니다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
       "sourceGrammarIds": [
-        "n2-028"
+        "n2-028",
+        "n2-003",
+        "n2-054"
       ],
       "tags": [
         "理由",
         "否定",
         "制限",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-028-06",
+      "id": "so-created-n2-028-07",
       "level": "N2",
-      "sentence": "アメリカに住んでいたからといって、英語がうまいとは限らない。",
-      "sentenceWithBlanks": "アメリカに住んでいた ____ ____ ____ ____",
-      "korean": "미국에 살았다고 해서 영어를 잘한다고는 할 수 없다.",
+      "sentence": "評判の店だからといって、予約なしで入れるとは限らない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "평판이 좋은 식당이라고 해서 예약 없이 들어갈 수 있다고는 할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-028-06-p2",
-          "text": "からといって",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-028-06-p3",
-          "text": "英語が",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-028-06-p4",
-          "text": "うまいとは",
+          "id": "so-created-n2-028-07-p3",
+          "text": "予約なしで",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-028-06-p1",
-          "text": "限らない",
+          "id": "so-created-n2-028-07-p4",
+          "text": "入れるとは限らない。",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-028-07-p1",
+          "text": "評判の店だ",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-028-07-p2",
+          "text": "からといって、",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-028-06-p2",
-        "so-extra20-n2-028-06-p3",
-        "so-extra20-n2-028-06-p4",
-        "so-extra20-n2-028-06-p1"
+        "so-created-n2-028-07-p1",
+        "so-created-n2-028-07-p2",
+        "so-created-n2-028-07-p3",
+        "so-created-n2-028-07-p4"
       ],
-      "explanation": "「からといって」는 ~라고 해서라는 뜻이다. 앞 이유만으로 뒤 결론이 반드시 성립하지 않음.",
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '평판이 좋은 식당이라고 해서 예약 없이 들어갈 수 있다고는 할 수 없다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
       "sourceGrammarIds": [
-        "n2-028"
+        "n2-028",
+        "n2-003",
+        "n2-054"
       ],
       "tags": [
         "理由",
         "否定",
         "制限",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-028-07",
+      "id": "so-created-n2-028-08",
       "level": "N2",
-      "sentence": "アメリカに住んでいたからといって、英語がうまいとは限らない。",
-      "sentenceWithBlanks": "アメリカに住んでいた ____ ____ ____ ____",
-      "korean": "미국에 살았다고 해서 영어를 잘한다고는 할 수 없다.",
+      "sentence": "子どもが黙っているからといって、事情を理解しているとは限らない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 限らない。",
+      "korean": "아이가 말없이 있다고 해서 사정을 이해하고 있다고는 할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-028-07-p1",
-          "text": "うまいとは",
+          "id": "so-created-n2-028-08-p2",
+          "text": "からといって、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-028-08-p3",
+          "text": "事情を",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-028-07-p2",
-          "text": "限らない",
+          "id": "so-created-n2-028-08-p4",
+          "text": "理解しているとは",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-028-07-p3",
-          "text": "からといって",
+          "id": "so-created-n2-028-08-p1",
+          "text": "子どもが黙っている",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-028-07-p4",
-          "text": "英語が",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-028-07-p3",
-        "so-extra20-n2-028-07-p4",
-        "so-extra20-n2-028-07-p1",
-        "so-extra20-n2-028-07-p2"
+        "so-created-n2-028-08-p1",
+        "so-created-n2-028-08-p2",
+        "so-created-n2-028-08-p3",
+        "so-created-n2-028-08-p4"
       ],
-      "explanation": "「からといって」는 ~라고 해서라는 뜻이다. 앞 이유만으로 뒤 결론이 반드시 성립하지 않음.",
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '아이가 말없이 있다고 해서 사정을 이해하고 있다고는 할 수 없다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
       "sourceGrammarIds": [
-        "n2-028"
+        "n2-028",
+        "n2-003",
+        "n2-054"
       ],
       "tags": [
         "理由",
         "否定",
         "制限",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-028-08",
+      "id": "so-created-n2-028-09",
       "level": "N2",
-      "sentence": "日本に住んでいたからといって、日本語が完璧だとは限らない。",
-      "sentenceWithBlanks": "日本に住んでいた ____ ____ ____ ____。",
-      "korean": "일본에 살았다고 해서 일본어가 완벽하다고는 할 수 없다.",
+      "sentence": "築年数が長いからといって、その建物が危険だと決めつけるべきではない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 決めつけるべきではない。",
+      "korean": "지은 지 오래됐다고 해서 그 건물이 위험하다고 단정해서는 안 된다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-028-08-p4",
-          "text": "限らない",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-028-08-p1",
-          "text": "からといって",
+          "id": "so-created-n2-028-09-p1",
+          "text": "築年数が長い",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-028-08-p2",
-          "text": "日本語が",
+          "id": "so-created-n2-028-09-p2",
+          "text": "からといって、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-028-08-p3",
-          "text": "完璧だとは",
+          "id": "so-created-n2-028-09-p3",
+          "text": "その建物が",
           "order": 3
-        }
-      ],
-      "correctPieceIds": [
-        "so-extra20-n2-028-08-p1",
-        "so-extra20-n2-028-08-p2",
-        "so-extra20-n2-028-08-p3",
-        "so-extra20-n2-028-08-p4"
-      ],
-      "explanation": "「からといって」は、前の理由だけで後ろの結論が必ず成立するわけではないことを表す。後ろには「とは限らない」「わけではない」などの否定・制限表現が来やすい。",
-      "sourceGrammarIds": [
-        "n2-028"
-      ],
-      "tags": [
-        "理由",
-        "制限",
-        "否定呼応",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "so-extra20-n2-028-09",
-      "level": "N2",
-      "sentence": "値段が高いからといって、品質がいいとは限らない。",
-      "sentenceWithBlanks": "値段が高い ____ ____ ____ ____。",
-      "korean": "가격이 비싸다고 해서 품질이 좋다고는 할 수 없다.",
-      "pieces": [
+        },
         {
-          "id": "so-extra20-n2-028-09-p3",
-          "text": "とは限らない",
+          "id": "so-created-n2-028-09-p4",
+          "text": "危険だと",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-028-09-p4",
-          "text": "いい",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-028-09-p1",
-          "text": "品質が",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-028-09-p2",
-          "text": "からといって",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-028-09-p2",
-        "so-extra20-n2-028-09-p1",
-        "so-extra20-n2-028-09-p4",
-        "so-extra20-n2-028-09-p3"
+        "so-created-n2-028-09-p1",
+        "so-created-n2-028-09-p2",
+        "so-created-n2-028-09-p3",
+        "so-created-n2-028-09-p4"
       ],
-      "explanation": "「からといって」は「〜だからといって必ずしも〜ではない」という意味で、後ろに「とは限らない」が来る。ここでは「値段が高い」という理由だけで「品質がいい」とは言えない、という文になる。",
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '지은 지 오래됐다고 해서 그 건물이 위험하다고 단정해서는 안 된다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
       "sourceGrammarIds": [
-        "n2-028"
-      ],
-      "tags": [
-        "理由",
-        "制限",
-        "否定呼応",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "so-extra20-n2-028-10",
-      "level": "N2",
-      "sentence": "アメリカに住んでいたからといって、英語がうまいとは限らない。",
-      "sentenceWithBlanks": "アメリカに住んでいた ____ ____ ____ ____",
-      "korean": "미국에 살았다고 해서 영어를 잘한다고는 할 수 없다.",
-      "pieces": [
-        {
-          "id": "so-extra20-n2-028-10-p2",
-          "text": "限らない",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-028-10-p3",
-          "text": "からといって",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-028-10-p4",
-          "text": "英語が",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-028-10-p1",
-          "text": "うまいとは",
-          "order": 3
-        }
-      ],
-      "correctPieceIds": [
-        "so-extra20-n2-028-10-p3",
-        "so-extra20-n2-028-10-p4",
-        "so-extra20-n2-028-10-p1",
-        "so-extra20-n2-028-10-p2"
-      ],
-      "explanation": "「からといって」는 ~라고 해서라는 뜻이다. 앞 이유만으로 뒤 결론이 반드시 성립하지 않음.",
-      "sourceGrammarIds": [
-        "n2-028"
+        "n2-028",
+        "n2-003",
+        "n2-054"
       ],
       "tags": [
         "理由",
         "否定",
         "制限",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-028-11",
+      "id": "so-created-n2-028-10",
       "level": "N2",
-      "sentence": "アメリカに住んでいたからといって、英語がうまいとは限らない。",
-      "sentenceWithBlanks": "アメリカに住んでいた ____ ____ ____ ____",
-      "korean": "미국에 살았다고 해서 영어를 잘한다고는 할 수 없다.",
+      "sentence": "給料が高いからといって、仕事にやりがいを感じられるわけではない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 感じられるわけではない。",
+      "korean": "급여가 높다고 해서 일에서 보람을 느낄 수 있는 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-028-11-p1",
-          "text": "英語が",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-028-11-p2",
-          "text": "うまいとは",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-028-11-p3",
-          "text": "限らない",
+          "id": "so-created-n2-028-10-p4",
+          "text": "仕事にやりがいを",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-028-11-p4",
-          "text": "からといって",
+          "id": "so-created-n2-028-10-p1",
+          "text": "給料が",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-028-10-p2",
+          "text": "高い",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-028-10-p3",
+          "text": "からといって、",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-028-11-p4",
-        "so-extra20-n2-028-11-p1",
-        "so-extra20-n2-028-11-p2",
-        "so-extra20-n2-028-11-p3"
+        "so-created-n2-028-10-p1",
+        "so-created-n2-028-10-p2",
+        "so-created-n2-028-10-p3",
+        "so-created-n2-028-10-p4"
       ],
-      "explanation": "「からといって」는 ~라고 해서라는 뜻이다. 앞 이유만으로 뒤 결론이 반드시 성립하지 않음.",
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '급여가 높다고 해서 일에서 보람을 느낄 수 있는 것은 아니다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
       "sourceGrammarIds": [
-        "n2-028"
+        "n2-028",
+        "n2-003",
+        "n2-054"
       ],
       "tags": [
         "理由",
         "否定",
         "制限",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-028-12",
+      "id": "so-created-n2-028-11",
       "level": "N2",
-      "sentence": "アメリカに住んでいたからといって、英語がうまいとは限らない。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、英語がうまいとは限らない。",
-      "korean": "미국에 살았다고 해서 영어를 잘한다고는 할 수 없다.",
+      "sentence": "有機栽培の食品だからといって、誰にもアレルギーが起きないとは限らない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 限らない。",
+      "korean": "유기농 식품이라고 해서 누구에게도 알레르기가 생기지 않는다고는 할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-028-12-p4",
-          "text": "うまいとは",
+          "id": "so-created-n2-028-11-p3",
+          "text": "誰にもアレルギーが",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-028-11-p4",
+          "text": "起きないとは",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-028-12-p1",
-          "text": "いた",
+          "id": "so-created-n2-028-11-p1",
+          "text": "有機栽培の食品だ",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-028-12-p2",
-          "text": "からといって",
+          "id": "so-created-n2-028-11-p2",
+          "text": "からといって、",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-028-12-p3",
-          "text": "英語が",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-028-12-p1",
-        "so-extra20-n2-028-12-p2",
-        "so-extra20-n2-028-12-p3",
-        "so-extra20-n2-028-12-p4"
+        "so-created-n2-028-11-p1",
+        "so-created-n2-028-11-p2",
+        "so-created-n2-028-11-p3",
+        "so-created-n2-028-11-p4"
       ],
-      "explanation": "「からといって」는 ~라고 해서라는 뜻이다. 앞 이유만으로 뒤 결론이 반드시 성립하지 않음.",
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '유기농 식품이라고 해서 누구에게도 알레르기가 생기지 않는다고는 할 수 없다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
       "sourceGrammarIds": [
-        "n2-028"
+        "n2-028",
+        "n2-003",
+        "n2-054"
       ],
       "tags": [
         "理由",
         "否定",
         "制限",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-028-13",
+      "id": "so-created-n2-028-12",
       "level": "N2",
-      "sentence": "アメリカに住んでいたからといって、英語がうまいとは限らない。",
-      "sentenceWithBlanks": "アメリカに住んでいた ____ ____ ____ ____",
-      "korean": "미국에 살았다고 해서 영어를 잘한다고는 할 수 없다.",
+      "sentence": "有名な医師が担当するからといって、手術の成功が保証されるわけではない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 保証されるわけではない。",
+      "korean": "유명한 의사가 담당한다고 해서 수술의 성공이 보장되는 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-028-13-p3",
-          "text": "英語が",
+          "id": "so-created-n2-028-12-p2",
+          "text": "担当する",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-028-13-p4",
-          "text": "うまいとは",
+          "id": "so-created-n2-028-12-p3",
+          "text": "からといって、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-028-13-p1",
-          "text": "限らない",
+          "id": "so-created-n2-028-12-p4",
+          "text": "手術の成功が",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-028-13-p2",
-          "text": "からといって",
+          "id": "so-created-n2-028-12-p1",
+          "text": "有名な医師が",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-028-13-p2",
-        "so-extra20-n2-028-13-p3",
-        "so-extra20-n2-028-13-p4",
-        "so-extra20-n2-028-13-p1"
+        "so-created-n2-028-12-p1",
+        "so-created-n2-028-12-p2",
+        "so-created-n2-028-12-p3",
+        "so-created-n2-028-12-p4"
       ],
-      "explanation": "「からといって」는 ~라고 해서라는 뜻이다. 앞 이유만으로 뒤 결론이 반드시 성립하지 않음.",
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '유명한 의사가 담당한다고 해서 수술의 성공이 보장되는 것은 아니다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
       "sourceGrammarIds": [
-        "n2-028"
+        "n2-028",
+        "n2-003",
+        "n2-054"
       ],
       "tags": [
         "理由",
         "否定",
         "制限",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-028-14",
+      "id": "so-created-n2-028-13",
       "level": "N2",
-      "sentence": "アメリカに住んでいたからといって、英語がうまいとは限らない。",
-      "sentenceWithBlanks": "アメリカに住んでいた ____ ____ ____ ____",
-      "korean": "미국에 살았다고 해서 영어를 잘한다고는 할 수 없다.",
+      "sentence": "地図に近道と書いてあるからといって、早く着けるとは限らない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "지도에 지름길이라고 적혀 있다고 해서 빨리 도착할 수 있다고는 할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-028-14-p2",
-          "text": "限らない",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-028-14-p3",
-          "text": "からといって",
+          "id": "so-created-n2-028-13-p1",
+          "text": "地図に近道と",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-028-14-p4",
-          "text": "英語が",
+          "id": "so-created-n2-028-13-p2",
+          "text": "書いてある",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-028-14-p1",
-          "text": "うまいとは",
+          "id": "so-created-n2-028-13-p3",
+          "text": "からといって、早く",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-028-13-p4",
+          "text": "着けるとは限らない。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-028-14-p3",
-        "so-extra20-n2-028-14-p4",
-        "so-extra20-n2-028-14-p1",
-        "so-extra20-n2-028-14-p2"
+        "so-created-n2-028-13-p1",
+        "so-created-n2-028-13-p2",
+        "so-created-n2-028-13-p3",
+        "so-created-n2-028-13-p4"
       ],
-      "explanation": "「からといって」는 ~라고 해서라는 뜻이다. 앞 이유만으로 뒤 결론이 반드시 성립하지 않음.",
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '지도에 지름길이라고 적혀 있다고 해서 빨리 도착할 수 있다고는 할 수 없다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
       "sourceGrammarIds": [
-        "n2-028"
+        "n2-028",
+        "n2-003",
+        "n2-054"
       ],
       "tags": [
         "理由",
         "否定",
         "制限",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-028-15",
+      "id": "so-created-n2-028-14",
       "level": "N2",
-      "sentence": "日本に住んでいたからといって、日本語が完璧だとは限らない。",
-      "sentenceWithBlanks": "日本に住んでいた ____ ____ ____ ____。",
-      "korean": "일본에 살았다고 해서 일본어가 완벽하다고는 할 수 없다.",
+      "sentence": "結婚したからといって、孤独を感じなくなるわけではない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "결혼했다고 해서 외로움을 느끼지 않게 되는 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-028-15-p1",
-          "text": "からといって",
+          "id": "so-created-n2-028-14-p4",
+          "text": "感じなくなるわけではない。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-028-14-p1",
+          "text": "結婚した",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-028-15-p2",
-          "text": "日本語が",
+          "id": "so-created-n2-028-14-p2",
+          "text": "からといって、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-028-15-p3",
-          "text": "完璧だとは",
+          "id": "so-created-n2-028-14-p3",
+          "text": "孤独を",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-028-15-p4",
-          "text": "限らない",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-028-15-p1",
-        "so-extra20-n2-028-15-p2",
-        "so-extra20-n2-028-15-p3",
-        "so-extra20-n2-028-15-p4"
+        "so-created-n2-028-14-p1",
+        "so-created-n2-028-14-p2",
+        "so-created-n2-028-14-p3",
+        "so-created-n2-028-14-p4"
       ],
-      "explanation": "「からといって」は、前の理由だけで後ろの結論が必ず成立するわけではないことを表す。後ろには「とは限らない」「わけではない」などの否定・制限表現が来やすい。",
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '결혼했다고 해서 외로움을 느끼지 않게 되는 것은 아니다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
       "sourceGrammarIds": [
-        "n2-028"
-      ],
-      "tags": [
-        "理由",
-        "制限",
-        "否定呼応",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "so-extra20-n2-028-16",
-      "level": "N2",
-      "sentence": "値段が高いからといって、品質がいいとは限らない。",
-      "sentenceWithBlanks": "値段が高い ____ ____ ____ ____。",
-      "korean": "가격이 비싸다고 해서 품질이 좋다고는 할 수 없다.",
-      "pieces": [
-        {
-          "id": "so-extra20-n2-028-16-p4",
-          "text": "いい",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-028-16-p1",
-          "text": "品質が",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-028-16-p2",
-          "text": "からといって",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-028-16-p3",
-          "text": "とは限らない",
-          "order": 4
-        }
-      ],
-      "correctPieceIds": [
-        "so-extra20-n2-028-16-p2",
-        "so-extra20-n2-028-16-p1",
-        "so-extra20-n2-028-16-p4",
-        "so-extra20-n2-028-16-p3"
-      ],
-      "explanation": "「からといって」は「〜だからといって必ずしも〜ではない」という意味で、後ろに「とは限らない」が来る。ここでは「値段が高い」という理由だけで「品質がいい」とは言えない、という文になる。",
-      "sourceGrammarIds": [
-        "n2-028"
-      ],
-      "tags": [
-        "理由",
-        "制限",
-        "否定呼応",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "so-extra20-n2-028-17",
-      "level": "N2",
-      "sentence": "アメリカに住んでいたからといって、英語がうまいとは限らない。",
-      "sentenceWithBlanks": "アメリカに住んでいた ____ ____ ____ ____",
-      "korean": "미국에 살았다고 해서 영어를 잘한다고는 할 수 없다.",
-      "pieces": [
-        {
-          "id": "so-extra20-n2-028-17-p3",
-          "text": "からといって",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-028-17-p4",
-          "text": "英語が",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-028-17-p1",
-          "text": "うまいとは",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-028-17-p2",
-          "text": "限らない",
-          "order": 4
-        }
-      ],
-      "correctPieceIds": [
-        "so-extra20-n2-028-17-p3",
-        "so-extra20-n2-028-17-p4",
-        "so-extra20-n2-028-17-p1",
-        "so-extra20-n2-028-17-p2"
-      ],
-      "explanation": "「からといって」는 ~라고 해서라는 뜻이다. 앞 이유만으로 뒤 결론이 반드시 성립하지 않음.",
-      "sourceGrammarIds": [
-        "n2-028"
+        "n2-028",
+        "n2-003",
+        "n2-054"
       ],
       "tags": [
         "理由",
         "否定",
         "制限",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-028-18",
+      "id": "so-created-n2-028-15",
       "level": "N2",
-      "sentence": "アメリカに住んでいたからといって、英語がうまいとは限らない。",
-      "sentenceWithBlanks": "アメリカに住んでいた ____ ____ ____ ____",
-      "korean": "미국에 살았다고 해서 영어를 잘한다고는 할 수 없다.",
+      "sentence": "大切な写真を削除したからといって、復元を諦める必要はない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "소중한 사진을 삭제했다고 해서 복원을 포기할 필요는 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-028-18-p2",
-          "text": "うまいとは",
+          "id": "so-created-n2-028-15-p3",
+          "text": "復元を諦める",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-028-18-p3",
-          "text": "限らない",
+          "id": "so-created-n2-028-15-p4",
+          "text": "必要はない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-028-18-p4",
-          "text": "からといって",
+          "id": "so-created-n2-028-15-p1",
+          "text": "大切な写真を削除した",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-028-18-p1",
-          "text": "英語が",
+          "id": "so-created-n2-028-15-p2",
+          "text": "からといって、",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-028-18-p4",
-        "so-extra20-n2-028-18-p1",
-        "so-extra20-n2-028-18-p2",
-        "so-extra20-n2-028-18-p3"
+        "so-created-n2-028-15-p1",
+        "so-created-n2-028-15-p2",
+        "so-created-n2-028-15-p3",
+        "so-created-n2-028-15-p4"
       ],
-      "explanation": "「からといって」는 ~라고 해서라는 뜻이다. 앞 이유만으로 뒤 결론이 반드시 성립하지 않음.",
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '소중한 사진을 삭제했다고 해서 복원을 포기할 필요는 없다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
       "sourceGrammarIds": [
-        "n2-028"
+        "n2-028",
+        "n2-003",
+        "n2-054"
       ],
       "tags": [
         "理由",
         "否定",
         "制限",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-028-19",
+      "id": "so-created-n2-028-16",
       "level": "N2",
-      "sentence": "アメリカに住んでいたからといって、英語がうまいとは限らない。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、英語がうまいとは限らない。",
-      "korean": "미국에 살았다고 해서 영어를 잘한다고는 할 수 없다.",
+      "sentence": "契約の期限を過ぎたからといって、条件を交渉できないとは限らない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 限らない。",
+      "korean": "계약 기한이 지났다고 해서 조건을 협상할 수 없는 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-028-19-p1",
-          "text": "いた",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-028-19-p2",
-          "text": "からといって",
+          "id": "so-created-n2-028-16-p2",
+          "text": "からといって、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-028-19-p3",
-          "text": "英語が",
+          "id": "so-created-n2-028-16-p3",
+          "text": "条件を",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-028-19-p4",
-          "text": "うまいとは",
+          "id": "so-created-n2-028-16-p4",
+          "text": "交渉できないとは",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-028-16-p1",
+          "text": "契約の期限を過ぎた",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-028-19-p1",
-        "so-extra20-n2-028-19-p2",
-        "so-extra20-n2-028-19-p3",
-        "so-extra20-n2-028-19-p4"
+        "so-created-n2-028-16-p1",
+        "so-created-n2-028-16-p2",
+        "so-created-n2-028-16-p3",
+        "so-created-n2-028-16-p4"
       ],
-      "explanation": "「からといって」는 ~라고 해서라는 뜻이다. 앞 이유만으로 뒤 결론이 반드시 성립하지 않음.",
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '계약 기한이 지났다고 해서 조건을 협상할 수 없는 것은 아니다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
       "sourceGrammarIds": [
-        "n2-028"
+        "n2-028",
+        "n2-003",
+        "n2-054"
       ],
       "tags": [
         "理由",
         "否定",
         "制限",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-028-20",
+      "id": "so-created-n2-028-17",
       "level": "N2",
-      "sentence": "アメリカに住んでいたからといって、英語がうまいとは限らない。",
-      "sentenceWithBlanks": "アメリカに住んでいた ____ ____ ____ ____",
-      "korean": "미국에 살았다고 해서 영어를 잘한다고는 할 수 없다.",
+      "sentence": "地元の人が勧めたからといって、その料理が自分の好みに合うとは限らない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 好みに合うとは限らない。",
+      "korean": "현지인이 추천했다고 해서 그 음식이 자기 취향에 맞는다고는 할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-028-20-p4",
-          "text": "うまいとは",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-028-20-p1",
-          "text": "限らない",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-028-20-p2",
-          "text": "からといって",
+          "id": "so-created-n2-028-17-p1",
+          "text": "地元の",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-028-20-p3",
-          "text": "英語が",
+          "id": "so-created-n2-028-17-p2",
+          "text": "人が勧めた",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-028-17-p3",
+          "text": "からといって、",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-028-17-p4",
+          "text": "その料理が自分の",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-028-20-p2",
-        "so-extra20-n2-028-20-p3",
-        "so-extra20-n2-028-20-p4",
-        "so-extra20-n2-028-20-p1"
+        "so-created-n2-028-17-p1",
+        "so-created-n2-028-17-p2",
+        "so-created-n2-028-17-p3",
+        "so-created-n2-028-17-p4"
       ],
-      "explanation": "「からといって」는 ~라고 해서라는 뜻이다. 앞 이유만으로 뒤 결론이 반드시 성립하지 않음.",
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '현지인이 추천했다고 해서 그 음식이 자기 취향에 맞는다고는 할 수 없다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
       "sourceGrammarIds": [
-        "n2-028"
+        "n2-028",
+        "n2-003",
+        "n2-054"
       ],
       "tags": [
         "理由",
         "否定",
         "制限",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
+      ]
+    },
+    {
+      "id": "so-created-n2-028-18",
+      "level": "N2",
+      "sentence": "毎日運動しているからといって、けがをしないわけではない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "매일 운동한다고 해서 부상을 입지 않는 것은 아니다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-028-18-p4",
+          "text": "けがをしないわけではない。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-028-18-p1",
+          "text": "毎日",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-028-18-p2",
+          "text": "運動している",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-028-18-p3",
+          "text": "からといって、",
+          "order": 3
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-028-18-p1",
+        "so-created-n2-028-18-p2",
+        "so-created-n2-028-18-p3",
+        "so-created-n2-028-18-p4"
+      ],
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '매일 운동한다고 해서 부상을 입지 않는 것은 아니다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
+      "sourceGrammarIds": [
+        "n2-028",
+        "n2-003",
+        "n2-054"
+      ],
+      "tags": [
+        "理由",
+        "否定",
+        "制限",
+        "신규예문",
+        "문장배열"
+      ]
+    },
+    {
+      "id": "so-created-n2-028-19",
+      "level": "N2",
+      "sentence": "文章を人工知能が作ったからといって、人間による確認が不要なわけではない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 不要なわけではない。",
+      "korean": "글을 인공지능이 작성했다고 해서 사람의 확인이 필요 없는 것은 아니다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-028-19-p3",
+          "text": "からといって、",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-028-19-p4",
+          "text": "人間による確認が",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-028-19-p1",
+          "text": "文章を人工",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-028-19-p2",
+          "text": "知能が作った",
+          "order": 2
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-028-19-p1",
+        "so-created-n2-028-19-p2",
+        "so-created-n2-028-19-p3",
+        "so-created-n2-028-19-p4"
+      ],
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '글을 인공지능이 작성했다고 해서 사람의 확인이 필요 없는 것은 아니다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
+      "sourceGrammarIds": [
+        "n2-028",
+        "n2-003",
+        "n2-054"
+      ],
+      "tags": [
+        "理由",
+        "否定",
+        "制限",
+        "신규예문",
+        "문장배열"
+      ]
+    },
+    {
+      "id": "so-created-n2-028-20",
+      "level": "N2",
+      "sentence": "末っ子だからといって、わがままが許されるものではない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "막내라고 해서 제멋대로 구는 것이 허용되는 것은 아니다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-028-20-p2",
+          "text": "からといって、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-028-20-p3",
+          "text": "わがままが",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-028-20-p4",
+          "text": "許されるものではない。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-028-20-p1",
+          "text": "末っ子だ",
+          "order": 1
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-028-20-p1",
+        "so-created-n2-028-20-p2",
+        "so-created-n2-028-20-p3",
+        "so-created-n2-028-20-p4"
+      ],
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '막내라고 해서 제멋대로 구는 것이 허용되는 것은 아니다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
+      "sourceGrammarIds": [
+        "n2-028",
+        "n2-003",
+        "n2-054"
+      ],
+      "tags": [
+        "理由",
+        "否定",
+        "制限",
+        "신규예문",
+        "문장배열"
+      ]
+    },
+    {
+      "id": "so-created-n2-028-21",
+      "level": "N2",
+      "sentence": "田舎に住んでいるからといって、生活が不便だとは限らない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "시골에 산다고 해서 생활이 불편하다고는 할 수 없다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-028-21-p1",
+          "text": "田舎に住んでいる",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-028-21-p2",
+          "text": "からといって、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-028-21-p3",
+          "text": "生活が不便だとは",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-028-21-p4",
+          "text": "限らない。",
+          "order": 4
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-028-21-p1",
+        "so-created-n2-028-21-p2",
+        "so-created-n2-028-21-p3",
+        "so-created-n2-028-21-p4"
+      ],
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '시골에 산다고 해서 생활이 불편하다고는 할 수 없다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
+      "sourceGrammarIds": [
+        "n2-028",
+        "n2-003",
+        "n2-054"
+      ],
+      "tags": [
+        "理由",
+        "否定",
+        "制限",
+        "신규예문",
+        "문장배열"
+      ]
+    },
+    {
+      "id": "so-created-n2-028-22",
+      "level": "N2",
+      "sentence": "営業成績が優秀だからといって、管理職に向いているとは限らない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 限らない。",
+      "korean": "영업 실적이 뛰어나다고 해서 관리직에 적합하다고는 할 수 없다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-028-22-p4",
+          "text": "向いているとは",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-028-22-p1",
+          "text": "営業成績が優秀だ",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-028-22-p2",
+          "text": "からといって、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-028-22-p3",
+          "text": "管理職に",
+          "order": 3
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-028-22-p1",
+        "so-created-n2-028-22-p2",
+        "so-created-n2-028-22-p3",
+        "so-created-n2-028-22-p4"
+      ],
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '영업 실적이 뛰어나다고 해서 관리직에 적합하다고는 할 수 없다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
+      "sourceGrammarIds": [
+        "n2-028",
+        "n2-003",
+        "n2-054"
+      ],
+      "tags": [
+        "理由",
+        "否定",
+        "制限",
+        "신규예문",
+        "문장배열"
+      ]
+    },
+    {
+      "id": "so-created-n2-028-23",
+      "level": "N2",
+      "sentence": "新商品が初日に売り切れたからといって、人気が長く続くとは限らない。",
+      "sentenceWithBlanks": "新 ____ ____ ____ ____ 限らない。",
+      "korean": "신제품이 첫날에 매진됐다고 해서 인기가 오래 지속된다고는 할 수 없다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-028-23-p3",
+          "text": "からといって、",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-028-23-p4",
+          "text": "人気が長く続くとは",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-028-23-p1",
+          "text": "商品が初日に",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-028-23-p2",
+          "text": "売り切れた",
+          "order": 2
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-028-23-p1",
+        "so-created-n2-028-23-p2",
+        "so-created-n2-028-23-p3",
+        "so-created-n2-028-23-p4"
+      ],
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '신제품이 첫날에 매진됐다고 해서 인기가 오래 지속된다고는 할 수 없다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
+      "sourceGrammarIds": [
+        "n2-028",
+        "n2-003",
+        "n2-054"
+      ],
+      "tags": [
+        "理由",
+        "否定",
+        "制限",
+        "신규예문",
+        "문장배열"
+      ]
+    },
+    {
+      "id": "so-created-n2-028-24",
+      "level": "N2",
+      "sentence": "熱が下がったからといって、完全に回復したわけではない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "열이 내렸다고 해서 완전히 회복된 것은 아니다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-028-24-p2",
+          "text": "からといって、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-028-24-p3",
+          "text": "完全に",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-028-24-p4",
+          "text": "回復したわけではない。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-028-24-p1",
+          "text": "熱が下がった",
+          "order": 1
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-028-24-p1",
+        "so-created-n2-028-24-p2",
+        "so-created-n2-028-24-p3",
+        "so-created-n2-028-24-p4"
+      ],
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '열이 내렸다고 해서 완전히 회복된 것은 아니다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
+      "sourceGrammarIds": [
+        "n2-028",
+        "n2-003",
+        "n2-054"
+      ],
+      "tags": [
+        "理由",
+        "否定",
+        "制限",
+        "신규예문",
+        "문장배열"
+      ]
+    },
+    {
+      "id": "so-created-n2-028-25",
+      "level": "N2",
+      "sentence": "会議で誰も反対しなかったからといって、全員が賛成したとは限らない。",
+      "sentenceWithBlanks": "会議で ____ ____ ____ ____",
+      "korean": "회의에서 아무도 반대하지 않았다고 해서 전원이 찬성했다고는 할 수 없다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-028-25-p1",
+          "text": "誰も反対しなかった",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-028-25-p2",
+          "text": "からといって、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-028-25-p3",
+          "text": "全員が賛成したとは",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-028-25-p4",
+          "text": "限らない。",
+          "order": 4
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-028-25-p1",
+        "so-created-n2-028-25-p2",
+        "so-created-n2-028-25-p3",
+        "so-created-n2-028-25-p4"
+      ],
+      "explanation": "「からといって」는 '~라고 해서'라는 뜻을 나타낸다. 이 문장에서는 '회의에서 아무도 반대하지 않았다고 해서 전원이 찬성했다고는 할 수 없다.'라는 상황에 쓰였으며, 앞 이유만으로 뒤 결론이 반드시 성립하지 않음. 주의할 점은 「からといって」뒤에는 반드시 부정·제한 표현이 옴. 「とは限らない」「わけではない」와 짝.",
+      "sourceGrammarIds": [
+        "n2-028",
+        "n2-003",
+        "n2-054"
+      ],
+      "tags": [
+        "理由",
+        "否定",
+        "制限",
+        "신규예문",
+        "문장배열"
       ]
     }
   ]

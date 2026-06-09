@@ -267,15 +267,23 @@
       ]
     },
     {
-      "id": "fb-extra-n2-094-1",
+      "id": "fb-created-n2-094-01",
       "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
-      "sentenceWithBlank": "新聞には書いてあることがいつも真実だ（　　　）。",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
-      "answerChoiceId": "fb-extra-n2-094-1-c",
+      "sentence": "高価な薬だからといって、誰にでもよく効くとは限らない。",
+      "sentenceWithBlank": "高価な薬だからといって、誰にでもよく効く（　　　）。",
+      "korean": "비싼 약이라고 해서 누구에게나 잘 듣는다고는 할 수 없다.",
+      "answerChoiceId": "fb-created-n2-094-01-c",
       "choices": [
         {
-          "id": "fb-extra-n2-094-1-d",
+          "id": "fb-created-n2-094-01-c",
+          "text": "とは限らない",
+          "grammarId": "n2-094",
+          "baseExpression": "とは限らない",
+          "conjugatedExpression": "とは限らない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-094-01-d",
           "text": "はというと",
           "grammarId": "n2-142",
           "baseExpression": "はというと",
@@ -283,7 +291,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-094-1-a",
+          "id": "fb-created-n2-094-01-a",
           "text": "はともかく",
           "grammarId": "n2-143",
           "baseExpression": "はともかく",
@@ -291,23 +299,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-094-1-b",
+          "id": "fb-created-n2-094-01-b",
           "text": "はもとより",
           "grammarId": "n2-144",
           "baseExpression": "はもとより",
           "conjugatedExpression": "はもとより",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-094-1-c",
-          "text": "とは限らない",
-          "grammarId": "n2-094",
-          "baseExpression": "とは限らない",
-          "conjugatedExpression": "とは限らない",
-          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '비싼 약이라고 해서 누구에게나 잘 듣는다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
       "sourceGrammarIds": [
         "n2-094",
         "n2-142",
@@ -315,237 +315,20 @@
         "n2-144"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra-n2-094-2",
+      "id": "fb-created-n2-094-02",
       "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
-      "sentenceWithBlank": "新聞には書いてあることがいつも真実だ（　　　）。",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
-      "answerChoiceId": "fb-extra-n2-094-2-b",
+      "sentence": "都心に住めば、通勤が楽になるとは限らない。",
+      "sentenceWithBlank": "都心に住めば、通勤が楽になる（　　　）。",
+      "korean": "도심에 살면 출퇴근이 편해진다고는 할 수 없다.",
+      "answerChoiceId": "fb-created-n2-094-02-c",
       "choices": [
         {
-          "id": "fb-extra-n2-094-2-a",
-          "text": "わけではない",
-          "grammarId": "n2-169",
-          "baseExpression": "わけではない",
-          "conjugatedExpression": "わけではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-094-2-b",
-          "text": "とは限らない",
-          "grammarId": "n2-094",
-          "baseExpression": "とは限らない",
-          "conjugatedExpression": "とは限らない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-094-2-c",
-          "text": "ようものなら",
-          "grammarId": "n2-167",
-          "baseExpression": "ようものなら",
-          "conjugatedExpression": "ようものなら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-094-2-d",
-          "text": "わけがない",
-          "grammarId": "n2-168",
-          "baseExpression": "わけがない",
-          "conjugatedExpression": "わけがない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
-      "sourceGrammarIds": [
-        "n2-094",
-        "n2-167",
-        "n2-168",
-        "n2-169"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-094-3",
-      "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
-      "sentenceWithBlank": "新聞には書いてあることがいつも真実だ（　　　）。",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
-      "answerChoiceId": "fb-extra-n2-094-3-a",
-      "choices": [
-        {
-          "id": "fb-extra-n2-094-3-b",
-          "text": "甲斐があって",
-          "grammarId": "n2-011",
-          "baseExpression": "甲斐があって",
-          "conjugatedExpression": "甲斐があって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-094-3-c",
-          "text": "かぎりは",
-          "grammarId": "n2-012",
-          "baseExpression": "かぎりは",
-          "conjugatedExpression": "かぎりは",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-094-3-d",
-          "text": "かぎり",
-          "grammarId": "n2-013",
-          "baseExpression": "かぎり",
-          "conjugatedExpression": "かぎり",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-094-3-a",
-          "text": "とは限らない",
-          "grammarId": "n2-094",
-          "baseExpression": "とは限らない",
-          "conjugatedExpression": "とは限らない",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
-      "sourceGrammarIds": [
-        "n2-094",
-        "n2-011",
-        "n2-012",
-        "n2-013"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-094-4",
-      "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
-      "sentenceWithBlank": "新聞には書いてあることがいつも真実だ（　　　）。",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
-      "answerChoiceId": "fb-extra-n2-094-4-d",
-      "choices": [
-        {
-          "id": "fb-extra-n2-094-4-c",
-          "text": "かぎりだ",
-          "grammarId": "n2-014",
-          "baseExpression": "かぎりだ",
-          "conjugatedExpression": "かぎりだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-094-4-d",
-          "text": "とは限らない",
-          "grammarId": "n2-094",
-          "baseExpression": "とは限らない",
-          "conjugatedExpression": "とは限らない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-094-4-a",
-          "text": "かぎりは",
-          "grammarId": "n2-012",
-          "baseExpression": "かぎりは",
-          "conjugatedExpression": "かぎりは",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-094-4-b",
-          "text": "かぎり",
-          "grammarId": "n2-013",
-          "baseExpression": "かぎり",
-          "conjugatedExpression": "かぎり",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
-      "sourceGrammarIds": [
-        "n2-094",
-        "n2-012",
-        "n2-013",
-        "n2-014"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-094-5",
-      "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
-      "sentenceWithBlank": "新聞には書いてあることがいつも真実だ（　　　）。",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
-      "answerChoiceId": "fb-extra-n2-094-5-c",
-      "choices": [
-        {
-          "id": "fb-extra-n2-094-5-d",
-          "text": "にしろにしろ",
-          "grammarId": "n2-122",
-          "baseExpression": "にしろにしろ",
-          "conjugatedExpression": "にしろにしろ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-094-5-a",
-          "text": "にすぎない",
-          "grammarId": "n2-123",
-          "baseExpression": "にすぎない",
-          "conjugatedExpression": "にすぎない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-094-5-b",
-          "text": "に相違ない",
-          "grammarId": "n2-124",
-          "baseExpression": "に相違ない",
-          "conjugatedExpression": "に相違ない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-094-5-c",
-          "text": "とは限らない",
-          "grammarId": "n2-094",
-          "baseExpression": "とは限らない",
-          "conjugatedExpression": "とは限らない",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
-      "sourceGrammarIds": [
-        "n2-094",
-        "n2-122",
-        "n2-123",
-        "n2-124"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-094-01",
-      "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
-      "sentenceWithBlank": "新聞には書いてあることがいつも真実だ（　　　）。",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-094-01-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-094-01-d",
+          "id": "fb-created-n2-094-02-d",
           "text": "はというと",
           "grammarId": "n2-142",
           "baseExpression": "はというと",
@@ -553,7 +336,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-094-01-a",
+          "id": "fb-created-n2-094-02-a",
           "text": "はともかく",
           "grammarId": "n2-143",
           "baseExpression": "はともかく",
@@ -561,7 +344,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-094-01-b",
+          "id": "fb-created-n2-094-02-b",
           "text": "はもとより",
           "grammarId": "n2-144",
           "baseExpression": "はもとより",
@@ -569,7 +352,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-094-01-c",
+          "id": "fb-created-n2-094-02-c",
           "text": "とは限らない",
           "grammarId": "n2-094",
           "baseExpression": "とは限らない",
@@ -577,7 +360,7 @@
           "isSimilarDistractor": false
         }
       ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '도심에 살면 출퇴근이 편해진다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
       "sourceGrammarIds": [
         "n2-094",
         "n2-142",
@@ -585,253 +368,20 @@
         "n2-144"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-094-02",
+      "id": "fb-created-n2-094-03",
       "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
-      "sentenceWithBlank": "新聞には書いてあることがいつも真実だ（　　　）。",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-094-02-b",
+      "sentence": "長年付き合った友人が、困ったときに味方してくれるとは限らない。",
+      "sentenceWithBlank": "長年付き合った友人が、困ったときに味方してくれる（　　　）。",
+      "korean": "오랫동안 사귄 친구가 어려울 때 내 편이 되어 준다고는 할 수 없다.",
+      "answerChoiceId": "fb-created-n2-094-03-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-094-02-c",
-          "text": "ようものなら",
-          "grammarId": "n2-167",
-          "baseExpression": "ようものなら",
-          "conjugatedExpression": "ようものなら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-094-02-d",
-          "text": "わけがない",
-          "grammarId": "n2-168",
-          "baseExpression": "わけがない",
-          "conjugatedExpression": "わけがない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-094-02-a",
-          "text": "わけではない",
-          "grammarId": "n2-169",
-          "baseExpression": "わけではない",
-          "conjugatedExpression": "わけではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-094-02-b",
-          "text": "とは限らない",
-          "grammarId": "n2-094",
-          "baseExpression": "とは限らない",
-          "conjugatedExpression": "とは限らない",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
-      "sourceGrammarIds": [
-        "n2-094",
-        "n2-167",
-        "n2-168",
-        "n2-169"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-094-03",
-      "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
-      "sentenceWithBlank": "新聞には書いてあることがいつも真実だ（　　　）。",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-094-03-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-094-03-b",
-          "text": "甲斐があって",
-          "grammarId": "n2-011",
-          "baseExpression": "甲斐があって",
-          "conjugatedExpression": "甲斐があって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-094-03-c",
-          "text": "かぎりは",
-          "grammarId": "n2-012",
-          "baseExpression": "かぎりは",
-          "conjugatedExpression": "かぎりは",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-094-03-d",
-          "text": "かぎり",
-          "grammarId": "n2-013",
-          "baseExpression": "かぎり",
-          "conjugatedExpression": "かぎり",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-094-03-a",
-          "text": "とは限らない",
-          "grammarId": "n2-094",
-          "baseExpression": "とは限らない",
-          "conjugatedExpression": "とは限らない",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
-      "sourceGrammarIds": [
-        "n2-094",
-        "n2-011",
-        "n2-012",
-        "n2-013"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-094-04",
-      "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
-      "sentenceWithBlank": "新聞には書いてあることがいつも真実だ（　　　）。",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-094-04-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-094-04-a",
-          "text": "かぎりは",
-          "grammarId": "n2-012",
-          "baseExpression": "かぎりは",
-          "conjugatedExpression": "かぎりは",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-094-04-b",
-          "text": "かぎり",
-          "grammarId": "n2-013",
-          "baseExpression": "かぎり",
-          "conjugatedExpression": "かぎり",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-094-04-c",
-          "text": "かぎりだ",
-          "grammarId": "n2-014",
-          "baseExpression": "かぎりだ",
-          "conjugatedExpression": "かぎりだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-094-04-d",
-          "text": "とは限らない",
-          "grammarId": "n2-094",
-          "baseExpression": "とは限らない",
-          "conjugatedExpression": "とは限らない",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
-      "sourceGrammarIds": [
-        "n2-094",
-        "n2-012",
-        "n2-013",
-        "n2-014"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-094-05",
-      "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
-      "sentenceWithBlank": "新聞には書いてあることがいつも真実だ（　　　）。",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-094-05-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-094-05-d",
-          "text": "にしろにしろ",
-          "grammarId": "n2-122",
-          "baseExpression": "にしろにしろ",
-          "conjugatedExpression": "にしろにしろ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-094-05-a",
-          "text": "にすぎない",
-          "grammarId": "n2-123",
-          "baseExpression": "にすぎない",
-          "conjugatedExpression": "にすぎない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-094-05-b",
-          "text": "に相違ない",
-          "grammarId": "n2-124",
-          "baseExpression": "に相違ない",
-          "conjugatedExpression": "に相違ない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-094-05-c",
-          "text": "とは限らない",
-          "grammarId": "n2-094",
-          "baseExpression": "とは限らない",
-          "conjugatedExpression": "とは限らない",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
-      "sourceGrammarIds": [
-        "n2-094",
-        "n2-122",
-        "n2-123",
-        "n2-124"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-094-06",
-      "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
-      "sentenceWithBlank": "新聞には書いてあることがいつも真実だ（　　　）。",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-094-06-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-094-06-c",
-          "text": "とは限らない",
-          "grammarId": "n2-094",
-          "baseExpression": "とは限らない",
-          "conjugatedExpression": "とは限らない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-094-06-d",
-          "text": "はというと",
-          "grammarId": "n2-142",
-          "baseExpression": "はというと",
-          "conjugatedExpression": "はというと",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-094-06-a",
+          "id": "fb-created-n2-094-03-a",
           "text": "はともかく",
           "grammarId": "n2-143",
           "baseExpression": "はともかく",
@@ -839,253 +389,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-094-06-b",
-          "text": "はもとより",
-          "grammarId": "n2-144",
-          "baseExpression": "はもとより",
-          "conjugatedExpression": "はもとより",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
-      "sourceGrammarIds": [
-        "n2-094",
-        "n2-142",
-        "n2-143",
-        "n2-144"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-094-07",
-      "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
-      "sentenceWithBlank": "新聞には書いてあることがいつも真実だ（　　　）。",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-094-07-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-094-07-b",
-          "text": "とは限らない",
-          "grammarId": "n2-094",
-          "baseExpression": "とは限らない",
-          "conjugatedExpression": "とは限らない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-094-07-c",
-          "text": "ようものなら",
-          "grammarId": "n2-167",
-          "baseExpression": "ようものなら",
-          "conjugatedExpression": "ようものなら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-094-07-d",
-          "text": "わけがない",
-          "grammarId": "n2-168",
-          "baseExpression": "わけがない",
-          "conjugatedExpression": "わけがない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-094-07-a",
-          "text": "わけではない",
-          "grammarId": "n2-169",
-          "baseExpression": "わけではない",
-          "conjugatedExpression": "わけではない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
-      "sourceGrammarIds": [
-        "n2-094",
-        "n2-167",
-        "n2-168",
-        "n2-169"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-094-08",
-      "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
-      "sentenceWithBlank": "新聞には書いてあることがいつも真実だ（　　　）。",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-094-08-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-094-08-a",
-          "text": "とは限らない",
-          "grammarId": "n2-094",
-          "baseExpression": "とは限らない",
-          "conjugatedExpression": "とは限らない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-094-08-b",
-          "text": "甲斐があって",
-          "grammarId": "n2-011",
-          "baseExpression": "甲斐があって",
-          "conjugatedExpression": "甲斐があって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-094-08-c",
-          "text": "かぎりは",
-          "grammarId": "n2-012",
-          "baseExpression": "かぎりは",
-          "conjugatedExpression": "かぎりは",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-094-08-d",
-          "text": "かぎり",
-          "grammarId": "n2-013",
-          "baseExpression": "かぎり",
-          "conjugatedExpression": "かぎり",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
-      "sourceGrammarIds": [
-        "n2-094",
-        "n2-011",
-        "n2-012",
-        "n2-013"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-094-09",
-      "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
-      "sentenceWithBlank": "新聞には書いてあることがいつも真実だ（　　　）。",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-094-09-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-094-09-d",
-          "text": "とは限らない",
-          "grammarId": "n2-094",
-          "baseExpression": "とは限らない",
-          "conjugatedExpression": "とは限らない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-094-09-a",
-          "text": "かぎりは",
-          "grammarId": "n2-012",
-          "baseExpression": "かぎりは",
-          "conjugatedExpression": "かぎりは",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-094-09-b",
-          "text": "かぎり",
-          "grammarId": "n2-013",
-          "baseExpression": "かぎり",
-          "conjugatedExpression": "かぎり",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-094-09-c",
-          "text": "かぎりだ",
-          "grammarId": "n2-014",
-          "baseExpression": "かぎりだ",
-          "conjugatedExpression": "かぎりだ",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
-      "sourceGrammarIds": [
-        "n2-094",
-        "n2-012",
-        "n2-013",
-        "n2-014"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-094-10",
-      "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
-      "sentenceWithBlank": "新聞には書いてあることがいつも真実だ（　　　）。",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-094-10-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-094-10-c",
-          "text": "とは限らない",
-          "grammarId": "n2-094",
-          "baseExpression": "とは限らない",
-          "conjugatedExpression": "とは限らない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-094-10-d",
-          "text": "にしろにしろ",
-          "grammarId": "n2-122",
-          "baseExpression": "にしろにしろ",
-          "conjugatedExpression": "にしろにしろ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-094-10-a",
-          "text": "にすぎない",
-          "grammarId": "n2-123",
-          "baseExpression": "にすぎない",
-          "conjugatedExpression": "にすぎない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-094-10-b",
-          "text": "に相違ない",
-          "grammarId": "n2-124",
-          "baseExpression": "に相違ない",
-          "conjugatedExpression": "に相違ない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
-      "sourceGrammarIds": [
-        "n2-094",
-        "n2-122",
-        "n2-123",
-        "n2-124"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-094-11",
-      "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
-      "sentenceWithBlank": "新聞には書いてあることがいつも真実だ（　　　）。",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-094-11-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-094-11-b",
+          "id": "fb-created-n2-094-03-b",
           "text": "はもとより",
           "grammarId": "n2-144",
           "baseExpression": "はもとより",
@@ -1093,7 +397,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-094-11-c",
+          "id": "fb-created-n2-094-03-c",
           "text": "とは限らない",
           "grammarId": "n2-094",
           "baseExpression": "とは限らない",
@@ -1101,285 +405,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-094-11-d",
-          "text": "はというと",
-          "grammarId": "n2-142",
-          "baseExpression": "はというと",
-          "conjugatedExpression": "はというと",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-094-11-a",
-          "text": "はともかく",
-          "grammarId": "n2-143",
-          "baseExpression": "はともかく",
-          "conjugatedExpression": "はともかく",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
-      "sourceGrammarIds": [
-        "n2-094",
-        "n2-142",
-        "n2-143",
-        "n2-144"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-094-12",
-      "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
-      "sentenceWithBlank": "新聞には書いてあることがいつも真実だ（　　　）。",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-094-12-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-094-12-a",
-          "text": "わけではない",
-          "grammarId": "n2-169",
-          "baseExpression": "わけではない",
-          "conjugatedExpression": "わけではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-094-12-b",
-          "text": "とは限らない",
-          "grammarId": "n2-094",
-          "baseExpression": "とは限らない",
-          "conjugatedExpression": "とは限らない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-094-12-c",
-          "text": "ようものなら",
-          "grammarId": "n2-167",
-          "baseExpression": "ようものなら",
-          "conjugatedExpression": "ようものなら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-094-12-d",
-          "text": "わけがない",
-          "grammarId": "n2-168",
-          "baseExpression": "わけがない",
-          "conjugatedExpression": "わけがない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
-      "sourceGrammarIds": [
-        "n2-094",
-        "n2-167",
-        "n2-168",
-        "n2-169"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-094-13",
-      "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
-      "sentenceWithBlank": "新聞には書いてあることがいつも真実だ（　　　）。",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-094-13-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-094-13-d",
-          "text": "かぎり",
-          "grammarId": "n2-013",
-          "baseExpression": "かぎり",
-          "conjugatedExpression": "かぎり",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-094-13-a",
-          "text": "とは限らない",
-          "grammarId": "n2-094",
-          "baseExpression": "とは限らない",
-          "conjugatedExpression": "とは限らない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-094-13-b",
-          "text": "甲斐があって",
-          "grammarId": "n2-011",
-          "baseExpression": "甲斐があって",
-          "conjugatedExpression": "甲斐があって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-094-13-c",
-          "text": "かぎりは",
-          "grammarId": "n2-012",
-          "baseExpression": "かぎりは",
-          "conjugatedExpression": "かぎりは",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
-      "sourceGrammarIds": [
-        "n2-094",
-        "n2-011",
-        "n2-012",
-        "n2-013"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-094-14",
-      "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
-      "sentenceWithBlank": "新聞には書いてあることがいつも真実だ（　　　）。",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-094-14-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-094-14-c",
-          "text": "かぎりだ",
-          "grammarId": "n2-014",
-          "baseExpression": "かぎりだ",
-          "conjugatedExpression": "かぎりだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-094-14-d",
-          "text": "とは限らない",
-          "grammarId": "n2-094",
-          "baseExpression": "とは限らない",
-          "conjugatedExpression": "とは限らない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-094-14-a",
-          "text": "かぎりは",
-          "grammarId": "n2-012",
-          "baseExpression": "かぎりは",
-          "conjugatedExpression": "かぎりは",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-094-14-b",
-          "text": "かぎり",
-          "grammarId": "n2-013",
-          "baseExpression": "かぎり",
-          "conjugatedExpression": "かぎり",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
-      "sourceGrammarIds": [
-        "n2-094",
-        "n2-012",
-        "n2-013",
-        "n2-014"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-094-15",
-      "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
-      "sentenceWithBlank": "新聞には書いてあることがいつも真実だ（　　　）。",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-094-15-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-094-15-b",
-          "text": "に相違ない",
-          "grammarId": "n2-124",
-          "baseExpression": "に相違ない",
-          "conjugatedExpression": "に相違ない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-094-15-c",
-          "text": "とは限らない",
-          "grammarId": "n2-094",
-          "baseExpression": "とは限らない",
-          "conjugatedExpression": "とは限らない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-094-15-d",
-          "text": "にしろにしろ",
-          "grammarId": "n2-122",
-          "baseExpression": "にしろにしろ",
-          "conjugatedExpression": "にしろにしろ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-094-15-a",
-          "text": "にすぎない",
-          "grammarId": "n2-123",
-          "baseExpression": "にすぎない",
-          "conjugatedExpression": "にすぎない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
-      "sourceGrammarIds": [
-        "n2-094",
-        "n2-122",
-        "n2-123",
-        "n2-124"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-094-16",
-      "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
-      "sentenceWithBlank": "新聞には書いてあることがいつも真実だ（　　　）。",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-094-16-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-094-16-a",
-          "text": "はともかく",
-          "grammarId": "n2-143",
-          "baseExpression": "はともかく",
-          "conjugatedExpression": "はともかく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-094-16-b",
-          "text": "はもとより",
-          "grammarId": "n2-144",
-          "baseExpression": "はもとより",
-          "conjugatedExpression": "はもとより",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-094-16-c",
-          "text": "とは限らない",
-          "grammarId": "n2-094",
-          "baseExpression": "とは限らない",
-          "conjugatedExpression": "とは限らない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-094-16-d",
+          "id": "fb-created-n2-094-03-d",
           "text": "はというと",
           "grammarId": "n2-142",
           "baseExpression": "はというと",
@@ -1387,7 +413,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '오랫동안 사귄 친구가 어려울 때 내 편이 되어 준다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
       "sourceGrammarIds": [
         "n2-094",
         "n2-142",
@@ -1395,37 +421,28 @@
         "n2-144"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-094-17",
+      "id": "fb-created-n2-094-04",
       "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
-      "sentenceWithBlank": "新聞には書いてあることがいつも真実だ（　　　）。",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-094-17-b",
+      "sentence": "空が晴れていても、山頂まで暖かいとは限らない。",
+      "sentenceWithBlank": "空が晴れていても、山頂まで暖かい（　　　）。",
+      "korean": "하늘이 맑더라도 산 정상까지 따뜻하다고는 할 수 없다.",
+      "answerChoiceId": "fb-created-n2-094-04-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-094-17-d",
-          "text": "わけがない",
-          "grammarId": "n2-168",
-          "baseExpression": "わけがない",
-          "conjugatedExpression": "わけがない",
+          "id": "fb-created-n2-094-04-b",
+          "text": "はもとより",
+          "grammarId": "n2-144",
+          "baseExpression": "はもとより",
+          "conjugatedExpression": "はもとより",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-094-17-a",
-          "text": "わけではない",
-          "grammarId": "n2-169",
-          "baseExpression": "わけではない",
-          "conjugatedExpression": "わけではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-094-17-b",
+          "id": "fb-created-n2-094-04-c",
           "text": "とは限らない",
           "grammarId": "n2-094",
           "baseExpression": "とは限らない",
@@ -1433,53 +450,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-094-17-c",
-          "text": "ようものなら",
-          "grammarId": "n2-167",
-          "baseExpression": "ようものなら",
-          "conjugatedExpression": "ようものなら",
+          "id": "fb-created-n2-094-04-d",
+          "text": "はというと",
+          "grammarId": "n2-142",
+          "baseExpression": "はというと",
+          "conjugatedExpression": "はというと",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-094-04-a",
+          "text": "はともかく",
+          "grammarId": "n2-143",
+          "baseExpression": "はともかく",
+          "conjugatedExpression": "はともかく",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '하늘이 맑더라도 산 정상까지 따뜻하다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
       "sourceGrammarIds": [
         "n2-094",
-        "n2-167",
-        "n2-168",
-        "n2-169"
+        "n2-142",
+        "n2-143",
+        "n2-144"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-094-18",
+      "id": "fb-created-n2-094-05",
       "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
-      "sentenceWithBlank": "新聞には書いてあることがいつも真実だ（　　　）。",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-094-18-a",
+      "sentence": "行列のできる有名店でも、料理がおいしいとは限らない。",
+      "sentenceWithBlank": "行列のできる有名店でも、料理がおいしい（　　　）。",
+      "korean": "줄을 서는 유명한 식당이라도 음식이 맛있다고는 할 수 없다.",
+      "answerChoiceId": "fb-created-n2-094-05-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-094-18-c",
-          "text": "かぎりは",
-          "grammarId": "n2-012",
-          "baseExpression": "かぎりは",
-          "conjugatedExpression": "かぎりは",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-094-18-d",
-          "text": "かぎり",
-          "grammarId": "n2-013",
-          "baseExpression": "かぎり",
-          "conjugatedExpression": "かぎり",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-094-18-a",
+          "id": "fb-created-n2-094-05-c",
           "text": "とは限らない",
           "grammarId": "n2-094",
           "baseExpression": "とは限らない",
@@ -1487,53 +495,121 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-094-18-b",
-          "text": "甲斐があって",
-          "grammarId": "n2-011",
-          "baseExpression": "甲斐があって",
-          "conjugatedExpression": "甲斐があって",
+          "id": "fb-created-n2-094-05-d",
+          "text": "はというと",
+          "grammarId": "n2-142",
+          "baseExpression": "はというと",
+          "conjugatedExpression": "はというと",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-094-05-a",
+          "text": "はともかく",
+          "grammarId": "n2-143",
+          "baseExpression": "はともかく",
+          "conjugatedExpression": "はともかく",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-094-05-b",
+          "text": "はもとより",
+          "grammarId": "n2-144",
+          "baseExpression": "はもとより",
+          "conjugatedExpression": "はもとより",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '줄을 서는 유명한 식당이라도 음식이 맛있다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
       "sourceGrammarIds": [
         "n2-094",
-        "n2-011",
-        "n2-012",
-        "n2-013"
+        "n2-142",
+        "n2-143",
+        "n2-144"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-094-19",
+      "id": "fb-created-n2-094-06",
       "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
-      "sentenceWithBlank": "新聞には書いてあることがいつも真実だ（　　　）。",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-094-19-d",
+      "sentence": "経験豊富な候補者が、採用面接で高く評価されるとは限らない。",
+      "sentenceWithBlank": "経験豊富な候補者が、採用面接で高く評価される（　　　）。",
+      "korean": "경험이 풍부한 지원자가 채용 면접에서 높은 평가를 받는다고는 할 수 없다.",
+      "answerChoiceId": "fb-created-n2-094-06-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-094-19-b",
-          "text": "かぎり",
-          "grammarId": "n2-013",
-          "baseExpression": "かぎり",
-          "conjugatedExpression": "かぎり",
+          "id": "fb-created-n2-094-06-d",
+          "text": "はというと",
+          "grammarId": "n2-142",
+          "baseExpression": "はというと",
+          "conjugatedExpression": "はというと",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-094-19-c",
-          "text": "かぎりだ",
-          "grammarId": "n2-014",
-          "baseExpression": "かぎりだ",
-          "conjugatedExpression": "かぎりだ",
+          "id": "fb-created-n2-094-06-a",
+          "text": "はともかく",
+          "grammarId": "n2-143",
+          "baseExpression": "はともかく",
+          "conjugatedExpression": "はともかく",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-094-19-d",
+          "id": "fb-created-n2-094-06-b",
+          "text": "はもとより",
+          "grammarId": "n2-144",
+          "baseExpression": "はもとより",
+          "conjugatedExpression": "はもとより",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-094-06-c",
+          "text": "とは限らない",
+          "grammarId": "n2-094",
+          "baseExpression": "とは限らない",
+          "conjugatedExpression": "とは限らない",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '경험이 풍부한 지원자가 채용 면접에서 높은 평가를 받는다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
+      "sourceGrammarIds": [
+        "n2-094",
+        "n2-142",
+        "n2-143",
+        "n2-144"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-094-07",
+      "level": "N2",
+      "sentence": "急いで返信したからといって、相手の誤解が解けるとは限らない。",
+      "sentenceWithBlank": "急いで返信したからといって、相手の誤解が解ける（　　　）。",
+      "korean": "서둘러 답장했다고 해서 상대의 오해가 풀린다고는 할 수 없다.",
+      "answerChoiceId": "fb-created-n2-094-07-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-094-07-a",
+          "text": "はともかく",
+          "grammarId": "n2-143",
+          "baseExpression": "はともかく",
+          "conjugatedExpression": "はともかく",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-094-07-b",
+          "text": "はもとより",
+          "grammarId": "n2-144",
+          "baseExpression": "はもとより",
+          "conjugatedExpression": "はもとより",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-094-07-c",
           "text": "とは限らない",
           "grammarId": "n2-094",
           "baseExpression": "とは限らない",
@@ -1541,53 +617,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-094-19-a",
-          "text": "かぎりは",
-          "grammarId": "n2-012",
-          "baseExpression": "かぎりは",
-          "conjugatedExpression": "かぎりは",
+          "id": "fb-created-n2-094-07-d",
+          "text": "はというと",
+          "grammarId": "n2-142",
+          "baseExpression": "はというと",
+          "conjugatedExpression": "はというと",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '서둘러 답장했다고 해서 상대의 오해가 풀린다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
       "sourceGrammarIds": [
         "n2-094",
-        "n2-012",
-        "n2-013",
-        "n2-014"
+        "n2-142",
+        "n2-143",
+        "n2-144"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-094-20",
+      "id": "fb-created-n2-094-08",
       "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
-      "sentenceWithBlank": "新聞には書いてあることがいつも真実だ（　　　）。",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
-      "answerChoiceId": "fb-extra20-n2-094-20-c",
+      "sentence": "子供が静かにしているから、眠っているとは限らない。",
+      "sentenceWithBlank": "子供が静かにしているから、眠っている（　　　）。",
+      "korean": "아이가 조용히 있다고 해서 자고 있다고는 할 수 없다.",
+      "answerChoiceId": "fb-created-n2-094-08-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-094-20-a",
-          "text": "にすぎない",
-          "grammarId": "n2-123",
-          "baseExpression": "にすぎない",
-          "conjugatedExpression": "にすぎない",
+          "id": "fb-created-n2-094-08-b",
+          "text": "はもとより",
+          "grammarId": "n2-144",
+          "baseExpression": "はもとより",
+          "conjugatedExpression": "はもとより",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-094-20-b",
-          "text": "に相違ない",
-          "grammarId": "n2-124",
-          "baseExpression": "に相違ない",
-          "conjugatedExpression": "に相違ない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-094-20-c",
+          "id": "fb-created-n2-094-08-c",
           "text": "とは限らない",
           "grammarId": "n2-094",
           "baseExpression": "とは限らない",
@@ -1595,25 +662,933 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-094-20-d",
-          "text": "にしろにしろ",
-          "grammarId": "n2-122",
-          "baseExpression": "にしろにしろ",
-          "conjugatedExpression": "にしろにしろ",
+          "id": "fb-created-n2-094-08-d",
+          "text": "はというと",
+          "grammarId": "n2-142",
+          "baseExpression": "はというと",
+          "conjugatedExpression": "はというと",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-094-08-a",
+          "text": "はともかく",
+          "grammarId": "n2-143",
+          "baseExpression": "はともかく",
+          "conjugatedExpression": "はともかく",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '아이가 조용히 있다고 해서 자고 있다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
       "sourceGrammarIds": [
         "n2-094",
-        "n2-122",
-        "n2-123",
-        "n2-124"
+        "n2-142",
+        "n2-143",
+        "n2-144"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-094-09",
+      "level": "N2",
+      "sentence": "会社の売上が増えても、利益まで伸びるとは限らない。",
+      "sentenceWithBlank": "会社の売上が増えても、利益まで伸びる（　　　）。",
+      "korean": "회사의 매출이 늘어도 이익까지 증가한다고는 할 수 없다.",
+      "answerChoiceId": "fb-created-n2-094-09-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-094-09-c",
+          "text": "とは限らない",
+          "grammarId": "n2-094",
+          "baseExpression": "とは限らない",
+          "conjugatedExpression": "とは限らない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-094-09-d",
+          "text": "はというと",
+          "grammarId": "n2-142",
+          "baseExpression": "はというと",
+          "conjugatedExpression": "はというと",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-094-09-a",
+          "text": "はともかく",
+          "grammarId": "n2-143",
+          "baseExpression": "はともかく",
+          "conjugatedExpression": "はともかく",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-094-09-b",
+          "text": "はもとより",
+          "grammarId": "n2-144",
+          "baseExpression": "はもとより",
+          "conjugatedExpression": "はもとより",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '회사의 매출이 늘어도 이익까지 증가한다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
+      "sourceGrammarIds": [
+        "n2-094",
+        "n2-142",
+        "n2-143",
+        "n2-144"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-094-10",
+      "level": "N2",
+      "sentence": "道幅の広い通りが、夜間も安全だとは限らない。",
+      "sentenceWithBlank": "道幅の広い通りが、夜間も安全だ（　　　）。",
+      "korean": "도로 폭이 넓은 거리가 밤에도 안전하다고는 할 수 없다.",
+      "answerChoiceId": "fb-created-n2-094-10-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-094-10-d",
+          "text": "はというと",
+          "grammarId": "n2-142",
+          "baseExpression": "はというと",
+          "conjugatedExpression": "はというと",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-094-10-a",
+          "text": "はともかく",
+          "grammarId": "n2-143",
+          "baseExpression": "はともかく",
+          "conjugatedExpression": "はともかく",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-094-10-b",
+          "text": "はもとより",
+          "grammarId": "n2-144",
+          "baseExpression": "はもとより",
+          "conjugatedExpression": "はもとより",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-094-10-c",
+          "text": "とは限らない",
+          "grammarId": "n2-094",
+          "baseExpression": "とは限らない",
+          "conjugatedExpression": "とは限らない",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '도로 폭이 넓은 거리가 밤에도 안전하다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
+      "sourceGrammarIds": [
+        "n2-094",
+        "n2-142",
+        "n2-143",
+        "n2-144"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-094-11",
+      "level": "N2",
+      "sentence": "親切に助言すれば、相手が素直に受け入れるとは限らない。",
+      "sentenceWithBlank": "親切に助言すれば、相手が素直に受け入れる（　　　）。",
+      "korean": "친절하게 조언하면 상대가 순순히 받아들인다고는 할 수 없다.",
+      "answerChoiceId": "fb-created-n2-094-11-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-094-11-a",
+          "text": "はともかく",
+          "grammarId": "n2-143",
+          "baseExpression": "はともかく",
+          "conjugatedExpression": "はともかく",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-094-11-b",
+          "text": "はもとより",
+          "grammarId": "n2-144",
+          "baseExpression": "はもとより",
+          "conjugatedExpression": "はもとより",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-094-11-c",
+          "text": "とは限らない",
+          "grammarId": "n2-094",
+          "baseExpression": "とは限らない",
+          "conjugatedExpression": "とは限らない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-094-11-d",
+          "text": "はというと",
+          "grammarId": "n2-142",
+          "baseExpression": "はというと",
+          "conjugatedExpression": "はというと",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '친절하게 조언하면 상대가 순순히 받아들인다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
+      "sourceGrammarIds": [
+        "n2-094",
+        "n2-142",
+        "n2-143",
+        "n2-144"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-094-12",
+      "level": "N2",
+      "sentence": "最新の設備を導入しても、工場の事故を完全に防げるとは限らない。",
+      "sentenceWithBlank": "最新の設備を導入しても、工場の事故を完全に防げる（　　　）。",
+      "korean": "최신 설비를 도입해도 공장 사고를 완전히 막을 수 있다고는 할 수 없다.",
+      "answerChoiceId": "fb-created-n2-094-12-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-094-12-b",
+          "text": "はもとより",
+          "grammarId": "n2-144",
+          "baseExpression": "はもとより",
+          "conjugatedExpression": "はもとより",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-094-12-c",
+          "text": "とは限らない",
+          "grammarId": "n2-094",
+          "baseExpression": "とは限らない",
+          "conjugatedExpression": "とは限らない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-094-12-d",
+          "text": "はというと",
+          "grammarId": "n2-142",
+          "baseExpression": "はというと",
+          "conjugatedExpression": "はというと",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-094-12-a",
+          "text": "はともかく",
+          "grammarId": "n2-143",
+          "baseExpression": "はともかく",
+          "conjugatedExpression": "はともかく",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '최신 설비를 도입해도 공장 사고를 완전히 막을 수 있다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
+      "sourceGrammarIds": [
+        "n2-094",
+        "n2-142",
+        "n2-143",
+        "n2-144"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-094-13",
+      "level": "N2",
+      "sentence": "雨がやんでも、フェリーが予定どおり出航できるとは限らない。",
+      "sentenceWithBlank": "雨がやんでも、フェリーが予定どおり出航できる（　　　）。",
+      "korean": "비가 그쳐도 여객선이 예정대로 출항할 수 있다고는 할 수 없다.",
+      "answerChoiceId": "fb-created-n2-094-13-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-094-13-c",
+          "text": "とは限らない",
+          "grammarId": "n2-094",
+          "baseExpression": "とは限らない",
+          "conjugatedExpression": "とは限らない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-094-13-d",
+          "text": "はというと",
+          "grammarId": "n2-142",
+          "baseExpression": "はというと",
+          "conjugatedExpression": "はというと",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-094-13-a",
+          "text": "はともかく",
+          "grammarId": "n2-143",
+          "baseExpression": "はともかく",
+          "conjugatedExpression": "はともかく",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-094-13-b",
+          "text": "はもとより",
+          "grammarId": "n2-144",
+          "baseExpression": "はもとより",
+          "conjugatedExpression": "はもとより",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '비가 그쳐도 여객선이 예정대로 출항할 수 있다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
+      "sourceGrammarIds": [
+        "n2-094",
+        "n2-142",
+        "n2-143",
+        "n2-144"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-094-14",
+      "level": "N2",
+      "sentence": "専門資格を取得した人が、独立して成功できるとは限らない。",
+      "sentenceWithBlank": "専門資格を取得した人が、独立して成功できる（　　　）。",
+      "korean": "전문 자격을 취득한 사람이 독립하여 성공할 수 있다고는 할 수 없다.",
+      "answerChoiceId": "fb-created-n2-094-14-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-094-14-d",
+          "text": "はというと",
+          "grammarId": "n2-142",
+          "baseExpression": "はというと",
+          "conjugatedExpression": "はというと",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-094-14-a",
+          "text": "はともかく",
+          "grammarId": "n2-143",
+          "baseExpression": "はともかく",
+          "conjugatedExpression": "はともかく",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-094-14-b",
+          "text": "はもとより",
+          "grammarId": "n2-144",
+          "baseExpression": "はもとより",
+          "conjugatedExpression": "はもとより",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-094-14-c",
+          "text": "とは限らない",
+          "grammarId": "n2-094",
+          "baseExpression": "とは限らない",
+          "conjugatedExpression": "とは限らない",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '전문 자격을 취득한 사람이 독립하여 성공할 수 있다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
+      "sourceGrammarIds": [
+        "n2-094",
+        "n2-142",
+        "n2-143",
+        "n2-144"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-094-15",
+      "level": "N2",
+      "sentence": "外見が若々しくても、十分な体力があるとは限らない。",
+      "sentenceWithBlank": "外見が若々しくても、十分な体力がある（　　　）。",
+      "korean": "외모가 젊어 보여도 체력이 충분하다고는 할 수 없다.",
+      "answerChoiceId": "fb-created-n2-094-15-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-094-15-a",
+          "text": "はともかく",
+          "grammarId": "n2-143",
+          "baseExpression": "はともかく",
+          "conjugatedExpression": "はともかく",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-094-15-b",
+          "text": "はもとより",
+          "grammarId": "n2-144",
+          "baseExpression": "はもとより",
+          "conjugatedExpression": "はもとより",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-094-15-c",
+          "text": "とは限らない",
+          "grammarId": "n2-094",
+          "baseExpression": "とは限らない",
+          "conjugatedExpression": "とは限らない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-094-15-d",
+          "text": "はというと",
+          "grammarId": "n2-142",
+          "baseExpression": "はというと",
+          "conjugatedExpression": "はというと",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '외모가 젊어 보여도 체력이 충분하다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
+      "sourceGrammarIds": [
+        "n2-094",
+        "n2-142",
+        "n2-143",
+        "n2-144"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-094-16",
+      "level": "N2",
+      "sentence": "予約確認メールが届いても、席が確保されているとは限らない。",
+      "sentenceWithBlank": "予約確認メールが届いても、席が確保されている（　　　）。",
+      "korean": "예약 확인 메일이 와도 좌석이 확보되어 있다고는 할 수 없다.",
+      "answerChoiceId": "fb-created-n2-094-16-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-094-16-b",
+          "text": "はもとより",
+          "grammarId": "n2-144",
+          "baseExpression": "はもとより",
+          "conjugatedExpression": "はもとより",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-094-16-c",
+          "text": "とは限らない",
+          "grammarId": "n2-094",
+          "baseExpression": "とは限らない",
+          "conjugatedExpression": "とは限らない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-094-16-d",
+          "text": "はというと",
+          "grammarId": "n2-142",
+          "baseExpression": "はというと",
+          "conjugatedExpression": "はというと",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-094-16-a",
+          "text": "はともかく",
+          "grammarId": "n2-143",
+          "baseExpression": "はともかく",
+          "conjugatedExpression": "はともかく",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '예약 확인 메일이 와도 좌석이 확보되어 있다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
+      "sourceGrammarIds": [
+        "n2-094",
+        "n2-142",
+        "n2-143",
+        "n2-144"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-094-17",
+      "level": "N2",
+      "sentence": "多数決で決まった案が、組織にとって最善だとは限らない。",
+      "sentenceWithBlank": "多数決で決まった案が、組織にとって最善だ（　　　）。",
+      "korean": "다수결로 결정된 안이 조직에 최선이라고는 할 수 없다.",
+      "answerChoiceId": "fb-created-n2-094-17-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-094-17-c",
+          "text": "とは限らない",
+          "grammarId": "n2-094",
+          "baseExpression": "とは限らない",
+          "conjugatedExpression": "とは限らない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-094-17-d",
+          "text": "はというと",
+          "grammarId": "n2-142",
+          "baseExpression": "はというと",
+          "conjugatedExpression": "はというと",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-094-17-a",
+          "text": "はともかく",
+          "grammarId": "n2-143",
+          "baseExpression": "はともかく",
+          "conjugatedExpression": "はともかく",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-094-17-b",
+          "text": "はもとより",
+          "grammarId": "n2-144",
+          "baseExpression": "はもとより",
+          "conjugatedExpression": "はもとより",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '다수결로 결정된 안이 조직에 최선이라고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
+      "sourceGrammarIds": [
+        "n2-094",
+        "n2-142",
+        "n2-143",
+        "n2-144"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-094-18",
+      "level": "N2",
+      "sentence": "商品を大幅に値下げしても、離れた客が戻ってくるとは限らない。",
+      "sentenceWithBlank": "商品を大幅に値下げしても、離れた客が戻ってくる（　　　）。",
+      "korean": "상품 가격을 대폭 내려도 떠난 고객이 돌아온다고는 할 수 없다.",
+      "answerChoiceId": "fb-created-n2-094-18-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-094-18-d",
+          "text": "はというと",
+          "grammarId": "n2-142",
+          "baseExpression": "はというと",
+          "conjugatedExpression": "はというと",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-094-18-a",
+          "text": "はともかく",
+          "grammarId": "n2-143",
+          "baseExpression": "はともかく",
+          "conjugatedExpression": "はともかく",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-094-18-b",
+          "text": "はもとより",
+          "grammarId": "n2-144",
+          "baseExpression": "はもとより",
+          "conjugatedExpression": "はもとより",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-094-18-c",
+          "text": "とは限らない",
+          "grammarId": "n2-094",
+          "baseExpression": "とは限らない",
+          "conjugatedExpression": "とは限らない",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '상품 가격을 대폭 내려도 떠난 고객이 돌아온다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
+      "sourceGrammarIds": [
+        "n2-094",
+        "n2-142",
+        "n2-143",
+        "n2-144"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-094-19",
+      "level": "N2",
+      "sentence": "同じ県で育った人同士でも、同じ方言を使うとは限らない。",
+      "sentenceWithBlank": "同じ県で育った人同士でも、同じ方言を使う（　　　）。",
+      "korean": "같은 현에서 자란 사람끼리라도 같은 사투리를 쓴다고는 할 수 없다.",
+      "answerChoiceId": "fb-created-n2-094-19-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-094-19-a",
+          "text": "はともかく",
+          "grammarId": "n2-143",
+          "baseExpression": "はともかく",
+          "conjugatedExpression": "はともかく",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-094-19-b",
+          "text": "はもとより",
+          "grammarId": "n2-144",
+          "baseExpression": "はもとより",
+          "conjugatedExpression": "はもとより",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-094-19-c",
+          "text": "とは限らない",
+          "grammarId": "n2-094",
+          "baseExpression": "とは限らない",
+          "conjugatedExpression": "とは限らない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-094-19-d",
+          "text": "はというと",
+          "grammarId": "n2-142",
+          "baseExpression": "はというと",
+          "conjugatedExpression": "はというと",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '같은 현에서 자란 사람끼리라도 같은 사투리를 쓴다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
+      "sourceGrammarIds": [
+        "n2-094",
+        "n2-142",
+        "n2-143",
+        "n2-144"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-094-20",
+      "level": "N2",
+      "sentence": "責任者が正式に謝罪しても、失った信頼がすぐ回復するとは限らない。",
+      "sentenceWithBlank": "責任者が正式に謝罪しても、失った信頼がすぐ回復する（　　　）。",
+      "korean": "책임자가 공식적으로 사과해도 잃어버린 신뢰가 바로 회복된다고는 할 수 없다.",
+      "answerChoiceId": "fb-created-n2-094-20-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-094-20-b",
+          "text": "はもとより",
+          "grammarId": "n2-144",
+          "baseExpression": "はもとより",
+          "conjugatedExpression": "はもとより",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-094-20-c",
+          "text": "とは限らない",
+          "grammarId": "n2-094",
+          "baseExpression": "とは限らない",
+          "conjugatedExpression": "とは限らない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-094-20-d",
+          "text": "はというと",
+          "grammarId": "n2-142",
+          "baseExpression": "はというと",
+          "conjugatedExpression": "はというと",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-094-20-a",
+          "text": "はともかく",
+          "grammarId": "n2-143",
+          "baseExpression": "はともかく",
+          "conjugatedExpression": "はともかく",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '책임자가 공식적으로 사과해도 잃어버린 신뢰가 바로 회복된다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
+      "sourceGrammarIds": [
+        "n2-094",
+        "n2-142",
+        "n2-143",
+        "n2-144"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-094-21",
+      "level": "N2",
+      "sentence": "定年を迎えた人が、仕事を完全に辞めるとは限らない。",
+      "sentenceWithBlank": "定年を迎えた人が、仕事を完全に辞める（　　　）。",
+      "korean": "정년을 맞은 사람이 일을 완전히 그만둔다고는 할 수 없다.",
+      "answerChoiceId": "fb-created-n2-094-21-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-094-21-c",
+          "text": "とは限らない",
+          "grammarId": "n2-094",
+          "baseExpression": "とは限らない",
+          "conjugatedExpression": "とは限らない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-094-21-d",
+          "text": "はというと",
+          "grammarId": "n2-142",
+          "baseExpression": "はというと",
+          "conjugatedExpression": "はというと",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-094-21-a",
+          "text": "はともかく",
+          "grammarId": "n2-143",
+          "baseExpression": "はともかく",
+          "conjugatedExpression": "はともかく",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-094-21-b",
+          "text": "はもとより",
+          "grammarId": "n2-144",
+          "baseExpression": "はもとより",
+          "conjugatedExpression": "はもとより",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '정년을 맞은 사람이 일을 완전히 그만둔다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
+      "sourceGrammarIds": [
+        "n2-094",
+        "n2-142",
+        "n2-143",
+        "n2-144"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-094-22",
+      "level": "N2",
+      "sentence": "血のつながった兄弟が、家族として支え合えるとは限らない。",
+      "sentenceWithBlank": "血のつながった兄弟が、家族として支え合える（　　　）。",
+      "korean": "피를 나눈 형제가 가족으로서 서로 의지할 수 있다고는 할 수 없다.",
+      "answerChoiceId": "fb-created-n2-094-22-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-094-22-d",
+          "text": "はというと",
+          "grammarId": "n2-142",
+          "baseExpression": "はというと",
+          "conjugatedExpression": "はというと",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-094-22-a",
+          "text": "はともかく",
+          "grammarId": "n2-143",
+          "baseExpression": "はともかく",
+          "conjugatedExpression": "はともかく",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-094-22-b",
+          "text": "はもとより",
+          "grammarId": "n2-144",
+          "baseExpression": "はもとより",
+          "conjugatedExpression": "はもとより",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-094-22-c",
+          "text": "とは限らない",
+          "grammarId": "n2-094",
+          "baseExpression": "とは限らない",
+          "conjugatedExpression": "とは限らない",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '피를 나눈 형제가 가족으로서 서로 의지할 수 있다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
+      "sourceGrammarIds": [
+        "n2-094",
+        "n2-142",
+        "n2-143",
+        "n2-144"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-094-23",
+      "level": "N2",
+      "sentence": "失業率が下がったからといって、住民の暮らし向きが改善したとは限らない。",
+      "sentenceWithBlank": "失業率が下がったからといって、住民の暮らし向きが改善した（　　　）。",
+      "korean": "실업률이 낮아졌다고 해서 주민들의 생활 형편이 나아졌다고는 할 수 없다.",
+      "answerChoiceId": "fb-created-n2-094-23-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-094-23-a",
+          "text": "はともかく",
+          "grammarId": "n2-143",
+          "baseExpression": "はともかく",
+          "conjugatedExpression": "はともかく",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-094-23-b",
+          "text": "はもとより",
+          "grammarId": "n2-144",
+          "baseExpression": "はもとより",
+          "conjugatedExpression": "はもとより",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-094-23-c",
+          "text": "とは限らない",
+          "grammarId": "n2-094",
+          "baseExpression": "とは限らない",
+          "conjugatedExpression": "とは限らない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-094-23-d",
+          "text": "はというと",
+          "grammarId": "n2-142",
+          "baseExpression": "はというと",
+          "conjugatedExpression": "はというと",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '실업률이 낮아졌다고 해서 주민들의 생활 형편이 나아졌다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
+      "sourceGrammarIds": [
+        "n2-094",
+        "n2-142",
+        "n2-143",
+        "n2-144"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-094-24",
+      "level": "N2",
+      "sentence": "新鮮な野菜なら、生のまま食べても安全だとは限らない。",
+      "sentenceWithBlank": "新鮮な野菜なら、生のまま食べても安全だ（　　　）。",
+      "korean": "신선한 채소라면 날것으로 먹어도 안전하다고는 할 수 없다.",
+      "answerChoiceId": "fb-created-n2-094-24-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-094-24-b",
+          "text": "はもとより",
+          "grammarId": "n2-144",
+          "baseExpression": "はもとより",
+          "conjugatedExpression": "はもとより",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-094-24-c",
+          "text": "とは限らない",
+          "grammarId": "n2-094",
+          "baseExpression": "とは限らない",
+          "conjugatedExpression": "とは限らない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-094-24-d",
+          "text": "はというと",
+          "grammarId": "n2-142",
+          "baseExpression": "はというと",
+          "conjugatedExpression": "はというと",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-094-24-a",
+          "text": "はともかく",
+          "grammarId": "n2-143",
+          "baseExpression": "はともかく",
+          "conjugatedExpression": "はともかく",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '신선한 채소라면 날것으로 먹어도 안전하다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
+      "sourceGrammarIds": [
+        "n2-094",
+        "n2-142",
+        "n2-143",
+        "n2-144"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-094-25",
+      "level": "N2",
+      "sentence": "人気俳優が出演していても、その映画が興行的に成功するとは限らない。",
+      "sentenceWithBlank": "人気俳優が出演していても、その映画が興行的に成功する（　　　）。",
+      "korean": "인기 배우가 출연하더라도 그 영화가 흥행에 성공한다고는 할 수 없다.",
+      "answerChoiceId": "fb-created-n2-094-25-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-094-25-c",
+          "text": "とは限らない",
+          "grammarId": "n2-094",
+          "baseExpression": "とは限らない",
+          "conjugatedExpression": "とは限らない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-094-25-d",
+          "text": "はというと",
+          "grammarId": "n2-142",
+          "baseExpression": "はというと",
+          "conjugatedExpression": "はというと",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-094-25-a",
+          "text": "はともかく",
+          "grammarId": "n2-143",
+          "baseExpression": "はともかく",
+          "conjugatedExpression": "はともかく",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-094-25-b",
+          "text": "はもとより",
+          "grammarId": "n2-144",
+          "baseExpression": "はもとより",
+          "conjugatedExpression": "はもとより",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '인기 배우가 출연하더라도 그 영화가 흥행에 성공한다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
+      "sourceGrammarIds": [
+        "n2-094",
+        "n2-142",
+        "n2-143",
+        "n2-144"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
       ]
     }
   ],
@@ -1834,1103 +1809,1153 @@
       ]
     },
     {
-      "id": "so-extra-n2-094-1",
+      "id": "so-created-n2-094-01",
       "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
+      "sentence": "高価な薬だからといって、誰にでもよく効くとは限らない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
+      "korean": "비싼 약이라고 해서 누구에게나 잘 듣는다고는 할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra-n2-094-1-p1",
-          "text": "あることがいつも真実だとは限らない",
+          "id": "so-created-n2-094-01-p3",
+          "text": "誰にでもよく効く",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-094-01-p4",
+          "text": "とは限らない。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-094-1-p2",
-          "text": "新聞に",
+          "id": "so-created-n2-094-01-p1",
+          "text": "高価な",
           "order": 1
         },
         {
-          "id": "so-extra-n2-094-1-p3",
-          "text": "は",
+          "id": "so-created-n2-094-01-p2",
+          "text": "薬だからといって、",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-094-1-p4",
-          "text": "書いて",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-094-1-p2",
-        "so-extra-n2-094-1-p3",
-        "so-extra-n2-094-1-p4",
-        "so-extra-n2-094-1-p1"
+        "so-created-n2-094-01-p1",
+        "so-created-n2-094-01-p2",
+        "so-created-n2-094-01-p3",
+        "so-created-n2-094-01-p4"
       ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '비싼 약이라고 해서 누구에게나 잘 듣는다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
       "sourceGrammarIds": [
-        "n2-094"
+        "n2-094",
+        "n2-142",
+        "n2-143",
+        "n2-144"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-094-2",
+      "id": "so-created-n2-094-02",
       "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
+      "sentence": "都心に住めば、通勤が楽になるとは限らない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
+      "korean": "도심에 살면 출퇴근이 편해진다고는 할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra-n2-094-2-p2",
-          "text": "は",
+          "id": "so-created-n2-094-02-p2",
+          "text": "住めば、",
           "order": 2
         },
         {
-          "id": "so-extra-n2-094-2-p3",
-          "text": "書いて",
+          "id": "so-created-n2-094-02-p3",
+          "text": "通勤が楽になる",
           "order": 3
         },
         {
-          "id": "so-extra-n2-094-2-p4",
-          "text": "あることがいつも真実だとは限らない",
+          "id": "so-created-n2-094-02-p4",
+          "text": "とは限らない。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-094-2-p1",
-          "text": "新聞に",
+          "id": "so-created-n2-094-02-p1",
+          "text": "都心に",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-094-2-p1",
-        "so-extra-n2-094-2-p2",
-        "so-extra-n2-094-2-p3",
-        "so-extra-n2-094-2-p4"
+        "so-created-n2-094-02-p1",
+        "so-created-n2-094-02-p2",
+        "so-created-n2-094-02-p3",
+        "so-created-n2-094-02-p4"
       ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '도심에 살면 출퇴근이 편해진다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
       "sourceGrammarIds": [
-        "n2-094"
+        "n2-094",
+        "n2-142",
+        "n2-143",
+        "n2-144"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-094-3",
+      "id": "so-created-n2-094-03",
       "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
+      "sentence": "長年付き合った友人が、困ったときに味方してくれるとは限らない。",
+      "sentenceWithBlanks": "長年 ____ ____ ____ ____",
+      "korean": "오랫동안 사귄 친구가 어려울 때 내 편이 되어 준다고는 할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra-n2-094-3-p3",
-          "text": "あることがいつも真実だとは限らない",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-094-3-p4",
-          "text": "新聞に",
+          "id": "so-created-n2-094-03-p1",
+          "text": "付き合った友人が、",
           "order": 1
         },
         {
-          "id": "so-extra-n2-094-3-p1",
-          "text": "は",
+          "id": "so-created-n2-094-03-p2",
+          "text": "困ったときに",
           "order": 2
         },
         {
-          "id": "so-extra-n2-094-3-p2",
-          "text": "書いて",
+          "id": "so-created-n2-094-03-p3",
+          "text": "味方してくれる",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-094-03-p4",
+          "text": "とは限らない。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-094-3-p4",
-        "so-extra-n2-094-3-p1",
-        "so-extra-n2-094-3-p2",
-        "so-extra-n2-094-3-p3"
+        "so-created-n2-094-03-p1",
+        "so-created-n2-094-03-p2",
+        "so-created-n2-094-03-p3",
+        "so-created-n2-094-03-p4"
       ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '오랫동안 사귄 친구가 어려울 때 내 편이 되어 준다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
       "sourceGrammarIds": [
-        "n2-094"
+        "n2-094",
+        "n2-142",
+        "n2-143",
+        "n2-144"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-094-4",
+      "id": "so-created-n2-094-04",
       "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
+      "sentence": "空が晴れていても、山頂まで暖かいとは限らない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
+      "korean": "하늘이 맑더라도 산 정상까지 따뜻하다고는 할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra-n2-094-4-p4",
-          "text": "は",
-          "order": 2
-        },
-        {
-          "id": "so-extra-n2-094-4-p1",
-          "text": "書いて",
-          "order": 3
-        },
-        {
-          "id": "so-extra-n2-094-4-p2",
-          "text": "あることがいつも真実だとは限らない",
+          "id": "so-created-n2-094-04-p4",
+          "text": "とは限らない。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-094-4-p3",
-          "text": "新聞に",
+          "id": "so-created-n2-094-04-p1",
+          "text": "空が",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-094-04-p2",
+          "text": "晴れていても、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-094-04-p3",
+          "text": "山頂まで暖かい",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-094-4-p3",
-        "so-extra-n2-094-4-p4",
-        "so-extra-n2-094-4-p1",
-        "so-extra-n2-094-4-p2"
+        "so-created-n2-094-04-p1",
+        "so-created-n2-094-04-p2",
+        "so-created-n2-094-04-p3",
+        "so-created-n2-094-04-p4"
       ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '하늘이 맑더라도 산 정상까지 따뜻하다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
       "sourceGrammarIds": [
-        "n2-094"
+        "n2-094",
+        "n2-142",
+        "n2-143",
+        "n2-144"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-094-5",
+      "id": "so-created-n2-094-05",
       "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
+      "sentence": "行列のできる有名店でも、料理がおいしいとは限らない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
+      "korean": "줄을 서는 유명한 식당이라도 음식이 맛있다고는 할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra-n2-094-5-p1",
-          "text": "あることがいつも真実だとは限らない",
+          "id": "so-created-n2-094-05-p3",
+          "text": "料理がおいしい",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-094-05-p4",
+          "text": "とは限らない。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-094-5-p2",
-          "text": "新聞に",
+          "id": "so-created-n2-094-05-p1",
+          "text": "行列のできる",
           "order": 1
         },
         {
-          "id": "so-extra-n2-094-5-p3",
-          "text": "は",
+          "id": "so-created-n2-094-05-p2",
+          "text": "有名店でも、",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-094-5-p4",
-          "text": "書いて",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-094-5-p2",
-        "so-extra-n2-094-5-p3",
-        "so-extra-n2-094-5-p4",
-        "so-extra-n2-094-5-p1"
+        "so-created-n2-094-05-p1",
+        "so-created-n2-094-05-p2",
+        "so-created-n2-094-05-p3",
+        "so-created-n2-094-05-p4"
       ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '줄을 서는 유명한 식당이라도 음식이 맛있다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
       "sourceGrammarIds": [
-        "n2-094"
+        "n2-094",
+        "n2-142",
+        "n2-143",
+        "n2-144"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-094-01",
+      "id": "so-created-n2-094-06",
       "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
+      "sentence": "経験豊富な候補者が、採用面接で高く評価されるとは限らない。",
+      "sentenceWithBlanks": "経験 ____ ____ ____ ____",
+      "korean": "경험이 풍부한 지원자가 채용 면접에서 높은 평가를 받는다고는 할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-094-01-p1",
-          "text": "あることがいつも真実だとは限らない",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-094-01-p2",
-          "text": "新聞に",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-094-01-p3",
-          "text": "は",
+          "id": "so-created-n2-094-06-p2",
+          "text": "採用面接で",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-094-01-p4",
-          "text": "書いて",
+          "id": "so-created-n2-094-06-p3",
+          "text": "高く評価される",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-094-06-p4",
+          "text": "とは限らない。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-094-06-p1",
+          "text": "豊富な候補者が、",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-094-01-p2",
-        "so-extra20-n2-094-01-p3",
-        "so-extra20-n2-094-01-p4",
-        "so-extra20-n2-094-01-p1"
+        "so-created-n2-094-06-p1",
+        "so-created-n2-094-06-p2",
+        "so-created-n2-094-06-p3",
+        "so-created-n2-094-06-p4"
       ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '경험이 풍부한 지원자가 채용 면접에서 높은 평가를 받는다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
       "sourceGrammarIds": [
-        "n2-094"
+        "n2-094",
+        "n2-142",
+        "n2-143",
+        "n2-144"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-094-02",
+      "id": "so-created-n2-094-07",
       "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
+      "sentence": "急いで返信したからといって、相手の誤解が解けるとは限らない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
+      "korean": "서둘러 답장했다고 해서 상대의 오해가 풀린다고는 할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-094-02-p4",
-          "text": "あることがいつも真実だとは限らない",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-094-02-p1",
-          "text": "新聞に",
+          "id": "so-created-n2-094-07-p1",
+          "text": "急いで",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-094-02-p2",
-          "text": "は",
+          "id": "so-created-n2-094-07-p2",
+          "text": "返信したからといって、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-094-02-p3",
-          "text": "書いて",
+          "id": "so-created-n2-094-07-p3",
+          "text": "相手の誤解が解ける",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-094-07-p4",
+          "text": "とは限らない。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-094-02-p1",
-        "so-extra20-n2-094-02-p2",
-        "so-extra20-n2-094-02-p3",
-        "so-extra20-n2-094-02-p4"
+        "so-created-n2-094-07-p1",
+        "so-created-n2-094-07-p2",
+        "so-created-n2-094-07-p3",
+        "so-created-n2-094-07-p4"
       ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '서둘러 답장했다고 해서 상대의 오해가 풀린다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
       "sourceGrammarIds": [
-        "n2-094"
+        "n2-094",
+        "n2-142",
+        "n2-143",
+        "n2-144"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-094-03",
+      "id": "so-created-n2-094-08",
       "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
+      "sentence": "子供が静かにしているから、眠っているとは限らない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
+      "korean": "아이가 조용히 있다고 해서 자고 있다고는 할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-094-03-p3",
-          "text": "あることがいつも真実だとは限らない",
+          "id": "so-created-n2-094-08-p4",
+          "text": "とは限らない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-094-03-p4",
-          "text": "新聞に",
+          "id": "so-created-n2-094-08-p1",
+          "text": "子供が",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-094-03-p1",
-          "text": "は",
+          "id": "so-created-n2-094-08-p2",
+          "text": "静かにしているから、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-094-03-p2",
-          "text": "書いて",
+          "id": "so-created-n2-094-08-p3",
+          "text": "眠っている",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-094-03-p4",
-        "so-extra20-n2-094-03-p1",
-        "so-extra20-n2-094-03-p2",
-        "so-extra20-n2-094-03-p3"
+        "so-created-n2-094-08-p1",
+        "so-created-n2-094-08-p2",
+        "so-created-n2-094-08-p3",
+        "so-created-n2-094-08-p4"
       ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '아이가 조용히 있다고 해서 자고 있다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
       "sourceGrammarIds": [
-        "n2-094"
+        "n2-094",
+        "n2-142",
+        "n2-143",
+        "n2-144"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-094-04",
+      "id": "so-created-n2-094-09",
       "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
+      "sentence": "会社の売上が増えても、利益まで伸びるとは限らない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
+      "korean": "회사의 매출이 늘어도 이익까지 증가한다고는 할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-094-04-p2",
-          "text": "あることがいつも真実だとは限らない",
+          "id": "so-created-n2-094-09-p3",
+          "text": "利益まで伸びる",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-094-09-p4",
+          "text": "とは限らない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-094-04-p3",
-          "text": "新聞に",
+          "id": "so-created-n2-094-09-p1",
+          "text": "会社の売上が",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-094-04-p4",
-          "text": "は",
+          "id": "so-created-n2-094-09-p2",
+          "text": "増えても、",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-094-04-p1",
-          "text": "書いて",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-094-04-p3",
-        "so-extra20-n2-094-04-p4",
-        "so-extra20-n2-094-04-p1",
-        "so-extra20-n2-094-04-p2"
+        "so-created-n2-094-09-p1",
+        "so-created-n2-094-09-p2",
+        "so-created-n2-094-09-p3",
+        "so-created-n2-094-09-p4"
       ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '회사의 매출이 늘어도 이익까지 증가한다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
       "sourceGrammarIds": [
-        "n2-094"
+        "n2-094",
+        "n2-142",
+        "n2-143",
+        "n2-144"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-094-05",
+      "id": "so-created-n2-094-10",
       "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
+      "sentence": "道幅の広い通りが、夜間も安全だとは限らない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
+      "korean": "도로 폭이 넓은 거리가 밤에도 안전하다고는 할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-094-05-p1",
-          "text": "あることがいつも真実だとは限らない",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-094-05-p2",
-          "text": "新聞に",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-094-05-p3",
-          "text": "は",
+          "id": "so-created-n2-094-10-p2",
+          "text": "通りが、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-094-05-p4",
-          "text": "書いて",
+          "id": "so-created-n2-094-10-p3",
+          "text": "夜間も安全だ",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-094-10-p4",
+          "text": "とは限らない。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-094-10-p1",
+          "text": "道幅の広い",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-094-05-p2",
-        "so-extra20-n2-094-05-p3",
-        "so-extra20-n2-094-05-p4",
-        "so-extra20-n2-094-05-p1"
+        "so-created-n2-094-10-p1",
+        "so-created-n2-094-10-p2",
+        "so-created-n2-094-10-p3",
+        "so-created-n2-094-10-p4"
       ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '도로 폭이 넓은 거리가 밤에도 안전하다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
       "sourceGrammarIds": [
-        "n2-094"
+        "n2-094",
+        "n2-142",
+        "n2-143",
+        "n2-144"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-094-06",
+      "id": "so-created-n2-094-11",
       "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
+      "sentence": "親切に助言すれば、相手が素直に受け入れるとは限らない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
+      "korean": "친절하게 조언하면 상대가 순순히 받아들인다고는 할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-094-06-p4",
-          "text": "書いて",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-094-06-p1",
-          "text": "あることがいつも真実だとは限らない",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-094-06-p2",
-          "text": "新聞に",
+          "id": "so-created-n2-094-11-p1",
+          "text": "親切に助言すれば、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-094-06-p3",
-          "text": "は",
+          "id": "so-created-n2-094-11-p2",
+          "text": "相手が素直に",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-094-11-p3",
+          "text": "受け入れる",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-094-11-p4",
+          "text": "とは限らない。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-094-06-p2",
-        "so-extra20-n2-094-06-p3",
-        "so-extra20-n2-094-06-p4",
-        "so-extra20-n2-094-06-p1"
+        "so-created-n2-094-11-p1",
+        "so-created-n2-094-11-p2",
+        "so-created-n2-094-11-p3",
+        "so-created-n2-094-11-p4"
       ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '친절하게 조언하면 상대가 순순히 받아들인다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
       "sourceGrammarIds": [
-        "n2-094"
+        "n2-094",
+        "n2-142",
+        "n2-143",
+        "n2-144"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-094-07",
+      "id": "so-created-n2-094-12",
       "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
+      "sentence": "最新の設備を導入しても、工場の事故を完全に防げるとは限らない。",
+      "sentenceWithBlanks": "最新の ____ ____ ____ ____",
+      "korean": "최신 설비를 도입해도 공장 사고를 완전히 막을 수 있다고는 할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-094-07-p3",
-          "text": "書いて",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-094-07-p4",
-          "text": "あることがいつも真実だとは限らない",
+          "id": "so-created-n2-094-12-p4",
+          "text": "とは限らない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-094-07-p1",
-          "text": "新聞に",
+          "id": "so-created-n2-094-12-p1",
+          "text": "設備を導入しても、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-094-07-p2",
-          "text": "は",
+          "id": "so-created-n2-094-12-p2",
+          "text": "工場の事故を",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-094-12-p3",
+          "text": "完全に防げる",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-094-07-p1",
-        "so-extra20-n2-094-07-p2",
-        "so-extra20-n2-094-07-p3",
-        "so-extra20-n2-094-07-p4"
+        "so-created-n2-094-12-p1",
+        "so-created-n2-094-12-p2",
+        "so-created-n2-094-12-p3",
+        "so-created-n2-094-12-p4"
       ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '최신 설비를 도입해도 공장 사고를 완전히 막을 수 있다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
       "sourceGrammarIds": [
-        "n2-094"
+        "n2-094",
+        "n2-142",
+        "n2-143",
+        "n2-144"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-094-08",
+      "id": "so-created-n2-094-13",
       "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
+      "sentence": "雨がやんでも、フェリーが予定どおり出航できるとは限らない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
+      "korean": "비가 그쳐도 여객선이 예정대로 출항할 수 있다고는 할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-094-08-p2",
-          "text": "書いて",
+          "id": "so-created-n2-094-13-p3",
+          "text": "予定どおり出航できる",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-094-08-p3",
-          "text": "あることがいつも真実だとは限らない",
+          "id": "so-created-n2-094-13-p4",
+          "text": "とは限らない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-094-08-p4",
-          "text": "新聞に",
+          "id": "so-created-n2-094-13-p1",
+          "text": "雨がやんでも、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-094-08-p1",
-          "text": "は",
+          "id": "so-created-n2-094-13-p2",
+          "text": "フェリーが",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-094-08-p4",
-        "so-extra20-n2-094-08-p1",
-        "so-extra20-n2-094-08-p2",
-        "so-extra20-n2-094-08-p3"
+        "so-created-n2-094-13-p1",
+        "so-created-n2-094-13-p2",
+        "so-created-n2-094-13-p3",
+        "so-created-n2-094-13-p4"
       ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '비가 그쳐도 여객선이 예정대로 출항할 수 있다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
       "sourceGrammarIds": [
-        "n2-094"
+        "n2-094",
+        "n2-142",
+        "n2-143",
+        "n2-144"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-094-09",
+      "id": "so-created-n2-094-14",
       "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
+      "sentence": "専門資格を取得した人が、独立して成功できるとは限らない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
+      "korean": "전문 자격을 취득한 사람이 독립하여 성공할 수 있다고는 할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-094-09-p1",
-          "text": "書いて",
+          "id": "so-created-n2-094-14-p2",
+          "text": "取得した人が、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-094-14-p3",
+          "text": "独立して成功できる",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-094-09-p2",
-          "text": "あることがいつも真実だとは限らない",
+          "id": "so-created-n2-094-14-p4",
+          "text": "とは限らない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-094-09-p3",
-          "text": "新聞に",
+          "id": "so-created-n2-094-14-p1",
+          "text": "専門資格を",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-094-09-p4",
-          "text": "は",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-094-09-p3",
-        "so-extra20-n2-094-09-p4",
-        "so-extra20-n2-094-09-p1",
-        "so-extra20-n2-094-09-p2"
+        "so-created-n2-094-14-p1",
+        "so-created-n2-094-14-p2",
+        "so-created-n2-094-14-p3",
+        "so-created-n2-094-14-p4"
       ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '전문 자격을 취득한 사람이 독립하여 성공할 수 있다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
       "sourceGrammarIds": [
-        "n2-094"
+        "n2-094",
+        "n2-142",
+        "n2-143",
+        "n2-144"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-094-10",
+      "id": "so-created-n2-094-15",
       "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
+      "sentence": "外見が若々しくても、十分な体力があるとは限らない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
+      "korean": "외모가 젊어 보여도 체력이 충분하다고는 할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-094-10-p4",
-          "text": "書いて",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-094-10-p1",
-          "text": "あることがいつも真実だとは限らない",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-094-10-p2",
-          "text": "新聞に",
+          "id": "so-created-n2-094-15-p1",
+          "text": "外見が若",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-094-10-p3",
-          "text": "は",
+          "id": "so-created-n2-094-15-p2",
+          "text": "々しくても、",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-094-15-p3",
+          "text": "十分な体力がある",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-094-15-p4",
+          "text": "とは限らない。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-094-10-p2",
-        "so-extra20-n2-094-10-p3",
-        "so-extra20-n2-094-10-p4",
-        "so-extra20-n2-094-10-p1"
+        "so-created-n2-094-15-p1",
+        "so-created-n2-094-15-p2",
+        "so-created-n2-094-15-p3",
+        "so-created-n2-094-15-p4"
       ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '외모가 젊어 보여도 체력이 충분하다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
       "sourceGrammarIds": [
-        "n2-094"
+        "n2-094",
+        "n2-142",
+        "n2-143",
+        "n2-144"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-094-11",
+      "id": "so-created-n2-094-16",
       "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
+      "sentence": "予約確認メールが届いても、席が確保されているとは限らない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
+      "korean": "예약 확인 메일이 와도 좌석이 확보되어 있다고는 할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-094-11-p3",
-          "text": "は",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-094-11-p4",
-          "text": "書いて",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-094-11-p1",
-          "text": "あることがいつも真実だとは限らない",
+          "id": "so-created-n2-094-16-p4",
+          "text": "とは限らない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-094-11-p2",
-          "text": "新聞に",
+          "id": "so-created-n2-094-16-p1",
+          "text": "予約確認メールが",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-094-16-p2",
+          "text": "届いても、席が",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-094-16-p3",
+          "text": "確保されている",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-094-11-p2",
-        "so-extra20-n2-094-11-p3",
-        "so-extra20-n2-094-11-p4",
-        "so-extra20-n2-094-11-p1"
+        "so-created-n2-094-16-p1",
+        "so-created-n2-094-16-p2",
+        "so-created-n2-094-16-p3",
+        "so-created-n2-094-16-p4"
       ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '예약 확인 메일이 와도 좌석이 확보되어 있다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
       "sourceGrammarIds": [
-        "n2-094"
+        "n2-094",
+        "n2-142",
+        "n2-143",
+        "n2-144"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-094-12",
+      "id": "so-created-n2-094-17",
       "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
+      "sentence": "多数決で決まった案が、組織にとって最善だとは限らない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
+      "korean": "다수결로 결정된 안이 조직에 최선이라고는 할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-094-12-p2",
-          "text": "は",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-094-12-p3",
-          "text": "書いて",
+          "id": "so-created-n2-094-17-p3",
+          "text": "組織にとって最善だ",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-094-12-p4",
-          "text": "あることがいつも真実だとは限らない",
+          "id": "so-created-n2-094-17-p4",
+          "text": "とは限らない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-094-12-p1",
-          "text": "新聞に",
+          "id": "so-created-n2-094-17-p1",
+          "text": "多数決で",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-094-17-p2",
+          "text": "決まった案が、",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-094-12-p1",
-        "so-extra20-n2-094-12-p2",
-        "so-extra20-n2-094-12-p3",
-        "so-extra20-n2-094-12-p4"
+        "so-created-n2-094-17-p1",
+        "so-created-n2-094-17-p2",
+        "so-created-n2-094-17-p3",
+        "so-created-n2-094-17-p4"
       ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '다수결로 결정된 안이 조직에 최선이라고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
       "sourceGrammarIds": [
-        "n2-094"
+        "n2-094",
+        "n2-142",
+        "n2-143",
+        "n2-144"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-094-13",
+      "id": "so-created-n2-094-18",
       "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
+      "sentence": "商品を大幅に値下げしても、離れた客が戻ってくるとは限らない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
+      "korean": "상품 가격을 대폭 내려도 떠난 고객이 돌아온다고는 할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-094-13-p1",
-          "text": "は",
+          "id": "so-created-n2-094-18-p2",
+          "text": "値下げしても、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-094-13-p2",
-          "text": "書いて",
+          "id": "so-created-n2-094-18-p3",
+          "text": "離れた客が戻ってくる",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-094-13-p3",
-          "text": "あることがいつも真実だとは限らない",
+          "id": "so-created-n2-094-18-p4",
+          "text": "とは限らない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-094-13-p4",
-          "text": "新聞に",
+          "id": "so-created-n2-094-18-p1",
+          "text": "商品を大幅に",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-094-13-p4",
-        "so-extra20-n2-094-13-p1",
-        "so-extra20-n2-094-13-p2",
-        "so-extra20-n2-094-13-p3"
+        "so-created-n2-094-18-p1",
+        "so-created-n2-094-18-p2",
+        "so-created-n2-094-18-p3",
+        "so-created-n2-094-18-p4"
       ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '상품 가격을 대폭 내려도 떠난 고객이 돌아온다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
       "sourceGrammarIds": [
-        "n2-094"
+        "n2-094",
+        "n2-142",
+        "n2-143",
+        "n2-144"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-094-14",
+      "id": "so-created-n2-094-19",
       "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
+      "sentence": "同じ県で育った人同士でも、同じ方言を使うとは限らない。",
+      "sentenceWithBlanks": "同じ県で ____ ____ ____ ____",
+      "korean": "같은 현에서 자란 사람끼리라도 같은 사투리를 쓴다고는 할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-094-14-p4",
-          "text": "は",
+          "id": "so-created-n2-094-19-p1",
+          "text": "育った人",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-094-19-p2",
+          "text": "同士でも、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-094-14-p1",
-          "text": "書いて",
+          "id": "so-created-n2-094-19-p3",
+          "text": "同じ方言を使う",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-094-14-p2",
-          "text": "あることがいつも真実だとは限らない",
+          "id": "so-created-n2-094-19-p4",
+          "text": "とは限らない。",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-094-14-p3",
-          "text": "新聞に",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-094-14-p3",
-        "so-extra20-n2-094-14-p4",
-        "so-extra20-n2-094-14-p1",
-        "so-extra20-n2-094-14-p2"
+        "so-created-n2-094-19-p1",
+        "so-created-n2-094-19-p2",
+        "so-created-n2-094-19-p3",
+        "so-created-n2-094-19-p4"
       ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '같은 현에서 자란 사람끼리라도 같은 사투리를 쓴다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
       "sourceGrammarIds": [
-        "n2-094"
+        "n2-094",
+        "n2-142",
+        "n2-143",
+        "n2-144"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-094-15",
+      "id": "so-created-n2-094-20",
       "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
+      "sentence": "責任者が正式に謝罪しても、失った信頼がすぐ回復するとは限らない。",
+      "sentenceWithBlanks": "責任 ____ ____ ____ ____",
+      "korean": "책임자가 공식적으로 사과해도 잃어버린 신뢰가 바로 회복된다고는 할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-094-15-p3",
-          "text": "は",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-094-15-p4",
-          "text": "書いて",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-094-15-p1",
-          "text": "あることがいつも真実だとは限らない",
+          "id": "so-created-n2-094-20-p4",
+          "text": "とは限らない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-094-15-p2",
-          "text": "新聞に",
+          "id": "so-created-n2-094-20-p1",
+          "text": "者が正式に",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-094-20-p2",
+          "text": "謝罪しても、失った",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-094-20-p3",
+          "text": "信頼がすぐ回復する",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-094-15-p2",
-        "so-extra20-n2-094-15-p3",
-        "so-extra20-n2-094-15-p4",
-        "so-extra20-n2-094-15-p1"
+        "so-created-n2-094-20-p1",
+        "so-created-n2-094-20-p2",
+        "so-created-n2-094-20-p3",
+        "so-created-n2-094-20-p4"
       ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '책임자가 공식적으로 사과해도 잃어버린 신뢰가 바로 회복된다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
       "sourceGrammarIds": [
-        "n2-094"
+        "n2-094",
+        "n2-142",
+        "n2-143",
+        "n2-144"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-094-16",
+      "id": "so-created-n2-094-21",
       "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
+      "sentence": "定年を迎えた人が、仕事を完全に辞めるとは限らない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
+      "korean": "정년을 맞은 사람이 일을 완전히 그만둔다고는 할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-094-16-p2",
-          "text": "新聞に",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-094-16-p3",
-          "text": "は",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-094-16-p4",
-          "text": "書いて",
+          "id": "so-created-n2-094-21-p3",
+          "text": "完全に辞める",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-094-16-p1",
-          "text": "あることがいつも真実だとは限らない",
+          "id": "so-created-n2-094-21-p4",
+          "text": "とは限らない。",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-094-21-p1",
+          "text": "定年を迎えた",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-094-21-p2",
+          "text": "人が、仕事を",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-094-16-p2",
-        "so-extra20-n2-094-16-p3",
-        "so-extra20-n2-094-16-p4",
-        "so-extra20-n2-094-16-p1"
+        "so-created-n2-094-21-p1",
+        "so-created-n2-094-21-p2",
+        "so-created-n2-094-21-p3",
+        "so-created-n2-094-21-p4"
       ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '정년을 맞은 사람이 일을 완전히 그만둔다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
       "sourceGrammarIds": [
-        "n2-094"
+        "n2-094",
+        "n2-142",
+        "n2-143",
+        "n2-144"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-094-17",
+      "id": "so-created-n2-094-22",
       "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
+      "sentence": "血のつながった兄弟が、家族として支え合えるとは限らない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
+      "korean": "피를 나눈 형제가 가족으로서 서로 의지할 수 있다고는 할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-094-17-p1",
-          "text": "新聞に",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-094-17-p2",
-          "text": "は",
+          "id": "so-created-n2-094-22-p2",
+          "text": "兄弟が、家族として",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-094-17-p3",
-          "text": "書いて",
+          "id": "so-created-n2-094-22-p3",
+          "text": "支え合える",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-094-17-p4",
-          "text": "あることがいつも真実だとは限らない",
+          "id": "so-created-n2-094-22-p4",
+          "text": "とは限らない。",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-094-22-p1",
+          "text": "血のつながった",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-094-17-p1",
-        "so-extra20-n2-094-17-p2",
-        "so-extra20-n2-094-17-p3",
-        "so-extra20-n2-094-17-p4"
+        "so-created-n2-094-22-p1",
+        "so-created-n2-094-22-p2",
+        "so-created-n2-094-22-p3",
+        "so-created-n2-094-22-p4"
       ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '피를 나눈 형제가 가족으로서 서로 의지할 수 있다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
       "sourceGrammarIds": [
-        "n2-094"
+        "n2-094",
+        "n2-142",
+        "n2-143",
+        "n2-144"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-094-18",
+      "id": "so-created-n2-094-23",
       "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
+      "sentence": "失業率が下がったからといって、住民の暮らし向きが改善したとは限らない。",
+      "sentenceWithBlanks": "失業率が下がったからといって、 ____ ____ ____ ____",
+      "korean": "실업률이 낮아졌다고 해서 주민들의 생활 형편이 나아졌다고는 할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-094-18-p4",
-          "text": "新聞に",
+          "id": "so-created-n2-094-23-p1",
+          "text": "住民の",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-094-18-p1",
-          "text": "は",
+          "id": "so-created-n2-094-23-p2",
+          "text": "暮らし向きが",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-094-18-p2",
-          "text": "書いて",
+          "id": "so-created-n2-094-23-p3",
+          "text": "改善した",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-094-18-p3",
-          "text": "あることがいつも真実だとは限らない",
+          "id": "so-created-n2-094-23-p4",
+          "text": "とは限らない。",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-094-18-p4",
-        "so-extra20-n2-094-18-p1",
-        "so-extra20-n2-094-18-p2",
-        "so-extra20-n2-094-18-p3"
+        "so-created-n2-094-23-p1",
+        "so-created-n2-094-23-p2",
+        "so-created-n2-094-23-p3",
+        "so-created-n2-094-23-p4"
       ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '실업률이 낮아졌다고 해서 주민들의 생활 형편이 나아졌다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
       "sourceGrammarIds": [
-        "n2-094"
+        "n2-094",
+        "n2-142",
+        "n2-143",
+        "n2-144"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-094-19",
+      "id": "so-created-n2-094-24",
       "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
+      "sentence": "新鮮な野菜なら、生のまま食べても安全だとは限らない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
+      "korean": "신선한 채소라면 날것으로 먹어도 안전하다고는 할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-094-19-p3",
-          "text": "新聞に",
+          "id": "so-created-n2-094-24-p4",
+          "text": "とは限らない。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-094-24-p1",
+          "text": "新鮮な野菜なら、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-094-19-p4",
-          "text": "は",
+          "id": "so-created-n2-094-24-p2",
+          "text": "生のまま",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-094-19-p1",
-          "text": "書いて",
+          "id": "so-created-n2-094-24-p3",
+          "text": "食べても安全だ",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-094-19-p2",
-          "text": "あることがいつも真実だとは限らない",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-094-19-p3",
-        "so-extra20-n2-094-19-p4",
-        "so-extra20-n2-094-19-p1",
-        "so-extra20-n2-094-19-p2"
+        "so-created-n2-094-24-p1",
+        "so-created-n2-094-24-p2",
+        "so-created-n2-094-24-p3",
+        "so-created-n2-094-24-p4"
       ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '신선한 채소라면 날것으로 먹어도 안전하다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
       "sourceGrammarIds": [
-        "n2-094"
+        "n2-094",
+        "n2-142",
+        "n2-143",
+        "n2-144"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-094-20",
+      "id": "so-created-n2-094-25",
       "level": "N2",
-      "sentence": "新聞には書いてあることがいつも真実だとは限らない。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "신문에 쓰여 있는 것이 항상 진실이라고는 할 수 없다.",
+      "sentence": "人気俳優が出演していても、その映画が興行的に成功するとは限らない。",
+      "sentenceWithBlanks": "人気俳優が ____ ____ ____ ____",
+      "korean": "인기 배우가 출연하더라도 그 영화가 흥행에 성공한다고는 할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-094-20-p2",
-          "text": "新聞に",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-094-20-p3",
-          "text": "は",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-094-20-p4",
-          "text": "書いて",
+          "id": "so-created-n2-094-25-p3",
+          "text": "的に成功する",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-094-20-p1",
-          "text": "あることがいつも真実だとは限らない",
+          "id": "so-created-n2-094-25-p4",
+          "text": "とは限らない。",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-094-25-p1",
+          "text": "出演していても、その",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-094-25-p2",
+          "text": "映画が興行",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-094-20-p2",
-        "so-extra20-n2-094-20-p3",
-        "so-extra20-n2-094-20-p4",
-        "so-extra20-n2-094-20-p1"
+        "so-created-n2-094-25-p1",
+        "so-created-n2-094-25-p2",
+        "so-created-n2-094-25-p3",
+        "so-created-n2-094-25-p4"
       ],
-      "explanation": "「とは限らない」는 ~라고는 할 수 없다라는 뜻이다. 항상 그런 것은 아님.",
+      "explanation": "「とは限らない」는 '~라고는 할 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '인기 배우가 출연하더라도 그 영화가 흥행에 성공한다고는 할 수 없다.'라는 상황에 쓰였으며, 항상 그런 것은 아님. 주의할 점은 부분 부정. 「いつも～とは限らない」처럼 일반화 오류를 지적할 때 최빈출.",
       "sourceGrammarIds": [
-        "n2-094"
+        "n2-094",
+        "n2-142",
+        "n2-143",
+        "n2-144"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     }
   ]

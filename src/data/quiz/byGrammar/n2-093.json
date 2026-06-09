@@ -267,15 +267,23 @@
       ]
     },
     {
-      "id": "fb-extra-n2-093-1",
+      "id": "fb-created-n2-093-01",
       "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlank": "彼は20歳（　　　）、まだ子供だ。",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
-      "answerChoiceId": "fb-extra-n2-093-1-b",
+      "sentence": "駅から近いとはいうものの、急な坂道が続くため高齢の母には歩きにくい。",
+      "sentenceWithBlank": "駅から近い（　　　）、急な坂道が続くため高齢の母には歩きにくい。",
+      "korean": "역에서 가깝다고는 하지만 가파른 언덕길이 이어져서 연세가 많은 어머니가 걷기에는 불편하다.",
+      "answerChoiceId": "fb-created-n2-093-01-b",
       "choices": [
         {
-          "id": "fb-extra-n2-093-1-c",
+          "id": "fb-created-n2-093-01-b",
+          "text": "とはいうものの",
+          "grammarId": "n2-093",
+          "baseExpression": "とはいうものの",
+          "conjugatedExpression": "とはいうものの",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-093-01-c",
           "text": "にしたら",
           "grammarId": "n2-119",
           "baseExpression": "にしたら",
@@ -283,7 +291,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-093-1-d",
+          "id": "fb-created-n2-093-01-d",
           "text": "にしては",
           "grammarId": "n2-120",
           "baseExpression": "にしては",
@@ -291,23 +299,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-093-1-a",
+          "id": "fb-created-n2-093-01-a",
           "text": "にしても",
           "grammarId": "n2-121",
           "baseExpression": "にしても/にしろ/にせよ",
           "conjugatedExpression": "にしても",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-093-1-b",
-          "text": "とはいうものの",
-          "grammarId": "n2-093",
-          "baseExpression": "とはいうものの",
-          "conjugatedExpression": "とはいうものの",
-          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '역에서 가깝다고는 하지만 가파른 언덕길이 이어져서 연세가 많은 어머니가 걷기에는 불편하다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
       "sourceGrammarIds": [
         "n2-093",
         "n2-119",
@@ -315,237 +315,20 @@
         "n2-121"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra-n2-093-2",
+      "id": "fb-created-n2-093-02",
       "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlank": "彼は20歳（　　　）、まだ子供だ。",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
-      "answerChoiceId": "fb-extra-n2-093-2-c",
+      "sentence": "春になったとはいうものの、山頂付近にはまだ厚い雪が残っている。",
+      "sentenceWithBlank": "春になった（　　　）、山頂付近にはまだ厚い雪が残っている。",
+      "korean": "봄이 되었다고는 하지만 산 정상 부근에는 아직 두꺼운 눈이 남아 있다.",
+      "answerChoiceId": "fb-created-n2-093-02-b",
       "choices": [
         {
-          "id": "fb-extra-n2-093-2-d",
-          "text": "おそれがある",
-          "grammarId": "n2-009",
-          "baseExpression": "おそれがある",
-          "conjugatedExpression": "おそれがある",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-093-2-a",
-          "text": "折に",
-          "grammarId": "n2-010",
-          "baseExpression": "折に",
-          "conjugatedExpression": "折に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-093-2-b",
-          "text": "甲斐があって",
-          "grammarId": "n2-011",
-          "baseExpression": "甲斐があって",
-          "conjugatedExpression": "甲斐があって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-093-2-c",
-          "text": "とはいうものの",
-          "grammarId": "n2-093",
-          "baseExpression": "とはいうものの",
-          "conjugatedExpression": "とはいうものの",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
-      "sourceGrammarIds": [
-        "n2-093",
-        "n2-009",
-        "n2-010",
-        "n2-011"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-093-3",
-      "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlank": "彼は20歳（　　　）、まだ子供だ。",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
-      "answerChoiceId": "fb-extra-n2-093-3-d",
-      "choices": [
-        {
-          "id": "fb-extra-n2-093-3-a",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-093-3-b",
-          "text": "ないことはない",
-          "grammarId": "n2-098",
-          "baseExpression": "ないことはない",
-          "conjugatedExpression": "ないことはない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-093-3-c",
-          "text": "ないではいられない",
-          "grammarId": "n2-099",
-          "baseExpression": "ないではいられない",
-          "conjugatedExpression": "ないではいられない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-093-3-d",
-          "text": "とはいうものの",
-          "grammarId": "n2-093",
-          "baseExpression": "とはいうものの",
-          "conjugatedExpression": "とはいうものの",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
-      "sourceGrammarIds": [
-        "n2-093",
-        "n2-097",
-        "n2-098",
-        "n2-099"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-093-4",
-      "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlank": "彼は20歳（　　　）、まだ子供だ。",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
-      "answerChoiceId": "fb-extra-n2-093-4-a",
-      "choices": [
-        {
-          "id": "fb-extra-n2-093-4-b",
-          "text": "かねる",
-          "grammarId": "n2-023",
-          "baseExpression": "かねる",
-          "conjugatedExpression": "かねる",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-093-4-c",
-          "text": "かのように",
-          "grammarId": "n2-024",
-          "baseExpression": "かのように",
-          "conjugatedExpression": "かのように",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-093-4-d",
-          "text": "からいうと",
-          "grammarId": "n2-025",
-          "baseExpression": "からいうと",
-          "conjugatedExpression": "からいうと",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-093-4-a",
-          "text": "とはいうものの",
-          "grammarId": "n2-093",
-          "baseExpression": "とはいうものの",
-          "conjugatedExpression": "とはいうものの",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
-      "sourceGrammarIds": [
-        "n2-093",
-        "n2-023",
-        "n2-024",
-        "n2-025"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-093-5",
-      "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlank": "彼は20歳（　　　）、まだ子供だ。",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
-      "answerChoiceId": "fb-extra-n2-093-5-b",
-      "choices": [
-        {
-          "id": "fb-extra-n2-093-5-c",
-          "text": "につけて",
-          "grammarId": "n2-127",
-          "baseExpression": "につけて",
-          "conjugatedExpression": "につけて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-093-5-d",
-          "text": "に伴って",
-          "grammarId": "n2-128",
-          "baseExpression": "に伴って",
-          "conjugatedExpression": "に伴って",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-093-5-a",
-          "text": "にほかならない",
-          "grammarId": "n2-129",
-          "baseExpression": "にほかならない",
-          "conjugatedExpression": "にほかならない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-093-5-b",
-          "text": "とはいうものの",
-          "grammarId": "n2-093",
-          "baseExpression": "とはいうものの",
-          "conjugatedExpression": "とはいうものの",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
-      "sourceGrammarIds": [
-        "n2-093",
-        "n2-127",
-        "n2-128",
-        "n2-129"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-093-01",
-      "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlank": "彼は20歳（　　　）、まだ子供だ。",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
-      "answerChoiceId": "fb-extra20-n2-093-01-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-093-01-c",
+          "id": "fb-created-n2-093-02-c",
           "text": "にしたら",
           "grammarId": "n2-119",
           "baseExpression": "にしたら",
@@ -553,7 +336,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-093-01-d",
+          "id": "fb-created-n2-093-02-d",
           "text": "にしては",
           "grammarId": "n2-120",
           "baseExpression": "にしては",
@@ -561,7 +344,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-093-01-a",
+          "id": "fb-created-n2-093-02-a",
           "text": "にしても",
           "grammarId": "n2-121",
           "baseExpression": "にしても/にしろ/にせよ",
@@ -569,7 +352,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-093-01-b",
+          "id": "fb-created-n2-093-02-b",
           "text": "とはいうものの",
           "grammarId": "n2-093",
           "baseExpression": "とはいうものの",
@@ -577,7 +360,7 @@
           "isSimilarDistractor": false
         }
       ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '봄이 되었다고는 하지만 산 정상 부근에는 아직 두꺼운 눈이 남아 있다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
       "sourceGrammarIds": [
         "n2-093",
         "n2-119",
@@ -585,253 +368,20 @@
         "n2-121"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-093-02",
+      "id": "fb-created-n2-093-03",
       "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlank": "彼は20歳（　　　）、まだ子供だ。",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
-      "answerChoiceId": "fb-extra20-n2-093-02-c",
+      "sentence": "運転免許を取ったとはいうものの、狭い道では今もハンドルを握るのが怖い。",
+      "sentenceWithBlank": "運転免許を取った（　　　）、狭い道では今もハンドルを握るのが怖い。",
+      "korean": "운전면허를 땄다고는 하지만 좁은 길에서는 지금도 운전대를 잡기가 무섭다.",
+      "answerChoiceId": "fb-created-n2-093-03-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-093-02-b",
-          "text": "甲斐があって",
-          "grammarId": "n2-011",
-          "baseExpression": "甲斐があって",
-          "conjugatedExpression": "甲斐があって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-093-02-c",
-          "text": "とはいうものの",
-          "grammarId": "n2-093",
-          "baseExpression": "とはいうものの",
-          "conjugatedExpression": "とはいうものの",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-093-02-d",
-          "text": "おそれがある",
-          "grammarId": "n2-009",
-          "baseExpression": "おそれがある",
-          "conjugatedExpression": "おそれがある",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-093-02-a",
-          "text": "折に",
-          "grammarId": "n2-010",
-          "baseExpression": "折に",
-          "conjugatedExpression": "折に",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
-      "sourceGrammarIds": [
-        "n2-093",
-        "n2-009",
-        "n2-010",
-        "n2-011"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-093-03",
-      "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlank": "彼は20歳（　　　）、まだ子供だ。",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
-      "answerChoiceId": "fb-extra20-n2-093-03-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-093-03-a",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-093-03-b",
-          "text": "ないことはない",
-          "grammarId": "n2-098",
-          "baseExpression": "ないことはない",
-          "conjugatedExpression": "ないことはない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-093-03-c",
-          "text": "ないではいられない",
-          "grammarId": "n2-099",
-          "baseExpression": "ないではいられない",
-          "conjugatedExpression": "ないではいられない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-093-03-d",
-          "text": "とはいうものの",
-          "grammarId": "n2-093",
-          "baseExpression": "とはいうものの",
-          "conjugatedExpression": "とはいうものの",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
-      "sourceGrammarIds": [
-        "n2-093",
-        "n2-097",
-        "n2-098",
-        "n2-099"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-093-04",
-      "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlank": "彼は20歳（　　　）、まだ子供だ。",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
-      "answerChoiceId": "fb-extra20-n2-093-04-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-093-04-d",
-          "text": "からいうと",
-          "grammarId": "n2-025",
-          "baseExpression": "からいうと",
-          "conjugatedExpression": "からいうと",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-093-04-a",
-          "text": "とはいうものの",
-          "grammarId": "n2-093",
-          "baseExpression": "とはいうものの",
-          "conjugatedExpression": "とはいうものの",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-093-04-b",
-          "text": "かねる",
-          "grammarId": "n2-023",
-          "baseExpression": "かねる",
-          "conjugatedExpression": "かねる",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-093-04-c",
-          "text": "かのように",
-          "grammarId": "n2-024",
-          "baseExpression": "かのように",
-          "conjugatedExpression": "かのように",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
-      "sourceGrammarIds": [
-        "n2-093",
-        "n2-023",
-        "n2-024",
-        "n2-025"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-093-05",
-      "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlank": "彼は20歳（　　　）、まだ子供だ。",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
-      "answerChoiceId": "fb-extra20-n2-093-05-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-093-05-c",
-          "text": "につけて",
-          "grammarId": "n2-127",
-          "baseExpression": "につけて",
-          "conjugatedExpression": "につけて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-093-05-d",
-          "text": "に伴って",
-          "grammarId": "n2-128",
-          "baseExpression": "に伴って",
-          "conjugatedExpression": "に伴って",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-093-05-a",
-          "text": "にほかならない",
-          "grammarId": "n2-129",
-          "baseExpression": "にほかならない",
-          "conjugatedExpression": "にほかならない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-093-05-b",
-          "text": "とはいうものの",
-          "grammarId": "n2-093",
-          "baseExpression": "とはいうものの",
-          "conjugatedExpression": "とはいうものの",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
-      "sourceGrammarIds": [
-        "n2-093",
-        "n2-127",
-        "n2-128",
-        "n2-129"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-093-06",
-      "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlank": "彼は20歳（　　　）、まだ子供だ。",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
-      "answerChoiceId": "fb-extra20-n2-093-06-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-093-06-b",
-          "text": "とはいうものの",
-          "grammarId": "n2-093",
-          "baseExpression": "とはいうものの",
-          "conjugatedExpression": "とはいうものの",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-093-06-c",
-          "text": "にしたら",
-          "grammarId": "n2-119",
-          "baseExpression": "にしたら",
-          "conjugatedExpression": "にしたら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-093-06-d",
+          "id": "fb-created-n2-093-03-d",
           "text": "にしては",
           "grammarId": "n2-120",
           "baseExpression": "にしては",
@@ -839,253 +389,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-093-06-a",
-          "text": "にしても",
-          "grammarId": "n2-121",
-          "baseExpression": "にしても/にしろ/にせよ",
-          "conjugatedExpression": "にしても",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
-      "sourceGrammarIds": [
-        "n2-093",
-        "n2-119",
-        "n2-120",
-        "n2-121"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-093-07",
-      "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlank": "彼は20歳（　　　）、まだ子供だ。",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
-      "answerChoiceId": "fb-extra20-n2-093-07-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-093-07-a",
-          "text": "折に",
-          "grammarId": "n2-010",
-          "baseExpression": "折に",
-          "conjugatedExpression": "折に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-093-07-b",
-          "text": "甲斐があって",
-          "grammarId": "n2-011",
-          "baseExpression": "甲斐があって",
-          "conjugatedExpression": "甲斐があって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-093-07-c",
-          "text": "とはいうものの",
-          "grammarId": "n2-093",
-          "baseExpression": "とはいうものの",
-          "conjugatedExpression": "とはいうものの",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-093-07-d",
-          "text": "おそれがある",
-          "grammarId": "n2-009",
-          "baseExpression": "おそれがある",
-          "conjugatedExpression": "おそれがある",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
-      "sourceGrammarIds": [
-        "n2-093",
-        "n2-009",
-        "n2-010",
-        "n2-011"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-093-08",
-      "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlank": "彼は20歳（　　　）、まだ子供だ。",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
-      "answerChoiceId": "fb-extra20-n2-093-08-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-093-08-d",
-          "text": "とはいうものの",
-          "grammarId": "n2-093",
-          "baseExpression": "とはいうものの",
-          "conjugatedExpression": "とはいうものの",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-093-08-a",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-093-08-b",
-          "text": "ないことはない",
-          "grammarId": "n2-098",
-          "baseExpression": "ないことはない",
-          "conjugatedExpression": "ないことはない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-093-08-c",
-          "text": "ないではいられない",
-          "grammarId": "n2-099",
-          "baseExpression": "ないではいられない",
-          "conjugatedExpression": "ないではいられない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
-      "sourceGrammarIds": [
-        "n2-093",
-        "n2-097",
-        "n2-098",
-        "n2-099"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-093-09",
-      "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlank": "彼は20歳（　　　）、まだ子供だ。",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
-      "answerChoiceId": "fb-extra20-n2-093-09-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-093-09-c",
-          "text": "かのように",
-          "grammarId": "n2-024",
-          "baseExpression": "かのように",
-          "conjugatedExpression": "かのように",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-093-09-d",
-          "text": "からいうと",
-          "grammarId": "n2-025",
-          "baseExpression": "からいうと",
-          "conjugatedExpression": "からいうと",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-093-09-a",
-          "text": "とはいうものの",
-          "grammarId": "n2-093",
-          "baseExpression": "とはいうものの",
-          "conjugatedExpression": "とはいうものの",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-093-09-b",
-          "text": "かねる",
-          "grammarId": "n2-023",
-          "baseExpression": "かねる",
-          "conjugatedExpression": "かねる",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
-      "sourceGrammarIds": [
-        "n2-093",
-        "n2-023",
-        "n2-024",
-        "n2-025"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-093-10",
-      "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlank": "彼は20歳（　　　）、まだ子供だ。",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
-      "answerChoiceId": "fb-extra20-n2-093-10-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-093-10-b",
-          "text": "とはいうものの",
-          "grammarId": "n2-093",
-          "baseExpression": "とはいうものの",
-          "conjugatedExpression": "とはいうものの",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-093-10-c",
-          "text": "につけて",
-          "grammarId": "n2-127",
-          "baseExpression": "につけて",
-          "conjugatedExpression": "につけて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-093-10-d",
-          "text": "に伴って",
-          "grammarId": "n2-128",
-          "baseExpression": "に伴って",
-          "conjugatedExpression": "に伴って",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-093-10-a",
-          "text": "にほかならない",
-          "grammarId": "n2-129",
-          "baseExpression": "にほかならない",
-          "conjugatedExpression": "にほかならない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
-      "sourceGrammarIds": [
-        "n2-093",
-        "n2-127",
-        "n2-128",
-        "n2-129"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-093-11",
-      "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlank": "彼は20歳（　　　）、まだ子供だ。",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
-      "answerChoiceId": "fb-extra20-n2-093-11-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-093-11-a",
+          "id": "fb-created-n2-093-03-a",
           "text": "にしても",
           "grammarId": "n2-121",
           "baseExpression": "にしても/にしろ/にせよ",
@@ -1093,7 +397,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-093-11-b",
+          "id": "fb-created-n2-093-03-b",
           "text": "とはいうものの",
           "grammarId": "n2-093",
           "baseExpression": "とはいうものの",
@@ -1101,285 +405,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-093-11-c",
-          "text": "にしたら",
-          "grammarId": "n2-119",
-          "baseExpression": "にしたら",
-          "conjugatedExpression": "にしたら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-093-11-d",
-          "text": "にしては",
-          "grammarId": "n2-120",
-          "baseExpression": "にしては",
-          "conjugatedExpression": "にしては",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
-      "sourceGrammarIds": [
-        "n2-093",
-        "n2-119",
-        "n2-120",
-        "n2-121"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-093-12",
-      "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlank": "彼は20歳（　　　）、まだ子供だ。",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
-      "answerChoiceId": "fb-extra20-n2-093-12-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-093-12-d",
-          "text": "おそれがある",
-          "grammarId": "n2-009",
-          "baseExpression": "おそれがある",
-          "conjugatedExpression": "おそれがある",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-093-12-a",
-          "text": "折に",
-          "grammarId": "n2-010",
-          "baseExpression": "折に",
-          "conjugatedExpression": "折に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-093-12-b",
-          "text": "甲斐があって",
-          "grammarId": "n2-011",
-          "baseExpression": "甲斐があって",
-          "conjugatedExpression": "甲斐があって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-093-12-c",
-          "text": "とはいうものの",
-          "grammarId": "n2-093",
-          "baseExpression": "とはいうものの",
-          "conjugatedExpression": "とはいうものの",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
-      "sourceGrammarIds": [
-        "n2-093",
-        "n2-009",
-        "n2-010",
-        "n2-011"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-093-13",
-      "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlank": "彼は20歳（　　　）、まだ子供だ。",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
-      "answerChoiceId": "fb-extra20-n2-093-13-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-093-13-c",
-          "text": "ないではいられない",
-          "grammarId": "n2-099",
-          "baseExpression": "ないではいられない",
-          "conjugatedExpression": "ないではいられない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-093-13-d",
-          "text": "とはいうものの",
-          "grammarId": "n2-093",
-          "baseExpression": "とはいうものの",
-          "conjugatedExpression": "とはいうものの",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-093-13-a",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-093-13-b",
-          "text": "ないことはない",
-          "grammarId": "n2-098",
-          "baseExpression": "ないことはない",
-          "conjugatedExpression": "ないことはない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
-      "sourceGrammarIds": [
-        "n2-093",
-        "n2-097",
-        "n2-098",
-        "n2-099"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-093-14",
-      "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlank": "彼は20歳（　　　）、まだ子供だ。",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
-      "answerChoiceId": "fb-extra20-n2-093-14-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-093-14-b",
-          "text": "かねる",
-          "grammarId": "n2-023",
-          "baseExpression": "かねる",
-          "conjugatedExpression": "かねる",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-093-14-c",
-          "text": "かのように",
-          "grammarId": "n2-024",
-          "baseExpression": "かのように",
-          "conjugatedExpression": "かのように",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-093-14-d",
-          "text": "からいうと",
-          "grammarId": "n2-025",
-          "baseExpression": "からいうと",
-          "conjugatedExpression": "からいうと",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-093-14-a",
-          "text": "とはいうものの",
-          "grammarId": "n2-093",
-          "baseExpression": "とはいうものの",
-          "conjugatedExpression": "とはいうものの",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
-      "sourceGrammarIds": [
-        "n2-093",
-        "n2-023",
-        "n2-024",
-        "n2-025"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-093-15",
-      "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlank": "彼は20歳（　　　）、まだ子供だ。",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
-      "answerChoiceId": "fb-extra20-n2-093-15-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-093-15-a",
-          "text": "にほかならない",
-          "grammarId": "n2-129",
-          "baseExpression": "にほかならない",
-          "conjugatedExpression": "にほかならない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-093-15-b",
-          "text": "とはいうものの",
-          "grammarId": "n2-093",
-          "baseExpression": "とはいうものの",
-          "conjugatedExpression": "とはいうものの",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-093-15-c",
-          "text": "につけて",
-          "grammarId": "n2-127",
-          "baseExpression": "につけて",
-          "conjugatedExpression": "につけて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-093-15-d",
-          "text": "に伴って",
-          "grammarId": "n2-128",
-          "baseExpression": "に伴って",
-          "conjugatedExpression": "に伴って",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
-      "sourceGrammarIds": [
-        "n2-093",
-        "n2-127",
-        "n2-128",
-        "n2-129"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-093-16",
-      "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlank": "彼は20歳（　　　）、まだ子供だ。",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
-      "answerChoiceId": "fb-extra20-n2-093-16-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-093-16-d",
-          "text": "にしては",
-          "grammarId": "n2-120",
-          "baseExpression": "にしては",
-          "conjugatedExpression": "にしては",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-093-16-a",
-          "text": "にしても",
-          "grammarId": "n2-121",
-          "baseExpression": "にしても/にしろ/にせよ",
-          "conjugatedExpression": "にしても",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-093-16-b",
-          "text": "とはいうものの",
-          "grammarId": "n2-093",
-          "baseExpression": "とはいうものの",
-          "conjugatedExpression": "とはいうものの",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-093-16-c",
+          "id": "fb-created-n2-093-03-c",
           "text": "にしたら",
           "grammarId": "n2-119",
           "baseExpression": "にしたら",
@@ -1387,7 +413,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '운전면허를 땄다고는 하지만 좁은 길에서는 지금도 운전대를 잡기가 무섭다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
       "sourceGrammarIds": [
         "n2-093",
         "n2-119",
@@ -1395,21 +421,28 @@
         "n2-121"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-093-17",
+      "id": "fb-created-n2-093-04",
       "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlank": "彼は20歳（　　　）、まだ子供だ。",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
-      "answerChoiceId": "fb-extra20-n2-093-17-c",
+      "sentence": "海外勤務に慣れたとはいうものの、家族と離れて迎える誕生日はやはり寂しい。",
+      "sentenceWithBlank": "海外勤務に慣れた（　　　）、家族と離れて迎える誕生日はやはり寂しい。",
+      "korean": "해외 근무에 익숙해졌다고는 하지만 가족과 떨어져 맞는 생일은 역시 외롭다.",
+      "answerChoiceId": "fb-created-n2-093-04-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-093-17-c",
+          "id": "fb-created-n2-093-04-a",
+          "text": "にしても",
+          "grammarId": "n2-121",
+          "baseExpression": "にしても/にしろ/にせよ",
+          "conjugatedExpression": "にしても",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-04-b",
           "text": "とはいうものの",
           "grammarId": "n2-093",
           "baseExpression": "とはいうものの",
@@ -1417,69 +450,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-093-17-d",
-          "text": "おそれがある",
-          "grammarId": "n2-009",
-          "baseExpression": "おそれがある",
-          "conjugatedExpression": "おそれがある",
+          "id": "fb-created-n2-093-04-c",
+          "text": "にしたら",
+          "grammarId": "n2-119",
+          "baseExpression": "にしたら",
+          "conjugatedExpression": "にしたら",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-093-17-a",
-          "text": "折に",
-          "grammarId": "n2-010",
-          "baseExpression": "折に",
-          "conjugatedExpression": "折に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-093-17-b",
-          "text": "甲斐があって",
-          "grammarId": "n2-011",
-          "baseExpression": "甲斐があって",
-          "conjugatedExpression": "甲斐があって",
+          "id": "fb-created-n2-093-04-d",
+          "text": "にしては",
+          "grammarId": "n2-120",
+          "baseExpression": "にしては",
+          "conjugatedExpression": "にしては",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '해외 근무에 익숙해졌다고는 하지만 가족과 떨어져 맞는 생일은 역시 외롭다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
       "sourceGrammarIds": [
         "n2-093",
-        "n2-009",
-        "n2-010",
-        "n2-011"
+        "n2-119",
+        "n2-120",
+        "n2-121"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-093-18",
+      "id": "fb-created-n2-093-05",
       "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlank": "彼は20歳（　　　）、まだ子供だ。",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
-      "answerChoiceId": "fb-extra20-n2-093-18-d",
+      "sentence": "この旅館は老舗だとはいうものの、客室には最新の設備が整っている。",
+      "sentenceWithBlank": "この旅館は老舗だ（　　　）、客室には最新の設備が整っている。",
+      "korean": "이 료칸은 오래된 전통 숙소라고는 하지만 객실에는 최신 설비가 갖추어져 있다.",
+      "answerChoiceId": "fb-created-n2-093-05-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-093-18-b",
-          "text": "ないことはない",
-          "grammarId": "n2-098",
-          "baseExpression": "ないことはない",
-          "conjugatedExpression": "ないことはない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-093-18-c",
-          "text": "ないではいられない",
-          "grammarId": "n2-099",
-          "baseExpression": "ないではいられない",
-          "conjugatedExpression": "ないではいられない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-093-18-d",
+          "id": "fb-created-n2-093-05-b",
           "text": "とはいうものの",
           "grammarId": "n2-093",
           "baseExpression": "とはいうものの",
@@ -1487,37 +495,121 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-093-18-a",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
+          "id": "fb-created-n2-093-05-c",
+          "text": "にしたら",
+          "grammarId": "n2-119",
+          "baseExpression": "にしたら",
+          "conjugatedExpression": "にしたら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-05-d",
+          "text": "にしては",
+          "grammarId": "n2-120",
+          "baseExpression": "にしては",
+          "conjugatedExpression": "にしては",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-05-a",
+          "text": "にしても",
+          "grammarId": "n2-121",
+          "baseExpression": "にしても/にしろ/にせよ",
+          "conjugatedExpression": "にしても",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '이 료칸은 오래된 전통 숙소라고는 하지만 객실에는 최신 설비가 갖추어져 있다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
       "sourceGrammarIds": [
         "n2-093",
-        "n2-097",
-        "n2-098",
-        "n2-099"
+        "n2-119",
+        "n2-120",
+        "n2-121"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-093-19",
+      "id": "fb-created-n2-093-06",
       "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlank": "彼は20歳（　　　）、まだ子供だ。",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
-      "answerChoiceId": "fb-extra20-n2-093-19-a",
+      "sentence": "手術は成功したとはいうものの、以前のように走れるまでには長いリハビリが必要だ。",
+      "sentenceWithBlank": "手術は成功した（　　　）、以前のように走れるまでには長いリハビリが必要だ。",
+      "korean": "수술은 성공했다고는 하지만 예전처럼 달릴 수 있을 때까지는 오랜 재활이 필요하다.",
+      "answerChoiceId": "fb-created-n2-093-06-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-093-19-a",
+          "id": "fb-created-n2-093-06-c",
+          "text": "にしたら",
+          "grammarId": "n2-119",
+          "baseExpression": "にしたら",
+          "conjugatedExpression": "にしたら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-06-d",
+          "text": "にしては",
+          "grammarId": "n2-120",
+          "baseExpression": "にしては",
+          "conjugatedExpression": "にしては",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-06-a",
+          "text": "にしても",
+          "grammarId": "n2-121",
+          "baseExpression": "にしても/にしろ/にせよ",
+          "conjugatedExpression": "にしても",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-06-b",
+          "text": "とはいうものの",
+          "grammarId": "n2-093",
+          "baseExpression": "とはいうものの",
+          "conjugatedExpression": "とはいうものの",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '수술은 성공했다고는 하지만 예전처럼 달릴 수 있을 때까지는 오랜 재활이 필요하다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
+      "sourceGrammarIds": [
+        "n2-093",
+        "n2-119",
+        "n2-120",
+        "n2-121"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-093-07",
+      "level": "N2",
+      "sentence": "農作物の価格が上がったとはいうものの、肥料代も高騰して農家の利益は増えていない。",
+      "sentenceWithBlank": "農作物の価格が上がった（　　　）、肥料代も高騰して農家の利益は増えていない。",
+      "korean": "농산물 가격이 올랐다고는 하지만 비료값도 급등해 농가의 이익은 늘지 않았다.",
+      "answerChoiceId": "fb-created-n2-093-07-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-093-07-d",
+          "text": "にしては",
+          "grammarId": "n2-120",
+          "baseExpression": "にしては",
+          "conjugatedExpression": "にしては",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-07-a",
+          "text": "にしても",
+          "grammarId": "n2-121",
+          "baseExpression": "にしても/にしろ/にせよ",
+          "conjugatedExpression": "にしても",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-07-b",
           "text": "とはいうものの",
           "grammarId": "n2-093",
           "baseExpression": "とはいうものの",
@@ -1525,69 +617,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-093-19-b",
-          "text": "かねる",
-          "grammarId": "n2-023",
-          "baseExpression": "かねる",
-          "conjugatedExpression": "かねる",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-093-19-c",
-          "text": "かのように",
-          "grammarId": "n2-024",
-          "baseExpression": "かのように",
-          "conjugatedExpression": "かのように",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-093-19-d",
-          "text": "からいうと",
-          "grammarId": "n2-025",
-          "baseExpression": "からいうと",
-          "conjugatedExpression": "からいうと",
+          "id": "fb-created-n2-093-07-c",
+          "text": "にしたら",
+          "grammarId": "n2-119",
+          "baseExpression": "にしたら",
+          "conjugatedExpression": "にしたら",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '농산물 가격이 올랐다고는 하지만 비료값도 급등해 농가의 이익은 늘지 않았다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
       "sourceGrammarIds": [
         "n2-093",
-        "n2-023",
-        "n2-024",
-        "n2-025"
+        "n2-119",
+        "n2-120",
+        "n2-121"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-093-20",
+      "id": "fb-created-n2-093-08",
       "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlank": "彼は20歳（　　　）、まだ子供だ。",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
-      "answerChoiceId": "fb-extra20-n2-093-20-b",
+      "sentence": "在宅勤務が可能だとはいうものの、機密資料を扱う日は出社しなければならない。",
+      "sentenceWithBlank": "在宅勤務が可能だ（　　　）、機密資料を扱う日は出社しなければならない。",
+      "korean": "재택근무가 가능하다고는 하지만 기밀 자료를 다루는 날에는 출근해야 한다.",
+      "answerChoiceId": "fb-created-n2-093-08-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-093-20-d",
-          "text": "に伴って",
-          "grammarId": "n2-128",
-          "baseExpression": "に伴って",
-          "conjugatedExpression": "に伴って",
+          "id": "fb-created-n2-093-08-a",
+          "text": "にしても",
+          "grammarId": "n2-121",
+          "baseExpression": "にしても/にしろ/にせよ",
+          "conjugatedExpression": "にしても",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-093-20-a",
-          "text": "にほかならない",
-          "grammarId": "n2-129",
-          "baseExpression": "にほかならない",
-          "conjugatedExpression": "にほかならない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-093-20-b",
+          "id": "fb-created-n2-093-08-b",
           "text": "とはいうものの",
           "grammarId": "n2-093",
           "baseExpression": "とはいうものの",
@@ -1595,25 +662,933 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-093-20-c",
-          "text": "につけて",
-          "grammarId": "n2-127",
-          "baseExpression": "につけて",
-          "conjugatedExpression": "につけて",
+          "id": "fb-created-n2-093-08-c",
+          "text": "にしたら",
+          "grammarId": "n2-119",
+          "baseExpression": "にしたら",
+          "conjugatedExpression": "にしたら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-08-d",
+          "text": "にしては",
+          "grammarId": "n2-120",
+          "baseExpression": "にしては",
+          "conjugatedExpression": "にしては",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '재택근무가 가능하다고는 하지만 기밀 자료를 다루는 날에는 출근해야 한다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
       "sourceGrammarIds": [
         "n2-093",
-        "n2-127",
-        "n2-128",
-        "n2-129"
+        "n2-119",
+        "n2-120",
+        "n2-121"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-093-09",
+      "level": "N2",
+      "sentence": "港の風は弱まったとはいうものの、小型船を出すには波がまだ高すぎる。",
+      "sentenceWithBlank": "港の風は弱まった（　　　）、小型船を出すには波がまだ高すぎる。",
+      "korean": "항구의 바람은 약해졌다고는 하지만 소형선을 띄우기에는 파도가 아직 너무 높다.",
+      "answerChoiceId": "fb-created-n2-093-09-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-093-09-b",
+          "text": "とはいうものの",
+          "grammarId": "n2-093",
+          "baseExpression": "とはいうものの",
+          "conjugatedExpression": "とはいうものの",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-093-09-c",
+          "text": "にしたら",
+          "grammarId": "n2-119",
+          "baseExpression": "にしたら",
+          "conjugatedExpression": "にしたら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-09-d",
+          "text": "にしては",
+          "grammarId": "n2-120",
+          "baseExpression": "にしては",
+          "conjugatedExpression": "にしては",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-09-a",
+          "text": "にしても",
+          "grammarId": "n2-121",
+          "baseExpression": "にしても/にしろ/にせよ",
+          "conjugatedExpression": "にしても",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '항구의 바람은 약해졌다고는 하지만 소형선을 띄우기에는 파도가 아직 너무 높다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
+      "sourceGrammarIds": [
+        "n2-093",
+        "n2-119",
+        "n2-120",
+        "n2-121"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-093-10",
+      "level": "N2",
+      "sentence": "祖父は退職したとはいうものの、地域の相談役として毎日忙しくしている。",
+      "sentenceWithBlank": "祖父は退職した（　　　）、地域の相談役として毎日忙しくしている。",
+      "korean": "할아버지는 퇴직했다고는 하지만 지역 상담역으로서 매일 바쁘게 지내고 있다.",
+      "answerChoiceId": "fb-created-n2-093-10-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-093-10-c",
+          "text": "にしたら",
+          "grammarId": "n2-119",
+          "baseExpression": "にしたら",
+          "conjugatedExpression": "にしたら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-10-d",
+          "text": "にしては",
+          "grammarId": "n2-120",
+          "baseExpression": "にしては",
+          "conjugatedExpression": "にしては",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-10-a",
+          "text": "にしても",
+          "grammarId": "n2-121",
+          "baseExpression": "にしても/にしろ/にせよ",
+          "conjugatedExpression": "にしても",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-10-b",
+          "text": "とはいうものの",
+          "grammarId": "n2-093",
+          "baseExpression": "とはいうものの",
+          "conjugatedExpression": "とはいうものの",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '할아버지는 퇴직했다고는 하지만 지역 상담역으로서 매일 바쁘게 지내고 있다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
+      "sourceGrammarIds": [
+        "n2-093",
+        "n2-119",
+        "n2-120",
+        "n2-121"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-093-11",
+      "level": "N2",
+      "sentence": "新しい橋が開通したとはいうものの、朝の渋滞はほとんど改善されなかった。",
+      "sentenceWithBlank": "新しい橋が開通した（　　　）、朝の渋滞はほとんど改善されなかった。",
+      "korean": "새 다리가 개통되었다고는 하지만 아침 교통 체증은 거의 개선되지 않았다.",
+      "answerChoiceId": "fb-created-n2-093-11-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-093-11-d",
+          "text": "にしては",
+          "grammarId": "n2-120",
+          "baseExpression": "にしては",
+          "conjugatedExpression": "にしては",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-11-a",
+          "text": "にしても",
+          "grammarId": "n2-121",
+          "baseExpression": "にしても/にしろ/にせよ",
+          "conjugatedExpression": "にしても",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-11-b",
+          "text": "とはいうものの",
+          "grammarId": "n2-093",
+          "baseExpression": "とはいうものの",
+          "conjugatedExpression": "とはいうものの",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-093-11-c",
+          "text": "にしたら",
+          "grammarId": "n2-119",
+          "baseExpression": "にしたら",
+          "conjugatedExpression": "にしたら",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '새 다리가 개통되었다고는 하지만 아침 교통 체증은 거의 개선되지 않았다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
+      "sourceGrammarIds": [
+        "n2-093",
+        "n2-119",
+        "n2-120",
+        "n2-121"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-093-12",
+      "level": "N2",
+      "sentence": "この薬は市販されているとはいうものの、持病がある人は服用前に医師へ相談すべきだ。",
+      "sentenceWithBlank": "この薬は市販されている（　　　）、持病がある人は服用前に医師へ相談すべきだ。",
+      "korean": "이 약은 시중에서 판매된다고는 하지만 지병이 있는 사람은 복용 전에 의사와 상담해야 한다.",
+      "answerChoiceId": "fb-created-n2-093-12-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-093-12-a",
+          "text": "にしても",
+          "grammarId": "n2-121",
+          "baseExpression": "にしても/にしろ/にせよ",
+          "conjugatedExpression": "にしても",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-12-b",
+          "text": "とはいうものの",
+          "grammarId": "n2-093",
+          "baseExpression": "とはいうものの",
+          "conjugatedExpression": "とはいうものの",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-093-12-c",
+          "text": "にしたら",
+          "grammarId": "n2-119",
+          "baseExpression": "にしたら",
+          "conjugatedExpression": "にしたら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-12-d",
+          "text": "にしては",
+          "grammarId": "n2-120",
+          "baseExpression": "にしては",
+          "conjugatedExpression": "にしては",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '이 약은 시중에서 판매된다고는 하지만 지병이 있는 사람은 복용 전에 의사와 상담해야 한다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
+      "sourceGrammarIds": [
+        "n2-093",
+        "n2-119",
+        "n2-120",
+        "n2-121"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-093-13",
+      "level": "N2",
+      "sentence": "予約なしでも入れるとはいうものの、週末の夕方は二時間待ちになることもある。",
+      "sentenceWithBlank": "予約なしでも入れる（　　　）、週末の夕方は二時間待ちになることもある。",
+      "korean": "예약 없이도 들어갈 수 있다고는 하지만 주말 저녁에는 두 시간을 기다리게 될 때도 있다.",
+      "answerChoiceId": "fb-created-n2-093-13-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-093-13-b",
+          "text": "とはいうものの",
+          "grammarId": "n2-093",
+          "baseExpression": "とはいうものの",
+          "conjugatedExpression": "とはいうものの",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-093-13-c",
+          "text": "にしたら",
+          "grammarId": "n2-119",
+          "baseExpression": "にしたら",
+          "conjugatedExpression": "にしたら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-13-d",
+          "text": "にしては",
+          "grammarId": "n2-120",
+          "baseExpression": "にしては",
+          "conjugatedExpression": "にしては",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-13-a",
+          "text": "にしても",
+          "grammarId": "n2-121",
+          "baseExpression": "にしても/にしろ/にせよ",
+          "conjugatedExpression": "にしても",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '예약 없이도 들어갈 수 있다고는 하지만 주말 저녁에는 두 시간을 기다리게 될 때도 있다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
+      "sourceGrammarIds": [
+        "n2-093",
+        "n2-119",
+        "n2-120",
+        "n2-121"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-093-14",
+      "level": "N2",
+      "sentence": "売り上げは目標を超えたとはいうものの、広告費がかさみ赤字を避けられなかった。",
+      "sentenceWithBlank": "売り上げは目標を超えた（　　　）、広告費がかさみ赤字を避けられなかった。",
+      "korean": "매출은 목표를 넘었다고는 하지만 광고비가 많이 들어 적자를 피하지 못했다.",
+      "answerChoiceId": "fb-created-n2-093-14-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-093-14-c",
+          "text": "にしたら",
+          "grammarId": "n2-119",
+          "baseExpression": "にしたら",
+          "conjugatedExpression": "にしたら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-14-d",
+          "text": "にしては",
+          "grammarId": "n2-120",
+          "baseExpression": "にしては",
+          "conjugatedExpression": "にしては",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-14-a",
+          "text": "にしても",
+          "grammarId": "n2-121",
+          "baseExpression": "にしても/にしろ/にせよ",
+          "conjugatedExpression": "にしても",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-14-b",
+          "text": "とはいうものの",
+          "grammarId": "n2-093",
+          "baseExpression": "とはいうものの",
+          "conjugatedExpression": "とはいうものの",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '매출은 목표를 넘었다고는 하지만 광고비가 많이 들어 적자를 피하지 못했다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
+      "sourceGrammarIds": [
+        "n2-093",
+        "n2-119",
+        "n2-120",
+        "n2-121"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-093-15",
+      "level": "N2",
+      "sentence": "犬はおとなしいとはいうものの、見知らぬ人が門に近づくと激しくほえる。",
+      "sentenceWithBlank": "犬はおとなしい（　　　）、見知らぬ人が門に近づくと激しくほえる。",
+      "korean": "개가 얌전하다고는 하지만 낯선 사람이 문에 다가오면 사납게 짖는다.",
+      "answerChoiceId": "fb-created-n2-093-15-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-093-15-d",
+          "text": "にしては",
+          "grammarId": "n2-120",
+          "baseExpression": "にしては",
+          "conjugatedExpression": "にしては",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-15-a",
+          "text": "にしても",
+          "grammarId": "n2-121",
+          "baseExpression": "にしても/にしろ/にせよ",
+          "conjugatedExpression": "にしても",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-15-b",
+          "text": "とはいうものの",
+          "grammarId": "n2-093",
+          "baseExpression": "とはいうものの",
+          "conjugatedExpression": "とはいうものの",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-093-15-c",
+          "text": "にしたら",
+          "grammarId": "n2-119",
+          "baseExpression": "にしたら",
+          "conjugatedExpression": "にしたら",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '개가 얌전하다고는 하지만 낯선 사람이 문에 다가오면 사납게 짖는다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
+      "sourceGrammarIds": [
+        "n2-093",
+        "n2-119",
+        "n2-120",
+        "n2-121"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-093-16",
+      "level": "N2",
+      "sentence": "弟は料理人だとはいうものの、自宅ではインスタント食品で済ませることが多い。",
+      "sentenceWithBlank": "弟は料理人だ（　　　）、自宅ではインスタント食品で済ませることが多い。",
+      "korean": "남동생은 요리사라고는 하지만 집에서는 인스턴트식품으로 끼니를 때우는 경우가 많다.",
+      "answerChoiceId": "fb-created-n2-093-16-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-093-16-a",
+          "text": "にしても",
+          "grammarId": "n2-121",
+          "baseExpression": "にしても/にしろ/にせよ",
+          "conjugatedExpression": "にしても",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-16-b",
+          "text": "とはいうものの",
+          "grammarId": "n2-093",
+          "baseExpression": "とはいうものの",
+          "conjugatedExpression": "とはいうものの",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-093-16-c",
+          "text": "にしたら",
+          "grammarId": "n2-119",
+          "baseExpression": "にしたら",
+          "conjugatedExpression": "にしたら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-16-d",
+          "text": "にしては",
+          "grammarId": "n2-120",
+          "baseExpression": "にしては",
+          "conjugatedExpression": "にしては",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '남동생은 요리사라고는 하지만 집에서는 인스턴트식품으로 끼니를 때우는 경우가 많다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
+      "sourceGrammarIds": [
+        "n2-093",
+        "n2-119",
+        "n2-120",
+        "n2-121"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-093-17",
+      "level": "N2",
+      "sentence": "湖の水は透明だとはいうものの、急に深くなる場所があるので遊泳には注意が要る。",
+      "sentenceWithBlank": "湖の水は透明だ（　　　）、急に深くなる場所があるので遊泳には注意が要る。",
+      "korean": "호수 물은 투명하다고는 하지만 갑자기 깊어지는 곳이 있어서 수영할 때는 주의가 필요하다.",
+      "answerChoiceId": "fb-created-n2-093-17-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-093-17-b",
+          "text": "とはいうものの",
+          "grammarId": "n2-093",
+          "baseExpression": "とはいうものの",
+          "conjugatedExpression": "とはいうものの",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-093-17-c",
+          "text": "にしたら",
+          "grammarId": "n2-119",
+          "baseExpression": "にしたら",
+          "conjugatedExpression": "にしたら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-17-d",
+          "text": "にしては",
+          "grammarId": "n2-120",
+          "baseExpression": "にしては",
+          "conjugatedExpression": "にしては",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-17-a",
+          "text": "にしても",
+          "grammarId": "n2-121",
+          "baseExpression": "にしても/にしろ/にせよ",
+          "conjugatedExpression": "にしても",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '호수 물은 투명하다고는 하지만 갑자기 깊어지는 곳이 있어서 수영할 때는 주의가 필요하다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
+      "sourceGrammarIds": [
+        "n2-093",
+        "n2-119",
+        "n2-120",
+        "n2-121"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-093-18",
+      "level": "N2",
+      "sentence": "娘は独立したとはいうものの、大きな決断をするたびに父親へ意見を求めてくる。",
+      "sentenceWithBlank": "娘は独立した（　　　）、大きな決断をするたびに父親へ意見を求めてくる。",
+      "korean": "딸은 독립했다고는 하지만 큰 결정을 할 때마다 아버지에게 의견을 구한다.",
+      "answerChoiceId": "fb-created-n2-093-18-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-093-18-c",
+          "text": "にしたら",
+          "grammarId": "n2-119",
+          "baseExpression": "にしたら",
+          "conjugatedExpression": "にしたら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-18-d",
+          "text": "にしては",
+          "grammarId": "n2-120",
+          "baseExpression": "にしては",
+          "conjugatedExpression": "にしては",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-18-a",
+          "text": "にしても",
+          "grammarId": "n2-121",
+          "baseExpression": "にしても/にしろ/にせよ",
+          "conjugatedExpression": "にしても",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-18-b",
+          "text": "とはいうものの",
+          "grammarId": "n2-093",
+          "baseExpression": "とはいうものの",
+          "conjugatedExpression": "とはいうものの",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '딸은 독립했다고는 하지만 큰 결정을 할 때마다 아버지에게 의견을 구한다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
+      "sourceGrammarIds": [
+        "n2-093",
+        "n2-119",
+        "n2-120",
+        "n2-121"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-093-19",
+      "level": "N2",
+      "sentence": "文化財の修復は終わったとはいうものの、一般公開の時期はまだ決まっていない。",
+      "sentenceWithBlank": "文化財の修復は終わった（　　　）、一般公開の時期はまだ決まっていない。",
+      "korean": "문화재 복원은 끝났다고는 하지만 일반 공개 시기는 아직 정해지지 않았다.",
+      "answerChoiceId": "fb-created-n2-093-19-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-093-19-d",
+          "text": "にしては",
+          "grammarId": "n2-120",
+          "baseExpression": "にしては",
+          "conjugatedExpression": "にしては",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-19-a",
+          "text": "にしても",
+          "grammarId": "n2-121",
+          "baseExpression": "にしても/にしろ/にせよ",
+          "conjugatedExpression": "にしても",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-19-b",
+          "text": "とはいうものの",
+          "grammarId": "n2-093",
+          "baseExpression": "とはいうものの",
+          "conjugatedExpression": "とはいうものの",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-093-19-c",
+          "text": "にしたら",
+          "grammarId": "n2-119",
+          "baseExpression": "にしたら",
+          "conjugatedExpression": "にしたら",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '문화재 복원은 끝났다고는 하지만 일반 공개 시기는 아직 정해지지 않았다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
+      "sourceGrammarIds": [
+        "n2-093",
+        "n2-119",
+        "n2-120",
+        "n2-121"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-093-20",
+      "level": "N2",
+      "sentence": "契約上は自由に解約できるとはいうものの、返金には複雑な手続きが伴う。",
+      "sentenceWithBlank": "契約上は自由に解約できる（　　　）、返金には複雑な手続きが伴う。",
+      "korean": "계약상 자유롭게 해지할 수 있다고는 하지만 환불에는 복잡한 절차가 따른다.",
+      "answerChoiceId": "fb-created-n2-093-20-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-093-20-a",
+          "text": "にしても",
+          "grammarId": "n2-121",
+          "baseExpression": "にしても/にしろ/にせよ",
+          "conjugatedExpression": "にしても",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-20-b",
+          "text": "とはいうものの",
+          "grammarId": "n2-093",
+          "baseExpression": "とはいうものの",
+          "conjugatedExpression": "とはいうものの",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-093-20-c",
+          "text": "にしたら",
+          "grammarId": "n2-119",
+          "baseExpression": "にしたら",
+          "conjugatedExpression": "にしたら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-20-d",
+          "text": "にしては",
+          "grammarId": "n2-120",
+          "baseExpression": "にしては",
+          "conjugatedExpression": "にしては",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '계약상 자유롭게 해지할 수 있다고는 하지만 환불에는 복잡한 절차가 따른다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
+      "sourceGrammarIds": [
+        "n2-093",
+        "n2-119",
+        "n2-120",
+        "n2-121"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-093-21",
+      "level": "N2",
+      "sentence": "雨量は平年並みだったとはいうものの、降る時期が偏って果樹の生育に影響が出た。",
+      "sentenceWithBlank": "雨量は平年並みだった（　　　）、降る時期が偏って果樹の生育に影響が出た。",
+      "korean": "강수량은 평년 수준이었다고는 하지만 비가 내린 시기가 편중되어 과수 생육에 영향이 생겼다.",
+      "answerChoiceId": "fb-created-n2-093-21-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-093-21-b",
+          "text": "とはいうものの",
+          "grammarId": "n2-093",
+          "baseExpression": "とはいうものの",
+          "conjugatedExpression": "とはいうものの",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-093-21-c",
+          "text": "にしたら",
+          "grammarId": "n2-119",
+          "baseExpression": "にしたら",
+          "conjugatedExpression": "にしたら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-21-d",
+          "text": "にしては",
+          "grammarId": "n2-120",
+          "baseExpression": "にしては",
+          "conjugatedExpression": "にしては",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-21-a",
+          "text": "にしても",
+          "grammarId": "n2-121",
+          "baseExpression": "にしても/にしろ/にせよ",
+          "conjugatedExpression": "にしても",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '강수량은 평년 수준이었다고는 하지만 비가 내린 시기가 편중되어 과수 생육에 영향이 생겼다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
+      "sourceGrammarIds": [
+        "n2-093",
+        "n2-119",
+        "n2-120",
+        "n2-121"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-093-22",
+      "level": "N2",
+      "sentence": "彼女は舞台経験が豊富だとはいうものの、生放送の直前には緊張で手が震えていた。",
+      "sentenceWithBlank": "彼女は舞台経験が豊富だ（　　　）、生放送の直前には緊張で手が震えていた。",
+      "korean": "그녀는 무대 경험이 풍부하다고는 하지만 생방송 직전에는 긴장해서 손을 떨고 있었다.",
+      "answerChoiceId": "fb-created-n2-093-22-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-093-22-c",
+          "text": "にしたら",
+          "grammarId": "n2-119",
+          "baseExpression": "にしたら",
+          "conjugatedExpression": "にしたら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-22-d",
+          "text": "にしては",
+          "grammarId": "n2-120",
+          "baseExpression": "にしては",
+          "conjugatedExpression": "にしては",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-22-a",
+          "text": "にしても",
+          "grammarId": "n2-121",
+          "baseExpression": "にしても/にしろ/にせよ",
+          "conjugatedExpression": "にしても",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-22-b",
+          "text": "とはいうものの",
+          "grammarId": "n2-093",
+          "baseExpression": "とはいうものの",
+          "conjugatedExpression": "とはいうものの",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '그녀는 무대 경험이 풍부하다고는 하지만 생방송 직전에는 긴장해서 손을 떨고 있었다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
+      "sourceGrammarIds": [
+        "n2-093",
+        "n2-119",
+        "n2-120",
+        "n2-121"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-093-23",
+      "level": "N2",
+      "sentence": "古い倉庫を改装したとはいうものの、外壁には当時の傷や色合いがそのまま残されている。",
+      "sentenceWithBlank": "古い倉庫を改装した（　　　）、外壁には当時の傷や色合いがそのまま残されている。",
+      "korean": "오래된 창고를 개조했다고는 하지만 외벽에는 당시의 흠집과 색감이 그대로 남아 있다.",
+      "answerChoiceId": "fb-created-n2-093-23-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-093-23-d",
+          "text": "にしては",
+          "grammarId": "n2-120",
+          "baseExpression": "にしては",
+          "conjugatedExpression": "にしては",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-23-a",
+          "text": "にしても",
+          "grammarId": "n2-121",
+          "baseExpression": "にしても/にしろ/にせよ",
+          "conjugatedExpression": "にしても",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-23-b",
+          "text": "とはいうものの",
+          "grammarId": "n2-093",
+          "baseExpression": "とはいうものの",
+          "conjugatedExpression": "とはいうものの",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-093-23-c",
+          "text": "にしたら",
+          "grammarId": "n2-119",
+          "baseExpression": "にしたら",
+          "conjugatedExpression": "にしたら",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '오래된 창고를 개조했다고는 하지만 외벽에는 당시의 흠집과 색감이 그대로 남아 있다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
+      "sourceGrammarIds": [
+        "n2-093",
+        "n2-119",
+        "n2-120",
+        "n2-121"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-093-24",
+      "level": "N2",
+      "sentence": "町の人口は増えたとはいうものの、若者の多くは隣の都市まで働きに出ている。",
+      "sentenceWithBlank": "町の人口は増えた（　　　）、若者の多くは隣の都市まで働きに出ている。",
+      "korean": "마을 인구는 늘었다고는 하지만 젊은이 대부분은 이웃 도시까지 일하러 다닌다.",
+      "answerChoiceId": "fb-created-n2-093-24-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-093-24-a",
+          "text": "にしても",
+          "grammarId": "n2-121",
+          "baseExpression": "にしても/にしろ/にせよ",
+          "conjugatedExpression": "にしても",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-24-b",
+          "text": "とはいうものの",
+          "grammarId": "n2-093",
+          "baseExpression": "とはいうものの",
+          "conjugatedExpression": "とはいうものの",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-093-24-c",
+          "text": "にしたら",
+          "grammarId": "n2-119",
+          "baseExpression": "にしたら",
+          "conjugatedExpression": "にしたら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-24-d",
+          "text": "にしては",
+          "grammarId": "n2-120",
+          "baseExpression": "にしては",
+          "conjugatedExpression": "にしては",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '마을 인구는 늘었다고는 하지만 젊은이 대부분은 이웃 도시까지 일하러 다닌다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
+      "sourceGrammarIds": [
+        "n2-093",
+        "n2-119",
+        "n2-120",
+        "n2-121"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-093-25",
+      "level": "N2",
+      "sentence": "予備の発電機があるとはいうものの、病院全体の電力を長時間まかなうことはできない。",
+      "sentenceWithBlank": "予備の発電機がある（　　　）、病院全体の電力を長時間まかなうことはできない。",
+      "korean": "예비 발전기가 있다고는 하지만 병원 전체의 전력을 장시간 공급할 수는 없다.",
+      "answerChoiceId": "fb-created-n2-093-25-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-093-25-b",
+          "text": "とはいうものの",
+          "grammarId": "n2-093",
+          "baseExpression": "とはいうものの",
+          "conjugatedExpression": "とはいうものの",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-093-25-c",
+          "text": "にしたら",
+          "grammarId": "n2-119",
+          "baseExpression": "にしたら",
+          "conjugatedExpression": "にしたら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-25-d",
+          "text": "にしては",
+          "grammarId": "n2-120",
+          "baseExpression": "にしては",
+          "conjugatedExpression": "にしては",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-093-25-a",
+          "text": "にしても",
+          "grammarId": "n2-121",
+          "baseExpression": "にしても/にしろ/にせよ",
+          "conjugatedExpression": "にしても",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '예비 발전기가 있다고는 하지만 병원 전체의 전력을 장시간 공급할 수는 없다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
+      "sourceGrammarIds": [
+        "n2-093",
+        "n2-119",
+        "n2-120",
+        "n2-121"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
       ]
     }
   ],
@@ -1834,1103 +1809,1153 @@
       ]
     },
     {
-      "id": "so-extra-n2-093-1",
+      "id": "so-created-n2-093-01",
       "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlanks": "彼は20歳 ____ ____ ____ ____",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
+      "sentence": "駅から近いとはいうものの、急な坂道が続くため高齢の母には歩きにくい。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 母には歩きにくい。",
+      "korean": "역에서 가깝다고는 하지만 가파른 언덕길이 이어져서 연세가 많은 어머니가 걷기에는 불편하다.",
       "pieces": [
         {
-          "id": "so-extra-n2-093-1-p4",
-          "text": "だ",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-093-1-p1",
-          "text": "とはいうものの",
-          "order": 1
-        },
-        {
-          "id": "so-extra-n2-093-1-p2",
-          "text": "まだ",
+          "id": "so-created-n2-093-01-p2",
+          "text": "とはいうものの、",
           "order": 2
         },
         {
-          "id": "so-extra-n2-093-1-p3",
-          "text": "子供",
+          "id": "so-created-n2-093-01-p3",
+          "text": "急な坂道が",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-093-01-p4",
+          "text": "続くため高齢の",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-093-01-p1",
+          "text": "駅から近い",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-093-1-p1",
-        "so-extra-n2-093-1-p2",
-        "so-extra-n2-093-1-p3",
-        "so-extra-n2-093-1-p4"
+        "so-created-n2-093-01-p1",
+        "so-created-n2-093-01-p2",
+        "so-created-n2-093-01-p3",
+        "so-created-n2-093-01-p4"
       ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '역에서 가깝다고는 하지만 가파른 언덕길이 이어져서 연세가 많은 어머니가 걷기에는 불편하다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
       "sourceGrammarIds": [
-        "n2-093"
+        "n2-093",
+        "n2-119",
+        "n2-120",
+        "n2-121"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-093-2",
+      "id": "so-created-n2-093-02",
       "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlanks": "彼は20歳 ____ ____ ____ ____",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
+      "sentence": "春になったとはいうものの、山頂付近にはまだ厚い雪が残っている。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 残っている。",
+      "korean": "봄이 되었다고는 하지만 산 정상 부근에는 아직 두꺼운 눈이 남아 있다.",
       "pieces": [
         {
-          "id": "so-extra-n2-093-2-p1",
-          "text": "だ",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-093-2-p2",
-          "text": "とはいうものの",
+          "id": "so-created-n2-093-02-p1",
+          "text": "春になった",
           "order": 1
         },
         {
-          "id": "so-extra-n2-093-2-p3",
-          "text": "まだ",
+          "id": "so-created-n2-093-02-p2",
+          "text": "とはいうものの、",
           "order": 2
         },
         {
-          "id": "so-extra-n2-093-2-p4",
-          "text": "子供",
+          "id": "so-created-n2-093-02-p3",
+          "text": "山頂付近にはまだ",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-093-02-p4",
+          "text": "厚い雪が",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-093-2-p2",
-        "so-extra-n2-093-2-p3",
-        "so-extra-n2-093-2-p4",
-        "so-extra-n2-093-2-p1"
+        "so-created-n2-093-02-p1",
+        "so-created-n2-093-02-p2",
+        "so-created-n2-093-02-p3",
+        "so-created-n2-093-02-p4"
       ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '봄이 되었다고는 하지만 산 정상 부근에는 아직 두꺼운 눈이 남아 있다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
       "sourceGrammarIds": [
-        "n2-093"
+        "n2-093",
+        "n2-119",
+        "n2-120",
+        "n2-121"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-093-3",
+      "id": "so-created-n2-093-03",
       "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、まだ子供だ。",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
+      "sentence": "運転免許を取ったとはいうものの、狭い道では今もハンドルを握るのが怖い。",
+      "sentenceWithBlanks": "____ ____ ____ ____ ハンドルを握るのが怖い。",
+      "korean": "운전면허를 땄다고는 하지만 좁은 길에서는 지금도 운전대를 잡기가 무섭다.",
       "pieces": [
         {
-          "id": "so-extra-n2-093-3-p2",
-          "text": "子供",
+          "id": "so-created-n2-093-03-p4",
+          "text": "狭い道では今も",
           "order": 4
         },
         {
-          "id": "so-extra-n2-093-3-p3",
-          "text": "歳",
+          "id": "so-created-n2-093-03-p1",
+          "text": "運転免許を",
           "order": 1
         },
         {
-          "id": "so-extra-n2-093-3-p4",
-          "text": "とはいうものの",
+          "id": "so-created-n2-093-03-p2",
+          "text": "取った",
           "order": 2
         },
         {
-          "id": "so-extra-n2-093-3-p1",
-          "text": "まだ",
+          "id": "so-created-n2-093-03-p3",
+          "text": "とはいうものの、",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-093-3-p3",
-        "so-extra-n2-093-3-p4",
-        "so-extra-n2-093-3-p1",
-        "so-extra-n2-093-3-p2"
+        "so-created-n2-093-03-p1",
+        "so-created-n2-093-03-p2",
+        "so-created-n2-093-03-p3",
+        "so-created-n2-093-03-p4"
       ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '운전면허를 땄다고는 하지만 좁은 길에서는 지금도 운전대를 잡기가 무섭다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
       "sourceGrammarIds": [
-        "n2-093"
+        "n2-093",
+        "n2-119",
+        "n2-120",
+        "n2-121"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-093-4",
+      "id": "so-created-n2-093-04",
       "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlanks": "彼は20歳 ____ ____ ____ ____",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
+      "sentence": "海外勤務に慣れたとはいうものの、家族と離れて迎える誕生日はやはり寂しい。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 誕生日はやはり寂しい。",
+      "korean": "해외 근무에 익숙해졌다고는 하지만 가족과 떨어져 맞는 생일은 역시 외롭다.",
       "pieces": [
         {
-          "id": "so-extra-n2-093-4-p3",
-          "text": "だ",
+          "id": "so-created-n2-093-04-p3",
+          "text": "家族と",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-093-04-p4",
+          "text": "離れて迎える",
           "order": 4
         },
         {
-          "id": "so-extra-n2-093-4-p4",
-          "text": "とはいうものの",
+          "id": "so-created-n2-093-04-p1",
+          "text": "海外勤務に慣れた",
           "order": 1
         },
         {
-          "id": "so-extra-n2-093-4-p1",
-          "text": "まだ",
+          "id": "so-created-n2-093-04-p2",
+          "text": "とはいうものの、",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-093-4-p2",
-          "text": "子供",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-093-4-p4",
-        "so-extra-n2-093-4-p1",
-        "so-extra-n2-093-4-p2",
-        "so-extra-n2-093-4-p3"
+        "so-created-n2-093-04-p1",
+        "so-created-n2-093-04-p2",
+        "so-created-n2-093-04-p3",
+        "so-created-n2-093-04-p4"
       ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '해외 근무에 익숙해졌다고는 하지만 가족과 떨어져 맞는 생일은 역시 외롭다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
       "sourceGrammarIds": [
-        "n2-093"
+        "n2-093",
+        "n2-119",
+        "n2-120",
+        "n2-121"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-093-5",
+      "id": "so-created-n2-093-05",
       "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlanks": "彼は20歳 ____ ____ ____ ____",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
+      "sentence": "この旅館は老舗だとはいうものの、客室には最新の設備が整っている。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 整っている。",
+      "korean": "이 료칸은 오래된 전통 숙소라고는 하지만 객실에는 최신 설비가 갖추어져 있다.",
       "pieces": [
         {
-          "id": "so-extra-n2-093-5-p4",
-          "text": "だ",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-093-5-p1",
-          "text": "とはいうものの",
-          "order": 1
-        },
-        {
-          "id": "so-extra-n2-093-5-p2",
-          "text": "まだ",
+          "id": "so-created-n2-093-05-p2",
+          "text": "とはいうものの、",
           "order": 2
         },
         {
-          "id": "so-extra-n2-093-5-p3",
-          "text": "子供",
+          "id": "so-created-n2-093-05-p3",
+          "text": "客室には",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-093-05-p4",
+          "text": "最新の設備が",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-093-05-p1",
+          "text": "この旅館は老舗だ",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-093-5-p1",
-        "so-extra-n2-093-5-p2",
-        "so-extra-n2-093-5-p3",
-        "so-extra-n2-093-5-p4"
+        "so-created-n2-093-05-p1",
+        "so-created-n2-093-05-p2",
+        "so-created-n2-093-05-p3",
+        "so-created-n2-093-05-p4"
       ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '이 료칸은 오래된 전통 숙소라고는 하지만 객실에는 최신 설비가 갖추어져 있다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
       "sourceGrammarIds": [
-        "n2-093"
+        "n2-093",
+        "n2-119",
+        "n2-120",
+        "n2-121"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-093-01",
+      "id": "so-created-n2-093-06",
       "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlanks": "彼は20歳 ____ ____ ____ ____",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
+      "sentence": "手術は成功したとはいうものの、以前のように走れるまでには長いリハビリが必要だ。",
+      "sentenceWithBlanks": "____ ____ ____ ____ リハビリが必要だ。",
+      "korean": "수술은 성공했다고는 하지만 예전처럼 달릴 수 있을 때까지는 오랜 재활이 필요하다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-093-01-p4",
-          "text": "だ",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-093-01-p1",
-          "text": "とはいうものの",
+          "id": "so-created-n2-093-06-p1",
+          "text": "手術は成功した",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-093-01-p2",
-          "text": "まだ",
+          "id": "so-created-n2-093-06-p2",
+          "text": "とはいうものの、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-093-01-p3",
-          "text": "子供",
+          "id": "so-created-n2-093-06-p3",
+          "text": "以前のように",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-093-06-p4",
+          "text": "走れるまでには長い",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-093-01-p1",
-        "so-extra20-n2-093-01-p2",
-        "so-extra20-n2-093-01-p3",
-        "so-extra20-n2-093-01-p4"
+        "so-created-n2-093-06-p1",
+        "so-created-n2-093-06-p2",
+        "so-created-n2-093-06-p3",
+        "so-created-n2-093-06-p4"
       ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '수술은 성공했다고는 하지만 예전처럼 달릴 수 있을 때까지는 오랜 재활이 필요하다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
       "sourceGrammarIds": [
-        "n2-093"
+        "n2-093",
+        "n2-119",
+        "n2-120",
+        "n2-121"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-093-02",
+      "id": "so-created-n2-093-07",
       "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlanks": "彼は20歳 ____ ____ ____ ____",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
+      "sentence": "農作物の価格が上がったとはいうものの、肥料代も高騰して農家の利益は増えていない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 農家の利益は増えていない。",
+      "korean": "농산물 가격이 올랐다고는 하지만 비료값도 급등해 농가의 이익은 늘지 않았다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-093-02-p3",
-          "text": "まだ",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-093-02-p4",
-          "text": "子供",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-093-02-p1",
-          "text": "だ",
+          "id": "so-created-n2-093-07-p4",
+          "text": "肥料代も高騰して",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-093-02-p2",
-          "text": "とはいうものの",
+          "id": "so-created-n2-093-07-p1",
+          "text": "農作物の",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-093-07-p2",
+          "text": "価格が上がった",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-093-07-p3",
+          "text": "とはいうものの、",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-093-02-p2",
-        "so-extra20-n2-093-02-p3",
-        "so-extra20-n2-093-02-p4",
-        "so-extra20-n2-093-02-p1"
+        "so-created-n2-093-07-p1",
+        "so-created-n2-093-07-p2",
+        "so-created-n2-093-07-p3",
+        "so-created-n2-093-07-p4"
       ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '농산물 가격이 올랐다고는 하지만 비료값도 급등해 농가의 이익은 늘지 않았다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
       "sourceGrammarIds": [
-        "n2-093"
+        "n2-093",
+        "n2-119",
+        "n2-120",
+        "n2-121"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-093-03",
+      "id": "so-created-n2-093-08",
       "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、まだ子供だ。",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
+      "sentence": "在宅勤務が可能だとはいうものの、機密資料を扱う日は出社しなければならない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 日は出社しなければならない。",
+      "korean": "재택근무가 가능하다고는 하지만 기밀 자료를 다루는 날에는 출근해야 한다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-093-03-p2",
-          "text": "子供",
+          "id": "so-created-n2-093-08-p3",
+          "text": "とはいうものの、",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-093-08-p4",
+          "text": "機密資料を扱う",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-093-03-p3",
-          "text": "歳",
+          "id": "so-created-n2-093-08-p1",
+          "text": "在宅勤務が",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-093-03-p4",
-          "text": "とはいうものの",
+          "id": "so-created-n2-093-08-p2",
+          "text": "可能だ",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-093-03-p1",
-          "text": "まだ",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-093-03-p3",
-        "so-extra20-n2-093-03-p4",
-        "so-extra20-n2-093-03-p1",
-        "so-extra20-n2-093-03-p2"
+        "so-created-n2-093-08-p1",
+        "so-created-n2-093-08-p2",
+        "so-created-n2-093-08-p3",
+        "so-created-n2-093-08-p4"
       ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '재택근무가 가능하다고는 하지만 기밀 자료를 다루는 날에는 출근해야 한다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
       "sourceGrammarIds": [
-        "n2-093"
+        "n2-093",
+        "n2-119",
+        "n2-120",
+        "n2-121"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-093-04",
+      "id": "so-created-n2-093-09",
       "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlanks": "彼は20歳 ____ ____ ____ ____",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
+      "sentence": "港の風は弱まったとはいうものの、小型船を出すには波がまだ高すぎる。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 波がまだ高すぎる。",
+      "korean": "항구의 바람은 약해졌다고는 하지만 소형선을 띄우기에는 파도가 아직 너무 높다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-093-04-p1",
-          "text": "まだ",
+          "id": "so-created-n2-093-09-p2",
+          "text": "弱まった",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-093-04-p2",
-          "text": "子供",
+          "id": "so-created-n2-093-09-p3",
+          "text": "とはいうものの、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-093-04-p3",
-          "text": "だ",
+          "id": "so-created-n2-093-09-p4",
+          "text": "小型船を出すには",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-093-04-p4",
-          "text": "とはいうものの",
+          "id": "so-created-n2-093-09-p1",
+          "text": "港の風は",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-093-04-p4",
-        "so-extra20-n2-093-04-p1",
-        "so-extra20-n2-093-04-p2",
-        "so-extra20-n2-093-04-p3"
+        "so-created-n2-093-09-p1",
+        "so-created-n2-093-09-p2",
+        "so-created-n2-093-09-p3",
+        "so-created-n2-093-09-p4"
       ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '항구의 바람은 약해졌다고는 하지만 소형선을 띄우기에는 파도가 아직 너무 높다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
       "sourceGrammarIds": [
-        "n2-093"
+        "n2-093",
+        "n2-119",
+        "n2-120",
+        "n2-121"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-093-05",
+      "id": "so-created-n2-093-10",
       "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlanks": "彼は20歳 ____ ____ ____ ____",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
+      "sentence": "祖父は退職したとはいうものの、地域の相談役として毎日忙しくしている。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 忙しくしている。",
+      "korean": "할아버지는 퇴직했다고는 하지만 지역 상담역으로서 매일 바쁘게 지내고 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-093-05-p4",
-          "text": "だ",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-093-05-p1",
-          "text": "とはいうものの",
+          "id": "so-created-n2-093-10-p1",
+          "text": "祖父は退職した",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-093-05-p2",
-          "text": "まだ",
+          "id": "so-created-n2-093-10-p2",
+          "text": "とはいうものの、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-093-05-p3",
-          "text": "子供",
+          "id": "so-created-n2-093-10-p3",
+          "text": "地域の",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-093-10-p4",
+          "text": "相談役として毎日",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-093-05-p1",
-        "so-extra20-n2-093-05-p2",
-        "so-extra20-n2-093-05-p3",
-        "so-extra20-n2-093-05-p4"
+        "so-created-n2-093-10-p1",
+        "so-created-n2-093-10-p2",
+        "so-created-n2-093-10-p3",
+        "so-created-n2-093-10-p4"
       ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '할아버지는 퇴직했다고는 하지만 지역 상담역으로서 매일 바쁘게 지내고 있다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
       "sourceGrammarIds": [
-        "n2-093"
+        "n2-093",
+        "n2-119",
+        "n2-120",
+        "n2-121"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-093-06",
+      "id": "so-created-n2-093-11",
       "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlanks": "彼は20歳 ____ ____ ____ ____",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
+      "sentence": "新しい橋が開通したとはいうものの、朝の渋滞はほとんど改善されなかった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 改善されなかった。",
+      "korean": "새 다리가 개통되었다고는 하지만 아침 교통 체증은 거의 개선되지 않았다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-093-06-p3",
-          "text": "子供",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-093-06-p4",
-          "text": "だ",
+          "id": "so-created-n2-093-11-p4",
+          "text": "朝の渋滞はほとんど",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-093-06-p1",
-          "text": "とはいうものの",
+          "id": "so-created-n2-093-11-p1",
+          "text": "新しい橋が",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-093-06-p2",
-          "text": "まだ",
+          "id": "so-created-n2-093-11-p2",
+          "text": "開通した",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-093-11-p3",
+          "text": "とはいうものの、",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-093-06-p1",
-        "so-extra20-n2-093-06-p2",
-        "so-extra20-n2-093-06-p3",
-        "so-extra20-n2-093-06-p4"
+        "so-created-n2-093-11-p1",
+        "so-created-n2-093-11-p2",
+        "so-created-n2-093-11-p3",
+        "so-created-n2-093-11-p4"
       ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '새 다리가 개통되었다고는 하지만 아침 교통 체증은 거의 개선되지 않았다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
       "sourceGrammarIds": [
-        "n2-093"
+        "n2-093",
+        "n2-119",
+        "n2-120",
+        "n2-121"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-093-07",
+      "id": "so-created-n2-093-12",
       "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlanks": "彼は20歳 ____ ____ ____ ____",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
+      "sentence": "この薬は市販されているとはいうものの、持病がある人は服用前に医師へ相談すべきだ。",
+      "sentenceWithBlanks": "この薬は ____ ____ ____ ____ 相談すべきだ。",
+      "korean": "이 약은 시중에서 판매된다고는 하지만 지병이 있는 사람은 복용 전에 의사와 상담해야 한다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-093-07-p2",
-          "text": "とはいうものの",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-093-07-p3",
-          "text": "まだ",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-093-07-p4",
-          "text": "子供",
+          "id": "so-created-n2-093-12-p3",
+          "text": "持病がある人は",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-093-07-p1",
-          "text": "だ",
+          "id": "so-created-n2-093-12-p4",
+          "text": "服用前に医師へ",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-093-12-p1",
+          "text": "市販されている",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-093-12-p2",
+          "text": "とはいうものの、",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-093-07-p2",
-        "so-extra20-n2-093-07-p3",
-        "so-extra20-n2-093-07-p4",
-        "so-extra20-n2-093-07-p1"
+        "so-created-n2-093-12-p1",
+        "so-created-n2-093-12-p2",
+        "so-created-n2-093-12-p3",
+        "so-created-n2-093-12-p4"
       ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '이 약은 시중에서 판매된다고는 하지만 지병이 있는 사람은 복용 전에 의사와 상담해야 한다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
       "sourceGrammarIds": [
-        "n2-093"
+        "n2-093",
+        "n2-119",
+        "n2-120",
+        "n2-121"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-093-08",
+      "id": "so-created-n2-093-13",
       "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、まだ子供だ。",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
+      "sentence": "予約なしでも入れるとはいうものの、週末の夕方は二時間待ちになることもある。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 待ちになることもある。",
+      "korean": "예약 없이도 들어갈 수 있다고는 하지만 주말 저녁에는 두 시간을 기다리게 될 때도 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-093-08-p1",
-          "text": "まだ",
+          "id": "so-created-n2-093-13-p2",
+          "text": "入れる",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-093-13-p3",
+          "text": "とはいうものの、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-093-08-p2",
-          "text": "子供",
+          "id": "so-created-n2-093-13-p4",
+          "text": "週末の夕方は二時間",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-093-08-p3",
-          "text": "歳",
+          "id": "so-created-n2-093-13-p1",
+          "text": "予約なしでも",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-093-08-p4",
-          "text": "とはいうものの",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-093-08-p3",
-        "so-extra20-n2-093-08-p4",
-        "so-extra20-n2-093-08-p1",
-        "so-extra20-n2-093-08-p2"
+        "so-created-n2-093-13-p1",
+        "so-created-n2-093-13-p2",
+        "so-created-n2-093-13-p3",
+        "so-created-n2-093-13-p4"
       ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '예약 없이도 들어갈 수 있다고는 하지만 주말 저녁에는 두 시간을 기다리게 될 때도 있다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
       "sourceGrammarIds": [
-        "n2-093"
+        "n2-093",
+        "n2-119",
+        "n2-120",
+        "n2-121"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-093-09",
+      "id": "so-created-n2-093-14",
       "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlanks": "彼は20歳 ____ ____ ____ ____",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
+      "sentence": "売り上げは目標を超えたとはいうものの、広告費がかさみ赤字を避けられなかった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 避けられなかった。",
+      "korean": "매출은 목표를 넘었다고는 하지만 광고비가 많이 들어 적자를 피하지 못했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-093-09-p4",
-          "text": "とはいうものの",
+          "id": "so-created-n2-093-14-p1",
+          "text": "売り上げは",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-093-09-p1",
-          "text": "まだ",
+          "id": "so-created-n2-093-14-p2",
+          "text": "目標を超えた",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-093-09-p2",
-          "text": "子供",
+          "id": "so-created-n2-093-14-p3",
+          "text": "とはいうものの、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-093-09-p3",
-          "text": "だ",
+          "id": "so-created-n2-093-14-p4",
+          "text": "広告費がかさみ赤字を",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-093-09-p4",
-        "so-extra20-n2-093-09-p1",
-        "so-extra20-n2-093-09-p2",
-        "so-extra20-n2-093-09-p3"
+        "so-created-n2-093-14-p1",
+        "so-created-n2-093-14-p2",
+        "so-created-n2-093-14-p3",
+        "so-created-n2-093-14-p4"
       ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '매출은 목표를 넘었다고는 하지만 광고비가 많이 들어 적자를 피하지 못했다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
       "sourceGrammarIds": [
-        "n2-093"
+        "n2-093",
+        "n2-119",
+        "n2-120",
+        "n2-121"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-093-10",
+      "id": "so-created-n2-093-15",
       "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlanks": "彼は20歳 ____ ____ ____ ____",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
+      "sentence": "犬はおとなしいとはいうものの、見知らぬ人が門に近づくと激しくほえる。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 激しくほえる。",
+      "korean": "개가 얌전하다고는 하지만 낯선 사람이 문에 다가오면 사납게 짖는다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-093-10-p3",
-          "text": "子供",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-093-10-p4",
-          "text": "だ",
+          "id": "so-created-n2-093-15-p4",
+          "text": "門に近づくと",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-093-10-p1",
-          "text": "とはいうものの",
+          "id": "so-created-n2-093-15-p1",
+          "text": "犬はおとなしい",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-093-10-p2",
-          "text": "まだ",
+          "id": "so-created-n2-093-15-p2",
+          "text": "とはいうものの、",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-093-15-p3",
+          "text": "見知らぬ人が",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-093-10-p1",
-        "so-extra20-n2-093-10-p2",
-        "so-extra20-n2-093-10-p3",
-        "so-extra20-n2-093-10-p4"
+        "so-created-n2-093-15-p1",
+        "so-created-n2-093-15-p2",
+        "so-created-n2-093-15-p3",
+        "so-created-n2-093-15-p4"
       ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '개가 얌전하다고는 하지만 낯선 사람이 문에 다가오면 사납게 짖는다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
       "sourceGrammarIds": [
-        "n2-093"
+        "n2-093",
+        "n2-119",
+        "n2-120",
+        "n2-121"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-093-11",
+      "id": "so-created-n2-093-16",
       "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlanks": "彼は20歳 ____ ____ ____ ____",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
+      "sentence": "弟は料理人だとはいうものの、自宅ではインスタント食品で済ませることが多い。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 済ませることが多い。",
+      "korean": "남동생은 요리사라고는 하지만 집에서는 인스턴트식품으로 끼니를 때우는 경우가 많다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-093-11-p2",
-          "text": "まだ",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-093-11-p3",
-          "text": "子供",
+          "id": "so-created-n2-093-16-p3",
+          "text": "自宅では",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-093-11-p4",
-          "text": "だ",
+          "id": "so-created-n2-093-16-p4",
+          "text": "インスタント食品で",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-093-11-p1",
-          "text": "とはいうものの",
+          "id": "so-created-n2-093-16-p1",
+          "text": "弟は料理人だ",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-093-16-p2",
+          "text": "とはいうものの、",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-093-11-p1",
-        "so-extra20-n2-093-11-p2",
-        "so-extra20-n2-093-11-p3",
-        "so-extra20-n2-093-11-p4"
+        "so-created-n2-093-16-p1",
+        "so-created-n2-093-16-p2",
+        "so-created-n2-093-16-p3",
+        "so-created-n2-093-16-p4"
       ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '남동생은 요리사라고는 하지만 집에서는 인스턴트식품으로 끼니를 때우는 경우가 많다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
       "sourceGrammarIds": [
-        "n2-093"
+        "n2-093",
+        "n2-119",
+        "n2-120",
+        "n2-121"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-093-12",
+      "id": "so-created-n2-093-17",
       "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlanks": "彼は20歳 ____ ____ ____ ____",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
+      "sentence": "湖の水は透明だとはいうものの、急に深くなる場所があるので遊泳には注意が要る。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 遊泳には注意が要る。",
+      "korean": "호수 물은 투명하다고는 하지만 갑자기 깊어지는 곳이 있어서 수영할 때는 주의가 필요하다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-093-12-p1",
-          "text": "だ",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-093-12-p2",
-          "text": "とはいうものの",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-093-12-p3",
-          "text": "まだ",
+          "id": "so-created-n2-093-17-p2",
+          "text": "とはいうものの、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-093-12-p4",
-          "text": "子供",
+          "id": "so-created-n2-093-17-p3",
+          "text": "急に深くなる",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-093-17-p4",
+          "text": "場所があるので",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-093-17-p1",
+          "text": "湖の水は透明だ",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-093-12-p2",
-        "so-extra20-n2-093-12-p3",
-        "so-extra20-n2-093-12-p4",
-        "so-extra20-n2-093-12-p1"
+        "so-created-n2-093-17-p1",
+        "so-created-n2-093-17-p2",
+        "so-created-n2-093-17-p3",
+        "so-created-n2-093-17-p4"
       ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '호수 물은 투명하다고는 하지만 갑자기 깊어지는 곳이 있어서 수영할 때는 주의가 필요하다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
       "sourceGrammarIds": [
-        "n2-093"
+        "n2-093",
+        "n2-119",
+        "n2-120",
+        "n2-121"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-093-13",
+      "id": "so-created-n2-093-18",
       "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、まだ子供だ。",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
+      "sentence": "娘は独立したとはいうものの、大きな決断をするたびに父親へ意見を求めてくる。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 意見を求めてくる。",
+      "korean": "딸은 독립했다고는 하지만 큰 결정을 할 때마다 아버지에게 의견을 구한다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-093-13-p4",
-          "text": "とはいうものの",
+          "id": "so-created-n2-093-18-p1",
+          "text": "娘は独立した",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-093-18-p2",
+          "text": "とはいうものの、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-093-13-p1",
-          "text": "まだ",
+          "id": "so-created-n2-093-18-p3",
+          "text": "大きな",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-093-13-p2",
-          "text": "子供",
+          "id": "so-created-n2-093-18-p4",
+          "text": "決断をするたびに父親へ",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-093-13-p3",
-          "text": "歳",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-093-13-p3",
-        "so-extra20-n2-093-13-p4",
-        "so-extra20-n2-093-13-p1",
-        "so-extra20-n2-093-13-p2"
+        "so-created-n2-093-18-p1",
+        "so-created-n2-093-18-p2",
+        "so-created-n2-093-18-p3",
+        "so-created-n2-093-18-p4"
       ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '딸은 독립했다고는 하지만 큰 결정을 할 때마다 아버지에게 의견을 구한다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
       "sourceGrammarIds": [
-        "n2-093"
+        "n2-093",
+        "n2-119",
+        "n2-120",
+        "n2-121"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-093-14",
+      "id": "so-created-n2-093-19",
       "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlanks": "彼は20歳 ____ ____ ____ ____",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
+      "sentence": "文化財の修復は終わったとはいうものの、一般公開の時期はまだ決まっていない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 決まっていない。",
+      "korean": "문화재 복원은 끝났다고는 하지만 일반 공개 시기는 아직 정해지지 않았다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-093-14-p3",
-          "text": "だ",
+          "id": "so-created-n2-093-19-p4",
+          "text": "一般公開の時期はまだ",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-093-14-p4",
-          "text": "とはいうものの",
+          "id": "so-created-n2-093-19-p1",
+          "text": "文化財の",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-093-14-p1",
-          "text": "まだ",
+          "id": "so-created-n2-093-19-p2",
+          "text": "修復は終わった",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-093-14-p2",
-          "text": "子供",
+          "id": "so-created-n2-093-19-p3",
+          "text": "とはいうものの、",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-093-14-p4",
-        "so-extra20-n2-093-14-p1",
-        "so-extra20-n2-093-14-p2",
-        "so-extra20-n2-093-14-p3"
+        "so-created-n2-093-19-p1",
+        "so-created-n2-093-19-p2",
+        "so-created-n2-093-19-p3",
+        "so-created-n2-093-19-p4"
       ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '문화재 복원은 끝났다고는 하지만 일반 공개 시기는 아직 정해지지 않았다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
       "sourceGrammarIds": [
-        "n2-093"
+        "n2-093",
+        "n2-119",
+        "n2-120",
+        "n2-121"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-093-15",
+      "id": "so-created-n2-093-20",
       "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlanks": "彼は20歳 ____ ____ ____ ____",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
+      "sentence": "契約上は自由に解約できるとはいうものの、返金には複雑な手続きが伴う。",
+      "sentenceWithBlanks": "契約上は ____ ____ ____ ____",
+      "korean": "계약상 자유롭게 해지할 수 있다고는 하지만 환불에는 복잡한 절차가 따른다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-093-15-p2",
-          "text": "まだ",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-093-15-p3",
-          "text": "子供",
+          "id": "so-created-n2-093-20-p3",
+          "text": "返金には複雑な",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-093-15-p4",
-          "text": "だ",
+          "id": "so-created-n2-093-20-p4",
+          "text": "手続きが伴う。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-093-15-p1",
-          "text": "とはいうものの",
+          "id": "so-created-n2-093-20-p1",
+          "text": "自由に解約できる",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-093-20-p2",
+          "text": "とはいうものの、",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-093-15-p1",
-        "so-extra20-n2-093-15-p2",
-        "so-extra20-n2-093-15-p3",
-        "so-extra20-n2-093-15-p4"
+        "so-created-n2-093-20-p1",
+        "so-created-n2-093-20-p2",
+        "so-created-n2-093-20-p3",
+        "so-created-n2-093-20-p4"
       ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '계약상 자유롭게 해지할 수 있다고는 하지만 환불에는 복잡한 절차가 따른다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
       "sourceGrammarIds": [
-        "n2-093"
+        "n2-093",
+        "n2-119",
+        "n2-120",
+        "n2-121"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-093-16",
+      "id": "so-created-n2-093-21",
       "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlanks": "彼は20歳 ____ ____ ____ ____",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
+      "sentence": "雨量は平年並みだったとはいうものの、降る時期が偏って果樹の生育に影響が出た。",
+      "sentenceWithBlanks": "雨量は平年並みだった ____ ____ ____ ____ 出た。",
+      "korean": "강수량은 평년 수준이었다고는 하지만 비가 내린 시기가 편중되어 과수 생육에 영향이 생겼다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-093-16-p1",
-          "text": "とはいうものの",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-093-16-p2",
-          "text": "まだ",
+          "id": "so-created-n2-093-21-p2",
+          "text": "降る時期が",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-093-16-p3",
-          "text": "子供",
+          "id": "so-created-n2-093-21-p3",
+          "text": "偏って果樹の",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-093-16-p4",
-          "text": "だ",
+          "id": "so-created-n2-093-21-p4",
+          "text": "生育に影響が",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-093-21-p1",
+          "text": "とはいうものの、",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-093-16-p1",
-        "so-extra20-n2-093-16-p2",
-        "so-extra20-n2-093-16-p3",
-        "so-extra20-n2-093-16-p4"
+        "so-created-n2-093-21-p1",
+        "so-created-n2-093-21-p2",
+        "so-created-n2-093-21-p3",
+        "so-created-n2-093-21-p4"
       ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '강수량은 평년 수준이었다고는 하지만 비가 내린 시기가 편중되어 과수 생육에 영향이 생겼다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
       "sourceGrammarIds": [
-        "n2-093"
+        "n2-093",
+        "n2-119",
+        "n2-120",
+        "n2-121"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-093-17",
+      "id": "so-created-n2-093-22",
       "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlanks": "彼は20歳 ____ ____ ____ ____",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
+      "sentence": "彼女は舞台経験が豊富だとはいうものの、生放送の直前には緊張で手が震えていた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 緊張で手が震えていた。",
+      "korean": "그녀는 무대 경험이 풍부하다고는 하지만 생방송 직전에는 긴장해서 손을 떨고 있었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-093-17-p4",
-          "text": "子供",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-093-17-p1",
-          "text": "だ",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-093-17-p2",
-          "text": "とはいうものの",
+          "id": "so-created-n2-093-22-p1",
+          "text": "彼女は舞台",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-093-17-p3",
-          "text": "まだ",
+          "id": "so-created-n2-093-22-p2",
+          "text": "経験が豊富だ",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-093-22-p3",
+          "text": "とはいうものの、",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-093-22-p4",
+          "text": "生放送の直前には",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-093-17-p2",
-        "so-extra20-n2-093-17-p3",
-        "so-extra20-n2-093-17-p4",
-        "so-extra20-n2-093-17-p1"
+        "so-created-n2-093-22-p1",
+        "so-created-n2-093-22-p2",
+        "so-created-n2-093-22-p3",
+        "so-created-n2-093-22-p4"
       ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '그녀는 무대 경험이 풍부하다고는 하지만 생방송 직전에는 긴장해서 손을 떨고 있었다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
       "sourceGrammarIds": [
-        "n2-093"
+        "n2-093",
+        "n2-119",
+        "n2-120",
+        "n2-121"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-093-18",
+      "id": "so-created-n2-093-23",
       "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、まだ子供だ。",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
+      "sentence": "古い倉庫を改装したとはいうものの、外壁には当時の傷や色合いがそのまま残されている。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 色合いがそのまま残されている。",
+      "korean": "오래된 창고를 개조했다고는 하지만 외벽에는 당시의 흠집과 색감이 그대로 남아 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-093-18-p3",
-          "text": "歳",
+          "id": "so-created-n2-093-23-p4",
+          "text": "外壁には当時の傷や",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-093-23-p1",
+          "text": "古い倉庫を",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-093-18-p4",
-          "text": "とはいうものの",
+          "id": "so-created-n2-093-23-p2",
+          "text": "改装した",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-093-18-p1",
-          "text": "まだ",
+          "id": "so-created-n2-093-23-p3",
+          "text": "とはいうものの、",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-093-18-p2",
-          "text": "子供",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-093-18-p3",
-        "so-extra20-n2-093-18-p4",
-        "so-extra20-n2-093-18-p1",
-        "so-extra20-n2-093-18-p2"
+        "so-created-n2-093-23-p1",
+        "so-created-n2-093-23-p2",
+        "so-created-n2-093-23-p3",
+        "so-created-n2-093-23-p4"
       ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '오래된 창고를 개조했다고는 하지만 외벽에는 당시의 흠집과 색감이 그대로 남아 있다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
       "sourceGrammarIds": [
-        "n2-093"
+        "n2-093",
+        "n2-119",
+        "n2-120",
+        "n2-121"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-093-19",
+      "id": "so-created-n2-093-24",
       "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlanks": "彼は20歳 ____ ____ ____ ____",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
+      "sentence": "町の人口は増えたとはいうものの、若者の多くは隣の都市まで働きに出ている。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 都市まで働きに出ている。",
+      "korean": "마을 인구는 늘었다고는 하지만 젊은이 대부분은 이웃 도시까지 일하러 다닌다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-093-19-p2",
-          "text": "子供",
+          "id": "so-created-n2-093-24-p3",
+          "text": "とはいうものの、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-093-19-p3",
-          "text": "だ",
+          "id": "so-created-n2-093-24-p4",
+          "text": "若者の多くは隣の",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-093-19-p4",
-          "text": "とはいうものの",
+          "id": "so-created-n2-093-24-p1",
+          "text": "町の人口は",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-093-19-p1",
-          "text": "まだ",
+          "id": "so-created-n2-093-24-p2",
+          "text": "増えた",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-093-19-p4",
-        "so-extra20-n2-093-19-p1",
-        "so-extra20-n2-093-19-p2",
-        "so-extra20-n2-093-19-p3"
+        "so-created-n2-093-24-p1",
+        "so-created-n2-093-24-p2",
+        "so-created-n2-093-24-p3",
+        "so-created-n2-093-24-p4"
       ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '마을 인구는 늘었다고는 하지만 젊은이 대부분은 이웃 도시까지 일하러 다닌다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
       "sourceGrammarIds": [
-        "n2-093"
+        "n2-093",
+        "n2-119",
+        "n2-120",
+        "n2-121"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-093-20",
+      "id": "so-created-n2-093-25",
       "level": "N2",
-      "sentence": "彼は20歳とはいうものの、まだ子供だ。",
-      "sentenceWithBlanks": "彼は20歳 ____ ____ ____ ____",
-      "korean": "그는 스무 살이라고는 하지만 아직 아이다.",
+      "sentence": "予備の発電機があるとはいうものの、病院全体の電力を長時間まかなうことはできない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 長時間まかなうことはできない。",
+      "korean": "예비 발전기가 있다고는 하지만 병원 전체의 전력을 장시간 공급할 수는 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-093-20-p1",
-          "text": "とはいうものの",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-093-20-p2",
-          "text": "まだ",
+          "id": "so-created-n2-093-25-p2",
+          "text": "機がある",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-093-20-p3",
-          "text": "子供",
+          "id": "so-created-n2-093-25-p3",
+          "text": "とはいうものの、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-093-20-p4",
-          "text": "だ",
+          "id": "so-created-n2-093-25-p4",
+          "text": "病院全体の電力を",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-093-25-p1",
+          "text": "予備の発電",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-093-20-p1",
-        "so-extra20-n2-093-20-p2",
-        "so-extra20-n2-093-20-p3",
-        "so-extra20-n2-093-20-p4"
+        "so-created-n2-093-25-p1",
+        "so-created-n2-093-25-p2",
+        "so-created-n2-093-25-p3",
+        "so-created-n2-093-25-p4"
       ],
-      "explanation": "「とはいうものの」는 ~라고 하지만라는 뜻이다. 앞 사실은 인정하지만 실제는 다름.",
+      "explanation": "「とはいうものの」는 '~라고 하지만'라는 뜻을 나타낸다. 이 문장에서는 '예비 발전기가 있다고는 하지만 병원 전체의 전력을 장시간 공급할 수는 없다.'라는 상황에 쓰였으며, 앞 사실은 인정하지만 실제는 다름. 주의할 점은 앞 사실을 인정하면서 역접. 「とはいえ」보다 문어적. 내용 구성 방식은 동일.",
       "sourceGrammarIds": [
-        "n2-093"
+        "n2-093",
+        "n2-119",
+        "n2-120",
+        "n2-121"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     }
   ]

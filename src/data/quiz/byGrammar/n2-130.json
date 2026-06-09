@@ -267,15 +267,23 @@
       ]
     },
     {
-      "id": "fb-extra-n2-130-1",
+      "id": "fb-created-n2-130-01",
       "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlank": "雨（　　　）、多くの人が集まった。",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
-      "answerChoiceId": "fb-extra-n2-130-1-b",
+      "sentence": "厳しい入場制限にもかかわらず、会場周辺では長い列ができた。",
+      "sentenceWithBlank": "厳しい入場制限（　　　）、会場周辺では長い列ができた。",
+      "korean": "엄격한 입장 제한에도 불구하고 행사장 주변에는 긴 줄이 생겼다.",
+      "answerChoiceId": "fb-created-n2-130-01-b",
       "choices": [
         {
-          "id": "fb-extra-n2-130-1-d",
+          "id": "fb-created-n2-130-01-c",
+          "text": "だらけ",
+          "grammarId": "n2-062",
+          "baseExpression": "だらけ",
+          "conjugatedExpression": "だらけ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-130-01-d",
           "text": "っこない",
           "grammarId": "n2-063",
           "baseExpression": "っこない",
@@ -283,7 +291,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-130-1-a",
+          "id": "fb-created-n2-130-01-a",
           "text": "つつ",
           "grammarId": "n2-064",
           "baseExpression": "つつ",
@@ -291,23 +299,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-130-1-b",
+          "id": "fb-created-n2-130-01-b",
           "text": "にもかかわらず",
           "grammarId": "n2-130",
           "baseExpression": "にもかかわらず",
           "conjugatedExpression": "にもかかわらず",
           "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-130-1-c",
-          "text": "だらけ",
-          "grammarId": "n2-062",
-          "baseExpression": "だらけ",
-          "conjugatedExpression": "だらけ",
-          "isSimilarDistractor": true
         }
       ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '엄격한 입장 제한에도 불구하고 행사장 주변에는 긴 줄이 생겼다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
       "sourceGrammarIds": [
         "n2-130",
         "n2-062",
@@ -315,29 +315,20 @@
         "n2-064"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra-n2-130-2",
+      "id": "fb-created-n2-130-02",
       "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlank": "雨（　　　）、多くの人が集まった。",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
-      "answerChoiceId": "fb-extra-n2-130-2-c",
+      "sentence": "深夜であるにもかかわらず、工場の機械音は住宅街まで響いていた。",
+      "sentenceWithBlank": "深夜である（　　　）、工場の機械音は住宅街まで響いていた。",
+      "korean": "심야임에도 불구하고 공장의 기계 소리는 주택가까지 울려 퍼지고 있었다.",
+      "answerChoiceId": "fb-created-n2-130-02-b",
       "choices": [
         {
-          "id": "fb-extra-n2-130-2-a",
-          "text": "だらけ",
-          "grammarId": "n2-062",
-          "baseExpression": "だらけ",
-          "conjugatedExpression": "だらけ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-130-2-b",
+          "id": "fb-created-n2-130-02-d",
           "text": "っこない",
           "grammarId": "n2-063",
           "baseExpression": "っこない",
@@ -345,215 +336,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-130-2-c",
-          "text": "にもかかわらず",
-          "grammarId": "n2-130",
-          "baseExpression": "にもかかわらず",
-          "conjugatedExpression": "にもかかわらず",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-130-2-d",
-          "text": "たびに",
-          "grammarId": "n2-061",
-          "baseExpression": "たびに",
-          "conjugatedExpression": "たびに",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
-      "sourceGrammarIds": [
-        "n2-130",
-        "n2-061",
-        "n2-062",
-        "n2-063"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-130-3",
-      "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlank": "雨（　　　）、多くの人が集まった。",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
-      "answerChoiceId": "fb-extra-n2-130-3-d",
-      "choices": [
-        {
-          "id": "fb-extra-n2-130-3-b",
-          "text": "た上で",
-          "grammarId": "n2-005",
-          "baseExpression": "た上で",
-          "conjugatedExpression": "た上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-130-3-c",
-          "text": "上で",
-          "grammarId": "n2-006",
-          "baseExpression": "上で",
-          "conjugatedExpression": "上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-130-3-d",
-          "text": "にもかかわらず",
-          "grammarId": "n2-130",
-          "baseExpression": "にもかかわらず",
-          "conjugatedExpression": "にもかかわらず",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-130-3-a",
-          "text": "一方で",
-          "grammarId": "n2-004",
-          "baseExpression": "一方で",
-          "conjugatedExpression": "一方で",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
-      "sourceGrammarIds": [
-        "n2-130",
-        "n2-004",
-        "n2-005",
-        "n2-006"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-130-4",
-      "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlank": "雨（　　　）、多くの人が集まった。",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
-      "answerChoiceId": "fb-extra-n2-130-4-a",
-      "choices": [
-        {
-          "id": "fb-extra-n2-130-4-c",
-          "text": "もの",
-          "grammarId": "n2-153",
-          "baseExpression": "もの",
-          "conjugatedExpression": "もの",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-130-4-d",
-          "text": "ものか",
-          "grammarId": "n2-154",
-          "baseExpression": "ものか",
-          "conjugatedExpression": "ものか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-130-4-a",
-          "text": "にもかかわらず",
-          "grammarId": "n2-130",
-          "baseExpression": "にもかかわらず",
-          "conjugatedExpression": "にもかかわらず",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-130-4-b",
-          "text": "もしない",
-          "grammarId": "n2-152",
-          "baseExpression": "もしない",
-          "conjugatedExpression": "もしない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
-      "sourceGrammarIds": [
-        "n2-130",
-        "n2-152",
-        "n2-153",
-        "n2-154"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-130-5",
-      "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlank": "雨（　　　）、多くの人が集まった。",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
-      "answerChoiceId": "fb-extra-n2-130-5-b",
-      "choices": [
-        {
-          "id": "fb-extra-n2-130-5-d",
-          "text": "だけに",
-          "grammarId": "n2-055",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-130-5-a",
-          "text": "だけに",
-          "grammarId": "n2-056",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-130-5-b",
-          "text": "にもかかわらず",
-          "grammarId": "n2-130",
-          "baseExpression": "にもかかわらず",
-          "conjugatedExpression": "にもかかわらず",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-130-5-c",
-          "text": "しただけあって",
-          "grammarId": "n2-054",
-          "baseExpression": "だけあって",
-          "conjugatedExpression": "しただけあって",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
-      "sourceGrammarIds": [
-        "n2-130",
-        "n2-054",
-        "n2-055",
-        "n2-056"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-130-01",
-      "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlank": "雨（　　　）、多くの人が集まった。",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
-      "answerChoiceId": "fb-extra20-n2-130-01-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-130-01-d",
-          "text": "っこない",
-          "grammarId": "n2-063",
-          "baseExpression": "っこない",
-          "conjugatedExpression": "っこない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-130-01-a",
+          "id": "fb-created-n2-130-02-a",
           "text": "つつ",
           "grammarId": "n2-064",
           "baseExpression": "つつ",
@@ -561,7 +344,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-130-01-b",
+          "id": "fb-created-n2-130-02-b",
           "text": "にもかかわらず",
           "grammarId": "n2-130",
           "baseExpression": "にもかかわらず",
@@ -569,7 +352,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-130-01-c",
+          "id": "fb-created-n2-130-02-c",
           "text": "だらけ",
           "grammarId": "n2-062",
           "baseExpression": "だらけ",
@@ -577,7 +360,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '심야임에도 불구하고 공장의 기계 소리는 주택가까지 울려 퍼지고 있었다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
       "sourceGrammarIds": [
         "n2-130",
         "n2-062",
@@ -585,253 +368,20 @@
         "n2-064"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-130-02",
+      "id": "fb-created-n2-130-03",
       "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlank": "雨（　　　）、多くの人が集まった。",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
-      "answerChoiceId": "fb-extra20-n2-130-02-c",
+      "sentence": "十分な証拠がないにもかかわらず、容疑者の氏名が報道された。",
+      "sentenceWithBlank": "十分な証拠がない（　　　）、容疑者の氏名が報道された。",
+      "korean": "충분한 증거가 없음에도 불구하고 용의자의 이름이 보도되었다.",
+      "answerChoiceId": "fb-created-n2-130-03-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-130-02-c",
-          "text": "にもかかわらず",
-          "grammarId": "n2-130",
-          "baseExpression": "にもかかわらず",
-          "conjugatedExpression": "にもかかわらず",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-130-02-d",
-          "text": "たびに",
-          "grammarId": "n2-061",
-          "baseExpression": "たびに",
-          "conjugatedExpression": "たびに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-130-02-a",
-          "text": "だらけ",
-          "grammarId": "n2-062",
-          "baseExpression": "だらけ",
-          "conjugatedExpression": "だらけ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-130-02-b",
-          "text": "っこない",
-          "grammarId": "n2-063",
-          "baseExpression": "っこない",
-          "conjugatedExpression": "っこない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
-      "sourceGrammarIds": [
-        "n2-130",
-        "n2-061",
-        "n2-062",
-        "n2-063"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-130-03",
-      "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlank": "雨（　　　）、多くの人が集まった。",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
-      "answerChoiceId": "fb-extra20-n2-130-03-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-130-03-b",
-          "text": "た上で",
-          "grammarId": "n2-005",
-          "baseExpression": "た上で",
-          "conjugatedExpression": "た上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-130-03-c",
-          "text": "上で",
-          "grammarId": "n2-006",
-          "baseExpression": "上で",
-          "conjugatedExpression": "上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-130-03-d",
-          "text": "にもかかわらず",
-          "grammarId": "n2-130",
-          "baseExpression": "にもかかわらず",
-          "conjugatedExpression": "にもかかわらず",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-130-03-a",
-          "text": "一方で",
-          "grammarId": "n2-004",
-          "baseExpression": "一方で",
-          "conjugatedExpression": "一方で",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
-      "sourceGrammarIds": [
-        "n2-130",
-        "n2-004",
-        "n2-005",
-        "n2-006"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-130-04",
-      "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlank": "雨（　　　）、多くの人が集まった。",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
-      "answerChoiceId": "fb-extra20-n2-130-04-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-130-04-a",
-          "text": "にもかかわらず",
-          "grammarId": "n2-130",
-          "baseExpression": "にもかかわらず",
-          "conjugatedExpression": "にもかかわらず",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-130-04-b",
-          "text": "もしない",
-          "grammarId": "n2-152",
-          "baseExpression": "もしない",
-          "conjugatedExpression": "もしない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-130-04-c",
-          "text": "もの",
-          "grammarId": "n2-153",
-          "baseExpression": "もの",
-          "conjugatedExpression": "もの",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-130-04-d",
-          "text": "ものか",
-          "grammarId": "n2-154",
-          "baseExpression": "ものか",
-          "conjugatedExpression": "ものか",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
-      "sourceGrammarIds": [
-        "n2-130",
-        "n2-152",
-        "n2-153",
-        "n2-154"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-130-05",
-      "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlank": "雨（　　　）、多くの人が集まった。",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
-      "answerChoiceId": "fb-extra20-n2-130-05-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-130-05-d",
-          "text": "だけに",
-          "grammarId": "n2-055",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-130-05-a",
-          "text": "だけに",
-          "grammarId": "n2-056",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-130-05-b",
-          "text": "にもかかわらず",
-          "grammarId": "n2-130",
-          "baseExpression": "にもかかわらず",
-          "conjugatedExpression": "にもかかわらず",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-130-05-c",
-          "text": "しただけあって",
-          "grammarId": "n2-054",
-          "baseExpression": "だけあって",
-          "conjugatedExpression": "しただけあって",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
-      "sourceGrammarIds": [
-        "n2-130",
-        "n2-054",
-        "n2-055",
-        "n2-056"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-130-06",
-      "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlank": "雨（　　　）、多くの人が集まった。",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
-      "answerChoiceId": "fb-extra20-n2-130-06-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-130-06-c",
-          "text": "だらけ",
-          "grammarId": "n2-062",
-          "baseExpression": "だらけ",
-          "conjugatedExpression": "だらけ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-130-06-d",
-          "text": "っこない",
-          "grammarId": "n2-063",
-          "baseExpression": "っこない",
-          "conjugatedExpression": "っこない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-130-06-a",
+          "id": "fb-created-n2-130-03-a",
           "text": "つつ",
           "grammarId": "n2-064",
           "baseExpression": "つつ",
@@ -839,15 +389,31 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-130-06-b",
+          "id": "fb-created-n2-130-03-b",
           "text": "にもかかわらず",
           "grammarId": "n2-130",
           "baseExpression": "にもかかわらず",
           "conjugatedExpression": "にもかかわらず",
           "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-130-03-c",
+          "text": "だらけ",
+          "grammarId": "n2-062",
+          "baseExpression": "だらけ",
+          "conjugatedExpression": "だらけ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-130-03-d",
+          "text": "っこない",
+          "grammarId": "n2-063",
+          "baseExpression": "っこない",
+          "conjugatedExpression": "っこない",
+          "isSimilarDistractor": true
         }
       ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '충분한 증거가 없음에도 불구하고 용의자의 이름이 보도되었다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
       "sourceGrammarIds": [
         "n2-130",
         "n2-062",
@@ -855,29 +421,20 @@
         "n2-064"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-130-07",
+      "id": "fb-created-n2-130-04",
       "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlank": "雨（　　　）、多くの人が集まった。",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
-      "answerChoiceId": "fb-extra20-n2-130-07-c",
+      "sentence": "度重なる警告にもかかわらず、登山者は閉鎖中のルートに入った。",
+      "sentenceWithBlank": "度重なる警告（　　　）、登山者は閉鎖中のルートに入った。",
+      "korean": "거듭된 경고에도 불구하고 등산객은 폐쇄 중인 등산로에 들어갔다.",
+      "answerChoiceId": "fb-created-n2-130-04-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-130-07-b",
-          "text": "っこない",
-          "grammarId": "n2-063",
-          "baseExpression": "っこない",
-          "conjugatedExpression": "っこない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-130-07-c",
+          "id": "fb-created-n2-130-04-b",
           "text": "にもかかわらず",
           "grammarId": "n2-130",
           "baseExpression": "にもかかわらず",
@@ -885,215 +442,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-130-07-d",
-          "text": "たびに",
-          "grammarId": "n2-061",
-          "baseExpression": "たびに",
-          "conjugatedExpression": "たびに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-130-07-a",
-          "text": "だらけ",
-          "grammarId": "n2-062",
-          "baseExpression": "だらけ",
-          "conjugatedExpression": "だらけ",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
-      "sourceGrammarIds": [
-        "n2-130",
-        "n2-061",
-        "n2-062",
-        "n2-063"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-130-08",
-      "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlank": "雨（　　　）、多くの人が集まった。",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
-      "answerChoiceId": "fb-extra20-n2-130-08-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-130-08-a",
-          "text": "一方で",
-          "grammarId": "n2-004",
-          "baseExpression": "一方で",
-          "conjugatedExpression": "一方で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-130-08-b",
-          "text": "た上で",
-          "grammarId": "n2-005",
-          "baseExpression": "た上で",
-          "conjugatedExpression": "た上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-130-08-c",
-          "text": "上で",
-          "grammarId": "n2-006",
-          "baseExpression": "上で",
-          "conjugatedExpression": "上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-130-08-d",
-          "text": "にもかかわらず",
-          "grammarId": "n2-130",
-          "baseExpression": "にもかかわらず",
-          "conjugatedExpression": "にもかかわらず",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
-      "sourceGrammarIds": [
-        "n2-130",
-        "n2-004",
-        "n2-005",
-        "n2-006"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-130-09",
-      "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlank": "雨（　　　）、多くの人が集まった。",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
-      "answerChoiceId": "fb-extra20-n2-130-09-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-130-09-d",
-          "text": "ものか",
-          "grammarId": "n2-154",
-          "baseExpression": "ものか",
-          "conjugatedExpression": "ものか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-130-09-a",
-          "text": "にもかかわらず",
-          "grammarId": "n2-130",
-          "baseExpression": "にもかかわらず",
-          "conjugatedExpression": "にもかかわらず",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-130-09-b",
-          "text": "もしない",
-          "grammarId": "n2-152",
-          "baseExpression": "もしない",
-          "conjugatedExpression": "もしない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-130-09-c",
-          "text": "もの",
-          "grammarId": "n2-153",
-          "baseExpression": "もの",
-          "conjugatedExpression": "もの",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
-      "sourceGrammarIds": [
-        "n2-130",
-        "n2-152",
-        "n2-153",
-        "n2-154"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-130-10",
-      "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlank": "雨（　　　）、多くの人が集まった。",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
-      "answerChoiceId": "fb-extra20-n2-130-10-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-130-10-c",
-          "text": "しただけあって",
-          "grammarId": "n2-054",
-          "baseExpression": "だけあって",
-          "conjugatedExpression": "しただけあって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-130-10-d",
-          "text": "だけに",
-          "grammarId": "n2-055",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-130-10-a",
-          "text": "だけに",
-          "grammarId": "n2-056",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-130-10-b",
-          "text": "にもかかわらず",
-          "grammarId": "n2-130",
-          "baseExpression": "にもかかわらず",
-          "conjugatedExpression": "にもかかわらず",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
-      "sourceGrammarIds": [
-        "n2-130",
-        "n2-054",
-        "n2-055",
-        "n2-056"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-130-11",
-      "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlank": "雨（　　　）、多くの人が集まった。",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
-      "answerChoiceId": "fb-extra20-n2-130-11-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-130-11-b",
-          "text": "にもかかわらず",
-          "grammarId": "n2-130",
-          "baseExpression": "にもかかわらず",
-          "conjugatedExpression": "にもかかわらず",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-130-11-c",
+          "id": "fb-created-n2-130-04-c",
           "text": "だらけ",
           "grammarId": "n2-062",
           "baseExpression": "だらけ",
@@ -1101,7 +450,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-130-11-d",
+          "id": "fb-created-n2-130-04-d",
           "text": "っこない",
           "grammarId": "n2-063",
           "baseExpression": "っこない",
@@ -1109,7 +458,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-130-11-a",
+          "id": "fb-created-n2-130-04-a",
           "text": "つつ",
           "grammarId": "n2-064",
           "baseExpression": "つつ",
@@ -1117,7 +466,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '거듭된 경고에도 불구하고 등산객은 폐쇄 중인 등산로에 들어갔다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
       "sourceGrammarIds": [
         "n2-130",
         "n2-062",
@@ -1125,21 +474,20 @@
         "n2-064"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-130-12",
+      "id": "fb-created-n2-130-05",
       "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlank": "雨（　　　）、多くの人が集まった。",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
-      "answerChoiceId": "fb-extra20-n2-130-12-c",
+      "sentence": "大幅に値上げされたにもかかわらず、その限定腕時計は発売日に完売した。",
+      "sentenceWithBlank": "大幅に値上げされた（　　　）、その限定腕時計は発売日に完売した。",
+      "korean": "가격이 대폭 인상되었음에도 불구하고 그 한정 손목시계는 출시 당일에 매진되었다.",
+      "answerChoiceId": "fb-created-n2-130-05-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-130-12-a",
+          "id": "fb-created-n2-130-05-c",
           "text": "だらけ",
           "grammarId": "n2-062",
           "baseExpression": "だらけ",
@@ -1147,7 +495,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-130-12-b",
+          "id": "fb-created-n2-130-05-d",
           "text": "っこない",
           "grammarId": "n2-063",
           "baseExpression": "っこない",
@@ -1155,207 +503,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-130-12-c",
-          "text": "にもかかわらず",
-          "grammarId": "n2-130",
-          "baseExpression": "にもかかわらず",
-          "conjugatedExpression": "にもかかわらず",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-130-12-d",
-          "text": "たびに",
-          "grammarId": "n2-061",
-          "baseExpression": "たびに",
-          "conjugatedExpression": "たびに",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
-      "sourceGrammarIds": [
-        "n2-130",
-        "n2-061",
-        "n2-062",
-        "n2-063"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-130-13",
-      "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlank": "雨（　　　）、多くの人が集まった。",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
-      "answerChoiceId": "fb-extra20-n2-130-13-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-130-13-d",
-          "text": "にもかかわらず",
-          "grammarId": "n2-130",
-          "baseExpression": "にもかかわらず",
-          "conjugatedExpression": "にもかかわらず",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-130-13-a",
-          "text": "一方で",
-          "grammarId": "n2-004",
-          "baseExpression": "一方で",
-          "conjugatedExpression": "一方で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-130-13-b",
-          "text": "た上で",
-          "grammarId": "n2-005",
-          "baseExpression": "た上で",
-          "conjugatedExpression": "た上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-130-13-c",
-          "text": "上で",
-          "grammarId": "n2-006",
-          "baseExpression": "上で",
-          "conjugatedExpression": "上で",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
-      "sourceGrammarIds": [
-        "n2-130",
-        "n2-004",
-        "n2-005",
-        "n2-006"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-130-14",
-      "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlank": "雨（　　　）、多くの人が集まった。",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
-      "answerChoiceId": "fb-extra20-n2-130-14-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-130-14-c",
-          "text": "もの",
-          "grammarId": "n2-153",
-          "baseExpression": "もの",
-          "conjugatedExpression": "もの",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-130-14-d",
-          "text": "ものか",
-          "grammarId": "n2-154",
-          "baseExpression": "ものか",
-          "conjugatedExpression": "ものか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-130-14-a",
-          "text": "にもかかわらず",
-          "grammarId": "n2-130",
-          "baseExpression": "にもかかわらず",
-          "conjugatedExpression": "にもかかわらず",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-130-14-b",
-          "text": "もしない",
-          "grammarId": "n2-152",
-          "baseExpression": "もしない",
-          "conjugatedExpression": "もしない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
-      "sourceGrammarIds": [
-        "n2-130",
-        "n2-152",
-        "n2-153",
-        "n2-154"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-130-15",
-      "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlank": "雨（　　　）、多くの人が集まった。",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
-      "answerChoiceId": "fb-extra20-n2-130-15-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-130-15-b",
-          "text": "にもかかわらず",
-          "grammarId": "n2-130",
-          "baseExpression": "にもかかわらず",
-          "conjugatedExpression": "にもかかわらず",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-130-15-c",
-          "text": "しただけあって",
-          "grammarId": "n2-054",
-          "baseExpression": "だけあって",
-          "conjugatedExpression": "しただけあって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-130-15-d",
-          "text": "だけに",
-          "grammarId": "n2-055",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-130-15-a",
-          "text": "だけに",
-          "grammarId": "n2-056",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
-      "sourceGrammarIds": [
-        "n2-130",
-        "n2-054",
-        "n2-055",
-        "n2-056"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-130-16",
-      "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlank": "雨（　　　）、多くの人が集まった。",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
-      "answerChoiceId": "fb-extra20-n2-130-16-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-130-16-a",
+          "id": "fb-created-n2-130-05-a",
           "text": "つつ",
           "grammarId": "n2-064",
           "baseExpression": "つつ",
@@ -1363,31 +511,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-130-16-b",
+          "id": "fb-created-n2-130-05-b",
           "text": "にもかかわらず",
           "grammarId": "n2-130",
           "baseExpression": "にもかかわらず",
           "conjugatedExpression": "にもかかわらず",
           "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-130-16-c",
-          "text": "だらけ",
-          "grammarId": "n2-062",
-          "baseExpression": "だらけ",
-          "conjugatedExpression": "だらけ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-130-16-d",
-          "text": "っこない",
-          "grammarId": "n2-063",
-          "baseExpression": "っこない",
-          "conjugatedExpression": "っこない",
-          "isSimilarDistractor": true
         }
       ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '가격이 대폭 인상되었음에도 불구하고 그 한정 손목시계는 출시 당일에 매진되었다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
       "sourceGrammarIds": [
         "n2-130",
         "n2-062",
@@ -1395,37 +527,20 @@
         "n2-064"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-130-17",
+      "id": "fb-created-n2-130-06",
       "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlank": "雨（　　　）、多くの人が集まった。",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
-      "answerChoiceId": "fb-extra20-n2-130-17-c",
+      "sentence": "経験が浅いにもかかわらず、彼女は重要な交渉を冷静にまとめた。",
+      "sentenceWithBlank": "経験が浅い（　　　）、彼女は重要な交渉を冷静にまとめた。",
+      "korean": "경험이 부족함에도 불구하고 그녀는 중요한 협상을 침착하게 성사시켰다.",
+      "answerChoiceId": "fb-created-n2-130-06-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-130-17-d",
-          "text": "たびに",
-          "grammarId": "n2-061",
-          "baseExpression": "たびに",
-          "conjugatedExpression": "たびに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-130-17-a",
-          "text": "だらけ",
-          "grammarId": "n2-062",
-          "baseExpression": "だらけ",
-          "conjugatedExpression": "だらけ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-130-17-b",
+          "id": "fb-created-n2-130-06-d",
           "text": "っこない",
           "grammarId": "n2-063",
           "baseExpression": "っこない",
@@ -1433,45 +548,60 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-130-17-c",
+          "id": "fb-created-n2-130-06-a",
+          "text": "つつ",
+          "grammarId": "n2-064",
+          "baseExpression": "つつ",
+          "conjugatedExpression": "つつ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-130-06-b",
           "text": "にもかかわらず",
           "grammarId": "n2-130",
           "baseExpression": "にもかかわらず",
           "conjugatedExpression": "にもかかわらず",
           "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-130-06-c",
+          "text": "だらけ",
+          "grammarId": "n2-062",
+          "baseExpression": "だらけ",
+          "conjugatedExpression": "だらけ",
+          "isSimilarDistractor": true
         }
       ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '경험이 부족함에도 불구하고 그녀는 중요한 협상을 침착하게 성사시켰다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
       "sourceGrammarIds": [
         "n2-130",
-        "n2-061",
         "n2-062",
-        "n2-063"
+        "n2-063",
+        "n2-064"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-130-18",
+      "id": "fb-created-n2-130-07",
       "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlank": "雨（　　　）、多くの人が集まった。",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
-      "answerChoiceId": "fb-extra20-n2-130-18-d",
+      "sentence": "救急車を要請したにもかかわらず、通報者は患者を残して立ち去った。",
+      "sentenceWithBlank": "救急車を要請した（　　　）、通報者は患者を残して立ち去った。",
+      "korean": "구급차를 요청했음에도 불구하고 신고자는 환자를 남겨 둔 채 떠났다.",
+      "answerChoiceId": "fb-created-n2-130-07-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-130-18-c",
-          "text": "上で",
-          "grammarId": "n2-006",
-          "baseExpression": "上で",
-          "conjugatedExpression": "上で",
+          "id": "fb-created-n2-130-07-a",
+          "text": "つつ",
+          "grammarId": "n2-064",
+          "baseExpression": "つつ",
+          "conjugatedExpression": "つつ",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-130-18-d",
+          "id": "fb-created-n2-130-07-b",
           "text": "にもかかわらず",
           "grammarId": "n2-130",
           "baseExpression": "にもかかわらず",
@@ -1479,107 +609,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-130-18-a",
-          "text": "一方で",
-          "grammarId": "n2-004",
-          "baseExpression": "一方で",
-          "conjugatedExpression": "一方で",
+          "id": "fb-created-n2-130-07-c",
+          "text": "だらけ",
+          "grammarId": "n2-062",
+          "baseExpression": "だらけ",
+          "conjugatedExpression": "だらけ",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-130-18-b",
-          "text": "た上で",
-          "grammarId": "n2-005",
-          "baseExpression": "た上で",
-          "conjugatedExpression": "た上で",
+          "id": "fb-created-n2-130-07-d",
+          "text": "っこない",
+          "grammarId": "n2-063",
+          "baseExpression": "っこない",
+          "conjugatedExpression": "っこない",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '구급차를 요청했음에도 불구하고 신고자는 환자를 남겨 둔 채 떠났다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
       "sourceGrammarIds": [
         "n2-130",
-        "n2-004",
-        "n2-005",
-        "n2-006"
+        "n2-062",
+        "n2-063",
+        "n2-064"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-130-19",
+      "id": "fb-created-n2-130-08",
       "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlank": "雨（　　　）、多くの人が集まった。",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
-      "answerChoiceId": "fb-extra20-n2-130-19-a",
+      "sentence": "橋は完成直後にもかかわらず、複数の亀裂が見つかって通行止めとなった。",
+      "sentenceWithBlank": "橋は完成直後（　　　）、複数の亀裂が見つかって通行止めとなった。",
+      "korean": "다리는 완공 직후임에도 불구하고 여러 균열이 발견되어 통행이 금지되었다.",
+      "answerChoiceId": "fb-created-n2-130-08-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-130-19-b",
-          "text": "もしない",
-          "grammarId": "n2-152",
-          "baseExpression": "もしない",
-          "conjugatedExpression": "もしない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-130-19-c",
-          "text": "もの",
-          "grammarId": "n2-153",
-          "baseExpression": "もの",
-          "conjugatedExpression": "もの",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-130-19-d",
-          "text": "ものか",
-          "grammarId": "n2-154",
-          "baseExpression": "ものか",
-          "conjugatedExpression": "ものか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-130-19-a",
-          "text": "にもかかわらず",
-          "grammarId": "n2-130",
-          "baseExpression": "にもかかわらず",
-          "conjugatedExpression": "にもかかわらず",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
-      "sourceGrammarIds": [
-        "n2-130",
-        "n2-152",
-        "n2-153",
-        "n2-154"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-130-20",
-      "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlank": "雨（　　　）、多くの人が集まった。",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
-      "answerChoiceId": "fb-extra20-n2-130-20-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-130-20-a",
-          "text": "だけに",
-          "grammarId": "n2-056",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-130-20-b",
+          "id": "fb-created-n2-130-08-b",
           "text": "にもかかわらず",
           "grammarId": "n2-130",
           "baseExpression": "にもかかわらず",
@@ -1587,33 +654,941 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-130-20-c",
-          "text": "しただけあって",
-          "grammarId": "n2-054",
-          "baseExpression": "だけあって",
-          "conjugatedExpression": "しただけあって",
+          "id": "fb-created-n2-130-08-c",
+          "text": "だらけ",
+          "grammarId": "n2-062",
+          "baseExpression": "だらけ",
+          "conjugatedExpression": "だらけ",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-130-20-d",
-          "text": "だけに",
-          "grammarId": "n2-055",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
+          "id": "fb-created-n2-130-08-d",
+          "text": "っこない",
+          "grammarId": "n2-063",
+          "baseExpression": "っこない",
+          "conjugatedExpression": "っこない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-130-08-a",
+          "text": "つつ",
+          "grammarId": "n2-064",
+          "baseExpression": "つつ",
+          "conjugatedExpression": "つつ",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '다리는 완공 직후임에도 불구하고 여러 균열이 발견되어 통행이 금지되었다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
       "sourceGrammarIds": [
         "n2-130",
-        "n2-054",
-        "n2-055",
-        "n2-056"
+        "n2-062",
+        "n2-063",
+        "n2-064"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-130-09",
+      "level": "N2",
+      "sentence": "契約期間が残っているにもかかわらず、会社は一方的に店舗の退去を求めた。",
+      "sentenceWithBlank": "契約期間が残っている（　　　）、会社は一方的に店舗の退去を求めた。",
+      "korean": "계약 기간이 남아 있음에도 불구하고 회사는 일방적으로 점포의 퇴거를 요구했다.",
+      "answerChoiceId": "fb-created-n2-130-09-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-130-09-c",
+          "text": "だらけ",
+          "grammarId": "n2-062",
+          "baseExpression": "だらけ",
+          "conjugatedExpression": "だらけ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-130-09-d",
+          "text": "っこない",
+          "grammarId": "n2-063",
+          "baseExpression": "っこない",
+          "conjugatedExpression": "っこない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-130-09-a",
+          "text": "つつ",
+          "grammarId": "n2-064",
+          "baseExpression": "つつ",
+          "conjugatedExpression": "つつ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-130-09-b",
+          "text": "にもかかわらず",
+          "grammarId": "n2-130",
+          "baseExpression": "にもかかわらず",
+          "conjugatedExpression": "にもかかわらず",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '계약 기간이 남아 있음에도 불구하고 회사는 일방적으로 점포의 퇴거를 요구했다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
+      "sourceGrammarIds": [
+        "n2-130",
+        "n2-062",
+        "n2-063",
+        "n2-064"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-130-10",
+      "level": "N2",
+      "sentence": "重いけがを負ったにもかかわらず、消防士は最後の住民まで救助した。",
+      "sentenceWithBlank": "重いけがを負った（　　　）、消防士は最後の住民まで救助した。",
+      "korean": "중상을 입었음에도 불구하고 소방관은 마지막 주민까지 구조했다.",
+      "answerChoiceId": "fb-created-n2-130-10-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-130-10-d",
+          "text": "っこない",
+          "grammarId": "n2-063",
+          "baseExpression": "っこない",
+          "conjugatedExpression": "っこない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-130-10-a",
+          "text": "つつ",
+          "grammarId": "n2-064",
+          "baseExpression": "つつ",
+          "conjugatedExpression": "つつ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-130-10-b",
+          "text": "にもかかわらず",
+          "grammarId": "n2-130",
+          "baseExpression": "にもかかわらず",
+          "conjugatedExpression": "にもかかわらず",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-130-10-c",
+          "text": "だらけ",
+          "grammarId": "n2-062",
+          "baseExpression": "だらけ",
+          "conjugatedExpression": "だらけ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '중상을 입었음에도 불구하고 소방관은 마지막 주민까지 구조했다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
+      "sourceGrammarIds": [
+        "n2-130",
+        "n2-062",
+        "n2-063",
+        "n2-064"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-130-11",
+      "level": "N2",
+      "sentence": "需要が落ち込んでいるにもかかわらず、メーカーは生産量を増やす方針だ。",
+      "sentenceWithBlank": "需要が落ち込んでいる（　　　）、メーカーは生産量を増やす方針だ。",
+      "korean": "수요가 침체되어 있음에도 불구하고 제조사는 생산량을 늘릴 방침이다.",
+      "answerChoiceId": "fb-created-n2-130-11-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-130-11-a",
+          "text": "つつ",
+          "grammarId": "n2-064",
+          "baseExpression": "つつ",
+          "conjugatedExpression": "つつ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-130-11-b",
+          "text": "にもかかわらず",
+          "grammarId": "n2-130",
+          "baseExpression": "にもかかわらず",
+          "conjugatedExpression": "にもかかわらず",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-130-11-c",
+          "text": "だらけ",
+          "grammarId": "n2-062",
+          "baseExpression": "だらけ",
+          "conjugatedExpression": "だらけ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-130-11-d",
+          "text": "っこない",
+          "grammarId": "n2-063",
+          "baseExpression": "っこない",
+          "conjugatedExpression": "っこない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '수요가 침체되어 있음에도 불구하고 제조사는 생산량을 늘릴 방침이다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
+      "sourceGrammarIds": [
+        "n2-130",
+        "n2-062",
+        "n2-063",
+        "n2-064"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-130-12",
+      "level": "N2",
+      "sentence": "健康診断で異常を指摘されたにもかかわらず、父は生活習慣を変えなかった。",
+      "sentenceWithBlank": "健康診断で異常を指摘された（　　　）、父は生活習慣を変えなかった。",
+      "korean": "건강검진에서 이상을 지적받았음에도 불구하고 아버지는 생활 습관을 바꾸지 않았다.",
+      "answerChoiceId": "fb-created-n2-130-12-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-130-12-b",
+          "text": "にもかかわらず",
+          "grammarId": "n2-130",
+          "baseExpression": "にもかかわらず",
+          "conjugatedExpression": "にもかかわらず",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-130-12-c",
+          "text": "だらけ",
+          "grammarId": "n2-062",
+          "baseExpression": "だらけ",
+          "conjugatedExpression": "だらけ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-130-12-d",
+          "text": "っこない",
+          "grammarId": "n2-063",
+          "baseExpression": "っこない",
+          "conjugatedExpression": "っこない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-130-12-a",
+          "text": "つつ",
+          "grammarId": "n2-064",
+          "baseExpression": "つつ",
+          "conjugatedExpression": "つつ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '건강검진에서 이상을 지적받았음에도 불구하고 아버지는 생활 습관을 바꾸지 않았다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
+      "sourceGrammarIds": [
+        "n2-130",
+        "n2-062",
+        "n2-063",
+        "n2-064"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-130-13",
+      "level": "N2",
+      "sentence": "両国が停戦に合意したにもかかわらず、国境付近では小規模な衝突が続いた。",
+      "sentenceWithBlank": "両国が停戦に合意した（　　　）、国境付近では小規模な衝突が続いた。",
+      "korean": "양국이 휴전에 합의했음에도 불구하고 국경 부근에서는 소규모 충돌이 계속되었다.",
+      "answerChoiceId": "fb-created-n2-130-13-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-130-13-c",
+          "text": "だらけ",
+          "grammarId": "n2-062",
+          "baseExpression": "だらけ",
+          "conjugatedExpression": "だらけ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-130-13-d",
+          "text": "っこない",
+          "grammarId": "n2-063",
+          "baseExpression": "っこない",
+          "conjugatedExpression": "っこない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-130-13-a",
+          "text": "つつ",
+          "grammarId": "n2-064",
+          "baseExpression": "つつ",
+          "conjugatedExpression": "つつ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-130-13-b",
+          "text": "にもかかわらず",
+          "grammarId": "n2-130",
+          "baseExpression": "にもかかわらず",
+          "conjugatedExpression": "にもかかわらず",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '양국이 휴전에 합의했음에도 불구하고 국경 부근에서는 소규모 충돌이 계속되었다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
+      "sourceGrammarIds": [
+        "n2-130",
+        "n2-062",
+        "n2-063",
+        "n2-064"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-130-14",
+      "level": "N2",
+      "sentence": "日照時間が短かったにもかかわらず、今年のブドウは例年以上に甘い。",
+      "sentenceWithBlank": "日照時間が短かった（　　　）、今年のブドウは例年以上に甘い。",
+      "korean": "일조 시간이 짧았음에도 불구하고 올해 포도는 예년보다 더 달다.",
+      "answerChoiceId": "fb-created-n2-130-14-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-130-14-d",
+          "text": "っこない",
+          "grammarId": "n2-063",
+          "baseExpression": "っこない",
+          "conjugatedExpression": "っこない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-130-14-a",
+          "text": "つつ",
+          "grammarId": "n2-064",
+          "baseExpression": "つつ",
+          "conjugatedExpression": "つつ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-130-14-b",
+          "text": "にもかかわらず",
+          "grammarId": "n2-130",
+          "baseExpression": "にもかかわらず",
+          "conjugatedExpression": "にもかかわらず",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-130-14-c",
+          "text": "だらけ",
+          "grammarId": "n2-062",
+          "baseExpression": "だらけ",
+          "conjugatedExpression": "だらけ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '일조 시간이 짧았음에도 불구하고 올해 포도는 예년보다 더 달다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
+      "sourceGrammarIds": [
+        "n2-130",
+        "n2-062",
+        "n2-063",
+        "n2-064"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-130-15",
+      "level": "N2",
+      "sentence": "犯行を認めたにもかかわらず、被告は被害者への謝罪を拒んだ。",
+      "sentenceWithBlank": "犯行を認めた（　　　）、被告は被害者への謝罪を拒んだ。",
+      "korean": "범행을 인정했음에도 불구하고 피고인은 피해자에게 사과하기를 거부했다.",
+      "answerChoiceId": "fb-created-n2-130-15-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-130-15-a",
+          "text": "つつ",
+          "grammarId": "n2-064",
+          "baseExpression": "つつ",
+          "conjugatedExpression": "つつ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-130-15-b",
+          "text": "にもかかわらず",
+          "grammarId": "n2-130",
+          "baseExpression": "にもかかわらず",
+          "conjugatedExpression": "にもかかわらず",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-130-15-c",
+          "text": "だらけ",
+          "grammarId": "n2-062",
+          "baseExpression": "だらけ",
+          "conjugatedExpression": "だらけ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-130-15-d",
+          "text": "っこない",
+          "grammarId": "n2-063",
+          "baseExpression": "っこない",
+          "conjugatedExpression": "っこない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '범행을 인정했음에도 불구하고 피고인은 피해자에게 사과하기를 거부했다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
+      "sourceGrammarIds": [
+        "n2-130",
+        "n2-062",
+        "n2-063",
+        "n2-064"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-130-16",
+      "level": "N2",
+      "sentence": "予約時刻を過ぎたにもかかわらず、診察室から名前を呼ばれる気配はなかった。",
+      "sentenceWithBlank": "予約時刻を過ぎた（　　　）、診察室から名前を呼ばれる気配はなかった。",
+      "korean": "예약 시간이 지났음에도 불구하고 진료실에서 이름을 부를 기미가 없었다.",
+      "answerChoiceId": "fb-created-n2-130-16-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-130-16-b",
+          "text": "にもかかわらず",
+          "grammarId": "n2-130",
+          "baseExpression": "にもかかわらず",
+          "conjugatedExpression": "にもかかわらず",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-130-16-c",
+          "text": "だらけ",
+          "grammarId": "n2-062",
+          "baseExpression": "だらけ",
+          "conjugatedExpression": "だらけ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-130-16-d",
+          "text": "っこない",
+          "grammarId": "n2-063",
+          "baseExpression": "っこない",
+          "conjugatedExpression": "っこない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-130-16-a",
+          "text": "つつ",
+          "grammarId": "n2-064",
+          "baseExpression": "つつ",
+          "conjugatedExpression": "つつ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '예약 시간이 지났음에도 불구하고 진료실에서 이름을 부를 기미가 없었다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
+      "sourceGrammarIds": [
+        "n2-130",
+        "n2-062",
+        "n2-063",
+        "n2-064"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-130-17",
+      "level": "N2",
+      "sentence": "資金不足にもかかわらず、町の劇団は全国公演を実現させた。",
+      "sentenceWithBlank": "資金不足（　　　）、町の劇団は全国公演を実現させた。",
+      "korean": "자금 부족에도 불구하고 마을 극단은 전국 공연을 실현했다.",
+      "answerChoiceId": "fb-created-n2-130-17-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-130-17-c",
+          "text": "だらけ",
+          "grammarId": "n2-062",
+          "baseExpression": "だらけ",
+          "conjugatedExpression": "だらけ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-130-17-d",
+          "text": "っこない",
+          "grammarId": "n2-063",
+          "baseExpression": "っこない",
+          "conjugatedExpression": "っこない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-130-17-a",
+          "text": "つつ",
+          "grammarId": "n2-064",
+          "baseExpression": "つつ",
+          "conjugatedExpression": "つつ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-130-17-b",
+          "text": "にもかかわらず",
+          "grammarId": "n2-130",
+          "baseExpression": "にもかかわらず",
+          "conjugatedExpression": "にもかかわらず",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '자금 부족에도 불구하고 마을 극단은 전국 공연을 실현했다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
+      "sourceGrammarIds": [
+        "n2-130",
+        "n2-062",
+        "n2-063",
+        "n2-064"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-130-18",
+      "level": "N2",
+      "sentence": "整備を終えたばかりにもかかわらず、観覧車は運転中に突然停止した。",
+      "sentenceWithBlank": "整備を終えたばかり（　　　）、観覧車は運転中に突然停止した。",
+      "korean": "정비를 막 끝냈음에도 불구하고 관람차는 운행 중에 갑자기 멈췄다.",
+      "answerChoiceId": "fb-created-n2-130-18-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-130-18-d",
+          "text": "っこない",
+          "grammarId": "n2-063",
+          "baseExpression": "っこない",
+          "conjugatedExpression": "っこない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-130-18-a",
+          "text": "つつ",
+          "grammarId": "n2-064",
+          "baseExpression": "つつ",
+          "conjugatedExpression": "つつ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-130-18-b",
+          "text": "にもかかわらず",
+          "grammarId": "n2-130",
+          "baseExpression": "にもかかわらず",
+          "conjugatedExpression": "にもかかわらず",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-130-18-c",
+          "text": "だらけ",
+          "grammarId": "n2-062",
+          "baseExpression": "だらけ",
+          "conjugatedExpression": "だらけ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '정비를 막 끝냈음에도 불구하고 관람차는 운행 중에 갑자기 멈췄다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
+      "sourceGrammarIds": [
+        "n2-130",
+        "n2-062",
+        "n2-063",
+        "n2-064"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-130-19",
+      "level": "N2",
+      "sentence": "本人の同意が得られていないにもかかわらず、写真は広告に使用された。",
+      "sentenceWithBlank": "本人の同意が得られていない（　　　）、写真は広告に使用された。",
+      "korean": "본인의 동의를 얻지 못했음에도 불구하고 사진이 광고에 사용되었다.",
+      "answerChoiceId": "fb-created-n2-130-19-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-130-19-a",
+          "text": "つつ",
+          "grammarId": "n2-064",
+          "baseExpression": "つつ",
+          "conjugatedExpression": "つつ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-130-19-b",
+          "text": "にもかかわらず",
+          "grammarId": "n2-130",
+          "baseExpression": "にもかかわらず",
+          "conjugatedExpression": "にもかかわらず",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-130-19-c",
+          "text": "だらけ",
+          "grammarId": "n2-062",
+          "baseExpression": "だらけ",
+          "conjugatedExpression": "だらけ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-130-19-d",
+          "text": "っこない",
+          "grammarId": "n2-063",
+          "baseExpression": "っこない",
+          "conjugatedExpression": "っこない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '본인의 동의를 얻지 못했음에도 불구하고 사진이 광고에 사용되었다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
+      "sourceGrammarIds": [
+        "n2-130",
+        "n2-062",
+        "n2-063",
+        "n2-064"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-130-20",
+      "level": "N2",
+      "sentence": "海水温が低いにもかかわらず、湾内ではサンゴの成長が確認された。",
+      "sentenceWithBlank": "海水温が低い（　　　）、湾内ではサンゴの成長が確認された。",
+      "korean": "해수 온도가 낮음에도 불구하고 만 안에서는 산호의 성장이 확인되었다.",
+      "answerChoiceId": "fb-created-n2-130-20-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-130-20-b",
+          "text": "にもかかわらず",
+          "grammarId": "n2-130",
+          "baseExpression": "にもかかわらず",
+          "conjugatedExpression": "にもかかわらず",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-130-20-c",
+          "text": "だらけ",
+          "grammarId": "n2-062",
+          "baseExpression": "だらけ",
+          "conjugatedExpression": "だらけ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-130-20-d",
+          "text": "っこない",
+          "grammarId": "n2-063",
+          "baseExpression": "っこない",
+          "conjugatedExpression": "っこない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-130-20-a",
+          "text": "つつ",
+          "grammarId": "n2-064",
+          "baseExpression": "つつ",
+          "conjugatedExpression": "つつ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '해수 온도가 낮음에도 불구하고 만 안에서는 산호의 성장이 확인되었다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
+      "sourceGrammarIds": [
+        "n2-130",
+        "n2-062",
+        "n2-063",
+        "n2-064"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-130-21",
+      "level": "N2",
+      "sentence": "連日の残業にもかかわらず、担当者は納期までに設計図を仕上げられなかった。",
+      "sentenceWithBlank": "連日の残業（　　　）、担当者は納期までに設計図を仕上げられなかった。",
+      "korean": "연일 이어진 야근에도 불구하고 담당자는 납기까지 설계도를 완성하지 못했다.",
+      "answerChoiceId": "fb-created-n2-130-21-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-130-21-c",
+          "text": "だらけ",
+          "grammarId": "n2-062",
+          "baseExpression": "だらけ",
+          "conjugatedExpression": "だらけ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-130-21-d",
+          "text": "っこない",
+          "grammarId": "n2-063",
+          "baseExpression": "っこない",
+          "conjugatedExpression": "っこない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-130-21-a",
+          "text": "つつ",
+          "grammarId": "n2-064",
+          "baseExpression": "つつ",
+          "conjugatedExpression": "つつ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-130-21-b",
+          "text": "にもかかわらず",
+          "grammarId": "n2-130",
+          "baseExpression": "にもかかわらず",
+          "conjugatedExpression": "にもかかわらず",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '연일 이어진 야근에도 불구하고 담당자는 납기까지 설계도를 완성하지 못했다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
+      "sourceGrammarIds": [
+        "n2-130",
+        "n2-062",
+        "n2-063",
+        "n2-064"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-130-22",
+      "level": "N2",
+      "sentence": "道路が凍結していたにもかかわらず、配送業者は予定どおり荷物を届けた。",
+      "sentenceWithBlank": "道路が凍結していた（　　　）、配送業者は予定どおり荷物を届けた。",
+      "korean": "도로가 얼어 있었음에도 불구하고 배송업체는 예정대로 짐을 배달했다.",
+      "answerChoiceId": "fb-created-n2-130-22-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-130-22-d",
+          "text": "っこない",
+          "grammarId": "n2-063",
+          "baseExpression": "っこない",
+          "conjugatedExpression": "っこない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-130-22-a",
+          "text": "つつ",
+          "grammarId": "n2-064",
+          "baseExpression": "つつ",
+          "conjugatedExpression": "つつ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-130-22-b",
+          "text": "にもかかわらず",
+          "grammarId": "n2-130",
+          "baseExpression": "にもかかわらず",
+          "conjugatedExpression": "にもかかわらず",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-130-22-c",
+          "text": "だらけ",
+          "grammarId": "n2-062",
+          "baseExpression": "だらけ",
+          "conjugatedExpression": "だらけ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '도로가 얼어 있었음에도 불구하고 배송업체는 예정대로 짐을 배달했다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
+      "sourceGrammarIds": [
+        "n2-130",
+        "n2-062",
+        "n2-063",
+        "n2-064"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-130-23",
+      "level": "N2",
+      "sentence": "過半数の住民が反対したにもかかわらず、市議会は再開発計画を承認した。",
+      "sentenceWithBlank": "過半数の住民が反対した（　　　）、市議会は再開発計画を承認した。",
+      "korean": "과반수 주민이 반대했음에도 불구하고 시의회는 재개발 계획을 승인했다.",
+      "answerChoiceId": "fb-created-n2-130-23-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-130-23-a",
+          "text": "つつ",
+          "grammarId": "n2-064",
+          "baseExpression": "つつ",
+          "conjugatedExpression": "つつ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-130-23-b",
+          "text": "にもかかわらず",
+          "grammarId": "n2-130",
+          "baseExpression": "にもかかわらず",
+          "conjugatedExpression": "にもかかわらず",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-130-23-c",
+          "text": "だらけ",
+          "grammarId": "n2-062",
+          "baseExpression": "だらけ",
+          "conjugatedExpression": "だらけ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-130-23-d",
+          "text": "っこない",
+          "grammarId": "n2-063",
+          "baseExpression": "っこない",
+          "conjugatedExpression": "っこない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '과반수 주민이 반대했음에도 불구하고 시의회는 재개발 계획을 승인했다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
+      "sourceGrammarIds": [
+        "n2-130",
+        "n2-062",
+        "n2-063",
+        "n2-064"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-130-24",
+      "level": "N2",
+      "sentence": "無名の新人であるにもかかわらず、彼の小説は海外でも高く評価された。",
+      "sentenceWithBlank": "無名の新人である（　　　）、彼の小説は海外でも高く評価された。",
+      "korean": "무명 신인임에도 불구하고 그의 소설은 해외에서도 높은 평가를 받았다.",
+      "answerChoiceId": "fb-created-n2-130-24-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-130-24-b",
+          "text": "にもかかわらず",
+          "grammarId": "n2-130",
+          "baseExpression": "にもかかわらず",
+          "conjugatedExpression": "にもかかわらず",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-130-24-c",
+          "text": "だらけ",
+          "grammarId": "n2-062",
+          "baseExpression": "だらけ",
+          "conjugatedExpression": "だらけ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-130-24-d",
+          "text": "っこない",
+          "grammarId": "n2-063",
+          "baseExpression": "っこない",
+          "conjugatedExpression": "っこない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-130-24-a",
+          "text": "つつ",
+          "grammarId": "n2-064",
+          "baseExpression": "つつ",
+          "conjugatedExpression": "つつ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '무명 신인임에도 불구하고 그의 소설은 해외에서도 높은 평가를 받았다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
+      "sourceGrammarIds": [
+        "n2-130",
+        "n2-062",
+        "n2-063",
+        "n2-064"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-130-25",
+      "level": "N2",
+      "sentence": "避難命令が解除されていないにもかかわらず、一部の住民は自宅へ戻り始めた。",
+      "sentenceWithBlank": "避難命令が解除されていない（　　　）、一部の住民は自宅へ戻り始めた。",
+      "korean": "대피 명령이 해제되지 않았음에도 불구하고 일부 주민은 집으로 돌아가기 시작했다.",
+      "answerChoiceId": "fb-created-n2-130-25-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-130-25-c",
+          "text": "だらけ",
+          "grammarId": "n2-062",
+          "baseExpression": "だらけ",
+          "conjugatedExpression": "だらけ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-130-25-d",
+          "text": "っこない",
+          "grammarId": "n2-063",
+          "baseExpression": "っこない",
+          "conjugatedExpression": "っこない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-130-25-a",
+          "text": "つつ",
+          "grammarId": "n2-064",
+          "baseExpression": "つつ",
+          "conjugatedExpression": "つつ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-130-25-b",
+          "text": "にもかかわらず",
+          "grammarId": "n2-130",
+          "baseExpression": "にもかかわらず",
+          "conjugatedExpression": "にもかかわらず",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '대피 명령이 해제되지 않았음에도 불구하고 일부 주민은 집으로 돌아가기 시작했다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
+      "sourceGrammarIds": [
+        "n2-130",
+        "n2-062",
+        "n2-063",
+        "n2-064"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
       ]
     }
   ],
@@ -1834,1103 +1809,1153 @@
       ]
     },
     {
-      "id": "so-extra-n2-130-1",
+      "id": "so-created-n2-130-01",
       "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlanks": "雨 ____ ____ ____ ____",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
+      "sentence": "厳しい入場制限にもかかわらず、会場周辺では長い列ができた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 列ができた。",
+      "korean": "엄격한 입장 제한에도 불구하고 행사장 주변에는 긴 줄이 생겼다.",
       "pieces": [
         {
-          "id": "so-extra-n2-130-1-p1",
-          "text": "にもかかわらず",
-          "order": 1
-        },
-        {
-          "id": "so-extra-n2-130-1-p2",
-          "text": "多くの",
-          "order": 2
-        },
-        {
-          "id": "so-extra-n2-130-1-p3",
-          "text": "人が集",
+          "id": "so-created-n2-130-01-p3",
+          "text": "にもかかわらず、",
           "order": 3
         },
         {
-          "id": "so-extra-n2-130-1-p4",
-          "text": "まった",
+          "id": "so-created-n2-130-01-p4",
+          "text": "会場周辺では長い",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-130-01-p1",
+          "text": "厳しい",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-130-01-p2",
+          "text": "入場制限",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-130-1-p1",
-        "so-extra-n2-130-1-p2",
-        "so-extra-n2-130-1-p3",
-        "so-extra-n2-130-1-p4"
+        "so-created-n2-130-01-p1",
+        "so-created-n2-130-01-p2",
+        "so-created-n2-130-01-p3",
+        "so-created-n2-130-01-p4"
       ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '엄격한 입장 제한에도 불구하고 행사장 주변에는 긴 줄이 생겼다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
       "sourceGrammarIds": [
-        "n2-130"
+        "n2-130",
+        "n2-062",
+        "n2-063",
+        "n2-064"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-130-2",
+      "id": "so-created-n2-130-02",
       "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlanks": "雨 ____ ____ ____ ____",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
+      "sentence": "深夜であるにもかかわらず、工場の機械音は住宅街まで響いていた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 響いていた。",
+      "korean": "심야임에도 불구하고 공장의 기계 소리는 주택가까지 울려 퍼지고 있었다.",
       "pieces": [
         {
-          "id": "so-extra-n2-130-2-p2",
-          "text": "にもかかわらず",
-          "order": 1
-        },
-        {
-          "id": "so-extra-n2-130-2-p3",
-          "text": "多くの",
+          "id": "so-created-n2-130-02-p2",
+          "text": "にもかかわらず、",
           "order": 2
         },
         {
-          "id": "so-extra-n2-130-2-p4",
-          "text": "人が集",
+          "id": "so-created-n2-130-02-p3",
+          "text": "工場の機械",
           "order": 3
         },
         {
-          "id": "so-extra-n2-130-2-p1",
-          "text": "まった",
+          "id": "so-created-n2-130-02-p4",
+          "text": "音は住宅街まで",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-130-02-p1",
+          "text": "深夜である",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-130-2-p2",
-        "so-extra-n2-130-2-p3",
-        "so-extra-n2-130-2-p4",
-        "so-extra-n2-130-2-p1"
+        "so-created-n2-130-02-p1",
+        "so-created-n2-130-02-p2",
+        "so-created-n2-130-02-p3",
+        "so-created-n2-130-02-p4"
       ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '심야임에도 불구하고 공장의 기계 소리는 주택가까지 울려 퍼지고 있었다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
       "sourceGrammarIds": [
-        "n2-130"
+        "n2-130",
+        "n2-062",
+        "n2-063",
+        "n2-064"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-130-3",
+      "id": "so-created-n2-130-03",
       "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、多くの人が集まった。",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
+      "sentence": "十分な証拠がないにもかかわらず、容疑者の氏名が報道された。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "충분한 증거가 없음에도 불구하고 용의자의 이름이 보도되었다.",
       "pieces": [
         {
-          "id": "so-extra-n2-130-3-p3",
-          "text": "雨",
+          "id": "so-created-n2-130-03-p1",
+          "text": "十分な証拠がない",
           "order": 1
         },
         {
-          "id": "so-extra-n2-130-3-p4",
-          "text": "にもかかわらず",
+          "id": "so-created-n2-130-03-p2",
+          "text": "にもかかわらず、",
           "order": 2
         },
         {
-          "id": "so-extra-n2-130-3-p1",
-          "text": "多くの",
+          "id": "so-created-n2-130-03-p3",
+          "text": "容疑者の氏名が",
           "order": 3
         },
         {
-          "id": "so-extra-n2-130-3-p2",
-          "text": "人が集",
+          "id": "so-created-n2-130-03-p4",
+          "text": "報道された。",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-130-3-p3",
-        "so-extra-n2-130-3-p4",
-        "so-extra-n2-130-3-p1",
-        "so-extra-n2-130-3-p2"
+        "so-created-n2-130-03-p1",
+        "so-created-n2-130-03-p2",
+        "so-created-n2-130-03-p3",
+        "so-created-n2-130-03-p4"
       ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '충분한 증거가 없음에도 불구하고 용의자의 이름이 보도되었다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
       "sourceGrammarIds": [
-        "n2-130"
+        "n2-130",
+        "n2-062",
+        "n2-063",
+        "n2-064"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-130-4",
+      "id": "so-created-n2-130-04",
       "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlanks": "雨 ____ ____ ____ ____",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
+      "sentence": "度重なる警告にもかかわらず、登山者は閉鎖中のルートに入った。",
+      "sentenceWithBlanks": "____ ____ ____ ____ ルートに入った。",
+      "korean": "거듭된 경고에도 불구하고 등산객은 폐쇄 중인 등산로에 들어갔다.",
       "pieces": [
         {
-          "id": "so-extra-n2-130-4-p4",
-          "text": "にもかかわらず",
+          "id": "so-created-n2-130-04-p4",
+          "text": "閉鎖中の",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-130-04-p1",
+          "text": "度重なる警告",
           "order": 1
         },
         {
-          "id": "so-extra-n2-130-4-p1",
-          "text": "多くの",
+          "id": "so-created-n2-130-04-p2",
+          "text": "にもかかわらず、",
           "order": 2
         },
         {
-          "id": "so-extra-n2-130-4-p2",
-          "text": "人が集",
+          "id": "so-created-n2-130-04-p3",
+          "text": "登山者は",
           "order": 3
-        },
-        {
-          "id": "so-extra-n2-130-4-p3",
-          "text": "まった",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-130-4-p4",
-        "so-extra-n2-130-4-p1",
-        "so-extra-n2-130-4-p2",
-        "so-extra-n2-130-4-p3"
+        "so-created-n2-130-04-p1",
+        "so-created-n2-130-04-p2",
+        "so-created-n2-130-04-p3",
+        "so-created-n2-130-04-p4"
       ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '거듭된 경고에도 불구하고 등산객은 폐쇄 중인 등산로에 들어갔다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
       "sourceGrammarIds": [
-        "n2-130"
+        "n2-130",
+        "n2-062",
+        "n2-063",
+        "n2-064"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-130-5",
+      "id": "so-created-n2-130-05",
       "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlanks": "雨 ____ ____ ____ ____",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
+      "sentence": "大幅に値上げされたにもかかわらず、その限定腕時計は発売日に完売した。",
+      "sentenceWithBlanks": "大幅に値上げされた ____ ____ ____ ____",
+      "korean": "가격이 대폭 인상되었음에도 불구하고 그 한정 손목시계는 출시 당일에 매진되었다.",
       "pieces": [
         {
-          "id": "so-extra-n2-130-5-p1",
-          "text": "にもかかわらず",
-          "order": 1
-        },
-        {
-          "id": "so-extra-n2-130-5-p2",
-          "text": "多くの",
-          "order": 2
-        },
-        {
-          "id": "so-extra-n2-130-5-p3",
-          "text": "人が集",
+          "id": "so-created-n2-130-05-p3",
+          "text": "腕時計は発売",
           "order": 3
         },
         {
-          "id": "so-extra-n2-130-5-p4",
-          "text": "まった",
+          "id": "so-created-n2-130-05-p4",
+          "text": "日に完売した。",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-130-05-p1",
+          "text": "にもかかわらず、",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-130-05-p2",
+          "text": "その限定",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-130-5-p1",
-        "so-extra-n2-130-5-p2",
-        "so-extra-n2-130-5-p3",
-        "so-extra-n2-130-5-p4"
+        "so-created-n2-130-05-p1",
+        "so-created-n2-130-05-p2",
+        "so-created-n2-130-05-p3",
+        "so-created-n2-130-05-p4"
       ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '가격이 대폭 인상되었음에도 불구하고 그 한정 손목시계는 출시 당일에 매진되었다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
       "sourceGrammarIds": [
-        "n2-130"
+        "n2-130",
+        "n2-062",
+        "n2-063",
+        "n2-064"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-130-01",
+      "id": "so-created-n2-130-06",
       "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlanks": "雨 ____ ____ ____ ____",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
+      "sentence": "経験が浅いにもかかわらず、彼女は重要な交渉を冷静にまとめた。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "경험이 부족함에도 불구하고 그녀는 중요한 협상을 침착하게 성사시켰다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-130-01-p1",
-          "text": "にもかかわらず",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-130-01-p2",
-          "text": "多くの",
+          "id": "so-created-n2-130-06-p2",
+          "text": "にもかかわらず、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-130-01-p3",
-          "text": "人が集",
+          "id": "so-created-n2-130-06-p3",
+          "text": "彼女は重要な交渉を",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-130-01-p4",
-          "text": "まった",
+          "id": "so-created-n2-130-06-p4",
+          "text": "冷静にまとめた。",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-130-06-p1",
+          "text": "経験が浅い",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-130-01-p1",
-        "so-extra20-n2-130-01-p2",
-        "so-extra20-n2-130-01-p3",
-        "so-extra20-n2-130-01-p4"
+        "so-created-n2-130-06-p1",
+        "so-created-n2-130-06-p2",
+        "so-created-n2-130-06-p3",
+        "so-created-n2-130-06-p4"
       ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '경험이 부족함에도 불구하고 그녀는 중요한 협상을 침착하게 성사시켰다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
       "sourceGrammarIds": [
-        "n2-130"
+        "n2-130",
+        "n2-062",
+        "n2-063",
+        "n2-064"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-130-02",
+      "id": "so-created-n2-130-07",
       "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlanks": "雨 ____ ____ ____ ____",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
+      "sentence": "救急車を要請したにもかかわらず、通報者は患者を残して立ち去った。",
+      "sentenceWithBlanks": "救急車を ____ ____ ____ ____ 去った。",
+      "korean": "구급차를 요청했음에도 불구하고 신고자는 환자를 남겨 둔 채 떠났다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-130-02-p4",
-          "text": "人が集",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-130-02-p1",
-          "text": "まった",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-130-02-p2",
-          "text": "にもかかわらず",
+          "id": "so-created-n2-130-07-p1",
+          "text": "要請した",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-130-02-p3",
-          "text": "多くの",
+          "id": "so-created-n2-130-07-p2",
+          "text": "にもかかわらず、",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-130-07-p3",
+          "text": "通報者は患者を",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-130-07-p4",
+          "text": "残して立ち",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-130-02-p2",
-        "so-extra20-n2-130-02-p3",
-        "so-extra20-n2-130-02-p4",
-        "so-extra20-n2-130-02-p1"
+        "so-created-n2-130-07-p1",
+        "so-created-n2-130-07-p2",
+        "so-created-n2-130-07-p3",
+        "so-created-n2-130-07-p4"
       ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '구급차를 요청했음에도 불구하고 신고자는 환자를 남겨 둔 채 떠났다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
       "sourceGrammarIds": [
-        "n2-130"
+        "n2-130",
+        "n2-062",
+        "n2-063",
+        "n2-064"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-130-03",
+      "id": "so-created-n2-130-08",
       "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、多くの人が集まった。",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
+      "sentence": "橋は完成直後にもかかわらず、複数の亀裂が見つかって通行止めとなった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 通行止めとなった。",
+      "korean": "다리는 완공 직후임에도 불구하고 여러 균열이 발견되어 통행이 금지되었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-130-03-p3",
-          "text": "雨",
+          "id": "so-created-n2-130-08-p4",
+          "text": "見つかって",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-130-08-p1",
+          "text": "橋は完成直後",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-130-03-p4",
-          "text": "にもかかわらず",
+          "id": "so-created-n2-130-08-p2",
+          "text": "にもかかわらず、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-130-03-p1",
-          "text": "多くの",
+          "id": "so-created-n2-130-08-p3",
+          "text": "複数の亀裂が",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-130-03-p2",
-          "text": "人が集",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-130-03-p3",
-        "so-extra20-n2-130-03-p4",
-        "so-extra20-n2-130-03-p1",
-        "so-extra20-n2-130-03-p2"
+        "so-created-n2-130-08-p1",
+        "so-created-n2-130-08-p2",
+        "so-created-n2-130-08-p3",
+        "so-created-n2-130-08-p4"
       ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '다리는 완공 직후임에도 불구하고 여러 균열이 발견되어 통행이 금지되었다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
       "sourceGrammarIds": [
-        "n2-130"
+        "n2-130",
+        "n2-062",
+        "n2-063",
+        "n2-064"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-130-04",
+      "id": "so-created-n2-130-09",
       "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlanks": "雨 ____ ____ ____ ____",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
+      "sentence": "契約期間が残っているにもかかわらず、会社は一方的に店舗の退去を求めた。",
+      "sentenceWithBlanks": "契約期間が残っている ____ ____ ____ ____",
+      "korean": "계약 기간이 남아 있음에도 불구하고 회사는 일방적으로 점포의 퇴거를 요구했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-130-04-p2",
-          "text": "人が集",
+          "id": "so-created-n2-130-09-p3",
+          "text": "的に店舗の",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-130-04-p3",
-          "text": "まった",
+          "id": "so-created-n2-130-09-p4",
+          "text": "退去を求めた。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-130-04-p4",
-          "text": "にもかかわらず",
+          "id": "so-created-n2-130-09-p1",
+          "text": "にもかかわらず、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-130-04-p1",
-          "text": "多くの",
+          "id": "so-created-n2-130-09-p2",
+          "text": "会社は一方",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-130-04-p4",
-        "so-extra20-n2-130-04-p1",
-        "so-extra20-n2-130-04-p2",
-        "so-extra20-n2-130-04-p3"
+        "so-created-n2-130-09-p1",
+        "so-created-n2-130-09-p2",
+        "so-created-n2-130-09-p3",
+        "so-created-n2-130-09-p4"
       ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '계약 기간이 남아 있음에도 불구하고 회사는 일방적으로 점포의 퇴거를 요구했다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
       "sourceGrammarIds": [
-        "n2-130"
+        "n2-130",
+        "n2-062",
+        "n2-063",
+        "n2-064"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-130-05",
+      "id": "so-created-n2-130-10",
       "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlanks": "雨 ____ ____ ____ ____",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
+      "sentence": "重いけがを負ったにもかかわらず、消防士は最後の住民まで救助した。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 救助した。",
+      "korean": "중상을 입었음에도 불구하고 소방관은 마지막 주민까지 구조했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-130-05-p1",
-          "text": "にもかかわらず",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-130-05-p2",
-          "text": "多くの",
+          "id": "so-created-n2-130-10-p2",
+          "text": "にもかかわらず、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-130-05-p3",
-          "text": "人が集",
+          "id": "so-created-n2-130-10-p3",
+          "text": "消防士は",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-130-05-p4",
-          "text": "まった",
+          "id": "so-created-n2-130-10-p4",
+          "text": "最後の住民まで",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-130-10-p1",
+          "text": "重いけがを負った",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-130-05-p1",
-        "so-extra20-n2-130-05-p2",
-        "so-extra20-n2-130-05-p3",
-        "so-extra20-n2-130-05-p4"
+        "so-created-n2-130-10-p1",
+        "so-created-n2-130-10-p2",
+        "so-created-n2-130-10-p3",
+        "so-created-n2-130-10-p4"
       ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '중상을 입었음에도 불구하고 소방관은 마지막 주민까지 구조했다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
       "sourceGrammarIds": [
-        "n2-130"
+        "n2-130",
+        "n2-062",
+        "n2-063",
+        "n2-064"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-130-06",
+      "id": "so-created-n2-130-11",
       "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlanks": "雨 ____ ____ ____ ____",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
+      "sentence": "需要が落ち込んでいるにもかかわらず、メーカーは生産量を増やす方針だ。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 増やす方針だ。",
+      "korean": "수요가 침체되어 있음에도 불구하고 제조사는 생산량을 늘릴 방침이다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-130-06-p4",
-          "text": "まった",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-130-06-p1",
-          "text": "にもかかわらず",
+          "id": "so-created-n2-130-11-p1",
+          "text": "需要が落ち",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-130-06-p2",
-          "text": "多くの",
+          "id": "so-created-n2-130-11-p2",
+          "text": "込んでいる",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-130-06-p3",
-          "text": "人が集",
+          "id": "so-created-n2-130-11-p3",
+          "text": "にもかかわらず、",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-130-11-p4",
+          "text": "メーカーは生産量を",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-130-06-p1",
-        "so-extra20-n2-130-06-p2",
-        "so-extra20-n2-130-06-p3",
-        "so-extra20-n2-130-06-p4"
+        "so-created-n2-130-11-p1",
+        "so-created-n2-130-11-p2",
+        "so-created-n2-130-11-p3",
+        "so-created-n2-130-11-p4"
       ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '수요가 침체되어 있음에도 불구하고 제조사는 생산량을 늘릴 방침이다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
       "sourceGrammarIds": [
-        "n2-130"
+        "n2-130",
+        "n2-062",
+        "n2-063",
+        "n2-064"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-130-07",
+      "id": "so-created-n2-130-12",
       "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlanks": "雨 ____ ____ ____ ____",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
+      "sentence": "健康診断で異常を指摘されたにもかかわらず、父は生活習慣を変えなかった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 変えなかった。",
+      "korean": "건강검진에서 이상을 지적받았음에도 불구하고 아버지는 생활 습관을 바꾸지 않았다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-130-07-p3",
-          "text": "多くの",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-130-07-p4",
-          "text": "人が集",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-130-07-p1",
-          "text": "まった",
+          "id": "so-created-n2-130-12-p4",
+          "text": "父は生活習慣を",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-130-07-p2",
-          "text": "にもかかわらず",
+          "id": "so-created-n2-130-12-p1",
+          "text": "健康診断で",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-130-12-p2",
+          "text": "異常を指摘された",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-130-12-p3",
+          "text": "にもかかわらず、",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-130-07-p2",
-        "so-extra20-n2-130-07-p3",
-        "so-extra20-n2-130-07-p4",
-        "so-extra20-n2-130-07-p1"
+        "so-created-n2-130-12-p1",
+        "so-created-n2-130-12-p2",
+        "so-created-n2-130-12-p3",
+        "so-created-n2-130-12-p4"
       ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '건강검진에서 이상을 지적받았음에도 불구하고 아버지는 생활 습관을 바꾸지 않았다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
       "sourceGrammarIds": [
-        "n2-130"
+        "n2-130",
+        "n2-062",
+        "n2-063",
+        "n2-064"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-130-08",
+      "id": "so-created-n2-130-13",
       "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、多くの人が集まった。",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
+      "sentence": "両国が停戦に合意したにもかかわらず、国境付近では小規模な衝突が続いた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 衝突が続いた。",
+      "korean": "양국이 휴전에 합의했음에도 불구하고 국경 부근에서는 소규모 충돌이 계속되었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-130-08-p2",
-          "text": "人が集",
+          "id": "so-created-n2-130-13-p3",
+          "text": "にもかかわらず、",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-130-13-p4",
+          "text": "国境付近では小規模な",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-130-08-p3",
-          "text": "雨",
+          "id": "so-created-n2-130-13-p1",
+          "text": "両国が停戦に",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-130-08-p4",
-          "text": "にもかかわらず",
+          "id": "so-created-n2-130-13-p2",
+          "text": "合意した",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-130-08-p1",
-          "text": "多くの",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-130-08-p3",
-        "so-extra20-n2-130-08-p4",
-        "so-extra20-n2-130-08-p1",
-        "so-extra20-n2-130-08-p2"
+        "so-created-n2-130-13-p1",
+        "so-created-n2-130-13-p2",
+        "so-created-n2-130-13-p3",
+        "so-created-n2-130-13-p4"
       ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '양국이 휴전에 합의했음에도 불구하고 국경 부근에서는 소규모 충돌이 계속되었다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
       "sourceGrammarIds": [
-        "n2-130"
+        "n2-130",
+        "n2-062",
+        "n2-063",
+        "n2-064"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-130-09",
+      "id": "so-created-n2-130-14",
       "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlanks": "雨 ____ ____ ____ ____",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
+      "sentence": "日照時間が短かったにもかかわらず、今年のブドウは例年以上に甘い。",
+      "sentenceWithBlanks": "日照時間が ____ ____ ____ ____",
+      "korean": "일조 시간이 짧았음에도 불구하고 올해 포도는 예년보다 더 달다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-130-09-p1",
-          "text": "多くの",
+          "id": "so-created-n2-130-14-p2",
+          "text": "にもかかわらず、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-130-09-p2",
-          "text": "人が集",
+          "id": "so-created-n2-130-14-p3",
+          "text": "今年のブドウは",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-130-09-p3",
-          "text": "まった",
+          "id": "so-created-n2-130-14-p4",
+          "text": "例年以上に甘い。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-130-09-p4",
-          "text": "にもかかわらず",
+          "id": "so-created-n2-130-14-p1",
+          "text": "短かった",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-130-09-p4",
-        "so-extra20-n2-130-09-p1",
-        "so-extra20-n2-130-09-p2",
-        "so-extra20-n2-130-09-p3"
+        "so-created-n2-130-14-p1",
+        "so-created-n2-130-14-p2",
+        "so-created-n2-130-14-p3",
+        "so-created-n2-130-14-p4"
       ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '일조 시간이 짧았음에도 불구하고 올해 포도는 예년보다 더 달다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
       "sourceGrammarIds": [
-        "n2-130"
+        "n2-130",
+        "n2-062",
+        "n2-063",
+        "n2-064"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-130-10",
+      "id": "so-created-n2-130-15",
       "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlanks": "雨 ____ ____ ____ ____",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
+      "sentence": "犯行を認めたにもかかわらず、被告は被害者への謝罪を拒んだ。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 拒んだ。",
+      "korean": "범행을 인정했음에도 불구하고 피고인은 피해자에게 사과하기를 거부했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-130-10-p4",
-          "text": "まった",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-130-10-p1",
-          "text": "にもかかわらず",
+          "id": "so-created-n2-130-15-p1",
+          "text": "犯行を認めた",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-130-10-p2",
-          "text": "多くの",
+          "id": "so-created-n2-130-15-p2",
+          "text": "にもかかわらず、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-130-10-p3",
-          "text": "人が集",
+          "id": "so-created-n2-130-15-p3",
+          "text": "被告は被害",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-130-15-p4",
+          "text": "者への謝罪を",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-130-10-p1",
-        "so-extra20-n2-130-10-p2",
-        "so-extra20-n2-130-10-p3",
-        "so-extra20-n2-130-10-p4"
+        "so-created-n2-130-15-p1",
+        "so-created-n2-130-15-p2",
+        "so-created-n2-130-15-p3",
+        "so-created-n2-130-15-p4"
       ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '범행을 인정했음에도 불구하고 피고인은 피해자에게 사과하기를 거부했다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
       "sourceGrammarIds": [
-        "n2-130"
+        "n2-130",
+        "n2-062",
+        "n2-063",
+        "n2-064"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-130-11",
+      "id": "so-created-n2-130-16",
       "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlanks": "雨 ____ ____ ____ ____",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
+      "sentence": "予約時刻を過ぎたにもかかわらず、診察室から名前を呼ばれる気配はなかった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 呼ばれる気配はなかった。",
+      "korean": "예약 시간이 지났음에도 불구하고 진료실에서 이름을 부를 기미가 없었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-130-11-p3",
-          "text": "人が集",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-130-11-p4",
-          "text": "まった",
+          "id": "so-created-n2-130-16-p4",
+          "text": "診察室から名前を",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-130-11-p1",
-          "text": "にもかかわらず",
+          "id": "so-created-n2-130-16-p1",
+          "text": "予約時刻を",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-130-11-p2",
-          "text": "多くの",
+          "id": "so-created-n2-130-16-p2",
+          "text": "過ぎた",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-130-16-p3",
+          "text": "にもかかわらず、",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-130-11-p1",
-        "so-extra20-n2-130-11-p2",
-        "so-extra20-n2-130-11-p3",
-        "so-extra20-n2-130-11-p4"
+        "so-created-n2-130-16-p1",
+        "so-created-n2-130-16-p2",
+        "so-created-n2-130-16-p3",
+        "so-created-n2-130-16-p4"
       ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '예약 시간이 지났음에도 불구하고 진료실에서 이름을 부를 기미가 없었다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
       "sourceGrammarIds": [
-        "n2-130"
+        "n2-130",
+        "n2-062",
+        "n2-063",
+        "n2-064"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-130-12",
+      "id": "so-created-n2-130-17",
       "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlanks": "雨 ____ ____ ____ ____",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
+      "sentence": "資金不足にもかかわらず、町の劇団は全国公演を実現させた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 実現させた。",
+      "korean": "자금 부족에도 불구하고 마을 극단은 전국 공연을 실현했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-130-12-p2",
-          "text": "にもかかわらず",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-130-12-p3",
-          "text": "多くの",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-130-12-p4",
-          "text": "人が集",
+          "id": "so-created-n2-130-17-p3",
+          "text": "町の劇団は",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-130-12-p1",
-          "text": "まった",
+          "id": "so-created-n2-130-17-p4",
+          "text": "全国公演を",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-130-17-p1",
+          "text": "資金不足",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-130-17-p2",
+          "text": "にもかかわらず、",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-130-12-p2",
-        "so-extra20-n2-130-12-p3",
-        "so-extra20-n2-130-12-p4",
-        "so-extra20-n2-130-12-p1"
+        "so-created-n2-130-17-p1",
+        "so-created-n2-130-17-p2",
+        "so-created-n2-130-17-p3",
+        "so-created-n2-130-17-p4"
       ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '자금 부족에도 불구하고 마을 극단은 전국 공연을 실현했다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
       "sourceGrammarIds": [
-        "n2-130"
+        "n2-130",
+        "n2-062",
+        "n2-063",
+        "n2-064"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-130-13",
+      "id": "so-created-n2-130-18",
       "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、多くの人が集まった。",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
+      "sentence": "整備を終えたばかりにもかかわらず、観覧車は運転中に突然停止した。",
+      "sentenceWithBlanks": "整備を終えたばかり ____ ____ ____ ____",
+      "korean": "정비를 막 끝냈음에도 불구하고 관람차는 운행 중에 갑자기 멈췄다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-130-13-p1",
-          "text": "多くの",
+          "id": "so-created-n2-130-18-p2",
+          "text": "観覧車は",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-130-18-p3",
+          "text": "運転中に突然",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-130-13-p2",
-          "text": "人が集",
+          "id": "so-created-n2-130-18-p4",
+          "text": "停止した。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-130-13-p3",
-          "text": "雨",
+          "id": "so-created-n2-130-18-p1",
+          "text": "にもかかわらず、",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-130-13-p4",
-          "text": "にもかかわらず",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-130-13-p3",
-        "so-extra20-n2-130-13-p4",
-        "so-extra20-n2-130-13-p1",
-        "so-extra20-n2-130-13-p2"
+        "so-created-n2-130-18-p1",
+        "so-created-n2-130-18-p2",
+        "so-created-n2-130-18-p3",
+        "so-created-n2-130-18-p4"
       ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '정비를 막 끝냈음에도 불구하고 관람차는 운행 중에 갑자기 멈췄다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
       "sourceGrammarIds": [
-        "n2-130"
+        "n2-130",
+        "n2-062",
+        "n2-063",
+        "n2-064"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-130-14",
+      "id": "so-created-n2-130-19",
       "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlanks": "雨 ____ ____ ____ ____",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
+      "sentence": "本人の同意が得られていないにもかかわらず、写真は広告に使用された。",
+      "sentenceWithBlanks": "本人の ____ ____ ____ ____",
+      "korean": "본인의 동의를 얻지 못했음에도 불구하고 사진이 광고에 사용되었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-130-14-p4",
-          "text": "にもかかわらず",
+          "id": "so-created-n2-130-19-p1",
+          "text": "同意が得られていない",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-130-14-p1",
-          "text": "多くの",
+          "id": "so-created-n2-130-19-p2",
+          "text": "にもかかわらず、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-130-14-p2",
-          "text": "人が集",
+          "id": "so-created-n2-130-19-p3",
+          "text": "写真は広告に",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-130-14-p3",
-          "text": "まった",
+          "id": "so-created-n2-130-19-p4",
+          "text": "使用された。",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-130-14-p4",
-        "so-extra20-n2-130-14-p1",
-        "so-extra20-n2-130-14-p2",
-        "so-extra20-n2-130-14-p3"
+        "so-created-n2-130-19-p1",
+        "so-created-n2-130-19-p2",
+        "so-created-n2-130-19-p3",
+        "so-created-n2-130-19-p4"
       ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '본인의 동의를 얻지 못했음에도 불구하고 사진이 광고에 사용되었다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
       "sourceGrammarIds": [
-        "n2-130"
+        "n2-130",
+        "n2-062",
+        "n2-063",
+        "n2-064"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-130-15",
+      "id": "so-created-n2-130-20",
       "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlanks": "雨 ____ ____ ____ ____",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
+      "sentence": "海水温が低いにもかかわらず、湾内ではサンゴの成長が確認された。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 確認された。",
+      "korean": "해수 온도가 낮음에도 불구하고 만 안에서는 산호의 성장이 확인되었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-130-15-p3",
-          "text": "人が集",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-130-15-p4",
-          "text": "まった",
+          "id": "so-created-n2-130-20-p4",
+          "text": "サンゴの成長が",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-130-15-p1",
-          "text": "にもかかわらず",
+          "id": "so-created-n2-130-20-p1",
+          "text": "海水温が低い",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-130-15-p2",
-          "text": "多くの",
+          "id": "so-created-n2-130-20-p2",
+          "text": "にもかかわらず、",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-130-20-p3",
+          "text": "湾内では",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-130-15-p1",
-        "so-extra20-n2-130-15-p2",
-        "so-extra20-n2-130-15-p3",
-        "so-extra20-n2-130-15-p4"
+        "so-created-n2-130-20-p1",
+        "so-created-n2-130-20-p2",
+        "so-created-n2-130-20-p3",
+        "so-created-n2-130-20-p4"
       ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '해수 온도가 낮음에도 불구하고 만 안에서는 산호의 성장이 확인되었다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
       "sourceGrammarIds": [
-        "n2-130"
+        "n2-130",
+        "n2-062",
+        "n2-063",
+        "n2-064"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-130-16",
+      "id": "so-created-n2-130-21",
       "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlanks": "雨 ____ ____ ____ ____",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
+      "sentence": "連日の残業にもかかわらず、担当者は納期までに設計図を仕上げられなかった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 図を仕上げられなかった。",
+      "korean": "연일 이어진 야근에도 불구하고 담당자는 납기까지 설계도를 완성하지 못했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-130-16-p2",
-          "text": "多くの",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-130-16-p3",
-          "text": "人が集",
+          "id": "so-created-n2-130-21-p3",
+          "text": "担当者は",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-130-16-p4",
-          "text": "まった",
+          "id": "so-created-n2-130-21-p4",
+          "text": "納期までに設計",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-130-16-p1",
-          "text": "にもかかわらず",
+          "id": "so-created-n2-130-21-p1",
+          "text": "連日の残業",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-130-21-p2",
+          "text": "にもかかわらず、",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-130-16-p1",
-        "so-extra20-n2-130-16-p2",
-        "so-extra20-n2-130-16-p3",
-        "so-extra20-n2-130-16-p4"
+        "so-created-n2-130-21-p1",
+        "so-created-n2-130-21-p2",
+        "so-created-n2-130-21-p3",
+        "so-created-n2-130-21-p4"
       ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '연일 이어진 야근에도 불구하고 담당자는 납기까지 설계도를 완성하지 못했다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
       "sourceGrammarIds": [
-        "n2-130"
+        "n2-130",
+        "n2-062",
+        "n2-063",
+        "n2-064"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-130-17",
+      "id": "so-created-n2-130-22",
       "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlanks": "雨 ____ ____ ____ ____",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
+      "sentence": "道路が凍結していたにもかかわらず、配送業者は予定どおり荷物を届けた。",
+      "sentenceWithBlanks": "道路が凍結していた ____ ____ ____ ____",
+      "korean": "도로가 얼어 있었음에도 불구하고 배송업체는 예정대로 짐을 배달했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-130-17-p1",
-          "text": "まった",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-130-17-p2",
-          "text": "にもかかわらず",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-130-17-p3",
-          "text": "多くの",
+          "id": "so-created-n2-130-22-p2",
+          "text": "配送業者は",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-130-17-p4",
-          "text": "人が集",
+          "id": "so-created-n2-130-22-p3",
+          "text": "予定どおり",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-130-22-p4",
+          "text": "荷物を届けた。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-130-22-p1",
+          "text": "にもかかわらず、",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-130-17-p2",
-        "so-extra20-n2-130-17-p3",
-        "so-extra20-n2-130-17-p4",
-        "so-extra20-n2-130-17-p1"
+        "so-created-n2-130-22-p1",
+        "so-created-n2-130-22-p2",
+        "so-created-n2-130-22-p3",
+        "so-created-n2-130-22-p4"
       ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '도로가 얼어 있었음에도 불구하고 배송업체는 예정대로 짐을 배달했다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
       "sourceGrammarIds": [
-        "n2-130"
+        "n2-130",
+        "n2-062",
+        "n2-063",
+        "n2-064"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-130-18",
+      "id": "so-created-n2-130-23",
       "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、多くの人が集まった。",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
+      "sentence": "過半数の住民が反対したにもかかわらず、市議会は再開発計画を承認した。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 計画を承認した。",
+      "korean": "과반수 주민이 반대했음에도 불구하고 시의회는 재개발 계획을 승인했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-130-18-p4",
-          "text": "にもかかわらず",
+          "id": "so-created-n2-130-23-p1",
+          "text": "過半数の",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-130-23-p2",
+          "text": "住民が反対した",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-130-18-p1",
-          "text": "多くの",
+          "id": "so-created-n2-130-23-p3",
+          "text": "にもかかわらず、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-130-18-p2",
-          "text": "人が集",
+          "id": "so-created-n2-130-23-p4",
+          "text": "市議会は再開発",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-130-18-p3",
-          "text": "雨",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-130-18-p3",
-        "so-extra20-n2-130-18-p4",
-        "so-extra20-n2-130-18-p1",
-        "so-extra20-n2-130-18-p2"
+        "so-created-n2-130-23-p1",
+        "so-created-n2-130-23-p2",
+        "so-created-n2-130-23-p3",
+        "so-created-n2-130-23-p4"
       ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '과반수 주민이 반대했음에도 불구하고 시의회는 재개발 계획을 승인했다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
       "sourceGrammarIds": [
-        "n2-130"
+        "n2-130",
+        "n2-062",
+        "n2-063",
+        "n2-064"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-130-19",
+      "id": "so-created-n2-130-24",
       "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlanks": "雨 ____ ____ ____ ____",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
+      "sentence": "無名の新人であるにもかかわらず、彼の小説は海外でも高く評価された。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 評価された。",
+      "korean": "무명 신인임에도 불구하고 그의 소설은 해외에서도 높은 평가를 받았다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-130-19-p3",
-          "text": "まった",
+          "id": "so-created-n2-130-24-p4",
+          "text": "海外でも高く",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-130-19-p4",
-          "text": "にもかかわらず",
+          "id": "so-created-n2-130-24-p1",
+          "text": "無名の新人である",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-130-19-p1",
-          "text": "多くの",
+          "id": "so-created-n2-130-24-p2",
+          "text": "にもかかわらず、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-130-19-p2",
-          "text": "人が集",
+          "id": "so-created-n2-130-24-p3",
+          "text": "彼の小説は",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-130-19-p4",
-        "so-extra20-n2-130-19-p1",
-        "so-extra20-n2-130-19-p2",
-        "so-extra20-n2-130-19-p3"
+        "so-created-n2-130-24-p1",
+        "so-created-n2-130-24-p2",
+        "so-created-n2-130-24-p3",
+        "so-created-n2-130-24-p4"
       ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '무명 신인임에도 불구하고 그의 소설은 해외에서도 높은 평가를 받았다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
       "sourceGrammarIds": [
-        "n2-130"
+        "n2-130",
+        "n2-062",
+        "n2-063",
+        "n2-064"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-130-20",
+      "id": "so-created-n2-130-25",
       "level": "N2",
-      "sentence": "雨にもかかわらず、多くの人が集まった。",
-      "sentenceWithBlanks": "雨 ____ ____ ____ ____",
-      "korean": "비가 왔음에도 많은 사람이 모였다.",
+      "sentence": "避難命令が解除されていないにもかかわらず、一部の住民は自宅へ戻り始めた。",
+      "sentenceWithBlanks": "避難命令が解除されていない ____ ____ ____ ____",
+      "korean": "대피 명령이 해제되지 않았음에도 불구하고 일부 주민은 집으로 돌아가기 시작했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-130-20-p2",
-          "text": "多くの",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-130-20-p3",
-          "text": "人が集",
+          "id": "so-created-n2-130-25-p3",
+          "text": "自宅へ戻り",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-130-20-p4",
-          "text": "まった",
+          "id": "so-created-n2-130-25-p4",
+          "text": "始めた。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-130-20-p1",
-          "text": "にもかかわらず",
+          "id": "so-created-n2-130-25-p1",
+          "text": "にもかかわらず、",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-130-25-p2",
+          "text": "一部の住民は",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-130-20-p1",
-        "so-extra20-n2-130-20-p2",
-        "so-extra20-n2-130-20-p3",
-        "so-extra20-n2-130-20-p4"
+        "so-created-n2-130-25-p1",
+        "so-created-n2-130-25-p2",
+        "so-created-n2-130-25-p3",
+        "so-created-n2-130-25-p4"
       ],
-      "explanation": "「にもかかわらず」는 ~임에도 불구하고라는 뜻이다. 예상과 반대 결과. 딱딱함.",
+      "explanation": "「にもかかわらず」는 '~임에도 불구하고'라는 뜻을 나타낸다. 이 문장에서는 '대피 명령이 해제되지 않았음에도 불구하고 일부 주민은 집으로 돌아가기 시작했다.'라는 상황에 쓰였으며, 예상과 반대 결과. 딱딱함. 주의할 점은 역접 중 가장 문어적·강조적. 「のに」는 불만 감정, 「にもかかわらず」는 객관적 역접.",
       "sourceGrammarIds": [
-        "n2-130"
+        "n2-130",
+        "n2-062",
+        "n2-063",
+        "n2-064"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     }
   ]

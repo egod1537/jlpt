@@ -267,15 +267,23 @@
       ]
     },
     {
-      "id": "fb-extra-n2-101-1",
+      "id": "fb-created-n2-101-01",
       "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
-      "sentenceWithBlank": "何とかしてもっと安く買え（　　　）。",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
-      "answerChoiceId": "fb-extra-n2-101-1-b",
+      "sentence": "この騒音を少しでも抑えられないものか。",
+      "sentenceWithBlank": "この騒音を少しでも抑えられ（　　　）。",
+      "korean": "이 소음을 조금이라도 줄일 수는 없을까.",
+      "answerChoiceId": "fb-created-n2-101-01-b",
       "choices": [
         {
-          "id": "fb-extra-n2-101-1-c",
+          "id": "fb-created-n2-101-01-b",
+          "text": "ないものか",
+          "grammarId": "n2-101",
+          "baseExpression": "ないものか",
+          "conjugatedExpression": "ないものか",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-101-01-c",
           "text": "するあまり",
           "grammarId": "n2-002",
           "baseExpression": "あまり",
@@ -283,7 +291,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-101-1-d",
+          "id": "fb-created-n2-101-01-d",
           "text": "した以上は",
           "grammarId": "n2-003",
           "baseExpression": "以上は",
@@ -291,23 +299,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-101-1-a",
+          "id": "fb-created-n2-101-01-a",
           "text": "一方で",
           "grammarId": "n2-004",
           "baseExpression": "一方で",
           "conjugatedExpression": "一方で",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-101-1-b",
-          "text": "ないものか",
-          "grammarId": "n2-101",
-          "baseExpression": "ないものか",
-          "conjugatedExpression": "ないものか",
-          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '이 소음을 조금이라도 줄일 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
       "sourceGrammarIds": [
         "n2-101",
         "n2-002",
@@ -315,237 +315,20 @@
         "n2-004"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra-n2-101-2",
+      "id": "fb-created-n2-101-02",
       "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
-      "sentenceWithBlank": "何とかしてもっと安く買え（　　　）。",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
-      "answerChoiceId": "fb-extra-n2-101-2-c",
+      "sentence": "離島にも新鮮な野菜を毎日届けられないものか。",
+      "sentenceWithBlank": "離島にも新鮮な野菜を毎日届けられ（　　　）。",
+      "korean": "외딴섬에도 신선한 채소를 매일 배달할 수는 없을까.",
+      "answerChoiceId": "fb-created-n2-101-02-b",
       "choices": [
         {
-          "id": "fb-extra-n2-101-2-d",
-          "text": "まみれ",
-          "grammarId": "n2-150",
-          "baseExpression": "まみれ",
-          "conjugatedExpression": "まみれ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-101-2-a",
-          "text": "もかまわず",
-          "grammarId": "n2-151",
-          "baseExpression": "もかまわず",
-          "conjugatedExpression": "もかまわず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-101-2-b",
-          "text": "もしない",
-          "grammarId": "n2-152",
-          "baseExpression": "もしない",
-          "conjugatedExpression": "もしない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-101-2-c",
-          "text": "ないものか",
-          "grammarId": "n2-101",
-          "baseExpression": "ないものか",
-          "conjugatedExpression": "ないものか",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
-      "sourceGrammarIds": [
-        "n2-101",
-        "n2-150",
-        "n2-151",
-        "n2-152"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-101-3",
-      "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
-      "sentenceWithBlank": "何とかしてもっと安く買え（　　　）。",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
-      "answerChoiceId": "fb-extra-n2-101-3-d",
-      "choices": [
-        {
-          "id": "fb-extra-n2-101-3-a",
-          "text": "一方で",
-          "grammarId": "n2-004",
-          "baseExpression": "一方で",
-          "conjugatedExpression": "一方で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-101-3-b",
-          "text": "た上で",
-          "grammarId": "n2-005",
-          "baseExpression": "た上で",
-          "conjugatedExpression": "た上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-101-3-c",
-          "text": "上で",
-          "grammarId": "n2-006",
-          "baseExpression": "上で",
-          "conjugatedExpression": "上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-101-3-d",
-          "text": "ないものか",
-          "grammarId": "n2-101",
-          "baseExpression": "ないものか",
-          "conjugatedExpression": "ないものか",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
-      "sourceGrammarIds": [
-        "n2-101",
-        "n2-004",
-        "n2-005",
-        "n2-006"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-101-4",
-      "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
-      "sentenceWithBlank": "何とかしてもっと安く買え（　　　）。",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
-      "answerChoiceId": "fb-extra-n2-101-4-a",
-      "choices": [
-        {
-          "id": "fb-extra-n2-101-4-b",
-          "text": "きり",
-          "grammarId": "n2-031",
-          "baseExpression": "きり",
-          "conjugatedExpression": "きり",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-101-4-c",
-          "text": "きる",
-          "grammarId": "n2-032",
-          "baseExpression": "きる/きれる/きれない",
-          "conjugatedExpression": "きる",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-101-4-d",
-          "text": "くせに",
-          "grammarId": "n2-033",
-          "baseExpression": "くせに",
-          "conjugatedExpression": "くせに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-101-4-a",
-          "text": "ないものか",
-          "grammarId": "n2-101",
-          "baseExpression": "ないものか",
-          "conjugatedExpression": "ないものか",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
-      "sourceGrammarIds": [
-        "n2-101",
-        "n2-031",
-        "n2-032",
-        "n2-033"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-101-5",
-      "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
-      "sentenceWithBlank": "何とかしてもっと安く買え（　　　）。",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
-      "answerChoiceId": "fb-extra-n2-101-5-b",
-      "choices": [
-        {
-          "id": "fb-extra-n2-101-5-c",
-          "text": "だらけ",
-          "grammarId": "n2-062",
-          "baseExpression": "だらけ",
-          "conjugatedExpression": "だらけ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-101-5-d",
-          "text": "っこない",
-          "grammarId": "n2-063",
-          "baseExpression": "っこない",
-          "conjugatedExpression": "っこない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-101-5-a",
-          "text": "つつ",
-          "grammarId": "n2-064",
-          "baseExpression": "つつ",
-          "conjugatedExpression": "つつ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-101-5-b",
-          "text": "ないものか",
-          "grammarId": "n2-101",
-          "baseExpression": "ないものか",
-          "conjugatedExpression": "ないものか",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
-      "sourceGrammarIds": [
-        "n2-101",
-        "n2-062",
-        "n2-063",
-        "n2-064"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-101-01",
-      "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
-      "sentenceWithBlank": "何とかしてもっと安く買え（　　　）。",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
-      "answerChoiceId": "fb-extra20-n2-101-01-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-101-01-c",
+          "id": "fb-created-n2-101-02-c",
           "text": "するあまり",
           "grammarId": "n2-002",
           "baseExpression": "あまり",
@@ -553,7 +336,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-101-01-d",
+          "id": "fb-created-n2-101-02-d",
           "text": "した以上は",
           "grammarId": "n2-003",
           "baseExpression": "以上は",
@@ -561,7 +344,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-101-01-a",
+          "id": "fb-created-n2-101-02-a",
           "text": "一方で",
           "grammarId": "n2-004",
           "baseExpression": "一方で",
@@ -569,7 +352,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-101-01-b",
+          "id": "fb-created-n2-101-02-b",
           "text": "ないものか",
           "grammarId": "n2-101",
           "baseExpression": "ないものか",
@@ -577,7 +360,7 @@
           "isSimilarDistractor": false
         }
       ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '외딴섬에도 신선한 채소를 매일 배달할 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
       "sourceGrammarIds": [
         "n2-101",
         "n2-002",
@@ -585,253 +368,20 @@
         "n2-004"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-101-02",
+      "id": "fb-created-n2-101-03",
       "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
-      "sentenceWithBlank": "何とかしてもっと安く買え（　　　）。",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
-      "answerChoiceId": "fb-extra20-n2-101-02-c",
+      "sentence": "故郷の古い映画館を何とか残せないものか。",
+      "sentenceWithBlank": "故郷の古い映画館を何とか残せ（　　　）。",
+      "korean": "고향의 오래된 영화관을 어떻게든 보존할 수는 없을까.",
+      "answerChoiceId": "fb-created-n2-101-03-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-101-02-b",
-          "text": "もしない",
-          "grammarId": "n2-152",
-          "baseExpression": "もしない",
-          "conjugatedExpression": "もしない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-101-02-c",
-          "text": "ないものか",
-          "grammarId": "n2-101",
-          "baseExpression": "ないものか",
-          "conjugatedExpression": "ないものか",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-101-02-d",
-          "text": "まみれ",
-          "grammarId": "n2-150",
-          "baseExpression": "まみれ",
-          "conjugatedExpression": "まみれ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-101-02-a",
-          "text": "もかまわず",
-          "grammarId": "n2-151",
-          "baseExpression": "もかまわず",
-          "conjugatedExpression": "もかまわず",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
-      "sourceGrammarIds": [
-        "n2-101",
-        "n2-150",
-        "n2-151",
-        "n2-152"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-101-03",
-      "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
-      "sentenceWithBlank": "何とかしてもっと安く買え（　　　）。",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
-      "answerChoiceId": "fb-extra20-n2-101-03-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-101-03-a",
-          "text": "一方で",
-          "grammarId": "n2-004",
-          "baseExpression": "一方で",
-          "conjugatedExpression": "一方で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-101-03-b",
-          "text": "た上で",
-          "grammarId": "n2-005",
-          "baseExpression": "た上で",
-          "conjugatedExpression": "た上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-101-03-c",
-          "text": "上で",
-          "grammarId": "n2-006",
-          "baseExpression": "上で",
-          "conjugatedExpression": "上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-101-03-d",
-          "text": "ないものか",
-          "grammarId": "n2-101",
-          "baseExpression": "ないものか",
-          "conjugatedExpression": "ないものか",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
-      "sourceGrammarIds": [
-        "n2-101",
-        "n2-004",
-        "n2-005",
-        "n2-006"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-101-04",
-      "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
-      "sentenceWithBlank": "何とかしてもっと安く買え（　　　）。",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
-      "answerChoiceId": "fb-extra20-n2-101-04-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-101-04-d",
-          "text": "くせに",
-          "grammarId": "n2-033",
-          "baseExpression": "くせに",
-          "conjugatedExpression": "くせに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-101-04-a",
-          "text": "ないものか",
-          "grammarId": "n2-101",
-          "baseExpression": "ないものか",
-          "conjugatedExpression": "ないものか",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-101-04-b",
-          "text": "きり",
-          "grammarId": "n2-031",
-          "baseExpression": "きり",
-          "conjugatedExpression": "きり",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-101-04-c",
-          "text": "きる",
-          "grammarId": "n2-032",
-          "baseExpression": "きる/きれる/きれない",
-          "conjugatedExpression": "きる",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
-      "sourceGrammarIds": [
-        "n2-101",
-        "n2-031",
-        "n2-032",
-        "n2-033"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-101-05",
-      "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
-      "sentenceWithBlank": "何とかしてもっと安く買え（　　　）。",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
-      "answerChoiceId": "fb-extra20-n2-101-05-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-101-05-c",
-          "text": "だらけ",
-          "grammarId": "n2-062",
-          "baseExpression": "だらけ",
-          "conjugatedExpression": "だらけ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-101-05-d",
-          "text": "っこない",
-          "grammarId": "n2-063",
-          "baseExpression": "っこない",
-          "conjugatedExpression": "っこない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-101-05-a",
-          "text": "つつ",
-          "grammarId": "n2-064",
-          "baseExpression": "つつ",
-          "conjugatedExpression": "つつ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-101-05-b",
-          "text": "ないものか",
-          "grammarId": "n2-101",
-          "baseExpression": "ないものか",
-          "conjugatedExpression": "ないものか",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
-      "sourceGrammarIds": [
-        "n2-101",
-        "n2-062",
-        "n2-063",
-        "n2-064"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-101-06",
-      "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
-      "sentenceWithBlank": "何とかしてもっと安く買え（　　　）。",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
-      "answerChoiceId": "fb-extra20-n2-101-06-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-101-06-b",
-          "text": "ないものか",
-          "grammarId": "n2-101",
-          "baseExpression": "ないものか",
-          "conjugatedExpression": "ないものか",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-101-06-c",
-          "text": "するあまり",
-          "grammarId": "n2-002",
-          "baseExpression": "あまり",
-          "conjugatedExpression": "するあまり",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-101-06-d",
+          "id": "fb-created-n2-101-03-d",
           "text": "した以上は",
           "grammarId": "n2-003",
           "baseExpression": "以上は",
@@ -839,99 +389,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-101-06-a",
-          "text": "一方で",
-          "grammarId": "n2-004",
-          "baseExpression": "一方で",
-          "conjugatedExpression": "一方で",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
-      "sourceGrammarIds": [
-        "n2-101",
-        "n2-002",
-        "n2-003",
-        "n2-004"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-101-07",
-      "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
-      "sentenceWithBlank": "何とかしてもっと安く買え（　　　）。",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
-      "answerChoiceId": "fb-extra20-n2-101-07-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-101-07-a",
-          "text": "もかまわず",
-          "grammarId": "n2-151",
-          "baseExpression": "もかまわず",
-          "conjugatedExpression": "もかまわず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-101-07-b",
-          "text": "もしない",
-          "grammarId": "n2-152",
-          "baseExpression": "もしない",
-          "conjugatedExpression": "もしない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-101-07-c",
-          "text": "ないものか",
-          "grammarId": "n2-101",
-          "baseExpression": "ないものか",
-          "conjugatedExpression": "ないものか",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-101-07-d",
-          "text": "まみれ",
-          "grammarId": "n2-150",
-          "baseExpression": "まみれ",
-          "conjugatedExpression": "まみれ",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
-      "sourceGrammarIds": [
-        "n2-101",
-        "n2-150",
-        "n2-151",
-        "n2-152"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-101-08",
-      "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
-      "sentenceWithBlank": "何とかしてもっと安く買え（　　　）。",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
-      "answerChoiceId": "fb-extra20-n2-101-08-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-101-08-d",
-          "text": "ないものか",
-          "grammarId": "n2-101",
-          "baseExpression": "ないものか",
-          "conjugatedExpression": "ないものか",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-101-08-a",
+          "id": "fb-created-n2-101-03-a",
           "text": "一方で",
           "grammarId": "n2-004",
           "baseExpression": "一方で",
@@ -939,61 +397,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-101-08-b",
-          "text": "た上で",
-          "grammarId": "n2-005",
-          "baseExpression": "た上で",
-          "conjugatedExpression": "た上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-101-08-c",
-          "text": "上で",
-          "grammarId": "n2-006",
-          "baseExpression": "上で",
-          "conjugatedExpression": "上で",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
-      "sourceGrammarIds": [
-        "n2-101",
-        "n2-004",
-        "n2-005",
-        "n2-006"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-101-09",
-      "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
-      "sentenceWithBlank": "何とかしてもっと安く買え（　　　）。",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
-      "answerChoiceId": "fb-extra20-n2-101-09-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-101-09-c",
-          "text": "きる",
-          "grammarId": "n2-032",
-          "baseExpression": "きる/きれる/きれない",
-          "conjugatedExpression": "きる",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-101-09-d",
-          "text": "くせに",
-          "grammarId": "n2-033",
-          "baseExpression": "くせに",
-          "conjugatedExpression": "くせに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-101-09-a",
+          "id": "fb-created-n2-101-03-b",
           "text": "ないものか",
           "grammarId": "n2-101",
           "baseExpression": "ないものか",
@@ -1001,385 +405,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-101-09-b",
-          "text": "きり",
-          "grammarId": "n2-031",
-          "baseExpression": "きり",
-          "conjugatedExpression": "きり",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
-      "sourceGrammarIds": [
-        "n2-101",
-        "n2-031",
-        "n2-032",
-        "n2-033"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-101-10",
-      "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
-      "sentenceWithBlank": "何とかしてもっと安く買え（　　　）。",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
-      "answerChoiceId": "fb-extra20-n2-101-10-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-101-10-b",
-          "text": "ないものか",
-          "grammarId": "n2-101",
-          "baseExpression": "ないものか",
-          "conjugatedExpression": "ないものか",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-101-10-c",
-          "text": "だらけ",
-          "grammarId": "n2-062",
-          "baseExpression": "だらけ",
-          "conjugatedExpression": "だらけ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-101-10-d",
-          "text": "っこない",
-          "grammarId": "n2-063",
-          "baseExpression": "っこない",
-          "conjugatedExpression": "っこない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-101-10-a",
-          "text": "つつ",
-          "grammarId": "n2-064",
-          "baseExpression": "つつ",
-          "conjugatedExpression": "つつ",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
-      "sourceGrammarIds": [
-        "n2-101",
-        "n2-062",
-        "n2-063",
-        "n2-064"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-101-11",
-      "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
-      "sentenceWithBlank": "何とかしてもっと安く買え（　　　）。",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
-      "answerChoiceId": "fb-extra20-n2-101-11-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-101-11-a",
-          "text": "一方で",
-          "grammarId": "n2-004",
-          "baseExpression": "一方で",
-          "conjugatedExpression": "一方で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-101-11-b",
-          "text": "ないものか",
-          "grammarId": "n2-101",
-          "baseExpression": "ないものか",
-          "conjugatedExpression": "ないものか",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-101-11-c",
-          "text": "するあまり",
-          "grammarId": "n2-002",
-          "baseExpression": "あまり",
-          "conjugatedExpression": "するあまり",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-101-11-d",
-          "text": "した以上は",
-          "grammarId": "n2-003",
-          "baseExpression": "以上は",
-          "conjugatedExpression": "した以上は",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
-      "sourceGrammarIds": [
-        "n2-101",
-        "n2-002",
-        "n2-003",
-        "n2-004"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-101-12",
-      "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
-      "sentenceWithBlank": "何とかしてもっと安く買え（　　　）。",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
-      "answerChoiceId": "fb-extra20-n2-101-12-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-101-12-d",
-          "text": "まみれ",
-          "grammarId": "n2-150",
-          "baseExpression": "まみれ",
-          "conjugatedExpression": "まみれ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-101-12-a",
-          "text": "もかまわず",
-          "grammarId": "n2-151",
-          "baseExpression": "もかまわず",
-          "conjugatedExpression": "もかまわず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-101-12-b",
-          "text": "もしない",
-          "grammarId": "n2-152",
-          "baseExpression": "もしない",
-          "conjugatedExpression": "もしない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-101-12-c",
-          "text": "ないものか",
-          "grammarId": "n2-101",
-          "baseExpression": "ないものか",
-          "conjugatedExpression": "ないものか",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
-      "sourceGrammarIds": [
-        "n2-101",
-        "n2-150",
-        "n2-151",
-        "n2-152"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-101-13",
-      "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
-      "sentenceWithBlank": "何とかしてもっと安く買え（　　　）。",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
-      "answerChoiceId": "fb-extra20-n2-101-13-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-101-13-c",
-          "text": "上で",
-          "grammarId": "n2-006",
-          "baseExpression": "上で",
-          "conjugatedExpression": "上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-101-13-d",
-          "text": "ないものか",
-          "grammarId": "n2-101",
-          "baseExpression": "ないものか",
-          "conjugatedExpression": "ないものか",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-101-13-a",
-          "text": "一方で",
-          "grammarId": "n2-004",
-          "baseExpression": "一方で",
-          "conjugatedExpression": "一方で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-101-13-b",
-          "text": "た上で",
-          "grammarId": "n2-005",
-          "baseExpression": "た上で",
-          "conjugatedExpression": "た上で",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
-      "sourceGrammarIds": [
-        "n2-101",
-        "n2-004",
-        "n2-005",
-        "n2-006"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-101-14",
-      "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
-      "sentenceWithBlank": "何とかしてもっと安く買え（　　　）。",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
-      "answerChoiceId": "fb-extra20-n2-101-14-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-101-14-b",
-          "text": "きり",
-          "grammarId": "n2-031",
-          "baseExpression": "きり",
-          "conjugatedExpression": "きり",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-101-14-c",
-          "text": "きる",
-          "grammarId": "n2-032",
-          "baseExpression": "きる/きれる/きれない",
-          "conjugatedExpression": "きる",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-101-14-d",
-          "text": "くせに",
-          "grammarId": "n2-033",
-          "baseExpression": "くせに",
-          "conjugatedExpression": "くせに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-101-14-a",
-          "text": "ないものか",
-          "grammarId": "n2-101",
-          "baseExpression": "ないものか",
-          "conjugatedExpression": "ないものか",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
-      "sourceGrammarIds": [
-        "n2-101",
-        "n2-031",
-        "n2-032",
-        "n2-033"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-101-15",
-      "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
-      "sentenceWithBlank": "何とかしてもっと安く買え（　　　）。",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
-      "answerChoiceId": "fb-extra20-n2-101-15-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-101-15-a",
-          "text": "つつ",
-          "grammarId": "n2-064",
-          "baseExpression": "つつ",
-          "conjugatedExpression": "つつ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-101-15-b",
-          "text": "ないものか",
-          "grammarId": "n2-101",
-          "baseExpression": "ないものか",
-          "conjugatedExpression": "ないものか",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-101-15-c",
-          "text": "だらけ",
-          "grammarId": "n2-062",
-          "baseExpression": "だらけ",
-          "conjugatedExpression": "だらけ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-101-15-d",
-          "text": "っこない",
-          "grammarId": "n2-063",
-          "baseExpression": "っこない",
-          "conjugatedExpression": "っこない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
-      "sourceGrammarIds": [
-        "n2-101",
-        "n2-062",
-        "n2-063",
-        "n2-064"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-101-16",
-      "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
-      "sentenceWithBlank": "何とかしてもっと安く買え（　　　）。",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
-      "answerChoiceId": "fb-extra20-n2-101-16-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-101-16-d",
-          "text": "した以上は",
-          "grammarId": "n2-003",
-          "baseExpression": "以上は",
-          "conjugatedExpression": "した以上は",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-101-16-a",
-          "text": "一方で",
-          "grammarId": "n2-004",
-          "baseExpression": "一方で",
-          "conjugatedExpression": "一方で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-101-16-b",
-          "text": "ないものか",
-          "grammarId": "n2-101",
-          "baseExpression": "ないものか",
-          "conjugatedExpression": "ないものか",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-101-16-c",
+          "id": "fb-created-n2-101-03-c",
           "text": "するあまり",
           "grammarId": "n2-002",
           "baseExpression": "あまり",
@@ -1387,7 +413,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '고향의 오래된 영화관을 어떻게든 보존할 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
       "sourceGrammarIds": [
         "n2-101",
         "n2-002",
@@ -1395,21 +421,28 @@
         "n2-004"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-101-17",
+      "id": "fb-created-n2-101-04",
       "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
-      "sentenceWithBlank": "何とかしてもっと安く買え（　　　）。",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
-      "answerChoiceId": "fb-extra20-n2-101-17-c",
+      "sentence": "渋滞を避けて空港まで早く行けないものか。",
+      "sentenceWithBlank": "渋滞を避けて空港まで早く行け（　　　）。",
+      "korean": "교통 체증을 피해 공항까지 빨리 갈 수는 없을까.",
+      "answerChoiceId": "fb-created-n2-101-04-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-101-17-c",
+          "id": "fb-created-n2-101-04-a",
+          "text": "一方で",
+          "grammarId": "n2-004",
+          "baseExpression": "一方で",
+          "conjugatedExpression": "一方で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-04-b",
           "text": "ないものか",
           "grammarId": "n2-101",
           "baseExpression": "ないものか",
@@ -1417,69 +450,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-101-17-d",
-          "text": "まみれ",
-          "grammarId": "n2-150",
-          "baseExpression": "まみれ",
-          "conjugatedExpression": "まみれ",
+          "id": "fb-created-n2-101-04-c",
+          "text": "するあまり",
+          "grammarId": "n2-002",
+          "baseExpression": "あまり",
+          "conjugatedExpression": "するあまり",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-101-17-a",
-          "text": "もかまわず",
-          "grammarId": "n2-151",
-          "baseExpression": "もかまわず",
-          "conjugatedExpression": "もかまわず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-101-17-b",
-          "text": "もしない",
-          "grammarId": "n2-152",
-          "baseExpression": "もしない",
-          "conjugatedExpression": "もしない",
+          "id": "fb-created-n2-101-04-d",
+          "text": "した以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "した以上は",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '교통 체증을 피해 공항까지 빨리 갈 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
       "sourceGrammarIds": [
         "n2-101",
-        "n2-150",
-        "n2-151",
-        "n2-152"
+        "n2-002",
+        "n2-003",
+        "n2-004"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-101-18",
+      "id": "fb-created-n2-101-05",
       "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
-      "sentenceWithBlank": "何とかしてもっと安く買え（　　　）。",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
-      "answerChoiceId": "fb-extra20-n2-101-18-d",
+      "sentence": "余った熱を温室の暖房に利用できないものか。",
+      "sentenceWithBlank": "余った熱を温室の暖房に利用でき（　　　）。",
+      "korean": "남는 열을 온실 난방에 이용할 수는 없을까.",
+      "answerChoiceId": "fb-created-n2-101-05-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-101-18-b",
-          "text": "た上で",
-          "grammarId": "n2-005",
-          "baseExpression": "た上で",
-          "conjugatedExpression": "た上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-101-18-c",
-          "text": "上で",
-          "grammarId": "n2-006",
-          "baseExpression": "上で",
-          "conjugatedExpression": "上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-101-18-d",
+          "id": "fb-created-n2-101-05-b",
           "text": "ないものか",
           "grammarId": "n2-101",
           "baseExpression": "ないものか",
@@ -1487,7 +495,23 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-101-18-a",
+          "id": "fb-created-n2-101-05-c",
+          "text": "するあまり",
+          "grammarId": "n2-002",
+          "baseExpression": "あまり",
+          "conjugatedExpression": "するあまり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-05-d",
+          "text": "した以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "した以上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-05-a",
           "text": "一方で",
           "grammarId": "n2-004",
           "baseExpression": "一方で",
@@ -1495,29 +519,97 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '남는 열을 온실 난방에 이용할 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
       "sourceGrammarIds": [
         "n2-101",
-        "n2-004",
-        "n2-005",
-        "n2-006"
+        "n2-002",
+        "n2-003",
+        "n2-004"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-101-19",
+      "id": "fb-created-n2-101-06",
       "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
-      "sentenceWithBlank": "何とかしてもっと安く買え（　　　）。",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
-      "answerChoiceId": "fb-extra20-n2-101-19-a",
+      "sentence": "長年疎遠だった兄と自然に話せないものか。",
+      "sentenceWithBlank": "長年疎遠だった兄と自然に話せ（　　　）。",
+      "korean": "오랫동안 소원했던 형과 자연스럽게 이야기할 수는 없을까.",
+      "answerChoiceId": "fb-created-n2-101-06-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-101-19-a",
+          "id": "fb-created-n2-101-06-c",
+          "text": "するあまり",
+          "grammarId": "n2-002",
+          "baseExpression": "あまり",
+          "conjugatedExpression": "するあまり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-06-d",
+          "text": "した以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "した以上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-06-a",
+          "text": "一方で",
+          "grammarId": "n2-004",
+          "baseExpression": "一方で",
+          "conjugatedExpression": "一方で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-06-b",
+          "text": "ないものか",
+          "grammarId": "n2-101",
+          "baseExpression": "ないものか",
+          "conjugatedExpression": "ないものか",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '오랫동안 소원했던 형과 자연스럽게 이야기할 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
+      "sourceGrammarIds": [
+        "n2-101",
+        "n2-002",
+        "n2-003",
+        "n2-004"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-101-07",
+      "level": "N2",
+      "sentence": "雨に弱いこの作物を安定して育てられないものか。",
+      "sentenceWithBlank": "雨に弱いこの作物を安定して育てられ（　　　）。",
+      "korean": "비에 약한 이 작물을 안정적으로 재배할 수는 없을까.",
+      "answerChoiceId": "fb-created-n2-101-07-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-101-07-d",
+          "text": "した以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "した以上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-07-a",
+          "text": "一方で",
+          "grammarId": "n2-004",
+          "baseExpression": "一方で",
+          "conjugatedExpression": "一方で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-07-b",
           "text": "ないものか",
           "grammarId": "n2-101",
           "baseExpression": "ないものか",
@@ -1525,69 +617,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-101-19-b",
-          "text": "きり",
-          "grammarId": "n2-031",
-          "baseExpression": "きり",
-          "conjugatedExpression": "きり",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-101-19-c",
-          "text": "きる",
-          "grammarId": "n2-032",
-          "baseExpression": "きる/きれる/きれない",
-          "conjugatedExpression": "きる",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-101-19-d",
-          "text": "くせに",
-          "grammarId": "n2-033",
-          "baseExpression": "くせに",
-          "conjugatedExpression": "くせに",
+          "id": "fb-created-n2-101-07-c",
+          "text": "するあまり",
+          "grammarId": "n2-002",
+          "baseExpression": "あまり",
+          "conjugatedExpression": "するあまり",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '비에 약한 이 작물을 안정적으로 재배할 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
       "sourceGrammarIds": [
         "n2-101",
-        "n2-031",
-        "n2-032",
-        "n2-033"
+        "n2-002",
+        "n2-003",
+        "n2-004"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-101-20",
+      "id": "fb-created-n2-101-08",
       "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
-      "sentenceWithBlank": "何とかしてもっと安く買え（　　　）。",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
-      "answerChoiceId": "fb-extra20-n2-101-20-b",
+      "sentence": "患者の負担を減らして検査時間を短縮できないものか。",
+      "sentenceWithBlank": "患者の負担を減らして検査時間を短縮でき（　　　）。",
+      "korean": "환자의 부담을 줄이면서 검사 시간을 단축할 수는 없을까.",
+      "answerChoiceId": "fb-created-n2-101-08-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-101-20-d",
-          "text": "っこない",
-          "grammarId": "n2-063",
-          "baseExpression": "っこない",
-          "conjugatedExpression": "っこない",
+          "id": "fb-created-n2-101-08-a",
+          "text": "一方で",
+          "grammarId": "n2-004",
+          "baseExpression": "一方で",
+          "conjugatedExpression": "一方で",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-101-20-a",
-          "text": "つつ",
-          "grammarId": "n2-064",
-          "baseExpression": "つつ",
-          "conjugatedExpression": "つつ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-101-20-b",
+          "id": "fb-created-n2-101-08-b",
           "text": "ないものか",
           "grammarId": "n2-101",
           "baseExpression": "ないものか",
@@ -1595,25 +662,933 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-101-20-c",
-          "text": "だらけ",
-          "grammarId": "n2-062",
-          "baseExpression": "だらけ",
-          "conjugatedExpression": "だらけ",
+          "id": "fb-created-n2-101-08-c",
+          "text": "するあまり",
+          "grammarId": "n2-002",
+          "baseExpression": "あまり",
+          "conjugatedExpression": "するあまり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-08-d",
+          "text": "した以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "した以上は",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '환자의 부담을 줄이면서 검사 시간을 단축할 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
       "sourceGrammarIds": [
         "n2-101",
-        "n2-062",
-        "n2-063",
-        "n2-064"
+        "n2-002",
+        "n2-003",
+        "n2-004"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-101-09",
+      "level": "N2",
+      "sentence": "人手を増やさずに夜間の見回りを強化できないものか。",
+      "sentenceWithBlank": "人手を増やさずに夜間の見回りを強化でき（　　　）。",
+      "korean": "인력을 늘리지 않고 야간 순찰을 강화할 수는 없을까.",
+      "answerChoiceId": "fb-created-n2-101-09-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-101-09-b",
+          "text": "ないものか",
+          "grammarId": "n2-101",
+          "baseExpression": "ないものか",
+          "conjugatedExpression": "ないものか",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-101-09-c",
+          "text": "するあまり",
+          "grammarId": "n2-002",
+          "baseExpression": "あまり",
+          "conjugatedExpression": "するあまり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-09-d",
+          "text": "した以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "した以上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-09-a",
+          "text": "一方で",
+          "grammarId": "n2-004",
+          "baseExpression": "一方で",
+          "conjugatedExpression": "一方で",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '인력을 늘리지 않고 야간 순찰을 강화할 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
+      "sourceGrammarIds": [
+        "n2-101",
+        "n2-002",
+        "n2-003",
+        "n2-004"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-101-10",
+      "level": "N2",
+      "sentence": "迷子になった犬を日が暮れる前に見つけられないものか。",
+      "sentenceWithBlank": "迷子になった犬を日が暮れる前に見つけられ（　　　）。",
+      "korean": "길을 잃은 개를 해가 지기 전에 찾을 수는 없을까.",
+      "answerChoiceId": "fb-created-n2-101-10-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-101-10-c",
+          "text": "するあまり",
+          "grammarId": "n2-002",
+          "baseExpression": "あまり",
+          "conjugatedExpression": "するあまり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-10-d",
+          "text": "した以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "した以上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-10-a",
+          "text": "一方で",
+          "grammarId": "n2-004",
+          "baseExpression": "一方で",
+          "conjugatedExpression": "一方で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-10-b",
+          "text": "ないものか",
+          "grammarId": "n2-101",
+          "baseExpression": "ないものか",
+          "conjugatedExpression": "ないものか",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '길을 잃은 개를 해가 지기 전에 찾을 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
+      "sourceGrammarIds": [
+        "n2-101",
+        "n2-002",
+        "n2-003",
+        "n2-004"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-101-11",
+      "level": "N2",
+      "sentence": "この狭い台所に食器棚をうまく置けないものか。",
+      "sentenceWithBlank": "この狭い台所に食器棚をうまく置け（　　　）。",
+      "korean": "이 좁은 주방에 찬장을 잘 배치할 수는 없을까.",
+      "answerChoiceId": "fb-created-n2-101-11-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-101-11-d",
+          "text": "した以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "した以上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-11-a",
+          "text": "一方で",
+          "grammarId": "n2-004",
+          "baseExpression": "一方で",
+          "conjugatedExpression": "一方で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-11-b",
+          "text": "ないものか",
+          "grammarId": "n2-101",
+          "baseExpression": "ないものか",
+          "conjugatedExpression": "ないものか",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-101-11-c",
+          "text": "するあまり",
+          "grammarId": "n2-002",
+          "baseExpression": "あまり",
+          "conjugatedExpression": "するあまり",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '이 좁은 주방에 찬장을 잘 배치할 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
+      "sourceGrammarIds": [
+        "n2-101",
+        "n2-002",
+        "n2-003",
+        "n2-004"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-101-12",
+      "level": "N2",
+      "sentence": "漁師の経験を若い世代へ確実に受け継げないものか。",
+      "sentenceWithBlank": "漁師の経験を若い世代へ確実に受け継げ（　　　）。",
+      "korean": "어부의 경험을 젊은 세대에 확실히 전수할 수는 없을까.",
+      "answerChoiceId": "fb-created-n2-101-12-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-101-12-a",
+          "text": "一方で",
+          "grammarId": "n2-004",
+          "baseExpression": "一方で",
+          "conjugatedExpression": "一方で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-12-b",
+          "text": "ないものか",
+          "grammarId": "n2-101",
+          "baseExpression": "ないものか",
+          "conjugatedExpression": "ないものか",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-101-12-c",
+          "text": "するあまり",
+          "grammarId": "n2-002",
+          "baseExpression": "あまり",
+          "conjugatedExpression": "するあまり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-12-d",
+          "text": "した以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "した以上は",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '어부의 경험을 젊은 세대에 확실히 전수할 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
+      "sourceGrammarIds": [
+        "n2-101",
+        "n2-002",
+        "n2-003",
+        "n2-004"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-101-13",
+      "level": "N2",
+      "sentence": "駅前の空き店舗を地域の交流に生かせないものか。",
+      "sentenceWithBlank": "駅前の空き店舗を地域の交流に生かせ（　　　）。",
+      "korean": "역 앞의 빈 점포를 지역 교류에 활용할 수는 없을까.",
+      "answerChoiceId": "fb-created-n2-101-13-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-101-13-b",
+          "text": "ないものか",
+          "grammarId": "n2-101",
+          "baseExpression": "ないものか",
+          "conjugatedExpression": "ないものか",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-101-13-c",
+          "text": "するあまり",
+          "grammarId": "n2-002",
+          "baseExpression": "あまり",
+          "conjugatedExpression": "するあまり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-13-d",
+          "text": "した以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "した以上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-13-a",
+          "text": "一方で",
+          "grammarId": "n2-004",
+          "baseExpression": "一方で",
+          "conjugatedExpression": "一方で",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '역 앞의 빈 점포를 지역 교류에 활용할 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
+      "sourceGrammarIds": [
+        "n2-101",
+        "n2-002",
+        "n2-003",
+        "n2-004"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-101-14",
+      "level": "N2",
+      "sentence": "土砂崩れで孤立した集落へ物資を運べないものか。",
+      "sentenceWithBlank": "土砂崩れで孤立した集落へ物資を運べ（　　　）。",
+      "korean": "산사태로 고립된 마을에 물자를 운반할 수는 없을까.",
+      "answerChoiceId": "fb-created-n2-101-14-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-101-14-c",
+          "text": "するあまり",
+          "grammarId": "n2-002",
+          "baseExpression": "あまり",
+          "conjugatedExpression": "するあまり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-14-d",
+          "text": "した以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "した以上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-14-a",
+          "text": "一方で",
+          "grammarId": "n2-004",
+          "baseExpression": "一方で",
+          "conjugatedExpression": "一方で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-14-b",
+          "text": "ないものか",
+          "grammarId": "n2-101",
+          "baseExpression": "ないものか",
+          "conjugatedExpression": "ないものか",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '산사태로 고립된 마을에 물자를 운반할 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
+      "sourceGrammarIds": [
+        "n2-101",
+        "n2-002",
+        "n2-003",
+        "n2-004"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-101-15",
+      "level": "N2",
+      "sentence": "育児と仕事を両立できる勤務体制を整えられないものか。",
+      "sentenceWithBlank": "育児と仕事を両立できる勤務体制を整えられ（　　　）。",
+      "korean": "육아와 일을 병행할 수 있는 근무 체제를 마련할 수는 없을까.",
+      "answerChoiceId": "fb-created-n2-101-15-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-101-15-d",
+          "text": "した以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "した以上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-15-a",
+          "text": "一方で",
+          "grammarId": "n2-004",
+          "baseExpression": "一方で",
+          "conjugatedExpression": "一方で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-15-b",
+          "text": "ないものか",
+          "grammarId": "n2-101",
+          "baseExpression": "ないものか",
+          "conjugatedExpression": "ないものか",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-101-15-c",
+          "text": "するあまり",
+          "grammarId": "n2-002",
+          "baseExpression": "あまり",
+          "conjugatedExpression": "するあまり",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '육아와 일을 병행할 수 있는 근무 체제를 마련할 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
+      "sourceGrammarIds": [
+        "n2-101",
+        "n2-002",
+        "n2-003",
+        "n2-004"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-101-16",
+      "level": "N2",
+      "sentence": "傷んだ祖母の着物を別の形でよみがえらせられないものか。",
+      "sentenceWithBlank": "傷んだ祖母の着物を別の形でよみがえらせられ（　　　）。",
+      "korean": "낡은 할머니의 기모노를 다른 형태로 되살릴 수는 없을까.",
+      "answerChoiceId": "fb-created-n2-101-16-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-101-16-a",
+          "text": "一方で",
+          "grammarId": "n2-004",
+          "baseExpression": "一方で",
+          "conjugatedExpression": "一方で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-16-b",
+          "text": "ないものか",
+          "grammarId": "n2-101",
+          "baseExpression": "ないものか",
+          "conjugatedExpression": "ないものか",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-101-16-c",
+          "text": "するあまり",
+          "grammarId": "n2-002",
+          "baseExpression": "あまり",
+          "conjugatedExpression": "するあまり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-16-d",
+          "text": "した以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "した以上は",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '낡은 할머니의 기모노를 다른 형태로 되살릴 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
+      "sourceGrammarIds": [
+        "n2-101",
+        "n2-002",
+        "n2-003",
+        "n2-004"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-101-17",
+      "level": "N2",
+      "sentence": "停電中でも井戸のポンプを動かせないものか。",
+      "sentenceWithBlank": "停電中でも井戸のポンプを動かせ（　　　）。",
+      "korean": "정전 중에도 우물 펌프를 작동시킬 수는 없을까.",
+      "answerChoiceId": "fb-created-n2-101-17-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-101-17-b",
+          "text": "ないものか",
+          "grammarId": "n2-101",
+          "baseExpression": "ないものか",
+          "conjugatedExpression": "ないものか",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-101-17-c",
+          "text": "するあまり",
+          "grammarId": "n2-002",
+          "baseExpression": "あまり",
+          "conjugatedExpression": "するあまり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-17-d",
+          "text": "した以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "した以上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-17-a",
+          "text": "一方で",
+          "grammarId": "n2-004",
+          "baseExpression": "一方で",
+          "conjugatedExpression": "一方で",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '정전 중에도 우물 펌프를 작동시킬 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
+      "sourceGrammarIds": [
+        "n2-101",
+        "n2-002",
+        "n2-003",
+        "n2-004"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-101-18",
+      "level": "N2",
+      "sentence": "絶滅寸前の鳥が暮らせる湿地を取り戻せないものか。",
+      "sentenceWithBlank": "絶滅寸前の鳥が暮らせる湿地を取り戻せ（　　　）。",
+      "korean": "멸종 직전의 새가 살 수 있는 습지를 되찾을 수는 없을까.",
+      "answerChoiceId": "fb-created-n2-101-18-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-101-18-c",
+          "text": "するあまり",
+          "grammarId": "n2-002",
+          "baseExpression": "あまり",
+          "conjugatedExpression": "するあまり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-18-d",
+          "text": "した以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "した以上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-18-a",
+          "text": "一方で",
+          "grammarId": "n2-004",
+          "baseExpression": "一方で",
+          "conjugatedExpression": "一方で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-18-b",
+          "text": "ないものか",
+          "grammarId": "n2-101",
+          "baseExpression": "ないものか",
+          "conjugatedExpression": "ないものか",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '멸종 직전의 새가 살 수 있는 습지를 되찾을 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
+      "sourceGrammarIds": [
+        "n2-101",
+        "n2-002",
+        "n2-003",
+        "n2-004"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-101-19",
+      "level": "N2",
+      "sentence": "閉鎖された登山道を秋までに復旧できないものか。",
+      "sentenceWithBlank": "閉鎖された登山道を秋までに復旧でき（　　　）。",
+      "korean": "폐쇄된 등산로를 가을까지 복구할 수는 없을까.",
+      "answerChoiceId": "fb-created-n2-101-19-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-101-19-d",
+          "text": "した以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "した以上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-19-a",
+          "text": "一方で",
+          "grammarId": "n2-004",
+          "baseExpression": "一方で",
+          "conjugatedExpression": "一方で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-19-b",
+          "text": "ないものか",
+          "grammarId": "n2-101",
+          "baseExpression": "ないものか",
+          "conjugatedExpression": "ないものか",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-101-19-c",
+          "text": "するあまり",
+          "grammarId": "n2-002",
+          "baseExpression": "あまり",
+          "conjugatedExpression": "するあまり",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '폐쇄된 등산로를 가을까지 복구할 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
+      "sourceGrammarIds": [
+        "n2-101",
+        "n2-002",
+        "n2-003",
+        "n2-004"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-101-20",
+      "level": "N2",
+      "sentence": "言葉が通じなくても避難情報を正確に伝えられないものか。",
+      "sentenceWithBlank": "言葉が通じなくても避難情報を正確に伝えられ（　　　）。",
+      "korean": "말이 통하지 않더라도 대피 정보를 정확히 전달할 수는 없을까.",
+      "answerChoiceId": "fb-created-n2-101-20-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-101-20-a",
+          "text": "一方で",
+          "grammarId": "n2-004",
+          "baseExpression": "一方で",
+          "conjugatedExpression": "一方で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-20-b",
+          "text": "ないものか",
+          "grammarId": "n2-101",
+          "baseExpression": "ないものか",
+          "conjugatedExpression": "ないものか",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-101-20-c",
+          "text": "するあまり",
+          "grammarId": "n2-002",
+          "baseExpression": "あまり",
+          "conjugatedExpression": "するあまり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-20-d",
+          "text": "した以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "した以上は",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '말이 통하지 않더라도 대피 정보를 정확히 전달할 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
+      "sourceGrammarIds": [
+        "n2-101",
+        "n2-002",
+        "n2-003",
+        "n2-004"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-101-21",
+      "level": "N2",
+      "sentence": "廃棄される果物から新しい商品を作れないものか。",
+      "sentenceWithBlank": "廃棄される果物から新しい商品を作れ（　　　）。",
+      "korean": "폐기되는 과일로 새로운 상품을 만들 수는 없을까.",
+      "answerChoiceId": "fb-created-n2-101-21-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-101-21-b",
+          "text": "ないものか",
+          "grammarId": "n2-101",
+          "baseExpression": "ないものか",
+          "conjugatedExpression": "ないものか",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-101-21-c",
+          "text": "するあまり",
+          "grammarId": "n2-002",
+          "baseExpression": "あまり",
+          "conjugatedExpression": "するあまり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-21-d",
+          "text": "した以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "した以上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-21-a",
+          "text": "一方で",
+          "grammarId": "n2-004",
+          "baseExpression": "一方で",
+          "conjugatedExpression": "一方で",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '폐기되는 과일로 새로운 상품을 만들 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
+      "sourceGrammarIds": [
+        "n2-101",
+        "n2-002",
+        "n2-003",
+        "n2-004"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-101-22",
+      "level": "N2",
+      "sentence": "長時間待たずに行政手続きを済ませられないものか。",
+      "sentenceWithBlank": "長時間待たずに行政手続きを済ませられ（　　　）。",
+      "korean": "오래 기다리지 않고 행정 절차를 마칠 수는 없을까.",
+      "answerChoiceId": "fb-created-n2-101-22-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-101-22-c",
+          "text": "するあまり",
+          "grammarId": "n2-002",
+          "baseExpression": "あまり",
+          "conjugatedExpression": "するあまり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-22-d",
+          "text": "した以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "した以上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-22-a",
+          "text": "一方で",
+          "grammarId": "n2-004",
+          "baseExpression": "一方で",
+          "conjugatedExpression": "一方で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-22-b",
+          "text": "ないものか",
+          "grammarId": "n2-101",
+          "baseExpression": "ないものか",
+          "conjugatedExpression": "ないものか",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '오래 기다리지 않고 행정 절차를 마칠 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
+      "sourceGrammarIds": [
+        "n2-101",
+        "n2-002",
+        "n2-003",
+        "n2-004"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-101-23",
+      "level": "N2",
+      "sentence": "失われた航海日誌の内容を断片から再現できないものか。",
+      "sentenceWithBlank": "失われた航海日誌の内容を断片から再現でき（　　　）。",
+      "korean": "사라진 항해 일지의 내용을 단편적인 자료로 복원할 수는 없을까.",
+      "answerChoiceId": "fb-created-n2-101-23-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-101-23-d",
+          "text": "した以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "した以上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-23-a",
+          "text": "一方で",
+          "grammarId": "n2-004",
+          "baseExpression": "一方で",
+          "conjugatedExpression": "一方で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-23-b",
+          "text": "ないものか",
+          "grammarId": "n2-101",
+          "baseExpression": "ないものか",
+          "conjugatedExpression": "ないものか",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-101-23-c",
+          "text": "するあまり",
+          "grammarId": "n2-002",
+          "baseExpression": "あまり",
+          "conjugatedExpression": "するあまり",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '사라진 항해 일지의 내용을 단편적인 자료로 복원할 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
+      "sourceGrammarIds": [
+        "n2-101",
+        "n2-002",
+        "n2-003",
+        "n2-004"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-101-24",
+      "level": "N2",
+      "sentence": "高齢の住民が坂道を楽に移動できないものか。",
+      "sentenceWithBlank": "高齢の住民が坂道を楽に移動でき（　　　）。",
+      "korean": "고령 주민들이 비탈길을 편하게 이동할 수는 없을까.",
+      "answerChoiceId": "fb-created-n2-101-24-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-101-24-a",
+          "text": "一方で",
+          "grammarId": "n2-004",
+          "baseExpression": "一方で",
+          "conjugatedExpression": "一方で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-24-b",
+          "text": "ないものか",
+          "grammarId": "n2-101",
+          "baseExpression": "ないものか",
+          "conjugatedExpression": "ないものか",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-101-24-c",
+          "text": "するあまり",
+          "grammarId": "n2-002",
+          "baseExpression": "あまり",
+          "conjugatedExpression": "するあまり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-24-d",
+          "text": "した以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "した以上は",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '고령 주민들이 비탈길을 편하게 이동할 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
+      "sourceGrammarIds": [
+        "n2-101",
+        "n2-002",
+        "n2-003",
+        "n2-004"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-101-25",
+      "level": "N2",
+      "sentence": "対立する二つの商店街が協力して祭りを開けないものか。",
+      "sentenceWithBlank": "対立する二つの商店街が協力して祭りを開け（　　　）。",
+      "korean": "대립하는 두 상점가가 협력해서 축제를 열 수는 없을까.",
+      "answerChoiceId": "fb-created-n2-101-25-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-101-25-b",
+          "text": "ないものか",
+          "grammarId": "n2-101",
+          "baseExpression": "ないものか",
+          "conjugatedExpression": "ないものか",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-101-25-c",
+          "text": "するあまり",
+          "grammarId": "n2-002",
+          "baseExpression": "あまり",
+          "conjugatedExpression": "するあまり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-25-d",
+          "text": "した以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "した以上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-101-25-a",
+          "text": "一方で",
+          "grammarId": "n2-004",
+          "baseExpression": "一方で",
+          "conjugatedExpression": "一方で",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '대립하는 두 상점가가 협력해서 축제를 열 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
+      "sourceGrammarIds": [
+        "n2-101",
+        "n2-002",
+        "n2-003",
+        "n2-004"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
       ]
     }
   ],
@@ -1834,1103 +1809,1153 @@
       ]
     },
     {
-      "id": "so-extra-n2-101-1",
+      "id": "so-created-n2-101-01",
       "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
+      "sentence": "この騒音を少しでも抑えられないものか。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
+      "korean": "이 소음을 조금이라도 줄일 수는 없을까.",
       "pieces": [
         {
-          "id": "so-extra-n2-101-1-p4",
-          "text": "のか",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-101-1-p1",
-          "text": "何とかして",
-          "order": 1
-        },
-        {
-          "id": "so-extra-n2-101-1-p2",
-          "text": "も",
+          "id": "so-created-n2-101-01-p2",
+          "text": "少しでも",
           "order": 2
         },
         {
-          "id": "so-extra-n2-101-1-p3",
-          "text": "っと安く買えないも",
+          "id": "so-created-n2-101-01-p3",
+          "text": "抑えられ",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-101-01-p4",
+          "text": "ないものか。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-101-01-p1",
+          "text": "この騒音を",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-101-1-p1",
-        "so-extra-n2-101-1-p2",
-        "so-extra-n2-101-1-p3",
-        "so-extra-n2-101-1-p4"
+        "so-created-n2-101-01-p1",
+        "so-created-n2-101-01-p2",
+        "so-created-n2-101-01-p3",
+        "so-created-n2-101-01-p4"
       ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '이 소음을 조금이라도 줄일 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
       "sourceGrammarIds": [
-        "n2-101"
+        "n2-101",
+        "n2-002",
+        "n2-003",
+        "n2-004"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-101-2",
+      "id": "so-created-n2-101-02",
       "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
+      "sentence": "離島にも新鮮な野菜を毎日届けられないものか。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
+      "korean": "외딴섬에도 신선한 채소를 매일 배달할 수는 없을까.",
       "pieces": [
         {
-          "id": "so-extra-n2-101-2-p1",
-          "text": "のか",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-101-2-p2",
-          "text": "何とかして",
+          "id": "so-created-n2-101-02-p1",
+          "text": "離島にも",
           "order": 1
         },
         {
-          "id": "so-extra-n2-101-2-p3",
-          "text": "も",
+          "id": "so-created-n2-101-02-p2",
+          "text": "新鮮な野菜を",
           "order": 2
         },
         {
-          "id": "so-extra-n2-101-2-p4",
-          "text": "っと安く買えないも",
+          "id": "so-created-n2-101-02-p3",
+          "text": "毎日届けられ",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-101-02-p4",
+          "text": "ないものか。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-101-2-p2",
-        "so-extra-n2-101-2-p3",
-        "so-extra-n2-101-2-p4",
-        "so-extra-n2-101-2-p1"
+        "so-created-n2-101-02-p1",
+        "so-created-n2-101-02-p2",
+        "so-created-n2-101-02-p3",
+        "so-created-n2-101-02-p4"
       ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '외딴섬에도 신선한 채소를 매일 배달할 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
       "sourceGrammarIds": [
-        "n2-101"
+        "n2-101",
+        "n2-002",
+        "n2-003",
+        "n2-004"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-101-3",
+      "id": "so-created-n2-101-03",
       "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
+      "sentence": "故郷の古い映画館を何とか残せないものか。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
+      "korean": "고향의 오래된 영화관을 어떻게든 보존할 수는 없을까.",
       "pieces": [
         {
-          "id": "so-extra-n2-101-3-p2",
-          "text": "のか",
+          "id": "so-created-n2-101-03-p4",
+          "text": "ないものか。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-101-3-p3",
-          "text": "何とかして",
+          "id": "so-created-n2-101-03-p1",
+          "text": "故郷の古い",
           "order": 1
         },
         {
-          "id": "so-extra-n2-101-3-p4",
-          "text": "も",
+          "id": "so-created-n2-101-03-p2",
+          "text": "映画館を",
           "order": 2
         },
         {
-          "id": "so-extra-n2-101-3-p1",
-          "text": "っと安く買えないも",
+          "id": "so-created-n2-101-03-p3",
+          "text": "何とか残せ",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-101-3-p3",
-        "so-extra-n2-101-3-p4",
-        "so-extra-n2-101-3-p1",
-        "so-extra-n2-101-3-p2"
+        "so-created-n2-101-03-p1",
+        "so-created-n2-101-03-p2",
+        "so-created-n2-101-03-p3",
+        "so-created-n2-101-03-p4"
       ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '고향의 오래된 영화관을 어떻게든 보존할 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
       "sourceGrammarIds": [
-        "n2-101"
+        "n2-101",
+        "n2-002",
+        "n2-003",
+        "n2-004"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-101-4",
+      "id": "so-created-n2-101-04",
       "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
+      "sentence": "渋滞を避けて空港まで早く行けないものか。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
+      "korean": "교통 체증을 피해 공항까지 빨리 갈 수는 없을까.",
       "pieces": [
         {
-          "id": "so-extra-n2-101-4-p3",
-          "text": "のか",
+          "id": "so-created-n2-101-04-p3",
+          "text": "早く行け",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-101-04-p4",
+          "text": "ないものか。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-101-4-p4",
-          "text": "何とかして",
+          "id": "so-created-n2-101-04-p1",
+          "text": "渋滞を避けて",
           "order": 1
         },
         {
-          "id": "so-extra-n2-101-4-p1",
-          "text": "も",
+          "id": "so-created-n2-101-04-p2",
+          "text": "空港まで",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-101-4-p2",
-          "text": "っと安く買えないも",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-101-4-p4",
-        "so-extra-n2-101-4-p1",
-        "so-extra-n2-101-4-p2",
-        "so-extra-n2-101-4-p3"
+        "so-created-n2-101-04-p1",
+        "so-created-n2-101-04-p2",
+        "so-created-n2-101-04-p3",
+        "so-created-n2-101-04-p4"
       ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '교통 체증을 피해 공항까지 빨리 갈 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
       "sourceGrammarIds": [
-        "n2-101"
+        "n2-101",
+        "n2-002",
+        "n2-003",
+        "n2-004"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-101-5",
+      "id": "so-created-n2-101-05",
       "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
+      "sentence": "余った熱を温室の暖房に利用できないものか。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
+      "korean": "남는 열을 온실 난방에 이용할 수는 없을까.",
       "pieces": [
         {
-          "id": "so-extra-n2-101-5-p4",
-          "text": "のか",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-101-5-p1",
-          "text": "何とかして",
-          "order": 1
-        },
-        {
-          "id": "so-extra-n2-101-5-p2",
-          "text": "も",
+          "id": "so-created-n2-101-05-p2",
+          "text": "温室の暖房に",
           "order": 2
         },
         {
-          "id": "so-extra-n2-101-5-p3",
-          "text": "っと安く買えないも",
+          "id": "so-created-n2-101-05-p3",
+          "text": "利用でき",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-101-05-p4",
+          "text": "ないものか。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-101-05-p1",
+          "text": "余った熱を",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-101-5-p1",
-        "so-extra-n2-101-5-p2",
-        "so-extra-n2-101-5-p3",
-        "so-extra-n2-101-5-p4"
+        "so-created-n2-101-05-p1",
+        "so-created-n2-101-05-p2",
+        "so-created-n2-101-05-p3",
+        "so-created-n2-101-05-p4"
       ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '남는 열을 온실 난방에 이용할 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
       "sourceGrammarIds": [
-        "n2-101"
+        "n2-101",
+        "n2-002",
+        "n2-003",
+        "n2-004"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-101-01",
+      "id": "so-created-n2-101-06",
       "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
+      "sentence": "長年疎遠だった兄と自然に話せないものか。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
+      "korean": "오랫동안 소원했던 형과 자연스럽게 이야기할 수는 없을까.",
       "pieces": [
         {
-          "id": "so-extra20-n2-101-01-p4",
-          "text": "のか",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-101-01-p1",
-          "text": "何とかして",
+          "id": "so-created-n2-101-06-p1",
+          "text": "長年",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-101-01-p2",
-          "text": "も",
+          "id": "so-created-n2-101-06-p2",
+          "text": "疎遠だった",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-101-01-p3",
-          "text": "っと安く買えないも",
+          "id": "so-created-n2-101-06-p3",
+          "text": "兄と自然に話せ",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-101-06-p4",
+          "text": "ないものか。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-101-01-p1",
-        "so-extra20-n2-101-01-p2",
-        "so-extra20-n2-101-01-p3",
-        "so-extra20-n2-101-01-p4"
+        "so-created-n2-101-06-p1",
+        "so-created-n2-101-06-p2",
+        "so-created-n2-101-06-p3",
+        "so-created-n2-101-06-p4"
       ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '오랫동안 소원했던 형과 자연스럽게 이야기할 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
       "sourceGrammarIds": [
-        "n2-101"
+        "n2-101",
+        "n2-002",
+        "n2-003",
+        "n2-004"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-101-02",
+      "id": "so-created-n2-101-07",
       "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
+      "sentence": "雨に弱いこの作物を安定して育てられないものか。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
+      "korean": "비에 약한 이 작물을 안정적으로 재배할 수는 없을까.",
       "pieces": [
         {
-          "id": "so-extra20-n2-101-02-p3",
-          "text": "も",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-101-02-p4",
-          "text": "っと安く買えないも",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-101-02-p1",
-          "text": "のか",
+          "id": "so-created-n2-101-07-p4",
+          "text": "ないものか。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-101-02-p2",
-          "text": "何とかして",
+          "id": "so-created-n2-101-07-p1",
+          "text": "雨に弱いこの",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-101-07-p2",
+          "text": "作物を安定して",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-101-07-p3",
+          "text": "育てられ",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-101-02-p2",
-        "so-extra20-n2-101-02-p3",
-        "so-extra20-n2-101-02-p4",
-        "so-extra20-n2-101-02-p1"
+        "so-created-n2-101-07-p1",
+        "so-created-n2-101-07-p2",
+        "so-created-n2-101-07-p3",
+        "so-created-n2-101-07-p4"
       ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '비에 약한 이 작물을 안정적으로 재배할 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
       "sourceGrammarIds": [
-        "n2-101"
+        "n2-101",
+        "n2-002",
+        "n2-003",
+        "n2-004"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-101-03",
+      "id": "so-created-n2-101-08",
       "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
+      "sentence": "患者の負担を減らして検査時間を短縮できないものか。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
+      "korean": "환자의 부담을 줄이면서 검사 시간을 단축할 수는 없을까.",
       "pieces": [
         {
-          "id": "so-extra20-n2-101-03-p2",
-          "text": "のか",
+          "id": "so-created-n2-101-08-p3",
+          "text": "時間を短縮でき",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-101-08-p4",
+          "text": "ないものか。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-101-03-p3",
-          "text": "何とかして",
+          "id": "so-created-n2-101-08-p1",
+          "text": "患者の負担を",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-101-03-p4",
-          "text": "も",
+          "id": "so-created-n2-101-08-p2",
+          "text": "減らして検査",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-101-03-p1",
-          "text": "っと安く買えないも",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-101-03-p3",
-        "so-extra20-n2-101-03-p4",
-        "so-extra20-n2-101-03-p1",
-        "so-extra20-n2-101-03-p2"
+        "so-created-n2-101-08-p1",
+        "so-created-n2-101-08-p2",
+        "so-created-n2-101-08-p3",
+        "so-created-n2-101-08-p4"
       ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '환자의 부담을 줄이면서 검사 시간을 단축할 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
       "sourceGrammarIds": [
-        "n2-101"
+        "n2-101",
+        "n2-002",
+        "n2-003",
+        "n2-004"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-101-04",
+      "id": "so-created-n2-101-09",
       "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
+      "sentence": "人手を増やさずに夜間の見回りを強化できないものか。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
+      "korean": "인력을 늘리지 않고 야간 순찰을 강화할 수는 없을까.",
       "pieces": [
         {
-          "id": "so-extra20-n2-101-04-p1",
-          "text": "も",
+          "id": "so-created-n2-101-09-p2",
+          "text": "夜間の見回りを",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-101-04-p2",
-          "text": "っと安く買えないも",
+          "id": "so-created-n2-101-09-p3",
+          "text": "強化でき",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-101-04-p3",
-          "text": "のか",
+          "id": "so-created-n2-101-09-p4",
+          "text": "ないものか。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-101-04-p4",
-          "text": "何とかして",
+          "id": "so-created-n2-101-09-p1",
+          "text": "人手を増やさずに",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-101-04-p4",
-        "so-extra20-n2-101-04-p1",
-        "so-extra20-n2-101-04-p2",
-        "so-extra20-n2-101-04-p3"
+        "so-created-n2-101-09-p1",
+        "so-created-n2-101-09-p2",
+        "so-created-n2-101-09-p3",
+        "so-created-n2-101-09-p4"
       ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '인력을 늘리지 않고 야간 순찰을 강화할 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
       "sourceGrammarIds": [
-        "n2-101"
+        "n2-101",
+        "n2-002",
+        "n2-003",
+        "n2-004"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-101-05",
+      "id": "so-created-n2-101-10",
       "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
+      "sentence": "迷子になった犬を日が暮れる前に見つけられないものか。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
+      "korean": "길을 잃은 개를 해가 지기 전에 찾을 수는 없을까.",
       "pieces": [
         {
-          "id": "so-extra20-n2-101-05-p4",
-          "text": "のか",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-101-05-p1",
-          "text": "何とかして",
+          "id": "so-created-n2-101-10-p1",
+          "text": "迷子になった",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-101-05-p2",
-          "text": "も",
+          "id": "so-created-n2-101-10-p2",
+          "text": "犬を日が暮れる",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-101-05-p3",
-          "text": "っと安く買えないも",
+          "id": "so-created-n2-101-10-p3",
+          "text": "前に見つけられ",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-101-10-p4",
+          "text": "ないものか。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-101-05-p1",
-        "so-extra20-n2-101-05-p2",
-        "so-extra20-n2-101-05-p3",
-        "so-extra20-n2-101-05-p4"
+        "so-created-n2-101-10-p1",
+        "so-created-n2-101-10-p2",
+        "so-created-n2-101-10-p3",
+        "so-created-n2-101-10-p4"
       ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '길을 잃은 개를 해가 지기 전에 찾을 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
       "sourceGrammarIds": [
-        "n2-101"
+        "n2-101",
+        "n2-002",
+        "n2-003",
+        "n2-004"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-101-06",
+      "id": "so-created-n2-101-11",
       "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
+      "sentence": "この狭い台所に食器棚をうまく置けないものか。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
+      "korean": "이 좁은 주방에 찬장을 잘 배치할 수는 없을까.",
       "pieces": [
         {
-          "id": "so-extra20-n2-101-06-p3",
-          "text": "っと安く買えないも",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-101-06-p4",
-          "text": "のか",
+          "id": "so-created-n2-101-11-p4",
+          "text": "ないものか。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-101-06-p1",
-          "text": "何とかして",
+          "id": "so-created-n2-101-11-p1",
+          "text": "この狭い",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-101-06-p2",
-          "text": "も",
+          "id": "so-created-n2-101-11-p2",
+          "text": "台所に食器",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-101-11-p3",
+          "text": "棚をうまく置け",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-101-06-p1",
-        "so-extra20-n2-101-06-p2",
-        "so-extra20-n2-101-06-p3",
-        "so-extra20-n2-101-06-p4"
+        "so-created-n2-101-11-p1",
+        "so-created-n2-101-11-p2",
+        "so-created-n2-101-11-p3",
+        "so-created-n2-101-11-p4"
       ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '이 좁은 주방에 찬장을 잘 배치할 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
       "sourceGrammarIds": [
-        "n2-101"
+        "n2-101",
+        "n2-002",
+        "n2-003",
+        "n2-004"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-101-07",
+      "id": "so-created-n2-101-12",
       "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
+      "sentence": "漁師の経験を若い世代へ確実に受け継げないものか。",
+      "sentenceWithBlanks": "漁師の ____ ____ ____ ____",
+      "korean": "어부의 경험을 젊은 세대에 확실히 전수할 수는 없을까.",
       "pieces": [
         {
-          "id": "so-extra20-n2-101-07-p2",
-          "text": "何とかして",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-101-07-p3",
-          "text": "も",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-101-07-p4",
-          "text": "っと安く買えないも",
+          "id": "so-created-n2-101-12-p3",
+          "text": "受け継げ",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-101-07-p1",
-          "text": "のか",
+          "id": "so-created-n2-101-12-p4",
+          "text": "ないものか。",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-101-12-p1",
+          "text": "経験を若い",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-101-12-p2",
+          "text": "世代へ確実に",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-101-07-p2",
-        "so-extra20-n2-101-07-p3",
-        "so-extra20-n2-101-07-p4",
-        "so-extra20-n2-101-07-p1"
+        "so-created-n2-101-12-p1",
+        "so-created-n2-101-12-p2",
+        "so-created-n2-101-12-p3",
+        "so-created-n2-101-12-p4"
       ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '어부의 경험을 젊은 세대에 확실히 전수할 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
       "sourceGrammarIds": [
-        "n2-101"
+        "n2-101",
+        "n2-002",
+        "n2-003",
+        "n2-004"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-101-08",
+      "id": "so-created-n2-101-13",
       "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
+      "sentence": "駅前の空き店舗を地域の交流に生かせないものか。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
+      "korean": "역 앞의 빈 점포를 지역 교류에 활용할 수는 없을까.",
       "pieces": [
         {
-          "id": "so-extra20-n2-101-08-p1",
-          "text": "っと安く買えないも",
+          "id": "so-created-n2-101-13-p2",
+          "text": "店舗を地域の",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-101-13-p3",
+          "text": "交流に生かせ",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-101-08-p2",
-          "text": "のか",
+          "id": "so-created-n2-101-13-p4",
+          "text": "ないものか。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-101-08-p3",
-          "text": "何とかして",
+          "id": "so-created-n2-101-13-p1",
+          "text": "駅前の空き",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-101-08-p4",
-          "text": "も",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-101-08-p3",
-        "so-extra20-n2-101-08-p4",
-        "so-extra20-n2-101-08-p1",
-        "so-extra20-n2-101-08-p2"
+        "so-created-n2-101-13-p1",
+        "so-created-n2-101-13-p2",
+        "so-created-n2-101-13-p3",
+        "so-created-n2-101-13-p4"
       ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '역 앞의 빈 점포를 지역 교류에 활용할 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
       "sourceGrammarIds": [
-        "n2-101"
+        "n2-101",
+        "n2-002",
+        "n2-003",
+        "n2-004"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-101-09",
+      "id": "so-created-n2-101-14",
       "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
+      "sentence": "土砂崩れで孤立した集落へ物資を運べないものか。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
+      "korean": "산사태로 고립된 마을에 물자를 운반할 수는 없을까.",
       "pieces": [
         {
-          "id": "so-extra20-n2-101-09-p4",
-          "text": "何とかして",
+          "id": "so-created-n2-101-14-p1",
+          "text": "土砂崩れで",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-101-09-p1",
-          "text": "も",
+          "id": "so-created-n2-101-14-p2",
+          "text": "孤立した集落へ",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-101-09-p2",
-          "text": "っと安く買えないも",
+          "id": "so-created-n2-101-14-p3",
+          "text": "物資を運べ",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-101-09-p3",
-          "text": "のか",
+          "id": "so-created-n2-101-14-p4",
+          "text": "ないものか。",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-101-09-p4",
-        "so-extra20-n2-101-09-p1",
-        "so-extra20-n2-101-09-p2",
-        "so-extra20-n2-101-09-p3"
+        "so-created-n2-101-14-p1",
+        "so-created-n2-101-14-p2",
+        "so-created-n2-101-14-p3",
+        "so-created-n2-101-14-p4"
       ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '산사태로 고립된 마을에 물자를 운반할 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
       "sourceGrammarIds": [
-        "n2-101"
+        "n2-101",
+        "n2-002",
+        "n2-003",
+        "n2-004"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-101-10",
+      "id": "so-created-n2-101-15",
       "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
+      "sentence": "育児と仕事を両立できる勤務体制を整えられないものか。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
+      "korean": "육아와 일을 병행할 수 있는 근무 체제를 마련할 수는 없을까.",
       "pieces": [
         {
-          "id": "so-extra20-n2-101-10-p3",
-          "text": "っと安く買えないも",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-101-10-p4",
-          "text": "のか",
+          "id": "so-created-n2-101-15-p4",
+          "text": "ないものか。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-101-10-p1",
-          "text": "何とかして",
+          "id": "so-created-n2-101-15-p1",
+          "text": "育児と仕事を",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-101-10-p2",
-          "text": "も",
+          "id": "so-created-n2-101-15-p2",
+          "text": "両立できる勤務",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-101-15-p3",
+          "text": "体制を整えられ",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-101-10-p1",
-        "so-extra20-n2-101-10-p2",
-        "so-extra20-n2-101-10-p3",
-        "so-extra20-n2-101-10-p4"
+        "so-created-n2-101-15-p1",
+        "so-created-n2-101-15-p2",
+        "so-created-n2-101-15-p3",
+        "so-created-n2-101-15-p4"
       ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '육아와 일을 병행할 수 있는 근무 체제를 마련할 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
       "sourceGrammarIds": [
-        "n2-101"
+        "n2-101",
+        "n2-002",
+        "n2-003",
+        "n2-004"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-101-11",
+      "id": "so-created-n2-101-16",
       "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
+      "sentence": "傷んだ祖母の着物を別の形でよみがえらせられないものか。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
+      "korean": "낡은 할머니의 기모노를 다른 형태로 되살릴 수는 없을까.",
       "pieces": [
         {
-          "id": "so-extra20-n2-101-11-p2",
-          "text": "も",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-101-11-p3",
-          "text": "っと安く買えないも",
+          "id": "so-created-n2-101-16-p3",
+          "text": "形でよみがえらせられ",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-101-11-p4",
-          "text": "のか",
+          "id": "so-created-n2-101-16-p4",
+          "text": "ないものか。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-101-11-p1",
-          "text": "何とかして",
+          "id": "so-created-n2-101-16-p1",
+          "text": "傷んだ祖母の",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-101-16-p2",
+          "text": "着物を別の",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-101-11-p1",
-        "so-extra20-n2-101-11-p2",
-        "so-extra20-n2-101-11-p3",
-        "so-extra20-n2-101-11-p4"
+        "so-created-n2-101-16-p1",
+        "so-created-n2-101-16-p2",
+        "so-created-n2-101-16-p3",
+        "so-created-n2-101-16-p4"
       ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '낡은 할머니의 기모노를 다른 형태로 되살릴 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
       "sourceGrammarIds": [
-        "n2-101"
+        "n2-101",
+        "n2-002",
+        "n2-003",
+        "n2-004"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-101-12",
+      "id": "so-created-n2-101-17",
       "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
+      "sentence": "停電中でも井戸のポンプを動かせないものか。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
+      "korean": "정전 중에도 우물 펌프를 작동시킬 수는 없을까.",
       "pieces": [
         {
-          "id": "so-extra20-n2-101-12-p1",
-          "text": "のか",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-101-12-p2",
-          "text": "何とかして",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-101-12-p3",
-          "text": "も",
+          "id": "so-created-n2-101-17-p2",
+          "text": "井戸の",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-101-12-p4",
-          "text": "っと安く買えないも",
+          "id": "so-created-n2-101-17-p3",
+          "text": "ポンプを動かせ",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-101-17-p4",
+          "text": "ないものか。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-101-17-p1",
+          "text": "停電中でも",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-101-12-p2",
-        "so-extra20-n2-101-12-p3",
-        "so-extra20-n2-101-12-p4",
-        "so-extra20-n2-101-12-p1"
+        "so-created-n2-101-17-p1",
+        "so-created-n2-101-17-p2",
+        "so-created-n2-101-17-p3",
+        "so-created-n2-101-17-p4"
       ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '정전 중에도 우물 펌프를 작동시킬 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
       "sourceGrammarIds": [
-        "n2-101"
+        "n2-101",
+        "n2-002",
+        "n2-003",
+        "n2-004"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-101-13",
+      "id": "so-created-n2-101-18",
       "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
+      "sentence": "絶滅寸前の鳥が暮らせる湿地を取り戻せないものか。",
+      "sentenceWithBlanks": "絶滅 ____ ____ ____ ____",
+      "korean": "멸종 직전의 새가 살 수 있는 습지를 되찾을 수는 없을까.",
       "pieces": [
         {
-          "id": "so-extra20-n2-101-13-p4",
-          "text": "も",
+          "id": "so-created-n2-101-18-p1",
+          "text": "寸前の鳥が",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-101-18-p2",
+          "text": "暮らせる",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-101-13-p1",
-          "text": "っと安く買えないも",
+          "id": "so-created-n2-101-18-p3",
+          "text": "湿地を取り戻せ",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-101-13-p2",
-          "text": "のか",
+          "id": "so-created-n2-101-18-p4",
+          "text": "ないものか。",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-101-13-p3",
-          "text": "何とかして",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-101-13-p3",
-        "so-extra20-n2-101-13-p4",
-        "so-extra20-n2-101-13-p1",
-        "so-extra20-n2-101-13-p2"
+        "so-created-n2-101-18-p1",
+        "so-created-n2-101-18-p2",
+        "so-created-n2-101-18-p3",
+        "so-created-n2-101-18-p4"
       ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '멸종 직전의 새가 살 수 있는 습지를 되찾을 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
       "sourceGrammarIds": [
-        "n2-101"
+        "n2-101",
+        "n2-002",
+        "n2-003",
+        "n2-004"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-101-14",
+      "id": "so-created-n2-101-19",
       "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
+      "sentence": "閉鎖された登山道を秋までに復旧できないものか。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
+      "korean": "폐쇄된 등산로를 가을까지 복구할 수는 없을까.",
       "pieces": [
         {
-          "id": "so-extra20-n2-101-14-p3",
-          "text": "のか",
+          "id": "so-created-n2-101-19-p4",
+          "text": "ないものか。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-101-14-p4",
-          "text": "何とかして",
+          "id": "so-created-n2-101-19-p1",
+          "text": "閉鎖された登山",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-101-14-p1",
-          "text": "も",
+          "id": "so-created-n2-101-19-p2",
+          "text": "道を秋までに",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-101-14-p2",
-          "text": "っと安く買えないも",
+          "id": "so-created-n2-101-19-p3",
+          "text": "復旧でき",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-101-14-p4",
-        "so-extra20-n2-101-14-p1",
-        "so-extra20-n2-101-14-p2",
-        "so-extra20-n2-101-14-p3"
+        "so-created-n2-101-19-p1",
+        "so-created-n2-101-19-p2",
+        "so-created-n2-101-19-p3",
+        "so-created-n2-101-19-p4"
       ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '폐쇄된 등산로를 가을까지 복구할 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
       "sourceGrammarIds": [
-        "n2-101"
+        "n2-101",
+        "n2-002",
+        "n2-003",
+        "n2-004"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-101-15",
+      "id": "so-created-n2-101-20",
       "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
+      "sentence": "言葉が通じなくても避難情報を正確に伝えられないものか。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
+      "korean": "말이 통하지 않더라도 대피 정보를 정확히 전달할 수는 없을까.",
       "pieces": [
         {
-          "id": "so-extra20-n2-101-15-p2",
-          "text": "も",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-101-15-p3",
-          "text": "っと安く買えないも",
+          "id": "so-created-n2-101-20-p3",
+          "text": "正確に伝えられ",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-101-15-p4",
-          "text": "のか",
+          "id": "so-created-n2-101-20-p4",
+          "text": "ないものか。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-101-15-p1",
-          "text": "何とかして",
+          "id": "so-created-n2-101-20-p1",
+          "text": "言葉が通じなくても",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-101-20-p2",
+          "text": "避難情報を",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-101-15-p1",
-        "so-extra20-n2-101-15-p2",
-        "so-extra20-n2-101-15-p3",
-        "so-extra20-n2-101-15-p4"
+        "so-created-n2-101-20-p1",
+        "so-created-n2-101-20-p2",
+        "so-created-n2-101-20-p3",
+        "so-created-n2-101-20-p4"
       ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '말이 통하지 않더라도 대피 정보를 정확히 전달할 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
       "sourceGrammarIds": [
-        "n2-101"
+        "n2-101",
+        "n2-002",
+        "n2-003",
+        "n2-004"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-101-16",
+      "id": "so-created-n2-101-21",
       "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
+      "sentence": "廃棄される果物から新しい商品を作れないものか。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
+      "korean": "폐기되는 과일로 새로운 상품을 만들 수는 없을까.",
       "pieces": [
         {
-          "id": "so-extra20-n2-101-16-p1",
-          "text": "何とかして",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-101-16-p2",
-          "text": "も",
+          "id": "so-created-n2-101-21-p2",
+          "text": "果物から新しい",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-101-16-p3",
-          "text": "っと安く買えないも",
+          "id": "so-created-n2-101-21-p3",
+          "text": "商品を作れ",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-101-16-p4",
-          "text": "のか",
+          "id": "so-created-n2-101-21-p4",
+          "text": "ないものか。",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-101-21-p1",
+          "text": "廃棄される",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-101-16-p1",
-        "so-extra20-n2-101-16-p2",
-        "so-extra20-n2-101-16-p3",
-        "so-extra20-n2-101-16-p4"
+        "so-created-n2-101-21-p1",
+        "so-created-n2-101-21-p2",
+        "so-created-n2-101-21-p3",
+        "so-created-n2-101-21-p4"
       ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '폐기되는 과일로 새로운 상품을 만들 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
       "sourceGrammarIds": [
-        "n2-101"
+        "n2-101",
+        "n2-002",
+        "n2-003",
+        "n2-004"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-101-17",
+      "id": "so-created-n2-101-22",
       "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
+      "sentence": "長時間待たずに行政手続きを済ませられないものか。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
+      "korean": "오래 기다리지 않고 행정 절차를 마칠 수는 없을까.",
       "pieces": [
         {
-          "id": "so-extra20-n2-101-17-p4",
-          "text": "っと安く買えないも",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-101-17-p1",
-          "text": "のか",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-101-17-p2",
-          "text": "何とかして",
+          "id": "so-created-n2-101-22-p1",
+          "text": "長時間待たずに",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-101-17-p3",
-          "text": "も",
+          "id": "so-created-n2-101-22-p2",
+          "text": "行政手続きを",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-101-22-p3",
+          "text": "済ませられ",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-101-22-p4",
+          "text": "ないものか。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-101-17-p2",
-        "so-extra20-n2-101-17-p3",
-        "so-extra20-n2-101-17-p4",
-        "so-extra20-n2-101-17-p1"
+        "so-created-n2-101-22-p1",
+        "so-created-n2-101-22-p2",
+        "so-created-n2-101-22-p3",
+        "so-created-n2-101-22-p4"
       ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '오래 기다리지 않고 행정 절차를 마칠 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
       "sourceGrammarIds": [
-        "n2-101"
+        "n2-101",
+        "n2-002",
+        "n2-003",
+        "n2-004"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-101-18",
+      "id": "so-created-n2-101-23",
       "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
+      "sentence": "失われた航海日誌の内容を断片から再現できないものか。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
+      "korean": "사라진 항해 일지의 내용을 단편적인 자료로 복원할 수는 없을까.",
       "pieces": [
         {
-          "id": "so-extra20-n2-101-18-p3",
-          "text": "何とかして",
+          "id": "so-created-n2-101-23-p4",
+          "text": "ないものか。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-101-23-p1",
+          "text": "失われた",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-101-18-p4",
-          "text": "も",
+          "id": "so-created-n2-101-23-p2",
+          "text": "航海日誌の内容を",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-101-18-p1",
-          "text": "っと安く買えないも",
+          "id": "so-created-n2-101-23-p3",
+          "text": "断片から再現でき",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-101-18-p2",
-          "text": "のか",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-101-18-p3",
-        "so-extra20-n2-101-18-p4",
-        "so-extra20-n2-101-18-p1",
-        "so-extra20-n2-101-18-p2"
+        "so-created-n2-101-23-p1",
+        "so-created-n2-101-23-p2",
+        "so-created-n2-101-23-p3",
+        "so-created-n2-101-23-p4"
       ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '사라진 항해 일지의 내용을 단편적인 자료로 복원할 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
       "sourceGrammarIds": [
-        "n2-101"
+        "n2-101",
+        "n2-002",
+        "n2-003",
+        "n2-004"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-101-19",
+      "id": "so-created-n2-101-24",
       "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
+      "sentence": "高齢の住民が坂道を楽に移動できないものか。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
+      "korean": "고령 주민들이 비탈길을 편하게 이동할 수는 없을까.",
       "pieces": [
         {
-          "id": "so-extra20-n2-101-19-p2",
-          "text": "っと安く買えないも",
+          "id": "so-created-n2-101-24-p3",
+          "text": "移動でき",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-101-19-p3",
-          "text": "のか",
+          "id": "so-created-n2-101-24-p4",
+          "text": "ないものか。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-101-19-p4",
-          "text": "何とかして",
+          "id": "so-created-n2-101-24-p1",
+          "text": "高齢の住民が",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-101-19-p1",
-          "text": "も",
+          "id": "so-created-n2-101-24-p2",
+          "text": "坂道を楽に",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-101-19-p4",
-        "so-extra20-n2-101-19-p1",
-        "so-extra20-n2-101-19-p2",
-        "so-extra20-n2-101-19-p3"
+        "so-created-n2-101-24-p1",
+        "so-created-n2-101-24-p2",
+        "so-created-n2-101-24-p3",
+        "so-created-n2-101-24-p4"
       ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '고령 주민들이 비탈길을 편하게 이동할 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
       "sourceGrammarIds": [
-        "n2-101"
+        "n2-101",
+        "n2-002",
+        "n2-003",
+        "n2-004"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-101-20",
+      "id": "so-created-n2-101-25",
       "level": "N2",
-      "sentence": "何とかしてもっと安く買えないものか。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "어떻게 해서든 더 싸게 살 수는 없을까.",
+      "sentence": "対立する二つの商店街が協力して祭りを開けないものか。",
+      "sentenceWithBlanks": "対立する ____ ____ ____ ____",
+      "korean": "대립하는 두 상점가가 협력해서 축제를 열 수는 없을까.",
       "pieces": [
         {
-          "id": "so-extra20-n2-101-20-p1",
-          "text": "何とかして",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-101-20-p2",
-          "text": "も",
+          "id": "so-created-n2-101-25-p2",
+          "text": "街が協力して",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-101-20-p3",
-          "text": "っと安く買えないも",
+          "id": "so-created-n2-101-25-p3",
+          "text": "祭りを開け",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-101-20-p4",
-          "text": "のか",
+          "id": "so-created-n2-101-25-p4",
+          "text": "ないものか。",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-101-25-p1",
+          "text": "二つの商店",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-101-20-p1",
-        "so-extra20-n2-101-20-p2",
-        "so-extra20-n2-101-20-p3",
-        "so-extra20-n2-101-20-p4"
+        "so-created-n2-101-25-p1",
+        "so-created-n2-101-25-p2",
+        "so-created-n2-101-25-p3",
+        "so-created-n2-101-25-p4"
       ],
-      "explanation": "「ないものか」는 ~하지 못하는 것일까라는 뜻이다. 실현이 어려운 바람·기대.",
+      "explanation": "「ないものか」는 '~하지 못하는 것일까'라는 뜻을 나타낸다. 이 문장에서는 '대립하는 두 상점가가 협력해서 축제를 열 수는 없을까.'라는 상황에 쓰였으며, 실현이 어려운 바람·기대. 주의할 점은 실현이 어려운 바람. 「何とかして」와 자주 함께 씀. 독백에 가까운 표현.",
       "sourceGrammarIds": [
-        "n2-101"
+        "n2-101",
+        "n2-002",
+        "n2-003",
+        "n2-004"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     }
   ]

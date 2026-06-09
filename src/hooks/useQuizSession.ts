@@ -11,6 +11,7 @@ import type {
 import {
   buildQuizSet,
   getQuestionsByIds,
+  getQuizQuestionCount,
   getReviewQuestions,
   hasUniqueAnswerGrammars,
 } from "../utils/quizSetBuilder";
@@ -111,7 +112,7 @@ function normalizeSetIndex(
     return currentSetIndex;
   }
 
-  const totalSets = Math.max(1, Math.ceil(questionPool.length / setSize));
+  const totalSets = Math.max(1, Math.ceil(getQuizQuestionCount(questionPool) / setSize));
 
   return currentSetIndex % totalSets;
 }
@@ -129,7 +130,7 @@ function createNormalState(
     currentSetSize,
     phase: "NORMAL",
     currentQuestionIndex: 0,
-    currentQuestions: buildQuizSet(questionPool, currentSetSize, normalizedSetIndex, baseSetSize),
+    currentQuestions: buildQuizSet(questionPool, currentSetSize, normalizedSetIndex),
     wrongQueue: [],
     correctCount: 0,
     wrongCount: 0,

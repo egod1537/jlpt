@@ -267,15 +267,23 @@
       ]
     },
     {
-      "id": "fb-extra-n2-141-1",
+      "id": "fb-created-n2-141-01",
       "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlank": "結果（　　　）、まず努力を認めたい。",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
-      "answerChoiceId": "fb-extra-n2-141-1-b",
+      "sentence": "費用はさておき、この土地が洪水に耐えられるかを調べる必要がある。",
+      "sentenceWithBlank": "費用（　　　）、この土地が洪水に耐えられるかを調べる必要がある。",
+      "korean": "비용은 잠시 접어두고, 이 땅이 홍수를 견딜 수 있는지 조사할 필요가 있다.",
+      "answerChoiceId": "fb-created-n2-141-01-b",
       "choices": [
         {
-          "id": "fb-extra-n2-141-1-c",
+          "id": "fb-created-n2-141-01-b",
+          "text": "はさておき",
+          "grammarId": "n2-141",
+          "baseExpression": "はさておき",
+          "conjugatedExpression": "はさておき",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-141-01-c",
           "text": "ようがない",
           "grammarId": "n2-163",
           "baseExpression": "ようがない",
@@ -283,7 +291,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-141-1-d",
+          "id": "fb-created-n2-141-01-d",
           "text": "ようかまいか",
           "grammarId": "n2-164",
           "baseExpression": "ようかまいか",
@@ -291,23 +299,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-141-1-a",
+          "id": "fb-created-n2-141-01-a",
           "text": "ようではないか",
           "grammarId": "n2-165",
           "baseExpression": "ようではないか",
           "conjugatedExpression": "ようではないか",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-141-1-b",
-          "text": "はさておき",
-          "grammarId": "n2-141",
-          "baseExpression": "はさておき",
-          "conjugatedExpression": "はさておき",
-          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '비용은 잠시 접어두고, 이 땅이 홍수를 견딜 수 있는지 조사할 필요가 있다.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
       "sourceGrammarIds": [
         "n2-141",
         "n2-163",
@@ -315,237 +315,20 @@
         "n2-165"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra-n2-141-2",
+      "id": "fb-created-n2-141-02",
       "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlank": "結果（　　　）、まず努力を認めたい。",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
-      "answerChoiceId": "fb-extra-n2-141-2-c",
+      "sentence": "見た目はさておき、この靴は長時間歩いても足が疲れない。",
+      "sentenceWithBlank": "見た目（　　　）、この靴は長時間歩いても足が疲れない。",
+      "korean": "외관은 잠시 접어두고, 이 신발은 오래 걸어도 발이 피곤하지 않다.",
+      "answerChoiceId": "fb-created-n2-141-02-b",
       "choices": [
         {
-          "id": "fb-extra-n2-141-2-d",
-          "text": "ところをみると",
-          "grammarId": "n2-089",
-          "baseExpression": "ところをみると",
-          "conjugatedExpression": "ところをみると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-141-2-a",
-          "text": "としてない",
-          "grammarId": "n2-090",
-          "baseExpression": "としてない",
-          "conjugatedExpression": "としてない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-141-2-b",
-          "text": "とともに",
-          "grammarId": "n2-091",
-          "baseExpression": "とともに",
-          "conjugatedExpression": "とともに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-141-2-c",
-          "text": "はさておき",
-          "grammarId": "n2-141",
-          "baseExpression": "はさておき",
-          "conjugatedExpression": "はさておき",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
-      "sourceGrammarIds": [
-        "n2-141",
-        "n2-089",
-        "n2-090",
-        "n2-091"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-141-3",
-      "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlank": "結果（　　　）、まず努力を認めたい。",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
-      "answerChoiceId": "fb-extra-n2-141-3-d",
-      "choices": [
-        {
-          "id": "fb-extra-n2-141-3-a",
-          "text": "ぬきで",
-          "grammarId": "n2-132",
-          "baseExpression": "ぬきで",
-          "conjugatedExpression": "ぬきで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-141-3-b",
-          "text": "ぬく",
-          "grammarId": "n2-133",
-          "baseExpression": "ぬく",
-          "conjugatedExpression": "ぬく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-141-3-c",
-          "text": "の上で",
-          "grammarId": "n2-134",
-          "baseExpression": "の上で",
-          "conjugatedExpression": "の上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-141-3-d",
-          "text": "はさておき",
-          "grammarId": "n2-141",
-          "baseExpression": "はさておき",
-          "conjugatedExpression": "はさておき",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
-      "sourceGrammarIds": [
-        "n2-141",
-        "n2-132",
-        "n2-133",
-        "n2-134"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-141-4",
-      "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlank": "結果（　　　）、まず努力を認めたい。",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
-      "answerChoiceId": "fb-extra-n2-141-4-a",
-      "choices": [
-        {
-          "id": "fb-extra-n2-141-4-b",
-          "text": "もしない",
-          "grammarId": "n2-152",
-          "baseExpression": "もしない",
-          "conjugatedExpression": "もしない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-141-4-c",
-          "text": "もの",
-          "grammarId": "n2-153",
-          "baseExpression": "もの",
-          "conjugatedExpression": "もの",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-141-4-d",
-          "text": "ものか",
-          "grammarId": "n2-154",
-          "baseExpression": "ものか",
-          "conjugatedExpression": "ものか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-141-4-a",
-          "text": "はさておき",
-          "grammarId": "n2-141",
-          "baseExpression": "はさておき",
-          "conjugatedExpression": "はさておき",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
-      "sourceGrammarIds": [
-        "n2-141",
-        "n2-152",
-        "n2-153",
-        "n2-154"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-141-5",
-      "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlank": "結果（　　　）、まず努力を認めたい。",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
-      "answerChoiceId": "fb-extra-n2-141-5-b",
-      "choices": [
-        {
-          "id": "fb-extra-n2-141-5-c",
-          "text": "かぎりだ",
-          "grammarId": "n2-014",
-          "baseExpression": "かぎりだ",
-          "conjugatedExpression": "かぎりだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-141-5-d",
-          "text": "かぎりでは",
-          "grammarId": "n2-015",
-          "baseExpression": "かぎりでは",
-          "conjugatedExpression": "かぎりでは",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-141-5-a",
-          "text": "かける",
-          "grammarId": "n2-016",
-          "baseExpression": "かける",
-          "conjugatedExpression": "かける",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-141-5-b",
-          "text": "はさておき",
-          "grammarId": "n2-141",
-          "baseExpression": "はさておき",
-          "conjugatedExpression": "はさておき",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
-      "sourceGrammarIds": [
-        "n2-141",
-        "n2-014",
-        "n2-015",
-        "n2-016"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-141-01",
-      "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlank": "結果（　　　）、まず努力を認めたい。",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
-      "answerChoiceId": "fb-extra20-n2-141-01-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-141-01-c",
+          "id": "fb-created-n2-141-02-c",
           "text": "ようがない",
           "grammarId": "n2-163",
           "baseExpression": "ようがない",
@@ -553,7 +336,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-141-01-d",
+          "id": "fb-created-n2-141-02-d",
           "text": "ようかまいか",
           "grammarId": "n2-164",
           "baseExpression": "ようかまいか",
@@ -561,7 +344,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-141-01-a",
+          "id": "fb-created-n2-141-02-a",
           "text": "ようではないか",
           "grammarId": "n2-165",
           "baseExpression": "ようではないか",
@@ -569,7 +352,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-141-01-b",
+          "id": "fb-created-n2-141-02-b",
           "text": "はさておき",
           "grammarId": "n2-141",
           "baseExpression": "はさておき",
@@ -577,7 +360,7 @@
           "isSimilarDistractor": false
         }
       ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '외관은 잠시 접어두고, 이 신발은 오래 걸어도 발이 피곤하지 않다.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
       "sourceGrammarIds": [
         "n2-141",
         "n2-163",
@@ -585,253 +368,20 @@
         "n2-165"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-141-02",
+      "id": "fb-created-n2-141-03",
       "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlank": "結果（　　　）、まず努力を認めたい。",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
-      "answerChoiceId": "fb-extra20-n2-141-02-c",
+      "sentence": "冗談はさておき、避難経路を今夜中に確認しておこう。",
+      "sentenceWithBlank": "冗談（　　　）、避難経路を今夜中に確認しておこう。",
+      "korean": "농담은 잠시 접어두고, 대피 경로를 오늘 밤 안에 확인해 두자.",
+      "answerChoiceId": "fb-created-n2-141-03-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-141-02-b",
-          "text": "とともに",
-          "grammarId": "n2-091",
-          "baseExpression": "とともに",
-          "conjugatedExpression": "とともに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-141-02-c",
-          "text": "はさておき",
-          "grammarId": "n2-141",
-          "baseExpression": "はさておき",
-          "conjugatedExpression": "はさておき",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-141-02-d",
-          "text": "ところをみると",
-          "grammarId": "n2-089",
-          "baseExpression": "ところをみると",
-          "conjugatedExpression": "ところをみると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-141-02-a",
-          "text": "としてない",
-          "grammarId": "n2-090",
-          "baseExpression": "としてない",
-          "conjugatedExpression": "としてない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
-      "sourceGrammarIds": [
-        "n2-141",
-        "n2-089",
-        "n2-090",
-        "n2-091"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-141-03",
-      "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlank": "結果（　　　）、まず努力を認めたい。",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
-      "answerChoiceId": "fb-extra20-n2-141-03-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-141-03-a",
-          "text": "ぬきで",
-          "grammarId": "n2-132",
-          "baseExpression": "ぬきで",
-          "conjugatedExpression": "ぬきで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-141-03-b",
-          "text": "ぬく",
-          "grammarId": "n2-133",
-          "baseExpression": "ぬく",
-          "conjugatedExpression": "ぬく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-141-03-c",
-          "text": "の上で",
-          "grammarId": "n2-134",
-          "baseExpression": "の上で",
-          "conjugatedExpression": "の上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-141-03-d",
-          "text": "はさておき",
-          "grammarId": "n2-141",
-          "baseExpression": "はさておき",
-          "conjugatedExpression": "はさておき",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
-      "sourceGrammarIds": [
-        "n2-141",
-        "n2-132",
-        "n2-133",
-        "n2-134"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-141-04",
-      "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlank": "結果（　　　）、まず努力を認めたい。",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
-      "answerChoiceId": "fb-extra20-n2-141-04-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-141-04-d",
-          "text": "ものか",
-          "grammarId": "n2-154",
-          "baseExpression": "ものか",
-          "conjugatedExpression": "ものか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-141-04-a",
-          "text": "はさておき",
-          "grammarId": "n2-141",
-          "baseExpression": "はさておき",
-          "conjugatedExpression": "はさておき",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-141-04-b",
-          "text": "もしない",
-          "grammarId": "n2-152",
-          "baseExpression": "もしない",
-          "conjugatedExpression": "もしない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-141-04-c",
-          "text": "もの",
-          "grammarId": "n2-153",
-          "baseExpression": "もの",
-          "conjugatedExpression": "もの",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
-      "sourceGrammarIds": [
-        "n2-141",
-        "n2-152",
-        "n2-153",
-        "n2-154"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-141-05",
-      "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlank": "結果（　　　）、まず努力を認めたい。",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
-      "answerChoiceId": "fb-extra20-n2-141-05-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-141-05-c",
-          "text": "かぎりだ",
-          "grammarId": "n2-014",
-          "baseExpression": "かぎりだ",
-          "conjugatedExpression": "かぎりだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-141-05-d",
-          "text": "かぎりでは",
-          "grammarId": "n2-015",
-          "baseExpression": "かぎりでは",
-          "conjugatedExpression": "かぎりでは",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-141-05-a",
-          "text": "かける",
-          "grammarId": "n2-016",
-          "baseExpression": "かける",
-          "conjugatedExpression": "かける",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-141-05-b",
-          "text": "はさておき",
-          "grammarId": "n2-141",
-          "baseExpression": "はさておき",
-          "conjugatedExpression": "はさておき",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
-      "sourceGrammarIds": [
-        "n2-141",
-        "n2-014",
-        "n2-015",
-        "n2-016"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-141-06",
-      "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlank": "結果（　　　）、まず努力を認めたい。",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
-      "answerChoiceId": "fb-extra20-n2-141-06-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-141-06-b",
-          "text": "はさておき",
-          "grammarId": "n2-141",
-          "baseExpression": "はさておき",
-          "conjugatedExpression": "はさておき",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-141-06-c",
-          "text": "ようがない",
-          "grammarId": "n2-163",
-          "baseExpression": "ようがない",
-          "conjugatedExpression": "ようがない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-141-06-d",
+          "id": "fb-created-n2-141-03-d",
           "text": "ようかまいか",
           "grammarId": "n2-164",
           "baseExpression": "ようかまいか",
@@ -839,253 +389,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-141-06-a",
-          "text": "ようではないか",
-          "grammarId": "n2-165",
-          "baseExpression": "ようではないか",
-          "conjugatedExpression": "ようではないか",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
-      "sourceGrammarIds": [
-        "n2-141",
-        "n2-163",
-        "n2-164",
-        "n2-165"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-141-07",
-      "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlank": "結果（　　　）、まず努力を認めたい。",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
-      "answerChoiceId": "fb-extra20-n2-141-07-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-141-07-a",
-          "text": "としてない",
-          "grammarId": "n2-090",
-          "baseExpression": "としてない",
-          "conjugatedExpression": "としてない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-141-07-b",
-          "text": "とともに",
-          "grammarId": "n2-091",
-          "baseExpression": "とともに",
-          "conjugatedExpression": "とともに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-141-07-c",
-          "text": "はさておき",
-          "grammarId": "n2-141",
-          "baseExpression": "はさておき",
-          "conjugatedExpression": "はさておき",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-141-07-d",
-          "text": "ところをみると",
-          "grammarId": "n2-089",
-          "baseExpression": "ところをみると",
-          "conjugatedExpression": "ところをみると",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
-      "sourceGrammarIds": [
-        "n2-141",
-        "n2-089",
-        "n2-090",
-        "n2-091"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-141-08",
-      "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlank": "結果（　　　）、まず努力を認めたい。",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
-      "answerChoiceId": "fb-extra20-n2-141-08-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-141-08-d",
-          "text": "はさておき",
-          "grammarId": "n2-141",
-          "baseExpression": "はさておき",
-          "conjugatedExpression": "はさておき",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-141-08-a",
-          "text": "ぬきで",
-          "grammarId": "n2-132",
-          "baseExpression": "ぬきで",
-          "conjugatedExpression": "ぬきで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-141-08-b",
-          "text": "ぬく",
-          "grammarId": "n2-133",
-          "baseExpression": "ぬく",
-          "conjugatedExpression": "ぬく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-141-08-c",
-          "text": "の上で",
-          "grammarId": "n2-134",
-          "baseExpression": "の上で",
-          "conjugatedExpression": "の上で",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
-      "sourceGrammarIds": [
-        "n2-141",
-        "n2-132",
-        "n2-133",
-        "n2-134"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-141-09",
-      "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlank": "結果（　　　）、まず努力を認めたい。",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
-      "answerChoiceId": "fb-extra20-n2-141-09-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-141-09-c",
-          "text": "もの",
-          "grammarId": "n2-153",
-          "baseExpression": "もの",
-          "conjugatedExpression": "もの",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-141-09-d",
-          "text": "ものか",
-          "grammarId": "n2-154",
-          "baseExpression": "ものか",
-          "conjugatedExpression": "ものか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-141-09-a",
-          "text": "はさておき",
-          "grammarId": "n2-141",
-          "baseExpression": "はさておき",
-          "conjugatedExpression": "はさておき",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-141-09-b",
-          "text": "もしない",
-          "grammarId": "n2-152",
-          "baseExpression": "もしない",
-          "conjugatedExpression": "もしない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
-      "sourceGrammarIds": [
-        "n2-141",
-        "n2-152",
-        "n2-153",
-        "n2-154"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-141-10",
-      "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlank": "結果（　　　）、まず努力を認めたい。",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
-      "answerChoiceId": "fb-extra20-n2-141-10-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-141-10-b",
-          "text": "はさておき",
-          "grammarId": "n2-141",
-          "baseExpression": "はさておき",
-          "conjugatedExpression": "はさておき",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-141-10-c",
-          "text": "かぎりだ",
-          "grammarId": "n2-014",
-          "baseExpression": "かぎりだ",
-          "conjugatedExpression": "かぎりだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-141-10-d",
-          "text": "かぎりでは",
-          "grammarId": "n2-015",
-          "baseExpression": "かぎりでは",
-          "conjugatedExpression": "かぎりでは",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-141-10-a",
-          "text": "かける",
-          "grammarId": "n2-016",
-          "baseExpression": "かける",
-          "conjugatedExpression": "かける",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
-      "sourceGrammarIds": [
-        "n2-141",
-        "n2-014",
-        "n2-015",
-        "n2-016"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-141-11",
-      "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlank": "結果（　　　）、まず努力を認めたい。",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
-      "answerChoiceId": "fb-extra20-n2-141-11-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-141-11-a",
+          "id": "fb-created-n2-141-03-a",
           "text": "ようではないか",
           "grammarId": "n2-165",
           "baseExpression": "ようではないか",
@@ -1093,7 +397,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-141-11-b",
+          "id": "fb-created-n2-141-03-b",
           "text": "はさておき",
           "grammarId": "n2-141",
           "baseExpression": "はさておき",
@@ -1101,285 +405,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-141-11-c",
-          "text": "ようがない",
-          "grammarId": "n2-163",
-          "baseExpression": "ようがない",
-          "conjugatedExpression": "ようがない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-141-11-d",
-          "text": "ようかまいか",
-          "grammarId": "n2-164",
-          "baseExpression": "ようかまいか",
-          "conjugatedExpression": "ようかまいか",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
-      "sourceGrammarIds": [
-        "n2-141",
-        "n2-163",
-        "n2-164",
-        "n2-165"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-141-12",
-      "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlank": "結果（　　　）、まず努力を認めたい。",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
-      "answerChoiceId": "fb-extra20-n2-141-12-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-141-12-d",
-          "text": "ところをみると",
-          "grammarId": "n2-089",
-          "baseExpression": "ところをみると",
-          "conjugatedExpression": "ところをみると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-141-12-a",
-          "text": "としてない",
-          "grammarId": "n2-090",
-          "baseExpression": "としてない",
-          "conjugatedExpression": "としてない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-141-12-b",
-          "text": "とともに",
-          "grammarId": "n2-091",
-          "baseExpression": "とともに",
-          "conjugatedExpression": "とともに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-141-12-c",
-          "text": "はさておき",
-          "grammarId": "n2-141",
-          "baseExpression": "はさておき",
-          "conjugatedExpression": "はさておき",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
-      "sourceGrammarIds": [
-        "n2-141",
-        "n2-089",
-        "n2-090",
-        "n2-091"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-141-13",
-      "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlank": "結果（　　　）、まず努力を認めたい。",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
-      "answerChoiceId": "fb-extra20-n2-141-13-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-141-13-c",
-          "text": "の上で",
-          "grammarId": "n2-134",
-          "baseExpression": "の上で",
-          "conjugatedExpression": "の上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-141-13-d",
-          "text": "はさておき",
-          "grammarId": "n2-141",
-          "baseExpression": "はさておき",
-          "conjugatedExpression": "はさておき",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-141-13-a",
-          "text": "ぬきで",
-          "grammarId": "n2-132",
-          "baseExpression": "ぬきで",
-          "conjugatedExpression": "ぬきで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-141-13-b",
-          "text": "ぬく",
-          "grammarId": "n2-133",
-          "baseExpression": "ぬく",
-          "conjugatedExpression": "ぬく",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
-      "sourceGrammarIds": [
-        "n2-141",
-        "n2-132",
-        "n2-133",
-        "n2-134"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-141-14",
-      "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlank": "結果（　　　）、まず努力を認めたい。",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
-      "answerChoiceId": "fb-extra20-n2-141-14-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-141-14-b",
-          "text": "もしない",
-          "grammarId": "n2-152",
-          "baseExpression": "もしない",
-          "conjugatedExpression": "もしない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-141-14-c",
-          "text": "もの",
-          "grammarId": "n2-153",
-          "baseExpression": "もの",
-          "conjugatedExpression": "もの",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-141-14-d",
-          "text": "ものか",
-          "grammarId": "n2-154",
-          "baseExpression": "ものか",
-          "conjugatedExpression": "ものか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-141-14-a",
-          "text": "はさておき",
-          "grammarId": "n2-141",
-          "baseExpression": "はさておき",
-          "conjugatedExpression": "はさておき",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
-      "sourceGrammarIds": [
-        "n2-141",
-        "n2-152",
-        "n2-153",
-        "n2-154"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-141-15",
-      "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlank": "結果（　　　）、まず努力を認めたい。",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
-      "answerChoiceId": "fb-extra20-n2-141-15-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-141-15-a",
-          "text": "かける",
-          "grammarId": "n2-016",
-          "baseExpression": "かける",
-          "conjugatedExpression": "かける",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-141-15-b",
-          "text": "はさておき",
-          "grammarId": "n2-141",
-          "baseExpression": "はさておき",
-          "conjugatedExpression": "はさておき",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-141-15-c",
-          "text": "かぎりだ",
-          "grammarId": "n2-014",
-          "baseExpression": "かぎりだ",
-          "conjugatedExpression": "かぎりだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-141-15-d",
-          "text": "かぎりでは",
-          "grammarId": "n2-015",
-          "baseExpression": "かぎりでは",
-          "conjugatedExpression": "かぎりでは",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
-      "sourceGrammarIds": [
-        "n2-141",
-        "n2-014",
-        "n2-015",
-        "n2-016"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-141-16",
-      "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlank": "結果（　　　）、まず努力を認めたい。",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
-      "answerChoiceId": "fb-extra20-n2-141-16-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-141-16-d",
-          "text": "ようかまいか",
-          "grammarId": "n2-164",
-          "baseExpression": "ようかまいか",
-          "conjugatedExpression": "ようかまいか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-141-16-a",
-          "text": "ようではないか",
-          "grammarId": "n2-165",
-          "baseExpression": "ようではないか",
-          "conjugatedExpression": "ようではないか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-141-16-b",
-          "text": "はさておき",
-          "grammarId": "n2-141",
-          "baseExpression": "はさておき",
-          "conjugatedExpression": "はさておき",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-141-16-c",
+          "id": "fb-created-n2-141-03-c",
           "text": "ようがない",
           "grammarId": "n2-163",
           "baseExpression": "ようがない",
@@ -1387,7 +413,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '농담은 잠시 접어두고, 대피 경로를 오늘 밤 안에 확인해 두자.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
       "sourceGrammarIds": [
         "n2-141",
         "n2-163",
@@ -1395,21 +421,28 @@
         "n2-165"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-141-17",
+      "id": "fb-created-n2-141-04",
       "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlank": "結果（　　　）、まず努力を認めたい。",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
-      "answerChoiceId": "fb-extra20-n2-141-17-c",
+      "sentence": "過去の対立はさておき、両社は共同で新薬を開発することになった。",
+      "sentenceWithBlank": "過去の対立（　　　）、両社は共同で新薬を開発することになった。",
+      "korean": "과거의 대립은 잠시 접어두고, 양사는 공동으로 신약을 개발하게 되었다.",
+      "answerChoiceId": "fb-created-n2-141-04-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-141-17-c",
+          "id": "fb-created-n2-141-04-a",
+          "text": "ようではないか",
+          "grammarId": "n2-165",
+          "baseExpression": "ようではないか",
+          "conjugatedExpression": "ようではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-04-b",
           "text": "はさておき",
           "grammarId": "n2-141",
           "baseExpression": "はさておき",
@@ -1417,69 +450,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-141-17-d",
-          "text": "ところをみると",
-          "grammarId": "n2-089",
-          "baseExpression": "ところをみると",
-          "conjugatedExpression": "ところをみると",
+          "id": "fb-created-n2-141-04-c",
+          "text": "ようがない",
+          "grammarId": "n2-163",
+          "baseExpression": "ようがない",
+          "conjugatedExpression": "ようがない",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-141-17-a",
-          "text": "としてない",
-          "grammarId": "n2-090",
-          "baseExpression": "としてない",
-          "conjugatedExpression": "としてない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-141-17-b",
-          "text": "とともに",
-          "grammarId": "n2-091",
-          "baseExpression": "とともに",
-          "conjugatedExpression": "とともに",
+          "id": "fb-created-n2-141-04-d",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '과거의 대립은 잠시 접어두고, 양사는 공동으로 신약을 개발하게 되었다.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
       "sourceGrammarIds": [
         "n2-141",
-        "n2-089",
-        "n2-090",
-        "n2-091"
+        "n2-163",
+        "n2-164",
+        "n2-165"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-141-18",
+      "id": "fb-created-n2-141-05",
       "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlank": "結果（　　　）、まず努力を認めたい。",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
-      "answerChoiceId": "fb-extra20-n2-141-18-d",
+      "sentence": "味はさておき、この保存食なら停電時にも調理せずに食べられる。",
+      "sentenceWithBlank": "味（　　　）、この保存食なら停電時にも調理せずに食べられる。",
+      "korean": "맛은 잠시 접어두고, 이 비상식량이라면 정전 때에도 조리하지 않고 먹을 수 있다.",
+      "answerChoiceId": "fb-created-n2-141-05-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-141-18-b",
-          "text": "ぬく",
-          "grammarId": "n2-133",
-          "baseExpression": "ぬく",
-          "conjugatedExpression": "ぬく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-141-18-c",
-          "text": "の上で",
-          "grammarId": "n2-134",
-          "baseExpression": "の上で",
-          "conjugatedExpression": "の上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-141-18-d",
+          "id": "fb-created-n2-141-05-b",
           "text": "はさておき",
           "grammarId": "n2-141",
           "baseExpression": "はさておき",
@@ -1487,37 +495,121 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-141-18-a",
-          "text": "ぬきで",
-          "grammarId": "n2-132",
-          "baseExpression": "ぬきで",
-          "conjugatedExpression": "ぬきで",
+          "id": "fb-created-n2-141-05-c",
+          "text": "ようがない",
+          "grammarId": "n2-163",
+          "baseExpression": "ようがない",
+          "conjugatedExpression": "ようがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-05-d",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-05-a",
+          "text": "ようではないか",
+          "grammarId": "n2-165",
+          "baseExpression": "ようではないか",
+          "conjugatedExpression": "ようではないか",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '맛은 잠시 접어두고, 이 비상식량이라면 정전 때에도 조리하지 않고 먹을 수 있다.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
       "sourceGrammarIds": [
         "n2-141",
-        "n2-132",
-        "n2-133",
-        "n2-134"
+        "n2-163",
+        "n2-164",
+        "n2-165"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-141-19",
+      "id": "fb-created-n2-141-06",
       "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlank": "結果（　　　）、まず努力を認めたい。",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
-      "answerChoiceId": "fb-extra20-n2-141-19-a",
+      "sentence": "責任の所在はさておき、負傷者を安全な場所へ運ぶのが先だ。",
+      "sentenceWithBlank": "責任の所在（　　　）、負傷者を安全な場所へ運ぶのが先だ。",
+      "korean": "책임 소재는 잠시 접어두고, 부상자를 안전한 곳으로 옮기는 것이 우선이다.",
+      "answerChoiceId": "fb-created-n2-141-06-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-141-19-a",
+          "id": "fb-created-n2-141-06-c",
+          "text": "ようがない",
+          "grammarId": "n2-163",
+          "baseExpression": "ようがない",
+          "conjugatedExpression": "ようがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-06-d",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-06-a",
+          "text": "ようではないか",
+          "grammarId": "n2-165",
+          "baseExpression": "ようではないか",
+          "conjugatedExpression": "ようではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-06-b",
+          "text": "はさておき",
+          "grammarId": "n2-141",
+          "baseExpression": "はさておき",
+          "conjugatedExpression": "はさておき",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '책임 소재는 잠시 접어두고, 부상자를 안전한 곳으로 옮기는 것이 우선이다.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
+      "sourceGrammarIds": [
+        "n2-141",
+        "n2-163",
+        "n2-164",
+        "n2-165"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-141-07",
+      "level": "N2",
+      "sentence": "給料はさておき、彼は海洋生物を守れる仕事を選んだ。",
+      "sentenceWithBlank": "給料（　　　）、彼は海洋生物を守れる仕事を選んだ。",
+      "korean": "급여는 잠시 접어두고, 그는 해양 생물을 보호할 수 있는 일을 선택했다.",
+      "answerChoiceId": "fb-created-n2-141-07-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-141-07-d",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-07-a",
+          "text": "ようではないか",
+          "grammarId": "n2-165",
+          "baseExpression": "ようではないか",
+          "conjugatedExpression": "ようではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-07-b",
           "text": "はさておき",
           "grammarId": "n2-141",
           "baseExpression": "はさておき",
@@ -1525,69 +617,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-141-19-b",
-          "text": "もしない",
-          "grammarId": "n2-152",
-          "baseExpression": "もしない",
-          "conjugatedExpression": "もしない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-141-19-c",
-          "text": "もの",
-          "grammarId": "n2-153",
-          "baseExpression": "もの",
-          "conjugatedExpression": "もの",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-141-19-d",
-          "text": "ものか",
-          "grammarId": "n2-154",
-          "baseExpression": "ものか",
-          "conjugatedExpression": "ものか",
+          "id": "fb-created-n2-141-07-c",
+          "text": "ようがない",
+          "grammarId": "n2-163",
+          "baseExpression": "ようがない",
+          "conjugatedExpression": "ようがない",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '급여는 잠시 접어두고, 그는 해양 생물을 보호할 수 있는 일을 선택했다.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
       "sourceGrammarIds": [
         "n2-141",
-        "n2-152",
-        "n2-153",
-        "n2-154"
+        "n2-163",
+        "n2-164",
+        "n2-165"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-141-20",
+      "id": "fb-created-n2-141-08",
       "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlank": "結果（　　　）、まず努力を認めたい。",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
-      "answerChoiceId": "fb-extra20-n2-141-20-b",
+      "sentence": "勝敗はさておき、選手たちが無事に戻ったことを喜びたい。",
+      "sentenceWithBlank": "勝敗（　　　）、選手たちが無事に戻ったことを喜びたい。",
+      "korean": "승패는 잠시 접어두고, 선수들이 무사히 돌아온 것을 기뻐하고 싶다.",
+      "answerChoiceId": "fb-created-n2-141-08-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-141-20-d",
-          "text": "かぎりでは",
-          "grammarId": "n2-015",
-          "baseExpression": "かぎりでは",
-          "conjugatedExpression": "かぎりでは",
+          "id": "fb-created-n2-141-08-a",
+          "text": "ようではないか",
+          "grammarId": "n2-165",
+          "baseExpression": "ようではないか",
+          "conjugatedExpression": "ようではないか",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-141-20-a",
-          "text": "かける",
-          "grammarId": "n2-016",
-          "baseExpression": "かける",
-          "conjugatedExpression": "かける",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-141-20-b",
+          "id": "fb-created-n2-141-08-b",
           "text": "はさておき",
           "grammarId": "n2-141",
           "baseExpression": "はさておき",
@@ -1595,25 +662,933 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-141-20-c",
-          "text": "かぎりだ",
-          "grammarId": "n2-014",
-          "baseExpression": "かぎりだ",
-          "conjugatedExpression": "かぎりだ",
+          "id": "fb-created-n2-141-08-c",
+          "text": "ようがない",
+          "grammarId": "n2-163",
+          "baseExpression": "ようがない",
+          "conjugatedExpression": "ようがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-08-d",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '승패는 잠시 접어두고, 선수들이 무사히 돌아온 것을 기뻐하고 싶다.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
       "sourceGrammarIds": [
         "n2-141",
-        "n2-014",
-        "n2-015",
-        "n2-016"
+        "n2-163",
+        "n2-164",
+        "n2-165"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-141-09",
+      "level": "N2",
+      "sentence": "結婚式の日取りはさておき、まず両家が顔を合わせる機会を作ろう。",
+      "sentenceWithBlank": "結婚式の日取り（　　　）、まず両家が顔を合わせる機会を作ろう。",
+      "korean": "결혼식 날짜는 잠시 접어두고, 우선 양가가 만날 기회를 만들자.",
+      "answerChoiceId": "fb-created-n2-141-09-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-141-09-b",
+          "text": "はさておき",
+          "grammarId": "n2-141",
+          "baseExpression": "はさておき",
+          "conjugatedExpression": "はさておき",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-141-09-c",
+          "text": "ようがない",
+          "grammarId": "n2-163",
+          "baseExpression": "ようがない",
+          "conjugatedExpression": "ようがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-09-d",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-09-a",
+          "text": "ようではないか",
+          "grammarId": "n2-165",
+          "baseExpression": "ようではないか",
+          "conjugatedExpression": "ようではないか",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '결혼식 날짜는 잠시 접어두고, 우선 양가가 만날 기회를 만들자.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
+      "sourceGrammarIds": [
+        "n2-141",
+        "n2-163",
+        "n2-164",
+        "n2-165"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-141-10",
+      "level": "N2",
+      "sentence": "売り上げはさておき、この祭りが商店街に活気を取り戻した意義は大きい。",
+      "sentenceWithBlank": "売り上げ（　　　）、この祭りが商店街に活気を取り戻した意義は大きい。",
+      "korean": "매출은 잠시 접어두고, 이 축제가 상점가에 활기를 되찾아 준 의의는 크다.",
+      "answerChoiceId": "fb-created-n2-141-10-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-141-10-c",
+          "text": "ようがない",
+          "grammarId": "n2-163",
+          "baseExpression": "ようがない",
+          "conjugatedExpression": "ようがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-10-d",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-10-a",
+          "text": "ようではないか",
+          "grammarId": "n2-165",
+          "baseExpression": "ようではないか",
+          "conjugatedExpression": "ようではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-10-b",
+          "text": "はさておき",
+          "grammarId": "n2-141",
+          "baseExpression": "はさておき",
+          "conjugatedExpression": "はさておき",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '매출은 잠시 접어두고, 이 축제가 상점가에 활기를 되찾아 준 의의는 크다.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
+      "sourceGrammarIds": [
+        "n2-141",
+        "n2-163",
+        "n2-164",
+        "n2-165"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-141-11",
+      "level": "N2",
+      "sentence": "旅行先はさておき、全員が休める日を先に決めてください。",
+      "sentenceWithBlank": "旅行先（　　　）、全員が休める日を先に決めてください。",
+      "korean": "여행지는 잠시 접어두고, 모두가 쉴 수 있는 날을 먼저 정해 주세요.",
+      "answerChoiceId": "fb-created-n2-141-11-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-141-11-d",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-11-a",
+          "text": "ようではないか",
+          "grammarId": "n2-165",
+          "baseExpression": "ようではないか",
+          "conjugatedExpression": "ようではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-11-b",
+          "text": "はさておき",
+          "grammarId": "n2-141",
+          "baseExpression": "はさておき",
+          "conjugatedExpression": "はさておき",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-141-11-c",
+          "text": "ようがない",
+          "grammarId": "n2-163",
+          "baseExpression": "ようがない",
+          "conjugatedExpression": "ようがない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '여행지는 잠시 접어두고, 모두가 쉴 수 있는 날을 먼저 정해 주세요.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
+      "sourceGrammarIds": [
+        "n2-141",
+        "n2-163",
+        "n2-164",
+        "n2-165"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-141-12",
+      "level": "N2",
+      "sentence": "動機はさておき、匿名の寄付で診療所に新しい設備が導入された。",
+      "sentenceWithBlank": "動機（　　　）、匿名の寄付で診療所に新しい設備が導入された。",
+      "korean": "동기는 잠시 접어두고, 익명의 기부로 진료소에 새 장비가 도입되었다.",
+      "answerChoiceId": "fb-created-n2-141-12-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-141-12-a",
+          "text": "ようではないか",
+          "grammarId": "n2-165",
+          "baseExpression": "ようではないか",
+          "conjugatedExpression": "ようではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-12-b",
+          "text": "はさておき",
+          "grammarId": "n2-141",
+          "baseExpression": "はさておき",
+          "conjugatedExpression": "はさておき",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-141-12-c",
+          "text": "ようがない",
+          "grammarId": "n2-163",
+          "baseExpression": "ようがない",
+          "conjugatedExpression": "ようがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-12-d",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '동기는 잠시 접어두고, 익명의 기부로 진료소에 새 장비가 도입되었다.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
+      "sourceGrammarIds": [
+        "n2-141",
+        "n2-163",
+        "n2-164",
+        "n2-165"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-141-13",
+      "level": "N2",
+      "sentence": "家具の配置はさておき、赤ちゃんが触れる場所の安全対策を急ごう。",
+      "sentenceWithBlank": "家具の配置（　　　）、赤ちゃんが触れる場所の安全対策を急ごう。",
+      "korean": "가구 배치는 잠시 접어두고, 아기가 만지는 곳의 안전 대책을 서두르자.",
+      "answerChoiceId": "fb-created-n2-141-13-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-141-13-b",
+          "text": "はさておき",
+          "grammarId": "n2-141",
+          "baseExpression": "はさておき",
+          "conjugatedExpression": "はさておき",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-141-13-c",
+          "text": "ようがない",
+          "grammarId": "n2-163",
+          "baseExpression": "ようがない",
+          "conjugatedExpression": "ようがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-13-d",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-13-a",
+          "text": "ようではないか",
+          "grammarId": "n2-165",
+          "baseExpression": "ようではないか",
+          "conjugatedExpression": "ようではないか",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '가구 배치는 잠시 접어두고, 아기가 만지는 곳의 안전 대책을 서두르자.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
+      "sourceGrammarIds": [
+        "n2-141",
+        "n2-163",
+        "n2-164",
+        "n2-165"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-141-14",
+      "level": "N2",
+      "sentence": "彼の態度はさておき、提案された省エネ策には検討する価値がある。",
+      "sentenceWithBlank": "彼の態度（　　　）、提案された省エネ策には検討する価値がある。",
+      "korean": "그의 태도는 잠시 접어두고, 제안된 에너지 절약책은 검토할 가치가 있다.",
+      "answerChoiceId": "fb-created-n2-141-14-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-141-14-c",
+          "text": "ようがない",
+          "grammarId": "n2-163",
+          "baseExpression": "ようがない",
+          "conjugatedExpression": "ようがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-14-d",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-14-a",
+          "text": "ようではないか",
+          "grammarId": "n2-165",
+          "baseExpression": "ようではないか",
+          "conjugatedExpression": "ようではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-14-b",
+          "text": "はさておき",
+          "grammarId": "n2-141",
+          "baseExpression": "はさておき",
+          "conjugatedExpression": "はさておき",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '그의 태도는 잠시 접어두고, 제안된 에너지 절약책은 검토할 가치가 있다.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
+      "sourceGrammarIds": [
+        "n2-141",
+        "n2-163",
+        "n2-164",
+        "n2-165"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-141-15",
+      "level": "N2",
+      "sentence": "完成時期はさておき、職人が不足している現状をどうにかしなければならない。",
+      "sentenceWithBlank": "完成時期（　　　）、職人が不足している現状をどうにかしなければならない。",
+      "korean": "완공 시기는 잠시 접어두고, 장인이 부족한 현 상황을 어떻게든 해결해야 한다.",
+      "answerChoiceId": "fb-created-n2-141-15-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-141-15-d",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-15-a",
+          "text": "ようではないか",
+          "grammarId": "n2-165",
+          "baseExpression": "ようではないか",
+          "conjugatedExpression": "ようではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-15-b",
+          "text": "はさておき",
+          "grammarId": "n2-141",
+          "baseExpression": "はさておき",
+          "conjugatedExpression": "はさておき",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-141-15-c",
+          "text": "ようがない",
+          "grammarId": "n2-163",
+          "baseExpression": "ようがない",
+          "conjugatedExpression": "ようがない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '완공 시기는 잠시 접어두고, 장인이 부족한 현 상황을 어떻게든 해결해야 한다.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
+      "sourceGrammarIds": [
+        "n2-141",
+        "n2-163",
+        "n2-164",
+        "n2-165"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-141-16",
+      "level": "N2",
+      "sentence": "値段はさておき、このカメラが氷点下でも正常に動くか確認したい。",
+      "sentenceWithBlank": "値段（　　　）、このカメラが氷点下でも正常に動くか確認したい。",
+      "korean": "가격은 잠시 접어두고, 이 카메라가 영하에서도 정상적으로 작동하는지 확인하고 싶다.",
+      "answerChoiceId": "fb-created-n2-141-16-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-141-16-a",
+          "text": "ようではないか",
+          "grammarId": "n2-165",
+          "baseExpression": "ようではないか",
+          "conjugatedExpression": "ようではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-16-b",
+          "text": "はさておき",
+          "grammarId": "n2-141",
+          "baseExpression": "はさておき",
+          "conjugatedExpression": "はさておき",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-141-16-c",
+          "text": "ようがない",
+          "grammarId": "n2-163",
+          "baseExpression": "ようがない",
+          "conjugatedExpression": "ようがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-16-d",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '가격은 잠시 접어두고, 이 카메라가 영하에서도 정상적으로 작동하는지 확인하고 싶다.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
+      "sourceGrammarIds": [
+        "n2-141",
+        "n2-163",
+        "n2-164",
+        "n2-165"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-141-17",
+      "level": "N2",
+      "sentence": "噂の真偽はさておき、住民の不安を和らげる情報を公表すべきだ。",
+      "sentenceWithBlank": "噂の真偽（　　　）、住民の不安を和らげる情報を公表すべきだ。",
+      "korean": "소문의 진위는 잠시 접어두고, 주민의 불안을 덜어 줄 정보를 공개해야 한다.",
+      "answerChoiceId": "fb-created-n2-141-17-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-141-17-b",
+          "text": "はさておき",
+          "grammarId": "n2-141",
+          "baseExpression": "はさておき",
+          "conjugatedExpression": "はさておき",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-141-17-c",
+          "text": "ようがない",
+          "grammarId": "n2-163",
+          "baseExpression": "ようがない",
+          "conjugatedExpression": "ようがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-17-d",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-17-a",
+          "text": "ようではないか",
+          "grammarId": "n2-165",
+          "baseExpression": "ようではないか",
+          "conjugatedExpression": "ようではないか",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '소문의 진위는 잠시 접어두고, 주민의 불안을 덜어 줄 정보를 공개해야 한다.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
+      "sourceGrammarIds": [
+        "n2-141",
+        "n2-163",
+        "n2-164",
+        "n2-165"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-141-18",
+      "level": "N2",
+      "sentence": "外野の批判はさておき、監督は若手捕手を先発に起用し続けた。",
+      "sentenceWithBlank": "外野の批判（　　　）、監督は若手捕手を先発に起用し続けた。",
+      "korean": "외부의 비판은 잠시 접어두고, 감독은 젊은 포수를 계속 선발로 기용했다.",
+      "answerChoiceId": "fb-created-n2-141-18-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-141-18-c",
+          "text": "ようがない",
+          "grammarId": "n2-163",
+          "baseExpression": "ようがない",
+          "conjugatedExpression": "ようがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-18-d",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-18-a",
+          "text": "ようではないか",
+          "grammarId": "n2-165",
+          "baseExpression": "ようではないか",
+          "conjugatedExpression": "ようではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-18-b",
+          "text": "はさておき",
+          "grammarId": "n2-141",
+          "baseExpression": "はさておき",
+          "conjugatedExpression": "はさておき",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '외부의 비판은 잠시 접어두고, 감독은 젊은 포수를 계속 선발로 기용했다.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
+      "sourceGrammarIds": [
+        "n2-141",
+        "n2-163",
+        "n2-164",
+        "n2-165"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-141-19",
+      "level": "N2",
+      "sentence": "利益はさておき、廃材を減らす仕組みを工場全体に広げたい。",
+      "sentenceWithBlank": "利益（　　　）、廃材を減らす仕組みを工場全体に広げたい。",
+      "korean": "이익은 잠시 접어두고, 폐자재를 줄이는 체계를 공장 전체로 확대하고 싶다.",
+      "answerChoiceId": "fb-created-n2-141-19-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-141-19-d",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-19-a",
+          "text": "ようではないか",
+          "grammarId": "n2-165",
+          "baseExpression": "ようではないか",
+          "conjugatedExpression": "ようではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-19-b",
+          "text": "はさておき",
+          "grammarId": "n2-141",
+          "baseExpression": "はさておき",
+          "conjugatedExpression": "はさておき",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-141-19-c",
+          "text": "ようがない",
+          "grammarId": "n2-163",
+          "baseExpression": "ようがない",
+          "conjugatedExpression": "ようがない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '이익은 잠시 접어두고, 폐자재를 줄이는 체계를 공장 전체로 확대하고 싶다.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
+      "sourceGrammarIds": [
+        "n2-141",
+        "n2-163",
+        "n2-164",
+        "n2-165"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-141-20",
+      "level": "N2",
+      "sentence": "引っ越しの理由はさておき、祖母が安心して暮らせる部屋を探している。",
+      "sentenceWithBlank": "引っ越しの理由（　　　）、祖母が安心して暮らせる部屋を探している。",
+      "korean": "이사 이유는 잠시 접어두고, 할머니가 안심하고 살 수 있는 방을 찾고 있다.",
+      "answerChoiceId": "fb-created-n2-141-20-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-141-20-a",
+          "text": "ようではないか",
+          "grammarId": "n2-165",
+          "baseExpression": "ようではないか",
+          "conjugatedExpression": "ようではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-20-b",
+          "text": "はさておき",
+          "grammarId": "n2-141",
+          "baseExpression": "はさておき",
+          "conjugatedExpression": "はさておき",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-141-20-c",
+          "text": "ようがない",
+          "grammarId": "n2-163",
+          "baseExpression": "ようがない",
+          "conjugatedExpression": "ようがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-20-d",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '이사 이유는 잠시 접어두고, 할머니가 안심하고 살 수 있는 방을 찾고 있다.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
+      "sourceGrammarIds": [
+        "n2-141",
+        "n2-163",
+        "n2-164",
+        "n2-165"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-141-21",
+      "level": "N2",
+      "sentence": "収穫量はさておき、今年は土壌の回復を優先して畑を休ませる。",
+      "sentenceWithBlank": "収穫量（　　　）、今年は土壌の回復を優先して畑を休ませる。",
+      "korean": "수확량은 잠시 접어두고, 올해는 토양 회복을 우선하여 밭을 쉬게 한다.",
+      "answerChoiceId": "fb-created-n2-141-21-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-141-21-b",
+          "text": "はさておき",
+          "grammarId": "n2-141",
+          "baseExpression": "はさておき",
+          "conjugatedExpression": "はさておき",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-141-21-c",
+          "text": "ようがない",
+          "grammarId": "n2-163",
+          "baseExpression": "ようがない",
+          "conjugatedExpression": "ようがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-21-d",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-21-a",
+          "text": "ようではないか",
+          "grammarId": "n2-165",
+          "baseExpression": "ようではないか",
+          "conjugatedExpression": "ようではないか",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '수확량은 잠시 접어두고, 올해는 토양 회복을 우선하여 밭을 쉬게 한다.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
+      "sourceGrammarIds": [
+        "n2-141",
+        "n2-163",
+        "n2-164",
+        "n2-165"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-141-22",
+      "level": "N2",
+      "sentence": "契約条件はさておき、通訳なしで交渉を続けるのは危険だ。",
+      "sentenceWithBlank": "契約条件（　　　）、通訳なしで交渉を続けるのは危険だ。",
+      "korean": "계약 조건은 잠시 접어두고, 통역 없이 협상을 계속하는 것은 위험하다.",
+      "answerChoiceId": "fb-created-n2-141-22-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-141-22-c",
+          "text": "ようがない",
+          "grammarId": "n2-163",
+          "baseExpression": "ようがない",
+          "conjugatedExpression": "ようがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-22-d",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-22-a",
+          "text": "ようではないか",
+          "grammarId": "n2-165",
+          "baseExpression": "ようではないか",
+          "conjugatedExpression": "ようではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-22-b",
+          "text": "はさておき",
+          "grammarId": "n2-141",
+          "baseExpression": "はさておき",
+          "conjugatedExpression": "はさておき",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '계약 조건은 잠시 접어두고, 통역 없이 협상을 계속하는 것은 위험하다.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
+      "sourceGrammarIds": [
+        "n2-141",
+        "n2-163",
+        "n2-164",
+        "n2-165"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-141-23",
+      "level": "N2",
+      "sentence": "演技力はさておき、彼女の声には観客を引きつける独特の魅力がある。",
+      "sentenceWithBlank": "演技力（　　　）、彼女の声には観客を引きつける独特の魅力がある。",
+      "korean": "연기력은 잠시 접어두고, 그녀의 목소리에는 관객을 끌어당기는 독특한 매력이 있다.",
+      "answerChoiceId": "fb-created-n2-141-23-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-141-23-d",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-23-a",
+          "text": "ようではないか",
+          "grammarId": "n2-165",
+          "baseExpression": "ようではないか",
+          "conjugatedExpression": "ようではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-23-b",
+          "text": "はさておき",
+          "grammarId": "n2-141",
+          "baseExpression": "はさておき",
+          "conjugatedExpression": "はさておき",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-141-23-c",
+          "text": "ようがない",
+          "grammarId": "n2-163",
+          "baseExpression": "ようがない",
+          "conjugatedExpression": "ようがない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '연기력은 잠시 접어두고, 그녀의 목소리에는 관객을 끌어당기는 독특한 매력이 있다.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
+      "sourceGrammarIds": [
+        "n2-141",
+        "n2-163",
+        "n2-164",
+        "n2-165"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-141-24",
+      "level": "N2",
+      "sentence": "原因究明はさておき、流出した油が湾内に広がるのを食い止めよう。",
+      "sentenceWithBlank": "原因究明（　　　）、流出した油が湾内に広がるのを食い止めよう。",
+      "korean": "원인 규명은 잠시 접어두고, 유출된 기름이 만 안으로 퍼지는 것을 막자.",
+      "answerChoiceId": "fb-created-n2-141-24-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-141-24-a",
+          "text": "ようではないか",
+          "grammarId": "n2-165",
+          "baseExpression": "ようではないか",
+          "conjugatedExpression": "ようではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-24-b",
+          "text": "はさておき",
+          "grammarId": "n2-141",
+          "baseExpression": "はさておき",
+          "conjugatedExpression": "はさておき",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-141-24-c",
+          "text": "ようがない",
+          "grammarId": "n2-163",
+          "baseExpression": "ようがない",
+          "conjugatedExpression": "ようがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-24-d",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '원인 규명은 잠시 접어두고, 유출된 기름이 만 안으로 퍼지는 것을 막자.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
+      "sourceGrammarIds": [
+        "n2-141",
+        "n2-163",
+        "n2-164",
+        "n2-165"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-141-25",
+      "level": "N2",
+      "sentence": "知名度はさておき、この候補者は地域医療の課題を最もよく理解している。",
+      "sentenceWithBlank": "知名度（　　　）、この候補者は地域医療の課題を最もよく理解している。",
+      "korean": "인지도는 잠시 접어두고, 이 후보자는 지역 의료의 과제를 가장 잘 이해하고 있다.",
+      "answerChoiceId": "fb-created-n2-141-25-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-141-25-b",
+          "text": "はさておき",
+          "grammarId": "n2-141",
+          "baseExpression": "はさておき",
+          "conjugatedExpression": "はさておき",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-141-25-c",
+          "text": "ようがない",
+          "grammarId": "n2-163",
+          "baseExpression": "ようがない",
+          "conjugatedExpression": "ようがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-25-d",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-141-25-a",
+          "text": "ようではないか",
+          "grammarId": "n2-165",
+          "baseExpression": "ようではないか",
+          "conjugatedExpression": "ようではないか",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '인지도는 잠시 접어두고, 이 후보자는 지역 의료의 과제를 가장 잘 이해하고 있다.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
+      "sourceGrammarIds": [
+        "n2-141",
+        "n2-163",
+        "n2-164",
+        "n2-165"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
       ]
     }
   ],
@@ -1834,1103 +1809,1153 @@
       ]
     },
     {
-      "id": "so-extra-n2-141-1",
+      "id": "so-created-n2-141-01",
       "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlanks": "結果 ____ ____ ____ ____",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
+      "sentence": "費用はさておき、この土地が洪水に耐えられるかを調べる必要がある。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 必要がある。",
+      "korean": "비용은 잠시 접어두고, 이 땅이 홍수를 견딜 수 있는지 조사할 필요가 있다.",
       "pieces": [
         {
-          "id": "so-extra-n2-141-1-p4",
-          "text": "めたい",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-141-1-p1",
-          "text": "はさておき",
-          "order": 1
-        },
-        {
-          "id": "so-extra-n2-141-1-p2",
-          "text": "まず努",
+          "id": "so-created-n2-141-01-p2",
+          "text": "この土地が洪水に",
           "order": 2
         },
         {
-          "id": "so-extra-n2-141-1-p3",
-          "text": "力を認",
+          "id": "so-created-n2-141-01-p3",
+          "text": "耐えられるかを",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-141-01-p4",
+          "text": "調べる",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-141-01-p1",
+          "text": "費用はさておき、",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-141-1-p1",
-        "so-extra-n2-141-1-p2",
-        "so-extra-n2-141-1-p3",
-        "so-extra-n2-141-1-p4"
+        "so-created-n2-141-01-p1",
+        "so-created-n2-141-01-p2",
+        "so-created-n2-141-01-p3",
+        "so-created-n2-141-01-p4"
       ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '비용은 잠시 접어두고, 이 땅이 홍수를 견딜 수 있는지 조사할 필요가 있다.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
       "sourceGrammarIds": [
-        "n2-141"
+        "n2-141",
+        "n2-163",
+        "n2-164",
+        "n2-165"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-141-2",
+      "id": "so-created-n2-141-02",
       "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlanks": "結果 ____ ____ ____ ____",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
+      "sentence": "見た目はさておき、この靴は長時間歩いても足が疲れない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 疲れない。",
+      "korean": "외관은 잠시 접어두고, 이 신발은 오래 걸어도 발이 피곤하지 않다.",
       "pieces": [
         {
-          "id": "so-extra-n2-141-2-p1",
-          "text": "めたい",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-141-2-p2",
-          "text": "はさておき",
+          "id": "so-created-n2-141-02-p1",
+          "text": "見た目",
           "order": 1
         },
         {
-          "id": "so-extra-n2-141-2-p3",
-          "text": "まず努",
+          "id": "so-created-n2-141-02-p2",
+          "text": "はさておき、",
           "order": 2
         },
         {
-          "id": "so-extra-n2-141-2-p4",
-          "text": "力を認",
+          "id": "so-created-n2-141-02-p3",
+          "text": "この靴は長時間",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-141-02-p4",
+          "text": "歩いても足が",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-141-2-p2",
-        "so-extra-n2-141-2-p3",
-        "so-extra-n2-141-2-p4",
-        "so-extra-n2-141-2-p1"
+        "so-created-n2-141-02-p1",
+        "so-created-n2-141-02-p2",
+        "so-created-n2-141-02-p3",
+        "so-created-n2-141-02-p4"
       ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '외관은 잠시 접어두고, 이 신발은 오래 걸어도 발이 피곤하지 않다.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
       "sourceGrammarIds": [
-        "n2-141"
+        "n2-141",
+        "n2-163",
+        "n2-164",
+        "n2-165"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-141-3",
+      "id": "so-created-n2-141-03",
       "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、まず努力を認めたい。",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
+      "sentence": "冗談はさておき、避難経路を今夜中に確認しておこう。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "농담은 잠시 접어두고, 대피 경로를 오늘 밤 안에 확인해 두자.",
       "pieces": [
         {
-          "id": "so-extra-n2-141-3-p2",
-          "text": "力を認",
+          "id": "so-created-n2-141-03-p4",
+          "text": "確認しておこう。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-141-3-p3",
-          "text": "果",
+          "id": "so-created-n2-141-03-p1",
+          "text": "冗談はさておき、",
           "order": 1
         },
         {
-          "id": "so-extra-n2-141-3-p4",
-          "text": "はさておき",
+          "id": "so-created-n2-141-03-p2",
+          "text": "避難経路を",
           "order": 2
         },
         {
-          "id": "so-extra-n2-141-3-p1",
-          "text": "まず努",
+          "id": "so-created-n2-141-03-p3",
+          "text": "今夜中に",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-141-3-p3",
-        "so-extra-n2-141-3-p4",
-        "so-extra-n2-141-3-p1",
-        "so-extra-n2-141-3-p2"
+        "so-created-n2-141-03-p1",
+        "so-created-n2-141-03-p2",
+        "so-created-n2-141-03-p3",
+        "so-created-n2-141-03-p4"
       ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '농담은 잠시 접어두고, 대피 경로를 오늘 밤 안에 확인해 두자.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
       "sourceGrammarIds": [
-        "n2-141"
+        "n2-141",
+        "n2-163",
+        "n2-164",
+        "n2-165"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-141-4",
+      "id": "so-created-n2-141-04",
       "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlanks": "結果 ____ ____ ____ ____",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
+      "sentence": "過去の対立はさておき、両社は共同で新薬を開発することになった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 開発することになった。",
+      "korean": "과거의 대립은 잠시 접어두고, 양사는 공동으로 신약을 개발하게 되었다.",
       "pieces": [
         {
-          "id": "so-extra-n2-141-4-p3",
-          "text": "めたい",
+          "id": "so-created-n2-141-04-p3",
+          "text": "両社は",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-141-04-p4",
+          "text": "共同で新薬を",
           "order": 4
         },
         {
-          "id": "so-extra-n2-141-4-p4",
-          "text": "はさておき",
+          "id": "so-created-n2-141-04-p1",
+          "text": "過去の対立",
           "order": 1
         },
         {
-          "id": "so-extra-n2-141-4-p1",
-          "text": "まず努",
+          "id": "so-created-n2-141-04-p2",
+          "text": "はさておき、",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-141-4-p2",
-          "text": "力を認",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-141-4-p4",
-        "so-extra-n2-141-4-p1",
-        "so-extra-n2-141-4-p2",
-        "so-extra-n2-141-4-p3"
+        "so-created-n2-141-04-p1",
+        "so-created-n2-141-04-p2",
+        "so-created-n2-141-04-p3",
+        "so-created-n2-141-04-p4"
       ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '과거의 대립은 잠시 접어두고, 양사는 공동으로 신약을 개발하게 되었다.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
       "sourceGrammarIds": [
-        "n2-141"
+        "n2-141",
+        "n2-163",
+        "n2-164",
+        "n2-165"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-141-5",
+      "id": "so-created-n2-141-05",
       "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlanks": "結果 ____ ____ ____ ____",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
+      "sentence": "味はさておき、この保存食なら停電時にも調理せずに食べられる。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 食べられる。",
+      "korean": "맛은 잠시 접어두고, 이 비상식량이라면 정전 때에도 조리하지 않고 먹을 수 있다.",
       "pieces": [
         {
-          "id": "so-extra-n2-141-5-p4",
-          "text": "めたい",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-141-5-p1",
-          "text": "はさておき",
-          "order": 1
-        },
-        {
-          "id": "so-extra-n2-141-5-p2",
-          "text": "まず努",
+          "id": "so-created-n2-141-05-p2",
+          "text": "この保存食なら",
           "order": 2
         },
         {
-          "id": "so-extra-n2-141-5-p3",
-          "text": "力を認",
+          "id": "so-created-n2-141-05-p3",
+          "text": "停電時にも",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-141-05-p4",
+          "text": "調理せずに",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-141-05-p1",
+          "text": "味はさておき、",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-141-5-p1",
-        "so-extra-n2-141-5-p2",
-        "so-extra-n2-141-5-p3",
-        "so-extra-n2-141-5-p4"
+        "so-created-n2-141-05-p1",
+        "so-created-n2-141-05-p2",
+        "so-created-n2-141-05-p3",
+        "so-created-n2-141-05-p4"
       ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '맛은 잠시 접어두고, 이 비상식량이라면 정전 때에도 조리하지 않고 먹을 수 있다.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
       "sourceGrammarIds": [
-        "n2-141"
+        "n2-141",
+        "n2-163",
+        "n2-164",
+        "n2-165"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-141-01",
+      "id": "so-created-n2-141-06",
       "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlanks": "結果 ____ ____ ____ ____",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
+      "sentence": "責任の所在はさておき、負傷者を安全な場所へ運ぶのが先だ。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 運ぶのが先だ。",
+      "korean": "책임 소재는 잠시 접어두고, 부상자를 안전한 곳으로 옮기는 것이 우선이다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-141-01-p4",
-          "text": "めたい",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-141-01-p1",
-          "text": "はさておき",
+          "id": "so-created-n2-141-06-p1",
+          "text": "責任の所在",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-141-01-p2",
-          "text": "まず努",
+          "id": "so-created-n2-141-06-p2",
+          "text": "はさておき、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-141-01-p3",
-          "text": "力を認",
+          "id": "so-created-n2-141-06-p3",
+          "text": "負傷者を",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-141-06-p4",
+          "text": "安全な場所へ",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-141-01-p1",
-        "so-extra20-n2-141-01-p2",
-        "so-extra20-n2-141-01-p3",
-        "so-extra20-n2-141-01-p4"
+        "so-created-n2-141-06-p1",
+        "so-created-n2-141-06-p2",
+        "so-created-n2-141-06-p3",
+        "so-created-n2-141-06-p4"
       ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '책임 소재는 잠시 접어두고, 부상자를 안전한 곳으로 옮기는 것이 우선이다.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
       "sourceGrammarIds": [
-        "n2-141"
+        "n2-141",
+        "n2-163",
+        "n2-164",
+        "n2-165"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-141-02",
+      "id": "so-created-n2-141-07",
       "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlanks": "結果 ____ ____ ____ ____",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
+      "sentence": "給料はさておき、彼は海洋生物を守れる仕事を選んだ。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 選んだ。",
+      "korean": "급여는 잠시 접어두고, 그는 해양 생물을 보호할 수 있는 일을 선택했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-141-02-p3",
-          "text": "まず努",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-141-02-p4",
-          "text": "力を認",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-141-02-p1",
-          "text": "めたい",
+          "id": "so-created-n2-141-07-p4",
+          "text": "守れる仕事を",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-141-02-p2",
-          "text": "はさておき",
+          "id": "so-created-n2-141-07-p1",
+          "text": "給料",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-141-07-p2",
+          "text": "はさておき、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-141-07-p3",
+          "text": "彼は海洋生物を",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-141-02-p2",
-        "so-extra20-n2-141-02-p3",
-        "so-extra20-n2-141-02-p4",
-        "so-extra20-n2-141-02-p1"
+        "so-created-n2-141-07-p1",
+        "so-created-n2-141-07-p2",
+        "so-created-n2-141-07-p3",
+        "so-created-n2-141-07-p4"
       ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '급여는 잠시 접어두고, 그는 해양 생물을 보호할 수 있는 일을 선택했다.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
       "sourceGrammarIds": [
-        "n2-141"
+        "n2-141",
+        "n2-163",
+        "n2-164",
+        "n2-165"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-141-03",
+      "id": "so-created-n2-141-08",
       "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、まず努力を認めたい。",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
+      "sentence": "勝敗はさておき、選手たちが無事に戻ったことを喜びたい。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "승패는 잠시 접어두고, 선수들이 무사히 돌아온 것을 기뻐하고 싶다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-141-03-p2",
-          "text": "力を認",
+          "id": "so-created-n2-141-08-p3",
+          "text": "戻ったことを",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-141-08-p4",
+          "text": "喜びたい。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-141-03-p3",
-          "text": "果",
+          "id": "so-created-n2-141-08-p1",
+          "text": "勝敗はさておき、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-141-03-p4",
-          "text": "はさておき",
+          "id": "so-created-n2-141-08-p2",
+          "text": "選手たちが無事に",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-141-03-p1",
-          "text": "まず努",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-141-03-p3",
-        "so-extra20-n2-141-03-p4",
-        "so-extra20-n2-141-03-p1",
-        "so-extra20-n2-141-03-p2"
+        "so-created-n2-141-08-p1",
+        "so-created-n2-141-08-p2",
+        "so-created-n2-141-08-p3",
+        "so-created-n2-141-08-p4"
       ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '승패는 잠시 접어두고, 선수들이 무사히 돌아온 것을 기뻐하고 싶다.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
       "sourceGrammarIds": [
-        "n2-141"
+        "n2-141",
+        "n2-163",
+        "n2-164",
+        "n2-165"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-141-04",
+      "id": "so-created-n2-141-09",
       "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlanks": "結果 ____ ____ ____ ____",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
+      "sentence": "結婚式の日取りはさておき、まず両家が顔を合わせる機会を作ろう。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 合わせる機会を作ろう。",
+      "korean": "결혼식 날짜는 잠시 접어두고, 우선 양가가 만날 기회를 만들자.",
       "pieces": [
         {
-          "id": "so-extra20-n2-141-04-p1",
-          "text": "まず努",
+          "id": "so-created-n2-141-09-p2",
+          "text": "日取り",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-141-04-p2",
-          "text": "力を認",
+          "id": "so-created-n2-141-09-p3",
+          "text": "はさておき、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-141-04-p3",
-          "text": "めたい",
+          "id": "so-created-n2-141-09-p4",
+          "text": "まず両家が顔を",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-141-04-p4",
-          "text": "はさておき",
+          "id": "so-created-n2-141-09-p1",
+          "text": "結婚式の",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-141-04-p4",
-        "so-extra20-n2-141-04-p1",
-        "so-extra20-n2-141-04-p2",
-        "so-extra20-n2-141-04-p3"
+        "so-created-n2-141-09-p1",
+        "so-created-n2-141-09-p2",
+        "so-created-n2-141-09-p3",
+        "so-created-n2-141-09-p4"
       ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '결혼식 날짜는 잠시 접어두고, 우선 양가가 만날 기회를 만들자.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
       "sourceGrammarIds": [
-        "n2-141"
+        "n2-141",
+        "n2-163",
+        "n2-164",
+        "n2-165"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-141-05",
+      "id": "so-created-n2-141-10",
       "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlanks": "結果 ____ ____ ____ ____",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
+      "sentence": "売り上げはさておき、この祭りが商店街に活気を取り戻した意義は大きい。",
+      "sentenceWithBlanks": "売り上げ ____ ____ ____ ____ 戻した意義は大きい。",
+      "korean": "매출은 잠시 접어두고, 이 축제가 상점가에 활기를 되찾아 준 의의는 크다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-141-05-p4",
-          "text": "めたい",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-141-05-p1",
-          "text": "はさておき",
+          "id": "so-created-n2-141-10-p1",
+          "text": "はさておき、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-141-05-p2",
-          "text": "まず努",
+          "id": "so-created-n2-141-10-p2",
+          "text": "この祭りが",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-141-05-p3",
-          "text": "力を認",
+          "id": "so-created-n2-141-10-p3",
+          "text": "商店街に",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-141-10-p4",
+          "text": "活気を取り",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-141-05-p1",
-        "so-extra20-n2-141-05-p2",
-        "so-extra20-n2-141-05-p3",
-        "so-extra20-n2-141-05-p4"
+        "so-created-n2-141-10-p1",
+        "so-created-n2-141-10-p2",
+        "so-created-n2-141-10-p3",
+        "so-created-n2-141-10-p4"
       ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '매출은 잠시 접어두고, 이 축제가 상점가에 활기를 되찾아 준 의의는 크다.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
       "sourceGrammarIds": [
-        "n2-141"
+        "n2-141",
+        "n2-163",
+        "n2-164",
+        "n2-165"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-141-06",
+      "id": "so-created-n2-141-11",
       "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlanks": "結果 ____ ____ ____ ____",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
+      "sentence": "旅行先はさておき、全員が休める日を先に決めてください。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "여행지는 잠시 접어두고, 모두가 쉴 수 있는 날을 먼저 정해 주세요.",
       "pieces": [
         {
-          "id": "so-extra20-n2-141-06-p3",
-          "text": "力を認",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-141-06-p4",
-          "text": "めたい",
+          "id": "so-created-n2-141-11-p4",
+          "text": "決めてください。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-141-06-p1",
-          "text": "はさておき",
+          "id": "so-created-n2-141-11-p1",
+          "text": "旅行先はさておき、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-141-06-p2",
-          "text": "まず努",
+          "id": "so-created-n2-141-11-p2",
+          "text": "全員が休める",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-141-11-p3",
+          "text": "日を先に",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-141-06-p1",
-        "so-extra20-n2-141-06-p2",
-        "so-extra20-n2-141-06-p3",
-        "so-extra20-n2-141-06-p4"
+        "so-created-n2-141-11-p1",
+        "so-created-n2-141-11-p2",
+        "so-created-n2-141-11-p3",
+        "so-created-n2-141-11-p4"
       ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '여행지는 잠시 접어두고, 모두가 쉴 수 있는 날을 먼저 정해 주세요.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
       "sourceGrammarIds": [
-        "n2-141"
+        "n2-141",
+        "n2-163",
+        "n2-164",
+        "n2-165"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-141-07",
+      "id": "so-created-n2-141-12",
       "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlanks": "結果 ____ ____ ____ ____",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
+      "sentence": "動機はさておき、匿名の寄付で診療所に新しい設備が導入された。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 導入された。",
+      "korean": "동기는 잠시 접어두고, 익명의 기부로 진료소에 새 장비가 도입되었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-141-07-p2",
-          "text": "はさておき",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-141-07-p3",
-          "text": "まず努",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-141-07-p4",
-          "text": "力を認",
+          "id": "so-created-n2-141-12-p3",
+          "text": "診療所に",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-141-07-p1",
-          "text": "めたい",
+          "id": "so-created-n2-141-12-p4",
+          "text": "新しい設備が",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-141-12-p1",
+          "text": "動機はさておき、",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-141-12-p2",
+          "text": "匿名の寄付で",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-141-07-p2",
-        "so-extra20-n2-141-07-p3",
-        "so-extra20-n2-141-07-p4",
-        "so-extra20-n2-141-07-p1"
+        "so-created-n2-141-12-p1",
+        "so-created-n2-141-12-p2",
+        "so-created-n2-141-12-p3",
+        "so-created-n2-141-12-p4"
       ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '동기는 잠시 접어두고, 익명의 기부로 진료소에 새 장비가 도입되었다.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
       "sourceGrammarIds": [
-        "n2-141"
+        "n2-141",
+        "n2-163",
+        "n2-164",
+        "n2-165"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-141-08",
+      "id": "so-created-n2-141-13",
       "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、まず努力を認めたい。",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
+      "sentence": "家具の配置はさておき、赤ちゃんが触れる場所の安全対策を急ごう。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 対策を急ごう。",
+      "korean": "가구 배치는 잠시 접어두고, 아기가 만지는 곳의 안전 대책을 서두르자.",
       "pieces": [
         {
-          "id": "so-extra20-n2-141-08-p1",
-          "text": "まず努",
+          "id": "so-created-n2-141-13-p2",
+          "text": "はさておき、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-141-13-p3",
+          "text": "赤ちゃんが",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-141-08-p2",
-          "text": "力を認",
+          "id": "so-created-n2-141-13-p4",
+          "text": "触れる場所の安全",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-141-08-p3",
-          "text": "果",
+          "id": "so-created-n2-141-13-p1",
+          "text": "家具の配置",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-141-08-p4",
-          "text": "はさておき",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-141-08-p3",
-        "so-extra20-n2-141-08-p4",
-        "so-extra20-n2-141-08-p1",
-        "so-extra20-n2-141-08-p2"
+        "so-created-n2-141-13-p1",
+        "so-created-n2-141-13-p2",
+        "so-created-n2-141-13-p3",
+        "so-created-n2-141-13-p4"
       ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '가구 배치는 잠시 접어두고, 아기가 만지는 곳의 안전 대책을 서두르자.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
       "sourceGrammarIds": [
-        "n2-141"
+        "n2-141",
+        "n2-163",
+        "n2-164",
+        "n2-165"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-141-09",
+      "id": "so-created-n2-141-14",
       "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlanks": "結果 ____ ____ ____ ____",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
+      "sentence": "彼の態度はさておき、提案された省エネ策には検討する価値がある。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 価値がある。",
+      "korean": "그의 태도는 잠시 접어두고, 제안된 에너지 절약책은 검토할 가치가 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-141-09-p4",
-          "text": "はさておき",
+          "id": "so-created-n2-141-14-p1",
+          "text": "彼の態度",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-141-09-p1",
-          "text": "まず努",
+          "id": "so-created-n2-141-14-p2",
+          "text": "はさておき、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-141-09-p2",
-          "text": "力を認",
+          "id": "so-created-n2-141-14-p3",
+          "text": "提案された省エネ",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-141-09-p3",
-          "text": "めたい",
+          "id": "so-created-n2-141-14-p4",
+          "text": "策には検討する",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-141-09-p4",
-        "so-extra20-n2-141-09-p1",
-        "so-extra20-n2-141-09-p2",
-        "so-extra20-n2-141-09-p3"
+        "so-created-n2-141-14-p1",
+        "so-created-n2-141-14-p2",
+        "so-created-n2-141-14-p3",
+        "so-created-n2-141-14-p4"
       ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '그의 태도는 잠시 접어두고, 제안된 에너지 절약책은 검토할 가치가 있다.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
       "sourceGrammarIds": [
-        "n2-141"
+        "n2-141",
+        "n2-163",
+        "n2-164",
+        "n2-165"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-141-10",
+      "id": "so-created-n2-141-15",
       "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlanks": "結果 ____ ____ ____ ____",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
+      "sentence": "完成時期はさておき、職人が不足している現状をどうにかしなければならない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 現状をどうにかしなければならない。",
+      "korean": "완공 시기는 잠시 접어두고, 장인이 부족한 현 상황을 어떻게든 해결해야 한다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-141-10-p3",
-          "text": "力を認",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-141-10-p4",
-          "text": "めたい",
+          "id": "so-created-n2-141-15-p4",
+          "text": "不足している",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-141-10-p1",
-          "text": "はさておき",
+          "id": "so-created-n2-141-15-p1",
+          "text": "完成時期",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-141-10-p2",
-          "text": "まず努",
+          "id": "so-created-n2-141-15-p2",
+          "text": "はさておき、",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-141-15-p3",
+          "text": "職人が",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-141-10-p1",
-        "so-extra20-n2-141-10-p2",
-        "so-extra20-n2-141-10-p3",
-        "so-extra20-n2-141-10-p4"
+        "so-created-n2-141-15-p1",
+        "so-created-n2-141-15-p2",
+        "so-created-n2-141-15-p3",
+        "so-created-n2-141-15-p4"
       ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '완공 시기는 잠시 접어두고, 장인이 부족한 현 상황을 어떻게든 해결해야 한다.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
       "sourceGrammarIds": [
-        "n2-141"
+        "n2-141",
+        "n2-163",
+        "n2-164",
+        "n2-165"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-141-11",
+      "id": "so-created-n2-141-16",
       "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlanks": "結果 ____ ____ ____ ____",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
+      "sentence": "値段はさておき、このカメラが氷点下でも正常に動くか確認したい。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 確認したい。",
+      "korean": "가격은 잠시 접어두고, 이 카메라가 영하에서도 정상적으로 작동하는지 확인하고 싶다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-141-11-p2",
-          "text": "まず努",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-141-11-p3",
-          "text": "力を認",
+          "id": "so-created-n2-141-16-p3",
+          "text": "氷点下でも",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-141-11-p4",
-          "text": "めたい",
+          "id": "so-created-n2-141-16-p4",
+          "text": "正常に動くか",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-141-11-p1",
-          "text": "はさておき",
+          "id": "so-created-n2-141-16-p1",
+          "text": "値段はさておき、",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-141-16-p2",
+          "text": "このカメラが",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-141-11-p1",
-        "so-extra20-n2-141-11-p2",
-        "so-extra20-n2-141-11-p3",
-        "so-extra20-n2-141-11-p4"
+        "so-created-n2-141-16-p1",
+        "so-created-n2-141-16-p2",
+        "so-created-n2-141-16-p3",
+        "so-created-n2-141-16-p4"
       ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '가격은 잠시 접어두고, 이 카메라가 영하에서도 정상적으로 작동하는지 확인하고 싶다.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
       "sourceGrammarIds": [
-        "n2-141"
+        "n2-141",
+        "n2-163",
+        "n2-164",
+        "n2-165"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-141-12",
+      "id": "so-created-n2-141-17",
       "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlanks": "結果 ____ ____ ____ ____",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
+      "sentence": "噂の真偽はさておき、住民の不安を和らげる情報を公表すべきだ。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 公表すべきだ。",
+      "korean": "소문의 진위는 잠시 접어두고, 주민의 불안을 덜어 줄 정보를 공개해야 한다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-141-12-p1",
-          "text": "めたい",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-141-12-p2",
-          "text": "はさておき",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-141-12-p3",
-          "text": "まず努",
+          "id": "so-created-n2-141-17-p2",
+          "text": "はさておき、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-141-12-p4",
-          "text": "力を認",
+          "id": "so-created-n2-141-17-p3",
+          "text": "住民の不安を",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-141-17-p4",
+          "text": "和らげる情報を",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-141-17-p1",
+          "text": "噂の真偽",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-141-12-p2",
-        "so-extra20-n2-141-12-p3",
-        "so-extra20-n2-141-12-p4",
-        "so-extra20-n2-141-12-p1"
+        "so-created-n2-141-17-p1",
+        "so-created-n2-141-17-p2",
+        "so-created-n2-141-17-p3",
+        "so-created-n2-141-17-p4"
       ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '소문의 진위는 잠시 접어두고, 주민의 불안을 덜어 줄 정보를 공개해야 한다.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
       "sourceGrammarIds": [
-        "n2-141"
+        "n2-141",
+        "n2-163",
+        "n2-164",
+        "n2-165"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-141-13",
+      "id": "so-created-n2-141-18",
       "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、まず努力を認めたい。",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
+      "sentence": "外野の批判はさておき、監督は若手捕手を先発に起用し続けた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 起用し続けた。",
+      "korean": "외부의 비판은 잠시 접어두고, 감독은 젊은 포수를 계속 선발로 기용했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-141-13-p4",
-          "text": "はさておき",
+          "id": "so-created-n2-141-18-p1",
+          "text": "外野の批判",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-141-18-p2",
+          "text": "はさておき、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-141-13-p1",
-          "text": "まず努",
+          "id": "so-created-n2-141-18-p3",
+          "text": "監督は若手",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-141-13-p2",
-          "text": "力を認",
+          "id": "so-created-n2-141-18-p4",
+          "text": "捕手を先発に",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-141-13-p3",
-          "text": "果",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-141-13-p3",
-        "so-extra20-n2-141-13-p4",
-        "so-extra20-n2-141-13-p1",
-        "so-extra20-n2-141-13-p2"
+        "so-created-n2-141-18-p1",
+        "so-created-n2-141-18-p2",
+        "so-created-n2-141-18-p3",
+        "so-created-n2-141-18-p4"
       ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '외부의 비판은 잠시 접어두고, 감독은 젊은 포수를 계속 선발로 기용했다.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
       "sourceGrammarIds": [
-        "n2-141"
+        "n2-141",
+        "n2-163",
+        "n2-164",
+        "n2-165"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-141-14",
+      "id": "so-created-n2-141-19",
       "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlanks": "結果 ____ ____ ____ ____",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
+      "sentence": "利益はさておき、廃材を減らす仕組みを工場全体に広げたい。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 広げたい。",
+      "korean": "이익은 잠시 접어두고, 폐자재를 줄이는 체계를 공장 전체로 확대하고 싶다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-141-14-p3",
-          "text": "めたい",
+          "id": "so-created-n2-141-19-p4",
+          "text": "工場全体に",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-141-14-p4",
-          "text": "はさておき",
+          "id": "so-created-n2-141-19-p1",
+          "text": "利益はさておき、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-141-14-p1",
-          "text": "まず努",
+          "id": "so-created-n2-141-19-p2",
+          "text": "廃材を減らす",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-141-14-p2",
-          "text": "力を認",
+          "id": "so-created-n2-141-19-p3",
+          "text": "仕組みを",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-141-14-p4",
-        "so-extra20-n2-141-14-p1",
-        "so-extra20-n2-141-14-p2",
-        "so-extra20-n2-141-14-p3"
+        "so-created-n2-141-19-p1",
+        "so-created-n2-141-19-p2",
+        "so-created-n2-141-19-p3",
+        "so-created-n2-141-19-p4"
       ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '이익은 잠시 접어두고, 폐자재를 줄이는 체계를 공장 전체로 확대하고 싶다.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
       "sourceGrammarIds": [
-        "n2-141"
+        "n2-141",
+        "n2-163",
+        "n2-164",
+        "n2-165"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-141-15",
+      "id": "so-created-n2-141-20",
       "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlanks": "結果 ____ ____ ____ ____",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
+      "sentence": "引っ越しの理由はさておき、祖母が安心して暮らせる部屋を探している。",
+      "sentenceWithBlanks": "引っ越しの ____ ____ ____ ____ 探している。",
+      "korean": "이사 이유는 잠시 접어두고, 할머니가 안심하고 살 수 있는 방을 찾고 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-141-15-p2",
-          "text": "まず努",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-141-15-p3",
-          "text": "力を認",
+          "id": "so-created-n2-141-20-p3",
+          "text": "祖母が安心して",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-141-15-p4",
-          "text": "めたい",
+          "id": "so-created-n2-141-20-p4",
+          "text": "暮らせる部屋を",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-141-15-p1",
-          "text": "はさておき",
+          "id": "so-created-n2-141-20-p1",
+          "text": "理由",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-141-20-p2",
+          "text": "はさておき、",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-141-15-p1",
-        "so-extra20-n2-141-15-p2",
-        "so-extra20-n2-141-15-p3",
-        "so-extra20-n2-141-15-p4"
+        "so-created-n2-141-20-p1",
+        "so-created-n2-141-20-p2",
+        "so-created-n2-141-20-p3",
+        "so-created-n2-141-20-p4"
       ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '이사 이유는 잠시 접어두고, 할머니가 안심하고 살 수 있는 방을 찾고 있다.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
       "sourceGrammarIds": [
-        "n2-141"
+        "n2-141",
+        "n2-163",
+        "n2-164",
+        "n2-165"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-141-16",
+      "id": "so-created-n2-141-21",
       "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlanks": "結果 ____ ____ ____ ____",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
+      "sentence": "収穫量はさておき、今年は土壌の回復を優先して畑を休ませる。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 畑を休ませる。",
+      "korean": "수확량은 잠시 접어두고, 올해는 토양 회복을 우선하여 밭을 쉬게 한다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-141-16-p1",
-          "text": "はさておき",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-141-16-p2",
-          "text": "まず努",
+          "id": "so-created-n2-141-21-p2",
+          "text": "はさておき、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-141-16-p3",
-          "text": "力を認",
+          "id": "so-created-n2-141-21-p3",
+          "text": "今年は土壌の",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-141-16-p4",
-          "text": "めたい",
+          "id": "so-created-n2-141-21-p4",
+          "text": "回復を優先して",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-141-21-p1",
+          "text": "収穫量",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-141-16-p1",
-        "so-extra20-n2-141-16-p2",
-        "so-extra20-n2-141-16-p3",
-        "so-extra20-n2-141-16-p4"
+        "so-created-n2-141-21-p1",
+        "so-created-n2-141-21-p2",
+        "so-created-n2-141-21-p3",
+        "so-created-n2-141-21-p4"
       ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '수확량은 잠시 접어두고, 올해는 토양 회복을 우선하여 밭을 쉬게 한다.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
       "sourceGrammarIds": [
-        "n2-141"
+        "n2-141",
+        "n2-163",
+        "n2-164",
+        "n2-165"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-141-17",
+      "id": "so-created-n2-141-22",
       "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlanks": "結果 ____ ____ ____ ____",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
+      "sentence": "契約条件はさておき、通訳なしで交渉を続けるのは危険だ。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "계약 조건은 잠시 접어두고, 통역 없이 협상을 계속하는 것은 위험하다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-141-17-p4",
-          "text": "力を認",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-141-17-p1",
-          "text": "めたい",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-141-17-p2",
-          "text": "はさておき",
+          "id": "so-created-n2-141-22-p1",
+          "text": "契約条件",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-141-17-p3",
-          "text": "まず努",
+          "id": "so-created-n2-141-22-p2",
+          "text": "はさておき、",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-141-22-p3",
+          "text": "通訳なしで交渉を",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-141-22-p4",
+          "text": "続けるのは危険だ。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-141-17-p2",
-        "so-extra20-n2-141-17-p3",
-        "so-extra20-n2-141-17-p4",
-        "so-extra20-n2-141-17-p1"
+        "so-created-n2-141-22-p1",
+        "so-created-n2-141-22-p2",
+        "so-created-n2-141-22-p3",
+        "so-created-n2-141-22-p4"
       ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '계약 조건은 잠시 접어두고, 통역 없이 협상을 계속하는 것은 위험하다.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
       "sourceGrammarIds": [
-        "n2-141"
+        "n2-141",
+        "n2-163",
+        "n2-164",
+        "n2-165"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-141-18",
+      "id": "so-created-n2-141-23",
       "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、まず努力を認めたい。",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
+      "sentence": "演技力はさておき、彼女の声には観客を引きつける独特の魅力がある。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 独特の魅力がある。",
+      "korean": "연기력은 잠시 접어두고, 그녀의 목소리에는 관객을 끌어당기는 독특한 매력이 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-141-18-p3",
-          "text": "果",
+          "id": "so-created-n2-141-23-p4",
+          "text": "観客を引きつける",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-141-23-p1",
+          "text": "演技力",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-141-18-p4",
-          "text": "はさておき",
+          "id": "so-created-n2-141-23-p2",
+          "text": "はさておき、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-141-18-p1",
-          "text": "まず努",
+          "id": "so-created-n2-141-23-p3",
+          "text": "彼女の声には",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-141-18-p2",
-          "text": "力を認",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-141-18-p3",
-        "so-extra20-n2-141-18-p4",
-        "so-extra20-n2-141-18-p1",
-        "so-extra20-n2-141-18-p2"
+        "so-created-n2-141-23-p1",
+        "so-created-n2-141-23-p2",
+        "so-created-n2-141-23-p3",
+        "so-created-n2-141-23-p4"
       ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '연기력은 잠시 접어두고, 그녀의 목소리에는 관객을 끌어당기는 독특한 매력이 있다.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
       "sourceGrammarIds": [
-        "n2-141"
+        "n2-141",
+        "n2-163",
+        "n2-164",
+        "n2-165"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-141-19",
+      "id": "so-created-n2-141-24",
       "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlanks": "結果 ____ ____ ____ ____",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
+      "sentence": "原因究明はさておき、流出した油が湾内に広がるのを食い止めよう。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 食い止めよう。",
+      "korean": "원인 규명은 잠시 접어두고, 유출된 기름이 만 안으로 퍼지는 것을 막자.",
       "pieces": [
         {
-          "id": "so-extra20-n2-141-19-p2",
-          "text": "力を認",
+          "id": "so-created-n2-141-24-p3",
+          "text": "流出した油が",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-141-19-p3",
-          "text": "めたい",
+          "id": "so-created-n2-141-24-p4",
+          "text": "湾内に広がるのを",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-141-19-p4",
-          "text": "はさておき",
+          "id": "so-created-n2-141-24-p1",
+          "text": "原因究明",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-141-19-p1",
-          "text": "まず努",
+          "id": "so-created-n2-141-24-p2",
+          "text": "はさておき、",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-141-19-p4",
-        "so-extra20-n2-141-19-p1",
-        "so-extra20-n2-141-19-p2",
-        "so-extra20-n2-141-19-p3"
+        "so-created-n2-141-24-p1",
+        "so-created-n2-141-24-p2",
+        "so-created-n2-141-24-p3",
+        "so-created-n2-141-24-p4"
       ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '원인 규명은 잠시 접어두고, 유출된 기름이 만 안으로 퍼지는 것을 막자.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
       "sourceGrammarIds": [
-        "n2-141"
+        "n2-141",
+        "n2-163",
+        "n2-164",
+        "n2-165"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-141-20",
+      "id": "so-created-n2-141-25",
       "level": "N2",
-      "sentence": "結果はさておき、まず努力を認めたい。",
-      "sentenceWithBlanks": "結果 ____ ____ ____ ____",
-      "korean": "결과는 잠시 제쳐두고 우선 노력을 인정하고 싶다.",
+      "sentence": "知名度はさておき、この候補者は地域医療の課題を最もよく理解している。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 最もよく理解している。",
+      "korean": "인지도는 잠시 접어두고, 이 후보자는 지역 의료의 과제를 가장 잘 이해하고 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-141-20-p1",
-          "text": "はさておき",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-141-20-p2",
-          "text": "まず努",
+          "id": "so-created-n2-141-25-p2",
+          "text": "はさておき、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-141-20-p3",
-          "text": "力を認",
+          "id": "so-created-n2-141-25-p3",
+          "text": "この候補者は",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-141-20-p4",
-          "text": "めたい",
+          "id": "so-created-n2-141-25-p4",
+          "text": "地域医療の課題を",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-141-25-p1",
+          "text": "知名度",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-141-20-p1",
-        "so-extra20-n2-141-20-p2",
-        "so-extra20-n2-141-20-p3",
-        "so-extra20-n2-141-20-p4"
+        "so-created-n2-141-25-p1",
+        "so-created-n2-141-25-p2",
+        "so-created-n2-141-25-p3",
+        "so-created-n2-141-25-p4"
       ],
-      "explanation": "「はさておき」는 ~은 잠시 접어두고라는 뜻이다. 중요한 화제를 뒤로 미루고 다른 화제로 전환.",
+      "explanation": "「はさておき」는 '~은 잠시 접어두고'라는 뜻을 나타낸다. 이 문장에서는 '인지도는 잠시 접어두고, 이 후보자는 지역 의료의 과제를 가장 잘 이해하고 있다.'라는 상황에 쓰였으며, 중요한 화제를 뒤로 미루고 다른 화제로 전환. 주의할 점은 화제를 의도적으로 보류. 「結果はさておき」처럼 중요한 것을 일단 제쳐두는 화법.",
       "sourceGrammarIds": [
-        "n2-141"
+        "n2-141",
+        "n2-163",
+        "n2-164",
+        "n2-165"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     }
   ]

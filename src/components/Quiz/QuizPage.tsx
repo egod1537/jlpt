@@ -2,7 +2,7 @@ import { useMemo, useState } from "react";
 import type { GrammarItem } from "../../types/grammar";
 import type { AnswerResult, QuizMode, QuizQuestion } from "../../types/quiz";
 import { useQuizSession } from "../../hooks/useQuizSession";
-import { buildGrammarQuestionPool } from "../../utils/quizSetBuilder";
+import { buildGrammarQuestionPool, getQuizQuestionCount } from "../../utils/quizSetBuilder";
 import { QuizCard } from "./QuizCard";
 import { QuizModeSelector } from "./QuizModeSelector";
 import { QuizSetResult } from "./QuizSetResult";
@@ -80,12 +80,13 @@ function usesSelectableSets(mode: QuizMode): boolean {
 
 function QuizSessionPanel({ mode, grammarItems, onModeChange }: QuizSessionPanelProps) {
   const questionPool = useMemo(() => buildGrammarQuestionPool(mode, grammarItems), [grammarItems, mode]);
+  const questionCount = useMemo(() => getQuizQuestionCount(questionPool), [questionPool]);
   const session = useQuizSession({ questionPool, setSize: QUIZ_SET_SIZE });
   const [answerResult, setAnswerResult] = useState<AnswerResult | null>(null);
   const [answeredQuestion, setAnsweredQuestion] = useState<QuizQuestion | null>(null);
 
   const answeredCount = session.correctCount + session.wrongCount;
-  const setOptions = useMemo(() => buildQuizSetOptions(questionPool.length), [questionPool.length]);
+  const setOptions = useMemo(() => buildQuizSetOptions(questionCount), [questionCount]);
   const currentSetOption = setOptions.find(
     (option) => option.setIndex === session.currentSetIndex && option.setSize === session.currentSetSize,
   );
@@ -93,7 +94,7 @@ function QuizSessionPanel({ mode, grammarItems, onModeChange }: QuizSessionPanel
     currentSetOption?.rangeLabel ??
     `${session.currentSetIndex * session.currentSetSize + 1}-${Math.min(
       (session.currentSetIndex + 1) * session.currentSetSize,
-      questionPool.length,
+      questionCount,
     )}`;
   const accuracy = answeredCount > 0 ? `${Math.round((session.correctCount / answeredCount) * 100)}%` : "—";
   const selectedChoiceId = answerResult?.selectedChoiceId;

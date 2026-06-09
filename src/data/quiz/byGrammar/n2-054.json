@@ -282,15 +282,23 @@
       ]
     },
     {
-      "id": "fb-extra-n2-054-1",
+      "id": "fb-created-n2-054-01",
       "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlank": "木村さんは10年も北京に住んでいた（　　　）、北京のことは何でも知っている。",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
-      "answerChoiceId": "fb-extra-n2-054-1-c",
+      "sentence": "長年山岳救助に携わってきただけあって、彼は吹雪の中でも安全な下山路を見つけた。",
+      "sentenceWithBlank": "長年山岳救助に携わってきた（　　　）、彼は吹雪の中でも安全な下山路を見つけた。",
+      "korean": "오랫동안 산악 구조에 종사해 온 만큼, 그는 눈보라 속에서도 안전한 하산로를 찾아냈다.",
+      "answerChoiceId": "fb-created-n2-054-01-c",
       "choices": [
         {
-          "id": "fb-extra-n2-054-1-d",
+          "id": "fb-created-n2-054-01-c",
+          "text": "だけあって",
+          "grammarId": "n2-054",
+          "baseExpression": "だけあって",
+          "conjugatedExpression": "だけあって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-054-01-d",
           "text": "からといって",
           "grammarId": "n2-028",
           "baseExpression": "からといって",
@@ -298,7 +306,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-054-1-a",
+          "id": "fb-created-n2-054-01-a",
           "text": "だけに",
           "grammarId": "n2-055",
           "baseExpression": "だけに",
@@ -306,23 +314,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-054-1-b",
+          "id": "fb-created-n2-054-01-b",
           "text": "がたい",
           "grammarId": "n2-017",
           "baseExpression": "がたい",
           "conjugatedExpression": "がたい",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-054-1-c",
-          "text": "だけあって",
-          "grammarId": "n2-054",
-          "baseExpression": "だけあって",
-          "conjugatedExpression": "だけあって",
-          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '오랫동안 산악 구조에 종사해 온 만큼, 그는 눈보라 속에서도 안전한 하산로를 찾아냈다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
       "sourceGrammarIds": [
         "n2-054",
         "n2-028",
@@ -333,37 +333,20 @@
         "理由",
         "評価",
         "肯定",
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra-n2-054-2",
+      "id": "fb-created-n2-054-02",
       "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlank": "木村さんは10年も北京に住んでいた（　　　）、北京のことは何でも知っている。",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
-      "answerChoiceId": "fb-extra-n2-054-2-b",
+      "sentence": "この旅館は皇族も滞在しただけあって、客への心配りが隅々まで行き届いている。",
+      "sentenceWithBlank": "この旅館は皇族も滞在した（　　　）、客への心配りが隅々まで行き届いている。",
+      "korean": "이 여관은 황족도 묵었던 만큼, 손님을 배려하는 세심함이 구석구석까지 미쳐 있다.",
+      "answerChoiceId": "fb-created-n2-054-02-c",
       "choices": [
         {
-          "id": "fb-extra-n2-054-2-a",
-          "text": "にかかわらず",
-          "grammarId": "n2-107",
-          "baseExpression": "にかかわらず",
-          "conjugatedExpression": "にかかわらず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-054-2-b",
-          "text": "だけあって",
-          "grammarId": "n2-054",
-          "baseExpression": "だけあって",
-          "conjugatedExpression": "だけあって",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-054-2-c",
+          "id": "fb-created-n2-054-02-d",
           "text": "からといって",
           "grammarId": "n2-028",
           "baseExpression": "からといって",
@@ -371,40 +354,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-054-2-d",
-          "text": "だけに",
-          "grammarId": "n2-055",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
-      "sourceGrammarIds": [
-        "n2-054",
-        "n2-028",
-        "n2-055",
-        "n2-107"
-      ],
-      "tags": [
-        "理由",
-        "評価",
-        "肯定",
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-054-3",
-      "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlank": "木村さんは10年も北京に住んでいた（　　　）、北京のことは何でも知っている。",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
-      "answerChoiceId": "fb-extra-n2-054-3-a",
-      "choices": [
-        {
-          "id": "fb-extra-n2-054-3-b",
+          "id": "fb-created-n2-054-02-a",
           "text": "だけに",
           "grammarId": "n2-055",
           "baseExpression": "だけに",
@@ -412,186 +362,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-054-3-c",
-          "text": "したからといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "したからといって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-054-3-d",
-          "text": "次第",
-          "grammarId": "n2-047",
-          "baseExpression": "次第",
-          "conjugatedExpression": "次第",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-054-3-a",
-          "text": "だけあって",
-          "grammarId": "n2-054",
-          "baseExpression": "だけあって",
-          "conjugatedExpression": "だけあって",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
-      "sourceGrammarIds": [
-        "n2-054",
-        "n2-055",
-        "n2-028",
-        "n2-047"
-      ],
-      "tags": [
-        "理由",
-        "評価",
-        "肯定",
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-054-4",
-      "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlank": "木村さんは10年も北京に住んでいた（　　　）、北京のことは何でも知っている。",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
-      "answerChoiceId": "fb-extra-n2-054-4-d",
-      "choices": [
-        {
-          "id": "fb-extra-n2-054-4-c",
-          "text": "だけの",
-          "grammarId": "n2-057",
-          "baseExpression": "だけの",
-          "conjugatedExpression": "だけの",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-054-4-d",
-          "text": "だけあって",
-          "grammarId": "n2-054",
-          "baseExpression": "だけあって",
-          "conjugatedExpression": "だけあって",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-054-4-a",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-054-4-b",
-          "text": "だけに",
-          "grammarId": "n2-055",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
-      "sourceGrammarIds": [
-        "n2-054",
-        "n2-028",
-        "n2-055",
-        "n2-057"
-      ],
-      "tags": [
-        "理由",
-        "評価",
-        "肯定",
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-054-5",
-      "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlank": "木村さんは10年も北京に住んでいた（　　　）、北京のことは何でも知っている。",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
-      "answerChoiceId": "fb-extra-n2-054-5-c",
-      "choices": [
-        {
-          "id": "fb-extra-n2-054-5-d",
-          "text": "だけに",
-          "grammarId": "n2-055",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-054-5-a",
-          "text": "したからといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "したからといって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-054-5-b",
-          "text": "ことだ",
-          "grammarId": "n2-037",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-054-5-c",
-          "text": "だけあって",
-          "grammarId": "n2-054",
-          "baseExpression": "だけあって",
-          "conjugatedExpression": "だけあって",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
-      "sourceGrammarIds": [
-        "n2-054",
-        "n2-055",
-        "n2-028",
-        "n2-037"
-      ],
-      "tags": [
-        "理由",
-        "評価",
-        "肯定",
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-054-01",
-      "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlank": "木村さんは10年も北京に住んでいた（　　　）、北京のことは何でも知っている。",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
-      "answerChoiceId": "fb-extra20-n2-054-01-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-054-01-d",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-054-01-a",
-          "text": "だけに",
-          "grammarId": "n2-055",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-054-01-b",
+          "id": "fb-created-n2-054-02-b",
           "text": "がたい",
           "grammarId": "n2-017",
           "baseExpression": "がたい",
@@ -599,7 +370,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-054-01-c",
+          "id": "fb-created-n2-054-02-c",
           "text": "だけあって",
           "grammarId": "n2-054",
           "baseExpression": "だけあって",
@@ -607,7 +378,7 @@
           "isSimilarDistractor": false
         }
       ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '이 여관은 황족도 묵었던 만큼, 손님을 배려하는 세심함이 구석구석까지 미쳐 있다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
       "sourceGrammarIds": [
         "n2-054",
         "n2-028",
@@ -618,29 +389,20 @@
         "理由",
         "評価",
         "肯定",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-054-02",
+      "id": "fb-created-n2-054-03",
       "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlank": "木村さんは10年も北京に住んでいた（　　　）、北京のことは何でも知っている。",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
-      "answerChoiceId": "fb-extra20-n2-054-02-b",
+      "sentence": "全国大会で優勝しただけあって、彼女のサーブは速さも正確さも抜群だ。",
+      "sentenceWithBlank": "全国大会で優勝した（　　　）、彼女のサーブは速さも正確さも抜群だ。",
+      "korean": "전국 대회에서 우승한 만큼, 그녀의 서브는 속도와 정확성 모두 뛰어나다.",
+      "answerChoiceId": "fb-created-n2-054-03-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-054-02-c",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-054-02-d",
+          "id": "fb-created-n2-054-03-a",
           "text": "だけに",
           "grammarId": "n2-055",
           "baseExpression": "だけに",
@@ -648,251 +410,31 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-054-02-a",
-          "text": "にかかわらず",
-          "grammarId": "n2-107",
-          "baseExpression": "にかかわらず",
-          "conjugatedExpression": "にかかわらず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-054-02-b",
-          "text": "だけあって",
-          "grammarId": "n2-054",
-          "baseExpression": "だけあって",
-          "conjugatedExpression": "だけあって",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
-      "sourceGrammarIds": [
-        "n2-054",
-        "n2-028",
-        "n2-055",
-        "n2-107"
-      ],
-      "tags": [
-        "理由",
-        "評価",
-        "肯定",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-054-03",
-      "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlank": "木村さんは10年も北京に住んでいた（　　　）、北京のことは何でも知っている。",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
-      "answerChoiceId": "fb-extra20-n2-054-03-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-054-03-b",
-          "text": "だけに",
-          "grammarId": "n2-055",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-054-03-c",
-          "text": "したからといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "したからといって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-054-03-d",
-          "text": "次第",
-          "grammarId": "n2-047",
-          "baseExpression": "次第",
-          "conjugatedExpression": "次第",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-054-03-a",
-          "text": "だけあって",
-          "grammarId": "n2-054",
-          "baseExpression": "だけあって",
-          "conjugatedExpression": "だけあって",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
-      "sourceGrammarIds": [
-        "n2-054",
-        "n2-055",
-        "n2-028",
-        "n2-047"
-      ],
-      "tags": [
-        "理由",
-        "評価",
-        "肯定",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-054-04",
-      "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlank": "木村さんは10年も北京に住んでいた（　　　）、北京のことは何でも知っている。",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
-      "answerChoiceId": "fb-extra20-n2-054-04-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-054-04-a",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-054-04-b",
-          "text": "だけに",
-          "grammarId": "n2-055",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-054-04-c",
-          "text": "だけの",
-          "grammarId": "n2-057",
-          "baseExpression": "だけの",
-          "conjugatedExpression": "だけの",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-054-04-d",
-          "text": "だけあって",
-          "grammarId": "n2-054",
-          "baseExpression": "だけあって",
-          "conjugatedExpression": "だけあって",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
-      "sourceGrammarIds": [
-        "n2-054",
-        "n2-028",
-        "n2-055",
-        "n2-057"
-      ],
-      "tags": [
-        "理由",
-        "評価",
-        "肯定",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-054-05",
-      "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlank": "木村さんは10年も北京に住んでいた（　　　）、北京のことは何でも知っている。",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
-      "answerChoiceId": "fb-extra20-n2-054-05-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-054-05-d",
-          "text": "だけに",
-          "grammarId": "n2-055",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-054-05-a",
-          "text": "したからといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "したからといって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-054-05-b",
-          "text": "ことだ",
-          "grammarId": "n2-037",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-054-05-c",
-          "text": "だけあって",
-          "grammarId": "n2-054",
-          "baseExpression": "だけあって",
-          "conjugatedExpression": "だけあって",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
-      "sourceGrammarIds": [
-        "n2-054",
-        "n2-055",
-        "n2-028",
-        "n2-037"
-      ],
-      "tags": [
-        "理由",
-        "評価",
-        "肯定",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-054-06",
-      "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlank": "木村さんは10年も北京に住んでいた（　　　）、北京のことは何でも知っている。",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
-      "answerChoiceId": "fb-extra20-n2-054-06-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-054-06-c",
-          "text": "だけあって",
-          "grammarId": "n2-054",
-          "baseExpression": "だけあって",
-          "conjugatedExpression": "だけあって",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-054-06-d",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-054-06-a",
-          "text": "だけに",
-          "grammarId": "n2-055",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-054-06-b",
+          "id": "fb-created-n2-054-03-b",
           "text": "がたい",
           "grammarId": "n2-017",
           "baseExpression": "がたい",
           "conjugatedExpression": "がたい",
           "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-054-03-c",
+          "text": "だけあって",
+          "grammarId": "n2-054",
+          "baseExpression": "だけあって",
+          "conjugatedExpression": "だけあって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-054-03-d",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
         }
       ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '전국 대회에서 우승한 만큼, 그녀의 서브는 속도와 정확성 모두 뛰어나다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
       "sourceGrammarIds": [
         "n2-054",
         "n2-028",
@@ -903,249 +445,20 @@
         "理由",
         "評価",
         "肯定",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-054-07",
+      "id": "fb-created-n2-054-04",
       "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlank": "木村さんは10年も北京に住んでいた（　　　）、北京のことは何でも知っている。",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
-      "answerChoiceId": "fb-extra20-n2-054-07-b",
+      "sentence": "百年以上続く和菓子店だけあって、季節の素材を生かす技が見事だ。",
+      "sentenceWithBlank": "百年以上続く和菓子店（　　　）、季節の素材を生かす技が見事だ。",
+      "korean": "백 년 넘게 이어진 화과자 가게인 만큼, 제철 재료를 살리는 솜씨가 훌륭하다.",
+      "answerChoiceId": "fb-created-n2-054-04-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-054-07-b",
-          "text": "だけあって",
-          "grammarId": "n2-054",
-          "baseExpression": "だけあって",
-          "conjugatedExpression": "だけあって",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-054-07-c",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-054-07-d",
-          "text": "だけに",
-          "grammarId": "n2-055",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-054-07-a",
-          "text": "にかかわらず",
-          "grammarId": "n2-107",
-          "baseExpression": "にかかわらず",
-          "conjugatedExpression": "にかかわらず",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
-      "sourceGrammarIds": [
-        "n2-054",
-        "n2-028",
-        "n2-055",
-        "n2-107"
-      ],
-      "tags": [
-        "理由",
-        "評価",
-        "肯定",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-054-08",
-      "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlank": "木村さんは10年も北京に住んでいた（　　　）、北京のことは何でも知っている。",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
-      "answerChoiceId": "fb-extra20-n2-054-08-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-054-08-a",
-          "text": "だけあって",
-          "grammarId": "n2-054",
-          "baseExpression": "だけあって",
-          "conjugatedExpression": "だけあって",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-054-08-b",
-          "text": "だけに",
-          "grammarId": "n2-055",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-054-08-c",
-          "text": "したからといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "したからといって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-054-08-d",
-          "text": "次第",
-          "grammarId": "n2-047",
-          "baseExpression": "次第",
-          "conjugatedExpression": "次第",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
-      "sourceGrammarIds": [
-        "n2-054",
-        "n2-055",
-        "n2-028",
-        "n2-047"
-      ],
-      "tags": [
-        "理由",
-        "評価",
-        "肯定",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-054-09",
-      "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlank": "木村さんは10年も北京に住んでいた（　　　）、北京のことは何でも知っている。",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
-      "answerChoiceId": "fb-extra20-n2-054-09-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-054-09-d",
-          "text": "だけあって",
-          "grammarId": "n2-054",
-          "baseExpression": "だけあって",
-          "conjugatedExpression": "だけあって",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-054-09-a",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-054-09-b",
-          "text": "だけに",
-          "grammarId": "n2-055",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-054-09-c",
-          "text": "だけの",
-          "grammarId": "n2-057",
-          "baseExpression": "だけの",
-          "conjugatedExpression": "だけの",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
-      "sourceGrammarIds": [
-        "n2-054",
-        "n2-028",
-        "n2-055",
-        "n2-057"
-      ],
-      "tags": [
-        "理由",
-        "評価",
-        "肯定",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-054-10",
-      "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlank": "木村さんは10年も北京に住んでいた（　　　）、北京のことは何でも知っている。",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
-      "answerChoiceId": "fb-extra20-n2-054-10-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-054-10-c",
-          "text": "だけあって",
-          "grammarId": "n2-054",
-          "baseExpression": "だけあって",
-          "conjugatedExpression": "だけあって",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-054-10-d",
-          "text": "だけに",
-          "grammarId": "n2-055",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-054-10-a",
-          "text": "したからといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "したからといって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-054-10-b",
-          "text": "ことだ",
-          "grammarId": "n2-037",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
-      "sourceGrammarIds": [
-        "n2-054",
-        "n2-055",
-        "n2-028",
-        "n2-037"
-      ],
-      "tags": [
-        "理由",
-        "評価",
-        "肯定",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-054-11",
-      "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlank": "木村さんは10年も北京に住んでいた（　　　）、北京のことは何でも知っている。",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
-      "answerChoiceId": "fb-extra20-n2-054-11-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-054-11-b",
+          "id": "fb-created-n2-054-04-b",
           "text": "がたい",
           "grammarId": "n2-017",
           "baseExpression": "がたい",
@@ -1153,7 +466,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-054-11-c",
+          "id": "fb-created-n2-054-04-c",
           "text": "だけあって",
           "grammarId": "n2-054",
           "baseExpression": "だけあって",
@@ -1161,7 +474,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-054-11-d",
+          "id": "fb-created-n2-054-04-d",
           "text": "からといって",
           "grammarId": "n2-028",
           "baseExpression": "からといって",
@@ -1169,7 +482,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-054-11-a",
+          "id": "fb-created-n2-054-04-a",
           "text": "だけに",
           "grammarId": "n2-055",
           "baseExpression": "だけに",
@@ -1177,7 +490,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '백 년 넘게 이어진 화과자 가게인 만큼, 제철 재료를 살리는 솜씨가 훌륭하다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
       "sourceGrammarIds": [
         "n2-054",
         "n2-028",
@@ -1188,29 +501,20 @@
         "理由",
         "評価",
         "肯定",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-054-12",
+      "id": "fb-created-n2-054-05",
       "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlank": "木村さんは10年も北京に住んでいた（　　　）、北京のことは何でも知っている。",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
-      "answerChoiceId": "fb-extra20-n2-054-12-b",
+      "sentence": "彼は元消防士だけあって、煙を見た瞬間に住民を落ち着いて避難させた。",
+      "sentenceWithBlank": "彼は元消防士（　　　）、煙を見た瞬間に住民を落ち着いて避難させた。",
+      "korean": "그는 전직 소방관인 만큼, 연기를 본 순간 주민들을 침착하게 대피시켰다.",
+      "answerChoiceId": "fb-created-n2-054-05-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-054-12-a",
-          "text": "にかかわらず",
-          "grammarId": "n2-107",
-          "baseExpression": "にかかわらず",
-          "conjugatedExpression": "にかかわらず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-054-12-b",
+          "id": "fb-created-n2-054-05-c",
           "text": "だけあって",
           "grammarId": "n2-054",
           "baseExpression": "だけあって",
@@ -1218,7 +522,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-054-12-c",
+          "id": "fb-created-n2-054-05-d",
           "text": "からといって",
           "grammarId": "n2-028",
           "baseExpression": "からといって",
@@ -1226,56 +530,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-054-12-d",
-          "text": "だけに",
-          "grammarId": "n2-055",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
-      "sourceGrammarIds": [
-        "n2-054",
-        "n2-028",
-        "n2-055",
-        "n2-107"
-      ],
-      "tags": [
-        "理由",
-        "評価",
-        "肯定",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-054-13",
-      "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlank": "木村さんは10年も北京に住んでいた（　　　）、北京のことは何でも知っている。",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
-      "answerChoiceId": "fb-extra20-n2-054-13-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-054-13-d",
-          "text": "次第",
-          "grammarId": "n2-047",
-          "baseExpression": "次第",
-          "conjugatedExpression": "次第",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-054-13-a",
-          "text": "だけあって",
-          "grammarId": "n2-054",
-          "baseExpression": "だけあって",
-          "conjugatedExpression": "だけあって",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-054-13-b",
+          "id": "fb-created-n2-054-05-a",
           "text": "だけに",
           "grammarId": "n2-055",
           "baseExpression": "だけに",
@@ -1283,186 +538,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-054-13-c",
-          "text": "したからといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "したからといって",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
-      "sourceGrammarIds": [
-        "n2-054",
-        "n2-055",
-        "n2-028",
-        "n2-047"
-      ],
-      "tags": [
-        "理由",
-        "評価",
-        "肯定",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-054-14",
-      "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlank": "木村さんは10年も北京に住んでいた（　　　）、北京のことは何でも知っている。",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
-      "answerChoiceId": "fb-extra20-n2-054-14-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-054-14-c",
-          "text": "だけの",
-          "grammarId": "n2-057",
-          "baseExpression": "だけの",
-          "conjugatedExpression": "だけの",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-054-14-d",
-          "text": "だけあって",
-          "grammarId": "n2-054",
-          "baseExpression": "だけあって",
-          "conjugatedExpression": "だけあって",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-054-14-a",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-054-14-b",
-          "text": "だけに",
-          "grammarId": "n2-055",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
-      "sourceGrammarIds": [
-        "n2-054",
-        "n2-028",
-        "n2-055",
-        "n2-057"
-      ],
-      "tags": [
-        "理由",
-        "評価",
-        "肯定",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-054-15",
-      "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlank": "木村さんは10年も北京に住んでいた（　　　）、北京のことは何でも知っている。",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
-      "answerChoiceId": "fb-extra20-n2-054-15-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-054-15-b",
-          "text": "ことだ",
-          "grammarId": "n2-037",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-054-15-c",
-          "text": "だけあって",
-          "grammarId": "n2-054",
-          "baseExpression": "だけあって",
-          "conjugatedExpression": "だけあって",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-054-15-d",
-          "text": "だけに",
-          "grammarId": "n2-055",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-054-15-a",
-          "text": "したからといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "したからといって",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
-      "sourceGrammarIds": [
-        "n2-054",
-        "n2-055",
-        "n2-028",
-        "n2-037"
-      ],
-      "tags": [
-        "理由",
-        "評価",
-        "肯定",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-054-16",
-      "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlank": "木村さんは10年も北京に住んでいた（　　　）、北京のことは何でも知っている。",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
-      "answerChoiceId": "fb-extra20-n2-054-16-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-054-16-a",
-          "text": "だけに",
-          "grammarId": "n2-055",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-054-16-b",
+          "id": "fb-created-n2-054-05-b",
           "text": "がたい",
           "grammarId": "n2-017",
           "baseExpression": "がたい",
           "conjugatedExpression": "がたい",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-054-16-c",
-          "text": "だけあって",
-          "grammarId": "n2-054",
-          "baseExpression": "だけあって",
-          "conjugatedExpression": "だけあって",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-054-16-d",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": true
         }
       ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '그는 전직 소방관인 만큼, 연기를 본 순간 주민들을 침착하게 대피시켰다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
       "sourceGrammarIds": [
         "n2-054",
         "n2-028",
@@ -1473,21 +557,28 @@
         "理由",
         "評価",
         "肯定",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-054-17",
+      "id": "fb-created-n2-054-06",
       "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlank": "木村さんは10年も北京に住んでいた（　　　）、北京のことは何でも知っている。",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
-      "answerChoiceId": "fb-extra20-n2-054-17-b",
+      "sentence": "産地で採れたばかりの桃だけあって、ひと口かじると豊かな香りが広がった。",
+      "sentenceWithBlank": "産地で採れたばかりの桃（　　　）、ひと口かじると豊かな香りが広がった。",
+      "korean": "산지에서 갓 수확한 복숭아인 만큼, 한입 베어 물자 풍부한 향이 퍼졌다.",
+      "answerChoiceId": "fb-created-n2-054-06-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-054-17-d",
+          "id": "fb-created-n2-054-06-d",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-054-06-a",
           "text": "だけに",
           "grammarId": "n2-055",
           "baseExpression": "だけに",
@@ -1495,15 +586,63 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-054-17-a",
-          "text": "にかかわらず",
-          "grammarId": "n2-107",
-          "baseExpression": "にかかわらず",
-          "conjugatedExpression": "にかかわらず",
+          "id": "fb-created-n2-054-06-b",
+          "text": "がたい",
+          "grammarId": "n2-017",
+          "baseExpression": "がたい",
+          "conjugatedExpression": "がたい",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-054-17-b",
+          "id": "fb-created-n2-054-06-c",
+          "text": "だけあって",
+          "grammarId": "n2-054",
+          "baseExpression": "だけあって",
+          "conjugatedExpression": "だけあって",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '산지에서 갓 수확한 복숭아인 만큼, 한입 베어 물자 풍부한 향이 퍼졌다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
+      "sourceGrammarIds": [
+        "n2-054",
+        "n2-028",
+        "n2-055",
+        "n2-017"
+      ],
+      "tags": [
+        "理由",
+        "評価",
+        "肯定",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-054-07",
+      "level": "N2",
+      "sentence": "何度も現地を取材しただけあって、その記者の記事は被災者の声を丁寧に伝えていた。",
+      "sentenceWithBlank": "何度も現地を取材した（　　　）、その記者の記事は被災者の声を丁寧に伝えていた。",
+      "korean": "여러 번 현지를 취재한 만큼, 그 기자의 기사는 이재민의 목소리를 세심하게 전하고 있었다.",
+      "answerChoiceId": "fb-created-n2-054-07-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-054-07-a",
+          "text": "だけに",
+          "grammarId": "n2-055",
+          "baseExpression": "だけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-054-07-b",
+          "text": "がたい",
+          "grammarId": "n2-017",
+          "baseExpression": "がたい",
+          "conjugatedExpression": "がたい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-054-07-c",
           "text": "だけあって",
           "grammarId": "n2-054",
           "baseExpression": "だけあって",
@@ -1511,7 +650,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-054-17-c",
+          "id": "fb-created-n2-054-07-d",
           "text": "からといって",
           "grammarId": "n2-028",
           "baseExpression": "からといって",
@@ -1519,48 +658,39 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '여러 번 현지를 취재한 만큼, 그 기자의 기사는 이재민의 목소리를 세심하게 전하고 있었다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
       "sourceGrammarIds": [
         "n2-054",
         "n2-028",
         "n2-055",
-        "n2-107"
+        "n2-017"
       ],
       "tags": [
         "理由",
         "評価",
         "肯定",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-054-18",
+      "id": "fb-created-n2-054-08",
       "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlank": "木村さんは10年も北京に住んでいた（　　　）、北京のことは何でも知っている。",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
-      "answerChoiceId": "fb-extra20-n2-054-18-a",
+      "sentence": "さすが港町で育っただけあって、祖母は魚の鮮度を目だけで見分けられる。",
+      "sentenceWithBlank": "さすが港町で育った（　　　）、祖母は魚の鮮度を目だけで見分けられる。",
+      "korean": "역시 항구 도시에서 자란 만큼, 할머니는 생선의 신선도를 눈으로만 구별할 수 있다.",
+      "answerChoiceId": "fb-created-n2-054-08-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-054-18-c",
-          "text": "したからといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "したからといって",
+          "id": "fb-created-n2-054-08-b",
+          "text": "がたい",
+          "grammarId": "n2-017",
+          "baseExpression": "がたい",
+          "conjugatedExpression": "がたい",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-054-18-d",
-          "text": "次第",
-          "grammarId": "n2-047",
-          "baseExpression": "次第",
-          "conjugatedExpression": "次第",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-054-18-a",
+          "id": "fb-created-n2-054-08-c",
           "text": "だけあって",
           "grammarId": "n2-054",
           "baseExpression": "だけあって",
@@ -1568,7 +698,15 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-054-18-b",
+          "id": "fb-created-n2-054-08-d",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-054-08-a",
           "text": "だけに",
           "grammarId": "n2-055",
           "baseExpression": "だけに",
@@ -1576,48 +714,31 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '역시 항구 도시에서 자란 만큼, 할머니는 생선의 신선도를 눈으로만 구별할 수 있다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
       "sourceGrammarIds": [
         "n2-054",
-        "n2-055",
         "n2-028",
-        "n2-047"
+        "n2-055",
+        "n2-017"
       ],
       "tags": [
         "理由",
         "評価",
         "肯定",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-054-19",
+      "id": "fb-created-n2-054-09",
       "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlank": "木村さんは10年も北京に住んでいた（　　　）、北京のことは何でも知っている。",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
-      "answerChoiceId": "fb-extra20-n2-054-19-d",
+      "sentence": "この靴は職人が手作業で仕上げただけあって、長く歩いても足が疲れにくい。",
+      "sentenceWithBlank": "この靴は職人が手作業で仕上げた（　　　）、長く歩いても足が疲れにくい。",
+      "korean": "이 신발은 장인이 수작업으로 완성한 만큼, 오래 걸어도 발이 쉽게 피로해지지 않는다.",
+      "answerChoiceId": "fb-created-n2-054-09-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-054-19-b",
-          "text": "だけに",
-          "grammarId": "n2-055",
-          "baseExpression": "だけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-054-19-c",
-          "text": "だけの",
-          "grammarId": "n2-057",
-          "baseExpression": "だけの",
-          "conjugatedExpression": "だけの",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-054-19-d",
+          "id": "fb-created-n2-054-09-c",
           "text": "だけあって",
           "grammarId": "n2-054",
           "baseExpression": "だけあって",
@@ -1625,7 +746,135 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-054-19-a",
+          "id": "fb-created-n2-054-09-d",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-054-09-a",
+          "text": "だけに",
+          "grammarId": "n2-055",
+          "baseExpression": "だけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-054-09-b",
+          "text": "がたい",
+          "grammarId": "n2-017",
+          "baseExpression": "がたい",
+          "conjugatedExpression": "がたい",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '이 신발은 장인이 수작업으로 완성한 만큼, 오래 걸어도 발이 쉽게 피로해지지 않는다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
+      "sourceGrammarIds": [
+        "n2-054",
+        "n2-028",
+        "n2-055",
+        "n2-017"
+      ],
+      "tags": [
+        "理由",
+        "評価",
+        "肯定",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-054-10",
+      "level": "N2",
+      "sentence": "彼女は三人の子を育てただけあって、泣いている幼児をあっという間に笑顔にした。",
+      "sentenceWithBlank": "彼女は三人の子を育てた（　　　）、泣いている幼児をあっという間に笑顔にした。",
+      "korean": "그녀는 세 아이를 키운 만큼, 울고 있는 어린아이를 순식간에 웃게 했다.",
+      "answerChoiceId": "fb-created-n2-054-10-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-054-10-d",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-054-10-a",
+          "text": "だけに",
+          "grammarId": "n2-055",
+          "baseExpression": "だけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-054-10-b",
+          "text": "がたい",
+          "grammarId": "n2-017",
+          "baseExpression": "がたい",
+          "conjugatedExpression": "がたい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-054-10-c",
+          "text": "だけあって",
+          "grammarId": "n2-054",
+          "baseExpression": "だけあって",
+          "conjugatedExpression": "だけあって",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '그녀는 세 아이를 키운 만큼, 울고 있는 어린아이를 순식간에 웃게 했다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
+      "sourceGrammarIds": [
+        "n2-054",
+        "n2-028",
+        "n2-055",
+        "n2-017"
+      ],
+      "tags": [
+        "理由",
+        "評価",
+        "肯定",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-054-11",
+      "level": "N2",
+      "sentence": "最新の省エネ設備を導入しただけあって、この工場は昨年より電力消費を大幅に減らした。",
+      "sentenceWithBlank": "最新の省エネ設備を導入した（　　　）、この工場は昨年より電力消費を大幅に減らした。",
+      "korean": "최신 에너지 절약 설비를 도입한 만큼, 이 공장은 지난해보다 전력 소비를 크게 줄였다.",
+      "answerChoiceId": "fb-created-n2-054-11-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-054-11-a",
+          "text": "だけに",
+          "grammarId": "n2-055",
+          "baseExpression": "だけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-054-11-b",
+          "text": "がたい",
+          "grammarId": "n2-017",
+          "baseExpression": "がたい",
+          "conjugatedExpression": "がたい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-054-11-c",
+          "text": "だけあって",
+          "grammarId": "n2-054",
+          "baseExpression": "だけあって",
+          "conjugatedExpression": "だけあって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-054-11-d",
           "text": "からといって",
           "grammarId": "n2-028",
           "baseExpression": "からといって",
@@ -1633,48 +882,39 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '최신 에너지 절약 설비를 도입한 만큼, 이 공장은 지난해보다 전력 소비를 크게 줄였다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
       "sourceGrammarIds": [
         "n2-054",
         "n2-028",
         "n2-055",
-        "n2-057"
+        "n2-017"
       ],
       "tags": [
         "理由",
         "評価",
         "肯定",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-054-20",
+      "id": "fb-created-n2-054-12",
       "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlank": "木村さんは10年も北京に住んでいた（　　　）、北京のことは何でも知っている。",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
-      "answerChoiceId": "fb-extra20-n2-054-20-c",
+      "sentence": "世界的な建築家が設計しただけあって、この図書館は自然光の取り入れ方が美しい。",
+      "sentenceWithBlank": "世界的な建築家が設計した（　　　）、この図書館は自然光の取り入れ方が美しい。",
+      "korean": "세계적인 건축가가 설계한 만큼, 이 도서관은 자연광을 끌어들이는 방식이 아름답다.",
+      "answerChoiceId": "fb-created-n2-054-12-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-054-20-a",
-          "text": "したからといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "したからといって",
+          "id": "fb-created-n2-054-12-b",
+          "text": "がたい",
+          "grammarId": "n2-017",
+          "baseExpression": "がたい",
+          "conjugatedExpression": "がたい",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-054-20-b",
-          "text": "ことだ",
-          "grammarId": "n2-037",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-054-20-c",
+          "id": "fb-created-n2-054-12-c",
           "text": "だけあって",
           "grammarId": "n2-054",
           "baseExpression": "だけあって",
@@ -1682,7 +922,15 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-054-20-d",
+          "id": "fb-created-n2-054-12-d",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-054-12-a",
           "text": "だけに",
           "grammarId": "n2-055",
           "baseExpression": "だけに",
@@ -1690,20 +938,747 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '세계적인 건축가가 설계한 만큼, 이 도서관은 자연광을 끌어들이는 방식이 아름답다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
       "sourceGrammarIds": [
         "n2-054",
-        "n2-055",
         "n2-028",
-        "n2-037"
+        "n2-055",
+        "n2-017"
       ],
       "tags": [
         "理由",
         "評価",
         "肯定",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-054-13",
+      "level": "N2",
+      "sentence": "兄は毎朝市場で仕入れているだけあって、食卓にはいつも旬の野菜が並ぶ。",
+      "sentenceWithBlank": "兄は毎朝市場で仕入れている（　　　）、食卓にはいつも旬の野菜が並ぶ。",
+      "korean": "형은 매일 아침 시장에서 식재료를 들여오는 만큼, 식탁에는 언제나 제철 채소가 오른다.",
+      "answerChoiceId": "fb-created-n2-054-13-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-054-13-c",
+          "text": "だけあって",
+          "grammarId": "n2-054",
+          "baseExpression": "だけあって",
+          "conjugatedExpression": "だけあって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-054-13-d",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-054-13-a",
+          "text": "だけに",
+          "grammarId": "n2-055",
+          "baseExpression": "だけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-054-13-b",
+          "text": "がたい",
+          "grammarId": "n2-017",
+          "baseExpression": "がたい",
+          "conjugatedExpression": "がたい",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '형은 매일 아침 시장에서 식재료를 들여오는 만큼, 식탁에는 언제나 제철 채소가 오른다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
+      "sourceGrammarIds": [
+        "n2-054",
+        "n2-028",
+        "n2-055",
+        "n2-017"
+      ],
+      "tags": [
+        "理由",
+        "評価",
+        "肯定",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-054-14",
+      "level": "N2",
+      "sentence": "国際線の客室乗務員だっただけあって、叔母は異文化への対応が実に柔軟だ。",
+      "sentenceWithBlank": "国際線の客室乗務員だった（　　　）、叔母は異文化への対応が実に柔軟だ。",
+      "korean": "국제선 객실 승무원이었던 만큼, 이모는 다른 문화에 대한 대응이 매우 유연하다.",
+      "answerChoiceId": "fb-created-n2-054-14-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-054-14-d",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-054-14-a",
+          "text": "だけに",
+          "grammarId": "n2-055",
+          "baseExpression": "だけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-054-14-b",
+          "text": "がたい",
+          "grammarId": "n2-017",
+          "baseExpression": "がたい",
+          "conjugatedExpression": "がたい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-054-14-c",
+          "text": "だけあって",
+          "grammarId": "n2-054",
+          "baseExpression": "だけあって",
+          "conjugatedExpression": "だけあって",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '국제선 객실 승무원이었던 만큼, 이모는 다른 문화에 대한 대응이 매우 유연하다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
+      "sourceGrammarIds": [
+        "n2-054",
+        "n2-028",
+        "n2-055",
+        "n2-017"
+      ],
+      "tags": [
+        "理由",
+        "評価",
+        "肯定",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-054-15",
+      "level": "N2",
+      "sentence": "この望遠鏡は天文台でも使われるだけあって、遠い星雲まで鮮明に見える。",
+      "sentenceWithBlank": "この望遠鏡は天文台でも使われる（　　　）、遠い星雲まで鮮明に見える。",
+      "korean": "이 망원경은 천문대에서도 사용되는 만큼, 먼 성운까지 선명하게 보인다.",
+      "answerChoiceId": "fb-created-n2-054-15-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-054-15-a",
+          "text": "だけに",
+          "grammarId": "n2-055",
+          "baseExpression": "だけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-054-15-b",
+          "text": "がたい",
+          "grammarId": "n2-017",
+          "baseExpression": "がたい",
+          "conjugatedExpression": "がたい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-054-15-c",
+          "text": "だけあって",
+          "grammarId": "n2-054",
+          "baseExpression": "だけあって",
+          "conjugatedExpression": "だけあって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-054-15-d",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '이 망원경은 천문대에서도 사용되는 만큼, 먼 성운까지 선명하게 보인다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
+      "sourceGrammarIds": [
+        "n2-054",
+        "n2-028",
+        "n2-055",
+        "n2-017"
+      ],
+      "tags": [
+        "理由",
+        "評価",
+        "肯定",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-054-16",
+      "level": "N2",
+      "sentence": "彼は司法通訳を務めてきただけあって、複雑な証言も正確に訳し分けた。",
+      "sentenceWithBlank": "彼は司法通訳を務めてきた（　　　）、複雑な証言も正確に訳し分けた。",
+      "korean": "그는 사법 통역을 맡아 온 만큼, 복잡한 증언도 정확히 구분해 번역했다.",
+      "answerChoiceId": "fb-created-n2-054-16-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-054-16-b",
+          "text": "がたい",
+          "grammarId": "n2-017",
+          "baseExpression": "がたい",
+          "conjugatedExpression": "がたい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-054-16-c",
+          "text": "だけあって",
+          "grammarId": "n2-054",
+          "baseExpression": "だけあって",
+          "conjugatedExpression": "だけあって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-054-16-d",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-054-16-a",
+          "text": "だけに",
+          "grammarId": "n2-055",
+          "baseExpression": "だけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '그는 사법 통역을 맡아 온 만큼, 복잡한 증언도 정확히 구분해 번역했다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
+      "sourceGrammarIds": [
+        "n2-054",
+        "n2-028",
+        "n2-055",
+        "n2-017"
+      ],
+      "tags": [
+        "理由",
+        "評価",
+        "肯定",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-054-17",
+      "level": "N2",
+      "sentence": "この葡萄酒は十年熟成させただけあって、深い味わいと穏やかな香りがある。",
+      "sentenceWithBlank": "この葡萄酒は十年熟成させた（　　　）、深い味わいと穏やかな香りがある。",
+      "korean": "이 와인은 10년간 숙성한 만큼, 깊은 맛과 은은한 향이 있다.",
+      "answerChoiceId": "fb-created-n2-054-17-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-054-17-c",
+          "text": "だけあって",
+          "grammarId": "n2-054",
+          "baseExpression": "だけあって",
+          "conjugatedExpression": "だけあって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-054-17-d",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-054-17-a",
+          "text": "だけに",
+          "grammarId": "n2-055",
+          "baseExpression": "だけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-054-17-b",
+          "text": "がたい",
+          "grammarId": "n2-017",
+          "baseExpression": "がたい",
+          "conjugatedExpression": "がたい",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '이 와인은 10년간 숙성한 만큼, 깊은 맛과 은은한 향이 있다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
+      "sourceGrammarIds": [
+        "n2-054",
+        "n2-028",
+        "n2-055",
+        "n2-017"
+      ],
+      "tags": [
+        "理由",
+        "評価",
+        "肯定",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-054-18",
+      "level": "N2",
+      "sentence": "地域の地形を熟知しているだけあって、配達員は通行止めでも別の道から時間どおりに着いた。",
+      "sentenceWithBlank": "地域の地形を熟知している（　　　）、配達員は通行止めでも別の道から時間どおりに着いた。",
+      "korean": "지역 지형을 훤히 아는 만큼, 배달원은 통행이 금지된 상황에서도 다른 길로 제시간에 도착했다.",
+      "answerChoiceId": "fb-created-n2-054-18-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-054-18-d",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-054-18-a",
+          "text": "だけに",
+          "grammarId": "n2-055",
+          "baseExpression": "だけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-054-18-b",
+          "text": "がたい",
+          "grammarId": "n2-017",
+          "baseExpression": "がたい",
+          "conjugatedExpression": "がたい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-054-18-c",
+          "text": "だけあって",
+          "grammarId": "n2-054",
+          "baseExpression": "だけあって",
+          "conjugatedExpression": "だけあって",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '지역 지형을 훤히 아는 만큼, 배달원은 통행이 금지된 상황에서도 다른 길로 제시간에 도착했다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
+      "sourceGrammarIds": [
+        "n2-054",
+        "n2-028",
+        "n2-055",
+        "n2-017"
+      ],
+      "tags": [
+        "理由",
+        "評価",
+        "肯定",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-054-19",
+      "level": "N2",
+      "sentence": "多くの野生動物を撮影してきただけあって、彼は鳥が飛び立つ瞬間を逃さなかった。",
+      "sentenceWithBlank": "多くの野生動物を撮影してきた（　　　）、彼は鳥が飛び立つ瞬間を逃さなかった。",
+      "korean": "수많은 야생 동물을 촬영해 온 만큼, 그는 새가 날아오르는 순간을 놓치지 않았다.",
+      "answerChoiceId": "fb-created-n2-054-19-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-054-19-a",
+          "text": "だけに",
+          "grammarId": "n2-055",
+          "baseExpression": "だけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-054-19-b",
+          "text": "がたい",
+          "grammarId": "n2-017",
+          "baseExpression": "がたい",
+          "conjugatedExpression": "がたい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-054-19-c",
+          "text": "だけあって",
+          "grammarId": "n2-054",
+          "baseExpression": "だけあって",
+          "conjugatedExpression": "だけあって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-054-19-d",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '수많은 야생 동물을 촬영해 온 만큼, 그는 새가 날아오르는 순간을 놓치지 않았다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
+      "sourceGrammarIds": [
+        "n2-054",
+        "n2-028",
+        "n2-055",
+        "n2-017"
+      ],
+      "tags": [
+        "理由",
+        "評価",
+        "肯定",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-054-20",
+      "level": "N2",
+      "sentence": "評判の温泉地だけあって、湯上がりには肩の重さがすっかり消えていた。",
+      "sentenceWithBlank": "評判の温泉地（　　　）、湯上がりには肩の重さがすっかり消えていた。",
+      "korean": "평판이 좋은 온천지인 만큼, 목욕을 마친 뒤에는 어깨의 무거움이 완전히 사라져 있었다.",
+      "answerChoiceId": "fb-created-n2-054-20-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-054-20-b",
+          "text": "がたい",
+          "grammarId": "n2-017",
+          "baseExpression": "がたい",
+          "conjugatedExpression": "がたい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-054-20-c",
+          "text": "だけあって",
+          "grammarId": "n2-054",
+          "baseExpression": "だけあって",
+          "conjugatedExpression": "だけあって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-054-20-d",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-054-20-a",
+          "text": "だけに",
+          "grammarId": "n2-055",
+          "baseExpression": "だけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '평판이 좋은 온천지인 만큼, 목욕을 마친 뒤에는 어깨의 무거움이 완전히 사라져 있었다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
+      "sourceGrammarIds": [
+        "n2-054",
+        "n2-028",
+        "n2-055",
+        "n2-017"
+      ],
+      "tags": [
+        "理由",
+        "評価",
+        "肯定",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-054-21",
+      "level": "N2",
+      "sentence": "彼女は長く舞台に立っているだけあって、突然の停電にも動じず演技を続けた。",
+      "sentenceWithBlank": "彼女は長く舞台に立っている（　　　）、突然の停電にも動じず演技を続けた。",
+      "korean": "그녀는 오랫동안 무대에 서 온 만큼, 갑작스러운 정전에도 동요하지 않고 연기를 계속했다.",
+      "answerChoiceId": "fb-created-n2-054-21-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-054-21-c",
+          "text": "だけあって",
+          "grammarId": "n2-054",
+          "baseExpression": "だけあって",
+          "conjugatedExpression": "だけあって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-054-21-d",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-054-21-a",
+          "text": "だけに",
+          "grammarId": "n2-055",
+          "baseExpression": "だけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-054-21-b",
+          "text": "がたい",
+          "grammarId": "n2-017",
+          "baseExpression": "がたい",
+          "conjugatedExpression": "がたい",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '그녀는 오랫동안 무대에 서 온 만큼, 갑작스러운 정전에도 동요하지 않고 연기를 계속했다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
+      "sourceGrammarIds": [
+        "n2-054",
+        "n2-028",
+        "n2-055",
+        "n2-017"
+      ],
+      "tags": [
+        "理由",
+        "評価",
+        "肯定",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-054-22",
+      "level": "N2",
+      "sentence": "この毛布は北国で開発されただけあって、薄いのに体温をしっかり保ってくれる。",
+      "sentenceWithBlank": "この毛布は北国で開発された（　　　）、薄いのに体温をしっかり保ってくれる。",
+      "korean": "이 담요는 북쪽 지방에서 개발된 만큼, 얇은데도 체온을 확실히 유지해 준다.",
+      "answerChoiceId": "fb-created-n2-054-22-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-054-22-d",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-054-22-a",
+          "text": "だけに",
+          "grammarId": "n2-055",
+          "baseExpression": "だけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-054-22-b",
+          "text": "がたい",
+          "grammarId": "n2-017",
+          "baseExpression": "がたい",
+          "conjugatedExpression": "がたい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-054-22-c",
+          "text": "だけあって",
+          "grammarId": "n2-054",
+          "baseExpression": "だけあって",
+          "conjugatedExpression": "だけあって",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '이 담요는 북쪽 지방에서 개발된 만큼, 얇은데도 체온을 확실히 유지해 준다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
+      "sourceGrammarIds": [
+        "n2-054",
+        "n2-028",
+        "n2-055",
+        "n2-017"
+      ],
+      "tags": [
+        "理由",
+        "評価",
+        "肯定",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-054-23",
+      "level": "N2",
+      "sentence": "老舗の修理工房だけあって、動かなかった古時計が以前より静かに時を刻み始めた。",
+      "sentenceWithBlank": "老舗の修理工房（　　　）、動かなかった古時計が以前より静かに時を刻み始めた。",
+      "korean": "오래된 전통의 수리 공방인 만큼, 멈춰 있던 낡은 시계가 전보다 조용히 시간을 새기기 시작했다.",
+      "answerChoiceId": "fb-created-n2-054-23-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-054-23-a",
+          "text": "だけに",
+          "grammarId": "n2-055",
+          "baseExpression": "だけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-054-23-b",
+          "text": "がたい",
+          "grammarId": "n2-017",
+          "baseExpression": "がたい",
+          "conjugatedExpression": "がたい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-054-23-c",
+          "text": "だけあって",
+          "grammarId": "n2-054",
+          "baseExpression": "だけあって",
+          "conjugatedExpression": "だけあって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-054-23-d",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '오래된 전통의 수리 공방인 만큼, 멈춰 있던 낡은 시계가 전보다 조용히 시간을 새기기 시작했다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
+      "sourceGrammarIds": [
+        "n2-054",
+        "n2-028",
+        "n2-055",
+        "n2-017"
+      ],
+      "tags": [
+        "理由",
+        "評価",
+        "肯定",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-054-24",
+      "level": "N2",
+      "sentence": "彼は海流を研究しているだけあって、漂流物が流れ着く海岸を正確に予測した。",
+      "sentenceWithBlank": "彼は海流を研究している（　　　）、漂流物が流れ着く海岸を正確に予測した。",
+      "korean": "그는 해류를 연구하는 만큼, 표류물이 떠밀려 올 해안을 정확히 예측했다.",
+      "answerChoiceId": "fb-created-n2-054-24-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-054-24-b",
+          "text": "がたい",
+          "grammarId": "n2-017",
+          "baseExpression": "がたい",
+          "conjugatedExpression": "がたい",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-054-24-c",
+          "text": "だけあって",
+          "grammarId": "n2-054",
+          "baseExpression": "だけあって",
+          "conjugatedExpression": "だけあって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-054-24-d",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-054-24-a",
+          "text": "だけに",
+          "grammarId": "n2-055",
+          "baseExpression": "だけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '그는 해류를 연구하는 만큼, 표류물이 떠밀려 올 해안을 정확히 예측했다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
+      "sourceGrammarIds": [
+        "n2-054",
+        "n2-028",
+        "n2-055",
+        "n2-017"
+      ],
+      "tags": [
+        "理由",
+        "評価",
+        "肯定",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-054-25",
+      "level": "N2",
+      "sentence": "予約が半年先まで埋まる美容師だけあって、顔立ちに合う髪型をすぐに提案してくれた。",
+      "sentenceWithBlank": "予約が半年先まで埋まる美容師（　　　）、顔立ちに合う髪型をすぐに提案してくれた。",
+      "korean": "예약이 반년 뒤까지 차는 미용사인 만큼, 얼굴 생김새에 어울리는 머리 모양을 곧바로 제안해 주었다.",
+      "answerChoiceId": "fb-created-n2-054-25-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-054-25-c",
+          "text": "だけあって",
+          "grammarId": "n2-054",
+          "baseExpression": "だけあって",
+          "conjugatedExpression": "だけあって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-054-25-d",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-054-25-a",
+          "text": "だけに",
+          "grammarId": "n2-055",
+          "baseExpression": "だけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-054-25-b",
+          "text": "がたい",
+          "grammarId": "n2-017",
+          "baseExpression": "がたい",
+          "conjugatedExpression": "がたい",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '예약이 반년 뒤까지 차는 미용사인 만큼, 얼굴 생김새에 어울리는 머리 모양을 곧바로 제안해 주었다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
+      "sourceGrammarIds": [
+        "n2-054",
+        "n2-028",
+        "n2-055",
+        "n2-017"
+      ],
+      "tags": [
+        "理由",
+        "評価",
+        "肯定",
+        "신규예문",
+        "빈칸"
       ]
     }
   ],
@@ -1939,1178 +1914,1228 @@
       ]
     },
     {
-      "id": "so-extra-n2-054-1",
+      "id": "so-created-n2-054-01",
       "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlanks": "木村さんは10年も北京に住んでいた ____ ____ ____ ____",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
+      "sentence": "長年山岳救助に携わってきただけあって、彼は吹雪の中でも安全な下山路を見つけた。",
+      "sentenceWithBlanks": "長年山岳救助に携わってきた ____ ____ ____ ____ 見つけた。",
+      "korean": "오랫동안 산악 구조에 종사해 온 만큼, 그는 눈보라 속에서도 안전한 하산로를 찾아냈다.",
       "pieces": [
         {
-          "id": "so-extra-n2-054-1-p1",
-          "text": "も知っている",
+          "id": "so-created-n2-054-01-p3",
+          "text": "中でも安全な",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-054-01-p4",
+          "text": "下山路を",
           "order": 4
         },
         {
-          "id": "so-extra-n2-054-1-p2",
-          "text": "だけあって",
+          "id": "so-created-n2-054-01-p1",
+          "text": "だけあって、",
           "order": 1
         },
         {
-          "id": "so-extra-n2-054-1-p3",
-          "text": "北京のことは",
+          "id": "so-created-n2-054-01-p2",
+          "text": "彼は吹雪の",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-054-1-p4",
-          "text": "何で",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-054-1-p2",
-        "so-extra-n2-054-1-p3",
-        "so-extra-n2-054-1-p4",
-        "so-extra-n2-054-1-p1"
+        "so-created-n2-054-01-p1",
+        "so-created-n2-054-01-p2",
+        "so-created-n2-054-01-p3",
+        "so-created-n2-054-01-p4"
       ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '오랫동안 산악 구조에 종사해 온 만큼, 그는 눈보라 속에서도 안전한 하산로를 찾아냈다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-054"
+        "n2-054",
+        "n2-028",
+        "n2-055",
+        "n2-017"
       ],
       "tags": [
         "理由",
         "評価",
         "肯定",
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-054-2",
+      "id": "so-created-n2-054-02",
       "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlanks": "木村さんは10年も北京に住んでいた ____ ____ ____ ____",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
+      "sentence": "この旅館は皇族も滞在しただけあって、客への心配りが隅々まで行き届いている。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 隅々まで行き届いている。",
+      "korean": "이 여관은 황족도 묵었던 만큼, 손님을 배려하는 세심함이 구석구석까지 미쳐 있다.",
       "pieces": [
         {
-          "id": "so-extra-n2-054-2-p2",
-          "text": "北京のことは",
+          "id": "so-created-n2-054-02-p2",
+          "text": "皇族も滞在した",
           "order": 2
         },
         {
-          "id": "so-extra-n2-054-2-p3",
-          "text": "何で",
+          "id": "so-created-n2-054-02-p3",
+          "text": "だけあって、",
           "order": 3
         },
         {
-          "id": "so-extra-n2-054-2-p4",
-          "text": "も知っている",
+          "id": "so-created-n2-054-02-p4",
+          "text": "客への心配りが",
           "order": 4
         },
         {
-          "id": "so-extra-n2-054-2-p1",
-          "text": "だけあって",
+          "id": "so-created-n2-054-02-p1",
+          "text": "この旅館は",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-054-2-p1",
-        "so-extra-n2-054-2-p2",
-        "so-extra-n2-054-2-p3",
-        "so-extra-n2-054-2-p4"
+        "so-created-n2-054-02-p1",
+        "so-created-n2-054-02-p2",
+        "so-created-n2-054-02-p3",
+        "so-created-n2-054-02-p4"
       ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '이 여관은 황족도 묵었던 만큼, 손님을 배려하는 세심함이 구석구석까지 미쳐 있다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-054"
+        "n2-054",
+        "n2-028",
+        "n2-055",
+        "n2-017"
       ],
       "tags": [
         "理由",
         "評価",
         "肯定",
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-054-3",
+      "id": "so-created-n2-054-03",
       "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、北京のことは何でも知っている。",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
+      "sentence": "全国大会で優勝しただけあって、彼女のサーブは速さも正確さも抜群だ。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 正確さも抜群だ。",
+      "korean": "전국 대회에서 우승한 만큼, 그녀의 서브는 속도와 정확성 모두 뛰어나다.",
       "pieces": [
         {
-          "id": "so-extra-n2-054-3-p3",
-          "text": "何で",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-054-3-p4",
-          "text": "北京に住んでいた",
+          "id": "so-created-n2-054-03-p1",
+          "text": "全国大会で",
           "order": 1
         },
         {
-          "id": "so-extra-n2-054-3-p1",
-          "text": "だけあって",
+          "id": "so-created-n2-054-03-p2",
+          "text": "優勝した",
           "order": 2
         },
         {
-          "id": "so-extra-n2-054-3-p2",
-          "text": "北京のことは",
+          "id": "so-created-n2-054-03-p3",
+          "text": "だけあって、彼女の",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-054-03-p4",
+          "text": "サーブは速さも",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-054-3-p4",
-        "so-extra-n2-054-3-p1",
-        "so-extra-n2-054-3-p2",
-        "so-extra-n2-054-3-p3"
+        "so-created-n2-054-03-p1",
+        "so-created-n2-054-03-p2",
+        "so-created-n2-054-03-p3",
+        "so-created-n2-054-03-p4"
       ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '전국 대회에서 우승한 만큼, 그녀의 서브는 속도와 정확성 모두 뛰어나다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-054"
+        "n2-054",
+        "n2-028",
+        "n2-055",
+        "n2-017"
       ],
       "tags": [
         "理由",
         "評価",
         "肯定",
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-054-4",
+      "id": "so-created-n2-054-04",
       "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlanks": "木村さんは10年も北京に住んでいた ____ ____ ____ ____",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
+      "sentence": "百年以上続く和菓子店だけあって、季節の素材を生かす技が見事だ。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 生かす技が見事だ。",
+      "korean": "백 년 넘게 이어진 화과자 가게인 만큼, 제철 재료를 살리는 솜씨가 훌륭하다.",
       "pieces": [
         {
-          "id": "so-extra-n2-054-4-p4",
-          "text": "北京のことは",
-          "order": 2
-        },
-        {
-          "id": "so-extra-n2-054-4-p1",
-          "text": "何で",
-          "order": 3
-        },
-        {
-          "id": "so-extra-n2-054-4-p2",
-          "text": "も知っている",
+          "id": "so-created-n2-054-04-p4",
+          "text": "季節の素材を",
           "order": 4
         },
         {
-          "id": "so-extra-n2-054-4-p3",
-          "text": "だけあって",
+          "id": "so-created-n2-054-04-p1",
+          "text": "百年以上",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-054-04-p2",
+          "text": "続く和菓子店",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-054-04-p3",
+          "text": "だけあって、",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-054-4-p3",
-        "so-extra-n2-054-4-p4",
-        "so-extra-n2-054-4-p1",
-        "so-extra-n2-054-4-p2"
+        "so-created-n2-054-04-p1",
+        "so-created-n2-054-04-p2",
+        "so-created-n2-054-04-p3",
+        "so-created-n2-054-04-p4"
       ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '백 년 넘게 이어진 화과자 가게인 만큼, 제철 재료를 살리는 솜씨가 훌륭하다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-054"
+        "n2-054",
+        "n2-028",
+        "n2-055",
+        "n2-017"
       ],
       "tags": [
         "理由",
         "評価",
         "肯定",
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-054-5",
+      "id": "so-created-n2-054-05",
       "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlanks": "木村さんは10年も北京に住んでいた ____ ____ ____ ____",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
+      "sentence": "彼は元消防士だけあって、煙を見た瞬間に住民を落ち着いて避難させた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 落ち着いて避難させた。",
+      "korean": "그는 전직 소방관인 만큼, 연기를 본 순간 주민들을 침착하게 대피시켰다.",
       "pieces": [
         {
-          "id": "so-extra-n2-054-5-p1",
-          "text": "も知っている",
+          "id": "so-created-n2-054-05-p3",
+          "text": "煙を見た",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-054-05-p4",
+          "text": "瞬間に住民を",
           "order": 4
         },
         {
-          "id": "so-extra-n2-054-5-p2",
-          "text": "だけあって",
+          "id": "so-created-n2-054-05-p1",
+          "text": "彼は元消防士",
           "order": 1
         },
         {
-          "id": "so-extra-n2-054-5-p3",
-          "text": "北京のことは",
+          "id": "so-created-n2-054-05-p2",
+          "text": "だけあって、",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-054-5-p4",
-          "text": "何で",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-054-5-p2",
-        "so-extra-n2-054-5-p3",
-        "so-extra-n2-054-5-p4",
-        "so-extra-n2-054-5-p1"
+        "so-created-n2-054-05-p1",
+        "so-created-n2-054-05-p2",
+        "so-created-n2-054-05-p3",
+        "so-created-n2-054-05-p4"
       ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '그는 전직 소방관인 만큼, 연기를 본 순간 주민들을 침착하게 대피시켰다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-054"
+        "n2-054",
+        "n2-028",
+        "n2-055",
+        "n2-017"
       ],
       "tags": [
         "理由",
         "評価",
         "肯定",
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-054-01",
+      "id": "so-created-n2-054-06",
       "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlanks": "木村さんは10年も北京に住んでいた ____ ____ ____ ____",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
+      "sentence": "産地で採れたばかりの桃だけあって、ひと口かじると豊かな香りが広がった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 広がった。",
+      "korean": "산지에서 갓 수확한 복숭아인 만큼, 한입 베어 물자 풍부한 향이 퍼졌다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-054-01-p1",
-          "text": "も知っている",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-054-01-p2",
-          "text": "だけあって",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-054-01-p3",
-          "text": "北京のことは",
+          "id": "so-created-n2-054-06-p2",
+          "text": "桃だけあって、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-054-01-p4",
-          "text": "何で",
+          "id": "so-created-n2-054-06-p3",
+          "text": "ひと口かじると",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-054-06-p4",
+          "text": "豊かな香りが",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-054-06-p1",
+          "text": "産地で採れたばかりの",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-054-01-p2",
-        "so-extra20-n2-054-01-p3",
-        "so-extra20-n2-054-01-p4",
-        "so-extra20-n2-054-01-p1"
+        "so-created-n2-054-06-p1",
+        "so-created-n2-054-06-p2",
+        "so-created-n2-054-06-p3",
+        "so-created-n2-054-06-p4"
       ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '산지에서 갓 수확한 복숭아인 만큼, 한입 베어 물자 풍부한 향이 퍼졌다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-054"
+        "n2-054",
+        "n2-028",
+        "n2-055",
+        "n2-017"
       ],
       "tags": [
         "理由",
         "評価",
         "肯定",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-054-02",
+      "id": "so-created-n2-054-07",
       "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlanks": "木村さんは10年も北京に住んでいた ____ ____ ____ ____",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
+      "sentence": "何度も現地を取材しただけあって、その記者の記事は被災者の声を丁寧に伝えていた。",
+      "sentenceWithBlanks": "何度も現地を取材した ____ ____ ____ ____ 丁寧に伝えていた。",
+      "korean": "여러 번 현지를 취재한 만큼, 그 기자의 기사는 이재민의 목소리를 세심하게 전하고 있었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-054-02-p4",
-          "text": "も知っている",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-054-02-p1",
-          "text": "だけあって",
+          "id": "so-created-n2-054-07-p1",
+          "text": "だけあって、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-054-02-p2",
-          "text": "北京のことは",
+          "id": "so-created-n2-054-07-p2",
+          "text": "その記者の",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-054-02-p3",
-          "text": "何で",
+          "id": "so-created-n2-054-07-p3",
+          "text": "記事は被災",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-054-07-p4",
+          "text": "者の声を",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-054-02-p1",
-        "so-extra20-n2-054-02-p2",
-        "so-extra20-n2-054-02-p3",
-        "so-extra20-n2-054-02-p4"
+        "so-created-n2-054-07-p1",
+        "so-created-n2-054-07-p2",
+        "so-created-n2-054-07-p3",
+        "so-created-n2-054-07-p4"
       ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '여러 번 현지를 취재한 만큼, 그 기자의 기사는 이재민의 목소리를 세심하게 전하고 있었다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-054"
+        "n2-054",
+        "n2-028",
+        "n2-055",
+        "n2-017"
       ],
       "tags": [
         "理由",
         "評価",
         "肯定",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-054-03",
+      "id": "so-created-n2-054-08",
       "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、北京のことは何でも知っている。",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
+      "sentence": "さすが港町で育っただけあって、祖母は魚の鮮度を目だけで見分けられる。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 目だけで見分けられる。",
+      "korean": "역시 항구 도시에서 자란 만큼, 할머니는 생선의 신선도를 눈으로만 구별할 수 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-054-03-p3",
-          "text": "何で",
+          "id": "so-created-n2-054-08-p4",
+          "text": "祖母は魚の鮮度を",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-054-03-p4",
-          "text": "北京に住んでいた",
+          "id": "so-created-n2-054-08-p1",
+          "text": "さすが",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-054-03-p1",
-          "text": "だけあって",
+          "id": "so-created-n2-054-08-p2",
+          "text": "港町で育った",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-054-03-p2",
-          "text": "北京のことは",
+          "id": "so-created-n2-054-08-p3",
+          "text": "だけあって、",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-054-03-p4",
-        "so-extra20-n2-054-03-p1",
-        "so-extra20-n2-054-03-p2",
-        "so-extra20-n2-054-03-p3"
+        "so-created-n2-054-08-p1",
+        "so-created-n2-054-08-p2",
+        "so-created-n2-054-08-p3",
+        "so-created-n2-054-08-p4"
       ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '역시 항구 도시에서 자란 만큼, 할머니는 생선의 신선도를 눈으로만 구별할 수 있다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-054"
+        "n2-054",
+        "n2-028",
+        "n2-055",
+        "n2-017"
       ],
       "tags": [
         "理由",
         "評価",
         "肯定",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-054-04",
+      "id": "so-created-n2-054-09",
       "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlanks": "木村さんは10年も北京に住んでいた ____ ____ ____ ____",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
+      "sentence": "この靴は職人が手作業で仕上げただけあって、長く歩いても足が疲れにくい。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 歩いても足が疲れにくい。",
+      "korean": "이 신발은 장인이 수작업으로 완성한 만큼, 오래 걸어도 발이 쉽게 피로해지지 않는다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-054-04-p2",
-          "text": "も知っている",
+          "id": "so-created-n2-054-09-p3",
+          "text": "仕上げた",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-054-09-p4",
+          "text": "だけあって、長く",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-054-04-p3",
-          "text": "だけあって",
+          "id": "so-created-n2-054-09-p1",
+          "text": "この靴は",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-054-04-p4",
-          "text": "北京のことは",
+          "id": "so-created-n2-054-09-p2",
+          "text": "職人が手作業で",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-054-04-p1",
-          "text": "何で",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-054-04-p3",
-        "so-extra20-n2-054-04-p4",
-        "so-extra20-n2-054-04-p1",
-        "so-extra20-n2-054-04-p2"
+        "so-created-n2-054-09-p1",
+        "so-created-n2-054-09-p2",
+        "so-created-n2-054-09-p3",
+        "so-created-n2-054-09-p4"
       ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '이 신발은 장인이 수작업으로 완성한 만큼, 오래 걸어도 발이 쉽게 피로해지지 않는다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-054"
+        "n2-054",
+        "n2-028",
+        "n2-055",
+        "n2-017"
       ],
       "tags": [
         "理由",
         "評価",
         "肯定",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-054-05",
+      "id": "so-created-n2-054-10",
       "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlanks": "木村さんは10年も北京に住んでいた ____ ____ ____ ____",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
+      "sentence": "彼女は三人の子を育てただけあって、泣いている幼児をあっという間に笑顔にした。",
+      "sentenceWithBlanks": "____ ____ ____ ____ あっという間に笑顔にした。",
+      "korean": "그녀는 세 아이를 키운 만큼, 울고 있는 어린아이를 순식간에 웃게 했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-054-05-p1",
-          "text": "も知っている",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-054-05-p2",
-          "text": "だけあって",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-054-05-p3",
-          "text": "北京のことは",
+          "id": "so-created-n2-054-10-p2",
+          "text": "子を育てた",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-054-05-p4",
-          "text": "何で",
+          "id": "so-created-n2-054-10-p3",
+          "text": "だけあって、",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-054-10-p4",
+          "text": "泣いている幼児を",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-054-10-p1",
+          "text": "彼女は三人の",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-054-05-p2",
-        "so-extra20-n2-054-05-p3",
-        "so-extra20-n2-054-05-p4",
-        "so-extra20-n2-054-05-p1"
+        "so-created-n2-054-10-p1",
+        "so-created-n2-054-10-p2",
+        "so-created-n2-054-10-p3",
+        "so-created-n2-054-10-p4"
       ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '그녀는 세 아이를 키운 만큼, 울고 있는 어린아이를 순식간에 웃게 했다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-054"
+        "n2-054",
+        "n2-028",
+        "n2-055",
+        "n2-017"
       ],
       "tags": [
         "理由",
         "評価",
         "肯定",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-054-06",
+      "id": "so-created-n2-054-11",
       "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlanks": "木村さんは10年も北京に住んでいた ____ ____ ____ ____",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
+      "sentence": "最新の省エネ設備を導入しただけあって、この工場は昨年より電力消費を大幅に減らした。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 昨年より電力消費を大幅に減らした。",
+      "korean": "최신 에너지 절약 설비를 도입한 만큼, 이 공장은 지난해보다 전력 소비를 크게 줄였다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-054-06-p4",
-          "text": "何で",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-054-06-p1",
-          "text": "も知っている",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-054-06-p2",
-          "text": "だけあって",
+          "id": "so-created-n2-054-11-p1",
+          "text": "最新の省エネ",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-054-06-p3",
-          "text": "北京のことは",
+          "id": "so-created-n2-054-11-p2",
+          "text": "設備を導入した",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-054-11-p3",
+          "text": "だけあって、",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-054-11-p4",
+          "text": "この工場は",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-054-06-p2",
-        "so-extra20-n2-054-06-p3",
-        "so-extra20-n2-054-06-p4",
-        "so-extra20-n2-054-06-p1"
+        "so-created-n2-054-11-p1",
+        "so-created-n2-054-11-p2",
+        "so-created-n2-054-11-p3",
+        "so-created-n2-054-11-p4"
       ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '최신 에너지 절약 설비를 도입한 만큼, 이 공장은 지난해보다 전력 소비를 크게 줄였다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-054"
+        "n2-054",
+        "n2-028",
+        "n2-055",
+        "n2-017"
       ],
       "tags": [
         "理由",
         "評価",
         "肯定",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-054-07",
+      "id": "so-created-n2-054-12",
       "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlanks": "木村さんは10年も北京に住んでいた ____ ____ ____ ____",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
+      "sentence": "世界的な建築家が設計しただけあって、この図書館は自然光の取り入れ方が美しい。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 図書館は自然光の取り入れ方が美しい。",
+      "korean": "세계적인 건축가가 설계한 만큼, 이 도서관은 자연광을 끌어들이는 방식이 아름답다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-054-07-p3",
-          "text": "何で",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-054-07-p4",
-          "text": "も知っている",
+          "id": "so-created-n2-054-12-p4",
+          "text": "この",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-054-07-p1",
-          "text": "だけあって",
+          "id": "so-created-n2-054-12-p1",
+          "text": "世界的な建築",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-054-07-p2",
-          "text": "北京のことは",
+          "id": "so-created-n2-054-12-p2",
+          "text": "家が設計した",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-054-12-p3",
+          "text": "だけあって、",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-054-07-p1",
-        "so-extra20-n2-054-07-p2",
-        "so-extra20-n2-054-07-p3",
-        "so-extra20-n2-054-07-p4"
+        "so-created-n2-054-12-p1",
+        "so-created-n2-054-12-p2",
+        "so-created-n2-054-12-p3",
+        "so-created-n2-054-12-p4"
       ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '세계적인 건축가가 설계한 만큼, 이 도서관은 자연광을 끌어들이는 방식이 아름답다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-054"
+        "n2-054",
+        "n2-028",
+        "n2-055",
+        "n2-017"
       ],
       "tags": [
         "理由",
         "評価",
         "肯定",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-054-08",
+      "id": "so-created-n2-054-13",
       "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、北京のことは何でも知っている。",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
+      "sentence": "兄は毎朝市場で仕入れているだけあって、食卓にはいつも旬の野菜が並ぶ。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 野菜が並ぶ。",
+      "korean": "형은 매일 아침 시장에서 식재료를 들여오는 만큼, 식탁에는 언제나 제철 채소가 오른다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-054-08-p2",
-          "text": "北京のことは",
+          "id": "so-created-n2-054-13-p3",
+          "text": "だけあって、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-054-08-p3",
-          "text": "何で",
+          "id": "so-created-n2-054-13-p4",
+          "text": "食卓にはいつも旬の",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-054-08-p4",
-          "text": "北京に住んでいた",
+          "id": "so-created-n2-054-13-p1",
+          "text": "兄は毎朝市場で",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-054-08-p1",
-          "text": "だけあって",
+          "id": "so-created-n2-054-13-p2",
+          "text": "仕入れている",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-054-08-p4",
-        "so-extra20-n2-054-08-p1",
-        "so-extra20-n2-054-08-p2",
-        "so-extra20-n2-054-08-p3"
+        "so-created-n2-054-13-p1",
+        "so-created-n2-054-13-p2",
+        "so-created-n2-054-13-p3",
+        "so-created-n2-054-13-p4"
       ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '형은 매일 아침 시장에서 식재료를 들여오는 만큼, 식탁에는 언제나 제철 채소가 오른다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-054"
+        "n2-054",
+        "n2-028",
+        "n2-055",
+        "n2-017"
       ],
       "tags": [
         "理由",
         "評価",
         "肯定",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-054-09",
+      "id": "so-created-n2-054-14",
       "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlanks": "木村さんは10年も北京に住んでいた ____ ____ ____ ____",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
+      "sentence": "国際線の客室乗務員だっただけあって、叔母は異文化への対応が実に柔軟だ。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 文化への対応が実に柔軟だ。",
+      "korean": "국제선 객실 승무원이었던 만큼, 이모는 다른 문화에 대한 대응이 매우 유연하다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-054-09-p1",
-          "text": "何で",
+          "id": "so-created-n2-054-14-p2",
+          "text": "乗務員だった",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-054-14-p3",
+          "text": "だけあって、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-054-09-p2",
-          "text": "も知っている",
+          "id": "so-created-n2-054-14-p4",
+          "text": "叔母は異",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-054-09-p3",
-          "text": "だけあって",
+          "id": "so-created-n2-054-14-p1",
+          "text": "国際線の客室",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-054-09-p4",
-          "text": "北京のことは",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-054-09-p3",
-        "so-extra20-n2-054-09-p4",
-        "so-extra20-n2-054-09-p1",
-        "so-extra20-n2-054-09-p2"
+        "so-created-n2-054-14-p1",
+        "so-created-n2-054-14-p2",
+        "so-created-n2-054-14-p3",
+        "so-created-n2-054-14-p4"
       ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '국제선 객실 승무원이었던 만큼, 이모는 다른 문화에 대한 대응이 매우 유연하다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-054"
+        "n2-054",
+        "n2-028",
+        "n2-055",
+        "n2-017"
       ],
       "tags": [
         "理由",
         "評価",
         "肯定",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-054-10",
+      "id": "so-created-n2-054-15",
       "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlanks": "木村さんは10年も北京に住んでいた ____ ____ ____ ____",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
+      "sentence": "この望遠鏡は天文台でも使われるだけあって、遠い星雲まで鮮明に見える。",
+      "sentenceWithBlanks": "この望遠鏡は ____ ____ ____ ____",
+      "korean": "이 망원경은 천문대에서도 사용되는 만큼, 먼 성운까지 선명하게 보인다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-054-10-p4",
-          "text": "何で",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-054-10-p1",
-          "text": "も知っている",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-054-10-p2",
-          "text": "だけあって",
+          "id": "so-created-n2-054-15-p1",
+          "text": "天文台でも使われる",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-054-10-p3",
-          "text": "北京のことは",
+          "id": "so-created-n2-054-15-p2",
+          "text": "だけあって、",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-054-15-p3",
+          "text": "遠い星雲まで",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-054-15-p4",
+          "text": "鮮明に見える。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-054-10-p2",
-        "so-extra20-n2-054-10-p3",
-        "so-extra20-n2-054-10-p4",
-        "so-extra20-n2-054-10-p1"
+        "so-created-n2-054-15-p1",
+        "so-created-n2-054-15-p2",
+        "so-created-n2-054-15-p3",
+        "so-created-n2-054-15-p4"
       ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '이 망원경은 천문대에서도 사용되는 만큼, 먼 성운까지 선명하게 보인다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-054"
+        "n2-054",
+        "n2-028",
+        "n2-055",
+        "n2-017"
       ],
       "tags": [
         "理由",
         "評価",
         "肯定",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-054-11",
+      "id": "so-created-n2-054-16",
       "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlanks": "木村さんは10年も北京に住んでいた ____ ____ ____ ____",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
+      "sentence": "彼は司法通訳を務めてきただけあって、複雑な証言も正確に訳し分けた。",
+      "sentenceWithBlanks": "彼は司法通訳を ____ ____ ____ ____",
+      "korean": "그는 사법 통역을 맡아 온 만큼, 복잡한 증언도 정확히 구분해 번역했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-054-11-p3",
-          "text": "北京のことは",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-054-11-p4",
-          "text": "何で",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-054-11-p1",
-          "text": "も知っている",
+          "id": "so-created-n2-054-16-p4",
+          "text": "正確に訳し分けた。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-054-11-p2",
-          "text": "だけあって",
+          "id": "so-created-n2-054-16-p1",
+          "text": "務めてきた",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-054-16-p2",
+          "text": "だけあって、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-054-16-p3",
+          "text": "複雑な証言も",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-054-11-p2",
-        "so-extra20-n2-054-11-p3",
-        "so-extra20-n2-054-11-p4",
-        "so-extra20-n2-054-11-p1"
+        "so-created-n2-054-16-p1",
+        "so-created-n2-054-16-p2",
+        "so-created-n2-054-16-p3",
+        "so-created-n2-054-16-p4"
       ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '그는 사법 통역을 맡아 온 만큼, 복잡한 증언도 정확히 구분해 번역했다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-054"
+        "n2-054",
+        "n2-028",
+        "n2-055",
+        "n2-017"
       ],
       "tags": [
         "理由",
         "評価",
         "肯定",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-054-12",
+      "id": "so-created-n2-054-17",
       "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlanks": "木村さんは10年も北京に住んでいた ____ ____ ____ ____",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
+      "sentence": "この葡萄酒は十年熟成させただけあって、深い味わいと穏やかな香りがある。",
+      "sentenceWithBlanks": "この ____ ____ ____ ____ 香りがある。",
+      "korean": "이 와인은 10년간 숙성한 만큼, 깊은 맛과 은은한 향이 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-054-12-p2",
-          "text": "北京のことは",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-054-12-p3",
-          "text": "何で",
+          "id": "so-created-n2-054-17-p3",
+          "text": "だけあって、深い",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-054-12-p4",
-          "text": "も知っている",
+          "id": "so-created-n2-054-17-p4",
+          "text": "味わいと穏やかな",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-054-12-p1",
-          "text": "だけあって",
+          "id": "so-created-n2-054-17-p1",
+          "text": "葡萄酒は十年",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-054-17-p2",
+          "text": "熟成させた",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-054-12-p1",
-        "so-extra20-n2-054-12-p2",
-        "so-extra20-n2-054-12-p3",
-        "so-extra20-n2-054-12-p4"
+        "so-created-n2-054-17-p1",
+        "so-created-n2-054-17-p2",
+        "so-created-n2-054-17-p3",
+        "so-created-n2-054-17-p4"
       ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '이 와인은 10년간 숙성한 만큼, 깊은 맛과 은은한 향이 있다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-054"
+        "n2-054",
+        "n2-028",
+        "n2-055",
+        "n2-017"
       ],
       "tags": [
         "理由",
         "評価",
         "肯定",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-054-13",
+      "id": "so-created-n2-054-18",
       "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、北京のことは何でも知っている。",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
+      "sentence": "地域の地形を熟知しているだけあって、配達員は通行止めでも別の道から時間どおりに着いた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 道から時間どおりに着いた。",
+      "korean": "지역 지형을 훤히 아는 만큼, 배달원은 통행이 금지된 상황에서도 다른 길로 제시간에 도착했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-054-13-p1",
-          "text": "だけあって",
+          "id": "so-created-n2-054-18-p2",
+          "text": "熟知している",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-054-13-p2",
-          "text": "北京のことは",
+          "id": "so-created-n2-054-18-p3",
+          "text": "だけあって、配達員は",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-054-13-p3",
-          "text": "何で",
+          "id": "so-created-n2-054-18-p4",
+          "text": "通行止めでも別の",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-054-13-p4",
-          "text": "北京に住んでいた",
+          "id": "so-created-n2-054-18-p1",
+          "text": "地域の地形を",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-054-13-p4",
-        "so-extra20-n2-054-13-p1",
-        "so-extra20-n2-054-13-p2",
-        "so-extra20-n2-054-13-p3"
+        "so-created-n2-054-18-p1",
+        "so-created-n2-054-18-p2",
+        "so-created-n2-054-18-p3",
+        "so-created-n2-054-18-p4"
       ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '지역 지형을 훤히 아는 만큼, 배달원은 통행이 금지된 상황에서도 다른 길로 제시간에 도착했다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-054"
+        "n2-054",
+        "n2-028",
+        "n2-055",
+        "n2-017"
       ],
       "tags": [
         "理由",
         "評価",
         "肯定",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-054-14",
+      "id": "so-created-n2-054-19",
       "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlanks": "木村さんは10年も北京に住んでいた ____ ____ ____ ____",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
+      "sentence": "多くの野生動物を撮影してきただけあって、彼は鳥が飛び立つ瞬間を逃さなかった。",
+      "sentenceWithBlanks": "多くの ____ ____ ____ ____ 逃さなかった。",
+      "korean": "수많은 야생 동물을 촬영해 온 만큼, 그는 새가 날아오르는 순간을 놓치지 않았다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-054-14-p4",
-          "text": "北京のことは",
+          "id": "so-created-n2-054-19-p1",
+          "text": "野生動物を",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-054-19-p2",
+          "text": "撮影してきた",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-054-14-p1",
-          "text": "何で",
+          "id": "so-created-n2-054-19-p3",
+          "text": "だけあって、彼は",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-054-14-p2",
-          "text": "も知っている",
+          "id": "so-created-n2-054-19-p4",
+          "text": "鳥が飛び立つ瞬間を",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-054-14-p3",
-          "text": "だけあって",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-054-14-p3",
-        "so-extra20-n2-054-14-p4",
-        "so-extra20-n2-054-14-p1",
-        "so-extra20-n2-054-14-p2"
+        "so-created-n2-054-19-p1",
+        "so-created-n2-054-19-p2",
+        "so-created-n2-054-19-p3",
+        "so-created-n2-054-19-p4"
       ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '수많은 야생 동물을 촬영해 온 만큼, 그는 새가 날아오르는 순간을 놓치지 않았다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-054"
+        "n2-054",
+        "n2-028",
+        "n2-055",
+        "n2-017"
       ],
       "tags": [
         "理由",
         "評価",
         "肯定",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-054-15",
+      "id": "so-created-n2-054-20",
       "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlanks": "木村さんは10年も北京に住んでいた ____ ____ ____ ____",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
+      "sentence": "評判の温泉地だけあって、湯上がりには肩の重さがすっかり消えていた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 消えていた。",
+      "korean": "평판이 좋은 온천지인 만큼, 목욕을 마친 뒤에는 어깨의 무거움이 완전히 사라져 있었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-054-15-p3",
-          "text": "北京のことは",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-054-15-p4",
-          "text": "何で",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-054-15-p1",
-          "text": "も知っている",
+          "id": "so-created-n2-054-20-p4",
+          "text": "重さがすっかり",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-054-15-p2",
-          "text": "だけあって",
+          "id": "so-created-n2-054-20-p1",
+          "text": "評判の温泉地",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-054-20-p2",
+          "text": "だけあって、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-054-20-p3",
+          "text": "湯上がりには肩の",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-054-15-p2",
-        "so-extra20-n2-054-15-p3",
-        "so-extra20-n2-054-15-p4",
-        "so-extra20-n2-054-15-p1"
+        "so-created-n2-054-20-p1",
+        "so-created-n2-054-20-p2",
+        "so-created-n2-054-20-p3",
+        "so-created-n2-054-20-p4"
       ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '평판이 좋은 온천지인 만큼, 목욕을 마친 뒤에는 어깨의 무거움이 완전히 사라져 있었다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-054"
+        "n2-054",
+        "n2-028",
+        "n2-055",
+        "n2-017"
       ],
       "tags": [
         "理由",
         "評価",
         "肯定",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-054-16",
+      "id": "so-created-n2-054-21",
       "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlanks": "木村さんは10年も北京に住んでいた ____ ____ ____ ____",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
+      "sentence": "彼女は長く舞台に立っているだけあって、突然の停電にも動じず演技を続けた。",
+      "sentenceWithBlanks": "彼女は長く舞台に ____ ____ ____ ____",
+      "korean": "그녀는 오랫동안 무대에 서 온 만큼, 갑작스러운 정전에도 동요하지 않고 연기를 계속했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-054-16-p2",
-          "text": "だけあって",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-054-16-p3",
-          "text": "北京のことは",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-054-16-p4",
-          "text": "何で",
+          "id": "so-created-n2-054-21-p3",
+          "text": "停電にも動じず",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-054-16-p1",
-          "text": "も知っている",
+          "id": "so-created-n2-054-21-p4",
+          "text": "演技を続けた。",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-054-21-p1",
+          "text": "立っている",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-054-21-p2",
+          "text": "だけあって、突然の",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-054-16-p2",
-        "so-extra20-n2-054-16-p3",
-        "so-extra20-n2-054-16-p4",
-        "so-extra20-n2-054-16-p1"
+        "so-created-n2-054-21-p1",
+        "so-created-n2-054-21-p2",
+        "so-created-n2-054-21-p3",
+        "so-created-n2-054-21-p4"
       ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '그녀는 오랫동안 무대에 서 온 만큼, 갑작스러운 정전에도 동요하지 않고 연기를 계속했다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-054"
+        "n2-054",
+        "n2-028",
+        "n2-055",
+        "n2-017"
       ],
       "tags": [
         "理由",
         "評価",
         "肯定",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-054-17",
+      "id": "so-created-n2-054-22",
       "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlanks": "木村さんは10年も北京に住んでいた ____ ____ ____ ____",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
+      "sentence": "この毛布は北国で開発されただけあって、薄いのに体温をしっかり保ってくれる。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 保ってくれる。",
+      "korean": "이 담요는 북쪽 지방에서 개발된 만큼, 얇은데도 체온을 확실히 유지해 준다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-054-17-p1",
-          "text": "だけあって",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-054-17-p2",
-          "text": "北京のことは",
+          "id": "so-created-n2-054-22-p2",
+          "text": "北国で開発された",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-054-17-p3",
-          "text": "何で",
+          "id": "so-created-n2-054-22-p3",
+          "text": "だけあって、薄いのに",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-054-17-p4",
-          "text": "も知っている",
+          "id": "so-created-n2-054-22-p4",
+          "text": "体温をしっかり",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-054-22-p1",
+          "text": "この毛布は",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-054-17-p1",
-        "so-extra20-n2-054-17-p2",
-        "so-extra20-n2-054-17-p3",
-        "so-extra20-n2-054-17-p4"
+        "so-created-n2-054-22-p1",
+        "so-created-n2-054-22-p2",
+        "so-created-n2-054-22-p3",
+        "so-created-n2-054-22-p4"
       ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '이 담요는 북쪽 지방에서 개발된 만큼, 얇은데도 체온을 확실히 유지해 준다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-054"
+        "n2-054",
+        "n2-028",
+        "n2-055",
+        "n2-017"
       ],
       "tags": [
         "理由",
         "評価",
         "肯定",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-054-18",
+      "id": "so-created-n2-054-23",
       "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、北京のことは何でも知っている。",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
+      "sentence": "老舗の修理工房だけあって、動かなかった古時計が以前より静かに時を刻み始めた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 以前より静かに時を刻み始めた。",
+      "korean": "오래된 전통의 수리 공방인 만큼, 멈춰 있던 낡은 시계가 전보다 조용히 시간을 새기기 시작했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-054-18-p4",
-          "text": "北京に住んでいた",
+          "id": "so-created-n2-054-23-p1",
+          "text": "老舗の修理工房",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-054-18-p1",
-          "text": "だけあって",
+          "id": "so-created-n2-054-23-p2",
+          "text": "だけあって、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-054-18-p2",
-          "text": "北京のことは",
+          "id": "so-created-n2-054-23-p3",
+          "text": "動かなかった",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-054-18-p3",
-          "text": "何で",
+          "id": "so-created-n2-054-23-p4",
+          "text": "古時計が",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-054-18-p4",
-        "so-extra20-n2-054-18-p1",
-        "so-extra20-n2-054-18-p2",
-        "so-extra20-n2-054-18-p3"
+        "so-created-n2-054-23-p1",
+        "so-created-n2-054-23-p2",
+        "so-created-n2-054-23-p3",
+        "so-created-n2-054-23-p4"
       ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '오래된 전통의 수리 공방인 만큼, 멈춰 있던 낡은 시계가 전보다 조용히 시간을 새기기 시작했다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-054"
+        "n2-054",
+        "n2-028",
+        "n2-055",
+        "n2-017"
       ],
       "tags": [
         "理由",
         "評価",
         "肯定",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-054-19",
+      "id": "so-created-n2-054-24",
       "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlanks": "木村さんは10年も北京に住んでいた ____ ____ ____ ____",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
+      "sentence": "彼は海流を研究しているだけあって、漂流物が流れ着く海岸を正確に予測した。",
+      "sentenceWithBlanks": "彼は海流を研究している ____ ____ ____ ____",
+      "korean": "그는 해류를 연구하는 만큼, 표류물이 떠밀려 올 해안을 정확히 예측했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-054-19-p3",
-          "text": "だけあって",
+          "id": "so-created-n2-054-24-p4",
+          "text": "予測した。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-054-24-p1",
+          "text": "だけあって、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-054-19-p4",
-          "text": "北京のことは",
+          "id": "so-created-n2-054-24-p2",
+          "text": "漂流物が流れ着く",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-054-19-p1",
-          "text": "何で",
+          "id": "so-created-n2-054-24-p3",
+          "text": "海岸を正確に",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-054-19-p2",
-          "text": "も知っている",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-054-19-p3",
-        "so-extra20-n2-054-19-p4",
-        "so-extra20-n2-054-19-p1",
-        "so-extra20-n2-054-19-p2"
+        "so-created-n2-054-24-p1",
+        "so-created-n2-054-24-p2",
+        "so-created-n2-054-24-p3",
+        "so-created-n2-054-24-p4"
       ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '그는 해류를 연구하는 만큼, 표류물이 떠밀려 올 해안을 정확히 예측했다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-054"
+        "n2-054",
+        "n2-028",
+        "n2-055",
+        "n2-017"
       ],
       "tags": [
         "理由",
         "評価",
         "肯定",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-054-20",
+      "id": "so-created-n2-054-25",
       "level": "N2",
-      "sentence": "木村さんは10年も北京に住んでいただけあって、北京のことは何でも知っている。",
-      "sentenceWithBlanks": "木村さんは10年も北京に住んでいた ____ ____ ____ ____",
-      "korean": "기무라 씨는 10년이나 베이징에 산 만큼 베이징에 대해 뭐든 안다.",
+      "sentence": "予約が半年先まで埋まる美容師だけあって、顔立ちに合う髪型をすぐに提案してくれた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 合う髪型をすぐに提案してくれた。",
+      "korean": "예약이 반년 뒤까지 차는 미용사인 만큼, 얼굴 생김새에 어울리는 머리 모양을 곧바로 제안해 주었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-054-20-p2",
-          "text": "だけあって",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-054-20-p3",
-          "text": "北京のことは",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-054-20-p4",
-          "text": "何で",
+          "id": "so-created-n2-054-25-p3",
+          "text": "だけあって、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-054-20-p1",
-          "text": "も知っている",
+          "id": "so-created-n2-054-25-p4",
+          "text": "顔立ちに",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-054-25-p1",
+          "text": "予約が半年先まで",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-054-25-p2",
+          "text": "埋まる美容師",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-054-20-p2",
-        "so-extra20-n2-054-20-p3",
-        "so-extra20-n2-054-20-p4",
-        "so-extra20-n2-054-20-p1"
+        "so-created-n2-054-25-p1",
+        "so-created-n2-054-25-p2",
+        "so-created-n2-054-25-p3",
+        "so-created-n2-054-25-p4"
       ],
-      "explanation": "「だけあって」는 ~이었던 만큼, ~이었기 때문에라는 뜻이다. 그만한 이유가 있어 기대대로라는 긍정 평가.",
+      "explanation": "「だけあって」는 '~이었던 만큼, ~이었기 때문에'라는 뜻을 나타낸다. 이 문장에서는 '예약이 반년 뒤까지 차는 미용사인 만큼, 얼굴 생김새에 어울리는 머리 모양을 곧바로 제안해 주었다.'라는 상황에 쓰였으며, 그만한 이유가 있어 기대대로라는 긍정 평가. 주의할 점은 긍정적 기대 충족. 「さすが～だけあって」형태가 전형. 비판엔 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-054"
+        "n2-054",
+        "n2-028",
+        "n2-055",
+        "n2-017"
       ],
       "tags": [
         "理由",
         "評価",
         "肯定",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     }
   ]

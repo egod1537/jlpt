@@ -267,15 +267,23 @@
       ]
     },
     {
-      "id": "fb-extra-n2-010-1",
+      "id": "fb-created-n2-010-01",
       "level": "N2",
-      "sentence": "このことは今度お目にかかった折に詳しくお話しいたします。",
-      "sentenceWithBlank": "このことは今度お目にかかった（　　　）詳しくお話しいたします。",
-      "korean": "이 일은 다음에 뵈었을 때 자세히 말씀드리겠습니다.",
-      "answerChoiceId": "fb-extra-n2-010-1-c",
+      "sentence": "京都へお越しの折に、弊社の工房にもぜひお立ち寄りください。",
+      "sentenceWithBlank": "京都へお越しの（　　　）、弊社の工房にもぜひお立ち寄りください。",
+      "korean": "교토에 오실 때 저희 회사 공방에도 꼭 들러 주십시오.",
+      "answerChoiceId": "fb-created-n2-010-01-c",
       "choices": [
         {
-          "id": "fb-extra-n2-010-1-d",
+          "id": "fb-created-n2-010-01-c",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-010-01-d",
           "text": "てもさしつかえない",
           "grammarId": "n2-078",
           "baseExpression": "てもさしつかえない",
@@ -283,7 +291,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-010-1-a",
+          "id": "fb-created-n2-010-01-a",
           "text": "というと",
           "grammarId": "n2-079",
           "baseExpression": "というと",
@@ -291,23 +299,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-010-1-b",
+          "id": "fb-created-n2-010-01-b",
           "text": "というものだ",
           "grammarId": "n2-080",
           "baseExpression": "というものだ",
           "conjugatedExpression": "というものだ",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-010-1-c",
-          "text": "折に",
-          "grammarId": "n2-010",
-          "baseExpression": "折に",
-          "conjugatedExpression": "折に",
-          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '교토에 오실 때 저희 회사 공방에도 꼭 들러 주십시오.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
       "sourceGrammarIds": [
         "n2-010",
         "n2-078",
@@ -315,237 +315,20 @@
         "n2-080"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra-n2-010-2",
+      "id": "fb-created-n2-010-02",
       "level": "N2",
-      "sentence": "先月北海道に行った折、偶然昔の友達に会った。",
-      "sentenceWithBlank": "先月北海道に行った折、偶然昔の友達に会った。　（　　　）",
-      "korean": "지난달 홋카이도에 갔을 때 우연히 옛 친구를 만났다.",
-      "answerChoiceId": "fb-extra-n2-010-2-b",
+      "sentence": "契約を更新する折に、緊急連絡先も併せてご確認願います。",
+      "sentenceWithBlank": "契約を更新する（　　　）、緊急連絡先も併せてご確認願います。",
+      "korean": "계약을 갱신하실 때 긴급 연락처도 함께 확인해 주시기 바랍니다.",
+      "answerChoiceId": "fb-created-n2-010-02-c",
       "choices": [
         {
-          "id": "fb-extra-n2-010-2-a",
-          "text": "得るうる",
-          "grammarId": "n2-008",
-          "baseExpression": "得るうる",
-          "conjugatedExpression": "得るうる",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-010-2-b",
-          "text": "折に",
-          "grammarId": "n2-010",
-          "baseExpression": "折に",
-          "conjugatedExpression": "折に",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-010-2-c",
-          "text": "上で",
-          "grammarId": "n2-006",
-          "baseExpression": "上で",
-          "conjugatedExpression": "上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-010-2-d",
-          "text": "する上は",
-          "grammarId": "n2-007",
-          "baseExpression": "上は",
-          "conjugatedExpression": "する上は",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
-      "sourceGrammarIds": [
-        "n2-010",
-        "n2-006",
-        "n2-007",
-        "n2-008"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-010-3",
-      "level": "N2",
-      "sentence": "このことは今度お目にかかった折に詳しくお話しいたします。",
-      "sentenceWithBlank": "このことは今度お目にかかった（　　　）詳しくお話しいたします。",
-      "korean": "이 일은 다음에 뵈었을 때 자세히 말씀드리겠습니다.",
-      "answerChoiceId": "fb-extra-n2-010-3-a",
-      "choices": [
-        {
-          "id": "fb-extra-n2-010-3-b",
-          "text": "したからといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "したからといって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-010-3-c",
-          "text": "気味",
-          "grammarId": "n2-029",
-          "baseExpression": "気味",
-          "conjugatedExpression": "気味",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-010-3-d",
-          "text": "きらいがある",
-          "grammarId": "n2-030",
-          "baseExpression": "きらいがある",
-          "conjugatedExpression": "きらいがある",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-010-3-a",
-          "text": "折に",
-          "grammarId": "n2-010",
-          "baseExpression": "折に",
-          "conjugatedExpression": "折に",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
-      "sourceGrammarIds": [
-        "n2-010",
-        "n2-028",
-        "n2-029",
-        "n2-030"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-010-4",
-      "level": "N2",
-      "sentence": "先月北海道に行った折、偶然昔の友達に会った。",
-      "sentenceWithBlank": "先月北海道に行った折、偶然昔の友達に会った。　（　　　）",
-      "korean": "지난달 홋카이도에 갔을 때 우연히 옛 친구를 만났다.",
-      "answerChoiceId": "fb-extra-n2-010-4-d",
-      "choices": [
-        {
-          "id": "fb-extra-n2-010-4-c",
-          "text": "ばかりだ",
-          "grammarId": "n2-139",
-          "baseExpression": "ばかりだ",
-          "conjugatedExpression": "ばかりだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-010-4-d",
-          "text": "折に",
-          "grammarId": "n2-010",
-          "baseExpression": "折に",
-          "conjugatedExpression": "折に",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-010-4-a",
-          "text": "のもとで",
-          "grammarId": "n2-137",
-          "baseExpression": "のもとで",
-          "conjugatedExpression": "のもとで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-010-4-b",
-          "text": "ばかりか",
-          "grammarId": "n2-138",
-          "baseExpression": "ばかりか",
-          "conjugatedExpression": "ばかりか",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
-      "sourceGrammarIds": [
-        "n2-010",
-        "n2-137",
-        "n2-138",
-        "n2-139"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-010-5",
-      "level": "N2",
-      "sentence": "このことは今度お目にかかった折に詳しくお話しいたします。",
-      "sentenceWithBlank": "このことは今度お目にかかった（　　　）詳しくお話しいたします。",
-      "korean": "이 일은 다음에 뵈었을 때 자세히 말씀드리겠습니다.",
-      "answerChoiceId": "fb-extra-n2-010-5-c",
-      "choices": [
-        {
-          "id": "fb-extra-n2-010-5-d",
-          "text": "にしたところで",
-          "grammarId": "n2-118",
-          "baseExpression": "にしたところで",
-          "conjugatedExpression": "にしたところで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-010-5-a",
-          "text": "にしたら",
-          "grammarId": "n2-119",
-          "baseExpression": "にしたら",
-          "conjugatedExpression": "にしたら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-010-5-b",
-          "text": "にしては",
-          "grammarId": "n2-120",
-          "baseExpression": "にしては",
-          "conjugatedExpression": "にしては",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-010-5-c",
-          "text": "折に",
-          "grammarId": "n2-010",
-          "baseExpression": "折に",
-          "conjugatedExpression": "折に",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
-      "sourceGrammarIds": [
-        "n2-010",
-        "n2-118",
-        "n2-119",
-        "n2-120"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-010-01",
-      "level": "N2",
-      "sentence": "このことは今度お目にかかった折に詳しくお話しいたします。",
-      "sentenceWithBlank": "このことは今度お目にかかった（　　　）詳しくお話しいたします。",
-      "korean": "이 일은 다음에 뵈었을 때 자세히 말씀드리겠습니다.",
-      "answerChoiceId": "fb-extra20-n2-010-01-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-010-01-d",
+          "id": "fb-created-n2-010-02-d",
           "text": "てもさしつかえない",
           "grammarId": "n2-078",
           "baseExpression": "てもさしつかえない",
@@ -553,7 +336,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-010-01-a",
+          "id": "fb-created-n2-010-02-a",
           "text": "というと",
           "grammarId": "n2-079",
           "baseExpression": "というと",
@@ -561,7 +344,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-010-01-b",
+          "id": "fb-created-n2-010-02-b",
           "text": "というものだ",
           "grammarId": "n2-080",
           "baseExpression": "というものだ",
@@ -569,7 +352,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-010-01-c",
+          "id": "fb-created-n2-010-02-c",
           "text": "折に",
           "grammarId": "n2-010",
           "baseExpression": "折に",
@@ -577,7 +360,7 @@
           "isSimilarDistractor": false
         }
       ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '계약을 갱신하실 때 긴급 연락처도 함께 확인해 주시기 바랍니다.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
       "sourceGrammarIds": [
         "n2-010",
         "n2-078",
@@ -585,253 +368,20 @@
         "n2-080"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-010-02",
+      "id": "fb-created-n2-010-03",
       "level": "N2",
-      "sentence": "先月北海道に行った折、偶然昔の友達に会った。",
-      "sentenceWithBlank": "先月北海道に行った折、偶然昔の友達に会った。　（　　　）",
-      "korean": "지난달 홋카이도에 갔을 때 우연히 옛 친구를 만났다.",
-      "answerChoiceId": "fb-extra20-n2-010-02-b",
+      "sentence": "館長が海外出張から戻られた折に、展示計画の承認をいただく予定です。",
+      "sentenceWithBlank": "館長が海外出張から戻られた（　　　）、展示計画の承認をいただく予定です。",
+      "korean": "관장님께서 해외 출장에서 돌아오실 때 전시 계획의 승인을 받을 예정입니다.",
+      "answerChoiceId": "fb-created-n2-010-03-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-010-02-c",
-          "text": "上で",
-          "grammarId": "n2-006",
-          "baseExpression": "上で",
-          "conjugatedExpression": "上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-010-02-d",
-          "text": "する上は",
-          "grammarId": "n2-007",
-          "baseExpression": "上は",
-          "conjugatedExpression": "する上は",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-010-02-a",
-          "text": "得るうる",
-          "grammarId": "n2-008",
-          "baseExpression": "得るうる",
-          "conjugatedExpression": "得るうる",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-010-02-b",
-          "text": "折に",
-          "grammarId": "n2-010",
-          "baseExpression": "折に",
-          "conjugatedExpression": "折に",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
-      "sourceGrammarIds": [
-        "n2-010",
-        "n2-006",
-        "n2-007",
-        "n2-008"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-010-03",
-      "level": "N2",
-      "sentence": "このことは今度お目にかかった折に詳しくお話しいたします。",
-      "sentenceWithBlank": "このことは今度お目にかかった（　　　）詳しくお話しいたします。",
-      "korean": "이 일은 다음에 뵈었을 때 자세히 말씀드리겠습니다.",
-      "answerChoiceId": "fb-extra20-n2-010-03-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-010-03-b",
-          "text": "したからといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "したからといって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-010-03-c",
-          "text": "気味",
-          "grammarId": "n2-029",
-          "baseExpression": "気味",
-          "conjugatedExpression": "気味",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-010-03-d",
-          "text": "きらいがある",
-          "grammarId": "n2-030",
-          "baseExpression": "きらいがある",
-          "conjugatedExpression": "きらいがある",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-010-03-a",
-          "text": "折に",
-          "grammarId": "n2-010",
-          "baseExpression": "折に",
-          "conjugatedExpression": "折に",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
-      "sourceGrammarIds": [
-        "n2-010",
-        "n2-028",
-        "n2-029",
-        "n2-030"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-010-04",
-      "level": "N2",
-      "sentence": "先月北海道に行った折、偶然昔の友達に会った。",
-      "sentenceWithBlank": "先月北海道に行った折、偶然昔の友達に会った。　（　　　）",
-      "korean": "지난달 홋카이도에 갔을 때 우연히 옛 친구를 만났다.",
-      "answerChoiceId": "fb-extra20-n2-010-04-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-010-04-a",
-          "text": "のもとで",
-          "grammarId": "n2-137",
-          "baseExpression": "のもとで",
-          "conjugatedExpression": "のもとで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-010-04-b",
-          "text": "ばかりか",
-          "grammarId": "n2-138",
-          "baseExpression": "ばかりか",
-          "conjugatedExpression": "ばかりか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-010-04-c",
-          "text": "ばかりだ",
-          "grammarId": "n2-139",
-          "baseExpression": "ばかりだ",
-          "conjugatedExpression": "ばかりだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-010-04-d",
-          "text": "折に",
-          "grammarId": "n2-010",
-          "baseExpression": "折に",
-          "conjugatedExpression": "折に",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
-      "sourceGrammarIds": [
-        "n2-010",
-        "n2-137",
-        "n2-138",
-        "n2-139"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-010-05",
-      "level": "N2",
-      "sentence": "このことは今度お目にかかった折に詳しくお話しいたします。",
-      "sentenceWithBlank": "このことは今度お目にかかった（　　　）詳しくお話しいたします。",
-      "korean": "이 일은 다음에 뵈었을 때 자세히 말씀드리겠습니다.",
-      "answerChoiceId": "fb-extra20-n2-010-05-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-010-05-d",
-          "text": "にしたところで",
-          "grammarId": "n2-118",
-          "baseExpression": "にしたところで",
-          "conjugatedExpression": "にしたところで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-010-05-a",
-          "text": "にしたら",
-          "grammarId": "n2-119",
-          "baseExpression": "にしたら",
-          "conjugatedExpression": "にしたら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-010-05-b",
-          "text": "にしては",
-          "grammarId": "n2-120",
-          "baseExpression": "にしては",
-          "conjugatedExpression": "にしては",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-010-05-c",
-          "text": "折に",
-          "grammarId": "n2-010",
-          "baseExpression": "折に",
-          "conjugatedExpression": "折に",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
-      "sourceGrammarIds": [
-        "n2-010",
-        "n2-118",
-        "n2-119",
-        "n2-120"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-010-06",
-      "level": "N2",
-      "sentence": "このことは今度お目にかかった折に詳しくお話しいたします。",
-      "sentenceWithBlank": "このことは今度お目にかかった（　　　）詳しくお話しいたします。",
-      "korean": "이 일은 다음에 뵈었을 때 자세히 말씀드리겠습니다.",
-      "answerChoiceId": "fb-extra20-n2-010-06-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-010-06-c",
-          "text": "折に",
-          "grammarId": "n2-010",
-          "baseExpression": "折に",
-          "conjugatedExpression": "折に",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-010-06-d",
-          "text": "てもさしつかえない",
-          "grammarId": "n2-078",
-          "baseExpression": "てもさしつかえない",
-          "conjugatedExpression": "てもさしつかえない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-010-06-a",
+          "id": "fb-created-n2-010-03-a",
           "text": "というと",
           "grammarId": "n2-079",
           "baseExpression": "というと",
@@ -839,253 +389,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-010-06-b",
-          "text": "というものだ",
-          "grammarId": "n2-080",
-          "baseExpression": "というものだ",
-          "conjugatedExpression": "というものだ",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
-      "sourceGrammarIds": [
-        "n2-010",
-        "n2-078",
-        "n2-079",
-        "n2-080"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-010-07",
-      "level": "N2",
-      "sentence": "先月北海道に行った折、偶然昔の友達に会った。",
-      "sentenceWithBlank": "先月北海道に行った折、偶然昔の友達に会った。　（　　　）",
-      "korean": "지난달 홋카이도에 갔을 때 우연히 옛 친구를 만났다.",
-      "answerChoiceId": "fb-extra20-n2-010-07-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-010-07-b",
-          "text": "折に",
-          "grammarId": "n2-010",
-          "baseExpression": "折に",
-          "conjugatedExpression": "折に",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-010-07-c",
-          "text": "上で",
-          "grammarId": "n2-006",
-          "baseExpression": "上で",
-          "conjugatedExpression": "上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-010-07-d",
-          "text": "する上は",
-          "grammarId": "n2-007",
-          "baseExpression": "上は",
-          "conjugatedExpression": "する上は",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-010-07-a",
-          "text": "得るうる",
-          "grammarId": "n2-008",
-          "baseExpression": "得るうる",
-          "conjugatedExpression": "得るうる",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
-      "sourceGrammarIds": [
-        "n2-010",
-        "n2-006",
-        "n2-007",
-        "n2-008"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-010-08",
-      "level": "N2",
-      "sentence": "このことは今度お目にかかった折に詳しくお話しいたします。",
-      "sentenceWithBlank": "このことは今度お目にかかった（　　　）詳しくお話しいたします。",
-      "korean": "이 일은 다음에 뵈었을 때 자세히 말씀드리겠습니다.",
-      "answerChoiceId": "fb-extra20-n2-010-08-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-010-08-a",
-          "text": "折に",
-          "grammarId": "n2-010",
-          "baseExpression": "折に",
-          "conjugatedExpression": "折に",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-010-08-b",
-          "text": "したからといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "したからといって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-010-08-c",
-          "text": "気味",
-          "grammarId": "n2-029",
-          "baseExpression": "気味",
-          "conjugatedExpression": "気味",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-010-08-d",
-          "text": "きらいがある",
-          "grammarId": "n2-030",
-          "baseExpression": "きらいがある",
-          "conjugatedExpression": "きらいがある",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
-      "sourceGrammarIds": [
-        "n2-010",
-        "n2-028",
-        "n2-029",
-        "n2-030"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-010-09",
-      "level": "N2",
-      "sentence": "先月北海道に行った折、偶然昔の友達に会った。",
-      "sentenceWithBlank": "先月北海道に行った折、偶然昔の友達に会った。　（　　　）",
-      "korean": "지난달 홋카이도에 갔을 때 우연히 옛 친구를 만났다.",
-      "answerChoiceId": "fb-extra20-n2-010-09-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-010-09-d",
-          "text": "折に",
-          "grammarId": "n2-010",
-          "baseExpression": "折に",
-          "conjugatedExpression": "折に",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-010-09-a",
-          "text": "のもとで",
-          "grammarId": "n2-137",
-          "baseExpression": "のもとで",
-          "conjugatedExpression": "のもとで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-010-09-b",
-          "text": "ばかりか",
-          "grammarId": "n2-138",
-          "baseExpression": "ばかりか",
-          "conjugatedExpression": "ばかりか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-010-09-c",
-          "text": "ばかりだ",
-          "grammarId": "n2-139",
-          "baseExpression": "ばかりだ",
-          "conjugatedExpression": "ばかりだ",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
-      "sourceGrammarIds": [
-        "n2-010",
-        "n2-137",
-        "n2-138",
-        "n2-139"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-010-10",
-      "level": "N2",
-      "sentence": "このことは今度お目にかかった折に詳しくお話しいたします。",
-      "sentenceWithBlank": "このことは今度お目にかかった（　　　）詳しくお話しいたします。",
-      "korean": "이 일은 다음에 뵈었을 때 자세히 말씀드리겠습니다.",
-      "answerChoiceId": "fb-extra20-n2-010-10-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-010-10-c",
-          "text": "折に",
-          "grammarId": "n2-010",
-          "baseExpression": "折に",
-          "conjugatedExpression": "折に",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-010-10-d",
-          "text": "にしたところで",
-          "grammarId": "n2-118",
-          "baseExpression": "にしたところで",
-          "conjugatedExpression": "にしたところで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-010-10-a",
-          "text": "にしたら",
-          "grammarId": "n2-119",
-          "baseExpression": "にしたら",
-          "conjugatedExpression": "にしたら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-010-10-b",
-          "text": "にしては",
-          "grammarId": "n2-120",
-          "baseExpression": "にしては",
-          "conjugatedExpression": "にしては",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
-      "sourceGrammarIds": [
-        "n2-010",
-        "n2-118",
-        "n2-119",
-        "n2-120"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-010-11",
-      "level": "N2",
-      "sentence": "このことは今度お目にかかった折に詳しくお話しいたします。",
-      "sentenceWithBlank": "このことは今度お目にかかった（　　　）詳しくお話しいたします。",
-      "korean": "이 일은 다음에 뵈었을 때 자세히 말씀드리겠습니다.",
-      "answerChoiceId": "fb-extra20-n2-010-11-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-010-11-b",
+          "id": "fb-created-n2-010-03-b",
           "text": "というものだ",
           "grammarId": "n2-080",
           "baseExpression": "というものだ",
@@ -1093,7 +397,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-010-11-c",
+          "id": "fb-created-n2-010-03-c",
           "text": "折に",
           "grammarId": "n2-010",
           "baseExpression": "折に",
@@ -1101,285 +405,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-010-11-d",
-          "text": "てもさしつかえない",
-          "grammarId": "n2-078",
-          "baseExpression": "てもさしつかえない",
-          "conjugatedExpression": "てもさしつかえない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-010-11-a",
-          "text": "というと",
-          "grammarId": "n2-079",
-          "baseExpression": "というと",
-          "conjugatedExpression": "というと",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
-      "sourceGrammarIds": [
-        "n2-010",
-        "n2-078",
-        "n2-079",
-        "n2-080"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-010-12",
-      "level": "N2",
-      "sentence": "先月北海道に行った折、偶然昔の友達に会った。",
-      "sentenceWithBlank": "先月北海道に行った折、偶然昔の友達に会った。　（　　　）",
-      "korean": "지난달 홋카이도에 갔을 때 우연히 옛 친구를 만났다.",
-      "answerChoiceId": "fb-extra20-n2-010-12-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-010-12-a",
-          "text": "得るうる",
-          "grammarId": "n2-008",
-          "baseExpression": "得るうる",
-          "conjugatedExpression": "得るうる",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-010-12-b",
-          "text": "折に",
-          "grammarId": "n2-010",
-          "baseExpression": "折に",
-          "conjugatedExpression": "折に",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-010-12-c",
-          "text": "上で",
-          "grammarId": "n2-006",
-          "baseExpression": "上で",
-          "conjugatedExpression": "上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-010-12-d",
-          "text": "する上は",
-          "grammarId": "n2-007",
-          "baseExpression": "上は",
-          "conjugatedExpression": "する上は",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
-      "sourceGrammarIds": [
-        "n2-010",
-        "n2-006",
-        "n2-007",
-        "n2-008"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-010-13",
-      "level": "N2",
-      "sentence": "このことは今度お目にかかった折に詳しくお話しいたします。",
-      "sentenceWithBlank": "このことは今度お目にかかった（　　　）詳しくお話しいたします。",
-      "korean": "이 일은 다음에 뵈었을 때 자세히 말씀드리겠습니다.",
-      "answerChoiceId": "fb-extra20-n2-010-13-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-010-13-d",
-          "text": "きらいがある",
-          "grammarId": "n2-030",
-          "baseExpression": "きらいがある",
-          "conjugatedExpression": "きらいがある",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-010-13-a",
-          "text": "折に",
-          "grammarId": "n2-010",
-          "baseExpression": "折に",
-          "conjugatedExpression": "折に",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-010-13-b",
-          "text": "したからといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "したからといって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-010-13-c",
-          "text": "気味",
-          "grammarId": "n2-029",
-          "baseExpression": "気味",
-          "conjugatedExpression": "気味",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
-      "sourceGrammarIds": [
-        "n2-010",
-        "n2-028",
-        "n2-029",
-        "n2-030"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-010-14",
-      "level": "N2",
-      "sentence": "先月北海道に行った折、偶然昔の友達に会った。",
-      "sentenceWithBlank": "先月北海道に行った折、偶然昔の友達に会った。　（　　　）",
-      "korean": "지난달 홋카이도에 갔을 때 우연히 옛 친구를 만났다.",
-      "answerChoiceId": "fb-extra20-n2-010-14-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-010-14-c",
-          "text": "ばかりだ",
-          "grammarId": "n2-139",
-          "baseExpression": "ばかりだ",
-          "conjugatedExpression": "ばかりだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-010-14-d",
-          "text": "折に",
-          "grammarId": "n2-010",
-          "baseExpression": "折に",
-          "conjugatedExpression": "折に",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-010-14-a",
-          "text": "のもとで",
-          "grammarId": "n2-137",
-          "baseExpression": "のもとで",
-          "conjugatedExpression": "のもとで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-010-14-b",
-          "text": "ばかりか",
-          "grammarId": "n2-138",
-          "baseExpression": "ばかりか",
-          "conjugatedExpression": "ばかりか",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
-      "sourceGrammarIds": [
-        "n2-010",
-        "n2-137",
-        "n2-138",
-        "n2-139"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-010-15",
-      "level": "N2",
-      "sentence": "このことは今度お目にかかった折に詳しくお話しいたします。",
-      "sentenceWithBlank": "このことは今度お目にかかった（　　　）詳しくお話しいたします。",
-      "korean": "이 일은 다음에 뵈었을 때 자세히 말씀드리겠습니다.",
-      "answerChoiceId": "fb-extra20-n2-010-15-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-010-15-b",
-          "text": "にしては",
-          "grammarId": "n2-120",
-          "baseExpression": "にしては",
-          "conjugatedExpression": "にしては",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-010-15-c",
-          "text": "折に",
-          "grammarId": "n2-010",
-          "baseExpression": "折に",
-          "conjugatedExpression": "折に",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-010-15-d",
-          "text": "にしたところで",
-          "grammarId": "n2-118",
-          "baseExpression": "にしたところで",
-          "conjugatedExpression": "にしたところで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-010-15-a",
-          "text": "にしたら",
-          "grammarId": "n2-119",
-          "baseExpression": "にしたら",
-          "conjugatedExpression": "にしたら",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
-      "sourceGrammarIds": [
-        "n2-010",
-        "n2-118",
-        "n2-119",
-        "n2-120"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-010-16",
-      "level": "N2",
-      "sentence": "このことは今度お目にかかった折に詳しくお話しいたします。",
-      "sentenceWithBlank": "このことは今度お目にかかった（　　　）詳しくお話しいたします。",
-      "korean": "이 일은 다음에 뵈었을 때 자세히 말씀드리겠습니다.",
-      "answerChoiceId": "fb-extra20-n2-010-16-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-010-16-a",
-          "text": "というと",
-          "grammarId": "n2-079",
-          "baseExpression": "というと",
-          "conjugatedExpression": "というと",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-010-16-b",
-          "text": "というものだ",
-          "grammarId": "n2-080",
-          "baseExpression": "というものだ",
-          "conjugatedExpression": "というものだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-010-16-c",
-          "text": "折に",
-          "grammarId": "n2-010",
-          "baseExpression": "折に",
-          "conjugatedExpression": "折に",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-010-16-d",
+          "id": "fb-created-n2-010-03-d",
           "text": "てもさしつかえない",
           "grammarId": "n2-078",
           "baseExpression": "てもさしつかえない",
@@ -1387,7 +413,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '관장님께서 해외 출장에서 돌아오실 때 전시 계획의 승인을 받을 예정입니다.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
       "sourceGrammarIds": [
         "n2-010",
         "n2-078",
@@ -1395,37 +421,28 @@
         "n2-080"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-010-17",
+      "id": "fb-created-n2-010-04",
       "level": "N2",
-      "sentence": "先月北海道に行った折、偶然昔の友達に会った。",
-      "sentenceWithBlank": "先月北海道に行った折、偶然昔の友達に会った。　（　　　）",
-      "korean": "지난달 홋카이도에 갔을 때 우연히 옛 친구를 만났다.",
-      "answerChoiceId": "fb-extra20-n2-010-17-b",
+      "sentence": "お近くまでお出かけの折に、修理済みの時計をお受け取りください。",
+      "sentenceWithBlank": "お近くまでお出かけの（　　　）、修理済みの時計をお受け取りください。",
+      "korean": "근처에 나오실 때 수리가 끝난 시계를 찾아가 주십시오.",
+      "answerChoiceId": "fb-created-n2-010-04-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-010-17-d",
-          "text": "する上は",
-          "grammarId": "n2-007",
-          "baseExpression": "上は",
-          "conjugatedExpression": "する上は",
+          "id": "fb-created-n2-010-04-b",
+          "text": "というものだ",
+          "grammarId": "n2-080",
+          "baseExpression": "というものだ",
+          "conjugatedExpression": "というものだ",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-010-17-a",
-          "text": "得るうる",
-          "grammarId": "n2-008",
-          "baseExpression": "得るうる",
-          "conjugatedExpression": "得るうる",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-010-17-b",
+          "id": "fb-created-n2-010-04-c",
           "text": "折に",
           "grammarId": "n2-010",
           "baseExpression": "折に",
@@ -1433,53 +450,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-010-17-c",
-          "text": "上で",
-          "grammarId": "n2-006",
-          "baseExpression": "上で",
-          "conjugatedExpression": "上で",
+          "id": "fb-created-n2-010-04-d",
+          "text": "てもさしつかえない",
+          "grammarId": "n2-078",
+          "baseExpression": "てもさしつかえない",
+          "conjugatedExpression": "てもさしつかえない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-010-04-a",
+          "text": "というと",
+          "grammarId": "n2-079",
+          "baseExpression": "というと",
+          "conjugatedExpression": "というと",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '근처에 나오실 때 수리가 끝난 시계를 찾아가 주십시오.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
       "sourceGrammarIds": [
         "n2-010",
-        "n2-006",
-        "n2-007",
-        "n2-008"
+        "n2-078",
+        "n2-079",
+        "n2-080"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-010-18",
+      "id": "fb-created-n2-010-05",
       "level": "N2",
-      "sentence": "このことは今度お目にかかった折に詳しくお話しいたします。",
-      "sentenceWithBlank": "このことは今度お目にかかった（　　　）詳しくお話しいたします。",
-      "korean": "이 일은 다음에 뵈었을 때 자세히 말씀드리겠습니다.",
-      "answerChoiceId": "fb-extra20-n2-010-18-a",
+      "sentence": "新居へ移られる折に、不要な家具の回収を承ります。",
+      "sentenceWithBlank": "新居へ移られる（　　　）、不要な家具の回収を承ります。",
+      "korean": "새집으로 이사하실 때 불필요한 가구의 수거를 맡아 드립니다.",
+      "answerChoiceId": "fb-created-n2-010-05-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-010-18-c",
-          "text": "気味",
-          "grammarId": "n2-029",
-          "baseExpression": "気味",
-          "conjugatedExpression": "気味",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-010-18-d",
-          "text": "きらいがある",
-          "grammarId": "n2-030",
-          "baseExpression": "きらいがある",
-          "conjugatedExpression": "きらいがある",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-010-18-a",
+          "id": "fb-created-n2-010-05-c",
           "text": "折に",
           "grammarId": "n2-010",
           "baseExpression": "折に",
@@ -1487,53 +495,121 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-010-18-b",
-          "text": "したからといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "したからといって",
+          "id": "fb-created-n2-010-05-d",
+          "text": "てもさしつかえない",
+          "grammarId": "n2-078",
+          "baseExpression": "てもさしつかえない",
+          "conjugatedExpression": "てもさしつかえない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-010-05-a",
+          "text": "というと",
+          "grammarId": "n2-079",
+          "baseExpression": "というと",
+          "conjugatedExpression": "というと",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-010-05-b",
+          "text": "というものだ",
+          "grammarId": "n2-080",
+          "baseExpression": "というものだ",
+          "conjugatedExpression": "というものだ",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '새집으로 이사하실 때 불필요한 가구의 수거를 맡아 드립니다.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
       "sourceGrammarIds": [
         "n2-010",
-        "n2-028",
-        "n2-029",
-        "n2-030"
+        "n2-078",
+        "n2-079",
+        "n2-080"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-010-19",
+      "id": "fb-created-n2-010-06",
       "level": "N2",
-      "sentence": "先月北海道に行った折、偶然昔の友達に会った。",
-      "sentenceWithBlank": "先月北海道に行った折、偶然昔の友達に会った。　（　　　）",
-      "korean": "지난달 홋카이도에 갔을 때 우연히 옛 친구를 만났다.",
-      "answerChoiceId": "fb-extra20-n2-010-19-d",
+      "sentence": "祖父の一周忌で帰郷した折に、荒れていた墓地を整備した。",
+      "sentenceWithBlank": "祖父の一周忌で帰郷した（　　　）、荒れていた墓地を整備した。",
+      "korean": "할아버지의 1주기를 맞아 귀향했을 때 황폐해져 있던 묘지를 정비했다.",
+      "answerChoiceId": "fb-created-n2-010-06-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-010-19-b",
-          "text": "ばかりか",
-          "grammarId": "n2-138",
-          "baseExpression": "ばかりか",
-          "conjugatedExpression": "ばかりか",
+          "id": "fb-created-n2-010-06-d",
+          "text": "てもさしつかえない",
+          "grammarId": "n2-078",
+          "baseExpression": "てもさしつかえない",
+          "conjugatedExpression": "てもさしつかえない",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-010-19-c",
-          "text": "ばかりだ",
-          "grammarId": "n2-139",
-          "baseExpression": "ばかりだ",
-          "conjugatedExpression": "ばかりだ",
+          "id": "fb-created-n2-010-06-a",
+          "text": "というと",
+          "grammarId": "n2-079",
+          "baseExpression": "というと",
+          "conjugatedExpression": "というと",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-010-19-d",
+          "id": "fb-created-n2-010-06-b",
+          "text": "というものだ",
+          "grammarId": "n2-080",
+          "baseExpression": "というものだ",
+          "conjugatedExpression": "というものだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-010-06-c",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '할아버지의 1주기를 맞아 귀향했을 때 황폐해져 있던 묘지를 정비했다.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
+      "sourceGrammarIds": [
+        "n2-010",
+        "n2-078",
+        "n2-079",
+        "n2-080"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-010-07",
+      "level": "N2",
+      "sentence": "次回ご来院の折に、現在お使いの薬をすべてお持ちください。",
+      "sentenceWithBlank": "次回ご来院の（　　　）、現在お使いの薬をすべてお持ちください。",
+      "korean": "다음에 내원하실 때 현재 복용 중인 약을 모두 가져오십시오.",
+      "answerChoiceId": "fb-created-n2-010-07-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-010-07-a",
+          "text": "というと",
+          "grammarId": "n2-079",
+          "baseExpression": "というと",
+          "conjugatedExpression": "というと",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-010-07-b",
+          "text": "というものだ",
+          "grammarId": "n2-080",
+          "baseExpression": "というものだ",
+          "conjugatedExpression": "というものだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-010-07-c",
           "text": "折に",
           "grammarId": "n2-010",
           "baseExpression": "折に",
@@ -1541,53 +617,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-010-19-a",
-          "text": "のもとで",
-          "grammarId": "n2-137",
-          "baseExpression": "のもとで",
-          "conjugatedExpression": "のもとで",
+          "id": "fb-created-n2-010-07-d",
+          "text": "てもさしつかえない",
+          "grammarId": "n2-078",
+          "baseExpression": "てもさしつかえない",
+          "conjugatedExpression": "てもさしつかえない",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '다음에 내원하실 때 현재 복용 중인 약을 모두 가져오십시오.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
       "sourceGrammarIds": [
         "n2-010",
-        "n2-137",
-        "n2-138",
-        "n2-139"
+        "n2-078",
+        "n2-079",
+        "n2-080"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-010-20",
+      "id": "fb-created-n2-010-08",
       "level": "N2",
-      "sentence": "このことは今度お目にかかった折に詳しくお話しいたします。",
-      "sentenceWithBlank": "このことは今度お目にかかった（　　　）詳しくお話しいたします。",
-      "korean": "이 일은 다음에 뵈었을 때 자세히 말씀드리겠습니다.",
-      "answerChoiceId": "fb-extra20-n2-010-20-c",
+      "sentence": "市長が被災地を視察された折に、住民から再建への要望書が手渡された。",
+      "sentenceWithBlank": "市長が被災地を視察された（　　　）、住民から再建への要望書が手渡された。",
+      "korean": "시장이 재해 지역을 시찰했을 때 주민들이 재건 요청서를 전달했다.",
+      "answerChoiceId": "fb-created-n2-010-08-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-010-20-a",
-          "text": "にしたら",
-          "grammarId": "n2-119",
-          "baseExpression": "にしたら",
-          "conjugatedExpression": "にしたら",
+          "id": "fb-created-n2-010-08-b",
+          "text": "というものだ",
+          "grammarId": "n2-080",
+          "baseExpression": "というものだ",
+          "conjugatedExpression": "というものだ",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-010-20-b",
-          "text": "にしては",
-          "grammarId": "n2-120",
-          "baseExpression": "にしては",
-          "conjugatedExpression": "にしては",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-010-20-c",
+          "id": "fb-created-n2-010-08-c",
           "text": "折に",
           "grammarId": "n2-010",
           "baseExpression": "折に",
@@ -1595,25 +662,933 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-010-20-d",
-          "text": "にしたところで",
-          "grammarId": "n2-118",
-          "baseExpression": "にしたところで",
-          "conjugatedExpression": "にしたところで",
+          "id": "fb-created-n2-010-08-d",
+          "text": "てもさしつかえない",
+          "grammarId": "n2-078",
+          "baseExpression": "てもさしつかえない",
+          "conjugatedExpression": "てもさしつかえない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-010-08-a",
+          "text": "というと",
+          "grammarId": "n2-079",
+          "baseExpression": "というと",
+          "conjugatedExpression": "というと",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '시장이 재해 지역을 시찰했을 때 주민들이 재건 요청서를 전달했다.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
       "sourceGrammarIds": [
         "n2-010",
-        "n2-118",
-        "n2-119",
-        "n2-120"
+        "n2-078",
+        "n2-079",
+        "n2-080"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-010-09",
+      "level": "N2",
+      "sentence": "ご家族で相談される折に、こちらの費用明細をご活用ください。",
+      "sentenceWithBlank": "ご家族で相談される（　　　）、こちらの費用明細をご活用ください。",
+      "korean": "가족과 상의하실 때 이 비용 명세서를 활용해 주십시오.",
+      "answerChoiceId": "fb-created-n2-010-09-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-010-09-c",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-010-09-d",
+          "text": "てもさしつかえない",
+          "grammarId": "n2-078",
+          "baseExpression": "てもさしつかえない",
+          "conjugatedExpression": "てもさしつかえない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-010-09-a",
+          "text": "というと",
+          "grammarId": "n2-079",
+          "baseExpression": "というと",
+          "conjugatedExpression": "というと",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-010-09-b",
+          "text": "というものだ",
+          "grammarId": "n2-080",
+          "baseExpression": "というものだ",
+          "conjugatedExpression": "というものだ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '가족과 상의하실 때 이 비용 명세서를 활용해 주십시오.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
+      "sourceGrammarIds": [
+        "n2-010",
+        "n2-078",
+        "n2-079",
+        "n2-080"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-010-10",
+      "level": "N2",
+      "sentence": "部長が工場を巡回した折に、老朽化した配管の交換を指示した。",
+      "sentenceWithBlank": "部長が工場を巡回した（　　　）、老朽化した配管の交換を指示した。",
+      "korean": "부장이 공장을 순회했을 때 노후한 배관의 교체를 지시했다.",
+      "answerChoiceId": "fb-created-n2-010-10-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-010-10-d",
+          "text": "てもさしつかえない",
+          "grammarId": "n2-078",
+          "baseExpression": "てもさしつかえない",
+          "conjugatedExpression": "てもさしつかえない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-010-10-a",
+          "text": "というと",
+          "grammarId": "n2-079",
+          "baseExpression": "というと",
+          "conjugatedExpression": "というと",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-010-10-b",
+          "text": "というものだ",
+          "grammarId": "n2-080",
+          "baseExpression": "というものだ",
+          "conjugatedExpression": "というものだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-010-10-c",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '부장이 공장을 순회했을 때 노후한 배관의 교체를 지시했다.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
+      "sourceGrammarIds": [
+        "n2-010",
+        "n2-078",
+        "n2-079",
+        "n2-080"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-010-11",
+      "level": "N2",
+      "sentence": "記念式典にご出席の折に、受付で招待状をご提示ください。",
+      "sentenceWithBlank": "記念式典にご出席の（　　　）、受付で招待状をご提示ください。",
+      "korean": "기념식에 참석하실 때 접수처에서 초대장을 제시해 주십시오.",
+      "answerChoiceId": "fb-created-n2-010-11-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-010-11-a",
+          "text": "というと",
+          "grammarId": "n2-079",
+          "baseExpression": "というと",
+          "conjugatedExpression": "というと",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-010-11-b",
+          "text": "というものだ",
+          "grammarId": "n2-080",
+          "baseExpression": "というものだ",
+          "conjugatedExpression": "というものだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-010-11-c",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-010-11-d",
+          "text": "てもさしつかえない",
+          "grammarId": "n2-078",
+          "baseExpression": "てもさしつかえない",
+          "conjugatedExpression": "てもさしつかえない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '기념식에 참석하실 때 접수처에서 초대장을 제시해 주십시오.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
+      "sourceGrammarIds": [
+        "n2-010",
+        "n2-078",
+        "n2-079",
+        "n2-080"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-010-12",
+      "level": "N2",
+      "sentence": "初めてその島を訪れた折に、伝統漁法を守る老夫婦の世話になった。",
+      "sentenceWithBlank": "初めてその島を訪れた（　　　）、伝統漁法を守る老夫婦の世話になった。",
+      "korean": "처음 그 섬을 방문했을 때 전통 어법을 지키는 노부부의 신세를 졌다.",
+      "answerChoiceId": "fb-created-n2-010-12-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-010-12-b",
+          "text": "というものだ",
+          "grammarId": "n2-080",
+          "baseExpression": "というものだ",
+          "conjugatedExpression": "というものだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-010-12-c",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-010-12-d",
+          "text": "てもさしつかえない",
+          "grammarId": "n2-078",
+          "baseExpression": "てもさしつかえない",
+          "conjugatedExpression": "てもさしつかえない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-010-12-a",
+          "text": "というと",
+          "grammarId": "n2-079",
+          "baseExpression": "というと",
+          "conjugatedExpression": "というと",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '처음 그 섬을 방문했을 때 전통 어법을 지키는 노부부의 신세를 졌다.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
+      "sourceGrammarIds": [
+        "n2-010",
+        "n2-078",
+        "n2-079",
+        "n2-080"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-010-13",
+      "level": "N2",
+      "sentence": "口座を解約される折に、未使用の小切手をご返却いただきます。",
+      "sentenceWithBlank": "口座を解約される（　　　）、未使用の小切手をご返却いただきます。",
+      "korean": "계좌를 해지하실 때 사용하지 않은 수표를 반환해 주셔야 합니다.",
+      "answerChoiceId": "fb-created-n2-010-13-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-010-13-c",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-010-13-d",
+          "text": "てもさしつかえない",
+          "grammarId": "n2-078",
+          "baseExpression": "てもさしつかえない",
+          "conjugatedExpression": "てもさしつかえない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-010-13-a",
+          "text": "というと",
+          "grammarId": "n2-079",
+          "baseExpression": "というと",
+          "conjugatedExpression": "というと",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-010-13-b",
+          "text": "というものだ",
+          "grammarId": "n2-080",
+          "baseExpression": "というものだ",
+          "conjugatedExpression": "というものだ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '계좌를 해지하실 때 사용하지 않은 수표를 반환해 주셔야 합니다.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
+      "sourceGrammarIds": [
+        "n2-010",
+        "n2-078",
+        "n2-079",
+        "n2-080"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-010-14",
+      "level": "N2",
+      "sentence": "大使が着任の挨拶に来られた折に、両国の文化交流について意見を交わした。",
+      "sentenceWithBlank": "大使が着任の挨拶に来られた（　　　）、両国の文化交流について意見を交わした。",
+      "korean": "대사가 부임 인사를 하러 왔을 때 양국의 문화 교류에 관해 의견을 나누었다.",
+      "answerChoiceId": "fb-created-n2-010-14-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-010-14-d",
+          "text": "てもさしつかえない",
+          "grammarId": "n2-078",
+          "baseExpression": "てもさしつかえない",
+          "conjugatedExpression": "てもさしつかえない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-010-14-a",
+          "text": "というと",
+          "grammarId": "n2-079",
+          "baseExpression": "というと",
+          "conjugatedExpression": "というと",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-010-14-b",
+          "text": "というものだ",
+          "grammarId": "n2-080",
+          "baseExpression": "というものだ",
+          "conjugatedExpression": "というものだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-010-14-c",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '대사가 부임 인사를 하러 왔을 때 양국의 문화 교류에 관해 의견을 나누었다.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
+      "sourceGrammarIds": [
+        "n2-010",
+        "n2-078",
+        "n2-079",
+        "n2-080"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-010-15",
+      "level": "N2",
+      "sentence": "農園をご見学の折に、収穫したばかりの桃をご試食いただけます。",
+      "sentenceWithBlank": "農園をご見学の（　　　）、収穫したばかりの桃をご試食いただけます。",
+      "korean": "농장을 견학하실 때 갓 수확한 복숭아를 시식하실 수 있습니다.",
+      "answerChoiceId": "fb-created-n2-010-15-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-010-15-a",
+          "text": "というと",
+          "grammarId": "n2-079",
+          "baseExpression": "というと",
+          "conjugatedExpression": "というと",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-010-15-b",
+          "text": "というものだ",
+          "grammarId": "n2-080",
+          "baseExpression": "というものだ",
+          "conjugatedExpression": "というものだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-010-15-c",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-010-15-d",
+          "text": "てもさしつかえない",
+          "grammarId": "n2-078",
+          "baseExpression": "てもさしつかえない",
+          "conjugatedExpression": "てもさしつかえない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '농장을 견학하실 때 갓 수확한 복숭아를 시식하실 수 있습니다.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
+      "sourceGrammarIds": [
+        "n2-010",
+        "n2-078",
+        "n2-079",
+        "n2-080"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-010-16",
+      "level": "N2",
+      "sentence": "遺品を整理した折に、父が残した未投函の手紙を見つけた。",
+      "sentenceWithBlank": "遺品を整理した（　　　）、父が残した未投函の手紙を見つけた。",
+      "korean": "유품을 정리했을 때 아버지가 남긴 부치지 않은 편지를 발견했다.",
+      "answerChoiceId": "fb-created-n2-010-16-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-010-16-b",
+          "text": "というものだ",
+          "grammarId": "n2-080",
+          "baseExpression": "というものだ",
+          "conjugatedExpression": "というものだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-010-16-c",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-010-16-d",
+          "text": "てもさしつかえない",
+          "grammarId": "n2-078",
+          "baseExpression": "てもさしつかえない",
+          "conjugatedExpression": "てもさしつかえない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-010-16-a",
+          "text": "というと",
+          "grammarId": "n2-079",
+          "baseExpression": "というと",
+          "conjugatedExpression": "というと",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '유품을 정리했을 때 아버지가 남긴 부치지 않은 편지를 발견했다.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
+      "sourceGrammarIds": [
+        "n2-010",
+        "n2-078",
+        "n2-079",
+        "n2-080"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-010-17",
+      "level": "N2",
+      "sentence": "沿岸部へ取材に向かわれる折に、現地支局へ機材を届けていただけませんか。",
+      "sentenceWithBlank": "沿岸部へ取材に向かわれる（　　　）、現地支局へ機材を届けていただけませんか。",
+      "korean": "해안 지역으로 취재하러 가실 때 현지 지국에 장비를 전달해 주실 수 있습니까?",
+      "answerChoiceId": "fb-created-n2-010-17-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-010-17-c",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-010-17-d",
+          "text": "てもさしつかえない",
+          "grammarId": "n2-078",
+          "baseExpression": "てもさしつかえない",
+          "conjugatedExpression": "てもさしつかえない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-010-17-a",
+          "text": "というと",
+          "grammarId": "n2-079",
+          "baseExpression": "というと",
+          "conjugatedExpression": "というと",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-010-17-b",
+          "text": "というものだ",
+          "grammarId": "n2-080",
+          "baseExpression": "というものだ",
+          "conjugatedExpression": "というものだ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '해안 지역으로 취재하러 가실 때 현지 지국에 장비를 전달해 주실 수 있습니까?'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
+      "sourceGrammarIds": [
+        "n2-010",
+        "n2-078",
+        "n2-079",
+        "n2-080"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-010-18",
+      "level": "N2",
+      "sentence": "退院される折に、今後の食事制限について栄養士がご案内いたします。",
+      "sentenceWithBlank": "退院される（　　　）、今後の食事制限について栄養士がご案内いたします。",
+      "korean": "퇴원하실 때 향후 식사 제한에 관해 영양사가 안내해 드리겠습니다.",
+      "answerChoiceId": "fb-created-n2-010-18-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-010-18-d",
+          "text": "てもさしつかえない",
+          "grammarId": "n2-078",
+          "baseExpression": "てもさしつかえない",
+          "conjugatedExpression": "てもさしつかえない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-010-18-a",
+          "text": "というと",
+          "grammarId": "n2-079",
+          "baseExpression": "というと",
+          "conjugatedExpression": "というと",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-010-18-b",
+          "text": "というものだ",
+          "grammarId": "n2-080",
+          "baseExpression": "というものだ",
+          "conjugatedExpression": "というものだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-010-18-c",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '퇴원하실 때 향후 식사 제한에 관해 영양사가 안내해 드리겠습니다.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
+      "sourceGrammarIds": [
+        "n2-010",
+        "n2-078",
+        "n2-079",
+        "n2-080"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-010-19",
+      "level": "N2",
+      "sentence": "本社移転の折に、保管期限を過ぎた文書を一斉に処分した。",
+      "sentenceWithBlank": "本社移転の（　　　）、保管期限を過ぎた文書を一斉に処分した。",
+      "korean": "본사를 이전할 때 보관 기한이 지난 문서를 일제히 폐기했다.",
+      "answerChoiceId": "fb-created-n2-010-19-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-010-19-a",
+          "text": "というと",
+          "grammarId": "n2-079",
+          "baseExpression": "というと",
+          "conjugatedExpression": "というと",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-010-19-b",
+          "text": "というものだ",
+          "grammarId": "n2-080",
+          "baseExpression": "というものだ",
+          "conjugatedExpression": "というものだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-010-19-c",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-010-19-d",
+          "text": "てもさしつかえない",
+          "grammarId": "n2-078",
+          "baseExpression": "てもさしつかえない",
+          "conjugatedExpression": "てもさしつかえない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '본사를 이전할 때 보관 기한이 지난 문서를 일제히 폐기했다.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
+      "sourceGrammarIds": [
+        "n2-010",
+        "n2-078",
+        "n2-079",
+        "n2-080"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-010-20",
+      "level": "N2",
+      "sentence": "空港をご利用の折に、免税店限定の商品もお確かめください。",
+      "sentenceWithBlank": "空港をご利用の（　　　）、免税店限定の商品もお確かめください。",
+      "korean": "공항을 이용하실 때 면세점 한정 상품도 확인해 보십시오.",
+      "answerChoiceId": "fb-created-n2-010-20-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-010-20-b",
+          "text": "というものだ",
+          "grammarId": "n2-080",
+          "baseExpression": "というものだ",
+          "conjugatedExpression": "というものだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-010-20-c",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-010-20-d",
+          "text": "てもさしつかえない",
+          "grammarId": "n2-078",
+          "baseExpression": "てもさしつかえない",
+          "conjugatedExpression": "てもさしつかえない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-010-20-a",
+          "text": "というと",
+          "grammarId": "n2-079",
+          "baseExpression": "というと",
+          "conjugatedExpression": "というと",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '공항을 이용하실 때 면세점 한정 상품도 확인해 보십시오.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
+      "sourceGrammarIds": [
+        "n2-010",
+        "n2-078",
+        "n2-079",
+        "n2-080"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-010-21",
+      "level": "N2",
+      "sentence": "寺院の修復工事に立ち会った折に、屋根裏から古い棟札が発見された。",
+      "sentenceWithBlank": "寺院の修復工事に立ち会った（　　　）、屋根裏から古い棟札が発見された。",
+      "korean": "사찰 복원 공사에 입회했을 때 지붕 밑에서 오래된 상량패가 발견되었다.",
+      "answerChoiceId": "fb-created-n2-010-21-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-010-21-c",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-010-21-d",
+          "text": "てもさしつかえない",
+          "grammarId": "n2-078",
+          "baseExpression": "てもさしつかえない",
+          "conjugatedExpression": "てもさしつかえない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-010-21-a",
+          "text": "というと",
+          "grammarId": "n2-079",
+          "baseExpression": "というと",
+          "conjugatedExpression": "というと",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-010-21-b",
+          "text": "というものだ",
+          "grammarId": "n2-080",
+          "baseExpression": "というものだ",
+          "conjugatedExpression": "というものだ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '사찰 복원 공사에 입회했을 때 지붕 밑에서 오래된 상량패가 발견되었다.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
+      "sourceGrammarIds": [
+        "n2-010",
+        "n2-078",
+        "n2-079",
+        "n2-080"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-010-22",
+      "level": "N2",
+      "sentence": "保険内容を見直される折に、地震特約の追加もご検討ください。",
+      "sentenceWithBlank": "保険内容を見直される（　　　）、地震特約の追加もご検討ください。",
+      "korean": "보험 내용을 재검토하실 때 지진 특약 추가도 검토해 주십시오.",
+      "answerChoiceId": "fb-created-n2-010-22-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-010-22-d",
+          "text": "てもさしつかえない",
+          "grammarId": "n2-078",
+          "baseExpression": "てもさしつかえない",
+          "conjugatedExpression": "てもさしつかえない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-010-22-a",
+          "text": "というと",
+          "grammarId": "n2-079",
+          "baseExpression": "というと",
+          "conjugatedExpression": "というと",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-010-22-b",
+          "text": "というものだ",
+          "grammarId": "n2-080",
+          "baseExpression": "というものだ",
+          "conjugatedExpression": "というものだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-010-22-c",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '보험 내용을 재검토하실 때 지진 특약 추가도 검토해 주십시오.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
+      "sourceGrammarIds": [
+        "n2-010",
+        "n2-078",
+        "n2-079",
+        "n2-080"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-010-23",
+      "level": "N2",
+      "sentence": "恩師の古希を祝う折に、教え子たちで記念樹を贈った。",
+      "sentenceWithBlank": "恩師の古希を祝う（　　　）、教え子たちで記念樹を贈った。",
+      "korean": "은사의 고희를 축하할 때 제자들이 함께 기념수를 선물했다.",
+      "answerChoiceId": "fb-created-n2-010-23-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-010-23-a",
+          "text": "というと",
+          "grammarId": "n2-079",
+          "baseExpression": "というと",
+          "conjugatedExpression": "というと",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-010-23-b",
+          "text": "というものだ",
+          "grammarId": "n2-080",
+          "baseExpression": "というものだ",
+          "conjugatedExpression": "というものだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-010-23-c",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-010-23-d",
+          "text": "てもさしつかえない",
+          "grammarId": "n2-078",
+          "baseExpression": "てもさしつかえない",
+          "conjugatedExpression": "てもさしつかえない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '은사의 고희를 축하할 때 제자들이 함께 기념수를 선물했다.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
+      "sourceGrammarIds": [
+        "n2-010",
+        "n2-078",
+        "n2-079",
+        "n2-080"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-010-24",
+      "level": "N2",
+      "sentence": "領事館へ申請に行かれる折に、戸籍謄本の原本もご持参ください。",
+      "sentenceWithBlank": "領事館へ申請に行かれる（　　　）、戸籍謄本の原本もご持参ください。",
+      "korean": "영사관에 신청하러 가실 때 호적등본 원본도 지참해 주십시오.",
+      "answerChoiceId": "fb-created-n2-010-24-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-010-24-b",
+          "text": "というものだ",
+          "grammarId": "n2-080",
+          "baseExpression": "というものだ",
+          "conjugatedExpression": "というものだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-010-24-c",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-010-24-d",
+          "text": "てもさしつかえない",
+          "grammarId": "n2-078",
+          "baseExpression": "てもさしつかえない",
+          "conjugatedExpression": "てもさしつかえない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-010-24-a",
+          "text": "というと",
+          "grammarId": "n2-079",
+          "baseExpression": "というと",
+          "conjugatedExpression": "というと",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '영사관에 신청하러 가실 때 호적등본 원본도 지참해 주십시오.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
+      "sourceGrammarIds": [
+        "n2-010",
+        "n2-078",
+        "n2-079",
+        "n2-080"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-010-25",
+      "level": "N2",
+      "sentence": "社長が創業者の墓前に報告した折に、新事業への決意を改めて固めた。",
+      "sentenceWithBlank": "社長が創業者の墓前に報告した（　　　）、新事業への決意を改めて固めた。",
+      "korean": "사장이 창업자의 묘소에 보고드렸을 때 신사업에 대한 결의를 다시 굳혔다.",
+      "answerChoiceId": "fb-created-n2-010-25-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-010-25-c",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-010-25-d",
+          "text": "てもさしつかえない",
+          "grammarId": "n2-078",
+          "baseExpression": "てもさしつかえない",
+          "conjugatedExpression": "てもさしつかえない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-010-25-a",
+          "text": "というと",
+          "grammarId": "n2-079",
+          "baseExpression": "というと",
+          "conjugatedExpression": "というと",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-010-25-b",
+          "text": "というものだ",
+          "grammarId": "n2-080",
+          "baseExpression": "というものだ",
+          "conjugatedExpression": "というものだ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '사장이 창업자의 묘소에 보고드렸을 때 신사업에 대한 결의를 다시 굳혔다.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
+      "sourceGrammarIds": [
+        "n2-010",
+        "n2-078",
+        "n2-079",
+        "n2-080"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
       ]
     }
   ],
@@ -1834,1103 +1809,1153 @@
       ]
     },
     {
-      "id": "so-extra-n2-010-1",
+      "id": "so-created-n2-010-01",
       "level": "N2",
-      "sentence": "このことは今度お目にかかった折に詳しくお話しいたします。",
-      "sentenceWithBlanks": "このことは今度お目にかかった ____ ____ ____ ____",
-      "korean": "이 일은 다음에 뵈었을 때 자세히 말씀드리겠습니다.",
-      "pieces": [
-        {
-          "id": "so-extra-n2-010-1-p1",
-          "text": "します",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-010-1-p2",
-          "text": "折に",
-          "order": 1
-        },
-        {
-          "id": "so-extra-n2-010-1-p3",
-          "text": "詳しくお",
-          "order": 2
-        },
-        {
-          "id": "so-extra-n2-010-1-p4",
-          "text": "話しいた",
-          "order": 3
-        }
-      ],
-      "correctPieceIds": [
-        "so-extra-n2-010-1-p2",
-        "so-extra-n2-010-1-p3",
-        "so-extra-n2-010-1-p4",
-        "so-extra-n2-010-1-p1"
-      ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
-      "sourceGrammarIds": [
-        "n2-010"
-      ],
-      "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "so-extra-n2-010-2",
-      "level": "N2",
-      "sentence": "先月北海道に行った折、偶然昔の友達に会った。",
+      "sentence": "京都へお越しの折に、弊社の工房にもぜひお立ち寄りください。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "지난달 홋카이도에 갔을 때 우연히 옛 친구를 만났다.",
+      "korean": "교토에 오실 때 저희 회사 공방에도 꼭 들러 주십시오.",
       "pieces": [
         {
-          "id": "so-extra-n2-010-2-p2",
-          "text": "行った折",
-          "order": 2
-        },
-        {
-          "id": "so-extra-n2-010-2-p3",
-          "text": "偶然昔の友達に",
+          "id": "so-created-n2-010-01-p3",
+          "text": "工房にもぜひお立ち",
           "order": 3
         },
         {
-          "id": "so-extra-n2-010-2-p4",
-          "text": "会った",
+          "id": "so-created-n2-010-01-p4",
+          "text": "寄りください。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-010-2-p1",
-          "text": "先月北海道に",
+          "id": "so-created-n2-010-01-p1",
+          "text": "京都へお越しの",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-010-01-p2",
+          "text": "折に、弊社の",
+          "order": 2
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-010-01-p1",
+        "so-created-n2-010-01-p2",
+        "so-created-n2-010-01-p3",
+        "so-created-n2-010-01-p4"
+      ],
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '교토에 오실 때 저희 회사 공방에도 꼭 들러 주십시오.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
+      "sourceGrammarIds": [
+        "n2-010",
+        "n2-078",
+        "n2-079",
+        "n2-080"
+      ],
+      "tags": [
+        "신규예문",
+        "문장배열"
+      ]
+    },
+    {
+      "id": "so-created-n2-010-02",
+      "level": "N2",
+      "sentence": "契約を更新する折に、緊急連絡先も併せてご確認願います。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 願います。",
+      "korean": "계약을 갱신하실 때 긴급 연락처도 함께 확인해 주시기 바랍니다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-010-02-p2",
+          "text": "折に、緊急",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-010-02-p3",
+          "text": "連絡先も",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-010-02-p4",
+          "text": "併せてご確認",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-010-02-p1",
+          "text": "契約を更新する",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-010-2-p1",
-        "so-extra-n2-010-2-p2",
-        "so-extra-n2-010-2-p3",
-        "so-extra-n2-010-2-p4"
+        "so-created-n2-010-02-p1",
+        "so-created-n2-010-02-p2",
+        "so-created-n2-010-02-p3",
+        "so-created-n2-010-02-p4"
       ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '계약을 갱신하실 때 긴급 연락처도 함께 확인해 주시기 바랍니다.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
       "sourceGrammarIds": [
-        "n2-010"
+        "n2-010",
+        "n2-078",
+        "n2-079",
+        "n2-080"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-010-3",
+      "id": "so-created-n2-010-03",
       "level": "N2",
-      "sentence": "このことは今度お目にかかった折に詳しくお話しいたします。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 詳しくお話しいたします。",
-      "korean": "이 일은 다음에 뵈었을 때 자세히 말씀드리겠습니다.",
+      "sentence": "館長が海外出張から戻られた折に、展示計画の承認をいただく予定です。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 承認をいただく予定です。",
+      "korean": "관장님께서 해외 출장에서 돌아오실 때 전시 계획의 승인을 받을 예정입니다.",
       "pieces": [
         {
-          "id": "so-extra-n2-010-3-p3",
-          "text": "話しいた",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-010-3-p4",
-          "text": "かかった",
+          "id": "so-created-n2-010-03-p1",
+          "text": "館長が海外",
           "order": 1
         },
         {
-          "id": "so-extra-n2-010-3-p1",
-          "text": "折に",
+          "id": "so-created-n2-010-03-p2",
+          "text": "出張から",
           "order": 2
         },
         {
-          "id": "so-extra-n2-010-3-p2",
-          "text": "詳しくお",
+          "id": "so-created-n2-010-03-p3",
+          "text": "戻られた折に、",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-010-03-p4",
+          "text": "展示計画の",
+          "order": 4
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-010-03-p1",
+        "so-created-n2-010-03-p2",
+        "so-created-n2-010-03-p3",
+        "so-created-n2-010-03-p4"
+      ],
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '관장님께서 해외 출장에서 돌아오실 때 전시 계획의 승인을 받을 예정입니다.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
+      "sourceGrammarIds": [
+        "n2-010",
+        "n2-078",
+        "n2-079",
+        "n2-080"
+      ],
+      "tags": [
+        "신규예문",
+        "문장배열"
+      ]
+    },
+    {
+      "id": "so-created-n2-010-04",
+      "level": "N2",
+      "sentence": "お近くまでお出かけの折に、修理済みの時計をお受け取りください。",
+      "sentenceWithBlanks": "____ ____ ____ ____ お受け取りください。",
+      "korean": "근처에 나오실 때 수리가 끝난 시계를 찾아가 주십시오.",
+      "pieces": [
+        {
+          "id": "so-created-n2-010-04-p4",
+          "text": "済みの時計を",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-010-04-p1",
+          "text": "お近くまで",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-010-04-p2",
+          "text": "お出かけの",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-010-04-p3",
+          "text": "折に、修理",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-010-3-p4",
-        "so-extra-n2-010-3-p1",
-        "so-extra-n2-010-3-p2",
-        "so-extra-n2-010-3-p3"
+        "so-created-n2-010-04-p1",
+        "so-created-n2-010-04-p2",
+        "so-created-n2-010-04-p3",
+        "so-created-n2-010-04-p4"
       ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '근처에 나오실 때 수리가 끝난 시계를 찾아가 주십시오.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
       "sourceGrammarIds": [
-        "n2-010"
+        "n2-010",
+        "n2-078",
+        "n2-079",
+        "n2-080"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-010-4",
+      "id": "so-created-n2-010-05",
       "level": "N2",
-      "sentence": "先月北海道に行った折、偶然昔の友達に会った。",
+      "sentence": "新居へ移られる折に、不要な家具の回収を承ります。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "지난달 홋카이도에 갔을 때 우연히 옛 친구를 만났다.",
+      "korean": "새집으로 이사하실 때 불필요한 가구의 수거를 맡아 드립니다.",
       "pieces": [
         {
-          "id": "so-extra-n2-010-4-p4",
-          "text": "行った折",
-          "order": 2
-        },
-        {
-          "id": "so-extra-n2-010-4-p1",
-          "text": "偶然昔の友達に",
+          "id": "so-created-n2-010-05-p3",
+          "text": "家具の回収を",
           "order": 3
         },
         {
-          "id": "so-extra-n2-010-4-p2",
-          "text": "会った",
+          "id": "so-created-n2-010-05-p4",
+          "text": "承ります。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-010-4-p3",
-          "text": "先月北海道に",
-          "order": 1
-        }
-      ],
-      "correctPieceIds": [
-        "so-extra-n2-010-4-p3",
-        "so-extra-n2-010-4-p4",
-        "so-extra-n2-010-4-p1",
-        "so-extra-n2-010-4-p2"
-      ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
-      "sourceGrammarIds": [
-        "n2-010"
-      ],
-      "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "so-extra-n2-010-5",
-      "level": "N2",
-      "sentence": "このことは今度お目にかかった折に詳しくお話しいたします。",
-      "sentenceWithBlanks": "このことは今度お目にかかった ____ ____ ____ ____",
-      "korean": "이 일은 다음에 뵈었을 때 자세히 말씀드리겠습니다.",
-      "pieces": [
-        {
-          "id": "so-extra-n2-010-5-p1",
-          "text": "します",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-010-5-p2",
-          "text": "折に",
+          "id": "so-created-n2-010-05-p1",
+          "text": "新居へ移られる",
           "order": 1
         },
         {
-          "id": "so-extra-n2-010-5-p3",
-          "text": "詳しくお",
+          "id": "so-created-n2-010-05-p2",
+          "text": "折に、不要な",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-010-5-p4",
-          "text": "話しいた",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-010-5-p2",
-        "so-extra-n2-010-5-p3",
-        "so-extra-n2-010-5-p4",
-        "so-extra-n2-010-5-p1"
+        "so-created-n2-010-05-p1",
+        "so-created-n2-010-05-p2",
+        "so-created-n2-010-05-p3",
+        "so-created-n2-010-05-p4"
       ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '새집으로 이사하실 때 불필요한 가구의 수거를 맡아 드립니다.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
       "sourceGrammarIds": [
-        "n2-010"
+        "n2-010",
+        "n2-078",
+        "n2-079",
+        "n2-080"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-010-01",
+      "id": "so-created-n2-010-06",
       "level": "N2",
-      "sentence": "このことは今度お目にかかった折に詳しくお話しいたします。",
-      "sentenceWithBlanks": "このことは今度お目にかかった ____ ____ ____ ____",
-      "korean": "이 일은 다음에 뵈었을 때 자세히 말씀드리겠습니다.",
-      "pieces": [
-        {
-          "id": "so-extra20-n2-010-01-p1",
-          "text": "します",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-010-01-p2",
-          "text": "折に",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-010-01-p3",
-          "text": "詳しくお",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-010-01-p4",
-          "text": "話しいた",
-          "order": 3
-        }
-      ],
-      "correctPieceIds": [
-        "so-extra20-n2-010-01-p2",
-        "so-extra20-n2-010-01-p3",
-        "so-extra20-n2-010-01-p4",
-        "so-extra20-n2-010-01-p1"
-      ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
-      "sourceGrammarIds": [
-        "n2-010"
-      ],
-      "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "so-extra20-n2-010-02",
-      "level": "N2",
-      "sentence": "先月北海道に行った折、偶然昔の友達に会った。",
+      "sentence": "祖父の一周忌で帰郷した折に、荒れていた墓地を整備した。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "지난달 홋카이도에 갔을 때 우연히 옛 친구를 만났다.",
+      "korean": "할아버지의 1주기를 맞아 귀향했을 때 황폐해져 있던 묘지를 정비했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-010-02-p4",
-          "text": "会った",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-010-02-p1",
-          "text": "先月北海道に",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-010-02-p2",
-          "text": "行った折",
+          "id": "so-created-n2-010-06-p2",
+          "text": "帰郷した折に、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-010-02-p3",
-          "text": "偶然昔の友達に",
+          "id": "so-created-n2-010-06-p3",
+          "text": "荒れていた",
           "order": 3
-        }
-      ],
-      "correctPieceIds": [
-        "so-extra20-n2-010-02-p1",
-        "so-extra20-n2-010-02-p2",
-        "so-extra20-n2-010-02-p3",
-        "so-extra20-n2-010-02-p4"
-      ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
-      "sourceGrammarIds": [
-        "n2-010"
-      ],
-      "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "so-extra20-n2-010-03",
-      "level": "N2",
-      "sentence": "このことは今度お目にかかった折に詳しくお話しいたします。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 詳しくお話しいたします。",
-      "korean": "이 일은 다음에 뵈었을 때 자세히 말씀드리겠습니다.",
-      "pieces": [
+        },
         {
-          "id": "so-extra20-n2-010-03-p3",
-          "text": "話しいた",
+          "id": "so-created-n2-010-06-p4",
+          "text": "墓地を整備した。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-010-03-p4",
-          "text": "かかった",
+          "id": "so-created-n2-010-06-p1",
+          "text": "祖父の一周忌で",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-010-03-p1",
-          "text": "折に",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-010-03-p2",
-          "text": "詳しくお",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-010-03-p4",
-        "so-extra20-n2-010-03-p1",
-        "so-extra20-n2-010-03-p2",
-        "so-extra20-n2-010-03-p3"
+        "so-created-n2-010-06-p1",
+        "so-created-n2-010-06-p2",
+        "so-created-n2-010-06-p3",
+        "so-created-n2-010-06-p4"
       ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '할아버지의 1주기를 맞아 귀향했을 때 황폐해져 있던 묘지를 정비했다.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
       "sourceGrammarIds": [
-        "n2-010"
+        "n2-010",
+        "n2-078",
+        "n2-079",
+        "n2-080"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-010-04",
+      "id": "so-created-n2-010-07",
       "level": "N2",
-      "sentence": "先月北海道に行った折、偶然昔の友達に会った。",
+      "sentence": "次回ご来院の折に、現在お使いの薬をすべてお持ちください。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "지난달 홋카이도에 갔을 때 우연히 옛 친구를 만났다.",
+      "korean": "다음에 내원하실 때 현재 복용 중인 약을 모두 가져오십시오.",
       "pieces": [
         {
-          "id": "so-extra20-n2-010-04-p2",
-          "text": "会った",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-010-04-p3",
-          "text": "先月北海道に",
+          "id": "so-created-n2-010-07-p1",
+          "text": "次回ご来院の",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-010-04-p4",
-          "text": "行った折",
+          "id": "so-created-n2-010-07-p2",
+          "text": "折に、現在お",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-010-04-p1",
-          "text": "偶然昔の友達に",
+          "id": "so-created-n2-010-07-p3",
+          "text": "使いの薬をすべてお",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-010-07-p4",
+          "text": "持ちください。",
+          "order": 4
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-010-07-p1",
+        "so-created-n2-010-07-p2",
+        "so-created-n2-010-07-p3",
+        "so-created-n2-010-07-p4"
+      ],
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '다음에 내원하실 때 현재 복용 중인 약을 모두 가져오십시오.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
+      "sourceGrammarIds": [
+        "n2-010",
+        "n2-078",
+        "n2-079",
+        "n2-080"
+      ],
+      "tags": [
+        "신규예문",
+        "문장배열"
+      ]
+    },
+    {
+      "id": "so-created-n2-010-08",
+      "level": "N2",
+      "sentence": "市長が被災地を視察された折に、住民から再建への要望書が手渡された。",
+      "sentenceWithBlanks": "市長が被災 ____ ____ ____ ____ 手渡された。",
+      "korean": "시장이 재해 지역을 시찰했을 때 주민들이 재건 요청서를 전달했다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-010-08-p4",
+          "text": "要望書が",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-010-08-p1",
+          "text": "地を視察された",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-010-08-p2",
+          "text": "折に、住民から",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-010-08-p3",
+          "text": "再建への",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-010-04-p3",
-        "so-extra20-n2-010-04-p4",
-        "so-extra20-n2-010-04-p1",
-        "so-extra20-n2-010-04-p2"
+        "so-created-n2-010-08-p1",
+        "so-created-n2-010-08-p2",
+        "so-created-n2-010-08-p3",
+        "so-created-n2-010-08-p4"
       ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '시장이 재해 지역을 시찰했을 때 주민들이 재건 요청서를 전달했다.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
       "sourceGrammarIds": [
-        "n2-010"
+        "n2-010",
+        "n2-078",
+        "n2-079",
+        "n2-080"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-010-05",
+      "id": "so-created-n2-010-09",
       "level": "N2",
-      "sentence": "このことは今度お目にかかった折に詳しくお話しいたします。",
-      "sentenceWithBlanks": "このことは今度お目にかかった ____ ____ ____ ____",
-      "korean": "이 일은 다음에 뵈었을 때 자세히 말씀드리겠습니다.",
+      "sentence": "ご家族で相談される折に、こちらの費用明細をご活用ください。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 活用ください。",
+      "korean": "가족과 상의하실 때 이 비용 명세서를 활용해 주십시오.",
       "pieces": [
         {
-          "id": "so-extra20-n2-010-05-p1",
-          "text": "します",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-010-05-p2",
-          "text": "折に",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-010-05-p3",
-          "text": "詳しくお",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-010-05-p4",
-          "text": "話しいた",
-          "order": 3
-        }
-      ],
-      "correctPieceIds": [
-        "so-extra20-n2-010-05-p2",
-        "so-extra20-n2-010-05-p3",
-        "so-extra20-n2-010-05-p4",
-        "so-extra20-n2-010-05-p1"
-      ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
-      "sourceGrammarIds": [
-        "n2-010"
-      ],
-      "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "so-extra20-n2-010-06",
-      "level": "N2",
-      "sentence": "このことは今度お目にかかった折に詳しくお話しいたします。",
-      "sentenceWithBlanks": "このことは今度お目にかかった ____ ____ ____ ____",
-      "korean": "이 일은 다음에 뵈었을 때 자세히 말씀드리겠습니다.",
-      "pieces": [
-        {
-          "id": "so-extra20-n2-010-06-p4",
-          "text": "話しいた",
+          "id": "so-created-n2-010-09-p3",
+          "text": "折に、こちらの",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-010-06-p1",
-          "text": "します",
+          "id": "so-created-n2-010-09-p4",
+          "text": "費用明細をご",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-010-06-p2",
-          "text": "折に",
+          "id": "so-created-n2-010-09-p1",
+          "text": "ご家族で",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-010-06-p3",
-          "text": "詳しくお",
+          "id": "so-created-n2-010-09-p2",
+          "text": "相談される",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-010-06-p2",
-        "so-extra20-n2-010-06-p3",
-        "so-extra20-n2-010-06-p4",
-        "so-extra20-n2-010-06-p1"
+        "so-created-n2-010-09-p1",
+        "so-created-n2-010-09-p2",
+        "so-created-n2-010-09-p3",
+        "so-created-n2-010-09-p4"
       ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '가족과 상의하실 때 이 비용 명세서를 활용해 주십시오.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
       "sourceGrammarIds": [
-        "n2-010"
+        "n2-010",
+        "n2-078",
+        "n2-079",
+        "n2-080"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-010-07",
+      "id": "so-created-n2-010-10",
       "level": "N2",
-      "sentence": "先月北海道に行った折、偶然昔の友達に会った。",
+      "sentence": "部長が工場を巡回した折に、老朽化した配管の交換を指示した。",
+      "sentenceWithBlanks": "部長が ____ ____ ____ ____ 指示した。",
+      "korean": "부장이 공장을 순회했을 때 노후한 배관의 교체를 지시했다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-010-10-p2",
+          "text": "巡回した折に、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-010-10-p3",
+          "text": "老朽化した",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-010-10-p4",
+          "text": "配管の交換を",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-010-10-p1",
+          "text": "工場を",
+          "order": 1
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-010-10-p1",
+        "so-created-n2-010-10-p2",
+        "so-created-n2-010-10-p3",
+        "so-created-n2-010-10-p4"
+      ],
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '부장이 공장을 순회했을 때 노후한 배관의 교체를 지시했다.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
+      "sourceGrammarIds": [
+        "n2-010",
+        "n2-078",
+        "n2-079",
+        "n2-080"
+      ],
+      "tags": [
+        "신규예문",
+        "문장배열"
+      ]
+    },
+    {
+      "id": "so-created-n2-010-11",
+      "level": "N2",
+      "sentence": "記念式典にご出席の折に、受付で招待状をご提示ください。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 提示ください。",
+      "korean": "기념식에 참석하실 때 접수처에서 초대장을 제시해 주십시오.",
+      "pieces": [
+        {
+          "id": "so-created-n2-010-11-p1",
+          "text": "記念式典にご",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-010-11-p2",
+          "text": "出席の",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-010-11-p3",
+          "text": "折に、受付で",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-010-11-p4",
+          "text": "招待状をご",
+          "order": 4
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-010-11-p1",
+        "so-created-n2-010-11-p2",
+        "so-created-n2-010-11-p3",
+        "so-created-n2-010-11-p4"
+      ],
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '기념식에 참석하실 때 접수처에서 초대장을 제시해 주십시오.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
+      "sourceGrammarIds": [
+        "n2-010",
+        "n2-078",
+        "n2-079",
+        "n2-080"
+      ],
+      "tags": [
+        "신규예문",
+        "문장배열"
+      ]
+    },
+    {
+      "id": "so-created-n2-010-12",
+      "level": "N2",
+      "sentence": "初めてその島を訪れた折に、伝統漁法を守る老夫婦の世話になった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 世話になった。",
+      "korean": "처음 그 섬을 방문했을 때 전통 어법을 지키는 노부부의 신세를 졌다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-010-12-p4",
+          "text": "守る老夫婦の",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-010-12-p1",
+          "text": "初めてその島を",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-010-12-p2",
+          "text": "訪れた折に、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-010-12-p3",
+          "text": "伝統漁法を",
+          "order": 3
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-010-12-p1",
+        "so-created-n2-010-12-p2",
+        "so-created-n2-010-12-p3",
+        "so-created-n2-010-12-p4"
+      ],
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '처음 그 섬을 방문했을 때 전통 어법을 지키는 노부부의 신세를 졌다.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
+      "sourceGrammarIds": [
+        "n2-010",
+        "n2-078",
+        "n2-079",
+        "n2-080"
+      ],
+      "tags": [
+        "신규예문",
+        "문장배열"
+      ]
+    },
+    {
+      "id": "so-created-n2-010-13",
+      "level": "N2",
+      "sentence": "口座を解約される折に、未使用の小切手をご返却いただきます。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "지난달 홋카이도에 갔을 때 우연히 옛 친구를 만났다.",
+      "korean": "계좌를 해지하실 때 사용하지 않은 수표를 반환해 주셔야 합니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-010-07-p3",
-          "text": "偶然昔の友達に",
+          "id": "so-created-n2-010-13-p3",
+          "text": "小切手をご",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-010-07-p4",
-          "text": "会った",
+          "id": "so-created-n2-010-13-p4",
+          "text": "返却いただきます。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-010-07-p1",
-          "text": "先月北海道に",
+          "id": "so-created-n2-010-13-p1",
+          "text": "口座を解約される",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-010-07-p2",
-          "text": "行った折",
+          "id": "so-created-n2-010-13-p2",
+          "text": "折に、未使用の",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-010-07-p1",
-        "so-extra20-n2-010-07-p2",
-        "so-extra20-n2-010-07-p3",
-        "so-extra20-n2-010-07-p4"
+        "so-created-n2-010-13-p1",
+        "so-created-n2-010-13-p2",
+        "so-created-n2-010-13-p3",
+        "so-created-n2-010-13-p4"
       ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '계좌를 해지하실 때 사용하지 않은 수표를 반환해 주셔야 합니다.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
       "sourceGrammarIds": [
-        "n2-010"
+        "n2-010",
+        "n2-078",
+        "n2-079",
+        "n2-080"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-010-08",
+      "id": "so-created-n2-010-14",
       "level": "N2",
-      "sentence": "このことは今度お目にかかった折に詳しくお話しいたします。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 詳しくお話しいたします。",
-      "korean": "이 일은 다음에 뵈었을 때 자세히 말씀드리겠습니다.",
+      "sentence": "大使が着任の挨拶に来られた折に、両国の文化交流について意見を交わした。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 交流について意見を交わした。",
+      "korean": "대사가 부임 인사를 하러 왔을 때 양국의 문화 교류에 관해 의견을 나누었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-010-08-p2",
-          "text": "詳しくお",
+          "id": "so-created-n2-010-14-p2",
+          "text": "着任の挨拶に",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-010-14-p3",
+          "text": "来られた折に、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-010-08-p3",
-          "text": "話しいた",
+          "id": "so-created-n2-010-14-p4",
+          "text": "両国の文化",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-010-08-p4",
-          "text": "かかった",
+          "id": "so-created-n2-010-14-p1",
+          "text": "大使が",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-010-08-p1",
-          "text": "折に",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-010-08-p4",
-        "so-extra20-n2-010-08-p1",
-        "so-extra20-n2-010-08-p2",
-        "so-extra20-n2-010-08-p3"
+        "so-created-n2-010-14-p1",
+        "so-created-n2-010-14-p2",
+        "so-created-n2-010-14-p3",
+        "so-created-n2-010-14-p4"
       ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '대사가 부임 인사를 하러 왔을 때 양국의 문화 교류에 관해 의견을 나누었다.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
       "sourceGrammarIds": [
-        "n2-010"
+        "n2-010",
+        "n2-078",
+        "n2-079",
+        "n2-080"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-010-09",
+      "id": "so-created-n2-010-15",
       "level": "N2",
-      "sentence": "先月北海道に行った折、偶然昔の友達に会った。",
+      "sentence": "農園をご見学の折に、収穫したばかりの桃をご試食いただけます。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "지난달 홋카이도에 갔을 때 우연히 옛 친구를 만났다.",
+      "korean": "농장을 견학하실 때 갓 수확한 복숭아를 시식하실 수 있습니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-010-09-p1",
-          "text": "偶然昔の友達に",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-010-09-p2",
-          "text": "会った",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-010-09-p3",
-          "text": "先月北海道に",
+          "id": "so-created-n2-010-15-p1",
+          "text": "農園をご見学の折に、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-010-09-p4",
-          "text": "行った折",
+          "id": "so-created-n2-010-15-p2",
+          "text": "収穫したばかりの",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-010-15-p3",
+          "text": "桃をご",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-010-15-p4",
+          "text": "試食いただけます。",
+          "order": 4
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-010-15-p1",
+        "so-created-n2-010-15-p2",
+        "so-created-n2-010-15-p3",
+        "so-created-n2-010-15-p4"
+      ],
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '농장을 견학하실 때 갓 수확한 복숭아를 시식하실 수 있습니다.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
+      "sourceGrammarIds": [
+        "n2-010",
+        "n2-078",
+        "n2-079",
+        "n2-080"
+      ],
+      "tags": [
+        "신규예문",
+        "문장배열"
+      ]
+    },
+    {
+      "id": "so-created-n2-010-16",
+      "level": "N2",
+      "sentence": "遺品を整理した折に、父が残した未投函の手紙を見つけた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 見つけた。",
+      "korean": "유품을 정리했을 때 아버지가 남긴 부치지 않은 편지를 발견했다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-010-16-p4",
+          "text": "投函の手紙を",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-010-16-p1",
+          "text": "遺品を整理した",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-010-16-p2",
+          "text": "折に、父が",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-010-16-p3",
+          "text": "残した未",
+          "order": 3
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-010-16-p1",
+        "so-created-n2-010-16-p2",
+        "so-created-n2-010-16-p3",
+        "so-created-n2-010-16-p4"
+      ],
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '유품을 정리했을 때 아버지가 남긴 부치지 않은 편지를 발견했다.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
+      "sourceGrammarIds": [
+        "n2-010",
+        "n2-078",
+        "n2-079",
+        "n2-080"
+      ],
+      "tags": [
+        "신규예문",
+        "문장배열"
+      ]
+    },
+    {
+      "id": "so-created-n2-010-17",
+      "level": "N2",
+      "sentence": "沿岸部へ取材に向かわれる折に、現地支局へ機材を届けていただけませんか。",
+      "sentenceWithBlanks": "沿岸 ____ ____ ____ ____ 届けていただけませんか。",
+      "korean": "해안 지역으로 취재하러 가실 때 현지 지국에 장비를 전달해 주실 수 있습니까?",
+      "pieces": [
+        {
+          "id": "so-created-n2-010-17-p3",
+          "text": "折に、現地",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-010-17-p4",
+          "text": "支局へ機材を",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-010-17-p1",
+          "text": "部へ取材に",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-010-17-p2",
+          "text": "向かわれる",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-010-09-p3",
-        "so-extra20-n2-010-09-p4",
-        "so-extra20-n2-010-09-p1",
-        "so-extra20-n2-010-09-p2"
+        "so-created-n2-010-17-p1",
+        "so-created-n2-010-17-p2",
+        "so-created-n2-010-17-p3",
+        "so-created-n2-010-17-p4"
       ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '해안 지역으로 취재하러 가실 때 현지 지국에 장비를 전달해 주실 수 있습니까?'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
       "sourceGrammarIds": [
-        "n2-010"
+        "n2-010",
+        "n2-078",
+        "n2-079",
+        "n2-080"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-010-10",
+      "id": "so-created-n2-010-18",
       "level": "N2",
-      "sentence": "このことは今度お目にかかった折に詳しくお話しいたします。",
-      "sentenceWithBlanks": "このことは今度お目にかかった ____ ____ ____ ____",
-      "korean": "이 일은 다음에 뵈었을 때 자세히 말씀드리겠습니다.",
+      "sentence": "退院される折に、今後の食事制限について栄養士がご案内いたします。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 案内いたします。",
+      "korean": "퇴원하실 때 향후 식사 제한에 관해 영양사가 안내해 드리겠습니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-010-10-p4",
-          "text": "話しいた",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-010-10-p1",
-          "text": "します",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-010-10-p2",
-          "text": "折に",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-010-10-p3",
-          "text": "詳しくお",
-          "order": 2
-        }
-      ],
-      "correctPieceIds": [
-        "so-extra20-n2-010-10-p2",
-        "so-extra20-n2-010-10-p3",
-        "so-extra20-n2-010-10-p4",
-        "so-extra20-n2-010-10-p1"
-      ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
-      "sourceGrammarIds": [
-        "n2-010"
-      ],
-      "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "so-extra20-n2-010-11",
-      "level": "N2",
-      "sentence": "このことは今度お目にかかった折に詳しくお話しいたします。",
-      "sentenceWithBlanks": "このことは今度お目にかかった ____ ____ ____ ____",
-      "korean": "이 일은 다음에 뵈었을 때 자세히 말씀드리겠습니다.",
-      "pieces": [
-        {
-          "id": "so-extra20-n2-010-11-p3",
-          "text": "詳しくお",
+          "id": "so-created-n2-010-18-p2",
+          "text": "折に、今後の",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-010-11-p4",
-          "text": "話しいた",
+          "id": "so-created-n2-010-18-p3",
+          "text": "食事制限について",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-010-11-p1",
-          "text": "します",
+          "id": "so-created-n2-010-18-p4",
+          "text": "栄養士がご",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-010-11-p2",
-          "text": "折に",
+          "id": "so-created-n2-010-18-p1",
+          "text": "退院される",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-010-11-p2",
-        "so-extra20-n2-010-11-p3",
-        "so-extra20-n2-010-11-p4",
-        "so-extra20-n2-010-11-p1"
+        "so-created-n2-010-18-p1",
+        "so-created-n2-010-18-p2",
+        "so-created-n2-010-18-p3",
+        "so-created-n2-010-18-p4"
       ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '퇴원하실 때 향후 식사 제한에 관해 영양사가 안내해 드리겠습니다.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
       "sourceGrammarIds": [
-        "n2-010"
+        "n2-010",
+        "n2-078",
+        "n2-079",
+        "n2-080"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-010-12",
+      "id": "so-created-n2-010-19",
       "level": "N2",
-      "sentence": "先月北海道に行った折、偶然昔の友達に会った。",
+      "sentence": "本社移転の折に、保管期限を過ぎた文書を一斉に処分した。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 処分した。",
+      "korean": "본사를 이전할 때 보관 기한이 지난 문서를 일제히 폐기했다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-010-19-p1",
+          "text": "本社移転の",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-010-19-p2",
+          "text": "折に、保管",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-010-19-p3",
+          "text": "期限を過ぎた",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-010-19-p4",
+          "text": "文書を一斉に",
+          "order": 4
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-010-19-p1",
+        "so-created-n2-010-19-p2",
+        "so-created-n2-010-19-p3",
+        "so-created-n2-010-19-p4"
+      ],
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '본사를 이전할 때 보관 기한이 지난 문서를 일제히 폐기했다.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
+      "sourceGrammarIds": [
+        "n2-010",
+        "n2-078",
+        "n2-079",
+        "n2-080"
+      ],
+      "tags": [
+        "신규예문",
+        "문장배열"
+      ]
+    },
+    {
+      "id": "so-created-n2-010-20",
+      "level": "N2",
+      "sentence": "空港をご利用の折に、免税店限定の商品もお確かめください。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 確かめください。",
+      "korean": "공항을 이용하실 때 면세점 한정 상품도 확인해 보십시오.",
+      "pieces": [
+        {
+          "id": "so-created-n2-010-20-p4",
+          "text": "商品もお",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-010-20-p1",
+          "text": "空港をご利用の",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-010-20-p2",
+          "text": "折に、免税",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-010-20-p3",
+          "text": "店限定の",
+          "order": 3
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-010-20-p1",
+        "so-created-n2-010-20-p2",
+        "so-created-n2-010-20-p3",
+        "so-created-n2-010-20-p4"
+      ],
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '공항을 이용하실 때 면세점 한정 상품도 확인해 보십시오.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
+      "sourceGrammarIds": [
+        "n2-010",
+        "n2-078",
+        "n2-079",
+        "n2-080"
+      ],
+      "tags": [
+        "신규예문",
+        "문장배열"
+      ]
+    },
+    {
+      "id": "so-created-n2-010-21",
+      "level": "N2",
+      "sentence": "寺院の修復工事に立ち会った折に、屋根裏から古い棟札が発見された。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 古い棟札が発見された。",
+      "korean": "사찰 복원 공사에 입회했을 때 지붕 밑에서 오래된 상량패가 발견되었다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-010-21-p3",
+          "text": "会った折に、",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-010-21-p4",
+          "text": "屋根裏から",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-010-21-p1",
+          "text": "寺院の修復",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-010-21-p2",
+          "text": "工事に立ち",
+          "order": 2
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-010-21-p1",
+        "so-created-n2-010-21-p2",
+        "so-created-n2-010-21-p3",
+        "so-created-n2-010-21-p4"
+      ],
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '사찰 복원 공사에 입회했을 때 지붕 밑에서 오래된 상량패가 발견되었다.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
+      "sourceGrammarIds": [
+        "n2-010",
+        "n2-078",
+        "n2-079",
+        "n2-080"
+      ],
+      "tags": [
+        "신규예문",
+        "문장배열"
+      ]
+    },
+    {
+      "id": "so-created-n2-010-22",
+      "level": "N2",
+      "sentence": "保険内容を見直される折に、地震特約の追加もご検討ください。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 検討ください。",
+      "korean": "보험 내용을 재검토하실 때 지진 특약 추가도 검토해 주십시오.",
+      "pieces": [
+        {
+          "id": "so-created-n2-010-22-p2",
+          "text": "見直される",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-010-22-p3",
+          "text": "折に、地震",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-010-22-p4",
+          "text": "特約の追加もご",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-010-22-p1",
+          "text": "保険内容を",
+          "order": 1
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-010-22-p1",
+        "so-created-n2-010-22-p2",
+        "so-created-n2-010-22-p3",
+        "so-created-n2-010-22-p4"
+      ],
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '보험 내용을 재검토하실 때 지진 특약 추가도 검토해 주십시오.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
+      "sourceGrammarIds": [
+        "n2-010",
+        "n2-078",
+        "n2-079",
+        "n2-080"
+      ],
+      "tags": [
+        "신규예문",
+        "문장배열"
+      ]
+    },
+    {
+      "id": "so-created-n2-010-23",
+      "level": "N2",
+      "sentence": "恩師の古希を祝う折に、教え子たちで記念樹を贈った。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "지난달 홋카이도에 갔을 때 우연히 옛 친구를 만났다.",
+      "korean": "은사의 고희를 축하할 때 제자들이 함께 기념수를 선물했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-010-12-p2",
-          "text": "行った折",
+          "id": "so-created-n2-010-23-p1",
+          "text": "恩師の古希を",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-010-23-p2",
+          "text": "祝う折に、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-010-12-p3",
-          "text": "偶然昔の友達に",
+          "id": "so-created-n2-010-23-p3",
+          "text": "教え子たちで",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-010-12-p4",
-          "text": "会った",
+          "id": "so-created-n2-010-23-p4",
+          "text": "記念樹を贈った。",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-010-12-p1",
-          "text": "先月北海道に",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-010-12-p1",
-        "so-extra20-n2-010-12-p2",
-        "so-extra20-n2-010-12-p3",
-        "so-extra20-n2-010-12-p4"
+        "so-created-n2-010-23-p1",
+        "so-created-n2-010-23-p2",
+        "so-created-n2-010-23-p3",
+        "so-created-n2-010-23-p4"
       ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '은사의 고희를 축하할 때 제자들이 함께 기념수를 선물했다.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
       "sourceGrammarIds": [
-        "n2-010"
+        "n2-010",
+        "n2-078",
+        "n2-079",
+        "n2-080"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-010-13",
+      "id": "so-created-n2-010-24",
       "level": "N2",
-      "sentence": "このことは今度お目にかかった折に詳しくお話しいたします。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 詳しくお話しいたします。",
-      "korean": "이 일은 다음에 뵈었을 때 자세히 말씀드리겠습니다.",
+      "sentence": "領事館へ申請に行かれる折に、戸籍謄本の原本もご持参ください。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 持参ください。",
+      "korean": "영사관에 신청하러 가실 때 호적등본 원본도 지참해 주십시오.",
       "pieces": [
         {
-          "id": "so-extra20-n2-010-13-p1",
-          "text": "折に",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-010-13-p2",
-          "text": "詳しくお",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-010-13-p3",
-          "text": "話しいた",
+          "id": "so-created-n2-010-24-p4",
+          "text": "謄本の原本もご",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-010-13-p4",
-          "text": "かかった",
+          "id": "so-created-n2-010-24-p1",
+          "text": "領事館へ",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-010-24-p2",
+          "text": "申請に行かれる",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-010-24-p3",
+          "text": "折に、戸籍",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-010-13-p4",
-        "so-extra20-n2-010-13-p1",
-        "so-extra20-n2-010-13-p2",
-        "so-extra20-n2-010-13-p3"
+        "so-created-n2-010-24-p1",
+        "so-created-n2-010-24-p2",
+        "so-created-n2-010-24-p3",
+        "so-created-n2-010-24-p4"
       ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '영사관에 신청하러 가실 때 호적등본 원본도 지참해 주십시오.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
       "sourceGrammarIds": [
-        "n2-010"
+        "n2-010",
+        "n2-078",
+        "n2-079",
+        "n2-080"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-010-14",
+      "id": "so-created-n2-010-25",
       "level": "N2",
-      "sentence": "先月北海道に行った折、偶然昔の友達に会った。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "지난달 홋카이도에 갔을 때 우연히 옛 친구를 만났다.",
+      "sentence": "社長が創業者の墓前に報告した折に、新事業への決意を改めて固めた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 決意を改めて固めた。",
+      "korean": "사장이 창업자의 묘소에 보고드렸을 때 신사업에 대한 결의를 다시 굳혔다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-010-14-p4",
-          "text": "行った折",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-010-14-p1",
-          "text": "偶然昔の友達に",
+          "id": "so-created-n2-010-25-p3",
+          "text": "折に、新",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-010-14-p2",
-          "text": "会った",
+          "id": "so-created-n2-010-25-p4",
+          "text": "事業への",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-010-14-p3",
-          "text": "先月北海道に",
+          "id": "so-created-n2-010-25-p1",
+          "text": "社長が創業者の",
           "order": 1
-        }
-      ],
-      "correctPieceIds": [
-        "so-extra20-n2-010-14-p3",
-        "so-extra20-n2-010-14-p4",
-        "so-extra20-n2-010-14-p1",
-        "so-extra20-n2-010-14-p2"
-      ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
-      "sourceGrammarIds": [
-        "n2-010"
-      ],
-      "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "so-extra20-n2-010-15",
-      "level": "N2",
-      "sentence": "このことは今度お目にかかった折に詳しくお話しいたします。",
-      "sentenceWithBlanks": "このことは今度お目にかかった ____ ____ ____ ____",
-      "korean": "이 일은 다음에 뵈었을 때 자세히 말씀드리겠습니다.",
-      "pieces": [
+        },
         {
-          "id": "so-extra20-n2-010-15-p3",
-          "text": "詳しくお",
+          "id": "so-created-n2-010-25-p2",
+          "text": "墓前に報告した",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-010-15-p4",
-          "text": "話しいた",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-010-15-p1",
-          "text": "します",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-010-15-p2",
-          "text": "折に",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-010-15-p2",
-        "so-extra20-n2-010-15-p3",
-        "so-extra20-n2-010-15-p4",
-        "so-extra20-n2-010-15-p1"
+        "so-created-n2-010-25-p1",
+        "so-created-n2-010-25-p2",
+        "so-created-n2-010-25-p3",
+        "so-created-n2-010-25-p4"
       ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
+      "explanation": "「折に」는 '~할 때, ~하는 기회에'라는 뜻을 나타낸다. 이 문장에서는 '사장이 창업자의 묘소에 보고드렸을 때 신사업에 대한 결의를 다시 굳혔다.'라는 상황에 쓰였으며, 정중하고 딱딱한 표현. 기회가 있을 때. 주의할 점은 매우 딱딱한 경어 표현. 비즈니스 메일이나 편지에서 자주 등장.",
       "sourceGrammarIds": [
-        "n2-010"
+        "n2-010",
+        "n2-078",
+        "n2-079",
+        "n2-080"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "so-extra20-n2-010-16",
-      "level": "N2",
-      "sentence": "このことは今度お目にかかった折に詳しくお話しいたします。",
-      "sentenceWithBlanks": "このことは今度お目にかかった ____ ____ ____ ____",
-      "korean": "이 일은 다음에 뵈었을 때 자세히 말씀드리겠습니다.",
-      "pieces": [
-        {
-          "id": "so-extra20-n2-010-16-p2",
-          "text": "折に",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-010-16-p3",
-          "text": "詳しくお",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-010-16-p4",
-          "text": "話しいた",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-010-16-p1",
-          "text": "します",
-          "order": 4
-        }
-      ],
-      "correctPieceIds": [
-        "so-extra20-n2-010-16-p2",
-        "so-extra20-n2-010-16-p3",
-        "so-extra20-n2-010-16-p4",
-        "so-extra20-n2-010-16-p1"
-      ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
-      "sourceGrammarIds": [
-        "n2-010"
-      ],
-      "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "so-extra20-n2-010-17",
-      "level": "N2",
-      "sentence": "先月北海道に行った折、偶然昔の友達に会った。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "지난달 홋카이도에 갔을 때 우연히 옛 친구를 만났다.",
-      "pieces": [
-        {
-          "id": "so-extra20-n2-010-17-p1",
-          "text": "先月北海道に",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-010-17-p2",
-          "text": "行った折",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-010-17-p3",
-          "text": "偶然昔の友達に",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-010-17-p4",
-          "text": "会った",
-          "order": 4
-        }
-      ],
-      "correctPieceIds": [
-        "so-extra20-n2-010-17-p1",
-        "so-extra20-n2-010-17-p2",
-        "so-extra20-n2-010-17-p3",
-        "so-extra20-n2-010-17-p4"
-      ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
-      "sourceGrammarIds": [
-        "n2-010"
-      ],
-      "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "so-extra20-n2-010-18",
-      "level": "N2",
-      "sentence": "このことは今度お目にかかった折に詳しくお話しいたします。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 詳しくお話しいたします。",
-      "korean": "이 일은 다음에 뵈었을 때 자세히 말씀드리겠습니다.",
-      "pieces": [
-        {
-          "id": "so-extra20-n2-010-18-p4",
-          "text": "かかった",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-010-18-p1",
-          "text": "折に",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-010-18-p2",
-          "text": "詳しくお",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-010-18-p3",
-          "text": "話しいた",
-          "order": 4
-        }
-      ],
-      "correctPieceIds": [
-        "so-extra20-n2-010-18-p4",
-        "so-extra20-n2-010-18-p1",
-        "so-extra20-n2-010-18-p2",
-        "so-extra20-n2-010-18-p3"
-      ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
-      "sourceGrammarIds": [
-        "n2-010"
-      ],
-      "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "so-extra20-n2-010-19",
-      "level": "N2",
-      "sentence": "先月北海道に行った折、偶然昔の友達に会った。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "지난달 홋카이도에 갔을 때 우연히 옛 친구를 만났다.",
-      "pieces": [
-        {
-          "id": "so-extra20-n2-010-19-p3",
-          "text": "先月北海道に",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-010-19-p4",
-          "text": "行った折",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-010-19-p1",
-          "text": "偶然昔の友達に",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-010-19-p2",
-          "text": "会った",
-          "order": 4
-        }
-      ],
-      "correctPieceIds": [
-        "so-extra20-n2-010-19-p3",
-        "so-extra20-n2-010-19-p4",
-        "so-extra20-n2-010-19-p1",
-        "so-extra20-n2-010-19-p2"
-      ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
-      "sourceGrammarIds": [
-        "n2-010"
-      ],
-      "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "so-extra20-n2-010-20",
-      "level": "N2",
-      "sentence": "このことは今度お目にかかった折に詳しくお話しいたします。",
-      "sentenceWithBlanks": "このことは今度お目にかかった ____ ____ ____ ____",
-      "korean": "이 일은 다음에 뵈었을 때 자세히 말씀드리겠습니다.",
-      "pieces": [
-        {
-          "id": "so-extra20-n2-010-20-p2",
-          "text": "折に",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-010-20-p3",
-          "text": "詳しくお",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-010-20-p4",
-          "text": "話しいた",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-010-20-p1",
-          "text": "します",
-          "order": 4
-        }
-      ],
-      "correctPieceIds": [
-        "so-extra20-n2-010-20-p2",
-        "so-extra20-n2-010-20-p3",
-        "so-extra20-n2-010-20-p4",
-        "so-extra20-n2-010-20-p1"
-      ],
-      "explanation": "「折（に）」는 ~할 때, ~하는 기회에라는 뜻이다. 정중하고 딱딱한 표현. 기회가 있을 때.",
-      "sourceGrammarIds": [
-        "n2-010"
-      ],
-      "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     }
   ]

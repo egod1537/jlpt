@@ -267,15 +267,23 @@
       ]
     },
     {
-      "id": "fb-extra-n2-108-1",
+      "id": "fb-created-n2-108-01",
       "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlank": "忙しい日（　　　）、急な用事が入る。",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
-      "answerChoiceId": "fb-extra-n2-108-1-a",
+      "sentence": "傘を持たない日に限って、帰宅時間に大雨が降る。",
+      "sentenceWithBlank": "傘を持たない日（　　　）、帰宅時間に大雨が降る。",
+      "korean": "우산을 챙기지 않은 날에만 하필 퇴근 시간에 폭우가 내린다.",
+      "answerChoiceId": "fb-created-n2-108-01-a",
       "choices": [
         {
-          "id": "fb-extra-n2-108-1-b",
+          "id": "fb-created-n2-108-01-a",
+          "text": "に限って",
+          "grammarId": "n2-108",
+          "baseExpression": "に限って",
+          "conjugatedExpression": "に限って",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-108-01-b",
           "text": "からすると",
           "grammarId": "n2-027",
           "baseExpression": "からすると",
@@ -283,7 +291,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-108-1-c",
+          "id": "fb-created-n2-108-01-c",
           "text": "からといって",
           "grammarId": "n2-028",
           "baseExpression": "からといって",
@@ -291,23 +299,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-108-1-d",
+          "id": "fb-created-n2-108-01-d",
           "text": "気味",
           "grammarId": "n2-029",
           "baseExpression": "気味",
           "conjugatedExpression": "気味",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-108-1-a",
-          "text": "に限って",
-          "grammarId": "n2-108",
-          "baseExpression": "に限って",
-          "conjugatedExpression": "に限って",
-          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '우산을 챙기지 않은 날에만 하필 퇴근 시간에 폭우가 내린다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
       "sourceGrammarIds": [
         "n2-108",
         "n2-027",
@@ -315,237 +315,20 @@
         "n2-029"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra-n2-108-2",
+      "id": "fb-created-n2-108-02",
       "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlank": "忙しい日（　　　）、急な用事が入る。",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
-      "answerChoiceId": "fb-extra-n2-108-2-d",
+      "sentence": "大切な商談に限って、担当者の声が出なくなった。",
+      "sentenceWithBlank": "大切な商談（　　　）、担当者の声が出なくなった。",
+      "korean": "중요한 상담 때만 하필 담당자의 목소리가 나오지 않게 되었다.",
+      "answerChoiceId": "fb-created-n2-108-02-a",
       "choices": [
         {
-          "id": "fb-extra-n2-108-2-c",
-          "text": "にもとづいて",
-          "grammarId": "n2-131",
-          "baseExpression": "にもとづいて",
-          "conjugatedExpression": "にもとづいて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-108-2-d",
-          "text": "に限って",
-          "grammarId": "n2-108",
-          "baseExpression": "に限って",
-          "conjugatedExpression": "に限って",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-108-2-a",
-          "text": "にほかならない",
-          "grammarId": "n2-129",
-          "baseExpression": "にほかならない",
-          "conjugatedExpression": "にほかならない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-108-2-b",
-          "text": "にもかかわらず",
-          "grammarId": "n2-130",
-          "baseExpression": "にもかかわらず",
-          "conjugatedExpression": "にもかかわらず",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
-      "sourceGrammarIds": [
-        "n2-108",
-        "n2-129",
-        "n2-130",
-        "n2-131"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-108-3",
-      "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlank": "忙しい日（　　　）、急な用事が入る。",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
-      "answerChoiceId": "fb-extra-n2-108-3-c",
-      "choices": [
-        {
-          "id": "fb-extra-n2-108-3-d",
-          "text": "の上で",
-          "grammarId": "n2-134",
-          "baseExpression": "の上で",
-          "conjugatedExpression": "の上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-108-3-a",
-          "text": "のことだから",
-          "grammarId": "n2-135",
-          "baseExpression": "のことだから",
-          "conjugatedExpression": "のことだから",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-108-3-b",
-          "text": "のみならず",
-          "grammarId": "n2-136",
-          "baseExpression": "のみならず",
-          "conjugatedExpression": "のみならず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-108-3-c",
-          "text": "に限って",
-          "grammarId": "n2-108",
-          "baseExpression": "に限って",
-          "conjugatedExpression": "に限って",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
-      "sourceGrammarIds": [
-        "n2-108",
-        "n2-134",
-        "n2-135",
-        "n2-136"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-108-4",
-      "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlank": "忙しい日（　　　）、急な用事が入る。",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
-      "answerChoiceId": "fb-extra-n2-108-4-b",
-      "choices": [
-        {
-          "id": "fb-extra-n2-108-4-a",
-          "text": "なんて",
-          "grammarId": "n2-104",
-          "baseExpression": "なんて/なんか/など",
-          "conjugatedExpression": "なんて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-108-4-b",
-          "text": "に限って",
-          "grammarId": "n2-108",
-          "baseExpression": "に限って",
-          "conjugatedExpression": "に限って",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-108-4-c",
-          "text": "ながら",
-          "grammarId": "n2-102",
-          "baseExpression": "ながら",
-          "conjugatedExpression": "ながら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-108-4-d",
-          "text": "なくもない",
-          "grammarId": "n2-103",
-          "baseExpression": "なくもない",
-          "conjugatedExpression": "なくもない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
-      "sourceGrammarIds": [
-        "n2-108",
-        "n2-102",
-        "n2-103",
-        "n2-104"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-108-5",
-      "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlank": "忙しい日（　　　）、急な用事が入る。",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
-      "answerChoiceId": "fb-extra-n2-108-5-a",
-      "choices": [
-        {
-          "id": "fb-extra-n2-108-5-b",
-          "text": "かねる",
-          "grammarId": "n2-023",
-          "baseExpression": "かねる",
-          "conjugatedExpression": "かねる",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-108-5-c",
-          "text": "かのように",
-          "grammarId": "n2-024",
-          "baseExpression": "かのように",
-          "conjugatedExpression": "かのように",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-108-5-d",
-          "text": "からいうと",
-          "grammarId": "n2-025",
-          "baseExpression": "からいうと",
-          "conjugatedExpression": "からいうと",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-108-5-a",
-          "text": "に限って",
-          "grammarId": "n2-108",
-          "baseExpression": "に限って",
-          "conjugatedExpression": "に限って",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
-      "sourceGrammarIds": [
-        "n2-108",
-        "n2-023",
-        "n2-024",
-        "n2-025"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-108-01",
-      "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlank": "忙しい日（　　　）、急な用事が入る。",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
-      "answerChoiceId": "fb-extra20-n2-108-01-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-108-01-b",
+          "id": "fb-created-n2-108-02-b",
           "text": "からすると",
           "grammarId": "n2-027",
           "baseExpression": "からすると",
@@ -553,7 +336,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-108-01-c",
+          "id": "fb-created-n2-108-02-c",
           "text": "からといって",
           "grammarId": "n2-028",
           "baseExpression": "からといって",
@@ -561,7 +344,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-108-01-d",
+          "id": "fb-created-n2-108-02-d",
           "text": "気味",
           "grammarId": "n2-029",
           "baseExpression": "気味",
@@ -569,7 +352,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-108-01-a",
+          "id": "fb-created-n2-108-02-a",
           "text": "に限って",
           "grammarId": "n2-108",
           "baseExpression": "に限って",
@@ -577,7 +360,7 @@
           "isSimilarDistractor": false
         }
       ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '중요한 상담 때만 하필 담당자의 목소리가 나오지 않게 되었다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
       "sourceGrammarIds": [
         "n2-108",
         "n2-027",
@@ -585,253 +368,20 @@
         "n2-029"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-108-02",
+      "id": "fb-created-n2-108-03",
       "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlank": "忙しい日（　　　）、急な用事が入る。",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
-      "answerChoiceId": "fb-extra20-n2-108-02-d",
+      "sentence": "早く眠りたい夜に限って、隣の犬がいつまでも鳴いている。",
+      "sentenceWithBlank": "早く眠りたい夜（　　　）、隣の犬がいつまでも鳴いている。",
+      "korean": "일찍 자고 싶은 밤에만 하필 옆집 개가 계속 짖고 있다.",
+      "answerChoiceId": "fb-created-n2-108-03-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-108-02-a",
-          "text": "にほかならない",
-          "grammarId": "n2-129",
-          "baseExpression": "にほかならない",
-          "conjugatedExpression": "にほかならない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-108-02-b",
-          "text": "にもかかわらず",
-          "grammarId": "n2-130",
-          "baseExpression": "にもかかわらず",
-          "conjugatedExpression": "にもかかわらず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-108-02-c",
-          "text": "にもとづいて",
-          "grammarId": "n2-131",
-          "baseExpression": "にもとづいて",
-          "conjugatedExpression": "にもとづいて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-108-02-d",
-          "text": "に限って",
-          "grammarId": "n2-108",
-          "baseExpression": "に限って",
-          "conjugatedExpression": "に限って",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
-      "sourceGrammarIds": [
-        "n2-108",
-        "n2-129",
-        "n2-130",
-        "n2-131"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-108-03",
-      "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlank": "忙しい日（　　　）、急な用事が入る。",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
-      "answerChoiceId": "fb-extra20-n2-108-03-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-108-03-d",
-          "text": "の上で",
-          "grammarId": "n2-134",
-          "baseExpression": "の上で",
-          "conjugatedExpression": "の上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-108-03-a",
-          "text": "のことだから",
-          "grammarId": "n2-135",
-          "baseExpression": "のことだから",
-          "conjugatedExpression": "のことだから",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-108-03-b",
-          "text": "のみならず",
-          "grammarId": "n2-136",
-          "baseExpression": "のみならず",
-          "conjugatedExpression": "のみならず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-108-03-c",
-          "text": "に限って",
-          "grammarId": "n2-108",
-          "baseExpression": "に限って",
-          "conjugatedExpression": "に限って",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
-      "sourceGrammarIds": [
-        "n2-108",
-        "n2-134",
-        "n2-135",
-        "n2-136"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-108-04",
-      "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlank": "忙しい日（　　　）、急な用事が入る。",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
-      "answerChoiceId": "fb-extra20-n2-108-04-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-108-04-c",
-          "text": "ながら",
-          "grammarId": "n2-102",
-          "baseExpression": "ながら",
-          "conjugatedExpression": "ながら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-108-04-d",
-          "text": "なくもない",
-          "grammarId": "n2-103",
-          "baseExpression": "なくもない",
-          "conjugatedExpression": "なくもない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-108-04-a",
-          "text": "なんて",
-          "grammarId": "n2-104",
-          "baseExpression": "なんて/なんか/など",
-          "conjugatedExpression": "なんて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-108-04-b",
-          "text": "に限って",
-          "grammarId": "n2-108",
-          "baseExpression": "に限って",
-          "conjugatedExpression": "に限って",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
-      "sourceGrammarIds": [
-        "n2-108",
-        "n2-102",
-        "n2-103",
-        "n2-104"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-108-05",
-      "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlank": "忙しい日（　　　）、急な用事が入る。",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
-      "answerChoiceId": "fb-extra20-n2-108-05-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-108-05-b",
-          "text": "かねる",
-          "grammarId": "n2-023",
-          "baseExpression": "かねる",
-          "conjugatedExpression": "かねる",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-108-05-c",
-          "text": "かのように",
-          "grammarId": "n2-024",
-          "baseExpression": "かのように",
-          "conjugatedExpression": "かのように",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-108-05-d",
-          "text": "からいうと",
-          "grammarId": "n2-025",
-          "baseExpression": "からいうと",
-          "conjugatedExpression": "からいうと",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-108-05-a",
-          "text": "に限って",
-          "grammarId": "n2-108",
-          "baseExpression": "に限って",
-          "conjugatedExpression": "に限って",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
-      "sourceGrammarIds": [
-        "n2-108",
-        "n2-023",
-        "n2-024",
-        "n2-025"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-108-06",
-      "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlank": "忙しい日（　　　）、急な用事が入る。",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
-      "answerChoiceId": "fb-extra20-n2-108-06-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-108-06-a",
-          "text": "に限って",
-          "grammarId": "n2-108",
-          "baseExpression": "に限って",
-          "conjugatedExpression": "に限って",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-108-06-b",
-          "text": "からすると",
-          "grammarId": "n2-027",
-          "baseExpression": "からすると",
-          "conjugatedExpression": "からすると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-108-06-c",
+          "id": "fb-created-n2-108-03-c",
           "text": "からといって",
           "grammarId": "n2-028",
           "baseExpression": "からといって",
@@ -839,253 +389,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-108-06-d",
-          "text": "気味",
-          "grammarId": "n2-029",
-          "baseExpression": "気味",
-          "conjugatedExpression": "気味",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
-      "sourceGrammarIds": [
-        "n2-108",
-        "n2-027",
-        "n2-028",
-        "n2-029"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-108-07",
-      "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlank": "忙しい日（　　　）、急な用事が入る。",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
-      "answerChoiceId": "fb-extra20-n2-108-07-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-108-07-d",
-          "text": "に限って",
-          "grammarId": "n2-108",
-          "baseExpression": "に限って",
-          "conjugatedExpression": "に限って",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-108-07-a",
-          "text": "にほかならない",
-          "grammarId": "n2-129",
-          "baseExpression": "にほかならない",
-          "conjugatedExpression": "にほかならない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-108-07-b",
-          "text": "にもかかわらず",
-          "grammarId": "n2-130",
-          "baseExpression": "にもかかわらず",
-          "conjugatedExpression": "にもかかわらず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-108-07-c",
-          "text": "にもとづいて",
-          "grammarId": "n2-131",
-          "baseExpression": "にもとづいて",
-          "conjugatedExpression": "にもとづいて",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
-      "sourceGrammarIds": [
-        "n2-108",
-        "n2-129",
-        "n2-130",
-        "n2-131"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-108-08",
-      "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlank": "忙しい日（　　　）、急な用事が入る。",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
-      "answerChoiceId": "fb-extra20-n2-108-08-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-108-08-c",
-          "text": "に限って",
-          "grammarId": "n2-108",
-          "baseExpression": "に限って",
-          "conjugatedExpression": "に限って",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-108-08-d",
-          "text": "の上で",
-          "grammarId": "n2-134",
-          "baseExpression": "の上で",
-          "conjugatedExpression": "の上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-108-08-a",
-          "text": "のことだから",
-          "grammarId": "n2-135",
-          "baseExpression": "のことだから",
-          "conjugatedExpression": "のことだから",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-108-08-b",
-          "text": "のみならず",
-          "grammarId": "n2-136",
-          "baseExpression": "のみならず",
-          "conjugatedExpression": "のみならず",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
-      "sourceGrammarIds": [
-        "n2-108",
-        "n2-134",
-        "n2-135",
-        "n2-136"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-108-09",
-      "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlank": "忙しい日（　　　）、急な用事が入る。",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
-      "answerChoiceId": "fb-extra20-n2-108-09-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-108-09-b",
-          "text": "に限って",
-          "grammarId": "n2-108",
-          "baseExpression": "に限って",
-          "conjugatedExpression": "に限って",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-108-09-c",
-          "text": "ながら",
-          "grammarId": "n2-102",
-          "baseExpression": "ながら",
-          "conjugatedExpression": "ながら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-108-09-d",
-          "text": "なくもない",
-          "grammarId": "n2-103",
-          "baseExpression": "なくもない",
-          "conjugatedExpression": "なくもない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-108-09-a",
-          "text": "なんて",
-          "grammarId": "n2-104",
-          "baseExpression": "なんて/なんか/など",
-          "conjugatedExpression": "なんて",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
-      "sourceGrammarIds": [
-        "n2-108",
-        "n2-102",
-        "n2-103",
-        "n2-104"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-108-10",
-      "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlank": "忙しい日（　　　）、急な用事が入る。",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
-      "answerChoiceId": "fb-extra20-n2-108-10-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-108-10-a",
-          "text": "に限って",
-          "grammarId": "n2-108",
-          "baseExpression": "に限って",
-          "conjugatedExpression": "に限って",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-108-10-b",
-          "text": "かねる",
-          "grammarId": "n2-023",
-          "baseExpression": "かねる",
-          "conjugatedExpression": "かねる",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-108-10-c",
-          "text": "かのように",
-          "grammarId": "n2-024",
-          "baseExpression": "かのように",
-          "conjugatedExpression": "かのように",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-108-10-d",
-          "text": "からいうと",
-          "grammarId": "n2-025",
-          "baseExpression": "からいうと",
-          "conjugatedExpression": "からいうと",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
-      "sourceGrammarIds": [
-        "n2-108",
-        "n2-023",
-        "n2-024",
-        "n2-025"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-108-11",
-      "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlank": "忙しい日（　　　）、急な用事が入る。",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
-      "answerChoiceId": "fb-extra20-n2-108-11-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-108-11-d",
+          "id": "fb-created-n2-108-03-d",
           "text": "気味",
           "grammarId": "n2-029",
           "baseExpression": "気味",
@@ -1093,7 +397,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-108-11-a",
+          "id": "fb-created-n2-108-03-a",
           "text": "に限って",
           "grammarId": "n2-108",
           "baseExpression": "に限って",
@@ -1101,285 +405,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-108-11-b",
-          "text": "からすると",
-          "grammarId": "n2-027",
-          "baseExpression": "からすると",
-          "conjugatedExpression": "からすると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-108-11-c",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
-      "sourceGrammarIds": [
-        "n2-108",
-        "n2-027",
-        "n2-028",
-        "n2-029"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-108-12",
-      "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlank": "忙しい日（　　　）、急な用事が入る。",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
-      "answerChoiceId": "fb-extra20-n2-108-12-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-108-12-c",
-          "text": "にもとづいて",
-          "grammarId": "n2-131",
-          "baseExpression": "にもとづいて",
-          "conjugatedExpression": "にもとづいて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-108-12-d",
-          "text": "に限って",
-          "grammarId": "n2-108",
-          "baseExpression": "に限って",
-          "conjugatedExpression": "に限って",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-108-12-a",
-          "text": "にほかならない",
-          "grammarId": "n2-129",
-          "baseExpression": "にほかならない",
-          "conjugatedExpression": "にほかならない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-108-12-b",
-          "text": "にもかかわらず",
-          "grammarId": "n2-130",
-          "baseExpression": "にもかかわらず",
-          "conjugatedExpression": "にもかかわらず",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
-      "sourceGrammarIds": [
-        "n2-108",
-        "n2-129",
-        "n2-130",
-        "n2-131"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-108-13",
-      "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlank": "忙しい日（　　　）、急な用事が入る。",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
-      "answerChoiceId": "fb-extra20-n2-108-13-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-108-13-b",
-          "text": "のみならず",
-          "grammarId": "n2-136",
-          "baseExpression": "のみならず",
-          "conjugatedExpression": "のみならず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-108-13-c",
-          "text": "に限って",
-          "grammarId": "n2-108",
-          "baseExpression": "に限って",
-          "conjugatedExpression": "に限って",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-108-13-d",
-          "text": "の上で",
-          "grammarId": "n2-134",
-          "baseExpression": "の上で",
-          "conjugatedExpression": "の上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-108-13-a",
-          "text": "のことだから",
-          "grammarId": "n2-135",
-          "baseExpression": "のことだから",
-          "conjugatedExpression": "のことだから",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
-      "sourceGrammarIds": [
-        "n2-108",
-        "n2-134",
-        "n2-135",
-        "n2-136"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-108-14",
-      "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlank": "忙しい日（　　　）、急な用事が入る。",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
-      "answerChoiceId": "fb-extra20-n2-108-14-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-108-14-a",
-          "text": "なんて",
-          "grammarId": "n2-104",
-          "baseExpression": "なんて/なんか/など",
-          "conjugatedExpression": "なんて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-108-14-b",
-          "text": "に限って",
-          "grammarId": "n2-108",
-          "baseExpression": "に限って",
-          "conjugatedExpression": "に限って",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-108-14-c",
-          "text": "ながら",
-          "grammarId": "n2-102",
-          "baseExpression": "ながら",
-          "conjugatedExpression": "ながら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-108-14-d",
-          "text": "なくもない",
-          "grammarId": "n2-103",
-          "baseExpression": "なくもない",
-          "conjugatedExpression": "なくもない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
-      "sourceGrammarIds": [
-        "n2-108",
-        "n2-102",
-        "n2-103",
-        "n2-104"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-108-15",
-      "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlank": "忙しい日（　　　）、急な用事が入る。",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
-      "answerChoiceId": "fb-extra20-n2-108-15-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-108-15-d",
-          "text": "からいうと",
-          "grammarId": "n2-025",
-          "baseExpression": "からいうと",
-          "conjugatedExpression": "からいうと",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-108-15-a",
-          "text": "に限って",
-          "grammarId": "n2-108",
-          "baseExpression": "に限って",
-          "conjugatedExpression": "に限って",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-108-15-b",
-          "text": "かねる",
-          "grammarId": "n2-023",
-          "baseExpression": "かねる",
-          "conjugatedExpression": "かねる",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-108-15-c",
-          "text": "かのように",
-          "grammarId": "n2-024",
-          "baseExpression": "かのように",
-          "conjugatedExpression": "かのように",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
-      "sourceGrammarIds": [
-        "n2-108",
-        "n2-023",
-        "n2-024",
-        "n2-025"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-108-16",
-      "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlank": "忙しい日（　　　）、急な用事が入る。",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
-      "answerChoiceId": "fb-extra20-n2-108-16-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-108-16-c",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-108-16-d",
-          "text": "気味",
-          "grammarId": "n2-029",
-          "baseExpression": "気味",
-          "conjugatedExpression": "気味",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-108-16-a",
-          "text": "に限って",
-          "grammarId": "n2-108",
-          "baseExpression": "に限って",
-          "conjugatedExpression": "に限って",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-108-16-b",
+          "id": "fb-created-n2-108-03-b",
           "text": "からすると",
           "grammarId": "n2-027",
           "baseExpression": "からすると",
@@ -1387,7 +413,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '일찍 자고 싶은 밤에만 하필 옆집 개가 계속 짖고 있다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
       "sourceGrammarIds": [
         "n2-108",
         "n2-027",
@@ -1395,37 +421,28 @@
         "n2-029"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-108-17",
+      "id": "fb-created-n2-108-04",
       "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlank": "忙しい日（　　　）、急な用事が入る。",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
-      "answerChoiceId": "fb-extra20-n2-108-17-d",
+      "sentence": "予算を抑えたい月に限って、冷蔵庫まで故障した。",
+      "sentenceWithBlank": "予算を抑えたい月（　　　）、冷蔵庫まで故障した。",
+      "korean": "지출을 줄이고 싶은 달에만 하필 냉장고까지 고장 났다.",
+      "answerChoiceId": "fb-created-n2-108-04-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-108-17-b",
-          "text": "にもかかわらず",
-          "grammarId": "n2-130",
-          "baseExpression": "にもかかわらず",
-          "conjugatedExpression": "にもかかわらず",
+          "id": "fb-created-n2-108-04-d",
+          "text": "気味",
+          "grammarId": "n2-029",
+          "baseExpression": "気味",
+          "conjugatedExpression": "気味",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-108-17-c",
-          "text": "にもとづいて",
-          "grammarId": "n2-131",
-          "baseExpression": "にもとづいて",
-          "conjugatedExpression": "にもとづいて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-108-17-d",
+          "id": "fb-created-n2-108-04-a",
           "text": "に限って",
           "grammarId": "n2-108",
           "baseExpression": "に限って",
@@ -1433,53 +450,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-108-17-a",
-          "text": "にほかならない",
-          "grammarId": "n2-129",
-          "baseExpression": "にほかならない",
-          "conjugatedExpression": "にほかならない",
+          "id": "fb-created-n2-108-04-b",
+          "text": "からすると",
+          "grammarId": "n2-027",
+          "baseExpression": "からすると",
+          "conjugatedExpression": "からすると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-108-04-c",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '지출을 줄이고 싶은 달에만 하필 냉장고까지 고장 났다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
       "sourceGrammarIds": [
         "n2-108",
-        "n2-129",
-        "n2-130",
-        "n2-131"
+        "n2-027",
+        "n2-028",
+        "n2-029"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-108-18",
+      "id": "fb-created-n2-108-05",
       "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlank": "忙しい日（　　　）、急な用事が入る。",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
-      "answerChoiceId": "fb-extra20-n2-108-18-c",
+      "sentence": "家族写真を撮る日に限って、息子は泥だらけで帰ってくる。",
+      "sentenceWithBlank": "家族写真を撮る日（　　　）、息子は泥だらけで帰ってくる。",
+      "korean": "가족사진을 찍는 날만 되면 하필 아들이 진흙투성이로 돌아온다.",
+      "answerChoiceId": "fb-created-n2-108-05-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-108-18-a",
-          "text": "のことだから",
-          "grammarId": "n2-135",
-          "baseExpression": "のことだから",
-          "conjugatedExpression": "のことだから",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-108-18-b",
-          "text": "のみならず",
-          "grammarId": "n2-136",
-          "baseExpression": "のみならず",
-          "conjugatedExpression": "のみならず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-108-18-c",
+          "id": "fb-created-n2-108-05-a",
           "text": "に限って",
           "grammarId": "n2-108",
           "baseExpression": "に限って",
@@ -1487,53 +495,121 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-108-18-d",
-          "text": "の上で",
-          "grammarId": "n2-134",
-          "baseExpression": "の上で",
-          "conjugatedExpression": "の上で",
+          "id": "fb-created-n2-108-05-b",
+          "text": "からすると",
+          "grammarId": "n2-027",
+          "baseExpression": "からすると",
+          "conjugatedExpression": "からすると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-108-05-c",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-108-05-d",
+          "text": "気味",
+          "grammarId": "n2-029",
+          "baseExpression": "気味",
+          "conjugatedExpression": "気味",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '가족사진을 찍는 날만 되면 하필 아들이 진흙투성이로 돌아온다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
       "sourceGrammarIds": [
         "n2-108",
-        "n2-134",
-        "n2-135",
-        "n2-136"
+        "n2-027",
+        "n2-028",
+        "n2-029"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-108-19",
+      "id": "fb-created-n2-108-06",
       "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlank": "忙しい日（　　　）、急な用事が入る。",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
-      "answerChoiceId": "fb-extra20-n2-108-19-b",
+      "sentence": "重要な荷物に限って、配送先の住所が間違っていた。",
+      "sentenceWithBlank": "重要な荷物（　　　）、配送先の住所が間違っていた。",
+      "korean": "중요한 짐에 한해서 하필 배송지 주소가 잘못되어 있었다.",
+      "answerChoiceId": "fb-created-n2-108-06-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-108-19-d",
-          "text": "なくもない",
-          "grammarId": "n2-103",
-          "baseExpression": "なくもない",
-          "conjugatedExpression": "なくもない",
+          "id": "fb-created-n2-108-06-b",
+          "text": "からすると",
+          "grammarId": "n2-027",
+          "baseExpression": "からすると",
+          "conjugatedExpression": "からすると",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-108-19-a",
-          "text": "なんて",
-          "grammarId": "n2-104",
-          "baseExpression": "なんて/なんか/など",
-          "conjugatedExpression": "なんて",
+          "id": "fb-created-n2-108-06-c",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-108-19-b",
+          "id": "fb-created-n2-108-06-d",
+          "text": "気味",
+          "grammarId": "n2-029",
+          "baseExpression": "気味",
+          "conjugatedExpression": "気味",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-108-06-a",
+          "text": "に限って",
+          "grammarId": "n2-108",
+          "baseExpression": "に限って",
+          "conjugatedExpression": "に限って",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '중요한 짐에 한해서 하필 배송지 주소가 잘못되어 있었다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
+      "sourceGrammarIds": [
+        "n2-108",
+        "n2-027",
+        "n2-028",
+        "n2-029"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-108-07",
+      "level": "N2",
+      "sentence": "予約が満席の週末に限って、キャンセルの問い合わせが相次ぐ。",
+      "sentenceWithBlank": "予約が満席の週末（　　　）、キャンセルの問い合わせが相次ぐ。",
+      "korean": "예약이 꽉 찬 주말에만 하필 취소 문의가 잇따른다.",
+      "answerChoiceId": "fb-created-n2-108-07-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-108-07-c",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-108-07-d",
+          "text": "気味",
+          "grammarId": "n2-029",
+          "baseExpression": "気味",
+          "conjugatedExpression": "気味",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-108-07-a",
           "text": "に限って",
           "grammarId": "n2-108",
           "baseExpression": "に限って",
@@ -1541,53 +617,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-108-19-c",
-          "text": "ながら",
-          "grammarId": "n2-102",
-          "baseExpression": "ながら",
-          "conjugatedExpression": "ながら",
+          "id": "fb-created-n2-108-07-b",
+          "text": "からすると",
+          "grammarId": "n2-027",
+          "baseExpression": "からすると",
+          "conjugatedExpression": "からすると",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '예약이 꽉 찬 주말에만 하필 취소 문의가 잇따른다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
       "sourceGrammarIds": [
         "n2-108",
-        "n2-102",
-        "n2-103",
-        "n2-104"
+        "n2-027",
+        "n2-028",
+        "n2-029"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-108-20",
+      "id": "fb-created-n2-108-08",
       "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlank": "忙しい日（　　　）、急な用事が入る。",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
-      "answerChoiceId": "fb-extra20-n2-108-20-a",
+      "sentence": "急いでいる朝に限って、玄関の鍵がなかなか見つからない。",
+      "sentenceWithBlank": "急いでいる朝（　　　）、玄関の鍵がなかなか見つからない。",
+      "korean": "서두르는 아침에만 하필 현관 열쇠가 좀처럼 보이지 않는다.",
+      "answerChoiceId": "fb-created-n2-108-08-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-108-20-c",
-          "text": "かのように",
-          "grammarId": "n2-024",
-          "baseExpression": "かのように",
-          "conjugatedExpression": "かのように",
+          "id": "fb-created-n2-108-08-d",
+          "text": "気味",
+          "grammarId": "n2-029",
+          "baseExpression": "気味",
+          "conjugatedExpression": "気味",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-108-20-d",
-          "text": "からいうと",
-          "grammarId": "n2-025",
-          "baseExpression": "からいうと",
-          "conjugatedExpression": "からいうと",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-108-20-a",
+          "id": "fb-created-n2-108-08-a",
           "text": "に限って",
           "grammarId": "n2-108",
           "baseExpression": "に限って",
@@ -1595,25 +662,933 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-108-20-b",
-          "text": "かねる",
-          "grammarId": "n2-023",
-          "baseExpression": "かねる",
-          "conjugatedExpression": "かねる",
+          "id": "fb-created-n2-108-08-b",
+          "text": "からすると",
+          "grammarId": "n2-027",
+          "baseExpression": "からすると",
+          "conjugatedExpression": "からすると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-108-08-c",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '서두르는 아침에만 하필 현관 열쇠가 좀처럼 보이지 않는다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
       "sourceGrammarIds": [
         "n2-108",
-        "n2-023",
-        "n2-024",
-        "n2-025"
+        "n2-027",
+        "n2-028",
+        "n2-029"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-108-09",
+      "level": "N2",
+      "sentence": "海外からの客を迎える日に限って、空港行きの電車が止まった。",
+      "sentenceWithBlank": "海外からの客を迎える日（　　　）、空港行きの電車が止まった。",
+      "korean": "해외 손님을 맞이하는 날에만 하필 공항행 전철이 멈췄다.",
+      "answerChoiceId": "fb-created-n2-108-09-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-108-09-a",
+          "text": "に限って",
+          "grammarId": "n2-108",
+          "baseExpression": "に限って",
+          "conjugatedExpression": "に限って",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-108-09-b",
+          "text": "からすると",
+          "grammarId": "n2-027",
+          "baseExpression": "からすると",
+          "conjugatedExpression": "からすると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-108-09-c",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-108-09-d",
+          "text": "気味",
+          "grammarId": "n2-029",
+          "baseExpression": "気味",
+          "conjugatedExpression": "気味",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '해외 손님을 맞이하는 날에만 하필 공항행 전철이 멈췄다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
+      "sourceGrammarIds": [
+        "n2-108",
+        "n2-027",
+        "n2-028",
+        "n2-029"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-108-10",
+      "level": "N2",
+      "sentence": "自信のあった企画に限って、取締役会で採用されなかった。",
+      "sentenceWithBlank": "自信のあった企画（　　　）、取締役会で採用されなかった。",
+      "korean": "자신 있던 기획만 하필 이사회에서 채택되지 않았다.",
+      "answerChoiceId": "fb-created-n2-108-10-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-108-10-b",
+          "text": "からすると",
+          "grammarId": "n2-027",
+          "baseExpression": "からすると",
+          "conjugatedExpression": "からすると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-108-10-c",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-108-10-d",
+          "text": "気味",
+          "grammarId": "n2-029",
+          "baseExpression": "気味",
+          "conjugatedExpression": "気味",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-108-10-a",
+          "text": "に限って",
+          "grammarId": "n2-108",
+          "baseExpression": "に限って",
+          "conjugatedExpression": "に限って",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '자신 있던 기획만 하필 이사회에서 채택되지 않았다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
+      "sourceGrammarIds": [
+        "n2-108",
+        "n2-027",
+        "n2-028",
+        "n2-029"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-108-11",
+      "level": "N2",
+      "sentence": "洗車した翌日に限って、鳥に車を汚される。",
+      "sentenceWithBlank": "洗車した翌日（　　　）、鳥に車を汚される。",
+      "korean": "세차한 다음 날만 되면 하필 새 때문에 차가 더러워진다.",
+      "answerChoiceId": "fb-created-n2-108-11-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-108-11-c",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-108-11-d",
+          "text": "気味",
+          "grammarId": "n2-029",
+          "baseExpression": "気味",
+          "conjugatedExpression": "気味",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-108-11-a",
+          "text": "に限って",
+          "grammarId": "n2-108",
+          "baseExpression": "に限って",
+          "conjugatedExpression": "に限って",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-108-11-b",
+          "text": "からすると",
+          "grammarId": "n2-027",
+          "baseExpression": "からすると",
+          "conjugatedExpression": "からすると",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '세차한 다음 날만 되면 하필 새 때문에 차가 더러워진다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
+      "sourceGrammarIds": [
+        "n2-108",
+        "n2-027",
+        "n2-028",
+        "n2-029"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-108-12",
+      "level": "N2",
+      "sentence": "満開の桜を見に行く日に限って、強い風が吹き荒れる。",
+      "sentenceWithBlank": "満開の桜を見に行く日（　　　）、強い風が吹き荒れる。",
+      "korean": "활짝 핀 벚꽃을 보러 가는 날만 되면 하필 강풍이 몰아친다.",
+      "answerChoiceId": "fb-created-n2-108-12-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-108-12-d",
+          "text": "気味",
+          "grammarId": "n2-029",
+          "baseExpression": "気味",
+          "conjugatedExpression": "気味",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-108-12-a",
+          "text": "に限って",
+          "grammarId": "n2-108",
+          "baseExpression": "に限って",
+          "conjugatedExpression": "に限って",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-108-12-b",
+          "text": "からすると",
+          "grammarId": "n2-027",
+          "baseExpression": "からすると",
+          "conjugatedExpression": "からすると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-108-12-c",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '활짝 핀 벚꽃을 보러 가는 날만 되면 하필 강풍이 몰아친다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
+      "sourceGrammarIds": [
+        "n2-108",
+        "n2-027",
+        "n2-028",
+        "n2-029"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-108-13",
+      "level": "N2",
+      "sentence": "患者が集中する時間帯に限って、受付の端末が動かなくなる。",
+      "sentenceWithBlank": "患者が集中する時間帯（　　　）、受付の端末が動かなくなる。",
+      "korean": "환자가 몰리는 시간대에만 하필 접수 단말기가 작동하지 않게 된다.",
+      "answerChoiceId": "fb-created-n2-108-13-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-108-13-a",
+          "text": "に限って",
+          "grammarId": "n2-108",
+          "baseExpression": "に限って",
+          "conjugatedExpression": "に限って",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-108-13-b",
+          "text": "からすると",
+          "grammarId": "n2-027",
+          "baseExpression": "からすると",
+          "conjugatedExpression": "からすると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-108-13-c",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-108-13-d",
+          "text": "気味",
+          "grammarId": "n2-029",
+          "baseExpression": "気味",
+          "conjugatedExpression": "気味",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '환자가 몰리는 시간대에만 하필 접수 단말기가 작동하지 않게 된다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
+      "sourceGrammarIds": [
+        "n2-108",
+        "n2-027",
+        "n2-028",
+        "n2-029"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-108-14",
+      "level": "N2",
+      "sentence": "残業できない日に限って、工場の機械に異常が見つかる。",
+      "sentenceWithBlank": "残業できない日（　　　）、工場の機械に異常が見つかる。",
+      "korean": "야근할 수 없는 날에만 하필 공장 기계에서 이상이 발견된다.",
+      "answerChoiceId": "fb-created-n2-108-14-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-108-14-b",
+          "text": "からすると",
+          "grammarId": "n2-027",
+          "baseExpression": "からすると",
+          "conjugatedExpression": "からすると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-108-14-c",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-108-14-d",
+          "text": "気味",
+          "grammarId": "n2-029",
+          "baseExpression": "気味",
+          "conjugatedExpression": "気味",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-108-14-a",
+          "text": "に限って",
+          "grammarId": "n2-108",
+          "baseExpression": "に限って",
+          "conjugatedExpression": "に限って",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '야근할 수 없는 날에만 하필 공장 기계에서 이상이 발견된다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
+      "sourceGrammarIds": [
+        "n2-108",
+        "n2-027",
+        "n2-028",
+        "n2-029"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-108-15",
+      "level": "N2",
+      "sentence": "静かな席を選んだ時に限って、近くで工事が始まる。",
+      "sentenceWithBlank": "静かな席を選んだ時（　　　）、近くで工事が始まる。",
+      "korean": "조용한 자리를 골랐을 때만 하필 근처에서 공사가 시작된다.",
+      "answerChoiceId": "fb-created-n2-108-15-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-108-15-c",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-108-15-d",
+          "text": "気味",
+          "grammarId": "n2-029",
+          "baseExpression": "気味",
+          "conjugatedExpression": "気味",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-108-15-a",
+          "text": "に限って",
+          "grammarId": "n2-108",
+          "baseExpression": "に限って",
+          "conjugatedExpression": "に限って",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-108-15-b",
+          "text": "からすると",
+          "grammarId": "n2-027",
+          "baseExpression": "からすると",
+          "conjugatedExpression": "からすると",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '조용한 자리를 골랐을 때만 하필 근처에서 공사가 시작된다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
+      "sourceGrammarIds": [
+        "n2-108",
+        "n2-027",
+        "n2-028",
+        "n2-029"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-108-16",
+      "level": "N2",
+      "sentence": "妻の誕生日に限って、夫は出張先から戻れなかった。",
+      "sentenceWithBlank": "妻の誕生日（　　　）、夫は出張先から戻れなかった。",
+      "korean": "아내의 생일에만 하필 남편은 출장지에서 돌아오지 못했다.",
+      "answerChoiceId": "fb-created-n2-108-16-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-108-16-d",
+          "text": "気味",
+          "grammarId": "n2-029",
+          "baseExpression": "気味",
+          "conjugatedExpression": "気味",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-108-16-a",
+          "text": "に限って",
+          "grammarId": "n2-108",
+          "baseExpression": "に限って",
+          "conjugatedExpression": "に限って",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-108-16-b",
+          "text": "からすると",
+          "grammarId": "n2-027",
+          "baseExpression": "からすると",
+          "conjugatedExpression": "からすると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-108-16-c",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '아내의 생일에만 하필 남편은 출장지에서 돌아오지 못했다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
+      "sourceGrammarIds": [
+        "n2-108",
+        "n2-027",
+        "n2-028",
+        "n2-029"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-108-17",
+      "level": "N2",
+      "sentence": "希少な魚を仕入れた日に限って、店の予約が一件もない。",
+      "sentenceWithBlank": "希少な魚を仕入れた日（　　　）、店の予約が一件もない。",
+      "korean": "희귀한 생선을 들여온 날에만 하필 가게 예약이 한 건도 없다.",
+      "answerChoiceId": "fb-created-n2-108-17-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-108-17-a",
+          "text": "に限って",
+          "grammarId": "n2-108",
+          "baseExpression": "に限って",
+          "conjugatedExpression": "に限って",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-108-17-b",
+          "text": "からすると",
+          "grammarId": "n2-027",
+          "baseExpression": "からすると",
+          "conjugatedExpression": "からすると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-108-17-c",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-108-17-d",
+          "text": "気味",
+          "grammarId": "n2-029",
+          "baseExpression": "気味",
+          "conjugatedExpression": "気味",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '희귀한 생선을 들여온 날에만 하필 가게 예약이 한 건도 없다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
+      "sourceGrammarIds": [
+        "n2-108",
+        "n2-027",
+        "n2-028",
+        "n2-029"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-108-18",
+      "level": "N2",
+      "sentence": "出港を急ぐ朝に限って、港が深い霧に包まれる。",
+      "sentenceWithBlank": "出港を急ぐ朝（　　　）、港が深い霧に包まれる。",
+      "korean": "출항을 서두르는 아침에만 하필 항구가 짙은 안개에 휩싸인다.",
+      "answerChoiceId": "fb-created-n2-108-18-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-108-18-b",
+          "text": "からすると",
+          "grammarId": "n2-027",
+          "baseExpression": "からすると",
+          "conjugatedExpression": "からすると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-108-18-c",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-108-18-d",
+          "text": "気味",
+          "grammarId": "n2-029",
+          "baseExpression": "気味",
+          "conjugatedExpression": "気味",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-108-18-a",
+          "text": "に限って",
+          "grammarId": "n2-108",
+          "baseExpression": "に限って",
+          "conjugatedExpression": "に限って",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '출항을 서두르는 아침에만 하필 항구가 짙은 안개에 휩싸인다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
+      "sourceGrammarIds": [
+        "n2-108",
+        "n2-027",
+        "n2-028",
+        "n2-029"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-108-19",
+      "level": "N2",
+      "sentence": "お気に入りの服に限って、食事中にソースをこぼしてしまう。",
+      "sentenceWithBlank": "お気に入りの服（　　　）、食事中にソースをこぼしてしまう。",
+      "korean": "아끼는 옷에만 하필 식사 중에 소스를 쏟고 만다.",
+      "answerChoiceId": "fb-created-n2-108-19-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-108-19-c",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-108-19-d",
+          "text": "気味",
+          "grammarId": "n2-029",
+          "baseExpression": "気味",
+          "conjugatedExpression": "気味",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-108-19-a",
+          "text": "に限って",
+          "grammarId": "n2-108",
+          "baseExpression": "に限って",
+          "conjugatedExpression": "に限って",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-108-19-b",
+          "text": "からすると",
+          "grammarId": "n2-027",
+          "baseExpression": "からすると",
+          "conjugatedExpression": "からすると",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '아끼는 옷에만 하필 식사 중에 소스를 쏟고 만다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
+      "sourceGrammarIds": [
+        "n2-108",
+        "n2-027",
+        "n2-028",
+        "n2-029"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-108-20",
+      "level": "N2",
+      "sentence": "締め切り直前の案件に限って、依頼主から大幅な修正を求められる。",
+      "sentenceWithBlank": "締め切り直前の案件（　　　）、依頼主から大幅な修正を求められる。",
+      "korean": "마감 직전인 안건에만 하필 의뢰인으로부터 대폭적인 수정을 요구받는다.",
+      "answerChoiceId": "fb-created-n2-108-20-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-108-20-d",
+          "text": "気味",
+          "grammarId": "n2-029",
+          "baseExpression": "気味",
+          "conjugatedExpression": "気味",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-108-20-a",
+          "text": "に限って",
+          "grammarId": "n2-108",
+          "baseExpression": "に限って",
+          "conjugatedExpression": "に限って",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-108-20-b",
+          "text": "からすると",
+          "grammarId": "n2-027",
+          "baseExpression": "からすると",
+          "conjugatedExpression": "からすると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-108-20-c",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '마감 직전인 안건에만 하필 의뢰인으로부터 대폭적인 수정을 요구받는다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
+      "sourceGrammarIds": [
+        "n2-108",
+        "n2-027",
+        "n2-028",
+        "n2-029"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-108-21",
+      "level": "N2",
+      "sentence": "祖母が楽しみにしていた旅行に限って、台風で中止になった。",
+      "sentenceWithBlank": "祖母が楽しみにしていた旅行（　　　）、台風で中止になった。",
+      "korean": "할머니가 기대하던 여행만 하필 태풍으로 취소되었다.",
+      "answerChoiceId": "fb-created-n2-108-21-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-108-21-a",
+          "text": "に限って",
+          "grammarId": "n2-108",
+          "baseExpression": "に限って",
+          "conjugatedExpression": "に限って",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-108-21-b",
+          "text": "からすると",
+          "grammarId": "n2-027",
+          "baseExpression": "からすると",
+          "conjugatedExpression": "からすると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-108-21-c",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-108-21-d",
+          "text": "気味",
+          "grammarId": "n2-029",
+          "baseExpression": "気味",
+          "conjugatedExpression": "気味",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '할머니가 기대하던 여행만 하필 태풍으로 취소되었다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
+      "sourceGrammarIds": [
+        "n2-108",
+        "n2-027",
+        "n2-028",
+        "n2-029"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-108-22",
+      "level": "N2",
+      "sentence": "財布に現金がない時に限って、店のカード決済が利用できない。",
+      "sentenceWithBlank": "財布に現金がない時（　　　）、店のカード決済が利用できない。",
+      "korean": "지갑에 현금이 없을 때만 하필 가게의 카드 결제를 이용할 수 없다.",
+      "answerChoiceId": "fb-created-n2-108-22-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-108-22-b",
+          "text": "からすると",
+          "grammarId": "n2-027",
+          "baseExpression": "からすると",
+          "conjugatedExpression": "からすると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-108-22-c",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-108-22-d",
+          "text": "気味",
+          "grammarId": "n2-029",
+          "baseExpression": "気味",
+          "conjugatedExpression": "気味",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-108-22-a",
+          "text": "に限って",
+          "grammarId": "n2-108",
+          "baseExpression": "に限って",
+          "conjugatedExpression": "に限って",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '지갑에 현금이 없을 때만 하필 가게의 카드 결제를 이용할 수 없다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
+      "sourceGrammarIds": [
+        "n2-108",
+        "n2-027",
+        "n2-028",
+        "n2-029"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-108-23",
+      "level": "N2",
+      "sentence": "応援している選手の試合に限って、通信が途中で切れてしまった。",
+      "sentenceWithBlank": "応援している選手の試合（　　　）、通信が途中で切れてしまった。",
+      "korean": "응원하는 선수의 경기만 하필 통신이 도중에 끊기고 말았다.",
+      "answerChoiceId": "fb-created-n2-108-23-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-108-23-c",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-108-23-d",
+          "text": "気味",
+          "grammarId": "n2-029",
+          "baseExpression": "気味",
+          "conjugatedExpression": "気味",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-108-23-a",
+          "text": "に限って",
+          "grammarId": "n2-108",
+          "baseExpression": "に限って",
+          "conjugatedExpression": "に限って",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-108-23-b",
+          "text": "からすると",
+          "grammarId": "n2-027",
+          "baseExpression": "からすると",
+          "conjugatedExpression": "からすると",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '응원하는 선수의 경기만 하필 통신이 도중에 끊기고 말았다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
+      "sourceGrammarIds": [
+        "n2-108",
+        "n2-027",
+        "n2-028",
+        "n2-029"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-108-24",
+      "level": "N2",
+      "sentence": "人手が足りない収穫期に限って、農場のトラックが使えなくなった。",
+      "sentenceWithBlank": "人手が足りない収穫期（　　　）、農場のトラックが使えなくなった。",
+      "korean": "일손이 부족한 수확기에만 하필 농장의 트럭을 사용할 수 없게 되었다.",
+      "answerChoiceId": "fb-created-n2-108-24-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-108-24-d",
+          "text": "気味",
+          "grammarId": "n2-029",
+          "baseExpression": "気味",
+          "conjugatedExpression": "気味",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-108-24-a",
+          "text": "に限って",
+          "grammarId": "n2-108",
+          "baseExpression": "に限って",
+          "conjugatedExpression": "に限って",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-108-24-b",
+          "text": "からすると",
+          "grammarId": "n2-027",
+          "baseExpression": "からすると",
+          "conjugatedExpression": "からすると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-108-24-c",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '일손이 부족한 수확기에만 하필 농장의 트럭을 사용할 수 없게 되었다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
+      "sourceGrammarIds": [
+        "n2-108",
+        "n2-027",
+        "n2-028",
+        "n2-029"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-108-25",
+      "level": "N2",
+      "sentence": "子どもを早く迎えに行く日に限って、道路が事故で渋滞する。",
+      "sentenceWithBlank": "子どもを早く迎えに行く日（　　　）、道路が事故で渋滞する。",
+      "korean": "아이를 일찍 데리러 가는 날에만 하필 도로가 사고로 막힌다.",
+      "answerChoiceId": "fb-created-n2-108-25-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-108-25-a",
+          "text": "に限って",
+          "grammarId": "n2-108",
+          "baseExpression": "に限って",
+          "conjugatedExpression": "に限って",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-108-25-b",
+          "text": "からすると",
+          "grammarId": "n2-027",
+          "baseExpression": "からすると",
+          "conjugatedExpression": "からすると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-108-25-c",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-108-25-d",
+          "text": "気味",
+          "grammarId": "n2-029",
+          "baseExpression": "気味",
+          "conjugatedExpression": "気味",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '아이를 일찍 데리러 가는 날에만 하필 도로가 사고로 막힌다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
+      "sourceGrammarIds": [
+        "n2-108",
+        "n2-027",
+        "n2-028",
+        "n2-029"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
       ]
     }
   ],
@@ -1834,1103 +1809,1153 @@
       ]
     },
     {
-      "id": "so-extra-n2-108-1",
+      "id": "so-created-n2-108-01",
       "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlanks": "忙しい日 ____ ____ ____ ____",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
+      "sentence": "傘を持たない日に限って、帰宅時間に大雨が降る。",
+      "sentenceWithBlanks": "傘を ____ ____ ____ ____",
+      "korean": "우산을 챙기지 않은 날에만 하필 퇴근 시간에 폭우가 내린다.",
       "pieces": [
         {
-          "id": "so-extra-n2-108-1-p3",
-          "text": "る",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-108-1-p4",
-          "text": "に限って",
+          "id": "so-created-n2-108-01-p1",
+          "text": "持たない日",
           "order": 1
         },
         {
-          "id": "so-extra-n2-108-1-p1",
-          "text": "急な用",
+          "id": "so-created-n2-108-01-p2",
+          "text": "に限って、",
           "order": 2
         },
         {
-          "id": "so-extra-n2-108-1-p2",
-          "text": "事が入",
+          "id": "so-created-n2-108-01-p3",
+          "text": "帰宅時間に",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-108-01-p4",
+          "text": "大雨が降る。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-108-1-p4",
-        "so-extra-n2-108-1-p1",
-        "so-extra-n2-108-1-p2",
-        "so-extra-n2-108-1-p3"
+        "so-created-n2-108-01-p1",
+        "so-created-n2-108-01-p2",
+        "so-created-n2-108-01-p3",
+        "so-created-n2-108-01-p4"
       ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '우산을 챙기지 않은 날에만 하필 퇴근 시간에 폭우가 내린다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
       "sourceGrammarIds": [
-        "n2-108"
+        "n2-108",
+        "n2-027",
+        "n2-028",
+        "n2-029"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-108-2",
+      "id": "so-created-n2-108-02",
       "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlanks": "忙しい日 ____ ____ ____ ____",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
+      "sentence": "大切な商談に限って、担当者の声が出なくなった。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "중요한 상담 때만 하필 담당자의 목소리가 나오지 않게 되었다.",
       "pieces": [
         {
-          "id": "so-extra-n2-108-2-p4",
-          "text": "急な用",
-          "order": 2
-        },
-        {
-          "id": "so-extra-n2-108-2-p1",
-          "text": "事が入",
-          "order": 3
-        },
-        {
-          "id": "so-extra-n2-108-2-p2",
-          "text": "る",
+          "id": "so-created-n2-108-02-p4",
+          "text": "出なくなった。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-108-2-p3",
-          "text": "に限って",
+          "id": "so-created-n2-108-02-p1",
+          "text": "大切な商談",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-108-02-p2",
+          "text": "に限って、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-108-02-p3",
+          "text": "担当者の声が",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-108-2-p3",
-        "so-extra-n2-108-2-p4",
-        "so-extra-n2-108-2-p1",
-        "so-extra-n2-108-2-p2"
+        "so-created-n2-108-02-p1",
+        "so-created-n2-108-02-p2",
+        "so-created-n2-108-02-p3",
+        "so-created-n2-108-02-p4"
       ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '중요한 상담 때만 하필 담당자의 목소리가 나오지 않게 되었다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
       "sourceGrammarIds": [
-        "n2-108"
+        "n2-108",
+        "n2-027",
+        "n2-028",
+        "n2-029"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-108-3",
+      "id": "so-created-n2-108-03",
       "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、急な用事が入る。",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
+      "sentence": "早く眠りたい夜に限って、隣の犬がいつまでも鳴いている。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "일찍 자고 싶은 밤에만 하필 옆집 개가 계속 짖고 있다.",
       "pieces": [
         {
-          "id": "so-extra-n2-108-3-p1",
-          "text": "事が入",
+          "id": "so-created-n2-108-03-p3",
+          "text": "犬がいつまでも",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-108-03-p4",
+          "text": "鳴いている。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-108-3-p2",
-          "text": "い日",
+          "id": "so-created-n2-108-03-p1",
+          "text": "早く眠りたい夜",
           "order": 1
         },
         {
-          "id": "so-extra-n2-108-3-p3",
-          "text": "に限って",
+          "id": "so-created-n2-108-03-p2",
+          "text": "に限って、隣の",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-108-3-p4",
-          "text": "急な用",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-108-3-p2",
-        "so-extra-n2-108-3-p3",
-        "so-extra-n2-108-3-p4",
-        "so-extra-n2-108-3-p1"
+        "so-created-n2-108-03-p1",
+        "so-created-n2-108-03-p2",
+        "so-created-n2-108-03-p3",
+        "so-created-n2-108-03-p4"
       ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '일찍 자고 싶은 밤에만 하필 옆집 개가 계속 짖고 있다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
       "sourceGrammarIds": [
-        "n2-108"
+        "n2-108",
+        "n2-027",
+        "n2-028",
+        "n2-029"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-108-4",
+      "id": "so-created-n2-108-04",
       "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlanks": "忙しい日 ____ ____ ____ ____",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
+      "sentence": "予算を抑えたい月に限って、冷蔵庫まで故障した。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "지출을 줄이고 싶은 달에만 하필 냉장고까지 고장 났다.",
       "pieces": [
         {
-          "id": "so-extra-n2-108-4-p2",
-          "text": "急な用",
+          "id": "so-created-n2-108-04-p2",
+          "text": "月に限って、",
           "order": 2
         },
         {
-          "id": "so-extra-n2-108-4-p3",
-          "text": "事が入",
+          "id": "so-created-n2-108-04-p3",
+          "text": "冷蔵庫まで",
           "order": 3
         },
         {
-          "id": "so-extra-n2-108-4-p4",
-          "text": "る",
+          "id": "so-created-n2-108-04-p4",
+          "text": "故障した。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-108-4-p1",
-          "text": "に限って",
+          "id": "so-created-n2-108-04-p1",
+          "text": "予算を抑えたい",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-108-4-p1",
-        "so-extra-n2-108-4-p2",
-        "so-extra-n2-108-4-p3",
-        "so-extra-n2-108-4-p4"
+        "so-created-n2-108-04-p1",
+        "so-created-n2-108-04-p2",
+        "so-created-n2-108-04-p3",
+        "so-created-n2-108-04-p4"
       ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '지출을 줄이고 싶은 달에만 하필 냉장고까지 고장 났다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
       "sourceGrammarIds": [
-        "n2-108"
+        "n2-108",
+        "n2-027",
+        "n2-028",
+        "n2-029"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-108-5",
+      "id": "so-created-n2-108-05",
       "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlanks": "忙しい日 ____ ____ ____ ____",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
+      "sentence": "家族写真を撮る日に限って、息子は泥だらけで帰ってくる。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 帰ってくる。",
+      "korean": "가족사진을 찍는 날만 되면 하필 아들이 진흙투성이로 돌아온다.",
       "pieces": [
         {
-          "id": "so-extra-n2-108-5-p3",
-          "text": "る",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-108-5-p4",
-          "text": "に限って",
+          "id": "so-created-n2-108-05-p1",
+          "text": "家族写真を撮る",
           "order": 1
         },
         {
-          "id": "so-extra-n2-108-5-p1",
-          "text": "急な用",
+          "id": "so-created-n2-108-05-p2",
+          "text": "日に限って、",
           "order": 2
         },
         {
-          "id": "so-extra-n2-108-5-p2",
-          "text": "事が入",
+          "id": "so-created-n2-108-05-p3",
+          "text": "息子は",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-108-05-p4",
+          "text": "泥だらけで",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-108-5-p4",
-        "so-extra-n2-108-5-p1",
-        "so-extra-n2-108-5-p2",
-        "so-extra-n2-108-5-p3"
+        "so-created-n2-108-05-p1",
+        "so-created-n2-108-05-p2",
+        "so-created-n2-108-05-p3",
+        "so-created-n2-108-05-p4"
       ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '가족사진을 찍는 날만 되면 하필 아들이 진흙투성이로 돌아온다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
       "sourceGrammarIds": [
-        "n2-108"
+        "n2-108",
+        "n2-027",
+        "n2-028",
+        "n2-029"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-108-01",
+      "id": "so-created-n2-108-06",
       "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlanks": "忙しい日 ____ ____ ____ ____",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
+      "sentence": "重要な荷物に限って、配送先の住所が間違っていた。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "중요한 짐에 한해서 하필 배송지 주소가 잘못되어 있었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-108-01-p3",
-          "text": "る",
+          "id": "so-created-n2-108-06-p4",
+          "text": "違っていた。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-108-01-p4",
-          "text": "に限って",
+          "id": "so-created-n2-108-06-p1",
+          "text": "重要な荷物",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-108-01-p1",
-          "text": "急な用",
+          "id": "so-created-n2-108-06-p2",
+          "text": "に限って、配送",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-108-01-p2",
-          "text": "事が入",
+          "id": "so-created-n2-108-06-p3",
+          "text": "先の住所が間",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-108-01-p4",
-        "so-extra20-n2-108-01-p1",
-        "so-extra20-n2-108-01-p2",
-        "so-extra20-n2-108-01-p3"
+        "so-created-n2-108-06-p1",
+        "so-created-n2-108-06-p2",
+        "so-created-n2-108-06-p3",
+        "so-created-n2-108-06-p4"
       ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '중요한 짐에 한해서 하필 배송지 주소가 잘못되어 있었다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
       "sourceGrammarIds": [
-        "n2-108"
+        "n2-108",
+        "n2-027",
+        "n2-028",
+        "n2-029"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-108-02",
+      "id": "so-created-n2-108-07",
       "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlanks": "忙しい日 ____ ____ ____ ____",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
+      "sentence": "予約が満席の週末に限って、キャンセルの問い合わせが相次ぐ。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "예약이 꽉 찬 주말에만 하필 취소 문의가 잇따른다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-108-02-p2",
-          "text": "る",
+          "id": "so-created-n2-108-07-p3",
+          "text": "キャンセルの",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-108-07-p4",
+          "text": "問い合わせが相次ぐ。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-108-02-p3",
-          "text": "に限って",
+          "id": "so-created-n2-108-07-p1",
+          "text": "予約が満席の",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-108-02-p4",
-          "text": "急な用",
+          "id": "so-created-n2-108-07-p2",
+          "text": "週末に限って、",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-108-02-p1",
-          "text": "事が入",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-108-02-p3",
-        "so-extra20-n2-108-02-p4",
-        "so-extra20-n2-108-02-p1",
-        "so-extra20-n2-108-02-p2"
+        "so-created-n2-108-07-p1",
+        "so-created-n2-108-07-p2",
+        "so-created-n2-108-07-p3",
+        "so-created-n2-108-07-p4"
       ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '예약이 꽉 찬 주말에만 하필 취소 문의가 잇따른다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
       "sourceGrammarIds": [
-        "n2-108"
+        "n2-108",
+        "n2-027",
+        "n2-028",
+        "n2-029"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-108-03",
+      "id": "so-created-n2-108-08",
       "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、急な用事が入る。",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
+      "sentence": "急いでいる朝に限って、玄関の鍵がなかなか見つからない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "서두르는 아침에만 하필 현관 열쇠가 좀처럼 보이지 않는다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-108-03-p1",
-          "text": "事が入",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-108-03-p2",
-          "text": "い日",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-108-03-p3",
-          "text": "に限って",
+          "id": "so-created-n2-108-08-p2",
+          "text": "に限って、玄関の",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-108-03-p4",
-          "text": "急な用",
+          "id": "so-created-n2-108-08-p3",
+          "text": "鍵がなかなか",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-108-08-p4",
+          "text": "見つからない。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-108-08-p1",
+          "text": "急いでいる朝",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-108-03-p2",
-        "so-extra20-n2-108-03-p3",
-        "so-extra20-n2-108-03-p4",
-        "so-extra20-n2-108-03-p1"
+        "so-created-n2-108-08-p1",
+        "so-created-n2-108-08-p2",
+        "so-created-n2-108-08-p3",
+        "so-created-n2-108-08-p4"
       ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '서두르는 아침에만 하필 현관 열쇠가 좀처럼 보이지 않는다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
       "sourceGrammarIds": [
-        "n2-108"
+        "n2-108",
+        "n2-027",
+        "n2-028",
+        "n2-029"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-108-04",
+      "id": "so-created-n2-108-09",
       "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlanks": "忙しい日 ____ ____ ____ ____",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
+      "sentence": "海外からの客を迎える日に限って、空港行きの電車が止まった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 止まった。",
+      "korean": "해외 손님을 맞이하는 날에만 하필 공항행 전철이 멈췄다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-108-04-p4",
-          "text": "る",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-108-04-p1",
-          "text": "に限って",
+          "id": "so-created-n2-108-09-p1",
+          "text": "海外からの",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-108-04-p2",
-          "text": "急な用",
+          "id": "so-created-n2-108-09-p2",
+          "text": "客を迎える日",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-108-04-p3",
-          "text": "事が入",
+          "id": "so-created-n2-108-09-p3",
+          "text": "に限って、空港",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-108-09-p4",
+          "text": "行きの電車が",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-108-04-p1",
-        "so-extra20-n2-108-04-p2",
-        "so-extra20-n2-108-04-p3",
-        "so-extra20-n2-108-04-p4"
+        "so-created-n2-108-09-p1",
+        "so-created-n2-108-09-p2",
+        "so-created-n2-108-09-p3",
+        "so-created-n2-108-09-p4"
       ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '해외 손님을 맞이하는 날에만 하필 공항행 전철이 멈췄다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
       "sourceGrammarIds": [
-        "n2-108"
+        "n2-108",
+        "n2-027",
+        "n2-028",
+        "n2-029"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-108-05",
+      "id": "so-created-n2-108-10",
       "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlanks": "忙しい日 ____ ____ ____ ____",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
+      "sentence": "自信のあった企画に限って、取締役会で採用されなかった。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "자신 있던 기획만 하필 이사회에서 채택되지 않았다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-108-05-p3",
-          "text": "る",
+          "id": "so-created-n2-108-10-p4",
+          "text": "採用されなかった。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-108-05-p4",
-          "text": "に限って",
+          "id": "so-created-n2-108-10-p1",
+          "text": "自信のあった",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-108-05-p1",
-          "text": "急な用",
+          "id": "so-created-n2-108-10-p2",
+          "text": "企画に限って、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-108-05-p2",
-          "text": "事が入",
+          "id": "so-created-n2-108-10-p3",
+          "text": "取締役会で",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-108-05-p4",
-        "so-extra20-n2-108-05-p1",
-        "so-extra20-n2-108-05-p2",
-        "so-extra20-n2-108-05-p3"
+        "so-created-n2-108-10-p1",
+        "so-created-n2-108-10-p2",
+        "so-created-n2-108-10-p3",
+        "so-created-n2-108-10-p4"
       ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '자신 있던 기획만 하필 이사회에서 채택되지 않았다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
       "sourceGrammarIds": [
-        "n2-108"
+        "n2-108",
+        "n2-027",
+        "n2-028",
+        "n2-029"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-108-06",
+      "id": "so-created-n2-108-11",
       "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlanks": "忙しい日 ____ ____ ____ ____",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
+      "sentence": "洗車した翌日に限って、鳥に車を汚される。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "세차한 다음 날만 되면 하필 새 때문에 차가 더러워진다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-108-06-p2",
-          "text": "事が入",
+          "id": "so-created-n2-108-11-p3",
+          "text": "鳥に車を",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-108-06-p3",
-          "text": "る",
+          "id": "so-created-n2-108-11-p4",
+          "text": "汚される。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-108-06-p4",
-          "text": "に限って",
+          "id": "so-created-n2-108-11-p1",
+          "text": "洗車した翌日",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-108-06-p1",
-          "text": "急な用",
+          "id": "so-created-n2-108-11-p2",
+          "text": "に限って、",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-108-06-p4",
-        "so-extra20-n2-108-06-p1",
-        "so-extra20-n2-108-06-p2",
-        "so-extra20-n2-108-06-p3"
+        "so-created-n2-108-11-p1",
+        "so-created-n2-108-11-p2",
+        "so-created-n2-108-11-p3",
+        "so-created-n2-108-11-p4"
       ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '세차한 다음 날만 되면 하필 새 때문에 차가 더러워진다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
       "sourceGrammarIds": [
-        "n2-108"
+        "n2-108",
+        "n2-027",
+        "n2-028",
+        "n2-029"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-108-07",
+      "id": "so-created-n2-108-12",
       "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlanks": "忙しい日 ____ ____ ____ ____",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
+      "sentence": "満開の桜を見に行く日に限って、強い風が吹き荒れる。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "활짝 핀 벚꽃을 보러 가는 날만 되면 하필 강풍이 몰아친다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-108-07-p1",
-          "text": "事が入",
+          "id": "so-created-n2-108-12-p2",
+          "text": "見に行く日",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-108-12-p3",
+          "text": "に限って、強い",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-108-07-p2",
-          "text": "る",
+          "id": "so-created-n2-108-12-p4",
+          "text": "風が吹き荒れる。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-108-07-p3",
-          "text": "に限って",
+          "id": "so-created-n2-108-12-p1",
+          "text": "満開の桜を",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-108-07-p4",
-          "text": "急な用",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-108-07-p3",
-        "so-extra20-n2-108-07-p4",
-        "so-extra20-n2-108-07-p1",
-        "so-extra20-n2-108-07-p2"
+        "so-created-n2-108-12-p1",
+        "so-created-n2-108-12-p2",
+        "so-created-n2-108-12-p3",
+        "so-created-n2-108-12-p4"
       ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '활짝 핀 벚꽃을 보러 가는 날만 되면 하필 강풍이 몰아친다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
       "sourceGrammarIds": [
-        "n2-108"
+        "n2-108",
+        "n2-027",
+        "n2-028",
+        "n2-029"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-108-08",
+      "id": "so-created-n2-108-13",
       "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、急な用事が入る。",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
+      "sentence": "患者が集中する時間帯に限って、受付の端末が動かなくなる。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 動かなくなる。",
+      "korean": "환자가 몰리는 시간대에만 하필 접수 단말기가 작동하지 않게 된다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-108-08-p4",
-          "text": "急な用",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-108-08-p1",
-          "text": "事が入",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-108-08-p2",
-          "text": "い日",
+          "id": "so-created-n2-108-13-p1",
+          "text": "患者が",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-108-08-p3",
-          "text": "に限って",
+          "id": "so-created-n2-108-13-p2",
+          "text": "集中する時間",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-108-13-p3",
+          "text": "帯に限って、",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-108-13-p4",
+          "text": "受付の端末が",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-108-08-p2",
-        "so-extra20-n2-108-08-p3",
-        "so-extra20-n2-108-08-p4",
-        "so-extra20-n2-108-08-p1"
+        "so-created-n2-108-13-p1",
+        "so-created-n2-108-13-p2",
+        "so-created-n2-108-13-p3",
+        "so-created-n2-108-13-p4"
       ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '환자가 몰리는 시간대에만 하필 접수 단말기가 작동하지 않게 된다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
       "sourceGrammarIds": [
-        "n2-108"
+        "n2-108",
+        "n2-027",
+        "n2-028",
+        "n2-029"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-108-09",
+      "id": "so-created-n2-108-14",
       "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlanks": "忙しい日 ____ ____ ____ ____",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
+      "sentence": "残業できない日に限って、工場の機械に異常が見つかる。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "야근할 수 없는 날에만 하필 공장 기계에서 이상이 발견된다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-108-09-p3",
-          "text": "事が入",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-108-09-p4",
-          "text": "る",
+          "id": "so-created-n2-108-14-p4",
+          "text": "異常が見つかる。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-108-09-p1",
-          "text": "に限って",
+          "id": "so-created-n2-108-14-p1",
+          "text": "残業できない",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-108-09-p2",
-          "text": "急な用",
+          "id": "so-created-n2-108-14-p2",
+          "text": "日に限って、",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-108-14-p3",
+          "text": "工場の機械に",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-108-09-p1",
-        "so-extra20-n2-108-09-p2",
-        "so-extra20-n2-108-09-p3",
-        "so-extra20-n2-108-09-p4"
+        "so-created-n2-108-14-p1",
+        "so-created-n2-108-14-p2",
+        "so-created-n2-108-14-p3",
+        "so-created-n2-108-14-p4"
       ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '야근할 수 없는 날에만 하필 공장 기계에서 이상이 발견된다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
       "sourceGrammarIds": [
-        "n2-108"
+        "n2-108",
+        "n2-027",
+        "n2-028",
+        "n2-029"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-108-10",
+      "id": "so-created-n2-108-15",
       "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlanks": "忙しい日 ____ ____ ____ ____",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
+      "sentence": "静かな席を選んだ時に限って、近くで工事が始まる。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 始まる。",
+      "korean": "조용한 자리를 골랐을 때만 하필 근처에서 공사가 시작된다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-108-10-p2",
-          "text": "事が入",
+          "id": "so-created-n2-108-15-p3",
+          "text": "に限って、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-108-10-p3",
-          "text": "る",
+          "id": "so-created-n2-108-15-p4",
+          "text": "近くで工事が",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-108-10-p4",
-          "text": "に限って",
+          "id": "so-created-n2-108-15-p1",
+          "text": "静かな席を",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-108-10-p1",
-          "text": "急な用",
+          "id": "so-created-n2-108-15-p2",
+          "text": "選んだ時",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-108-10-p4",
-        "so-extra20-n2-108-10-p1",
-        "so-extra20-n2-108-10-p2",
-        "so-extra20-n2-108-10-p3"
+        "so-created-n2-108-15-p1",
+        "so-created-n2-108-15-p2",
+        "so-created-n2-108-15-p3",
+        "so-created-n2-108-15-p4"
       ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '조용한 자리를 골랐을 때만 하필 근처에서 공사가 시작된다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
       "sourceGrammarIds": [
-        "n2-108"
+        "n2-108",
+        "n2-027",
+        "n2-028",
+        "n2-029"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-108-11",
+      "id": "so-created-n2-108-16",
       "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlanks": "忙しい日 ____ ____ ____ ____",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
+      "sentence": "妻の誕生日に限って、夫は出張先から戻れなかった。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "아내의 생일에만 하필 남편은 출장지에서 돌아오지 못했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-108-11-p1",
-          "text": "急な用",
+          "id": "so-created-n2-108-16-p2",
+          "text": "に限って、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-108-11-p2",
-          "text": "事が入",
+          "id": "so-created-n2-108-16-p3",
+          "text": "夫は出張先から",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-108-11-p3",
-          "text": "る",
+          "id": "so-created-n2-108-16-p4",
+          "text": "戻れなかった。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-108-11-p4",
-          "text": "に限って",
+          "id": "so-created-n2-108-16-p1",
+          "text": "妻の誕生日",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-108-11-p4",
-        "so-extra20-n2-108-11-p1",
-        "so-extra20-n2-108-11-p2",
-        "so-extra20-n2-108-11-p3"
+        "so-created-n2-108-16-p1",
+        "so-created-n2-108-16-p2",
+        "so-created-n2-108-16-p3",
+        "so-created-n2-108-16-p4"
       ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '아내의 생일에만 하필 남편은 출장지에서 돌아오지 못했다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
       "sourceGrammarIds": [
-        "n2-108"
+        "n2-108",
+        "n2-027",
+        "n2-028",
+        "n2-029"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-108-12",
+      "id": "so-created-n2-108-17",
       "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlanks": "忙しい日 ____ ____ ____ ____",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
+      "sentence": "希少な魚を仕入れた日に限って、店の予約が一件もない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 一件もない。",
+      "korean": "희귀한 생선을 들여온 날에만 하필 가게 예약이 한 건도 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-108-12-p4",
-          "text": "急な用",
+          "id": "so-created-n2-108-17-p1",
+          "text": "希少な魚を",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-108-17-p2",
+          "text": "仕入れた日",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-108-12-p1",
-          "text": "事が入",
+          "id": "so-created-n2-108-17-p3",
+          "text": "に限って、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-108-12-p2",
-          "text": "る",
+          "id": "so-created-n2-108-17-p4",
+          "text": "店の予約が",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-108-12-p3",
-          "text": "に限って",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-108-12-p3",
-        "so-extra20-n2-108-12-p4",
-        "so-extra20-n2-108-12-p1",
-        "so-extra20-n2-108-12-p2"
+        "so-created-n2-108-17-p1",
+        "so-created-n2-108-17-p2",
+        "so-created-n2-108-17-p3",
+        "so-created-n2-108-17-p4"
       ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '희귀한 생선을 들여온 날에만 하필 가게 예약이 한 건도 없다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
       "sourceGrammarIds": [
-        "n2-108"
+        "n2-108",
+        "n2-027",
+        "n2-028",
+        "n2-029"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-108-13",
+      "id": "so-created-n2-108-18",
       "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、急な用事が入る。",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
+      "sentence": "出港を急ぐ朝に限って、港が深い霧に包まれる。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "출항을 서두르는 아침에만 하필 항구가 짙은 안개에 휩싸인다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-108-13-p3",
-          "text": "に限って",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-108-13-p4",
-          "text": "急な用",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-108-13-p1",
-          "text": "事が入",
+          "id": "so-created-n2-108-18-p4",
+          "text": "包まれる。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-108-13-p2",
-          "text": "い日",
+          "id": "so-created-n2-108-18-p1",
+          "text": "出港を急ぐ",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-108-18-p2",
+          "text": "朝に限って、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-108-18-p3",
+          "text": "港が深い霧に",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-108-13-p2",
-        "so-extra20-n2-108-13-p3",
-        "so-extra20-n2-108-13-p4",
-        "so-extra20-n2-108-13-p1"
+        "so-created-n2-108-18-p1",
+        "so-created-n2-108-18-p2",
+        "so-created-n2-108-18-p3",
+        "so-created-n2-108-18-p4"
       ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '출항을 서두르는 아침에만 하필 항구가 짙은 안개에 휩싸인다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
       "sourceGrammarIds": [
-        "n2-108"
+        "n2-108",
+        "n2-027",
+        "n2-028",
+        "n2-029"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-108-14",
+      "id": "so-created-n2-108-19",
       "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlanks": "忙しい日 ____ ____ ____ ____",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
+      "sentence": "お気に入りの服に限って、食事中にソースをこぼしてしまう。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "아끼는 옷에만 하필 식사 중에 소스를 쏟고 만다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-108-14-p2",
-          "text": "急な用",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-108-14-p3",
-          "text": "事が入",
+          "id": "so-created-n2-108-19-p3",
+          "text": "食事中に",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-108-14-p4",
-          "text": "る",
+          "id": "so-created-n2-108-19-p4",
+          "text": "ソースをこぼしてしまう。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-108-14-p1",
-          "text": "に限って",
+          "id": "so-created-n2-108-19-p1",
+          "text": "お気に入りの",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-108-19-p2",
+          "text": "服に限って、",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-108-14-p1",
-        "so-extra20-n2-108-14-p2",
-        "so-extra20-n2-108-14-p3",
-        "so-extra20-n2-108-14-p4"
+        "so-created-n2-108-19-p1",
+        "so-created-n2-108-19-p2",
+        "so-created-n2-108-19-p3",
+        "so-created-n2-108-19-p4"
       ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '아끼는 옷에만 하필 식사 중에 소스를 쏟고 만다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
       "sourceGrammarIds": [
-        "n2-108"
+        "n2-108",
+        "n2-027",
+        "n2-028",
+        "n2-029"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-108-15",
+      "id": "so-created-n2-108-20",
       "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlanks": "忙しい日 ____ ____ ____ ____",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
+      "sentence": "締め切り直前の案件に限って、依頼主から大幅な修正を求められる。",
+      "sentenceWithBlanks": "締め切り ____ ____ ____ ____ 求められる。",
+      "korean": "마감 직전인 안건에만 하필 의뢰인으로부터 대폭적인 수정을 요구받는다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-108-15-p1",
-          "text": "急な用",
+          "id": "so-created-n2-108-20-p2",
+          "text": "に限って、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-108-15-p2",
-          "text": "事が入",
+          "id": "so-created-n2-108-20-p3",
+          "text": "依頼主から",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-108-15-p3",
-          "text": "る",
+          "id": "so-created-n2-108-20-p4",
+          "text": "大幅な修正を",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-108-15-p4",
-          "text": "に限って",
+          "id": "so-created-n2-108-20-p1",
+          "text": "直前の案件",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-108-15-p4",
-        "so-extra20-n2-108-15-p1",
-        "so-extra20-n2-108-15-p2",
-        "so-extra20-n2-108-15-p3"
+        "so-created-n2-108-20-p1",
+        "so-created-n2-108-20-p2",
+        "so-created-n2-108-20-p3",
+        "so-created-n2-108-20-p4"
       ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '마감 직전인 안건에만 하필 의뢰인으로부터 대폭적인 수정을 요구받는다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
       "sourceGrammarIds": [
-        "n2-108"
+        "n2-108",
+        "n2-027",
+        "n2-028",
+        "n2-029"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-108-16",
+      "id": "so-created-n2-108-21",
       "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlanks": "忙しい日 ____ ____ ____ ____",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
+      "sentence": "祖母が楽しみにしていた旅行に限って、台風で中止になった。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "할머니가 기대하던 여행만 하필 태풍으로 취소되었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-108-16-p4",
-          "text": "に限って",
+          "id": "so-created-n2-108-21-p1",
+          "text": "祖母が",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-108-16-p1",
-          "text": "急な用",
+          "id": "so-created-n2-108-21-p2",
+          "text": "楽しみにしていた",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-108-16-p2",
-          "text": "事が入",
+          "id": "so-created-n2-108-21-p3",
+          "text": "旅行に限って、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-108-16-p3",
-          "text": "る",
+          "id": "so-created-n2-108-21-p4",
+          "text": "台風で中止になった。",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-108-16-p4",
-        "so-extra20-n2-108-16-p1",
-        "so-extra20-n2-108-16-p2",
-        "so-extra20-n2-108-16-p3"
+        "so-created-n2-108-21-p1",
+        "so-created-n2-108-21-p2",
+        "so-created-n2-108-21-p3",
+        "so-created-n2-108-21-p4"
       ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '할머니가 기대하던 여행만 하필 태풍으로 취소되었다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
       "sourceGrammarIds": [
-        "n2-108"
+        "n2-108",
+        "n2-027",
+        "n2-028",
+        "n2-029"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-108-17",
+      "id": "so-created-n2-108-22",
       "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlanks": "忙しい日 ____ ____ ____ ____",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
+      "sentence": "財布に現金がない時に限って、店のカード決済が利用できない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 利用できない。",
+      "korean": "지갑에 현금이 없을 때만 하필 가게의 카드 결제를 이용할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-108-17-p3",
-          "text": "に限って",
+          "id": "so-created-n2-108-22-p4",
+          "text": "カード決済が",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-108-22-p1",
+          "text": "財布に",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-108-17-p4",
-          "text": "急な用",
+          "id": "so-created-n2-108-22-p2",
+          "text": "現金がない時",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-108-17-p1",
-          "text": "事が入",
+          "id": "so-created-n2-108-22-p3",
+          "text": "に限って、店の",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-108-17-p2",
-          "text": "る",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-108-17-p3",
-        "so-extra20-n2-108-17-p4",
-        "so-extra20-n2-108-17-p1",
-        "so-extra20-n2-108-17-p2"
+        "so-created-n2-108-22-p1",
+        "so-created-n2-108-22-p2",
+        "so-created-n2-108-22-p3",
+        "so-created-n2-108-22-p4"
       ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '지갑에 현금이 없을 때만 하필 가게의 카드 결제를 이용할 수 없다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
       "sourceGrammarIds": [
-        "n2-108"
+        "n2-108",
+        "n2-027",
+        "n2-028",
+        "n2-029"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-108-18",
+      "id": "so-created-n2-108-23",
       "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、急な用事が入る。",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
+      "sentence": "応援している選手の試合に限って、通信が途中で切れてしまった。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "응원하는 선수의 경기만 하필 통신이 도중에 끊기고 말았다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-108-18-p2",
-          "text": "い日",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-108-18-p3",
-          "text": "に限って",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-108-18-p4",
-          "text": "急な用",
+          "id": "so-created-n2-108-23-p3",
+          "text": "通信が途中で",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-108-18-p1",
-          "text": "事が入",
+          "id": "so-created-n2-108-23-p4",
+          "text": "切れてしまった。",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-108-23-p1",
+          "text": "応援している選手の",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-108-23-p2",
+          "text": "試合に限って、",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-108-18-p2",
-        "so-extra20-n2-108-18-p3",
-        "so-extra20-n2-108-18-p4",
-        "so-extra20-n2-108-18-p1"
+        "so-created-n2-108-23-p1",
+        "so-created-n2-108-23-p2",
+        "so-created-n2-108-23-p3",
+        "so-created-n2-108-23-p4"
       ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '응원하는 선수의 경기만 하필 통신이 도중에 끊기고 말았다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
       "sourceGrammarIds": [
-        "n2-108"
+        "n2-108",
+        "n2-027",
+        "n2-028",
+        "n2-029"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-108-19",
+      "id": "so-created-n2-108-24",
       "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlanks": "忙しい日 ____ ____ ____ ____",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
+      "sentence": "人手が足りない収穫期に限って、農場のトラックが使えなくなった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 使えなくなった。",
+      "korean": "일손이 부족한 수확기에만 하필 농장의 트럭을 사용할 수 없게 되었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-108-19-p1",
-          "text": "に限って",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-108-19-p2",
-          "text": "急な用",
+          "id": "so-created-n2-108-24-p2",
+          "text": "足りない収穫",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-108-19-p3",
-          "text": "事が入",
+          "id": "so-created-n2-108-24-p3",
+          "text": "期に限って、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-108-19-p4",
-          "text": "る",
+          "id": "so-created-n2-108-24-p4",
+          "text": "農場のトラックが",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-108-24-p1",
+          "text": "人手が",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-108-19-p1",
-        "so-extra20-n2-108-19-p2",
-        "so-extra20-n2-108-19-p3",
-        "so-extra20-n2-108-19-p4"
+        "so-created-n2-108-24-p1",
+        "so-created-n2-108-24-p2",
+        "so-created-n2-108-24-p3",
+        "so-created-n2-108-24-p4"
       ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '일손이 부족한 수확기에만 하필 농장의 트럭을 사용할 수 없게 되었다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
       "sourceGrammarIds": [
-        "n2-108"
+        "n2-108",
+        "n2-027",
+        "n2-028",
+        "n2-029"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-108-20",
+      "id": "so-created-n2-108-25",
       "level": "N2",
-      "sentence": "忙しい日に限って、急な用事が入る。",
-      "sentenceWithBlanks": "忙しい日 ____ ____ ____ ____",
-      "korean": "바쁜 날에 한해서 갑작스러운 일이 생긴다.",
+      "sentence": "子どもを早く迎えに行く日に限って、道路が事故で渋滞する。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 渋滞する。",
+      "korean": "아이를 일찍 데리러 가는 날에만 하필 도로가 사고로 막힌다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-108-20-p4",
-          "text": "に限って",
+          "id": "so-created-n2-108-25-p1",
+          "text": "子どもを早く",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-108-20-p1",
-          "text": "急な用",
+          "id": "so-created-n2-108-25-p2",
+          "text": "迎えに行く",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-108-20-p2",
-          "text": "事が入",
+          "id": "so-created-n2-108-25-p3",
+          "text": "日に限って、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-108-20-p3",
-          "text": "る",
+          "id": "so-created-n2-108-25-p4",
+          "text": "道路が事故で",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-108-20-p4",
-        "so-extra20-n2-108-20-p1",
-        "so-extra20-n2-108-20-p2",
-        "so-extra20-n2-108-20-p3"
+        "so-created-n2-108-25-p1",
+        "so-created-n2-108-25-p2",
+        "so-created-n2-108-25-p3",
+        "so-created-n2-108-25-p4"
       ],
-      "explanation": "「に限って」는 ~에 한해서, ~만은, ~치고라는 뜻이다. 하필 그 경우에만. 예외·특별함.",
+      "explanation": "「に限って」는 '~에 한해서, ~만은, ~치고'라는 뜻을 나타낸다. 이 문장에서는 '아이를 일찍 데리러 가는 날에만 하필 도로가 사고로 막힌다.'라는 상황에 쓰였으며, 하필 그 경우에만. 예외·특별함. 주의할 점은 「忙しい日に限って」처럼 하필 그때 일어난다는 아이러니 표현. 긍정·부정 모두 가능.",
       "sourceGrammarIds": [
-        "n2-108"
+        "n2-108",
+        "n2-027",
+        "n2-028",
+        "n2-029"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     }
   ]

@@ -267,15 +267,23 @@
       ]
     },
     {
-      "id": "fb-extra-n2-148-1",
+      "id": "fb-created-n2-148-01",
       "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlank": "雨が降る（　　　）と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
-      "answerChoiceId": "fb-extra-n2-148-1-a",
+      "sentence": "強風で港の古い倉庫が倒れまいかと、管理人は夜通し見回った。",
+      "sentenceWithBlank": "強風で港の古い倉庫が倒れ（　　　）と、管理人は夜通し見回った。",
+      "korean": "강풍에 항구의 낡은 창고가 쓰러지지 않을까 하여 관리인은 밤새 순찰했다.",
+      "answerChoiceId": "fb-created-n2-148-01-a",
       "choices": [
         {
-          "id": "fb-extra-n2-148-1-b",
+          "id": "fb-created-n2-148-01-a",
+          "text": "まいか",
+          "grammarId": "n2-148",
+          "baseExpression": "まいか",
+          "conjugatedExpression": "まいか",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-148-01-b",
           "text": "ようかまいか",
           "grammarId": "n2-164",
           "baseExpression": "ようかまいか",
@@ -283,7 +291,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-148-1-c",
+          "id": "fb-created-n2-148-01-c",
           "text": "ようではないか",
           "grammarId": "n2-165",
           "baseExpression": "ようではないか",
@@ -291,23 +299,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-148-1-d",
+          "id": "fb-created-n2-148-01-d",
           "text": "ようとしている",
           "grammarId": "n2-166",
           "baseExpression": "ようとしている",
           "conjugatedExpression": "ようとしている",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-148-1-a",
-          "text": "まいか",
-          "grammarId": "n2-148",
-          "baseExpression": "まいか",
-          "conjugatedExpression": "まいか",
-          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '강풍에 항구의 낡은 창고가 쓰러지지 않을까 하여 관리인은 밤새 순찰했다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
       "sourceGrammarIds": [
         "n2-148",
         "n2-164",
@@ -315,237 +315,20 @@
         "n2-166"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra-n2-148-2",
+      "id": "fb-created-n2-148-02",
       "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlank": "雨が降る（　　　）と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
-      "answerChoiceId": "fb-extra-n2-148-2-d",
+      "sentence": "幼い息子が迷子になるまいかと、父親は人混みでその手を固く握った。",
+      "sentenceWithBlank": "幼い息子が迷子になる（　　　）と、父親は人混みでその手を固く握った。",
+      "korean": "어린 아들이 길을 잃지 않을까 하여 아버지는 인파 속에서 아이의 손을 꼭 잡았다.",
+      "answerChoiceId": "fb-created-n2-148-02-a",
       "choices": [
         {
-          "id": "fb-extra-n2-148-2-c",
-          "text": "きらいがある",
-          "grammarId": "n2-030",
-          "baseExpression": "きらいがある",
-          "conjugatedExpression": "きらいがある",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-148-2-d",
-          "text": "まいか",
-          "grammarId": "n2-148",
-          "baseExpression": "まいか",
-          "conjugatedExpression": "まいか",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-148-2-a",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-148-2-b",
-          "text": "気味",
-          "grammarId": "n2-029",
-          "baseExpression": "気味",
-          "conjugatedExpression": "気味",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
-      "sourceGrammarIds": [
-        "n2-148",
-        "n2-028",
-        "n2-029",
-        "n2-030"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-148-3",
-      "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlank": "雨が降る（　　　）と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
-      "answerChoiceId": "fb-extra-n2-148-3-c",
-      "choices": [
-        {
-          "id": "fb-extra-n2-148-3-d",
-          "text": "にあたって",
-          "grammarId": "n2-105",
-          "baseExpression": "にあたって",
-          "conjugatedExpression": "にあたって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-148-3-a",
-          "text": "に応じて",
-          "grammarId": "n2-106",
-          "baseExpression": "に応じて",
-          "conjugatedExpression": "に応じて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-148-3-b",
-          "text": "にかかわらず",
-          "grammarId": "n2-107",
-          "baseExpression": "にかかわらず",
-          "conjugatedExpression": "にかかわらず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-148-3-c",
-          "text": "まいか",
-          "grammarId": "n2-148",
-          "baseExpression": "まいか",
-          "conjugatedExpression": "まいか",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
-      "sourceGrammarIds": [
-        "n2-148",
-        "n2-105",
-        "n2-106",
-        "n2-107"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-148-4",
-      "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlank": "雨が降る（　　　）と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
-      "answerChoiceId": "fb-extra-n2-148-4-b",
-      "choices": [
-        {
-          "id": "fb-extra-n2-148-4-a",
-          "text": "ことだろう",
-          "grammarId": "n2-040",
-          "baseExpression": "ことだろう",
-          "conjugatedExpression": "ことだろう",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-148-4-b",
-          "text": "まいか",
-          "grammarId": "n2-148",
-          "baseExpression": "まいか",
-          "conjugatedExpression": "まいか",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-148-4-c",
-          "text": "ことだ",
-          "grammarId": "n2-038",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-148-4-d",
-          "text": "ことだし",
-          "grammarId": "n2-039",
-          "baseExpression": "ことだし",
-          "conjugatedExpression": "ことだし",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
-      "sourceGrammarIds": [
-        "n2-148",
-        "n2-038",
-        "n2-039",
-        "n2-040"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-148-5",
-      "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlank": "雨が降る（　　　）と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
-      "answerChoiceId": "fb-extra-n2-148-5-a",
-      "choices": [
-        {
-          "id": "fb-extra-n2-148-5-b",
-          "text": "にかけては",
-          "grammarId": "n2-111",
-          "baseExpression": "にかけては",
-          "conjugatedExpression": "にかけては",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-148-5-c",
-          "text": "に関して",
-          "grammarId": "n2-112",
-          "baseExpression": "に関して",
-          "conjugatedExpression": "に関して",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-148-5-d",
-          "text": "に加えて",
-          "grammarId": "n2-113",
-          "baseExpression": "に加えて",
-          "conjugatedExpression": "に加えて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-148-5-a",
-          "text": "まいか",
-          "grammarId": "n2-148",
-          "baseExpression": "まいか",
-          "conjugatedExpression": "まいか",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
-      "sourceGrammarIds": [
-        "n2-148",
-        "n2-111",
-        "n2-112",
-        "n2-113"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-148-01",
-      "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlank": "雨が降る（　　　）と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
-      "answerChoiceId": "fb-extra20-n2-148-01-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-148-01-b",
+          "id": "fb-created-n2-148-02-b",
           "text": "ようかまいか",
           "grammarId": "n2-164",
           "baseExpression": "ようかまいか",
@@ -553,7 +336,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-148-01-c",
+          "id": "fb-created-n2-148-02-c",
           "text": "ようではないか",
           "grammarId": "n2-165",
           "baseExpression": "ようではないか",
@@ -561,7 +344,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-148-01-d",
+          "id": "fb-created-n2-148-02-d",
           "text": "ようとしている",
           "grammarId": "n2-166",
           "baseExpression": "ようとしている",
@@ -569,7 +352,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-148-01-a",
+          "id": "fb-created-n2-148-02-a",
           "text": "まいか",
           "grammarId": "n2-148",
           "baseExpression": "まいか",
@@ -577,7 +360,7 @@
           "isSimilarDistractor": false
         }
       ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '어린 아들이 길을 잃지 않을까 하여 아버지는 인파 속에서 아이의 손을 꼭 잡았다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
       "sourceGrammarIds": [
         "n2-148",
         "n2-164",
@@ -585,253 +368,20 @@
         "n2-166"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-148-02",
+      "id": "fb-created-n2-148-03",
       "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlank": "雨が降る（　　　）と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
-      "answerChoiceId": "fb-extra20-n2-148-02-d",
+      "sentence": "長引く日照りで井戸まで枯れるまいかと、村人たちは水の使用を控えた。",
+      "sentenceWithBlank": "長引く日照りで井戸まで枯れる（　　　）と、村人たちは水の使用を控えた。",
+      "korean": "긴 가뭄으로 우물마저 마르지 않을까 하여 마을 사람들은 물 사용을 줄였다.",
+      "answerChoiceId": "fb-created-n2-148-03-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-148-02-a",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-148-02-b",
-          "text": "気味",
-          "grammarId": "n2-029",
-          "baseExpression": "気味",
-          "conjugatedExpression": "気味",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-148-02-c",
-          "text": "きらいがある",
-          "grammarId": "n2-030",
-          "baseExpression": "きらいがある",
-          "conjugatedExpression": "きらいがある",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-148-02-d",
-          "text": "まいか",
-          "grammarId": "n2-148",
-          "baseExpression": "まいか",
-          "conjugatedExpression": "まいか",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
-      "sourceGrammarIds": [
-        "n2-148",
-        "n2-028",
-        "n2-029",
-        "n2-030"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-148-03",
-      "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlank": "雨が降る（　　　）と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
-      "answerChoiceId": "fb-extra20-n2-148-03-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-148-03-d",
-          "text": "にあたって",
-          "grammarId": "n2-105",
-          "baseExpression": "にあたって",
-          "conjugatedExpression": "にあたって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-148-03-a",
-          "text": "に応じて",
-          "grammarId": "n2-106",
-          "baseExpression": "に応じて",
-          "conjugatedExpression": "に応じて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-148-03-b",
-          "text": "にかかわらず",
-          "grammarId": "n2-107",
-          "baseExpression": "にかかわらず",
-          "conjugatedExpression": "にかかわらず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-148-03-c",
-          "text": "まいか",
-          "grammarId": "n2-148",
-          "baseExpression": "まいか",
-          "conjugatedExpression": "まいか",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
-      "sourceGrammarIds": [
-        "n2-148",
-        "n2-105",
-        "n2-106",
-        "n2-107"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-148-04",
-      "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlank": "雨が降る（　　　）と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
-      "answerChoiceId": "fb-extra20-n2-148-04-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-148-04-c",
-          "text": "ことだ",
-          "grammarId": "n2-038",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-148-04-d",
-          "text": "ことだし",
-          "grammarId": "n2-039",
-          "baseExpression": "ことだし",
-          "conjugatedExpression": "ことだし",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-148-04-a",
-          "text": "ことだろう",
-          "grammarId": "n2-040",
-          "baseExpression": "ことだろう",
-          "conjugatedExpression": "ことだろう",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-148-04-b",
-          "text": "まいか",
-          "grammarId": "n2-148",
-          "baseExpression": "まいか",
-          "conjugatedExpression": "まいか",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
-      "sourceGrammarIds": [
-        "n2-148",
-        "n2-038",
-        "n2-039",
-        "n2-040"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-148-05",
-      "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlank": "雨が降る（　　　）と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
-      "answerChoiceId": "fb-extra20-n2-148-05-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-148-05-b",
-          "text": "にかけては",
-          "grammarId": "n2-111",
-          "baseExpression": "にかけては",
-          "conjugatedExpression": "にかけては",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-148-05-c",
-          "text": "に関して",
-          "grammarId": "n2-112",
-          "baseExpression": "に関して",
-          "conjugatedExpression": "に関して",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-148-05-d",
-          "text": "に加えて",
-          "grammarId": "n2-113",
-          "baseExpression": "に加えて",
-          "conjugatedExpression": "に加えて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-148-05-a",
-          "text": "まいか",
-          "grammarId": "n2-148",
-          "baseExpression": "まいか",
-          "conjugatedExpression": "まいか",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
-      "sourceGrammarIds": [
-        "n2-148",
-        "n2-111",
-        "n2-112",
-        "n2-113"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-148-06",
-      "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlank": "雨が降る（　　　）と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
-      "answerChoiceId": "fb-extra20-n2-148-06-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-148-06-a",
-          "text": "まいか",
-          "grammarId": "n2-148",
-          "baseExpression": "まいか",
-          "conjugatedExpression": "まいか",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-148-06-b",
-          "text": "ようかまいか",
-          "grammarId": "n2-164",
-          "baseExpression": "ようかまいか",
-          "conjugatedExpression": "ようかまいか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-148-06-c",
+          "id": "fb-created-n2-148-03-c",
           "text": "ようではないか",
           "grammarId": "n2-165",
           "baseExpression": "ようではないか",
@@ -839,253 +389,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-148-06-d",
-          "text": "ようとしている",
-          "grammarId": "n2-166",
-          "baseExpression": "ようとしている",
-          "conjugatedExpression": "ようとしている",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
-      "sourceGrammarIds": [
-        "n2-148",
-        "n2-164",
-        "n2-165",
-        "n2-166"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-148-07",
-      "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlank": "雨が降る（　　　）と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
-      "answerChoiceId": "fb-extra20-n2-148-07-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-148-07-d",
-          "text": "まいか",
-          "grammarId": "n2-148",
-          "baseExpression": "まいか",
-          "conjugatedExpression": "まいか",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-148-07-a",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-148-07-b",
-          "text": "気味",
-          "grammarId": "n2-029",
-          "baseExpression": "気味",
-          "conjugatedExpression": "気味",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-148-07-c",
-          "text": "きらいがある",
-          "grammarId": "n2-030",
-          "baseExpression": "きらいがある",
-          "conjugatedExpression": "きらいがある",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
-      "sourceGrammarIds": [
-        "n2-148",
-        "n2-028",
-        "n2-029",
-        "n2-030"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-148-08",
-      "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlank": "雨が降る（　　　）と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
-      "answerChoiceId": "fb-extra20-n2-148-08-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-148-08-c",
-          "text": "まいか",
-          "grammarId": "n2-148",
-          "baseExpression": "まいか",
-          "conjugatedExpression": "まいか",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-148-08-d",
-          "text": "にあたって",
-          "grammarId": "n2-105",
-          "baseExpression": "にあたって",
-          "conjugatedExpression": "にあたって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-148-08-a",
-          "text": "に応じて",
-          "grammarId": "n2-106",
-          "baseExpression": "に応じて",
-          "conjugatedExpression": "に応じて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-148-08-b",
-          "text": "にかかわらず",
-          "grammarId": "n2-107",
-          "baseExpression": "にかかわらず",
-          "conjugatedExpression": "にかかわらず",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
-      "sourceGrammarIds": [
-        "n2-148",
-        "n2-105",
-        "n2-106",
-        "n2-107"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-148-09",
-      "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlank": "雨が降る（　　　）と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
-      "answerChoiceId": "fb-extra20-n2-148-09-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-148-09-b",
-          "text": "まいか",
-          "grammarId": "n2-148",
-          "baseExpression": "まいか",
-          "conjugatedExpression": "まいか",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-148-09-c",
-          "text": "ことだ",
-          "grammarId": "n2-038",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-148-09-d",
-          "text": "ことだし",
-          "grammarId": "n2-039",
-          "baseExpression": "ことだし",
-          "conjugatedExpression": "ことだし",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-148-09-a",
-          "text": "ことだろう",
-          "grammarId": "n2-040",
-          "baseExpression": "ことだろう",
-          "conjugatedExpression": "ことだろう",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
-      "sourceGrammarIds": [
-        "n2-148",
-        "n2-038",
-        "n2-039",
-        "n2-040"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-148-10",
-      "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlank": "雨が降る（　　　）と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
-      "answerChoiceId": "fb-extra20-n2-148-10-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-148-10-a",
-          "text": "まいか",
-          "grammarId": "n2-148",
-          "baseExpression": "まいか",
-          "conjugatedExpression": "まいか",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-148-10-b",
-          "text": "にかけては",
-          "grammarId": "n2-111",
-          "baseExpression": "にかけては",
-          "conjugatedExpression": "にかけては",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-148-10-c",
-          "text": "に関して",
-          "grammarId": "n2-112",
-          "baseExpression": "に関して",
-          "conjugatedExpression": "に関して",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-148-10-d",
-          "text": "に加えて",
-          "grammarId": "n2-113",
-          "baseExpression": "に加えて",
-          "conjugatedExpression": "に加えて",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
-      "sourceGrammarIds": [
-        "n2-148",
-        "n2-111",
-        "n2-112",
-        "n2-113"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-148-11",
-      "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlank": "雨が降る（　　　）と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
-      "answerChoiceId": "fb-extra20-n2-148-11-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-148-11-d",
+          "id": "fb-created-n2-148-03-d",
           "text": "ようとしている",
           "grammarId": "n2-166",
           "baseExpression": "ようとしている",
@@ -1093,7 +397,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-148-11-a",
+          "id": "fb-created-n2-148-03-a",
           "text": "まいか",
           "grammarId": "n2-148",
           "baseExpression": "まいか",
@@ -1101,285 +405,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-148-11-b",
-          "text": "ようかまいか",
-          "grammarId": "n2-164",
-          "baseExpression": "ようかまいか",
-          "conjugatedExpression": "ようかまいか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-148-11-c",
-          "text": "ようではないか",
-          "grammarId": "n2-165",
-          "baseExpression": "ようではないか",
-          "conjugatedExpression": "ようではないか",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
-      "sourceGrammarIds": [
-        "n2-148",
-        "n2-164",
-        "n2-165",
-        "n2-166"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-148-12",
-      "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlank": "雨が降る（　　　）と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
-      "answerChoiceId": "fb-extra20-n2-148-12-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-148-12-c",
-          "text": "きらいがある",
-          "grammarId": "n2-030",
-          "baseExpression": "きらいがある",
-          "conjugatedExpression": "きらいがある",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-148-12-d",
-          "text": "まいか",
-          "grammarId": "n2-148",
-          "baseExpression": "まいか",
-          "conjugatedExpression": "まいか",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-148-12-a",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-148-12-b",
-          "text": "気味",
-          "grammarId": "n2-029",
-          "baseExpression": "気味",
-          "conjugatedExpression": "気味",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
-      "sourceGrammarIds": [
-        "n2-148",
-        "n2-028",
-        "n2-029",
-        "n2-030"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-148-13",
-      "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlank": "雨が降る（　　　）と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
-      "answerChoiceId": "fb-extra20-n2-148-13-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-148-13-b",
-          "text": "にかかわらず",
-          "grammarId": "n2-107",
-          "baseExpression": "にかかわらず",
-          "conjugatedExpression": "にかかわらず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-148-13-c",
-          "text": "まいか",
-          "grammarId": "n2-148",
-          "baseExpression": "まいか",
-          "conjugatedExpression": "まいか",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-148-13-d",
-          "text": "にあたって",
-          "grammarId": "n2-105",
-          "baseExpression": "にあたって",
-          "conjugatedExpression": "にあたって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-148-13-a",
-          "text": "に応じて",
-          "grammarId": "n2-106",
-          "baseExpression": "に応じて",
-          "conjugatedExpression": "に応じて",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
-      "sourceGrammarIds": [
-        "n2-148",
-        "n2-105",
-        "n2-106",
-        "n2-107"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-148-14",
-      "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlank": "雨が降る（　　　）と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
-      "answerChoiceId": "fb-extra20-n2-148-14-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-148-14-a",
-          "text": "ことだろう",
-          "grammarId": "n2-040",
-          "baseExpression": "ことだろう",
-          "conjugatedExpression": "ことだろう",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-148-14-b",
-          "text": "まいか",
-          "grammarId": "n2-148",
-          "baseExpression": "まいか",
-          "conjugatedExpression": "まいか",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-148-14-c",
-          "text": "ことだ",
-          "grammarId": "n2-038",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-148-14-d",
-          "text": "ことだし",
-          "grammarId": "n2-039",
-          "baseExpression": "ことだし",
-          "conjugatedExpression": "ことだし",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
-      "sourceGrammarIds": [
-        "n2-148",
-        "n2-038",
-        "n2-039",
-        "n2-040"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-148-15",
-      "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlank": "雨が降る（　　　）と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
-      "answerChoiceId": "fb-extra20-n2-148-15-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-148-15-d",
-          "text": "に加えて",
-          "grammarId": "n2-113",
-          "baseExpression": "に加えて",
-          "conjugatedExpression": "に加えて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-148-15-a",
-          "text": "まいか",
-          "grammarId": "n2-148",
-          "baseExpression": "まいか",
-          "conjugatedExpression": "まいか",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-148-15-b",
-          "text": "にかけては",
-          "grammarId": "n2-111",
-          "baseExpression": "にかけては",
-          "conjugatedExpression": "にかけては",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-148-15-c",
-          "text": "に関して",
-          "grammarId": "n2-112",
-          "baseExpression": "に関して",
-          "conjugatedExpression": "に関して",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
-      "sourceGrammarIds": [
-        "n2-148",
-        "n2-111",
-        "n2-112",
-        "n2-113"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-148-16",
-      "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlank": "雨が降る（　　　）と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
-      "answerChoiceId": "fb-extra20-n2-148-16-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-148-16-c",
-          "text": "ようではないか",
-          "grammarId": "n2-165",
-          "baseExpression": "ようではないか",
-          "conjugatedExpression": "ようではないか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-148-16-d",
-          "text": "ようとしている",
-          "grammarId": "n2-166",
-          "baseExpression": "ようとしている",
-          "conjugatedExpression": "ようとしている",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-148-16-a",
-          "text": "まいか",
-          "grammarId": "n2-148",
-          "baseExpression": "まいか",
-          "conjugatedExpression": "まいか",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-148-16-b",
+          "id": "fb-created-n2-148-03-b",
           "text": "ようかまいか",
           "grammarId": "n2-164",
           "baseExpression": "ようかまいか",
@@ -1387,7 +413,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '긴 가뭄으로 우물마저 마르지 않을까 하여 마을 사람들은 물 사용을 줄였다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
       "sourceGrammarIds": [
         "n2-148",
         "n2-164",
@@ -1395,37 +421,28 @@
         "n2-166"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-148-17",
+      "id": "fb-created-n2-148-04",
       "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlank": "雨が降る（　　　）と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
-      "answerChoiceId": "fb-extra20-n2-148-17-d",
+      "sentence": "些細な言い争いが両家の対立に発展するまいかと、叔父が仲裁に入った。",
+      "sentenceWithBlank": "些細な言い争いが両家の対立に発展する（　　　）と、叔父が仲裁に入った。",
+      "korean": "사소한 말다툼이 양가의 대립으로 번지지 않을까 하여 삼촌이 중재에 나섰다.",
+      "answerChoiceId": "fb-created-n2-148-04-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-148-17-b",
-          "text": "気味",
-          "grammarId": "n2-029",
-          "baseExpression": "気味",
-          "conjugatedExpression": "気味",
+          "id": "fb-created-n2-148-04-d",
+          "text": "ようとしている",
+          "grammarId": "n2-166",
+          "baseExpression": "ようとしている",
+          "conjugatedExpression": "ようとしている",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-148-17-c",
-          "text": "きらいがある",
-          "grammarId": "n2-030",
-          "baseExpression": "きらいがある",
-          "conjugatedExpression": "きらいがある",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-148-17-d",
+          "id": "fb-created-n2-148-04-a",
           "text": "まいか",
           "grammarId": "n2-148",
           "baseExpression": "まいか",
@@ -1433,53 +450,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-148-17-a",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
+          "id": "fb-created-n2-148-04-b",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-148-04-c",
+          "text": "ようではないか",
+          "grammarId": "n2-165",
+          "baseExpression": "ようではないか",
+          "conjugatedExpression": "ようではないか",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '사소한 말다툼이 양가의 대립으로 번지지 않을까 하여 삼촌이 중재에 나섰다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
       "sourceGrammarIds": [
         "n2-148",
-        "n2-028",
-        "n2-029",
-        "n2-030"
+        "n2-164",
+        "n2-165",
+        "n2-166"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-148-18",
+      "id": "fb-created-n2-148-05",
       "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlank": "雨が降る（　　　）と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
-      "answerChoiceId": "fb-extra20-n2-148-18-c",
+      "sentence": "値下げ競争で町の商店が次々に閉店するまいかと、商店会は対策を協議した。",
+      "sentenceWithBlank": "値下げ競争で町の商店が次々に閉店する（　　　）と、商店会は対策を協議した。",
+      "korean": "가격 인하 경쟁으로 동네 상점들이 잇따라 문을 닫지 않을까 하여 상인회는 대책을 논의했다.",
+      "answerChoiceId": "fb-created-n2-148-05-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-148-18-a",
-          "text": "に応じて",
-          "grammarId": "n2-106",
-          "baseExpression": "に応じて",
-          "conjugatedExpression": "に応じて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-148-18-b",
-          "text": "にかかわらず",
-          "grammarId": "n2-107",
-          "baseExpression": "にかかわらず",
-          "conjugatedExpression": "にかかわらず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-148-18-c",
+          "id": "fb-created-n2-148-05-a",
           "text": "まいか",
           "grammarId": "n2-148",
           "baseExpression": "まいか",
@@ -1487,53 +495,121 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-148-18-d",
-          "text": "にあたって",
-          "grammarId": "n2-105",
-          "baseExpression": "にあたって",
-          "conjugatedExpression": "にあたって",
+          "id": "fb-created-n2-148-05-b",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-148-05-c",
+          "text": "ようではないか",
+          "grammarId": "n2-165",
+          "baseExpression": "ようではないか",
+          "conjugatedExpression": "ようではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-148-05-d",
+          "text": "ようとしている",
+          "grammarId": "n2-166",
+          "baseExpression": "ようとしている",
+          "conjugatedExpression": "ようとしている",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '가격 인하 경쟁으로 동네 상점들이 잇따라 문을 닫지 않을까 하여 상인회는 대책을 논의했다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
       "sourceGrammarIds": [
         "n2-148",
-        "n2-105",
-        "n2-106",
-        "n2-107"
+        "n2-164",
+        "n2-165",
+        "n2-166"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-148-19",
+      "id": "fb-created-n2-148-06",
       "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlank": "雨が降る（　　　）と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
-      "answerChoiceId": "fb-extra20-n2-148-19-b",
+      "sentence": "投薬後に患者の血圧が急激に下がるまいかと、看護師は数値を注視した。",
+      "sentenceWithBlank": "投薬後に患者の血圧が急激に下がる（　　　）と、看護師は数値を注視した。",
+      "korean": "투약 후 환자의 혈압이 급격히 떨어지지 않을까 하여 간호사는 수치를 주시했다.",
+      "answerChoiceId": "fb-created-n2-148-06-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-148-19-d",
-          "text": "ことだし",
-          "grammarId": "n2-039",
-          "baseExpression": "ことだし",
-          "conjugatedExpression": "ことだし",
+          "id": "fb-created-n2-148-06-b",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-148-19-a",
-          "text": "ことだろう",
-          "grammarId": "n2-040",
-          "baseExpression": "ことだろう",
-          "conjugatedExpression": "ことだろう",
+          "id": "fb-created-n2-148-06-c",
+          "text": "ようではないか",
+          "grammarId": "n2-165",
+          "baseExpression": "ようではないか",
+          "conjugatedExpression": "ようではないか",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-148-19-b",
+          "id": "fb-created-n2-148-06-d",
+          "text": "ようとしている",
+          "grammarId": "n2-166",
+          "baseExpression": "ようとしている",
+          "conjugatedExpression": "ようとしている",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-148-06-a",
+          "text": "まいか",
+          "grammarId": "n2-148",
+          "baseExpression": "まいか",
+          "conjugatedExpression": "まいか",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '투약 후 환자의 혈압이 급격히 떨어지지 않을까 하여 간호사는 수치를 주시했다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
+      "sourceGrammarIds": [
+        "n2-148",
+        "n2-164",
+        "n2-165",
+        "n2-166"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-148-07",
+      "level": "N2",
+      "sentence": "この失言が外交問題を招くまいかと、報道官の表情には緊張が浮かんだ。",
+      "sentenceWithBlank": "この失言が外交問題を招く（　　　）と、報道官の表情には緊張が浮かんだ。",
+      "korean": "이 실언이 외교 문제를 초래하지 않을까 하여 대변인의 표정에는 긴장감이 떠올랐다.",
+      "answerChoiceId": "fb-created-n2-148-07-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-148-07-c",
+          "text": "ようではないか",
+          "grammarId": "n2-165",
+          "baseExpression": "ようではないか",
+          "conjugatedExpression": "ようではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-148-07-d",
+          "text": "ようとしている",
+          "grammarId": "n2-166",
+          "baseExpression": "ようとしている",
+          "conjugatedExpression": "ようとしている",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-148-07-a",
           "text": "まいか",
           "grammarId": "n2-148",
           "baseExpression": "まいか",
@@ -1541,53 +617,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-148-19-c",
-          "text": "ことだ",
-          "grammarId": "n2-038",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
+          "id": "fb-created-n2-148-07-b",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '이 실언이 외교 문제를 초래하지 않을까 하여 대변인의 표정에는 긴장감이 떠올랐다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
       "sourceGrammarIds": [
         "n2-148",
-        "n2-038",
-        "n2-039",
-        "n2-040"
+        "n2-164",
+        "n2-165",
+        "n2-166"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-148-20",
+      "id": "fb-created-n2-148-08",
       "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlank": "雨が降る（　　　）と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
-      "answerChoiceId": "fb-extra20-n2-148-20-a",
+      "sentence": "雪の重みで山小屋の屋根が崩れるまいかと、登山隊は早めに下山した。",
+      "sentenceWithBlank": "雪の重みで山小屋の屋根が崩れる（　　　）と、登山隊は早めに下山した。",
+      "korean": "눈의 무게로 산장의 지붕이 무너지지 않을까 하여 등산대는 일찍 하산했다.",
+      "answerChoiceId": "fb-created-n2-148-08-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-148-20-c",
-          "text": "に関して",
-          "grammarId": "n2-112",
-          "baseExpression": "に関して",
-          "conjugatedExpression": "に関して",
+          "id": "fb-created-n2-148-08-d",
+          "text": "ようとしている",
+          "grammarId": "n2-166",
+          "baseExpression": "ようとしている",
+          "conjugatedExpression": "ようとしている",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-148-20-d",
-          "text": "に加えて",
-          "grammarId": "n2-113",
-          "baseExpression": "に加えて",
-          "conjugatedExpression": "に加えて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-148-20-a",
+          "id": "fb-created-n2-148-08-a",
           "text": "まいか",
           "grammarId": "n2-148",
           "baseExpression": "まいか",
@@ -1595,25 +662,933 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-148-20-b",
-          "text": "にかけては",
-          "grammarId": "n2-111",
-          "baseExpression": "にかけては",
-          "conjugatedExpression": "にかけては",
+          "id": "fb-created-n2-148-08-b",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-148-08-c",
+          "text": "ようではないか",
+          "grammarId": "n2-165",
+          "baseExpression": "ようではないか",
+          "conjugatedExpression": "ようではないか",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '눈의 무게로 산장의 지붕이 무너지지 않을까 하여 등산대는 일찍 하산했다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
       "sourceGrammarIds": [
         "n2-148",
-        "n2-111",
-        "n2-112",
-        "n2-113"
+        "n2-164",
+        "n2-165",
+        "n2-166"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-148-09",
+      "level": "N2",
+      "sentence": "感染症が隣の農場にも広がるまいかと、養鶏業者は車両を徹底的に消毒した。",
+      "sentenceWithBlank": "感染症が隣の農場にも広がる（　　　）と、養鶏業者は車両を徹底的に消毒した。",
+      "korean": "감염병이 이웃 농장에도 퍼지지 않을까 하여 양계업자는 차량을 철저히 소독했다.",
+      "answerChoiceId": "fb-created-n2-148-09-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-148-09-a",
+          "text": "まいか",
+          "grammarId": "n2-148",
+          "baseExpression": "まいか",
+          "conjugatedExpression": "まいか",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-148-09-b",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-148-09-c",
+          "text": "ようではないか",
+          "grammarId": "n2-165",
+          "baseExpression": "ようではないか",
+          "conjugatedExpression": "ようではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-148-09-d",
+          "text": "ようとしている",
+          "grammarId": "n2-166",
+          "baseExpression": "ようとしている",
+          "conjugatedExpression": "ようとしている",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '감염병이 이웃 농장에도 퍼지지 않을까 하여 양계업자는 차량을 철저히 소독했다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
+      "sourceGrammarIds": [
+        "n2-148",
+        "n2-164",
+        "n2-165",
+        "n2-166"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-148-10",
+      "level": "N2",
+      "sentence": "機密情報が競合他社に漏れるまいかと、経営陣はアクセス権限を見直した。",
+      "sentenceWithBlank": "機密情報が競合他社に漏れる（　　　）と、経営陣はアクセス権限を見直した。",
+      "korean": "기밀 정보가 경쟁사에 유출되지 않을까 하여 경영진은 접근 권한을 재검토했다.",
+      "answerChoiceId": "fb-created-n2-148-10-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-148-10-b",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-148-10-c",
+          "text": "ようではないか",
+          "grammarId": "n2-165",
+          "baseExpression": "ようではないか",
+          "conjugatedExpression": "ようではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-148-10-d",
+          "text": "ようとしている",
+          "grammarId": "n2-166",
+          "baseExpression": "ようとしている",
+          "conjugatedExpression": "ようとしている",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-148-10-a",
+          "text": "まいか",
+          "grammarId": "n2-148",
+          "baseExpression": "まいか",
+          "conjugatedExpression": "まいか",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '기밀 정보가 경쟁사에 유출되지 않을까 하여 경영진은 접근 권한을 재검토했다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
+      "sourceGrammarIds": [
+        "n2-148",
+        "n2-164",
+        "n2-165",
+        "n2-166"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-148-11",
+      "level": "N2",
+      "sentence": "老朽化した配管が真冬に破裂するまいかと、大家は業者に点検を頼んだ。",
+      "sentenceWithBlank": "老朽化した配管が真冬に破裂する（　　　）と、大家は業者に点検を頼んだ。",
+      "korean": "노후한 배관이 한겨울에 파열되지 않을까 하여 집주인은 업체에 점검을 부탁했다.",
+      "answerChoiceId": "fb-created-n2-148-11-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-148-11-c",
+          "text": "ようではないか",
+          "grammarId": "n2-165",
+          "baseExpression": "ようではないか",
+          "conjugatedExpression": "ようではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-148-11-d",
+          "text": "ようとしている",
+          "grammarId": "n2-166",
+          "baseExpression": "ようとしている",
+          "conjugatedExpression": "ようとしている",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-148-11-a",
+          "text": "まいか",
+          "grammarId": "n2-148",
+          "baseExpression": "まいか",
+          "conjugatedExpression": "まいか",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-148-11-b",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '노후한 배관이 한겨울에 파열되지 않을까 하여 집주인은 업체에 점검을 부탁했다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
+      "sourceGrammarIds": [
+        "n2-148",
+        "n2-164",
+        "n2-165",
+        "n2-166"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-148-12",
+      "level": "N2",
+      "sentence": "突然の増水で川沿いの遊歩道が水没するまいかと、市は入口を封鎖した。",
+      "sentenceWithBlank": "突然の増水で川沿いの遊歩道が水没する（　　　）と、市は入口を封鎖した。",
+      "korean": "갑작스러운 수위 상승으로 강변 산책로가 물에 잠기지 않을까 하여 시는 입구를 폐쇄했다.",
+      "answerChoiceId": "fb-created-n2-148-12-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-148-12-d",
+          "text": "ようとしている",
+          "grammarId": "n2-166",
+          "baseExpression": "ようとしている",
+          "conjugatedExpression": "ようとしている",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-148-12-a",
+          "text": "まいか",
+          "grammarId": "n2-148",
+          "baseExpression": "まいか",
+          "conjugatedExpression": "まいか",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-148-12-b",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-148-12-c",
+          "text": "ようではないか",
+          "grammarId": "n2-165",
+          "baseExpression": "ようではないか",
+          "conjugatedExpression": "ようではないか",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '갑작스러운 수위 상승으로 강변 산책로가 물에 잠기지 않을까 하여 시는 입구를 폐쇄했다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
+      "sourceGrammarIds": [
+        "n2-148",
+        "n2-164",
+        "n2-165",
+        "n2-166"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-148-13",
+      "level": "N2",
+      "sentence": "急な減速で積み荷が荷台から落ちるまいかと、運転手は固定具を確かめた。",
+      "sentenceWithBlank": "急な減速で積み荷が荷台から落ちる（　　　）と、運転手は固定具を確かめた。",
+      "korean": "갑작스러운 감속으로 화물이 적재함에서 떨어지지 않을까 하여 운전기사는 고정 장치를 확인했다.",
+      "answerChoiceId": "fb-created-n2-148-13-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-148-13-a",
+          "text": "まいか",
+          "grammarId": "n2-148",
+          "baseExpression": "まいか",
+          "conjugatedExpression": "まいか",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-148-13-b",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-148-13-c",
+          "text": "ようではないか",
+          "grammarId": "n2-165",
+          "baseExpression": "ようではないか",
+          "conjugatedExpression": "ようではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-148-13-d",
+          "text": "ようとしている",
+          "grammarId": "n2-166",
+          "baseExpression": "ようとしている",
+          "conjugatedExpression": "ようとしている",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '갑작스러운 감속으로 화물이 적재함에서 떨어지지 않을까 하여 운전기사는 고정 장치를 확인했다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
+      "sourceGrammarIds": [
+        "n2-148",
+        "n2-164",
+        "n2-165",
+        "n2-166"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-148-14",
+      "level": "N2",
+      "sentence": "長時間の停電で冷凍庫の商品が傷むまいかと、店長は発電機を手配した。",
+      "sentenceWithBlank": "長時間の停電で冷凍庫の商品が傷む（　　　）と、店長は発電機を手配した。",
+      "korean": "장시간 정전으로 냉동고의 상품이 상하지 않을까 하여 점장은 발전기를 마련했다.",
+      "answerChoiceId": "fb-created-n2-148-14-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-148-14-b",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-148-14-c",
+          "text": "ようではないか",
+          "grammarId": "n2-165",
+          "baseExpression": "ようではないか",
+          "conjugatedExpression": "ようではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-148-14-d",
+          "text": "ようとしている",
+          "grammarId": "n2-166",
+          "baseExpression": "ようとしている",
+          "conjugatedExpression": "ようとしている",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-148-14-a",
+          "text": "まいか",
+          "grammarId": "n2-148",
+          "baseExpression": "まいか",
+          "conjugatedExpression": "まいか",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '장시간 정전으로 냉동고의 상품이 상하지 않을까 하여 점장은 발전기를 마련했다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
+      "sourceGrammarIds": [
+        "n2-148",
+        "n2-164",
+        "n2-165",
+        "n2-166"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-148-15",
+      "level": "N2",
+      "sentence": "大幅な設計変更で橋の完成が遅れるまいかと、住民は工期を問い合わせた。",
+      "sentenceWithBlank": "大幅な設計変更で橋の完成が遅れる（　　　）と、住民は工期を問い合わせた。",
+      "korean": "대폭적인 설계 변경으로 다리 완공이 늦어지지 않을까 하여 주민들은 공사 기간을 문의했다.",
+      "answerChoiceId": "fb-created-n2-148-15-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-148-15-c",
+          "text": "ようではないか",
+          "grammarId": "n2-165",
+          "baseExpression": "ようではないか",
+          "conjugatedExpression": "ようではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-148-15-d",
+          "text": "ようとしている",
+          "grammarId": "n2-166",
+          "baseExpression": "ようとしている",
+          "conjugatedExpression": "ようとしている",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-148-15-a",
+          "text": "まいか",
+          "grammarId": "n2-148",
+          "baseExpression": "まいか",
+          "conjugatedExpression": "まいか",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-148-15-b",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '대폭적인 설계 변경으로 다리 완공이 늦어지지 않을까 하여 주민들은 공사 기간을 문의했다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
+      "sourceGrammarIds": [
+        "n2-148",
+        "n2-164",
+        "n2-165",
+        "n2-166"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-148-16",
+      "level": "N2",
+      "sentence": "激しい振動で展示中の陶器にひびが入るまいかと、学芸員は台座を補強した。",
+      "sentenceWithBlank": "激しい振動で展示中の陶器にひびが入る（　　　）と、学芸員は台座を補強した。",
+      "korean": "심한 진동으로 전시 중인 도자기에 금이 가지 않을까 하여 학예사는 받침대를 보강했다.",
+      "answerChoiceId": "fb-created-n2-148-16-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-148-16-d",
+          "text": "ようとしている",
+          "grammarId": "n2-166",
+          "baseExpression": "ようとしている",
+          "conjugatedExpression": "ようとしている",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-148-16-a",
+          "text": "まいか",
+          "grammarId": "n2-148",
+          "baseExpression": "まいか",
+          "conjugatedExpression": "まいか",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-148-16-b",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-148-16-c",
+          "text": "ようではないか",
+          "grammarId": "n2-165",
+          "baseExpression": "ようではないか",
+          "conjugatedExpression": "ようではないか",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '심한 진동으로 전시 중인 도자기에 금이 가지 않을까 하여 학예사는 받침대를 보강했다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
+      "sourceGrammarIds": [
+        "n2-148",
+        "n2-164",
+        "n2-165",
+        "n2-166"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-148-17",
+      "level": "N2",
+      "sentence": "弟が甘い勧誘に乗るまいかと、姉は契約書を先に確認した。",
+      "sentenceWithBlank": "弟が甘い勧誘に乗る（　　　）と、姉は契約書を先に確認した。",
+      "korean": "남동생이 달콤한 권유에 넘어가지 않을까 하여 누나는 계약서를 먼저 확인했다.",
+      "answerChoiceId": "fb-created-n2-148-17-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-148-17-a",
+          "text": "まいか",
+          "grammarId": "n2-148",
+          "baseExpression": "まいか",
+          "conjugatedExpression": "まいか",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-148-17-b",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-148-17-c",
+          "text": "ようではないか",
+          "grammarId": "n2-165",
+          "baseExpression": "ようではないか",
+          "conjugatedExpression": "ようではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-148-17-d",
+          "text": "ようとしている",
+          "grammarId": "n2-166",
+          "baseExpression": "ようとしている",
+          "conjugatedExpression": "ようとしている",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '남동생이 달콤한 권유에 넘어가지 않을까 하여 누나는 계약서를 먼저 확인했다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
+      "sourceGrammarIds": [
+        "n2-148",
+        "n2-164",
+        "n2-165",
+        "n2-166"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-148-18",
+      "level": "N2",
+      "sentence": "強い照明で貴重な絵画が変色するまいかと、保存担当者は照度を下げた。",
+      "sentenceWithBlank": "強い照明で貴重な絵画が変色する（　　　）と、保存担当者は照度を下げた。",
+      "korean": "강한 조명으로 귀중한 그림이 변색되지 않을까 하여 보존 담당자는 조도를 낮췄다.",
+      "answerChoiceId": "fb-created-n2-148-18-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-148-18-b",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-148-18-c",
+          "text": "ようではないか",
+          "grammarId": "n2-165",
+          "baseExpression": "ようではないか",
+          "conjugatedExpression": "ようではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-148-18-d",
+          "text": "ようとしている",
+          "grammarId": "n2-166",
+          "baseExpression": "ようとしている",
+          "conjugatedExpression": "ようとしている",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-148-18-a",
+          "text": "まいか",
+          "grammarId": "n2-148",
+          "baseExpression": "まいか",
+          "conjugatedExpression": "まいか",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '강한 조명으로 귀중한 그림이 변색되지 않을까 하여 보존 담당자는 조도를 낮췄다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
+      "sourceGrammarIds": [
+        "n2-148",
+        "n2-164",
+        "n2-165",
+        "n2-166"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-148-19",
+      "level": "N2",
+      "sentence": "批判的な記事で寄付者の信頼を失うまいかと、団体は声明を慎重に練った。",
+      "sentenceWithBlank": "批判的な記事で寄付者の信頼を失う（　　　）と、団体は声明を慎重に練った。",
+      "korean": "비판적인 기사로 기부자들의 신뢰를 잃지 않을까 하여 단체는 성명을 신중히 다듬었다.",
+      "answerChoiceId": "fb-created-n2-148-19-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-148-19-c",
+          "text": "ようではないか",
+          "grammarId": "n2-165",
+          "baseExpression": "ようではないか",
+          "conjugatedExpression": "ようではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-148-19-d",
+          "text": "ようとしている",
+          "grammarId": "n2-166",
+          "baseExpression": "ようとしている",
+          "conjugatedExpression": "ようとしている",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-148-19-a",
+          "text": "まいか",
+          "grammarId": "n2-148",
+          "baseExpression": "まいか",
+          "conjugatedExpression": "まいか",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-148-19-b",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '비판적인 기사로 기부자들의 신뢰를 잃지 않을까 하여 단체는 성명을 신중히 다듬었다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
+      "sourceGrammarIds": [
+        "n2-148",
+        "n2-164",
+        "n2-165",
+        "n2-166"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-148-20",
+      "level": "N2",
+      "sentence": "不慣れな土地で祖母が道に迷うまいかと、孫は詳しい地図を渡した。",
+      "sentenceWithBlank": "不慣れな土地で祖母が道に迷う（　　　）と、孫は詳しい地図を渡した。",
+      "korean": "낯선 지역에서 할머니가 길을 헤매지 않을까 하여 손주는 상세한 지도를 건넸다.",
+      "answerChoiceId": "fb-created-n2-148-20-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-148-20-d",
+          "text": "ようとしている",
+          "grammarId": "n2-166",
+          "baseExpression": "ようとしている",
+          "conjugatedExpression": "ようとしている",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-148-20-a",
+          "text": "まいか",
+          "grammarId": "n2-148",
+          "baseExpression": "まいか",
+          "conjugatedExpression": "まいか",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-148-20-b",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-148-20-c",
+          "text": "ようではないか",
+          "grammarId": "n2-165",
+          "baseExpression": "ようではないか",
+          "conjugatedExpression": "ようではないか",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '낯선 지역에서 할머니가 길을 헤매지 않을까 하여 손주는 상세한 지도를 건넸다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
+      "sourceGrammarIds": [
+        "n2-148",
+        "n2-164",
+        "n2-165",
+        "n2-166"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-148-21",
+      "level": "N2",
+      "sentence": "原材料の高騰で新商品の採算が取れなくなるまいかと、企画部は価格を再計算した。",
+      "sentenceWithBlank": "原材料の高騰で新商品の採算が取れなくなる（　　　）と、企画部は価格を再計算した。",
+      "korean": "원자재 가격 상승으로 신상품의 수지가 맞지 않게 되지 않을까 하여 기획부는 가격을 다시 계산했다.",
+      "answerChoiceId": "fb-created-n2-148-21-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-148-21-a",
+          "text": "まいか",
+          "grammarId": "n2-148",
+          "baseExpression": "まいか",
+          "conjugatedExpression": "まいか",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-148-21-b",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-148-21-c",
+          "text": "ようではないか",
+          "grammarId": "n2-165",
+          "baseExpression": "ようではないか",
+          "conjugatedExpression": "ようではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-148-21-d",
+          "text": "ようとしている",
+          "grammarId": "n2-166",
+          "baseExpression": "ようとしている",
+          "conjugatedExpression": "ようとしている",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '원자재 가격 상승으로 신상품의 수지가 맞지 않게 되지 않을까 하여 기획부는 가격을 다시 계산했다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
+      "sourceGrammarIds": [
+        "n2-148",
+        "n2-164",
+        "n2-165",
+        "n2-166"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-148-22",
+      "level": "N2",
+      "sentence": "夜道で自転車が歩行者に衝突するまいかと、警備員は無灯火の若者を呼び止めた。",
+      "sentenceWithBlank": "夜道で自転車が歩行者に衝突する（　　　）と、警備員は無灯火の若者を呼び止めた。",
+      "korean": "밤길에서 자전거가 보행자와 충돌하지 않을까 하여 경비원은 불을 켜지 않은 젊은이를 불러 세웠다.",
+      "answerChoiceId": "fb-created-n2-148-22-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-148-22-b",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-148-22-c",
+          "text": "ようではないか",
+          "grammarId": "n2-165",
+          "baseExpression": "ようではないか",
+          "conjugatedExpression": "ようではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-148-22-d",
+          "text": "ようとしている",
+          "grammarId": "n2-166",
+          "baseExpression": "ようとしている",
+          "conjugatedExpression": "ようとしている",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-148-22-a",
+          "text": "まいか",
+          "grammarId": "n2-148",
+          "baseExpression": "まいか",
+          "conjugatedExpression": "まいか",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '밤길에서 자전거가 보행자와 충돌하지 않을까 하여 경비원은 불을 켜지 않은 젊은이를 불러 세웠다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
+      "sourceGrammarIds": [
+        "n2-148",
+        "n2-164",
+        "n2-165",
+        "n2-166"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-148-23",
+      "level": "N2",
+      "sentence": "慣れない環境で保護犬が餌を食べなくなるまいかと、飼育員は静かな部屋を用意した。",
+      "sentenceWithBlank": "慣れない環境で保護犬が餌を食べなくなる（　　　）と、飼育員は静かな部屋を用意した。",
+      "korean": "낯선 환경에서 구조된 개가 먹이를 먹지 않게 되지 않을까 하여 사육사는 조용한 방을 마련했다.",
+      "answerChoiceId": "fb-created-n2-148-23-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-148-23-c",
+          "text": "ようではないか",
+          "grammarId": "n2-165",
+          "baseExpression": "ようではないか",
+          "conjugatedExpression": "ようではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-148-23-d",
+          "text": "ようとしている",
+          "grammarId": "n2-166",
+          "baseExpression": "ようとしている",
+          "conjugatedExpression": "ようとしている",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-148-23-a",
+          "text": "まいか",
+          "grammarId": "n2-148",
+          "baseExpression": "まいか",
+          "conjugatedExpression": "まいか",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-148-23-b",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '낯선 환경에서 구조된 개가 먹이를 먹지 않게 되지 않을까 하여 사육사는 조용한 방을 마련했다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
+      "sourceGrammarIds": [
+        "n2-148",
+        "n2-164",
+        "n2-165",
+        "n2-166"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-148-24",
+      "level": "N2",
+      "sentence": "古い堤防から海水が浸入するまいかと、漁師たちは土のうを積み上げた。",
+      "sentenceWithBlank": "古い堤防から海水が浸入する（　　　）と、漁師たちは土のうを積み上げた。",
+      "korean": "낡은 제방으로 바닷물이 들어오지 않을까 하여 어부들은 모래주머니를 쌓아 올렸다.",
+      "answerChoiceId": "fb-created-n2-148-24-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-148-24-d",
+          "text": "ようとしている",
+          "grammarId": "n2-166",
+          "baseExpression": "ようとしている",
+          "conjugatedExpression": "ようとしている",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-148-24-a",
+          "text": "まいか",
+          "grammarId": "n2-148",
+          "baseExpression": "まいか",
+          "conjugatedExpression": "まいか",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-148-24-b",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-148-24-c",
+          "text": "ようではないか",
+          "grammarId": "n2-165",
+          "baseExpression": "ようではないか",
+          "conjugatedExpression": "ようではないか",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '낡은 제방으로 바닷물이 들어오지 않을까 하여 어부들은 모래주머니를 쌓아 올렸다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
+      "sourceGrammarIds": [
+        "n2-148",
+        "n2-164",
+        "n2-165",
+        "n2-166"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-148-25",
+      "level": "N2",
+      "sentence": "不正確な噂が被災者を混乱させるまいかと、自治体は公式情報をすぐに公開した。",
+      "sentenceWithBlank": "不正確な噂が被災者を混乱させる（　　　）と、自治体は公式情報をすぐに公開した。",
+      "korean": "부정확한 소문이 이재민들을 혼란스럽게 하지 않을까 하여 지방자치단체는 공식 정보를 즉시 공개했다.",
+      "answerChoiceId": "fb-created-n2-148-25-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-148-25-a",
+          "text": "まいか",
+          "grammarId": "n2-148",
+          "baseExpression": "まいか",
+          "conjugatedExpression": "まいか",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-148-25-b",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-148-25-c",
+          "text": "ようではないか",
+          "grammarId": "n2-165",
+          "baseExpression": "ようではないか",
+          "conjugatedExpression": "ようではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-148-25-d",
+          "text": "ようとしている",
+          "grammarId": "n2-166",
+          "baseExpression": "ようとしている",
+          "conjugatedExpression": "ようとしている",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '부정확한 소문이 이재민들을 혼란스럽게 하지 않을까 하여 지방자치단체는 공식 정보를 즉시 공개했다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
+      "sourceGrammarIds": [
+        "n2-148",
+        "n2-164",
+        "n2-165",
+        "n2-166"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
       ]
     }
   ],
@@ -1834,1103 +1809,1153 @@
       ]
     },
     {
-      "id": "so-extra-n2-148-1",
+      "id": "so-created-n2-148-01",
       "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlanks": "____ ____ ____ ____ と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
+      "sentence": "強風で港の古い倉庫が倒れまいかと、管理人は夜通し見回った。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 夜通し見回った。",
+      "korean": "강풍에 항구의 낡은 창고가 쓰러지지 않을까 하여 관리인은 밤새 순찰했다.",
       "pieces": [
         {
-          "id": "so-extra-n2-148-1-p3",
-          "text": "配だ",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-148-1-p4",
-          "text": "降る",
+          "id": "so-created-n2-148-01-p1",
+          "text": "強風で港の",
           "order": 1
         },
         {
-          "id": "so-extra-n2-148-1-p1",
-          "text": "まいか",
+          "id": "so-created-n2-148-01-p2",
+          "text": "古い倉庫が",
           "order": 2
         },
         {
-          "id": "so-extra-n2-148-1-p2",
-          "text": "と心",
+          "id": "so-created-n2-148-01-p3",
+          "text": "倒れまいか",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-148-01-p4",
+          "text": "と、管理人は",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-148-1-p4",
-        "so-extra-n2-148-1-p1",
-        "so-extra-n2-148-1-p2",
-        "so-extra-n2-148-1-p3"
+        "so-created-n2-148-01-p1",
+        "so-created-n2-148-01-p2",
+        "so-created-n2-148-01-p3",
+        "so-created-n2-148-01-p4"
       ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '강풍에 항구의 낡은 창고가 쓰러지지 않을까 하여 관리인은 밤새 순찰했다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
       "sourceGrammarIds": [
-        "n2-148"
+        "n2-148",
+        "n2-164",
+        "n2-165",
+        "n2-166"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-148-2",
+      "id": "so-created-n2-148-02",
       "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlanks": "____ ____ ____ ____ と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
+      "sentence": "幼い息子が迷子になるまいかと、父親は人混みでその手を固く握った。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 手を固く握った。",
+      "korean": "어린 아들이 길을 잃지 않을까 하여 아버지는 인파 속에서 아이의 손을 꼭 잡았다.",
       "pieces": [
         {
-          "id": "so-extra-n2-148-2-p4",
-          "text": "まいか",
-          "order": 2
-        },
-        {
-          "id": "so-extra-n2-148-2-p1",
-          "text": "と心",
-          "order": 3
-        },
-        {
-          "id": "so-extra-n2-148-2-p2",
-          "text": "配だ",
+          "id": "so-created-n2-148-02-p4",
+          "text": "人混みでその",
           "order": 4
         },
         {
-          "id": "so-extra-n2-148-2-p3",
-          "text": "降る",
+          "id": "so-created-n2-148-02-p1",
+          "text": "幼い息子が",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-148-02-p2",
+          "text": "迷子になる",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-148-02-p3",
+          "text": "まいかと、父親は",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-148-2-p3",
-        "so-extra-n2-148-2-p4",
-        "so-extra-n2-148-2-p1",
-        "so-extra-n2-148-2-p2"
+        "so-created-n2-148-02-p1",
+        "so-created-n2-148-02-p2",
+        "so-created-n2-148-02-p3",
+        "so-created-n2-148-02-p4"
       ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '어린 아들이 길을 잃지 않을까 하여 아버지는 인파 속에서 아이의 손을 꼭 잡았다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
       "sourceGrammarIds": [
-        "n2-148"
+        "n2-148",
+        "n2-164",
+        "n2-165",
+        "n2-166"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-148-3",
+      "id": "so-created-n2-148-03",
       "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlanks": "____ ____ ____ ____ と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
+      "sentence": "長引く日照りで井戸まで枯れるまいかと、村人たちは水の使用を控えた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 水の使用を控えた。",
+      "korean": "긴 가뭄으로 우물마저 마르지 않을까 하여 마을 사람들은 물 사용을 줄였다.",
       "pieces": [
         {
-          "id": "so-extra-n2-148-3-p1",
-          "text": "配だ",
+          "id": "so-created-n2-148-03-p3",
+          "text": "まいかと、",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-148-03-p4",
+          "text": "村人たちは",
           "order": 4
         },
         {
-          "id": "so-extra-n2-148-3-p2",
-          "text": "降る",
+          "id": "so-created-n2-148-03-p1",
+          "text": "長引く日照りで",
           "order": 1
         },
         {
-          "id": "so-extra-n2-148-3-p3",
-          "text": "まいか",
+          "id": "so-created-n2-148-03-p2",
+          "text": "井戸まで枯れる",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-148-3-p4",
-          "text": "と心",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-148-3-p2",
-        "so-extra-n2-148-3-p3",
-        "so-extra-n2-148-3-p4",
-        "so-extra-n2-148-3-p1"
+        "so-created-n2-148-03-p1",
+        "so-created-n2-148-03-p2",
+        "so-created-n2-148-03-p3",
+        "so-created-n2-148-03-p4"
       ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '긴 가뭄으로 우물마저 마르지 않을까 하여 마을 사람들은 물 사용을 줄였다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
       "sourceGrammarIds": [
-        "n2-148"
+        "n2-148",
+        "n2-164",
+        "n2-165",
+        "n2-166"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-148-4",
+      "id": "so-created-n2-148-04",
       "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlanks": "____ ____ ____ ____ と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
+      "sentence": "些細な言い争いが両家の対立に発展するまいかと、叔父が仲裁に入った。",
+      "sentenceWithBlanks": "些細な言い争いが ____ ____ ____ ____ 入った。",
+      "korean": "사소한 말다툼이 양가의 대립으로 번지지 않을까 하여 삼촌이 중재에 나섰다.",
       "pieces": [
         {
-          "id": "so-extra-n2-148-4-p2",
-          "text": "まいか",
+          "id": "so-created-n2-148-04-p2",
+          "text": "発展する",
           "order": 2
         },
         {
-          "id": "so-extra-n2-148-4-p3",
-          "text": "と心",
+          "id": "so-created-n2-148-04-p3",
+          "text": "まいかと、",
           "order": 3
         },
         {
-          "id": "so-extra-n2-148-4-p4",
-          "text": "配だ",
+          "id": "so-created-n2-148-04-p4",
+          "text": "叔父が仲裁に",
           "order": 4
         },
         {
-          "id": "so-extra-n2-148-4-p1",
-          "text": "降る",
+          "id": "so-created-n2-148-04-p1",
+          "text": "両家の対立に",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-148-4-p1",
-        "so-extra-n2-148-4-p2",
-        "so-extra-n2-148-4-p3",
-        "so-extra-n2-148-4-p4"
+        "so-created-n2-148-04-p1",
+        "so-created-n2-148-04-p2",
+        "so-created-n2-148-04-p3",
+        "so-created-n2-148-04-p4"
       ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '사소한 말다툼이 양가의 대립으로 번지지 않을까 하여 삼촌이 중재에 나섰다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
       "sourceGrammarIds": [
-        "n2-148"
+        "n2-148",
+        "n2-164",
+        "n2-165",
+        "n2-166"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-148-5",
+      "id": "so-created-n2-148-05",
       "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlanks": "____ ____ ____ ____ と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
+      "sentence": "値下げ競争で町の商店が次々に閉店するまいかと、商店会は対策を協議した。",
+      "sentenceWithBlanks": "値下げ競争で町の ____ ____ ____ ____ 協議した。",
+      "korean": "가격 인하 경쟁으로 동네 상점들이 잇따라 문을 닫지 않을까 하여 상인회는 대책을 논의했다.",
       "pieces": [
         {
-          "id": "so-extra-n2-148-5-p3",
-          "text": "配だ",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-148-5-p4",
-          "text": "降る",
+          "id": "so-created-n2-148-05-p1",
+          "text": "商店が次々に",
           "order": 1
         },
         {
-          "id": "so-extra-n2-148-5-p1",
-          "text": "まいか",
+          "id": "so-created-n2-148-05-p2",
+          "text": "閉店する",
           "order": 2
         },
         {
-          "id": "so-extra-n2-148-5-p2",
-          "text": "と心",
+          "id": "so-created-n2-148-05-p3",
+          "text": "まいかと、",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-148-05-p4",
+          "text": "商店会は対策を",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-148-5-p4",
-        "so-extra-n2-148-5-p1",
-        "so-extra-n2-148-5-p2",
-        "so-extra-n2-148-5-p3"
+        "so-created-n2-148-05-p1",
+        "so-created-n2-148-05-p2",
+        "so-created-n2-148-05-p3",
+        "so-created-n2-148-05-p4"
       ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '가격 인하 경쟁으로 동네 상점들이 잇따라 문을 닫지 않을까 하여 상인회는 대책을 논의했다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
       "sourceGrammarIds": [
-        "n2-148"
+        "n2-148",
+        "n2-164",
+        "n2-165",
+        "n2-166"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-148-01",
+      "id": "so-created-n2-148-06",
       "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlanks": "____ ____ ____ ____ と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
+      "sentence": "投薬後に患者の血圧が急激に下がるまいかと、看護師は数値を注視した。",
+      "sentenceWithBlanks": "投薬後に ____ ____ ____ ____ 数値を注視した。",
+      "korean": "투약 후 환자의 혈압이 급격히 떨어지지 않을까 하여 간호사는 수치를 주시했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-148-01-p3",
-          "text": "配だ",
+          "id": "so-created-n2-148-06-p4",
+          "text": "看護師は",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-148-01-p4",
-          "text": "降る",
+          "id": "so-created-n2-148-06-p1",
+          "text": "患者の血圧が",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-148-01-p1",
-          "text": "まいか",
+          "id": "so-created-n2-148-06-p2",
+          "text": "急激に下がる",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-148-01-p2",
-          "text": "と心",
+          "id": "so-created-n2-148-06-p3",
+          "text": "まいかと、",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-148-01-p4",
-        "so-extra20-n2-148-01-p1",
-        "so-extra20-n2-148-01-p2",
-        "so-extra20-n2-148-01-p3"
+        "so-created-n2-148-06-p1",
+        "so-created-n2-148-06-p2",
+        "so-created-n2-148-06-p3",
+        "so-created-n2-148-06-p4"
       ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '투약 후 환자의 혈압이 급격히 떨어지지 않을까 하여 간호사는 수치를 주시했다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
       "sourceGrammarIds": [
-        "n2-148"
+        "n2-148",
+        "n2-164",
+        "n2-165",
+        "n2-166"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-148-02",
+      "id": "so-created-n2-148-07",
       "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlanks": "____ ____ ____ ____ と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
+      "sentence": "この失言が外交問題を招くまいかと、報道官の表情には緊張が浮かんだ。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 表情には緊張が浮かんだ。",
+      "korean": "이 실언이 외교 문제를 초래하지 않을까 하여 대변인의 표정에는 긴장감이 떠올랐다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-148-02-p2",
-          "text": "配だ",
+          "id": "so-created-n2-148-07-p3",
+          "text": "招くまいか",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-148-07-p4",
+          "text": "と、報道官の",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-148-02-p3",
-          "text": "降る",
+          "id": "so-created-n2-148-07-p1",
+          "text": "この失言が",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-148-02-p4",
-          "text": "まいか",
+          "id": "so-created-n2-148-07-p2",
+          "text": "外交問題を",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-148-02-p1",
-          "text": "と心",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-148-02-p3",
-        "so-extra20-n2-148-02-p4",
-        "so-extra20-n2-148-02-p1",
-        "so-extra20-n2-148-02-p2"
+        "so-created-n2-148-07-p1",
+        "so-created-n2-148-07-p2",
+        "so-created-n2-148-07-p3",
+        "so-created-n2-148-07-p4"
       ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '이 실언이 외교 문제를 초래하지 않을까 하여 대변인의 표정에는 긴장감이 떠올랐다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
       "sourceGrammarIds": [
-        "n2-148"
+        "n2-148",
+        "n2-164",
+        "n2-165",
+        "n2-166"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-148-03",
+      "id": "so-created-n2-148-08",
       "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlanks": "____ ____ ____ ____ と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
+      "sentence": "雪の重みで山小屋の屋根が崩れるまいかと、登山隊は早めに下山した。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 登山隊は早めに下山した。",
+      "korean": "눈의 무게로 산장의 지붕이 무너지지 않을까 하여 등산대는 일찍 하산했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-148-03-p1",
-          "text": "配だ",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-148-03-p2",
-          "text": "降る",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-148-03-p3",
-          "text": "まいか",
+          "id": "so-created-n2-148-08-p2",
+          "text": "山小屋の",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-148-03-p4",
-          "text": "と心",
+          "id": "so-created-n2-148-08-p3",
+          "text": "屋根が崩れる",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-148-08-p4",
+          "text": "まいかと、",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-148-08-p1",
+          "text": "雪の重みで",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-148-03-p2",
-        "so-extra20-n2-148-03-p3",
-        "so-extra20-n2-148-03-p4",
-        "so-extra20-n2-148-03-p1"
+        "so-created-n2-148-08-p1",
+        "so-created-n2-148-08-p2",
+        "so-created-n2-148-08-p3",
+        "so-created-n2-148-08-p4"
       ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '눈의 무게로 산장의 지붕이 무너지지 않을까 하여 등산대는 일찍 하산했다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
       "sourceGrammarIds": [
-        "n2-148"
+        "n2-148",
+        "n2-164",
+        "n2-165",
+        "n2-166"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-148-04",
+      "id": "so-created-n2-148-09",
       "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlanks": "____ ____ ____ ____ と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
+      "sentence": "感染症が隣の農場にも広がるまいかと、養鶏業者は車両を徹底的に消毒した。",
+      "sentenceWithBlanks": "感染症が隣の ____ ____ ____ ____ 徹底的に消毒した。",
+      "korean": "감염병이 이웃 농장에도 퍼지지 않을까 하여 양계업자는 차량을 철저히 소독했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-148-04-p4",
-          "text": "配だ",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-148-04-p1",
-          "text": "降る",
+          "id": "so-created-n2-148-09-p1",
+          "text": "農場にも",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-148-04-p2",
-          "text": "まいか",
+          "id": "so-created-n2-148-09-p2",
+          "text": "広がるまいか",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-148-04-p3",
-          "text": "と心",
+          "id": "so-created-n2-148-09-p3",
+          "text": "と、養鶏",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-148-09-p4",
+          "text": "業者は車両を",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-148-04-p1",
-        "so-extra20-n2-148-04-p2",
-        "so-extra20-n2-148-04-p3",
-        "so-extra20-n2-148-04-p4"
+        "so-created-n2-148-09-p1",
+        "so-created-n2-148-09-p2",
+        "so-created-n2-148-09-p3",
+        "so-created-n2-148-09-p4"
       ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '감염병이 이웃 농장에도 퍼지지 않을까 하여 양계업자는 차량을 철저히 소독했다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
       "sourceGrammarIds": [
-        "n2-148"
+        "n2-148",
+        "n2-164",
+        "n2-165",
+        "n2-166"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-148-05",
+      "id": "so-created-n2-148-10",
       "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlanks": "____ ____ ____ ____ と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
+      "sentence": "機密情報が競合他社に漏れるまいかと、経営陣はアクセス権限を見直した。",
+      "sentenceWithBlanks": "機密 ____ ____ ____ ____ アクセス権限を見直した。",
+      "korean": "기밀 정보가 경쟁사에 유출되지 않을까 하여 경영진은 접근 권한을 재검토했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-148-05-p3",
-          "text": "配だ",
+          "id": "so-created-n2-148-10-p4",
+          "text": "経営陣は",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-148-05-p4",
-          "text": "降る",
+          "id": "so-created-n2-148-10-p1",
+          "text": "情報が競合",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-148-05-p1",
-          "text": "まいか",
+          "id": "so-created-n2-148-10-p2",
+          "text": "他社に漏れる",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-148-05-p2",
-          "text": "と心",
+          "id": "so-created-n2-148-10-p3",
+          "text": "まいかと、",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-148-05-p4",
-        "so-extra20-n2-148-05-p1",
-        "so-extra20-n2-148-05-p2",
-        "so-extra20-n2-148-05-p3"
+        "so-created-n2-148-10-p1",
+        "so-created-n2-148-10-p2",
+        "so-created-n2-148-10-p3",
+        "so-created-n2-148-10-p4"
       ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '기밀 정보가 경쟁사에 유출되지 않을까 하여 경영진은 접근 권한을 재검토했다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
       "sourceGrammarIds": [
-        "n2-148"
+        "n2-148",
+        "n2-164",
+        "n2-165",
+        "n2-166"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-148-06",
+      "id": "so-created-n2-148-11",
       "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlanks": "____ ____ ____ ____ と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
+      "sentence": "老朽化した配管が真冬に破裂するまいかと、大家は業者に点検を頼んだ。",
+      "sentenceWithBlanks": "老朽化した配管が ____ ____ ____ ____ 頼んだ。",
+      "korean": "노후한 배관이 한겨울에 파열되지 않을까 하여 집주인은 업체에 점검을 부탁했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-148-06-p2",
-          "text": "と心",
+          "id": "so-created-n2-148-11-p3",
+          "text": "と、大家は",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-148-06-p3",
-          "text": "配だ",
+          "id": "so-created-n2-148-11-p4",
+          "text": "業者に点検を",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-148-06-p4",
-          "text": "降る",
+          "id": "so-created-n2-148-11-p1",
+          "text": "真冬に",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-148-06-p1",
-          "text": "まいか",
+          "id": "so-created-n2-148-11-p2",
+          "text": "破裂するまいか",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-148-06-p4",
-        "so-extra20-n2-148-06-p1",
-        "so-extra20-n2-148-06-p2",
-        "so-extra20-n2-148-06-p3"
+        "so-created-n2-148-11-p1",
+        "so-created-n2-148-11-p2",
+        "so-created-n2-148-11-p3",
+        "so-created-n2-148-11-p4"
       ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '노후한 배관이 한겨울에 파열되지 않을까 하여 집주인은 업체에 점검을 부탁했다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
       "sourceGrammarIds": [
-        "n2-148"
+        "n2-148",
+        "n2-164",
+        "n2-165",
+        "n2-166"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-148-07",
+      "id": "so-created-n2-148-12",
       "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlanks": "____ ____ ____ ____ と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
+      "sentence": "突然の増水で川沿いの遊歩道が水没するまいかと、市は入口を封鎖した。",
+      "sentenceWithBlanks": "突然の増水で ____ ____ ____ ____ 封鎖した。",
+      "korean": "갑작스러운 수위 상승으로 강변 산책로가 물에 잠기지 않을까 하여 시는 입구를 폐쇄했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-148-07-p1",
-          "text": "と心",
+          "id": "so-created-n2-148-12-p2",
+          "text": "遊歩道が",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-148-12-p3",
+          "text": "水没するまいか",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-148-07-p2",
-          "text": "配だ",
+          "id": "so-created-n2-148-12-p4",
+          "text": "と、市は入口を",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-148-07-p3",
-          "text": "降る",
+          "id": "so-created-n2-148-12-p1",
+          "text": "川沿いの",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-148-07-p4",
-          "text": "まいか",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-148-07-p3",
-        "so-extra20-n2-148-07-p4",
-        "so-extra20-n2-148-07-p1",
-        "so-extra20-n2-148-07-p2"
+        "so-created-n2-148-12-p1",
+        "so-created-n2-148-12-p2",
+        "so-created-n2-148-12-p3",
+        "so-created-n2-148-12-p4"
       ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '갑작스러운 수위 상승으로 강변 산책로가 물에 잠기지 않을까 하여 시는 입구를 폐쇄했다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
       "sourceGrammarIds": [
-        "n2-148"
+        "n2-148",
+        "n2-164",
+        "n2-165",
+        "n2-166"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-148-08",
+      "id": "so-created-n2-148-13",
       "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlanks": "____ ____ ____ ____ と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
+      "sentence": "急な減速で積み荷が荷台から落ちるまいかと、運転手は固定具を確かめた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 運転手は固定具を確かめた。",
+      "korean": "갑작스러운 감속으로 화물이 적재함에서 떨어지지 않을까 하여 운전기사는 고정 장치를 확인했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-148-08-p4",
-          "text": "と心",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-148-08-p1",
-          "text": "配だ",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-148-08-p2",
-          "text": "降る",
+          "id": "so-created-n2-148-13-p1",
+          "text": "急な減速で",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-148-08-p3",
-          "text": "まいか",
+          "id": "so-created-n2-148-13-p2",
+          "text": "積み荷が",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-148-13-p3",
+          "text": "荷台から落ちる",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-148-13-p4",
+          "text": "まいかと、",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-148-08-p2",
-        "so-extra20-n2-148-08-p3",
-        "so-extra20-n2-148-08-p4",
-        "so-extra20-n2-148-08-p1"
+        "so-created-n2-148-13-p1",
+        "so-created-n2-148-13-p2",
+        "so-created-n2-148-13-p3",
+        "so-created-n2-148-13-p4"
       ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '갑작스러운 감속으로 화물이 적재함에서 떨어지지 않을까 하여 운전기사는 고정 장치를 확인했다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
       "sourceGrammarIds": [
-        "n2-148"
+        "n2-148",
+        "n2-164",
+        "n2-165",
+        "n2-166"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-148-09",
+      "id": "so-created-n2-148-14",
       "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlanks": "____ ____ ____ ____ と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
+      "sentence": "長時間の停電で冷凍庫の商品が傷むまいかと、店長は発電機を手配した。",
+      "sentenceWithBlanks": "長時間の停電で ____ ____ ____ ____ 手配した。",
+      "korean": "장시간 정전으로 냉동고의 상품이 상하지 않을까 하여 점장은 발전기를 마련했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-148-09-p3",
-          "text": "と心",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-148-09-p4",
-          "text": "配だ",
+          "id": "so-created-n2-148-14-p4",
+          "text": "店長は発電機を",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-148-09-p1",
-          "text": "降る",
+          "id": "so-created-n2-148-14-p1",
+          "text": "冷凍庫の",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-148-09-p2",
-          "text": "まいか",
+          "id": "so-created-n2-148-14-p2",
+          "text": "商品が傷む",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-148-14-p3",
+          "text": "まいかと、",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-148-09-p1",
-        "so-extra20-n2-148-09-p2",
-        "so-extra20-n2-148-09-p3",
-        "so-extra20-n2-148-09-p4"
+        "so-created-n2-148-14-p1",
+        "so-created-n2-148-14-p2",
+        "so-created-n2-148-14-p3",
+        "so-created-n2-148-14-p4"
       ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '장시간 정전으로 냉동고의 상품이 상하지 않을까 하여 점장은 발전기를 마련했다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
       "sourceGrammarIds": [
-        "n2-148"
+        "n2-148",
+        "n2-164",
+        "n2-165",
+        "n2-166"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-148-10",
+      "id": "so-created-n2-148-15",
       "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlanks": "____ ____ ____ ____ と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
+      "sentence": "大幅な設計変更で橋の完成が遅れるまいかと、住民は工期を問い合わせた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 住民は工期を問い合わせた。",
+      "korean": "대폭적인 설계 변경으로 다리 완공이 늦어지지 않을까 하여 주민들은 공사 기간을 문의했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-148-10-p2",
-          "text": "と心",
+          "id": "so-created-n2-148-15-p3",
+          "text": "完成が遅れる",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-148-10-p3",
-          "text": "配だ",
+          "id": "so-created-n2-148-15-p4",
+          "text": "まいかと、",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-148-10-p4",
-          "text": "降る",
+          "id": "so-created-n2-148-15-p1",
+          "text": "大幅な設計",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-148-10-p1",
-          "text": "まいか",
+          "id": "so-created-n2-148-15-p2",
+          "text": "変更で橋の",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-148-10-p4",
-        "so-extra20-n2-148-10-p1",
-        "so-extra20-n2-148-10-p2",
-        "so-extra20-n2-148-10-p3"
+        "so-created-n2-148-15-p1",
+        "so-created-n2-148-15-p2",
+        "so-created-n2-148-15-p3",
+        "so-created-n2-148-15-p4"
       ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '대폭적인 설계 변경으로 다리 완공이 늦어지지 않을까 하여 주민들은 공사 기간을 문의했다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
       "sourceGrammarIds": [
-        "n2-148"
+        "n2-148",
+        "n2-164",
+        "n2-165",
+        "n2-166"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-148-11",
+      "id": "so-created-n2-148-16",
       "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlanks": "____ ____ ____ ____ と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
+      "sentence": "激しい振動で展示中の陶器にひびが入るまいかと、学芸員は台座を補強した。",
+      "sentenceWithBlanks": "激しい振動で展示中の ____ ____ ____ ____",
+      "korean": "심한 진동으로 전시 중인 도자기에 금이 가지 않을까 하여 학예사는 받침대를 보강했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-148-11-p1",
-          "text": "まいか",
+          "id": "so-created-n2-148-16-p2",
+          "text": "入るまいかと、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-148-11-p2",
-          "text": "と心",
+          "id": "so-created-n2-148-16-p3",
+          "text": "学芸員は台座を",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-148-11-p3",
-          "text": "配だ",
+          "id": "so-created-n2-148-16-p4",
+          "text": "補強した。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-148-11-p4",
-          "text": "降る",
+          "id": "so-created-n2-148-16-p1",
+          "text": "陶器にひびが",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-148-11-p4",
-        "so-extra20-n2-148-11-p1",
-        "so-extra20-n2-148-11-p2",
-        "so-extra20-n2-148-11-p3"
+        "so-created-n2-148-16-p1",
+        "so-created-n2-148-16-p2",
+        "so-created-n2-148-16-p3",
+        "so-created-n2-148-16-p4"
       ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '심한 진동으로 전시 중인 도자기에 금이 가지 않을까 하여 학예사는 받침대를 보강했다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
       "sourceGrammarIds": [
-        "n2-148"
+        "n2-148",
+        "n2-164",
+        "n2-165",
+        "n2-166"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-148-12",
+      "id": "so-created-n2-148-17",
       "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlanks": "____ ____ ____ ____ と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
+      "sentence": "弟が甘い勧誘に乗るまいかと、姉は契約書を先に確認した。",
+      "sentenceWithBlanks": "弟が ____ ____ ____ ____ 確認した。",
+      "korean": "남동생이 달콤한 권유에 넘어가지 않을까 하여 누나는 계약서를 먼저 확인했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-148-12-p4",
-          "text": "まいか",
+          "id": "so-created-n2-148-17-p1",
+          "text": "甘い勧誘に",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-148-17-p2",
+          "text": "乗るまいか",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-148-12-p1",
-          "text": "と心",
+          "id": "so-created-n2-148-17-p3",
+          "text": "と、姉は",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-148-12-p2",
-          "text": "配だ",
+          "id": "so-created-n2-148-17-p4",
+          "text": "契約書を先に",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-148-12-p3",
-          "text": "降る",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-148-12-p3",
-        "so-extra20-n2-148-12-p4",
-        "so-extra20-n2-148-12-p1",
-        "so-extra20-n2-148-12-p2"
+        "so-created-n2-148-17-p1",
+        "so-created-n2-148-17-p2",
+        "so-created-n2-148-17-p3",
+        "so-created-n2-148-17-p4"
       ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '남동생이 달콤한 권유에 넘어가지 않을까 하여 누나는 계약서를 먼저 확인했다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
       "sourceGrammarIds": [
-        "n2-148"
+        "n2-148",
+        "n2-164",
+        "n2-165",
+        "n2-166"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-148-13",
+      "id": "so-created-n2-148-18",
       "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlanks": "____ ____ ____ ____ と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
+      "sentence": "強い照明で貴重な絵画が変色するまいかと、保存担当者は照度を下げた。",
+      "sentenceWithBlanks": "強い照明で貴重な ____ ____ ____ ____ 下げた。",
+      "korean": "강한 조명으로 귀중한 그림이 변색되지 않을까 하여 보존 담당자는 조도를 낮췄다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-148-13-p3",
-          "text": "まいか",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-148-13-p4",
-          "text": "と心",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-148-13-p1",
-          "text": "配だ",
+          "id": "so-created-n2-148-18-p4",
+          "text": "者は照度を",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-148-13-p2",
-          "text": "降る",
+          "id": "so-created-n2-148-18-p1",
+          "text": "絵画が変色する",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-148-18-p2",
+          "text": "まいかと、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-148-18-p3",
+          "text": "保存担当",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-148-13-p2",
-        "so-extra20-n2-148-13-p3",
-        "so-extra20-n2-148-13-p4",
-        "so-extra20-n2-148-13-p1"
+        "so-created-n2-148-18-p1",
+        "so-created-n2-148-18-p2",
+        "so-created-n2-148-18-p3",
+        "so-created-n2-148-18-p4"
       ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '강한 조명으로 귀중한 그림이 변색되지 않을까 하여 보존 담당자는 조도를 낮췄다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
       "sourceGrammarIds": [
-        "n2-148"
+        "n2-148",
+        "n2-164",
+        "n2-165",
+        "n2-166"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-148-14",
+      "id": "so-created-n2-148-19",
       "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlanks": "____ ____ ____ ____ と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
+      "sentence": "批判的な記事で寄付者の信頼を失うまいかと、団体は声明を慎重に練った。",
+      "sentenceWithBlanks": "批判的な ____ ____ ____ ____ 声明を慎重に練った。",
+      "korean": "비판적인 기사로 기부자들의 신뢰를 잃지 않을까 하여 단체는 성명을 신중히 다듬었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-148-14-p2",
-          "text": "まいか",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-148-14-p3",
-          "text": "と心",
+          "id": "so-created-n2-148-19-p3",
+          "text": "失うまいか",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-148-14-p4",
-          "text": "配だ",
+          "id": "so-created-n2-148-19-p4",
+          "text": "と、団体は",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-148-14-p1",
-          "text": "降る",
+          "id": "so-created-n2-148-19-p1",
+          "text": "記事で寄付",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-148-19-p2",
+          "text": "者の信頼を",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-148-14-p1",
-        "so-extra20-n2-148-14-p2",
-        "so-extra20-n2-148-14-p3",
-        "so-extra20-n2-148-14-p4"
+        "so-created-n2-148-19-p1",
+        "so-created-n2-148-19-p2",
+        "so-created-n2-148-19-p3",
+        "so-created-n2-148-19-p4"
       ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '비판적인 기사로 기부자들의 신뢰를 잃지 않을까 하여 단체는 성명을 신중히 다듬었다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
       "sourceGrammarIds": [
-        "n2-148"
+        "n2-148",
+        "n2-164",
+        "n2-165",
+        "n2-166"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-148-15",
+      "id": "so-created-n2-148-20",
       "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlanks": "____ ____ ____ ____ と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
+      "sentence": "不慣れな土地で祖母が道に迷うまいかと、孫は詳しい地図を渡した。",
+      "sentenceWithBlanks": "不慣れな ____ ____ ____ ____ 地図を渡した。",
+      "korean": "낯선 지역에서 할머니가 길을 헤매지 않을까 하여 손주는 상세한 지도를 건넸다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-148-15-p1",
-          "text": "まいか",
+          "id": "so-created-n2-148-20-p2",
+          "text": "道に迷う",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-148-15-p2",
-          "text": "と心",
+          "id": "so-created-n2-148-20-p3",
+          "text": "まいかと、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-148-15-p3",
-          "text": "配だ",
+          "id": "so-created-n2-148-20-p4",
+          "text": "孫は詳しい",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-148-15-p4",
-          "text": "降る",
+          "id": "so-created-n2-148-20-p1",
+          "text": "土地で祖母が",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-148-15-p4",
-        "so-extra20-n2-148-15-p1",
-        "so-extra20-n2-148-15-p2",
-        "so-extra20-n2-148-15-p3"
+        "so-created-n2-148-20-p1",
+        "so-created-n2-148-20-p2",
+        "so-created-n2-148-20-p3",
+        "so-created-n2-148-20-p4"
       ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '낯선 지역에서 할머니가 길을 헤매지 않을까 하여 손주는 상세한 지도를 건넸다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
       "sourceGrammarIds": [
-        "n2-148"
+        "n2-148",
+        "n2-164",
+        "n2-165",
+        "n2-166"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-148-16",
+      "id": "so-created-n2-148-21",
       "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlanks": "____ ____ ____ ____ と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
+      "sentence": "原材料の高騰で新商品の採算が取れなくなるまいかと、企画部は価格を再計算した。",
+      "sentenceWithBlanks": "原材料の高騰で新商品の採算が ____ ____ ____ ____",
+      "korean": "원자재 가격 상승으로 신상품의 수지가 맞지 않게 되지 않을까 하여 기획부는 가격을 다시 계산했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-148-16-p4",
-          "text": "降る",
+          "id": "so-created-n2-148-21-p1",
+          "text": "取れなくなる",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-148-16-p1",
-          "text": "まいか",
+          "id": "so-created-n2-148-21-p2",
+          "text": "まいかと、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-148-16-p2",
-          "text": "と心",
+          "id": "so-created-n2-148-21-p3",
+          "text": "企画部は価格を",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-148-16-p3",
-          "text": "配だ",
+          "id": "so-created-n2-148-21-p4",
+          "text": "再計算した。",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-148-16-p4",
-        "so-extra20-n2-148-16-p1",
-        "so-extra20-n2-148-16-p2",
-        "so-extra20-n2-148-16-p3"
+        "so-created-n2-148-21-p1",
+        "so-created-n2-148-21-p2",
+        "so-created-n2-148-21-p3",
+        "so-created-n2-148-21-p4"
       ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '원자재 가격 상승으로 신상품의 수지가 맞지 않게 되지 않을까 하여 기획부는 가격을 다시 계산했다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
       "sourceGrammarIds": [
-        "n2-148"
+        "n2-148",
+        "n2-164",
+        "n2-165",
+        "n2-166"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-148-17",
+      "id": "so-created-n2-148-22",
       "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlanks": "____ ____ ____ ____ と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
+      "sentence": "夜道で自転車が歩行者に衝突するまいかと、警備員は無灯火の若者を呼び止めた。",
+      "sentenceWithBlanks": "夜道で自転車が歩行者に ____ ____ ____ ____ 止めた。",
+      "korean": "밤길에서 자전거가 보행자와 충돌하지 않을까 하여 경비원은 불을 켜지 않은 젊은이를 불러 세웠다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-148-17-p3",
-          "text": "降る",
+          "id": "so-created-n2-148-22-p4",
+          "text": "若者を呼び",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-148-22-p1",
+          "text": "衝突する",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-148-17-p4",
-          "text": "まいか",
+          "id": "so-created-n2-148-22-p2",
+          "text": "まいかと、警備",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-148-17-p1",
-          "text": "と心",
+          "id": "so-created-n2-148-22-p3",
+          "text": "員は無灯火の",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-148-17-p2",
-          "text": "配だ",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-148-17-p3",
-        "so-extra20-n2-148-17-p4",
-        "so-extra20-n2-148-17-p1",
-        "so-extra20-n2-148-17-p2"
+        "so-created-n2-148-22-p1",
+        "so-created-n2-148-22-p2",
+        "so-created-n2-148-22-p3",
+        "so-created-n2-148-22-p4"
       ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '밤길에서 자전거가 보행자와 충돌하지 않을까 하여 경비원은 불을 켜지 않은 젊은이를 불러 세웠다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
       "sourceGrammarIds": [
-        "n2-148"
+        "n2-148",
+        "n2-164",
+        "n2-165",
+        "n2-166"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-148-18",
+      "id": "so-created-n2-148-23",
       "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlanks": "____ ____ ____ ____ と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
+      "sentence": "慣れない環境で保護犬が餌を食べなくなるまいかと、飼育員は静かな部屋を用意した。",
+      "sentenceWithBlanks": "慣れない環境で保護犬が餌を食べなくなる ____ ____ ____ ____",
+      "korean": "낯선 환경에서 구조된 개가 먹이를 먹지 않게 되지 않을까 하여 사육사는 조용한 방을 마련했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-148-18-p2",
-          "text": "降る",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-148-18-p3",
-          "text": "まいか",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-148-18-p4",
-          "text": "と心",
+          "id": "so-created-n2-148-23-p3",
+          "text": "静かな部屋を",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-148-18-p1",
-          "text": "配だ",
+          "id": "so-created-n2-148-23-p4",
+          "text": "用意した。",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-148-23-p1",
+          "text": "まいかと、",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-148-23-p2",
+          "text": "飼育員は",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-148-18-p2",
-        "so-extra20-n2-148-18-p3",
-        "so-extra20-n2-148-18-p4",
-        "so-extra20-n2-148-18-p1"
+        "so-created-n2-148-23-p1",
+        "so-created-n2-148-23-p2",
+        "so-created-n2-148-23-p3",
+        "so-created-n2-148-23-p4"
       ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '낯선 환경에서 구조된 개가 먹이를 먹지 않게 되지 않을까 하여 사육사는 조용한 방을 마련했다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
       "sourceGrammarIds": [
-        "n2-148"
+        "n2-148",
+        "n2-164",
+        "n2-165",
+        "n2-166"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-148-19",
+      "id": "so-created-n2-148-24",
       "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlanks": "____ ____ ____ ____ と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
+      "sentence": "古い堤防から海水が浸入するまいかと、漁師たちは土のうを積み上げた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 土のうを積み上げた。",
+      "korean": "낡은 제방으로 바닷물이 들어오지 않을까 하여 어부들은 모래주머니를 쌓아 올렸다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-148-19-p1",
-          "text": "降る",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-148-19-p2",
-          "text": "まいか",
+          "id": "so-created-n2-148-24-p2",
+          "text": "海水が浸入する",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-148-19-p3",
-          "text": "と心",
+          "id": "so-created-n2-148-24-p3",
+          "text": "まいかと、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-148-19-p4",
-          "text": "配だ",
+          "id": "so-created-n2-148-24-p4",
+          "text": "漁師たちは",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-148-24-p1",
+          "text": "古い堤防から",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-148-19-p1",
-        "so-extra20-n2-148-19-p2",
-        "so-extra20-n2-148-19-p3",
-        "so-extra20-n2-148-19-p4"
+        "so-created-n2-148-24-p1",
+        "so-created-n2-148-24-p2",
+        "so-created-n2-148-24-p3",
+        "so-created-n2-148-24-p4"
       ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '낡은 제방으로 바닷물이 들어오지 않을까 하여 어부들은 모래주머니를 쌓아 올렸다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
       "sourceGrammarIds": [
-        "n2-148"
+        "n2-148",
+        "n2-164",
+        "n2-165",
+        "n2-166"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-148-20",
+      "id": "so-created-n2-148-25",
       "level": "N2",
-      "sentence": "雨が降るまいかと心配だ。",
-      "sentenceWithBlanks": "____ ____ ____ ____ と心配だ。",
-      "korean": "비가 오지 않을까 걱정이다.",
+      "sentence": "不正確な噂が被災者を混乱させるまいかと、自治体は公式情報をすぐに公開した。",
+      "sentenceWithBlanks": "不正確な噂が ____ ____ ____ ____ 情報をすぐに公開した。",
+      "korean": "부정확한 소문이 이재민들을 혼란스럽게 하지 않을까 하여 지방자치단체는 공식 정보를 즉시 공개했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-148-20-p4",
-          "text": "降る",
+          "id": "so-created-n2-148-25-p1",
+          "text": "被災者を",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-148-20-p1",
-          "text": "まいか",
+          "id": "so-created-n2-148-25-p2",
+          "text": "混乱させる",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-148-20-p2",
-          "text": "と心",
+          "id": "so-created-n2-148-25-p3",
+          "text": "まいかと、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-148-20-p3",
-          "text": "配だ",
+          "id": "so-created-n2-148-25-p4",
+          "text": "自治体は公式",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-148-20-p4",
-        "so-extra20-n2-148-20-p1",
-        "so-extra20-n2-148-20-p2",
-        "so-extra20-n2-148-20-p3"
+        "so-created-n2-148-25-p1",
+        "so-created-n2-148-25-p2",
+        "so-created-n2-148-25-p3",
+        "so-created-n2-148-25-p4"
       ],
-      "explanation": "「まいか」는 ~하지 않겠는가, ~지 않을까라는 뜻이다. 걱정·부정 추측.",
+      "explanation": "「まいか」는 '~하지 않겠는가, ~지 않을까'라는 뜻을 나타낸다. 이 문장에서는 '부정확한 소문이 이재민들을 혼란스럽게 하지 않을까 하여 지방자치단체는 공식 정보를 즉시 공개했다.'라는 상황에 쓰였으며, 걱정·부정 추측. 주의할 점은 걱정·부정 추측. 고어적 표현. 현대 일본어에서는 드물게 씀.",
       "sourceGrammarIds": [
-        "n2-148"
+        "n2-148",
+        "n2-164",
+        "n2-165",
+        "n2-166"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     }
   ]

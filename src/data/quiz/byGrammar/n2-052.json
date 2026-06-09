@@ -267,15 +267,23 @@
       ]
     },
     {
-      "id": "fb-extra-n2-052-1",
+      "id": "fb-created-n2-052-01",
       "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlank": "お腹が痛くて声を出さ（　　　）なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
-      "answerChoiceId": "fb-extra-n2-052-1-a",
+      "sentence": "亡き祖父の声が残る録音を聞くと、涙を流さずにはいられなかった。",
+      "sentenceWithBlank": "亡き祖父の声が残る録音を聞くと、涙を流さ（　　　）なかった。",
+      "korean": "돌아가신 할아버지의 목소리가 남은 녹음을 들으니 눈물을 흘리지 않을 수 없었다.",
+      "answerChoiceId": "fb-created-n2-052-01-a",
       "choices": [
         {
-          "id": "fb-extra-n2-052-1-b",
+          "id": "fb-created-n2-052-01-a",
+          "text": "ずにはいられ",
+          "grammarId": "n2-052",
+          "baseExpression": "ずにはいられない",
+          "conjugatedExpression": "ずにはいられ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-052-01-b",
           "text": "んだった",
           "grammarId": "n2-180",
           "baseExpression": "んだった",
@@ -283,7 +291,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-052-1-c",
+          "id": "fb-created-n2-052-01-c",
           "text": "んだって",
           "grammarId": "n2-181",
           "baseExpression": "んだって",
@@ -291,23 +299,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-052-1-d",
+          "id": "fb-created-n2-052-01-d",
           "text": "したあげく",
           "grammarId": "n2-001",
           "baseExpression": "あげく",
           "conjugatedExpression": "したあげく",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-052-1-a",
-          "text": "ずにはいられ",
-          "grammarId": "n2-052",
-          "baseExpression": "ずにはいられない",
-          "conjugatedExpression": "ずにはいられ",
-          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '돌아가신 할아버지의 목소리가 남은 녹음을 들으니 눈물을 흘리지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
       "sourceGrammarIds": [
         "n2-052",
         "n2-180",
@@ -315,237 +315,20 @@
         "n2-001"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra-n2-052-2",
+      "id": "fb-created-n2-052-02",
       "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlank": "お腹が痛くて声を出さ（　　　）なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
-      "answerChoiceId": "fb-extra-n2-052-2-d",
+      "sentence": "住民を無視した開発計画に、町へ抗議せずにはいられなかった。",
+      "sentenceWithBlank": "住民を無視した開発計画に、町へ抗議せ（　　　）なかった。",
+      "korean": "주민을 무시한 개발 계획에 시청에 항의하지 않을 수 없었다.",
+      "answerChoiceId": "fb-created-n2-052-02-a",
       "choices": [
         {
-          "id": "fb-extra-n2-052-2-c",
-          "text": "した末に",
-          "grammarId": "n2-050",
-          "baseExpression": "すえに",
-          "conjugatedExpression": "した末に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-052-2-d",
-          "text": "ずにはいられ",
-          "grammarId": "n2-052",
-          "baseExpression": "ずにはいられない",
-          "conjugatedExpression": "ずにはいられ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-052-2-a",
-          "text": "次第だ",
-          "grammarId": "n2-048",
-          "baseExpression": "次第だ",
-          "conjugatedExpression": "次第だ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-052-2-b",
-          "text": "次第で",
-          "grammarId": "n2-049",
-          "baseExpression": "次第で/次第では",
-          "conjugatedExpression": "次第で",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
-      "sourceGrammarIds": [
-        "n2-052",
-        "n2-048",
-        "n2-049",
-        "n2-050"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-052-3",
-      "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlank": "お腹が痛くて声を出さ（　　　）なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
-      "answerChoiceId": "fb-extra-n2-052-3-c",
-      "choices": [
-        {
-          "id": "fb-extra-n2-052-3-d",
-          "text": "最中に",
-          "grammarId": "n2-045",
-          "baseExpression": "最中に",
-          "conjugatedExpression": "最中に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-052-3-a",
-          "text": "ざるを得ない",
-          "grammarId": "n2-046",
-          "baseExpression": "ざるを得ない",
-          "conjugatedExpression": "ざるを得ない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-052-3-b",
-          "text": "次第",
-          "grammarId": "n2-047",
-          "baseExpression": "次第",
-          "conjugatedExpression": "次第",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-052-3-c",
-          "text": "ずにはいられ",
-          "grammarId": "n2-052",
-          "baseExpression": "ずにはいられない",
-          "conjugatedExpression": "ずにはいられ",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
-      "sourceGrammarIds": [
-        "n2-052",
-        "n2-045",
-        "n2-046",
-        "n2-047"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-052-4",
-      "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlank": "お腹が痛くて声を出さ（　　　）なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
-      "answerChoiceId": "fb-extra-n2-052-4-b",
-      "choices": [
-        {
-          "id": "fb-extra-n2-052-4-a",
-          "text": "に限らず",
-          "grammarId": "n2-109",
-          "baseExpression": "に限らず",
-          "conjugatedExpression": "に限らず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-052-4-b",
-          "text": "ずにはいられ",
-          "grammarId": "n2-052",
-          "baseExpression": "ずにはいられない",
-          "conjugatedExpression": "ずにはいられ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-052-4-c",
-          "text": "にかかわらず",
-          "grammarId": "n2-107",
-          "baseExpression": "にかかわらず",
-          "conjugatedExpression": "にかかわらず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-052-4-d",
-          "text": "に限って",
-          "grammarId": "n2-108",
-          "baseExpression": "に限って",
-          "conjugatedExpression": "に限って",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
-      "sourceGrammarIds": [
-        "n2-052",
-        "n2-107",
-        "n2-108",
-        "n2-109"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-052-5",
-      "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlank": "お腹が痛くて声を出さ（　　　）なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
-      "answerChoiceId": "fb-extra-n2-052-5-a",
-      "choices": [
-        {
-          "id": "fb-extra-n2-052-5-b",
-          "text": "次第",
-          "grammarId": "n2-047",
-          "baseExpression": "次第",
-          "conjugatedExpression": "次第",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-052-5-c",
-          "text": "次第だ",
-          "grammarId": "n2-048",
-          "baseExpression": "次第だ",
-          "conjugatedExpression": "次第だ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-052-5-d",
-          "text": "次第で",
-          "grammarId": "n2-049",
-          "baseExpression": "次第で/次第では",
-          "conjugatedExpression": "次第で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-052-5-a",
-          "text": "ずにはいられ",
-          "grammarId": "n2-052",
-          "baseExpression": "ずにはいられない",
-          "conjugatedExpression": "ずにはいられ",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
-      "sourceGrammarIds": [
-        "n2-052",
-        "n2-047",
-        "n2-048",
-        "n2-049"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-052-01",
-      "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlank": "お腹が痛くて声を出さ（　　　）なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
-      "answerChoiceId": "fb-extra20-n2-052-01-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-052-01-b",
+          "id": "fb-created-n2-052-02-b",
           "text": "んだった",
           "grammarId": "n2-180",
           "baseExpression": "んだった",
@@ -553,7 +336,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-052-01-c",
+          "id": "fb-created-n2-052-02-c",
           "text": "んだって",
           "grammarId": "n2-181",
           "baseExpression": "んだって",
@@ -561,7 +344,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-052-01-d",
+          "id": "fb-created-n2-052-02-d",
           "text": "したあげく",
           "grammarId": "n2-001",
           "baseExpression": "あげく",
@@ -569,7 +352,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-052-01-a",
+          "id": "fb-created-n2-052-02-a",
           "text": "ずにはいられ",
           "grammarId": "n2-052",
           "baseExpression": "ずにはいられない",
@@ -577,7 +360,7 @@
           "isSimilarDistractor": false
         }
       ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '주민을 무시한 개발 계획에 시청에 항의하지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
       "sourceGrammarIds": [
         "n2-052",
         "n2-180",
@@ -585,253 +368,20 @@
         "n2-001"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-052-02",
+      "id": "fb-created-n2-052-03",
       "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlank": "お腹が痛くて声を出さ（　　　）なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
-      "answerChoiceId": "fb-extra20-n2-052-02-d",
+      "sentence": "初めて立ち上がった赤ん坊の姿を見て、頬を緩めずにはいられなかった。",
+      "sentenceWithBlank": "初めて立ち上がった赤ん坊の姿を見て、頬を緩め（　　　）なかった。",
+      "korean": "처음으로 일어선 아기의 모습을 보고 미소 짓지 않을 수 없었다.",
+      "answerChoiceId": "fb-created-n2-052-03-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-052-02-a",
-          "text": "次第だ",
-          "grammarId": "n2-048",
-          "baseExpression": "次第だ",
-          "conjugatedExpression": "次第だ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-052-02-b",
-          "text": "次第で",
-          "grammarId": "n2-049",
-          "baseExpression": "次第で/次第では",
-          "conjugatedExpression": "次第で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-052-02-c",
-          "text": "した末に",
-          "grammarId": "n2-050",
-          "baseExpression": "すえに",
-          "conjugatedExpression": "した末に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-052-02-d",
-          "text": "ずにはいられ",
-          "grammarId": "n2-052",
-          "baseExpression": "ずにはいられない",
-          "conjugatedExpression": "ずにはいられ",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
-      "sourceGrammarIds": [
-        "n2-052",
-        "n2-048",
-        "n2-049",
-        "n2-050"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-052-03",
-      "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlank": "お腹が痛くて声を出さ（　　　）なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
-      "answerChoiceId": "fb-extra20-n2-052-03-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-052-03-d",
-          "text": "最中に",
-          "grammarId": "n2-045",
-          "baseExpression": "最中に",
-          "conjugatedExpression": "最中に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-052-03-a",
-          "text": "ざるを得ない",
-          "grammarId": "n2-046",
-          "baseExpression": "ざるを得ない",
-          "conjugatedExpression": "ざるを得ない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-052-03-b",
-          "text": "次第",
-          "grammarId": "n2-047",
-          "baseExpression": "次第",
-          "conjugatedExpression": "次第",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-052-03-c",
-          "text": "ずにはいられ",
-          "grammarId": "n2-052",
-          "baseExpression": "ずにはいられない",
-          "conjugatedExpression": "ずにはいられ",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
-      "sourceGrammarIds": [
-        "n2-052",
-        "n2-045",
-        "n2-046",
-        "n2-047"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-052-04",
-      "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlank": "お腹が痛くて声を出さ（　　　）なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
-      "answerChoiceId": "fb-extra20-n2-052-04-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-052-04-c",
-          "text": "にかかわらず",
-          "grammarId": "n2-107",
-          "baseExpression": "にかかわらず",
-          "conjugatedExpression": "にかかわらず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-052-04-d",
-          "text": "に限って",
-          "grammarId": "n2-108",
-          "baseExpression": "に限って",
-          "conjugatedExpression": "に限って",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-052-04-a",
-          "text": "に限らず",
-          "grammarId": "n2-109",
-          "baseExpression": "に限らず",
-          "conjugatedExpression": "に限らず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-052-04-b",
-          "text": "ずにはいられ",
-          "grammarId": "n2-052",
-          "baseExpression": "ずにはいられない",
-          "conjugatedExpression": "ずにはいられ",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
-      "sourceGrammarIds": [
-        "n2-052",
-        "n2-107",
-        "n2-108",
-        "n2-109"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-052-05",
-      "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlank": "お腹が痛くて声を出さ（　　　）なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
-      "answerChoiceId": "fb-extra20-n2-052-05-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-052-05-b",
-          "text": "次第",
-          "grammarId": "n2-047",
-          "baseExpression": "次第",
-          "conjugatedExpression": "次第",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-052-05-c",
-          "text": "次第だ",
-          "grammarId": "n2-048",
-          "baseExpression": "次第だ",
-          "conjugatedExpression": "次第だ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-052-05-d",
-          "text": "次第で",
-          "grammarId": "n2-049",
-          "baseExpression": "次第で/次第では",
-          "conjugatedExpression": "次第で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-052-05-a",
-          "text": "ずにはいられ",
-          "grammarId": "n2-052",
-          "baseExpression": "ずにはいられない",
-          "conjugatedExpression": "ずにはいられ",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
-      "sourceGrammarIds": [
-        "n2-052",
-        "n2-047",
-        "n2-048",
-        "n2-049"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-052-06",
-      "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlank": "お腹が痛くて声を出さ（　　　）なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
-      "answerChoiceId": "fb-extra20-n2-052-06-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-052-06-a",
-          "text": "ずにはいられ",
-          "grammarId": "n2-052",
-          "baseExpression": "ずにはいられない",
-          "conjugatedExpression": "ずにはいられ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-052-06-b",
-          "text": "んだった",
-          "grammarId": "n2-180",
-          "baseExpression": "んだった",
-          "conjugatedExpression": "んだった",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-052-06-c",
+          "id": "fb-created-n2-052-03-c",
           "text": "んだって",
           "grammarId": "n2-181",
           "baseExpression": "んだって",
@@ -839,253 +389,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-052-06-d",
-          "text": "したあげく",
-          "grammarId": "n2-001",
-          "baseExpression": "あげく",
-          "conjugatedExpression": "したあげく",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
-      "sourceGrammarIds": [
-        "n2-052",
-        "n2-180",
-        "n2-181",
-        "n2-001"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-052-07",
-      "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlank": "お腹が痛くて声を出さ（　　　）なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
-      "answerChoiceId": "fb-extra20-n2-052-07-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-052-07-d",
-          "text": "ずにはいられ",
-          "grammarId": "n2-052",
-          "baseExpression": "ずにはいられない",
-          "conjugatedExpression": "ずにはいられ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-052-07-a",
-          "text": "次第だ",
-          "grammarId": "n2-048",
-          "baseExpression": "次第だ",
-          "conjugatedExpression": "次第だ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-052-07-b",
-          "text": "次第で",
-          "grammarId": "n2-049",
-          "baseExpression": "次第で/次第では",
-          "conjugatedExpression": "次第で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-052-07-c",
-          "text": "した末に",
-          "grammarId": "n2-050",
-          "baseExpression": "すえに",
-          "conjugatedExpression": "した末に",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
-      "sourceGrammarIds": [
-        "n2-052",
-        "n2-048",
-        "n2-049",
-        "n2-050"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-052-08",
-      "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlank": "お腹が痛くて声を出さ（　　　）なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
-      "answerChoiceId": "fb-extra20-n2-052-08-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-052-08-c",
-          "text": "ずにはいられ",
-          "grammarId": "n2-052",
-          "baseExpression": "ずにはいられない",
-          "conjugatedExpression": "ずにはいられ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-052-08-d",
-          "text": "最中に",
-          "grammarId": "n2-045",
-          "baseExpression": "最中に",
-          "conjugatedExpression": "最中に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-052-08-a",
-          "text": "ざるを得ない",
-          "grammarId": "n2-046",
-          "baseExpression": "ざるを得ない",
-          "conjugatedExpression": "ざるを得ない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-052-08-b",
-          "text": "次第",
-          "grammarId": "n2-047",
-          "baseExpression": "次第",
-          "conjugatedExpression": "次第",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
-      "sourceGrammarIds": [
-        "n2-052",
-        "n2-045",
-        "n2-046",
-        "n2-047"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-052-09",
-      "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlank": "お腹が痛くて声を出さ（　　　）なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
-      "answerChoiceId": "fb-extra20-n2-052-09-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-052-09-b",
-          "text": "ずにはいられ",
-          "grammarId": "n2-052",
-          "baseExpression": "ずにはいられない",
-          "conjugatedExpression": "ずにはいられ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-052-09-c",
-          "text": "にかかわらず",
-          "grammarId": "n2-107",
-          "baseExpression": "にかかわらず",
-          "conjugatedExpression": "にかかわらず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-052-09-d",
-          "text": "に限って",
-          "grammarId": "n2-108",
-          "baseExpression": "に限って",
-          "conjugatedExpression": "に限って",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-052-09-a",
-          "text": "に限らず",
-          "grammarId": "n2-109",
-          "baseExpression": "に限らず",
-          "conjugatedExpression": "に限らず",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
-      "sourceGrammarIds": [
-        "n2-052",
-        "n2-107",
-        "n2-108",
-        "n2-109"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-052-10",
-      "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlank": "お腹が痛くて声を出さ（　　　）なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
-      "answerChoiceId": "fb-extra20-n2-052-10-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-052-10-a",
-          "text": "ずにはいられ",
-          "grammarId": "n2-052",
-          "baseExpression": "ずにはいられない",
-          "conjugatedExpression": "ずにはいられ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-052-10-b",
-          "text": "次第",
-          "grammarId": "n2-047",
-          "baseExpression": "次第",
-          "conjugatedExpression": "次第",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-052-10-c",
-          "text": "次第だ",
-          "grammarId": "n2-048",
-          "baseExpression": "次第だ",
-          "conjugatedExpression": "次第だ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-052-10-d",
-          "text": "次第で",
-          "grammarId": "n2-049",
-          "baseExpression": "次第で/次第では",
-          "conjugatedExpression": "次第で",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
-      "sourceGrammarIds": [
-        "n2-052",
-        "n2-047",
-        "n2-048",
-        "n2-049"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-052-11",
-      "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlank": "お腹が痛くて声を出さ（　　　）なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
-      "answerChoiceId": "fb-extra20-n2-052-11-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-052-11-d",
+          "id": "fb-created-n2-052-03-d",
           "text": "したあげく",
           "grammarId": "n2-001",
           "baseExpression": "あげく",
@@ -1093,7 +397,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-052-11-a",
+          "id": "fb-created-n2-052-03-a",
           "text": "ずにはいられ",
           "grammarId": "n2-052",
           "baseExpression": "ずにはいられない",
@@ -1101,285 +405,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-052-11-b",
-          "text": "んだった",
-          "grammarId": "n2-180",
-          "baseExpression": "んだった",
-          "conjugatedExpression": "んだった",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-052-11-c",
-          "text": "んだって",
-          "grammarId": "n2-181",
-          "baseExpression": "んだって",
-          "conjugatedExpression": "んだって",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
-      "sourceGrammarIds": [
-        "n2-052",
-        "n2-180",
-        "n2-181",
-        "n2-001"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-052-12",
-      "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlank": "お腹が痛くて声を出さ（　　　）なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
-      "answerChoiceId": "fb-extra20-n2-052-12-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-052-12-c",
-          "text": "した末に",
-          "grammarId": "n2-050",
-          "baseExpression": "すえに",
-          "conjugatedExpression": "した末に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-052-12-d",
-          "text": "ずにはいられ",
-          "grammarId": "n2-052",
-          "baseExpression": "ずにはいられない",
-          "conjugatedExpression": "ずにはいられ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-052-12-a",
-          "text": "次第だ",
-          "grammarId": "n2-048",
-          "baseExpression": "次第だ",
-          "conjugatedExpression": "次第だ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-052-12-b",
-          "text": "次第で",
-          "grammarId": "n2-049",
-          "baseExpression": "次第で/次第では",
-          "conjugatedExpression": "次第で",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
-      "sourceGrammarIds": [
-        "n2-052",
-        "n2-048",
-        "n2-049",
-        "n2-050"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-052-13",
-      "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlank": "お腹が痛くて声を出さ（　　　）なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
-      "answerChoiceId": "fb-extra20-n2-052-13-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-052-13-b",
-          "text": "次第",
-          "grammarId": "n2-047",
-          "baseExpression": "次第",
-          "conjugatedExpression": "次第",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-052-13-c",
-          "text": "ずにはいられ",
-          "grammarId": "n2-052",
-          "baseExpression": "ずにはいられない",
-          "conjugatedExpression": "ずにはいられ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-052-13-d",
-          "text": "最中に",
-          "grammarId": "n2-045",
-          "baseExpression": "最中に",
-          "conjugatedExpression": "最中に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-052-13-a",
-          "text": "ざるを得ない",
-          "grammarId": "n2-046",
-          "baseExpression": "ざるを得ない",
-          "conjugatedExpression": "ざるを得ない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
-      "sourceGrammarIds": [
-        "n2-052",
-        "n2-045",
-        "n2-046",
-        "n2-047"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-052-14",
-      "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlank": "お腹が痛くて声を出さ（　　　）なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
-      "answerChoiceId": "fb-extra20-n2-052-14-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-052-14-a",
-          "text": "に限らず",
-          "grammarId": "n2-109",
-          "baseExpression": "に限らず",
-          "conjugatedExpression": "に限らず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-052-14-b",
-          "text": "ずにはいられ",
-          "grammarId": "n2-052",
-          "baseExpression": "ずにはいられない",
-          "conjugatedExpression": "ずにはいられ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-052-14-c",
-          "text": "にかかわらず",
-          "grammarId": "n2-107",
-          "baseExpression": "にかかわらず",
-          "conjugatedExpression": "にかかわらず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-052-14-d",
-          "text": "に限って",
-          "grammarId": "n2-108",
-          "baseExpression": "に限って",
-          "conjugatedExpression": "に限って",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
-      "sourceGrammarIds": [
-        "n2-052",
-        "n2-107",
-        "n2-108",
-        "n2-109"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-052-15",
-      "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlank": "お腹が痛くて声を出さ（　　　）なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
-      "answerChoiceId": "fb-extra20-n2-052-15-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-052-15-d",
-          "text": "次第で",
-          "grammarId": "n2-049",
-          "baseExpression": "次第で/次第では",
-          "conjugatedExpression": "次第で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-052-15-a",
-          "text": "ずにはいられ",
-          "grammarId": "n2-052",
-          "baseExpression": "ずにはいられない",
-          "conjugatedExpression": "ずにはいられ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-052-15-b",
-          "text": "次第",
-          "grammarId": "n2-047",
-          "baseExpression": "次第",
-          "conjugatedExpression": "次第",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-052-15-c",
-          "text": "次第だ",
-          "grammarId": "n2-048",
-          "baseExpression": "次第だ",
-          "conjugatedExpression": "次第だ",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
-      "sourceGrammarIds": [
-        "n2-052",
-        "n2-047",
-        "n2-048",
-        "n2-049"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-052-16",
-      "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlank": "お腹が痛くて声を出さ（　　　）なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
-      "answerChoiceId": "fb-extra20-n2-052-16-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-052-16-c",
-          "text": "んだって",
-          "grammarId": "n2-181",
-          "baseExpression": "んだって",
-          "conjugatedExpression": "んだって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-052-16-d",
-          "text": "したあげく",
-          "grammarId": "n2-001",
-          "baseExpression": "あげく",
-          "conjugatedExpression": "したあげく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-052-16-a",
-          "text": "ずにはいられ",
-          "grammarId": "n2-052",
-          "baseExpression": "ずにはいられない",
-          "conjugatedExpression": "ずにはいられ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-052-16-b",
+          "id": "fb-created-n2-052-03-b",
           "text": "んだった",
           "grammarId": "n2-180",
           "baseExpression": "んだった",
@@ -1387,7 +413,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '처음으로 일어선 아기의 모습을 보고 미소 짓지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
       "sourceGrammarIds": [
         "n2-052",
         "n2-180",
@@ -1395,37 +421,28 @@
         "n2-001"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-052-17",
+      "id": "fb-created-n2-052-04",
       "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlank": "お腹が痛くて声を出さ（　　　）なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
-      "answerChoiceId": "fb-extra20-n2-052-17-d",
+      "sentence": "留守宅から焦げた臭いがしたため、中を確認せずにはいられなかった。",
+      "sentenceWithBlank": "留守宅から焦げた臭いがしたため、中を確認せ（　　　）なかった。",
+      "korean": "빈집에서 탄 냄새가 나서 안을 확인하지 않을 수 없었다.",
+      "answerChoiceId": "fb-created-n2-052-04-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-052-17-b",
-          "text": "次第で",
-          "grammarId": "n2-049",
-          "baseExpression": "次第で/次第では",
-          "conjugatedExpression": "次第で",
+          "id": "fb-created-n2-052-04-d",
+          "text": "したあげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "したあげく",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-052-17-c",
-          "text": "した末に",
-          "grammarId": "n2-050",
-          "baseExpression": "すえに",
-          "conjugatedExpression": "した末に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-052-17-d",
+          "id": "fb-created-n2-052-04-a",
           "text": "ずにはいられ",
           "grammarId": "n2-052",
           "baseExpression": "ずにはいられない",
@@ -1433,53 +450,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-052-17-a",
-          "text": "次第だ",
-          "grammarId": "n2-048",
-          "baseExpression": "次第だ",
-          "conjugatedExpression": "次第だ",
+          "id": "fb-created-n2-052-04-b",
+          "text": "んだった",
+          "grammarId": "n2-180",
+          "baseExpression": "んだった",
+          "conjugatedExpression": "んだった",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-052-04-c",
+          "text": "んだって",
+          "grammarId": "n2-181",
+          "baseExpression": "んだって",
+          "conjugatedExpression": "んだって",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '빈집에서 탄 냄새가 나서 안을 확인하지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
       "sourceGrammarIds": [
         "n2-052",
-        "n2-048",
-        "n2-049",
-        "n2-050"
+        "n2-180",
+        "n2-181",
+        "n2-001"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-052-18",
+      "id": "fb-created-n2-052-05",
       "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlank": "お腹が痛くて声を出さ（　　　）なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
-      "answerChoiceId": "fb-extra20-n2-052-18-c",
+      "sentence": "路上で高齢者が倒れるのを目にし、車を止めずにはいられなかった。",
+      "sentenceWithBlank": "路上で高齢者が倒れるのを目にし、車を止め（　　　）なかった。",
+      "korean": "길에서 노인이 쓰러지는 것을 보고 차를 세우지 않을 수 없었다.",
+      "answerChoiceId": "fb-created-n2-052-05-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-052-18-a",
-          "text": "ざるを得ない",
-          "grammarId": "n2-046",
-          "baseExpression": "ざるを得ない",
-          "conjugatedExpression": "ざるを得ない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-052-18-b",
-          "text": "次第",
-          "grammarId": "n2-047",
-          "baseExpression": "次第",
-          "conjugatedExpression": "次第",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-052-18-c",
+          "id": "fb-created-n2-052-05-a",
           "text": "ずにはいられ",
           "grammarId": "n2-052",
           "baseExpression": "ずにはいられない",
@@ -1487,53 +495,121 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-052-18-d",
-          "text": "最中に",
-          "grammarId": "n2-045",
-          "baseExpression": "最中に",
-          "conjugatedExpression": "最中に",
+          "id": "fb-created-n2-052-05-b",
+          "text": "んだった",
+          "grammarId": "n2-180",
+          "baseExpression": "んだった",
+          "conjugatedExpression": "んだった",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-052-05-c",
+          "text": "んだって",
+          "grammarId": "n2-181",
+          "baseExpression": "んだって",
+          "conjugatedExpression": "んだって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-052-05-d",
+          "text": "したあげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "したあげく",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '길에서 노인이 쓰러지는 것을 보고 차를 세우지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
       "sourceGrammarIds": [
         "n2-052",
-        "n2-045",
-        "n2-046",
-        "n2-047"
+        "n2-180",
+        "n2-181",
+        "n2-001"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-052-19",
+      "id": "fb-created-n2-052-06",
       "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlank": "お腹が痛くて声を出さ（　　　）なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
-      "answerChoiceId": "fb-extra20-n2-052-19-b",
+      "sentence": "魂を揺さぶる演奏が終わった瞬間、立ち上がって拍手せずにはいられなかった。",
+      "sentenceWithBlank": "魂を揺さぶる演奏が終わった瞬間、立ち上がって拍手せ（　　　）なかった。",
+      "korean": "영혼을 울리는 연주가 끝난 순간 일어나 박수 치지 않을 수 없었다.",
+      "answerChoiceId": "fb-created-n2-052-06-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-052-19-d",
-          "text": "に限って",
-          "grammarId": "n2-108",
-          "baseExpression": "に限って",
-          "conjugatedExpression": "に限って",
+          "id": "fb-created-n2-052-06-b",
+          "text": "んだった",
+          "grammarId": "n2-180",
+          "baseExpression": "んだった",
+          "conjugatedExpression": "んだった",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-052-19-a",
-          "text": "に限らず",
-          "grammarId": "n2-109",
-          "baseExpression": "に限らず",
-          "conjugatedExpression": "に限らず",
+          "id": "fb-created-n2-052-06-c",
+          "text": "んだって",
+          "grammarId": "n2-181",
+          "baseExpression": "んだって",
+          "conjugatedExpression": "んだって",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-052-19-b",
+          "id": "fb-created-n2-052-06-d",
+          "text": "したあげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "したあげく",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-052-06-a",
+          "text": "ずにはいられ",
+          "grammarId": "n2-052",
+          "baseExpression": "ずにはいられない",
+          "conjugatedExpression": "ずにはいられ",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '영혼을 울리는 연주가 끝난 순간 일어나 박수 치지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
+      "sourceGrammarIds": [
+        "n2-052",
+        "n2-180",
+        "n2-181",
+        "n2-001"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-052-07",
+      "level": "N2",
+      "sentence": "自分の発言が友人を傷つけたと知り、すぐに謝らずにはいられなかった。",
+      "sentenceWithBlank": "自分の発言が友人を傷つけたと知り、すぐに謝ら（　　　）なかった。",
+      "korean": "내 말이 친구에게 상처를 주었다는 것을 알고 바로 사과하지 않을 수 없었다.",
+      "answerChoiceId": "fb-created-n2-052-07-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-052-07-c",
+          "text": "んだって",
+          "grammarId": "n2-181",
+          "baseExpression": "んだって",
+          "conjugatedExpression": "んだって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-052-07-d",
+          "text": "したあげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "したあげく",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-052-07-a",
           "text": "ずにはいられ",
           "grammarId": "n2-052",
           "baseExpression": "ずにはいられない",
@@ -1541,53 +617,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-052-19-c",
-          "text": "にかかわらず",
-          "grammarId": "n2-107",
-          "baseExpression": "にかかわらず",
-          "conjugatedExpression": "にかかわらず",
+          "id": "fb-created-n2-052-07-b",
+          "text": "んだった",
+          "grammarId": "n2-180",
+          "baseExpression": "んだった",
+          "conjugatedExpression": "んだった",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '내 말이 친구에게 상처를 주었다는 것을 알고 바로 사과하지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
       "sourceGrammarIds": [
         "n2-052",
-        "n2-107",
-        "n2-108",
-        "n2-109"
+        "n2-180",
+        "n2-181",
+        "n2-001"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-052-20",
+      "id": "fb-created-n2-052-08",
       "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlank": "お腹が痛くて声を出さ（　　　）なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
-      "answerChoiceId": "fb-extra20-n2-052-20-a",
+      "sentence": "妹が怪しい投資話を信じかけていたので、危険だと忠告せずにはいられなかった。",
+      "sentenceWithBlank": "妹が怪しい投資話を信じかけていたので、危険だと忠告せ（　　　）なかった。",
+      "korean": "여동생이 수상한 투자 이야기를 믿으려 해서 위험하다고 충고하지 않을 수 없었다.",
+      "answerChoiceId": "fb-created-n2-052-08-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-052-20-c",
-          "text": "次第だ",
-          "grammarId": "n2-048",
-          "baseExpression": "次第だ",
-          "conjugatedExpression": "次第だ",
+          "id": "fb-created-n2-052-08-d",
+          "text": "したあげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "したあげく",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-052-20-d",
-          "text": "次第で",
-          "grammarId": "n2-049",
-          "baseExpression": "次第で/次第では",
-          "conjugatedExpression": "次第で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-052-20-a",
+          "id": "fb-created-n2-052-08-a",
           "text": "ずにはいられ",
           "grammarId": "n2-052",
           "baseExpression": "ずにはいられない",
@@ -1595,25 +662,933 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-052-20-b",
-          "text": "次第",
-          "grammarId": "n2-047",
-          "baseExpression": "次第",
-          "conjugatedExpression": "次第",
+          "id": "fb-created-n2-052-08-b",
+          "text": "んだった",
+          "grammarId": "n2-180",
+          "baseExpression": "んだった",
+          "conjugatedExpression": "んだった",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-052-08-c",
+          "text": "んだって",
+          "grammarId": "n2-181",
+          "baseExpression": "んだって",
+          "conjugatedExpression": "んだって",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '여동생이 수상한 투자 이야기를 믿으려 해서 위험하다고 충고하지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
       "sourceGrammarIds": [
         "n2-052",
-        "n2-047",
-        "n2-048",
-        "n2-049"
+        "n2-180",
+        "n2-181",
+        "n2-001"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-052-09",
+      "level": "N2",
+      "sentence": "職人が最後に焼いた茶碗だと聞き、その一つを手に入れずにはいられなかった。",
+      "sentenceWithBlank": "職人が最後に焼いた茶碗だと聞き、その一つを手に入れ（　　　）なかった。",
+      "korean": "장인이 마지막으로 구운 찻사발이라는 말을 듣고 그중 하나를 손에 넣지 않을 수 없었다.",
+      "answerChoiceId": "fb-created-n2-052-09-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-052-09-a",
+          "text": "ずにはいられ",
+          "grammarId": "n2-052",
+          "baseExpression": "ずにはいられない",
+          "conjugatedExpression": "ずにはいられ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-052-09-b",
+          "text": "んだった",
+          "grammarId": "n2-180",
+          "baseExpression": "んだった",
+          "conjugatedExpression": "んだった",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-052-09-c",
+          "text": "んだって",
+          "grammarId": "n2-181",
+          "baseExpression": "んだって",
+          "conjugatedExpression": "んだって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-052-09-d",
+          "text": "したあげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "したあげく",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '장인이 마지막으로 구운 찻사발이라는 말을 듣고 그중 하나를 손에 넣지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
+      "sourceGrammarIds": [
+        "n2-052",
+        "n2-180",
+        "n2-181",
+        "n2-001"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-052-10",
+      "level": "N2",
+      "sentence": "避難所で無事に息子と再会した母親は、強く抱き締めずにはいられなかった。",
+      "sentenceWithBlank": "避難所で無事に息子と再会した母親は、強く抱き締め（　　　）なかった。",
+      "korean": "대피소에서 무사히 아들과 재회한 어머니는 아들을 힘껏 끌어안지 않을 수 없었다.",
+      "answerChoiceId": "fb-created-n2-052-10-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-052-10-b",
+          "text": "んだった",
+          "grammarId": "n2-180",
+          "baseExpression": "んだった",
+          "conjugatedExpression": "んだった",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-052-10-c",
+          "text": "んだって",
+          "grammarId": "n2-181",
+          "baseExpression": "んだって",
+          "conjugatedExpression": "んだって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-052-10-d",
+          "text": "したあげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "したあげく",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-052-10-a",
+          "text": "ずにはいられ",
+          "grammarId": "n2-052",
+          "baseExpression": "ずにはいられない",
+          "conjugatedExpression": "ずにはいられ",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '대피소에서 무사히 아들과 재회한 어머니는 아들을 힘껏 끌어안지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
+      "sourceGrammarIds": [
+        "n2-052",
+        "n2-180",
+        "n2-181",
+        "n2-001"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-052-11",
+      "level": "N2",
+      "sentence": "根拠のない中傷を何度も受け、事実を公表せずにはいられなかった。",
+      "sentenceWithBlank": "根拠のない中傷を何度も受け、事実を公表せ（　　　）なかった。",
+      "korean": "근거 없는 비방을 여러 번 받고 사실을 공개하지 않을 수 없었다.",
+      "answerChoiceId": "fb-created-n2-052-11-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-052-11-c",
+          "text": "んだって",
+          "grammarId": "n2-181",
+          "baseExpression": "んだって",
+          "conjugatedExpression": "んだって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-052-11-d",
+          "text": "したあげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "したあげく",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-052-11-a",
+          "text": "ずにはいられ",
+          "grammarId": "n2-052",
+          "baseExpression": "ずにはいられない",
+          "conjugatedExpression": "ずにはいられ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-052-11-b",
+          "text": "んだった",
+          "grammarId": "n2-180",
+          "baseExpression": "んだった",
+          "conjugatedExpression": "んだった",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '근거 없는 비방을 여러 번 받고 사실을 공개하지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
+      "sourceGrammarIds": [
+        "n2-052",
+        "n2-180",
+        "n2-181",
+        "n2-001"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-052-12",
+      "level": "N2",
+      "sentence": "壁の絵が少し傾いていることに気づくと、真っすぐに直さずにはいられない。",
+      "sentenceWithBlank": "壁の絵が少し傾いていることに気づくと、真っすぐに直さ（　　　）ない。",
+      "korean": "벽의 그림이 조금 기울어진 것을 알아차리면 똑바로 고치지 않고는 못 견딘다.",
+      "answerChoiceId": "fb-created-n2-052-12-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-052-12-d",
+          "text": "したあげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "したあげく",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-052-12-a",
+          "text": "ずにはいられ",
+          "grammarId": "n2-052",
+          "baseExpression": "ずにはいられない",
+          "conjugatedExpression": "ずにはいられ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-052-12-b",
+          "text": "んだった",
+          "grammarId": "n2-180",
+          "baseExpression": "んだった",
+          "conjugatedExpression": "んだった",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-052-12-c",
+          "text": "んだって",
+          "grammarId": "n2-181",
+          "baseExpression": "んだって",
+          "conjugatedExpression": "んだって",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '벽의 그림이 조금 기울어진 것을 알아차리면 똑바로 고치지 않고는 못 견딘다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
+      "sourceGrammarIds": [
+        "n2-052",
+        "n2-180",
+        "n2-181",
+        "n2-001"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-052-13",
+      "level": "N2",
+      "sentence": "祭りの太鼓が鳴り始めると、彼はそのリズムに合わせて踊らずにはいられない。",
+      "sentenceWithBlank": "祭りの太鼓が鳴り始めると、彼はそのリズムに合わせて踊ら（　　　）ない。",
+      "korean": "축제의 북소리가 울리기 시작하면 그는 그 리듬에 맞춰 춤추지 않고는 못 견딘다.",
+      "answerChoiceId": "fb-created-n2-052-13-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-052-13-a",
+          "text": "ずにはいられ",
+          "grammarId": "n2-052",
+          "baseExpression": "ずにはいられない",
+          "conjugatedExpression": "ずにはいられ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-052-13-b",
+          "text": "んだった",
+          "grammarId": "n2-180",
+          "baseExpression": "んだった",
+          "conjugatedExpression": "んだった",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-052-13-c",
+          "text": "んだって",
+          "grammarId": "n2-181",
+          "baseExpression": "んだって",
+          "conjugatedExpression": "んだって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-052-13-d",
+          "text": "したあげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "したあげく",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '축제의 북소리가 울리기 시작하면 그는 그 리듬에 맞춰 춤추지 않고는 못 견딘다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
+      "sourceGrammarIds": [
+        "n2-052",
+        "n2-180",
+        "n2-181",
+        "n2-001"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-052-14",
+      "level": "N2",
+      "sentence": "店先まで漂う焼きたての香りに誘われ、パンを買わずにはいられなかった。",
+      "sentenceWithBlank": "店先まで漂う焼きたての香りに誘われ、パンを買わ（　　　）なかった。",
+      "korean": "가게 앞까지 퍼지는 갓 구운 향기에 이끌려 빵을 사지 않을 수 없었다.",
+      "answerChoiceId": "fb-created-n2-052-14-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-052-14-b",
+          "text": "んだった",
+          "grammarId": "n2-180",
+          "baseExpression": "んだった",
+          "conjugatedExpression": "んだった",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-052-14-c",
+          "text": "んだって",
+          "grammarId": "n2-181",
+          "baseExpression": "んだって",
+          "conjugatedExpression": "んだって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-052-14-d",
+          "text": "したあげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "したあげく",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-052-14-a",
+          "text": "ずにはいられ",
+          "grammarId": "n2-052",
+          "baseExpression": "ずにはいられない",
+          "conjugatedExpression": "ずにはいられ",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '가게 앞까지 퍼지는 갓 구운 향기에 이끌려 빵을 사지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
+      "sourceGrammarIds": [
+        "n2-052",
+        "n2-180",
+        "n2-181",
+        "n2-001"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-052-15",
+      "level": "N2",
+      "sentence": "公共工事をめぐる不正の証拠をつかみ、記者は取材を続けずにはいられなかった。",
+      "sentenceWithBlank": "公共工事をめぐる不正の証拠をつかみ、記者は取材を続け（　　　）なかった。",
+      "korean": "공공 공사를 둘러싼 비리의 증거를 잡고 기자는 취재를 계속하지 않을 수 없었다.",
+      "answerChoiceId": "fb-created-n2-052-15-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-052-15-c",
+          "text": "んだって",
+          "grammarId": "n2-181",
+          "baseExpression": "んだって",
+          "conjugatedExpression": "んだって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-052-15-d",
+          "text": "したあげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "したあげく",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-052-15-a",
+          "text": "ずにはいられ",
+          "grammarId": "n2-052",
+          "baseExpression": "ずにはいられない",
+          "conjugatedExpression": "ずにはいられ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-052-15-b",
+          "text": "んだった",
+          "grammarId": "n2-180",
+          "baseExpression": "んだった",
+          "conjugatedExpression": "んだった",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '공공 공사를 둘러싼 비리의 증거를 잡고 기자는 취재를 계속하지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
+      "sourceGrammarIds": [
+        "n2-052",
+        "n2-180",
+        "n2-181",
+        "n2-001"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-052-16",
+      "level": "N2",
+      "sentence": "故郷で大きな地震が起きたと知り、母に電話せずにはいられなかった。",
+      "sentenceWithBlank": "故郷で大きな地震が起きたと知り、母に電話せ（　　　）なかった。",
+      "korean": "고향에 큰 지진이 났다는 것을 알고 어머니에게 전화하지 않을 수 없었다.",
+      "answerChoiceId": "fb-created-n2-052-16-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-052-16-d",
+          "text": "したあげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "したあげく",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-052-16-a",
+          "text": "ずにはいられ",
+          "grammarId": "n2-052",
+          "baseExpression": "ずにはいられない",
+          "conjugatedExpression": "ずにはいられ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-052-16-b",
+          "text": "んだった",
+          "grammarId": "n2-180",
+          "baseExpression": "んだった",
+          "conjugatedExpression": "んだった",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-052-16-c",
+          "text": "んだって",
+          "grammarId": "n2-181",
+          "baseExpression": "んだって",
+          "conjugatedExpression": "んだって",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '고향에 큰 지진이 났다는 것을 알고 어머니에게 전화하지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
+      "sourceGrammarIds": [
+        "n2-052",
+        "n2-180",
+        "n2-181",
+        "n2-001"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-052-17",
+      "level": "N2",
+      "sentence": "川に流された子どもの姿を見た消防士は、水中へ飛び込まずにはいられなかった。",
+      "sentenceWithBlank": "川に流された子どもの姿を見た消防士は、水中へ飛び込ま（　　　）なかった。",
+      "korean": "강물에 휩쓸린 아이를 본 소방관은 물속으로 뛰어들지 않을 수 없었다.",
+      "answerChoiceId": "fb-created-n2-052-17-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-052-17-a",
+          "text": "ずにはいられ",
+          "grammarId": "n2-052",
+          "baseExpression": "ずにはいられない",
+          "conjugatedExpression": "ずにはいられ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-052-17-b",
+          "text": "んだった",
+          "grammarId": "n2-180",
+          "baseExpression": "んだった",
+          "conjugatedExpression": "んだった",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-052-17-c",
+          "text": "んだって",
+          "grammarId": "n2-181",
+          "baseExpression": "んだって",
+          "conjugatedExpression": "んだって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-052-17-d",
+          "text": "したあげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "したあげく",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '강물에 휩쓸린 아이를 본 소방관은 물속으로 뛰어들지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
+      "sourceGrammarIds": [
+        "n2-052",
+        "n2-180",
+        "n2-181",
+        "n2-001"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-052-18",
+      "level": "N2",
+      "sentence": "飼い猫が箱に頭だけ突っ込んでいるのを見て、吹き出さずにはいられなかった。",
+      "sentenceWithBlank": "飼い猫が箱に頭だけ突っ込んでいるのを見て、吹き出さ（　　　）なかった。",
+      "korean": "키우는 고양이가 상자에 머리만 집어넣고 있는 모습을 보고 웃음을 터뜨리지 않을 수 없었다.",
+      "answerChoiceId": "fb-created-n2-052-18-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-052-18-b",
+          "text": "んだった",
+          "grammarId": "n2-180",
+          "baseExpression": "んだった",
+          "conjugatedExpression": "んだった",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-052-18-c",
+          "text": "んだって",
+          "grammarId": "n2-181",
+          "baseExpression": "んだって",
+          "conjugatedExpression": "んだって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-052-18-d",
+          "text": "したあげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "したあげく",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-052-18-a",
+          "text": "ずにはいられ",
+          "grammarId": "n2-052",
+          "baseExpression": "ずにはいられない",
+          "conjugatedExpression": "ずにはいられ",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '키우는 고양이가 상자에 머리만 집어넣고 있는 모습을 보고 웃음을 터뜨리지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
+      "sourceGrammarIds": [
+        "n2-052",
+        "n2-180",
+        "n2-181",
+        "n2-001"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-052-19",
+      "level": "N2",
+      "sentence": "差出人のない小包が玄関に置かれていて、伝票を調べずにはいられなかった。",
+      "sentenceWithBlank": "差出人のない小包が玄関に置かれていて、伝票を調べ（　　　）なかった。",
+      "korean": "보낸 사람이 적혀 있지 않은 소포가 현관에 놓여 있어서 송장을 조사하지 않을 수 없었다.",
+      "answerChoiceId": "fb-created-n2-052-19-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-052-19-c",
+          "text": "んだって",
+          "grammarId": "n2-181",
+          "baseExpression": "んだって",
+          "conjugatedExpression": "んだって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-052-19-d",
+          "text": "したあげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "したあげく",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-052-19-a",
+          "text": "ずにはいられ",
+          "grammarId": "n2-052",
+          "baseExpression": "ずにはいられない",
+          "conjugatedExpression": "ずにはいられ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-052-19-b",
+          "text": "んだった",
+          "grammarId": "n2-180",
+          "baseExpression": "んだった",
+          "conjugatedExpression": "んだった",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '보낸 사람이 적혀 있지 않은 소포가 현관에 놓여 있어서 송장을 조사하지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
+      "sourceGrammarIds": [
+        "n2-052",
+        "n2-180",
+        "n2-181",
+        "n2-001"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-052-20",
+      "level": "N2",
+      "sentence": "責任を部下だけに押しつける役員を前に、彼をかばわずにはいられなかった。",
+      "sentenceWithBlank": "責任を部下だけに押しつける役員を前に、彼をかばわ（　　　）なかった。",
+      "korean": "책임을 부하에게만 떠넘기는 임원을 보고 그를 감싸지 않을 수 없었다.",
+      "answerChoiceId": "fb-created-n2-052-20-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-052-20-d",
+          "text": "したあげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "したあげく",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-052-20-a",
+          "text": "ずにはいられ",
+          "grammarId": "n2-052",
+          "baseExpression": "ずにはいられない",
+          "conjugatedExpression": "ずにはいられ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-052-20-b",
+          "text": "んだった",
+          "grammarId": "n2-180",
+          "baseExpression": "んだった",
+          "conjugatedExpression": "んだった",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-052-20-c",
+          "text": "んだって",
+          "grammarId": "n2-181",
+          "baseExpression": "んだって",
+          "conjugatedExpression": "んだって",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '책임을 부하에게만 떠넘기는 임원을 보고 그를 감싸지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
+      "sourceGrammarIds": [
+        "n2-052",
+        "n2-180",
+        "n2-181",
+        "n2-001"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-052-21",
+      "level": "N2",
+      "sentence": "長年競ってきた選手が念願の金メダルを取ったので、祝福せずにはいられなかった。",
+      "sentenceWithBlank": "長年競ってきた選手が念願の金メダルを取ったので、祝福せ（　　　）なかった。",
+      "korean": "오랫동안 경쟁해 온 선수가 염원하던 금메달을 따서 축하하지 않을 수 없었다.",
+      "answerChoiceId": "fb-created-n2-052-21-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-052-21-a",
+          "text": "ずにはいられ",
+          "grammarId": "n2-052",
+          "baseExpression": "ずにはいられない",
+          "conjugatedExpression": "ずにはいられ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-052-21-b",
+          "text": "んだった",
+          "grammarId": "n2-180",
+          "baseExpression": "んだった",
+          "conjugatedExpression": "んだった",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-052-21-c",
+          "text": "んだって",
+          "grammarId": "n2-181",
+          "baseExpression": "んだって",
+          "conjugatedExpression": "んだって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-052-21-d",
+          "text": "したあげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "したあげく",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '오랫동안 경쟁해 온 선수가 염원하던 금메달을 따서 축하하지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
+      "sourceGrammarIds": [
+        "n2-052",
+        "n2-180",
+        "n2-181",
+        "n2-001"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-052-22",
+      "level": "N2",
+      "sentence": "夜空いっぱいに広がる珍しいオーロラを前に、カメラを向けずにはいられなかった。",
+      "sentenceWithBlank": "夜空いっぱいに広がる珍しいオーロラを前に、カメラを向け（　　　）なかった。",
+      "korean": "밤하늘 가득 펼쳐진 보기 드문 오로라 앞에서 카메라를 들이대지 않을 수 없었다.",
+      "answerChoiceId": "fb-created-n2-052-22-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-052-22-b",
+          "text": "んだった",
+          "grammarId": "n2-180",
+          "baseExpression": "んだった",
+          "conjugatedExpression": "んだった",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-052-22-c",
+          "text": "んだって",
+          "grammarId": "n2-181",
+          "baseExpression": "んだって",
+          "conjugatedExpression": "んだって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-052-22-d",
+          "text": "したあげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "したあげく",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-052-22-a",
+          "text": "ずにはいられ",
+          "grammarId": "n2-052",
+          "baseExpression": "ずにはいられない",
+          "conjugatedExpression": "ずにはいられ",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '밤하늘 가득 펼쳐진 보기 드문 오로라 앞에서 카메라를 들이대지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
+      "sourceGrammarIds": [
+        "n2-052",
+        "n2-180",
+        "n2-181",
+        "n2-001"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-052-23",
+      "level": "N2",
+      "sentence": "公園の水道から水が流れ続けていたため、蛇口を閉めずにはいられなかった。",
+      "sentenceWithBlank": "公園の水道から水が流れ続けていたため、蛇口を閉め（　　　）なかった。",
+      "korean": "공원의 수도에서 물이 계속 흐르고 있어서 수도꼭지를 잠그지 않을 수 없었다.",
+      "answerChoiceId": "fb-created-n2-052-23-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-052-23-c",
+          "text": "んだって",
+          "grammarId": "n2-181",
+          "baseExpression": "んだって",
+          "conjugatedExpression": "んだって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-052-23-d",
+          "text": "したあげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "したあげく",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-052-23-a",
+          "text": "ずにはいられ",
+          "grammarId": "n2-052",
+          "baseExpression": "ずにはいられない",
+          "conjugatedExpression": "ずにはいられ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-052-23-b",
+          "text": "んだった",
+          "grammarId": "n2-180",
+          "baseExpression": "んだった",
+          "conjugatedExpression": "んだった",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '공원의 수도에서 물이 계속 흐르고 있어서 수도꼭지를 잠그지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
+      "sourceGrammarIds": [
+        "n2-052",
+        "n2-180",
+        "n2-181",
+        "n2-001"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-052-24",
+      "level": "N2",
+      "sentence": "彼女が海外へ移住すると聞き、出発前に思いを伝えずにはいられなかった。",
+      "sentenceWithBlank": "彼女が海外へ移住すると聞き、出発前に思いを伝え（　　　）なかった。",
+      "korean": "그녀가 해외로 이주한다는 말을 듣고 출발 전에 마음을 전하지 않을 수 없었다.",
+      "answerChoiceId": "fb-created-n2-052-24-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-052-24-d",
+          "text": "したあげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "したあげく",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-052-24-a",
+          "text": "ずにはいられ",
+          "grammarId": "n2-052",
+          "baseExpression": "ずにはいられない",
+          "conjugatedExpression": "ずにはいられ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-052-24-b",
+          "text": "んだった",
+          "grammarId": "n2-180",
+          "baseExpression": "んだった",
+          "conjugatedExpression": "んだった",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-052-24-c",
+          "text": "んだって",
+          "grammarId": "n2-181",
+          "baseExpression": "んだって",
+          "conjugatedExpression": "んだって",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '그녀가 해외로 이주한다는 말을 듣고 출발 전에 마음을 전하지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
+      "sourceGrammarIds": [
+        "n2-052",
+        "n2-180",
+        "n2-181",
+        "n2-001"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-052-25",
+      "level": "N2",
+      "sentence": "生まれ育った商店街が取り壊されると知り、最後に足を運ばずにはいられなかった。",
+      "sentenceWithBlank": "生まれ育った商店街が取り壊されると知り、最後に足を運ば（　　　）なかった。",
+      "korean": "나고 자란 상점가가 철거된다는 것을 알고 마지막으로 찾아가지 않을 수 없었다.",
+      "answerChoiceId": "fb-created-n2-052-25-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-052-25-a",
+          "text": "ずにはいられ",
+          "grammarId": "n2-052",
+          "baseExpression": "ずにはいられない",
+          "conjugatedExpression": "ずにはいられ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-052-25-b",
+          "text": "んだった",
+          "grammarId": "n2-180",
+          "baseExpression": "んだった",
+          "conjugatedExpression": "んだった",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-052-25-c",
+          "text": "んだって",
+          "grammarId": "n2-181",
+          "baseExpression": "んだって",
+          "conjugatedExpression": "んだって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-052-25-d",
+          "text": "したあげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "したあげく",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '나고 자란 상점가가 철거된다는 것을 알고 마지막으로 찾아가지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
+      "sourceGrammarIds": [
+        "n2-052",
+        "n2-180",
+        "n2-181",
+        "n2-001"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
       ]
     }
   ],
@@ -1834,1103 +1809,1153 @@
       ]
     },
     {
-      "id": "so-extra-n2-052-1",
+      "id": "so-created-n2-052-01",
       "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
+      "sentence": "亡き祖父の声が残る録音を聞くと、涙を流さずにはいられなかった。",
+      "sentenceWithBlanks": "亡き祖父の ____ ____ ____ ____ なかった。",
+      "korean": "돌아가신 할아버지의 목소리가 남은 녹음을 들으니 눈물을 흘리지 않을 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra-n2-052-1-p3",
-          "text": "った",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-052-1-p4",
-          "text": "声を出さ",
+          "id": "so-created-n2-052-01-p1",
+          "text": "声が残る",
           "order": 1
         },
         {
-          "id": "so-extra-n2-052-1-p1",
-          "text": "ずにはいられ",
+          "id": "so-created-n2-052-01-p2",
+          "text": "録音を聞くと、",
           "order": 2
         },
         {
-          "id": "so-extra-n2-052-1-p2",
-          "text": "なか",
+          "id": "so-created-n2-052-01-p3",
+          "text": "涙を流さ",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-052-01-p4",
+          "text": "ずにはいられ",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-052-1-p4",
-        "so-extra-n2-052-1-p1",
-        "so-extra-n2-052-1-p2",
-        "so-extra-n2-052-1-p3"
+        "so-created-n2-052-01-p1",
+        "so-created-n2-052-01-p2",
+        "so-created-n2-052-01-p3",
+        "so-created-n2-052-01-p4"
       ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '돌아가신 할아버지의 목소리가 남은 녹음을 들으니 눈물을 흘리지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
       "sourceGrammarIds": [
-        "n2-052"
+        "n2-052",
+        "n2-180",
+        "n2-181",
+        "n2-001"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-052-2",
+      "id": "so-created-n2-052-02",
       "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
+      "sentence": "住民を無視した開発計画に、町へ抗議せずにはいられなかった。",
       "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
+      "korean": "주민을 무시한 개발 계획에 시청에 항의하지 않을 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra-n2-052-2-p4",
+          "id": "so-created-n2-052-02-p4",
           "text": "ずにはいられ",
-          "order": 2
-        },
-        {
-          "id": "so-extra-n2-052-2-p1",
-          "text": "なか",
-          "order": 3
-        },
-        {
-          "id": "so-extra-n2-052-2-p2",
-          "text": "った",
           "order": 4
         },
         {
-          "id": "so-extra-n2-052-2-p3",
-          "text": "声を出さ",
+          "id": "so-created-n2-052-02-p1",
+          "text": "住民を無視した",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-052-02-p2",
+          "text": "開発計画に、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-052-02-p3",
+          "text": "町へ抗議せ",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-052-2-p3",
-        "so-extra-n2-052-2-p4",
-        "so-extra-n2-052-2-p1",
-        "so-extra-n2-052-2-p2"
+        "so-created-n2-052-02-p1",
+        "so-created-n2-052-02-p2",
+        "so-created-n2-052-02-p3",
+        "so-created-n2-052-02-p4"
       ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '주민을 무시한 개발 계획에 시청에 항의하지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
       "sourceGrammarIds": [
-        "n2-052"
+        "n2-052",
+        "n2-180",
+        "n2-181",
+        "n2-001"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-052-3",
+      "id": "so-created-n2-052-03",
       "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
+      "sentence": "初めて立ち上がった赤ん坊の姿を見て、頬を緩めずにはいられなかった。",
+      "sentenceWithBlanks": "初めて立ち ____ ____ ____ ____ なかった。",
+      "korean": "처음으로 일어선 아기의 모습을 보고 미소 짓지 않을 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra-n2-052-3-p1",
-          "text": "った",
+          "id": "so-created-n2-052-03-p3",
+          "text": "見て、頬を緩め",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-052-03-p4",
+          "text": "ずにはいられ",
           "order": 4
         },
         {
-          "id": "so-extra-n2-052-3-p2",
-          "text": "声を出さ",
+          "id": "so-created-n2-052-03-p1",
+          "text": "上がった",
           "order": 1
         },
         {
-          "id": "so-extra-n2-052-3-p3",
-          "text": "ずにはいられ",
+          "id": "so-created-n2-052-03-p2",
+          "text": "赤ん坊の姿を",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-052-3-p4",
-          "text": "なか",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-052-3-p2",
-        "so-extra-n2-052-3-p3",
-        "so-extra-n2-052-3-p4",
-        "so-extra-n2-052-3-p1"
+        "so-created-n2-052-03-p1",
+        "so-created-n2-052-03-p2",
+        "so-created-n2-052-03-p3",
+        "so-created-n2-052-03-p4"
       ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '처음으로 일어선 아기의 모습을 보고 미소 짓지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
       "sourceGrammarIds": [
-        "n2-052"
+        "n2-052",
+        "n2-180",
+        "n2-181",
+        "n2-001"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-052-4",
+      "id": "so-created-n2-052-04",
       "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
+      "sentence": "留守宅から焦げた臭いがしたため、中を確認せずにはいられなかった。",
+      "sentenceWithBlanks": "留守 ____ ____ ____ ____",
+      "korean": "빈집에서 탄 냄새가 나서 안을 확인하지 않을 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra-n2-052-4-p2",
-          "text": "ずにはいられ",
+          "id": "so-created-n2-052-04-p2",
+          "text": "臭いがしたため、中を",
           "order": 2
         },
         {
-          "id": "so-extra-n2-052-4-p3",
-          "text": "なか",
+          "id": "so-created-n2-052-04-p3",
+          "text": "確認せずにはいられ",
           "order": 3
         },
         {
-          "id": "so-extra-n2-052-4-p4",
-          "text": "った",
+          "id": "so-created-n2-052-04-p4",
+          "text": "なかった。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-052-4-p1",
-          "text": "声を出さ",
+          "id": "so-created-n2-052-04-p1",
+          "text": "宅から焦げた",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-052-4-p1",
-        "so-extra-n2-052-4-p2",
-        "so-extra-n2-052-4-p3",
-        "so-extra-n2-052-4-p4"
+        "so-created-n2-052-04-p1",
+        "so-created-n2-052-04-p2",
+        "so-created-n2-052-04-p3",
+        "so-created-n2-052-04-p4"
       ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '빈집에서 탄 냄새가 나서 안을 확인하지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
       "sourceGrammarIds": [
-        "n2-052"
+        "n2-052",
+        "n2-180",
+        "n2-181",
+        "n2-001"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-052-5",
+      "id": "so-created-n2-052-05",
       "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
+      "sentence": "路上で高齢者が倒れるのを目にし、車を止めずにはいられなかった。",
+      "sentenceWithBlanks": "路上で ____ ____ ____ ____ なかった。",
+      "korean": "길에서 노인이 쓰러지는 것을 보고 차를 세우지 않을 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra-n2-052-5-p3",
-          "text": "った",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-052-5-p4",
-          "text": "声を出さ",
+          "id": "so-created-n2-052-05-p1",
+          "text": "高齢者が",
           "order": 1
         },
         {
-          "id": "so-extra-n2-052-5-p1",
-          "text": "ずにはいられ",
+          "id": "so-created-n2-052-05-p2",
+          "text": "倒れるのを",
           "order": 2
         },
         {
-          "id": "so-extra-n2-052-5-p2",
-          "text": "なか",
+          "id": "so-created-n2-052-05-p3",
+          "text": "目にし、車を",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-052-05-p4",
+          "text": "止めずにはいられ",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-052-5-p4",
-        "so-extra-n2-052-5-p1",
-        "so-extra-n2-052-5-p2",
-        "so-extra-n2-052-5-p3"
+        "so-created-n2-052-05-p1",
+        "so-created-n2-052-05-p2",
+        "so-created-n2-052-05-p3",
+        "so-created-n2-052-05-p4"
       ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '길에서 노인이 쓰러지는 것을 보고 차를 세우지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
       "sourceGrammarIds": [
-        "n2-052"
+        "n2-052",
+        "n2-180",
+        "n2-181",
+        "n2-001"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-052-01",
+      "id": "so-created-n2-052-06",
       "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
+      "sentence": "魂を揺さぶる演奏が終わった瞬間、立ち上がって拍手せずにはいられなかった。",
+      "sentenceWithBlanks": "魂を揺さぶる ____ ____ ____ ____ なかった。",
+      "korean": "영혼을 울리는 연주가 끝난 순간 일어나 박수 치지 않을 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-052-01-p3",
-          "text": "った",
+          "id": "so-created-n2-052-06-p4",
+          "text": "ずにはいられ",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-052-01-p4",
-          "text": "声を出さ",
+          "id": "so-created-n2-052-06-p1",
+          "text": "演奏が終わった",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-052-01-p1",
-          "text": "ずにはいられ",
+          "id": "so-created-n2-052-06-p2",
+          "text": "瞬間、立ち",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-052-01-p2",
-          "text": "なか",
+          "id": "so-created-n2-052-06-p3",
+          "text": "上がって拍手せ",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-052-01-p4",
-        "so-extra20-n2-052-01-p1",
-        "so-extra20-n2-052-01-p2",
-        "so-extra20-n2-052-01-p3"
+        "so-created-n2-052-06-p1",
+        "so-created-n2-052-06-p2",
+        "so-created-n2-052-06-p3",
+        "so-created-n2-052-06-p4"
       ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '영혼을 울리는 연주가 끝난 순간 일어나 박수 치지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
       "sourceGrammarIds": [
-        "n2-052"
+        "n2-052",
+        "n2-180",
+        "n2-181",
+        "n2-001"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-052-02",
+      "id": "so-created-n2-052-07",
       "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
+      "sentence": "自分の発言が友人を傷つけたと知り、すぐに謝らずにはいられなかった。",
+      "sentenceWithBlanks": "自分の ____ ____ ____ ____",
+      "korean": "내 말이 친구에게 상처를 주었다는 것을 알고 바로 사과하지 않을 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-052-02-p2",
-          "text": "った",
+          "id": "so-created-n2-052-07-p3",
+          "text": "知り、すぐに謝ら",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-052-07-p4",
+          "text": "ずにはいられなかった。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-052-02-p3",
-          "text": "声を出さ",
+          "id": "so-created-n2-052-07-p1",
+          "text": "発言が友人を",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-052-02-p4",
-          "text": "ずにはいられ",
+          "id": "so-created-n2-052-07-p2",
+          "text": "傷つけたと",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-052-02-p1",
-          "text": "なか",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-052-02-p3",
-        "so-extra20-n2-052-02-p4",
-        "so-extra20-n2-052-02-p1",
-        "so-extra20-n2-052-02-p2"
+        "so-created-n2-052-07-p1",
+        "so-created-n2-052-07-p2",
+        "so-created-n2-052-07-p3",
+        "so-created-n2-052-07-p4"
       ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '내 말이 친구에게 상처를 주었다는 것을 알고 바로 사과하지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
       "sourceGrammarIds": [
-        "n2-052"
+        "n2-052",
+        "n2-180",
+        "n2-181",
+        "n2-001"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-052-03",
+      "id": "so-created-n2-052-08",
       "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
+      "sentence": "妹が怪しい投資話を信じかけていたので、危険だと忠告せずにはいられなかった。",
+      "sentenceWithBlanks": "妹が怪しい投資 ____ ____ ____ ____",
+      "korean": "여동생이 수상한 투자 이야기를 믿으려 해서 위험하다고 충고하지 않을 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-052-03-p1",
-          "text": "った",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-052-03-p2",
-          "text": "声を出さ",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-052-03-p3",
-          "text": "ずにはいられ",
+          "id": "so-created-n2-052-08-p2",
+          "text": "信じかけていたので、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-052-03-p4",
-          "text": "なか",
+          "id": "so-created-n2-052-08-p3",
+          "text": "危険だと忠告せ",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-052-08-p4",
+          "text": "ずにはいられなかった。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-052-08-p1",
+          "text": "話を",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-052-03-p2",
-        "so-extra20-n2-052-03-p3",
-        "so-extra20-n2-052-03-p4",
-        "so-extra20-n2-052-03-p1"
+        "so-created-n2-052-08-p1",
+        "so-created-n2-052-08-p2",
+        "so-created-n2-052-08-p3",
+        "so-created-n2-052-08-p4"
       ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '여동생이 수상한 투자 이야기를 믿으려 해서 위험하다고 충고하지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
       "sourceGrammarIds": [
-        "n2-052"
+        "n2-052",
+        "n2-180",
+        "n2-181",
+        "n2-001"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-052-04",
+      "id": "so-created-n2-052-09",
       "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
+      "sentence": "職人が最後に焼いた茶碗だと聞き、その一つを手に入れずにはいられなかった。",
+      "sentenceWithBlanks": "職人が最後に ____ ____ ____ ____ なかった。",
+      "korean": "장인이 마지막으로 구운 찻사발이라는 말을 듣고 그중 하나를 손에 넣지 않을 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-052-04-p4",
-          "text": "った",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-052-04-p1",
-          "text": "声を出さ",
+          "id": "so-created-n2-052-09-p1",
+          "text": "焼いた茶碗だと",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-052-04-p2",
-          "text": "ずにはいられ",
+          "id": "so-created-n2-052-09-p2",
+          "text": "聞き、その",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-052-04-p3",
-          "text": "なか",
+          "id": "so-created-n2-052-09-p3",
+          "text": "一つを手に入れ",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-052-09-p4",
+          "text": "ずにはいられ",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-052-04-p1",
-        "so-extra20-n2-052-04-p2",
-        "so-extra20-n2-052-04-p3",
-        "so-extra20-n2-052-04-p4"
+        "so-created-n2-052-09-p1",
+        "so-created-n2-052-09-p2",
+        "so-created-n2-052-09-p3",
+        "so-created-n2-052-09-p4"
       ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '장인이 마지막으로 구운 찻사발이라는 말을 듣고 그중 하나를 손에 넣지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
       "sourceGrammarIds": [
-        "n2-052"
+        "n2-052",
+        "n2-180",
+        "n2-181",
+        "n2-001"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-052-05",
+      "id": "so-created-n2-052-10",
       "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
+      "sentence": "避難所で無事に息子と再会した母親は、強く抱き締めずにはいられなかった。",
+      "sentenceWithBlanks": "避難所で無事に ____ ____ ____ ____ なかった。",
+      "korean": "대피소에서 무사히 아들과 재회한 어머니는 아들을 힘껏 끌어안지 않을 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-052-05-p3",
-          "text": "った",
+          "id": "so-created-n2-052-10-p4",
+          "text": "ずにはいられ",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-052-05-p4",
-          "text": "声を出さ",
+          "id": "so-created-n2-052-10-p1",
+          "text": "息子と再会した",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-052-05-p1",
-          "text": "ずにはいられ",
+          "id": "so-created-n2-052-10-p2",
+          "text": "母親は、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-052-05-p2",
-          "text": "なか",
+          "id": "so-created-n2-052-10-p3",
+          "text": "強く抱き締め",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-052-05-p4",
-        "so-extra20-n2-052-05-p1",
-        "so-extra20-n2-052-05-p2",
-        "so-extra20-n2-052-05-p3"
+        "so-created-n2-052-10-p1",
+        "so-created-n2-052-10-p2",
+        "so-created-n2-052-10-p3",
+        "so-created-n2-052-10-p4"
       ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '대피소에서 무사히 아들과 재회한 어머니는 아들을 힘껏 끌어안지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
       "sourceGrammarIds": [
-        "n2-052"
+        "n2-052",
+        "n2-180",
+        "n2-181",
+        "n2-001"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-052-06",
+      "id": "so-created-n2-052-11",
       "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
+      "sentence": "根拠のない中傷を何度も受け、事実を公表せずにはいられなかった。",
+      "sentenceWithBlanks": "根拠のない ____ ____ ____ ____ なかった。",
+      "korean": "근거 없는 비방을 여러 번 받고 사실을 공개하지 않을 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-052-06-p2",
-          "text": "なか",
+          "id": "so-created-n2-052-11-p3",
+          "text": "事実を公表せ",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-052-06-p3",
-          "text": "った",
+          "id": "so-created-n2-052-11-p4",
+          "text": "ずにはいられ",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-052-06-p4",
-          "text": "声を出さ",
+          "id": "so-created-n2-052-11-p1",
+          "text": "中傷を何",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-052-06-p1",
-          "text": "ずにはいられ",
+          "id": "so-created-n2-052-11-p2",
+          "text": "度も受け、",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-052-06-p4",
-        "so-extra20-n2-052-06-p1",
-        "so-extra20-n2-052-06-p2",
-        "so-extra20-n2-052-06-p3"
+        "so-created-n2-052-11-p1",
+        "so-created-n2-052-11-p2",
+        "so-created-n2-052-11-p3",
+        "so-created-n2-052-11-p4"
       ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '근거 없는 비방을 여러 번 받고 사실을 공개하지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
       "sourceGrammarIds": [
-        "n2-052"
+        "n2-052",
+        "n2-180",
+        "n2-181",
+        "n2-001"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-052-07",
+      "id": "so-created-n2-052-12",
       "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
+      "sentence": "壁の絵が少し傾いていることに気づくと、真っすぐに直さずにはいられない。",
+      "sentenceWithBlanks": "壁の絵が少し ____ ____ ____ ____",
+      "korean": "벽의 그림이 조금 기울어진 것을 알아차리면 똑바로 고치지 않고는 못 견딘다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-052-07-p1",
-          "text": "なか",
+          "id": "so-created-n2-052-12-p2",
+          "text": "気づくと、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-052-12-p3",
+          "text": "真っすぐに直さ",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-052-07-p2",
-          "text": "った",
+          "id": "so-created-n2-052-12-p4",
+          "text": "ずにはいられない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-052-07-p3",
-          "text": "声を出さ",
+          "id": "so-created-n2-052-12-p1",
+          "text": "傾いていることに",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-052-07-p4",
-          "text": "ずにはいられ",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-052-07-p3",
-        "so-extra20-n2-052-07-p4",
-        "so-extra20-n2-052-07-p1",
-        "so-extra20-n2-052-07-p2"
+        "so-created-n2-052-12-p1",
+        "so-created-n2-052-12-p2",
+        "so-created-n2-052-12-p3",
+        "so-created-n2-052-12-p4"
       ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '벽의 그림이 조금 기울어진 것을 알아차리면 똑바로 고치지 않고는 못 견딘다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
       "sourceGrammarIds": [
-        "n2-052"
+        "n2-052",
+        "n2-180",
+        "n2-181",
+        "n2-001"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-052-08",
+      "id": "so-created-n2-052-13",
       "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
+      "sentence": "祭りの太鼓が鳴り始めると、彼はそのリズムに合わせて踊らずにはいられない。",
+      "sentenceWithBlanks": "祭りの太鼓が鳴り ____ ____ ____ ____",
+      "korean": "축제의 북소리가 울리기 시작하면 그는 그 리듬에 맞춰 춤추지 않고는 못 견딘다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-052-08-p4",
-          "text": "なか",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-052-08-p1",
-          "text": "った",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-052-08-p2",
-          "text": "声を出さ",
+          "id": "so-created-n2-052-13-p1",
+          "text": "始めると、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-052-08-p3",
-          "text": "ずにはいられ",
+          "id": "so-created-n2-052-13-p2",
+          "text": "彼はそのリズムに",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-052-13-p3",
+          "text": "合わせて踊ら",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-052-13-p4",
+          "text": "ずにはいられない。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-052-08-p2",
-        "so-extra20-n2-052-08-p3",
-        "so-extra20-n2-052-08-p4",
-        "so-extra20-n2-052-08-p1"
+        "so-created-n2-052-13-p1",
+        "so-created-n2-052-13-p2",
+        "so-created-n2-052-13-p3",
+        "so-created-n2-052-13-p4"
       ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '축제의 북소리가 울리기 시작하면 그는 그 리듬에 맞춰 춤추지 않고는 못 견딘다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
       "sourceGrammarIds": [
-        "n2-052"
+        "n2-052",
+        "n2-180",
+        "n2-181",
+        "n2-001"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-052-09",
+      "id": "so-created-n2-052-14",
       "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
+      "sentence": "店先まで漂う焼きたての香りに誘われ、パンを買わずにはいられなかった。",
+      "sentenceWithBlanks": "店先まで ____ ____ ____ ____ なかった。",
+      "korean": "가게 앞까지 퍼지는 갓 구운 향기에 이끌려 빵을 사지 않을 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-052-09-p3",
-          "text": "なか",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-052-09-p4",
-          "text": "った",
+          "id": "so-created-n2-052-14-p4",
+          "text": "ずにはいられ",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-052-09-p1",
-          "text": "声を出さ",
+          "id": "so-created-n2-052-14-p1",
+          "text": "漂う焼きたての",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-052-09-p2",
-          "text": "ずにはいられ",
+          "id": "so-created-n2-052-14-p2",
+          "text": "香りに誘われ、",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-052-14-p3",
+          "text": "パンを買わ",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-052-09-p1",
-        "so-extra20-n2-052-09-p2",
-        "so-extra20-n2-052-09-p3",
-        "so-extra20-n2-052-09-p4"
+        "so-created-n2-052-14-p1",
+        "so-created-n2-052-14-p2",
+        "so-created-n2-052-14-p3",
+        "so-created-n2-052-14-p4"
       ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '가게 앞까지 퍼지는 갓 구운 향기에 이끌려 빵을 사지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
       "sourceGrammarIds": [
-        "n2-052"
+        "n2-052",
+        "n2-180",
+        "n2-181",
+        "n2-001"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-052-10",
+      "id": "so-created-n2-052-15",
       "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
+      "sentence": "公共工事をめぐる不正の証拠をつかみ、記者は取材を続けずにはいられなかった。",
+      "sentenceWithBlanks": "公共工事をめぐる ____ ____ ____ ____",
+      "korean": "공공 공사를 둘러싼 비리의 증거를 잡고 기자는 취재를 계속하지 않을 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-052-10-p2",
-          "text": "なか",
+          "id": "so-created-n2-052-15-p3",
+          "text": "続けずにはいられ",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-052-10-p3",
-          "text": "った",
+          "id": "so-created-n2-052-15-p4",
+          "text": "なかった。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-052-10-p4",
-          "text": "声を出さ",
+          "id": "so-created-n2-052-15-p1",
+          "text": "不正の証拠をつかみ、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-052-10-p1",
-          "text": "ずにはいられ",
+          "id": "so-created-n2-052-15-p2",
+          "text": "記者は取材を",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-052-10-p4",
-        "so-extra20-n2-052-10-p1",
-        "so-extra20-n2-052-10-p2",
-        "so-extra20-n2-052-10-p3"
+        "so-created-n2-052-15-p1",
+        "so-created-n2-052-15-p2",
+        "so-created-n2-052-15-p3",
+        "so-created-n2-052-15-p4"
       ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '공공 공사를 둘러싼 비리의 증거를 잡고 기자는 취재를 계속하지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
       "sourceGrammarIds": [
-        "n2-052"
+        "n2-052",
+        "n2-180",
+        "n2-181",
+        "n2-001"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-052-11",
+      "id": "so-created-n2-052-16",
       "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
+      "sentence": "故郷で大きな地震が起きたと知り、母に電話せずにはいられなかった。",
+      "sentenceWithBlanks": "故郷で ____ ____ ____ ____ なかった。",
+      "korean": "고향에 큰 지진이 났다는 것을 알고 어머니에게 전화하지 않을 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-052-11-p1",
-          "text": "ずにはいられ",
+          "id": "so-created-n2-052-16-p2",
+          "text": "起きたと知り、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-052-11-p2",
-          "text": "なか",
+          "id": "so-created-n2-052-16-p3",
+          "text": "母に電話せ",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-052-11-p3",
-          "text": "った",
+          "id": "so-created-n2-052-16-p4",
+          "text": "ずにはいられ",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-052-11-p4",
-          "text": "声を出さ",
+          "id": "so-created-n2-052-16-p1",
+          "text": "大きな地震が",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-052-11-p4",
-        "so-extra20-n2-052-11-p1",
-        "so-extra20-n2-052-11-p2",
-        "so-extra20-n2-052-11-p3"
+        "so-created-n2-052-16-p1",
+        "so-created-n2-052-16-p2",
+        "so-created-n2-052-16-p3",
+        "so-created-n2-052-16-p4"
       ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '고향에 큰 지진이 났다는 것을 알고 어머니에게 전화하지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
       "sourceGrammarIds": [
-        "n2-052"
+        "n2-052",
+        "n2-180",
+        "n2-181",
+        "n2-001"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-052-12",
+      "id": "so-created-n2-052-17",
       "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
+      "sentence": "川に流された子どもの姿を見た消防士は、水中へ飛び込まずにはいられなかった。",
+      "sentenceWithBlanks": "川に流された子どもの姿を ____ ____ ____ ____ なかった。",
+      "korean": "강물에 휩쓸린 아이를 본 소방관은 물속으로 뛰어들지 않을 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-052-12-p4",
-          "text": "ずにはいられ",
+          "id": "so-created-n2-052-17-p1",
+          "text": "見た消防",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-052-17-p2",
+          "text": "士は、水中へ",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-052-12-p1",
-          "text": "なか",
+          "id": "so-created-n2-052-17-p3",
+          "text": "飛び込ま",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-052-12-p2",
-          "text": "った",
+          "id": "so-created-n2-052-17-p4",
+          "text": "ずにはいられ",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-052-12-p3",
-          "text": "声を出さ",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-052-12-p3",
-        "so-extra20-n2-052-12-p4",
-        "so-extra20-n2-052-12-p1",
-        "so-extra20-n2-052-12-p2"
+        "so-created-n2-052-17-p1",
+        "so-created-n2-052-17-p2",
+        "so-created-n2-052-17-p3",
+        "so-created-n2-052-17-p4"
       ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '강물에 휩쓸린 아이를 본 소방관은 물속으로 뛰어들지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
       "sourceGrammarIds": [
-        "n2-052"
+        "n2-052",
+        "n2-180",
+        "n2-181",
+        "n2-001"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-052-13",
+      "id": "so-created-n2-052-18",
       "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
+      "sentence": "飼い猫が箱に頭だけ突っ込んでいるのを見て、吹き出さずにはいられなかった。",
+      "sentenceWithBlanks": "飼い猫が箱に頭だけ ____ ____ ____ ____",
+      "korean": "키우는 고양이가 상자에 머리만 집어넣고 있는 모습을 보고 웃음을 터뜨리지 않을 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-052-13-p3",
-          "text": "ずにはいられ",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-052-13-p4",
-          "text": "なか",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-052-13-p1",
-          "text": "った",
+          "id": "so-created-n2-052-18-p4",
+          "text": "なかった。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-052-13-p2",
-          "text": "声を出さ",
+          "id": "so-created-n2-052-18-p1",
+          "text": "突っ込んでいるのを",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-052-18-p2",
+          "text": "見て、吹き出さ",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-052-18-p3",
+          "text": "ずにはいられ",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-052-13-p2",
-        "so-extra20-n2-052-13-p3",
-        "so-extra20-n2-052-13-p4",
-        "so-extra20-n2-052-13-p1"
+        "so-created-n2-052-18-p1",
+        "so-created-n2-052-18-p2",
+        "so-created-n2-052-18-p3",
+        "so-created-n2-052-18-p4"
       ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '키우는 고양이가 상자에 머리만 집어넣고 있는 모습을 보고 웃음을 터뜨리지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
       "sourceGrammarIds": [
-        "n2-052"
+        "n2-052",
+        "n2-180",
+        "n2-181",
+        "n2-001"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-052-14",
+      "id": "so-created-n2-052-19",
       "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
+      "sentence": "差出人のない小包が玄関に置かれていて、伝票を調べずにはいられなかった。",
+      "sentenceWithBlanks": "差出人のない ____ ____ ____ ____",
+      "korean": "보낸 사람이 적혀 있지 않은 소포가 현관에 놓여 있어서 송장을 조사하지 않을 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-052-14-p2",
-          "text": "ずにはいられ",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-052-14-p3",
-          "text": "なか",
+          "id": "so-created-n2-052-19-p3",
+          "text": "調べずにはいられ",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-052-14-p4",
-          "text": "った",
+          "id": "so-created-n2-052-19-p4",
+          "text": "なかった。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-052-14-p1",
-          "text": "声を出さ",
+          "id": "so-created-n2-052-19-p1",
+          "text": "小包が玄関に",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-052-19-p2",
+          "text": "置かれていて、伝票を",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-052-14-p1",
-        "so-extra20-n2-052-14-p2",
-        "so-extra20-n2-052-14-p3",
-        "so-extra20-n2-052-14-p4"
+        "so-created-n2-052-19-p1",
+        "so-created-n2-052-19-p2",
+        "so-created-n2-052-19-p3",
+        "so-created-n2-052-19-p4"
       ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '보낸 사람이 적혀 있지 않은 소포가 현관에 놓여 있어서 송장을 조사하지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
       "sourceGrammarIds": [
-        "n2-052"
+        "n2-052",
+        "n2-180",
+        "n2-181",
+        "n2-001"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-052-15",
+      "id": "so-created-n2-052-20",
       "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
+      "sentence": "責任を部下だけに押しつける役員を前に、彼をかばわずにはいられなかった。",
       "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
+      "korean": "책임을 부하에게만 떠넘기는 임원을 보고 그를 감싸지 않을 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-052-15-p1",
-          "text": "ずにはいられ",
+          "id": "so-created-n2-052-20-p2",
+          "text": "押しつける役員を",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-052-15-p2",
-          "text": "なか",
+          "id": "so-created-n2-052-20-p3",
+          "text": "前に、彼をかばわ",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-052-15-p3",
-          "text": "った",
+          "id": "so-created-n2-052-20-p4",
+          "text": "ずにはいられ",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-052-15-p4",
-          "text": "声を出さ",
+          "id": "so-created-n2-052-20-p1",
+          "text": "責任を部下だけに",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-052-15-p4",
-        "so-extra20-n2-052-15-p1",
-        "so-extra20-n2-052-15-p2",
-        "so-extra20-n2-052-15-p3"
+        "so-created-n2-052-20-p1",
+        "so-created-n2-052-20-p2",
+        "so-created-n2-052-20-p3",
+        "so-created-n2-052-20-p4"
       ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '책임을 부하에게만 떠넘기는 임원을 보고 그를 감싸지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
       "sourceGrammarIds": [
-        "n2-052"
+        "n2-052",
+        "n2-180",
+        "n2-181",
+        "n2-001"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-052-16",
+      "id": "so-created-n2-052-21",
       "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
+      "sentence": "長年競ってきた選手が念願の金メダルを取ったので、祝福せずにはいられなかった。",
+      "sentenceWithBlanks": "長年競ってきた選手が ____ ____ ____ ____",
+      "korean": "오랫동안 경쟁해 온 선수가 염원하던 금메달을 따서 축하하지 않을 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-052-16-p4",
-          "text": "声を出さ",
+          "id": "so-created-n2-052-21-p1",
+          "text": "念願の金メダルを",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-052-16-p1",
-          "text": "ずにはいられ",
+          "id": "so-created-n2-052-21-p2",
+          "text": "取ったので、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-052-16-p2",
-          "text": "なか",
+          "id": "so-created-n2-052-21-p3",
+          "text": "祝福せずにはいられ",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-052-16-p3",
-          "text": "った",
+          "id": "so-created-n2-052-21-p4",
+          "text": "なかった。",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-052-16-p4",
-        "so-extra20-n2-052-16-p1",
-        "so-extra20-n2-052-16-p2",
-        "so-extra20-n2-052-16-p3"
+        "so-created-n2-052-21-p1",
+        "so-created-n2-052-21-p2",
+        "so-created-n2-052-21-p3",
+        "so-created-n2-052-21-p4"
       ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '오랫동안 경쟁해 온 선수가 염원하던 금메달을 따서 축하하지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
       "sourceGrammarIds": [
-        "n2-052"
+        "n2-052",
+        "n2-180",
+        "n2-181",
+        "n2-001"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-052-17",
+      "id": "so-created-n2-052-22",
       "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
+      "sentence": "夜空いっぱいに広がる珍しいオーロラを前に、カメラを向けずにはいられなかった。",
+      "sentenceWithBlanks": "夜空いっぱいに ____ ____ ____ ____ なかった。",
+      "korean": "밤하늘 가득 펼쳐진 보기 드문 오로라 앞에서 카메라를 들이대지 않을 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-052-17-p3",
-          "text": "声を出さ",
+          "id": "so-created-n2-052-22-p4",
+          "text": "ずにはいられ",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-052-22-p1",
+          "text": "広がる珍しい",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-052-17-p4",
-          "text": "ずにはいられ",
+          "id": "so-created-n2-052-22-p2",
+          "text": "オーロラを前に、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-052-17-p1",
-          "text": "なか",
+          "id": "so-created-n2-052-22-p3",
+          "text": "カメラを向け",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-052-17-p2",
-          "text": "った",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-052-17-p3",
-        "so-extra20-n2-052-17-p4",
-        "so-extra20-n2-052-17-p1",
-        "so-extra20-n2-052-17-p2"
+        "so-created-n2-052-22-p1",
+        "so-created-n2-052-22-p2",
+        "so-created-n2-052-22-p3",
+        "so-created-n2-052-22-p4"
       ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '밤하늘 가득 펼쳐진 보기 드문 오로라 앞에서 카메라를 들이대지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
       "sourceGrammarIds": [
-        "n2-052"
+        "n2-052",
+        "n2-180",
+        "n2-181",
+        "n2-001"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-052-18",
+      "id": "so-created-n2-052-23",
       "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
+      "sentence": "公園の水道から水が流れ続けていたため、蛇口を閉めずにはいられなかった。",
+      "sentenceWithBlanks": "公園の水道から ____ ____ ____ ____",
+      "korean": "공원의 수도에서 물이 계속 흐르고 있어서 수도꼭지를 잠그지 않을 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-052-18-p2",
-          "text": "声を出さ",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-052-18-p3",
-          "text": "ずにはいられ",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-052-18-p4",
-          "text": "なか",
+          "id": "so-created-n2-052-23-p3",
+          "text": "蛇口を閉め",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-052-18-p1",
-          "text": "った",
+          "id": "so-created-n2-052-23-p4",
+          "text": "ずにはいられなかった。",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-052-23-p1",
+          "text": "水が流れ",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-052-23-p2",
+          "text": "続けていたため、",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-052-18-p2",
-        "so-extra20-n2-052-18-p3",
-        "so-extra20-n2-052-18-p4",
-        "so-extra20-n2-052-18-p1"
+        "so-created-n2-052-23-p1",
+        "so-created-n2-052-23-p2",
+        "so-created-n2-052-23-p3",
+        "so-created-n2-052-23-p4"
       ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '공원의 수도에서 물이 계속 흐르고 있어서 수도꼭지를 잠그지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
       "sourceGrammarIds": [
-        "n2-052"
+        "n2-052",
+        "n2-180",
+        "n2-181",
+        "n2-001"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-052-19",
+      "id": "so-created-n2-052-24",
       "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
+      "sentence": "彼女が海外へ移住すると聞き、出発前に思いを伝えずにはいられなかった。",
+      "sentenceWithBlanks": "彼女が海外へ ____ ____ ____ ____ なかった。",
+      "korean": "그녀가 해외로 이주한다는 말을 듣고 출발 전에 마음을 전하지 않을 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-052-19-p1",
-          "text": "声を出さ",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-052-19-p2",
-          "text": "ずにはいられ",
+          "id": "so-created-n2-052-24-p2",
+          "text": "聞き、出発",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-052-19-p3",
-          "text": "なか",
+          "id": "so-created-n2-052-24-p3",
+          "text": "前に思いを伝え",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-052-19-p4",
-          "text": "った",
+          "id": "so-created-n2-052-24-p4",
+          "text": "ずにはいられ",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-052-24-p1",
+          "text": "移住すると",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-052-19-p1",
-        "so-extra20-n2-052-19-p2",
-        "so-extra20-n2-052-19-p3",
-        "so-extra20-n2-052-19-p4"
+        "so-created-n2-052-24-p1",
+        "so-created-n2-052-24-p2",
+        "so-created-n2-052-24-p3",
+        "so-created-n2-052-24-p4"
       ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '그녀가 해외로 이주한다는 말을 듣고 출발 전에 마음을 전하지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
       "sourceGrammarIds": [
-        "n2-052"
+        "n2-052",
+        "n2-180",
+        "n2-181",
+        "n2-001"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-052-20",
+      "id": "so-created-n2-052-25",
       "level": "N2",
-      "sentence": "お腹が痛くて声を出さずにはいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "배가 아파서 소리를 내지 않고는 견딜 수 없었다.",
+      "sentence": "生まれ育った商店街が取り壊されると知り、最後に足を運ばずにはいられなかった。",
+      "sentenceWithBlanks": "生まれ育った商店街が ____ ____ ____ ____ なかった。",
+      "korean": "나고 자란 상점가가 철거된다는 것을 알고 마지막으로 찾아가지 않을 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-052-20-p4",
-          "text": "声を出さ",
+          "id": "so-created-n2-052-25-p1",
+          "text": "取り壊されると",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-052-20-p1",
-          "text": "ずにはいられ",
+          "id": "so-created-n2-052-25-p2",
+          "text": "知り、最後に",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-052-20-p2",
-          "text": "なか",
+          "id": "so-created-n2-052-25-p3",
+          "text": "足を運ば",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-052-20-p3",
-          "text": "った",
+          "id": "so-created-n2-052-25-p4",
+          "text": "ずにはいられ",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-052-20-p4",
-        "so-extra20-n2-052-20-p1",
-        "so-extra20-n2-052-20-p2",
-        "so-extra20-n2-052-20-p3"
+        "so-created-n2-052-25-p1",
+        "so-created-n2-052-25-p2",
+        "so-created-n2-052-25-p3",
+        "so-created-n2-052-25-p4"
       ],
-      "explanation": "「ずにはいられない」는 ~하지 않고는 견딜 수 없다라는 뜻이다. 감정·충동을 억누를 수 없음.",
+      "explanation": "「ずにはいられ」는 '~하지 않고는 견딜 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '나고 자란 상점가가 철거된다는 것을 알고 마지막으로 찾아가지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동을 억누를 수 없음. 주의할 점은 ずにはいられない는 문어적, ないではいられない는 구어적. 의미는 동일.",
       "sourceGrammarIds": [
-        "n2-052"
+        "n2-052",
+        "n2-180",
+        "n2-181",
+        "n2-001"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     }
   ]

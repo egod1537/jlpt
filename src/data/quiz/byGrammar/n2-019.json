@@ -267,15 +267,23 @@
       ]
     },
     {
-      "id": "fb-extra-n2-019-1",
+      "id": "fb-created-n2-019-01",
       "level": "N2",
-      "sentence": "田中さんは留守がちだから、電話してもいないことが多い。",
-      "sentenceWithBlank": "田中さんは留守（　　　）だから、電話してもいないことが多い。",
-      "korean": "다나카 씨는 집을 자주 비워서 전화해도 없는 일이 많다.",
-      "answerChoiceId": "fb-extra-n2-019-1-d",
+      "sentence": "忙しい朝は、朝食を抜きがちなので、果物を持って出勤する。",
+      "sentenceWithBlank": "忙しい朝は、朝食を抜き（　　　）なので、果物を持って出勤する。",
+      "korean": "바쁜 아침에는 아침을 거르기 쉬워서 과일을 챙겨 출근한다.",
+      "answerChoiceId": "fb-created-n2-019-01-d",
       "choices": [
         {
-          "id": "fb-extra-n2-019-1-a",
+          "id": "fb-created-n2-019-01-d",
+          "text": "がち",
+          "grammarId": "n2-019",
+          "baseExpression": "がち",
+          "conjugatedExpression": "がち",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-019-01-a",
           "text": "に加えて",
           "grammarId": "n2-113",
           "baseExpression": "に加えて",
@@ -283,7 +291,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-019-1-b",
+          "id": "fb-created-n2-019-01-b",
           "text": "にこしたことはない",
           "grammarId": "n2-114",
           "baseExpression": "にこしたことはない",
@@ -291,23 +299,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-019-1-c",
+          "id": "fb-created-n2-019-01-c",
           "text": "に応えて",
           "grammarId": "n2-115",
           "baseExpression": "に応えて",
           "conjugatedExpression": "に応えて",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-019-1-d",
-          "text": "がち",
-          "grammarId": "n2-019",
-          "baseExpression": "がち",
-          "conjugatedExpression": "がち",
-          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '바쁜 아침에는 아침을 거르기 쉬워서 과일을 챙겨 출근한다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
       "sourceGrammarIds": [
         "n2-019",
         "n2-113",
@@ -315,21 +315,28 @@
         "n2-115"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra-n2-019-2",
+      "id": "fb-created-n2-019-02",
       "level": "N2",
-      "sentence": "環境破壊の問題は自分の目に迫ってこないと、無関心になりがちである。",
-      "sentenceWithBlank": "環境破壊の問題は自分の目に迫ってこないと、無関心になり（　　　）である。",
-      "korean": "환경 파괴 문제는 눈앞에 닥치지 않으면 무관심해지기 쉽다.",
-      "answerChoiceId": "fb-extra-n2-019-2-a",
+      "sentence": "雨の日の商店街は人通りが少なく、店内も静かになりがちだ。",
+      "sentenceWithBlank": "雨の日の商店街は人通りが少なく、店内も静かになり（　　　）だ。",
+      "korean": "비 오는 날의 상점가는 행인이 적어 가게 안도 한산해지기 쉽다.",
+      "answerChoiceId": "fb-created-n2-019-02-a",
       "choices": [
         {
-          "id": "fb-extra-n2-019-2-b",
+          "id": "fb-created-n2-019-02-a",
+          "text": "がち",
+          "grammarId": "n2-019",
+          "baseExpression": "がち",
+          "conjugatedExpression": "がち",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-019-02-b",
           "text": "もしない",
           "grammarId": "n2-152",
           "baseExpression": "もしない",
@@ -337,7 +344,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-019-2-c",
+          "id": "fb-created-n2-019-02-c",
           "text": "もの",
           "grammarId": "n2-153",
           "baseExpression": "もの",
@@ -345,23 +352,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-019-2-d",
+          "id": "fb-created-n2-019-02-d",
           "text": "ものか",
           "grammarId": "n2-154",
           "baseExpression": "ものか",
           "conjugatedExpression": "ものか",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-019-2-a",
-          "text": "がち",
-          "grammarId": "n2-019",
-          "baseExpression": "がち",
-          "conjugatedExpression": "がち",
-          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '비 오는 날의 상점가는 행인이 적어 가게 안도 한산해지기 쉽다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
       "sourceGrammarIds": [
         "n2-019",
         "n2-152",
@@ -369,191 +368,20 @@
         "n2-154"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra-n2-019-3",
+      "id": "fb-created-n2-019-03",
       "level": "N2",
-      "sentence": "田中さんは留守がちだから、電話してもいないことが多い。",
-      "sentenceWithBlank": "田中さんは留守（　　　）だから、電話してもいないことが多い。",
-      "korean": "다나카 씨는 집을 자주 비워서 전화해도 없는 일이 많다.",
-      "answerChoiceId": "fb-extra-n2-019-3-b",
+      "sentence": "在宅勤務が続くと運動不足になりがちだから、夕方に川沿いを歩いている。",
+      "sentenceWithBlank": "在宅勤務が続くと運動不足になり（　　　）だから、夕方に川沿いを歩いている。",
+      "korean": "재택근무가 계속되면 운동 부족이 되기 쉬워서 저녁에 강변을 걷고 있다.",
+      "answerChoiceId": "fb-created-n2-019-03-d",
       "choices": [
         {
-          "id": "fb-extra-n2-019-3-c",
-          "text": "きり",
-          "grammarId": "n2-031",
-          "baseExpression": "きり",
-          "conjugatedExpression": "きり",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-019-3-d",
-          "text": "きる",
-          "grammarId": "n2-032",
-          "baseExpression": "きる/きれる/きれない",
-          "conjugatedExpression": "きる",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-019-3-a",
-          "text": "くせに",
-          "grammarId": "n2-033",
-          "baseExpression": "くせに",
-          "conjugatedExpression": "くせに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-019-3-b",
-          "text": "がち",
-          "grammarId": "n2-019",
-          "baseExpression": "がち",
-          "conjugatedExpression": "がち",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
-      "sourceGrammarIds": [
-        "n2-019",
-        "n2-031",
-        "n2-032",
-        "n2-033"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-019-4",
-      "level": "N2",
-      "sentence": "環境破壊の問題は自分の目に迫ってこないと、無関心になりがちである。",
-      "sentenceWithBlank": "環境破壊の問題は自分の目に迫ってこないと、無関心になり（　　　）である。",
-      "korean": "환경 파괴 문제는 눈앞에 닥치지 않으면 무관심해지기 쉽다.",
-      "answerChoiceId": "fb-extra-n2-019-4-c",
-      "choices": [
-        {
-          "id": "fb-extra-n2-019-4-d",
-          "text": "てはかなわない",
-          "grammarId": "n2-074",
-          "baseExpression": "てはかなわない",
-          "conjugatedExpression": "てはかなわない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-019-4-a",
-          "text": "ではないか",
-          "grammarId": "n2-075",
-          "baseExpression": "ではないか",
-          "conjugatedExpression": "ではないか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-019-4-b",
-          "text": "ではないか",
-          "grammarId": "n2-076",
-          "baseExpression": "ではないか",
-          "conjugatedExpression": "ではないか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-019-4-c",
-          "text": "がち",
-          "grammarId": "n2-019",
-          "baseExpression": "がち",
-          "conjugatedExpression": "がち",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
-      "sourceGrammarIds": [
-        "n2-019",
-        "n2-074",
-        "n2-075",
-        "n2-076"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-019-5",
-      "level": "N2",
-      "sentence": "田中さんは留守がちだから、電話してもいないことが多い。",
-      "sentenceWithBlank": "田中さんは留守（　　　）だから、電話してもいないことが多い。",
-      "korean": "다나카 씨는 집을 자주 비워서 전화해도 없는 일이 많다.",
-      "answerChoiceId": "fb-extra-n2-019-5-d",
-      "choices": [
-        {
-          "id": "fb-extra-n2-019-5-a",
-          "text": "もの",
-          "grammarId": "n2-153",
-          "baseExpression": "もの",
-          "conjugatedExpression": "もの",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-019-5-b",
-          "text": "ものか",
-          "grammarId": "n2-154",
-          "baseExpression": "ものか",
-          "conjugatedExpression": "ものか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-019-5-c",
-          "text": "ものがある",
-          "grammarId": "n2-155",
-          "baseExpression": "ものがある",
-          "conjugatedExpression": "ものがある",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-019-5-d",
-          "text": "がち",
-          "grammarId": "n2-019",
-          "baseExpression": "がち",
-          "conjugatedExpression": "がち",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
-      "sourceGrammarIds": [
-        "n2-019",
-        "n2-153",
-        "n2-154",
-        "n2-155"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-019-01",
-      "level": "N2",
-      "sentence": "田中さんは留守がちだから、電話してもいないことが多い。",
-      "sentenceWithBlank": "田中さんは留守（　　　）だから、電話してもいないことが多い。",
-      "korean": "다나카 씨는 집을 자주 비워서 전화해도 없는 일이 많다.",
-      "answerChoiceId": "fb-extra20-n2-019-01-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-019-01-a",
-          "text": "に加えて",
-          "grammarId": "n2-113",
-          "baseExpression": "に加えて",
-          "conjugatedExpression": "に加えて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-019-01-b",
+          "id": "fb-created-n2-019-03-b",
           "text": "にこしたことはない",
           "grammarId": "n2-114",
           "baseExpression": "にこしたことはない",
@@ -561,7 +389,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-019-01-c",
+          "id": "fb-created-n2-019-03-c",
           "text": "に応えて",
           "grammarId": "n2-115",
           "baseExpression": "に応えて",
@@ -569,45 +397,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-019-01-d",
-          "text": "がち",
-          "grammarId": "n2-019",
-          "baseExpression": "がち",
-          "conjugatedExpression": "がち",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
-      "sourceGrammarIds": [
-        "n2-019",
-        "n2-113",
-        "n2-114",
-        "n2-115"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-019-02",
-      "level": "N2",
-      "sentence": "環境破壊の問題は自分の目に迫ってこないと、無関心になりがちである。",
-      "sentenceWithBlank": "環境破壊の問題は自分の目に迫ってこないと、無関心になり（　　　）である。",
-      "korean": "환경 파괴 문제는 눈앞에 닥치지 않으면 무관심해지기 쉽다.",
-      "answerChoiceId": "fb-extra20-n2-019-02-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-019-02-d",
-          "text": "ものか",
-          "grammarId": "n2-154",
-          "baseExpression": "ものか",
-          "conjugatedExpression": "ものか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-019-02-a",
+          "id": "fb-created-n2-019-03-d",
           "text": "がち",
           "grammarId": "n2-019",
           "baseExpression": "がち",
@@ -615,771 +405,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-019-02-b",
-          "text": "もしない",
-          "grammarId": "n2-152",
-          "baseExpression": "もしない",
-          "conjugatedExpression": "もしない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-019-02-c",
-          "text": "もの",
-          "grammarId": "n2-153",
-          "baseExpression": "もの",
-          "conjugatedExpression": "もの",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
-      "sourceGrammarIds": [
-        "n2-019",
-        "n2-152",
-        "n2-153",
-        "n2-154"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-019-03",
-      "level": "N2",
-      "sentence": "田中さんは留守がちだから、電話してもいないことが多い。",
-      "sentenceWithBlank": "田中さんは留守（　　　）だから、電話してもいないことが多い。",
-      "korean": "다나카 씨는 집을 자주 비워서 전화해도 없는 일이 많다.",
-      "answerChoiceId": "fb-extra20-n2-019-03-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-019-03-c",
-          "text": "きり",
-          "grammarId": "n2-031",
-          "baseExpression": "きり",
-          "conjugatedExpression": "きり",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-019-03-d",
-          "text": "きる",
-          "grammarId": "n2-032",
-          "baseExpression": "きる/きれる/きれない",
-          "conjugatedExpression": "きる",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-019-03-a",
-          "text": "くせに",
-          "grammarId": "n2-033",
-          "baseExpression": "くせに",
-          "conjugatedExpression": "くせに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-019-03-b",
-          "text": "がち",
-          "grammarId": "n2-019",
-          "baseExpression": "がち",
-          "conjugatedExpression": "がち",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
-      "sourceGrammarIds": [
-        "n2-019",
-        "n2-031",
-        "n2-032",
-        "n2-033"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-019-04",
-      "level": "N2",
-      "sentence": "環境破壊の問題は自分の目に迫ってこないと、無関心になりがちである。",
-      "sentenceWithBlank": "環境破壊の問題は自分の目に迫ってこないと、無関心になり（　　　）である。",
-      "korean": "환경 파괴 문제는 눈앞에 닥치지 않으면 무관심해지기 쉽다.",
-      "answerChoiceId": "fb-extra20-n2-019-04-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-019-04-b",
-          "text": "ではないか",
-          "grammarId": "n2-076",
-          "baseExpression": "ではないか",
-          "conjugatedExpression": "ではないか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-019-04-c",
-          "text": "がち",
-          "grammarId": "n2-019",
-          "baseExpression": "がち",
-          "conjugatedExpression": "がち",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-019-04-d",
-          "text": "てはかなわない",
-          "grammarId": "n2-074",
-          "baseExpression": "てはかなわない",
-          "conjugatedExpression": "てはかなわない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-019-04-a",
-          "text": "ではないか",
-          "grammarId": "n2-075",
-          "baseExpression": "ではないか",
-          "conjugatedExpression": "ではないか",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
-      "sourceGrammarIds": [
-        "n2-019",
-        "n2-074",
-        "n2-075",
-        "n2-076"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-019-05",
-      "level": "N2",
-      "sentence": "田中さんは留守がちだから、電話してもいないことが多い。",
-      "sentenceWithBlank": "田中さんは留守（　　　）だから、電話してもいないことが多い。",
-      "korean": "다나카 씨는 집을 자주 비워서 전화해도 없는 일이 많다.",
-      "answerChoiceId": "fb-extra20-n2-019-05-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-019-05-a",
-          "text": "もの",
-          "grammarId": "n2-153",
-          "baseExpression": "もの",
-          "conjugatedExpression": "もの",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-019-05-b",
-          "text": "ものか",
-          "grammarId": "n2-154",
-          "baseExpression": "ものか",
-          "conjugatedExpression": "ものか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-019-05-c",
-          "text": "ものがある",
-          "grammarId": "n2-155",
-          "baseExpression": "ものがある",
-          "conjugatedExpression": "ものがある",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-019-05-d",
-          "text": "がち",
-          "grammarId": "n2-019",
-          "baseExpression": "がち",
-          "conjugatedExpression": "がち",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
-      "sourceGrammarIds": [
-        "n2-019",
-        "n2-153",
-        "n2-154",
-        "n2-155"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-019-06",
-      "level": "N2",
-      "sentence": "田中さんは留守がちだから、電話してもいないことが多い。",
-      "sentenceWithBlank": "田中さんは留守（　　　）だから、電話してもいないことが多い。",
-      "korean": "다나카 씨는 집을 자주 비워서 전화해도 없는 일이 많다.",
-      "answerChoiceId": "fb-extra20-n2-019-06-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-019-06-d",
-          "text": "がち",
-          "grammarId": "n2-019",
-          "baseExpression": "がち",
-          "conjugatedExpression": "がち",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-019-06-a",
-          "text": "に加えて",
-          "grammarId": "n2-113",
-          "baseExpression": "に加えて",
-          "conjugatedExpression": "に加えて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-019-06-b",
-          "text": "にこしたことはない",
-          "grammarId": "n2-114",
-          "baseExpression": "にこしたことはない",
-          "conjugatedExpression": "にこしたことはない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-019-06-c",
-          "text": "に応えて",
-          "grammarId": "n2-115",
-          "baseExpression": "に応えて",
-          "conjugatedExpression": "に応えて",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
-      "sourceGrammarIds": [
-        "n2-019",
-        "n2-113",
-        "n2-114",
-        "n2-115"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-019-07",
-      "level": "N2",
-      "sentence": "環境破壊の問題は自分の目に迫ってこないと、無関心になりがちである。",
-      "sentenceWithBlank": "環境破壊の問題は自分の目に迫ってこないと、無関心になり（　　　）である。",
-      "korean": "환경 파괴 문제는 눈앞에 닥치지 않으면 무관심해지기 쉽다.",
-      "answerChoiceId": "fb-extra20-n2-019-07-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-019-07-c",
-          "text": "もの",
-          "grammarId": "n2-153",
-          "baseExpression": "もの",
-          "conjugatedExpression": "もの",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-019-07-d",
-          "text": "ものか",
-          "grammarId": "n2-154",
-          "baseExpression": "ものか",
-          "conjugatedExpression": "ものか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-019-07-a",
-          "text": "がち",
-          "grammarId": "n2-019",
-          "baseExpression": "がち",
-          "conjugatedExpression": "がち",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-019-07-b",
-          "text": "もしない",
-          "grammarId": "n2-152",
-          "baseExpression": "もしない",
-          "conjugatedExpression": "もしない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
-      "sourceGrammarIds": [
-        "n2-019",
-        "n2-152",
-        "n2-153",
-        "n2-154"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-019-08",
-      "level": "N2",
-      "sentence": "田中さんは留守がちだから、電話してもいないことが多い。",
-      "sentenceWithBlank": "田中さんは留守（　　　）だから、電話してもいないことが多い。",
-      "korean": "다나카 씨는 집을 자주 비워서 전화해도 없는 일이 많다.",
-      "answerChoiceId": "fb-extra20-n2-019-08-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-019-08-b",
-          "text": "がち",
-          "grammarId": "n2-019",
-          "baseExpression": "がち",
-          "conjugatedExpression": "がち",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-019-08-c",
-          "text": "きり",
-          "grammarId": "n2-031",
-          "baseExpression": "きり",
-          "conjugatedExpression": "きり",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-019-08-d",
-          "text": "きる",
-          "grammarId": "n2-032",
-          "baseExpression": "きる/きれる/きれない",
-          "conjugatedExpression": "きる",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-019-08-a",
-          "text": "くせに",
-          "grammarId": "n2-033",
-          "baseExpression": "くせに",
-          "conjugatedExpression": "くせに",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
-      "sourceGrammarIds": [
-        "n2-019",
-        "n2-031",
-        "n2-032",
-        "n2-033"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-019-09",
-      "level": "N2",
-      "sentence": "環境破壊の問題は自分の目に迫ってこないと、無関心になりがちである。",
-      "sentenceWithBlank": "環境破壊の問題は自分の目に迫ってこないと、無関心になり（　　　）である。",
-      "korean": "환경 파괴 문제는 눈앞에 닥치지 않으면 무관심해지기 쉽다.",
-      "answerChoiceId": "fb-extra20-n2-019-09-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-019-09-a",
-          "text": "ではないか",
-          "grammarId": "n2-075",
-          "baseExpression": "ではないか",
-          "conjugatedExpression": "ではないか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-019-09-b",
-          "text": "ではないか",
-          "grammarId": "n2-076",
-          "baseExpression": "ではないか",
-          "conjugatedExpression": "ではないか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-019-09-c",
-          "text": "がち",
-          "grammarId": "n2-019",
-          "baseExpression": "がち",
-          "conjugatedExpression": "がち",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-019-09-d",
-          "text": "てはかなわない",
-          "grammarId": "n2-074",
-          "baseExpression": "てはかなわない",
-          "conjugatedExpression": "てはかなわない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
-      "sourceGrammarIds": [
-        "n2-019",
-        "n2-074",
-        "n2-075",
-        "n2-076"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-019-10",
-      "level": "N2",
-      "sentence": "田中さんは留守がちだから、電話してもいないことが多い。",
-      "sentenceWithBlank": "田中さんは留守（　　　）だから、電話してもいないことが多い。",
-      "korean": "다나카 씨는 집을 자주 비워서 전화해도 없는 일이 많다.",
-      "answerChoiceId": "fb-extra20-n2-019-10-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-019-10-d",
-          "text": "がち",
-          "grammarId": "n2-019",
-          "baseExpression": "がち",
-          "conjugatedExpression": "がち",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-019-10-a",
-          "text": "もの",
-          "grammarId": "n2-153",
-          "baseExpression": "もの",
-          "conjugatedExpression": "もの",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-019-10-b",
-          "text": "ものか",
-          "grammarId": "n2-154",
-          "baseExpression": "ものか",
-          "conjugatedExpression": "ものか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-019-10-c",
-          "text": "ものがある",
-          "grammarId": "n2-155",
-          "baseExpression": "ものがある",
-          "conjugatedExpression": "ものがある",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
-      "sourceGrammarIds": [
-        "n2-019",
-        "n2-153",
-        "n2-154",
-        "n2-155"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-019-11",
-      "level": "N2",
-      "sentence": "田中さんは留守がちだから、電話してもいないことが多い。",
-      "sentenceWithBlank": "田中さんは留守（　　　）だから、電話してもいないことが多い。",
-      "korean": "다나카 씨는 집을 자주 비워서 전화해도 없는 일이 많다.",
-      "answerChoiceId": "fb-extra20-n2-019-11-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-019-11-c",
-          "text": "に応えて",
-          "grammarId": "n2-115",
-          "baseExpression": "に応えて",
-          "conjugatedExpression": "に応えて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-019-11-d",
-          "text": "がち",
-          "grammarId": "n2-019",
-          "baseExpression": "がち",
-          "conjugatedExpression": "がち",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-019-11-a",
-          "text": "に加えて",
-          "grammarId": "n2-113",
-          "baseExpression": "に加えて",
-          "conjugatedExpression": "に加えて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-019-11-b",
-          "text": "にこしたことはない",
-          "grammarId": "n2-114",
-          "baseExpression": "にこしたことはない",
-          "conjugatedExpression": "にこしたことはない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
-      "sourceGrammarIds": [
-        "n2-019",
-        "n2-113",
-        "n2-114",
-        "n2-115"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-019-12",
-      "level": "N2",
-      "sentence": "環境破壊の問題は自分の目に迫ってこないと、無関心になりがちである。",
-      "sentenceWithBlank": "環境破壊の問題は自分の目に迫ってこないと、無関心になり（　　　）である。",
-      "korean": "환경 파괴 문제는 눈앞에 닥치지 않으면 무관심해지기 쉽다.",
-      "answerChoiceId": "fb-extra20-n2-019-12-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-019-12-b",
-          "text": "もしない",
-          "grammarId": "n2-152",
-          "baseExpression": "もしない",
-          "conjugatedExpression": "もしない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-019-12-c",
-          "text": "もの",
-          "grammarId": "n2-153",
-          "baseExpression": "もの",
-          "conjugatedExpression": "もの",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-019-12-d",
-          "text": "ものか",
-          "grammarId": "n2-154",
-          "baseExpression": "ものか",
-          "conjugatedExpression": "ものか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-019-12-a",
-          "text": "がち",
-          "grammarId": "n2-019",
-          "baseExpression": "がち",
-          "conjugatedExpression": "がち",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
-      "sourceGrammarIds": [
-        "n2-019",
-        "n2-152",
-        "n2-153",
-        "n2-154"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-019-13",
-      "level": "N2",
-      "sentence": "田中さんは留守がちだから、電話してもいないことが多い。",
-      "sentenceWithBlank": "田中さんは留守（　　　）だから、電話してもいないことが多い。",
-      "korean": "다나카 씨는 집을 자주 비워서 전화해도 없는 일이 많다.",
-      "answerChoiceId": "fb-extra20-n2-019-13-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-019-13-a",
-          "text": "くせに",
-          "grammarId": "n2-033",
-          "baseExpression": "くせに",
-          "conjugatedExpression": "くせに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-019-13-b",
-          "text": "がち",
-          "grammarId": "n2-019",
-          "baseExpression": "がち",
-          "conjugatedExpression": "がち",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-019-13-c",
-          "text": "きり",
-          "grammarId": "n2-031",
-          "baseExpression": "きり",
-          "conjugatedExpression": "きり",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-019-13-d",
-          "text": "きる",
-          "grammarId": "n2-032",
-          "baseExpression": "きる/きれる/きれない",
-          "conjugatedExpression": "きる",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
-      "sourceGrammarIds": [
-        "n2-019",
-        "n2-031",
-        "n2-032",
-        "n2-033"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-019-14",
-      "level": "N2",
-      "sentence": "環境破壊の問題は自分の目に迫ってこないと、無関心になりがちである。",
-      "sentenceWithBlank": "環境破壊の問題は自分の目に迫ってこないと、無関心になり（　　　）である。",
-      "korean": "환경 파괴 문제는 눈앞에 닥치지 않으면 무관심해지기 쉽다.",
-      "answerChoiceId": "fb-extra20-n2-019-14-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-019-14-d",
-          "text": "てはかなわない",
-          "grammarId": "n2-074",
-          "baseExpression": "てはかなわない",
-          "conjugatedExpression": "てはかなわない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-019-14-a",
-          "text": "ではないか",
-          "grammarId": "n2-075",
-          "baseExpression": "ではないか",
-          "conjugatedExpression": "ではないか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-019-14-b",
-          "text": "ではないか",
-          "grammarId": "n2-076",
-          "baseExpression": "ではないか",
-          "conjugatedExpression": "ではないか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-019-14-c",
-          "text": "がち",
-          "grammarId": "n2-019",
-          "baseExpression": "がち",
-          "conjugatedExpression": "がち",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
-      "sourceGrammarIds": [
-        "n2-019",
-        "n2-074",
-        "n2-075",
-        "n2-076"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-019-15",
-      "level": "N2",
-      "sentence": "田中さんは留守がちだから、電話してもいないことが多い。",
-      "sentenceWithBlank": "田中さんは留守（　　　）だから、電話してもいないことが多い。",
-      "korean": "다나카 씨는 집을 자주 비워서 전화해도 없는 일이 많다.",
-      "answerChoiceId": "fb-extra20-n2-019-15-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-019-15-c",
-          "text": "ものがある",
-          "grammarId": "n2-155",
-          "baseExpression": "ものがある",
-          "conjugatedExpression": "ものがある",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-019-15-d",
-          "text": "がち",
-          "grammarId": "n2-019",
-          "baseExpression": "がち",
-          "conjugatedExpression": "がち",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-019-15-a",
-          "text": "もの",
-          "grammarId": "n2-153",
-          "baseExpression": "もの",
-          "conjugatedExpression": "もの",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-019-15-b",
-          "text": "ものか",
-          "grammarId": "n2-154",
-          "baseExpression": "ものか",
-          "conjugatedExpression": "ものか",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
-      "sourceGrammarIds": [
-        "n2-019",
-        "n2-153",
-        "n2-154",
-        "n2-155"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-019-16",
-      "level": "N2",
-      "sentence": "田中さんは留守がちだから、電話してもいないことが多い。",
-      "sentenceWithBlank": "田中さんは留守（　　　）だから、電話してもいないことが多い。",
-      "korean": "다나카 씨는 집을 자주 비워서 전화해도 없는 일이 많다.",
-      "answerChoiceId": "fb-extra20-n2-019-16-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-019-16-b",
-          "text": "にこしたことはない",
-          "grammarId": "n2-114",
-          "baseExpression": "にこしたことはない",
-          "conjugatedExpression": "にこしたことはない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-019-16-c",
-          "text": "に応えて",
-          "grammarId": "n2-115",
-          "baseExpression": "に応えて",
-          "conjugatedExpression": "に応えて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-019-16-d",
-          "text": "がち",
-          "grammarId": "n2-019",
-          "baseExpression": "がち",
-          "conjugatedExpression": "がち",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-019-16-a",
+          "id": "fb-created-n2-019-03-a",
           "text": "に加えて",
           "grammarId": "n2-113",
           "baseExpression": "に加えて",
@@ -1387,7 +413,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '재택근무가 계속되면 운동 부족이 되기 쉬워서 저녁에 강변을 걷고 있다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
       "sourceGrammarIds": [
         "n2-019",
         "n2-113",
@@ -1395,37 +421,20 @@
         "n2-115"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-019-17",
+      "id": "fb-created-n2-019-04",
       "level": "N2",
-      "sentence": "環境破壊の問題は自分の目に迫ってこないと、無関心になりがちである。",
-      "sentenceWithBlank": "環境破壊の問題は自分の目に迫ってこないと、無関心になり（　　　）である。",
-      "korean": "환경 파괴 문제는 눈앞에 닥치지 않으면 무관심해지기 쉽다.",
-      "answerChoiceId": "fb-extra20-n2-019-17-a",
+      "sentence": "祖父は冬になると病気がちで、外出する回数も減ってしまう。",
+      "sentenceWithBlank": "祖父は冬になると病気（　　　）で、外出する回数も減ってしまう。",
+      "korean": "할아버지는 겨울이 되면 자주 편찮으셔서 외출하는 횟수도 줄어든다.",
+      "answerChoiceId": "fb-created-n2-019-04-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-019-17-a",
-          "text": "がち",
-          "grammarId": "n2-019",
-          "baseExpression": "がち",
-          "conjugatedExpression": "がち",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-019-17-b",
-          "text": "もしない",
-          "grammarId": "n2-152",
-          "baseExpression": "もしない",
-          "conjugatedExpression": "もしない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-019-17-c",
+          "id": "fb-created-n2-019-04-c",
           "text": "もの",
           "grammarId": "n2-153",
           "baseExpression": "もの",
@@ -1433,15 +442,31 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-019-17-d",
+          "id": "fb-created-n2-019-04-d",
           "text": "ものか",
           "grammarId": "n2-154",
           "baseExpression": "ものか",
           "conjugatedExpression": "ものか",
           "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-019-04-a",
+          "text": "がち",
+          "grammarId": "n2-019",
+          "baseExpression": "がち",
+          "conjugatedExpression": "がち",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-019-04-b",
+          "text": "もしない",
+          "grammarId": "n2-152",
+          "baseExpression": "もしない",
+          "conjugatedExpression": "もしない",
+          "isSimilarDistractor": true
         }
       ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '할아버지는 겨울이 되면 자주 편찮으셔서 외출하는 횟수도 줄어든다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
       "sourceGrammarIds": [
         "n2-019",
         "n2-152",
@@ -1449,37 +474,20 @@
         "n2-154"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-019-18",
+      "id": "fb-created-n2-019-05",
       "level": "N2",
-      "sentence": "田中さんは留守がちだから、電話してもいないことが多い。",
-      "sentenceWithBlank": "田中さんは留守（　　　）だから、電話してもいないことが多い。",
-      "korean": "다나카 씨는 집을 자주 비워서 전화해도 없는 일이 많다.",
-      "answerChoiceId": "fb-extra20-n2-019-18-b",
+      "sentence": "新人の整備士は作業を急ぐあまり、安全確認を忘れがちだ。",
+      "sentenceWithBlank": "新人の整備士は作業を急ぐあまり、安全確認を忘れ（　　　）だ。",
+      "korean": "신입 정비사는 작업을 서두른 나머지 안전 확인을 잊기 쉽다.",
+      "answerChoiceId": "fb-created-n2-019-05-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-019-18-d",
-          "text": "きる",
-          "grammarId": "n2-032",
-          "baseExpression": "きる/きれる/きれない",
-          "conjugatedExpression": "きる",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-019-18-a",
-          "text": "くせに",
-          "grammarId": "n2-033",
-          "baseExpression": "くせに",
-          "conjugatedExpression": "くせに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-019-18-b",
+          "id": "fb-created-n2-019-05-d",
           "text": "がち",
           "grammarId": "n2-019",
           "baseExpression": "がち",
@@ -1487,37 +495,52 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-019-18-c",
-          "text": "きり",
-          "grammarId": "n2-031",
-          "baseExpression": "きり",
-          "conjugatedExpression": "きり",
+          "id": "fb-created-n2-019-05-a",
+          "text": "に加えて",
+          "grammarId": "n2-113",
+          "baseExpression": "に加えて",
+          "conjugatedExpression": "に加えて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-019-05-b",
+          "text": "にこしたことはない",
+          "grammarId": "n2-114",
+          "baseExpression": "にこしたことはない",
+          "conjugatedExpression": "にこしたことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-019-05-c",
+          "text": "に応えて",
+          "grammarId": "n2-115",
+          "baseExpression": "に応えて",
+          "conjugatedExpression": "に応えて",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '신입 정비사는 작업을 서두른 나머지 안전 확인을 잊기 쉽다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
       "sourceGrammarIds": [
         "n2-019",
-        "n2-031",
-        "n2-032",
-        "n2-033"
+        "n2-113",
+        "n2-114",
+        "n2-115"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-019-19",
+      "id": "fb-created-n2-019-06",
       "level": "N2",
-      "sentence": "環境破壊の問題は自分の目に迫ってこないと、無関心になりがちである。",
-      "sentenceWithBlank": "環境破壊の問題は自分の目に迫ってこないと、無関心になり（　　　）である。",
-      "korean": "환경 파괴 문제는 눈앞에 닥치지 않으면 무관심해지기 쉽다.",
-      "answerChoiceId": "fb-extra20-n2-019-19-c",
+      "sentence": "一人暮らしを始めた弟は、野菜の少ない食事を選びがちになった。",
+      "sentenceWithBlank": "一人暮らしを始めた弟は、野菜の少ない食事を選び（　　　）になった。",
+      "korean": "자취를 시작한 남동생은 채소가 적은 식사를 고르는 일이 잦아졌다.",
+      "answerChoiceId": "fb-created-n2-019-06-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-019-19-c",
+          "id": "fb-created-n2-019-06-a",
           "text": "がち",
           "grammarId": "n2-019",
           "baseExpression": "がち",
@@ -1525,53 +548,113 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-019-19-d",
-          "text": "てはかなわない",
-          "grammarId": "n2-074",
-          "baseExpression": "てはかなわない",
-          "conjugatedExpression": "てはかなわない",
+          "id": "fb-created-n2-019-06-b",
+          "text": "もしない",
+          "grammarId": "n2-152",
+          "baseExpression": "もしない",
+          "conjugatedExpression": "もしない",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-019-19-a",
-          "text": "ではないか",
-          "grammarId": "n2-075",
-          "baseExpression": "ではないか",
-          "conjugatedExpression": "ではないか",
+          "id": "fb-created-n2-019-06-c",
+          "text": "もの",
+          "grammarId": "n2-153",
+          "baseExpression": "もの",
+          "conjugatedExpression": "もの",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-019-19-b",
-          "text": "ではないか",
-          "grammarId": "n2-076",
-          "baseExpression": "ではないか",
-          "conjugatedExpression": "ではないか",
+          "id": "fb-created-n2-019-06-d",
+          "text": "ものか",
+          "grammarId": "n2-154",
+          "baseExpression": "ものか",
+          "conjugatedExpression": "ものか",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '자취를 시작한 남동생은 채소가 적은 식사를 고르는 일이 잦아졌다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
       "sourceGrammarIds": [
         "n2-019",
-        "n2-074",
-        "n2-075",
-        "n2-076"
+        "n2-152",
+        "n2-153",
+        "n2-154"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-019-20",
+      "id": "fb-created-n2-019-07",
       "level": "N2",
-      "sentence": "田中さんは留守がちだから、電話してもいないことが多い。",
-      "sentenceWithBlank": "田中さんは留守（　　　）だから、電話してもいないことが多い。",
-      "korean": "다나카 씨는 집을 자주 비워서 전화해도 없는 일이 많다.",
-      "answerChoiceId": "fb-extra20-n2-019-20-d",
+      "sentence": "観光客は有名な寺ばかり訪れがちだが、この町には古い市場もある。",
+      "sentenceWithBlank": "観光客は有名な寺ばかり訪れ（　　　）だが、この町には古い市場もある。",
+      "korean": "관광객은 유명한 절만 방문하기 쉽지만, 이 동네에는 오래된 시장도 있다.",
+      "answerChoiceId": "fb-created-n2-019-07-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-019-20-b",
+          "id": "fb-created-n2-019-07-b",
+          "text": "にこしたことはない",
+          "grammarId": "n2-114",
+          "baseExpression": "にこしたことはない",
+          "conjugatedExpression": "にこしたことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-019-07-c",
+          "text": "に応えて",
+          "grammarId": "n2-115",
+          "baseExpression": "に応えて",
+          "conjugatedExpression": "に応えて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-019-07-d",
+          "text": "がち",
+          "grammarId": "n2-019",
+          "baseExpression": "がち",
+          "conjugatedExpression": "がち",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-019-07-a",
+          "text": "に加えて",
+          "grammarId": "n2-113",
+          "baseExpression": "に加えて",
+          "conjugatedExpression": "に加えて",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '관광객은 유명한 절만 방문하기 쉽지만, 이 동네에는 오래된 시장도 있다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
+      "sourceGrammarIds": [
+        "n2-019",
+        "n2-113",
+        "n2-114",
+        "n2-115"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-019-08",
+      "level": "N2",
+      "sentence": "締め切り直前は判断が感情的になりがちなので、重要な決定は翌日に回す。",
+      "sentenceWithBlank": "締め切り直前は判断が感情的になり（　　　）なので、重要な決定は翌日に回す。",
+      "korean": "마감 직전에는 판단이 감정적으로 흐르기 쉬워서 중요한 결정은 다음 날로 미룬다.",
+      "answerChoiceId": "fb-created-n2-019-08-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-019-08-c",
+          "text": "もの",
+          "grammarId": "n2-153",
+          "baseExpression": "もの",
+          "conjugatedExpression": "もの",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-019-08-d",
           "text": "ものか",
           "grammarId": "n2-154",
           "baseExpression": "ものか",
@@ -1579,15 +662,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-019-20-c",
-          "text": "ものがある",
-          "grammarId": "n2-155",
-          "baseExpression": "ものがある",
-          "conjugatedExpression": "ものがある",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-019-20-d",
+          "id": "fb-created-n2-019-08-a",
           "text": "がち",
           "grammarId": "n2-019",
           "baseExpression": "がち",
@@ -1595,25 +670,925 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-019-20-a",
+          "id": "fb-created-n2-019-08-b",
+          "text": "もしない",
+          "grammarId": "n2-152",
+          "baseExpression": "もしない",
+          "conjugatedExpression": "もしない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '마감 직전에는 판단이 감정적으로 흐르기 쉬워서 중요한 결정은 다음 날로 미룬다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
+      "sourceGrammarIds": [
+        "n2-019",
+        "n2-152",
+        "n2-153",
+        "n2-154"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-019-09",
+      "level": "N2",
+      "sentence": "この山道は霧が出ると事故が起こりがちで、夜間は通行止めになる。",
+      "sentenceWithBlank": "この山道は霧が出ると事故が起こり（　　　）で、夜間は通行止めになる。",
+      "korean": "이 산길은 안개가 끼면 사고가 자주 발생해서 야간에는 통행이 금지된다.",
+      "answerChoiceId": "fb-created-n2-019-09-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-019-09-d",
+          "text": "がち",
+          "grammarId": "n2-019",
+          "baseExpression": "がち",
+          "conjugatedExpression": "がち",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-019-09-a",
+          "text": "に加えて",
+          "grammarId": "n2-113",
+          "baseExpression": "に加えて",
+          "conjugatedExpression": "に加えて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-019-09-b",
+          "text": "にこしたことはない",
+          "grammarId": "n2-114",
+          "baseExpression": "にこしたことはない",
+          "conjugatedExpression": "にこしたことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-019-09-c",
+          "text": "に応えて",
+          "grammarId": "n2-115",
+          "baseExpression": "に応えて",
+          "conjugatedExpression": "に応えて",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '이 산길은 안개가 끼면 사고가 자주 발생해서 야간에는 통행이 금지된다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
+      "sourceGrammarIds": [
+        "n2-019",
+        "n2-113",
+        "n2-114",
+        "n2-115"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-019-10",
+      "level": "N2",
+      "sentence": "責任感の強い看護師ほど、自分の疲れを後回しにしがちだ。",
+      "sentenceWithBlank": "責任感の強い看護師ほど、自分の疲れを後回しにし（　　　）だ。",
+      "korean": "책임감이 강한 간호사일수록 자신의 피로를 뒷전으로 미루기 쉽다.",
+      "answerChoiceId": "fb-created-n2-019-10-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-019-10-a",
+          "text": "がち",
+          "grammarId": "n2-019",
+          "baseExpression": "がち",
+          "conjugatedExpression": "がち",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-019-10-b",
+          "text": "もしない",
+          "grammarId": "n2-152",
+          "baseExpression": "もしない",
+          "conjugatedExpression": "もしない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-019-10-c",
           "text": "もの",
           "grammarId": "n2-153",
           "baseExpression": "もの",
           "conjugatedExpression": "もの",
           "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-019-10-d",
+          "text": "ものか",
+          "grammarId": "n2-154",
+          "baseExpression": "ものか",
+          "conjugatedExpression": "ものか",
+          "isSimilarDistractor": true
         }
       ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '책임감이 강한 간호사일수록 자신의 피로를 뒷전으로 미루기 쉽다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
       "sourceGrammarIds": [
         "n2-019",
+        "n2-152",
         "n2-153",
-        "n2-154",
-        "n2-155"
+        "n2-154"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-019-11",
+      "level": "N2",
+      "sentence": "古い倉庫は湿気がこもりがちだから、定期的な換気が欠かせない。",
+      "sentenceWithBlank": "古い倉庫は湿気がこもり（　　　）だから、定期的な換気が欠かせない。",
+      "korean": "오래된 창고는 습기가 차기 쉬우므로 정기적인 환기가 필수적이다.",
+      "answerChoiceId": "fb-created-n2-019-11-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-019-11-b",
+          "text": "にこしたことはない",
+          "grammarId": "n2-114",
+          "baseExpression": "にこしたことはない",
+          "conjugatedExpression": "にこしたことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-019-11-c",
+          "text": "に応えて",
+          "grammarId": "n2-115",
+          "baseExpression": "に応えて",
+          "conjugatedExpression": "に応えて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-019-11-d",
+          "text": "がち",
+          "grammarId": "n2-019",
+          "baseExpression": "がち",
+          "conjugatedExpression": "がち",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-019-11-a",
+          "text": "に加えて",
+          "grammarId": "n2-113",
+          "baseExpression": "に加えて",
+          "conjugatedExpression": "に加えて",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '오래된 창고는 습기가 차기 쉬우므로 정기적인 환기가 필수적이다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
+      "sourceGrammarIds": [
+        "n2-019",
+        "n2-113",
+        "n2-114",
+        "n2-115"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-019-12",
+      "level": "N2",
+      "sentence": "長い会議では発言者が固定されがちで、若手の意見が出にくい。",
+      "sentenceWithBlank": "長い会議では発言者が固定され（　　　）で、若手の意見が出にくい。",
+      "korean": "긴 회의에서는 발언자가 고정되기 쉬워 젊은 직원의 의견이 나오기 어렵다.",
+      "answerChoiceId": "fb-created-n2-019-12-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-019-12-c",
+          "text": "もの",
+          "grammarId": "n2-153",
+          "baseExpression": "もの",
+          "conjugatedExpression": "もの",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-019-12-d",
+          "text": "ものか",
+          "grammarId": "n2-154",
+          "baseExpression": "ものか",
+          "conjugatedExpression": "ものか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-019-12-a",
+          "text": "がち",
+          "grammarId": "n2-019",
+          "baseExpression": "がち",
+          "conjugatedExpression": "がち",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-019-12-b",
+          "text": "もしない",
+          "grammarId": "n2-152",
+          "baseExpression": "もしない",
+          "conjugatedExpression": "もしない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '긴 회의에서는 발언자가 고정되기 쉬워 젊은 직원의 의견이 나오기 어렵다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
+      "sourceGrammarIds": [
+        "n2-019",
+        "n2-152",
+        "n2-153",
+        "n2-154"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-019-13",
+      "level": "N2",
+      "sentence": "子育て中の友人は寝不足がちで、休日も昼まで眠っている。",
+      "sentenceWithBlank": "子育て中の友人は寝不足（　　　）で、休日も昼まで眠っている。",
+      "korean": "육아 중인 친구는 수면 부족인 경우가 많아서 휴일에도 낮까지 자고 있다.",
+      "answerChoiceId": "fb-created-n2-019-13-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-019-13-d",
+          "text": "がち",
+          "grammarId": "n2-019",
+          "baseExpression": "がち",
+          "conjugatedExpression": "がち",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-019-13-a",
+          "text": "に加えて",
+          "grammarId": "n2-113",
+          "baseExpression": "に加えて",
+          "conjugatedExpression": "に加えて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-019-13-b",
+          "text": "にこしたことはない",
+          "grammarId": "n2-114",
+          "baseExpression": "にこしたことはない",
+          "conjugatedExpression": "にこしたことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-019-13-c",
+          "text": "に応えて",
+          "grammarId": "n2-115",
+          "baseExpression": "に応えて",
+          "conjugatedExpression": "に応えて",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '육아 중인 친구는 수면 부족인 경우가 많아서 휴일에도 낮까지 자고 있다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
+      "sourceGrammarIds": [
+        "n2-019",
+        "n2-113",
+        "n2-114",
+        "n2-115"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-019-14",
+      "level": "N2",
+      "sentence": "利益だけを追う企業は、地域住民との対話を軽視しがちである。",
+      "sentenceWithBlank": "利益だけを追う企業は、地域住民との対話を軽視し（　　　）である。",
+      "korean": "이익만 추구하는 기업은 지역 주민과의 대화를 경시하기 쉽다.",
+      "answerChoiceId": "fb-created-n2-019-14-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-019-14-a",
+          "text": "がち",
+          "grammarId": "n2-019",
+          "baseExpression": "がち",
+          "conjugatedExpression": "がち",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-019-14-b",
+          "text": "もしない",
+          "grammarId": "n2-152",
+          "baseExpression": "もしない",
+          "conjugatedExpression": "もしない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-019-14-c",
+          "text": "もの",
+          "grammarId": "n2-153",
+          "baseExpression": "もの",
+          "conjugatedExpression": "もの",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-019-14-d",
+          "text": "ものか",
+          "grammarId": "n2-154",
+          "baseExpression": "ものか",
+          "conjugatedExpression": "ものか",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '이익만 추구하는 기업은 지역 주민과의 대화를 경시하기 쉽다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
+      "sourceGrammarIds": [
+        "n2-019",
+        "n2-152",
+        "n2-153",
+        "n2-154"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-019-15",
+      "level": "N2",
+      "sentence": "慣れない海外生活では部屋に閉じこもりがちだったが、今は近所に友人がいる。",
+      "sentenceWithBlank": "慣れない海外生活では部屋に閉じこもり（　　　）だったが、今は近所に友人がいる。",
+      "korean": "익숙하지 않은 해외 생활에서는 방에 틀어박혀 지내기 일쑤였지만, 지금은 동네에 친구가 있다.",
+      "answerChoiceId": "fb-created-n2-019-15-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-019-15-b",
+          "text": "にこしたことはない",
+          "grammarId": "n2-114",
+          "baseExpression": "にこしたことはない",
+          "conjugatedExpression": "にこしたことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-019-15-c",
+          "text": "に応えて",
+          "grammarId": "n2-115",
+          "baseExpression": "に応えて",
+          "conjugatedExpression": "に応えて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-019-15-d",
+          "text": "がち",
+          "grammarId": "n2-019",
+          "baseExpression": "がち",
+          "conjugatedExpression": "がち",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-019-15-a",
+          "text": "に加えて",
+          "grammarId": "n2-113",
+          "baseExpression": "に加えて",
+          "conjugatedExpression": "に加えて",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '익숙하지 않은 해외 생활에서는 방에 틀어박혀 지내기 일쑤였지만, 지금은 동네에 친구가 있다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
+      "sourceGrammarIds": [
+        "n2-019",
+        "n2-113",
+        "n2-114",
+        "n2-115"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-019-16",
+      "level": "N2",
+      "sentence": "人気商品に注文が集中すると、地方への配送が遅れがちになる。",
+      "sentenceWithBlank": "人気商品に注文が集中すると、地方への配送が遅れ（　　　）になる。",
+      "korean": "인기 상품에 주문이 몰리면 지방 배송이 자주 늦어진다.",
+      "answerChoiceId": "fb-created-n2-019-16-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-019-16-c",
+          "text": "もの",
+          "grammarId": "n2-153",
+          "baseExpression": "もの",
+          "conjugatedExpression": "もの",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-019-16-d",
+          "text": "ものか",
+          "grammarId": "n2-154",
+          "baseExpression": "ものか",
+          "conjugatedExpression": "ものか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-019-16-a",
+          "text": "がち",
+          "grammarId": "n2-019",
+          "baseExpression": "がち",
+          "conjugatedExpression": "がち",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-019-16-b",
+          "text": "もしない",
+          "grammarId": "n2-152",
+          "baseExpression": "もしない",
+          "conjugatedExpression": "もしない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '인기 상품에 주문이 몰리면 지방 배송이 자주 늦어진다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
+      "sourceGrammarIds": [
+        "n2-019",
+        "n2-152",
+        "n2-153",
+        "n2-154"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-019-17",
+      "level": "N2",
+      "sentence": "多忙な市長は説明を部下に任せがちで、市民から不満が出ている。",
+      "sentenceWithBlank": "多忙な市長は説明を部下に任せ（　　　）で、市民から不満が出ている。",
+      "korean": "다망한 시장은 설명을 부하 직원에게 맡기는 경우가 많아 시민들의 불만이 나오고 있다.",
+      "answerChoiceId": "fb-created-n2-019-17-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-019-17-d",
+          "text": "がち",
+          "grammarId": "n2-019",
+          "baseExpression": "がち",
+          "conjugatedExpression": "がち",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-019-17-a",
+          "text": "に加えて",
+          "grammarId": "n2-113",
+          "baseExpression": "に加えて",
+          "conjugatedExpression": "に加えて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-019-17-b",
+          "text": "にこしたことはない",
+          "grammarId": "n2-114",
+          "baseExpression": "にこしたことはない",
+          "conjugatedExpression": "にこしたことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-019-17-c",
+          "text": "に応えて",
+          "grammarId": "n2-115",
+          "baseExpression": "に応えて",
+          "conjugatedExpression": "に応えて",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '다망한 시장은 설명을 부하 직원에게 맡기는 경우가 많아 시민들의 불만이 나오고 있다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
+      "sourceGrammarIds": [
+        "n2-019",
+        "n2-113",
+        "n2-114",
+        "n2-115"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-019-18",
+      "level": "N2",
+      "sentence": "現金を持たなくなってから、小さな出費を見落としがちになった。",
+      "sentenceWithBlank": "現金を持たなくなってから、小さな出費を見落とし（　　　）になった。",
+      "korean": "현금을 가지고 다니지 않게 된 뒤로 소액 지출을 놓치는 일이 잦아졌다.",
+      "answerChoiceId": "fb-created-n2-019-18-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-019-18-a",
+          "text": "がち",
+          "grammarId": "n2-019",
+          "baseExpression": "がち",
+          "conjugatedExpression": "がち",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-019-18-b",
+          "text": "もしない",
+          "grammarId": "n2-152",
+          "baseExpression": "もしない",
+          "conjugatedExpression": "もしない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-019-18-c",
+          "text": "もの",
+          "grammarId": "n2-153",
+          "baseExpression": "もの",
+          "conjugatedExpression": "もの",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-019-18-d",
+          "text": "ものか",
+          "grammarId": "n2-154",
+          "baseExpression": "ものか",
+          "conjugatedExpression": "ものか",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '현금을 가지고 다니지 않게 된 뒤로 소액 지출을 놓치는 일이 잦아졌다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
+      "sourceGrammarIds": [
+        "n2-019",
+        "n2-152",
+        "n2-153",
+        "n2-154"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-019-19",
+      "level": "N2",
+      "sentence": "海沿いの線路は強風の影響で運休しがちだ。",
+      "sentenceWithBlank": "海沿いの線路は強風の影響で運休し（　　　）だ。",
+      "korean": "해안가 철도는 강풍의 영향으로 운행이 자주 중단된다.",
+      "answerChoiceId": "fb-created-n2-019-19-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-019-19-b",
+          "text": "にこしたことはない",
+          "grammarId": "n2-114",
+          "baseExpression": "にこしたことはない",
+          "conjugatedExpression": "にこしたことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-019-19-c",
+          "text": "に応えて",
+          "grammarId": "n2-115",
+          "baseExpression": "に応えて",
+          "conjugatedExpression": "に応えて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-019-19-d",
+          "text": "がち",
+          "grammarId": "n2-019",
+          "baseExpression": "がち",
+          "conjugatedExpression": "がち",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-019-19-a",
+          "text": "に加えて",
+          "grammarId": "n2-113",
+          "baseExpression": "に加えて",
+          "conjugatedExpression": "に加えて",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '해안가 철도는 강풍의 영향으로 운행이 자주 중단된다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
+      "sourceGrammarIds": [
+        "n2-019",
+        "n2-113",
+        "n2-114",
+        "n2-115"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-019-20",
+      "level": "N2",
+      "sentence": "心配性の母は、連絡が少し遅れただけでも悪い結果を想像しがちだ。",
+      "sentenceWithBlank": "心配性の母は、連絡が少し遅れただけでも悪い結果を想像し（　　　）だ。",
+      "korean": "걱정이 많은 어머니는 연락이 조금만 늦어져도 나쁜 결과를 상상하기 쉽다.",
+      "answerChoiceId": "fb-created-n2-019-20-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-019-20-c",
+          "text": "もの",
+          "grammarId": "n2-153",
+          "baseExpression": "もの",
+          "conjugatedExpression": "もの",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-019-20-d",
+          "text": "ものか",
+          "grammarId": "n2-154",
+          "baseExpression": "ものか",
+          "conjugatedExpression": "ものか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-019-20-a",
+          "text": "がち",
+          "grammarId": "n2-019",
+          "baseExpression": "がち",
+          "conjugatedExpression": "がち",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-019-20-b",
+          "text": "もしない",
+          "grammarId": "n2-152",
+          "baseExpression": "もしない",
+          "conjugatedExpression": "もしない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '걱정이 많은 어머니는 연락이 조금만 늦어져도 나쁜 결과를 상상하기 쉽다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
+      "sourceGrammarIds": [
+        "n2-019",
+        "n2-152",
+        "n2-153",
+        "n2-154"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-019-21",
+      "level": "N2",
+      "sentence": "繁忙期の工場では清掃が後回しになりがちで、通路に資材が残る。",
+      "sentenceWithBlank": "繁忙期の工場では清掃が後回しになり（　　　）で、通路に資材が残る。",
+      "korean": "성수기의 공장에서는 청소가 뒷전으로 밀리기 쉬워 통로에 자재가 남는다.",
+      "answerChoiceId": "fb-created-n2-019-21-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-019-21-d",
+          "text": "がち",
+          "grammarId": "n2-019",
+          "baseExpression": "がち",
+          "conjugatedExpression": "がち",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-019-21-a",
+          "text": "に加えて",
+          "grammarId": "n2-113",
+          "baseExpression": "に加えて",
+          "conjugatedExpression": "に加えて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-019-21-b",
+          "text": "にこしたことはない",
+          "grammarId": "n2-114",
+          "baseExpression": "にこしたことはない",
+          "conjugatedExpression": "にこしたことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-019-21-c",
+          "text": "に応えて",
+          "grammarId": "n2-115",
+          "baseExpression": "に応えて",
+          "conjugatedExpression": "に応えて",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '성수기의 공장에서는 청소가 뒷전으로 밀리기 쉬워 통로에 자재가 남는다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
+      "sourceGrammarIds": [
+        "n2-019",
+        "n2-113",
+        "n2-114",
+        "n2-115"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-019-22",
+      "level": "N2",
+      "sentence": "自信を失った選手は消極的なプレーに陥りがちだ。",
+      "sentenceWithBlank": "自信を失った選手は消極的なプレーに陥り（　　　）だ。",
+      "korean": "자신감을 잃은 선수는 소극적인 플레이에 빠지기 쉽다.",
+      "answerChoiceId": "fb-created-n2-019-22-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-019-22-a",
+          "text": "がち",
+          "grammarId": "n2-019",
+          "baseExpression": "がち",
+          "conjugatedExpression": "がち",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-019-22-b",
+          "text": "もしない",
+          "grammarId": "n2-152",
+          "baseExpression": "もしない",
+          "conjugatedExpression": "もしない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-019-22-c",
+          "text": "もの",
+          "grammarId": "n2-153",
+          "baseExpression": "もの",
+          "conjugatedExpression": "もの",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-019-22-d",
+          "text": "ものか",
+          "grammarId": "n2-154",
+          "baseExpression": "ものか",
+          "conjugatedExpression": "ものか",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '자신감을 잃은 선수는 소극적인 플레이에 빠지기 쉽다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
+      "sourceGrammarIds": [
+        "n2-019",
+        "n2-152",
+        "n2-153",
+        "n2-154"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-019-23",
+      "level": "N2",
+      "sentence": "親しい相手への感謝は言葉にするのを忘れがちだ。",
+      "sentenceWithBlank": "親しい相手への感謝は言葉にするのを忘れ（　　　）だ。",
+      "korean": "가까운 사람에 대한 감사는 말로 표현하는 것을 잊기 쉽다.",
+      "answerChoiceId": "fb-created-n2-019-23-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-019-23-b",
+          "text": "にこしたことはない",
+          "grammarId": "n2-114",
+          "baseExpression": "にこしたことはない",
+          "conjugatedExpression": "にこしたことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-019-23-c",
+          "text": "に応えて",
+          "grammarId": "n2-115",
+          "baseExpression": "に応えて",
+          "conjugatedExpression": "に応えて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-019-23-d",
+          "text": "がち",
+          "grammarId": "n2-019",
+          "baseExpression": "がち",
+          "conjugatedExpression": "がち",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-019-23-a",
+          "text": "に加えて",
+          "grammarId": "n2-113",
+          "baseExpression": "に加えて",
+          "conjugatedExpression": "に加えて",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '가까운 사람에 대한 감사는 말로 표현하는 것을 잊기 쉽다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
+      "sourceGrammarIds": [
+        "n2-019",
+        "n2-113",
+        "n2-114",
+        "n2-115"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-019-24",
+      "level": "N2",
+      "sentence": "日当たりの悪い庭は土が乾きにくく、根腐れしがちだ。",
+      "sentenceWithBlank": "日当たりの悪い庭は土が乾きにくく、根腐れし（　　　）だ。",
+      "korean": "햇볕이 잘 들지 않는 정원은 흙이 잘 마르지 않아 뿌리가 썩기 쉽다.",
+      "answerChoiceId": "fb-created-n2-019-24-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-019-24-c",
+          "text": "もの",
+          "grammarId": "n2-153",
+          "baseExpression": "もの",
+          "conjugatedExpression": "もの",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-019-24-d",
+          "text": "ものか",
+          "grammarId": "n2-154",
+          "baseExpression": "ものか",
+          "conjugatedExpression": "ものか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-019-24-a",
+          "text": "がち",
+          "grammarId": "n2-019",
+          "baseExpression": "がち",
+          "conjugatedExpression": "がち",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-019-24-b",
+          "text": "もしない",
+          "grammarId": "n2-152",
+          "baseExpression": "もしない",
+          "conjugatedExpression": "もしない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '햇볕이 잘 들지 않는 정원은 흙이 잘 마르지 않아 뿌리가 썩기 쉽다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
+      "sourceGrammarIds": [
+        "n2-019",
+        "n2-152",
+        "n2-153",
+        "n2-154"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-019-25",
+      "level": "N2",
+      "sentence": "過去の成功にこだわる経営者は、市場の変化への対応が遅れがちだ。",
+      "sentenceWithBlank": "過去の成功にこだわる経営者は、市場の変化への対応が遅れ（　　　）だ。",
+      "korean": "과거의 성공에 집착하는 경영자는 시장 변화에 대한 대응이 늦어지기 쉽다.",
+      "answerChoiceId": "fb-created-n2-019-25-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-019-25-d",
+          "text": "がち",
+          "grammarId": "n2-019",
+          "baseExpression": "がち",
+          "conjugatedExpression": "がち",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-019-25-a",
+          "text": "に加えて",
+          "grammarId": "n2-113",
+          "baseExpression": "に加えて",
+          "conjugatedExpression": "に加えて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-019-25-b",
+          "text": "にこしたことはない",
+          "grammarId": "n2-114",
+          "baseExpression": "にこしたことはない",
+          "conjugatedExpression": "にこしたことはない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-019-25-c",
+          "text": "に応えて",
+          "grammarId": "n2-115",
+          "baseExpression": "に応えて",
+          "conjugatedExpression": "に応えて",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '과거의 성공에 집착하는 경영자는 시장 변화에 대한 대응이 늦어지기 쉽다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
+      "sourceGrammarIds": [
+        "n2-019",
+        "n2-113",
+        "n2-114",
+        "n2-115"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
       ]
     }
   ],
@@ -1834,1103 +1809,1153 @@
       ]
     },
     {
-      "id": "so-extra-n2-019-1",
+      "id": "so-created-n2-019-01",
       "level": "N2",
-      "sentence": "田中さんは留守がちだから、電話してもいないことが多い。",
-      "sentenceWithBlanks": "田中さんは留守 ____ ____ ____ ____",
-      "korean": "다나카 씨는 집을 자주 비워서 전화해도 없는 일이 많다.",
+      "sentence": "忙しい朝は、朝食を抜きがちなので、果物を持って出勤する。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 持って出勤する。",
+      "korean": "바쁜 아침에는 아침을 거르기 쉬워서 과일을 챙겨 출근한다.",
       "pieces": [
         {
-          "id": "so-extra-n2-019-1-p2",
-          "text": "電話してもいないことが多い",
+          "id": "so-created-n2-019-01-p4",
+          "text": "果物を",
           "order": 4
         },
         {
-          "id": "so-extra-n2-019-1-p3",
-          "text": "がち",
+          "id": "so-created-n2-019-01-p1",
+          "text": "忙しい朝は、",
           "order": 1
         },
         {
-          "id": "so-extra-n2-019-1-p4",
-          "text": "だ",
+          "id": "so-created-n2-019-01-p2",
+          "text": "朝食を抜き",
           "order": 2
         },
         {
-          "id": "so-extra-n2-019-1-p1",
-          "text": "から",
+          "id": "so-created-n2-019-01-p3",
+          "text": "がちなので、",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-019-1-p3",
-        "so-extra-n2-019-1-p4",
-        "so-extra-n2-019-1-p1",
-        "so-extra-n2-019-1-p2"
+        "so-created-n2-019-01-p1",
+        "so-created-n2-019-01-p2",
+        "so-created-n2-019-01-p3",
+        "so-created-n2-019-01-p4"
       ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '바쁜 아침에는 아침을 거르기 쉬워서 과일을 챙겨 출근한다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
       "sourceGrammarIds": [
-        "n2-019"
+        "n2-019",
+        "n2-113",
+        "n2-114",
+        "n2-115"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-019-2",
+      "id": "so-created-n2-019-02",
       "level": "N2",
-      "sentence": "環境破壊の問題は自分の目に迫ってこないと、無関心になりがちである。",
-      "sentenceWithBlanks": "環境破壊の問題は自分の目に迫ってこないと、無関心になり ____ ____ ____ ____",
-      "korean": "환경 파괴 문제는 눈앞에 닥치지 않으면 무관심해지기 쉽다.",
+      "sentence": "雨の日の商店街は人通りが少なく、店内も静かになりがちだ。",
+      "sentenceWithBlanks": "雨の日の商店 ____ ____ ____ ____",
+      "korean": "비 오는 날의 상점가는 행인이 적어 가게 안도 한산해지기 쉽다.",
       "pieces": [
         {
-          "id": "so-extra-n2-019-2-p3",
-          "text": "る",
+          "id": "so-created-n2-019-02-p3",
+          "text": "静かになり",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-019-02-p4",
+          "text": "がちだ。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-019-2-p4",
-          "text": "がち",
+          "id": "so-created-n2-019-02-p1",
+          "text": "街は人通りが",
           "order": 1
         },
         {
-          "id": "so-extra-n2-019-2-p1",
-          "text": "で",
+          "id": "so-created-n2-019-02-p2",
+          "text": "少なく、店内も",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-019-2-p2",
-          "text": "あ",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-019-2-p4",
-        "so-extra-n2-019-2-p1",
-        "so-extra-n2-019-2-p2",
-        "so-extra-n2-019-2-p3"
+        "so-created-n2-019-02-p1",
+        "so-created-n2-019-02-p2",
+        "so-created-n2-019-02-p3",
+        "so-created-n2-019-02-p4"
       ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '비 오는 날의 상점가는 행인이 적어 가게 안도 한산해지기 쉽다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
       "sourceGrammarIds": [
-        "n2-019"
+        "n2-019",
+        "n2-152",
+        "n2-153",
+        "n2-154"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-019-3",
+      "id": "so-created-n2-019-03",
       "level": "N2",
-      "sentence": "田中さんは留守がちだから、電話してもいないことが多い。",
-      "sentenceWithBlanks": "____ ____ ____ ____ だから、電話してもいないことが多い。",
-      "korean": "다나카 씨는 집을 자주 비워서 전화해도 없는 일이 많다.",
+      "sentence": "在宅勤務が続くと運動不足になりがちだから、夕方に川沿いを歩いている。",
+      "sentenceWithBlanks": "在宅勤務が ____ ____ ____ ____ 歩いている。",
+      "korean": "재택근무가 계속되면 운동 부족이 되기 쉬워서 저녁에 강변을 걷고 있다.",
       "pieces": [
         {
-          "id": "so-extra-n2-019-3-p4",
-          "text": "から",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-019-3-p1",
-          "text": "守",
-          "order": 1
-        },
-        {
-          "id": "so-extra-n2-019-3-p2",
-          "text": "がち",
+          "id": "so-created-n2-019-03-p2",
+          "text": "不足になり",
           "order": 2
         },
         {
-          "id": "so-extra-n2-019-3-p3",
-          "text": "だ",
+          "id": "so-created-n2-019-03-p3",
+          "text": "がちだから、",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-019-03-p4",
+          "text": "夕方に川沿いを",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-019-03-p1",
+          "text": "続くと運動",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-019-3-p1",
-        "so-extra-n2-019-3-p2",
-        "so-extra-n2-019-3-p3",
-        "so-extra-n2-019-3-p4"
+        "so-created-n2-019-03-p1",
+        "so-created-n2-019-03-p2",
+        "so-created-n2-019-03-p3",
+        "so-created-n2-019-03-p4"
       ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '재택근무가 계속되면 운동 부족이 되기 쉬워서 저녁에 강변을 걷고 있다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
       "sourceGrammarIds": [
-        "n2-019"
+        "n2-019",
+        "n2-113",
+        "n2-114",
+        "n2-115"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-019-4",
+      "id": "so-created-n2-019-04",
       "level": "N2",
-      "sentence": "環境破壊の問題は自分の目に迫ってこないと、無関心になりがちである。",
-      "sentenceWithBlanks": "環境破壊の問題は自分の目に迫ってこないと、無関心になり ____ ____ ____ ____",
-      "korean": "환경 파괴 문제는 눈앞에 닥치지 않으면 무관심해지기 쉽다.",
+      "sentence": "祖父は冬になると病気がちで、外出する回数も減ってしまう。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 減ってしまう。",
+      "korean": "할아버지는 겨울이 되면 자주 편찮으셔서 외출하는 횟수도 줄어든다.",
       "pieces": [
         {
-          "id": "so-extra-n2-019-4-p1",
-          "text": "る",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-019-4-p2",
-          "text": "がち",
+          "id": "so-created-n2-019-04-p1",
+          "text": "祖父は",
           "order": 1
         },
         {
-          "id": "so-extra-n2-019-4-p3",
-          "text": "で",
+          "id": "so-created-n2-019-04-p2",
+          "text": "冬になると",
           "order": 2
         },
         {
-          "id": "so-extra-n2-019-4-p4",
-          "text": "あ",
+          "id": "so-created-n2-019-04-p3",
+          "text": "病気がちで、",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-019-04-p4",
+          "text": "外出する回数も",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-019-4-p2",
-        "so-extra-n2-019-4-p3",
-        "so-extra-n2-019-4-p4",
-        "so-extra-n2-019-4-p1"
+        "so-created-n2-019-04-p1",
+        "so-created-n2-019-04-p2",
+        "so-created-n2-019-04-p3",
+        "so-created-n2-019-04-p4"
       ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '할아버지는 겨울이 되면 자주 편찮으셔서 외출하는 횟수도 줄어든다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
       "sourceGrammarIds": [
-        "n2-019"
+        "n2-019",
+        "n2-152",
+        "n2-153",
+        "n2-154"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-019-5",
+      "id": "so-created-n2-019-05",
       "level": "N2",
-      "sentence": "田中さんは留守がちだから、電話してもいないことが多い。",
-      "sentenceWithBlanks": "田中さんは留守 ____ ____ ____ ____",
-      "korean": "다나카 씨는 집을 자주 비워서 전화해도 없는 일이 많다.",
+      "sentence": "新人の整備士は作業を急ぐあまり、安全確認を忘れがちだ。",
+      "sentenceWithBlanks": "新人の整備士は ____ ____ ____ ____",
+      "korean": "신입 정비사는 작업을 서두른 나머지 안전 확인을 잊기 쉽다.",
       "pieces": [
         {
-          "id": "so-extra-n2-019-5-p2",
-          "text": "電話してもいないことが多い",
+          "id": "so-created-n2-019-05-p4",
+          "text": "忘れがちだ。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-019-5-p3",
-          "text": "がち",
+          "id": "so-created-n2-019-05-p1",
+          "text": "作業を",
           "order": 1
         },
         {
-          "id": "so-extra-n2-019-5-p4",
-          "text": "だ",
+          "id": "so-created-n2-019-05-p2",
+          "text": "急ぐあまり、",
           "order": 2
         },
         {
-          "id": "so-extra-n2-019-5-p1",
-          "text": "から",
+          "id": "so-created-n2-019-05-p3",
+          "text": "安全確認を",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-019-5-p3",
-        "so-extra-n2-019-5-p4",
-        "so-extra-n2-019-5-p1",
-        "so-extra-n2-019-5-p2"
+        "so-created-n2-019-05-p1",
+        "so-created-n2-019-05-p2",
+        "so-created-n2-019-05-p3",
+        "so-created-n2-019-05-p4"
       ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '신입 정비사는 작업을 서두른 나머지 안전 확인을 잊기 쉽다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
       "sourceGrammarIds": [
-        "n2-019"
+        "n2-019",
+        "n2-113",
+        "n2-114",
+        "n2-115"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-019-01",
+      "id": "so-created-n2-019-06",
       "level": "N2",
-      "sentence": "田中さんは留守がちだから、電話してもいないことが多い。",
-      "sentenceWithBlanks": "田中さんは留守 ____ ____ ____ ____",
-      "korean": "다나카 씨는 집을 자주 비워서 전화해도 없는 일이 많다.",
+      "sentence": "一人暮らしを始めた弟は、野菜の少ない食事を選びがちになった。",
+      "sentenceWithBlanks": "一人暮らしを ____ ____ ____ ____",
+      "korean": "자취를 시작한 남동생은 채소가 적은 식사를 고르는 일이 잦아졌다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-019-01-p2",
-          "text": "電話してもいないことが多い",
+          "id": "so-created-n2-019-06-p3",
+          "text": "食事を選び",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-019-06-p4",
+          "text": "がちになった。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-019-01-p3",
-          "text": "がち",
+          "id": "so-created-n2-019-06-p1",
+          "text": "始めた弟は、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-019-01-p4",
-          "text": "だ",
+          "id": "so-created-n2-019-06-p2",
+          "text": "野菜の少ない",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-019-01-p1",
-          "text": "から",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-019-01-p3",
-        "so-extra20-n2-019-01-p4",
-        "so-extra20-n2-019-01-p1",
-        "so-extra20-n2-019-01-p2"
+        "so-created-n2-019-06-p1",
+        "so-created-n2-019-06-p2",
+        "so-created-n2-019-06-p3",
+        "so-created-n2-019-06-p4"
       ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '자취를 시작한 남동생은 채소가 적은 식사를 고르는 일이 잦아졌다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
       "sourceGrammarIds": [
-        "n2-019"
+        "n2-019",
+        "n2-152",
+        "n2-153",
+        "n2-154"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-019-02",
+      "id": "so-created-n2-019-07",
       "level": "N2",
-      "sentence": "環境破壊の問題は自分の目に迫ってこないと、無関心になりがちである。",
-      "sentenceWithBlanks": "環境破壊の問題は自分の目に迫ってこないと、無関心になり ____ ____ ____ ____",
-      "korean": "환경 파괴 문제는 눈앞에 닥치지 않으면 무관심해지기 쉽다.",
+      "sentence": "観光客は有名な寺ばかり訪れがちだが、この町には古い市場もある。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 町には古い市場もある。",
+      "korean": "관광객은 유명한 절만 방문하기 쉽지만, 이 동네에는 오래된 시장도 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-019-02-p1",
-          "text": "で",
+          "id": "so-created-n2-019-07-p2",
+          "text": "有名な寺ばかり",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-019-02-p2",
-          "text": "あ",
+          "id": "so-created-n2-019-07-p3",
+          "text": "訪れがち",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-019-02-p3",
-          "text": "る",
+          "id": "so-created-n2-019-07-p4",
+          "text": "だが、この",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-019-02-p4",
-          "text": "がち",
+          "id": "so-created-n2-019-07-p1",
+          "text": "観光客は",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-019-02-p4",
-        "so-extra20-n2-019-02-p1",
-        "so-extra20-n2-019-02-p2",
-        "so-extra20-n2-019-02-p3"
+        "so-created-n2-019-07-p1",
+        "so-created-n2-019-07-p2",
+        "so-created-n2-019-07-p3",
+        "so-created-n2-019-07-p4"
       ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '관광객은 유명한 절만 방문하기 쉽지만, 이 동네에는 오래된 시장도 있다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
       "sourceGrammarIds": [
-        "n2-019"
+        "n2-019",
+        "n2-113",
+        "n2-114",
+        "n2-115"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-019-03",
+      "id": "so-created-n2-019-08",
       "level": "N2",
-      "sentence": "田中さんは留守がちだから、電話してもいないことが多い。",
-      "sentenceWithBlanks": "____ ____ ____ ____ だから、電話してもいないことが多い。",
-      "korean": "다나카 씨는 집을 자주 비워서 전화해도 없는 일이 많다.",
+      "sentence": "締め切り直前は判断が感情的になりがちなので、重要な決定は翌日に回す。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 重要な決定は翌日に回す。",
+      "korean": "마감 직전에는 판단이 감정적으로 흐르기 쉬워서 중요한 결정은 다음 날로 미룬다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-019-03-p4",
-          "text": "から",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-019-03-p1",
-          "text": "守",
+          "id": "so-created-n2-019-08-p1",
+          "text": "締め切り",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-019-03-p2",
-          "text": "がち",
+          "id": "so-created-n2-019-08-p2",
+          "text": "直前は判断が",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-019-03-p3",
-          "text": "だ",
+          "id": "so-created-n2-019-08-p3",
+          "text": "感情的になり",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-019-08-p4",
+          "text": "がちなので、",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-019-03-p1",
-        "so-extra20-n2-019-03-p2",
-        "so-extra20-n2-019-03-p3",
-        "so-extra20-n2-019-03-p4"
+        "so-created-n2-019-08-p1",
+        "so-created-n2-019-08-p2",
+        "so-created-n2-019-08-p3",
+        "so-created-n2-019-08-p4"
       ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '마감 직전에는 판단이 감정적으로 흐르기 쉬워서 중요한 결정은 다음 날로 미룬다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
       "sourceGrammarIds": [
-        "n2-019"
+        "n2-019",
+        "n2-152",
+        "n2-153",
+        "n2-154"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-019-04",
+      "id": "so-created-n2-019-09",
       "level": "N2",
-      "sentence": "環境破壊の問題は自分の目に迫ってこないと、無関心になりがちである。",
-      "sentenceWithBlanks": "環境破壊の問題は自分の目に迫ってこないと、無関心になり ____ ____ ____ ____",
-      "korean": "환경 파괴 문제는 눈앞에 닥치지 않으면 무관심해지기 쉽다.",
+      "sentence": "この山道は霧が出ると事故が起こりがちで、夜間は通行止めになる。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 夜間は通行止めになる。",
+      "korean": "이 산길은 안개가 끼면 사고가 자주 발생해서 야간에는 통행이 금지된다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-019-04-p3",
-          "text": "で",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-019-04-p4",
-          "text": "あ",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-019-04-p1",
-          "text": "る",
+          "id": "so-created-n2-019-09-p4",
+          "text": "がちで、",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-019-04-p2",
-          "text": "がち",
+          "id": "so-created-n2-019-09-p1",
+          "text": "この山道は",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-019-09-p2",
+          "text": "霧が出ると",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-019-09-p3",
+          "text": "事故が起こり",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-019-04-p2",
-        "so-extra20-n2-019-04-p3",
-        "so-extra20-n2-019-04-p4",
-        "so-extra20-n2-019-04-p1"
+        "so-created-n2-019-09-p1",
+        "so-created-n2-019-09-p2",
+        "so-created-n2-019-09-p3",
+        "so-created-n2-019-09-p4"
       ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '이 산길은 안개가 끼면 사고가 자주 발생해서 야간에는 통행이 금지된다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
       "sourceGrammarIds": [
-        "n2-019"
+        "n2-019",
+        "n2-113",
+        "n2-114",
+        "n2-115"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-019-05",
+      "id": "so-created-n2-019-10",
       "level": "N2",
-      "sentence": "田中さんは留守がちだから、電話してもいないことが多い。",
-      "sentenceWithBlanks": "田中さんは留守 ____ ____ ____ ____",
-      "korean": "다나카 씨는 집을 자주 비워서 전화해도 없는 일이 많다.",
+      "sentence": "責任感の強い看護師ほど、自分の疲れを後回しにしがちだ。",
+      "sentenceWithBlanks": "責任感の強い ____ ____ ____ ____",
+      "korean": "책임감이 강한 간호사일수록 자신의 피로를 뒷전으로 미루기 쉽다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-019-05-p2",
-          "text": "電話してもいないことが多い",
+          "id": "so-created-n2-019-10-p3",
+          "text": "後回しにし",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-019-10-p4",
+          "text": "がちだ。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-019-05-p3",
-          "text": "がち",
+          "id": "so-created-n2-019-10-p1",
+          "text": "看護師ほど、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-019-05-p4",
-          "text": "だ",
+          "id": "so-created-n2-019-10-p2",
+          "text": "自分の疲れを",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-019-05-p1",
-          "text": "から",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-019-05-p3",
-        "so-extra20-n2-019-05-p4",
-        "so-extra20-n2-019-05-p1",
-        "so-extra20-n2-019-05-p2"
+        "so-created-n2-019-10-p1",
+        "so-created-n2-019-10-p2",
+        "so-created-n2-019-10-p3",
+        "so-created-n2-019-10-p4"
       ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '책임감이 강한 간호사일수록 자신의 피로를 뒷전으로 미루기 쉽다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
       "sourceGrammarIds": [
-        "n2-019"
+        "n2-019",
+        "n2-152",
+        "n2-153",
+        "n2-154"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-019-06",
+      "id": "so-created-n2-019-11",
       "level": "N2",
-      "sentence": "田中さんは留守がちだから、電話してもいないことが多い。",
-      "sentenceWithBlanks": "田中さんは留守 ____ ____ ____ ____",
-      "korean": "다나카 씨는 집을 자주 비워서 전화해도 없는 일이 많다.",
+      "sentence": "古い倉庫は湿気がこもりがちだから、定期的な換気が欠かせない。",
+      "sentenceWithBlanks": "古い ____ ____ ____ ____ 欠かせない。",
+      "korean": "오래된 창고는 습기가 차기 쉬우므로 정기적인 환기가 필수적이다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-019-06-p1",
-          "text": "から",
+          "id": "so-created-n2-019-11-p2",
+          "text": "湿気がこもり",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-019-11-p3",
+          "text": "がちだから、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-019-06-p2",
-          "text": "電話してもいないことが多い",
+          "id": "so-created-n2-019-11-p4",
+          "text": "定期的な換気が",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-019-06-p3",
-          "text": "がち",
+          "id": "so-created-n2-019-11-p1",
+          "text": "倉庫は",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-019-06-p4",
-          "text": "だ",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-019-06-p3",
-        "so-extra20-n2-019-06-p4",
-        "so-extra20-n2-019-06-p1",
-        "so-extra20-n2-019-06-p2"
+        "so-created-n2-019-11-p1",
+        "so-created-n2-019-11-p2",
+        "so-created-n2-019-11-p3",
+        "so-created-n2-019-11-p4"
       ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '오래된 창고는 습기가 차기 쉬우므로 정기적인 환기가 필수적이다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
       "sourceGrammarIds": [
-        "n2-019"
+        "n2-019",
+        "n2-113",
+        "n2-114",
+        "n2-115"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-019-07",
+      "id": "so-created-n2-019-12",
       "level": "N2",
-      "sentence": "環境破壊の問題は自分の目に迫ってこないと、無関心になりがちである。",
-      "sentenceWithBlanks": "環境破壊の問題は自分の目に迫ってこないと、無関心になり ____ ____ ____ ____",
-      "korean": "환경 파괴 문제는 눈앞에 닥치지 않으면 무관심해지기 쉽다.",
+      "sentence": "長い会議では発言者が固定されがちで、若手の意見が出にくい。",
+      "sentenceWithBlanks": "長い ____ ____ ____ ____ 出にくい。",
+      "korean": "긴 회의에서는 발언자가 고정되기 쉬워 젊은 직원의 의견이 나오기 어렵다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-019-07-p4",
-          "text": "がち",
+          "id": "so-created-n2-019-12-p1",
+          "text": "会議では発言",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-019-07-p1",
-          "text": "で",
+          "id": "so-created-n2-019-12-p2",
+          "text": "者が固定され",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-019-07-p2",
-          "text": "あ",
+          "id": "so-created-n2-019-12-p3",
+          "text": "がちで、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-019-07-p3",
-          "text": "る",
+          "id": "so-created-n2-019-12-p4",
+          "text": "若手の意見が",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-019-07-p4",
-        "so-extra20-n2-019-07-p1",
-        "so-extra20-n2-019-07-p2",
-        "so-extra20-n2-019-07-p3"
+        "so-created-n2-019-12-p1",
+        "so-created-n2-019-12-p2",
+        "so-created-n2-019-12-p3",
+        "so-created-n2-019-12-p4"
       ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '긴 회의에서는 발언자가 고정되기 쉬워 젊은 직원의 의견이 나오기 어렵다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
       "sourceGrammarIds": [
-        "n2-019"
+        "n2-019",
+        "n2-152",
+        "n2-153",
+        "n2-154"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-019-08",
+      "id": "so-created-n2-019-13",
       "level": "N2",
-      "sentence": "田中さんは留守がちだから、電話してもいないことが多い。",
-      "sentenceWithBlanks": "____ ____ ____ ____ だから、電話してもいないことが多い。",
-      "korean": "다나카 씨는 집을 자주 비워서 전화해도 없는 일이 많다.",
+      "sentence": "子育て中の友人は寝不足がちで、休日も昼まで眠っている。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 眠っている。",
+      "korean": "육아 중인 친구는 수면 부족인 경우가 많아서 휴일에도 낮까지 자고 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-019-08-p3",
-          "text": "だ",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-019-08-p4",
-          "text": "から",
+          "id": "so-created-n2-019-13-p4",
+          "text": "休日も昼まで",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-019-08-p1",
-          "text": "守",
+          "id": "so-created-n2-019-13-p1",
+          "text": "子育て中の",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-019-08-p2",
-          "text": "がち",
+          "id": "so-created-n2-019-13-p2",
+          "text": "友人は寝不足",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-019-13-p3",
+          "text": "がちで、",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-019-08-p1",
-        "so-extra20-n2-019-08-p2",
-        "so-extra20-n2-019-08-p3",
-        "so-extra20-n2-019-08-p4"
+        "so-created-n2-019-13-p1",
+        "so-created-n2-019-13-p2",
+        "so-created-n2-019-13-p3",
+        "so-created-n2-019-13-p4"
       ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '육아 중인 친구는 수면 부족인 경우가 많아서 휴일에도 낮까지 자고 있다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
       "sourceGrammarIds": [
-        "n2-019"
+        "n2-019",
+        "n2-113",
+        "n2-114",
+        "n2-115"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-019-09",
+      "id": "so-created-n2-019-14",
       "level": "N2",
-      "sentence": "環境破壊の問題は自分の目に迫ってこないと、無関心になりがちである。",
-      "sentenceWithBlanks": "環境破壊の問題は自分の目に迫ってこないと、無関心になり ____ ____ ____ ____",
-      "korean": "환경 파괴 문제는 눈앞에 닥치지 않으면 무관심해지기 쉽다.",
+      "sentence": "利益だけを追う企業は、地域住民との対話を軽視しがちである。",
+      "sentenceWithBlanks": "利益だけを ____ ____ ____ ____ である。",
+      "korean": "이익만 추구하는 기업은 지역 주민과의 대화를 경시하기 쉽다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-019-09-p2",
-          "text": "がち",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-019-09-p3",
-          "text": "で",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-019-09-p4",
-          "text": "あ",
+          "id": "so-created-n2-019-14-p3",
+          "text": "対話を",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-019-09-p1",
-          "text": "る",
+          "id": "so-created-n2-019-14-p4",
+          "text": "軽視しがち",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-019-14-p1",
+          "text": "追う企業は、",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-019-14-p2",
+          "text": "地域住民との",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-019-09-p2",
-        "so-extra20-n2-019-09-p3",
-        "so-extra20-n2-019-09-p4",
-        "so-extra20-n2-019-09-p1"
+        "so-created-n2-019-14-p1",
+        "so-created-n2-019-14-p2",
+        "so-created-n2-019-14-p3",
+        "so-created-n2-019-14-p4"
       ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '이익만 추구하는 기업은 지역 주민과의 대화를 경시하기 쉽다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
       "sourceGrammarIds": [
-        "n2-019"
+        "n2-019",
+        "n2-152",
+        "n2-153",
+        "n2-154"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-019-10",
+      "id": "so-created-n2-019-15",
       "level": "N2",
-      "sentence": "田中さんは留守がちだから、電話してもいないことが多い。",
-      "sentenceWithBlanks": "田中さんは留守 ____ ____ ____ ____",
-      "korean": "다나카 씨는 집을 자주 비워서 전화해도 없는 일이 많다.",
+      "sentence": "慣れない海外生活では部屋に閉じこもりがちだったが、今は近所に友人がいる。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 今は近所に友人がいる。",
+      "korean": "익숙하지 않은 해외 생활에서는 방에 틀어박혀 지내기 일쑤였지만, 지금은 동네에 친구가 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-019-10-p1",
-          "text": "から",
+          "id": "so-created-n2-019-15-p2",
+          "text": "生活では部屋に",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-019-15-p3",
+          "text": "閉じこもり",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-019-10-p2",
-          "text": "電話してもいないことが多い",
+          "id": "so-created-n2-019-15-p4",
+          "text": "がちだったが、",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-019-10-p3",
-          "text": "がち",
+          "id": "so-created-n2-019-15-p1",
+          "text": "慣れない海外",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-019-10-p4",
-          "text": "だ",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-019-10-p3",
-        "so-extra20-n2-019-10-p4",
-        "so-extra20-n2-019-10-p1",
-        "so-extra20-n2-019-10-p2"
+        "so-created-n2-019-15-p1",
+        "so-created-n2-019-15-p2",
+        "so-created-n2-019-15-p3",
+        "so-created-n2-019-15-p4"
       ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '익숙하지 않은 해외 생활에서는 방에 틀어박혀 지내기 일쑤였지만, 지금은 동네에 친구가 있다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
       "sourceGrammarIds": [
-        "n2-019"
+        "n2-019",
+        "n2-113",
+        "n2-114",
+        "n2-115"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-019-11",
+      "id": "so-created-n2-019-16",
       "level": "N2",
-      "sentence": "田中さんは留守がちだから、電話してもいないことが多い。",
-      "sentenceWithBlanks": "田中さんは留守 ____ ____ ____ ____",
-      "korean": "다나카 씨는 집을 자주 비워서 전화해도 없는 일이 많다.",
+      "sentence": "人気商品に注文が集中すると、地方への配送が遅れがちになる。",
+      "sentenceWithBlanks": "人気商品に ____ ____ ____ ____",
+      "korean": "인기 상품에 주문이 몰리면 지방 배송이 자주 늦어진다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-019-11-p4",
-          "text": "だ",
+          "id": "so-created-n2-019-16-p1",
+          "text": "注文が",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-019-16-p2",
+          "text": "集中すると、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-019-11-p1",
-          "text": "から",
+          "id": "so-created-n2-019-16-p3",
+          "text": "地方への配送が",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-019-11-p2",
-          "text": "電話してもいないことが多い",
+          "id": "so-created-n2-019-16-p4",
+          "text": "遅れがちになる。",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-019-11-p3",
-          "text": "がち",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-019-11-p3",
-        "so-extra20-n2-019-11-p4",
-        "so-extra20-n2-019-11-p1",
-        "so-extra20-n2-019-11-p2"
+        "so-created-n2-019-16-p1",
+        "so-created-n2-019-16-p2",
+        "so-created-n2-019-16-p3",
+        "so-created-n2-019-16-p4"
       ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '인기 상품에 주문이 몰리면 지방 배송이 자주 늦어진다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
       "sourceGrammarIds": [
-        "n2-019"
+        "n2-019",
+        "n2-152",
+        "n2-153",
+        "n2-154"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-019-12",
+      "id": "so-created-n2-019-17",
       "level": "N2",
-      "sentence": "環境破壊の問題は自分の目に迫ってこないと、無関心になりがちである。",
-      "sentenceWithBlanks": "環境破壊の問題は自分の目に迫ってこないと、無関心になり ____ ____ ____ ____",
-      "korean": "환경 파괴 문제는 눈앞에 닥치지 않으면 무관심해지기 쉽다.",
+      "sentence": "多忙な市長は説明を部下に任せがちで、市民から不満が出ている。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 不満が出ている。",
+      "korean": "다망한 시장은 설명을 부하 직원에게 맡기는 경우가 많아 시민들의 불만이 나오고 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-019-12-p3",
-          "text": "る",
+          "id": "so-created-n2-019-17-p4",
+          "text": "で、市民から",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-019-12-p4",
-          "text": "がち",
+          "id": "so-created-n2-019-17-p1",
+          "text": "多忙な市長は",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-019-12-p1",
-          "text": "で",
+          "id": "so-created-n2-019-17-p2",
+          "text": "説明を部下に",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-019-12-p2",
-          "text": "あ",
+          "id": "so-created-n2-019-17-p3",
+          "text": "任せがち",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-019-12-p4",
-        "so-extra20-n2-019-12-p1",
-        "so-extra20-n2-019-12-p2",
-        "so-extra20-n2-019-12-p3"
+        "so-created-n2-019-17-p1",
+        "so-created-n2-019-17-p2",
+        "so-created-n2-019-17-p3",
+        "so-created-n2-019-17-p4"
       ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '다망한 시장은 설명을 부하 직원에게 맡기는 경우가 많아 시민들의 불만이 나오고 있다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
       "sourceGrammarIds": [
-        "n2-019"
+        "n2-019",
+        "n2-113",
+        "n2-114",
+        "n2-115"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-019-13",
+      "id": "so-created-n2-019-18",
       "level": "N2",
-      "sentence": "田中さんは留守がちだから、電話してもいないことが多い。",
-      "sentenceWithBlanks": "____ ____ ____ ____ だから、電話してもいないことが多い。",
-      "korean": "다나카 씨는 집을 자주 비워서 전화해도 없는 일이 많다.",
+      "sentence": "現金を持たなくなってから、小さな出費を見落としがちになった。",
+      "sentenceWithBlanks": "現金を ____ ____ ____ ____",
+      "korean": "현금을 가지고 다니지 않게 된 뒤로 소액 지출을 놓치는 일이 잦아졌다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-019-13-p2",
-          "text": "がち",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-019-13-p3",
-          "text": "だ",
+          "id": "so-created-n2-019-18-p3",
+          "text": "見落としがち",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-019-13-p4",
-          "text": "から",
+          "id": "so-created-n2-019-18-p4",
+          "text": "になった。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-019-13-p1",
-          "text": "守",
+          "id": "so-created-n2-019-18-p1",
+          "text": "持たなくなってから、",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-019-18-p2",
+          "text": "小さな出費を",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-019-13-p1",
-        "so-extra20-n2-019-13-p2",
-        "so-extra20-n2-019-13-p3",
-        "so-extra20-n2-019-13-p4"
+        "so-created-n2-019-18-p1",
+        "so-created-n2-019-18-p2",
+        "so-created-n2-019-18-p3",
+        "so-created-n2-019-18-p4"
       ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '현금을 가지고 다니지 않게 된 뒤로 소액 지출을 놓치는 일이 잦아졌다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
       "sourceGrammarIds": [
-        "n2-019"
+        "n2-019",
+        "n2-152",
+        "n2-153",
+        "n2-154"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-019-14",
+      "id": "so-created-n2-019-19",
       "level": "N2",
-      "sentence": "環境破壊の問題は自分の目に迫ってこないと、無関心になりがちである。",
-      "sentenceWithBlanks": "環境破壊の問題は自分の目に迫ってこないと、無関心になり ____ ____ ____ ____",
-      "korean": "환경 파괴 문제는 눈앞에 닥치지 않으면 무관심해지기 쉽다.",
+      "sentence": "海沿いの線路は強風の影響で運休しがちだ。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "해안가 철도는 강풍의 영향으로 운행이 자주 중단된다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-019-14-p1",
-          "text": "る",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-019-14-p2",
-          "text": "がち",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-019-14-p3",
-          "text": "で",
+          "id": "so-created-n2-019-19-p2",
+          "text": "線路は強風の",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-019-14-p4",
-          "text": "あ",
+          "id": "so-created-n2-019-19-p3",
+          "text": "影響で運休し",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-019-19-p4",
+          "text": "がちだ。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-019-19-p1",
+          "text": "海沿いの",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-019-14-p2",
-        "so-extra20-n2-019-14-p3",
-        "so-extra20-n2-019-14-p4",
-        "so-extra20-n2-019-14-p1"
+        "so-created-n2-019-19-p1",
+        "so-created-n2-019-19-p2",
+        "so-created-n2-019-19-p3",
+        "so-created-n2-019-19-p4"
       ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '해안가 철도는 강풍의 영향으로 운행이 자주 중단된다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
       "sourceGrammarIds": [
-        "n2-019"
+        "n2-019",
+        "n2-113",
+        "n2-114",
+        "n2-115"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-019-15",
+      "id": "so-created-n2-019-20",
       "level": "N2",
-      "sentence": "田中さんは留守がちだから、電話してもいないことが多い。",
-      "sentenceWithBlanks": "田中さんは留守 ____ ____ ____ ____",
-      "korean": "다나카 씨는 집을 자주 비워서 전화해도 없는 일이 많다.",
+      "sentence": "心配性の母は、連絡が少し遅れただけでも悪い結果を想像しがちだ。",
+      "sentenceWithBlanks": "心配性の母は、連絡が ____ ____ ____ ____",
+      "korean": "걱정이 많은 어머니는 연락이 조금만 늦어져도 나쁜 결과를 상상하기 쉽다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-019-15-p4",
-          "text": "だ",
+          "id": "so-created-n2-019-20-p1",
+          "text": "少し",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-019-20-p2",
+          "text": "遅れただけでも",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-019-15-p1",
-          "text": "から",
+          "id": "so-created-n2-019-20-p3",
+          "text": "悪い結果を",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-019-15-p2",
-          "text": "電話してもいないことが多い",
+          "id": "so-created-n2-019-20-p4",
+          "text": "想像しがちだ。",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-019-15-p3",
-          "text": "がち",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-019-15-p3",
-        "so-extra20-n2-019-15-p4",
-        "so-extra20-n2-019-15-p1",
-        "so-extra20-n2-019-15-p2"
+        "so-created-n2-019-20-p1",
+        "so-created-n2-019-20-p2",
+        "so-created-n2-019-20-p3",
+        "so-created-n2-019-20-p4"
       ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '걱정이 많은 어머니는 연락이 조금만 늦어져도 나쁜 결과를 상상하기 쉽다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
       "sourceGrammarIds": [
-        "n2-019"
+        "n2-019",
+        "n2-152",
+        "n2-153",
+        "n2-154"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-019-16",
+      "id": "so-created-n2-019-21",
       "level": "N2",
-      "sentence": "田中さんは留守がちだから、電話してもいないことが多い。",
-      "sentenceWithBlanks": "田中さんは留守 ____ ____ ____ ____",
-      "korean": "다나카 씨는 집을 자주 비워서 전화해도 없는 일이 많다.",
+      "sentence": "繁忙期の工場では清掃が後回しになりがちで、通路に資材が残る。",
+      "sentenceWithBlanks": "繁忙期の工場では ____ ____ ____ ____",
+      "korean": "성수기의 공장에서는 청소가 뒷전으로 밀리기 쉬워 통로에 자재가 남는다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-019-16-p3",
-          "text": "がち",
+          "id": "so-created-n2-019-21-p4",
+          "text": "資材が残る。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-019-21-p1",
+          "text": "清掃が",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-019-16-p4",
-          "text": "だ",
+          "id": "so-created-n2-019-21-p2",
+          "text": "後回しになり",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-019-16-p1",
-          "text": "から",
+          "id": "so-created-n2-019-21-p3",
+          "text": "がちで、通路に",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-019-16-p2",
-          "text": "電話してもいないことが多い",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-019-16-p3",
-        "so-extra20-n2-019-16-p4",
-        "so-extra20-n2-019-16-p1",
-        "so-extra20-n2-019-16-p2"
+        "so-created-n2-019-21-p1",
+        "so-created-n2-019-21-p2",
+        "so-created-n2-019-21-p3",
+        "so-created-n2-019-21-p4"
       ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '성수기의 공장에서는 청소가 뒷전으로 밀리기 쉬워 통로에 자재가 남는다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
       "sourceGrammarIds": [
-        "n2-019"
+        "n2-019",
+        "n2-113",
+        "n2-114",
+        "n2-115"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-019-17",
+      "id": "so-created-n2-019-22",
       "level": "N2",
-      "sentence": "環境破壊の問題は自分の目に迫ってこないと、無関心になりがちである。",
-      "sentenceWithBlanks": "環境破壊の問題は自分の目に迫ってこないと、無関心になり ____ ____ ____ ____",
-      "korean": "환경 파괴 문제는 눈앞에 닥치지 않으면 무관심해지기 쉽다.",
+      "sentence": "自信を失った選手は消極的なプレーに陥りがちだ。",
+      "sentenceWithBlanks": "自信を ____ ____ ____ ____",
+      "korean": "자신감을 잃은 선수는 소극적인 플레이에 빠지기 쉽다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-019-17-p2",
-          "text": "あ",
+          "id": "so-created-n2-019-22-p3",
+          "text": "プレーに",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-019-17-p3",
-          "text": "る",
+          "id": "so-created-n2-019-22-p4",
+          "text": "陥りがちだ。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-019-17-p4",
-          "text": "がち",
+          "id": "so-created-n2-019-22-p1",
+          "text": "失った選手は",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-019-17-p1",
-          "text": "で",
+          "id": "so-created-n2-019-22-p2",
+          "text": "消極的な",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-019-17-p4",
-        "so-extra20-n2-019-17-p1",
-        "so-extra20-n2-019-17-p2",
-        "so-extra20-n2-019-17-p3"
+        "so-created-n2-019-22-p1",
+        "so-created-n2-019-22-p2",
+        "so-created-n2-019-22-p3",
+        "so-created-n2-019-22-p4"
       ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '자신감을 잃은 선수는 소극적인 플레이에 빠지기 쉽다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
       "sourceGrammarIds": [
-        "n2-019"
+        "n2-019",
+        "n2-152",
+        "n2-153",
+        "n2-154"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-019-18",
+      "id": "so-created-n2-019-23",
       "level": "N2",
-      "sentence": "田中さんは留守がちだから、電話してもいないことが多い。",
-      "sentenceWithBlanks": "____ ____ ____ ____ だから、電話してもいないことが多い。",
-      "korean": "다나카 씨는 집을 자주 비워서 전화해도 없는 일이 많다.",
+      "sentence": "親しい相手への感謝は言葉にするのを忘れがちだ。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "가까운 사람에 대한 감사는 말로 표현하는 것을 잊기 쉽다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-019-18-p1",
-          "text": "守",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-019-18-p2",
-          "text": "がち",
+          "id": "so-created-n2-019-23-p2",
+          "text": "相手への感謝は",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-019-18-p3",
-          "text": "だ",
+          "id": "so-created-n2-019-23-p3",
+          "text": "言葉にするのを",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-019-18-p4",
-          "text": "から",
+          "id": "so-created-n2-019-23-p4",
+          "text": "忘れがちだ。",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-019-23-p1",
+          "text": "親しい",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-019-18-p1",
-        "so-extra20-n2-019-18-p2",
-        "so-extra20-n2-019-18-p3",
-        "so-extra20-n2-019-18-p4"
+        "so-created-n2-019-23-p1",
+        "so-created-n2-019-23-p2",
+        "so-created-n2-019-23-p3",
+        "so-created-n2-019-23-p4"
       ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '가까운 사람에 대한 감사는 말로 표현하는 것을 잊기 쉽다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
       "sourceGrammarIds": [
-        "n2-019"
+        "n2-019",
+        "n2-113",
+        "n2-114",
+        "n2-115"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-019-19",
+      "id": "so-created-n2-019-24",
       "level": "N2",
-      "sentence": "環境破壊の問題は自分の目に迫ってこないと、無関心になりがちである。",
-      "sentenceWithBlanks": "環境破壊の問題は自分の目に迫ってこないと、無関心になり ____ ____ ____ ____",
-      "korean": "환경 파괴 문제는 눈앞에 닥치지 않으면 무관심해지기 쉽다.",
+      "sentence": "日当たりの悪い庭は土が乾きにくく、根腐れしがちだ。",
+      "sentenceWithBlanks": "日当たりの ____ ____ ____ ____",
+      "korean": "햇볕이 잘 들지 않는 정원은 흙이 잘 마르지 않아 뿌리가 썩기 쉽다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-019-19-p4",
-          "text": "あ",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-019-19-p1",
-          "text": "る",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-019-19-p2",
-          "text": "がち",
+          "id": "so-created-n2-019-24-p1",
+          "text": "悪い庭は土が",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-019-19-p3",
-          "text": "で",
+          "id": "so-created-n2-019-24-p2",
+          "text": "乾きにくく、",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-019-24-p3",
+          "text": "根腐れし",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-019-24-p4",
+          "text": "がちだ。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-019-19-p2",
-        "so-extra20-n2-019-19-p3",
-        "so-extra20-n2-019-19-p4",
-        "so-extra20-n2-019-19-p1"
+        "so-created-n2-019-24-p1",
+        "so-created-n2-019-24-p2",
+        "so-created-n2-019-24-p3",
+        "so-created-n2-019-24-p4"
       ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '햇볕이 잘 들지 않는 정원은 흙이 잘 마르지 않아 뿌리가 썩기 쉽다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
       "sourceGrammarIds": [
-        "n2-019"
+        "n2-019",
+        "n2-152",
+        "n2-153",
+        "n2-154"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-019-20",
+      "id": "so-created-n2-019-25",
       "level": "N2",
-      "sentence": "田中さんは留守がちだから、電話してもいないことが多い。",
-      "sentenceWithBlanks": "田中さんは留守 ____ ____ ____ ____",
-      "korean": "다나카 씨는 집을 자주 비워서 전화해도 없는 일이 많다.",
+      "sentence": "過去の成功にこだわる経営者は、市場の変化への対応が遅れがちだ。",
+      "sentenceWithBlanks": "過去の成功にこだわる ____ ____ ____ ____",
+      "korean": "과거의 성공에 집착하는 경영자는 시장 변화에 대한 대응이 늦어지기 쉽다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-019-20-p3",
-          "text": "がち",
+          "id": "so-created-n2-019-25-p4",
+          "text": "がちだ。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-019-25-p1",
+          "text": "経営者は、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-019-20-p4",
-          "text": "だ",
+          "id": "so-created-n2-019-25-p2",
+          "text": "市場の変化への",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-019-20-p1",
-          "text": "から",
+          "id": "so-created-n2-019-25-p3",
+          "text": "対応が遅れ",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-019-20-p2",
-          "text": "電話してもいないことが多い",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-019-20-p3",
-        "so-extra20-n2-019-20-p4",
-        "so-extra20-n2-019-20-p1",
-        "so-extra20-n2-019-20-p2"
+        "so-created-n2-019-25-p1",
+        "so-created-n2-019-25-p2",
+        "so-created-n2-019-25-p3",
+        "so-created-n2-019-25-p4"
       ],
-      "explanation": "「がち」는 자주 ~하다, ~하기 쉽다라는 뜻이다. 좋지 않은 경향이 자주 나타남.",
+      "explanation": "「がち」는 '자주 ~하다, ~하기 쉽다'라는 뜻을 나타낸다. 이 문장에서는 '과거의 성공에 집착하는 경영자는 시장 변화에 대한 대응이 늦어지기 쉽다.'라는 상황에 쓰였으며, 좋지 않은 경향이 자주 나타남. 주의할 점은 がち는 나쁜 경향, やすい는 중립적 경향. 「病気がち」는 O, 「成功がち」는 X.",
       "sourceGrammarIds": [
-        "n2-019"
+        "n2-019",
+        "n2-113",
+        "n2-114",
+        "n2-115"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     }
   ]

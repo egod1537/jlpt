@@ -267,15 +267,23 @@
       ]
     },
     {
-      "id": "fb-extra-n2-102-1",
+      "id": "fb-created-n2-102-01",
       "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlank": "彼は学生（　　　）、会社を経営している。",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
-      "answerChoiceId": "fb-extra-n2-102-1-c",
+      "sentence": "祖父は高齢ながら、毎朝五キロの道を歩いている。",
+      "sentenceWithBlank": "祖父は高齢（　　　）、毎朝五キロの道を歩いている。",
+      "korean": "할아버지는 고령인데도 매일 아침 5킬로미터 길을 걷고 있다.",
+      "answerChoiceId": "fb-created-n2-102-01-c",
       "choices": [
         {
-          "id": "fb-extra-n2-102-1-d",
+          "id": "fb-created-n2-102-01-c",
+          "text": "ながら",
+          "grammarId": "n2-102",
+          "baseExpression": "ながら",
+          "conjugatedExpression": "ながら",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-102-01-d",
           "text": "た上で",
           "grammarId": "n2-005",
           "baseExpression": "た上で",
@@ -283,7 +291,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-102-1-a",
+          "id": "fb-created-n2-102-01-a",
           "text": "上で",
           "grammarId": "n2-006",
           "baseExpression": "上で",
@@ -291,23 +299,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-102-1-b",
+          "id": "fb-created-n2-102-01-b",
           "text": "する上は",
           "grammarId": "n2-007",
           "baseExpression": "上は",
           "conjugatedExpression": "する上は",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-102-1-c",
-          "text": "ながら",
-          "grammarId": "n2-102",
-          "baseExpression": "ながら",
-          "conjugatedExpression": "ながら",
-          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '할아버지는 고령인데도 매일 아침 5킬로미터 길을 걷고 있다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
       "sourceGrammarIds": [
         "n2-102",
         "n2-005",
@@ -315,237 +315,20 @@
         "n2-007"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra-n2-102-2",
+      "id": "fb-created-n2-102-02",
       "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlank": "彼は学生（　　　）、会社を経営している。",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
-      "answerChoiceId": "fb-extra-n2-102-2-b",
+      "sentence": "この時計は小型ながら、海中でも正確に動く。",
+      "sentenceWithBlank": "この時計は小型（　　　）、海中でも正確に動く。",
+      "korean": "이 시계는 소형이지만 물속에서도 정확하게 작동한다.",
+      "answerChoiceId": "fb-created-n2-102-02-c",
       "choices": [
         {
-          "id": "fb-extra-n2-102-2-a",
-          "text": "に沿って",
-          "grammarId": "n2-125",
-          "baseExpression": "に沿って",
-          "conjugatedExpression": "に沿って",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-102-2-b",
-          "text": "ながら",
-          "grammarId": "n2-102",
-          "baseExpression": "ながら",
-          "conjugatedExpression": "ながら",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-102-2-c",
-          "text": "にすぎない",
-          "grammarId": "n2-123",
-          "baseExpression": "にすぎない",
-          "conjugatedExpression": "にすぎない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-102-2-d",
-          "text": "に相違ない",
-          "grammarId": "n2-124",
-          "baseExpression": "に相違ない",
-          "conjugatedExpression": "に相違ない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
-      "sourceGrammarIds": [
-        "n2-102",
-        "n2-123",
-        "n2-124",
-        "n2-125"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-102-3",
-      "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlank": "彼は学生（　　　）、会社を経営している。",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
-      "answerChoiceId": "fb-extra-n2-102-3-a",
-      "choices": [
-        {
-          "id": "fb-extra-n2-102-3-b",
-          "text": "っこない",
-          "grammarId": "n2-063",
-          "baseExpression": "っこない",
-          "conjugatedExpression": "っこない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-102-3-c",
-          "text": "つつ",
-          "grammarId": "n2-064",
-          "baseExpression": "つつ",
-          "conjugatedExpression": "つつ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-102-3-d",
-          "text": "つつ",
-          "grammarId": "n2-065",
-          "baseExpression": "つつ",
-          "conjugatedExpression": "つつ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-102-3-a",
-          "text": "ながら",
-          "grammarId": "n2-102",
-          "baseExpression": "ながら",
-          "conjugatedExpression": "ながら",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
-      "sourceGrammarIds": [
-        "n2-102",
-        "n2-063",
-        "n2-064",
-        "n2-065"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-102-4",
-      "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlank": "彼は学生（　　　）、会社を経営している。",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
-      "answerChoiceId": "fb-extra-n2-102-4-d",
-      "choices": [
-        {
-          "id": "fb-extra-n2-102-4-c",
-          "text": "つつある",
-          "grammarId": "n2-066",
-          "baseExpression": "つつある",
-          "conjugatedExpression": "つつある",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-102-4-d",
-          "text": "ながら",
-          "grammarId": "n2-102",
-          "baseExpression": "ながら",
-          "conjugatedExpression": "ながら",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-102-4-a",
-          "text": "つつ",
-          "grammarId": "n2-064",
-          "baseExpression": "つつ",
-          "conjugatedExpression": "つつ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-102-4-b",
-          "text": "つつ",
-          "grammarId": "n2-065",
-          "baseExpression": "つつ",
-          "conjugatedExpression": "つつ",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
-      "sourceGrammarIds": [
-        "n2-102",
-        "n2-064",
-        "n2-065",
-        "n2-066"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-102-5",
-      "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlank": "彼は学生（　　　）、会社を経営している。",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
-      "answerChoiceId": "fb-extra-n2-102-5-c",
-      "choices": [
-        {
-          "id": "fb-extra-n2-102-5-d",
-          "text": "ようとしている",
-          "grammarId": "n2-166",
-          "baseExpression": "ようとしている",
-          "conjugatedExpression": "ようとしている",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-102-5-a",
-          "text": "ようものなら",
-          "grammarId": "n2-167",
-          "baseExpression": "ようものなら",
-          "conjugatedExpression": "ようものなら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-102-5-b",
-          "text": "わけがない",
-          "grammarId": "n2-168",
-          "baseExpression": "わけがない",
-          "conjugatedExpression": "わけがない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-102-5-c",
-          "text": "ながら",
-          "grammarId": "n2-102",
-          "baseExpression": "ながら",
-          "conjugatedExpression": "ながら",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
-      "sourceGrammarIds": [
-        "n2-102",
-        "n2-166",
-        "n2-167",
-        "n2-168"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-102-01",
-      "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlank": "彼は学生（　　　）、会社を経営している。",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
-      "answerChoiceId": "fb-extra20-n2-102-01-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-102-01-d",
+          "id": "fb-created-n2-102-02-d",
           "text": "た上で",
           "grammarId": "n2-005",
           "baseExpression": "た上で",
@@ -553,7 +336,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-102-01-a",
+          "id": "fb-created-n2-102-02-a",
           "text": "上で",
           "grammarId": "n2-006",
           "baseExpression": "上で",
@@ -561,7 +344,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-102-01-b",
+          "id": "fb-created-n2-102-02-b",
           "text": "する上は",
           "grammarId": "n2-007",
           "baseExpression": "上は",
@@ -569,7 +352,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-102-01-c",
+          "id": "fb-created-n2-102-02-c",
           "text": "ながら",
           "grammarId": "n2-102",
           "baseExpression": "ながら",
@@ -577,7 +360,7 @@
           "isSimilarDistractor": false
         }
       ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '이 시계는 소형이지만 물속에서도 정확하게 작동한다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
       "sourceGrammarIds": [
         "n2-102",
         "n2-005",
@@ -585,253 +368,20 @@
         "n2-007"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-102-02",
+      "id": "fb-created-n2-102-03",
       "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlank": "彼は学生（　　　）、会社を経営している。",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
-      "answerChoiceId": "fb-extra20-n2-102-02-b",
+      "sentence": "彼女は新人ながら、重要な交渉を任された。",
+      "sentenceWithBlank": "彼女は新人（　　　）、重要な交渉を任された。",
+      "korean": "그녀는 신입인데도 중요한 협상을 맡게 되었다.",
+      "answerChoiceId": "fb-created-n2-102-03-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-102-02-c",
-          "text": "にすぎない",
-          "grammarId": "n2-123",
-          "baseExpression": "にすぎない",
-          "conjugatedExpression": "にすぎない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-102-02-d",
-          "text": "に相違ない",
-          "grammarId": "n2-124",
-          "baseExpression": "に相違ない",
-          "conjugatedExpression": "に相違ない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-102-02-a",
-          "text": "に沿って",
-          "grammarId": "n2-125",
-          "baseExpression": "に沿って",
-          "conjugatedExpression": "に沿って",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-102-02-b",
-          "text": "ながら",
-          "grammarId": "n2-102",
-          "baseExpression": "ながら",
-          "conjugatedExpression": "ながら",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
-      "sourceGrammarIds": [
-        "n2-102",
-        "n2-123",
-        "n2-124",
-        "n2-125"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-102-03",
-      "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlank": "彼は学生（　　　）、会社を経営している。",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
-      "answerChoiceId": "fb-extra20-n2-102-03-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-102-03-b",
-          "text": "っこない",
-          "grammarId": "n2-063",
-          "baseExpression": "っこない",
-          "conjugatedExpression": "っこない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-102-03-c",
-          "text": "つつ",
-          "grammarId": "n2-064",
-          "baseExpression": "つつ",
-          "conjugatedExpression": "つつ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-102-03-d",
-          "text": "つつ",
-          "grammarId": "n2-065",
-          "baseExpression": "つつ",
-          "conjugatedExpression": "つつ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-102-03-a",
-          "text": "ながら",
-          "grammarId": "n2-102",
-          "baseExpression": "ながら",
-          "conjugatedExpression": "ながら",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
-      "sourceGrammarIds": [
-        "n2-102",
-        "n2-063",
-        "n2-064",
-        "n2-065"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-102-04",
-      "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlank": "彼は学生（　　　）、会社を経営している。",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
-      "answerChoiceId": "fb-extra20-n2-102-04-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-102-04-a",
-          "text": "つつ",
-          "grammarId": "n2-064",
-          "baseExpression": "つつ",
-          "conjugatedExpression": "つつ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-102-04-b",
-          "text": "つつ",
-          "grammarId": "n2-065",
-          "baseExpression": "つつ",
-          "conjugatedExpression": "つつ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-102-04-c",
-          "text": "つつある",
-          "grammarId": "n2-066",
-          "baseExpression": "つつある",
-          "conjugatedExpression": "つつある",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-102-04-d",
-          "text": "ながら",
-          "grammarId": "n2-102",
-          "baseExpression": "ながら",
-          "conjugatedExpression": "ながら",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
-      "sourceGrammarIds": [
-        "n2-102",
-        "n2-064",
-        "n2-065",
-        "n2-066"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-102-05",
-      "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlank": "彼は学生（　　　）、会社を経営している。",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
-      "answerChoiceId": "fb-extra20-n2-102-05-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-102-05-d",
-          "text": "ようとしている",
-          "grammarId": "n2-166",
-          "baseExpression": "ようとしている",
-          "conjugatedExpression": "ようとしている",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-102-05-a",
-          "text": "ようものなら",
-          "grammarId": "n2-167",
-          "baseExpression": "ようものなら",
-          "conjugatedExpression": "ようものなら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-102-05-b",
-          "text": "わけがない",
-          "grammarId": "n2-168",
-          "baseExpression": "わけがない",
-          "conjugatedExpression": "わけがない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-102-05-c",
-          "text": "ながら",
-          "grammarId": "n2-102",
-          "baseExpression": "ながら",
-          "conjugatedExpression": "ながら",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
-      "sourceGrammarIds": [
-        "n2-102",
-        "n2-166",
-        "n2-167",
-        "n2-168"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-102-06",
-      "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlank": "彼は学生（　　　）、会社を経営している。",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
-      "answerChoiceId": "fb-extra20-n2-102-06-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-102-06-c",
-          "text": "ながら",
-          "grammarId": "n2-102",
-          "baseExpression": "ながら",
-          "conjugatedExpression": "ながら",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-102-06-d",
-          "text": "た上で",
-          "grammarId": "n2-005",
-          "baseExpression": "た上で",
-          "conjugatedExpression": "た上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-102-06-a",
+          "id": "fb-created-n2-102-03-a",
           "text": "上で",
           "grammarId": "n2-006",
           "baseExpression": "上で",
@@ -839,253 +389,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-102-06-b",
-          "text": "する上は",
-          "grammarId": "n2-007",
-          "baseExpression": "上は",
-          "conjugatedExpression": "する上は",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
-      "sourceGrammarIds": [
-        "n2-102",
-        "n2-005",
-        "n2-006",
-        "n2-007"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-102-07",
-      "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlank": "彼は学生（　　　）、会社を経営している。",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
-      "answerChoiceId": "fb-extra20-n2-102-07-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-102-07-b",
-          "text": "ながら",
-          "grammarId": "n2-102",
-          "baseExpression": "ながら",
-          "conjugatedExpression": "ながら",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-102-07-c",
-          "text": "にすぎない",
-          "grammarId": "n2-123",
-          "baseExpression": "にすぎない",
-          "conjugatedExpression": "にすぎない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-102-07-d",
-          "text": "に相違ない",
-          "grammarId": "n2-124",
-          "baseExpression": "に相違ない",
-          "conjugatedExpression": "に相違ない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-102-07-a",
-          "text": "に沿って",
-          "grammarId": "n2-125",
-          "baseExpression": "に沿って",
-          "conjugatedExpression": "に沿って",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
-      "sourceGrammarIds": [
-        "n2-102",
-        "n2-123",
-        "n2-124",
-        "n2-125"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-102-08",
-      "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlank": "彼は学生（　　　）、会社を経営している。",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
-      "answerChoiceId": "fb-extra20-n2-102-08-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-102-08-a",
-          "text": "ながら",
-          "grammarId": "n2-102",
-          "baseExpression": "ながら",
-          "conjugatedExpression": "ながら",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-102-08-b",
-          "text": "っこない",
-          "grammarId": "n2-063",
-          "baseExpression": "っこない",
-          "conjugatedExpression": "っこない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-102-08-c",
-          "text": "つつ",
-          "grammarId": "n2-064",
-          "baseExpression": "つつ",
-          "conjugatedExpression": "つつ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-102-08-d",
-          "text": "つつ",
-          "grammarId": "n2-065",
-          "baseExpression": "つつ",
-          "conjugatedExpression": "つつ",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
-      "sourceGrammarIds": [
-        "n2-102",
-        "n2-063",
-        "n2-064",
-        "n2-065"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-102-09",
-      "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlank": "彼は学生（　　　）、会社を経営している。",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
-      "answerChoiceId": "fb-extra20-n2-102-09-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-102-09-d",
-          "text": "ながら",
-          "grammarId": "n2-102",
-          "baseExpression": "ながら",
-          "conjugatedExpression": "ながら",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-102-09-a",
-          "text": "つつ",
-          "grammarId": "n2-064",
-          "baseExpression": "つつ",
-          "conjugatedExpression": "つつ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-102-09-b",
-          "text": "つつ",
-          "grammarId": "n2-065",
-          "baseExpression": "つつ",
-          "conjugatedExpression": "つつ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-102-09-c",
-          "text": "つつある",
-          "grammarId": "n2-066",
-          "baseExpression": "つつある",
-          "conjugatedExpression": "つつある",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
-      "sourceGrammarIds": [
-        "n2-102",
-        "n2-064",
-        "n2-065",
-        "n2-066"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-102-10",
-      "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlank": "彼は学生（　　　）、会社を経営している。",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
-      "answerChoiceId": "fb-extra20-n2-102-10-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-102-10-c",
-          "text": "ながら",
-          "grammarId": "n2-102",
-          "baseExpression": "ながら",
-          "conjugatedExpression": "ながら",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-102-10-d",
-          "text": "ようとしている",
-          "grammarId": "n2-166",
-          "baseExpression": "ようとしている",
-          "conjugatedExpression": "ようとしている",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-102-10-a",
-          "text": "ようものなら",
-          "grammarId": "n2-167",
-          "baseExpression": "ようものなら",
-          "conjugatedExpression": "ようものなら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-102-10-b",
-          "text": "わけがない",
-          "grammarId": "n2-168",
-          "baseExpression": "わけがない",
-          "conjugatedExpression": "わけがない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
-      "sourceGrammarIds": [
-        "n2-102",
-        "n2-166",
-        "n2-167",
-        "n2-168"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-102-11",
-      "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlank": "彼は学生（　　　）、会社を経営している。",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
-      "answerChoiceId": "fb-extra20-n2-102-11-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-102-11-b",
+          "id": "fb-created-n2-102-03-b",
           "text": "する上は",
           "grammarId": "n2-007",
           "baseExpression": "上は",
@@ -1093,7 +397,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-102-11-c",
+          "id": "fb-created-n2-102-03-c",
           "text": "ながら",
           "grammarId": "n2-102",
           "baseExpression": "ながら",
@@ -1101,285 +405,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-102-11-d",
-          "text": "た上で",
-          "grammarId": "n2-005",
-          "baseExpression": "た上で",
-          "conjugatedExpression": "た上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-102-11-a",
-          "text": "上で",
-          "grammarId": "n2-006",
-          "baseExpression": "上で",
-          "conjugatedExpression": "上で",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
-      "sourceGrammarIds": [
-        "n2-102",
-        "n2-005",
-        "n2-006",
-        "n2-007"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-102-12",
-      "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlank": "彼は学生（　　　）、会社を経営している。",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
-      "answerChoiceId": "fb-extra20-n2-102-12-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-102-12-a",
-          "text": "に沿って",
-          "grammarId": "n2-125",
-          "baseExpression": "に沿って",
-          "conjugatedExpression": "に沿って",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-102-12-b",
-          "text": "ながら",
-          "grammarId": "n2-102",
-          "baseExpression": "ながら",
-          "conjugatedExpression": "ながら",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-102-12-c",
-          "text": "にすぎない",
-          "grammarId": "n2-123",
-          "baseExpression": "にすぎない",
-          "conjugatedExpression": "にすぎない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-102-12-d",
-          "text": "に相違ない",
-          "grammarId": "n2-124",
-          "baseExpression": "に相違ない",
-          "conjugatedExpression": "に相違ない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
-      "sourceGrammarIds": [
-        "n2-102",
-        "n2-123",
-        "n2-124",
-        "n2-125"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-102-13",
-      "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlank": "彼は学生（　　　）、会社を経営している。",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
-      "answerChoiceId": "fb-extra20-n2-102-13-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-102-13-d",
-          "text": "つつ",
-          "grammarId": "n2-065",
-          "baseExpression": "つつ",
-          "conjugatedExpression": "つつ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-102-13-a",
-          "text": "ながら",
-          "grammarId": "n2-102",
-          "baseExpression": "ながら",
-          "conjugatedExpression": "ながら",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-102-13-b",
-          "text": "っこない",
-          "grammarId": "n2-063",
-          "baseExpression": "っこない",
-          "conjugatedExpression": "っこない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-102-13-c",
-          "text": "つつ",
-          "grammarId": "n2-064",
-          "baseExpression": "つつ",
-          "conjugatedExpression": "つつ",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
-      "sourceGrammarIds": [
-        "n2-102",
-        "n2-063",
-        "n2-064",
-        "n2-065"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-102-14",
-      "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlank": "彼は学生（　　　）、会社を経営している。",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
-      "answerChoiceId": "fb-extra20-n2-102-14-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-102-14-c",
-          "text": "つつある",
-          "grammarId": "n2-066",
-          "baseExpression": "つつある",
-          "conjugatedExpression": "つつある",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-102-14-d",
-          "text": "ながら",
-          "grammarId": "n2-102",
-          "baseExpression": "ながら",
-          "conjugatedExpression": "ながら",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-102-14-a",
-          "text": "つつ",
-          "grammarId": "n2-064",
-          "baseExpression": "つつ",
-          "conjugatedExpression": "つつ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-102-14-b",
-          "text": "つつ",
-          "grammarId": "n2-065",
-          "baseExpression": "つつ",
-          "conjugatedExpression": "つつ",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
-      "sourceGrammarIds": [
-        "n2-102",
-        "n2-064",
-        "n2-065",
-        "n2-066"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-102-15",
-      "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlank": "彼は学生（　　　）、会社を経営している。",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
-      "answerChoiceId": "fb-extra20-n2-102-15-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-102-15-b",
-          "text": "わけがない",
-          "grammarId": "n2-168",
-          "baseExpression": "わけがない",
-          "conjugatedExpression": "わけがない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-102-15-c",
-          "text": "ながら",
-          "grammarId": "n2-102",
-          "baseExpression": "ながら",
-          "conjugatedExpression": "ながら",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-102-15-d",
-          "text": "ようとしている",
-          "grammarId": "n2-166",
-          "baseExpression": "ようとしている",
-          "conjugatedExpression": "ようとしている",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-102-15-a",
-          "text": "ようものなら",
-          "grammarId": "n2-167",
-          "baseExpression": "ようものなら",
-          "conjugatedExpression": "ようものなら",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
-      "sourceGrammarIds": [
-        "n2-102",
-        "n2-166",
-        "n2-167",
-        "n2-168"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-102-16",
-      "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlank": "彼は学生（　　　）、会社を経営している。",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
-      "answerChoiceId": "fb-extra20-n2-102-16-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-102-16-a",
-          "text": "上で",
-          "grammarId": "n2-006",
-          "baseExpression": "上で",
-          "conjugatedExpression": "上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-102-16-b",
-          "text": "する上は",
-          "grammarId": "n2-007",
-          "baseExpression": "上は",
-          "conjugatedExpression": "する上は",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-102-16-c",
-          "text": "ながら",
-          "grammarId": "n2-102",
-          "baseExpression": "ながら",
-          "conjugatedExpression": "ながら",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-102-16-d",
+          "id": "fb-created-n2-102-03-d",
           "text": "た上で",
           "grammarId": "n2-005",
           "baseExpression": "た上で",
@@ -1387,7 +413,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '그녀는 신입인데도 중요한 협상을 맡게 되었다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
       "sourceGrammarIds": [
         "n2-102",
         "n2-005",
@@ -1395,37 +421,28 @@
         "n2-007"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-102-17",
+      "id": "fb-created-n2-102-04",
       "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlank": "彼は学生（　　　）、会社を経営している。",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
-      "answerChoiceId": "fb-extra20-n2-102-17-b",
+      "sentence": "その旅館は古いながら、隅々まで清潔に保たれている。",
+      "sentenceWithBlank": "その旅館は古い（　　　）、隅々まで清潔に保たれている。",
+      "korean": "그 여관은 오래되었지만 구석구석 청결하게 유지되고 있다.",
+      "answerChoiceId": "fb-created-n2-102-04-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-102-17-d",
-          "text": "に相違ない",
-          "grammarId": "n2-124",
-          "baseExpression": "に相違ない",
-          "conjugatedExpression": "に相違ない",
+          "id": "fb-created-n2-102-04-b",
+          "text": "する上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "する上は",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-102-17-a",
-          "text": "に沿って",
-          "grammarId": "n2-125",
-          "baseExpression": "に沿って",
-          "conjugatedExpression": "に沿って",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-102-17-b",
+          "id": "fb-created-n2-102-04-c",
           "text": "ながら",
           "grammarId": "n2-102",
           "baseExpression": "ながら",
@@ -1433,53 +450,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-102-17-c",
-          "text": "にすぎない",
-          "grammarId": "n2-123",
-          "baseExpression": "にすぎない",
-          "conjugatedExpression": "にすぎない",
+          "id": "fb-created-n2-102-04-d",
+          "text": "た上で",
+          "grammarId": "n2-005",
+          "baseExpression": "た上で",
+          "conjugatedExpression": "た上で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-102-04-a",
+          "text": "上で",
+          "grammarId": "n2-006",
+          "baseExpression": "上で",
+          "conjugatedExpression": "上で",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '그 여관은 오래되었지만 구석구석 청결하게 유지되고 있다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
       "sourceGrammarIds": [
         "n2-102",
-        "n2-123",
-        "n2-124",
-        "n2-125"
+        "n2-005",
+        "n2-006",
+        "n2-007"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-102-18",
+      "id": "fb-created-n2-102-05",
       "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlank": "彼は学生（　　　）、会社を経営している。",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
-      "answerChoiceId": "fb-extra20-n2-102-18-a",
+      "sentence": "弟は事情を知りながら、両親には何も伝えなかった。",
+      "sentenceWithBlank": "弟は事情を知り（　　　）、両親には何も伝えなかった。",
+      "korean": "남동생은 사정을 알면서도 부모님께 아무것도 알리지 않았다.",
+      "answerChoiceId": "fb-created-n2-102-05-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-102-18-c",
-          "text": "つつ",
-          "grammarId": "n2-064",
-          "baseExpression": "つつ",
-          "conjugatedExpression": "つつ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-102-18-d",
-          "text": "つつ",
-          "grammarId": "n2-065",
-          "baseExpression": "つつ",
-          "conjugatedExpression": "つつ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-102-18-a",
+          "id": "fb-created-n2-102-05-c",
           "text": "ながら",
           "grammarId": "n2-102",
           "baseExpression": "ながら",
@@ -1487,53 +495,121 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-102-18-b",
-          "text": "っこない",
-          "grammarId": "n2-063",
-          "baseExpression": "っこない",
-          "conjugatedExpression": "っこない",
+          "id": "fb-created-n2-102-05-d",
+          "text": "た上で",
+          "grammarId": "n2-005",
+          "baseExpression": "た上で",
+          "conjugatedExpression": "た上で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-102-05-a",
+          "text": "上で",
+          "grammarId": "n2-006",
+          "baseExpression": "上で",
+          "conjugatedExpression": "上で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-102-05-b",
+          "text": "する上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "する上は",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '남동생은 사정을 알면서도 부모님께 아무것도 알리지 않았다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
       "sourceGrammarIds": [
         "n2-102",
-        "n2-063",
-        "n2-064",
-        "n2-065"
+        "n2-005",
+        "n2-006",
+        "n2-007"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-102-19",
+      "id": "fb-created-n2-102-06",
       "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlank": "彼は学生（　　　）、会社を経営している。",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
-      "answerChoiceId": "fb-extra20-n2-102-19-d",
+      "sentence": "残念ながら、今夜の便はすべて欠航となった。",
+      "sentenceWithBlank": "残念（　　　）、今夜の便はすべて欠航となった。",
+      "korean": "유감스럽지만 오늘 밤 항공편은 모두 결항되었다.",
+      "answerChoiceId": "fb-created-n2-102-06-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-102-19-b",
-          "text": "つつ",
-          "grammarId": "n2-065",
-          "baseExpression": "つつ",
-          "conjugatedExpression": "つつ",
+          "id": "fb-created-n2-102-06-d",
+          "text": "た上で",
+          "grammarId": "n2-005",
+          "baseExpression": "た上で",
+          "conjugatedExpression": "た上で",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-102-19-c",
-          "text": "つつある",
-          "grammarId": "n2-066",
-          "baseExpression": "つつある",
-          "conjugatedExpression": "つつある",
+          "id": "fb-created-n2-102-06-a",
+          "text": "上で",
+          "grammarId": "n2-006",
+          "baseExpression": "上で",
+          "conjugatedExpression": "上で",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-102-19-d",
+          "id": "fb-created-n2-102-06-b",
+          "text": "する上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "する上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-102-06-c",
+          "text": "ながら",
+          "grammarId": "n2-102",
+          "baseExpression": "ながら",
+          "conjugatedExpression": "ながら",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '유감스럽지만 오늘 밤 항공편은 모두 결항되었다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
+      "sourceGrammarIds": [
+        "n2-102",
+        "n2-005",
+        "n2-006",
+        "n2-007"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-102-07",
+      "level": "N2",
+      "sentence": "彼は医師でありながら、自分の体調には無頓着だ。",
+      "sentenceWithBlank": "彼は医師であり（　　　）、自分の体調には無頓着だ。",
+      "korean": "그는 의사이면서도 자신의 건강 상태에는 무관심하다.",
+      "answerChoiceId": "fb-created-n2-102-07-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-102-07-a",
+          "text": "上で",
+          "grammarId": "n2-006",
+          "baseExpression": "上で",
+          "conjugatedExpression": "上で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-102-07-b",
+          "text": "する上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "する上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-102-07-c",
           "text": "ながら",
           "grammarId": "n2-102",
           "baseExpression": "ながら",
@@ -1541,53 +617,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-102-19-a",
-          "text": "つつ",
-          "grammarId": "n2-064",
-          "baseExpression": "つつ",
-          "conjugatedExpression": "つつ",
+          "id": "fb-created-n2-102-07-d",
+          "text": "た上で",
+          "grammarId": "n2-005",
+          "baseExpression": "た上で",
+          "conjugatedExpression": "た上で",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '그는 의사이면서도 자신의 건강 상태에는 무관심하다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
       "sourceGrammarIds": [
         "n2-102",
-        "n2-064",
-        "n2-065",
-        "n2-066"
+        "n2-005",
+        "n2-006",
+        "n2-007"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-102-20",
+      "id": "fb-created-n2-102-08",
       "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlank": "彼は学生（　　　）、会社を経営している。",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
-      "answerChoiceId": "fb-extra20-n2-102-20-c",
+      "sentence": "狭いながら、この台所には十分な収納がある。",
+      "sentenceWithBlank": "狭い（　　　）、この台所には十分な収納がある。",
+      "korean": "좁기는 하지만 이 주방에는 충분한 수납공간이 있다.",
+      "answerChoiceId": "fb-created-n2-102-08-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-102-20-a",
-          "text": "ようものなら",
-          "grammarId": "n2-167",
-          "baseExpression": "ようものなら",
-          "conjugatedExpression": "ようものなら",
+          "id": "fb-created-n2-102-08-b",
+          "text": "する上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "する上は",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-102-20-b",
-          "text": "わけがない",
-          "grammarId": "n2-168",
-          "baseExpression": "わけがない",
-          "conjugatedExpression": "わけがない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-102-20-c",
+          "id": "fb-created-n2-102-08-c",
           "text": "ながら",
           "grammarId": "n2-102",
           "baseExpression": "ながら",
@@ -1595,25 +662,933 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-102-20-d",
-          "text": "ようとしている",
-          "grammarId": "n2-166",
-          "baseExpression": "ようとしている",
-          "conjugatedExpression": "ようとしている",
+          "id": "fb-created-n2-102-08-d",
+          "text": "た上で",
+          "grammarId": "n2-005",
+          "baseExpression": "た上で",
+          "conjugatedExpression": "た上で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-102-08-a",
+          "text": "上で",
+          "grammarId": "n2-006",
+          "baseExpression": "上で",
+          "conjugatedExpression": "上で",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '좁기는 하지만 이 주방에는 충분한 수납공간이 있다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
       "sourceGrammarIds": [
         "n2-102",
-        "n2-166",
-        "n2-167",
-        "n2-168"
+        "n2-005",
+        "n2-006",
+        "n2-007"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-102-09",
+      "level": "N2",
+      "sentence": "犯人は謝罪しながら、被害者への補償を拒み続けた。",
+      "sentenceWithBlank": "犯人は謝罪し（　　　）、被害者への補償を拒み続けた。",
+      "korean": "범인은 사과하면서도 피해자에 대한 보상을 계속 거부했다.",
+      "answerChoiceId": "fb-created-n2-102-09-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-102-09-c",
+          "text": "ながら",
+          "grammarId": "n2-102",
+          "baseExpression": "ながら",
+          "conjugatedExpression": "ながら",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-102-09-d",
+          "text": "た上で",
+          "grammarId": "n2-005",
+          "baseExpression": "た上で",
+          "conjugatedExpression": "た上で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-102-09-a",
+          "text": "上で",
+          "grammarId": "n2-006",
+          "baseExpression": "上で",
+          "conjugatedExpression": "上で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-102-09-b",
+          "text": "する上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "する上は",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '범인은 사과하면서도 피해자에 대한 보상을 계속 거부했다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
+      "sourceGrammarIds": [
+        "n2-102",
+        "n2-005",
+        "n2-006",
+        "n2-007"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-102-10",
+      "level": "N2",
+      "sentence": "この町は不便ながら、豊かな自然に恵まれている。",
+      "sentenceWithBlank": "この町は不便（　　　）、豊かな自然に恵まれている。",
+      "korean": "이 마을은 불편하지만 풍부한 자연환경을 누리고 있다.",
+      "answerChoiceId": "fb-created-n2-102-10-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-102-10-d",
+          "text": "た上で",
+          "grammarId": "n2-005",
+          "baseExpression": "た上で",
+          "conjugatedExpression": "た上で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-102-10-a",
+          "text": "上で",
+          "grammarId": "n2-006",
+          "baseExpression": "上で",
+          "conjugatedExpression": "上で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-102-10-b",
+          "text": "する上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "する上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-102-10-c",
+          "text": "ながら",
+          "grammarId": "n2-102",
+          "baseExpression": "ながら",
+          "conjugatedExpression": "ながら",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '이 마을은 불편하지만 풍부한 자연환경을 누리고 있다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
+      "sourceGrammarIds": [
+        "n2-102",
+        "n2-005",
+        "n2-006",
+        "n2-007"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-102-11",
+      "level": "N2",
+      "sentence": "彼女は細身ながら、重い荷物を軽々と持ち上げた。",
+      "sentenceWithBlank": "彼女は細身（　　　）、重い荷物を軽々と持ち上げた。",
+      "korean": "그녀는 날씬한 체격인데도 무거운 짐을 가볍게 들어 올렸다.",
+      "answerChoiceId": "fb-created-n2-102-11-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-102-11-a",
+          "text": "上で",
+          "grammarId": "n2-006",
+          "baseExpression": "上で",
+          "conjugatedExpression": "上で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-102-11-b",
+          "text": "する上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "する上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-102-11-c",
+          "text": "ながら",
+          "grammarId": "n2-102",
+          "baseExpression": "ながら",
+          "conjugatedExpression": "ながら",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-102-11-d",
+          "text": "た上で",
+          "grammarId": "n2-005",
+          "baseExpression": "た上で",
+          "conjugatedExpression": "た上で",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '그녀는 날씬한 체격인데도 무거운 짐을 가볍게 들어 올렸다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
+      "sourceGrammarIds": [
+        "n2-102",
+        "n2-005",
+        "n2-006",
+        "n2-007"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-102-12",
+      "level": "N2",
+      "sentence": "政府は危険性を認めながら、具体的な対策を先延ばしにした。",
+      "sentenceWithBlank": "政府は危険性を認め（　　　）、具体的な対策を先延ばしにした。",
+      "korean": "정부는 위험성을 인정하면서도 구체적인 대책을 미뤘다.",
+      "answerChoiceId": "fb-created-n2-102-12-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-102-12-b",
+          "text": "する上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "する上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-102-12-c",
+          "text": "ながら",
+          "grammarId": "n2-102",
+          "baseExpression": "ながら",
+          "conjugatedExpression": "ながら",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-102-12-d",
+          "text": "た上で",
+          "grammarId": "n2-005",
+          "baseExpression": "た上で",
+          "conjugatedExpression": "た上で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-102-12-a",
+          "text": "上で",
+          "grammarId": "n2-006",
+          "baseExpression": "上で",
+          "conjugatedExpression": "上で",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '정부는 위험성을 인정하면서도 구체적인 대책을 미뤘다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
+      "sourceGrammarIds": [
+        "n2-102",
+        "n2-005",
+        "n2-006",
+        "n2-007"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-102-13",
+      "level": "N2",
+      "sentence": "あの食堂は駅から遠いながら、昼時には行列ができる。",
+      "sentenceWithBlank": "あの食堂は駅から遠い（　　　）、昼時には行列ができる。",
+      "korean": "저 식당은 역에서 멀지만 점심때면 줄이 생긴다.",
+      "answerChoiceId": "fb-created-n2-102-13-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-102-13-c",
+          "text": "ながら",
+          "grammarId": "n2-102",
+          "baseExpression": "ながら",
+          "conjugatedExpression": "ながら",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-102-13-d",
+          "text": "た上で",
+          "grammarId": "n2-005",
+          "baseExpression": "た上で",
+          "conjugatedExpression": "た上で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-102-13-a",
+          "text": "上で",
+          "grammarId": "n2-006",
+          "baseExpression": "上で",
+          "conjugatedExpression": "上で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-102-13-b",
+          "text": "する上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "する上は",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '저 식당은 역에서 멀지만 점심때면 줄이 생긴다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
+      "sourceGrammarIds": [
+        "n2-102",
+        "n2-005",
+        "n2-006",
+        "n2-007"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-102-14",
+      "level": "N2",
+      "sentence": "幼いながら、彼は家族を守ろうと必死だった。",
+      "sentenceWithBlank": "幼い（　　　）、彼は家族を守ろうと必死だった。",
+      "korean": "어리면서도 그는 가족을 지키려고 필사적이었다.",
+      "answerChoiceId": "fb-created-n2-102-14-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-102-14-d",
+          "text": "た上で",
+          "grammarId": "n2-005",
+          "baseExpression": "た上で",
+          "conjugatedExpression": "た上で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-102-14-a",
+          "text": "上で",
+          "grammarId": "n2-006",
+          "baseExpression": "上で",
+          "conjugatedExpression": "上で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-102-14-b",
+          "text": "する上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "する上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-102-14-c",
+          "text": "ながら",
+          "grammarId": "n2-102",
+          "baseExpression": "ながら",
+          "conjugatedExpression": "ながら",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '어리면서도 그는 가족을 지키려고 필사적이었다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
+      "sourceGrammarIds": [
+        "n2-102",
+        "n2-005",
+        "n2-006",
+        "n2-007"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-102-15",
+      "level": "N2",
+      "sentence": "市長は反対意見を聞きながら、当初の計画を押し通した。",
+      "sentenceWithBlank": "市長は反対意見を聞き（　　　）、当初の計画を押し通した。",
+      "korean": "시장은 반대 의견을 듣고도 당초 계획을 밀어붙였다.",
+      "answerChoiceId": "fb-created-n2-102-15-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-102-15-a",
+          "text": "上で",
+          "grammarId": "n2-006",
+          "baseExpression": "上で",
+          "conjugatedExpression": "上で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-102-15-b",
+          "text": "する上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "する上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-102-15-c",
+          "text": "ながら",
+          "grammarId": "n2-102",
+          "baseExpression": "ながら",
+          "conjugatedExpression": "ながら",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-102-15-d",
+          "text": "た上で",
+          "grammarId": "n2-005",
+          "baseExpression": "た上で",
+          "conjugatedExpression": "た上で",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '시장은 반대 의견을 듣고도 당초 계획을 밀어붙였다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
+      "sourceGrammarIds": [
+        "n2-102",
+        "n2-005",
+        "n2-006",
+        "n2-007"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-102-16",
+      "level": "N2",
+      "sentence": "この農園は小規模ながら、海外にも果物を輸出している。",
+      "sentenceWithBlank": "この農園は小規模（　　　）、海外にも果物を輸出している。",
+      "korean": "이 농장은 소규모이지만 해외에도 과일을 수출하고 있다.",
+      "answerChoiceId": "fb-created-n2-102-16-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-102-16-b",
+          "text": "する上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "する上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-102-16-c",
+          "text": "ながら",
+          "grammarId": "n2-102",
+          "baseExpression": "ながら",
+          "conjugatedExpression": "ながら",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-102-16-d",
+          "text": "た上で",
+          "grammarId": "n2-005",
+          "baseExpression": "た上で",
+          "conjugatedExpression": "た上で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-102-16-a",
+          "text": "上で",
+          "grammarId": "n2-006",
+          "baseExpression": "上で",
+          "conjugatedExpression": "上で",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '이 농장은 소규모이지만 해외에도 과일을 수출하고 있다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
+      "sourceGrammarIds": [
+        "n2-102",
+        "n2-005",
+        "n2-006",
+        "n2-007"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-102-17",
+      "level": "N2",
+      "sentence": "彼は無実を訴えながら、重要な証拠を隠していた。",
+      "sentenceWithBlank": "彼は無実を訴え（　　　）、重要な証拠を隠していた。",
+      "korean": "그는 결백을 주장하면서도 중요한 증거를 숨기고 있었다.",
+      "answerChoiceId": "fb-created-n2-102-17-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-102-17-c",
+          "text": "ながら",
+          "grammarId": "n2-102",
+          "baseExpression": "ながら",
+          "conjugatedExpression": "ながら",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-102-17-d",
+          "text": "た上で",
+          "grammarId": "n2-005",
+          "baseExpression": "た上で",
+          "conjugatedExpression": "た上で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-102-17-a",
+          "text": "上で",
+          "grammarId": "n2-006",
+          "baseExpression": "上で",
+          "conjugatedExpression": "上で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-102-17-b",
+          "text": "する上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "する上は",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '그는 결백을 주장하면서도 중요한 증거를 숨기고 있었다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
+      "sourceGrammarIds": [
+        "n2-102",
+        "n2-005",
+        "n2-006",
+        "n2-007"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-102-18",
+      "level": "N2",
+      "sentence": "その工場は設備が旧式ながら、高品質の部品を生産している。",
+      "sentenceWithBlank": "その工場は設備が旧式（　　　）、高品質の部品を生産している。",
+      "korean": "그 공장은 설비가 구식이지만 고품질 부품을 생산하고 있다.",
+      "answerChoiceId": "fb-created-n2-102-18-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-102-18-d",
+          "text": "た上で",
+          "grammarId": "n2-005",
+          "baseExpression": "た上で",
+          "conjugatedExpression": "た上で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-102-18-a",
+          "text": "上で",
+          "grammarId": "n2-006",
+          "baseExpression": "上で",
+          "conjugatedExpression": "上で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-102-18-b",
+          "text": "する上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "する上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-102-18-c",
+          "text": "ながら",
+          "grammarId": "n2-102",
+          "baseExpression": "ながら",
+          "conjugatedExpression": "ながら",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '그 공장은 설비가 구식이지만 고품질 부품을 생산하고 있다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
+      "sourceGrammarIds": [
+        "n2-102",
+        "n2-005",
+        "n2-006",
+        "n2-007"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-102-19",
+      "level": "N2",
+      "sentence": "警備員は異変に気づきながら、持ち場を離れなかった。",
+      "sentenceWithBlank": "警備員は異変に気づき（　　　）、持ち場を離れなかった。",
+      "korean": "경비원은 이상을 알아차리고도 자기 위치를 떠나지 않았다.",
+      "answerChoiceId": "fb-created-n2-102-19-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-102-19-a",
+          "text": "上で",
+          "grammarId": "n2-006",
+          "baseExpression": "上で",
+          "conjugatedExpression": "上で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-102-19-b",
+          "text": "する上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "する上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-102-19-c",
+          "text": "ながら",
+          "grammarId": "n2-102",
+          "baseExpression": "ながら",
+          "conjugatedExpression": "ながら",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-102-19-d",
+          "text": "た上で",
+          "grammarId": "n2-005",
+          "baseExpression": "た上で",
+          "conjugatedExpression": "た上で",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '경비원은 이상을 알아차리고도 자기 위치를 떠나지 않았다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
+      "sourceGrammarIds": [
+        "n2-102",
+        "n2-005",
+        "n2-006",
+        "n2-007"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-102-20",
+      "level": "N2",
+      "sentence": "彼の提案は大胆ながら、現場の制約も十分に考慮されている。",
+      "sentenceWithBlank": "彼の提案は大胆（　　　）、現場の制約も十分に考慮されている。",
+      "korean": "그의 제안은 대담하지만 현장의 제약도 충분히 고려되어 있다.",
+      "answerChoiceId": "fb-created-n2-102-20-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-102-20-b",
+          "text": "する上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "する上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-102-20-c",
+          "text": "ながら",
+          "grammarId": "n2-102",
+          "baseExpression": "ながら",
+          "conjugatedExpression": "ながら",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-102-20-d",
+          "text": "た上で",
+          "grammarId": "n2-005",
+          "baseExpression": "た上で",
+          "conjugatedExpression": "た上で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-102-20-a",
+          "text": "上で",
+          "grammarId": "n2-006",
+          "baseExpression": "上で",
+          "conjugatedExpression": "上で",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '그의 제안은 대담하지만 현장의 제약도 충분히 고려되어 있다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
+      "sourceGrammarIds": [
+        "n2-102",
+        "n2-005",
+        "n2-006",
+        "n2-007"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-102-21",
+      "level": "N2",
+      "sentence": "母は疲れていながら、避難所で炊き出しを手伝った。",
+      "sentenceWithBlank": "母は疲れてい（　　　）、避難所で炊き出しを手伝った。",
+      "korean": "어머니는 피곤한데도 대피소에서 무료 급식을 도왔다.",
+      "answerChoiceId": "fb-created-n2-102-21-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-102-21-c",
+          "text": "ながら",
+          "grammarId": "n2-102",
+          "baseExpression": "ながら",
+          "conjugatedExpression": "ながら",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-102-21-d",
+          "text": "た上で",
+          "grammarId": "n2-005",
+          "baseExpression": "た上で",
+          "conjugatedExpression": "た上で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-102-21-a",
+          "text": "上で",
+          "grammarId": "n2-006",
+          "baseExpression": "上で",
+          "conjugatedExpression": "上で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-102-21-b",
+          "text": "する上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "する上は",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '어머니는 피곤한데도 대피소에서 무료 급식을 도왔다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
+      "sourceGrammarIds": [
+        "n2-102",
+        "n2-005",
+        "n2-006",
+        "n2-007"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-102-22",
+      "level": "N2",
+      "sentence": "その島は人口が少ないながら、診療所が二十四時間対応している。",
+      "sentenceWithBlank": "その島は人口が少ない（　　　）、診療所が二十四時間対応している。",
+      "korean": "그 섬은 인구가 적지만 진료소가 24시간 대응하고 있다.",
+      "answerChoiceId": "fb-created-n2-102-22-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-102-22-d",
+          "text": "た上で",
+          "grammarId": "n2-005",
+          "baseExpression": "た上で",
+          "conjugatedExpression": "た上で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-102-22-a",
+          "text": "上で",
+          "grammarId": "n2-006",
+          "baseExpression": "上で",
+          "conjugatedExpression": "上で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-102-22-b",
+          "text": "する上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "する上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-102-22-c",
+          "text": "ながら",
+          "grammarId": "n2-102",
+          "baseExpression": "ながら",
+          "conjugatedExpression": "ながら",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '그 섬은 인구가 적지만 진료소가 24시간 대응하고 있다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
+      "sourceGrammarIds": [
+        "n2-102",
+        "n2-005",
+        "n2-006",
+        "n2-007"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-102-23",
+      "level": "N2",
+      "sentence": "兄は節約すると言いながら、高級車を予約した。",
+      "sentenceWithBlank": "兄は節約すると言い（　　　）、高級車を予約した。",
+      "korean": "형은 절약하겠다고 말하면서도 고급 차를 예약했다.",
+      "answerChoiceId": "fb-created-n2-102-23-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-102-23-a",
+          "text": "上で",
+          "grammarId": "n2-006",
+          "baseExpression": "上で",
+          "conjugatedExpression": "上で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-102-23-b",
+          "text": "する上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "する上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-102-23-c",
+          "text": "ながら",
+          "grammarId": "n2-102",
+          "baseExpression": "ながら",
+          "conjugatedExpression": "ながら",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-102-23-d",
+          "text": "た上で",
+          "grammarId": "n2-005",
+          "baseExpression": "た上で",
+          "conjugatedExpression": "た上で",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '형은 절약하겠다고 말하면서도 고급 차를 예약했다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
+      "sourceGrammarIds": [
+        "n2-102",
+        "n2-005",
+        "n2-006",
+        "n2-007"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-102-24",
+      "level": "N2",
+      "sentence": "この薬は安価ながら、多くの患者に効果を示した。",
+      "sentenceWithBlank": "この薬は安価（　　　）、多くの患者に効果を示した。",
+      "korean": "이 약은 저렴하지만 많은 환자에게 효과를 보였다.",
+      "answerChoiceId": "fb-created-n2-102-24-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-102-24-b",
+          "text": "する上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "する上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-102-24-c",
+          "text": "ながら",
+          "grammarId": "n2-102",
+          "baseExpression": "ながら",
+          "conjugatedExpression": "ながら",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-102-24-d",
+          "text": "た上で",
+          "grammarId": "n2-005",
+          "baseExpression": "た上で",
+          "conjugatedExpression": "た上で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-102-24-a",
+          "text": "上で",
+          "grammarId": "n2-006",
+          "baseExpression": "上で",
+          "conjugatedExpression": "上で",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '이 약은 저렴하지만 많은 환자에게 효과를 보였다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
+      "sourceGrammarIds": [
+        "n2-102",
+        "n2-005",
+        "n2-006",
+        "n2-007"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-102-25",
+      "level": "N2",
+      "sentence": "彼女は恐怖を感じながら、燃える家から子どもを救い出した。",
+      "sentenceWithBlank": "彼女は恐怖を感じ（　　　）、燃える家から子どもを救い出した。",
+      "korean": "그녀는 두려움을 느끼면서도 불타는 집에서 아이를 구해 냈다.",
+      "answerChoiceId": "fb-created-n2-102-25-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-102-25-c",
+          "text": "ながら",
+          "grammarId": "n2-102",
+          "baseExpression": "ながら",
+          "conjugatedExpression": "ながら",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-102-25-d",
+          "text": "た上で",
+          "grammarId": "n2-005",
+          "baseExpression": "た上で",
+          "conjugatedExpression": "た上で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-102-25-a",
+          "text": "上で",
+          "grammarId": "n2-006",
+          "baseExpression": "上で",
+          "conjugatedExpression": "上で",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-102-25-b",
+          "text": "する上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "する上は",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '그녀는 두려움을 느끼면서도 불타는 집에서 아이를 구해 냈다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
+      "sourceGrammarIds": [
+        "n2-102",
+        "n2-005",
+        "n2-006",
+        "n2-007"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
       ]
     }
   ],
@@ -1834,1103 +1809,1153 @@
       ]
     },
     {
-      "id": "so-extra-n2-102-1",
+      "id": "so-created-n2-102-01",
       "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlanks": "彼は学生 ____ ____ ____ ____",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
+      "sentence": "祖父は高齢ながら、毎朝五キロの道を歩いている。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "할아버지는 고령인데도 매일 아침 5킬로미터 길을 걷고 있다.",
       "pieces": [
         {
-          "id": "so-extra-n2-102-1-p1",
-          "text": "いる",
+          "id": "so-created-n2-102-01-p3",
+          "text": "五キロの道を",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-102-01-p4",
+          "text": "歩いている。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-102-1-p2",
-          "text": "ながら",
+          "id": "so-created-n2-102-01-p1",
+          "text": "祖父は高齢",
           "order": 1
         },
         {
-          "id": "so-extra-n2-102-1-p3",
-          "text": "会社を",
+          "id": "so-created-n2-102-01-p2",
+          "text": "ながら、毎朝",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-102-1-p4",
-          "text": "経営して",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-102-1-p2",
-        "so-extra-n2-102-1-p3",
-        "so-extra-n2-102-1-p4",
-        "so-extra-n2-102-1-p1"
+        "so-created-n2-102-01-p1",
+        "so-created-n2-102-01-p2",
+        "so-created-n2-102-01-p3",
+        "so-created-n2-102-01-p4"
       ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '할아버지는 고령인데도 매일 아침 5킬로미터 길을 걷고 있다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
       "sourceGrammarIds": [
-        "n2-102"
+        "n2-102",
+        "n2-005",
+        "n2-006",
+        "n2-007"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-102-2",
+      "id": "so-created-n2-102-02",
       "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlanks": "彼は学生 ____ ____ ____ ____",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
+      "sentence": "この時計は小型ながら、海中でも正確に動く。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "이 시계는 소형이지만 물속에서도 정확하게 작동한다.",
       "pieces": [
         {
-          "id": "so-extra-n2-102-2-p2",
-          "text": "会社を",
+          "id": "so-created-n2-102-02-p2",
+          "text": "小型ながら、",
           "order": 2
         },
         {
-          "id": "so-extra-n2-102-2-p3",
-          "text": "経営して",
+          "id": "so-created-n2-102-02-p3",
+          "text": "海中でも",
           "order": 3
         },
         {
-          "id": "so-extra-n2-102-2-p4",
-          "text": "いる",
+          "id": "so-created-n2-102-02-p4",
+          "text": "正確に動く。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-102-2-p1",
-          "text": "ながら",
+          "id": "so-created-n2-102-02-p1",
+          "text": "この時計は",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-102-2-p1",
-        "so-extra-n2-102-2-p2",
-        "so-extra-n2-102-2-p3",
-        "so-extra-n2-102-2-p4"
+        "so-created-n2-102-02-p1",
+        "so-created-n2-102-02-p2",
+        "so-created-n2-102-02-p3",
+        "so-created-n2-102-02-p4"
       ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '이 시계는 소형이지만 물속에서도 정확하게 작동한다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
       "sourceGrammarIds": [
-        "n2-102"
+        "n2-102",
+        "n2-005",
+        "n2-006",
+        "n2-007"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-102-3",
+      "id": "so-created-n2-102-03",
       "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、会社を経営している。",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
+      "sentence": "彼女は新人ながら、重要な交渉を任された。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "그녀는 신입인데도 중요한 협상을 맡게 되었다.",
       "pieces": [
         {
-          "id": "so-extra-n2-102-3-p3",
-          "text": "経営して",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-102-3-p4",
-          "text": "学生",
+          "id": "so-created-n2-102-03-p1",
+          "text": "彼女は新人",
           "order": 1
         },
         {
-          "id": "so-extra-n2-102-3-p1",
-          "text": "ながら",
+          "id": "so-created-n2-102-03-p2",
+          "text": "ながら、",
           "order": 2
         },
         {
-          "id": "so-extra-n2-102-3-p2",
-          "text": "会社を",
+          "id": "so-created-n2-102-03-p3",
+          "text": "重要な交渉を",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-102-03-p4",
+          "text": "任された。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-102-3-p4",
-        "so-extra-n2-102-3-p1",
-        "so-extra-n2-102-3-p2",
-        "so-extra-n2-102-3-p3"
+        "so-created-n2-102-03-p1",
+        "so-created-n2-102-03-p2",
+        "so-created-n2-102-03-p3",
+        "so-created-n2-102-03-p4"
       ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '그녀는 신입인데도 중요한 협상을 맡게 되었다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
       "sourceGrammarIds": [
-        "n2-102"
+        "n2-102",
+        "n2-005",
+        "n2-006",
+        "n2-007"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-102-4",
+      "id": "so-created-n2-102-04",
       "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlanks": "彼は学生 ____ ____ ____ ____",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
+      "sentence": "その旅館は古いながら、隅々まで清潔に保たれている。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "그 여관은 오래되었지만 구석구석 청결하게 유지되고 있다.",
       "pieces": [
         {
-          "id": "so-extra-n2-102-4-p4",
-          "text": "会社を",
-          "order": 2
-        },
-        {
-          "id": "so-extra-n2-102-4-p1",
-          "text": "経営して",
-          "order": 3
-        },
-        {
-          "id": "so-extra-n2-102-4-p2",
-          "text": "いる",
+          "id": "so-created-n2-102-04-p4",
+          "text": "保たれている。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-102-4-p3",
-          "text": "ながら",
+          "id": "so-created-n2-102-04-p1",
+          "text": "その旅館は",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-102-04-p2",
+          "text": "古いながら、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-102-04-p3",
+          "text": "隅々まで清潔に",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-102-4-p3",
-        "so-extra-n2-102-4-p4",
-        "so-extra-n2-102-4-p1",
-        "so-extra-n2-102-4-p2"
+        "so-created-n2-102-04-p1",
+        "so-created-n2-102-04-p2",
+        "so-created-n2-102-04-p3",
+        "so-created-n2-102-04-p4"
       ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '그 여관은 오래되었지만 구석구석 청결하게 유지되고 있다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
       "sourceGrammarIds": [
-        "n2-102"
+        "n2-102",
+        "n2-005",
+        "n2-006",
+        "n2-007"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-102-5",
+      "id": "so-created-n2-102-05",
       "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlanks": "彼は学生 ____ ____ ____ ____",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
+      "sentence": "弟は事情を知りながら、両親には何も伝えなかった。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "남동생은 사정을 알면서도 부모님께 아무것도 알리지 않았다.",
       "pieces": [
         {
-          "id": "so-extra-n2-102-5-p1",
-          "text": "いる",
+          "id": "so-created-n2-102-05-p3",
+          "text": "両親には何も",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-102-05-p4",
+          "text": "伝えなかった。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-102-5-p2",
-          "text": "ながら",
+          "id": "so-created-n2-102-05-p1",
+          "text": "弟は事情を",
           "order": 1
         },
         {
-          "id": "so-extra-n2-102-5-p3",
-          "text": "会社を",
+          "id": "so-created-n2-102-05-p2",
+          "text": "知りながら、",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-102-5-p4",
-          "text": "経営して",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-102-5-p2",
-        "so-extra-n2-102-5-p3",
-        "so-extra-n2-102-5-p4",
-        "so-extra-n2-102-5-p1"
+        "so-created-n2-102-05-p1",
+        "so-created-n2-102-05-p2",
+        "so-created-n2-102-05-p3",
+        "so-created-n2-102-05-p4"
       ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '남동생은 사정을 알면서도 부모님께 아무것도 알리지 않았다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
       "sourceGrammarIds": [
-        "n2-102"
+        "n2-102",
+        "n2-005",
+        "n2-006",
+        "n2-007"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-102-01",
+      "id": "so-created-n2-102-06",
       "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlanks": "彼は学生 ____ ____ ____ ____",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
+      "sentence": "残念ながら、今夜の便はすべて欠航となった。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "유감스럽지만 오늘 밤 항공편은 모두 결항되었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-102-01-p1",
-          "text": "いる",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-102-01-p2",
-          "text": "ながら",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-102-01-p3",
-          "text": "会社を",
+          "id": "so-created-n2-102-06-p2",
+          "text": "今夜の",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-102-01-p4",
-          "text": "経営して",
+          "id": "so-created-n2-102-06-p3",
+          "text": "便はすべて",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-102-06-p4",
+          "text": "欠航となった。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-102-06-p1",
+          "text": "残念ながら、",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-102-01-p2",
-        "so-extra20-n2-102-01-p3",
-        "so-extra20-n2-102-01-p4",
-        "so-extra20-n2-102-01-p1"
+        "so-created-n2-102-06-p1",
+        "so-created-n2-102-06-p2",
+        "so-created-n2-102-06-p3",
+        "so-created-n2-102-06-p4"
       ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '유감스럽지만 오늘 밤 항공편은 모두 결항되었다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
       "sourceGrammarIds": [
-        "n2-102"
+        "n2-102",
+        "n2-005",
+        "n2-006",
+        "n2-007"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-102-02",
+      "id": "so-created-n2-102-07",
       "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlanks": "彼は学生 ____ ____ ____ ____",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
+      "sentence": "彼は医師でありながら、自分の体調には無頓着だ。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "그는 의사이면서도 자신의 건강 상태에는 무관심하다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-102-02-p4",
-          "text": "いる",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-102-02-p1",
-          "text": "ながら",
+          "id": "so-created-n2-102-07-p1",
+          "text": "彼は医師であり",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-102-02-p2",
-          "text": "会社を",
+          "id": "so-created-n2-102-07-p2",
+          "text": "ながら、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-102-02-p3",
-          "text": "経営して",
+          "id": "so-created-n2-102-07-p3",
+          "text": "自分の体調には",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-102-07-p4",
+          "text": "無頓着だ。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-102-02-p1",
-        "so-extra20-n2-102-02-p2",
-        "so-extra20-n2-102-02-p3",
-        "so-extra20-n2-102-02-p4"
+        "so-created-n2-102-07-p1",
+        "so-created-n2-102-07-p2",
+        "so-created-n2-102-07-p3",
+        "so-created-n2-102-07-p4"
       ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '그는 의사이면서도 자신의 건강 상태에는 무관심하다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
       "sourceGrammarIds": [
-        "n2-102"
+        "n2-102",
+        "n2-005",
+        "n2-006",
+        "n2-007"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-102-03",
+      "id": "so-created-n2-102-08",
       "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、会社を経営している。",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
+      "sentence": "狭いながら、この台所には十分な収納がある。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "좁기는 하지만 이 주방에는 충분한 수납공간이 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-102-03-p3",
-          "text": "経営して",
+          "id": "so-created-n2-102-08-p4",
+          "text": "収納がある。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-102-03-p4",
-          "text": "学生",
+          "id": "so-created-n2-102-08-p1",
+          "text": "狭いながら、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-102-03-p1",
-          "text": "ながら",
+          "id": "so-created-n2-102-08-p2",
+          "text": "この台所には",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-102-03-p2",
-          "text": "会社を",
+          "id": "so-created-n2-102-08-p3",
+          "text": "十分な",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-102-03-p4",
-        "so-extra20-n2-102-03-p1",
-        "so-extra20-n2-102-03-p2",
-        "so-extra20-n2-102-03-p3"
+        "so-created-n2-102-08-p1",
+        "so-created-n2-102-08-p2",
+        "so-created-n2-102-08-p3",
+        "so-created-n2-102-08-p4"
       ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '좁기는 하지만 이 주방에는 충분한 수납공간이 있다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
       "sourceGrammarIds": [
-        "n2-102"
+        "n2-102",
+        "n2-005",
+        "n2-006",
+        "n2-007"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-102-04",
+      "id": "so-created-n2-102-09",
       "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlanks": "彼は学生 ____ ____ ____ ____",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
+      "sentence": "犯人は謝罪しながら、被害者への補償を拒み続けた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 続けた。",
+      "korean": "범인은 사과하면서도 피해자에 대한 보상을 계속 거부했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-102-04-p2",
-          "text": "いる",
+          "id": "so-created-n2-102-09-p3",
+          "text": "被害者への",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-102-09-p4",
+          "text": "補償を拒み",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-102-04-p3",
-          "text": "ながら",
+          "id": "so-created-n2-102-09-p1",
+          "text": "犯人は謝罪し",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-102-04-p4",
-          "text": "会社を",
+          "id": "so-created-n2-102-09-p2",
+          "text": "ながら、",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-102-04-p1",
-          "text": "経営して",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-102-04-p3",
-        "so-extra20-n2-102-04-p4",
-        "so-extra20-n2-102-04-p1",
-        "so-extra20-n2-102-04-p2"
+        "so-created-n2-102-09-p1",
+        "so-created-n2-102-09-p2",
+        "so-created-n2-102-09-p3",
+        "so-created-n2-102-09-p4"
       ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '범인은 사과하면서도 피해자에 대한 보상을 계속 거부했다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
       "sourceGrammarIds": [
-        "n2-102"
+        "n2-102",
+        "n2-005",
+        "n2-006",
+        "n2-007"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-102-05",
+      "id": "so-created-n2-102-10",
       "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlanks": "彼は学生 ____ ____ ____ ____",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
+      "sentence": "この町は不便ながら、豊かな自然に恵まれている。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "이 마을은 불편하지만 풍부한 자연환경을 누리고 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-102-05-p1",
-          "text": "いる",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-102-05-p2",
-          "text": "ながら",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-102-05-p3",
-          "text": "会社を",
+          "id": "so-created-n2-102-10-p2",
+          "text": "不便ながら、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-102-05-p4",
-          "text": "経営して",
+          "id": "so-created-n2-102-10-p3",
+          "text": "豊かな自然に",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-102-10-p4",
+          "text": "恵まれている。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-102-10-p1",
+          "text": "この町は",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-102-05-p2",
-        "so-extra20-n2-102-05-p3",
-        "so-extra20-n2-102-05-p4",
-        "so-extra20-n2-102-05-p1"
+        "so-created-n2-102-10-p1",
+        "so-created-n2-102-10-p2",
+        "so-created-n2-102-10-p3",
+        "so-created-n2-102-10-p4"
       ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '이 마을은 불편하지만 풍부한 자연환경을 누리고 있다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
       "sourceGrammarIds": [
-        "n2-102"
+        "n2-102",
+        "n2-005",
+        "n2-006",
+        "n2-007"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-102-06",
+      "id": "so-created-n2-102-11",
       "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlanks": "彼は学生 ____ ____ ____ ____",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
+      "sentence": "彼女は細身ながら、重い荷物を軽々と持ち上げた。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "그녀는 날씬한 체격인데도 무거운 짐을 가볍게 들어 올렸다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-102-06-p4",
-          "text": "経営して",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-102-06-p1",
-          "text": "いる",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-102-06-p2",
-          "text": "ながら",
+          "id": "so-created-n2-102-11-p1",
+          "text": "彼女は細身",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-102-06-p3",
-          "text": "会社を",
+          "id": "so-created-n2-102-11-p2",
+          "text": "ながら、重い",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-102-11-p3",
+          "text": "荷物を軽々と",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-102-11-p4",
+          "text": "持ち上げた。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-102-06-p2",
-        "so-extra20-n2-102-06-p3",
-        "so-extra20-n2-102-06-p4",
-        "so-extra20-n2-102-06-p1"
+        "so-created-n2-102-11-p1",
+        "so-created-n2-102-11-p2",
+        "so-created-n2-102-11-p3",
+        "so-created-n2-102-11-p4"
       ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '그녀는 날씬한 체격인데도 무거운 짐을 가볍게 들어 올렸다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
       "sourceGrammarIds": [
-        "n2-102"
+        "n2-102",
+        "n2-005",
+        "n2-006",
+        "n2-007"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-102-07",
+      "id": "so-created-n2-102-12",
       "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlanks": "彼は学生 ____ ____ ____ ____",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
+      "sentence": "政府は危険性を認めながら、具体的な対策を先延ばしにした。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 先延ばしにした。",
+      "korean": "정부는 위험성을 인정하면서도 구체적인 대책을 미뤘다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-102-07-p3",
-          "text": "経営して",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-102-07-p4",
-          "text": "いる",
+          "id": "so-created-n2-102-12-p4",
+          "text": "的な対策を",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-102-07-p1",
-          "text": "ながら",
+          "id": "so-created-n2-102-12-p1",
+          "text": "政府は危険",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-102-07-p2",
-          "text": "会社を",
+          "id": "so-created-n2-102-12-p2",
+          "text": "性を認め",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-102-12-p3",
+          "text": "ながら、具体",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-102-07-p1",
-        "so-extra20-n2-102-07-p2",
-        "so-extra20-n2-102-07-p3",
-        "so-extra20-n2-102-07-p4"
+        "so-created-n2-102-12-p1",
+        "so-created-n2-102-12-p2",
+        "so-created-n2-102-12-p3",
+        "so-created-n2-102-12-p4"
       ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '정부는 위험성을 인정하면서도 구체적인 대책을 미뤘다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
       "sourceGrammarIds": [
-        "n2-102"
+        "n2-102",
+        "n2-005",
+        "n2-006",
+        "n2-007"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-102-08",
+      "id": "so-created-n2-102-13",
       "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、会社を経営している。",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
+      "sentence": "あの食堂は駅から遠いながら、昼時には行列ができる。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "저 식당은 역에서 멀지만 점심때면 줄이 생긴다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-102-08-p2",
-          "text": "会社を",
+          "id": "so-created-n2-102-13-p3",
+          "text": "ながら、昼時には",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-102-08-p3",
-          "text": "経営して",
+          "id": "so-created-n2-102-13-p4",
+          "text": "行列ができる。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-102-08-p4",
-          "text": "学生",
+          "id": "so-created-n2-102-13-p1",
+          "text": "あの食堂は",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-102-08-p1",
-          "text": "ながら",
+          "id": "so-created-n2-102-13-p2",
+          "text": "駅から遠い",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-102-08-p4",
-        "so-extra20-n2-102-08-p1",
-        "so-extra20-n2-102-08-p2",
-        "so-extra20-n2-102-08-p3"
+        "so-created-n2-102-13-p1",
+        "so-created-n2-102-13-p2",
+        "so-created-n2-102-13-p3",
+        "so-created-n2-102-13-p4"
       ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '저 식당은 역에서 멀지만 점심때면 줄이 생긴다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
       "sourceGrammarIds": [
-        "n2-102"
+        "n2-102",
+        "n2-005",
+        "n2-006",
+        "n2-007"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-102-09",
+      "id": "so-created-n2-102-14",
       "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlanks": "彼は学生 ____ ____ ____ ____",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
+      "sentence": "幼いながら、彼は家族を守ろうと必死だった。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "어리면서도 그는 가족을 지키려고 필사적이었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-102-09-p1",
-          "text": "経営して",
+          "id": "so-created-n2-102-14-p2",
+          "text": "彼は家族を",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-102-14-p3",
+          "text": "守ろうと",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-102-09-p2",
-          "text": "いる",
+          "id": "so-created-n2-102-14-p4",
+          "text": "必死だった。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-102-09-p3",
-          "text": "ながら",
+          "id": "so-created-n2-102-14-p1",
+          "text": "幼いながら、",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-102-09-p4",
-          "text": "会社を",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-102-09-p3",
-        "so-extra20-n2-102-09-p4",
-        "so-extra20-n2-102-09-p1",
-        "so-extra20-n2-102-09-p2"
+        "so-created-n2-102-14-p1",
+        "so-created-n2-102-14-p2",
+        "so-created-n2-102-14-p3",
+        "so-created-n2-102-14-p4"
       ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '어리면서도 그는 가족을 지키려고 필사적이었다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
       "sourceGrammarIds": [
-        "n2-102"
+        "n2-102",
+        "n2-005",
+        "n2-006",
+        "n2-007"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-102-10",
+      "id": "so-created-n2-102-15",
       "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlanks": "彼は学生 ____ ____ ____ ____",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
+      "sentence": "市長は反対意見を聞きながら、当初の計画を押し通した。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 押し通した。",
+      "korean": "시장은 반대 의견을 듣고도 당초 계획을 밀어붙였다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-102-10-p4",
-          "text": "経営して",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-102-10-p1",
-          "text": "いる",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-102-10-p2",
-          "text": "ながら",
+          "id": "so-created-n2-102-15-p1",
+          "text": "市長は反対",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-102-10-p3",
-          "text": "会社を",
+          "id": "so-created-n2-102-15-p2",
+          "text": "意見を聞き",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-102-15-p3",
+          "text": "ながら、",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-102-15-p4",
+          "text": "当初の計画を",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-102-10-p2",
-        "so-extra20-n2-102-10-p3",
-        "so-extra20-n2-102-10-p4",
-        "so-extra20-n2-102-10-p1"
+        "so-created-n2-102-15-p1",
+        "so-created-n2-102-15-p2",
+        "so-created-n2-102-15-p3",
+        "so-created-n2-102-15-p4"
       ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '시장은 반대 의견을 듣고도 당초 계획을 밀어붙였다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
       "sourceGrammarIds": [
-        "n2-102"
+        "n2-102",
+        "n2-005",
+        "n2-006",
+        "n2-007"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-102-11",
+      "id": "so-created-n2-102-16",
       "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlanks": "彼は学生 ____ ____ ____ ____",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
+      "sentence": "この農園は小規模ながら、海外にも果物を輸出している。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "이 농장은 소규모이지만 해외에도 과일을 수출하고 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-102-11-p3",
-          "text": "会社を",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-102-11-p4",
-          "text": "経営して",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-102-11-p1",
-          "text": "いる",
+          "id": "so-created-n2-102-16-p4",
+          "text": "輸出している。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-102-11-p2",
-          "text": "ながら",
+          "id": "so-created-n2-102-16-p1",
+          "text": "この農園は",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-102-16-p2",
+          "text": "小規模ながら、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-102-16-p3",
+          "text": "海外にも果物を",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-102-11-p2",
-        "so-extra20-n2-102-11-p3",
-        "so-extra20-n2-102-11-p4",
-        "so-extra20-n2-102-11-p1"
+        "so-created-n2-102-16-p1",
+        "so-created-n2-102-16-p2",
+        "so-created-n2-102-16-p3",
+        "so-created-n2-102-16-p4"
       ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '이 농장은 소규모이지만 해외에도 과일을 수출하고 있다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
       "sourceGrammarIds": [
-        "n2-102"
+        "n2-102",
+        "n2-005",
+        "n2-006",
+        "n2-007"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-102-12",
+      "id": "so-created-n2-102-17",
       "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlanks": "彼は学生 ____ ____ ____ ____",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
+      "sentence": "彼は無実を訴えながら、重要な証拠を隠していた。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "그는 결백을 주장하면서도 중요한 증거를 숨기고 있었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-102-12-p2",
-          "text": "会社を",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-102-12-p3",
-          "text": "経営して",
+          "id": "so-created-n2-102-17-p3",
+          "text": "重要な証拠を",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-102-12-p4",
-          "text": "いる",
+          "id": "so-created-n2-102-17-p4",
+          "text": "隠していた。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-102-12-p1",
-          "text": "ながら",
+          "id": "so-created-n2-102-17-p1",
+          "text": "彼は無実を",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-102-17-p2",
+          "text": "訴えながら、",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-102-12-p1",
-        "so-extra20-n2-102-12-p2",
-        "so-extra20-n2-102-12-p3",
-        "so-extra20-n2-102-12-p4"
+        "so-created-n2-102-17-p1",
+        "so-created-n2-102-17-p2",
+        "so-created-n2-102-17-p3",
+        "so-created-n2-102-17-p4"
       ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '그는 결백을 주장하면서도 중요한 증거를 숨기고 있었다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
       "sourceGrammarIds": [
-        "n2-102"
+        "n2-102",
+        "n2-005",
+        "n2-006",
+        "n2-007"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-102-13",
+      "id": "so-created-n2-102-18",
       "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、会社を経営している。",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
+      "sentence": "その工場は設備が旧式ながら、高品質の部品を生産している。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 生産している。",
+      "korean": "그 공장은 설비가 구식이지만 고품질 부품을 생산하고 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-102-13-p1",
-          "text": "ながら",
+          "id": "so-created-n2-102-18-p2",
+          "text": "設備が旧式",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-102-13-p2",
-          "text": "会社を",
+          "id": "so-created-n2-102-18-p3",
+          "text": "ながら、高",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-102-13-p3",
-          "text": "経営して",
+          "id": "so-created-n2-102-18-p4",
+          "text": "品質の部品を",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-102-13-p4",
-          "text": "学生",
+          "id": "so-created-n2-102-18-p1",
+          "text": "その工場は",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-102-13-p4",
-        "so-extra20-n2-102-13-p1",
-        "so-extra20-n2-102-13-p2",
-        "so-extra20-n2-102-13-p3"
+        "so-created-n2-102-18-p1",
+        "so-created-n2-102-18-p2",
+        "so-created-n2-102-18-p3",
+        "so-created-n2-102-18-p4"
       ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '그 공장은 설비가 구식이지만 고품질 부품을 생산하고 있다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
       "sourceGrammarIds": [
-        "n2-102"
+        "n2-102",
+        "n2-005",
+        "n2-006",
+        "n2-007"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-102-14",
+      "id": "so-created-n2-102-19",
       "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlanks": "彼は学生 ____ ____ ____ ____",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
+      "sentence": "警備員は異変に気づきながら、持ち場を離れなかった。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "경비원은 이상을 알아차리고도 자기 위치를 떠나지 않았다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-102-14-p4",
-          "text": "会社を",
+          "id": "so-created-n2-102-19-p1",
+          "text": "警備員は異変に",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-102-19-p2",
+          "text": "気づきながら、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-102-14-p1",
-          "text": "経営して",
+          "id": "so-created-n2-102-19-p3",
+          "text": "持ち場を",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-102-14-p2",
-          "text": "いる",
+          "id": "so-created-n2-102-19-p4",
+          "text": "離れなかった。",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-102-14-p3",
-          "text": "ながら",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-102-14-p3",
-        "so-extra20-n2-102-14-p4",
-        "so-extra20-n2-102-14-p1",
-        "so-extra20-n2-102-14-p2"
+        "so-created-n2-102-19-p1",
+        "so-created-n2-102-19-p2",
+        "so-created-n2-102-19-p3",
+        "so-created-n2-102-19-p4"
       ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '경비원은 이상을 알아차리고도 자기 위치를 떠나지 않았다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
       "sourceGrammarIds": [
-        "n2-102"
+        "n2-102",
+        "n2-005",
+        "n2-006",
+        "n2-007"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-102-15",
+      "id": "so-created-n2-102-20",
       "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlanks": "彼は学生 ____ ____ ____ ____",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
+      "sentence": "彼の提案は大胆ながら、現場の制約も十分に考慮されている。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 考慮されている。",
+      "korean": "그의 제안은 대담하지만 현장의 제약도 충분히 고려되어 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-102-15-p3",
-          "text": "会社を",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-102-15-p4",
-          "text": "経営して",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-102-15-p1",
-          "text": "いる",
+          "id": "so-created-n2-102-20-p4",
+          "text": "制約も十分に",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-102-15-p2",
-          "text": "ながら",
+          "id": "so-created-n2-102-20-p1",
+          "text": "彼の提案は",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-102-20-p2",
+          "text": "大胆ながら、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-102-20-p3",
+          "text": "現場の",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-102-15-p2",
-        "so-extra20-n2-102-15-p3",
-        "so-extra20-n2-102-15-p4",
-        "so-extra20-n2-102-15-p1"
+        "so-created-n2-102-20-p1",
+        "so-created-n2-102-20-p2",
+        "so-created-n2-102-20-p3",
+        "so-created-n2-102-20-p4"
       ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '그의 제안은 대담하지만 현장의 제약도 충분히 고려되어 있다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
       "sourceGrammarIds": [
-        "n2-102"
+        "n2-102",
+        "n2-005",
+        "n2-006",
+        "n2-007"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-102-16",
+      "id": "so-created-n2-102-21",
       "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlanks": "彼は学生 ____ ____ ____ ____",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
+      "sentence": "母は疲れていながら、避難所で炊き出しを手伝った。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "어머니는 피곤한데도 대피소에서 무료 급식을 도왔다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-102-16-p2",
-          "text": "ながら",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-102-16-p3",
-          "text": "会社を",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-102-16-p4",
-          "text": "経営して",
+          "id": "so-created-n2-102-21-p3",
+          "text": "炊き出しを",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-102-16-p1",
-          "text": "いる",
+          "id": "so-created-n2-102-21-p4",
+          "text": "手伝った。",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-102-21-p1",
+          "text": "母は疲れてい",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-102-21-p2",
+          "text": "ながら、避難所で",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-102-16-p2",
-        "so-extra20-n2-102-16-p3",
-        "so-extra20-n2-102-16-p4",
-        "so-extra20-n2-102-16-p1"
+        "so-created-n2-102-21-p1",
+        "so-created-n2-102-21-p2",
+        "so-created-n2-102-21-p3",
+        "so-created-n2-102-21-p4"
       ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '어머니는 피곤한데도 대피소에서 무료 급식을 도왔다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
       "sourceGrammarIds": [
-        "n2-102"
+        "n2-102",
+        "n2-005",
+        "n2-006",
+        "n2-007"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-102-17",
+      "id": "so-created-n2-102-22",
       "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlanks": "彼は学生 ____ ____ ____ ____",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
+      "sentence": "その島は人口が少ないながら、診療所が二十四時間対応している。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 時間対応している。",
+      "korean": "그 섬은 인구가 적지만 진료소가 24시간 대응하고 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-102-17-p1",
-          "text": "ながら",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-102-17-p2",
-          "text": "会社を",
+          "id": "so-created-n2-102-22-p2",
+          "text": "人口が少ない",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-102-17-p3",
-          "text": "経営して",
+          "id": "so-created-n2-102-22-p3",
+          "text": "ながら、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-102-17-p4",
-          "text": "いる",
+          "id": "so-created-n2-102-22-p4",
+          "text": "診療所が二十四",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-102-22-p1",
+          "text": "その島は",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-102-17-p1",
-        "so-extra20-n2-102-17-p2",
-        "so-extra20-n2-102-17-p3",
-        "so-extra20-n2-102-17-p4"
+        "so-created-n2-102-22-p1",
+        "so-created-n2-102-22-p2",
+        "so-created-n2-102-22-p3",
+        "so-created-n2-102-22-p4"
       ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '그 섬은 인구가 적지만 진료소가 24시간 대응하고 있다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
       "sourceGrammarIds": [
-        "n2-102"
+        "n2-102",
+        "n2-005",
+        "n2-006",
+        "n2-007"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-102-18",
+      "id": "so-created-n2-102-23",
       "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、会社を経営している。",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
+      "sentence": "兄は節約すると言いながら、高級車を予約した。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "형은 절약하겠다고 말하면서도 고급 차를 예약했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-102-18-p4",
-          "text": "学生",
+          "id": "so-created-n2-102-23-p1",
+          "text": "兄は節約すると",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-102-18-p1",
-          "text": "ながら",
+          "id": "so-created-n2-102-23-p2",
+          "text": "言いながら、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-102-18-p2",
-          "text": "会社を",
+          "id": "so-created-n2-102-23-p3",
+          "text": "高級車を",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-102-18-p3",
-          "text": "経営して",
+          "id": "so-created-n2-102-23-p4",
+          "text": "予約した。",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-102-18-p4",
-        "so-extra20-n2-102-18-p1",
-        "so-extra20-n2-102-18-p2",
-        "so-extra20-n2-102-18-p3"
+        "so-created-n2-102-23-p1",
+        "so-created-n2-102-23-p2",
+        "so-created-n2-102-23-p3",
+        "so-created-n2-102-23-p4"
       ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '형은 절약하겠다고 말하면서도 고급 차를 예약했다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
       "sourceGrammarIds": [
-        "n2-102"
+        "n2-102",
+        "n2-005",
+        "n2-006",
+        "n2-007"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-102-19",
+      "id": "so-created-n2-102-24",
       "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlanks": "彼は学生 ____ ____ ____ ____",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
+      "sentence": "この薬は安価ながら、多くの患者に効果を示した。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "이 약은 저렴하지만 많은 환자에게 효과를 보였다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-102-19-p3",
-          "text": "ながら",
+          "id": "so-created-n2-102-24-p4",
+          "text": "効果を示した。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-102-24-p1",
+          "text": "この薬は",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-102-19-p4",
-          "text": "会社を",
+          "id": "so-created-n2-102-24-p2",
+          "text": "安価ながら、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-102-19-p1",
-          "text": "経営して",
+          "id": "so-created-n2-102-24-p3",
+          "text": "多くの患者に",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-102-19-p2",
-          "text": "いる",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-102-19-p3",
-        "so-extra20-n2-102-19-p4",
-        "so-extra20-n2-102-19-p1",
-        "so-extra20-n2-102-19-p2"
+        "so-created-n2-102-24-p1",
+        "so-created-n2-102-24-p2",
+        "so-created-n2-102-24-p3",
+        "so-created-n2-102-24-p4"
       ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '이 약은 저렴하지만 많은 환자에게 효과를 보였다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
       "sourceGrammarIds": [
-        "n2-102"
+        "n2-102",
+        "n2-005",
+        "n2-006",
+        "n2-007"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-102-20",
+      "id": "so-created-n2-102-25",
       "level": "N2",
-      "sentence": "彼は学生ながら、会社を経営している。",
-      "sentenceWithBlanks": "彼は学生 ____ ____ ____ ____",
-      "korean": "그는 학생이면서도 회사를 운영하고 있다.",
+      "sentence": "彼女は恐怖を感じながら、燃える家から子どもを救い出した。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 救い出した。",
+      "korean": "그녀는 두려움을 느끼면서도 불타는 집에서 아이를 구해 냈다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-102-20-p2",
-          "text": "ながら",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-102-20-p3",
-          "text": "会社を",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-102-20-p4",
-          "text": "経営して",
+          "id": "so-created-n2-102-25-p3",
+          "text": "燃える家から",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-102-20-p1",
-          "text": "いる",
+          "id": "so-created-n2-102-25-p4",
+          "text": "子どもを",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-102-25-p1",
+          "text": "彼女は恐怖を",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-102-25-p2",
+          "text": "感じながら、",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-102-20-p2",
-        "so-extra20-n2-102-20-p3",
-        "so-extra20-n2-102-20-p4",
-        "so-extra20-n2-102-20-p1"
+        "so-created-n2-102-25-p1",
+        "so-created-n2-102-25-p2",
+        "so-created-n2-102-25-p3",
+        "so-created-n2-102-25-p4"
       ],
-      "explanation": "「ながら（역접）」는 ~이면서, ~이지만라는 뜻이다. 역접. 앞 사실과 어긋나는 뒤 내용.",
+      "explanation": "「ながら」는 '~이면서, ~이지만'라는 뜻을 나타낸다. 이 문장에서는 '그녀는 두려움을 느끼면서도 불타는 집에서 아이를 구해 냈다.'라는 상황에 쓰였으며, 역접. 앞 사실과 어긋나는 뒤 내용. 주의할 점은 「学生ながら」처럼 상태·자격에도 씀. つつ는 동작 동시 진행, ながら는 상태 대비도 OK.",
       "sourceGrammarIds": [
-        "n2-102"
+        "n2-102",
+        "n2-005",
+        "n2-006",
+        "n2-007"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     }
   ]

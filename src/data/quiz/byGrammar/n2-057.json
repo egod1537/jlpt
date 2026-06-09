@@ -267,15 +267,23 @@
       ]
     },
     {
-      "id": "fb-extra-n2-057-1",
+      "id": "fb-created-n2-057-01",
       "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlank": "この本を買いたいが、5000円払う（　　　）価値があるだろうか。",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
-      "answerChoiceId": "fb-extra-n2-057-1-b",
+      "sentence": "この難工事を任せるだけの技術を彼は十分に備えている。",
+      "sentenceWithBlank": "この難工事を任せる（　　　）技術を彼は十分に備えている。",
+      "korean": "그에게는 이 어려운 공사를 맡길 만한 기술이 충분히 갖추어져 있다.",
+      "answerChoiceId": "fb-created-n2-057-01-b",
       "choices": [
         {
-          "id": "fb-extra-n2-057-1-c",
+          "id": "fb-created-n2-057-01-b",
+          "text": "だけの",
+          "grammarId": "n2-057",
+          "baseExpression": "だけの",
+          "conjugatedExpression": "だけの",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-057-01-c",
           "text": "からして",
           "grammarId": "n2-026",
           "baseExpression": "からして",
@@ -283,7 +291,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-057-1-d",
+          "id": "fb-created-n2-057-01-d",
           "text": "からすると",
           "grammarId": "n2-027",
           "baseExpression": "からすると",
@@ -291,23 +299,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-057-1-a",
+          "id": "fb-created-n2-057-01-a",
           "text": "からといって",
           "grammarId": "n2-028",
           "baseExpression": "からといって",
           "conjugatedExpression": "からといって",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-057-1-b",
-          "text": "だけの",
-          "grammarId": "n2-057",
-          "baseExpression": "だけの",
-          "conjugatedExpression": "だけの",
-          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '그에게는 이 어려운 공사를 맡길 만한 기술이 충분히 갖추어져 있다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
       "sourceGrammarIds": [
         "n2-057",
         "n2-026",
@@ -315,237 +315,20 @@
         "n2-028"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra-n2-057-2",
+      "id": "fb-created-n2-057-02",
       "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlank": "この本を買いたいが、5000円払う（　　　）価値があるだろうか。",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
-      "answerChoiceId": "fb-extra-n2-057-2-c",
+      "sentence": "故郷を離れるだけの理由が彼女にはあった。",
+      "sentenceWithBlank": "故郷を離れる（　　　）理由が彼女にはあった。",
+      "korean": "그녀에게는 고향을 떠날 만한 이유가 있었다.",
+      "answerChoiceId": "fb-created-n2-057-02-b",
       "choices": [
         {
-          "id": "fb-extra-n2-057-2-d",
-          "text": "てこそ",
-          "grammarId": "n2-070",
-          "baseExpression": "てこそ",
-          "conjugatedExpression": "てこそ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-057-2-a",
-          "text": "てたまらない",
-          "grammarId": "n2-071",
-          "baseExpression": "てたまらない",
-          "conjugatedExpression": "てたまらない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-057-2-b",
-          "text": "てでも",
-          "grammarId": "n2-072",
-          "baseExpression": "てでも",
-          "conjugatedExpression": "てでも",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-057-2-c",
-          "text": "だけの",
-          "grammarId": "n2-057",
-          "baseExpression": "だけの",
-          "conjugatedExpression": "だけの",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
-      "sourceGrammarIds": [
-        "n2-057",
-        "n2-070",
-        "n2-071",
-        "n2-072"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-057-3",
-      "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlank": "この本を買いたいが、5000円払う（　　　）価値があるだろうか。",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
-      "answerChoiceId": "fb-extra-n2-057-3-d",
-      "choices": [
-        {
-          "id": "fb-extra-n2-057-3-a",
-          "text": "ことか",
-          "grammarId": "n2-036",
-          "baseExpression": "ことか",
-          "conjugatedExpression": "ことか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-057-3-b",
-          "text": "ことだ",
-          "grammarId": "n2-037",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-057-3-c",
-          "text": "ことだ",
-          "grammarId": "n2-038",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-057-3-d",
-          "text": "だけの",
-          "grammarId": "n2-057",
-          "baseExpression": "だけの",
-          "conjugatedExpression": "だけの",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
-      "sourceGrammarIds": [
-        "n2-057",
-        "n2-036",
-        "n2-037",
-        "n2-038"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-057-4",
-      "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlank": "この本を買いたいが、5000円払う（　　　）価値があるだろうか。",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
-      "answerChoiceId": "fb-extra-n2-057-4-a",
-      "choices": [
-        {
-          "id": "fb-extra-n2-057-4-b",
-          "text": "ずじまい",
-          "grammarId": "n2-051",
-          "baseExpression": "ずじまい",
-          "conjugatedExpression": "ずじまい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-057-4-c",
-          "text": "ずにはいられない",
-          "grammarId": "n2-052",
-          "baseExpression": "ずにはいられない",
-          "conjugatedExpression": "ずにはいられない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-057-4-d",
-          "text": "たいものだ",
-          "grammarId": "n2-053",
-          "baseExpression": "たいものだ",
-          "conjugatedExpression": "たいものだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-057-4-a",
-          "text": "だけの",
-          "grammarId": "n2-057",
-          "baseExpression": "だけの",
-          "conjugatedExpression": "だけの",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
-      "sourceGrammarIds": [
-        "n2-057",
-        "n2-051",
-        "n2-052",
-        "n2-053"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-057-5",
-      "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlank": "この本を買いたいが、5000円払う（　　　）価値があるだろうか。",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
-      "answerChoiceId": "fb-extra-n2-057-5-b",
-      "choices": [
-        {
-          "id": "fb-extra-n2-057-5-c",
-          "text": "にしたら",
-          "grammarId": "n2-119",
-          "baseExpression": "にしたら",
-          "conjugatedExpression": "にしたら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-057-5-d",
-          "text": "にしては",
-          "grammarId": "n2-120",
-          "baseExpression": "にしては",
-          "conjugatedExpression": "にしては",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-057-5-a",
-          "text": "にしても",
-          "grammarId": "n2-121",
-          "baseExpression": "にしても/にしろ/にせよ",
-          "conjugatedExpression": "にしても",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-057-5-b",
-          "text": "だけの",
-          "grammarId": "n2-057",
-          "baseExpression": "だけの",
-          "conjugatedExpression": "だけの",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
-      "sourceGrammarIds": [
-        "n2-057",
-        "n2-119",
-        "n2-120",
-        "n2-121"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-057-01",
-      "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlank": "この本を買いたいが、5000円払う（　　　）価値があるだろうか。",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
-      "answerChoiceId": "fb-extra20-n2-057-01-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-057-01-c",
+          "id": "fb-created-n2-057-02-c",
           "text": "からして",
           "grammarId": "n2-026",
           "baseExpression": "からして",
@@ -553,7 +336,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-057-01-d",
+          "id": "fb-created-n2-057-02-d",
           "text": "からすると",
           "grammarId": "n2-027",
           "baseExpression": "からすると",
@@ -561,7 +344,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-057-01-a",
+          "id": "fb-created-n2-057-02-a",
           "text": "からといって",
           "grammarId": "n2-028",
           "baseExpression": "からといって",
@@ -569,7 +352,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-057-01-b",
+          "id": "fb-created-n2-057-02-b",
           "text": "だけの",
           "grammarId": "n2-057",
           "baseExpression": "だけの",
@@ -577,7 +360,7 @@
           "isSimilarDistractor": false
         }
       ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '그녀에게는 고향을 떠날 만한 이유가 있었다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
       "sourceGrammarIds": [
         "n2-057",
         "n2-026",
@@ -585,253 +368,20 @@
         "n2-028"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-057-02",
+      "id": "fb-created-n2-057-03",
       "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlank": "この本を買いたいが、5000円払う（　　　）価値があるだろうか。",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
-      "answerChoiceId": "fb-extra20-n2-057-02-c",
+      "sentence": "皆の前で真実を告げるだけの勇気はまだない。",
+      "sentenceWithBlank": "皆の前で真実を告げる（　　　）勇気はまだない。",
+      "korean": "모두 앞에서 진실을 밝힐 만큼의 용기는 아직 없다.",
+      "answerChoiceId": "fb-created-n2-057-03-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-057-02-b",
-          "text": "てでも",
-          "grammarId": "n2-072",
-          "baseExpression": "てでも",
-          "conjugatedExpression": "てでも",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-057-02-c",
-          "text": "だけの",
-          "grammarId": "n2-057",
-          "baseExpression": "だけの",
-          "conjugatedExpression": "だけの",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-057-02-d",
-          "text": "てこそ",
-          "grammarId": "n2-070",
-          "baseExpression": "てこそ",
-          "conjugatedExpression": "てこそ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-057-02-a",
-          "text": "てたまらない",
-          "grammarId": "n2-071",
-          "baseExpression": "てたまらない",
-          "conjugatedExpression": "てたまらない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
-      "sourceGrammarIds": [
-        "n2-057",
-        "n2-070",
-        "n2-071",
-        "n2-072"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-057-03",
-      "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlank": "この本を買いたいが、5000円払う（　　　）価値があるだろうか。",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
-      "answerChoiceId": "fb-extra20-n2-057-03-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-057-03-a",
-          "text": "ことか",
-          "grammarId": "n2-036",
-          "baseExpression": "ことか",
-          "conjugatedExpression": "ことか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-057-03-b",
-          "text": "ことだ",
-          "grammarId": "n2-037",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-057-03-c",
-          "text": "ことだ",
-          "grammarId": "n2-038",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-057-03-d",
-          "text": "だけの",
-          "grammarId": "n2-057",
-          "baseExpression": "だけの",
-          "conjugatedExpression": "だけの",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
-      "sourceGrammarIds": [
-        "n2-057",
-        "n2-036",
-        "n2-037",
-        "n2-038"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-057-04",
-      "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlank": "この本を買いたいが、5000円払う（　　　）価値があるだろうか。",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
-      "answerChoiceId": "fb-extra20-n2-057-04-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-057-04-d",
-          "text": "たいものだ",
-          "grammarId": "n2-053",
-          "baseExpression": "たいものだ",
-          "conjugatedExpression": "たいものだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-057-04-a",
-          "text": "だけの",
-          "grammarId": "n2-057",
-          "baseExpression": "だけの",
-          "conjugatedExpression": "だけの",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-057-04-b",
-          "text": "ずじまい",
-          "grammarId": "n2-051",
-          "baseExpression": "ずじまい",
-          "conjugatedExpression": "ずじまい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-057-04-c",
-          "text": "ずにはいられない",
-          "grammarId": "n2-052",
-          "baseExpression": "ずにはいられない",
-          "conjugatedExpression": "ずにはいられない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
-      "sourceGrammarIds": [
-        "n2-057",
-        "n2-051",
-        "n2-052",
-        "n2-053"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-057-05",
-      "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlank": "この本を買いたいが、5000円払う（　　　）価値があるだろうか。",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
-      "answerChoiceId": "fb-extra20-n2-057-05-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-057-05-c",
-          "text": "にしたら",
-          "grammarId": "n2-119",
-          "baseExpression": "にしたら",
-          "conjugatedExpression": "にしたら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-057-05-d",
-          "text": "にしては",
-          "grammarId": "n2-120",
-          "baseExpression": "にしては",
-          "conjugatedExpression": "にしては",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-057-05-a",
-          "text": "にしても",
-          "grammarId": "n2-121",
-          "baseExpression": "にしても/にしろ/にせよ",
-          "conjugatedExpression": "にしても",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-057-05-b",
-          "text": "だけの",
-          "grammarId": "n2-057",
-          "baseExpression": "だけの",
-          "conjugatedExpression": "だけの",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
-      "sourceGrammarIds": [
-        "n2-057",
-        "n2-119",
-        "n2-120",
-        "n2-121"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-057-06",
-      "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlank": "この本を買いたいが、5000円払う（　　　）価値があるだろうか。",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
-      "answerChoiceId": "fb-extra20-n2-057-06-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-057-06-b",
-          "text": "だけの",
-          "grammarId": "n2-057",
-          "baseExpression": "だけの",
-          "conjugatedExpression": "だけの",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-057-06-c",
-          "text": "からして",
-          "grammarId": "n2-026",
-          "baseExpression": "からして",
-          "conjugatedExpression": "からして",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-057-06-d",
+          "id": "fb-created-n2-057-03-d",
           "text": "からすると",
           "grammarId": "n2-027",
           "baseExpression": "からすると",
@@ -839,253 +389,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-057-06-a",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
-      "sourceGrammarIds": [
-        "n2-057",
-        "n2-026",
-        "n2-027",
-        "n2-028"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-057-07",
-      "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlank": "この本を買いたいが、5000円払う（　　　）価値があるだろうか。",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
-      "answerChoiceId": "fb-extra20-n2-057-07-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-057-07-a",
-          "text": "てたまらない",
-          "grammarId": "n2-071",
-          "baseExpression": "てたまらない",
-          "conjugatedExpression": "てたまらない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-057-07-b",
-          "text": "てでも",
-          "grammarId": "n2-072",
-          "baseExpression": "てでも",
-          "conjugatedExpression": "てでも",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-057-07-c",
-          "text": "だけの",
-          "grammarId": "n2-057",
-          "baseExpression": "だけの",
-          "conjugatedExpression": "だけの",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-057-07-d",
-          "text": "てこそ",
-          "grammarId": "n2-070",
-          "baseExpression": "てこそ",
-          "conjugatedExpression": "てこそ",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
-      "sourceGrammarIds": [
-        "n2-057",
-        "n2-070",
-        "n2-071",
-        "n2-072"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-057-08",
-      "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlank": "この本を買いたいが、5000円払う（　　　）価値があるだろうか。",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
-      "answerChoiceId": "fb-extra20-n2-057-08-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-057-08-d",
-          "text": "だけの",
-          "grammarId": "n2-057",
-          "baseExpression": "だけの",
-          "conjugatedExpression": "だけの",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-057-08-a",
-          "text": "ことか",
-          "grammarId": "n2-036",
-          "baseExpression": "ことか",
-          "conjugatedExpression": "ことか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-057-08-b",
-          "text": "ことだ",
-          "grammarId": "n2-037",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-057-08-c",
-          "text": "ことだ",
-          "grammarId": "n2-038",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
-      "sourceGrammarIds": [
-        "n2-057",
-        "n2-036",
-        "n2-037",
-        "n2-038"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-057-09",
-      "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlank": "この本を買いたいが、5000円払う（　　　）価値があるだろうか。",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
-      "answerChoiceId": "fb-extra20-n2-057-09-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-057-09-c",
-          "text": "ずにはいられない",
-          "grammarId": "n2-052",
-          "baseExpression": "ずにはいられない",
-          "conjugatedExpression": "ずにはいられない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-057-09-d",
-          "text": "たいものだ",
-          "grammarId": "n2-053",
-          "baseExpression": "たいものだ",
-          "conjugatedExpression": "たいものだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-057-09-a",
-          "text": "だけの",
-          "grammarId": "n2-057",
-          "baseExpression": "だけの",
-          "conjugatedExpression": "だけの",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-057-09-b",
-          "text": "ずじまい",
-          "grammarId": "n2-051",
-          "baseExpression": "ずじまい",
-          "conjugatedExpression": "ずじまい",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
-      "sourceGrammarIds": [
-        "n2-057",
-        "n2-051",
-        "n2-052",
-        "n2-053"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-057-10",
-      "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlank": "この本を買いたいが、5000円払う（　　　）価値があるだろうか。",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
-      "answerChoiceId": "fb-extra20-n2-057-10-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-057-10-b",
-          "text": "だけの",
-          "grammarId": "n2-057",
-          "baseExpression": "だけの",
-          "conjugatedExpression": "だけの",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-057-10-c",
-          "text": "にしたら",
-          "grammarId": "n2-119",
-          "baseExpression": "にしたら",
-          "conjugatedExpression": "にしたら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-057-10-d",
-          "text": "にしては",
-          "grammarId": "n2-120",
-          "baseExpression": "にしては",
-          "conjugatedExpression": "にしては",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-057-10-a",
-          "text": "にしても",
-          "grammarId": "n2-121",
-          "baseExpression": "にしても/にしろ/にせよ",
-          "conjugatedExpression": "にしても",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
-      "sourceGrammarIds": [
-        "n2-057",
-        "n2-119",
-        "n2-120",
-        "n2-121"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-057-11",
-      "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlank": "この本を買いたいが、5000円払う（　　　）価値があるだろうか。",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
-      "answerChoiceId": "fb-extra20-n2-057-11-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-057-11-a",
+          "id": "fb-created-n2-057-03-a",
           "text": "からといって",
           "grammarId": "n2-028",
           "baseExpression": "からといって",
@@ -1093,7 +397,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-057-11-b",
+          "id": "fb-created-n2-057-03-b",
           "text": "だけの",
           "grammarId": "n2-057",
           "baseExpression": "だけの",
@@ -1101,285 +405,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-057-11-c",
-          "text": "からして",
-          "grammarId": "n2-026",
-          "baseExpression": "からして",
-          "conjugatedExpression": "からして",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-057-11-d",
-          "text": "からすると",
-          "grammarId": "n2-027",
-          "baseExpression": "からすると",
-          "conjugatedExpression": "からすると",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
-      "sourceGrammarIds": [
-        "n2-057",
-        "n2-026",
-        "n2-027",
-        "n2-028"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-057-12",
-      "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlank": "この本を買いたいが、5000円払う（　　　）価値があるだろうか。",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
-      "answerChoiceId": "fb-extra20-n2-057-12-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-057-12-d",
-          "text": "てこそ",
-          "grammarId": "n2-070",
-          "baseExpression": "てこそ",
-          "conjugatedExpression": "てこそ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-057-12-a",
-          "text": "てたまらない",
-          "grammarId": "n2-071",
-          "baseExpression": "てたまらない",
-          "conjugatedExpression": "てたまらない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-057-12-b",
-          "text": "てでも",
-          "grammarId": "n2-072",
-          "baseExpression": "てでも",
-          "conjugatedExpression": "てでも",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-057-12-c",
-          "text": "だけの",
-          "grammarId": "n2-057",
-          "baseExpression": "だけの",
-          "conjugatedExpression": "だけの",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
-      "sourceGrammarIds": [
-        "n2-057",
-        "n2-070",
-        "n2-071",
-        "n2-072"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-057-13",
-      "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlank": "この本を買いたいが、5000円払う（　　　）価値があるだろうか。",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
-      "answerChoiceId": "fb-extra20-n2-057-13-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-057-13-c",
-          "text": "ことだ",
-          "grammarId": "n2-038",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-057-13-d",
-          "text": "だけの",
-          "grammarId": "n2-057",
-          "baseExpression": "だけの",
-          "conjugatedExpression": "だけの",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-057-13-a",
-          "text": "ことか",
-          "grammarId": "n2-036",
-          "baseExpression": "ことか",
-          "conjugatedExpression": "ことか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-057-13-b",
-          "text": "ことだ",
-          "grammarId": "n2-037",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
-      "sourceGrammarIds": [
-        "n2-057",
-        "n2-036",
-        "n2-037",
-        "n2-038"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-057-14",
-      "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlank": "この本を買いたいが、5000円払う（　　　）価値があるだろうか。",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
-      "answerChoiceId": "fb-extra20-n2-057-14-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-057-14-b",
-          "text": "ずじまい",
-          "grammarId": "n2-051",
-          "baseExpression": "ずじまい",
-          "conjugatedExpression": "ずじまい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-057-14-c",
-          "text": "ずにはいられない",
-          "grammarId": "n2-052",
-          "baseExpression": "ずにはいられない",
-          "conjugatedExpression": "ずにはいられない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-057-14-d",
-          "text": "たいものだ",
-          "grammarId": "n2-053",
-          "baseExpression": "たいものだ",
-          "conjugatedExpression": "たいものだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-057-14-a",
-          "text": "だけの",
-          "grammarId": "n2-057",
-          "baseExpression": "だけの",
-          "conjugatedExpression": "だけの",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
-      "sourceGrammarIds": [
-        "n2-057",
-        "n2-051",
-        "n2-052",
-        "n2-053"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-057-15",
-      "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlank": "この本を買いたいが、5000円払う（　　　）価値があるだろうか。",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
-      "answerChoiceId": "fb-extra20-n2-057-15-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-057-15-a",
-          "text": "にしても",
-          "grammarId": "n2-121",
-          "baseExpression": "にしても/にしろ/にせよ",
-          "conjugatedExpression": "にしても",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-057-15-b",
-          "text": "だけの",
-          "grammarId": "n2-057",
-          "baseExpression": "だけの",
-          "conjugatedExpression": "だけの",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-057-15-c",
-          "text": "にしたら",
-          "grammarId": "n2-119",
-          "baseExpression": "にしたら",
-          "conjugatedExpression": "にしたら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-057-15-d",
-          "text": "にしては",
-          "grammarId": "n2-120",
-          "baseExpression": "にしては",
-          "conjugatedExpression": "にしては",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
-      "sourceGrammarIds": [
-        "n2-057",
-        "n2-119",
-        "n2-120",
-        "n2-121"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-057-16",
-      "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlank": "この本を買いたいが、5000円払う（　　　）価値があるだろうか。",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
-      "answerChoiceId": "fb-extra20-n2-057-16-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-057-16-d",
-          "text": "からすると",
-          "grammarId": "n2-027",
-          "baseExpression": "からすると",
-          "conjugatedExpression": "からすると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-057-16-a",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-057-16-b",
-          "text": "だけの",
-          "grammarId": "n2-057",
-          "baseExpression": "だけの",
-          "conjugatedExpression": "だけの",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-057-16-c",
+          "id": "fb-created-n2-057-03-c",
           "text": "からして",
           "grammarId": "n2-026",
           "baseExpression": "からして",
@@ -1387,7 +413,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '모두 앞에서 진실을 밝힐 만큼의 용기는 아직 없다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
       "sourceGrammarIds": [
         "n2-057",
         "n2-026",
@@ -1395,21 +421,28 @@
         "n2-028"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-057-17",
+      "id": "fb-created-n2-057-04",
       "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlank": "この本を買いたいが、5000円払う（　　　）価値があるだろうか。",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
-      "answerChoiceId": "fb-extra20-n2-057-17-c",
+      "sentence": "彼には砂漠を一日中歩くための荷物を背負うだけの体力が残っていた。",
+      "sentenceWithBlank": "彼には砂漠を一日中歩くための荷物を背負う（　　　）体力が残っていた。",
+      "korean": "그에게는 사막을 온종일 걷기 위한 짐을 짊어질 만큼의 체력이 남아 있었다.",
+      "answerChoiceId": "fb-created-n2-057-04-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-057-17-c",
+          "id": "fb-created-n2-057-04-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-04-b",
           "text": "だけの",
           "grammarId": "n2-057",
           "baseExpression": "だけの",
@@ -1417,69 +450,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-057-17-d",
-          "text": "てこそ",
-          "grammarId": "n2-070",
-          "baseExpression": "てこそ",
-          "conjugatedExpression": "てこそ",
+          "id": "fb-created-n2-057-04-c",
+          "text": "からして",
+          "grammarId": "n2-026",
+          "baseExpression": "からして",
+          "conjugatedExpression": "からして",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-057-17-a",
-          "text": "てたまらない",
-          "grammarId": "n2-071",
-          "baseExpression": "てたまらない",
-          "conjugatedExpression": "てたまらない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-057-17-b",
-          "text": "てでも",
-          "grammarId": "n2-072",
-          "baseExpression": "てでも",
-          "conjugatedExpression": "てでも",
+          "id": "fb-created-n2-057-04-d",
+          "text": "からすると",
+          "grammarId": "n2-027",
+          "baseExpression": "からすると",
+          "conjugatedExpression": "からすると",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '그에게는 사막을 온종일 걷기 위한 짐을 짊어질 만큼의 체력이 남아 있었다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
       "sourceGrammarIds": [
         "n2-057",
-        "n2-070",
-        "n2-071",
-        "n2-072"
+        "n2-026",
+        "n2-027",
+        "n2-028"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-057-18",
+      "id": "fb-created-n2-057-05",
       "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlank": "この本を買いたいが、5000円払う（　　　）価値があるだろうか。",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
-      "answerChoiceId": "fb-extra20-n2-057-18-d",
+      "sentence": "警察は容疑者の逮捕に踏み切るだけの証拠を集めた。",
+      "sentenceWithBlank": "警察は容疑者の逮捕に踏み切る（　　　）証拠を集めた。",
+      "korean": "경찰은 용의자를 체포할 만한 증거를 모았다.",
+      "answerChoiceId": "fb-created-n2-057-05-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-057-18-b",
-          "text": "ことだ",
-          "grammarId": "n2-037",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-057-18-c",
-          "text": "ことだ",
-          "grammarId": "n2-038",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-057-18-d",
+          "id": "fb-created-n2-057-05-b",
           "text": "だけの",
           "grammarId": "n2-057",
           "baseExpression": "だけの",
@@ -1487,37 +495,121 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-057-18-a",
-          "text": "ことか",
-          "grammarId": "n2-036",
-          "baseExpression": "ことか",
-          "conjugatedExpression": "ことか",
+          "id": "fb-created-n2-057-05-c",
+          "text": "からして",
+          "grammarId": "n2-026",
+          "baseExpression": "からして",
+          "conjugatedExpression": "からして",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-05-d",
+          "text": "からすると",
+          "grammarId": "n2-027",
+          "baseExpression": "からすると",
+          "conjugatedExpression": "からすると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-05-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '경찰은 용의자를 체포할 만한 증거를 모았다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
       "sourceGrammarIds": [
         "n2-057",
-        "n2-036",
-        "n2-037",
-        "n2-038"
+        "n2-026",
+        "n2-027",
+        "n2-028"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-057-19",
+      "id": "fb-created-n2-057-06",
       "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlank": "この本を買いたいが、5000円払う（　　　）価値があるだろうか。",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
-      "answerChoiceId": "fb-extra20-n2-057-19-a",
+      "sentence": "今の給料では三人の子どもを養うだけの余裕がない。",
+      "sentenceWithBlank": "今の給料では三人の子どもを養う（　　　）余裕がない。",
+      "korean": "지금 월급으로는 세 아이를 부양할 만큼의 여유가 없다.",
+      "answerChoiceId": "fb-created-n2-057-06-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-057-19-a",
+          "id": "fb-created-n2-057-06-c",
+          "text": "からして",
+          "grammarId": "n2-026",
+          "baseExpression": "からして",
+          "conjugatedExpression": "からして",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-06-d",
+          "text": "からすると",
+          "grammarId": "n2-027",
+          "baseExpression": "からすると",
+          "conjugatedExpression": "からすると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-06-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-06-b",
+          "text": "だけの",
+          "grammarId": "n2-057",
+          "baseExpression": "だけの",
+          "conjugatedExpression": "だけの",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '지금 월급으로는 세 아이를 부양할 만큼의 여유가 없다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
+      "sourceGrammarIds": [
+        "n2-057",
+        "n2-026",
+        "n2-027",
+        "n2-028"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-057-07",
+      "level": "N2",
+      "sentence": "冬のこの島にもわざわざ訪れるだけの魅力がある。",
+      "sentenceWithBlank": "冬のこの島にもわざわざ訪れる（　　　）魅力がある。",
+      "korean": "겨울의 이 섬에도 일부러 찾아올 만한 매력이 있다.",
+      "answerChoiceId": "fb-created-n2-057-07-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-057-07-d",
+          "text": "からすると",
+          "grammarId": "n2-027",
+          "baseExpression": "からすると",
+          "conjugatedExpression": "からすると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-07-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-07-b",
           "text": "だけの",
           "grammarId": "n2-057",
           "baseExpression": "だけの",
@@ -1525,69 +617,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-057-19-b",
-          "text": "ずじまい",
-          "grammarId": "n2-051",
-          "baseExpression": "ずじまい",
-          "conjugatedExpression": "ずじまい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-057-19-c",
-          "text": "ずにはいられない",
-          "grammarId": "n2-052",
-          "baseExpression": "ずにはいられない",
-          "conjugatedExpression": "ずにはいられない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-057-19-d",
-          "text": "たいものだ",
-          "grammarId": "n2-053",
-          "baseExpression": "たいものだ",
-          "conjugatedExpression": "たいものだ",
+          "id": "fb-created-n2-057-07-c",
+          "text": "からして",
+          "grammarId": "n2-026",
+          "baseExpression": "からして",
+          "conjugatedExpression": "からして",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '겨울의 이 섬에도 일부러 찾아올 만한 매력이 있다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
       "sourceGrammarIds": [
         "n2-057",
-        "n2-051",
-        "n2-052",
-        "n2-053"
+        "n2-026",
+        "n2-027",
+        "n2-028"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-057-20",
+      "id": "fb-created-n2-057-08",
       "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlank": "この本を買いたいが、5000円払う（　　　）価値があるだろうか。",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
-      "answerChoiceId": "fb-extra20-n2-057-20-b",
+      "sentence": "祖父を自宅で介護するだけの忍耐力を家族全員が求められた。",
+      "sentenceWithBlank": "祖父を自宅で介護する（　　　）忍耐力を家族全員が求められた。",
+      "korean": "할아버지를 집에서 돌볼 만큼의 인내심이 가족 모두에게 요구되었다.",
+      "answerChoiceId": "fb-created-n2-057-08-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-057-20-d",
-          "text": "にしては",
-          "grammarId": "n2-120",
-          "baseExpression": "にしては",
-          "conjugatedExpression": "にしては",
+          "id": "fb-created-n2-057-08-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-057-20-a",
-          "text": "にしても",
-          "grammarId": "n2-121",
-          "baseExpression": "にしても/にしろ/にせよ",
-          "conjugatedExpression": "にしても",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-057-20-b",
+          "id": "fb-created-n2-057-08-b",
           "text": "だけの",
           "grammarId": "n2-057",
           "baseExpression": "だけの",
@@ -1595,25 +662,933 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-057-20-c",
-          "text": "にしたら",
-          "grammarId": "n2-119",
-          "baseExpression": "にしたら",
-          "conjugatedExpression": "にしたら",
+          "id": "fb-created-n2-057-08-c",
+          "text": "からして",
+          "grammarId": "n2-026",
+          "baseExpression": "からして",
+          "conjugatedExpression": "からして",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-08-d",
+          "text": "からすると",
+          "grammarId": "n2-027",
+          "baseExpression": "からすると",
+          "conjugatedExpression": "からすると",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '할아버지를 집에서 돌볼 만큼의 인내심이 가족 모두에게 요구되었다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
       "sourceGrammarIds": [
         "n2-057",
-        "n2-119",
-        "n2-120",
-        "n2-121"
+        "n2-026",
+        "n2-027",
+        "n2-028"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-057-09",
+      "level": "N2",
+      "sentence": "支店長には契約条件を変更するだけの権限が与えられていない。",
+      "sentenceWithBlank": "支店長には契約条件を変更する（　　　）権限が与えられていない。",
+      "korean": "지점장에게는 계약 조건을 변경할 만큼의 권한이 주어져 있지 않다.",
+      "answerChoiceId": "fb-created-n2-057-09-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-057-09-b",
+          "text": "だけの",
+          "grammarId": "n2-057",
+          "baseExpression": "だけの",
+          "conjugatedExpression": "だけの",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-057-09-c",
+          "text": "からして",
+          "grammarId": "n2-026",
+          "baseExpression": "からして",
+          "conjugatedExpression": "からして",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-09-d",
+          "text": "からすると",
+          "grammarId": "n2-027",
+          "baseExpression": "からすると",
+          "conjugatedExpression": "からすると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-09-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '지점장에게는 계약 조건을 변경할 만큼의 권한이 주어져 있지 않다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
+      "sourceGrammarIds": [
+        "n2-057",
+        "n2-026",
+        "n2-027",
+        "n2-028"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-057-10",
+      "level": "N2",
+      "sentence": "この部屋にはグランドピアノを置くだけの空間が確保できない。",
+      "sentenceWithBlank": "この部屋にはグランドピアノを置く（　　　）空間が確保できない。",
+      "korean": "이 방에는 그랜드피아노를 놓을 만큼의 공간을 확보할 수 없다.",
+      "answerChoiceId": "fb-created-n2-057-10-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-057-10-c",
+          "text": "からして",
+          "grammarId": "n2-026",
+          "baseExpression": "からして",
+          "conjugatedExpression": "からして",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-10-d",
+          "text": "からすると",
+          "grammarId": "n2-027",
+          "baseExpression": "からすると",
+          "conjugatedExpression": "からすると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-10-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-10-b",
+          "text": "だけの",
+          "grammarId": "n2-057",
+          "baseExpression": "だけの",
+          "conjugatedExpression": "だけの",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '이 방에는 그랜드피아노를 놓을 만큼의 공간을 확보할 수 없다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
+      "sourceGrammarIds": [
+        "n2-057",
+        "n2-026",
+        "n2-027",
+        "n2-028"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-057-11",
+      "level": "N2",
+      "sentence": "創業したばかりの会社には銀行から融資を受けるだけの信用がなかった。",
+      "sentenceWithBlank": "創業したばかりの会社には銀行から融資を受ける（　　　）信用がなかった。",
+      "korean": "창업한 지 얼마 안 된 회사에는 은행에서 융자를 받을 만큼의 신용이 없었다.",
+      "answerChoiceId": "fb-created-n2-057-11-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-057-11-d",
+          "text": "からすると",
+          "grammarId": "n2-027",
+          "baseExpression": "からすると",
+          "conjugatedExpression": "からすると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-11-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-11-b",
+          "text": "だけの",
+          "grammarId": "n2-057",
+          "baseExpression": "だけの",
+          "conjugatedExpression": "だけの",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-057-11-c",
+          "text": "からして",
+          "grammarId": "n2-026",
+          "baseExpression": "からして",
+          "conjugatedExpression": "からして",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '창업한 지 얼마 안 된 회사에는 은행에서 융자를 받을 만큼의 신용이 없었다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
+      "sourceGrammarIds": [
+        "n2-057",
+        "n2-026",
+        "n2-027",
+        "n2-028"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-057-12",
+      "level": "N2",
+      "sentence": "渋滞を避けて海岸沿いを回るだけの時間は残されている。",
+      "sentenceWithBlank": "渋滞を避けて海岸沿いを回る（　　　）時間は残されている。",
+      "korean": "정체를 피해 해안을 돌아갈 만큼의 시간은 남아 있다.",
+      "answerChoiceId": "fb-created-n2-057-12-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-057-12-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-12-b",
+          "text": "だけの",
+          "grammarId": "n2-057",
+          "baseExpression": "だけの",
+          "conjugatedExpression": "だけの",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-057-12-c",
+          "text": "からして",
+          "grammarId": "n2-026",
+          "baseExpression": "からして",
+          "conjugatedExpression": "からして",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-12-d",
+          "text": "からすると",
+          "grammarId": "n2-027",
+          "baseExpression": "からすると",
+          "conjugatedExpression": "からすると",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '정체를 피해 해안을 돌아갈 만큼의 시간은 남아 있다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
+      "sourceGrammarIds": [
+        "n2-057",
+        "n2-026",
+        "n2-027",
+        "n2-028"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-057-13",
+      "level": "N2",
+      "sentence": "貯水池には夏の干ばつを乗り切るだけの水が蓄えられている。",
+      "sentenceWithBlank": "貯水池には夏の干ばつを乗り切る（　　　）水が蓄えられている。",
+      "korean": "저수지에는 여름 가뭄을 견딜 만큼의 물이 비축되어 있다.",
+      "answerChoiceId": "fb-created-n2-057-13-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-057-13-b",
+          "text": "だけの",
+          "grammarId": "n2-057",
+          "baseExpression": "だけの",
+          "conjugatedExpression": "だけの",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-057-13-c",
+          "text": "からして",
+          "grammarId": "n2-026",
+          "baseExpression": "からして",
+          "conjugatedExpression": "からして",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-13-d",
+          "text": "からすると",
+          "grammarId": "n2-027",
+          "baseExpression": "からすると",
+          "conjugatedExpression": "からすると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-13-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '저수지에는 여름 가뭄을 견딜 만큼의 물이 비축되어 있다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
+      "sourceGrammarIds": [
+        "n2-057",
+        "n2-026",
+        "n2-027",
+        "n2-028"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-057-14",
+      "level": "N2",
+      "sentence": "安定した職を辞めて漁師になるだけの覚悟を兄は固めた。",
+      "sentenceWithBlank": "安定した職を辞めて漁師になる（　　　）覚悟を兄は固めた。",
+      "korean": "형은 안정된 직장을 그만두고 어부가 될 만큼의 각오를 다졌다.",
+      "answerChoiceId": "fb-created-n2-057-14-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-057-14-c",
+          "text": "からして",
+          "grammarId": "n2-026",
+          "baseExpression": "からして",
+          "conjugatedExpression": "からして",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-14-d",
+          "text": "からすると",
+          "grammarId": "n2-027",
+          "baseExpression": "からすると",
+          "conjugatedExpression": "からすると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-14-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-14-b",
+          "text": "だけの",
+          "grammarId": "n2-057",
+          "baseExpression": "だけの",
+          "conjugatedExpression": "だけの",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '형은 안정된 직장을 그만두고 어부가 될 만큼의 각오를 다졌다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
+      "sourceGrammarIds": [
+        "n2-057",
+        "n2-026",
+        "n2-027",
+        "n2-028"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-057-15",
+      "level": "N2",
+      "sentence": "彼女には海外の救援隊を率いるだけの経験がある。",
+      "sentenceWithBlank": "彼女には海外の救援隊を率いる（　　　）経験がある。",
+      "korean": "그녀에게는 해외 구호대를 이끌 만한 경험이 있다.",
+      "answerChoiceId": "fb-created-n2-057-15-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-057-15-d",
+          "text": "からすると",
+          "grammarId": "n2-027",
+          "baseExpression": "からすると",
+          "conjugatedExpression": "からすると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-15-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-15-b",
+          "text": "だけの",
+          "grammarId": "n2-057",
+          "baseExpression": "だけの",
+          "conjugatedExpression": "だけの",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-057-15-c",
+          "text": "からして",
+          "grammarId": "n2-026",
+          "baseExpression": "からして",
+          "conjugatedExpression": "からして",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '그녀에게는 해외 구호대를 이끌 만한 경험이 있다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
+      "sourceGrammarIds": [
+        "n2-057",
+        "n2-026",
+        "n2-027",
+        "n2-028"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-057-16",
+      "level": "N2",
+      "sentence": "山頂からの朝日は徹夜してでも待つだけの美しさだった。",
+      "sentenceWithBlank": "山頂からの朝日は徹夜してでも待つ（　　　）美しさだった。",
+      "korean": "산 정상에서 보는 해돋이는 밤을 새워서라도 기다릴 만한 아름다움이었다.",
+      "answerChoiceId": "fb-created-n2-057-16-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-057-16-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-16-b",
+          "text": "だけの",
+          "grammarId": "n2-057",
+          "baseExpression": "だけの",
+          "conjugatedExpression": "だけの",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-057-16-c",
+          "text": "からして",
+          "grammarId": "n2-026",
+          "baseExpression": "からして",
+          "conjugatedExpression": "からして",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-16-d",
+          "text": "からすると",
+          "grammarId": "n2-027",
+          "baseExpression": "からすると",
+          "conjugatedExpression": "からすると",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '산 정상에서 보는 해돋이는 밤을 새워서라도 기다릴 만한 아름다움이었다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
+      "sourceGrammarIds": [
+        "n2-057",
+        "n2-026",
+        "n2-027",
+        "n2-028"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-057-17",
+      "level": "N2",
+      "sentence": "委員会は住民の提案を退けるだけの根拠を示さなかった。",
+      "sentenceWithBlank": "委員会は住民の提案を退ける（　　　）根拠を示さなかった。",
+      "korean": "위원회는 주민의 제안을 기각할 만한 근거를 제시하지 않았다.",
+      "answerChoiceId": "fb-created-n2-057-17-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-057-17-b",
+          "text": "だけの",
+          "grammarId": "n2-057",
+          "baseExpression": "だけの",
+          "conjugatedExpression": "だけの",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-057-17-c",
+          "text": "からして",
+          "grammarId": "n2-026",
+          "baseExpression": "からして",
+          "conjugatedExpression": "からして",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-17-d",
+          "text": "からすると",
+          "grammarId": "n2-027",
+          "baseExpression": "からすると",
+          "conjugatedExpression": "からすると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-17-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '위원회는 주민의 제안을 기각할 만한 근거를 제시하지 않았다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
+      "sourceGrammarIds": [
+        "n2-057",
+        "n2-026",
+        "n2-027",
+        "n2-028"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-057-18",
+      "level": "N2",
+      "sentence": "この避難所には百人を受け入れるだけの収容力がある。",
+      "sentenceWithBlank": "この避難所には百人を受け入れる（　　　）収容力がある。",
+      "korean": "이 대피소에는 백 명을 받아들일 만큼의 수용 능력이 있다.",
+      "answerChoiceId": "fb-created-n2-057-18-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-057-18-c",
+          "text": "からして",
+          "grammarId": "n2-026",
+          "baseExpression": "からして",
+          "conjugatedExpression": "からして",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-18-d",
+          "text": "からすると",
+          "grammarId": "n2-027",
+          "baseExpression": "からすると",
+          "conjugatedExpression": "からすると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-18-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-18-b",
+          "text": "だけの",
+          "grammarId": "n2-057",
+          "baseExpression": "だけの",
+          "conjugatedExpression": "だけの",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '이 대피소에는 백 명을 받아들일 만큼의 수용 능력이 있다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
+      "sourceGrammarIds": [
+        "n2-057",
+        "n2-026",
+        "n2-027",
+        "n2-028"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-057-19",
+      "level": "N2",
+      "sentence": "利用者が減った路線には運行を続けるだけの採算性がない。",
+      "sentenceWithBlank": "利用者が減った路線には運行を続ける（　　　）採算性がない。",
+      "korean": "이용자가 줄어든 노선에는 운행을 계속할 만큼의 수익성이 없다.",
+      "answerChoiceId": "fb-created-n2-057-19-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-057-19-d",
+          "text": "からすると",
+          "grammarId": "n2-027",
+          "baseExpression": "からすると",
+          "conjugatedExpression": "からすると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-19-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-19-b",
+          "text": "だけの",
+          "grammarId": "n2-057",
+          "baseExpression": "だけの",
+          "conjugatedExpression": "だけの",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-057-19-c",
+          "text": "からして",
+          "grammarId": "n2-026",
+          "baseExpression": "からして",
+          "conjugatedExpression": "からして",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '이용자가 줄어든 노선에는 운행을 계속할 만큼의 수익성이 없다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
+      "sourceGrammarIds": [
+        "n2-057",
+        "n2-026",
+        "n2-027",
+        "n2-028"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-057-20",
+      "level": "N2",
+      "sentence": "その職人は損傷した壁画を元どおりに修復するだけの腕を持っている。",
+      "sentenceWithBlank": "その職人は損傷した壁画を元どおりに修復する（　　　）腕を持っている。",
+      "korean": "그 장인은 손상된 벽화를 원래대로 복원할 만한 솜씨를 지니고 있다.",
+      "answerChoiceId": "fb-created-n2-057-20-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-057-20-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-20-b",
+          "text": "だけの",
+          "grammarId": "n2-057",
+          "baseExpression": "だけの",
+          "conjugatedExpression": "だけの",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-057-20-c",
+          "text": "からして",
+          "grammarId": "n2-026",
+          "baseExpression": "からして",
+          "conjugatedExpression": "からして",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-20-d",
+          "text": "からすると",
+          "grammarId": "n2-027",
+          "baseExpression": "からすると",
+          "conjugatedExpression": "からすると",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '그 장인은 손상된 벽화를 원래대로 복원할 만한 솜씨를 지니고 있다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
+      "sourceGrammarIds": [
+        "n2-057",
+        "n2-026",
+        "n2-027",
+        "n2-028"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-057-21",
+      "level": "N2",
+      "sentence": "保証人を頼むだけの信頼関係を二人は築いていなかった。",
+      "sentenceWithBlank": "保証人を頼む（　　　）信頼関係を二人は築いていなかった。",
+      "korean": "두 사람은 보증인을 부탁할 만큼의 신뢰 관계를 쌓지 못했다.",
+      "answerChoiceId": "fb-created-n2-057-21-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-057-21-b",
+          "text": "だけの",
+          "grammarId": "n2-057",
+          "baseExpression": "だけの",
+          "conjugatedExpression": "だけの",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-057-21-c",
+          "text": "からして",
+          "grammarId": "n2-026",
+          "baseExpression": "からして",
+          "conjugatedExpression": "からして",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-21-d",
+          "text": "からすると",
+          "grammarId": "n2-027",
+          "baseExpression": "からすると",
+          "conjugatedExpression": "からすると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-21-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '두 사람은 보증인을 부탁할 만큼의 신뢰 관계를 쌓지 못했다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
+      "sourceGrammarIds": [
+        "n2-057",
+        "n2-026",
+        "n2-027",
+        "n2-028"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-057-22",
+      "level": "N2",
+      "sentence": "今回の事故には安全基準を見直すだけの重大さがある。",
+      "sentenceWithBlank": "今回の事故には安全基準を見直す（　　　）重大さがある。",
+      "korean": "이번 사고는 안전 기준을 재검토할 만큼 중대하다.",
+      "answerChoiceId": "fb-created-n2-057-22-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-057-22-c",
+          "text": "からして",
+          "grammarId": "n2-026",
+          "baseExpression": "からして",
+          "conjugatedExpression": "からして",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-22-d",
+          "text": "からすると",
+          "grammarId": "n2-027",
+          "baseExpression": "からすると",
+          "conjugatedExpression": "からすると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-22-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-22-b",
+          "text": "だけの",
+          "grammarId": "n2-057",
+          "baseExpression": "だけの",
+          "conjugatedExpression": "だけの",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '이번 사고는 안전 기준을 재검토할 만큼 중대하다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
+      "sourceGrammarIds": [
+        "n2-057",
+        "n2-026",
+        "n2-027",
+        "n2-028"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-057-23",
+      "level": "N2",
+      "sentence": "この検査装置は病気の早期診断に用いるだけの精度を備えている。",
+      "sentenceWithBlank": "この検査装置は病気の早期診断に用いる（　　　）精度を備えている。",
+      "korean": "이 검사 장치는 질병의 조기 진단에 사용할 만큼의 정확도를 갖추고 있다.",
+      "answerChoiceId": "fb-created-n2-057-23-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-057-23-d",
+          "text": "からすると",
+          "grammarId": "n2-027",
+          "baseExpression": "からすると",
+          "conjugatedExpression": "からすると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-23-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-23-b",
+          "text": "だけの",
+          "grammarId": "n2-057",
+          "baseExpression": "だけの",
+          "conjugatedExpression": "だけの",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-057-23-c",
+          "text": "からして",
+          "grammarId": "n2-026",
+          "baseExpression": "からして",
+          "conjugatedExpression": "からして",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '이 검사 장치는 질병의 조기 진단에 사용할 만큼의 정확도를 갖추고 있다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
+      "sourceGrammarIds": [
+        "n2-057",
+        "n2-026",
+        "n2-027",
+        "n2-028"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-057-24",
+      "level": "N2",
+      "sentence": "その寝袋には雪山で一晩過ごすだけの保温性がなかった。",
+      "sentenceWithBlank": "その寝袋には雪山で一晩過ごす（　　　）保温性がなかった。",
+      "korean": "그 침낭에는 설산에서 하룻밤을 보낼 만큼의 보온성이 없었다.",
+      "answerChoiceId": "fb-created-n2-057-24-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-057-24-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-24-b",
+          "text": "だけの",
+          "grammarId": "n2-057",
+          "baseExpression": "だけの",
+          "conjugatedExpression": "だけの",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-057-24-c",
+          "text": "からして",
+          "grammarId": "n2-026",
+          "baseExpression": "からして",
+          "conjugatedExpression": "からして",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-24-d",
+          "text": "からすると",
+          "grammarId": "n2-027",
+          "baseExpression": "からすると",
+          "conjugatedExpression": "からすると",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '그 침낭에는 설산에서 하룻밤을 보낼 만큼의 보온성이 없었다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
+      "sourceGrammarIds": [
+        "n2-057",
+        "n2-026",
+        "n2-027",
+        "n2-028"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-057-25",
+      "level": "N2",
+      "sentence": "この橋は大型車が何十年も通行するだけの耐久性を想定して設計された。",
+      "sentenceWithBlank": "この橋は大型車が何十年も通行する（　　　）耐久性を想定して設計された。",
+      "korean": "이 다리는 대형 차량이 수십 년간 통행할 만큼의 내구성을 고려해 설계되었다.",
+      "answerChoiceId": "fb-created-n2-057-25-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-057-25-b",
+          "text": "だけの",
+          "grammarId": "n2-057",
+          "baseExpression": "だけの",
+          "conjugatedExpression": "だけの",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-057-25-c",
+          "text": "からして",
+          "grammarId": "n2-026",
+          "baseExpression": "からして",
+          "conjugatedExpression": "からして",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-25-d",
+          "text": "からすると",
+          "grammarId": "n2-027",
+          "baseExpression": "からすると",
+          "conjugatedExpression": "からすると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-057-25-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '이 다리는 대형 차량이 수십 년간 통행할 만큼의 내구성을 고려해 설계되었다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
+      "sourceGrammarIds": [
+        "n2-057",
+        "n2-026",
+        "n2-027",
+        "n2-028"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
       ]
     }
   ],
@@ -1834,1103 +1809,1153 @@
       ]
     },
     {
-      "id": "so-extra-n2-057-1",
+      "id": "so-created-n2-057-01",
       "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlanks": "この本を買いたいが、5000円払う ____ ____ ____ ____",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
+      "sentence": "この難工事を任せるだけの技術を彼は十分に備えている。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 備えている。",
+      "korean": "그에게는 이 어려운 공사를 맡길 만한 기술이 충분히 갖추어져 있다.",
       "pieces": [
         {
-          "id": "so-extra-n2-057-1-p4",
-          "text": "ろうか",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-057-1-p1",
-          "text": "だけの",
-          "order": 1
-        },
-        {
-          "id": "so-extra-n2-057-1-p2",
-          "text": "価値が",
+          "id": "so-created-n2-057-01-p2",
+          "text": "工事を任せる",
           "order": 2
         },
         {
-          "id": "so-extra-n2-057-1-p3",
-          "text": "あるだ",
+          "id": "so-created-n2-057-01-p3",
+          "text": "だけの技術を",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-057-01-p4",
+          "text": "彼は十分に",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-057-01-p1",
+          "text": "この難",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-057-1-p1",
-        "so-extra-n2-057-1-p2",
-        "so-extra-n2-057-1-p3",
-        "so-extra-n2-057-1-p4"
+        "so-created-n2-057-01-p1",
+        "so-created-n2-057-01-p2",
+        "so-created-n2-057-01-p3",
+        "so-created-n2-057-01-p4"
       ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '그에게는 이 어려운 공사를 맡길 만한 기술이 충분히 갖추어져 있다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
       "sourceGrammarIds": [
-        "n2-057"
+        "n2-057",
+        "n2-026",
+        "n2-027",
+        "n2-028"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-057-2",
+      "id": "so-created-n2-057-02",
       "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlanks": "この本を買いたいが、5000円払う ____ ____ ____ ____",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
+      "sentence": "故郷を離れるだけの理由が彼女にはあった。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "그녀에게는 고향을 떠날 만한 이유가 있었다.",
       "pieces": [
         {
-          "id": "so-extra-n2-057-2-p1",
-          "text": "ろうか",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-057-2-p2",
-          "text": "だけの",
+          "id": "so-created-n2-057-02-p1",
+          "text": "故郷を",
           "order": 1
         },
         {
-          "id": "so-extra-n2-057-2-p3",
-          "text": "価値が",
+          "id": "so-created-n2-057-02-p2",
+          "text": "離れる",
           "order": 2
         },
         {
-          "id": "so-extra-n2-057-2-p4",
-          "text": "あるだ",
+          "id": "so-created-n2-057-02-p3",
+          "text": "だけの理由が",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-057-02-p4",
+          "text": "彼女にはあった。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-057-2-p2",
-        "so-extra-n2-057-2-p3",
-        "so-extra-n2-057-2-p4",
-        "so-extra-n2-057-2-p1"
+        "so-created-n2-057-02-p1",
+        "so-created-n2-057-02-p2",
+        "so-created-n2-057-02-p3",
+        "so-created-n2-057-02-p4"
       ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '그녀에게는 고향을 떠날 만한 이유가 있었다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
       "sourceGrammarIds": [
-        "n2-057"
+        "n2-057",
+        "n2-026",
+        "n2-027",
+        "n2-028"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-057-3",
+      "id": "so-created-n2-057-03",
       "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 価値があるだろうか。",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
+      "sentence": "皆の前で真実を告げるだけの勇気はまだない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "모두 앞에서 진실을 밝힐 만큼의 용기는 아직 없다.",
       "pieces": [
         {
-          "id": "so-extra-n2-057-3-p2",
-          "text": "あるだ",
+          "id": "so-created-n2-057-03-p4",
+          "text": "勇気はまだない。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-057-3-p3",
-          "text": "5000円払う",
+          "id": "so-created-n2-057-03-p1",
+          "text": "皆の前で",
           "order": 1
         },
         {
-          "id": "so-extra-n2-057-3-p4",
-          "text": "だけの",
+          "id": "so-created-n2-057-03-p2",
+          "text": "真実を",
           "order": 2
         },
         {
-          "id": "so-extra-n2-057-3-p1",
-          "text": "価値が",
+          "id": "so-created-n2-057-03-p3",
+          "text": "告げるだけの",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-057-3-p3",
-        "so-extra-n2-057-3-p4",
-        "so-extra-n2-057-3-p1",
-        "so-extra-n2-057-3-p2"
+        "so-created-n2-057-03-p1",
+        "so-created-n2-057-03-p2",
+        "so-created-n2-057-03-p3",
+        "so-created-n2-057-03-p4"
       ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '모두 앞에서 진실을 밝힐 만큼의 용기는 아직 없다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
       "sourceGrammarIds": [
-        "n2-057"
+        "n2-057",
+        "n2-026",
+        "n2-027",
+        "n2-028"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-057-4",
+      "id": "so-created-n2-057-04",
       "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlanks": "この本を買いたいが、5000円払う ____ ____ ____ ____",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
+      "sentence": "彼には砂漠を一日中歩くための荷物を背負うだけの体力が残っていた。",
+      "sentenceWithBlanks": "彼には ____ ____ ____ ____ 残っていた。",
+      "korean": "그에게는 사막을 온종일 걷기 위한 짐을 짊어질 만큼의 체력이 남아 있었다.",
       "pieces": [
         {
-          "id": "so-extra-n2-057-4-p3",
-          "text": "ろうか",
+          "id": "so-created-n2-057-04-p3",
+          "text": "荷物を背負う",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-057-04-p4",
+          "text": "だけの体力が",
           "order": 4
         },
         {
-          "id": "so-extra-n2-057-4-p4",
-          "text": "だけの",
+          "id": "so-created-n2-057-04-p1",
+          "text": "砂漠を一日中",
           "order": 1
         },
         {
-          "id": "so-extra-n2-057-4-p1",
-          "text": "価値が",
+          "id": "so-created-n2-057-04-p2",
+          "text": "歩くための",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-057-4-p2",
-          "text": "あるだ",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-057-4-p4",
-        "so-extra-n2-057-4-p1",
-        "so-extra-n2-057-4-p2",
-        "so-extra-n2-057-4-p3"
+        "so-created-n2-057-04-p1",
+        "so-created-n2-057-04-p2",
+        "so-created-n2-057-04-p3",
+        "so-created-n2-057-04-p4"
       ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '그에게는 사막을 온종일 걷기 위한 짐을 짊어질 만큼의 체력이 남아 있었다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
       "sourceGrammarIds": [
-        "n2-057"
+        "n2-057",
+        "n2-026",
+        "n2-027",
+        "n2-028"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-057-5",
+      "id": "so-created-n2-057-05",
       "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlanks": "この本を買いたいが、5000円払う ____ ____ ____ ____",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
+      "sentence": "警察は容疑者の逮捕に踏み切るだけの証拠を集めた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 集めた。",
+      "korean": "경찰은 용의자를 체포할 만한 증거를 모았다.",
       "pieces": [
         {
-          "id": "so-extra-n2-057-5-p4",
-          "text": "ろうか",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-057-5-p1",
-          "text": "だけの",
-          "order": 1
-        },
-        {
-          "id": "so-extra-n2-057-5-p2",
-          "text": "価値が",
+          "id": "so-created-n2-057-05-p2",
+          "text": "者の逮捕に",
           "order": 2
         },
         {
-          "id": "so-extra-n2-057-5-p3",
-          "text": "あるだ",
+          "id": "so-created-n2-057-05-p3",
+          "text": "踏み切る",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-057-05-p4",
+          "text": "だけの証拠を",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-057-05-p1",
+          "text": "警察は容疑",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-057-5-p1",
-        "so-extra-n2-057-5-p2",
-        "so-extra-n2-057-5-p3",
-        "so-extra-n2-057-5-p4"
+        "so-created-n2-057-05-p1",
+        "so-created-n2-057-05-p2",
+        "so-created-n2-057-05-p3",
+        "so-created-n2-057-05-p4"
       ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '경찰은 용의자를 체포할 만한 증거를 모았다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
       "sourceGrammarIds": [
-        "n2-057"
+        "n2-057",
+        "n2-026",
+        "n2-027",
+        "n2-028"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-057-01",
+      "id": "so-created-n2-057-06",
       "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlanks": "この本を買いたいが、5000円払う ____ ____ ____ ____",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
+      "sentence": "今の給料では三人の子どもを養うだけの余裕がない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "지금 월급으로는 세 아이를 부양할 만큼의 여유가 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-057-01-p4",
-          "text": "ろうか",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-057-01-p1",
-          "text": "だけの",
+          "id": "so-created-n2-057-06-p1",
+          "text": "今の給料では",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-057-01-p2",
-          "text": "価値が",
+          "id": "so-created-n2-057-06-p2",
+          "text": "三人の子どもを",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-057-01-p3",
-          "text": "あるだ",
+          "id": "so-created-n2-057-06-p3",
+          "text": "養うだけの",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-057-06-p4",
+          "text": "余裕がない。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-057-01-p1",
-        "so-extra20-n2-057-01-p2",
-        "so-extra20-n2-057-01-p3",
-        "so-extra20-n2-057-01-p4"
+        "so-created-n2-057-06-p1",
+        "so-created-n2-057-06-p2",
+        "so-created-n2-057-06-p3",
+        "so-created-n2-057-06-p4"
       ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '지금 월급으로는 세 아이를 부양할 만큼의 여유가 없다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
       "sourceGrammarIds": [
-        "n2-057"
+        "n2-057",
+        "n2-026",
+        "n2-027",
+        "n2-028"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-057-02",
+      "id": "so-created-n2-057-07",
       "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlanks": "この本を買いたいが、5000円払う ____ ____ ____ ____",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
+      "sentence": "冬のこの島にもわざわざ訪れるだけの魅力がある。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "겨울의 이 섬에도 일부러 찾아올 만한 매력이 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-057-02-p3",
-          "text": "価値が",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-057-02-p4",
-          "text": "あるだ",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-057-02-p1",
-          "text": "ろうか",
+          "id": "so-created-n2-057-07-p4",
+          "text": "魅力がある。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-057-02-p2",
-          "text": "だけの",
+          "id": "so-created-n2-057-07-p1",
+          "text": "冬のこの",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-057-07-p2",
+          "text": "島にもわざわざ",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-057-07-p3",
+          "text": "訪れるだけの",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-057-02-p2",
-        "so-extra20-n2-057-02-p3",
-        "so-extra20-n2-057-02-p4",
-        "so-extra20-n2-057-02-p1"
+        "so-created-n2-057-07-p1",
+        "so-created-n2-057-07-p2",
+        "so-created-n2-057-07-p3",
+        "so-created-n2-057-07-p4"
       ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '겨울의 이 섬에도 일부러 찾아올 만한 매력이 있다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
       "sourceGrammarIds": [
-        "n2-057"
+        "n2-057",
+        "n2-026",
+        "n2-027",
+        "n2-028"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-057-03",
+      "id": "so-created-n2-057-08",
       "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 価値があるだろうか。",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
+      "sentence": "祖父を自宅で介護するだけの忍耐力を家族全員が求められた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 求められた。",
+      "korean": "할아버지를 집에서 돌볼 만큼의 인내심이 가족 모두에게 요구되었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-057-03-p2",
-          "text": "あるだ",
+          "id": "so-created-n2-057-08-p3",
+          "text": "だけの忍耐力を",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-057-08-p4",
+          "text": "家族全員が",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-057-03-p3",
-          "text": "5000円払う",
+          "id": "so-created-n2-057-08-p1",
+          "text": "祖父を自宅で",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-057-03-p4",
-          "text": "だけの",
+          "id": "so-created-n2-057-08-p2",
+          "text": "介護する",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-057-03-p1",
-          "text": "価値が",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-057-03-p3",
-        "so-extra20-n2-057-03-p4",
-        "so-extra20-n2-057-03-p1",
-        "so-extra20-n2-057-03-p2"
+        "so-created-n2-057-08-p1",
+        "so-created-n2-057-08-p2",
+        "so-created-n2-057-08-p3",
+        "so-created-n2-057-08-p4"
       ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '할아버지를 집에서 돌볼 만큼의 인내심이 가족 모두에게 요구되었다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
       "sourceGrammarIds": [
-        "n2-057"
+        "n2-057",
+        "n2-026",
+        "n2-027",
+        "n2-028"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-057-04",
+      "id": "so-created-n2-057-09",
       "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlanks": "この本を買いたいが、5000円払う ____ ____ ____ ____",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
+      "sentence": "支店長には契約条件を変更するだけの権限が与えられていない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 与えられていない。",
+      "korean": "지점장에게는 계약 조건을 변경할 만큼의 권한이 주어져 있지 않다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-057-04-p1",
-          "text": "価値が",
+          "id": "so-created-n2-057-09-p2",
+          "text": "契約条件を",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-057-04-p2",
-          "text": "あるだ",
+          "id": "so-created-n2-057-09-p3",
+          "text": "変更する",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-057-04-p3",
-          "text": "ろうか",
+          "id": "so-created-n2-057-09-p4",
+          "text": "だけの権限が",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-057-04-p4",
-          "text": "だけの",
+          "id": "so-created-n2-057-09-p1",
+          "text": "支店長には",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-057-04-p4",
-        "so-extra20-n2-057-04-p1",
-        "so-extra20-n2-057-04-p2",
-        "so-extra20-n2-057-04-p3"
+        "so-created-n2-057-09-p1",
+        "so-created-n2-057-09-p2",
+        "so-created-n2-057-09-p3",
+        "so-created-n2-057-09-p4"
       ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '지점장에게는 계약 조건을 변경할 만큼의 권한이 주어져 있지 않다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
       "sourceGrammarIds": [
-        "n2-057"
+        "n2-057",
+        "n2-026",
+        "n2-027",
+        "n2-028"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-057-05",
+      "id": "so-created-n2-057-10",
       "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlanks": "この本を買いたいが、5000円払う ____ ____ ____ ____",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
+      "sentence": "この部屋にはグランドピアノを置くだけの空間が確保できない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 確保できない。",
+      "korean": "이 방에는 그랜드피아노를 놓을 만큼의 공간을 확보할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-057-05-p4",
-          "text": "ろうか",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-057-05-p1",
-          "text": "だけの",
+          "id": "so-created-n2-057-10-p1",
+          "text": "この部屋には",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-057-05-p2",
-          "text": "価値が",
+          "id": "so-created-n2-057-10-p2",
+          "text": "グランド",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-057-05-p3",
-          "text": "あるだ",
+          "id": "so-created-n2-057-10-p3",
+          "text": "ピアノを置く",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-057-10-p4",
+          "text": "だけの空間が",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-057-05-p1",
-        "so-extra20-n2-057-05-p2",
-        "so-extra20-n2-057-05-p3",
-        "so-extra20-n2-057-05-p4"
+        "so-created-n2-057-10-p1",
+        "so-created-n2-057-10-p2",
+        "so-created-n2-057-10-p3",
+        "so-created-n2-057-10-p4"
       ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '이 방에는 그랜드피아노를 놓을 만큼의 공간을 확보할 수 없다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
       "sourceGrammarIds": [
-        "n2-057"
+        "n2-057",
+        "n2-026",
+        "n2-027",
+        "n2-028"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-057-06",
+      "id": "so-created-n2-057-11",
       "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlanks": "この本を買いたいが、5000円払う ____ ____ ____ ____",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
+      "sentence": "創業したばかりの会社には銀行から融資を受けるだけの信用がなかった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 信用がなかった。",
+      "korean": "창업한 지 얼마 안 된 회사에는 은행에서 융자를 받을 만큼의 신용이 없었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-057-06-p3",
-          "text": "あるだ",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-057-06-p4",
-          "text": "ろうか",
+          "id": "so-created-n2-057-11-p4",
+          "text": "受けるだけの",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-057-06-p1",
-          "text": "だけの",
+          "id": "so-created-n2-057-11-p1",
+          "text": "創業したばかりの",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-057-06-p2",
-          "text": "価値が",
+          "id": "so-created-n2-057-11-p2",
+          "text": "会社には",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-057-11-p3",
+          "text": "銀行から融資を",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-057-06-p1",
-        "so-extra20-n2-057-06-p2",
-        "so-extra20-n2-057-06-p3",
-        "so-extra20-n2-057-06-p4"
+        "so-created-n2-057-11-p1",
+        "so-created-n2-057-11-p2",
+        "so-created-n2-057-11-p3",
+        "so-created-n2-057-11-p4"
       ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '창업한 지 얼마 안 된 회사에는 은행에서 융자를 받을 만큼의 신용이 없었다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
       "sourceGrammarIds": [
-        "n2-057"
+        "n2-057",
+        "n2-026",
+        "n2-027",
+        "n2-028"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-057-07",
+      "id": "so-created-n2-057-12",
       "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlanks": "この本を買いたいが、5000円払う ____ ____ ____ ____",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
+      "sentence": "渋滞を避けて海岸沿いを回るだけの時間は残されている。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "정체를 피해 해안을 돌아갈 만큼의 시간은 남아 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-057-07-p2",
-          "text": "だけの",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-057-07-p3",
-          "text": "価値が",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-057-07-p4",
-          "text": "あるだ",
+          "id": "so-created-n2-057-12-p3",
+          "text": "だけの時間は",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-057-07-p1",
-          "text": "ろうか",
+          "id": "so-created-n2-057-12-p4",
+          "text": "残されている。",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-057-12-p1",
+          "text": "渋滞を避けて",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-057-12-p2",
+          "text": "海岸沿いを回る",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-057-07-p2",
-        "so-extra20-n2-057-07-p3",
-        "so-extra20-n2-057-07-p4",
-        "so-extra20-n2-057-07-p1"
+        "so-created-n2-057-12-p1",
+        "so-created-n2-057-12-p2",
+        "so-created-n2-057-12-p3",
+        "so-created-n2-057-12-p4"
       ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '정체를 피해 해안을 돌아갈 만큼의 시간은 남아 있다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
       "sourceGrammarIds": [
-        "n2-057"
+        "n2-057",
+        "n2-026",
+        "n2-027",
+        "n2-028"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-057-08",
+      "id": "so-created-n2-057-13",
       "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 価値があるだろうか。",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
+      "sentence": "貯水池には夏の干ばつを乗り切るだけの水が蓄えられている。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "저수지에는 여름 가뭄을 견딜 만큼의 물이 비축되어 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-057-08-p1",
-          "text": "価値が",
+          "id": "so-created-n2-057-13-p2",
+          "text": "干ばつを乗り切る",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-057-13-p3",
+          "text": "だけの水が",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-057-08-p2",
-          "text": "あるだ",
+          "id": "so-created-n2-057-13-p4",
+          "text": "蓄えられている。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-057-08-p3",
-          "text": "5000円払う",
+          "id": "so-created-n2-057-13-p1",
+          "text": "貯水池には夏の",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-057-08-p4",
-          "text": "だけの",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-057-08-p3",
-        "so-extra20-n2-057-08-p4",
-        "so-extra20-n2-057-08-p1",
-        "so-extra20-n2-057-08-p2"
+        "so-created-n2-057-13-p1",
+        "so-created-n2-057-13-p2",
+        "so-created-n2-057-13-p3",
+        "so-created-n2-057-13-p4"
       ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '저수지에는 여름 가뭄을 견딜 만큼의 물이 비축되어 있다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
       "sourceGrammarIds": [
-        "n2-057"
+        "n2-057",
+        "n2-026",
+        "n2-027",
+        "n2-028"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-057-09",
+      "id": "so-created-n2-057-14",
       "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlanks": "この本を買いたいが、5000円払う ____ ____ ____ ____",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
+      "sentence": "安定した職を辞めて漁師になるだけの覚悟を兄は固めた。",
+      "sentenceWithBlanks": "安定した ____ ____ ____ ____",
+      "korean": "형은 안정된 직장을 그만두고 어부가 될 만큼의 각오를 다졌다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-057-09-p4",
-          "text": "だけの",
+          "id": "so-created-n2-057-14-p1",
+          "text": "職を辞めて",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-057-09-p1",
-          "text": "価値が",
+          "id": "so-created-n2-057-14-p2",
+          "text": "漁師になる",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-057-09-p2",
-          "text": "あるだ",
+          "id": "so-created-n2-057-14-p3",
+          "text": "だけの覚悟を",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-057-09-p3",
-          "text": "ろうか",
+          "id": "so-created-n2-057-14-p4",
+          "text": "兄は固めた。",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-057-09-p4",
-        "so-extra20-n2-057-09-p1",
-        "so-extra20-n2-057-09-p2",
-        "so-extra20-n2-057-09-p3"
+        "so-created-n2-057-14-p1",
+        "so-created-n2-057-14-p2",
+        "so-created-n2-057-14-p3",
+        "so-created-n2-057-14-p4"
       ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '형은 안정된 직장을 그만두고 어부가 될 만큼의 각오를 다졌다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
       "sourceGrammarIds": [
-        "n2-057"
+        "n2-057",
+        "n2-026",
+        "n2-027",
+        "n2-028"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-057-10",
+      "id": "so-created-n2-057-15",
       "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlanks": "この本を買いたいが、5000円払う ____ ____ ____ ____",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
+      "sentence": "彼女には海外の救援隊を率いるだけの経験がある。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "그녀에게는 해외 구호대를 이끌 만한 경험이 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-057-10-p3",
-          "text": "あるだ",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-057-10-p4",
-          "text": "ろうか",
+          "id": "so-created-n2-057-15-p4",
+          "text": "経験がある。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-057-10-p1",
-          "text": "だけの",
+          "id": "so-created-n2-057-15-p1",
+          "text": "彼女には",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-057-10-p2",
-          "text": "価値が",
+          "id": "so-created-n2-057-15-p2",
+          "text": "海外の救援隊を",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-057-15-p3",
+          "text": "率いるだけの",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-057-10-p1",
-        "so-extra20-n2-057-10-p2",
-        "so-extra20-n2-057-10-p3",
-        "so-extra20-n2-057-10-p4"
+        "so-created-n2-057-15-p1",
+        "so-created-n2-057-15-p2",
+        "so-created-n2-057-15-p3",
+        "so-created-n2-057-15-p4"
       ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '그녀에게는 해외 구호대를 이끌 만한 경험이 있다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
       "sourceGrammarIds": [
-        "n2-057"
+        "n2-057",
+        "n2-026",
+        "n2-027",
+        "n2-028"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-057-11",
+      "id": "so-created-n2-057-16",
       "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlanks": "この本を買いたいが、5000円払う ____ ____ ____ ____",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
+      "sentence": "山頂からの朝日は徹夜してでも待つだけの美しさだった。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "산 정상에서 보는 해돋이는 밤을 새워서라도 기다릴 만한 아름다움이었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-057-11-p2",
-          "text": "価値が",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-057-11-p3",
-          "text": "あるだ",
+          "id": "so-created-n2-057-16-p3",
+          "text": "待つだけの",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-057-11-p4",
-          "text": "ろうか",
+          "id": "so-created-n2-057-16-p4",
+          "text": "美しさだった。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-057-11-p1",
-          "text": "だけの",
+          "id": "so-created-n2-057-16-p1",
+          "text": "山頂からの朝日は",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-057-16-p2",
+          "text": "徹夜してでも",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-057-11-p1",
-        "so-extra20-n2-057-11-p2",
-        "so-extra20-n2-057-11-p3",
-        "so-extra20-n2-057-11-p4"
+        "so-created-n2-057-16-p1",
+        "so-created-n2-057-16-p2",
+        "so-created-n2-057-16-p3",
+        "so-created-n2-057-16-p4"
       ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '산 정상에서 보는 해돋이는 밤을 새워서라도 기다릴 만한 아름다움이었다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
       "sourceGrammarIds": [
-        "n2-057"
+        "n2-057",
+        "n2-026",
+        "n2-027",
+        "n2-028"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-057-12",
+      "id": "so-created-n2-057-17",
       "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlanks": "この本を買いたいが、5000円払う ____ ____ ____ ____",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
+      "sentence": "委員会は住民の提案を退けるだけの根拠を示さなかった。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "위원회는 주민의 제안을 기각할 만한 근거를 제시하지 않았다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-057-12-p1",
-          "text": "ろうか",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-057-12-p2",
-          "text": "だけの",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-057-12-p3",
-          "text": "価値が",
+          "id": "so-created-n2-057-17-p2",
+          "text": "提案を退ける",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-057-12-p4",
-          "text": "あるだ",
+          "id": "so-created-n2-057-17-p3",
+          "text": "だけの根拠を",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-057-17-p4",
+          "text": "示さなかった。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-057-17-p1",
+          "text": "委員会は住民の",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-057-12-p2",
-        "so-extra20-n2-057-12-p3",
-        "so-extra20-n2-057-12-p4",
-        "so-extra20-n2-057-12-p1"
+        "so-created-n2-057-17-p1",
+        "so-created-n2-057-17-p2",
+        "so-created-n2-057-17-p3",
+        "so-created-n2-057-17-p4"
       ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '위원회는 주민의 제안을 기각할 만한 근거를 제시하지 않았다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
       "sourceGrammarIds": [
-        "n2-057"
+        "n2-057",
+        "n2-026",
+        "n2-027",
+        "n2-028"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-057-13",
+      "id": "so-created-n2-057-18",
       "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 価値があるだろうか。",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
+      "sentence": "この避難所には百人を受け入れるだけの収容力がある。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "이 대피소에는 백 명을 받아들일 만큼의 수용 능력이 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-057-13-p4",
-          "text": "だけの",
+          "id": "so-created-n2-057-18-p1",
+          "text": "この避難所には",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-057-18-p2",
+          "text": "百人を受け入れる",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-057-13-p1",
-          "text": "価値が",
+          "id": "so-created-n2-057-18-p3",
+          "text": "だけの収容",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-057-13-p2",
-          "text": "あるだ",
+          "id": "so-created-n2-057-18-p4",
+          "text": "力がある。",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-057-13-p3",
-          "text": "5000円払う",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-057-13-p3",
-        "so-extra20-n2-057-13-p4",
-        "so-extra20-n2-057-13-p1",
-        "so-extra20-n2-057-13-p2"
+        "so-created-n2-057-18-p1",
+        "so-created-n2-057-18-p2",
+        "so-created-n2-057-18-p3",
+        "so-created-n2-057-18-p4"
       ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '이 대피소에는 백 명을 받아들일 만큼의 수용 능력이 있다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
       "sourceGrammarIds": [
-        "n2-057"
+        "n2-057",
+        "n2-026",
+        "n2-027",
+        "n2-028"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-057-14",
+      "id": "so-created-n2-057-19",
       "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlanks": "この本を買いたいが、5000円払う ____ ____ ____ ____",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
+      "sentence": "利用者が減った路線には運行を続けるだけの採算性がない。",
+      "sentenceWithBlanks": "利用 ____ ____ ____ ____ 性がない。",
+      "korean": "이용자가 줄어든 노선에는 운행을 계속할 만큼의 수익성이 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-057-14-p3",
-          "text": "ろうか",
+          "id": "so-created-n2-057-19-p4",
+          "text": "だけの採算",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-057-14-p4",
-          "text": "だけの",
+          "id": "so-created-n2-057-19-p1",
+          "text": "者が減った",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-057-14-p1",
-          "text": "価値が",
+          "id": "so-created-n2-057-19-p2",
+          "text": "路線には",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-057-14-p2",
-          "text": "あるだ",
+          "id": "so-created-n2-057-19-p3",
+          "text": "運行を続ける",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-057-14-p4",
-        "so-extra20-n2-057-14-p1",
-        "so-extra20-n2-057-14-p2",
-        "so-extra20-n2-057-14-p3"
+        "so-created-n2-057-19-p1",
+        "so-created-n2-057-19-p2",
+        "so-created-n2-057-19-p3",
+        "so-created-n2-057-19-p4"
       ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '이용자가 줄어든 노선에는 운행을 계속할 만큼의 수익성이 없다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
       "sourceGrammarIds": [
-        "n2-057"
+        "n2-057",
+        "n2-026",
+        "n2-027",
+        "n2-028"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-057-15",
+      "id": "so-created-n2-057-20",
       "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlanks": "この本を買いたいが、5000円払う ____ ____ ____ ____",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
+      "sentence": "その職人は損傷した壁画を元どおりに修復するだけの腕を持っている。",
+      "sentenceWithBlanks": "その ____ ____ ____ ____ 持っている。",
+      "korean": "그 장인은 손상된 벽화를 원래대로 복원할 만한 솜씨를 지니고 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-057-15-p2",
-          "text": "価値が",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-057-15-p3",
-          "text": "あるだ",
+          "id": "so-created-n2-057-20-p3",
+          "text": "修復する",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-057-15-p4",
-          "text": "ろうか",
+          "id": "so-created-n2-057-20-p4",
+          "text": "だけの腕を",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-057-15-p1",
-          "text": "だけの",
+          "id": "so-created-n2-057-20-p1",
+          "text": "職人は損傷した",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-057-20-p2",
+          "text": "壁画を元どおりに",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-057-15-p1",
-        "so-extra20-n2-057-15-p2",
-        "so-extra20-n2-057-15-p3",
-        "so-extra20-n2-057-15-p4"
+        "so-created-n2-057-20-p1",
+        "so-created-n2-057-20-p2",
+        "so-created-n2-057-20-p3",
+        "so-created-n2-057-20-p4"
       ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '그 장인은 손상된 벽화를 원래대로 복원할 만한 솜씨를 지니고 있다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
       "sourceGrammarIds": [
-        "n2-057"
+        "n2-057",
+        "n2-026",
+        "n2-027",
+        "n2-028"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-057-16",
+      "id": "so-created-n2-057-21",
       "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlanks": "この本を買いたいが、5000円払う ____ ____ ____ ____",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
+      "sentence": "保証人を頼むだけの信頼関係を二人は築いていなかった。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "두 사람은 보증인을 부탁할 만큼의 신뢰 관계를 쌓지 못했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-057-16-p1",
-          "text": "だけの",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-057-16-p2",
-          "text": "価値が",
+          "id": "so-created-n2-057-21-p2",
+          "text": "だけの信頼",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-057-16-p3",
-          "text": "あるだ",
+          "id": "so-created-n2-057-21-p3",
+          "text": "関係を二人は",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-057-16-p4",
-          "text": "ろうか",
+          "id": "so-created-n2-057-21-p4",
+          "text": "築いていなかった。",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-057-21-p1",
+          "text": "保証人を頼む",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-057-16-p1",
-        "so-extra20-n2-057-16-p2",
-        "so-extra20-n2-057-16-p3",
-        "so-extra20-n2-057-16-p4"
+        "so-created-n2-057-21-p1",
+        "so-created-n2-057-21-p2",
+        "so-created-n2-057-21-p3",
+        "so-created-n2-057-21-p4"
       ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '두 사람은 보증인을 부탁할 만큼의 신뢰 관계를 쌓지 못했다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
       "sourceGrammarIds": [
-        "n2-057"
+        "n2-057",
+        "n2-026",
+        "n2-027",
+        "n2-028"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-057-17",
+      "id": "so-created-n2-057-22",
       "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlanks": "この本を買いたいが、5000円払う ____ ____ ____ ____",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
+      "sentence": "今回の事故には安全基準を見直すだけの重大さがある。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "이번 사고는 안전 기준을 재검토할 만큼 중대하다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-057-17-p4",
-          "text": "あるだ",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-057-17-p1",
-          "text": "ろうか",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-057-17-p2",
-          "text": "だけの",
+          "id": "so-created-n2-057-22-p1",
+          "text": "今回の事故には",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-057-17-p3",
-          "text": "価値が",
+          "id": "so-created-n2-057-22-p2",
+          "text": "安全基準を",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-057-22-p3",
+          "text": "見直すだけの",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-057-22-p4",
+          "text": "重大さがある。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-057-17-p2",
-        "so-extra20-n2-057-17-p3",
-        "so-extra20-n2-057-17-p4",
-        "so-extra20-n2-057-17-p1"
+        "so-created-n2-057-22-p1",
+        "so-created-n2-057-22-p2",
+        "so-created-n2-057-22-p3",
+        "so-created-n2-057-22-p4"
       ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '이번 사고는 안전 기준을 재검토할 만큼 중대하다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
       "sourceGrammarIds": [
-        "n2-057"
+        "n2-057",
+        "n2-026",
+        "n2-027",
+        "n2-028"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-057-18",
+      "id": "so-created-n2-057-23",
       "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 価値があるだろうか。",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
+      "sentence": "この検査装置は病気の早期診断に用いるだけの精度を備えている。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 精度を備えている。",
+      "korean": "이 검사 장치는 질병의 조기 진단에 사용할 만큼의 정확도를 갖추고 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-057-18-p3",
-          "text": "5000円払う",
+          "id": "so-created-n2-057-23-p4",
+          "text": "用いるだけの",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-057-23-p1",
+          "text": "この検査",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-057-18-p4",
-          "text": "だけの",
+          "id": "so-created-n2-057-23-p2",
+          "text": "装置は病気の",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-057-18-p1",
-          "text": "価値が",
+          "id": "so-created-n2-057-23-p3",
+          "text": "早期診断に",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-057-18-p2",
-          "text": "あるだ",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-057-18-p3",
-        "so-extra20-n2-057-18-p4",
-        "so-extra20-n2-057-18-p1",
-        "so-extra20-n2-057-18-p2"
+        "so-created-n2-057-23-p1",
+        "so-created-n2-057-23-p2",
+        "so-created-n2-057-23-p3",
+        "so-created-n2-057-23-p4"
       ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '이 검사 장치는 질병의 조기 진단에 사용할 만큼의 정확도를 갖추고 있다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
       "sourceGrammarIds": [
-        "n2-057"
+        "n2-057",
+        "n2-026",
+        "n2-027",
+        "n2-028"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-057-19",
+      "id": "so-created-n2-057-24",
       "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlanks": "この本を買いたいが、5000円払う ____ ____ ____ ____",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
+      "sentence": "その寝袋には雪山で一晩過ごすだけの保温性がなかった。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "그 침낭에는 설산에서 하룻밤을 보낼 만큼의 보온성이 없었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-057-19-p2",
-          "text": "あるだ",
+          "id": "so-created-n2-057-24-p3",
+          "text": "過ごすだけの保温",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-057-19-p3",
-          "text": "ろうか",
+          "id": "so-created-n2-057-24-p4",
+          "text": "性がなかった。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-057-19-p4",
-          "text": "だけの",
+          "id": "so-created-n2-057-24-p1",
+          "text": "その寝袋には",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-057-19-p1",
-          "text": "価値が",
+          "id": "so-created-n2-057-24-p2",
+          "text": "雪山で一晩",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-057-19-p4",
-        "so-extra20-n2-057-19-p1",
-        "so-extra20-n2-057-19-p2",
-        "so-extra20-n2-057-19-p3"
+        "so-created-n2-057-24-p1",
+        "so-created-n2-057-24-p2",
+        "so-created-n2-057-24-p3",
+        "so-created-n2-057-24-p4"
       ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '그 침낭에는 설산에서 하룻밤을 보낼 만큼의 보온성이 없었다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
       "sourceGrammarIds": [
-        "n2-057"
+        "n2-057",
+        "n2-026",
+        "n2-027",
+        "n2-028"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-057-20",
+      "id": "so-created-n2-057-25",
       "level": "N2",
-      "sentence": "この本を買いたいが、5000円払うだけの価値があるだろうか。",
-      "sentenceWithBlanks": "この本を買いたいが、5000円払う ____ ____ ____ ____",
-      "korean": "이 책을 사고 싶지만 5000엔을 낼 만한 가치가 있을까.",
+      "sentence": "この橋は大型車が何十年も通行するだけの耐久性を想定して設計された。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 想定して設計された。",
+      "korean": "이 다리는 대형 차량이 수십 년간 통행할 만큼의 내구성을 고려해 설계되었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-057-20-p1",
-          "text": "だけの",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-057-20-p2",
-          "text": "価値が",
+          "id": "so-created-n2-057-25-p2",
+          "text": "車が何十年も",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-057-20-p3",
-          "text": "あるだ",
+          "id": "so-created-n2-057-25-p3",
+          "text": "通行する",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-057-20-p4",
-          "text": "ろうか",
+          "id": "so-created-n2-057-25-p4",
+          "text": "だけの耐久性を",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-057-25-p1",
+          "text": "この橋は大型",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-057-20-p1",
-        "so-extra20-n2-057-20-p2",
-        "so-extra20-n2-057-20-p3",
-        "so-extra20-n2-057-20-p4"
+        "so-created-n2-057-25-p1",
+        "so-created-n2-057-25-p2",
+        "so-created-n2-057-25-p3",
+        "so-created-n2-057-25-p4"
       ],
-      "explanation": "「だけの」는 ~할 만한, ~할 만큼의라는 뜻이다. 그 정도의 가치·자격·이유가 있음.",
+      "explanation": "「だけの」는 '~할 만한, ~할 만큼의'라는 뜻을 나타낸다. 이 문장에서는 '이 다리는 대형 차량이 수십 년간 통행할 만큼의 내구성을 고려해 설계되었다.'라는 상황에 쓰였으며, 그 정도의 가치·자격·이유가 있음. 주의할 점은 「だけの価値がある」처럼 가치·자격 판단에 씀. 뒤에 명사가 반드시 옴.",
       "sourceGrammarIds": [
-        "n2-057"
+        "n2-057",
+        "n2-026",
+        "n2-027",
+        "n2-028"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     }
   ]

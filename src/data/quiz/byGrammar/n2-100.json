@@ -267,15 +267,23 @@
       ]
     },
     {
-      "id": "fb-extra-n2-100-1",
+      "id": "fb-created-n2-100-01",
       "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlank": "行きたく（　　　）が、今日は少し疲れている。",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
-      "answerChoiceId": "fb-extra-n2-100-1-a",
+      "sentence": "家賃補助が出るなら、地方支社への異動も受け入れないでもない。",
+      "sentenceWithBlank": "家賃補助が出るなら、地方支社への異動も受け入れ（　　　）。",
+      "korean": "주거비 보조가 나온다면 지방 지사로의 이동도 받아들이지 못할 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-100-01-a",
       "choices": [
         {
-          "id": "fb-extra-n2-100-1-b",
+          "id": "fb-created-n2-100-01-a",
+          "text": "ないでもない",
+          "grammarId": "n2-100",
+          "baseExpression": "ないでもない",
+          "conjugatedExpression": "ないでもない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-100-01-b",
           "text": "ではないか",
           "grammarId": "n2-075",
           "baseExpression": "ではないか",
@@ -283,7 +291,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-100-1-c",
+          "id": "fb-created-n2-100-01-c",
           "text": "ではないか",
           "grammarId": "n2-076",
           "baseExpression": "ではないか",
@@ -291,23 +299,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-100-1-d",
+          "id": "fb-created-n2-100-01-d",
           "text": "てほしいものだ",
           "grammarId": "n2-077",
           "baseExpression": "てほしいものだ",
           "conjugatedExpression": "てほしいものだ",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-100-1-a",
-          "text": "ないでもない",
-          "grammarId": "n2-100",
-          "baseExpression": "ないでもない",
-          "conjugatedExpression": "ないでもない",
-          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '주거비 보조가 나온다면 지방 지사로의 이동도 받아들이지 못할 것은 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
       "sourceGrammarIds": [
         "n2-100",
         "n2-075",
@@ -315,237 +315,20 @@
         "n2-077"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra-n2-100-2",
+      "id": "fb-created-n2-100-02",
       "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlank": "行きたく（　　　）が、今日は少し疲れている。",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
-      "answerChoiceId": "fb-extra-n2-100-2-d",
+      "sentence": "香りは強いが、この発酵チーズも少量なら口にしないでもない。",
+      "sentenceWithBlank": "香りは強いが、この発酵チーズも少量なら口にし（　　　）。",
+      "korean": "향은 강하지만 이 발효 치즈도 소량이라면 먹지 못할 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-100-02-a",
       "choices": [
         {
-          "id": "fb-extra-n2-100-2-c",
-          "text": "はともかく",
-          "grammarId": "n2-143",
-          "baseExpression": "はともかく",
-          "conjugatedExpression": "はともかく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-100-2-d",
-          "text": "ないでもない",
-          "grammarId": "n2-100",
-          "baseExpression": "ないでもない",
-          "conjugatedExpression": "ないでもない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-100-2-a",
-          "text": "はさておき",
-          "grammarId": "n2-141",
-          "baseExpression": "はさておき",
-          "conjugatedExpression": "はさておき",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-100-2-b",
-          "text": "はというと",
-          "grammarId": "n2-142",
-          "baseExpression": "はというと",
-          "conjugatedExpression": "はというと",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
-      "sourceGrammarIds": [
-        "n2-100",
-        "n2-141",
-        "n2-142",
-        "n2-143"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-100-3",
-      "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlank": "行きたく（　　　）が、今日は少し疲れている。",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
-      "answerChoiceId": "fb-extra-n2-100-3-c",
-      "choices": [
-        {
-          "id": "fb-extra-n2-100-3-d",
-          "text": "わけにはいかない",
-          "grammarId": "n2-170",
-          "baseExpression": "わけにはいかない",
-          "conjugatedExpression": "わけにはいかない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-100-3-a",
-          "text": "わりには",
-          "grammarId": "n2-171",
-          "baseExpression": "わりには",
-          "conjugatedExpression": "わりには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-100-3-b",
-          "text": "を契機に",
-          "grammarId": "n2-172",
-          "baseExpression": "を契機に",
-          "conjugatedExpression": "を契機に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-100-3-c",
-          "text": "ないでもない",
-          "grammarId": "n2-100",
-          "baseExpression": "ないでもない",
-          "conjugatedExpression": "ないでもない",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
-      "sourceGrammarIds": [
-        "n2-100",
-        "n2-170",
-        "n2-171",
-        "n2-172"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-100-4",
-      "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlank": "行きたく（　　　）が、今日は少し疲れている。",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
-      "answerChoiceId": "fb-extra-n2-100-4-b",
-      "choices": [
-        {
-          "id": "fb-extra-n2-100-4-a",
-          "text": "たとたんに",
-          "grammarId": "n2-060",
-          "baseExpression": "たとたんに",
-          "conjugatedExpression": "たとたんに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-100-4-b",
-          "text": "ないでもない",
-          "grammarId": "n2-100",
-          "baseExpression": "ないでもない",
-          "conjugatedExpression": "ないでもない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-100-4-c",
-          "text": "たところ",
-          "grammarId": "n2-058",
-          "baseExpression": "たところ",
-          "conjugatedExpression": "たところ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-100-4-d",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
-      "sourceGrammarIds": [
-        "n2-100",
-        "n2-058",
-        "n2-059",
-        "n2-060"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-100-5",
-      "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlank": "行きたく（　　　）が、今日は少し疲れている。",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
-      "answerChoiceId": "fb-extra-n2-100-5-a",
-      "choices": [
-        {
-          "id": "fb-extra-n2-100-5-b",
-          "text": "に関して",
-          "grammarId": "n2-112",
-          "baseExpression": "に関して",
-          "conjugatedExpression": "に関して",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-100-5-c",
-          "text": "に加えて",
-          "grammarId": "n2-113",
-          "baseExpression": "に加えて",
-          "conjugatedExpression": "に加えて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-100-5-d",
-          "text": "にこしたことはない",
-          "grammarId": "n2-114",
-          "baseExpression": "にこしたことはない",
-          "conjugatedExpression": "にこしたことはない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-100-5-a",
-          "text": "ないでもない",
-          "grammarId": "n2-100",
-          "baseExpression": "ないでもない",
-          "conjugatedExpression": "ないでもない",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
-      "sourceGrammarIds": [
-        "n2-100",
-        "n2-112",
-        "n2-113",
-        "n2-114"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-100-01",
-      "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlank": "行きたく（　　　）が、今日は少し疲れている。",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
-      "answerChoiceId": "fb-extra20-n2-100-01-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-100-01-b",
+          "id": "fb-created-n2-100-02-b",
           "text": "ではないか",
           "grammarId": "n2-075",
           "baseExpression": "ではないか",
@@ -553,7 +336,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-100-01-c",
+          "id": "fb-created-n2-100-02-c",
           "text": "ではないか",
           "grammarId": "n2-076",
           "baseExpression": "ではないか",
@@ -561,7 +344,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-100-01-d",
+          "id": "fb-created-n2-100-02-d",
           "text": "てほしいものだ",
           "grammarId": "n2-077",
           "baseExpression": "てほしいものだ",
@@ -569,7 +352,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-100-01-a",
+          "id": "fb-created-n2-100-02-a",
           "text": "ないでもない",
           "grammarId": "n2-100",
           "baseExpression": "ないでもない",
@@ -577,7 +360,7 @@
           "isSimilarDistractor": false
         }
       ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '향은 강하지만 이 발효 치즈도 소량이라면 먹지 못할 것은 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
       "sourceGrammarIds": [
         "n2-100",
         "n2-075",
@@ -585,253 +368,20 @@
         "n2-077"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-100-02",
+      "id": "fb-created-n2-100-03",
       "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlank": "行きたく（　　　）が、今日は少し疲れている。",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
-      "answerChoiceId": "fb-extra20-n2-100-02-d",
+      "sentence": "来週だけなら、出張中の隣人に代わって猫を預からないでもない。",
+      "sentenceWithBlank": "来週だけなら、出張中の隣人に代わって猫を預から（　　　）。",
+      "korean": "다음 주뿐이라면 출장 중인 이웃을 대신해 고양이를 맡아 주지 못할 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-100-03-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-100-02-a",
-          "text": "はさておき",
-          "grammarId": "n2-141",
-          "baseExpression": "はさておき",
-          "conjugatedExpression": "はさておき",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-100-02-b",
-          "text": "はというと",
-          "grammarId": "n2-142",
-          "baseExpression": "はというと",
-          "conjugatedExpression": "はというと",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-100-02-c",
-          "text": "はともかく",
-          "grammarId": "n2-143",
-          "baseExpression": "はともかく",
-          "conjugatedExpression": "はともかく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-100-02-d",
-          "text": "ないでもない",
-          "grammarId": "n2-100",
-          "baseExpression": "ないでもない",
-          "conjugatedExpression": "ないでもない",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
-      "sourceGrammarIds": [
-        "n2-100",
-        "n2-141",
-        "n2-142",
-        "n2-143"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-100-03",
-      "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlank": "行きたく（　　　）が、今日は少し疲れている。",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
-      "answerChoiceId": "fb-extra20-n2-100-03-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-100-03-d",
-          "text": "わけにはいかない",
-          "grammarId": "n2-170",
-          "baseExpression": "わけにはいかない",
-          "conjugatedExpression": "わけにはいかない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-100-03-a",
-          "text": "わりには",
-          "grammarId": "n2-171",
-          "baseExpression": "わりには",
-          "conjugatedExpression": "わりには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-100-03-b",
-          "text": "を契機に",
-          "grammarId": "n2-172",
-          "baseExpression": "を契機に",
-          "conjugatedExpression": "を契機に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-100-03-c",
-          "text": "ないでもない",
-          "grammarId": "n2-100",
-          "baseExpression": "ないでもない",
-          "conjugatedExpression": "ないでもない",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
-      "sourceGrammarIds": [
-        "n2-100",
-        "n2-170",
-        "n2-171",
-        "n2-172"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-100-04",
-      "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlank": "行きたく（　　　）が、今日は少し疲れている。",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
-      "answerChoiceId": "fb-extra20-n2-100-04-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-100-04-c",
-          "text": "たところ",
-          "grammarId": "n2-058",
-          "baseExpression": "たところ",
-          "conjugatedExpression": "たところ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-100-04-d",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-100-04-a",
-          "text": "たとたんに",
-          "grammarId": "n2-060",
-          "baseExpression": "たとたんに",
-          "conjugatedExpression": "たとたんに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-100-04-b",
-          "text": "ないでもない",
-          "grammarId": "n2-100",
-          "baseExpression": "ないでもない",
-          "conjugatedExpression": "ないでもない",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
-      "sourceGrammarIds": [
-        "n2-100",
-        "n2-058",
-        "n2-059",
-        "n2-060"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-100-05",
-      "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlank": "行きたく（　　　）が、今日は少し疲れている。",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
-      "answerChoiceId": "fb-extra20-n2-100-05-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-100-05-b",
-          "text": "に関して",
-          "grammarId": "n2-112",
-          "baseExpression": "に関して",
-          "conjugatedExpression": "に関して",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-100-05-c",
-          "text": "に加えて",
-          "grammarId": "n2-113",
-          "baseExpression": "に加えて",
-          "conjugatedExpression": "に加えて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-100-05-d",
-          "text": "にこしたことはない",
-          "grammarId": "n2-114",
-          "baseExpression": "にこしたことはない",
-          "conjugatedExpression": "にこしたことはない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-100-05-a",
-          "text": "ないでもない",
-          "grammarId": "n2-100",
-          "baseExpression": "ないでもない",
-          "conjugatedExpression": "ないでもない",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
-      "sourceGrammarIds": [
-        "n2-100",
-        "n2-112",
-        "n2-113",
-        "n2-114"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-100-06",
-      "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlank": "行きたく（　　　）が、今日は少し疲れている。",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
-      "answerChoiceId": "fb-extra20-n2-100-06-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-100-06-a",
-          "text": "ないでもない",
-          "grammarId": "n2-100",
-          "baseExpression": "ないでもない",
-          "conjugatedExpression": "ないでもない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-100-06-b",
-          "text": "ではないか",
-          "grammarId": "n2-075",
-          "baseExpression": "ではないか",
-          "conjugatedExpression": "ではないか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-100-06-c",
+          "id": "fb-created-n2-100-03-c",
           "text": "ではないか",
           "grammarId": "n2-076",
           "baseExpression": "ではないか",
@@ -839,253 +389,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-100-06-d",
-          "text": "てほしいものだ",
-          "grammarId": "n2-077",
-          "baseExpression": "てほしいものだ",
-          "conjugatedExpression": "てほしいものだ",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
-      "sourceGrammarIds": [
-        "n2-100",
-        "n2-075",
-        "n2-076",
-        "n2-077"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-100-07",
-      "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlank": "行きたく（　　　）が、今日は少し疲れている。",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
-      "answerChoiceId": "fb-extra20-n2-100-07-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-100-07-d",
-          "text": "ないでもない",
-          "grammarId": "n2-100",
-          "baseExpression": "ないでもない",
-          "conjugatedExpression": "ないでもない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-100-07-a",
-          "text": "はさておき",
-          "grammarId": "n2-141",
-          "baseExpression": "はさておき",
-          "conjugatedExpression": "はさておき",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-100-07-b",
-          "text": "はというと",
-          "grammarId": "n2-142",
-          "baseExpression": "はというと",
-          "conjugatedExpression": "はというと",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-100-07-c",
-          "text": "はともかく",
-          "grammarId": "n2-143",
-          "baseExpression": "はともかく",
-          "conjugatedExpression": "はともかく",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
-      "sourceGrammarIds": [
-        "n2-100",
-        "n2-141",
-        "n2-142",
-        "n2-143"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-100-08",
-      "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlank": "行きたく（　　　）が、今日は少し疲れている。",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
-      "answerChoiceId": "fb-extra20-n2-100-08-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-100-08-c",
-          "text": "ないでもない",
-          "grammarId": "n2-100",
-          "baseExpression": "ないでもない",
-          "conjugatedExpression": "ないでもない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-100-08-d",
-          "text": "わけにはいかない",
-          "grammarId": "n2-170",
-          "baseExpression": "わけにはいかない",
-          "conjugatedExpression": "わけにはいかない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-100-08-a",
-          "text": "わりには",
-          "grammarId": "n2-171",
-          "baseExpression": "わりには",
-          "conjugatedExpression": "わりには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-100-08-b",
-          "text": "を契機に",
-          "grammarId": "n2-172",
-          "baseExpression": "を契機に",
-          "conjugatedExpression": "を契機に",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
-      "sourceGrammarIds": [
-        "n2-100",
-        "n2-170",
-        "n2-171",
-        "n2-172"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-100-09",
-      "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlank": "行きたく（　　　）が、今日は少し疲れている。",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
-      "answerChoiceId": "fb-extra20-n2-100-09-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-100-09-b",
-          "text": "ないでもない",
-          "grammarId": "n2-100",
-          "baseExpression": "ないでもない",
-          "conjugatedExpression": "ないでもない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-100-09-c",
-          "text": "たところ",
-          "grammarId": "n2-058",
-          "baseExpression": "たところ",
-          "conjugatedExpression": "たところ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-100-09-d",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-100-09-a",
-          "text": "たとたんに",
-          "grammarId": "n2-060",
-          "baseExpression": "たとたんに",
-          "conjugatedExpression": "たとたんに",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
-      "sourceGrammarIds": [
-        "n2-100",
-        "n2-058",
-        "n2-059",
-        "n2-060"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-100-10",
-      "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlank": "行きたく（　　　）が、今日は少し疲れている。",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
-      "answerChoiceId": "fb-extra20-n2-100-10-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-100-10-a",
-          "text": "ないでもない",
-          "grammarId": "n2-100",
-          "baseExpression": "ないでもない",
-          "conjugatedExpression": "ないでもない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-100-10-b",
-          "text": "に関して",
-          "grammarId": "n2-112",
-          "baseExpression": "に関して",
-          "conjugatedExpression": "に関して",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-100-10-c",
-          "text": "に加えて",
-          "grammarId": "n2-113",
-          "baseExpression": "に加えて",
-          "conjugatedExpression": "に加えて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-100-10-d",
-          "text": "にこしたことはない",
-          "grammarId": "n2-114",
-          "baseExpression": "にこしたことはない",
-          "conjugatedExpression": "にこしたことはない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
-      "sourceGrammarIds": [
-        "n2-100",
-        "n2-112",
-        "n2-113",
-        "n2-114"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-100-11",
-      "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlank": "行きたく（　　　）が、今日は少し疲れている。",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
-      "answerChoiceId": "fb-extra20-n2-100-11-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-100-11-d",
+          "id": "fb-created-n2-100-03-d",
           "text": "てほしいものだ",
           "grammarId": "n2-077",
           "baseExpression": "てほしいものだ",
@@ -1093,7 +397,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-100-11-a",
+          "id": "fb-created-n2-100-03-a",
           "text": "ないでもない",
           "grammarId": "n2-100",
           "baseExpression": "ないでもない",
@@ -1101,285 +405,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-100-11-b",
-          "text": "ではないか",
-          "grammarId": "n2-075",
-          "baseExpression": "ではないか",
-          "conjugatedExpression": "ではないか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-100-11-c",
-          "text": "ではないか",
-          "grammarId": "n2-076",
-          "baseExpression": "ではないか",
-          "conjugatedExpression": "ではないか",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
-      "sourceGrammarIds": [
-        "n2-100",
-        "n2-075",
-        "n2-076",
-        "n2-077"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-100-12",
-      "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlank": "行きたく（　　　）が、今日は少し疲れている。",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
-      "answerChoiceId": "fb-extra20-n2-100-12-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-100-12-c",
-          "text": "はともかく",
-          "grammarId": "n2-143",
-          "baseExpression": "はともかく",
-          "conjugatedExpression": "はともかく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-100-12-d",
-          "text": "ないでもない",
-          "grammarId": "n2-100",
-          "baseExpression": "ないでもない",
-          "conjugatedExpression": "ないでもない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-100-12-a",
-          "text": "はさておき",
-          "grammarId": "n2-141",
-          "baseExpression": "はさておき",
-          "conjugatedExpression": "はさておき",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-100-12-b",
-          "text": "はというと",
-          "grammarId": "n2-142",
-          "baseExpression": "はというと",
-          "conjugatedExpression": "はというと",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
-      "sourceGrammarIds": [
-        "n2-100",
-        "n2-141",
-        "n2-142",
-        "n2-143"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-100-13",
-      "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlank": "行きたく（　　　）が、今日は少し疲れている。",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
-      "answerChoiceId": "fb-extra20-n2-100-13-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-100-13-b",
-          "text": "を契機に",
-          "grammarId": "n2-172",
-          "baseExpression": "を契機に",
-          "conjugatedExpression": "を契機に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-100-13-c",
-          "text": "ないでもない",
-          "grammarId": "n2-100",
-          "baseExpression": "ないでもない",
-          "conjugatedExpression": "ないでもない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-100-13-d",
-          "text": "わけにはいかない",
-          "grammarId": "n2-170",
-          "baseExpression": "わけにはいかない",
-          "conjugatedExpression": "わけにはいかない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-100-13-a",
-          "text": "わりには",
-          "grammarId": "n2-171",
-          "baseExpression": "わりには",
-          "conjugatedExpression": "わりには",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
-      "sourceGrammarIds": [
-        "n2-100",
-        "n2-170",
-        "n2-171",
-        "n2-172"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-100-14",
-      "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlank": "行きたく（　　　）が、今日は少し疲れている。",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
-      "answerChoiceId": "fb-extra20-n2-100-14-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-100-14-a",
-          "text": "たとたんに",
-          "grammarId": "n2-060",
-          "baseExpression": "たとたんに",
-          "conjugatedExpression": "たとたんに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-100-14-b",
-          "text": "ないでもない",
-          "grammarId": "n2-100",
-          "baseExpression": "ないでもない",
-          "conjugatedExpression": "ないでもない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-100-14-c",
-          "text": "たところ",
-          "grammarId": "n2-058",
-          "baseExpression": "たところ",
-          "conjugatedExpression": "たところ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-100-14-d",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
-      "sourceGrammarIds": [
-        "n2-100",
-        "n2-058",
-        "n2-059",
-        "n2-060"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-100-15",
-      "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlank": "行きたく（　　　）が、今日は少し疲れている。",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
-      "answerChoiceId": "fb-extra20-n2-100-15-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-100-15-d",
-          "text": "にこしたことはない",
-          "grammarId": "n2-114",
-          "baseExpression": "にこしたことはない",
-          "conjugatedExpression": "にこしたことはない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-100-15-a",
-          "text": "ないでもない",
-          "grammarId": "n2-100",
-          "baseExpression": "ないでもない",
-          "conjugatedExpression": "ないでもない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-100-15-b",
-          "text": "に関して",
-          "grammarId": "n2-112",
-          "baseExpression": "に関して",
-          "conjugatedExpression": "に関して",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-100-15-c",
-          "text": "に加えて",
-          "grammarId": "n2-113",
-          "baseExpression": "に加えて",
-          "conjugatedExpression": "に加えて",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
-      "sourceGrammarIds": [
-        "n2-100",
-        "n2-112",
-        "n2-113",
-        "n2-114"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-100-16",
-      "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlank": "行きたく（　　　）が、今日は少し疲れている。",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
-      "answerChoiceId": "fb-extra20-n2-100-16-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-100-16-c",
-          "text": "ではないか",
-          "grammarId": "n2-076",
-          "baseExpression": "ではないか",
-          "conjugatedExpression": "ではないか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-100-16-d",
-          "text": "てほしいものだ",
-          "grammarId": "n2-077",
-          "baseExpression": "てほしいものだ",
-          "conjugatedExpression": "てほしいものだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-100-16-a",
-          "text": "ないでもない",
-          "grammarId": "n2-100",
-          "baseExpression": "ないでもない",
-          "conjugatedExpression": "ないでもない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-100-16-b",
+          "id": "fb-created-n2-100-03-b",
           "text": "ではないか",
           "grammarId": "n2-075",
           "baseExpression": "ではないか",
@@ -1387,7 +413,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '다음 주뿐이라면 출장 중인 이웃을 대신해 고양이를 맡아 주지 못할 것은 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
       "sourceGrammarIds": [
         "n2-100",
         "n2-075",
@@ -1395,37 +421,28 @@
         "n2-077"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-100-17",
+      "id": "fb-created-n2-100-04",
       "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlank": "行きたく（　　　）が、今日は少し疲れている。",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
-      "answerChoiceId": "fb-extra20-n2-100-17-d",
+      "sentence": "整備記録が確認できれば、その中古車を買わないでもない。",
+      "sentenceWithBlank": "整備記録が確認できれば、その中古車を買わ（　　　）。",
+      "korean": "정비 기록을 확인할 수 있다면 그 중고차를 사지 못할 것도 아니다.",
+      "answerChoiceId": "fb-created-n2-100-04-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-100-17-b",
-          "text": "はというと",
-          "grammarId": "n2-142",
-          "baseExpression": "はというと",
-          "conjugatedExpression": "はというと",
+          "id": "fb-created-n2-100-04-d",
+          "text": "てほしいものだ",
+          "grammarId": "n2-077",
+          "baseExpression": "てほしいものだ",
+          "conjugatedExpression": "てほしいものだ",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-100-17-c",
-          "text": "はともかく",
-          "grammarId": "n2-143",
-          "baseExpression": "はともかく",
-          "conjugatedExpression": "はともかく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-100-17-d",
+          "id": "fb-created-n2-100-04-a",
           "text": "ないでもない",
           "grammarId": "n2-100",
           "baseExpression": "ないでもない",
@@ -1433,53 +450,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-100-17-a",
-          "text": "はさておき",
-          "grammarId": "n2-141",
-          "baseExpression": "はさておき",
-          "conjugatedExpression": "はさておき",
+          "id": "fb-created-n2-100-04-b",
+          "text": "ではないか",
+          "grammarId": "n2-075",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-100-04-c",
+          "text": "ではないか",
+          "grammarId": "n2-076",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '정비 기록을 확인할 수 있다면 그 중고차를 사지 못할 것도 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
       "sourceGrammarIds": [
         "n2-100",
-        "n2-141",
-        "n2-142",
-        "n2-143"
+        "n2-075",
+        "n2-076",
+        "n2-077"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-100-18",
+      "id": "fb-created-n2-100-05",
       "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlank": "行きたく（　　　）が、今日は少し疲れている。",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
-      "answerChoiceId": "fb-extra20-n2-100-18-c",
+      "sentence": "十分な担保があるなら、弟の事業に資金を貸さないでもない。",
+      "sentenceWithBlank": "十分な担保があるなら、弟の事業に資金を貸さ（　　　）。",
+      "korean": "충분한 담보가 있다면 남동생의 사업에 자금을 빌려주지 못할 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-100-05-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-100-18-a",
-          "text": "わりには",
-          "grammarId": "n2-171",
-          "baseExpression": "わりには",
-          "conjugatedExpression": "わりには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-100-18-b",
-          "text": "を契機に",
-          "grammarId": "n2-172",
-          "baseExpression": "を契機に",
-          "conjugatedExpression": "を契機に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-100-18-c",
+          "id": "fb-created-n2-100-05-a",
           "text": "ないでもない",
           "grammarId": "n2-100",
           "baseExpression": "ないでもない",
@@ -1487,53 +495,121 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-100-18-d",
-          "text": "わけにはいかない",
-          "grammarId": "n2-170",
-          "baseExpression": "わけにはいかない",
-          "conjugatedExpression": "わけにはいかない",
+          "id": "fb-created-n2-100-05-b",
+          "text": "ではないか",
+          "grammarId": "n2-075",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-100-05-c",
+          "text": "ではないか",
+          "grammarId": "n2-076",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-100-05-d",
+          "text": "てほしいものだ",
+          "grammarId": "n2-077",
+          "baseExpression": "てほしいものだ",
+          "conjugatedExpression": "てほしいものだ",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '충분한 담보가 있다면 남동생의 사업에 자금을 빌려주지 못할 것은 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
       "sourceGrammarIds": [
         "n2-100",
-        "n2-170",
-        "n2-171",
-        "n2-172"
+        "n2-075",
+        "n2-076",
+        "n2-077"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-100-19",
+      "id": "fb-created-n2-100-06",
       "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlank": "行きたく（　　　）が、今日は少し疲れている。",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
-      "answerChoiceId": "fb-extra20-n2-100-19-b",
+      "sentence": "先方が正式に謝るなら、今回の納期遅れを許さないでもない。",
+      "sentenceWithBlank": "先方が正式に謝るなら、今回の納期遅れを許さ（　　　）。",
+      "korean": "상대 측이 정식으로 사과한다면 이번 납기 지연을 용서하지 못할 것도 아니다.",
+      "answerChoiceId": "fb-created-n2-100-06-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-100-19-d",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
+          "id": "fb-created-n2-100-06-b",
+          "text": "ではないか",
+          "grammarId": "n2-075",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-100-19-a",
-          "text": "たとたんに",
-          "grammarId": "n2-060",
-          "baseExpression": "たとたんに",
-          "conjugatedExpression": "たとたんに",
+          "id": "fb-created-n2-100-06-c",
+          "text": "ではないか",
+          "grammarId": "n2-076",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-100-19-b",
+          "id": "fb-created-n2-100-06-d",
+          "text": "てほしいものだ",
+          "grammarId": "n2-077",
+          "baseExpression": "てほしいものだ",
+          "conjugatedExpression": "てほしいものだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-100-06-a",
+          "text": "ないでもない",
+          "grammarId": "n2-100",
+          "baseExpression": "ないでもない",
+          "conjugatedExpression": "ないでもない",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '상대 측이 정식으로 사과한다면 이번 납기 지연을 용서하지 못할 것도 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
+      "sourceGrammarIds": [
+        "n2-100",
+        "n2-075",
+        "n2-076",
+        "n2-077"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-100-07",
+      "level": "N2",
+      "sentence": "耐震性に問題がなければ、祖父の古い家を改装して住まないでもない。",
+      "sentenceWithBlank": "耐震性に問題がなければ、祖父の古い家を改装して住ま（　　　）。",
+      "korean": "내진성에 문제가 없다면 할아버지의 오래된 집을 고쳐서 살지 못할 것도 아니다.",
+      "answerChoiceId": "fb-created-n2-100-07-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-100-07-c",
+          "text": "ではないか",
+          "grammarId": "n2-076",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-100-07-d",
+          "text": "てほしいものだ",
+          "grammarId": "n2-077",
+          "baseExpression": "てほしいものだ",
+          "conjugatedExpression": "てほしいものだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-100-07-a",
           "text": "ないでもない",
           "grammarId": "n2-100",
           "baseExpression": "ないでもない",
@@ -1541,53 +617,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-100-19-c",
-          "text": "たところ",
-          "grammarId": "n2-058",
-          "baseExpression": "たところ",
-          "conjugatedExpression": "たところ",
+          "id": "fb-created-n2-100-07-b",
+          "text": "ではないか",
+          "grammarId": "n2-075",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '내진성에 문제가 없다면 할아버지의 오래된 집을 고쳐서 살지 못할 것도 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
       "sourceGrammarIds": [
         "n2-100",
-        "n2-058",
-        "n2-059",
-        "n2-060"
+        "n2-075",
+        "n2-076",
+        "n2-077"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-100-20",
+      "id": "fb-created-n2-100-08",
       "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlank": "行きたく（　　　）が、今日は少し疲れている。",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
-      "answerChoiceId": "fb-extra20-n2-100-20-a",
+      "sentence": "報酬が今の倍なら、深夜の通訳依頼も引き受けないでもない。",
+      "sentenceWithBlank": "報酬が今の倍なら、深夜の通訳依頼も引き受け（　　　）。",
+      "korean": "보수가 지금의 두 배라면 심야 통역 의뢰도 맡지 못할 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-100-08-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-100-20-c",
-          "text": "に加えて",
-          "grammarId": "n2-113",
-          "baseExpression": "に加えて",
-          "conjugatedExpression": "に加えて",
+          "id": "fb-created-n2-100-08-d",
+          "text": "てほしいものだ",
+          "grammarId": "n2-077",
+          "baseExpression": "てほしいものだ",
+          "conjugatedExpression": "てほしいものだ",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-100-20-d",
-          "text": "にこしたことはない",
-          "grammarId": "n2-114",
-          "baseExpression": "にこしたことはない",
-          "conjugatedExpression": "にこしたことはない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-100-20-a",
+          "id": "fb-created-n2-100-08-a",
           "text": "ないでもない",
           "grammarId": "n2-100",
           "baseExpression": "ないでもない",
@@ -1595,25 +662,933 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-100-20-b",
-          "text": "に関して",
-          "grammarId": "n2-112",
-          "baseExpression": "に関して",
-          "conjugatedExpression": "に関して",
+          "id": "fb-created-n2-100-08-b",
+          "text": "ではないか",
+          "grammarId": "n2-075",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-100-08-c",
+          "text": "ではないか",
+          "grammarId": "n2-076",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '보수가 지금의 두 배라면 심야 통역 의뢰도 맡지 못할 것은 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
       "sourceGrammarIds": [
         "n2-100",
-        "n2-112",
-        "n2-113",
-        "n2-114"
+        "n2-075",
+        "n2-076",
+        "n2-077"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-100-09",
+      "level": "N2",
+      "sentence": "観客席が屋根付きなら、雨の日の野外公演も観覧しないでもない。",
+      "sentenceWithBlank": "観客席が屋根付きなら、雨の日の野外公演も観覧し（　　　）。",
+      "korean": "관객석에 지붕이 있다면 비 오는 날의 야외 공연도 관람하지 못할 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-100-09-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-100-09-a",
+          "text": "ないでもない",
+          "grammarId": "n2-100",
+          "baseExpression": "ないでもない",
+          "conjugatedExpression": "ないでもない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-100-09-b",
+          "text": "ではないか",
+          "grammarId": "n2-075",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-100-09-c",
+          "text": "ではないか",
+          "grammarId": "n2-076",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-100-09-d",
+          "text": "てほしいものだ",
+          "grammarId": "n2-077",
+          "baseExpression": "てほしいものだ",
+          "conjugatedExpression": "てほしいものだ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '관객석에 지붕이 있다면 비 오는 날의 야외 공연도 관람하지 못할 것은 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
+      "sourceGrammarIds": [
+        "n2-100",
+        "n2-075",
+        "n2-076",
+        "n2-077"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-100-10",
+      "level": "N2",
+      "sentence": "本人が真剣に反省しているなら、部長への失言を大目に見ないでもない。",
+      "sentenceWithBlank": "本人が真剣に反省しているなら、部長への失言を大目に見（　　　）。",
+      "korean": "본인이 진지하게 반성하고 있다면 부장에게 한 실언을 너그럽게 봐주지 못할 것도 아니다.",
+      "answerChoiceId": "fb-created-n2-100-10-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-100-10-b",
+          "text": "ではないか",
+          "grammarId": "n2-075",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-100-10-c",
+          "text": "ではないか",
+          "grammarId": "n2-076",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-100-10-d",
+          "text": "てほしいものだ",
+          "grammarId": "n2-077",
+          "baseExpression": "てほしいものだ",
+          "conjugatedExpression": "てほしいものだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-100-10-a",
+          "text": "ないでもない",
+          "grammarId": "n2-100",
+          "baseExpression": "ないでもない",
+          "conjugatedExpression": "ないでもない",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '본인이 진지하게 반성하고 있다면 부장에게 한 실언을 너그럽게 봐주지 못할 것도 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
+      "sourceGrammarIds": [
+        "n2-100",
+        "n2-075",
+        "n2-076",
+        "n2-077"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-100-11",
+      "level": "N2",
+      "sentence": "手入れが簡単になるなら、腰まである髪を短く切らないでもない。",
+      "sentenceWithBlank": "手入れが簡単になるなら、腰まである髪を短く切ら（　　　）。",
+      "korean": "손질이 간편해진다면 허리까지 오는 머리를 짧게 자르지 못할 것도 아니다.",
+      "answerChoiceId": "fb-created-n2-100-11-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-100-11-c",
+          "text": "ではないか",
+          "grammarId": "n2-076",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-100-11-d",
+          "text": "てほしいものだ",
+          "grammarId": "n2-077",
+          "baseExpression": "てほしいものだ",
+          "conjugatedExpression": "てほしいものだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-100-11-a",
+          "text": "ないでもない",
+          "grammarId": "n2-100",
+          "baseExpression": "ないでもない",
+          "conjugatedExpression": "ないでもない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-100-11-b",
+          "text": "ではないか",
+          "grammarId": "n2-075",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '손질이 간편해진다면 허리까지 오는 머리를 짧게 자르지 못할 것도 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
+      "sourceGrammarIds": [
+        "n2-100",
+        "n2-075",
+        "n2-076",
+        "n2-077"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-100-12",
+      "level": "N2",
+      "sentence": "在宅勤務を認めてくれるなら、その会社の内定を受けないでもない。",
+      "sentenceWithBlank": "在宅勤務を認めてくれるなら、その会社の内定を受け（　　　）。",
+      "korean": "재택근무를 허용해 준다면 그 회사의 채용 제안을 받아들이지 못할 것도 아니다.",
+      "answerChoiceId": "fb-created-n2-100-12-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-100-12-d",
+          "text": "てほしいものだ",
+          "grammarId": "n2-077",
+          "baseExpression": "てほしいものだ",
+          "conjugatedExpression": "てほしいものだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-100-12-a",
+          "text": "ないでもない",
+          "grammarId": "n2-100",
+          "baseExpression": "ないでもない",
+          "conjugatedExpression": "ないでもない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-100-12-b",
+          "text": "ではないか",
+          "grammarId": "n2-075",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-100-12-c",
+          "text": "ではないか",
+          "grammarId": "n2-076",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '재택근무를 허용해 준다면 그 회사의 채용 제안을 받아들이지 못할 것도 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
+      "sourceGrammarIds": [
+        "n2-100",
+        "n2-075",
+        "n2-076",
+        "n2-077"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-100-13",
+      "level": "N2",
+      "sentence": "医師が安全だと判断するなら、新しい治療法を試さないでもない。",
+      "sentenceWithBlank": "医師が安全だと判断するなら、新しい治療法を試さ（　　　）。",
+      "korean": "의사가 안전하다고 판단한다면 새로운 치료법을 시도하지 못할 것도 아니다.",
+      "answerChoiceId": "fb-created-n2-100-13-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-100-13-a",
+          "text": "ないでもない",
+          "grammarId": "n2-100",
+          "baseExpression": "ないでもない",
+          "conjugatedExpression": "ないでもない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-100-13-b",
+          "text": "ではないか",
+          "grammarId": "n2-075",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-100-13-c",
+          "text": "ではないか",
+          "grammarId": "n2-076",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-100-13-d",
+          "text": "てほしいものだ",
+          "grammarId": "n2-077",
+          "baseExpression": "てほしいものだ",
+          "conjugatedExpression": "てほしいものだ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '의사가 안전하다고 판단한다면 새로운 치료법을 시도하지 못할 것도 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
+      "sourceGrammarIds": [
+        "n2-100",
+        "n2-075",
+        "n2-076",
+        "n2-077"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-100-14",
+      "level": "N2",
+      "sentence": "地域の声を聞く姿勢があるなら、あの候補者を支持しないでもない。",
+      "sentenceWithBlank": "地域の声を聞く姿勢があるなら、あの候補者を支持し（　　　）。",
+      "korean": "지역 주민의 목소리를 들으려는 자세가 있다면 저 후보를 지지하지 못할 것도 아니다.",
+      "answerChoiceId": "fb-created-n2-100-14-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-100-14-b",
+          "text": "ではないか",
+          "grammarId": "n2-075",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-100-14-c",
+          "text": "ではないか",
+          "grammarId": "n2-076",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-100-14-d",
+          "text": "てほしいものだ",
+          "grammarId": "n2-077",
+          "baseExpression": "てほしいものだ",
+          "conjugatedExpression": "てほしいものだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-100-14-a",
+          "text": "ないでもない",
+          "grammarId": "n2-100",
+          "baseExpression": "ないでもない",
+          "conjugatedExpression": "ないでもない",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '지역 주민의 목소리를 들으려는 자세가 있다면 저 후보를 지지하지 못할 것도 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
+      "sourceGrammarIds": [
+        "n2-100",
+        "n2-075",
+        "n2-076",
+        "n2-077"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-100-15",
+      "level": "N2",
+      "sentence": "思い出の品なので、修理代が高くてもこの腕時計は直さないでもない。",
+      "sentenceWithBlank": "思い出の品なので、修理代が高くてもこの腕時計は直さ（　　　）。",
+      "korean": "추억이 담긴 물건이라 수리비가 비싸도 이 손목시계는 고치지 못할 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-100-15-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-100-15-c",
+          "text": "ではないか",
+          "grammarId": "n2-076",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-100-15-d",
+          "text": "てほしいものだ",
+          "grammarId": "n2-077",
+          "baseExpression": "てほしいものだ",
+          "conjugatedExpression": "てほしいものだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-100-15-a",
+          "text": "ないでもない",
+          "grammarId": "n2-100",
+          "baseExpression": "ないでもない",
+          "conjugatedExpression": "ないでもない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-100-15-b",
+          "text": "ではないか",
+          "grammarId": "n2-075",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '추억이 담긴 물건이라 수리비가 비싸도 이 손목시계는 고치지 못할 것은 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
+      "sourceGrammarIds": [
+        "n2-100",
+        "n2-075",
+        "n2-076",
+        "n2-077"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-100-16",
+      "level": "N2",
+      "sentence": "返品できるなら、派手な色のソファも注文しないでもない。",
+      "sentenceWithBlank": "返品できるなら、派手な色のソファも注文し（　　　）。",
+      "korean": "반품할 수 있다면 화려한 색의 소파도 주문하지 못할 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-100-16-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-100-16-d",
+          "text": "てほしいものだ",
+          "grammarId": "n2-077",
+          "baseExpression": "てほしいものだ",
+          "conjugatedExpression": "てほしいものだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-100-16-a",
+          "text": "ないでもない",
+          "grammarId": "n2-100",
+          "baseExpression": "ないでもない",
+          "conjugatedExpression": "ないでもない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-100-16-b",
+          "text": "ではないか",
+          "grammarId": "n2-075",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-100-16-c",
+          "text": "ではないか",
+          "grammarId": "n2-076",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '반품할 수 있다면 화려한 색의 소파도 주문하지 못할 것은 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
+      "sourceGrammarIds": [
+        "n2-100",
+        "n2-075",
+        "n2-076",
+        "n2-077"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-100-17",
+      "level": "N2",
+      "sentence": "風が弱まれば、港からの夜釣りに付き合わないでもない。",
+      "sentenceWithBlank": "風が弱まれば、港からの夜釣りに付き合わ（　　　）。",
+      "korean": "바람이 약해진다면 항구에서 하는 밤낚시에 함께하지 못할 것도 아니다.",
+      "answerChoiceId": "fb-created-n2-100-17-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-100-17-a",
+          "text": "ないでもない",
+          "grammarId": "n2-100",
+          "baseExpression": "ないでもない",
+          "conjugatedExpression": "ないでもない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-100-17-b",
+          "text": "ではないか",
+          "grammarId": "n2-075",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-100-17-c",
+          "text": "ではないか",
+          "grammarId": "n2-076",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-100-17-d",
+          "text": "てほしいものだ",
+          "grammarId": "n2-077",
+          "baseExpression": "てほしいものだ",
+          "conjugatedExpression": "てほしいものだ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '바람이 약해진다면 항구에서 하는 밤낚시에 함께하지 못할 것도 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
+      "sourceGrammarIds": [
+        "n2-100",
+        "n2-075",
+        "n2-076",
+        "n2-077"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-100-18",
+      "level": "N2",
+      "sentence": "秘密を守ると約束するなら、同僚に詳しい事情を話さないでもない。",
+      "sentenceWithBlank": "秘密を守ると約束するなら、同僚に詳しい事情を話さ（　　　）。",
+      "korean": "비밀을 지키겠다고 약속한다면 동료에게 자세한 사정을 말하지 못할 것도 아니다.",
+      "answerChoiceId": "fb-created-n2-100-18-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-100-18-b",
+          "text": "ではないか",
+          "grammarId": "n2-075",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-100-18-c",
+          "text": "ではないか",
+          "grammarId": "n2-076",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-100-18-d",
+          "text": "てほしいものだ",
+          "grammarId": "n2-077",
+          "baseExpression": "てほしいものだ",
+          "conjugatedExpression": "てほしいものだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-100-18-a",
+          "text": "ないでもない",
+          "grammarId": "n2-100",
+          "baseExpression": "ないでもない",
+          "conjugatedExpression": "ないでもない",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '비밀을 지키겠다고 약속한다면 동료에게 자세한 사정을 말하지 못할 것도 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
+      "sourceGrammarIds": [
+        "n2-100",
+        "n2-075",
+        "n2-076",
+        "n2-077"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-100-19",
+      "level": "N2",
+      "sentence": "駅まで送ってくれるなら、荷物の多い買い出しも手伝わないでもない。",
+      "sentenceWithBlank": "駅まで送ってくれるなら、荷物の多い買い出しも手伝わ（　　　）。",
+      "korean": "역까지 태워 준다면 짐이 많은 장보기도 돕지 못할 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-100-19-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-100-19-c",
+          "text": "ではないか",
+          "grammarId": "n2-076",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-100-19-d",
+          "text": "てほしいものだ",
+          "grammarId": "n2-077",
+          "baseExpression": "てほしいものだ",
+          "conjugatedExpression": "てほしいものだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-100-19-a",
+          "text": "ないでもない",
+          "grammarId": "n2-100",
+          "baseExpression": "ないでもない",
+          "conjugatedExpression": "ないでもない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-100-19-b",
+          "text": "ではないか",
+          "grammarId": "n2-075",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '역까지 태워 준다면 짐이 많은 장보기도 돕지 못할 것은 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
+      "sourceGrammarIds": [
+        "n2-100",
+        "n2-075",
+        "n2-076",
+        "n2-077"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-100-20",
+      "level": "N2",
+      "sentence": "作業時間が短いなら、町内会の花壇整備に人手を出さないでもない。",
+      "sentenceWithBlank": "作業時間が短いなら、町内会の花壇整備に人手を出さ（　　　）。",
+      "korean": "작업 시간이 짧다면 주민회의 화단 정비에 일손을 보태지 못할 것도 아니다.",
+      "answerChoiceId": "fb-created-n2-100-20-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-100-20-d",
+          "text": "てほしいものだ",
+          "grammarId": "n2-077",
+          "baseExpression": "てほしいものだ",
+          "conjugatedExpression": "てほしいものだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-100-20-a",
+          "text": "ないでもない",
+          "grammarId": "n2-100",
+          "baseExpression": "ないでもない",
+          "conjugatedExpression": "ないでもない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-100-20-b",
+          "text": "ではないか",
+          "grammarId": "n2-075",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-100-20-c",
+          "text": "ではないか",
+          "grammarId": "n2-076",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '작업 시간이 짧다면 주민회의 화단 정비에 일손을 보태지 못할 것도 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
+      "sourceGrammarIds": [
+        "n2-100",
+        "n2-075",
+        "n2-076",
+        "n2-077"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-100-21",
+      "level": "N2",
+      "sentence": "防音が十分なら、線路沿いの部屋も借りないでもない。",
+      "sentenceWithBlank": "防音が十分なら、線路沿いの部屋も借り（　　　）。",
+      "korean": "방음이 충분하다면 철로변의 방도 빌리지 못할 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-100-21-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-100-21-a",
+          "text": "ないでもない",
+          "grammarId": "n2-100",
+          "baseExpression": "ないでもない",
+          "conjugatedExpression": "ないでもない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-100-21-b",
+          "text": "ではないか",
+          "grammarId": "n2-075",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-100-21-c",
+          "text": "ではないか",
+          "grammarId": "n2-076",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-100-21-d",
+          "text": "てほしいものだ",
+          "grammarId": "n2-077",
+          "baseExpression": "てほしいものだ",
+          "conjugatedExpression": "てほしいものだ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '방음이 충분하다면 철로변의 방도 빌리지 못할 것은 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
+      "sourceGrammarIds": [
+        "n2-100",
+        "n2-075",
+        "n2-076",
+        "n2-077"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-100-22",
+      "level": "N2",
+      "sentence": "収益の見通しが具体的なら、その投資計画を検討しないでもない。",
+      "sentenceWithBlank": "収益の見通しが具体的なら、その投資計画を検討し（　　　）。",
+      "korean": "수익 전망이 구체적이라면 그 투자 계획을 검토하지 못할 것도 아니다.",
+      "answerChoiceId": "fb-created-n2-100-22-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-100-22-b",
+          "text": "ではないか",
+          "grammarId": "n2-075",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-100-22-c",
+          "text": "ではないか",
+          "grammarId": "n2-076",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-100-22-d",
+          "text": "てほしいものだ",
+          "grammarId": "n2-077",
+          "baseExpression": "てほしいものだ",
+          "conjugatedExpression": "てほしいものだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-100-22-a",
+          "text": "ないでもない",
+          "grammarId": "n2-100",
+          "baseExpression": "ないでもない",
+          "conjugatedExpression": "ないでもない",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '수익 전망이 구체적이라면 그 투자 계획을 검토하지 못할 것도 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
+      "sourceGrammarIds": [
+        "n2-100",
+        "n2-075",
+        "n2-076",
+        "n2-077"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-100-23",
+      "level": "N2",
+      "sentence": "原稿を事前に確認できるなら、友人の披露宴で祝辞を述べないでもない。",
+      "sentenceWithBlank": "原稿を事前に確認できるなら、友人の披露宴で祝辞を述べ（　　　）。",
+      "korean": "원고를 미리 확인할 수 있다면 친구의 결혼 피로연에서 축사를 하지 못할 것도 아니다.",
+      "answerChoiceId": "fb-created-n2-100-23-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-100-23-c",
+          "text": "ではないか",
+          "grammarId": "n2-076",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-100-23-d",
+          "text": "てほしいものだ",
+          "grammarId": "n2-077",
+          "baseExpression": "てほしいものだ",
+          "conjugatedExpression": "てほしいものだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-100-23-a",
+          "text": "ないでもない",
+          "grammarId": "n2-100",
+          "baseExpression": "ないでもない",
+          "conjugatedExpression": "ないでもない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-100-23-b",
+          "text": "ではないか",
+          "grammarId": "n2-075",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '원고를 미리 확인할 수 있다면 친구의 결혼 피로연에서 축사를 하지 못할 것도 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
+      "sourceGrammarIds": [
+        "n2-100",
+        "n2-075",
+        "n2-076",
+        "n2-077"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-100-24",
+      "level": "N2",
+      "sentence": "追加料金がかからなければ、窓側の席へ変更しないでもない。",
+      "sentenceWithBlank": "追加料金がかからなければ、窓側の席へ変更し（　　　）。",
+      "korean": "추가 요금이 들지 않는다면 창가 자리로 변경하지 못할 것도 아니다.",
+      "answerChoiceId": "fb-created-n2-100-24-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-100-24-d",
+          "text": "てほしいものだ",
+          "grammarId": "n2-077",
+          "baseExpression": "てほしいものだ",
+          "conjugatedExpression": "てほしいものだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-100-24-a",
+          "text": "ないでもない",
+          "grammarId": "n2-100",
+          "baseExpression": "ないでもない",
+          "conjugatedExpression": "ないでもない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-100-24-b",
+          "text": "ではないか",
+          "grammarId": "n2-075",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-100-24-c",
+          "text": "ではないか",
+          "grammarId": "n2-076",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '추가 요금이 들지 않는다면 창가 자리로 변경하지 못할 것도 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
+      "sourceGrammarIds": [
+        "n2-100",
+        "n2-075",
+        "n2-076",
+        "n2-077"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-100-25",
+      "level": "N2",
+      "sentence": "収穫を分けてもらえるなら、休日に叔母の畑を耕さないでもない。",
+      "sentenceWithBlank": "収穫を分けてもらえるなら、休日に叔母の畑を耕さ（　　　）。",
+      "korean": "수확물을 나눠 받을 수 있다면 휴일에 이모의 밭을 갈아 주지 못할 것도 아니다.",
+      "answerChoiceId": "fb-created-n2-100-25-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-100-25-a",
+          "text": "ないでもない",
+          "grammarId": "n2-100",
+          "baseExpression": "ないでもない",
+          "conjugatedExpression": "ないでもない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-100-25-b",
+          "text": "ではないか",
+          "grammarId": "n2-075",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-100-25-c",
+          "text": "ではないか",
+          "grammarId": "n2-076",
+          "baseExpression": "ではないか",
+          "conjugatedExpression": "ではないか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-100-25-d",
+          "text": "てほしいものだ",
+          "grammarId": "n2-077",
+          "baseExpression": "てほしいものだ",
+          "conjugatedExpression": "てほしいものだ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '수확물을 나눠 받을 수 있다면 휴일에 이모의 밭을 갈아 주지 못할 것도 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
+      "sourceGrammarIds": [
+        "n2-100",
+        "n2-075",
+        "n2-076",
+        "n2-077"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
       ]
     }
   ],
@@ -1834,1103 +1809,1153 @@
       ]
     },
     {
-      "id": "so-extra-n2-100-1",
+      "id": "so-created-n2-100-01",
       "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlanks": "行きたく ____ ____ ____ ____",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
+      "sentence": "家賃補助が出るなら、地方支社への異動も受け入れないでもない。",
+      "sentenceWithBlanks": "家賃 ____ ____ ____ ____",
+      "korean": "주거비 보조가 나온다면 지방 지사로의 이동도 받아들이지 못할 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra-n2-100-1-p3",
-          "text": "少し疲れている",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-100-1-p4",
-          "text": "ないでもない",
+          "id": "so-created-n2-100-01-p1",
+          "text": "補助が出るなら、",
           "order": 1
         },
         {
-          "id": "so-extra-n2-100-1-p1",
-          "text": "が",
+          "id": "so-created-n2-100-01-p2",
+          "text": "地方支社への",
           "order": 2
         },
         {
-          "id": "so-extra-n2-100-1-p2",
-          "text": "今日は",
+          "id": "so-created-n2-100-01-p3",
+          "text": "異動も受け入れ",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-100-01-p4",
+          "text": "ないでもない。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-100-1-p4",
-        "so-extra-n2-100-1-p1",
-        "so-extra-n2-100-1-p2",
-        "so-extra-n2-100-1-p3"
+        "so-created-n2-100-01-p1",
+        "so-created-n2-100-01-p2",
+        "so-created-n2-100-01-p3",
+        "so-created-n2-100-01-p4"
       ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '주거비 보조가 나온다면 지방 지사로의 이동도 받아들이지 못할 것은 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
       "sourceGrammarIds": [
-        "n2-100"
+        "n2-100",
+        "n2-075",
+        "n2-076",
+        "n2-077"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-100-2",
+      "id": "so-created-n2-100-02",
       "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlanks": "行きたく ____ ____ ____ ____",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
+      "sentence": "香りは強いが、この発酵チーズも少量なら口にしないでもない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "향은 강하지만 이 발효 치즈도 소량이라면 먹지 못할 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra-n2-100-2-p4",
-          "text": "が",
-          "order": 2
-        },
-        {
-          "id": "so-extra-n2-100-2-p1",
-          "text": "今日は",
-          "order": 3
-        },
-        {
-          "id": "so-extra-n2-100-2-p2",
-          "text": "少し疲れている",
+          "id": "so-created-n2-100-02-p4",
+          "text": "ないでもない。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-100-2-p3",
-          "text": "ないでもない",
+          "id": "so-created-n2-100-02-p1",
+          "text": "香りは強いが、この",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-100-02-p2",
+          "text": "発酵チーズも",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-100-02-p3",
+          "text": "少量なら口にし",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-100-2-p3",
-        "so-extra-n2-100-2-p4",
-        "so-extra-n2-100-2-p1",
-        "so-extra-n2-100-2-p2"
+        "so-created-n2-100-02-p1",
+        "so-created-n2-100-02-p2",
+        "so-created-n2-100-02-p3",
+        "so-created-n2-100-02-p4"
       ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '향은 강하지만 이 발효 치즈도 소량이라면 먹지 못할 것은 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
       "sourceGrammarIds": [
-        "n2-100"
+        "n2-100",
+        "n2-075",
+        "n2-076",
+        "n2-077"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-100-3",
+      "id": "so-created-n2-100-03",
       "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlanks": "____ ____ ____ ____ が、今日は少し疲れている。",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
+      "sentence": "来週だけなら、出張中の隣人に代わって猫を預からないでもない。",
+      "sentenceWithBlanks": "来週だけなら、 ____ ____ ____ ____",
+      "korean": "다음 주뿐이라면 출장 중인 이웃을 대신해 고양이를 맡아 주지 못할 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra-n2-100-3-p1",
-          "text": "今日は",
+          "id": "so-created-n2-100-03-p3",
+          "text": "猫を預から",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-100-03-p4",
+          "text": "ないでもない。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-100-3-p2",
-          "text": "たく",
+          "id": "so-created-n2-100-03-p1",
+          "text": "出張中の",
           "order": 1
         },
         {
-          "id": "so-extra-n2-100-3-p3",
-          "text": "ないでもない",
+          "id": "so-created-n2-100-03-p2",
+          "text": "隣人に代わって",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-100-3-p4",
-          "text": "が",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-100-3-p2",
-        "so-extra-n2-100-3-p3",
-        "so-extra-n2-100-3-p4",
-        "so-extra-n2-100-3-p1"
+        "so-created-n2-100-03-p1",
+        "so-created-n2-100-03-p2",
+        "so-created-n2-100-03-p3",
+        "so-created-n2-100-03-p4"
       ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '다음 주뿐이라면 출장 중인 이웃을 대신해 고양이를 맡아 주지 못할 것은 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
       "sourceGrammarIds": [
-        "n2-100"
+        "n2-100",
+        "n2-075",
+        "n2-076",
+        "n2-077"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-100-4",
+      "id": "so-created-n2-100-04",
       "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlanks": "行きたく ____ ____ ____ ____",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
+      "sentence": "整備記録が確認できれば、その中古車を買わないでもない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "정비 기록을 확인할 수 있다면 그 중고차를 사지 못할 것도 아니다.",
       "pieces": [
         {
-          "id": "so-extra-n2-100-4-p2",
-          "text": "が",
+          "id": "so-created-n2-100-04-p2",
+          "text": "確認できれば、その",
           "order": 2
         },
         {
-          "id": "so-extra-n2-100-4-p3",
-          "text": "今日は",
+          "id": "so-created-n2-100-04-p3",
+          "text": "中古車を買わ",
           "order": 3
         },
         {
-          "id": "so-extra-n2-100-4-p4",
-          "text": "少し疲れている",
+          "id": "so-created-n2-100-04-p4",
+          "text": "ないでもない。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-100-4-p1",
-          "text": "ないでもない",
+          "id": "so-created-n2-100-04-p1",
+          "text": "整備記録が",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-100-4-p1",
-        "so-extra-n2-100-4-p2",
-        "so-extra-n2-100-4-p3",
-        "so-extra-n2-100-4-p4"
+        "so-created-n2-100-04-p1",
+        "so-created-n2-100-04-p2",
+        "so-created-n2-100-04-p3",
+        "so-created-n2-100-04-p4"
       ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '정비 기록을 확인할 수 있다면 그 중고차를 사지 못할 것도 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
       "sourceGrammarIds": [
-        "n2-100"
+        "n2-100",
+        "n2-075",
+        "n2-076",
+        "n2-077"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-100-5",
+      "id": "so-created-n2-100-05",
       "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlanks": "行きたく ____ ____ ____ ____",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
+      "sentence": "十分な担保があるなら、弟の事業に資金を貸さないでもない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "충분한 담보가 있다면 남동생의 사업에 자금을 빌려주지 못할 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra-n2-100-5-p3",
-          "text": "少し疲れている",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-100-5-p4",
-          "text": "ないでもない",
+          "id": "so-created-n2-100-05-p1",
+          "text": "十分な",
           "order": 1
         },
         {
-          "id": "so-extra-n2-100-5-p1",
-          "text": "が",
+          "id": "so-created-n2-100-05-p2",
+          "text": "担保があるなら、",
           "order": 2
         },
         {
-          "id": "so-extra-n2-100-5-p2",
-          "text": "今日は",
+          "id": "so-created-n2-100-05-p3",
+          "text": "弟の事業に資金を",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-100-05-p4",
+          "text": "貸さないでもない。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-100-5-p4",
-        "so-extra-n2-100-5-p1",
-        "so-extra-n2-100-5-p2",
-        "so-extra-n2-100-5-p3"
+        "so-created-n2-100-05-p1",
+        "so-created-n2-100-05-p2",
+        "so-created-n2-100-05-p3",
+        "so-created-n2-100-05-p4"
       ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '충분한 담보가 있다면 남동생의 사업에 자금을 빌려주지 못할 것은 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
       "sourceGrammarIds": [
-        "n2-100"
+        "n2-100",
+        "n2-075",
+        "n2-076",
+        "n2-077"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-100-01",
+      "id": "so-created-n2-100-06",
       "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlanks": "行きたく ____ ____ ____ ____",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
+      "sentence": "先方が正式に謝るなら、今回の納期遅れを許さないでもない。",
+      "sentenceWithBlanks": "先方が ____ ____ ____ ____",
+      "korean": "상대 측이 정식으로 사과한다면 이번 납기 지연을 용서하지 못할 것도 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-100-01-p3",
-          "text": "少し疲れている",
+          "id": "so-created-n2-100-06-p4",
+          "text": "ないでもない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-100-01-p4",
-          "text": "ないでもない",
+          "id": "so-created-n2-100-06-p1",
+          "text": "正式に謝るなら、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-100-01-p1",
-          "text": "が",
+          "id": "so-created-n2-100-06-p2",
+          "text": "今回の納期",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-100-01-p2",
-          "text": "今日は",
+          "id": "so-created-n2-100-06-p3",
+          "text": "遅れを許さ",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-100-01-p4",
-        "so-extra20-n2-100-01-p1",
-        "so-extra20-n2-100-01-p2",
-        "so-extra20-n2-100-01-p3"
+        "so-created-n2-100-06-p1",
+        "so-created-n2-100-06-p2",
+        "so-created-n2-100-06-p3",
+        "so-created-n2-100-06-p4"
       ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '상대 측이 정식으로 사과한다면 이번 납기 지연을 용서하지 못할 것도 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
       "sourceGrammarIds": [
-        "n2-100"
+        "n2-100",
+        "n2-075",
+        "n2-076",
+        "n2-077"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-100-02",
+      "id": "so-created-n2-100-07",
       "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlanks": "行きたく ____ ____ ____ ____",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
+      "sentence": "耐震性に問題がなければ、祖父の古い家を改装して住まないでもない。",
+      "sentenceWithBlanks": "耐震性に ____ ____ ____ ____",
+      "korean": "내진성에 문제가 없다면 할아버지의 오래된 집을 고쳐서 살지 못할 것도 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-100-02-p2",
-          "text": "少し疲れている",
+          "id": "so-created-n2-100-07-p3",
+          "text": "改装して住ま",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-100-07-p4",
+          "text": "ないでもない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-100-02-p3",
-          "text": "ないでもない",
+          "id": "so-created-n2-100-07-p1",
+          "text": "問題がなければ、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-100-02-p4",
-          "text": "が",
+          "id": "so-created-n2-100-07-p2",
+          "text": "祖父の古い家を",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-100-02-p1",
-          "text": "今日は",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-100-02-p3",
-        "so-extra20-n2-100-02-p4",
-        "so-extra20-n2-100-02-p1",
-        "so-extra20-n2-100-02-p2"
+        "so-created-n2-100-07-p1",
+        "so-created-n2-100-07-p2",
+        "so-created-n2-100-07-p3",
+        "so-created-n2-100-07-p4"
       ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '내진성에 문제가 없다면 할아버지의 오래된 집을 고쳐서 살지 못할 것도 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
       "sourceGrammarIds": [
-        "n2-100"
+        "n2-100",
+        "n2-075",
+        "n2-076",
+        "n2-077"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-100-03",
+      "id": "so-created-n2-100-08",
       "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlanks": "____ ____ ____ ____ が、今日は少し疲れている。",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
+      "sentence": "報酬が今の倍なら、深夜の通訳依頼も引き受けないでもない。",
+      "sentenceWithBlanks": "報酬が ____ ____ ____ ____",
+      "korean": "보수가 지금의 두 배라면 심야 통역 의뢰도 맡지 못할 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-100-03-p1",
-          "text": "今日は",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-100-03-p2",
-          "text": "たく",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-100-03-p3",
-          "text": "ないでもない",
+          "id": "so-created-n2-100-08-p2",
+          "text": "深夜の通訳",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-100-03-p4",
-          "text": "が",
+          "id": "so-created-n2-100-08-p3",
+          "text": "依頼も引き受け",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-100-08-p4",
+          "text": "ないでもない。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-100-08-p1",
+          "text": "今の倍なら、",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-100-03-p2",
-        "so-extra20-n2-100-03-p3",
-        "so-extra20-n2-100-03-p4",
-        "so-extra20-n2-100-03-p1"
+        "so-created-n2-100-08-p1",
+        "so-created-n2-100-08-p2",
+        "so-created-n2-100-08-p3",
+        "so-created-n2-100-08-p4"
       ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '보수가 지금의 두 배라면 심야 통역 의뢰도 맡지 못할 것은 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
       "sourceGrammarIds": [
-        "n2-100"
+        "n2-100",
+        "n2-075",
+        "n2-076",
+        "n2-077"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-100-04",
+      "id": "so-created-n2-100-09",
       "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlanks": "行きたく ____ ____ ____ ____",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
+      "sentence": "観客席が屋根付きなら、雨の日の野外公演も観覧しないでもない。",
+      "sentenceWithBlanks": "観客席が屋根 ____ ____ ____ ____",
+      "korean": "관객석에 지붕이 있다면 비 오는 날의 야외 공연도 관람하지 못할 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-100-04-p4",
-          "text": "少し疲れている",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-100-04-p1",
-          "text": "ないでもない",
+          "id": "so-created-n2-100-09-p1",
+          "text": "付きなら、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-100-04-p2",
-          "text": "が",
+          "id": "so-created-n2-100-09-p2",
+          "text": "雨の日の野外",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-100-04-p3",
-          "text": "今日は",
+          "id": "so-created-n2-100-09-p3",
+          "text": "公演も観覧し",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-100-09-p4",
+          "text": "ないでもない。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-100-04-p1",
-        "so-extra20-n2-100-04-p2",
-        "so-extra20-n2-100-04-p3",
-        "so-extra20-n2-100-04-p4"
+        "so-created-n2-100-09-p1",
+        "so-created-n2-100-09-p2",
+        "so-created-n2-100-09-p3",
+        "so-created-n2-100-09-p4"
       ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '관객석에 지붕이 있다면 비 오는 날의 야외 공연도 관람하지 못할 것은 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
       "sourceGrammarIds": [
-        "n2-100"
+        "n2-100",
+        "n2-075",
+        "n2-076",
+        "n2-077"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-100-05",
+      "id": "so-created-n2-100-10",
       "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlanks": "行きたく ____ ____ ____ ____",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
+      "sentence": "本人が真剣に反省しているなら、部長への失言を大目に見ないでもない。",
+      "sentenceWithBlanks": "本人が真剣に ____ ____ ____ ____",
+      "korean": "본인이 진지하게 반성하고 있다면 부장에게 한 실언을 너그럽게 봐주지 못할 것도 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-100-05-p3",
-          "text": "少し疲れている",
+          "id": "so-created-n2-100-10-p4",
+          "text": "ないでもない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-100-05-p4",
-          "text": "ないでもない",
+          "id": "so-created-n2-100-10-p1",
+          "text": "反省しているなら、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-100-05-p1",
-          "text": "が",
+          "id": "so-created-n2-100-10-p2",
+          "text": "部長への",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-100-05-p2",
-          "text": "今日は",
+          "id": "so-created-n2-100-10-p3",
+          "text": "失言を大目に見",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-100-05-p4",
-        "so-extra20-n2-100-05-p1",
-        "so-extra20-n2-100-05-p2",
-        "so-extra20-n2-100-05-p3"
+        "so-created-n2-100-10-p1",
+        "so-created-n2-100-10-p2",
+        "so-created-n2-100-10-p3",
+        "so-created-n2-100-10-p4"
       ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '본인이 진지하게 반성하고 있다면 부장에게 한 실언을 너그럽게 봐주지 못할 것도 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
       "sourceGrammarIds": [
-        "n2-100"
+        "n2-100",
+        "n2-075",
+        "n2-076",
+        "n2-077"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-100-06",
+      "id": "so-created-n2-100-11",
       "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlanks": "行きたく ____ ____ ____ ____",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
+      "sentence": "手入れが簡単になるなら、腰まである髪を短く切らないでもない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "손질이 간편해진다면 허리까지 오는 머리를 짧게 자르지 못할 것도 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-100-06-p2",
-          "text": "今日は",
+          "id": "so-created-n2-100-11-p3",
+          "text": "腰まである髪を短く",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-100-06-p3",
-          "text": "少し疲れている",
+          "id": "so-created-n2-100-11-p4",
+          "text": "切らないでもない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-100-06-p4",
-          "text": "ないでもない",
+          "id": "so-created-n2-100-11-p1",
+          "text": "手入れが",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-100-06-p1",
-          "text": "が",
+          "id": "so-created-n2-100-11-p2",
+          "text": "簡単になるなら、",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-100-06-p4",
-        "so-extra20-n2-100-06-p1",
-        "so-extra20-n2-100-06-p2",
-        "so-extra20-n2-100-06-p3"
+        "so-created-n2-100-11-p1",
+        "so-created-n2-100-11-p2",
+        "so-created-n2-100-11-p3",
+        "so-created-n2-100-11-p4"
       ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '손질이 간편해진다면 허리까지 오는 머리를 짧게 자르지 못할 것도 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
       "sourceGrammarIds": [
-        "n2-100"
+        "n2-100",
+        "n2-075",
+        "n2-076",
+        "n2-077"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-100-07",
+      "id": "so-created-n2-100-12",
       "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlanks": "行きたく ____ ____ ____ ____",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
+      "sentence": "在宅勤務を認めてくれるなら、その会社の内定を受けないでもない。",
+      "sentenceWithBlanks": "在宅 ____ ____ ____ ____",
+      "korean": "재택근무를 허용해 준다면 그 회사의 채용 제안을 받아들이지 못할 것도 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-100-07-p1",
-          "text": "今日は",
+          "id": "so-created-n2-100-12-p2",
+          "text": "認めてくれるなら、その",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-100-12-p3",
+          "text": "会社の内定を受け",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-100-07-p2",
-          "text": "少し疲れている",
+          "id": "so-created-n2-100-12-p4",
+          "text": "ないでもない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-100-07-p3",
-          "text": "ないでもない",
+          "id": "so-created-n2-100-12-p1",
+          "text": "勤務を",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-100-07-p4",
-          "text": "が",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-100-07-p3",
-        "so-extra20-n2-100-07-p4",
-        "so-extra20-n2-100-07-p1",
-        "so-extra20-n2-100-07-p2"
+        "so-created-n2-100-12-p1",
+        "so-created-n2-100-12-p2",
+        "so-created-n2-100-12-p3",
+        "so-created-n2-100-12-p4"
       ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '재택근무를 허용해 준다면 그 회사의 채용 제안을 받아들이지 못할 것도 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
       "sourceGrammarIds": [
-        "n2-100"
+        "n2-100",
+        "n2-075",
+        "n2-076",
+        "n2-077"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-100-08",
+      "id": "so-created-n2-100-13",
       "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlanks": "____ ____ ____ ____ が、今日は少し疲れている。",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
+      "sentence": "医師が安全だと判断するなら、新しい治療法を試さないでもない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "의사가 안전하다고 판단한다면 새로운 치료법을 시도하지 못할 것도 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-100-08-p4",
-          "text": "が",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-100-08-p1",
-          "text": "今日は",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-100-08-p2",
-          "text": "たく",
+          "id": "so-created-n2-100-13-p1",
+          "text": "医師が安全だと",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-100-08-p3",
-          "text": "ないでもない",
+          "id": "so-created-n2-100-13-p2",
+          "text": "判断するなら、",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-100-13-p3",
+          "text": "新しい治療法を",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-100-13-p4",
+          "text": "試さないでもない。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-100-08-p2",
-        "so-extra20-n2-100-08-p3",
-        "so-extra20-n2-100-08-p4",
-        "so-extra20-n2-100-08-p1"
+        "so-created-n2-100-13-p1",
+        "so-created-n2-100-13-p2",
+        "so-created-n2-100-13-p3",
+        "so-created-n2-100-13-p4"
       ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '의사가 안전하다고 판단한다면 새로운 치료법을 시도하지 못할 것도 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
       "sourceGrammarIds": [
-        "n2-100"
+        "n2-100",
+        "n2-075",
+        "n2-076",
+        "n2-077"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-100-09",
+      "id": "so-created-n2-100-14",
       "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlanks": "行きたく ____ ____ ____ ____",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
+      "sentence": "地域の声を聞く姿勢があるなら、あの候補者を支持しないでもない。",
+      "sentenceWithBlanks": "地域の ____ ____ ____ ____",
+      "korean": "지역 주민의 목소리를 들으려는 자세가 있다면 저 후보를 지지하지 못할 것도 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-100-09-p3",
-          "text": "今日は",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-100-09-p4",
-          "text": "少し疲れている",
+          "id": "so-created-n2-100-14-p4",
+          "text": "ないでもない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-100-09-p1",
-          "text": "ないでもない",
+          "id": "so-created-n2-100-14-p1",
+          "text": "声を聞く",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-100-09-p2",
-          "text": "が",
+          "id": "so-created-n2-100-14-p2",
+          "text": "姿勢があるなら、あの",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-100-14-p3",
+          "text": "候補者を支持し",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-100-09-p1",
-        "so-extra20-n2-100-09-p2",
-        "so-extra20-n2-100-09-p3",
-        "so-extra20-n2-100-09-p4"
+        "so-created-n2-100-14-p1",
+        "so-created-n2-100-14-p2",
+        "so-created-n2-100-14-p3",
+        "so-created-n2-100-14-p4"
       ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '지역 주민의 목소리를 들으려는 자세가 있다면 저 후보를 지지하지 못할 것도 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
       "sourceGrammarIds": [
-        "n2-100"
+        "n2-100",
+        "n2-075",
+        "n2-076",
+        "n2-077"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-100-10",
+      "id": "so-created-n2-100-15",
       "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlanks": "行きたく ____ ____ ____ ____",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
+      "sentence": "思い出の品なので、修理代が高くてもこの腕時計は直さないでもない。",
+      "sentenceWithBlanks": "思い出の ____ ____ ____ ____",
+      "korean": "추억이 담긴 물건이라 수리비가 비싸도 이 손목시계는 고치지 못할 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-100-10-p2",
-          "text": "今日は",
+          "id": "so-created-n2-100-15-p3",
+          "text": "腕時計は直さ",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-100-10-p3",
-          "text": "少し疲れている",
+          "id": "so-created-n2-100-15-p4",
+          "text": "ないでもない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-100-10-p4",
-          "text": "ないでもない",
+          "id": "so-created-n2-100-15-p1",
+          "text": "品なので、修理",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-100-10-p1",
-          "text": "が",
+          "id": "so-created-n2-100-15-p2",
+          "text": "代が高くてもこの",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-100-10-p4",
-        "so-extra20-n2-100-10-p1",
-        "so-extra20-n2-100-10-p2",
-        "so-extra20-n2-100-10-p3"
+        "so-created-n2-100-15-p1",
+        "so-created-n2-100-15-p2",
+        "so-created-n2-100-15-p3",
+        "so-created-n2-100-15-p4"
       ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '추억이 담긴 물건이라 수리비가 비싸도 이 손목시계는 고치지 못할 것은 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
       "sourceGrammarIds": [
-        "n2-100"
+        "n2-100",
+        "n2-075",
+        "n2-076",
+        "n2-077"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-100-11",
+      "id": "so-created-n2-100-16",
       "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlanks": "行きたく ____ ____ ____ ____",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
+      "sentence": "返品できるなら、派手な色のソファも注文しないでもない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "반품할 수 있다면 화려한 색의 소파도 주문하지 못할 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-100-11-p1",
-          "text": "が",
+          "id": "so-created-n2-100-16-p2",
+          "text": "派手な色の",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-100-11-p2",
-          "text": "今日は",
+          "id": "so-created-n2-100-16-p3",
+          "text": "ソファも注文し",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-100-11-p3",
-          "text": "少し疲れている",
+          "id": "so-created-n2-100-16-p4",
+          "text": "ないでもない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-100-11-p4",
-          "text": "ないでもない",
+          "id": "so-created-n2-100-16-p1",
+          "text": "返品できるなら、",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-100-11-p4",
-        "so-extra20-n2-100-11-p1",
-        "so-extra20-n2-100-11-p2",
-        "so-extra20-n2-100-11-p3"
+        "so-created-n2-100-16-p1",
+        "so-created-n2-100-16-p2",
+        "so-created-n2-100-16-p3",
+        "so-created-n2-100-16-p4"
       ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '반품할 수 있다면 화려한 색의 소파도 주문하지 못할 것은 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
       "sourceGrammarIds": [
-        "n2-100"
+        "n2-100",
+        "n2-075",
+        "n2-076",
+        "n2-077"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-100-12",
+      "id": "so-created-n2-100-17",
       "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlanks": "行きたく ____ ____ ____ ____",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
+      "sentence": "風が弱まれば、港からの夜釣りに付き合わないでもない。",
+      "sentenceWithBlanks": "風が ____ ____ ____ ____",
+      "korean": "바람이 약해진다면 항구에서 하는 밤낚시에 함께하지 못할 것도 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-100-12-p4",
-          "text": "が",
+          "id": "so-created-n2-100-17-p1",
+          "text": "弱まれば、",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-100-17-p2",
+          "text": "港からの夜",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-100-12-p1",
-          "text": "今日は",
+          "id": "so-created-n2-100-17-p3",
+          "text": "釣りに付き合わ",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-100-12-p2",
-          "text": "少し疲れている",
+          "id": "so-created-n2-100-17-p4",
+          "text": "ないでもない。",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-100-12-p3",
-          "text": "ないでもない",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-100-12-p3",
-        "so-extra20-n2-100-12-p4",
-        "so-extra20-n2-100-12-p1",
-        "so-extra20-n2-100-12-p2"
+        "so-created-n2-100-17-p1",
+        "so-created-n2-100-17-p2",
+        "so-created-n2-100-17-p3",
+        "so-created-n2-100-17-p4"
       ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '바람이 약해진다면 항구에서 하는 밤낚시에 함께하지 못할 것도 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
       "sourceGrammarIds": [
-        "n2-100"
+        "n2-100",
+        "n2-075",
+        "n2-076",
+        "n2-077"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-100-13",
+      "id": "so-created-n2-100-18",
       "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlanks": "____ ____ ____ ____ が、今日は少し疲れている。",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
+      "sentence": "秘密を守ると約束するなら、同僚に詳しい事情を話さないでもない。",
+      "sentenceWithBlanks": "秘密を ____ ____ ____ ____",
+      "korean": "비밀을 지키겠다고 약속한다면 동료에게 자세한 사정을 말하지 못할 것도 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-100-13-p3",
-          "text": "ないでもない",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-100-13-p4",
-          "text": "が",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-100-13-p1",
-          "text": "今日は",
+          "id": "so-created-n2-100-18-p4",
+          "text": "話さないでもない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-100-13-p2",
-          "text": "たく",
+          "id": "so-created-n2-100-18-p1",
+          "text": "守ると",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-100-18-p2",
+          "text": "約束するなら、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-100-18-p3",
+          "text": "同僚に詳しい事情を",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-100-13-p2",
-        "so-extra20-n2-100-13-p3",
-        "so-extra20-n2-100-13-p4",
-        "so-extra20-n2-100-13-p1"
+        "so-created-n2-100-18-p1",
+        "so-created-n2-100-18-p2",
+        "so-created-n2-100-18-p3",
+        "so-created-n2-100-18-p4"
       ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '비밀을 지키겠다고 약속한다면 동료에게 자세한 사정을 말하지 못할 것도 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
       "sourceGrammarIds": [
-        "n2-100"
+        "n2-100",
+        "n2-075",
+        "n2-076",
+        "n2-077"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-100-14",
+      "id": "so-created-n2-100-19",
       "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlanks": "行きたく ____ ____ ____ ____",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
+      "sentence": "駅まで送ってくれるなら、荷物の多い買い出しも手伝わないでもない。",
+      "sentenceWithBlanks": "駅まで ____ ____ ____ ____",
+      "korean": "역까지 태워 준다면 짐이 많은 장보기도 돕지 못할 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-100-14-p2",
-          "text": "が",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-100-14-p3",
-          "text": "今日は",
+          "id": "so-created-n2-100-19-p3",
+          "text": "買い出しも手伝わ",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-100-14-p4",
-          "text": "少し疲れている",
+          "id": "so-created-n2-100-19-p4",
+          "text": "ないでもない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-100-14-p1",
-          "text": "ないでもない",
+          "id": "so-created-n2-100-19-p1",
+          "text": "送ってくれるなら、",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-100-19-p2",
+          "text": "荷物の多い",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-100-14-p1",
-        "so-extra20-n2-100-14-p2",
-        "so-extra20-n2-100-14-p3",
-        "so-extra20-n2-100-14-p4"
+        "so-created-n2-100-19-p1",
+        "so-created-n2-100-19-p2",
+        "so-created-n2-100-19-p3",
+        "so-created-n2-100-19-p4"
       ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '역까지 태워 준다면 짐이 많은 장보기도 돕지 못할 것은 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
       "sourceGrammarIds": [
-        "n2-100"
+        "n2-100",
+        "n2-075",
+        "n2-076",
+        "n2-077"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-100-15",
+      "id": "so-created-n2-100-20",
       "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlanks": "行きたく ____ ____ ____ ____",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
+      "sentence": "作業時間が短いなら、町内会の花壇整備に人手を出さないでもない。",
+      "sentenceWithBlanks": "作業時間が短いなら、 ____ ____ ____ ____",
+      "korean": "작업 시간이 짧다면 주민회의 화단 정비에 일손을 보태지 못할 것도 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-100-15-p1",
-          "text": "が",
+          "id": "so-created-n2-100-20-p2",
+          "text": "花壇整備に",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-100-15-p2",
-          "text": "今日は",
+          "id": "so-created-n2-100-20-p3",
+          "text": "人手を出さ",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-100-15-p3",
-          "text": "少し疲れている",
+          "id": "so-created-n2-100-20-p4",
+          "text": "ないでもない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-100-15-p4",
-          "text": "ないでもない",
+          "id": "so-created-n2-100-20-p1",
+          "text": "町内会の",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-100-15-p4",
-        "so-extra20-n2-100-15-p1",
-        "so-extra20-n2-100-15-p2",
-        "so-extra20-n2-100-15-p3"
+        "so-created-n2-100-20-p1",
+        "so-created-n2-100-20-p2",
+        "so-created-n2-100-20-p3",
+        "so-created-n2-100-20-p4"
       ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '작업 시간이 짧다면 주민회의 화단 정비에 일손을 보태지 못할 것도 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
       "sourceGrammarIds": [
-        "n2-100"
+        "n2-100",
+        "n2-075",
+        "n2-076",
+        "n2-077"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-100-16",
+      "id": "so-created-n2-100-21",
       "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlanks": "行きたく ____ ____ ____ ____",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
+      "sentence": "防音が十分なら、線路沿いの部屋も借りないでもない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "방음이 충분하다면 철로변의 방도 빌리지 못할 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-100-16-p4",
-          "text": "ないでもない",
+          "id": "so-created-n2-100-21-p1",
+          "text": "防音が十分なら、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-100-16-p1",
-          "text": "が",
+          "id": "so-created-n2-100-21-p2",
+          "text": "線路沿いの",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-100-16-p2",
-          "text": "今日は",
+          "id": "so-created-n2-100-21-p3",
+          "text": "部屋も借り",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-100-16-p3",
-          "text": "少し疲れている",
+          "id": "so-created-n2-100-21-p4",
+          "text": "ないでもない。",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-100-16-p4",
-        "so-extra20-n2-100-16-p1",
-        "so-extra20-n2-100-16-p2",
-        "so-extra20-n2-100-16-p3"
+        "so-created-n2-100-21-p1",
+        "so-created-n2-100-21-p2",
+        "so-created-n2-100-21-p3",
+        "so-created-n2-100-21-p4"
       ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '방음이 충분하다면 철로변의 방도 빌리지 못할 것은 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
       "sourceGrammarIds": [
-        "n2-100"
+        "n2-100",
+        "n2-075",
+        "n2-076",
+        "n2-077"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-100-17",
+      "id": "so-created-n2-100-22",
       "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlanks": "行きたく ____ ____ ____ ____",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
+      "sentence": "収益の見通しが具体的なら、その投資計画を検討しないでもない。",
+      "sentenceWithBlanks": "収益の ____ ____ ____ ____",
+      "korean": "수익 전망이 구체적이라면 그 투자 계획을 검토하지 못할 것도 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-100-17-p3",
-          "text": "ないでもない",
+          "id": "so-created-n2-100-22-p4",
+          "text": "ないでもない。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-100-22-p1",
+          "text": "見通しが具体",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-100-17-p4",
-          "text": "が",
+          "id": "so-created-n2-100-22-p2",
+          "text": "的なら、その",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-100-17-p1",
-          "text": "今日は",
+          "id": "so-created-n2-100-22-p3",
+          "text": "投資計画を検討し",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-100-17-p2",
-          "text": "少し疲れている",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-100-17-p3",
-        "so-extra20-n2-100-17-p4",
-        "so-extra20-n2-100-17-p1",
-        "so-extra20-n2-100-17-p2"
+        "so-created-n2-100-22-p1",
+        "so-created-n2-100-22-p2",
+        "so-created-n2-100-22-p3",
+        "so-created-n2-100-22-p4"
       ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '수익 전망이 구체적이라면 그 투자 계획을 검토하지 못할 것도 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
       "sourceGrammarIds": [
-        "n2-100"
+        "n2-100",
+        "n2-075",
+        "n2-076",
+        "n2-077"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-100-18",
+      "id": "so-created-n2-100-23",
       "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlanks": "____ ____ ____ ____ が、今日は少し疲れている。",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
+      "sentence": "原稿を事前に確認できるなら、友人の披露宴で祝辞を述べないでもない。",
+      "sentenceWithBlanks": "原稿を ____ ____ ____ ____",
+      "korean": "원고를 미리 확인할 수 있다면 친구의 결혼 피로연에서 축사를 하지 못할 것도 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-100-18-p2",
-          "text": "たく",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-100-18-p3",
-          "text": "ないでもない",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-100-18-p4",
-          "text": "が",
+          "id": "so-created-n2-100-23-p3",
+          "text": "友人の披露宴で祝辞を",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-100-18-p1",
-          "text": "今日は",
+          "id": "so-created-n2-100-23-p4",
+          "text": "述べないでもない。",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-100-23-p1",
+          "text": "事前に",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-100-23-p2",
+          "text": "確認できるなら、",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-100-18-p2",
-        "so-extra20-n2-100-18-p3",
-        "so-extra20-n2-100-18-p4",
-        "so-extra20-n2-100-18-p1"
+        "so-created-n2-100-23-p1",
+        "so-created-n2-100-23-p2",
+        "so-created-n2-100-23-p3",
+        "so-created-n2-100-23-p4"
       ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '원고를 미리 확인할 수 있다면 친구의 결혼 피로연에서 축사를 하지 못할 것도 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
       "sourceGrammarIds": [
-        "n2-100"
+        "n2-100",
+        "n2-075",
+        "n2-076",
+        "n2-077"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-100-19",
+      "id": "so-created-n2-100-24",
       "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlanks": "行きたく ____ ____ ____ ____",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
+      "sentence": "追加料金がかからなければ、窓側の席へ変更しないでもない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "추가 요금이 들지 않는다면 창가 자리로 변경하지 못할 것도 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-100-19-p1",
-          "text": "ないでもない",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-100-19-p2",
-          "text": "が",
+          "id": "so-created-n2-100-24-p2",
+          "text": "料金がかからなければ、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-100-19-p3",
-          "text": "今日は",
+          "id": "so-created-n2-100-24-p3",
+          "text": "窓側の席へ変更し",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-100-19-p4",
-          "text": "少し疲れている",
+          "id": "so-created-n2-100-24-p4",
+          "text": "ないでもない。",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-100-24-p1",
+          "text": "追加",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-100-19-p1",
-        "so-extra20-n2-100-19-p2",
-        "so-extra20-n2-100-19-p3",
-        "so-extra20-n2-100-19-p4"
+        "so-created-n2-100-24-p1",
+        "so-created-n2-100-24-p2",
+        "so-created-n2-100-24-p3",
+        "so-created-n2-100-24-p4"
       ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '추가 요금이 들지 않는다면 창가 자리로 변경하지 못할 것도 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
       "sourceGrammarIds": [
-        "n2-100"
+        "n2-100",
+        "n2-075",
+        "n2-076",
+        "n2-077"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-100-20",
+      "id": "so-created-n2-100-25",
       "level": "N2",
-      "sentence": "行きたくないでもないが、今日は少し疲れている。",
-      "sentenceWithBlanks": "行きたく ____ ____ ____ ____",
-      "korean": "가고 싶지 않은 것은 아니지만 오늘은 좀 피곤하다.",
+      "sentence": "収穫を分けてもらえるなら、休日に叔母の畑を耕さないでもない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "수확물을 나눠 받을 수 있다면 휴일에 이모의 밭을 갈아 주지 못할 것도 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-100-20-p4",
-          "text": "ないでもない",
+          "id": "so-created-n2-100-25-p1",
+          "text": "収穫を",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-100-20-p1",
-          "text": "が",
+          "id": "so-created-n2-100-25-p2",
+          "text": "分けてもらえるなら、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-100-20-p2",
-          "text": "今日は",
+          "id": "so-created-n2-100-25-p3",
+          "text": "休日に叔母の畑を",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-100-20-p3",
-          "text": "少し疲れている",
+          "id": "so-created-n2-100-25-p4",
+          "text": "耕さないでもない。",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-100-20-p4",
-        "so-extra20-n2-100-20-p1",
-        "so-extra20-n2-100-20-p2",
-        "so-extra20-n2-100-20-p3"
+        "so-created-n2-100-25-p1",
+        "so-created-n2-100-25-p2",
+        "so-created-n2-100-25-p3",
+        "so-created-n2-100-25-p4"
       ],
-      "explanation": "「ないでもない」는 ~하지 않는 것은 아니다라는 뜻이다. 약한 긍정. 가능성은 조금 있음.",
+      "explanation": "「ないでもない」는 '~하지 않는 것은 아니다'라는 뜻을 나타낸다. 이 문장에서는 '수확물을 나눠 받을 수 있다면 휴일에 이모의 밭을 갈아 주지 못할 것도 아니다.'라는 상황에 쓰였으며, 약한 긍정. 가능성은 조금 있음. 주의할 점은 세 표현 중 가장 구어적이고 망설임이 가장 강함. 적극적 동의가 아님에 주의.",
       "sourceGrammarIds": [
-        "n2-100"
+        "n2-100",
+        "n2-075",
+        "n2-076",
+        "n2-077"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     }
   ]

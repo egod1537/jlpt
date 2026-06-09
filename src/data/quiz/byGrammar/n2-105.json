@@ -267,15 +267,23 @@
       ]
     },
     {
-      "id": "fb-extra-n2-105-1",
+      "id": "fb-created-n2-105-01",
       "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlank": "新しい仕事を始める（　　　）、十分な準備をした。",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
-      "answerChoiceId": "fb-extra-n2-105-1-b",
+      "sentence": "海外支社を設立するにあたって、現地の法律に詳しい弁護士を雇った。",
+      "sentenceWithBlank": "海外支社を設立する（　　　）、現地の法律に詳しい弁護士を雇った。",
+      "korean": "해외 지사를 설립함에 있어서 현지 법률에 정통한 변호사를 고용했다.",
+      "answerChoiceId": "fb-created-n2-105-01-b",
       "choices": [
         {
-          "id": "fb-extra-n2-105-1-c",
+          "id": "fb-created-n2-105-01-b",
+          "text": "にあたって",
+          "grammarId": "n2-105",
+          "baseExpression": "にあたって",
+          "conjugatedExpression": "にあたって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-105-01-c",
           "text": "のことだから",
           "grammarId": "n2-135",
           "baseExpression": "のことだから",
@@ -283,7 +291,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-105-1-d",
+          "id": "fb-created-n2-105-01-d",
           "text": "のみならず",
           "grammarId": "n2-136",
           "baseExpression": "のみならず",
@@ -291,23 +299,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-105-1-a",
+          "id": "fb-created-n2-105-01-a",
           "text": "のもとで",
           "grammarId": "n2-137",
           "baseExpression": "のもとで",
           "conjugatedExpression": "のもとで",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-105-1-b",
-          "text": "にあたって",
-          "grammarId": "n2-105",
-          "baseExpression": "にあたって",
-          "conjugatedExpression": "にあたって",
-          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '해외 지사를 설립함에 있어서 현지 법률에 정통한 변호사를 고용했다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
       "sourceGrammarIds": [
         "n2-105",
         "n2-135",
@@ -315,237 +315,20 @@
         "n2-137"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra-n2-105-2",
+      "id": "fb-created-n2-105-02",
       "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlank": "新しい仕事を始める（　　　）、十分な準備をした。",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
-      "answerChoiceId": "fb-extra-n2-105-2-c",
+      "sentence": "市長選への立候補にあたって、住民の声を聞く集会を各地で開いた。",
+      "sentenceWithBlank": "市長選への立候補（　　　）、住民の声を聞く集会を各地で開いた。",
+      "korean": "시장 선거 출마를 앞두고 주민들의 목소리를 듣는 집회를 여러 지역에서 열었다.",
+      "answerChoiceId": "fb-created-n2-105-02-b",
       "choices": [
         {
-          "id": "fb-extra-n2-105-2-d",
-          "text": "だけの",
-          "grammarId": "n2-057",
-          "baseExpression": "だけの",
-          "conjugatedExpression": "だけの",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-105-2-a",
-          "text": "たところ",
-          "grammarId": "n2-058",
-          "baseExpression": "たところ",
-          "conjugatedExpression": "たところ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-105-2-b",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-105-2-c",
-          "text": "にあたって",
-          "grammarId": "n2-105",
-          "baseExpression": "にあたって",
-          "conjugatedExpression": "にあたって",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
-      "sourceGrammarIds": [
-        "n2-105",
-        "n2-057",
-        "n2-058",
-        "n2-059"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-105-3",
-      "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlank": "新しい仕事を始める（　　　）、十分な準備をした。",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
-      "answerChoiceId": "fb-extra-n2-105-3-d",
-      "choices": [
-        {
-          "id": "fb-extra-n2-105-3-a",
-          "text": "に加えて",
-          "grammarId": "n2-113",
-          "baseExpression": "に加えて",
-          "conjugatedExpression": "に加えて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-105-3-b",
-          "text": "にこしたことはない",
-          "grammarId": "n2-114",
-          "baseExpression": "にこしたことはない",
-          "conjugatedExpression": "にこしたことはない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-105-3-c",
-          "text": "に応えて",
-          "grammarId": "n2-115",
-          "baseExpression": "に応えて",
-          "conjugatedExpression": "に応えて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-105-3-d",
-          "text": "にあたって",
-          "grammarId": "n2-105",
-          "baseExpression": "にあたって",
-          "conjugatedExpression": "にあたって",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
-      "sourceGrammarIds": [
-        "n2-105",
-        "n2-113",
-        "n2-114",
-        "n2-115"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-105-4",
-      "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlank": "新しい仕事を始める（　　　）、十分な準備をした。",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
-      "answerChoiceId": "fb-extra-n2-105-4-a",
-      "choices": [
-        {
-          "id": "fb-extra-n2-105-4-b",
-          "text": "する上は",
-          "grammarId": "n2-007",
-          "baseExpression": "上は",
-          "conjugatedExpression": "する上は",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-105-4-c",
-          "text": "得るうる",
-          "grammarId": "n2-008",
-          "baseExpression": "得るうる",
-          "conjugatedExpression": "得るうる",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-105-4-d",
-          "text": "おそれがある",
-          "grammarId": "n2-009",
-          "baseExpression": "おそれがある",
-          "conjugatedExpression": "おそれがある",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-105-4-a",
-          "text": "にあたって",
-          "grammarId": "n2-105",
-          "baseExpression": "にあたって",
-          "conjugatedExpression": "にあたって",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
-      "sourceGrammarIds": [
-        "n2-105",
-        "n2-007",
-        "n2-008",
-        "n2-009"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-105-5",
-      "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlank": "新しい仕事を始める（　　　）、十分な準備をした。",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
-      "answerChoiceId": "fb-extra-n2-105-5-b",
-      "choices": [
-        {
-          "id": "fb-extra-n2-105-5-c",
-          "text": "ないことはない",
-          "grammarId": "n2-098",
-          "baseExpression": "ないことはない",
-          "conjugatedExpression": "ないことはない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-105-5-d",
-          "text": "ないではいられない",
-          "grammarId": "n2-099",
-          "baseExpression": "ないではいられない",
-          "conjugatedExpression": "ないではいられない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-105-5-a",
-          "text": "ないでもない",
-          "grammarId": "n2-100",
-          "baseExpression": "ないでもない",
-          "conjugatedExpression": "ないでもない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-105-5-b",
-          "text": "にあたって",
-          "grammarId": "n2-105",
-          "baseExpression": "にあたって",
-          "conjugatedExpression": "にあたって",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
-      "sourceGrammarIds": [
-        "n2-105",
-        "n2-098",
-        "n2-099",
-        "n2-100"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-105-01",
-      "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlank": "新しい仕事を始める（　　　）、十分な準備をした。",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
-      "answerChoiceId": "fb-extra20-n2-105-01-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-105-01-c",
+          "id": "fb-created-n2-105-02-c",
           "text": "のことだから",
           "grammarId": "n2-135",
           "baseExpression": "のことだから",
@@ -553,7 +336,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-105-01-d",
+          "id": "fb-created-n2-105-02-d",
           "text": "のみならず",
           "grammarId": "n2-136",
           "baseExpression": "のみならず",
@@ -561,7 +344,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-105-01-a",
+          "id": "fb-created-n2-105-02-a",
           "text": "のもとで",
           "grammarId": "n2-137",
           "baseExpression": "のもとで",
@@ -569,7 +352,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-105-01-b",
+          "id": "fb-created-n2-105-02-b",
           "text": "にあたって",
           "grammarId": "n2-105",
           "baseExpression": "にあたって",
@@ -577,7 +360,7 @@
           "isSimilarDistractor": false
         }
       ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '시장 선거 출마를 앞두고 주민들의 목소리를 듣는 집회를 여러 지역에서 열었다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
       "sourceGrammarIds": [
         "n2-105",
         "n2-135",
@@ -585,253 +368,20 @@
         "n2-137"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-105-02",
+      "id": "fb-created-n2-105-03",
       "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlank": "新しい仕事を始める（　　　）、十分な準備をした。",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
-      "answerChoiceId": "fb-extra20-n2-105-02-c",
+      "sentence": "歴史的な橋を修復するにあたって、専門家が古い設計図を詳しく調査した。",
+      "sentenceWithBlank": "歴史的な橋を修復する（　　　）、専門家が古い設計図を詳しく調査した。",
+      "korean": "역사적인 다리를 복원함에 있어서 전문가가 옛 설계도를 자세히 조사했다.",
+      "answerChoiceId": "fb-created-n2-105-03-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-105-02-b",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-105-02-c",
-          "text": "にあたって",
-          "grammarId": "n2-105",
-          "baseExpression": "にあたって",
-          "conjugatedExpression": "にあたって",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-105-02-d",
-          "text": "だけの",
-          "grammarId": "n2-057",
-          "baseExpression": "だけの",
-          "conjugatedExpression": "だけの",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-105-02-a",
-          "text": "たところ",
-          "grammarId": "n2-058",
-          "baseExpression": "たところ",
-          "conjugatedExpression": "たところ",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
-      "sourceGrammarIds": [
-        "n2-105",
-        "n2-057",
-        "n2-058",
-        "n2-059"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-105-03",
-      "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlank": "新しい仕事を始める（　　　）、十分な準備をした。",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
-      "answerChoiceId": "fb-extra20-n2-105-03-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-105-03-a",
-          "text": "に加えて",
-          "grammarId": "n2-113",
-          "baseExpression": "に加えて",
-          "conjugatedExpression": "に加えて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-105-03-b",
-          "text": "にこしたことはない",
-          "grammarId": "n2-114",
-          "baseExpression": "にこしたことはない",
-          "conjugatedExpression": "にこしたことはない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-105-03-c",
-          "text": "に応えて",
-          "grammarId": "n2-115",
-          "baseExpression": "に応えて",
-          "conjugatedExpression": "に応えて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-105-03-d",
-          "text": "にあたって",
-          "grammarId": "n2-105",
-          "baseExpression": "にあたって",
-          "conjugatedExpression": "にあたって",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
-      "sourceGrammarIds": [
-        "n2-105",
-        "n2-113",
-        "n2-114",
-        "n2-115"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-105-04",
-      "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlank": "新しい仕事を始める（　　　）、十分な準備をした。",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
-      "answerChoiceId": "fb-extra20-n2-105-04-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-105-04-d",
-          "text": "おそれがある",
-          "grammarId": "n2-009",
-          "baseExpression": "おそれがある",
-          "conjugatedExpression": "おそれがある",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-105-04-a",
-          "text": "にあたって",
-          "grammarId": "n2-105",
-          "baseExpression": "にあたって",
-          "conjugatedExpression": "にあたって",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-105-04-b",
-          "text": "する上は",
-          "grammarId": "n2-007",
-          "baseExpression": "上は",
-          "conjugatedExpression": "する上は",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-105-04-c",
-          "text": "得るうる",
-          "grammarId": "n2-008",
-          "baseExpression": "得るうる",
-          "conjugatedExpression": "得るうる",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
-      "sourceGrammarIds": [
-        "n2-105",
-        "n2-007",
-        "n2-008",
-        "n2-009"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-105-05",
-      "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlank": "新しい仕事を始める（　　　）、十分な準備をした。",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
-      "answerChoiceId": "fb-extra20-n2-105-05-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-105-05-c",
-          "text": "ないことはない",
-          "grammarId": "n2-098",
-          "baseExpression": "ないことはない",
-          "conjugatedExpression": "ないことはない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-105-05-d",
-          "text": "ないではいられない",
-          "grammarId": "n2-099",
-          "baseExpression": "ないではいられない",
-          "conjugatedExpression": "ないではいられない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-105-05-a",
-          "text": "ないでもない",
-          "grammarId": "n2-100",
-          "baseExpression": "ないでもない",
-          "conjugatedExpression": "ないでもない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-105-05-b",
-          "text": "にあたって",
-          "grammarId": "n2-105",
-          "baseExpression": "にあたって",
-          "conjugatedExpression": "にあたって",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
-      "sourceGrammarIds": [
-        "n2-105",
-        "n2-098",
-        "n2-099",
-        "n2-100"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-105-06",
-      "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlank": "新しい仕事を始める（　　　）、十分な準備をした。",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
-      "answerChoiceId": "fb-extra20-n2-105-06-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-105-06-b",
-          "text": "にあたって",
-          "grammarId": "n2-105",
-          "baseExpression": "にあたって",
-          "conjugatedExpression": "にあたって",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-105-06-c",
-          "text": "のことだから",
-          "grammarId": "n2-135",
-          "baseExpression": "のことだから",
-          "conjugatedExpression": "のことだから",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-105-06-d",
+          "id": "fb-created-n2-105-03-d",
           "text": "のみならず",
           "grammarId": "n2-136",
           "baseExpression": "のみならず",
@@ -839,253 +389,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-105-06-a",
-          "text": "のもとで",
-          "grammarId": "n2-137",
-          "baseExpression": "のもとで",
-          "conjugatedExpression": "のもとで",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
-      "sourceGrammarIds": [
-        "n2-105",
-        "n2-135",
-        "n2-136",
-        "n2-137"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-105-07",
-      "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlank": "新しい仕事を始める（　　　）、十分な準備をした。",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
-      "answerChoiceId": "fb-extra20-n2-105-07-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-105-07-a",
-          "text": "たところ",
-          "grammarId": "n2-058",
-          "baseExpression": "たところ",
-          "conjugatedExpression": "たところ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-105-07-b",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-105-07-c",
-          "text": "にあたって",
-          "grammarId": "n2-105",
-          "baseExpression": "にあたって",
-          "conjugatedExpression": "にあたって",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-105-07-d",
-          "text": "だけの",
-          "grammarId": "n2-057",
-          "baseExpression": "だけの",
-          "conjugatedExpression": "だけの",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
-      "sourceGrammarIds": [
-        "n2-105",
-        "n2-057",
-        "n2-058",
-        "n2-059"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-105-08",
-      "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlank": "新しい仕事を始める（　　　）、十分な準備をした。",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
-      "answerChoiceId": "fb-extra20-n2-105-08-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-105-08-d",
-          "text": "にあたって",
-          "grammarId": "n2-105",
-          "baseExpression": "にあたって",
-          "conjugatedExpression": "にあたって",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-105-08-a",
-          "text": "に加えて",
-          "grammarId": "n2-113",
-          "baseExpression": "に加えて",
-          "conjugatedExpression": "に加えて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-105-08-b",
-          "text": "にこしたことはない",
-          "grammarId": "n2-114",
-          "baseExpression": "にこしたことはない",
-          "conjugatedExpression": "にこしたことはない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-105-08-c",
-          "text": "に応えて",
-          "grammarId": "n2-115",
-          "baseExpression": "に応えて",
-          "conjugatedExpression": "に応えて",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
-      "sourceGrammarIds": [
-        "n2-105",
-        "n2-113",
-        "n2-114",
-        "n2-115"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-105-09",
-      "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlank": "新しい仕事を始める（　　　）、十分な準備をした。",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
-      "answerChoiceId": "fb-extra20-n2-105-09-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-105-09-c",
-          "text": "得るうる",
-          "grammarId": "n2-008",
-          "baseExpression": "得るうる",
-          "conjugatedExpression": "得るうる",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-105-09-d",
-          "text": "おそれがある",
-          "grammarId": "n2-009",
-          "baseExpression": "おそれがある",
-          "conjugatedExpression": "おそれがある",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-105-09-a",
-          "text": "にあたって",
-          "grammarId": "n2-105",
-          "baseExpression": "にあたって",
-          "conjugatedExpression": "にあたって",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-105-09-b",
-          "text": "する上は",
-          "grammarId": "n2-007",
-          "baseExpression": "上は",
-          "conjugatedExpression": "する上は",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
-      "sourceGrammarIds": [
-        "n2-105",
-        "n2-007",
-        "n2-008",
-        "n2-009"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-105-10",
-      "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlank": "新しい仕事を始める（　　　）、十分な準備をした。",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
-      "answerChoiceId": "fb-extra20-n2-105-10-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-105-10-b",
-          "text": "にあたって",
-          "grammarId": "n2-105",
-          "baseExpression": "にあたって",
-          "conjugatedExpression": "にあたって",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-105-10-c",
-          "text": "ないことはない",
-          "grammarId": "n2-098",
-          "baseExpression": "ないことはない",
-          "conjugatedExpression": "ないことはない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-105-10-d",
-          "text": "ないではいられない",
-          "grammarId": "n2-099",
-          "baseExpression": "ないではいられない",
-          "conjugatedExpression": "ないではいられない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-105-10-a",
-          "text": "ないでもない",
-          "grammarId": "n2-100",
-          "baseExpression": "ないでもない",
-          "conjugatedExpression": "ないでもない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
-      "sourceGrammarIds": [
-        "n2-105",
-        "n2-098",
-        "n2-099",
-        "n2-100"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-105-11",
-      "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlank": "新しい仕事を始める（　　　）、十分な準備をした。",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
-      "answerChoiceId": "fb-extra20-n2-105-11-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-105-11-a",
+          "id": "fb-created-n2-105-03-a",
           "text": "のもとで",
           "grammarId": "n2-137",
           "baseExpression": "のもとで",
@@ -1093,7 +397,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-105-11-b",
+          "id": "fb-created-n2-105-03-b",
           "text": "にあたって",
           "grammarId": "n2-105",
           "baseExpression": "にあたって",
@@ -1101,285 +405,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-105-11-c",
-          "text": "のことだから",
-          "grammarId": "n2-135",
-          "baseExpression": "のことだから",
-          "conjugatedExpression": "のことだから",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-105-11-d",
-          "text": "のみならず",
-          "grammarId": "n2-136",
-          "baseExpression": "のみならず",
-          "conjugatedExpression": "のみならず",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
-      "sourceGrammarIds": [
-        "n2-105",
-        "n2-135",
-        "n2-136",
-        "n2-137"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-105-12",
-      "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlank": "新しい仕事を始める（　　　）、十分な準備をした。",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
-      "answerChoiceId": "fb-extra20-n2-105-12-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-105-12-d",
-          "text": "だけの",
-          "grammarId": "n2-057",
-          "baseExpression": "だけの",
-          "conjugatedExpression": "だけの",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-105-12-a",
-          "text": "たところ",
-          "grammarId": "n2-058",
-          "baseExpression": "たところ",
-          "conjugatedExpression": "たところ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-105-12-b",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-105-12-c",
-          "text": "にあたって",
-          "grammarId": "n2-105",
-          "baseExpression": "にあたって",
-          "conjugatedExpression": "にあたって",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
-      "sourceGrammarIds": [
-        "n2-105",
-        "n2-057",
-        "n2-058",
-        "n2-059"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-105-13",
-      "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlank": "新しい仕事を始める（　　　）、十分な準備をした。",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
-      "answerChoiceId": "fb-extra20-n2-105-13-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-105-13-c",
-          "text": "に応えて",
-          "grammarId": "n2-115",
-          "baseExpression": "に応えて",
-          "conjugatedExpression": "に応えて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-105-13-d",
-          "text": "にあたって",
-          "grammarId": "n2-105",
-          "baseExpression": "にあたって",
-          "conjugatedExpression": "にあたって",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-105-13-a",
-          "text": "に加えて",
-          "grammarId": "n2-113",
-          "baseExpression": "に加えて",
-          "conjugatedExpression": "に加えて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-105-13-b",
-          "text": "にこしたことはない",
-          "grammarId": "n2-114",
-          "baseExpression": "にこしたことはない",
-          "conjugatedExpression": "にこしたことはない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
-      "sourceGrammarIds": [
-        "n2-105",
-        "n2-113",
-        "n2-114",
-        "n2-115"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-105-14",
-      "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlank": "新しい仕事を始める（　　　）、十分な準備をした。",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
-      "answerChoiceId": "fb-extra20-n2-105-14-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-105-14-b",
-          "text": "する上は",
-          "grammarId": "n2-007",
-          "baseExpression": "上は",
-          "conjugatedExpression": "する上は",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-105-14-c",
-          "text": "得るうる",
-          "grammarId": "n2-008",
-          "baseExpression": "得るうる",
-          "conjugatedExpression": "得るうる",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-105-14-d",
-          "text": "おそれがある",
-          "grammarId": "n2-009",
-          "baseExpression": "おそれがある",
-          "conjugatedExpression": "おそれがある",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-105-14-a",
-          "text": "にあたって",
-          "grammarId": "n2-105",
-          "baseExpression": "にあたって",
-          "conjugatedExpression": "にあたって",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
-      "sourceGrammarIds": [
-        "n2-105",
-        "n2-007",
-        "n2-008",
-        "n2-009"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-105-15",
-      "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlank": "新しい仕事を始める（　　　）、十分な準備をした。",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
-      "answerChoiceId": "fb-extra20-n2-105-15-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-105-15-a",
-          "text": "ないでもない",
-          "grammarId": "n2-100",
-          "baseExpression": "ないでもない",
-          "conjugatedExpression": "ないでもない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-105-15-b",
-          "text": "にあたって",
-          "grammarId": "n2-105",
-          "baseExpression": "にあたって",
-          "conjugatedExpression": "にあたって",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-105-15-c",
-          "text": "ないことはない",
-          "grammarId": "n2-098",
-          "baseExpression": "ないことはない",
-          "conjugatedExpression": "ないことはない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-105-15-d",
-          "text": "ないではいられない",
-          "grammarId": "n2-099",
-          "baseExpression": "ないではいられない",
-          "conjugatedExpression": "ないではいられない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
-      "sourceGrammarIds": [
-        "n2-105",
-        "n2-098",
-        "n2-099",
-        "n2-100"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-105-16",
-      "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlank": "新しい仕事を始める（　　　）、十分な準備をした。",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
-      "answerChoiceId": "fb-extra20-n2-105-16-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-105-16-d",
-          "text": "のみならず",
-          "grammarId": "n2-136",
-          "baseExpression": "のみならず",
-          "conjugatedExpression": "のみならず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-105-16-a",
-          "text": "のもとで",
-          "grammarId": "n2-137",
-          "baseExpression": "のもとで",
-          "conjugatedExpression": "のもとで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-105-16-b",
-          "text": "にあたって",
-          "grammarId": "n2-105",
-          "baseExpression": "にあたって",
-          "conjugatedExpression": "にあたって",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-105-16-c",
+          "id": "fb-created-n2-105-03-c",
           "text": "のことだから",
           "grammarId": "n2-135",
           "baseExpression": "のことだから",
@@ -1387,7 +413,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '역사적인 다리를 복원함에 있어서 전문가가 옛 설계도를 자세히 조사했다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
       "sourceGrammarIds": [
         "n2-105",
         "n2-135",
@@ -1395,21 +421,28 @@
         "n2-137"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-105-17",
+      "id": "fb-created-n2-105-04",
       "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlank": "新しい仕事を始める（　　　）、十分な準備をした。",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
-      "answerChoiceId": "fb-extra20-n2-105-17-c",
+      "sentence": "娘の結婚にあたって、両家は今後の付き合い方について話し合った。",
+      "sentenceWithBlank": "娘の結婚（　　　）、両家は今後の付き合い方について話し合った。",
+      "korean": "딸의 결혼을 맞아 양가는 앞으로의 교류 방식에 관해 의논했다.",
+      "answerChoiceId": "fb-created-n2-105-04-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-105-17-c",
+          "id": "fb-created-n2-105-04-a",
+          "text": "のもとで",
+          "grammarId": "n2-137",
+          "baseExpression": "のもとで",
+          "conjugatedExpression": "のもとで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-04-b",
           "text": "にあたって",
           "grammarId": "n2-105",
           "baseExpression": "にあたって",
@@ -1417,69 +450,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-105-17-d",
-          "text": "だけの",
-          "grammarId": "n2-057",
-          "baseExpression": "だけの",
-          "conjugatedExpression": "だけの",
+          "id": "fb-created-n2-105-04-c",
+          "text": "のことだから",
+          "grammarId": "n2-135",
+          "baseExpression": "のことだから",
+          "conjugatedExpression": "のことだから",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-105-17-a",
-          "text": "たところ",
-          "grammarId": "n2-058",
-          "baseExpression": "たところ",
-          "conjugatedExpression": "たところ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-105-17-b",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
+          "id": "fb-created-n2-105-04-d",
+          "text": "のみならず",
+          "grammarId": "n2-136",
+          "baseExpression": "のみならず",
+          "conjugatedExpression": "のみならず",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '딸의 결혼을 맞아 양가는 앞으로의 교류 방식에 관해 의논했다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
       "sourceGrammarIds": [
         "n2-105",
-        "n2-057",
-        "n2-058",
-        "n2-059"
+        "n2-135",
+        "n2-136",
+        "n2-137"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-105-18",
+      "id": "fb-created-n2-105-05",
       "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlank": "新しい仕事を始める（　　　）、十分な準備をした。",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
-      "answerChoiceId": "fb-extra20-n2-105-18-d",
+      "sentence": "大規模な避難訓練を実施するにあたって、病院は患者の移動経路を再確認した。",
+      "sentenceWithBlank": "大規模な避難訓練を実施する（　　　）、病院は患者の移動経路を再確認した。",
+      "korean": "대규모 대피 훈련을 실시함에 있어서 병원은 환자들의 이동 경로를 재확인했다.",
+      "answerChoiceId": "fb-created-n2-105-05-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-105-18-b",
-          "text": "にこしたことはない",
-          "grammarId": "n2-114",
-          "baseExpression": "にこしたことはない",
-          "conjugatedExpression": "にこしたことはない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-105-18-c",
-          "text": "に応えて",
-          "grammarId": "n2-115",
-          "baseExpression": "に応えて",
-          "conjugatedExpression": "に応えて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-105-18-d",
+          "id": "fb-created-n2-105-05-b",
           "text": "にあたって",
           "grammarId": "n2-105",
           "baseExpression": "にあたって",
@@ -1487,37 +495,121 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-105-18-a",
-          "text": "に加えて",
-          "grammarId": "n2-113",
-          "baseExpression": "に加えて",
-          "conjugatedExpression": "に加えて",
+          "id": "fb-created-n2-105-05-c",
+          "text": "のことだから",
+          "grammarId": "n2-135",
+          "baseExpression": "のことだから",
+          "conjugatedExpression": "のことだから",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-05-d",
+          "text": "のみならず",
+          "grammarId": "n2-136",
+          "baseExpression": "のみならず",
+          "conjugatedExpression": "のみならず",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-05-a",
+          "text": "のもとで",
+          "grammarId": "n2-137",
+          "baseExpression": "のもとで",
+          "conjugatedExpression": "のもとで",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '대규모 대피 훈련을 실시함에 있어서 병원은 환자들의 이동 경로를 재확인했다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
       "sourceGrammarIds": [
         "n2-105",
-        "n2-113",
-        "n2-114",
-        "n2-115"
+        "n2-135",
+        "n2-136",
+        "n2-137"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-105-19",
+      "id": "fb-created-n2-105-06",
       "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlank": "新しい仕事を始める（　　　）、十分な準備をした。",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
-      "answerChoiceId": "fb-extra20-n2-105-19-a",
+      "sentence": "老舗旅館を引き継ぐにあたって、彼は従業員全員と個別に面談した。",
+      "sentenceWithBlank": "老舗旅館を引き継ぐ（　　　）、彼は従業員全員と個別に面談した。",
+      "korean": "오래된 전통 여관을 물려받음에 있어서 그는 모든 종업원과 개별적으로 면담했다.",
+      "answerChoiceId": "fb-created-n2-105-06-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-105-19-a",
+          "id": "fb-created-n2-105-06-c",
+          "text": "のことだから",
+          "grammarId": "n2-135",
+          "baseExpression": "のことだから",
+          "conjugatedExpression": "のことだから",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-06-d",
+          "text": "のみならず",
+          "grammarId": "n2-136",
+          "baseExpression": "のみならず",
+          "conjugatedExpression": "のみならず",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-06-a",
+          "text": "のもとで",
+          "grammarId": "n2-137",
+          "baseExpression": "のもとで",
+          "conjugatedExpression": "のもとで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-06-b",
+          "text": "にあたって",
+          "grammarId": "n2-105",
+          "baseExpression": "にあたって",
+          "conjugatedExpression": "にあたって",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '오래된 전통 여관을 물려받음에 있어서 그는 모든 종업원과 개별적으로 면담했다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
+      "sourceGrammarIds": [
+        "n2-105",
+        "n2-135",
+        "n2-136",
+        "n2-137"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-105-07",
+      "level": "N2",
+      "sentence": "宇宙探査機の打ち上げにあたって、技術者たちは最終点検を夜通し続けた。",
+      "sentenceWithBlank": "宇宙探査機の打ち上げ（　　　）、技術者たちは最終点検を夜通し続けた。",
+      "korean": "우주 탐사선 발사를 앞두고 기술자들은 밤새 최종 점검을 계속했다.",
+      "answerChoiceId": "fb-created-n2-105-07-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-105-07-d",
+          "text": "のみならず",
+          "grammarId": "n2-136",
+          "baseExpression": "のみならず",
+          "conjugatedExpression": "のみならず",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-07-a",
+          "text": "のもとで",
+          "grammarId": "n2-137",
+          "baseExpression": "のもとで",
+          "conjugatedExpression": "のもとで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-07-b",
           "text": "にあたって",
           "grammarId": "n2-105",
           "baseExpression": "にあたって",
@@ -1525,69 +617,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-105-19-b",
-          "text": "する上は",
-          "grammarId": "n2-007",
-          "baseExpression": "上は",
-          "conjugatedExpression": "する上は",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-105-19-c",
-          "text": "得るうる",
-          "grammarId": "n2-008",
-          "baseExpression": "得るうる",
-          "conjugatedExpression": "得るうる",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-105-19-d",
-          "text": "おそれがある",
-          "grammarId": "n2-009",
-          "baseExpression": "おそれがある",
-          "conjugatedExpression": "おそれがある",
+          "id": "fb-created-n2-105-07-c",
+          "text": "のことだから",
+          "grammarId": "n2-135",
+          "baseExpression": "のことだから",
+          "conjugatedExpression": "のことだから",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '우주 탐사선 발사를 앞두고 기술자들은 밤새 최종 점검을 계속했다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
       "sourceGrammarIds": [
         "n2-105",
-        "n2-007",
-        "n2-008",
-        "n2-009"
+        "n2-135",
+        "n2-136",
+        "n2-137"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-105-20",
+      "id": "fb-created-n2-105-08",
       "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlank": "新しい仕事を始める（　　　）、十分な準備をした。",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
-      "answerChoiceId": "fb-extra20-n2-105-20-b",
+      "sentence": "国際大会を開催するにあたって、駅周辺の案内表示が多言語化された。",
+      "sentenceWithBlank": "国際大会を開催する（　　　）、駅周辺の案内表示が多言語化された。",
+      "korean": "국제 대회를 개최함에 있어서 역 주변의 안내 표지가 다국어로 바뀌었다.",
+      "answerChoiceId": "fb-created-n2-105-08-b",
       "choices": [
         {
-          "id": "fb-extra20-n2-105-20-d",
-          "text": "ないではいられない",
-          "grammarId": "n2-099",
-          "baseExpression": "ないではいられない",
-          "conjugatedExpression": "ないではいられない",
+          "id": "fb-created-n2-105-08-a",
+          "text": "のもとで",
+          "grammarId": "n2-137",
+          "baseExpression": "のもとで",
+          "conjugatedExpression": "のもとで",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-105-20-a",
-          "text": "ないでもない",
-          "grammarId": "n2-100",
-          "baseExpression": "ないでもない",
-          "conjugatedExpression": "ないでもない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-105-20-b",
+          "id": "fb-created-n2-105-08-b",
           "text": "にあたって",
           "grammarId": "n2-105",
           "baseExpression": "にあたって",
@@ -1595,25 +662,933 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-105-20-c",
-          "text": "ないことはない",
-          "grammarId": "n2-098",
-          "baseExpression": "ないことはない",
-          "conjugatedExpression": "ないことはない",
+          "id": "fb-created-n2-105-08-c",
+          "text": "のことだから",
+          "grammarId": "n2-135",
+          "baseExpression": "のことだから",
+          "conjugatedExpression": "のことだから",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-08-d",
+          "text": "のみならず",
+          "grammarId": "n2-136",
+          "baseExpression": "のみならず",
+          "conjugatedExpression": "のみならず",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '국제 대회를 개최함에 있어서 역 주변의 안내 표지가 다국어로 바뀌었다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
       "sourceGrammarIds": [
         "n2-105",
-        "n2-098",
-        "n2-099",
-        "n2-100"
+        "n2-135",
+        "n2-136",
+        "n2-137"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-105-09",
+      "level": "N2",
+      "sentence": "重要な手術にあたって、医師は家族に治療の危険性を丁寧に伝えた。",
+      "sentenceWithBlank": "重要な手術（　　　）、医師は家族に治療の危険性を丁寧に伝えた。",
+      "korean": "중요한 수술을 앞두고 의사는 가족에게 치료의 위험성을 세심하게 설명했다.",
+      "answerChoiceId": "fb-created-n2-105-09-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-105-09-b",
+          "text": "にあたって",
+          "grammarId": "n2-105",
+          "baseExpression": "にあたって",
+          "conjugatedExpression": "にあたって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-105-09-c",
+          "text": "のことだから",
+          "grammarId": "n2-135",
+          "baseExpression": "のことだから",
+          "conjugatedExpression": "のことだから",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-09-d",
+          "text": "のみならず",
+          "grammarId": "n2-136",
+          "baseExpression": "のみならず",
+          "conjugatedExpression": "のみならず",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-09-a",
+          "text": "のもとで",
+          "grammarId": "n2-137",
+          "baseExpression": "のもとで",
+          "conjugatedExpression": "のもとで",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '중요한 수술을 앞두고 의사는 가족에게 치료의 위험성을 세심하게 설명했다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
+      "sourceGrammarIds": [
+        "n2-105",
+        "n2-135",
+        "n2-136",
+        "n2-137"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-105-10",
+      "level": "N2",
+      "sentence": "森林保護区域を指定するにあたって、自治体は林業関係者から意見を募った。",
+      "sentenceWithBlank": "森林保護区域を指定する（　　　）、自治体は林業関係者から意見を募った。",
+      "korean": "산림 보호 구역을 지정함에 있어서 지방자치단체는 임업 관계자들의 의견을 모았다.",
+      "answerChoiceId": "fb-created-n2-105-10-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-105-10-c",
+          "text": "のことだから",
+          "grammarId": "n2-135",
+          "baseExpression": "のことだから",
+          "conjugatedExpression": "のことだから",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-10-d",
+          "text": "のみならず",
+          "grammarId": "n2-136",
+          "baseExpression": "のみならず",
+          "conjugatedExpression": "のみならず",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-10-a",
+          "text": "のもとで",
+          "grammarId": "n2-137",
+          "baseExpression": "のもとで",
+          "conjugatedExpression": "のもとで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-10-b",
+          "text": "にあたって",
+          "grammarId": "n2-105",
+          "baseExpression": "にあたって",
+          "conjugatedExpression": "にあたって",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '산림 보호 구역을 지정함에 있어서 지방자치단체는 임업 관계자들의 의견을 모았다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
+      "sourceGrammarIds": [
+        "n2-105",
+        "n2-135",
+        "n2-136",
+        "n2-137"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-105-11",
+      "level": "N2",
+      "sentence": "父の退職にあたって、同僚たちが思い出の写真を一冊にまとめてくれた。",
+      "sentenceWithBlank": "父の退職（　　　）、同僚たちが思い出の写真を一冊にまとめてくれた。",
+      "korean": "아버지의 퇴직을 맞아 동료들이 추억이 담긴 사진을 한 권으로 엮어 주었다.",
+      "answerChoiceId": "fb-created-n2-105-11-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-105-11-d",
+          "text": "のみならず",
+          "grammarId": "n2-136",
+          "baseExpression": "のみならず",
+          "conjugatedExpression": "のみならず",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-11-a",
+          "text": "のもとで",
+          "grammarId": "n2-137",
+          "baseExpression": "のもとで",
+          "conjugatedExpression": "のもとで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-11-b",
+          "text": "にあたって",
+          "grammarId": "n2-105",
+          "baseExpression": "にあたって",
+          "conjugatedExpression": "にあたって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-105-11-c",
+          "text": "のことだから",
+          "grammarId": "n2-135",
+          "baseExpression": "のことだから",
+          "conjugatedExpression": "のことだから",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '아버지의 퇴직을 맞아 동료들이 추억이 담긴 사진을 한 권으로 엮어 주었다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
+      "sourceGrammarIds": [
+        "n2-105",
+        "n2-135",
+        "n2-136",
+        "n2-137"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-105-12",
+      "level": "N2",
+      "sentence": "新薬の臨床試験を開始するにあたって、参加者には詳細な同意書が渡された。",
+      "sentenceWithBlank": "新薬の臨床試験を開始する（　　　）、参加者には詳細な同意書が渡された。",
+      "korean": "신약 임상 시험을 시작함에 있어서 참가자들에게 상세한 동의서가 전달되었다.",
+      "answerChoiceId": "fb-created-n2-105-12-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-105-12-a",
+          "text": "のもとで",
+          "grammarId": "n2-137",
+          "baseExpression": "のもとで",
+          "conjugatedExpression": "のもとで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-12-b",
+          "text": "にあたって",
+          "grammarId": "n2-105",
+          "baseExpression": "にあたって",
+          "conjugatedExpression": "にあたって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-105-12-c",
+          "text": "のことだから",
+          "grammarId": "n2-135",
+          "baseExpression": "のことだから",
+          "conjugatedExpression": "のことだから",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-12-d",
+          "text": "のみならず",
+          "grammarId": "n2-136",
+          "baseExpression": "のみならず",
+          "conjugatedExpression": "のみならず",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '신약 임상 시험을 시작함에 있어서 참가자들에게 상세한 동의서가 전달되었다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
+      "sourceGrammarIds": [
+        "n2-105",
+        "n2-135",
+        "n2-136",
+        "n2-137"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-105-13",
+      "level": "N2",
+      "sentence": "国宝を一般公開するにあたって、美術館は展示室の温度管理を強化した。",
+      "sentenceWithBlank": "国宝を一般公開する（　　　）、美術館は展示室の温度管理を強化した。",
+      "korean": "국보를 일반에 공개함에 있어서 미술관은 전시실의 온도 관리를 강화했다.",
+      "answerChoiceId": "fb-created-n2-105-13-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-105-13-b",
+          "text": "にあたって",
+          "grammarId": "n2-105",
+          "baseExpression": "にあたって",
+          "conjugatedExpression": "にあたって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-105-13-c",
+          "text": "のことだから",
+          "grammarId": "n2-135",
+          "baseExpression": "のことだから",
+          "conjugatedExpression": "のことだから",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-13-d",
+          "text": "のみならず",
+          "grammarId": "n2-136",
+          "baseExpression": "のみならず",
+          "conjugatedExpression": "のみならず",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-13-a",
+          "text": "のもとで",
+          "grammarId": "n2-137",
+          "baseExpression": "のもとで",
+          "conjugatedExpression": "のもとで",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '국보를 일반에 공개함에 있어서 미술관은 전시실의 온도 관리를 강화했다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
+      "sourceGrammarIds": [
+        "n2-105",
+        "n2-135",
+        "n2-136",
+        "n2-137"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-105-14",
+      "level": "N2",
+      "sentence": "長期航海への出発にあたって、船長は乗組員の健康状態を確認した。",
+      "sentenceWithBlank": "長期航海への出発（　　　）、船長は乗組員の健康状態を確認した。",
+      "korean": "장기 항해 출발을 앞두고 선장은 승무원들의 건강 상태를 확인했다.",
+      "answerChoiceId": "fb-created-n2-105-14-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-105-14-c",
+          "text": "のことだから",
+          "grammarId": "n2-135",
+          "baseExpression": "のことだから",
+          "conjugatedExpression": "のことだから",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-14-d",
+          "text": "のみならず",
+          "grammarId": "n2-136",
+          "baseExpression": "のみならず",
+          "conjugatedExpression": "のみならず",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-14-a",
+          "text": "のもとで",
+          "grammarId": "n2-137",
+          "baseExpression": "のもとで",
+          "conjugatedExpression": "のもとで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-14-b",
+          "text": "にあたって",
+          "grammarId": "n2-105",
+          "baseExpression": "にあたって",
+          "conjugatedExpression": "にあたって",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '장기 항해 출발을 앞두고 선장은 승무원들의 건강 상태를 확인했다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
+      "sourceGrammarIds": [
+        "n2-105",
+        "n2-135",
+        "n2-136",
+        "n2-137"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-105-15",
+      "level": "N2",
+      "sentence": "工場を閉鎖するにあたって、経営陣は再就職支援の窓口を設けた。",
+      "sentenceWithBlank": "工場を閉鎖する（　　　）、経営陣は再就職支援の窓口を設けた。",
+      "korean": "공장을 폐쇄함에 있어서 경영진은 재취업 지원 창구를 마련했다.",
+      "answerChoiceId": "fb-created-n2-105-15-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-105-15-d",
+          "text": "のみならず",
+          "grammarId": "n2-136",
+          "baseExpression": "のみならず",
+          "conjugatedExpression": "のみならず",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-15-a",
+          "text": "のもとで",
+          "grammarId": "n2-137",
+          "baseExpression": "のもとで",
+          "conjugatedExpression": "のもとで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-15-b",
+          "text": "にあたって",
+          "grammarId": "n2-105",
+          "baseExpression": "にあたって",
+          "conjugatedExpression": "にあたって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-105-15-c",
+          "text": "のことだから",
+          "grammarId": "n2-135",
+          "baseExpression": "のことだから",
+          "conjugatedExpression": "のことだから",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '공장을 폐쇄함에 있어서 경영진은 재취업 지원 창구를 마련했다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
+      "sourceGrammarIds": [
+        "n2-105",
+        "n2-135",
+        "n2-136",
+        "n2-137"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-105-16",
+      "level": "N2",
+      "sentence": "新憲法の施行にあたって、政府は国民向けの相談窓口を全国に置いた。",
+      "sentenceWithBlank": "新憲法の施行（　　　）、政府は国民向けの相談窓口を全国に置いた。",
+      "korean": "새 헌법 시행을 맞아 정부는 국민을 위한 상담 창구를 전국에 설치했다.",
+      "answerChoiceId": "fb-created-n2-105-16-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-105-16-a",
+          "text": "のもとで",
+          "grammarId": "n2-137",
+          "baseExpression": "のもとで",
+          "conjugatedExpression": "のもとで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-16-b",
+          "text": "にあたって",
+          "grammarId": "n2-105",
+          "baseExpression": "にあたって",
+          "conjugatedExpression": "にあたって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-105-16-c",
+          "text": "のことだから",
+          "grammarId": "n2-135",
+          "baseExpression": "のことだから",
+          "conjugatedExpression": "のことだから",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-16-d",
+          "text": "のみならず",
+          "grammarId": "n2-136",
+          "baseExpression": "のみならず",
+          "conjugatedExpression": "のみならず",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '새 헌법 시행을 맞아 정부는 국민을 위한 상담 창구를 전국에 설치했다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
+      "sourceGrammarIds": [
+        "n2-105",
+        "n2-135",
+        "n2-136",
+        "n2-137"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-105-17",
+      "level": "N2",
+      "sentence": "被災地を再建するにあたって、住民の希望を反映した都市計画が策定された。",
+      "sentenceWithBlank": "被災地を再建する（　　　）、住民の希望を反映した都市計画が策定された。",
+      "korean": "재해 지역을 재건함에 있어서 주민들의 희망을 반영한 도시 계획이 수립되었다.",
+      "answerChoiceId": "fb-created-n2-105-17-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-105-17-b",
+          "text": "にあたって",
+          "grammarId": "n2-105",
+          "baseExpression": "にあたって",
+          "conjugatedExpression": "にあたって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-105-17-c",
+          "text": "のことだから",
+          "grammarId": "n2-135",
+          "baseExpression": "のことだから",
+          "conjugatedExpression": "のことだから",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-17-d",
+          "text": "のみならず",
+          "grammarId": "n2-136",
+          "baseExpression": "のみならず",
+          "conjugatedExpression": "のみならず",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-17-a",
+          "text": "のもとで",
+          "grammarId": "n2-137",
+          "baseExpression": "のもとで",
+          "conjugatedExpression": "のもとで",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '재해 지역을 재건함에 있어서 주민들의 희망을 반영한 도시 계획이 수립되었다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
+      "sourceGrammarIds": [
+        "n2-105",
+        "n2-135",
+        "n2-136",
+        "n2-137"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-105-18",
+      "level": "N2",
+      "sentence": "王位継承にあたって、皇太子は国民に向けて決意を表明した。",
+      "sentenceWithBlank": "王位継承（　　　）、皇太子は国民に向けて決意を表明した。",
+      "korean": "왕위 계승을 맞아 황태자는 국민에게 결의를 표명했다.",
+      "answerChoiceId": "fb-created-n2-105-18-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-105-18-c",
+          "text": "のことだから",
+          "grammarId": "n2-135",
+          "baseExpression": "のことだから",
+          "conjugatedExpression": "のことだから",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-18-d",
+          "text": "のみならず",
+          "grammarId": "n2-136",
+          "baseExpression": "のみならず",
+          "conjugatedExpression": "のみならず",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-18-a",
+          "text": "のもとで",
+          "grammarId": "n2-137",
+          "baseExpression": "のもとで",
+          "conjugatedExpression": "のもとで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-18-b",
+          "text": "にあたって",
+          "grammarId": "n2-105",
+          "baseExpression": "にあたって",
+          "conjugatedExpression": "にあたって",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '왕위 계승을 맞아 황태자는 국민에게 결의를 표명했다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
+      "sourceGrammarIds": [
+        "n2-105",
+        "n2-135",
+        "n2-136",
+        "n2-137"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-105-19",
+      "level": "N2",
+      "sentence": "二つの銀行を統合するにあたって、顧客情報の管理方法が全面的に見直された。",
+      "sentenceWithBlank": "二つの銀行を統合する（　　　）、顧客情報の管理方法が全面的に見直された。",
+      "korean": "두 은행을 통합함에 있어서 고객 정보 관리 방식이 전면적으로 재검토되었다.",
+      "answerChoiceId": "fb-created-n2-105-19-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-105-19-d",
+          "text": "のみならず",
+          "grammarId": "n2-136",
+          "baseExpression": "のみならず",
+          "conjugatedExpression": "のみならず",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-19-a",
+          "text": "のもとで",
+          "grammarId": "n2-137",
+          "baseExpression": "のもとで",
+          "conjugatedExpression": "のもとで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-19-b",
+          "text": "にあたって",
+          "grammarId": "n2-105",
+          "baseExpression": "にあたって",
+          "conjugatedExpression": "にあたって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-105-19-c",
+          "text": "のことだから",
+          "grammarId": "n2-135",
+          "baseExpression": "のことだから",
+          "conjugatedExpression": "のことだから",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '두 은행을 통합함에 있어서 고객 정보 관리 방식이 전면적으로 재검토되었다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
+      "sourceGrammarIds": [
+        "n2-105",
+        "n2-135",
+        "n2-136",
+        "n2-137"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-105-20",
+      "level": "N2",
+      "sentence": "山岳救助隊への入隊にあたって、候補者は厳しい体力試験を受けた。",
+      "sentenceWithBlank": "山岳救助隊への入隊（　　　）、候補者は厳しい体力試験を受けた。",
+      "korean": "산악 구조대 입대를 앞두고 후보자는 엄격한 체력 시험을 치렀다.",
+      "answerChoiceId": "fb-created-n2-105-20-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-105-20-a",
+          "text": "のもとで",
+          "grammarId": "n2-137",
+          "baseExpression": "のもとで",
+          "conjugatedExpression": "のもとで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-20-b",
+          "text": "にあたって",
+          "grammarId": "n2-105",
+          "baseExpression": "にあたって",
+          "conjugatedExpression": "にあたって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-105-20-c",
+          "text": "のことだから",
+          "grammarId": "n2-135",
+          "baseExpression": "のことだから",
+          "conjugatedExpression": "のことだから",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-20-d",
+          "text": "のみならず",
+          "grammarId": "n2-136",
+          "baseExpression": "のみならず",
+          "conjugatedExpression": "のみならず",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '산악 구조대 입대를 앞두고 후보자는 엄격한 체력 시험을 치렀다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
+      "sourceGrammarIds": [
+        "n2-105",
+        "n2-135",
+        "n2-136",
+        "n2-137"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-105-21",
+      "level": "N2",
+      "sentence": "古代遺跡の発掘にあたって、調査団は周辺住民に協力を求めた。",
+      "sentenceWithBlank": "古代遺跡の発掘（　　　）、調査団は周辺住民に協力を求めた。",
+      "korean": "고대 유적 발굴에 있어서 조사단은 인근 주민들에게 협조를 요청했다.",
+      "answerChoiceId": "fb-created-n2-105-21-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-105-21-b",
+          "text": "にあたって",
+          "grammarId": "n2-105",
+          "baseExpression": "にあたって",
+          "conjugatedExpression": "にあたって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-105-21-c",
+          "text": "のことだから",
+          "grammarId": "n2-135",
+          "baseExpression": "のことだから",
+          "conjugatedExpression": "のことだから",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-21-d",
+          "text": "のみならず",
+          "grammarId": "n2-136",
+          "baseExpression": "のみならず",
+          "conjugatedExpression": "のみならず",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-21-a",
+          "text": "のもとで",
+          "grammarId": "n2-137",
+          "baseExpression": "のもとで",
+          "conjugatedExpression": "のもとで",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '고대 유적 발굴에 있어서 조사단은 인근 주민들에게 협조를 요청했다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
+      "sourceGrammarIds": [
+        "n2-105",
+        "n2-135",
+        "n2-136",
+        "n2-137"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-105-22",
+      "level": "N2",
+      "sentence": "難民を受け入れるにあたって、市は住居と医療通訳を確保した。",
+      "sentenceWithBlank": "難民を受け入れる（　　　）、市は住居と医療通訳を確保した。",
+      "korean": "난민을 받아들임에 있어서 시는 주거 시설과 의료 통역 인력을 확보했다.",
+      "answerChoiceId": "fb-created-n2-105-22-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-105-22-c",
+          "text": "のことだから",
+          "grammarId": "n2-135",
+          "baseExpression": "のことだから",
+          "conjugatedExpression": "のことだから",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-22-d",
+          "text": "のみならず",
+          "grammarId": "n2-136",
+          "baseExpression": "のみならず",
+          "conjugatedExpression": "のみならず",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-22-a",
+          "text": "のもとで",
+          "grammarId": "n2-137",
+          "baseExpression": "のもとで",
+          "conjugatedExpression": "のもとで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-22-b",
+          "text": "にあたって",
+          "grammarId": "n2-105",
+          "baseExpression": "にあたって",
+          "conjugatedExpression": "にあたって",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '난민을 받아들임에 있어서 시는 주거 시설과 의료 통역 인력을 확보했다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
+      "sourceGrammarIds": [
+        "n2-105",
+        "n2-135",
+        "n2-136",
+        "n2-137"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-105-23",
+      "level": "N2",
+      "sentence": "創業百周年を迎えるにあたって、菓子店は初代の味を再現した限定品を発売した。",
+      "sentenceWithBlank": "創業百周年を迎える（　　　）、菓子店は初代の味を再現した限定品を発売した。",
+      "korean": "창업 100주년을 맞아 과자점은 초대 창업자의 맛을 재현한 한정 상품을 출시했다.",
+      "answerChoiceId": "fb-created-n2-105-23-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-105-23-d",
+          "text": "のみならず",
+          "grammarId": "n2-136",
+          "baseExpression": "のみならず",
+          "conjugatedExpression": "のみならず",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-23-a",
+          "text": "のもとで",
+          "grammarId": "n2-137",
+          "baseExpression": "のもとで",
+          "conjugatedExpression": "のもとで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-23-b",
+          "text": "にあたって",
+          "grammarId": "n2-105",
+          "baseExpression": "にあたって",
+          "conjugatedExpression": "にあたって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-105-23-c",
+          "text": "のことだから",
+          "grammarId": "n2-135",
+          "baseExpression": "のことだから",
+          "conjugatedExpression": "のことだから",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '창업 100주년을 맞아 과자점은 초대 창업자의 맛을 재현한 한정 상품을 출시했다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
+      "sourceGrammarIds": [
+        "n2-105",
+        "n2-135",
+        "n2-136",
+        "n2-137"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-105-24",
+      "level": "N2",
+      "sentence": "農地を大規模に転用するにあたって、事業者は地下水への影響を調べた。",
+      "sentenceWithBlank": "農地を大規模に転用する（　　　）、事業者は地下水への影響を調べた。",
+      "korean": "농지를 대규모로 전용함에 있어서 사업자는 지하수에 미치는 영향을 조사했다.",
+      "answerChoiceId": "fb-created-n2-105-24-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-105-24-a",
+          "text": "のもとで",
+          "grammarId": "n2-137",
+          "baseExpression": "のもとで",
+          "conjugatedExpression": "のもとで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-24-b",
+          "text": "にあたって",
+          "grammarId": "n2-105",
+          "baseExpression": "にあたって",
+          "conjugatedExpression": "にあたって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-105-24-c",
+          "text": "のことだから",
+          "grammarId": "n2-135",
+          "baseExpression": "のことだから",
+          "conjugatedExpression": "のことだから",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-24-d",
+          "text": "のみならず",
+          "grammarId": "n2-136",
+          "baseExpression": "のみならず",
+          "conjugatedExpression": "のみならず",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '농지를 대규모로 전용함에 있어서 사업자는 지하수에 미치는 영향을 조사했다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
+      "sourceGrammarIds": [
+        "n2-105",
+        "n2-135",
+        "n2-136",
+        "n2-137"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-105-25",
+      "level": "N2",
+      "sentence": "和平交渉を再開するにあたって、両国は捕虜の交換に合意した。",
+      "sentenceWithBlank": "和平交渉を再開する（　　　）、両国は捕虜の交換に合意した。",
+      "korean": "평화 협상을 재개함에 있어서 양국은 포로 교환에 합의했다.",
+      "answerChoiceId": "fb-created-n2-105-25-b",
+      "choices": [
+        {
+          "id": "fb-created-n2-105-25-b",
+          "text": "にあたって",
+          "grammarId": "n2-105",
+          "baseExpression": "にあたって",
+          "conjugatedExpression": "にあたって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-105-25-c",
+          "text": "のことだから",
+          "grammarId": "n2-135",
+          "baseExpression": "のことだから",
+          "conjugatedExpression": "のことだから",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-25-d",
+          "text": "のみならず",
+          "grammarId": "n2-136",
+          "baseExpression": "のみならず",
+          "conjugatedExpression": "のみならず",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-105-25-a",
+          "text": "のもとで",
+          "grammarId": "n2-137",
+          "baseExpression": "のもとで",
+          "conjugatedExpression": "のもとで",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '평화 협상을 재개함에 있어서 양국은 포로 교환에 합의했다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
+      "sourceGrammarIds": [
+        "n2-105",
+        "n2-135",
+        "n2-136",
+        "n2-137"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
       ]
     }
   ],
@@ -1834,1103 +1809,1153 @@
       ]
     },
     {
-      "id": "so-extra-n2-105-1",
+      "id": "so-created-n2-105-01",
       "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlanks": "新しい仕事を始める ____ ____ ____ ____",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
+      "sentence": "海外支社を設立するにあたって、現地の法律に詳しい弁護士を雇った。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 弁護士を雇った。",
+      "korean": "해외 지사를 설립함에 있어서 현지 법률에 정통한 변호사를 고용했다.",
       "pieces": [
         {
-          "id": "so-extra-n2-105-1-p4",
-          "text": "した",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-105-1-p1",
-          "text": "にあたって",
-          "order": 1
-        },
-        {
-          "id": "so-extra-n2-105-1-p2",
-          "text": "十分な",
+          "id": "so-created-n2-105-01-p2",
+          "text": "設立する",
           "order": 2
         },
         {
-          "id": "so-extra-n2-105-1-p3",
-          "text": "準備を",
+          "id": "so-created-n2-105-01-p3",
+          "text": "にあたって、",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-105-01-p4",
+          "text": "現地の法律に詳しい",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-105-01-p1",
+          "text": "海外支社を",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-105-1-p1",
-        "so-extra-n2-105-1-p2",
-        "so-extra-n2-105-1-p3",
-        "so-extra-n2-105-1-p4"
+        "so-created-n2-105-01-p1",
+        "so-created-n2-105-01-p2",
+        "so-created-n2-105-01-p3",
+        "so-created-n2-105-01-p4"
       ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '해외 지사를 설립함에 있어서 현지 법률에 정통한 변호사를 고용했다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
       "sourceGrammarIds": [
-        "n2-105"
+        "n2-105",
+        "n2-135",
+        "n2-136",
+        "n2-137"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-105-2",
+      "id": "so-created-n2-105-02",
       "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlanks": "新しい仕事を始める ____ ____ ____ ____",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
+      "sentence": "市長選への立候補にあたって、住民の声を聞く集会を各地で開いた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 集会を各地で開いた。",
+      "korean": "시장 선거 출마를 앞두고 주민들의 목소리를 듣는 집회를 여러 지역에서 열었다.",
       "pieces": [
         {
-          "id": "so-extra-n2-105-2-p1",
-          "text": "した",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-105-2-p2",
-          "text": "にあたって",
+          "id": "so-created-n2-105-02-p1",
+          "text": "市長選への",
           "order": 1
         },
         {
-          "id": "so-extra-n2-105-2-p3",
-          "text": "十分な",
+          "id": "so-created-n2-105-02-p2",
+          "text": "立候補",
           "order": 2
         },
         {
-          "id": "so-extra-n2-105-2-p4",
-          "text": "準備を",
+          "id": "so-created-n2-105-02-p3",
+          "text": "にあたって、",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-105-02-p4",
+          "text": "住民の声を聞く",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-105-2-p2",
-        "so-extra-n2-105-2-p3",
-        "so-extra-n2-105-2-p4",
-        "so-extra-n2-105-2-p1"
+        "so-created-n2-105-02-p1",
+        "so-created-n2-105-02-p2",
+        "so-created-n2-105-02-p3",
+        "so-created-n2-105-02-p4"
       ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '시장 선거 출마를 앞두고 주민들의 목소리를 듣는 집회를 여러 지역에서 열었다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
       "sourceGrammarIds": [
-        "n2-105"
+        "n2-105",
+        "n2-135",
+        "n2-136",
+        "n2-137"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-105-3",
+      "id": "so-created-n2-105-03",
       "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、十分な準備をした。",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
+      "sentence": "歴史的な橋を修復するにあたって、専門家が古い設計図を詳しく調査した。",
+      "sentenceWithBlanks": "歴史的な橋を ____ ____ ____ ____ 調査した。",
+      "korean": "역사적인 다리를 복원함에 있어서 전문가가 옛 설계도를 자세히 조사했다.",
       "pieces": [
         {
-          "id": "so-extra-n2-105-3-p2",
-          "text": "準備を",
+          "id": "so-created-n2-105-03-p4",
+          "text": "設計図を詳しく",
           "order": 4
         },
         {
-          "id": "so-extra-n2-105-3-p3",
-          "text": "始める",
+          "id": "so-created-n2-105-03-p1",
+          "text": "修復する",
           "order": 1
         },
         {
-          "id": "so-extra-n2-105-3-p4",
-          "text": "にあたって",
+          "id": "so-created-n2-105-03-p2",
+          "text": "にあたって、",
           "order": 2
         },
         {
-          "id": "so-extra-n2-105-3-p1",
-          "text": "十分な",
+          "id": "so-created-n2-105-03-p3",
+          "text": "専門家が古い",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-105-3-p3",
-        "so-extra-n2-105-3-p4",
-        "so-extra-n2-105-3-p1",
-        "so-extra-n2-105-3-p2"
+        "so-created-n2-105-03-p1",
+        "so-created-n2-105-03-p2",
+        "so-created-n2-105-03-p3",
+        "so-created-n2-105-03-p4"
       ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '역사적인 다리를 복원함에 있어서 전문가가 옛 설계도를 자세히 조사했다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
       "sourceGrammarIds": [
-        "n2-105"
+        "n2-105",
+        "n2-135",
+        "n2-136",
+        "n2-137"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-105-4",
+      "id": "so-created-n2-105-04",
       "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlanks": "新しい仕事を始める ____ ____ ____ ____",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
+      "sentence": "娘の結婚にあたって、両家は今後の付き合い方について話し合った。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 話し合った。",
+      "korean": "딸의 결혼을 맞아 양가는 앞으로의 교류 방식에 관해 의논했다.",
       "pieces": [
         {
-          "id": "so-extra-n2-105-4-p3",
-          "text": "した",
+          "id": "so-created-n2-105-04-p3",
+          "text": "両家は今後の",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-105-04-p4",
+          "text": "付き合い方について",
           "order": 4
         },
         {
-          "id": "so-extra-n2-105-4-p4",
-          "text": "にあたって",
+          "id": "so-created-n2-105-04-p1",
+          "text": "娘の結婚",
           "order": 1
         },
         {
-          "id": "so-extra-n2-105-4-p1",
-          "text": "十分な",
+          "id": "so-created-n2-105-04-p2",
+          "text": "にあたって、",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-105-4-p2",
-          "text": "準備を",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-105-4-p4",
-        "so-extra-n2-105-4-p1",
-        "so-extra-n2-105-4-p2",
-        "so-extra-n2-105-4-p3"
+        "so-created-n2-105-04-p1",
+        "so-created-n2-105-04-p2",
+        "so-created-n2-105-04-p3",
+        "so-created-n2-105-04-p4"
       ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '딸의 결혼을 맞아 양가는 앞으로의 교류 방식에 관해 의논했다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
       "sourceGrammarIds": [
-        "n2-105"
+        "n2-105",
+        "n2-135",
+        "n2-136",
+        "n2-137"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-105-5",
+      "id": "so-created-n2-105-05",
       "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlanks": "新しい仕事を始める ____ ____ ____ ____",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
+      "sentence": "大規模な避難訓練を実施するにあたって、病院は患者の移動経路を再確認した。",
+      "sentenceWithBlanks": "大規模な避難訓練を ____ ____ ____ ____ 確認した。",
+      "korean": "대규모 대피 훈련을 실시함에 있어서 병원은 환자들의 이동 경로를 재확인했다.",
       "pieces": [
         {
-          "id": "so-extra-n2-105-5-p4",
-          "text": "した",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-105-5-p1",
-          "text": "にあたって",
-          "order": 1
-        },
-        {
-          "id": "so-extra-n2-105-5-p2",
-          "text": "十分な",
+          "id": "so-created-n2-105-05-p2",
+          "text": "にあたって、",
           "order": 2
         },
         {
-          "id": "so-extra-n2-105-5-p3",
-          "text": "準備を",
+          "id": "so-created-n2-105-05-p3",
+          "text": "病院は患者の",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-105-05-p4",
+          "text": "移動経路を再",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-105-05-p1",
+          "text": "実施する",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-105-5-p1",
-        "so-extra-n2-105-5-p2",
-        "so-extra-n2-105-5-p3",
-        "so-extra-n2-105-5-p4"
+        "so-created-n2-105-05-p1",
+        "so-created-n2-105-05-p2",
+        "so-created-n2-105-05-p3",
+        "so-created-n2-105-05-p4"
       ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '대규모 대피 훈련을 실시함에 있어서 병원은 환자들의 이동 경로를 재확인했다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
       "sourceGrammarIds": [
-        "n2-105"
+        "n2-105",
+        "n2-135",
+        "n2-136",
+        "n2-137"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-105-01",
+      "id": "so-created-n2-105-06",
       "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlanks": "新しい仕事を始める ____ ____ ____ ____",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
+      "sentence": "老舗旅館を引き継ぐにあたって、彼は従業員全員と個別に面談した。",
+      "sentenceWithBlanks": "老舗旅館を ____ ____ ____ ____ 面談した。",
+      "korean": "오래된 전통 여관을 물려받음에 있어서 그는 모든 종업원과 개별적으로 면담했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-105-01-p4",
-          "text": "した",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-105-01-p1",
-          "text": "にあたって",
+          "id": "so-created-n2-105-06-p1",
+          "text": "引き継ぐ",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-105-01-p2",
-          "text": "十分な",
+          "id": "so-created-n2-105-06-p2",
+          "text": "にあたって、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-105-01-p3",
-          "text": "準備を",
+          "id": "so-created-n2-105-06-p3",
+          "text": "彼は従業員",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-105-06-p4",
+          "text": "全員と個別に",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-105-01-p1",
-        "so-extra20-n2-105-01-p2",
-        "so-extra20-n2-105-01-p3",
-        "so-extra20-n2-105-01-p4"
+        "so-created-n2-105-06-p1",
+        "so-created-n2-105-06-p2",
+        "so-created-n2-105-06-p3",
+        "so-created-n2-105-06-p4"
       ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '오래된 전통 여관을 물려받음에 있어서 그는 모든 종업원과 개별적으로 면담했다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
       "sourceGrammarIds": [
-        "n2-105"
+        "n2-105",
+        "n2-135",
+        "n2-136",
+        "n2-137"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-105-02",
+      "id": "so-created-n2-105-07",
       "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlanks": "新しい仕事を始める ____ ____ ____ ____",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
+      "sentence": "宇宙探査機の打ち上げにあたって、技術者たちは最終点検を夜通し続けた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 最終点検を夜通し続けた。",
+      "korean": "우주 탐사선 발사를 앞두고 기술자들은 밤새 최종 점검을 계속했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-105-02-p3",
-          "text": "十分な",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-105-02-p4",
-          "text": "準備を",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-105-02-p1",
-          "text": "した",
+          "id": "so-created-n2-105-07-p4",
+          "text": "技術者たちは",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-105-02-p2",
-          "text": "にあたって",
+          "id": "so-created-n2-105-07-p1",
+          "text": "宇宙探査",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-105-07-p2",
+          "text": "機の打ち上げ",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-105-07-p3",
+          "text": "にあたって、",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-105-02-p2",
-        "so-extra20-n2-105-02-p3",
-        "so-extra20-n2-105-02-p4",
-        "so-extra20-n2-105-02-p1"
+        "so-created-n2-105-07-p1",
+        "so-created-n2-105-07-p2",
+        "so-created-n2-105-07-p3",
+        "so-created-n2-105-07-p4"
       ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '우주 탐사선 발사를 앞두고 기술자들은 밤새 최종 점검을 계속했다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
       "sourceGrammarIds": [
-        "n2-105"
+        "n2-105",
+        "n2-135",
+        "n2-136",
+        "n2-137"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-105-03",
+      "id": "so-created-n2-105-08",
       "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、十分な準備をした。",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
+      "sentence": "国際大会を開催するにあたって、駅周辺の案内表示が多言語化された。",
+      "sentenceWithBlanks": "国際大会を ____ ____ ____ ____ 化された。",
+      "korean": "국제 대회를 개최함에 있어서 역 주변의 안내 표지가 다국어로 바뀌었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-105-03-p2",
-          "text": "準備を",
+          "id": "so-created-n2-105-08-p3",
+          "text": "駅周辺の案内",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-105-08-p4",
+          "text": "表示が多言語",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-105-03-p3",
-          "text": "始める",
+          "id": "so-created-n2-105-08-p1",
+          "text": "開催する",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-105-03-p4",
-          "text": "にあたって",
+          "id": "so-created-n2-105-08-p2",
+          "text": "にあたって、",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-105-03-p1",
-          "text": "十分な",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-105-03-p3",
-        "so-extra20-n2-105-03-p4",
-        "so-extra20-n2-105-03-p1",
-        "so-extra20-n2-105-03-p2"
+        "so-created-n2-105-08-p1",
+        "so-created-n2-105-08-p2",
+        "so-created-n2-105-08-p3",
+        "so-created-n2-105-08-p4"
       ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '국제 대회를 개최함에 있어서 역 주변의 안내 표지가 다국어로 바뀌었다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
       "sourceGrammarIds": [
-        "n2-105"
+        "n2-105",
+        "n2-135",
+        "n2-136",
+        "n2-137"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-105-04",
+      "id": "so-created-n2-105-09",
       "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlanks": "新しい仕事を始める ____ ____ ____ ____",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
+      "sentence": "重要な手術にあたって、医師は家族に治療の危険性を丁寧に伝えた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 性を丁寧に伝えた。",
+      "korean": "중요한 수술을 앞두고 의사는 가족에게 치료의 위험성을 세심하게 설명했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-105-04-p1",
-          "text": "十分な",
+          "id": "so-created-n2-105-09-p2",
+          "text": "にあたって、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-105-04-p2",
-          "text": "準備を",
+          "id": "so-created-n2-105-09-p3",
+          "text": "医師は家族に",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-105-04-p3",
-          "text": "した",
+          "id": "so-created-n2-105-09-p4",
+          "text": "治療の危険",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-105-04-p4",
-          "text": "にあたって",
+          "id": "so-created-n2-105-09-p1",
+          "text": "重要な手術",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-105-04-p4",
-        "so-extra20-n2-105-04-p1",
-        "so-extra20-n2-105-04-p2",
-        "so-extra20-n2-105-04-p3"
+        "so-created-n2-105-09-p1",
+        "so-created-n2-105-09-p2",
+        "so-created-n2-105-09-p3",
+        "so-created-n2-105-09-p4"
       ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '중요한 수술을 앞두고 의사는 가족에게 치료의 위험성을 세심하게 설명했다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
       "sourceGrammarIds": [
-        "n2-105"
+        "n2-105",
+        "n2-135",
+        "n2-136",
+        "n2-137"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-105-05",
+      "id": "so-created-n2-105-10",
       "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlanks": "新しい仕事を始める ____ ____ ____ ____",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
+      "sentence": "森林保護区域を指定するにあたって、自治体は林業関係者から意見を募った。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 関係者から意見を募った。",
+      "korean": "산림 보호 구역을 지정함에 있어서 지방자치단체는 임업 관계자들의 의견을 모았다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-105-05-p4",
-          "text": "した",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-105-05-p1",
-          "text": "にあたって",
+          "id": "so-created-n2-105-10-p1",
+          "text": "森林保護",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-105-05-p2",
-          "text": "十分な",
+          "id": "so-created-n2-105-10-p2",
+          "text": "区域を指定する",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-105-05-p3",
-          "text": "準備を",
+          "id": "so-created-n2-105-10-p3",
+          "text": "にあたって、",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-105-10-p4",
+          "text": "自治体は林業",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-105-05-p1",
-        "so-extra20-n2-105-05-p2",
-        "so-extra20-n2-105-05-p3",
-        "so-extra20-n2-105-05-p4"
+        "so-created-n2-105-10-p1",
+        "so-created-n2-105-10-p2",
+        "so-created-n2-105-10-p3",
+        "so-created-n2-105-10-p4"
       ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '산림 보호 구역을 지정함에 있어서 지방자치단체는 임업 관계자들의 의견을 모았다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
       "sourceGrammarIds": [
-        "n2-105"
+        "n2-105",
+        "n2-135",
+        "n2-136",
+        "n2-137"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-105-06",
+      "id": "so-created-n2-105-11",
       "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlanks": "新しい仕事を始める ____ ____ ____ ____",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
+      "sentence": "父の退職にあたって、同僚たちが思い出の写真を一冊にまとめてくれた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 一冊にまとめてくれた。",
+      "korean": "아버지의 퇴직을 맞아 동료들이 추억이 담긴 사진을 한 권으로 엮어 주었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-105-06-p3",
-          "text": "準備を",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-105-06-p4",
-          "text": "した",
+          "id": "so-created-n2-105-11-p4",
+          "text": "思い出の写真を",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-105-06-p1",
-          "text": "にあたって",
+          "id": "so-created-n2-105-11-p1",
+          "text": "父の退職",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-105-06-p2",
-          "text": "十分な",
+          "id": "so-created-n2-105-11-p2",
+          "text": "にあたって、",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-105-11-p3",
+          "text": "同僚たちが",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-105-06-p1",
-        "so-extra20-n2-105-06-p2",
-        "so-extra20-n2-105-06-p3",
-        "so-extra20-n2-105-06-p4"
+        "so-created-n2-105-11-p1",
+        "so-created-n2-105-11-p2",
+        "so-created-n2-105-11-p3",
+        "so-created-n2-105-11-p4"
       ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '아버지의 퇴직을 맞아 동료들이 추억이 담긴 사진을 한 권으로 엮어 주었다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
       "sourceGrammarIds": [
-        "n2-105"
+        "n2-105",
+        "n2-135",
+        "n2-136",
+        "n2-137"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-105-07",
+      "id": "so-created-n2-105-12",
       "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlanks": "新しい仕事を始める ____ ____ ____ ____",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
+      "sentence": "新薬の臨床試験を開始するにあたって、参加者には詳細な同意書が渡された。",
+      "sentenceWithBlanks": "新薬の臨床試験を ____ ____ ____ ____ 渡された。",
+      "korean": "신약 임상 시험을 시작함에 있어서 참가자들에게 상세한 동의서가 전달되었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-105-07-p2",
-          "text": "にあたって",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-105-07-p3",
-          "text": "十分な",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-105-07-p4",
-          "text": "準備を",
+          "id": "so-created-n2-105-12-p3",
+          "text": "参加者には",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-105-07-p1",
-          "text": "した",
+          "id": "so-created-n2-105-12-p4",
+          "text": "詳細な同意書が",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-105-12-p1",
+          "text": "開始する",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-105-12-p2",
+          "text": "にあたって、",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-105-07-p2",
-        "so-extra20-n2-105-07-p3",
-        "so-extra20-n2-105-07-p4",
-        "so-extra20-n2-105-07-p1"
+        "so-created-n2-105-12-p1",
+        "so-created-n2-105-12-p2",
+        "so-created-n2-105-12-p3",
+        "so-created-n2-105-12-p4"
       ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '신약 임상 시험을 시작함에 있어서 참가자들에게 상세한 동의서가 전달되었다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
       "sourceGrammarIds": [
-        "n2-105"
+        "n2-105",
+        "n2-135",
+        "n2-136",
+        "n2-137"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-105-08",
+      "id": "so-created-n2-105-13",
       "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、十分な準備をした。",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
+      "sentence": "国宝を一般公開するにあたって、美術館は展示室の温度管理を強化した。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 温度管理を強化した。",
+      "korean": "국보를 일반에 공개함에 있어서 미술관은 전시실의 온도 관리를 강화했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-105-08-p1",
-          "text": "十分な",
+          "id": "so-created-n2-105-13-p2",
+          "text": "公開する",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-105-13-p3",
+          "text": "にあたって、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-105-08-p2",
-          "text": "準備を",
+          "id": "so-created-n2-105-13-p4",
+          "text": "美術館は展示室の",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-105-08-p3",
-          "text": "始める",
+          "id": "so-created-n2-105-13-p1",
+          "text": "国宝を一般",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-105-08-p4",
-          "text": "にあたって",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-105-08-p3",
-        "so-extra20-n2-105-08-p4",
-        "so-extra20-n2-105-08-p1",
-        "so-extra20-n2-105-08-p2"
+        "so-created-n2-105-13-p1",
+        "so-created-n2-105-13-p2",
+        "so-created-n2-105-13-p3",
+        "so-created-n2-105-13-p4"
       ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '국보를 일반에 공개함에 있어서 미술관은 전시실의 온도 관리를 강화했다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
       "sourceGrammarIds": [
-        "n2-105"
+        "n2-105",
+        "n2-135",
+        "n2-136",
+        "n2-137"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-105-09",
+      "id": "so-created-n2-105-14",
       "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlanks": "新しい仕事を始める ____ ____ ____ ____",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
+      "sentence": "長期航海への出発にあたって、船長は乗組員の健康状態を確認した。",
+      "sentenceWithBlanks": "長期航海への ____ ____ ____ ____ 確認した。",
+      "korean": "장기 항해 출발을 앞두고 선장은 승무원들의 건강 상태를 확인했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-105-09-p4",
-          "text": "にあたって",
+          "id": "so-created-n2-105-14-p1",
+          "text": "出発",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-105-09-p1",
-          "text": "十分な",
+          "id": "so-created-n2-105-14-p2",
+          "text": "にあたって、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-105-09-p2",
-          "text": "準備を",
+          "id": "so-created-n2-105-14-p3",
+          "text": "船長は乗組員の",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-105-09-p3",
-          "text": "した",
+          "id": "so-created-n2-105-14-p4",
+          "text": "健康状態を",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-105-09-p4",
-        "so-extra20-n2-105-09-p1",
-        "so-extra20-n2-105-09-p2",
-        "so-extra20-n2-105-09-p3"
+        "so-created-n2-105-14-p1",
+        "so-created-n2-105-14-p2",
+        "so-created-n2-105-14-p3",
+        "so-created-n2-105-14-p4"
       ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '장기 항해 출발을 앞두고 선장은 승무원들의 건강 상태를 확인했다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
       "sourceGrammarIds": [
-        "n2-105"
+        "n2-105",
+        "n2-135",
+        "n2-136",
+        "n2-137"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-105-10",
+      "id": "so-created-n2-105-15",
       "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlanks": "新しい仕事を始める ____ ____ ____ ____",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
+      "sentence": "工場を閉鎖するにあたって、経営陣は再就職支援の窓口を設けた。",
+      "sentenceWithBlanks": "工場を ____ ____ ____ ____ 設けた。",
+      "korean": "공장을 폐쇄함에 있어서 경영진은 재취업 지원 창구를 마련했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-105-10-p3",
-          "text": "準備を",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-105-10-p4",
-          "text": "した",
+          "id": "so-created-n2-105-15-p4",
+          "text": "支援の窓口を",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-105-10-p1",
-          "text": "にあたって",
+          "id": "so-created-n2-105-15-p1",
+          "text": "閉鎖する",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-105-10-p2",
-          "text": "十分な",
+          "id": "so-created-n2-105-15-p2",
+          "text": "にあたって、",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-105-15-p3",
+          "text": "経営陣は再就職",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-105-10-p1",
-        "so-extra20-n2-105-10-p2",
-        "so-extra20-n2-105-10-p3",
-        "so-extra20-n2-105-10-p4"
+        "so-created-n2-105-15-p1",
+        "so-created-n2-105-15-p2",
+        "so-created-n2-105-15-p3",
+        "so-created-n2-105-15-p4"
       ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '공장을 폐쇄함에 있어서 경영진은 재취업 지원 창구를 마련했다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
       "sourceGrammarIds": [
-        "n2-105"
+        "n2-105",
+        "n2-135",
+        "n2-136",
+        "n2-137"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-105-11",
+      "id": "so-created-n2-105-16",
       "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlanks": "新しい仕事を始める ____ ____ ____ ____",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
+      "sentence": "新憲法の施行にあたって、政府は国民向けの相談窓口を全国に置いた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 相談窓口を全国に置いた。",
+      "korean": "새 헌법 시행을 맞아 정부는 국민을 위한 상담 창구를 전국에 설치했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-105-11-p2",
-          "text": "十分な",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-105-11-p3",
-          "text": "準備を",
+          "id": "so-created-n2-105-16-p3",
+          "text": "政府は",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-105-11-p4",
-          "text": "した",
+          "id": "so-created-n2-105-16-p4",
+          "text": "国民向けの",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-105-11-p1",
-          "text": "にあたって",
+          "id": "so-created-n2-105-16-p1",
+          "text": "新憲法の施行",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-105-16-p2",
+          "text": "にあたって、",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-105-11-p1",
-        "so-extra20-n2-105-11-p2",
-        "so-extra20-n2-105-11-p3",
-        "so-extra20-n2-105-11-p4"
+        "so-created-n2-105-16-p1",
+        "so-created-n2-105-16-p2",
+        "so-created-n2-105-16-p3",
+        "so-created-n2-105-16-p4"
       ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '새 헌법 시행을 맞아 정부는 국민을 위한 상담 창구를 전국에 설치했다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
       "sourceGrammarIds": [
-        "n2-105"
+        "n2-105",
+        "n2-135",
+        "n2-136",
+        "n2-137"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-105-12",
+      "id": "so-created-n2-105-17",
       "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlanks": "新しい仕事を始める ____ ____ ____ ____",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
+      "sentence": "被災地を再建するにあたって、住民の希望を反映した都市計画が策定された。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 都市計画が策定された。",
+      "korean": "재해 지역을 재건함에 있어서 주민들의 희망을 반영한 도시 계획이 수립되었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-105-12-p1",
-          "text": "した",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-105-12-p2",
-          "text": "にあたって",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-105-12-p3",
-          "text": "十分な",
+          "id": "so-created-n2-105-17-p2",
+          "text": "にあたって、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-105-12-p4",
-          "text": "準備を",
+          "id": "so-created-n2-105-17-p3",
+          "text": "住民の希望を",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-105-17-p4",
+          "text": "反映した",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-105-17-p1",
+          "text": "被災地を再建する",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-105-12-p2",
-        "so-extra20-n2-105-12-p3",
-        "so-extra20-n2-105-12-p4",
-        "so-extra20-n2-105-12-p1"
+        "so-created-n2-105-17-p1",
+        "so-created-n2-105-17-p2",
+        "so-created-n2-105-17-p3",
+        "so-created-n2-105-17-p4"
       ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '재해 지역을 재건함에 있어서 주민들의 희망을 반영한 도시 계획이 수립되었다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
       "sourceGrammarIds": [
-        "n2-105"
+        "n2-105",
+        "n2-135",
+        "n2-136",
+        "n2-137"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-105-13",
+      "id": "so-created-n2-105-18",
       "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、十分な準備をした。",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
+      "sentence": "王位継承にあたって、皇太子は国民に向けて決意を表明した。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 表明した。",
+      "korean": "왕위 계승을 맞아 황태자는 국민에게 결의를 표명했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-105-13-p4",
-          "text": "にあたって",
+          "id": "so-created-n2-105-18-p1",
+          "text": "王位継承",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-105-18-p2",
+          "text": "にあたって、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-105-13-p1",
-          "text": "十分な",
+          "id": "so-created-n2-105-18-p3",
+          "text": "皇太子は国民に",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-105-13-p2",
-          "text": "準備を",
+          "id": "so-created-n2-105-18-p4",
+          "text": "向けて決意を",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-105-13-p3",
-          "text": "始める",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-105-13-p3",
-        "so-extra20-n2-105-13-p4",
-        "so-extra20-n2-105-13-p1",
-        "so-extra20-n2-105-13-p2"
+        "so-created-n2-105-18-p1",
+        "so-created-n2-105-18-p2",
+        "so-created-n2-105-18-p3",
+        "so-created-n2-105-18-p4"
       ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '왕위 계승을 맞아 황태자는 국민에게 결의를 표명했다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
       "sourceGrammarIds": [
-        "n2-105"
+        "n2-105",
+        "n2-135",
+        "n2-136",
+        "n2-137"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-105-14",
+      "id": "so-created-n2-105-19",
       "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlanks": "新しい仕事を始める ____ ____ ____ ____",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
+      "sentence": "二つの銀行を統合するにあたって、顧客情報の管理方法が全面的に見直された。",
+      "sentenceWithBlanks": "二つの銀行を統合する ____ ____ ____ ____ 見直された。",
+      "korean": "두 은행을 통합함에 있어서 고객 정보 관리 방식이 전면적으로 재검토되었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-105-14-p3",
-          "text": "した",
+          "id": "so-created-n2-105-19-p4",
+          "text": "全面的に",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-105-14-p4",
-          "text": "にあたって",
+          "id": "so-created-n2-105-19-p1",
+          "text": "にあたって、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-105-14-p1",
-          "text": "十分な",
+          "id": "so-created-n2-105-19-p2",
+          "text": "顧客情報の",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-105-14-p2",
-          "text": "準備を",
+          "id": "so-created-n2-105-19-p3",
+          "text": "管理方法が",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-105-14-p4",
-        "so-extra20-n2-105-14-p1",
-        "so-extra20-n2-105-14-p2",
-        "so-extra20-n2-105-14-p3"
+        "so-created-n2-105-19-p1",
+        "so-created-n2-105-19-p2",
+        "so-created-n2-105-19-p3",
+        "so-created-n2-105-19-p4"
       ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '두 은행을 통합함에 있어서 고객 정보 관리 방식이 전면적으로 재검토되었다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
       "sourceGrammarIds": [
-        "n2-105"
+        "n2-105",
+        "n2-135",
+        "n2-136",
+        "n2-137"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-105-15",
+      "id": "so-created-n2-105-20",
       "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlanks": "新しい仕事を始める ____ ____ ____ ____",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
+      "sentence": "山岳救助隊への入隊にあたって、候補者は厳しい体力試験を受けた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 体力試験を受けた。",
+      "korean": "산악 구조대 입대를 앞두고 후보자는 엄격한 체력 시험을 치렀다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-105-15-p2",
-          "text": "十分な",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-105-15-p3",
-          "text": "準備を",
+          "id": "so-created-n2-105-20-p3",
+          "text": "にあたって、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-105-15-p4",
-          "text": "した",
+          "id": "so-created-n2-105-20-p4",
+          "text": "候補者は厳しい",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-105-15-p1",
-          "text": "にあたって",
+          "id": "so-created-n2-105-20-p1",
+          "text": "山岳救助",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-105-20-p2",
+          "text": "隊への入隊",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-105-15-p1",
-        "so-extra20-n2-105-15-p2",
-        "so-extra20-n2-105-15-p3",
-        "so-extra20-n2-105-15-p4"
+        "so-created-n2-105-20-p1",
+        "so-created-n2-105-20-p2",
+        "so-created-n2-105-20-p3",
+        "so-created-n2-105-20-p4"
       ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '산악 구조대 입대를 앞두고 후보자는 엄격한 체력 시험을 치렀다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
       "sourceGrammarIds": [
-        "n2-105"
+        "n2-105",
+        "n2-135",
+        "n2-136",
+        "n2-137"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-105-16",
+      "id": "so-created-n2-105-21",
       "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlanks": "新しい仕事を始める ____ ____ ____ ____",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
+      "sentence": "古代遺跡の発掘にあたって、調査団は周辺住民に協力を求めた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 協力を求めた。",
+      "korean": "고대 유적 발굴에 있어서 조사단은 인근 주민들에게 협조를 요청했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-105-16-p1",
-          "text": "にあたって",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-105-16-p2",
-          "text": "十分な",
+          "id": "so-created-n2-105-21-p2",
+          "text": "にあたって、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-105-16-p3",
-          "text": "準備を",
+          "id": "so-created-n2-105-21-p3",
+          "text": "調査団は",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-105-16-p4",
-          "text": "した",
+          "id": "so-created-n2-105-21-p4",
+          "text": "周辺住民に",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-105-21-p1",
+          "text": "古代遺跡の発掘",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-105-16-p1",
-        "so-extra20-n2-105-16-p2",
-        "so-extra20-n2-105-16-p3",
-        "so-extra20-n2-105-16-p4"
+        "so-created-n2-105-21-p1",
+        "so-created-n2-105-21-p2",
+        "so-created-n2-105-21-p3",
+        "so-created-n2-105-21-p4"
       ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '고대 유적 발굴에 있어서 조사단은 인근 주민들에게 협조를 요청했다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
       "sourceGrammarIds": [
-        "n2-105"
+        "n2-105",
+        "n2-135",
+        "n2-136",
+        "n2-137"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-105-17",
+      "id": "so-created-n2-105-22",
       "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlanks": "新しい仕事を始める ____ ____ ____ ____",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
+      "sentence": "難民を受け入れるにあたって、市は住居と医療通訳を確保した。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 確保した。",
+      "korean": "난민을 받아들임에 있어서 시는 주거 시설과 의료 통역 인력을 확보했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-105-17-p4",
-          "text": "準備を",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-105-17-p1",
-          "text": "した",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-105-17-p2",
-          "text": "にあたって",
+          "id": "so-created-n2-105-22-p1",
+          "text": "難民を受け入れる",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-105-17-p3",
-          "text": "十分な",
+          "id": "so-created-n2-105-22-p2",
+          "text": "にあたって、",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-105-22-p3",
+          "text": "市は住居と",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-105-22-p4",
+          "text": "医療通訳を",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-105-17-p2",
-        "so-extra20-n2-105-17-p3",
-        "so-extra20-n2-105-17-p4",
-        "so-extra20-n2-105-17-p1"
+        "so-created-n2-105-22-p1",
+        "so-created-n2-105-22-p2",
+        "so-created-n2-105-22-p3",
+        "so-created-n2-105-22-p4"
       ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '난민을 받아들임에 있어서 시는 주거 시설과 의료 통역 인력을 확보했다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
       "sourceGrammarIds": [
-        "n2-105"
+        "n2-105",
+        "n2-135",
+        "n2-136",
+        "n2-137"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-105-18",
+      "id": "so-created-n2-105-23",
       "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、十分な準備をした。",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
+      "sentence": "創業百周年を迎えるにあたって、菓子店は初代の味を再現した限定品を発売した。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 味を再現した限定品を発売した。",
+      "korean": "창업 100주년을 맞아 과자점은 초대 창업자의 맛을 재현한 한정 상품을 출시했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-105-18-p3",
-          "text": "始める",
+          "id": "so-created-n2-105-23-p4",
+          "text": "菓子店は初代の",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-105-23-p1",
+          "text": "創業百",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-105-18-p4",
-          "text": "にあたって",
+          "id": "so-created-n2-105-23-p2",
+          "text": "周年を迎える",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-105-18-p1",
-          "text": "十分な",
+          "id": "so-created-n2-105-23-p3",
+          "text": "にあたって、",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-105-18-p2",
-          "text": "準備を",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-105-18-p3",
-        "so-extra20-n2-105-18-p4",
-        "so-extra20-n2-105-18-p1",
-        "so-extra20-n2-105-18-p2"
+        "so-created-n2-105-23-p1",
+        "so-created-n2-105-23-p2",
+        "so-created-n2-105-23-p3",
+        "so-created-n2-105-23-p4"
       ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '창업 100주년을 맞아 과자점은 초대 창업자의 맛을 재현한 한정 상품을 출시했다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
       "sourceGrammarIds": [
-        "n2-105"
+        "n2-105",
+        "n2-135",
+        "n2-136",
+        "n2-137"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-105-19",
+      "id": "so-created-n2-105-24",
       "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlanks": "新しい仕事を始める ____ ____ ____ ____",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
+      "sentence": "農地を大規模に転用するにあたって、事業者は地下水への影響を調べた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 影響を調べた。",
+      "korean": "농지를 대규모로 전용함에 있어서 사업자는 지하수에 미치는 영향을 조사했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-105-19-p2",
-          "text": "準備を",
+          "id": "so-created-n2-105-24-p3",
+          "text": "にあたって、事業",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-105-19-p3",
-          "text": "した",
+          "id": "so-created-n2-105-24-p4",
+          "text": "者は地下水への",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-105-19-p4",
-          "text": "にあたって",
+          "id": "so-created-n2-105-24-p1",
+          "text": "農地を大規模に",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-105-19-p1",
-          "text": "十分な",
+          "id": "so-created-n2-105-24-p2",
+          "text": "転用する",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-105-19-p4",
-        "so-extra20-n2-105-19-p1",
-        "so-extra20-n2-105-19-p2",
-        "so-extra20-n2-105-19-p3"
+        "so-created-n2-105-24-p1",
+        "so-created-n2-105-24-p2",
+        "so-created-n2-105-24-p3",
+        "so-created-n2-105-24-p4"
       ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '농지를 대규모로 전용함에 있어서 사업자는 지하수에 미치는 영향을 조사했다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
       "sourceGrammarIds": [
-        "n2-105"
+        "n2-105",
+        "n2-135",
+        "n2-136",
+        "n2-137"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-105-20",
+      "id": "so-created-n2-105-25",
       "level": "N2",
-      "sentence": "新しい仕事を始めるにあたって、十分な準備をした。",
-      "sentenceWithBlanks": "新しい仕事を始める ____ ____ ____ ____",
-      "korean": "새 일을 시작함에 있어서 충분히 준비했다.",
+      "sentence": "和平交渉を再開するにあたって、両国は捕虜の交換に合意した。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 合意した。",
+      "korean": "평화 협상을 재개함에 있어서 양국은 포로 교환에 합의했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-105-20-p1",
-          "text": "にあたって",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-105-20-p2",
-          "text": "十分な",
+          "id": "so-created-n2-105-25-p2",
+          "text": "再開する",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-105-20-p3",
-          "text": "準備を",
+          "id": "so-created-n2-105-25-p3",
+          "text": "にあたって、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-105-20-p4",
-          "text": "した",
+          "id": "so-created-n2-105-25-p4",
+          "text": "両国は捕虜の交換に",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-105-25-p1",
+          "text": "和平交渉を",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-105-20-p1",
-        "so-extra20-n2-105-20-p2",
-        "so-extra20-n2-105-20-p3",
-        "so-extra20-n2-105-20-p4"
+        "so-created-n2-105-25-p1",
+        "so-created-n2-105-25-p2",
+        "so-created-n2-105-25-p3",
+        "so-created-n2-105-25-p4"
       ],
-      "explanation": "「にあたって」는 ~을 맞이해서, ~함에 있어서라는 뜻이다. 중요한 시점·행동을 앞두고.",
+      "explanation": "「にあたって」는 '~을 맞이해서, ~함에 있어서'라는 뜻을 나타낸다. 이 문장에서는 '평화 협상을 재개함에 있어서 양국은 포로 교환에 합의했다.'라는 상황에 쓰였으며, 중요한 시점·행동을 앞두고. 주의할 점은 중요한 시점·행사에만 씀. 「飯を食べるにあたって」같은 일상 행동엔 부자연스러움.",
       "sourceGrammarIds": [
-        "n2-105"
+        "n2-105",
+        "n2-135",
+        "n2-136",
+        "n2-137"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     }
   ]

@@ -267,15 +267,23 @@
       ]
     },
     {
-      "id": "fb-extra-n2-098-1",
+      "id": "fb-created-n2-098-01",
       "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
-      "sentenceWithBlank": "東京まで快速で20分だから、今すぐ出れば間に合わ（　　　）。",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
-      "answerChoiceId": "fb-extra-n2-098-1-c",
+      "sentence": "予算を少し増やせば、この古い旅館を改装できないことはない。",
+      "sentenceWithBlank": "予算を少し増やせば、この古い旅館を改装でき（　　　）。",
+      "korean": "예산을 조금 늘리면 이 오래된 여관을 개조하지 못할 것도 없다.",
+      "answerChoiceId": "fb-created-n2-098-01-c",
       "choices": [
         {
-          "id": "fb-extra-n2-098-1-d",
+          "id": "fb-created-n2-098-01-c",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-098-01-d",
           "text": "最中に",
           "grammarId": "n2-045",
           "baseExpression": "最中に",
@@ -283,7 +291,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-098-1-a",
+          "id": "fb-created-n2-098-01-a",
           "text": "ざるを得ない",
           "grammarId": "n2-046",
           "baseExpression": "ざるを得ない",
@@ -291,23 +299,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-098-1-b",
+          "id": "fb-created-n2-098-01-b",
           "text": "次第",
           "grammarId": "n2-047",
           "baseExpression": "次第",
           "conjugatedExpression": "次第",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-098-1-c",
-          "text": "ないことはない",
-          "grammarId": "n2-098",
-          "baseExpression": "ないことはない",
-          "conjugatedExpression": "ないことはない",
-          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '예산을 조금 늘리면 이 오래된 여관을 개조하지 못할 것도 없다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
       "sourceGrammarIds": [
         "n2-098",
         "n2-045",
@@ -315,237 +315,20 @@
         "n2-047"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra-n2-098-2",
+      "id": "fb-created-n2-098-02",
       "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
-      "sentenceWithBlank": "東京まで快速で20分だから、今すぐ出れば間に合わ（　　　）。",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
-      "answerChoiceId": "fb-extra-n2-098-2-b",
+      "sentence": "足の痛みを我慢すれば、山頂まで歩けないことはない。",
+      "sentenceWithBlank": "足の痛みを我慢すれば、山頂まで歩け（　　　）。",
+      "korean": "발의 통증을 참으면 산 정상까지 걷지 못할 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-098-02-c",
       "choices": [
         {
-          "id": "fb-extra-n2-098-2-a",
-          "text": "ところではない",
-          "grammarId": "n2-088",
-          "baseExpression": "ところではない",
-          "conjugatedExpression": "ところではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-098-2-b",
-          "text": "ないことはない",
-          "grammarId": "n2-098",
-          "baseExpression": "ないことはない",
-          "conjugatedExpression": "ないことはない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-098-2-c",
-          "text": "どころか",
-          "grammarId": "n2-086",
-          "baseExpression": "どころか",
-          "conjugatedExpression": "どころか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-098-2-d",
-          "text": "ところだった",
-          "grammarId": "n2-087",
-          "baseExpression": "ところだった",
-          "conjugatedExpression": "ところだった",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
-      "sourceGrammarIds": [
-        "n2-098",
-        "n2-086",
-        "n2-087",
-        "n2-088"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-098-3",
-      "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
-      "sentenceWithBlank": "東京まで快速で20分だから、今すぐ出れば間に合わ（　　　）。",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
-      "answerChoiceId": "fb-extra-n2-098-3-a",
-      "choices": [
-        {
-          "id": "fb-extra-n2-098-3-b",
-          "text": "に関して",
-          "grammarId": "n2-112",
-          "baseExpression": "に関して",
-          "conjugatedExpression": "に関して",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-098-3-c",
-          "text": "に加えて",
-          "grammarId": "n2-113",
-          "baseExpression": "に加えて",
-          "conjugatedExpression": "に加えて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-098-3-d",
-          "text": "にこしたことはない",
-          "grammarId": "n2-114",
-          "baseExpression": "にこしたことはない",
-          "conjugatedExpression": "にこしたことはない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-098-3-a",
-          "text": "ないことはない",
-          "grammarId": "n2-098",
-          "baseExpression": "ないことはない",
-          "conjugatedExpression": "ないことはない",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
-      "sourceGrammarIds": [
-        "n2-098",
-        "n2-112",
-        "n2-113",
-        "n2-114"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-098-4",
-      "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
-      "sentenceWithBlank": "東京まで快速で20分だから、今すぐ出れば間に合わ（　　　）。",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
-      "answerChoiceId": "fb-extra-n2-098-4-d",
-      "choices": [
-        {
-          "id": "fb-extra-n2-098-4-c",
-          "text": "に応えて",
-          "grammarId": "n2-115",
-          "baseExpression": "に応えて",
-          "conjugatedExpression": "に応えて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-098-4-d",
-          "text": "ないことはない",
-          "grammarId": "n2-098",
-          "baseExpression": "ないことはない",
-          "conjugatedExpression": "ないことはない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-098-4-a",
-          "text": "に加えて",
-          "grammarId": "n2-113",
-          "baseExpression": "に加えて",
-          "conjugatedExpression": "に加えて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-098-4-b",
-          "text": "にこしたことはない",
-          "grammarId": "n2-114",
-          "baseExpression": "にこしたことはない",
-          "conjugatedExpression": "にこしたことはない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
-      "sourceGrammarIds": [
-        "n2-098",
-        "n2-113",
-        "n2-114",
-        "n2-115"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-098-5",
-      "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
-      "sentenceWithBlank": "東京まで快速で20分だから、今すぐ出れば間に合わ（　　　）。",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
-      "answerChoiceId": "fb-extra-n2-098-5-c",
-      "choices": [
-        {
-          "id": "fb-extra-n2-098-5-d",
-          "text": "わけにはいかない",
-          "grammarId": "n2-170",
-          "baseExpression": "わけにはいかない",
-          "conjugatedExpression": "わけにはいかない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-098-5-a",
-          "text": "わりには",
-          "grammarId": "n2-171",
-          "baseExpression": "わりには",
-          "conjugatedExpression": "わりには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-098-5-b",
-          "text": "を契機に",
-          "grammarId": "n2-172",
-          "baseExpression": "を契機に",
-          "conjugatedExpression": "を契機に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-098-5-c",
-          "text": "ないことはない",
-          "grammarId": "n2-098",
-          "baseExpression": "ないことはない",
-          "conjugatedExpression": "ないことはない",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
-      "sourceGrammarIds": [
-        "n2-098",
-        "n2-170",
-        "n2-171",
-        "n2-172"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-098-01",
-      "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
-      "sentenceWithBlank": "東京まで快速で20分だから、今すぐ出れば間に合わ（　　　）。",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
-      "answerChoiceId": "fb-extra20-n2-098-01-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-098-01-d",
+          "id": "fb-created-n2-098-02-d",
           "text": "最中に",
           "grammarId": "n2-045",
           "baseExpression": "最中に",
@@ -553,7 +336,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-098-01-a",
+          "id": "fb-created-n2-098-02-a",
           "text": "ざるを得ない",
           "grammarId": "n2-046",
           "baseExpression": "ざるを得ない",
@@ -561,7 +344,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-098-01-b",
+          "id": "fb-created-n2-098-02-b",
           "text": "次第",
           "grammarId": "n2-047",
           "baseExpression": "次第",
@@ -569,7 +352,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-098-01-c",
+          "id": "fb-created-n2-098-02-c",
           "text": "ないことはない",
           "grammarId": "n2-098",
           "baseExpression": "ないことはない",
@@ -577,7 +360,7 @@
           "isSimilarDistractor": false
         }
       ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '발의 통증을 참으면 산 정상까지 걷지 못할 것은 아니다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
       "sourceGrammarIds": [
         "n2-098",
         "n2-045",
@@ -585,253 +368,20 @@
         "n2-047"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-098-02",
+      "id": "fb-created-n2-098-03",
       "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
-      "sentenceWithBlank": "東京まで快速で20分だから、今すぐ出れば間に合わ（　　　）。",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
-      "answerChoiceId": "fb-extra20-n2-098-02-b",
+      "sentence": "この汚れは専門の業者に頼めば落ちないことはない。",
+      "sentenceWithBlank": "この汚れは専門の業者に頼めば落ち（　　　）。",
+      "korean": "이 얼룩은 전문 업체에 맡기면 지워지지 않는 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-098-03-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-098-02-c",
-          "text": "どころか",
-          "grammarId": "n2-086",
-          "baseExpression": "どころか",
-          "conjugatedExpression": "どころか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-098-02-d",
-          "text": "ところだった",
-          "grammarId": "n2-087",
-          "baseExpression": "ところだった",
-          "conjugatedExpression": "ところだった",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-098-02-a",
-          "text": "ところではない",
-          "grammarId": "n2-088",
-          "baseExpression": "ところではない",
-          "conjugatedExpression": "ところではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-098-02-b",
-          "text": "ないことはない",
-          "grammarId": "n2-098",
-          "baseExpression": "ないことはない",
-          "conjugatedExpression": "ないことはない",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
-      "sourceGrammarIds": [
-        "n2-098",
-        "n2-086",
-        "n2-087",
-        "n2-088"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-098-03",
-      "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
-      "sentenceWithBlank": "東京まで快速で20分だから、今すぐ出れば間に合わ（　　　）。",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
-      "answerChoiceId": "fb-extra20-n2-098-03-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-098-03-b",
-          "text": "に関して",
-          "grammarId": "n2-112",
-          "baseExpression": "に関して",
-          "conjugatedExpression": "に関して",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-098-03-c",
-          "text": "に加えて",
-          "grammarId": "n2-113",
-          "baseExpression": "に加えて",
-          "conjugatedExpression": "に加えて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-098-03-d",
-          "text": "にこしたことはない",
-          "grammarId": "n2-114",
-          "baseExpression": "にこしたことはない",
-          "conjugatedExpression": "にこしたことはない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-098-03-a",
-          "text": "ないことはない",
-          "grammarId": "n2-098",
-          "baseExpression": "ないことはない",
-          "conjugatedExpression": "ないことはない",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
-      "sourceGrammarIds": [
-        "n2-098",
-        "n2-112",
-        "n2-113",
-        "n2-114"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-098-04",
-      "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
-      "sentenceWithBlank": "東京まで快速で20分だから、今すぐ出れば間に合わ（　　　）。",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
-      "answerChoiceId": "fb-extra20-n2-098-04-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-098-04-a",
-          "text": "に加えて",
-          "grammarId": "n2-113",
-          "baseExpression": "に加えて",
-          "conjugatedExpression": "に加えて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-098-04-b",
-          "text": "にこしたことはない",
-          "grammarId": "n2-114",
-          "baseExpression": "にこしたことはない",
-          "conjugatedExpression": "にこしたことはない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-098-04-c",
-          "text": "に応えて",
-          "grammarId": "n2-115",
-          "baseExpression": "に応えて",
-          "conjugatedExpression": "に応えて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-098-04-d",
-          "text": "ないことはない",
-          "grammarId": "n2-098",
-          "baseExpression": "ないことはない",
-          "conjugatedExpression": "ないことはない",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
-      "sourceGrammarIds": [
-        "n2-098",
-        "n2-113",
-        "n2-114",
-        "n2-115"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-098-05",
-      "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
-      "sentenceWithBlank": "東京まで快速で20分だから、今すぐ出れば間に合わ（　　　）。",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
-      "answerChoiceId": "fb-extra20-n2-098-05-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-098-05-d",
-          "text": "わけにはいかない",
-          "grammarId": "n2-170",
-          "baseExpression": "わけにはいかない",
-          "conjugatedExpression": "わけにはいかない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-098-05-a",
-          "text": "わりには",
-          "grammarId": "n2-171",
-          "baseExpression": "わりには",
-          "conjugatedExpression": "わりには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-098-05-b",
-          "text": "を契機に",
-          "grammarId": "n2-172",
-          "baseExpression": "を契機に",
-          "conjugatedExpression": "を契機に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-098-05-c",
-          "text": "ないことはない",
-          "grammarId": "n2-098",
-          "baseExpression": "ないことはない",
-          "conjugatedExpression": "ないことはない",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
-      "sourceGrammarIds": [
-        "n2-098",
-        "n2-170",
-        "n2-171",
-        "n2-172"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-098-06",
-      "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
-      "sentenceWithBlank": "東京まで快速で20分だから、今すぐ出れば間に合わ（　　　）。",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
-      "answerChoiceId": "fb-extra20-n2-098-06-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-098-06-c",
-          "text": "ないことはない",
-          "grammarId": "n2-098",
-          "baseExpression": "ないことはない",
-          "conjugatedExpression": "ないことはない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-098-06-d",
-          "text": "最中に",
-          "grammarId": "n2-045",
-          "baseExpression": "最中に",
-          "conjugatedExpression": "最中に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-098-06-a",
+          "id": "fb-created-n2-098-03-a",
           "text": "ざるを得ない",
           "grammarId": "n2-046",
           "baseExpression": "ざるを得ない",
@@ -839,253 +389,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-098-06-b",
-          "text": "次第",
-          "grammarId": "n2-047",
-          "baseExpression": "次第",
-          "conjugatedExpression": "次第",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
-      "sourceGrammarIds": [
-        "n2-098",
-        "n2-045",
-        "n2-046",
-        "n2-047"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-098-07",
-      "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
-      "sentenceWithBlank": "東京まで快速で20分だから、今すぐ出れば間に合わ（　　　）。",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
-      "answerChoiceId": "fb-extra20-n2-098-07-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-098-07-b",
-          "text": "ないことはない",
-          "grammarId": "n2-098",
-          "baseExpression": "ないことはない",
-          "conjugatedExpression": "ないことはない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-098-07-c",
-          "text": "どころか",
-          "grammarId": "n2-086",
-          "baseExpression": "どころか",
-          "conjugatedExpression": "どころか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-098-07-d",
-          "text": "ところだった",
-          "grammarId": "n2-087",
-          "baseExpression": "ところだった",
-          "conjugatedExpression": "ところだった",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-098-07-a",
-          "text": "ところではない",
-          "grammarId": "n2-088",
-          "baseExpression": "ところではない",
-          "conjugatedExpression": "ところではない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
-      "sourceGrammarIds": [
-        "n2-098",
-        "n2-086",
-        "n2-087",
-        "n2-088"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-098-08",
-      "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
-      "sentenceWithBlank": "東京まで快速で20分だから、今すぐ出れば間に合わ（　　　）。",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
-      "answerChoiceId": "fb-extra20-n2-098-08-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-098-08-a",
-          "text": "ないことはない",
-          "grammarId": "n2-098",
-          "baseExpression": "ないことはない",
-          "conjugatedExpression": "ないことはない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-098-08-b",
-          "text": "に関して",
-          "grammarId": "n2-112",
-          "baseExpression": "に関して",
-          "conjugatedExpression": "に関して",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-098-08-c",
-          "text": "に加えて",
-          "grammarId": "n2-113",
-          "baseExpression": "に加えて",
-          "conjugatedExpression": "に加えて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-098-08-d",
-          "text": "にこしたことはない",
-          "grammarId": "n2-114",
-          "baseExpression": "にこしたことはない",
-          "conjugatedExpression": "にこしたことはない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
-      "sourceGrammarIds": [
-        "n2-098",
-        "n2-112",
-        "n2-113",
-        "n2-114"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-098-09",
-      "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
-      "sentenceWithBlank": "東京まで快速で20分だから、今すぐ出れば間に合わ（　　　）。",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
-      "answerChoiceId": "fb-extra20-n2-098-09-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-098-09-d",
-          "text": "ないことはない",
-          "grammarId": "n2-098",
-          "baseExpression": "ないことはない",
-          "conjugatedExpression": "ないことはない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-098-09-a",
-          "text": "に加えて",
-          "grammarId": "n2-113",
-          "baseExpression": "に加えて",
-          "conjugatedExpression": "に加えて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-098-09-b",
-          "text": "にこしたことはない",
-          "grammarId": "n2-114",
-          "baseExpression": "にこしたことはない",
-          "conjugatedExpression": "にこしたことはない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-098-09-c",
-          "text": "に応えて",
-          "grammarId": "n2-115",
-          "baseExpression": "に応えて",
-          "conjugatedExpression": "に応えて",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
-      "sourceGrammarIds": [
-        "n2-098",
-        "n2-113",
-        "n2-114",
-        "n2-115"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-098-10",
-      "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
-      "sentenceWithBlank": "東京まで快速で20分だから、今すぐ出れば間に合わ（　　　）。",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
-      "answerChoiceId": "fb-extra20-n2-098-10-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-098-10-c",
-          "text": "ないことはない",
-          "grammarId": "n2-098",
-          "baseExpression": "ないことはない",
-          "conjugatedExpression": "ないことはない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-098-10-d",
-          "text": "わけにはいかない",
-          "grammarId": "n2-170",
-          "baseExpression": "わけにはいかない",
-          "conjugatedExpression": "わけにはいかない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-098-10-a",
-          "text": "わりには",
-          "grammarId": "n2-171",
-          "baseExpression": "わりには",
-          "conjugatedExpression": "わりには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-098-10-b",
-          "text": "を契機に",
-          "grammarId": "n2-172",
-          "baseExpression": "を契機に",
-          "conjugatedExpression": "を契機に",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
-      "sourceGrammarIds": [
-        "n2-098",
-        "n2-170",
-        "n2-171",
-        "n2-172"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-098-11",
-      "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
-      "sentenceWithBlank": "東京まで快速で20分だから、今すぐ出れば間に合わ（　　　）。",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
-      "answerChoiceId": "fb-extra20-n2-098-11-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-098-11-b",
+          "id": "fb-created-n2-098-03-b",
           "text": "次第",
           "grammarId": "n2-047",
           "baseExpression": "次第",
@@ -1093,7 +397,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-098-11-c",
+          "id": "fb-created-n2-098-03-c",
           "text": "ないことはない",
           "grammarId": "n2-098",
           "baseExpression": "ないことはない",
@@ -1101,285 +405,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-098-11-d",
-          "text": "最中に",
-          "grammarId": "n2-045",
-          "baseExpression": "最中に",
-          "conjugatedExpression": "最中に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-098-11-a",
-          "text": "ざるを得ない",
-          "grammarId": "n2-046",
-          "baseExpression": "ざるを得ない",
-          "conjugatedExpression": "ざるを得ない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
-      "sourceGrammarIds": [
-        "n2-098",
-        "n2-045",
-        "n2-046",
-        "n2-047"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-098-12",
-      "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
-      "sentenceWithBlank": "東京まで快速で20分だから、今すぐ出れば間に合わ（　　　）。",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
-      "answerChoiceId": "fb-extra20-n2-098-12-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-098-12-a",
-          "text": "ところではない",
-          "grammarId": "n2-088",
-          "baseExpression": "ところではない",
-          "conjugatedExpression": "ところではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-098-12-b",
-          "text": "ないことはない",
-          "grammarId": "n2-098",
-          "baseExpression": "ないことはない",
-          "conjugatedExpression": "ないことはない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-098-12-c",
-          "text": "どころか",
-          "grammarId": "n2-086",
-          "baseExpression": "どころか",
-          "conjugatedExpression": "どころか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-098-12-d",
-          "text": "ところだった",
-          "grammarId": "n2-087",
-          "baseExpression": "ところだった",
-          "conjugatedExpression": "ところだった",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
-      "sourceGrammarIds": [
-        "n2-098",
-        "n2-086",
-        "n2-087",
-        "n2-088"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-098-13",
-      "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
-      "sentenceWithBlank": "東京まで快速で20分だから、今すぐ出れば間に合わ（　　　）。",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
-      "answerChoiceId": "fb-extra20-n2-098-13-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-098-13-d",
-          "text": "にこしたことはない",
-          "grammarId": "n2-114",
-          "baseExpression": "にこしたことはない",
-          "conjugatedExpression": "にこしたことはない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-098-13-a",
-          "text": "ないことはない",
-          "grammarId": "n2-098",
-          "baseExpression": "ないことはない",
-          "conjugatedExpression": "ないことはない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-098-13-b",
-          "text": "に関して",
-          "grammarId": "n2-112",
-          "baseExpression": "に関して",
-          "conjugatedExpression": "に関して",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-098-13-c",
-          "text": "に加えて",
-          "grammarId": "n2-113",
-          "baseExpression": "に加えて",
-          "conjugatedExpression": "に加えて",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
-      "sourceGrammarIds": [
-        "n2-098",
-        "n2-112",
-        "n2-113",
-        "n2-114"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-098-14",
-      "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
-      "sentenceWithBlank": "東京まで快速で20分だから、今すぐ出れば間に合わ（　　　）。",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
-      "answerChoiceId": "fb-extra20-n2-098-14-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-098-14-c",
-          "text": "に応えて",
-          "grammarId": "n2-115",
-          "baseExpression": "に応えて",
-          "conjugatedExpression": "に応えて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-098-14-d",
-          "text": "ないことはない",
-          "grammarId": "n2-098",
-          "baseExpression": "ないことはない",
-          "conjugatedExpression": "ないことはない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-098-14-a",
-          "text": "に加えて",
-          "grammarId": "n2-113",
-          "baseExpression": "に加えて",
-          "conjugatedExpression": "に加えて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-098-14-b",
-          "text": "にこしたことはない",
-          "grammarId": "n2-114",
-          "baseExpression": "にこしたことはない",
-          "conjugatedExpression": "にこしたことはない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
-      "sourceGrammarIds": [
-        "n2-098",
-        "n2-113",
-        "n2-114",
-        "n2-115"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-098-15",
-      "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
-      "sentenceWithBlank": "東京まで快速で20分だから、今すぐ出れば間に合わ（　　　）。",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
-      "answerChoiceId": "fb-extra20-n2-098-15-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-098-15-b",
-          "text": "を契機に",
-          "grammarId": "n2-172",
-          "baseExpression": "を契機に",
-          "conjugatedExpression": "を契機に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-098-15-c",
-          "text": "ないことはない",
-          "grammarId": "n2-098",
-          "baseExpression": "ないことはない",
-          "conjugatedExpression": "ないことはない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-098-15-d",
-          "text": "わけにはいかない",
-          "grammarId": "n2-170",
-          "baseExpression": "わけにはいかない",
-          "conjugatedExpression": "わけにはいかない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-098-15-a",
-          "text": "わりには",
-          "grammarId": "n2-171",
-          "baseExpression": "わりには",
-          "conjugatedExpression": "わりには",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
-      "sourceGrammarIds": [
-        "n2-098",
-        "n2-170",
-        "n2-171",
-        "n2-172"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-098-16",
-      "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
-      "sentenceWithBlank": "東京まで快速で20分だから、今すぐ出れば間に合わ（　　　）。",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
-      "answerChoiceId": "fb-extra20-n2-098-16-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-098-16-a",
-          "text": "ざるを得ない",
-          "grammarId": "n2-046",
-          "baseExpression": "ざるを得ない",
-          "conjugatedExpression": "ざるを得ない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-098-16-b",
-          "text": "次第",
-          "grammarId": "n2-047",
-          "baseExpression": "次第",
-          "conjugatedExpression": "次第",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-098-16-c",
-          "text": "ないことはない",
-          "grammarId": "n2-098",
-          "baseExpression": "ないことはない",
-          "conjugatedExpression": "ないことはない",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-098-16-d",
+          "id": "fb-created-n2-098-03-d",
           "text": "最中に",
           "grammarId": "n2-045",
           "baseExpression": "最中に",
@@ -1387,7 +413,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '이 얼룩은 전문 업체에 맡기면 지워지지 않는 것은 아니다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
       "sourceGrammarIds": [
         "n2-098",
         "n2-045",
@@ -1395,37 +421,28 @@
         "n2-047"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-098-17",
+      "id": "fb-created-n2-098-04",
       "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
-      "sentenceWithBlank": "東京まで快速で20分だから、今すぐ出れば間に合わ（　　　）。",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
-      "answerChoiceId": "fb-extra20-n2-098-17-b",
+      "sentence": "条件を見直してくれるなら、その会社と契約しないことはない。",
+      "sentenceWithBlank": "条件を見直してくれるなら、その会社と契約し（　　　）。",
+      "korean": "조건을 재검토해 준다면 그 회사와 계약하지 않을 것도 없다.",
+      "answerChoiceId": "fb-created-n2-098-04-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-098-17-d",
-          "text": "ところだった",
-          "grammarId": "n2-087",
-          "baseExpression": "ところだった",
-          "conjugatedExpression": "ところだった",
+          "id": "fb-created-n2-098-04-b",
+          "text": "次第",
+          "grammarId": "n2-047",
+          "baseExpression": "次第",
+          "conjugatedExpression": "次第",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-098-17-a",
-          "text": "ところではない",
-          "grammarId": "n2-088",
-          "baseExpression": "ところではない",
-          "conjugatedExpression": "ところではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-098-17-b",
+          "id": "fb-created-n2-098-04-c",
           "text": "ないことはない",
           "grammarId": "n2-098",
           "baseExpression": "ないことはない",
@@ -1433,53 +450,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-098-17-c",
-          "text": "どころか",
-          "grammarId": "n2-086",
-          "baseExpression": "どころか",
-          "conjugatedExpression": "どころか",
+          "id": "fb-created-n2-098-04-d",
+          "text": "最中に",
+          "grammarId": "n2-045",
+          "baseExpression": "最中に",
+          "conjugatedExpression": "最中に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-098-04-a",
+          "text": "ざるを得ない",
+          "grammarId": "n2-046",
+          "baseExpression": "ざるを得ない",
+          "conjugatedExpression": "ざるを得ない",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '조건을 재검토해 준다면 그 회사와 계약하지 않을 것도 없다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
       "sourceGrammarIds": [
         "n2-098",
-        "n2-086",
-        "n2-087",
-        "n2-088"
+        "n2-045",
+        "n2-046",
+        "n2-047"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-098-18",
+      "id": "fb-created-n2-098-05",
       "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
-      "sentenceWithBlank": "東京まで快速で20分だから、今すぐ出れば間に合わ（　　　）。",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
-      "answerChoiceId": "fb-extra20-n2-098-18-a",
+      "sentence": "冷蔵庫にある材料だけでも、夕食を作れないことはない。",
+      "sentenceWithBlank": "冷蔵庫にある材料だけでも、夕食を作れ（　　　）。",
+      "korean": "냉장고에 있는 재료만으로도 저녁을 만들지 못할 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-098-05-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-098-18-c",
-          "text": "に加えて",
-          "grammarId": "n2-113",
-          "baseExpression": "に加えて",
-          "conjugatedExpression": "に加えて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-098-18-d",
-          "text": "にこしたことはない",
-          "grammarId": "n2-114",
-          "baseExpression": "にこしたことはない",
-          "conjugatedExpression": "にこしたことはない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-098-18-a",
+          "id": "fb-created-n2-098-05-c",
           "text": "ないことはない",
           "grammarId": "n2-098",
           "baseExpression": "ないことはない",
@@ -1487,53 +495,121 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-098-18-b",
-          "text": "に関して",
-          "grammarId": "n2-112",
-          "baseExpression": "に関して",
-          "conjugatedExpression": "に関して",
+          "id": "fb-created-n2-098-05-d",
+          "text": "最中に",
+          "grammarId": "n2-045",
+          "baseExpression": "最中に",
+          "conjugatedExpression": "最中に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-098-05-a",
+          "text": "ざるを得ない",
+          "grammarId": "n2-046",
+          "baseExpression": "ざるを得ない",
+          "conjugatedExpression": "ざるを得ない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-098-05-b",
+          "text": "次第",
+          "grammarId": "n2-047",
+          "baseExpression": "次第",
+          "conjugatedExpression": "次第",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '냉장고에 있는 재료만으로도 저녁을 만들지 못할 것은 아니다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
       "sourceGrammarIds": [
         "n2-098",
-        "n2-112",
-        "n2-113",
-        "n2-114"
+        "n2-045",
+        "n2-046",
+        "n2-047"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-098-19",
+      "id": "fb-created-n2-098-06",
       "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
-      "sentenceWithBlank": "東京まで快速で20分だから、今すぐ出れば間に合わ（　　　）。",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
-      "answerChoiceId": "fb-extra20-n2-098-19-d",
+      "sentence": "祖父の話は長いが、最後まで聞けないことはない。",
+      "sentenceWithBlank": "祖父の話は長いが、最後まで聞け（　　　）。",
+      "korean": "할아버지 이야기는 길지만 끝까지 듣지 못할 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-098-06-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-098-19-b",
-          "text": "にこしたことはない",
-          "grammarId": "n2-114",
-          "baseExpression": "にこしたことはない",
-          "conjugatedExpression": "にこしたことはない",
+          "id": "fb-created-n2-098-06-d",
+          "text": "最中に",
+          "grammarId": "n2-045",
+          "baseExpression": "最中に",
+          "conjugatedExpression": "最中に",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-098-19-c",
-          "text": "に応えて",
-          "grammarId": "n2-115",
-          "baseExpression": "に応えて",
-          "conjugatedExpression": "に応えて",
+          "id": "fb-created-n2-098-06-a",
+          "text": "ざるを得ない",
+          "grammarId": "n2-046",
+          "baseExpression": "ざるを得ない",
+          "conjugatedExpression": "ざるを得ない",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-098-19-d",
+          "id": "fb-created-n2-098-06-b",
+          "text": "次第",
+          "grammarId": "n2-047",
+          "baseExpression": "次第",
+          "conjugatedExpression": "次第",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-098-06-c",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '할아버지 이야기는 길지만 끝까지 듣지 못할 것은 아니다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
+      "sourceGrammarIds": [
+        "n2-098",
+        "n2-045",
+        "n2-046",
+        "n2-047"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-098-07",
+      "level": "N2",
+      "sentence": "多少狭くても、家具の配置を工夫すれば四人で暮らせないことはない。",
+      "sentenceWithBlank": "多少狭くても、家具の配置を工夫すれば四人で暮らせ（　　　）。",
+      "korean": "다소 좁아도 가구 배치를 궁리하면 네 명이 살지 못할 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-098-07-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-098-07-a",
+          "text": "ざるを得ない",
+          "grammarId": "n2-046",
+          "baseExpression": "ざるを得ない",
+          "conjugatedExpression": "ざるを得ない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-098-07-b",
+          "text": "次第",
+          "grammarId": "n2-047",
+          "baseExpression": "次第",
+          "conjugatedExpression": "次第",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-098-07-c",
           "text": "ないことはない",
           "grammarId": "n2-098",
           "baseExpression": "ないことはない",
@@ -1541,53 +617,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-098-19-a",
-          "text": "に加えて",
-          "grammarId": "n2-113",
-          "baseExpression": "に加えて",
-          "conjugatedExpression": "に加えて",
+          "id": "fb-created-n2-098-07-d",
+          "text": "最中に",
+          "grammarId": "n2-045",
+          "baseExpression": "最中に",
+          "conjugatedExpression": "最中に",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '다소 좁아도 가구 배치를 궁리하면 네 명이 살지 못할 것은 아니다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
       "sourceGrammarIds": [
         "n2-098",
-        "n2-113",
-        "n2-114",
-        "n2-115"
+        "n2-045",
+        "n2-046",
+        "n2-047"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-098-20",
+      "id": "fb-created-n2-098-08",
       "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
-      "sentenceWithBlank": "東京まで快速で20分だから、今すぐ出れば間に合わ（　　　）。",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
-      "answerChoiceId": "fb-extra20-n2-098-20-c",
+      "sentence": "急な依頼だが、納期を一日延ばせば引き受けられないことはない。",
+      "sentenceWithBlank": "急な依頼だが、納期を一日延ばせば引き受けられ（　　　）。",
+      "korean": "갑작스러운 의뢰지만 납기를 하루 늘리면 맡지 못할 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-098-08-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-098-20-a",
-          "text": "わりには",
-          "grammarId": "n2-171",
-          "baseExpression": "わりには",
-          "conjugatedExpression": "わりには",
+          "id": "fb-created-n2-098-08-b",
+          "text": "次第",
+          "grammarId": "n2-047",
+          "baseExpression": "次第",
+          "conjugatedExpression": "次第",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-098-20-b",
-          "text": "を契機に",
-          "grammarId": "n2-172",
-          "baseExpression": "を契機に",
-          "conjugatedExpression": "を契機に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-098-20-c",
+          "id": "fb-created-n2-098-08-c",
           "text": "ないことはない",
           "grammarId": "n2-098",
           "baseExpression": "ないことはない",
@@ -1595,25 +662,933 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-098-20-d",
-          "text": "わけにはいかない",
-          "grammarId": "n2-170",
-          "baseExpression": "わけにはいかない",
-          "conjugatedExpression": "わけにはいかない",
+          "id": "fb-created-n2-098-08-d",
+          "text": "最中に",
+          "grammarId": "n2-045",
+          "baseExpression": "最中に",
+          "conjugatedExpression": "最中に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-098-08-a",
+          "text": "ざるを得ない",
+          "grammarId": "n2-046",
+          "baseExpression": "ざるを得ない",
+          "conjugatedExpression": "ざるを得ない",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '갑작스러운 의뢰지만 납기를 하루 늘리면 맡지 못할 것은 아니다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
       "sourceGrammarIds": [
         "n2-098",
-        "n2-170",
-        "n2-171",
-        "n2-172"
+        "n2-045",
+        "n2-046",
+        "n2-047"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-098-09",
+      "level": "N2",
+      "sentence": "この傷んだ写真も、専門家なら元の色に戻せないことはない。",
+      "sentenceWithBlank": "この傷んだ写真も、専門家なら元の色に戻せ（　　　）。",
+      "korean": "이 손상된 사진도 전문가라면 원래 색으로 복원하지 못할 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-098-09-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-098-09-c",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-098-09-d",
+          "text": "最中に",
+          "grammarId": "n2-045",
+          "baseExpression": "最中に",
+          "conjugatedExpression": "最中に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-098-09-a",
+          "text": "ざるを得ない",
+          "grammarId": "n2-046",
+          "baseExpression": "ざるを得ない",
+          "conjugatedExpression": "ざるを得ない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-098-09-b",
+          "text": "次第",
+          "grammarId": "n2-047",
+          "baseExpression": "次第",
+          "conjugatedExpression": "次第",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '이 손상된 사진도 전문가라면 원래 색으로 복원하지 못할 것은 아니다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
+      "sourceGrammarIds": [
+        "n2-098",
+        "n2-045",
+        "n2-046",
+        "n2-047"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-098-10",
+      "level": "N2",
+      "sentence": "混雑を避けて早朝に出発すれば、車で港へ行けないことはない。",
+      "sentenceWithBlank": "混雑を避けて早朝に出発すれば、車で港へ行け（　　　）。",
+      "korean": "혼잡을 피해 이른 아침에 출발하면 차로 항구에 가지 못할 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-098-10-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-098-10-d",
+          "text": "最中に",
+          "grammarId": "n2-045",
+          "baseExpression": "最中に",
+          "conjugatedExpression": "最中に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-098-10-a",
+          "text": "ざるを得ない",
+          "grammarId": "n2-046",
+          "baseExpression": "ざるを得ない",
+          "conjugatedExpression": "ざるを得ない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-098-10-b",
+          "text": "次第",
+          "grammarId": "n2-047",
+          "baseExpression": "次第",
+          "conjugatedExpression": "次第",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-098-10-c",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '혼잡을 피해 이른 아침에 출발하면 차로 항구에 가지 못할 것은 아니다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
+      "sourceGrammarIds": [
+        "n2-098",
+        "n2-045",
+        "n2-046",
+        "n2-047"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-098-11",
+      "level": "N2",
+      "sentence": "傷が浅いので、今週末の試合に出られないことはない。",
+      "sentenceWithBlank": "傷が浅いので、今週末の試合に出られ（　　　）。",
+      "korean": "부상이 가벼워서 이번 주말 경기에 나가지 못할 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-098-11-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-098-11-a",
+          "text": "ざるを得ない",
+          "grammarId": "n2-046",
+          "baseExpression": "ざるを得ない",
+          "conjugatedExpression": "ざるを得ない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-098-11-b",
+          "text": "次第",
+          "grammarId": "n2-047",
+          "baseExpression": "次第",
+          "conjugatedExpression": "次第",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-098-11-c",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-098-11-d",
+          "text": "最中に",
+          "grammarId": "n2-045",
+          "baseExpression": "最中に",
+          "conjugatedExpression": "最中に",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '부상이 가벼워서 이번 주말 경기에 나가지 못할 것은 아니다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
+      "sourceGrammarIds": [
+        "n2-098",
+        "n2-045",
+        "n2-046",
+        "n2-047"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-098-12",
+      "level": "N2",
+      "sentence": "資料が不十分でも、現時点で原因を推測できないことはない。",
+      "sentenceWithBlank": "資料が不十分でも、現時点で原因を推測でき（　　　）。",
+      "korean": "자료가 불충분해도 현시점에서 원인을 추측하지 못할 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-098-12-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-098-12-b",
+          "text": "次第",
+          "grammarId": "n2-047",
+          "baseExpression": "次第",
+          "conjugatedExpression": "次第",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-098-12-c",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-098-12-d",
+          "text": "最中に",
+          "grammarId": "n2-045",
+          "baseExpression": "最中に",
+          "conjugatedExpression": "最中に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-098-12-a",
+          "text": "ざるを得ない",
+          "grammarId": "n2-046",
+          "baseExpression": "ざるを得ない",
+          "conjugatedExpression": "ざるを得ない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '자료가 불충분해도 현시점에서 원인을 추측하지 못할 것은 아니다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
+      "sourceGrammarIds": [
+        "n2-098",
+        "n2-045",
+        "n2-046",
+        "n2-047"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-098-13",
+      "level": "N2",
+      "sentence": "味は独特だが、この地方の発酵食品を食べられないことはない。",
+      "sentenceWithBlank": "味は独特だが、この地方の発酵食品を食べられ（　　　）。",
+      "korean": "맛은 독특하지만 이 지방의 발효 식품을 먹지 못할 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-098-13-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-098-13-c",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-098-13-d",
+          "text": "最中に",
+          "grammarId": "n2-045",
+          "baseExpression": "最中に",
+          "conjugatedExpression": "最中に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-098-13-a",
+          "text": "ざるを得ない",
+          "grammarId": "n2-046",
+          "baseExpression": "ざるを得ない",
+          "conjugatedExpression": "ざるを得ない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-098-13-b",
+          "text": "次第",
+          "grammarId": "n2-047",
+          "baseExpression": "次第",
+          "conjugatedExpression": "次第",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '맛은 독특하지만 이 지방의 발효 식품을 먹지 못할 것은 아니다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
+      "sourceGrammarIds": [
+        "n2-098",
+        "n2-045",
+        "n2-046",
+        "n2-047"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-098-14",
+      "level": "N2",
+      "sentence": "毎月の負担は重いものの、節約すればローンを返せないことはない。",
+      "sentenceWithBlank": "毎月の負担は重いものの、節約すればローンを返せ（　　　）。",
+      "korean": "매달 부담은 크지만 절약하면 대출금을 갚지 못할 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-098-14-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-098-14-d",
+          "text": "最中に",
+          "grammarId": "n2-045",
+          "baseExpression": "最中に",
+          "conjugatedExpression": "最中に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-098-14-a",
+          "text": "ざるを得ない",
+          "grammarId": "n2-046",
+          "baseExpression": "ざるを得ない",
+          "conjugatedExpression": "ざるを得ない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-098-14-b",
+          "text": "次第",
+          "grammarId": "n2-047",
+          "baseExpression": "次第",
+          "conjugatedExpression": "次第",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-098-14-c",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '매달 부담은 크지만 절약하면 대출금을 갚지 못할 것은 아니다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
+      "sourceGrammarIds": [
+        "n2-098",
+        "n2-045",
+        "n2-046",
+        "n2-047"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-098-15",
+      "level": "N2",
+      "sentence": "人手が足りなくても、作業工程を減らせば店を開けないことはない。",
+      "sentenceWithBlank": "人手が足りなくても、作業工程を減らせば店を開け（　　　）。",
+      "korean": "일손이 부족해도 작업 공정을 줄이면 가게를 열지 못할 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-098-15-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-098-15-a",
+          "text": "ざるを得ない",
+          "grammarId": "n2-046",
+          "baseExpression": "ざるを得ない",
+          "conjugatedExpression": "ざるを得ない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-098-15-b",
+          "text": "次第",
+          "grammarId": "n2-047",
+          "baseExpression": "次第",
+          "conjugatedExpression": "次第",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-098-15-c",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-098-15-d",
+          "text": "最中に",
+          "grammarId": "n2-045",
+          "baseExpression": "最中に",
+          "conjugatedExpression": "最中に",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '일손이 부족해도 작업 공정을 줄이면 가게를 열지 못할 것은 아니다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
+      "sourceGrammarIds": [
+        "n2-098",
+        "n2-045",
+        "n2-046",
+        "n2-047"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-098-16",
+      "level": "N2",
+      "sentence": "彼の謝罪には納得していないが、事情を理解できないことはない。",
+      "sentenceWithBlank": "彼の謝罪には納得していないが、事情を理解でき（　　　）。",
+      "korean": "그의 사과에는 납득하지 못했지만 사정을 이해하지 못할 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-098-16-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-098-16-b",
+          "text": "次第",
+          "grammarId": "n2-047",
+          "baseExpression": "次第",
+          "conjugatedExpression": "次第",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-098-16-c",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-098-16-d",
+          "text": "最中に",
+          "grammarId": "n2-045",
+          "baseExpression": "最中に",
+          "conjugatedExpression": "最中に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-098-16-a",
+          "text": "ざるを得ない",
+          "grammarId": "n2-046",
+          "baseExpression": "ざるを得ない",
+          "conjugatedExpression": "ざるを得ない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '그의 사과에는 납득하지 못했지만 사정을 이해하지 못할 것은 아니다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
+      "sourceGrammarIds": [
+        "n2-098",
+        "n2-045",
+        "n2-046",
+        "n2-047"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-098-17",
+      "level": "N2",
+      "sentence": "料金は高めでも、この景色ならもう一度泊まらないことはない。",
+      "sentenceWithBlank": "料金は高めでも、この景色ならもう一度泊まら（　　　）。",
+      "korean": "요금은 비싼 편이어도 이 경치라면 다시 묵지 않을 것도 없다.",
+      "answerChoiceId": "fb-created-n2-098-17-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-098-17-c",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-098-17-d",
+          "text": "最中に",
+          "grammarId": "n2-045",
+          "baseExpression": "最中に",
+          "conjugatedExpression": "最中に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-098-17-a",
+          "text": "ざるを得ない",
+          "grammarId": "n2-046",
+          "baseExpression": "ざるを得ない",
+          "conjugatedExpression": "ざるを得ない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-098-17-b",
+          "text": "次第",
+          "grammarId": "n2-047",
+          "baseExpression": "次第",
+          "conjugatedExpression": "次第",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '요금은 비싼 편이어도 이 경치라면 다시 묵지 않을 것도 없다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
+      "sourceGrammarIds": [
+        "n2-098",
+        "n2-045",
+        "n2-046",
+        "n2-047"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-098-18",
+      "level": "N2",
+      "sentence": "風向きが変われば、今夜中に漁船を出せないことはない。",
+      "sentenceWithBlank": "風向きが変われば、今夜中に漁船を出せ（　　　）。",
+      "korean": "풍향이 바뀌면 오늘 밤 안에 어선을 내보내지 못할 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-098-18-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-098-18-d",
+          "text": "最中に",
+          "grammarId": "n2-045",
+          "baseExpression": "最中に",
+          "conjugatedExpression": "最中に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-098-18-a",
+          "text": "ざるを得ない",
+          "grammarId": "n2-046",
+          "baseExpression": "ざるを得ない",
+          "conjugatedExpression": "ざるを得ない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-098-18-b",
+          "text": "次第",
+          "grammarId": "n2-047",
+          "baseExpression": "次第",
+          "conjugatedExpression": "次第",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-098-18-c",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '풍향이 바뀌면 오늘 밤 안에 어선을 내보내지 못할 것은 아니다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
+      "sourceGrammarIds": [
+        "n2-098",
+        "n2-045",
+        "n2-046",
+        "n2-047"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-098-19",
+      "level": "N2",
+      "sentence": "部品を海外から取り寄せれば、この時計を直せないことはない。",
+      "sentenceWithBlank": "部品を海外から取り寄せれば、この時計を直せ（　　　）。",
+      "korean": "부품을 해외에서 주문하면 이 시계를 고치지 못할 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-098-19-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-098-19-a",
+          "text": "ざるを得ない",
+          "grammarId": "n2-046",
+          "baseExpression": "ざるを得ない",
+          "conjugatedExpression": "ざるを得ない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-098-19-b",
+          "text": "次第",
+          "grammarId": "n2-047",
+          "baseExpression": "次第",
+          "conjugatedExpression": "次第",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-098-19-c",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-098-19-d",
+          "text": "最中に",
+          "grammarId": "n2-045",
+          "baseExpression": "最中に",
+          "conjugatedExpression": "最中に",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '부품을 해외에서 주문하면 이 시계를 고치지 못할 것은 아니다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
+      "sourceGrammarIds": [
+        "n2-098",
+        "n2-045",
+        "n2-046",
+        "n2-047"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-098-20",
+      "level": "N2",
+      "sentence": "子どもを実家に預けられれば、夫婦で式に参加できないことはない。",
+      "sentenceWithBlank": "子どもを実家に預けられれば、夫婦で式に参加でき（　　　）。",
+      "korean": "아이를 친정에 맡길 수 있다면 부부가 함께 결혼식에 참석하지 못할 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-098-20-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-098-20-b",
+          "text": "次第",
+          "grammarId": "n2-047",
+          "baseExpression": "次第",
+          "conjugatedExpression": "次第",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-098-20-c",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-098-20-d",
+          "text": "最中に",
+          "grammarId": "n2-045",
+          "baseExpression": "最中に",
+          "conjugatedExpression": "最中に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-098-20-a",
+          "text": "ざるを得ない",
+          "grammarId": "n2-046",
+          "baseExpression": "ざるを得ない",
+          "conjugatedExpression": "ざるを得ない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '아이를 친정에 맡길 수 있다면 부부가 함께 결혼식에 참석하지 못할 것은 아니다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
+      "sourceGrammarIds": [
+        "n2-098",
+        "n2-045",
+        "n2-046",
+        "n2-047"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-098-21",
+      "level": "N2",
+      "sentence": "十分な証拠がそろえば、保険会社も損害を認めないことはない。",
+      "sentenceWithBlank": "十分な証拠がそろえば、保険会社も損害を認め（　　　）。",
+      "korean": "충분한 증거가 갖춰지면 보험 회사도 손해를 인정하지 않을 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-098-21-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-098-21-c",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-098-21-d",
+          "text": "最中に",
+          "grammarId": "n2-045",
+          "baseExpression": "最中に",
+          "conjugatedExpression": "最中に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-098-21-a",
+          "text": "ざるを得ない",
+          "grammarId": "n2-046",
+          "baseExpression": "ざるを得ない",
+          "conjugatedExpression": "ざるを得ない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-098-21-b",
+          "text": "次第",
+          "grammarId": "n2-047",
+          "baseExpression": "次第",
+          "conjugatedExpression": "次第",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '충분한 증거가 갖춰지면 보험 회사도 손해를 인정하지 않을 것은 아니다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
+      "sourceGrammarIds": [
+        "n2-098",
+        "n2-045",
+        "n2-046",
+        "n2-047"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-098-22",
+      "level": "N2",
+      "sentence": "予約を変更すれば、窓側の席を確保できないことはない。",
+      "sentenceWithBlank": "予約を変更すれば、窓側の席を確保でき（　　　）。",
+      "korean": "예약을 변경하면 창가 좌석을 확보하지 못할 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-098-22-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-098-22-d",
+          "text": "最中に",
+          "grammarId": "n2-045",
+          "baseExpression": "最中に",
+          "conjugatedExpression": "最中に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-098-22-a",
+          "text": "ざるを得ない",
+          "grammarId": "n2-046",
+          "baseExpression": "ざるを得ない",
+          "conjugatedExpression": "ざるを得ない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-098-22-b",
+          "text": "次第",
+          "grammarId": "n2-047",
+          "baseExpression": "次第",
+          "conjugatedExpression": "次第",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-098-22-c",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '예약을 변경하면 창가 좌석을 확보하지 못할 것은 아니다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
+      "sourceGrammarIds": [
+        "n2-098",
+        "n2-045",
+        "n2-046",
+        "n2-047"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-098-23",
+      "level": "N2",
+      "sentence": "患者の体力が戻れば、来月手術を行えないことはない。",
+      "sentenceWithBlank": "患者の体力が戻れば、来月手術を行え（　　　）。",
+      "korean": "환자의 체력이 회복되면 다음 달에 수술을 시행하지 못할 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-098-23-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-098-23-a",
+          "text": "ざるを得ない",
+          "grammarId": "n2-046",
+          "baseExpression": "ざるを得ない",
+          "conjugatedExpression": "ざるを得ない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-098-23-b",
+          "text": "次第",
+          "grammarId": "n2-047",
+          "baseExpression": "次第",
+          "conjugatedExpression": "次第",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-098-23-c",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-098-23-d",
+          "text": "最中に",
+          "grammarId": "n2-045",
+          "baseExpression": "最中に",
+          "conjugatedExpression": "最中に",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '환자의 체력이 회복되면 다음 달에 수술을 시행하지 못할 것은 아니다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
+      "sourceGrammarIds": [
+        "n2-098",
+        "n2-045",
+        "n2-046",
+        "n2-047"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-098-24",
+      "level": "N2",
+      "sentence": "説明書がなくても、以前の経験を頼りに機械を組み立てられないことはない。",
+      "sentenceWithBlank": "説明書がなくても、以前の経験を頼りに機械を組み立てられ（　　　）。",
+      "korean": "설명서가 없어도 이전 경험을 바탕으로 기계를 조립하지 못할 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-098-24-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-098-24-b",
+          "text": "次第",
+          "grammarId": "n2-047",
+          "baseExpression": "次第",
+          "conjugatedExpression": "次第",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-098-24-c",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-098-24-d",
+          "text": "最中に",
+          "grammarId": "n2-045",
+          "baseExpression": "最中に",
+          "conjugatedExpression": "最中に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-098-24-a",
+          "text": "ざるを得ない",
+          "grammarId": "n2-046",
+          "baseExpression": "ざるを得ない",
+          "conjugatedExpression": "ざるを得ない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '설명서가 없어도 이전 경험을 바탕으로 기계를 조립하지 못할 것은 아니다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
+      "sourceGrammarIds": [
+        "n2-098",
+        "n2-045",
+        "n2-046",
+        "n2-047"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-098-25",
+      "level": "N2",
+      "sentence": "日当たりは悪いが、照明を工夫すればこの部屋で植物を育てられないことはない。",
+      "sentenceWithBlank": "日当たりは悪いが、照明を工夫すればこの部屋で植物を育てられ（　　　）。",
+      "korean": "채광은 나쁘지만 조명을 잘 활용하면 이 방에서 식물을 키우지 못할 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-098-25-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-098-25-c",
+          "text": "ないことはない",
+          "grammarId": "n2-098",
+          "baseExpression": "ないことはない",
+          "conjugatedExpression": "ないことはない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-098-25-d",
+          "text": "最中に",
+          "grammarId": "n2-045",
+          "baseExpression": "最中に",
+          "conjugatedExpression": "最中に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-098-25-a",
+          "text": "ざるを得ない",
+          "grammarId": "n2-046",
+          "baseExpression": "ざるを得ない",
+          "conjugatedExpression": "ざるを得ない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-098-25-b",
+          "text": "次第",
+          "grammarId": "n2-047",
+          "baseExpression": "次第",
+          "conjugatedExpression": "次第",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '채광은 나쁘지만 조명을 잘 활용하면 이 방에서 식물을 키우지 못할 것은 아니다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
+      "sourceGrammarIds": [
+        "n2-098",
+        "n2-045",
+        "n2-046",
+        "n2-047"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
       ]
     }
   ],
@@ -1834,1103 +1809,1153 @@
       ]
     },
     {
-      "id": "so-extra-n2-098-1",
+      "id": "so-created-n2-098-01",
       "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
+      "sentence": "予算を少し増やせば、この古い旅館を改装できないことはない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
+      "korean": "예산을 조금 늘리면 이 오래된 여관을 개조하지 못할 것도 없다.",
       "pieces": [
         {
-          "id": "so-extra-n2-098-1-p1",
-          "text": "から今すぐ出れば間に合わないことはない",
+          "id": "so-created-n2-098-01-p3",
+          "text": "古い旅館を改装でき",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-098-01-p4",
+          "text": "ないことはない。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-098-1-p2",
-          "text": "東京まで",
+          "id": "so-created-n2-098-01-p1",
+          "text": "予算を少し",
           "order": 1
         },
         {
-          "id": "so-extra-n2-098-1-p3",
-          "text": "快速で",
+          "id": "so-created-n2-098-01-p2",
+          "text": "増やせば、この",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-098-1-p4",
-          "text": "20分だ",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-098-1-p2",
-        "so-extra-n2-098-1-p3",
-        "so-extra-n2-098-1-p4",
-        "so-extra-n2-098-1-p1"
+        "so-created-n2-098-01-p1",
+        "so-created-n2-098-01-p2",
+        "so-created-n2-098-01-p3",
+        "so-created-n2-098-01-p4"
       ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '예산을 조금 늘리면 이 오래된 여관을 개조하지 못할 것도 없다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
       "sourceGrammarIds": [
-        "n2-098"
+        "n2-098",
+        "n2-045",
+        "n2-046",
+        "n2-047"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-098-2",
+      "id": "so-created-n2-098-02",
       "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
+      "sentence": "足の痛みを我慢すれば、山頂まで歩けないことはない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
+      "korean": "발의 통증을 참으면 산 정상까지 걷지 못할 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra-n2-098-2-p2",
-          "text": "快速で",
+          "id": "so-created-n2-098-02-p2",
+          "text": "我慢すれば、",
           "order": 2
         },
         {
-          "id": "so-extra-n2-098-2-p3",
-          "text": "20分だ",
+          "id": "so-created-n2-098-02-p3",
+          "text": "山頂まで歩け",
           "order": 3
         },
         {
-          "id": "so-extra-n2-098-2-p4",
-          "text": "から今すぐ出れば間に合わないことはない",
+          "id": "so-created-n2-098-02-p4",
+          "text": "ないことはない。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-098-2-p1",
-          "text": "東京まで",
+          "id": "so-created-n2-098-02-p1",
+          "text": "足の痛みを",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-098-2-p1",
-        "so-extra-n2-098-2-p2",
-        "so-extra-n2-098-2-p3",
-        "so-extra-n2-098-2-p4"
+        "so-created-n2-098-02-p1",
+        "so-created-n2-098-02-p2",
+        "so-created-n2-098-02-p3",
+        "so-created-n2-098-02-p4"
       ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '발의 통증을 참으면 산 정상까지 걷지 못할 것은 아니다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
       "sourceGrammarIds": [
-        "n2-098"
+        "n2-098",
+        "n2-045",
+        "n2-046",
+        "n2-047"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-098-3",
+      "id": "so-created-n2-098-03",
       "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
+      "sentence": "この汚れは専門の業者に頼めば落ちないことはない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
+      "korean": "이 얼룩은 전문 업체에 맡기면 지워지지 않는 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra-n2-098-3-p3",
-          "text": "から今すぐ出れば間に合わないことはない",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-098-3-p4",
-          "text": "東京まで",
+          "id": "so-created-n2-098-03-p1",
+          "text": "この汚れは",
           "order": 1
         },
         {
-          "id": "so-extra-n2-098-3-p1",
-          "text": "快速で",
+          "id": "so-created-n2-098-03-p2",
+          "text": "専門の業者に",
           "order": 2
         },
         {
-          "id": "so-extra-n2-098-3-p2",
-          "text": "20分だ",
+          "id": "so-created-n2-098-03-p3",
+          "text": "頼めば落ち",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-098-03-p4",
+          "text": "ないことはない。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-098-3-p4",
-        "so-extra-n2-098-3-p1",
-        "so-extra-n2-098-3-p2",
-        "so-extra-n2-098-3-p3"
+        "so-created-n2-098-03-p1",
+        "so-created-n2-098-03-p2",
+        "so-created-n2-098-03-p3",
+        "so-created-n2-098-03-p4"
       ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '이 얼룩은 전문 업체에 맡기면 지워지지 않는 것은 아니다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
       "sourceGrammarIds": [
-        "n2-098"
+        "n2-098",
+        "n2-045",
+        "n2-046",
+        "n2-047"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-098-4",
+      "id": "so-created-n2-098-04",
       "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
+      "sentence": "条件を見直してくれるなら、その会社と契約しないことはない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
+      "korean": "조건을 재검토해 준다면 그 회사와 계약하지 않을 것도 없다.",
       "pieces": [
         {
-          "id": "so-extra-n2-098-4-p4",
-          "text": "快速で",
-          "order": 2
-        },
-        {
-          "id": "so-extra-n2-098-4-p1",
-          "text": "20分だ",
-          "order": 3
-        },
-        {
-          "id": "so-extra-n2-098-4-p2",
-          "text": "から今すぐ出れば間に合わないことはない",
+          "id": "so-created-n2-098-04-p4",
+          "text": "ないことはない。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-098-4-p3",
-          "text": "東京まで",
+          "id": "so-created-n2-098-04-p1",
+          "text": "条件を",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-098-04-p2",
+          "text": "見直してくれるなら、その",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-098-04-p3",
+          "text": "会社と契約し",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-098-4-p3",
-        "so-extra-n2-098-4-p4",
-        "so-extra-n2-098-4-p1",
-        "so-extra-n2-098-4-p2"
+        "so-created-n2-098-04-p1",
+        "so-created-n2-098-04-p2",
+        "so-created-n2-098-04-p3",
+        "so-created-n2-098-04-p4"
       ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '조건을 재검토해 준다면 그 회사와 계약하지 않을 것도 없다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
       "sourceGrammarIds": [
-        "n2-098"
+        "n2-098",
+        "n2-045",
+        "n2-046",
+        "n2-047"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-098-5",
+      "id": "so-created-n2-098-05",
       "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
+      "sentence": "冷蔵庫にある材料だけでも、夕食を作れないことはない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
+      "korean": "냉장고에 있는 재료만으로도 저녁을 만들지 못할 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra-n2-098-5-p1",
-          "text": "から今すぐ出れば間に合わないことはない",
+          "id": "so-created-n2-098-05-p3",
+          "text": "夕食を作れ",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-098-05-p4",
+          "text": "ないことはない。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-098-5-p2",
-          "text": "東京まで",
+          "id": "so-created-n2-098-05-p1",
+          "text": "冷蔵庫にある",
           "order": 1
         },
         {
-          "id": "so-extra-n2-098-5-p3",
-          "text": "快速で",
+          "id": "so-created-n2-098-05-p2",
+          "text": "材料だけでも、",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-098-5-p4",
-          "text": "20分だ",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-098-5-p2",
-        "so-extra-n2-098-5-p3",
-        "so-extra-n2-098-5-p4",
-        "so-extra-n2-098-5-p1"
+        "so-created-n2-098-05-p1",
+        "so-created-n2-098-05-p2",
+        "so-created-n2-098-05-p3",
+        "so-created-n2-098-05-p4"
       ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '냉장고에 있는 재료만으로도 저녁을 만들지 못할 것은 아니다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
       "sourceGrammarIds": [
-        "n2-098"
+        "n2-098",
+        "n2-045",
+        "n2-046",
+        "n2-047"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-098-01",
+      "id": "so-created-n2-098-06",
       "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
+      "sentence": "祖父の話は長いが、最後まで聞けないことはない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
+      "korean": "할아버지 이야기는 길지만 끝까지 듣지 못할 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-098-01-p1",
-          "text": "から今すぐ出れば間に合わないことはない",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-098-01-p2",
-          "text": "東京まで",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-098-01-p3",
-          "text": "快速で",
+          "id": "so-created-n2-098-06-p2",
+          "text": "長いが、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-098-01-p4",
-          "text": "20分だ",
+          "id": "so-created-n2-098-06-p3",
+          "text": "最後まで聞け",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-098-06-p4",
+          "text": "ないことはない。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-098-06-p1",
+          "text": "祖父の話は",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-098-01-p2",
-        "so-extra20-n2-098-01-p3",
-        "so-extra20-n2-098-01-p4",
-        "so-extra20-n2-098-01-p1"
+        "so-created-n2-098-06-p1",
+        "so-created-n2-098-06-p2",
+        "so-created-n2-098-06-p3",
+        "so-created-n2-098-06-p4"
       ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '할아버지 이야기는 길지만 끝까지 듣지 못할 것은 아니다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
       "sourceGrammarIds": [
-        "n2-098"
+        "n2-098",
+        "n2-045",
+        "n2-046",
+        "n2-047"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-098-02",
+      "id": "so-created-n2-098-07",
       "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
+      "sentence": "多少狭くても、家具の配置を工夫すれば四人で暮らせないことはない。",
+      "sentenceWithBlanks": "多少 ____ ____ ____ ____",
+      "korean": "다소 좁아도 가구 배치를 궁리하면 네 명이 살지 못할 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-098-02-p4",
-          "text": "から今すぐ出れば間に合わないことはない",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-098-02-p1",
-          "text": "東京まで",
+          "id": "so-created-n2-098-07-p1",
+          "text": "狭くても、家具の",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-098-02-p2",
-          "text": "快速で",
+          "id": "so-created-n2-098-07-p2",
+          "text": "配置を工夫すれば",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-098-02-p3",
-          "text": "20分だ",
+          "id": "so-created-n2-098-07-p3",
+          "text": "四人で暮らせ",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-098-07-p4",
+          "text": "ないことはない。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-098-02-p1",
-        "so-extra20-n2-098-02-p2",
-        "so-extra20-n2-098-02-p3",
-        "so-extra20-n2-098-02-p4"
+        "so-created-n2-098-07-p1",
+        "so-created-n2-098-07-p2",
+        "so-created-n2-098-07-p3",
+        "so-created-n2-098-07-p4"
       ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '다소 좁아도 가구 배치를 궁리하면 네 명이 살지 못할 것은 아니다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
       "sourceGrammarIds": [
-        "n2-098"
+        "n2-098",
+        "n2-045",
+        "n2-046",
+        "n2-047"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-098-03",
+      "id": "so-created-n2-098-08",
       "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
+      "sentence": "急な依頼だが、納期を一日延ばせば引き受けられないことはない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
+      "korean": "갑작스러운 의뢰지만 납기를 하루 늘리면 맡지 못할 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-098-03-p3",
-          "text": "から今すぐ出れば間に合わないことはない",
+          "id": "so-created-n2-098-08-p4",
+          "text": "ないことはない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-098-03-p4",
-          "text": "東京まで",
+          "id": "so-created-n2-098-08-p1",
+          "text": "急な依頼だが、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-098-03-p1",
-          "text": "快速で",
+          "id": "so-created-n2-098-08-p2",
+          "text": "納期を一日延ばせば",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-098-03-p2",
-          "text": "20分だ",
+          "id": "so-created-n2-098-08-p3",
+          "text": "引き受けられ",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-098-03-p4",
-        "so-extra20-n2-098-03-p1",
-        "so-extra20-n2-098-03-p2",
-        "so-extra20-n2-098-03-p3"
+        "so-created-n2-098-08-p1",
+        "so-created-n2-098-08-p2",
+        "so-created-n2-098-08-p3",
+        "so-created-n2-098-08-p4"
       ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '갑작스러운 의뢰지만 납기를 하루 늘리면 맡지 못할 것은 아니다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
       "sourceGrammarIds": [
-        "n2-098"
+        "n2-098",
+        "n2-045",
+        "n2-046",
+        "n2-047"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-098-04",
+      "id": "so-created-n2-098-09",
       "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
+      "sentence": "この傷んだ写真も、専門家なら元の色に戻せないことはない。",
+      "sentenceWithBlanks": "この傷んだ ____ ____ ____ ____",
+      "korean": "이 손상된 사진도 전문가라면 원래 색으로 복원하지 못할 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-098-04-p2",
-          "text": "から今すぐ出れば間に合わないことはない",
+          "id": "so-created-n2-098-09-p3",
+          "text": "元の色に戻せ",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-098-09-p4",
+          "text": "ないことはない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-098-04-p3",
-          "text": "東京まで",
+          "id": "so-created-n2-098-09-p1",
+          "text": "写真も、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-098-04-p4",
-          "text": "快速で",
+          "id": "so-created-n2-098-09-p2",
+          "text": "専門家なら",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-098-04-p1",
-          "text": "20分だ",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-098-04-p3",
-        "so-extra20-n2-098-04-p4",
-        "so-extra20-n2-098-04-p1",
-        "so-extra20-n2-098-04-p2"
+        "so-created-n2-098-09-p1",
+        "so-created-n2-098-09-p2",
+        "so-created-n2-098-09-p3",
+        "so-created-n2-098-09-p4"
       ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '이 손상된 사진도 전문가라면 원래 색으로 복원하지 못할 것은 아니다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
       "sourceGrammarIds": [
-        "n2-098"
+        "n2-098",
+        "n2-045",
+        "n2-046",
+        "n2-047"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-098-05",
+      "id": "so-created-n2-098-10",
       "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
+      "sentence": "混雑を避けて早朝に出発すれば、車で港へ行けないことはない。",
+      "sentenceWithBlanks": "混雑を ____ ____ ____ ____",
+      "korean": "혼잡을 피해 이른 아침에 출발하면 차로 항구에 가지 못할 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-098-05-p1",
-          "text": "から今すぐ出れば間に合わないことはない",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-098-05-p2",
-          "text": "東京まで",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-098-05-p3",
-          "text": "快速で",
+          "id": "so-created-n2-098-10-p2",
+          "text": "出発すれば、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-098-05-p4",
-          "text": "20分だ",
+          "id": "so-created-n2-098-10-p3",
+          "text": "車で港へ行け",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-098-10-p4",
+          "text": "ないことはない。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-098-10-p1",
+          "text": "避けて早朝に",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-098-05-p2",
-        "so-extra20-n2-098-05-p3",
-        "so-extra20-n2-098-05-p4",
-        "so-extra20-n2-098-05-p1"
+        "so-created-n2-098-10-p1",
+        "so-created-n2-098-10-p2",
+        "so-created-n2-098-10-p3",
+        "so-created-n2-098-10-p4"
       ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '혼잡을 피해 이른 아침에 출발하면 차로 항구에 가지 못할 것은 아니다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
       "sourceGrammarIds": [
-        "n2-098"
+        "n2-098",
+        "n2-045",
+        "n2-046",
+        "n2-047"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-098-06",
+      "id": "so-created-n2-098-11",
       "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
+      "sentence": "傷が浅いので、今週末の試合に出られないことはない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
+      "korean": "부상이 가벼워서 이번 주말 경기에 나가지 못할 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-098-06-p4",
-          "text": "20分だ",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-098-06-p1",
-          "text": "から今すぐ出れば間に合わないことはない",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-098-06-p2",
-          "text": "東京まで",
+          "id": "so-created-n2-098-11-p1",
+          "text": "傷が浅いので、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-098-06-p3",
-          "text": "快速で",
+          "id": "so-created-n2-098-11-p2",
+          "text": "今週末の",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-098-11-p3",
+          "text": "試合に出られ",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-098-11-p4",
+          "text": "ないことはない。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-098-06-p2",
-        "so-extra20-n2-098-06-p3",
-        "so-extra20-n2-098-06-p4",
-        "so-extra20-n2-098-06-p1"
+        "so-created-n2-098-11-p1",
+        "so-created-n2-098-11-p2",
+        "so-created-n2-098-11-p3",
+        "so-created-n2-098-11-p4"
       ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '부상이 가벼워서 이번 주말 경기에 나가지 못할 것은 아니다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
       "sourceGrammarIds": [
-        "n2-098"
+        "n2-098",
+        "n2-045",
+        "n2-046",
+        "n2-047"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-098-07",
+      "id": "so-created-n2-098-12",
       "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
+      "sentence": "資料が不十分でも、現時点で原因を推測できないことはない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
+      "korean": "자료가 불충분해도 현시점에서 원인을 추측하지 못할 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-098-07-p3",
-          "text": "20分だ",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-098-07-p4",
-          "text": "から今すぐ出れば間に合わないことはない",
+          "id": "so-created-n2-098-12-p4",
+          "text": "ないことはない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-098-07-p1",
-          "text": "東京まで",
+          "id": "so-created-n2-098-12-p1",
+          "text": "資料が不十分でも、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-098-07-p2",
-          "text": "快速で",
+          "id": "so-created-n2-098-12-p2",
+          "text": "現時点で",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-098-12-p3",
+          "text": "原因を推測でき",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-098-07-p1",
-        "so-extra20-n2-098-07-p2",
-        "so-extra20-n2-098-07-p3",
-        "so-extra20-n2-098-07-p4"
+        "so-created-n2-098-12-p1",
+        "so-created-n2-098-12-p2",
+        "so-created-n2-098-12-p3",
+        "so-created-n2-098-12-p4"
       ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '자료가 불충분해도 현시점에서 원인을 추측하지 못할 것은 아니다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
       "sourceGrammarIds": [
-        "n2-098"
+        "n2-098",
+        "n2-045",
+        "n2-046",
+        "n2-047"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-098-08",
+      "id": "so-created-n2-098-13",
       "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
+      "sentence": "味は独特だが、この地方の発酵食品を食べられないことはない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
+      "korean": "맛은 독특하지만 이 지방의 발효 식품을 먹지 못할 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-098-08-p2",
-          "text": "20分だ",
+          "id": "so-created-n2-098-13-p3",
+          "text": "食品を食べられ",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-098-08-p3",
-          "text": "から今すぐ出れば間に合わないことはない",
+          "id": "so-created-n2-098-13-p4",
+          "text": "ないことはない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-098-08-p4",
-          "text": "東京まで",
+          "id": "so-created-n2-098-13-p1",
+          "text": "味は独特だが、この",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-098-08-p1",
-          "text": "快速で",
+          "id": "so-created-n2-098-13-p2",
+          "text": "地方の発酵",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-098-08-p4",
-        "so-extra20-n2-098-08-p1",
-        "so-extra20-n2-098-08-p2",
-        "so-extra20-n2-098-08-p3"
+        "so-created-n2-098-13-p1",
+        "so-created-n2-098-13-p2",
+        "so-created-n2-098-13-p3",
+        "so-created-n2-098-13-p4"
       ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '맛은 독특하지만 이 지방의 발효 식품을 먹지 못할 것은 아니다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
       "sourceGrammarIds": [
-        "n2-098"
+        "n2-098",
+        "n2-045",
+        "n2-046",
+        "n2-047"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-098-09",
+      "id": "so-created-n2-098-14",
       "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
+      "sentence": "毎月の負担は重いものの、節約すればローンを返せないことはない。",
+      "sentenceWithBlanks": "毎月の ____ ____ ____ ____",
+      "korean": "매달 부담은 크지만 절약하면 대출금을 갚지 못할 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-098-09-p1",
-          "text": "20分だ",
+          "id": "so-created-n2-098-14-p2",
+          "text": "節約すれば",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-098-14-p3",
+          "text": "ローンを返せ",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-098-09-p2",
-          "text": "から今すぐ出れば間に合わないことはない",
+          "id": "so-created-n2-098-14-p4",
+          "text": "ないことはない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-098-09-p3",
-          "text": "東京まで",
+          "id": "so-created-n2-098-14-p1",
+          "text": "負担は重いものの、",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-098-09-p4",
-          "text": "快速で",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-098-09-p3",
-        "so-extra20-n2-098-09-p4",
-        "so-extra20-n2-098-09-p1",
-        "so-extra20-n2-098-09-p2"
+        "so-created-n2-098-14-p1",
+        "so-created-n2-098-14-p2",
+        "so-created-n2-098-14-p3",
+        "so-created-n2-098-14-p4"
       ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '매달 부담은 크지만 절약하면 대출금을 갚지 못할 것은 아니다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
       "sourceGrammarIds": [
-        "n2-098"
+        "n2-098",
+        "n2-045",
+        "n2-046",
+        "n2-047"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-098-10",
+      "id": "so-created-n2-098-15",
       "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
+      "sentence": "人手が足りなくても、作業工程を減らせば店を開けないことはない。",
+      "sentenceWithBlanks": "人手が ____ ____ ____ ____",
+      "korean": "일손이 부족해도 작업 공정을 줄이면 가게를 열지 못할 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-098-10-p4",
-          "text": "20分だ",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-098-10-p1",
-          "text": "から今すぐ出れば間に合わないことはない",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-098-10-p2",
-          "text": "東京まで",
+          "id": "so-created-n2-098-15-p1",
+          "text": "足りなくても、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-098-10-p3",
-          "text": "快速で",
+          "id": "so-created-n2-098-15-p2",
+          "text": "作業工程を",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-098-15-p3",
+          "text": "減らせば店を開け",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-098-15-p4",
+          "text": "ないことはない。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-098-10-p2",
-        "so-extra20-n2-098-10-p3",
-        "so-extra20-n2-098-10-p4",
-        "so-extra20-n2-098-10-p1"
+        "so-created-n2-098-15-p1",
+        "so-created-n2-098-15-p2",
+        "so-created-n2-098-15-p3",
+        "so-created-n2-098-15-p4"
       ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '일손이 부족해도 작업 공정을 줄이면 가게를 열지 못할 것은 아니다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
       "sourceGrammarIds": [
-        "n2-098"
+        "n2-098",
+        "n2-045",
+        "n2-046",
+        "n2-047"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-098-11",
+      "id": "so-created-n2-098-16",
       "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
+      "sentence": "彼の謝罪には納得していないが、事情を理解できないことはない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
+      "korean": "그의 사과에는 납득하지 못했지만 사정을 이해하지 못할 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-098-11-p3",
-          "text": "快速で",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-098-11-p4",
-          "text": "20分だ",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-098-11-p1",
-          "text": "から今すぐ出れば間に合わないことはない",
+          "id": "so-created-n2-098-16-p4",
+          "text": "ないことはない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-098-11-p2",
-          "text": "東京まで",
+          "id": "so-created-n2-098-16-p1",
+          "text": "彼の謝罪には",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-098-16-p2",
+          "text": "納得していないが、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-098-16-p3",
+          "text": "事情を理解でき",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-098-11-p2",
-        "so-extra20-n2-098-11-p3",
-        "so-extra20-n2-098-11-p4",
-        "so-extra20-n2-098-11-p1"
+        "so-created-n2-098-16-p1",
+        "so-created-n2-098-16-p2",
+        "so-created-n2-098-16-p3",
+        "so-created-n2-098-16-p4"
       ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '그의 사과에는 납득하지 못했지만 사정을 이해하지 못할 것은 아니다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
       "sourceGrammarIds": [
-        "n2-098"
+        "n2-098",
+        "n2-045",
+        "n2-046",
+        "n2-047"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-098-12",
+      "id": "so-created-n2-098-17",
       "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
+      "sentence": "料金は高めでも、この景色ならもう一度泊まらないことはない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
+      "korean": "요금은 비싼 편이어도 이 경치라면 다시 묵지 않을 것도 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-098-12-p2",
-          "text": "快速で",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-098-12-p3",
-          "text": "20分だ",
+          "id": "so-created-n2-098-17-p3",
+          "text": "もう一度泊まら",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-098-12-p4",
-          "text": "から今すぐ出れば間に合わないことはない",
+          "id": "so-created-n2-098-17-p4",
+          "text": "ないことはない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-098-12-p1",
-          "text": "東京まで",
+          "id": "so-created-n2-098-17-p1",
+          "text": "料金は高めでも、この",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-098-17-p2",
+          "text": "景色なら",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-098-12-p1",
-        "so-extra20-n2-098-12-p2",
-        "so-extra20-n2-098-12-p3",
-        "so-extra20-n2-098-12-p4"
+        "so-created-n2-098-17-p1",
+        "so-created-n2-098-17-p2",
+        "so-created-n2-098-17-p3",
+        "so-created-n2-098-17-p4"
       ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '요금은 비싼 편이어도 이 경치라면 다시 묵지 않을 것도 없다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
       "sourceGrammarIds": [
-        "n2-098"
+        "n2-098",
+        "n2-045",
+        "n2-046",
+        "n2-047"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-098-13",
+      "id": "so-created-n2-098-18",
       "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
+      "sentence": "風向きが変われば、今夜中に漁船を出せないことはない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
+      "korean": "풍향이 바뀌면 오늘 밤 안에 어선을 내보내지 못할 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-098-13-p1",
-          "text": "快速で",
+          "id": "so-created-n2-098-18-p2",
+          "text": "変われば、今夜",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-098-13-p2",
-          "text": "20分だ",
+          "id": "so-created-n2-098-18-p3",
+          "text": "中に漁船を出せ",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-098-13-p3",
-          "text": "から今すぐ出れば間に合わないことはない",
+          "id": "so-created-n2-098-18-p4",
+          "text": "ないことはない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-098-13-p4",
-          "text": "東京まで",
+          "id": "so-created-n2-098-18-p1",
+          "text": "風向きが",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-098-13-p4",
-        "so-extra20-n2-098-13-p1",
-        "so-extra20-n2-098-13-p2",
-        "so-extra20-n2-098-13-p3"
+        "so-created-n2-098-18-p1",
+        "so-created-n2-098-18-p2",
+        "so-created-n2-098-18-p3",
+        "so-created-n2-098-18-p4"
       ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '풍향이 바뀌면 오늘 밤 안에 어선을 내보내지 못할 것은 아니다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
       "sourceGrammarIds": [
-        "n2-098"
+        "n2-098",
+        "n2-045",
+        "n2-046",
+        "n2-047"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-098-14",
+      "id": "so-created-n2-098-19",
       "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
+      "sentence": "部品を海外から取り寄せれば、この時計を直せないことはない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
+      "korean": "부품을 해외에서 주문하면 이 시계를 고치지 못할 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-098-14-p4",
-          "text": "快速で",
+          "id": "so-created-n2-098-19-p1",
+          "text": "部品を海外から",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-098-19-p2",
+          "text": "取り寄せれば、この",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-098-14-p1",
-          "text": "20分だ",
+          "id": "so-created-n2-098-19-p3",
+          "text": "時計を直せ",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-098-14-p2",
-          "text": "から今すぐ出れば間に合わないことはない",
+          "id": "so-created-n2-098-19-p4",
+          "text": "ないことはない。",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-098-14-p3",
-          "text": "東京まで",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-098-14-p3",
-        "so-extra20-n2-098-14-p4",
-        "so-extra20-n2-098-14-p1",
-        "so-extra20-n2-098-14-p2"
+        "so-created-n2-098-19-p1",
+        "so-created-n2-098-19-p2",
+        "so-created-n2-098-19-p3",
+        "so-created-n2-098-19-p4"
       ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '부품을 해외에서 주문하면 이 시계를 고치지 못할 것은 아니다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
       "sourceGrammarIds": [
-        "n2-098"
+        "n2-098",
+        "n2-045",
+        "n2-046",
+        "n2-047"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-098-15",
+      "id": "so-created-n2-098-20",
       "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
+      "sentence": "子どもを実家に預けられれば、夫婦で式に参加できないことはない。",
+      "sentenceWithBlanks": "子どもを ____ ____ ____ ____",
+      "korean": "아이를 친정에 맡길 수 있다면 부부가 함께 결혼식에 참석하지 못할 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-098-15-p3",
-          "text": "快速で",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-098-15-p4",
-          "text": "20分だ",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-098-15-p1",
-          "text": "から今すぐ出れば間に合わないことはない",
+          "id": "so-created-n2-098-20-p4",
+          "text": "ないことはない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-098-15-p2",
-          "text": "東京まで",
+          "id": "so-created-n2-098-20-p1",
+          "text": "実家に",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-098-20-p2",
+          "text": "預けられれば、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-098-20-p3",
+          "text": "夫婦で式に参加でき",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-098-15-p2",
-        "so-extra20-n2-098-15-p3",
-        "so-extra20-n2-098-15-p4",
-        "so-extra20-n2-098-15-p1"
+        "so-created-n2-098-20-p1",
+        "so-created-n2-098-20-p2",
+        "so-created-n2-098-20-p3",
+        "so-created-n2-098-20-p4"
       ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '아이를 친정에 맡길 수 있다면 부부가 함께 결혼식에 참석하지 못할 것은 아니다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
       "sourceGrammarIds": [
-        "n2-098"
+        "n2-098",
+        "n2-045",
+        "n2-046",
+        "n2-047"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-098-16",
+      "id": "so-created-n2-098-21",
       "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
+      "sentence": "十分な証拠がそろえば、保険会社も損害を認めないことはない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
+      "korean": "충분한 증거가 갖춰지면 보험 회사도 손해를 인정하지 않을 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-098-16-p2",
-          "text": "東京まで",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-098-16-p3",
-          "text": "快速で",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-098-16-p4",
-          "text": "20分だ",
+          "id": "so-created-n2-098-21-p3",
+          "text": "保険会社も損害を",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-098-16-p1",
-          "text": "から今すぐ出れば間に合わないことはない",
+          "id": "so-created-n2-098-21-p4",
+          "text": "認めないことはない。",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-098-21-p1",
+          "text": "十分な",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-098-21-p2",
+          "text": "証拠がそろえば、",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-098-16-p2",
-        "so-extra20-n2-098-16-p3",
-        "so-extra20-n2-098-16-p4",
-        "so-extra20-n2-098-16-p1"
+        "so-created-n2-098-21-p1",
+        "so-created-n2-098-21-p2",
+        "so-created-n2-098-21-p3",
+        "so-created-n2-098-21-p4"
       ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '충분한 증거가 갖춰지면 보험 회사도 손해를 인정하지 않을 것은 아니다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
       "sourceGrammarIds": [
-        "n2-098"
+        "n2-098",
+        "n2-045",
+        "n2-046",
+        "n2-047"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-098-17",
+      "id": "so-created-n2-098-22",
       "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
+      "sentence": "予約を変更すれば、窓側の席を確保できないことはない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
+      "korean": "예약을 변경하면 창가 좌석을 확보하지 못할 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-098-17-p1",
-          "text": "東京まで",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-098-17-p2",
-          "text": "快速で",
+          "id": "so-created-n2-098-22-p2",
+          "text": "窓側の席を",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-098-17-p3",
-          "text": "20分だ",
+          "id": "so-created-n2-098-22-p3",
+          "text": "確保でき",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-098-17-p4",
-          "text": "から今すぐ出れば間に合わないことはない",
+          "id": "so-created-n2-098-22-p4",
+          "text": "ないことはない。",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-098-22-p1",
+          "text": "予約を変更すれば、",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-098-17-p1",
-        "so-extra20-n2-098-17-p2",
-        "so-extra20-n2-098-17-p3",
-        "so-extra20-n2-098-17-p4"
+        "so-created-n2-098-22-p1",
+        "so-created-n2-098-22-p2",
+        "so-created-n2-098-22-p3",
+        "so-created-n2-098-22-p4"
       ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '예약을 변경하면 창가 좌석을 확보하지 못할 것은 아니다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
       "sourceGrammarIds": [
-        "n2-098"
+        "n2-098",
+        "n2-045",
+        "n2-046",
+        "n2-047"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-098-18",
+      "id": "so-created-n2-098-23",
       "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
+      "sentence": "患者の体力が戻れば、来月手術を行えないことはない。",
       "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
+      "korean": "환자의 체력이 회복되면 다음 달에 수술을 시행하지 못할 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-098-18-p4",
-          "text": "東京まで",
+          "id": "so-created-n2-098-23-p1",
+          "text": "患者の体力が",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-098-18-p1",
-          "text": "快速で",
+          "id": "so-created-n2-098-23-p2",
+          "text": "戻れば、来月",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-098-18-p2",
-          "text": "20分だ",
+          "id": "so-created-n2-098-23-p3",
+          "text": "手術を行え",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-098-18-p3",
-          "text": "から今すぐ出れば間に合わないことはない",
+          "id": "so-created-n2-098-23-p4",
+          "text": "ないことはない。",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-098-18-p4",
-        "so-extra20-n2-098-18-p1",
-        "so-extra20-n2-098-18-p2",
-        "so-extra20-n2-098-18-p3"
+        "so-created-n2-098-23-p1",
+        "so-created-n2-098-23-p2",
+        "so-created-n2-098-23-p3",
+        "so-created-n2-098-23-p4"
       ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '환자의 체력이 회복되면 다음 달에 수술을 시행하지 못할 것은 아니다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
       "sourceGrammarIds": [
-        "n2-098"
+        "n2-098",
+        "n2-045",
+        "n2-046",
+        "n2-047"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-098-19",
+      "id": "so-created-n2-098-24",
       "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
+      "sentence": "説明書がなくても、以前の経験を頼りに機械を組み立てられないことはない。",
+      "sentenceWithBlanks": "説明書がなくても、 ____ ____ ____ ____",
+      "korean": "설명서가 없어도 이전 경험을 바탕으로 기계를 조립하지 못할 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-098-19-p3",
-          "text": "東京まで",
+          "id": "so-created-n2-098-24-p4",
+          "text": "ないことはない。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-098-24-p1",
+          "text": "以前の経験を",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-098-19-p4",
-          "text": "快速で",
+          "id": "so-created-n2-098-24-p2",
+          "text": "頼りに機械を",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-098-19-p1",
-          "text": "20分だ",
+          "id": "so-created-n2-098-24-p3",
+          "text": "組み立てられ",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-098-19-p2",
-          "text": "から今すぐ出れば間に合わないことはない",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-098-19-p3",
-        "so-extra20-n2-098-19-p4",
-        "so-extra20-n2-098-19-p1",
-        "so-extra20-n2-098-19-p2"
+        "so-created-n2-098-24-p1",
+        "so-created-n2-098-24-p2",
+        "so-created-n2-098-24-p3",
+        "so-created-n2-098-24-p4"
       ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '설명서가 없어도 이전 경험을 바탕으로 기계를 조립하지 못할 것은 아니다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
       "sourceGrammarIds": [
-        "n2-098"
+        "n2-098",
+        "n2-045",
+        "n2-046",
+        "n2-047"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-098-20",
+      "id": "so-created-n2-098-25",
       "level": "N2",
-      "sentence": "東京まで快速で20分だから、今すぐ出れば間に合わないことはない。",
-      "sentenceWithBlanks": "____ ____ ____ ____",
-      "korean": "도쿄까지 쾌속으로 20분이니 지금 바로 나가면 못 맞출 것도 없다.",
+      "sentence": "日当たりは悪いが、照明を工夫すればこの部屋で植物を育てられないことはない。",
+      "sentenceWithBlanks": "日当たりは悪いが、 ____ ____ ____ ____",
+      "korean": "채광은 나쁘지만 조명을 잘 활용하면 이 방에서 식물을 키우지 못할 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-098-20-p2",
-          "text": "東京まで",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-098-20-p3",
-          "text": "快速で",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-098-20-p4",
-          "text": "20分だ",
+          "id": "so-created-n2-098-25-p3",
+          "text": "育てられ",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-098-20-p1",
-          "text": "から今すぐ出れば間に合わないことはない",
+          "id": "so-created-n2-098-25-p4",
+          "text": "ないことはない。",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-098-25-p1",
+          "text": "照明を工夫すればこの",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-098-25-p2",
+          "text": "部屋で植物を",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-098-20-p2",
-        "so-extra20-n2-098-20-p3",
-        "so-extra20-n2-098-20-p4",
-        "so-extra20-n2-098-20-p1"
+        "so-created-n2-098-25-p1",
+        "so-created-n2-098-25-p2",
+        "so-created-n2-098-25-p3",
+        "so-created-n2-098-25-p4"
       ],
-      "explanation": "「ないことはない」는 ~하지 않는 것은 아니다, ~하기는 하다라는 뜻이다. 완전 긍정은 아니지만 가능성·여지는 있음.",
+      "explanation": "「ないことはない」는 '~하지 않는 것은 아니다, ~하기는 하다'라는 뜻을 나타낸다. 이 문장에서는 '채광은 나쁘지만 조명을 잘 활용하면 이 방에서 식물을 키우지 못할 것은 아니다.'라는 상황에 쓰였으며, 완전 긍정은 아니지만 가능성·여지는 있음. 주의할 점은 이중 부정으로 약한 긍정. 세 표현 모두 유사. 직접 긍정보다 망설임 뉘앙스.",
       "sourceGrammarIds": [
-        "n2-098"
+        "n2-098",
+        "n2-045",
+        "n2-046",
+        "n2-047"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     }
   ]

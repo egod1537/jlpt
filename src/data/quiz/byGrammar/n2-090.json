@@ -267,15 +267,23 @@
       ]
     },
     {
-      "id": "fb-extra-n2-090-1",
+      "id": "fb-created-n2-090-01",
       "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlank": "火事で焼けてしまったので、私の子供のころの写真は1枚（　　　）残っていない。",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
-      "answerChoiceId": "fb-extra-n2-090-1-c",
+      "sentence": "在庫を確認したが、予備の電池は1本として残っていなかった。",
+      "sentenceWithBlank": "在庫を確認したが、予備の電池は1本（　　　）残っていなかった。",
+      "korean": "재고를 확인했지만 예비 건전지는 한 개도 남아 있지 않았다.",
+      "answerChoiceId": "fb-created-n2-090-01-c",
       "choices": [
         {
-          "id": "fb-extra-n2-090-1-d",
+          "id": "fb-created-n2-090-01-c",
+          "text": "として",
+          "grammarId": "n2-090",
+          "baseExpression": "としてない",
+          "conjugatedExpression": "として",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-090-01-d",
           "text": "て以来",
           "grammarId": "n2-069",
           "baseExpression": "て以来",
@@ -283,7 +291,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-090-1-a",
+          "id": "fb-created-n2-090-01-a",
           "text": "てこそ",
           "grammarId": "n2-070",
           "baseExpression": "てこそ",
@@ -291,23 +299,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-090-1-b",
+          "id": "fb-created-n2-090-01-b",
           "text": "てたまらない",
           "grammarId": "n2-071",
           "baseExpression": "てたまらない",
           "conjugatedExpression": "てたまらない",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-090-1-c",
-          "text": "として",
-          "grammarId": "n2-090",
-          "baseExpression": "としてない",
-          "conjugatedExpression": "として",
-          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '재고를 확인했지만 예비 건전지는 한 개도 남아 있지 않았다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
       "sourceGrammarIds": [
         "n2-090",
         "n2-069",
@@ -315,237 +315,20 @@
         "n2-071"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra-n2-090-2",
+      "id": "fb-created-n2-090-02",
       "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlank": "火事で焼けてしまったので、私の子供のころの写真は1枚（　　　）残っていない。",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
-      "answerChoiceId": "fb-extra-n2-090-2-b",
+      "sentence": "厳しい検査を終えた製品には、1点として欠陥が見つからなかった。",
+      "sentenceWithBlank": "厳しい検査を終えた製品には、1点（　　　）欠陥が見つからなかった。",
+      "korean": "엄격한 검사를 마친 제품에서는 결함이 단 하나도 발견되지 않았다.",
+      "answerChoiceId": "fb-created-n2-090-02-c",
       "choices": [
         {
-          "id": "fb-extra-n2-090-2-a",
-          "text": "かと思うと",
-          "grammarId": "n2-020",
-          "baseExpression": "かと思うと",
-          "conjugatedExpression": "かと思うと",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-090-2-b",
-          "text": "として",
-          "grammarId": "n2-090",
-          "baseExpression": "としてない",
-          "conjugatedExpression": "として",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-090-2-c",
-          "text": "がだけに",
-          "grammarId": "n2-018",
-          "baseExpression": "がだけに",
-          "conjugatedExpression": "がだけに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-090-2-d",
-          "text": "がち",
-          "grammarId": "n2-019",
-          "baseExpression": "がち",
-          "conjugatedExpression": "がち",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
-      "sourceGrammarIds": [
-        "n2-090",
-        "n2-018",
-        "n2-019",
-        "n2-020"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-090-3",
-      "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlank": "火事で焼けてしまったので、私の子供のころの写真は1枚（　　　）残っていない。",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
-      "answerChoiceId": "fb-extra-n2-090-3-a",
-      "choices": [
-        {
-          "id": "fb-extra-n2-090-3-b",
-          "text": "ものだ",
-          "grammarId": "n2-156",
-          "baseExpression": "ものだ",
-          "conjugatedExpression": "ものだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-090-3-c",
-          "text": "ものだ",
-          "grammarId": "n2-157",
-          "baseExpression": "ものだ",
-          "conjugatedExpression": "ものだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-090-3-d",
-          "text": "ものだ",
-          "grammarId": "n2-158",
-          "baseExpression": "ものだ/ものではない",
-          "conjugatedExpression": "ものだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-090-3-a",
-          "text": "として",
-          "grammarId": "n2-090",
-          "baseExpression": "としてない",
-          "conjugatedExpression": "として",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
-      "sourceGrammarIds": [
-        "n2-090",
-        "n2-156",
-        "n2-157",
-        "n2-158"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-090-4",
-      "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlank": "火事で焼けてしまったので、私の子供のころの写真は1枚（　　　）残っていない。",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
-      "answerChoiceId": "fb-extra-n2-090-4-d",
-      "choices": [
-        {
-          "id": "fb-extra-n2-090-4-c",
-          "text": "まい",
-          "grammarId": "n2-147",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-090-4-d",
-          "text": "として",
-          "grammarId": "n2-090",
-          "baseExpression": "としてない",
-          "conjugatedExpression": "として",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-090-4-a",
-          "text": "べきだ",
-          "grammarId": "n2-145",
-          "baseExpression": "べきだ",
-          "conjugatedExpression": "べきだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-090-4-b",
-          "text": "まい",
-          "grammarId": "n2-146",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
-      "sourceGrammarIds": [
-        "n2-090",
-        "n2-145",
-        "n2-146",
-        "n2-147"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-090-5",
-      "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlank": "火事で焼けてしまったので、私の子供のころの写真は1枚（　　　）残っていない。",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
-      "answerChoiceId": "fb-extra-n2-090-5-c",
-      "choices": [
-        {
-          "id": "fb-extra-n2-090-5-d",
-          "text": "にしろにしろ",
-          "grammarId": "n2-122",
-          "baseExpression": "にしろにしろ",
-          "conjugatedExpression": "にしろにしろ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-090-5-a",
-          "text": "にすぎない",
-          "grammarId": "n2-123",
-          "baseExpression": "にすぎない",
-          "conjugatedExpression": "にすぎない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-090-5-b",
-          "text": "に相違ない",
-          "grammarId": "n2-124",
-          "baseExpression": "に相違ない",
-          "conjugatedExpression": "に相違ない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-090-5-c",
-          "text": "として",
-          "grammarId": "n2-090",
-          "baseExpression": "としてない",
-          "conjugatedExpression": "として",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
-      "sourceGrammarIds": [
-        "n2-090",
-        "n2-122",
-        "n2-123",
-        "n2-124"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-090-01",
-      "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlank": "火事で焼けてしまったので、私の子供のころの写真は1枚（　　　）残っていない。",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
-      "answerChoiceId": "fb-extra20-n2-090-01-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-090-01-d",
+          "id": "fb-created-n2-090-02-d",
           "text": "て以来",
           "grammarId": "n2-069",
           "baseExpression": "て以来",
@@ -553,7 +336,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-090-01-a",
+          "id": "fb-created-n2-090-02-a",
           "text": "てこそ",
           "grammarId": "n2-070",
           "baseExpression": "てこそ",
@@ -561,7 +344,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-090-01-b",
+          "id": "fb-created-n2-090-02-b",
           "text": "てたまらない",
           "grammarId": "n2-071",
           "baseExpression": "てたまらない",
@@ -569,7 +352,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-090-01-c",
+          "id": "fb-created-n2-090-02-c",
           "text": "として",
           "grammarId": "n2-090",
           "baseExpression": "としてない",
@@ -577,7 +360,7 @@
           "isSimilarDistractor": false
         }
       ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '엄격한 검사를 마친 제품에서는 결함이 단 하나도 발견되지 않았다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
       "sourceGrammarIds": [
         "n2-090",
         "n2-069",
@@ -585,253 +368,20 @@
         "n2-071"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-090-02",
+      "id": "fb-created-n2-090-03",
       "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlank": "火事で焼けてしまったので、私の子供のころの写真は1枚（　　　）残っていない。",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
-      "answerChoiceId": "fb-extra20-n2-090-02-b",
+      "sentence": "台風が通過した翌朝、港には漁船が1隻として戻っていなかった。",
+      "sentenceWithBlank": "台風が通過した翌朝、港には漁船が1隻（　　　）戻っていなかった。",
+      "korean": "태풍이 지나간 다음 날 아침, 항구에는 어선이 한 척도 돌아와 있지 않았다.",
+      "answerChoiceId": "fb-created-n2-090-03-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-090-02-c",
-          "text": "がだけに",
-          "grammarId": "n2-018",
-          "baseExpression": "がだけに",
-          "conjugatedExpression": "がだけに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-090-02-d",
-          "text": "がち",
-          "grammarId": "n2-019",
-          "baseExpression": "がち",
-          "conjugatedExpression": "がち",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-090-02-a",
-          "text": "かと思うと",
-          "grammarId": "n2-020",
-          "baseExpression": "かと思うと",
-          "conjugatedExpression": "かと思うと",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-090-02-b",
-          "text": "として",
-          "grammarId": "n2-090",
-          "baseExpression": "としてない",
-          "conjugatedExpression": "として",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
-      "sourceGrammarIds": [
-        "n2-090",
-        "n2-018",
-        "n2-019",
-        "n2-020"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-090-03",
-      "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlank": "火事で焼けてしまったので、私の子供のころの写真は1枚（　　　）残っていない。",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
-      "answerChoiceId": "fb-extra20-n2-090-03-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-090-03-b",
-          "text": "ものだ",
-          "grammarId": "n2-156",
-          "baseExpression": "ものだ",
-          "conjugatedExpression": "ものだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-090-03-c",
-          "text": "ものだ",
-          "grammarId": "n2-157",
-          "baseExpression": "ものだ",
-          "conjugatedExpression": "ものだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-090-03-d",
-          "text": "ものだ",
-          "grammarId": "n2-158",
-          "baseExpression": "ものだ/ものではない",
-          "conjugatedExpression": "ものだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-090-03-a",
-          "text": "として",
-          "grammarId": "n2-090",
-          "baseExpression": "としてない",
-          "conjugatedExpression": "として",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
-      "sourceGrammarIds": [
-        "n2-090",
-        "n2-156",
-        "n2-157",
-        "n2-158"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-090-04",
-      "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlank": "火事で焼けてしまったので、私の子供のころの写真は1枚（　　　）残っていない。",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
-      "answerChoiceId": "fb-extra20-n2-090-04-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-090-04-a",
-          "text": "べきだ",
-          "grammarId": "n2-145",
-          "baseExpression": "べきだ",
-          "conjugatedExpression": "べきだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-090-04-b",
-          "text": "まい",
-          "grammarId": "n2-146",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-090-04-c",
-          "text": "まい",
-          "grammarId": "n2-147",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-090-04-d",
-          "text": "として",
-          "grammarId": "n2-090",
-          "baseExpression": "としてない",
-          "conjugatedExpression": "として",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
-      "sourceGrammarIds": [
-        "n2-090",
-        "n2-145",
-        "n2-146",
-        "n2-147"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-090-05",
-      "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlank": "火事で焼けてしまったので、私の子供のころの写真は1枚（　　　）残っていない。",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
-      "answerChoiceId": "fb-extra20-n2-090-05-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-090-05-d",
-          "text": "にしろにしろ",
-          "grammarId": "n2-122",
-          "baseExpression": "にしろにしろ",
-          "conjugatedExpression": "にしろにしろ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-090-05-a",
-          "text": "にすぎない",
-          "grammarId": "n2-123",
-          "baseExpression": "にすぎない",
-          "conjugatedExpression": "にすぎない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-090-05-b",
-          "text": "に相違ない",
-          "grammarId": "n2-124",
-          "baseExpression": "に相違ない",
-          "conjugatedExpression": "に相違ない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-090-05-c",
-          "text": "として",
-          "grammarId": "n2-090",
-          "baseExpression": "としてない",
-          "conjugatedExpression": "として",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
-      "sourceGrammarIds": [
-        "n2-090",
-        "n2-122",
-        "n2-123",
-        "n2-124"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-090-06",
-      "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlank": "火事で焼けてしまったので、私の子供のころの写真は1枚（　　　）残っていない。",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
-      "answerChoiceId": "fb-extra20-n2-090-06-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-090-06-c",
-          "text": "として",
-          "grammarId": "n2-090",
-          "baseExpression": "としてない",
-          "conjugatedExpression": "として",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-090-06-d",
-          "text": "て以来",
-          "grammarId": "n2-069",
-          "baseExpression": "て以来",
-          "conjugatedExpression": "て以来",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-090-06-a",
+          "id": "fb-created-n2-090-03-a",
           "text": "てこそ",
           "grammarId": "n2-070",
           "baseExpression": "てこそ",
@@ -839,253 +389,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-090-06-b",
-          "text": "てたまらない",
-          "grammarId": "n2-071",
-          "baseExpression": "てたまらない",
-          "conjugatedExpression": "てたまらない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
-      "sourceGrammarIds": [
-        "n2-090",
-        "n2-069",
-        "n2-070",
-        "n2-071"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-090-07",
-      "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlank": "火事で焼けてしまったので、私の子供のころの写真は1枚（　　　）残っていない。",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
-      "answerChoiceId": "fb-extra20-n2-090-07-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-090-07-b",
-          "text": "として",
-          "grammarId": "n2-090",
-          "baseExpression": "としてない",
-          "conjugatedExpression": "として",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-090-07-c",
-          "text": "がだけに",
-          "grammarId": "n2-018",
-          "baseExpression": "がだけに",
-          "conjugatedExpression": "がだけに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-090-07-d",
-          "text": "がち",
-          "grammarId": "n2-019",
-          "baseExpression": "がち",
-          "conjugatedExpression": "がち",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-090-07-a",
-          "text": "かと思うと",
-          "grammarId": "n2-020",
-          "baseExpression": "かと思うと",
-          "conjugatedExpression": "かと思うと",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
-      "sourceGrammarIds": [
-        "n2-090",
-        "n2-018",
-        "n2-019",
-        "n2-020"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-090-08",
-      "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlank": "火事で焼けてしまったので、私の子供のころの写真は1枚（　　　）残っていない。",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
-      "answerChoiceId": "fb-extra20-n2-090-08-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-090-08-a",
-          "text": "として",
-          "grammarId": "n2-090",
-          "baseExpression": "としてない",
-          "conjugatedExpression": "として",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-090-08-b",
-          "text": "ものだ",
-          "grammarId": "n2-156",
-          "baseExpression": "ものだ",
-          "conjugatedExpression": "ものだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-090-08-c",
-          "text": "ものだ",
-          "grammarId": "n2-157",
-          "baseExpression": "ものだ",
-          "conjugatedExpression": "ものだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-090-08-d",
-          "text": "ものだ",
-          "grammarId": "n2-158",
-          "baseExpression": "ものだ/ものではない",
-          "conjugatedExpression": "ものだ",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
-      "sourceGrammarIds": [
-        "n2-090",
-        "n2-156",
-        "n2-157",
-        "n2-158"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-090-09",
-      "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlank": "火事で焼けてしまったので、私の子供のころの写真は1枚（　　　）残っていない。",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
-      "answerChoiceId": "fb-extra20-n2-090-09-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-090-09-d",
-          "text": "として",
-          "grammarId": "n2-090",
-          "baseExpression": "としてない",
-          "conjugatedExpression": "として",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-090-09-a",
-          "text": "べきだ",
-          "grammarId": "n2-145",
-          "baseExpression": "べきだ",
-          "conjugatedExpression": "べきだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-090-09-b",
-          "text": "まい",
-          "grammarId": "n2-146",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-090-09-c",
-          "text": "まい",
-          "grammarId": "n2-147",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
-      "sourceGrammarIds": [
-        "n2-090",
-        "n2-145",
-        "n2-146",
-        "n2-147"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-090-10",
-      "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlank": "火事で焼けてしまったので、私の子供のころの写真は1枚（　　　）残っていない。",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
-      "answerChoiceId": "fb-extra20-n2-090-10-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-090-10-c",
-          "text": "として",
-          "grammarId": "n2-090",
-          "baseExpression": "としてない",
-          "conjugatedExpression": "として",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-090-10-d",
-          "text": "にしろにしろ",
-          "grammarId": "n2-122",
-          "baseExpression": "にしろにしろ",
-          "conjugatedExpression": "にしろにしろ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-090-10-a",
-          "text": "にすぎない",
-          "grammarId": "n2-123",
-          "baseExpression": "にすぎない",
-          "conjugatedExpression": "にすぎない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-090-10-b",
-          "text": "に相違ない",
-          "grammarId": "n2-124",
-          "baseExpression": "に相違ない",
-          "conjugatedExpression": "に相違ない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
-      "sourceGrammarIds": [
-        "n2-090",
-        "n2-122",
-        "n2-123",
-        "n2-124"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-090-11",
-      "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlank": "火事で焼けてしまったので、私の子供のころの写真は1枚（　　　）残っていない。",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
-      "answerChoiceId": "fb-extra20-n2-090-11-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-090-11-b",
+          "id": "fb-created-n2-090-03-b",
           "text": "てたまらない",
           "grammarId": "n2-071",
           "baseExpression": "てたまらない",
@@ -1093,7 +397,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-090-11-c",
+          "id": "fb-created-n2-090-03-c",
           "text": "として",
           "grammarId": "n2-090",
           "baseExpression": "としてない",
@@ -1101,285 +405,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-090-11-d",
-          "text": "て以来",
-          "grammarId": "n2-069",
-          "baseExpression": "て以来",
-          "conjugatedExpression": "て以来",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-090-11-a",
-          "text": "てこそ",
-          "grammarId": "n2-070",
-          "baseExpression": "てこそ",
-          "conjugatedExpression": "てこそ",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
-      "sourceGrammarIds": [
-        "n2-090",
-        "n2-069",
-        "n2-070",
-        "n2-071"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-090-12",
-      "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlank": "火事で焼けてしまったので、私の子供のころの写真は1枚（　　　）残っていない。",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
-      "answerChoiceId": "fb-extra20-n2-090-12-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-090-12-a",
-          "text": "かと思うと",
-          "grammarId": "n2-020",
-          "baseExpression": "かと思うと",
-          "conjugatedExpression": "かと思うと",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-090-12-b",
-          "text": "として",
-          "grammarId": "n2-090",
-          "baseExpression": "としてない",
-          "conjugatedExpression": "として",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-090-12-c",
-          "text": "がだけに",
-          "grammarId": "n2-018",
-          "baseExpression": "がだけに",
-          "conjugatedExpression": "がだけに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-090-12-d",
-          "text": "がち",
-          "grammarId": "n2-019",
-          "baseExpression": "がち",
-          "conjugatedExpression": "がち",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
-      "sourceGrammarIds": [
-        "n2-090",
-        "n2-018",
-        "n2-019",
-        "n2-020"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-090-13",
-      "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlank": "火事で焼けてしまったので、私の子供のころの写真は1枚（　　　）残っていない。",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
-      "answerChoiceId": "fb-extra20-n2-090-13-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-090-13-d",
-          "text": "ものだ",
-          "grammarId": "n2-158",
-          "baseExpression": "ものだ/ものではない",
-          "conjugatedExpression": "ものだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-090-13-a",
-          "text": "として",
-          "grammarId": "n2-090",
-          "baseExpression": "としてない",
-          "conjugatedExpression": "として",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-090-13-b",
-          "text": "ものだ",
-          "grammarId": "n2-156",
-          "baseExpression": "ものだ",
-          "conjugatedExpression": "ものだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-090-13-c",
-          "text": "ものだ",
-          "grammarId": "n2-157",
-          "baseExpression": "ものだ",
-          "conjugatedExpression": "ものだ",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
-      "sourceGrammarIds": [
-        "n2-090",
-        "n2-156",
-        "n2-157",
-        "n2-158"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-090-14",
-      "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlank": "火事で焼けてしまったので、私の子供のころの写真は1枚（　　　）残っていない。",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
-      "answerChoiceId": "fb-extra20-n2-090-14-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-090-14-c",
-          "text": "まい",
-          "grammarId": "n2-147",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-090-14-d",
-          "text": "として",
-          "grammarId": "n2-090",
-          "baseExpression": "としてない",
-          "conjugatedExpression": "として",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-090-14-a",
-          "text": "べきだ",
-          "grammarId": "n2-145",
-          "baseExpression": "べきだ",
-          "conjugatedExpression": "べきだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-090-14-b",
-          "text": "まい",
-          "grammarId": "n2-146",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
-      "sourceGrammarIds": [
-        "n2-090",
-        "n2-145",
-        "n2-146",
-        "n2-147"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-090-15",
-      "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlank": "火事で焼けてしまったので、私の子供のころの写真は1枚（　　　）残っていない。",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
-      "answerChoiceId": "fb-extra20-n2-090-15-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-090-15-b",
-          "text": "に相違ない",
-          "grammarId": "n2-124",
-          "baseExpression": "に相違ない",
-          "conjugatedExpression": "に相違ない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-090-15-c",
-          "text": "として",
-          "grammarId": "n2-090",
-          "baseExpression": "としてない",
-          "conjugatedExpression": "として",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-090-15-d",
-          "text": "にしろにしろ",
-          "grammarId": "n2-122",
-          "baseExpression": "にしろにしろ",
-          "conjugatedExpression": "にしろにしろ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-090-15-a",
-          "text": "にすぎない",
-          "grammarId": "n2-123",
-          "baseExpression": "にすぎない",
-          "conjugatedExpression": "にすぎない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
-      "sourceGrammarIds": [
-        "n2-090",
-        "n2-122",
-        "n2-123",
-        "n2-124"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-090-16",
-      "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlank": "火事で焼けてしまったので、私の子供のころの写真は1枚（　　　）残っていない。",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
-      "answerChoiceId": "fb-extra20-n2-090-16-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-090-16-a",
-          "text": "てこそ",
-          "grammarId": "n2-070",
-          "baseExpression": "てこそ",
-          "conjugatedExpression": "てこそ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-090-16-b",
-          "text": "てたまらない",
-          "grammarId": "n2-071",
-          "baseExpression": "てたまらない",
-          "conjugatedExpression": "てたまらない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-090-16-c",
-          "text": "として",
-          "grammarId": "n2-090",
-          "baseExpression": "としてない",
-          "conjugatedExpression": "として",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-090-16-d",
+          "id": "fb-created-n2-090-03-d",
           "text": "て以来",
           "grammarId": "n2-069",
           "baseExpression": "て以来",
@@ -1387,7 +413,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '태풍이 지나간 다음 날 아침, 항구에는 어선이 한 척도 돌아와 있지 않았다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
       "sourceGrammarIds": [
         "n2-090",
         "n2-069",
@@ -1395,37 +421,28 @@
         "n2-071"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-090-17",
+      "id": "fb-created-n2-090-04",
       "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlank": "火事で焼けてしまったので、私の子供のころの写真は1枚（　　　）残っていない。",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
-      "answerChoiceId": "fb-extra20-n2-090-17-b",
+      "sentence": "閉店間際の売り場には、限定ケーキが1個として残っていなかった。",
+      "sentenceWithBlank": "閉店間際の売り場には、限定ケーキが1個（　　　）残っていなかった。",
+      "korean": "폐점 직전 매장에는 한정 케이크가 하나도 남아 있지 않았다.",
+      "answerChoiceId": "fb-created-n2-090-04-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-090-17-d",
-          "text": "がち",
-          "grammarId": "n2-019",
-          "baseExpression": "がち",
-          "conjugatedExpression": "がち",
+          "id": "fb-created-n2-090-04-b",
+          "text": "てたまらない",
+          "grammarId": "n2-071",
+          "baseExpression": "てたまらない",
+          "conjugatedExpression": "てたまらない",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-090-17-a",
-          "text": "かと思うと",
-          "grammarId": "n2-020",
-          "baseExpression": "かと思うと",
-          "conjugatedExpression": "かと思うと",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-090-17-b",
+          "id": "fb-created-n2-090-04-c",
           "text": "として",
           "grammarId": "n2-090",
           "baseExpression": "としてない",
@@ -1433,53 +450,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-090-17-c",
-          "text": "がだけに",
-          "grammarId": "n2-018",
-          "baseExpression": "がだけに",
-          "conjugatedExpression": "がだけに",
+          "id": "fb-created-n2-090-04-d",
+          "text": "て以来",
+          "grammarId": "n2-069",
+          "baseExpression": "て以来",
+          "conjugatedExpression": "て以来",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-090-04-a",
+          "text": "てこそ",
+          "grammarId": "n2-070",
+          "baseExpression": "てこそ",
+          "conjugatedExpression": "てこそ",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '폐점 직전 매장에는 한정 케이크가 하나도 남아 있지 않았다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
       "sourceGrammarIds": [
         "n2-090",
-        "n2-018",
-        "n2-019",
-        "n2-020"
+        "n2-069",
+        "n2-070",
+        "n2-071"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-090-18",
+      "id": "fb-created-n2-090-05",
       "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlank": "火事で焼けてしまったので、私の子供のころの写真は1枚（　　　）残っていない。",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
-      "answerChoiceId": "fb-extra20-n2-090-18-a",
+      "sentence": "監査では、使途を証明できない領収書は1枚として認められなかった。",
+      "sentenceWithBlank": "監査では、使途を証明できない領収書は1枚（　　　）認められなかった。",
+      "korean": "감사에서는 용도를 증명할 수 없는 영수증은 단 한 장도 인정되지 않았다.",
+      "answerChoiceId": "fb-created-n2-090-05-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-090-18-c",
-          "text": "ものだ",
-          "grammarId": "n2-157",
-          "baseExpression": "ものだ",
-          "conjugatedExpression": "ものだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-090-18-d",
-          "text": "ものだ",
-          "grammarId": "n2-158",
-          "baseExpression": "ものだ/ものではない",
-          "conjugatedExpression": "ものだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-090-18-a",
+          "id": "fb-created-n2-090-05-c",
           "text": "として",
           "grammarId": "n2-090",
           "baseExpression": "としてない",
@@ -1487,53 +495,121 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-090-18-b",
-          "text": "ものだ",
-          "grammarId": "n2-156",
-          "baseExpression": "ものだ",
-          "conjugatedExpression": "ものだ",
+          "id": "fb-created-n2-090-05-d",
+          "text": "て以来",
+          "grammarId": "n2-069",
+          "baseExpression": "て以来",
+          "conjugatedExpression": "て以来",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-090-05-a",
+          "text": "てこそ",
+          "grammarId": "n2-070",
+          "baseExpression": "てこそ",
+          "conjugatedExpression": "てこそ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-090-05-b",
+          "text": "てたまらない",
+          "grammarId": "n2-071",
+          "baseExpression": "てたまらない",
+          "conjugatedExpression": "てたまらない",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '감사에서는 용도를 증명할 수 없는 영수증은 단 한 장도 인정되지 않았다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
       "sourceGrammarIds": [
         "n2-090",
-        "n2-156",
-        "n2-157",
-        "n2-158"
+        "n2-069",
+        "n2-070",
+        "n2-071"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-090-19",
+      "id": "fb-created-n2-090-06",
       "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlank": "火事で焼けてしまったので、私の子供のころの写真は1枚（　　　）残っていない。",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
-      "answerChoiceId": "fb-extra20-n2-090-19-d",
+      "sentence": "深夜の駅前には、客待ちのタクシーが1台として止まっていなかった。",
+      "sentenceWithBlank": "深夜の駅前には、客待ちのタクシーが1台（　　　）止まっていなかった。",
+      "korean": "심야의 역 앞에는 손님을 기다리는 택시가 한 대도 서 있지 않았다.",
+      "answerChoiceId": "fb-created-n2-090-06-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-090-19-b",
-          "text": "まい",
-          "grammarId": "n2-146",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
+          "id": "fb-created-n2-090-06-d",
+          "text": "て以来",
+          "grammarId": "n2-069",
+          "baseExpression": "て以来",
+          "conjugatedExpression": "て以来",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-090-19-c",
-          "text": "まい",
-          "grammarId": "n2-147",
-          "baseExpression": "まい",
-          "conjugatedExpression": "まい",
+          "id": "fb-created-n2-090-06-a",
+          "text": "てこそ",
+          "grammarId": "n2-070",
+          "baseExpression": "てこそ",
+          "conjugatedExpression": "てこそ",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-090-19-d",
+          "id": "fb-created-n2-090-06-b",
+          "text": "てたまらない",
+          "grammarId": "n2-071",
+          "baseExpression": "てたまらない",
+          "conjugatedExpression": "てたまらない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-090-06-c",
+          "text": "として",
+          "grammarId": "n2-090",
+          "baseExpression": "としてない",
+          "conjugatedExpression": "として",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '심야의 역 앞에는 손님을 기다리는 택시가 한 대도 서 있지 않았다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
+      "sourceGrammarIds": [
+        "n2-090",
+        "n2-069",
+        "n2-070",
+        "n2-071"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-090-07",
+      "level": "N2",
+      "sentence": "無人島を捜索したものの、人が暮らした跡は1か所として確認できなかった。",
+      "sentenceWithBlank": "無人島を捜索したものの、人が暮らした跡は1か所（　　　）確認できなかった。",
+      "korean": "무인도를 수색했지만 사람이 살았던 흔적은 단 한 곳도 확인할 수 없었다.",
+      "answerChoiceId": "fb-created-n2-090-07-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-090-07-a",
+          "text": "てこそ",
+          "grammarId": "n2-070",
+          "baseExpression": "てこそ",
+          "conjugatedExpression": "てこそ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-090-07-b",
+          "text": "てたまらない",
+          "grammarId": "n2-071",
+          "baseExpression": "てたまらない",
+          "conjugatedExpression": "てたまらない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-090-07-c",
           "text": "として",
           "grammarId": "n2-090",
           "baseExpression": "としてない",
@@ -1541,53 +617,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-090-19-a",
-          "text": "べきだ",
-          "grammarId": "n2-145",
-          "baseExpression": "べきだ",
-          "conjugatedExpression": "べきだ",
+          "id": "fb-created-n2-090-07-d",
+          "text": "て以来",
+          "grammarId": "n2-069",
+          "baseExpression": "て以来",
+          "conjugatedExpression": "て以来",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '무인도를 수색했지만 사람이 살았던 흔적은 단 한 곳도 확인할 수 없었다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
       "sourceGrammarIds": [
         "n2-090",
-        "n2-145",
-        "n2-146",
-        "n2-147"
+        "n2-069",
+        "n2-070",
+        "n2-071"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-090-20",
+      "id": "fb-created-n2-090-08",
       "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlank": "火事で焼けてしまったので、私の子供のころの写真は1枚（　　　）残っていない。",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
-      "answerChoiceId": "fb-extra20-n2-090-20-c",
+      "sentence": "昨夜の停電後、温室の暖房装置は1基として作動しなかった。",
+      "sentenceWithBlank": "昨夜の停電後、温室の暖房装置は1基（　　　）作動しなかった。",
+      "korean": "어젯밤 정전 후 온실의 난방 장치는 한 기도 작동하지 않았다.",
+      "answerChoiceId": "fb-created-n2-090-08-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-090-20-a",
-          "text": "にすぎない",
-          "grammarId": "n2-123",
-          "baseExpression": "にすぎない",
-          "conjugatedExpression": "にすぎない",
+          "id": "fb-created-n2-090-08-b",
+          "text": "てたまらない",
+          "grammarId": "n2-071",
+          "baseExpression": "てたまらない",
+          "conjugatedExpression": "てたまらない",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-090-20-b",
-          "text": "に相違ない",
-          "grammarId": "n2-124",
-          "baseExpression": "に相違ない",
-          "conjugatedExpression": "に相違ない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-090-20-c",
+          "id": "fb-created-n2-090-08-c",
           "text": "として",
           "grammarId": "n2-090",
           "baseExpression": "としてない",
@@ -1595,25 +662,933 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-090-20-d",
-          "text": "にしろにしろ",
-          "grammarId": "n2-122",
-          "baseExpression": "にしろにしろ",
-          "conjugatedExpression": "にしろにしろ",
+          "id": "fb-created-n2-090-08-d",
+          "text": "て以来",
+          "grammarId": "n2-069",
+          "baseExpression": "て以来",
+          "conjugatedExpression": "て以来",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-090-08-a",
+          "text": "てこそ",
+          "grammarId": "n2-070",
+          "baseExpression": "てこそ",
+          "conjugatedExpression": "てこそ",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '어젯밤 정전 후 온실의 난방 장치는 한 기도 작동하지 않았다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
       "sourceGrammarIds": [
         "n2-090",
-        "n2-122",
-        "n2-123",
-        "n2-124"
+        "n2-069",
+        "n2-070",
+        "n2-071"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-090-09",
+      "level": "N2",
+      "sentence": "長い干ばつのせいで、村の井戸には1滴として水が残っていない。",
+      "sentenceWithBlank": "長い干ばつのせいで、村の井戸には1滴（　　　）水が残っていない。",
+      "korean": "긴 가뭄 탓에 마을 우물에는 물이 한 방울도 남아 있지 않다.",
+      "answerChoiceId": "fb-created-n2-090-09-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-090-09-c",
+          "text": "として",
+          "grammarId": "n2-090",
+          "baseExpression": "としてない",
+          "conjugatedExpression": "として",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-090-09-d",
+          "text": "て以来",
+          "grammarId": "n2-069",
+          "baseExpression": "て以来",
+          "conjugatedExpression": "て以来",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-090-09-a",
+          "text": "てこそ",
+          "grammarId": "n2-070",
+          "baseExpression": "てこそ",
+          "conjugatedExpression": "てこそ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-090-09-b",
+          "text": "てたまらない",
+          "grammarId": "n2-071",
+          "baseExpression": "てたまらない",
+          "conjugatedExpression": "てたまらない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '긴 가뭄 탓에 마을 우물에는 물이 한 방울도 남아 있지 않다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
+      "sourceGrammarIds": [
+        "n2-090",
+        "n2-069",
+        "n2-070",
+        "n2-071"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-090-10",
+      "level": "N2",
+      "sentence": "強風の中で打ち上げた花火は、1発として予定の高さまで上がらなかった。",
+      "sentenceWithBlank": "強風の中で打ち上げた花火は、1発（　　　）予定の高さまで上がらなかった。",
+      "korean": "강풍 속에서 쏘아 올린 불꽃은 한 발도 예정된 높이까지 올라가지 못했다.",
+      "answerChoiceId": "fb-created-n2-090-10-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-090-10-d",
+          "text": "て以来",
+          "grammarId": "n2-069",
+          "baseExpression": "て以来",
+          "conjugatedExpression": "て以来",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-090-10-a",
+          "text": "てこそ",
+          "grammarId": "n2-070",
+          "baseExpression": "てこそ",
+          "conjugatedExpression": "てこそ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-090-10-b",
+          "text": "てたまらない",
+          "grammarId": "n2-071",
+          "baseExpression": "てたまらない",
+          "conjugatedExpression": "てたまらない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-090-10-c",
+          "text": "として",
+          "grammarId": "n2-090",
+          "baseExpression": "としてない",
+          "conjugatedExpression": "として",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '강풍 속에서 쏘아 올린 불꽃은 한 발도 예정된 높이까지 올라가지 못했다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
+      "sourceGrammarIds": [
+        "n2-090",
+        "n2-069",
+        "n2-070",
+        "n2-071"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-090-11",
+      "level": "N2",
+      "sentence": "経営再建案に対して、債権者からは1件として賛成の回答が寄せられなかった。",
+      "sentenceWithBlank": "経営再建案に対して、債権者からは1件（　　　）賛成の回答が寄せられなかった。",
+      "korean": "경영 재건안에 대해 채권자로부터 찬성한다는 답변이 단 한 건도 오지 않았다.",
+      "answerChoiceId": "fb-created-n2-090-11-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-090-11-a",
+          "text": "てこそ",
+          "grammarId": "n2-070",
+          "baseExpression": "てこそ",
+          "conjugatedExpression": "てこそ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-090-11-b",
+          "text": "てたまらない",
+          "grammarId": "n2-071",
+          "baseExpression": "てたまらない",
+          "conjugatedExpression": "てたまらない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-090-11-c",
+          "text": "として",
+          "grammarId": "n2-090",
+          "baseExpression": "としてない",
+          "conjugatedExpression": "として",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-090-11-d",
+          "text": "て以来",
+          "grammarId": "n2-069",
+          "baseExpression": "て以来",
+          "conjugatedExpression": "て以来",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '경영 재건안에 대해 채권자로부터 찬성한다는 답변이 단 한 건도 오지 않았다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
+      "sourceGrammarIds": [
+        "n2-090",
+        "n2-069",
+        "n2-070",
+        "n2-071"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-090-12",
+      "level": "N2",
+      "sentence": "雪崩の危険が高まり、山頂へ向かう登山者は1人としていなくなった。",
+      "sentenceWithBlank": "雪崩の危険が高まり、山頂へ向かう登山者は1人（　　　）いなくなった。",
+      "korean": "눈사태 위험이 커져 정상으로 향하는 등산객은 한 명도 없게 되었다.",
+      "answerChoiceId": "fb-created-n2-090-12-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-090-12-b",
+          "text": "てたまらない",
+          "grammarId": "n2-071",
+          "baseExpression": "てたまらない",
+          "conjugatedExpression": "てたまらない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-090-12-c",
+          "text": "として",
+          "grammarId": "n2-090",
+          "baseExpression": "としてない",
+          "conjugatedExpression": "として",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-090-12-d",
+          "text": "て以来",
+          "grammarId": "n2-069",
+          "baseExpression": "て以来",
+          "conjugatedExpression": "て以来",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-090-12-a",
+          "text": "てこそ",
+          "grammarId": "n2-070",
+          "baseExpression": "てこそ",
+          "conjugatedExpression": "てこそ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '눈사태 위험이 커져 정상으로 향하는 등산객은 한 명도 없게 되었다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
+      "sourceGrammarIds": [
+        "n2-090",
+        "n2-069",
+        "n2-070",
+        "n2-071"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-090-13",
+      "level": "N2",
+      "sentence": "保存状態が悪く、発掘された種は1粒として発芽しなかった。",
+      "sentenceWithBlank": "保存状態が悪く、発掘された種は1粒（　　　）発芽しなかった。",
+      "korean": "보존 상태가 나빠 발굴된 씨앗은 한 알도 발아하지 않았다.",
+      "answerChoiceId": "fb-created-n2-090-13-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-090-13-c",
+          "text": "として",
+          "grammarId": "n2-090",
+          "baseExpression": "としてない",
+          "conjugatedExpression": "として",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-090-13-d",
+          "text": "て以来",
+          "grammarId": "n2-069",
+          "baseExpression": "て以来",
+          "conjugatedExpression": "て以来",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-090-13-a",
+          "text": "てこそ",
+          "grammarId": "n2-070",
+          "baseExpression": "てこそ",
+          "conjugatedExpression": "てこそ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-090-13-b",
+          "text": "てたまらない",
+          "grammarId": "n2-071",
+          "baseExpression": "てたまらない",
+          "conjugatedExpression": "てたまらない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '보존 상태가 나빠 발굴된 씨앗은 한 알도 발아하지 않았다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
+      "sourceGrammarIds": [
+        "n2-090",
+        "n2-069",
+        "n2-070",
+        "n2-071"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-090-14",
+      "level": "N2",
+      "sentence": "容疑者が拭き取ったため、窓枠から指紋は1つとして採取されなかった。",
+      "sentenceWithBlank": "容疑者が拭き取ったため、窓枠から指紋は1つ（　　　）採取されなかった。",
+      "korean": "용의자가 닦아 냈기 때문에 창틀에서는 지문이 하나도 채취되지 않았다.",
+      "answerChoiceId": "fb-created-n2-090-14-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-090-14-d",
+          "text": "て以来",
+          "grammarId": "n2-069",
+          "baseExpression": "て以来",
+          "conjugatedExpression": "て以来",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-090-14-a",
+          "text": "てこそ",
+          "grammarId": "n2-070",
+          "baseExpression": "てこそ",
+          "conjugatedExpression": "てこそ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-090-14-b",
+          "text": "てたまらない",
+          "grammarId": "n2-071",
+          "baseExpression": "てたまらない",
+          "conjugatedExpression": "てたまらない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-090-14-c",
+          "text": "として",
+          "grammarId": "n2-090",
+          "baseExpression": "としてない",
+          "conjugatedExpression": "として",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '용의자가 닦아 냈기 때문에 창틀에서는 지문이 하나도 채취되지 않았다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
+      "sourceGrammarIds": [
+        "n2-090",
+        "n2-069",
+        "n2-070",
+        "n2-071"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-090-15",
+      "level": "N2",
+      "sentence": "値上げを発表した当日、定期契約は1口として申し込まれなかった。",
+      "sentenceWithBlank": "値上げを発表した当日、定期契約は1口（　　　）申し込まれなかった。",
+      "korean": "가격 인상을 발표한 당일에는 정기 계약이 단 한 건도 신청되지 않았다.",
+      "answerChoiceId": "fb-created-n2-090-15-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-090-15-a",
+          "text": "てこそ",
+          "grammarId": "n2-070",
+          "baseExpression": "てこそ",
+          "conjugatedExpression": "てこそ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-090-15-b",
+          "text": "てたまらない",
+          "grammarId": "n2-071",
+          "baseExpression": "てたまらない",
+          "conjugatedExpression": "てたまらない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-090-15-c",
+          "text": "として",
+          "grammarId": "n2-090",
+          "baseExpression": "としてない",
+          "conjugatedExpression": "として",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-090-15-d",
+          "text": "て以来",
+          "grammarId": "n2-069",
+          "baseExpression": "て以来",
+          "conjugatedExpression": "て以来",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '가격 인상을 발표한 당일에는 정기 계약이 단 한 건도 신청되지 않았다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
+      "sourceGrammarIds": [
+        "n2-090",
+        "n2-069",
+        "n2-070",
+        "n2-071"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-090-16",
+      "level": "N2",
+      "sentence": "洪水で橋が流され、救援物資を積んだ車両は1台として町に入れなかった。",
+      "sentenceWithBlank": "洪水で橋が流され、救援物資を積んだ車両は1台（　　　）町に入れなかった。",
+      "korean": "홍수로 다리가 떠내려가 구호 물자를 실은 차량은 한 대도 마을에 들어가지 못했다.",
+      "answerChoiceId": "fb-created-n2-090-16-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-090-16-b",
+          "text": "てたまらない",
+          "grammarId": "n2-071",
+          "baseExpression": "てたまらない",
+          "conjugatedExpression": "てたまらない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-090-16-c",
+          "text": "として",
+          "grammarId": "n2-090",
+          "baseExpression": "としてない",
+          "conjugatedExpression": "として",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-090-16-d",
+          "text": "て以来",
+          "grammarId": "n2-069",
+          "baseExpression": "て以来",
+          "conjugatedExpression": "て以来",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-090-16-a",
+          "text": "てこそ",
+          "grammarId": "n2-070",
+          "baseExpression": "てこそ",
+          "conjugatedExpression": "てこそ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '홍수로 다리가 떠내려가 구호 물자를 실은 차량은 한 대도 마을에 들어가지 못했다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
+      "sourceGrammarIds": [
+        "n2-090",
+        "n2-069",
+        "n2-070",
+        "n2-071"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-090-17",
+      "level": "N2",
+      "sentence": "遺族が倉庫を調べたが、本人の直筆原稿は1枚として見つからなかった。",
+      "sentenceWithBlank": "遺族が倉庫を調べたが、本人の直筆原稿は1枚（　　　）見つからなかった。",
+      "korean": "유족이 창고를 조사했지만 본인이 직접 쓴 원고는 한 장도 발견되지 않았다.",
+      "answerChoiceId": "fb-created-n2-090-17-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-090-17-c",
+          "text": "として",
+          "grammarId": "n2-090",
+          "baseExpression": "としてない",
+          "conjugatedExpression": "として",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-090-17-d",
+          "text": "て以来",
+          "grammarId": "n2-069",
+          "baseExpression": "て以来",
+          "conjugatedExpression": "て以来",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-090-17-a",
+          "text": "てこそ",
+          "grammarId": "n2-070",
+          "baseExpression": "てこそ",
+          "conjugatedExpression": "てこそ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-090-17-b",
+          "text": "てたまらない",
+          "grammarId": "n2-071",
+          "baseExpression": "てたまらない",
+          "conjugatedExpression": "てたまらない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '유족이 창고를 조사했지만 본인이 직접 쓴 원고는 한 장도 발견되지 않았다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
+      "sourceGrammarIds": [
+        "n2-090",
+        "n2-069",
+        "n2-070",
+        "n2-071"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-090-18",
+      "level": "N2",
+      "sentence": "土砂崩れの現場では、無傷の街灯が1本として立っていなかった。",
+      "sentenceWithBlank": "土砂崩れの現場では、無傷の街灯が1本（　　　）立っていなかった。",
+      "korean": "산사태 현장에는 멀쩡한 가로등이 한 개도 서 있지 않았다.",
+      "answerChoiceId": "fb-created-n2-090-18-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-090-18-d",
+          "text": "て以来",
+          "grammarId": "n2-069",
+          "baseExpression": "て以来",
+          "conjugatedExpression": "て以来",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-090-18-a",
+          "text": "てこそ",
+          "grammarId": "n2-070",
+          "baseExpression": "てこそ",
+          "conjugatedExpression": "てこそ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-090-18-b",
+          "text": "てたまらない",
+          "grammarId": "n2-071",
+          "baseExpression": "てたまらない",
+          "conjugatedExpression": "てたまらない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-090-18-c",
+          "text": "として",
+          "grammarId": "n2-090",
+          "baseExpression": "としてない",
+          "conjugatedExpression": "として",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '산사태 현장에는 멀쩡한 가로등이 한 개도 서 있지 않았다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
+      "sourceGrammarIds": [
+        "n2-090",
+        "n2-069",
+        "n2-070",
+        "n2-071"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-090-19",
+      "level": "N2",
+      "sentence": "通信障害が続き、海外支社からの報告は1通として届かなかった。",
+      "sentenceWithBlank": "通信障害が続き、海外支社からの報告は1通（　　　）届かなかった。",
+      "korean": "통신 장애가 계속되어 해외 지사에서 보낸 보고는 한 통도 도착하지 않았다.",
+      "answerChoiceId": "fb-created-n2-090-19-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-090-19-a",
+          "text": "てこそ",
+          "grammarId": "n2-070",
+          "baseExpression": "てこそ",
+          "conjugatedExpression": "てこそ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-090-19-b",
+          "text": "てたまらない",
+          "grammarId": "n2-071",
+          "baseExpression": "てたまらない",
+          "conjugatedExpression": "てたまらない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-090-19-c",
+          "text": "として",
+          "grammarId": "n2-090",
+          "baseExpression": "としてない",
+          "conjugatedExpression": "として",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-090-19-d",
+          "text": "て以来",
+          "grammarId": "n2-069",
+          "baseExpression": "て以来",
+          "conjugatedExpression": "て以来",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '통신 장애가 계속되어 해외 지사에서 보낸 보고는 한 통도 도착하지 않았다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
+      "sourceGrammarIds": [
+        "n2-090",
+        "n2-069",
+        "n2-070",
+        "n2-071"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-090-20",
+      "level": "N2",
+      "sentence": "薬品が混入した水槽では、魚が1匹として生き残らなかった。",
+      "sentenceWithBlank": "薬品が混入した水槽では、魚が1匹（　　　）生き残らなかった。",
+      "korean": "약품이 섞인 수조에서는 물고기가 한 마리도 살아남지 못했다.",
+      "answerChoiceId": "fb-created-n2-090-20-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-090-20-b",
+          "text": "てたまらない",
+          "grammarId": "n2-071",
+          "baseExpression": "てたまらない",
+          "conjugatedExpression": "てたまらない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-090-20-c",
+          "text": "として",
+          "grammarId": "n2-090",
+          "baseExpression": "としてない",
+          "conjugatedExpression": "として",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-090-20-d",
+          "text": "て以来",
+          "grammarId": "n2-069",
+          "baseExpression": "て以来",
+          "conjugatedExpression": "て以来",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-090-20-a",
+          "text": "てこそ",
+          "grammarId": "n2-070",
+          "baseExpression": "てこそ",
+          "conjugatedExpression": "てこそ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '약품이 섞인 수조에서는 물고기가 한 마리도 살아남지 못했다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
+      "sourceGrammarIds": [
+        "n2-090",
+        "n2-069",
+        "n2-070",
+        "n2-071"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-090-21",
+      "level": "N2",
+      "sentence": "濃霧の影響で、午前中の便は1便として離陸できなかった。",
+      "sentenceWithBlank": "濃霧の影響で、午前中の便は1便（　　　）離陸できなかった。",
+      "korean": "짙은 안개의 영향으로 오전 항공편은 단 한 편도 이륙하지 못했다.",
+      "answerChoiceId": "fb-created-n2-090-21-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-090-21-c",
+          "text": "として",
+          "grammarId": "n2-090",
+          "baseExpression": "としてない",
+          "conjugatedExpression": "として",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-090-21-d",
+          "text": "て以来",
+          "grammarId": "n2-069",
+          "baseExpression": "て以来",
+          "conjugatedExpression": "て以来",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-090-21-a",
+          "text": "てこそ",
+          "grammarId": "n2-070",
+          "baseExpression": "てこそ",
+          "conjugatedExpression": "てこそ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-090-21-b",
+          "text": "てたまらない",
+          "grammarId": "n2-071",
+          "baseExpression": "てたまらない",
+          "conjugatedExpression": "てたまらない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '짙은 안개의 영향으로 오전 항공편은 단 한 편도 이륙하지 못했다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
+      "sourceGrammarIds": [
+        "n2-090",
+        "n2-069",
+        "n2-070",
+        "n2-071"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-090-22",
+      "level": "N2",
+      "sentence": "買収後の人員整理で、創業時の役員は1名として会社に残らなかった。",
+      "sentenceWithBlank": "買収後の人員整理で、創業時の役員は1名（　　　）会社に残らなかった。",
+      "korean": "인수 후 인력 정리로 창업 당시 임원은 단 한 명도 회사에 남지 않았다.",
+      "answerChoiceId": "fb-created-n2-090-22-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-090-22-d",
+          "text": "て以来",
+          "grammarId": "n2-069",
+          "baseExpression": "て以来",
+          "conjugatedExpression": "て以来",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-090-22-a",
+          "text": "てこそ",
+          "grammarId": "n2-070",
+          "baseExpression": "てこそ",
+          "conjugatedExpression": "てこそ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-090-22-b",
+          "text": "てたまらない",
+          "grammarId": "n2-071",
+          "baseExpression": "てたまらない",
+          "conjugatedExpression": "てたまらない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-090-22-c",
+          "text": "として",
+          "grammarId": "n2-090",
+          "baseExpression": "としてない",
+          "conjugatedExpression": "として",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '인수 후 인력 정리로 창업 당시 임원은 단 한 명도 회사에 남지 않았다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
+      "sourceGrammarIds": [
+        "n2-090",
+        "n2-069",
+        "n2-070",
+        "n2-071"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-090-23",
+      "level": "N2",
+      "sentence": "落雷で設備が壊れ、農場の自動散水機は1台として使えなくなった。",
+      "sentenceWithBlank": "落雷で設備が壊れ、農場の自動散水機は1台（　　　）使えなくなった。",
+      "korean": "낙뢰로 설비가 고장 나 농장의 자동 살수기는 한 대도 사용할 수 없게 되었다.",
+      "answerChoiceId": "fb-created-n2-090-23-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-090-23-a",
+          "text": "てこそ",
+          "grammarId": "n2-070",
+          "baseExpression": "てこそ",
+          "conjugatedExpression": "てこそ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-090-23-b",
+          "text": "てたまらない",
+          "grammarId": "n2-071",
+          "baseExpression": "てたまらない",
+          "conjugatedExpression": "てたまらない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-090-23-c",
+          "text": "として",
+          "grammarId": "n2-090",
+          "baseExpression": "としてない",
+          "conjugatedExpression": "として",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-090-23-d",
+          "text": "て以来",
+          "grammarId": "n2-069",
+          "baseExpression": "て以来",
+          "conjugatedExpression": "て以来",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '낙뢰로 설비가 고장 나 농장의 자동 살수기는 한 대도 사용할 수 없게 되었다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
+      "sourceGrammarIds": [
+        "n2-090",
+        "n2-069",
+        "n2-070",
+        "n2-071"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-090-24",
+      "level": "N2",
+      "sentence": "偽造防止加工が施されており、複製した鍵は1本として錠前に合わなかった。",
+      "sentenceWithBlank": "偽造防止加工が施されており、複製した鍵は1本（　　　）錠前に合わなかった。",
+      "korean": "위조 방지 가공이 되어 있어 복제한 열쇠는 한 개도 자물쇠에 맞지 않았다.",
+      "answerChoiceId": "fb-created-n2-090-24-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-090-24-b",
+          "text": "てたまらない",
+          "grammarId": "n2-071",
+          "baseExpression": "てたまらない",
+          "conjugatedExpression": "てたまらない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-090-24-c",
+          "text": "として",
+          "grammarId": "n2-090",
+          "baseExpression": "としてない",
+          "conjugatedExpression": "として",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-090-24-d",
+          "text": "て以来",
+          "grammarId": "n2-069",
+          "baseExpression": "て以来",
+          "conjugatedExpression": "て以来",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-090-24-a",
+          "text": "てこそ",
+          "grammarId": "n2-070",
+          "baseExpression": "てこそ",
+          "conjugatedExpression": "てこそ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '위조 방지 가공이 되어 있어 복제한 열쇠는 한 개도 자물쇠에 맞지 않았다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
+      "sourceGrammarIds": [
+        "n2-090",
+        "n2-069",
+        "n2-070",
+        "n2-071"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-090-25",
+      "level": "N2",
+      "sentence": "噴火による規制区域には、営業中の宿泊施設が1軒として存在しない。",
+      "sentenceWithBlank": "噴火による規制区域には、営業中の宿泊施設が1軒（　　　）存在しない。",
+      "korean": "분화로 인한 통제 구역에는 영업 중인 숙박 시설이 한 곳도 존재하지 않는다.",
+      "answerChoiceId": "fb-created-n2-090-25-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-090-25-c",
+          "text": "として",
+          "grammarId": "n2-090",
+          "baseExpression": "としてない",
+          "conjugatedExpression": "として",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-090-25-d",
+          "text": "て以来",
+          "grammarId": "n2-069",
+          "baseExpression": "て以来",
+          "conjugatedExpression": "て以来",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-090-25-a",
+          "text": "てこそ",
+          "grammarId": "n2-070",
+          "baseExpression": "てこそ",
+          "conjugatedExpression": "てこそ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-090-25-b",
+          "text": "てたまらない",
+          "grammarId": "n2-071",
+          "baseExpression": "てたまらない",
+          "conjugatedExpression": "てたまらない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '분화로 인한 통제 구역에는 영업 중인 숙박 시설이 한 곳도 존재하지 않는다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
+      "sourceGrammarIds": [
+        "n2-090",
+        "n2-069",
+        "n2-070",
+        "n2-071"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
       ]
     }
   ],
@@ -1834,1103 +1809,1153 @@
       ]
     },
     {
-      "id": "so-extra-n2-090-1",
+      "id": "so-created-n2-090-01",
       "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlanks": "火事で焼けてしまったので、私の子供のころの写真は1枚 ____ ____ ____ ____",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
+      "sentence": "在庫を確認したが、予備の電池は1本として残っていなかった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 残っていなかった。",
+      "korean": "재고를 확인했지만 예비 건전지는 한 개도 남아 있지 않았다.",
       "pieces": [
         {
-          "id": "so-extra-n2-090-1-p1",
-          "text": "ない",
+          "id": "so-created-n2-090-01-p3",
+          "text": "予備の電池は",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-090-01-p4",
+          "text": "1本として",
           "order": 4
         },
         {
-          "id": "so-extra-n2-090-1-p2",
-          "text": "として",
+          "id": "so-created-n2-090-01-p1",
+          "text": "在庫を",
           "order": 1
         },
         {
-          "id": "so-extra-n2-090-1-p3",
-          "text": "残っ",
+          "id": "so-created-n2-090-01-p2",
+          "text": "確認したが、",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-090-1-p4",
-          "text": "てい",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-090-1-p2",
-        "so-extra-n2-090-1-p3",
-        "so-extra-n2-090-1-p4",
-        "so-extra-n2-090-1-p1"
+        "so-created-n2-090-01-p1",
+        "so-created-n2-090-01-p2",
+        "so-created-n2-090-01-p3",
+        "so-created-n2-090-01-p4"
       ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '재고를 확인했지만 예비 건전지는 한 개도 남아 있지 않았다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
       "sourceGrammarIds": [
-        "n2-090"
+        "n2-090",
+        "n2-069",
+        "n2-070",
+        "n2-071"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-090-2",
+      "id": "so-created-n2-090-02",
       "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlanks": "火事で焼けてしまったので、私の子供のころの写真は1枚 ____ ____ ____ ____",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
+      "sentence": "厳しい検査を終えた製品には、1点として欠陥が見つからなかった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 見つからなかった。",
+      "korean": "엄격한 검사를 마친 제품에서는 결함이 단 하나도 발견되지 않았다.",
       "pieces": [
         {
-          "id": "so-extra-n2-090-2-p2",
-          "text": "残っ",
+          "id": "so-created-n2-090-02-p2",
+          "text": "検査を終えた",
           "order": 2
         },
         {
-          "id": "so-extra-n2-090-2-p3",
-          "text": "てい",
+          "id": "so-created-n2-090-02-p3",
+          "text": "製品には、1",
           "order": 3
         },
         {
-          "id": "so-extra-n2-090-2-p4",
-          "text": "ない",
+          "id": "so-created-n2-090-02-p4",
+          "text": "点として欠陥が",
           "order": 4
         },
         {
-          "id": "so-extra-n2-090-2-p1",
-          "text": "として",
+          "id": "so-created-n2-090-02-p1",
+          "text": "厳しい",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-090-2-p1",
-        "so-extra-n2-090-2-p2",
-        "so-extra-n2-090-2-p3",
-        "so-extra-n2-090-2-p4"
+        "so-created-n2-090-02-p1",
+        "so-created-n2-090-02-p2",
+        "so-created-n2-090-02-p3",
+        "so-created-n2-090-02-p4"
       ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '엄격한 검사를 마친 제품에서는 결함이 단 하나도 발견되지 않았다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
       "sourceGrammarIds": [
-        "n2-090"
+        "n2-090",
+        "n2-069",
+        "n2-070",
+        "n2-071"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-090-3",
+      "id": "so-created-n2-090-03",
       "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 残っていない。",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
+      "sentence": "台風が通過した翌朝、港には漁船が1隻として戻っていなかった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 戻っていなかった。",
+      "korean": "태풍이 지나간 다음 날 아침, 항구에는 어선이 한 척도 돌아와 있지 않았다.",
       "pieces": [
         {
-          "id": "so-extra-n2-090-3-p3",
-          "text": "てい",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-090-3-p4",
-          "text": "しまったので私の子供のころの写真は1枚",
+          "id": "so-created-n2-090-03-p1",
+          "text": "台風が通過した",
           "order": 1
         },
         {
-          "id": "so-extra-n2-090-3-p1",
-          "text": "として",
+          "id": "so-created-n2-090-03-p2",
+          "text": "翌朝、港には",
           "order": 2
         },
         {
-          "id": "so-extra-n2-090-3-p2",
-          "text": "残っ",
+          "id": "so-created-n2-090-03-p3",
+          "text": "漁船が1",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-090-03-p4",
+          "text": "隻として",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-090-3-p4",
-        "so-extra-n2-090-3-p1",
-        "so-extra-n2-090-3-p2",
-        "so-extra-n2-090-3-p3"
+        "so-created-n2-090-03-p1",
+        "so-created-n2-090-03-p2",
+        "so-created-n2-090-03-p3",
+        "so-created-n2-090-03-p4"
       ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '태풍이 지나간 다음 날 아침, 항구에는 어선이 한 척도 돌아와 있지 않았다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
       "sourceGrammarIds": [
-        "n2-090"
+        "n2-090",
+        "n2-069",
+        "n2-070",
+        "n2-071"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-090-4",
+      "id": "so-created-n2-090-04",
       "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlanks": "火事で焼けてしまったので、私の子供のころの写真は1枚 ____ ____ ____ ____",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
+      "sentence": "閉店間際の売り場には、限定ケーキが1個として残っていなかった。",
+      "sentenceWithBlanks": "閉店 ____ ____ ____ ____ 残っていなかった。",
+      "korean": "폐점 직전 매장에는 한정 케이크가 하나도 남아 있지 않았다.",
       "pieces": [
         {
-          "id": "so-extra-n2-090-4-p4",
-          "text": "残っ",
-          "order": 2
-        },
-        {
-          "id": "so-extra-n2-090-4-p1",
-          "text": "てい",
-          "order": 3
-        },
-        {
-          "id": "so-extra-n2-090-4-p2",
-          "text": "ない",
+          "id": "so-created-n2-090-04-p4",
+          "text": "1個として",
           "order": 4
         },
         {
-          "id": "so-extra-n2-090-4-p3",
-          "text": "として",
+          "id": "so-created-n2-090-04-p1",
+          "text": "間際の",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-090-04-p2",
+          "text": "売り場には、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-090-04-p3",
+          "text": "限定ケーキが",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-090-4-p3",
-        "so-extra-n2-090-4-p4",
-        "so-extra-n2-090-4-p1",
-        "so-extra-n2-090-4-p2"
+        "so-created-n2-090-04-p1",
+        "so-created-n2-090-04-p2",
+        "so-created-n2-090-04-p3",
+        "so-created-n2-090-04-p4"
       ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '폐점 직전 매장에는 한정 케이크가 하나도 남아 있지 않았다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
       "sourceGrammarIds": [
-        "n2-090"
+        "n2-090",
+        "n2-069",
+        "n2-070",
+        "n2-071"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-090-5",
+      "id": "so-created-n2-090-05",
       "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlanks": "火事で焼けてしまったので、私の子供のころの写真は1枚 ____ ____ ____ ____",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
+      "sentence": "監査では、使途を証明できない領収書は1枚として認められなかった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 認められなかった。",
+      "korean": "감사에서는 용도를 증명할 수 없는 영수증은 단 한 장도 인정되지 않았다.",
       "pieces": [
         {
-          "id": "so-extra-n2-090-5-p1",
-          "text": "ない",
+          "id": "so-created-n2-090-05-p3",
+          "text": "領収書は",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-090-05-p4",
+          "text": "1枚として",
           "order": 4
         },
         {
-          "id": "so-extra-n2-090-5-p2",
-          "text": "として",
+          "id": "so-created-n2-090-05-p1",
+          "text": "監査では、使途を",
           "order": 1
         },
         {
-          "id": "so-extra-n2-090-5-p3",
-          "text": "残っ",
+          "id": "so-created-n2-090-05-p2",
+          "text": "証明できない",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-090-5-p4",
-          "text": "てい",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-090-5-p2",
-        "so-extra-n2-090-5-p3",
-        "so-extra-n2-090-5-p4",
-        "so-extra-n2-090-5-p1"
+        "so-created-n2-090-05-p1",
+        "so-created-n2-090-05-p2",
+        "so-created-n2-090-05-p3",
+        "so-created-n2-090-05-p4"
       ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '감사에서는 용도를 증명할 수 없는 영수증은 단 한 장도 인정되지 않았다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
       "sourceGrammarIds": [
-        "n2-090"
+        "n2-090",
+        "n2-069",
+        "n2-070",
+        "n2-071"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-090-01",
+      "id": "so-created-n2-090-06",
       "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlanks": "火事で焼けてしまったので、私の子供のころの写真は1枚 ____ ____ ____ ____",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
+      "sentence": "深夜の駅前には、客待ちのタクシーが1台として止まっていなかった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 止まっていなかった。",
+      "korean": "심야의 역 앞에는 손님을 기다리는 택시가 한 대도 서 있지 않았다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-090-01-p1",
-          "text": "ない",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-090-01-p2",
-          "text": "として",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-090-01-p3",
-          "text": "残っ",
+          "id": "so-created-n2-090-06-p2",
+          "text": "客待ちの",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-090-01-p4",
-          "text": "てい",
+          "id": "so-created-n2-090-06-p3",
+          "text": "タクシーが",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-090-06-p4",
+          "text": "1台として",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-090-06-p1",
+          "text": "深夜の駅前には、",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-090-01-p2",
-        "so-extra20-n2-090-01-p3",
-        "so-extra20-n2-090-01-p4",
-        "so-extra20-n2-090-01-p1"
+        "so-created-n2-090-06-p1",
+        "so-created-n2-090-06-p2",
+        "so-created-n2-090-06-p3",
+        "so-created-n2-090-06-p4"
       ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '심야의 역 앞에는 손님을 기다리는 택시가 한 대도 서 있지 않았다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
       "sourceGrammarIds": [
-        "n2-090"
+        "n2-090",
+        "n2-069",
+        "n2-070",
+        "n2-071"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-090-02",
+      "id": "so-created-n2-090-07",
       "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlanks": "火事で焼けてしまったので、私の子供のころの写真は1枚 ____ ____ ____ ____",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
+      "sentence": "無人島を捜索したものの、人が暮らした跡は1か所として確認できなかった。",
+      "sentenceWithBlanks": "無人島を ____ ____ ____ ____ 確認できなかった。",
+      "korean": "무인도를 수색했지만 사람이 살았던 흔적은 단 한 곳도 확인할 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-090-02-p4",
-          "text": "ない",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-090-02-p1",
-          "text": "として",
+          "id": "so-created-n2-090-07-p1",
+          "text": "捜索したものの、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-090-02-p2",
-          "text": "残っ",
+          "id": "so-created-n2-090-07-p2",
+          "text": "人が暮らした",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-090-02-p3",
-          "text": "てい",
+          "id": "so-created-n2-090-07-p3",
+          "text": "跡は1か",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-090-07-p4",
+          "text": "所として",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-090-02-p1",
-        "so-extra20-n2-090-02-p2",
-        "so-extra20-n2-090-02-p3",
-        "so-extra20-n2-090-02-p4"
+        "so-created-n2-090-07-p1",
+        "so-created-n2-090-07-p2",
+        "so-created-n2-090-07-p3",
+        "so-created-n2-090-07-p4"
       ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '무인도를 수색했지만 사람이 살았던 흔적은 단 한 곳도 확인할 수 없었다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
       "sourceGrammarIds": [
-        "n2-090"
+        "n2-090",
+        "n2-069",
+        "n2-070",
+        "n2-071"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-090-03",
+      "id": "so-created-n2-090-08",
       "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 残っていない。",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
+      "sentence": "昨夜の停電後、温室の暖房装置は1基として作動しなかった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 作動しなかった。",
+      "korean": "어젯밤 정전 후 온실의 난방 장치는 한 기도 작동하지 않았다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-090-03-p3",
-          "text": "てい",
+          "id": "so-created-n2-090-08-p4",
+          "text": "1基として",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-090-03-p4",
-          "text": "しまったので私の子供のころの写真は1枚",
+          "id": "so-created-n2-090-08-p1",
+          "text": "昨夜の停電",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-090-03-p1",
-          "text": "として",
+          "id": "so-created-n2-090-08-p2",
+          "text": "後、温室の",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-090-03-p2",
-          "text": "残っ",
+          "id": "so-created-n2-090-08-p3",
+          "text": "暖房装置は",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-090-03-p4",
-        "so-extra20-n2-090-03-p1",
-        "so-extra20-n2-090-03-p2",
-        "so-extra20-n2-090-03-p3"
+        "so-created-n2-090-08-p1",
+        "so-created-n2-090-08-p2",
+        "so-created-n2-090-08-p3",
+        "so-created-n2-090-08-p4"
       ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '어젯밤 정전 후 온실의 난방 장치는 한 기도 작동하지 않았다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
       "sourceGrammarIds": [
-        "n2-090"
+        "n2-090",
+        "n2-069",
+        "n2-070",
+        "n2-071"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-090-04",
+      "id": "so-created-n2-090-09",
       "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlanks": "火事で焼けてしまったので、私の子供のころの写真は1枚 ____ ____ ____ ____",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
+      "sentence": "長い干ばつのせいで、村の井戸には1滴として水が残っていない。",
+      "sentenceWithBlanks": "長い干ばつのせいで、 ____ ____ ____ ____",
+      "korean": "긴 가뭄 탓에 마을 우물에는 물이 한 방울도 남아 있지 않다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-090-04-p2",
-          "text": "ない",
+          "id": "so-created-n2-090-09-p3",
+          "text": "滴として水が",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-090-09-p4",
+          "text": "残っていない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-090-04-p3",
-          "text": "として",
+          "id": "so-created-n2-090-09-p1",
+          "text": "村の",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-090-04-p4",
-          "text": "残っ",
+          "id": "so-created-n2-090-09-p2",
+          "text": "井戸には1",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-090-04-p1",
-          "text": "てい",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-090-04-p3",
-        "so-extra20-n2-090-04-p4",
-        "so-extra20-n2-090-04-p1",
-        "so-extra20-n2-090-04-p2"
+        "so-created-n2-090-09-p1",
+        "so-created-n2-090-09-p2",
+        "so-created-n2-090-09-p3",
+        "so-created-n2-090-09-p4"
       ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '긴 가뭄 탓에 마을 우물에는 물이 한 방울도 남아 있지 않다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
       "sourceGrammarIds": [
-        "n2-090"
+        "n2-090",
+        "n2-069",
+        "n2-070",
+        "n2-071"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-090-05",
+      "id": "so-created-n2-090-10",
       "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlanks": "火事で焼けてしまったので、私の子供のころの写真は1枚 ____ ____ ____ ____",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
+      "sentence": "強風の中で打ち上げた花火は、1発として予定の高さまで上がらなかった。",
+      "sentenceWithBlanks": "強風の中で ____ ____ ____ ____ 上がらなかった。",
+      "korean": "강풍 속에서 쏘아 올린 불꽃은 한 발도 예정된 높이까지 올라가지 못했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-090-05-p1",
-          "text": "ない",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-090-05-p2",
-          "text": "として",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-090-05-p3",
-          "text": "残っ",
+          "id": "so-created-n2-090-10-p2",
+          "text": "花火は、1発",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-090-05-p4",
-          "text": "てい",
+          "id": "so-created-n2-090-10-p3",
+          "text": "として予定の",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-090-10-p4",
+          "text": "高さまで",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-090-10-p1",
+          "text": "打ち上げた",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-090-05-p2",
-        "so-extra20-n2-090-05-p3",
-        "so-extra20-n2-090-05-p4",
-        "so-extra20-n2-090-05-p1"
+        "so-created-n2-090-10-p1",
+        "so-created-n2-090-10-p2",
+        "so-created-n2-090-10-p3",
+        "so-created-n2-090-10-p4"
       ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '강풍 속에서 쏘아 올린 불꽃은 한 발도 예정된 높이까지 올라가지 못했다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
       "sourceGrammarIds": [
-        "n2-090"
+        "n2-090",
+        "n2-069",
+        "n2-070",
+        "n2-071"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-090-06",
+      "id": "so-created-n2-090-11",
       "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlanks": "火事で焼けてしまったので、私の子供のころの写真は1枚 ____ ____ ____ ____",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
+      "sentence": "経営再建案に対して、債権者からは1件として賛成の回答が寄せられなかった。",
+      "sentenceWithBlanks": "経営再建案 ____ ____ ____ ____ 寄せられなかった。",
+      "korean": "경영 재건안에 대해 채권자로부터 찬성한다는 답변이 단 한 건도 오지 않았다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-090-06-p4",
-          "text": "てい",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-090-06-p1",
-          "text": "ない",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-090-06-p2",
-          "text": "として",
+          "id": "so-created-n2-090-11-p1",
+          "text": "に対して、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-090-06-p3",
-          "text": "残っ",
+          "id": "so-created-n2-090-11-p2",
+          "text": "債権者からは",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-090-11-p3",
+          "text": "1件として",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-090-11-p4",
+          "text": "賛成の回答が",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-090-06-p2",
-        "so-extra20-n2-090-06-p3",
-        "so-extra20-n2-090-06-p4",
-        "so-extra20-n2-090-06-p1"
+        "so-created-n2-090-11-p1",
+        "so-created-n2-090-11-p2",
+        "so-created-n2-090-11-p3",
+        "so-created-n2-090-11-p4"
       ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '경영 재건안에 대해 채권자로부터 찬성한다는 답변이 단 한 건도 오지 않았다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
       "sourceGrammarIds": [
-        "n2-090"
+        "n2-090",
+        "n2-069",
+        "n2-070",
+        "n2-071"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-090-07",
+      "id": "so-created-n2-090-12",
       "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlanks": "火事で焼けてしまったので、私の子供のころの写真は1枚 ____ ____ ____ ____",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
+      "sentence": "雪崩の危険が高まり、山頂へ向かう登山者は1人としていなくなった。",
+      "sentenceWithBlanks": "雪崩の ____ ____ ____ ____ いなくなった。",
+      "korean": "눈사태 위험이 커져 정상으로 향하는 등산객은 한 명도 없게 되었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-090-07-p3",
-          "text": "てい",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-090-07-p4",
-          "text": "ない",
+          "id": "so-created-n2-090-12-p4",
+          "text": "1人として",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-090-07-p1",
-          "text": "として",
+          "id": "so-created-n2-090-12-p1",
+          "text": "危険が高まり、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-090-07-p2",
-          "text": "残っ",
+          "id": "so-created-n2-090-12-p2",
+          "text": "山頂へ向かう",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-090-12-p3",
+          "text": "登山者は",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-090-07-p1",
-        "so-extra20-n2-090-07-p2",
-        "so-extra20-n2-090-07-p3",
-        "so-extra20-n2-090-07-p4"
+        "so-created-n2-090-12-p1",
+        "so-created-n2-090-12-p2",
+        "so-created-n2-090-12-p3",
+        "so-created-n2-090-12-p4"
       ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '눈사태 위험이 커져 정상으로 향하는 등산객은 한 명도 없게 되었다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
       "sourceGrammarIds": [
-        "n2-090"
+        "n2-090",
+        "n2-069",
+        "n2-070",
+        "n2-071"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-090-08",
+      "id": "so-created-n2-090-13",
       "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 残っていない。",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
+      "sentence": "保存状態が悪く、発掘された種は1粒として発芽しなかった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 発芽しなかった。",
+      "korean": "보존 상태가 나빠 발굴된 씨앗은 한 알도 발아하지 않았다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-090-08-p2",
-          "text": "残っ",
+          "id": "so-created-n2-090-13-p3",
+          "text": "発掘された",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-090-08-p3",
-          "text": "てい",
+          "id": "so-created-n2-090-13-p4",
+          "text": "種は1粒として",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-090-08-p4",
-          "text": "しまったので私の子供のころの写真は1枚",
+          "id": "so-created-n2-090-13-p1",
+          "text": "保存状態が",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-090-08-p1",
-          "text": "として",
+          "id": "so-created-n2-090-13-p2",
+          "text": "悪く、",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-090-08-p4",
-        "so-extra20-n2-090-08-p1",
-        "so-extra20-n2-090-08-p2",
-        "so-extra20-n2-090-08-p3"
+        "so-created-n2-090-13-p1",
+        "so-created-n2-090-13-p2",
+        "so-created-n2-090-13-p3",
+        "so-created-n2-090-13-p4"
       ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '보존 상태가 나빠 발굴된 씨앗은 한 알도 발아하지 않았다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
       "sourceGrammarIds": [
-        "n2-090"
+        "n2-090",
+        "n2-069",
+        "n2-070",
+        "n2-071"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-090-09",
+      "id": "so-created-n2-090-14",
       "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlanks": "火事で焼けてしまったので、私の子供のころの写真は1枚 ____ ____ ____ ____",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
+      "sentence": "容疑者が拭き取ったため、窓枠から指紋は1つとして採取されなかった。",
+      "sentenceWithBlanks": "容疑者が ____ ____ ____ ____ 採取されなかった。",
+      "korean": "용의자가 닦아 냈기 때문에 창틀에서는 지문이 하나도 채취되지 않았다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-090-09-p1",
-          "text": "てい",
+          "id": "so-created-n2-090-14-p2",
+          "text": "取ったため、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-090-14-p3",
+          "text": "窓枠から指紋は",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-090-09-p2",
-          "text": "ない",
+          "id": "so-created-n2-090-14-p4",
+          "text": "1つとして",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-090-09-p3",
-          "text": "として",
+          "id": "so-created-n2-090-14-p1",
+          "text": "拭き",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-090-09-p4",
-          "text": "残っ",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-090-09-p3",
-        "so-extra20-n2-090-09-p4",
-        "so-extra20-n2-090-09-p1",
-        "so-extra20-n2-090-09-p2"
+        "so-created-n2-090-14-p1",
+        "so-created-n2-090-14-p2",
+        "so-created-n2-090-14-p3",
+        "so-created-n2-090-14-p4"
       ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '용의자가 닦아 냈기 때문에 창틀에서는 지문이 하나도 채취되지 않았다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
       "sourceGrammarIds": [
-        "n2-090"
+        "n2-090",
+        "n2-069",
+        "n2-070",
+        "n2-071"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-090-10",
+      "id": "so-created-n2-090-15",
       "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlanks": "火事で焼けてしまったので、私の子供のころの写真は1枚 ____ ____ ____ ____",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
+      "sentence": "値上げを発表した当日、定期契約は1口として申し込まれなかった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 込まれなかった。",
+      "korean": "가격 인상을 발표한 당일에는 정기 계약이 단 한 건도 신청되지 않았다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-090-10-p4",
-          "text": "てい",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-090-10-p1",
-          "text": "ない",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-090-10-p2",
-          "text": "として",
+          "id": "so-created-n2-090-15-p1",
+          "text": "値上げを",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-090-10-p3",
-          "text": "残っ",
+          "id": "so-created-n2-090-15-p2",
+          "text": "発表した当日、",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-090-15-p3",
+          "text": "定期契約は1",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-090-15-p4",
+          "text": "口として申し",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-090-10-p2",
-        "so-extra20-n2-090-10-p3",
-        "so-extra20-n2-090-10-p4",
-        "so-extra20-n2-090-10-p1"
+        "so-created-n2-090-15-p1",
+        "so-created-n2-090-15-p2",
+        "so-created-n2-090-15-p3",
+        "so-created-n2-090-15-p4"
       ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '가격 인상을 발표한 당일에는 정기 계약이 단 한 건도 신청되지 않았다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
       "sourceGrammarIds": [
-        "n2-090"
+        "n2-090",
+        "n2-069",
+        "n2-070",
+        "n2-071"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-090-11",
+      "id": "so-created-n2-090-16",
       "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlanks": "火事で焼けてしまったので、私の子供のころの写真は1枚 ____ ____ ____ ____",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
+      "sentence": "洪水で橋が流され、救援物資を積んだ車両は1台として町に入れなかった。",
+      "sentenceWithBlanks": "洪水で橋が ____ ____ ____ ____ 入れなかった。",
+      "korean": "홍수로 다리가 떠내려가 구호 물자를 실은 차량은 한 대도 마을에 들어가지 못했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-090-11-p3",
-          "text": "残っ",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-090-11-p4",
-          "text": "てい",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-090-11-p1",
-          "text": "ない",
+          "id": "so-created-n2-090-16-p4",
+          "text": "として町に",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-090-11-p2",
-          "text": "として",
+          "id": "so-created-n2-090-16-p1",
+          "text": "流され、救援",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-090-16-p2",
+          "text": "物資を積んだ",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-090-16-p3",
+          "text": "車両は1台",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-090-11-p2",
-        "so-extra20-n2-090-11-p3",
-        "so-extra20-n2-090-11-p4",
-        "so-extra20-n2-090-11-p1"
+        "so-created-n2-090-16-p1",
+        "so-created-n2-090-16-p2",
+        "so-created-n2-090-16-p3",
+        "so-created-n2-090-16-p4"
       ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '홍수로 다리가 떠내려가 구호 물자를 실은 차량은 한 대도 마을에 들어가지 못했다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
       "sourceGrammarIds": [
-        "n2-090"
+        "n2-090",
+        "n2-069",
+        "n2-070",
+        "n2-071"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-090-12",
+      "id": "so-created-n2-090-17",
       "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlanks": "火事で焼けてしまったので、私の子供のころの写真は1枚 ____ ____ ____ ____",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
+      "sentence": "遺族が倉庫を調べたが、本人の直筆原稿は1枚として見つからなかった。",
+      "sentenceWithBlanks": "遺族が ____ ____ ____ ____ 見つからなかった。",
+      "korean": "유족이 창고를 조사했지만 본인이 직접 쓴 원고는 한 장도 발견되지 않았다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-090-12-p2",
-          "text": "残っ",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-090-12-p3",
-          "text": "てい",
+          "id": "so-created-n2-090-17-p3",
+          "text": "原稿は1",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-090-12-p4",
-          "text": "ない",
+          "id": "so-created-n2-090-17-p4",
+          "text": "枚として",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-090-12-p1",
-          "text": "として",
+          "id": "so-created-n2-090-17-p1",
+          "text": "倉庫を調べたが、",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-090-17-p2",
+          "text": "本人の直筆",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-090-12-p1",
-        "so-extra20-n2-090-12-p2",
-        "so-extra20-n2-090-12-p3",
-        "so-extra20-n2-090-12-p4"
+        "so-created-n2-090-17-p1",
+        "so-created-n2-090-17-p2",
+        "so-created-n2-090-17-p3",
+        "so-created-n2-090-17-p4"
       ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '유족이 창고를 조사했지만 본인이 직접 쓴 원고는 한 장도 발견되지 않았다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
       "sourceGrammarIds": [
-        "n2-090"
+        "n2-090",
+        "n2-069",
+        "n2-070",
+        "n2-071"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-090-13",
+      "id": "so-created-n2-090-18",
       "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 残っていない。",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
+      "sentence": "土砂崩れの現場では、無傷の街灯が1本として立っていなかった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 立っていなかった。",
+      "korean": "산사태 현장에는 멀쩡한 가로등이 한 개도 서 있지 않았다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-090-13-p1",
-          "text": "として",
+          "id": "so-created-n2-090-18-p2",
+          "text": "現場では、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-090-13-p2",
-          "text": "残っ",
+          "id": "so-created-n2-090-18-p3",
+          "text": "無傷の街灯が",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-090-13-p3",
-          "text": "てい",
+          "id": "so-created-n2-090-18-p4",
+          "text": "1本として",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-090-13-p4",
-          "text": "しまったので私の子供のころの写真は1枚",
+          "id": "so-created-n2-090-18-p1",
+          "text": "土砂崩れの",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-090-13-p4",
-        "so-extra20-n2-090-13-p1",
-        "so-extra20-n2-090-13-p2",
-        "so-extra20-n2-090-13-p3"
+        "so-created-n2-090-18-p1",
+        "so-created-n2-090-18-p2",
+        "so-created-n2-090-18-p3",
+        "so-created-n2-090-18-p4"
       ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '산사태 현장에는 멀쩡한 가로등이 한 개도 서 있지 않았다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
       "sourceGrammarIds": [
-        "n2-090"
+        "n2-090",
+        "n2-069",
+        "n2-070",
+        "n2-071"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-090-14",
+      "id": "so-created-n2-090-19",
       "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlanks": "火事で焼けてしまったので、私の子供のころの写真は1枚 ____ ____ ____ ____",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
+      "sentence": "通信障害が続き、海外支社からの報告は1通として届かなかった。",
+      "sentenceWithBlanks": "通信 ____ ____ ____ ____ 届かなかった。",
+      "korean": "통신 장애가 계속되어 해외 지사에서 보낸 보고는 한 통도 도착하지 않았다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-090-14-p4",
-          "text": "残っ",
+          "id": "so-created-n2-090-19-p1",
+          "text": "障害が続き、",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-090-19-p2",
+          "text": "海外支社からの",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-090-14-p1",
-          "text": "てい",
+          "id": "so-created-n2-090-19-p3",
+          "text": "報告は1",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-090-14-p2",
-          "text": "ない",
+          "id": "so-created-n2-090-19-p4",
+          "text": "通として",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-090-14-p3",
-          "text": "として",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-090-14-p3",
-        "so-extra20-n2-090-14-p4",
-        "so-extra20-n2-090-14-p1",
-        "so-extra20-n2-090-14-p2"
+        "so-created-n2-090-19-p1",
+        "so-created-n2-090-19-p2",
+        "so-created-n2-090-19-p3",
+        "so-created-n2-090-19-p4"
       ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '통신 장애가 계속되어 해외 지사에서 보낸 보고는 한 통도 도착하지 않았다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
       "sourceGrammarIds": [
-        "n2-090"
+        "n2-090",
+        "n2-069",
+        "n2-070",
+        "n2-071"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-090-15",
+      "id": "so-created-n2-090-20",
       "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlanks": "火事で焼けてしまったので、私の子供のころの写真は1枚 ____ ____ ____ ____",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
+      "sentence": "薬品が混入した水槽では、魚が1匹として生き残らなかった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 残らなかった。",
+      "korean": "약품이 섞인 수조에서는 물고기가 한 마리도 살아남지 못했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-090-15-p3",
-          "text": "残っ",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-090-15-p4",
-          "text": "てい",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-090-15-p1",
-          "text": "ない",
+          "id": "so-created-n2-090-20-p4",
+          "text": "として生き",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-090-15-p2",
-          "text": "として",
+          "id": "so-created-n2-090-20-p1",
+          "text": "薬品が混入した",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-090-20-p2",
+          "text": "水槽では、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-090-20-p3",
+          "text": "魚が1匹",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-090-15-p2",
-        "so-extra20-n2-090-15-p3",
-        "so-extra20-n2-090-15-p4",
-        "so-extra20-n2-090-15-p1"
+        "so-created-n2-090-20-p1",
+        "so-created-n2-090-20-p2",
+        "so-created-n2-090-20-p3",
+        "so-created-n2-090-20-p4"
       ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '약품이 섞인 수조에서는 물고기가 한 마리도 살아남지 못했다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
       "sourceGrammarIds": [
-        "n2-090"
+        "n2-090",
+        "n2-069",
+        "n2-070",
+        "n2-071"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-090-16",
+      "id": "so-created-n2-090-21",
       "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlanks": "火事で焼けてしまったので、私の子供のころの写真は1枚 ____ ____ ____ ____",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
+      "sentence": "濃霧の影響で、午前中の便は1便として離陸できなかった。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "짙은 안개의 영향으로 오전 항공편은 단 한 편도 이륙하지 못했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-090-16-p2",
-          "text": "として",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-090-16-p3",
-          "text": "残っ",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-090-16-p4",
-          "text": "てい",
+          "id": "so-created-n2-090-21-p3",
+          "text": "1便として",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-090-16-p1",
-          "text": "ない",
+          "id": "so-created-n2-090-21-p4",
+          "text": "離陸できなかった。",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-090-21-p1",
+          "text": "濃霧の影響で、",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-090-21-p2",
+          "text": "午前中の便は",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-090-16-p2",
-        "so-extra20-n2-090-16-p3",
-        "so-extra20-n2-090-16-p4",
-        "so-extra20-n2-090-16-p1"
+        "so-created-n2-090-21-p1",
+        "so-created-n2-090-21-p2",
+        "so-created-n2-090-21-p3",
+        "so-created-n2-090-21-p4"
       ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '짙은 안개의 영향으로 오전 항공편은 단 한 편도 이륙하지 못했다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
       "sourceGrammarIds": [
-        "n2-090"
+        "n2-090",
+        "n2-069",
+        "n2-070",
+        "n2-071"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-090-17",
+      "id": "so-created-n2-090-22",
       "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlanks": "火事で焼けてしまったので、私の子供のころの写真は1枚 ____ ____ ____ ____",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
+      "sentence": "買収後の人員整理で、創業時の役員は1名として会社に残らなかった。",
+      "sentenceWithBlanks": "買収後の ____ ____ ____ ____ 残らなかった。",
+      "korean": "인수 후 인력 정리로 창업 당시 임원은 단 한 명도 회사에 남지 않았다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-090-17-p1",
-          "text": "として",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-090-17-p2",
-          "text": "残っ",
+          "id": "so-created-n2-090-22-p2",
+          "text": "創業時の",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-090-17-p3",
-          "text": "てい",
+          "id": "so-created-n2-090-22-p3",
+          "text": "役員は1名",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-090-17-p4",
-          "text": "ない",
+          "id": "so-created-n2-090-22-p4",
+          "text": "として会社に",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-090-22-p1",
+          "text": "人員整理で、",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-090-17-p1",
-        "so-extra20-n2-090-17-p2",
-        "so-extra20-n2-090-17-p3",
-        "so-extra20-n2-090-17-p4"
+        "so-created-n2-090-22-p1",
+        "so-created-n2-090-22-p2",
+        "so-created-n2-090-22-p3",
+        "so-created-n2-090-22-p4"
       ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '인수 후 인력 정리로 창업 당시 임원은 단 한 명도 회사에 남지 않았다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
       "sourceGrammarIds": [
-        "n2-090"
+        "n2-090",
+        "n2-069",
+        "n2-070",
+        "n2-071"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-090-18",
+      "id": "so-created-n2-090-23",
       "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 残っていない。",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
+      "sentence": "落雷で設備が壊れ、農場の自動散水機は1台として使えなくなった。",
+      "sentenceWithBlanks": "落雷で ____ ____ ____ ____ 使えなくなった。",
+      "korean": "낙뢰로 설비가 고장 나 농장의 자동 살수기는 한 대도 사용할 수 없게 되었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-090-18-p4",
-          "text": "しまったので私の子供のころの写真は1枚",
+          "id": "so-created-n2-090-23-p1",
+          "text": "設備が壊れ、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-090-18-p1",
-          "text": "として",
+          "id": "so-created-n2-090-23-p2",
+          "text": "農場の自動",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-090-18-p2",
-          "text": "残っ",
+          "id": "so-created-n2-090-23-p3",
+          "text": "散水機は",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-090-18-p3",
-          "text": "てい",
+          "id": "so-created-n2-090-23-p4",
+          "text": "1台として",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-090-18-p4",
-        "so-extra20-n2-090-18-p1",
-        "so-extra20-n2-090-18-p2",
-        "so-extra20-n2-090-18-p3"
+        "so-created-n2-090-23-p1",
+        "so-created-n2-090-23-p2",
+        "so-created-n2-090-23-p3",
+        "so-created-n2-090-23-p4"
       ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '낙뢰로 설비가 고장 나 농장의 자동 살수기는 한 대도 사용할 수 없게 되었다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
       "sourceGrammarIds": [
-        "n2-090"
+        "n2-090",
+        "n2-069",
+        "n2-070",
+        "n2-071"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-090-19",
+      "id": "so-created-n2-090-24",
       "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlanks": "火事で焼けてしまったので、私の子供のころの写真は1枚 ____ ____ ____ ____",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
+      "sentence": "偽造防止加工が施されており、複製した鍵は1本として錠前に合わなかった。",
+      "sentenceWithBlanks": "偽造防止加工が ____ ____ ____ ____ 合わなかった。",
+      "korean": "위조 방지 가공이 되어 있어 복제한 열쇠는 한 개도 자물쇠에 맞지 않았다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-090-19-p3",
-          "text": "として",
+          "id": "so-created-n2-090-24-p4",
+          "text": "として錠前に",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-090-24-p1",
+          "text": "施されており、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-090-19-p4",
-          "text": "残っ",
+          "id": "so-created-n2-090-24-p2",
+          "text": "複製した",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-090-19-p1",
-          "text": "てい",
+          "id": "so-created-n2-090-24-p3",
+          "text": "鍵は1本",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-090-19-p2",
-          "text": "ない",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-090-19-p3",
-        "so-extra20-n2-090-19-p4",
-        "so-extra20-n2-090-19-p1",
-        "so-extra20-n2-090-19-p2"
+        "so-created-n2-090-24-p1",
+        "so-created-n2-090-24-p2",
+        "so-created-n2-090-24-p3",
+        "so-created-n2-090-24-p4"
       ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '위조 방지 가공이 되어 있어 복제한 열쇠는 한 개도 자물쇠에 맞지 않았다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
       "sourceGrammarIds": [
-        "n2-090"
+        "n2-090",
+        "n2-069",
+        "n2-070",
+        "n2-071"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-090-20",
+      "id": "so-created-n2-090-25",
       "level": "N2",
-      "sentence": "火事で焼けてしまったので、私の子供のころの写真は1枚として残っていない。",
-      "sentenceWithBlanks": "火事で焼けてしまったので、私の子供のころの写真は1枚 ____ ____ ____ ____",
-      "korean": "화재로 타 버려서 내 어린 시절 사진은 한 장도 남아 있지 않다.",
+      "sentence": "噴火による規制区域には、営業中の宿泊施設が1軒として存在しない。",
+      "sentenceWithBlanks": "噴火による ____ ____ ____ ____ 存在しない。",
+      "korean": "분화로 인한 통제 구역에는 영업 중인 숙박 시설이 한 곳도 존재하지 않는다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-090-20-p2",
-          "text": "として",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-090-20-p3",
-          "text": "残っ",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-090-20-p4",
-          "text": "てい",
+          "id": "so-created-n2-090-25-p3",
+          "text": "宿泊施設が",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-090-20-p1",
-          "text": "ない",
+          "id": "so-created-n2-090-25-p4",
+          "text": "1軒として",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-090-25-p1",
+          "text": "規制区域には、",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-090-25-p2",
+          "text": "営業中の",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-090-20-p2",
-        "so-extra20-n2-090-20-p3",
-        "so-extra20-n2-090-20-p4",
-        "so-extra20-n2-090-20-p1"
+        "so-created-n2-090-25-p1",
+        "so-created-n2-090-25-p2",
+        "so-created-n2-090-25-p3",
+        "so-created-n2-090-25-p4"
       ],
-      "explanation": "「として~ない」는 ~도, ~조차도（완전 부정）라는 뜻이다. 완전 부정. 하나도 없음.",
+      "explanation": "「として」는 '~도, ~조차도（완전 부정）'라는 뜻을 나타낸다. 이 문장에서는 '분화로 인한 통제 구역에는 영업 중인 숙박 시설이 한 곳도 존재하지 않는다.'라는 상황에 쓰였으며, 완전 부정. 하나도 없음. 주의할 점은 수 표현과 조합. 「1枚として残っていない」처럼 완전 부정. 문어적·강조 표현.",
       "sourceGrammarIds": [
-        "n2-090"
+        "n2-090",
+        "n2-069",
+        "n2-070",
+        "n2-071"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     }
   ]

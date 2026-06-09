@@ -267,15 +267,23 @@
       ]
     },
     {
-      "id": "fb-extra-n2-099-1",
+      "id": "fb-created-n2-099-01",
       "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlank": "その話を聞いて、泣か（　　　）なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
-      "answerChoiceId": "fb-extra-n2-099-1-d",
+      "sentence": "迷子の犬が雨に震えているのを見て、家へ連れて帰らないではいられなかった。",
+      "sentenceWithBlank": "迷子の犬が雨に震えているのを見て、家へ連れて帰ら（　　　）なかった。",
+      "korean": "길 잃은 개가 비를 맞으며 떨고 있는 것을 보고 집으로 데려가지 않을 수 없었다.",
+      "answerChoiceId": "fb-created-n2-099-01-d",
       "choices": [
         {
-          "id": "fb-extra-n2-099-1-a",
+          "id": "fb-created-n2-099-01-d",
+          "text": "ないではいられ",
+          "grammarId": "n2-099",
+          "baseExpression": "ないではいられない",
+          "conjugatedExpression": "ないではいられ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-099-01-a",
           "text": "に沿って",
           "grammarId": "n2-125",
           "baseExpression": "に沿って",
@@ -283,7 +291,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-099-1-b",
+          "id": "fb-created-n2-099-01-b",
           "text": "につき",
           "grammarId": "n2-126",
           "baseExpression": "につき",
@@ -291,23 +299,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-099-1-c",
+          "id": "fb-created-n2-099-01-c",
           "text": "につけて",
           "grammarId": "n2-127",
           "baseExpression": "につけて",
           "conjugatedExpression": "につけて",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-099-1-d",
-          "text": "ないではいられ",
-          "grammarId": "n2-099",
-          "baseExpression": "ないではいられない",
-          "conjugatedExpression": "ないではいられ",
-          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '길 잃은 개가 비를 맞으며 떨고 있는 것을 보고 집으로 데려가지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
       "sourceGrammarIds": [
         "n2-099",
         "n2-125",
@@ -315,237 +315,20 @@
         "n2-127"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra-n2-099-2",
+      "id": "fb-created-n2-099-02",
       "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlank": "その話を聞いて、泣か（　　　）なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
-      "answerChoiceId": "fb-extra-n2-099-2-a",
+      "sentence": "同僚が一人で大量の荷物を運んでいたので、手を貸さないではいられなかった。",
+      "sentenceWithBlank": "同僚が一人で大量の荷物を運んでいたので、手を貸さ（　　　）なかった。",
+      "korean": "동료가 혼자서 많은 짐을 나르고 있어서 도와주지 않을 수 없었다.",
+      "answerChoiceId": "fb-created-n2-099-02-d",
       "choices": [
         {
-          "id": "fb-extra-n2-099-2-b",
-          "text": "ともなると",
-          "grammarId": "n2-095",
-          "baseExpression": "ともなると",
-          "conjugatedExpression": "ともなると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-099-2-c",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-099-2-d",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-099-2-a",
-          "text": "ないではいられ",
-          "grammarId": "n2-099",
-          "baseExpression": "ないではいられない",
-          "conjugatedExpression": "ないではいられ",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
-      "sourceGrammarIds": [
-        "n2-099",
-        "n2-095",
-        "n2-096",
-        "n2-097"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-099-3",
-      "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlank": "その話を聞いて、泣か（　　　）なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
-      "answerChoiceId": "fb-extra-n2-099-3-b",
-      "choices": [
-        {
-          "id": "fb-extra-n2-099-3-c",
-          "text": "どころか",
-          "grammarId": "n2-086",
-          "baseExpression": "どころか",
-          "conjugatedExpression": "どころか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-099-3-d",
-          "text": "ところだった",
-          "grammarId": "n2-087",
-          "baseExpression": "ところだった",
-          "conjugatedExpression": "ところだった",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-099-3-a",
-          "text": "ところではない",
-          "grammarId": "n2-088",
-          "baseExpression": "ところではない",
-          "conjugatedExpression": "ところではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-099-3-b",
-          "text": "ないではいられ",
-          "grammarId": "n2-099",
-          "baseExpression": "ないではいられない",
-          "conjugatedExpression": "ないではいられ",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
-      "sourceGrammarIds": [
-        "n2-099",
-        "n2-086",
-        "n2-087",
-        "n2-088"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-099-4",
-      "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlank": "その話を聞いて、泣か（　　　）なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
-      "answerChoiceId": "fb-extra-n2-099-4-c",
-      "choices": [
-        {
-          "id": "fb-extra-n2-099-4-d",
-          "text": "にこしたことはない",
-          "grammarId": "n2-114",
-          "baseExpression": "にこしたことはない",
-          "conjugatedExpression": "にこしたことはない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-099-4-a",
-          "text": "に応えて",
-          "grammarId": "n2-115",
-          "baseExpression": "に応えて",
-          "conjugatedExpression": "に応えて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-099-4-b",
-          "text": "に際して",
-          "grammarId": "n2-116",
-          "baseExpression": "に際して",
-          "conjugatedExpression": "に際して",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-099-4-c",
-          "text": "ないではいられ",
-          "grammarId": "n2-099",
-          "baseExpression": "ないではいられない",
-          "conjugatedExpression": "ないではいられ",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
-      "sourceGrammarIds": [
-        "n2-099",
-        "n2-114",
-        "n2-115",
-        "n2-116"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-099-5",
-      "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlank": "その話を聞いて、泣か（　　　）なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
-      "answerChoiceId": "fb-extra-n2-099-5-d",
-      "choices": [
-        {
-          "id": "fb-extra-n2-099-5-a",
-          "text": "一方で",
-          "grammarId": "n2-004",
-          "baseExpression": "一方で",
-          "conjugatedExpression": "一方で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-099-5-b",
-          "text": "た上で",
-          "grammarId": "n2-005",
-          "baseExpression": "た上で",
-          "conjugatedExpression": "た上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-099-5-c",
-          "text": "上で",
-          "grammarId": "n2-006",
-          "baseExpression": "上で",
-          "conjugatedExpression": "上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-099-5-d",
-          "text": "ないではいられ",
-          "grammarId": "n2-099",
-          "baseExpression": "ないではいられない",
-          "conjugatedExpression": "ないではいられ",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
-      "sourceGrammarIds": [
-        "n2-099",
-        "n2-004",
-        "n2-005",
-        "n2-006"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-099-01",
-      "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlank": "その話を聞いて、泣か（　　　）なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
-      "answerChoiceId": "fb-extra20-n2-099-01-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-099-01-a",
+          "id": "fb-created-n2-099-02-a",
           "text": "に沿って",
           "grammarId": "n2-125",
           "baseExpression": "に沿って",
@@ -553,7 +336,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-099-01-b",
+          "id": "fb-created-n2-099-02-b",
           "text": "につき",
           "grammarId": "n2-126",
           "baseExpression": "につき",
@@ -561,7 +344,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-099-01-c",
+          "id": "fb-created-n2-099-02-c",
           "text": "につけて",
           "grammarId": "n2-127",
           "baseExpression": "につけて",
@@ -569,7 +352,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-099-01-d",
+          "id": "fb-created-n2-099-02-d",
           "text": "ないではいられ",
           "grammarId": "n2-099",
           "baseExpression": "ないではいられない",
@@ -577,7 +360,7 @@
           "isSimilarDistractor": false
         }
       ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '동료가 혼자서 많은 짐을 나르고 있어서 도와주지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
       "sourceGrammarIds": [
         "n2-099",
         "n2-125",
@@ -585,253 +368,20 @@
         "n2-127"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-099-02",
+      "id": "fb-created-n2-099-03",
       "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlank": "その話を聞いて、泣か（　　　）なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
-      "answerChoiceId": "fb-extra20-n2-099-02-a",
+      "sentence": "祖父の古い手帳を読み返すと、穏やかな笑顔を思い出さないではいられない。",
+      "sentenceWithBlank": "祖父の古い手帳を読み返すと、穏やかな笑顔を思い出さ（　　　）ない。",
+      "korean": "할아버지의 오래된 수첩을 다시 읽으면 온화한 미소를 떠올리지 않을 수 없다.",
+      "answerChoiceId": "fb-created-n2-099-03-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-099-02-d",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-099-02-a",
-          "text": "ないではいられ",
-          "grammarId": "n2-099",
-          "baseExpression": "ないではいられない",
-          "conjugatedExpression": "ないではいられ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-099-02-b",
-          "text": "ともなると",
-          "grammarId": "n2-095",
-          "baseExpression": "ともなると",
-          "conjugatedExpression": "ともなると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-099-02-c",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
-      "sourceGrammarIds": [
-        "n2-099",
-        "n2-095",
-        "n2-096",
-        "n2-097"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-099-03",
-      "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlank": "その話を聞いて、泣か（　　　）なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
-      "answerChoiceId": "fb-extra20-n2-099-03-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-099-03-c",
-          "text": "どころか",
-          "grammarId": "n2-086",
-          "baseExpression": "どころか",
-          "conjugatedExpression": "どころか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-099-03-d",
-          "text": "ところだった",
-          "grammarId": "n2-087",
-          "baseExpression": "ところだった",
-          "conjugatedExpression": "ところだった",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-099-03-a",
-          "text": "ところではない",
-          "grammarId": "n2-088",
-          "baseExpression": "ところではない",
-          "conjugatedExpression": "ところではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-099-03-b",
-          "text": "ないではいられ",
-          "grammarId": "n2-099",
-          "baseExpression": "ないではいられない",
-          "conjugatedExpression": "ないではいられ",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
-      "sourceGrammarIds": [
-        "n2-099",
-        "n2-086",
-        "n2-087",
-        "n2-088"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-099-04",
-      "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlank": "その話を聞いて、泣か（　　　）なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
-      "answerChoiceId": "fb-extra20-n2-099-04-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-099-04-b",
-          "text": "に際して",
-          "grammarId": "n2-116",
-          "baseExpression": "に際して",
-          "conjugatedExpression": "に際して",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-099-04-c",
-          "text": "ないではいられ",
-          "grammarId": "n2-099",
-          "baseExpression": "ないではいられない",
-          "conjugatedExpression": "ないではいられ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-099-04-d",
-          "text": "にこしたことはない",
-          "grammarId": "n2-114",
-          "baseExpression": "にこしたことはない",
-          "conjugatedExpression": "にこしたことはない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-099-04-a",
-          "text": "に応えて",
-          "grammarId": "n2-115",
-          "baseExpression": "に応えて",
-          "conjugatedExpression": "に応えて",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
-      "sourceGrammarIds": [
-        "n2-099",
-        "n2-114",
-        "n2-115",
-        "n2-116"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-099-05",
-      "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlank": "その話を聞いて、泣か（　　　）なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
-      "answerChoiceId": "fb-extra20-n2-099-05-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-099-05-a",
-          "text": "一方で",
-          "grammarId": "n2-004",
-          "baseExpression": "一方で",
-          "conjugatedExpression": "一方で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-099-05-b",
-          "text": "た上で",
-          "grammarId": "n2-005",
-          "baseExpression": "た上で",
-          "conjugatedExpression": "た上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-099-05-c",
-          "text": "上で",
-          "grammarId": "n2-006",
-          "baseExpression": "上で",
-          "conjugatedExpression": "上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-099-05-d",
-          "text": "ないではいられ",
-          "grammarId": "n2-099",
-          "baseExpression": "ないではいられない",
-          "conjugatedExpression": "ないではいられ",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
-      "sourceGrammarIds": [
-        "n2-099",
-        "n2-004",
-        "n2-005",
-        "n2-006"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-099-06",
-      "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlank": "その話を聞いて、泣か（　　　）なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
-      "answerChoiceId": "fb-extra20-n2-099-06-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-099-06-d",
-          "text": "ないではいられ",
-          "grammarId": "n2-099",
-          "baseExpression": "ないではいられない",
-          "conjugatedExpression": "ないではいられ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-099-06-a",
-          "text": "に沿って",
-          "grammarId": "n2-125",
-          "baseExpression": "に沿って",
-          "conjugatedExpression": "に沿って",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-099-06-b",
+          "id": "fb-created-n2-099-03-b",
           "text": "につき",
           "grammarId": "n2-126",
           "baseExpression": "につき",
@@ -839,253 +389,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-099-06-c",
-          "text": "につけて",
-          "grammarId": "n2-127",
-          "baseExpression": "につけて",
-          "conjugatedExpression": "につけて",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
-      "sourceGrammarIds": [
-        "n2-099",
-        "n2-125",
-        "n2-126",
-        "n2-127"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-099-07",
-      "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlank": "その話を聞いて、泣か（　　　）なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
-      "answerChoiceId": "fb-extra20-n2-099-07-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-099-07-c",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-099-07-d",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-099-07-a",
-          "text": "ないではいられ",
-          "grammarId": "n2-099",
-          "baseExpression": "ないではいられない",
-          "conjugatedExpression": "ないではいられ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-099-07-b",
-          "text": "ともなると",
-          "grammarId": "n2-095",
-          "baseExpression": "ともなると",
-          "conjugatedExpression": "ともなると",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
-      "sourceGrammarIds": [
-        "n2-099",
-        "n2-095",
-        "n2-096",
-        "n2-097"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-099-08",
-      "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlank": "その話を聞いて、泣か（　　　）なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
-      "answerChoiceId": "fb-extra20-n2-099-08-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-099-08-b",
-          "text": "ないではいられ",
-          "grammarId": "n2-099",
-          "baseExpression": "ないではいられない",
-          "conjugatedExpression": "ないではいられ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-099-08-c",
-          "text": "どころか",
-          "grammarId": "n2-086",
-          "baseExpression": "どころか",
-          "conjugatedExpression": "どころか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-099-08-d",
-          "text": "ところだった",
-          "grammarId": "n2-087",
-          "baseExpression": "ところだった",
-          "conjugatedExpression": "ところだった",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-099-08-a",
-          "text": "ところではない",
-          "grammarId": "n2-088",
-          "baseExpression": "ところではない",
-          "conjugatedExpression": "ところではない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
-      "sourceGrammarIds": [
-        "n2-099",
-        "n2-086",
-        "n2-087",
-        "n2-088"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-099-09",
-      "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlank": "その話を聞いて、泣か（　　　）なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
-      "answerChoiceId": "fb-extra20-n2-099-09-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-099-09-a",
-          "text": "に応えて",
-          "grammarId": "n2-115",
-          "baseExpression": "に応えて",
-          "conjugatedExpression": "に応えて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-099-09-b",
-          "text": "に際して",
-          "grammarId": "n2-116",
-          "baseExpression": "に際して",
-          "conjugatedExpression": "に際して",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-099-09-c",
-          "text": "ないではいられ",
-          "grammarId": "n2-099",
-          "baseExpression": "ないではいられない",
-          "conjugatedExpression": "ないではいられ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-099-09-d",
-          "text": "にこしたことはない",
-          "grammarId": "n2-114",
-          "baseExpression": "にこしたことはない",
-          "conjugatedExpression": "にこしたことはない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
-      "sourceGrammarIds": [
-        "n2-099",
-        "n2-114",
-        "n2-115",
-        "n2-116"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-099-10",
-      "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlank": "その話を聞いて、泣か（　　　）なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
-      "answerChoiceId": "fb-extra20-n2-099-10-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-099-10-d",
-          "text": "ないではいられ",
-          "grammarId": "n2-099",
-          "baseExpression": "ないではいられない",
-          "conjugatedExpression": "ないではいられ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-099-10-a",
-          "text": "一方で",
-          "grammarId": "n2-004",
-          "baseExpression": "一方で",
-          "conjugatedExpression": "一方で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-099-10-b",
-          "text": "た上で",
-          "grammarId": "n2-005",
-          "baseExpression": "た上で",
-          "conjugatedExpression": "た上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-099-10-c",
-          "text": "上で",
-          "grammarId": "n2-006",
-          "baseExpression": "上で",
-          "conjugatedExpression": "上で",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
-      "sourceGrammarIds": [
-        "n2-099",
-        "n2-004",
-        "n2-005",
-        "n2-006"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-099-11",
-      "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlank": "その話を聞いて、泣か（　　　）なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
-      "answerChoiceId": "fb-extra20-n2-099-11-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-099-11-c",
+          "id": "fb-created-n2-099-03-c",
           "text": "につけて",
           "grammarId": "n2-127",
           "baseExpression": "につけて",
@@ -1093,7 +397,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-099-11-d",
+          "id": "fb-created-n2-099-03-d",
           "text": "ないではいられ",
           "grammarId": "n2-099",
           "baseExpression": "ないではいられない",
@@ -1101,285 +405,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-099-11-a",
-          "text": "に沿って",
-          "grammarId": "n2-125",
-          "baseExpression": "に沿って",
-          "conjugatedExpression": "に沿って",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-099-11-b",
-          "text": "につき",
-          "grammarId": "n2-126",
-          "baseExpression": "につき",
-          "conjugatedExpression": "につき",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
-      "sourceGrammarIds": [
-        "n2-099",
-        "n2-125",
-        "n2-126",
-        "n2-127"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-099-12",
-      "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlank": "その話を聞いて、泣か（　　　）なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
-      "answerChoiceId": "fb-extra20-n2-099-12-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-099-12-b",
-          "text": "ともなると",
-          "grammarId": "n2-095",
-          "baseExpression": "ともなると",
-          "conjugatedExpression": "ともなると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-099-12-c",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-099-12-d",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-099-12-a",
-          "text": "ないではいられ",
-          "grammarId": "n2-099",
-          "baseExpression": "ないではいられない",
-          "conjugatedExpression": "ないではいられ",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
-      "sourceGrammarIds": [
-        "n2-099",
-        "n2-095",
-        "n2-096",
-        "n2-097"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-099-13",
-      "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlank": "その話を聞いて、泣か（　　　）なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
-      "answerChoiceId": "fb-extra20-n2-099-13-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-099-13-a",
-          "text": "ところではない",
-          "grammarId": "n2-088",
-          "baseExpression": "ところではない",
-          "conjugatedExpression": "ところではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-099-13-b",
-          "text": "ないではいられ",
-          "grammarId": "n2-099",
-          "baseExpression": "ないではいられない",
-          "conjugatedExpression": "ないではいられ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-099-13-c",
-          "text": "どころか",
-          "grammarId": "n2-086",
-          "baseExpression": "どころか",
-          "conjugatedExpression": "どころか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-099-13-d",
-          "text": "ところだった",
-          "grammarId": "n2-087",
-          "baseExpression": "ところだった",
-          "conjugatedExpression": "ところだった",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
-      "sourceGrammarIds": [
-        "n2-099",
-        "n2-086",
-        "n2-087",
-        "n2-088"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-099-14",
-      "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlank": "その話を聞いて、泣か（　　　）なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
-      "answerChoiceId": "fb-extra20-n2-099-14-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-099-14-d",
-          "text": "にこしたことはない",
-          "grammarId": "n2-114",
-          "baseExpression": "にこしたことはない",
-          "conjugatedExpression": "にこしたことはない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-099-14-a",
-          "text": "に応えて",
-          "grammarId": "n2-115",
-          "baseExpression": "に応えて",
-          "conjugatedExpression": "に応えて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-099-14-b",
-          "text": "に際して",
-          "grammarId": "n2-116",
-          "baseExpression": "に際して",
-          "conjugatedExpression": "に際して",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-099-14-c",
-          "text": "ないではいられ",
-          "grammarId": "n2-099",
-          "baseExpression": "ないではいられない",
-          "conjugatedExpression": "ないではいられ",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
-      "sourceGrammarIds": [
-        "n2-099",
-        "n2-114",
-        "n2-115",
-        "n2-116"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-099-15",
-      "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlank": "その話を聞いて、泣か（　　　）なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
-      "answerChoiceId": "fb-extra20-n2-099-15-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-099-15-c",
-          "text": "上で",
-          "grammarId": "n2-006",
-          "baseExpression": "上で",
-          "conjugatedExpression": "上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-099-15-d",
-          "text": "ないではいられ",
-          "grammarId": "n2-099",
-          "baseExpression": "ないではいられない",
-          "conjugatedExpression": "ないではいられ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-099-15-a",
-          "text": "一方で",
-          "grammarId": "n2-004",
-          "baseExpression": "一方で",
-          "conjugatedExpression": "一方で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-099-15-b",
-          "text": "た上で",
-          "grammarId": "n2-005",
-          "baseExpression": "た上で",
-          "conjugatedExpression": "た上で",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
-      "sourceGrammarIds": [
-        "n2-099",
-        "n2-004",
-        "n2-005",
-        "n2-006"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-099-16",
-      "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlank": "その話を聞いて、泣か（　　　）なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
-      "answerChoiceId": "fb-extra20-n2-099-16-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-099-16-b",
-          "text": "につき",
-          "grammarId": "n2-126",
-          "baseExpression": "につき",
-          "conjugatedExpression": "につき",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-099-16-c",
-          "text": "につけて",
-          "grammarId": "n2-127",
-          "baseExpression": "につけて",
-          "conjugatedExpression": "につけて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-099-16-d",
-          "text": "ないではいられ",
-          "grammarId": "n2-099",
-          "baseExpression": "ないではいられない",
-          "conjugatedExpression": "ないではいられ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-099-16-a",
+          "id": "fb-created-n2-099-03-a",
           "text": "に沿って",
           "grammarId": "n2-125",
           "baseExpression": "に沿って",
@@ -1387,7 +413,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '할아버지의 오래된 수첩을 다시 읽으면 온화한 미소를 떠올리지 않을 수 없다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
       "sourceGrammarIds": [
         "n2-099",
         "n2-125",
@@ -1395,21 +421,28 @@
         "n2-127"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-099-17",
+      "id": "fb-created-n2-099-04",
       "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlank": "その話を聞いて、泣か（　　　）なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
-      "answerChoiceId": "fb-extra20-n2-099-17-a",
+      "sentence": "あまりに見事な逆転劇に、観客は立ち上がって拍手しないではいられなかった。",
+      "sentenceWithBlank": "あまりに見事な逆転劇に、観客は立ち上がって拍手し（　　　）なかった。",
+      "korean": "너무나 멋진 역전극에 관객들은 일어나 박수 치지 않을 수 없었다.",
+      "answerChoiceId": "fb-created-n2-099-04-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-099-17-a",
+          "id": "fb-created-n2-099-04-c",
+          "text": "につけて",
+          "grammarId": "n2-127",
+          "baseExpression": "につけて",
+          "conjugatedExpression": "につけて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-04-d",
           "text": "ないではいられ",
           "grammarId": "n2-099",
           "baseExpression": "ないではいられない",
@@ -1417,69 +450,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-099-17-b",
-          "text": "ともなると",
-          "grammarId": "n2-095",
-          "baseExpression": "ともなると",
-          "conjugatedExpression": "ともなると",
+          "id": "fb-created-n2-099-04-a",
+          "text": "に沿って",
+          "grammarId": "n2-125",
+          "baseExpression": "に沿って",
+          "conjugatedExpression": "に沿って",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-099-17-c",
-          "text": "ない限り",
-          "grammarId": "n2-096",
-          "baseExpression": "ない限り",
-          "conjugatedExpression": "ない限り",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-099-17-d",
-          "text": "ないことには",
-          "grammarId": "n2-097",
-          "baseExpression": "ないことには",
-          "conjugatedExpression": "ないことには",
+          "id": "fb-created-n2-099-04-b",
+          "text": "につき",
+          "grammarId": "n2-126",
+          "baseExpression": "につき",
+          "conjugatedExpression": "につき",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '너무나 멋진 역전극에 관객들은 일어나 박수 치지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
       "sourceGrammarIds": [
         "n2-099",
-        "n2-095",
-        "n2-096",
-        "n2-097"
+        "n2-125",
+        "n2-126",
+        "n2-127"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-099-18",
+      "id": "fb-created-n2-099-05",
       "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlank": "その話を聞いて、泣か（　　　）なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
-      "answerChoiceId": "fb-extra20-n2-099-18-b",
+      "sentence": "弟の隠し事が明らかになり、理由を問いたださないではいられなかった。",
+      "sentenceWithBlank": "弟の隠し事が明らかになり、理由を問いたださ（　　　）なかった。",
+      "korean": "남동생의 숨기던 일이 드러나 이유를 따져 묻지 않을 수 없었다.",
+      "answerChoiceId": "fb-created-n2-099-05-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-099-18-d",
-          "text": "ところだった",
-          "grammarId": "n2-087",
-          "baseExpression": "ところだった",
-          "conjugatedExpression": "ところだった",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-099-18-a",
-          "text": "ところではない",
-          "grammarId": "n2-088",
-          "baseExpression": "ところではない",
-          "conjugatedExpression": "ところではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-099-18-b",
+          "id": "fb-created-n2-099-05-d",
           "text": "ないではいられ",
           "grammarId": "n2-099",
           "baseExpression": "ないではいられない",
@@ -1487,37 +495,121 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-099-18-c",
-          "text": "どころか",
-          "grammarId": "n2-086",
-          "baseExpression": "どころか",
-          "conjugatedExpression": "どころか",
+          "id": "fb-created-n2-099-05-a",
+          "text": "に沿って",
+          "grammarId": "n2-125",
+          "baseExpression": "に沿って",
+          "conjugatedExpression": "に沿って",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-05-b",
+          "text": "につき",
+          "grammarId": "n2-126",
+          "baseExpression": "につき",
+          "conjugatedExpression": "につき",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-05-c",
+          "text": "につけて",
+          "grammarId": "n2-127",
+          "baseExpression": "につけて",
+          "conjugatedExpression": "につけて",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '남동생의 숨기던 일이 드러나 이유를 따져 묻지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
       "sourceGrammarIds": [
         "n2-099",
-        "n2-086",
-        "n2-087",
-        "n2-088"
+        "n2-125",
+        "n2-126",
+        "n2-127"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-099-19",
+      "id": "fb-created-n2-099-06",
       "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlank": "その話を聞いて、泣か（　　　）なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
-      "answerChoiceId": "fb-extra20-n2-099-19-c",
+      "sentence": "窓口で高齢者が困っている様子を見かけ、通訳を申し出ないではいられなかった。",
+      "sentenceWithBlank": "窓口で高齢者が困っている様子を見かけ、通訳を申し出（　　　）なかった。",
+      "korean": "창구에서 노인이 곤란해하는 모습을 보고 통역을 자청하지 않을 수 없었다.",
+      "answerChoiceId": "fb-created-n2-099-06-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-099-19-c",
+          "id": "fb-created-n2-099-06-a",
+          "text": "に沿って",
+          "grammarId": "n2-125",
+          "baseExpression": "に沿って",
+          "conjugatedExpression": "に沿って",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-06-b",
+          "text": "につき",
+          "grammarId": "n2-126",
+          "baseExpression": "につき",
+          "conjugatedExpression": "につき",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-06-c",
+          "text": "につけて",
+          "grammarId": "n2-127",
+          "baseExpression": "につけて",
+          "conjugatedExpression": "につけて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-06-d",
+          "text": "ないではいられ",
+          "grammarId": "n2-099",
+          "baseExpression": "ないではいられない",
+          "conjugatedExpression": "ないではいられ",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '창구에서 노인이 곤란해하는 모습을 보고 통역을 자청하지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
+      "sourceGrammarIds": [
+        "n2-099",
+        "n2-125",
+        "n2-126",
+        "n2-127"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-099-07",
+      "level": "N2",
+      "sentence": "故郷の祭り囃子が聞こえると、自然に足で拍子を取らないではいられない。",
+      "sentenceWithBlank": "故郷の祭り囃子が聞こえると、自然に足で拍子を取ら（　　　）ない。",
+      "korean": "고향의 축제 음악이 들리면 자연스럽게 발로 장단을 맞추지 않을 수 없다.",
+      "answerChoiceId": "fb-created-n2-099-07-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-099-07-b",
+          "text": "につき",
+          "grammarId": "n2-126",
+          "baseExpression": "につき",
+          "conjugatedExpression": "につき",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-07-c",
+          "text": "につけて",
+          "grammarId": "n2-127",
+          "baseExpression": "につけて",
+          "conjugatedExpression": "につけて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-07-d",
           "text": "ないではいられ",
           "grammarId": "n2-099",
           "baseExpression": "ないではいられない",
@@ -1525,69 +617,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-099-19-d",
-          "text": "にこしたことはない",
-          "grammarId": "n2-114",
-          "baseExpression": "にこしたことはない",
-          "conjugatedExpression": "にこしたことはない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-099-19-a",
-          "text": "に応えて",
-          "grammarId": "n2-115",
-          "baseExpression": "に応えて",
-          "conjugatedExpression": "に応えて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-099-19-b",
-          "text": "に際して",
-          "grammarId": "n2-116",
-          "baseExpression": "に際して",
-          "conjugatedExpression": "に際して",
+          "id": "fb-created-n2-099-07-a",
+          "text": "に沿って",
+          "grammarId": "n2-125",
+          "baseExpression": "に沿って",
+          "conjugatedExpression": "に沿って",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '고향의 축제 음악이 들리면 자연스럽게 발로 장단을 맞추지 않을 수 없다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
       "sourceGrammarIds": [
         "n2-099",
-        "n2-114",
-        "n2-115",
-        "n2-116"
+        "n2-125",
+        "n2-126",
+        "n2-127"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-099-20",
+      "id": "fb-created-n2-099-08",
       "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlank": "その話を聞いて、泣か（　　　）なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
-      "answerChoiceId": "fb-extra20-n2-099-20-d",
+      "sentence": "取引先の横柄な態度に腹が立ち、ひと言注意しないではいられなかった。",
+      "sentenceWithBlank": "取引先の横柄な態度に腹が立ち、ひと言注意し（　　　）なかった。",
+      "korean": "거래처의 거만한 태도에 화가 나 한마디 주의를 주지 않을 수 없었다.",
+      "answerChoiceId": "fb-created-n2-099-08-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-099-20-b",
-          "text": "た上で",
-          "grammarId": "n2-005",
-          "baseExpression": "た上で",
-          "conjugatedExpression": "た上で",
+          "id": "fb-created-n2-099-08-c",
+          "text": "につけて",
+          "grammarId": "n2-127",
+          "baseExpression": "につけて",
+          "conjugatedExpression": "につけて",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-099-20-c",
-          "text": "上で",
-          "grammarId": "n2-006",
-          "baseExpression": "上で",
-          "conjugatedExpression": "上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-099-20-d",
+          "id": "fb-created-n2-099-08-d",
           "text": "ないではいられ",
           "grammarId": "n2-099",
           "baseExpression": "ないではいられない",
@@ -1595,25 +662,933 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-099-20-a",
-          "text": "一方で",
-          "grammarId": "n2-004",
-          "baseExpression": "一方で",
-          "conjugatedExpression": "一方で",
+          "id": "fb-created-n2-099-08-a",
+          "text": "に沿って",
+          "grammarId": "n2-125",
+          "baseExpression": "に沿って",
+          "conjugatedExpression": "に沿って",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-08-b",
+          "text": "につき",
+          "grammarId": "n2-126",
+          "baseExpression": "につき",
+          "conjugatedExpression": "につき",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '거래처의 거만한 태도에 화가 나 한마디 주의를 주지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
       "sourceGrammarIds": [
         "n2-099",
-        "n2-004",
-        "n2-005",
-        "n2-006"
+        "n2-125",
+        "n2-126",
+        "n2-127"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-099-09",
+      "level": "N2",
+      "sentence": "海岸に流れ着いた大量のごみを前に、漁師たちは片づけないではいられなかった。",
+      "sentenceWithBlank": "海岸に流れ着いた大量のごみを前に、漁師たちは片づけ（　　　）なかった。",
+      "korean": "해안으로 떠밀려 온 엄청난 쓰레기를 보고 어부들은 치우지 않을 수 없었다.",
+      "answerChoiceId": "fb-created-n2-099-09-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-099-09-d",
+          "text": "ないではいられ",
+          "grammarId": "n2-099",
+          "baseExpression": "ないではいられない",
+          "conjugatedExpression": "ないではいられ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-099-09-a",
+          "text": "に沿って",
+          "grammarId": "n2-125",
+          "baseExpression": "に沿って",
+          "conjugatedExpression": "に沿って",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-09-b",
+          "text": "につき",
+          "grammarId": "n2-126",
+          "baseExpression": "につき",
+          "conjugatedExpression": "につき",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-09-c",
+          "text": "につけて",
+          "grammarId": "n2-127",
+          "baseExpression": "につけて",
+          "conjugatedExpression": "につけて",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '해안으로 떠밀려 온 엄청난 쓰레기를 보고 어부들은 치우지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
+      "sourceGrammarIds": [
+        "n2-099",
+        "n2-125",
+        "n2-126",
+        "n2-127"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-099-10",
+      "level": "N2",
+      "sentence": "娘が初めて作った料理を差し出すと、父は笑顔で褒めないではいられなかった。",
+      "sentenceWithBlank": "娘が初めて作った料理を差し出すと、父は笑顔で褒め（　　　）なかった。",
+      "korean": "딸이 처음 만든 요리를 내놓자 아버지는 웃으며 칭찬하지 않을 수 없었다.",
+      "answerChoiceId": "fb-created-n2-099-10-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-099-10-a",
+          "text": "に沿って",
+          "grammarId": "n2-125",
+          "baseExpression": "に沿って",
+          "conjugatedExpression": "に沿って",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-10-b",
+          "text": "につき",
+          "grammarId": "n2-126",
+          "baseExpression": "につき",
+          "conjugatedExpression": "につき",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-10-c",
+          "text": "につけて",
+          "grammarId": "n2-127",
+          "baseExpression": "につけて",
+          "conjugatedExpression": "につけて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-10-d",
+          "text": "ないではいられ",
+          "grammarId": "n2-099",
+          "baseExpression": "ないではいられない",
+          "conjugatedExpression": "ないではいられ",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '딸이 처음 만든 요리를 내놓자 아버지는 웃으며 칭찬하지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
+      "sourceGrammarIds": [
+        "n2-099",
+        "n2-125",
+        "n2-126",
+        "n2-127"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-099-11",
+      "level": "N2",
+      "sentence": "患者の懸命な回復ぶりを目の当たりにして、看護師は胸を熱くしないではいられなかった。",
+      "sentenceWithBlank": "患者の懸命な回復ぶりを目の当たりにして、看護師は胸を熱くし（　　　）なかった。",
+      "korean": "환자가 필사적으로 회복해 가는 모습을 직접 보고 간호사는 가슴이 뭉클해지지 않을 수 없었다.",
+      "answerChoiceId": "fb-created-n2-099-11-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-099-11-b",
+          "text": "につき",
+          "grammarId": "n2-126",
+          "baseExpression": "につき",
+          "conjugatedExpression": "につき",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-11-c",
+          "text": "につけて",
+          "grammarId": "n2-127",
+          "baseExpression": "につけて",
+          "conjugatedExpression": "につけて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-11-d",
+          "text": "ないではいられ",
+          "grammarId": "n2-099",
+          "baseExpression": "ないではいられない",
+          "conjugatedExpression": "ないではいられ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-099-11-a",
+          "text": "に沿って",
+          "grammarId": "n2-125",
+          "baseExpression": "に沿って",
+          "conjugatedExpression": "に沿って",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '환자가 필사적으로 회복해 가는 모습을 직접 보고 간호사는 가슴이 뭉클해지지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
+      "sourceGrammarIds": [
+        "n2-099",
+        "n2-125",
+        "n2-126",
+        "n2-127"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-099-12",
+      "level": "N2",
+      "sentence": "長年通った喫茶店の閉店を知り、最後にもう一度訪ねないではいられなかった。",
+      "sentenceWithBlank": "長年通った喫茶店の閉店を知り、最後にもう一度訪ね（　　　）なかった。",
+      "korean": "오랫동안 다닌 찻집의 폐업 소식을 알고 마지막으로 한 번 더 찾아가지 않을 수 없었다.",
+      "answerChoiceId": "fb-created-n2-099-12-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-099-12-c",
+          "text": "につけて",
+          "grammarId": "n2-127",
+          "baseExpression": "につけて",
+          "conjugatedExpression": "につけて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-12-d",
+          "text": "ないではいられ",
+          "grammarId": "n2-099",
+          "baseExpression": "ないではいられない",
+          "conjugatedExpression": "ないではいられ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-099-12-a",
+          "text": "に沿って",
+          "grammarId": "n2-125",
+          "baseExpression": "に沿って",
+          "conjugatedExpression": "に沿って",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-12-b",
+          "text": "につき",
+          "grammarId": "n2-126",
+          "baseExpression": "につき",
+          "conjugatedExpression": "につき",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '오랫동안 다닌 찻집의 폐업 소식을 알고 마지막으로 한 번 더 찾아가지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
+      "sourceGrammarIds": [
+        "n2-099",
+        "n2-125",
+        "n2-126",
+        "n2-127"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-099-13",
+      "level": "N2",
+      "sentence": "不当に責められる後輩を見て、弁護しないではいられなかった。",
+      "sentenceWithBlank": "不当に責められる後輩を見て、弁護し（　　　）なかった。",
+      "korean": "부당하게 비난받는 후배를 보고 두둔하지 않을 수 없었다.",
+      "answerChoiceId": "fb-created-n2-099-13-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-099-13-d",
+          "text": "ないではいられ",
+          "grammarId": "n2-099",
+          "baseExpression": "ないではいられない",
+          "conjugatedExpression": "ないではいられ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-099-13-a",
+          "text": "に沿って",
+          "grammarId": "n2-125",
+          "baseExpression": "に沿って",
+          "conjugatedExpression": "に沿って",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-13-b",
+          "text": "につき",
+          "grammarId": "n2-126",
+          "baseExpression": "につき",
+          "conjugatedExpression": "につき",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-13-c",
+          "text": "につけて",
+          "grammarId": "n2-127",
+          "baseExpression": "につけて",
+          "conjugatedExpression": "につけて",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '부당하게 비난받는 후배를 보고 두둔하지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
+      "sourceGrammarIds": [
+        "n2-099",
+        "n2-125",
+        "n2-126",
+        "n2-127"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-099-14",
+      "level": "N2",
+      "sentence": "焼きたてのパンの香りに誘われ、予定になかったクロワッサンを買わないではいられなかった。",
+      "sentenceWithBlank": "焼きたてのパンの香りに誘われ、予定になかったクロワッサンを買わ（　　　）なかった。",
+      "korean": "갓 구운 빵 냄새에 이끌려 예정에 없던 크루아상을 사지 않을 수 없었다.",
+      "answerChoiceId": "fb-created-n2-099-14-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-099-14-a",
+          "text": "に沿って",
+          "grammarId": "n2-125",
+          "baseExpression": "に沿って",
+          "conjugatedExpression": "に沿って",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-14-b",
+          "text": "につき",
+          "grammarId": "n2-126",
+          "baseExpression": "につき",
+          "conjugatedExpression": "につき",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-14-c",
+          "text": "につけて",
+          "grammarId": "n2-127",
+          "baseExpression": "につけて",
+          "conjugatedExpression": "につけて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-14-d",
+          "text": "ないではいられ",
+          "grammarId": "n2-099",
+          "baseExpression": "ないではいられない",
+          "conjugatedExpression": "ないではいられ",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '갓 구운 빵 냄새에 이끌려 예정에 없던 크루아상을 사지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
+      "sourceGrammarIds": [
+        "n2-099",
+        "n2-125",
+        "n2-126",
+        "n2-127"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-099-15",
+      "level": "N2",
+      "sentence": "親友の結婚報告を受け、夜中でもすぐに電話しないではいられなかった。",
+      "sentenceWithBlank": "親友の結婚報告を受け、夜中でもすぐに電話し（　　　）なかった。",
+      "korean": "절친의 결혼 소식을 듣고 한밤중인데도 바로 전화하지 않을 수 없었다.",
+      "answerChoiceId": "fb-created-n2-099-15-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-099-15-b",
+          "text": "につき",
+          "grammarId": "n2-126",
+          "baseExpression": "につき",
+          "conjugatedExpression": "につき",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-15-c",
+          "text": "につけて",
+          "grammarId": "n2-127",
+          "baseExpression": "につけて",
+          "conjugatedExpression": "につけて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-15-d",
+          "text": "ないではいられ",
+          "grammarId": "n2-099",
+          "baseExpression": "ないではいられない",
+          "conjugatedExpression": "ないではいられ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-099-15-a",
+          "text": "に沿って",
+          "grammarId": "n2-125",
+          "baseExpression": "に沿って",
+          "conjugatedExpression": "に沿って",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '절친의 결혼 소식을 듣고 한밤중인데도 바로 전화하지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
+      "sourceGrammarIds": [
+        "n2-099",
+        "n2-125",
+        "n2-126",
+        "n2-127"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-099-16",
+      "level": "N2",
+      "sentence": "危険な運転を繰り返す乗客に、バスの運転手は停車して警告しないではいられなかった。",
+      "sentenceWithBlank": "危険な運転を繰り返す乗客に、バスの運転手は停車して警告し（　　　）なかった。",
+      "korean": "위험한 행동을 거듭하는 승객에게 버스 운전기사는 차를 세우고 경고하지 않을 수 없었다.",
+      "answerChoiceId": "fb-created-n2-099-16-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-099-16-c",
+          "text": "につけて",
+          "grammarId": "n2-127",
+          "baseExpression": "につけて",
+          "conjugatedExpression": "につけて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-16-d",
+          "text": "ないではいられ",
+          "grammarId": "n2-099",
+          "baseExpression": "ないではいられない",
+          "conjugatedExpression": "ないではいられ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-099-16-a",
+          "text": "に沿って",
+          "grammarId": "n2-125",
+          "baseExpression": "に沿って",
+          "conjugatedExpression": "に沿って",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-16-b",
+          "text": "につき",
+          "grammarId": "n2-126",
+          "baseExpression": "につき",
+          "conjugatedExpression": "につき",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '위험한 행동을 거듭하는 승객에게 버스 운전기사는 차를 세우고 경고하지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
+      "sourceGrammarIds": [
+        "n2-099",
+        "n2-125",
+        "n2-126",
+        "n2-127"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-099-17",
+      "level": "N2",
+      "sentence": "震災で店を失った友人のため、商店街の仲間は募金を始めないではいられなかった。",
+      "sentenceWithBlank": "震災で店を失った友人のため、商店街の仲間は募金を始め（　　　）なかった。",
+      "korean": "지진 재해로 가게를 잃은 친구를 위해 상점가 사람들은 모금을 시작하지 않을 수 없었다.",
+      "answerChoiceId": "fb-created-n2-099-17-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-099-17-d",
+          "text": "ないではいられ",
+          "grammarId": "n2-099",
+          "baseExpression": "ないではいられない",
+          "conjugatedExpression": "ないではいられ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-099-17-a",
+          "text": "に沿って",
+          "grammarId": "n2-125",
+          "baseExpression": "に沿って",
+          "conjugatedExpression": "に沿って",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-17-b",
+          "text": "につき",
+          "grammarId": "n2-126",
+          "baseExpression": "につき",
+          "conjugatedExpression": "につき",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-17-c",
+          "text": "につけて",
+          "grammarId": "n2-127",
+          "baseExpression": "につけて",
+          "conjugatedExpression": "につけて",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '지진 재해로 가게를 잃은 친구를 위해 상점가 사람들은 모금을 시작하지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
+      "sourceGrammarIds": [
+        "n2-099",
+        "n2-125",
+        "n2-126",
+        "n2-127"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-099-18",
+      "level": "N2",
+      "sentence": "庭の桜が一斉に咲いた朝は、仕事の前に写真を撮らないではいられない。",
+      "sentenceWithBlank": "庭の桜が一斉に咲いた朝は、仕事の前に写真を撮ら（　　　）ない。",
+      "korean": "정원의 벚꽃이 일제히 핀 아침에는 출근 전에 사진을 찍지 않을 수 없다.",
+      "answerChoiceId": "fb-created-n2-099-18-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-099-18-a",
+          "text": "に沿って",
+          "grammarId": "n2-125",
+          "baseExpression": "に沿って",
+          "conjugatedExpression": "に沿って",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-18-b",
+          "text": "につき",
+          "grammarId": "n2-126",
+          "baseExpression": "につき",
+          "conjugatedExpression": "につき",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-18-c",
+          "text": "につけて",
+          "grammarId": "n2-127",
+          "baseExpression": "につけて",
+          "conjugatedExpression": "につけて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-18-d",
+          "text": "ないではいられ",
+          "grammarId": "n2-099",
+          "baseExpression": "ないではいられない",
+          "conjugatedExpression": "ないではいられ",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '정원의 벚꽃이 일제히 핀 아침에는 출근 전에 사진을 찍지 않을 수 없다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
+      "sourceGrammarIds": [
+        "n2-099",
+        "n2-125",
+        "n2-126",
+        "n2-127"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-099-19",
+      "level": "N2",
+      "sentence": "誤診で苦しんだ経験から、医師は検査結果を何度も確かめないではいられない。",
+      "sentenceWithBlank": "誤診で苦しんだ経験から、医師は検査結果を何度も確かめ（　　　）ない。",
+      "korean": "오진으로 고생한 경험 때문에 의사는 검사 결과를 몇 번이고 확인하지 않을 수 없다.",
+      "answerChoiceId": "fb-created-n2-099-19-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-099-19-b",
+          "text": "につき",
+          "grammarId": "n2-126",
+          "baseExpression": "につき",
+          "conjugatedExpression": "につき",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-19-c",
+          "text": "につけて",
+          "grammarId": "n2-127",
+          "baseExpression": "につけて",
+          "conjugatedExpression": "につけて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-19-d",
+          "text": "ないではいられ",
+          "grammarId": "n2-099",
+          "baseExpression": "ないではいられない",
+          "conjugatedExpression": "ないではいられ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-099-19-a",
+          "text": "に沿って",
+          "grammarId": "n2-125",
+          "baseExpression": "に沿って",
+          "conjugatedExpression": "に沿って",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '오진으로 고생한 경험 때문에 의사는 검사 결과를 몇 번이고 확인하지 않을 수 없다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
+      "sourceGrammarIds": [
+        "n2-099",
+        "n2-125",
+        "n2-126",
+        "n2-127"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-099-20",
+      "level": "N2",
+      "sentence": "舞台袖で緊張する新人俳優に、主演女優は励ましの声をかけないではいられなかった。",
+      "sentenceWithBlank": "舞台袖で緊張する新人俳優に、主演女優は励ましの声をかけ（　　　）なかった。",
+      "korean": "무대 뒤에서 긴장하는 신인 배우에게 주연 여배우는 격려의 말을 건네지 않을 수 없었다.",
+      "answerChoiceId": "fb-created-n2-099-20-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-099-20-c",
+          "text": "につけて",
+          "grammarId": "n2-127",
+          "baseExpression": "につけて",
+          "conjugatedExpression": "につけて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-20-d",
+          "text": "ないではいられ",
+          "grammarId": "n2-099",
+          "baseExpression": "ないではいられない",
+          "conjugatedExpression": "ないではいられ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-099-20-a",
+          "text": "に沿って",
+          "grammarId": "n2-125",
+          "baseExpression": "に沿って",
+          "conjugatedExpression": "に沿って",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-20-b",
+          "text": "につき",
+          "grammarId": "n2-126",
+          "baseExpression": "につき",
+          "conjugatedExpression": "につき",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '무대 뒤에서 긴장하는 신인 배우에게 주연 여배우는 격려의 말을 건네지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
+      "sourceGrammarIds": [
+        "n2-099",
+        "n2-125",
+        "n2-126",
+        "n2-127"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-099-21",
+      "level": "N2",
+      "sentence": "川で子どもの帽子が流されていくのを見て、青年は追いかけないではいられなかった。",
+      "sentenceWithBlank": "川で子どもの帽子が流されていくのを見て、青年は追いかけ（　　　）なかった。",
+      "korean": "강에서 아이의 모자가 떠내려가는 것을 보고 청년은 뒤쫓지 않을 수 없었다.",
+      "answerChoiceId": "fb-created-n2-099-21-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-099-21-d",
+          "text": "ないではいられ",
+          "grammarId": "n2-099",
+          "baseExpression": "ないではいられない",
+          "conjugatedExpression": "ないではいられ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-099-21-a",
+          "text": "に沿って",
+          "grammarId": "n2-125",
+          "baseExpression": "に沿って",
+          "conjugatedExpression": "に沿って",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-21-b",
+          "text": "につき",
+          "grammarId": "n2-126",
+          "baseExpression": "につき",
+          "conjugatedExpression": "につき",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-21-c",
+          "text": "につけて",
+          "grammarId": "n2-127",
+          "baseExpression": "につけて",
+          "conjugatedExpression": "につけて",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '강에서 아이의 모자가 떠내려가는 것을 보고 청년은 뒤쫓지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
+      "sourceGrammarIds": [
+        "n2-099",
+        "n2-125",
+        "n2-126",
+        "n2-127"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-099-22",
+      "level": "N2",
+      "sentence": "長年の容疑が晴れた瞬間、家族は抱き合って喜ばないではいられなかった。",
+      "sentenceWithBlank": "長年の容疑が晴れた瞬間、家族は抱き合って喜ば（　　　）なかった。",
+      "korean": "오랜 혐의가 풀린 순간 가족들은 서로 껴안고 기뻐하지 않을 수 없었다.",
+      "answerChoiceId": "fb-created-n2-099-22-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-099-22-a",
+          "text": "に沿って",
+          "grammarId": "n2-125",
+          "baseExpression": "に沿って",
+          "conjugatedExpression": "に沿って",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-22-b",
+          "text": "につき",
+          "grammarId": "n2-126",
+          "baseExpression": "につき",
+          "conjugatedExpression": "につき",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-22-c",
+          "text": "につけて",
+          "grammarId": "n2-127",
+          "baseExpression": "につけて",
+          "conjugatedExpression": "につけて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-22-d",
+          "text": "ないではいられ",
+          "grammarId": "n2-099",
+          "baseExpression": "ないではいられない",
+          "conjugatedExpression": "ないではいられ",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '오랜 혐의가 풀린 순간 가족들은 서로 껴안고 기뻐하지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
+      "sourceGrammarIds": [
+        "n2-099",
+        "n2-125",
+        "n2-126",
+        "n2-127"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-099-23",
+      "level": "N2",
+      "sentence": "市場で希少な古時計を見つけ、収集家は店主に値段を尋ねないではいられなかった。",
+      "sentenceWithBlank": "市場で希少な古時計を見つけ、収集家は店主に値段を尋ね（　　　）なかった。",
+      "korean": "시장에서 희귀한 골동품 시계를 발견하고 수집가는 주인에게 가격을 묻지 않을 수 없었다.",
+      "answerChoiceId": "fb-created-n2-099-23-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-099-23-b",
+          "text": "につき",
+          "grammarId": "n2-126",
+          "baseExpression": "につき",
+          "conjugatedExpression": "につき",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-23-c",
+          "text": "につけて",
+          "grammarId": "n2-127",
+          "baseExpression": "につけて",
+          "conjugatedExpression": "につけて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-23-d",
+          "text": "ないではいられ",
+          "grammarId": "n2-099",
+          "baseExpression": "ないではいられない",
+          "conjugatedExpression": "ないではいられ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-099-23-a",
+          "text": "に沿って",
+          "grammarId": "n2-125",
+          "baseExpression": "に沿って",
+          "conjugatedExpression": "に沿って",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '시장에서 희귀한 골동품 시계를 발견하고 수집가는 주인에게 가격을 묻지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
+      "sourceGrammarIds": [
+        "n2-099",
+        "n2-125",
+        "n2-126",
+        "n2-127"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-099-24",
+      "level": "N2",
+      "sentence": "毎晩隣室から怒鳴り声が聞こえ、住人は管理人に相談しないではいられなかった。",
+      "sentenceWithBlank": "毎晩隣室から怒鳴り声が聞こえ、住人は管理人に相談し（　　　）なかった。",
+      "korean": "매일 밤 옆방에서 고함 소리가 들려 주민은 관리인에게 상담하지 않을 수 없었다.",
+      "answerChoiceId": "fb-created-n2-099-24-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-099-24-c",
+          "text": "につけて",
+          "grammarId": "n2-127",
+          "baseExpression": "につけて",
+          "conjugatedExpression": "につけて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-24-d",
+          "text": "ないではいられ",
+          "grammarId": "n2-099",
+          "baseExpression": "ないではいられない",
+          "conjugatedExpression": "ないではいられ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-099-24-a",
+          "text": "に沿って",
+          "grammarId": "n2-125",
+          "baseExpression": "に沿って",
+          "conjugatedExpression": "に沿って",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-24-b",
+          "text": "につき",
+          "grammarId": "n2-126",
+          "baseExpression": "につき",
+          "conjugatedExpression": "につき",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '매일 밤 옆방에서 고함 소리가 들려 주민은 관리인에게 상담하지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
+      "sourceGrammarIds": [
+        "n2-099",
+        "n2-125",
+        "n2-126",
+        "n2-127"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-099-25",
+      "level": "N2",
+      "sentence": "自分の設計した橋が完成した姿を眺め、技師は誇らしく思わないではいられなかった。",
+      "sentenceWithBlank": "自分の設計した橋が完成した姿を眺め、技師は誇らしく思わ（　　　）なかった。",
+      "korean": "자신이 설계한 다리가 완성된 모습을 바라보며 기술자는 자랑스럽게 여기지 않을 수 없었다.",
+      "answerChoiceId": "fb-created-n2-099-25-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-099-25-d",
+          "text": "ないではいられ",
+          "grammarId": "n2-099",
+          "baseExpression": "ないではいられない",
+          "conjugatedExpression": "ないではいられ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-099-25-a",
+          "text": "に沿って",
+          "grammarId": "n2-125",
+          "baseExpression": "に沿って",
+          "conjugatedExpression": "に沿って",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-25-b",
+          "text": "につき",
+          "grammarId": "n2-126",
+          "baseExpression": "につき",
+          "conjugatedExpression": "につき",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-099-25-c",
+          "text": "につけて",
+          "grammarId": "n2-127",
+          "baseExpression": "につけて",
+          "conjugatedExpression": "につけて",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '자신이 설계한 다리가 완성된 모습을 바라보며 기술자는 자랑스럽게 여기지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
+      "sourceGrammarIds": [
+        "n2-099",
+        "n2-125",
+        "n2-126",
+        "n2-127"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
       ]
     }
   ],
@@ -1834,1103 +1809,1153 @@
       ]
     },
     {
-      "id": "so-extra-n2-099-1",
+      "id": "so-created-n2-099-01",
       "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
+      "sentence": "迷子の犬が雨に震えているのを見て、家へ連れて帰らないではいられなかった。",
+      "sentenceWithBlanks": "迷子の犬が雨に ____ ____ ____ ____",
+      "korean": "길 잃은 개가 비를 맞으며 떨고 있는 것을 보고 집으로 데려가지 않을 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra-n2-099-1-p2",
-          "text": "った",
+          "id": "so-created-n2-099-01-p4",
+          "text": "なかった。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-099-1-p3",
-          "text": "泣か",
+          "id": "so-created-n2-099-01-p1",
+          "text": "震えているのを",
           "order": 1
         },
         {
-          "id": "so-extra-n2-099-1-p4",
-          "text": "ないではいられ",
+          "id": "so-created-n2-099-01-p2",
+          "text": "見て、家へ連れて",
           "order": 2
         },
         {
-          "id": "so-extra-n2-099-1-p1",
-          "text": "なか",
+          "id": "so-created-n2-099-01-p3",
+          "text": "帰らないではいられ",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-099-1-p3",
-        "so-extra-n2-099-1-p4",
-        "so-extra-n2-099-1-p1",
-        "so-extra-n2-099-1-p2"
+        "so-created-n2-099-01-p1",
+        "so-created-n2-099-01-p2",
+        "so-created-n2-099-01-p3",
+        "so-created-n2-099-01-p4"
       ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '길 잃은 개가 비를 맞으며 떨고 있는 것을 보고 집으로 데려가지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
       "sourceGrammarIds": [
-        "n2-099"
+        "n2-099",
+        "n2-125",
+        "n2-126",
+        "n2-127"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-099-2",
+      "id": "so-created-n2-099-02",
       "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
+      "sentence": "同僚が一人で大量の荷物を運んでいたので、手を貸さないではいられなかった。",
+      "sentenceWithBlanks": "同僚が一人で ____ ____ ____ ____",
+      "korean": "동료가 혼자서 많은 짐을 나르고 있어서 도와주지 않을 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra-n2-099-2-p3",
-          "text": "った",
+          "id": "so-created-n2-099-02-p3",
+          "text": "貸さないではいられ",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-099-02-p4",
+          "text": "なかった。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-099-2-p4",
-          "text": "泣か",
+          "id": "so-created-n2-099-02-p1",
+          "text": "大量の荷物を",
           "order": 1
         },
         {
-          "id": "so-extra-n2-099-2-p1",
-          "text": "ないではいられ",
+          "id": "so-created-n2-099-02-p2",
+          "text": "運んでいたので、手を",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-099-2-p2",
-          "text": "なか",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-099-2-p4",
-        "so-extra-n2-099-2-p1",
-        "so-extra-n2-099-2-p2",
-        "so-extra-n2-099-2-p3"
+        "so-created-n2-099-02-p1",
+        "so-created-n2-099-02-p2",
+        "so-created-n2-099-02-p3",
+        "so-created-n2-099-02-p4"
       ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '동료가 혼자서 많은 짐을 나르고 있어서 도와주지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
       "sourceGrammarIds": [
-        "n2-099"
+        "n2-099",
+        "n2-125",
+        "n2-126",
+        "n2-127"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-099-3",
+      "id": "so-created-n2-099-03",
       "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
+      "sentence": "祖父の古い手帳を読み返すと、穏やかな笑顔を思い出さないではいられない。",
+      "sentenceWithBlanks": "祖父の古い ____ ____ ____ ____",
+      "korean": "할아버지의 오래된 수첩을 다시 읽으면 온화한 미소를 떠올리지 않을 수 없다.",
       "pieces": [
         {
-          "id": "so-extra-n2-099-3-p4",
-          "text": "った",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-099-3-p1",
-          "text": "泣か",
-          "order": 1
-        },
-        {
-          "id": "so-extra-n2-099-3-p2",
-          "text": "ないではいられ",
+          "id": "so-created-n2-099-03-p2",
+          "text": "穏やかな",
           "order": 2
         },
         {
-          "id": "so-extra-n2-099-3-p3",
-          "text": "なか",
+          "id": "so-created-n2-099-03-p3",
+          "text": "笑顔を思い出さ",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-099-03-p4",
+          "text": "ないではいられない。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-099-03-p1",
+          "text": "手帳を読み返すと、",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-099-3-p1",
-        "so-extra-n2-099-3-p2",
-        "so-extra-n2-099-3-p3",
-        "so-extra-n2-099-3-p4"
+        "so-created-n2-099-03-p1",
+        "so-created-n2-099-03-p2",
+        "so-created-n2-099-03-p3",
+        "so-created-n2-099-03-p4"
       ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '할아버지의 오래된 수첩을 다시 읽으면 온화한 미소를 떠올리지 않을 수 없다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
       "sourceGrammarIds": [
-        "n2-099"
+        "n2-099",
+        "n2-125",
+        "n2-126",
+        "n2-127"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-099-4",
+      "id": "so-created-n2-099-04",
       "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
+      "sentence": "あまりに見事な逆転劇に、観客は立ち上がって拍手しないではいられなかった。",
+      "sentenceWithBlanks": "あまりに見事な ____ ____ ____ ____ なかった。",
+      "korean": "너무나 멋진 역전극에 관객들은 일어나 박수 치지 않을 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra-n2-099-4-p1",
-          "text": "った",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-099-4-p2",
-          "text": "泣か",
+          "id": "so-created-n2-099-04-p1",
+          "text": "逆転劇に、",
           "order": 1
         },
         {
-          "id": "so-extra-n2-099-4-p3",
-          "text": "ないではいられ",
+          "id": "so-created-n2-099-04-p2",
+          "text": "観客は立ち",
           "order": 2
         },
         {
-          "id": "so-extra-n2-099-4-p4",
-          "text": "なか",
+          "id": "so-created-n2-099-04-p3",
+          "text": "上がって拍手し",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-099-04-p4",
+          "text": "ないではいられ",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-099-4-p2",
-        "so-extra-n2-099-4-p3",
-        "so-extra-n2-099-4-p4",
-        "so-extra-n2-099-4-p1"
+        "so-created-n2-099-04-p1",
+        "so-created-n2-099-04-p2",
+        "so-created-n2-099-04-p3",
+        "so-created-n2-099-04-p4"
       ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '너무나 멋진 역전극에 관객들은 일어나 박수 치지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
       "sourceGrammarIds": [
-        "n2-099"
+        "n2-099",
+        "n2-125",
+        "n2-126",
+        "n2-127"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-099-5",
+      "id": "so-created-n2-099-05",
       "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
+      "sentence": "弟の隠し事が明らかになり、理由を問いたださないではいられなかった。",
+      "sentenceWithBlanks": "弟の隠し事が ____ ____ ____ ____",
+      "korean": "남동생의 숨기던 일이 드러나 이유를 따져 묻지 않을 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra-n2-099-5-p2",
-          "text": "った",
+          "id": "so-created-n2-099-05-p4",
+          "text": "なかった。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-099-5-p3",
-          "text": "泣か",
+          "id": "so-created-n2-099-05-p1",
+          "text": "明らかになり、",
           "order": 1
         },
         {
-          "id": "so-extra-n2-099-5-p4",
-          "text": "ないではいられ",
+          "id": "so-created-n2-099-05-p2",
+          "text": "理由を問いたださ",
           "order": 2
         },
         {
-          "id": "so-extra-n2-099-5-p1",
-          "text": "なか",
+          "id": "so-created-n2-099-05-p3",
+          "text": "ないではいられ",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-099-5-p3",
-        "so-extra-n2-099-5-p4",
-        "so-extra-n2-099-5-p1",
-        "so-extra-n2-099-5-p2"
+        "so-created-n2-099-05-p1",
+        "so-created-n2-099-05-p2",
+        "so-created-n2-099-05-p3",
+        "so-created-n2-099-05-p4"
       ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '남동생의 숨기던 일이 드러나 이유를 따져 묻지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
       "sourceGrammarIds": [
-        "n2-099"
+        "n2-099",
+        "n2-125",
+        "n2-126",
+        "n2-127"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-099-01",
+      "id": "so-created-n2-099-06",
       "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
+      "sentence": "窓口で高齢者が困っている様子を見かけ、通訳を申し出ないではいられなかった。",
+      "sentenceWithBlanks": "窓口で高齢 ____ ____ ____ ____ なかった。",
+      "korean": "창구에서 노인이 곤란해하는 모습을 보고 통역을 자청하지 않을 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-099-01-p2",
-          "text": "った",
+          "id": "so-created-n2-099-06-p3",
+          "text": "通訳を申し出",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-099-06-p4",
+          "text": "ないではいられ",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-099-01-p3",
-          "text": "泣か",
+          "id": "so-created-n2-099-06-p1",
+          "text": "者が困っている",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-099-01-p4",
-          "text": "ないではいられ",
+          "id": "so-created-n2-099-06-p2",
+          "text": "様子を見かけ、",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-099-01-p1",
-          "text": "なか",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-099-01-p3",
-        "so-extra20-n2-099-01-p4",
-        "so-extra20-n2-099-01-p1",
-        "so-extra20-n2-099-01-p2"
+        "so-created-n2-099-06-p1",
+        "so-created-n2-099-06-p2",
+        "so-created-n2-099-06-p3",
+        "so-created-n2-099-06-p4"
       ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '창구에서 노인이 곤란해하는 모습을 보고 통역을 자청하지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
       "sourceGrammarIds": [
-        "n2-099"
+        "n2-099",
+        "n2-125",
+        "n2-126",
+        "n2-127"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-099-02",
+      "id": "so-created-n2-099-07",
       "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
+      "sentence": "故郷の祭り囃子が聞こえると、自然に足で拍子を取らないではいられない。",
+      "sentenceWithBlanks": "故郷の祭り囃子が ____ ____ ____ ____",
+      "korean": "고향의 축제 음악이 들리면 자연스럽게 발로 장단을 맞추지 않을 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-099-02-p1",
-          "text": "ないではいられ",
+          "id": "so-created-n2-099-07-p2",
+          "text": "足で拍子を取ら",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-099-02-p2",
-          "text": "なか",
+          "id": "so-created-n2-099-07-p3",
+          "text": "ないではいられ",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-099-02-p3",
-          "text": "った",
+          "id": "so-created-n2-099-07-p4",
+          "text": "ない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-099-02-p4",
-          "text": "泣か",
+          "id": "so-created-n2-099-07-p1",
+          "text": "聞こえると、自然に",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-099-02-p4",
-        "so-extra20-n2-099-02-p1",
-        "so-extra20-n2-099-02-p2",
-        "so-extra20-n2-099-02-p3"
+        "so-created-n2-099-07-p1",
+        "so-created-n2-099-07-p2",
+        "so-created-n2-099-07-p3",
+        "so-created-n2-099-07-p4"
       ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '고향의 축제 음악이 들리면 자연스럽게 발로 장단을 맞추지 않을 수 없다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
       "sourceGrammarIds": [
-        "n2-099"
+        "n2-099",
+        "n2-125",
+        "n2-126",
+        "n2-127"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-099-03",
+      "id": "so-created-n2-099-08",
       "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
+      "sentence": "取引先の横柄な態度に腹が立ち、ひと言注意しないではいられなかった。",
+      "sentenceWithBlanks": "取引先の ____ ____ ____ ____ なかった。",
+      "korean": "거래처의 거만한 태도에 화가 나 한마디 주의를 주지 않을 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-099-03-p4",
-          "text": "った",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-099-03-p1",
-          "text": "泣か",
+          "id": "so-created-n2-099-08-p1",
+          "text": "横柄な態度に",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-099-03-p2",
-          "text": "ないではいられ",
+          "id": "so-created-n2-099-08-p2",
+          "text": "腹が立ち、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-099-03-p3",
-          "text": "なか",
+          "id": "so-created-n2-099-08-p3",
+          "text": "ひと言注意し",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-099-08-p4",
+          "text": "ないではいられ",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-099-03-p1",
-        "so-extra20-n2-099-03-p2",
-        "so-extra20-n2-099-03-p3",
-        "so-extra20-n2-099-03-p4"
+        "so-created-n2-099-08-p1",
+        "so-created-n2-099-08-p2",
+        "so-created-n2-099-08-p3",
+        "so-created-n2-099-08-p4"
       ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '거래처의 거만한 태도에 화가 나 한마디 주의를 주지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
       "sourceGrammarIds": [
-        "n2-099"
+        "n2-099",
+        "n2-125",
+        "n2-126",
+        "n2-127"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-099-04",
+      "id": "so-created-n2-099-09",
       "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
+      "sentence": "海岸に流れ着いた大量のごみを前に、漁師たちは片づけないではいられなかった。",
+      "sentenceWithBlanks": "海岸に流れ着いた ____ ____ ____ ____",
+      "korean": "해안으로 떠밀려 온 엄청난 쓰레기를 보고 어부들은 치우지 않을 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-099-04-p3",
-          "text": "ないではいられ",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-099-04-p4",
-          "text": "なか",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-099-04-p1",
-          "text": "った",
+          "id": "so-created-n2-099-09-p4",
+          "text": "なかった。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-099-04-p2",
-          "text": "泣か",
+          "id": "so-created-n2-099-09-p1",
+          "text": "大量のごみを前に、",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-099-09-p2",
+          "text": "漁師たちは片づけ",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-099-09-p3",
+          "text": "ないではいられ",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-099-04-p2",
-        "so-extra20-n2-099-04-p3",
-        "so-extra20-n2-099-04-p4",
-        "so-extra20-n2-099-04-p1"
+        "so-created-n2-099-09-p1",
+        "so-created-n2-099-09-p2",
+        "so-created-n2-099-09-p3",
+        "so-created-n2-099-09-p4"
       ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '해안으로 떠밀려 온 엄청난 쓰레기를 보고 어부들은 치우지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
       "sourceGrammarIds": [
-        "n2-099"
+        "n2-099",
+        "n2-125",
+        "n2-126",
+        "n2-127"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-099-05",
+      "id": "so-created-n2-099-10",
       "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
+      "sentence": "娘が初めて作った料理を差し出すと、父は笑顔で褒めないではいられなかった。",
+      "sentenceWithBlanks": "娘が初めて作った ____ ____ ____ ____",
+      "korean": "딸이 처음 만든 요리를 내놓자 아버지는 웃으며 칭찬하지 않을 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-099-05-p2",
-          "text": "った",
+          "id": "so-created-n2-099-10-p3",
+          "text": "ないではいられ",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-099-10-p4",
+          "text": "なかった。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-099-05-p3",
-          "text": "泣か",
+          "id": "so-created-n2-099-10-p1",
+          "text": "料理を差し出すと、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-099-05-p4",
-          "text": "ないではいられ",
+          "id": "so-created-n2-099-10-p2",
+          "text": "父は笑顔で褒め",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-099-05-p1",
-          "text": "なか",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-099-05-p3",
-        "so-extra20-n2-099-05-p4",
-        "so-extra20-n2-099-05-p1",
-        "so-extra20-n2-099-05-p2"
+        "so-created-n2-099-10-p1",
+        "so-created-n2-099-10-p2",
+        "so-created-n2-099-10-p3",
+        "so-created-n2-099-10-p4"
       ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '딸이 처음 만든 요리를 내놓자 아버지는 웃으며 칭찬하지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
       "sourceGrammarIds": [
-        "n2-099"
+        "n2-099",
+        "n2-125",
+        "n2-126",
+        "n2-127"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-099-06",
+      "id": "so-created-n2-099-11",
       "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
+      "sentence": "患者の懸命な回復ぶりを目の当たりにして、看護師は胸を熱くしないではいられなかった。",
+      "sentenceWithBlanks": "患者の懸命な回復ぶりを ____ ____ ____ ____",
+      "korean": "환자가 필사적으로 회복해 가는 모습을 직접 보고 간호사는 가슴이 뭉클해지지 않을 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-099-06-p1",
-          "text": "なか",
+          "id": "so-created-n2-099-11-p2",
+          "text": "看護師は胸を熱くし",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-099-11-p3",
+          "text": "ないではいられ",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-099-06-p2",
-          "text": "った",
+          "id": "so-created-n2-099-11-p4",
+          "text": "なかった。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-099-06-p3",
-          "text": "泣か",
+          "id": "so-created-n2-099-11-p1",
+          "text": "目の当たりにして、",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-099-06-p4",
-          "text": "ないではいられ",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-099-06-p3",
-        "so-extra20-n2-099-06-p4",
-        "so-extra20-n2-099-06-p1",
-        "so-extra20-n2-099-06-p2"
+        "so-created-n2-099-11-p1",
+        "so-created-n2-099-11-p2",
+        "so-created-n2-099-11-p3",
+        "so-created-n2-099-11-p4"
       ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '환자가 필사적으로 회복해 가는 모습을 직접 보고 간호사는 가슴이 뭉클해지지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
       "sourceGrammarIds": [
-        "n2-099"
+        "n2-099",
+        "n2-125",
+        "n2-126",
+        "n2-127"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-099-07",
+      "id": "so-created-n2-099-12",
       "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
+      "sentence": "長年通った喫茶店の閉店を知り、最後にもう一度訪ねないではいられなかった。",
+      "sentenceWithBlanks": "長年通った ____ ____ ____ ____ なかった。",
+      "korean": "오랫동안 다닌 찻집의 폐업 소식을 알고 마지막으로 한 번 더 찾아가지 않을 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-099-07-p4",
-          "text": "泣か",
+          "id": "so-created-n2-099-12-p1",
+          "text": "喫茶店の閉店を",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-099-07-p1",
-          "text": "ないではいられ",
+          "id": "so-created-n2-099-12-p2",
+          "text": "知り、最後に",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-099-07-p2",
-          "text": "なか",
+          "id": "so-created-n2-099-12-p3",
+          "text": "もう一度訪ね",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-099-07-p3",
-          "text": "った",
+          "id": "so-created-n2-099-12-p4",
+          "text": "ないではいられ",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-099-07-p4",
-        "so-extra20-n2-099-07-p1",
-        "so-extra20-n2-099-07-p2",
-        "so-extra20-n2-099-07-p3"
+        "so-created-n2-099-12-p1",
+        "so-created-n2-099-12-p2",
+        "so-created-n2-099-12-p3",
+        "so-created-n2-099-12-p4"
       ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '오랫동안 다닌 찻집의 폐업 소식을 알고 마지막으로 한 번 더 찾아가지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
       "sourceGrammarIds": [
-        "n2-099"
+        "n2-099",
+        "n2-125",
+        "n2-126",
+        "n2-127"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-099-08",
+      "id": "so-created-n2-099-13",
       "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
+      "sentence": "不当に責められる後輩を見て、弁護しないではいられなかった。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "부당하게 비난받는 후배를 보고 두둔하지 않을 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-099-08-p3",
-          "text": "なか",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-099-08-p4",
-          "text": "った",
+          "id": "so-created-n2-099-13-p4",
+          "text": "なかった。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-099-08-p1",
-          "text": "泣か",
+          "id": "so-created-n2-099-13-p1",
+          "text": "不当に責められる",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-099-08-p2",
-          "text": "ないではいられ",
+          "id": "so-created-n2-099-13-p2",
+          "text": "後輩を見て、弁護し",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-099-13-p3",
+          "text": "ないではいられ",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-099-08-p1",
-        "so-extra20-n2-099-08-p2",
-        "so-extra20-n2-099-08-p3",
-        "so-extra20-n2-099-08-p4"
+        "so-created-n2-099-13-p1",
+        "so-created-n2-099-13-p2",
+        "so-created-n2-099-13-p3",
+        "so-created-n2-099-13-p4"
       ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '부당하게 비난받는 후배를 보고 두둔하지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
       "sourceGrammarIds": [
-        "n2-099"
+        "n2-099",
+        "n2-125",
+        "n2-126",
+        "n2-127"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-099-09",
+      "id": "so-created-n2-099-14",
       "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
+      "sentence": "焼きたてのパンの香りに誘われ、予定になかったクロワッサンを買わないではいられなかった。",
+      "sentenceWithBlanks": "焼きたてのパンの香りに誘われ、 ____ ____ ____ ____",
+      "korean": "갓 구운 빵 냄새에 이끌려 예정에 없던 크루아상을 사지 않을 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-099-09-p2",
-          "text": "泣か",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-099-09-p3",
-          "text": "ないではいられ",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-099-09-p4",
-          "text": "なか",
+          "id": "so-created-n2-099-14-p3",
+          "text": "買わないではいられ",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-099-09-p1",
-          "text": "った",
+          "id": "so-created-n2-099-14-p4",
+          "text": "なかった。",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-099-14-p1",
+          "text": "予定になかった",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-099-14-p2",
+          "text": "クロワッサンを",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-099-09-p2",
-        "so-extra20-n2-099-09-p3",
-        "so-extra20-n2-099-09-p4",
-        "so-extra20-n2-099-09-p1"
+        "so-created-n2-099-14-p1",
+        "so-created-n2-099-14-p2",
+        "so-created-n2-099-14-p3",
+        "so-created-n2-099-14-p4"
       ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '갓 구운 빵 냄새에 이끌려 예정에 없던 크루아상을 사지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
       "sourceGrammarIds": [
-        "n2-099"
+        "n2-099",
+        "n2-125",
+        "n2-126",
+        "n2-127"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-099-10",
+      "id": "so-created-n2-099-15",
       "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
+      "sentence": "親友の結婚報告を受け、夜中でもすぐに電話しないではいられなかった。",
+      "sentenceWithBlanks": "親友の ____ ____ ____ ____",
+      "korean": "절친의 결혼 소식을 듣고 한밤중인데도 바로 전화하지 않을 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-099-10-p1",
-          "text": "なか",
+          "id": "so-created-n2-099-15-p2",
+          "text": "夜中でもすぐに",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-099-15-p3",
+          "text": "電話しないではいられ",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-099-10-p2",
-          "text": "った",
+          "id": "so-created-n2-099-15-p4",
+          "text": "なかった。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-099-10-p3",
-          "text": "泣か",
+          "id": "so-created-n2-099-15-p1",
+          "text": "結婚報告を受け、",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-099-10-p4",
-          "text": "ないではいられ",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-099-10-p3",
-        "so-extra20-n2-099-10-p4",
-        "so-extra20-n2-099-10-p1",
-        "so-extra20-n2-099-10-p2"
+        "so-created-n2-099-15-p1",
+        "so-created-n2-099-15-p2",
+        "so-created-n2-099-15-p3",
+        "so-created-n2-099-15-p4"
       ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '절친의 결혼 소식을 듣고 한밤중인데도 바로 전화하지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
       "sourceGrammarIds": [
-        "n2-099"
+        "n2-099",
+        "n2-125",
+        "n2-126",
+        "n2-127"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-099-11",
+      "id": "so-created-n2-099-16",
       "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
+      "sentence": "危険な運転を繰り返す乗客に、バスの運転手は停車して警告しないではいられなかった。",
+      "sentenceWithBlanks": "危険な運転を ____ ____ ____ ____ なかった。",
+      "korean": "위험한 행동을 거듭하는 승객에게 버스 운전기사는 차를 세우고 경고하지 않을 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-099-11-p4",
-          "text": "ないではいられ",
+          "id": "so-created-n2-099-16-p1",
+          "text": "繰り返す乗客に、",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-099-16-p2",
+          "text": "バスの運転手は",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-099-11-p1",
-          "text": "なか",
+          "id": "so-created-n2-099-16-p3",
+          "text": "停車して警告し",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-099-11-p2",
-          "text": "った",
+          "id": "so-created-n2-099-16-p4",
+          "text": "ないではいられ",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-099-11-p3",
-          "text": "泣か",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-099-11-p3",
-        "so-extra20-n2-099-11-p4",
-        "so-extra20-n2-099-11-p1",
-        "so-extra20-n2-099-11-p2"
+        "so-created-n2-099-16-p1",
+        "so-created-n2-099-16-p2",
+        "so-created-n2-099-16-p3",
+        "so-created-n2-099-16-p4"
       ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '위험한 행동을 거듭하는 승객에게 버스 운전기사는 차를 세우고 경고하지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
       "sourceGrammarIds": [
-        "n2-099"
+        "n2-099",
+        "n2-125",
+        "n2-126",
+        "n2-127"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-099-12",
+      "id": "so-created-n2-099-17",
       "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
+      "sentence": "震災で店を失った友人のため、商店街の仲間は募金を始めないではいられなかった。",
+      "sentenceWithBlanks": "震災で店を失った友人のため、 ____ ____ ____ ____",
+      "korean": "지진 재해로 가게를 잃은 친구를 위해 상점가 사람들은 모금을 시작하지 않을 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-099-12-p3",
-          "text": "った",
+          "id": "so-created-n2-099-17-p4",
+          "text": "なかった。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-099-12-p4",
-          "text": "泣か",
+          "id": "so-created-n2-099-17-p1",
+          "text": "商店街の仲間は",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-099-12-p1",
-          "text": "ないではいられ",
+          "id": "so-created-n2-099-17-p2",
+          "text": "募金を始め",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-099-12-p2",
-          "text": "なか",
+          "id": "so-created-n2-099-17-p3",
+          "text": "ないではいられ",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-099-12-p4",
-        "so-extra20-n2-099-12-p1",
-        "so-extra20-n2-099-12-p2",
-        "so-extra20-n2-099-12-p3"
+        "so-created-n2-099-17-p1",
+        "so-created-n2-099-17-p2",
+        "so-created-n2-099-17-p3",
+        "so-created-n2-099-17-p4"
       ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '지진 재해로 가게를 잃은 친구를 위해 상점가 사람들은 모금을 시작하지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
       "sourceGrammarIds": [
-        "n2-099"
+        "n2-099",
+        "n2-125",
+        "n2-126",
+        "n2-127"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-099-13",
+      "id": "so-created-n2-099-18",
       "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
+      "sentence": "庭の桜が一斉に咲いた朝は、仕事の前に写真を撮らないではいられない。",
+      "sentenceWithBlanks": "庭の桜が一斉に ____ ____ ____ ____ ない。",
+      "korean": "정원의 벚꽃이 일제히 핀 아침에는 출근 전에 사진을 찍지 않을 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-099-13-p2",
-          "text": "ないではいられ",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-099-13-p3",
-          "text": "なか",
+          "id": "so-created-n2-099-18-p3",
+          "text": "写真を撮ら",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-099-13-p4",
-          "text": "った",
+          "id": "so-created-n2-099-18-p4",
+          "text": "ないではいられ",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-099-13-p1",
-          "text": "泣か",
+          "id": "so-created-n2-099-18-p1",
+          "text": "咲いた朝は、",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-099-18-p2",
+          "text": "仕事の前に",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-099-13-p1",
-        "so-extra20-n2-099-13-p2",
-        "so-extra20-n2-099-13-p3",
-        "so-extra20-n2-099-13-p4"
+        "so-created-n2-099-18-p1",
+        "so-created-n2-099-18-p2",
+        "so-created-n2-099-18-p3",
+        "so-created-n2-099-18-p4"
       ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '정원의 벚꽃이 일제히 핀 아침에는 출근 전에 사진을 찍지 않을 수 없다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
       "sourceGrammarIds": [
-        "n2-099"
+        "n2-099",
+        "n2-125",
+        "n2-126",
+        "n2-127"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-099-14",
+      "id": "so-created-n2-099-19",
       "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
+      "sentence": "誤診で苦しんだ経験から、医師は検査結果を何度も確かめないではいられない。",
+      "sentenceWithBlanks": "誤診で苦しんだ経験から、 ____ ____ ____ ____ ない。",
+      "korean": "오진으로 고생한 경험 때문에 의사는 검사 결과를 몇 번이고 확인하지 않을 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-099-14-p1",
-          "text": "った",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-099-14-p2",
-          "text": "泣か",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-099-14-p3",
-          "text": "ないではいられ",
+          "id": "so-created-n2-099-19-p2",
+          "text": "結果を何",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-099-14-p4",
-          "text": "なか",
+          "id": "so-created-n2-099-19-p3",
+          "text": "度も確かめ",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-099-19-p4",
+          "text": "ないではいられ",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-099-19-p1",
+          "text": "医師は検査",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-099-14-p2",
-        "so-extra20-n2-099-14-p3",
-        "so-extra20-n2-099-14-p4",
-        "so-extra20-n2-099-14-p1"
+        "so-created-n2-099-19-p1",
+        "so-created-n2-099-19-p2",
+        "so-created-n2-099-19-p3",
+        "so-created-n2-099-19-p4"
       ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '오진으로 고생한 경험 때문에 의사는 검사 결과를 몇 번이고 확인하지 않을 수 없다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
       "sourceGrammarIds": [
-        "n2-099"
+        "n2-099",
+        "n2-125",
+        "n2-126",
+        "n2-127"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-099-15",
+      "id": "so-created-n2-099-20",
       "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
+      "sentence": "舞台袖で緊張する新人俳優に、主演女優は励ましの声をかけないではいられなかった。",
+      "sentenceWithBlanks": "舞台袖で緊張する ____ ____ ____ ____ なかった。",
+      "korean": "무대 뒤에서 긴장하는 신인 배우에게 주연 여배우는 격려의 말을 건네지 않을 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-099-15-p4",
-          "text": "ないではいられ",
+          "id": "so-created-n2-099-20-p1",
+          "text": "新人俳優に、",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-099-20-p2",
+          "text": "主演女優は",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-099-15-p1",
-          "text": "なか",
+          "id": "so-created-n2-099-20-p3",
+          "text": "励ましの声をかけ",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-099-15-p2",
-          "text": "った",
+          "id": "so-created-n2-099-20-p4",
+          "text": "ないではいられ",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-099-15-p3",
-          "text": "泣か",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-099-15-p3",
-        "so-extra20-n2-099-15-p4",
-        "so-extra20-n2-099-15-p1",
-        "so-extra20-n2-099-15-p2"
+        "so-created-n2-099-20-p1",
+        "so-created-n2-099-20-p2",
+        "so-created-n2-099-20-p3",
+        "so-created-n2-099-20-p4"
       ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '무대 뒤에서 긴장하는 신인 배우에게 주연 여배우는 격려의 말을 건네지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
       "sourceGrammarIds": [
-        "n2-099"
+        "n2-099",
+        "n2-125",
+        "n2-126",
+        "n2-127"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-099-16",
+      "id": "so-created-n2-099-21",
       "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
+      "sentence": "川で子どもの帽子が流されていくのを見て、青年は追いかけないではいられなかった。",
+      "sentenceWithBlanks": "川で子どもの帽子が ____ ____ ____ ____",
+      "korean": "강에서 아이의 모자가 떠내려가는 것을 보고 청년은 뒤쫓지 않을 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-099-16-p3",
-          "text": "泣か",
+          "id": "so-created-n2-099-21-p4",
+          "text": "なかった。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-099-21-p1",
+          "text": "流されていくのを",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-099-16-p4",
-          "text": "ないではいられ",
+          "id": "so-created-n2-099-21-p2",
+          "text": "見て、青年は追いかけ",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-099-16-p1",
-          "text": "なか",
+          "id": "so-created-n2-099-21-p3",
+          "text": "ないではいられ",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-099-16-p2",
-          "text": "った",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-099-16-p3",
-        "so-extra20-n2-099-16-p4",
-        "so-extra20-n2-099-16-p1",
-        "so-extra20-n2-099-16-p2"
+        "so-created-n2-099-21-p1",
+        "so-created-n2-099-21-p2",
+        "so-created-n2-099-21-p3",
+        "so-created-n2-099-21-p4"
       ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '강에서 아이의 모자가 떠내려가는 것을 보고 청년은 뒤쫓지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
       "sourceGrammarIds": [
-        "n2-099"
+        "n2-099",
+        "n2-125",
+        "n2-126",
+        "n2-127"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-099-17",
+      "id": "so-created-n2-099-22",
       "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
+      "sentence": "長年の容疑が晴れた瞬間、家族は抱き合って喜ばないではいられなかった。",
+      "sentenceWithBlanks": "長年の容疑が ____ ____ ____ ____ なかった。",
+      "korean": "오랜 혐의가 풀린 순간 가족들은 서로 껴안고 기뻐하지 않을 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-099-17-p2",
-          "text": "なか",
+          "id": "so-created-n2-099-22-p3",
+          "text": "合って喜ば",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-099-17-p3",
-          "text": "った",
+          "id": "so-created-n2-099-22-p4",
+          "text": "ないではいられ",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-099-17-p4",
-          "text": "泣か",
+          "id": "so-created-n2-099-22-p1",
+          "text": "晴れた瞬間、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-099-17-p1",
-          "text": "ないではいられ",
+          "id": "so-created-n2-099-22-p2",
+          "text": "家族は抱き",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-099-17-p4",
-        "so-extra20-n2-099-17-p1",
-        "so-extra20-n2-099-17-p2",
-        "so-extra20-n2-099-17-p3"
+        "so-created-n2-099-22-p1",
+        "so-created-n2-099-22-p2",
+        "so-created-n2-099-22-p3",
+        "so-created-n2-099-22-p4"
       ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '오랜 혐의가 풀린 순간 가족들은 서로 껴안고 기뻐하지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
       "sourceGrammarIds": [
-        "n2-099"
+        "n2-099",
+        "n2-125",
+        "n2-126",
+        "n2-127"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-099-18",
+      "id": "so-created-n2-099-23",
       "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
+      "sentence": "市場で希少な古時計を見つけ、収集家は店主に値段を尋ねないではいられなかった。",
+      "sentenceWithBlanks": "市場で希少な古時計を ____ ____ ____ ____ なかった。",
+      "korean": "시장에서 희귀한 골동품 시계를 발견하고 수집가는 주인에게 가격을 묻지 않을 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-099-18-p1",
-          "text": "泣か",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-099-18-p2",
-          "text": "ないではいられ",
+          "id": "so-created-n2-099-23-p2",
+          "text": "家は店主に",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-099-18-p3",
-          "text": "なか",
+          "id": "so-created-n2-099-23-p3",
+          "text": "値段を尋ね",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-099-18-p4",
-          "text": "った",
+          "id": "so-created-n2-099-23-p4",
+          "text": "ないではいられ",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-099-23-p1",
+          "text": "見つけ、収集",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-099-18-p1",
-        "so-extra20-n2-099-18-p2",
-        "so-extra20-n2-099-18-p3",
-        "so-extra20-n2-099-18-p4"
+        "so-created-n2-099-23-p1",
+        "so-created-n2-099-23-p2",
+        "so-created-n2-099-23-p3",
+        "so-created-n2-099-23-p4"
       ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '시장에서 희귀한 골동품 시계를 발견하고 수집가는 주인에게 가격을 묻지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
       "sourceGrammarIds": [
-        "n2-099"
+        "n2-099",
+        "n2-125",
+        "n2-126",
+        "n2-127"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-099-19",
+      "id": "so-created-n2-099-24",
       "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
+      "sentence": "毎晩隣室から怒鳴り声が聞こえ、住人は管理人に相談しないではいられなかった。",
+      "sentenceWithBlanks": "毎晩隣室から怒 ____ ____ ____ ____ なかった。",
+      "korean": "매일 밤 옆방에서 고함 소리가 들려 주민은 관리인에게 상담하지 않을 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-099-19-p4",
-          "text": "なか",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-099-19-p1",
-          "text": "った",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-099-19-p2",
-          "text": "泣か",
+          "id": "so-created-n2-099-24-p1",
+          "text": "鳴り声が",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-099-19-p3",
-          "text": "ないではいられ",
+          "id": "so-created-n2-099-24-p2",
+          "text": "聞こえ、住人は",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-099-24-p3",
+          "text": "管理人に相談し",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-099-24-p4",
+          "text": "ないではいられ",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-099-19-p2",
-        "so-extra20-n2-099-19-p3",
-        "so-extra20-n2-099-19-p4",
-        "so-extra20-n2-099-19-p1"
+        "so-created-n2-099-24-p1",
+        "so-created-n2-099-24-p2",
+        "so-created-n2-099-24-p3",
+        "so-created-n2-099-24-p4"
       ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '매일 밤 옆방에서 고함 소리가 들려 주민은 관리인에게 상담하지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
       "sourceGrammarIds": [
-        "n2-099"
+        "n2-099",
+        "n2-125",
+        "n2-126",
+        "n2-127"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-099-20",
+      "id": "so-created-n2-099-25",
       "level": "N2",
-      "sentence": "その話を聞いて、泣かないではいられなかった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ なかった。",
-      "korean": "그 이야기를 듣고 울지 않을 수 없었다.",
+      "sentence": "自分の設計した橋が完成した姿を眺め、技師は誇らしく思わないではいられなかった。",
+      "sentenceWithBlanks": "自分の設計した橋が ____ ____ ____ ____ なかった。",
+      "korean": "자신이 설계한 다리가 완성된 모습을 바라보며 기술자는 자랑스럽게 여기지 않을 수 없었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-099-20-p3",
-          "text": "泣か",
+          "id": "so-created-n2-099-25-p4",
+          "text": "ないではいられ",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-099-25-p1",
+          "text": "完成した姿を",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-099-20-p4",
-          "text": "ないではいられ",
+          "id": "so-created-n2-099-25-p2",
+          "text": "眺め、技師は",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-099-20-p1",
-          "text": "なか",
+          "id": "so-created-n2-099-25-p3",
+          "text": "誇らしく思わ",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-099-20-p2",
-          "text": "った",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-099-20-p3",
-        "so-extra20-n2-099-20-p4",
-        "so-extra20-n2-099-20-p1",
-        "so-extra20-n2-099-20-p2"
+        "so-created-n2-099-25-p1",
+        "so-created-n2-099-25-p2",
+        "so-created-n2-099-25-p3",
+        "so-created-n2-099-25-p4"
       ],
-      "explanation": "「ないではいられない」는 ~하지 않을 수 없다라는 뜻이다. 감정·충동이 강해 자연히 하게 됨.",
+      "explanation": "「ないではいられ」는 '~하지 않을 수 없다'라는 뜻을 나타낸다. 이 문장에서는 '자신이 설계한 다리가 완성된 모습을 바라보며 기술자는 자랑스럽게 여기지 않을 수 없었다.'라는 상황에 쓰였으며, 감정·충동이 강해 자연히 하게 됨. 주의할 점은 구어적. ずにはいられない는 문어적. 억누를 수 없는 충동 표현으로 세트로 암기.",
       "sourceGrammarIds": [
-        "n2-099"
+        "n2-099",
+        "n2-125",
+        "n2-126",
+        "n2-127"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     }
   ]

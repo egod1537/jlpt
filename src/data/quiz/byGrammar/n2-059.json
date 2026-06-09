@@ -282,15 +282,23 @@
       ]
     },
     {
-      "id": "fb-extra-n2-059-1",
+      "id": "fb-created-n2-059-01",
       "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlank": "いくら働い（　　　）、こう物価が高くては生活は楽にはならない。",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
-      "answerChoiceId": "fb-extra-n2-059-1-d",
+      "sentence": "今から駅まで走ったところで、最終列車には間に合わない。",
+      "sentenceWithBlank": "今から駅まで走っ（　　　）、最終列車には間に合わない。",
+      "korean": "지금부터 역까지 달려 봤자 막차에는 제시간에 도착하지 못한다.",
+      "answerChoiceId": "fb-created-n2-059-01-d",
       "choices": [
         {
-          "id": "fb-extra-n2-059-1-a",
+          "id": "fb-created-n2-059-01-d",
+          "text": "たところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "たところで",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-059-01-a",
           "text": "からといって",
           "grammarId": "n2-028",
           "baseExpression": "からといって",
@@ -298,7 +306,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-059-1-b",
+          "id": "fb-created-n2-059-01-b",
           "text": "した以上は",
           "grammarId": "n2-003",
           "baseExpression": "以上は",
@@ -306,23 +314,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-059-1-c",
+          "id": "fb-created-n2-059-01-c",
           "text": "したあげく",
           "grammarId": "n2-001",
           "baseExpression": "あげく",
           "conjugatedExpression": "したあげく",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-059-1-d",
-          "text": "たところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "たところで",
-          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '지금부터 역까지 달려 봤자 막차에는 제시간에 도착하지 못한다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
       "sourceGrammarIds": [
         "n2-059",
         "n2-028",
@@ -333,21 +333,20 @@
         "仮定",
         "否定",
         "制限",
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra-n2-059-2",
+      "id": "fb-created-n2-059-02",
       "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlank": "いくら働い（　　　）、こう物価が高くては生活は楽にはならない。",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
-      "answerChoiceId": "fb-extra-n2-059-2-a",
+      "sentence": "壊れた傘をテープで直したところで、強い風には耐えられないだろう。",
+      "sentenceWithBlank": "壊れた傘をテープで直し（　　　）、強い風には耐えられないだろう。",
+      "korean": "망가진 우산을 테이프로 고쳐 봤자 강한 바람은 견디지 못할 것이다.",
+      "answerChoiceId": "fb-created-n2-059-02-d",
       "choices": [
         {
-          "id": "fb-extra-n2-059-2-b",
+          "id": "fb-created-n2-059-02-a",
           "text": "からといって",
           "grammarId": "n2-028",
           "baseExpression": "からといって",
@@ -355,7 +354,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-059-2-c",
+          "id": "fb-created-n2-059-02-b",
           "text": "した以上は",
           "grammarId": "n2-003",
           "baseExpression": "以上は",
@@ -363,7 +362,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-059-2-d",
+          "id": "fb-created-n2-059-02-c",
           "text": "したあげく",
           "grammarId": "n2-001",
           "baseExpression": "あげく",
@@ -371,7 +370,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-059-2-a",
+          "id": "fb-created-n2-059-02-d",
           "text": "たところで",
           "grammarId": "n2-059",
           "baseExpression": "たところで",
@@ -379,7 +378,7 @@
           "isSimilarDistractor": false
         }
       ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '망가진 우산을 테이프로 고쳐 봤자 강한 바람은 견디지 못할 것이다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
       "sourceGrammarIds": [
         "n2-059",
         "n2-028",
@@ -390,94 +389,20 @@
         "仮定",
         "否定",
         "制限",
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra-n2-059-3",
+      "id": "fb-created-n2-059-03",
       "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlank": "いくら働い（　　　）、こう物価が高くては生活は楽にはならない。",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
-      "answerChoiceId": "fb-extra-n2-059-3-b",
+      "sentence": "一人で反対したところで、取締役会の決定は覆せない。",
+      "sentenceWithBlank": "一人で反対し（　　　）、取締役会の決定は覆せない。",
+      "korean": "혼자 반대해 봤자 이사회의 결정을 뒤집을 수 없다.",
+      "answerChoiceId": "fb-created-n2-059-03-d",
       "choices": [
         {
-          "id": "fb-extra-n2-059-3-c",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-059-3-d",
-          "text": "学生である以上は",
-          "grammarId": "n2-003",
-          "baseExpression": "以上は",
-          "conjugatedExpression": "学生である以上は",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-059-3-a",
-          "text": "議論のあげく",
-          "grammarId": "n2-001",
-          "baseExpression": "あげく",
-          "conjugatedExpression": "議論のあげく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-059-3-b",
-          "text": "たところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "たところで",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
-      "sourceGrammarIds": [
-        "n2-059",
-        "n2-028",
-        "n2-003",
-        "n2-001"
-      ],
-      "tags": [
-        "仮定",
-        "否定",
-        "制限",
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-059-4",
-      "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlank": "いくら働い（　　　）、こう物価が高くては生活は楽にはならない。",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
-      "answerChoiceId": "fb-extra-n2-059-4-c",
-      "choices": [
-        {
-          "id": "fb-extra-n2-059-4-d",
-          "text": "したあげく",
-          "grammarId": "n2-001",
-          "baseExpression": "あげく",
-          "conjugatedExpression": "したあげく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-059-4-a",
-          "text": "したからといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "したからといって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-059-4-b",
+          "id": "fb-created-n2-059-03-b",
           "text": "した以上は",
           "grammarId": "n2-003",
           "baseExpression": "以上は",
@@ -485,113 +410,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-059-4-c",
-          "text": "たところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "たところで",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
-      "sourceGrammarIds": [
-        "n2-059",
-        "n2-001",
-        "n2-028",
-        "n2-003"
-      ],
-      "tags": [
-        "仮定",
-        "否定",
-        "制限",
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-059-5",
-      "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlank": "いくら働い（　　　）、こう物価が高くては生活は楽にはならない。",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
-      "answerChoiceId": "fb-extra-n2-059-5-d",
-      "choices": [
-        {
-          "id": "fb-extra-n2-059-5-a",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-059-5-b",
-          "text": "学生である以上は",
-          "grammarId": "n2-003",
-          "baseExpression": "以上は",
-          "conjugatedExpression": "学生である以上は",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-059-5-c",
-          "text": "議論のあげく",
-          "grammarId": "n2-001",
-          "baseExpression": "あげく",
-          "conjugatedExpression": "議論のあげく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-059-5-d",
-          "text": "たところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "たところで",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
-      "sourceGrammarIds": [
-        "n2-059",
-        "n2-028",
-        "n2-003",
-        "n2-001"
-      ],
-      "tags": [
-        "仮定",
-        "否定",
-        "制限",
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-059-01",
-      "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlank": "いくら働い（　　　）、こう物価が高くては生活は楽にはならない。",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
-      "answerChoiceId": "fb-extra20-n2-059-01-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-059-01-a",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-059-01-b",
-          "text": "した以上は",
-          "grammarId": "n2-003",
-          "baseExpression": "以上は",
-          "conjugatedExpression": "した以上は",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-059-01-c",
+          "id": "fb-created-n2-059-03-c",
           "text": "したあげく",
           "grammarId": "n2-001",
           "baseExpression": "あげく",
@@ -599,15 +418,23 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-059-01-d",
+          "id": "fb-created-n2-059-03-d",
           "text": "たところで",
           "grammarId": "n2-059",
           "baseExpression": "たところで",
           "conjugatedExpression": "たところで",
           "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-059-03-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
         }
       ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '혼자 반대해 봤자 이사회의 결정을 뒤집을 수 없다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
       "sourceGrammarIds": [
         "n2-059",
         "n2-028",
@@ -618,21 +445,20 @@
         "仮定",
         "否定",
         "制限",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-059-02",
+      "id": "fb-created-n2-059-04",
       "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlank": "いくら働い（　　　）、こう物価が高くては生活は楽にはならない。",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
-      "answerChoiceId": "fb-extra20-n2-059-02-a",
+      "sentence": "締め切りの前日に設計を変更したところで、製造には反映できない。",
+      "sentenceWithBlank": "締め切りの前日に設計を変更し（　　　）、製造には反映できない。",
+      "korean": "마감 전날에 설계를 변경해 봤자 제조에는 반영할 수 없다.",
+      "answerChoiceId": "fb-created-n2-059-04-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-059-02-d",
+          "id": "fb-created-n2-059-04-c",
           "text": "したあげく",
           "grammarId": "n2-001",
           "baseExpression": "あげく",
@@ -640,7 +466,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-059-02-a",
+          "id": "fb-created-n2-059-04-d",
           "text": "たところで",
           "grammarId": "n2-059",
           "baseExpression": "たところで",
@@ -648,7 +474,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-059-02-b",
+          "id": "fb-created-n2-059-04-a",
           "text": "からといって",
           "grammarId": "n2-028",
           "baseExpression": "からといって",
@@ -656,7 +482,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-059-02-c",
+          "id": "fb-created-n2-059-04-b",
           "text": "した以上は",
           "grammarId": "n2-003",
           "baseExpression": "以上は",
@@ -664,7 +490,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '마감 전날에 설계를 변경해 봤자 제조에는 반영할 수 없다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
       "sourceGrammarIds": [
         "n2-059",
         "n2-028",
@@ -675,21 +501,28 @@
         "仮定",
         "否定",
         "制限",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-059-03",
+      "id": "fb-created-n2-059-05",
       "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlank": "いくら働い（　　　）、こう物価が高くては生活は楽にはならない。",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
-      "answerChoiceId": "fb-extra20-n2-059-03-b",
+      "sentence": "何度謝ったところで、失われた信頼がすぐ戻るわけではない。",
+      "sentenceWithBlank": "何度謝っ（　　　）、失われた信頼がすぐ戻るわけではない。",
+      "korean": "몇 번을 사과해 봤자 잃어버린 신뢰가 바로 돌아오는 것은 아니다.",
+      "answerChoiceId": "fb-created-n2-059-05-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-059-03-c",
+          "id": "fb-created-n2-059-05-d",
+          "text": "たところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "たところで",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-059-05-a",
           "text": "からといって",
           "grammarId": "n2-028",
           "baseExpression": "からといって",
@@ -697,56 +530,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-059-03-d",
-          "text": "学生である以上は",
-          "grammarId": "n2-003",
-          "baseExpression": "以上は",
-          "conjugatedExpression": "学生である以上は",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-059-03-a",
-          "text": "議論のあげく",
-          "grammarId": "n2-001",
-          "baseExpression": "あげく",
-          "conjugatedExpression": "議論のあげく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-059-03-b",
-          "text": "たところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "たところで",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
-      "sourceGrammarIds": [
-        "n2-059",
-        "n2-028",
-        "n2-003",
-        "n2-001"
-      ],
-      "tags": [
-        "仮定",
-        "否定",
-        "制限",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-059-04",
-      "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlank": "いくら働い（　　　）、こう物価が高くては生活は楽にはならない。",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
-      "answerChoiceId": "fb-extra20-n2-059-04-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-059-04-b",
+          "id": "fb-created-n2-059-05-b",
           "text": "した以上は",
           "grammarId": "n2-003",
           "baseExpression": "以上は",
@@ -754,137 +538,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-059-04-c",
-          "text": "たところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "たところで",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-059-04-d",
-          "text": "したあげく",
-          "grammarId": "n2-001",
-          "baseExpression": "あげく",
-          "conjugatedExpression": "したあげく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-059-04-a",
-          "text": "したからといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "したからといって",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
-      "sourceGrammarIds": [
-        "n2-059",
-        "n2-001",
-        "n2-028",
-        "n2-003"
-      ],
-      "tags": [
-        "仮定",
-        "否定",
-        "制限",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-059-05",
-      "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlank": "いくら働い（　　　）、こう物価が高くては生活は楽にはならない。",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
-      "answerChoiceId": "fb-extra20-n2-059-05-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-059-05-a",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-059-05-b",
-          "text": "学生である以上は",
-          "grammarId": "n2-003",
-          "baseExpression": "以上は",
-          "conjugatedExpression": "学生である以上は",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-059-05-c",
-          "text": "議論のあげく",
-          "grammarId": "n2-001",
-          "baseExpression": "あげく",
-          "conjugatedExpression": "議論のあげく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-059-05-d",
-          "text": "たところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "たところで",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
-      "sourceGrammarIds": [
-        "n2-059",
-        "n2-028",
-        "n2-003",
-        "n2-001"
-      ],
-      "tags": [
-        "仮定",
-        "否定",
-        "制限",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-059-06",
-      "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlank": "いくら働い（　　　）、こう物価が高くては生活は楽にはならない。",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
-      "answerChoiceId": "fb-extra20-n2-059-06-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-059-06-d",
-          "text": "たところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "たところで",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-059-06-a",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-059-06-b",
-          "text": "した以上は",
-          "grammarId": "n2-003",
-          "baseExpression": "以上は",
-          "conjugatedExpression": "した以上は",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-059-06-c",
+          "id": "fb-created-n2-059-05-c",
           "text": "したあげく",
           "grammarId": "n2-001",
           "baseExpression": "あげく",
@@ -892,7 +546,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '몇 번을 사과해 봤자 잃어버린 신뢰가 바로 돌아오는 것은 아니다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
       "sourceGrammarIds": [
         "n2-059",
         "n2-028",
@@ -903,21 +557,28 @@
         "仮定",
         "否定",
         "制限",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-059-07",
+      "id": "fb-created-n2-059-06",
       "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlank": "いくら働い（　　　）、こう物価が高くては生活は楽にはならない。",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
-      "answerChoiceId": "fb-extra20-n2-059-07-a",
+      "sentence": "乾いた畑に少し水をまいたところで、作物の枯死は防げない。",
+      "sentenceWithBlank": "乾いた畑に少し水をまい（　　　）、作物の枯死は防げない。",
+      "korean": "메마른 밭에 물을 조금 뿌려 봤자 작물이 말라 죽는 것을 막을 수 없다.",
+      "answerChoiceId": "fb-created-n2-059-06-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-059-07-c",
+          "id": "fb-created-n2-059-06-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-059-06-b",
           "text": "した以上は",
           "grammarId": "n2-003",
           "baseExpression": "以上は",
@@ -925,7 +586,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-059-07-d",
+          "id": "fb-created-n2-059-06-c",
           "text": "したあげく",
           "grammarId": "n2-001",
           "baseExpression": "あげく",
@@ -933,23 +594,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-059-07-a",
+          "id": "fb-created-n2-059-06-d",
           "text": "たところで",
           "grammarId": "n2-059",
           "baseExpression": "たところで",
           "conjugatedExpression": "たところで",
           "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-059-07-b",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": true
         }
       ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '메마른 밭에 물을 조금 뿌려 봤자 작물이 말라 죽는 것을 막을 수 없다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
       "sourceGrammarIds": [
         "n2-059",
         "n2-028",
@@ -960,86 +613,20 @@
         "仮定",
         "否定",
         "制限",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-059-08",
+      "id": "fb-created-n2-059-07",
       "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlank": "いくら働い（　　　）、こう物価が高くては生活は楽にはならない。",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
-      "answerChoiceId": "fb-extra20-n2-059-08-b",
+      "sentence": "古いパソコンのメモリーを増やしたところで、最新の映像ソフトは動かない。",
+      "sentenceWithBlank": "古いパソコンのメモリーを増やし（　　　）、最新の映像ソフトは動かない。",
+      "korean": "오래된 컴퓨터의 메모리를 늘려 봤자 최신 영상 소프트웨어는 작동하지 않는다.",
+      "answerChoiceId": "fb-created-n2-059-07-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-059-08-b",
-          "text": "たところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "たところで",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-059-08-c",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-059-08-d",
-          "text": "学生である以上は",
-          "grammarId": "n2-003",
-          "baseExpression": "以上は",
-          "conjugatedExpression": "学生である以上は",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-059-08-a",
-          "text": "議論のあげく",
-          "grammarId": "n2-001",
-          "baseExpression": "あげく",
-          "conjugatedExpression": "議論のあげく",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
-      "sourceGrammarIds": [
-        "n2-059",
-        "n2-028",
-        "n2-003",
-        "n2-001"
-      ],
-      "tags": [
-        "仮定",
-        "否定",
-        "制限",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-059-09",
-      "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlank": "いくら働い（　　　）、こう物価が高くては生活は楽にはならない。",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
-      "answerChoiceId": "fb-extra20-n2-059-09-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-059-09-a",
-          "text": "したからといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "したからといって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-059-09-b",
+          "id": "fb-created-n2-059-07-b",
           "text": "した以上は",
           "grammarId": "n2-003",
           "baseExpression": "以上は",
@@ -1047,48 +634,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-059-09-c",
-          "text": "たところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "たところで",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-059-09-d",
+          "id": "fb-created-n2-059-07-c",
           "text": "したあげく",
           "grammarId": "n2-001",
           "baseExpression": "あげく",
           "conjugatedExpression": "したあげく",
           "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
-      "sourceGrammarIds": [
-        "n2-059",
-        "n2-001",
-        "n2-028",
-        "n2-003"
-      ],
-      "tags": [
-        "仮定",
-        "否定",
-        "制限",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-059-10",
-      "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlank": "いくら働い（　　　）、こう物価が高くては生活は楽にはならない。",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
-      "answerChoiceId": "fb-extra20-n2-059-10-d",
-      "choices": [
+        },
         {
-          "id": "fb-extra20-n2-059-10-d",
+          "id": "fb-created-n2-059-07-d",
           "text": "たところで",
           "grammarId": "n2-059",
           "baseExpression": "たところで",
@@ -1096,31 +650,15 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-059-10-a",
+          "id": "fb-created-n2-059-07-a",
           "text": "からといって",
           "grammarId": "n2-028",
           "baseExpression": "からといって",
           "conjugatedExpression": "からといって",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-059-10-b",
-          "text": "学生である以上は",
-          "grammarId": "n2-003",
-          "baseExpression": "以上は",
-          "conjugatedExpression": "学生である以上は",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-059-10-c",
-          "text": "議論のあげく",
-          "grammarId": "n2-001",
-          "baseExpression": "あげく",
-          "conjugatedExpression": "議論のあげく",
-          "isSimilarDistractor": true
         }
       ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '오래된 컴퓨터의 메모리를 늘려 봤자 최신 영상 소프트웨어는 작동하지 않는다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
       "sourceGrammarIds": [
         "n2-059",
         "n2-028",
@@ -1131,21 +669,20 @@
         "仮定",
         "否定",
         "制限",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-059-11",
+      "id": "fb-created-n2-059-08",
       "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlank": "いくら働い（　　　）、こう物価が高くては生活は楽にはならない。",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
-      "answerChoiceId": "fb-extra20-n2-059-11-d",
+      "sentence": "証拠もなく隣人を疑ったところで、真相には近づけない。",
+      "sentenceWithBlank": "証拠もなく隣人を疑っ（　　　）、真相には近づけない。",
+      "korean": "증거도 없이 이웃을 의심해 봤자 진상에는 다가갈 수 없다.",
+      "answerChoiceId": "fb-created-n2-059-08-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-059-11-c",
+          "id": "fb-created-n2-059-08-c",
           "text": "したあげく",
           "grammarId": "n2-001",
           "baseExpression": "あげく",
@@ -1153,7 +690,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-059-11-d",
+          "id": "fb-created-n2-059-08-d",
           "text": "たところで",
           "grammarId": "n2-059",
           "baseExpression": "たところで",
@@ -1161,7 +698,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-059-11-a",
+          "id": "fb-created-n2-059-08-a",
           "text": "からといって",
           "grammarId": "n2-028",
           "baseExpression": "からといって",
@@ -1169,7 +706,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-059-11-b",
+          "id": "fb-created-n2-059-08-b",
           "text": "した以上は",
           "grammarId": "n2-003",
           "baseExpression": "以上は",
@@ -1177,7 +714,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '증거도 없이 이웃을 의심해 봤자 진상에는 다가갈 수 없다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
       "sourceGrammarIds": [
         "n2-059",
         "n2-028",
@@ -1188,21 +725,28 @@
         "仮定",
         "否定",
         "制限",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-059-12",
+      "id": "fb-created-n2-059-09",
       "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlank": "いくら働い（　　　）、こう物価が高くては生活は楽にはならない。",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
-      "answerChoiceId": "fb-extra20-n2-059-12-a",
+      "sentence": "閉店後に店へ電話したところで、予約の変更は受け付けてもらえない。",
+      "sentenceWithBlank": "閉店後に店へ電話し（　　　）、予約の変更は受け付けてもらえない。",
+      "korean": "영업이 끝난 뒤 가게에 전화해 봤자 예약 변경은 받아 주지 않는다.",
+      "answerChoiceId": "fb-created-n2-059-09-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-059-12-b",
+          "id": "fb-created-n2-059-09-d",
+          "text": "たところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "たところで",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-059-09-a",
           "text": "からといって",
           "grammarId": "n2-028",
           "baseExpression": "からといって",
@@ -1210,7 +754,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-059-12-c",
+          "id": "fb-created-n2-059-09-b",
           "text": "した以上は",
           "grammarId": "n2-003",
           "baseExpression": "以上は",
@@ -1218,23 +762,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-059-12-d",
+          "id": "fb-created-n2-059-09-c",
           "text": "したあげく",
           "grammarId": "n2-001",
           "baseExpression": "あげく",
           "conjugatedExpression": "したあげく",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-059-12-a",
-          "text": "たところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "たところで",
-          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '영업이 끝난 뒤 가게에 전화해 봤자 예약 변경은 받아 주지 않는다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
       "sourceGrammarIds": [
         "n2-059",
         "n2-028",
@@ -1245,37 +781,20 @@
         "仮定",
         "否定",
         "制限",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-059-13",
+      "id": "fb-created-n2-059-10",
       "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlank": "いくら働い（　　　）、こう物価が高くては生活は楽にはならない。",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
-      "answerChoiceId": "fb-extra20-n2-059-13-b",
+      "sentence": "表面だけ磨いたところで、この宝石の価値は上がらない。",
+      "sentenceWithBlank": "表面だけ磨い（　　　）、この宝石の価値は上がらない。",
+      "korean": "표면만 닦아 봤자 이 보석의 가치는 오르지 않는다.",
+      "answerChoiceId": "fb-created-n2-059-10-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-059-13-a",
-          "text": "議論のあげく",
-          "grammarId": "n2-001",
-          "baseExpression": "あげく",
-          "conjugatedExpression": "議論のあげく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-059-13-b",
-          "text": "たところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "たところで",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-059-13-c",
+          "id": "fb-created-n2-059-10-a",
           "text": "からといって",
           "grammarId": "n2-028",
           "baseExpression": "からといって",
@@ -1283,56 +802,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-059-13-d",
-          "text": "学生である以上は",
-          "grammarId": "n2-003",
-          "baseExpression": "以上は",
-          "conjugatedExpression": "学生である以上は",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
-      "sourceGrammarIds": [
-        "n2-059",
-        "n2-028",
-        "n2-003",
-        "n2-001"
-      ],
-      "tags": [
-        "仮定",
-        "否定",
-        "制限",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-059-14",
-      "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlank": "いくら働い（　　　）、こう物価が高くては生活は楽にはならない。",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
-      "answerChoiceId": "fb-extra20-n2-059-14-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-059-14-d",
-          "text": "したあげく",
-          "grammarId": "n2-001",
-          "baseExpression": "あげく",
-          "conjugatedExpression": "したあげく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-059-14-a",
-          "text": "したからといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "したからといって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-059-14-b",
+          "id": "fb-created-n2-059-10-b",
           "text": "した以上は",
           "grammarId": "n2-003",
           "baseExpression": "以上は",
@@ -1340,105 +810,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-059-14-c",
-          "text": "たところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "たところで",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
-      "sourceGrammarIds": [
-        "n2-059",
-        "n2-001",
-        "n2-028",
-        "n2-003"
-      ],
-      "tags": [
-        "仮定",
-        "否定",
-        "制限",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-059-15",
-      "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlank": "いくら働い（　　　）、こう物価が高くては生活は楽にはならない。",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
-      "answerChoiceId": "fb-extra20-n2-059-15-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-059-15-c",
-          "text": "議論のあげく",
-          "grammarId": "n2-001",
-          "baseExpression": "あげく",
-          "conjugatedExpression": "議論のあげく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-059-15-d",
-          "text": "たところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "たところで",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-059-15-a",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-059-15-b",
-          "text": "学生である以上は",
-          "grammarId": "n2-003",
-          "baseExpression": "以上は",
-          "conjugatedExpression": "学生である以上は",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
-      "sourceGrammarIds": [
-        "n2-059",
-        "n2-028",
-        "n2-003",
-        "n2-001"
-      ],
-      "tags": [
-        "仮定",
-        "否定",
-        "制限",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-059-16",
-      "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlank": "いくら働い（　　　）、こう物価が高くては生活は楽にはならない。",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
-      "answerChoiceId": "fb-extra20-n2-059-16-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-059-16-b",
-          "text": "した以上は",
-          "grammarId": "n2-003",
-          "baseExpression": "以上は",
-          "conjugatedExpression": "した以上は",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-059-16-c",
+          "id": "fb-created-n2-059-10-c",
           "text": "したあげく",
           "grammarId": "n2-001",
           "baseExpression": "あげく",
@@ -1446,23 +818,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-059-16-d",
+          "id": "fb-created-n2-059-10-d",
           "text": "たところで",
           "grammarId": "n2-059",
           "baseExpression": "たところで",
           "conjugatedExpression": "たところで",
           "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-059-16-a",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": true
         }
       ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '표면만 닦아 봤자 이 보석의 가치는 오르지 않는다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
       "sourceGrammarIds": [
         "n2-059",
         "n2-028",
@@ -1473,37 +837,20 @@
         "仮定",
         "否定",
         "制限",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-059-17",
+      "id": "fb-created-n2-059-11",
       "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlank": "いくら働い（　　　）、こう物価が高くては生活は楽にはならない。",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
-      "answerChoiceId": "fb-extra20-n2-059-17-a",
+      "sentence": "患者本人が拒んでいる以上、家族が説得したところで手術への同意は得られない。",
+      "sentenceWithBlank": "患者本人が拒んでいる以上、家族が説得し（　　　）手術への同意は得られない。",
+      "korean": "환자 본인이 거부하는 이상 가족이 설득해 봤자 수술 동의는 얻을 수 없다.",
+      "answerChoiceId": "fb-created-n2-059-11-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-059-17-a",
-          "text": "たところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "たところで",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-059-17-b",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-059-17-c",
+          "id": "fb-created-n2-059-11-b",
           "text": "した以上は",
           "grammarId": "n2-003",
           "baseExpression": "以上は",
@@ -1511,56 +858,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-059-17-d",
+          "id": "fb-created-n2-059-11-c",
           "text": "したあげく",
           "grammarId": "n2-001",
           "baseExpression": "あげく",
           "conjugatedExpression": "したあげく",
           "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
-      "sourceGrammarIds": [
-        "n2-059",
-        "n2-028",
-        "n2-003",
-        "n2-001"
-      ],
-      "tags": [
-        "仮定",
-        "否定",
-        "制限",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-059-18",
-      "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlank": "いくら働い（　　　）、こう物価が高くては生活は楽にはならない。",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
-      "answerChoiceId": "fb-extra20-n2-059-18-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-059-18-d",
-          "text": "学生である以上は",
-          "grammarId": "n2-003",
-          "baseExpression": "以上は",
-          "conjugatedExpression": "学生である以上は",
-          "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-059-18-a",
-          "text": "議論のあげく",
-          "grammarId": "n2-001",
-          "baseExpression": "あげく",
-          "conjugatedExpression": "議論のあげく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-059-18-b",
+          "id": "fb-created-n2-059-11-d",
           "text": "たところで",
           "grammarId": "n2-059",
           "baseExpression": "たところで",
@@ -1568,7 +874,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-059-18-c",
+          "id": "fb-created-n2-059-11-a",
           "text": "からといって",
           "grammarId": "n2-028",
           "baseExpression": "からといって",
@@ -1576,7 +882,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '환자 본인이 거부하는 이상 가족이 설득해 봤자 수술 동의는 얻을 수 없다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
       "sourceGrammarIds": [
         "n2-059",
         "n2-028",
@@ -1587,29 +893,20 @@
         "仮定",
         "否定",
         "制限",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-059-19",
+      "id": "fb-created-n2-059-12",
       "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlank": "いくら働い（　　　）、こう物価が高くては生活は楽にはならない。",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
-      "answerChoiceId": "fb-extra20-n2-059-19-c",
+      "sentence": "観客を無料で招待したところで、内容が乏しければ評判は良くならない。",
+      "sentenceWithBlank": "観客を無料で招待し（　　　）、内容が乏しければ評判は良くならない。",
+      "korean": "관객을 무료로 초대해 봤자 내용이 빈약하면 평판은 좋아지지 않는다.",
+      "answerChoiceId": "fb-created-n2-059-12-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-059-19-c",
-          "text": "たところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "たところで",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-059-19-d",
+          "id": "fb-created-n2-059-12-c",
           "text": "したあげく",
           "grammarId": "n2-001",
           "baseExpression": "あげく",
@@ -1617,15 +914,23 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-059-19-a",
-          "text": "したからといって",
+          "id": "fb-created-n2-059-12-d",
+          "text": "たところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "たところで",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-059-12-a",
+          "text": "からといって",
           "grammarId": "n2-028",
           "baseExpression": "からといって",
-          "conjugatedExpression": "したからといって",
+          "conjugatedExpression": "からといって",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-059-19-b",
+          "id": "fb-created-n2-059-12-b",
           "text": "した以上は",
           "grammarId": "n2-003",
           "baseExpression": "以上は",
@@ -1633,64 +938,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
-      "sourceGrammarIds": [
-        "n2-059",
-        "n2-001",
-        "n2-028",
-        "n2-003"
-      ],
-      "tags": [
-        "仮定",
-        "否定",
-        "制限",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-059-20",
-      "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlank": "いくら働い（　　　）、こう物価が高くては生活は楽にはならない。",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
-      "answerChoiceId": "fb-extra20-n2-059-20-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-059-20-b",
-          "text": "学生である以上は",
-          "grammarId": "n2-003",
-          "baseExpression": "以上は",
-          "conjugatedExpression": "学生である以上は",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-059-20-c",
-          "text": "議論のあげく",
-          "grammarId": "n2-001",
-          "baseExpression": "あげく",
-          "conjugatedExpression": "議論のあげく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-059-20-d",
-          "text": "たところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "たところで",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-059-20-a",
-          "text": "からといって",
-          "grammarId": "n2-028",
-          "baseExpression": "からといって",
-          "conjugatedExpression": "からといって",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '관객을 무료로 초대해 봤자 내용이 빈약하면 평판은 좋아지지 않는다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
       "sourceGrammarIds": [
         "n2-059",
         "n2-028",
@@ -1701,9 +949,736 @@
         "仮定",
         "否定",
         "制限",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-059-13",
+      "level": "N2",
+      "sentence": "海外へ逃げたところで、指名手配から逃れることはできない。",
+      "sentenceWithBlank": "海外へ逃げ（　　　）、指名手配から逃れることはできない。",
+      "korean": "해외로 도망쳐 봤자 지명 수배에서 벗어날 수는 없다.",
+      "answerChoiceId": "fb-created-n2-059-13-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-059-13-d",
+          "text": "たところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "たところで",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-059-13-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-059-13-b",
+          "text": "した以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "した以上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-059-13-c",
+          "text": "したあげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "したあげく",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '해외로 도망쳐 봤자 지명 수배에서 벗어날 수는 없다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
+      "sourceGrammarIds": [
+        "n2-059",
+        "n2-028",
+        "n2-003",
+        "n2-001"
+      ],
+      "tags": [
+        "仮定",
+        "否定",
+        "制限",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-059-14",
+      "level": "N2",
+      "sentence": "枝を数本切ったところで、電線に迫る大木の危険はなくならない。",
+      "sentenceWithBlank": "枝を数本切っ（　　　）、電線に迫る大木の危険はなくならない。",
+      "korean": "가지를 몇 개 잘라 봤자 전선에 다가선 큰 나무의 위험은 사라지지 않는다.",
+      "answerChoiceId": "fb-created-n2-059-14-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-059-14-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-059-14-b",
+          "text": "した以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "した以上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-059-14-c",
+          "text": "したあげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "したあげく",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-059-14-d",
+          "text": "たところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "たところで",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '가지를 몇 개 잘라 봤자 전선에 다가선 큰 나무의 위험은 사라지지 않는다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
+      "sourceGrammarIds": [
+        "n2-059",
+        "n2-028",
+        "n2-003",
+        "n2-001"
+      ],
+      "tags": [
+        "仮定",
+        "否定",
+        "制限",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-059-15",
+      "level": "N2",
+      "sentence": "期限を過ぎてから申請書を送ったところで、補助金の審査対象にはならない。",
+      "sentenceWithBlank": "期限を過ぎてから申請書を送っ（　　　）、補助金の審査対象にはならない。",
+      "korean": "기한이 지난 뒤 신청서를 보내 봤자 보조금 심사 대상이 되지는 않는다.",
+      "answerChoiceId": "fb-created-n2-059-15-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-059-15-b",
+          "text": "した以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "した以上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-059-15-c",
+          "text": "したあげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "したあげく",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-059-15-d",
+          "text": "たところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "たところで",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-059-15-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '기한이 지난 뒤 신청서를 보내 봤자 보조금 심사 대상이 되지는 않는다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
+      "sourceGrammarIds": [
+        "n2-059",
+        "n2-028",
+        "n2-003",
+        "n2-001"
+      ],
+      "tags": [
+        "仮定",
+        "否定",
+        "制限",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-059-16",
+      "level": "N2",
+      "sentence": "相手の過去を責めたところで、二人の関係は修復できない。",
+      "sentenceWithBlank": "相手の過去を責め（　　　）、二人の関係は修復できない。",
+      "korean": "상대의 과거를 탓해 봤자 두 사람의 관계는 회복할 수 없다.",
+      "answerChoiceId": "fb-created-n2-059-16-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-059-16-c",
+          "text": "したあげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "したあげく",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-059-16-d",
+          "text": "たところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "たところで",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-059-16-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-059-16-b",
+          "text": "した以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "した以上は",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '상대의 과거를 탓해 봤자 두 사람의 관계는 회복할 수 없다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
+      "sourceGrammarIds": [
+        "n2-059",
+        "n2-028",
+        "n2-003",
+        "n2-001"
+      ],
+      "tags": [
+        "仮定",
+        "否定",
+        "制限",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-059-17",
+      "level": "N2",
+      "sentence": "霧の中で速度を上げたところで、山頂に早く着けるとは限らない。",
+      "sentenceWithBlank": "霧の中で速度を上げ（　　　）、山頂に早く着けるとは限らない。",
+      "korean": "안개 속에서 속도를 높여 봤자 산 정상에 일찍 도착할 수 있다고는 할 수 없다.",
+      "answerChoiceId": "fb-created-n2-059-17-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-059-17-d",
+          "text": "たところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "たところで",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-059-17-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-059-17-b",
+          "text": "した以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "した以上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-059-17-c",
+          "text": "したあげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "したあげく",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '안개 속에서 속도를 높여 봤자 산 정상에 일찍 도착할 수 있다고는 할 수 없다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
+      "sourceGrammarIds": [
+        "n2-059",
+        "n2-028",
+        "n2-003",
+        "n2-001"
+      ],
+      "tags": [
+        "仮定",
+        "否定",
+        "制限",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-059-18",
+      "level": "N2",
+      "sentence": "倉庫を広げたところで、配送員不足の問題は解決しない。",
+      "sentenceWithBlank": "倉庫を広げ（　　　）、配送員不足の問題は解決しない。",
+      "korean": "창고를 넓혀 봤자 배송 인력 부족 문제는 해결되지 않는다.",
+      "answerChoiceId": "fb-created-n2-059-18-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-059-18-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-059-18-b",
+          "text": "した以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "した以上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-059-18-c",
+          "text": "したあげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "したあげく",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-059-18-d",
+          "text": "たところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "たところで",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '창고를 넓혀 봤자 배송 인력 부족 문제는 해결되지 않는다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
+      "sourceGrammarIds": [
+        "n2-059",
+        "n2-028",
+        "n2-003",
+        "n2-001"
+      ],
+      "tags": [
+        "仮定",
+        "否定",
+        "制限",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-059-19",
+      "level": "N2",
+      "sentence": "高価な化粧品を使ったところで、睡眠不足による肌荒れは改善しにくい。",
+      "sentenceWithBlank": "高価な化粧品を使っ（　　　）、睡眠不足による肌荒れは改善しにくい。",
+      "korean": "비싼 화장품을 써 봤자 수면 부족으로 인한 피부 트러블은 개선되기 어렵다.",
+      "answerChoiceId": "fb-created-n2-059-19-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-059-19-b",
+          "text": "した以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "した以上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-059-19-c",
+          "text": "したあげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "したあげく",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-059-19-d",
+          "text": "たところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "たところで",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-059-19-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '비싼 화장품을 써 봤자 수면 부족으로 인한 피부 트러블은 개선되기 어렵다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
+      "sourceGrammarIds": [
+        "n2-059",
+        "n2-028",
+        "n2-003",
+        "n2-001"
+      ],
+      "tags": [
+        "仮定",
+        "否定",
+        "制限",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-059-20",
+      "level": "N2",
+      "sentence": "住民への説明を省いたところで、工事への反発を避けることはできない。",
+      "sentenceWithBlank": "住民への説明を省い（　　　）、工事への反発を避けることはできない。",
+      "korean": "주민 설명을 생략해 봤자 공사에 대한 반발을 피할 수는 없다.",
+      "answerChoiceId": "fb-created-n2-059-20-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-059-20-c",
+          "text": "したあげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "したあげく",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-059-20-d",
+          "text": "たところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "たところで",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-059-20-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-059-20-b",
+          "text": "した以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "した以上は",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '주민 설명을 생략해 봤자 공사에 대한 반발을 피할 수는 없다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
+      "sourceGrammarIds": [
+        "n2-059",
+        "n2-028",
+        "n2-003",
+        "n2-001"
+      ],
+      "tags": [
+        "仮定",
+        "否定",
+        "制限",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-059-21",
+      "level": "N2",
+      "sentence": "雨がやむまで港で待ったところで、欠航になった船は出ない。",
+      "sentenceWithBlank": "雨がやむまで港で待っ（　　　）、欠航になった船は出ない。",
+      "korean": "비가 그칠 때까지 항구에서 기다려 봤자 결항된 배는 출항하지 않는다.",
+      "answerChoiceId": "fb-created-n2-059-21-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-059-21-d",
+          "text": "たところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "たところで",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-059-21-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-059-21-b",
+          "text": "した以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "した以上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-059-21-c",
+          "text": "したあげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "したあげく",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '비가 그칠 때까지 항구에서 기다려 봤자 결항된 배는 출항하지 않는다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
+      "sourceGrammarIds": [
+        "n2-059",
+        "n2-028",
+        "n2-003",
+        "n2-001"
+      ],
+      "tags": [
+        "仮定",
+        "否定",
+        "制限",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-059-22",
+      "level": "N2",
+      "sentence": "いくら声を張り上げたところで、防音ガラスの向こうには届かない。",
+      "sentenceWithBlank": "いくら声を張り上げ（　　　）、防音ガラスの向こうには届かない。",
+      "korean": "아무리 목소리를 높여 봤자 방음 유리 너머에는 들리지 않는다.",
+      "answerChoiceId": "fb-created-n2-059-22-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-059-22-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-059-22-b",
+          "text": "した以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "した以上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-059-22-c",
+          "text": "したあげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "したあげく",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-059-22-d",
+          "text": "たところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "たところで",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '아무리 목소리를 높여 봤자 방음 유리 너머에는 들리지 않는다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
+      "sourceGrammarIds": [
+        "n2-059",
+        "n2-028",
+        "n2-003",
+        "n2-001"
+      ],
+      "tags": [
+        "仮定",
+        "否定",
+        "制限",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-059-23",
+      "level": "N2",
+      "sentence": "売れ残った魚を翌朝値下げしたところで、鮮度は取り戻せない。",
+      "sentenceWithBlank": "売れ残った魚を翌朝値下げし（　　　）、鮮度は取り戻せない。",
+      "korean": "팔리지 않고 남은 생선을 다음 날 아침 할인해 봤자 신선도는 되찾을 수 없다.",
+      "answerChoiceId": "fb-created-n2-059-23-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-059-23-b",
+          "text": "した以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "した以上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-059-23-c",
+          "text": "したあげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "したあげく",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-059-23-d",
+          "text": "たところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "たところで",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-059-23-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '팔리지 않고 남은 생선을 다음 날 아침 할인해 봤자 신선도는 되찾을 수 없다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
+      "sourceGrammarIds": [
+        "n2-059",
+        "n2-028",
+        "n2-003",
+        "n2-001"
+      ],
+      "tags": [
+        "仮定",
+        "否定",
+        "制限",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-059-24",
+      "level": "N2",
+      "sentence": "契約書の一部を隠したところで、監査で不正が発覚するのは避けられない。",
+      "sentenceWithBlank": "契約書の一部を隠し（　　　）、監査で不正が発覚するのは避けられない。",
+      "korean": "계약서 일부를 숨겨 봤자 감사에서 부정이 드러나는 것은 피할 수 없다.",
+      "answerChoiceId": "fb-created-n2-059-24-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-059-24-c",
+          "text": "したあげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "したあげく",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-059-24-d",
+          "text": "たところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "たところで",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-059-24-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-059-24-b",
+          "text": "した以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "した以上は",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '계약서 일부를 숨겨 봤자 감사에서 부정이 드러나는 것은 피할 수 없다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
+      "sourceGrammarIds": [
+        "n2-059",
+        "n2-028",
+        "n2-003",
+        "n2-001"
+      ],
+      "tags": [
+        "仮定",
+        "否定",
+        "制限",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-059-25",
+      "level": "N2",
+      "sentence": "試合終了間際に守備を固めたところで、三点差を逆転する望みはない。",
+      "sentenceWithBlank": "試合終了間際に守備を固め（　　　）、三点差を逆転する望みはない。",
+      "korean": "경기 종료 직전에 수비를 강화해 봤자 3점 차를 뒤집을 가망은 없다.",
+      "answerChoiceId": "fb-created-n2-059-25-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-059-25-d",
+          "text": "たところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "たところで",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-059-25-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-059-25-b",
+          "text": "した以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "した以上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-059-25-c",
+          "text": "したあげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "したあげく",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '경기 종료 직전에 수비를 강화해 봤자 3점 차를 뒤집을 가망은 없다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
+      "sourceGrammarIds": [
+        "n2-059",
+        "n2-028",
+        "n2-003",
+        "n2-001"
+      ],
+      "tags": [
+        "仮定",
+        "否定",
+        "制限",
+        "신규예문",
+        "빈칸"
       ]
     }
   ],
@@ -1939,1178 +1914,1228 @@
       ]
     },
     {
-      "id": "so-extra-n2-059-1",
+      "id": "so-created-n2-059-01",
       "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlanks": "いくら働い ____ ____ ____ ____",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
+      "sentence": "今から駅まで走ったところで、最終列車には間に合わない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 合わない。",
+      "korean": "지금부터 역까지 달려 봤자 막차에는 제시간에 도착하지 못한다.",
       "pieces": [
         {
-          "id": "so-extra-n2-059-1-p2",
-          "text": "は生活は楽にはならない",
+          "id": "so-created-n2-059-01-p4",
+          "text": "最終列車には間に",
           "order": 4
         },
         {
-          "id": "so-extra-n2-059-1-p3",
-          "text": "たところで",
+          "id": "so-created-n2-059-01-p1",
+          "text": "今から",
           "order": 1
         },
         {
-          "id": "so-extra-n2-059-1-p4",
-          "text": "こう物価が",
+          "id": "so-created-n2-059-01-p2",
+          "text": "駅まで走っ",
           "order": 2
         },
         {
-          "id": "so-extra-n2-059-1-p1",
-          "text": "高くて",
+          "id": "so-created-n2-059-01-p3",
+          "text": "たところで、",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-059-1-p3",
-        "so-extra-n2-059-1-p4",
-        "so-extra-n2-059-1-p1",
-        "so-extra-n2-059-1-p2"
+        "so-created-n2-059-01-p1",
+        "so-created-n2-059-01-p2",
+        "so-created-n2-059-01-p3",
+        "so-created-n2-059-01-p4"
       ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '지금부터 역까지 달려 봤자 막차에는 제시간에 도착하지 못한다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
       "sourceGrammarIds": [
-        "n2-059"
+        "n2-059",
+        "n2-028",
+        "n2-003",
+        "n2-001"
       ],
       "tags": [
         "仮定",
         "否定",
         "制限",
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-059-2",
+      "id": "so-created-n2-059-02",
       "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlanks": "いくら働い ____ ____ ____ ____",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
+      "sentence": "壊れた傘をテープで直したところで、強い風には耐えられないだろう。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 耐えられないだろう。",
+      "korean": "망가진 우산을 테이프로 고쳐 봤자 강한 바람은 견디지 못할 것이다.",
       "pieces": [
         {
-          "id": "so-extra-n2-059-2-p3",
-          "text": "は生活は楽にはならない",
+          "id": "so-created-n2-059-02-p3",
+          "text": "たところで、",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-059-02-p4",
+          "text": "強い風には",
           "order": 4
         },
         {
-          "id": "so-extra-n2-059-2-p4",
-          "text": "たところで",
+          "id": "so-created-n2-059-02-p1",
+          "text": "壊れた傘を",
           "order": 1
         },
         {
-          "id": "so-extra-n2-059-2-p1",
-          "text": "こう物価が",
+          "id": "so-created-n2-059-02-p2",
+          "text": "テープで直し",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-059-2-p2",
-          "text": "高くて",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-059-2-p4",
-        "so-extra-n2-059-2-p1",
-        "so-extra-n2-059-2-p2",
-        "so-extra-n2-059-2-p3"
+        "so-created-n2-059-02-p1",
+        "so-created-n2-059-02-p2",
+        "so-created-n2-059-02-p3",
+        "so-created-n2-059-02-p4"
       ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '망가진 우산을 테이프로 고쳐 봤자 강한 바람은 견디지 못할 것이다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
       "sourceGrammarIds": [
-        "n2-059"
+        "n2-059",
+        "n2-028",
+        "n2-003",
+        "n2-001"
       ],
       "tags": [
         "仮定",
         "否定",
         "制限",
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-059-3",
+      "id": "so-created-n2-059-03",
       "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、こう物価が高くては生活は楽にはならない。",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
+      "sentence": "一人で反対したところで、取締役会の決定は覆せない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "혼자 반대해 봤자 이사회의 결정을 뒤집을 수 없다.",
       "pieces": [
         {
-          "id": "so-extra-n2-059-3-p4",
-          "text": "高くて",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-059-3-p1",
-          "text": "い",
-          "order": 1
-        },
-        {
-          "id": "so-extra-n2-059-3-p2",
-          "text": "たところで",
+          "id": "so-created-n2-059-03-p2",
+          "text": "たところで、",
           "order": 2
         },
         {
-          "id": "so-extra-n2-059-3-p3",
-          "text": "こう物価が",
+          "id": "so-created-n2-059-03-p3",
+          "text": "取締役会の",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-059-03-p4",
+          "text": "決定は覆せない。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-059-03-p1",
+          "text": "一人で反対し",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-059-3-p1",
-        "so-extra-n2-059-3-p2",
-        "so-extra-n2-059-3-p3",
-        "so-extra-n2-059-3-p4"
+        "so-created-n2-059-03-p1",
+        "so-created-n2-059-03-p2",
+        "so-created-n2-059-03-p3",
+        "so-created-n2-059-03-p4"
       ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '혼자 반대해 봤자 이사회의 결정을 뒤집을 수 없다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
       "sourceGrammarIds": [
-        "n2-059"
+        "n2-059",
+        "n2-028",
+        "n2-003",
+        "n2-001"
       ],
       "tags": [
         "仮定",
         "否定",
         "制限",
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-059-4",
+      "id": "so-created-n2-059-04",
       "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlanks": "いくら働い ____ ____ ____ ____",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
+      "sentence": "締め切りの前日に設計を変更したところで、製造には反映できない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 反映できない。",
+      "korean": "마감 전날에 설계를 변경해 봤자 제조에는 반영할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra-n2-059-4-p1",
-          "text": "は生活は楽にはならない",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-059-4-p2",
-          "text": "たところで",
+          "id": "so-created-n2-059-04-p1",
+          "text": "締め切りの前日に",
           "order": 1
         },
         {
-          "id": "so-extra-n2-059-4-p3",
-          "text": "こう物価が",
+          "id": "so-created-n2-059-04-p2",
+          "text": "設計を変更し",
           "order": 2
         },
         {
-          "id": "so-extra-n2-059-4-p4",
-          "text": "高くて",
+          "id": "so-created-n2-059-04-p3",
+          "text": "たところで、",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-059-04-p4",
+          "text": "製造には",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-059-4-p2",
-        "so-extra-n2-059-4-p3",
-        "so-extra-n2-059-4-p4",
-        "so-extra-n2-059-4-p1"
+        "so-created-n2-059-04-p1",
+        "so-created-n2-059-04-p2",
+        "so-created-n2-059-04-p3",
+        "so-created-n2-059-04-p4"
       ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '마감 전날에 설계를 변경해 봤자 제조에는 반영할 수 없다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
       "sourceGrammarIds": [
-        "n2-059"
+        "n2-059",
+        "n2-028",
+        "n2-003",
+        "n2-001"
       ],
       "tags": [
         "仮定",
         "否定",
         "制限",
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-059-5",
+      "id": "so-created-n2-059-05",
       "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlanks": "いくら働い ____ ____ ____ ____",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
+      "sentence": "何度謝ったところで、失われた信頼がすぐ戻るわけではない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "몇 번을 사과해 봤자 잃어버린 신뢰가 바로 돌아오는 것은 아니다.",
       "pieces": [
         {
-          "id": "so-extra-n2-059-5-p2",
-          "text": "は生活は楽にはならない",
+          "id": "so-created-n2-059-05-p4",
+          "text": "戻るわけではない。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-059-5-p3",
-          "text": "たところで",
+          "id": "so-created-n2-059-05-p1",
+          "text": "何度謝っ",
           "order": 1
         },
         {
-          "id": "so-extra-n2-059-5-p4",
-          "text": "こう物価が",
+          "id": "so-created-n2-059-05-p2",
+          "text": "たところで、",
           "order": 2
         },
         {
-          "id": "so-extra-n2-059-5-p1",
-          "text": "高くて",
+          "id": "so-created-n2-059-05-p3",
+          "text": "失われた信頼がすぐ",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-059-5-p3",
-        "so-extra-n2-059-5-p4",
-        "so-extra-n2-059-5-p1",
-        "so-extra-n2-059-5-p2"
+        "so-created-n2-059-05-p1",
+        "so-created-n2-059-05-p2",
+        "so-created-n2-059-05-p3",
+        "so-created-n2-059-05-p4"
       ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '몇 번을 사과해 봤자 잃어버린 신뢰가 바로 돌아오는 것은 아니다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
       "sourceGrammarIds": [
-        "n2-059"
+        "n2-059",
+        "n2-028",
+        "n2-003",
+        "n2-001"
       ],
       "tags": [
         "仮定",
         "否定",
         "制限",
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-059-01",
+      "id": "so-created-n2-059-06",
       "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlanks": "いくら働い ____ ____ ____ ____",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
+      "sentence": "乾いた畑に少し水をまいたところで、作物の枯死は防げない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 防げない。",
+      "korean": "메마른 밭에 물을 조금 뿌려 봤자 작물이 말라 죽는 것을 막을 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-059-01-p2",
-          "text": "は生活は楽にはならない",
+          "id": "so-created-n2-059-06-p3",
+          "text": "たところで、",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-059-06-p4",
+          "text": "作物の枯死は",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-059-01-p3",
-          "text": "たところで",
+          "id": "so-created-n2-059-06-p1",
+          "text": "乾いた畑に",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-059-01-p4",
-          "text": "こう物価が",
+          "id": "so-created-n2-059-06-p2",
+          "text": "少し水をまい",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-059-01-p1",
-          "text": "高くて",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-059-01-p3",
-        "so-extra20-n2-059-01-p4",
-        "so-extra20-n2-059-01-p1",
-        "so-extra20-n2-059-01-p2"
+        "so-created-n2-059-06-p1",
+        "so-created-n2-059-06-p2",
+        "so-created-n2-059-06-p3",
+        "so-created-n2-059-06-p4"
       ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '메마른 밭에 물을 조금 뿌려 봤자 작물이 말라 죽는 것을 막을 수 없다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
       "sourceGrammarIds": [
-        "n2-059"
+        "n2-059",
+        "n2-028",
+        "n2-003",
+        "n2-001"
       ],
       "tags": [
         "仮定",
         "否定",
         "制限",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-059-02",
+      "id": "so-created-n2-059-07",
       "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlanks": "いくら働い ____ ____ ____ ____",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
+      "sentence": "古いパソコンのメモリーを増やしたところで、最新の映像ソフトは動かない。",
+      "sentenceWithBlanks": "古い ____ ____ ____ ____ 動かない。",
+      "korean": "오래된 컴퓨터의 메모리를 늘려 봤자 최신 영상 소프트웨어는 작동하지 않는다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-059-02-p1",
-          "text": "こう物価が",
+          "id": "so-created-n2-059-07-p2",
+          "text": "メモリーを増やし",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-059-02-p2",
-          "text": "高くて",
+          "id": "so-created-n2-059-07-p3",
+          "text": "たところで、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-059-02-p3",
-          "text": "は生活は楽にはならない",
+          "id": "so-created-n2-059-07-p4",
+          "text": "最新の映像ソフトは",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-059-02-p4",
-          "text": "たところで",
+          "id": "so-created-n2-059-07-p1",
+          "text": "パソコンの",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-059-02-p4",
-        "so-extra20-n2-059-02-p1",
-        "so-extra20-n2-059-02-p2",
-        "so-extra20-n2-059-02-p3"
+        "so-created-n2-059-07-p1",
+        "so-created-n2-059-07-p2",
+        "so-created-n2-059-07-p3",
+        "so-created-n2-059-07-p4"
       ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '오래된 컴퓨터의 메모리를 늘려 봤자 최신 영상 소프트웨어는 작동하지 않는다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
       "sourceGrammarIds": [
-        "n2-059"
+        "n2-059",
+        "n2-028",
+        "n2-003",
+        "n2-001"
       ],
       "tags": [
         "仮定",
         "否定",
         "制限",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-059-03",
+      "id": "so-created-n2-059-08",
       "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、こう物価が高くては生活は楽にはならない。",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
+      "sentence": "証拠もなく隣人を疑ったところで、真相には近づけない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "증거도 없이 이웃을 의심해 봤자 진상에는 다가갈 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-059-03-p4",
-          "text": "高くて",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-059-03-p1",
-          "text": "い",
+          "id": "so-created-n2-059-08-p1",
+          "text": "証拠もなく隣人を",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-059-03-p2",
-          "text": "たところで",
+          "id": "so-created-n2-059-08-p2",
+          "text": "疑ったところで、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-059-03-p3",
-          "text": "こう物価が",
+          "id": "so-created-n2-059-08-p3",
+          "text": "真相には",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-059-08-p4",
+          "text": "近づけない。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-059-03-p1",
-        "so-extra20-n2-059-03-p2",
-        "so-extra20-n2-059-03-p3",
-        "so-extra20-n2-059-03-p4"
+        "so-created-n2-059-08-p1",
+        "so-created-n2-059-08-p2",
+        "so-created-n2-059-08-p3",
+        "so-created-n2-059-08-p4"
       ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '증거도 없이 이웃을 의심해 봤자 진상에는 다가갈 수 없다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
       "sourceGrammarIds": [
-        "n2-059"
+        "n2-059",
+        "n2-028",
+        "n2-003",
+        "n2-001"
       ],
       "tags": [
         "仮定",
         "否定",
         "制限",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-059-04",
+      "id": "so-created-n2-059-09",
       "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlanks": "いくら働い ____ ____ ____ ____",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
+      "sentence": "閉店後に店へ電話したところで、予約の変更は受け付けてもらえない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 受け付けてもらえない。",
+      "korean": "영업이 끝난 뒤 가게에 전화해 봤자 예약 변경은 받아 주지 않는다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-059-04-p3",
-          "text": "こう物価が",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-059-04-p4",
-          "text": "高くて",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-059-04-p1",
-          "text": "は生活は楽にはならない",
+          "id": "so-created-n2-059-09-p4",
+          "text": "予約の変更は",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-059-04-p2",
-          "text": "たところで",
+          "id": "so-created-n2-059-09-p1",
+          "text": "閉店後に",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-059-09-p2",
+          "text": "店へ電話し",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-059-09-p3",
+          "text": "たところで、",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-059-04-p2",
-        "so-extra20-n2-059-04-p3",
-        "so-extra20-n2-059-04-p4",
-        "so-extra20-n2-059-04-p1"
+        "so-created-n2-059-09-p1",
+        "so-created-n2-059-09-p2",
+        "so-created-n2-059-09-p3",
+        "so-created-n2-059-09-p4"
       ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '영업이 끝난 뒤 가게에 전화해 봤자 예약 변경은 받아 주지 않는다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
       "sourceGrammarIds": [
-        "n2-059"
+        "n2-059",
+        "n2-028",
+        "n2-003",
+        "n2-001"
       ],
       "tags": [
         "仮定",
         "否定",
         "制限",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-059-05",
+      "id": "so-created-n2-059-10",
       "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlanks": "いくら働い ____ ____ ____ ____",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
+      "sentence": "表面だけ磨いたところで、この宝石の価値は上がらない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "표면만 닦아 봤자 이 보석의 가치는 오르지 않는다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-059-05-p2",
-          "text": "は生活は楽にはならない",
+          "id": "so-created-n2-059-10-p3",
+          "text": "この宝石の価値は",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-059-10-p4",
+          "text": "上がらない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-059-05-p3",
-          "text": "たところで",
+          "id": "so-created-n2-059-10-p1",
+          "text": "表面だけ磨い",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-059-05-p4",
-          "text": "こう物価が",
+          "id": "so-created-n2-059-10-p2",
+          "text": "たところで、",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-059-05-p1",
-          "text": "高くて",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-059-05-p3",
-        "so-extra20-n2-059-05-p4",
-        "so-extra20-n2-059-05-p1",
-        "so-extra20-n2-059-05-p2"
+        "so-created-n2-059-10-p1",
+        "so-created-n2-059-10-p2",
+        "so-created-n2-059-10-p3",
+        "so-created-n2-059-10-p4"
       ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '표면만 닦아 봤자 이 보석의 가치는 오르지 않는다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
       "sourceGrammarIds": [
-        "n2-059"
+        "n2-059",
+        "n2-028",
+        "n2-003",
+        "n2-001"
       ],
       "tags": [
         "仮定",
         "否定",
         "制限",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-059-06",
+      "id": "so-created-n2-059-11",
       "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlanks": "いくら働い ____ ____ ____ ____",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
+      "sentence": "患者本人が拒んでいる以上、家族が説得したところで手術への同意は得られない。",
+      "sentenceWithBlanks": "患者本人が ____ ____ ____ ____ 得られない。",
+      "korean": "환자 본인이 거부하는 이상 가족이 설득해 봤자 수술 동의는 얻을 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-059-06-p1",
-          "text": "高くて",
+          "id": "so-created-n2-059-11-p2",
+          "text": "以上、家族が",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-059-11-p3",
+          "text": "説得したところで",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-059-06-p2",
-          "text": "は生活は楽にはならない",
+          "id": "so-created-n2-059-11-p4",
+          "text": "手術への同意は",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-059-06-p3",
-          "text": "たところで",
+          "id": "so-created-n2-059-11-p1",
+          "text": "拒んでいる",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-059-06-p4",
-          "text": "こう物価が",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-059-06-p3",
-        "so-extra20-n2-059-06-p4",
-        "so-extra20-n2-059-06-p1",
-        "so-extra20-n2-059-06-p2"
+        "so-created-n2-059-11-p1",
+        "so-created-n2-059-11-p2",
+        "so-created-n2-059-11-p3",
+        "so-created-n2-059-11-p4"
       ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '환자 본인이 거부하는 이상 가족이 설득해 봤자 수술 동의는 얻을 수 없다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
       "sourceGrammarIds": [
-        "n2-059"
+        "n2-059",
+        "n2-028",
+        "n2-003",
+        "n2-001"
       ],
       "tags": [
         "仮定",
         "否定",
         "制限",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-059-07",
+      "id": "so-created-n2-059-12",
       "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlanks": "いくら働い ____ ____ ____ ____",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
+      "sentence": "観客を無料で招待したところで、内容が乏しければ評判は良くならない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 良くならない。",
+      "korean": "관객을 무료로 초대해 봤자 내용이 빈약하면 평판은 좋아지지 않는다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-059-07-p4",
-          "text": "たところで",
+          "id": "so-created-n2-059-12-p1",
+          "text": "観客を",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-059-07-p1",
-          "text": "こう物価が",
+          "id": "so-created-n2-059-12-p2",
+          "text": "無料で招待し",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-059-07-p2",
-          "text": "高くて",
+          "id": "so-created-n2-059-12-p3",
+          "text": "たところで、内容が",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-059-07-p3",
-          "text": "は生活は楽にはならない",
+          "id": "so-created-n2-059-12-p4",
+          "text": "乏しければ評判は",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-059-07-p4",
-        "so-extra20-n2-059-07-p1",
-        "so-extra20-n2-059-07-p2",
-        "so-extra20-n2-059-07-p3"
+        "so-created-n2-059-12-p1",
+        "so-created-n2-059-12-p2",
+        "so-created-n2-059-12-p3",
+        "so-created-n2-059-12-p4"
       ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '관객을 무료로 초대해 봤자 내용이 빈약하면 평판은 좋아지지 않는다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
       "sourceGrammarIds": [
-        "n2-059"
+        "n2-059",
+        "n2-028",
+        "n2-003",
+        "n2-001"
       ],
       "tags": [
         "仮定",
         "否定",
         "制限",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-059-08",
+      "id": "so-created-n2-059-13",
       "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、こう物価が高くては生活は楽にはならない。",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
+      "sentence": "海外へ逃げたところで、指名手配から逃れることはできない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "해외로 도망쳐 봤자 지명 수배에서 벗어날 수는 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-059-08-p3",
-          "text": "こう物価が",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-059-08-p4",
-          "text": "高くて",
+          "id": "so-created-n2-059-13-p4",
+          "text": "逃れることはできない。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-059-08-p1",
-          "text": "い",
+          "id": "so-created-n2-059-13-p1",
+          "text": "海外へ逃げ",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-059-08-p2",
-          "text": "たところで",
+          "id": "so-created-n2-059-13-p2",
+          "text": "たところで、",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-059-13-p3",
+          "text": "指名手配から",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-059-08-p1",
-        "so-extra20-n2-059-08-p2",
-        "so-extra20-n2-059-08-p3",
-        "so-extra20-n2-059-08-p4"
+        "so-created-n2-059-13-p1",
+        "so-created-n2-059-13-p2",
+        "so-created-n2-059-13-p3",
+        "so-created-n2-059-13-p4"
       ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '해외로 도망쳐 봤자 지명 수배에서 벗어날 수는 없다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
       "sourceGrammarIds": [
-        "n2-059"
+        "n2-059",
+        "n2-028",
+        "n2-003",
+        "n2-001"
       ],
       "tags": [
         "仮定",
         "否定",
         "制限",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-059-09",
+      "id": "so-created-n2-059-14",
       "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlanks": "いくら働い ____ ____ ____ ____",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
+      "sentence": "枝を数本切ったところで、電線に迫る大木の危険はなくならない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 危険はなくならない。",
+      "korean": "가지를 몇 개 잘라 봤자 전선에 다가선 큰 나무의 위험은 사라지지 않는다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-059-09-p2",
-          "text": "たところで",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-059-09-p3",
-          "text": "こう物価が",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-059-09-p4",
-          "text": "高くて",
+          "id": "so-created-n2-059-14-p3",
+          "text": "電線に",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-059-09-p1",
-          "text": "は生活は楽にはならない",
+          "id": "so-created-n2-059-14-p4",
+          "text": "迫る大木の",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-059-14-p1",
+          "text": "枝を数本切っ",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-059-14-p2",
+          "text": "たところで、",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-059-09-p2",
-        "so-extra20-n2-059-09-p3",
-        "so-extra20-n2-059-09-p4",
-        "so-extra20-n2-059-09-p1"
+        "so-created-n2-059-14-p1",
+        "so-created-n2-059-14-p2",
+        "so-created-n2-059-14-p3",
+        "so-created-n2-059-14-p4"
       ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '가지를 몇 개 잘라 봤자 전선에 다가선 큰 나무의 위험은 사라지지 않는다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
       "sourceGrammarIds": [
-        "n2-059"
+        "n2-059",
+        "n2-028",
+        "n2-003",
+        "n2-001"
       ],
       "tags": [
         "仮定",
         "否定",
         "制限",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-059-10",
+      "id": "so-created-n2-059-15",
       "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlanks": "いくら働い ____ ____ ____ ____",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
+      "sentence": "期限を過ぎてから申請書を送ったところで、補助金の審査対象にはならない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 対象にはならない。",
+      "korean": "기한이 지난 뒤 신청서를 보내 봤자 보조금 심사 대상이 되지는 않는다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-059-10-p1",
-          "text": "高くて",
+          "id": "so-created-n2-059-15-p2",
+          "text": "申請書を送っ",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-059-15-p3",
+          "text": "たところで、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-059-10-p2",
-          "text": "は生活は楽にはならない",
+          "id": "so-created-n2-059-15-p4",
+          "text": "補助金の審査",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-059-10-p3",
-          "text": "たところで",
+          "id": "so-created-n2-059-15-p1",
+          "text": "期限を過ぎてから",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-059-10-p4",
-          "text": "こう物価が",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-059-10-p3",
-        "so-extra20-n2-059-10-p4",
-        "so-extra20-n2-059-10-p1",
-        "so-extra20-n2-059-10-p2"
+        "so-created-n2-059-15-p1",
+        "so-created-n2-059-15-p2",
+        "so-created-n2-059-15-p3",
+        "so-created-n2-059-15-p4"
       ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '기한이 지난 뒤 신청서를 보내 봤자 보조금 심사 대상이 되지는 않는다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
       "sourceGrammarIds": [
-        "n2-059"
+        "n2-059",
+        "n2-028",
+        "n2-003",
+        "n2-001"
       ],
       "tags": [
         "仮定",
         "否定",
         "制限",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-059-11",
+      "id": "so-created-n2-059-16",
       "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlanks": "いくら働い ____ ____ ____ ____",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
+      "sentence": "相手の過去を責めたところで、二人の関係は修復できない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "상대의 과거를 탓해 봤자 두 사람의 관계는 회복할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-059-11-p4",
-          "text": "こう物価が",
+          "id": "so-created-n2-059-16-p1",
+          "text": "相手の過去を",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-059-16-p2",
+          "text": "責めたところで、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-059-11-p1",
-          "text": "高くて",
+          "id": "so-created-n2-059-16-p3",
+          "text": "二人の関係は",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-059-11-p2",
-          "text": "は生活は楽にはならない",
+          "id": "so-created-n2-059-16-p4",
+          "text": "修復できない。",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-059-11-p3",
-          "text": "たところで",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-059-11-p3",
-        "so-extra20-n2-059-11-p4",
-        "so-extra20-n2-059-11-p1",
-        "so-extra20-n2-059-11-p2"
+        "so-created-n2-059-16-p1",
+        "so-created-n2-059-16-p2",
+        "so-created-n2-059-16-p3",
+        "so-created-n2-059-16-p4"
       ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '상대의 과거를 탓해 봤자 두 사람의 관계는 회복할 수 없다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
       "sourceGrammarIds": [
-        "n2-059"
+        "n2-059",
+        "n2-028",
+        "n2-003",
+        "n2-001"
       ],
       "tags": [
         "仮定",
         "否定",
         "制限",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-059-12",
+      "id": "so-created-n2-059-17",
       "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlanks": "いくら働い ____ ____ ____ ____",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
+      "sentence": "霧の中で速度を上げたところで、山頂に早く着けるとは限らない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 着けるとは限らない。",
+      "korean": "안개 속에서 속도를 높여 봤자 산 정상에 일찍 도착할 수 있다고는 할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-059-12-p3",
-          "text": "は生活は楽にはならない",
+          "id": "so-created-n2-059-17-p4",
+          "text": "山頂に早く",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-059-12-p4",
-          "text": "たところで",
+          "id": "so-created-n2-059-17-p1",
+          "text": "霧の中で",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-059-12-p1",
-          "text": "こう物価が",
+          "id": "so-created-n2-059-17-p2",
+          "text": "速度を上げ",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-059-12-p2",
-          "text": "高くて",
+          "id": "so-created-n2-059-17-p3",
+          "text": "たところで、",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-059-12-p4",
-        "so-extra20-n2-059-12-p1",
-        "so-extra20-n2-059-12-p2",
-        "so-extra20-n2-059-12-p3"
+        "so-created-n2-059-17-p1",
+        "so-created-n2-059-17-p2",
+        "so-created-n2-059-17-p3",
+        "so-created-n2-059-17-p4"
       ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '안개 속에서 속도를 높여 봤자 산 정상에 일찍 도착할 수 있다고는 할 수 없다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
       "sourceGrammarIds": [
-        "n2-059"
+        "n2-059",
+        "n2-028",
+        "n2-003",
+        "n2-001"
       ],
       "tags": [
         "仮定",
         "否定",
         "制限",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-059-13",
+      "id": "so-created-n2-059-18",
       "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、こう物価が高くては生活は楽にはならない。",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
+      "sentence": "倉庫を広げたところで、配送員不足の問題は解決しない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 解決しない。",
+      "korean": "창고를 넓혀 봤자 배송 인력 부족 문제는 해결되지 않는다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-059-13-p2",
-          "text": "たところで",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-059-13-p3",
-          "text": "こう物価が",
+          "id": "so-created-n2-059-18-p3",
+          "text": "配送員",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-059-13-p4",
-          "text": "高くて",
+          "id": "so-created-n2-059-18-p4",
+          "text": "不足の問題は",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-059-13-p1",
-          "text": "い",
+          "id": "so-created-n2-059-18-p1",
+          "text": "倉庫を広げ",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-059-18-p2",
+          "text": "たところで、",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-059-13-p1",
-        "so-extra20-n2-059-13-p2",
-        "so-extra20-n2-059-13-p3",
-        "so-extra20-n2-059-13-p4"
+        "so-created-n2-059-18-p1",
+        "so-created-n2-059-18-p2",
+        "so-created-n2-059-18-p3",
+        "so-created-n2-059-18-p4"
       ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '창고를 넓혀 봤자 배송 인력 부족 문제는 해결되지 않는다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
       "sourceGrammarIds": [
-        "n2-059"
+        "n2-059",
+        "n2-028",
+        "n2-003",
+        "n2-001"
       ],
       "tags": [
         "仮定",
         "否定",
         "制限",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-059-14",
+      "id": "so-created-n2-059-19",
       "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlanks": "いくら働い ____ ____ ____ ____",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
+      "sentence": "高価な化粧品を使ったところで、睡眠不足による肌荒れは改善しにくい。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 改善しにくい。",
+      "korean": "비싼 화장품을 써 봤자 수면 부족으로 인한 피부 트러블은 개선되기 어렵다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-059-14-p1",
-          "text": "は生活は楽にはならない",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-059-14-p2",
-          "text": "たところで",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-059-14-p3",
-          "text": "こう物価が",
+          "id": "so-created-n2-059-19-p2",
+          "text": "使ったところで、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-059-14-p4",
-          "text": "高くて",
+          "id": "so-created-n2-059-19-p3",
+          "text": "睡眠不足による",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-059-19-p4",
+          "text": "肌荒れは",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-059-19-p1",
+          "text": "高価な化粧品を",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-059-14-p2",
-        "so-extra20-n2-059-14-p3",
-        "so-extra20-n2-059-14-p4",
-        "so-extra20-n2-059-14-p1"
+        "so-created-n2-059-19-p1",
+        "so-created-n2-059-19-p2",
+        "so-created-n2-059-19-p3",
+        "so-created-n2-059-19-p4"
       ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '비싼 화장품을 써 봤자 수면 부족으로 인한 피부 트러블은 개선되기 어렵다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
       "sourceGrammarIds": [
-        "n2-059"
+        "n2-059",
+        "n2-028",
+        "n2-003",
+        "n2-001"
       ],
       "tags": [
         "仮定",
         "否定",
         "制限",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-059-15",
+      "id": "so-created-n2-059-20",
       "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlanks": "いくら働い ____ ____ ____ ____",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
+      "sentence": "住民への説明を省いたところで、工事への反発を避けることはできない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 避けることはできない。",
+      "korean": "주민 설명을 생략해 봤자 공사에 대한 반발을 피할 수는 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-059-15-p4",
-          "text": "こう物価が",
+          "id": "so-created-n2-059-20-p1",
+          "text": "住民への",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-059-20-p2",
+          "text": "説明を省い",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-059-15-p1",
-          "text": "高くて",
+          "id": "so-created-n2-059-20-p3",
+          "text": "たところで、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-059-15-p2",
-          "text": "は生活は楽にはならない",
+          "id": "so-created-n2-059-20-p4",
+          "text": "工事への反発を",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-059-15-p3",
-          "text": "たところで",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-059-15-p3",
-        "so-extra20-n2-059-15-p4",
-        "so-extra20-n2-059-15-p1",
-        "so-extra20-n2-059-15-p2"
+        "so-created-n2-059-20-p1",
+        "so-created-n2-059-20-p2",
+        "so-created-n2-059-20-p3",
+        "so-created-n2-059-20-p4"
       ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '주민 설명을 생략해 봤자 공사에 대한 반발을 피할 수는 없다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
       "sourceGrammarIds": [
-        "n2-059"
+        "n2-059",
+        "n2-028",
+        "n2-003",
+        "n2-001"
       ],
       "tags": [
         "仮定",
         "否定",
         "制限",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-059-16",
+      "id": "so-created-n2-059-21",
       "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlanks": "いくら働い ____ ____ ____ ____",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
+      "sentence": "雨がやむまで港で待ったところで、欠航になった船は出ない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "비가 그칠 때까지 항구에서 기다려 봤자 결항된 배는 출항하지 않는다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-059-16-p3",
-          "text": "たところで",
+          "id": "so-created-n2-059-21-p4",
+          "text": "船は出ない。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-059-21-p1",
+          "text": "雨がやむまで港で",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-059-16-p4",
-          "text": "こう物価が",
+          "id": "so-created-n2-059-21-p2",
+          "text": "待ったところで、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-059-16-p1",
-          "text": "高くて",
+          "id": "so-created-n2-059-21-p3",
+          "text": "欠航になった",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-059-16-p2",
-          "text": "は生活は楽にはならない",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-059-16-p3",
-        "so-extra20-n2-059-16-p4",
-        "so-extra20-n2-059-16-p1",
-        "so-extra20-n2-059-16-p2"
+        "so-created-n2-059-21-p1",
+        "so-created-n2-059-21-p2",
+        "so-created-n2-059-21-p3",
+        "so-created-n2-059-21-p4"
       ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '비가 그칠 때까지 항구에서 기다려 봤자 결항된 배는 출항하지 않는다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
       "sourceGrammarIds": [
-        "n2-059"
+        "n2-059",
+        "n2-028",
+        "n2-003",
+        "n2-001"
       ],
       "tags": [
         "仮定",
         "否定",
         "制限",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-059-17",
+      "id": "so-created-n2-059-22",
       "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlanks": "いくら働い ____ ____ ____ ____",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
+      "sentence": "いくら声を張り上げたところで、防音ガラスの向こうには届かない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 向こうには届かない。",
+      "korean": "아무리 목소리를 높여 봤자 방음 유리 너머에는 들리지 않는다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-059-17-p2",
-          "text": "高くて",
+          "id": "so-created-n2-059-22-p3",
+          "text": "たところで、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-059-17-p3",
-          "text": "は生活は楽にはならない",
+          "id": "so-created-n2-059-22-p4",
+          "text": "防音ガラスの",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-059-17-p4",
-          "text": "たところで",
+          "id": "so-created-n2-059-22-p1",
+          "text": "いくら声を",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-059-17-p1",
-          "text": "こう物価が",
+          "id": "so-created-n2-059-22-p2",
+          "text": "張り上げ",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-059-17-p4",
-        "so-extra20-n2-059-17-p1",
-        "so-extra20-n2-059-17-p2",
-        "so-extra20-n2-059-17-p3"
+        "so-created-n2-059-22-p1",
+        "so-created-n2-059-22-p2",
+        "so-created-n2-059-22-p3",
+        "so-created-n2-059-22-p4"
       ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '아무리 목소리를 높여 봤자 방음 유리 너머에는 들리지 않는다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
       "sourceGrammarIds": [
-        "n2-059"
+        "n2-059",
+        "n2-028",
+        "n2-003",
+        "n2-001"
       ],
       "tags": [
         "仮定",
         "否定",
         "制限",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-059-18",
+      "id": "so-created-n2-059-23",
       "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、こう物価が高くては生活は楽にはならない。",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
+      "sentence": "売れ残った魚を翌朝値下げしたところで、鮮度は取り戻せない。",
+      "sentenceWithBlanks": "売れ ____ ____ ____ ____ 戻せない。",
+      "korean": "팔리지 않고 남은 생선을 다음 날 아침 할인해 봤자 신선도는 되찾을 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-059-18-p1",
-          "text": "い",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-059-18-p2",
-          "text": "たところで",
+          "id": "so-created-n2-059-23-p2",
+          "text": "翌朝値下げし",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-059-18-p3",
-          "text": "こう物価が",
+          "id": "so-created-n2-059-23-p3",
+          "text": "たところで、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-059-18-p4",
-          "text": "高くて",
+          "id": "so-created-n2-059-23-p4",
+          "text": "鮮度は取り",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-059-23-p1",
+          "text": "残った魚を",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-059-18-p1",
-        "so-extra20-n2-059-18-p2",
-        "so-extra20-n2-059-18-p3",
-        "so-extra20-n2-059-18-p4"
+        "so-created-n2-059-23-p1",
+        "so-created-n2-059-23-p2",
+        "so-created-n2-059-23-p3",
+        "so-created-n2-059-23-p4"
       ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '팔리지 않고 남은 생선을 다음 날 아침 할인해 봤자 신선도는 되찾을 수 없다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
       "sourceGrammarIds": [
-        "n2-059"
+        "n2-059",
+        "n2-028",
+        "n2-003",
+        "n2-001"
       ],
       "tags": [
         "仮定",
         "否定",
         "制限",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-059-19",
+      "id": "so-created-n2-059-24",
       "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlanks": "いくら働い ____ ____ ____ ____",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
+      "sentence": "契約書の一部を隠したところで、監査で不正が発覚するのは避けられない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 発覚するのは避けられない。",
+      "korean": "계약서 일부를 숨겨 봤자 감사에서 부정이 드러나는 것은 피할 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-059-19-p4",
-          "text": "高くて",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-059-19-p1",
-          "text": "は生活は楽にはならない",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-059-19-p2",
-          "text": "たところで",
+          "id": "so-created-n2-059-24-p1",
+          "text": "契約書の",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-059-19-p3",
-          "text": "こう物価が",
+          "id": "so-created-n2-059-24-p2",
+          "text": "一部を隠し",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-059-24-p3",
+          "text": "たところで、",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-059-24-p4",
+          "text": "監査で不正が",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-059-19-p2",
-        "so-extra20-n2-059-19-p3",
-        "so-extra20-n2-059-19-p4",
-        "so-extra20-n2-059-19-p1"
+        "so-created-n2-059-24-p1",
+        "so-created-n2-059-24-p2",
+        "so-created-n2-059-24-p3",
+        "so-created-n2-059-24-p4"
       ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '계약서 일부를 숨겨 봤자 감사에서 부정이 드러나는 것은 피할 수 없다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
       "sourceGrammarIds": [
-        "n2-059"
+        "n2-059",
+        "n2-028",
+        "n2-003",
+        "n2-001"
       ],
       "tags": [
         "仮定",
         "否定",
         "制限",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-059-20",
+      "id": "so-created-n2-059-25",
       "level": "N2",
-      "sentence": "いくら働いたところで、こう物価が高くては生活は楽にはならない。",
-      "sentenceWithBlanks": "いくら働い ____ ____ ____ ____",
-      "korean": "아무리 일해 봤자 이렇게 물가가 높아서는 생활이 편해지지 않는다.",
+      "sentence": "試合終了間際に守備を固めたところで、三点差を逆転する望みはない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 逆転する望みはない。",
+      "korean": "경기 종료 직전에 수비를 강화해 봤자 3점 차를 뒤집을 가망은 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-059-20-p3",
-          "text": "たところで",
+          "id": "so-created-n2-059-25-p4",
+          "text": "三点差を",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-059-25-p1",
+          "text": "試合終了間際に",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-059-20-p4",
-          "text": "こう物価が",
+          "id": "so-created-n2-059-25-p2",
+          "text": "守備を固め",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-059-20-p1",
-          "text": "高くて",
+          "id": "so-created-n2-059-25-p3",
+          "text": "たところで、",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-059-20-p2",
-          "text": "は生活は楽にはならない",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-059-20-p3",
-        "so-extra20-n2-059-20-p4",
-        "so-extra20-n2-059-20-p1",
-        "so-extra20-n2-059-20-p2"
+        "so-created-n2-059-25-p1",
+        "so-created-n2-059-25-p2",
+        "so-created-n2-059-25-p3",
+        "so-created-n2-059-25-p4"
       ],
-      "explanation": "「たところで」는 ~해봤자, ~한다고 해도라는 뜻이다. 해도 원하는 결과가 나오지 않음.",
+      "explanation": "「たところで」는 '~해봤자, ~한다고 해도'라는 뜻을 나타낸다. 이 문장에서는 '경기 종료 직전에 수비를 강화해 봤자 3점 차를 뒤집을 가망은 없다.'라는 상황에 쓰였으며, 해도 원하는 결과가 나오지 않음. 주의할 점은 「いくら～たところで」형태가 전형. 반드시 부정적 결론이 뒤에 옴.",
       "sourceGrammarIds": [
-        "n2-059"
+        "n2-059",
+        "n2-028",
+        "n2-003",
+        "n2-001"
       ],
       "tags": [
         "仮定",
         "否定",
         "制限",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     }
   ]

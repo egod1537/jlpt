@@ -267,15 +267,23 @@
       ]
     },
     {
-      "id": "fb-extra-n2-058-1",
+      "id": "fb-created-n2-058-01",
       "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlank": "昔住んでいた町を訪ね（　　　）、全く様子が変わっていて迷ってしまった。",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
-      "answerChoiceId": "fb-extra-n2-058-1-c",
+      "sentence": "管理会社に水漏れを報告したところ、すぐに修理業者を手配してくれた。",
+      "sentenceWithBlank": "管理会社に水漏れを報告し（　　　）、すぐに修理業者を手配してくれた。",
+      "korean": "관리 회사에 누수를 신고했더니 곧바로 수리 업체를安排해 주었다.",
+      "answerChoiceId": "fb-created-n2-058-01-c",
       "choices": [
         {
-          "id": "fb-extra-n2-058-1-d",
+          "id": "fb-created-n2-058-01-c",
+          "text": "たところ",
+          "grammarId": "n2-058",
+          "baseExpression": "たところ",
+          "conjugatedExpression": "たところ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-058-01-d",
           "text": "やらやら",
           "grammarId": "n2-162",
           "baseExpression": "やらやら",
@@ -283,7 +291,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-058-1-a",
+          "id": "fb-created-n2-058-01-a",
           "text": "ようがない",
           "grammarId": "n2-163",
           "baseExpression": "ようがない",
@@ -291,23 +299,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-058-1-b",
+          "id": "fb-created-n2-058-01-b",
           "text": "ようかまいか",
           "grammarId": "n2-164",
           "baseExpression": "ようかまいか",
           "conjugatedExpression": "ようかまいか",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-058-1-c",
-          "text": "たところ",
-          "grammarId": "n2-058",
-          "baseExpression": "たところ",
-          "conjugatedExpression": "たところ",
-          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '관리 회사에 누수를 신고했더니 곧바로 수리 업체를安排해 주었다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
       "sourceGrammarIds": [
         "n2-058",
         "n2-162",
@@ -315,237 +315,20 @@
         "n2-164"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra-n2-058-2",
+      "id": "fb-created-n2-058-02",
       "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlank": "昔住んでいた町を訪ね（　　　）、全く様子が変わっていて迷ってしまった。",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
-      "answerChoiceId": "fb-extra-n2-058-2-b",
+      "sentence": "庭の土を少し掘ったところ、古い陶器のかけらがいくつも出てきた。",
+      "sentenceWithBlank": "庭の土を少し掘っ（　　　）、古い陶器のかけらがいくつも出てきた。",
+      "korean": "정원의 흙을 조금 파 보았더니 오래된 도자기 조각이 여러 개 나왔다.",
+      "answerChoiceId": "fb-created-n2-058-02-c",
       "choices": [
         {
-          "id": "fb-extra-n2-058-2-a",
-          "text": "を問わず",
-          "grammarId": "n2-173",
-          "baseExpression": "を問わず",
-          "conjugatedExpression": "を問わず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-058-2-b",
-          "text": "たところ",
-          "grammarId": "n2-058",
-          "baseExpression": "たところ",
-          "conjugatedExpression": "たところ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-058-2-c",
-          "text": "わりには",
-          "grammarId": "n2-171",
-          "baseExpression": "わりには",
-          "conjugatedExpression": "わりには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-058-2-d",
-          "text": "を契機に",
-          "grammarId": "n2-172",
-          "baseExpression": "を契機に",
-          "conjugatedExpression": "を契機に",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
-      "sourceGrammarIds": [
-        "n2-058",
-        "n2-171",
-        "n2-172",
-        "n2-173"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-058-3",
-      "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlank": "昔住んでいた町を訪ね（　　　）、全く様子が変わっていて迷ってしまった。",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
-      "answerChoiceId": "fb-extra-n2-058-3-a",
-      "choices": [
-        {
-          "id": "fb-extra-n2-058-3-b",
-          "text": "甲斐があって",
-          "grammarId": "n2-011",
-          "baseExpression": "甲斐があって",
-          "conjugatedExpression": "甲斐があって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-058-3-c",
-          "text": "かぎりは",
-          "grammarId": "n2-012",
-          "baseExpression": "かぎりは",
-          "conjugatedExpression": "かぎりは",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-058-3-d",
-          "text": "かぎり",
-          "grammarId": "n2-013",
-          "baseExpression": "かぎり",
-          "conjugatedExpression": "かぎり",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-058-3-a",
-          "text": "たところ",
-          "grammarId": "n2-058",
-          "baseExpression": "たところ",
-          "conjugatedExpression": "たところ",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
-      "sourceGrammarIds": [
-        "n2-058",
-        "n2-011",
-        "n2-012",
-        "n2-013"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-058-4",
-      "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlank": "昔住んでいた町を訪ね（　　　）、全く様子が変わっていて迷ってしまった。",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
-      "answerChoiceId": "fb-extra-n2-058-4-d",
-      "choices": [
-        {
-          "id": "fb-extra-n2-058-4-c",
-          "text": "とともに",
-          "grammarId": "n2-091",
-          "baseExpression": "とともに",
-          "conjugatedExpression": "とともに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-058-4-d",
-          "text": "たところ",
-          "grammarId": "n2-058",
-          "baseExpression": "たところ",
-          "conjugatedExpression": "たところ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-058-4-a",
-          "text": "ところをみると",
-          "grammarId": "n2-089",
-          "baseExpression": "ところをみると",
-          "conjugatedExpression": "ところをみると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-058-4-b",
-          "text": "としてない",
-          "grammarId": "n2-090",
-          "baseExpression": "としてない",
-          "conjugatedExpression": "としてない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
-      "sourceGrammarIds": [
-        "n2-058",
-        "n2-089",
-        "n2-090",
-        "n2-091"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-058-5",
-      "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlank": "昔住んでいた町を訪ね（　　　）、全く様子が変わっていて迷ってしまった。",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
-      "answerChoiceId": "fb-extra-n2-058-5-c",
-      "choices": [
-        {
-          "id": "fb-extra-n2-058-5-d",
-          "text": "にもかかわらず",
-          "grammarId": "n2-130",
-          "baseExpression": "にもかかわらず",
-          "conjugatedExpression": "にもかかわらず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-058-5-a",
-          "text": "にもとづいて",
-          "grammarId": "n2-131",
-          "baseExpression": "にもとづいて",
-          "conjugatedExpression": "にもとづいて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-058-5-b",
-          "text": "ぬきで",
-          "grammarId": "n2-132",
-          "baseExpression": "ぬきで",
-          "conjugatedExpression": "ぬきで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-058-5-c",
-          "text": "たところ",
-          "grammarId": "n2-058",
-          "baseExpression": "たところ",
-          "conjugatedExpression": "たところ",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
-      "sourceGrammarIds": [
-        "n2-058",
-        "n2-130",
-        "n2-131",
-        "n2-132"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-058-01",
-      "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlank": "昔住んでいた町を訪ね（　　　）、全く様子が変わっていて迷ってしまった。",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
-      "answerChoiceId": "fb-extra20-n2-058-01-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-058-01-d",
+          "id": "fb-created-n2-058-02-d",
           "text": "やらやら",
           "grammarId": "n2-162",
           "baseExpression": "やらやら",
@@ -553,7 +336,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-058-01-a",
+          "id": "fb-created-n2-058-02-a",
           "text": "ようがない",
           "grammarId": "n2-163",
           "baseExpression": "ようがない",
@@ -561,7 +344,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-058-01-b",
+          "id": "fb-created-n2-058-02-b",
           "text": "ようかまいか",
           "grammarId": "n2-164",
           "baseExpression": "ようかまいか",
@@ -569,7 +352,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-058-01-c",
+          "id": "fb-created-n2-058-02-c",
           "text": "たところ",
           "grammarId": "n2-058",
           "baseExpression": "たところ",
@@ -577,7 +360,7 @@
           "isSimilarDistractor": false
         }
       ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '정원의 흙을 조금 파 보았더니 오래된 도자기 조각이 여러 개 나왔다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
       "sourceGrammarIds": [
         "n2-058",
         "n2-162",
@@ -585,253 +368,20 @@
         "n2-164"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-058-02",
+      "id": "fb-created-n2-058-03",
       "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlank": "昔住んでいた町を訪ね（　　　）、全く様子が変わっていて迷ってしまった。",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
-      "answerChoiceId": "fb-extra20-n2-058-02-b",
+      "sentence": "念のため領収書を確認したところ、同じ商品が二重に請求されていた。",
+      "sentenceWithBlank": "念のため領収書を確認し（　　　）、同じ商品が二重に請求されていた。",
+      "korean": "혹시 몰라 영수증을 확인했더니 같은 상품이 이중으로 청구되어 있었다.",
+      "answerChoiceId": "fb-created-n2-058-03-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-058-02-c",
-          "text": "わりには",
-          "grammarId": "n2-171",
-          "baseExpression": "わりには",
-          "conjugatedExpression": "わりには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-058-02-d",
-          "text": "を契機に",
-          "grammarId": "n2-172",
-          "baseExpression": "を契機に",
-          "conjugatedExpression": "を契機に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-058-02-a",
-          "text": "を問わず",
-          "grammarId": "n2-173",
-          "baseExpression": "を問わず",
-          "conjugatedExpression": "を問わず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-058-02-b",
-          "text": "たところ",
-          "grammarId": "n2-058",
-          "baseExpression": "たところ",
-          "conjugatedExpression": "たところ",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
-      "sourceGrammarIds": [
-        "n2-058",
-        "n2-171",
-        "n2-172",
-        "n2-173"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-058-03",
-      "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlank": "昔住んでいた町を訪ね（　　　）、全く様子が変わっていて迷ってしまった。",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
-      "answerChoiceId": "fb-extra20-n2-058-03-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-058-03-b",
-          "text": "甲斐があって",
-          "grammarId": "n2-011",
-          "baseExpression": "甲斐があって",
-          "conjugatedExpression": "甲斐があって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-058-03-c",
-          "text": "かぎりは",
-          "grammarId": "n2-012",
-          "baseExpression": "かぎりは",
-          "conjugatedExpression": "かぎりは",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-058-03-d",
-          "text": "かぎり",
-          "grammarId": "n2-013",
-          "baseExpression": "かぎり",
-          "conjugatedExpression": "かぎり",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-058-03-a",
-          "text": "たところ",
-          "grammarId": "n2-058",
-          "baseExpression": "たところ",
-          "conjugatedExpression": "たところ",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
-      "sourceGrammarIds": [
-        "n2-058",
-        "n2-011",
-        "n2-012",
-        "n2-013"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-058-04",
-      "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlank": "昔住んでいた町を訪ね（　　　）、全く様子が変わっていて迷ってしまった。",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
-      "answerChoiceId": "fb-extra20-n2-058-04-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-058-04-a",
-          "text": "ところをみると",
-          "grammarId": "n2-089",
-          "baseExpression": "ところをみると",
-          "conjugatedExpression": "ところをみると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-058-04-b",
-          "text": "としてない",
-          "grammarId": "n2-090",
-          "baseExpression": "としてない",
-          "conjugatedExpression": "としてない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-058-04-c",
-          "text": "とともに",
-          "grammarId": "n2-091",
-          "baseExpression": "とともに",
-          "conjugatedExpression": "とともに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-058-04-d",
-          "text": "たところ",
-          "grammarId": "n2-058",
-          "baseExpression": "たところ",
-          "conjugatedExpression": "たところ",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
-      "sourceGrammarIds": [
-        "n2-058",
-        "n2-089",
-        "n2-090",
-        "n2-091"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-058-05",
-      "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlank": "昔住んでいた町を訪ね（　　　）、全く様子が変わっていて迷ってしまった。",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
-      "answerChoiceId": "fb-extra20-n2-058-05-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-058-05-d",
-          "text": "にもかかわらず",
-          "grammarId": "n2-130",
-          "baseExpression": "にもかかわらず",
-          "conjugatedExpression": "にもかかわらず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-058-05-a",
-          "text": "にもとづいて",
-          "grammarId": "n2-131",
-          "baseExpression": "にもとづいて",
-          "conjugatedExpression": "にもとづいて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-058-05-b",
-          "text": "ぬきで",
-          "grammarId": "n2-132",
-          "baseExpression": "ぬきで",
-          "conjugatedExpression": "ぬきで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-058-05-c",
-          "text": "たところ",
-          "grammarId": "n2-058",
-          "baseExpression": "たところ",
-          "conjugatedExpression": "たところ",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
-      "sourceGrammarIds": [
-        "n2-058",
-        "n2-130",
-        "n2-131",
-        "n2-132"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-058-06",
-      "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlank": "昔住んでいた町を訪ね（　　　）、全く様子が変わっていて迷ってしまった。",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
-      "answerChoiceId": "fb-extra20-n2-058-06-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-058-06-c",
-          "text": "たところ",
-          "grammarId": "n2-058",
-          "baseExpression": "たところ",
-          "conjugatedExpression": "たところ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-058-06-d",
-          "text": "やらやら",
-          "grammarId": "n2-162",
-          "baseExpression": "やらやら",
-          "conjugatedExpression": "やらやら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-058-06-a",
+          "id": "fb-created-n2-058-03-a",
           "text": "ようがない",
           "grammarId": "n2-163",
           "baseExpression": "ようがない",
@@ -839,253 +389,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-058-06-b",
-          "text": "ようかまいか",
-          "grammarId": "n2-164",
-          "baseExpression": "ようかまいか",
-          "conjugatedExpression": "ようかまいか",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
-      "sourceGrammarIds": [
-        "n2-058",
-        "n2-162",
-        "n2-163",
-        "n2-164"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-058-07",
-      "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlank": "昔住んでいた町を訪ね（　　　）、全く様子が変わっていて迷ってしまった。",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
-      "answerChoiceId": "fb-extra20-n2-058-07-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-058-07-b",
-          "text": "たところ",
-          "grammarId": "n2-058",
-          "baseExpression": "たところ",
-          "conjugatedExpression": "たところ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-058-07-c",
-          "text": "わりには",
-          "grammarId": "n2-171",
-          "baseExpression": "わりには",
-          "conjugatedExpression": "わりには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-058-07-d",
-          "text": "を契機に",
-          "grammarId": "n2-172",
-          "baseExpression": "を契機に",
-          "conjugatedExpression": "を契機に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-058-07-a",
-          "text": "を問わず",
-          "grammarId": "n2-173",
-          "baseExpression": "を問わず",
-          "conjugatedExpression": "を問わず",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
-      "sourceGrammarIds": [
-        "n2-058",
-        "n2-171",
-        "n2-172",
-        "n2-173"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-058-08",
-      "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlank": "昔住んでいた町を訪ね（　　　）、全く様子が変わっていて迷ってしまった。",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
-      "answerChoiceId": "fb-extra20-n2-058-08-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-058-08-a",
-          "text": "たところ",
-          "grammarId": "n2-058",
-          "baseExpression": "たところ",
-          "conjugatedExpression": "たところ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-058-08-b",
-          "text": "甲斐があって",
-          "grammarId": "n2-011",
-          "baseExpression": "甲斐があって",
-          "conjugatedExpression": "甲斐があって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-058-08-c",
-          "text": "かぎりは",
-          "grammarId": "n2-012",
-          "baseExpression": "かぎりは",
-          "conjugatedExpression": "かぎりは",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-058-08-d",
-          "text": "かぎり",
-          "grammarId": "n2-013",
-          "baseExpression": "かぎり",
-          "conjugatedExpression": "かぎり",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
-      "sourceGrammarIds": [
-        "n2-058",
-        "n2-011",
-        "n2-012",
-        "n2-013"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-058-09",
-      "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlank": "昔住んでいた町を訪ね（　　　）、全く様子が変わっていて迷ってしまった。",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
-      "answerChoiceId": "fb-extra20-n2-058-09-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-058-09-d",
-          "text": "たところ",
-          "grammarId": "n2-058",
-          "baseExpression": "たところ",
-          "conjugatedExpression": "たところ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-058-09-a",
-          "text": "ところをみると",
-          "grammarId": "n2-089",
-          "baseExpression": "ところをみると",
-          "conjugatedExpression": "ところをみると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-058-09-b",
-          "text": "としてない",
-          "grammarId": "n2-090",
-          "baseExpression": "としてない",
-          "conjugatedExpression": "としてない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-058-09-c",
-          "text": "とともに",
-          "grammarId": "n2-091",
-          "baseExpression": "とともに",
-          "conjugatedExpression": "とともに",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
-      "sourceGrammarIds": [
-        "n2-058",
-        "n2-089",
-        "n2-090",
-        "n2-091"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-058-10",
-      "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlank": "昔住んでいた町を訪ね（　　　）、全く様子が変わっていて迷ってしまった。",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
-      "answerChoiceId": "fb-extra20-n2-058-10-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-058-10-c",
-          "text": "たところ",
-          "grammarId": "n2-058",
-          "baseExpression": "たところ",
-          "conjugatedExpression": "たところ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-058-10-d",
-          "text": "にもかかわらず",
-          "grammarId": "n2-130",
-          "baseExpression": "にもかかわらず",
-          "conjugatedExpression": "にもかかわらず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-058-10-a",
-          "text": "にもとづいて",
-          "grammarId": "n2-131",
-          "baseExpression": "にもとづいて",
-          "conjugatedExpression": "にもとづいて",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-058-10-b",
-          "text": "ぬきで",
-          "grammarId": "n2-132",
-          "baseExpression": "ぬきで",
-          "conjugatedExpression": "ぬきで",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
-      "sourceGrammarIds": [
-        "n2-058",
-        "n2-130",
-        "n2-131",
-        "n2-132"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-058-11",
-      "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlank": "昔住んでいた町を訪ね（　　　）、全く様子が変わっていて迷ってしまった。",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
-      "answerChoiceId": "fb-extra20-n2-058-11-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-058-11-b",
+          "id": "fb-created-n2-058-03-b",
           "text": "ようかまいか",
           "grammarId": "n2-164",
           "baseExpression": "ようかまいか",
@@ -1093,7 +397,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-058-11-c",
+          "id": "fb-created-n2-058-03-c",
           "text": "たところ",
           "grammarId": "n2-058",
           "baseExpression": "たところ",
@@ -1101,285 +405,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-058-11-d",
-          "text": "やらやら",
-          "grammarId": "n2-162",
-          "baseExpression": "やらやら",
-          "conjugatedExpression": "やらやら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-058-11-a",
-          "text": "ようがない",
-          "grammarId": "n2-163",
-          "baseExpression": "ようがない",
-          "conjugatedExpression": "ようがない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
-      "sourceGrammarIds": [
-        "n2-058",
-        "n2-162",
-        "n2-163",
-        "n2-164"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-058-12",
-      "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlank": "昔住んでいた町を訪ね（　　　）、全く様子が変わっていて迷ってしまった。",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
-      "answerChoiceId": "fb-extra20-n2-058-12-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-058-12-a",
-          "text": "を問わず",
-          "grammarId": "n2-173",
-          "baseExpression": "を問わず",
-          "conjugatedExpression": "を問わず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-058-12-b",
-          "text": "たところ",
-          "grammarId": "n2-058",
-          "baseExpression": "たところ",
-          "conjugatedExpression": "たところ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-058-12-c",
-          "text": "わりには",
-          "grammarId": "n2-171",
-          "baseExpression": "わりには",
-          "conjugatedExpression": "わりには",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-058-12-d",
-          "text": "を契機に",
-          "grammarId": "n2-172",
-          "baseExpression": "を契機に",
-          "conjugatedExpression": "を契機に",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
-      "sourceGrammarIds": [
-        "n2-058",
-        "n2-171",
-        "n2-172",
-        "n2-173"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-058-13",
-      "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlank": "昔住んでいた町を訪ね（　　　）、全く様子が変わっていて迷ってしまった。",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
-      "answerChoiceId": "fb-extra20-n2-058-13-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-058-13-d",
-          "text": "かぎり",
-          "grammarId": "n2-013",
-          "baseExpression": "かぎり",
-          "conjugatedExpression": "かぎり",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-058-13-a",
-          "text": "たところ",
-          "grammarId": "n2-058",
-          "baseExpression": "たところ",
-          "conjugatedExpression": "たところ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-058-13-b",
-          "text": "甲斐があって",
-          "grammarId": "n2-011",
-          "baseExpression": "甲斐があって",
-          "conjugatedExpression": "甲斐があって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-058-13-c",
-          "text": "かぎりは",
-          "grammarId": "n2-012",
-          "baseExpression": "かぎりは",
-          "conjugatedExpression": "かぎりは",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
-      "sourceGrammarIds": [
-        "n2-058",
-        "n2-011",
-        "n2-012",
-        "n2-013"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-058-14",
-      "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlank": "昔住んでいた町を訪ね（　　　）、全く様子が変わっていて迷ってしまった。",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
-      "answerChoiceId": "fb-extra20-n2-058-14-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-058-14-c",
-          "text": "とともに",
-          "grammarId": "n2-091",
-          "baseExpression": "とともに",
-          "conjugatedExpression": "とともに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-058-14-d",
-          "text": "たところ",
-          "grammarId": "n2-058",
-          "baseExpression": "たところ",
-          "conjugatedExpression": "たところ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-058-14-a",
-          "text": "ところをみると",
-          "grammarId": "n2-089",
-          "baseExpression": "ところをみると",
-          "conjugatedExpression": "ところをみると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-058-14-b",
-          "text": "としてない",
-          "grammarId": "n2-090",
-          "baseExpression": "としてない",
-          "conjugatedExpression": "としてない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
-      "sourceGrammarIds": [
-        "n2-058",
-        "n2-089",
-        "n2-090",
-        "n2-091"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-058-15",
-      "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlank": "昔住んでいた町を訪ね（　　　）、全く様子が変わっていて迷ってしまった。",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
-      "answerChoiceId": "fb-extra20-n2-058-15-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-058-15-b",
-          "text": "ぬきで",
-          "grammarId": "n2-132",
-          "baseExpression": "ぬきで",
-          "conjugatedExpression": "ぬきで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-058-15-c",
-          "text": "たところ",
-          "grammarId": "n2-058",
-          "baseExpression": "たところ",
-          "conjugatedExpression": "たところ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-058-15-d",
-          "text": "にもかかわらず",
-          "grammarId": "n2-130",
-          "baseExpression": "にもかかわらず",
-          "conjugatedExpression": "にもかかわらず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-058-15-a",
-          "text": "にもとづいて",
-          "grammarId": "n2-131",
-          "baseExpression": "にもとづいて",
-          "conjugatedExpression": "にもとづいて",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
-      "sourceGrammarIds": [
-        "n2-058",
-        "n2-130",
-        "n2-131",
-        "n2-132"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-058-16",
-      "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlank": "昔住んでいた町を訪ね（　　　）、全く様子が変わっていて迷ってしまった。",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
-      "answerChoiceId": "fb-extra20-n2-058-16-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-058-16-a",
-          "text": "ようがない",
-          "grammarId": "n2-163",
-          "baseExpression": "ようがない",
-          "conjugatedExpression": "ようがない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-058-16-b",
-          "text": "ようかまいか",
-          "grammarId": "n2-164",
-          "baseExpression": "ようかまいか",
-          "conjugatedExpression": "ようかまいか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-058-16-c",
-          "text": "たところ",
-          "grammarId": "n2-058",
-          "baseExpression": "たところ",
-          "conjugatedExpression": "たところ",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-058-16-d",
+          "id": "fb-created-n2-058-03-d",
           "text": "やらやら",
           "grammarId": "n2-162",
           "baseExpression": "やらやら",
@@ -1387,7 +413,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '혹시 몰라 영수증을 확인했더니 같은 상품이 이중으로 청구되어 있었다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
       "sourceGrammarIds": [
         "n2-058",
         "n2-162",
@@ -1395,37 +421,28 @@
         "n2-164"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-058-17",
+      "id": "fb-created-n2-058-04",
       "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlank": "昔住んでいた町を訪ね（　　　）、全く様子が変わっていて迷ってしまった。",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
-      "answerChoiceId": "fb-extra20-n2-058-17-b",
+      "sentence": "迷子の犬を動物病院へ連れて行ったところ、首輪の情報から飼い主が見つかった。",
+      "sentenceWithBlank": "迷子の犬を動物病院へ連れて行っ（　　　）、首輪の情報から飼い主が見つかった。",
+      "korean": "길 잃은 개를 동물병원에 데려갔더니 목걸이의 정보로 주인을 찾게 되었다.",
+      "answerChoiceId": "fb-created-n2-058-04-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-058-17-d",
-          "text": "を契機に",
-          "grammarId": "n2-172",
-          "baseExpression": "を契機に",
-          "conjugatedExpression": "を契機に",
+          "id": "fb-created-n2-058-04-b",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-058-17-a",
-          "text": "を問わず",
-          "grammarId": "n2-173",
-          "baseExpression": "を問わず",
-          "conjugatedExpression": "を問わず",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-058-17-b",
+          "id": "fb-created-n2-058-04-c",
           "text": "たところ",
           "grammarId": "n2-058",
           "baseExpression": "たところ",
@@ -1433,53 +450,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-058-17-c",
-          "text": "わりには",
-          "grammarId": "n2-171",
-          "baseExpression": "わりには",
-          "conjugatedExpression": "わりには",
+          "id": "fb-created-n2-058-04-d",
+          "text": "やらやら",
+          "grammarId": "n2-162",
+          "baseExpression": "やらやら",
+          "conjugatedExpression": "やらやら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-058-04-a",
+          "text": "ようがない",
+          "grammarId": "n2-163",
+          "baseExpression": "ようがない",
+          "conjugatedExpression": "ようがない",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '길 잃은 개를 동물병원에 데려갔더니 목걸이의 정보로 주인을 찾게 되었다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
       "sourceGrammarIds": [
         "n2-058",
-        "n2-171",
-        "n2-172",
-        "n2-173"
+        "n2-162",
+        "n2-163",
+        "n2-164"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-058-18",
+      "id": "fb-created-n2-058-05",
       "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlank": "昔住んでいた町を訪ね（　　　）、全く様子が変わっていて迷ってしまった。",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
-      "answerChoiceId": "fb-extra20-n2-058-18-a",
+      "sentence": "工場の機械を停止して内部を調べたところ、小さな金属片が歯車に挟まっていた。",
+      "sentenceWithBlank": "工場の機械を停止して内部を調べ（　　　）、小さな金属片が歯車に挟まっていた。",
+      "korean": "공장 기계를 멈추고 내부를 조사했더니 작은 금속 조각이 톱니바퀴에 끼어 있었다.",
+      "answerChoiceId": "fb-created-n2-058-05-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-058-18-c",
-          "text": "かぎりは",
-          "grammarId": "n2-012",
-          "baseExpression": "かぎりは",
-          "conjugatedExpression": "かぎりは",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-058-18-d",
-          "text": "かぎり",
-          "grammarId": "n2-013",
-          "baseExpression": "かぎり",
-          "conjugatedExpression": "かぎり",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-058-18-a",
+          "id": "fb-created-n2-058-05-c",
           "text": "たところ",
           "grammarId": "n2-058",
           "baseExpression": "たところ",
@@ -1487,53 +495,121 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-058-18-b",
-          "text": "甲斐があって",
-          "grammarId": "n2-011",
-          "baseExpression": "甲斐があって",
-          "conjugatedExpression": "甲斐があって",
+          "id": "fb-created-n2-058-05-d",
+          "text": "やらやら",
+          "grammarId": "n2-162",
+          "baseExpression": "やらやら",
+          "conjugatedExpression": "やらやら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-058-05-a",
+          "text": "ようがない",
+          "grammarId": "n2-163",
+          "baseExpression": "ようがない",
+          "conjugatedExpression": "ようがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-058-05-b",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '공장 기계를 멈추고 내부를 조사했더니 작은 금속 조각이 톱니바퀴에 끼어 있었다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
       "sourceGrammarIds": [
         "n2-058",
-        "n2-011",
-        "n2-012",
-        "n2-013"
+        "n2-162",
+        "n2-163",
+        "n2-164"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-058-19",
+      "id": "fb-created-n2-058-06",
       "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlank": "昔住んでいた町を訪ね（　　　）、全く様子が変わっていて迷ってしまった。",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
-      "answerChoiceId": "fb-extra20-n2-058-19-d",
+      "sentence": "祖母に写真の人物について尋ねたところ、若い頃の同僚だと教えてくれた。",
+      "sentenceWithBlank": "祖母に写真の人物について尋ね（　　　）、若い頃の同僚だと教えてくれた。",
+      "korean": "할머니께 사진 속 인물에 관해 여쭤봤더니 젊었을 때의 동료라고 알려 주셨다.",
+      "answerChoiceId": "fb-created-n2-058-06-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-058-19-b",
-          "text": "としてない",
-          "grammarId": "n2-090",
-          "baseExpression": "としてない",
-          "conjugatedExpression": "としてない",
+          "id": "fb-created-n2-058-06-d",
+          "text": "やらやら",
+          "grammarId": "n2-162",
+          "baseExpression": "やらやら",
+          "conjugatedExpression": "やらやら",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-058-19-c",
-          "text": "とともに",
-          "grammarId": "n2-091",
-          "baseExpression": "とともに",
-          "conjugatedExpression": "とともに",
+          "id": "fb-created-n2-058-06-a",
+          "text": "ようがない",
+          "grammarId": "n2-163",
+          "baseExpression": "ようがない",
+          "conjugatedExpression": "ようがない",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-058-19-d",
+          "id": "fb-created-n2-058-06-b",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-058-06-c",
+          "text": "たところ",
+          "grammarId": "n2-058",
+          "baseExpression": "たところ",
+          "conjugatedExpression": "たところ",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '할머니께 사진 속 인물에 관해 여쭤봤더니 젊었을 때의 동료라고 알려 주셨다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
+      "sourceGrammarIds": [
+        "n2-058",
+        "n2-162",
+        "n2-163",
+        "n2-164"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-058-07",
+      "level": "N2",
+      "sentence": "港で朝市の開催日を聞いたところ、悪天候のため中止になったと言われた。",
+      "sentenceWithBlank": "港で朝市の開催日を聞い（　　　）、悪天候のため中止になったと言われた。",
+      "korean": "항구에서 아침 시장이 열리는 날을 물었더니 악천후로 취소되었다는 말을 들었다.",
+      "answerChoiceId": "fb-created-n2-058-07-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-058-07-a",
+          "text": "ようがない",
+          "grammarId": "n2-163",
+          "baseExpression": "ようがない",
+          "conjugatedExpression": "ようがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-058-07-b",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-058-07-c",
           "text": "たところ",
           "grammarId": "n2-058",
           "baseExpression": "たところ",
@@ -1541,53 +617,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-058-19-a",
-          "text": "ところをみると",
-          "grammarId": "n2-089",
-          "baseExpression": "ところをみると",
-          "conjugatedExpression": "ところをみると",
+          "id": "fb-created-n2-058-07-d",
+          "text": "やらやら",
+          "grammarId": "n2-162",
+          "baseExpression": "やらやら",
+          "conjugatedExpression": "やらやら",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '항구에서 아침 시장이 열리는 날을 물었더니 악천후로 취소되었다는 말을 들었다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
       "sourceGrammarIds": [
         "n2-058",
-        "n2-089",
-        "n2-090",
-        "n2-091"
+        "n2-162",
+        "n2-163",
+        "n2-164"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-058-20",
+      "id": "fb-created-n2-058-08",
       "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlank": "昔住んでいた町を訪ね（　　　）、全く様子が変わっていて迷ってしまった。",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
-      "answerChoiceId": "fb-extra20-n2-058-20-c",
+      "sentence": "新しい枕を一週間使ってみたところ、朝の肩こりがかなり軽くなった。",
+      "sentenceWithBlank": "新しい枕を一週間使ってみ（　　　）、朝の肩こりがかなり軽くなった。",
+      "korean": "새 베개를 일주일간 사용해 보았더니 아침의 어깨 결림이 상당히 줄었다.",
+      "answerChoiceId": "fb-created-n2-058-08-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-058-20-a",
-          "text": "にもとづいて",
-          "grammarId": "n2-131",
-          "baseExpression": "にもとづいて",
-          "conjugatedExpression": "にもとづいて",
+          "id": "fb-created-n2-058-08-b",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-058-20-b",
-          "text": "ぬきで",
-          "grammarId": "n2-132",
-          "baseExpression": "ぬきで",
-          "conjugatedExpression": "ぬきで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-058-20-c",
+          "id": "fb-created-n2-058-08-c",
           "text": "たところ",
           "grammarId": "n2-058",
           "baseExpression": "たところ",
@@ -1595,25 +662,933 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-058-20-d",
-          "text": "にもかかわらず",
-          "grammarId": "n2-130",
-          "baseExpression": "にもかかわらず",
-          "conjugatedExpression": "にもかかわらず",
+          "id": "fb-created-n2-058-08-d",
+          "text": "やらやら",
+          "grammarId": "n2-162",
+          "baseExpression": "やらやら",
+          "conjugatedExpression": "やらやら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-058-08-a",
+          "text": "ようがない",
+          "grammarId": "n2-163",
+          "baseExpression": "ようがない",
+          "conjugatedExpression": "ようがない",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '새 베개를 일주일간 사용해 보았더니 아침의 어깨 결림이 상당히 줄었다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
       "sourceGrammarIds": [
         "n2-058",
-        "n2-130",
-        "n2-131",
-        "n2-132"
+        "n2-162",
+        "n2-163",
+        "n2-164"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-058-09",
+      "level": "N2",
+      "sentence": "閉店前にパン屋へ寄ったところ、残っていた商品を半額で買うことができた。",
+      "sentenceWithBlank": "閉店前にパン屋へ寄っ（　　　）、残っていた商品を半額で買うことができた。",
+      "korean": "폐점 전에 빵집에 들렀더니 남아 있던 상품을 반값에 살 수 있었다.",
+      "answerChoiceId": "fb-created-n2-058-09-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-058-09-c",
+          "text": "たところ",
+          "grammarId": "n2-058",
+          "baseExpression": "たところ",
+          "conjugatedExpression": "たところ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-058-09-d",
+          "text": "やらやら",
+          "grammarId": "n2-162",
+          "baseExpression": "やらやら",
+          "conjugatedExpression": "やらやら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-058-09-a",
+          "text": "ようがない",
+          "grammarId": "n2-163",
+          "baseExpression": "ようがない",
+          "conjugatedExpression": "ようがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-058-09-b",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '폐점 전에 빵집에 들렀더니 남아 있던 상품을 반값에 살 수 있었다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
+      "sourceGrammarIds": [
+        "n2-058",
+        "n2-162",
+        "n2-163",
+        "n2-164"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-058-10",
+      "level": "N2",
+      "sentence": "患者の血液を詳しく分析したところ、鉄分が著しく不足していることが分かった。",
+      "sentenceWithBlank": "患者の血液を詳しく分析し（　　　）、鉄分が著しく不足していることが分かった。",
+      "korean": "환자의 혈액을 자세히 분석했더니 철분이 현저히 부족하다는 사실을 알게 되었다.",
+      "answerChoiceId": "fb-created-n2-058-10-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-058-10-d",
+          "text": "やらやら",
+          "grammarId": "n2-162",
+          "baseExpression": "やらやら",
+          "conjugatedExpression": "やらやら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-058-10-a",
+          "text": "ようがない",
+          "grammarId": "n2-163",
+          "baseExpression": "ようがない",
+          "conjugatedExpression": "ようがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-058-10-b",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-058-10-c",
+          "text": "たところ",
+          "grammarId": "n2-058",
+          "baseExpression": "たところ",
+          "conjugatedExpression": "たところ",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '환자의 혈액을 자세히 분석했더니 철분이 현저히 부족하다는 사실을 알게 되었다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
+      "sourceGrammarIds": [
+        "n2-058",
+        "n2-162",
+        "n2-163",
+        "n2-164"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-058-11",
+      "level": "N2",
+      "sentence": "不動産会社に空室の有無を問い合わせたところ、駅前の物件を一つ紹介された。",
+      "sentenceWithBlank": "不動産会社に空室の有無を問い合わせ（　　　）、駅前の物件を一つ紹介された。",
+      "korean": "부동산 회사에 빈방이 있는지 문의했더니 역 앞의 매물 하나를 소개받았다.",
+      "answerChoiceId": "fb-created-n2-058-11-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-058-11-a",
+          "text": "ようがない",
+          "grammarId": "n2-163",
+          "baseExpression": "ようがない",
+          "conjugatedExpression": "ようがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-058-11-b",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-058-11-c",
+          "text": "たところ",
+          "grammarId": "n2-058",
+          "baseExpression": "たところ",
+          "conjugatedExpression": "たところ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-058-11-d",
+          "text": "やらやら",
+          "grammarId": "n2-162",
+          "baseExpression": "やらやら",
+          "conjugatedExpression": "やらやら",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '부동산 회사에 빈방이 있는지 문의했더니 역 앞의 매물 하나를 소개받았다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
+      "sourceGrammarIds": [
+        "n2-058",
+        "n2-162",
+        "n2-163",
+        "n2-164"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-058-12",
+      "level": "N2",
+      "sentence": "壊れた時計を分解したところ、内部に水滴が残っているのを見つけた。",
+      "sentenceWithBlank": "壊れた時計を分解し（　　　）、内部に水滴が残っているのを見つけた。",
+      "korean": "고장 난 시계를 분해했더니 내부에 물방울이 남아 있는 것을 발견했다.",
+      "answerChoiceId": "fb-created-n2-058-12-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-058-12-b",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-058-12-c",
+          "text": "たところ",
+          "grammarId": "n2-058",
+          "baseExpression": "たところ",
+          "conjugatedExpression": "たところ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-058-12-d",
+          "text": "やらやら",
+          "grammarId": "n2-162",
+          "baseExpression": "やらやら",
+          "conjugatedExpression": "やらやら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-058-12-a",
+          "text": "ようがない",
+          "grammarId": "n2-163",
+          "baseExpression": "ようがない",
+          "conjugatedExpression": "ようがない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '고장 난 시계를 분해했더니 내부에 물방울이 남아 있는 것을 발견했다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
+      "sourceGrammarIds": [
+        "n2-058",
+        "n2-162",
+        "n2-163",
+        "n2-164"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-058-13",
+      "level": "N2",
+      "sentence": "市役所で補助金の条件を相談したところ、私の店も対象になると分かった。",
+      "sentenceWithBlank": "市役所で補助金の条件を相談し（　　　）、私の店も対象になると分かった。",
+      "korean": "시청에서 보조금 조건을 상담했더니 내 가게도 대상이 된다는 것을 알았다.",
+      "answerChoiceId": "fb-created-n2-058-13-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-058-13-c",
+          "text": "たところ",
+          "grammarId": "n2-058",
+          "baseExpression": "たところ",
+          "conjugatedExpression": "たところ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-058-13-d",
+          "text": "やらやら",
+          "grammarId": "n2-162",
+          "baseExpression": "やらやら",
+          "conjugatedExpression": "やらやら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-058-13-a",
+          "text": "ようがない",
+          "grammarId": "n2-163",
+          "baseExpression": "ようがない",
+          "conjugatedExpression": "ようがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-058-13-b",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '시청에서 보조금 조건을 상담했더니 내 가게도 대상이 된다는 것을 알았다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
+      "sourceGrammarIds": [
+        "n2-058",
+        "n2-162",
+        "n2-163",
+        "n2-164"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-058-14",
+      "level": "N2",
+      "sentence": "山頂から双眼鏡で谷を眺めたところ、野生の鹿の群れが川を渡っていた。",
+      "sentenceWithBlank": "山頂から双眼鏡で谷を眺め（　　　）、野生の鹿の群れが川を渡っていた。",
+      "korean": "산 정상에서 쌍안경으로 계곡을 바라보았더니 야생 사슴 떼가 강을 건너고 있었다.",
+      "answerChoiceId": "fb-created-n2-058-14-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-058-14-d",
+          "text": "やらやら",
+          "grammarId": "n2-162",
+          "baseExpression": "やらやら",
+          "conjugatedExpression": "やらやら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-058-14-a",
+          "text": "ようがない",
+          "grammarId": "n2-163",
+          "baseExpression": "ようがない",
+          "conjugatedExpression": "ようがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-058-14-b",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-058-14-c",
+          "text": "たところ",
+          "grammarId": "n2-058",
+          "baseExpression": "たところ",
+          "conjugatedExpression": "たところ",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '산 정상에서 쌍안경으로 계곡을 바라보았더니 야생 사슴 떼가 강을 건너고 있었다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
+      "sourceGrammarIds": [
+        "n2-058",
+        "n2-162",
+        "n2-163",
+        "n2-164"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-058-15",
+      "level": "N2",
+      "sentence": "取引先に納期の変更を申し出たところ、追加料金なしで応じてもらえた。",
+      "sentenceWithBlank": "取引先に納期の変更を申し出（　　　）、追加料金なしで応じてもらえた。",
+      "korean": "거래처에 납기 변경을 요청했더니 추가 요금 없이 응해 주었다.",
+      "answerChoiceId": "fb-created-n2-058-15-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-058-15-a",
+          "text": "ようがない",
+          "grammarId": "n2-163",
+          "baseExpression": "ようがない",
+          "conjugatedExpression": "ようがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-058-15-b",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-058-15-c",
+          "text": "たところ",
+          "grammarId": "n2-058",
+          "baseExpression": "たところ",
+          "conjugatedExpression": "たところ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-058-15-d",
+          "text": "やらやら",
+          "grammarId": "n2-162",
+          "baseExpression": "やらやら",
+          "conjugatedExpression": "やらやら",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '거래처에 납기 변경을 요청했더니 추가 요금 없이 응해 주었다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
+      "sourceGrammarIds": [
+        "n2-058",
+        "n2-162",
+        "n2-163",
+        "n2-164"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-058-16",
+      "level": "N2",
+      "sentence": "冷蔵庫の奥を整理したところ、賞味期限の切れた調味料が五本も見つかった。",
+      "sentenceWithBlank": "冷蔵庫の奥を整理し（　　　）、賞味期限の切れた調味料が五本も見つかった。",
+      "korean": "냉장고 안쪽을 정리했더니 유통기한이 지난 조미료가 다섯 병이나 발견되었다.",
+      "answerChoiceId": "fb-created-n2-058-16-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-058-16-b",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-058-16-c",
+          "text": "たところ",
+          "grammarId": "n2-058",
+          "baseExpression": "たところ",
+          "conjugatedExpression": "たところ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-058-16-d",
+          "text": "やらやら",
+          "grammarId": "n2-162",
+          "baseExpression": "やらやら",
+          "conjugatedExpression": "やらやら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-058-16-a",
+          "text": "ようがない",
+          "grammarId": "n2-163",
+          "baseExpression": "ようがない",
+          "conjugatedExpression": "ようがない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '냉장고 안쪽을 정리했더니 유통기한이 지난 조미료가 다섯 병이나 발견되었다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
+      "sourceGrammarIds": [
+        "n2-058",
+        "n2-162",
+        "n2-163",
+        "n2-164"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-058-17",
+      "level": "N2",
+      "sentence": "沿岸の海水を採取して検査したところ、基準を超える油分が検出された。",
+      "sentenceWithBlank": "沿岸の海水を採取して検査し（　　　）、基準を超える油分が検出された。",
+      "korean": "연안의 바닷물을 채취해 검사했더니 기준을 넘는 유분이 검출되었다.",
+      "answerChoiceId": "fb-created-n2-058-17-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-058-17-c",
+          "text": "たところ",
+          "grammarId": "n2-058",
+          "baseExpression": "たところ",
+          "conjugatedExpression": "たところ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-058-17-d",
+          "text": "やらやら",
+          "grammarId": "n2-162",
+          "baseExpression": "やらやら",
+          "conjugatedExpression": "やらやら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-058-17-a",
+          "text": "ようがない",
+          "grammarId": "n2-163",
+          "baseExpression": "ようがない",
+          "conjugatedExpression": "ようがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-058-17-b",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '연안의 바닷물을 채취해 검사했더니 기준을 넘는 유분이 검출되었다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
+      "sourceGrammarIds": [
+        "n2-058",
+        "n2-162",
+        "n2-163",
+        "n2-164"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-058-18",
+      "level": "N2",
+      "sentence": "ホテルの受付で傘を借りられるか尋ねたところ、無料で貸してもらえた。",
+      "sentenceWithBlank": "ホテルの受付で傘を借りられるか尋ね（　　　）、無料で貸してもらえた。",
+      "korean": "호텔 프런트에서 우산을 빌릴 수 있는지 물었더니 무료로 빌려주었다.",
+      "answerChoiceId": "fb-created-n2-058-18-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-058-18-d",
+          "text": "やらやら",
+          "grammarId": "n2-162",
+          "baseExpression": "やらやら",
+          "conjugatedExpression": "やらやら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-058-18-a",
+          "text": "ようがない",
+          "grammarId": "n2-163",
+          "baseExpression": "ようがない",
+          "conjugatedExpression": "ようがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-058-18-b",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-058-18-c",
+          "text": "たところ",
+          "grammarId": "n2-058",
+          "baseExpression": "たところ",
+          "conjugatedExpression": "たところ",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '호텔 프런트에서 우산을 빌릴 수 있는지 물었더니 무료로 빌려주었다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
+      "sourceGrammarIds": [
+        "n2-058",
+        "n2-162",
+        "n2-163",
+        "n2-164"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-058-19",
+      "level": "N2",
+      "sentence": "古いパソコンのデータを復元したところ、なくしたと思っていた家族写真が残っていた。",
+      "sentenceWithBlank": "古いパソコンのデータを復元し（　　　）、なくしたと思っていた家族写真が残っていた。",
+      "korean": "오래된 컴퓨터의 데이터를 복구했더니 잃어버렸다고 생각했던 가족사진이 남아 있었다.",
+      "answerChoiceId": "fb-created-n2-058-19-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-058-19-a",
+          "text": "ようがない",
+          "grammarId": "n2-163",
+          "baseExpression": "ようがない",
+          "conjugatedExpression": "ようがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-058-19-b",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-058-19-c",
+          "text": "たところ",
+          "grammarId": "n2-058",
+          "baseExpression": "たところ",
+          "conjugatedExpression": "たところ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-058-19-d",
+          "text": "やらやら",
+          "grammarId": "n2-162",
+          "baseExpression": "やらやら",
+          "conjugatedExpression": "やらやら",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '오래된 컴퓨터의 데이터를 복구했더니 잃어버렸다고 생각했던 가족사진이 남아 있었다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
+      "sourceGrammarIds": [
+        "n2-058",
+        "n2-162",
+        "n2-163",
+        "n2-164"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-058-20",
+      "level": "N2",
+      "sentence": "近所の農家から買った桃を冷やして食べたところ、驚くほど甘くて香りも強かった。",
+      "sentenceWithBlank": "近所の農家から買った桃を冷やして食べ（　　　）、驚くほど甘くて香りも強かった。",
+      "korean": "동네 농가에서 산 복숭아를 차갑게 해서 먹어 보았더니 놀랄 만큼 달고 향도 진했다.",
+      "answerChoiceId": "fb-created-n2-058-20-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-058-20-b",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-058-20-c",
+          "text": "たところ",
+          "grammarId": "n2-058",
+          "baseExpression": "たところ",
+          "conjugatedExpression": "たところ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-058-20-d",
+          "text": "やらやら",
+          "grammarId": "n2-162",
+          "baseExpression": "やらやら",
+          "conjugatedExpression": "やらやら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-058-20-a",
+          "text": "ようがない",
+          "grammarId": "n2-163",
+          "baseExpression": "ようがない",
+          "conjugatedExpression": "ようがない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '동네 농가에서 산 복숭아를 차갑게 해서 먹어 보았더니 놀랄 만큼 달고 향도 진했다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
+      "sourceGrammarIds": [
+        "n2-058",
+        "n2-162",
+        "n2-163",
+        "n2-164"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-058-21",
+      "level": "N2",
+      "sentence": "階下の住人に夜中の物音について確認したところ、配管の故障が原因だと判明した。",
+      "sentenceWithBlank": "階下の住人に夜中の物音について確認し（　　　）、配管の故障が原因だと判明した。",
+      "korean": "아래층 주민에게 한밤중의 소음에 관해 확인했더니 배관 고장이 원인으로 밝혀졌다.",
+      "answerChoiceId": "fb-created-n2-058-21-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-058-21-c",
+          "text": "たところ",
+          "grammarId": "n2-058",
+          "baseExpression": "たところ",
+          "conjugatedExpression": "たところ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-058-21-d",
+          "text": "やらやら",
+          "grammarId": "n2-162",
+          "baseExpression": "やらやら",
+          "conjugatedExpression": "やらやら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-058-21-a",
+          "text": "ようがない",
+          "grammarId": "n2-163",
+          "baseExpression": "ようがない",
+          "conjugatedExpression": "ようがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-058-21-b",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '아래층 주민에게 한밤중의 소음에 관해 확인했더니 배관 고장이 원인으로 밝혀졌다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
+      "sourceGrammarIds": [
+        "n2-058",
+        "n2-162",
+        "n2-163",
+        "n2-164"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-058-22",
+      "level": "N2",
+      "sentence": "空港で荷物の到着状況を調べてもらったところ、別の便に積まれていた。",
+      "sentenceWithBlank": "空港で荷物の到着状況を調べてもらっ（　　　）、別の便に積まれていた。",
+      "korean": "공항에서 수하물 도착 상황을 확인해 달라고 했더니 다른 항공편에 실려 있었다.",
+      "answerChoiceId": "fb-created-n2-058-22-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-058-22-d",
+          "text": "やらやら",
+          "grammarId": "n2-162",
+          "baseExpression": "やらやら",
+          "conjugatedExpression": "やらやら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-058-22-a",
+          "text": "ようがない",
+          "grammarId": "n2-163",
+          "baseExpression": "ようがない",
+          "conjugatedExpression": "ようがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-058-22-b",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-058-22-c",
+          "text": "たところ",
+          "grammarId": "n2-058",
+          "baseExpression": "たところ",
+          "conjugatedExpression": "たところ",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '공항에서 수하물 도착 상황을 확인해 달라고 했더니 다른 항공편에 실려 있었다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
+      "sourceGrammarIds": [
+        "n2-058",
+        "n2-162",
+        "n2-163",
+        "n2-164"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-058-23",
+      "level": "N2",
+      "sentence": "屋根裏から聞こえる音を確かめたところ、親鳥が巣の中でひなを育てていた。",
+      "sentenceWithBlank": "屋根裏から聞こえる音を確かめ（　　　）、親鳥が巣の中でひなを育てていた。",
+      "korean": "다락에서 들리는 소리를 확인했더니 어미 새가 둥지 안에서 새끼를 기르고 있었다.",
+      "answerChoiceId": "fb-created-n2-058-23-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-058-23-a",
+          "text": "ようがない",
+          "grammarId": "n2-163",
+          "baseExpression": "ようがない",
+          "conjugatedExpression": "ようがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-058-23-b",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-058-23-c",
+          "text": "たところ",
+          "grammarId": "n2-058",
+          "baseExpression": "たところ",
+          "conjugatedExpression": "たところ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-058-23-d",
+          "text": "やらやら",
+          "grammarId": "n2-162",
+          "baseExpression": "やらやら",
+          "conjugatedExpression": "やらやら",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '다락에서 들리는 소리를 확인했더니 어미 새가 둥지 안에서 새끼를 기르고 있었다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
+      "sourceGrammarIds": [
+        "n2-058",
+        "n2-162",
+        "n2-163",
+        "n2-164"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-058-24",
+      "level": "N2",
+      "sentence": "弁護士に契約書を見せたところ、解約に不利な条項が含まれていると指摘された。",
+      "sentenceWithBlank": "弁護士に契約書を見せ（　　　）、解約に不利な条項が含まれていると指摘された。",
+      "korean": "변호사에게 계약서를 보여 주었더니 해약에 불리한 조항이 포함되어 있다는 지적을 받았다.",
+      "answerChoiceId": "fb-created-n2-058-24-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-058-24-b",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-058-24-c",
+          "text": "たところ",
+          "grammarId": "n2-058",
+          "baseExpression": "たところ",
+          "conjugatedExpression": "たところ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-058-24-d",
+          "text": "やらやら",
+          "grammarId": "n2-162",
+          "baseExpression": "やらやら",
+          "conjugatedExpression": "やらやら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-058-24-a",
+          "text": "ようがない",
+          "grammarId": "n2-163",
+          "baseExpression": "ようがない",
+          "conjugatedExpression": "ようがない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '변호사에게 계약서를 보여 주었더니 해약에 불리한 조항이 포함되어 있다는 지적을 받았다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
+      "sourceGrammarIds": [
+        "n2-058",
+        "n2-162",
+        "n2-163",
+        "n2-164"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-058-25",
+      "level": "N2",
+      "sentence": "湖の水位を昨年の記録と比較したところ、二十センチ以上低下していた。",
+      "sentenceWithBlank": "湖の水位を昨年の記録と比較し（　　　）、二十センチ以上低下していた。",
+      "korean": "호수의 수위를 작년 기록과 비교했더니 20센티미터 이상 낮아져 있었다.",
+      "answerChoiceId": "fb-created-n2-058-25-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-058-25-c",
+          "text": "たところ",
+          "grammarId": "n2-058",
+          "baseExpression": "たところ",
+          "conjugatedExpression": "たところ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-058-25-d",
+          "text": "やらやら",
+          "grammarId": "n2-162",
+          "baseExpression": "やらやら",
+          "conjugatedExpression": "やらやら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-058-25-a",
+          "text": "ようがない",
+          "grammarId": "n2-163",
+          "baseExpression": "ようがない",
+          "conjugatedExpression": "ようがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-058-25-b",
+          "text": "ようかまいか",
+          "grammarId": "n2-164",
+          "baseExpression": "ようかまいか",
+          "conjugatedExpression": "ようかまいか",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '호수의 수위를 작년 기록과 비교했더니 20센티미터 이상 낮아져 있었다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
+      "sourceGrammarIds": [
+        "n2-058",
+        "n2-162",
+        "n2-163",
+        "n2-164"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
       ]
     }
   ],
@@ -1834,1103 +1809,1153 @@
       ]
     },
     {
-      "id": "so-extra-n2-058-1",
+      "id": "so-created-n2-058-01",
       "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlanks": "昔住んでいた町を訪ね ____ ____ ____ ____",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
+      "sentence": "管理会社に水漏れを報告したところ、すぐに修理業者を手配してくれた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 修理業者を手配してくれた。",
+      "korean": "관리 회사에 누수를 신고했더니 곧바로 수리 업체를安排해 주었다.",
       "pieces": [
         {
-          "id": "so-extra-n2-058-1-p1",
-          "text": "いて迷ってしまった",
+          "id": "so-created-n2-058-01-p3",
+          "text": "たところ、",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-058-01-p4",
+          "text": "すぐに",
           "order": 4
         },
         {
-          "id": "so-extra-n2-058-1-p2",
-          "text": "たところ",
+          "id": "so-created-n2-058-01-p1",
+          "text": "管理会社に水",
           "order": 1
         },
         {
-          "id": "so-extra-n2-058-1-p3",
-          "text": "全く様子が",
+          "id": "so-created-n2-058-01-p2",
+          "text": "漏れを報告し",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-058-1-p4",
-          "text": "変わって",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-058-1-p2",
-        "so-extra-n2-058-1-p3",
-        "so-extra-n2-058-1-p4",
-        "so-extra-n2-058-1-p1"
+        "so-created-n2-058-01-p1",
+        "so-created-n2-058-01-p2",
+        "so-created-n2-058-01-p3",
+        "so-created-n2-058-01-p4"
       ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '관리 회사에 누수를 신고했더니 곧바로 수리 업체를安排해 주었다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-058"
+        "n2-058",
+        "n2-162",
+        "n2-163",
+        "n2-164"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-058-2",
+      "id": "so-created-n2-058-02",
       "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlanks": "昔住んでいた町を訪ね ____ ____ ____ ____",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
+      "sentence": "庭の土を少し掘ったところ、古い陶器のかけらがいくつも出てきた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 出てきた。",
+      "korean": "정원의 흙을 조금 파 보았더니 오래된 도자기 조각이 여러 개 나왔다.",
       "pieces": [
         {
-          "id": "so-extra-n2-058-2-p2",
-          "text": "全く様子が",
+          "id": "so-created-n2-058-02-p2",
+          "text": "少し掘っ",
           "order": 2
         },
         {
-          "id": "so-extra-n2-058-2-p3",
-          "text": "変わって",
+          "id": "so-created-n2-058-02-p3",
+          "text": "たところ、古い",
           "order": 3
         },
         {
-          "id": "so-extra-n2-058-2-p4",
-          "text": "いて迷ってしまった",
+          "id": "so-created-n2-058-02-p4",
+          "text": "陶器のかけらがいくつも",
           "order": 4
         },
         {
-          "id": "so-extra-n2-058-2-p1",
-          "text": "たところ",
+          "id": "so-created-n2-058-02-p1",
+          "text": "庭の土を",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-058-2-p1",
-        "so-extra-n2-058-2-p2",
-        "so-extra-n2-058-2-p3",
-        "so-extra-n2-058-2-p4"
+        "so-created-n2-058-02-p1",
+        "so-created-n2-058-02-p2",
+        "so-created-n2-058-02-p3",
+        "so-created-n2-058-02-p4"
       ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '정원의 흙을 조금 파 보았더니 오래된 도자기 조각이 여러 개 나왔다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-058"
+        "n2-058",
+        "n2-162",
+        "n2-163",
+        "n2-164"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-058-3",
+      "id": "so-created-n2-058-03",
       "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、全く様子が変わっていて迷ってしまった。",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
+      "sentence": "念のため領収書を確認したところ、同じ商品が二重に請求されていた。",
+      "sentenceWithBlanks": "念のため ____ ____ ____ ____ 請求されていた。",
+      "korean": "혹시 몰라 영수증을 확인했더니 같은 상품이 이중으로 청구되어 있었다.",
       "pieces": [
         {
-          "id": "so-extra-n2-058-3-p3",
-          "text": "変わって",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-058-3-p4",
-          "text": "訪ね",
+          "id": "so-created-n2-058-03-p1",
+          "text": "領収書を確認し",
           "order": 1
         },
         {
-          "id": "so-extra-n2-058-3-p1",
-          "text": "たところ",
+          "id": "so-created-n2-058-03-p2",
+          "text": "たところ、",
           "order": 2
         },
         {
-          "id": "so-extra-n2-058-3-p2",
-          "text": "全く様子が",
+          "id": "so-created-n2-058-03-p3",
+          "text": "同じ商品が",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-058-03-p4",
+          "text": "二重に",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-058-3-p4",
-        "so-extra-n2-058-3-p1",
-        "so-extra-n2-058-3-p2",
-        "so-extra-n2-058-3-p3"
+        "so-created-n2-058-03-p1",
+        "so-created-n2-058-03-p2",
+        "so-created-n2-058-03-p3",
+        "so-created-n2-058-03-p4"
       ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '혹시 몰라 영수증을 확인했더니 같은 상품이 이중으로 청구되어 있었다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-058"
+        "n2-058",
+        "n2-162",
+        "n2-163",
+        "n2-164"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-058-4",
+      "id": "so-created-n2-058-04",
       "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlanks": "昔住んでいた町を訪ね ____ ____ ____ ____",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
+      "sentence": "迷子の犬を動物病院へ連れて行ったところ、首輪の情報から飼い主が見つかった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 首輪の情報から飼い主が見つかった。",
+      "korean": "길 잃은 개를 동물병원에 데려갔더니 목걸이의 정보로 주인을 찾게 되었다.",
       "pieces": [
         {
-          "id": "so-extra-n2-058-4-p4",
-          "text": "全く様子が",
-          "order": 2
-        },
-        {
-          "id": "so-extra-n2-058-4-p1",
-          "text": "変わって",
-          "order": 3
-        },
-        {
-          "id": "so-extra-n2-058-4-p2",
-          "text": "いて迷ってしまった",
+          "id": "so-created-n2-058-04-p4",
+          "text": "たところ、",
           "order": 4
         },
         {
-          "id": "so-extra-n2-058-4-p3",
-          "text": "たところ",
+          "id": "so-created-n2-058-04-p1",
+          "text": "迷子の犬を",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-058-04-p2",
+          "text": "動物病院へ",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-058-04-p3",
+          "text": "連れて行っ",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-058-4-p3",
-        "so-extra-n2-058-4-p4",
-        "so-extra-n2-058-4-p1",
-        "so-extra-n2-058-4-p2"
+        "so-created-n2-058-04-p1",
+        "so-created-n2-058-04-p2",
+        "so-created-n2-058-04-p3",
+        "so-created-n2-058-04-p4"
       ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '길 잃은 개를 동물병원에 데려갔더니 목걸이의 정보로 주인을 찾게 되었다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-058"
+        "n2-058",
+        "n2-162",
+        "n2-163",
+        "n2-164"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-058-5",
+      "id": "so-created-n2-058-05",
       "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlanks": "昔住んでいた町を訪ね ____ ____ ____ ____",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
+      "sentence": "工場の機械を停止して内部を調べたところ、小さな金属片が歯車に挟まっていた。",
+      "sentenceWithBlanks": "工場の機械を停止して ____ ____ ____ ____ 挟まっていた。",
+      "korean": "공장 기계를 멈추고 내부를 조사했더니 작은 금속 조각이 톱니바퀴에 끼어 있었다.",
       "pieces": [
         {
-          "id": "so-extra-n2-058-5-p1",
-          "text": "いて迷ってしまった",
+          "id": "so-created-n2-058-05-p3",
+          "text": "小さな金属",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-058-05-p4",
+          "text": "片が歯車に",
           "order": 4
         },
         {
-          "id": "so-extra-n2-058-5-p2",
-          "text": "たところ",
+          "id": "so-created-n2-058-05-p1",
+          "text": "内部を調べ",
           "order": 1
         },
         {
-          "id": "so-extra-n2-058-5-p3",
-          "text": "全く様子が",
+          "id": "so-created-n2-058-05-p2",
+          "text": "たところ、",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-058-5-p4",
-          "text": "変わって",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-058-5-p2",
-        "so-extra-n2-058-5-p3",
-        "so-extra-n2-058-5-p4",
-        "so-extra-n2-058-5-p1"
+        "so-created-n2-058-05-p1",
+        "so-created-n2-058-05-p2",
+        "so-created-n2-058-05-p3",
+        "so-created-n2-058-05-p4"
       ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '공장 기계를 멈추고 내부를 조사했더니 작은 금속 조각이 톱니바퀴에 끼어 있었다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-058"
+        "n2-058",
+        "n2-162",
+        "n2-163",
+        "n2-164"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-058-01",
+      "id": "so-created-n2-058-06",
       "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlanks": "昔住んでいた町を訪ね ____ ____ ____ ____",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
+      "sentence": "祖母に写真の人物について尋ねたところ、若い頃の同僚だと教えてくれた。",
+      "sentenceWithBlanks": "祖母に ____ ____ ____ ____ 教えてくれた。",
+      "korean": "할머니께 사진 속 인물에 관해 여쭤봤더니 젊었을 때의 동료라고 알려 주셨다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-058-01-p1",
-          "text": "いて迷ってしまった",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-058-01-p2",
-          "text": "たところ",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-058-01-p3",
-          "text": "全く様子が",
+          "id": "so-created-n2-058-06-p2",
+          "text": "人物について",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-058-01-p4",
-          "text": "変わって",
+          "id": "so-created-n2-058-06-p3",
+          "text": "尋ねたところ、",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-058-06-p4",
+          "text": "若い頃の同僚だと",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-058-06-p1",
+          "text": "写真の",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-058-01-p2",
-        "so-extra20-n2-058-01-p3",
-        "so-extra20-n2-058-01-p4",
-        "so-extra20-n2-058-01-p1"
+        "so-created-n2-058-06-p1",
+        "so-created-n2-058-06-p2",
+        "so-created-n2-058-06-p3",
+        "so-created-n2-058-06-p4"
       ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '할머니께 사진 속 인물에 관해 여쭤봤더니 젊었을 때의 동료라고 알려 주셨다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-058"
+        "n2-058",
+        "n2-162",
+        "n2-163",
+        "n2-164"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-058-02",
+      "id": "so-created-n2-058-07",
       "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlanks": "昔住んでいた町を訪ね ____ ____ ____ ____",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
+      "sentence": "港で朝市の開催日を聞いたところ、悪天候のため中止になったと言われた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 中止になったと言われた。",
+      "korean": "항구에서 아침 시장이 열리는 날을 물었더니 악천후로 취소되었다는 말을 들었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-058-02-p4",
-          "text": "いて迷ってしまった",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-058-02-p1",
-          "text": "たところ",
+          "id": "so-created-n2-058-07-p1",
+          "text": "港で朝市の",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-058-02-p2",
-          "text": "全く様子が",
+          "id": "so-created-n2-058-07-p2",
+          "text": "開催日を聞い",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-058-02-p3",
-          "text": "変わって",
+          "id": "so-created-n2-058-07-p3",
+          "text": "たところ、",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-058-07-p4",
+          "text": "悪天候のため",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-058-02-p1",
-        "so-extra20-n2-058-02-p2",
-        "so-extra20-n2-058-02-p3",
-        "so-extra20-n2-058-02-p4"
+        "so-created-n2-058-07-p1",
+        "so-created-n2-058-07-p2",
+        "so-created-n2-058-07-p3",
+        "so-created-n2-058-07-p4"
       ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '항구에서 아침 시장이 열리는 날을 물었더니 악천후로 취소되었다는 말을 들었다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-058"
+        "n2-058",
+        "n2-162",
+        "n2-163",
+        "n2-164"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-058-03",
+      "id": "so-created-n2-058-08",
       "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、全く様子が変わっていて迷ってしまった。",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
+      "sentence": "新しい枕を一週間使ってみたところ、朝の肩こりがかなり軽くなった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 軽くなった。",
+      "korean": "새 베개를 일주일간 사용해 보았더니 아침의 어깨 결림이 상당히 줄었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-058-03-p3",
-          "text": "変わって",
+          "id": "so-created-n2-058-08-p4",
+          "text": "肩こりがかなり",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-058-03-p4",
-          "text": "訪ね",
+          "id": "so-created-n2-058-08-p1",
+          "text": "新しい枕を一",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-058-03-p1",
-          "text": "たところ",
+          "id": "so-created-n2-058-08-p2",
+          "text": "週間使ってみ",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-058-03-p2",
-          "text": "全く様子が",
+          "id": "so-created-n2-058-08-p3",
+          "text": "たところ、朝の",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-058-03-p4",
-        "so-extra20-n2-058-03-p1",
-        "so-extra20-n2-058-03-p2",
-        "so-extra20-n2-058-03-p3"
+        "so-created-n2-058-08-p1",
+        "so-created-n2-058-08-p2",
+        "so-created-n2-058-08-p3",
+        "so-created-n2-058-08-p4"
       ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '새 베개를 일주일간 사용해 보았더니 아침의 어깨 결림이 상당히 줄었다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-058"
+        "n2-058",
+        "n2-162",
+        "n2-163",
+        "n2-164"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-058-04",
+      "id": "so-created-n2-058-09",
       "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlanks": "昔住んでいた町を訪ね ____ ____ ____ ____",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
+      "sentence": "閉店前にパン屋へ寄ったところ、残っていた商品を半額で買うことができた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 商品を半額で買うことができた。",
+      "korean": "폐점 전에 빵집에 들렀더니 남아 있던 상품을 반값에 살 수 있었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-058-04-p2",
-          "text": "いて迷ってしまった",
+          "id": "so-created-n2-058-09-p3",
+          "text": "たところ、",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-058-09-p4",
+          "text": "残っていた",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-058-04-p3",
-          "text": "たところ",
+          "id": "so-created-n2-058-09-p1",
+          "text": "閉店前に",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-058-04-p4",
-          "text": "全く様子が",
+          "id": "so-created-n2-058-09-p2",
+          "text": "パン屋へ寄っ",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-058-04-p1",
-          "text": "変わって",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-058-04-p3",
-        "so-extra20-n2-058-04-p4",
-        "so-extra20-n2-058-04-p1",
-        "so-extra20-n2-058-04-p2"
+        "so-created-n2-058-09-p1",
+        "so-created-n2-058-09-p2",
+        "so-created-n2-058-09-p3",
+        "so-created-n2-058-09-p4"
       ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '폐점 전에 빵집에 들렀더니 남아 있던 상품을 반값에 살 수 있었다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-058"
+        "n2-058",
+        "n2-162",
+        "n2-163",
+        "n2-164"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-058-05",
+      "id": "so-created-n2-058-10",
       "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlanks": "昔住んでいた町を訪ね ____ ____ ____ ____",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
+      "sentence": "患者の血液を詳しく分析したところ、鉄分が著しく不足していることが分かった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 不足していることが分かった。",
+      "korean": "환자의 혈액을 자세히 분석했더니 철분이 현저히 부족하다는 사실을 알게 되었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-058-05-p1",
-          "text": "いて迷ってしまった",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-058-05-p2",
-          "text": "たところ",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-058-05-p3",
-          "text": "全く様子が",
+          "id": "so-created-n2-058-10-p2",
+          "text": "詳しく分析し",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-058-05-p4",
-          "text": "変わって",
+          "id": "so-created-n2-058-10-p3",
+          "text": "たところ、",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-058-10-p4",
+          "text": "鉄分が著しく",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-058-10-p1",
+          "text": "患者の血液を",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-058-05-p2",
-        "so-extra20-n2-058-05-p3",
-        "so-extra20-n2-058-05-p4",
-        "so-extra20-n2-058-05-p1"
+        "so-created-n2-058-10-p1",
+        "so-created-n2-058-10-p2",
+        "so-created-n2-058-10-p3",
+        "so-created-n2-058-10-p4"
       ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '환자의 혈액을 자세히 분석했더니 철분이 현저히 부족하다는 사실을 알게 되었다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-058"
+        "n2-058",
+        "n2-162",
+        "n2-163",
+        "n2-164"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-058-06",
+      "id": "so-created-n2-058-11",
       "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlanks": "昔住んでいた町を訪ね ____ ____ ____ ____",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
+      "sentence": "不動産会社に空室の有無を問い合わせたところ、駅前の物件を一つ紹介された。",
+      "sentenceWithBlanks": "不動産会社に空 ____ ____ ____ ____ 紹介された。",
+      "korean": "부동산 회사에 빈방이 있는지 문의했더니 역 앞의 매물 하나를 소개받았다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-058-06-p4",
-          "text": "変わって",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-058-06-p1",
-          "text": "いて迷ってしまった",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-058-06-p2",
-          "text": "たところ",
+          "id": "so-created-n2-058-11-p1",
+          "text": "室の有無を",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-058-06-p3",
-          "text": "全く様子が",
+          "id": "so-created-n2-058-11-p2",
+          "text": "問い合わせ",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-058-11-p3",
+          "text": "たところ、",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-058-11-p4",
+          "text": "駅前の物件を一つ",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-058-06-p2",
-        "so-extra20-n2-058-06-p3",
-        "so-extra20-n2-058-06-p4",
-        "so-extra20-n2-058-06-p1"
+        "so-created-n2-058-11-p1",
+        "so-created-n2-058-11-p2",
+        "so-created-n2-058-11-p3",
+        "so-created-n2-058-11-p4"
       ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '부동산 회사에 빈방이 있는지 문의했더니 역 앞의 매물 하나를 소개받았다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-058"
+        "n2-058",
+        "n2-162",
+        "n2-163",
+        "n2-164"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-058-07",
+      "id": "so-created-n2-058-12",
       "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlanks": "昔住んでいた町を訪ね ____ ____ ____ ____",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
+      "sentence": "壊れた時計を分解したところ、内部に水滴が残っているのを見つけた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 見つけた。",
+      "korean": "고장 난 시계를 분해했더니 내부에 물방울이 남아 있는 것을 발견했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-058-07-p3",
-          "text": "変わって",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-058-07-p4",
-          "text": "いて迷ってしまった",
+          "id": "so-created-n2-058-12-p4",
+          "text": "残っているのを",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-058-07-p1",
-          "text": "たところ",
+          "id": "so-created-n2-058-12-p1",
+          "text": "壊れた時計を",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-058-07-p2",
-          "text": "全く様子が",
+          "id": "so-created-n2-058-12-p2",
+          "text": "分解したところ、",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-058-12-p3",
+          "text": "内部に水滴が",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-058-07-p1",
-        "so-extra20-n2-058-07-p2",
-        "so-extra20-n2-058-07-p3",
-        "so-extra20-n2-058-07-p4"
+        "so-created-n2-058-12-p1",
+        "so-created-n2-058-12-p2",
+        "so-created-n2-058-12-p3",
+        "so-created-n2-058-12-p4"
       ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '고장 난 시계를 분해했더니 내부에 물방울이 남아 있는 것을 발견했다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-058"
+        "n2-058",
+        "n2-162",
+        "n2-163",
+        "n2-164"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-058-08",
+      "id": "so-created-n2-058-13",
       "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、全く様子が変わっていて迷ってしまった。",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
+      "sentence": "市役所で補助金の条件を相談したところ、私の店も対象になると分かった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 対象になると分かった。",
+      "korean": "시청에서 보조금 조건을 상담했더니 내 가게도 대상이 된다는 것을 알았다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-058-08-p2",
-          "text": "全く様子が",
+          "id": "so-created-n2-058-13-p3",
+          "text": "たところ、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-058-08-p3",
-          "text": "変わって",
+          "id": "so-created-n2-058-13-p4",
+          "text": "私の店も",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-058-08-p4",
-          "text": "訪ね",
+          "id": "so-created-n2-058-13-p1",
+          "text": "市役所で補助金の",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-058-08-p1",
-          "text": "たところ",
+          "id": "so-created-n2-058-13-p2",
+          "text": "条件を相談し",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-058-08-p4",
-        "so-extra20-n2-058-08-p1",
-        "so-extra20-n2-058-08-p2",
-        "so-extra20-n2-058-08-p3"
+        "so-created-n2-058-13-p1",
+        "so-created-n2-058-13-p2",
+        "so-created-n2-058-13-p3",
+        "so-created-n2-058-13-p4"
       ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '시청에서 보조금 조건을 상담했더니 내 가게도 대상이 된다는 것을 알았다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-058"
+        "n2-058",
+        "n2-162",
+        "n2-163",
+        "n2-164"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-058-09",
+      "id": "so-created-n2-058-14",
       "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlanks": "昔住んでいた町を訪ね ____ ____ ____ ____",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
+      "sentence": "山頂から双眼鏡で谷を眺めたところ、野生の鹿の群れが川を渡っていた。",
+      "sentenceWithBlanks": "山頂から ____ ____ ____ ____ 渡っていた。",
+      "korean": "산 정상에서 쌍안경으로 계곡을 바라보았더니 야생 사슴 떼가 강을 건너고 있었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-058-09-p1",
-          "text": "変わって",
+          "id": "so-created-n2-058-14-p2",
+          "text": "眺めたところ、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-058-14-p3",
+          "text": "野生の鹿の",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-058-09-p2",
-          "text": "いて迷ってしまった",
+          "id": "so-created-n2-058-14-p4",
+          "text": "群れが川を",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-058-09-p3",
-          "text": "たところ",
+          "id": "so-created-n2-058-14-p1",
+          "text": "双眼鏡で谷を",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-058-09-p4",
-          "text": "全く様子が",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-058-09-p3",
-        "so-extra20-n2-058-09-p4",
-        "so-extra20-n2-058-09-p1",
-        "so-extra20-n2-058-09-p2"
+        "so-created-n2-058-14-p1",
+        "so-created-n2-058-14-p2",
+        "so-created-n2-058-14-p3",
+        "so-created-n2-058-14-p4"
       ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '산 정상에서 쌍안경으로 계곡을 바라보았더니 야생 사슴 떼가 강을 건너고 있었다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-058"
+        "n2-058",
+        "n2-162",
+        "n2-163",
+        "n2-164"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-058-10",
+      "id": "so-created-n2-058-15",
       "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlanks": "昔住んでいた町を訪ね ____ ____ ____ ____",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
+      "sentence": "取引先に納期の変更を申し出たところ、追加料金なしで応じてもらえた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 料金なしで応じてもらえた。",
+      "korean": "거래처에 납기 변경을 요청했더니 추가 요금 없이 응해 주었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-058-10-p4",
-          "text": "変わって",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-058-10-p1",
-          "text": "いて迷ってしまった",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-058-10-p2",
-          "text": "たところ",
+          "id": "so-created-n2-058-15-p1",
+          "text": "取引先に",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-058-10-p3",
-          "text": "全く様子が",
+          "id": "so-created-n2-058-15-p2",
+          "text": "納期の",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-058-15-p3",
+          "text": "変更を申し出",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-058-15-p4",
+          "text": "たところ、追加",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-058-10-p2",
-        "so-extra20-n2-058-10-p3",
-        "so-extra20-n2-058-10-p4",
-        "so-extra20-n2-058-10-p1"
+        "so-created-n2-058-15-p1",
+        "so-created-n2-058-15-p2",
+        "so-created-n2-058-15-p3",
+        "so-created-n2-058-15-p4"
       ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '거래처에 납기 변경을 요청했더니 추가 요금 없이 응해 주었다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-058"
+        "n2-058",
+        "n2-162",
+        "n2-163",
+        "n2-164"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-058-11",
+      "id": "so-created-n2-058-16",
       "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlanks": "昔住んでいた町を訪ね ____ ____ ____ ____",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
+      "sentence": "冷蔵庫の奥を整理したところ、賞味期限の切れた調味料が五本も見つかった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 調味料が五本も見つかった。",
+      "korean": "냉장고 안쪽을 정리했더니 유통기한이 지난 조미료가 다섯 병이나 발견되었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-058-11-p3",
-          "text": "全く様子が",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-058-11-p4",
-          "text": "変わって",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-058-11-p1",
-          "text": "いて迷ってしまった",
+          "id": "so-created-n2-058-16-p4",
+          "text": "期限の切れた",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-058-11-p2",
-          "text": "たところ",
+          "id": "so-created-n2-058-16-p1",
+          "text": "冷蔵庫の",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-058-16-p2",
+          "text": "奥を整理し",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-058-16-p3",
+          "text": "たところ、賞味",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-058-11-p2",
-        "so-extra20-n2-058-11-p3",
-        "so-extra20-n2-058-11-p4",
-        "so-extra20-n2-058-11-p1"
+        "so-created-n2-058-16-p1",
+        "so-created-n2-058-16-p2",
+        "so-created-n2-058-16-p3",
+        "so-created-n2-058-16-p4"
       ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '냉장고 안쪽을 정리했더니 유통기한이 지난 조미료가 다섯 병이나 발견되었다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-058"
+        "n2-058",
+        "n2-162",
+        "n2-163",
+        "n2-164"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-058-12",
+      "id": "so-created-n2-058-17",
       "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlanks": "昔住んでいた町を訪ね ____ ____ ____ ____",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
+      "sentence": "沿岸の海水を採取して検査したところ、基準を超える油分が検出された。",
+      "sentenceWithBlanks": "沿岸の ____ ____ ____ ____ 検出された。",
+      "korean": "연안의 바닷물을 채취해 검사했더니 기준을 넘는 유분이 검출되었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-058-12-p2",
-          "text": "全く様子が",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-058-12-p3",
-          "text": "変わって",
+          "id": "so-created-n2-058-17-p3",
+          "text": "たところ、基準を",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-058-12-p4",
-          "text": "いて迷ってしまった",
+          "id": "so-created-n2-058-17-p4",
+          "text": "超える油分が",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-058-12-p1",
-          "text": "たところ",
+          "id": "so-created-n2-058-17-p1",
+          "text": "海水を",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-058-17-p2",
+          "text": "採取して検査し",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-058-12-p1",
-        "so-extra20-n2-058-12-p2",
-        "so-extra20-n2-058-12-p3",
-        "so-extra20-n2-058-12-p4"
+        "so-created-n2-058-17-p1",
+        "so-created-n2-058-17-p2",
+        "so-created-n2-058-17-p3",
+        "so-created-n2-058-17-p4"
       ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '연안의 바닷물을 채취해 검사했더니 기준을 넘는 유분이 검출되었다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-058"
+        "n2-058",
+        "n2-162",
+        "n2-163",
+        "n2-164"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-058-13",
+      "id": "so-created-n2-058-18",
       "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、全く様子が変わっていて迷ってしまった。",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
+      "sentence": "ホテルの受付で傘を借りられるか尋ねたところ、無料で貸してもらえた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 貸してもらえた。",
+      "korean": "호텔 프런트에서 우산을 빌릴 수 있는지 물었더니 무료로 빌려주었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-058-13-p1",
-          "text": "たところ",
+          "id": "so-created-n2-058-18-p2",
+          "text": "受付で傘を",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-058-13-p2",
-          "text": "全く様子が",
+          "id": "so-created-n2-058-18-p3",
+          "text": "借りられるか尋ね",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-058-13-p3",
-          "text": "変わって",
+          "id": "so-created-n2-058-18-p4",
+          "text": "たところ、無料で",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-058-13-p4",
-          "text": "訪ね",
+          "id": "so-created-n2-058-18-p1",
+          "text": "ホテルの",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-058-13-p4",
-        "so-extra20-n2-058-13-p1",
-        "so-extra20-n2-058-13-p2",
-        "so-extra20-n2-058-13-p3"
+        "so-created-n2-058-18-p1",
+        "so-created-n2-058-18-p2",
+        "so-created-n2-058-18-p3",
+        "so-created-n2-058-18-p4"
       ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '호텔 프런트에서 우산을 빌릴 수 있는지 물었더니 무료로 빌려주었다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-058"
+        "n2-058",
+        "n2-162",
+        "n2-163",
+        "n2-164"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-058-14",
+      "id": "so-created-n2-058-19",
       "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlanks": "昔住んでいた町を訪ね ____ ____ ____ ____",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
+      "sentence": "古いパソコンのデータを復元したところ、なくしたと思っていた家族写真が残っていた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 家族写真が残っていた。",
+      "korean": "오래된 컴퓨터의 데이터를 복구했더니 잃어버렸다고 생각했던 가족사진이 남아 있었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-058-14-p4",
-          "text": "全く様子が",
+          "id": "so-created-n2-058-19-p1",
+          "text": "古いパソコンの",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-058-19-p2",
+          "text": "データを復元し",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-058-14-p1",
-          "text": "変わって",
+          "id": "so-created-n2-058-19-p3",
+          "text": "たところ、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-058-14-p2",
-          "text": "いて迷ってしまった",
+          "id": "so-created-n2-058-19-p4",
+          "text": "なくしたと思っていた",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-058-14-p3",
-          "text": "たところ",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-058-14-p3",
-        "so-extra20-n2-058-14-p4",
-        "so-extra20-n2-058-14-p1",
-        "so-extra20-n2-058-14-p2"
+        "so-created-n2-058-19-p1",
+        "so-created-n2-058-19-p2",
+        "so-created-n2-058-19-p3",
+        "so-created-n2-058-19-p4"
       ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '오래된 컴퓨터의 데이터를 복구했더니 잃어버렸다고 생각했던 가족사진이 남아 있었다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-058"
+        "n2-058",
+        "n2-162",
+        "n2-163",
+        "n2-164"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-058-15",
+      "id": "so-created-n2-058-20",
       "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlanks": "昔住んでいた町を訪ね ____ ____ ____ ____",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
+      "sentence": "近所の農家から買った桃を冷やして食べたところ、驚くほど甘くて香りも強かった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 驚くほど甘くて香りも強かった。",
+      "korean": "동네 농가에서 산 복숭아를 차갑게 해서 먹어 보았더니 놀랄 만큼 달고 향도 진했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-058-15-p3",
-          "text": "全く様子が",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-058-15-p4",
-          "text": "変わって",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-058-15-p1",
-          "text": "いて迷ってしまった",
+          "id": "so-created-n2-058-20-p4",
+          "text": "たところ、",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-058-15-p2",
-          "text": "たところ",
+          "id": "so-created-n2-058-20-p1",
+          "text": "近所の農家から",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-058-20-p2",
+          "text": "買った桃を",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-058-20-p3",
+          "text": "冷やして食べ",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-058-15-p2",
-        "so-extra20-n2-058-15-p3",
-        "so-extra20-n2-058-15-p4",
-        "so-extra20-n2-058-15-p1"
+        "so-created-n2-058-20-p1",
+        "so-created-n2-058-20-p2",
+        "so-created-n2-058-20-p3",
+        "so-created-n2-058-20-p4"
       ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '동네 농가에서 산 복숭아를 차갑게 해서 먹어 보았더니 놀랄 만큼 달고 향도 진했다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-058"
+        "n2-058",
+        "n2-162",
+        "n2-163",
+        "n2-164"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-058-16",
+      "id": "so-created-n2-058-21",
       "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlanks": "昔住んでいた町を訪ね ____ ____ ____ ____",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
+      "sentence": "階下の住人に夜中の物音について確認したところ、配管の故障が原因だと判明した。",
+      "sentenceWithBlanks": "階下の住人に夜中の ____ ____ ____ ____",
+      "korean": "아래층 주민에게 한밤중의 소음에 관해 확인했더니 배관 고장이 원인으로 밝혀졌다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-058-16-p2",
-          "text": "たところ",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-058-16-p3",
-          "text": "全く様子が",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-058-16-p4",
-          "text": "変わって",
+          "id": "so-created-n2-058-21-p3",
+          "text": "配管の故障が",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-058-16-p1",
-          "text": "いて迷ってしまった",
+          "id": "so-created-n2-058-21-p4",
+          "text": "原因だと判明した。",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-058-21-p1",
+          "text": "物音について",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-058-21-p2",
+          "text": "確認したところ、",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-058-16-p2",
-        "so-extra20-n2-058-16-p3",
-        "so-extra20-n2-058-16-p4",
-        "so-extra20-n2-058-16-p1"
+        "so-created-n2-058-21-p1",
+        "so-created-n2-058-21-p2",
+        "so-created-n2-058-21-p3",
+        "so-created-n2-058-21-p4"
       ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '아래층 주민에게 한밤중의 소음에 관해 확인했더니 배관 고장이 원인으로 밝혀졌다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-058"
+        "n2-058",
+        "n2-162",
+        "n2-163",
+        "n2-164"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-058-17",
+      "id": "so-created-n2-058-22",
       "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlanks": "昔住んでいた町を訪ね ____ ____ ____ ____",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
+      "sentence": "空港で荷物の到着状況を調べてもらったところ、別の便に積まれていた。",
+      "sentenceWithBlanks": "空港で ____ ____ ____ ____ 積まれていた。",
+      "korean": "공항에서 수하물 도착 상황을 확인해 달라고 했더니 다른 항공편에 실려 있었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-058-17-p1",
-          "text": "たところ",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-058-17-p2",
-          "text": "全く様子が",
+          "id": "so-created-n2-058-22-p2",
+          "text": "調べてもらっ",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-058-17-p3",
-          "text": "変わって",
+          "id": "so-created-n2-058-22-p3",
+          "text": "たところ、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-058-17-p4",
-          "text": "いて迷ってしまった",
+          "id": "so-created-n2-058-22-p4",
+          "text": "別の便に",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-058-22-p1",
+          "text": "荷物の到着状況を",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-058-17-p1",
-        "so-extra20-n2-058-17-p2",
-        "so-extra20-n2-058-17-p3",
-        "so-extra20-n2-058-17-p4"
+        "so-created-n2-058-22-p1",
+        "so-created-n2-058-22-p2",
+        "so-created-n2-058-22-p3",
+        "so-created-n2-058-22-p4"
       ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '공항에서 수하물 도착 상황을 확인해 달라고 했더니 다른 항공편에 실려 있었다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-058"
+        "n2-058",
+        "n2-162",
+        "n2-163",
+        "n2-164"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-058-18",
+      "id": "so-created-n2-058-23",
       "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、全く様子が変わっていて迷ってしまった。",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
+      "sentence": "屋根裏から聞こえる音を確かめたところ、親鳥が巣の中でひなを育てていた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 中でひなを育てていた。",
+      "korean": "다락에서 들리는 소리를 확인했더니 어미 새가 둥지 안에서 새끼를 기르고 있었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-058-18-p4",
-          "text": "訪ね",
+          "id": "so-created-n2-058-23-p1",
+          "text": "屋根裏から",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-058-18-p1",
-          "text": "たところ",
+          "id": "so-created-n2-058-23-p2",
+          "text": "聞こえる音を",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-058-18-p2",
-          "text": "全く様子が",
+          "id": "so-created-n2-058-23-p3",
+          "text": "確かめたところ、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-058-18-p3",
-          "text": "変わって",
+          "id": "so-created-n2-058-23-p4",
+          "text": "親鳥が巣の",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-058-18-p4",
-        "so-extra20-n2-058-18-p1",
-        "so-extra20-n2-058-18-p2",
-        "so-extra20-n2-058-18-p3"
+        "so-created-n2-058-23-p1",
+        "so-created-n2-058-23-p2",
+        "so-created-n2-058-23-p3",
+        "so-created-n2-058-23-p4"
       ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '다락에서 들리는 소리를 확인했더니 어미 새가 둥지 안에서 새끼를 기르고 있었다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-058"
+        "n2-058",
+        "n2-162",
+        "n2-163",
+        "n2-164"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-058-19",
+      "id": "so-created-n2-058-24",
       "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlanks": "昔住んでいた町を訪ね ____ ____ ____ ____",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
+      "sentence": "弁護士に契約書を見せたところ、解約に不利な条項が含まれていると指摘された。",
+      "sentenceWithBlanks": "弁護士に ____ ____ ____ ____ 含まれていると指摘された。",
+      "korean": "변호사에게 계약서를 보여 주었더니 해약에 불리한 조항이 포함되어 있다는 지적을 받았다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-058-19-p3",
-          "text": "たところ",
+          "id": "so-created-n2-058-24-p4",
+          "text": "不利な条項が",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-058-24-p1",
+          "text": "契約書を見せ",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-058-19-p4",
-          "text": "全く様子が",
+          "id": "so-created-n2-058-24-p2",
+          "text": "たところ、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-058-19-p1",
-          "text": "変わって",
+          "id": "so-created-n2-058-24-p3",
+          "text": "解約に",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-058-19-p2",
-          "text": "いて迷ってしまった",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-058-19-p3",
-        "so-extra20-n2-058-19-p4",
-        "so-extra20-n2-058-19-p1",
-        "so-extra20-n2-058-19-p2"
+        "so-created-n2-058-24-p1",
+        "so-created-n2-058-24-p2",
+        "so-created-n2-058-24-p3",
+        "so-created-n2-058-24-p4"
       ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '변호사에게 계약서를 보여 주었더니 해약에 불리한 조항이 포함되어 있다는 지적을 받았다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-058"
+        "n2-058",
+        "n2-162",
+        "n2-163",
+        "n2-164"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-058-20",
+      "id": "so-created-n2-058-25",
       "level": "N2",
-      "sentence": "昔住んでいた町を訪ねたところ、全く様子が変わっていて迷ってしまった。",
-      "sentenceWithBlanks": "昔住んでいた町を訪ね ____ ____ ____ ____",
-      "korean": "예전에 살던 동네를 찾아갔더니 완전히 모습이 바뀌어 길을 잃었다.",
+      "sentence": "湖の水位を昨年の記録と比較したところ、二十センチ以上低下していた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ センチ以上低下していた。",
+      "korean": "호수의 수위를 작년 기록과 비교했더니 20센티미터 이상 낮아져 있었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-058-20-p2",
-          "text": "たところ",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-058-20-p3",
-          "text": "全く様子が",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-058-20-p4",
-          "text": "変わって",
+          "id": "so-created-n2-058-25-p3",
+          "text": "記録と比較し",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-058-20-p1",
-          "text": "いて迷ってしまった",
+          "id": "so-created-n2-058-25-p4",
+          "text": "たところ、二十",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-058-25-p1",
+          "text": "湖の水位を",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-058-25-p2",
+          "text": "昨年の",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-058-20-p2",
-        "so-extra20-n2-058-20-p3",
-        "so-extra20-n2-058-20-p4",
-        "so-extra20-n2-058-20-p1"
+        "so-created-n2-058-25-p1",
+        "so-created-n2-058-25-p2",
+        "so-created-n2-058-25-p3",
+        "so-created-n2-058-25-p4"
       ],
-      "explanation": "「たところ」는 ~했더니, ~했는데라는 뜻이다. 어떤 행동 후 새로 알게 된 결과.",
+      "explanation": "「たところ」는 '~했더니, ~했는데'라는 뜻을 나타낸다. 이 문장에서는 '호수의 수위를 작년 기록과 비교했더니 20센티미터 이상 낮아져 있었다.'라는 상황에 쓰였으며, 어떤 행동 후 새로 알게 된 결과. 주의할 점은 「たところ」는 시도 후 발견. 과거 사실에만 씀. 미래 가정에는 쓸 수 없음.",
       "sourceGrammarIds": [
-        "n2-058"
+        "n2-058",
+        "n2-162",
+        "n2-163",
+        "n2-164"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     }
   ]

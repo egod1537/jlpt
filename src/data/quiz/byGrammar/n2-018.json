@@ -267,15 +267,23 @@
       ]
     },
     {
-      "id": "fb-extra-n2-018-1",
+      "id": "fb-created-n2-018-01",
       "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlank": "母は今年93歳になった。今は元気だが、歳が歳（　　　）、病気をすると心配だ。",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
-      "answerChoiceId": "fb-extra-n2-018-1-c",
+      "sentence": "店が店だけに、記念日の夕食には早めの予約が必要だ。",
+      "sentenceWithBlank": "店が店（　　　）、記念日の夕食には早めの予約が必要だ。",
+      "korean": "가게가 가게인 만큼 기념일 저녁 식사를 하려면 일찍 예약해야 한다.",
+      "answerChoiceId": "fb-created-n2-018-01-c",
       "choices": [
         {
-          "id": "fb-extra-n2-018-1-d",
+          "id": "fb-created-n2-018-01-c",
+          "text": "だけに",
+          "grammarId": "n2-018",
+          "baseExpression": "がだけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-018-01-d",
           "text": "おそれがある",
           "grammarId": "n2-009",
           "baseExpression": "おそれがある",
@@ -283,7 +291,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-018-1-a",
+          "id": "fb-created-n2-018-01-a",
           "text": "折に",
           "grammarId": "n2-010",
           "baseExpression": "折に",
@@ -291,23 +299,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-018-1-b",
+          "id": "fb-created-n2-018-01-b",
           "text": "甲斐があって",
           "grammarId": "n2-011",
           "baseExpression": "甲斐があって",
           "conjugatedExpression": "甲斐があって",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-018-1-c",
-          "text": "だけに",
-          "grammarId": "n2-018",
-          "baseExpression": "がだけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '가게가 가게인 만큼 기념일 저녁 식사를 하려면 일찍 예약해야 한다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
       "sourceGrammarIds": [
         "n2-018",
         "n2-009",
@@ -315,237 +315,20 @@
         "n2-011"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra-n2-018-2",
+      "id": "fb-created-n2-018-02",
       "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlank": "母は今年93歳になった。今は元気だが、歳が歳（　　　）、病気をすると心配だ。",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
-      "answerChoiceId": "fb-extra-n2-018-2-b",
+      "sentence": "相手が相手だけに、契約条件の変更は慎重に伝えたほうがいい。",
+      "sentenceWithBlank": "相手が相手（　　　）、契約条件の変更は慎重に伝えたほうがいい。",
+      "korean": "상대가 상대인 만큼 계약 조건 변경은 신중하게 전달하는 편이 좋다.",
+      "answerChoiceId": "fb-created-n2-018-02-c",
       "choices": [
         {
-          "id": "fb-extra-n2-018-2-a",
-          "text": "ものの",
-          "grammarId": "n2-161",
-          "baseExpression": "ものの",
-          "conjugatedExpression": "ものの",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-018-2-b",
-          "text": "だけに",
-          "grammarId": "n2-018",
-          "baseExpression": "がだけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-018-2-c",
-          "text": "ものだから",
-          "grammarId": "n2-159",
-          "baseExpression": "ものだから",
-          "conjugatedExpression": "ものだから",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-018-2-d",
-          "text": "ものなら",
-          "grammarId": "n2-160",
-          "baseExpression": "ものなら",
-          "conjugatedExpression": "ものなら",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
-      "sourceGrammarIds": [
-        "n2-018",
-        "n2-159",
-        "n2-160",
-        "n2-161"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-018-3",
-      "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlank": "母は今年93歳になった。今は元気だが、歳が歳（　　　）、病気をすると心配だ。",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
-      "answerChoiceId": "fb-extra-n2-018-3-a",
-      "choices": [
-        {
-          "id": "fb-extra-n2-018-3-b",
-          "text": "ことだろう",
-          "grammarId": "n2-040",
-          "baseExpression": "ことだろう",
-          "conjugatedExpression": "ことだろう",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-018-3-c",
-          "text": "こととなると",
-          "grammarId": "n2-041",
-          "baseExpression": "こととなると",
-          "conjugatedExpression": "こととなると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-018-3-d",
-          "text": "ことなく",
-          "grammarId": "n2-042",
-          "baseExpression": "ことなく",
-          "conjugatedExpression": "ことなく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-018-3-a",
-          "text": "だけに",
-          "grammarId": "n2-018",
-          "baseExpression": "がだけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
-      "sourceGrammarIds": [
-        "n2-018",
-        "n2-040",
-        "n2-041",
-        "n2-042"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-018-4",
-      "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlank": "母は今年93歳になった。今は元気だが、歳が歳（　　　）、病気をすると心配だ。",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
-      "answerChoiceId": "fb-extra-n2-018-4-d",
-      "choices": [
-        {
-          "id": "fb-extra-n2-018-4-c",
-          "text": "ところだった",
-          "grammarId": "n2-087",
-          "baseExpression": "ところだった",
-          "conjugatedExpression": "ところだった",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-018-4-d",
-          "text": "だけに",
-          "grammarId": "n2-018",
-          "baseExpression": "がだけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-018-4-a",
-          "text": "といったら",
-          "grammarId": "n2-085",
-          "baseExpression": "といったら",
-          "conjugatedExpression": "といったら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-018-4-b",
-          "text": "どころか",
-          "grammarId": "n2-086",
-          "baseExpression": "どころか",
-          "conjugatedExpression": "どころか",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
-      "sourceGrammarIds": [
-        "n2-018",
-        "n2-085",
-        "n2-086",
-        "n2-087"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-018-5",
-      "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlank": "母は今年93歳になった。今は元気だが、歳が歳（　　　）、病気をすると心配だ。",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
-      "answerChoiceId": "fb-extra-n2-018-5-c",
-      "choices": [
-        {
-          "id": "fb-extra-n2-018-5-d",
-          "text": "ことだ",
-          "grammarId": "n2-038",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-018-5-a",
-          "text": "ことだし",
-          "grammarId": "n2-039",
-          "baseExpression": "ことだし",
-          "conjugatedExpression": "ことだし",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-018-5-b",
-          "text": "ことだろう",
-          "grammarId": "n2-040",
-          "baseExpression": "ことだろう",
-          "conjugatedExpression": "ことだろう",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-018-5-c",
-          "text": "だけに",
-          "grammarId": "n2-018",
-          "baseExpression": "がだけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
-      "sourceGrammarIds": [
-        "n2-018",
-        "n2-038",
-        "n2-039",
-        "n2-040"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-018-01",
-      "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlank": "母は今年93歳になった。今は元気だが、歳が歳（　　　）、病気をすると心配だ。",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
-      "answerChoiceId": "fb-extra20-n2-018-01-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-018-01-d",
+          "id": "fb-created-n2-018-02-d",
           "text": "おそれがある",
           "grammarId": "n2-009",
           "baseExpression": "おそれがある",
@@ -553,7 +336,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-018-01-a",
+          "id": "fb-created-n2-018-02-a",
           "text": "折に",
           "grammarId": "n2-010",
           "baseExpression": "折に",
@@ -561,7 +344,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-018-01-b",
+          "id": "fb-created-n2-018-02-b",
           "text": "甲斐があって",
           "grammarId": "n2-011",
           "baseExpression": "甲斐があって",
@@ -569,7 +352,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-018-01-c",
+          "id": "fb-created-n2-018-02-c",
           "text": "だけに",
           "grammarId": "n2-018",
           "baseExpression": "がだけに",
@@ -577,7 +360,7 @@
           "isSimilarDistractor": false
         }
       ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '상대가 상대인 만큼 계약 조건 변경은 신중하게 전달하는 편이 좋다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
       "sourceGrammarIds": [
         "n2-018",
         "n2-009",
@@ -585,253 +368,20 @@
         "n2-011"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-018-02",
+      "id": "fb-created-n2-018-03",
       "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlank": "母は今年93歳になった。今は元気だが、歳が歳（　　　）、病気をすると心配だ。",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
-      "answerChoiceId": "fb-extra20-n2-018-02-b",
+      "sentence": "場所が場所だけに、深夜に一人で歩くのは避けるべきだ。",
+      "sentenceWithBlank": "場所が場所（　　　）、深夜に一人で歩くのは避けるべきだ。",
+      "korean": "장소가 장소인 만큼 심야에 혼자 걷는 것은 피해야 한다.",
+      "answerChoiceId": "fb-created-n2-018-03-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-018-02-c",
-          "text": "ものだから",
-          "grammarId": "n2-159",
-          "baseExpression": "ものだから",
-          "conjugatedExpression": "ものだから",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-018-02-d",
-          "text": "ものなら",
-          "grammarId": "n2-160",
-          "baseExpression": "ものなら",
-          "conjugatedExpression": "ものなら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-018-02-a",
-          "text": "ものの",
-          "grammarId": "n2-161",
-          "baseExpression": "ものの",
-          "conjugatedExpression": "ものの",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-018-02-b",
-          "text": "だけに",
-          "grammarId": "n2-018",
-          "baseExpression": "がだけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
-      "sourceGrammarIds": [
-        "n2-018",
-        "n2-159",
-        "n2-160",
-        "n2-161"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-018-03",
-      "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlank": "母は今年93歳になった。今は元気だが、歳が歳（　　　）、病気をすると心配だ。",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
-      "answerChoiceId": "fb-extra20-n2-018-03-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-018-03-b",
-          "text": "ことだろう",
-          "grammarId": "n2-040",
-          "baseExpression": "ことだろう",
-          "conjugatedExpression": "ことだろう",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-018-03-c",
-          "text": "こととなると",
-          "grammarId": "n2-041",
-          "baseExpression": "こととなると",
-          "conjugatedExpression": "こととなると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-018-03-d",
-          "text": "ことなく",
-          "grammarId": "n2-042",
-          "baseExpression": "ことなく",
-          "conjugatedExpression": "ことなく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-018-03-a",
-          "text": "だけに",
-          "grammarId": "n2-018",
-          "baseExpression": "がだけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
-      "sourceGrammarIds": [
-        "n2-018",
-        "n2-040",
-        "n2-041",
-        "n2-042"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-018-04",
-      "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlank": "母は今年93歳になった。今は元気だが、歳が歳（　　　）、病気をすると心配だ。",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
-      "answerChoiceId": "fb-extra20-n2-018-04-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-018-04-a",
-          "text": "といったら",
-          "grammarId": "n2-085",
-          "baseExpression": "といったら",
-          "conjugatedExpression": "といったら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-018-04-b",
-          "text": "どころか",
-          "grammarId": "n2-086",
-          "baseExpression": "どころか",
-          "conjugatedExpression": "どころか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-018-04-c",
-          "text": "ところだった",
-          "grammarId": "n2-087",
-          "baseExpression": "ところだった",
-          "conjugatedExpression": "ところだった",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-018-04-d",
-          "text": "だけに",
-          "grammarId": "n2-018",
-          "baseExpression": "がだけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
-      "sourceGrammarIds": [
-        "n2-018",
-        "n2-085",
-        "n2-086",
-        "n2-087"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-018-05",
-      "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlank": "母は今年93歳になった。今は元気だが、歳が歳（　　　）、病気をすると心配だ。",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
-      "answerChoiceId": "fb-extra20-n2-018-05-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-018-05-d",
-          "text": "ことだ",
-          "grammarId": "n2-038",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-018-05-a",
-          "text": "ことだし",
-          "grammarId": "n2-039",
-          "baseExpression": "ことだし",
-          "conjugatedExpression": "ことだし",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-018-05-b",
-          "text": "ことだろう",
-          "grammarId": "n2-040",
-          "baseExpression": "ことだろう",
-          "conjugatedExpression": "ことだろう",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-018-05-c",
-          "text": "だけに",
-          "grammarId": "n2-018",
-          "baseExpression": "がだけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
-      "sourceGrammarIds": [
-        "n2-018",
-        "n2-038",
-        "n2-039",
-        "n2-040"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-018-06",
-      "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlank": "母は今年93歳になった。今は元気だが、歳が歳（　　　）、病気をすると心配だ。",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
-      "answerChoiceId": "fb-extra20-n2-018-06-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-018-06-c",
-          "text": "だけに",
-          "grammarId": "n2-018",
-          "baseExpression": "がだけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-018-06-d",
-          "text": "おそれがある",
-          "grammarId": "n2-009",
-          "baseExpression": "おそれがある",
-          "conjugatedExpression": "おそれがある",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-018-06-a",
+          "id": "fb-created-n2-018-03-a",
           "text": "折に",
           "grammarId": "n2-010",
           "baseExpression": "折に",
@@ -839,253 +389,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-018-06-b",
-          "text": "甲斐があって",
-          "grammarId": "n2-011",
-          "baseExpression": "甲斐があって",
-          "conjugatedExpression": "甲斐があって",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
-      "sourceGrammarIds": [
-        "n2-018",
-        "n2-009",
-        "n2-010",
-        "n2-011"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-018-07",
-      "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlank": "母は今年93歳になった。今は元気だが、歳が歳（　　　）、病気をすると心配だ。",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
-      "answerChoiceId": "fb-extra20-n2-018-07-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-018-07-b",
-          "text": "だけに",
-          "grammarId": "n2-018",
-          "baseExpression": "がだけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-018-07-c",
-          "text": "ものだから",
-          "grammarId": "n2-159",
-          "baseExpression": "ものだから",
-          "conjugatedExpression": "ものだから",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-018-07-d",
-          "text": "ものなら",
-          "grammarId": "n2-160",
-          "baseExpression": "ものなら",
-          "conjugatedExpression": "ものなら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-018-07-a",
-          "text": "ものの",
-          "grammarId": "n2-161",
-          "baseExpression": "ものの",
-          "conjugatedExpression": "ものの",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
-      "sourceGrammarIds": [
-        "n2-018",
-        "n2-159",
-        "n2-160",
-        "n2-161"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-018-08",
-      "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlank": "母は今年93歳になった。今は元気だが、歳が歳（　　　）、病気をすると心配だ。",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
-      "answerChoiceId": "fb-extra20-n2-018-08-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-018-08-a",
-          "text": "だけに",
-          "grammarId": "n2-018",
-          "baseExpression": "がだけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-018-08-b",
-          "text": "ことだろう",
-          "grammarId": "n2-040",
-          "baseExpression": "ことだろう",
-          "conjugatedExpression": "ことだろう",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-018-08-c",
-          "text": "こととなると",
-          "grammarId": "n2-041",
-          "baseExpression": "こととなると",
-          "conjugatedExpression": "こととなると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-018-08-d",
-          "text": "ことなく",
-          "grammarId": "n2-042",
-          "baseExpression": "ことなく",
-          "conjugatedExpression": "ことなく",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
-      "sourceGrammarIds": [
-        "n2-018",
-        "n2-040",
-        "n2-041",
-        "n2-042"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-018-09",
-      "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlank": "母は今年93歳になった。今は元気だが、歳が歳（　　　）、病気をすると心配だ。",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
-      "answerChoiceId": "fb-extra20-n2-018-09-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-018-09-d",
-          "text": "だけに",
-          "grammarId": "n2-018",
-          "baseExpression": "がだけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-018-09-a",
-          "text": "といったら",
-          "grammarId": "n2-085",
-          "baseExpression": "といったら",
-          "conjugatedExpression": "といったら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-018-09-b",
-          "text": "どころか",
-          "grammarId": "n2-086",
-          "baseExpression": "どころか",
-          "conjugatedExpression": "どころか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-018-09-c",
-          "text": "ところだった",
-          "grammarId": "n2-087",
-          "baseExpression": "ところだった",
-          "conjugatedExpression": "ところだった",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
-      "sourceGrammarIds": [
-        "n2-018",
-        "n2-085",
-        "n2-086",
-        "n2-087"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-018-10",
-      "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlank": "母は今年93歳になった。今は元気だが、歳が歳（　　　）、病気をすると心配だ。",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
-      "answerChoiceId": "fb-extra20-n2-018-10-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-018-10-c",
-          "text": "だけに",
-          "grammarId": "n2-018",
-          "baseExpression": "がだけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-018-10-d",
-          "text": "ことだ",
-          "grammarId": "n2-038",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-018-10-a",
-          "text": "ことだし",
-          "grammarId": "n2-039",
-          "baseExpression": "ことだし",
-          "conjugatedExpression": "ことだし",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-018-10-b",
-          "text": "ことだろう",
-          "grammarId": "n2-040",
-          "baseExpression": "ことだろう",
-          "conjugatedExpression": "ことだろう",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
-      "sourceGrammarIds": [
-        "n2-018",
-        "n2-038",
-        "n2-039",
-        "n2-040"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-018-11",
-      "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlank": "母は今年93歳になった。今は元気だが、歳が歳（　　　）、病気をすると心配だ。",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
-      "answerChoiceId": "fb-extra20-n2-018-11-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-018-11-b",
+          "id": "fb-created-n2-018-03-b",
           "text": "甲斐があって",
           "grammarId": "n2-011",
           "baseExpression": "甲斐があって",
@@ -1093,7 +397,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-018-11-c",
+          "id": "fb-created-n2-018-03-c",
           "text": "だけに",
           "grammarId": "n2-018",
           "baseExpression": "がだけに",
@@ -1101,285 +405,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-018-11-d",
-          "text": "おそれがある",
-          "grammarId": "n2-009",
-          "baseExpression": "おそれがある",
-          "conjugatedExpression": "おそれがある",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-018-11-a",
-          "text": "折に",
-          "grammarId": "n2-010",
-          "baseExpression": "折に",
-          "conjugatedExpression": "折に",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
-      "sourceGrammarIds": [
-        "n2-018",
-        "n2-009",
-        "n2-010",
-        "n2-011"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-018-12",
-      "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlank": "母は今年93歳になった。今は元気だが、歳が歳（　　　）、病気をすると心配だ。",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
-      "answerChoiceId": "fb-extra20-n2-018-12-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-018-12-a",
-          "text": "ものの",
-          "grammarId": "n2-161",
-          "baseExpression": "ものの",
-          "conjugatedExpression": "ものの",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-018-12-b",
-          "text": "だけに",
-          "grammarId": "n2-018",
-          "baseExpression": "がだけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-018-12-c",
-          "text": "ものだから",
-          "grammarId": "n2-159",
-          "baseExpression": "ものだから",
-          "conjugatedExpression": "ものだから",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-018-12-d",
-          "text": "ものなら",
-          "grammarId": "n2-160",
-          "baseExpression": "ものなら",
-          "conjugatedExpression": "ものなら",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
-      "sourceGrammarIds": [
-        "n2-018",
-        "n2-159",
-        "n2-160",
-        "n2-161"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-018-13",
-      "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlank": "母は今年93歳になった。今は元気だが、歳が歳（　　　）、病気をすると心配だ。",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
-      "answerChoiceId": "fb-extra20-n2-018-13-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-018-13-d",
-          "text": "ことなく",
-          "grammarId": "n2-042",
-          "baseExpression": "ことなく",
-          "conjugatedExpression": "ことなく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-018-13-a",
-          "text": "だけに",
-          "grammarId": "n2-018",
-          "baseExpression": "がだけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-018-13-b",
-          "text": "ことだろう",
-          "grammarId": "n2-040",
-          "baseExpression": "ことだろう",
-          "conjugatedExpression": "ことだろう",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-018-13-c",
-          "text": "こととなると",
-          "grammarId": "n2-041",
-          "baseExpression": "こととなると",
-          "conjugatedExpression": "こととなると",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
-      "sourceGrammarIds": [
-        "n2-018",
-        "n2-040",
-        "n2-041",
-        "n2-042"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-018-14",
-      "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlank": "母は今年93歳になった。今は元気だが、歳が歳（　　　）、病気をすると心配だ。",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
-      "answerChoiceId": "fb-extra20-n2-018-14-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-018-14-c",
-          "text": "ところだった",
-          "grammarId": "n2-087",
-          "baseExpression": "ところだった",
-          "conjugatedExpression": "ところだった",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-018-14-d",
-          "text": "だけに",
-          "grammarId": "n2-018",
-          "baseExpression": "がだけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-018-14-a",
-          "text": "といったら",
-          "grammarId": "n2-085",
-          "baseExpression": "といったら",
-          "conjugatedExpression": "といったら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-018-14-b",
-          "text": "どころか",
-          "grammarId": "n2-086",
-          "baseExpression": "どころか",
-          "conjugatedExpression": "どころか",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
-      "sourceGrammarIds": [
-        "n2-018",
-        "n2-085",
-        "n2-086",
-        "n2-087"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-018-15",
-      "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlank": "母は今年93歳になった。今は元気だが、歳が歳（　　　）、病気をすると心配だ。",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
-      "answerChoiceId": "fb-extra20-n2-018-15-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-018-15-b",
-          "text": "ことだろう",
-          "grammarId": "n2-040",
-          "baseExpression": "ことだろう",
-          "conjugatedExpression": "ことだろう",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-018-15-c",
-          "text": "だけに",
-          "grammarId": "n2-018",
-          "baseExpression": "がだけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-018-15-d",
-          "text": "ことだ",
-          "grammarId": "n2-038",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-018-15-a",
-          "text": "ことだし",
-          "grammarId": "n2-039",
-          "baseExpression": "ことだし",
-          "conjugatedExpression": "ことだし",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
-      "sourceGrammarIds": [
-        "n2-018",
-        "n2-038",
-        "n2-039",
-        "n2-040"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-018-16",
-      "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlank": "母は今年93歳になった。今は元気だが、歳が歳（　　　）、病気をすると心配だ。",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
-      "answerChoiceId": "fb-extra20-n2-018-16-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-018-16-a",
-          "text": "折に",
-          "grammarId": "n2-010",
-          "baseExpression": "折に",
-          "conjugatedExpression": "折に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-018-16-b",
-          "text": "甲斐があって",
-          "grammarId": "n2-011",
-          "baseExpression": "甲斐があって",
-          "conjugatedExpression": "甲斐があって",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-018-16-c",
-          "text": "だけに",
-          "grammarId": "n2-018",
-          "baseExpression": "がだけに",
-          "conjugatedExpression": "だけに",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-018-16-d",
+          "id": "fb-created-n2-018-03-d",
           "text": "おそれがある",
           "grammarId": "n2-009",
           "baseExpression": "おそれがある",
@@ -1387,7 +413,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '장소가 장소인 만큼 심야에 혼자 걷는 것은 피해야 한다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
       "sourceGrammarIds": [
         "n2-018",
         "n2-009",
@@ -1395,37 +421,28 @@
         "n2-011"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-018-17",
+      "id": "fb-created-n2-018-04",
       "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlank": "母は今年93歳になった。今は元気だが、歳が歳（　　　）、病気をすると心配だ。",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
-      "answerChoiceId": "fb-extra20-n2-018-17-b",
+      "sentence": "品物が品物だけに、宅配便ではなく専門業者に運搬を頼んだ。",
+      "sentenceWithBlank": "品物が品物（　　　）、宅配便ではなく専門業者に運搬を頼んだ。",
+      "korean": "물건이 물건인 만큼 택배가 아니라 전문 업체에 운반을 맡겼다.",
+      "answerChoiceId": "fb-created-n2-018-04-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-018-17-d",
-          "text": "ものなら",
-          "grammarId": "n2-160",
-          "baseExpression": "ものなら",
-          "conjugatedExpression": "ものなら",
+          "id": "fb-created-n2-018-04-b",
+          "text": "甲斐があって",
+          "grammarId": "n2-011",
+          "baseExpression": "甲斐があって",
+          "conjugatedExpression": "甲斐があって",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-018-17-a",
-          "text": "ものの",
-          "grammarId": "n2-161",
-          "baseExpression": "ものの",
-          "conjugatedExpression": "ものの",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-018-17-b",
+          "id": "fb-created-n2-018-04-c",
           "text": "だけに",
           "grammarId": "n2-018",
           "baseExpression": "がだけに",
@@ -1433,53 +450,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-018-17-c",
-          "text": "ものだから",
-          "grammarId": "n2-159",
-          "baseExpression": "ものだから",
-          "conjugatedExpression": "ものだから",
+          "id": "fb-created-n2-018-04-d",
+          "text": "おそれがある",
+          "grammarId": "n2-009",
+          "baseExpression": "おそれがある",
+          "conjugatedExpression": "おそれがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-018-04-a",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '물건이 물건인 만큼 택배가 아니라 전문 업체에 운반을 맡겼다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
       "sourceGrammarIds": [
         "n2-018",
-        "n2-159",
-        "n2-160",
-        "n2-161"
+        "n2-009",
+        "n2-010",
+        "n2-011"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-018-18",
+      "id": "fb-created-n2-018-05",
       "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlank": "母は今年93歳になった。今は元気だが、歳が歳（　　　）、病気をすると心配だ。",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
-      "answerChoiceId": "fb-extra20-n2-018-18-a",
+      "sentence": "時期が時期だけに、海沿いの宿はどこも満室だった。",
+      "sentenceWithBlank": "時期が時期（　　　）、海沿いの宿はどこも満室だった。",
+      "korean": "시기가 시기인 만큼 해안가 숙소는 어디든 만실이었다.",
+      "answerChoiceId": "fb-created-n2-018-05-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-018-18-c",
-          "text": "こととなると",
-          "grammarId": "n2-041",
-          "baseExpression": "こととなると",
-          "conjugatedExpression": "こととなると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-018-18-d",
-          "text": "ことなく",
-          "grammarId": "n2-042",
-          "baseExpression": "ことなく",
-          "conjugatedExpression": "ことなく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-018-18-a",
+          "id": "fb-created-n2-018-05-c",
           "text": "だけに",
           "grammarId": "n2-018",
           "baseExpression": "がだけに",
@@ -1487,53 +495,121 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-018-18-b",
-          "text": "ことだろう",
-          "grammarId": "n2-040",
-          "baseExpression": "ことだろう",
-          "conjugatedExpression": "ことだろう",
+          "id": "fb-created-n2-018-05-d",
+          "text": "おそれがある",
+          "grammarId": "n2-009",
+          "baseExpression": "おそれがある",
+          "conjugatedExpression": "おそれがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-018-05-a",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-018-05-b",
+          "text": "甲斐があって",
+          "grammarId": "n2-011",
+          "baseExpression": "甲斐があって",
+          "conjugatedExpression": "甲斐があって",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '시기가 시기인 만큼 해안가 숙소는 어디든 만실이었다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
       "sourceGrammarIds": [
         "n2-018",
-        "n2-040",
-        "n2-041",
-        "n2-042"
+        "n2-009",
+        "n2-010",
+        "n2-011"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-018-19",
+      "id": "fb-created-n2-018-06",
       "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlank": "母は今年93歳になった。今は元気だが、歳が歳（　　　）、病気をすると心配だ。",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
-      "answerChoiceId": "fb-extra20-n2-018-19-d",
+      "sentence": "立場が立場だけに、彼女は個人的な意見を公の場では口にしなかった。",
+      "sentenceWithBlank": "立場が立場（　　　）、彼女は個人的な意見を公の場では口にしなかった。",
+      "korean": "입장이 입장인 만큼 그녀는 개인적인 의견을 공개적인 자리에서는 말하지 않았다.",
+      "answerChoiceId": "fb-created-n2-018-06-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-018-19-b",
-          "text": "どころか",
-          "grammarId": "n2-086",
-          "baseExpression": "どころか",
-          "conjugatedExpression": "どころか",
+          "id": "fb-created-n2-018-06-d",
+          "text": "おそれがある",
+          "grammarId": "n2-009",
+          "baseExpression": "おそれがある",
+          "conjugatedExpression": "おそれがある",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-018-19-c",
-          "text": "ところだった",
-          "grammarId": "n2-087",
-          "baseExpression": "ところだった",
-          "conjugatedExpression": "ところだった",
+          "id": "fb-created-n2-018-06-a",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-018-19-d",
+          "id": "fb-created-n2-018-06-b",
+          "text": "甲斐があって",
+          "grammarId": "n2-011",
+          "baseExpression": "甲斐があって",
+          "conjugatedExpression": "甲斐があって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-018-06-c",
+          "text": "だけに",
+          "grammarId": "n2-018",
+          "baseExpression": "がだけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '입장이 입장인 만큼 그녀는 개인적인 의견을 공개적인 자리에서는 말하지 않았다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
+      "sourceGrammarIds": [
+        "n2-018",
+        "n2-009",
+        "n2-010",
+        "n2-011"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-018-07",
+      "level": "N2",
+      "sentence": "金額が金額だけに、修理を依頼する前に家族全員で相談した。",
+      "sentenceWithBlank": "金額が金額（　　　）、修理を依頼する前に家族全員で相談した。",
+      "korean": "금액이 금액인 만큼 수리를 의뢰하기 전에 온 가족이 상의했다.",
+      "answerChoiceId": "fb-created-n2-018-07-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-018-07-a",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-018-07-b",
+          "text": "甲斐があって",
+          "grammarId": "n2-011",
+          "baseExpression": "甲斐があって",
+          "conjugatedExpression": "甲斐があって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-018-07-c",
           "text": "だけに",
           "grammarId": "n2-018",
           "baseExpression": "がだけに",
@@ -1541,53 +617,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-018-19-a",
-          "text": "といったら",
-          "grammarId": "n2-085",
-          "baseExpression": "といったら",
-          "conjugatedExpression": "といったら",
+          "id": "fb-created-n2-018-07-d",
+          "text": "おそれがある",
+          "grammarId": "n2-009",
+          "baseExpression": "おそれがある",
+          "conjugatedExpression": "おそれがある",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '금액이 금액인 만큼 수리를 의뢰하기 전에 온 가족이 상의했다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
       "sourceGrammarIds": [
         "n2-018",
-        "n2-085",
-        "n2-086",
-        "n2-087"
+        "n2-009",
+        "n2-010",
+        "n2-011"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-018-20",
+      "id": "fb-created-n2-018-08",
       "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlank": "母は今年93歳になった。今は元気だが、歳が歳（　　　）、病気をすると心配だ。",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
-      "answerChoiceId": "fb-extra20-n2-018-20-c",
+      "sentence": "病状が病状だけに、医師はすぐに大きな病院への転院を勧めた。",
+      "sentenceWithBlank": "病状が病状（　　　）、医師はすぐに大きな病院への転院を勧めた。",
+      "korean": "병세가 병세인 만큼 의사는 즉시 큰 병원으로 옮길 것을 권했다.",
+      "answerChoiceId": "fb-created-n2-018-08-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-018-20-a",
-          "text": "ことだし",
-          "grammarId": "n2-039",
-          "baseExpression": "ことだし",
-          "conjugatedExpression": "ことだし",
+          "id": "fb-created-n2-018-08-b",
+          "text": "甲斐があって",
+          "grammarId": "n2-011",
+          "baseExpression": "甲斐があって",
+          "conjugatedExpression": "甲斐があって",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-018-20-b",
-          "text": "ことだろう",
-          "grammarId": "n2-040",
-          "baseExpression": "ことだろう",
-          "conjugatedExpression": "ことだろう",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-018-20-c",
+          "id": "fb-created-n2-018-08-c",
           "text": "だけに",
           "grammarId": "n2-018",
           "baseExpression": "がだけに",
@@ -1595,25 +662,933 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-018-20-d",
-          "text": "ことだ",
-          "grammarId": "n2-038",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
+          "id": "fb-created-n2-018-08-d",
+          "text": "おそれがある",
+          "grammarId": "n2-009",
+          "baseExpression": "おそれがある",
+          "conjugatedExpression": "おそれがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-018-08-a",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '병세가 병세인 만큼 의사는 즉시 큰 병원으로 옮길 것을 권했다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
       "sourceGrammarIds": [
         "n2-018",
-        "n2-038",
-        "n2-039",
-        "n2-040"
+        "n2-009",
+        "n2-010",
+        "n2-011"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-018-09",
+      "level": "N2",
+      "sentence": "天候が天候だけに、山頂を目前にして一行は引き返した。",
+      "sentenceWithBlank": "天候が天候（　　　）、山頂を目前にして一行は引き返した。",
+      "korean": "날씨가 날씨인 만큼 일행은 정상을 눈앞에 두고도 되돌아갔다.",
+      "answerChoiceId": "fb-created-n2-018-09-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-018-09-c",
+          "text": "だけに",
+          "grammarId": "n2-018",
+          "baseExpression": "がだけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-018-09-d",
+          "text": "おそれがある",
+          "grammarId": "n2-009",
+          "baseExpression": "おそれがある",
+          "conjugatedExpression": "おそれがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-018-09-a",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-018-09-b",
+          "text": "甲斐があって",
+          "grammarId": "n2-011",
+          "baseExpression": "甲斐があって",
+          "conjugatedExpression": "甲斐があって",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '날씨가 날씨인 만큼 일행은 정상을 눈앞에 두고도 되돌아갔다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
+      "sourceGrammarIds": [
+        "n2-018",
+        "n2-009",
+        "n2-010",
+        "n2-011"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-018-10",
+      "level": "N2",
+      "sentence": "責任が責任だけに、その役職を引き受けるか一晩考えさせてもらった。",
+      "sentenceWithBlank": "責任が責任（　　　）、その役職を引き受けるか一晩考えさせてもらった。",
+      "korean": "책임이 책임인 만큼 그 직책을 맡을지 하룻밤 생각할 시간을 달라고 했다.",
+      "answerChoiceId": "fb-created-n2-018-10-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-018-10-d",
+          "text": "おそれがある",
+          "grammarId": "n2-009",
+          "baseExpression": "おそれがある",
+          "conjugatedExpression": "おそれがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-018-10-a",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-018-10-b",
+          "text": "甲斐があって",
+          "grammarId": "n2-011",
+          "baseExpression": "甲斐があって",
+          "conjugatedExpression": "甲斐があって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-018-10-c",
+          "text": "だけに",
+          "grammarId": "n2-018",
+          "baseExpression": "がだけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '책임이 책임인 만큼 그 직책을 맡을지 하룻밤 생각할 시간을 달라고 했다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
+      "sourceGrammarIds": [
+        "n2-018",
+        "n2-009",
+        "n2-010",
+        "n2-011"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-018-11",
+      "level": "N2",
+      "sentence": "事情が事情だけに、大家は家賃の支払いを一か月待ってくれた。",
+      "sentenceWithBlank": "事情が事情（　　　）、大家は家賃の支払いを一か月待ってくれた。",
+      "korean": "사정이 사정인 만큼 집주인은 월세 납부를 한 달 기다려 주었다.",
+      "answerChoiceId": "fb-created-n2-018-11-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-018-11-a",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-018-11-b",
+          "text": "甲斐があって",
+          "grammarId": "n2-011",
+          "baseExpression": "甲斐があって",
+          "conjugatedExpression": "甲斐があって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-018-11-c",
+          "text": "だけに",
+          "grammarId": "n2-018",
+          "baseExpression": "がだけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-018-11-d",
+          "text": "おそれがある",
+          "grammarId": "n2-009",
+          "baseExpression": "おそれがある",
+          "conjugatedExpression": "おそれがある",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '사정이 사정인 만큼 집주인은 월세 납부를 한 달 기다려 주었다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
+      "sourceGrammarIds": [
+        "n2-018",
+        "n2-009",
+        "n2-010",
+        "n2-011"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-018-12",
+      "level": "N2",
+      "sentence": "地域が地域だけに、冬は水道管の凍結への備えが欠かせない。",
+      "sentenceWithBlank": "地域が地域（　　　）、冬は水道管の凍結への備えが欠かせない。",
+      "korean": "지역이 지역인 만큼 겨울에는 수도관 동결에 대한 대비가 필수다.",
+      "answerChoiceId": "fb-created-n2-018-12-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-018-12-b",
+          "text": "甲斐があって",
+          "grammarId": "n2-011",
+          "baseExpression": "甲斐があって",
+          "conjugatedExpression": "甲斐があって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-018-12-c",
+          "text": "だけに",
+          "grammarId": "n2-018",
+          "baseExpression": "がだけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-018-12-d",
+          "text": "おそれがある",
+          "grammarId": "n2-009",
+          "baseExpression": "おそれがある",
+          "conjugatedExpression": "おそれがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-018-12-a",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '지역이 지역인 만큼 겨울에는 수도관 동결에 대한 대비가 필수다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
+      "sourceGrammarIds": [
+        "n2-018",
+        "n2-009",
+        "n2-010",
+        "n2-011"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-018-13",
+      "level": "N2",
+      "sentence": "経歴が経歴だけに、新監督の就任には選手たちも大きな期待を寄せている。",
+      "sentenceWithBlank": "経歴が経歴（　　　）、新監督の就任には選手たちも大きな期待を寄せている。",
+      "korean": "경력이 경력인 만큼 새 감독의 취임에 선수들도 큰 기대를 걸고 있다.",
+      "answerChoiceId": "fb-created-n2-018-13-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-018-13-c",
+          "text": "だけに",
+          "grammarId": "n2-018",
+          "baseExpression": "がだけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-018-13-d",
+          "text": "おそれがある",
+          "grammarId": "n2-009",
+          "baseExpression": "おそれがある",
+          "conjugatedExpression": "おそれがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-018-13-a",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-018-13-b",
+          "text": "甲斐があって",
+          "grammarId": "n2-011",
+          "baseExpression": "甲斐があって",
+          "conjugatedExpression": "甲斐があって",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '경력이 경력인 만큼 새 감독의 취임에 선수들도 큰 기대를 걸고 있다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
+      "sourceGrammarIds": [
+        "n2-018",
+        "n2-009",
+        "n2-010",
+        "n2-011"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-018-14",
+      "level": "N2",
+      "sentence": "事件が事件だけに、警察は周辺の道路を長時間封鎖した。",
+      "sentenceWithBlank": "事件が事件（　　　）、警察は周辺の道路を長時間封鎖した。",
+      "korean": "사건이 사건인 만큼 경찰은 주변 도로를 장시간 봉쇄했다.",
+      "answerChoiceId": "fb-created-n2-018-14-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-018-14-d",
+          "text": "おそれがある",
+          "grammarId": "n2-009",
+          "baseExpression": "おそれがある",
+          "conjugatedExpression": "おそれがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-018-14-a",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-018-14-b",
+          "text": "甲斐があって",
+          "grammarId": "n2-011",
+          "baseExpression": "甲斐があって",
+          "conjugatedExpression": "甲斐があって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-018-14-c",
+          "text": "だけに",
+          "grammarId": "n2-018",
+          "baseExpression": "がだけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '사건이 사건인 만큼 경찰은 주변 도로를 장시간 봉쇄했다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
+      "sourceGrammarIds": [
+        "n2-018",
+        "n2-009",
+        "n2-010",
+        "n2-011"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-018-15",
+      "level": "N2",
+      "sentence": "素材が素材だけに、このコートは雨の日には着ないようにしている。",
+      "sentenceWithBlank": "素材が素材（　　　）、このコートは雨の日には着ないようにしている。",
+      "korean": "소재가 소재인 만큼 이 코트는 비 오는 날에는 입지 않으려고 한다.",
+      "answerChoiceId": "fb-created-n2-018-15-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-018-15-a",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-018-15-b",
+          "text": "甲斐があって",
+          "grammarId": "n2-011",
+          "baseExpression": "甲斐があって",
+          "conjugatedExpression": "甲斐があって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-018-15-c",
+          "text": "だけに",
+          "grammarId": "n2-018",
+          "baseExpression": "がだけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-018-15-d",
+          "text": "おそれがある",
+          "grammarId": "n2-009",
+          "baseExpression": "おそれがある",
+          "conjugatedExpression": "おそれがある",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '소재가 소재인 만큼 이 코트는 비 오는 날에는 입지 않으려고 한다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
+      "sourceGrammarIds": [
+        "n2-018",
+        "n2-009",
+        "n2-010",
+        "n2-011"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-018-16",
+      "level": "N2",
+      "sentence": "規模が規模だけに、新空港の建設には十年以上かかる見込みだ。",
+      "sentenceWithBlank": "規模が規模（　　　）、新空港の建設には十年以上かかる見込みだ。",
+      "korean": "규모가 규모인 만큼 신공항 건설에는 10년 이상 걸릴 전망이다.",
+      "answerChoiceId": "fb-created-n2-018-16-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-018-16-b",
+          "text": "甲斐があって",
+          "grammarId": "n2-011",
+          "baseExpression": "甲斐があって",
+          "conjugatedExpression": "甲斐があって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-018-16-c",
+          "text": "だけに",
+          "grammarId": "n2-018",
+          "baseExpression": "がだけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-018-16-d",
+          "text": "おそれがある",
+          "grammarId": "n2-009",
+          "baseExpression": "おそれがある",
+          "conjugatedExpression": "おそれがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-018-16-a",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '규모가 규모인 만큼 신공항 건설에는 10년 이상 걸릴 전망이다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
+      "sourceGrammarIds": [
+        "n2-018",
+        "n2-009",
+        "n2-010",
+        "n2-011"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-018-17",
+      "level": "N2",
+      "sentence": "用途が用途だけに、この容器には厳しい耐熱試験が行われている。",
+      "sentenceWithBlank": "用途が用途（　　　）、この容器には厳しい耐熱試験が行われている。",
+      "korean": "용도가 용도인 만큼 이 용기에는 엄격한 내열 시험이 실시되고 있다.",
+      "answerChoiceId": "fb-created-n2-018-17-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-018-17-c",
+          "text": "だけに",
+          "grammarId": "n2-018",
+          "baseExpression": "がだけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-018-17-d",
+          "text": "おそれがある",
+          "grammarId": "n2-009",
+          "baseExpression": "おそれがある",
+          "conjugatedExpression": "おそれがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-018-17-a",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-018-17-b",
+          "text": "甲斐があって",
+          "grammarId": "n2-011",
+          "baseExpression": "甲斐があって",
+          "conjugatedExpression": "甲斐があって",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '용도가 용도인 만큼 이 용기에는 엄격한 내열 시험이 실시되고 있다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
+      "sourceGrammarIds": [
+        "n2-018",
+        "n2-009",
+        "n2-010",
+        "n2-011"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-018-18",
+      "level": "N2",
+      "sentence": "職業が職業だけに、兄は休日でも携帯電話の電源を切れない。",
+      "sentenceWithBlank": "職業が職業（　　　）、兄は休日でも携帯電話の電源を切れない。",
+      "korean": "직업이 직업인 만큼 형은 휴일에도 휴대전화 전원을 끌 수 없다.",
+      "answerChoiceId": "fb-created-n2-018-18-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-018-18-d",
+          "text": "おそれがある",
+          "grammarId": "n2-009",
+          "baseExpression": "おそれがある",
+          "conjugatedExpression": "おそれがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-018-18-a",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-018-18-b",
+          "text": "甲斐があって",
+          "grammarId": "n2-011",
+          "baseExpression": "甲斐があって",
+          "conjugatedExpression": "甲斐があって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-018-18-c",
+          "text": "だけに",
+          "grammarId": "n2-018",
+          "baseExpression": "がだけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '직업이 직업인 만큼 형은 휴일에도 휴대전화 전원을 끌 수 없다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
+      "sourceGrammarIds": [
+        "n2-018",
+        "n2-009",
+        "n2-010",
+        "n2-011"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-018-19",
+      "level": "N2",
+      "sentence": "年齢が年齢だけに、あの選手が記録を更新したことには誰もが驚いた。",
+      "sentenceWithBlank": "年齢が年齢（　　　）、あの選手が記録を更新したことには誰もが驚いた。",
+      "korean": "나이가 나이인 만큼 그 선수가 기록을 경신한 것에 모두가 놀랐다.",
+      "answerChoiceId": "fb-created-n2-018-19-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-018-19-a",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-018-19-b",
+          "text": "甲斐があって",
+          "grammarId": "n2-011",
+          "baseExpression": "甲斐があって",
+          "conjugatedExpression": "甲斐があって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-018-19-c",
+          "text": "だけに",
+          "grammarId": "n2-018",
+          "baseExpression": "がだけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-018-19-d",
+          "text": "おそれがある",
+          "grammarId": "n2-009",
+          "baseExpression": "おそれがある",
+          "conjugatedExpression": "おそれがある",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '나이가 나이인 만큼 그 선수가 기록을 경신한 것에 모두가 놀랐다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
+      "sourceGrammarIds": [
+        "n2-018",
+        "n2-009",
+        "n2-010",
+        "n2-011"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-018-20",
+      "level": "N2",
+      "sentence": "距離が距離だけに、毎週末通い続けるのは現実的ではない。",
+      "sentenceWithBlank": "距離が距離（　　　）、毎週末通い続けるのは現実的ではない。",
+      "korean": "거리가 거리인 만큼 주말마다 계속 다니는 것은 현실적이지 않다.",
+      "answerChoiceId": "fb-created-n2-018-20-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-018-20-b",
+          "text": "甲斐があって",
+          "grammarId": "n2-011",
+          "baseExpression": "甲斐があって",
+          "conjugatedExpression": "甲斐があって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-018-20-c",
+          "text": "だけに",
+          "grammarId": "n2-018",
+          "baseExpression": "がだけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-018-20-d",
+          "text": "おそれがある",
+          "grammarId": "n2-009",
+          "baseExpression": "おそれがある",
+          "conjugatedExpression": "おそれがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-018-20-a",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '거리가 거리인 만큼 주말마다 계속 다니는 것은 현실적이지 않다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
+      "sourceGrammarIds": [
+        "n2-018",
+        "n2-009",
+        "n2-010",
+        "n2-011"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-018-21",
+      "level": "N2",
+      "sentence": "国が国だけに、入国前に服装や習慣について調べておく必要がある。",
+      "sentenceWithBlank": "国が国（　　　）、入国前に服装や習慣について調べておく必要がある。",
+      "korean": "나라가 나라인 만큼 입국 전에 복장과 관습을 알아둘 필요가 있다.",
+      "answerChoiceId": "fb-created-n2-018-21-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-018-21-c",
+          "text": "だけに",
+          "grammarId": "n2-018",
+          "baseExpression": "がだけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-018-21-d",
+          "text": "おそれがある",
+          "grammarId": "n2-009",
+          "baseExpression": "おそれがある",
+          "conjugatedExpression": "おそれがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-018-21-a",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-018-21-b",
+          "text": "甲斐があって",
+          "grammarId": "n2-011",
+          "baseExpression": "甲斐があって",
+          "conjugatedExpression": "甲斐があって",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '나라가 나라인 만큼 입국 전에 복장과 관습을 알아둘 필요가 있다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
+      "sourceGrammarIds": [
+        "n2-018",
+        "n2-009",
+        "n2-010",
+        "n2-011"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-018-22",
+      "level": "N2",
+      "sentence": "内容が内容だけに、その手紙は本人以外には見せられない。",
+      "sentenceWithBlank": "内容が内容（　　　）、その手紙は本人以外には見せられない。",
+      "korean": "내용이 내용인 만큼 그 편지는 본인 이외의 사람에게는 보여 줄 수 없다.",
+      "answerChoiceId": "fb-created-n2-018-22-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-018-22-d",
+          "text": "おそれがある",
+          "grammarId": "n2-009",
+          "baseExpression": "おそれがある",
+          "conjugatedExpression": "おそれがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-018-22-a",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-018-22-b",
+          "text": "甲斐があって",
+          "grammarId": "n2-011",
+          "baseExpression": "甲斐があって",
+          "conjugatedExpression": "甲斐があって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-018-22-c",
+          "text": "だけに",
+          "grammarId": "n2-018",
+          "baseExpression": "がだけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '내용이 내용인 만큼 그 편지는 본인 이외의 사람에게는 보여 줄 수 없다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
+      "sourceGrammarIds": [
+        "n2-018",
+        "n2-009",
+        "n2-010",
+        "n2-011"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-018-23",
+      "level": "N2",
+      "sentence": "相手国が相手国だけに、代表チームは守備を重視した布陣で試合に臨んだ。",
+      "sentenceWithBlank": "相手国が相手国（　　　）、代表チームは守備を重視した布陣で試合に臨んだ。",
+      "korean": "상대국이 상대국인 만큼 대표팀은 수비를 중시한 진형으로 경기에 임했다.",
+      "answerChoiceId": "fb-created-n2-018-23-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-018-23-a",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-018-23-b",
+          "text": "甲斐があって",
+          "grammarId": "n2-011",
+          "baseExpression": "甲斐があって",
+          "conjugatedExpression": "甲斐があって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-018-23-c",
+          "text": "だけに",
+          "grammarId": "n2-018",
+          "baseExpression": "がだけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-018-23-d",
+          "text": "おそれがある",
+          "grammarId": "n2-009",
+          "baseExpression": "おそれがある",
+          "conjugatedExpression": "おそれがある",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '상대국이 상대국인 만큼 대표팀은 수비를 중시한 진형으로 경기에 임했다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
+      "sourceGrammarIds": [
+        "n2-018",
+        "n2-009",
+        "n2-010",
+        "n2-011"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-018-24",
+      "level": "N2",
+      "sentence": "目的が目的だけに、寄付金の使い道は細かく公開されるべきだ。",
+      "sentenceWithBlank": "目的が目的（　　　）、寄付金の使い道は細かく公開されるべきだ。",
+      "korean": "목적이 목적인 만큼 기부금의 사용처는 상세히 공개되어야 한다.",
+      "answerChoiceId": "fb-created-n2-018-24-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-018-24-b",
+          "text": "甲斐があって",
+          "grammarId": "n2-011",
+          "baseExpression": "甲斐があって",
+          "conjugatedExpression": "甲斐があって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-018-24-c",
+          "text": "だけに",
+          "grammarId": "n2-018",
+          "baseExpression": "がだけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-018-24-d",
+          "text": "おそれがある",
+          "grammarId": "n2-009",
+          "baseExpression": "おそれがある",
+          "conjugatedExpression": "おそれがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-018-24-a",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '목적이 목적인 만큼 기부금의 사용처는 상세히 공개되어야 한다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
+      "sourceGrammarIds": [
+        "n2-018",
+        "n2-009",
+        "n2-010",
+        "n2-011"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-018-25",
+      "level": "N2",
+      "sentence": "土地が土地だけに、地下室を造るには十分な湿気対策が求められる。",
+      "sentenceWithBlank": "土地が土地（　　　）、地下室を造るには十分な湿気対策が求められる。",
+      "korean": "땅이 땅인 만큼 지하실을 만들려면 충분한 습기 대책이 요구된다.",
+      "answerChoiceId": "fb-created-n2-018-25-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-018-25-c",
+          "text": "だけに",
+          "grammarId": "n2-018",
+          "baseExpression": "がだけに",
+          "conjugatedExpression": "だけに",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-018-25-d",
+          "text": "おそれがある",
+          "grammarId": "n2-009",
+          "baseExpression": "おそれがある",
+          "conjugatedExpression": "おそれがある",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-018-25-a",
+          "text": "折に",
+          "grammarId": "n2-010",
+          "baseExpression": "折に",
+          "conjugatedExpression": "折に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-018-25-b",
+          "text": "甲斐があって",
+          "grammarId": "n2-011",
+          "baseExpression": "甲斐があって",
+          "conjugatedExpression": "甲斐があって",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '땅이 땅인 만큼 지하실을 만들려면 충분한 습기 대책이 요구된다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
+      "sourceGrammarIds": [
+        "n2-018",
+        "n2-009",
+        "n2-010",
+        "n2-011"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
       ]
     }
   ],
@@ -1834,1103 +1809,1153 @@
       ]
     },
     {
-      "id": "so-extra-n2-018-1",
+      "id": "so-created-n2-018-01",
       "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlanks": "母は今年93歳になった。今は元気だが、歳が歳 ____ ____ ____ ____",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
+      "sentence": "店が店だけに、記念日の夕食には早めの予約が必要だ。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 必要だ。",
+      "korean": "가게가 가게인 만큼 기념일 저녁 식사를 하려면 일찍 예약해야 한다.",
       "pieces": [
         {
-          "id": "so-extra-n2-018-1-p1",
-          "text": "心配だ",
+          "id": "so-created-n2-018-01-p3",
+          "text": "日の夕食には",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-018-01-p4",
+          "text": "早めの予約が",
           "order": 4
         },
         {
-          "id": "so-extra-n2-018-1-p2",
-          "text": "だけに",
+          "id": "so-created-n2-018-01-p1",
+          "text": "店が店",
           "order": 1
         },
         {
-          "id": "so-extra-n2-018-1-p3",
-          "text": "病気を",
+          "id": "so-created-n2-018-01-p2",
+          "text": "だけに、記念",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-018-1-p4",
-          "text": "すると",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-018-1-p2",
-        "so-extra-n2-018-1-p3",
-        "so-extra-n2-018-1-p4",
-        "so-extra-n2-018-1-p1"
+        "so-created-n2-018-01-p1",
+        "so-created-n2-018-01-p2",
+        "so-created-n2-018-01-p3",
+        "so-created-n2-018-01-p4"
       ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '가게가 가게인 만큼 기념일 저녁 식사를 하려면 일찍 예약해야 한다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
       "sourceGrammarIds": [
-        "n2-018"
+        "n2-018",
+        "n2-009",
+        "n2-010",
+        "n2-011"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-018-2",
+      "id": "so-created-n2-018-02",
       "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlanks": "母は今年93歳になった。今は元気だが、歳が歳 ____ ____ ____ ____",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
+      "sentence": "相手が相手だけに、契約条件の変更は慎重に伝えたほうがいい。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 伝えたほうがいい。",
+      "korean": "상대가 상대인 만큼 계약 조건 변경은 신중하게 전달하는 편이 좋다.",
       "pieces": [
         {
-          "id": "so-extra-n2-018-2-p2",
-          "text": "病気を",
+          "id": "so-created-n2-018-02-p2",
+          "text": "だけに、",
           "order": 2
         },
         {
-          "id": "so-extra-n2-018-2-p3",
-          "text": "すると",
+          "id": "so-created-n2-018-02-p3",
+          "text": "契約条件の",
           "order": 3
         },
         {
-          "id": "so-extra-n2-018-2-p4",
-          "text": "心配だ",
+          "id": "so-created-n2-018-02-p4",
+          "text": "変更は慎重に",
           "order": 4
         },
         {
-          "id": "so-extra-n2-018-2-p1",
-          "text": "だけに",
+          "id": "so-created-n2-018-02-p1",
+          "text": "相手が相手",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-018-2-p1",
-        "so-extra-n2-018-2-p2",
-        "so-extra-n2-018-2-p3",
-        "so-extra-n2-018-2-p4"
+        "so-created-n2-018-02-p1",
+        "so-created-n2-018-02-p2",
+        "so-created-n2-018-02-p3",
+        "so-created-n2-018-02-p4"
       ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '상대가 상대인 만큼 계약 조건 변경은 신중하게 전달하는 편이 좋다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
       "sourceGrammarIds": [
-        "n2-018"
+        "n2-018",
+        "n2-009",
+        "n2-010",
+        "n2-011"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-018-3",
+      "id": "so-created-n2-018-03",
       "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、病気をすると心配だ。",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
+      "sentence": "場所が場所だけに、深夜に一人で歩くのは避けるべきだ。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "장소가 장소인 만큼 심야에 혼자 걷는 것은 피해야 한다.",
       "pieces": [
         {
-          "id": "so-extra-n2-018-3-p3",
-          "text": "すると",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-018-3-p4",
-          "text": "なった。今は元気だが歳が歳",
+          "id": "so-created-n2-018-03-p1",
+          "text": "場所が場所",
           "order": 1
         },
         {
-          "id": "so-extra-n2-018-3-p1",
-          "text": "だけに",
+          "id": "so-created-n2-018-03-p2",
+          "text": "だけに、深夜に",
           "order": 2
         },
         {
-          "id": "so-extra-n2-018-3-p2",
-          "text": "病気を",
+          "id": "so-created-n2-018-03-p3",
+          "text": "一人で歩くのは",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-018-03-p4",
+          "text": "避けるべきだ。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-018-3-p4",
-        "so-extra-n2-018-3-p1",
-        "so-extra-n2-018-3-p2",
-        "so-extra-n2-018-3-p3"
+        "so-created-n2-018-03-p1",
+        "so-created-n2-018-03-p2",
+        "so-created-n2-018-03-p3",
+        "so-created-n2-018-03-p4"
       ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '장소가 장소인 만큼 심야에 혼자 걷는 것은 피해야 한다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
       "sourceGrammarIds": [
-        "n2-018"
+        "n2-018",
+        "n2-009",
+        "n2-010",
+        "n2-011"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-018-4",
+      "id": "so-created-n2-018-04",
       "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlanks": "母は今年93歳になった。今は元気だが、歳が歳 ____ ____ ____ ____",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
+      "sentence": "品物が品物だけに、宅配便ではなく専門業者に運搬を頼んだ。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 運搬を頼んだ。",
+      "korean": "물건이 물건인 만큼 택배가 아니라 전문 업체에 운반을 맡겼다.",
       "pieces": [
         {
-          "id": "so-extra-n2-018-4-p4",
-          "text": "病気を",
-          "order": 2
-        },
-        {
-          "id": "so-extra-n2-018-4-p1",
-          "text": "すると",
-          "order": 3
-        },
-        {
-          "id": "so-extra-n2-018-4-p2",
-          "text": "心配だ",
+          "id": "so-created-n2-018-04-p4",
+          "text": "専門業者に",
           "order": 4
         },
         {
-          "id": "so-extra-n2-018-4-p3",
-          "text": "だけに",
+          "id": "so-created-n2-018-04-p1",
+          "text": "品物が品物",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-018-04-p2",
+          "text": "だけに、宅配",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-018-04-p3",
+          "text": "便ではなく",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-018-4-p3",
-        "so-extra-n2-018-4-p4",
-        "so-extra-n2-018-4-p1",
-        "so-extra-n2-018-4-p2"
+        "so-created-n2-018-04-p1",
+        "so-created-n2-018-04-p2",
+        "so-created-n2-018-04-p3",
+        "so-created-n2-018-04-p4"
       ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '물건이 물건인 만큼 택배가 아니라 전문 업체에 운반을 맡겼다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
       "sourceGrammarIds": [
-        "n2-018"
+        "n2-018",
+        "n2-009",
+        "n2-010",
+        "n2-011"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-018-5",
+      "id": "so-created-n2-018-05",
       "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlanks": "母は今年93歳になった。今は元気だが、歳が歳 ____ ____ ____ ____",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
+      "sentence": "時期が時期だけに、海沿いの宿はどこも満室だった。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "시기가 시기인 만큼 해안가 숙소는 어디든 만실이었다.",
       "pieces": [
         {
-          "id": "so-extra-n2-018-5-p1",
-          "text": "心配だ",
+          "id": "so-created-n2-018-05-p3",
+          "text": "宿はどこも",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-018-05-p4",
+          "text": "満室だった。",
           "order": 4
         },
         {
-          "id": "so-extra-n2-018-5-p2",
-          "text": "だけに",
+          "id": "so-created-n2-018-05-p1",
+          "text": "時期が時期",
           "order": 1
         },
         {
-          "id": "so-extra-n2-018-5-p3",
-          "text": "病気を",
+          "id": "so-created-n2-018-05-p2",
+          "text": "だけに、海沿いの",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-018-5-p4",
-          "text": "すると",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-018-5-p2",
-        "so-extra-n2-018-5-p3",
-        "so-extra-n2-018-5-p4",
-        "so-extra-n2-018-5-p1"
+        "so-created-n2-018-05-p1",
+        "so-created-n2-018-05-p2",
+        "so-created-n2-018-05-p3",
+        "so-created-n2-018-05-p4"
       ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '시기가 시기인 만큼 해안가 숙소는 어디든 만실이었다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
       "sourceGrammarIds": [
-        "n2-018"
+        "n2-018",
+        "n2-009",
+        "n2-010",
+        "n2-011"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-018-01",
+      "id": "so-created-n2-018-06",
       "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlanks": "母は今年93歳になった。今は元気だが、歳が歳 ____ ____ ____ ____",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
+      "sentence": "立場が立場だけに、彼女は個人的な意見を公の場では口にしなかった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 場では口にしなかった。",
+      "korean": "입장이 입장인 만큼 그녀는 개인적인 의견을 공개적인 자리에서는 말하지 않았다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-018-01-p1",
-          "text": "心配だ",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-018-01-p2",
-          "text": "だけに",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-018-01-p3",
-          "text": "病気を",
+          "id": "so-created-n2-018-06-p2",
+          "text": "だけに、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-018-01-p4",
-          "text": "すると",
+          "id": "so-created-n2-018-06-p3",
+          "text": "彼女は個人",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-018-06-p4",
+          "text": "的な意見を公の",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-018-06-p1",
+          "text": "立場が立場",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-018-01-p2",
-        "so-extra20-n2-018-01-p3",
-        "so-extra20-n2-018-01-p4",
-        "so-extra20-n2-018-01-p1"
+        "so-created-n2-018-06-p1",
+        "so-created-n2-018-06-p2",
+        "so-created-n2-018-06-p3",
+        "so-created-n2-018-06-p4"
       ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '입장이 입장인 만큼 그녀는 개인적인 의견을 공개적인 자리에서는 말하지 않았다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
       "sourceGrammarIds": [
-        "n2-018"
+        "n2-018",
+        "n2-009",
+        "n2-010",
+        "n2-011"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-018-02",
+      "id": "so-created-n2-018-07",
       "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlanks": "母は今年93歳になった。今は元気だが、歳が歳 ____ ____ ____ ____",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
+      "sentence": "金額が金額だけに、修理を依頼する前に家族全員で相談した。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 全員で相談した。",
+      "korean": "금액이 금액인 만큼 수리를 의뢰하기 전에 온 가족이 상의했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-018-02-p4",
-          "text": "心配だ",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-018-02-p1",
-          "text": "だけに",
+          "id": "so-created-n2-018-07-p1",
+          "text": "金額が金額",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-018-02-p2",
-          "text": "病気を",
+          "id": "so-created-n2-018-07-p2",
+          "text": "だけに、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-018-02-p3",
-          "text": "すると",
+          "id": "so-created-n2-018-07-p3",
+          "text": "修理を依頼する",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-018-07-p4",
+          "text": "前に家族",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-018-02-p1",
-        "so-extra20-n2-018-02-p2",
-        "so-extra20-n2-018-02-p3",
-        "so-extra20-n2-018-02-p4"
+        "so-created-n2-018-07-p1",
+        "so-created-n2-018-07-p2",
+        "so-created-n2-018-07-p3",
+        "so-created-n2-018-07-p4"
       ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '금액이 금액인 만큼 수리를 의뢰하기 전에 온 가족이 상의했다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
       "sourceGrammarIds": [
-        "n2-018"
+        "n2-018",
+        "n2-009",
+        "n2-010",
+        "n2-011"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-018-03",
+      "id": "so-created-n2-018-08",
       "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、病気をすると心配だ。",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
+      "sentence": "病状が病状だけに、医師はすぐに大きな病院への転院を勧めた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 勧めた。",
+      "korean": "병세가 병세인 만큼 의사는 즉시 큰 병원으로 옮길 것을 권했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-018-03-p3",
-          "text": "すると",
+          "id": "so-created-n2-018-08-p4",
+          "text": "病院への転院を",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-018-03-p4",
-          "text": "なった。今は元気だが歳が歳",
+          "id": "so-created-n2-018-08-p1",
+          "text": "病状が病状",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-018-03-p1",
-          "text": "だけに",
+          "id": "so-created-n2-018-08-p2",
+          "text": "だけに、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-018-03-p2",
-          "text": "病気を",
+          "id": "so-created-n2-018-08-p3",
+          "text": "医師はすぐに大きな",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-018-03-p4",
-        "so-extra20-n2-018-03-p1",
-        "so-extra20-n2-018-03-p2",
-        "so-extra20-n2-018-03-p3"
+        "so-created-n2-018-08-p1",
+        "so-created-n2-018-08-p2",
+        "so-created-n2-018-08-p3",
+        "so-created-n2-018-08-p4"
       ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '병세가 병세인 만큼 의사는 즉시 큰 병원으로 옮길 것을 권했다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
       "sourceGrammarIds": [
-        "n2-018"
+        "n2-018",
+        "n2-009",
+        "n2-010",
+        "n2-011"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-018-04",
+      "id": "so-created-n2-018-09",
       "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlanks": "母は今年93歳になった。今は元気だが、歳が歳 ____ ____ ____ ____",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
+      "sentence": "天候が天候だけに、山頂を目前にして一行は引き返した。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "날씨가 날씨인 만큼 일행은 정상을 눈앞에 두고도 되돌아갔다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-018-04-p2",
-          "text": "心配だ",
+          "id": "so-created-n2-018-09-p3",
+          "text": "目前にして一行は",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-018-09-p4",
+          "text": "引き返した。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-018-04-p3",
-          "text": "だけに",
+          "id": "so-created-n2-018-09-p1",
+          "text": "天候が天候",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-018-04-p4",
-          "text": "病気を",
+          "id": "so-created-n2-018-09-p2",
+          "text": "だけに、山頂を",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-018-04-p1",
-          "text": "すると",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-018-04-p3",
-        "so-extra20-n2-018-04-p4",
-        "so-extra20-n2-018-04-p1",
-        "so-extra20-n2-018-04-p2"
+        "so-created-n2-018-09-p1",
+        "so-created-n2-018-09-p2",
+        "so-created-n2-018-09-p3",
+        "so-created-n2-018-09-p4"
       ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '날씨가 날씨인 만큼 일행은 정상을 눈앞에 두고도 되돌아갔다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
       "sourceGrammarIds": [
-        "n2-018"
+        "n2-018",
+        "n2-009",
+        "n2-010",
+        "n2-011"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-018-05",
+      "id": "so-created-n2-018-10",
       "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlanks": "母は今年93歳になった。今は元気だが、歳が歳 ____ ____ ____ ____",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
+      "sentence": "責任が責任だけに、その役職を引き受けるか一晩考えさせてもらった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 考えさせてもらった。",
+      "korean": "책임이 책임인 만큼 그 직책을 맡을지 하룻밤 생각할 시간을 달라고 했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-018-05-p1",
-          "text": "心配だ",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-018-05-p2",
-          "text": "だけに",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-018-05-p3",
-          "text": "病気を",
+          "id": "so-created-n2-018-10-p2",
+          "text": "だけに、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-018-05-p4",
-          "text": "すると",
+          "id": "so-created-n2-018-10-p3",
+          "text": "その役職を",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-018-10-p4",
+          "text": "引き受けるか一晩",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-018-10-p1",
+          "text": "責任が責任",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-018-05-p2",
-        "so-extra20-n2-018-05-p3",
-        "so-extra20-n2-018-05-p4",
-        "so-extra20-n2-018-05-p1"
+        "so-created-n2-018-10-p1",
+        "so-created-n2-018-10-p2",
+        "so-created-n2-018-10-p3",
+        "so-created-n2-018-10-p4"
       ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '책임이 책임인 만큼 그 직책을 맡을지 하룻밤 생각할 시간을 달라고 했다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
       "sourceGrammarIds": [
-        "n2-018"
+        "n2-018",
+        "n2-009",
+        "n2-010",
+        "n2-011"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-018-06",
+      "id": "so-created-n2-018-11",
       "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlanks": "母は今年93歳になった。今は元気だが、歳が歳 ____ ____ ____ ____",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
+      "sentence": "事情が事情だけに、大家は家賃の支払いを一か月待ってくれた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 月待ってくれた。",
+      "korean": "사정이 사정인 만큼 집주인은 월세 납부를 한 달 기다려 주었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-018-06-p4",
-          "text": "すると",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-018-06-p1",
-          "text": "心配だ",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-018-06-p2",
-          "text": "だけに",
+          "id": "so-created-n2-018-11-p1",
+          "text": "事情が事情",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-018-06-p3",
-          "text": "病気を",
+          "id": "so-created-n2-018-11-p2",
+          "text": "だけに、",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-018-11-p3",
+          "text": "大家は家賃の",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-018-11-p4",
+          "text": "支払いを一か",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-018-06-p2",
-        "so-extra20-n2-018-06-p3",
-        "so-extra20-n2-018-06-p4",
-        "so-extra20-n2-018-06-p1"
+        "so-created-n2-018-11-p1",
+        "so-created-n2-018-11-p2",
+        "so-created-n2-018-11-p3",
+        "so-created-n2-018-11-p4"
       ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '사정이 사정인 만큼 집주인은 월세 납부를 한 달 기다려 주었다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
       "sourceGrammarIds": [
-        "n2-018"
+        "n2-018",
+        "n2-009",
+        "n2-010",
+        "n2-011"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-018-07",
+      "id": "so-created-n2-018-12",
       "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlanks": "母は今年93歳になった。今は元気だが、歳が歳 ____ ____ ____ ____",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
+      "sentence": "地域が地域だけに、冬は水道管の凍結への備えが欠かせない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 欠かせない。",
+      "korean": "지역이 지역인 만큼 겨울에는 수도관 동결에 대한 대비가 필수다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-018-07-p3",
-          "text": "すると",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-018-07-p4",
-          "text": "心配だ",
+          "id": "so-created-n2-018-12-p4",
+          "text": "凍結への備えが",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-018-07-p1",
-          "text": "だけに",
+          "id": "so-created-n2-018-12-p1",
+          "text": "地域が地域",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-018-07-p2",
-          "text": "病気を",
+          "id": "so-created-n2-018-12-p2",
+          "text": "だけに、",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-018-12-p3",
+          "text": "冬は水道管の",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-018-07-p1",
-        "so-extra20-n2-018-07-p2",
-        "so-extra20-n2-018-07-p3",
-        "so-extra20-n2-018-07-p4"
+        "so-created-n2-018-12-p1",
+        "so-created-n2-018-12-p2",
+        "so-created-n2-018-12-p3",
+        "so-created-n2-018-12-p4"
       ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '지역이 지역인 만큼 겨울에는 수도관 동결에 대한 대비가 필수다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
       "sourceGrammarIds": [
-        "n2-018"
+        "n2-018",
+        "n2-009",
+        "n2-010",
+        "n2-011"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-018-08",
+      "id": "so-created-n2-018-13",
       "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、病気をすると心配だ。",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
+      "sentence": "経歴が経歴だけに、新監督の就任には選手たちも大きな期待を寄せている。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 大きな期待を寄せている。",
+      "korean": "경력이 경력인 만큼 새 감독의 취임에 선수들도 큰 기대를 걸고 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-018-08-p2",
-          "text": "病気を",
+          "id": "so-created-n2-018-13-p3",
+          "text": "監督の就任には",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-018-08-p3",
-          "text": "すると",
+          "id": "so-created-n2-018-13-p4",
+          "text": "選手たちも",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-018-08-p4",
-          "text": "なった。今は元気だが歳が歳",
+          "id": "so-created-n2-018-13-p1",
+          "text": "経歴が経歴",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-018-08-p1",
-          "text": "だけに",
+          "id": "so-created-n2-018-13-p2",
+          "text": "だけに、新",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-018-08-p4",
-        "so-extra20-n2-018-08-p1",
-        "so-extra20-n2-018-08-p2",
-        "so-extra20-n2-018-08-p3"
+        "so-created-n2-018-13-p1",
+        "so-created-n2-018-13-p2",
+        "so-created-n2-018-13-p3",
+        "so-created-n2-018-13-p4"
       ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '경력이 경력인 만큼 새 감독의 취임에 선수들도 큰 기대를 걸고 있다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
       "sourceGrammarIds": [
-        "n2-018"
+        "n2-018",
+        "n2-009",
+        "n2-010",
+        "n2-011"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-018-09",
+      "id": "so-created-n2-018-14",
       "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlanks": "母は今年93歳になった。今は元気だが、歳が歳 ____ ____ ____ ____",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
+      "sentence": "事件が事件だけに、警察は周辺の道路を長時間封鎖した。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 封鎖した。",
+      "korean": "사건이 사건인 만큼 경찰은 주변 도로를 장시간 봉쇄했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-018-09-p1",
-          "text": "すると",
+          "id": "so-created-n2-018-14-p2",
+          "text": "だけに、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-018-14-p3",
+          "text": "警察は周辺の",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-018-09-p2",
-          "text": "心配だ",
+          "id": "so-created-n2-018-14-p4",
+          "text": "道路を長時間",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-018-09-p3",
-          "text": "だけに",
+          "id": "so-created-n2-018-14-p1",
+          "text": "事件が事件",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-018-09-p4",
-          "text": "病気を",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-018-09-p3",
-        "so-extra20-n2-018-09-p4",
-        "so-extra20-n2-018-09-p1",
-        "so-extra20-n2-018-09-p2"
+        "so-created-n2-018-14-p1",
+        "so-created-n2-018-14-p2",
+        "so-created-n2-018-14-p3",
+        "so-created-n2-018-14-p4"
       ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '사건이 사건인 만큼 경찰은 주변 도로를 장시간 봉쇄했다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
       "sourceGrammarIds": [
-        "n2-018"
+        "n2-018",
+        "n2-009",
+        "n2-010",
+        "n2-011"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-018-10",
+      "id": "so-created-n2-018-15",
       "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlanks": "母は今年93歳になった。今は元気だが、歳が歳 ____ ____ ____ ____",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
+      "sentence": "素材が素材だけに、このコートは雨の日には着ないようにしている。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 着ないようにしている。",
+      "korean": "소재가 소재인 만큼 이 코트는 비 오는 날에는 입지 않으려고 한다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-018-10-p4",
-          "text": "すると",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-018-10-p1",
-          "text": "心配だ",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-018-10-p2",
-          "text": "だけに",
+          "id": "so-created-n2-018-15-p1",
+          "text": "素材が素材",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-018-10-p3",
-          "text": "病気を",
+          "id": "so-created-n2-018-15-p2",
+          "text": "だけに、",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-018-15-p3",
+          "text": "このコートは",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-018-15-p4",
+          "text": "雨の日には",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-018-10-p2",
-        "so-extra20-n2-018-10-p3",
-        "so-extra20-n2-018-10-p4",
-        "so-extra20-n2-018-10-p1"
+        "so-created-n2-018-15-p1",
+        "so-created-n2-018-15-p2",
+        "so-created-n2-018-15-p3",
+        "so-created-n2-018-15-p4"
       ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '소재가 소재인 만큼 이 코트는 비 오는 날에는 입지 않으려고 한다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
       "sourceGrammarIds": [
-        "n2-018"
+        "n2-018",
+        "n2-009",
+        "n2-010",
+        "n2-011"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-018-11",
+      "id": "so-created-n2-018-16",
       "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlanks": "母は今年93歳になった。今は元気だが、歳が歳 ____ ____ ____ ____",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
+      "sentence": "規模が規模だけに、新空港の建設には十年以上かかる見込みだ。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 見込みだ。",
+      "korean": "규모가 규모인 만큼 신공항 건설에는 10년 이상 걸릴 전망이다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-018-11-p3",
-          "text": "病気を",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-018-11-p4",
-          "text": "すると",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-018-11-p1",
-          "text": "心配だ",
+          "id": "so-created-n2-018-16-p4",
+          "text": "十年以上かかる",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-018-11-p2",
-          "text": "だけに",
+          "id": "so-created-n2-018-16-p1",
+          "text": "規模が規模",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-018-16-p2",
+          "text": "だけに、新",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-018-16-p3",
+          "text": "空港の建設には",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-018-11-p2",
-        "so-extra20-n2-018-11-p3",
-        "so-extra20-n2-018-11-p4",
-        "so-extra20-n2-018-11-p1"
+        "so-created-n2-018-16-p1",
+        "so-created-n2-018-16-p2",
+        "so-created-n2-018-16-p3",
+        "so-created-n2-018-16-p4"
       ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '규모가 규모인 만큼 신공항 건설에는 10년 이상 걸릴 전망이다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
       "sourceGrammarIds": [
-        "n2-018"
+        "n2-018",
+        "n2-009",
+        "n2-010",
+        "n2-011"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-018-12",
+      "id": "so-created-n2-018-17",
       "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlanks": "母は今年93歳になった。今は元気だが、歳が歳 ____ ____ ____ ____",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
+      "sentence": "用途が用途だけに、この容器には厳しい耐熱試験が行われている。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 試験が行われている。",
+      "korean": "용도가 용도인 만큼 이 용기에는 엄격한 내열 시험이 실시되고 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-018-12-p2",
-          "text": "病気を",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-018-12-p3",
-          "text": "すると",
+          "id": "so-created-n2-018-17-p3",
+          "text": "この容器には",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-018-12-p4",
-          "text": "心配だ",
+          "id": "so-created-n2-018-17-p4",
+          "text": "厳しい耐熱",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-018-12-p1",
-          "text": "だけに",
+          "id": "so-created-n2-018-17-p1",
+          "text": "用途が用途",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-018-17-p2",
+          "text": "だけに、",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-018-12-p1",
-        "so-extra20-n2-018-12-p2",
-        "so-extra20-n2-018-12-p3",
-        "so-extra20-n2-018-12-p4"
+        "so-created-n2-018-17-p1",
+        "so-created-n2-018-17-p2",
+        "so-created-n2-018-17-p3",
+        "so-created-n2-018-17-p4"
       ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '용도가 용도인 만큼 이 용기에는 엄격한 내열 시험이 실시되고 있다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
       "sourceGrammarIds": [
-        "n2-018"
+        "n2-018",
+        "n2-009",
+        "n2-010",
+        "n2-011"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-018-13",
+      "id": "so-created-n2-018-18",
       "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、病気をすると心配だ。",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
+      "sentence": "職業が職業だけに、兄は休日でも携帯電話の電源を切れない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 電源を切れない。",
+      "korean": "직업이 직업인 만큼 형은 휴일에도 휴대전화 전원을 끌 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-018-13-p1",
-          "text": "だけに",
+          "id": "so-created-n2-018-18-p2",
+          "text": "だけに、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-018-13-p2",
-          "text": "病気を",
+          "id": "so-created-n2-018-18-p3",
+          "text": "兄は休日でも",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-018-13-p3",
-          "text": "すると",
+          "id": "so-created-n2-018-18-p4",
+          "text": "携帯電話の",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-018-13-p4",
-          "text": "なった。今は元気だが歳が歳",
+          "id": "so-created-n2-018-18-p1",
+          "text": "職業が職業",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-018-13-p4",
-        "so-extra20-n2-018-13-p1",
-        "so-extra20-n2-018-13-p2",
-        "so-extra20-n2-018-13-p3"
+        "so-created-n2-018-18-p1",
+        "so-created-n2-018-18-p2",
+        "so-created-n2-018-18-p3",
+        "so-created-n2-018-18-p4"
       ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '직업이 직업인 만큼 형은 휴일에도 휴대전화 전원을 끌 수 없다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
       "sourceGrammarIds": [
-        "n2-018"
+        "n2-018",
+        "n2-009",
+        "n2-010",
+        "n2-011"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-018-14",
+      "id": "so-created-n2-018-19",
       "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlanks": "母は今年93歳になった。今は元気だが、歳が歳 ____ ____ ____ ____",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
+      "sentence": "年齢が年齢だけに、あの選手が記録を更新したことには誰もが驚いた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 誰もが驚いた。",
+      "korean": "나이가 나이인 만큼 그 선수가 기록을 경신한 것에 모두가 놀랐다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-018-14-p4",
-          "text": "病気を",
+          "id": "so-created-n2-018-19-p1",
+          "text": "年齢が年齢",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-018-19-p2",
+          "text": "だけに、あの",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-018-14-p1",
-          "text": "すると",
+          "id": "so-created-n2-018-19-p3",
+          "text": "選手が記録を",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-018-14-p2",
-          "text": "心配だ",
+          "id": "so-created-n2-018-19-p4",
+          "text": "更新したことには",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-018-14-p3",
-          "text": "だけに",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-018-14-p3",
-        "so-extra20-n2-018-14-p4",
-        "so-extra20-n2-018-14-p1",
-        "so-extra20-n2-018-14-p2"
+        "so-created-n2-018-19-p1",
+        "so-created-n2-018-19-p2",
+        "so-created-n2-018-19-p3",
+        "so-created-n2-018-19-p4"
       ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '나이가 나이인 만큼 그 선수가 기록을 경신한 것에 모두가 놀랐다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
       "sourceGrammarIds": [
-        "n2-018"
+        "n2-018",
+        "n2-009",
+        "n2-010",
+        "n2-011"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-018-15",
+      "id": "so-created-n2-018-20",
       "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlanks": "母は今年93歳になった。今は元気だが、歳が歳 ____ ____ ____ ____",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
+      "sentence": "距離が距離だけに、毎週末通い続けるのは現実的ではない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 的ではない。",
+      "korean": "거리가 거리인 만큼 주말마다 계속 다니는 것은 현실적이지 않다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-018-15-p3",
-          "text": "病気を",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-018-15-p4",
-          "text": "すると",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-018-15-p1",
-          "text": "心配だ",
+          "id": "so-created-n2-018-20-p4",
+          "text": "続けるのは現実",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-018-15-p2",
-          "text": "だけに",
+          "id": "so-created-n2-018-20-p1",
+          "text": "距離が距離",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-018-20-p2",
+          "text": "だけに、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-018-20-p3",
+          "text": "毎週末通い",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-018-15-p2",
-        "so-extra20-n2-018-15-p3",
-        "so-extra20-n2-018-15-p4",
-        "so-extra20-n2-018-15-p1"
+        "so-created-n2-018-20-p1",
+        "so-created-n2-018-20-p2",
+        "so-created-n2-018-20-p3",
+        "so-created-n2-018-20-p4"
       ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '거리가 거리인 만큼 주말마다 계속 다니는 것은 현실적이지 않다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
       "sourceGrammarIds": [
-        "n2-018"
+        "n2-018",
+        "n2-009",
+        "n2-010",
+        "n2-011"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-018-16",
+      "id": "so-created-n2-018-21",
       "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlanks": "母は今年93歳になった。今は元気だが、歳が歳 ____ ____ ____ ____",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
+      "sentence": "国が国だけに、入国前に服装や習慣について調べておく必要がある。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 調べておく必要がある。",
+      "korean": "나라가 나라인 만큼 입국 전에 복장과 관습을 알아둘 필요가 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-018-16-p2",
-          "text": "だけに",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-018-16-p3",
-          "text": "病気を",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-018-16-p4",
-          "text": "すると",
+          "id": "so-created-n2-018-21-p3",
+          "text": "前に服装や",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-018-16-p1",
-          "text": "心配だ",
+          "id": "so-created-n2-018-21-p4",
+          "text": "習慣について",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-018-21-p1",
+          "text": "国が国",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-018-21-p2",
+          "text": "だけに、入国",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-018-16-p2",
-        "so-extra20-n2-018-16-p3",
-        "so-extra20-n2-018-16-p4",
-        "so-extra20-n2-018-16-p1"
+        "so-created-n2-018-21-p1",
+        "so-created-n2-018-21-p2",
+        "so-created-n2-018-21-p3",
+        "so-created-n2-018-21-p4"
       ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '나라가 나라인 만큼 입국 전에 복장과 관습을 알아둘 필요가 있다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
       "sourceGrammarIds": [
-        "n2-018"
+        "n2-018",
+        "n2-009",
+        "n2-010",
+        "n2-011"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-018-17",
+      "id": "so-created-n2-018-22",
       "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlanks": "母は今年93歳になった。今は元気だが、歳が歳 ____ ____ ____ ____",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
+      "sentence": "内容が内容だけに、その手紙は本人以外には見せられない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 見せられない。",
+      "korean": "내용이 내용인 만큼 그 편지는 본인 이외의 사람에게는 보여 줄 수 없다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-018-17-p1",
-          "text": "だけに",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-018-17-p2",
-          "text": "病気を",
+          "id": "so-created-n2-018-22-p2",
+          "text": "だけに、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-018-17-p3",
-          "text": "すると",
+          "id": "so-created-n2-018-22-p3",
+          "text": "その手紙は",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-018-17-p4",
-          "text": "心配だ",
+          "id": "so-created-n2-018-22-p4",
+          "text": "本人以外には",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-018-22-p1",
+          "text": "内容が内容",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-018-17-p1",
-        "so-extra20-n2-018-17-p2",
-        "so-extra20-n2-018-17-p3",
-        "so-extra20-n2-018-17-p4"
+        "so-created-n2-018-22-p1",
+        "so-created-n2-018-22-p2",
+        "so-created-n2-018-22-p3",
+        "so-created-n2-018-22-p4"
       ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '내용이 내용인 만큼 그 편지는 본인 이외의 사람에게는 보여 줄 수 없다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
       "sourceGrammarIds": [
-        "n2-018"
+        "n2-018",
+        "n2-009",
+        "n2-010",
+        "n2-011"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-018-18",
+      "id": "so-created-n2-018-23",
       "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、病気をすると心配だ。",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
+      "sentence": "相手国が相手国だけに、代表チームは守備を重視した布陣で試合に臨んだ。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 重視した布陣で試合に臨んだ。",
+      "korean": "상대국이 상대국인 만큼 대표팀은 수비를 중시한 진형으로 경기에 임했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-018-18-p4",
-          "text": "なった。今は元気だが歳が歳",
+          "id": "so-created-n2-018-23-p1",
+          "text": "相手国が相手",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-018-18-p1",
-          "text": "だけに",
+          "id": "so-created-n2-018-23-p2",
+          "text": "国だけに、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-018-18-p2",
-          "text": "病気を",
+          "id": "so-created-n2-018-23-p3",
+          "text": "代表チームは",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-018-18-p3",
-          "text": "すると",
+          "id": "so-created-n2-018-23-p4",
+          "text": "守備を",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-018-18-p4",
-        "so-extra20-n2-018-18-p1",
-        "so-extra20-n2-018-18-p2",
-        "so-extra20-n2-018-18-p3"
+        "so-created-n2-018-23-p1",
+        "so-created-n2-018-23-p2",
+        "so-created-n2-018-23-p3",
+        "so-created-n2-018-23-p4"
       ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '상대국이 상대국인 만큼 대표팀은 수비를 중시한 진형으로 경기에 임했다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
       "sourceGrammarIds": [
-        "n2-018"
+        "n2-018",
+        "n2-009",
+        "n2-010",
+        "n2-011"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-018-19",
+      "id": "so-created-n2-018-24",
       "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlanks": "母は今年93歳になった。今は元気だが、歳が歳 ____ ____ ____ ____",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
+      "sentence": "目的が目的だけに、寄付金の使い道は細かく公開されるべきだ。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 公開されるべきだ。",
+      "korean": "목적이 목적인 만큼 기부금의 사용처는 상세히 공개되어야 한다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-018-19-p3",
-          "text": "だけに",
+          "id": "so-created-n2-018-24-p4",
+          "text": "細かく",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-018-24-p1",
+          "text": "目的が目的",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-018-19-p4",
-          "text": "病気を",
+          "id": "so-created-n2-018-24-p2",
+          "text": "だけに、寄付",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-018-19-p1",
-          "text": "すると",
+          "id": "so-created-n2-018-24-p3",
+          "text": "金の使い道は",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-018-19-p2",
-          "text": "心配だ",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-018-19-p3",
-        "so-extra20-n2-018-19-p4",
-        "so-extra20-n2-018-19-p1",
-        "so-extra20-n2-018-19-p2"
+        "so-created-n2-018-24-p1",
+        "so-created-n2-018-24-p2",
+        "so-created-n2-018-24-p3",
+        "so-created-n2-018-24-p4"
       ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '목적이 목적인 만큼 기부금의 사용처는 상세히 공개되어야 한다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
       "sourceGrammarIds": [
-        "n2-018"
+        "n2-018",
+        "n2-009",
+        "n2-010",
+        "n2-011"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-018-20",
+      "id": "so-created-n2-018-25",
       "level": "N2",
-      "sentence": "母は今年93歳になった。今は元気だが、歳が歳だけに、病気をすると心配だ。",
-      "sentenceWithBlanks": "母は今年93歳になった。今は元気だが、歳が歳 ____ ____ ____ ____",
-      "korean": "어머니는 올해 93세다. 지금은 건강하지만 나이가 나이인 만큼 병에 걸리면 걱정된다.",
+      "sentence": "土地が土地だけに、地下室を造るには十分な湿気対策が求められる。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 対策が求められる。",
+      "korean": "땅이 땅인 만큼 지하실을 만들려면 충분한 습기 대책이 요구된다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-018-20-p2",
-          "text": "だけに",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-018-20-p3",
-          "text": "病気を",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-018-20-p4",
-          "text": "すると",
+          "id": "so-created-n2-018-25-p3",
+          "text": "地下室を造るには",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-018-20-p1",
-          "text": "心配だ",
+          "id": "so-created-n2-018-25-p4",
+          "text": "十分な湿気",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-018-25-p1",
+          "text": "土地が土地",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-018-25-p2",
+          "text": "だけに、",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-018-20-p2",
-        "so-extra20-n2-018-20-p3",
-        "so-extra20-n2-018-20-p4",
-        "so-extra20-n2-018-20-p1"
+        "so-created-n2-018-25-p1",
+        "so-created-n2-018-25-p2",
+        "so-created-n2-018-25-p3",
+        "so-created-n2-018-25-p4"
       ],
-      "explanation": "「が~だけに」는 ~가 ~인 만큼라는 뜻이다. 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐.",
+      "explanation": "「だけに」는 '~가 ~인 만큼'라는 뜻을 나타낸다. 이 문장에서는 '땅이 땅인 만큼 지하실을 만들려면 충분한 습기 대책이 요구된다.'라는 상황에 쓰였으며, 앞의 성질·상황 때문에 뒤 결과가 더 강하게 느껴짐. 주의할 점은 「歳が歳だけに」처럼 동일 명사 반복 패턴. 주로 나이·지위 등 상황 강조에 씀.",
       "sourceGrammarIds": [
-        "n2-018"
+        "n2-018",
+        "n2-009",
+        "n2-010",
+        "n2-011"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     }
   ]

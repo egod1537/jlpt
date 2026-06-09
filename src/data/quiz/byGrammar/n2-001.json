@@ -339,15 +339,23 @@
       ]
     },
     {
-      "id": "fb-extra-n2-001-1",
+      "id": "fb-created-n2-001-01",
       "level": "N2",
-      "sentence": "何度も話し合ったあげく、結局けんか別れになってしまった。",
-      "sentenceWithBlank": "何度も話し合った（　　　）、結局けんか別れになってしまった。",
-      "korean": "몇 번이나 의논한 끝에 결국 싸우고 헤어지고 말았다.",
-      "answerChoiceId": "fb-extra-n2-001-1-a",
+      "sentence": "複数の病院を回ったあげく、原因は分からないままだった。",
+      "sentenceWithBlank": "複数の病院を回った（　　　）、原因は分からないままだった。",
+      "korean": "여러 병원을 돌아다닌 끝에, 원인은 알 수 없는 채로 남았다.",
+      "answerChoiceId": "fb-created-n2-001-01-a",
       "choices": [
         {
-          "id": "fb-extra-n2-001-1-c",
+          "id": "fb-created-n2-001-01-b",
+          "text": "末に",
+          "grammarId": "n2-050",
+          "baseExpression": "すえに",
+          "conjugatedExpression": "末に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-001-01-c",
           "text": "ところで",
           "grammarId": "n2-059",
           "baseExpression": "たところで",
@@ -355,7 +363,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-001-1-d",
+          "id": "fb-created-n2-001-01-d",
           "text": "からには",
           "grammarId": "n2-003",
           "baseExpression": "以上は",
@@ -363,23 +371,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-001-1-a",
+          "id": "fb-created-n2-001-01-a",
           "text": "あげく",
           "grammarId": "n2-001",
           "baseExpression": "あげく",
           "conjugatedExpression": "あげく",
           "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-001-1-b",
-          "text": "末に",
-          "grammarId": "n2-050",
-          "baseExpression": "すえに",
-          "conjugatedExpression": "末に",
-          "isSimilarDistractor": true
         }
       ],
-      "explanation": "「あげく」は長い過程の末に、望ましくない結果になったことを表す。ここでは「けんか別れになってしまった」という悪い結果に自然につながる。",
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '여러 병원을 돌아다닌 끝에, 원인은 알 수 없는 채로 남았다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
       "sourceGrammarIds": [
         "n2-001",
         "n2-050",
@@ -389,28 +389,28 @@
       "tags": [
         "結果",
         "悪い結果",
-        "유사문법",
-        "추가생성"
-      ],
-      "sentenceContext": {
-        "requiredConnectionType": "V_PAST",
-        "semanticTags": [
-          "결과",
-          "나쁜 결과"
-        ],
-        "expectsBadResult": true
-      }
+        "신규예문",
+        "빈칸"
+      ]
     },
     {
-      "id": "fb-extra-n2-001-2",
+      "id": "fb-created-n2-001-02",
       "level": "N2",
-      "sentence": "太郎はお金のことや友人の問題でさんざん親に心配をかけたあげく、とうとう家を出てしまった。",
-      "sentenceWithBlank": "太郎はお金のことや友人の問題でさんざん親に心配をかけた（　　　）、とうとう家を出てしまった。",
-      "korean": "타로는 돈 문제와 친구 문제로 부모에게 실컷 걱정을 끼친 끝에, 결국 집을 나가 버렸다.",
-      "answerChoiceId": "fb-extra-n2-001-2-a",
+      "sentence": "候補の物件を半年も探したあげく、引っ越しそのものを諦めた。",
+      "sentenceWithBlank": "候補の物件を半年も探した（　　　）、引っ越しそのものを諦めた。",
+      "korean": "후보 매물을 반년이나 찾아본 끝에, 이사 자체를 포기했다.",
+      "answerChoiceId": "fb-created-n2-001-02-a",
       "choices": [
         {
-          "id": "fb-extra-n2-001-2-d",
+          "id": "fb-created-n2-001-02-c",
+          "text": "したところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "したところで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-001-02-d",
           "text": "するあまり",
           "grammarId": "n2-002",
           "baseExpression": "あまり",
@@ -418,7 +418,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-001-2-a",
+          "id": "fb-created-n2-001-02-a",
           "text": "あげく",
           "grammarId": "n2-001",
           "baseExpression": "あげく",
@@ -426,23 +426,15 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra-n2-001-2-b",
+          "id": "fb-created-n2-001-02-b",
           "text": "した末に",
           "grammarId": "n2-050",
           "baseExpression": "すえに",
           "conjugatedExpression": "した末に",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-001-2-c",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
-          "isSimilarDistractor": true
         }
       ],
-      "explanation": "「あげく」는 ~한 끝에, 결국 ~하고 말았다라는 뜻이다. 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '후보 매물을 반년이나 찾아본 끝에, 이사 자체를 포기했다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
       "sourceGrammarIds": [
         "n2-001",
         "n2-050",
@@ -452,21 +444,28 @@
       "tags": [
         "結果",
         "悪い結果",
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra-n2-001-3",
+      "id": "fb-created-n2-001-03",
       "level": "N2",
-      "sentence": "この問題については、長時間にわたる議論のあげく、結論は先送りされた。",
-      "sentenceWithBlank": "この問題については、長時間にわたる議論の（　　　）、結論は先送りされた。",
-      "korean": "이 문제는 장시간 논의 끝에 결론이 미뤄졌다.",
-      "answerChoiceId": "fb-extra-n2-001-3-d",
+      "sentence": "徹夜で資料を修正したあげく、提出期限を勘違いしていたことに気づいた。",
+      "sentenceWithBlank": "徹夜で資料を修正した（　　　）、提出期限を勘違いしていたことに気づいた。",
+      "korean": "밤을 새워 자료를 수정한 끝에, 제출 기한을 잘못 알고 있었다는 것을 깨달았다.",
+      "answerChoiceId": "fb-created-n2-001-03-d",
       "choices": [
         {
-          "id": "fb-extra-n2-001-3-a",
+          "id": "fb-created-n2-001-03-d",
+          "text": "あげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "あげく",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-001-03-a",
           "text": "した末に",
           "grammarId": "n2-050",
           "baseExpression": "すえに",
@@ -474,7 +473,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-001-3-b",
+          "id": "fb-created-n2-001-03-b",
           "text": "したところで",
           "grammarId": "n2-059",
           "baseExpression": "たところで",
@@ -482,23 +481,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-001-3-c",
+          "id": "fb-created-n2-001-03-c",
           "text": "するあまり",
           "grammarId": "n2-002",
           "baseExpression": "あまり",
           "conjugatedExpression": "するあまり",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-001-3-d",
-          "text": "あげく",
-          "grammarId": "n2-001",
-          "baseExpression": "あげく",
-          "conjugatedExpression": "あげく",
-          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「あげく」는 ~한 끝에, 결국 ~하고 말았다라는 뜻이다. 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '밤을 새워 자료를 수정한 끝에, 제출 기한을 잘못 알고 있었다는 것을 깨달았다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
       "sourceGrammarIds": [
         "n2-001",
         "n2-050",
@@ -508,29 +499,20 @@
       "tags": [
         "結果",
         "悪い結果",
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra-n2-001-4",
+      "id": "fb-created-n2-001-04",
       "level": "N2",
-      "sentence": "太郎はお金のことや友人の問題でさんざん親に心配をかけたあげく、とうとう家を出てしまった。",
-      "sentenceWithBlank": "太郎はお金のことや友人の問題でさんざん親に心配をかけた（　　　）、とうとう家を出てしまった。",
-      "korean": "타로는 돈 문제와 친구 문제로 부모에게 실컷 걱정을 끼친 끝에, 결국 집을 나가 버렸다.",
-      "answerChoiceId": "fb-extra-n2-001-4-c",
+      "sentence": "客との値段交渉を重ねたあげく、契約は白紙に戻された。",
+      "sentenceWithBlank": "客との値段交渉を重ねた（　　　）、契約は白紙に戻された。",
+      "korean": "고객과 가격 협상을 거듭한 끝에, 계약은 백지화되었다.",
+      "answerChoiceId": "fb-created-n2-001-04-a",
       "choices": [
         {
-          "id": "fb-extra-n2-001-4-b",
-          "text": "したあまり",
-          "grammarId": "n2-002",
-          "baseExpression": "あまり",
-          "conjugatedExpression": "したあまり",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-001-4-c",
+          "id": "fb-created-n2-001-04-a",
           "text": "あげく",
           "grammarId": "n2-001",
           "baseExpression": "あげく",
@@ -538,103 +520,15 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra-n2-001-4-d",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-001-4-a",
-          "text": "した末に",
+          "id": "fb-created-n2-001-04-b",
+          "text": "末に",
           "grammarId": "n2-050",
           "baseExpression": "すえに",
-          "conjugatedExpression": "した末に",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「あげく」는 ~한 끝에, 결국 ~하고 말았다라는 뜻이다. 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
-      "sourceGrammarIds": [
-        "n2-001",
-        "n2-059",
-        "n2-050",
-        "n2-002"
-      ],
-      "tags": [
-        "結果",
-        "悪い結果",
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-001-5",
-      "level": "N2",
-      "sentence": "この問題については、長時間にわたる議論のあげく、結論は先送りされた。",
-      "sentenceWithBlank": "この問題については、長時間にわたる議論の（　　　）、結論は先送りされた。",
-      "korean": "이 문제는 장시간 논의 끝에 결론이 미뤄졌다.",
-      "answerChoiceId": "fb-extra-n2-001-5-b",
-      "choices": [
-        {
-          "id": "fb-extra-n2-001-5-c",
-          "text": "議論の末に",
-          "grammarId": "n2-050",
-          "baseExpression": "すえに",
-          "conjugatedExpression": "議論の末に",
+          "conjugatedExpression": "末に",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-001-5-d",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-001-5-a",
-          "text": "するあまり",
-          "grammarId": "n2-002",
-          "baseExpression": "あまり",
-          "conjugatedExpression": "するあまり",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-001-5-b",
-          "text": "あげく",
-          "grammarId": "n2-001",
-          "baseExpression": "あげく",
-          "conjugatedExpression": "あげく",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「あげく」는 ~한 끝에, 결국 ~하고 말았다라는 뜻이다. 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
-      "sourceGrammarIds": [
-        "n2-001",
-        "n2-050",
-        "n2-059",
-        "n2-002"
-      ],
-      "tags": [
-        "結果",
-        "悪い結果",
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-001-01",
-      "level": "N2",
-      "sentence": "何度も話し合ったあげく、結局けんか別れになってしまった。",
-      "sentenceWithBlank": "何度も話し合った（　　　）、結局けんか別れになってしまった。",
-      "korean": "몇 번이나 의논한 끝에 결국 싸우고 헤어지고 말았다.",
-      "answerChoiceId": "fb-extra20-n2-001-01-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-001-01-c",
+          "id": "fb-created-n2-001-04-c",
           "text": "ところで",
           "grammarId": "n2-059",
           "baseExpression": "たところで",
@@ -642,31 +536,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-001-01-d",
+          "id": "fb-created-n2-001-04-d",
           "text": "からには",
           "grammarId": "n2-003",
           "baseExpression": "以上は",
           "conjugatedExpression": "からには",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-001-01-a",
-          "text": "あげく",
-          "grammarId": "n2-001",
-          "baseExpression": "あげく",
-          "conjugatedExpression": "あげく",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-001-01-b",
-          "text": "末に",
-          "grammarId": "n2-050",
-          "baseExpression": "すえに",
-          "conjugatedExpression": "末に",
-          "isSimilarDistractor": true
         }
       ],
-      "explanation": "「あげく」は長い過程の末に、望ましくない結果になったことを表す。ここでは「けんか別れになってしまった」という悪い結果に自然につながる。",
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '고객과 가격 협상을 거듭한 끝에, 계약은 백지화되었다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
       "sourceGrammarIds": [
         "n2-001",
         "n2-050",
@@ -676,28 +554,20 @@
       "tags": [
         "結果",
         "悪い結果",
-        "유사문법",
-        "20개추가생성"
-      ],
-      "sentenceContext": {
-        "requiredConnectionType": "V_PAST",
-        "semanticTags": [
-          "결과",
-          "나쁜 결과"
-        ],
-        "expectsBadResult": true
-      }
+        "신규예문",
+        "빈칸"
+      ]
     },
     {
-      "id": "fb-extra20-n2-001-02",
+      "id": "fb-created-n2-001-05",
       "level": "N2",
-      "sentence": "太郎はお金のことや友人の問題でさんざん親に心配をかけたあげく、とうとう家を出てしまった。",
-      "sentenceWithBlank": "太郎はお金のことや友人の問題でさんざん親に心配をかけた（　　　）、とうとう家を出てしまった。",
-      "korean": "타로는 돈 문제와 친구 문제로 부모에게 실컷 걱정을 끼친 끝에, 결국 집을 나가 버렸다.",
-      "answerChoiceId": "fb-extra20-n2-001-02-a",
+      "sentence": "迷いながら山道を進んだあげく、日が暮れて動けなくなった。",
+      "sentenceWithBlank": "迷いながら山道を進んだ（　　　）、日が暮れて動けなくなった。",
+      "korean": "헤매면서 산길을 나아간 끝에, 날이 저물어 움직일 수 없게 되었다.",
+      "answerChoiceId": "fb-created-n2-001-05-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-001-02-b",
+          "id": "fb-created-n2-001-05-b",
           "text": "した末に",
           "grammarId": "n2-050",
           "baseExpression": "すえに",
@@ -705,7 +575,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-001-02-c",
+          "id": "fb-created-n2-001-05-c",
           "text": "したところで",
           "grammarId": "n2-059",
           "baseExpression": "たところで",
@@ -713,7 +583,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-001-02-d",
+          "id": "fb-created-n2-001-05-d",
           "text": "するあまり",
           "grammarId": "n2-002",
           "baseExpression": "あまり",
@@ -721,7 +591,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-001-02-a",
+          "id": "fb-created-n2-001-05-a",
           "text": "あげく",
           "grammarId": "n2-001",
           "baseExpression": "あげく",
@@ -729,7 +599,7 @@
           "isSimilarDistractor": false
         }
       ],
-      "explanation": "「あげく」는 ~한 끝에, 결국 ~하고 말았다라는 뜻이다. 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '헤매면서 산길을 나아간 끝에, 날이 저물어 움직일 수 없게 되었다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
       "sourceGrammarIds": [
         "n2-001",
         "n2-050",
@@ -739,37 +609,20 @@
       "tags": [
         "結果",
         "悪い結果",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-001-03",
+      "id": "fb-created-n2-001-06",
       "level": "N2",
-      "sentence": "この問題については、長時間にわたる議論のあげく、結論は先送りされた。",
-      "sentenceWithBlank": "この問題については、長時間にわたる議論の（　　　）、結論は先送りされた。",
-      "korean": "이 문제는 장시간 논의 끝에 결론이 미뤄졌다.",
-      "answerChoiceId": "fb-extra20-n2-001-03-d",
+      "sentence": "兄は怪しい投資話を信じたあげく、退職金の大半を失った。",
+      "sentenceWithBlank": "兄は怪しい投資話を信じた（　　　）、退職金の大半を失った。",
+      "korean": "형은 수상한 투자 이야기를 믿은 끝에, 퇴직금 대부분을 잃었다.",
+      "answerChoiceId": "fb-created-n2-001-06-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-001-03-a",
-          "text": "した末に",
-          "grammarId": "n2-050",
-          "baseExpression": "すえに",
-          "conjugatedExpression": "した末に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-001-03-b",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-001-03-c",
+          "id": "fb-created-n2-001-06-c",
           "text": "するあまり",
           "grammarId": "n2-002",
           "baseExpression": "あまり",
@@ -777,47 +630,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-001-03-d",
+          "id": "fb-created-n2-001-06-d",
           "text": "あげく",
           "grammarId": "n2-001",
           "baseExpression": "あげく",
           "conjugatedExpression": "あげく",
           "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「あげく」는 ~한 끝에, 결국 ~하고 말았다라는 뜻이다. 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
-      "sourceGrammarIds": [
-        "n2-001",
-        "n2-050",
-        "n2-059",
-        "n2-002"
-      ],
-      "tags": [
-        "結果",
-        "悪い結果",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-001-04",
-      "level": "N2",
-      "sentence": "太郎はお金のことや友人の問題でさんざん親に心配をかけたあげく、とうとう家を出てしまった。",
-      "sentenceWithBlank": "太郎はお金のことや友人の問題でさんざん親に心配をかけた（　　　）、とうとう家を出てしまった。",
-      "korean": "타로는 돈 문제와 친구 문제로 부모에게 실컷 걱정을 끼친 끝에, 결국 집을 나가 버렸다.",
-      "answerChoiceId": "fb-extra20-n2-001-04-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-001-04-d",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
-          "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-001-04-a",
+          "id": "fb-created-n2-001-06-a",
           "text": "した末に",
           "grammarId": "n2-050",
           "baseExpression": "すえに",
@@ -825,79 +646,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-001-04-b",
-          "text": "したあまり",
-          "grammarId": "n2-002",
-          "baseExpression": "あまり",
-          "conjugatedExpression": "したあまり",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-001-04-c",
-          "text": "あげく",
-          "grammarId": "n2-001",
-          "baseExpression": "あげく",
-          "conjugatedExpression": "あげく",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「あげく」는 ~한 끝에, 결국 ~하고 말았다라는 뜻이다. 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
-      "sourceGrammarIds": [
-        "n2-001",
-        "n2-059",
-        "n2-050",
-        "n2-002"
-      ],
-      "tags": [
-        "結果",
-        "悪い結果",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-001-05",
-      "level": "N2",
-      "sentence": "この問題については、長時間にわたる議論のあげく、結論は先送りされた。",
-      "sentenceWithBlank": "この問題については、長時間にわたる議論の（　　　）、結論は先送りされた。",
-      "korean": "이 문제는 장시간 논의 끝에 결론이 미뤄졌다.",
-      "answerChoiceId": "fb-extra20-n2-001-05-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-001-05-c",
-          "text": "議論の末に",
-          "grammarId": "n2-050",
-          "baseExpression": "すえに",
-          "conjugatedExpression": "議論の末に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-001-05-d",
+          "id": "fb-created-n2-001-06-b",
           "text": "したところで",
           "grammarId": "n2-059",
           "baseExpression": "たところで",
           "conjugatedExpression": "したところで",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-001-05-a",
-          "text": "するあまり",
-          "grammarId": "n2-002",
-          "baseExpression": "あまり",
-          "conjugatedExpression": "するあまり",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-001-05-b",
-          "text": "あげく",
-          "grammarId": "n2-001",
-          "baseExpression": "あげく",
-          "conjugatedExpression": "あげく",
-          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「あげく」는 ~한 끝에, 결국 ~하고 말았다라는 뜻이다. 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '형은 수상한 투자 이야기를 믿은 끝에, 퇴직금 대부분을 잃었다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
       "sourceGrammarIds": [
         "n2-001",
         "n2-050",
@@ -907,77 +664,28 @@
       "tags": [
         "結果",
         "悪い結果",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-001-06",
+      "id": "fb-created-n2-001-07",
       "level": "N2",
-      "sentence": "太郎はお金のことや友人の問題でさんざん親に心配をかけたあげく、とうとう家を出てしまった。",
-      "sentenceWithBlank": "太郎はお金のことや友人の問題でさんざん親に心配をかけた（　　　）、とうとう家を出てしまった。",
-      "korean": "타로는 돈 문제와 친구 문제로 부모에게 실컷 걱정을 끼친 끝에, 결국 집을 나가 버렸다.",
-      "answerChoiceId": "fb-extra20-n2-001-06-a",
+      "sentence": "店長は人手不足を放置したあげく、繁忙期に三人も辞められた。",
+      "sentenceWithBlank": "店長は人手不足を放置した（　　　）、繁忙期に三人も辞められた。",
+      "korean": "점장은 인력 부족을 방치한 끝에, 성수기에 세 명이나 그만두게 만들었다.",
+      "answerChoiceId": "fb-created-n2-001-07-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-001-06-b",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
+          "id": "fb-created-n2-001-07-d",
+          "text": "からには",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "からには",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-001-06-c",
-          "text": "した末に",
-          "grammarId": "n2-050",
-          "baseExpression": "すえに",
-          "conjugatedExpression": "した末に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-001-06-d",
-          "text": "したあまり",
-          "grammarId": "n2-002",
-          "baseExpression": "あまり",
-          "conjugatedExpression": "したあまり",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-001-06-a",
-          "text": "あげく",
-          "grammarId": "n2-001",
-          "baseExpression": "あげく",
-          "conjugatedExpression": "あげく",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「あげく」는 ~한 끝에, 결국 ~하고 말았다라는 뜻이다. 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
-      "sourceGrammarIds": [
-        "n2-001",
-        "n2-059",
-        "n2-050",
-        "n2-002"
-      ],
-      "tags": [
-        "結果",
-        "悪い結果",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-001-07",
-      "level": "N2",
-      "sentence": "何度も話し合ったあげく、結局けんか別れになってしまった。",
-      "sentenceWithBlank": "何度も話し合った（　　　）、結局けんか別れになってしまった。",
-      "korean": "몇 번이나 의논한 끝에 결국 싸우고 헤어지고 말았다.",
-      "answerChoiceId": "fb-extra20-n2-001-07-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-001-07-a",
+          "id": "fb-created-n2-001-07-a",
           "text": "あげく",
           "grammarId": "n2-001",
           "baseExpression": "あげく",
@@ -985,7 +693,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-001-07-b",
+          "id": "fb-created-n2-001-07-b",
           "text": "末に",
           "grammarId": "n2-050",
           "baseExpression": "すえに",
@@ -993,23 +701,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-001-07-c",
+          "id": "fb-created-n2-001-07-c",
           "text": "ところで",
           "grammarId": "n2-059",
           "baseExpression": "たところで",
           "conjugatedExpression": "ところで",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-001-07-d",
-          "text": "からには",
-          "grammarId": "n2-003",
-          "baseExpression": "以上は",
-          "conjugatedExpression": "からには",
-          "isSimilarDistractor": true
         }
       ],
-      "explanation": "「あげく」は長い過程の末に、望ましくない結果になったことを表す。ここでは「けんか別れになってしまった」という悪い結果に自然につながる。",
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '점장은 인력 부족을 방치한 끝에, 성수기에 세 명이나 그만두게 만들었다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
       "sourceGrammarIds": [
         "n2-001",
         "n2-050",
@@ -1019,28 +719,83 @@
       "tags": [
         "結果",
         "悪い結果",
-        "유사문법",
-        "20개추가생성"
-      ],
-      "sentenceContext": {
-        "requiredConnectionType": "V_PAST",
-        "semanticTags": [
-          "결과",
-          "나쁜 결과"
-        ],
-        "expectsBadResult": true
-      }
+        "신규예문",
+        "빈칸"
+      ]
     },
     {
-      "id": "fb-extra20-n2-001-08",
+      "id": "fb-created-n2-001-08",
       "level": "N2",
-      "sentence": "太郎はお金のことや友人の問題でさんざん親に心配をかけたあげく、とうとう家を出てしまった。",
-      "sentenceWithBlank": "太郎はお金のことや友人の問題でさんざん親に心配をかけた（　　　）、とうとう家を出てしまった。",
-      "korean": "타로는 돈 문제와 친구 문제로 부모에게 실컷 걱정을 끼친 끝에, 결국 집을 나가 버렸다.",
-      "answerChoiceId": "fb-extra20-n2-001-08-a",
+      "sentence": "隣人は深夜まで騒音を出し続けたあげく、管理会社から退去を求められた。",
+      "sentenceWithBlank": "隣人は深夜まで騒音を出し続けた（　　　）、管理会社から退去を求められた。",
+      "korean": "이웃은 심야까지 계속 소음을 낸 끝에, 관리 회사로부터 퇴거를 요구받았다.",
+      "answerChoiceId": "fb-created-n2-001-08-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-001-08-d",
+          "id": "fb-created-n2-001-08-a",
+          "text": "あげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "あげく",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-001-08-b",
+          "text": "した末に",
+          "grammarId": "n2-050",
+          "baseExpression": "すえに",
+          "conjugatedExpression": "した末に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-001-08-c",
+          "text": "したところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "したところで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-001-08-d",
+          "text": "するあまり",
+          "grammarId": "n2-002",
+          "baseExpression": "あまり",
+          "conjugatedExpression": "するあまり",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '이웃은 심야까지 계속 소음을 낸 끝에, 관리 회사로부터 퇴거를 요구받았다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
+      "sourceGrammarIds": [
+        "n2-001",
+        "n2-050",
+        "n2-059",
+        "n2-002"
+      ],
+      "tags": [
+        "結果",
+        "悪い結果",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-001-09",
+      "level": "N2",
+      "sentence": "父は壊れた時計を何度も分解したあげく、元に戻せなくなった。",
+      "sentenceWithBlank": "父は壊れた時計を何度も分解した（　　　）、元に戻せなくなった。",
+      "korean": "아버지는 고장 난 시계를 몇 번이나 분해한 끝에, 원래대로 되돌리지 못하게 되었다.",
+      "answerChoiceId": "fb-created-n2-001-09-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-001-09-b",
+          "text": "したところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "したところで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-001-09-c",
           "text": "するあまり",
           "grammarId": "n2-002",
           "baseExpression": "あまり",
@@ -1048,7 +803,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-001-08-a",
+          "id": "fb-created-n2-001-09-d",
           "text": "あげく",
           "grammarId": "n2-001",
           "baseExpression": "あげく",
@@ -1056,127 +811,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-001-08-b",
-          "text": "した末に",
-          "grammarId": "n2-050",
-          "baseExpression": "すえに",
-          "conjugatedExpression": "した末に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-001-08-c",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「あげく」는 ~한 끝에, 결국 ~하고 말았다라는 뜻이다. 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
-      "sourceGrammarIds": [
-        "n2-001",
-        "n2-050",
-        "n2-059",
-        "n2-002"
-      ],
-      "tags": [
-        "結果",
-        "悪い結果",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-001-09",
-      "level": "N2",
-      "sentence": "この問題については、長時間にわたる議論のあげく、結論は先送りされた。",
-      "sentenceWithBlank": "この問題については、長時間にわたる議論の（　　　）、結論は先送りされた。",
-      "korean": "이 문제는 장시간 논의 끝에 결론이 미뤄졌다.",
-      "answerChoiceId": "fb-extra20-n2-001-09-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-001-09-c",
-          "text": "するあまり",
-          "grammarId": "n2-002",
-          "baseExpression": "あまり",
-          "conjugatedExpression": "するあまり",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-001-09-d",
-          "text": "あげく",
-          "grammarId": "n2-001",
-          "baseExpression": "あげく",
-          "conjugatedExpression": "あげく",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-001-09-a",
-          "text": "した末に",
-          "grammarId": "n2-050",
-          "baseExpression": "すえに",
-          "conjugatedExpression": "した末に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-001-09-b",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「あげく」는 ~한 끝에, 결국 ~하고 말았다라는 뜻이다. 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
-      "sourceGrammarIds": [
-        "n2-001",
-        "n2-050",
-        "n2-059",
-        "n2-002"
-      ],
-      "tags": [
-        "結果",
-        "悪い結果",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-001-10",
-      "level": "N2",
-      "sentence": "太郎はお金のことや友人の問題でさんざん親に心配をかけたあげく、とうとう家を出てしまった。",
-      "sentenceWithBlank": "太郎はお金のことや友人の問題でさんざん親に心配をかけた（　　　）、とうとう家を出てしまった。",
-      "korean": "타로는 돈 문제와 친구 문제로 부모에게 실컷 걱정을 끼친 끝에, 결국 집을 나가 버렸다.",
-      "answerChoiceId": "fb-extra20-n2-001-10-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-001-10-b",
-          "text": "したあまり",
-          "grammarId": "n2-002",
-          "baseExpression": "あまり",
-          "conjugatedExpression": "したあまり",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-001-10-c",
-          "text": "あげく",
-          "grammarId": "n2-001",
-          "baseExpression": "あげく",
-          "conjugatedExpression": "あげく",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-001-10-d",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-001-10-a",
+          "id": "fb-created-n2-001-09-a",
           "text": "した末に",
           "grammarId": "n2-050",
           "baseExpression": "すえに",
@@ -1184,63 +819,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「あげく」는 ~한 끝에, 결국 ~하고 말았다라는 뜻이다. 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
-      "sourceGrammarIds": [
-        "n2-001",
-        "n2-059",
-        "n2-050",
-        "n2-002"
-      ],
-      "tags": [
-        "結果",
-        "悪い結果",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-001-11",
-      "level": "N2",
-      "sentence": "この問題については、長時間にわたる議論のあげく、結論は先送りされた。",
-      "sentenceWithBlank": "この問題については、長時間にわたる議論の（　　　）、結論は先送りされた。",
-      "korean": "이 문제는 장시간 논의 끝에 결론이 미뤄졌다.",
-      "answerChoiceId": "fb-extra20-n2-001-11-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-001-11-a",
-          "text": "するあまり",
-          "grammarId": "n2-002",
-          "baseExpression": "あまり",
-          "conjugatedExpression": "するあまり",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-001-11-b",
-          "text": "あげく",
-          "grammarId": "n2-001",
-          "baseExpression": "あげく",
-          "conjugatedExpression": "あげく",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-001-11-c",
-          "text": "議論の末に",
-          "grammarId": "n2-050",
-          "baseExpression": "すえに",
-          "conjugatedExpression": "議論の末に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-001-11-d",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「あげく」는 ~한 끝에, 결국 ~하고 말았다라는 뜻이다. 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '아버지는 고장 난 시계를 몇 번이나 분해한 끝에, 원래대로 되돌리지 못하게 되었다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
       "sourceGrammarIds": [
         "n2-001",
         "n2-050",
@@ -1250,77 +829,20 @@
       "tags": [
         "結果",
         "悪い結果",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-001-12",
+      "id": "fb-created-n2-001-10",
       "level": "N2",
-      "sentence": "太郎はお金のことや友人の問題でさんざん親に心配をかけたあげく、とうとう家を出てしまった。",
-      "sentenceWithBlank": "太郎はお金のことや友人の問題でさんざん親に心配をかけた（　　　）、とうとう家を出てしまった。",
-      "korean": "타로는 돈 문제와 친구 문제로 부모에게 실컷 걱정을 끼친 끝에, 결국 집을 나가 버렸다.",
-      "answerChoiceId": "fb-extra20-n2-001-12-a",
+      "sentence": "配送業者の手違いが続いたあげく、冷凍食品はすべて傷んでしまった。",
+      "sentenceWithBlank": "配送業者の手違いが続いた（　　　）、冷凍食品はすべて傷んでしまった。",
+      "korean": "배송 업체의 실수가 계속된 끝에, 냉동식품은 전부 상하고 말았다.",
+      "answerChoiceId": "fb-created-n2-001-10-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-001-12-d",
-          "text": "したあまり",
-          "grammarId": "n2-002",
-          "baseExpression": "あまり",
-          "conjugatedExpression": "したあまり",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-001-12-a",
-          "text": "あげく",
-          "grammarId": "n2-001",
-          "baseExpression": "あげく",
-          "conjugatedExpression": "あげく",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-001-12-b",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-001-12-c",
-          "text": "した末に",
-          "grammarId": "n2-050",
-          "baseExpression": "すえに",
-          "conjugatedExpression": "した末に",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「あげく」는 ~한 끝에, 결국 ~하고 말았다라는 뜻이다. 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
-      "sourceGrammarIds": [
-        "n2-001",
-        "n2-059",
-        "n2-050",
-        "n2-002"
-      ],
-      "tags": [
-        "結果",
-        "悪い結果",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-001-13",
-      "level": "N2",
-      "sentence": "何度も話し合ったあげく、結局けんか別れになってしまった。",
-      "sentenceWithBlank": "何度も話し合った（　　　）、結局けんか別れになってしまった。",
-      "korean": "몇 번이나 의논한 끝에 결국 싸우고 헤어지고 말았다.",
-      "answerChoiceId": "fb-extra20-n2-001-13-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-001-13-c",
+          "id": "fb-created-n2-001-10-c",
           "text": "ところで",
           "grammarId": "n2-059",
           "baseExpression": "たところで",
@@ -1328,7 +850,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-001-13-d",
+          "id": "fb-created-n2-001-10-d",
           "text": "からには",
           "grammarId": "n2-003",
           "baseExpression": "以上は",
@@ -1336,7 +858,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-001-13-a",
+          "id": "fb-created-n2-001-10-a",
           "text": "あげく",
           "grammarId": "n2-001",
           "baseExpression": "あげく",
@@ -1344,7 +866,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-001-13-b",
+          "id": "fb-created-n2-001-10-b",
           "text": "末に",
           "grammarId": "n2-050",
           "baseExpression": "すえに",
@@ -1352,7 +874,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「あげく」は長い過程の末に、望ましくない結果になったことを表す。ここでは「けんか別れになってしまった」という悪い結果に自然につながる。",
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '배송 업체의 실수가 계속된 끝에, 냉동식품은 전부 상하고 말았다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
       "sourceGrammarIds": [
         "n2-001",
         "n2-050",
@@ -1362,44 +884,20 @@
       "tags": [
         "結果",
         "悪い結果",
-        "유사문법",
-        "20개추가생성"
-      ],
-      "sentenceContext": {
-        "requiredConnectionType": "V_PAST",
-        "semanticTags": [
-          "결과",
-          "나쁜 결과"
-        ],
-        "expectsBadResult": true
-      }
+        "신규예문",
+        "빈칸"
+      ]
     },
     {
-      "id": "fb-extra20-n2-001-14",
+      "id": "fb-created-n2-001-11",
       "level": "N2",
-      "sentence": "太郎はお金のことや友人の問題でさんざん親に心配をかけたあげく、とうとう家を出てしまった。",
-      "sentenceWithBlank": "太郎はお金のことや友人の問題でさんざん親に心配をかけた（　　　）、とうとう家を出てしまった。",
-      "korean": "타로는 돈 문제와 친구 문제로 부모에게 실컷 걱정을 끼친 끝에, 결국 집을 나가 버렸다.",
-      "answerChoiceId": "fb-extra20-n2-001-14-a",
+      "sentence": "彼女は恋人の行動を疑い続けたあげく、何の証拠もなく別れを告げた。",
+      "sentenceWithBlank": "彼女は恋人の行動を疑い続けた（　　　）、何の証拠もなく別れを告げた。",
+      "korean": "그녀는 연인의 행동을 계속 의심한 끝에, 아무 증거도 없이 이별을 통보했다.",
+      "answerChoiceId": "fb-created-n2-001-11-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-001-14-b",
-          "text": "した末に",
-          "grammarId": "n2-050",
-          "baseExpression": "すえに",
-          "conjugatedExpression": "した末に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-001-14-c",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-001-14-d",
+          "id": "fb-created-n2-001-11-d",
           "text": "するあまり",
           "grammarId": "n2-002",
           "baseExpression": "あまり",
@@ -1407,15 +905,31 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-001-14-a",
+          "id": "fb-created-n2-001-11-a",
           "text": "あげく",
           "grammarId": "n2-001",
           "baseExpression": "あげく",
           "conjugatedExpression": "あげく",
           "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-001-11-b",
+          "text": "した末に",
+          "grammarId": "n2-050",
+          "baseExpression": "すえに",
+          "conjugatedExpression": "した末に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-001-11-c",
+          "text": "したところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "したところで",
+          "isSimilarDistractor": true
         }
       ],
-      "explanation": "「あげく」는 ~한 끝에, 결국 ~하고 말았다라는 뜻이다. 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '그녀는 연인의 행동을 계속 의심한 끝에, 아무 증거도 없이 이별을 통보했다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
       "sourceGrammarIds": [
         "n2-001",
         "n2-050",
@@ -1425,21 +939,20 @@
       "tags": [
         "結果",
         "悪い結果",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-001-15",
+      "id": "fb-created-n2-001-12",
       "level": "N2",
-      "sentence": "この問題については、長時間にわたる議論のあげく、結論は先送りされた。",
-      "sentenceWithBlank": "この問題については、長時間にわたる議論の（　　　）、結論は先送りされた。",
-      "korean": "이 문제는 장시간 논의 끝에 결론이 미뤄졌다.",
-      "answerChoiceId": "fb-extra20-n2-001-15-d",
+      "sentence": "市は古い橋の補修を先延ばしにしたあげく、全面通行止めにせざるを得なくなった。",
+      "sentenceWithBlank": "市は古い橋の補修を先延ばしにした（　　　）、全面通行止めにせざるを得なくなった。",
+      "korean": "시는 낡은 다리의 보수를 미룬 끝에, 전면 통행 금지를 할 수밖에 없게 되었다.",
+      "answerChoiceId": "fb-created-n2-001-12-d",
       "choices": [
         {
-          "id": "fb-extra20-n2-001-15-a",
+          "id": "fb-created-n2-001-12-a",
           "text": "した末に",
           "grammarId": "n2-050",
           "baseExpression": "すえに",
@@ -1447,7 +960,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-001-15-b",
+          "id": "fb-created-n2-001-12-b",
           "text": "したところで",
           "grammarId": "n2-059",
           "baseExpression": "たところで",
@@ -1455,7 +968,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-001-15-c",
+          "id": "fb-created-n2-001-12-c",
           "text": "するあまり",
           "grammarId": "n2-002",
           "baseExpression": "あまり",
@@ -1463,7 +976,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-001-15-d",
+          "id": "fb-created-n2-001-12-d",
           "text": "あげく",
           "grammarId": "n2-001",
           "baseExpression": "あげく",
@@ -1471,7 +984,7 @@
           "isSimilarDistractor": false
         }
       ],
-      "explanation": "「あげく」는 ~한 끝에, 결국 ~하고 말았다라는 뜻이다. 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '시는 낡은 다리의 보수를 미룬 끝에, 전면 통행 금지를 할 수밖에 없게 되었다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
       "sourceGrammarIds": [
         "n2-001",
         "n2-050",
@@ -1481,197 +994,20 @@
       "tags": [
         "結果",
         "悪い結果",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-001-16",
+      "id": "fb-created-n2-001-13",
       "level": "N2",
-      "sentence": "太郎はお金のことや友人の問題でさんざん親に心配をかけたあげく、とうとう家を出てしまった。",
-      "sentenceWithBlank": "太郎はお金のことや友人の問題でさんざん親に心配をかけた（　　　）、とうとう家を出てしまった。",
-      "korean": "타로는 돈 문제와 친구 문제로 부모에게 실컷 걱정을 끼친 끝에, 결국 집을 나가 버렸다.",
-      "answerChoiceId": "fb-extra20-n2-001-16-c",
+      "sentence": "農家は害虫への対策に追われたあげく、収穫の時期まで逃してしまった。",
+      "sentenceWithBlank": "農家は害虫への対策に追われた（　　　）、収穫の時期まで逃してしまった。",
+      "korean": "농가는 해충 대책에 쫓긴 끝에, 수확 시기마저 놓치고 말았다.",
+      "answerChoiceId": "fb-created-n2-001-13-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-001-16-d",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-001-16-a",
-          "text": "した末に",
-          "grammarId": "n2-050",
-          "baseExpression": "すえに",
-          "conjugatedExpression": "した末に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-001-16-b",
-          "text": "したあまり",
-          "grammarId": "n2-002",
-          "baseExpression": "あまり",
-          "conjugatedExpression": "したあまり",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-001-16-c",
-          "text": "あげく",
-          "grammarId": "n2-001",
-          "baseExpression": "あげく",
-          "conjugatedExpression": "あげく",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「あげく」는 ~한 끝에, 결국 ~하고 말았다라는 뜻이다. 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
-      "sourceGrammarIds": [
-        "n2-001",
-        "n2-059",
-        "n2-050",
-        "n2-002"
-      ],
-      "tags": [
-        "結果",
-        "悪い結果",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-001-17",
-      "level": "N2",
-      "sentence": "この問題については、長時間にわたる議論のあげく、結論は先送りされた。",
-      "sentenceWithBlank": "この問題については、長時間にわたる議論の（　　　）、結論は先送りされた。",
-      "korean": "이 문제는 장시간 논의 끝에 결론이 미뤄졌다.",
-      "answerChoiceId": "fb-extra20-n2-001-17-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-001-17-c",
-          "text": "議論の末に",
-          "grammarId": "n2-050",
-          "baseExpression": "すえに",
-          "conjugatedExpression": "議論の末に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-001-17-d",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-001-17-a",
-          "text": "するあまり",
-          "grammarId": "n2-002",
-          "baseExpression": "あまり",
-          "conjugatedExpression": "するあまり",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-001-17-b",
-          "text": "あげく",
-          "grammarId": "n2-001",
-          "baseExpression": "あげく",
-          "conjugatedExpression": "あげく",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「あげく」는 ~한 끝에, 결국 ~하고 말았다라는 뜻이다. 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
-      "sourceGrammarIds": [
-        "n2-001",
-        "n2-050",
-        "n2-059",
-        "n2-002"
-      ],
-      "tags": [
-        "結果",
-        "悪い結果",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-001-18",
-      "level": "N2",
-      "sentence": "太郎はお金のことや友人の問題でさんざん親に心配をかけたあげく、とうとう家を出てしまった。",
-      "sentenceWithBlank": "太郎はお金のことや友人の問題でさんざん親に心配をかけた（　　　）、とうとう家を出てしまった。",
-      "korean": "타로는 돈 문제와 친구 문제로 부모에게 실컷 걱정을 끼친 끝에, 결국 집을 나가 버렸다.",
-      "answerChoiceId": "fb-extra20-n2-001-18-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-001-18-b",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-001-18-c",
-          "text": "した末に",
-          "grammarId": "n2-050",
-          "baseExpression": "すえに",
-          "conjugatedExpression": "した末に",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-001-18-d",
-          "text": "したあまり",
-          "grammarId": "n2-002",
-          "baseExpression": "あまり",
-          "conjugatedExpression": "したあまり",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-001-18-a",
-          "text": "あげく",
-          "grammarId": "n2-001",
-          "baseExpression": "あげく",
-          "conjugatedExpression": "あげく",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「あげく」는 ~한 끝에, 결국 ~하고 말았다라는 뜻이다. 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
-      "sourceGrammarIds": [
-        "n2-001",
-        "n2-059",
-        "n2-050",
-        "n2-002"
-      ],
-      "tags": [
-        "結果",
-        "悪い結果",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-001-19",
-      "level": "N2",
-      "sentence": "何度も話し合ったあげく、結局けんか別れになってしまった。",
-      "sentenceWithBlank": "何度も話し合った（　　　）、結局けんか別れになってしまった。",
-      "korean": "몇 번이나 의논한 끝에 결국 싸우고 헤어지고 말았다.",
-      "answerChoiceId": "fb-extra20-n2-001-19-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-001-19-a",
-          "text": "あげく",
-          "grammarId": "n2-001",
-          "baseExpression": "あげく",
-          "conjugatedExpression": "あげく",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-001-19-b",
+          "id": "fb-created-n2-001-13-b",
           "text": "末に",
           "grammarId": "n2-050",
           "baseExpression": "すえに",
@@ -1679,7 +1015,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-001-19-c",
+          "id": "fb-created-n2-001-13-c",
           "text": "ところで",
           "grammarId": "n2-059",
           "baseExpression": "たところで",
@@ -1687,15 +1023,23 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-001-19-d",
+          "id": "fb-created-n2-001-13-d",
           "text": "からには",
           "grammarId": "n2-003",
           "baseExpression": "以上は",
           "conjugatedExpression": "からには",
           "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-001-13-a",
+          "text": "あげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "あげく",
+          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「あげく」は長い過程の末に、望ましくない結果になったことを表す。ここでは「けんか別れになってしまった」という悪い結果に自然につながる。",
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '농가는 해충 대책에 쫓긴 끝에, 수확 시기마저 놓치고 말았다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
       "sourceGrammarIds": [
         "n2-001",
         "n2-050",
@@ -1705,28 +1049,28 @@
       "tags": [
         "結果",
         "悪い結果",
-        "유사문법",
-        "20개추가생성"
-      ],
-      "sentenceContext": {
-        "requiredConnectionType": "V_PAST",
-        "semanticTags": [
-          "결과",
-          "나쁜 결과"
-        ],
-        "expectsBadResult": true
-      }
+        "신규예문",
+        "빈칸"
+      ]
     },
     {
-      "id": "fb-extra20-n2-001-20",
+      "id": "fb-created-n2-001-14",
       "level": "N2",
-      "sentence": "太郎はお金のことや友人の問題でさんざん親に心配をかけたあげく、とうとう家を出てしまった。",
-      "sentenceWithBlank": "太郎はお金のことや友人の問題でさんざん親に心配をかけた（　　　）、とうとう家を出てしまった。",
-      "korean": "타로는 돈 문제와 친구 문제로 부모에게 실컷 걱정을 끼친 끝에, 결국 집을 나가 버렸다.",
-      "answerChoiceId": "fb-extra20-n2-001-20-a",
+      "sentence": "長男は親族間の遺産争いに巻き込まれたあげく、故郷との縁まで切った。",
+      "sentenceWithBlank": "長男は親族間の遺産争いに巻き込まれた（　　　）、故郷との縁まで切った。",
+      "korean": "장남은 친족 간의 유산 다툼에 휘말린 끝에, 고향과의 인연마저 끊었다.",
+      "answerChoiceId": "fb-created-n2-001-14-a",
       "choices": [
         {
-          "id": "fb-extra20-n2-001-20-d",
+          "id": "fb-created-n2-001-14-c",
+          "text": "したところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "したところで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-001-14-d",
           "text": "するあまり",
           "grammarId": "n2-002",
           "baseExpression": "あまり",
@@ -1734,7 +1078,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-001-20-a",
+          "id": "fb-created-n2-001-14-a",
           "text": "あげく",
           "grammarId": "n2-001",
           "baseExpression": "あげく",
@@ -1742,23 +1086,15 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-001-20-b",
+          "id": "fb-created-n2-001-14-b",
           "text": "した末に",
           "grammarId": "n2-050",
           "baseExpression": "すえに",
           "conjugatedExpression": "した末に",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-001-20-c",
-          "text": "したところで",
-          "grammarId": "n2-059",
-          "baseExpression": "たところで",
-          "conjugatedExpression": "したところで",
-          "isSimilarDistractor": true
         }
       ],
-      "explanation": "「あげく」는 ~한 끝에, 결국 ~하고 말았다라는 뜻이다. 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '장남은 친족 간의 유산 다툼에 휘말린 끝에, 고향과의 인연마저 끊었다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
       "sourceGrammarIds": [
         "n2-001",
         "n2-050",
@@ -1768,9 +1104,613 @@
       "tags": [
         "結果",
         "悪い結果",
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-001-15",
+      "level": "N2",
+      "sentence": "運転手は渋滞を避けようと裏道を選んだあげく、狭い路地で車をこすった。",
+      "sentenceWithBlank": "運転手は渋滞を避けようと裏道を選んだ（　　　）、狭い路地で車をこすった。",
+      "korean": "운전기사는 정체를 피하려고 샛길을 택한 끝에, 좁은 골목에서 차를 긁었다.",
+      "answerChoiceId": "fb-created-n2-001-15-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-001-15-d",
+          "text": "あげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "あげく",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-001-15-a",
+          "text": "した末に",
+          "grammarId": "n2-050",
+          "baseExpression": "すえに",
+          "conjugatedExpression": "した末に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-001-15-b",
+          "text": "したところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "したところで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-001-15-c",
+          "text": "するあまり",
+          "grammarId": "n2-002",
+          "baseExpression": "あまり",
+          "conjugatedExpression": "するあまり",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '운전기사는 정체를 피하려고 샛길을 택한 끝에, 좁은 골목에서 차를 긁었다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
+      "sourceGrammarIds": [
+        "n2-001",
+        "n2-050",
+        "n2-059",
+        "n2-002"
+      ],
+      "tags": [
+        "結果",
+        "悪い結果",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-001-16",
+      "level": "N2",
+      "sentence": "漁船は嵐の中で港を探し回ったあげく、岩場に乗り上げた。",
+      "sentenceWithBlank": "漁船は嵐の中で港を探し回った（　　　）、岩場に乗り上げた。",
+      "korean": "어선은 폭풍 속에서 항구를 찾아다닌 끝에, 암초 지대에 좌초했다.",
+      "answerChoiceId": "fb-created-n2-001-16-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-001-16-a",
+          "text": "あげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "あげく",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-001-16-b",
+          "text": "末に",
+          "grammarId": "n2-050",
+          "baseExpression": "すえに",
+          "conjugatedExpression": "末に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-001-16-c",
+          "text": "ところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "ところで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-001-16-d",
+          "text": "からには",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "からには",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '어선은 폭풍 속에서 항구를 찾아다닌 끝에, 암초 지대에 좌초했다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
+      "sourceGrammarIds": [
+        "n2-001",
+        "n2-050",
+        "n2-059",
+        "n2-003"
+      ],
+      "tags": [
+        "結果",
+        "悪い結果",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-001-17",
+      "level": "N2",
+      "sentence": "母は訪問販売員の説明を長々と聞いたあげく、不要な浄水器を買わされた。",
+      "sentenceWithBlank": "母は訪問販売員の説明を長々と聞いた（　　　）、不要な浄水器を買わされた。",
+      "korean": "어머니는 방문 판매원의 설명을 오래 들은 끝에, 필요 없는 정수기를 억지로 사게 되었다.",
+      "answerChoiceId": "fb-created-n2-001-17-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-001-17-b",
+          "text": "した末に",
+          "grammarId": "n2-050",
+          "baseExpression": "すえに",
+          "conjugatedExpression": "した末に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-001-17-c",
+          "text": "したところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "したところで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-001-17-d",
+          "text": "するあまり",
+          "grammarId": "n2-002",
+          "baseExpression": "あまり",
+          "conjugatedExpression": "するあまり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-001-17-a",
+          "text": "あげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "あげく",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '어머니는 방문 판매원의 설명을 오래 들은 끝에, 필요 없는 정수기를 억지로 사게 되었다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
+      "sourceGrammarIds": [
+        "n2-001",
+        "n2-050",
+        "n2-059",
+        "n2-002"
+      ],
+      "tags": [
+        "結果",
+        "悪い結果",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-001-18",
+      "level": "N2",
+      "sentence": "担当者は苦情への対応をたらい回しにしたあげく、取引先の信用を失った。",
+      "sentenceWithBlank": "担当者は苦情への対応をたらい回しにした（　　　）、取引先の信用を失った。",
+      "korean": "담당자는 불만 처리를 이리저리 떠넘긴 끝에, 거래처의 신뢰를 잃었다.",
+      "answerChoiceId": "fb-created-n2-001-18-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-001-18-c",
+          "text": "するあまり",
+          "grammarId": "n2-002",
+          "baseExpression": "あまり",
+          "conjugatedExpression": "するあまり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-001-18-d",
+          "text": "あげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "あげく",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-001-18-a",
+          "text": "した末に",
+          "grammarId": "n2-050",
+          "baseExpression": "すえに",
+          "conjugatedExpression": "した末に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-001-18-b",
+          "text": "したところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "したところで",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '담당자는 불만 처리를 이리저리 떠넘긴 끝에, 거래처의 신뢰를 잃었다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
+      "sourceGrammarIds": [
+        "n2-001",
+        "n2-050",
+        "n2-059",
+        "n2-002"
+      ],
+      "tags": [
+        "結果",
+        "悪い結果",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-001-19",
+      "level": "N2",
+      "sentence": "空港で何時間も便の再開を待ったあげく、旅行客は欠航を告げられた。",
+      "sentenceWithBlank": "空港で何時間も便の再開を待った（　　　）、旅行客は欠航を告げられた。",
+      "korean": "공항에서 몇 시간이나 운항 재개를 기다린 끝에, 여행객들은 결항 통보를 받았다.",
+      "answerChoiceId": "fb-created-n2-001-19-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-001-19-d",
+          "text": "からには",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "からには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-001-19-a",
+          "text": "あげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "あげく",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-001-19-b",
+          "text": "末に",
+          "grammarId": "n2-050",
+          "baseExpression": "すえに",
+          "conjugatedExpression": "末に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-001-19-c",
+          "text": "ところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "ところで",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '공항에서 몇 시간이나 운항 재개를 기다린 끝에, 여행객들은 결항 통보를 받았다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
+      "sourceGrammarIds": [
+        "n2-001",
+        "n2-050",
+        "n2-059",
+        "n2-003"
+      ],
+      "tags": [
+        "結果",
+        "悪い結果",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-001-20",
+      "level": "N2",
+      "sentence": "叔父は腰の痛みを我慢したあげく、救急車で運ばれることになった。",
+      "sentenceWithBlank": "叔父は腰の痛みを我慢した（　　　）、救急車で運ばれることになった。",
+      "korean": "삼촌은 허리 통증을 참은 끝에, 구급차로 실려 가게 되었다.",
+      "answerChoiceId": "fb-created-n2-001-20-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-001-20-a",
+          "text": "あげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "あげく",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-001-20-b",
+          "text": "した末に",
+          "grammarId": "n2-050",
+          "baseExpression": "すえに",
+          "conjugatedExpression": "した末に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-001-20-c",
+          "text": "したところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "したところで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-001-20-d",
+          "text": "するあまり",
+          "grammarId": "n2-002",
+          "baseExpression": "あまり",
+          "conjugatedExpression": "するあまり",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '삼촌은 허리 통증을 참은 끝에, 구급차로 실려 가게 되었다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
+      "sourceGrammarIds": [
+        "n2-001",
+        "n2-050",
+        "n2-059",
+        "n2-002"
+      ],
+      "tags": [
+        "結果",
+        "悪い結果",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-001-21",
+      "level": "N2",
+      "sentence": "職人は注文主の変更要求に応じ続けたあげく、納期に間に合わなかった。",
+      "sentenceWithBlank": "職人は注文主の変更要求に応じ続けた（　　　）、納期に間に合わなかった。",
+      "korean": "장인은 주문자의 변경 요구를 계속 들어준 끝에, 납기를 맞추지 못했다.",
+      "answerChoiceId": "fb-created-n2-001-21-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-001-21-b",
+          "text": "したところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "したところで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-001-21-c",
+          "text": "するあまり",
+          "grammarId": "n2-002",
+          "baseExpression": "あまり",
+          "conjugatedExpression": "するあまり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-001-21-d",
+          "text": "あげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "あげく",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-001-21-a",
+          "text": "した末に",
+          "grammarId": "n2-050",
+          "baseExpression": "すえに",
+          "conjugatedExpression": "した末に",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '장인은 주문자의 변경 요구를 계속 들어준 끝에, 납기를 맞추지 못했다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
+      "sourceGrammarIds": [
+        "n2-001",
+        "n2-050",
+        "n2-059",
+        "n2-002"
+      ],
+      "tags": [
+        "結果",
+        "悪い結果",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-001-22",
+      "level": "N2",
+      "sentence": "記者は未確認の情報を追いかけたあげく、無関係な人物の名前を報じてしまった。",
+      "sentenceWithBlank": "記者は未確認の情報を追いかけた（　　　）、無関係な人物の名前を報じてしまった。",
+      "korean": "기자는 확인되지 않은 정보를 쫓은 끝에, 무관한 사람의 이름을 보도하고 말았다.",
+      "answerChoiceId": "fb-created-n2-001-22-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-001-22-c",
+          "text": "ところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "ところで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-001-22-d",
+          "text": "からには",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "からには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-001-22-a",
+          "text": "あげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "あげく",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-001-22-b",
+          "text": "末に",
+          "grammarId": "n2-050",
+          "baseExpression": "すえに",
+          "conjugatedExpression": "末に",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '기자는 확인되지 않은 정보를 쫓은 끝에, 무관한 사람의 이름을 보도하고 말았다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
+      "sourceGrammarIds": [
+        "n2-001",
+        "n2-050",
+        "n2-059",
+        "n2-003"
+      ],
+      "tags": [
+        "結果",
+        "悪い結果",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-001-23",
+      "level": "N2",
+      "sentence": "管理人は水漏れを応急処置だけで済ませたあげく、下の階まで浸水させた。",
+      "sentenceWithBlank": "管理人は水漏れを応急処置だけで済ませた（　　　）、下の階まで浸水させた。",
+      "korean": "관리인은 누수를 응급조치만으로 때운 끝에, 아래층까지 침수시켰다.",
+      "answerChoiceId": "fb-created-n2-001-23-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-001-23-d",
+          "text": "するあまり",
+          "grammarId": "n2-002",
+          "baseExpression": "あまり",
+          "conjugatedExpression": "するあまり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-001-23-a",
+          "text": "あげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "あげく",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-001-23-b",
+          "text": "した末に",
+          "grammarId": "n2-050",
+          "baseExpression": "すえに",
+          "conjugatedExpression": "した末に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-001-23-c",
+          "text": "したところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "したところで",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '관리인은 누수를 응급조치만으로 때운 끝에, 아래층까지 침수시켰다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
+      "sourceGrammarIds": [
+        "n2-001",
+        "n2-050",
+        "n2-059",
+        "n2-002"
+      ],
+      "tags": [
+        "結果",
+        "悪い結果",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-001-24",
+      "level": "N2",
+      "sentence": "弟は中古車の欠陥を隠して売ったあげく、購入者に訴えられた。",
+      "sentenceWithBlank": "弟は中古車の欠陥を隠して売った（　　　）、購入者に訴えられた。",
+      "korean": "남동생은 중고차의 결함을 숨기고 판 끝에, 구매자에게 고소당했다.",
+      "answerChoiceId": "fb-created-n2-001-24-d",
+      "choices": [
+        {
+          "id": "fb-created-n2-001-24-a",
+          "text": "した末に",
+          "grammarId": "n2-050",
+          "baseExpression": "すえに",
+          "conjugatedExpression": "した末に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-001-24-b",
+          "text": "したところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "したところで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-001-24-c",
+          "text": "するあまり",
+          "grammarId": "n2-002",
+          "baseExpression": "あまり",
+          "conjugatedExpression": "するあまり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-001-24-d",
+          "text": "あげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "あげく",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '남동생은 중고차의 결함을 숨기고 판 끝에, 구매자에게 고소당했다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
+      "sourceGrammarIds": [
+        "n2-001",
+        "n2-050",
+        "n2-059",
+        "n2-002"
+      ],
+      "tags": [
+        "結果",
+        "悪い結果",
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-001-25",
+      "level": "N2",
+      "sentence": "舞台監督は出演者の対立を収められなかったあげく、公演を中止すると発表した。",
+      "sentenceWithBlank": "舞台監督は出演者の対立を収められなかった（　　　）、公演を中止すると発表した。",
+      "korean": "무대감독은 출연자들의 갈등을 수습하지 못한 끝에, 공연을 중지한다고 발표했다.",
+      "answerChoiceId": "fb-created-n2-001-25-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-001-25-b",
+          "text": "末に",
+          "grammarId": "n2-050",
+          "baseExpression": "すえに",
+          "conjugatedExpression": "末に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-001-25-c",
+          "text": "ところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "ところで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-001-25-d",
+          "text": "からには",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "からには",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-001-25-a",
+          "text": "あげく",
+          "grammarId": "n2-001",
+          "baseExpression": "あげく",
+          "conjugatedExpression": "あげく",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '무대감독은 출연자들의 갈등을 수습하지 못한 끝에, 공연을 중지한다고 발표했다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
+      "sourceGrammarIds": [
+        "n2-001",
+        "n2-050",
+        "n2-059",
+        "n2-003"
+      ],
+      "tags": [
+        "結果",
+        "悪い結果",
+        "신규예문",
+        "빈칸"
       ]
     }
   ],
@@ -2001,1153 +1941,1203 @@
       ]
     },
     {
-      "id": "so-extra-n2-001-1",
+      "id": "so-created-n2-001-01",
       "level": "N2",
-      "sentence": "太郎はお金のことや友人の問題でさんざん親に心配をかけたあげく、とうとう家を出てしまった。",
-      "sentenceWithBlanks": "太郎はお金のことや友人の問題でさんざん親に心配をかけた ____ ____ ____ ____",
-      "korean": "타로는 돈 문제와 친구 문제로 부모에게 실컷 걱정을 끼친 끝에, 결국 집을 나가 버렸다.",
+      "sentence": "複数の病院を回ったあげく、原因は分からないままだった。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "여러 병원을 돌아다닌 끝에, 원인은 알 수 없는 채로 남았다.",
       "pieces": [
         {
-          "id": "so-extra-n2-001-1-p4",
-          "text": "あげく",
-          "order": 1
-        },
-        {
-          "id": "so-extra-n2-001-1-p1",
-          "text": "とうとう家を",
+          "id": "so-created-n2-001-01-p2",
+          "text": "病院を回った",
           "order": 2
         },
         {
-          "id": "so-extra-n2-001-1-p2",
-          "text": "出て",
+          "id": "so-created-n2-001-01-p3",
+          "text": "あげく、原因は",
           "order": 3
         },
         {
-          "id": "so-extra-n2-001-1-p3",
-          "text": "しまった",
+          "id": "so-created-n2-001-01-p4",
+          "text": "分からないままだった。",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-001-01-p1",
+          "text": "複数の",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-001-1-p4",
-        "so-extra-n2-001-1-p1",
-        "so-extra-n2-001-1-p2",
-        "so-extra-n2-001-1-p3"
+        "so-created-n2-001-01-p1",
+        "so-created-n2-001-01-p2",
+        "so-created-n2-001-01-p3",
+        "so-created-n2-001-01-p4"
       ],
-      "explanation": "「あげく」는 ~한 끝에, 결국 ~하고 말았다라는 뜻이다. 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '여러 병원을 돌아다닌 끝에, 원인은 알 수 없는 채로 남았다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
       "sourceGrammarIds": [
-        "n2-001"
+        "n2-001",
+        "n2-050",
+        "n2-059",
+        "n2-003"
       ],
       "tags": [
         "結果",
         "悪い結果",
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-001-2",
+      "id": "so-created-n2-001-02",
       "level": "N2",
-      "sentence": "この問題については、長時間にわたる議論のあげく、結論は先送りされた。",
-      "sentenceWithBlanks": "この問題については、長時間にわたる議論の ____ ____ ____ ____",
-      "korean": "이 문제는 장시간 논의 끝에 결론이 미뤄졌다.",
+      "sentence": "候補の物件を半年も探したあげく、引っ越しそのものを諦めた。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "후보 매물을 반년이나 찾아본 끝에, 이사 자체를 포기했다.",
       "pieces": [
         {
-          "id": "so-extra-n2-001-2-p1",
-          "text": "先送り",
-          "order": 3
-        },
-        {
-          "id": "so-extra-n2-001-2-p2",
-          "text": "された",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-001-2-p3",
-          "text": "あげく",
+          "id": "so-created-n2-001-02-p1",
+          "text": "候補の物件を半年も",
           "order": 1
         },
         {
-          "id": "so-extra-n2-001-2-p4",
-          "text": "結論は",
+          "id": "so-created-n2-001-02-p2",
+          "text": "探したあげく、",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-001-02-p3",
+          "text": "引っ越しそのものを",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-001-02-p4",
+          "text": "諦めた。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-001-2-p3",
-        "so-extra-n2-001-2-p4",
-        "so-extra-n2-001-2-p1",
-        "so-extra-n2-001-2-p2"
+        "so-created-n2-001-02-p1",
+        "so-created-n2-001-02-p2",
+        "so-created-n2-001-02-p3",
+        "so-created-n2-001-02-p4"
       ],
-      "explanation": "「あげく」는 ~한 끝에, 결국 ~하고 말았다라는 뜻이다. 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '후보 매물을 반년이나 찾아본 끝에, 이사 자체를 포기했다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
       "sourceGrammarIds": [
-        "n2-001"
+        "n2-001",
+        "n2-050",
+        "n2-059",
+        "n2-002"
       ],
       "tags": [
         "結果",
         "悪い結果",
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-001-3",
+      "id": "so-created-n2-001-03",
       "level": "N2",
-      "sentence": "太郎はお金のことや友人の問題でさんざん親に心配をかけたあげく、とうとう家を出てしまった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、とうとう家を出てしまった。",
-      "korean": "타로는 돈 문제와 친구 문제로 부모에게 실컷 걱정을 끼친 끝에, 결국 집을 나가 버렸다.",
+      "sentence": "徹夜で資料を修正したあげく、提出期限を勘違いしていたことに気づいた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 気づいた。",
+      "korean": "밤을 새워 자료를 수정한 끝에, 제출 기한을 잘못 알고 있었다는 것을 깨달았다.",
       "pieces": [
         {
-          "id": "so-extra-n2-001-3-p2",
-          "text": "さんざん親に心配をかけた",
+          "id": "so-created-n2-001-03-p4",
+          "text": "勘違いしていたことに",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-001-03-p1",
+          "text": "徹夜で資料を",
           "order": 1
         },
         {
-          "id": "so-extra-n2-001-3-p3",
-          "text": "あげく",
+          "id": "so-created-n2-001-03-p2",
+          "text": "修正したあげく、",
           "order": 2
         },
         {
-          "id": "so-extra-n2-001-3-p4",
-          "text": "とうとう家を",
+          "id": "so-created-n2-001-03-p3",
+          "text": "提出期限を",
           "order": 3
-        },
-        {
-          "id": "so-extra-n2-001-3-p1",
-          "text": "出て",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-001-3-p2",
-        "so-extra-n2-001-3-p3",
-        "so-extra-n2-001-3-p4",
-        "so-extra-n2-001-3-p1"
+        "so-created-n2-001-03-p1",
+        "so-created-n2-001-03-p2",
+        "so-created-n2-001-03-p3",
+        "so-created-n2-001-03-p4"
       ],
-      "explanation": "「あげく」는 ~한 끝에, 결국 ~하고 말았다라는 뜻이다. 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '밤을 새워 자료를 수정한 끝에, 제출 기한을 잘못 알고 있었다는 것을 깨달았다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
       "sourceGrammarIds": [
-        "n2-001"
+        "n2-001",
+        "n2-050",
+        "n2-059",
+        "n2-002"
       ],
       "tags": [
         "結果",
         "悪い結果",
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-001-4",
+      "id": "so-created-n2-001-04",
       "level": "N2",
-      "sentence": "この問題については、長時間にわたる議論のあげく、結論は先送りされた。",
-      "sentenceWithBlanks": "この問題については、長時間にわたる議論の ____ ____ ____ ____",
-      "korean": "이 문제는 장시간 논의 끝에 결론이 미뤄졌다.",
+      "sentence": "客との値段交渉を重ねたあげく、契約は白紙に戻された。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 戻された。",
+      "korean": "고객과 가격 협상을 거듭한 끝에, 계약은 백지화되었다.",
       "pieces": [
         {
-          "id": "so-extra-n2-001-4-p3",
-          "text": "先送り",
+          "id": "so-created-n2-001-04-p3",
+          "text": "あげく、",
           "order": 3
         },
         {
-          "id": "so-extra-n2-001-4-p4",
-          "text": "された",
+          "id": "so-created-n2-001-04-p4",
+          "text": "契約は白紙に",
           "order": 4
         },
         {
-          "id": "so-extra-n2-001-4-p1",
-          "text": "あげく",
+          "id": "so-created-n2-001-04-p1",
+          "text": "客との値段",
           "order": 1
         },
         {
-          "id": "so-extra-n2-001-4-p2",
-          "text": "結論は",
+          "id": "so-created-n2-001-04-p2",
+          "text": "交渉を重ねた",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-001-4-p1",
-        "so-extra-n2-001-4-p2",
-        "so-extra-n2-001-4-p3",
-        "so-extra-n2-001-4-p4"
+        "so-created-n2-001-04-p1",
+        "so-created-n2-001-04-p2",
+        "so-created-n2-001-04-p3",
+        "so-created-n2-001-04-p4"
       ],
-      "explanation": "「あげく」는 ~한 끝에, 결국 ~하고 말았다라는 뜻이다. 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '고객과 가격 협상을 거듭한 끝에, 계약은 백지화되었다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
       "sourceGrammarIds": [
-        "n2-001"
+        "n2-001",
+        "n2-050",
+        "n2-059",
+        "n2-003"
       ],
       "tags": [
         "結果",
         "悪い結果",
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-001-5",
+      "id": "so-created-n2-001-05",
       "level": "N2",
-      "sentence": "太郎はお金のことや友人の問題でさんざん親に心配をかけたあげく、とうとう家を出てしまった。",
-      "sentenceWithBlanks": "太郎はお金のことや友人の問題でさんざん親に心配をかけた ____ ____ ____ ____",
-      "korean": "타로는 돈 문제와 친구 문제로 부모에게 실컷 걱정을 끼친 끝에, 결국 집을 나가 버렸다.",
+      "sentence": "迷いながら山道を進んだあげく、日が暮れて動けなくなった。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "헤매면서 산길을 나아간 끝에, 날이 저물어 움직일 수 없게 되었다.",
       "pieces": [
         {
-          "id": "so-extra-n2-001-5-p4",
-          "text": "あげく",
-          "order": 1
-        },
-        {
-          "id": "so-extra-n2-001-5-p1",
-          "text": "とうとう家を",
+          "id": "so-created-n2-001-05-p2",
+          "text": "進んだあげく、",
           "order": 2
         },
         {
-          "id": "so-extra-n2-001-5-p2",
-          "text": "出て",
+          "id": "so-created-n2-001-05-p3",
+          "text": "日が暮れて",
           "order": 3
         },
         {
-          "id": "so-extra-n2-001-5-p3",
-          "text": "しまった",
+          "id": "so-created-n2-001-05-p4",
+          "text": "動けなくなった。",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-001-05-p1",
+          "text": "迷いながら山道を",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-001-5-p4",
-        "so-extra-n2-001-5-p1",
-        "so-extra-n2-001-5-p2",
-        "so-extra-n2-001-5-p3"
+        "so-created-n2-001-05-p1",
+        "so-created-n2-001-05-p2",
+        "so-created-n2-001-05-p3",
+        "so-created-n2-001-05-p4"
       ],
-      "explanation": "「あげく」는 ~한 끝에, 결국 ~하고 말았다라는 뜻이다. 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '헤매면서 산길을 나아간 끝에, 날이 저물어 움직일 수 없게 되었다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
       "sourceGrammarIds": [
-        "n2-001"
+        "n2-001",
+        "n2-050",
+        "n2-059",
+        "n2-002"
       ],
       "tags": [
         "結果",
         "悪い結果",
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-001-01",
+      "id": "so-created-n2-001-06",
       "level": "N2",
-      "sentence": "太郎はお金のことや友人の問題でさんざん親に心配をかけたあげく、とうとう家を出てしまった。",
-      "sentenceWithBlanks": "太郎はお金のことや友人の問題でさんざん親に心配をかけた ____ ____ ____ ____",
-      "korean": "타로는 돈 문제와 친구 문제로 부모에게 실컷 걱정을 끼친 끝에, 결국 집을 나가 버렸다.",
+      "sentence": "兄は怪しい投資話を信じたあげく、退職金の大半を失った。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 大半を失った。",
+      "korean": "형은 수상한 투자 이야기를 믿은 끝에, 퇴직금 대부분을 잃었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-001-01-p4",
-          "text": "あげく",
+          "id": "so-created-n2-001-06-p1",
+          "text": "兄は怪しい",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-001-01-p1",
-          "text": "とうとう家を",
+          "id": "so-created-n2-001-06-p2",
+          "text": "投資話を",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-001-01-p2",
-          "text": "出て",
+          "id": "so-created-n2-001-06-p3",
+          "text": "信じたあげく、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-001-01-p3",
-          "text": "しまった",
+          "id": "so-created-n2-001-06-p4",
+          "text": "退職金の",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-001-01-p4",
-        "so-extra20-n2-001-01-p1",
-        "so-extra20-n2-001-01-p2",
-        "so-extra20-n2-001-01-p3"
+        "so-created-n2-001-06-p1",
+        "so-created-n2-001-06-p2",
+        "so-created-n2-001-06-p3",
+        "so-created-n2-001-06-p4"
       ],
-      "explanation": "「あげく」는 ~한 끝에, 결국 ~하고 말았다라는 뜻이다. 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '형은 수상한 투자 이야기를 믿은 끝에, 퇴직금 대부분을 잃었다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
       "sourceGrammarIds": [
-        "n2-001"
+        "n2-001",
+        "n2-050",
+        "n2-059",
+        "n2-002"
       ],
       "tags": [
         "結果",
         "悪い結果",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-001-02",
+      "id": "so-created-n2-001-07",
       "level": "N2",
-      "sentence": "この問題については、長時間にわたる議論のあげく、結論は先送りされた。",
-      "sentenceWithBlanks": "この問題については、長時間にわたる議論の ____ ____ ____ ____",
-      "korean": "이 문제는 장시간 논의 끝에 결론이 미뤄졌다.",
+      "sentence": "店長は人手不足を放置したあげく、繁忙期に三人も辞められた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 辞められた。",
+      "korean": "점장은 인력 부족을 방치한 끝에, 성수기에 세 명이나 그만두게 만들었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-001-02-p3",
-          "text": "あげく",
+          "id": "so-created-n2-001-07-p4",
+          "text": "期に三人も",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-001-07-p1",
+          "text": "店長は人手不足を",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-001-02-p4",
-          "text": "結論は",
+          "id": "so-created-n2-001-07-p2",
+          "text": "放置した",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-001-02-p1",
-          "text": "先送り",
+          "id": "so-created-n2-001-07-p3",
+          "text": "あげく、繁忙",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-001-02-p2",
-          "text": "された",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-001-02-p3",
-        "so-extra20-n2-001-02-p4",
-        "so-extra20-n2-001-02-p1",
-        "so-extra20-n2-001-02-p2"
+        "so-created-n2-001-07-p1",
+        "so-created-n2-001-07-p2",
+        "so-created-n2-001-07-p3",
+        "so-created-n2-001-07-p4"
       ],
-      "explanation": "「あげく」는 ~한 끝에, 결국 ~하고 말았다라는 뜻이다. 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '점장은 인력 부족을 방치한 끝에, 성수기에 세 명이나 그만두게 만들었다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
       "sourceGrammarIds": [
-        "n2-001"
+        "n2-001",
+        "n2-050",
+        "n2-059",
+        "n2-003"
       ],
       "tags": [
         "結果",
         "悪い結果",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-001-03",
+      "id": "so-created-n2-001-08",
       "level": "N2",
-      "sentence": "太郎はお金のことや友人の問題でさんざん親に心配をかけたあげく、とうとう家を出てしまった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、とうとう家を出てしまった。",
-      "korean": "타로는 돈 문제와 친구 문제로 부모에게 실컷 걱정을 끼친 끝에, 결국 집을 나가 버렸다.",
+      "sentence": "隣人は深夜まで騒音を出し続けたあげく、管理会社から退去を求められた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 会社から退去を求められた。",
+      "korean": "이웃은 심야까지 계속 소음을 낸 끝에, 관리 회사로부터 퇴거를 요구받았다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-001-03-p2",
-          "text": "さんざん親に心配をかけた",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-001-03-p3",
-          "text": "あげく",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-001-03-p4",
-          "text": "とうとう家を",
+          "id": "so-created-n2-001-08-p3",
+          "text": "出し続けた",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-001-03-p1",
-          "text": "出て",
+          "id": "so-created-n2-001-08-p4",
+          "text": "あげく、管理",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-001-08-p1",
+          "text": "隣人は",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-001-08-p2",
+          "text": "深夜まで騒音を",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-001-03-p2",
-        "so-extra20-n2-001-03-p3",
-        "so-extra20-n2-001-03-p4",
-        "so-extra20-n2-001-03-p1"
+        "so-created-n2-001-08-p1",
+        "so-created-n2-001-08-p2",
+        "so-created-n2-001-08-p3",
+        "so-created-n2-001-08-p4"
       ],
-      "explanation": "「あげく」는 ~한 끝에, 결국 ~하고 말았다라는 뜻이다. 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '이웃은 심야까지 계속 소음을 낸 끝에, 관리 회사로부터 퇴거를 요구받았다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
       "sourceGrammarIds": [
-        "n2-001"
+        "n2-001",
+        "n2-050",
+        "n2-059",
+        "n2-002"
       ],
       "tags": [
         "結果",
         "悪い結果",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-001-04",
+      "id": "so-created-n2-001-09",
       "level": "N2",
-      "sentence": "この問題については、長時間にわたる議論のあげく、結論は先送りされた。",
-      "sentenceWithBlanks": "この問題については、長時間にわたる議論の ____ ____ ____ ____",
-      "korean": "이 문제는 장시간 논의 끝에 결론이 미뤄졌다.",
+      "sentence": "父は壊れた時計を何度も分解したあげく、元に戻せなくなった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 戻せなくなった。",
+      "korean": "아버지는 고장 난 시계를 몇 번이나 분해한 끝에, 원래대로 되돌리지 못하게 되었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-001-04-p1",
-          "text": "あげく",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-001-04-p2",
-          "text": "結論は",
+          "id": "so-created-n2-001-09-p2",
+          "text": "時計を何",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-001-04-p3",
-          "text": "先送り",
+          "id": "so-created-n2-001-09-p3",
+          "text": "度も分解した",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-001-04-p4",
-          "text": "された",
+          "id": "so-created-n2-001-09-p4",
+          "text": "あげく、元に",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-001-09-p1",
+          "text": "父は壊れた",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-001-04-p1",
-        "so-extra20-n2-001-04-p2",
-        "so-extra20-n2-001-04-p3",
-        "so-extra20-n2-001-04-p4"
+        "so-created-n2-001-09-p1",
+        "so-created-n2-001-09-p2",
+        "so-created-n2-001-09-p3",
+        "so-created-n2-001-09-p4"
       ],
-      "explanation": "「あげく」는 ~한 끝에, 결국 ~하고 말았다라는 뜻이다. 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '아버지는 고장 난 시계를 몇 번이나 분해한 끝에, 원래대로 되돌리지 못하게 되었다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
       "sourceGrammarIds": [
-        "n2-001"
+        "n2-001",
+        "n2-050",
+        "n2-059",
+        "n2-002"
       ],
       "tags": [
         "結果",
         "悪い結果",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-001-05",
+      "id": "so-created-n2-001-10",
       "level": "N2",
-      "sentence": "太郎はお金のことや友人の問題でさんざん親に心配をかけたあげく、とうとう家を出てしまった。",
-      "sentenceWithBlanks": "太郎はお金のことや友人の問題でさんざん親に心配をかけた ____ ____ ____ ____",
-      "korean": "타로는 돈 문제와 친구 문제로 부모에게 실컷 걱정을 끼친 끝에, 결국 집을 나가 버렸다.",
+      "sentence": "配送業者の手違いが続いたあげく、冷凍食品はすべて傷んでしまった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 傷んでしまった。",
+      "korean": "배송 업체의 실수가 계속된 끝에, 냉동식품은 전부 상하고 말았다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-001-05-p4",
-          "text": "あげく",
+          "id": "so-created-n2-001-10-p1",
+          "text": "配送業者の",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-001-05-p1",
-          "text": "とうとう家を",
+          "id": "so-created-n2-001-10-p2",
+          "text": "手違いが続いた",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-001-05-p2",
-          "text": "出て",
+          "id": "so-created-n2-001-10-p3",
+          "text": "あげく、冷凍",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-001-05-p3",
-          "text": "しまった",
+          "id": "so-created-n2-001-10-p4",
+          "text": "食品はすべて",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-001-05-p4",
-        "so-extra20-n2-001-05-p1",
-        "so-extra20-n2-001-05-p2",
-        "so-extra20-n2-001-05-p3"
+        "so-created-n2-001-10-p1",
+        "so-created-n2-001-10-p2",
+        "so-created-n2-001-10-p3",
+        "so-created-n2-001-10-p4"
       ],
-      "explanation": "「あげく」는 ~한 끝에, 결국 ~하고 말았다라는 뜻이다. 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '배송 업체의 실수가 계속된 끝에, 냉동식품은 전부 상하고 말았다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
       "sourceGrammarIds": [
-        "n2-001"
+        "n2-001",
+        "n2-050",
+        "n2-059",
+        "n2-003"
       ],
       "tags": [
         "結果",
         "悪い結果",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-001-06",
+      "id": "so-created-n2-001-11",
       "level": "N2",
-      "sentence": "太郎はお金のことや友人の問題でさんざん親に心配をかけたあげく、とうとう家を出てしまった。",
-      "sentenceWithBlanks": "太郎はお金のことや友人の問題でさんざん親に心配をかけた ____ ____ ____ ____",
-      "korean": "타로는 돈 문제와 친구 문제로 부모에게 실컷 걱정을 끼친 끝에, 결국 집을 나가 버렸다.",
+      "sentence": "彼女は恋人の行動を疑い続けたあげく、何の証拠もなく別れを告げた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 証拠もなく別れを告げた。",
+      "korean": "그녀는 연인의 행동을 계속 의심한 끝에, 아무 증거도 없이 이별을 통보했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-001-06-p3",
-          "text": "しまった",
+          "id": "so-created-n2-001-11-p4",
+          "text": "あげく、何の",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-001-06-p4",
-          "text": "あげく",
+          "id": "so-created-n2-001-11-p1",
+          "text": "彼女は",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-001-06-p1",
-          "text": "とうとう家を",
+          "id": "so-created-n2-001-11-p2",
+          "text": "恋人の行動を",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-001-06-p2",
-          "text": "出て",
+          "id": "so-created-n2-001-11-p3",
+          "text": "疑い続けた",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-001-06-p4",
-        "so-extra20-n2-001-06-p1",
-        "so-extra20-n2-001-06-p2",
-        "so-extra20-n2-001-06-p3"
+        "so-created-n2-001-11-p1",
+        "so-created-n2-001-11-p2",
+        "so-created-n2-001-11-p3",
+        "so-created-n2-001-11-p4"
       ],
-      "explanation": "「あげく」는 ~한 끝에, 결국 ~하고 말았다라는 뜻이다. 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '그녀는 연인의 행동을 계속 의심한 끝에, 아무 증거도 없이 이별을 통보했다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
       "sourceGrammarIds": [
-        "n2-001"
+        "n2-001",
+        "n2-050",
+        "n2-059",
+        "n2-002"
       ],
       "tags": [
         "結果",
         "悪い結果",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-001-07",
+      "id": "so-created-n2-001-12",
       "level": "N2",
-      "sentence": "この問題については、長時間にわたる議論のあげく、結論は先送りされた。",
-      "sentenceWithBlanks": "この問題については、長時間にわたる議論の ____ ____ ____ ____",
-      "korean": "이 문제는 장시간 논의 끝에 결론이 미뤄졌다.",
+      "sentence": "市は古い橋の補修を先延ばしにしたあげく、全面通行止めにせざるを得なくなった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 通行止めにせざるを得なくなった。",
+      "korean": "시는 낡은 다리의 보수를 미룬 끝에, 전면 통행 금지를 할 수밖에 없게 되었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-001-07-p2",
-          "text": "された",
+          "id": "so-created-n2-001-12-p3",
+          "text": "先延ばしにした",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-001-12-p4",
+          "text": "あげく、全面",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-001-07-p3",
-          "text": "あげく",
+          "id": "so-created-n2-001-12-p1",
+          "text": "市は古い",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-001-07-p4",
-          "text": "結論は",
+          "id": "so-created-n2-001-12-p2",
+          "text": "橋の補修を",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-001-07-p1",
-          "text": "先送り",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-001-07-p3",
-        "so-extra20-n2-001-07-p4",
-        "so-extra20-n2-001-07-p1",
-        "so-extra20-n2-001-07-p2"
+        "so-created-n2-001-12-p1",
+        "so-created-n2-001-12-p2",
+        "so-created-n2-001-12-p3",
+        "so-created-n2-001-12-p4"
       ],
-      "explanation": "「あげく」는 ~한 끝에, 결국 ~하고 말았다라는 뜻이다. 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '시는 낡은 다리의 보수를 미룬 끝에, 전면 통행 금지를 할 수밖에 없게 되었다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
       "sourceGrammarIds": [
-        "n2-001"
+        "n2-001",
+        "n2-050",
+        "n2-059",
+        "n2-002"
       ],
       "tags": [
         "結果",
         "悪い結果",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-001-08",
+      "id": "so-created-n2-001-13",
       "level": "N2",
-      "sentence": "太郎はお金のことや友人の問題でさんざん親に心配をかけたあげく、とうとう家を出てしまった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、とうとう家を出てしまった。",
-      "korean": "타로는 돈 문제와 친구 문제로 부모에게 실컷 걱정을 끼친 끝에, 결국 집을 나가 버렸다.",
+      "sentence": "農家は害虫への対策に追われたあげく、収穫の時期まで逃してしまった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 逃してしまった。",
+      "korean": "농가는 해충 대책에 쫓긴 끝에, 수확 시기마저 놓치고 말았다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-001-08-p1",
-          "text": "出て",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-001-08-p2",
-          "text": "さんざん親に心配をかけた",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-001-08-p3",
-          "text": "あげく",
+          "id": "so-created-n2-001-13-p2",
+          "text": "対策に追われた",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-001-08-p4",
-          "text": "とうとう家を",
+          "id": "so-created-n2-001-13-p3",
+          "text": "あげく、",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-001-13-p4",
+          "text": "収穫の時期まで",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-001-13-p1",
+          "text": "農家は害虫への",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-001-08-p2",
-        "so-extra20-n2-001-08-p3",
-        "so-extra20-n2-001-08-p4",
-        "so-extra20-n2-001-08-p1"
+        "so-created-n2-001-13-p1",
+        "so-created-n2-001-13-p2",
+        "so-created-n2-001-13-p3",
+        "so-created-n2-001-13-p4"
       ],
-      "explanation": "「あげく」는 ~한 끝에, 결국 ~하고 말았다라는 뜻이다. 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '농가는 해충 대책에 쫓긴 끝에, 수확 시기마저 놓치고 말았다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
       "sourceGrammarIds": [
-        "n2-001"
+        "n2-001",
+        "n2-050",
+        "n2-059",
+        "n2-003"
       ],
       "tags": [
         "結果",
         "悪い結果",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-001-09",
+      "id": "so-created-n2-001-14",
       "level": "N2",
-      "sentence": "この問題については、長時間にわたる議論のあげく、結論は先送りされた。",
-      "sentenceWithBlanks": "この問題については、長時間にわたる議論の ____ ____ ____ ____",
-      "korean": "이 문제는 장시간 논의 끝에 결론이 미뤄졌다.",
+      "sentence": "長男は親族間の遺産争いに巻き込まれたあげく、故郷との縁まで切った。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 故郷との縁まで切った。",
+      "korean": "장남은 친족 간의 유산 다툼에 휘말린 끝에, 고향과의 인연마저 끊었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-001-09-p4",
-          "text": "された",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-001-09-p1",
-          "text": "あげく",
+          "id": "so-created-n2-001-14-p1",
+          "text": "長男は親族",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-001-09-p2",
-          "text": "結論は",
+          "id": "so-created-n2-001-14-p2",
+          "text": "間の遺産争いに",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-001-09-p3",
-          "text": "先送り",
+          "id": "so-created-n2-001-14-p3",
+          "text": "巻き込まれた",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-001-14-p4",
+          "text": "あげく、",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-001-09-p1",
-        "so-extra20-n2-001-09-p2",
-        "so-extra20-n2-001-09-p3",
-        "so-extra20-n2-001-09-p4"
+        "so-created-n2-001-14-p1",
+        "so-created-n2-001-14-p2",
+        "so-created-n2-001-14-p3",
+        "so-created-n2-001-14-p4"
       ],
-      "explanation": "「あげく」는 ~한 끝에, 결국 ~하고 말았다라는 뜻이다. 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '장남은 친족 간의 유산 다툼에 휘말린 끝에, 고향과의 인연마저 끊었다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
       "sourceGrammarIds": [
-        "n2-001"
+        "n2-001",
+        "n2-050",
+        "n2-059",
+        "n2-002"
       ],
       "tags": [
         "結果",
         "悪い結果",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-001-10",
+      "id": "so-created-n2-001-15",
       "level": "N2",
-      "sentence": "太郎はお金のことや友人の問題でさんざん親に心配をかけたあげく、とうとう家を出てしまった。",
-      "sentenceWithBlanks": "太郎はお金のことや友人の問題でさんざん親に心配をかけた ____ ____ ____ ____",
-      "korean": "타로는 돈 문제와 친구 문제로 부모에게 실컷 걱정을 끼친 끝에, 결국 집을 나가 버렸다.",
+      "sentence": "運転手は渋滞を避けようと裏道を選んだあげく、狭い路地で車をこすった。",
+      "sentenceWithBlanks": "運転手は ____ ____ ____ ____ 車をこすった。",
+      "korean": "운전기사는 정체를 피하려고 샛길을 택한 끝에, 좁은 골목에서 차를 긁었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-001-10-p3",
-          "text": "しまった",
+          "id": "so-created-n2-001-15-p4",
+          "text": "狭い路地で",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-001-10-p4",
-          "text": "あげく",
+          "id": "so-created-n2-001-15-p1",
+          "text": "渋滞を避けようと",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-001-10-p1",
-          "text": "とうとう家を",
+          "id": "so-created-n2-001-15-p2",
+          "text": "裏道を選んだ",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-001-10-p2",
-          "text": "出て",
+          "id": "so-created-n2-001-15-p3",
+          "text": "あげく、",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-001-10-p4",
-        "so-extra20-n2-001-10-p1",
-        "so-extra20-n2-001-10-p2",
-        "so-extra20-n2-001-10-p3"
+        "so-created-n2-001-15-p1",
+        "so-created-n2-001-15-p2",
+        "so-created-n2-001-15-p3",
+        "so-created-n2-001-15-p4"
       ],
-      "explanation": "「あげく」는 ~한 끝에, 결국 ~하고 말았다라는 뜻이다. 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '운전기사는 정체를 피하려고 샛길을 택한 끝에, 좁은 골목에서 차를 긁었다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
       "sourceGrammarIds": [
-        "n2-001"
+        "n2-001",
+        "n2-050",
+        "n2-059",
+        "n2-002"
       ],
       "tags": [
         "結果",
         "悪い結果",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-001-11",
+      "id": "so-created-n2-001-16",
       "level": "N2",
-      "sentence": "太郎はお金のことや友人の問題でさんざん親に心配をかけたあげく、とうとう家を出てしまった。",
-      "sentenceWithBlanks": "太郎はお金のことや友人の問題でさんざん親に心配をかけた ____ ____ ____ ____",
-      "korean": "타로는 돈 문제와 친구 문제로 부모에게 실컷 걱정을 끼친 끝에, 결국 집을 나가 버렸다.",
+      "sentence": "漁船は嵐の中で港を探し回ったあげく、岩場に乗り上げた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 乗り上げた。",
+      "korean": "어선은 폭풍 속에서 항구를 찾아다닌 끝에, 암초 지대에 좌초했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-001-11-p2",
-          "text": "出て",
+          "id": "so-created-n2-001-16-p3",
+          "text": "探し回った",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-001-11-p3",
-          "text": "しまった",
+          "id": "so-created-n2-001-16-p4",
+          "text": "あげく、岩場に",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-001-11-p4",
-          "text": "あげく",
+          "id": "so-created-n2-001-16-p1",
+          "text": "漁船は嵐の",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-001-11-p1",
-          "text": "とうとう家を",
+          "id": "so-created-n2-001-16-p2",
+          "text": "中で港を",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-001-11-p4",
-        "so-extra20-n2-001-11-p1",
-        "so-extra20-n2-001-11-p2",
-        "so-extra20-n2-001-11-p3"
+        "so-created-n2-001-16-p1",
+        "so-created-n2-001-16-p2",
+        "so-created-n2-001-16-p3",
+        "so-created-n2-001-16-p4"
       ],
-      "explanation": "「あげく」는 ~한 끝에, 결국 ~하고 말았다라는 뜻이다. 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '어선은 폭풍 속에서 항구를 찾아다닌 끝에, 암초 지대에 좌초했다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
       "sourceGrammarIds": [
-        "n2-001"
+        "n2-001",
+        "n2-050",
+        "n2-059",
+        "n2-003"
       ],
       "tags": [
         "結果",
         "悪い結果",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-001-12",
+      "id": "so-created-n2-001-17",
       "level": "N2",
-      "sentence": "この問題については、長時間にわたる議論のあげく、結論は先送りされた。",
-      "sentenceWithBlanks": "この問題については、長時間にわたる議論の ____ ____ ____ ____",
-      "korean": "이 문제는 장시간 논의 끝에 결론이 미뤄졌다.",
+      "sentence": "母は訪問販売員の説明を長々と聞いたあげく、不要な浄水器を買わされた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 不要な浄水器を買わされた。",
+      "korean": "어머니는 방문 판매원의 설명을 오래 들은 끝에, 필요 없는 정수기를 억지로 사게 되었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-001-12-p1",
-          "text": "先送り",
+          "id": "so-created-n2-001-17-p2",
+          "text": "員の説明を",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-001-17-p3",
+          "text": "長々と聞いた",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-001-12-p2",
-          "text": "された",
+          "id": "so-created-n2-001-17-p4",
+          "text": "あげく、",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-001-12-p3",
-          "text": "あげく",
+          "id": "so-created-n2-001-17-p1",
+          "text": "母は訪問販売",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-001-12-p4",
-          "text": "結論は",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-001-12-p3",
-        "so-extra20-n2-001-12-p4",
-        "so-extra20-n2-001-12-p1",
-        "so-extra20-n2-001-12-p2"
+        "so-created-n2-001-17-p1",
+        "so-created-n2-001-17-p2",
+        "so-created-n2-001-17-p3",
+        "so-created-n2-001-17-p4"
       ],
-      "explanation": "「あげく」는 ~한 끝에, 결국 ~하고 말았다라는 뜻이다. 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '어머니는 방문 판매원의 설명을 오래 들은 끝에, 필요 없는 정수기를 억지로 사게 되었다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
       "sourceGrammarIds": [
-        "n2-001"
+        "n2-001",
+        "n2-050",
+        "n2-059",
+        "n2-002"
       ],
       "tags": [
         "結果",
         "悪い結果",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-001-13",
+      "id": "so-created-n2-001-18",
       "level": "N2",
-      "sentence": "太郎はお金のことや友人の問題でさんざん親に心配をかけたあげく、とうとう家を出てしまった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、とうとう家を出てしまった。",
-      "korean": "타로는 돈 문제와 친구 문제로 부모에게 실컷 걱정을 끼친 끝에, 결국 집을 나가 버렸다.",
+      "sentence": "担当者は苦情への対応をたらい回しにしたあげく、取引先の信用を失った。",
+      "sentenceWithBlanks": "担当者は苦情への ____ ____ ____ ____",
+      "korean": "담당자는 불만 처리를 이리저리 떠넘긴 끝에, 거래처의 신뢰를 잃었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-001-13-p4",
-          "text": "とうとう家を",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-001-13-p1",
-          "text": "出て",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-001-13-p2",
-          "text": "さんざん親に心配をかけた",
+          "id": "so-created-n2-001-18-p1",
+          "text": "対応をたらい",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-001-13-p3",
-          "text": "あげく",
+          "id": "so-created-n2-001-18-p2",
+          "text": "回しにした",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-001-18-p3",
+          "text": "あげく、取引先の",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-001-18-p4",
+          "text": "信用を失った。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-001-13-p2",
-        "so-extra20-n2-001-13-p3",
-        "so-extra20-n2-001-13-p4",
-        "so-extra20-n2-001-13-p1"
+        "so-created-n2-001-18-p1",
+        "so-created-n2-001-18-p2",
+        "so-created-n2-001-18-p3",
+        "so-created-n2-001-18-p4"
       ],
-      "explanation": "「あげく」는 ~한 끝에, 결국 ~하고 말았다라는 뜻이다. 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '담당자는 불만 처리를 이리저리 떠넘긴 끝에, 거래처의 신뢰를 잃었다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
       "sourceGrammarIds": [
-        "n2-001"
+        "n2-001",
+        "n2-050",
+        "n2-059",
+        "n2-002"
       ],
       "tags": [
         "結果",
         "悪い結果",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-001-14",
+      "id": "so-created-n2-001-19",
       "level": "N2",
-      "sentence": "この問題については、長時間にわたる議論のあげく、結論は先送りされた。",
-      "sentenceWithBlanks": "この問題については、長時間にわたる議論の ____ ____ ____ ____",
-      "korean": "이 문제는 장시간 논의 끝에 결론이 미뤄졌다.",
+      "sentence": "空港で何時間も便の再開を待ったあげく、旅行客は欠航を告げられた。",
+      "sentenceWithBlanks": "空港で ____ ____ ____ ____ 欠航を告げられた。",
+      "korean": "공항에서 몇 시간이나 운항 재개를 기다린 끝에, 여행객들은 결항 통보를 받았다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-001-14-p3",
-          "text": "先送り",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-001-14-p4",
-          "text": "された",
+          "id": "so-created-n2-001-19-p4",
+          "text": "旅行客は",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-001-14-p1",
-          "text": "あげく",
+          "id": "so-created-n2-001-19-p1",
+          "text": "何時間も便の",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-001-14-p2",
-          "text": "結論は",
+          "id": "so-created-n2-001-19-p2",
+          "text": "再開を待った",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-001-19-p3",
+          "text": "あげく、",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-001-14-p1",
-        "so-extra20-n2-001-14-p2",
-        "so-extra20-n2-001-14-p3",
-        "so-extra20-n2-001-14-p4"
+        "so-created-n2-001-19-p1",
+        "so-created-n2-001-19-p2",
+        "so-created-n2-001-19-p3",
+        "so-created-n2-001-19-p4"
       ],
-      "explanation": "「あげく」는 ~한 끝에, 결국 ~하고 말았다라는 뜻이다. 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '공항에서 몇 시간이나 운항 재개를 기다린 끝에, 여행객들은 결항 통보를 받았다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
       "sourceGrammarIds": [
-        "n2-001"
+        "n2-001",
+        "n2-050",
+        "n2-059",
+        "n2-003"
       ],
       "tags": [
         "結果",
         "悪い結果",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-001-15",
+      "id": "so-created-n2-001-20",
       "level": "N2",
-      "sentence": "太郎はお金のことや友人の問題でさんざん親に心配をかけたあげく、とうとう家を出てしまった。",
-      "sentenceWithBlanks": "太郎はお金のことや友人の問題でさんざん親に心配をかけた ____ ____ ____ ____",
-      "korean": "타로는 돈 문제와 친구 문제로 부모에게 실컷 걱정을 끼친 끝에, 결국 집을 나가 버렸다.",
+      "sentence": "叔父は腰の痛みを我慢したあげく、救急車で運ばれることになった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 運ばれることになった。",
+      "korean": "삼촌은 허리 통증을 참은 끝에, 구급차로 실려 가게 되었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-001-15-p2",
-          "text": "出て",
+          "id": "so-created-n2-001-20-p3",
+          "text": "あげく、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-001-15-p3",
-          "text": "しまった",
+          "id": "so-created-n2-001-20-p4",
+          "text": "救急車で",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-001-15-p4",
-          "text": "あげく",
+          "id": "so-created-n2-001-20-p1",
+          "text": "叔父は腰の",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-001-15-p1",
-          "text": "とうとう家を",
+          "id": "so-created-n2-001-20-p2",
+          "text": "痛みを我慢した",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-001-15-p4",
-        "so-extra20-n2-001-15-p1",
-        "so-extra20-n2-001-15-p2",
-        "so-extra20-n2-001-15-p3"
+        "so-created-n2-001-20-p1",
+        "so-created-n2-001-20-p2",
+        "so-created-n2-001-20-p3",
+        "so-created-n2-001-20-p4"
       ],
-      "explanation": "「あげく」는 ~한 끝에, 결국 ~하고 말았다라는 뜻이다. 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '삼촌은 허리 통증을 참은 끝에, 구급차로 실려 가게 되었다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
       "sourceGrammarIds": [
-        "n2-001"
+        "n2-001",
+        "n2-050",
+        "n2-059",
+        "n2-002"
       ],
       "tags": [
         "結果",
         "悪い結果",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-001-16",
+      "id": "so-created-n2-001-21",
       "level": "N2",
-      "sentence": "太郎はお金のことや友人の問題でさんざん親に心配をかけたあげく、とうとう家を出てしまった。",
-      "sentenceWithBlanks": "太郎はお金のことや友人の問題でさんざん親に心配をかけた ____ ____ ____ ____",
-      "korean": "타로는 돈 문제와 친구 문제로 부모에게 실컷 걱정을 끼친 끝에, 결국 집을 나가 버렸다.",
+      "sentence": "職人は注文主の変更要求に応じ続けたあげく、納期に間に合わなかった。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 納期に間に合わなかった。",
+      "korean": "장인은 주문자의 변경 요구를 계속 들어준 끝에, 납기를 맞추지 못했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-001-16-p1",
-          "text": "とうとう家を",
+          "id": "so-created-n2-001-21-p2",
+          "text": "主の変更",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-001-16-p2",
-          "text": "出て",
+          "id": "so-created-n2-001-21-p3",
+          "text": "要求に応じ",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-001-16-p3",
-          "text": "しまった",
+          "id": "so-created-n2-001-21-p4",
+          "text": "続けたあげく、",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-001-16-p4",
-          "text": "あげく",
+          "id": "so-created-n2-001-21-p1",
+          "text": "職人は注文",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-001-16-p4",
-        "so-extra20-n2-001-16-p1",
-        "so-extra20-n2-001-16-p2",
-        "so-extra20-n2-001-16-p3"
+        "so-created-n2-001-21-p1",
+        "so-created-n2-001-21-p2",
+        "so-created-n2-001-21-p3",
+        "so-created-n2-001-21-p4"
       ],
-      "explanation": "「あげく」는 ~한 끝에, 결국 ~하고 말았다라는 뜻이다. 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '장인은 주문자의 변경 요구를 계속 들어준 끝에, 납기를 맞추지 못했다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
       "sourceGrammarIds": [
-        "n2-001"
+        "n2-001",
+        "n2-050",
+        "n2-059",
+        "n2-002"
       ],
       "tags": [
         "結果",
         "悪い結果",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-001-17",
+      "id": "so-created-n2-001-22",
       "level": "N2",
-      "sentence": "この問題については、長時間にわたる議論のあげく、結論は先送りされた。",
-      "sentenceWithBlanks": "この問題については、長時間にわたる議論の ____ ____ ____ ____",
-      "korean": "이 문제는 장시간 논의 끝에 결론이 미뤄졌다.",
+      "sentence": "記者は未確認の情報を追いかけたあげく、無関係な人物の名前を報じてしまった。",
+      "sentenceWithBlanks": "記者は ____ ____ ____ ____ 報じてしまった。",
+      "korean": "기자는 확인되지 않은 정보를 쫓은 끝에, 무관한 사람의 이름을 보도하고 말았다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-001-17-p4",
-          "text": "結論は",
+          "id": "so-created-n2-001-22-p1",
+          "text": "未確認の情報を",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-001-22-p2",
+          "text": "追いかけた",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-001-17-p1",
-          "text": "先送り",
+          "id": "so-created-n2-001-22-p3",
+          "text": "あげく、無関係な",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-001-17-p2",
-          "text": "された",
+          "id": "so-created-n2-001-22-p4",
+          "text": "人物の名前を",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-001-17-p3",
-          "text": "あげく",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-001-17-p3",
-        "so-extra20-n2-001-17-p4",
-        "so-extra20-n2-001-17-p1",
-        "so-extra20-n2-001-17-p2"
+        "so-created-n2-001-22-p1",
+        "so-created-n2-001-22-p2",
+        "so-created-n2-001-22-p3",
+        "so-created-n2-001-22-p4"
       ],
-      "explanation": "「あげく」는 ~한 끝에, 결국 ~하고 말았다라는 뜻이다. 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '기자는 확인되지 않은 정보를 쫓은 끝에, 무관한 사람의 이름을 보도하고 말았다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
       "sourceGrammarIds": [
-        "n2-001"
+        "n2-001",
+        "n2-050",
+        "n2-059",
+        "n2-003"
       ],
       "tags": [
         "結果",
         "悪い結果",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-001-18",
+      "id": "so-created-n2-001-23",
       "level": "N2",
-      "sentence": "太郎はお金のことや友人の問題でさんざん親に心配をかけたあげく、とうとう家を出てしまった。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、とうとう家を出てしまった。",
-      "korean": "타로는 돈 문제와 친구 문제로 부모에게 실컷 걱정을 끼친 끝에, 결국 집을 나가 버렸다.",
+      "sentence": "管理人は水漏れを応急処置だけで済ませたあげく、下の階まで浸水させた。",
+      "sentenceWithBlanks": "管理人は水 ____ ____ ____ ____ 浸水させた。",
+      "korean": "관리인은 누수를 응급조치만으로 때운 끝에, 아래층까지 침수시켰다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-001-18-p3",
-          "text": "あげく",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-001-18-p4",
-          "text": "とうとう家を",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-001-18-p1",
-          "text": "出て",
+          "id": "so-created-n2-001-23-p4",
+          "text": "下の階まで",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-001-18-p2",
-          "text": "さんざん親に心配をかけた",
+          "id": "so-created-n2-001-23-p1",
+          "text": "漏れを応急",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-001-23-p2",
+          "text": "処置だけで",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-001-23-p3",
+          "text": "済ませたあげく、",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-001-18-p2",
-        "so-extra20-n2-001-18-p3",
-        "so-extra20-n2-001-18-p4",
-        "so-extra20-n2-001-18-p1"
+        "so-created-n2-001-23-p1",
+        "so-created-n2-001-23-p2",
+        "so-created-n2-001-23-p3",
+        "so-created-n2-001-23-p4"
       ],
-      "explanation": "「あげく」는 ~한 끝에, 결국 ~하고 말았다라는 뜻이다. 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '관리인은 누수를 응급조치만으로 때운 끝에, 아래층까지 침수시켰다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
       "sourceGrammarIds": [
-        "n2-001"
+        "n2-001",
+        "n2-050",
+        "n2-059",
+        "n2-002"
       ],
       "tags": [
         "結果",
         "悪い結果",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-001-19",
+      "id": "so-created-n2-001-24",
       "level": "N2",
-      "sentence": "この問題については、長時間にわたる議論のあげく、結論は先送りされた。",
-      "sentenceWithBlanks": "この問題については、長時間にわたる議論の ____ ____ ____ ____",
-      "korean": "이 문제는 장시간 논의 끝에 결론이 미뤄졌다.",
+      "sentence": "弟は中古車の欠陥を隠して売ったあげく、購入者に訴えられた。",
+      "sentenceWithBlanks": "弟は ____ ____ ____ ____ 訴えられた。",
+      "korean": "남동생은 중고차의 결함을 숨기고 판 끝에, 구매자에게 고소당했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-001-19-p2",
-          "text": "結論は",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-001-19-p3",
-          "text": "先送り",
+          "id": "so-created-n2-001-24-p3",
+          "text": "売ったあげく、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-001-19-p4",
-          "text": "された",
+          "id": "so-created-n2-001-24-p4",
+          "text": "購入者に",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-001-19-p1",
-          "text": "あげく",
+          "id": "so-created-n2-001-24-p1",
+          "text": "中古車の",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-001-24-p2",
+          "text": "欠陥を隠して",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-001-19-p1",
-        "so-extra20-n2-001-19-p2",
-        "so-extra20-n2-001-19-p3",
-        "so-extra20-n2-001-19-p4"
+        "so-created-n2-001-24-p1",
+        "so-created-n2-001-24-p2",
+        "so-created-n2-001-24-p3",
+        "so-created-n2-001-24-p4"
       ],
-      "explanation": "「あげく」는 ~한 끝에, 결국 ~하고 말았다라는 뜻이다. 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '남동생은 중고차의 결함을 숨기고 판 끝에, 구매자에게 고소당했다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
       "sourceGrammarIds": [
-        "n2-001"
+        "n2-001",
+        "n2-050",
+        "n2-059",
+        "n2-002"
       ],
       "tags": [
         "結果",
         "悪い結果",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-001-20",
+      "id": "so-created-n2-001-25",
       "level": "N2",
-      "sentence": "太郎はお金のことや友人の問題でさんざん親に心配をかけたあげく、とうとう家を出てしまった。",
-      "sentenceWithBlanks": "太郎はお金のことや友人の問題でさんざん親に心配をかけた ____ ____ ____ ____",
-      "korean": "타로는 돈 문제와 친구 문제로 부모에게 실컷 걱정을 끼친 끝에, 결국 집을 나가 버렸다.",
+      "sentence": "舞台監督は出演者の対立を収められなかったあげく、公演を中止すると発表した。",
+      "sentenceWithBlanks": "舞台監督は出演 ____ ____ ____ ____",
+      "korean": "무대감독은 출연자들의 갈등을 수습하지 못한 끝에, 공연을 중지한다고 발표했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-001-20-p1",
-          "text": "とうとう家を",
+          "id": "so-created-n2-001-25-p2",
+          "text": "収められなかった",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-001-20-p2",
-          "text": "出て",
+          "id": "so-created-n2-001-25-p3",
+          "text": "あげく、公演を",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-001-20-p3",
-          "text": "しまった",
+          "id": "so-created-n2-001-25-p4",
+          "text": "中止すると発表した。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-001-20-p4",
-          "text": "あげく",
+          "id": "so-created-n2-001-25-p1",
+          "text": "者の対立を",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-001-20-p4",
-        "so-extra20-n2-001-20-p1",
-        "so-extra20-n2-001-20-p2",
-        "so-extra20-n2-001-20-p3"
+        "so-created-n2-001-25-p1",
+        "so-created-n2-001-25-p2",
+        "so-created-n2-001-25-p3",
+        "so-created-n2-001-25-p4"
       ],
-      "explanation": "「あげく」는 ~한 끝에, 결국 ~하고 말았다라는 뜻이다. 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과.",
+      "explanation": "「あげく」는 '~한 끝에, 결국 ~하고 말았다'라는 뜻을 나타낸다. 이 문장에서는 '무대감독은 출연자들의 갈등을 수습하지 못한 끝에, 공연을 중지한다고 발표했다.'라는 상황에 쓰였으며, 오랜 고민·고생·논의 끝에 나온 결과. 보통 부정적 결과. 주의할 점은 부정적 결과에만 씀. 좋은 결과엔 すえに를 쓸 것.",
       "sourceGrammarIds": [
-        "n2-001"
+        "n2-001",
+        "n2-050",
+        "n2-059",
+        "n2-003"
       ],
       "tags": [
         "結果",
         "悪い結果",
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     }
   ]

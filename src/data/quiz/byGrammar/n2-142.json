@@ -267,15 +267,23 @@
       ]
     },
     {
-      "id": "fb-extra-n2-142-1",
+      "id": "fb-created-n2-142-01",
       "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlank": "父は元気だ。母（　　　）、少し疲れているようだ。",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
-      "answerChoiceId": "fb-extra-n2-142-1-c",
+      "sentence": "兄は海辺の町に残った。弟はというと、山奥で林業を始めた。",
+      "sentenceWithBlank": "兄は海辺の町に残った。弟（　　　）、山奥で林業を始めた。",
+      "korean": "형은 바닷가 마을에 남았다. 남동생은 어떠냐 하면 산골에서 임업을 시작했다.",
+      "answerChoiceId": "fb-created-n2-142-01-c",
       "choices": [
         {
-          "id": "fb-extra-n2-142-1-d",
+          "id": "fb-created-n2-142-01-c",
+          "text": "はというと",
+          "grammarId": "n2-142",
+          "baseExpression": "はというと",
+          "conjugatedExpression": "はというと",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-142-01-d",
           "text": "ところをみると",
           "grammarId": "n2-089",
           "baseExpression": "ところをみると",
@@ -283,7 +291,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-142-1-a",
+          "id": "fb-created-n2-142-01-a",
           "text": "としてない",
           "grammarId": "n2-090",
           "baseExpression": "としてない",
@@ -291,23 +299,15 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra-n2-142-1-b",
+          "id": "fb-created-n2-142-01-b",
           "text": "とともに",
           "grammarId": "n2-091",
           "baseExpression": "とともに",
           "conjugatedExpression": "とともに",
           "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-142-1-c",
-          "text": "はというと",
-          "grammarId": "n2-142",
-          "baseExpression": "はというと",
-          "conjugatedExpression": "はというと",
-          "isSimilarDistractor": false
         }
       ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '형은 바닷가 마을에 남았다. 남동생은 어떠냐 하면 산골에서 임업을 시작했다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
       "sourceGrammarIds": [
         "n2-142",
         "n2-089",
@@ -315,237 +315,20 @@
         "n2-091"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra-n2-142-2",
+      "id": "fb-created-n2-142-02",
       "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlank": "父は元気だ。母（　　　）、少し疲れているようだ。",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
-      "answerChoiceId": "fb-extra-n2-142-2-b",
+      "sentence": "新商品の売れ行きは好調だ。旧型はというと、値下げしても在庫が減らない。",
+      "sentenceWithBlank": "新商品の売れ行きは好調だ。旧型（　　　）、値下げしても在庫が減らない。",
+      "korean": "신제품의 판매는 호조다. 구형은 어떠냐 하면 가격을 내려도 재고가 줄지 않는다.",
+      "answerChoiceId": "fb-created-n2-142-02-c",
       "choices": [
         {
-          "id": "fb-extra-n2-142-2-a",
-          "text": "ところではない",
-          "grammarId": "n2-088",
-          "baseExpression": "ところではない",
-          "conjugatedExpression": "ところではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-142-2-b",
-          "text": "はというと",
-          "grammarId": "n2-142",
-          "baseExpression": "はというと",
-          "conjugatedExpression": "はというと",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-142-2-c",
-          "text": "どころか",
-          "grammarId": "n2-086",
-          "baseExpression": "どころか",
-          "conjugatedExpression": "どころか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-142-2-d",
-          "text": "ところだった",
-          "grammarId": "n2-087",
-          "baseExpression": "ところだった",
-          "conjugatedExpression": "ところだった",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
-      "sourceGrammarIds": [
-        "n2-142",
-        "n2-086",
-        "n2-087",
-        "n2-088"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-142-3",
-      "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlank": "父は元気だ。母（　　　）、少し疲れているようだ。",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
-      "answerChoiceId": "fb-extra-n2-142-3-a",
-      "choices": [
-        {
-          "id": "fb-extra-n2-142-3-b",
-          "text": "といえば",
-          "grammarId": "n2-083",
-          "baseExpression": "といえば",
-          "conjugatedExpression": "といえば",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-142-3-c",
-          "text": "とかといった",
-          "grammarId": "n2-084",
-          "baseExpression": "とかといった",
-          "conjugatedExpression": "とかといった",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-142-3-d",
-          "text": "といったら",
-          "grammarId": "n2-085",
-          "baseExpression": "といったら",
-          "conjugatedExpression": "といったら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-142-3-a",
-          "text": "はというと",
-          "grammarId": "n2-142",
-          "baseExpression": "はというと",
-          "conjugatedExpression": "はというと",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
-      "sourceGrammarIds": [
-        "n2-142",
-        "n2-083",
-        "n2-084",
-        "n2-085"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-142-4",
-      "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlank": "父は元気だ。母（　　　）、少し疲れているようだ。",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
-      "answerChoiceId": "fb-extra-n2-142-4-d",
-      "choices": [
-        {
-          "id": "fb-extra-n2-142-4-c",
-          "text": "の上で",
-          "grammarId": "n2-134",
-          "baseExpression": "の上で",
-          "conjugatedExpression": "の上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-142-4-d",
-          "text": "はというと",
-          "grammarId": "n2-142",
-          "baseExpression": "はというと",
-          "conjugatedExpression": "はというと",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra-n2-142-4-a",
-          "text": "ぬきで",
-          "grammarId": "n2-132",
-          "baseExpression": "ぬきで",
-          "conjugatedExpression": "ぬきで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-142-4-b",
-          "text": "ぬく",
-          "grammarId": "n2-133",
-          "baseExpression": "ぬく",
-          "conjugatedExpression": "ぬく",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
-      "sourceGrammarIds": [
-        "n2-142",
-        "n2-132",
-        "n2-133",
-        "n2-134"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra-n2-142-5",
-      "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlank": "父は元気だ。母（　　　）、少し疲れているようだ。",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
-      "answerChoiceId": "fb-extra-n2-142-5-c",
-      "choices": [
-        {
-          "id": "fb-extra-n2-142-5-d",
-          "text": "ことだ",
-          "grammarId": "n2-037",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-142-5-a",
-          "text": "ことだ",
-          "grammarId": "n2-038",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-142-5-b",
-          "text": "ことだし",
-          "grammarId": "n2-039",
-          "baseExpression": "ことだし",
-          "conjugatedExpression": "ことだし",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra-n2-142-5-c",
-          "text": "はというと",
-          "grammarId": "n2-142",
-          "baseExpression": "はというと",
-          "conjugatedExpression": "はというと",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
-      "sourceGrammarIds": [
-        "n2-142",
-        "n2-037",
-        "n2-038",
-        "n2-039"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-142-01",
-      "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlank": "父は元気だ。母（　　　）、少し疲れているようだ。",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
-      "answerChoiceId": "fb-extra20-n2-142-01-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-142-01-d",
+          "id": "fb-created-n2-142-02-d",
           "text": "ところをみると",
           "grammarId": "n2-089",
           "baseExpression": "ところをみると",
@@ -553,7 +336,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-142-01-a",
+          "id": "fb-created-n2-142-02-a",
           "text": "としてない",
           "grammarId": "n2-090",
           "baseExpression": "としてない",
@@ -561,7 +344,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-142-01-b",
+          "id": "fb-created-n2-142-02-b",
           "text": "とともに",
           "grammarId": "n2-091",
           "baseExpression": "とともに",
@@ -569,7 +352,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-142-01-c",
+          "id": "fb-created-n2-142-02-c",
           "text": "はというと",
           "grammarId": "n2-142",
           "baseExpression": "はというと",
@@ -577,7 +360,7 @@
           "isSimilarDistractor": false
         }
       ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '신제품의 판매는 호조다. 구형은 어떠냐 하면 가격을 내려도 재고가 줄지 않는다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
       "sourceGrammarIds": [
         "n2-142",
         "n2-089",
@@ -585,253 +368,20 @@
         "n2-091"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-142-02",
+      "id": "fb-created-n2-142-03",
       "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlank": "父は元気だ。母（　　　）、少し疲れているようだ。",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
-      "answerChoiceId": "fb-extra20-n2-142-02-b",
+      "sentence": "港では朝から風が強い。内陸部はというと、霧で高速道路が閉鎖された。",
+      "sentenceWithBlank": "港では朝から風が強い。内陸部（　　　）、霧で高速道路が閉鎖された。",
+      "korean": "항구에서는 아침부터 바람이 세다. 내륙 지역은 어떠냐 하면 안개로 고속도로가 폐쇄되었다.",
+      "answerChoiceId": "fb-created-n2-142-03-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-142-02-c",
-          "text": "どころか",
-          "grammarId": "n2-086",
-          "baseExpression": "どころか",
-          "conjugatedExpression": "どころか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-142-02-d",
-          "text": "ところだった",
-          "grammarId": "n2-087",
-          "baseExpression": "ところだった",
-          "conjugatedExpression": "ところだった",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-142-02-a",
-          "text": "ところではない",
-          "grammarId": "n2-088",
-          "baseExpression": "ところではない",
-          "conjugatedExpression": "ところではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-142-02-b",
-          "text": "はというと",
-          "grammarId": "n2-142",
-          "baseExpression": "はというと",
-          "conjugatedExpression": "はというと",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
-      "sourceGrammarIds": [
-        "n2-142",
-        "n2-086",
-        "n2-087",
-        "n2-088"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-142-03",
-      "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlank": "父は元気だ。母（　　　）、少し疲れているようだ。",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
-      "answerChoiceId": "fb-extra20-n2-142-03-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-142-03-b",
-          "text": "といえば",
-          "grammarId": "n2-083",
-          "baseExpression": "といえば",
-          "conjugatedExpression": "といえば",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-142-03-c",
-          "text": "とかといった",
-          "grammarId": "n2-084",
-          "baseExpression": "とかといった",
-          "conjugatedExpression": "とかといった",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-142-03-d",
-          "text": "といったら",
-          "grammarId": "n2-085",
-          "baseExpression": "といったら",
-          "conjugatedExpression": "といったら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-142-03-a",
-          "text": "はというと",
-          "grammarId": "n2-142",
-          "baseExpression": "はというと",
-          "conjugatedExpression": "はというと",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
-      "sourceGrammarIds": [
-        "n2-142",
-        "n2-083",
-        "n2-084",
-        "n2-085"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-142-04",
-      "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlank": "父は元気だ。母（　　　）、少し疲れているようだ。",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
-      "answerChoiceId": "fb-extra20-n2-142-04-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-142-04-a",
-          "text": "ぬきで",
-          "grammarId": "n2-132",
-          "baseExpression": "ぬきで",
-          "conjugatedExpression": "ぬきで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-142-04-b",
-          "text": "ぬく",
-          "grammarId": "n2-133",
-          "baseExpression": "ぬく",
-          "conjugatedExpression": "ぬく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-142-04-c",
-          "text": "の上で",
-          "grammarId": "n2-134",
-          "baseExpression": "の上で",
-          "conjugatedExpression": "の上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-142-04-d",
-          "text": "はというと",
-          "grammarId": "n2-142",
-          "baseExpression": "はというと",
-          "conjugatedExpression": "はというと",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
-      "sourceGrammarIds": [
-        "n2-142",
-        "n2-132",
-        "n2-133",
-        "n2-134"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-142-05",
-      "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlank": "父は元気だ。母（　　　）、少し疲れているようだ。",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
-      "answerChoiceId": "fb-extra20-n2-142-05-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-142-05-d",
-          "text": "ことだ",
-          "grammarId": "n2-037",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-142-05-a",
-          "text": "ことだ",
-          "grammarId": "n2-038",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-142-05-b",
-          "text": "ことだし",
-          "grammarId": "n2-039",
-          "baseExpression": "ことだし",
-          "conjugatedExpression": "ことだし",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-142-05-c",
-          "text": "はというと",
-          "grammarId": "n2-142",
-          "baseExpression": "はというと",
-          "conjugatedExpression": "はというと",
-          "isSimilarDistractor": false
-        }
-      ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
-      "sourceGrammarIds": [
-        "n2-142",
-        "n2-037",
-        "n2-038",
-        "n2-039"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-142-06",
-      "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlank": "父は元気だ。母（　　　）、少し疲れているようだ。",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
-      "answerChoiceId": "fb-extra20-n2-142-06-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-142-06-c",
-          "text": "はというと",
-          "grammarId": "n2-142",
-          "baseExpression": "はというと",
-          "conjugatedExpression": "はというと",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-142-06-d",
-          "text": "ところをみると",
-          "grammarId": "n2-089",
-          "baseExpression": "ところをみると",
-          "conjugatedExpression": "ところをみると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-142-06-a",
+          "id": "fb-created-n2-142-03-a",
           "text": "としてない",
           "grammarId": "n2-090",
           "baseExpression": "としてない",
@@ -839,253 +389,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-142-06-b",
-          "text": "とともに",
-          "grammarId": "n2-091",
-          "baseExpression": "とともに",
-          "conjugatedExpression": "とともに",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
-      "sourceGrammarIds": [
-        "n2-142",
-        "n2-089",
-        "n2-090",
-        "n2-091"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-142-07",
-      "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlank": "父は元気だ。母（　　　）、少し疲れているようだ。",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
-      "answerChoiceId": "fb-extra20-n2-142-07-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-142-07-b",
-          "text": "はというと",
-          "grammarId": "n2-142",
-          "baseExpression": "はというと",
-          "conjugatedExpression": "はというと",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-142-07-c",
-          "text": "どころか",
-          "grammarId": "n2-086",
-          "baseExpression": "どころか",
-          "conjugatedExpression": "どころか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-142-07-d",
-          "text": "ところだった",
-          "grammarId": "n2-087",
-          "baseExpression": "ところだった",
-          "conjugatedExpression": "ところだった",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-142-07-a",
-          "text": "ところではない",
-          "grammarId": "n2-088",
-          "baseExpression": "ところではない",
-          "conjugatedExpression": "ところではない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
-      "sourceGrammarIds": [
-        "n2-142",
-        "n2-086",
-        "n2-087",
-        "n2-088"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-142-08",
-      "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlank": "父は元気だ。母（　　　）、少し疲れているようだ。",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
-      "answerChoiceId": "fb-extra20-n2-142-08-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-142-08-a",
-          "text": "はというと",
-          "grammarId": "n2-142",
-          "baseExpression": "はというと",
-          "conjugatedExpression": "はというと",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-142-08-b",
-          "text": "といえば",
-          "grammarId": "n2-083",
-          "baseExpression": "といえば",
-          "conjugatedExpression": "といえば",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-142-08-c",
-          "text": "とかといった",
-          "grammarId": "n2-084",
-          "baseExpression": "とかといった",
-          "conjugatedExpression": "とかといった",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-142-08-d",
-          "text": "といったら",
-          "grammarId": "n2-085",
-          "baseExpression": "といったら",
-          "conjugatedExpression": "といったら",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
-      "sourceGrammarIds": [
-        "n2-142",
-        "n2-083",
-        "n2-084",
-        "n2-085"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-142-09",
-      "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlank": "父は元気だ。母（　　　）、少し疲れているようだ。",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
-      "answerChoiceId": "fb-extra20-n2-142-09-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-142-09-d",
-          "text": "はというと",
-          "grammarId": "n2-142",
-          "baseExpression": "はというと",
-          "conjugatedExpression": "はというと",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-142-09-a",
-          "text": "ぬきで",
-          "grammarId": "n2-132",
-          "baseExpression": "ぬきで",
-          "conjugatedExpression": "ぬきで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-142-09-b",
-          "text": "ぬく",
-          "grammarId": "n2-133",
-          "baseExpression": "ぬく",
-          "conjugatedExpression": "ぬく",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-142-09-c",
-          "text": "の上で",
-          "grammarId": "n2-134",
-          "baseExpression": "の上で",
-          "conjugatedExpression": "の上で",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
-      "sourceGrammarIds": [
-        "n2-142",
-        "n2-132",
-        "n2-133",
-        "n2-134"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-142-10",
-      "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlank": "父は元気だ。母（　　　）、少し疲れているようだ。",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
-      "answerChoiceId": "fb-extra20-n2-142-10-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-142-10-c",
-          "text": "はというと",
-          "grammarId": "n2-142",
-          "baseExpression": "はというと",
-          "conjugatedExpression": "はというと",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-142-10-d",
-          "text": "ことだ",
-          "grammarId": "n2-037",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-142-10-a",
-          "text": "ことだ",
-          "grammarId": "n2-038",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-142-10-b",
-          "text": "ことだし",
-          "grammarId": "n2-039",
-          "baseExpression": "ことだし",
-          "conjugatedExpression": "ことだし",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
-      "sourceGrammarIds": [
-        "n2-142",
-        "n2-037",
-        "n2-038",
-        "n2-039"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-142-11",
-      "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlank": "父は元気だ。母（　　　）、少し疲れているようだ。",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
-      "answerChoiceId": "fb-extra20-n2-142-11-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-142-11-b",
+          "id": "fb-created-n2-142-03-b",
           "text": "とともに",
           "grammarId": "n2-091",
           "baseExpression": "とともに",
@@ -1093,7 +397,7 @@
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-142-11-c",
+          "id": "fb-created-n2-142-03-c",
           "text": "はというと",
           "grammarId": "n2-142",
           "baseExpression": "はというと",
@@ -1101,285 +405,7 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-142-11-d",
-          "text": "ところをみると",
-          "grammarId": "n2-089",
-          "baseExpression": "ところをみると",
-          "conjugatedExpression": "ところをみると",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-142-11-a",
-          "text": "としてない",
-          "grammarId": "n2-090",
-          "baseExpression": "としてない",
-          "conjugatedExpression": "としてない",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
-      "sourceGrammarIds": [
-        "n2-142",
-        "n2-089",
-        "n2-090",
-        "n2-091"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-142-12",
-      "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlank": "父は元気だ。母（　　　）、少し疲れているようだ。",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
-      "answerChoiceId": "fb-extra20-n2-142-12-b",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-142-12-a",
-          "text": "ところではない",
-          "grammarId": "n2-088",
-          "baseExpression": "ところではない",
-          "conjugatedExpression": "ところではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-142-12-b",
-          "text": "はというと",
-          "grammarId": "n2-142",
-          "baseExpression": "はというと",
-          "conjugatedExpression": "はというと",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-142-12-c",
-          "text": "どころか",
-          "grammarId": "n2-086",
-          "baseExpression": "どころか",
-          "conjugatedExpression": "どころか",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-142-12-d",
-          "text": "ところだった",
-          "grammarId": "n2-087",
-          "baseExpression": "ところだった",
-          "conjugatedExpression": "ところだった",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
-      "sourceGrammarIds": [
-        "n2-142",
-        "n2-086",
-        "n2-087",
-        "n2-088"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-142-13",
-      "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlank": "父は元気だ。母（　　　）、少し疲れているようだ。",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
-      "answerChoiceId": "fb-extra20-n2-142-13-a",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-142-13-d",
-          "text": "といったら",
-          "grammarId": "n2-085",
-          "baseExpression": "といったら",
-          "conjugatedExpression": "といったら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-142-13-a",
-          "text": "はというと",
-          "grammarId": "n2-142",
-          "baseExpression": "はというと",
-          "conjugatedExpression": "はというと",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-142-13-b",
-          "text": "といえば",
-          "grammarId": "n2-083",
-          "baseExpression": "といえば",
-          "conjugatedExpression": "といえば",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-142-13-c",
-          "text": "とかといった",
-          "grammarId": "n2-084",
-          "baseExpression": "とかといった",
-          "conjugatedExpression": "とかといった",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
-      "sourceGrammarIds": [
-        "n2-142",
-        "n2-083",
-        "n2-084",
-        "n2-085"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-142-14",
-      "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlank": "父は元気だ。母（　　　）、少し疲れているようだ。",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
-      "answerChoiceId": "fb-extra20-n2-142-14-d",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-142-14-c",
-          "text": "の上で",
-          "grammarId": "n2-134",
-          "baseExpression": "の上で",
-          "conjugatedExpression": "の上で",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-142-14-d",
-          "text": "はというと",
-          "grammarId": "n2-142",
-          "baseExpression": "はというと",
-          "conjugatedExpression": "はというと",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-142-14-a",
-          "text": "ぬきで",
-          "grammarId": "n2-132",
-          "baseExpression": "ぬきで",
-          "conjugatedExpression": "ぬきで",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-142-14-b",
-          "text": "ぬく",
-          "grammarId": "n2-133",
-          "baseExpression": "ぬく",
-          "conjugatedExpression": "ぬく",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
-      "sourceGrammarIds": [
-        "n2-142",
-        "n2-132",
-        "n2-133",
-        "n2-134"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-142-15",
-      "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlank": "父は元気だ。母（　　　）、少し疲れているようだ。",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
-      "answerChoiceId": "fb-extra20-n2-142-15-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-142-15-b",
-          "text": "ことだし",
-          "grammarId": "n2-039",
-          "baseExpression": "ことだし",
-          "conjugatedExpression": "ことだし",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-142-15-c",
-          "text": "はというと",
-          "grammarId": "n2-142",
-          "baseExpression": "はというと",
-          "conjugatedExpression": "はというと",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-142-15-d",
-          "text": "ことだ",
-          "grammarId": "n2-037",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-142-15-a",
-          "text": "ことだ",
-          "grammarId": "n2-038",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
-          "isSimilarDistractor": true
-        }
-      ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
-      "sourceGrammarIds": [
-        "n2-142",
-        "n2-037",
-        "n2-038",
-        "n2-039"
-      ],
-      "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
-      ]
-    },
-    {
-      "id": "fb-extra20-n2-142-16",
-      "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlank": "父は元気だ。母（　　　）、少し疲れているようだ。",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
-      "answerChoiceId": "fb-extra20-n2-142-16-c",
-      "choices": [
-        {
-          "id": "fb-extra20-n2-142-16-a",
-          "text": "としてない",
-          "grammarId": "n2-090",
-          "baseExpression": "としてない",
-          "conjugatedExpression": "としてない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-142-16-b",
-          "text": "とともに",
-          "grammarId": "n2-091",
-          "baseExpression": "とともに",
-          "conjugatedExpression": "とともに",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-142-16-c",
-          "text": "はというと",
-          "grammarId": "n2-142",
-          "baseExpression": "はというと",
-          "conjugatedExpression": "はというと",
-          "isSimilarDistractor": false
-        },
-        {
-          "id": "fb-extra20-n2-142-16-d",
+          "id": "fb-created-n2-142-03-d",
           "text": "ところをみると",
           "grammarId": "n2-089",
           "baseExpression": "ところをみると",
@@ -1387,7 +413,7 @@
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '항구에서는 아침부터 바람이 세다. 내륙 지역은 어떠냐 하면 안개로 고속도로가 폐쇄되었다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
       "sourceGrammarIds": [
         "n2-142",
         "n2-089",
@@ -1395,37 +421,28 @@
         "n2-091"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-142-17",
+      "id": "fb-created-n2-142-04",
       "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlank": "父は元気だ。母（　　　）、少し疲れているようだ。",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
-      "answerChoiceId": "fb-extra20-n2-142-17-b",
+      "sentence": "営業部は今月の目標を達成した。開発部はというと、納期の延期を取引先に申し入れた。",
+      "sentenceWithBlank": "営業部は今月の目標を達成した。開発部（　　　）、納期の延期を取引先に申し入れた。",
+      "korean": "영업부는 이번 달 목표를 달성했다. 개발부는 어떠냐 하면 납기 연기를 거래처에 요청했다.",
+      "answerChoiceId": "fb-created-n2-142-04-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-142-17-d",
-          "text": "ところだった",
-          "grammarId": "n2-087",
-          "baseExpression": "ところだった",
-          "conjugatedExpression": "ところだった",
+          "id": "fb-created-n2-142-04-b",
+          "text": "とともに",
+          "grammarId": "n2-091",
+          "baseExpression": "とともに",
+          "conjugatedExpression": "とともに",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-142-17-a",
-          "text": "ところではない",
-          "grammarId": "n2-088",
-          "baseExpression": "ところではない",
-          "conjugatedExpression": "ところではない",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-142-17-b",
+          "id": "fb-created-n2-142-04-c",
           "text": "はというと",
           "grammarId": "n2-142",
           "baseExpression": "はというと",
@@ -1433,53 +450,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-142-17-c",
-          "text": "どころか",
-          "grammarId": "n2-086",
-          "baseExpression": "どころか",
-          "conjugatedExpression": "どころか",
+          "id": "fb-created-n2-142-04-d",
+          "text": "ところをみると",
+          "grammarId": "n2-089",
+          "baseExpression": "ところをみると",
+          "conjugatedExpression": "ところをみると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-142-04-a",
+          "text": "としてない",
+          "grammarId": "n2-090",
+          "baseExpression": "としてない",
+          "conjugatedExpression": "としてない",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '영업부는 이번 달 목표를 달성했다. 개발부는 어떠냐 하면 납기 연기를 거래처에 요청했다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
       "sourceGrammarIds": [
         "n2-142",
-        "n2-086",
-        "n2-087",
-        "n2-088"
+        "n2-089",
+        "n2-090",
+        "n2-091"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-142-18",
+      "id": "fb-created-n2-142-05",
       "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlank": "父は元気だ。母（　　　）、少し疲れているようだ。",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
-      "answerChoiceId": "fb-extra20-n2-142-18-a",
+      "sentence": "長女は家業を継ぐ決心をした。次女はというと、海外の劇団から出演依頼を受けている。",
+      "sentenceWithBlank": "長女は家業を継ぐ決心をした。次女（　　　）、海外の劇団から出演依頼を受けている。",
+      "korean": "장녀는 가업을 잇기로 결심했다. 차녀는 어떠냐 하면 해외 극단에서 출연 제의를 받은 상태다.",
+      "answerChoiceId": "fb-created-n2-142-05-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-142-18-c",
-          "text": "とかといった",
-          "grammarId": "n2-084",
-          "baseExpression": "とかといった",
-          "conjugatedExpression": "とかといった",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-142-18-d",
-          "text": "といったら",
-          "grammarId": "n2-085",
-          "baseExpression": "といったら",
-          "conjugatedExpression": "といったら",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-142-18-a",
+          "id": "fb-created-n2-142-05-c",
           "text": "はというと",
           "grammarId": "n2-142",
           "baseExpression": "はというと",
@@ -1487,53 +495,121 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-142-18-b",
-          "text": "といえば",
-          "grammarId": "n2-083",
-          "baseExpression": "といえば",
-          "conjugatedExpression": "といえば",
+          "id": "fb-created-n2-142-05-d",
+          "text": "ところをみると",
+          "grammarId": "n2-089",
+          "baseExpression": "ところをみると",
+          "conjugatedExpression": "ところをみると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-142-05-a",
+          "text": "としてない",
+          "grammarId": "n2-090",
+          "baseExpression": "としてない",
+          "conjugatedExpression": "としてない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-142-05-b",
+          "text": "とともに",
+          "grammarId": "n2-091",
+          "baseExpression": "とともに",
+          "conjugatedExpression": "とともに",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '장녀는 가업을 잇기로 결심했다. 차녀는 어떠냐 하면 해외 극단에서 출연 제의를 받은 상태다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
       "sourceGrammarIds": [
         "n2-142",
-        "n2-083",
-        "n2-084",
-        "n2-085"
+        "n2-089",
+        "n2-090",
+        "n2-091"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-142-19",
+      "id": "fb-created-n2-142-06",
       "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlank": "父は元気だ。母（　　　）、少し疲れているようだ。",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
-      "answerChoiceId": "fb-extra20-n2-142-19-d",
+      "sentence": "犬は雷が鳴ると机の下に隠れる。猫はというと、窓辺で平然と眠っている。",
+      "sentenceWithBlank": "犬は雷が鳴ると机の下に隠れる。猫（　　　）、窓辺で平然と眠っている。",
+      "korean": "개는 천둥이 치면 책상 밑에 숨는다. 고양이는 어떠냐 하면 창가에서 태연하게 자고 있다.",
+      "answerChoiceId": "fb-created-n2-142-06-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-142-19-b",
-          "text": "ぬく",
-          "grammarId": "n2-133",
-          "baseExpression": "ぬく",
-          "conjugatedExpression": "ぬく",
+          "id": "fb-created-n2-142-06-d",
+          "text": "ところをみると",
+          "grammarId": "n2-089",
+          "baseExpression": "ところをみると",
+          "conjugatedExpression": "ところをみると",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-142-19-c",
-          "text": "の上で",
-          "grammarId": "n2-134",
-          "baseExpression": "の上で",
-          "conjugatedExpression": "の上で",
+          "id": "fb-created-n2-142-06-a",
+          "text": "としてない",
+          "grammarId": "n2-090",
+          "baseExpression": "としてない",
+          "conjugatedExpression": "としてない",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-142-19-d",
+          "id": "fb-created-n2-142-06-b",
+          "text": "とともに",
+          "grammarId": "n2-091",
+          "baseExpression": "とともに",
+          "conjugatedExpression": "とともに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-142-06-c",
+          "text": "はというと",
+          "grammarId": "n2-142",
+          "baseExpression": "はというと",
+          "conjugatedExpression": "はというと",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '개는 천둥이 치면 책상 밑에 숨는다. 고양이는 어떠냐 하면 창가에서 태연하게 자고 있다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
+      "sourceGrammarIds": [
+        "n2-142",
+        "n2-089",
+        "n2-090",
+        "n2-091"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-142-07",
+      "level": "N2",
+      "sentence": "駅前の商店街は観光客でにぎわっている。住宅街はというと、空き家が目立ち始めた。",
+      "sentenceWithBlank": "駅前の商店街は観光客でにぎわっている。住宅街（　　　）、空き家が目立ち始めた。",
+      "korean": "역 앞 상점가는 관광객으로 붐빈다. 주택가는 어떠냐 하면 빈집이 눈에 띄기 시작했다.",
+      "answerChoiceId": "fb-created-n2-142-07-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-142-07-a",
+          "text": "としてない",
+          "grammarId": "n2-090",
+          "baseExpression": "としてない",
+          "conjugatedExpression": "としてない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-142-07-b",
+          "text": "とともに",
+          "grammarId": "n2-091",
+          "baseExpression": "とともに",
+          "conjugatedExpression": "とともに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-142-07-c",
           "text": "はというと",
           "grammarId": "n2-142",
           "baseExpression": "はというと",
@@ -1541,53 +617,44 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-142-19-a",
-          "text": "ぬきで",
-          "grammarId": "n2-132",
-          "baseExpression": "ぬきで",
-          "conjugatedExpression": "ぬきで",
+          "id": "fb-created-n2-142-07-d",
+          "text": "ところをみると",
+          "grammarId": "n2-089",
+          "baseExpression": "ところをみると",
+          "conjugatedExpression": "ところをみると",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '역 앞 상점가는 관광객으로 붐빈다. 주택가는 어떠냐 하면 빈집이 눈에 띄기 시작했다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
       "sourceGrammarIds": [
         "n2-142",
-        "n2-132",
-        "n2-133",
-        "n2-134"
+        "n2-089",
+        "n2-090",
+        "n2-091"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
       ]
     },
     {
-      "id": "fb-extra20-n2-142-20",
+      "id": "fb-created-n2-142-08",
       "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlank": "父は元気だ。母（　　　）、少し疲れているようだ。",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
-      "answerChoiceId": "fb-extra20-n2-142-20-c",
+      "sentence": "夫は退職後も毎朝早く起きる。私はというと、休日には昼近くまで布団から出られない。",
+      "sentenceWithBlank": "夫は退職後も毎朝早く起きる。私（　　　）、休日には昼近くまで布団から出られない。",
+      "korean": "남편은 퇴직 후에도 매일 아침 일찍 일어난다. 나는 어떠냐 하면 휴일에는 정오 가까이까지 이불에서 나오지 못한다.",
+      "answerChoiceId": "fb-created-n2-142-08-c",
       "choices": [
         {
-          "id": "fb-extra20-n2-142-20-a",
-          "text": "ことだ",
-          "grammarId": "n2-038",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
+          "id": "fb-created-n2-142-08-b",
+          "text": "とともに",
+          "grammarId": "n2-091",
+          "baseExpression": "とともに",
+          "conjugatedExpression": "とともに",
           "isSimilarDistractor": true
         },
         {
-          "id": "fb-extra20-n2-142-20-b",
-          "text": "ことだし",
-          "grammarId": "n2-039",
-          "baseExpression": "ことだし",
-          "conjugatedExpression": "ことだし",
-          "isSimilarDistractor": true
-        },
-        {
-          "id": "fb-extra20-n2-142-20-c",
+          "id": "fb-created-n2-142-08-c",
           "text": "はというと",
           "grammarId": "n2-142",
           "baseExpression": "はというと",
@@ -1595,25 +662,933 @@
           "isSimilarDistractor": false
         },
         {
-          "id": "fb-extra20-n2-142-20-d",
-          "text": "ことだ",
-          "grammarId": "n2-037",
-          "baseExpression": "ことだ",
-          "conjugatedExpression": "ことだ",
+          "id": "fb-created-n2-142-08-d",
+          "text": "ところをみると",
+          "grammarId": "n2-089",
+          "baseExpression": "ところをみると",
+          "conjugatedExpression": "ところをみると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-142-08-a",
+          "text": "としてない",
+          "grammarId": "n2-090",
+          "baseExpression": "としてない",
+          "conjugatedExpression": "としてない",
           "isSimilarDistractor": true
         }
       ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '남편은 퇴직 후에도 매일 아침 일찍 일어난다. 나는 어떠냐 하면 휴일에는 정오 가까이까지 이불에서 나오지 못한다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
       "sourceGrammarIds": [
         "n2-142",
-        "n2-037",
-        "n2-038",
-        "n2-039"
+        "n2-089",
+        "n2-090",
+        "n2-091"
       ],
       "tags": [
-        "자동생성",
-        "빈칸",
-        "20개추가생성"
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-142-09",
+      "level": "N2",
+      "sentence": "正面玄関は警備員が厳しく確認している。裏口はというと、鍵さえ掛かっていなかった。",
+      "sentenceWithBlank": "正面玄関は警備員が厳しく確認している。裏口（　　　）、鍵さえ掛かっていなかった。",
+      "korean": "정문에서는 경비원이 엄격하게 확인하고 있다. 뒷문은 어떠냐 하면 자물쇠조차 잠겨 있지 않았다.",
+      "answerChoiceId": "fb-created-n2-142-09-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-142-09-c",
+          "text": "はというと",
+          "grammarId": "n2-142",
+          "baseExpression": "はというと",
+          "conjugatedExpression": "はというと",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-142-09-d",
+          "text": "ところをみると",
+          "grammarId": "n2-089",
+          "baseExpression": "ところをみると",
+          "conjugatedExpression": "ところをみると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-142-09-a",
+          "text": "としてない",
+          "grammarId": "n2-090",
+          "baseExpression": "としてない",
+          "conjugatedExpression": "としてない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-142-09-b",
+          "text": "とともに",
+          "grammarId": "n2-091",
+          "baseExpression": "とともに",
+          "conjugatedExpression": "とともに",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '정문에서는 경비원이 엄격하게 확인하고 있다. 뒷문은 어떠냐 하면 자물쇠조차 잠겨 있지 않았다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
+      "sourceGrammarIds": [
+        "n2-142",
+        "n2-089",
+        "n2-090",
+        "n2-091"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-142-10",
+      "level": "N2",
+      "sentence": "新人の佐藤は次々と契約を取っている。ベテランの木村はというと、顧客との関係修復に追われている。",
+      "sentenceWithBlank": "新人の佐藤は次々と契約を取っている。ベテランの木村（　　　）、顧客との関係修復に追われている。",
+      "korean": "신입 사토는 잇달아 계약을 따내고 있다. 베테랑 기무라는 어떠냐 하면 고객과의 관계 회복에 매달리고 있다.",
+      "answerChoiceId": "fb-created-n2-142-10-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-142-10-d",
+          "text": "ところをみると",
+          "grammarId": "n2-089",
+          "baseExpression": "ところをみると",
+          "conjugatedExpression": "ところをみると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-142-10-a",
+          "text": "としてない",
+          "grammarId": "n2-090",
+          "baseExpression": "としてない",
+          "conjugatedExpression": "としてない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-142-10-b",
+          "text": "とともに",
+          "grammarId": "n2-091",
+          "baseExpression": "とともに",
+          "conjugatedExpression": "とともに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-142-10-c",
+          "text": "はというと",
+          "grammarId": "n2-142",
+          "baseExpression": "はというと",
+          "conjugatedExpression": "はというと",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '신입 사토는 잇달아 계약을 따내고 있다. 베테랑 기무라는 어떠냐 하면 고객과의 관계 회복에 매달리고 있다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
+      "sourceGrammarIds": [
+        "n2-142",
+        "n2-089",
+        "n2-090",
+        "n2-091"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-142-11",
+      "level": "N2",
+      "sentence": "今年の米は豊作になる見込みだ。果物はというと、春の霜で大きな被害が出た。",
+      "sentenceWithBlank": "今年の米は豊作になる見込みだ。果物（　　　）、春の霜で大きな被害が出た。",
+      "korean": "올해 쌀은 풍작이 될 전망이다. 과일은 어떠냐 하면 봄 서리로 큰 피해가 발생했다.",
+      "answerChoiceId": "fb-created-n2-142-11-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-142-11-a",
+          "text": "としてない",
+          "grammarId": "n2-090",
+          "baseExpression": "としてない",
+          "conjugatedExpression": "としてない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-142-11-b",
+          "text": "とともに",
+          "grammarId": "n2-091",
+          "baseExpression": "とともに",
+          "conjugatedExpression": "とともに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-142-11-c",
+          "text": "はというと",
+          "grammarId": "n2-142",
+          "baseExpression": "はというと",
+          "conjugatedExpression": "はというと",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-142-11-d",
+          "text": "ところをみると",
+          "grammarId": "n2-089",
+          "baseExpression": "ところをみると",
+          "conjugatedExpression": "ところをみると",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '올해 쌀은 풍작이 될 전망이다. 과일은 어떠냐 하면 봄 서리로 큰 피해가 발생했다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
+      "sourceGrammarIds": [
+        "n2-142",
+        "n2-089",
+        "n2-090",
+        "n2-091"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-142-12",
+      "level": "N2",
+      "sentence": "祖父は最新の決済サービスを使いこなす。孫はというと、現金を持たずに出かけて困ることが多い。",
+      "sentenceWithBlank": "祖父は最新の決済サービスを使いこなす。孫（　　　）、現金を持たずに出かけて困ることが多い。",
+      "korean": "할아버지는 최신 결제 서비스를 능숙하게 사용한다. 손자는 어떠냐 하면 현금 없이 외출했다가 곤란해지는 일이 많다.",
+      "answerChoiceId": "fb-created-n2-142-12-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-142-12-b",
+          "text": "とともに",
+          "grammarId": "n2-091",
+          "baseExpression": "とともに",
+          "conjugatedExpression": "とともに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-142-12-c",
+          "text": "はというと",
+          "grammarId": "n2-142",
+          "baseExpression": "はというと",
+          "conjugatedExpression": "はというと",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-142-12-d",
+          "text": "ところをみると",
+          "grammarId": "n2-089",
+          "baseExpression": "ところをみると",
+          "conjugatedExpression": "ところをみると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-142-12-a",
+          "text": "としてない",
+          "grammarId": "n2-090",
+          "baseExpression": "としてない",
+          "conjugatedExpression": "としてない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '할아버지는 최신 결제 서비스를 능숙하게 사용한다. 손자는 어떠냐 하면 현금 없이 외출했다가 곤란해지는 일이 많다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
+      "sourceGrammarIds": [
+        "n2-142",
+        "n2-089",
+        "n2-090",
+        "n2-091"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-142-13",
+      "level": "N2",
+      "sentence": "昼の便は予定どおり離陸した。夜の便はというと、機材の不具合で欠航が決まった。",
+      "sentenceWithBlank": "昼の便は予定どおり離陸した。夜の便（　　　）、機材の不具合で欠航が決まった。",
+      "korean": "낮 항공편은 예정대로 이륙했다. 밤 항공편은 어떠냐 하면 기체 결함으로 결항이 결정되었다.",
+      "answerChoiceId": "fb-created-n2-142-13-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-142-13-c",
+          "text": "はというと",
+          "grammarId": "n2-142",
+          "baseExpression": "はというと",
+          "conjugatedExpression": "はというと",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-142-13-d",
+          "text": "ところをみると",
+          "grammarId": "n2-089",
+          "baseExpression": "ところをみると",
+          "conjugatedExpression": "ところをみると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-142-13-a",
+          "text": "としてない",
+          "grammarId": "n2-090",
+          "baseExpression": "としてない",
+          "conjugatedExpression": "としてない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-142-13-b",
+          "text": "とともに",
+          "grammarId": "n2-091",
+          "baseExpression": "とともに",
+          "conjugatedExpression": "とともに",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '낮 항공편은 예정대로 이륙했다. 밤 항공편은 어떠냐 하면 기체 결함으로 결항이 결정되었다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
+      "sourceGrammarIds": [
+        "n2-142",
+        "n2-089",
+        "n2-090",
+        "n2-091"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-142-14",
+      "level": "N2",
+      "sentence": "表通りの飲食店はどこも満席だった。路地裏の屋台はというと、地元の客が静かに酒を飲んでいた。",
+      "sentenceWithBlank": "表通りの飲食店はどこも満席だった。路地裏の屋台（　　　）、地元の客が静かに酒を飲んでいた。",
+      "korean": "큰길의 음식점은 어디나 만석이었다. 뒷골목 포장마차는 어떠냐 하면 현지 손님들이 조용히 술을 마시고 있었다.",
+      "answerChoiceId": "fb-created-n2-142-14-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-142-14-d",
+          "text": "ところをみると",
+          "grammarId": "n2-089",
+          "baseExpression": "ところをみると",
+          "conjugatedExpression": "ところをみると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-142-14-a",
+          "text": "としてない",
+          "grammarId": "n2-090",
+          "baseExpression": "としてない",
+          "conjugatedExpression": "としてない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-142-14-b",
+          "text": "とともに",
+          "grammarId": "n2-091",
+          "baseExpression": "とともに",
+          "conjugatedExpression": "とともに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-142-14-c",
+          "text": "はというと",
+          "grammarId": "n2-142",
+          "baseExpression": "はというと",
+          "conjugatedExpression": "はというと",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '큰길의 음식점은 어디나 만석이었다. 뒷골목 포장마차는 어떠냐 하면 현지 손님들이 조용히 술을 마시고 있었다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
+      "sourceGrammarIds": [
+        "n2-142",
+        "n2-089",
+        "n2-090",
+        "n2-091"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-142-15",
+      "level": "N2",
+      "sentence": "選手たちは勝利を信じて練習を続けた。監督はというと、辞任届を机の中に用意していた。",
+      "sentenceWithBlank": "選手たちは勝利を信じて練習を続けた。監督（　　　）、辞任届を机の中に用意していた。",
+      "korean": "선수들은 승리를 믿으며 훈련을 계속했다. 감독은 어떠냐 하면 사직서를 책상 안에 준비해 두고 있었다.",
+      "answerChoiceId": "fb-created-n2-142-15-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-142-15-a",
+          "text": "としてない",
+          "grammarId": "n2-090",
+          "baseExpression": "としてない",
+          "conjugatedExpression": "としてない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-142-15-b",
+          "text": "とともに",
+          "grammarId": "n2-091",
+          "baseExpression": "とともに",
+          "conjugatedExpression": "とともに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-142-15-c",
+          "text": "はというと",
+          "grammarId": "n2-142",
+          "baseExpression": "はというと",
+          "conjugatedExpression": "はというと",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-142-15-d",
+          "text": "ところをみると",
+          "grammarId": "n2-089",
+          "baseExpression": "ところをみると",
+          "conjugatedExpression": "ところをみると",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '선수들은 승리를 믿으며 훈련을 계속했다. 감독은 어떠냐 하면 사직서를 책상 안에 준비해 두고 있었다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
+      "sourceGrammarIds": [
+        "n2-142",
+        "n2-089",
+        "n2-090",
+        "n2-091"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-142-16",
+      "level": "N2",
+      "sentence": "この地域の若者は都市へ移りつつある。高齢者はというと、移動販売車の到着を毎週待っている。",
+      "sentenceWithBlank": "この地域の若者は都市へ移りつつある。高齢者（　　　）、移動販売車の到着を毎週待っている。",
+      "korean": "이 지역의 젊은이들은 도시로 옮겨 가고 있다. 노인들은 어떠냐 하면 이동 판매 차량이 오기를 매주 기다리고 있다.",
+      "answerChoiceId": "fb-created-n2-142-16-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-142-16-b",
+          "text": "とともに",
+          "grammarId": "n2-091",
+          "baseExpression": "とともに",
+          "conjugatedExpression": "とともに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-142-16-c",
+          "text": "はというと",
+          "grammarId": "n2-142",
+          "baseExpression": "はというと",
+          "conjugatedExpression": "はというと",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-142-16-d",
+          "text": "ところをみると",
+          "grammarId": "n2-089",
+          "baseExpression": "ところをみると",
+          "conjugatedExpression": "ところをみると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-142-16-a",
+          "text": "としてない",
+          "grammarId": "n2-090",
+          "baseExpression": "としてない",
+          "conjugatedExpression": "としてない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '이 지역의 젊은이들은 도시로 옮겨 가고 있다. 노인들은 어떠냐 하면 이동 판매 차량이 오기를 매주 기다리고 있다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
+      "sourceGrammarIds": [
+        "n2-142",
+        "n2-089",
+        "n2-090",
+        "n2-091"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-142-17",
+      "level": "N2",
+      "sentence": "手術は予定より早く終わった。患者の意識はというと、翌朝まで戻らなかった。",
+      "sentenceWithBlank": "手術は予定より早く終わった。患者の意識（　　　）、翌朝まで戻らなかった。",
+      "korean": "수술은 예정보다 일찍 끝났다. 환자의 의식은 어떠냐 하면 다음 날 아침까지 돌아오지 않았다.",
+      "answerChoiceId": "fb-created-n2-142-17-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-142-17-c",
+          "text": "はというと",
+          "grammarId": "n2-142",
+          "baseExpression": "はというと",
+          "conjugatedExpression": "はというと",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-142-17-d",
+          "text": "ところをみると",
+          "grammarId": "n2-089",
+          "baseExpression": "ところをみると",
+          "conjugatedExpression": "ところをみると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-142-17-a",
+          "text": "としてない",
+          "grammarId": "n2-090",
+          "baseExpression": "としてない",
+          "conjugatedExpression": "としてない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-142-17-b",
+          "text": "とともに",
+          "grammarId": "n2-091",
+          "baseExpression": "とともに",
+          "conjugatedExpression": "とともに",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '수술은 예정보다 일찍 끝났다. 환자의 의식은 어떠냐 하면 다음 날 아침까지 돌아오지 않았다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
+      "sourceGrammarIds": [
+        "n2-142",
+        "n2-089",
+        "n2-090",
+        "n2-091"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-142-18",
+      "level": "N2",
+      "sentence": "兄夫婦は結婚記念日に豪華な食事を予約した。私たち夫婦はというと、家で残り物のカレーを温めた。",
+      "sentenceWithBlank": "兄夫婦は結婚記念日に豪華な食事を予約した。私たち夫婦（　　　）、家で残り物のカレーを温めた。",
+      "korean": "형 부부는 결혼기념일에 호화로운 식사를 예약했다. 우리 부부는 어떠냐 하면 집에서 남은 카레를 데웠다.",
+      "answerChoiceId": "fb-created-n2-142-18-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-142-18-d",
+          "text": "ところをみると",
+          "grammarId": "n2-089",
+          "baseExpression": "ところをみると",
+          "conjugatedExpression": "ところをみると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-142-18-a",
+          "text": "としてない",
+          "grammarId": "n2-090",
+          "baseExpression": "としてない",
+          "conjugatedExpression": "としてない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-142-18-b",
+          "text": "とともに",
+          "grammarId": "n2-091",
+          "baseExpression": "とともに",
+          "conjugatedExpression": "とともに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-142-18-c",
+          "text": "はというと",
+          "grammarId": "n2-142",
+          "baseExpression": "はというと",
+          "conjugatedExpression": "はというと",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '형 부부는 결혼기념일에 호화로운 식사를 예약했다. 우리 부부는 어떠냐 하면 집에서 남은 카레를 데웠다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
+      "sourceGrammarIds": [
+        "n2-142",
+        "n2-089",
+        "n2-090",
+        "n2-091"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-142-19",
+      "level": "N2",
+      "sentence": "町の図書館は改装されて明るくなった。郷土資料館はというと、雨漏りのため休館したままだ。",
+      "sentenceWithBlank": "町の図書館は改装されて明るくなった。郷土資料館（　　　）、雨漏りのため休館したままだ。",
+      "korean": "마을 도서관은 개조되어 밝아졌다. 향토 자료관은 어떠냐 하면 누수 때문에 계속 휴관 중이다.",
+      "answerChoiceId": "fb-created-n2-142-19-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-142-19-a",
+          "text": "としてない",
+          "grammarId": "n2-090",
+          "baseExpression": "としてない",
+          "conjugatedExpression": "としてない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-142-19-b",
+          "text": "とともに",
+          "grammarId": "n2-091",
+          "baseExpression": "とともに",
+          "conjugatedExpression": "とともに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-142-19-c",
+          "text": "はというと",
+          "grammarId": "n2-142",
+          "baseExpression": "はというと",
+          "conjugatedExpression": "はというと",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-142-19-d",
+          "text": "ところをみると",
+          "grammarId": "n2-089",
+          "baseExpression": "ところをみると",
+          "conjugatedExpression": "ところをみると",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '마을 도서관은 개조되어 밝아졌다. 향토 자료관은 어떠냐 하면 누수 때문에 계속 휴관 중이다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
+      "sourceGrammarIds": [
+        "n2-142",
+        "n2-089",
+        "n2-090",
+        "n2-091"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-142-20",
+      "level": "N2",
+      "sentence": "原告側は判決を受け入れる方針を示した。被告側はというと、直ちに控訴する意向を表明した。",
+      "sentenceWithBlank": "原告側は判決を受け入れる方針を示した。被告側（　　　）、直ちに控訴する意向を表明した。",
+      "korean": "원고 측은 판결을 받아들이겠다는 방침을 밝혔다. 피고 측은 어떠냐 하면 즉시 항소하겠다는 뜻을 표명했다.",
+      "answerChoiceId": "fb-created-n2-142-20-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-142-20-b",
+          "text": "とともに",
+          "grammarId": "n2-091",
+          "baseExpression": "とともに",
+          "conjugatedExpression": "とともに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-142-20-c",
+          "text": "はというと",
+          "grammarId": "n2-142",
+          "baseExpression": "はというと",
+          "conjugatedExpression": "はというと",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-142-20-d",
+          "text": "ところをみると",
+          "grammarId": "n2-089",
+          "baseExpression": "ところをみると",
+          "conjugatedExpression": "ところをみると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-142-20-a",
+          "text": "としてない",
+          "grammarId": "n2-090",
+          "baseExpression": "としてない",
+          "conjugatedExpression": "としてない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '원고 측은 판결을 받아들이겠다는 방침을 밝혔다. 피고 측은 어떠냐 하면 즉시 항소하겠다는 뜻을 표명했다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
+      "sourceGrammarIds": [
+        "n2-142",
+        "n2-089",
+        "n2-090",
+        "n2-091"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-142-21",
+      "level": "N2",
+      "sentence": "湖の水位は大雨で急上昇した。下流の畑はというと、堤防のおかげで浸水を免れた。",
+      "sentenceWithBlank": "湖の水位は大雨で急上昇した。下流の畑（　　　）、堤防のおかげで浸水を免れた。",
+      "korean": "호수의 수위는 폭우로 급상승했다. 하류의 밭은 어떠냐 하면 제방 덕분에 침수를 피했다.",
+      "answerChoiceId": "fb-created-n2-142-21-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-142-21-c",
+          "text": "はというと",
+          "grammarId": "n2-142",
+          "baseExpression": "はというと",
+          "conjugatedExpression": "はというと",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-142-21-d",
+          "text": "ところをみると",
+          "grammarId": "n2-089",
+          "baseExpression": "ところをみると",
+          "conjugatedExpression": "ところをみると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-142-21-a",
+          "text": "としてない",
+          "grammarId": "n2-090",
+          "baseExpression": "としてない",
+          "conjugatedExpression": "としてない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-142-21-b",
+          "text": "とともに",
+          "grammarId": "n2-091",
+          "baseExpression": "とともに",
+          "conjugatedExpression": "とともに",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '호수의 수위는 폭우로 급상승했다. 하류의 밭은 어떠냐 하면 제방 덕분에 침수를 피했다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
+      "sourceGrammarIds": [
+        "n2-142",
+        "n2-089",
+        "n2-090",
+        "n2-091"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-142-22",
+      "level": "N2",
+      "sentence": "舞台上の歌手は笑顔で観客に手を振った。楽屋のスタッフはというと、故障した照明の修理に走り回っていた。",
+      "sentenceWithBlank": "舞台上の歌手は笑顔で観客に手を振った。楽屋のスタッフ（　　　）、故障した照明の修理に走り回っていた。",
+      "korean": "무대 위 가수는 웃으며 관객에게 손을 흔들었다. 대기실의 스태프는 어떠냐 하면 고장 난 조명을 고치느라 뛰어다니고 있었다.",
+      "answerChoiceId": "fb-created-n2-142-22-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-142-22-d",
+          "text": "ところをみると",
+          "grammarId": "n2-089",
+          "baseExpression": "ところをみると",
+          "conjugatedExpression": "ところをみると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-142-22-a",
+          "text": "としてない",
+          "grammarId": "n2-090",
+          "baseExpression": "としてない",
+          "conjugatedExpression": "としてない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-142-22-b",
+          "text": "とともに",
+          "grammarId": "n2-091",
+          "baseExpression": "とともに",
+          "conjugatedExpression": "とともに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-142-22-c",
+          "text": "はというと",
+          "grammarId": "n2-142",
+          "baseExpression": "はというと",
+          "conjugatedExpression": "はというと",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '무대 위 가수는 웃으며 관객에게 손을 흔들었다. 대기실의 스태프는 어떠냐 하면 고장 난 조명을 고치느라 뛰어다니고 있었다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
+      "sourceGrammarIds": [
+        "n2-142",
+        "n2-089",
+        "n2-090",
+        "n2-091"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-142-23",
+      "level": "N2",
+      "sentence": "国内市場では環境に優しい包装が支持された。輸出先はというと、価格の安さが最も重視された。",
+      "sentenceWithBlank": "国内市場では環境に優しい包装が支持された。輸出先（　　　）、価格の安さが最も重視された。",
+      "korean": "국내 시장에서는 친환경 포장이 지지를 받았다. 수출 대상국에서는 어떠냐 하면 저렴한 가격이 가장 중시되었다.",
+      "answerChoiceId": "fb-created-n2-142-23-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-142-23-a",
+          "text": "としてない",
+          "grammarId": "n2-090",
+          "baseExpression": "としてない",
+          "conjugatedExpression": "としてない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-142-23-b",
+          "text": "とともに",
+          "grammarId": "n2-091",
+          "baseExpression": "とともに",
+          "conjugatedExpression": "とともに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-142-23-c",
+          "text": "はというと",
+          "grammarId": "n2-142",
+          "baseExpression": "はというと",
+          "conjugatedExpression": "はというと",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-142-23-d",
+          "text": "ところをみると",
+          "grammarId": "n2-089",
+          "baseExpression": "ところをみると",
+          "conjugatedExpression": "ところをみると",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '국내 시장에서는 친환경 포장이 지지를 받았다. 수출 대상국에서는 어떠냐 하면 저렴한 가격이 가장 중시되었다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
+      "sourceGrammarIds": [
+        "n2-142",
+        "n2-089",
+        "n2-090",
+        "n2-091"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-142-24",
+      "level": "N2",
+      "sentence": "息子は祖母の遺品を丁寧に整理した。娘はというと、古い写真を一枚だけ持ち帰った。",
+      "sentenceWithBlank": "息子は祖母の遺品を丁寧に整理した。娘（　　　）、古い写真を一枚だけ持ち帰った。",
+      "korean": "아들은 할머니의 유품을 정성스럽게 정리했다. 딸은 어떠냐 하면 오래된 사진 한 장만 가져갔다.",
+      "answerChoiceId": "fb-created-n2-142-24-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-142-24-b",
+          "text": "とともに",
+          "grammarId": "n2-091",
+          "baseExpression": "とともに",
+          "conjugatedExpression": "とともに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-142-24-c",
+          "text": "はというと",
+          "grammarId": "n2-142",
+          "baseExpression": "はというと",
+          "conjugatedExpression": "はというと",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-142-24-d",
+          "text": "ところをみると",
+          "grammarId": "n2-089",
+          "baseExpression": "ところをみると",
+          "conjugatedExpression": "ところをみると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-142-24-a",
+          "text": "としてない",
+          "grammarId": "n2-090",
+          "baseExpression": "としてない",
+          "conjugatedExpression": "としてない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '아들은 할머니의 유품을 정성스럽게 정리했다. 딸은 어떠냐 하면 오래된 사진 한 장만 가져갔다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
+      "sourceGrammarIds": [
+        "n2-142",
+        "n2-089",
+        "n2-090",
+        "n2-091"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-created-n2-142-25",
+      "level": "N2",
+      "sentence": "先発投手は七回まで無失点に抑えた。救援投手はというと、最後の打者に逆転本塁打を許した。",
+      "sentenceWithBlank": "先発投手は七回まで無失点に抑えた。救援投手（　　　）、最後の打者に逆転本塁打を許した。",
+      "korean": "선발 투수는 7회까지 무실점으로 막았다. 구원 투수는 어떠냐 하면 마지막 타자에게 역전 홈런을 허용했다.",
+      "answerChoiceId": "fb-created-n2-142-25-c",
+      "choices": [
+        {
+          "id": "fb-created-n2-142-25-c",
+          "text": "はというと",
+          "grammarId": "n2-142",
+          "baseExpression": "はというと",
+          "conjugatedExpression": "はというと",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-142-25-d",
+          "text": "ところをみると",
+          "grammarId": "n2-089",
+          "baseExpression": "ところをみると",
+          "conjugatedExpression": "ところをみると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-142-25-a",
+          "text": "としてない",
+          "grammarId": "n2-090",
+          "baseExpression": "としてない",
+          "conjugatedExpression": "としてない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-142-25-b",
+          "text": "とともに",
+          "grammarId": "n2-091",
+          "baseExpression": "とともに",
+          "conjugatedExpression": "とともに",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '선발 투수는 7회까지 무실점으로 막았다. 구원 투수는 어떠냐 하면 마지막 타자에게 역전 홈런을 허용했다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
+      "sourceGrammarIds": [
+        "n2-142",
+        "n2-089",
+        "n2-090",
+        "n2-091"
+      ],
+      "tags": [
+        "신규예문",
+        "빈칸"
       ]
     }
   ],
@@ -1834,1103 +1809,1153 @@
       ]
     },
     {
-      "id": "so-extra-n2-142-1",
+      "id": "so-created-n2-142-01",
       "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlanks": "父は元気だ。母 ____ ____ ____ ____",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
+      "sentence": "兄は海辺の町に残った。弟はというと、山奥で林業を始めた。",
+      "sentenceWithBlanks": "兄は ____ ____ ____ ____ 始めた。",
+      "korean": "형은 바닷가 마을에 남았다. 남동생은 어떠냐 하면 산골에서 임업을 시작했다.",
       "pieces": [
         {
-          "id": "so-extra-n2-142-1-p1",
-          "text": "うだ",
+          "id": "so-created-n2-142-01-p3",
+          "text": "はというと、",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-142-01-p4",
+          "text": "山奥で林業を",
           "order": 4
         },
         {
-          "id": "so-extra-n2-142-1-p2",
-          "text": "はというと",
+          "id": "so-created-n2-142-01-p1",
+          "text": "海辺の町に",
           "order": 1
         },
         {
-          "id": "so-extra-n2-142-1-p3",
-          "text": "少し疲れ",
+          "id": "so-created-n2-142-01-p2",
+          "text": "残った。弟",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-142-1-p4",
-          "text": "ているよ",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-142-1-p2",
-        "so-extra-n2-142-1-p3",
-        "so-extra-n2-142-1-p4",
-        "so-extra-n2-142-1-p1"
+        "so-created-n2-142-01-p1",
+        "so-created-n2-142-01-p2",
+        "so-created-n2-142-01-p3",
+        "so-created-n2-142-01-p4"
       ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '형은 바닷가 마을에 남았다. 남동생은 어떠냐 하면 산골에서 임업을 시작했다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
       "sourceGrammarIds": [
-        "n2-142"
+        "n2-142",
+        "n2-089",
+        "n2-090",
+        "n2-091"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-142-2",
+      "id": "so-created-n2-142-02",
       "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlanks": "父は元気だ。母 ____ ____ ____ ____",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
+      "sentence": "新商品の売れ行きは好調だ。旧型はというと、値下げしても在庫が減らない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 在庫が減らない。",
+      "korean": "신제품의 판매는 호조다. 구형은 어떠냐 하면 가격을 내려도 재고가 줄지 않는다.",
       "pieces": [
         {
-          "id": "so-extra-n2-142-2-p2",
-          "text": "少し疲れ",
+          "id": "so-created-n2-142-02-p2",
+          "text": "好調だ。旧型",
           "order": 2
         },
         {
-          "id": "so-extra-n2-142-2-p3",
-          "text": "ているよ",
+          "id": "so-created-n2-142-02-p3",
+          "text": "はというと、",
           "order": 3
         },
         {
-          "id": "so-extra-n2-142-2-p4",
-          "text": "うだ",
+          "id": "so-created-n2-142-02-p4",
+          "text": "値下げしても",
           "order": 4
         },
         {
-          "id": "so-extra-n2-142-2-p1",
-          "text": "はというと",
+          "id": "so-created-n2-142-02-p1",
+          "text": "新商品の売れ行きは",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-142-2-p1",
-        "so-extra-n2-142-2-p2",
-        "so-extra-n2-142-2-p3",
-        "so-extra-n2-142-2-p4"
+        "so-created-n2-142-02-p1",
+        "so-created-n2-142-02-p2",
+        "so-created-n2-142-02-p3",
+        "so-created-n2-142-02-p4"
       ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '신제품의 판매는 호조다. 구형은 어떠냐 하면 가격을 내려도 재고가 줄지 않는다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
       "sourceGrammarIds": [
-        "n2-142"
+        "n2-142",
+        "n2-089",
+        "n2-090",
+        "n2-091"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-142-3",
+      "id": "so-created-n2-142-03",
       "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、少し疲れているようだ。",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
+      "sentence": "港では朝から風が強い。内陸部はというと、霧で高速道路が閉鎖された。",
+      "sentenceWithBlanks": "港では ____ ____ ____ ____ 道路が閉鎖された。",
+      "korean": "항구에서는 아침부터 바람이 세다. 내륙 지역은 어떠냐 하면 안개로 고속도로가 폐쇄되었다.",
       "pieces": [
         {
-          "id": "so-extra-n2-142-3-p3",
-          "text": "ているよ",
-          "order": 4
-        },
-        {
-          "id": "so-extra-n2-142-3-p4",
-          "text": "。母",
+          "id": "so-created-n2-142-03-p1",
+          "text": "朝から風が",
           "order": 1
         },
         {
-          "id": "so-extra-n2-142-3-p1",
-          "text": "はというと",
+          "id": "so-created-n2-142-03-p2",
+          "text": "強い。内陸部",
           "order": 2
         },
         {
-          "id": "so-extra-n2-142-3-p2",
-          "text": "少し疲れ",
+          "id": "so-created-n2-142-03-p3",
+          "text": "はというと、",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-142-03-p4",
+          "text": "霧で高速",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-142-3-p4",
-        "so-extra-n2-142-3-p1",
-        "so-extra-n2-142-3-p2",
-        "so-extra-n2-142-3-p3"
+        "so-created-n2-142-03-p1",
+        "so-created-n2-142-03-p2",
+        "so-created-n2-142-03-p3",
+        "so-created-n2-142-03-p4"
       ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '항구에서는 아침부터 바람이 세다. 내륙 지역은 어떠냐 하면 안개로 고속도로가 폐쇄되었다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
       "sourceGrammarIds": [
-        "n2-142"
+        "n2-142",
+        "n2-089",
+        "n2-090",
+        "n2-091"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-142-4",
+      "id": "so-created-n2-142-04",
       "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlanks": "父は元気だ。母 ____ ____ ____ ____",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
+      "sentence": "営業部は今月の目標を達成した。開発部はというと、納期の延期を取引先に申し入れた。",
+      "sentenceWithBlanks": "営業部は今月の目標を ____ ____ ____ ____ 申し入れた。",
+      "korean": "영업부는 이번 달 목표를 달성했다. 개발부는 어떠냐 하면 납기 연기를 거래처에 요청했다.",
       "pieces": [
         {
-          "id": "so-extra-n2-142-4-p4",
-          "text": "少し疲れ",
-          "order": 2
-        },
-        {
-          "id": "so-extra-n2-142-4-p1",
-          "text": "ているよ",
-          "order": 3
-        },
-        {
-          "id": "so-extra-n2-142-4-p2",
-          "text": "うだ",
+          "id": "so-created-n2-142-04-p4",
+          "text": "取引先に",
           "order": 4
         },
         {
-          "id": "so-extra-n2-142-4-p3",
-          "text": "はというと",
+          "id": "so-created-n2-142-04-p1",
+          "text": "達成した。開発",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-142-04-p2",
+          "text": "部はというと、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-142-04-p3",
+          "text": "納期の延期を",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-142-4-p3",
-        "so-extra-n2-142-4-p4",
-        "so-extra-n2-142-4-p1",
-        "so-extra-n2-142-4-p2"
+        "so-created-n2-142-04-p1",
+        "so-created-n2-142-04-p2",
+        "so-created-n2-142-04-p3",
+        "so-created-n2-142-04-p4"
       ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '영업부는 이번 달 목표를 달성했다. 개발부는 어떠냐 하면 납기 연기를 거래처에 요청했다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
       "sourceGrammarIds": [
-        "n2-142"
+        "n2-142",
+        "n2-089",
+        "n2-090",
+        "n2-091"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra-n2-142-5",
+      "id": "so-created-n2-142-05",
       "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlanks": "父は元気だ。母 ____ ____ ____ ____",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
+      "sentence": "長女は家業を継ぐ決心をした。次女はというと、海外の劇団から出演依頼を受けている。",
+      "sentenceWithBlanks": "長女は家業を継ぐ ____ ____ ____ ____ 受けている。",
+      "korean": "장녀는 가업을 잇기로 결심했다. 차녀는 어떠냐 하면 해외 극단에서 출연 제의를 받은 상태다.",
       "pieces": [
         {
-          "id": "so-extra-n2-142-5-p1",
-          "text": "うだ",
+          "id": "so-created-n2-142-05-p3",
+          "text": "海外の劇団から",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-142-05-p4",
+          "text": "出演依頼を",
           "order": 4
         },
         {
-          "id": "so-extra-n2-142-5-p2",
-          "text": "はというと",
+          "id": "so-created-n2-142-05-p1",
+          "text": "決心をした。",
           "order": 1
         },
         {
-          "id": "so-extra-n2-142-5-p3",
-          "text": "少し疲れ",
+          "id": "so-created-n2-142-05-p2",
+          "text": "次女はというと、",
           "order": 2
-        },
-        {
-          "id": "so-extra-n2-142-5-p4",
-          "text": "ているよ",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra-n2-142-5-p2",
-        "so-extra-n2-142-5-p3",
-        "so-extra-n2-142-5-p4",
-        "so-extra-n2-142-5-p1"
+        "so-created-n2-142-05-p1",
+        "so-created-n2-142-05-p2",
+        "so-created-n2-142-05-p3",
+        "so-created-n2-142-05-p4"
       ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '장녀는 가업을 잇기로 결심했다. 차녀는 어떠냐 하면 해외 극단에서 출연 제의를 받은 상태다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
       "sourceGrammarIds": [
-        "n2-142"
+        "n2-142",
+        "n2-089",
+        "n2-090",
+        "n2-091"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-142-01",
+      "id": "so-created-n2-142-06",
       "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlanks": "父は元気だ。母 ____ ____ ____ ____",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
+      "sentence": "犬は雷が鳴ると机の下に隠れる。猫はというと、窓辺で平然と眠っている。",
+      "sentenceWithBlanks": "犬は雷が鳴ると ____ ____ ____ ____ 眠っている。",
+      "korean": "개는 천둥이 치면 책상 밑에 숨는다. 고양이는 어떠냐 하면 창가에서 태연하게 자고 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-142-01-p1",
-          "text": "うだ",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-142-01-p2",
-          "text": "はというと",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-142-01-p3",
-          "text": "少し疲れ",
+          "id": "so-created-n2-142-06-p2",
+          "text": "隠れる。猫",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-142-01-p4",
-          "text": "ているよ",
+          "id": "so-created-n2-142-06-p3",
+          "text": "はというと、",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-142-06-p4",
+          "text": "窓辺で平然と",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-142-06-p1",
+          "text": "机の下に",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-142-01-p2",
-        "so-extra20-n2-142-01-p3",
-        "so-extra20-n2-142-01-p4",
-        "so-extra20-n2-142-01-p1"
+        "so-created-n2-142-06-p1",
+        "so-created-n2-142-06-p2",
+        "so-created-n2-142-06-p3",
+        "so-created-n2-142-06-p4"
       ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '개는 천둥이 치면 책상 밑에 숨는다. 고양이는 어떠냐 하면 창가에서 태연하게 자고 있다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
       "sourceGrammarIds": [
-        "n2-142"
+        "n2-142",
+        "n2-089",
+        "n2-090",
+        "n2-091"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-142-02",
+      "id": "so-created-n2-142-07",
       "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlanks": "父は元気だ。母 ____ ____ ____ ____",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
+      "sentence": "駅前の商店街は観光客でにぎわっている。住宅街はというと、空き家が目立ち始めた。",
+      "sentenceWithBlanks": "駅前の商店街は観光客でにぎわっている。 ____ ____ ____ ____",
+      "korean": "역 앞 상점가는 관광객으로 붐빈다. 주택가는 어떠냐 하면 빈집이 눈에 띄기 시작했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-142-02-p4",
-          "text": "うだ",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-142-02-p1",
-          "text": "はというと",
+          "id": "so-created-n2-142-07-p1",
+          "text": "住宅街",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-142-02-p2",
-          "text": "少し疲れ",
+          "id": "so-created-n2-142-07-p2",
+          "text": "はというと、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-142-02-p3",
-          "text": "ているよ",
+          "id": "so-created-n2-142-07-p3",
+          "text": "空き家が目",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-142-07-p4",
+          "text": "立ち始めた。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-142-02-p1",
-        "so-extra20-n2-142-02-p2",
-        "so-extra20-n2-142-02-p3",
-        "so-extra20-n2-142-02-p4"
+        "so-created-n2-142-07-p1",
+        "so-created-n2-142-07-p2",
+        "so-created-n2-142-07-p3",
+        "so-created-n2-142-07-p4"
       ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '역 앞 상점가는 관광객으로 붐빈다. 주택가는 어떠냐 하면 빈집이 눈에 띄기 시작했다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
       "sourceGrammarIds": [
-        "n2-142"
+        "n2-142",
+        "n2-089",
+        "n2-090",
+        "n2-091"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-142-03",
+      "id": "so-created-n2-142-08",
       "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、少し疲れているようだ。",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
+      "sentence": "夫は退職後も毎朝早く起きる。私はというと、休日には昼近くまで布団から出られない。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 休日には昼近くまで布団から出られない。",
+      "korean": "남편은 퇴직 후에도 매일 아침 일찍 일어난다. 나는 어떠냐 하면 휴일에는 정오 가까이까지 이불에서 나오지 못한다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-142-03-p3",
-          "text": "ているよ",
+          "id": "so-created-n2-142-08-p4",
+          "text": "はというと、",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-142-03-p4",
-          "text": "。母",
+          "id": "so-created-n2-142-08-p1",
+          "text": "夫は退職",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-142-03-p1",
-          "text": "はというと",
+          "id": "so-created-n2-142-08-p2",
+          "text": "後も毎朝早く",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-142-03-p2",
-          "text": "少し疲れ",
+          "id": "so-created-n2-142-08-p3",
+          "text": "起きる。私",
           "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-142-03-p4",
-        "so-extra20-n2-142-03-p1",
-        "so-extra20-n2-142-03-p2",
-        "so-extra20-n2-142-03-p3"
+        "so-created-n2-142-08-p1",
+        "so-created-n2-142-08-p2",
+        "so-created-n2-142-08-p3",
+        "so-created-n2-142-08-p4"
       ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '남편은 퇴직 후에도 매일 아침 일찍 일어난다. 나는 어떠냐 하면 휴일에는 정오 가까이까지 이불에서 나오지 못한다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
       "sourceGrammarIds": [
-        "n2-142"
+        "n2-142",
+        "n2-089",
+        "n2-090",
+        "n2-091"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-142-04",
+      "id": "so-created-n2-142-09",
       "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlanks": "父は元気だ。母 ____ ____ ____ ____",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
+      "sentence": "正面玄関は警備員が厳しく確認している。裏口はというと、鍵さえ掛かっていなかった。",
+      "sentenceWithBlanks": "正面玄関は ____ ____ ____ ____ 掛かっていなかった。",
+      "korean": "정문에서는 경비원이 엄격하게 확인하고 있다. 뒷문은 어떠냐 하면 자물쇠조차 잠겨 있지 않았다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-142-04-p2",
-          "text": "うだ",
+          "id": "so-created-n2-142-09-p3",
+          "text": "裏口はというと、",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-142-09-p4",
+          "text": "鍵さえ",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-142-04-p3",
-          "text": "はというと",
+          "id": "so-created-n2-142-09-p1",
+          "text": "警備員が厳しく",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-142-04-p4",
-          "text": "少し疲れ",
+          "id": "so-created-n2-142-09-p2",
+          "text": "確認している。",
           "order": 2
-        },
-        {
-          "id": "so-extra20-n2-142-04-p1",
-          "text": "ているよ",
-          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-142-04-p3",
-        "so-extra20-n2-142-04-p4",
-        "so-extra20-n2-142-04-p1",
-        "so-extra20-n2-142-04-p2"
+        "so-created-n2-142-09-p1",
+        "so-created-n2-142-09-p2",
+        "so-created-n2-142-09-p3",
+        "so-created-n2-142-09-p4"
       ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '정문에서는 경비원이 엄격하게 확인하고 있다. 뒷문은 어떠냐 하면 자물쇠조차 잠겨 있지 않았다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
       "sourceGrammarIds": [
-        "n2-142"
+        "n2-142",
+        "n2-089",
+        "n2-090",
+        "n2-091"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-142-05",
+      "id": "so-created-n2-142-10",
       "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlanks": "父は元気だ。母 ____ ____ ____ ____",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
+      "sentence": "新人の佐藤は次々と契約を取っている。ベテランの木村はというと、顧客との関係修復に追われている。",
+      "sentenceWithBlanks": "新人の佐藤は次々と契約を ____ ____ ____ ____ 追われている。",
+      "korean": "신입 사토는 잇달아 계약을 따내고 있다. 베테랑 기무라는 어떠냐 하면 고객과의 관계 회복에 매달리고 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-142-05-p1",
-          "text": "うだ",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-142-05-p2",
-          "text": "はというと",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-142-05-p3",
-          "text": "少し疲れ",
+          "id": "so-created-n2-142-10-p2",
+          "text": "ベテランの木村",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-142-05-p4",
-          "text": "ているよ",
+          "id": "so-created-n2-142-10-p3",
+          "text": "はというと、",
           "order": 3
+        },
+        {
+          "id": "so-created-n2-142-10-p4",
+          "text": "顧客との関係修復に",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-142-10-p1",
+          "text": "取っている。",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-142-05-p2",
-        "so-extra20-n2-142-05-p3",
-        "so-extra20-n2-142-05-p4",
-        "so-extra20-n2-142-05-p1"
+        "so-created-n2-142-10-p1",
+        "so-created-n2-142-10-p2",
+        "so-created-n2-142-10-p3",
+        "so-created-n2-142-10-p4"
       ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '신입 사토는 잇달아 계약을 따내고 있다. 베테랑 기무라는 어떠냐 하면 고객과의 관계 회복에 매달리고 있다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
       "sourceGrammarIds": [
-        "n2-142"
+        "n2-142",
+        "n2-089",
+        "n2-090",
+        "n2-091"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-142-06",
+      "id": "so-created-n2-142-11",
       "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlanks": "父は元気だ。母 ____ ____ ____ ____",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
+      "sentence": "今年の米は豊作になる見込みだ。果物はというと、春の霜で大きな被害が出た。",
+      "sentenceWithBlanks": "今年の米は豊作になる見込みだ。 ____ ____ ____ ____",
+      "korean": "올해 쌀은 풍작이 될 전망이다. 과일은 어떠냐 하면 봄 서리로 큰 피해가 발생했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-142-06-p4",
-          "text": "ているよ",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-142-06-p1",
-          "text": "うだ",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-142-06-p2",
-          "text": "はというと",
+          "id": "so-created-n2-142-11-p1",
+          "text": "果物",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-142-06-p3",
-          "text": "少し疲れ",
+          "id": "so-created-n2-142-11-p2",
+          "text": "はというと、",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-142-11-p3",
+          "text": "春の霜で大きな",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-142-11-p4",
+          "text": "被害が出た。",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-142-06-p2",
-        "so-extra20-n2-142-06-p3",
-        "so-extra20-n2-142-06-p4",
-        "so-extra20-n2-142-06-p1"
+        "so-created-n2-142-11-p1",
+        "so-created-n2-142-11-p2",
+        "so-created-n2-142-11-p3",
+        "so-created-n2-142-11-p4"
       ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '올해 쌀은 풍작이 될 전망이다. 과일은 어떠냐 하면 봄 서리로 큰 피해가 발생했다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
       "sourceGrammarIds": [
-        "n2-142"
+        "n2-142",
+        "n2-089",
+        "n2-090",
+        "n2-091"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-142-07",
+      "id": "so-created-n2-142-12",
       "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlanks": "父は元気だ。母 ____ ____ ____ ____",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
+      "sentence": "祖父は最新の決済サービスを使いこなす。孫はというと、現金を持たずに出かけて困ることが多い。",
+      "sentenceWithBlanks": "祖父は最新の決済サービスを使いこなす。 ____ ____ ____ ____",
+      "korean": "할아버지는 최신 결제 서비스를 능숙하게 사용한다. 손자는 어떠냐 하면 현금 없이 외출했다가 곤란해지는 일이 많다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-142-07-p3",
-          "text": "ているよ",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-142-07-p4",
-          "text": "うだ",
+          "id": "so-created-n2-142-12-p4",
+          "text": "困ることが多い。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-142-07-p1",
-          "text": "はというと",
+          "id": "so-created-n2-142-12-p1",
+          "text": "孫はというと、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-142-07-p2",
-          "text": "少し疲れ",
+          "id": "so-created-n2-142-12-p2",
+          "text": "現金を持たずに",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-142-12-p3",
+          "text": "出かけて",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-142-07-p1",
-        "so-extra20-n2-142-07-p2",
-        "so-extra20-n2-142-07-p3",
-        "so-extra20-n2-142-07-p4"
+        "so-created-n2-142-12-p1",
+        "so-created-n2-142-12-p2",
+        "so-created-n2-142-12-p3",
+        "so-created-n2-142-12-p4"
       ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '할아버지는 최신 결제 서비스를 능숙하게 사용한다. 손자는 어떠냐 하면 현금 없이 외출했다가 곤란해지는 일이 많다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
       "sourceGrammarIds": [
-        "n2-142"
+        "n2-142",
+        "n2-089",
+        "n2-090",
+        "n2-091"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-142-08",
+      "id": "so-created-n2-142-13",
       "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、少し疲れているようだ。",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
+      "sentence": "昼の便は予定どおり離陸した。夜の便はというと、機材の不具合で欠航が決まった。",
+      "sentenceWithBlanks": "昼の便は予定どおり ____ ____ ____ ____ 決まった。",
+      "korean": "낮 항공편은 예정대로 이륙했다. 밤 항공편은 어떠냐 하면 기체 결함으로 결항이 결정되었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-142-08-p2",
-          "text": "少し疲れ",
+          "id": "so-created-n2-142-13-p3",
+          "text": "機材の",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-142-08-p3",
-          "text": "ているよ",
+          "id": "so-created-n2-142-13-p4",
+          "text": "不具合で欠航が",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-142-08-p4",
-          "text": "。母",
+          "id": "so-created-n2-142-13-p1",
+          "text": "離陸した。夜の",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-142-08-p1",
-          "text": "はというと",
+          "id": "so-created-n2-142-13-p2",
+          "text": "便はというと、",
           "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-142-08-p4",
-        "so-extra20-n2-142-08-p1",
-        "so-extra20-n2-142-08-p2",
-        "so-extra20-n2-142-08-p3"
+        "so-created-n2-142-13-p1",
+        "so-created-n2-142-13-p2",
+        "so-created-n2-142-13-p3",
+        "so-created-n2-142-13-p4"
       ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '낮 항공편은 예정대로 이륙했다. 밤 항공편은 어떠냐 하면 기체 결함으로 결항이 결정되었다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
       "sourceGrammarIds": [
-        "n2-142"
+        "n2-142",
+        "n2-089",
+        "n2-090",
+        "n2-091"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-142-09",
+      "id": "so-created-n2-142-14",
       "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlanks": "父は元気だ。母 ____ ____ ____ ____",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
+      "sentence": "表通りの飲食店はどこも満席だった。路地裏の屋台はというと、地元の客が静かに酒を飲んでいた。",
+      "sentenceWithBlanks": "表通りの飲食店はどこも満席だった。 ____ ____ ____ ____ 酒を飲んでいた。",
+      "korean": "큰길의 음식점은 어디나 만석이었다. 뒷골목 포장마차는 어떠냐 하면 현지 손님들이 조용히 술을 마시고 있었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-142-09-p1",
-          "text": "ているよ",
+          "id": "so-created-n2-142-14-p2",
+          "text": "はというと、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-142-14-p3",
+          "text": "地元の",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-142-09-p2",
-          "text": "うだ",
+          "id": "so-created-n2-142-14-p4",
+          "text": "客が静かに",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-142-09-p3",
-          "text": "はというと",
+          "id": "so-created-n2-142-14-p1",
+          "text": "路地裏の屋台",
           "order": 1
-        },
-        {
-          "id": "so-extra20-n2-142-09-p4",
-          "text": "少し疲れ",
-          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-142-09-p3",
-        "so-extra20-n2-142-09-p4",
-        "so-extra20-n2-142-09-p1",
-        "so-extra20-n2-142-09-p2"
+        "so-created-n2-142-14-p1",
+        "so-created-n2-142-14-p2",
+        "so-created-n2-142-14-p3",
+        "so-created-n2-142-14-p4"
       ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '큰길의 음식점은 어디나 만석이었다. 뒷골목 포장마차는 어떠냐 하면 현지 손님들이 조용히 술을 마시고 있었다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
       "sourceGrammarIds": [
-        "n2-142"
+        "n2-142",
+        "n2-089",
+        "n2-090",
+        "n2-091"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-142-10",
+      "id": "so-created-n2-142-15",
       "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlanks": "父は元気だ。母 ____ ____ ____ ____",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
+      "sentence": "選手たちは勝利を信じて練習を続けた。監督はというと、辞任届を机の中に用意していた。",
+      "sentenceWithBlanks": "選手たちは勝利を信じて練習を ____ ____ ____ ____ 用意していた。",
+      "korean": "선수들은 승리를 믿으며 훈련을 계속했다. 감독은 어떠냐 하면 사직서를 책상 안에 준비해 두고 있었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-142-10-p4",
-          "text": "ているよ",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-142-10-p1",
-          "text": "うだ",
-          "order": 4
-        },
-        {
-          "id": "so-extra20-n2-142-10-p2",
-          "text": "はというと",
+          "id": "so-created-n2-142-15-p1",
+          "text": "続けた。監督",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-142-10-p3",
-          "text": "少し疲れ",
+          "id": "so-created-n2-142-15-p2",
+          "text": "はというと、",
           "order": 2
+        },
+        {
+          "id": "so-created-n2-142-15-p3",
+          "text": "辞任届を",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-142-15-p4",
+          "text": "机の中に",
+          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-142-10-p2",
-        "so-extra20-n2-142-10-p3",
-        "so-extra20-n2-142-10-p4",
-        "so-extra20-n2-142-10-p1"
+        "so-created-n2-142-15-p1",
+        "so-created-n2-142-15-p2",
+        "so-created-n2-142-15-p3",
+        "so-created-n2-142-15-p4"
       ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '선수들은 승리를 믿으며 훈련을 계속했다. 감독은 어떠냐 하면 사직서를 책상 안에 준비해 두고 있었다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
       "sourceGrammarIds": [
-        "n2-142"
+        "n2-142",
+        "n2-089",
+        "n2-090",
+        "n2-091"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-142-11",
+      "id": "so-created-n2-142-16",
       "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlanks": "父は元気だ。母 ____ ____ ____ ____",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
+      "sentence": "この地域の若者は都市へ移りつつある。高齢者はというと、移動販売車の到着を毎週待っている。",
+      "sentenceWithBlanks": "この地域の若者は都市へ移りつつある。 ____ ____ ____ ____ 待っている。",
+      "korean": "이 지역의 젊은이들은 도시로 옮겨 가고 있다. 노인들은 어떠냐 하면 이동 판매 차량이 오기를 매주 기다리고 있다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-142-11-p3",
-          "text": "少し疲れ",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-142-11-p4",
-          "text": "ているよ",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-142-11-p1",
-          "text": "うだ",
+          "id": "so-created-n2-142-16-p4",
+          "text": "到着を毎週",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-142-11-p2",
-          "text": "はというと",
+          "id": "so-created-n2-142-16-p1",
+          "text": "高齢者",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-142-16-p2",
+          "text": "はというと、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-142-16-p3",
+          "text": "移動販売車の",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-142-11-p2",
-        "so-extra20-n2-142-11-p3",
-        "so-extra20-n2-142-11-p4",
-        "so-extra20-n2-142-11-p1"
+        "so-created-n2-142-16-p1",
+        "so-created-n2-142-16-p2",
+        "so-created-n2-142-16-p3",
+        "so-created-n2-142-16-p4"
       ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '이 지역의 젊은이들은 도시로 옮겨 가고 있다. 노인들은 어떠냐 하면 이동 판매 차량이 오기를 매주 기다리고 있다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
       "sourceGrammarIds": [
-        "n2-142"
+        "n2-142",
+        "n2-089",
+        "n2-090",
+        "n2-091"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-142-12",
+      "id": "so-created-n2-142-17",
       "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlanks": "父は元気だ。母 ____ ____ ____ ____",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
+      "sentence": "手術は予定より早く終わった。患者の意識はというと、翌朝まで戻らなかった。",
+      "sentenceWithBlanks": "手術は ____ ____ ____ ____ 戻らなかった。",
+      "korean": "수술은 예정보다 일찍 끝났다. 환자의 의식은 어떠냐 하면 다음 날 아침까지 돌아오지 않았다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-142-12-p2",
-          "text": "少し疲れ",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-142-12-p3",
-          "text": "ているよ",
+          "id": "so-created-n2-142-17-p3",
+          "text": "意識はというと、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-142-12-p4",
-          "text": "うだ",
+          "id": "so-created-n2-142-17-p4",
+          "text": "翌朝まで",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-142-12-p1",
-          "text": "はというと",
+          "id": "so-created-n2-142-17-p1",
+          "text": "予定より早く",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-142-17-p2",
+          "text": "終わった。患者の",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-142-12-p1",
-        "so-extra20-n2-142-12-p2",
-        "so-extra20-n2-142-12-p3",
-        "so-extra20-n2-142-12-p4"
+        "so-created-n2-142-17-p1",
+        "so-created-n2-142-17-p2",
+        "so-created-n2-142-17-p3",
+        "so-created-n2-142-17-p4"
       ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '수술은 예정보다 일찍 끝났다. 환자의 의식은 어떠냐 하면 다음 날 아침까지 돌아오지 않았다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
       "sourceGrammarIds": [
-        "n2-142"
+        "n2-142",
+        "n2-089",
+        "n2-090",
+        "n2-091"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-142-13",
+      "id": "so-created-n2-142-18",
       "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、少し疲れているようだ。",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
+      "sentence": "兄夫婦は結婚記念日に豪華な食事を予約した。私たち夫婦はというと、家で残り物のカレーを温めた。",
+      "sentenceWithBlanks": "兄夫婦は結婚記念日に豪華な食事を予約した。 ____ ____ ____ ____",
+      "korean": "형 부부는 결혼기념일에 호화로운 식사를 예약했다. 우리 부부는 어떠냐 하면 집에서 남은 카레를 데웠다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-142-13-p1",
-          "text": "はというと",
+          "id": "so-created-n2-142-18-p2",
+          "text": "はというと、",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-142-13-p2",
-          "text": "少し疲れ",
+          "id": "so-created-n2-142-18-p3",
+          "text": "家で残り物の",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-142-13-p3",
-          "text": "ているよ",
+          "id": "so-created-n2-142-18-p4",
+          "text": "カレーを温めた。",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-142-13-p4",
-          "text": "。母",
+          "id": "so-created-n2-142-18-p1",
+          "text": "私たち夫婦",
           "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-142-13-p4",
-        "so-extra20-n2-142-13-p1",
-        "so-extra20-n2-142-13-p2",
-        "so-extra20-n2-142-13-p3"
+        "so-created-n2-142-18-p1",
+        "so-created-n2-142-18-p2",
+        "so-created-n2-142-18-p3",
+        "so-created-n2-142-18-p4"
       ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '형 부부는 결혼기념일에 호화로운 식사를 예약했다. 우리 부부는 어떠냐 하면 집에서 남은 카레를 데웠다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
       "sourceGrammarIds": [
-        "n2-142"
+        "n2-142",
+        "n2-089",
+        "n2-090",
+        "n2-091"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-142-14",
+      "id": "so-created-n2-142-19",
       "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlanks": "父は元気だ。母 ____ ____ ____ ____",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
+      "sentence": "町の図書館は改装されて明るくなった。郷土資料館はというと、雨漏りのため休館したままだ。",
+      "sentenceWithBlanks": "町の図書館は ____ ____ ____ ____ 休館したままだ。",
+      "korean": "마을 도서관은 개조되어 밝아졌다. 향토 자료관은 어떠냐 하면 누수 때문에 계속 휴관 중이다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-142-14-p4",
-          "text": "少し疲れ",
+          "id": "so-created-n2-142-19-p1",
+          "text": "改装されて",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-142-19-p2",
+          "text": "明るくなった。郷土",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-142-14-p1",
-          "text": "ているよ",
+          "id": "so-created-n2-142-19-p3",
+          "text": "資料館はというと、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-142-14-p2",
-          "text": "うだ",
+          "id": "so-created-n2-142-19-p4",
+          "text": "雨漏りのため",
           "order": 4
-        },
-        {
-          "id": "so-extra20-n2-142-14-p3",
-          "text": "はというと",
-          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-142-14-p3",
-        "so-extra20-n2-142-14-p4",
-        "so-extra20-n2-142-14-p1",
-        "so-extra20-n2-142-14-p2"
+        "so-created-n2-142-19-p1",
+        "so-created-n2-142-19-p2",
+        "so-created-n2-142-19-p3",
+        "so-created-n2-142-19-p4"
       ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '마을 도서관은 개조되어 밝아졌다. 향토 자료관은 어떠냐 하면 누수 때문에 계속 휴관 중이다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
       "sourceGrammarIds": [
-        "n2-142"
+        "n2-142",
+        "n2-089",
+        "n2-090",
+        "n2-091"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-142-15",
+      "id": "so-created-n2-142-20",
       "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlanks": "父は元気だ。母 ____ ____ ____ ____",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
+      "sentence": "原告側は判決を受け入れる方針を示した。被告側はというと、直ちに控訴する意向を表明した。",
+      "sentenceWithBlanks": "原告側は判決を受け入れる ____ ____ ____ ____ 意向を表明した。",
+      "korean": "원고 측은 판결을 받아들이겠다는 방침을 밝혔다. 피고 측은 어떠냐 하면 즉시 항소하겠다는 뜻을 표명했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-142-15-p3",
-          "text": "少し疲れ",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-142-15-p4",
-          "text": "ているよ",
-          "order": 3
-        },
-        {
-          "id": "so-extra20-n2-142-15-p1",
-          "text": "うだ",
+          "id": "so-created-n2-142-20-p4",
+          "text": "直ちに控訴する",
           "order": 4
         },
         {
-          "id": "so-extra20-n2-142-15-p2",
-          "text": "はというと",
+          "id": "so-created-n2-142-20-p1",
+          "text": "方針を",
           "order": 1
+        },
+        {
+          "id": "so-created-n2-142-20-p2",
+          "text": "示した。被告",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-142-20-p3",
+          "text": "側はというと、",
+          "order": 3
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-142-15-p2",
-        "so-extra20-n2-142-15-p3",
-        "so-extra20-n2-142-15-p4",
-        "so-extra20-n2-142-15-p1"
+        "so-created-n2-142-20-p1",
+        "so-created-n2-142-20-p2",
+        "so-created-n2-142-20-p3",
+        "so-created-n2-142-20-p4"
       ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '원고 측은 판결을 받아들이겠다는 방침을 밝혔다. 피고 측은 어떠냐 하면 즉시 항소하겠다는 뜻을 표명했다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
       "sourceGrammarIds": [
-        "n2-142"
+        "n2-142",
+        "n2-089",
+        "n2-090",
+        "n2-091"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-142-16",
+      "id": "so-created-n2-142-21",
       "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlanks": "父は元気だ。母 ____ ____ ____ ____",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
+      "sentence": "湖の水位は大雨で急上昇した。下流の畑はというと、堤防のおかげで浸水を免れた。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 堤防のおかげで浸水を免れた。",
+      "korean": "호수의 수위는 폭우로 급상승했다. 하류의 밭은 어떠냐 하면 제방 덕분에 침수를 피했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-142-16-p2",
-          "text": "はというと",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-142-16-p3",
-          "text": "少し疲れ",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-142-16-p4",
-          "text": "ているよ",
+          "id": "so-created-n2-142-21-p3",
+          "text": "下流の畑",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-142-16-p1",
-          "text": "うだ",
+          "id": "so-created-n2-142-21-p4",
+          "text": "はというと、",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-142-21-p1",
+          "text": "湖の水位は大雨で",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-142-21-p2",
+          "text": "急上昇した。",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-142-16-p2",
-        "so-extra20-n2-142-16-p3",
-        "so-extra20-n2-142-16-p4",
-        "so-extra20-n2-142-16-p1"
+        "so-created-n2-142-21-p1",
+        "so-created-n2-142-21-p2",
+        "so-created-n2-142-21-p3",
+        "so-created-n2-142-21-p4"
       ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '호수의 수위는 폭우로 급상승했다. 하류의 밭은 어떠냐 하면 제방 덕분에 침수를 피했다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
       "sourceGrammarIds": [
-        "n2-142"
+        "n2-142",
+        "n2-089",
+        "n2-090",
+        "n2-091"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-142-17",
+      "id": "so-created-n2-142-22",
       "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlanks": "父は元気だ。母 ____ ____ ____ ____",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
+      "sentence": "舞台上の歌手は笑顔で観客に手を振った。楽屋のスタッフはというと、故障した照明の修理に走り回っていた。",
+      "sentenceWithBlanks": "舞台上の歌手は ____ ____ ____ ____ 故障した照明の修理に走り回っていた。",
+      "korean": "무대 위 가수는 웃으며 관객에게 손을 흔들었다. 대기실의 스태프는 어떠냐 하면 고장 난 조명을 고치느라 뛰어다니고 있었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-142-17-p1",
-          "text": "はというと",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-142-17-p2",
-          "text": "少し疲れ",
+          "id": "so-created-n2-142-22-p2",
+          "text": "手を振った。",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-142-17-p3",
-          "text": "ているよ",
+          "id": "so-created-n2-142-22-p3",
+          "text": "楽屋のスタッフ",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-142-17-p4",
-          "text": "うだ",
+          "id": "so-created-n2-142-22-p4",
+          "text": "はというと、",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-142-22-p1",
+          "text": "笑顔で観客に",
+          "order": 1
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-142-17-p1",
-        "so-extra20-n2-142-17-p2",
-        "so-extra20-n2-142-17-p3",
-        "so-extra20-n2-142-17-p4"
+        "so-created-n2-142-22-p1",
+        "so-created-n2-142-22-p2",
+        "so-created-n2-142-22-p3",
+        "so-created-n2-142-22-p4"
       ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '무대 위 가수는 웃으며 관객에게 손을 흔들었다. 대기실의 스태프는 어떠냐 하면 고장 난 조명을 고치느라 뛰어다니고 있었다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
       "sourceGrammarIds": [
-        "n2-142"
+        "n2-142",
+        "n2-089",
+        "n2-090",
+        "n2-091"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-142-18",
+      "id": "so-created-n2-142-23",
       "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlanks": "____ ____ ____ ____ 、少し疲れているようだ。",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
+      "sentence": "国内市場では環境に優しい包装が支持された。輸出先はというと、価格の安さが最も重視された。",
+      "sentenceWithBlanks": "国内市場では環境に優しい包装が ____ ____ ____ ____ 重視された。",
+      "korean": "국내 시장에서는 친환경 포장이 지지를 받았다. 수출 대상국에서는 어떠냐 하면 저렴한 가격이 가장 중시되었다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-142-18-p4",
-          "text": "。母",
+          "id": "so-created-n2-142-23-p1",
+          "text": "支持された。",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-142-18-p1",
-          "text": "はというと",
+          "id": "so-created-n2-142-23-p2",
+          "text": "輸出先",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-142-18-p2",
-          "text": "少し疲れ",
+          "id": "so-created-n2-142-23-p3",
+          "text": "はというと、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-142-18-p3",
-          "text": "ているよ",
+          "id": "so-created-n2-142-23-p4",
+          "text": "価格の安さが最も",
           "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-142-18-p4",
-        "so-extra20-n2-142-18-p1",
-        "so-extra20-n2-142-18-p2",
-        "so-extra20-n2-142-18-p3"
+        "so-created-n2-142-23-p1",
+        "so-created-n2-142-23-p2",
+        "so-created-n2-142-23-p3",
+        "so-created-n2-142-23-p4"
       ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '국내 시장에서는 친환경 포장이 지지를 받았다. 수출 대상국에서는 어떠냐 하면 저렴한 가격이 가장 중시되었다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
       "sourceGrammarIds": [
-        "n2-142"
+        "n2-142",
+        "n2-089",
+        "n2-090",
+        "n2-091"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-142-19",
+      "id": "so-created-n2-142-24",
       "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlanks": "父は元気だ。母 ____ ____ ____ ____",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
+      "sentence": "息子は祖母の遺品を丁寧に整理した。娘はというと、古い写真を一枚だけ持ち帰った。",
+      "sentenceWithBlanks": "息子は祖母の遺品を丁寧に整理した。 ____ ____ ____ ____",
+      "korean": "아들은 할머니의 유품을 정성스럽게 정리했다. 딸은 어떠냐 하면 오래된 사진 한 장만 가져갔다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-142-19-p3",
-          "text": "はというと",
+          "id": "so-created-n2-142-24-p4",
+          "text": "持ち帰った。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-142-24-p1",
+          "text": "娘はというと、",
           "order": 1
         },
         {
-          "id": "so-extra20-n2-142-19-p4",
-          "text": "少し疲れ",
+          "id": "so-created-n2-142-24-p2",
+          "text": "古い写真を",
           "order": 2
         },
         {
-          "id": "so-extra20-n2-142-19-p1",
-          "text": "ているよ",
+          "id": "so-created-n2-142-24-p3",
+          "text": "一枚だけ",
           "order": 3
-        },
-        {
-          "id": "so-extra20-n2-142-19-p2",
-          "text": "うだ",
-          "order": 4
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-142-19-p3",
-        "so-extra20-n2-142-19-p4",
-        "so-extra20-n2-142-19-p1",
-        "so-extra20-n2-142-19-p2"
+        "so-created-n2-142-24-p1",
+        "so-created-n2-142-24-p2",
+        "so-created-n2-142-24-p3",
+        "so-created-n2-142-24-p4"
       ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '아들은 할머니의 유품을 정성스럽게 정리했다. 딸은 어떠냐 하면 오래된 사진 한 장만 가져갔다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
       "sourceGrammarIds": [
-        "n2-142"
+        "n2-142",
+        "n2-089",
+        "n2-090",
+        "n2-091"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     },
     {
-      "id": "so-extra20-n2-142-20",
+      "id": "so-created-n2-142-25",
       "level": "N2",
-      "sentence": "父は元気だ。母はというと、少し疲れているようだ。",
-      "sentenceWithBlanks": "父は元気だ。母 ____ ____ ____ ____",
-      "korean": "아버지는 건강하다. 어머니는 말하자면 조금 피곤해 보인다.",
+      "sentence": "先発投手は七回まで無失点に抑えた。救援投手はというと、最後の打者に逆転本塁打を許した。",
+      "sentenceWithBlanks": "先発投手は七回まで無失点に ____ ____ ____ ____ 本塁打を許した。",
+      "korean": "선발 투수는 7회까지 무실점으로 막았다. 구원 투수는 어떠냐 하면 마지막 타자에게 역전 홈런을 허용했다.",
       "pieces": [
         {
-          "id": "so-extra20-n2-142-20-p2",
-          "text": "はというと",
-          "order": 1
-        },
-        {
-          "id": "so-extra20-n2-142-20-p3",
-          "text": "少し疲れ",
-          "order": 2
-        },
-        {
-          "id": "so-extra20-n2-142-20-p4",
-          "text": "ているよ",
+          "id": "so-created-n2-142-25-p3",
+          "text": "はというと、",
           "order": 3
         },
         {
-          "id": "so-extra20-n2-142-20-p1",
-          "text": "うだ",
+          "id": "so-created-n2-142-25-p4",
+          "text": "最後の打者に逆転",
           "order": 4
+        },
+        {
+          "id": "so-created-n2-142-25-p1",
+          "text": "抑えた。",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-142-25-p2",
+          "text": "救援投手",
+          "order": 2
         }
       ],
       "correctPieceIds": [
-        "so-extra20-n2-142-20-p2",
-        "so-extra20-n2-142-20-p3",
-        "so-extra20-n2-142-20-p4",
-        "so-extra20-n2-142-20-p1"
+        "so-created-n2-142-25-p1",
+        "so-created-n2-142-25-p2",
+        "so-created-n2-142-25-p3",
+        "so-created-n2-142-25-p4"
       ],
-      "explanation": "「はというと」는 ~로 말하자면, ~은라는 뜻이다. 앞 화제와 대비하여 특정 대상을 말함.",
+      "explanation": "「はというと」는 '~로 말하자면, ~은'라는 뜻을 나타낸다. 이 문장에서는 '선발 투수는 7회까지 무실점으로 막았다. 구원 투수는 어떠냐 하면 마지막 타자에게 역전 홈런을 허용했다.'라는 상황에 쓰였으며, 앞 화제와 대비하여 특정 대상을 말함. 주의할 점은 대비적 화제 전환. 「父は元気だ。母はというと…」처럼 대조 맥락에 씀.",
       "sourceGrammarIds": [
-        "n2-142"
+        "n2-142",
+        "n2-089",
+        "n2-090",
+        "n2-091"
       ],
       "tags": [
-        "자동생성",
-        "문장배열",
-        "20개추가생성"
+        "신규예문",
+        "문장배열"
       ]
     }
   ]
