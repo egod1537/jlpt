@@ -9,6 +9,7 @@ function canUseStorage(): boolean {
 export function toPersistedQuizSession(state: QuizSessionState): PersistedQuizSession {
   return {
     currentSetIndex: state.currentSetIndex,
+    currentSetSize: state.currentSetSize,
     phase: state.phase,
     currentQuestionIndex: state.currentQuestionIndex,
     currentQuestionIds: state.currentQuestions.map((question) => question.id),

@@ -1,0 +1,3255 @@
+{
+  "grammarId": "n2-003",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-n2-ijou-001",
+      "level": "N2",
+      "sentence": "約束した以上は、最後まで責任を持つべきだ。",
+      "sentenceWithBlank": "約束（　　　）、最後まで責任を持つべきだ。",
+      "korean": "약속한 이상 끝까지 책임을 져야 한다.",
+      "answerChoiceId": "fb-n2-ijou-001-a",
+      "choices": [
+        {
+          "id": "fb-n2-ijou-001-a",
+          "text": "した以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "した以上は",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-n2-ijou-001-b",
+          "text": "したからといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "したからといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-n2-ijou-001-c",
+          "text": "したところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "したところで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-n2-ijou-001-d",
+          "text": "するあまり",
+          "grammarId": "n2-002",
+          "baseExpression": "あまり",
+          "conjugatedExpression": "するあまり",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「以上は」は、前の事実を受けて「当然〜すべきだ」という意味を表す。ここでは「約束した」という事実があるため、責任を持つべきだという文脈に合う。",
+      "sourceGrammarIds": [
+        "n2-003",
+        "n2-007",
+        "n2-028",
+        "n2-059"
+      ],
+      "tags": [
+        "責任",
+        "条件",
+        "義務",
+        "유사문법"
+      ],
+      "sentenceContext": {
+        "requiredConnectionType": "V_PAST",
+        "semanticTags": [
+          "조건",
+          "책임",
+          "의무"
+        ],
+        "expectsDutyOrResponsibility": true
+      }
+    },
+    {
+      "id": "fb-auto-n2-003-1",
+      "level": "N2",
+      "sentence": "約束した以上、守るべきだと思う。",
+      "sentenceWithBlank": "約束した（　　　）、守るべきだと思う。",
+      "korean": "약속한 이상 지켜야 한다고 생각한다.",
+      "answerChoiceId": "fb-auto-n2-003-1-a",
+      "choices": [
+        {
+          "id": "fb-auto-n2-003-1-c",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-auto-n2-003-1-d",
+          "text": "したところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "したところで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-auto-n2-003-1-a",
+          "text": "以上",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "以上",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-auto-n2-003-1-b",
+          "text": "する上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "する上は",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003",
+        "n2-007",
+        "n2-028",
+        "n2-059"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-auto-n2-003-2",
+      "level": "N2",
+      "sentence": "学生である以上、勉強を第一にしなさい。",
+      "sentenceWithBlank": "学生である（　　　）、勉強を第一にしなさい。",
+      "korean": "학생인 이상 공부를 최우선으로 하세요.",
+      "answerChoiceId": "fb-auto-n2-003-2-a",
+      "choices": [
+        {
+          "id": "fb-auto-n2-003-2-d",
+          "text": "したところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "したところで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-auto-n2-003-2-a",
+          "text": "以上",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "以上",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-auto-n2-003-2-b",
+          "text": "する上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "する上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-auto-n2-003-2-c",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003",
+        "n2-007",
+        "n2-028",
+        "n2-059"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-auto-n2-003-3",
+      "level": "N2",
+      "sentence": "約束した以上、守るべきだと思う。",
+      "sentenceWithBlank": "約束した（　　　）、守るべきだと思う。",
+      "korean": "약속한 이상 지켜야 한다고 생각한다.",
+      "answerChoiceId": "fb-auto-n2-003-3-a",
+      "choices": [
+        {
+          "id": "fb-auto-n2-003-3-a",
+          "text": "以上",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "以上",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-auto-n2-003-3-b",
+          "text": "したところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "したところで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-auto-n2-003-3-c",
+          "text": "する上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "する上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-auto-n2-003-3-d",
+          "text": "したからといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "したからといって",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003",
+        "n2-059",
+        "n2-007",
+        "n2-028"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-auto-n2-003-4",
+      "level": "N2",
+      "sentence": "学生である以上、勉強を第一にしなさい。",
+      "sentenceWithBlank": "学生である（　　　）、勉強を第一にしなさい。",
+      "korean": "학생인 이상 공부를 최우선으로 하세요.",
+      "answerChoiceId": "fb-auto-n2-003-4-a",
+      "choices": [
+        {
+          "id": "fb-auto-n2-003-4-b",
+          "text": "した上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "した上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-auto-n2-003-4-c",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-auto-n2-003-4-d",
+          "text": "したところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "したところで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-auto-n2-003-4-a",
+          "text": "以上",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "以上",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003",
+        "n2-007",
+        "n2-028",
+        "n2-059"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-auto-n2-003-5",
+      "level": "N2",
+      "sentence": "約束した以上、守るべきだと思う。",
+      "sentenceWithBlank": "約束した（　　　）、守るべきだと思う。",
+      "korean": "약속한 이상 지켜야 한다고 생각한다.",
+      "answerChoiceId": "fb-auto-n2-003-5-a",
+      "choices": [
+        {
+          "id": "fb-auto-n2-003-5-c",
+          "text": "する上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "する上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-auto-n2-003-5-d",
+          "text": "したからといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "したからといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-auto-n2-003-5-a",
+          "text": "以上",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "以上",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-auto-n2-003-5-b",
+          "text": "したところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "したところで",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003",
+        "n2-059",
+        "n2-007",
+        "n2-028"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "빈칸"
+      ]
+    },
+    {
+      "id": "fb-extra-n2-003-1",
+      "level": "N2",
+      "sentence": "約束した以上は、最後まで責任を持つべきだ。",
+      "sentenceWithBlank": "約束（　　　）、最後まで責任を持つべきだ。",
+      "korean": "약속한 이상 끝까지 책임을 져야 한다.",
+      "answerChoiceId": "fb-extra-n2-003-1-a",
+      "choices": [
+        {
+          "id": "fb-extra-n2-003-1-a",
+          "text": "した以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "した以上は",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-extra-n2-003-1-b",
+          "text": "したからといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "したからといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra-n2-003-1-c",
+          "text": "したところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "したところで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra-n2-003-1-d",
+          "text": "するあまり",
+          "grammarId": "n2-002",
+          "baseExpression": "あまり",
+          "conjugatedExpression": "するあまり",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「以上は」は、前の事実を受けて「当然〜すべきだ」という意味を表す。ここでは「約束した」という事実があるため、責任を持つべきだという文脈に合う。",
+      "sourceGrammarIds": [
+        "n2-003",
+        "n2-007",
+        "n2-028",
+        "n2-059"
+      ],
+      "tags": [
+        "責任",
+        "条件",
+        "義務",
+        "유사문법",
+        "추가생성"
+      ],
+      "sentenceContext": {
+        "requiredConnectionType": "V_PAST",
+        "semanticTags": [
+          "조건",
+          "책임",
+          "의무"
+        ],
+        "expectsDutyOrResponsibility": true
+      }
+    },
+    {
+      "id": "fb-extra-n2-003-2",
+      "level": "N2",
+      "sentence": "約束した以上、守るべきだと思う。",
+      "sentenceWithBlank": "約束した（　　　）、守るべきだと思う。",
+      "korean": "약속한 이상 지켜야 한다고 생각한다.",
+      "answerChoiceId": "fb-extra-n2-003-2-c",
+      "choices": [
+        {
+          "id": "fb-extra-n2-003-2-b",
+          "text": "したところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "したところで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra-n2-003-2-c",
+          "text": "以上",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "以上",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-extra-n2-003-2-d",
+          "text": "する上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "する上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra-n2-003-2-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003",
+        "n2-007",
+        "n2-028",
+        "n2-059"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "빈칸",
+        "추가생성"
+      ]
+    },
+    {
+      "id": "fb-extra-n2-003-3",
+      "level": "N2",
+      "sentence": "学生である以上、勉強を第一にしなさい。",
+      "sentenceWithBlank": "学生である（　　　）、勉強を第一にしなさい。",
+      "korean": "학생인 이상 공부를 최우선으로 하세요.",
+      "answerChoiceId": "fb-extra-n2-003-3-b",
+      "choices": [
+        {
+          "id": "fb-extra-n2-003-3-c",
+          "text": "する上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "する上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra-n2-003-3-d",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra-n2-003-3-a",
+          "text": "したところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "したところで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra-n2-003-3-b",
+          "text": "以上",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "以上",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003",
+        "n2-007",
+        "n2-028",
+        "n2-059"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "빈칸",
+        "추가생성"
+      ]
+    },
+    {
+      "id": "fb-extra-n2-003-4",
+      "level": "N2",
+      "sentence": "約束した以上、守るべきだと思う。",
+      "sentenceWithBlank": "約束した（　　　）、守るべきだと思う。",
+      "korean": "약속한 이상 지켜야 한다고 생각한다.",
+      "answerChoiceId": "fb-extra-n2-003-4-a",
+      "choices": [
+        {
+          "id": "fb-extra-n2-003-4-d",
+          "text": "したからといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "したからといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra-n2-003-4-a",
+          "text": "以上",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "以上",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-extra-n2-003-4-b",
+          "text": "したところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "したところで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra-n2-003-4-c",
+          "text": "する上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "する上は",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003",
+        "n2-059",
+        "n2-007",
+        "n2-028"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "빈칸",
+        "추가생성"
+      ]
+    },
+    {
+      "id": "fb-extra-n2-003-5",
+      "level": "N2",
+      "sentence": "学生である以上、勉強を第一にしなさい。",
+      "sentenceWithBlank": "学生である（　　　）、勉強を第一にしなさい。",
+      "korean": "학생인 이상 공부를 최우선으로 하세요.",
+      "answerChoiceId": "fb-extra-n2-003-5-d",
+      "choices": [
+        {
+          "id": "fb-extra-n2-003-5-a",
+          "text": "した上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "した上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra-n2-003-5-b",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra-n2-003-5-c",
+          "text": "したところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "したところで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra-n2-003-5-d",
+          "text": "以上",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "以上",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003",
+        "n2-007",
+        "n2-028",
+        "n2-059"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "빈칸",
+        "추가생성"
+      ]
+    },
+    {
+      "id": "fb-extra20-n2-003-01",
+      "level": "N2",
+      "sentence": "約束した以上は、最後まで責任を持つべきだ。",
+      "sentenceWithBlank": "約束（　　　）、最後まで責任を持つべきだ。",
+      "korean": "약속한 이상 끝까지 책임을 져야 한다.",
+      "answerChoiceId": "fb-extra20-n2-003-01-a",
+      "choices": [
+        {
+          "id": "fb-extra20-n2-003-01-a",
+          "text": "した以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "した以上は",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-extra20-n2-003-01-b",
+          "text": "したからといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "したからといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-01-c",
+          "text": "したところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "したところで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-01-d",
+          "text": "するあまり",
+          "grammarId": "n2-002",
+          "baseExpression": "あまり",
+          "conjugatedExpression": "するあまり",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「以上は」は、前の事実を受けて「当然〜すべきだ」という意味を表す。ここでは「約束した」という事実があるため、責任を持つべきだという文脈に合う。",
+      "sourceGrammarIds": [
+        "n2-003",
+        "n2-007",
+        "n2-028",
+        "n2-059"
+      ],
+      "tags": [
+        "責任",
+        "条件",
+        "義務",
+        "유사문법",
+        "20개추가생성"
+      ],
+      "sentenceContext": {
+        "requiredConnectionType": "V_PAST",
+        "semanticTags": [
+          "조건",
+          "책임",
+          "의무"
+        ],
+        "expectsDutyOrResponsibility": true
+      }
+    },
+    {
+      "id": "fb-extra20-n2-003-02",
+      "level": "N2",
+      "sentence": "約束した以上、守るべきだと思う。",
+      "sentenceWithBlank": "約束した（　　　）、守るべきだと思う。",
+      "korean": "약속한 이상 지켜야 한다고 생각한다.",
+      "answerChoiceId": "fb-extra20-n2-003-02-c",
+      "choices": [
+        {
+          "id": "fb-extra20-n2-003-02-d",
+          "text": "する上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "する上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-02-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-02-b",
+          "text": "したところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "したところで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-02-c",
+          "text": "以上",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "以上",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003",
+        "n2-007",
+        "n2-028",
+        "n2-059"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "빈칸",
+        "20개추가생성"
+      ]
+    },
+    {
+      "id": "fb-extra20-n2-003-03",
+      "level": "N2",
+      "sentence": "学生である以上、勉強を第一にしなさい。",
+      "sentenceWithBlank": "学生である（　　　）、勉強を第一にしなさい。",
+      "korean": "학생인 이상 공부를 최우선으로 하세요.",
+      "answerChoiceId": "fb-extra20-n2-003-03-b",
+      "choices": [
+        {
+          "id": "fb-extra20-n2-003-03-c",
+          "text": "する上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "する上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-03-d",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-03-a",
+          "text": "したところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "したところで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-03-b",
+          "text": "以上",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "以上",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003",
+        "n2-007",
+        "n2-028",
+        "n2-059"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "빈칸",
+        "20개추가생성"
+      ]
+    },
+    {
+      "id": "fb-extra20-n2-003-04",
+      "level": "N2",
+      "sentence": "約束した以上、守るべきだと思う。",
+      "sentenceWithBlank": "約束した（　　　）、守るべきだと思う。",
+      "korean": "약속한 이상 지켜야 한다고 생각한다.",
+      "answerChoiceId": "fb-extra20-n2-003-04-a",
+      "choices": [
+        {
+          "id": "fb-extra20-n2-003-04-b",
+          "text": "したところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "したところで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-04-c",
+          "text": "する上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "する上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-04-d",
+          "text": "したからといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "したからといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-04-a",
+          "text": "以上",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "以上",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003",
+        "n2-059",
+        "n2-007",
+        "n2-028"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "빈칸",
+        "20개추가생성"
+      ]
+    },
+    {
+      "id": "fb-extra20-n2-003-05",
+      "level": "N2",
+      "sentence": "学生である以上、勉強を第一にしなさい。",
+      "sentenceWithBlank": "学生である（　　　）、勉強を第一にしなさい。",
+      "korean": "학생인 이상 공부를 최우선으로 하세요.",
+      "answerChoiceId": "fb-extra20-n2-003-05-d",
+      "choices": [
+        {
+          "id": "fb-extra20-n2-003-05-a",
+          "text": "した上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "した上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-05-b",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-05-c",
+          "text": "したところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "したところで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-05-d",
+          "text": "以上",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "以上",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003",
+        "n2-007",
+        "n2-028",
+        "n2-059"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "빈칸",
+        "20개추가생성"
+      ]
+    },
+    {
+      "id": "fb-extra20-n2-003-06",
+      "level": "N2",
+      "sentence": "約束した以上、守るべきだと思う。",
+      "sentenceWithBlank": "約束した（　　　）、守るべきだと思う。",
+      "korean": "약속한 이상 지켜야 한다고 생각한다.",
+      "answerChoiceId": "fb-extra20-n2-003-06-c",
+      "choices": [
+        {
+          "id": "fb-extra20-n2-003-06-d",
+          "text": "したところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "したところで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-06-a",
+          "text": "する上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "する上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-06-b",
+          "text": "したからといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "したからといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-06-c",
+          "text": "以上",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "以上",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003",
+        "n2-059",
+        "n2-007",
+        "n2-028"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "빈칸",
+        "20개추가생성"
+      ]
+    },
+    {
+      "id": "fb-extra20-n2-003-07",
+      "level": "N2",
+      "sentence": "約束した以上は、最後まで責任を持つべきだ。",
+      "sentenceWithBlank": "約束（　　　）、最後まで責任を持つべきだ。",
+      "korean": "약속한 이상 끝까지 책임을 져야 한다.",
+      "answerChoiceId": "fb-extra20-n2-003-07-a",
+      "choices": [
+        {
+          "id": "fb-extra20-n2-003-07-c",
+          "text": "したところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "したところで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-07-d",
+          "text": "するあまり",
+          "grammarId": "n2-002",
+          "baseExpression": "あまり",
+          "conjugatedExpression": "するあまり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-07-a",
+          "text": "した以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "した以上は",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-extra20-n2-003-07-b",
+          "text": "したからといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "したからといって",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「以上は」は、前の事実を受けて「当然〜すべきだ」という意味を表す。ここでは「約束した」という事実があるため、責任を持つべきだという文脈に合う。",
+      "sourceGrammarIds": [
+        "n2-003",
+        "n2-007",
+        "n2-028",
+        "n2-059"
+      ],
+      "tags": [
+        "責任",
+        "条件",
+        "義務",
+        "유사문법",
+        "20개추가생성"
+      ],
+      "sentenceContext": {
+        "requiredConnectionType": "V_PAST",
+        "semanticTags": [
+          "조건",
+          "책임",
+          "의무"
+        ],
+        "expectsDutyOrResponsibility": true
+      }
+    },
+    {
+      "id": "fb-extra20-n2-003-08",
+      "level": "N2",
+      "sentence": "約束した以上、守るべきだと思う。",
+      "sentenceWithBlank": "約束した（　　　）、守るべきだと思う。",
+      "korean": "약속한 이상 지켜야 한다고 생각한다.",
+      "answerChoiceId": "fb-extra20-n2-003-08-c",
+      "choices": [
+        {
+          "id": "fb-extra20-n2-003-08-b",
+          "text": "したところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "したところで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-08-c",
+          "text": "以上",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "以上",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-extra20-n2-003-08-d",
+          "text": "する上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "する上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-08-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003",
+        "n2-007",
+        "n2-028",
+        "n2-059"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "빈칸",
+        "20개추가생성"
+      ]
+    },
+    {
+      "id": "fb-extra20-n2-003-09",
+      "level": "N2",
+      "sentence": "学生である以上、勉強を第一にしなさい。",
+      "sentenceWithBlank": "学生である（　　　）、勉強を第一にしなさい。",
+      "korean": "학생인 이상 공부를 최우선으로 하세요.",
+      "answerChoiceId": "fb-extra20-n2-003-09-b",
+      "choices": [
+        {
+          "id": "fb-extra20-n2-003-09-a",
+          "text": "したところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "したところで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-09-b",
+          "text": "以上",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "以上",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-extra20-n2-003-09-c",
+          "text": "する上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "する上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-09-d",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003",
+        "n2-007",
+        "n2-028",
+        "n2-059"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "빈칸",
+        "20개추가생성"
+      ]
+    },
+    {
+      "id": "fb-extra20-n2-003-10",
+      "level": "N2",
+      "sentence": "約束した以上、守るべきだと思う。",
+      "sentenceWithBlank": "約束した（　　　）、守るべきだと思う。",
+      "korean": "약속한 이상 지켜야 한다고 생각한다.",
+      "answerChoiceId": "fb-extra20-n2-003-10-a",
+      "choices": [
+        {
+          "id": "fb-extra20-n2-003-10-d",
+          "text": "したからといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "したからといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-10-a",
+          "text": "以上",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "以上",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-extra20-n2-003-10-b",
+          "text": "したところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "したところで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-10-c",
+          "text": "する上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "する上は",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003",
+        "n2-059",
+        "n2-007",
+        "n2-028"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "빈칸",
+        "20개추가생성"
+      ]
+    },
+    {
+      "id": "fb-extra20-n2-003-11",
+      "level": "N2",
+      "sentence": "学生である以上、勉強を第一にしなさい。",
+      "sentenceWithBlank": "学生である（　　　）、勉強を第一にしなさい。",
+      "korean": "학생인 이상 공부를 최우선으로 하세요.",
+      "answerChoiceId": "fb-extra20-n2-003-11-d",
+      "choices": [
+        {
+          "id": "fb-extra20-n2-003-11-c",
+          "text": "したところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "したところで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-11-d",
+          "text": "以上",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "以上",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-extra20-n2-003-11-a",
+          "text": "した上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "した上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-11-b",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003",
+        "n2-007",
+        "n2-028",
+        "n2-059"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "빈칸",
+        "20개추가생성"
+      ]
+    },
+    {
+      "id": "fb-extra20-n2-003-12",
+      "level": "N2",
+      "sentence": "約束した以上、守るべきだと思う。",
+      "sentenceWithBlank": "約束した（　　　）、守るべきだと思う。",
+      "korean": "약속한 이상 지켜야 한다고 생각한다.",
+      "answerChoiceId": "fb-extra20-n2-003-12-c",
+      "choices": [
+        {
+          "id": "fb-extra20-n2-003-12-b",
+          "text": "したからといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "したからといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-12-c",
+          "text": "以上",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "以上",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-extra20-n2-003-12-d",
+          "text": "したところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "したところで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-12-a",
+          "text": "する上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "する上は",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003",
+        "n2-059",
+        "n2-007",
+        "n2-028"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "빈칸",
+        "20개추가생성"
+      ]
+    },
+    {
+      "id": "fb-extra20-n2-003-13",
+      "level": "N2",
+      "sentence": "約束した以上は、最後まで責任を持つべきだ。",
+      "sentenceWithBlank": "約束（　　　）、最後まで責任を持つべきだ。",
+      "korean": "약속한 이상 끝까지 책임을 져야 한다.",
+      "answerChoiceId": "fb-extra20-n2-003-13-a",
+      "choices": [
+        {
+          "id": "fb-extra20-n2-003-13-a",
+          "text": "した以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "した以上は",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-extra20-n2-003-13-b",
+          "text": "したからといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "したからといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-13-c",
+          "text": "したところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "したところで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-13-d",
+          "text": "するあまり",
+          "grammarId": "n2-002",
+          "baseExpression": "あまり",
+          "conjugatedExpression": "するあまり",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「以上は」は、前の事実を受けて「当然〜すべきだ」という意味を表す。ここでは「約束した」という事実があるため、責任を持つべきだという文脈に合う。",
+      "sourceGrammarIds": [
+        "n2-003",
+        "n2-007",
+        "n2-028",
+        "n2-059"
+      ],
+      "tags": [
+        "責任",
+        "条件",
+        "義務",
+        "유사문법",
+        "20개추가생성"
+      ],
+      "sentenceContext": {
+        "requiredConnectionType": "V_PAST",
+        "semanticTags": [
+          "조건",
+          "책임",
+          "의무"
+        ],
+        "expectsDutyOrResponsibility": true
+      }
+    },
+    {
+      "id": "fb-extra20-n2-003-14",
+      "level": "N2",
+      "sentence": "約束した以上、守るべきだと思う。",
+      "sentenceWithBlank": "約束した（　　　）、守るべきだと思う。",
+      "korean": "약속한 이상 지켜야 한다고 생각한다.",
+      "answerChoiceId": "fb-extra20-n2-003-14-c",
+      "choices": [
+        {
+          "id": "fb-extra20-n2-003-14-d",
+          "text": "する上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "する上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-14-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-14-b",
+          "text": "したところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "したところで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-14-c",
+          "text": "以上",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "以上",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003",
+        "n2-007",
+        "n2-028",
+        "n2-059"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "빈칸",
+        "20개추가생성"
+      ]
+    },
+    {
+      "id": "fb-extra20-n2-003-15",
+      "level": "N2",
+      "sentence": "学生である以上、勉強を第一にしなさい。",
+      "sentenceWithBlank": "学生である（　　　）、勉強を第一にしなさい。",
+      "korean": "학생인 이상 공부를 최우선으로 하세요.",
+      "answerChoiceId": "fb-extra20-n2-003-15-b",
+      "choices": [
+        {
+          "id": "fb-extra20-n2-003-15-c",
+          "text": "する上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "する上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-15-d",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-15-a",
+          "text": "したところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "したところで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-15-b",
+          "text": "以上",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "以上",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003",
+        "n2-007",
+        "n2-028",
+        "n2-059"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "빈칸",
+        "20개추가생성"
+      ]
+    },
+    {
+      "id": "fb-extra20-n2-003-16",
+      "level": "N2",
+      "sentence": "約束した以上、守るべきだと思う。",
+      "sentenceWithBlank": "約束した（　　　）、守るべきだと思う。",
+      "korean": "약속한 이상 지켜야 한다고 생각한다.",
+      "answerChoiceId": "fb-extra20-n2-003-16-a",
+      "choices": [
+        {
+          "id": "fb-extra20-n2-003-16-b",
+          "text": "したところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "したところで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-16-c",
+          "text": "する上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "する上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-16-d",
+          "text": "したからといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "したからといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-16-a",
+          "text": "以上",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "以上",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003",
+        "n2-059",
+        "n2-007",
+        "n2-028"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "빈칸",
+        "20개추가생성"
+      ]
+    },
+    {
+      "id": "fb-extra20-n2-003-17",
+      "level": "N2",
+      "sentence": "学生である以上、勉強を第一にしなさい。",
+      "sentenceWithBlank": "学生である（　　　）、勉強を第一にしなさい。",
+      "korean": "학생인 이상 공부를 최우선으로 하세요.",
+      "answerChoiceId": "fb-extra20-n2-003-17-d",
+      "choices": [
+        {
+          "id": "fb-extra20-n2-003-17-a",
+          "text": "した上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "した上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-17-b",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-17-c",
+          "text": "したところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "したところで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-17-d",
+          "text": "以上",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "以上",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003",
+        "n2-007",
+        "n2-028",
+        "n2-059"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "빈칸",
+        "20개추가생성"
+      ]
+    },
+    {
+      "id": "fb-extra20-n2-003-18",
+      "level": "N2",
+      "sentence": "約束した以上、守るべきだと思う。",
+      "sentenceWithBlank": "約束した（　　　）、守るべきだと思う。",
+      "korean": "약속한 이상 지켜야 한다고 생각한다.",
+      "answerChoiceId": "fb-extra20-n2-003-18-c",
+      "choices": [
+        {
+          "id": "fb-extra20-n2-003-18-d",
+          "text": "したところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "したところで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-18-a",
+          "text": "する上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "する上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-18-b",
+          "text": "したからといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "したからといって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-18-c",
+          "text": "以上",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "以上",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003",
+        "n2-059",
+        "n2-007",
+        "n2-028"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "빈칸",
+        "20개추가생성"
+      ]
+    },
+    {
+      "id": "fb-extra20-n2-003-19",
+      "level": "N2",
+      "sentence": "約束した以上は、最後まで責任を持つべきだ。",
+      "sentenceWithBlank": "約束（　　　）、最後まで責任を持つべきだ。",
+      "korean": "약속한 이상 끝까지 책임을 져야 한다.",
+      "answerChoiceId": "fb-extra20-n2-003-19-a",
+      "choices": [
+        {
+          "id": "fb-extra20-n2-003-19-c",
+          "text": "したところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "したところで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-19-d",
+          "text": "するあまり",
+          "grammarId": "n2-002",
+          "baseExpression": "あまり",
+          "conjugatedExpression": "するあまり",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-19-a",
+          "text": "した以上は",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "した以上は",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-extra20-n2-003-19-b",
+          "text": "したからといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "したからといって",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「以上は」は、前の事実を受けて「当然〜すべきだ」という意味を表す。ここでは「約束した」という事実があるため、責任を持つべきだという文脈に合う。",
+      "sourceGrammarIds": [
+        "n2-003",
+        "n2-007",
+        "n2-028",
+        "n2-059"
+      ],
+      "tags": [
+        "責任",
+        "条件",
+        "義務",
+        "유사문법",
+        "20개추가생성"
+      ],
+      "sentenceContext": {
+        "requiredConnectionType": "V_PAST",
+        "semanticTags": [
+          "조건",
+          "책임",
+          "의무"
+        ],
+        "expectsDutyOrResponsibility": true
+      }
+    },
+    {
+      "id": "fb-extra20-n2-003-20",
+      "level": "N2",
+      "sentence": "約束した以上、守るべきだと思う。",
+      "sentenceWithBlank": "約束した（　　　）、守るべきだと思う。",
+      "korean": "약속한 이상 지켜야 한다고 생각한다.",
+      "answerChoiceId": "fb-extra20-n2-003-20-c",
+      "choices": [
+        {
+          "id": "fb-extra20-n2-003-20-b",
+          "text": "したところで",
+          "grammarId": "n2-059",
+          "baseExpression": "たところで",
+          "conjugatedExpression": "したところで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-20-c",
+          "text": "以上",
+          "grammarId": "n2-003",
+          "baseExpression": "以上は",
+          "conjugatedExpression": "以上",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-extra20-n2-003-20-d",
+          "text": "する上は",
+          "grammarId": "n2-007",
+          "baseExpression": "上は",
+          "conjugatedExpression": "する上は",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-extra20-n2-003-20-a",
+          "text": "からといって",
+          "grammarId": "n2-028",
+          "baseExpression": "からといって",
+          "conjugatedExpression": "からといって",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003",
+        "n2-007",
+        "n2-028",
+        "n2-059"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "빈칸",
+        "20개추가생성"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-n2-ijou-001",
+      "level": "N2",
+      "sentence": "学生である以上、勉強を第一にしなさい。",
+      "sentenceWithBlanks": "学生である ____ ____ ____ ____。",
+      "korean": "학생인 이상 공부를 최우선으로 하세요.",
+      "pieces": [
+        {
+          "id": "so-n2-ijou-001-p1",
+          "text": "勉強を",
+          "order": 2
+        },
+        {
+          "id": "so-n2-ijou-001-p2",
+          "text": "第一に",
+          "order": 3
+        },
+        {
+          "id": "so-n2-ijou-001-p3",
+          "text": "以上",
+          "order": 1
+        },
+        {
+          "id": "so-n2-ijou-001-p4",
+          "text": "しなさい",
+          "order": 4
+        }
+      ],
+      "correctPieceIds": [
+        "so-n2-ijou-001-p3",
+        "so-n2-ijou-001-p1",
+        "so-n2-ijou-001-p2",
+        "so-n2-ijou-001-p4"
+      ],
+      "explanation": "「以上」は「Nである以上」の形で、前提が成立する以上、後ろの義務・責任が当然だという意味を表す。「学生である」に直接続き、その後に義務内容が続く。",
+      "sourceGrammarIds": [
+        "n2-003"
+      ],
+      "tags": [
+        "条件",
+        "義務",
+        "文法配列"
+      ]
+    },
+    {
+      "id": "so-auto-n2-003-1",
+      "level": "N2",
+      "sentence": "約束した以上、守るべきだと思う。",
+      "sentenceWithBlanks": "約束した ____ ____ ____ ____",
+      "korean": "약속한 이상 지켜야 한다고 생각한다.",
+      "pieces": [
+        {
+          "id": "so-auto-n2-003-1-p4",
+          "text": "思う",
+          "order": 4
+        },
+        {
+          "id": "so-auto-n2-003-1-p1",
+          "text": "以上",
+          "order": 1
+        },
+        {
+          "id": "so-auto-n2-003-1-p2",
+          "text": "守るべ",
+          "order": 2
+        },
+        {
+          "id": "so-auto-n2-003-1-p3",
+          "text": "きだと",
+          "order": 3
+        }
+      ],
+      "correctPieceIds": [
+        "so-auto-n2-003-1-p1",
+        "so-auto-n2-003-1-p2",
+        "so-auto-n2-003-1-p3",
+        "so-auto-n2-003-1-p4"
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "문장배열"
+      ]
+    },
+    {
+      "id": "so-auto-n2-003-2",
+      "level": "N2",
+      "sentence": "学生である以上、勉強を第一にしなさい。",
+      "sentenceWithBlanks": "学生である ____ ____ ____ ____",
+      "korean": "학생인 이상 공부를 최우선으로 하세요.",
+      "pieces": [
+        {
+          "id": "so-auto-n2-003-2-p1",
+          "text": "以上",
+          "order": 1
+        },
+        {
+          "id": "so-auto-n2-003-2-p2",
+          "text": "勉強を",
+          "order": 2
+        },
+        {
+          "id": "so-auto-n2-003-2-p3",
+          "text": "第一に",
+          "order": 3
+        },
+        {
+          "id": "so-auto-n2-003-2-p4",
+          "text": "しなさい",
+          "order": 4
+        }
+      ],
+      "correctPieceIds": [
+        "so-auto-n2-003-2-p1",
+        "so-auto-n2-003-2-p2",
+        "so-auto-n2-003-2-p3",
+        "so-auto-n2-003-2-p4"
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "문장배열"
+      ]
+    },
+    {
+      "id": "so-auto-n2-003-3",
+      "level": "N2",
+      "sentence": "約束した以上、守るべきだと思う。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 、守るべきだと思う。",
+      "korean": "약속한 이상 지켜야 한다고 생각한다.",
+      "pieces": [
+        {
+          "id": "so-auto-n2-003-3-p2",
+          "text": "以上",
+          "order": 2
+        },
+        {
+          "id": "so-auto-n2-003-3-p3",
+          "text": "守るべ",
+          "order": 3
+        },
+        {
+          "id": "so-auto-n2-003-3-p4",
+          "text": "きだと",
+          "order": 4
+        },
+        {
+          "id": "so-auto-n2-003-3-p1",
+          "text": "した",
+          "order": 1
+        }
+      ],
+      "correctPieceIds": [
+        "so-auto-n2-003-3-p1",
+        "so-auto-n2-003-3-p2",
+        "so-auto-n2-003-3-p3",
+        "so-auto-n2-003-3-p4"
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "문장배열"
+      ]
+    },
+    {
+      "id": "so-auto-n2-003-4",
+      "level": "N2",
+      "sentence": "学生である以上、勉強を第一にしなさい。",
+      "sentenceWithBlanks": "学生である ____ ____ ____ ____",
+      "korean": "학생인 이상 공부를 최우선으로 하세요.",
+      "pieces": [
+        {
+          "id": "so-auto-n2-003-4-p3",
+          "text": "第一に",
+          "order": 3
+        },
+        {
+          "id": "so-auto-n2-003-4-p4",
+          "text": "しなさい",
+          "order": 4
+        },
+        {
+          "id": "so-auto-n2-003-4-p1",
+          "text": "以上",
+          "order": 1
+        },
+        {
+          "id": "so-auto-n2-003-4-p2",
+          "text": "勉強を",
+          "order": 2
+        }
+      ],
+      "correctPieceIds": [
+        "so-auto-n2-003-4-p1",
+        "so-auto-n2-003-4-p2",
+        "so-auto-n2-003-4-p3",
+        "so-auto-n2-003-4-p4"
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "문장배열"
+      ]
+    },
+    {
+      "id": "so-auto-n2-003-5",
+      "level": "N2",
+      "sentence": "約束した以上、守るべきだと思う。",
+      "sentenceWithBlanks": "約束した ____ ____ ____ ____",
+      "korean": "약속한 이상 지켜야 한다고 생각한다.",
+      "pieces": [
+        {
+          "id": "so-auto-n2-003-5-p4",
+          "text": "思う",
+          "order": 4
+        },
+        {
+          "id": "so-auto-n2-003-5-p1",
+          "text": "以上",
+          "order": 1
+        },
+        {
+          "id": "so-auto-n2-003-5-p2",
+          "text": "守るべ",
+          "order": 2
+        },
+        {
+          "id": "so-auto-n2-003-5-p3",
+          "text": "きだと",
+          "order": 3
+        }
+      ],
+      "correctPieceIds": [
+        "so-auto-n2-003-5-p1",
+        "so-auto-n2-003-5-p2",
+        "so-auto-n2-003-5-p3",
+        "so-auto-n2-003-5-p4"
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "문장배열"
+      ]
+    },
+    {
+      "id": "so-extra-n2-003-1",
+      "level": "N2",
+      "sentence": "学生である以上、勉強を第一にしなさい。",
+      "sentenceWithBlanks": "学生である ____ ____ ____ ____。",
+      "korean": "학생인 이상 공부를 최우선으로 하세요.",
+      "pieces": [
+        {
+          "id": "so-extra-n2-003-1-p2",
+          "text": "第一に",
+          "order": 3
+        },
+        {
+          "id": "so-extra-n2-003-1-p3",
+          "text": "以上",
+          "order": 1
+        },
+        {
+          "id": "so-extra-n2-003-1-p4",
+          "text": "しなさい",
+          "order": 4
+        },
+        {
+          "id": "so-extra-n2-003-1-p1",
+          "text": "勉強を",
+          "order": 2
+        }
+      ],
+      "correctPieceIds": [
+        "so-extra-n2-003-1-p3",
+        "so-extra-n2-003-1-p1",
+        "so-extra-n2-003-1-p2",
+        "so-extra-n2-003-1-p4"
+      ],
+      "explanation": "「以上」は「Nである以上」の形で、前提が成立する以上、後ろの義務・責任が当然だという意味を表す。「学生である」に直接続き、その後に義務内容が続く。",
+      "sourceGrammarIds": [
+        "n2-003"
+      ],
+      "tags": [
+        "条件",
+        "義務",
+        "文法配列",
+        "추가생성"
+      ]
+    },
+    {
+      "id": "so-extra-n2-003-2",
+      "level": "N2",
+      "sentence": "約束した以上、守るべきだと思う。",
+      "sentenceWithBlanks": "約束した ____ ____ ____ ____",
+      "korean": "약속한 이상 지켜야 한다고 생각한다.",
+      "pieces": [
+        {
+          "id": "so-extra-n2-003-2-p3",
+          "text": "守るべ",
+          "order": 2
+        },
+        {
+          "id": "so-extra-n2-003-2-p4",
+          "text": "きだと",
+          "order": 3
+        },
+        {
+          "id": "so-extra-n2-003-2-p1",
+          "text": "思う",
+          "order": 4
+        },
+        {
+          "id": "so-extra-n2-003-2-p2",
+          "text": "以上",
+          "order": 1
+        }
+      ],
+      "correctPieceIds": [
+        "so-extra-n2-003-2-p2",
+        "so-extra-n2-003-2-p3",
+        "so-extra-n2-003-2-p4",
+        "so-extra-n2-003-2-p1"
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "문장배열",
+        "추가생성"
+      ]
+    },
+    {
+      "id": "so-extra-n2-003-3",
+      "level": "N2",
+      "sentence": "学生である以上、勉強を第一にしなさい。",
+      "sentenceWithBlanks": "学生である ____ ____ ____ ____",
+      "korean": "학생인 이상 공부를 최우선으로 하세요.",
+      "pieces": [
+        {
+          "id": "so-extra-n2-003-3-p4",
+          "text": "しなさい",
+          "order": 4
+        },
+        {
+          "id": "so-extra-n2-003-3-p1",
+          "text": "以上",
+          "order": 1
+        },
+        {
+          "id": "so-extra-n2-003-3-p2",
+          "text": "勉強を",
+          "order": 2
+        },
+        {
+          "id": "so-extra-n2-003-3-p3",
+          "text": "第一に",
+          "order": 3
+        }
+      ],
+      "correctPieceIds": [
+        "so-extra-n2-003-3-p1",
+        "so-extra-n2-003-3-p2",
+        "so-extra-n2-003-3-p3",
+        "so-extra-n2-003-3-p4"
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "문장배열",
+        "추가생성"
+      ]
+    },
+    {
+      "id": "so-extra-n2-003-4",
+      "level": "N2",
+      "sentence": "約束した以上、守るべきだと思う。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 、守るべきだと思う。",
+      "korean": "약속한 이상 지켜야 한다고 생각한다.",
+      "pieces": [
+        {
+          "id": "so-extra-n2-003-4-p1",
+          "text": "以上",
+          "order": 2
+        },
+        {
+          "id": "so-extra-n2-003-4-p2",
+          "text": "守るべ",
+          "order": 3
+        },
+        {
+          "id": "so-extra-n2-003-4-p3",
+          "text": "きだと",
+          "order": 4
+        },
+        {
+          "id": "so-extra-n2-003-4-p4",
+          "text": "した",
+          "order": 1
+        }
+      ],
+      "correctPieceIds": [
+        "so-extra-n2-003-4-p4",
+        "so-extra-n2-003-4-p1",
+        "so-extra-n2-003-4-p2",
+        "so-extra-n2-003-4-p3"
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "문장배열",
+        "추가생성"
+      ]
+    },
+    {
+      "id": "so-extra-n2-003-5",
+      "level": "N2",
+      "sentence": "学生である以上、勉強を第一にしなさい。",
+      "sentenceWithBlanks": "学生である ____ ____ ____ ____",
+      "korean": "학생인 이상 공부를 최우선으로 하세요.",
+      "pieces": [
+        {
+          "id": "so-extra-n2-003-5-p2",
+          "text": "しなさい",
+          "order": 4
+        },
+        {
+          "id": "so-extra-n2-003-5-p3",
+          "text": "以上",
+          "order": 1
+        },
+        {
+          "id": "so-extra-n2-003-5-p4",
+          "text": "勉強を",
+          "order": 2
+        },
+        {
+          "id": "so-extra-n2-003-5-p1",
+          "text": "第一に",
+          "order": 3
+        }
+      ],
+      "correctPieceIds": [
+        "so-extra-n2-003-5-p3",
+        "so-extra-n2-003-5-p4",
+        "so-extra-n2-003-5-p1",
+        "so-extra-n2-003-5-p2"
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "문장배열",
+        "추가생성"
+      ]
+    },
+    {
+      "id": "so-extra20-n2-003-01",
+      "level": "N2",
+      "sentence": "学生である以上、勉強を第一にしなさい。",
+      "sentenceWithBlanks": "学生である ____ ____ ____ ____。",
+      "korean": "학생인 이상 공부를 최우선으로 하세요.",
+      "pieces": [
+        {
+          "id": "so-extra20-n2-003-01-p2",
+          "text": "第一に",
+          "order": 3
+        },
+        {
+          "id": "so-extra20-n2-003-01-p3",
+          "text": "以上",
+          "order": 1
+        },
+        {
+          "id": "so-extra20-n2-003-01-p4",
+          "text": "しなさい",
+          "order": 4
+        },
+        {
+          "id": "so-extra20-n2-003-01-p1",
+          "text": "勉強を",
+          "order": 2
+        }
+      ],
+      "correctPieceIds": [
+        "so-extra20-n2-003-01-p3",
+        "so-extra20-n2-003-01-p1",
+        "so-extra20-n2-003-01-p2",
+        "so-extra20-n2-003-01-p4"
+      ],
+      "explanation": "「以上」は「Nである以上」の形で、前提が成立する以上、後ろの義務・責任が当然だという意味を表す。「学生である」に直接続き、その後に義務内容が続く。",
+      "sourceGrammarIds": [
+        "n2-003"
+      ],
+      "tags": [
+        "条件",
+        "義務",
+        "文法配列",
+        "20개추가생성"
+      ]
+    },
+    {
+      "id": "so-extra20-n2-003-02",
+      "level": "N2",
+      "sentence": "約束した以上、守るべきだと思う。",
+      "sentenceWithBlanks": "約束した ____ ____ ____ ____",
+      "korean": "약속한 이상 지켜야 한다고 생각한다.",
+      "pieces": [
+        {
+          "id": "so-extra20-n2-003-02-p1",
+          "text": "思う",
+          "order": 4
+        },
+        {
+          "id": "so-extra20-n2-003-02-p2",
+          "text": "以上",
+          "order": 1
+        },
+        {
+          "id": "so-extra20-n2-003-02-p3",
+          "text": "守るべ",
+          "order": 2
+        },
+        {
+          "id": "so-extra20-n2-003-02-p4",
+          "text": "きだと",
+          "order": 3
+        }
+      ],
+      "correctPieceIds": [
+        "so-extra20-n2-003-02-p2",
+        "so-extra20-n2-003-02-p3",
+        "so-extra20-n2-003-02-p4",
+        "so-extra20-n2-003-02-p1"
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "문장배열",
+        "20개추가생성"
+      ]
+    },
+    {
+      "id": "so-extra20-n2-003-03",
+      "level": "N2",
+      "sentence": "学生である以上、勉強を第一にしなさい。",
+      "sentenceWithBlanks": "学生である ____ ____ ____ ____",
+      "korean": "학생인 이상 공부를 최우선으로 하세요.",
+      "pieces": [
+        {
+          "id": "so-extra20-n2-003-03-p4",
+          "text": "しなさい",
+          "order": 4
+        },
+        {
+          "id": "so-extra20-n2-003-03-p1",
+          "text": "以上",
+          "order": 1
+        },
+        {
+          "id": "so-extra20-n2-003-03-p2",
+          "text": "勉強を",
+          "order": 2
+        },
+        {
+          "id": "so-extra20-n2-003-03-p3",
+          "text": "第一に",
+          "order": 3
+        }
+      ],
+      "correctPieceIds": [
+        "so-extra20-n2-003-03-p1",
+        "so-extra20-n2-003-03-p2",
+        "so-extra20-n2-003-03-p3",
+        "so-extra20-n2-003-03-p4"
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "문장배열",
+        "20개추가생성"
+      ]
+    },
+    {
+      "id": "so-extra20-n2-003-04",
+      "level": "N2",
+      "sentence": "約束した以上、守るべきだと思う。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 、守るべきだと思う。",
+      "korean": "약속한 이상 지켜야 한다고 생각한다.",
+      "pieces": [
+        {
+          "id": "so-extra20-n2-003-04-p3",
+          "text": "きだと",
+          "order": 4
+        },
+        {
+          "id": "so-extra20-n2-003-04-p4",
+          "text": "した",
+          "order": 1
+        },
+        {
+          "id": "so-extra20-n2-003-04-p1",
+          "text": "以上",
+          "order": 2
+        },
+        {
+          "id": "so-extra20-n2-003-04-p2",
+          "text": "守るべ",
+          "order": 3
+        }
+      ],
+      "correctPieceIds": [
+        "so-extra20-n2-003-04-p4",
+        "so-extra20-n2-003-04-p1",
+        "so-extra20-n2-003-04-p2",
+        "so-extra20-n2-003-04-p3"
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "문장배열",
+        "20개추가생성"
+      ]
+    },
+    {
+      "id": "so-extra20-n2-003-05",
+      "level": "N2",
+      "sentence": "学生である以上、勉強を第一にしなさい。",
+      "sentenceWithBlanks": "学生である ____ ____ ____ ____",
+      "korean": "학생인 이상 공부를 최우선으로 하세요.",
+      "pieces": [
+        {
+          "id": "so-extra20-n2-003-05-p2",
+          "text": "しなさい",
+          "order": 4
+        },
+        {
+          "id": "so-extra20-n2-003-05-p3",
+          "text": "以上",
+          "order": 1
+        },
+        {
+          "id": "so-extra20-n2-003-05-p4",
+          "text": "勉強を",
+          "order": 2
+        },
+        {
+          "id": "so-extra20-n2-003-05-p1",
+          "text": "第一に",
+          "order": 3
+        }
+      ],
+      "correctPieceIds": [
+        "so-extra20-n2-003-05-p3",
+        "so-extra20-n2-003-05-p4",
+        "so-extra20-n2-003-05-p1",
+        "so-extra20-n2-003-05-p2"
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "문장배열",
+        "20개추가생성"
+      ]
+    },
+    {
+      "id": "so-extra20-n2-003-06",
+      "level": "N2",
+      "sentence": "約束した以上、守るべきだと思う。",
+      "sentenceWithBlanks": "約束した ____ ____ ____ ____",
+      "korean": "약속한 이상 지켜야 한다고 생각한다.",
+      "pieces": [
+        {
+          "id": "so-extra20-n2-003-06-p1",
+          "text": "思う",
+          "order": 4
+        },
+        {
+          "id": "so-extra20-n2-003-06-p2",
+          "text": "以上",
+          "order": 1
+        },
+        {
+          "id": "so-extra20-n2-003-06-p3",
+          "text": "守るべ",
+          "order": 2
+        },
+        {
+          "id": "so-extra20-n2-003-06-p4",
+          "text": "きだと",
+          "order": 3
+        }
+      ],
+      "correctPieceIds": [
+        "so-extra20-n2-003-06-p2",
+        "so-extra20-n2-003-06-p3",
+        "so-extra20-n2-003-06-p4",
+        "so-extra20-n2-003-06-p1"
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "문장배열",
+        "20개추가생성"
+      ]
+    },
+    {
+      "id": "so-extra20-n2-003-07",
+      "level": "N2",
+      "sentence": "学生である以上、勉強を第一にしなさい。",
+      "sentenceWithBlanks": "学生である ____ ____ ____ ____。",
+      "korean": "학생인 이상 공부를 최우선으로 하세요.",
+      "pieces": [
+        {
+          "id": "so-extra20-n2-003-07-p4",
+          "text": "しなさい",
+          "order": 4
+        },
+        {
+          "id": "so-extra20-n2-003-07-p1",
+          "text": "勉強を",
+          "order": 2
+        },
+        {
+          "id": "so-extra20-n2-003-07-p2",
+          "text": "第一に",
+          "order": 3
+        },
+        {
+          "id": "so-extra20-n2-003-07-p3",
+          "text": "以上",
+          "order": 1
+        }
+      ],
+      "correctPieceIds": [
+        "so-extra20-n2-003-07-p3",
+        "so-extra20-n2-003-07-p1",
+        "so-extra20-n2-003-07-p2",
+        "so-extra20-n2-003-07-p4"
+      ],
+      "explanation": "「以上」は「Nである以上」の形で、前提が成立する以上、後ろの義務・責任が当然だという意味を表す。「学生である」に直接続き、その後に義務内容が続く。",
+      "sourceGrammarIds": [
+        "n2-003"
+      ],
+      "tags": [
+        "条件",
+        "義務",
+        "文法配列",
+        "20개추가생성"
+      ]
+    },
+    {
+      "id": "so-extra20-n2-003-08",
+      "level": "N2",
+      "sentence": "約束した以上、守るべきだと思う。",
+      "sentenceWithBlanks": "約束した ____ ____ ____ ____",
+      "korean": "약속한 이상 지켜야 한다고 생각한다.",
+      "pieces": [
+        {
+          "id": "so-extra20-n2-003-08-p3",
+          "text": "守るべ",
+          "order": 2
+        },
+        {
+          "id": "so-extra20-n2-003-08-p4",
+          "text": "きだと",
+          "order": 3
+        },
+        {
+          "id": "so-extra20-n2-003-08-p1",
+          "text": "思う",
+          "order": 4
+        },
+        {
+          "id": "so-extra20-n2-003-08-p2",
+          "text": "以上",
+          "order": 1
+        }
+      ],
+      "correctPieceIds": [
+        "so-extra20-n2-003-08-p2",
+        "so-extra20-n2-003-08-p3",
+        "so-extra20-n2-003-08-p4",
+        "so-extra20-n2-003-08-p1"
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "문장배열",
+        "20개추가생성"
+      ]
+    },
+    {
+      "id": "so-extra20-n2-003-09",
+      "level": "N2",
+      "sentence": "学生である以上、勉強を第一にしなさい。",
+      "sentenceWithBlanks": "学生である ____ ____ ____ ____",
+      "korean": "학생인 이상 공부를 최우선으로 하세요.",
+      "pieces": [
+        {
+          "id": "so-extra20-n2-003-09-p2",
+          "text": "勉強を",
+          "order": 2
+        },
+        {
+          "id": "so-extra20-n2-003-09-p3",
+          "text": "第一に",
+          "order": 3
+        },
+        {
+          "id": "so-extra20-n2-003-09-p4",
+          "text": "しなさい",
+          "order": 4
+        },
+        {
+          "id": "so-extra20-n2-003-09-p1",
+          "text": "以上",
+          "order": 1
+        }
+      ],
+      "correctPieceIds": [
+        "so-extra20-n2-003-09-p1",
+        "so-extra20-n2-003-09-p2",
+        "so-extra20-n2-003-09-p3",
+        "so-extra20-n2-003-09-p4"
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "문장배열",
+        "20개추가생성"
+      ]
+    },
+    {
+      "id": "so-extra20-n2-003-10",
+      "level": "N2",
+      "sentence": "約束した以上、守るべきだと思う。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 、守るべきだと思う。",
+      "korean": "약속한 이상 지켜야 한다고 생각한다.",
+      "pieces": [
+        {
+          "id": "so-extra20-n2-003-10-p1",
+          "text": "以上",
+          "order": 2
+        },
+        {
+          "id": "so-extra20-n2-003-10-p2",
+          "text": "守るべ",
+          "order": 3
+        },
+        {
+          "id": "so-extra20-n2-003-10-p3",
+          "text": "きだと",
+          "order": 4
+        },
+        {
+          "id": "so-extra20-n2-003-10-p4",
+          "text": "した",
+          "order": 1
+        }
+      ],
+      "correctPieceIds": [
+        "so-extra20-n2-003-10-p4",
+        "so-extra20-n2-003-10-p1",
+        "so-extra20-n2-003-10-p2",
+        "so-extra20-n2-003-10-p3"
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "문장배열",
+        "20개추가생성"
+      ]
+    },
+    {
+      "id": "so-extra20-n2-003-11",
+      "level": "N2",
+      "sentence": "学生である以上、勉強を第一にしなさい。",
+      "sentenceWithBlanks": "学生である ____ ____ ____ ____",
+      "korean": "학생인 이상 공부를 최우선으로 하세요.",
+      "pieces": [
+        {
+          "id": "so-extra20-n2-003-11-p4",
+          "text": "勉強を",
+          "order": 2
+        },
+        {
+          "id": "so-extra20-n2-003-11-p1",
+          "text": "第一に",
+          "order": 3
+        },
+        {
+          "id": "so-extra20-n2-003-11-p2",
+          "text": "しなさい",
+          "order": 4
+        },
+        {
+          "id": "so-extra20-n2-003-11-p3",
+          "text": "以上",
+          "order": 1
+        }
+      ],
+      "correctPieceIds": [
+        "so-extra20-n2-003-11-p3",
+        "so-extra20-n2-003-11-p4",
+        "so-extra20-n2-003-11-p1",
+        "so-extra20-n2-003-11-p2"
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "문장배열",
+        "20개추가생성"
+      ]
+    },
+    {
+      "id": "so-extra20-n2-003-12",
+      "level": "N2",
+      "sentence": "約束した以上、守るべきだと思う。",
+      "sentenceWithBlanks": "約束した ____ ____ ____ ____",
+      "korean": "약속한 이상 지켜야 한다고 생각한다.",
+      "pieces": [
+        {
+          "id": "so-extra20-n2-003-12-p3",
+          "text": "守るべ",
+          "order": 2
+        },
+        {
+          "id": "so-extra20-n2-003-12-p4",
+          "text": "きだと",
+          "order": 3
+        },
+        {
+          "id": "so-extra20-n2-003-12-p1",
+          "text": "思う",
+          "order": 4
+        },
+        {
+          "id": "so-extra20-n2-003-12-p2",
+          "text": "以上",
+          "order": 1
+        }
+      ],
+      "correctPieceIds": [
+        "so-extra20-n2-003-12-p2",
+        "so-extra20-n2-003-12-p3",
+        "so-extra20-n2-003-12-p4",
+        "so-extra20-n2-003-12-p1"
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "문장배열",
+        "20개추가생성"
+      ]
+    },
+    {
+      "id": "so-extra20-n2-003-13",
+      "level": "N2",
+      "sentence": "学生である以上、勉強を第一にしなさい。",
+      "sentenceWithBlanks": "学生である ____ ____ ____ ____。",
+      "korean": "학생인 이상 공부를 최우선으로 하세요.",
+      "pieces": [
+        {
+          "id": "so-extra20-n2-003-13-p2",
+          "text": "第一に",
+          "order": 3
+        },
+        {
+          "id": "so-extra20-n2-003-13-p3",
+          "text": "以上",
+          "order": 1
+        },
+        {
+          "id": "so-extra20-n2-003-13-p4",
+          "text": "しなさい",
+          "order": 4
+        },
+        {
+          "id": "so-extra20-n2-003-13-p1",
+          "text": "勉強を",
+          "order": 2
+        }
+      ],
+      "correctPieceIds": [
+        "so-extra20-n2-003-13-p3",
+        "so-extra20-n2-003-13-p1",
+        "so-extra20-n2-003-13-p2",
+        "so-extra20-n2-003-13-p4"
+      ],
+      "explanation": "「以上」は「Nである以上」の形で、前提が成立する以上、後ろの義務・責任が当然だという意味を表す。「学生である」に直接続き、その後に義務内容が続く。",
+      "sourceGrammarIds": [
+        "n2-003"
+      ],
+      "tags": [
+        "条件",
+        "義務",
+        "文法配列",
+        "20개추가생성"
+      ]
+    },
+    {
+      "id": "so-extra20-n2-003-14",
+      "level": "N2",
+      "sentence": "約束した以上、守るべきだと思う。",
+      "sentenceWithBlanks": "約束した ____ ____ ____ ____",
+      "korean": "약속한 이상 지켜야 한다고 생각한다.",
+      "pieces": [
+        {
+          "id": "so-extra20-n2-003-14-p1",
+          "text": "思う",
+          "order": 4
+        },
+        {
+          "id": "so-extra20-n2-003-14-p2",
+          "text": "以上",
+          "order": 1
+        },
+        {
+          "id": "so-extra20-n2-003-14-p3",
+          "text": "守るべ",
+          "order": 2
+        },
+        {
+          "id": "so-extra20-n2-003-14-p4",
+          "text": "きだと",
+          "order": 3
+        }
+      ],
+      "correctPieceIds": [
+        "so-extra20-n2-003-14-p2",
+        "so-extra20-n2-003-14-p3",
+        "so-extra20-n2-003-14-p4",
+        "so-extra20-n2-003-14-p1"
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "문장배열",
+        "20개추가생성"
+      ]
+    },
+    {
+      "id": "so-extra20-n2-003-15",
+      "level": "N2",
+      "sentence": "学生である以上、勉強を第一にしなさい。",
+      "sentenceWithBlanks": "学生である ____ ____ ____ ____",
+      "korean": "학생인 이상 공부를 최우선으로 하세요.",
+      "pieces": [
+        {
+          "id": "so-extra20-n2-003-15-p4",
+          "text": "しなさい",
+          "order": 4
+        },
+        {
+          "id": "so-extra20-n2-003-15-p1",
+          "text": "以上",
+          "order": 1
+        },
+        {
+          "id": "so-extra20-n2-003-15-p2",
+          "text": "勉強を",
+          "order": 2
+        },
+        {
+          "id": "so-extra20-n2-003-15-p3",
+          "text": "第一に",
+          "order": 3
+        }
+      ],
+      "correctPieceIds": [
+        "so-extra20-n2-003-15-p1",
+        "so-extra20-n2-003-15-p2",
+        "so-extra20-n2-003-15-p3",
+        "so-extra20-n2-003-15-p4"
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "문장배열",
+        "20개추가생성"
+      ]
+    },
+    {
+      "id": "so-extra20-n2-003-16",
+      "level": "N2",
+      "sentence": "約束した以上、守るべきだと思う。",
+      "sentenceWithBlanks": "____ ____ ____ ____ 、守るべきだと思う。",
+      "korean": "약속한 이상 지켜야 한다고 생각한다.",
+      "pieces": [
+        {
+          "id": "so-extra20-n2-003-16-p3",
+          "text": "きだと",
+          "order": 4
+        },
+        {
+          "id": "so-extra20-n2-003-16-p4",
+          "text": "した",
+          "order": 1
+        },
+        {
+          "id": "so-extra20-n2-003-16-p1",
+          "text": "以上",
+          "order": 2
+        },
+        {
+          "id": "so-extra20-n2-003-16-p2",
+          "text": "守るべ",
+          "order": 3
+        }
+      ],
+      "correctPieceIds": [
+        "so-extra20-n2-003-16-p4",
+        "so-extra20-n2-003-16-p1",
+        "so-extra20-n2-003-16-p2",
+        "so-extra20-n2-003-16-p3"
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "문장배열",
+        "20개추가생성"
+      ]
+    },
+    {
+      "id": "so-extra20-n2-003-17",
+      "level": "N2",
+      "sentence": "学生である以上、勉強を第一にしなさい。",
+      "sentenceWithBlanks": "学生である ____ ____ ____ ____",
+      "korean": "학생인 이상 공부를 최우선으로 하세요.",
+      "pieces": [
+        {
+          "id": "so-extra20-n2-003-17-p2",
+          "text": "しなさい",
+          "order": 4
+        },
+        {
+          "id": "so-extra20-n2-003-17-p3",
+          "text": "以上",
+          "order": 1
+        },
+        {
+          "id": "so-extra20-n2-003-17-p4",
+          "text": "勉強を",
+          "order": 2
+        },
+        {
+          "id": "so-extra20-n2-003-17-p1",
+          "text": "第一に",
+          "order": 3
+        }
+      ],
+      "correctPieceIds": [
+        "so-extra20-n2-003-17-p3",
+        "so-extra20-n2-003-17-p4",
+        "so-extra20-n2-003-17-p1",
+        "so-extra20-n2-003-17-p2"
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "문장배열",
+        "20개추가생성"
+      ]
+    },
+    {
+      "id": "so-extra20-n2-003-18",
+      "level": "N2",
+      "sentence": "約束した以上、守るべきだと思う。",
+      "sentenceWithBlanks": "約束した ____ ____ ____ ____",
+      "korean": "약속한 이상 지켜야 한다고 생각한다.",
+      "pieces": [
+        {
+          "id": "so-extra20-n2-003-18-p1",
+          "text": "思う",
+          "order": 4
+        },
+        {
+          "id": "so-extra20-n2-003-18-p2",
+          "text": "以上",
+          "order": 1
+        },
+        {
+          "id": "so-extra20-n2-003-18-p3",
+          "text": "守るべ",
+          "order": 2
+        },
+        {
+          "id": "so-extra20-n2-003-18-p4",
+          "text": "きだと",
+          "order": 3
+        }
+      ],
+      "correctPieceIds": [
+        "so-extra20-n2-003-18-p2",
+        "so-extra20-n2-003-18-p3",
+        "so-extra20-n2-003-18-p4",
+        "so-extra20-n2-003-18-p1"
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "문장배열",
+        "20개추가생성"
+      ]
+    },
+    {
+      "id": "so-extra20-n2-003-19",
+      "level": "N2",
+      "sentence": "学生である以上、勉強を第一にしなさい。",
+      "sentenceWithBlanks": "学生である ____ ____ ____ ____。",
+      "korean": "학생인 이상 공부를 최우선으로 하세요.",
+      "pieces": [
+        {
+          "id": "so-extra20-n2-003-19-p4",
+          "text": "しなさい",
+          "order": 4
+        },
+        {
+          "id": "so-extra20-n2-003-19-p1",
+          "text": "勉強を",
+          "order": 2
+        },
+        {
+          "id": "so-extra20-n2-003-19-p2",
+          "text": "第一に",
+          "order": 3
+        },
+        {
+          "id": "so-extra20-n2-003-19-p3",
+          "text": "以上",
+          "order": 1
+        }
+      ],
+      "correctPieceIds": [
+        "so-extra20-n2-003-19-p3",
+        "so-extra20-n2-003-19-p1",
+        "so-extra20-n2-003-19-p2",
+        "so-extra20-n2-003-19-p4"
+      ],
+      "explanation": "「以上」は「Nである以上」の形で、前提が成立する以上、後ろの義務・責任が当然だという意味を表す。「学生である」に直接続き、その後に義務内容が続く。",
+      "sourceGrammarIds": [
+        "n2-003"
+      ],
+      "tags": [
+        "条件",
+        "義務",
+        "文法配列",
+        "20개추가생성"
+      ]
+    },
+    {
+      "id": "so-extra20-n2-003-20",
+      "level": "N2",
+      "sentence": "約束した以上、守るべきだと思う。",
+      "sentenceWithBlanks": "約束した ____ ____ ____ ____",
+      "korean": "약속한 이상 지켜야 한다고 생각한다.",
+      "pieces": [
+        {
+          "id": "so-extra20-n2-003-20-p3",
+          "text": "守るべ",
+          "order": 2
+        },
+        {
+          "id": "so-extra20-n2-003-20-p4",
+          "text": "きだと",
+          "order": 3
+        },
+        {
+          "id": "so-extra20-n2-003-20-p1",
+          "text": "思う",
+          "order": 4
+        },
+        {
+          "id": "so-extra20-n2-003-20-p2",
+          "text": "以上",
+          "order": 1
+        }
+      ],
+      "correctPieceIds": [
+        "so-extra20-n2-003-20-p2",
+        "so-extra20-n2-003-20-p3",
+        "so-extra20-n2-003-20-p4",
+        "so-extra20-n2-003-20-p1"
+      ],
+      "explanation": "「以上（は）」는 ~한 이상은, ~인 이상은라는 뜻이다. 앞 조건이 성립하므로 뒤의 책임·의무가 당연함.",
+      "sourceGrammarIds": [
+        "n2-003"
+      ],
+      "tags": [
+        "条件",
+        "責任",
+        "義務",
+        "자동생성",
+        "문장배열",
+        "20개추가생성"
+      ]
+    }
+  ]
+}

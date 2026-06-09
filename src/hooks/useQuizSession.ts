@@ -31,7 +31,7 @@ interface UseQuizSessionResult extends QuizSessionState {
   startReviewSession: () => void;
   goToNextQuestion: () => void;
   goToNextSet: () => void;
-  startSet: (setIndex: number) => void;
+  startSet: (setIndex: number, selectedSetSize?: number) => void;
   resetSession: () => void;
 }
 
@@ -118,16 +118,18 @@ function normalizeSetIndex(
 
 function createNormalState(
   questionPool: readonly QuizQuestion[],
-  setSize: number,
+  baseSetSize: number,
   currentSetIndex: number,
+  currentSetSize = baseSetSize,
 ): QuizSessionState {
-  const normalizedSetIndex = normalizeSetIndex(questionPool, setSize, currentSetIndex);
+  const normalizedSetIndex = normalizeSetIndex(questionPool, currentSetSize, currentSetIndex);
 
   return withProceedFlag({
     currentSetIndex: normalizedSetIndex,
+    currentSetSize,
     phase: "NORMAL",
     currentQuestionIndex: 0,
-    currentQuestions: buildQuizSet(questionPool, setSize, normalizedSetIndex),
+    currentQuestions: buildQuizSet(questionPool, currentSetSize, normalizedSetIndex, baseSetSize),
     wrongQueue: [],
     correctCount: 0,
     wrongCount: 0,
@@ -159,12 +161,13 @@ function restoreState(
   const questionById = new Map(questionPool.map((question) => [question.id, question]));
   const wrongQueue = getValidWrongQueue(persisted, questionById);
   const persistedQuestions = getQuestionsByIds(questionPool, persisted.currentQuestionIds);
+  const currentSetSize = persisted.currentSetSize ?? setSize;
 
   if (persistedQuestions.length === 0) {
     return null;
   }
 
-  if (!hasUniqueAnswerGrammars(persistedQuestions)) {
+  if (currentSetSize <= setSize && !hasUniqueAnswerGrammars(persistedQuestions)) {
     return null;
   }
 
@@ -176,13 +179,14 @@ function restoreState(
     phase === "REVIEW" && currentQuestions.length === 0 ? getReviewQuestions(questionPool, wrongQueue) : currentQuestions;
 
   if (restoredQuestions.length === 0 && phase !== "SET_COMPLETE") {
-    return createNormalState(questionPool, setSize, persisted.currentSetIndex);
+    return createNormalState(questionPool, setSize, persisted.currentSetIndex, currentSetSize);
   }
 
-  const currentSetIndex = normalizeSetIndex(questionPool, setSize, persisted.currentSetIndex);
+  const currentSetIndex = normalizeSetIndex(questionPool, currentSetSize, persisted.currentSetIndex);
 
   return withProceedFlag({
     currentSetIndex,
+    currentSetSize,
     phase,
     currentQuestionIndex: clampQuestionIndex(persisted.currentQuestionIndex, restoredQuestions),
     currentQuestions: restoredQuestions,
@@ -355,11 +359,18 @@ export function useQuizSession({ setSize, questionPool }: UseQuizSessionOptions)
       throw new Error("Wrong questions must be reviewed before moving to next set.");
     }
 
-    setState((currentState) => createNormalState(questionPool, setSize, currentState.currentSetIndex + 1));
+    setState((currentState) =>
+      createNormalState(
+        questionPool,
+        setSize,
+        currentState.currentSetIndex + 1,
+        currentState.currentSetSize,
+      ),
+    );
   };
 
-  const startSet = (setIndex: number) => {
-    setState(createNormalState(questionPool, setSize, setIndex));
+  const startSet = (setIndex: number, selectedSetSize = setSize) => {
+    setState(createNormalState(questionPool, setSize, setIndex, selectedSetSize));
   };
 
   const resetSession = () => {

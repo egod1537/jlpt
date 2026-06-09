@@ -116,13 +116,14 @@ export function buildQuizSet(
   questionPool: readonly QuizQuestion[],
   setSize: number,
   currentSetIndex = 0,
+  orderingSetSize = setSize,
 ): QuizQuestion[] {
   if (shouldUseSequentialSets(questionPool)) {
     const totalSets = Math.max(1, Math.ceil(questionPool.length / setSize));
     const normalizedSetIndex = currentSetIndex % totalSets;
     const startIndex = normalizedSetIndex * setSize;
     const orderedQuestionPool = shouldUseUniqueAnswerGrammarSets(questionPool)
-      ? arrangeQuestionsIntoUniqueAnswerSets(questionPool, setSize)
+      ? arrangeQuestionsIntoUniqueAnswerSets(questionPool, orderingSetSize)
       : questionPool;
 
     return orderedQuestionPool.slice(startIndex, startIndex + setSize);

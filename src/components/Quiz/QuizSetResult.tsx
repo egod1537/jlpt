@@ -1,7 +1,7 @@
 import type { WrongAnswerRecord } from "../../types/quiz";
 
 interface QuizSetResultProps {
-  currentSetIndex: number;
+  currentSetLabel: string;
   correctCount: number;
   wrongCount: number;
   totalQuestions: number;
@@ -22,7 +22,7 @@ function getGrade(score: number): string {
 }
 
 export function QuizSetResult({
-  currentSetIndex,
+  currentSetLabel,
   correctCount,
   wrongCount,
   totalQuestions,
@@ -41,7 +41,7 @@ export function QuizSetResult({
   return (
     <div className="quiz-card">
       <div className="quiz-end-screen">
-        <div className="quiz-q-label">현재 세트 {currentSetIndex + 1}</div>
+        <div className="quiz-q-label">현재 세트 {currentSetLabel}</div>
         <div className="score">{score}점</div>
         <div className="score-sub">
           {totalQuestions}문제 중 {correctCount}개 정답, {wrongCount}개 오답 — {getGrade(score)}

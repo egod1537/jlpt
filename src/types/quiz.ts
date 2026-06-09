@@ -75,6 +75,7 @@ export interface WrongAnswerRecord {
 
 export interface QuizSessionState {
   currentSetIndex: number;
+  currentSetSize: number;
   phase: QuizPhase;
   currentQuestionIndex: number;
   currentQuestions: QuizQuestion[];
@@ -88,6 +89,7 @@ export interface QuizSessionState {
 
 export interface PersistedQuizSession {
   currentSetIndex: number;
+  currentSetSize?: number;
   phase: QuizPhase;
   currentQuestionIndex: number;
   currentQuestionIds: string[];

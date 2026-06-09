@@ -19,6 +19,60 @@ interface QuizSessionPanelProps {
 }
 
 const QUIZ_SET_SIZE = 20;
+const GROUPED_SET_COUNT = 3;
+
+interface QuizSetOption {
+  id: string;
+  label: string;
+  rangeLabel: string;
+  setIndex: number;
+  setSize: number;
+}
+
+function buildQuizSetOptions(questionCount: number): QuizSetOption[] {
+  const options: QuizSetOption[] = [];
+  const setCount = Math.ceil(questionCount / QUIZ_SET_SIZE);
+  const groupedSetSize = QUIZ_SET_SIZE * GROUPED_SET_COUNT;
+
+  for (let setIndex = 0; setIndex < setCount; setIndex += 1) {
+    const startNumber = setIndex * QUIZ_SET_SIZE + 1;
+    const endNumber = Math.min((setIndex + 1) * QUIZ_SET_SIZE, questionCount);
+
+    options.push({
+      id: `standard-${setIndex}`,
+      label: `${setIndex + 1}세트`,
+      rangeLabel: `${startNumber}-${endNumber}`,
+      setIndex,
+      setSize: QUIZ_SET_SIZE,
+    });
+
+    if ((setIndex + 1) % GROUPED_SET_COUNT === 0) {
+      const groupedSetIndex = Math.floor(setIndex / GROUPED_SET_COUNT);
+      const groupedStartNumber = groupedSetIndex * groupedSetSize + 1;
+      const groupedEndNumber = Math.min((groupedSetIndex + 1) * groupedSetSize, questionCount);
+
+      options.push({
+        id: `grouped-${groupedSetIndex}`,
+        label: "묶음 세트",
+        rangeLabel: `${groupedStartNumber}-${groupedEndNumber}`,
+        setIndex: groupedSetIndex,
+        setSize: groupedSetSize,
+      });
+    }
+  }
+
+  if (questionCount > 0) {
+    options.push({
+      id: "all",
+      label: "전체 세트",
+      rangeLabel: `1-${questionCount}`,
+      setIndex: 0,
+      setSize: questionCount,
+    });
+  }
+
+  return options;
+}
 
 function usesSelectableSets(mode: QuizMode): boolean {
   return mode === "meaning" || mode === "grammar" || mode === "example" || mode === "sentenceOrder";
@@ -31,7 +85,16 @@ function QuizSessionPanel({ mode, grammarItems, onModeChange }: QuizSessionPanel
   const [answeredQuestion, setAnsweredQuestion] = useState<QuizQuestion | null>(null);
 
   const answeredCount = session.correctCount + session.wrongCount;
-  const setCount = Math.ceil(questionPool.length / QUIZ_SET_SIZE);
+  const setOptions = useMemo(() => buildQuizSetOptions(questionPool.length), [questionPool.length]);
+  const currentSetOption = setOptions.find(
+    (option) => option.setIndex === session.currentSetIndex && option.setSize === session.currentSetSize,
+  );
+  const currentSetLabel =
+    currentSetOption?.rangeLabel ??
+    `${session.currentSetIndex * session.currentSetSize + 1}-${Math.min(
+      (session.currentSetIndex + 1) * session.currentSetSize,
+      questionPool.length,
+    )}`;
   const accuracy = answeredCount > 0 ? `${Math.round((session.correctCount / answeredCount) * 100)}%` : "—";
   const selectedChoiceId = answerResult?.selectedChoiceId;
   const selectedChoiceIds = answerResult?.selectedChoiceIds;
@@ -74,14 +137,14 @@ function QuizSessionPanel({ mode, grammarItems, onModeChange }: QuizSessionPanel
     setAnsweredQuestion(null);
   };
 
-  const handleSetSelect = (setIndex: number) => {
-    session.startSet(setIndex);
+  const handleSetSelect = (option: QuizSetOption) => {
+    session.startSet(option.setIndex, option.setSize);
     setAnswerResult(null);
     setAnsweredQuestion(null);
   };
 
   const handleReset = () => {
-    session.startSet(session.currentSetIndex);
+    session.startSet(session.currentSetIndex, session.currentSetSize);
     setAnswerResult(null);
     setAnsweredQuestion(null);
   };
@@ -92,7 +155,7 @@ function QuizSessionPanel({ mode, grammarItems, onModeChange }: QuizSessionPanel
         <h2>문법 테스트</h2>
         <div className="quiz-stats">
           <span>
-            현재 세트 <span className="stat-val">{session.currentSetIndex + 1}</span>
+            현재 세트 <span className="stat-val">{currentSetLabel}</span>
           </span>
           <span>
             진행도 <span className="stat-val">{progressText}</span>
@@ -131,24 +194,21 @@ function QuizSessionPanel({ mode, grammarItems, onModeChange }: QuizSessionPanel
         <div className="quiz-set-selector" aria-label="문제 세트 선택">
           <span className="set-selector-label">세트 선택</span>
           <div className="set-selector-buttons">
-            {Array.from({ length: setCount }, (_, setIndex) => {
-              const startNumber = setIndex * QUIZ_SET_SIZE + 1;
-              const endNumber = Math.min((setIndex + 1) * QUIZ_SET_SIZE, questionPool.length);
-
-              return (
-                <button
-                  className={`set-selector-btn${session.currentSetIndex === setIndex ? " active" : ""}`}
-                  key={setIndex}
-                  type="button"
-                  onClick={() => handleSetSelect(setIndex)}
-                >
-                  {setIndex + 1}세트
-                  <span>
-                    {startNumber}-{endNumber}
-                  </span>
-                </button>
-              );
-            })}
+            {setOptions.map((option) => (
+              <button
+                className={`set-selector-btn${
+                  session.currentSetIndex === option.setIndex && session.currentSetSize === option.setSize
+                    ? " active"
+                    : ""
+                }`}
+                key={option.id}
+                type="button"
+                onClick={() => handleSetSelect(option)}
+              >
+                {option.label}
+                <span>{option.rangeLabel}</span>
+              </button>
+            ))}
           </div>
         </div>
       )}
@@ -166,7 +226,7 @@ function QuizSessionPanel({ mode, grammarItems, onModeChange }: QuizSessionPanel
         <QuizSetResult
           canProceedToNextSet={session.canProceedToNextSet}
           correctCount={session.correctCount}
-          currentSetIndex={session.currentSetIndex}
+          currentSetLabel={currentSetLabel}
           reviewedCorrectCount={session.reviewedCorrectCount}
           reviewedWrongCount={session.reviewedWrongCount}
           totalQuestions={session.currentQuestions.length}
