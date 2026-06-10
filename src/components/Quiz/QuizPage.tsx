@@ -78,6 +78,16 @@ function usesSelectableSets(mode: QuizMode): boolean {
   return mode === "meaning" || mode === "grammar" || mode === "example" || mode === "sentenceOrder";
 }
 
+function EmptyQuizState() {
+  return (
+    <div className="quiz-card quiz-empty-state">
+      <div className="quiz-q-label">접속 맞추기</div>
+      <h3>아직 문제가 없습니다.</h3>
+      <p>새 시험 유형을 위한 문제를 준비 중입니다.</p>
+    </div>
+  );
+}
+
 function QuizSessionPanel({ mode, grammarItems, onModeChange }: QuizSessionPanelProps) {
   const questionPool = useMemo(() => buildGrammarQuestionPool(mode, grammarItems), [grammarItems, mode]);
   const questionCount = useMemo(() => getQuizQuestionCount(questionPool), [questionPool]);
@@ -154,100 +164,108 @@ function QuizSessionPanel({ mode, grammarItems, onModeChange }: QuizSessionPanel
     <>
       <div className="quiz-header-bar">
         <h2>문법 테스트</h2>
-        <div className="quiz-stats">
-          <span>
-            현재 세트 <span className="stat-val">{currentSetLabel}</span>
-          </span>
-          <span>
-            진행도 <span className="stat-val">{progressText}</span>
-          </span>
-          {session.phase === "REVIEW" ? (
-            <>
-              <span>
-                남은 오답 <span className="stat-val wrong">{session.wrongQueue.length}</span>
-              </span>
-              <span>
-                복습 정답 <span className="stat-val correct">{session.reviewedCorrectCount}</span>
-              </span>
-              <span>
-                복습 오답 <span className="stat-val wrong">{session.reviewedWrongCount}</span>
-              </span>
-            </>
-          ) : (
-            <>
-              <span>
-                정답 <span className="stat-val correct">{session.correctCount}</span>
-              </span>
-              <span>
-                오답 <span className="stat-val wrong">{session.wrongCount}</span>
-              </span>
-              <span>
-                정확도 <span className="stat-val">{accuracy}</span>
-              </span>
-            </>
-          )}
-        </div>
+        {questionCount > 0 && (
+          <div className="quiz-stats">
+            <span>
+              현재 세트 <span className="stat-val">{currentSetLabel}</span>
+            </span>
+            <span>
+              진행도 <span className="stat-val">{progressText}</span>
+            </span>
+            {session.phase === "REVIEW" ? (
+              <>
+                <span>
+                  남은 오답 <span className="stat-val wrong">{session.wrongQueue.length}</span>
+                </span>
+                <span>
+                  복습 정답 <span className="stat-val correct">{session.reviewedCorrectCount}</span>
+                </span>
+                <span>
+                  복습 오답 <span className="stat-val wrong">{session.reviewedWrongCount}</span>
+                </span>
+              </>
+            ) : (
+              <>
+                <span>
+                  정답 <span className="stat-val correct">{session.correctCount}</span>
+                </span>
+                <span>
+                  오답 <span className="stat-val wrong">{session.wrongCount}</span>
+                </span>
+                <span>
+                  정확도 <span className="stat-val">{accuracy}</span>
+                </span>
+              </>
+            )}
+          </div>
+        )}
       </div>
 
       <QuizModeSelector activeMode={mode} onModeChange={onModeChange} />
 
-      {usesSelectableSets(mode) && (
-        <div className="quiz-set-selector" aria-label="문제 세트 선택">
-          <span className="set-selector-label">세트 선택</span>
-          <div className="set-selector-buttons">
-            {setOptions.map((option) => (
-              <button
-                className={`set-selector-btn${
-                  session.currentSetIndex === option.setIndex && session.currentSetSize === option.setSize
-                    ? " active"
-                    : ""
-                }`}
-                key={option.id}
-                type="button"
-                onClick={() => handleSetSelect(option)}
-              >
-                {option.label}
-                <span>{option.rangeLabel}</span>
-              </button>
-            ))}
-          </div>
-        </div>
-      )}
-
-      {session.phase === "REVIEW" && (
-        <ReviewGate
-          remainingWrongCount={session.wrongQueue.length}
-          reviewedCorrectCount={session.reviewedCorrectCount}
-          reviewedWrongCount={session.reviewedWrongCount}
-          wrongQueue={session.wrongQueue}
-        />
-      )}
-
-      {displayQuestion === null ? (
-        <QuizSetResult
-          canProceedToNextSet={session.canProceedToNextSet}
-          correctCount={session.correctCount}
-          currentSetLabel={currentSetLabel}
-          reviewedCorrectCount={session.reviewedCorrectCount}
-          reviewedWrongCount={session.reviewedWrongCount}
-          totalQuestions={session.currentQuestions.length}
-          wrongCount={session.wrongCount}
-          wrongQueue={session.wrongQueue}
-          onNextSet={handleNextSet}
-          onReset={handleReset}
-          onStartReview={handleStartReview}
-        />
+      {questionCount === 0 ? (
+        <EmptyQuizState />
       ) : (
-        <QuizCard
-          nextLabel={nextLabel}
-          question={displayQuestion}
-          questionIndex={session.currentQuestionIndex}
-          selectedChoiceId={selectedChoiceId}
-          selectedChoiceIds={selectedChoiceIds}
-          totalQuestions={session.currentQuestions.length}
-          onAnswer={handleAnswer}
-          onNext={handleNext}
-        />
+        <>
+          {usesSelectableSets(mode) && (
+            <div className="quiz-set-selector" aria-label="문제 세트 선택">
+              <span className="set-selector-label">세트 선택</span>
+              <div className="set-selector-buttons">
+                {setOptions.map((option) => (
+                  <button
+                    className={`set-selector-btn${
+                      session.currentSetIndex === option.setIndex && session.currentSetSize === option.setSize
+                        ? " active"
+                        : ""
+                    }`}
+                    key={option.id}
+                    type="button"
+                    onClick={() => handleSetSelect(option)}
+                  >
+                    {option.label}
+                    <span>{option.rangeLabel}</span>
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {session.phase === "REVIEW" && (
+            <ReviewGate
+              remainingWrongCount={session.wrongQueue.length}
+              reviewedCorrectCount={session.reviewedCorrectCount}
+              reviewedWrongCount={session.reviewedWrongCount}
+              wrongQueue={session.wrongQueue}
+            />
+          )}
+
+          {displayQuestion === null ? (
+            <QuizSetResult
+              canProceedToNextSet={session.canProceedToNextSet}
+              correctCount={session.correctCount}
+              currentSetLabel={currentSetLabel}
+              reviewedCorrectCount={session.reviewedCorrectCount}
+              reviewedWrongCount={session.reviewedWrongCount}
+              totalQuestions={session.currentQuestions.length}
+              wrongCount={session.wrongCount}
+              wrongQueue={session.wrongQueue}
+              onNextSet={handleNextSet}
+              onReset={handleReset}
+              onStartReview={handleStartReview}
+            />
+          ) : (
+            <QuizCard
+              nextLabel={nextLabel}
+              question={displayQuestion}
+              questionIndex={session.currentQuestionIndex}
+              selectedChoiceId={selectedChoiceId}
+              selectedChoiceIds={selectedChoiceIds}
+              totalQuestions={session.currentQuestions.length}
+              onAnswer={handleAnswer}
+              onNext={handleNext}
+            />
+          )}
+        </>
       )}
     </>
   );

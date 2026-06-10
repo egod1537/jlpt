@@ -5,6 +5,7 @@ import { GrammarList } from "./components/Dictionary/GrammarList";
 import { GrammarSearchBox } from "./components/Dictionary/GrammarSearchBox";
 import { Header, type AppTab } from "./components/Layout/Header";
 import { MainLayout } from "./components/Layout/MainLayout";
+import { MobileDock, type MobileDockTab } from "./components/Layout/MobileDock";
 import { Sidebar } from "./components/Layout/Sidebar";
 import { QuizPage } from "./components/Quiz/QuizPage";
 import { n2Grammar } from "./data/grammar";
@@ -19,6 +20,7 @@ const grammarItems: readonly GrammarItem[] = n2Grammar;
 
 export function App() {
   const [activeTab, setActiveTab] = useState<AppTab>("dict");
+  const [mobileDictionaryPane, setMobileDictionaryPane] = useState<"list" | "detail">("list");
   const [query, setQuery] = useState("");
   const [activeCategory, setActiveCategory] = useState("전체");
   const [selectedId, setSelectedId] = useState<string | null>(null);
@@ -34,15 +36,18 @@ export function App() {
   const handleQueryChange = (nextQuery: string) => {
     setQuery(nextQuery);
     setSelectedId(null);
+    setMobileDictionaryPane("list");
   };
 
   const handleCategoryChange = (nextCategory: string) => {
     setActiveCategory(nextCategory);
     setSelectedId(null);
+    setMobileDictionaryPane("list");
   };
 
   const handleSelect = (item: GrammarItem) => {
     setSelectedId(item.id);
+    setMobileDictionaryPane("detail");
   };
 
   const handleSimilarSearch = (nextQuery: string) => {
@@ -52,6 +57,17 @@ export function App() {
     setActiveCategory("전체");
     setQuery(nextQuery);
     setSelectedId(nextItems[0]?.id ?? null);
+    setMobileDictionaryPane(nextItems.length > 0 ? "detail" : "list");
+  };
+
+  const handleMobileTabChange = (nextTab: MobileDockTab) => {
+    if (nextTab === "quiz") {
+      setActiveTab("quiz");
+      return;
+    }
+
+    setActiveTab("dict");
+    setMobileDictionaryPane(nextTab);
   };
 
   const handleGoPrevious = () => {
@@ -72,7 +88,11 @@ export function App() {
     <div className="app-shell">
       <Header activeTab={activeTab} onTabChange={setActiveTab} />
       <MainLayout>
-        <section className="dict-section" style={{ display: activeTab === "dict" ? "flex" : "none" }}>
+        <section
+          className="dict-section"
+          data-mobile-pane={mobileDictionaryPane}
+          style={{ display: activeTab === "dict" ? "flex" : "none" }}
+        >
           <Sidebar>
             <GrammarSearchBox query={query} onQueryChange={handleQueryChange} />
             <GrammarFilterChips
@@ -91,10 +111,18 @@ export function App() {
             onSimilarSearch={handleSimilarSearch}
           />
         </section>
-        <div style={{ display: activeTab === "quiz" ? "flex" : "none", flex: 1, minHeight: 0 }}>
+        <div
+          className="quiz-view"
+          style={{ display: activeTab === "quiz" ? "flex" : "none", flex: 1, minHeight: 0 }}
+        >
           <QuizPage grammarItems={grammarItems} />
         </div>
       </MainLayout>
+      <MobileDock
+        activeTab={activeTab === "quiz" ? "quiz" : mobileDictionaryPane}
+        hasSelectedItem={selectedItem !== null}
+        onTabChange={handleMobileTabChange}
+      />
     </div>
   );
 }

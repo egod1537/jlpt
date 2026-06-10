@@ -10,7 +10,7 @@ export type QuizType =
   | "VOCABULARY_MEANING"
   | "VOCABULARY_READING";
 
-export type QuizMode = "meaning" | "grammar" | "example" | "sentenceOrder";
+export type QuizMode = "meaning" | "grammar" | "example" | "sentenceOrder" | "connection";
 
 export type QuizPhase = "NORMAL" | "REVIEW" | "SET_COMPLETE";
 

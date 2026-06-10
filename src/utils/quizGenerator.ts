@@ -12,12 +12,14 @@ export const quizModes: Array<{ id: QuizMode; label: string }> = [
   { id: "grammar", label: "문법 맞추기" },
   { id: "example", label: "빈칸 문제" },
   { id: "sentenceOrder", label: "문장 배열" },
+  { id: "connection", label: "접속 맞추기" },
 ];
 
 function modeToQuizType(mode: QuizMode): QuizType {
   if (mode === "meaning") return "GRAMMAR_MEANING";
   if (mode === "grammar") return "GRAMMAR_SELECT";
   if (mode === "example") return "EXAMPLE_BLANK";
+  if (mode === "connection") return "CONNECTION_SELECT";
   return "SENTENCE_ORDER";
 }
 
