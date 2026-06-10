@@ -98,6 +98,7 @@ function shouldNormalizeSetIndex(questionPool: readonly QuizQuestion[]): boolean
   return (
     quizType === "GRAMMAR_MEANING" ||
     quizType === "GRAMMAR_SELECT" ||
+    quizType === "GRAMMAR_RECALL" ||
     quizType === "EXAMPLE_BLANK" ||
     quizType === "SENTENCE_ORDER"
   );

@@ -1,4 +1,3 @@
-import { connectionQuestions } from "../data/quiz/connectionQuestions";
 import type { GrammarItem } from "../types/grammar";
 import type { QuizMode, QuizQuestion, WrongAnswerRecord } from "../types/quiz";
 import { generateQuizQuestion, getManualFillBlankQuestions, getManualSentenceOrderQuestions } from "./quizGenerator";
@@ -8,10 +7,6 @@ export function buildGrammarQuestionPool(
   mode: QuizMode,
   grammarItems: readonly GrammarItem[],
 ): QuizQuestion[] {
-  if (mode === "connection") {
-    return connectionQuestions;
-  }
-
   if (mode === "example") {
     const createdQuestions = getManualFillBlankQuestions(grammarItems).filter((question) =>
       question.id.startsWith("fb-created-"),
@@ -41,6 +36,7 @@ function shouldUseSequentialSets(questionPool: readonly QuizQuestion[]): boolean
   return (
     quizType === "GRAMMAR_MEANING" ||
     quizType === "GRAMMAR_SELECT" ||
+    quizType === "GRAMMAR_RECALL" ||
     quizType === "EXAMPLE_BLANK" ||
     quizType === "SENTENCE_ORDER"
   );

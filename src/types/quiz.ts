@@ -3,14 +3,14 @@ import type { JlptLevel } from "./grammar";
 export type QuizType =
   | "GRAMMAR_MEANING"
   | "GRAMMAR_SELECT"
+  | "GRAMMAR_RECALL"
   | "EXAMPLE_BLANK"
   | "FILL_BLANK"
   | "SENTENCE_ORDER"
-  | "CONNECTION_SELECT"
   | "VOCABULARY_MEANING"
   | "VOCABULARY_READING";
 
-export type QuizMode = "meaning" | "grammar" | "example" | "sentenceOrder" | "connection";
+export type QuizMode = "meaning" | "grammar" | "example" | "sentenceOrder" | "recall";
 
 export type QuizPhase = "NORMAL" | "REVIEW" | "SET_COMPLETE";
 

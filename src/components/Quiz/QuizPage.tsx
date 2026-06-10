@@ -3,6 +3,7 @@ import type { GrammarItem } from "../../types/grammar";
 import type { AnswerResult, QuizMode, QuizQuestion } from "../../types/quiz";
 import { useQuizSession } from "../../hooks/useQuizSession";
 import { buildGrammarQuestionPool, getQuizQuestionCount } from "../../utils/quizSetBuilder";
+import { GrammarRecallCard } from "./GrammarRecallCard";
 import { QuizCard } from "./QuizCard";
 import { QuizModeSelector } from "./QuizModeSelector";
 import { QuizSetResult } from "./QuizSetResult";
@@ -75,16 +76,12 @@ function buildQuizSetOptions(questionCount: number): QuizSetOption[] {
 }
 
 function usesSelectableSets(mode: QuizMode): boolean {
-  return mode === "meaning" || mode === "grammar" || mode === "example" || mode === "sentenceOrder";
-}
-
-function EmptyQuizState() {
   return (
-    <div className="quiz-card quiz-empty-state">
-      <div className="quiz-q-label">접속 맞추기</div>
-      <h3>아직 문제가 없습니다.</h3>
-      <p>새 시험 유형을 위한 문제를 준비 중입니다.</p>
-    </div>
+    mode === "meaning" ||
+    mode === "grammar" ||
+    mode === "example" ||
+    mode === "sentenceOrder" ||
+    mode === "recall"
   );
 }
 
@@ -136,6 +133,25 @@ function QuizSessionPanel({ mode, grammarItems, onModeChange }: QuizSessionPanel
     setAnsweredQuestion(null);
   };
 
+  const handleRecallRate = (known: boolean) => {
+    const question = session.currentQuestion;
+
+    if (question === undefined) {
+      return;
+    }
+
+    const selectedChoiceId = known
+      ? question.answerChoiceId
+      : question.choices.find((choice) => choice.id !== question.answerChoiceId)?.id;
+
+    if (selectedChoiceId === undefined) {
+      return;
+    }
+
+    session.answerCurrentQuestion({ selectedChoiceId });
+    session.goToNextQuestion();
+  };
+
   const handleStartReview = () => {
     session.startReviewSession();
     setAnswerResult(null);
@@ -175,25 +191,30 @@ function QuizSessionPanel({ mode, grammarItems, onModeChange }: QuizSessionPanel
             {session.phase === "REVIEW" ? (
               <>
                 <span>
-                  남은 오답 <span className="stat-val wrong">{session.wrongQueue.length}</span>
+                  {mode === "recall" ? "남은 학습" : "남은 오답"}{" "}
+                  <span className="stat-val wrong">{session.wrongQueue.length}</span>
                 </span>
                 <span>
-                  복습 정답 <span className="stat-val correct">{session.reviewedCorrectCount}</span>
+                  {mode === "recall" ? "복습 완료" : "복습 정답"}{" "}
+                  <span className="stat-val correct">{session.reviewedCorrectCount}</span>
                 </span>
                 <span>
-                  복습 오답 <span className="stat-val wrong">{session.reviewedWrongCount}</span>
+                  {mode === "recall" ? "다시 학습" : "복습 오답"}{" "}
+                  <span className="stat-val wrong">{session.reviewedWrongCount}</span>
                 </span>
               </>
             ) : (
               <>
                 <span>
-                  정답 <span className="stat-val correct">{session.correctCount}</span>
+                  {mode === "recall" ? "알고 있음" : "정답"}{" "}
+                  <span className="stat-val correct">{session.correctCount}</span>
                 </span>
                 <span>
-                  오답 <span className="stat-val wrong">{session.wrongCount}</span>
+                  {mode === "recall" ? "공부 필요" : "오답"}{" "}
+                  <span className="stat-val wrong">{session.wrongCount}</span>
                 </span>
                 <span>
-                  정확도 <span className="stat-val">{accuracy}</span>
+                  {mode === "recall" ? "암기율" : "정확도"} <span className="stat-val">{accuracy}</span>
                 </span>
               </>
             )}
@@ -203,69 +224,73 @@ function QuizSessionPanel({ mode, grammarItems, onModeChange }: QuizSessionPanel
 
       <QuizModeSelector activeMode={mode} onModeChange={onModeChange} />
 
-      {questionCount === 0 ? (
-        <EmptyQuizState />
+      {usesSelectableSets(mode) && (
+        <div className="quiz-set-selector" aria-label="문제 세트 선택">
+          <span className="set-selector-label">세트 선택</span>
+          <div className="set-selector-buttons">
+            {setOptions.map((option) => (
+              <button
+                className={`set-selector-btn${
+                  session.currentSetIndex === option.setIndex && session.currentSetSize === option.setSize
+                    ? " active"
+                    : ""
+                }`}
+                key={option.id}
+                type="button"
+                onClick={() => handleSetSelect(option)}
+              >
+                {option.label}
+                <span>{option.rangeLabel}</span>
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {session.phase === "REVIEW" && (
+        <ReviewGate
+          isRecallMode={mode === "recall"}
+          remainingWrongCount={session.wrongQueue.length}
+          reviewedCorrectCount={session.reviewedCorrectCount}
+          reviewedWrongCount={session.reviewedWrongCount}
+          wrongQueue={session.wrongQueue}
+        />
+      )}
+
+      {displayQuestion === null ? (
+        <QuizSetResult
+          canProceedToNextSet={session.canProceedToNextSet}
+          correctCount={session.correctCount}
+          currentSetLabel={currentSetLabel}
+          isRecallMode={mode === "recall"}
+          reviewedCorrectCount={session.reviewedCorrectCount}
+          reviewedWrongCount={session.reviewedWrongCount}
+          totalQuestions={session.currentQuestions.length}
+          wrongCount={session.wrongCount}
+          wrongQueue={session.wrongQueue}
+          onNextSet={handleNextSet}
+          onReset={handleReset}
+          onStartReview={handleStartReview}
+        />
+      ) : mode === "recall" ? (
+        <GrammarRecallCard
+          key={displayQuestion.id}
+          question={displayQuestion}
+          questionIndex={session.currentQuestionIndex}
+          totalQuestions={session.currentQuestions.length}
+          onRate={handleRecallRate}
+        />
       ) : (
-        <>
-          {usesSelectableSets(mode) && (
-            <div className="quiz-set-selector" aria-label="문제 세트 선택">
-              <span className="set-selector-label">세트 선택</span>
-              <div className="set-selector-buttons">
-                {setOptions.map((option) => (
-                  <button
-                    className={`set-selector-btn${
-                      session.currentSetIndex === option.setIndex && session.currentSetSize === option.setSize
-                        ? " active"
-                        : ""
-                    }`}
-                    key={option.id}
-                    type="button"
-                    onClick={() => handleSetSelect(option)}
-                  >
-                    {option.label}
-                    <span>{option.rangeLabel}</span>
-                  </button>
-                ))}
-              </div>
-            </div>
-          )}
-
-          {session.phase === "REVIEW" && (
-            <ReviewGate
-              remainingWrongCount={session.wrongQueue.length}
-              reviewedCorrectCount={session.reviewedCorrectCount}
-              reviewedWrongCount={session.reviewedWrongCount}
-              wrongQueue={session.wrongQueue}
-            />
-          )}
-
-          {displayQuestion === null ? (
-            <QuizSetResult
-              canProceedToNextSet={session.canProceedToNextSet}
-              correctCount={session.correctCount}
-              currentSetLabel={currentSetLabel}
-              reviewedCorrectCount={session.reviewedCorrectCount}
-              reviewedWrongCount={session.reviewedWrongCount}
-              totalQuestions={session.currentQuestions.length}
-              wrongCount={session.wrongCount}
-              wrongQueue={session.wrongQueue}
-              onNextSet={handleNextSet}
-              onReset={handleReset}
-              onStartReview={handleStartReview}
-            />
-          ) : (
-            <QuizCard
-              nextLabel={nextLabel}
-              question={displayQuestion}
-              questionIndex={session.currentQuestionIndex}
-              selectedChoiceId={selectedChoiceId}
-              selectedChoiceIds={selectedChoiceIds}
-              totalQuestions={session.currentQuestions.length}
-              onAnswer={handleAnswer}
-              onNext={handleNext}
-            />
-          )}
-        </>
+        <QuizCard
+          nextLabel={nextLabel}
+          question={displayQuestion}
+          questionIndex={session.currentQuestionIndex}
+          selectedChoiceId={selectedChoiceId}
+          selectedChoiceIds={selectedChoiceIds}
+          totalQuestions={session.currentQuestions.length}
+          onAnswer={handleAnswer}
+          onNext={handleNext}
+        />
       )}
     </>
   );

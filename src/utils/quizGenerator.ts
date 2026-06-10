@@ -12,14 +12,14 @@ export const quizModes: Array<{ id: QuizMode; label: string }> = [
   { id: "grammar", label: "문법 맞추기" },
   { id: "example", label: "빈칸 문제" },
   { id: "sentenceOrder", label: "문장 배열" },
-  { id: "connection", label: "접속 맞추기" },
+  { id: "recall", label: "문법 암기" },
 ];
 
 function modeToQuizType(mode: QuizMode): QuizType {
   if (mode === "meaning") return "GRAMMAR_MEANING";
   if (mode === "grammar") return "GRAMMAR_SELECT";
   if (mode === "example") return "EXAMPLE_BLANK";
-  if (mode === "connection") return "CONNECTION_SELECT";
+  if (mode === "recall") return "GRAMMAR_RECALL";
   return "SENTENCE_ORDER";
 }
 
@@ -433,6 +433,28 @@ export function generateQuizQuestion(
   allGrammar: readonly GrammarItem[],
 ): QuizQuestion {
   const questionId = `${mode}-${correct.id}`;
+
+  if (mode === "recall") {
+    const studyChoiceId = `${questionId}-study`;
+    const knownChoiceId = `${questionId}-known`;
+
+    return {
+      id: questionId,
+      type: modeToQuizType(mode),
+      level: correct.level,
+      prompt: correct.expression,
+      subPrompt: correct.meaningKo,
+      choices: [
+        { id: studyChoiceId, text: "공부하겠음" },
+        { id: knownChoiceId, text: "알고있음" },
+      ],
+      answerChoiceId: knownChoiceId,
+      explanation: correct.nuanceKo,
+      sourceGrammarId: correct.id,
+      tags: correct.tags,
+    };
+  }
+
   const choiceItems = generateGrammarChoices(correct, allGrammar, 4, questionId);
   const exampleMatch = findExampleWithExpression(correct);
   const { example } = exampleMatch;
