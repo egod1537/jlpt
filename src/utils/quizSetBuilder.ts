@@ -42,6 +42,34 @@ function shouldUseSequentialSets(questionPool: readonly QuizQuestion[]): boolean
   );
 }
 
+function isShuffleTarget(quizType: QuizQuestion["type"] | undefined): boolean {
+  return (
+    quizType === "GRAMMAR_MEANING" ||
+    quizType === "GRAMMAR_SELECT" ||
+    quizType === "EXAMPLE_BLANK" ||
+    quizType === "SENTENCE_ORDER"
+  );
+}
+
+function shouldShuffleWithinSet(questionPool: readonly QuizQuestion[]): boolean {
+  return isShuffleTarget(questionPool[0]?.type);
+}
+
+function shuffleQuestionChoices(question: QuizQuestion): QuizQuestion {
+  if (!isShuffleTarget(question.type)) {
+    return question;
+  }
+
+  return {
+    ...question,
+    choices: shuffle(question.choices),
+  };
+}
+
+function randomizeQuestionSet(questions: readonly QuizQuestion[]): QuizQuestion[] {
+  return shuffle(questions).map(shuffleQuestionChoices);
+}
+
 function shouldUseUniqueAnswerGrammarSets(questionPool: readonly QuizQuestion[]): boolean {
   const quizType = questionPool[0]?.type;
 
@@ -154,10 +182,12 @@ export function buildQuizSet(
     const normalizedSetIndex = currentSetIndex % totalSets;
     const startIndex = normalizedSetIndex * setSize;
 
-    return questionGroups
+    const questions = questionGroups
       .slice(startIndex, startIndex + setSize)
       .map((group) => group[Math.floor(Math.random() * group.length)])
       .filter((question): question is QuizQuestion => question !== undefined);
+
+    return randomizeQuestionSet(questions);
   }
 
   if (shouldUseSequentialSets(questionPool)) {
@@ -165,10 +195,12 @@ export function buildQuizSet(
     const normalizedSetIndex = currentSetIndex % totalSets;
     const startIndex = normalizedSetIndex * setSize;
 
-    return questionPool.slice(startIndex, startIndex + setSize);
+    const questions = questionPool.slice(startIndex, startIndex + setSize);
+
+    return shouldShuffleWithinSet(questionPool) ? randomizeQuestionSet(questions) : questions;
   }
 
-  return shuffle(questionPool).slice(0, setSize);
+  return shuffle(questionPool).slice(0, setSize).map(shuffleQuestionChoices);
 }
 
 export function getQuestionsByIds(
@@ -186,5 +218,7 @@ export function getReviewQuestions(
   questionPool: readonly QuizQuestion[],
   wrongQueue: readonly WrongAnswerRecord[],
 ): QuizQuestion[] {
-  return shuffle(getQuestionsByIds(questionPool, wrongQueue.map((record) => record.questionId)));
+  return randomizeQuestionSet(
+    getQuestionsByIds(questionPool, wrongQueue.map((record) => record.questionId)),
+  );
 }
