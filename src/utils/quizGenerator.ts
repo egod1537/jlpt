@@ -23,8 +23,8 @@ function modeToQuizType(mode: QuizMode): QuizType {
   return "SENTENCE_ORDER";
 }
 
-function getRecallHint(nuance: string): string {
-  return nuance.split(/[.!?。！？]/, 1)[0]?.trim() ?? nuance;
+function getRecallHint(expression: string): string | undefined {
+  return expression.match(/（([가-힣][^）]*)）/)?.[1];
 }
 
 function getRecallExpression(expression: string): string {
@@ -452,7 +452,7 @@ export function generateQuizQuestion(
       level: correct.level,
       prompt: getRecallExpression(correct.expression),
       subPrompt: correct.meaningKo,
-      hint: getRecallHint(correct.nuanceKo),
+      hint: getRecallHint(correct.expression),
       choices: [
         { id: studyChoiceId, text: "공부하겠음" },
         { id: knownChoiceId, text: "알고있음" },
