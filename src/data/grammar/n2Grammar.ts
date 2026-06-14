@@ -4968,5 +4968,518 @@ export const n2Grammar: GrammarItem[] = [
       }
     ],
     "tags": []
+  },
+  {
+    "id": "n2-182",
+    "no": 182,
+    "noLabel": "부조사1",
+    "level": "N2",
+    "expression": "だけ",
+    "connection": "N+だけ / 普通形+だけ",
+    "meaningKo": "~만, ~뿐",
+    "nuanceKo": "범위를 한정하는 가장 일반적이고 중립적인 표현.",
+    "register": "중립",
+    "frequency": 3,
+    "similarGrammarIds": [
+      "n2-183",
+      "n2-110"
+    ],
+    "similarExpressionNames": [
+      "のみ",
+      "に限り"
+    ],
+    "warningKo": "のみ보다 일상적이다. 「AだけでなくBも」는 'A뿐만 아니라 B도'라는 뜻이다.",
+    "examples": [
+      {
+        "id": "n2-182-ex-1",
+        "japanese": "今日は水だけ飲んだ。",
+        "korean": "오늘은 물만 마셨다."
+      }
+    ],
+    "tags": [
+      "부조사",
+      "제한"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "particle",
+        "label": "N + だけ",
+        "text": "だけ",
+        "requiredContext": "일반적으로 범위를 한정하는 문장",
+        "note": "가장 일반적인 '~만'"
+      }
+    ]
+  },
+  {
+    "id": "n2-183",
+    "no": 183,
+    "noLabel": "부조사2",
+    "level": "N2",
+    "expression": "のみ",
+    "connection": "N+のみ / 普通形+のみ",
+    "meaningKo": "~만, ~에 한하여",
+    "nuanceKo": "범위를 딱 잘라 제한하는 문어적·공식적인 표현.",
+    "register": "문어체",
+    "frequency": 2,
+    "similarGrammarIds": [
+      "n2-182",
+      "n2-110"
+    ],
+    "similarExpressionNames": [
+      "だけ",
+      "に限り"
+    ],
+    "warningKo": "안내문·규정처럼 공식적인 상황에 자주 쓴다. 일상 회화에서는 だけ가 더 자연스럽다.",
+    "examples": [
+      {
+        "id": "n2-183-ex-1",
+        "japanese": "関係者のみ入場できます。",
+        "korean": "관계자만 입장할 수 있습니다."
+      }
+    ],
+    "tags": [
+      "부조사",
+      "제한",
+      "문어"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "particle",
+        "label": "N + のみ",
+        "text": "のみ",
+        "requiredContext": "공식적으로 범위를 제한하는 문장",
+        "note": "문어적·공식적인 '~만'"
+      }
+    ]
+  },
+  {
+    "id": "n2-184",
+    "no": 184,
+    "noLabel": "부조사3",
+    "level": "N2",
+    "expression": "こそ",
+    "connection": "N+こそ / 普通形+からこそ",
+    "meaningKo": "~야말로, 바로 ~",
+    "nuanceKo": "다른 대상이 아니라 바로 그것임을 강하게 강조함.",
+    "register": "중립",
+    "frequency": 3,
+    "similarGrammarIds": [
+      "n2-129",
+      "n2-070"
+    ],
+    "similarExpressionNames": [
+      "にほかならない",
+      "てこそ"
+    ],
+    "warningKo": "단순 제한이 아니라 대상을 강하게 내세운다. 「今度こそ」는 '이번에야말로'라는 뜻이다.",
+    "examples": [
+      {
+        "id": "n2-184-ex-1",
+        "japanese": "今度こそ合格したい。",
+        "korean": "이번에야말로 합격하고 싶다."
+      }
+    ],
+    "tags": [
+      "부조사",
+      "강조"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "particle",
+        "label": "N + こそ",
+        "text": "こそ",
+        "requiredContext": "특정 대상을 강하게 강조하는 문장",
+        "note": "바로 '~야말로'"
+      }
+    ]
+  },
+  {
+    "id": "n2-185",
+    "no": 185,
+    "noLabel": "부조사4",
+    "level": "N2",
+    "expression": "さえ",
+    "connection": "N+さえ / N+さえ+ば",
+    "meaningKo": "~조차, ~만 있으면",
+    "nuanceKo": "극단적인 예나 최소 조건을 들어 범위를 강조함.",
+    "register": "중립",
+    "frequency": 3,
+    "similarGrammarIds": [
+      "n2-186",
+      "n2-090"
+    ],
+    "similarExpressionNames": [
+      "すら",
+      "として~ない"
+    ],
+    "warningKo": "「さえ〜ば」는 '~만 있으면, ~하기만 하면'이라는 최소 조건을 나타낸다.",
+    "examples": [
+      {
+        "id": "n2-185-ex-1",
+        "japanese": "名前さえ書けない。",
+        "korean": "이름조차 쓰지 못한다."
+      },
+      {
+        "id": "n2-185-ex-2",
+        "japanese": "お金さえあれば、留学できる。",
+        "korean": "돈만 있으면 유학할 수 있다."
+      }
+    ],
+    "tags": [
+      "부조사",
+      "극단",
+      "최소조건"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "particle",
+        "label": "N + さえ",
+        "text": "さえ",
+        "requiredContext": "극단적인 예나 최소 조건을 나타내는 문장",
+        "note": "'~조차' 또는 '그것만 있으면'"
+      }
+    ]
+  },
+  {
+    "id": "n2-186",
+    "no": 186,
+    "noLabel": "부조사5",
+    "level": "N2",
+    "expression": "すら",
+    "connection": "N+すら",
+    "meaningKo": "~조차",
+    "nuanceKo": "예상 밖의 극단적인 대상을 문어적이고 딱딱하게 강조함.",
+    "register": "문어체",
+    "frequency": 2,
+    "similarGrammarIds": [
+      "n2-185",
+      "n2-090"
+    ],
+    "similarExpressionNames": [
+      "さえ",
+      "として~ない"
+    ],
+    "warningKo": "さえ와 뜻은 비슷하지만 더 문어적이며 부정적인 문장에 자주 쓰인다.",
+    "examples": [
+      {
+        "id": "n2-186-ex-1",
+        "japanese": "彼は理由すら説明しなかった。",
+        "korean": "그는 이유조차 설명하지 않았다."
+      }
+    ],
+    "tags": [
+      "부조사",
+      "극단",
+      "문어"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "particle",
+        "label": "N + すら",
+        "text": "すら",
+        "requiredContext": "문어적으로 극단적인 예를 강조하는 문장",
+        "note": "딱딱한 '~조차'"
+      }
+    ]
+  },
+  {
+    "id": "n2-187",
+    "no": 187,
+    "noLabel": "부조사6",
+    "level": "N2",
+    "expression": "でも",
+    "connection": "N+でも",
+    "meaningKo": "~라도, ~같은 것이라도",
+    "nuanceKo": "부담 없는 예를 가볍게 제시하거나 양보의 대상을 듦.",
+    "register": "회화체",
+    "frequency": 3,
+    "similarGrammarIds": [
+      "n2-188",
+      "n2-189"
+    ],
+    "similarExpressionNames": [
+      "など",
+      "なんか"
+    ],
+    "warningKo": "권유에서는 「お茶でも」처럼 가벼운 예시를 든다. 조건의 '해도'를 나타내는 ても와 구별한다.",
+    "examples": [
+      {
+        "id": "n2-187-ex-1",
+        "japanese": "お茶でも飲みませんか。",
+        "korean": "차라도 마시지 않을래요?"
+      }
+    ],
+    "tags": [
+      "부조사",
+      "예시",
+      "양보"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "particle",
+        "label": "N + でも",
+        "text": "でも",
+        "requiredContext": "가벼운 예시나 양보의 대상을 드는 문장",
+        "note": "'~라도, ~같은 것이라도'"
+      }
+    ]
+  },
+  {
+    "id": "n2-188",
+    "no": 188,
+    "noLabel": "부조사7",
+    "level": "N2",
+    "expression": "など",
+    "connection": "N+など / 普通形+など",
+    "meaningKo": "~등, ~따위",
+    "nuanceKo": "문어적으로 예를 들거나 대상을 낮추어 말함.",
+    "register": "문어체",
+    "frequency": 3,
+    "similarGrammarIds": [
+      "n2-189",
+      "n2-190",
+      "n2-104"
+    ],
+    "similarExpressionNames": [
+      "なんか",
+      "なんて"
+    ],
+    "warningKo": "なんか보다 문어적이다. 문맥에 따라 단순 예시인 '~등'과 낮춤인 '~따위'가 된다.",
+    "examples": [
+      {
+        "id": "n2-188-ex-1",
+        "japanese": "ゲームなどしている場合ではない。",
+        "korean": "게임 따위를 하고 있을 때가 아니다."
+      }
+    ],
+    "tags": [
+      "부조사",
+      "예시",
+      "낮춤",
+      "문어"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "particle",
+        "label": "N + など",
+        "text": "など",
+        "requiredContext": "문어적으로 예를 들거나 낮추어 말하는 문장",
+        "note": "문어적 '~등, ~따위'"
+      }
+    ]
+  },
+  {
+    "id": "n2-189",
+    "no": 189,
+    "noLabel": "부조사8",
+    "level": "N2",
+    "expression": "なんか",
+    "connection": "N+なんか",
+    "meaningKo": "~같은 것, ~따위",
+    "nuanceKo": "회화에서 가볍게 예를 들거나 대상을 낮추어 말함.",
+    "register": "회화체",
+    "frequency": 3,
+    "similarGrammarIds": [
+      "n2-188",
+      "n2-190",
+      "n2-104"
+    ],
+    "similarExpressionNames": [
+      "など",
+      "なんて"
+    ],
+    "warningKo": "など의 구어적인 형태에 가깝다. 자기 자신에게 쓰면 겸손이나 자기 낮춤을 나타낼 수 있다.",
+    "examples": [
+      {
+        "id": "n2-189-ex-1",
+        "japanese": "コーヒーなんかどう？",
+        "korean": "커피 같은 거 어때?"
+      }
+    ],
+    "tags": [
+      "부조사",
+      "예시",
+      "낮춤",
+      "회화"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "particle",
+        "label": "N + なんか",
+        "text": "なんか",
+        "requiredContext": "회화에서 가볍게 예를 들거나 낮추어 말하는 문장",
+        "note": "구어적 '~같은 것, ~따위'"
+      }
+    ]
+  },
+  {
+    "id": "n2-190",
+    "no": 190,
+    "noLabel": "부조사9",
+    "level": "N2",
+    "expression": "なんて",
+    "connection": "N+なんて / 普通形+なんて",
+    "meaningKo": "~라니, ~따위",
+    "nuanceKo": "놀람·의외·비판을 드러내거나 대상을 낮추어 말함.",
+    "register": "회화체",
+    "frequency": 3,
+    "similarGrammarIds": [
+      "n2-188",
+      "n2-189",
+      "n2-104"
+    ],
+    "similarExpressionNames": [
+      "など",
+      "なんか"
+    ],
+    "warningKo": "문장 전체 뒤에서는 '~라니'라는 놀람이 강하다. 명사 뒤에서는 '~따위'라는 낮춤이 될 수 있다.",
+    "examples": [
+      {
+        "id": "n2-190-ex-1",
+        "japanese": "彼が合格するなんて信じられない。",
+        "korean": "그가 합격하다니 믿을 수 없다."
+      }
+    ],
+    "tags": [
+      "부조사",
+      "놀람",
+      "비판",
+      "낮춤"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "particle",
+        "label": "普通形 + なんて",
+        "text": "なんて",
+        "requiredContext": "놀람이나 비판을 나타내는 문장",
+        "note": "'~라니, ~따위'"
+      }
+    ]
+  },
+  {
+    "id": "n2-191",
+    "no": 191,
+    "noLabel": "부조사10",
+    "level": "N2",
+    "expression": "くらい / ぐらい",
+    "connection": "数量+くらい / N+くらい / 普通形+くらい",
+    "meaningKo": "~정도, ~만큼",
+    "nuanceKo": "수량이나 상태의 대략적인 정도, 또는 최소한의 수준을 나타냄.",
+    "register": "중립",
+    "frequency": 3,
+    "similarGrammarIds": [
+      "n2-192",
+      "n2-034"
+    ],
+    "similarExpressionNames": [
+      "ほど",
+      "くらいなら"
+    ],
+    "warningKo": "ぐらい는 くらい의 구어적 변형이다. 강한 정도나 비교 기준에는 ほど가 더 잘 쓰인다.",
+    "examples": [
+      {
+        "id": "n2-191-ex-1",
+        "japanese": "駅で十分くらい待った。",
+        "korean": "역에서 10분 정도 기다렸다."
+      }
+    ],
+    "tags": [
+      "부조사",
+      "정도",
+      "대략"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "particle",
+        "label": "数量 + くらい",
+        "text": "くらい",
+        "requiredContext": "대략적인 수량이나 정도를 나타내는 문장",
+        "note": "대략 '~정도'"
+      }
+    ]
+  },
+  {
+    "id": "n2-192",
+    "no": 192,
+    "noLabel": "부조사11",
+    "level": "N2",
+    "expression": "ほど",
+    "connection": "N+ほど / 普通形+ほど / 〜ば〜ほど",
+    "meaningKo": "~정도, ~만큼, ~할수록",
+    "nuanceKo": "정도가 매우 강함을 나타내거나 비교의 기준을 제시함.",
+    "register": "중립",
+    "frequency": 3,
+    "similarGrammarIds": [
+      "n2-191",
+      "n2-057"
+    ],
+    "similarExpressionNames": [
+      "くらい",
+      "だけの"
+    ],
+    "warningKo": "「Aほど〜ない」는 'A만큼 ~하지 않다', 「〜ば〜ほど」는 '~하면 할수록'이라는 뜻이다.",
+    "examples": [
+      {
+        "id": "n2-192-ex-1",
+        "japanese": "今日は立っていられないほど疲れた。",
+        "korean": "오늘은 서 있을 수 없을 만큼 피곤했다."
+      }
+    ],
+    "tags": [
+      "부조사",
+      "정도",
+      "비교"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "particle",
+        "label": "普通形 + ほど",
+        "text": "ほど",
+        "requiredContext": "강한 정도나 비교 기준을 나타내는 문장",
+        "note": "강한 '~만큼, ~할수록'"
+      }
+    ]
+  },
+  {
+    "id": "n2-193",
+    "no": 193,
+    "noLabel": "부조사12",
+    "level": "N2",
+    "expression": "まで",
+    "connection": "N+まで",
+    "meaningKo": "~까지, 심지어 ~까지",
+    "nuanceKo": "범위의 끝을 나타내며 예상 밖의 대상까지 포함됨을 강조함.",
+    "register": "중립",
+    "frequency": 3,
+    "similarGrammarIds": [
+      "n2-149",
+      "n2-185"
+    ],
+    "similarExpressionNames": [
+      "までして",
+      "さえ"
+    ],
+    "warningKo": "단순한 도착점뿐 아니라 「親にまで」처럼 의외의 대상까지 포함한다는 뜻으로도 쓴다.",
+    "examples": [
+      {
+        "id": "n2-193-ex-1",
+        "japanese": "親にまで反対された。",
+        "korean": "부모에게까지 반대당했다."
+      }
+    ],
+    "tags": [
+      "부조사",
+      "범위",
+      "강조"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "particle",
+        "label": "N + まで",
+        "text": "まで",
+        "requiredContext": "범위의 끝이나 의외의 포함을 나타내는 문장",
+        "note": "'~까지, 심지어 ~까지'"
+      }
+    ]
   }
 ];

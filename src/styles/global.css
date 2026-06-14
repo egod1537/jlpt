@@ -1066,8 +1066,9 @@ button {
 
 .recall-meaning {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  gap: 0.65rem;
   min-height: 4.5rem;
   margin-bottom: 1rem;
   padding: 0.9rem 1rem;
@@ -1078,6 +1079,26 @@ button {
   font-size: 1.05rem;
   font-weight: 600;
   line-height: 1.6;
+}
+
+.recall-meaning-row {
+  display: grid;
+  grid-template-columns: 4rem 1fr;
+  gap: 0.75rem;
+  width: 100%;
+  text-align: left;
+}
+
+.recall-meaning-row.nuance {
+  color: var(--text2);
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.recall-meaning-label {
+  color: var(--accent);
+  font-size: 0.82rem;
+  font-weight: 700;
 }
 
 .recall-reveal-btn {
@@ -1508,6 +1529,11 @@ button {
     min-height: 4rem;
     margin-bottom: 0.75rem;
     padding: 0.75rem;
+  }
+
+  .recall-meaning-row {
+    grid-template-columns: 3.5rem 1fr;
+    gap: 0.5rem;
   }
 
   .recall-reveal-btn {

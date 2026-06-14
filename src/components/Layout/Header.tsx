@@ -9,7 +9,7 @@ export function Header({ activeTab, onTabChange }: HeaderProps) {
   return (
     <header className="app-header">
       <div className="logo">
-        文法辞典 <span>일본어 N2 문법 181선</span>
+        文法辞典 <span>일본어 N2 문법 193선</span>
       </div>
       <div className="header-actions">
         <span className="commit-badge" title={`main commit ${__APP_COMMIT_HASH__}`}>

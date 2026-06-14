@@ -14,6 +14,7 @@ import {
   getQuizQuestionCount,
   getReviewQuestions,
   hasUniqueAnswerGrammars,
+  shuffleQuizQuestionChoices,
 } from "../utils/quizSetBuilder";
 import {
   clearPersistedQuizSession,
@@ -162,7 +163,9 @@ function restoreState(
 ): QuizSessionState | null {
   const questionById = new Map(questionPool.map((question) => [question.id, question]));
   const wrongQueue = getValidWrongQueue(persisted, questionById);
-  const persistedQuestions = getQuestionsByIds(questionPool, persisted.currentQuestionIds);
+  const persistedQuestions = getQuestionsByIds(questionPool, persisted.currentQuestionIds).map(
+    shuffleQuizQuestionChoices,
+  );
   const currentSetSize = persisted.currentSetSize ?? setSize;
 
   if (persistedQuestions.length === 0) {

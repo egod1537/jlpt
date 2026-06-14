@@ -455,12 +455,19 @@ export function generateQuizQuestion(
     };
   }
 
-  const choiceItems = generateGrammarChoices(correct, allGrammar, 4, questionId);
   const exampleMatch = findExampleWithExpression(correct);
   const { example } = exampleMatch;
   const expression = exampleMatch.target;
 
   if (mode === "meaning") {
+    const choiceItems = generateGrammarChoices(
+      correct,
+      allGrammar,
+      4,
+      questionId,
+      (item) => item.meaningKo.trim().replace(/\s+/g, " "),
+    );
+
     return {
       id: questionId,
       type: modeToQuizType(mode),
@@ -476,6 +483,8 @@ export function generateQuizQuestion(
   }
 
   if (mode === "grammar") {
+    const choiceItems = generateGrammarChoices(correct, allGrammar, 4, questionId);
+
     return {
       id: questionId,
       type: modeToQuizType(mode),

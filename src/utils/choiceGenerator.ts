@@ -21,6 +21,7 @@ export function generateGrammarChoices(
   allGrammar: readonly GrammarItem[],
   count = 4,
   seed?: string,
+  choiceKey: (item: GrammarItem) => string = (item) => item.id,
 ): GrammarItem[] {
   const randomize = <T>(items: readonly T[], salt: string): T[] =>
     seed === undefined ? shuffle(items) : shuffleWithSeed(items, `${seed}:${salt}`);
@@ -42,6 +43,7 @@ export function generateGrammarChoices(
   );
   const sameLevel = allGrammar.filter((item) => item.id !== correct.id && item.level === correct.level);
   const fallback = allGrammar.filter((item) => item.id !== correct.id);
+  const seenChoiceKeys = new Set([choiceKey(correct)]);
   const candidates = dedupeGrammar([
     ...randomize(similarById, "similar-id"),
     ...randomize(similarByName, "similar-name"),
@@ -49,7 +51,18 @@ export function generateGrammarChoices(
     ...randomize(sameTags, "tags"),
     ...randomize(sameLevel, "level"),
     ...randomize(fallback, "fallback"),
-  ]).slice(0, Math.max(0, count - 1));
+  ])
+    .filter((item) => {
+      const key = choiceKey(item);
+
+      if (seenChoiceKeys.has(key)) {
+        return false;
+      }
+
+      seenChoiceKeys.add(key);
+      return true;
+    })
+    .slice(0, Math.max(0, count - 1));
 
   return randomize([correct, ...candidates], "final").slice(0, count);
 }

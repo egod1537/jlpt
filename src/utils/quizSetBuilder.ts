@@ -52,10 +52,12 @@ function isShuffleTarget(quizType: QuizQuestion["type"] | undefined): boolean {
 }
 
 function shouldShuffleWithinSet(questionPool: readonly QuizQuestion[]): boolean {
-  return isShuffleTarget(questionPool[0]?.type);
+  const quizType = questionPool[0]?.type;
+
+  return quizType === "GRAMMAR_RECALL" || isShuffleTarget(quizType);
 }
 
-function shuffleQuestionChoices(question: QuizQuestion): QuizQuestion {
+export function shuffleQuizQuestionChoices(question: QuizQuestion): QuizQuestion {
   if (!isShuffleTarget(question.type)) {
     return question;
   }
@@ -67,7 +69,7 @@ function shuffleQuestionChoices(question: QuizQuestion): QuizQuestion {
 }
 
 function randomizeQuestionSet(questions: readonly QuizQuestion[]): QuizQuestion[] {
-  return shuffle(questions).map(shuffleQuestionChoices);
+  return shuffle(questions).map(shuffleQuizQuestionChoices);
 }
 
 function shouldUseUniqueAnswerGrammarSets(questionPool: readonly QuizQuestion[]): boolean {
@@ -200,7 +202,7 @@ export function buildQuizSet(
     return shouldShuffleWithinSet(questionPool) ? randomizeQuestionSet(questions) : questions;
   }
 
-  return shuffle(questionPool).slice(0, setSize).map(shuffleQuestionChoices);
+  return shuffle(questionPool).slice(0, setSize).map(shuffleQuizQuestionChoices);
 }
 
 export function getQuestionsByIds(

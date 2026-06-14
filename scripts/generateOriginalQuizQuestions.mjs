@@ -18,7 +18,7 @@ function parseArgument(name, fallback) {
 }
 
 const fromNumber = parseArgument("--from", 1);
-const toNumber = parseArgument("--to", 181);
+const toNumber = parseArgument("--to", 193);
 const batchSize = parseArgument("--batch-size", 3);
 const concurrency = parseArgument("--concurrency", 3);
 const maxAttempts = parseArgument("--max-attempts", 3);

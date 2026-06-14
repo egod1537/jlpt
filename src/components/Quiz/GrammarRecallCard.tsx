@@ -54,7 +54,14 @@ export function GrammarRecallCard({
 
       {isMeaningVisible && (
         <div className="recall-meaning" id={meaningId} aria-live="polite">
-          {question.subPrompt}
+          <div className="recall-meaning-row">
+            <span className="recall-meaning-label">뜻</span>
+            <span>{question.subPrompt}</span>
+          </div>
+          <div className="recall-meaning-row nuance">
+            <span className="recall-meaning-label">뉘앙스</span>
+            <span>{question.explanation}</span>
+          </div>
         </div>
       )}
 
