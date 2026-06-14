@@ -40,7 +40,10 @@ export function GrammarRecallCard({
       </div>
 
       <div className="quiz-q-label">이 문법의 뜻을 떠올려 보세요</div>
-      <div className="recall-expression">{question.prompt}</div>
+      <div className="recall-expression-wrap">
+        <div className="recall-expression">{question.prompt}</div>
+        {question.hint && <div className="recall-hint">（{question.hint}）</div>}
+      </div>
 
       <button
         className="recall-reveal-btn"

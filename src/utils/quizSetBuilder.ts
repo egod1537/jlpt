@@ -8,8 +8,12 @@ export function buildGrammarQuestionPool(
   grammarItems: readonly GrammarItem[],
 ): QuizQuestion[] {
   if (mode === "example") {
-    const createdQuestions = getManualFillBlankQuestions(grammarItems).filter((question) =>
-      question.id.startsWith("fb-created-"),
+    const allowedGrammarIds = new Set(grammarItems.map((item) => item.id));
+    const createdQuestions = getManualFillBlankQuestions(grammarItems).filter(
+      (question) =>
+        question.id.startsWith("fb-created-") &&
+        question.sourceGrammarId !== undefined &&
+        allowedGrammarIds.has(question.sourceGrammarId),
     );
 
     if (createdQuestions.length > 0) {
@@ -18,8 +22,12 @@ export function buildGrammarQuestionPool(
   }
 
   if (mode === "sentenceOrder") {
-    const createdQuestions = getManualSentenceOrderQuestions().filter((question) =>
-      question.id.startsWith("so-created-"),
+    const allowedGrammarIds = new Set(grammarItems.map((item) => item.id));
+    const createdQuestions = getManualSentenceOrderQuestions().filter(
+      (question) =>
+        question.id.startsWith("so-created-") &&
+        question.sourceGrammarId !== undefined &&
+        allowedGrammarIds.has(question.sourceGrammarId),
     );
 
     if (createdQuestions.length > 0) {

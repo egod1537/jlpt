@@ -10,13 +10,19 @@ import { QuizSetResult } from "./QuizSetResult";
 import { ReviewGate } from "./ReviewGate";
 
 interface QuizPageProps {
+  favoriteIds: readonly string[];
   grammarItems: readonly GrammarItem[];
 }
 
+type QuizScope = "all" | "favorites";
+
 interface QuizSessionPanelProps {
+  favoriteIds: readonly string[];
   mode: QuizMode;
   grammarItems: readonly GrammarItem[];
+  scope: QuizScope;
   onModeChange: (mode: QuizMode) => void;
+  onScopeChange: (scope: QuizScope) => void;
 }
 
 const QUIZ_SET_SIZE = 20;
@@ -85,10 +91,34 @@ function usesSelectableSets(mode: QuizMode): boolean {
   );
 }
 
-function QuizSessionPanel({ mode, grammarItems, onModeChange }: QuizSessionPanelProps) {
-  const questionPool = useMemo(() => buildGrammarQuestionPool(mode, grammarItems), [grammarItems, mode]);
+function QuizSessionPanel({
+  favoriteIds,
+  mode,
+  grammarItems,
+  scope,
+  onModeChange,
+  onScopeChange,
+}: QuizSessionPanelProps) {
+  const favoriteIdSet = useMemo(() => new Set(favoriteIds), [favoriteIds]);
+  const questionPool = useMemo(() => {
+    const questions = buildGrammarQuestionPool(mode, grammarItems);
+
+    return scope === "all"
+      ? questions
+      : questions.filter(
+          (question) =>
+            question.sourceGrammarId !== undefined &&
+            favoriteIdSet.has(question.sourceGrammarId),
+        );
+  }, [favoriteIdSet, grammarItems, mode, scope]);
   const questionCount = useMemo(() => getQuizQuestionCount(questionPool), [questionPool]);
-  const session = useQuizSession({ questionPool, setSize: QUIZ_SET_SIZE });
+  const favoriteScopeKey =
+    scope === "favorites" ? [...favoriteIds].sort().join(",") || "empty" : "all";
+  const session = useQuizSession({
+    questionPool,
+    setSize: QUIZ_SET_SIZE,
+    storageKey: `jlpt-quiz-session:${mode}:${scope}:${favoriteScopeKey}`,
+  });
   const [answerResult, setAnswerResult] = useState<AnswerResult | null>(null);
   const [answeredQuestion, setAnsweredQuestion] = useState<QuizQuestion | null>(null);
 
@@ -224,7 +254,26 @@ function QuizSessionPanel({ mode, grammarItems, onModeChange }: QuizSessionPanel
 
       <QuizModeSelector activeMode={mode} onModeChange={onModeChange} />
 
-      {usesSelectableSets(mode) && (
+      <div className="quiz-scope-selector" aria-label="테스트 출제 범위">
+        <span className="scope-selector-label">출제 범위</span>
+        <button
+          className={`scope-btn${scope === "all" ? " active" : ""}`}
+          type="button"
+          onClick={() => onScopeChange("all")}
+        >
+          전체
+        </button>
+        <button
+          className={`scope-btn${scope === "favorites" ? " active" : ""}`}
+          type="button"
+          onClick={() => onScopeChange("favorites")}
+        >
+          ★ 즐겨찾기
+          <span>{favoriteIds.length}</span>
+        </button>
+      </div>
+
+      {usesSelectableSets(mode) && questionCount > 0 && (
         <div className="quiz-set-selector" aria-label="문제 세트 선택">
           <span className="set-selector-label">세트 선택</span>
           <div className="set-selector-buttons">
@@ -257,7 +306,13 @@ function QuizSessionPanel({ mode, grammarItems, onModeChange }: QuizSessionPanel
         />
       )}
 
-      {displayQuestion === null ? (
+      {questionCount === 0 ? (
+        <div className="quiz-empty-state">
+          <div className="quiz-empty-symbol" aria-hidden="true">☆</div>
+          <strong>즐겨찾기한 문법이 없습니다</strong>
+          <p>사전 상세 화면에서 문법을 즐겨찾기에 추가한 뒤 다시 테스트하세요.</p>
+        </div>
+      ) : displayQuestion === null ? (
         <QuizSetResult
           canProceedToNextSet={session.canProceedToNextSet}
           correctCount={session.correctCount}
@@ -296,8 +351,9 @@ function QuizSessionPanel({ mode, grammarItems, onModeChange }: QuizSessionPanel
   );
 }
 
-export function QuizPage({ grammarItems }: QuizPageProps) {
+export function QuizPage({ favoriteIds, grammarItems }: QuizPageProps) {
   const [mode, setMode] = useState<QuizMode>("meaning");
+  const [scope, setScope] = useState<QuizScope>("all");
 
   const handleModeChange = (nextMode: QuizMode) => {
     setMode(nextMode);
@@ -305,7 +361,15 @@ export function QuizPage({ grammarItems }: QuizPageProps) {
 
   return (
     <section className="quiz-section">
-      <QuizSessionPanel grammarItems={grammarItems} key={mode} mode={mode} onModeChange={handleModeChange} />
+      <QuizSessionPanel
+        favoriteIds={favoriteIds}
+        grammarItems={grammarItems}
+        key={`${mode}:${scope}:${scope === "favorites" ? favoriteIds.join(",") : "all"}`}
+        mode={mode}
+        scope={scope}
+        onModeChange={handleModeChange}
+        onScopeChange={setScope}
+      />
     </section>
   );
 }

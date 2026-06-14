@@ -49,6 +49,7 @@ export interface QuizQuestion {
   level: JlptLevel;
   prompt: string;
   subPrompt?: string;
+  hint?: string;
   choices: QuizChoice[];
   answerChoiceId: string;
   answerChoiceIds?: string[];

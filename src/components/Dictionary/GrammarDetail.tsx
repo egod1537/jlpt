@@ -3,20 +3,24 @@ import { getFrequencyStars, getRegisterColor } from "../../utils/grammarSearch";
 
 interface GrammarDetailProps {
   item: GrammarItem | null;
+  isFavorite: boolean;
   canGoPrevious: boolean;
   canGoNext: boolean;
   onGoPrevious: () => void;
   onGoNext: () => void;
   onSimilarSearch: (query: string) => void;
+  onToggleFavorite: (grammarId: string) => void;
 }
 
 export function GrammarDetail({
   item,
+  isFavorite,
   canGoPrevious,
   canGoNext,
   onGoPrevious,
   onGoNext,
   onSimilarSearch,
+  onToggleFavorite,
 }: GrammarDetailProps) {
   if (item === null) {
     return (
@@ -36,6 +40,15 @@ export function GrammarDetail({
       <div className="grammar-header">
         <div className="grammar-title">{item.expression}</div>
         <div className="grammar-num-badge">No.{item.noLabel}</div>
+        <button
+          aria-pressed={isFavorite}
+          className={`favorite-btn${isFavorite ? " active" : ""}`}
+          type="button"
+          onClick={() => onToggleFavorite(item.id)}
+        >
+          <span aria-hidden="true">{isFavorite ? "★" : "☆"}</span>
+          {isFavorite ? "즐겨찾기됨" : "즐겨찾기"}
+        </button>
       </div>
 
       <div className="meta-row">

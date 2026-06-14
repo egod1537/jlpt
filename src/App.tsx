@@ -9,6 +9,7 @@ import { MobileDock, type MobileDockTab } from "./components/Layout/MobileDock";
 import { Sidebar } from "./components/Layout/Sidebar";
 import { QuizPage } from "./components/Quiz/QuizPage";
 import { n2Grammar } from "./data/grammar";
+import { useGrammarFavorites } from "./hooks/useGrammarFavorites";
 import type { GrammarItem } from "./types/grammar";
 import {
   filterGrammarByCategory,
@@ -17,8 +18,10 @@ import {
 } from "./utils/grammarSearch";
 
 const grammarItems: readonly GrammarItem[] = n2Grammar;
+const grammarItemIds = grammarItems.map((item) => item.id);
 
 export function App() {
+  const { favoriteIds, favoriteIdSet, toggleFavorite } = useGrammarFavorites(grammarItemIds);
   const [activeTab, setActiveTab] = useState<AppTab>("dict");
   const [mobileDictionaryPane, setMobileDictionaryPane] = useState<"list" | "detail">("list");
   const [query, setQuery] = useState("");
@@ -100,22 +103,29 @@ export function App() {
               categories={grammarCategories}
               onCategoryChange={handleCategoryChange}
             />
-            <GrammarList items={filteredItems} selectedId={selectedId} onSelect={handleSelect} />
+            <GrammarList
+              favoriteIds={favoriteIdSet}
+              items={filteredItems}
+              selectedId={selectedId}
+              onSelect={handleSelect}
+            />
           </Sidebar>
           <GrammarDetail
             canGoNext={selectedIndex >= 0 && selectedIndex < filteredItems.length - 1}
             canGoPrevious={selectedIndex > 0}
+            isFavorite={selectedItem !== null && favoriteIdSet.has(selectedItem.id)}
             item={selectedItem}
             onGoNext={handleGoNext}
             onGoPrevious={handleGoPrevious}
             onSimilarSearch={handleSimilarSearch}
+            onToggleFavorite={toggleFavorite}
           />
         </section>
         <div
           className="quiz-view"
           style={{ display: activeTab === "quiz" ? "flex" : "none", flex: 1, minHeight: 0 }}
         >
-          <QuizPage grammarItems={grammarItems} />
+          <QuizPage favoriteIds={favoriteIds} grammarItems={grammarItems} />
         </div>
       </MainLayout>
       <MobileDock

@@ -21,12 +21,12 @@ export function toPersistedQuizSession(state: QuizSessionState): PersistedQuizSe
   };
 }
 
-export function loadPersistedQuizSession(): PersistedQuizSession | null {
+export function loadPersistedQuizSession(storageKey = STORAGE_KEY): PersistedQuizSession | null {
   if (!canUseStorage()) {
     return null;
   }
 
-  const rawValue = window.localStorage.getItem(STORAGE_KEY);
+  const rawValue = window.localStorage.getItem(storageKey);
 
   if (rawValue === null) {
     return null;
@@ -35,23 +35,26 @@ export function loadPersistedQuizSession(): PersistedQuizSession | null {
   try {
     return JSON.parse(rawValue) as PersistedQuizSession;
   } catch {
-    window.localStorage.removeItem(STORAGE_KEY);
+    window.localStorage.removeItem(storageKey);
     return null;
   }
 }
 
-export function savePersistedQuizSession(state: QuizSessionState): void {
+export function savePersistedQuizSession(
+  state: QuizSessionState,
+  storageKey = STORAGE_KEY,
+): void {
   if (!canUseStorage()) {
     return;
   }
 
-  window.localStorage.setItem(STORAGE_KEY, JSON.stringify(toPersistedQuizSession(state)));
+  window.localStorage.setItem(storageKey, JSON.stringify(toPersistedQuizSession(state)));
 }
 
-export function clearPersistedQuizSession(): void {
+export function clearPersistedQuizSession(storageKey = STORAGE_KEY): void {
   if (!canUseStorage()) {
     return;
   }
 
-  window.localStorage.removeItem(STORAGE_KEY);
+  window.localStorage.removeItem(storageKey);
 }

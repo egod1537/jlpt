@@ -23,6 +23,7 @@ import {
 } from "../utils/quizSessionStorage";
 
 interface UseQuizSessionOptions {
+  storageKey?: string;
   setSize: number;
   questionPool: readonly QuizQuestion[];
 }
@@ -203,19 +204,23 @@ function restoreState(
   });
 }
 
-export function useQuizSession({ setSize, questionPool }: UseQuizSessionOptions): UseQuizSessionResult {
+export function useQuizSession({
+  storageKey,
+  setSize,
+  questionPool,
+}: UseQuizSessionOptions): UseQuizSessionResult {
   const questionById = useMemo(() => new Map(questionPool.map((question) => [question.id, question])), [questionPool]);
 
   const [state, setState] = useState<QuizSessionState>(() => {
-    const persisted = loadPersistedQuizSession();
+    const persisted = loadPersistedQuizSession(storageKey);
     const restored = persisted === null ? null : restoreState(persisted, questionPool, setSize);
 
     return restored ?? createNormalState(questionPool, setSize, 0);
   });
 
   useEffect(() => {
-    savePersistedQuizSession(state);
-  }, [state]);
+    savePersistedQuizSession(state, storageKey);
+  }, [state, storageKey]);
 
   const currentQuestion = state.phase === "SET_COMPLETE" ? undefined : state.currentQuestions[state.currentQuestionIndex];
 
@@ -379,7 +384,7 @@ export function useQuizSession({ setSize, questionPool }: UseQuizSessionOptions)
   };
 
   const resetSession = () => {
-    clearPersistedQuizSession();
+    clearPersistedQuizSession(storageKey);
     setState(createNormalState(questionPool, setSize, 0));
   };
 
