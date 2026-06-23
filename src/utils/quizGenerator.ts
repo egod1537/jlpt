@@ -62,6 +62,28 @@ function buildChoices(items: readonly GrammarItem[], textSelector: (item: Gramma
   }));
 }
 
+const MEANING_KEY_STOP_WORDS = new Set(["가", "과", "는", "도", "로", "를", "에", "와", "은", "을", "의", "이"]);
+
+function normalizeMeaningChoiceKey(value: string): string {
+  return value
+    .normalize("NFKC")
+    .replace(/\([^)]*\)/g, "")
+    .replace(/[~～]/g, "")
+    .replace(/\s+/g, "")
+    .replace(/[^\p{Letter}\p{Number}]+/gu, "");
+}
+
+function getMeaningChoiceKeys(item: GrammarItem): string[] {
+  const visibleMeaning = item.meaningKo.normalize("NFKC").replace(/\([^)]*\)/g, "");
+  const fullKey = normalizeMeaningChoiceKey(visibleMeaning);
+  const partKeys = visibleMeaning
+    .split(/[,\u3001/]+/)
+    .map(normalizeMeaningChoiceKey)
+    .filter((key) => key.length > 0 && !MEANING_KEY_STOP_WORDS.has(key));
+
+  return [...new Set([fullKey, ...partKeys].filter(Boolean))];
+}
+
 function expandOptionalParentheses(value: string): string[] {
   const match = value.match(/（([^）]+)）/);
 
@@ -474,7 +496,7 @@ export function generateQuizQuestion(
       allGrammar,
       4,
       questionId,
-      (item) => item.meaningKo.trim().replace(/\s+/g, " "),
+      getMeaningChoiceKeys,
     );
 
     return {
