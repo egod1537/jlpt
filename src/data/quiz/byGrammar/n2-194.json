@@ -1,0 +1,112 @@
+{
+  "grammarId": "n2-194",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-194-01",
+      "level": "N2",
+      "sentence": "この町の人口は減る一方だ。",
+      "sentenceWithBlank": "この町の人口は減る（　　　）。",
+      "korean": "이 마을의 인구는 계속 줄어들기만 한다.",
+      "answerChoiceId": "fb-created-n2-194-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-194-01-c",
+          "text": "につれて",
+          "grammarId": "n2-242",
+          "baseExpression": "につれて",
+          "conjugatedExpression": "につれて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-194-01-d",
+          "text": "すればするほど",
+          "grammarId": "n2-249",
+          "baseExpression": "～ば～ほど",
+          "conjugatedExpression": "すればするほど",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-194-01-a",
+          "text": "一方だ",
+          "grammarId": "n2-194",
+          "baseExpression": "一方だ",
+          "conjugatedExpression": "一方だ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-194-01-b",
+          "text": "に従って",
+          "grammarId": "n2-240",
+          "baseExpression": "に従って",
+          "conjugatedExpression": "に従って",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「一方だ」는 '계속 ~하기만 하다, 점점 ~해 가다'라는 뜻이다. 변화가 한 방향으로 계속 진행됨. 대체로 부정적인 변화에 자주 사용.",
+      "sourceGrammarIds": [
+        "n2-194",
+        "n2-240",
+        "n2-242",
+        "n2-249"
+      ],
+      "tags": [
+        "변화",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-194-01",
+      "level": "N2",
+      "sentence": "この町の人口は減る一方だ。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "이 마을의 인구는 계속 줄어들기만 한다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-194-01-p3",
+          "text": "減る",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-194-01-p4",
+          "text": "一方だ。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-194-01-p1",
+          "text": "この町の",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-194-01-p2",
+          "text": "人口は",
+          "order": 2
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-194-01-p1",
+        "so-created-n2-194-01-p2",
+        "so-created-n2-194-01-p3",
+        "so-created-n2-194-01-p4"
+      ],
+      "explanation": "「一方だ」를 사용해 '계속 ~하기만 하다, 점점 ~해 가다'의 의미를 나타낸 문장이다. 변화가 한 방향으로 계속 진행됨. 대체로 부정적인 변화에 자주 사용.",
+      "sourceGrammarIds": [
+        "n2-194",
+        "n2-240",
+        "n2-242",
+        "n2-249"
+      ],
+      "tags": [
+        "변화",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

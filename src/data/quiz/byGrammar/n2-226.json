@@ -1,0 +1,112 @@
+{
+  "grammarId": "n2-226",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-226-01",
+      "level": "N2",
+      "sentence": "皆の前で約束した手前、途中でやめるわけにはいかない。",
+      "sentenceWithBlank": "皆の前で約束した（　　　）、途中でやめるわけにはいかない。",
+      "korean": "모두 앞에서 약속한 이상 중간에 그만둘 수는 없다.",
+      "answerChoiceId": "fb-created-n2-226-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-226-01-c",
+          "text": "上に",
+          "grammarId": "n2-195",
+          "baseExpression": "上に",
+          "conjugatedExpression": "上に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-226-01-d",
+          "text": "上",
+          "grammarId": "n2-196",
+          "baseExpression": "～上（じょう）",
+          "conjugatedExpression": "上",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-226-01-a",
+          "text": "手前",
+          "grammarId": "n2-226",
+          "baseExpression": "手前",
+          "conjugatedExpression": "手前",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-226-01-b",
+          "text": "一方だ",
+          "grammarId": "n2-194",
+          "baseExpression": "一方だ",
+          "conjugatedExpression": "一方だ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「手前」는 '~한 이상, ~체면상'라는 뜻이다. 남에게 말하거나 약속한 체면 때문에 행동하지 않을 수 없음.",
+      "sourceGrammarIds": [
+        "n2-226",
+        "n2-194",
+        "n2-195",
+        "n2-196"
+      ],
+      "tags": [
+        "책임",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-226-01",
+      "level": "N2",
+      "sentence": "皆の前で約束した手前、途中でやめるわけにはいかない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "모두 앞에서 약속한 이상 중간에 그만둘 수는 없다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-226-01-p3",
+          "text": "手前、",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-226-01-p4",
+          "text": "途中でやめるわけにはいかない。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-226-01-p1",
+          "text": "皆の前で",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-226-01-p2",
+          "text": "約束した",
+          "order": 2
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-226-01-p1",
+        "so-created-n2-226-01-p2",
+        "so-created-n2-226-01-p3",
+        "so-created-n2-226-01-p4"
+      ],
+      "explanation": "「手前」를 사용해 '~한 이상, ~체면상'의 의미를 나타낸 문장이다. 남에게 말하거나 약속한 체면 때문에 행동하지 않을 수 없음.",
+      "sourceGrammarIds": [
+        "n2-226",
+        "n2-194",
+        "n2-195",
+        "n2-196"
+      ],
+      "tags": [
+        "책임",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

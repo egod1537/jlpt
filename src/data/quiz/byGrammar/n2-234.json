@@ -1,0 +1,112 @@
+{
+  "grammarId": "n2-234",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-234-01",
+      "level": "N2",
+      "sentence": "昨夜よく眠れなかったとみえて、彼は何度もあくびをしている。",
+      "sentenceWithBlank": "昨夜よく眠れなかった（　　　）、彼は何度もあくびをしている。",
+      "korean": "어젯밤 잘 자지 못한 모양이라 그는 몇 번이나 하품하고 있다.",
+      "answerChoiceId": "fb-created-n2-234-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-234-01-c",
+          "text": "ことから",
+          "grammarId": "n2-207",
+          "baseExpression": "ことから",
+          "conjugatedExpression": "ことから",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-234-01-d",
+          "text": "によると",
+          "grammarId": "n2-246",
+          "baseExpression": "によると / によれば",
+          "conjugatedExpression": "によると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-234-01-a",
+          "text": "とみえて",
+          "grammarId": "n2-234",
+          "baseExpression": "とみえて",
+          "conjugatedExpression": "とみえて",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-234-01-b",
+          "text": "おかげで",
+          "grammarId": "n2-198",
+          "baseExpression": "おかげで / せいで",
+          "conjugatedExpression": "おかげで",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「とみえて」는 '~인 듯하여, ~인 모양이라'라는 뜻이다. 눈에 보이는 결과나 정황을 근거로 원인을 추측함.",
+      "sourceGrammarIds": [
+        "n2-234",
+        "n2-198",
+        "n2-207",
+        "n2-246"
+      ],
+      "tags": [
+        "원인",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-234-01",
+      "level": "N2",
+      "sentence": "昨夜よく眠れなかったとみえて、彼は何度もあくびをしている。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "어젯밤 잘 자지 못한 모양이라 그는 몇 번이나 하품하고 있다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-234-01-p3",
+          "text": "とみえて、彼は何",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-234-01-p4",
+          "text": "度もあくびをしている。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-234-01-p1",
+          "text": "昨夜よく",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-234-01-p2",
+          "text": "眠れなかった",
+          "order": 2
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-234-01-p1",
+        "so-created-n2-234-01-p2",
+        "so-created-n2-234-01-p3",
+        "so-created-n2-234-01-p4"
+      ],
+      "explanation": "「とみえて」를 사용해 '~인 듯하여, ~인 모양이라'의 의미를 나타낸 문장이다. 눈에 보이는 결과나 정황을 근거로 원인을 추측함.",
+      "sourceGrammarIds": [
+        "n2-234",
+        "n2-198",
+        "n2-207",
+        "n2-246"
+      ],
+      "tags": [
+        "원인",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

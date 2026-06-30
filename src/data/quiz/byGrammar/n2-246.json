@@ -1,0 +1,112 @@
+{
+  "grammarId": "n2-246",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-246-01",
+      "level": "N2",
+      "sentence": "ニュースによると、台風が近づいているそうだ。",
+      "sentenceWithBlank": "ニュース（　　　）、台風が近づいているそうだ。",
+      "korean": "뉴스에 따르면 태풍이 다가오고 있다고 한다.",
+      "answerChoiceId": "fb-created-n2-246-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-246-01-c",
+          "text": "ことから",
+          "grammarId": "n2-207",
+          "baseExpression": "ことから",
+          "conjugatedExpression": "ことから",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-246-01-d",
+          "text": "とみえて",
+          "grammarId": "n2-234",
+          "baseExpression": "とみえて",
+          "conjugatedExpression": "とみえて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-246-01-a",
+          "text": "によると",
+          "grammarId": "n2-246",
+          "baseExpression": "によると / によれば",
+          "conjugatedExpression": "によると",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-246-01-b",
+          "text": "おかげで",
+          "grammarId": "n2-198",
+          "baseExpression": "おかげで / せいで",
+          "conjugatedExpression": "おかげで",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「によると」는 '~에 따르면'라는 뜻이다. 정보의 출처나 근거를 제시함.",
+      "sourceGrammarIds": [
+        "n2-246",
+        "n2-198",
+        "n2-207",
+        "n2-234"
+      ],
+      "tags": [
+        "원인",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-246-01",
+      "level": "N2",
+      "sentence": "ニュースによると、台風が近づいているそうだ。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "뉴스에 따르면 태풍이 다가오고 있다고 한다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-246-01-p3",
+          "text": "台風が",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-246-01-p4",
+          "text": "近づいているそうだ。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-246-01-p1",
+          "text": "ニュース",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-246-01-p2",
+          "text": "によると、",
+          "order": 2
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-246-01-p1",
+        "so-created-n2-246-01-p2",
+        "so-created-n2-246-01-p3",
+        "so-created-n2-246-01-p4"
+      ],
+      "explanation": "「によると」를 사용해 '~에 따르면'의 의미를 나타낸 문장이다. 정보의 출처나 근거를 제시함.",
+      "sourceGrammarIds": [
+        "n2-246",
+        "n2-198",
+        "n2-207",
+        "n2-234"
+      ],
+      "tags": [
+        "원인",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

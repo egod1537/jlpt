@@ -1,0 +1,112 @@
+{
+  "grammarId": "n2-199",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-199-01",
+      "level": "N2",
+      "sentence": "ベルが鳴るやいなや、学生たちは教室を飛び出した。",
+      "sentenceWithBlank": "ベルが鳴る（　　　）、学生たちは教室を飛び出した。",
+      "korean": "벨이 울리자마자 학생들은 교실을 뛰쳐나갔다.",
+      "answerChoiceId": "fb-created-n2-199-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-199-01-d",
+          "text": "にかけて",
+          "grammarId": "n2-202",
+          "baseExpression": "～から～にかけて",
+          "conjugatedExpression": "にかけて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-199-01-a",
+          "text": "やいなや",
+          "grammarId": "n2-199",
+          "baseExpression": "やいなや",
+          "conjugatedExpression": "やいなや",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-199-01-b",
+          "text": "うちに",
+          "grammarId": "n2-197",
+          "baseExpression": "うちに / ないうちに",
+          "conjugatedExpression": "うちに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-199-01-c",
+          "text": "そばから",
+          "grammarId": "n2-200",
+          "baseExpression": "そばから",
+          "conjugatedExpression": "そばから",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「やいなや」는 '~하자마자'라는 뜻이다. 앞 동작 직후 거의 동시에 다음 일이 일어남. 문어적이고 속도감이 강함.",
+      "sourceGrammarIds": [
+        "n2-199",
+        "n2-197",
+        "n2-200",
+        "n2-202"
+      ],
+      "tags": [
+        "시간",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-199-01",
+      "level": "N2",
+      "sentence": "ベルが鳴るやいなや、学生たちは教室を飛び出した。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "벨이 울리자마자 학생들은 교실을 뛰쳐나갔다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-199-01-p4",
+          "text": "飛び出した。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-199-01-p1",
+          "text": "ベルが鳴る",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-199-01-p2",
+          "text": "やいなや、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-199-01-p3",
+          "text": "学生たちは教室を",
+          "order": 3
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-199-01-p1",
+        "so-created-n2-199-01-p2",
+        "so-created-n2-199-01-p3",
+        "so-created-n2-199-01-p4"
+      ],
+      "explanation": "「やいなや」를 사용해 '~하자마자'의 의미를 나타낸 문장이다. 앞 동작 직후 거의 동시에 다음 일이 일어남. 문어적이고 속도감이 강함.",
+      "sourceGrammarIds": [
+        "n2-199",
+        "n2-197",
+        "n2-200",
+        "n2-202"
+      ],
+      "tags": [
+        "시간",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

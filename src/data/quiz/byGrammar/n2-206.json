@@ -1,0 +1,112 @@
+{
+  "grammarId": "n2-206",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-206-01",
+      "level": "N2",
+      "sentence": "努力したからこそ、成功できたのだ。",
+      "sentenceWithBlank": "努力した（　　　）、成功できたのだ。",
+      "korean": "노력했기 때문에야말로 성공할 수 있었던 것이다.",
+      "answerChoiceId": "fb-created-n2-206-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-206-01-c",
+          "text": "さえあれば",
+          "grammarId": "n2-213",
+          "baseExpression": "さえ～ば",
+          "conjugatedExpression": "さえあれば",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-206-01-d",
+          "text": "一方だ",
+          "grammarId": "n2-194",
+          "baseExpression": "一方だ",
+          "conjugatedExpression": "一方だ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-206-01-a",
+          "text": "からこそ",
+          "grammarId": "n2-206",
+          "baseExpression": "こそ / こちらこそ / からこそ / ようこそ",
+          "conjugatedExpression": "からこそ",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-206-01-b",
+          "text": "でさえ",
+          "grammarId": "n2-212",
+          "baseExpression": "でさえ / すら",
+          "conjugatedExpression": "でさえ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「からこそ」는 '바로 ~야말로 / 저야말로 / ~이기 때문에야말로 / 어서 오세요'라는 뜻이다. 대상을 강하게 강조함. からこそ는 원인을 특별히 강조.",
+      "sourceGrammarIds": [
+        "n2-206",
+        "n2-212",
+        "n2-213",
+        "n2-194"
+      ],
+      "tags": [
+        "강조",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-206-01",
+      "level": "N2",
+      "sentence": "努力したからこそ、成功できたのだ。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "노력했기 때문에야말로 성공할 수 있었던 것이다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-206-01-p3",
+          "text": "成功でき",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-206-01-p4",
+          "text": "たのだ。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-206-01-p1",
+          "text": "努力した",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-206-01-p2",
+          "text": "からこそ、",
+          "order": 2
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-206-01-p1",
+        "so-created-n2-206-01-p2",
+        "so-created-n2-206-01-p3",
+        "so-created-n2-206-01-p4"
+      ],
+      "explanation": "「からこそ」를 사용해 '바로 ~야말로 / 저야말로 / ~이기 때문에야말로 / 어서 오세요'의 의미를 나타낸 문장이다. 대상을 강하게 강조함. からこそ는 원인을 특별히 강조.",
+      "sourceGrammarIds": [
+        "n2-206",
+        "n2-212",
+        "n2-213",
+        "n2-194"
+      ],
+      "tags": [
+        "강조",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

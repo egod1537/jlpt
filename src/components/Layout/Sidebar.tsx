@@ -1,9 +1,11 @@
-import type { ReactNode } from "react";
+import { PureComponent, type ReactNode } from "react";
 
 interface SidebarProps {
   children: ReactNode;
 }
 
-export function Sidebar({ children }: SidebarProps) {
-  return <aside className="sidebar">{children}</aside>;
+export class Sidebar extends PureComponent<SidebarProps> {
+  render() {
+    return <aside className="sidebar">{this.props.children}</aside>;
+  }
 }

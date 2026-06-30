@@ -1,0 +1,110 @@
+{
+  "grammarId": "n2-208",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-208-01",
+      "level": "N2",
+      "sentence": "この本は読んだことは読んだが、内容はよく覚えていない。",
+      "sentenceWithBlank": "この本は読んだ（　　　）、内容はよく覚えていない。",
+      "korean": "이 책을 읽기는 읽었지만 내용은 잘 기억나지 않는다.",
+      "answerChoiceId": "fb-created-n2-208-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-208-01-a",
+          "text": "ことは読んだが",
+          "grammarId": "n2-208",
+          "baseExpression": "ことは～が",
+          "conjugatedExpression": "ことは読んだが",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-208-01-b",
+          "text": "一方だ",
+          "grammarId": "n2-194",
+          "baseExpression": "一方だ",
+          "conjugatedExpression": "一方だ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-208-01-c",
+          "text": "上に",
+          "grammarId": "n2-195",
+          "baseExpression": "上に",
+          "conjugatedExpression": "上に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-208-01-d",
+          "text": "上",
+          "grammarId": "n2-196",
+          "baseExpression": "～上（じょう）",
+          "conjugatedExpression": "上",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ことは読んだが」는 '~하기는 하지만'라는 뜻이다. 앞 사실을 인정하면서 뒤에서 제한이나 반대 내용을 덧붙임.",
+      "sourceGrammarIds": [
+        "n2-208",
+        "n2-194",
+        "n2-195",
+        "n2-196"
+      ],
+      "tags": [
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-208-01",
+      "level": "N2",
+      "sentence": "この本は読んだことは読んだが、内容はよく覚えていない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "이 책을 읽기는 읽었지만 내용은 잘 기억나지 않는다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-208-01-p1",
+          "text": "この本は読んだ",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-208-01-p2",
+          "text": "ことは読んだが、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-208-01-p3",
+          "text": "内容はよく",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-208-01-p4",
+          "text": "覚えていない。",
+          "order": 4
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-208-01-p1",
+        "so-created-n2-208-01-p2",
+        "so-created-n2-208-01-p3",
+        "so-created-n2-208-01-p4"
+      ],
+      "explanation": "「ことは読んだが」를 사용해 '~하기는 하지만'의 의미를 나타낸 문장이다. 앞 사실을 인정하면서 뒤에서 제한이나 반대 내용을 덧붙임.",
+      "sourceGrammarIds": [
+        "n2-208",
+        "n2-194",
+        "n2-195",
+        "n2-196"
+      ],
+      "tags": [
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

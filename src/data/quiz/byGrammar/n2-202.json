@@ -1,0 +1,112 @@
+{
+  "grammarId": "n2-202",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-202-01",
+      "level": "N2",
+      "sentence": "今夜から明日の朝にかけて、大雨になるでしょう。",
+      "sentenceWithBlank": "今夜から明日の朝（　　　）、大雨になるでしょう。",
+      "korean": "오늘 밤부터 내일 아침에 걸쳐 큰비가 내릴 것입니다.",
+      "answerChoiceId": "fb-created-n2-202-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-202-01-c",
+          "text": "やいなや",
+          "grammarId": "n2-199",
+          "baseExpression": "やいなや",
+          "conjugatedExpression": "やいなや",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-202-01-d",
+          "text": "そばから",
+          "grammarId": "n2-200",
+          "baseExpression": "そばから",
+          "conjugatedExpression": "そばから",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-202-01-a",
+          "text": "にかけて",
+          "grammarId": "n2-202",
+          "baseExpression": "～から～にかけて",
+          "conjugatedExpression": "にかけて",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-202-01-b",
+          "text": "うちに",
+          "grammarId": "n2-197",
+          "baseExpression": "うちに / ないうちに",
+          "conjugatedExpression": "うちに",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「にかけて」는 '~부터 ~에 걸쳐'라는 뜻이다. 시간이나 장소의 대략적인 범위를 나타냄. 경계가 엄밀하지 않음.",
+      "sourceGrammarIds": [
+        "n2-202",
+        "n2-197",
+        "n2-199",
+        "n2-200"
+      ],
+      "tags": [
+        "시간",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-202-01",
+      "level": "N2",
+      "sentence": "今夜から明日の朝にかけて、大雨になるでしょう。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "오늘 밤부터 내일 아침에 걸쳐 큰비가 내릴 것입니다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-202-01-p3",
+          "text": "にかけて、",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-202-01-p4",
+          "text": "大雨になるでしょう。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-202-01-p1",
+          "text": "今夜から",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-202-01-p2",
+          "text": "明日の朝",
+          "order": 2
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-202-01-p1",
+        "so-created-n2-202-01-p2",
+        "so-created-n2-202-01-p3",
+        "so-created-n2-202-01-p4"
+      ],
+      "explanation": "「にかけて」를 사용해 '~부터 ~에 걸쳐'의 의미를 나타낸 문장이다. 시간이나 장소의 대략적인 범위를 나타냄. 경계가 엄밀하지 않음.",
+      "sourceGrammarIds": [
+        "n2-202",
+        "n2-197",
+        "n2-199",
+        "n2-200"
+      ],
+      "tags": [
+        "시간",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

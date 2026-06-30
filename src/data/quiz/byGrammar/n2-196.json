@@ -1,0 +1,112 @@
+{
+  "grammarId": "n2-196",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-196-01",
+      "level": "N2",
+      "sentence": "この建物は法律上の問題がある。",
+      "sentenceWithBlank": "この建物は法律（　　　）の問題がある。",
+      "korean": "이 건물은 법률상의 문제가 있다.",
+      "answerChoiceId": "fb-created-n2-196-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-196-01-a",
+          "text": "上",
+          "grammarId": "n2-196",
+          "baseExpression": "～上（じょう）",
+          "conjugatedExpression": "上",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-196-01-b",
+          "text": "にすれば",
+          "grammarId": "n2-201",
+          "baseExpression": "にすれば",
+          "conjugatedExpression": "にすれば",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-196-01-c",
+          "text": "として",
+          "grammarId": "n2-232",
+          "baseExpression": "として",
+          "conjugatedExpression": "として",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-196-01-d",
+          "text": "において",
+          "grammarId": "n2-235",
+          "baseExpression": "において / における",
+          "conjugatedExpression": "において",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「上」는 '~상, ~의 측면에서'라는 뜻이다. 제도·법률·계산·이론 등 특정 관점이나 분야를 나타내는 문어적 표현.",
+      "sourceGrammarIds": [
+        "n2-196",
+        "n2-201",
+        "n2-232",
+        "n2-235"
+      ],
+      "tags": [
+        "관점",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-196-01",
+      "level": "N2",
+      "sentence": "この建物は法律上の問題がある。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "이 건물은 법률상의 문제가 있다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-196-01-p1",
+          "text": "この",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-196-01-p2",
+          "text": "建物は",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-196-01-p3",
+          "text": "法律上の",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-196-01-p4",
+          "text": "問題がある。",
+          "order": 4
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-196-01-p1",
+        "so-created-n2-196-01-p2",
+        "so-created-n2-196-01-p3",
+        "so-created-n2-196-01-p4"
+      ],
+      "explanation": "「上」를 사용해 '~상, ~의 측면에서'의 의미를 나타낸 문장이다. 제도·법률·계산·이론 등 특정 관점이나 분야를 나타내는 문어적 표현.",
+      "sourceGrammarIds": [
+        "n2-196",
+        "n2-201",
+        "n2-232",
+        "n2-235"
+      ],
+      "tags": [
+        "관점",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

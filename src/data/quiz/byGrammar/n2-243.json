@@ -1,0 +1,112 @@
+{
+  "grammarId": "n2-243",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-243-01",
+      "level": "N2",
+      "sentence": "私にとって、家族は最も大切な存在だ。",
+      "sentenceWithBlank": "私（　　　）、家族は最も大切な存在だ。",
+      "korean": "나에게 가족은 가장 소중한 존재다.",
+      "answerChoiceId": "fb-created-n2-243-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-243-01-d",
+          "text": "として",
+          "grammarId": "n2-232",
+          "baseExpression": "として",
+          "conjugatedExpression": "として",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-243-01-a",
+          "text": "にとって",
+          "grammarId": "n2-243",
+          "baseExpression": "にとって（は）",
+          "conjugatedExpression": "にとって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-243-01-b",
+          "text": "上",
+          "grammarId": "n2-196",
+          "baseExpression": "～上（じょう）",
+          "conjugatedExpression": "上",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-243-01-c",
+          "text": "にすれば",
+          "grammarId": "n2-201",
+          "baseExpression": "にすれば",
+          "conjugatedExpression": "にすれば",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「にとって」는 '~에게 있어서는, ~의 입장에서는'라는 뜻이다. 특정 대상의 관점에서 가치·평가·중요성을 말함.",
+      "sourceGrammarIds": [
+        "n2-243",
+        "n2-196",
+        "n2-201",
+        "n2-232"
+      ],
+      "tags": [
+        "관점",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-243-01",
+      "level": "N2",
+      "sentence": "私にとって、家族は最も大切な存在だ。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "나에게 가족은 가장 소중한 존재다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-243-01-p4",
+          "text": "存在だ。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-243-01-p1",
+          "text": "私にとって、",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-243-01-p2",
+          "text": "家族は",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-243-01-p3",
+          "text": "最も大切な",
+          "order": 3
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-243-01-p1",
+        "so-created-n2-243-01-p2",
+        "so-created-n2-243-01-p3",
+        "so-created-n2-243-01-p4"
+      ],
+      "explanation": "「にとって」를 사용해 '~에게 있어서는, ~의 입장에서는'의 의미를 나타낸 문장이다. 특정 대상의 관점에서 가치·평가·중요성을 말함.",
+      "sourceGrammarIds": [
+        "n2-243",
+        "n2-196",
+        "n2-201",
+        "n2-232"
+      ],
+      "tags": [
+        "관점",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

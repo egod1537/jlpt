@@ -1,9 +1,11 @@
-import type { ReactNode } from "react";
+import { PureComponent, type ReactNode } from "react";
 
 interface MainLayoutProps {
   children: ReactNode;
 }
 
-export function MainLayout({ children }: MainLayoutProps) {
-  return <main className="main-layout">{children}</main>;
+export class MainLayout extends PureComponent<MainLayoutProps> {
+  render() {
+    return <main className="main-layout">{this.props.children}</main>;
+  }
 }

@@ -1,0 +1,112 @@
+{
+  "grammarId": "n2-218",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-218-01",
+      "level": "N2",
+      "sentence": "たとえ失敗したとしても、もう一度挑戦する。",
+      "sentenceWithBlank": "たとえ失敗した（　　　）、もう一度挑戦する。",
+      "korean": "설령 실패한다고 해도 다시 한번 도전하겠다.",
+      "answerChoiceId": "fb-created-n2-218-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-218-01-c",
+          "text": "だろうに",
+          "grammarId": "n2-220",
+          "baseExpression": "～たら（ば）～だろう（に）",
+          "conjugatedExpression": "だろうに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-218-01-d",
+          "text": "一方だ",
+          "grammarId": "n2-194",
+          "baseExpression": "一方だ",
+          "conjugatedExpression": "一方だ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-218-01-a",
+          "text": "としても",
+          "grammarId": "n2-218",
+          "baseExpression": "たとえ～としても",
+          "conjugatedExpression": "としても",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-218-01-b",
+          "text": "としたら",
+          "grammarId": "n2-219",
+          "baseExpression": "もし～としたら",
+          "conjugatedExpression": "としたら",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「としても」는 '설령 ~라고 해도'라는 뜻이다. 극단적인 가정을 인정해도 뒤의 결론은 변하지 않음.",
+      "sourceGrammarIds": [
+        "n2-218",
+        "n2-219",
+        "n2-220",
+        "n2-194"
+      ],
+      "tags": [
+        "가정",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-218-01",
+      "level": "N2",
+      "sentence": "たとえ失敗したとしても、もう一度挑戦する。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "설령 실패한다고 해도 다시 한번 도전하겠다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-218-01-p3",
+          "text": "もう一度",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-218-01-p4",
+          "text": "挑戦する。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-218-01-p1",
+          "text": "たとえ失敗した",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-218-01-p2",
+          "text": "としても、",
+          "order": 2
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-218-01-p1",
+        "so-created-n2-218-01-p2",
+        "so-created-n2-218-01-p3",
+        "so-created-n2-218-01-p4"
+      ],
+      "explanation": "「としても」를 사용해 '설령 ~라고 해도'의 의미를 나타낸 문장이다. 극단적인 가정을 인정해도 뒤의 결론은 변하지 않음.",
+      "sourceGrammarIds": [
+        "n2-218",
+        "n2-219",
+        "n2-220",
+        "n2-194"
+      ],
+      "tags": [
+        "가정",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

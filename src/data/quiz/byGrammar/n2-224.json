@@ -1,0 +1,112 @@
+{
+  "grammarId": "n2-224",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-224-01",
+      "level": "N2",
+      "sentence": "明日の試験が心配でしょうがない。",
+      "sentenceWithBlank": "明日の試験が心配（　　　）。",
+      "korean": "내일 시험이 걱정되어 견딜 수 없다.",
+      "answerChoiceId": "fb-created-n2-224-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-224-01-a",
+          "text": "でしょうがない",
+          "grammarId": "n2-224",
+          "baseExpression": "てしょうがない / てしかたがない",
+          "conjugatedExpression": "でしょうがない",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-224-01-b",
+          "text": "を込めて",
+          "grammarId": "n2-255",
+          "baseExpression": "を込めて",
+          "conjugatedExpression": "を込めて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-224-01-c",
+          "text": "一方だ",
+          "grammarId": "n2-194",
+          "baseExpression": "一方だ",
+          "conjugatedExpression": "一方だ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-224-01-d",
+          "text": "上に",
+          "grammarId": "n2-195",
+          "baseExpression": "上に",
+          "conjugatedExpression": "上に",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「でしょうがない」는 '너무 ~해서 견딜 수 없다'라는 뜻이다. 감정·감각이 매우 강해 통제하기 어려움.",
+      "sourceGrammarIds": [
+        "n2-224",
+        "n2-255",
+        "n2-194",
+        "n2-195"
+      ],
+      "tags": [
+        "감정",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-224-01",
+      "level": "N2",
+      "sentence": "明日の試験が心配でしょうがない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "내일 시험이 걱정되어 견딜 수 없다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-224-01-p1",
+          "text": "明日の",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-224-01-p2",
+          "text": "試験が",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-224-01-p3",
+          "text": "心配",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-224-01-p4",
+          "text": "でしょうがない。",
+          "order": 4
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-224-01-p1",
+        "so-created-n2-224-01-p2",
+        "so-created-n2-224-01-p3",
+        "so-created-n2-224-01-p4"
+      ],
+      "explanation": "「でしょうがない」를 사용해 '너무 ~해서 견딜 수 없다'의 의미를 나타낸 문장이다. 감정·감각이 매우 강해 통제하기 어려움.",
+      "sourceGrammarIds": [
+        "n2-224",
+        "n2-255",
+        "n2-194",
+        "n2-195"
+      ],
+      "tags": [
+        "감정",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

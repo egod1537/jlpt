@@ -1,0 +1,112 @@
+{
+  "grammarId": "n2-203",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-203-01",
+      "level": "N2",
+      "sentence": "私が料理する代わりに、あなたは皿を洗ってください。",
+      "sentenceWithBlank": "私が料理する（　　　）、あなたは皿を洗ってください。",
+      "korean": "내가 요리하는 대신 당신은 설거지를 해 주세요.",
+      "answerChoiceId": "fb-created-n2-203-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-203-01-d",
+          "text": "上に",
+          "grammarId": "n2-195",
+          "baseExpression": "上に",
+          "conjugatedExpression": "上に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-203-01-a",
+          "text": "代わりに",
+          "grammarId": "n2-203",
+          "baseExpression": "代わりに",
+          "conjugatedExpression": "代わりに",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-203-01-b",
+          "text": "に代わって",
+          "grammarId": "n2-204",
+          "baseExpression": "に代わって",
+          "conjugatedExpression": "に代わって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-203-01-c",
+          "text": "一方だ",
+          "grammarId": "n2-194",
+          "baseExpression": "一方だ",
+          "conjugatedExpression": "一方だ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「代わりに」는 '~하는 대신에, ~을 대신하여'라는 뜻이다. 교환·대체·보상의 관계를 나타냄.",
+      "sourceGrammarIds": [
+        "n2-203",
+        "n2-204",
+        "n2-194",
+        "n2-195"
+      ],
+      "tags": [
+        "대체",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-203-01",
+      "level": "N2",
+      "sentence": "私が料理する代わりに、あなたは皿を洗ってください。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "내가 요리하는 대신 당신은 설거지를 해 주세요.",
+      "pieces": [
+        {
+          "id": "so-created-n2-203-01-p4",
+          "text": "洗ってください。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-203-01-p1",
+          "text": "私が料理する",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-203-01-p2",
+          "text": "代わりに、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-203-01-p3",
+          "text": "あなたは皿を",
+          "order": 3
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-203-01-p1",
+        "so-created-n2-203-01-p2",
+        "so-created-n2-203-01-p3",
+        "so-created-n2-203-01-p4"
+      ],
+      "explanation": "「代わりに」를 사용해 '~하는 대신에, ~을 대신하여'의 의미를 나타낸 문장이다. 교환·대체·보상의 관계를 나타냄.",
+      "sourceGrammarIds": [
+        "n2-203",
+        "n2-204",
+        "n2-194",
+        "n2-195"
+      ],
+      "tags": [
+        "대체",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

@@ -5481,5 +5481,2697 @@ export const n2Grammar: GrammarItem[] = [
         "note": "'~까지, 심지어 ~까지'"
       }
     ]
+  },
+  {
+    "id": "n2-194",
+    "no": 194,
+    "noLabel": "194",
+    "level": "N2",
+    "expression": "一方だ",
+    "connection": "V辞書形+一方だ",
+    "meaningKo": "계속 ~하기만 하다, 점점 ~해 가다",
+    "nuanceKo": "변화가 한 방향으로 계속 진행됨. 대체로 부정적인 변화에 자주 사용.",
+    "register": "중립",
+    "frequency": 2,
+    "similarGrammarIds": [
+      "n2-240",
+      "n2-242",
+      "n2-249"
+    ],
+    "similarExpressionNames": [
+      "に従って",
+      "につれて",
+      "～ば～ほど"
+    ],
+    "examples": [
+      {
+        "id": "n2-194-ex-1",
+        "japanese": "この町の人口は減る一方だ。",
+        "korean": "이 마을의 인구는 계속 줄어들기만 한다."
+      }
+    ],
+    "tags": [
+      "변화",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "一方だ",
+        "text": "一方だ",
+        "requiredContext": "V辞書形 + 一方だ",
+        "note": "변화가 한 방향으로 계속 진행됨. 대체로 부정적인 변화에 자주 사용."
+      }
+    ]
+  },
+  {
+    "id": "n2-195",
+    "no": 195,
+    "noLabel": "195",
+    "level": "N2",
+    "expression": "上に",
+    "connection": "普通形+上に / なAな・である+上に / Nの・である+上に",
+    "meaningKo": "~한 데다가, ~뿐만 아니라",
+    "nuanceKo": "같은 방향의 특징이나 사정을 하나 더 덧붙임.",
+    "register": "중립",
+    "frequency": 3,
+    "similarGrammarIds": [
+      "n2-250"
+    ],
+    "similarExpressionNames": [
+      "はもちろん"
+    ],
+    "examples": [
+      {
+        "id": "n2-195-ex-1",
+        "japanese": "この店は料理がおいしい上に、値段も安い。",
+        "korean": "이 가게는 음식이 맛있는 데다가 가격도 싸다."
+      }
+    ],
+    "tags": [
+      "추가",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "上に",
+        "text": "上に",
+        "requiredContext": "普通形 + 上に / なAな・である + 上に / Nの・である + 上に",
+        "note": "같은 방향의 특징이나 사정을 하나 더 덧붙임."
+      }
+    ]
+  },
+  {
+    "id": "n2-196",
+    "no": 196,
+    "noLabel": "196",
+    "level": "N2",
+    "expression": "～上（じょう）",
+    "connection": "N+上",
+    "meaningKo": "~상, ~의 측면에서",
+    "nuanceKo": "제도·법률·계산·이론 등 특정 관점이나 분야를 나타내는 문어적 표현.",
+    "register": "문어체",
+    "frequency": 2,
+    "similarGrammarIds": [
+      "n2-201",
+      "n2-232",
+      "n2-235",
+      "n2-237"
+    ],
+    "similarExpressionNames": [
+      "にすれば",
+      "として",
+      "において / における",
+      "について"
+    ],
+    "examples": [
+      {
+        "id": "n2-196-ex-1",
+        "japanese": "この建物は法律上の問題がある。",
+        "korean": "이 건물은 법률상의 문제가 있다."
+      }
+    ],
+    "tags": [
+      "관점",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "～上（じょう）",
+        "text": "上",
+        "requiredContext": "N + 上",
+        "note": "제도·법률·계산·이론 등 특정 관점이나 분야를 나타내는 문어적 표현."
+      }
+    ]
+  },
+  {
+    "id": "n2-197",
+    "no": 197,
+    "noLabel": "197",
+    "level": "N2",
+    "expression": "うちに / ないうちに",
+    "connection": "V辞書形・Vている・Vない形+うちに / いA+うちに / なAな+うちに / Nの+うちに",
+    "meaningKo": "~하는 동안에, ~하기 전에",
+    "nuanceKo": "상태가 유지되는 동안 행동하거나, 변화가 생기기 전에 행동함.",
+    "register": "중립",
+    "frequency": 3,
+    "similarGrammarIds": [
+      "n2-199",
+      "n2-200",
+      "n2-202",
+      "n2-221"
+    ],
+    "similarExpressionNames": [
+      "やいなや",
+      "そばから",
+      "～から～にかけて",
+      "ついでに"
+    ],
+    "examples": [
+      {
+        "id": "n2-197-ex-1",
+        "japanese": "日本にいるうちに、京都を訪ねたい。",
+        "korean": "일본에 있는 동안 교토를 방문하고 싶다."
+      },
+      {
+        "id": "n2-197-ex-2",
+        "japanese": "忘れないうちに、メモしておこう。",
+        "korean": "잊기 전에 메모해 두자."
+      }
+    ],
+    "tags": [
+      "시간",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "うちに / ないうちに",
+        "text": "うちに",
+        "requiredContext": "V辞書形・Vている・Vない形 + うちに / いA + うちに / なAな + うちに / Nの + うちに",
+        "note": "상태가 유지되는 동안 행동하거나, 변화가 생기기 전에 행동함."
+      }
+    ]
+  },
+  {
+    "id": "n2-198",
+    "no": 198,
+    "noLabel": "198",
+    "level": "N2",
+    "expression": "おかげで / せいで",
+    "connection": "普通形+おかげで・せいで / なAな+おかげで・せいで / Nの+おかげで・せいで",
+    "meaningKo": "~덕분에 / ~탓에",
+    "nuanceKo": "おかげで는 좋은 결과의 원인, せいで는 나쁜 결과의 원인을 나타냄.",
+    "register": "중립",
+    "frequency": 3,
+    "similarGrammarIds": [
+      "n2-207",
+      "n2-234",
+      "n2-246"
+    ],
+    "similarExpressionNames": [
+      "ことから",
+      "とみえて",
+      "によると / によれば"
+    ],
+    "examples": [
+      {
+        "id": "n2-198-ex-1",
+        "japanese": "先生のおかげで、試験に合格できた。",
+        "korean": "선생님 덕분에 시험에 합격할 수 있었다."
+      },
+      {
+        "id": "n2-198-ex-2",
+        "japanese": "電車が遅れたせいで、会議に遅刻した。",
+        "korean": "전철이 늦은 탓에 회의에 지각했다."
+      }
+    ],
+    "tags": [
+      "원인",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "おかげで / せいで",
+        "text": "おかげで",
+        "requiredContext": "普通形 + おかげで・せいで / なAな + おかげで・せいで / Nの + おかげで・せいで",
+        "note": "おかげで는 좋은 결과의 원인, せいで는 나쁜 결과의 원인을 나타냄."
+      }
+    ]
+  },
+  {
+    "id": "n2-199",
+    "no": 199,
+    "noLabel": "199",
+    "level": "N2",
+    "expression": "やいなや",
+    "connection": "V辞書形+やいなや",
+    "meaningKo": "~하자마자",
+    "nuanceKo": "앞 동작 직후 거의 동시에 다음 일이 일어남. 문어적이고 속도감이 강함.",
+    "register": "문어체",
+    "frequency": 2,
+    "similarGrammarIds": [
+      "n2-197",
+      "n2-200",
+      "n2-202",
+      "n2-221"
+    ],
+    "similarExpressionNames": [
+      "うちに / ないうちに",
+      "そばから",
+      "～から～にかけて",
+      "ついでに"
+    ],
+    "examples": [
+      {
+        "id": "n2-199-ex-1",
+        "japanese": "ベルが鳴るやいなや、学生たちは教室を飛び出した。",
+        "korean": "벨이 울리자마자 학생들은 교실을 뛰쳐나갔다."
+      }
+    ],
+    "tags": [
+      "시간",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "やいなや",
+        "text": "やいなや",
+        "requiredContext": "V辞書形 + やいなや",
+        "note": "앞 동작 직후 거의 동시에 다음 일이 일어남. 문어적이고 속도감이 강함."
+      }
+    ]
+  },
+  {
+    "id": "n2-200",
+    "no": 200,
+    "noLabel": "200",
+    "level": "N2",
+    "expression": "そばから",
+    "connection": "V辞書形・Vた+そばから",
+    "meaningKo": "~하자마자 또, ~하는 족족",
+    "nuanceKo": "앞 행동을 해도 곧바로 원래 상태로 돌아가거나 같은 문제가 반복됨.",
+    "register": "중립",
+    "frequency": 2,
+    "similarGrammarIds": [
+      "n2-197",
+      "n2-199",
+      "n2-202",
+      "n2-221"
+    ],
+    "similarExpressionNames": [
+      "うちに / ないうちに",
+      "やいなや",
+      "～から～にかけて",
+      "ついでに"
+    ],
+    "examples": [
+      {
+        "id": "n2-200-ex-1",
+        "japanese": "覚えたそばから、単語を忘れてしまう。",
+        "korean": "외우는 족족 단어를 잊어버린다."
+      }
+    ],
+    "tags": [
+      "시간",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "そばから",
+        "text": "そばから",
+        "requiredContext": "V辞書形・Vた + そばから",
+        "note": "앞 행동을 해도 곧바로 원래 상태로 돌아가거나 같은 문제가 반복됨."
+      }
+    ]
+  },
+  {
+    "id": "n2-201",
+    "no": 201,
+    "noLabel": "201",
+    "level": "N2",
+    "expression": "にすれば",
+    "connection": "N+にすれば",
+    "meaningKo": "~입장에서 보면",
+    "nuanceKo": "특정 사람이나 집단의 입장에서 판단함.",
+    "register": "중립",
+    "frequency": 2,
+    "similarGrammarIds": [
+      "n2-196",
+      "n2-232",
+      "n2-235",
+      "n2-237"
+    ],
+    "similarExpressionNames": [
+      "～上（じょう）",
+      "として",
+      "において / における",
+      "について"
+    ],
+    "examples": [
+      {
+        "id": "n2-201-ex-1",
+        "japanese": "親にすれば、子供の安全が何より大切だ。",
+        "korean": "부모 입장에서 보면 자녀의 안전이 무엇보다 중요하다."
+      }
+    ],
+    "tags": [
+      "관점",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "にすれば",
+        "text": "にすれば",
+        "requiredContext": "N + にすれば",
+        "note": "특정 사람이나 집단의 입장에서 판단함."
+      }
+    ]
+  },
+  {
+    "id": "n2-202",
+    "no": 202,
+    "noLabel": "202",
+    "level": "N2",
+    "expression": "～から～にかけて",
+    "connection": "N+から+N+にかけて",
+    "meaningKo": "~부터 ~에 걸쳐",
+    "nuanceKo": "시간이나 장소의 대략적인 범위를 나타냄. 경계가 엄밀하지 않음.",
+    "register": "중립",
+    "frequency": 2,
+    "similarGrammarIds": [
+      "n2-197",
+      "n2-199",
+      "n2-200",
+      "n2-221"
+    ],
+    "similarExpressionNames": [
+      "うちに / ないうちに",
+      "やいなや",
+      "そばから",
+      "ついでに"
+    ],
+    "examples": [
+      {
+        "id": "n2-202-ex-1",
+        "japanese": "今夜から明日の朝にかけて、大雨になるでしょう。",
+        "korean": "오늘 밤부터 내일 아침에 걸쳐 큰비가 내릴 것입니다."
+      }
+    ],
+    "tags": [
+      "시간",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "～から～にかけて",
+        "text": "にかけて",
+        "requiredContext": "N + から + N + にかけて",
+        "note": "시간이나 장소의 대략적인 범위를 나타냄. 경계가 엄밀하지 않음."
+      }
+    ]
+  },
+  {
+    "id": "n2-203",
+    "no": 203,
+    "noLabel": "203",
+    "level": "N2",
+    "expression": "代わりに",
+    "connection": "V普通形+代わりに / Nの+代わりに",
+    "meaningKo": "~하는 대신에, ~을 대신하여",
+    "nuanceKo": "교환·대체·보상의 관계를 나타냄.",
+    "register": "중립",
+    "frequency": 3,
+    "similarGrammarIds": [
+      "n2-204"
+    ],
+    "similarExpressionNames": [
+      "に代わって"
+    ],
+    "examples": [
+      {
+        "id": "n2-203-ex-1",
+        "japanese": "私が料理する代わりに、あなたは皿を洗ってください。",
+        "korean": "내가 요리하는 대신 당신은 설거지를 해 주세요."
+      }
+    ],
+    "tags": [
+      "대체",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "代わりに",
+        "text": "代わりに",
+        "requiredContext": "V普通形 + 代わりに / Nの + 代わりに",
+        "note": "교환·대체·보상의 관계를 나타냄."
+      }
+    ]
+  },
+  {
+    "id": "n2-204",
+    "no": 204,
+    "noLabel": "204",
+    "level": "N2",
+    "expression": "に代わって",
+    "connection": "N+に代わって",
+    "meaningKo": "~을 대신하여",
+    "nuanceKo": "사람·조직·기존 수단의 역할을 다른 대상이 대신함.",
+    "register": "중립",
+    "frequency": 2,
+    "similarGrammarIds": [
+      "n2-203"
+    ],
+    "similarExpressionNames": [
+      "代わりに"
+    ],
+    "examples": [
+      {
+        "id": "n2-204-ex-1",
+        "japanese": "社長に代わって、私がご挨拶申し上げます。",
+        "korean": "사장님을 대신하여 제가 인사 말씀을 드리겠습니다."
+      }
+    ],
+    "tags": [
+      "대체",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "に代わって",
+        "text": "に代わって",
+        "requiredContext": "N + に代わって",
+        "note": "사람·조직·기존 수단의 역할을 다른 대상이 대신함."
+      }
+    ]
+  },
+  {
+    "id": "n2-205",
+    "no": 205,
+    "noLabel": "205",
+    "level": "N2",
+    "expression": "気だ",
+    "connection": "V辞書形・Vない形+気だ",
+    "meaningKo": "~할 생각이다, ~할 작정이다",
+    "nuanceKo": "화자의 의도나 마음가짐을 나타냄.",
+    "register": "중립",
+    "frequency": 2,
+    "similarGrammarIds": [
+      "n2-211",
+      "n2-227"
+    ],
+    "similarExpressionNames": [
+      "ことにする",
+      "てみせる"
+    ],
+    "examples": [
+      {
+        "id": "n2-205-ex-1",
+        "japanese": "来年、日本へ留学する気だ。",
+        "korean": "내년에 일본으로 유학할 생각이다."
+      }
+    ],
+    "tags": [
+      "의지",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "気だ",
+        "text": "気だ",
+        "requiredContext": "V辞書形・Vない形 + 気だ",
+        "note": "화자의 의도나 마음가짐을 나타냄."
+      }
+    ]
+  },
+  {
+    "id": "n2-206",
+    "no": 206,
+    "noLabel": "206",
+    "level": "N2",
+    "expression": "こそ / こちらこそ / からこそ / ようこそ",
+    "connection": "N+こそ / 普通形+からこそ",
+    "meaningKo": "바로 ~야말로 / 저야말로 / ~이기 때문에야말로 / 어서 오세요",
+    "nuanceKo": "대상을 강하게 강조함. からこそ는 원인을 특별히 강조.",
+    "register": "중립",
+    "frequency": 3,
+    "similarGrammarIds": [
+      "n2-212",
+      "n2-213"
+    ],
+    "similarExpressionNames": [
+      "でさえ / すら",
+      "さえ～ば"
+    ],
+    "examples": [
+      {
+        "id": "n2-206-ex-1",
+        "japanese": "努力したからこそ、成功できたのだ。",
+        "korean": "노력했기 때문에야말로 성공할 수 있었던 것이다."
+      }
+    ],
+    "tags": [
+      "강조",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "こそ / こちらこそ / からこそ / ようこそ",
+        "text": "からこそ",
+        "requiredContext": "N + こそ / 普通形 + からこそ",
+        "note": "대상을 강하게 강조함. からこそ는 원인을 특별히 강조."
+      }
+    ]
+  },
+  {
+    "id": "n2-207",
+    "no": 207,
+    "noLabel": "207",
+    "level": "N2",
+    "expression": "ことから",
+    "connection": "普通形+ことから / Nである+ことから",
+    "meaningKo": "~라는 점에서, ~로 인해",
+    "nuanceKo": "판단·명칭·결론의 근거를 제시함.",
+    "register": "중립",
+    "frequency": 2,
+    "similarGrammarIds": [
+      "n2-198",
+      "n2-234",
+      "n2-246"
+    ],
+    "similarExpressionNames": [
+      "おかげで / せいで",
+      "とみえて",
+      "によると / によれば"
+    ],
+    "examples": [
+      {
+        "id": "n2-207-ex-1",
+        "japanese": "道が星の形をしていることから、この町は「星の町」と呼ばれている。",
+        "korean": "길이 별 모양을 하고 있다는 점에서 이 마을은 ‘별의 마을’이라고 불린다."
+      }
+    ],
+    "tags": [
+      "원인",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "ことから",
+        "text": "ことから",
+        "requiredContext": "普通形 + ことから / Nである + ことから",
+        "note": "판단·명칭·결론의 근거를 제시함."
+      }
+    ]
+  },
+  {
+    "id": "n2-208",
+    "no": 208,
+    "noLabel": "208",
+    "level": "N2",
+    "expression": "ことは～が",
+    "connection": "普通形+ことは+同じ語+が",
+    "meaningKo": "~하기는 하지만",
+    "nuanceKo": "앞 사실을 인정하면서 뒤에서 제한이나 반대 내용을 덧붙임.",
+    "register": "중립",
+    "frequency": 2,
+    "similarGrammarIds": [],
+    "similarExpressionNames": [],
+    "examples": [
+      {
+        "id": "n2-208-ex-1",
+        "japanese": "この本は読んだことは読んだが、内容はよく覚えていない。",
+        "korean": "이 책을 읽기는 읽었지만 내용은 잘 기억나지 않는다."
+      }
+    ],
+    "tags": [
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "ことは～が",
+        "text": "ことは読んだが",
+        "requiredContext": "普通形 + ことは + 同じ語 + が",
+        "note": "앞 사실을 인정하면서 뒤에서 제한이나 반대 내용을 덧붙임."
+      }
+    ]
+  },
+  {
+    "id": "n2-209",
+    "no": 209,
+    "noLabel": "209",
+    "level": "N2",
+    "expression": "ことはない",
+    "connection": "V辞書形+ことはない",
+    "meaningKo": "~할 필요는 없다",
+    "nuanceKo": "상대를 안심시키거나 불필요한 행동을 하지 말라고 조언함.",
+    "register": "중립",
+    "frequency": 3,
+    "similarGrammarIds": [
+      "n2-215"
+    ],
+    "similarExpressionNames": [
+      "しかない / ほかない"
+    ],
+    "examples": [
+      {
+        "id": "n2-209-ex-1",
+        "japanese": "そんなに心配することはない。",
+        "korean": "그렇게 걱정할 필요는 없다."
+      }
+    ],
+    "tags": [
+      "불필요",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "ことはない",
+        "text": "ことはない",
+        "requiredContext": "V辞書形 + ことはない",
+        "note": "상대를 안심시키거나 불필요한 행동을 하지 말라고 조언함."
+      }
+    ]
+  },
+  {
+    "id": "n2-210",
+    "no": 210,
+    "noLabel": "210",
+    "level": "N2",
+    "expression": "ことになる",
+    "connection": "V辞書形・Vない形+ことになる",
+    "meaningKo": "~하게 되다, ~하기로 정해지다",
+    "nuanceKo": "자신의 직접적인 의지보다 외부 결정이나 상황에 의해 정해짐.",
+    "register": "중립",
+    "frequency": 3,
+    "similarGrammarIds": [
+      "n2-211"
+    ],
+    "similarExpressionNames": [
+      "ことにする"
+    ],
+    "examples": [
+      {
+        "id": "n2-210-ex-1",
+        "japanese": "来月、大阪へ転勤することになった。",
+        "korean": "다음 달 오사카로 전근하게 되었다."
+      }
+    ],
+    "tags": [
+      "결정",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "ことになる",
+        "text": "ことになった",
+        "requiredContext": "V辞書形・Vない形 + ことになる",
+        "note": "자신의 직접적인 의지보다 외부 결정이나 상황에 의해 정해짐."
+      }
+    ]
+  },
+  {
+    "id": "n2-211",
+    "no": 211,
+    "noLabel": "211",
+    "level": "N2",
+    "expression": "ことにする",
+    "connection": "V辞書形・Vない形+ことにする",
+    "meaningKo": "~하기로 하다",
+    "nuanceKo": "화자가 스스로 결정한 내용을 나타냄.",
+    "register": "중립",
+    "frequency": 3,
+    "similarGrammarIds": [
+      "n2-205",
+      "n2-227",
+      "n2-210"
+    ],
+    "similarExpressionNames": [
+      "気だ",
+      "てみせる",
+      "ことになる"
+    ],
+    "examples": [
+      {
+        "id": "n2-211-ex-1",
+        "japanese": "毎朝30分走ることにした。",
+        "korean": "매일 아침 30분 달리기로 했다."
+      }
+    ],
+    "tags": [
+      "의지",
+      "결정",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "ことにする",
+        "text": "ことにした",
+        "requiredContext": "V辞書形・Vない形 + ことにする",
+        "note": "화자가 스스로 결정한 내용을 나타냄."
+      }
+    ]
+  },
+  {
+    "id": "n2-212",
+    "no": 212,
+    "noLabel": "212",
+    "level": "N2",
+    "expression": "でさえ / すら",
+    "connection": "N+でさえ / N+すら",
+    "meaningKo": "~조차, ~마저",
+    "nuanceKo": "극단적인 예를 들어 예상 밖임을 강조. すら가 더 문어적임.",
+    "register": "문어체",
+    "frequency": 2,
+    "similarGrammarIds": [
+      "n2-206",
+      "n2-213"
+    ],
+    "similarExpressionNames": [
+      "こそ / こちらこそ / からこそ / ようこそ",
+      "さえ～ば"
+    ],
+    "examples": [
+      {
+        "id": "n2-212-ex-1",
+        "japanese": "この問題は先生でさえ解けなかった。",
+        "korean": "이 문제는 선생님조차 풀지 못했다."
+      }
+    ],
+    "tags": [
+      "강조",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "でさえ / すら",
+        "text": "でさえ",
+        "requiredContext": "N + でさえ / N + すら",
+        "note": "극단적인 예를 들어 예상 밖임을 강조. すら가 더 문어적임."
+      }
+    ]
+  },
+  {
+    "id": "n2-213",
+    "no": 213,
+    "noLabel": "213",
+    "level": "N2",
+    "expression": "さえ～ば",
+    "connection": "N+さえ+条件形 / Vます形語幹+さえすれば",
+    "meaningKo": "~만 하면",
+    "nuanceKo": "그것 하나만 충족되면 충분하다는 최소 조건.",
+    "register": "중립",
+    "frequency": 2,
+    "similarGrammarIds": [
+      "n2-206",
+      "n2-212"
+    ],
+    "similarExpressionNames": [
+      "こそ / こちらこそ / からこそ / ようこそ",
+      "でさえ / すら"
+    ],
+    "examples": [
+      {
+        "id": "n2-213-ex-1",
+        "japanese": "時間さえあれば、旅行に行きたい。",
+        "korean": "시간만 있으면 여행을 가고 싶다."
+      }
+    ],
+    "tags": [
+      "강조",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "さえ～ば",
+        "text": "さえあれば",
+        "requiredContext": "N + さえ + 条件形 / Vます形語幹 + さえすれば",
+        "note": "그것 하나만 충족되면 충분하다는 최소 조건."
+      }
+    ]
+  },
+  {
+    "id": "n2-214",
+    "no": 214,
+    "noLabel": "214",
+    "level": "N2",
+    "expression": "させていただけませんか",
+    "connection": "V使役て形+いただけませんか",
+    "meaningKo": "제가 ~하게 해 주실 수 없겠습니까",
+    "nuanceKo": "상대의 허가를 매우 정중하게 구하는 겸양 표현.",
+    "register": "중립",
+    "frequency": 2,
+    "similarGrammarIds": [],
+    "similarExpressionNames": [],
+    "examples": [
+      {
+        "id": "n2-214-ex-1",
+        "japanese": "明日は少し早く帰らせていただけませんか。",
+        "korean": "내일은 조금 일찍 돌아가게 해 주실 수 없겠습니까?"
+      }
+    ],
+    "tags": [
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "させていただけませんか",
+        "text": "らせていただけませんか",
+        "requiredContext": "V使役て形 + いただけませんか",
+        "note": "상대의 허가를 매우 정중하게 구하는 겸양 표현."
+      }
+    ]
+  },
+  {
+    "id": "n2-215",
+    "no": 215,
+    "noLabel": "215",
+    "level": "N2",
+    "expression": "しかない / ほかない",
+    "connection": "V辞書形+しかない・ほかない",
+    "meaningKo": "~할 수밖에 없다",
+    "nuanceKo": "다른 선택이나 방법이 없음을 나타냄. ほかない가 더 문어적임.",
+    "register": "문어체",
+    "frequency": 3,
+    "similarGrammarIds": [
+      "n2-209"
+    ],
+    "similarExpressionNames": [
+      "ことはない"
+    ],
+    "examples": [
+      {
+        "id": "n2-215-ex-1",
+        "japanese": "電車が止まったので、歩いて帰るしかない。",
+        "korean": "전철이 멈췄으므로 걸어서 돌아갈 수밖에 없다."
+      }
+    ],
+    "tags": [
+      "불필요",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "しかない / ほかない",
+        "text": "しかない",
+        "requiredContext": "V辞書形 + しかない・ほかない",
+        "note": "다른 선택이나 방법이 없음을 나타냄. ほかない가 더 문어적임."
+      }
+    ]
+  },
+  {
+    "id": "n2-216",
+    "no": 216,
+    "noLabel": "216",
+    "level": "N2",
+    "expression": "だけのことはある",
+    "connection": "普通形+だけのことはある / N+だけのことはある",
+    "meaningKo": "과연 ~할 만하다, ~한 보람이 있다",
+    "nuanceKo": "노력·경력·가격 등에 걸맞은 결과가 있음을 긍정적으로 평가.",
+    "register": "중립",
+    "frequency": 2,
+    "similarGrammarIds": [
+      "n2-217",
+      "n2-236"
+    ],
+    "similarExpressionNames": [
+      "だけまし",
+      "に限る"
+    ],
+    "examples": [
+      {
+        "id": "n2-216-ex-1",
+        "japanese": "彼は十年間日本に住んでいただけのことはあって、日本語が上手だ。",
+        "korean": "그는 10년 동안 일본에 산 만큼 역시 일본어를 잘한다."
+      }
+    ],
+    "tags": [
+      "평가",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "だけのことはある",
+        "text": "だけのことはあって",
+        "requiredContext": "普通形 + だけのことはある / N + だけのことはある",
+        "note": "노력·경력·가격 등에 걸맞은 결과가 있음을 긍정적으로 평가."
+      }
+    ]
+  },
+  {
+    "id": "n2-217",
+    "no": 217,
+    "noLabel": "217",
+    "level": "N2",
+    "expression": "だけまし",
+    "connection": "普通形+だけましだ",
+    "meaningKo": "~한 것만으로도 낫다",
+    "nuanceKo": "좋지 않은 상황 중에서도 그나마 나은 점을 말함.",
+    "register": "중립",
+    "frequency": 2,
+    "similarGrammarIds": [
+      "n2-216",
+      "n2-236"
+    ],
+    "similarExpressionNames": [
+      "だけのことはある",
+      "に限る"
+    ],
+    "examples": [
+      {
+        "id": "n2-217-ex-1",
+        "japanese": "給料は安いが、仕事があるだけましだ。",
+        "korean": "월급은 적지만 일이 있는 것만으로도 낫다."
+      }
+    ],
+    "tags": [
+      "평가",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "だけまし",
+        "text": "だけましだ",
+        "requiredContext": "普通形 + だけましだ",
+        "note": "좋지 않은 상황 중에서도 그나마 나은 점을 말함."
+      }
+    ]
+  },
+  {
+    "id": "n2-218",
+    "no": 218,
+    "noLabel": "218",
+    "level": "N2",
+    "expression": "たとえ～としても",
+    "connection": "たとえ+普通形+としても",
+    "meaningKo": "설령 ~라고 해도",
+    "nuanceKo": "극단적인 가정을 인정해도 뒤의 결론은 변하지 않음.",
+    "register": "중립",
+    "frequency": 3,
+    "similarGrammarIds": [
+      "n2-219",
+      "n2-220"
+    ],
+    "similarExpressionNames": [
+      "もし～としたら",
+      "～たら（ば）～だろう（に）"
+    ],
+    "examples": [
+      {
+        "id": "n2-218-ex-1",
+        "japanese": "たとえ失敗したとしても、もう一度挑戦する。",
+        "korean": "설령 실패한다고 해도 다시 한번 도전하겠다."
+      }
+    ],
+    "tags": [
+      "가정",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "たとえ～としても",
+        "text": "としても",
+        "requiredContext": "たとえ + 普通形 + としても",
+        "note": "극단적인 가정을 인정해도 뒤의 결론은 변하지 않음."
+      }
+    ]
+  },
+  {
+    "id": "n2-219",
+    "no": 219,
+    "noLabel": "219",
+    "level": "N2",
+    "expression": "もし～としたら",
+    "connection": "もし+普通形+としたら",
+    "meaningKo": "만약 ~라고 한다면",
+    "nuanceKo": "현실과 다르거나 불확실한 상황을 가정함.",
+    "register": "중립",
+    "frequency": 2,
+    "similarGrammarIds": [
+      "n2-218",
+      "n2-220"
+    ],
+    "similarExpressionNames": [
+      "たとえ～としても",
+      "～たら（ば）～だろう（に）"
+    ],
+    "examples": [
+      {
+        "id": "n2-219-ex-1",
+        "japanese": "もし一億円当たったとしたら、何に使いますか。",
+        "korean": "만약 1억 엔에 당첨된다면 무엇에 쓰겠습니까?"
+      }
+    ],
+    "tags": [
+      "가정",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "もし～としたら",
+        "text": "としたら",
+        "requiredContext": "もし + 普通形 + としたら",
+        "note": "현실과 다르거나 불확실한 상황을 가정함."
+      }
+    ]
+  },
+  {
+    "id": "n2-220",
+    "no": 220,
+    "noLabel": "220",
+    "level": "N2",
+    "expression": "～たら（ば）～だろう（に）",
+    "connection": "条件形+だろう（に）",
+    "meaningKo": "~하면 ~할 텐데, ~했더라면 ~했을 텐데",
+    "nuanceKo": "가정에 따른 예상이나 현실과 다른 결과에 대한 아쉬움을 나타냄.",
+    "register": "중립",
+    "frequency": 2,
+    "similarGrammarIds": [
+      "n2-218",
+      "n2-219"
+    ],
+    "similarExpressionNames": [
+      "たとえ～としても",
+      "もし～としたら"
+    ],
+    "examples": [
+      {
+        "id": "n2-220-ex-1",
+        "japanese": "もっと早く出発していたら、間に合っただろうに。",
+        "korean": "좀 더 일찍 출발했더라면 시간에 맞았을 텐데."
+      }
+    ],
+    "tags": [
+      "가정",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "～たら（ば）～だろう（に）",
+        "text": "だろうに",
+        "requiredContext": "条件形 + だろう（に）",
+        "note": "가정에 따른 예상이나 현실과 다른 결과에 대한 아쉬움을 나타냄."
+      }
+    ]
+  },
+  {
+    "id": "n2-221",
+    "no": 221,
+    "noLabel": "221",
+    "level": "N2",
+    "expression": "ついでに",
+    "connection": "V辞書形・Vた+ついでに / Nの+ついでに",
+    "meaningKo": "~하는 김에",
+    "nuanceKo": "주된 행동을 하는 기회에 부수적인 행동도 함께 함.",
+    "register": "중립",
+    "frequency": 3,
+    "similarGrammarIds": [
+      "n2-197",
+      "n2-199",
+      "n2-200",
+      "n2-202"
+    ],
+    "similarExpressionNames": [
+      "うちに / ないうちに",
+      "やいなや",
+      "そばから",
+      "～から～にかけて"
+    ],
+    "examples": [
+      {
+        "id": "n2-221-ex-1",
+        "japanese": "銀行へ行くついでに、郵便局にも寄った。",
+        "korean": "은행에 가는 김에 우체국에도 들렀다."
+      }
+    ],
+    "tags": [
+      "시간",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "ついでに",
+        "text": "ついでに",
+        "requiredContext": "V辞書形・Vた + ついでに / Nの + ついでに",
+        "note": "주된 행동을 하는 기회에 부수적인 행동도 함께 함."
+      }
+    ]
+  },
+  {
+    "id": "n2-222",
+    "no": 222,
+    "noLabel": "222",
+    "level": "N2",
+    "expression": "がてら",
+    "connection": "Vます形語幹+がてら / N+がてら",
+    "meaningKo": "~하는 겸, ~할 겸",
+    "nuanceKo": "하나의 행동에 두 가지 목적을 겸함. 다소 문어적임.",
+    "register": "문어체",
+    "frequency": 2,
+    "similarGrammarIds": [
+      "n2-197",
+      "n2-199",
+      "n2-200",
+      "n2-202"
+    ],
+    "similarExpressionNames": [
+      "うちに / ないうちに",
+      "やいなや",
+      "そばから",
+      "～から～にかけて"
+    ],
+    "examples": [
+      {
+        "id": "n2-222-ex-1",
+        "japanese": "散歩がてら、近くの店まで買い物に行った。",
+        "korean": "산책 겸 근처 가게까지 쇼핑하러 갔다."
+      }
+    ],
+    "tags": [
+      "시간",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "がてら",
+        "text": "がてら",
+        "requiredContext": "Vます形語幹 + がてら / N + がてら",
+        "note": "하나의 행동에 두 가지 목적을 겸함. 다소 문어적임."
+      }
+    ]
+  },
+  {
+    "id": "n2-223",
+    "no": 223,
+    "noLabel": "223",
+    "level": "N2",
+    "expression": "てからでないと / てからでなければ",
+    "connection": "Vて+からでないと・からでなければ",
+    "meaningKo": "~한 후가 아니면",
+    "nuanceKo": "앞 행동이 완료되어야 뒤 행동이 가능하다는 필수 순서.",
+    "register": "중립",
+    "frequency": 2,
+    "similarGrammarIds": [
+      "n2-197",
+      "n2-199",
+      "n2-200",
+      "n2-202"
+    ],
+    "similarExpressionNames": [
+      "うちに / ないうちに",
+      "やいなや",
+      "そばから",
+      "～から～にかけて"
+    ],
+    "examples": [
+      {
+        "id": "n2-223-ex-1",
+        "japanese": "実物を見てからでないと、買うかどうか決められない。",
+        "korean": "실물을 본 후가 아니면 살지 결정할 수 없다."
+      }
+    ],
+    "tags": [
+      "시간",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "てからでないと / てからでなければ",
+        "text": "てからでないと",
+        "requiredContext": "Vて + からでないと・からでなければ",
+        "note": "앞 행동이 완료되어야 뒤 행동이 가능하다는 필수 순서."
+      }
+    ]
+  },
+  {
+    "id": "n2-224",
+    "no": 224,
+    "noLabel": "224",
+    "level": "N2",
+    "expression": "てしょうがない / てしかたがない",
+    "connection": "Vて+しょうがない・しかたがない / いAくて+しょうがない・しかたがない / なAで+しょうがない・しかたがない",
+    "meaningKo": "너무 ~해서 견딜 수 없다",
+    "nuanceKo": "감정·감각이 매우 강해 통제하기 어려움.",
+    "register": "중립",
+    "frequency": 2,
+    "similarGrammarIds": [
+      "n2-255"
+    ],
+    "similarExpressionNames": [
+      "を込めて"
+    ],
+    "examples": [
+      {
+        "id": "n2-224-ex-1",
+        "japanese": "明日の試験が心配でしょうがない。",
+        "korean": "내일 시험이 걱정되어 견딜 수 없다."
+      }
+    ],
+    "tags": [
+      "감정",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "てしょうがない / てしかたがない",
+        "text": "でしょうがない",
+        "requiredContext": "Vて + しょうがない・しかたがない / いAくて + しょうがない・しかたがない / なAで + しょうがない・しかたがない",
+        "note": "감정·감각이 매우 강해 통제하기 어려움."
+      }
+    ]
+  },
+  {
+    "id": "n2-225",
+    "no": 225,
+    "noLabel": "225",
+    "level": "N2",
+    "expression": "てはじめて",
+    "connection": "Vて+はじめて",
+    "meaningKo": "~하고 나서야 비로소",
+    "nuanceKo": "앞 경험이나 조건을 거친 뒤 처음으로 깨닫거나 가능해짐.",
+    "register": "중립",
+    "frequency": 2,
+    "similarGrammarIds": [
+      "n2-197",
+      "n2-199",
+      "n2-200",
+      "n2-202"
+    ],
+    "similarExpressionNames": [
+      "うちに / ないうちに",
+      "やいなや",
+      "そばから",
+      "～から～にかけて"
+    ],
+    "examples": [
+      {
+        "id": "n2-225-ex-1",
+        "japanese": "一人暮らしをしてはじめて、親のありがたさが分かった。",
+        "korean": "혼자 살아 보고 나서야 비로소 부모님의 고마움을 알았다."
+      }
+    ],
+    "tags": [
+      "시간",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "てはじめて",
+        "text": "てはじめて",
+        "requiredContext": "Vて + はじめて",
+        "note": "앞 경험이나 조건을 거친 뒤 처음으로 깨닫거나 가능해짐."
+      }
+    ]
+  },
+  {
+    "id": "n2-226",
+    "no": 226,
+    "noLabel": "226",
+    "level": "N2",
+    "expression": "手前",
+    "connection": "Vた+手前 / Nの+手前",
+    "meaningKo": "~한 이상, ~체면상",
+    "nuanceKo": "남에게 말하거나 약속한 체면 때문에 행동하지 않을 수 없음.",
+    "register": "중립",
+    "frequency": 2,
+    "similarGrammarIds": [],
+    "similarExpressionNames": [],
+    "examples": [
+      {
+        "id": "n2-226-ex-1",
+        "japanese": "皆の前で約束した手前、途中でやめるわけにはいかない。",
+        "korean": "모두 앞에서 약속한 이상 중간에 그만둘 수는 없다."
+      }
+    ],
+    "tags": [
+      "책임",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "手前",
+        "text": "手前",
+        "requiredContext": "Vた + 手前 / Nの + 手前",
+        "note": "남에게 말하거나 약속한 체면 때문에 행동하지 않을 수 없음."
+      }
+    ]
+  },
+  {
+    "id": "n2-227",
+    "no": 227,
+    "noLabel": "227",
+    "level": "N2",
+    "expression": "てみせる",
+    "connection": "Vて+みせる",
+    "meaningKo": "반드시 ~해 보이겠다",
+    "nuanceKo": "강한 결의나 자신감을 나타냄. 실제로 보여 주겠다는 느낌.",
+    "register": "중립",
+    "frequency": 2,
+    "similarGrammarIds": [
+      "n2-205",
+      "n2-211"
+    ],
+    "similarExpressionNames": [
+      "気だ",
+      "ことにする"
+    ],
+    "examples": [
+      {
+        "id": "n2-227-ex-1",
+        "japanese": "今度こそ必ず優勝してみせる。",
+        "korean": "이번에야말로 반드시 우승해 보이겠다."
+      }
+    ],
+    "tags": [
+      "의지",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "てみせる",
+        "text": "てみせる",
+        "requiredContext": "Vて + みせる",
+        "note": "강한 결의나 자신감을 나타냄. 실제로 보여 주겠다는 느낌."
+      }
+    ]
+  },
+  {
+    "id": "n2-228",
+    "no": 228,
+    "noLabel": "228",
+    "level": "N2",
+    "expression": "というか",
+    "connection": "普通形+というか / N+というか",
+    "meaningKo": "~라고 할까, 아니 ~라고 해야 할까",
+    "nuanceKo": "앞 표현을 정정하거나 더 적절한 표현으로 바꿈.",
+    "register": "중립",
+    "frequency": 3,
+    "similarGrammarIds": [
+      "n2-229",
+      "n2-230",
+      "n2-231",
+      "n2-233"
+    ],
+    "similarExpressionNames": [
+      "ということだ",
+      "というより",
+      "といっても",
+      "というのは"
+    ],
+    "examples": [
+      {
+        "id": "n2-228-ex-1",
+        "japanese": "彼は親切というか、おせっかいというか、よく人の世話をする。",
+        "korean": "그는 친절하다고 할까 오지랖이 넓다고 할까, 남을 자주 돌본다."
+      }
+    ],
+    "tags": [
+      "설명",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "というか",
+        "text": "というか",
+        "requiredContext": "普通形 + というか / N + というか",
+        "note": "앞 표현을 정정하거나 더 적절한 표현으로 바꿈."
+      }
+    ]
+  },
+  {
+    "id": "n2-229",
+    "no": 229,
+    "noLabel": "229",
+    "level": "N2",
+    "expression": "ということだ",
+    "connection": "普通形+ということだ",
+    "meaningKo": "~라고 한다, ~라는 뜻이다",
+    "nuanceKo": "전달받은 정보 또는 앞 내용에서 도출되는 의미를 설명함.",
+    "register": "중립",
+    "frequency": 3,
+    "similarGrammarIds": [
+      "n2-228",
+      "n2-230",
+      "n2-231",
+      "n2-233"
+    ],
+    "similarExpressionNames": [
+      "というか",
+      "というより",
+      "といっても",
+      "というのは"
+    ],
+    "examples": [
+      {
+        "id": "n2-229-ex-1",
+        "japanese": "天気予報によると、明日は雪が降るということだ。",
+        "korean": "일기예보에 따르면 내일은 눈이 온다고 한다."
+      }
+    ],
+    "tags": [
+      "설명",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "ということだ",
+        "text": "ということだ",
+        "requiredContext": "普通形 + ということだ",
+        "note": "전달받은 정보 또는 앞 내용에서 도출되는 의미를 설명함."
+      }
+    ]
+  },
+  {
+    "id": "n2-230",
+    "no": 230,
+    "noLabel": "230",
+    "level": "N2",
+    "expression": "というより",
+    "connection": "普通形+というより / N+というより",
+    "meaningKo": "~라기보다",
+    "nuanceKo": "앞 표현보다 뒤 표현이 더 정확하다고 정정함.",
+    "register": "중립",
+    "frequency": 3,
+    "similarGrammarIds": [
+      "n2-228",
+      "n2-229",
+      "n2-231",
+      "n2-233"
+    ],
+    "similarExpressionNames": [
+      "というか",
+      "ということだ",
+      "といっても",
+      "というのは"
+    ],
+    "examples": [
+      {
+        "id": "n2-230-ex-1",
+        "japanese": "彼は厳しいというより、冷たい。",
+        "korean": "그는 엄격하다기보다 차갑다."
+      }
+    ],
+    "tags": [
+      "설명",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "というより",
+        "text": "というより",
+        "requiredContext": "普通形 + というより / N + というより",
+        "note": "앞 표현보다 뒤 표현이 더 정확하다고 정정함."
+      }
+    ]
+  },
+  {
+    "id": "n2-231",
+    "no": 231,
+    "noLabel": "231",
+    "level": "N2",
+    "expression": "といっても",
+    "connection": "普通形+といっても / N+といっても",
+    "meaningKo": "~라고 해도",
+    "nuanceKo": "앞 표현에서 예상되는 정도와 실제가 다름을 보충 설명.",
+    "register": "중립",
+    "frequency": 3,
+    "similarGrammarIds": [
+      "n2-228",
+      "n2-229",
+      "n2-230",
+      "n2-233"
+    ],
+    "similarExpressionNames": [
+      "というか",
+      "ということだ",
+      "というより",
+      "というのは"
+    ],
+    "examples": [
+      {
+        "id": "n2-231-ex-1",
+        "japanese": "日本語が話せるといっても、簡単な会話だけだ。",
+        "korean": "일본어를 할 수 있다고 해도 간단한 회화뿐이다."
+      }
+    ],
+    "tags": [
+      "설명",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "といっても",
+        "text": "といっても",
+        "requiredContext": "普通形 + といっても / N + といっても",
+        "note": "앞 표현에서 예상되는 정도와 실제가 다름을 보충 설명."
+      }
+    ]
+  },
+  {
+    "id": "n2-232",
+    "no": 232,
+    "noLabel": "232",
+    "level": "N2",
+    "expression": "として",
+    "connection": "N+として",
+    "meaningKo": "~로서, ~의 자격으로",
+    "nuanceKo": "신분·자격·역할·입장을 나타냄.",
+    "register": "중립",
+    "frequency": 3,
+    "similarGrammarIds": [
+      "n2-196",
+      "n2-201",
+      "n2-235",
+      "n2-237"
+    ],
+    "similarExpressionNames": [
+      "～上（じょう）",
+      "にすれば",
+      "において / における",
+      "について"
+    ],
+    "examples": [
+      {
+        "id": "n2-232-ex-1",
+        "japanese": "留学生として日本の大学で勉強している。",
+        "korean": "유학생으로서 일본 대학에서 공부하고 있다."
+      }
+    ],
+    "tags": [
+      "관점",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "として",
+        "text": "として",
+        "requiredContext": "N + として",
+        "note": "신분·자격·역할·입장을 나타냄."
+      }
+    ]
+  },
+  {
+    "id": "n2-233",
+    "no": 233,
+    "noLabel": "233",
+    "level": "N2",
+    "expression": "というのは",
+    "connection": "N+というのは / 普通形+というのは",
+    "meaningKo": "~라는 것은, 왜냐하면",
+    "nuanceKo": "용어를 정의하거나 앞 내용의 이유를 설명함.",
+    "register": "중립",
+    "frequency": 2,
+    "similarGrammarIds": [
+      "n2-228",
+      "n2-229",
+      "n2-230",
+      "n2-231"
+    ],
+    "similarExpressionNames": [
+      "というか",
+      "ということだ",
+      "というより",
+      "といっても"
+    ],
+    "examples": [
+      {
+        "id": "n2-233-ex-1",
+        "japanese": "「少子化」というのは、子供の数が減ることだ。",
+        "korean": "‘저출산’이라는 것은 아이의 수가 줄어드는 것이다."
+      }
+    ],
+    "tags": [
+      "설명",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "というのは",
+        "text": "というのは",
+        "requiredContext": "N + というのは / 普通形 + というのは",
+        "note": "용어를 정의하거나 앞 내용의 이유를 설명함."
+      }
+    ]
+  },
+  {
+    "id": "n2-234",
+    "no": 234,
+    "noLabel": "234",
+    "level": "N2",
+    "expression": "とみえて",
+    "connection": "普通形+とみえて",
+    "meaningKo": "~인 듯하여, ~인 모양이라",
+    "nuanceKo": "눈에 보이는 결과나 정황을 근거로 원인을 추측함.",
+    "register": "중립",
+    "frequency": 2,
+    "similarGrammarIds": [
+      "n2-198",
+      "n2-207",
+      "n2-246"
+    ],
+    "similarExpressionNames": [
+      "おかげで / せいで",
+      "ことから",
+      "によると / によれば"
+    ],
+    "examples": [
+      {
+        "id": "n2-234-ex-1",
+        "japanese": "昨夜よく眠れなかったとみえて、彼は何度もあくびをしている。",
+        "korean": "어젯밤 잘 자지 못한 모양이라 그는 몇 번이나 하품하고 있다."
+      }
+    ],
+    "tags": [
+      "원인",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "とみえて",
+        "text": "とみえて",
+        "requiredContext": "普通形 + とみえて",
+        "note": "눈에 보이는 결과나 정황을 근거로 원인을 추측함."
+      }
+    ]
+  },
+  {
+    "id": "n2-235",
+    "no": 235,
+    "noLabel": "235",
+    "level": "N2",
+    "expression": "において / における",
+    "connection": "N+において / N+における+N",
+    "meaningKo": "~에서, ~에 있어서",
+    "nuanceKo": "장소·시대·분야·상황을 나타내는 문어적 표현.",
+    "register": "문어체",
+    "frequency": 2,
+    "similarGrammarIds": [
+      "n2-196",
+      "n2-201",
+      "n2-232",
+      "n2-237"
+    ],
+    "similarExpressionNames": [
+      "～上（じょう）",
+      "にすれば",
+      "として",
+      "について"
+    ],
+    "examples": [
+      {
+        "id": "n2-235-ex-1",
+        "japanese": "現代社会において、情報技術は重要な役割を果たしている。",
+        "korean": "현대 사회에서 정보기술은 중요한 역할을 하고 있다."
+      }
+    ],
+    "tags": [
+      "관점",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "において / における",
+        "text": "において",
+        "requiredContext": "N + において / N + における + N",
+        "note": "장소·시대·분야·상황을 나타내는 문어적 표현."
+      }
+    ]
+  },
+  {
+    "id": "n2-236",
+    "no": 236,
+    "noLabel": "236",
+    "level": "N2",
+    "expression": "に限る",
+    "connection": "V辞書形・Vない形+に限る / N+に限る",
+    "meaningKo": "~하는 것이 최고다, ~만 한 것이 없다",
+    "nuanceKo": "화자의 경험에 근거해 최선의 선택을 단정함.",
+    "register": "중립",
+    "frequency": 2,
+    "similarGrammarIds": [
+      "n2-216",
+      "n2-217"
+    ],
+    "similarExpressionNames": [
+      "だけのことはある",
+      "だけまし"
+    ],
+    "examples": [
+      {
+        "id": "n2-236-ex-1",
+        "japanese": "疲れたときは、早く寝るに限る。",
+        "korean": "피곤할 때는 일찍 자는 것이 최고다."
+      }
+    ],
+    "tags": [
+      "평가",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "に限る",
+        "text": "に限る",
+        "requiredContext": "V辞書形・Vない形 + に限る / N + に限る",
+        "note": "화자의 경험에 근거해 최선의 선택을 단정함."
+      }
+    ]
+  },
+  {
+    "id": "n2-237",
+    "no": 237,
+    "noLabel": "237",
+    "level": "N2",
+    "expression": "について",
+    "connection": "N+について / N+についての+N",
+    "meaningKo": "~에 관해서, ~에 대해서",
+    "nuanceKo": "이야기·조사·연구 등의 대상을 제시함.",
+    "register": "중립",
+    "frequency": 3,
+    "similarGrammarIds": [
+      "n2-196",
+      "n2-201",
+      "n2-232",
+      "n2-235"
+    ],
+    "similarExpressionNames": [
+      "～上（じょう）",
+      "にすれば",
+      "として",
+      "において / における"
+    ],
+    "examples": [
+      {
+        "id": "n2-237-ex-1",
+        "japanese": "日本の教育制度について調べています。",
+        "korean": "일본의 교육제도에 관해서 조사하고 있습니다."
+      }
+    ],
+    "tags": [
+      "관점",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "について",
+        "text": "について",
+        "requiredContext": "N + について / N + についての + N",
+        "note": "이야기·조사·연구 등의 대상을 제시함."
+      }
+    ]
+  },
+  {
+    "id": "n2-238",
+    "no": 238,
+    "noLabel": "238",
+    "level": "N2",
+    "expression": "に決まっている",
+    "connection": "普通形+に決まっている / N+に決まっている",
+    "meaningKo": "반드시 ~이다, ~임이 분명하다",
+    "nuanceKo": "화자의 강한 주관적 확신. 회화적 표현.",
+    "register": "회화체",
+    "frequency": 3,
+    "similarGrammarIds": [
+      "n2-252",
+      "n2-253"
+    ],
+    "similarExpressionNames": [
+      "はずがない",
+      "わけだ"
+    ],
+    "examples": [
+      {
+        "id": "n2-238-ex-1",
+        "japanese": "そんな話はうそに決まっている。",
+        "korean": "그런 이야기는 거짓말임이 분명하다."
+      }
+    ],
+    "tags": [
+      "확신",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "に決まっている",
+        "text": "に決まっている",
+        "requiredContext": "普通形 + に決まっている / N + に決まっている",
+        "note": "화자의 강한 주관적 확신. 회화적 표현."
+      }
+    ]
+  },
+  {
+    "id": "n2-239",
+    "no": 239,
+    "noLabel": "239",
+    "level": "N2",
+    "expression": "に比べて",
+    "connection": "N+に比べて",
+    "meaningKo": "~에 비해서",
+    "nuanceKo": "두 대상을 기준으로 차이를 비교함.",
+    "register": "중립",
+    "frequency": 3,
+    "similarGrammarIds": [
+      "n2-241",
+      "n2-244",
+      "n2-248",
+      "n2-249"
+    ],
+    "similarExpressionNames": [
+      "に対して",
+      "に反して",
+      "は別として",
+      "～ば～ほど"
+    ],
+    "examples": [
+      {
+        "id": "n2-239-ex-1",
+        "japanese": "去年に比べて、今年は雨が少ない。",
+        "korean": "작년에 비해 올해는 비가 적다."
+      }
+    ],
+    "tags": [
+      "비교",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "に比べて",
+        "text": "に比べて",
+        "requiredContext": "N + に比べて",
+        "note": "두 대상을 기준으로 차이를 비교함."
+      }
+    ]
+  },
+  {
+    "id": "n2-240",
+    "no": 240,
+    "noLabel": "240",
+    "level": "N2",
+    "expression": "に従って",
+    "connection": "V辞書形+に従って / N+に従って",
+    "meaningKo": "~함에 따라, ~에 따라서",
+    "nuanceKo": "한 변화에 비례해 다른 변화가 일어나거나 규칙·지시에 따름.",
+    "register": "중립",
+    "frequency": 2,
+    "similarGrammarIds": [
+      "n2-194",
+      "n2-242",
+      "n2-249"
+    ],
+    "similarExpressionNames": [
+      "一方だ",
+      "につれて",
+      "～ば～ほど"
+    ],
+    "examples": [
+      {
+        "id": "n2-240-ex-1",
+        "japanese": "年を取るに従って、体力が落ちてきた。",
+        "korean": "나이가 듦에 따라 체력이 떨어졌다."
+      }
+    ],
+    "tags": [
+      "변화",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "に従って",
+        "text": "に従って",
+        "requiredContext": "V辞書形 + に従って / N + に従って",
+        "note": "한 변화에 비례해 다른 변화가 일어나거나 규칙·지시에 따름."
+      }
+    ]
+  },
+  {
+    "id": "n2-241",
+    "no": 241,
+    "noLabel": "241",
+    "level": "N2",
+    "expression": "に対して",
+    "connection": "N+に対して / 普通形+のに対して",
+    "meaningKo": "~에 대해서, ~에 반하여",
+    "nuanceKo": "행동의 대상 또는 두 사실의 대조를 나타냄.",
+    "register": "중립",
+    "frequency": 3,
+    "similarGrammarIds": [
+      "n2-196",
+      "n2-201",
+      "n2-232",
+      "n2-235"
+    ],
+    "similarExpressionNames": [
+      "～上（じょう）",
+      "にすれば",
+      "として",
+      "において / における"
+    ],
+    "examples": [
+      {
+        "id": "n2-241-ex-1",
+        "japanese": "兄が活発なのに対して、弟はおとなしい。",
+        "korean": "형이 활발한 데 반해 동생은 얌전하다."
+      }
+    ],
+    "tags": [
+      "관점",
+      "비교",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "に対して",
+        "text": "に対して",
+        "requiredContext": "N + に対して / 普通形 + のに対して",
+        "note": "행동의 대상 또는 두 사실의 대조를 나타냄."
+      }
+    ]
+  },
+  {
+    "id": "n2-242",
+    "no": 242,
+    "noLabel": "242",
+    "level": "N2",
+    "expression": "につれて",
+    "connection": "V辞書形+につれて / N+につれて",
+    "meaningKo": "~함에 따라서",
+    "nuanceKo": "한쪽의 점진적인 변화와 함께 다른 쪽도 자연스럽게 변화함.",
+    "register": "중립",
+    "frequency": 3,
+    "similarGrammarIds": [
+      "n2-194",
+      "n2-240",
+      "n2-249"
+    ],
+    "similarExpressionNames": [
+      "一方だ",
+      "に従って",
+      "～ば～ほど"
+    ],
+    "examples": [
+      {
+        "id": "n2-242-ex-1",
+        "japanese": "暖かくなるにつれて、花が咲き始めた。",
+        "korean": "따뜻해짐에 따라 꽃이 피기 시작했다."
+      }
+    ],
+    "tags": [
+      "변화",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "につれて",
+        "text": "につれて",
+        "requiredContext": "V辞書形 + につれて / N + につれて",
+        "note": "한쪽의 점진적인 변화와 함께 다른 쪽도 자연스럽게 변화함."
+      }
+    ]
+  },
+  {
+    "id": "n2-243",
+    "no": 243,
+    "noLabel": "243",
+    "level": "N2",
+    "expression": "にとって（は）",
+    "connection": "N+にとって（は）",
+    "meaningKo": "~에게 있어서는, ~의 입장에서는",
+    "nuanceKo": "특정 대상의 관점에서 가치·평가·중요성을 말함.",
+    "register": "중립",
+    "frequency": 3,
+    "similarGrammarIds": [
+      "n2-196",
+      "n2-201",
+      "n2-232",
+      "n2-235"
+    ],
+    "similarExpressionNames": [
+      "～上（じょう）",
+      "にすれば",
+      "として",
+      "において / における"
+    ],
+    "examples": [
+      {
+        "id": "n2-243-ex-1",
+        "japanese": "私にとって、家族は最も大切な存在だ。",
+        "korean": "나에게 가족은 가장 소중한 존재다."
+      }
+    ],
+    "tags": [
+      "관점",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "にとって（は）",
+        "text": "にとって",
+        "requiredContext": "N + にとって（は）",
+        "note": "특정 대상의 관점에서 가치·평가·중요성을 말함."
+      }
+    ]
+  },
+  {
+    "id": "n2-244",
+    "no": 244,
+    "noLabel": "244",
+    "level": "N2",
+    "expression": "に反して",
+    "connection": "N+に反して / N+に反する+N",
+    "meaningKo": "~에 반하여, ~와 반대로",
+    "nuanceKo": "예상·규칙·명령·의도와 실제 결과가 어긋남.",
+    "register": "중립",
+    "frequency": 2,
+    "similarGrammarIds": [
+      "n2-239",
+      "n2-241",
+      "n2-248",
+      "n2-249"
+    ],
+    "similarExpressionNames": [
+      "に比べて",
+      "に対して",
+      "は別として",
+      "～ば～ほど"
+    ],
+    "examples": [
+      {
+        "id": "n2-244-ex-1",
+        "japanese": "予想に反して、試験は簡単だった。",
+        "korean": "예상과 달리 시험은 쉬웠다."
+      }
+    ],
+    "tags": [
+      "비교",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "に反して",
+        "text": "に反して",
+        "requiredContext": "N + に反して / N + に反する + N",
+        "note": "예상·규칙·명령·의도와 실제 결과가 어긋남."
+      }
+    ]
+  },
+  {
+    "id": "n2-245",
+    "no": 245,
+    "noLabel": "245",
+    "level": "N2",
+    "expression": "によって",
+    "connection": "N+によって",
+    "meaningKo": "~에 의해, ~에 따라서, ~로 인하여",
+    "nuanceKo": "수단·원인·행위자·차이의 기준 등 여러 관계를 나타냄.",
+    "register": "중립",
+    "frequency": 3,
+    "similarGrammarIds": [
+      "n2-196",
+      "n2-201",
+      "n2-232",
+      "n2-235"
+    ],
+    "similarExpressionNames": [
+      "～上（じょう）",
+      "にすれば",
+      "として",
+      "において / における"
+    ],
+    "examples": [
+      {
+        "id": "n2-245-ex-1",
+        "japanese": "この寺は千年前に有名な僧によって建てられた。",
+        "korean": "이 절은 천 년 전에 유명한 승려에 의해 지어졌다."
+      }
+    ],
+    "tags": [
+      "관점",
+      "수단",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "によって",
+        "text": "によって",
+        "requiredContext": "N + によって",
+        "note": "수단·원인·행위자·차이의 기준 등 여러 관계를 나타냄."
+      }
+    ]
+  },
+  {
+    "id": "n2-246",
+    "no": 246,
+    "noLabel": "246",
+    "level": "N2",
+    "expression": "によると / によれば",
+    "connection": "N+によると・によれば",
+    "meaningKo": "~에 따르면",
+    "nuanceKo": "정보의 출처나 근거를 제시함.",
+    "register": "중립",
+    "frequency": 3,
+    "similarGrammarIds": [
+      "n2-198",
+      "n2-207",
+      "n2-234"
+    ],
+    "similarExpressionNames": [
+      "おかげで / せいで",
+      "ことから",
+      "とみえて"
+    ],
+    "examples": [
+      {
+        "id": "n2-246-ex-1",
+        "japanese": "ニュースによると、台風が近づいているそうだ。",
+        "korean": "뉴스에 따르면 태풍이 다가오고 있다고 한다."
+      }
+    ],
+    "tags": [
+      "원인",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "によると / によれば",
+        "text": "によると",
+        "requiredContext": "N + によると・によれば",
+        "note": "정보의 출처나 근거를 제시함."
+      }
+    ]
+  },
+  {
+    "id": "n2-247",
+    "no": 247,
+    "noLabel": "247",
+    "level": "N2",
+    "expression": "にわたって",
+    "connection": "N+にわたって / N+にわたる+N",
+    "meaningKo": "~에 걸쳐서",
+    "nuanceKo": "시간·장소·범위가 넓게 이어짐을 나타냄.",
+    "register": "중립",
+    "frequency": 2,
+    "similarGrammarIds": [
+      "n2-197",
+      "n2-199",
+      "n2-200",
+      "n2-202"
+    ],
+    "similarExpressionNames": [
+      "うちに / ないうちに",
+      "やいなや",
+      "そばから",
+      "～から～にかけて"
+    ],
+    "examples": [
+      {
+        "id": "n2-247-ex-1",
+        "japanese": "会議は三時間にわたって行われた。",
+        "korean": "회의는 세 시간에 걸쳐 진행되었다."
+      }
+    ],
+    "tags": [
+      "시간",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "にわたって",
+        "text": "にわたって",
+        "requiredContext": "N + にわたって / N + にわたる + N",
+        "note": "시간·장소·범위가 넓게 이어짐을 나타냄."
+      }
+    ]
+  },
+  {
+    "id": "n2-248",
+    "no": 248,
+    "noLabel": "248",
+    "level": "N2",
+    "expression": "は別として",
+    "connection": "N+は別として",
+    "meaningKo": "~은 별개로 하고, ~은 제쳐두고",
+    "nuanceKo": "한 요소를 판단 대상에서 제외하고 다른 점을 논함.",
+    "register": "중립",
+    "frequency": 2,
+    "similarGrammarIds": [
+      "n2-239",
+      "n2-241",
+      "n2-244",
+      "n2-249"
+    ],
+    "similarExpressionNames": [
+      "に比べて",
+      "に対して",
+      "に反して",
+      "～ば～ほど"
+    ],
+    "examples": [
+      {
+        "id": "n2-248-ex-1",
+        "japanese": "値段は別として、この製品の品質は非常に高い。",
+        "korean": "가격은 별개로 하고 이 제품의 품질은 매우 높다."
+      }
+    ],
+    "tags": [
+      "비교",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "は別として",
+        "text": "は別として",
+        "requiredContext": "N + は別として",
+        "note": "한 요소를 판단 대상에서 제외하고 다른 점을 논함."
+      }
+    ]
+  },
+  {
+    "id": "n2-249",
+    "no": 249,
+    "noLabel": "249",
+    "level": "N2",
+    "expression": "～ば～ほど",
+    "connection": "Vば+V辞書形+ほど / いAければ+いAい+ほど / なAなら+なAな+ほど",
+    "meaningKo": "~하면 할수록",
+    "nuanceKo": "한 정도가 증가함에 따라 다른 정도도 비례해 변화함.",
+    "register": "중립",
+    "frequency": 3,
+    "similarGrammarIds": [
+      "n2-194",
+      "n2-240",
+      "n2-242",
+      "n2-239"
+    ],
+    "similarExpressionNames": [
+      "一方だ",
+      "に従って",
+      "につれて",
+      "に比べて"
+    ],
+    "examples": [
+      {
+        "id": "n2-249-ex-1",
+        "japanese": "日本語は勉強すればするほど、おもしろくなる。",
+        "korean": "일본어는 공부하면 할수록 재미있어진다."
+      }
+    ],
+    "tags": [
+      "변화",
+      "비교",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "～ば～ほど",
+        "text": "すればするほど",
+        "requiredContext": "Vば + V辞書形 + ほど / いAければ + いAい + ほど / なAなら + なAな + ほど",
+        "note": "한 정도가 증가함에 따라 다른 정도도 비례해 변화함."
+      }
+    ]
+  },
+  {
+    "id": "n2-250",
+    "no": 250,
+    "noLabel": "250",
+    "level": "N2",
+    "expression": "はもちろん",
+    "connection": "N+はもちろん",
+    "meaningKo": "~은 물론이고",
+    "nuanceKo": "당연히 포함되는 대상을 먼저 말하고 다른 대상까지 추가함.",
+    "register": "중립",
+    "frequency": 3,
+    "similarGrammarIds": [
+      "n2-195"
+    ],
+    "similarExpressionNames": [
+      "上に"
+    ],
+    "examples": [
+      {
+        "id": "n2-250-ex-1",
+        "japanese": "彼は英語はもちろん、中国語も話せる。",
+        "korean": "그는 영어는 물론이고 중국어도 할 수 있다."
+      }
+    ],
+    "tags": [
+      "추가",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "はもちろん",
+        "text": "はもちろん",
+        "requiredContext": "N + はもちろん",
+        "note": "당연히 포함되는 대상을 먼저 말하고 다른 대상까지 추가함."
+      }
+    ]
+  },
+  {
+    "id": "n2-251",
+    "no": 251,
+    "noLabel": "251",
+    "level": "N2",
+    "expression": "反面",
+    "connection": "普通形+反面 / なAな・である+反面 / Nである+反面",
+    "meaningKo": "~인 반면",
+    "nuanceKo": "하나의 대상이 가진 서로 반대되는 두 측면을 제시함.",
+    "register": "중립",
+    "frequency": 2,
+    "similarGrammarIds": [
+      "n2-239",
+      "n2-241",
+      "n2-244",
+      "n2-248"
+    ],
+    "similarExpressionNames": [
+      "に比べて",
+      "に対して",
+      "に反して",
+      "は別として"
+    ],
+    "examples": [
+      {
+        "id": "n2-251-ex-1",
+        "japanese": "この仕事は大変な反面、やりがいもある。",
+        "korean": "이 일은 힘든 반면 보람도 있다."
+      }
+    ],
+    "tags": [
+      "비교",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "反面",
+        "text": "反面",
+        "requiredContext": "普通形 + 反面 / なAな・である + 反面 / Nである + 反面",
+        "note": "하나의 대상이 가진 서로 반대되는 두 측면을 제시함."
+      }
+    ]
+  },
+  {
+    "id": "n2-252",
+    "no": 252,
+    "noLabel": "252",
+    "level": "N2",
+    "expression": "はずがない",
+    "connection": "普通形+はずがない / Nの・である+はずがない",
+    "meaningKo": "~할 리가 없다",
+    "nuanceKo": "논리적 근거나 상식에 따른 강한 부정 추측.",
+    "register": "중립",
+    "frequency": 3,
+    "similarGrammarIds": [
+      "n2-238",
+      "n2-253"
+    ],
+    "similarExpressionNames": [
+      "に決まっている",
+      "わけだ"
+    ],
+    "examples": [
+      {
+        "id": "n2-252-ex-1",
+        "japanese": "まじめな彼が約束を忘れるはずがない。",
+        "korean": "성실한 그가 약속을 잊을 리가 없다."
+      }
+    ],
+    "tags": [
+      "확신",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "はずがない",
+        "text": "はずがない",
+        "requiredContext": "普通形 + はずがない / Nの・である + はずがない",
+        "note": "논리적 근거나 상식에 따른 강한 부정 추측."
+      }
+    ]
+  },
+  {
+    "id": "n2-253",
+    "no": 253,
+    "noLabel": "253",
+    "level": "N2",
+    "expression": "わけだ",
+    "connection": "普通形+わけだ / なAな・である+わけだ / Nな・である+わけだ",
+    "meaningKo": "~인 셈이다, 그래서 ~한 것이다",
+    "nuanceKo": "앞 정보로부터 자연스럽게 결론을 내리거나 이유를 납득함.",
+    "register": "중립",
+    "frequency": 3,
+    "similarGrammarIds": [
+      "n2-238",
+      "n2-252"
+    ],
+    "similarExpressionNames": [
+      "に決まっている",
+      "はずがない"
+    ],
+    "examples": [
+      {
+        "id": "n2-253-ex-1",
+        "japanese": "彼は日本に十年住んでいた。日本語が上手なわけだ。",
+        "korean": "그는 일본에 10년 살았다. 그래서 일본어를 잘하는 것이구나."
+      }
+    ],
+    "tags": [
+      "확신",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "わけだ",
+        "text": "わけだ",
+        "requiredContext": "普通形 + わけだ / なAな・である + わけだ / Nな・である + わけだ",
+        "note": "앞 정보로부터 자연스럽게 결론을 내리거나 이유를 납득함."
+      }
+    ]
+  },
+  {
+    "id": "n2-254",
+    "no": 254,
+    "noLabel": "254",
+    "level": "N2",
+    "expression": "をきっかけに（して）",
+    "connection": "N+をきっかけに（して）",
+    "meaningKo": "~을 계기로",
+    "nuanceKo": "어떤 사건이 새로운 행동이나 변화가 시작되는 계기가 됨.",
+    "register": "중립",
+    "frequency": 2,
+    "similarGrammarIds": [],
+    "similarExpressionNames": [],
+    "examples": [
+      {
+        "id": "n2-254-ex-1",
+        "japanese": "留学をきっかけに、将来について真剣に考えるようになった。",
+        "korean": "유학을 계기로 장래에 대해 진지하게 생각하게 되었다."
+      }
+    ],
+    "tags": [
+      "계기",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "をきっかけに（して）",
+        "text": "をきっかけに",
+        "requiredContext": "N + をきっかけに（して）",
+        "note": "어떤 사건이 새로운 행동이나 변화가 시작되는 계기가 됨."
+      }
+    ]
+  },
+  {
+    "id": "n2-255",
+    "no": 255,
+    "noLabel": "255",
+    "level": "N2",
+    "expression": "を込めて",
+    "connection": "N+を込めて",
+    "meaningKo": "~을 담아서",
+    "nuanceKo": "감정·마음·의미를 행동이나 물건에 담음.",
+    "register": "중립",
+    "frequency": 2,
+    "similarGrammarIds": [
+      "n2-224",
+      "n2-245",
+      "n2-256"
+    ],
+    "similarExpressionNames": [
+      "てしょうがない / てしかたがない",
+      "によって",
+      "を通じて / を通して"
+    ],
+    "examples": [
+      {
+        "id": "n2-255-ex-1",
+        "japanese": "感謝の気持ちを込めて、先生に手紙を書いた。",
+        "korean": "감사의 마음을 담아 선생님께 편지를 썼다."
+      }
+    ],
+    "tags": [
+      "감정",
+      "수단",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "を込めて",
+        "text": "を込めて",
+        "requiredContext": "N + を込めて",
+        "note": "감정·마음·의미를 행동이나 물건에 담음."
+      }
+    ]
+  },
+  {
+    "id": "n2-256",
+    "no": 256,
+    "noLabel": "256",
+    "level": "N2",
+    "expression": "を通じて / を通して",
+    "connection": "N+を通じて・を通して",
+    "meaningKo": "~을 통해서, ~동안 내내",
+    "nuanceKo": "매개·수단 또는 일정 기간 전체를 나타냄.",
+    "register": "중립",
+    "frequency": 2,
+    "similarGrammarIds": [
+      "n2-197",
+      "n2-199",
+      "n2-200",
+      "n2-202"
+    ],
+    "similarExpressionNames": [
+      "うちに / ないうちに",
+      "やいなや",
+      "そばから",
+      "～から～にかけて"
+    ],
+    "examples": [
+      {
+        "id": "n2-256-ex-1",
+        "japanese": "インターネットを通じて、世界中の人と交流できる。",
+        "korean": "인터넷을 통해 전 세계 사람들과 교류할 수 있다."
+      },
+      {
+        "id": "n2-256-ex-2",
+        "japanese": "この地域は一年を通して暖かい。",
+        "korean": "이 지역은 일 년 내내 따뜻하다."
+      }
+    ],
+    "tags": [
+      "시간",
+      "수단",
+      "추가문법",
+      "rarw-db-추가"
+    ],
+    "blankChoiceForms": [
+      {
+        "formId": "raw-example-form",
+        "label": "を通じて / を通して",
+        "text": "を通じて",
+        "requiredContext": "N + を通じて・を通して",
+        "note": "매개·수단 또는 일정 기간 전체를 나타냄."
+      }
+    ]
   }
 ];

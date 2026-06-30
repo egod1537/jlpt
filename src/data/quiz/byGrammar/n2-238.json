@@ -1,0 +1,112 @@
+{
+  "grammarId": "n2-238",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-238-01",
+      "level": "N2",
+      "sentence": "そんな話はうそに決まっている。",
+      "sentenceWithBlank": "そんな話はうそ（　　　）。",
+      "korean": "그런 이야기는 거짓말임이 분명하다.",
+      "answerChoiceId": "fb-created-n2-238-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-238-01-c",
+          "text": "わけだ",
+          "grammarId": "n2-253",
+          "baseExpression": "わけだ",
+          "conjugatedExpression": "わけだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-238-01-d",
+          "text": "一方だ",
+          "grammarId": "n2-194",
+          "baseExpression": "一方だ",
+          "conjugatedExpression": "一方だ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-238-01-a",
+          "text": "に決まっている",
+          "grammarId": "n2-238",
+          "baseExpression": "に決まっている",
+          "conjugatedExpression": "に決まっている",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-238-01-b",
+          "text": "はずがない",
+          "grammarId": "n2-252",
+          "baseExpression": "はずがない",
+          "conjugatedExpression": "はずがない",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「に決まっている」는 '반드시 ~이다, ~임이 분명하다'라는 뜻이다. 화자의 강한 주관적 확신. 회화적 표현.",
+      "sourceGrammarIds": [
+        "n2-238",
+        "n2-252",
+        "n2-253",
+        "n2-194"
+      ],
+      "tags": [
+        "확신",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-238-01",
+      "level": "N2",
+      "sentence": "そんな話はうそに決まっている。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "그런 이야기는 거짓말임이 분명하다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-238-01-p3",
+          "text": "うそ",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-238-01-p4",
+          "text": "に決まっている。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-238-01-p1",
+          "text": "そんな",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-238-01-p2",
+          "text": "話は",
+          "order": 2
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-238-01-p1",
+        "so-created-n2-238-01-p2",
+        "so-created-n2-238-01-p3",
+        "so-created-n2-238-01-p4"
+      ],
+      "explanation": "「に決まっている」를 사용해 '반드시 ~이다, ~임이 분명하다'의 의미를 나타낸 문장이다. 화자의 강한 주관적 확신. 회화적 표현.",
+      "sourceGrammarIds": [
+        "n2-238",
+        "n2-252",
+        "n2-253",
+        "n2-194"
+      ],
+      "tags": [
+        "확신",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

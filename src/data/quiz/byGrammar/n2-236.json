@@ -1,0 +1,112 @@
+{
+  "grammarId": "n2-236",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-236-01",
+      "level": "N2",
+      "sentence": "疲れたときは、早く寝るに限る。",
+      "sentenceWithBlank": "疲れたときは、早く寝る（　　　）。",
+      "korean": "피곤할 때는 일찍 자는 것이 최고다.",
+      "answerChoiceId": "fb-created-n2-236-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-236-01-a",
+          "text": "に限る",
+          "grammarId": "n2-236",
+          "baseExpression": "に限る",
+          "conjugatedExpression": "に限る",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-236-01-b",
+          "text": "だけのことはあって",
+          "grammarId": "n2-216",
+          "baseExpression": "だけのことはある",
+          "conjugatedExpression": "だけのことはあって",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-236-01-c",
+          "text": "だけましだ",
+          "grammarId": "n2-217",
+          "baseExpression": "だけまし",
+          "conjugatedExpression": "だけましだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-236-01-d",
+          "text": "一方だ",
+          "grammarId": "n2-194",
+          "baseExpression": "一方だ",
+          "conjugatedExpression": "一方だ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「に限る」는 '~하는 것이 최고다, ~만 한 것이 없다'라는 뜻이다. 화자의 경험에 근거해 최선의 선택을 단정함.",
+      "sourceGrammarIds": [
+        "n2-236",
+        "n2-216",
+        "n2-217",
+        "n2-194"
+      ],
+      "tags": [
+        "평가",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-236-01",
+      "level": "N2",
+      "sentence": "疲れたときは、早く寝るに限る。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "피곤할 때는 일찍 자는 것이 최고다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-236-01-p1",
+          "text": "疲れたときは、",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-236-01-p2",
+          "text": "早く",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-236-01-p3",
+          "text": "寝る",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-236-01-p4",
+          "text": "に限る。",
+          "order": 4
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-236-01-p1",
+        "so-created-n2-236-01-p2",
+        "so-created-n2-236-01-p3",
+        "so-created-n2-236-01-p4"
+      ],
+      "explanation": "「に限る」를 사용해 '~하는 것이 최고다, ~만 한 것이 없다'의 의미를 나타낸 문장이다. 화자의 경험에 근거해 최선의 선택을 단정함.",
+      "sourceGrammarIds": [
+        "n2-236",
+        "n2-216",
+        "n2-217",
+        "n2-194"
+      ],
+      "tags": [
+        "평가",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

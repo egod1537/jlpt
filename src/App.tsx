@@ -1,138 +1,117 @@
-import { useMemo, useState } from "react";
-import { GrammarDetail } from "./components/Dictionary/GrammarDetail";
-import { GrammarFilterChips } from "./components/Dictionary/GrammarFilterChips";
-import { GrammarList } from "./components/Dictionary/GrammarList";
-import { GrammarSearchBox } from "./components/Dictionary/GrammarSearchBox";
+import { Component } from "react";
+import {
+  DictionaryPage,
+  type MobileDictionaryPane,
+} from "./components/Dictionary/DictionaryPage";
+import { HonorificPage } from "./components/Honorific/HonorificPage";
 import { Header, type AppTab } from "./components/Layout/Header";
 import { MainLayout } from "./components/Layout/MainLayout";
 import { MobileDock, type MobileDockTab } from "./components/Layout/MobileDock";
-import { Sidebar } from "./components/Layout/Sidebar";
 import { QuizPage } from "./components/Quiz/QuizPage";
 import { n2Grammar } from "./data/grammar";
-import { useGrammarFavorites } from "./hooks/useGrammarFavorites";
+import { GrammarFavoritesRepository } from "./services/GrammarFavoritesRepository";
 import type { GrammarItem } from "./types/grammar";
-import {
-  filterGrammarByCategory,
-  grammarCategories,
-  searchGrammar,
-} from "./utils/grammarSearch";
 
 const grammarItems: readonly GrammarItem[] = n2Grammar;
 const grammarItemIds = grammarItems.map((item) => item.id);
 
-export function App() {
-  const { favoriteIds, favoriteIdSet, toggleFavorite } = useGrammarFavorites(grammarItemIds);
-  const [activeTab, setActiveTab] = useState<AppTab>("dict");
-  const [mobileDictionaryPane, setMobileDictionaryPane] = useState<"list" | "detail">("list");
-  const [query, setQuery] = useState("");
-  const [activeCategory, setActiveCategory] = useState("전체");
-  const [selectedId, setSelectedId] = useState<string | null>(null);
+interface AppState {
+  activeTab: AppTab;
+  favoriteIds: string[];
+  hasSelectedItem: boolean;
+  mobileDictionaryPane: MobileDictionaryPane;
+}
 
-  const filteredItems = useMemo(() => {
-    const searchResults = searchGrammar(grammarItems, query);
-    return filterGrammarByCategory(searchResults, activeCategory);
-  }, [activeCategory, query]);
+export class App extends Component<Record<string, never>, AppState> {
+  private readonly favoritesRepository = new GrammarFavoritesRepository(grammarItemIds);
 
-  const selectedIndex = filteredItems.findIndex((item) => item.id === selectedId);
-  const selectedItem = selectedIndex >= 0 ? filteredItems[selectedIndex] : null;
-
-  const handleQueryChange = (nextQuery: string) => {
-    setQuery(nextQuery);
-    setSelectedId(null);
-    setMobileDictionaryPane("list");
+  state: AppState = {
+    activeTab: "dict",
+    favoriteIds: this.favoritesRepository.load(),
+    hasSelectedItem: false,
+    mobileDictionaryPane: "list",
   };
 
-  const handleCategoryChange = (nextCategory: string) => {
-    setActiveCategory(nextCategory);
-    setSelectedId(null);
-    setMobileDictionaryPane("list");
+  private handleTabChange = (activeTab: AppTab): void => {
+    this.setState({ activeTab });
   };
 
-  const handleSelect = (item: GrammarItem) => {
-    setSelectedId(item.id);
-    setMobileDictionaryPane("detail");
+  private handleMobilePaneChange = (mobileDictionaryPane: MobileDictionaryPane): void => {
+    this.setState({ mobileDictionaryPane });
   };
 
-  const handleSimilarSearch = (nextQuery: string) => {
-    const nextItems = filterGrammarByCategory(searchGrammar(grammarItems, nextQuery), "전체");
-
-    setActiveTab("dict");
-    setActiveCategory("전체");
-    setQuery(nextQuery);
-    setSelectedId(nextItems[0]?.id ?? null);
-    setMobileDictionaryPane(nextItems.length > 0 ? "detail" : "list");
+  private handleSelectionChange = (hasSelectedItem: boolean): void => {
+    this.setState({ hasSelectedItem });
   };
 
-  const handleMobileTabChange = (nextTab: MobileDockTab) => {
-    if (nextTab === "quiz") {
-      setActiveTab("quiz");
+  private handleToggleFavorite = (grammarId: string): void => {
+    this.setState((state) => ({
+      favoriteIds: this.favoritesRepository.toggle(state.favoriteIds, grammarId),
+    }));
+  };
+
+  private handleMobileTabChange = (nextTab: MobileDockTab): void => {
+    if (nextTab === "quiz" || nextTab === "honorific") {
+      this.setState({ activeTab: nextTab });
       return;
     }
 
-    setActiveTab("dict");
-    setMobileDictionaryPane(nextTab);
+    this.setState({ activeTab: "dict", mobileDictionaryPane: nextTab });
   };
 
-  const handleGoPrevious = () => {
-    const previousItem = filteredItems[selectedIndex - 1];
-    if (previousItem !== undefined) {
-      setSelectedId(previousItem.id);
-    }
-  };
+  render() {
+    const favoriteIdSet = new Set(this.state.favoriteIds);
 
-  const handleGoNext = () => {
-    const nextItem = filteredItems[selectedIndex + 1];
-    if (nextItem !== undefined) {
-      setSelectedId(nextItem.id);
-    }
-  };
-
-  return (
-    <div className="app-shell">
-      <Header activeTab={activeTab} onTabChange={setActiveTab} />
-      <MainLayout>
-        <section
-          className="dict-section"
-          data-mobile-pane={mobileDictionaryPane}
-          style={{ display: activeTab === "dict" ? "flex" : "none" }}
-        >
-          <Sidebar>
-            <GrammarSearchBox query={query} onQueryChange={handleQueryChange} />
-            <GrammarFilterChips
-              activeCategory={activeCategory}
-              categories={grammarCategories}
-              onCategoryChange={handleCategoryChange}
-            />
-            <GrammarList
+    return (
+      <div className="app-shell">
+        <Header
+          activeTab={this.state.activeTab}
+          grammarCount={grammarItems.length}
+          onTabChange={this.handleTabChange}
+        />
+        <MainLayout>
+          <div style={{ display: this.state.activeTab === "dict" ? "contents" : "none" }}>
+            <DictionaryPage
               favoriteIds={favoriteIdSet}
-              items={filteredItems}
-              selectedId={selectedId}
-              onSelect={handleSelect}
+              grammarItems={grammarItems}
+              mobilePane={this.state.mobileDictionaryPane}
+              onMobilePaneChange={this.handleMobilePaneChange}
+              onSelectionChange={this.handleSelectionChange}
+              onToggleFavorite={this.handleToggleFavorite}
             />
-          </Sidebar>
-          <GrammarDetail
-            canGoNext={selectedIndex >= 0 && selectedIndex < filteredItems.length - 1}
-            canGoPrevious={selectedIndex > 0}
-            isFavorite={selectedItem !== null && favoriteIdSet.has(selectedItem.id)}
-            item={selectedItem}
-            onGoNext={handleGoNext}
-            onGoPrevious={handleGoPrevious}
-            onSimilarSearch={handleSimilarSearch}
-            onToggleFavorite={toggleFavorite}
-          />
-        </section>
-        <div
-          className="quiz-view"
-          style={{ display: activeTab === "quiz" ? "flex" : "none", flex: 1, minHeight: 0 }}
-        >
-          <QuizPage favoriteIds={favoriteIds} grammarItems={grammarItems} />
-        </div>
-      </MainLayout>
-      <MobileDock
-        activeTab={activeTab === "quiz" ? "quiz" : mobileDictionaryPane}
-        hasSelectedItem={selectedItem !== null}
-        onTabChange={handleMobileTabChange}
-      />
-    </div>
-  );
+          </div>
+          <div
+            className="honorific-view"
+            style={{
+              display: this.state.activeTab === "honorific" ? "flex" : "none",
+              flex: 1,
+              minHeight: 0,
+            }}
+          >
+            <HonorificPage />
+          </div>
+          <div
+            className="quiz-view"
+            style={{
+              display: this.state.activeTab === "quiz" ? "flex" : "none",
+              flex: 1,
+              minHeight: 0,
+            }}
+          >
+            <QuizPage favoriteIds={this.state.favoriteIds} grammarItems={grammarItems} />
+          </div>
+        </MainLayout>
+        <MobileDock
+          activeTab={
+            this.state.activeTab === "quiz" ||
+            this.state.activeTab === "honorific"
+              ? this.state.activeTab
+              : this.state.mobileDictionaryPane
+          }
+          hasSelectedItem={this.state.hasSelectedItem}
+          onTabChange={this.handleMobileTabChange}
+        />
+      </div>
+    );
+  }
 }

@@ -1,0 +1,112 @@
+{
+  "grammarId": "n2-253",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-253-01",
+      "level": "N2",
+      "sentence": "彼は日本に十年住んでいた。日本語が上手なわけだ。",
+      "sentenceWithBlank": "彼は日本に十年住んでいた。日本語が上手な（　　　）。",
+      "korean": "그는 일본에 10년 살았다. 그래서 일본어를 잘하는 것이구나.",
+      "answerChoiceId": "fb-created-n2-253-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-253-01-b",
+          "text": "に決まっている",
+          "grammarId": "n2-238",
+          "baseExpression": "に決まっている",
+          "conjugatedExpression": "に決まっている",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-253-01-c",
+          "text": "はずがない",
+          "grammarId": "n2-252",
+          "baseExpression": "はずがない",
+          "conjugatedExpression": "はずがない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-253-01-d",
+          "text": "一方だ",
+          "grammarId": "n2-194",
+          "baseExpression": "一方だ",
+          "conjugatedExpression": "一方だ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-253-01-a",
+          "text": "わけだ",
+          "grammarId": "n2-253",
+          "baseExpression": "わけだ",
+          "conjugatedExpression": "わけだ",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「わけだ」는 '~인 셈이다, 그래서 ~한 것이다'라는 뜻이다. 앞 정보로부터 자연스럽게 결론을 내리거나 이유를 납득함.",
+      "sourceGrammarIds": [
+        "n2-253",
+        "n2-238",
+        "n2-252",
+        "n2-194"
+      ],
+      "tags": [
+        "확신",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-253-01",
+      "level": "N2",
+      "sentence": "彼は日本に十年住んでいた。日本語が上手なわけだ。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "그는 일본에 10년 살았다. 그래서 일본어를 잘하는 것이구나.",
+      "pieces": [
+        {
+          "id": "so-created-n2-253-01-p2",
+          "text": "住んでいた。",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-253-01-p3",
+          "text": "日本語が",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-253-01-p4",
+          "text": "上手なわけだ。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-253-01-p1",
+          "text": "彼は日本に十年",
+          "order": 1
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-253-01-p1",
+        "so-created-n2-253-01-p2",
+        "so-created-n2-253-01-p3",
+        "so-created-n2-253-01-p4"
+      ],
+      "explanation": "「わけだ」를 사용해 '~인 셈이다, 그래서 ~한 것이다'의 의미를 나타낸 문장이다. 앞 정보로부터 자연스럽게 결론을 내리거나 이유를 납득함.",
+      "sourceGrammarIds": [
+        "n2-253",
+        "n2-238",
+        "n2-252",
+        "n2-194"
+      ],
+      "tags": [
+        "확신",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

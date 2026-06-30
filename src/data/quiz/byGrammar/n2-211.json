@@ -1,0 +1,114 @@
+{
+  "grammarId": "n2-211",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-211-01",
+      "level": "N2",
+      "sentence": "毎朝30分走ることにした。",
+      "sentenceWithBlank": "毎朝30分走る（　　　）。",
+      "korean": "매일 아침 30분 달리기로 했다.",
+      "answerChoiceId": "fb-created-n2-211-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-211-01-d",
+          "text": "てみせる",
+          "grammarId": "n2-227",
+          "baseExpression": "てみせる",
+          "conjugatedExpression": "てみせる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-211-01-a",
+          "text": "ことにした",
+          "grammarId": "n2-211",
+          "baseExpression": "ことにする",
+          "conjugatedExpression": "ことにした",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-211-01-b",
+          "text": "気だ",
+          "grammarId": "n2-205",
+          "baseExpression": "気だ",
+          "conjugatedExpression": "気だ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-211-01-c",
+          "text": "ことになった",
+          "grammarId": "n2-210",
+          "baseExpression": "ことになる",
+          "conjugatedExpression": "ことになった",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ことにした」는 '~하기로 하다'라는 뜻이다. 화자가 스스로 결정한 내용을 나타냄.",
+      "sourceGrammarIds": [
+        "n2-211",
+        "n2-205",
+        "n2-210",
+        "n2-227"
+      ],
+      "tags": [
+        "의지",
+        "결정",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-211-01",
+      "level": "N2",
+      "sentence": "毎朝30分走ることにした。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "매일 아침 30분 달리기로 했다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-211-01-p4",
+          "text": "ことにした。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-211-01-p1",
+          "text": "毎朝",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-211-01-p2",
+          "text": "30",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-211-01-p3",
+          "text": "分走る",
+          "order": 3
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-211-01-p1",
+        "so-created-n2-211-01-p2",
+        "so-created-n2-211-01-p3",
+        "so-created-n2-211-01-p4"
+      ],
+      "explanation": "「ことにした」를 사용해 '~하기로 하다'의 의미를 나타낸 문장이다. 화자가 스스로 결정한 내용을 나타냄.",
+      "sourceGrammarIds": [
+        "n2-211",
+        "n2-205",
+        "n2-210",
+        "n2-227"
+      ],
+      "tags": [
+        "의지",
+        "결정",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

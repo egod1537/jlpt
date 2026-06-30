@@ -1,0 +1,114 @@
+{
+  "grammarId": "n2-249",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-249-01",
+      "level": "N2",
+      "sentence": "日本語は勉強すればするほど、おもしろくなる。",
+      "sentenceWithBlank": "日本語は勉強（　　　）、おもしろくなる。",
+      "korean": "일본어는 공부하면 할수록 재미있어진다.",
+      "answerChoiceId": "fb-created-n2-249-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-249-01-b",
+          "text": "一方だ",
+          "grammarId": "n2-194",
+          "baseExpression": "一方だ",
+          "conjugatedExpression": "一方だ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-249-01-c",
+          "text": "に比べて",
+          "grammarId": "n2-239",
+          "baseExpression": "に比べて",
+          "conjugatedExpression": "に比べて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-249-01-d",
+          "text": "に従って",
+          "grammarId": "n2-240",
+          "baseExpression": "に従って",
+          "conjugatedExpression": "に従って",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-249-01-a",
+          "text": "すればするほど",
+          "grammarId": "n2-249",
+          "baseExpression": "～ば～ほど",
+          "conjugatedExpression": "すればするほど",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「すればするほど」는 '~하면 할수록'라는 뜻이다. 한 정도가 증가함에 따라 다른 정도도 비례해 변화함.",
+      "sourceGrammarIds": [
+        "n2-249",
+        "n2-194",
+        "n2-239",
+        "n2-240"
+      ],
+      "tags": [
+        "변화",
+        "비교",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-249-01",
+      "level": "N2",
+      "sentence": "日本語は勉強すればするほど、おもしろくなる。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "일본어는 공부하면 할수록 재미있어진다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-249-01-p2",
+          "text": "勉強",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-249-01-p3",
+          "text": "すればするほど、",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-249-01-p4",
+          "text": "おもしろくなる。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-249-01-p1",
+          "text": "日本語は",
+          "order": 1
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-249-01-p1",
+        "so-created-n2-249-01-p2",
+        "so-created-n2-249-01-p3",
+        "so-created-n2-249-01-p4"
+      ],
+      "explanation": "「すればするほど」를 사용해 '~하면 할수록'의 의미를 나타낸 문장이다. 한 정도가 증가함에 따라 다른 정도도 비례해 변화함.",
+      "sourceGrammarIds": [
+        "n2-249",
+        "n2-194",
+        "n2-239",
+        "n2-240"
+      ],
+      "tags": [
+        "변화",
+        "비교",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

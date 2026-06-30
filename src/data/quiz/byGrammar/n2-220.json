@@ -1,0 +1,112 @@
+{
+  "grammarId": "n2-220",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-220-01",
+      "level": "N2",
+      "sentence": "もっと早く出発していたら、間に合っただろうに。",
+      "sentenceWithBlank": "もっと早く出発していたら、間に合った（　　　）。",
+      "korean": "좀 더 일찍 출발했더라면 시간에 맞았을 텐데.",
+      "answerChoiceId": "fb-created-n2-220-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-220-01-a",
+          "text": "だろうに",
+          "grammarId": "n2-220",
+          "baseExpression": "～たら（ば）～だろう（に）",
+          "conjugatedExpression": "だろうに",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-220-01-b",
+          "text": "としても",
+          "grammarId": "n2-218",
+          "baseExpression": "たとえ～としても",
+          "conjugatedExpression": "としても",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-220-01-c",
+          "text": "としたら",
+          "grammarId": "n2-219",
+          "baseExpression": "もし～としたら",
+          "conjugatedExpression": "としたら",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-220-01-d",
+          "text": "一方だ",
+          "grammarId": "n2-194",
+          "baseExpression": "一方だ",
+          "conjugatedExpression": "一方だ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だろうに」는 '~하면 ~할 텐데, ~했더라면 ~했을 텐데'라는 뜻이다. 가정에 따른 예상이나 현실과 다른 결과에 대한 아쉬움을 나타냄.",
+      "sourceGrammarIds": [
+        "n2-220",
+        "n2-218",
+        "n2-219",
+        "n2-194"
+      ],
+      "tags": [
+        "가정",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-220-01",
+      "level": "N2",
+      "sentence": "もっと早く出発していたら、間に合っただろうに。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "좀 더 일찍 출발했더라면 시간에 맞았을 텐데.",
+      "pieces": [
+        {
+          "id": "so-created-n2-220-01-p1",
+          "text": "もっと早く",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-220-01-p2",
+          "text": "出発していたら、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-220-01-p3",
+          "text": "間に合った",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-220-01-p4",
+          "text": "だろうに。",
+          "order": 4
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-220-01-p1",
+        "so-created-n2-220-01-p2",
+        "so-created-n2-220-01-p3",
+        "so-created-n2-220-01-p4"
+      ],
+      "explanation": "「だろうに」를 사용해 '~하면 ~할 텐데, ~했더라면 ~했을 텐데'의 의미를 나타낸 문장이다. 가정에 따른 예상이나 현실과 다른 결과에 대한 아쉬움을 나타냄.",
+      "sourceGrammarIds": [
+        "n2-220",
+        "n2-218",
+        "n2-219",
+        "n2-194"
+      ],
+      "tags": [
+        "가정",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

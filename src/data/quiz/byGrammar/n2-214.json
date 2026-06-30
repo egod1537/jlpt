@@ -1,0 +1,110 @@
+{
+  "grammarId": "n2-214",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-214-01",
+      "level": "N2",
+      "sentence": "明日は少し早く帰らせていただけませんか。",
+      "sentenceWithBlank": "明日は少し早く帰（　　　）。",
+      "korean": "내일은 조금 일찍 돌아가게 해 주실 수 없겠습니까?",
+      "answerChoiceId": "fb-created-n2-214-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-214-01-c",
+          "text": "上に",
+          "grammarId": "n2-195",
+          "baseExpression": "上に",
+          "conjugatedExpression": "上に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-214-01-d",
+          "text": "上",
+          "grammarId": "n2-196",
+          "baseExpression": "～上（じょう）",
+          "conjugatedExpression": "上",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-214-01-a",
+          "text": "らせていただけませんか",
+          "grammarId": "n2-214",
+          "baseExpression": "させていただけませんか",
+          "conjugatedExpression": "らせていただけませんか",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-214-01-b",
+          "text": "一方だ",
+          "grammarId": "n2-194",
+          "baseExpression": "一方だ",
+          "conjugatedExpression": "一方だ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「らせていただけませんか」는 '제가 ~하게 해 주실 수 없겠습니까'라는 뜻이다. 상대의 허가를 매우 정중하게 구하는 겸양 표현.",
+      "sourceGrammarIds": [
+        "n2-214",
+        "n2-194",
+        "n2-195",
+        "n2-196"
+      ],
+      "tags": [
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-214-01",
+      "level": "N2",
+      "sentence": "明日は少し早く帰らせていただけませんか。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "내일은 조금 일찍 돌아가게 해 주실 수 없겠습니까?",
+      "pieces": [
+        {
+          "id": "so-created-n2-214-01-p3",
+          "text": "早く帰",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-214-01-p4",
+          "text": "らせていただけませんか。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-214-01-p1",
+          "text": "明日は",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-214-01-p2",
+          "text": "少し",
+          "order": 2
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-214-01-p1",
+        "so-created-n2-214-01-p2",
+        "so-created-n2-214-01-p3",
+        "so-created-n2-214-01-p4"
+      ],
+      "explanation": "「らせていただけませんか」를 사용해 '제가 ~하게 해 주실 수 없겠습니까'의 의미를 나타낸 문장이다. 상대의 허가를 매우 정중하게 구하는 겸양 표현.",
+      "sourceGrammarIds": [
+        "n2-214",
+        "n2-194",
+        "n2-195",
+        "n2-196"
+      ],
+      "tags": [
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

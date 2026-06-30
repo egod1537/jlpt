@@ -1,0 +1,112 @@
+{
+  "grammarId": "n2-221",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-221-01",
+      "level": "N2",
+      "sentence": "銀行へ行くついでに、郵便局にも寄った。",
+      "sentenceWithBlank": "銀行へ行く（　　　）、郵便局にも寄った。",
+      "korean": "은행에 가는 김에 우체국에도 들렀다.",
+      "answerChoiceId": "fb-created-n2-221-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-221-01-b",
+          "text": "うちに",
+          "grammarId": "n2-197",
+          "baseExpression": "うちに / ないうちに",
+          "conjugatedExpression": "うちに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-221-01-c",
+          "text": "やいなや",
+          "grammarId": "n2-199",
+          "baseExpression": "やいなや",
+          "conjugatedExpression": "やいなや",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-221-01-d",
+          "text": "そばから",
+          "grammarId": "n2-200",
+          "baseExpression": "そばから",
+          "conjugatedExpression": "そばから",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-221-01-a",
+          "text": "ついでに",
+          "grammarId": "n2-221",
+          "baseExpression": "ついでに",
+          "conjugatedExpression": "ついでに",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ついでに」는 '~하는 김에'라는 뜻이다. 주된 행동을 하는 기회에 부수적인 행동도 함께 함.",
+      "sourceGrammarIds": [
+        "n2-221",
+        "n2-197",
+        "n2-199",
+        "n2-200"
+      ],
+      "tags": [
+        "시간",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-221-01",
+      "level": "N2",
+      "sentence": "銀行へ行くついでに、郵便局にも寄った。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "은행에 가는 김에 우체국에도 들렀다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-221-01-p2",
+          "text": "ついでに、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-221-01-p3",
+          "text": "郵便局にも",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-221-01-p4",
+          "text": "寄った。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-221-01-p1",
+          "text": "銀行へ行く",
+          "order": 1
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-221-01-p1",
+        "so-created-n2-221-01-p2",
+        "so-created-n2-221-01-p3",
+        "so-created-n2-221-01-p4"
+      ],
+      "explanation": "「ついでに」를 사용해 '~하는 김에'의 의미를 나타낸 문장이다. 주된 행동을 하는 기회에 부수적인 행동도 함께 함.",
+      "sourceGrammarIds": [
+        "n2-221",
+        "n2-197",
+        "n2-199",
+        "n2-200"
+      ],
+      "tags": [
+        "시간",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "grammarId": "n2-209",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-209-01",
+      "level": "N2",
+      "sentence": "そんなに心配することはない。",
+      "sentenceWithBlank": "そんなに心配する（　　　）。",
+      "korean": "그렇게 걱정할 필요는 없다.",
+      "answerChoiceId": "fb-created-n2-209-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-209-01-b",
+          "text": "しかない",
+          "grammarId": "n2-215",
+          "baseExpression": "しかない / ほかない",
+          "conjugatedExpression": "しかない",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-209-01-c",
+          "text": "一方だ",
+          "grammarId": "n2-194",
+          "baseExpression": "一方だ",
+          "conjugatedExpression": "一方だ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-209-01-d",
+          "text": "上に",
+          "grammarId": "n2-195",
+          "baseExpression": "上に",
+          "conjugatedExpression": "上に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-209-01-a",
+          "text": "ことはない",
+          "grammarId": "n2-209",
+          "baseExpression": "ことはない",
+          "conjugatedExpression": "ことはない",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ことはない」는 '~할 필요는 없다'라는 뜻이다. 상대를 안심시키거나 불필요한 행동을 하지 말라고 조언함.",
+      "sourceGrammarIds": [
+        "n2-209",
+        "n2-215",
+        "n2-194",
+        "n2-195"
+      ],
+      "tags": [
+        "불필요",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-209-01",
+      "level": "N2",
+      "sentence": "そんなに心配することはない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "그렇게 걱정할 필요는 없다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-209-01-p2",
+          "text": "なに",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-209-01-p3",
+          "text": "心配する",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-209-01-p4",
+          "text": "ことはない。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-209-01-p1",
+          "text": "そん",
+          "order": 1
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-209-01-p1",
+        "so-created-n2-209-01-p2",
+        "so-created-n2-209-01-p3",
+        "so-created-n2-209-01-p4"
+      ],
+      "explanation": "「ことはない」를 사용해 '~할 필요는 없다'의 의미를 나타낸 문장이다. 상대를 안심시키거나 불필요한 행동을 하지 말라고 조언함.",
+      "sourceGrammarIds": [
+        "n2-209",
+        "n2-215",
+        "n2-194",
+        "n2-195"
+      ],
+      "tags": [
+        "불필요",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

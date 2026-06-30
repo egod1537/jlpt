@@ -1,0 +1,114 @@
+{
+  "grammarId": "n2-245",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-245-01",
+      "level": "N2",
+      "sentence": "この寺は千年前に有名な僧によって建てられた。",
+      "sentenceWithBlank": "この寺は千年前に有名な僧（　　　）建てられた。",
+      "korean": "이 절은 천 년 전에 유명한 승려에 의해 지어졌다.",
+      "answerChoiceId": "fb-created-n2-245-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-245-01-b",
+          "text": "上",
+          "grammarId": "n2-196",
+          "baseExpression": "～上（じょう）",
+          "conjugatedExpression": "上",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-245-01-c",
+          "text": "にすれば",
+          "grammarId": "n2-201",
+          "baseExpression": "にすれば",
+          "conjugatedExpression": "にすれば",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-245-01-d",
+          "text": "として",
+          "grammarId": "n2-232",
+          "baseExpression": "として",
+          "conjugatedExpression": "として",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-245-01-a",
+          "text": "によって",
+          "grammarId": "n2-245",
+          "baseExpression": "によって",
+          "conjugatedExpression": "によって",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「によって」는 '~에 의해, ~에 따라서, ~로 인하여'라는 뜻이다. 수단·원인·행위자·차이의 기준 등 여러 관계를 나타냄.",
+      "sourceGrammarIds": [
+        "n2-245",
+        "n2-196",
+        "n2-201",
+        "n2-232"
+      ],
+      "tags": [
+        "관점",
+        "수단",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-245-01",
+      "level": "N2",
+      "sentence": "この寺は千年前に有名な僧によって建てられた。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "이 절은 천 년 전에 유명한 승려에 의해 지어졌다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-245-01-p2",
+          "text": "前に有名な",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-245-01-p3",
+          "text": "僧によって",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-245-01-p4",
+          "text": "建てられた。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-245-01-p1",
+          "text": "この寺は千年",
+          "order": 1
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-245-01-p1",
+        "so-created-n2-245-01-p2",
+        "so-created-n2-245-01-p3",
+        "so-created-n2-245-01-p4"
+      ],
+      "explanation": "「によって」를 사용해 '~에 의해, ~에 따라서, ~로 인하여'의 의미를 나타낸 문장이다. 수단·원인·행위자·차이의 기준 등 여러 관계를 나타냄.",
+      "sourceGrammarIds": [
+        "n2-245",
+        "n2-196",
+        "n2-201",
+        "n2-232"
+      ],
+      "tags": [
+        "관점",
+        "수단",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

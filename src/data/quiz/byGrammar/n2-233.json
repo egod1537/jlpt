@@ -1,0 +1,112 @@
+{
+  "grammarId": "n2-233",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-233-01",
+      "level": "N2",
+      "sentence": "「少子化」というのは、子供の数が減ることだ。",
+      "sentenceWithBlank": "「少子化」（　　　）、子供の数が減ることだ。",
+      "korean": "‘저출산’이라는 것은 아이의 수가 줄어드는 것이다.",
+      "answerChoiceId": "fb-created-n2-233-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-233-01-b",
+          "text": "というか",
+          "grammarId": "n2-228",
+          "baseExpression": "というか",
+          "conjugatedExpression": "というか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-233-01-c",
+          "text": "ということだ",
+          "grammarId": "n2-229",
+          "baseExpression": "ということだ",
+          "conjugatedExpression": "ということだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-233-01-d",
+          "text": "というより",
+          "grammarId": "n2-230",
+          "baseExpression": "というより",
+          "conjugatedExpression": "というより",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-233-01-a",
+          "text": "というのは",
+          "grammarId": "n2-233",
+          "baseExpression": "というのは",
+          "conjugatedExpression": "というのは",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「というのは」는 '~라는 것은, 왜냐하면'라는 뜻이다. 용어를 정의하거나 앞 내용의 이유를 설명함.",
+      "sourceGrammarIds": [
+        "n2-233",
+        "n2-228",
+        "n2-229",
+        "n2-230"
+      ],
+      "tags": [
+        "설명",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-233-01",
+      "level": "N2",
+      "sentence": "「少子化」というのは、子供の数が減ることだ。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "‘저출산’이라는 것은 아이의 수가 줄어드는 것이다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-233-01-p2",
+          "text": "というのは、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-233-01-p3",
+          "text": "子供の数が",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-233-01-p4",
+          "text": "減ることだ。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-233-01-p1",
+          "text": "「少子化」",
+          "order": 1
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-233-01-p1",
+        "so-created-n2-233-01-p2",
+        "so-created-n2-233-01-p3",
+        "so-created-n2-233-01-p4"
+      ],
+      "explanation": "「というのは」를 사용해 '~라는 것은, 왜냐하면'의 의미를 나타낸 문장이다. 용어를 정의하거나 앞 내용의 이유를 설명함.",
+      "sourceGrammarIds": [
+        "n2-233",
+        "n2-228",
+        "n2-229",
+        "n2-230"
+      ],
+      "tags": [
+        "설명",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

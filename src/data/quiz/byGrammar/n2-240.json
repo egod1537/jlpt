@@ -1,0 +1,112 @@
+{
+  "grammarId": "n2-240",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-240-01",
+      "level": "N2",
+      "sentence": "年を取るに従って、体力が落ちてきた。",
+      "sentenceWithBlank": "年を取る（　　　）、体力が落ちてきた。",
+      "korean": "나이가 듦에 따라 체력이 떨어졌다.",
+      "answerChoiceId": "fb-created-n2-240-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-240-01-a",
+          "text": "に従って",
+          "grammarId": "n2-240",
+          "baseExpression": "に従って",
+          "conjugatedExpression": "に従って",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-240-01-b",
+          "text": "一方だ",
+          "grammarId": "n2-194",
+          "baseExpression": "一方だ",
+          "conjugatedExpression": "一方だ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-240-01-c",
+          "text": "につれて",
+          "grammarId": "n2-242",
+          "baseExpression": "につれて",
+          "conjugatedExpression": "につれて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-240-01-d",
+          "text": "すればするほど",
+          "grammarId": "n2-249",
+          "baseExpression": "～ば～ほど",
+          "conjugatedExpression": "すればするほど",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「に従って」는 '~함에 따라, ~에 따라서'라는 뜻이다. 한 변화에 비례해 다른 변화가 일어나거나 규칙·지시에 따름.",
+      "sourceGrammarIds": [
+        "n2-240",
+        "n2-194",
+        "n2-242",
+        "n2-249"
+      ],
+      "tags": [
+        "변화",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-240-01",
+      "level": "N2",
+      "sentence": "年を取るに従って、体力が落ちてきた。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "나이가 듦에 따라 체력이 떨어졌다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-240-01-p1",
+          "text": "年を取る",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-240-01-p2",
+          "text": "に従って、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-240-01-p3",
+          "text": "体力が",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-240-01-p4",
+          "text": "落ちてきた。",
+          "order": 4
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-240-01-p1",
+        "so-created-n2-240-01-p2",
+        "so-created-n2-240-01-p3",
+        "so-created-n2-240-01-p4"
+      ],
+      "explanation": "「に従って」를 사용해 '~함에 따라, ~에 따라서'의 의미를 나타낸 문장이다. 한 변화에 비례해 다른 변화가 일어나거나 규칙·지시에 따름.",
+      "sourceGrammarIds": [
+        "n2-240",
+        "n2-194",
+        "n2-242",
+        "n2-249"
+      ],
+      "tags": [
+        "변화",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

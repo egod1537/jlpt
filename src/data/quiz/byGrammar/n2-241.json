@@ -1,0 +1,114 @@
+{
+  "grammarId": "n2-241",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-241-01",
+      "level": "N2",
+      "sentence": "兄が活発なのに対して、弟はおとなしい。",
+      "sentenceWithBlank": "兄が活発なの（　　　）、弟はおとなしい。",
+      "korean": "형이 활발한 데 반해 동생은 얌전하다.",
+      "answerChoiceId": "fb-created-n2-241-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-241-01-b",
+          "text": "上",
+          "grammarId": "n2-196",
+          "baseExpression": "～上（じょう）",
+          "conjugatedExpression": "上",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-241-01-c",
+          "text": "にすれば",
+          "grammarId": "n2-201",
+          "baseExpression": "にすれば",
+          "conjugatedExpression": "にすれば",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-241-01-d",
+          "text": "として",
+          "grammarId": "n2-232",
+          "baseExpression": "として",
+          "conjugatedExpression": "として",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-241-01-a",
+          "text": "に対して",
+          "grammarId": "n2-241",
+          "baseExpression": "に対して",
+          "conjugatedExpression": "に対して",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「に対して」는 '~에 대해서, ~에 반하여'라는 뜻이다. 행동의 대상 또는 두 사실의 대조를 나타냄.",
+      "sourceGrammarIds": [
+        "n2-241",
+        "n2-196",
+        "n2-201",
+        "n2-232"
+      ],
+      "tags": [
+        "관점",
+        "비교",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-241-01",
+      "level": "N2",
+      "sentence": "兄が活発なのに対して、弟はおとなしい。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "형이 활발한 데 반해 동생은 얌전하다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-241-01-p2",
+          "text": "活発なの",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-241-01-p3",
+          "text": "に対して、",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-241-01-p4",
+          "text": "弟はおとなしい。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-241-01-p1",
+          "text": "兄が",
+          "order": 1
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-241-01-p1",
+        "so-created-n2-241-01-p2",
+        "so-created-n2-241-01-p3",
+        "so-created-n2-241-01-p4"
+      ],
+      "explanation": "「に対して」를 사용해 '~에 대해서, ~에 반하여'의 의미를 나타낸 문장이다. 행동의 대상 또는 두 사실의 대조를 나타냄.",
+      "sourceGrammarIds": [
+        "n2-241",
+        "n2-196",
+        "n2-201",
+        "n2-232"
+      ],
+      "tags": [
+        "관점",
+        "비교",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

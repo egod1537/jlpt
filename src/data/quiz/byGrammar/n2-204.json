@@ -1,0 +1,112 @@
+{
+  "grammarId": "n2-204",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-204-01",
+      "level": "N2",
+      "sentence": "社長に代わって、私がご挨拶申し上げます。",
+      "sentenceWithBlank": "社長（　　　）、私がご挨拶申し上げます。",
+      "korean": "사장님을 대신하여 제가 인사 말씀을 드리겠습니다.",
+      "answerChoiceId": "fb-created-n2-204-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-204-01-a",
+          "text": "に代わって",
+          "grammarId": "n2-204",
+          "baseExpression": "に代わって",
+          "conjugatedExpression": "に代わって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-204-01-b",
+          "text": "代わりに",
+          "grammarId": "n2-203",
+          "baseExpression": "代わりに",
+          "conjugatedExpression": "代わりに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-204-01-c",
+          "text": "一方だ",
+          "grammarId": "n2-194",
+          "baseExpression": "一方だ",
+          "conjugatedExpression": "一方だ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-204-01-d",
+          "text": "上に",
+          "grammarId": "n2-195",
+          "baseExpression": "上に",
+          "conjugatedExpression": "上に",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「に代わって」는 '~을 대신하여'라는 뜻이다. 사람·조직·기존 수단의 역할을 다른 대상이 대신함.",
+      "sourceGrammarIds": [
+        "n2-204",
+        "n2-203",
+        "n2-194",
+        "n2-195"
+      ],
+      "tags": [
+        "대체",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-204-01",
+      "level": "N2",
+      "sentence": "社長に代わって、私がご挨拶申し上げます。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "사장님을 대신하여 제가 인사 말씀을 드리겠습니다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-204-01-p1",
+          "text": "社長",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-204-01-p2",
+          "text": "に代わって、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-204-01-p3",
+          "text": "私がご挨拶",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-204-01-p4",
+          "text": "申し上げます。",
+          "order": 4
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-204-01-p1",
+        "so-created-n2-204-01-p2",
+        "so-created-n2-204-01-p3",
+        "so-created-n2-204-01-p4"
+      ],
+      "explanation": "「に代わって」를 사용해 '~을 대신하여'의 의미를 나타낸 문장이다. 사람·조직·기존 수단의 역할을 다른 대상이 대신함.",
+      "sourceGrammarIds": [
+        "n2-204",
+        "n2-203",
+        "n2-194",
+        "n2-195"
+      ],
+      "tags": [
+        "대체",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

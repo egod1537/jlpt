@@ -1,0 +1,112 @@
+{
+  "grammarId": "n2-251",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-251-01",
+      "level": "N2",
+      "sentence": "この仕事は大変な反面、やりがいもある。",
+      "sentenceWithBlank": "この仕事は大変な（　　　）、やりがいもある。",
+      "korean": "이 일은 힘든 반면 보람도 있다.",
+      "answerChoiceId": "fb-created-n2-251-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-251-01-d",
+          "text": "に反して",
+          "grammarId": "n2-244",
+          "baseExpression": "に反して",
+          "conjugatedExpression": "に反して",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-251-01-a",
+          "text": "反面",
+          "grammarId": "n2-251",
+          "baseExpression": "反面",
+          "conjugatedExpression": "反面",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-251-01-b",
+          "text": "に比べて",
+          "grammarId": "n2-239",
+          "baseExpression": "に比べて",
+          "conjugatedExpression": "に比べて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-251-01-c",
+          "text": "に対して",
+          "grammarId": "n2-241",
+          "baseExpression": "に対して",
+          "conjugatedExpression": "に対して",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「反面」는 '~인 반면'라는 뜻이다. 하나의 대상이 가진 서로 반대되는 두 측면을 제시함.",
+      "sourceGrammarIds": [
+        "n2-251",
+        "n2-239",
+        "n2-241",
+        "n2-244"
+      ],
+      "tags": [
+        "비교",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-251-01",
+      "level": "N2",
+      "sentence": "この仕事は大変な反面、やりがいもある。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "이 일은 힘든 반면 보람도 있다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-251-01-p4",
+          "text": "やりがいもある。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-251-01-p1",
+          "text": "この仕事は",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-251-01-p2",
+          "text": "大変な",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-251-01-p3",
+          "text": "反面、",
+          "order": 3
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-251-01-p1",
+        "so-created-n2-251-01-p2",
+        "so-created-n2-251-01-p3",
+        "so-created-n2-251-01-p4"
+      ],
+      "explanation": "「反面」를 사용해 '~인 반면'의 의미를 나타낸 문장이다. 하나의 대상이 가진 서로 반대되는 두 측면을 제시함.",
+      "sourceGrammarIds": [
+        "n2-251",
+        "n2-239",
+        "n2-241",
+        "n2-244"
+      ],
+      "tags": [
+        "비교",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

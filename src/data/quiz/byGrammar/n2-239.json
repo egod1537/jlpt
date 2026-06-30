@@ -1,0 +1,112 @@
+{
+  "grammarId": "n2-239",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-239-01",
+      "level": "N2",
+      "sentence": "去年に比べて、今年は雨が少ない。",
+      "sentenceWithBlank": "去年（　　　）、今年は雨が少ない。",
+      "korean": "작년에 비해 올해는 비가 적다.",
+      "answerChoiceId": "fb-created-n2-239-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-239-01-d",
+          "text": "は別として",
+          "grammarId": "n2-248",
+          "baseExpression": "は別として",
+          "conjugatedExpression": "は別として",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-239-01-a",
+          "text": "に比べて",
+          "grammarId": "n2-239",
+          "baseExpression": "に比べて",
+          "conjugatedExpression": "に比べて",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-239-01-b",
+          "text": "に対して",
+          "grammarId": "n2-241",
+          "baseExpression": "に対して",
+          "conjugatedExpression": "に対して",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-239-01-c",
+          "text": "に反して",
+          "grammarId": "n2-244",
+          "baseExpression": "に反して",
+          "conjugatedExpression": "に反して",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「に比べて」는 '~에 비해서'라는 뜻이다. 두 대상을 기준으로 차이를 비교함.",
+      "sourceGrammarIds": [
+        "n2-239",
+        "n2-241",
+        "n2-244",
+        "n2-248"
+      ],
+      "tags": [
+        "비교",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-239-01",
+      "level": "N2",
+      "sentence": "去年に比べて、今年は雨が少ない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "작년에 비해 올해는 비가 적다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-239-01-p4",
+          "text": "少ない。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-239-01-p1",
+          "text": "去年",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-239-01-p2",
+          "text": "に比べて、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-239-01-p3",
+          "text": "今年は雨が",
+          "order": 3
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-239-01-p1",
+        "so-created-n2-239-01-p2",
+        "so-created-n2-239-01-p3",
+        "so-created-n2-239-01-p4"
+      ],
+      "explanation": "「に比べて」를 사용해 '~에 비해서'의 의미를 나타낸 문장이다. 두 대상을 기준으로 차이를 비교함.",
+      "sourceGrammarIds": [
+        "n2-239",
+        "n2-241",
+        "n2-244",
+        "n2-248"
+      ],
+      "tags": [
+        "비교",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

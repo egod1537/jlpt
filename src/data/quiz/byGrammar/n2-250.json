@@ -1,0 +1,112 @@
+{
+  "grammarId": "n2-250",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-250-01",
+      "level": "N2",
+      "sentence": "彼は英語はもちろん、中国語も話せる。",
+      "sentenceWithBlank": "彼は英語（　　　）、中国語も話せる。",
+      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
+      "answerChoiceId": "fb-created-n2-250-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-250-01-c",
+          "text": "一方だ",
+          "grammarId": "n2-194",
+          "baseExpression": "一方だ",
+          "conjugatedExpression": "一方だ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-250-01-d",
+          "text": "上",
+          "grammarId": "n2-196",
+          "baseExpression": "～上（じょう）",
+          "conjugatedExpression": "上",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-250-01-a",
+          "text": "はもちろん",
+          "grammarId": "n2-250",
+          "baseExpression": "はもちろん",
+          "conjugatedExpression": "はもちろん",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-250-01-b",
+          "text": "上に",
+          "grammarId": "n2-195",
+          "baseExpression": "上に",
+          "conjugatedExpression": "上に",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「はもちろん」는 '~은 물론이고'라는 뜻이다. 당연히 포함되는 대상을 먼저 말하고 다른 대상까지 추가함.",
+      "sourceGrammarIds": [
+        "n2-250",
+        "n2-195",
+        "n2-194",
+        "n2-196"
+      ],
+      "tags": [
+        "추가",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-250-01",
+      "level": "N2",
+      "sentence": "彼は英語はもちろん、中国語も話せる。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "그는 영어는 물론이고 중국어도 할 수 있다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-250-01-p3",
+          "text": "中国語も",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-250-01-p4",
+          "text": "話せる。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-250-01-p1",
+          "text": "彼は英語",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-250-01-p2",
+          "text": "はもちろん、",
+          "order": 2
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-250-01-p1",
+        "so-created-n2-250-01-p2",
+        "so-created-n2-250-01-p3",
+        "so-created-n2-250-01-p4"
+      ],
+      "explanation": "「はもちろん」를 사용해 '~은 물론이고'의 의미를 나타낸 문장이다. 당연히 포함되는 대상을 먼저 말하고 다른 대상까지 추가함.",
+      "sourceGrammarIds": [
+        "n2-250",
+        "n2-195",
+        "n2-194",
+        "n2-196"
+      ],
+      "tags": [
+        "추가",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

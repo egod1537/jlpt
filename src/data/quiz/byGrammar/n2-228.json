@@ -1,0 +1,112 @@
+{
+  "grammarId": "n2-228",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-228-01",
+      "level": "N2",
+      "sentence": "彼は親切というか、おせっかいというか、よく人の世話をする。",
+      "sentenceWithBlank": "彼は親切（　　　）、おせっかいというか、よく人の世話をする。",
+      "korean": "그는 친절하다고 할까 오지랖이 넓다고 할까, 남을 자주 돌본다.",
+      "answerChoiceId": "fb-created-n2-228-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-228-01-a",
+          "text": "というか",
+          "grammarId": "n2-228",
+          "baseExpression": "というか",
+          "conjugatedExpression": "というか",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-228-01-b",
+          "text": "ということだ",
+          "grammarId": "n2-229",
+          "baseExpression": "ということだ",
+          "conjugatedExpression": "ということだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-228-01-c",
+          "text": "というより",
+          "grammarId": "n2-230",
+          "baseExpression": "というより",
+          "conjugatedExpression": "というより",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-228-01-d",
+          "text": "といっても",
+          "grammarId": "n2-231",
+          "baseExpression": "といっても",
+          "conjugatedExpression": "といっても",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「というか」는 '~라고 할까, 아니 ~라고 해야 할까'라는 뜻이다. 앞 표현을 정정하거나 더 적절한 표현으로 바꿈.",
+      "sourceGrammarIds": [
+        "n2-228",
+        "n2-229",
+        "n2-230",
+        "n2-231"
+      ],
+      "tags": [
+        "설명",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-228-01",
+      "level": "N2",
+      "sentence": "彼は親切というか、おせっかいというか、よく人の世話をする。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "그는 친절하다고 할까 오지랖이 넓다고 할까, 남을 자주 돌본다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-228-01-p1",
+          "text": "彼は親切",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-228-01-p2",
+          "text": "というか、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-228-01-p3",
+          "text": "おせっかいというか、よく",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-228-01-p4",
+          "text": "人の世話をする。",
+          "order": 4
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-228-01-p1",
+        "so-created-n2-228-01-p2",
+        "so-created-n2-228-01-p3",
+        "so-created-n2-228-01-p4"
+      ],
+      "explanation": "「というか」를 사용해 '~라고 할까, 아니 ~라고 해야 할까'의 의미를 나타낸 문장이다. 앞 표현을 정정하거나 더 적절한 표현으로 바꿈.",
+      "sourceGrammarIds": [
+        "n2-228",
+        "n2-229",
+        "n2-230",
+        "n2-231"
+      ],
+      "tags": [
+        "설명",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

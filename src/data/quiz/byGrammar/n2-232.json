@@ -1,0 +1,112 @@
+{
+  "grammarId": "n2-232",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-232-01",
+      "level": "N2",
+      "sentence": "留学生として日本の大学で勉強している。",
+      "sentenceWithBlank": "留学生（　　　）日本の大学で勉強している。",
+      "korean": "유학생으로서 일본 대학에서 공부하고 있다.",
+      "answerChoiceId": "fb-created-n2-232-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-232-01-a",
+          "text": "として",
+          "grammarId": "n2-232",
+          "baseExpression": "として",
+          "conjugatedExpression": "として",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-232-01-b",
+          "text": "上",
+          "grammarId": "n2-196",
+          "baseExpression": "～上（じょう）",
+          "conjugatedExpression": "上",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-232-01-c",
+          "text": "にすれば",
+          "grammarId": "n2-201",
+          "baseExpression": "にすれば",
+          "conjugatedExpression": "にすれば",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-232-01-d",
+          "text": "において",
+          "grammarId": "n2-235",
+          "baseExpression": "において / における",
+          "conjugatedExpression": "において",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「として」는 '~로서, ~의 자격으로'라는 뜻이다. 신분·자격·역할·입장을 나타냄.",
+      "sourceGrammarIds": [
+        "n2-232",
+        "n2-196",
+        "n2-201",
+        "n2-235"
+      ],
+      "tags": [
+        "관점",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-232-01",
+      "level": "N2",
+      "sentence": "留学生として日本の大学で勉強している。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "유학생으로서 일본 대학에서 공부하고 있다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-232-01-p1",
+          "text": "留学生",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-232-01-p2",
+          "text": "として",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-232-01-p3",
+          "text": "日本の大学で",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-232-01-p4",
+          "text": "勉強している。",
+          "order": 4
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-232-01-p1",
+        "so-created-n2-232-01-p2",
+        "so-created-n2-232-01-p3",
+        "so-created-n2-232-01-p4"
+      ],
+      "explanation": "「として」를 사용해 '~로서, ~의 자격으로'의 의미를 나타낸 문장이다. 신분·자격·역할·입장을 나타냄.",
+      "sourceGrammarIds": [
+        "n2-232",
+        "n2-196",
+        "n2-201",
+        "n2-235"
+      ],
+      "tags": [
+        "관점",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

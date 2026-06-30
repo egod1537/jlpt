@@ -1,0 +1,112 @@
+{
+  "grammarId": "n2-210",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-210-01",
+      "level": "N2",
+      "sentence": "来月、大阪へ転勤することになった。",
+      "sentenceWithBlank": "来月、大阪へ転勤する（　　　）。",
+      "korean": "다음 달 오사카로 전근하게 되었다.",
+      "answerChoiceId": "fb-created-n2-210-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-210-01-c",
+          "text": "一方だ",
+          "grammarId": "n2-194",
+          "baseExpression": "一方だ",
+          "conjugatedExpression": "一方だ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-210-01-d",
+          "text": "上に",
+          "grammarId": "n2-195",
+          "baseExpression": "上に",
+          "conjugatedExpression": "上に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-210-01-a",
+          "text": "ことになった",
+          "grammarId": "n2-210",
+          "baseExpression": "ことになる",
+          "conjugatedExpression": "ことになった",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-210-01-b",
+          "text": "ことにした",
+          "grammarId": "n2-211",
+          "baseExpression": "ことにする",
+          "conjugatedExpression": "ことにした",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ことになった」는 '~하게 되다, ~하기로 정해지다'라는 뜻이다. 자신의 직접적인 의지보다 외부 결정이나 상황에 의해 정해짐.",
+      "sourceGrammarIds": [
+        "n2-210",
+        "n2-211",
+        "n2-194",
+        "n2-195"
+      ],
+      "tags": [
+        "결정",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-210-01",
+      "level": "N2",
+      "sentence": "来月、大阪へ転勤することになった。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "다음 달 오사카로 전근하게 되었다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-210-01-p3",
+          "text": "転勤する",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-210-01-p4",
+          "text": "ことになった。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-210-01-p1",
+          "text": "来月、",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-210-01-p2",
+          "text": "大阪へ",
+          "order": 2
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-210-01-p1",
+        "so-created-n2-210-01-p2",
+        "so-created-n2-210-01-p3",
+        "so-created-n2-210-01-p4"
+      ],
+      "explanation": "「ことになった」를 사용해 '~하게 되다, ~하기로 정해지다'의 의미를 나타낸 문장이다. 자신의 직접적인 의지보다 외부 결정이나 상황에 의해 정해짐.",
+      "sourceGrammarIds": [
+        "n2-210",
+        "n2-211",
+        "n2-194",
+        "n2-195"
+      ],
+      "tags": [
+        "결정",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

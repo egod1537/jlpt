@@ -1,0 +1,112 @@
+{
+  "grammarId": "n2-198",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-198-01",
+      "level": "N2",
+      "sentence": "先生のおかげで、試験に合格できた。",
+      "sentenceWithBlank": "先生の（　　　）、試験に合格できた。",
+      "korean": "선생님 덕분에 시험에 합격할 수 있었다.",
+      "answerChoiceId": "fb-created-n2-198-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-198-01-c",
+          "text": "とみえて",
+          "grammarId": "n2-234",
+          "baseExpression": "とみえて",
+          "conjugatedExpression": "とみえて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-198-01-d",
+          "text": "によると",
+          "grammarId": "n2-246",
+          "baseExpression": "によると / によれば",
+          "conjugatedExpression": "によると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-198-01-a",
+          "text": "おかげで",
+          "grammarId": "n2-198",
+          "baseExpression": "おかげで / せいで",
+          "conjugatedExpression": "おかげで",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-198-01-b",
+          "text": "ことから",
+          "grammarId": "n2-207",
+          "baseExpression": "ことから",
+          "conjugatedExpression": "ことから",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「おかげで」는 '~덕분에 / ~탓에'라는 뜻이다. おかげで는 좋은 결과의 원인, せいで는 나쁜 결과의 원인을 나타냄.",
+      "sourceGrammarIds": [
+        "n2-198",
+        "n2-207",
+        "n2-234",
+        "n2-246"
+      ],
+      "tags": [
+        "원인",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-198-01",
+      "level": "N2",
+      "sentence": "先生のおかげで、試験に合格できた。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "선생님 덕분에 시험에 합격할 수 있었다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-198-01-p3",
+          "text": "試験に",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-198-01-p4",
+          "text": "合格できた。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-198-01-p1",
+          "text": "先生の",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-198-01-p2",
+          "text": "おかげで、",
+          "order": 2
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-198-01-p1",
+        "so-created-n2-198-01-p2",
+        "so-created-n2-198-01-p3",
+        "so-created-n2-198-01-p4"
+      ],
+      "explanation": "「おかげで」를 사용해 '~덕분에 / ~탓에'의 의미를 나타낸 문장이다. おかげで는 좋은 결과의 원인, せいで는 나쁜 결과의 원인을 나타냄.",
+      "sourceGrammarIds": [
+        "n2-198",
+        "n2-207",
+        "n2-234",
+        "n2-246"
+      ],
+      "tags": [
+        "원인",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

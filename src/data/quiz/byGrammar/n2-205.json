@@ -1,0 +1,112 @@
+{
+  "grammarId": "n2-205",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-205-01",
+      "level": "N2",
+      "sentence": "来年、日本へ留学する気だ。",
+      "sentenceWithBlank": "来年、日本へ留学する（　　　）。",
+      "korean": "내년에 일본으로 유학할 생각이다.",
+      "answerChoiceId": "fb-created-n2-205-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-205-01-b",
+          "text": "ことにした",
+          "grammarId": "n2-211",
+          "baseExpression": "ことにする",
+          "conjugatedExpression": "ことにした",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-205-01-c",
+          "text": "てみせる",
+          "grammarId": "n2-227",
+          "baseExpression": "てみせる",
+          "conjugatedExpression": "てみせる",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-205-01-d",
+          "text": "一方だ",
+          "grammarId": "n2-194",
+          "baseExpression": "一方だ",
+          "conjugatedExpression": "一方だ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-205-01-a",
+          "text": "気だ",
+          "grammarId": "n2-205",
+          "baseExpression": "気だ",
+          "conjugatedExpression": "気だ",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「気だ」는 '~할 생각이다, ~할 작정이다'라는 뜻이다. 화자의 의도나 마음가짐을 나타냄.",
+      "sourceGrammarIds": [
+        "n2-205",
+        "n2-211",
+        "n2-227",
+        "n2-194"
+      ],
+      "tags": [
+        "의지",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-205-01",
+      "level": "N2",
+      "sentence": "来年、日本へ留学する気だ。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "내년에 일본으로 유학할 생각이다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-205-01-p2",
+          "text": "日本へ",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-205-01-p3",
+          "text": "留学する",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-205-01-p4",
+          "text": "気だ。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-205-01-p1",
+          "text": "来年、",
+          "order": 1
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-205-01-p1",
+        "so-created-n2-205-01-p2",
+        "so-created-n2-205-01-p3",
+        "so-created-n2-205-01-p4"
+      ],
+      "explanation": "「気だ」를 사용해 '~할 생각이다, ~할 작정이다'의 의미를 나타낸 문장이다. 화자의 의도나 마음가짐을 나타냄.",
+      "sourceGrammarIds": [
+        "n2-205",
+        "n2-211",
+        "n2-227",
+        "n2-194"
+      ],
+      "tags": [
+        "의지",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

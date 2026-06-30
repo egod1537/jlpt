@@ -1,0 +1,112 @@
+{
+  "grammarId": "n2-231",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-231-01",
+      "level": "N2",
+      "sentence": "日本語が話せるといっても、簡単な会話だけだ。",
+      "sentenceWithBlank": "日本語が話せる（　　　）、簡単な会話だけだ。",
+      "korean": "일본어를 할 수 있다고 해도 간단한 회화뿐이다.",
+      "answerChoiceId": "fb-created-n2-231-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-231-01-d",
+          "text": "というより",
+          "grammarId": "n2-230",
+          "baseExpression": "というより",
+          "conjugatedExpression": "というより",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-231-01-a",
+          "text": "といっても",
+          "grammarId": "n2-231",
+          "baseExpression": "といっても",
+          "conjugatedExpression": "といっても",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-231-01-b",
+          "text": "というか",
+          "grammarId": "n2-228",
+          "baseExpression": "というか",
+          "conjugatedExpression": "というか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-231-01-c",
+          "text": "ということだ",
+          "grammarId": "n2-229",
+          "baseExpression": "ということだ",
+          "conjugatedExpression": "ということだ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「といっても」는 '~라고 해도'라는 뜻이다. 앞 표현에서 예상되는 정도와 실제가 다름을 보충 설명.",
+      "sourceGrammarIds": [
+        "n2-231",
+        "n2-228",
+        "n2-229",
+        "n2-230"
+      ],
+      "tags": [
+        "설명",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-231-01",
+      "level": "N2",
+      "sentence": "日本語が話せるといっても、簡単な会話だけだ。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "일본어를 할 수 있다고 해도 간단한 회화뿐이다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-231-01-p4",
+          "text": "会話だけだ。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-231-01-p1",
+          "text": "日本語が話せる",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-231-01-p2",
+          "text": "といっても、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-231-01-p3",
+          "text": "簡単な",
+          "order": 3
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-231-01-p1",
+        "so-created-n2-231-01-p2",
+        "so-created-n2-231-01-p3",
+        "so-created-n2-231-01-p4"
+      ],
+      "explanation": "「といっても」를 사용해 '~라고 해도'의 의미를 나타낸 문장이다. 앞 표현에서 예상되는 정도와 실제가 다름을 보충 설명.",
+      "sourceGrammarIds": [
+        "n2-231",
+        "n2-228",
+        "n2-229",
+        "n2-230"
+      ],
+      "tags": [
+        "설명",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

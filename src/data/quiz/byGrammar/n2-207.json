@@ -1,0 +1,112 @@
+{
+  "grammarId": "n2-207",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-207-01",
+      "level": "N2",
+      "sentence": "道が星の形をしていることから、この町は「星の町」と呼ばれている。",
+      "sentenceWithBlank": "道が星の形をしている（　　　）、この町は「星の町」と呼ばれている。",
+      "korean": "길이 별 모양을 하고 있다는 점에서 이 마을은 ‘별의 마을’이라고 불린다.",
+      "answerChoiceId": "fb-created-n2-207-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-207-01-d",
+          "text": "によると",
+          "grammarId": "n2-246",
+          "baseExpression": "によると / によれば",
+          "conjugatedExpression": "によると",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-207-01-a",
+          "text": "ことから",
+          "grammarId": "n2-207",
+          "baseExpression": "ことから",
+          "conjugatedExpression": "ことから",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-207-01-b",
+          "text": "おかげで",
+          "grammarId": "n2-198",
+          "baseExpression": "おかげで / せいで",
+          "conjugatedExpression": "おかげで",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-207-01-c",
+          "text": "とみえて",
+          "grammarId": "n2-234",
+          "baseExpression": "とみえて",
+          "conjugatedExpression": "とみえて",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「ことから」는 '~라는 점에서, ~로 인해'라는 뜻이다. 판단·명칭·결론의 근거를 제시함.",
+      "sourceGrammarIds": [
+        "n2-207",
+        "n2-198",
+        "n2-234",
+        "n2-246"
+      ],
+      "tags": [
+        "원인",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-207-01",
+      "level": "N2",
+      "sentence": "道が星の形をしていることから、この町は「星の町」と呼ばれている。",
+      "sentenceWithBlanks": "道が ____ ____ ____ ____ 呼ばれている。",
+      "korean": "길이 별 모양을 하고 있다는 점에서 이 마을은 ‘별의 마을’이라고 불린다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-207-01-p4",
+          "text": "星の町」と",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-207-01-p1",
+          "text": "星の形をしている",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-207-01-p2",
+          "text": "ことから、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-207-01-p3",
+          "text": "この町は「",
+          "order": 3
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-207-01-p1",
+        "so-created-n2-207-01-p2",
+        "so-created-n2-207-01-p3",
+        "so-created-n2-207-01-p4"
+      ],
+      "explanation": "「ことから」를 사용해 '~라는 점에서, ~로 인해'의 의미를 나타낸 문장이다. 판단·명칭·결론의 근거를 제시함.",
+      "sourceGrammarIds": [
+        "n2-207",
+        "n2-198",
+        "n2-234",
+        "n2-246"
+      ],
+      "tags": [
+        "원인",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

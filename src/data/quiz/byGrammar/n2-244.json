@@ -1,0 +1,112 @@
+{
+  "grammarId": "n2-244",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-244-01",
+      "level": "N2",
+      "sentence": "予想に反して、試験は簡単だった。",
+      "sentenceWithBlank": "予想（　　　）、試験は簡単だった。",
+      "korean": "예상과 달리 시험은 쉬웠다.",
+      "answerChoiceId": "fb-created-n2-244-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-244-01-a",
+          "text": "に反して",
+          "grammarId": "n2-244",
+          "baseExpression": "に反して",
+          "conjugatedExpression": "に反して",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-244-01-b",
+          "text": "に比べて",
+          "grammarId": "n2-239",
+          "baseExpression": "に比べて",
+          "conjugatedExpression": "に比べて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-244-01-c",
+          "text": "に対して",
+          "grammarId": "n2-241",
+          "baseExpression": "に対して",
+          "conjugatedExpression": "に対して",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-244-01-d",
+          "text": "は別として",
+          "grammarId": "n2-248",
+          "baseExpression": "は別として",
+          "conjugatedExpression": "は別として",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「に反して」는 '~에 반하여, ~와 반대로'라는 뜻이다. 예상·규칙·명령·의도와 실제 결과가 어긋남.",
+      "sourceGrammarIds": [
+        "n2-244",
+        "n2-239",
+        "n2-241",
+        "n2-248"
+      ],
+      "tags": [
+        "비교",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-244-01",
+      "level": "N2",
+      "sentence": "予想に反して、試験は簡単だった。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "예상과 달리 시험은 쉬웠다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-244-01-p1",
+          "text": "予想",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-244-01-p2",
+          "text": "に反して、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-244-01-p3",
+          "text": "試験は",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-244-01-p4",
+          "text": "簡単だった。",
+          "order": 4
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-244-01-p1",
+        "so-created-n2-244-01-p2",
+        "so-created-n2-244-01-p3",
+        "so-created-n2-244-01-p4"
+      ],
+      "explanation": "「に反して」를 사용해 '~에 반하여, ~와 반대로'의 의미를 나타낸 문장이다. 예상·규칙·명령·의도와 실제 결과가 어긋남.",
+      "sourceGrammarIds": [
+        "n2-244",
+        "n2-239",
+        "n2-241",
+        "n2-248"
+      ],
+      "tags": [
+        "비교",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

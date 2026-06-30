@@ -1,0 +1,112 @@
+{
+  "grammarId": "n2-254",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-254-01",
+      "level": "N2",
+      "sentence": "留学をきっかけに、将来について真剣に考えるようになった。",
+      "sentenceWithBlank": "留学（　　　）、将来について真剣に考えるようになった。",
+      "korean": "유학을 계기로 장래에 대해 진지하게 생각하게 되었다.",
+      "answerChoiceId": "fb-created-n2-254-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-254-01-c",
+          "text": "上に",
+          "grammarId": "n2-195",
+          "baseExpression": "上に",
+          "conjugatedExpression": "上に",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-254-01-d",
+          "text": "上",
+          "grammarId": "n2-196",
+          "baseExpression": "～上（じょう）",
+          "conjugatedExpression": "上",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-254-01-a",
+          "text": "をきっかけに",
+          "grammarId": "n2-254",
+          "baseExpression": "をきっかけに（して）",
+          "conjugatedExpression": "をきっかけに",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-254-01-b",
+          "text": "一方だ",
+          "grammarId": "n2-194",
+          "baseExpression": "一方だ",
+          "conjugatedExpression": "一方だ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「をきっかけに」는 '~을 계기로'라는 뜻이다. 어떤 사건이 새로운 행동이나 변화가 시작되는 계기가 됨.",
+      "sourceGrammarIds": [
+        "n2-254",
+        "n2-194",
+        "n2-195",
+        "n2-196"
+      ],
+      "tags": [
+        "계기",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-254-01",
+      "level": "N2",
+      "sentence": "留学をきっかけに、将来について真剣に考えるようになった。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "유학을 계기로 장래에 대해 진지하게 생각하게 되었다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-254-01-p3",
+          "text": "真剣に",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-254-01-p4",
+          "text": "考えるようになった。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-254-01-p1",
+          "text": "留学をきっかけに、",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-254-01-p2",
+          "text": "将来について",
+          "order": 2
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-254-01-p1",
+        "so-created-n2-254-01-p2",
+        "so-created-n2-254-01-p3",
+        "so-created-n2-254-01-p4"
+      ],
+      "explanation": "「をきっかけに」를 사용해 '~을 계기로'의 의미를 나타낸 문장이다. 어떤 사건이 새로운 행동이나 변화가 시작되는 계기가 됨.",
+      "sourceGrammarIds": [
+        "n2-254",
+        "n2-194",
+        "n2-195",
+        "n2-196"
+      ],
+      "tags": [
+        "계기",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

@@ -1,375 +1,52 @@
-import { useMemo, useState } from "react";
+import { Component } from "react";
 import type { GrammarItem } from "../../types/grammar";
-import type { AnswerResult, QuizMode, QuizQuestion } from "../../types/quiz";
-import { useQuizSession } from "../../hooks/useQuizSession";
-import { buildGrammarQuestionPool, getQuizQuestionCount } from "../../utils/quizSetBuilder";
-import { GrammarRecallCard } from "./GrammarRecallCard";
-import { QuizCard } from "./QuizCard";
-import { QuizModeSelector } from "./QuizModeSelector";
-import { QuizSetResult } from "./QuizSetResult";
-import { ReviewGate } from "./ReviewGate";
+import type { QuizMode } from "../../types/quiz";
+import { QuizSessionPanel } from "./QuizSessionPanel";
+import type { QuizScope } from "./quizConfig";
 
 interface QuizPageProps {
   favoriteIds: readonly string[];
   grammarItems: readonly GrammarItem[];
 }
 
-type QuizScope = "all" | "favorites";
-
-interface QuizSessionPanelProps {
-  favoriteIds: readonly string[];
+interface QuizPageState {
   mode: QuizMode;
-  grammarItems: readonly GrammarItem[];
   scope: QuizScope;
-  onModeChange: (mode: QuizMode) => void;
-  onScopeChange: (scope: QuizScope) => void;
 }
 
-const QUIZ_SET_SIZE = 20;
-const GROUPED_SET_COUNT = 3;
+export class QuizPage extends Component<QuizPageProps, QuizPageState> {
+  state: QuizPageState = {
+    mode: "meaning",
+    scope: "all",
+  };
 
-interface QuizSetOption {
-  id: string;
-  label: string;
-  rangeLabel: string;
-  setIndex: number;
-  setSize: number;
-}
+  private handleModeChange = (mode: QuizMode): void => {
+    this.setState({ mode });
+  };
 
-function buildQuizSetOptions(questionCount: number): QuizSetOption[] {
-  const options: QuizSetOption[] = [];
-  const setCount = Math.ceil(questionCount / QUIZ_SET_SIZE);
-  const groupedSetSize = QUIZ_SET_SIZE * GROUPED_SET_COUNT;
+  private handleScopeChange = (scope: QuizScope): void => {
+    this.setState({ scope });
+  };
 
-  for (let setIndex = 0; setIndex < setCount; setIndex += 1) {
-    const startNumber = setIndex * QUIZ_SET_SIZE + 1;
-    const endNumber = Math.min((setIndex + 1) * QUIZ_SET_SIZE, questionCount);
+  render() {
+    const { favoriteIds, grammarItems } = this.props;
+    const { mode, scope } = this.state;
+    const sessionKey = `${mode}:${scope}:${
+      scope === "favorites" ? favoriteIds.join(",") : "all"
+    }`;
 
-    options.push({
-      id: `standard-${setIndex}`,
-      label: `${setIndex + 1}세트`,
-      rangeLabel: `${startNumber}-${endNumber}`,
-      setIndex,
-      setSize: QUIZ_SET_SIZE,
-    });
-
-    if ((setIndex + 1) % GROUPED_SET_COUNT === 0) {
-      const groupedSetIndex = Math.floor(setIndex / GROUPED_SET_COUNT);
-      const groupedStartNumber = groupedSetIndex * groupedSetSize + 1;
-      const groupedEndNumber = Math.min((groupedSetIndex + 1) * groupedSetSize, questionCount);
-
-      options.push({
-        id: `grouped-${groupedSetIndex}`,
-        label: "묶음 세트",
-        rangeLabel: `${groupedStartNumber}-${groupedEndNumber}`,
-        setIndex: groupedSetIndex,
-        setSize: groupedSetSize,
-      });
-    }
+    return (
+      <section className="quiz-section">
+        <QuizSessionPanel
+          favoriteIds={favoriteIds}
+          grammarItems={grammarItems}
+          key={sessionKey}
+          mode={mode}
+          scope={scope}
+          onModeChange={this.handleModeChange}
+          onScopeChange={this.handleScopeChange}
+        />
+      </section>
+    );
   }
-
-  if (questionCount > 0) {
-    options.push({
-      id: "all",
-      label: "전체 세트",
-      rangeLabel: `1-${questionCount}`,
-      setIndex: 0,
-      setSize: questionCount,
-    });
-  }
-
-  return options;
-}
-
-function usesSelectableSets(mode: QuizMode): boolean {
-  return (
-    mode === "meaning" ||
-    mode === "grammar" ||
-    mode === "example" ||
-    mode === "sentenceOrder" ||
-    mode === "recall"
-  );
-}
-
-function QuizSessionPanel({
-  favoriteIds,
-  mode,
-  grammarItems,
-  scope,
-  onModeChange,
-  onScopeChange,
-}: QuizSessionPanelProps) {
-  const favoriteIdSet = useMemo(() => new Set(favoriteIds), [favoriteIds]);
-  const questionPool = useMemo(() => {
-    const questions = buildGrammarQuestionPool(mode, grammarItems);
-
-    return scope === "all"
-      ? questions
-      : questions.filter(
-          (question) =>
-            question.sourceGrammarId !== undefined &&
-            favoriteIdSet.has(question.sourceGrammarId),
-        );
-  }, [favoriteIdSet, grammarItems, mode, scope]);
-  const questionCount = useMemo(() => getQuizQuestionCount(questionPool), [questionPool]);
-  const favoriteScopeKey =
-    scope === "favorites" ? [...favoriteIds].sort().join(",") || "empty" : "all";
-  const session = useQuizSession({
-    questionPool,
-    setSize: QUIZ_SET_SIZE,
-    storageKey: `jlpt-quiz-session:${mode}:${scope}:${favoriteScopeKey}`,
-  });
-  const [answerResult, setAnswerResult] = useState<AnswerResult | null>(null);
-  const [answeredQuestion, setAnsweredQuestion] = useState<QuizQuestion | null>(null);
-
-  const answeredCount = session.correctCount + session.wrongCount;
-  const setOptions = useMemo(() => buildQuizSetOptions(questionCount), [questionCount]);
-  const currentSetOption = setOptions.find(
-    (option) => option.setIndex === session.currentSetIndex && option.setSize === session.currentSetSize,
-  );
-  const currentSetLabel =
-    currentSetOption?.rangeLabel ??
-    `${session.currentSetIndex * session.currentSetSize + 1}-${Math.min(
-      (session.currentSetIndex + 1) * session.currentSetSize,
-      questionCount,
-    )}`;
-  const accuracy = answeredCount > 0 ? `${Math.round((session.correctCount / answeredCount) * 100)}%` : "—";
-  const selectedChoiceId = answerResult?.selectedChoiceId;
-  const selectedChoiceIds = answerResult?.selectedChoiceIds;
-  const displayQuestion = session.currentQuestion ?? (answerResult !== null ? answeredQuestion : null);
-  const isLastQuestion = session.currentQuestionIndex >= session.currentQuestions.length - 1;
-  const progressText =
-    session.phase === "SET_COMPLETE"
-      ? `${session.currentQuestions.length} / ${session.currentQuestions.length}`
-      : `${session.currentQuestionIndex + 1} / ${session.currentQuestions.length}`;
-  const nextLabel = isLastQuestion
-    ? session.phase === "REVIEW"
-      ? "복습 계속 →"
-      : "세트 결과 보기 →"
-    : "다음 문제 →";
-
-  const handleAnswer = (answer: Parameters<typeof session.answerCurrentQuestion>[0]) => {
-    if (answerResult !== null || session.currentQuestion === undefined) {
-      return;
-    }
-
-    setAnswerResult(session.answerCurrentQuestion(answer));
-    setAnsweredQuestion(session.currentQuestion);
-  };
-
-  const handleNext = () => {
-    session.goToNextQuestion();
-    setAnswerResult(null);
-    setAnsweredQuestion(null);
-  };
-
-  const handleRecallRate = (known: boolean) => {
-    const question = session.currentQuestion;
-
-    if (question === undefined) {
-      return;
-    }
-
-    const selectedChoiceId = known
-      ? question.answerChoiceId
-      : question.choices.find((choice) => choice.id !== question.answerChoiceId)?.id;
-
-    if (selectedChoiceId === undefined) {
-      return;
-    }
-
-    session.answerCurrentQuestion({ selectedChoiceId });
-    session.goToNextQuestion();
-  };
-
-  const handleStartReview = () => {
-    session.startReviewSession();
-    setAnswerResult(null);
-    setAnsweredQuestion(null);
-  };
-
-  const handleNextSet = () => {
-    session.goToNextSet();
-    setAnswerResult(null);
-    setAnsweredQuestion(null);
-  };
-
-  const handleSetSelect = (option: QuizSetOption) => {
-    session.startSet(option.setIndex, option.setSize);
-    setAnswerResult(null);
-    setAnsweredQuestion(null);
-  };
-
-  const handleReset = () => {
-    session.startSet(session.currentSetIndex, session.currentSetSize);
-    setAnswerResult(null);
-    setAnsweredQuestion(null);
-  };
-
-  return (
-    <>
-      <div className="quiz-header-bar">
-        <h2>문법 테스트</h2>
-        {questionCount > 0 && (
-          <div className="quiz-stats">
-            <span>
-              현재 세트 <span className="stat-val">{currentSetLabel}</span>
-            </span>
-            <span>
-              진행도 <span className="stat-val">{progressText}</span>
-            </span>
-            {session.phase === "REVIEW" ? (
-              <>
-                <span>
-                  {mode === "recall" ? "남은 학습" : "남은 오답"}{" "}
-                  <span className="stat-val wrong">{session.wrongQueue.length}</span>
-                </span>
-                <span>
-                  {mode === "recall" ? "복습 완료" : "복습 정답"}{" "}
-                  <span className="stat-val correct">{session.reviewedCorrectCount}</span>
-                </span>
-                <span>
-                  {mode === "recall" ? "다시 학습" : "복습 오답"}{" "}
-                  <span className="stat-val wrong">{session.reviewedWrongCount}</span>
-                </span>
-              </>
-            ) : (
-              <>
-                <span>
-                  {mode === "recall" ? "알고 있음" : "정답"}{" "}
-                  <span className="stat-val correct">{session.correctCount}</span>
-                </span>
-                <span>
-                  {mode === "recall" ? "공부 필요" : "오답"}{" "}
-                  <span className="stat-val wrong">{session.wrongCount}</span>
-                </span>
-                <span>
-                  {mode === "recall" ? "암기율" : "정확도"} <span className="stat-val">{accuracy}</span>
-                </span>
-              </>
-            )}
-          </div>
-        )}
-      </div>
-
-      <QuizModeSelector activeMode={mode} onModeChange={onModeChange} />
-
-      <div className="quiz-scope-selector" aria-label="테스트 출제 범위">
-        <span className="scope-selector-label">출제 범위</span>
-        <button
-          className={`scope-btn${scope === "all" ? " active" : ""}`}
-          type="button"
-          onClick={() => onScopeChange("all")}
-        >
-          전체
-        </button>
-        <button
-          className={`scope-btn${scope === "favorites" ? " active" : ""}`}
-          type="button"
-          onClick={() => onScopeChange("favorites")}
-        >
-          ★ 즐겨찾기
-          <span>{favoriteIds.length}</span>
-        </button>
-      </div>
-
-      {usesSelectableSets(mode) && questionCount > 0 && (
-        <div className="quiz-set-selector" aria-label="문제 세트 선택">
-          <span className="set-selector-label">세트 선택</span>
-          <div className="set-selector-buttons">
-            {setOptions.map((option) => (
-              <button
-                className={`set-selector-btn${
-                  session.currentSetIndex === option.setIndex && session.currentSetSize === option.setSize
-                    ? " active"
-                    : ""
-                }`}
-                key={option.id}
-                type="button"
-                onClick={() => handleSetSelect(option)}
-              >
-                {option.label}
-                <span>{option.rangeLabel}</span>
-              </button>
-            ))}
-          </div>
-        </div>
-      )}
-
-      {session.phase === "REVIEW" && (
-        <ReviewGate
-          isRecallMode={mode === "recall"}
-          remainingWrongCount={session.wrongQueue.length}
-          reviewedCorrectCount={session.reviewedCorrectCount}
-          reviewedWrongCount={session.reviewedWrongCount}
-          wrongQueue={session.wrongQueue}
-        />
-      )}
-
-      {questionCount === 0 ? (
-        <div className="quiz-empty-state">
-          <div className="quiz-empty-symbol" aria-hidden="true">☆</div>
-          <strong>즐겨찾기한 문법이 없습니다</strong>
-          <p>사전 상세 화면에서 문법을 즐겨찾기에 추가한 뒤 다시 테스트하세요.</p>
-        </div>
-      ) : displayQuestion === null ? (
-        <QuizSetResult
-          canProceedToNextSet={session.canProceedToNextSet}
-          correctCount={session.correctCount}
-          currentSetLabel={currentSetLabel}
-          isRecallMode={mode === "recall"}
-          reviewedCorrectCount={session.reviewedCorrectCount}
-          reviewedWrongCount={session.reviewedWrongCount}
-          totalQuestions={session.currentQuestions.length}
-          wrongCount={session.wrongCount}
-          wrongQueue={session.wrongQueue}
-          onNextSet={handleNextSet}
-          onReset={handleReset}
-          onStartReview={handleStartReview}
-        />
-      ) : mode === "recall" ? (
-        <GrammarRecallCard
-          key={displayQuestion.id}
-          question={displayQuestion}
-          questionIndex={session.currentQuestionIndex}
-          totalQuestions={session.currentQuestions.length}
-          onRate={handleRecallRate}
-        />
-      ) : (
-        <QuizCard
-          nextLabel={nextLabel}
-          question={displayQuestion}
-          questionIndex={session.currentQuestionIndex}
-          selectedChoiceId={selectedChoiceId}
-          selectedChoiceIds={selectedChoiceIds}
-          totalQuestions={session.currentQuestions.length}
-          onAnswer={handleAnswer}
-          onNext={handleNext}
-        />
-      )}
-    </>
-  );
-}
-
-export function QuizPage({ favoriteIds, grammarItems }: QuizPageProps) {
-  const [mode, setMode] = useState<QuizMode>("meaning");
-  const [scope, setScope] = useState<QuizScope>("all");
-
-  const handleModeChange = (nextMode: QuizMode) => {
-    setMode(nextMode);
-  };
-
-  return (
-    <section className="quiz-section">
-      <QuizSessionPanel
-        favoriteIds={favoriteIds}
-        grammarItems={grammarItems}
-        key={`${mode}:${scope}:${scope === "favorites" ? favoriteIds.join(",") : "all"}`}
-        mode={mode}
-        scope={scope}
-        onModeChange={handleModeChange}
-        onScopeChange={setScope}
-      />
-    </section>
-  );
 }

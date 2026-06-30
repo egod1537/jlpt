@@ -1,0 +1,112 @@
+{
+  "grammarId": "n2-237",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-237-01",
+      "level": "N2",
+      "sentence": "日本の教育制度について調べています。",
+      "sentenceWithBlank": "日本の教育制度（　　　）調べています。",
+      "korean": "일본의 교육제도에 관해서 조사하고 있습니다.",
+      "answerChoiceId": "fb-created-n2-237-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-237-01-b",
+          "text": "上",
+          "grammarId": "n2-196",
+          "baseExpression": "～上（じょう）",
+          "conjugatedExpression": "上",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-237-01-c",
+          "text": "にすれば",
+          "grammarId": "n2-201",
+          "baseExpression": "にすれば",
+          "conjugatedExpression": "にすれば",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-237-01-d",
+          "text": "として",
+          "grammarId": "n2-232",
+          "baseExpression": "として",
+          "conjugatedExpression": "として",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-237-01-a",
+          "text": "について",
+          "grammarId": "n2-237",
+          "baseExpression": "について",
+          "conjugatedExpression": "について",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「について」는 '~에 관해서, ~에 대해서'라는 뜻이다. 이야기·조사·연구 등의 대상을 제시함.",
+      "sourceGrammarIds": [
+        "n2-237",
+        "n2-196",
+        "n2-201",
+        "n2-232"
+      ],
+      "tags": [
+        "관점",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-237-01",
+      "level": "N2",
+      "sentence": "日本の教育制度について調べています。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "일본의 교육제도에 관해서 조사하고 있습니다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-237-01-p2",
+          "text": "教育制度",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-237-01-p3",
+          "text": "について",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-237-01-p4",
+          "text": "調べています。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-237-01-p1",
+          "text": "日本の",
+          "order": 1
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-237-01-p1",
+        "so-created-n2-237-01-p2",
+        "so-created-n2-237-01-p3",
+        "so-created-n2-237-01-p4"
+      ],
+      "explanation": "「について」를 사용해 '~에 관해서, ~에 대해서'의 의미를 나타낸 문장이다. 이야기·조사·연구 등의 대상을 제시함.",
+      "sourceGrammarIds": [
+        "n2-237",
+        "n2-196",
+        "n2-201",
+        "n2-232"
+      ],
+      "tags": [
+        "관점",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "grammarId": "n2-229",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-229-01",
+      "level": "N2",
+      "sentence": "天気予報によると、明日は雪が降るということだ。",
+      "sentenceWithBlank": "天気予報によると、明日は雪が降る（　　　）。",
+      "korean": "일기예보에 따르면 내일은 눈이 온다고 한다.",
+      "answerChoiceId": "fb-created-n2-229-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-229-01-b",
+          "text": "というか",
+          "grammarId": "n2-228",
+          "baseExpression": "というか",
+          "conjugatedExpression": "というか",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-229-01-c",
+          "text": "というより",
+          "grammarId": "n2-230",
+          "baseExpression": "というより",
+          "conjugatedExpression": "というより",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-229-01-d",
+          "text": "といっても",
+          "grammarId": "n2-231",
+          "baseExpression": "といっても",
+          "conjugatedExpression": "といっても",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-229-01-a",
+          "text": "ということだ",
+          "grammarId": "n2-229",
+          "baseExpression": "ということだ",
+          "conjugatedExpression": "ということだ",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「ということだ」는 '~라고 한다, ~라는 뜻이다'라는 뜻이다. 전달받은 정보 또는 앞 내용에서 도출되는 의미를 설명함.",
+      "sourceGrammarIds": [
+        "n2-229",
+        "n2-228",
+        "n2-230",
+        "n2-231"
+      ],
+      "tags": [
+        "설명",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-229-01",
+      "level": "N2",
+      "sentence": "天気予報によると、明日は雪が降るということだ。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "일기예보에 따르면 내일은 눈이 온다고 한다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-229-01-p2",
+          "text": "予報によると、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-229-01-p3",
+          "text": "明日は雪が降る",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-229-01-p4",
+          "text": "ということだ。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-229-01-p1",
+          "text": "天気",
+          "order": 1
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-229-01-p1",
+        "so-created-n2-229-01-p2",
+        "so-created-n2-229-01-p3",
+        "so-created-n2-229-01-p4"
+      ],
+      "explanation": "「ということだ」를 사용해 '~라고 한다, ~라는 뜻이다'의 의미를 나타낸 문장이다. 전달받은 정보 또는 앞 내용에서 도출되는 의미를 설명함.",
+      "sourceGrammarIds": [
+        "n2-229",
+        "n2-228",
+        "n2-230",
+        "n2-231"
+      ],
+      "tags": [
+        "설명",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

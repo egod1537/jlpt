@@ -1,0 +1,112 @@
+{
+  "grammarId": "n2-213",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-213-01",
+      "level": "N2",
+      "sentence": "時間さえあれば、旅行に行きたい。",
+      "sentenceWithBlank": "時間（　　　）、旅行に行きたい。",
+      "korean": "시간만 있으면 여행을 가고 싶다.",
+      "answerChoiceId": "fb-created-n2-213-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-213-01-b",
+          "text": "からこそ",
+          "grammarId": "n2-206",
+          "baseExpression": "こそ / こちらこそ / からこそ / ようこそ",
+          "conjugatedExpression": "からこそ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-213-01-c",
+          "text": "でさえ",
+          "grammarId": "n2-212",
+          "baseExpression": "でさえ / すら",
+          "conjugatedExpression": "でさえ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-213-01-d",
+          "text": "一方だ",
+          "grammarId": "n2-194",
+          "baseExpression": "一方だ",
+          "conjugatedExpression": "一方だ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-213-01-a",
+          "text": "さえあれば",
+          "grammarId": "n2-213",
+          "baseExpression": "さえ～ば",
+          "conjugatedExpression": "さえあれば",
+          "isSimilarDistractor": false
+        }
+      ],
+      "explanation": "「さえあれば」는 '~만 하면'라는 뜻이다. 그것 하나만 충족되면 충분하다는 최소 조건.",
+      "sourceGrammarIds": [
+        "n2-213",
+        "n2-206",
+        "n2-212",
+        "n2-194"
+      ],
+      "tags": [
+        "강조",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-213-01",
+      "level": "N2",
+      "sentence": "時間さえあれば、旅行に行きたい。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "시간만 있으면 여행을 가고 싶다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-213-01-p2",
+          "text": "さえあれば、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-213-01-p3",
+          "text": "旅行に",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-213-01-p4",
+          "text": "行きたい。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-213-01-p1",
+          "text": "時間",
+          "order": 1
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-213-01-p1",
+        "so-created-n2-213-01-p2",
+        "so-created-n2-213-01-p3",
+        "so-created-n2-213-01-p4"
+      ],
+      "explanation": "「さえあれば」를 사용해 '~만 하면'의 의미를 나타낸 문장이다. 그것 하나만 충족되면 충분하다는 최소 조건.",
+      "sourceGrammarIds": [
+        "n2-213",
+        "n2-206",
+        "n2-212",
+        "n2-194"
+      ],
+      "tags": [
+        "강조",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

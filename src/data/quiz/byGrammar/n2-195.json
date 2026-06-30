@@ -1,0 +1,112 @@
+{
+  "grammarId": "n2-195",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-195-01",
+      "level": "N2",
+      "sentence": "この店は料理がおいしい上に、値段も安い。",
+      "sentenceWithBlank": "この店は料理がおいしい（　　　）、値段も安い。",
+      "korean": "이 가게는 음식이 맛있는 데다가 가격도 싸다.",
+      "answerChoiceId": "fb-created-n2-195-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-195-01-d",
+          "text": "上",
+          "grammarId": "n2-196",
+          "baseExpression": "～上（じょう）",
+          "conjugatedExpression": "上",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-195-01-a",
+          "text": "上に",
+          "grammarId": "n2-195",
+          "baseExpression": "上に",
+          "conjugatedExpression": "上に",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-195-01-b",
+          "text": "はもちろん",
+          "grammarId": "n2-250",
+          "baseExpression": "はもちろん",
+          "conjugatedExpression": "はもちろん",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-195-01-c",
+          "text": "一方だ",
+          "grammarId": "n2-194",
+          "baseExpression": "一方だ",
+          "conjugatedExpression": "一方だ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「上に」는 '~한 데다가, ~뿐만 아니라'라는 뜻이다. 같은 방향의 특징이나 사정을 하나 더 덧붙임.",
+      "sourceGrammarIds": [
+        "n2-195",
+        "n2-250",
+        "n2-194",
+        "n2-196"
+      ],
+      "tags": [
+        "추가",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-195-01",
+      "level": "N2",
+      "sentence": "この店は料理がおいしい上に、値段も安い。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "이 가게는 음식이 맛있는 데다가 가격도 싸다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-195-01-p4",
+          "text": "値段も安い。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-195-01-p1",
+          "text": "この店は",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-195-01-p2",
+          "text": "料理がおいしい",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-195-01-p3",
+          "text": "上に、",
+          "order": 3
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-195-01-p1",
+        "so-created-n2-195-01-p2",
+        "so-created-n2-195-01-p3",
+        "so-created-n2-195-01-p4"
+      ],
+      "explanation": "「上に」를 사용해 '~한 데다가, ~뿐만 아니라'의 의미를 나타낸 문장이다. 같은 방향의 특징이나 사정을 하나 더 덧붙임.",
+      "sourceGrammarIds": [
+        "n2-195",
+        "n2-250",
+        "n2-194",
+        "n2-196"
+      ],
+      "tags": [
+        "추가",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

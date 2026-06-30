@@ -1,0 +1,112 @@
+{
+  "grammarId": "n2-227",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-227-01",
+      "level": "N2",
+      "sentence": "今度こそ必ず優勝してみせる。",
+      "sentenceWithBlank": "今度こそ必ず優勝し（　　　）。",
+      "korean": "이번에야말로 반드시 우승해 보이겠다.",
+      "answerChoiceId": "fb-created-n2-227-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-227-01-d",
+          "text": "一方だ",
+          "grammarId": "n2-194",
+          "baseExpression": "一方だ",
+          "conjugatedExpression": "一方だ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-227-01-a",
+          "text": "てみせる",
+          "grammarId": "n2-227",
+          "baseExpression": "てみせる",
+          "conjugatedExpression": "てみせる",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-227-01-b",
+          "text": "気だ",
+          "grammarId": "n2-205",
+          "baseExpression": "気だ",
+          "conjugatedExpression": "気だ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-227-01-c",
+          "text": "ことにした",
+          "grammarId": "n2-211",
+          "baseExpression": "ことにする",
+          "conjugatedExpression": "ことにした",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「てみせる」는 '반드시 ~해 보이겠다'라는 뜻이다. 강한 결의나 자신감을 나타냄. 실제로 보여 주겠다는 느낌.",
+      "sourceGrammarIds": [
+        "n2-227",
+        "n2-205",
+        "n2-211",
+        "n2-194"
+      ],
+      "tags": [
+        "의지",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-227-01",
+      "level": "N2",
+      "sentence": "今度こそ必ず優勝してみせる。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "이번에야말로 반드시 우승해 보이겠다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-227-01-p4",
+          "text": "てみせる。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-227-01-p1",
+          "text": "今度こそ",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-227-01-p2",
+          "text": "必ず",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-227-01-p3",
+          "text": "優勝し",
+          "order": 3
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-227-01-p1",
+        "so-created-n2-227-01-p2",
+        "so-created-n2-227-01-p3",
+        "so-created-n2-227-01-p4"
+      ],
+      "explanation": "「てみせる」를 사용해 '반드시 ~해 보이겠다'의 의미를 나타낸 문장이다. 강한 결의나 자신감을 나타냄. 실제로 보여 주겠다는 느낌.",
+      "sourceGrammarIds": [
+        "n2-227",
+        "n2-205",
+        "n2-211",
+        "n2-194"
+      ],
+      "tags": [
+        "의지",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "grammarId": "n2-223",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-223-01",
+      "level": "N2",
+      "sentence": "実物を見てからでないと、買うかどうか決められない。",
+      "sentenceWithBlank": "実物を見（　　　）、買うかどうか決められない。",
+      "korean": "실물을 본 후가 아니면 살지 결정할 수 없다.",
+      "answerChoiceId": "fb-created-n2-223-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-223-01-d",
+          "text": "そばから",
+          "grammarId": "n2-200",
+          "baseExpression": "そばから",
+          "conjugatedExpression": "そばから",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-223-01-a",
+          "text": "てからでないと",
+          "grammarId": "n2-223",
+          "baseExpression": "てからでないと / てからでなければ",
+          "conjugatedExpression": "てからでないと",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-223-01-b",
+          "text": "うちに",
+          "grammarId": "n2-197",
+          "baseExpression": "うちに / ないうちに",
+          "conjugatedExpression": "うちに",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-223-01-c",
+          "text": "やいなや",
+          "grammarId": "n2-199",
+          "baseExpression": "やいなや",
+          "conjugatedExpression": "やいなや",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「てからでないと」는 '~한 후가 아니면'라는 뜻이다. 앞 행동이 완료되어야 뒤 행동이 가능하다는 필수 순서.",
+      "sourceGrammarIds": [
+        "n2-223",
+        "n2-197",
+        "n2-199",
+        "n2-200"
+      ],
+      "tags": [
+        "시간",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-223-01",
+      "level": "N2",
+      "sentence": "実物を見てからでないと、買うかどうか決められない。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "실물을 본 후가 아니면 살지 결정할 수 없다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-223-01-p4",
+          "text": "決められない。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-223-01-p1",
+          "text": "実物を見",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-223-01-p2",
+          "text": "てからでないと、",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-223-01-p3",
+          "text": "買うかどうか",
+          "order": 3
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-223-01-p1",
+        "so-created-n2-223-01-p2",
+        "so-created-n2-223-01-p3",
+        "so-created-n2-223-01-p4"
+      ],
+      "explanation": "「てからでないと」를 사용해 '~한 후가 아니면'의 의미를 나타낸 문장이다. 앞 행동이 완료되어야 뒤 행동이 가능하다는 필수 순서.",
+      "sourceGrammarIds": [
+        "n2-223",
+        "n2-197",
+        "n2-199",
+        "n2-200"
+      ],
+      "tags": [
+        "시간",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

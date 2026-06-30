@@ -1,0 +1,112 @@
+{
+  "grammarId": "n2-230",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-230-01",
+      "level": "N2",
+      "sentence": "彼は厳しいというより、冷たい。",
+      "sentenceWithBlank": "彼は厳しい（　　　）、冷たい。",
+      "korean": "그는 엄격하다기보다 차갑다.",
+      "answerChoiceId": "fb-created-n2-230-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-230-01-c",
+          "text": "ということだ",
+          "grammarId": "n2-229",
+          "baseExpression": "ということだ",
+          "conjugatedExpression": "ということだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-230-01-d",
+          "text": "といっても",
+          "grammarId": "n2-231",
+          "baseExpression": "といっても",
+          "conjugatedExpression": "といっても",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-230-01-a",
+          "text": "というより",
+          "grammarId": "n2-230",
+          "baseExpression": "というより",
+          "conjugatedExpression": "というより",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-230-01-b",
+          "text": "というか",
+          "grammarId": "n2-228",
+          "baseExpression": "というか",
+          "conjugatedExpression": "というか",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「というより」는 '~라기보다'라는 뜻이다. 앞 표현보다 뒤 표현이 더 정확하다고 정정함.",
+      "sourceGrammarIds": [
+        "n2-230",
+        "n2-228",
+        "n2-229",
+        "n2-231"
+      ],
+      "tags": [
+        "설명",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-230-01",
+      "level": "N2",
+      "sentence": "彼は厳しいというより、冷たい。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "그는 엄격하다기보다 차갑다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-230-01-p3",
+          "text": "というより、",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-230-01-p4",
+          "text": "冷たい。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-230-01-p1",
+          "text": "彼は",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-230-01-p2",
+          "text": "厳しい",
+          "order": 2
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-230-01-p1",
+        "so-created-n2-230-01-p2",
+        "so-created-n2-230-01-p3",
+        "so-created-n2-230-01-p4"
+      ],
+      "explanation": "「というより」를 사용해 '~라기보다'의 의미를 나타낸 문장이다. 앞 표현보다 뒤 표현이 더 정확하다고 정정함.",
+      "sourceGrammarIds": [
+        "n2-230",
+        "n2-228",
+        "n2-229",
+        "n2-231"
+      ],
+      "tags": [
+        "설명",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "grammarId": "n2-219",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-219-01",
+      "level": "N2",
+      "sentence": "もし一億円当たったとしたら、何に使いますか。",
+      "sentenceWithBlank": "もし一億円当たった（　　　）、何に使いますか。",
+      "korean": "만약 1억 엔에 당첨된다면 무엇에 쓰겠습니까?",
+      "answerChoiceId": "fb-created-n2-219-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-219-01-d",
+          "text": "一方だ",
+          "grammarId": "n2-194",
+          "baseExpression": "一方だ",
+          "conjugatedExpression": "一方だ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-219-01-a",
+          "text": "としたら",
+          "grammarId": "n2-219",
+          "baseExpression": "もし～としたら",
+          "conjugatedExpression": "としたら",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-219-01-b",
+          "text": "としても",
+          "grammarId": "n2-218",
+          "baseExpression": "たとえ～としても",
+          "conjugatedExpression": "としても",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-219-01-c",
+          "text": "だろうに",
+          "grammarId": "n2-220",
+          "baseExpression": "～たら（ば）～だろう（に）",
+          "conjugatedExpression": "だろうに",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「としたら」는 '만약 ~라고 한다면'라는 뜻이다. 현실과 다르거나 불확실한 상황을 가정함.",
+      "sourceGrammarIds": [
+        "n2-219",
+        "n2-218",
+        "n2-220",
+        "n2-194"
+      ],
+      "tags": [
+        "가정",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-219-01",
+      "level": "N2",
+      "sentence": "もし一億円当たったとしたら、何に使いますか。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "만약 1억 엔에 당첨된다면 무엇에 쓰겠습니까?",
+      "pieces": [
+        {
+          "id": "so-created-n2-219-01-p4",
+          "text": "使いますか。",
+          "order": 4
+        },
+        {
+          "id": "so-created-n2-219-01-p1",
+          "text": "もし一億",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-219-01-p2",
+          "text": "円当たった",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-219-01-p3",
+          "text": "としたら、何に",
+          "order": 3
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-219-01-p1",
+        "so-created-n2-219-01-p2",
+        "so-created-n2-219-01-p3",
+        "so-created-n2-219-01-p4"
+      ],
+      "explanation": "「としたら」를 사용해 '만약 ~라고 한다면'의 의미를 나타낸 문장이다. 현실과 다르거나 불확실한 상황을 가정함.",
+      "sourceGrammarIds": [
+        "n2-219",
+        "n2-218",
+        "n2-220",
+        "n2-194"
+      ],
+      "tags": [
+        "가정",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

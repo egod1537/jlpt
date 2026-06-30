@@ -1,0 +1,112 @@
+{
+  "grammarId": "n2-216",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-216-01",
+      "level": "N2",
+      "sentence": "彼は十年間日本に住んでいただけのことはあって、日本語が上手だ。",
+      "sentenceWithBlank": "彼は十年間日本に住んでいた（　　　）、日本語が上手だ。",
+      "korean": "그는 10년 동안 일본에 산 만큼 역시 일본어를 잘한다.",
+      "answerChoiceId": "fb-created-n2-216-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-216-01-a",
+          "text": "だけのことはあって",
+          "grammarId": "n2-216",
+          "baseExpression": "だけのことはある",
+          "conjugatedExpression": "だけのことはあって",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-216-01-b",
+          "text": "だけましだ",
+          "grammarId": "n2-217",
+          "baseExpression": "だけまし",
+          "conjugatedExpression": "だけましだ",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-216-01-c",
+          "text": "に限る",
+          "grammarId": "n2-236",
+          "baseExpression": "に限る",
+          "conjugatedExpression": "に限る",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-216-01-d",
+          "text": "一方だ",
+          "grammarId": "n2-194",
+          "baseExpression": "一方だ",
+          "conjugatedExpression": "一方だ",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「だけのことはあって」는 '과연 ~할 만하다, ~한 보람이 있다'라는 뜻이다. 노력·경력·가격 등에 걸맞은 결과가 있음을 긍정적으로 평가.",
+      "sourceGrammarIds": [
+        "n2-216",
+        "n2-217",
+        "n2-236",
+        "n2-194"
+      ],
+      "tags": [
+        "평가",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-216-01",
+      "level": "N2",
+      "sentence": "彼は十年間日本に住んでいただけのことはあって、日本語が上手だ。",
+      "sentenceWithBlanks": "彼は ____ ____ ____ ____",
+      "korean": "그는 10년 동안 일본에 산 만큼 역시 일본어를 잘한다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-216-01-p1",
+          "text": "十年間日本に",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-216-01-p2",
+          "text": "住んでいた",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-216-01-p3",
+          "text": "だけのことはあって、",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-216-01-p4",
+          "text": "日本語が上手だ。",
+          "order": 4
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-216-01-p1",
+        "so-created-n2-216-01-p2",
+        "so-created-n2-216-01-p3",
+        "so-created-n2-216-01-p4"
+      ],
+      "explanation": "「だけのことはあって」를 사용해 '과연 ~할 만하다, ~한 보람이 있다'의 의미를 나타낸 문장이다. 노력·경력·가격 등에 걸맞은 결과가 있음을 긍정적으로 평가.",
+      "sourceGrammarIds": [
+        "n2-216",
+        "n2-217",
+        "n2-236",
+        "n2-194"
+      ],
+      "tags": [
+        "평가",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}

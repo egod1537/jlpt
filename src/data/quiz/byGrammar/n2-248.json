@@ -1,0 +1,112 @@
+{
+  "grammarId": "n2-248",
+  "fillBlankQuestions": [
+    {
+      "id": "fb-created-n2-248-01",
+      "level": "N2",
+      "sentence": "値段は別として、この製品の品質は非常に高い。",
+      "sentenceWithBlank": "値段（　　　）、この製品の品質は非常に高い。",
+      "korean": "가격은 별개로 하고 이 제품의 품질은 매우 높다.",
+      "answerChoiceId": "fb-created-n2-248-01-a",
+      "choices": [
+        {
+          "id": "fb-created-n2-248-01-a",
+          "text": "は別として",
+          "grammarId": "n2-248",
+          "baseExpression": "は別として",
+          "conjugatedExpression": "は別として",
+          "isSimilarDistractor": false
+        },
+        {
+          "id": "fb-created-n2-248-01-b",
+          "text": "に比べて",
+          "grammarId": "n2-239",
+          "baseExpression": "に比べて",
+          "conjugatedExpression": "に比べて",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-248-01-c",
+          "text": "に対して",
+          "grammarId": "n2-241",
+          "baseExpression": "に対して",
+          "conjugatedExpression": "に対して",
+          "isSimilarDistractor": true
+        },
+        {
+          "id": "fb-created-n2-248-01-d",
+          "text": "に反して",
+          "grammarId": "n2-244",
+          "baseExpression": "に反して",
+          "conjugatedExpression": "に反して",
+          "isSimilarDistractor": true
+        }
+      ],
+      "explanation": "「は別として」는 '~은 별개로 하고, ~은 제쳐두고'라는 뜻이다. 한 요소를 판단 대상에서 제외하고 다른 점을 논함.",
+      "sourceGrammarIds": [
+        "n2-248",
+        "n2-239",
+        "n2-241",
+        "n2-244"
+      ],
+      "tags": [
+        "비교",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "빈칸"
+      ]
+    }
+  ],
+  "sentenceOrderQuestions": [
+    {
+      "id": "so-created-n2-248-01",
+      "level": "N2",
+      "sentence": "値段は別として、この製品の品質は非常に高い。",
+      "sentenceWithBlanks": "____ ____ ____ ____",
+      "korean": "가격은 별개로 하고 이 제품의 품질은 매우 높다.",
+      "pieces": [
+        {
+          "id": "so-created-n2-248-01-p1",
+          "text": "値段は別として、",
+          "order": 1
+        },
+        {
+          "id": "so-created-n2-248-01-p2",
+          "text": "この製品の",
+          "order": 2
+        },
+        {
+          "id": "so-created-n2-248-01-p3",
+          "text": "品質は",
+          "order": 3
+        },
+        {
+          "id": "so-created-n2-248-01-p4",
+          "text": "非常に高い。",
+          "order": 4
+        }
+      ],
+      "correctPieceIds": [
+        "so-created-n2-248-01-p1",
+        "so-created-n2-248-01-p2",
+        "so-created-n2-248-01-p3",
+        "so-created-n2-248-01-p4"
+      ],
+      "explanation": "「は別として」를 사용해 '~은 별개로 하고, ~은 제쳐두고'의 의미를 나타낸 문장이다. 한 요소를 판단 대상에서 제외하고 다른 점을 논함.",
+      "sourceGrammarIds": [
+        "n2-248",
+        "n2-239",
+        "n2-241",
+        "n2-244"
+      ],
+      "tags": [
+        "비교",
+        "추가문법",
+        "rarw-db-추가",
+        "신규예문",
+        "문장배열"
+      ]
+    }
+  ]
+}
