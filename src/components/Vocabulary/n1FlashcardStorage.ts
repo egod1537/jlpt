@@ -3,6 +3,7 @@ import type { N1Word } from "../../data/vocabulary/n1Words";
 export const N1_WORD_FLASHCARD_STORAGE_KEY = "jlpt-n1-flashcards:v1";
 
 export interface N1SetProgress {
+  completedRoundCount: number;
   elapsedSeconds: number;
   knowWordIds: number[];
   studyWordIds: number[];
@@ -121,6 +122,10 @@ function normalizeSetProgress(
         [
           setIndex,
           {
+            completedRoundCount:
+              typeof candidate.completedRoundCount === "number"
+                ? Math.max(0, candidate.completedRoundCount)
+                : 0,
             elapsedSeconds:
               typeof candidate.elapsedSeconds === "number"
                 ? candidate.elapsedSeconds

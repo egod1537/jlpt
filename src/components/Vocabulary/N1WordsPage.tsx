@@ -1,11 +1,17 @@
 import { Component } from "react";
 import { N1_WORD_SET_SIZE, type N1Word } from "../../data/vocabulary/n1Words";
-import { buildSetSummaries, getSetCount, shuffleWords } from "./n1FlashcardDeck";
+import {
+  buildSetSummaries,
+  getSetCount,
+  getSetWords,
+  shuffleWords,
+} from "./n1FlashcardDeck";
 import { N1FlashcardView } from "./N1FlashcardView";
 import {
   N1_WORD_FLASHCARD_STORAGE_KEY,
   saveN1FlashcardSession,
   type N1FlashcardSession,
+  type N1SetProgress,
 } from "./n1FlashcardStorage";
 import {
   buildRuntimeStateForSet,
@@ -103,6 +109,10 @@ export class N1WordsPage extends Component<N1WordsPageProps, N1FlashcardRuntimeS
 
   private persistCurrentProgress(): void {
     if (this.state.isStudyOnlyRound) {
+      if (this.state.isComplete) {
+        this.persistCompletedStudyOnlyRound();
+      }
+
       return;
     }
 
@@ -111,6 +121,20 @@ export class N1WordsPage extends Component<N1WordsPageProps, N1FlashcardRuntimeS
       setProgress: {
         ...this.savedSession.setProgress,
         [String(this.state.currentSetIndex)]: buildSetProgress(this.state),
+      },
+      shuffledWordIds: this.state.shuffledWords.map((word) => word.n),
+    };
+    saveN1FlashcardSession(this.savedSession, this.getStorageKey());
+  }
+
+  private persistCompletedStudyOnlyRound(): void {
+    const setKey = String(this.state.currentSetIndex);
+
+    this.savedSession = {
+      currentSetIndex: this.state.currentSetIndex,
+      setProgress: {
+        ...this.savedSession.setProgress,
+        [setKey]: this.buildCompletedStudyOnlyProgress(),
       },
       shuffledWordIds: this.state.shuffledWords.map((word) => word.n),
     };
@@ -167,6 +191,53 @@ export class N1WordsPage extends Component<N1WordsPageProps, N1FlashcardRuntimeS
     this.setState(
       buildStudyOnlyRuntimeState(roundWords),
       () => this.syncTimer(),
+    );
+  };
+
+  private restartCurrentSet = (): void => {
+    const setSize = this.getSetSize();
+    const setIndex = this.state.currentSetIndex;
+    const setStartIndex = setIndex * setSize;
+    const setWords = getSetWords(this.state.shuffledWords, setIndex, setSize);
+    const shuffledSetWords = shuffleWords(setWords);
+    const shuffledWords = [
+      ...this.state.shuffledWords.slice(0, setStartIndex),
+      ...shuffledSetWords,
+      ...this.state.shuffledWords.slice(setStartIndex + setWords.length),
+    ];
+    const setKey = String(setIndex);
+    const completedRoundCount =
+      this.savedSession.setProgress[setKey]?.completedRoundCount ??
+      this.state.completedRoundCount;
+
+    this.savedSession = {
+      currentSetIndex: setIndex,
+      setProgress: {
+        ...this.savedSession.setProgress,
+        [setKey]: {
+          completedRoundCount,
+          elapsedSeconds: 0,
+          knowWordIds: [],
+          studyWordIds: [],
+          wordIndex: 0,
+        },
+      },
+      shuffledWordIds: shuffledWords.map((word) => word.n),
+    };
+
+    saveN1FlashcardSession(this.savedSession, this.getStorageKey());
+    this.clearAnimationTimer();
+    this.setState(
+      buildRuntimeStateForSet(
+        setIndex,
+        shuffledWords,
+        setSize,
+        this.savedSession,
+      ),
+      () => {
+        this.syncTimer();
+        this.persistCurrentProgress();
+      },
     );
   };
 
@@ -243,9 +314,15 @@ export class N1WordsPage extends Component<N1WordsPageProps, N1FlashcardRuntimeS
             this.setState(
               (state) => {
                 const nextIndex = state.wordIndex + 1;
+                const isComplete = nextIndex >= state.roundWords.length;
+                const completedRoundCount =
+                  isComplete && state.studyList.length === 0
+                    ? state.completedRoundCount + 1
+                    : state.completedRoundCount;
 
                 return {
-                  isComplete: nextIndex >= state.roundWords.length,
+                  completedRoundCount,
+                  isComplete,
                   swipeClass: "",
                   wordIndex: nextIndex,
                 };
@@ -281,6 +358,14 @@ export class N1WordsPage extends Component<N1WordsPageProps, N1FlashcardRuntimeS
   }
 
   private getSetProgressForRender() {
+    if (this.state.isStudyOnlyRound && this.state.isComplete) {
+      return {
+        ...this.savedSession.setProgress,
+        [String(this.state.currentSetIndex)]:
+          this.buildCompletedStudyOnlyProgress(),
+      };
+    }
+
     if (this.state.isStudyOnlyRound) {
       return this.savedSession.setProgress;
     }
@@ -289,6 +374,31 @@ export class N1WordsPage extends Component<N1WordsPageProps, N1FlashcardRuntimeS
       ...this.savedSession.setProgress,
       [String(this.state.currentSetIndex)]: buildSetProgress(this.state),
     };
+  }
+
+  private buildCompletedStudyOnlyProgress(): N1SetProgress {
+    const previousProgress =
+      this.savedSession.setProgress[String(this.state.currentSetIndex)];
+
+    return {
+      completedRoundCount: this.state.completedRoundCount,
+      elapsedSeconds:
+        (previousProgress?.elapsedSeconds ?? 0) + this.state.elapsedSeconds,
+      knowWordIds: mergeWordIds([
+        ...(previousProgress?.knowWordIds ?? []),
+        ...this.state.knowList.map((word) => word.n),
+      ]),
+      studyWordIds: this.state.studyList.map((word) => word.n),
+      wordIndex: this.getCurrentSetTotalCount(),
+    };
+  }
+
+  private getCurrentSetTotalCount(): number {
+    return getSetWords(
+      this.state.shuffledWords,
+      this.state.currentSetIndex,
+      this.getSetSize(),
+    ).length;
   }
 
   private getSetSize(): number {
@@ -318,6 +428,7 @@ export class N1WordsPage extends Component<N1WordsPageProps, N1FlashcardRuntimeS
         currentNumber={currentNumber}
         currentSetIndex={this.state.currentSetIndex}
         currentWord={currentWord}
+        completedRoundCount={this.state.completedRoundCount}
         doneCount={doneCount}
         elapsedSeconds={this.state.elapsedSeconds}
         hasNextSet={this.state.currentSetIndex < setCount - 1}
@@ -344,6 +455,7 @@ export class N1WordsPage extends Component<N1WordsPageProps, N1FlashcardRuntimeS
         totalCards={totalCards}
         onKnown={this.handleKnown}
         onRestartAllWords={this.restartAllWords}
+        onRestartCurrentSet={this.restartCurrentSet}
         onRestartStudyOnly={this.restartStudyOnly}
         onSetSelect={this.selectSet}
         onSpeakCurrentWord={this.speakCurrentWord}
@@ -355,4 +467,17 @@ export class N1WordsPage extends Component<N1WordsPageProps, N1FlashcardRuntimeS
       />
     );
   }
+}
+
+function mergeWordIds(wordIds: readonly number[]): number[] {
+  const seenWordIds = new Set<number>();
+
+  return wordIds.filter((wordId) => {
+    if (seenWordIds.has(wordId)) {
+      return false;
+    }
+
+    seenWordIds.add(wordId);
+    return true;
+  });
 }

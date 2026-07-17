@@ -4,6 +4,7 @@ import type { N1SetProgress } from "./n1FlashcardStorage";
 export type SwipeClass = "" | "swipe-left" | "swipe-right";
 
 export interface N1SetSummary {
+  completedRoundCount: number;
   doneCount: number;
   index: number;
   isComplete: boolean;
@@ -54,6 +55,8 @@ export function buildSetSummaries(
     );
 
     return {
+      completedRoundCount:
+        setProgress[String(index)]?.completedRoundCount ?? 0,
       doneCount,
       index,
       isComplete: totalCount > 0 && doneCount >= totalCount,

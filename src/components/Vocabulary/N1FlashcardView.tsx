@@ -10,6 +10,7 @@ import type { N1StudyLink } from "./N1WordsPage";
 interface N1FlashcardViewProps {
   areHintsCombined: boolean;
   combinedHintLabel: string;
+  completedRoundCount: number;
   currentNumber: number;
   currentSetIndex: number;
   currentWord: N1Word | undefined;
@@ -35,6 +36,7 @@ interface N1FlashcardViewProps {
   totalCards: number;
   onKnown: () => void;
   onRestartAllWords: () => void;
+  onRestartCurrentSet: () => void;
   onRestartStudyOnly: () => void;
   onSetSelect: (setIndex: number) => void;
   onSpeakCurrentWord: () => void;
@@ -50,6 +52,7 @@ export class N1FlashcardView extends PureComponent<N1FlashcardViewProps> {
     const {
       areHintsCombined,
       combinedHintLabel,
+      completedRoundCount,
       currentNumber,
       currentSetIndex,
       currentWord,
@@ -75,6 +78,7 @@ export class N1FlashcardView extends PureComponent<N1FlashcardViewProps> {
       totalCards,
       onKnown,
       onRestartAllWords,
+      onRestartCurrentSet,
       onRestartStudyOnly,
       onSetSelect,
       onSpeakCurrentWord,
@@ -92,7 +96,8 @@ export class N1FlashcardView extends PureComponent<N1FlashcardViewProps> {
           <div>
             <div className="header-title">{title}</div>
             <div className="flash-set-label">
-              {currentSetIndex + 1} / {setCount} 세트
+              {currentSetIndex + 1} / {setCount} 세트 ·{" "}
+              {completedRoundCount}회독
             </div>
             {studyLinks !== undefined && studyLinks.length > 0 && (
               <nav className="flash-study-tabs" aria-label="N1 학습 화면">
@@ -135,6 +140,7 @@ export class N1FlashcardView extends PureComponent<N1FlashcardViewProps> {
               <small>
                 {setSummary.doneCount}/{setSummary.totalCount}
               </small>
+              <small>{setSummary.completedRoundCount}회독</small>
             </button>
           ))}
         </div>
@@ -165,22 +171,25 @@ export class N1FlashcardView extends PureComponent<N1FlashcardViewProps> {
               <strong>{totalCards}개 완료</strong>
               <p>
                 알고있음 {knowCount}개 · 공부하겠음 {studyCount}개
+                <br />
+                이 세트 {completedRoundCount}회독
               </p>
               <div className="complete-actions">
-                <button type="button" onClick={onRestartAllWords}>
-                  처음부터 다시
-                </button>
-                <button
-                  disabled={studyCount === 0}
-                  type="button"
-                  onClick={onRestartStudyOnly}
-                >
-                  모르는 것만 다시
-                </button>
-                {hasNextSet && (
-                  <button type="button" onClick={onStartNextSet}>
-                    다음 세트
+                {studyCount > 0 ? (
+                  <button type="button" onClick={onRestartStudyOnly}>
+                    모르는 것만 다시
                   </button>
+                ) : (
+                  <>
+                    <button type="button" onClick={onRestartCurrentSet}>
+                      이 세트 다시
+                    </button>
+                    {hasNextSet && (
+                      <button type="button" onClick={onStartNextSet}>
+                        다음 세트
+                      </button>
+                    )}
+                  </>
                 )}
               </div>
             </div>

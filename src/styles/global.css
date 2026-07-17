@@ -1746,8 +1746,8 @@ button {
 
 .flash-set-btn {
   flex: 0 0 auto;
-  width: 50px;
-  min-height: 42px;
+  width: 58px;
+  min-height: 54px;
   border: 1px solid var(--border);
   border-radius: 11px;
   background: var(--dark-btn);
@@ -1771,6 +1771,10 @@ button {
   color: var(--text-muted);
   font-size: 10px;
   line-height: 1;
+}
+
+.flash-set-btn small + small {
+  color: color-mix(in srgb, var(--green) 70%, var(--text-muted));
 }
 
 .flash-set-btn.active {
@@ -3089,8 +3093,8 @@ button {
   }
 
   .flash-set-btn {
-    width: 46px;
-    min-height: 40px;
+    width: 54px;
+    min-height: 52px;
   }
 
   .flash-options {

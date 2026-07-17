@@ -16,6 +16,7 @@ import {
 } from "./n1FlashcardStorage";
 
 export interface N1RoundState {
+  completedRoundCount: number;
   elapsedSeconds: number;
   isComplete: boolean;
   knowList: readonly N1Word[];
@@ -108,6 +109,7 @@ export function buildSetRoundState(
   const wordIndex = Math.min(progress?.wordIndex ?? 0, roundWords.length);
 
   return {
+    completedRoundCount: progress?.completedRoundCount ?? 0,
     elapsedSeconds: progress?.elapsedSeconds ?? 0,
     isComplete: roundWords.length === 0 || wordIndex >= roundWords.length,
     knowList: mapWordIdsToWords(progress?.knowWordIds ?? [], wordById),
@@ -179,6 +181,7 @@ export function buildStudyOnlyRuntimeState(
 
 export function buildSetProgress(state: N1FlashcardRuntimeState): N1SetProgress {
   return {
+    completedRoundCount: state.completedRoundCount,
     elapsedSeconds: state.elapsedSeconds,
     knowWordIds: state.knowList.map((word) => word.n),
     studyWordIds: state.studyList.map((word) => word.n),
