@@ -1,0 +1,4525 @@
+{
+  "acceptedCount": 1181,
+  "rejectedCount": 671,
+  "autoCorrectedCount": 753,
+  "needsReviewCount": 0,
+  "rejectCounts": {
+    "missing-meaning": 671
+  },
+  "sourceCounts": {
+    "1.csv": 48,
+    "~115.csv": 210,
+    "~139.csv": 691,
+    "~161.csv": 232
+  },
+  "qualityCounts": {
+    "corrected-kr": 545,
+    "auto-corrected": 753,
+    "cleaned-meaning-ocr-noise": 187,
+    "source-contained-ocr-noise": 195,
+    "corrected-jp": 155,
+    "corrected-rd": 620,
+    "cleaned-japanese-ocr-noise": 43
+  },
+  "autoCorrectedSamples": [
+    {
+      "csvLine": 4,
+      "sourceFile": "1.csv",
+      "original": {
+        "jp": "裁く",
+        "rd": "さばく",
+        "kr": "중재하다, 재판하다"
+      },
+      "cleaned": {
+        "n": 3,
+        "jp": "裁く",
+        "rd": "さばく",
+        "kr": "판단하다, 재판하다, 시비를 가리다",
+        "qualityFlags": [
+          "corrected-kr",
+          "auto-corrected"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-kr",
+        "auto-corrected"
+      ]
+    },
+    {
+      "csvLine": 482,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "くつろいで",
+        "rd": "",
+        "kr": "편안히쉬고 = ゆっくり"
+      },
+      "cleaned": {
+        "n": 51,
+        "jp": "くつろいで",
+        "rd": "くつろいで",
+        "kr": "편안히 쉬고",
+        "qualityFlags": [
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 485,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "て ぁ ょこ",
+        "rd": "",
+        "kr": "없다"
+      },
+      "cleaned": {
+        "n": 52,
+        "jp": "手の施しようがない",
+        "rd": "てのほどこしようがない",
+        "kr": "손쓸 방법이 없다",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected"
+      ]
+    },
+    {
+      "csvLine": 487,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "ここ ᄆ",
+        "rd": "",
+        "kr": "속수무책이다 ーーー"
+      },
+      "cleaned": {
+        "n": 53,
+        "jp": "お手上げだ",
+        "rd": "おてあげだ",
+        "kr": "속수무책이다",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "auto-corrected",
+          "cleaned-japanese-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "auto-corrected",
+        "cleaned-japanese-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 488,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "上げだ",
+        "rd": "",
+        "kr": "속수무책이다 ーーー"
+      },
+      "cleaned": {
+        "n": 54,
+        "jp": "お手上げだ",
+        "rd": "おてあげだ",
+        "kr": "속수무책이다",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "auto-corrected"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "auto-corrected"
+      ]
+    },
+    {
+      "csvLine": 491,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "っ だ",
+        "rd": "",
+        "kr": "늦어질것길"
+      },
+      "cleaned": {
+        "n": 55,
+        "jp": "遅くなりそうだ",
+        "rd": "おそくなりそうだ",
+        "kr": "늦어질 것 같다",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected"
+      ]
+    },
+    {
+      "csvLine": 492,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "すれ込みをうだ easaaa",
+        "rd": "",
+        "kr": "같다"
+      },
+      "cleaned": {
+        "n": 56,
+        "jp": "遅くなりそうだ",
+        "rd": "おそくなりそうだ",
+        "kr": "늦어질 것 같다",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-japanese-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-japanese-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 493,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "遅くなりそうた",
+        "rd": "",
+        "kr": "같다"
+      },
+      "cleaned": {
+        "n": 57,
+        "jp": "遅くなりそうだ",
+        "rd": "おそくなりそうだ",
+        "kr": "늦어질 것 같다",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected"
+      ]
+    },
+    {
+      "csvLine": 494,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "開 le ろくに介さなかった) mazawensacd",
+        "rd": "",
+        "kr": "베르 그다지"
+      },
+      "cleaned": {
+        "n": 58,
+        "jp": "たいして",
+        "rd": "たいして",
+        "kr": "별로, 그다지",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-japanese-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-japanese-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 495,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "たいして",
+        "rd": "",
+        "kr": "베르 그다지"
+      },
+      "cleaned": {
+        "n": 59,
+        "jp": "たいして",
+        "rd": "たいして",
+        "kr": "별로, 그다지",
+        "qualityFlags": [
+          "corrected-kr",
+          "auto-corrected"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-kr",
+        "auto-corrected"
+      ]
+    },
+    {
+      "csvLine": 501,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "思う 架空の(人物)",
+        "rd": "",
+        "kr": "가2의인물 = AURD veel"
+      },
+      "cleaned": {
+        "n": 60,
+        "jp": "架空の",
+        "rd": "かくうの",
+        "kr": "가상의",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 503,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "当面(ない)",
+        "rd": "",
+        "kr": "당분간(없대 = しばらくは geze"
+      },
+      "cleaned": {
+        "n": 62,
+        "jp": "当面",
+        "rd": "とうめん",
+        "kr": "당분간, 당면",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 505,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "最低限",
+        "rd": "",
+        "kr": "으으 ーーー ーーーーーーーー ーー一"
+      },
+      "cleaned": {
+        "n": 64,
+        "jp": "最低限",
+        "rd": "さいていげん",
+        "kr": "최저한도, 최소한",
+        "qualityFlags": [
+          "corrected-kr",
+          "corrected-rd",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-kr",
+        "corrected-rd",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 507,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "つぶやく",
+        "rd": "",
+        "kr": "중얼거리다 투덜대다 ニ 小さな声で言う 직은목소리로말하다"
+      },
+      "cleaned": {
+        "n": 65,
+        "jp": "つぶやく",
+        "rd": "つぶやく",
+        "kr": "중얼거리다, 작은 목소리로 말하다",
+        "qualityFlags": [
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 511,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "完了する",
+        "rd": "",
+        "kr": "완료하다"
+      },
+      "cleaned": {
+        "n": 67,
+        "jp": "完了する",
+        "rd": "かんりょうする",
+        "kr": "완료하다",
+        "qualityFlags": [
+          "corrected-rd",
+          "auto-corrected"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "auto-corrected"
+      ]
+    },
+    {
+      "csvLine": 512,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "異例の",
+        "rd": "",
+        "kr": "이례적인 = Bw 드문, 희귀한"
+      },
+      "cleaned": {
+        "n": 68,
+        "jp": "異例の",
+        "rd": "いれいの",
+        "kr": "이례적인",
+        "qualityFlags": [
+          "corrected-rd",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 514,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "危険 」 1 (お金に関しのルーズな(の) S だらしない",
+        "rd": "",
+        "kr": "야무지지못한 허술한"
+      },
+      "cleaned": {
+        "n": 69,
+        "jp": "ルーズな",
+        "rd": "ルーズな",
+        "kr": "야무지지 못한, 허술한",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-japanese-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-japanese-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 520,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "すみやかに (庁づける)",
+        "rd": "",
+        "kr": "발리 신속히(치우대 5 CASES seem ーー 즈으 若干(伸びてぃ"
+      },
+      "cleaned": {
+        "n": 71,
+        "jp": "すみやかに",
+        "rd": "すみやかに",
+        "kr": "신속히, 빨리",
+        "qualityFlags": [
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 522,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "妨害する(つもりはない)",
+        "rd": "",
+        "kr": "없다) じゃまする wa = = 張り合って"
+      },
+      "cleaned": {
+        "n": 72,
+        "jp": "妨害する",
+        "rd": "ぼうがいする",
+        "kr": "방해하다",
+        "qualityFlags": [
+          "corrected-kr",
+          "corrected-rd",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-kr",
+        "corrected-rd",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 524,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "しくじる",
+        "rd": "",
+        "kr": "망치다 실퍼하다 수 失敗する 실패하다 기 =m) 2016"
+      },
+      "cleaned": {
+        "n": 73,
+        "jp": "しくじる",
+        "rd": "しくじる",
+        "kr": "실패하다, 망치다",
+        "qualityFlags": [
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 526,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "めいめいに(配る)",
+        "rd": "",
+        "kr": "각각에게 (나뉘주다) = 一人一人に 한시람한시람에게"
+      },
+      "cleaned": {
+        "n": 75,
+        "jp": "めいめいに",
+        "rd": "めいめいに",
+        "kr": "각각에게, 한 사람 한 사람에게",
+        "qualityFlags": [
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 528,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "克明に(記される) awn ewer cigsicy 詳し < 丁寧に",
+        "rd": "",
+        "kr": "자세하게 정성들여 —_ ma かろうじて@"
+      },
+      "cleaned": {
+        "n": 76,
+        "jp": "克明に",
+        "rd": "こくめいに",
+        "kr": "상세히, 꼼꼼히",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-japanese-ocr-noise",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-japanese-ocr-noise",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 530,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "改善する)手立て",
+        "rd": "",
+        "kr": "애선할)방법 방도 方法 wm | 自尊心(を取り"
+      },
+      "cleaned": {
+        "n": 77,
+        "jp": "手立て",
+        "rd": "てだて",
+        "kr": "방법, 수단",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 537,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "粘り強く(交渉した)",
+        "rd": "",
+        "kr": "끈기있게(엽상혔다 5 @증ᄆᄃ0609 [2 포기하지않고 7 ~,"
+      },
+      "cleaned": {
+        "n": 79,
+        "jp": "粘り強く",
+        "rd": "ねばりづよく",
+        "kr": "끈기 있게",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 538,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "入念に(調査を行う) B01, 8| aw sich",
+        "rd": "",
+        "kr": "세심하게공들여 し 一一"
+      },
+      "cleaned": {
+        "n": 80,
+        "jp": "入念に",
+        "rd": "にゅうねんに",
+        "kr": "세심하게, 공들여",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-japanese-ocr-noise",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-japanese-ocr-noise",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 539,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "細かく丁寧に",
+        "rd": "",
+        "kr": "세심하게공들여 し 一一"
+      },
+      "cleaned": {
+        "n": 81,
+        "jp": "細かく丁寧に",
+        "rd": "こまかくていねいに",
+        "kr": "세심하고 정성스럽게",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 542,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "方法の難点 (",
+        "rd": "",
+        "kr": "문제점 悪いところ 나쁜 점. 단점 \" a ての"
+      },
+      "cleaned": {
+        "n": 83,
+        "jp": "方法の難点",
+        "rd": "ほうほうのなんてん",
+        "kr": "방법의 문제점, 난점",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 547,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "競い合っつている",
+        "rd": "",
+        "kr": "경쟁하고 있다,겨루고 있다"
+      },
+      "cleaned": {
+        "n": 84,
+        "jp": "競い合っている",
+        "rd": "きそいあっている",
+        "kr": "경쟁하고 있다, 겨루고 있다",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "auto-corrected"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "auto-corrected"
+      ]
+    },
+    {
+      "csvLine": 548,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "端的に(表している)",
+        "rd": "",
+        "kr": "단적으로(표현하고 있다! = 明白に ws"
+      },
+      "cleaned": {
+        "n": 85,
+        "jp": "端的に",
+        "rd": "たんてきに",
+        "kr": "단적으로",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 550,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "人人加入",
+        "rd": "",
+        "kr": "프리이드 자존심"
+      },
+      "cleaned": {
+        "n": 87,
+        "jp": "プライド",
+        "rd": "プライド",
+        "kr": "자존심, 프라이드",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected"
+      ]
+    },
+    {
+      "csvLine": 551,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "プライド",
+        "rd": "",
+        "kr": "프리이드 자존심"
+      },
+      "cleaned": {
+        "n": 88,
+        "jp": "プライド",
+        "rd": "プライド",
+        "kr": "자존심, 프라이드",
+        "qualityFlags": [
+          "corrected-kr",
+          "auto-corrected"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-kr",
+        "auto-corrected"
+      ]
+    },
+    {
+      "csvLine": 557,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "その一言に)安培した (",
+        "rd": "",
+        "kr": "한마디에 인도했다 = ほっとした 안심했다"
+      },
+      "cleaned": {
+        "n": 91,
+        "jp": "安堵した",
+        "rd": "あんどした",
+        "kr": "안심했다",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 558,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "完成",
+        "rd": "",
+        "kr": "완성되디"
+      },
+      "cleaned": {
+        "n": 92,
+        "jp": "完成",
+        "rd": "かんせい",
+        "kr": "완성",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected"
+      ]
+    },
+    {
+      "csvLine": 576,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "厄介な(問題)",
+        "rd": "",
+        "kr": "번거로운(문제 = if 찮은"
+      },
+      "cleaned": {
+        "n": 93,
+        "jp": "厄介な",
+        "rd": "やっかいな",
+        "kr": "번거로운, 성가신",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 577,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "マ | ᄆ (当時のことを)回想する (",
+        "rd": "",
+        "kr": "당시의일을)회상하다 = 思い返す (지난일 결정한일올)다시 생각하다"
+      },
+      "cleaned": {
+        "n": 94,
+        "jp": "回想する",
+        "rd": "かいそうする",
+        "kr": "회상하다",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-japanese-ocr-noise",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-japanese-ocr-noise",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 590,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "に | ᄆ 仰天した",
+        "rd": "",
+        "kr": "깜짝놀랐다 = ETHIE 아주놀랐다"
+      },
+      "cleaned": {
+        "n": 96,
+        "jp": "仰天した",
+        "rd": "ぎょうてんした",
+        "kr": "깜짝 놀랐다",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-japanese-ocr-noise",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-japanese-ocr-noise",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 593,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "雑踏(を抜けた) Sater Ree wetLizicd & 人込み",
+        "rd": "",
+        "kr": "북적임.북적이는곳"
+      },
+      "cleaned": {
+        "n": 97,
+        "jp": "雑踏",
+        "rd": "ざっとう",
+        "kr": "혼잡, 북적이는 곳",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-japanese-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-japanese-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 596,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "うら",
+        "rd": "",
+        "kr": "나으"
+      },
+      "cleaned": {
+        "n": 98,
+        "jp": "裏",
+        "rd": "うら",
+        "kr": "뒤, 뒷면, 이면",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-kr",
+          "auto-corrected"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-kr",
+        "auto-corrected"
+      ]
+    },
+    {
+      "csvLine": 601,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "参加を)断念する (",
+        "rd": "",
+        "kr": "참가를)딘념하다 = あきさらめる 포기하다"
+      },
+      "cleaned": {
+        "n": 99,
+        "jp": "断念する",
+        "rd": "だんねんする",
+        "kr": "단념하다, 포기하다",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 602,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "自然に",
+        "rd": "",
+        "kr": "자연스럽게 ンー ーー 2010"
+      },
+      "cleaned": {
+        "n": 100,
+        "jp": "自然に",
+        "rd": "しぜんに",
+        "kr": "자연스럽게",
+        "qualityFlags": [
+          "corrected-rd",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 604,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "スケール(が謗う)",
+        "rd": "",
+        "kr": "스케일 규모가다르다 느 規模 ae qT (この職場にも)"
+      },
+      "cleaned": {
+        "n": 101,
+        "jp": "スケールが違う",
+        "rd": "スケールがちがう",
+        "kr": "규모가 다르다, 차원이 다르다",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 607,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "先方(に確認する)",
+        "rd": "",
+        "kr": "상대편이게획인하다) = 相手 상대 = _-"
+      },
+      "cleaned": {
+        "n": 102,
+        "jp": "先方",
+        "rd": "せんぽう",
+        "kr": "상대방, 상대편",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 608,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "けなされる",
+        "rd": "",
+        "kr": "먹다 & 悪く言われる 나른말을듣다 a :"
+      },
+      "cleaned": {
+        "n": 103,
+        "jp": "けなされる",
+        "rd": "けなされる",
+        "kr": "헐뜯기다, 나쁜 말을 듣다",
+        "qualityFlags": [
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 613,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "画期的な(手決)",
+        "rd": "",
+        "kr": "획기적인(수법-기과 느 今までになく新しい sar te size 정성들여, 꼼꼼히 (A"
+      },
+      "cleaned": {
+        "n": 105,
+        "jp": "画期的な",
+        "rd": "かっきてきな",
+        "kr": "획기적인",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 614,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "計画する",
+        "rd": "",
+        "kr": "게회하다 때 = db tata"
+      },
+      "cleaned": {
+        "n": 106,
+        "jp": "計画する",
+        "rd": "けいかくする",
+        "kr": "계획하다",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 615,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "手がかりの店しい)",
+        "rd": "",
+        "kr": "단세(가 필요하다) = ヒント ws Ghia RA:"
+      },
+      "cleaned": {
+        "n": 107,
+        "jp": "手がかりが欲しい",
+        "rd": "てがかりがほしい",
+        "kr": "단서가 필요하다",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 616,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "にわかには(徐じられない) siesta すぐには",
+        "rd": "",
+        "kr": "바르는. ese やおをえず"
+      },
+      "cleaned": {
+        "n": 108,
+        "jp": "にわかには",
+        "rd": "にわかには",
+        "kr": "곧바로는, 쉽게는",
+        "qualityFlags": [
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-japanese-ocr-noise",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-japanese-ocr-noise",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 618,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "件事に対しでてシピアだ 5 厳しい",
+        "rd": "",
+        "kr": "엽에다 지독하다 = oe"
+      },
+      "cleaned": {
+        "n": 109,
+        "jp": "シビアだ",
+        "rd": "シビアだ",
+        "kr": "엄격하다, 가혹하다",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 623,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "と ンー",
+        "rd": "",
+        "kr": "나 ~ Ghetocifiliss (결과를 듣고) 낙담하다 = 70170) 10 9 쓰 실망하다"
+      },
+      "cleaned": {
+        "n": 111,
+        "jp": "がっかりする",
+        "rd": "がっかりする",
+        "kr": "낙담하다, 실망하다",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 625,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "小説の結末は)あっけない",
+        "rd": "",
+        "kr": "수 療外につま らない 의외로 재미없다"
+      },
+      "cleaned": {
+        "n": 112,
+        "jp": "あっけない",
+        "rd": "あっけない",
+        "kr": "의외로 싱겁다, 허무하다",
+        "qualityFlags": [
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 626,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "ルーズな(ところ)",
+        "rd": "",
+        "kr": "칠침치못한 허술한(면 = だらしない 칠칠치못한"
+      },
+      "cleaned": {
+        "n": 113,
+        "jp": "ルーズな",
+        "rd": "ルーズな",
+        "kr": "칠칠치 못한, 허술한",
+        "qualityFlags": [
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 628,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "この職場にも)なじ$け (",
+        "rd": "",
+        "kr": "이 직장에도) 익숙해지다 慣れる 익숙해지다"
+      },
+      "cleaned": {
+        "n": 114,
+        "jp": "なじむ",
+        "rd": "なじむ",
+        "kr": "익숙해지다, 친숙해지다",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-japanese-ocr-noise",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-japanese-ocr-noise",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 630,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "お互いに)張り合う (",
+        "rd": "",
+        "kr": "서리경정하다 + 競争する 경정하다"
+      },
+      "cleaned": {
+        "n": 115,
+        "jp": "張り合う",
+        "rd": "はりあう",
+        "kr": "경쟁하다, 맞서다",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 632,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "朗報(が届く)",
+        "rd": "",
+        "kr": "낭보 기쁜소식이도칙하대 = うれしい知らせ 74"
+      },
+      "cleaned": {
+        "n": 116,
+        "jp": "朗報",
+        "rd": "ろうほう",
+        "kr": "낭보, 기쁜 소식",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 635,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "いやみ(を言われた)",
+        "rd": "",
+        "kr": "빈정거림 비야9을들있다 느 皮際gole"
+      },
+      "cleaned": {
+        "n": 117,
+        "jp": "いやみ",
+        "rd": "いやみ",
+        "kr": "빈정거림, 싫은 소리",
+        "qualityFlags": [
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 636,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "ら だ (",
+        "rd": "",
+        "kr": "참석자개'드문드문하다 두 少ない 적다"
+      },
+      "cleaned": {
+        "n": 118,
+        "jp": "まばらだ",
+        "rd": "まばらだ",
+        "kr": "드문드문하다, 적다",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 639,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "仕事がはかどっている (",
+        "rd": "",
+        "kr": "진척되고있다 4 順調に進んでいる 순조롭게진행되고 있다"
+      },
+      "cleaned": {
+        "n": 119,
+        "jp": "仕事がはかどっている",
+        "rd": "しごとがはかどっている",
+        "kr": "일이 순조롭게 진행되고 있다",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 643,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "目標には)程遠い (",
+        "rd": "",
+        "kr": "목표에는) 동떨어지다, 차이가 많이 나다 を"
+      },
+      "cleaned": {
+        "n": 120,
+        "jp": "程遠い",
+        "rd": "ほどとおい",
+        "kr": "거리가 멀다, 차이가 크다",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 645,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "地lol0 wire RON り ・",
+        "rd": "",
+        "kr": "이"
+      },
+      "cleaned": {
+        "n": 121,
+        "jp": "地道に",
+        "rd": "じみちに",
+        "kr": "착실하게, 꾸준히",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-japanese-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-japanese-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 649,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "傘が犬きくで迫力がある (",
+        "rd": "",
+        "kr": "몸집이 크고) 박력이 있다, 기세가 대단하다 ーーー"
+      },
+      "cleaned": {
+        "n": 122,
+        "jp": "図体が大きい",
+        "rd": "ずうたいがおおきい",
+        "kr": "몸집이 크다",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected"
+      ]
+    },
+    {
+      "csvLine": 650,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "社会の)風潮 (lale) き",
+        "rd": "",
+        "kr": "변화를) 가져오다. 초래하다"
+      },
+      "cleaned": {
+        "n": 123,
+        "jp": "風潮",
+        "rd": "ふうちょう",
+        "kr": "풍조, 경향",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-japanese-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-japanese-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 652,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "てかい",
+        "rd": "",
+        "kr": "이 3"
+      },
+      "cleaned": {
+        "n": 125,
+        "jp": "撤回",
+        "rd": "てっかい",
+        "kr": "철회",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected"
+      ]
+    },
+    {
+      "csvLine": 654,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "ずばりと(指揃される)",
+        "rd": "",
+        "kr": "딱(지적받다) sae 정확히 mes 모양 — ——"
+      },
+      "cleaned": {
+        "n": 126,
+        "jp": "ずばりと",
+        "rd": "ずばりと",
+        "kr": "딱, 정확히, 단도직입적으로",
+        "qualityFlags": [
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 655,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "木材を)加工する (",
+        "rd": "",
+        "kr": "목재를)가공하다 ᄆ (3 ADFHE) FED (3명의아이를)양육하다. 기르다 i"
+      },
+      "cleaned": {
+        "n": 127,
+        "jp": "加工する",
+        "rd": "かこうする",
+        "kr": "가공하다",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 656,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "りくCょうせんしゅ し しっ せいとう 2か ーーー ーー ーー",
+        "rd": "",
+        "kr": "그"
+      },
+      "cleaned": {
+        "n": 128,
+        "jp": "正当な",
+        "rd": "せいとうな",
+        "kr": "정당한",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-japanese-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-japanese-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 659,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "よくなる)兆し",
+        "rd": "",
+        "kr": "조짐,징조 人観客を)収容する wre) egatct"
+      },
+      "cleaned": {
+        "n": 129,
+        "jp": "兆し",
+        "rd": "きざし",
+        "kr": "조짐, 징조",
+        "qualityFlags": [
+          "corrected-rd",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 661,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "品目がさえる",
+        "rd": "",
+        "kr": "잠이안오다 눈이말똥말똥하다 痛烈な(批判 Sete! cole"
+      },
+      "cleaned": {
+        "n": 130,
+        "jp": "目がさえる",
+        "rd": "めがさえる",
+        "kr": "잠이 오지 않고 정신이 또렷하다",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 664,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "保険を)解約する exe) lets ] (村の)特産 (",
+        "rd": "",
+        "kr": "특산"
+      },
+      "cleaned": {
+        "n": 131,
+        "jp": "解約する",
+        "rd": "かいやくする",
+        "kr": "해약하다",
+        "qualityFlags": [
+          "corrected-kr",
+          "corrected-rd",
+          "auto-corrected",
+          "cleaned-japanese-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-kr",
+        "corrected-rd",
+        "auto-corrected",
+        "cleaned-japanese-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 665,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "友人たちから)問い詰められる (",
+        "rd": "",
+        "kr": "친구들이게 추궁당하다"
+      },
+      "cleaned": {
+        "n": 132,
+        "jp": "問い詰められる",
+        "rd": "といつめられる",
+        "kr": "추궁당하다",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected"
+      ]
+    },
+    {
+      "csvLine": 667,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "手痛いほミカ",
+        "rd": "",
+        "kr": "뼈아픈.심한(실수) 화깜(20400 =き"
+      },
+      "cleaned": {
+        "n": 133,
+        "jp": "手痛い",
+        "rd": "ていたい",
+        "kr": "뼈아픈, 심한",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 668,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "工場を)誘致する (",
+        "rd": "",
+        "kr": "공장을)유치하다 ーー — かたくなに(押し遂"
+      },
+      "cleaned": {
+        "n": 134,
+        "jp": "誘致する",
+        "rd": "ゆうちする",
+        "kr": "유치하다",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 671,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "ジャズの)本場 Wes)gag [ Gia Pic) Bab S (",
+        "rd": "",
+        "kr": "정열을 마음속에) 간직하다, 숨기다"
+      },
+      "cleaned": {
+        "n": 135,
+        "jp": "秘める",
+        "rd": "ひめる",
+        "kr": "간직하다, 숨기다",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-japanese-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-japanese-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 679,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "はや(通用しない)",
+        "rd": "",
+        "kr": "이제는 (통용되지잃는다) CPUC Gites) 원왕하게(운영하다) ie 625"
+      },
+      "cleaned": {
+        "n": 138,
+        "jp": "もはや",
+        "rd": "もはや",
+        "kr": "이제는, 더 이상",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 680,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "観客を)収容する (",
+        "rd": "",
+        "kr": "관객을)수용하다 ᄆ 実に(よく書けている) 실로잘쓰여있다 — 벅 by"
+      },
+      "cleaned": {
+        "n": 139,
+        "jp": "収容する",
+        "rd": "しゅうようする",
+        "kr": "수용하다",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 681,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "一日に6 キロを)目安(に (",
+        "rd": "",
+        "kr": "하루 6로미터를 sae Ze cuss"
+      },
+      "cleaned": {
+        "n": 140,
+        "jp": "目安",
+        "rd": "めやす",
+        "kr": "기준, 목표",
+        "qualityFlags": [
+          "corrected-kr",
+          "corrected-rd",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-kr",
+        "corrected-rd",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 683,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "社会の)様相 (lsls) ga. ge 26 ᄆ (冗談を)交える (sae)",
+        "rd": "",
+        "kr": "더 we"
+      },
+      "cleaned": {
+        "n": 141,
+        "jp": "交える",
+        "rd": "まじえる",
+        "kr": "섞다, 곁들이다",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-japanese-ocr-noise",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-japanese-ocr-noise",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 685,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "市民の)要望 (lele)",
+        "rd": "",
+        "kr": "요망, 바람"
+      },
+      "cleaned": {
+        "n": 142,
+        "jp": "要望",
+        "rd": "ようぼう",
+        "kr": "요망, 바람",
+        "qualityFlags": [
+          "corrected-rd",
+          "auto-corrected",
+          "cleaned-japanese-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "auto-corrected",
+        "cleaned-japanese-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 686,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "定説を) す See)",
+        "rd": "",
+        "kr": "뒤집어 act sect ae ae"
+      },
+      "cleaned": {
+        "n": 143,
+        "jp": "覆す",
+        "rd": "くつがえす",
+        "kr": "뒤집다",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-japanese-ocr-noise",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-japanese-ocr-noise",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 690,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "@) ᄆ GAA wee)",
+        "rd": "",
+        "kr": "막싱막하 ーーー"
+      },
+      "cleaned": {
+        "n": 145,
+        "jp": "互角",
+        "rd": "ごかく",
+        "kr": "막상막하, 대등함",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-japanese-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-japanese-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 691,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "なく を",
+        "rd": "",
+        "kr": "오나 はOS i 2015"
+      },
+      "cleaned": {
+        "n": 146,
+        "jp": "泣く泣く",
+        "rd": "なくなく",
+        "kr": "마지못해, 울며 겨자 먹기로",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 693,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "調査に)乗り出す (",
+        "rd": "",
+        "kr": "조사에착수하다 ᄆ 面識(はない) 면식 안면은없다: Ro"
+      },
+      "cleaned": {
+        "n": 147,
+        "jp": "乗り出す",
+        "rd": "のりだす",
+        "kr": "착수하다, 나서다",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 694,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "心当たり(がない)",
+        "rd": "",
+        "kr": "짐작가는곳이없다 = mm 更(変えるように)"
+      },
+      "cleaned": {
+        "n": 148,
+        "jp": "心当たり",
+        "rd": "こころあたり",
+        "kr": "짐작 가는 곳, 단서",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 696,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "しがとい(ところ)",
+        "rd": "",
+        "kr": "완고한(멘 (ME Lite CMF"
+      },
+      "cleaned": {
+        "n": 149,
+        "jp": "しぶとい",
+        "rd": "しぶとい",
+        "kr": "끈질기다, 완고하다",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 699,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "折る)基調(に (",
+        "rd": "",
+        "kr": "왼색을)기조로 바탕으로 ᄆ MAND S ILS (짐0!부피가크다 ーー (貴任をとって)矢件"
+      },
+      "cleaned": {
+        "n": 150,
+        "jp": "基調",
+        "rd": "きちょう",
+        "kr": "기조, 바탕",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 700,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "パソコンが備え付けてある (",
+        "rd": "",
+        "kr": "비치되어있다 구비되어있다 'lS HEROES"
+      },
+      "cleaned": {
+        "n": 151,
+        "jp": "備え付けてある",
+        "rd": "そなえつけてある",
+        "kr": "비치되어 있다, 구비되어 있다",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 707,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "軌道(を候正する)",
+        "rd": "",
+        "kr": "케도를수정히대"
+      },
+      "cleaned": {
+        "n": 152,
+        "jp": "軌道",
+        "rd": "きどう",
+        "kr": "궤도",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected"
+      ]
+    },
+    {
+      "csvLine": 708,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "ほる) ᄆ もはや(生出しない)",
+        "rd": "",
+        "kr": "이제는(용되지않는대"
+      },
+      "cleaned": {
+        "n": 153,
+        "jp": "もはや",
+        "rd": "もはや",
+        "kr": "이제는, 더 이상",
+        "qualityFlags": [
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-japanese-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-japanese-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 710,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "ロ (値段のシールを)はがす (",
+        "rd": "",
+        "kr": "가격택을)떼다,벗기다 ! (情熱お)秘め"
+      },
+      "cleaned": {
+        "n": 154,
+        "jp": "はがす",
+        "rd": "はがす",
+        "kr": "떼다, 벗기다",
+        "qualityFlags": [
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 711,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "診る)損なう (dgt) aig の mote o @2t-71)",
+        "rd": "",
+        "kr": "하다. AIC = ie BU Cathe"
+      },
+      "cleaned": {
+        "n": 155,
+        "jp": "損なう",
+        "rd": "そこなう",
+        "kr": "손상시키다, 해치다",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-japanese-ocr-noise",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-japanese-ocr-noise",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 712,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "くめん ot ... ~",
+        "rd": "",
+        "kr": "구개"
+      },
+      "cleaned": {
+        "n": 156,
+        "jp": "局面",
+        "rd": "きょくめん",
+        "kr": "국면",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-japanese-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-japanese-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 713,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "一人で抱え込む (",
+        "rd": "",
+        "kr": "자세 GHCH 一 owe) meicr @ (않은 것을) 떠말다 il 2011 > 다레:"
+      },
+      "cleaned": {
+        "n": 157,
+        "jp": "一人で抱え込む",
+        "rd": "ひとりでかかえこむ",
+        "kr": "혼자 떠맡다",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 714,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "人一倍(努力する) wae ersicy—suae 9 Pita BIH UZ (",
+        "rd": "",
+        "kr": "정전이) 복구되었다 ンー = ~ (87922 3 ("
+      },
+      "cleaned": {
+        "n": 158,
+        "jp": "人一倍",
+        "rd": "ひといちばい",
+        "kr": "남보다 훨씬, 남달리",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-japanese-ocr-noise",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-japanese-ocr-noise",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 716,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "円滑に(苺お) WsP(GMWgi) ᄆ (母がかばってくれた (",
+        "rd": "",
+        "kr": "엄마가김싸주었다 — = ma (経済的に)ゆと"
+      },
+      "cleaned": {
+        "n": 159,
+        "jp": "円滑に",
+        "rd": "えんかつに",
+        "kr": "원활하게",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-japanese-ocr-noise",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-japanese-ocr-noise",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 717,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "めい",
+        "rd": "",
+        "kr": "개 = 때 나주 이"
+      },
+      "cleaned": {
+        "n": 160,
+        "jp": "ゆとり",
+        "rd": "ゆとり",
+        "kr": "여유",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 718,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "他社より)優位 (",
+        "rd": "",
+        "kr": "타시보다)우위 - 다른 것보다 유리한 입장 i 質素な(生活) を"
+      },
+      "cleaned": {
+        "n": 161,
+        "jp": "優位",
+        "rd": "ゆうい",
+        "kr": "우위, 유리한 입장",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 720,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "務科度も)加味する eae) ek — ce 248)",
+        "rd": "",
+        "kr": "가미히다 — \"ヨー"
+      },
+      "cleaned": {
+        "n": 162,
+        "jp": "加味する",
+        "rd": "かみする",
+        "kr": "가미하다, 고려에 넣다",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-japanese-ocr-noise",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-japanese-ocr-noise",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 722,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "秒切な)処置 Geり",
+        "rd": "",
+        "kr": "조치 ᄆ (麗生活にまで)日出しする (아생활까지참견하다 ad 2010"
+      },
+      "cleaned": {
+        "n": 163,
+        "jp": "処置",
+        "rd": "しょち",
+        "kr": "조치, 처리",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-japanese-ocr-noise",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-japanese-ocr-noise",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 723,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "だかい",
+        "rd": "",
+        "kr": "고"
+      },
+      "cleaned": {
+        "n": 164,
+        "jp": "高い",
+        "rd": "たかい",
+        "kr": "높다, 비싸다",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected"
+      ]
+    },
+    {
+      "csvLine": 724,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "持ち上げた)拍子に (",
+        "rd": "",
+        "kr": "이올린 순간에ᅳ~한순간에. ~한칠나에 — ーー iikoy 382 (cm"
+      },
+      "cleaned": {
+        "n": 165,
+        "jp": "拍子に",
+        "rd": "ひょうしに",
+        "kr": "순간에, 찰나에",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 726,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "埋会全体に当てはめる (",
+        "rd": "",
+        "kr": "사회 전체에) 적용시키다 ᅳ- 꼭 들어 맞추다, 적용시키다 (どこのレストラン"
+      },
+      "cleaned": {
+        "n": 166,
+        "jp": "社会全体に当てはめる",
+        "rd": "しゃかいぜんたいにあてはめる",
+        "kr": "사회 전체에 적용하다",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 729,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "人W計so0に満たない (",
+        "rd": "",
+        "kr": "인구 500명에) 미치지 못하다 — 5008 미만이다 —"
+      },
+      "cleaned": {
+        "n": 167,
+        "jp": "満たない",
+        "rd": "みたない",
+        "kr": "미치지 못하다, 채우지 못하다",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-japanese-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-japanese-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 732,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "はがす cites)",
+        "rd": "",
+        "kr": "보다 NN (縛示を)秘める wae archeorzawicr GRE FEMS cata) gave"
+      },
+      "cleaned": {
+        "n": 168,
+        "jp": "はがす",
+        "rd": "はがす",
+        "kr": "떼다, 벗기다",
+        "qualityFlags": [
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-japanese-ocr-noise",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-japanese-ocr-noise",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 733,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "ぃつく (",
+        "rd": "",
+        "kr": "엄마 다리에) 매달리다 ~ c CERO ololgy 51 소행"
+      },
+      "cleaned": {
+        "n": 169,
+        "jp": "しがみつく",
+        "rd": "しがみつく",
+        "kr": "매달리다, 달라붙다",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 735,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "不服(を哨える)",
+        "rd": "",
+        "kr": "불복 이9를제기하대"
+      },
+      "cleaned": {
+        "n": 170,
+        "jp": "不服",
+        "rd": "ふふく",
+        "kr": "불복, 불만",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected"
+      ]
+    },
+    {
+      "csvLine": 736,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "とっくに(帰った)",
+        "rd": "",
+        "kr": "벌써 월씬전에(돌아갔다 ᄆ (時間j)まちまちだ (zip 각기 다르다. 제각각이다"
+      },
+      "cleaned": {
+        "n": 171,
+        "jp": "とっくに",
+        "rd": "とっくに",
+        "kr": "벌써, 훨씬 전에",
+        "qualityFlags": [
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 737,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "経済前に) 1 (",
+        "rd": "",
+        "kr": "경제적으로) 여유가 ᄆ ey eid @2 sea) a"
+      },
+      "cleaned": {
+        "n": 172,
+        "jp": "経済的に",
+        "rd": "けいざいてきに",
+        "kr": "경제적으로",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 738,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "友達を) 見失う (",
+        "rd": "",
+        "kr": "친구를)놓치다 — 보던 것을 (시야에세) 놓치다"
+      },
+      "cleaned": {
+        "n": 173,
+        "jp": "見失う",
+        "rd": "みうしなう",
+        "kr": "놓치다, 잃어버리다",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected"
+      ]
+    },
+    {
+      "csvLine": 739,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "質素な(生活)",
+        "rd": "",
+        "kr": "소박한(생월)"
+      },
+      "cleaned": {
+        "n": 174,
+        "jp": "質素な",
+        "rd": "しっそな",
+        "kr": "검소한, 소박한",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected"
+      ]
+    },
+    {
+      "csvLine": 740,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "する",
+        "rd": "",
+        "kr": "침견하다 2010 ーーーーーーーーーーーー"
+      },
+      "cleaned": {
+        "n": 175,
+        "jp": "干渉する",
+        "rd": "かんしょうする",
+        "kr": "간섭하다",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 745,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "細心(の注意)",
+        "rd": "",
+        "kr": "세싱한주의 意地(を張る) 고집을부리대"
+      },
+      "cleaned": {
+        "n": 178,
+        "jp": "細心",
+        "rd": "さいしん",
+        "kr": "세심함, 매우 주의 깊음",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 750,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "あざやか sae ᄆ 案の定",
+        "rd": "",
+        "kr": "예상대로,아니나다를까 . [) -ᅳ10 일괄 한데 묶음 ae ーー"
+      },
+      "cleaned": {
+        "n": 180,
+        "jp": "案の定",
+        "rd": "あんのじょう",
+        "kr": "예상대로, 아니나 다를까",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-japanese-ocr-noise",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-japanese-ocr-noise",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 754,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "かんべき ave ᄆ きざ",
+        "rd": "",
+        "kr": "아니꼬음 고 그 = mw"
+      },
+      "cleaned": {
+        "n": 181,
+        "jp": "気障",
+        "rd": "きざ",
+        "kr": "잘난 체함, 아니꼬움",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-japanese-ocr-noise",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-japanese-ocr-noise",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 756,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "欠如 am ᄆ 交付",
+        "rd": "",
+        "kr": "교부(나라나 시청에서 금전이나 서류를 건님)"
+      },
+      "cleaned": {
+        "n": 182,
+        "jp": "交付",
+        "rd": "こうふ",
+        "kr": "교부",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-japanese-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-japanese-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 758,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "指図",
+        "rd": "",
+        "kr": "지시 지휘 ᄆ しなやか 탄력이 있고 부드러운 모양 sete —"
+      },
+      "cleaned": {
+        "n": 183,
+        "jp": "指図",
+        "rd": "さしず",
+        "kr": "지시, 지휘",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 759,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "終日",
+        "rd": "",
+        "kr": "집착 ᄆ 뽀습 조 uf"
+      },
+      "cleaned": {
+        "n": 184,
+        "jp": "終日",
+        "rd": "しゅうじつ",
+        "kr": "종일",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 762,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "市誠",
+        "rd": "",
+        "kr": "중독"
+      },
+      "cleaned": {
+        "n": 185,
+        "jp": "中毒",
+        "rd": "ちゅうどく",
+        "kr": "중독",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "auto-corrected"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "auto-corrected"
+      ]
+    },
+    {
+      "csvLine": 768,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "不満",
+        "rd": "",
+        "kr": "불안"
+      },
+      "cleaned": {
+        "n": 186,
+        "jp": "不満",
+        "rd": "ふまん",
+        "kr": "불만",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected"
+      ]
+    },
+    {
+      "csvLine": 771,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "よばど aM gg 両立",
+        "rd": "",
+        "kr": "양립 병행"
+      },
+      "cleaned": {
+        "n": 187,
+        "jp": "両立",
+        "rd": "りょうりつ",
+        "kr": "양립, 병행",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-japanese-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-japanese-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 773,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "過ち",
+        "rd": "",
+        "kr": "질못실수 개 IF '"
+      },
+      "cleaned": {
+        "n": 188,
+        "jp": "過ち",
+        "rd": "あやまち",
+        "kr": "잘못, 실수",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 775,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "潤い",
+        "rd": "",
+        "kr": "습기, 보탬, 혜택 ᄆ ig 꼬리 ᄆ 2 공 공공, 공정함 i ay 5"
+      },
+      "cleaned": {
+        "n": 189,
+        "jp": "潤い",
+        "rd": "うるおい",
+        "kr": "습기, 윤기, 보탬",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 778,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "口軸",
+        "rd": "",
+        "kr": "축.굴때 of sm | 'al"
+      },
+      "cleaned": {
+        "n": 190,
+        "jp": "軸",
+        "rd": "じく",
+        "kr": "축, 중심",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 781,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "肺 本",
+        "rd": "",
+        "kr": "부끄러움, 수치, 치욕, 창피"
+      },
+      "cleaned": {
+        "n": 191,
+        "jp": "恥",
+        "rd": "はじ",
+        "kr": "부끄러움, 수치, 치욕",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected"
+      ]
+    },
+    {
+      "csvLine": 785,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "あいせき",
+        "rd": "",
+        "kr": "자 : - LN"
+      },
+      "cleaned": {
+        "n": 192,
+        "jp": "哀惜",
+        "rd": "あいせき",
+        "kr": "애석함, 아쉬워함",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 788,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "幹旋",
+        "rd": "",
+        "kr": "알선 주선 ᄆ 油絵 유화 ᄆ 雨具 비올때쓰는도구 mm"
+      },
+      "cleaned": {
+        "n": 193,
+        "jp": "斡旋",
+        "rd": "あっせん",
+        "kr": "알선, 주선",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 789,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "暗算",
+        "rd": "",
+        "kr": "임산 노군 2 따리"
+      },
+      "cleaned": {
+        "n": 194,
+        "jp": "暗算",
+        "rd": "あんざん",
+        "kr": "암산",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected"
+      ]
+    },
+    {
+      "csvLine": 791,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "家柄",
+        "rd": "",
+        "kr": "집안 기문 ᄆ 家路 (oe 귀갓길, 귀가"
+      },
+      "cleaned": {
+        "n": 195,
+        "jp": "家柄",
+        "rd": "いえがら",
+        "kr": "가문, 집안",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 792,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "異議",
+        "rd": "",
+        "kr": "이의 1 『"
+      },
+      "cleaned": {
+        "n": 196,
+        "jp": "異議",
+        "rd": "いぎ",
+        "kr": "이의",
+        "qualityFlags": [
+          "corrected-rd",
+          "auto-corrected"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "auto-corrected"
+      ]
+    },
+    {
+      "csvLine": 793,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "圧縮",
+        "rd": "",
+        "kr": "위축 2"
+      },
+      "cleaned": {
+        "n": 197,
+        "jp": "圧縮",
+        "rd": "あっしゅく",
+        "kr": "압축",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected"
+      ]
+    },
+    {
+      "csvLine": 795,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "衣装",
+        "rd": "",
+        "kr": "의상"
+      },
+      "cleaned": {
+        "n": 198,
+        "jp": "衣装",
+        "rd": "いしょう",
+        "kr": "의상",
+        "qualityFlags": [
+          "corrected-rd",
+          "auto-corrected"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "auto-corrected"
+      ]
+    },
+    {
+      "csvLine": 796,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "依存",
+        "rd": "",
+        "kr": "의존"
+      },
+      "cleaned": {
+        "n": 199,
+        "jp": "依存",
+        "rd": "いぞん",
+        "kr": "의존",
+        "qualityFlags": [
+          "corrected-rd",
+          "auto-corrected"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "auto-corrected"
+      ]
+    },
+    {
+      "csvLine": 797,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "委託",
+        "rd": "",
+        "kr": "위탁"
+      },
+      "cleaned": {
+        "n": 200,
+        "jp": "委託",
+        "rd": "いたく",
+        "kr": "위탁",
+        "qualityFlags": [
+          "corrected-rd",
+          "auto-corrected"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "auto-corrected"
+      ]
+    },
+    {
+      "csvLine": 798,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "一時",
+        "rd": "",
+        "kr": "한때 잠시 ᄆ 一途 외교 한결같음"
+      },
+      "cleaned": {
+        "n": 201,
+        "jp": "一時",
+        "rd": "いちじ",
+        "kr": "한때, 잠시",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 801,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "一挙",
+        "rd": "",
+        "kr": "일거 한번의행동"
+      },
+      "cleaned": {
+        "n": 202,
+        "jp": "一挙",
+        "rd": "いっきょ",
+        "kr": "일거, 한 번의 행동",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected"
+      ]
+    },
+    {
+      "csvLine": 802,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "一色",
+        "rd": "",
+        "kr": "일색.~뿐임 ーー"
+      },
+      "cleaned": {
+        "n": 203,
+        "jp": "一色",
+        "rd": "いっしょく",
+        "kr": "일색, 한 가지뿐임",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected"
+      ]
+    },
+    {
+      "csvLine": 804,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "一掃",
+        "rd": "",
+        "kr": "일소, 한꺼번에 없앰"
+      },
+      "cleaned": {
+        "n": 204,
+        "jp": "一掃",
+        "rd": "いっそう",
+        "kr": "일소, 한꺼번에 없앰",
+        "qualityFlags": [
+          "corrected-rd",
+          "auto-corrected"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "auto-corrected"
+      ]
+    },
+    {
+      "csvLine": 806,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "逸話",
+        "rd": "",
+        "kr": "일화"
+      },
+      "cleaned": {
+        "n": 205,
+        "jp": "逸話",
+        "rd": "いつわ",
+        "kr": "일화",
+        "qualityFlags": [
+          "corrected-rd",
+          "auto-corrected"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "auto-corrected"
+      ]
+    },
+    {
+      "csvLine": 807,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "稲光",
+        "rd": "",
+        "kr": "배=\\※ レー"
+      },
+      "cleaned": {
+        "n": 206,
+        "jp": "稲光",
+        "rd": "いなびかり",
+        "kr": "번개, 번갯불",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 809,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "威力",
+        "rd": "",
+        "kr": "위력"
+      },
+      "cleaned": {
+        "n": 207,
+        "jp": "威力",
+        "rd": "いりょく",
+        "kr": "위력",
+        "qualityFlags": [
+          "corrected-rd",
+          "auto-corrected"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "auto-corrected"
+      ]
+    },
+    {
+      "csvLine": 810,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "違和感",
+        "rd": "",
+        "kr": "위화감 ᄆ 印鑑 인강 ーー"
+      },
+      "cleaned": {
+        "n": 208,
+        "jp": "違和感",
+        "rd": "いわかん",
+        "kr": "위화감",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 812,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "隠居",
+        "rd": "",
+        "kr": "은거 ᄆ 引率 인솔 ᄆ 隠蔽 sm"
+      },
+      "cleaned": {
+        "n": 209,
+        "jp": "隠居",
+        "rd": "いんきょ",
+        "kr": "은거",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 814,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "陰謀",
+        "rd": "",
+        "kr": "음모"
+      },
+      "cleaned": {
+        "n": 210,
+        "jp": "陰謀",
+        "rd": "いんぼう",
+        "kr": "음모",
+        "qualityFlags": [
+          "corrected-rd",
+          "auto-corrected"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "auto-corrected"
+      ]
+    },
+    {
+      "csvLine": 815,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "浮気",
+        "rd": "",
+        "kr": "바람.의도 ーー —"
+      },
+      "cleaned": {
+        "n": 211,
+        "jp": "浮気",
+        "rd": "うわき",
+        "kr": "바람, 변심",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected"
+      ]
+    },
+    {
+      "csvLine": 817,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "ロ運搬",
+        "rd": "",
+        "kr": "운반"
+      },
+      "cleaned": {
+        "n": 212,
+        "jp": "運搬",
+        "rd": "うんぱん",
+        "kr": "운반",
+        "qualityFlags": [
+          "corrected-rd",
+          "auto-corrected"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "auto-corrected"
+      ]
+    },
+    {
+      "csvLine": 818,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "運輸",
+        "rd": "",
+        "kr": "운수 | &"
+      },
+      "cleaned": {
+        "n": 213,
+        "jp": "運輸",
+        "rd": "うんゆ",
+        "kr": "운수, 운송",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 820,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "鋭敏 get20 ᄆ 英雄",
+        "rd": "",
+        "kr": "영웅 ᄆ Rae 영양"
+      },
+      "cleaned": {
+        "n": 214,
+        "jp": "英雄",
+        "rd": "えいゆう",
+        "kr": "영웅",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-japanese-ocr-noise",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-japanese-ocr-noise",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 821,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "え がお えきのおう えし",
+        "rd": "",
+        "kr": "때"
+      },
+      "cleaned": {
+        "n": 215,
+        "jp": "笑顔",
+        "rd": "えがお",
+        "kr": "웃는 얼굴",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected"
+      ]
+    },
+    {
+      "csvLine": 822,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "疫病",
+        "rd": "",
+        "kr": "역병 돌림병 ᄆ 会釈 가법게인사항 ここ 이"
+      },
+      "cleaned": {
+        "n": 216,
+        "jp": "疫病",
+        "rd": "えきびょう",
+        "kr": "역병, 돌림병",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 824,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "会得",
+        "rd": "",
+        "kr": "터득 깨달음 ᄆ 獲物 arses, 전리품"
+      },
+      "cleaned": {
+        "n": 217,
+        "jp": "会得",
+        "rd": "えとく",
+        "kr": "터득, 깨달음",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 825,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "沿岸",
+        "rd": "",
+        "kr": "연안 \""
+      },
+      "cleaned": {
+        "n": 218,
+        "jp": "沿岸",
+        "rd": "えんがん",
+        "kr": "연안",
+        "qualityFlags": [
+          "corrected-rd",
+          "auto-corrected"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "auto-corrected"
+      ]
+    },
+    {
+      "csvLine": 826,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "えんせい えんせん えんだん",
+        "rd": "",
+        "kr": "트"
+      },
+      "cleaned": {
+        "n": 219,
+        "jp": "縁談",
+        "rd": "えんだん",
+        "kr": "혼담",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected"
+      ]
+    },
+    {
+      "csvLine": 827,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "遠征",
+        "rd": "",
+        "kr": "원정 ᄆ 沿線 연선 때스-지하철의)노선주변 [ 縁談 혼담"
+      },
+      "cleaned": {
+        "n": 220,
+        "jp": "遠征",
+        "rd": "えんせい",
+        "kr": "원정",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 832,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "大口 き",
+        "rd": "",
+        "kr": "다량주문 ᄆ 大損 aca ᄆ 汚職 독직 공직자의 비리 M"
+      },
+      "cleaned": {
+        "n": 221,
+        "jp": "大口",
+        "rd": "おおぐち",
+        "kr": "큰소리, 대량 주문",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 834,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "穏便",
+        "rd": "",
+        "kr": "온당하고 ele, Suzi 않음 7"
+      },
+      "cleaned": {
+        "n": 222,
+        "jp": "穏便",
+        "rd": "おんびん",
+        "kr": "온건함, 무난함",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 839,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "ロ外泊",
+        "rd": "",
+        "kr": "외박"
+      },
+      "cleaned": {
+        "n": 223,
+        "jp": "外泊",
+        "rd": "がいはく",
+        "kr": "외박",
+        "qualityFlags": [
+          "corrected-rd",
+          "auto-corrected"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "auto-corrected"
+      ]
+    },
+    {
+      "csvLine": 841,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "解前",
+        "rd": "",
+        "kr": "하부"
+      },
+      "cleaned": {
+        "n": 224,
+        "jp": "下部",
+        "rd": "かぶ",
+        "kr": "하부",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "auto-corrected"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "auto-corrected"
+      ]
+    },
+    {
+      "csvLine": 843,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "皆無",
+        "rd": "",
+        "kr": "전무 전혀없음"
+      },
+      "cleaned": {
+        "n": 225,
+        "jp": "皆無",
+        "rd": "かいむ",
+        "kr": "전무, 전혀 없음",
+        "qualityFlags": [
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected"
+      ]
+    },
+    {
+      "csvLine": 845,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "同覧",
+        "rd": "",
+        "kr": "회랑 CHR We CO Waal 주"
+      },
+      "cleaned": {
+        "n": 226,
+        "jp": "回廊",
+        "rd": "かいろう",
+        "kr": "회랑",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "corrected-kr",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "corrected-kr",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    },
+    {
+      "csvLine": 859,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "完備",
+        "rd": "",
+        "kr": "완비"
+      },
+      "cleaned": {
+        "n": 227,
+        "jp": "完備",
+        "rd": "かんび",
+        "kr": "완비",
+        "qualityFlags": [
+          "corrected-rd",
+          "auto-corrected"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "auto-corrected"
+      ]
+    },
+    {
+      "csvLine": 865,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "企画",
+        "rd": "",
+        "kr": "기획"
+      },
+      "cleaned": {
+        "n": 228,
+        "jp": "企画",
+        "rd": "きかく",
+        "kr": "기획",
+        "qualityFlags": [
+          "corrected-rd",
+          "auto-corrected"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-rd",
+        "auto-corrected"
+      ]
+    },
+    {
+      "csvLine": 866,
+      "sourceFile": "~115.csv",
+      "original": {
+        "jp": "きみかん",
+        "rd": "",
+        "kr": "오해 ue ーー"
+      },
+      "cleaned": {
+        "n": 229,
+        "jp": "誤解",
+        "rd": "ごかい",
+        "kr": "오해",
+        "qualityFlags": [
+          "corrected-jp",
+          "corrected-rd",
+          "auto-corrected",
+          "cleaned-meaning-ocr-noise",
+          "source-contained-ocr-noise"
+        ]
+      },
+      "qualityFlags": [
+        "corrected-jp",
+        "corrected-rd",
+        "auto-corrected",
+        "cleaned-meaning-ocr-noise",
+        "source-contained-ocr-noise"
+      ]
+    }
+  ],
+  "reviewSamples": []
+}

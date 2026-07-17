@@ -10,6 +10,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "import:rarw": "node scripts/importRarwGrammarAdditions.mjs",
+    "preprocess:n1-words": "node scripts/preprocessN1Words.mjs",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit"
   },

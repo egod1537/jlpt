@@ -10,9 +10,13 @@ html {
   font-size: 16px;
 }
 
+html,
+body {
+  background: #0f1218 !important;
+}
+
 body {
   font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Malgun Gothic", sans-serif;
-  background: var(--bg);
   color: var(--text);
   height: 100vh;
   height: 100dvh;
@@ -1641,6 +1645,379 @@ button {
   color: var(--text3);
 }
 
+.n1-words-section {
+  width: min(480px, 100%);
+  min-width: 0;
+  min-height: 0;
+  margin: 0 auto;
+  padding: 0 18px 14px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  overflow: hidden;
+  background: var(--bg);
+}
+
+.flash-header {
+  min-height: 72px;
+  padding: 16px 0 10px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+  flex-shrink: 0;
+}
+
+.header-title {
+  color: var(--text);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.flash-set-label {
+  margin-top: 4px;
+  color: var(--text-muted);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.flash-counter {
+  color: var(--teal);
+  font-size: 15px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.timer-bar {
+  min-height: 34px;
+  margin-bottom: 12px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace;
+  font-size: 13px;
+}
+
+.flash-set-selector {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 14px;
+  padding-bottom: 4px;
+  overflow-x: auto;
+  flex-shrink: 0;
+  scrollbar-width: none;
+}
+
+.flash-set-selector::-webkit-scrollbar {
+  display: none;
+}
+
+.flash-set-btn {
+  flex: 0 0 auto;
+  width: 50px;
+  min-height: 42px;
+  border: 1px solid var(--border);
+  border-radius: 11px;
+  background: var(--dark-btn);
+  color: var(--text-muted);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+
+.flash-set-btn span {
+  color: var(--text);
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.flash-set-btn small {
+  color: var(--text-muted);
+  font-size: 10px;
+  line-height: 1;
+}
+
+.flash-set-btn.active {
+  border-color: var(--teal);
+  background: var(--teal-dark);
+}
+
+.flash-set-btn.active span,
+.flash-set-btn.active small {
+  color: var(--text);
+}
+
+.flash-set-btn.complete {
+  border-color: color-mix(in srgb, var(--green) 55%, var(--border));
+}
+
+.flash-set-btn.complete span {
+  color: var(--green);
+}
+
+.flash-options {
+  display: grid;
+  grid-template-columns: repeat(4, 48px);
+  justify-content: center;
+  gap: 14px;
+  margin-bottom: 18px;
+  flex-shrink: 0;
+}
+
+.flash-options button {
+  width: 48px;
+  height: 48px;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  background: var(--dark-btn);
+  color: var(--text);
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.flash-options button:hover {
+  border-color: var(--teal);
+  color: var(--teal);
+}
+
+.flash-main {
+  min-height: 0;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.flash-card {
+  position: relative;
+  width: 100%;
+  min-height: 360px;
+  padding: 28px 18px;
+  border: 1px solid var(--border);
+  border-radius: 22px;
+  background: var(--surface);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0 20px 60px rgb(0 0 0 / 18%);
+}
+
+.review-badge {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  padding: 0.2rem 0.45rem;
+  border: 1px solid var(--gold);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--gold) 15%, var(--surface2));
+  color: var(--gold);
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.kanjiDisplay {
+  color: var(--teal);
+  font-size: 78px;
+  font-weight: 300;
+  line-height: 1.08;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
+.hint-panel {
+  width: 100%;
+  min-height: 92px;
+  margin-top: 26px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.hint-text {
+  visibility: hidden;
+  opacity: 0;
+  color: var(--text);
+  font-size: 18px;
+  line-height: 1.45;
+  text-align: center;
+}
+
+.hint-text.visible {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.18s ease;
+}
+
+.swipe-left {
+  animation: swipeLeft 220ms ease forwards;
+}
+
+.swipe-right {
+  animation: swipeRight 220ms ease forwards;
+}
+
+@keyframes swipeLeft {
+  to {
+    transform: translateX(-70px);
+    opacity: 0;
+  }
+}
+
+@keyframes swipeRight {
+  to {
+    transform: translateX(70px);
+    opacity: 0;
+  }
+}
+
+.complete-screen {
+  width: 100%;
+  padding: 30px 24px;
+  border: 1px solid var(--border);
+  border-radius: 22px;
+  background: var(--surface);
+  text-align: center;
+}
+
+.complete-screen > span {
+  color: var(--text-muted);
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.complete-screen > strong {
+  display: block;
+  margin: 10px 0;
+  color: var(--teal);
+  font-size: 36px;
+  line-height: 1.2;
+}
+
+.complete-screen p {
+  color: var(--text);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.complete-actions {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin-top: 22px;
+}
+
+.complete-actions button {
+  min-height: 48px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--dark-btn);
+  color: var(--text);
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.complete-actions button:first-child,
+.complete-actions button:hover:not(:disabled) {
+  border-color: var(--teal);
+  background: var(--teal-btn);
+  color: #071014;
+}
+
+.complete-actions button:disabled {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+.flash-progress {
+  padding: 14px 0 12px;
+  flex-shrink: 0;
+}
+
+.progress-copy {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  color: var(--text-muted);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.progress-track {
+  height: 8px;
+  border-radius: 999px;
+  background: var(--surface2);
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  border-radius: 999px;
+  background: var(--teal);
+  transition: width 0.18s ease;
+}
+
+.flash-bottom {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  padding-bottom: env(safe-area-inset-bottom);
+  flex-shrink: 0;
+}
+
+.hint-btns,
+.action-btns {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.hint-btns button,
+.action-btns button {
+  min-height: 54px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  color: var(--text);
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.hint-btns button {
+  background: var(--dark-btn);
+}
+
+.hint-btns button.active {
+  border-color: var(--teal);
+  background: var(--teal-dark);
+}
+
+.study-action {
+  background: #2a4a6e;
+}
+
+.study-action span {
+  margin-right: 6px;
+  color: var(--gold);
+}
+
+.known-action {
+  background: var(--teal-btn);
+}
+
 .honorific-section {
   flex: 1;
   min-width: 0;
@@ -2650,5 +3027,67 @@ button {
 
   .dock-tab.active .dock-tab-indicator {
     background: var(--accent);
+  }
+}
+
+@media (max-width: 768px) {
+  .n1-words-section {
+    width: min(480px, 100%);
+    padding: 0 14px 12px;
+  }
+
+  .flash-header {
+    min-height: 66px;
+    padding-top: 14px;
+  }
+
+  .timer-bar {
+    min-height: 32px;
+    margin-bottom: 10px;
+  }
+
+  .flash-set-selector {
+    gap: 7px;
+    margin-bottom: 12px;
+  }
+
+  .flash-set-btn {
+    width: 46px;
+    min-height: 40px;
+  }
+
+  .flash-options {
+    grid-template-columns: repeat(4, 44px);
+    gap: 12px;
+    margin-bottom: 14px;
+  }
+
+  .flash-options button {
+    width: 44px;
+    height: 44px;
+  }
+
+  .flash-card {
+    min-height: 330px;
+    padding: 24px 16px;
+  }
+
+  .kanjiDisplay {
+    font-size: 58px;
+  }
+
+  .hint-panel {
+    min-height: 86px;
+    margin-top: 22px;
+  }
+
+  .hint-text {
+    font-size: 16px;
+  }
+
+  .hint-btns button,
+  .action-btns button {
+    min-height: 52px;
+    font-size: 14px;
   }
 }

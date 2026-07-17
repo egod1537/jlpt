@@ -126,14 +126,17 @@ export class App extends Component<Record<string, never>, AppState> {
 
   render() {
     const favoriteIdSet = new Set(this.state.favoriteIds);
+    const isN1WordsRoute = this.state.activeTab === "n1Words";
 
     return (
       <div className="app-shell">
-        <Header
-          activeTab={this.state.activeTab}
-          grammarCount={grammarItems.length}
-          onTabChange={this.handleTabChange}
-        />
+        {!isN1WordsRoute && (
+          <Header
+            activeTab={this.state.activeTab}
+            grammarCount={grammarItems.length}
+            onTabChange={this.handleTabChange}
+          />
+        )}
         <MainLayout>
           <div style={{ display: this.state.activeTab === "dict" ? "contents" : "none" }}>
             <DictionaryPage
@@ -176,17 +179,19 @@ export class App extends Component<Record<string, never>, AppState> {
             <N1WordsPage words={n1Words} />
           </div>
         </MainLayout>
-        <MobileDock
-          activeTab={
-            this.state.activeTab === "quiz" ||
-            this.state.activeTab === "honorific" ||
-            this.state.activeTab === "n1Words"
-              ? this.state.activeTab
-              : this.state.mobileDictionaryPane
-          }
-          hasSelectedItem={this.state.hasSelectedItem}
-          onTabChange={this.handleMobileTabChange}
-        />
+        {!isN1WordsRoute && (
+          <MobileDock
+            activeTab={
+              this.state.activeTab === "quiz" ||
+              this.state.activeTab === "honorific" ||
+              this.state.activeTab === "n1Words"
+                ? this.state.activeTab
+                : this.state.mobileDictionaryPane
+            }
+            hasSelectedItem={this.state.hasSelectedItem}
+            onTabChange={this.handleMobileTabChange}
+          />
+        )}
       </div>
     );
   }
