@@ -1,6 +1,6 @@
 import { PureComponent } from "react";
 
-export type AppTab = "dict" | "honorific" | "quiz";
+export type AppTab = "dict" | "honorific" | "quiz" | "n1Words";
 
 interface HeaderProps {
   activeTab: AppTab;
@@ -47,6 +47,13 @@ export class Header extends PureComponent<HeaderProps> {
               onClick={() => onTabChange("quiz")}
             >
               테스트
+            </button>
+            <button
+              className={`nav-tab${activeTab === "n1Words" ? " active" : ""}`}
+              type="button"
+              onClick={() => onTabChange("n1Words")}
+            >
+              N1 단어
             </button>
           </nav>
         </div>

@@ -1,6 +1,11 @@
 import { PureComponent } from "react";
 
-export type MobileDockTab = "list" | "detail" | "honorific" | "quiz";
+export type MobileDockTab =
+  | "list"
+  | "detail"
+  | "honorific"
+  | "quiz"
+  | "n1Words";
 
 interface MobileDockProps {
   activeTab: MobileDockTab;
@@ -13,6 +18,7 @@ const tabs: Array<{ id: MobileDockTab; label: string }> = [
   { id: "detail", label: "상세" },
   { id: "honorific", label: "경어" },
   { id: "quiz", label: "테스트" },
+  { id: "n1Words", label: "N1단어" },
 ];
 
 export class MobileDock extends PureComponent<MobileDockProps> {
