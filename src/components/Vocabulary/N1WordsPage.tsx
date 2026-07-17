@@ -4,7 +4,6 @@ import {
   buildSetSummaries,
   getSetCount,
   getSetWords,
-  shuffleWords,
 } from "./n1FlashcardDeck";
 import { N1FlashcardView } from "./N1FlashcardView";
 import {
@@ -185,11 +184,9 @@ export class N1WordsPage extends Component<N1WordsPageProps, N1FlashcardRuntimeS
       return;
     }
 
-    const roundWords = shuffleWords(this.state.studyList);
-
     this.clearAnimationTimer();
     this.setState(
-      buildStudyOnlyRuntimeState(roundWords),
+      buildStudyOnlyRuntimeState(this.state.studyList),
       () => this.syncTimer(),
     );
   };
@@ -197,14 +194,6 @@ export class N1WordsPage extends Component<N1WordsPageProps, N1FlashcardRuntimeS
   private restartCurrentSet = (): void => {
     const setSize = this.getSetSize();
     const setIndex = this.state.currentSetIndex;
-    const setStartIndex = setIndex * setSize;
-    const setWords = getSetWords(this.state.shuffledWords, setIndex, setSize);
-    const shuffledSetWords = shuffleWords(setWords);
-    const shuffledWords = [
-      ...this.state.shuffledWords.slice(0, setStartIndex),
-      ...shuffledSetWords,
-      ...this.state.shuffledWords.slice(setStartIndex + setWords.length),
-    ];
     const setKey = String(setIndex);
     const completedRoundCount =
       this.savedSession.setProgress[setKey]?.completedRoundCount ??
@@ -222,7 +211,7 @@ export class N1WordsPage extends Component<N1WordsPageProps, N1FlashcardRuntimeS
           wordIndex: 0,
         },
       },
-      shuffledWordIds: shuffledWords.map((word) => word.n),
+      shuffledWordIds: this.state.shuffledWords.map((word) => word.n),
     };
 
     saveN1FlashcardSession(this.savedSession, this.getStorageKey());
@@ -230,7 +219,7 @@ export class N1WordsPage extends Component<N1WordsPageProps, N1FlashcardRuntimeS
     this.setState(
       buildRuntimeStateForSet(
         setIndex,
-        shuffledWords,
+        this.state.shuffledWords,
         setSize,
         this.savedSession,
       ),
