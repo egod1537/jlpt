@@ -5,8 +5,11 @@ import {
   type N1SetSummary,
   type SwipeClass,
 } from "./n1FlashcardDeck";
+import type { N1StudyLink } from "./N1WordsPage";
 
 interface N1FlashcardViewProps {
+  areHintsCombined: boolean;
+  combinedHintLabel: string;
   currentNumber: number;
   currentSetIndex: number;
   currentWord: N1Word | undefined;
@@ -17,12 +20,18 @@ interface N1FlashcardViewProps {
   isKrHintVisible: boolean;
   isReadingHintVisible: boolean;
   knowCount: number;
+  meaningHintLabel: string;
+  primaryClassName?: string;
   progressPercent: number;
+  readingHintLabel: string;
   remainingCount: number;
   setCount: number;
   setSummaries: readonly N1SetSummary[];
+  speechButtonTitle: string;
   studyCount: number;
+  studyLinks?: readonly N1StudyLink[];
   swipeClass: SwipeClass;
+  title: string;
   totalCards: number;
   onKnown: () => void;
   onRestartAllWords: () => void;
@@ -31,6 +40,7 @@ interface N1FlashcardViewProps {
   onSpeakCurrentWord: () => void;
   onStartNextSet: () => void;
   onStudy: () => void;
+  onToggleCombinedHints: () => void;
   onToggleKrHint: () => void;
   onToggleReadingHint: () => void;
 }
@@ -38,6 +48,8 @@ interface N1FlashcardViewProps {
 export class N1FlashcardView extends PureComponent<N1FlashcardViewProps> {
   render() {
     const {
+      areHintsCombined,
+      combinedHintLabel,
       currentNumber,
       currentSetIndex,
       currentWord,
@@ -48,12 +60,18 @@ export class N1FlashcardView extends PureComponent<N1FlashcardViewProps> {
       isKrHintVisible,
       isReadingHintVisible,
       knowCount,
+      meaningHintLabel,
+      primaryClassName,
       progressPercent,
+      readingHintLabel,
       remainingCount,
       setCount,
       setSummaries,
+      speechButtonTitle,
       studyCount,
+      studyLinks,
       swipeClass,
+      title,
       totalCards,
       onKnown,
       onRestartAllWords,
@@ -62,18 +80,34 @@ export class N1FlashcardView extends PureComponent<N1FlashcardViewProps> {
       onSpeakCurrentWord,
       onStartNextSet,
       onStudy,
+      onToggleCombinedHints,
       onToggleKrHint,
       onToggleReadingHint,
     } = this.props;
+    const areCombinedHintsVisible = isKrHintVisible && isReadingHintVisible;
 
     return (
       <section className="n1-words-section">
         <header className="flash-header">
           <div>
-            <div className="header-title">N1 단어장</div>
+            <div className="header-title">{title}</div>
             <div className="flash-set-label">
               {currentSetIndex + 1} / {setCount} 세트
             </div>
+            {studyLinks !== undefined && studyLinks.length > 0 && (
+              <nav className="flash-study-tabs" aria-label="N1 학습 화면">
+                {studyLinks.map((link) => (
+                  <a
+                    aria-current={link.active ? "page" : undefined}
+                    className={link.active ? "active" : ""}
+                    href={link.href}
+                    key={link.href}
+                  >
+                    {link.label}
+                  </a>
+                ))}
+              </nav>
+            )}
           </div>
           <div className="flash-counter">
             {currentNumber} / {totalCards}
@@ -117,7 +151,7 @@ export class N1FlashcardView extends PureComponent<N1FlashcardViewProps> {
           </button>
           <button
             type="button"
-            title="일본어 발음"
+            title={speechButtonTitle}
             onClick={onSpeakCurrentWord}
           >
             🔊
@@ -155,7 +189,13 @@ export class N1FlashcardView extends PureComponent<N1FlashcardViewProps> {
               {currentWord?.needsReview && (
                 <div className="review-badge">검수 필요</div>
               )}
-              <div className="kanjiDisplay">{currentWord?.jp}</div>
+              <div
+                className={`kanjiDisplay${
+                  primaryClassName === undefined ? "" : ` ${primaryClassName}`
+                }`}
+              >
+                {currentWord?.jp}
+              </div>
               <div className="hint-panel">
                 <div
                   className={`hint-text${isKrHintVisible ? " visible" : ""}`}
@@ -191,21 +231,33 @@ export class N1FlashcardView extends PureComponent<N1FlashcardViewProps> {
 
         {!isComplete && (
           <footer className="flash-bottom">
-            <div className="hint-btns">
-              <button
-                className={isKrHintVisible ? "active" : ""}
-                type="button"
-                onClick={onToggleKrHint}
-              >
-                한국어
-              </button>
-              <button
-                className={isReadingHintVisible ? "active" : ""}
-                type="button"
-                onClick={onToggleReadingHint}
-              >
-                ひらがな
-              </button>
+            <div className={`hint-btns${areHintsCombined ? " single" : ""}`}>
+              {areHintsCombined ? (
+                <button
+                  className={areCombinedHintsVisible ? "active" : ""}
+                  type="button"
+                  onClick={onToggleCombinedHints}
+                >
+                  {combinedHintLabel}
+                </button>
+              ) : (
+                <>
+                  <button
+                    className={isKrHintVisible ? "active" : ""}
+                    type="button"
+                    onClick={onToggleKrHint}
+                  >
+                    {meaningHintLabel}
+                  </button>
+                  <button
+                    className={isReadingHintVisible ? "active" : ""}
+                    type="button"
+                    onClick={onToggleReadingHint}
+                  >
+                    {readingHintLabel}
+                  </button>
+                </>
+              )}
             </div>
             <div className="action-btns">
               <button className="study-action" type="button" onClick={onStudy}>

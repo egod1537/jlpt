@@ -1681,6 +1681,33 @@ button {
   font-weight: 600;
 }
 
+.flash-study-tabs {
+  display: inline-grid;
+  grid-template-columns: repeat(2, minmax(54px, 1fr));
+  gap: 4px;
+  margin-top: 8px;
+  padding: 3px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+}
+
+.flash-study-tabs a {
+  min-height: 28px;
+  padding: 5px 10px;
+  border-radius: 6px;
+  color: var(--text-muted);
+  font-size: 12px;
+  font-weight: 800;
+  text-align: center;
+  text-decoration: none;
+}
+
+.flash-study-tabs a.active {
+  background: var(--teal-dark);
+  color: var(--text);
+}
+
 .flash-counter {
   color: var(--teal);
   font-size: 15px;
@@ -1835,6 +1862,12 @@ button {
   overflow-wrap: anywhere;
 }
 
+.kanjiDisplay.kanji-symbol {
+  font-size: 112px;
+  font-weight: 400;
+  line-height: 1;
+}
+
 .hint-panel {
   width: 100%;
   min-height: 92px;
@@ -1983,6 +2016,10 @@ button {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
+}
+
+.hint-btns.single {
+  grid-template-columns: 1fr;
 }
 
 .hint-btns button,
@@ -3074,6 +3111,10 @@ button {
 
   .kanjiDisplay {
     font-size: 58px;
+  }
+
+  .kanjiDisplay.kanji-symbol {
+    font-size: 86px;
   }
 
   .hint-panel {

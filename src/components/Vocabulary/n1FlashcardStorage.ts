@@ -1,6 +1,6 @@
 import type { N1Word } from "../../data/vocabulary/n1Words";
 
-const STORAGE_KEY = "jlpt-n1-flashcards:v1";
+export const N1_WORD_FLASHCARD_STORAGE_KEY = "jlpt-n1-flashcards:v1";
 
 export interface N1SetProgress {
   elapsedSeconds: number;
@@ -27,13 +27,15 @@ export function createN1FlashcardSession(
   };
 }
 
-export function loadN1FlashcardSession(): N1FlashcardSession | null {
+export function loadN1FlashcardSession(
+  storageKey = N1_WORD_FLASHCARD_STORAGE_KEY,
+): N1FlashcardSession | null {
   if (!canUseStorage()) {
     return null;
   }
 
   try {
-    const rawSession = window.localStorage.getItem(STORAGE_KEY);
+    const rawSession = window.localStorage.getItem(storageKey);
 
     if (rawSession === null) {
       return null;
@@ -62,12 +64,15 @@ export function loadN1FlashcardSession(): N1FlashcardSession | null {
   }
 }
 
-export function saveN1FlashcardSession(session: N1FlashcardSession): void {
+export function saveN1FlashcardSession(
+  session: N1FlashcardSession,
+  storageKey = N1_WORD_FLASHCARD_STORAGE_KEY,
+): void {
   if (!canUseStorage()) {
     return;
   }
 
-  window.localStorage.setItem(STORAGE_KEY, JSON.stringify(session));
+  window.localStorage.setItem(storageKey, JSON.stringify(session));
 }
 
 export function restoreShuffledWords(

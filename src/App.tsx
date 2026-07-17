@@ -8,9 +8,10 @@ import { Header, type AppTab } from "./components/Layout/Header";
 import { MainLayout } from "./components/Layout/MainLayout";
 import { MobileDock, type MobileDockTab } from "./components/Layout/MobileDock";
 import { QuizPage } from "./components/Quiz/QuizPage";
+import { N1KanjiPage } from "./components/Vocabulary/N1KanjiPage";
 import { N1WordsPage } from "./components/Vocabulary/N1WordsPage";
 import { n2Grammar } from "./data/grammar";
-import { n1Words } from "./data/vocabulary";
+import { n1Kanji, n1Words } from "./data/vocabulary";
 import { GrammarFavoritesRepository } from "./services/GrammarFavoritesRepository";
 import type { GrammarItem } from "./types/grammar";
 
@@ -20,9 +21,15 @@ const ARCHIVE_ROUTE_DATE = "2026-07-17";
 const tabPaths: Record<AppTab, string> = {
   dict: `/${ARCHIVE_ROUTE_DATE}`,
   honorific: `/${ARCHIVE_ROUTE_DATE}/honorific`,
+  n1Kanji: "/n1-kanji",
   quiz: `/${ARCHIVE_ROUTE_DATE}/quiz`,
   n1Words: "/n1-words",
 };
+
+const n1WordStudyLinks = [
+  { active: true, href: "/n1-words", label: "단어" },
+  { active: false, href: "/n1-kanji", label: "한자" },
+] as const;
 
 function getTabFromPath(pathname: string): AppTab {
   switch (pathname.replace(/\/+$/, "") || "/") {
@@ -35,6 +42,8 @@ function getTabFromPath(pathname: string): AppTab {
     case "/":
     case "/n1-words":
       return "n1Words";
+    case "/n1-kanji":
+      return "n1Kanji";
     default:
       return "n1Words";
   }
@@ -126,11 +135,12 @@ export class App extends Component<Record<string, never>, AppState> {
 
   render() {
     const favoriteIdSet = new Set(this.state.favoriteIds);
-    const isN1WordsRoute = this.state.activeTab === "n1Words";
+    const isN1StudyRoute =
+      this.state.activeTab === "n1Words" || this.state.activeTab === "n1Kanji";
 
     return (
       <div className="app-shell">
-        {!isN1WordsRoute && (
+        {!isN1StudyRoute && (
           <Header
             activeTab={this.state.activeTab}
             grammarCount={grammarItems.length}
@@ -176,10 +186,20 @@ export class App extends Component<Record<string, never>, AppState> {
               minHeight: 0,
             }}
           >
-            <N1WordsPage words={n1Words} />
+            <N1WordsPage studyLinks={n1WordStudyLinks} words={n1Words} />
+          </div>
+          <div
+            className="n1-words-view"
+            style={{
+              display: this.state.activeTab === "n1Kanji" ? "flex" : "none",
+              flex: 1,
+              minHeight: 0,
+            }}
+          >
+            <N1KanjiPage kanji={n1Kanji} />
           </div>
         </MainLayout>
-        {!isN1WordsRoute && (
+        {!isN1StudyRoute && (
           <MobileDock
             activeTab={
               this.state.activeTab === "quiz" ||

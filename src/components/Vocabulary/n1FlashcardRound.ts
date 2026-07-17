@@ -43,8 +43,9 @@ export interface N1FlashcardRuntimeState extends N1RoundState {
 export function createInitialN1DeckState(
   words: readonly N1Word[],
   setSize: number,
+  storageKey?: string,
 ): N1DeckState {
-  const loadedSession = loadN1FlashcardSession();
+  const loadedSession = loadN1FlashcardSession(storageKey);
   const restoredWords =
     loadedSession === null
       ? null

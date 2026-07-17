@@ -1,6 +1,6 @@
 import { PureComponent } from "react";
 
-export type AppTab = "dict" | "honorific" | "quiz" | "n1Words";
+export type AppTab = "dict" | "honorific" | "quiz" | "n1Words" | "n1Kanji";
 
 interface HeaderProps {
   activeTab: AppTab;

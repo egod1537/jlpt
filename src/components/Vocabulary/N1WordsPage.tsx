@@ -2,7 +2,11 @@ import { Component } from "react";
 import { N1_WORD_SET_SIZE, type N1Word } from "../../data/vocabulary/n1Words";
 import { buildSetSummaries, getSetCount, shuffleWords } from "./n1FlashcardDeck";
 import { N1FlashcardView } from "./N1FlashcardView";
-import { saveN1FlashcardSession, type N1FlashcardSession } from "./n1FlashcardStorage";
+import {
+  N1_WORD_FLASHCARD_STORAGE_KEY,
+  saveN1FlashcardSession,
+  type N1FlashcardSession,
+} from "./n1FlashcardStorage";
 import {
   buildRuntimeStateForSet,
   buildRuntimeStateFromDeck,
@@ -14,7 +18,27 @@ import {
   type N1FlashcardRuntimeState,
 } from "./n1FlashcardRound";
 
-type N1WordsPageProps = { words: readonly N1Word[] };
+export interface N1StudyLink {
+  active: boolean;
+  href: string;
+  label: string;
+}
+
+type N1WordsPageProps = {
+  words: readonly N1Word[];
+  combinedHintLabel?: string;
+  combineHints?: boolean;
+  getSpeechText?: (word: N1Word) => string;
+  meaningHintLabel?: string;
+  primaryClassName?: string;
+  readingHintLabel?: string;
+  setSize?: number;
+  speechButtonTitle?: string;
+  speechLang?: string;
+  storageKey?: string;
+  studyLinks?: readonly N1StudyLink[];
+  title?: string;
+};
 
 export class N1WordsPage extends Component<N1WordsPageProps, N1FlashcardRuntimeState> {
   private animationTimerId: number | undefined;
@@ -24,7 +48,11 @@ export class N1WordsPage extends Component<N1WordsPageProps, N1FlashcardRuntimeS
   constructor(props: N1WordsPageProps) {
     super(props);
 
-    const deckState = createInitialN1DeckState(props.words, N1_WORD_SET_SIZE);
+    const deckState = createInitialN1DeckState(
+      props.words,
+      this.getSetSize(),
+      this.getStorageKey(),
+    );
 
     this.savedSession = deckState.savedSession;
     this.state = buildRuntimeStateFromDeck(deckState);
@@ -86,13 +114,13 @@ export class N1WordsPage extends Component<N1WordsPageProps, N1FlashcardRuntimeS
       },
       shuffledWordIds: this.state.shuffledWords.map((word) => word.n),
     };
-    saveN1FlashcardSession(this.savedSession);
+    saveN1FlashcardSession(this.savedSession, this.getStorageKey());
   }
 
   private selectSet = (setIndex: number): void => {
     const nextSetIndex = clampSetIndex(
       setIndex,
-      getSetCount(this.state.shuffledWords, N1_WORD_SET_SIZE),
+      getSetCount(this.state.shuffledWords, this.getSetSize()),
     );
 
     this.clearAnimationTimer();
@@ -100,7 +128,7 @@ export class N1WordsPage extends Component<N1WordsPageProps, N1FlashcardRuntimeS
       buildRuntimeStateForSet(
         nextSetIndex,
         this.state.shuffledWords,
-        N1_WORD_SET_SIZE,
+        this.getSetSize(),
         this.savedSession,
       ),
       () => {
@@ -113,11 +141,11 @@ export class N1WordsPage extends Component<N1WordsPageProps, N1FlashcardRuntimeS
   private restartAllWords = (): void => {
     const deckState = createShuffledN1DeckState(
       this.props.words,
-      N1_WORD_SET_SIZE,
+      this.getSetSize(),
     );
 
     this.savedSession = deckState.savedSession;
-    saveN1FlashcardSession(this.savedSession);
+    saveN1FlashcardSession(this.savedSession, this.getStorageKey());
     this.clearAnimationTimer();
     this.setState(
       buildRuntimeStateFromDeck(deckState),
@@ -166,6 +194,18 @@ export class N1WordsPage extends Component<N1WordsPageProps, N1FlashcardRuntimeS
     this.setState((state) => ({
       isReadingHintVisible: !state.isReadingHintVisible,
     }));
+  };
+
+  private toggleCombinedHints = (): void => {
+    this.setState((state) => {
+      const shouldShowHints =
+        !state.isKrHintVisible || !state.isReadingHintVisible;
+
+      return {
+        isKrHintVisible: shouldShowHints,
+        isReadingHintVisible: shouldShowHints,
+      };
+    });
   };
 
   private handleStudy = (): void => {
@@ -229,8 +269,10 @@ export class N1WordsPage extends Component<N1WordsPageProps, N1FlashcardRuntimeS
     }
 
     window.speechSynthesis.cancel();
-    const utterance = new SpeechSynthesisUtterance(currentWord.jp);
-    utterance.lang = "ja-JP";
+    const utterance = new SpeechSynthesisUtterance(
+      this.props.getSpeechText?.(currentWord) ?? currentWord.jp,
+    );
+    utterance.lang = this.props.speechLang ?? "ja-JP";
     window.speechSynthesis.speak(utterance);
   };
 
@@ -249,8 +291,16 @@ export class N1WordsPage extends Component<N1WordsPageProps, N1FlashcardRuntimeS
     };
   }
 
+  private getSetSize(): number {
+    return this.props.setSize ?? N1_WORD_SET_SIZE;
+  }
+
+  private getStorageKey(): string {
+    return this.props.storageKey ?? N1_WORD_FLASHCARD_STORAGE_KEY;
+  }
+
   render() {
-    const setCount = getSetCount(this.state.shuffledWords, N1_WORD_SET_SIZE);
+    const setCount = getSetCount(this.state.shuffledWords, this.getSetSize());
     const currentWord = this.getCurrentWord();
     const totalCards = this.state.roundWords.length;
     const doneCount = Math.min(this.state.wordIndex, totalCards);
@@ -263,6 +313,8 @@ export class N1WordsPage extends Component<N1WordsPageProps, N1FlashcardRuntimeS
 
     return (
       <N1FlashcardView
+        areHintsCombined={this.props.combineHints === true}
+        combinedHintLabel={this.props.combinedHintLabel ?? "뜻 / 음"}
         currentNumber={currentNumber}
         currentSetIndex={this.state.currentSetIndex}
         currentWord={currentWord}
@@ -273,16 +325,22 @@ export class N1WordsPage extends Component<N1WordsPageProps, N1FlashcardRuntimeS
         isKrHintVisible={this.state.isKrHintVisible}
         isReadingHintVisible={this.state.isReadingHintVisible}
         knowCount={this.state.knowList.length}
+        meaningHintLabel={this.props.meaningHintLabel ?? "한국어"}
+        primaryClassName={this.props.primaryClassName}
         progressPercent={progressPercent}
+        readingHintLabel={this.props.readingHintLabel ?? "ひらがな"}
         remainingCount={remainingCount}
         setCount={setCount}
         setSummaries={buildSetSummaries(
           this.state.shuffledWords,
-          N1_WORD_SET_SIZE,
+          this.getSetSize(),
           this.getSetProgressForRender(),
         )}
+        speechButtonTitle={this.props.speechButtonTitle ?? "일본어 발음"}
         studyCount={this.state.studyList.length}
+        studyLinks={this.props.studyLinks}
         swipeClass={this.state.swipeClass}
+        title={this.props.title ?? "N1 단어장"}
         totalCards={totalCards}
         onKnown={this.handleKnown}
         onRestartAllWords={this.restartAllWords}
@@ -291,6 +349,7 @@ export class N1WordsPage extends Component<N1WordsPageProps, N1FlashcardRuntimeS
         onSpeakCurrentWord={this.speakCurrentWord}
         onStartNextSet={this.startNextSet}
         onStudy={this.handleStudy}
+        onToggleCombinedHints={this.toggleCombinedHints}
         onToggleKrHint={this.toggleKrHint}
         onToggleReadingHint={this.toggleReadingHint}
       />
