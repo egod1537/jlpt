@@ -102,8 +102,16 @@ export function LibraryPage() {
     {currentFolder ? <Button asChild className="mt-3 w-full sm:w-auto"><Link href={`/study?folder=${encodeURIComponent(currentFolder.id)}`}><BookOpen className="h-4 w-4" />이 폴더에서 학습</Link></Button> : null}
     {initialQuery ? <p className="mt-3 text-sm text-slate-600">현재 위치의 폴더·세트 결과입니다. <Link href={`/search?q=${encodeURIComponent(initialQuery)}&scope=words`} className="inline-flex min-h-11 items-center font-bold text-emerald-800">단어 결과 보기</Link></p> : null}
 
-    <section className="mt-7"><div className="mb-3 flex items-center justify-between"><h2 className="text-base font-black">폴더 <span className="font-normal text-slate-400">{visibleFolders.length}</span></h2></div>
-      {visibleFolders.length ? <div className="grid grid-cols-2 gap-3">{visibleFolders.map((folder) => <div key={folder.id} className="relative rounded-2xl border border-slate-200 bg-white p-4"><Link href={`/books?folder=${encodeURIComponent(folder.id)}`} className="block rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-600"><Folder className="h-5 w-5 text-emerald-700" /><h3 className="mt-3 truncate font-bold">{folder.name}</h3><p className="mt-1 text-xs text-slate-500">세트 {folder.bookCount || 0}개 · 하위 {folder.childCount || 0}개</p></Link><button onClick={() => setEdit({ kind: "folder", item: folder })} aria-label={`${folder.name} 메뉴`} className="absolute right-2 top-2 flex h-11 w-11 items-center justify-center rounded-lg text-slate-500 hover:bg-slate-100"><MoreHorizontal className="h-5 w-5" /></button></div>)}</div> : <p className="rounded-2xl border border-dashed border-slate-300 px-4 py-8 text-center text-sm text-slate-500">이 위치에 폴더가 없습니다.</p>}
+    <section className="mt-5">
+      <div className="mb-2 flex items-center justify-between"><h2 className="text-sm font-bold text-[#9aa5b6]">폴더 <span className="font-normal">{visibleFolders.length}</span></h2></div>
+      {visibleFolders.length ? <div className="divide-y divide-[#2a313d]">{visibleFolders.map((folder) => <div key={folder.id} className="flex min-h-12 items-center gap-2">
+        <Link href={`/books?folder=${encodeURIComponent(folder.id)}`} className="flex min-w-0 flex-1 items-center gap-3 rounded-lg py-2">
+          <Folder className="h-4 w-4 shrink-0 text-[#9aa5b6]" />
+          <span className="min-w-0 flex-1 truncate text-sm font-semibold">{folder.name}</span>
+          <span className="shrink-0 text-xs text-[#9aa5b6]">{folder.bookCount || 0}</span>
+        </Link>
+        <button onClick={() => setEdit({ kind: "folder", item: folder })} aria-label={`${folder.name} 메뉴`} className="flex h-11 w-11 items-center justify-center rounded-lg text-[#9aa5b6]"><MoreHorizontal className="h-4 w-4" /></button>
+      </div>)}</div> : <p className="py-4 text-sm text-[#9aa5b6]">이 위치에 폴더가 없습니다.</p>}
     </section>
 
     <section className="mt-8"><div className="mb-3 flex items-center justify-between gap-2"><h2 className="text-base font-black">세트 <span className="font-normal text-slate-400">{books.length}</span></h2><div className="flex items-center gap-2"><button onClick={() => { setSelecting((value) => !value); setSelected([]); }} className="inline-flex min-h-11 items-center gap-1 rounded-xl px-3 text-sm font-bold text-slate-700 ring-1 ring-slate-200">{selecting ? <X className="h-4 w-4" /> : <CheckSquare className="h-4 w-4" />}{selecting ? "취소" : "선택"}</button><Select value={sort} onChange={(event) => setParams({ sort: event.target.value === "updated" ? null : event.target.value })} className="h-11 w-auto text-sm"><option value="updated">최근 수정순</option><option value="name">이름순</option><option value="created">생성순</option><option value="studied">학습순</option><option value="custom">사용자순</option></Select></div></div>
