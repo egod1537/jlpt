@@ -1,12 +1,13 @@
 "use client";
 
+import Link from "next/link";
 import { useCallback, useEffect, useMemo, useRef, useState, type ReactNode, type TouchEvent } from "react";
-import { ArrowLeft, Bookmark, Infinity as InfinityIcon, RotateCcw, Shuffle, Sparkles, Volume2 } from "lucide-react";
-import { useSearchParams } from "next/navigation";
+import { ArrowLeft, Bookmark, Infinity as InfinityIcon, MoreHorizontal, RotateCcw, Volume2 } from "lucide-react";
+import { useRouter, useSearchParams } from "next/navigation";
 import { clientDatabase } from "@/lib/sync/client-db";
 import { useSync } from "@/components/sync/sync-provider";
 import { Button } from "@/components/ui/button";
-import { Select } from "@/components/ui/select";
+import { Dialog, DialogContent, DialogDescription, DialogTitle } from "@/components/ui/dialog";
 import { nextStudyQueue } from "@/lib/study-queue";
 
 type Rating = "again" | "hard" | "good" | "easy";
@@ -16,11 +17,9 @@ type Folder = { id: string; name: string; parentId: string | null };
 type Entry = { entryId: string; bookId: string; wordId: string; term: string; reading: string | null; meanings: string[]; primaryMeaning: string | null; nuance: string | null; partOfSpeech: string[]; examples: Array<{ ja: string; ko?: string | null }>; tags: string[]; status: string; bookTitle: string; bookmarked: boolean; bookmarkRevision: number };
 type Card = { wordId: string; representative: Entry; occurrences: Entry[]; review: { dueAt: string | null; lastReviewedAt: string | null; lastRating: string | null } };
 type Result = { wordId: string; rating: Rating; occurredAt: string };
-type Session = { id: string; bookIds: string[]; mode: Mode; includeReview: boolean; wordIds: string[]; position: number; revealed: boolean; ratings: Record<string, Rating>; queue?: string[]; loopMode?: boolean; results?: Result[]; status: string; revision: number; createdAt: string };
-type Phase = "config" | "loading" | "study" | "complete";
+type Session = { id: string; bookIds: string[]; mode: Mode; includeReview: boolean; wordIds: string[]; position: number; revealed: boolean; ratings: Record<string, Rating>; queue?: string[]; loopMode?: boolean; results?: Result[]; status: string; revision: number; createdAt: string; updatedAt?: string };
+type Phase = "initializing" | "loading" | "study" | "complete" | "empty";
 type Filters = { minStar: number; bookmarks: boolean; pos: string; chunk: string };
-
-const posOptions = ["명사", "혼동명사", "동사", "イ형용사", "ナ형용사", "부사", "가타카나"];
 
 function formatElapsed(milliseconds: number) {
   const seconds = Math.max(0, Math.floor(milliseconds / 1000));
@@ -45,20 +44,24 @@ function sourceIndex(entry: Entry) {
 }
 
 export function MobileStudyPage() {
+  const router = useRouter();
   const search = useSearchParams();
-  const autoStart = search.get("start") === "1";
+  const requestedScope = search.get("folder") ? "folder:" + search.get("folder") : search.get("books") || "";
+  const requestedMode = (["unseen", "due", "weak"].includes(search.get("mode") || "") ? search.get("mode") : "all") as Mode;
+  const explicitStart = search.get("start") === "1" || Boolean(requestedScope) || search.has("mode");
+  const requestedLimit = search.get("limit") === "all" ? 10_000 : Math.min(Math.max(Number(search.get("limit") || 20) || 20, 1), 10_000);
+  const requestedFilters = useMemo<Filters>(() => ({
+    minStar: Math.min(Math.max(Number(search.get("minStar") || 0) || 0, 0), 3),
+    bookmarks: search.get("bookmarks") === "true",
+    pos: search.get("pos") || "",
+    chunk: search.get("chunk") || "",
+  }), [search]);
   const { queue: queueMutation } = useSync();
   const [books, setBooks] = useState<Book[]>([]);
   const [folders, setFolders] = useState<Folder[]>([]);
-  const [scope, setScope] = useState(search.get("folder") ? "folder:" + search.get("folder") : search.get("books") || "");
-  const [mode, setMode] = useState<Mode>(search.get("mode") === "due" ? "due" : "all");
-  const [size, setSize] = useState("20");
-  const [includeReview, setIncludeReview] = useState(false);
-  const [shuffle, setShuffle] = useState(false);
-  const [filters, setFilters] = useState<Filters>({ minStar: 0, bookmarks: false, pos: "", chunk: "" });
-  const [dueCount, setDueCount] = useState(0);
-  const [resume, setResume] = useState<Session | null>(null);
-  const [phase, setPhase] = useState<Phase>("config");
+  const [resumableSessions, setResumableSessions] = useState<Session[]>([]);
+  const [initialized, setInitialized] = useState(false);
+  const [phase, setPhase] = useState<Phase>("initializing");
   const [cards, setCards] = useState<Card[]>([]);
   const [roundQueue, setRoundQueue] = useState<string[]>([]);
   const [initialWordIds, setInitialWordIds] = useState<string[]>([]);
@@ -66,16 +69,22 @@ export function MobileStudyPage() {
   const [showMeaning, setShowMeaning] = useState(false);
   const [loopMode, setLoopMode] = useState(false);
   const [results, setResults] = useState<Result[]>([]);
+  const [mode, setMode] = useState<Mode>(requestedMode);
+  const [includeReview, setIncludeReview] = useState(search.get("includeReview") === "true");
   const [sessionId, setSessionId] = useState("");
   const [sessionStartedAt, setSessionStartedAt] = useState("");
   const [elapsed, setElapsed] = useState(0);
   const [message, setMessage] = useState("");
   const [notice, setNotice] = useState("");
   const [speechAvailable, setSpeechAvailable] = useState(false);
+  const [restartOpen, setRestartOpen] = useState(false);
+  const [restartPending, setRestartPending] = useState(false);
   const revision = useRef(1);
   const ratingLock = useRef(false);
+  const startLock = useRef(false);
+  const restartLock = useRef(false);
   const touchStart = useRef<{ x: number; y: number } | null>(null);
-  const autoStartHandled = useRef(false);
+  const initializationHandled = useRef(false);
 
   const cardByWordId = useMemo(() => new Map(cards.map((card) => [card.wordId, card])), [cards]);
   const card = roundQueue.length ? cardByWordId.get(roundQueue[0]) : undefined;
@@ -92,20 +101,24 @@ export function MobileStudyPage() {
     const speechTimer = window.setTimeout(() => setSpeechAvailable("speechSynthesis" in window && "SpeechSynthesisUtterance" in window), 0);
     void (async () => {
       const db = await clientDatabase();
-      const [cachedBooks, cachedFolders, sessions] = await Promise.all([db.getAll("books"), db.getAll("folders"), db.getAll("studySessions")]);
-      setBooks(cachedBooks as unknown as Book[]);
-      setFolders(cachedFolders as unknown as Folder[]);
-      setResume((sessions as unknown as Session[]).filter((session) => session.status === "active" || session.status === "paused").sort((a, b) => b.createdAt.localeCompare(a.createdAt))[0] || null);
+      const [cachedBooks, cachedFolders, cachedSessions] = await Promise.all([db.getAll("books"), db.getAll("folders"), db.getAll("studySessions")]);
+      let nextBooks = cachedBooks as unknown as Book[];
+      let nextFolders = cachedFolders as unknown as Folder[];
+      let nextSessions = (cachedSessions as unknown as Session[]).filter((session) => session.status === "active" || session.status === "paused");
       try {
-        const [bookResponse, folderResponse, dueResponse] = await Promise.all([
-          fetch("/api/books?limit=500&sort=name", { cache: "no-store" }),
-          fetch("/api/folders", { cache: "no-store" }),
-          fetch("/api/study/cards?mode=due&countOnly=true", { cache: "no-store" }),
-        ]);
-        if (bookResponse.ok) setBooks((await bookResponse.json()).books);
-        if (folderResponse.ok) setFolders((await folderResponse.json()).folders);
-        if (dueResponse.ok) setDueCount((await dueResponse.json()).totalMatches);
-      } catch { /* cached configuration remains available */ }
+        const response = await fetch("/api/bootstrap", { cache: "no-store" });
+        if (response.ok) {
+          const bootstrap = await response.json() as { books: Book[]; folders: Folder[]; activeSessions: Session[] };
+          nextBooks = bootstrap.books;
+          nextFolders = bootstrap.folders;
+          nextSessions = bootstrap.activeSessions;
+        }
+      } catch { /* offline cache remains available */ }
+      nextSessions.sort((a, b) => (b.updatedAt || b.createdAt).localeCompare(a.updatedAt || a.createdAt));
+      setBooks(nextBooks);
+      setFolders(nextFolders);
+      setResumableSessions(nextSessions);
+      setInitialized(true);
     })();
     return () => window.clearTimeout(speechTimer);
   }, []);
@@ -180,51 +193,73 @@ export function MobileStudyPage() {
   }, [queueMutation, sessionId]);
 
   const begin = useCallback(async (existing?: Session) => {
+    if (startLock.current) return;
+    startLock.current = true;
     setPhase("loading"); setMessage(""); setNotice(""); setShowReading(false); setShowMeaning(false); ratingLock.current = false;
-    const selectedBooks = existing?.bookIds || booksForScope(scope);
-    const selectedMode = existing ? "all" : mode;
-    const selectedReview = existing ? true : includeReview;
-    const list = await getCards({ bookIds: selectedBooks, mode: selectedMode, includeReview: selectedReview, limit: existing || size === "all" ? 10_000 : Number(size), seed: existing ? 0 : shuffle ? Date.now() : 0, filters: existing ? { minStar: 0, bookmarks: false, pos: "", chunk: "" } : filters });
-    const byId = new Map(list.map((item) => [item.wordId, item]));
-    const originalIds = existing?.wordIds || list.map((item) => item.wordId);
-    const queueIds = existing ? (existing.queue?.length ? existing.queue : existing.wordIds.slice(existing.position || 0)).filter((id) => byId.has(id)) : originalIds;
-    const ordered = originalIds.flatMap((id) => byId.get(id) || []);
-    if (!ordered.length || !queueIds.length) {
-      setMessage(selectedMode === "due" ? "현재 복습할 단어가 없습니다." : "조건에 맞는 학습 카드가 없습니다. 오프라인이라면 먼저 해당 세트를 열어 캐시해 주세요.");
-      setPhase("config");
-      return;
-    }
-    if (existing && queueIds.length !== (existing.queue?.length || existing.wordIds.length - existing.position)) setNotice("삭제되었거나 범위에서 빠진 카드는 건너뛰었습니다.");
-    setCards(ordered); setRoundQueue(queueIds); setInitialWordIds(originalIds); setResults(existing?.results || []); setLoopMode(existing?.loopMode || false);
-    if (existing) {
-      setMode(existing.mode);
-      setIncludeReview(existing.includeReview);
-      setSessionId(existing.id); setSessionStartedAt(existing.createdAt); revision.current = existing.revision;
-    } else {
-      const id = "study-" + crypto.randomUUID();
-      const startedAt = new Date().toISOString();
-      try {
-        await queueMutation({ type: "session.create", payload: { id, bookIds: selectedBooks, mode: selectedMode, includeReview: selectedReview, wordIds: originalIds, queue: queueIds, loopMode: false, results: [], position: 0, revealed: false, ratings: {}, status: "active" } });
-      } catch {
-        setMessage("학습 세션을 기기에 저장하지 못했습니다. 저장 공간을 확인한 뒤 다시 시도해 주세요."); setPhase("config"); return;
+    try {
+      const selectedBooks = existing?.bookIds || booksForScope(requestedScope);
+      const selectedMode = existing ? "all" : requestedMode;
+      const selectedReview = existing ? true : search.get("includeReview") === "true";
+      if (!existing && requestedScope.startsWith("folder:") && !selectedBooks.length) {
+        setMessage("이 폴더에는 학습할 단어장이 없습니다.");
+        setPhase("empty");
+        return;
       }
-      setSessionId(id); setSessionStartedAt(startedAt); revision.current = 1;
+      const list = await getCards({ bookIds: selectedBooks, mode: selectedMode, includeReview: selectedReview, limit: existing ? 10_000 : requestedLimit, seed: existing ? 0 : search.get("shuffle") === "true" ? Date.now() : 0, filters: existing ? { minStar: 0, bookmarks: false, pos: "", chunk: "" } : requestedFilters });
+      const byId = new Map(list.map((item) => [item.wordId, item]));
+      const originalIds = existing?.wordIds || list.map((item) => item.wordId);
+      const queueIds = existing ? (existing.queue?.length ? existing.queue : existing.wordIds.slice(existing.position || 0)).filter((id) => byId.has(id)) : originalIds;
+      const ordered = originalIds.flatMap((id) => byId.get(id) || []);
+      if (!ordered.length || !queueIds.length) {
+        setMessage(selectedMode === "due" ? "현재 복습할 단어가 없습니다." : "조건에 맞는 학습 카드가 없습니다. 오프라인이라면 먼저 해당 단어장을 열어 캐시해 주세요.");
+        setPhase("empty");
+        return;
+      }
+      if (existing && queueIds.length !== (existing.queue?.length || existing.wordIds.length - existing.position)) setNotice("삭제되었거나 범위에서 빠진 카드는 건너뛰었습니다.");
+      setCards(ordered); setRoundQueue(queueIds); setInitialWordIds(originalIds); setResults(existing?.results || []); setLoopMode(existing?.loopMode || false);
+      if (existing) {
+        setMode(existing.mode);
+        setIncludeReview(existing.includeReview);
+        setSessionId(existing.id); setSessionStartedAt(existing.createdAt); revision.current = existing.revision;
+      } else {
+        const id = "study-" + crypto.randomUUID();
+        const startedAt = new Date().toISOString();
+        const payload = { id, bookIds: selectedBooks, mode: requestedMode, includeReview: selectedReview, wordIds: originalIds, queue: queueIds, loopMode: false, results: [], position: 0, revealed: false, ratings: {}, status: "active" };
+        const previous = resumableSessions[0];
+        if (previous) await queueMutation({ type: "session.restart", targetId: previous.id, expectedRevision: previous.revision, payload });
+        else await queueMutation({ type: "session.create", payload });
+        for (const stale of resumableSessions.slice(1)) {
+          await queueMutation({ type: "session.update", targetId: stale.id, expectedRevision: stale.revision, payload: { status: "completed" } });
+        }
+        setMode(requestedMode);
+        setIncludeReview(selectedReview);
+        setSessionId(id); setSessionStartedAt(startedAt); setElapsed(0); revision.current = 1;
+      }
+      setPhase("study");
+    } catch {
+      setMessage("학습 세션을 기기에 저장하지 못했습니다. 저장 공간과 동기화 상태를 확인한 뒤 다시 시도해 주세요.");
+      setPhase("empty");
+    } finally {
+      startLock.current = false;
     }
-    setPhase("study");
-  }, [booksForScope, filters, getCards, includeReview, mode, queueMutation, scope, shuffle, size]);
+  }, [booksForScope, getCards, queueMutation, requestedFilters, requestedLimit, requestedMode, requestedScope, resumableSessions, search]);
 
   useEffect(() => {
-    if (!autoStart || autoStartHandled.current) return;
-    autoStartHandled.current = true;
-    void begin();
-  }, [autoStart, begin]);
+    if (!initialized || initializationHandled.current) return;
+    initializationHandled.current = true;
+    const timer = window.setTimeout(() => {
+      if (explicitStart) void begin();
+      else if (resumableSessions[0]) void begin(resumableSessions[0]);
+      else router.replace("/books");
+    }, 0);
+    return () => window.clearTimeout(timer);
+  }, [begin, explicitStart, initialized, resumableSessions, router]);
 
   const pause = useCallback(async () => {
     try { await saveSession({ queue: roundQueue, loopMode, results, position: results.length, revealed: false, status: "paused" }); }
     catch { setNotice("학습 상태를 저장하지 못해 화면을 닫지 않았습니다."); return; }
-    const stored = await (await clientDatabase()).get("studySessions", sessionId) as unknown as Session | undefined;
-    setResume(stored || null); setPhase("config");
-  }, [loopMode, results, roundQueue, saveSession, sessionId]);
+    router.push("/books");
+  }, [loopMode, results, roundQueue, router, saveSession]);
 
   const toggleLoop = useCallback(async () => {
     const next = !loopMode;
@@ -274,15 +309,25 @@ export function MobileStudyPage() {
   }, [card, loopMode, mode, queueMutation, results, roundQueue, saveSession, sessionId]);
 
   const restart = useCallback(async (onlyWrong: boolean) => {
+    if (restartLock.current || !sessionId) return;
     const latest = new Map(results.map((item) => [item.wordId, item.rating]));
     const nextCards = onlyWrong ? cards.filter((item) => ["again", "hard"].includes(latest.get(item.wordId) || "")) : cards;
-    if (!nextCards.length) { setPhase("config"); setResume(null); return; }
+    if (!nextCards.length) { router.push("/books"); return; }
+    restartLock.current = true;
+    setRestartPending(true);
     const id = "study-" + crypto.randomUUID();
     const wordIds = nextCards.map((item) => item.wordId);
     const bookIds = [...new Set(nextCards.flatMap((item) => item.occurrences.map((occurrence) => occurrence.bookId)))];
-    await queueMutation({ type: "session.create", payload: { id, bookIds, mode: onlyWrong ? "weak" : "all", includeReview: true, wordIds, queue: wordIds, loopMode: false, results: [], position: 0, revealed: false, ratings: {}, status: "active" } });
-    setCards(nextCards); setRoundQueue(wordIds); setInitialWordIds(wordIds); setResults([]); setLoopMode(false); setShowMeaning(false); setShowReading(false); setSessionId(id); setSessionStartedAt(new Date().toISOString()); revision.current = 1; ratingLock.current = false; setPhase("study");
-  }, [cards, queueMutation, results]);
+    try {
+      await queueMutation({ type: "session.restart", targetId: sessionId, expectedRevision: revision.current, payload: { id, bookIds, mode: onlyWrong ? "weak" : mode, includeReview: onlyWrong ? true : includeReview, wordIds, queue: wordIds, loopMode: false, results: [], position: 0, revealed: false, ratings: {}, status: "active" } });
+      setCards(nextCards); setRoundQueue(wordIds); setInitialWordIds(wordIds); setResults([]); setLoopMode(false); setShowMeaning(false); setShowReading(false); setSessionId(id); setSessionStartedAt(new Date().toISOString()); setElapsed(0); revision.current = 1; ratingLock.current = false; setRestartOpen(false); setNotice(""); setPhase("study");
+    } catch {
+      setNotice("새 라운드를 저장하지 못했습니다. 현재 학습 상태는 그대로 유지됩니다.");
+    } finally {
+      restartLock.current = false;
+      setRestartPending(false);
+    }
+  }, [cards, includeReview, mode, queueMutation, results, router, sessionId]);
 
   useEffect(() => {
     const key = (event: KeyboardEvent) => {
@@ -322,16 +367,17 @@ export function MobileStudyPage() {
     requestAnimationFrame(() => { performance.mark(end); performance.measure("study-hint-" + kind, start, end); });
   }
 
-  if (phase === "loading") return <div className="fixed inset-0 z-50 bg-app-bg px-4 pt-8"><div className="mx-auto max-w-[480px] space-y-4"><div className="h-8 w-40 animate-pulse rounded bg-app-border" /><div className="h-[70dvh] animate-pulse rounded-3xl bg-app-surface" /></div></div>;
+  if (phase === "initializing" || phase === "loading") return <div className="fixed inset-0 z-50 bg-app-bg px-4 pt-8"><div className="mx-auto max-w-[480px] space-y-4"><div className="h-8 w-40 animate-pulse rounded bg-app-border" /><div className="h-[70dvh] animate-pulse rounded-3xl bg-app-surface" /></div></div>;
   if (phase === "study" && card && entry) {
     const priority = sourcePriority(entry);
-    return <section className="fixed inset-0 z-50 bg-app-bg text-app-text">
+    return <><section className="fixed inset-0 z-50 bg-app-bg text-app-text">
       <div className="mx-auto flex h-[100dvh] max-w-[480px] flex-col overflow-hidden">
         {notice ? <p role="alert" className="mx-3 mt-[max(8px,env(safe-area-inset-top))] rounded-lg border border-amber-900 bg-amber-950 p-2 text-xs text-amber-200">{notice}</p> : null}
         <header className="flex shrink-0 items-center gap-2 px-3 pt-[max(8px,env(safe-area-inset-top))]">
           <button aria-label="학습 중단" onClick={() => void pause()} className="flex h-11 w-11 items-center justify-center rounded-lg text-app-muted"><ArrowLeft className="h-5 w-5" /></button>
           <strong className="min-w-0 flex-1 truncate text-sm">{entry.bookTitle}</strong>
           <span className="text-xs tabular-nums text-app-muted">{completed + 1} / {initialWordIds.length}</span>
+          <button aria-label="새로 시작" title="새로 시작" onClick={() => setRestartOpen(true)} className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg text-app-muted hover:bg-app-raised focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-app-accent"><MoreHorizontal className="h-5 w-5" /></button>
         </header>
         <div className="shrink-0 text-center text-xs tabular-nums text-app-muted" aria-label="경과 시간">{formatElapsed(elapsed)}</div>
         <div className="flex shrink-0 items-center justify-center gap-2 py-2">
@@ -375,23 +421,18 @@ export function MobileStudyPage() {
           </div>
         </footer>
       </div>
-    </section>;
+    </section><RestartDialog open={restartOpen} pending={restartPending} onOpenChange={setRestartOpen} onConfirm={() => void restart(false)} /></>;
   }
   if (phase === "complete") {
     const latest = new Map(results.map((item) => [item.wordId, item.rating]));
     const wrong = [...latest.values()].filter((rating) => rating === "again" || rating === "hard").length;
     const known = [...latest.values()].filter((rating) => rating === "good" || rating === "easy").length;
-    return <section className="fixed inset-0 z-50 flex bg-app-bg px-4 text-app-text"><div className="m-auto w-full max-w-[480px] rounded-3xl border border-app-border bg-app-surface p-7 text-center"><div className="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-app-accent-surface text-2xl text-app-accent">✓</div><h1 className="mt-5 text-2xl font-black">학습을 마쳤습니다</h1><div className="mt-5 grid grid-cols-3 gap-3"><div><b className="block text-2xl text-app-accent">{known}</b><span className="text-xs text-app-muted">알고 있음</span></div><div><b className="block text-2xl text-app-warning">{wrong}</b><span className="text-xs text-app-muted">다시 학습</span></div><div><b className="block text-2xl">{formatElapsed(elapsed)}</b><span className="text-xs text-app-muted">소요 시간</span></div></div>{wrong ? <Button className="mt-7 w-full" onClick={() => void restart(true)}><RotateCcw className="h-4 w-4" />모르는 것만 다시 ({wrong})</Button> : null}<Button variant="outline" className="mt-3 w-full" onClick={() => void restart(false)}>처음부터 다시</Button><Button variant="ghost" className="mt-2 w-full" onClick={() => { setPhase("config"); setResume(null); }}>세트 선택으로</Button></div></section>;
+    return <><section className="fixed inset-0 z-50 flex bg-app-bg px-4 text-app-text"><div className="m-auto w-full max-w-[480px] rounded-3xl border border-app-border bg-app-surface p-7 text-center"><div className="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-app-accent-surface text-2xl text-app-accent">✓</div><h1 className="mt-5 text-2xl font-black">학습을 마쳤습니다</h1><div className="mt-5 grid grid-cols-3 gap-3"><div><b className="block text-2xl text-app-accent">{known}</b><span className="text-xs text-app-muted">알고 있음</span></div><div><b className="block text-2xl text-app-warning">{wrong}</b><span className="text-xs text-app-muted">다시 학습</span></div><div><b className="block text-2xl">{formatElapsed(elapsed)}</b><span className="text-xs text-app-muted">소요 시간</span></div></div>{notice ? <p role="alert" className="mt-4 rounded-xl border border-amber-900 bg-amber-950 p-3 text-sm text-amber-200">{notice}</p> : null}{wrong ? <Button className="mt-7 w-full" onClick={() => void restart(true)}><RotateCcw className="h-4 w-4" />모르는 것만 다시 ({wrong})</Button> : null}<Button variant="outline" className="mt-3 w-full" onClick={() => setRestartOpen(true)}>처음부터 다시</Button><Button variant="ghost" className="mt-2 w-full" onClick={() => router.push("/books")}>단어장으로</Button></div></section><RestartDialog open={restartOpen} pending={restartPending} onOpenChange={setRestartOpen} onConfirm={() => void restart(false)} /></>;
   }
 
-  return <div className="mx-auto max-w-xl"><h1 className="text-2xl font-black">학습</h1><p className="mt-1 text-sm text-app-muted">오늘 복습 {dueCount}개</p>
-    {resume ? <button onClick={() => void begin(resume)} className="mt-5 flex w-full items-center justify-between rounded-2xl border border-app-accent bg-app-accent-surface p-5 text-left"><span><span className="block font-black">이어서 학습</span><span className="mt-1 block text-sm text-cyan-100">남은 카드 {resume.queue?.length ?? Math.max(0, resume.wordIds.length - resume.position)}개</span></span><RotateCcw className="h-5 w-5 text-app-accent" /></button> : null}
-    <button onClick={() => { setMode("due"); setSize("20"); }} className="mt-3 flex min-h-16 w-full items-center justify-between rounded-2xl border border-app-border bg-app-surface px-5 text-left"><span><span className="font-black">복습 시작</span><span className="ml-2 text-sm text-app-muted">{dueCount}개 대기</span></span><Sparkles className="h-5 w-5 text-app-accent" /></button>
-    <section className="mt-6 rounded-2xl border border-app-border bg-app-surface p-5"><h2 className="font-black">새 학습 설정</h2><div className="mt-5 space-y-4">
-      <label className="block text-sm font-bold">범위<Select className="mt-2 w-full" value={scope} onChange={(event) => setScope(event.target.value)}><option value="">전체 단어장</option>{folders.length ? <optgroup label="폴더">{folders.map((folder) => <option key={folder.id} value={"folder:" + folder.id}>{folder.name}</option>)}</optgroup> : null}<optgroup label="세트">{books.map((book) => <option key={book.id} value={book.id}>{book.title}</option>)}</optgroup></Select></label>
-      <div className="grid grid-cols-2 gap-3"><label className="block text-sm font-bold">모드<Select className="mt-2 w-full" value={mode} onChange={(event) => setMode(event.target.value as Mode)}><option value="all">모든 단어</option><option value="unseen">미학습</option><option value="due">복습 대기</option><option value="weak">틀린 단어</option></Select></label><label className="block text-sm font-bold">개수<Select className="mt-2 w-full" value={size} onChange={(event) => setSize(event.target.value)}><option>10</option><option>20</option><option>50</option><option value="all">전체</option></Select></label></div>
-      <details className="rounded-xl border border-app-border bg-app-raised p-3"><summary className="min-h-11 cursor-pointer py-2 text-sm font-bold">HTML 카드 필터</summary><div className="grid grid-cols-2 gap-3 pt-2"><label className="text-xs font-bold">중요도<Select className="mt-1 w-full" value={filters.minStar} onChange={(event) => setFilters((value) => ({ ...value, minStar: Number(event.target.value) }))}><option value="0">전체</option><option value="1">★ 이상</option><option value="2">★★ 이상</option></Select></label><label className="text-xs font-bold">품사<Select className="mt-1 w-full" value={filters.pos} onChange={(event) => setFilters((value) => ({ ...value, pos: event.target.value }))}><option value="">전체</option>{posOptions.map((pos) => <option key={pos}>{pos}</option>)}</Select></label><label className="text-xs font-bold">50장 묶음<Select className="mt-1 w-full" value={filters.chunk} onChange={(event) => setFilters((value) => ({ ...value, chunk: event.target.value }))}><option value="">전체</option>{[1,2,3,4,5,6].map((chunk) => <option key={chunk} value={chunk}>{(chunk - 1) * 50 + 1}–{Math.min(chunk * 50, 268)}</option>)}</Select></label><label className="flex min-h-11 items-end gap-2 pb-2 text-xs font-bold"><input type="checkbox" checked={filters.bookmarks} onChange={(event) => setFilters((value) => ({ ...value, bookmarks: event.target.checked }))} className="h-5 w-5" /><Bookmark className="h-4 w-4" />북마크만</label></div></details>
-      <label className="flex min-h-11 items-center gap-3 text-sm font-semibold"><input type="checkbox" checked={shuffle} onChange={(event) => setShuffle(event.target.checked)} className="h-5 w-5" /><Shuffle className="h-4 w-4" />순서 섞기</label><label className="flex min-h-11 items-center gap-3 text-sm font-semibold"><input type="checkbox" checked={includeReview} onChange={(event) => setIncludeReview(event.target.checked)} className="h-5 w-5" />검수 필요 포함</label>
-    </div>{message ? <p role="alert" className="mt-4 rounded-xl bg-amber-950 p-3 text-sm text-amber-200">{message}</p> : null}<Button size="lg" className="mt-5 w-full" onClick={() => void begin()}><Sparkles className="h-5 w-5" />새 학습 시작</Button></section>
-  </div>;
+  return <div className="mx-auto max-w-md rounded-2xl border border-app-border bg-app-surface p-6 text-center"><p role="alert" className="text-sm text-app-muted">{message || "학습할 카드를 찾지 못했습니다."}</p><Button asChild variant="outline" className="mt-5 w-full"><Link href="/books">단어장으로</Link></Button></div>;
+}
+
+function RestartDialog({ open, pending, onOpenChange, onConfirm }: { open: boolean; pending: boolean; onOpenChange: (open: boolean) => void; onConfirm: () => void }) {
+  return <Dialog open={open} onOpenChange={(next) => { if (!pending) onOpenChange(next); }}><DialogContent className="sm:max-w-md"><DialogTitle className="pr-10 text-xl font-black">학습을 처음부터 시작할까요?</DialogTitle><DialogDescription className="mt-2 text-sm leading-6 text-app-muted">현재 진행 중인 이 세트의 카드 위치와 이번 라운드 결과를 초기화합니다. 이전에 저장된 단어 복습 기록과 통계는 유지됩니다.</DialogDescription><div className="mt-6 grid grid-cols-2 gap-3"><Button variant="outline" disabled={pending} onClick={() => onOpenChange(false)}>취소</Button><Button variant="destructive" disabled={pending} onClick={onConfirm}>{pending ? "시작 중…" : "처음부터 시작"}</Button></div></DialogContent></Dialog>;
 }

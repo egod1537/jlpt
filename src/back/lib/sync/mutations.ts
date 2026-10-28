@@ -45,6 +45,20 @@ const entryFieldsSchema = z.object({
     context.addIssue({ code: "custom", message: "정상 항목에는 뜻이 하나 이상 필요합니다.", path: ["meanings"] });
   }
 });
+const sessionPayloadSchema = z.object({
+  id: idSchema,
+  bookIds: z.array(idSchema).max(500),
+  mode: z.enum(["all", "unseen", "due", "weak"]),
+  includeReview: z.boolean(),
+  wordIds: z.array(idSchema).max(10_000),
+  position: z.number().int().nonnegative().default(0),
+  revealed: z.boolean().default(false),
+  ratings: z.record(z.string(), z.enum(["again", "hard", "good", "easy"])).default({}),
+  queue: z.array(idSchema).max(10_000).default([]),
+  loopMode: z.boolean().default(false),
+  results: z.array(z.object({ wordId: idSchema, rating: z.enum(["again", "hard", "good", "easy"]), occurredAt: z.iso.datetime() })).max(50_000).default([]),
+  status: z.enum(["active", "paused", "completed"]).default("active"),
+});
 
 type Operation = z.infer<typeof operationSchema>;
 type MutationStatus = "applied" | "duplicate" | "conflict" | "rejected";
@@ -459,22 +473,31 @@ function handleReview(db: AppDatabase, operation: Operation) {
   return { eventId, operationId: operation.operationId, reviewState: entity };
 }
 
+function insertSession(db: AppDatabase, payload: z.infer<typeof sessionPayloadSchema>) {
+  if (db.prepare("SELECT 1 FROM study_sessions WHERE id=?").get(payload.id)) throw new MutationFailure("ID_EXISTS", "이미 존재하는 학습 세션입니다.");
+  const timestamp = now();
+  db.prepare("INSERT INTO study_sessions(id,book_ids_json,mode,include_review,word_ids_json,position,revealed,ratings_json,queue_json,loop_mode,results_json,status,revision,updated_at,created_at,deleted_at) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,1,?,?,NULL)")
+    .run(payload.id, JSON.stringify(payload.bookIds), payload.mode, Number(payload.includeReview), JSON.stringify(payload.wordIds), payload.position, Number(payload.revealed), JSON.stringify(payload.ratings), JSON.stringify(payload.queue.length ? payload.queue : payload.wordIds), Number(payload.loopMode), JSON.stringify(payload.results), payload.status, timestamp, timestamp);
+  const entity = studySessionFromRow(db.prepare("SELECT * FROM study_sessions WHERE id=?").get(payload.id) as Record<string, unknown>);
+  recordChange(db, "studySession", payload.id, 1, "upsert", entity);
+  return entity;
+}
+
 function handleSession(db: AppDatabase, operation: Operation) {
-  if (operation.type === "session.create") {
-    const payload = z.object({ id: idSchema, bookIds: z.array(idSchema).max(500), mode: z.enum(["all", "unseen", "due", "weak"]), includeReview: z.boolean(), wordIds: z.array(idSchema).max(10_000), position: z.number().int().nonnegative().default(0), revealed: z.boolean().default(false), ratings: z.record(z.string(), z.enum(["again", "hard", "good", "easy"])).default({}), queue: z.array(idSchema).max(10_000).default([]), loopMode: z.boolean().default(false), results: z.array(z.object({ wordId: idSchema, rating: z.enum(["again", "hard", "good", "easy"]), occurredAt: z.iso.datetime() })).max(50_000).default([]), status: z.enum(["active", "paused", "completed"]).default("active") }).parse(operation.payload);
-    if (db.prepare("SELECT 1 FROM study_sessions WHERE id=?").get(payload.id)) throw new MutationFailure("ID_EXISTS", "이미 존재하는 학습 세션입니다.");
-    const timestamp = now();
-    db.prepare("INSERT INTO study_sessions(id,book_ids_json,mode,include_review,word_ids_json,position,revealed,ratings_json,queue_json,loop_mode,results_json,status,revision,updated_at,created_at,deleted_at) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,1,?,?,NULL)")
-      .run(payload.id, JSON.stringify(payload.bookIds), payload.mode, Number(payload.includeReview), JSON.stringify(payload.wordIds), payload.position, Number(payload.revealed), JSON.stringify(payload.ratings), JSON.stringify(payload.queue.length ? payload.queue : payload.wordIds), Number(payload.loopMode), JSON.stringify(payload.results), payload.status, timestamp, timestamp);
-    const entity = studySessionFromRow(db.prepare("SELECT * FROM study_sessions WHERE id=?").get(payload.id) as Record<string, unknown>);
-    recordChange(db, "studySession", payload.id, 1, "upsert", entity);
-    return entity;
-  }
+  if (operation.type === "session.create") return insertSession(db, sessionPayloadSchema.parse(operation.payload));
   const id = requiredTarget(operation);
   const row = db.prepare("SELECT * FROM study_sessions WHERE id=? AND deleted_at IS NULL").get(id) as Record<string, unknown> | undefined;
   if (!row) throw new MutationFailure("NOT_FOUND", "학습 세션을 찾을 수 없습니다.");
   const current = studySessionFromRow(row);
   checkRevision(operation.expectedRevision, Number(row.revision), current);
+  if (operation.type === "session.restart") {
+    const payload = sessionPayloadSchema.parse(operation.payload);
+    const timestamp = now();
+    db.prepare("UPDATE study_sessions SET status='completed',revision=revision+1,updated_at=? WHERE id=?").run(timestamp, id);
+    const completed = studySessionFromRow(db.prepare("SELECT * FROM study_sessions WHERE id=?").get(id) as Record<string, unknown>);
+    recordChange(db, "studySession", id, completed.revision, "upsert", completed);
+    return insertSession(db, payload);
+  }
   if (operation.type === "session.update") {
     const payload = z.object({ position: z.number().int().nonnegative().optional(), revealed: z.boolean().optional(), ratings: z.record(z.string(), z.enum(["again", "hard", "good", "easy"])).optional(), queue: z.array(idSchema).max(10_000).optional(), loopMode: z.boolean().optional(), results: z.array(z.object({ wordId: idSchema, rating: z.enum(["again", "hard", "good", "easy"]), occurredAt: z.iso.datetime() })).max(50_000).optional(), status: z.enum(["active", "paused", "completed"]).optional() }).parse(operation.payload);
     db.prepare("UPDATE study_sessions SET position=COALESCE(?,position),revealed=COALESCE(?,revealed),ratings_json=COALESCE(?,ratings_json),queue_json=COALESCE(?,queue_json),loop_mode=COALESCE(?,loop_mode),results_json=COALESCE(?,results_json),status=COALESCE(?,status),revision=revision+1,updated_at=? WHERE id=?")

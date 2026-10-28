@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useCallback, useEffect, useMemo, useRef, useState, type FormEvent } from "react";
-import { BarChart3, BookOpen, CheckSquare, ChevronDown, ChevronRight, Folder, FolderInput, MoreHorizontal, Pin, Search, Star, Trash2, X } from "lucide-react";
+import { BarChart3, BookOpen, CheckSquare, ChevronDown, ChevronRight, Folder, FolderInput, MoreHorizontal, Pin, Search, Sparkles, Star, Trash2, X } from "lucide-react";
 import { clientDatabase } from "@/lib/sync/client-db";
 import { useSync } from "@/components/sync/sync-provider";
 import { Dialog, DialogContent, DialogDescription, DialogTitle } from "@/components/ui/dialog";
@@ -197,6 +197,7 @@ export function LibraryPage() {
         <button onClick={() => toggleFolder(folder.id)} aria-expanded={open} className="flex h-11 min-w-0 flex-1 items-center gap-2 rounded-lg px-2 text-left">
           {open ? <ChevronDown className="h-4 w-4 shrink-0 text-app-muted" /> : <ChevronRight className="h-4 w-4 shrink-0 text-app-muted" />}<Folder className="h-4 w-4 shrink-0 text-app-accent" /><span className="truncate text-sm font-bold">{folder.name}</span><span className="ml-auto text-[11px] text-app-muted">{childBooks.length}</span>
         </button>
+        <Link href={"/study?folder=" + encodeURIComponent(folder.id) + "&start=1"} aria-label={folder.name + " 폴더 바로 학습"} className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg text-app-muted hover:bg-app-surface"><Sparkles className="h-4 w-4" /></Link>
         <button onClick={() => void pinFolder(folder)} aria-label={folder.name + (folder.pinned ? " 고정 해제" : " 고정")} className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg text-app-muted hover:bg-app-surface"><Pin className={"h-4 w-4 " + (folder.pinned ? "fill-app-warning text-app-warning" : "")} /></button>
         <button onClick={() => setEdit({ kind: "folder", item: folder })} aria-label={folder.name + " 메뉴"} className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg text-app-muted hover:bg-app-surface"><MoreHorizontal className="h-4 w-4" /></button>
       </div>

@@ -12,7 +12,15 @@ async function expandFolder(page: Page, name: string) {
   if (await row.getAttribute("aria-expanded") === "false") await row.click();
 }
 
-test("app, HTML seed and private data APIs open without login", async ({ page, request }) => {
+test("app, HTML seed and private data APIs open without login", async ({ page, request }, testInfo) => {
+  if (testInfo.project.name === "desktop-1280") {
+    await page.goto("/study");
+    await expect(page).toHaveURL(/\/books$/);
+    await page.goto("/due");
+    await expect(page).toHaveURL(/\/study\?mode=due&start=1/);
+    await expect(page.getByText("현재 복습할 단어가 없습니다.")).toBeVisible();
+    await expect(page.getByText("새 학습 설정")).toHaveCount(0);
+  }
   await openLibrary(page);
   const folderNames = page.locator("button[aria-expanded] span.truncate");
   const expectedFolders = ["청해", "진짜 한끝", "독해", "언지", "사설", "한끝"];
@@ -22,6 +30,7 @@ test("app, HTML seed and private data APIs open without login", async ({ page, r
   await expect(page.locator("button[aria-expanded]").filter({ hasText: "언지" })).toContainText("3");
   await expect(page.locator("button[aria-expanded]").filter({ hasText: "사설" })).toContainText("6");
   await expect(page.getByRole("button", { name: "한끝 3", exact: true })).toBeVisible();
+  await expect(page.getByRole("link", { name: "독해 폴더 바로 학습" })).toHaveAttribute("href", "/study?folder=folder-reading&start=1");
   for (const path of ["/api/bootstrap", "/api/books", "/api/search?q=学&scope=words", "/api/stats/overview", "/api/study/cards?books=html-n1-yuui-79-84&limit=10"]) {
     expect((await request.get(path)).status(), path).toBe(200);
   }
@@ -89,6 +98,8 @@ test("one book tap starts flashcards while its menu keeps details available", as
   await expect(page).toHaveURL(/\/study\?books=html-n1-yuui-79-84&start=1/);
   await expect(page.getByRole("heading", { name: "暗示" })).toBeVisible();
   await expect(page.getByText("1 / 20", { exact: true })).toBeVisible();
+  await expect(page.getByText("새 학습 설정")).toHaveCount(0);
+  await expect(page.getByText("오늘 복습 0개")).toHaveCount(0);
   const readingField = page.getByRole("group", { name: "히라가나 텍스트 필드" });
   const meaningField = page.getByRole("group", { name: "한국어 뜻 텍스트 필드" });
   const hintLayout = async () => page.locator("h1, [aria-label='히라가나 텍스트 필드'], [aria-label='한국어 뜻 텍스트 필드']").evaluateAll((elements) => elements.map((element) => {
@@ -104,6 +115,15 @@ test("one book tap starts flashcards while its menu keeps details available", as
   await expect(meaningText).toBeVisible();
   expect(await meaningText.evaluate((element) => ({ whiteSpace: getComputedStyle(element).whiteSpace, textOverflow: getComputedStyle(element).textOverflow }))).toEqual({ whiteSpace: "normal", textOverflow: "clip" });
   expect(await hintLayout()).toEqual(hiddenLayout);
+  await page.getByRole("button", { name: /알고있음/ }).click();
+  await expect(page.getByRole("heading", { name: "一蹴" })).toBeVisible();
+  await page.getByRole("button", { name: "새로 시작" }).click();
+  await page.getByRole("dialog").getByRole("button", { name: "취소" }).click();
+  await expect(page.getByRole("heading", { name: "一蹴" })).toBeVisible();
+  await page.getByRole("button", { name: "새로 시작" }).click();
+  await page.getByRole("dialog").getByRole("button", { name: "처음부터 시작", exact: true }).click();
+  await expect(page.getByRole("heading", { name: "暗示" })).toBeVisible();
+  await expect(page.getByText("1 / 20", { exact: true })).toBeVisible();
   await page.getByRole("button", { name: "학습 중단" }).click();
 
   await openLibrary(page);
@@ -184,8 +204,7 @@ test("entry edits propagate to SQL search and the two independent hints", async 
   await expect(page.getByRole("button", { name: "동기화됨" })).toBeVisible({ timeout: 15_000 });
   await page.goto("/search?q=E2E%20편집%20뜻&scope=words");
   await expect(page.getByText("E2E 편집 뜻", { exact: true })).toBeVisible();
-  await page.goto("/study?books=session-013");
-  await page.getByRole("button", { name: /새 학습 시작/ }).click();
+  await page.goto("/study?books=session-013&start=1");
   await page.getByRole("button", { name: /ひらがな/ }).click();
   await expect(page.getByText("e2e-よみ", { exact: true })).toBeVisible();
   await expect(page.getByText("E2E 편집 뜻", { exact: true })).toBeHidden();
@@ -196,10 +215,11 @@ test("entry edits propagate to SQL search and the two independent hints", async 
   await page.getByRole("button", { name: "학습 중단" }).click();
 });
 
-test("HTML flashcards support score-without-reveal, bookmark, loop, keys and durable resume", async ({ page }, testInfo) => {
+test("HTML flashcards restart safely and preserve review data, bookmarks and durable resume", async ({ page, request }, testInfo) => {
   test.skip(testInfo.project.name !== "desktop-1280", "study journey runs once");
-  await page.goto("/study?books=html-n1-yuui-79-84");
-  await page.getByRole("button", { name: /새 학습 시작/ }).click();
+  const reviewCount = async () => (await (await request.get("/api/stats/overview?from=2026-01-01&to=2026-10-28")).json() as { totalReviewEvents: number }).totalReviewEvents;
+  const firstWordId = ((await (await request.get("/api/study/cards?books=html-n1-yuui-79-84&limit=1")).json()) as { cards: Array<{ wordId: string }> }).cards[0].wordId;
+  await page.goto("/study?books=html-n1-yuui-79-84&start=1");
   await expect(page.getByText("1 / 20", { exact: true })).toBeVisible();
   await expect(page.getByRole("heading", { name: "暗示" })).toBeVisible();
   await page.keyboard.press("b");
@@ -211,9 +231,41 @@ test("HTML flashcards support score-without-reveal, bookmark, loop, keys and dur
   await expect(page.getByRole("heading", { name: "一蹴" })).toBeVisible();
   const transitionDuration = await page.evaluate(() => performance.getEntriesByName("study-card-transition").at(-1)?.duration || 0);
   expect(transitionDuration).toBeLessThan(200);
+  await expect.poll(reviewCount, { timeout: 15_000 }).toBeGreaterThan(0);
+  const eventsBeforeRestart = await reviewCount();
+  const stateBeforeRestart = ((await (await request.get("/api/bootstrap")).json()) as { reviewStates: Array<{ wordId: string; dueAt: string | null; lastRating: string | null }> }).reviewStates.find((state) => state.wordId === firstWordId);
+  expect(stateBeforeRestart).toBeTruthy();
+
+  await page.getByRole("button", { name: "새로 시작" }).click();
+  const restartDialog = page.getByRole("dialog");
+  await expect(restartDialog.getByRole("heading", { name: "학습을 처음부터 시작할까요?" })).toBeVisible();
+  await restartDialog.getByRole("button", { name: "취소" }).click();
+  await expect(page.getByRole("heading", { name: "一蹴" })).toBeVisible();
+  expect(await reviewCount()).toBe(eventsBeforeRestart);
+
+  await page.getByRole("button", { name: "새로 시작" }).click();
+  await page.keyboard.press("Escape");
+  await expect(restartDialog).toBeHidden();
+  await expect(page.getByRole("heading", { name: "一蹴" })).toBeVisible();
+
+  await page.getByRole("button", { name: /ひらがな/ }).click();
+  await page.getByRole("button", { name: "새로 시작" }).click();
+  await restartDialog.getByRole("button", { name: "처음부터 시작", exact: true }).click();
+  await expect(page.getByRole("heading", { name: "暗示" })).toBeVisible();
+  await expect(page.getByText("1 / 20", { exact: true })).toBeVisible();
+  await expect(page.getByRole("button", { name: "모르는 카드 반복" })).toHaveAttribute("aria-pressed", "false");
+  await expect(page.getByRole("group", { name: "히라가나 텍스트 필드" }).getByText("あんじ", { exact: true })).toBeHidden();
+  await expect(page.getByRole("button", { name: "북마크 해제" })).toBeVisible();
+  await expect.poll(async () => ((await (await request.get("/api/bootstrap")).json()) as { activeSessions: Array<{ results: unknown[]; position: number }> }).activeSessions.length, { timeout: 15_000 }).toBe(1);
+  const bootstrapAfterRestart = (await (await request.get("/api/bootstrap")).json()) as { activeSessions: Array<{ results: unknown[]; position: number }>; reviewStates: Array<{ wordId: string; dueAt: string | null; lastRating: string | null }> };
+  expect(bootstrapAfterRestart.activeSessions[0]).toMatchObject({ results: [], position: 0 });
+  expect(bootstrapAfterRestart.reviewStates.find((state) => state.wordId === firstWordId)).toMatchObject({ dueAt: stateBeforeRestart?.dueAt, lastRating: stateBeforeRestart?.lastRating });
+  expect(await reviewCount()).toBe(eventsBeforeRestart);
+
+  await page.getByRole("button", { name: /공부하겠음/ }).click();
+  await expect(page.getByRole("heading", { name: "一蹴" })).toBeVisible();
   await page.getByRole("button", { name: "학습 중단" }).click();
-  await expect(page.getByText("이어서 학습")).toBeVisible();
-  await page.getByText("이어서 학습").click();
+  await page.goto("/study");
   await expect(page.getByRole("heading", { name: "一蹴" })).toBeVisible();
 });
 
@@ -249,8 +301,7 @@ test("a second browser receives one synced evaluation", async ({ browser }, test
       return (await (await fetch("/api/stats/overview?from=2026-01-01&to=" + today)).json()).totalReviewEvents as number;
     });
     const before = await count(pageB);
-    await pageA.goto("/study?books=session-014");
-    await pageA.getByRole("button", { name: /새 학습 시작/ }).click();
+    await pageA.goto("/study?books=session-014&start=1");
     await pageA.getByRole("button", { name: /알고있음/ }).click();
     await pageA.getByRole("button", { name: "학습 중단" }).click();
     await pageB.reload();
@@ -268,8 +319,8 @@ test("an offline evaluation survives reload and syncs exactly once", async ({ br
       return (await (await fetch("/api/stats/overview?from=2026-01-01&to=" + today)).json()).totalReviewEvents as number;
     });
     const before = await count();
-    await page.goto("/study?books=session-015");
-    await page.getByRole("button", { name: /새 학습 시작/ }).click();
+    await page.goto("/study?books=session-015&start=1");
+    await expect(page.getByRole("button", { name: /공부하겠음/ })).toBeVisible();
     await context.setOffline(true);
     await page.getByRole("button", { name: /공부하겠음/ }).click();
     await expect(page.getByText("2 / 20", { exact: true })).toBeVisible();

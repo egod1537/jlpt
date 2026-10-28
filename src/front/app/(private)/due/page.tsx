@@ -1,2 +1,2 @@
 import { redirect } from "next/navigation";
-export default function DueRoute() { redirect("/study?mode=due"); }
+export default function DueRoute() { redirect("/study?mode=due&start=1"); }

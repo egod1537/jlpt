@@ -34,6 +34,15 @@ describe("server review events and sessions", () => {
       expect(applyMutation(db, "phone", { operationId: randomUUID(), type: "session.create", payload: { id: sessionId, bookIds: [], mode: "all", includeReview: false, wordIds: ["word-123456abcdef"], queue: ["word-123456abcdef"], loopMode: true, results: [], position: 0, revealed: false, ratings: {}, status: "active" } })).toMatchObject({ status: "applied", serverRevision: 1, entity: { queue: ["word-123456abcdef"], loopMode: true } });
       expect(applyMutation(db, "phone", { operationId: randomUUID(), type: "session.update", targetId: sessionId, expectedRevision: 1, payload: { queue: ["word-123456abcdef"], results: [{ wordId: "word-123456abcdef", rating: "again", occurredAt: "2026-10-28T00:00:00.000Z" }], revealed: false } })).toMatchObject({ status: "applied", serverRevision: 2, entity: { queue: ["word-123456abcdef"], results: [{ rating: "again" }] } });
       expect(applyMutation(db, "laptop", { operationId: randomUUID(), type: "session.update", targetId: sessionId, expectedRevision: 1, payload: { position: 1 } })).toMatchObject({ status: "conflict", serverRevision: 2 });
+      const nextSessionId = `study-${randomUUID()}`;
+      const restart = { operationId: randomUUID(), type: "session.restart", targetId: sessionId, expectedRevision: 2, payload: { id: nextSessionId, bookIds: [], mode: "all", includeReview: false, wordIds: ["word-123456abcdef"], queue: ["word-123456abcdef"], loopMode: false, results: [], position: 0, revealed: false, ratings: {}, status: "active" } };
+      expect(applyMutation(db, "phone", restart)).toMatchObject({ status: "applied", serverRevision: 1, entity: { id: nextSessionId, status: "active", position: 0, results: [] } });
+      expect(applyMutation(db, "phone", restart)).toMatchObject({ status: "duplicate", entity: { id: nextSessionId } });
+      expect(db.prepare("SELECT id,status,revision FROM study_sessions ORDER BY created_at,id").all()).toEqual(expect.arrayContaining([
+        { id: sessionId, status: "completed", revision: 3 },
+        { id: nextSessionId, status: "active", revision: 1 },
+      ]));
+      expect(db.prepare("SELECT COUNT(*) count FROM study_sessions").get()).toEqual({ count: 2 });
     } finally { db.close(); }
   });
 });

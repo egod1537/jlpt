@@ -205,6 +205,12 @@ export async function queueMutation(input: Omit<ClientMutation, "operationId" | 
     await db.delete("entries", mutation.targetId);
   } else if (mutation.type === "session.create") {
     await db.put("studySessions", { ...mutation.payload, revision: 1, createdAt: timestamp, updatedAt: timestamp, deletedAt: null });
+  } else if (mutation.type === "session.restart" && mutation.targetId) {
+    const tx = db.transaction("studySessions", "readwrite");
+    const current = await tx.store.get(mutation.targetId);
+    if (current) await tx.store.put({ ...current, status: "completed", revision: Number(current.revision || 0) + 1, updatedAt: timestamp });
+    await tx.store.put({ ...mutation.payload, revision: 1, createdAt: timestamp, updatedAt: timestamp, deletedAt: null });
+    await tx.done;
   } else if (mutation.type === "session.update" && mutation.targetId) {
     const current = await db.get("studySessions", mutation.targetId);
     if (current) await db.put("studySessions", { ...current, ...mutation.payload, revision: Number(current.revision || 0) + 1, updatedAt: timestamp });
@@ -236,6 +242,11 @@ export async function blockedOperations() {
 async function reconcileServerEntity(record: OutboxRecord) {
   const db = await clientDatabase();
   const entity = record.serverEntity as Record<string, unknown> | undefined;
+  if (record.mutation.type === "session.restart") {
+    if (entity) await db.put("studySessions", entity);
+    await db.delete("studySessions", String(record.mutation.payload.id));
+    return;
+  }
   if (entity) {
     if (record.mutation.type.startsWith("folder.")) await db.put("folders", entity);
     else if (record.mutation.type.startsWith("book.")) await db.put("books", entity);
