@@ -92,6 +92,25 @@ describe("catalog mutations", () => {
     }
   });
 
+  it("syncs explicit folder pins and entry bookmark set/unset operations", () => {
+    const db = openDatabase(":memory:");
+    try {
+      expect(applyMutation(db, "phone", operation("folder.create", { id: "folder-pinned", name: "고정 폴더", parentId: null, orderIndex: 0 }))).toMatchObject({ status: "applied", entity: { pinned: false } });
+      expect(applyMutation(db, "phone", operation("folder.pin", { pinned: true }, "folder-pinned", 1))).toMatchObject({ status: "applied", entity: { pinned: true, revision: 2 } });
+      const bookId = "book-bookmarks";
+      expect(applyMutation(db, "phone", operation("book.create", { id: bookId, title: "북마크", folderId: "folder-pinned", category: null, orderIndex: 0 }))).toMatchObject({ status: "applied" });
+      const entryId = "entry-bookmark-one";
+      const fields = { term: "印", reading: "しるし", meanings: ["표시"], primaryMeaning: "표시", nuance: null, partOfSpeech: ["명사"], jlptLevels: ["N1"], years: [], categories: [], relatedTerms: [], examples: [], sources: [], status: "ready", tags: [] };
+      expect(applyMutation(db, "phone", operation("entry.create", { entryId, bookId, fields }))).toMatchObject({ status: "applied" });
+      expect(applyMutation(db, "phone", operation("bookmark.set", { entryId, bookmarked: true }))).toMatchObject({ status: "applied", entity: { entryId, bookmarked: true, revision: 1 } });
+      expect(applyMutation(db, "phone", operation("bookmark.set", { entryId, bookmarked: true }))).toMatchObject({ status: "applied", entity: { bookmarked: true, revision: 1 } });
+      expect(applyMutation(db, "phone", operation("bookmark.set", { entryId, bookmarked: false }, undefined, undefined))).toMatchObject({ status: "applied", entity: { bookmarked: false, revision: 2 } });
+      expect(db.prepare("SELECT COUNT(*) count FROM bookmarks").get()).toEqual({ count: 0 });
+      expect(db.prepare("SELECT entity_type,action FROM sync_changes WHERE entity_id=? ORDER BY seq").all(entryId)).toContainEqual({ entity_type: "bookmark", action: "upsert" });
+      expect(db.prepare("SELECT entity_type,action FROM sync_changes WHERE entity_id=? ORDER BY seq").all(entryId)).toContainEqual({ entity_type: "bookmark", action: "delete" });
+    } finally { db.close(); }
+  });
+
   it("permanently purges trashed catalog data while preserving learning history", () => {
     const db = openDatabase(":memory:");
     try {

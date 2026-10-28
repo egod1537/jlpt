@@ -6,7 +6,7 @@ export interface StudyOptions {
   now?: Date;
 }
 
-export const canRateCard = (revealed: boolean, alreadyRated: boolean) => revealed && !alreadyRated;
+export const canRateCard = (_revealed: boolean, alreadyRated: boolean) => !alreadyRated;
 
 export function buildStudyCards(books: WordBook[], progress: ProgressState, options: StudyOptions): StudyCard[] {
   const now = (options.now ?? new Date()).getTime();

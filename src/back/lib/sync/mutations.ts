@@ -1,7 +1,7 @@
 import { createHash, randomUUID } from "node:crypto";
 import { z } from "zod";
 import type { AppDatabase } from "@back/lib/db/database";
-import { bookFromRow, entryFromRow, folderFromRow, studySessionFromRow } from "@back/lib/catalog/rows";
+import { bookmarkFromRow, bookFromRow, entryFromRow, folderFromRow, studySessionFromRow } from "@back/lib/catalog/rows";
 import { normalizeName } from "@back/lib/catalog/normalize";
 import { initialRecord, schedule, type ReviewRecord } from "@back/lib/study/scheduler";
 
@@ -184,6 +184,9 @@ function handleFolder(db: AppDatabase, operation: Operation) {
     const parentId = row.parent_id === null ? null : String(row.parent_id);
     assertFolderNameAvailable(db, payload.name, parentId, id);
     db.prepare("UPDATE folders SET name=?,name_normalized=?,revision=revision+1,updated_at=? WHERE id=?").run(payload.name.trim(), normalizeName(payload.name), now(), id);
+  } else if (operation.type === "folder.pin") {
+    const payload = z.object({ pinned: z.boolean() }).parse(operation.payload);
+    db.prepare("UPDATE folders SET pinned=?,revision=revision+1,updated_at=? WHERE id=?").run(Number(payload.pinned), now(), id);
   } else if (operation.type === "folder.move") {
     const payload = z.object({ parentId: nullableIdSchema, orderIndex: z.number().int().nonnegative() }).parse(operation.payload);
     assertFolderPlacement(db, payload.parentId, id);
@@ -458,11 +461,11 @@ function handleReview(db: AppDatabase, operation: Operation) {
 
 function handleSession(db: AppDatabase, operation: Operation) {
   if (operation.type === "session.create") {
-    const payload = z.object({ id: idSchema, bookIds: z.array(idSchema).max(500), mode: z.enum(["all", "unseen", "due", "weak"]), includeReview: z.boolean(), wordIds: z.array(idSchema).max(10_000), position: z.number().int().nonnegative().default(0), revealed: z.boolean().default(false), ratings: z.record(z.string(), z.enum(["again", "hard", "good", "easy"])).default({}), status: z.enum(["active", "paused", "completed"]).default("active") }).parse(operation.payload);
+    const payload = z.object({ id: idSchema, bookIds: z.array(idSchema).max(500), mode: z.enum(["all", "unseen", "due", "weak"]), includeReview: z.boolean(), wordIds: z.array(idSchema).max(10_000), position: z.number().int().nonnegative().default(0), revealed: z.boolean().default(false), ratings: z.record(z.string(), z.enum(["again", "hard", "good", "easy"])).default({}), queue: z.array(idSchema).max(10_000).default([]), loopMode: z.boolean().default(false), results: z.array(z.object({ wordId: idSchema, rating: z.enum(["again", "hard", "good", "easy"]), occurredAt: z.iso.datetime() })).max(50_000).default([]), status: z.enum(["active", "paused", "completed"]).default("active") }).parse(operation.payload);
     if (db.prepare("SELECT 1 FROM study_sessions WHERE id=?").get(payload.id)) throw new MutationFailure("ID_EXISTS", "이미 존재하는 학습 세션입니다.");
     const timestamp = now();
-    db.prepare("INSERT INTO study_sessions(id,book_ids_json,mode,include_review,word_ids_json,position,revealed,ratings_json,status,revision,updated_at,created_at,deleted_at) VALUES (?,?,?,?,?,?,?,?,?,1,?,?,NULL)")
-      .run(payload.id, JSON.stringify(payload.bookIds), payload.mode, Number(payload.includeReview), JSON.stringify(payload.wordIds), payload.position, Number(payload.revealed), JSON.stringify(payload.ratings), payload.status, timestamp, timestamp);
+    db.prepare("INSERT INTO study_sessions(id,book_ids_json,mode,include_review,word_ids_json,position,revealed,ratings_json,queue_json,loop_mode,results_json,status,revision,updated_at,created_at,deleted_at) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,1,?,?,NULL)")
+      .run(payload.id, JSON.stringify(payload.bookIds), payload.mode, Number(payload.includeReview), JSON.stringify(payload.wordIds), payload.position, Number(payload.revealed), JSON.stringify(payload.ratings), JSON.stringify(payload.queue.length ? payload.queue : payload.wordIds), Number(payload.loopMode), JSON.stringify(payload.results), payload.status, timestamp, timestamp);
     const entity = studySessionFromRow(db.prepare("SELECT * FROM study_sessions WHERE id=?").get(payload.id) as Record<string, unknown>);
     recordChange(db, "studySession", payload.id, 1, "upsert", entity);
     return entity;
@@ -473,9 +476,9 @@ function handleSession(db: AppDatabase, operation: Operation) {
   const current = studySessionFromRow(row);
   checkRevision(operation.expectedRevision, Number(row.revision), current);
   if (operation.type === "session.update") {
-    const payload = z.object({ position: z.number().int().nonnegative().optional(), revealed: z.boolean().optional(), ratings: z.record(z.string(), z.enum(["again", "hard", "good", "easy"])).optional(), status: z.enum(["active", "paused", "completed"]).optional() }).parse(operation.payload);
-    db.prepare("UPDATE study_sessions SET position=COALESCE(?,position),revealed=COALESCE(?,revealed),ratings_json=COALESCE(?,ratings_json),status=COALESCE(?,status),revision=revision+1,updated_at=? WHERE id=?")
-      .run(payload.position ?? null, payload.revealed === undefined ? null : Number(payload.revealed), payload.ratings ? JSON.stringify(payload.ratings) : null, payload.status ?? null, now(), id);
+    const payload = z.object({ position: z.number().int().nonnegative().optional(), revealed: z.boolean().optional(), ratings: z.record(z.string(), z.enum(["again", "hard", "good", "easy"])).optional(), queue: z.array(idSchema).max(10_000).optional(), loopMode: z.boolean().optional(), results: z.array(z.object({ wordId: idSchema, rating: z.enum(["again", "hard", "good", "easy"]), occurredAt: z.iso.datetime() })).max(50_000).optional(), status: z.enum(["active", "paused", "completed"]).optional() }).parse(operation.payload);
+    db.prepare("UPDATE study_sessions SET position=COALESCE(?,position),revealed=COALESCE(?,revealed),ratings_json=COALESCE(?,ratings_json),queue_json=COALESCE(?,queue_json),loop_mode=COALESCE(?,loop_mode),results_json=COALESCE(?,results_json),status=COALESCE(?,status),revision=revision+1,updated_at=? WHERE id=?")
+      .run(payload.position ?? null, payload.revealed === undefined ? null : Number(payload.revealed), payload.ratings ? JSON.stringify(payload.ratings) : null, payload.queue ? JSON.stringify(payload.queue) : null, payload.loopMode === undefined ? null : Number(payload.loopMode), payload.results ? JSON.stringify(payload.results) : null, payload.status ?? null, now(), id);
   } else if (operation.type === "session.delete") {
     const timestamp = now(); db.prepare("UPDATE study_sessions SET revision=revision+1,updated_at=?,deleted_at=? WHERE id=?").run(timestamp, timestamp, id);
     const deleted = studySessionFromRow(db.prepare("SELECT * FROM study_sessions WHERE id=?").get(id) as Record<string, unknown>);
@@ -483,6 +486,31 @@ function handleSession(db: AppDatabase, operation: Operation) {
   } else throw new MutationFailure("UNKNOWN_MUTATION", "지원하지 않는 학습 세션 변경입니다.");
   const entity = studySessionFromRow(db.prepare("SELECT * FROM study_sessions WHERE id=?").get(id) as Record<string, unknown>);
   recordChange(db, "studySession", id, entity.revision, "upsert", entity);
+  return entity;
+}
+
+function handleBookmark(db: AppDatabase, operation: Operation) {
+  if (operation.type !== "bookmark.set") throw new MutationFailure("UNKNOWN_MUTATION", "지원하지 않는 북마크 변경입니다.");
+  const payload = z.object({ entryId: idSchema, bookmarked: z.boolean() }).parse(operation.payload);
+  activeEntry(db, payload.entryId);
+  const row = db.prepare("SELECT * FROM bookmarks WHERE entry_id=?").get(payload.entryId) as Record<string, unknown> | undefined;
+  if (payload.bookmarked) {
+    if (row) {
+      if (operation.expectedRevision !== undefined) checkRevision(operation.expectedRevision, Number(row.revision), bookmarkFromRow(row));
+      return { ...bookmarkFromRow(row), bookmarked: true };
+    }
+    const timestamp = now();
+    db.prepare("INSERT INTO bookmarks(entry_id,revision,created_at,updated_at) VALUES (?,1,?,?)").run(payload.entryId, timestamp, timestamp);
+    const entity = { ...bookmarkFromRow(db.prepare("SELECT * FROM bookmarks WHERE entry_id=?").get(payload.entryId) as Record<string, unknown>), bookmarked: true };
+    recordChange(db, "bookmark", payload.entryId, entity.revision, "upsert", entity);
+    return entity;
+  }
+  if (!row) return { entryId: payload.entryId, bookmarked: false, revision: 0 };
+  if (operation.expectedRevision !== undefined) checkRevision(operation.expectedRevision, Number(row.revision), { ...bookmarkFromRow(row), bookmarked: true });
+  const revision = Number(row.revision) + 1;
+  db.prepare("DELETE FROM bookmarks WHERE entry_id=?").run(payload.entryId);
+  const entity = { entryId: payload.entryId, bookmarked: false, revision, updatedAt: now() };
+  recordChange(db, "bookmark", payload.entryId, revision, "delete", entity);
   return entity;
 }
 
@@ -494,6 +522,7 @@ function apply(db: AppDatabase, operation: Operation) {
   if (operation.type.startsWith("entry.")) return handleEntry(db, operation);
   if (operation.type.startsWith("review.")) return handleReview(db, operation);
   if (operation.type.startsWith("session.")) return handleSession(db, operation);
+  if (operation.type.startsWith("bookmark.")) return handleBookmark(db, operation);
   throw new MutationFailure("UNKNOWN_MUTATION", "지원하지 않는 변경입니다.");
 }
 

@@ -9,6 +9,7 @@ export function folderFromRow(row: Record<string, unknown>) {
     id: String(row.id),
     name: String(row.name),
     parentId: row.parent_id === null ? null : String(row.parent_id),
+    pinned: Boolean(row.pinned),
     orderIndex: Number(row.order_index),
     revision: Number(row.revision),
     createdAt: String(row.created_at),
@@ -76,10 +77,22 @@ export function studySessionFromRow(row: Record<string, unknown>) {
     position: Number(row.position),
     revealed: Boolean(row.revealed),
     ratings: parseJson<Record<string, string>>(String(row.ratings_json)),
+    queue: parseJson<string[]>(String(row.queue_json || "[]")),
+    loopMode: Boolean(row.loop_mode),
+    results: parseJson<Array<{ wordId: string; rating: string; occurredAt: string }>>(String(row.results_json || "[]")),
     status: String(row.status),
     revision: Number(row.revision),
     updatedAt: String(row.updated_at),
     createdAt: String(row.created_at),
     deletedAt: row.deleted_at === null ? null : String(row.deleted_at),
+  };
+}
+
+export function bookmarkFromRow(row: Record<string, unknown>) {
+  return {
+    entryId: String(row.entry_id),
+    revision: Number(row.revision),
+    createdAt: String(row.created_at),
+    updatedAt: String(row.updated_at),
   };
 }

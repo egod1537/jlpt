@@ -15,6 +15,7 @@
     "lint": "eslint .",
     "typecheck": "next typegen && tsc --noEmit",
     "test": "vitest run",
+    "benchmark": "tsx ../back/scripts/benchmark.ts",
     "pretest:e2e": "npm run build",
     "test:e2e": "playwright test"
   },

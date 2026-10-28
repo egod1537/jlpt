@@ -10,4 +10,4 @@ npm run db:seed
 npm run db:backup
 ```
 
-원본 `jlpt-vocabulary-dataset/data`는 수정하지 않습니다.
+기존 27개 원본 `dataset/data/wordbooks`와 `dataset/flashcard-template.html`은 수정하지 않습니다. HTML 정규화 산출물은 `dataset/data/imported-html`에 생성합니다.

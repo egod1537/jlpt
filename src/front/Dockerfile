@@ -15,7 +15,7 @@ RUN npm ci \
 
 COPY src/front/ ./src/front/
 COPY src/back/ ./src/back/
-COPY jlpt-vocabulary-dataset/data/ ./jlpt-vocabulary-dataset/data/
+COPY dataset/data/ ./dataset/data/
 
 RUN npm run build \
   && test -f src/front/.next/standalone/src/front/server.js \
@@ -42,7 +42,7 @@ COPY --chown=node:node --from=builder /workspace/src/front/.next/standalone/ ./
 COPY --chown=node:node --from=builder /workspace/src/front/.next/static/ ./src/front/.next/static/
 COPY --chown=node:node --from=builder /workspace/src/front/public/ ./src/front/public/
 COPY --chown=node:node --from=builder /workspace/src/back/db/migrations/ ./migrations/
-COPY --chown=node:node --from=builder /workspace/jlpt-vocabulary-dataset/data/ ./seed-data/
+COPY --chown=node:node --from=builder /workspace/dataset/data/ ./seed-data/
 COPY --chown=node:node --from=builder /workspace/src/back/scripts/backup.mjs ./ops/backup.mjs
 
 USER node

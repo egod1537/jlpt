@@ -16,9 +16,9 @@ export const metadata: Metadata = {
     apple: [{ url: "/icons/apple-touch-icon-180x180.png", sizes: "180x180", type: "image/png" }],
     shortcut: [{ url: "/favicon.ico", type: "image/x-icon" }],
   },
-  appleWebApp: { capable: true, title: "JLPT 단어", statusBarStyle: "default" },
+  appleWebApp: { capable: true, title: "JLPT 단어", statusBarStyle: "black-translucent" },
 };
-export const viewport: Viewport = { width: "device-width", initialScale: 1, themeColor: "#047857", colorScheme: "light" };
+export const viewport: Viewport = { width: "device-width", initialScale: 1, viewportFit: "cover", themeColor: "#0f1218", colorScheme: "dark" };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return <html lang="ko" data-scroll-behavior="smooth"><body>{children}</body></html>;
