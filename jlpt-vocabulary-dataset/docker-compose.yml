@@ -5,6 +5,8 @@ services:
     build:
       context: .
       dockerfile: web/Dockerfile
+      args:
+        VCS_REF: "${JLPT_GIT_REVISION:-unknown}"
     ports:
       - "127.0.0.1:${JLPT_WEB_PORT:-8081}:8080"
     networks:
@@ -13,6 +15,9 @@ services:
         aliases:
           - jlpt-vocabulary-web
     restart: unless-stopped
+    labels:
+      net.mangagaki.deployment.branch: main
+      org.opencontainers.image.revision: "${JLPT_GIT_REVISION:-unknown}"
     read_only: true
     tmpfs:
       - /tmp:size=16m,mode=1777

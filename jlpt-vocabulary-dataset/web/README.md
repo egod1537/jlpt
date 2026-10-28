@@ -89,6 +89,12 @@ curl http://127.0.0.1:8081/healthz
 
 운영 환경에서는 컨테이너가 외부 Docker 네트워크 `jjs-edge`에도 연결되고, `web/jlpt.caddy`와 동일한 Caddy 라우트를 통해 `https://jlpt.mangagaki.net`으로 전달됩니다. Cloudflare Tunnel이 TLS와 공개 DNS를 담당하며 컨테이너 포트 자체는 로컬 인터페이스에만 바인딩됩니다.
 
+운영 재배포는 저장소 루트의 `main`이 `origin/main`과 정확히 일치하고 추적 파일 변경이 없을 때만 다음 스크립트로 실행합니다. 이미지와 컨테이너에는 배포한 Git 커밋이 OCI 리비전 라벨로 기록됩니다.
+
+```bash
+./jlpt-vocabulary-dataset/web/scripts/deploy-main.sh
+```
+
 ### Vercel
 
 - 저장소: `egod1537/jlpt`

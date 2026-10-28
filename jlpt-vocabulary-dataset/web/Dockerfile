@@ -15,6 +15,10 @@ RUN npm run build \
 
 FROM nginx:stable-alpine@sha256:47928bf67eb62a1863cb08d9ecb52d3e704304ba614eaee17884204677702951 AS runtime
 
+ARG VCS_REF=unknown
+LABEL org.opencontainers.image.revision="${VCS_REF}" \
+  org.opencontainers.image.source="https://github.com/egod1537/jlpt"
+
 COPY web/nginx.conf /etc/nginx/nginx.conf
 COPY --chown=nginx:nginx --from=builder /workspace/web/out/ /usr/share/nginx/html/
 
