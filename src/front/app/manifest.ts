@@ -10,8 +10,8 @@ export default function manifest(): MetadataRoute.Manifest {
     start_url: "/books",
     scope: "/",
     display: "standalone",
-    background_color: "#f8fafc",
-    theme_color: "#047857",
+    background_color: "#0f1218",
+    theme_color: "#0f1218",
     categories: ["education", "productivity"],
     icons: [
       { src: "/icons/jlpt-book.svg", sizes: "any", type: "image/svg+xml", purpose: "any" },
