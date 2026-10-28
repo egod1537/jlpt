@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { BarChart3, BookOpen, Plus, Search, Settings, Sparkles } from "lucide-react";
+import { BookOpen, Plus, Search, Settings, Sparkles } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { SyncStatus } from "@/components/sync/sync-status";
 import { AddContentDialog } from "@/components/library/add-content-dialog";
@@ -11,7 +11,6 @@ import { AddContentDialog } from "@/components/library/add-content-dialog";
 const navigation = [
   { href: "/books", label: "단어장", icon: BookOpen },
   { href: "/study", label: "학습", icon: Sparkles },
-  { href: "/stats", label: "통계", icon: BarChart3 },
 ];
 
 export function AppHeader() {
@@ -37,7 +36,7 @@ export function AppHeader() {
         </nav>
       </div>
     </header>
-    <nav aria-label="주요 메뉴" className="fixed inset-x-0 bottom-0 z-40 mx-auto grid grid-cols-3 border-t border-app-border bg-app-surface/95 pb-[env(safe-area-inset-bottom)] backdrop-blur md:max-w-md md:rounded-t-2xl md:border-x">
+    <nav aria-label="주요 메뉴" className="fixed inset-x-0 bottom-0 z-40 mx-auto grid grid-cols-2 border-t border-app-border bg-app-surface/95 pb-[env(safe-area-inset-bottom)] backdrop-blur md:max-w-md md:rounded-t-2xl md:border-x">
       {navigation.map(({ href, label, icon: Icon }) => {
         const active = pathname.startsWith(href);
         return <Link key={href} href={href} aria-current={active ? "page" : undefined} className={cn("flex min-h-16 flex-col items-center justify-center gap-1 text-xs font-bold text-app-muted", active && "text-app-accent")}><Icon aria-hidden="true" className="h-5 w-5" />{label}</Link>;

@@ -42,6 +42,7 @@ test("dark metadata, icons, accessibility and layout hold on every required view
   });
   expect(bottomNavigation.position).toBe("fixed");
   expect(Math.abs(bottomNavigation.bottomGap)).toBeLessThan(1);
+  await expect(page.getByRole("navigation", { name: "주요 메뉴" }).getByRole("link", { name: "통계" })).toHaveCount(0);
   const unnamed = await page.locator("button, input, select, a").evaluateAll((elements) => elements.filter((element) => {
     const rect = element.getBoundingClientRect();
     if (!rect.width || !rect.height || element.getAttribute("aria-label") === "Open Next.js Dev Tools") return false;
@@ -81,6 +82,12 @@ test("one book tap starts flashcards while its menu keeps details available", as
   await expect(page.getByRole("heading", { name: "暗示" })).toBeVisible();
   await expect(page.getByText("1 / 20", { exact: true })).toBeVisible();
   await page.getByRole("button", { name: "학습 중단" }).click();
+
+  await openLibrary(page);
+  await search.fill("한끝");
+  await page.getByRole("link", { name: /한끝 단어장1.*통계/ }).first().click();
+  await expect(page).toHaveURL(/\/stats\?bookId=session-013/);
+  await expect(page.getByLabel("통계 범위")).toHaveValue("book:session-013");
 
   await openLibrary(page);
   await search.fill("한끝");

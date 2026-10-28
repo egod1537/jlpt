@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import { useCallback, useEffect, useState } from "react";
 import { Select } from "@/components/ui/select";
 
@@ -15,10 +16,12 @@ function kstToday() { return new Date(Date.now() + 9 * 60 * 60 * 1_000).toISOStr
 function fromDays(days: number) { const today = new Date(`${kstToday()}T00:00:00+09:00`); return new Date(today.getTime() - (days - 1) * 86_400_000 + 9 * 60 * 60 * 1_000).toISOString().slice(0, 10); }
 
 export function StatsPage() {
+  const searchParams = useSearchParams();
+  const requestedBookId = searchParams.get("bookId") || "";
   const [days, setDays] = useState(7); const [overview, setOverview] = useState<Overview | null>(null); const [daily, setDaily] = useState<Daily[]>([]);
   const [dailyMetric, setDailyMetric] = useState<"attempts" | "uniqueWords">("attempts");
   const [folders, setFolders] = useState<Progress[]>([]); const [books, setBooks] = useState<Progress[]>([]); const [weak, setWeak] = useState<Weak[]>([]); const [error, setError] = useState("");
-  const [scope, setScope] = useState(""); const [scopeFolders, setScopeFolders] = useState<ScopeFolder[]>([]); const [scopeBooks, setScopeBooks] = useState<ScopeBook[]>([]);
+  const [scope, setScope] = useState(requestedBookId ? `book:${requestedBookId}` : ""); const [scopeFolders, setScopeFolders] = useState<ScopeFolder[]>([]); const [scopeBooks, setScopeBooks] = useState<ScopeBook[]>([]);
   const load = useCallback(async () => {
     const selected = scope.startsWith("folder:") ? `&folderId=${encodeURIComponent(scope.slice(7))}` : scope.startsWith("book:") ? `&bookId=${encodeURIComponent(scope.slice(5))}` : "";
     const query = `from=${fromDays(days)}&to=${kstToday()}${selected}`;

@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useCallback, useEffect, useMemo, useRef, useState, type FormEvent } from "react";
-import { BookOpen, CheckSquare, ChevronDown, ChevronRight, Folder, FolderInput, MoreHorizontal, Pin, Search, Star, Trash2, X } from "lucide-react";
+import { BarChart3, BookOpen, CheckSquare, ChevronDown, ChevronRight, Folder, FolderInput, MoreHorizontal, Pin, Search, Star, Trash2, X } from "lucide-react";
 import { clientDatabase } from "@/lib/sync/client-db";
 import { useSync } from "@/components/sync/sync-provider";
 import { Dialog, DialogContent, DialogDescription, DialogTitle } from "@/components/ui/dialog";
@@ -182,7 +182,7 @@ export function LibraryPage() {
       <Link href={selecting ? "#" : "/study?books=" + encodeURIComponent(book.id) + "&start=1"} onClick={(event) => { if (selecting) { event.preventDefault(); toggleSelected(book.id); } }} className="flex min-h-11 min-w-0 flex-1 items-center py-1.5" aria-label={book.title + " 바로 학습"}>
         <span className="min-w-0"><span className="block truncate text-sm font-semibold">{book.title}</span><span className="block truncate text-[11px] text-app-muted">{book.entryCount || 0}단어 · 학습 {progress}%</span></span>
       </Link>
-      {!selecting ? <><button onClick={() => void favorite(book)} aria-label={book.favorite ? "즐겨찾기 해제" : "즐겨찾기"} className="flex h-11 w-11 items-center justify-center rounded-lg text-app-muted hover:bg-app-surface"><Star className={"h-4 w-4 " + (book.favorite ? "fill-app-warning text-app-warning" : "")} /></button><button onClick={() => setEdit({ kind: "book", item: book })} aria-label={book.title + " 메뉴"} className="flex h-11 w-11 items-center justify-center rounded-lg text-app-muted hover:bg-app-surface"><MoreHorizontal className="h-4 w-4" /></button></> : null}
+      {!selecting ? <><Link href={"/stats?bookId=" + encodeURIComponent(book.id)} aria-label={book.title + " 통계"} className="flex h-11 w-11 items-center justify-center rounded-lg text-app-muted hover:bg-app-surface"><BarChart3 className="h-4 w-4" /></Link><button onClick={() => void favorite(book)} aria-label={book.favorite ? "즐겨찾기 해제" : "즐겨찾기"} className="flex h-11 w-11 items-center justify-center rounded-lg text-app-muted hover:bg-app-surface"><Star className={"h-4 w-4 " + (book.favorite ? "fill-app-warning text-app-warning" : "")} /></button><button onClick={() => setEdit({ kind: "book", item: book })} aria-label={book.title + " 메뉴"} className="flex h-11 w-11 items-center justify-center rounded-lg text-app-muted hover:bg-app-surface"><MoreHorizontal className="h-4 w-4" /></button></> : null}
     </div>;
   };
 
