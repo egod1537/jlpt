@@ -11,6 +11,8 @@ Claude에서 만들었던 JLPT 단어장 자료를 원래 단어장별 파일로
 - `data/review.json`: 읽기나 뜻을 추가 확인해야 하는 항목
 - `schema/word.schema.json`: 단어 객체의 JSON Schema
 - `docs/IMPORT_REPORT.md`: 이번 수집 결과와 단어장별 수량
+- `flashcard-template.html`: 수정하지 않는 N1 유의표현 카드 원본
+- `data/imported-html/n1-yuui-79-84.json`: 원본 HTML에서 안전하게 추출한 268개 카드
 
 ```js
 import index from './data/collections.json' with { type: 'json' };
@@ -41,7 +43,7 @@ Node.js 20 이상에서 외부 패키지 없이 검증할 수 있습니다.
 npm test
 ```
 
-검증기는 모든 단어장 JSON·CSV 파일, 단어장 간 출처 격리, ID, 통계, 검수 목록을 확인합니다.
+검증기는 모든 단어장 JSON·CSV 파일, 단어장 간 출처 격리, ID, 통계, 검수 목록을 확인하고 HTML 정규화 산출물이 원본과 정확히 일치하는지 검사합니다. 산출물을 다시 만들 때는 `npm run convert:html`을 사용합니다. 변환기는 스크립트를 실행하지 않고 `const words = ...;`의 명시적 경계를 찾아 `JSON.parse`만 사용합니다.
 
 ## 원본 아카이브에서 다시 가져오기
 

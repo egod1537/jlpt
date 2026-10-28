@@ -5,7 +5,7 @@ import { fileURLToPath } from "node:url";
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const repositoryRoot = path.resolve(scriptDir, "..", "..", "..");
 const frontRoot = path.join(repositoryRoot, "src", "front");
-const sourceRoot = path.join(repositoryRoot, "jlpt-vocabulary-dataset", "data");
+const sourceRoot = path.join(repositoryRoot, "dataset", "data");
 const outputRoot = path.join(frontRoot, "public", "data");
 const temporaryRoot = `${outputRoot}.tmp-${process.pid}`;
 const wordIdPattern = /^word-[a-f0-9]{12}$/;

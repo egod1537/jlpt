@@ -6,8 +6,9 @@
   "type": "module",
   "scripts": {
     "import": "node scripts/import-from-archive.mjs ../jlpt-wordbook-archive",
+    "convert:html": "node scripts/convert-flashcard-html.mjs",
     "validate": "node scripts/validate.mjs",
-    "test": "npm run validate"
+    "test": "npm run convert:html -- --check && npm run validate"
   },
   "engines": {
     "node": ">=20"

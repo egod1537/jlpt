@@ -5,7 +5,7 @@ export function databasePath() {
 }
 
 export function seedDataPath() {
-  return process.env.JLPT_SEED_DATA || path.resolve(process.cwd(), "..", "..", "jlpt-vocabulary-dataset", "data");
+  return process.env.JLPT_SEED_DATA || path.resolve(process.cwd(), "..", "..", "dataset", "data");
 }
 
 export function backupDirectory() {

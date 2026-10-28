@@ -3,6 +3,7 @@ import { readFileSync } from "node:fs";
 import path from "node:path";
 import type { AppDatabase } from "@back/lib/db/database";
 import { seedBookSchema, seedCollectionsSchema, seedStatsSchema } from "@back/lib/seed/schema";
+import { seedHtmlReference, type HtmlSeedResult } from "@back/lib/seed/html-reference";
 
 function readSource(filePath: string) {
   const raw = readFileSync(filePath);
@@ -25,6 +26,7 @@ export interface SeedResult {
   ready: number;
   needsReview: number;
   sourceSha256: string;
+  html: HtmlSeedResult;
 }
 
 export function seedDatabase(db: AppDatabase, dataRoot: string): SeedResult {
@@ -51,7 +53,7 @@ export function seedDatabase(db: AppDatabase, dataRoot: string): SeedResult {
   const prior = db.prepare("SELECT source_sha256, source_stats_json FROM seed_imports WHERE source_key = ?").get(sourceKey) as { source_sha256: string; source_stats_json: string } | undefined;
   if (prior) {
     if (prior.source_sha256 !== sourceSha256) throw new Error("seed source changed after import; manual reconciliation required");
-    return { status: "unchanged", ...JSON.parse(prior.source_stats_json) as Omit<SeedResult, "status" | "sourceSha256">, sourceSha256 };
+    return { status: "unchanged", ...JSON.parse(prior.source_stats_json) as Omit<SeedResult, "status" | "sourceSha256" | "html">, sourceSha256, html: seedHtmlReference(db, dataRoot) };
   }
 
   const allWords = books.flatMap(({ book }) => book.words);
@@ -83,5 +85,5 @@ export function seedDatabase(db: AppDatabase, dataRoot: string): SeedResult {
 
   const databaseCounts = db.prepare("SELECT (SELECT COUNT(*) FROM books WHERE deleted_at IS NULL) books, (SELECT COUNT(*) FROM book_entries WHERE deleted_at IS NULL) entries, (SELECT COUNT(*) FROM word_keys) words").get() as { books: number; entries: number; words: number };
   if (databaseCounts.books !== computed.collections || databaseCounts.entries !== computed.occurrences || databaseCounts.words !== computed.uniqueWords) throw new Error("database counts do not match seed counts");
-  return { status: "imported", ...computed, sourceSha256 };
+  return { status: "imported", ...computed, sourceSha256, html: seedHtmlReference(db, dataRoot) };
 }
