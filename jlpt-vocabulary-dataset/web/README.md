@@ -87,6 +87,8 @@ curl http://127.0.0.1:8081/healthz
 
 기본 공개 주소는 `http://127.0.0.1:8081`입니다. 포트를 바꾸려면 `JLPT_WEB_PORT=18081 docker compose up -d --build`처럼 실행합니다. 상태와 로그는 `docker compose ps`, `docker compose logs -f web`으로 확인하고 중지는 `docker compose down`으로 수행합니다.
 
+운영 환경에서는 컨테이너가 외부 Docker 네트워크 `jjs-edge`에도 연결되고, `web/jlpt.caddy`와 동일한 Caddy 라우트를 통해 `https://jlpt.mangagaki.net`으로 전달됩니다. Cloudflare Tunnel이 TLS와 공개 DNS를 담당하며 컨테이너 포트 자체는 로컬 인터페이스에만 바인딩됩니다.
+
 ### Vercel
 
 - 저장소: `egod1537/jlpt`
