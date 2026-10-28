@@ -1,10 +1,12 @@
+name: jlpt-vocabulary-dataset
+
 services:
   web:
     container_name: jlpt-vocabulary-web
     image: jlpt-vocabulary-web:local
     build:
       context: .
-      dockerfile: web/Dockerfile
+      dockerfile: src/front/Dockerfile
       args:
         VCS_REF: "${JLPT_GIT_REVISION:-unknown}"
     ports:

@@ -9,7 +9,7 @@
 - Next.js App Router, TypeScript strict, Tailwind CSS, shadcn/ui 방식의 Radix 기반 UI
 
 ```bash
-cd jlpt-vocabulary-dataset/web
+cd src/front
 npm ci
 npm run dev
 ```
@@ -33,19 +33,19 @@ npm run dev
 
 원본은 다음 파일입니다.
 
-- `../data/collections.json`, `stats.json`, `review.json`
-- `../data/wordbooks/session-XXX.json`
-- `../schema/word.schema.json`
+- `../../jlpt-vocabulary-dataset/data/collections.json`, `stats.json`, `review.json`
+- `../../jlpt-vocabulary-dataset/data/wordbooks/session-XXX.json`
+- `../../jlpt-vocabulary-dataset/schema/word.schema.json`
 
 ```bash
 npm run sync:data
 ```
 
-`scripts/sync-data.mjs`는 참조된 JSON만 검증해 `public/data/`에 복사하고, 원본 배열 위치가 포함된 `search-index.json`을 생성합니다. 컬렉션 ID 중복, 경로 이탈, 메타데이터·단어 수 불일치, 잘못된 상태·ID, 통계 불일치가 있으면 실패합니다. `public/data/`는 빌드 산출물이므로 Git에서 제외되며 직접 수정하면 안 됩니다. 소스 데이터가 바뀌면 다음 순서로 갱신합니다.
+`../back/scripts/sync-data.mjs`는 참조된 JSON만 검증해 `public/data/`에 복사하고, 원본 배열 위치가 포함된 `search-index.json`을 생성합니다. 컬렉션 ID 중복, 경로 이탈, 메타데이터·단어 수 불일치, 잘못된 상태·ID, 통계 불일치가 있으면 실패합니다. `public/data/`는 빌드 산출물이므로 Git에서 제외되며 직접 수정하면 안 됩니다. 소스 데이터가 바뀌면 다음 순서로 갱신합니다.
 
 ```bash
 cd jlpt-vocabulary-dataset && npm test
-cd web && npm run sync:data && npm test && npm run build
+cd ../src/front && npm run sync:data && npm test && npm run build
 ```
 
 ## 검사와 빌드
@@ -77,35 +77,35 @@ npm run test:e2e
 
 ### Docker + Nginx
 
-데이터셋 루트에서 멀티스테이지 이미지를 빌드하고 로컬 포트에 실행합니다. 빌드 단계만 Node.js를 사용하며 최종 이미지는 비루트 Nginx와 정적 `out/` 파일만 포함합니다.
+저장소 루트에서 멀티스테이지 이미지를 빌드하고 로컬 포트에 실행합니다. 빌드 단계만 Node.js를 사용하며 최종 이미지는 비루트 Nginx와 정적 `out/` 파일만 포함합니다.
 
 ```bash
-cd jlpt-vocabulary-dataset
+cd /path/to/jlpt
 docker compose up -d --build
 curl http://127.0.0.1:8081/healthz
 ```
 
 기본 공개 주소는 `http://127.0.0.1:8081`입니다. 포트를 바꾸려면 `JLPT_WEB_PORT=18081 docker compose up -d --build`처럼 실행합니다. 상태와 로그는 `docker compose ps`, `docker compose logs -f web`으로 확인하고 중지는 `docker compose down`으로 수행합니다.
 
-운영 환경에서는 컨테이너가 외부 Docker 네트워크 `jjs-edge`에도 연결되고, `web/jlpt.caddy`와 동일한 Caddy 라우트를 통해 `https://jlpt.mangagaki.net`으로 전달됩니다. Cloudflare Tunnel이 TLS와 공개 DNS를 담당하며 컨테이너 포트 자체는 로컬 인터페이스에만 바인딩됩니다.
+운영 환경에서는 컨테이너가 외부 Docker 네트워크 `jjs-edge`에도 연결되고, `src/front/jlpt.caddy`와 동일한 Caddy 라우트를 통해 `https://jlpt.mangagaki.net`으로 전달됩니다. Cloudflare Tunnel이 TLS와 공개 DNS를 담당하며 컨테이너 포트 자체는 로컬 인터페이스에만 바인딩됩니다.
 
 운영 재배포는 저장소 루트의 `main`이 `origin/main`과 정확히 일치하고 추적 파일 변경이 없을 때만 다음 스크립트로 실행합니다. 이미지와 컨테이너에는 배포한 Git 커밋이 OCI 리비전 라벨로 기록됩니다.
 
 ```bash
-./jlpt-vocabulary-dataset/web/scripts/deploy-main.sh
+./src/front/scripts/deploy-main.sh
 ```
 
 ### Vercel
 
 - 저장소: `egod1537/jlpt`
-- Root Directory: `jlpt-vocabulary-dataset/web`
+- Root Directory: `src/front`
 - Install Command: `npm ci`
 - Build Command: `npm run build`
 - Framework: Next.js
 
 ### Cloudflare Pages
 
-- Root Directory: `jlpt-vocabulary-dataset/web`
+- Root Directory: `src/front`
 - Build Command: `npm ci && npm run build`
 - Output Directory: `out`
 - Node.js: 20.9 이상

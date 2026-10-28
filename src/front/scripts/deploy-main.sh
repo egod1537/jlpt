@@ -2,7 +2,7 @@
 set -eu
 
 deployment_root=$(git rev-parse --show-toplevel)
-cd "$deployment_root/jlpt-vocabulary-dataset"
+cd "$deployment_root"
 
 deployment_branch=$(git branch --show-current)
 if [ "$deployment_branch" != "main" ]; then

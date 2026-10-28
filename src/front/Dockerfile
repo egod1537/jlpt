@@ -1,12 +1,13 @@
 FROM node:24.14.0-alpine3.23@sha256:7fddd9ddeae8196abf4a3ef2de34e11f7b1a722119f91f28ddf1e99dcafdf114 AS builder
 
-WORKDIR /workspace/web
+WORKDIR /workspace/src/front
 
-COPY web/package.json web/package-lock.json ./
+COPY src/front/package.json src/front/package-lock.json ./
 RUN npm ci
 
-COPY web/ ./
-COPY data/ /workspace/data/
+COPY src/front/ ./
+COPY src/back/ /workspace/src/back/
+COPY jlpt-vocabulary-dataset/data/ /workspace/jlpt-vocabulary-dataset/data/
 
 RUN npm run build \
   && test -f out/index.html \
@@ -19,8 +20,8 @@ ARG VCS_REF=unknown
 LABEL org.opencontainers.image.revision="${VCS_REF}" \
   org.opencontainers.image.source="https://github.com/egod1537/jlpt"
 
-COPY web/nginx.conf /etc/nginx/nginx.conf
-COPY --chown=nginx:nginx --from=builder /workspace/web/out/ /usr/share/nginx/html/
+COPY src/front/nginx.conf /etc/nginx/nginx.conf
+COPY --chown=nginx:nginx --from=builder /workspace/src/front/out/ /usr/share/nginx/html/
 
 USER nginx
 EXPOSE 8080

@@ -3,7 +3,7 @@ import path from "node:path";
 import { describe, expect, it } from "vitest";
 import type { CollectionIndex, SearchIndex, SiteStats, WordBook } from "@/lib/types";
 
-const sourceRoot = path.resolve(process.cwd(), "..", "data");
+const sourceRoot = path.resolve(process.cwd(), "..", "..", "jlpt-vocabulary-dataset", "data");
 const generatedRoot = path.resolve(process.cwd(), "public", "data");
 const read = async <T>(root: string, relative: string) => JSON.parse(await readFile(path.join(root, relative), "utf8")) as T;
 
