@@ -49,7 +49,9 @@ export function MobileStudyPage() {
   const requestedScope = search.get("folder") ? "folder:" + search.get("folder") : search.get("books") || "";
   const requestedMode = (["unseen", "due", "weak"].includes(search.get("mode") || "") ? search.get("mode") : "all") as Mode;
   const explicitStart = search.get("start") === "1" || Boolean(requestedScope) || search.has("mode");
-  const requestedLimit = search.get("limit") === "all" ? 10_000 : Math.min(Math.max(Number(search.get("limit") || 20) || 20, 1), 10_000);
+  const requestedLimitValue = search.get("limit");
+  const requestedLimit = requestedLimitValue === null || requestedLimitValue === "all" ? 10_000 : Math.min(Math.max(Number(requestedLimitValue) || 1, 1), 10_000);
+  const requestedIncludeReview = search.get("includeReview") !== "false";
   const requestedFilters = useMemo<Filters>(() => ({
     minStar: Math.min(Math.max(Number(search.get("minStar") || 0) || 0, 0), 3),
     bookmarks: search.get("bookmarks") === "true",
@@ -70,7 +72,7 @@ export function MobileStudyPage() {
   const [loopMode, setLoopMode] = useState(false);
   const [results, setResults] = useState<Result[]>([]);
   const [mode, setMode] = useState<Mode>(requestedMode);
-  const [includeReview, setIncludeReview] = useState(search.get("includeReview") === "true");
+  const [includeReview, setIncludeReview] = useState(requestedIncludeReview);
   const [sessionId, setSessionId] = useState("");
   const [sessionStartedAt, setSessionStartedAt] = useState("");
   const [elapsed, setElapsed] = useState(0);
@@ -199,7 +201,7 @@ export function MobileStudyPage() {
     try {
       const selectedBooks = existing?.bookIds || booksForScope(requestedScope);
       const selectedMode = existing ? "all" : requestedMode;
-      const selectedReview = existing ? true : search.get("includeReview") === "true";
+      const selectedReview = existing ? true : requestedIncludeReview;
       if (!existing && requestedScope.startsWith("folder:") && !selectedBooks.length) {
         setMessage("이 폴더에는 학습할 단어장이 없습니다.");
         setPhase("empty");
@@ -242,7 +244,7 @@ export function MobileStudyPage() {
     } finally {
       startLock.current = false;
     }
-  }, [booksForScope, getCards, queueMutation, requestedFilters, requestedLimit, requestedMode, requestedScope, resumableSessions, search]);
+  }, [booksForScope, getCards, queueMutation, requestedFilters, requestedIncludeReview, requestedLimit, requestedMode, requestedScope, resumableSessions, search]);
 
   useEffect(() => {
     if (!initialized || initializationHandled.current) return;

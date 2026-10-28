@@ -97,7 +97,7 @@ test("one book tap starts flashcards while its menu keeps details available", as
   await directStudy.click();
   await expect(page).toHaveURL(/\/study\?books=html-n1-yuui-79-84&start=1/);
   await expect(page.getByRole("heading", { name: "暗示" })).toBeVisible();
-  await expect(page.getByText("1 / 20", { exact: true })).toBeVisible();
+  await expect(page.getByText("1 / 268", { exact: true })).toBeVisible();
   await expect(page.getByText("새 학습 설정")).toHaveCount(0);
   await expect(page.getByText("오늘 복습 0개")).toHaveCount(0);
   const readingField = page.getByRole("group", { name: "히라가나 텍스트 필드" });
@@ -127,7 +127,12 @@ test("one book tap starts flashcards while its menu keeps details available", as
   await page.getByRole("button", { name: "새로 시작" }).click();
   await page.getByRole("dialog").getByRole("button", { name: "처음부터 시작", exact: true }).click();
   await expect(page.getByRole("heading", { name: "暗示" })).toBeVisible();
-  await expect(page.getByText("1 / 20", { exact: true })).toBeVisible();
+  await expect(page.getByText("1 / 268", { exact: true })).toBeVisible();
+  await page.getByRole("button", { name: "학습 중단" }).click();
+
+  await page.goto("/study?books=session-045&start=1");
+  await expect(page.getByRole("heading", { name: "暗示" })).toBeVisible();
+  await expect(page.getByText("1 / 244", { exact: true })).toBeVisible();
   await page.getByRole("button", { name: "학습 중단" }).click();
 
   await openLibrary(page);
@@ -221,10 +226,11 @@ test("entry edits propagate to SQL search and the two independent hints", async 
 
 test("HTML flashcards restart safely and preserve review data, bookmarks and durable resume", async ({ page, request }, testInfo) => {
   test.skip(testInfo.project.name !== "desktop-1280", "study journey runs once");
-  const reviewCount = async () => (await (await request.get("/api/stats/overview?from=2026-01-01&to=2026-10-28")).json() as { totalReviewEvents: number }).totalReviewEvents;
+  const today = new Date(Date.now() + 9 * 60 * 60 * 1_000).toISOString().slice(0, 10);
+  const reviewCount = async () => (await (await request.get("/api/stats/overview?from=2026-01-01&to=" + today)).json() as { totalReviewEvents: number }).totalReviewEvents;
   const firstWordId = ((await (await request.get("/api/study/cards?books=html-n1-yuui-79-84&limit=1")).json()) as { cards: Array<{ wordId: string }> }).cards[0].wordId;
   await page.goto("/study?books=html-n1-yuui-79-84&start=1");
-  await expect(page.getByText("1 / 20", { exact: true })).toBeVisible();
+  await expect(page.getByText("1 / 268", { exact: true })).toBeVisible();
   await expect(page.getByRole("heading", { name: "暗示" })).toBeVisible();
   await page.keyboard.press("b");
   await expect(page.getByRole("button", { name: "북마크 해제" })).toBeVisible();
@@ -256,7 +262,7 @@ test("HTML flashcards restart safely and preserve review data, bookmarks and dur
   await page.getByRole("button", { name: "새로 시작" }).click();
   await restartDialog.getByRole("button", { name: "처음부터 시작", exact: true }).click();
   await expect(page.getByRole("heading", { name: "暗示" })).toBeVisible();
-  await expect(page.getByText("1 / 20", { exact: true })).toBeVisible();
+  await expect(page.getByText("1 / 268", { exact: true })).toBeVisible();
   await expect(page.getByRole("button", { name: "모르는 카드 반복" })).toHaveAttribute("aria-pressed", "false");
   await expect(page.getByRole("group", { name: "히라가나 텍스트 필드" }).getByText("あんじ", { exact: true })).toBeHidden();
   await expect(page.getByRole("button", { name: "북마크 해제" })).toBeVisible();
@@ -327,7 +333,7 @@ test("an offline evaluation survives reload and syncs exactly once", async ({ br
     await expect(page.getByRole("button", { name: /공부하겠음/ })).toBeVisible();
     await context.setOffline(true);
     await page.getByRole("button", { name: /공부하겠음/ }).click();
-    await expect(page.getByText("2 / 20", { exact: true })).toBeVisible();
+    await expect(page.getByText(/2 \/ \d+/, { exact: true })).toBeVisible();
     await context.setOffline(false);
     await page.goto("/stats");
     await expect.poll(count, { timeout: 20_000 }).toBe(before + 1);

@@ -32,7 +32,7 @@ describe("learning statistics", () => {
   it("rejects invalid, future, reversed, and oversized ranges", () => {
     expect(() => parseStatsPeriod("2026-02-30", "2026-03-01")).toThrow();
     expect(() => parseStatsPeriod("2026-10-28", "2026-10-27")).toThrow();
-    expect(() => parseStatsPeriod("2026-10-28", "2026-10-29")).toThrow();
+    expect(() => parseStatsPeriod("2999-10-28", "2999-10-29")).toThrow();
     expect(() => parseStatsPeriod("2000-01-01", "2026-10-28")).toThrow();
   });
 });
