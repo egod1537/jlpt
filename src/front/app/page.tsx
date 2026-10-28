@@ -1,3 +1,8 @@
-import { Dashboard } from "@/components/home/dashboard";
+import { redirect } from "next/navigation";
+import { pageSession } from "@/lib/server/session";
 
-export default function HomePage() { return <Dashboard />; }
+export const dynamic = "force-dynamic";
+
+export default async function HomePage() {
+  redirect(await pageSession() ? "/books" : "/login");
+}

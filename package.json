@@ -1,0 +1,30 @@
+{
+  "name": "jlpt-mobile",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "src/front"
+  ],
+  "dependencies": {
+    "argon2": "0.45.1",
+    "better-sqlite3": "13.0.3",
+    "csv-parse": "7.0.3",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "9.6.0"
+  },
+  "scripts": {
+    "dev": "npm run dev --workspace src/front",
+    "build": "npm run build --workspace src/front",
+    "db:migrate": "npm run db:migrate --workspace src/front",
+    "db:seed": "npm run db:seed --workspace src/front",
+    "owner:init": "npm run owner:init --workspace src/front",
+    "owner:password": "npm run owner:password --workspace src/front",
+    "db:backup": "npm run db:backup --workspace src/front",
+    "lint": "npm run lint --workspace src/front",
+    "typecheck": "npm run typecheck --workspace src/front",
+    "test": "npm run test --workspace src/front",
+    "test:e2e": "npm run test:e2e --workspace src/front"
+  }
+}

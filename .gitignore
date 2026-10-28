@@ -1,5 +1,6 @@
 src/front/.next/
 src/front/node_modules/
+node_modules/
 src/front/out/
 src/front/public/data/
 src/front/coverage/
@@ -9,3 +10,6 @@ src/front/*.tsbuildinfo
 .DS_Store
 Thumbs.db
 *.log
+var/
+.env
+src/front/.env.local
