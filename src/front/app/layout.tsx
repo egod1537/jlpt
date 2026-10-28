@@ -5,5 +5,5 @@ export const metadata: Metadata = { title: { default: "JLPT 단어", template: "
 export const viewport: Viewport = { width: "device-width", initialScale: 1 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="ko"><body>{children}</body></html>;
+  return <html lang="ko" data-scroll-behavior="smooth"><body>{children}</body></html>;
 }

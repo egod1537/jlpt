@@ -12,7 +12,7 @@ export function hasValidOrigin(request: Request) {
 
 export function loginAttemptKey(request: Request, username: string) {
   const trustProxy = process.env.JLPT_TRUST_PROXY === "true";
-  const forwarded = trustProxy ? request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() : undefined;
-  const direct = request.headers.get("x-real-ip") || "unknown";
-  return createHash("sha256").update(`${forwarded || direct}\0${username.trim().toLocaleLowerCase()}`).digest("hex");
+  const forwarded = request.headers.get("x-forwarded-for")?.split(",")[0]?.trim();
+  const networkKey = trustProxy ? forwarded || request.headers.get("x-real-ip") || "proxy-unknown" : "direct-client";
+  return createHash("sha256").update(`${networkKey}\0${username.trim().toLocaleLowerCase()}`).digest("hex");
 }

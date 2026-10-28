@@ -13,7 +13,7 @@
     "db:seed": "tsx ../back/scripts/seed.ts",
     "owner:init": "tsx ../back/scripts/owner.ts init",
     "owner:password": "tsx ../back/scripts/owner.ts password",
-    "db:backup": "tsx ../back/scripts/backup.ts",
+    "db:backup": "node ../back/scripts/backup.mjs",
     "lint": "eslint .",
     "typecheck": "next typegen && tsc --noEmit",
     "test": "vitest run",

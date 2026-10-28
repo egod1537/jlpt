@@ -3,6 +3,7 @@
 import { describe, expect, it } from "vitest";
 import { openDatabase } from "@back/lib/db/database";
 import { assertLoginAllowed, createSession, findSession, initializeOwner, recordLoginFailure, revokeSession, sha256, verifyOwnerCredentials } from "@back/lib/auth/service";
+import { loginAttemptKey } from "@back/lib/http/security";
 
 describe("owner authentication", () => {
   it("stores only an Argon2id password hash and verifies generic credentials", async () => {
@@ -48,6 +49,20 @@ describe("owner authentication", () => {
       expect(assertLoginAllowed(db, "key", new Date("2026-10-28T00:16:00.000Z"))).toEqual({ allowed: true });
     } finally {
       db.close();
+    }
+  });
+
+  it("ignores spoofed forwarding headers unless the trusted proxy mode is enabled", () => {
+    const original = process.env.JLPT_TRUST_PROXY;
+    try {
+      process.env.JLPT_TRUST_PROXY = "false";
+      const first = loginAttemptKey(new Request("https://jlpt.example/login", { headers: { "x-forwarded-for": "198.51.100.1", "x-real-ip": "198.51.100.2" } }), "owner");
+      const second = loginAttemptKey(new Request("https://jlpt.example/login", { headers: { "x-forwarded-for": "203.0.113.1", "x-real-ip": "203.0.113.2" } }), "owner");
+      expect(first).toBe(second);
+      process.env.JLPT_TRUST_PROXY = "true";
+      expect(loginAttemptKey(new Request("https://jlpt.example/login", { headers: { "x-forwarded-for": "198.51.100.1" } }), "owner")).not.toBe(loginAttemptKey(new Request("https://jlpt.example/login", { headers: { "x-forwarded-for": "203.0.113.1" } }), "owner"));
+    } finally {
+      if (original === undefined) delete process.env.JLPT_TRUST_PROXY; else process.env.JLPT_TRUST_PROXY = original;
     }
   });
 });

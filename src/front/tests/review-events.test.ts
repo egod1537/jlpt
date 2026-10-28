@@ -1,0 +1,39 @@
+// @vitest-environment node
+
+import { randomUUID } from "node:crypto";
+import { describe, expect, it } from "vitest";
+import { openDatabase } from "@back/lib/db/database";
+import { applyMutation } from "@back/lib/sync/mutations";
+import { initialRecord, schedule } from "@back/lib/study/scheduler";
+
+describe("server review events and sessions", () => {
+  it("keeps the established scheduling rules", () => {
+    const accepted = new Date("2026-10-28T00:00:00.000Z");
+    expect(schedule(initialRecord("word-a"), "again", accepted)).toMatchObject({ dueAt: "2026-10-28T00:10:00.000Z", repetitions: 0, lapses: 1, easeFactor: 2.3 });
+    expect(schedule(initialRecord("word-a"), "hard", accepted)).toMatchObject({ dueAt: "2026-10-30T00:00:00.000Z", intervalDays: 2 });
+    expect(schedule(initialRecord("word-a"), "good", accepted)).toMatchObject({ dueAt: "2026-10-29T00:00:00.000Z", intervalDays: 1 });
+    expect(schedule(initialRecord("word-a"), "easy", accepted)).toMatchObject({ dueAt: "2026-10-31T00:00:00.000Z", intervalDays: 3 });
+  });
+
+  it("applies one event and one schedule update for a duplicated operation", () => {
+    const db = openDatabase(":memory:");
+    try {
+      db.prepare("INSERT INTO word_keys(word_id,created_at,retired_at) VALUES (?,?,NULL)").run("word-123456abcdef", new Date().toISOString());
+      const mutation = { operationId: randomUUID(), type: "review.rate", occurredAt: "2026-10-27T12:00:00.000Z", payload: { wordId: "word-123456abcdef", rating: "again", sessionId: null, context: "manual" } };
+      expect(applyMutation(db, "offline-phone", mutation)).toMatchObject({ status: "applied", entity: { reviewState: { lastRating: "again", lapses: 1 } } });
+      expect(applyMutation(db, "offline-phone", mutation)).toMatchObject({ status: "duplicate" });
+      expect(db.prepare("SELECT COUNT(*) count FROM review_events").get()).toEqual({ count: 1 });
+      expect(db.prepare("SELECT repetitions,lapses,last_rating FROM review_states").get()).toEqual({ repetitions: 0, lapses: 1, last_rating: "again" });
+    } finally { db.close(); }
+  });
+
+  it("persists resumable sessions with revision conflicts", () => {
+    const db = openDatabase(":memory:");
+    try {
+      const sessionId = `study-${randomUUID()}`;
+      expect(applyMutation(db, "phone", { operationId: randomUUID(), type: "session.create", payload: { id: sessionId, bookIds: [], mode: "all", includeReview: false, wordIds: ["word-123456abcdef"], position: 0, revealed: false, ratings: {}, status: "active" } })).toMatchObject({ status: "applied", serverRevision: 1 });
+      expect(applyMutation(db, "phone", { operationId: randomUUID(), type: "session.update", targetId: sessionId, expectedRevision: 1, payload: { revealed: true } })).toMatchObject({ status: "applied", serverRevision: 2, entity: { revealed: true } });
+      expect(applyMutation(db, "laptop", { operationId: randomUUID(), type: "session.update", targetId: sessionId, expectedRevision: 1, payload: { position: 1 } })).toMatchObject({ status: "conflict", serverRevision: 2 });
+    } finally { db.close(); }
+  });
+});

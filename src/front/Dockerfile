@@ -1,32 +1,53 @@
-FROM node:24.14.0-alpine3.23@sha256:7fddd9ddeae8196abf4a3ef2de34e11f7b1a722119f91f28ddf1e99dcafdf114 AS builder
+FROM node:24.14.0-bookworm-slim AS builder
 
-WORKDIR /workspace/src/front
+WORKDIR /workspace
+RUN apt-get update \
+  && apt-get install -y --no-install-recommends python3 make g++ \
+  && rm -rf /var/lib/apt/lists/*
+COPY package.json package-lock.json ./
+COPY src/front/package.json ./src/front/package.json
+RUN npm ci \
+  && case "$(dpkg --print-architecture)" in \
+    arm64) npm install --no-save lightningcss-linux-arm64-gnu@1.30.2 @tailwindcss/oxide-linux-arm64-gnu@4.1.17 ;; \
+    amd64) npm install --no-save lightningcss-linux-x64-gnu@1.30.2 @tailwindcss/oxide-linux-x64-gnu@4.1.17 ;; \
+    *) echo "unsupported build architecture" >&2; exit 1 ;; \
+  esac
 
-COPY src/front/package.json src/front/package-lock.json ./
-RUN npm ci
-
-COPY src/front/ ./
-COPY src/back/ /workspace/src/back/
-COPY jlpt-vocabulary-dataset/data/ /workspace/jlpt-vocabulary-dataset/data/
+COPY src/front/ ./src/front/
+COPY src/back/ ./src/back/
+COPY jlpt-vocabulary-dataset/data/ ./jlpt-vocabulary-dataset/data/
 
 RUN npm run build \
-  && test -f out/index.html \
-  && test -f out/books/session-027/index.html \
-  && test -f out/data/search-index.json
+  && test -f src/front/.next/standalone/src/front/server.js \
+  && test -d src/front/.next/standalone/node_modules/better-sqlite3 \
+  && test ! -d src/front/public/data
 
-FROM nginx:stable-alpine@sha256:47928bf67eb62a1863cb08d9ecb52d3e704304ba614eaee17884204677702951 AS runtime
+FROM node:24.14.0-bookworm-slim AS runtime
 
 ARG VCS_REF=unknown
 LABEL org.opencontainers.image.revision="${VCS_REF}" \
   org.opencontainers.image.source="https://github.com/egod1537/jlpt"
 
-COPY src/front/nginx.conf /etc/nginx/nginx.conf
-COPY --chown=nginx:nginx --from=builder /workspace/src/front/out/ /usr/share/nginx/html/
+ENV NODE_ENV=production \
+  NEXT_TELEMETRY_DISABLED=1 \
+  PORT=3000 \
+  HOSTNAME=0.0.0.0 \
+  JLPT_DB_PATH=/app/var/jlpt.sqlite \
+  JLPT_SEED_DATA=/app/seed-data \
+  JLPT_MIGRATIONS_DIR=/app/migrations \
+  JLPT_BACKUP_DIR=/app/backup
 
-USER nginx
-EXPOSE 8080
+WORKDIR /app
+COPY --chown=node:node --from=builder /workspace/src/front/.next/standalone/ ./
+COPY --chown=node:node --from=builder /workspace/src/front/.next/static/ ./src/front/.next/static/
+COPY --chown=node:node --from=builder /workspace/src/back/db/migrations/ ./migrations/
+COPY --chown=node:node --from=builder /workspace/jlpt-vocabulary-dataset/data/ ./seed-data/
+COPY --chown=node:node --from=builder /workspace/src/back/scripts/backup.mjs ./ops/backup.mjs
+COPY --chown=node:node --from=builder /workspace/src/back/scripts/owner.mjs ./ops/owner.mjs
 
-HEALTHCHECK --interval=15s --timeout=3s --start-period=5s --retries=3 \
-  CMD wget -q -O /dev/null http://127.0.0.1:8080/healthz || exit 1
+USER node
+EXPOSE 3000
+HEALTHCHECK --interval=15s --timeout=5s --start-period=20s --retries=5 \
+  CMD ["node", "-e", "fetch('http://127.0.0.1:3000/healthz').then(r=>{if(!r.ok)process.exit(1)}).catch(()=>process.exit(1))"]
 
-ENTRYPOINT ["nginx", "-g", "daemon off;"]
+CMD ["node", "src/front/server.js"]

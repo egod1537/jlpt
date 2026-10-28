@@ -1,4 +1,4 @@
-import { mkdirSync } from "node:fs";
+import { chmodSync, mkdirSync } from "node:fs";
 import path from "node:path";
 import BetterSqlite3 from "better-sqlite3";
 import { databasePath } from "@back/lib/db/config";
@@ -12,6 +12,12 @@ export function openDatabase(filePath = databasePath(), migrate = true): AppData
   db.pragma("foreign_keys = ON");
   db.pragma("busy_timeout = 5000");
   if (filePath !== ":memory:") db.pragma("journal_mode = WAL");
+  if (filePath !== ":memory:") {
+    chmodSync(filePath, 0o600);
+    for (const suffix of ["-wal", "-shm"]) {
+      try { chmodSync(`${filePath}${suffix}`, 0o600); } catch { /* sidecar is created lazily */ }
+    }
+  }
   if (migrate) applyMigrations(db);
   return db;
 }

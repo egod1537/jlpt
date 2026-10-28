@@ -1,10 +1,15 @@
-# Back data pipeline
+# Backend
 
-이 디렉터리는 런타임 웹 서버가 아니라 빌드 시 데이터 계층입니다. `scripts/sync-data.mjs`가 `jlpt-vocabulary-dataset/data/`의 원본 JSON을 검증하고 프런트엔드용 정적 데이터와 검색 인덱스를 `src/front/public/data/`에 생성합니다.
+SQLite migration, typed SQL 서비스, 원본 seed, 인증·동기화·통계 로직과 운영 CLI가 있습니다. 런타임 코드는 Next standalone 서버에 포함되며 DB와 백업은 web root 밖에 저장됩니다.
 
-프런트엔드 디렉터리에서 다음 명령으로 실행합니다.
+주요 명령은 저장소 루트에서 실행합니다.
 
 ```bash
-cd src/front
-npm run sync:data
+npm run db:migrate
+npm run db:seed
+npm run owner:init
+npm run owner:password
+npm run db:backup
 ```
+
+원본 `jlpt-vocabulary-dataset/data`는 수정하지 않습니다.

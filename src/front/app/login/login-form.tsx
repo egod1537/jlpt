@@ -35,7 +35,7 @@ export function LoginForm() {
     }
   }
 
-  return <form onSubmit={submit} className="space-y-5">
+  return <form action="/api/auth/login" method="post" onSubmit={submit} className="space-y-5">
     <div className="space-y-2">
       <label htmlFor="username" className="block text-sm font-bold text-slate-700">사용자 이름</label>
       <Input id="username" name="username" autoComplete="username" required maxLength={64} autoFocus />

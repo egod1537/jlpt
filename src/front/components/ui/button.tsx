@@ -12,7 +12,7 @@ const buttonVariants = cva("inline-flex min-h-11 items-center justify-center gap
       ghost: "text-slate-700 hover:bg-slate-100",
       destructive: "bg-red-700 text-white hover:bg-red-800",
     },
-    size: { default: "h-11", sm: "min-h-9 px-3", lg: "min-h-12 px-6 text-base", icon: "h-11 w-11 px-0" },
+    size: { default: "h-11", sm: "min-h-11 px-3", lg: "min-h-12 px-6 text-base", icon: "h-11 w-11 px-0" },
   },
   defaultVariants: { variant: "default", size: "default" },
 });

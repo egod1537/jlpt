@@ -1,16 +1,30 @@
-name: jlpt-vocabulary-dataset
+name: jlpt-vocabulary
 
 services:
   web:
     container_name: jlpt-vocabulary-web
-    image: jlpt-vocabulary-web:local
+    image: jlpt-vocabulary-web:${JLPT_IMAGE_TAG:-local}
     build:
       context: .
       dockerfile: src/front/Dockerfile
       args:
         VCS_REF: "${JLPT_GIT_REVISION:-unknown}"
     ports:
-      - "127.0.0.1:${JLPT_WEB_PORT:-8081}:8080"
+      - "127.0.0.1:${JLPT_WEB_PORT:-8081}:3000"
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      JLPT_DB_PATH: /app/var/jlpt.sqlite
+      JLPT_SEED_DATA: /app/seed-data
+      JLPT_MIGRATIONS_DIR: /app/migrations
+      JLPT_BACKUP_DIR: /app/backup
+      JLPT_APP_ORIGIN: ${JLPT_APP_ORIGIN:-https://jlpt.mangagaki.net}
+      JLPT_TRUST_PROXY: "true"
+      JLPT_GIT_REVISION: ${JLPT_GIT_REVISION:-unknown}
+    volumes:
+      - ${JLPT_DATA_DIR:-./var}:/app/var
+      - ${JLPT_BACKUP_HOST_DIR:-./backups}:/app/backup
     networks:
       default:
       edge:

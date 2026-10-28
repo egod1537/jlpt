@@ -2,13 +2,18 @@ import { defineConfig, devices } from "@playwright/test";
 
 export default defineConfig({
   testDir: "./e2e",
-  fullyParallel: true,
+  outputDir: "/tmp/jlpt-playwright-results",
+  fullyParallel: false,
+  workers: 1,
   retries: 0,
   reporter: "list",
   use: { baseURL: "http://127.0.0.1:4173", trace: "retain-on-failure" },
-  webServer: { command: "node scripts/serve-static.mjs", url: "http://127.0.0.1:4173", reuseExistingServer: true },
+  webServer: { command: "tsx scripts/e2e-server.ts", url: "http://127.0.0.1:4173/healthz", reuseExistingServer: false, timeout: 120_000 },
   projects: [
-    { name: "chromium", use: { ...devices["Desktop Chrome"] } },
-    { name: "mobile", use: { ...devices["iPhone 13"], browserName: "chromium", viewport: { width: 375, height: 812 } } },
+    { name: "desktop", use: { ...devices["Desktop Chrome"], viewport: { width: 1280, height: 800 } } },
+    { name: "mobile-360", use: { ...devices["iPhone 13"], browserName: "chromium", viewport: { width: 360, height: 800 } } },
+    { name: "mobile-375", use: { ...devices["iPhone 13"], browserName: "chromium", viewport: { width: 375, height: 667 } } },
+    { name: "mobile-390", use: { ...devices["iPhone 13"], browserName: "chromium", viewport: { width: 390, height: 844 } } },
+    { name: "mobile-430", use: { ...devices["iPhone 13"], browserName: "chromium", viewport: { width: 430, height: 932 } } },
   ],
 });

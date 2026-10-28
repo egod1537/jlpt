@@ -1,5 +1,6 @@
 import { z } from "zod";
 import type { NextRequest } from "next/server";
+import { NextResponse } from "next/server";
 import { apiError, apiJson, PayloadTooLargeError, readLimitedJson } from "@/lib/server/api";
 import { getDatabase } from "@back/lib/db/database";
 import { assertLoginAllowed, clearLoginFailures, createSession, recordLoginFailure, verifyOwnerCredentials } from "@back/lib/auth/service";
@@ -17,7 +18,13 @@ const credentialsSchema = z.object({
 export async function POST(request: NextRequest) {
   if (!hasValidOrigin(request)) return apiError(403, "FORBIDDEN", "요청을 확인할 수 없습니다.");
   try {
-    const parsed = credentialsSchema.safeParse(await readLimitedJson(request, 4_096));
+    const formSubmit = request.headers.get("content-type")?.includes("application/x-www-form-urlencoded") === true;
+    const declared = Number(request.headers.get("content-length"));
+    if (formSubmit && Number.isFinite(declared) && declared > 4_096) throw new PayloadTooLargeError();
+    const raw = formSubmit
+      ? await request.formData().then((form) => ({ username: form.get("username"), password: form.get("password") }))
+      : await readLimitedJson(request, 4_096);
+    const parsed = credentialsSchema.safeParse(raw);
     if (!parsed.success) return apiError(400, "VALIDATION", "입력값을 확인해 주세요.");
     const db = getDatabase();
     const attemptKey = loginAttemptKey(request, parsed.data.username);
@@ -34,7 +41,9 @@ export async function POST(request: NextRequest) {
     }
     clearLoginFailures(db, attemptKey);
     const session = createSession(db, owner);
-    const response = apiJson({ owner: { username: owner.username }, csrfToken: session.csrfToken });
+    const response = formSubmit
+      ? NextResponse.redirect(new URL("/books", request.url), 303)
+      : apiJson({ owner: { username: owner.username }, csrfToken: session.csrfToken });
     attachSessionCookies(response, session);
     return response;
   } catch (error) {
