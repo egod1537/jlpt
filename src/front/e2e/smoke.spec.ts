@@ -81,6 +81,19 @@ test("one book tap starts flashcards while its menu keeps details available", as
   await expect(page).toHaveURL(/\/study\?books=html-n1-yuui-79-84&start=1/);
   await expect(page.getByRole("heading", { name: "暗示" })).toBeVisible();
   await expect(page.getByText("1 / 20", { exact: true })).toBeVisible();
+  const readingField = page.getByRole("group", { name: "히라가나 텍스트 필드" });
+  const meaningField = page.getByRole("group", { name: "한국어 뜻 텍스트 필드" });
+  const hintLayout = async () => page.locator("h1, [aria-label='히라가나 텍스트 필드'], [aria-label='한국어 뜻 텍스트 필드']").evaluateAll((elements) => elements.map((element) => {
+    const rect = element.getBoundingClientRect();
+    return { top: rect.top, left: rect.left, width: rect.width, height: rect.height };
+  }));
+  const hiddenLayout = await hintLayout();
+  await page.getByRole("button", { name: /ひらがな/ }).click();
+  await expect(readingField.getByText("あんじ", { exact: true })).toBeVisible();
+  expect(await hintLayout()).toEqual(hiddenLayout);
+  await page.getByRole("button", { name: /한국어/ }).click();
+  await expect(meaningField.getByText("암시", { exact: true })).toBeVisible();
+  expect(await hintLayout()).toEqual(hiddenLayout);
   await page.getByRole("button", { name: "학습 중단" }).click();
 
   await openLibrary(page);
