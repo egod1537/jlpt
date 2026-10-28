@@ -31,8 +31,8 @@ button, input, select, textarea { font: inherit; }
   .text-slate-600, .text-slate-500, .text-slate-400, .text-emerald-800, .text-emerald-700 { color: var(--jlpt-muted); }
   .border-slate-100, .border-slate-200, .border-slate-300, .border-emerald-200 { border-color: var(--jlpt-line); }
   .ring-slate-200, .ring-emerald-200 { --tw-ring-color: var(--jlpt-line); }
-  .hover\\:bg-slate-50:hover, .hover\\:bg-slate-100:hover, .hover\\:bg-emerald-50:hover { background-color: var(--jlpt-panel-2); }
-  .placeholder\\:text-slate-500::placeholder { color: var(--jlpt-muted); }
+  .hover\:bg-slate-50:hover, .hover\:bg-slate-100:hover, .hover\:bg-emerald-50:hover { background-color: var(--jlpt-panel-2); }
+  .placeholder\:text-slate-500::placeholder { color: var(--jlpt-muted); }
 }
 input, textarea, select { color-scheme: dark; }
 @media (prefers-reduced-motion: reduce) {
