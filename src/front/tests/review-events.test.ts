@@ -31,8 +31,8 @@ describe("server review events and sessions", () => {
     const db = openDatabase(":memory:");
     try {
       const sessionId = `study-${randomUUID()}`;
-      expect(applyMutation(db, "phone", { operationId: randomUUID(), type: "session.create", payload: { id: sessionId, bookIds: [], mode: "all", includeReview: false, wordIds: ["word-123456abcdef"], position: 0, revealed: false, ratings: {}, status: "active" } })).toMatchObject({ status: "applied", serverRevision: 1 });
-      expect(applyMutation(db, "phone", { operationId: randomUUID(), type: "session.update", targetId: sessionId, expectedRevision: 1, payload: { revealed: true } })).toMatchObject({ status: "applied", serverRevision: 2, entity: { revealed: true } });
+      expect(applyMutation(db, "phone", { operationId: randomUUID(), type: "session.create", payload: { id: sessionId, bookIds: [], mode: "all", includeReview: false, wordIds: ["word-123456abcdef"], queue: ["word-123456abcdef"], loopMode: true, results: [], position: 0, revealed: false, ratings: {}, status: "active" } })).toMatchObject({ status: "applied", serverRevision: 1, entity: { queue: ["word-123456abcdef"], loopMode: true } });
+      expect(applyMutation(db, "phone", { operationId: randomUUID(), type: "session.update", targetId: sessionId, expectedRevision: 1, payload: { queue: ["word-123456abcdef"], results: [{ wordId: "word-123456abcdef", rating: "again", occurredAt: "2026-10-28T00:00:00.000Z" }], revealed: false } })).toMatchObject({ status: "applied", serverRevision: 2, entity: { queue: ["word-123456abcdef"], results: [{ rating: "again" }] } });
       expect(applyMutation(db, "laptop", { operationId: randomUUID(), type: "session.update", targetId: sessionId, expectedRevision: 1, payload: { position: 1 } })).toMatchObject({ status: "conflict", serverRevision: 2 });
     } finally { db.close(); }
   });

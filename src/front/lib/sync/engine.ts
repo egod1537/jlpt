@@ -43,18 +43,19 @@ export function subscribeSync(listener: Listener) {
   return () => listeners.delete(listener);
 }
 
-async function bootstrapIfNeeded() {
+async function bootstrapIfNeeded(): Promise<boolean> {
   const db = await clientDatabase();
-  if (await db.get("meta", "bootstrapped")) return;
+  if (await db.get("meta", "bootstrapped")) return false;
   const response = await fetch("/api/bootstrap", { cache: "no-store" });
   if (!response.ok) throw new Error("BOOTSTRAP");
   await storeBootstrap(await response.json());
+  return true;
 }
 
-async function pushOutbox() {
+async function pushOutbox(): Promise<Set<string>> {
   const db = await clientDatabase();
   const pending = (await db.getAllFromIndex("outbox", "status", "pending")).sort((a, b) => a.createdAt.localeCompare(b.createdAt)).slice(0, 20);
-  if (!pending.length) return;
+  if (!pending.length) return new Set();
   const attemptedAt = new Date().toISOString();
   const attemptTx = db.transaction("outbox", "readwrite");
   for (const record of pending) await attemptTx.store.put({ ...record, attempts: record.attempts + 1, lastAttemptAt: attemptedAt });
@@ -74,13 +75,24 @@ async function pushOutbox() {
     else await tx.store.put({ ...record, status: result.status === "conflict" ? "conflict" : "rejected", error: result.error, serverEntity: result.entity });
   }
   await tx.done;
+  return new Set(body.results.flatMap((result) => {
+    if (result.status !== "applied" && result.status !== "duplicate") return [];
+    const mutation = pending.find((item) => item.operationId === result.operationId)?.mutation.type || "";
+    if (mutation.startsWith("folder.")) return ["folder"];
+    if (mutation.startsWith("book.") || mutation === "books.bulkMove") return ["book"];
+    if (mutation.startsWith("entry.")) return ["entry"];
+    if (mutation.startsWith("review.")) return ["reviewState"];
+    if (mutation.startsWith("session.")) return ["studySession"];
+    if (mutation.startsWith("bookmark.")) return ["bookmark"];
+    return [];
+  }));
 }
 
 async function applyChanges(changes: SyncChange[], nextCursor: number) {
   const db = await clientDatabase();
-  const stores = ["meta", "folders", "books", "entries", "reviewStates", "studySessions", "preferences"] as const;
+  const stores = ["meta", "folders", "books", "entries", "reviewStates", "studySessions", "bookmarks", "preferences"] as const;
   const tx = db.transaction(stores, "readwrite");
-  const storeMap = { folder: "folders", book: "books", entry: "entries", reviewState: "reviewStates", studySession: "studySessions", preference: "preferences" } as const;
+  const storeMap = { folder: "folders", book: "books", entry: "entries", reviewState: "reviewStates", studySession: "studySessions", bookmark: "bookmarks", preference: "preferences" } as const;
   for (const change of changes) {
     const store = storeMap[change.entityType];
     if (!store) continue;
@@ -92,41 +104,49 @@ async function applyChanges(changes: SyncChange[], nextCursor: number) {
   await tx.done;
 }
 
-async function pullChanges() {
+async function pullChanges(): Promise<Set<string>> {
   const db = await clientDatabase();
   let cursor = Number(await db.get("meta", "lastAppliedCursor") || 0);
   let hasMore = true;
+  const changed = new Set<string>();
   while (hasMore) {
     const response = await fetch(`/api/sync/changes?after=${cursor}&limit=200`, { cache: "no-store" });
     if (!response.ok) throw new Error("PULL");
     const body = await response.json() as { changes: SyncChange[]; nextCursor: number; hasMore: boolean };
-    await applyChanges(body.changes, body.nextCursor);
+    if (body.changes.length) await applyChanges(body.changes, body.nextCursor);
+    else await db.put("meta", body.nextCursor, "lastAppliedCursor");
+    body.changes.forEach((change) => changed.add(change.entityType));
     cursor = body.nextCursor;
     hasMore = body.hasMore;
   }
+  return changed;
 }
 
 async function executeSync() {
   const before = await outboxCounts();
   if (!navigator.onLine) { cancelScheduledRetry(); emit({ state: "offline", ...before }); return; }
   try {
-    await bootstrapIfNeeded();
+    const initialized = await bootstrapIfNeeded();
+    const changed = new Set<string>();
     for (;;) {
       const pending = await (await clientDatabase()).getAllFromIndex("outbox", "status", "pending");
       if (!pending.length) break;
-      await pushOutbox();
+      for (const entity of await pushOutbox()) changed.add(entity);
     }
-    await pullChanges();
+    for (const entity of await pullChanges()) changed.add(entity);
     const counts = await outboxCounts();
     retryAttempt = 0;
     cancelScheduledRetry();
     if (counts.conflicts) emit({ state: "conflict", ...counts });
     else if (counts.pending) emit({ state: "pending", ...counts });
     else emit({ state: "synced", pending: 0, conflicts: 0, syncedAt: new Date().toISOString() });
-    window.dispatchEvent(new CustomEvent("jlpt-data-changed"));
-    const channel = new BroadcastChannel("jlpt-sync");
-    channel.postMessage({ type: "synced" });
-    channel.close();
+    if (initialized || changed.size) {
+      const detail = { entities: initialized ? ["bootstrap"] : [...changed] };
+      window.dispatchEvent(new CustomEvent("jlpt-data-changed", { detail }));
+      const channel = new BroadcastChannel("jlpt-sync");
+      channel.postMessage({ type: "synced", ...detail });
+      channel.close();
+    }
   } catch {
     const counts = await outboxCounts();
     if (!navigator.onLine) emit({ state: "offline", ...counts });
@@ -170,7 +190,7 @@ export async function queueMutation(input: Omit<ClientMutation, "operationId" | 
       const current = await db.get("books", id);
       if (current) await db.put("books", { ...current, folderId: mutation.payload.folderId ?? null, orderIndex, updatedAt: timestamp });
     }
-  } else if ((mutation.type === "folder.rename" || mutation.type === "folder.move") && mutation.targetId) {
+  } else if ((mutation.type === "folder.rename" || mutation.type === "folder.move" || mutation.type === "folder.pin") && mutation.targetId) {
     const current = await db.get("folders", mutation.targetId);
     if (current) await db.put("folders", { ...current, ...mutation.payload, updatedAt: timestamp });
   } else if (mutation.type === "folder.delete" && mutation.targetId) {
@@ -193,10 +213,17 @@ export async function queueMutation(input: Omit<ClientMutation, "operationId" | 
     const current = await db.get("reviewStates", wordId) as { state?: Parameters<typeof schedule>[0] } | undefined;
     const state = schedule(current?.state, mutation.payload.rating as "again" | "hard" | "good" | "easy", new Date(mutation.occurredAt));
     await db.put("reviewStates", { wordId, schedulerVersion: "sm2-v1-pending", state: { ...state, wordId }, dueAt: state.dueAt, lastReviewedAt: state.lastReviewedAt, lastRating: state.lastRating, lapses: state.lapses, repetitions: state.repetitions, knownFlag: state.knownFlag ?? null });
+  } else if (mutation.type === "bookmark.set") {
+    const entryId = String(mutation.payload.entryId);
+    if (mutation.payload.bookmarked) {
+      const current = await db.get("bookmarks", entryId);
+      await db.put("bookmarks", { entryId, bookmarked: true, revision: Number(current?.revision || 0), createdAt: current?.createdAt || timestamp, updatedAt: timestamp });
+    } else await db.delete("bookmarks", entryId);
   }
   const counts = await outboxCounts();
   emit({ state: navigator.onLine ? "pending" : "offline", ...counts });
-  window.dispatchEvent(new CustomEvent("jlpt-data-changed"));
+  const entity = mutation.type.startsWith("folder.") ? "folder" : mutation.type.startsWith("book.") || mutation.type === "books.bulkMove" ? "book" : mutation.type.startsWith("entry.") ? "entry" : mutation.type.startsWith("review.") ? "reviewState" : mutation.type.startsWith("session.") ? "studySession" : mutation.type.startsWith("bookmark.") ? "bookmark" : "unknown";
+  window.dispatchEvent(new CustomEvent("jlpt-data-changed", { detail: { entities: [entity] } }));
   void runSync();
   return mutation.operationId;
 }
@@ -215,6 +242,7 @@ async function reconcileServerEntity(record: OutboxRecord) {
     else if (record.mutation.type === "books.bulkMove") await db.put("books", entity);
     else if (record.mutation.type.startsWith("entry.")) await db.put("entries", entity);
     else if (record.mutation.type.startsWith("session.")) await db.put("studySessions", entity);
+    else if (record.mutation.type.startsWith("bookmark.")) await db.put("bookmarks", entity);
     return;
   }
   if (record.mutation.type === "folder.create") await db.delete("folders", String(record.mutation.payload.id));

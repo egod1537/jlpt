@@ -1,12 +1,15 @@
 import type { AppDatabase } from "@back/lib/db/database";
-import { bookFromRow, entryFromRow, folderFromRow, studySessionFromRow } from "@back/lib/catalog/rows";
+import { bookmarkFromRow, bookFromRow, entryFromRow, folderFromRow, studySessionFromRow } from "@back/lib/catalog/rows";
 import { normalizeSearch } from "@back/lib/catalog/normalize";
 
-const BOOK_SELECT = `SELECT b.*,
-  (SELECT COUNT(*) FROM book_entries e WHERE e.book_id=b.id AND e.deleted_at IS NULL) entry_count,
-  (SELECT COUNT(DISTINCT e.word_id) FROM book_entries e JOIN review_states r ON r.word_id=e.word_id WHERE e.book_id=b.id AND e.deleted_at IS NULL AND r.last_reviewed_at IS NOT NULL) studied_count,
-  (SELECT MAX(r.last_reviewed_at) FROM book_entries e JOIN review_states r ON r.word_id=e.word_id WHERE e.book_id=b.id AND e.deleted_at IS NULL) last_studied_at
-  FROM books b`;
+const BOOK_SELECT = `WITH entry_stats AS (
+    SELECT e.book_id,COUNT(*) entry_count,
+      COUNT(DISTINCT CASE WHEN r.last_reviewed_at IS NOT NULL THEN e.word_id END) studied_count,
+      MAX(r.last_reviewed_at) last_studied_at
+    FROM book_entries e LEFT JOIN review_states r ON r.word_id=e.word_id
+    WHERE e.deleted_at IS NULL GROUP BY e.book_id
+  ) SELECT b.*,COALESCE(s.entry_count,0) entry_count,COALESCE(s.studied_count,0) studied_count,s.last_studied_at
+  FROM books b LEFT JOIN entry_stats s ON s.book_id=b.id`;
 
 export function listFolders(db: AppDatabase) {
   const rows = db.prepare(`SELECT f.*,
@@ -34,9 +37,9 @@ export function listBooks(db: AppDatabase, options: BookListOptions = {}) {
   }
   if (options.favorite) clauses.push("b.favorite=1");
   if (options.q) {
-    clauses.push("(b.title LIKE ? ESCAPE '\\' OR COALESCE(b.category,'') LIKE ? ESCAPE '\\' OR b.id LIKE ? ESCAPE '\\' OR EXISTS (SELECT 1 FROM book_entries qe WHERE qe.book_id=b.id AND qe.deleted_at IS NULL AND qe.tags_json LIKE ? ESCAPE '\\'))");
-    const like = `%${options.q.replace(/[\\%_]/g, "\\$&")}%`;
-    parameters.push(like, like, like, like);
+    clauses.push("normalize_search(b.title||' '||COALESCE(b.category,'')||' '||b.id||' '||COALESCE((SELECT GROUP_CONCAT(qe.tags_json,' ') FROM book_entries qe WHERE qe.book_id=b.id AND qe.deleted_at IS NULL),'')) LIKE ? ESCAPE '\\'");
+    const like = `%${normalizeSearch(options.q).replace(/[\\%_]/g, "\\$&")}%`;
+    parameters.push(like);
   }
   const orders = {
     updated: "b.updated_at DESC,b.id",
@@ -74,12 +77,19 @@ export function listTrash(db: AppDatabase) {
 export function searchCatalog(db: AppDatabase, query: string, scope: "books" | "words", limit = 50, status?: "needs-review") {
   const needle = normalizeSearch(query);
   const max = Math.min(Math.max(limit, 1), 100);
+  const like = `%${needle.replace(/[\\%_]/g, "\\$&")}%`;
   if (scope === "books") {
-    const rows = db.prepare(`${BOOK_SELECT} WHERE b.deleted_at IS NULL ORDER BY b.updated_at DESC LIMIT 1000`).all() as Array<Record<string, unknown>>;
-    return rows.map(bookFromRow).filter((book) => normalizeSearch(`${book.title} ${book.category || ""} ${book.id}`).includes(needle)).slice(0, max);
+    const rows = db.prepare(`${BOOK_SELECT} WHERE b.deleted_at IS NULL AND normalize_search(b.title||' '||COALESCE(b.category,'')||' '||b.id) LIKE ? ESCAPE '\\' ORDER BY b.updated_at DESC LIMIT ?`).all(like, max) as Array<Record<string, unknown>>;
+    return rows.map(bookFromRow);
   }
-  const rows = db.prepare("SELECT e.*,b.title book_title FROM book_entries e JOIN books b ON b.id=e.book_id WHERE e.deleted_at IS NULL AND b.deleted_at IS NULL ORDER BY e.updated_at DESC LIMIT 10000").all() as Array<Record<string, unknown>>;
-  return rows.filter((row) => (!status || row.status === status) && (!needle || normalizeSearch(`${row.term} ${row.reading || ""} ${row.meanings_json} ${row.tags_json}`).includes(needle))).slice(0, max).map((row) => ({ ...entryFromRow(row), bookTitle: String(row.book_title) }));
+  const statusClause = status ? " AND e.status=?" : "";
+  const searchClause = needle ? " AND normalize_search(e.term||' '||COALESCE(e.reading,'')||' '||e.meanings_json||' '||e.tags_json) LIKE ? ESCAPE '\\'" : "";
+  const parameters: unknown[] = [];
+  if (status) parameters.push(status);
+  if (needle) parameters.push(like);
+  parameters.push(max);
+  const rows = db.prepare(`SELECT e.*,b.title book_title FROM book_entries e JOIN books b ON b.id=e.book_id WHERE e.deleted_at IS NULL AND b.deleted_at IS NULL${statusClause}${searchClause} ORDER BY e.updated_at DESC LIMIT ?`).all(...parameters) as Array<Record<string, unknown>>;
+  return rows.map((row) => ({ ...entryFromRow(row), bookTitle: String(row.book_title) }));
 }
 
 export function bootstrap(db: AppDatabase) {
@@ -102,7 +112,8 @@ export function bootstrap(db: AppDatabase) {
     });
     const activeSessions = (db.prepare("SELECT * FROM study_sessions WHERE status IN ('active','paused') AND deleted_at IS NULL ORDER BY updated_at DESC").all() as Array<Record<string, unknown>>).map(studySessionFromRow);
     const preferences = Object.fromEntries((db.prepare("SELECT key,value_json FROM preferences").all() as Array<{ key: string; value_json: string }>).map((row) => [row.key, JSON.parse(row.value_json)]));
+    const bookmarks = (db.prepare("SELECT * FROM bookmarks ORDER BY updated_at DESC").all() as Array<Record<string, unknown>>).map((row) => ({ ...bookmarkFromRow(row), bookmarked: true }));
     const cursor = Number((db.prepare("SELECT COALESCE(MAX(seq),0) value FROM sync_changes").get() as { value: number }).value);
-    return { schemaVersion: 1, serverTime: new Date().toISOString(), cursor, folders, books, reviewStates, activeSessions, preferences };
+    return { schemaVersion: 2, serverTime: new Date().toISOString(), cursor, folders, books, reviewStates, activeSessions, bookmarks, preferences };
   })();
 }

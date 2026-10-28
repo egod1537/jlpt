@@ -1,4 +1,4 @@
-export type SyncEntityType = "folder" | "book" | "entry" | "reviewState" | "studySession" | "preference";
+export type SyncEntityType = "folder" | "book" | "entry" | "reviewState" | "studySession" | "bookmark" | "preference";
 
 export interface ClientMutation {
   operationId: string;
