@@ -1,10 +1,43 @@
 @import "tailwindcss";
 
-:root { color-scheme: light; }
+/* Dark is the canonical appearance. Existing Tailwind utility names remain
+   compatible while legacy light surfaces are mapped to dark tokens. */
+:root {
+  color-scheme: dark;
+  --jlpt-bg: #0f1218;
+  --jlpt-panel: #181d26;
+  --jlpt-panel-2: #1f2530;
+  --jlpt-line: #2a313d;
+  --jlpt-text: #dde2ec;
+  --jlpt-muted: #9aa5b6;
+  --jlpt-accent: #4ab8bf;
+}
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
-body { margin: 0; background: #f8fafc; color: #0f172a; font-family: Inter, Pretendard, "Noto Sans KR", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+html { scroll-behavior: smooth; background: var(--jlpt-bg); }
+body {
+  margin: 0; min-height: 100dvh;
+  background: var(--jlpt-bg); color: var(--jlpt-text);
+  font-family: Inter, Pretendard, "Noto Sans KR", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
 .jp { font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif; overflow-wrap: anywhere; }
-button, input, select { font: inherit; }
-::selection { background: #a7f3d0; color: #064e3b; }
-@media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; } }
+button, input, select, textarea { font: inherit; }
+::selection { background: #245a61; color: #fff; }
+
+/* Migration compatibility for existing light-only components. */
+@layer utilities {
+  .bg-white, .bg-slate-50, .bg-emerald-50 { background-color: var(--jlpt-panel); }
+  .bg-slate-100, .bg-slate-200, .bg-emerald-100 { background-color: var(--jlpt-panel-2); }
+  .text-slate-950, .text-slate-900, .text-slate-800, .text-slate-700, .text-emerald-950, .text-emerald-900 { color: var(--jlpt-text); }
+  .text-slate-600, .text-slate-500, .text-slate-400, .text-emerald-800, .text-emerald-700 { color: var(--jlpt-muted); }
+  .border-slate-100, .border-slate-200, .border-slate-300, .border-emerald-200 { border-color: var(--jlpt-line); }
+  .ring-slate-200, .ring-emerald-200 { --tw-ring-color: var(--jlpt-line); }
+  .hover\\:bg-slate-50:hover, .hover\\:bg-slate-100:hover, .hover\\:bg-emerald-50:hover { background-color: var(--jlpt-panel-2); }
+  .placeholder\\:text-slate-500::placeholder { color: var(--jlpt-muted); }
+}
+input, textarea, select { color-scheme: dark; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important; animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important; transition-duration: .01ms !important;
+  }
+}
