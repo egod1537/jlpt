@@ -23,12 +23,32 @@ if [ "$deployment_local_revision" != "$deployment_remote_revision" ]; then
   exit 1
 fi
 
+deployment_previous_legacy=false
+rollback_deployment() {
+  if ! docker image inspect jlpt-vocabulary-web:rollback >/dev/null 2>&1; then
+    echo "롤백 이미지가 없어 자동 복구할 수 없습니다." >&2
+    return
+  fi
+  echo "이전 이미지로 컨테이너를 되돌립니다. DB migration 이후 쓰기는 별도 복구 판단이 필요합니다." >&2
+  if [ "$deployment_previous_legacy" = "true" ]; then
+    docker rm -f jlpt-vocabulary-web >/dev/null 2>&1 || true
+    docker run -d --name jlpt-vocabulary-web --restart unless-stopped \
+      --network jjs-edge --network-alias jlpt-vocabulary-web \
+      -p "127.0.0.1:${JLPT_WEB_PORT:-8081}:8080" \
+      --label net.mangagaki.deployment.branch=main \
+      jlpt-vocabulary-web:rollback >/dev/null
+  else
+    JLPT_IMAGE_TAG=rollback docker compose up -d --no-build web
+  fi
+}
+
 if docker inspect jlpt-vocabulary-web >/dev/null 2>&1; then
   deployment_previous_image=$(docker inspect --format '{{.Image}}' jlpt-vocabulary-web)
   docker image tag "$deployment_previous_image" jlpt-vocabulary-web:rollback
   if docker compose exec -T web test -f /app/ops/backup.mjs >/dev/null 2>&1; then
     docker compose exec -T web node /app/ops/backup.mjs --prune
   else
+    deployment_previous_legacy=true
     echo "안내: 현재 컨테이너는 구 정적 버전이므로 SQLite 백업을 건너뜁니다."
   fi
 fi
@@ -48,22 +68,25 @@ done
 if [ "${deployment_health:-}" != "healthy" ]; then
   echo "배포 실패: 컨테이너 헬스체크가 통과하지 못했습니다." >&2
   docker compose logs --tail=100 web >&2
-  if docker image inspect jlpt-vocabulary-web:rollback >/dev/null 2>&1; then
-    echo "이전 이미지로 컨테이너를 되돌립니다. DB migration 이후 쓰기는 별도 복구 판단이 필요합니다." >&2
-    JLPT_IMAGE_TAG=rollback docker compose up -d --no-build web
-  fi
+  rollback_deployment
   exit 1
 fi
 
-curl -fsS http://127.0.0.1:${JLPT_WEB_PORT:-8081}/healthz >/dev/null
+if ! curl -fsS http://127.0.0.1:${JLPT_WEB_PORT:-8081}/healthz >/dev/null; then
+  echo "배포 실패: localhost health 확인에 실패했습니다." >&2
+  rollback_deployment
+  exit 1
+fi
 deployment_api_status=$(curl -sS -o /dev/null -w '%{http_code}' http://127.0.0.1:${JLPT_WEB_PORT:-8081}/api/books)
 if [ "$deployment_api_status" != "401" ]; then
   echo "배포 실패: 미인증 데이터 API가 401을 반환하지 않았습니다 ($deployment_api_status)." >&2
+  rollback_deployment
   exit 1
 fi
 deployment_data_status=$(curl -sS -o /dev/null -w '%{http_code}' http://127.0.0.1:${JLPT_WEB_PORT:-8081}/data/collections.json)
-if [ "$deployment_data_status" = "200" ]; then
-  echo "배포 실패: 구 정적 데이터 URL이 공개되어 있습니다." >&2
+if [ "$deployment_data_status" != "404" ]; then
+  echo "배포 실패: 구 정적 데이터 URL이 404가 아닙니다 ($deployment_data_status)." >&2
+  rollback_deployment
   exit 1
 fi
 echo "main 배포 완료: $deployment_local_revision"
