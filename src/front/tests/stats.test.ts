@@ -24,7 +24,7 @@ describe("learning statistics", () => {
         { date: "2026-10-28", uniqueWords: 1, attempts: 1, newWords: 0, againCount: 0 },
       ]);
       expect(statsOverview(db, period)).toMatchObject({ studiedUnique: 1, totalReviewEvents: 2, masteredUnique: 1, masteryRate: 1 });
-      expect(statsFolders(db, period)[0]).toMatchObject({ uniqueTotal: 1, studied: 1, mastered: 1, reviewAttempts: 2 });
+      expect(statsFolders(db, period).find((folder) => folder.folderId === "folder-a")).toMatchObject({ uniqueTotal: 1, studied: 1, mastered: 1, reviewAttempts: 2 });
       expect(weakWords(db, period, 20)[0]).toMatchObject({ wordId: "word-123456abcdef", reviewAttempts: 2, againCount: 1 });
     } finally { db.close(); }
   });

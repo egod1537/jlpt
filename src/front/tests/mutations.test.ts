@@ -14,10 +14,11 @@ describe("catalog mutations", () => {
   it("deduplicates operations and rejects revision conflicts", () => {
     const db = openDatabase(":memory:");
     try {
+      const folderCountBefore = (db.prepare("SELECT COUNT(*) count FROM folders").get() as { count: number }).count;
       const create = operation("folder.create", { id: "folder-one", name: "첫 폴더", parentId: null, orderIndex: 0 });
       expect(applyMutation(db, "device-a", create)).toMatchObject({ status: "applied", entity: { id: "folder-one", revision: 1 } });
       expect(applyMutation(db, "device-a", create)).toMatchObject({ status: "duplicate", entity: { id: "folder-one" } });
-      expect(db.prepare("SELECT COUNT(*) count FROM folders").get()).toEqual({ count: 1 });
+      expect(db.prepare("SELECT COUNT(*) count FROM folders").get()).toEqual({ count: folderCountBefore + 1 });
       const rename = operation("folder.rename", { name: "변경" }, "folder-one", 1);
       expect(applyMutation(db, "device-a", rename)).toMatchObject({ status: "applied", serverRevision: 2 });
       expect(applyMutation(db, "device-b", operation("folder.rename", { name: "충돌" }, "folder-one", 1))).toMatchObject({ status: "conflict", serverRevision: 2, entity: { name: "변경" } });

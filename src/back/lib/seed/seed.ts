@@ -4,6 +4,7 @@ import path from "node:path";
 import type { AppDatabase } from "@back/lib/db/database";
 import { seedBookSchema, seedCollectionsSchema, seedStatsSchema } from "@back/lib/seed/schema";
 import { seedHtmlReference, type HtmlSeedResult } from "@back/lib/seed/html-reference";
+import { defaultBookPlacements } from "@back/lib/seed/default-library";
 
 function readSource(filePath: string) {
   const raw = readFileSync(filePath);
@@ -67,13 +68,14 @@ export function seedDatabase(db: AppDatabase, dataRoot: string): SeedResult {
   if (computed.collections !== stats.wordbookFiles || computed.occurrences !== stats.wordEntries || computed.uniqueWords !== stats.uniqueAcrossWordbooks || computed.ready !== stats.readyEntries || computed.needsReview !== stats.needsReviewEntries) throw new Error("seed counts do not match stats.json");
 
   const insertBook = db.prepare(`INSERT INTO books(id,title,category,folder_id,favorite,order_index,origin,origin_ref,revision,created_at,updated_at,deleted_at)
-    VALUES (@id,@title,@category,NULL,0,@orderIndex,'seed',@originRef,1,@createdAt,@updatedAt,NULL)`);
+    VALUES (@id,@title,@category,@folderId,0,@orderIndex,'seed',@originRef,1,@createdAt,@updatedAt,NULL)`);
   const insertWord = db.prepare("INSERT OR IGNORE INTO word_keys(word_id, created_at, retired_at) VALUES (?, ?, NULL)");
   const insertEntry = db.prepare(`INSERT INTO book_entries(entry_id,book_id,word_id,position,term,reading,meanings_json,primary_meaning,nuance,part_of_speech_json,jlpt_levels_json,years_json,categories_json,related_terms_json,examples_json,sources_json,status,tags_json,revision,created_at,updated_at,deleted_at)
     VALUES (@entryId,@bookId,@wordId,@position,@term,@reading,@meanings,@primaryMeaning,@nuance,@partOfSpeech,@jlptLevels,@years,@categories,@relatedTerms,@examples,@sources,@status,'[]',1,@createdAt,@updatedAt,NULL)`);
   const importSeed = db.transaction(() => {
     books.forEach(({ meta, book }, orderIndex) => {
-      insertBook.run({ id: book.id, title: book.title, category: book.category, orderIndex, originRef: JSON.stringify({ dataFile: meta.dataFile, generatedAt: book.generatedAt, sourceSession: book.sourceSession }), createdAt: book.createdAt, updatedAt: book.generatedAt });
+      const placement = defaultBookPlacements.get(book.id);
+      insertBook.run({ id: book.id, title: book.title, category: book.category, folderId: placement?.folderId || null, orderIndex: placement?.orderIndex ?? orderIndex, originRef: JSON.stringify({ dataFile: meta.dataFile, generatedAt: book.generatedAt, sourceSession: book.sourceSession }), createdAt: book.createdAt, updatedAt: book.generatedAt });
       book.words.forEach((word, position) => {
         insertWord.run(word.id, book.generatedAt);
         insertEntry.run({ entryId: deterministicUuid(`${book.id}:${position}:${word.id}`), bookId: book.id, wordId: word.id, position, term: word.term, reading: word.reading, meanings: JSON.stringify(word.meanings), primaryMeaning: word.primaryMeaning, nuance: word.nuance, partOfSpeech: JSON.stringify(word.partOfSpeech), jlptLevels: JSON.stringify(word.jlptLevels), years: JSON.stringify(word.years), categories: JSON.stringify(word.categories), relatedTerms: JSON.stringify(word.relatedTerms), examples: JSON.stringify(word.examples), sources: JSON.stringify(word.sources), status: word.status, createdAt: book.generatedAt, updatedAt: book.generatedAt });

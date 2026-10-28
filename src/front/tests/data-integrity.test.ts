@@ -20,6 +20,20 @@ describe("private database seed", () => {
       expect(first).toMatchObject({ status: "imported", collections: 27, occurrences: 6393, uniqueWords: 5373, ready: 4481, needsReview: 1912, html: { status: "imported", cards: 268, uniqueJapanese: 244 } });
       expect(second).toMatchObject({ status: "unchanged", sourceSha256: first.sourceSha256, html: { status: "unchanged" } });
       expect(db.prepare("SELECT COUNT(*) count FROM books").get()).toEqual({ count: 28 });
+      expect(db.prepare("SELECT COUNT(*) count FROM folders WHERE deleted_at IS NULL").get()).toEqual({ count: 6 });
+      expect(db.prepare("SELECT COUNT(*) count FROM books WHERE folder_id IS NULL").get()).toEqual({ count: 0 });
+      expect(db.prepare("SELECT f.name,COUNT(b.id) count FROM folders f LEFT JOIN books b ON b.folder_id=f.id AND b.deleted_at IS NULL WHERE f.deleted_at IS NULL GROUP BY f.id ORDER BY f.order_index").all()).toEqual([
+        { name: "청해", count: 0 },
+        { name: "진짜 한끝", count: 12 },
+        { name: "독해", count: 4 },
+        { name: "언지", count: 3 },
+        { name: "사설", count: 6 },
+        { name: "한끝", count: 3 },
+      ]);
+      expect(db.prepare("SELECT title FROM books WHERE folder_id='folder-real-hankkeut' ORDER BY order_index").all().slice(0, 8)).toEqual([
+        { title: "예상 유의 표현" }, { title: "유튜브 특강" }, { title: "기출 용법✅" }, { title: "기출 유의 표현✅" },
+        { title: "예상 문맥 규정 ✅" }, { title: "기출 문맥 규정 ✅" }, { title: "예상 단어✅" }, { title: "기출 단어✅" },
+      ]);
       expect(db.prepare("SELECT COUNT(*) count FROM book_entries").get()).toEqual({ count: 6661 });
       expect(db.prepare("SELECT COUNT(*) count FROM word_keys").get()).toEqual({ count: 5641 });
       expect(db.prepare("SELECT title FROM books WHERE id='html-n1-yuui-79-84'").get()).toEqual({ title: "사용자 수정 제목" });

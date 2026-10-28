@@ -14,6 +14,14 @@ async function expandFolder(page: Page, name: string) {
 
 test("app, HTML seed and private data APIs open without login", async ({ page, request }) => {
   await openLibrary(page);
+  const folderNames = page.locator("button[aria-expanded] span.truncate");
+  const expectedFolders = ["청해", "진짜 한끝", "독해", "언지", "사설", "한끝"];
+  await expect.poll(async () => (await folderNames.allTextContents()).filter((name) => expectedFolders.includes(name))).toEqual(expectedFolders);
+  await expect(page.locator("button[aria-expanded]").filter({ hasText: "진짜 한끝" })).toContainText("12");
+  await expect(page.locator("button[aria-expanded]").filter({ hasText: "독해" })).toContainText("4");
+  await expect(page.locator("button[aria-expanded]").filter({ hasText: "언지" })).toContainText("3");
+  await expect(page.locator("button[aria-expanded]").filter({ hasText: "사설" })).toContainText("6");
+  await expect(page.getByRole("button", { name: "한끝 3", exact: true })).toBeVisible();
   for (const path of ["/api/bootstrap", "/api/books", "/api/search?q=学&scope=words", "/api/stats/overview", "/api/study/cards?books=html-n1-yuui-79-84&limit=10"]) {
     expect((await request.get(path)).status(), path).toBe(200);
   }

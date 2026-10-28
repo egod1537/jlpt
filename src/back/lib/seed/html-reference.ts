@@ -2,6 +2,7 @@ import { readFileSync } from "node:fs";
 import path from "node:path";
 import { z } from "zod";
 import type { AppDatabase } from "@back/lib/db/database";
+import { defaultBookPlacements } from "@back/lib/seed/default-library";
 
 const sourceKey = "html:n1-yuui-79-84:v1";
 const htmlCardSchema = z.object({
@@ -58,13 +59,14 @@ export function seedHtmlReference(db: AppDatabase, dataRoot: string): HtmlSeedRe
 
   const timestamp = new Date().toISOString();
   const insertBook = db.prepare(`INSERT INTO books(id,title,category,folder_id,favorite,order_index,origin,origin_ref,revision,created_at,updated_at,deleted_at)
-    VALUES (@id,@title,@category,NULL,0,@orderIndex,'seed',@originRef,1,@timestamp,@timestamp,NULL)`);
+    VALUES (@id,@title,@category,@folderId,0,@orderIndex,'seed',@originRef,1,@timestamp,@timestamp,NULL)`);
   const insertWord = db.prepare("INSERT INTO word_keys(word_id,created_at,retired_at) VALUES (?,?,NULL)");
   const insertEntry = db.prepare(`INSERT INTO book_entries(entry_id,book_id,word_id,position,term,reading,meanings_json,primary_meaning,nuance,part_of_speech_json,jlpt_levels_json,years_json,categories_json,related_terms_json,examples_json,sources_json,status,tags_json,revision,created_at,updated_at,deleted_at)
     VALUES (@entryId,@bookId,@wordId,@position,@term,@reading,@meanings,@primaryMeaning,@nuance,@partOfSpeech,'["N1"]','[]','["N1 유의표현 79–84"]','[]',@examples,@sources,'ready',@tags,1,@timestamp,@timestamp,NULL)`);
   db.transaction(() => {
-    const orderIndex = Number((db.prepare("SELECT COALESCE(MAX(order_index),-1)+1 value FROM books WHERE deleted_at IS NULL").get() as { value: number }).value);
-    insertBook.run({ id: document.id, title: document.title, category: document.category, orderIndex, originRef: JSON.stringify({ sourceKey, sourceFile: document.sourceFile, sourceSha256: document.sourceSha256 }), timestamp });
+    const placement = defaultBookPlacements.get(document.id);
+    const orderIndex = placement?.orderIndex ?? Number((db.prepare("SELECT COALESCE(MAX(order_index),-1)+1 value FROM books WHERE deleted_at IS NULL").get() as { value: number }).value);
+    insertBook.run({ id: document.id, title: document.title, category: document.category, folderId: placement?.folderId || null, orderIndex, originRef: JSON.stringify({ sourceKey, sourceFile: document.sourceFile, sourceSha256: document.sourceSha256 }), timestamp });
     for (const [position, card] of document.cards.entries()) {
       insertWord.run(card.wordId, timestamp);
       insertEntry.run({ entryId: card.entryId, bookId: document.id, wordId: card.wordId, position, term: card.term, reading: card.reading, meanings: JSON.stringify(card.meanings), primaryMeaning: card.primaryMeaning, nuance: card.nuance, partOfSpeech: JSON.stringify(card.partOfSpeech), examples: JSON.stringify(card.examples), sources: JSON.stringify([card.source]), tags: JSON.stringify(card.tags), timestamp });
