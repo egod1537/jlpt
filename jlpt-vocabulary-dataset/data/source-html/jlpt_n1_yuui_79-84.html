@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>N1 유의표현 어휘</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+html, body { background: #0f1218 !important; }
+:root {
+  --teal:#4ab8bf; --teal-dark:#1e5f65; --teal-btn:#2e9098;
+  --bg:#0f1218; --surface:#181d26; --surface2:#1f2530; --border:#2a313d;
+  --dark-btn:#1f2530; --text:#dde2ec; --text-muted:#5a6272;
+  --gold:#f0b429; --orange:#f97316; --orange-muted:#c2622a; --green:#3cb371;
+}
+* { box-sizing:border-box; margin:0; padding:0; -webkit-tap-highlight-color:transparent; }
+body {
+  font-family:'Noto Sans KR','Helvetica Neue',sans-serif; color:var(--text);
+  min-height:100dvh; height:100dvh; display:flex; flex-direction:column;
+  max-width:480px; margin:0 auto; overflow:hidden;
+}
+.screen { display:none; flex:1; min-height:0; flex-direction:column; }
+.screen.active { display:flex; }
+
+/* ---------- 세트 선택 ---------- */
+.select-wrap { flex:1; overflow-y:auto; padding:28px 18px max(28px, env(safe-area-inset-bottom)); }
+.select-title { font-size:22px; font-weight:700; color:var(--teal); }
+.select-sub { font-size:13px; color:var(--text-muted); margin:4px 0 22px; }
+.sec-label { font-size:12px; font-weight:700; color:var(--text-muted); letter-spacing:.06em; margin:22px 0 10px; }
+.set-grid { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+.set-btn {
+  background:var(--surface); border:1.5px solid var(--border); border-radius:14px;
+  padding:14px 12px; color:var(--text); font-family:inherit; font-size:15px; font-weight:500;
+  cursor:pointer; text-align:left; transition:border-color .15s;
+}
+.set-btn:hover { border-color:var(--teal); }
+.set-btn small { display:block; font-size:12px; color:var(--text-muted); margin-top:3px; font-weight:400; }
+.set-btn.wide { grid-column:1 / -1; }
+.set-btn.hero { background:var(--teal-dark); border-color:var(--teal); }
+.set-btn.hero small { color:#9fd6da; }
+.set-btn.gold small { color:var(--gold); }
+.set-btn:disabled { opacity:.35; cursor:default; }
+
+/* ---------- 학습 화면 ---------- */
+.header { display:flex; align-items:center; gap:10px; padding:14px 16px 6px; flex-shrink:0; }
+.btn-back { background:none; border:none; color:var(--text-muted); font-size:22px; cursor:pointer; padding:2px 6px; }
+.header-title { flex:1; font-size:15px; font-weight:700; color:var(--text); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.counter { font-size:14px; color:var(--text-muted); font-variant-numeric:tabular-nums; }
+.timer-bar { text-align:center; font-size:12px; color:var(--text-muted); font-variant-numeric:tabular-nums; padding:2px 0 4px; flex-shrink:0; }
+.options-row { display:flex; justify-content:center; gap:14px; padding:8px 16px; flex-shrink:0; }
+.opt-btn {
+  width:42px; height:42px; border-radius:50%; border:1.5px solid var(--border);
+  background:var(--surface); color:var(--text-muted); font-size:17px; cursor:pointer;
+  display:flex; align-items:center; justify-content:center; font-family:inherit;
+}
+.opt-btn.on { border-color:var(--gold); color:var(--gold); }
+.opt-btn.loop.on { border-color:var(--teal); color:var(--teal); }
+.opt-count { font-size:13px; font-weight:700; color:var(--text); cursor:default; }
+
+.main {
+  flex:1; min-height:0; overflow-y:auto; display:flex; flex-direction:column;
+  align-items:center; justify-content:center; padding:10px 20px;
+}
+.card-inner { width:100%; display:flex; flex-direction:column; align-items:center; }
+.card-inner.swipe-left  { animation:swipeLeft .22s ease forwards; }
+.card-inner.swipe-right { animation:swipeRight .22s ease forwards; }
+@keyframes swipeLeft  { to { transform:translateX(-70px); opacity:0; } }
+@keyframes swipeRight { to { transform:translateX(70px);  opacity:0; } }
+
+.meta { font-size:12px; color:var(--text-muted); min-height:1.3em; margin-bottom:6px; }
+.meta .stars { color:var(--orange-muted); letter-spacing:1px; }
+.kanji-display {
+  font-family:'Noto Sans JP',sans-serif; font-size:clamp(48px,16vw,80px);
+  color:var(--teal); font-weight:300; text-align:center; line-height:1.25; word-break:break-word;
+}
+.kanji-display.long { font-size:clamp(34px,10vw,54px); }
+.nuance-context {
+  font-family:'Noto Sans KR',sans-serif; font-size:clamp(13px,3.8vw,15px);
+  color:var(--gold); font-weight:500; text-align:center; margin-top:8px; min-height:1.2em;
+}
+.example {
+  font-family:'Noto Sans JP',sans-serif; font-size:clamp(14px,4vw,17px); line-height:1.7;
+  color:#8a93a3; text-align:center; margin-top:14px; max-width:100%; word-break:break-word;
+}
+.example .hl {
+  color:var(--teal); text-decoration:underline; text-underline-offset:4px;
+  text-decoration-thickness:1.5px; font-weight:400;
+}
+.ex-kr { font-size:clamp(12px,3.5vw,14px); color:var(--orange-muted); font-weight:400; margin-top:6px; line-height:1.5; }
+.divider { width:60%; height:1px; background:var(--border); margin:18px 0 14px; }
+.hint-area { max-height:35vh; overflow-y:auto; text-align:center; display:flex; flex-direction:column; gap:8px; }
+.hint-text { visibility:hidden; opacity:0; font-size:clamp(14px,4vw,18px); min-height:1.4em; }
+.hint-text.visible { visibility:visible; opacity:1; transition:opacity .18s ease; }
+#hintKr, #hintRd { color:var(--orange); font-weight:500; }
+#hintKr { font-family:'Noto Sans KR',sans-serif; font-size:clamp(15px,4.5vw,19px); }
+#hintRd { font-family:'Noto Sans JP',sans-serif; font-size:clamp(14px,4vw,18px); }
+
+/* 완료 화면 */
+.done { display:none; flex:1; flex-direction:column; align-items:center; justify-content:center; padding:24px; gap:12px; }
+.done.active { display:flex; }
+.done-title { font-size:22px; font-weight:700; color:var(--teal); }
+.done-stats { display:flex; gap:28px; margin:8px 0 18px; }
+.done-stat { text-align:center; }
+.done-stat b { display:block; font-size:28px; }
+.done-stat span { font-size:12px; color:var(--text-muted); }
+.done-stat.know b { color:var(--teal); }
+.done-stat.study b { color:var(--gold); }
+.done-time { font-size:13px; color:var(--text-muted); margin-top:-12px; margin-bottom:10px; }
+.btn-restart-primary {
+  width:100%; padding:16px; border-radius:14px; border:none; background:var(--teal-btn); color:white;
+  font-size:17px; font-weight:700; cursor:pointer; font-family:inherit; transition:opacity .15s;
+}
+.btn-restart-primary:hover { opacity:.85; }
+.btn-restart-secondary {
+  width:100%; padding:13px; border-radius:14px; border:2px solid var(--border); background:transparent;
+  color:var(--text-muted); font-size:14px; font-weight:500; cursor:pointer; font-family:inherit;
+  transition:border-color .15s, color .15s;
+}
+.btn-restart-secondary:hover { border-color:var(--teal); color:var(--teal); }
+
+/* 프로그레스 */
+.progress-wrap { padding:6px 16px 4px; flex-shrink:0; }
+.progress-track { height:5px; background:var(--surface2); border-radius:3px; overflow:hidden; }
+.progress-fill { height:100%; width:0; background:var(--teal); transition:width .25s; }
+.progress-label { display:flex; justify-content:space-between; font-size:11px; color:var(--text-muted); margin-top:4px; }
+
+/* 하단 버튼 */
+.bottom { flex-shrink:0; padding:8px 16px; padding-bottom:max(32px, env(safe-area-inset-bottom)); display:flex; flex-direction:column; gap:10px; }
+.hint-btns, .action-btns { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+.btn-hint, .btn-action {
+  border-radius:14px; font-family:inherit; font-weight:500; cursor:pointer;
+  font-size:clamp(13px,3.5vw,16px); padding:clamp(12px,3vw,18px) 12px;
+}
+.btn-hint { background:var(--dark-btn); border:1.5px solid var(--border); color:var(--text); }
+.btn-hint.revealed { background:var(--teal-dark); border-color:var(--teal); }
+.btn-hint .jp { font-family:'Noto Sans JP',sans-serif; }
+.btn-action { border:none; color:white; font-weight:700; }
+.btn-study { background:#2a4a6e; }
+.btn-study .ic { color:var(--gold); }
+.btn-know { background:var(--teal-btn); }
+
+kbd {
+  display:none; margin-left:6px; padding:0 5px; border-radius:4px; font-family:inherit;
+  font-size:10px; line-height:16px; vertical-align:middle; opacity:.55;
+  border:1px solid currentColor;
+}
+@media (hover:hover) and (pointer:fine) { kbd { display:inline-block; } }
+
+@media (max-height:700px) {
+  .kanji-display { font-size:clamp(40px,12vw,60px); }
+  .kanji-display.long { font-size:clamp(30px,9vw,46px); }
+  .hint-area { max-height:25vh; }
+  .btn-hint, .btn-action { padding:12px; }
+  .options-row { padding:6px 16px; }
+  .divider { margin:12px 0 10px; }
+}
+@media (max-width:360px) {
+  .hint-btns, .action-btns { gap:6px; }
+  .btn-hint, .btn-action { font-size:13px; }
+}
+</style>
+</head>
+<body>
+
+<!-- ===== 세트 선택 ===== -->
+<div class="screen active" id="selectScreen">
+  <div class="select-wrap">
+    <div class="select-title">N1 유의표현 예상 어휘</div>
+    <div class="select-sub" id="selectSub"></div>
+
+    <div class="set-grid" id="topSets"></div>
+
+    <div class="sec-label">품사별</div>
+    <div class="set-grid" id="posSets"></div>
+
+    <div class="sec-label">50장 세트 (교재 순서 기준)</div>
+    <div class="set-grid" id="chunkSets"></div>
+  </div>
+</div>
+
+<!-- ===== 학습 ===== -->
+<div class="screen" id="studyScreen">
+  <div class="header">
+    <button class="btn-back" onclick="goSelect()" aria-label="세트 선택으로">‹</button>
+    <div class="header-title" id="headerTitle"></div>
+    <div class="counter" id="counter">0 / 0</div>
+  </div>
+  <div class="timer-bar" id="timer">00:00</div>
+
+  <div class="options-row" id="optionsRow">
+    <button class="opt-btn" id="btnBookmark" onclick="toggleBookmark()" title="북마크">★</button>
+    <button class="opt-btn loop" id="btnLoop" onclick="toggleLoop()" title="무한 반복: 모르는 카드를 라운드 끝에 다시 넣음">∞</button>
+    <div class="opt-btn opt-count" id="remain" title="남은 카드">0</div>
+    <button class="opt-btn" onclick="speak()" title="발음 듣기">🔊</button>
+  </div>
+
+  <div class="main" id="mainArea">
+    <div class="card-inner" id="cardInner">
+      <div class="meta" id="meta"></div>
+      <div class="kanji-display" id="kanjiDisplay"></div>
+      <div class="nuance-context" id="nuanceContext"></div>
+      <div class="example" id="example"></div>
+      <div class="divider"></div>
+      <div class="hint-area">
+        <div class="hint-text" id="hintKr"><div id="hintKrMain"></div><div class="ex-kr" id="hintExKr"></div></div>
+        <div class="hint-text" id="hintRd"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="done" id="doneArea">
+    <div class="done-title">라운드 완료</div>
+    <div class="done-stats">
+      <div class="done-stat know"><b id="doneKnow">0</b><span>알고있음</span></div>
+      <div class="done-stat study"><b id="doneStudy">0</b><span>공부하겠음</span></div>
+    </div>
+    <div class="done-time" id="doneTime"></div>
+    <button class="btn-restart-primary" id="btnRetry" onclick="restart(true)">✗ 모르는 것만 다시 <span id="retryCount"></span></button>
+    <button class="btn-restart-secondary" onclick="restart(false)">처음부터 다시</button>
+    <button class="btn-restart-secondary" onclick="goSelect()">세트 선택으로</button>
+  </div>
+
+  <div class="progress-wrap" id="progressWrap">
+    <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+    <div class="progress-label"><span id="progDone">완료 0</span><span id="progLeft">남음 0</span></div>
+  </div>
+
+  <div class="bottom" id="bottomArea">
+    <div class="hint-btns">
+      <button class="btn-hint" id="btnKr" onclick="toggleHint('Kr')">한국어<kbd>Q</kbd></button>
+      <button class="btn-hint" id="btnRd" onclick="toggleHint('Rd')"><span class="jp">ひらがな</span><kbd>W</kbd></button>
+    </div>
+    <div class="action-btns">
+      <button class="btn-action btn-study" onclick="next('study')"><span class="ic">✎</span> 공부하겠음<kbd>A</kbd></button>
+      <button class="btn-action btn-know" onclick="next('know')">✓ 알고있음<kbd>S</kbd></button>
+    </div>
+  </div>
+</div>
+
+<script>
+const words = [{"n":1,"jp":"暗示","rd":"あんじ","kr":"암시","pos":"명사","star":1,"ex":"彼の発言は辞任を【暗示】しているようだった。","exKr":"그의 발언은 사임을 암시하는 것 같았다."},{"n":2,"jp":"一蹴","rd":"いっしゅう","kr":"일축","pos":"명사","star":0,"ex":"組合の要求は経営側に【一蹴】された。","exKr":"노조의 요구는 경영진에게 일축당했다."},{"n":3,"jp":"横転","rd":"おうてん","kr":"횡전, 뒤집힘","pos":"명사","star":1,"ex":"強風でトラックが【横転】する事故があった。","exKr":"강풍으로 트럭이 옆으로 넘어지는 사고가 있었다."},{"n":4,"jp":"改築","rd":"かいちく","kr":"개축","pos":"명사","star":0,"ex":"古い校舎を【改築】して図書館にした。","exKr":"낡은 교사를 개축해서 도서관으로 만들었다."},{"n":5,"jp":"荷担","rd":"かたん","kr":"짐을 짐, 가담","pos":"명사","star":1,"ex":"彼は不正に【荷担】した疑いで調べられている。","exKr":"그는 부정에 가담한 혐의로 조사받고 있다."},{"n":6,"jp":"危惧","rd":"きぐ","kr":"위구, 걱정","pos":"명사","star":3,"ex":"専門家は感染の再拡大を【危惧】している。","exKr":"전문가들은 감염 재확산을 우려하고 있다."},{"n":7,"jp":"生地","rd":"きじ","kr":"본바탕, 본성","nuance":"타고난 바탕","pos":"명사","star":0,"ex":"酒が入ると彼の【生地】が出る。","exKr":"술이 들어가면 그의 본바탕이 드러난다."},{"n":8,"jp":"生地","rd":"きじ","kr":"옷감, 천","nuance":"천","pos":"명사","star":0,"ex":"この【生地】は薄くて夏服に向いている。","exKr":"이 옷감은 얇아서 여름옷에 알맞다."},{"n":9,"jp":"技師","rd":"ぎし","kr":"기사, 엔지니어","pos":"명사","star":0,"ex":"父は鉄道会社で電気【技師】をしている。","exKr":"아버지는 철도 회사에서 전기 기사로 일한다."},{"n":10,"jp":"気質","rd":"きしつ","kr":"기질","pos":"명사","star":0,"ex":"職人【気質】の彼は妥協を許さない。","exKr":"장인 기질인 그는 타협을 허락하지 않는다."},{"n":11,"jp":"希少","rd":"きしょう","kr":"희소","pos":"명사","star":0,"ex":"この地域には【希少】な動物が生息している。","exKr":"이 지역에는 희귀한 동물이 서식하고 있다."},{"n":12,"jp":"技能","rd":"ぎのう","kr":"기능","pos":"명사","star":0,"ex":"この資格を取るには高度な【技能】が求められる。","exKr":"이 자격을 따려면 고도의 기능이 요구된다."},{"n":13,"jp":"空前","rd":"くうぜん","kr":"공전(유례없음)","pos":"명사","star":1,"ex":"その映画は【空前】の大ヒットとなった。","exKr":"그 영화는 전례 없는 대히트를 기록했다."},{"n":14,"jp":"苦慮","rd":"くりょ","kr":"고려, 고심","pos":"명사","star":3,"ex":"政府は財源の確保に【苦慮】している。","exKr":"정부는 재원 확보에 고심하고 있다."},{"n":15,"jp":"幻想","rd":"げんそう","kr":"환상","pos":"명사","star":0,"ex":"都会の生活に【幻想】を抱いて上京した。","exKr":"도시 생활에 환상을 품고 상경했다."},{"n":16,"jp":"見地","rd":"けんち","kr":"견지","pos":"명사","star":0,"ex":"教育的な【見地】から、この番組は問題がある。","exKr":"교육적인 견지에서 이 프로그램은 문제가 있다."},{"n":17,"jp":"限定","rd":"げんてい","kr":"한정","pos":"명사","star":0,"ex":"この商品は期間【限定】で販売されている。","exKr":"이 상품은 기간 한정으로 판매되고 있다."},{"n":18,"jp":"倹約","rd":"けんやく","kr":"검약","pos":"명사","star":0,"ex":"留学費用を貯めるために【倹約】している。","exKr":"유학 비용을 모으기 위해 절약하고 있다."},{"n":19,"jp":"豪語","rd":"ごうご","kr":"호언, 호언장담","pos":"명사","star":2,"ex":"彼は必ず優勝してみせると【豪語】した。","exKr":"그는 반드시 우승하겠다고 호언장담했다."},{"n":20,"jp":"更新","rd":"こうしん","kr":"갱신","pos":"명사","star":0,"ex":"来月で運転免許の【更新】が必要だ。","exKr":"다음 달에 운전면허 갱신이 필요하다."},{"n":21,"jp":"抗争","rd":"こうそう","kr":"항쟁","pos":"명사","star":0,"ex":"二つの組織の間で激しい【抗争】が続いた。","exKr":"두 조직 사이에 격렬한 항쟁이 이어졌다."},{"n":22,"jp":"荒廃","rd":"こうはい","kr":"황폐","pos":"명사","star":1,"ex":"長い戦争で国土は【荒廃】してしまった。","exKr":"오랜 전쟁으로 국토는 황폐해지고 말았다."},{"n":23,"jp":"公表","rd":"こうひょう","kr":"공표","pos":"명사","star":0,"ex":"調査の結果は来週【公表】される予定だ。","exKr":"조사 결과는 다음 주에 공표될 예정이다."},{"n":24,"jp":"好評","rd":"こうひょう","kr":"호평","pos":"명사","star":0,"ex":"新しいメニューはお客さんに【好評】だ。","exKr":"새 메뉴는 손님들에게 호평이다."},{"n":25,"jp":"極意","rd":"ごくい","kr":"비법","pos":"명사","star":2,"ex":"料理の【極意】は素材を生かすことだという。","exKr":"요리의 비법은 재료를 살리는 것이라고 한다."},{"n":26,"jp":"酷評","rd":"こくひょう","kr":"혹평","pos":"명사","star":1,"ex":"その小説は批評家から【酷評】された。","exKr":"그 소설은 비평가들에게 혹평받았다."},{"n":27,"jp":"混沌","rd":"こんとん","kr":"혼돈","pos":"명사","star":0,"ex":"政権が崩壊し、国内は【混沌】とした状態にある。","exKr":"정권이 붕괴하여 국내는 혼돈 상태에 있다."},{"n":28,"jp":"再建","rd":"さいけん","kr":"재건","pos":"명사","star":0,"ex":"新社長のもとで会社の【再建】が進められた。","exKr":"새 사장 아래에서 회사 재건이 추진되었다."},{"n":29,"jp":"試案","rd":"しあん","kr":"시안","pos":"명사","star":0,"ex":"委員会は改革の【試案】をまとめた。","exKr":"위원회는 개혁 시안을 정리했다."},{"n":30,"jp":"嗜好","rd":"しこう","kr":"기호","pos":"명사","star":0,"ex":"若者の【嗜好】に合わせた商品を開発する。","exKr":"젊은이의 기호에 맞춘 상품을 개발한다."},{"n":31,"jp":"嫉妬","rd":"しっと","kr":"질투","pos":"명사","star":1,"ex":"友人の成功に【嫉妬】してしまった。","exKr":"친구의 성공에 질투하고 말았다."},{"n":32,"jp":"指標","rd":"しひょう","kr":"지표","pos":"명사","star":0,"ex":"失業率は景気を判断する【指標】の一つだ。","exKr":"실업률은 경기를 판단하는 지표 중 하나다."},{"n":33,"jp":"指南","rd":"しなん","kr":"지도, 교도","pos":"명사","star":1,"ex":"祖父は町の子どもたちに剣道を【指南】している。","exKr":"할아버지는 동네 아이들에게 검도를 지도하고 있다."},{"n":34,"jp":"自負","rd":"じふ","kr":"자부","pos":"명사","star":1,"ex":"この分野では誰にも負けないと【自負】している。","exKr":"이 분야에서는 누구에게도 지지 않는다고 자부하고 있다."},{"n":35,"jp":"従属","rd":"じゅうぞく","kr":"종속","pos":"명사","star":0,"ex":"経済的に大国に【従属】した関係から抜け出したい。","exKr":"경제적으로 대국에 종속된 관계에서 벗어나고 싶다."},{"n":36,"jp":"渋滞","rd":"じゅうたい","kr":"정체","pos":"명사","star":1,"ex":"連休初日で高速道路はひどく【渋滞】している。","exKr":"연휴 첫날이라 고속도로가 심하게 막혀 있다."},{"n":37,"jp":"趣旨","rd":"しゅし","kr":"취지","pos":"명사","star":2,"ex":"この会の【趣旨】をご理解いただきたい。","exKr":"이 모임의 취지를 이해해 주셨으면 한다."},{"n":38,"jp":"順路","rd":"じゅんろ","kr":"순로, 길 순서","pos":"명사","star":0,"ex":"【順路】に従って館内をご覧ください。","exKr":"관람 순서에 따라 관내를 둘러보십시오."},{"n":39,"jp":"衝撃","rd":"しょうげき","kr":"충격","pos":"명사","star":0,"ex":"そのニュースは世界中に【衝撃】を与えた。","exKr":"그 뉴스는 전 세계에 충격을 주었다."},{"n":40,"jp":"消息","rd":"しょうそく","kr":"소식","pos":"명사","star":0,"ex":"卒業以来、彼の【消息】は分からない。","exKr":"졸업 이후 그의 소식은 알 수 없다."},{"n":41,"jp":"進展","rd":"しんてん","kr":"진전","pos":"명사","star":0,"ex":"両国の交渉に大きな【進展】は見られなかった。","exKr":"양국 협상에 큰 진전은 보이지 않았다."},{"n":42,"jp":"世辞","rd":"せじ","kr":"빈말, 아첨","pos":"명사","star":0,"ex":"お【世辞】にも上手とは言えない。","exKr":"빈말로라도 잘한다고는 할 수 없다."},{"n":43,"jp":"設置","rd":"せっち","kr":"설치","pos":"명사","star":0,"ex":"駅に防犯カメラが【設置】された。","exKr":"역에 방범 카메라가 설치되었다."},{"n":44,"jp":"扇動","rd":"せんどう","kr":"선동","pos":"명사","star":0,"ex":"群衆を【扇動】した疑いで逮捕された。","exKr":"군중을 선동한 혐의로 체포되었다."},{"n":45,"jp":"遭遇","rd":"そうぐう","kr":"조우","pos":"명사","star":2,"ex":"山道で熊に【遭遇】した。","exKr":"산길에서 곰과 마주쳤다."},{"n":46,"jp":"総合","rd":"そうごう","kr":"통합","pos":"명사","star":0,"ex":"各部署の意見を【総合】して結論を出す。","exKr":"각 부서의 의견을 종합해서 결론을 낸다."},{"n":47,"jp":"注視","rd":"ちゅうし","kr":"주시","pos":"명사","star":0,"ex":"市場の動向を【注視】する必要がある。","exKr":"시장 동향을 주시할 필요가 있다."},{"n":48,"jp":"中傷","rd":"ちゅうしょう","kr":"중상(헐뜯음)","pos":"명사","star":1,"ex":"ネット上で他人を【中傷】する書き込みが問題になっている。","exKr":"인터넷상에서 남을 헐뜯는 글이 문제가 되고 있다."},{"n":49,"jp":"調和","rd":"ちょうわ","kr":"조화","pos":"명사","star":0,"ex":"この建物は周囲の自然と【調和】している。","exKr":"이 건물은 주위 자연과 조화를 이루고 있다."},{"n":50,"jp":"陳腐","rd":"ちんぷ","kr":"진부","pos":"명사","star":3,"ex":"その表現はもう【陳腐】で、新鮮味がない。","exKr":"그 표현은 이제 진부해서 신선함이 없다."},{"n":51,"jp":"体裁","rd":"ていさい","kr":"겉모양, 형식, 체면","pos":"명사","star":1,"ex":"【体裁】ばかり気にしていては何もできない。","exKr":"체면만 신경 쓰다가는 아무것도 할 수 없다."},{"n":52,"jp":"停滞","rd":"ていたい","kr":"정체","pos":"명사","star":0,"ex":"景気の【停滞】が長引いている。","exKr":"경기 정체가 길어지고 있다."},{"n":53,"jp":"撤退","rd":"てったい","kr":"철퇴, 철수","pos":"명사","star":2,"ex":"業績不振のため、海外市場から【撤退】した。","exKr":"실적 부진으로 해외 시장에서 철수했다."},{"n":54,"jp":"頓挫","rd":"とんざ","kr":"돈좌, 좌절","pos":"명사","star":0,"ex":"資金不足で計画が【頓挫】した。","exKr":"자금 부족으로 계획이 좌절되었다."},{"n":55,"jp":"同調","rd":"どうちょう","kr":"동조","pos":"명사","star":0,"ex":"周りの意見に安易に【同調】するべきではない。","exKr":"주위 의견에 쉽게 동조해서는 안 된다."},{"n":56,"jp":"導入","rd":"どうにゅう","kr":"도입","pos":"명사","star":0,"ex":"工場に最新の設備を【導入】した。","exKr":"공장에 최신 설비를 도입했다."},{"n":57,"jp":"特産","rd":"とくさん","kr":"특산","pos":"명사","star":0,"ex":"りんごはこの地方の【特産】だ。","exKr":"사과는 이 지방의 특산물이다."},{"n":58,"jp":"特殊","rd":"とくしゅ","kr":"특수","pos":"명사","star":0,"ex":"この作業には【特殊】な技術が必要だ。","exKr":"이 작업에는 특수한 기술이 필요하다."},{"n":59,"jp":"捏造","rd":"ねつぞう","kr":"날조, 꾸밈","pos":"명사","star":1,"ex":"研究データを【捏造】したことが発覚した。","exKr":"연구 데이터를 날조한 사실이 발각되었다."},{"n":60,"jp":"白熱","rd":"はくねつ","kr":"백열, 격렬함","pos":"명사","star":3,"ex":"決勝戦は最後まで【白熱】した試合となった。","exKr":"결승전은 마지막까지 열띤 경기가 되었다."},{"n":61,"jp":"搬送","rd":"はんそう","kr":"반송","pos":"명사","star":0,"ex":"けが人はすぐに病院へ【搬送】された。","exKr":"부상자는 곧바로 병원으로 이송되었다."},{"n":62,"jp":"判別","rd":"はんべつ","kr":"판별","pos":"명사","star":0,"ex":"暗くて人の顔を【判別】できなかった。","exKr":"어두워서 사람 얼굴을 판별할 수 없었다."},{"n":63,"jp":"悲観","rd":"ひかん","kr":"비관","pos":"명사","star":0,"ex":"一度の失敗で将来を【悲観】することはない。","exKr":"한 번의 실패로 장래를 비관할 필요는 없다."},{"n":64,"jp":"秘訣","rd":"ひけつ","kr":"비결","pos":"명사","star":0,"ex":"長生きの【秘訣】は何ですか。","exKr":"장수의 비결은 무엇입니까?"},{"n":65,"jp":"肥大","rd":"ひだい","kr":"비대","pos":"명사","star":0,"ex":"組織が【肥大】して意思決定が遅くなった。","exKr":"조직이 비대해져서 의사 결정이 느려졌다."},{"n":66,"jp":"備蓄","rd":"びちく","kr":"비축","pos":"명사","star":0,"ex":"災害に備えて水と食料を【備蓄】している。","exKr":"재해에 대비해 물과 식량을 비축하고 있다."},{"n":67,"jp":"標識","rd":"ひょうしき","kr":"표식","pos":"명사","star":0,"ex":"道路【標識】を見落として道に迷った。","exKr":"도로 표지판을 놓쳐서 길을 잃었다."},{"n":68,"jp":"頻発","rd":"ひんぱつ","kr":"빈발","pos":"명사","star":2,"ex":"この交差点では事故が【頻発】している。","exKr":"이 교차로에서는 사고가 빈발하고 있다."},{"n":69,"jp":"封鎖","rd":"ふうさ","kr":"봉쇄","pos":"명사","star":1,"ex":"事件現場の周辺は警察によって【封鎖】された。","exKr":"사건 현장 주변은 경찰에 의해 봉쇄되었다."},{"n":70,"jp":"奮発","rd":"ふんぱつ","kr":"분발","pos":"명사","star":0,"ex":"ボーナスが出たので、高級レストランで【奮発】した。","exKr":"보너스가 나와서 고급 레스토랑에서 큰맘 먹고 돈을 썼다."},{"n":71,"jp":"放置","rd":"ほうち","kr":"방치","pos":"명사","star":0,"ex":"駅前に自転車を【放置】しないでください。","exKr":"역 앞에 자전거를 방치하지 마십시오."},{"n":72,"jp":"発端","rd":"ほったん","kr":"발단","pos":"명사","star":2,"ex":"事件の【発端】は小さな口論だった。","exKr":"사건의 발단은 작은 말다툼이었다."},{"n":73,"jp":"保留","rd":"ほりゅう","kr":"보류","pos":"명사","star":0,"ex":"その件は返事を【保留】にしておいた。","exKr":"그 건은 대답을 보류해 두었다."},{"n":74,"jp":"無実","rd":"むじつ","kr":"무고함, 억울함, 무죄","pos":"명사","star":1,"ex":"彼は最後まで【無実】を訴え続けた。","exKr":"그는 끝까지 무죄를 호소했다."},{"n":75,"jp":"面目","rd":"めんぼく","kr":"면목","pos":"명사","star":0,"ex":"大事な試合で負けて、【面目】を失った。","exKr":"중요한 경기에서 져서 면목을 잃었다."},{"n":76,"jp":"盲点","rd":"もうてん","kr":"맹점","pos":"명사","star":2,"ex":"そこは誰も気づかなかった【盲点】だった。","exKr":"그곳은 아무도 눈치채지 못한 맹점이었다."},{"n":77,"jp":"模範","rd":"もはん","kr":"모범","pos":"명사","star":0,"ex":"彼の態度は後輩の【模範】となった。","exKr":"그의 태도는 후배들의 모범이 되었다."},{"n":78,"jp":"模倣","rd":"もほう","kr":"모방","pos":"명사","star":0,"ex":"他社の製品を【模倣】しただけでは売れない。","exKr":"타사 제품을 모방한 것만으로는 팔리지 않는다."},{"n":79,"jp":"要旨","rd":"ようし","kr":"요지","pos":"명사","star":0,"ex":"講演の【要旨】を三百字でまとめなさい。","exKr":"강연의 요지를 300자로 정리하시오."},{"n":80,"jp":"余波","rd":"よは","kr":"여파","pos":"명사","star":1,"ex":"台風の【余波】で、波が高くなっている。","exKr":"태풍의 여파로 파도가 높아지고 있다."},{"n":81,"jp":"理屈","rd":"りくつ","kr":"이치, 도리","nuance":"도리","pos":"명사","star":1,"ex":"言っていることは【理屈】に合っている。","exKr":"하는 말은 이치에 맞는다."},{"n":82,"jp":"理屈","rd":"りくつ","kr":"억지, 구실, 핑계","nuance":"억지·핑계","pos":"명사","star":1,"ex":"彼は何かと【理屈】をつけて仕事を断る。","exKr":"그는 이런저런 구실을 붙여 일을 거절한다."},{"n":83,"jp":"利潤","rd":"りじゅん","kr":"이윤","pos":"명사","star":0,"ex":"企業は【利潤】を追求するだけでなく、社会に貢献すべきだ。","exKr":"기업은 이윤을 추구할 뿐 아니라 사회에 공헌해야 한다."},{"n":84,"jp":"倫理","rd":"りんり","kr":"윤리","pos":"명사","star":0,"ex":"医療の現場では高い【倫理】観が求められる。","exKr":"의료 현장에서는 높은 윤리 의식이 요구된다."},{"n":85,"jp":"頭ごなし","rd":"あたまごなし","kr":"무조건, 일방적","pos":"혼동명사","star":0,"ex":"理由も聞かずに【頭ごなし】に叱るのはよくない。","exKr":"이유도 묻지 않고 다짜고짜 꾸짖는 것은 좋지 않다."},{"n":86,"jp":"うたげ","rd":"うたげ（宴）","kr":"연회, 잔치","pos":"혼동명사","star":0,"ex":"優勝を祝って盛大な【宴】が開かれた。","exKr":"우승을 축하하며 성대한 연회가 열렸다."},{"n":87,"jp":"生い立ち","rd":"おいたち","kr":"성장 과정","pos":"혼동명사","star":1,"ex":"彼女は自らの【生い立ち】を本にまとめた。","exKr":"그녀는 자신의 성장 과정을 책으로 엮었다."},{"n":88,"jp":"公","rd":"おおやけ","kr":"공적, 공공","nuance":"공공","pos":"혼동명사","star":1,"ex":"【公】の場では言葉遣いに気をつけなさい。","exKr":"공적인 자리에서는 말투에 주의하시오."},{"n":89,"jp":"公","rd":"おおやけ","kr":"공표, 세상에 드러냄","nuance":"公にする","pos":"혼동명사","star":1,"ex":"長年隠されていた事実が【公】になった。","exKr":"오랫동안 숨겨져 있던 사실이 세상에 알려졌다."},{"n":90,"jp":"落ち度","rd":"おちど","kr":"잘못, 과실, 실수","pos":"혼동명사","star":0,"ex":"今回のミスは私の【落ち度】です。","exKr":"이번 실수는 제 잘못입니다."},{"n":91,"jp":"思惑","rd":"おもわく","kr":"생각, 의도, 예측","nuance":"의도·예측","pos":"혼동명사","star":3,"ex":"事態は彼の【思惑】どおりには進まなかった。","exKr":"사태는 그의 생각대로 진행되지 않았다."},{"n":92,"jp":"思惑","rd":"おもわく","kr":"(남의) 평판","nuance":"세상 평판","pos":"혼동명사","star":3,"ex":"世間の【思惑】を気にして本音が言えない。","exKr":"세상의 평판을 신경 써서 본심을 말하지 못한다."},{"n":93,"jp":"しわ寄せ","rd":"しわよせ","kr":"악영향, 여파","pos":"혼동명사","star":0,"ex":"人手不足の【しわ寄せ】が現場の社員に来ている。","exKr":"인력 부족의 여파가 현장 직원에게 미치고 있다."},{"n":94,"jp":"底意","rd":"そこい","kr":"저의","pos":"혼동명사","star":1,"ex":"親切な言葉の裏に何か【底意】がありそうだ。","exKr":"친절한 말 뒤에 뭔가 저의가 있는 것 같다."},{"n":95,"jp":"てこ入れ","rd":"てこいれ","kr":"(특별) 조치, 지원","pos":"혼동명사","star":1,"ex":"売り上げが落ちた部門に【てこ入れ】をする。","exKr":"매출이 떨어진 부문에 특별 조치를 취한다."},{"n":96,"jp":"手数","rd":"てすう","kr":"수고, 귀찮음","pos":"혼동명사","star":0,"ex":"お【手数】をおかけしますが、よろしくお願いします。","exKr":"번거롭게 해 드려 죄송하지만 잘 부탁드립니다."},{"n":97,"jp":"手並み","rd":"てなみ","kr":"솜씨","pos":"혼동명사","star":0,"ex":"新しい監督のお【手並み】拝見といこう。","exKr":"새 감독의 솜씨를 한번 지켜보자."},{"n":98,"jp":"成り立ち","rd":"なりたち","kr":"(구성된) 과정, 내력","pos":"혼동명사","star":0,"ex":"この町の【成り立ち】を調べてみた。","exKr":"이 마을의 내력을 조사해 보았다."},{"n":99,"jp":"風合","rd":"ふうあい","kr":"감촉, 촉감","pos":"혼동명사","star":0,"ex":"この布は手織りならではの【風合】がある。","exKr":"이 천은 수직물 특유의 감촉이 있다."},{"n":100,"jp":"旨","rd":"むね","kr":"뜻, 취지","pos":"혼동명사","star":1,"ex":"欠席する【旨】を担当者に伝えた。","exKr":"결석한다는 뜻을 담당자에게 전했다."},{"n":101,"jp":"罠","rd":"わな","kr":"올가미, 덫","pos":"혼동명사","star":1,"ex":"まんまと敵の【罠】にはまってしまった。","exKr":"보기 좋게 적의 덫에 걸리고 말았다."},{"n":102,"jp":"仰ぐ","rd":"あおぐ","kr":"위를 보다, 우러러보다","nuance":"시선·존경","pos":"동사","star":0,"ex":"夜空を【仰ぐ】と、満天の星が輝いていた。","exKr":"밤하늘을 올려다보니 하늘 가득 별이 빛나고 있었다."},{"n":103,"jp":"仰ぐ","rd":"あおぐ","kr":"(가르침·원조를) 바라다, 구하다","nuance":"청함","pos":"동사","star":0,"ex":"専門家の意見を【仰ぐ】ことにした。","exKr":"전문가의 의견을 구하기로 했다."},{"n":104,"jp":"うずく","rd":"うずく（疼く）","kr":"쑤시다, 욱신거리다","nuance":"통증","pos":"동사","star":0,"ex":"寒くなると古傷が【うずく】。","exKr":"추워지면 옛 상처가 쑤신다."},{"n":105,"jp":"うずく","rd":"うずく（疼く）","kr":"(하고 싶어) 좀이 쑤시다","nuance":"충동","pos":"동사","star":0,"ex":"試合を見ていると、体が【うずいて】きた。","exKr":"경기를 보고 있으니 몸이 근질근질해졌다."},{"n":106,"jp":"疑う","rd":"うたがう","kr":"의심하다","pos":"동사","star":0,"ex":"自分の目を【疑う】ような光景だった。","exKr":"내 눈을 의심할 만한 광경이었다."},{"n":107,"jp":"打ち消す","rd":"うちけす","kr":"부정하다, 지우다, 없애다","pos":"동사","star":0,"ex":"首相は辞任のうわさを強く【打ち消した】。","exKr":"총리는 사임 소문을 강하게 부정했다."},{"n":108,"jp":"うぬぼれる","rd":"うぬぼれる","kr":"자만하다","pos":"동사","star":2,"ex":"少し褒められたくらいで【うぬぼれる】な。","exKr":"조금 칭찬받은 정도로 자만하지 마라."},{"n":109,"jp":"敬う","rd":"うやまう","kr":"존경하다, 공경하다","pos":"동사","star":0,"ex":"お年寄りを【敬う】気持ちを忘れてはいけない。","exKr":"어르신을 공경하는 마음을 잊어서는 안 된다."},{"n":110,"jp":"貶める","rd":"おとしめる","kr":"얕보다, 깎아내리다","pos":"동사","star":1,"ex":"他人を【貶める】ような発言は慎むべきだ。","exKr":"남을 깎아내리는 발언은 삼가야 한다."},{"n":111,"jp":"買いかぶる","rd":"かいかぶる","kr":"과대평가하다","nuance":"평가","pos":"동사","star":0,"ex":"私の実力を【買いかぶり】すぎですよ。","exKr":"제 실력을 너무 과대평가하시네요."},{"n":112,"jp":"買いかぶる","rd":"かいかぶる","kr":"실제보다 비싸게 사다","nuance":"가격","pos":"동사","star":0,"ex":"観光地の土産物屋で【買いかぶって】しまった。","exKr":"관광지 기념품 가게에서 바가지를 쓰고 말았다."},{"n":113,"jp":"垣間見る","rd":"かいまみる","kr":"살짝 엿보다","pos":"동사","star":1,"ex":"この手紙から、作家の素顔を【垣間見る】ことができる。","exKr":"이 편지에서 작가의 맨얼굴을 엿볼 수 있다."},{"n":114,"jp":"嵩む","rd":"かさむ","kr":"(부피가) 커지다, (비용이) 불어나다","pos":"동사","star":1,"ex":"入院が長引き、治療費が【嵩んで】きた。","exKr":"입원이 길어져 치료비가 불어났다."},{"n":115,"jp":"来す","rd":"きたす","kr":"초래하다, 일으키다","pos":"동사","star":0,"ex":"睡眠不足は仕事に支障を【来す】。","exKr":"수면 부족은 업무에 지장을 초래한다."},{"n":116,"jp":"繰り上げる","rd":"くりあげる","kr":"(기일·순서를) 앞당기다","pos":"동사","star":0,"ex":"台風の接近で、出発を一日【繰り上げた】。","exKr":"태풍이 접근해서 출발을 하루 앞당겼다."},{"n":117,"jp":"悔やむ","rd":"くやむ","kr":"후회하다","nuance":"후회","pos":"동사","star":1,"ex":"今さら【悔やんで】も仕方がない。","exKr":"이제 와서 후회해도 소용없다."},{"n":118,"jp":"悔やむ","rd":"くやむ","kr":"애도하다","nuance":"죽음","pos":"동사","star":1,"ex":"恩師の突然の死を【悔やむ】。","exKr":"은사의 갑작스러운 죽음을 애도한다."},{"n":119,"jp":"企てる","rd":"くわだてる","kr":"기도하다, 계획하다","pos":"동사","star":1,"ex":"彼らは政府の転覆を【企てた】として逮捕された。","exKr":"그들은 정부 전복을 꾀한 혐의로 체포되었다."},{"n":120,"jp":"こしらえる","rd":"こしらえる","kr":"만들다, 마련하다","nuance":"제작·준비","pos":"동사","star":0,"ex":"母が弁当を【こしらえて】くれた。","exKr":"어머니가 도시락을 만들어 주셨다."},{"n":121,"jp":"こしらえる","rd":"こしらえる","kr":"꾸미다, 얼렁뚱땅 넘기다","nuance":"꾸며냄","pos":"동사","star":0,"ex":"遅刻の言い訳を適当に【こしらえた】。","exKr":"지각한 핑계를 적당히 꾸며댔다."},{"n":122,"jp":"懲りる","rd":"こりる","kr":"넌더리가 나다, 질리다","pos":"동사","star":0,"ex":"一度失敗したのに、彼は少しも【懲りて】いない。","exKr":"한 번 실패했는데도 그는 조금도 질리지 않았다."},{"n":123,"jp":"栄える","rd":"さかえる","kr":"번영하다, 번창하다","pos":"동사","star":1,"ex":"この町はかつて宿場町として【栄えた】。","exKr":"이 마을은 예전에 역참 마을로 번성했다."},{"n":124,"jp":"さばく","rd":"さばく（捌く）","kr":"잘 다루다, 처리하다","nuance":"처리","pos":"동사","star":1,"ex":"彼女は大量の仕事を手際よく【さばいた】。","exKr":"그녀는 많은 일을 솜씨 좋게 처리했다."},{"n":125,"jp":"さばく","rd":"さばく（捌く）","kr":"팔아 치우다","nuance":"판매","pos":"동사","star":1,"ex":"在庫を安く【さばく】しかない。","exKr":"재고를 싸게 팔아 치울 수밖에 없다."},{"n":126,"jp":"さばく","rd":"さばく（捌く）","kr":"뼈를 발라내다","nuance":"생선","pos":"동사","star":1,"ex":"魚を三枚に【さばく】のは難しい。","exKr":"생선을 세 장 뜨기로 손질하는 것은 어렵다."},{"n":127,"jp":"凌ぐ","rd":"しのぐ","kr":"참고 견디다, 헤쳐 나가다, 피하다","nuance":"견딤","pos":"동사","star":1,"ex":"軒下で雨を【凌いだ】。","exKr":"처마 밑에서 비를 피했다."},{"n":128,"jp":"凌ぐ","rd":"しのぐ","kr":"능가하다","nuance":"비교 우위","pos":"동사","star":1,"ex":"新製品は性能で他社を【凌いで】いる。","exKr":"신제품은 성능에서 타사를 능가하고 있다."},{"n":129,"jp":"痺れる","rd":"しびれる","kr":"저리다, 마비되다","pos":"동사","star":1,"ex":"長時間正座していたら、足が【痺れた】。","exKr":"오랫동안 무릎 꿇고 앉아 있었더니 다리가 저렸다."},{"n":130,"jp":"長ける","rd":"たける","kr":"뛰어나다","pos":"동사","star":0,"ex":"彼は人の心をつかむことに【長けて】いる。","exKr":"그는 사람의 마음을 사로잡는 데 뛰어나다."},{"n":131,"jp":"たじろぐ","rd":"たじろぐ","kr":"질리다, 쩔쩔매다","pos":"동사","star":0,"ex":"相手の鋭い質問に一瞬【たじろいだ】。","exKr":"상대의 날카로운 질문에 순간 움찔했다."},{"n":132,"jp":"償う","rd":"つぐなう","kr":"갚다, 보상하다, 속죄하다","pos":"동사","star":2,"ex":"罪を【償う】ため、彼は刑に服した。","exKr":"죄를 갚기 위해 그는 형을 살았다."},{"n":133,"jp":"繕う","rd":"つくろう","kr":"수선하다","nuance":"옷·물건","pos":"동사","star":2,"ex":"破れたシャツを【繕って】着ている。","exKr":"찢어진 셔츠를 기워 입고 있다."},{"n":134,"jp":"繕う","rd":"つくろう","kr":"얼버무리다, 겉을 꾸미다","nuance":"체면·태도","pos":"동사","star":2,"ex":"失敗をその場で何とか【繕った】。","exKr":"실수를 그 자리에서 어떻게든 얼버무렸다."},{"n":135,"jp":"手こずる","rd":"てこずる","kr":"애먹다, 쩔쩔매다","pos":"동사","star":1,"ex":"子どもの反抗に【手こずって】いる。","exKr":"아이의 반항에 애먹고 있다."},{"n":136,"jp":"出くわす","rd":"でくわす","kr":"맞닥뜨리다, 딱 마주치다","pos":"동사","star":1,"ex":"駅前でばったり元恋人に【出くわした】。","exKr":"역 앞에서 딱 전 애인과 마주쳤다."},{"n":137,"jp":"抜きん出る","rd":"ぬきんでる","kr":"뛰어나다, 빼어나다","pos":"동사","star":0,"ex":"彼女の成績はクラスで【抜きん出て】いる。","exKr":"그녀의 성적은 반에서 두드러지게 뛰어나다."},{"n":138,"jp":"秀でる","rd":"ひいでる","kr":"빼어나다, 뛰어나다","pos":"동사","star":0,"ex":"彼は語学に【秀でて】いる。","exKr":"그는 어학에 뛰어나다."},{"n":139,"jp":"耽る","rd":"ふける","kr":"열중하다, 빠지다","pos":"동사","star":2,"ex":"学生時代は推理小説を読み【耽った】。","exKr":"학창 시절에는 추리 소설을 탐독했다."},{"n":140,"jp":"塞ぐ","rd":"ふさぐ","kr":"막다, 가리다","nuance":"구멍·길","pos":"동사","star":0,"ex":"倒れた木が道を【塞いで】いる。","exKr":"쓰러진 나무가 길을 막고 있다."},{"n":141,"jp":"塞ぐ","rd":"ふさぐ","kr":"우울해지다","nuance":"기분","pos":"동사","star":0,"ex":"最近、何となく気が【塞ぐ】。","exKr":"요즘 왠지 기분이 우울하다."},{"n":142,"jp":"振りかざす","rd":"ふりかざす","kr":"머리 위로 번쩍 쳐들다","nuance":"동작","pos":"동사","star":0,"ex":"男は刀を【振りかざして】向かってきた。","exKr":"남자는 칼을 번쩍 치켜들고 덤벼들었다."},{"n":143,"jp":"振りかざす","rd":"ふりかざす","kr":"(주의·주장을) 내세우다","nuance":"주장","pos":"동사","star":0,"ex":"正義を【振りかざして】他人を攻撃する人がいる。","exKr":"정의를 내세워 남을 공격하는 사람이 있다."},{"n":144,"jp":"ほのめかす","rd":"ほのめかす","kr":"암시하다, 넌지시 비치다(말하다)","pos":"동사","star":1,"ex":"社長は引退を【ほのめかした】。","exKr":"사장은 은퇴를 넌지시 비쳤다."},{"n":145,"jp":"ぼやける","rd":"ぼやける","kr":"희미해지다, 부예지다","pos":"동사","star":1,"ex":"涙で文字が【ぼやけて】見えた。","exKr":"눈물 때문에 글자가 흐릿하게 보였다."},{"n":146,"jp":"見くびる","rd":"みくびる","kr":"깔보다, 얕보다","pos":"동사","star":0,"ex":"相手を子どもだと【見くびって】はいけない。","exKr":"상대가 아이라고 얕봐서는 안 된다."},{"n":147,"jp":"持ち越す","rd":"もちこす","kr":"넘기다, 미루다","pos":"동사","star":0,"ex":"結論は次回の会議に【持ち越された】。","exKr":"결론은 다음 회의로 미뤄졌다."},{"n":148,"jp":"あぶなげない","rd":"あぶなげない","kr":"무난하다","pos":"イ형용사","star":1,"ex":"ベテランらしい【あぶなげない】運転だった。","exKr":"베테랑다운 안정감 있는 운전이었다."},{"n":149,"jp":"著しい","rd":"いちじるしい","kr":"현저하다, 두드러지다","pos":"イ형용사","star":1,"ex":"この十年で技術は【著しく】進歩した。","exKr":"이 10년 사이에 기술은 현저하게 진보했다."},{"n":150,"jp":"いぶかしい","rd":"いぶかしい","kr":"의심스럽다, 수상쩍다","pos":"イ형용사","star":0,"ex":"彼の急な態度の変化が【いぶかしい】。","exKr":"그의 갑작스러운 태도 변화가 수상쩍다."},{"n":151,"jp":"忌まわしい","rd":"いまわしい","kr":"꺼림칙하다, 불길하다","pos":"イ형용사","star":0,"ex":"あの【忌まわしい】事件を忘れることはできない。","exKr":"그 끔찍한 사건을 잊을 수는 없다."},{"n":152,"jp":"おっかない","rd":"おっかない","kr":"무섭다, 두렵다","pos":"イ형용사","star":2,"ex":"怒った父の顔は本当に【おっかなかった】。","exKr":"화난 아버지의 얼굴은 정말 무서웠다."},{"n":153,"jp":"おぼつかない","rd":"おぼつかない","kr":"불안하다, 의심스럽다","pos":"イ형용사","star":1,"ex":"この成績では合格は【おぼつかない】。","exKr":"이 성적으로는 합격이 불확실하다."},{"n":154,"jp":"芳しい","rd":"かんばしい","kr":"향기롭다","nuance":"냄새","pos":"イ형용사","star":1,"ex":"庭から梅の【芳しい】香りがする。","exKr":"정원에서 매화의 향긋한 향기가 난다."},{"n":155,"jp":"芳しい","rd":"かんばしい","kr":"훌륭하다, 좋다","nuance":"평가·결과","pos":"イ형용사","star":1,"ex":"新製品の売れ行きは【芳しく】ない。","exKr":"신제품의 판매가 신통치 않다."},{"n":156,"jp":"仰々しい","rd":"ぎょうぎょうしい","kr":"호들갑스럽다","pos":"イ형용사","star":1,"ex":"ちょっとした怪我なのに【仰々しく】包帯を巻いている。","exKr":"대수롭지 않은 상처인데 호들갑스럽게 붕대를 감고 있다."},{"n":157,"jp":"さりげない","rd":"さりげない","kr":"아무렇지도 않다","pos":"イ형용사","star":0,"ex":"彼女の【さりげない】気遣いがうれしかった。","exKr":"그녀의 아무렇지 않은 듯한 배려가 기뻤다."},{"n":158,"jp":"しんどい","rd":"しんどい","kr":"힘들다, 벅차다, 지치다","pos":"イ형용사","star":0,"ex":"毎日の残業で体が【しんどい】。","exKr":"매일 야근해서 몸이 힘들다."},{"n":159,"jp":"図々しい","rd":"ずうずうしい","kr":"뻔뻔스럽다","pos":"イ형용사","star":0,"ex":"人の物を勝手に使うなんて【図々しい】。","exKr":"남의 물건을 멋대로 쓰다니 뻔뻔하다."},{"n":160,"jp":"せわしい","rd":"せわしい","kr":"바쁘다, 조급하다","pos":"イ형용사","star":1,"ex":"年末は何かと【せわしい】。","exKr":"연말은 이래저래 바쁘다."},{"n":161,"jp":"素っ気ない","rd":"そっけない","kr":"쌀쌀맞다, 냉담하다","pos":"イ형용사","star":1,"ex":"話しかけたが、【素っ気ない】返事しか返ってこなかった。","exKr":"말을 걸었지만 쌀쌀맞은 대답만 돌아왔다."},{"n":162,"jp":"つれない","rd":"つれない","kr":"무정하다, 박정하다","pos":"イ형용사","star":1,"ex":"何度誘っても彼女は【つれない】態度だ。","exKr":"몇 번을 불러도 그녀는 무정한 태도다."},{"n":163,"jp":"名高い","rd":"なだかい","kr":"유명하다","pos":"イ형용사","star":0,"ex":"ここは紅葉の名所として【名高い】寺だ。","exKr":"이곳은 단풍 명소로 유명한 절이다."},{"n":164,"jp":"何気ない","rd":"なにげない","kr":"아무렇지도 않다, 태연하다","pos":"イ형용사","star":1,"ex":"【何気ない】一言が人を傷つけることもある。","exKr":"무심한 한마디가 사람에게 상처를 줄 때도 있다."},{"n":165,"jp":"はしたない","rd":"はしたない","kr":"상스럽다, 버릇없다","pos":"イ형용사","star":0,"ex":"大声で食べながら話すのは【はしたない】。","exKr":"큰 소리로 먹으면서 말하는 것은 상스럽다."},{"n":166,"jp":"平たい","rd":"ひらたい","kr":"평평하다","nuance":"모양","pos":"イ형용사","star":1,"ex":"【平たい】皿に料理を盛る。","exKr":"납작한 접시에 요리를 담는다."},{"n":167,"jp":"平たい","rd":"ひらたい","kr":"알기 쉽다","nuance":"말·설명","pos":"イ형용사","star":1,"ex":"【平たく】言えば、お金が足りないということだ。","exKr":"쉽게 말하면 돈이 부족하다는 것이다."},{"n":168,"jp":"まめまめしい","rd":"まめまめしい","kr":"부지런하다","pos":"イ형용사","star":0,"ex":"彼は【まめまめしく】病気の母の世話をしている。","exKr":"그는 부지런히 아픈 어머니를 돌보고 있다."},{"n":169,"jp":"みすぼらしい","rd":"みすぼらしい","kr":"초라하다, 빈약하다","pos":"イ형용사","star":1,"ex":"【みすぼらしい】身なりの老人が立っていた。","exKr":"초라한 차림의 노인이 서 있었다."},{"n":170,"jp":"やるせない","rd":"やるせない","kr":"안타깝다, 속절없다","pos":"イ형용사","star":0,"ex":"努力が報われず、【やるせない】気持ちになった。","exKr":"노력이 보상받지 못해 안타까운 기분이 들었다."},{"n":171,"jp":"あやふやな","rd":"あやふやな","kr":"불확실한, 모호한","pos":"ナ형용사","star":2,"ex":"【あやふやな】記憶で証言するのは危険だ。","exKr":"불확실한 기억으로 증언하는 것은 위험하다."},{"n":172,"jp":"うかつな","rd":"うかつな（迂闊な）","kr":"멍청한, 부주의한","pos":"ナ형용사","star":1,"ex":"【うかつ】にも傘を電車に置き忘れた。","exKr":"멍청하게도 우산을 전철에 두고 내렸다."},{"n":173,"jp":"うつろな","rd":"うつろな","kr":"속이 텅 빈","nuance":"내부","pos":"ナ형용사","star":1,"ex":"【うつろな】木の幹にリスが住んでいる。","exKr":"속이 빈 나무줄기에 다람쥐가 살고 있다."},{"n":174,"jp":"うつろな","rd":"うつろな","kr":"얼빠진, 멍한","nuance":"표정·눈","pos":"ナ형용사","star":1,"ex":"彼は【うつろな】目で窓の外を見ていた。","exKr":"그는 멍한 눈으로 창밖을 보고 있었다."},{"n":175,"jp":"横柄な","rd":"おうへいな","kr":"건방진, 거만한","pos":"ナ형용사","star":1,"ex":"店員の【横柄な】態度に腹が立った。","exKr":"점원의 거만한 태도에 화가 났다."},{"n":176,"jp":"大げさな","rd":"おおげさな","kr":"과장된","pos":"ナ형용사","star":0,"ex":"少し転んだだけなのに、【大げさに】騒ぐ。","exKr":"조금 넘어졌을 뿐인데 과장되게 소란을 피운다."},{"n":177,"jp":"おおまかな","rd":"おおまかな","kr":"대범한","nuance":"성격","pos":"ナ형용사","star":1,"ex":"彼は【おおまかな】性格で細かいことは気にしない。","exKr":"그는 대범한 성격이라 사소한 것은 신경 쓰지 않는다."},{"n":178,"jp":"おおまかな","rd":"おおまかな","kr":"대략적인","nuance":"내용","pos":"ナ형용사","star":1,"ex":"まず計画の【おおまかな】流れを説明します。","exKr":"우선 계획의 대략적인 흐름을 설명하겠습니다."},{"n":179,"jp":"厳かな","rd":"おごそかな","kr":"엄숙한","pos":"ナ형용사","star":2,"ex":"式は【厳かな】雰囲気の中で行われた。","exKr":"식은 엄숙한 분위기 속에서 거행되었다."},{"n":180,"jp":"おぼろげな","rd":"おぼろげな","kr":"어슴푸레한, 어렴풋한","pos":"ナ형용사","star":1,"ex":"幼い頃のことは【おぼろげに】しか覚えていない。","exKr":"어릴 적 일은 어렴풋이밖에 기억나지 않는다."},{"n":181,"jp":"華麗な","rd":"かれいな","kr":"화려한","pos":"ナ형용사","star":0,"ex":"選手は【華麗な】演技で観客を魅了した。","exKr":"선수는 화려한 연기로 관객을 매료시켰다."},{"n":182,"jp":"軽やかな","rd":"かろやかな","kr":"경쾌한","pos":"ナ형용사","star":0,"ex":"彼女は【軽やかな】足取りで階段を上った。","exKr":"그녀는 경쾌한 발걸음으로 계단을 올랐다."},{"n":183,"jp":"簡易な","rd":"かんいな","kr":"간이의, 쉬운","pos":"ナ형용사","star":1,"ex":"【簡易な】手続きで申し込みができる。","exKr":"간단한 절차로 신청할 수 있다."},{"n":184,"jp":"頑丈な","rd":"がんじょうな","kr":"튼튼한","pos":"ナ형용사","star":1,"ex":"この箱は【頑丈】にできている。","exKr":"이 상자는 튼튼하게 만들어져 있다."},{"n":185,"jp":"肝要な","rd":"かんような","kr":"매우 중요한","pos":"ナ형용사","star":2,"ex":"何事も最初が【肝要】だ。","exKr":"무슨 일이든 처음이 매우 중요하다."},{"n":186,"jp":"奇妙な","rd":"きみょうな","kr":"기묘한","pos":"ナ형용사","star":0,"ex":"夜中に【奇妙な】音が聞こえた。","exKr":"한밤중에 기묘한 소리가 들렸다."},{"n":187,"jp":"窮屈な","rd":"きゅうくつな","kr":"갑갑한, 답답한","nuance":"공간·옷","pos":"ナ형용사","star":0,"ex":"太ったせいか、この服は【窮屈】だ。","exKr":"살이 쪄서인지 이 옷은 갑갑하다."},{"n":188,"jp":"窮屈な","rd":"きゅうくつな","kr":"거북한","nuance":"분위기","pos":"ナ형용사","star":0,"ex":"上司と二人きりの食事は【窮屈】だった。","exKr":"상사와 단둘이 하는 식사는 거북했다."},{"n":189,"jp":"窮屈な","rd":"きゅうくつな","kr":"융통성이 없는","nuance":"사고방식","pos":"ナ형용사","star":0,"ex":"規則に縛られた【窮屈な】考え方はやめよう。","exKr":"규칙에 얽매인 융통성 없는 사고방식은 그만두자."},{"n":190,"jp":"屈託な","rd":"くったくな","kr":"거북해하는, 싫증난","pos":"ナ형용사","star":1,"ex":"子どもたちは【屈託】のない笑顔を見せた。","exKr":"아이들은 구김살 없는 웃음을 보였다."},{"n":191,"jp":"混雑な","rd":"こんざつな","kr":"혼잡한","pos":"ナ형용사","star":0,"ex":"朝の駅は通勤客で【混雑】している。","exKr":"아침 역은 통근객으로 혼잡하다."},{"n":192,"jp":"斬新な","rd":"ざんしんな","kr":"참신한","pos":"ナ형용사","star":1,"ex":"【斬新な】デザインが若者に受けている。","exKr":"참신한 디자인이 젊은이들에게 인기를 얻고 있다."},{"n":193,"jp":"真剣な","rd":"しんけんな","kr":"진지한, 진실인","pos":"ナ형용사","star":0,"ex":"彼は【真剣な】顔で将来について話した。","exKr":"그는 진지한 얼굴로 장래에 대해 이야기했다."},{"n":194,"jp":"新鮮な","rd":"しんせんな","kr":"신선한","pos":"ナ형용사","star":0,"ex":"【新鮮な】魚が手に入った。","exKr":"신선한 생선을 구했다."},{"n":195,"jp":"甚大な","rd":"じんだいな","kr":"심대한","pos":"ナ형용사","star":1,"ex":"地震により【甚大な】被害が出た。","exKr":"지진으로 막대한 피해가 발생했다."},{"n":196,"jp":"純粋な","rd":"じゅんすいな","kr":"순수한","pos":"ナ형용사","star":0,"ex":"子どもの【純粋な】心を大切にしたい。","exKr":"아이의 순수한 마음을 소중히 하고 싶다."},{"n":197,"jp":"粗雑な","rd":"そざつな","kr":"조잡한","pos":"ナ형용사","star":0,"ex":"【粗雑な】作りの家具はすぐ壊れる。","exKr":"조잡하게 만든 가구는 금방 망가진다."},{"n":198,"jp":"素朴な","rd":"そぼくな","kr":"소박한","pos":"ナ형용사","star":0,"ex":"子どもの【素朴な】疑問に答えるのは難しい。","exKr":"아이의 소박한 의문에 답하는 것은 어렵다."},{"n":199,"jp":"退屈な","rd":"たいくつな","kr":"지루한, 따분한","pos":"ナ형용사","star":0,"ex":"【退屈な】授業で眠くなった。","exKr":"지루한 수업에 졸음이 왔다."},{"n":200,"jp":"達者な","rd":"たっしゃな","kr":"능숙한","nuance":"기술","pos":"ナ형용사","star":2,"ex":"彼は英語が【達者】だ。","exKr":"그는 영어에 능숙하다."},{"n":201,"jp":"達者な","rd":"たっしゃな","kr":"튼튼한, 건강한","nuance":"몸","pos":"ナ형용사","star":2,"ex":"祖母は九十歳になった今も【達者】だ。","exKr":"할머니는 아흔이 된 지금도 정정하시다."},{"n":202,"jp":"多忙な","rd":"たぼうな","kr":"몹시 바쁜","pos":"ナ형용사","star":0,"ex":"【多忙な】中、お越しいただきありがとうございます。","exKr":"바쁘신 중에 와 주셔서 감사합니다."},{"n":203,"jp":"単調な","rd":"たんちょうな","kr":"단조로운","pos":"ナ형용사","star":0,"ex":"【単調な】作業が続くと集中力が落ちる。","exKr":"단조로운 작업이 계속되면 집중력이 떨어진다."},{"n":204,"jp":"堪能な","rd":"たんのうな","kr":"뛰어난, 능통한","pos":"ナ형용사","star":2,"ex":"彼女はフランス語に【堪能】だ。","exKr":"그녀는 프랑스어에 능통하다."},{"n":205,"jp":"手頃な","rd":"てごろな","kr":"적당한, 알맞은","pos":"ナ형용사","star":1,"ex":"一人暮らしに【手頃な】広さの部屋を探している。","exKr":"혼자 살기에 알맞은 넓이의 방을 찾고 있다."},{"n":206,"jp":"でたらめな","rd":"でたらめな","kr":"엉터리인","pos":"ナ형용사","star":0,"ex":"あの記事は【でたらめな】ことばかり書いてある。","exKr":"그 기사는 엉터리 내용만 쓰여 있다."},{"n":207,"jp":"ないがしろな","rd":"ないがしろな","kr":"소홀히 하는, 무시하는","pos":"ナ형용사","star":1,"ex":"家族を【ないがしろ】にして仕事ばかりしている。","exKr":"가족을 소홀히 하고 일만 하고 있다."},{"n":208,"jp":"場当たりな","rd":"ばあたりな","kr":"임기응변의","pos":"ナ형용사","star":0,"ex":"【場当たりな】対応では問題は解決しない。","exKr":"임기응변식 대응으로는 문제가 해결되지 않는다."},{"n":209,"jp":"まばらな","rd":"まばらな","kr":"드문드문한, 성긴","pos":"ナ형용사","star":1,"ex":"平日の昼間は客が【まばら】だ。","exKr":"평일 낮에는 손님이 드문드문하다."},{"n":210,"jp":"稀な","rd":"まれな","kr":"드문, 희소한","pos":"ナ형용사","star":0,"ex":"この地方で雪が降るのは【稀な】ことだ。","exKr":"이 지방에 눈이 내리는 것은 드문 일이다."},{"n":211,"jp":"無頓着な","rd":"むとんちゃくな","kr":"무심한","pos":"ナ형용사","star":1,"ex":"彼は服装に【無頓着】だ。","exKr":"그는 옷차림에 무심하다."},{"n":212,"jp":"無念な","rd":"むねんな","kr":"원통한, 분한","pos":"ナ형용사","star":2,"ex":"あと一歩で優勝を逃し、【無念】でならない。","exKr":"한 걸음 차이로 우승을 놓쳐 원통하기 그지없다."},{"n":213,"jp":"明朗な","rd":"めいろうな","kr":"명랑한","pos":"ナ형용사","star":0,"ex":"彼女は【明朗な】性格でみんなに好かれている。","exKr":"그녀는 명랑한 성격이라 모두에게 사랑받고 있다."},{"n":214,"jp":"優越な","rd":"ゆうえつな","kr":"우월한","pos":"ナ형용사","star":1,"ex":"他人より【優越】していると思いたがる人もいる。","exKr":"남보다 우월하다고 생각하고 싶어 하는 사람도 있다."},{"n":215,"jp":"あたかも","rd":"あたかも","kr":"흡사, 마치","pos":"부사","star":0,"ex":"彼は【あたかも】自分が見てきたかのように話した。","exKr":"그는 마치 자기가 보고 온 것처럼 이야기했다."},{"n":216,"jp":"危うく","rd":"あやうく","kr":"가까스로, 하마터면","pos":"부사","star":2,"ex":"【危うく】車にひかれるところだった。","exKr":"하마터면 차에 치일 뻔했다."},{"n":217,"jp":"露わに","rd":"あらわに","kr":"노골적으로","pos":"부사","star":1,"ex":"彼は不満を【露わに】した。","exKr":"그는 불만을 노골적으로 드러냈다."},{"n":218,"jp":"幾多","rd":"いくた","kr":"수많이","pos":"부사","star":1,"ex":"【幾多】の困難を乗り越えて、ついに成功した。","exKr":"수많은 어려움을 극복하고 마침내 성공했다."},{"n":219,"jp":"得てして","rd":"えてして","kr":"자칫하면, 까딱하면","pos":"부사","star":0,"ex":"急いでいる時は【得てして】ミスをしやすい。","exKr":"서두를 때는 자칫 실수하기 쉽다."},{"n":220,"jp":"大方","rd":"おおかた","kr":"대개, 거의, 대체로","pos":"부사","star":1,"ex":"仕事は【大方】片づいた。","exKr":"일은 거의 정리되었다."},{"n":221,"jp":"おしなべて","rd":"おしなべて","kr":"대체로, 모두, 한결같이","pos":"부사","star":0,"ex":"今年の新入社員は【おしなべて】まじめだ。","exKr":"올해 신입 사원은 대체로 성실하다."},{"n":222,"jp":"片っ端から","rd":"かたっぱしから","kr":"닥치는 대로, 모조리","pos":"부사","star":1,"ex":"関係のありそうな本を【片っ端から】読んだ。","exKr":"관련 있을 것 같은 책을 닥치는 대로 읽었다."},{"n":223,"jp":"かつて","rd":"かつて","kr":"일찍이, 예전부터","pos":"부사","star":0,"ex":"ここは【かつて】城があった場所だ。","exKr":"이곳은 예전에 성이 있었던 장소다."},{"n":224,"jp":"かねて","rd":"かねて","kr":"미리, 전부터","pos":"부사","star":1,"ex":"【かねて】から行きたかった店にやっと行けた。","exKr":"전부터 가고 싶었던 가게에 드디어 갈 수 있었다."},{"n":225,"jp":"きっぱり","rd":"きっぱり","kr":"딱 잘라, 단호히","pos":"부사","star":1,"ex":"無理な依頼は【きっぱり】断った。","exKr":"무리한 부탁은 딱 잘라 거절했다."},{"n":226,"jp":"ぐずぐず","rd":"ぐずぐず","kr":"꾸물꾸물, 우물쭈물","pos":"부사","star":0,"ex":"【ぐずぐず】していると電車に遅れるよ。","exKr":"꾸물거리다가는 전철 놓친다."},{"n":227,"jp":"交互に","rd":"こうごに","kr":"번갈아","pos":"부사","star":2,"ex":"二人は【交互に】運転して東京まで行った。","exKr":"두 사람은 번갈아 운전해서 도쿄까지 갔다."},{"n":228,"jp":"ことに","rd":"ことに","kr":"각별히, 특히","pos":"부사","star":1,"ex":"今年の夏は【ことに】暑かった。","exKr":"올여름은 특히 더웠다."},{"n":229,"jp":"始終","rd":"しじゅう","kr":"언제나, 늘","pos":"부사","star":0,"ex":"彼は【始終】文句ばかり言っている。","exKr":"그는 늘 불평만 하고 있다."},{"n":230,"jp":"漸次","rd":"ぜんじ","kr":"점차","pos":"부사","star":1,"ex":"新しい制度は【漸次】導入される予定だ。","exKr":"새 제도는 점차 도입될 예정이다."},{"n":231,"jp":"しぶしぶ","rd":"しぶしぶ","kr":"마지못해","pos":"부사","star":2,"ex":"親に言われて【しぶしぶ】部屋を片づけた。","exKr":"부모님께 잔소리를 듣고 마지못해 방을 치웠다."},{"n":232,"jp":"終始","rd":"しゅうし","kr":"줄곧, 내내","pos":"부사","star":1,"ex":"会議は【終始】なごやかな雰囲気だった。","exKr":"회의는 내내 화기애애한 분위기였다."},{"n":233,"jp":"徐々に","rd":"じょじょに","kr":"서서히","pos":"부사","star":0,"ex":"病状は【徐々に】回復している。","exKr":"병세는 서서히 회복되고 있다."},{"n":234,"jp":"しょっちゅう","rd":"しょっちゅう","kr":"노상, 늘, 언제나","pos":"부사","star":0,"ex":"彼は【しょっちゅう】遅刻する。","exKr":"그는 노상 지각한다."},{"n":235,"jp":"すべからく","rd":"すべからく","kr":"마땅히, 모름지기","pos":"부사","star":0,"ex":"学生は【すべからく】勉学に励むべきだ。","exKr":"학생은 모름지기 학업에 힘써야 한다."},{"n":236,"jp":"整然と","rd":"せいぜんと","kr":"정연하게","pos":"부사","star":0,"ex":"本棚には本が【整然と】並んでいる。","exKr":"책장에는 책이 정연하게 꽂혀 있다."},{"n":237,"jp":"生来","rd":"せいらい","kr":"선천적으로","pos":"부사","star":0,"ex":"彼は【生来】の怠け者だ。","exKr":"그는 타고난 게으름뱅이다."},{"n":238,"jp":"即座に","rd":"そくざに","kr":"즉석에서","pos":"부사","star":0,"ex":"彼は質問に【即座に】答えた。","exKr":"그는 질문에 즉시 대답했다."},{"n":239,"jp":"大概","rd":"たいがい","kr":"대개, 대부분","nuance":"빈도·비율","pos":"부사","star":0,"ex":"休日は【大概】家で過ごしている。","exKr":"휴일은 대개 집에서 보낸다."},{"n":240,"jp":"大概","rd":"たいがい","kr":"대충, 대강, 적당히","nuance":"정도","pos":"부사","star":0,"ex":"冗談も【大概】にしなさい。","exKr":"농담도 적당히 해라."},{"n":241,"jp":"断固","rd":"だんこ","kr":"단호히, 단연코","pos":"부사","star":1,"ex":"不当な要求には【断固】として反対する。","exKr":"부당한 요구에는 단호히 반대한다."},{"n":242,"jp":"到底","rd":"とうてい","kr":"도저히","pos":"부사","star":1,"ex":"この量を一日で終わらせるのは【到底】無理だ。","exKr":"이 양을 하루에 끝내는 것은 도저히 무리다."},{"n":243,"jp":"前もって","rd":"まえもって","kr":"미리, 사전에","pos":"부사","star":0,"ex":"欠席する場合は【前もって】連絡してください。","exKr":"결석할 경우에는 미리 연락해 주십시오."},{"n":244,"jp":"まして","rd":"まして","kr":"하물며, 더구나","pos":"부사","star":0,"ex":"大人でも難しいのだから、【まして】子どもには無理だ。","exKr":"어른도 어려우니 하물며 아이에게는 무리다."},{"n":245,"jp":"むやみに","rd":"むやみに","kr":"함부로, 무턱대고","pos":"부사","star":1,"ex":"【むやみに】薬を飲むのは体によくない。","exKr":"함부로 약을 먹는 것은 몸에 좋지 않다."},{"n":246,"jp":"アジェンダ","rd":"アジェンダ","kr":"안건, 의제, 주제","pos":"가타카나","star":0,"ex":"次の会議の【アジェンダ】を共有します。","exKr":"다음 회의 안건을 공유하겠습니다."},{"n":247,"jp":"アセスメント","rd":"アセスメント","kr":"(종합) 평가","pos":"가타카나","star":0,"ex":"建設前に環境【アセスメント】を実施する。","exKr":"건설 전에 환경 영향 평가를 실시한다."},{"n":248,"jp":"アパシー","rd":"アパシー","kr":"냉담, 무기력, 무관심","pos":"가타카나","star":1,"ex":"若者の政治的【アパシー】が問題視されている。","exKr":"젊은이들의 정치적 무관심이 문제시되고 있다."},{"n":249,"jp":"アライアンス","rd":"アライアンス","kr":"동맹, 제휴","pos":"가타카나","star":0,"ex":"航空会社同士が【アライアンス】を組んでいる。","exKr":"항공사끼리 제휴를 맺고 있다."},{"n":250,"jp":"イノベーション","rd":"イノベーション","kr":"기술 혁신, 개혁","pos":"가타카나","star":0,"ex":"この技術は業界に【イノベーション】をもたらした。","exKr":"이 기술은 업계에 혁신을 가져왔다."},{"n":251,"jp":"カウンセリング","rd":"カウンセリング","kr":"상담 지도","pos":"가타카나","star":0,"ex":"学校で【カウンセリング】を受けることができる。","exKr":"학교에서 상담을 받을 수 있다."},{"n":252,"jp":"カテゴリー","rd":"カテゴリー","kr":"카테고리, 범주","pos":"가타카나","star":0,"ex":"商品を【カテゴリー】ごとに分類する。","exKr":"상품을 카테고리별로 분류한다."},{"n":253,"jp":"ガバナンス","rd":"ガバナンス","kr":"통치, 관리, 통제","pos":"가타카나","star":0,"ex":"企業の【ガバナンス】強化が求められている。","exKr":"기업의 지배 구조 강화가 요구되고 있다."},{"n":254,"jp":"コンプレックス","rd":"コンプレックス","kr":"열등감","pos":"가타카나","star":0,"ex":"彼は背が低いことに【コンプレックス】を持っている。","exKr":"그는 키가 작은 것에 열등감을 가지고 있다."},{"n":255,"jp":"シフト","rd":"シフト","kr":"이동, 전환","nuance":"변화","pos":"가타카나","star":1,"ex":"会社は経営方針を海外重視へ【シフト】した。","exKr":"회사는 경영 방침을 해외 중시로 전환했다."},{"n":256,"jp":"シフト","rd":"シフト","kr":"교대 근무시간(표)","nuance":"근무","pos":"가타카나","star":1,"ex":"来週の【シフト】はもう決まりましたか。","exKr":"다음 주 근무표는 벌써 정해졌습니까?"},{"n":257,"jp":"ステータス","rd":"ステータス","kr":"(사회적) 지위, 신분","pos":"가타카나","star":1,"ex":"高級車を持つことが【ステータス】だと考える人もいる。","exKr":"고급차를 갖는 것이 지위의 상징이라고 생각하는 사람도 있다."},{"n":258,"jp":"ステレオタイプ","rd":"ステレオタイプ","kr":"틀에 박힘, 고정적 견해","pos":"가타카나","star":1,"ex":"【ステレオタイプ】な見方で人を判断してはいけない。","exKr":"고정 관념으로 사람을 판단해서는 안 된다."},{"n":259,"jp":"セキュリティー","rd":"セキュリティー","kr":"안전, 보안","pos":"가타카나","star":0,"ex":"このビルは【セキュリティー】が厳しい。","exKr":"이 빌딩은 보안이 엄격하다."},{"n":260,"jp":"デフォルト","rd":"デフォルト","kr":"기본(적 상태)","pos":"가타카나","star":1,"ex":"設定を【デフォルト】に戻した。","exKr":"설정을 기본값으로 되돌렸다."},{"n":261,"jp":"デリケート","rd":"デリケート","kr":"섬세함, 미묘함","pos":"가타카나","star":1,"ex":"これは【デリケート】な問題なので慎重に扱いたい。","exKr":"이것은 미묘한 문제라서 신중하게 다루고 싶다."},{"n":262,"jp":"ビジョン","rd":"ビジョン","kr":"미래상, 계획구상","pos":"가타카나","star":1,"ex":"社長は十年後の【ビジョン】を語った。","exKr":"사장은 10년 후의 미래상을 이야기했다."},{"n":263,"jp":"フィードバック","rd":"フィードバック","kr":"피드백, 반영","pos":"가타카나","star":0,"ex":"利用者の意見を製品開発に【フィードバック】する。","exKr":"이용자의 의견을 제품 개발에 반영한다."},{"n":264,"jp":"フレーバー","rd":"フレーバー","kr":"풍미, 향료","pos":"가타카나","star":0,"ex":"このアイスは十種類の【フレーバー】から選べる。","exKr":"이 아이스크림은 열 가지 맛 중에서 고를 수 있다."},{"n":265,"jp":"メソッド","rd":"メソッド","kr":"방법, 방식","pos":"가타카나","star":1,"ex":"独自の【メソッド】で英語を教えている。","exKr":"독자적인 방법으로 영어를 가르치고 있다."},{"n":266,"jp":"モラル","rd":"モラル","kr":"윤리, 도덕","pos":"가타카나","star":0,"ex":"ネット社会では利用者の【モラル】が問われる。","exKr":"인터넷 사회에서는 이용자의 도덕성이 요구된다."},{"n":267,"jp":"ラフ","rd":"ラフ","kr":"러프, 거침, 조잡함","pos":"가타카나","star":0,"ex":"まず【ラフ】なスケッチを描いてみた。","exKr":"우선 대충 스케치를 그려 보았다."},{"n":268,"jp":"リーズナブル","rd":"リーズナブル","kr":"타당함, 적당함","pos":"가타카나","star":2,"ex":"この店は【リーズナブル】な値段でおいしい料理が食べられる。","exKr":"이 가게는 적당한 가격으로 맛있는 요리를 먹을 수 있다."}];
+
+const POS_ORDER = ['명사','혼동명사','동사','イ형용사','ナ형용사','부사','가타카나'];
+const BM_KEY = 'n1_yuui_79_84_bookmarks';
+
+let pool = [], deck = [], idx = 0, studyList = [], knowList = [];
+let loopMode = false, busy = false, setName = '';
+let timerStart = 0, timerId = null;
+let bookmarks = loadBookmarks();
+
+/* ---------- 유틸 ---------- */
+function shuffle(a) {
+  a = a.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+function cardKey(w) { return w.jp + '|' + (w.nuance || ''); }
+function loadBookmarks() {
+  try { return new Set(JSON.parse(localStorage.getItem(BM_KEY) || '[]')); }
+  catch (e) { return new Set(); }
+}
+function saveBookmarks() {
+  try { localStorage.setItem(BM_KEY, JSON.stringify([...bookmarks])); } catch (e) {}
+}
+function fmt(ms) {
+  const s = Math.floor(ms / 1000);
+  return String(Math.floor(s / 60)).padStart(2, '0') + ':' + String(s % 60).padStart(2, '0');
+}
+
+/* ---------- 세트 선택 ---------- */
+function setButton(container, label, sub, list, cls) {
+  const b = document.createElement('button');
+  b.className = 'set-btn' + (cls ? ' ' + cls : '');
+  b.innerHTML = label + '<small>' + sub + '</small>';
+  if (!list.length) b.disabled = true;
+  b.onclick = () => startSet(label, list);
+  container.appendChild(b);
+}
+function renderSelect() {
+  const uniq = new Set(words.map(w => w.jp)).size;
+  document.getElementById('selectSub').textContent =
+    '교재 79~84쪽 · 단어 ' + uniq + '개 · 다의어 분리 후 카드 ' + words.length + '장';
+
+  const top = document.getElementById('topSets'); top.innerHTML = '';
+  setButton(top, '전체', words.length + '장', words, 'wide hero');
+  const starred = words.filter(w => w.star > 0);
+  const triple = words.filter(w => w.star >= 2);
+  setButton(top, '교재 ★ 단어', starred.length + '장', starred, 'gold');
+  setButton(top, '★★ 이상', triple.length + '장', triple, 'gold');
+  const bm = words.filter(w => bookmarks.has(cardKey(w)));
+  setButton(top, '북마크', bm.length ? bm.length + '장' : '없음', bm, 'wide');
+
+  const ps = document.getElementById('posSets'); ps.innerHTML = '';
+  POS_ORDER.forEach(p => {
+    const l = words.filter(w => w.pos === p);
+    if (l.length) setButton(ps, p, l.length + '장', l);
+  });
+
+  const cs = document.getElementById('chunkSets'); cs.innerHTML = '';
+  for (let i = 0; i < words.length; i += 50) {
+    const l = words.slice(i, i + 50);
+    setButton(cs, 'Set ' + (i / 50 + 1), (i + 1) + '~' + (i + l.length) + ' · ' + l[0].jp + '…', l);
+  }
+}
+function goSelect() {
+  clearInterval(timerId);
+  if (window.speechSynthesis) speechSynthesis.cancel();
+  document.getElementById('studyScreen').classList.remove('active');
+  document.getElementById('selectScreen').classList.add('active');
+  renderSelect();
+}
+function startSet(name, list) {
+  setName = name; pool = list.slice();
+  document.getElementById('headerTitle').textContent = name;
+  document.getElementById('selectScreen').classList.remove('active');
+  document.getElementById('studyScreen').classList.add('active');
+  beginRound(pool);
+}
+
+/* ---------- 라운드 ---------- */
+function beginRound(list) {
+  deck = shuffle(list); idx = 0; studyList = []; knowList = [];
+  busy = false;
+  toggleStudyUI(true);
+  timerStart = Date.now();
+  clearInterval(timerId);
+  timerId = setInterval(() => {
+    document.getElementById('timer').textContent = fmt(Date.now() - timerStart);
+  }, 500);
+  document.getElementById('timer').textContent = '00:00';
+  hideHints();
+  showCard();
+}
+function toggleStudyUI(on) {
+  document.getElementById('mainArea').style.display = on ? '' : 'none';
+  document.getElementById('bottomArea').style.display = on ? '' : 'none';
+  document.getElementById('optionsRow').style.visibility = on ? '' : 'hidden';
+  document.getElementById('doneArea').classList.toggle('active', !on);
+}
+
+function showCard() {
+  const w = deck[idx];
+  const kd = document.getElementById('kanjiDisplay');
+  kd.textContent = w.jp;
+  kd.classList.toggle('long', [...w.jp].length >= 6);
+
+  const nuanceCtxEl = document.getElementById('nuanceContext');
+  nuanceCtxEl.textContent = w.nuance ? '「' + w.nuance + '」' : '';
+
+  document.getElementById('meta').innerHTML =
+    w.pos + (w.star ? ' · <span class="stars">' + '★'.repeat(w.star) + '</span>' : '');
+
+  // 예문: 【】 안 = 타깃 단어(청록 밑줄), 나머지 회색. 항상 표시
+  const exEl = document.getElementById('example');
+  exEl.textContent = '';
+  const m = (w.ex || '').match(/^(.*?)【(.*?)】(.*)$/);
+  if (m) {
+    const hl = document.createElement('span');
+    hl.className = 'hl'; hl.textContent = m[2];
+    exEl.append(m[1], hl, m[3]);
+  } else exEl.textContent = w.ex || '';
+
+  // 한국어 힌트 = 뜻 + 예문 해석
+  document.getElementById('hintKrMain').textContent = w.kr;
+  document.getElementById('hintExKr').textContent = w.exKr || '';
+  document.getElementById('hintRd').textContent = w.rd;
+
+  document.getElementById('btnKr').classList.remove('revealed');
+  document.getElementById('btnRd').classList.remove('revealed');
+
+  const ci = document.getElementById('cardInner');
+  ci.classList.remove('swipe-left', 'swipe-right');
+
+  document.getElementById('btnBookmark').classList.toggle('on', bookmarks.has(cardKey(w)));
+  updateProgress();
+}
+
+function updateProgress() {
+  const total = deck.length;
+  const done = Math.min(idx, total);
+  document.getElementById('counter').textContent = Math.min(idx + 1, total) + ' / ' + total;
+  document.getElementById('remain').textContent = total - done;
+  document.getElementById('progressFill').style.width = (total ? done / total * 100 : 0) + '%';
+  document.getElementById('progDone').textContent = '완료 ' + done;
+  document.getElementById('progLeft').textContent = '남음 ' + (total - done);
+}
+
+/* ---------- 힌트 ---------- */
+function hideHints() {
+  ['hintKr', 'hintRd'].forEach(id => {
+    document.getElementById(id).classList.remove('visible');
+  });
+}
+function toggleHint(which) {
+  const el = document.getElementById('hint' + which);
+  const on = el.classList.toggle('visible');
+  document.getElementById('btn' + which).classList.toggle('revealed', on);
+}
+
+/* ---------- 넘기기 ---------- */
+function next(action) {
+  if (busy || idx >= deck.length) return;
+  busy = true;
+  const w = deck[idx];
+
+  hideHints();                                   // 1. 반드시 먼저
+  document.getElementById('cardInner').classList.add(action === 'study' ? 'swipe-left' : 'swipe-right'); // 2.
+
+  if (action === 'study') {
+    if (!studyList.includes(w)) studyList.push(w);
+    if (loopMode) deck.push(w);                  // ∞: 라운드 끝에 다시 등장
+  } else {
+    if (!knowList.includes(w)) knowList.push(w);
+  }
+
+  setTimeout(() => {                             // 3.
+    idx++;
+    busy = false;
+    if (idx >= deck.length) showDone(); else showCard();
+  }, 220);
+}
+
+function showDone() {
+  clearInterval(timerId);
+  updateProgress();
+  document.getElementById('counter').textContent = deck.length + ' / ' + deck.length;
+  toggleStudyUI(false);
+  const unknownCount = loopMode ? 0 : studyList.length;
+  document.getElementById('doneKnow').textContent = knowList.length;
+  document.getElementById('doneStudy').textContent = studyList.length;
+  document.getElementById('doneTime').textContent = '소요 시간 ' + fmt(Date.now() - timerStart);
+
+  const retryBtn = document.getElementById('btnRetry');
+  if (studyList.length > 0) {
+    retryBtn.style.display = '';
+    document.getElementById('retryCount').textContent = '(' + studyList.length + '장)';
+  } else {
+    retryBtn.style.display = 'none';
+  }
+}
+
+function restart(onlyStudy) {
+  const list = onlyStudy && studyList.length ? studyList.slice() : pool;
+  beginRound(list);
+}
+
+/* ---------- 옵션 ---------- */
+function toggleBookmark() {
+  const w = deck[idx]; if (!w) return;
+  const k = cardKey(w);
+  if (bookmarks.has(k)) bookmarks.delete(k); else bookmarks.add(k);
+  saveBookmarks();
+  document.getElementById('btnBookmark').classList.toggle('on', bookmarks.has(k));
+}
+function toggleLoop() {
+  loopMode = !loopMode;
+  document.getElementById('btnLoop').classList.toggle('on', loopMode);
+}
+function speak() {
+  const w = deck[idx]; if (!w || !window.speechSynthesis) return;
+  speechSynthesis.cancel();
+  const text = w.rd.split('（')[0];
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = 'ja-JP'; u.rate = 0.9;
+  const v = speechSynthesis.getVoices().find(v => v.lang && v.lang.startsWith('ja'));
+  if (v) u.voice = v;
+  speechSynthesis.speak(u);
+}
+
+/* ---------- 키보드 (데스크톱) ---------- */
+document.addEventListener('keydown', e => {
+  if (!document.getElementById('studyScreen').classList.contains('active')) return;
+  if (document.getElementById('doneArea').classList.contains('active')) return;
+  if (e.repeat || e.ctrlKey || e.metaKey || e.altKey) return;
+  // e.code 기준 → 한글 입력 상태(ㅂㅈㅁㄴ)에서도 동작
+  const c = e.code;
+  if (c === 'KeyQ' || e.key === '1') toggleHint('Kr');
+  else if (c === 'KeyW' || e.key === '2') toggleHint('Rd');
+  else if (c === 'KeyA' || e.key === 'ArrowLeft') next('study');
+  else if (c === 'KeyS' || e.key === 'ArrowRight') next('know');
+  else if (c === 'Space') { e.preventDefault(); speak(); }
+  else if (c === 'KeyB') toggleBookmark();
+  else return;
+  e.preventDefault();
+});
+
+if (window.speechSynthesis) speechSynthesis.onvoiceschanged = () => {};
+renderSelect();
+</script>
+</body>
+</html>
