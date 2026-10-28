@@ -75,6 +75,18 @@ npm run test:e2e
 
 공개 배포 전 아래 저작권 주의를 먼저 확인하세요. 이 저장소에서 자동 배포하거나 게시하지 않습니다.
 
+### Docker + Nginx
+
+데이터셋 루트에서 멀티스테이지 이미지를 빌드하고 로컬 포트에 실행합니다. 빌드 단계만 Node.js를 사용하며 최종 이미지는 비루트 Nginx와 정적 `out/` 파일만 포함합니다.
+
+```bash
+cd jlpt-vocabulary-dataset
+docker compose up -d --build
+curl http://127.0.0.1:8081/healthz
+```
+
+기본 공개 주소는 `http://127.0.0.1:8081`입니다. 포트를 바꾸려면 `JLPT_WEB_PORT=18081 docker compose up -d --build`처럼 실행합니다. 상태와 로그는 `docker compose ps`, `docker compose logs -f web`으로 확인하고 중지는 `docker compose down`으로 수행합니다.
+
 ### Vercel
 
 - 저장소: `egod1537/jlpt`
