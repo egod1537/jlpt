@@ -92,7 +92,9 @@ test("one book tap starts flashcards while its menu keeps details available", as
   await expect(readingField.getByText("あんじ", { exact: true })).toBeVisible();
   expect(await hintLayout()).toEqual(hiddenLayout);
   await page.getByRole("button", { name: /한국어/ }).click();
-  await expect(meaningField.getByText("암시", { exact: true })).toBeVisible();
+  const meaningText = meaningField.getByText("암시", { exact: true });
+  await expect(meaningText).toBeVisible();
+  expect(await meaningText.evaluate((element) => ({ whiteSpace: getComputedStyle(element).whiteSpace, textOverflow: getComputedStyle(element).textOverflow }))).toEqual({ whiteSpace: "normal", textOverflow: "clip" });
   expect(await hintLayout()).toEqual(hiddenLayout);
   await page.getByRole("button", { name: "학습 중단" }).click();
 

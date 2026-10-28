@@ -347,15 +347,15 @@ export function MobileStudyPage() {
           {entry.examples[0] ? <p className="jp mt-4 max-w-full text-[clamp(14px,4vw,17px)] leading-7 text-app-muted">{highlightedExample(entry.examples[0].ja)}</p> : null}
           <div className="my-4 h-px w-3/5 bg-app-border" />
           <div className="grid w-full max-w-md grid-rows-[3.5rem_5rem] gap-2">
-            <div role="group" aria-label="히라가나 텍스트 필드" className="grid min-w-0 grid-cols-[4.5rem_minmax(0,1fr)] items-center gap-3 rounded-xl border border-app-border bg-app-raised px-3">
+            <div role="group" aria-label="히라가나 텍스트 필드" className="grid min-w-0 overflow-hidden grid-cols-[4.5rem_minmax(0,1fr)] items-center gap-3 rounded-xl border border-app-border bg-app-raised px-3">
               <span className="jp text-left text-xs font-bold text-app-muted">ひらがな</span>
-              <p aria-hidden={!showReading} className={"jp min-w-0 overflow-hidden text-ellipsis whitespace-nowrap text-left text-[clamp(14px,4vw,18px)] font-medium text-app-meaning " + (showReading ? "visible" : "invisible")} title={entry.reading || "읽기 미확인"}>{entry.reading || "읽기 미확인"}</p>
+              <p aria-hidden={!showReading} className={"jp max-h-full min-w-0 overflow-y-auto break-words text-left text-[clamp(14px,4vw,18px)] font-medium leading-6 text-app-meaning " + (showReading ? "visible" : "invisible")}>{entry.reading || "읽기 미확인"}</p>
             </div>
-            <div role="group" aria-label="한국어 뜻 텍스트 필드" className="grid min-w-0 grid-cols-[4.5rem_minmax(0,1fr)] items-center gap-3 rounded-xl border border-app-border bg-app-raised px-3">
+            <div role="group" aria-label="한국어 뜻 텍스트 필드" className="grid min-w-0 overflow-hidden grid-cols-[4.5rem_minmax(0,1fr)] items-center gap-3 rounded-xl border border-app-border bg-app-raised px-3">
               <span className="text-left text-xs font-bold text-app-muted">한국어</span>
-              <div aria-hidden={!showMeaning} className={"min-w-0 overflow-hidden text-left " + (showMeaning ? "visible" : "invisible")}>
-                <p className="overflow-hidden text-ellipsis whitespace-nowrap text-[clamp(15px,4.5vw,19px)] font-medium text-app-meaning" title={entry.meanings.join(", ") || "뜻 미확인"}>{entry.meanings.join(", ") || "뜻 미확인"}</p>
-                {entry.examples[0]?.ko ? <p className="overflow-hidden text-ellipsis whitespace-nowrap text-sm text-orange-400" title={entry.examples[0].ko}>{entry.examples[0].ko}</p> : null}
+              <div aria-hidden={!showMeaning} className={"max-h-full min-w-0 overflow-y-auto py-1 text-left " + (showMeaning ? "visible" : "invisible")}>
+                <p className="break-words text-[clamp(15px,4.5vw,19px)] font-medium leading-6 text-app-meaning">{entry.meanings.join(", ") || "뜻 미확인"}</p>
+                {entry.examples[0]?.ko ? <p className="break-words text-sm leading-5 text-orange-400">{entry.examples[0].ko}</p> : null}
               </div>
             </div>
           </div>
