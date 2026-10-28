@@ -36,7 +36,7 @@ export function MobileStudyPage() {
 
   useEffect(() => { void (async () => {
     try {
-      const [bookResponse, folderResponse, dueResponse] = await Promise.all([fetch("/api/books?limit=500&sort=name", { cache: "no-store" }), fetch("/api/folders", { cache: "no-store" }), fetch("/api/study/cards?mode=due&limit=1", { cache: "no-store" })]);
+      const [bookResponse, folderResponse, dueResponse] = await Promise.all([fetch("/api/books?limit=500&sort=name", { cache: "no-store" }), fetch("/api/folders", { cache: "no-store" }), fetch("/api/study/cards?mode=due&countOnly=true", { cache: "no-store" })]);
       if (bookResponse.ok) setBooks((await bookResponse.json()).books);
       if (folderResponse.ok) setFolders((await folderResponse.json()).folders);
       if (dueResponse.ok) setDueCount((await dueResponse.json()).totalMatches);
