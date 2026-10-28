@@ -1,28 +1,23 @@
 import { expect, test, type Page } from "@playwright/test";
 
-const password = "E2E-only-password-2026!";
-async function login(page: Page) {
-  await page.goto("/login");
-  await page.getByLabel("사용자 이름").fill("owner");
-  await page.getByLabel("비밀번호").fill(password);
-  await page.getByRole("button", { name: "로그인" }).click();
+async function openLibrary(page: Page) {
+  await page.goto("/books");
   await expect(page).toHaveURL(/\/books/);
 }
 
-test("unauthenticated pages and APIs expose no vocabulary", async ({ page, request }) => {
+test("app and data APIs open without login", async ({ page, request }) => {
   await page.goto("/books");
-  await expect(page).toHaveURL(/\/login/);
-  await expect(page.getByText("한끝 단어장1")).toHaveCount(0);
-  for (const path of ["/api/bootstrap", "/api/books", "/api/search?q=学&scope=words", "/api/stats/overview", "/api/imports/preview"]) {
-    const response = path.endsWith("preview") ? await request.post(path) : await request.get(path);
-    expect(response.status(), path).toBe(401);
+  await expect(page).toHaveURL(/\/books/);
+  await expect(page.getByRole("heading", { name: "단어장" })).toBeVisible();
+  for (const path of ["/api/bootstrap", "/api/books", "/api/search?q=学&scope=words", "/api/stats/overview"]) {
+    expect((await request.get(path)).status(), path).toBe(200);
   }
   expect((await request.get("/data/collections.json")).status()).toBe(404);
   expect((await request.get("/data/wordbooks/session-008.json")).status()).toBe(404);
 });
 
-test("owner login, library search, book detail, and logout", async ({ page }) => {
-  await login(page);
+test("library search and book detail work while the old login URL redirects", async ({ page }) => {
+  await openLibrary(page);
   await expect(page.getByRole("heading", { name: "단어장" })).toBeVisible();
   const search = page.getByPlaceholder("폴더·세트·단어 검색...");
   await search.fill("한끝"); await search.press("Enter");
@@ -30,15 +25,17 @@ test("owner login, library search, book detail, and logout", async ({ page }) =>
   await expect(page.getByRole("heading", { level: 1, name: /한끝 단어장1/ })).toBeVisible();
   await expect(page.locator("ol button").first()).toBeVisible(); await page.locator("ol button").first().click();
   await expect(page.getByRole("heading", { name: "단어 편집" })).toBeVisible(); await page.keyboard.press("Escape");
-  await page.goto("/settings"); await page.getByRole("button", { name: /로그아웃/ }).click(); await expect(page).toHaveURL(/\/login/);
-  await page.goBack(); await expect(page).toHaveURL(/\/login/);
+  await page.goto("/settings"); await expect(page.getByText("로그인 없이 바로 사용합니다.")).toBeVisible();
+  await page.goto("/login"); await expect(page).toHaveURL(/\/books/);
 });
 
-test("folder creation persists and CSRF blocks headerless mutations", async ({ page }, testInfo) => {
+test("folder creation persists and origin checks block cross-site mutations", async ({ page, request }, testInfo) => {
   test.skip(testInfo.project.name !== "desktop", "mutation journey runs once");
-  await login(page);
-  const forbidden = await page.evaluate(async () => (await fetch("/api/sync/mutations", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ deviceId: "e2e", mutations: [] }) })).status);
-  expect(forbidden).toBe(403);
+  await openLibrary(page);
+  const forbidden = await request.post("/api/sync/mutations", { headers: { Origin: "https://evil.example" }, data: { deviceId: "e2e", mutations: [] } });
+  expect(forbidden.status()).toBe(403);
+  const sameOrigin = await page.evaluate(async () => (await fetch("/api/sync/mutations", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ deviceId: "e2e", mutations: [] }) })).status);
+  expect(sameOrigin).toBe(400);
   await page.getByRole("button", { name: "추가" }).click(); await page.getByRole("tab", { name: /폴더/ }).click();
   await page.getByLabel("폴더 이름").fill("E2E 폴더"); await page.getByRole("button", { name: "저장" }).click();
   await expect(page.getByText(/폴더를 저장했습니다/)).toBeVisible(); await page.keyboard.press("Escape");
@@ -58,7 +55,7 @@ test("folder creation persists and CSRF blocks headerless mutations", async ({ p
 
 test("original entry edits propagate to search and study", async ({ page }, testInfo) => {
   test.skip(testInfo.project.name !== "desktop", "mutation journey runs once");
-  await login(page); await page.goto("/books/session-013");
+  await openLibrary(page); await page.goto("/books/session-013");
   await page.locator("ol button").first().click();
   const dialog = page.getByRole("dialog");
   await dialog.getByLabel("읽기", { exact: true }).fill("e2e-よみ");
@@ -78,7 +75,7 @@ test("original entry edits propagate to search and study", async ({ page }, test
 
 test("CSV preview imports a book and JSON export downloads", async ({ page }, testInfo) => {
   test.skip(testInfo.project.name !== "desktop", "import journey runs once");
-  await login(page); await page.getByRole("button", { name: "추가" }).click(); await page.getByRole("tab", { name: /가져오기/ }).click();
+  await openLibrary(page); await page.getByRole("button", { name: "추가" }).click(); await page.getByRole("tab", { name: /가져오기/ }).click();
   await page.getByLabel("CSV 또는 JSON 파일").setInputFiles({ name: "e2e-import.csv", mimeType: "text/csv", buffer: Buffer.from("term,reading,meanings,tags\n試験語,しけんご,시험용 단어,e2e\n") });
   await page.getByRole("button", { name: "파일 검사" }).click();
   await expect(page.getByText(/총 1행 · 정상 1 · 오류 0/)).toBeVisible();
@@ -92,7 +89,7 @@ test("CSV preview imports a book and JSON export downloads", async ({ page }, te
 
 test("study requires reveal and records exactly one rating", async ({ page }, testInfo) => {
   test.skip(testInfo.project.name !== "desktop", "study journey runs once");
-  await login(page); await page.goto("/study?books=session-013");
+  await openLibrary(page); await page.goto("/study?books=session-013");
   await page.getByRole("button", { name: /새 학습 시작/ }).click(); await expect(page.getByText("1 / 20")).toBeVisible();
   await expect(page.getByRole("button", { name: /알겠음/ })).toBeDisabled(); await page.getByRole("button", { name: /정답 보기/ }).click();
   await page.getByRole("button", { name: /알겠음/ }).click(); await expect(page.getByText("2 / 20")).toBeVisible();
@@ -101,7 +98,7 @@ test("study requires reveal and records exactly one rating", async ({ page }, te
 });
 
 test("stats render and layout never overflows", async ({ page }) => {
-  await login(page); await page.goto("/stats"); await expect(page.getByRole("heading", { name: "통계" })).toBeVisible();
+  await openLibrary(page); await page.goto("/stats"); await expect(page.getByRole("heading", { name: "통계" })).toBeVisible();
   await expect(page.getByText("평가 횟수", { exact: true })).toBeVisible();
   const overflow = await page.evaluate(() => document.documentElement.scrollWidth > document.documentElement.clientWidth);
   expect(overflow).toBe(false);
@@ -114,7 +111,7 @@ test("a second browser sees a synced rating in server statistics", async ({ brow
   const contextA = await browser.newContext(); const contextB = await browser.newContext();
   const pageA = await contextA.newPage(); const pageB = await contextB.newPage();
   try {
-    await login(pageA); await login(pageB);
+    await openLibrary(pageA); await openLibrary(pageB);
     const count = (page: Page) => page.evaluate(async () => { const today = new Date(Date.now() + 9 * 60 * 60 * 1_000).toISOString().slice(0, 10); return (await (await fetch(`/api/stats/overview?from=2026-01-01&to=${today}`)).json()).totalReviewEvents as number; });
     const before = await count(pageB);
     await pageA.goto("/study?books=session-014"); await pageA.getByRole("button", { name: /새 학습 시작/ }).click(); await pageA.getByRole("button", { name: /정답 보기/ }).click(); await pageA.getByRole("button", { name: /쉬움/ }).click();
@@ -127,7 +124,7 @@ test("an offline rating survives reload and syncs exactly once", async ({ browse
   test.skip(testInfo.project.name !== "desktop", "offline journey runs once");
   const context = await browser.newContext(); const page = await context.newPage();
   try {
-    await login(page);
+    await openLibrary(page);
     const count = () => page.evaluate(async () => { const today = new Date(Date.now() + 9 * 60 * 60 * 1_000).toISOString().slice(0, 10); return (await (await fetch(`/api/stats/overview?from=2026-01-01&to=${today}`)).json()).totalReviewEvents as number; });
     const before = await count();
     await page.goto("/study?books=session-015"); await page.getByRole("button", { name: /새 학습 시작/ }).click(); await page.getByRole("button", { name: /정답 보기/ }).click();
@@ -138,18 +135,9 @@ test("an offline rating survives reload and syncs exactly once", async ({ browse
   } finally { await context.close(); }
 });
 
-test("login cookie flags, origin checks, and brute force rate limit", async ({ request }, testInfo) => {
+test("login APIs are removed", async ({ request }, testInfo) => {
   test.skip(testInfo.project.name !== "desktop", "security journey runs once");
-  const crossOrigin = await request.post("/api/auth/login", { headers: { Origin: "https://evil.example" }, data: { username: "owner", password } });
-  expect(crossOrigin.status()).toBe(403);
-  const success = await request.post("/api/auth/login", { headers: { Origin: "http://127.0.0.1:4173" }, data: { username: "owner", password } });
-  expect(success.status()).toBe(200);
-  const cookie = success.headers()["set-cookie"];
-  expect(cookie).toContain("HttpOnly"); expect(cookie.toLowerCase()).toContain("samesite=lax");
-  for (let attempt = 0; attempt < 5; attempt += 1) {
-    const response = await request.post("/api/auth/login", { headers: { Origin: "http://127.0.0.1:4173" }, data: { username: "nobody", password: "wrong" } });
-    expect(response.status()).toBe(401);
-  }
-  const blocked = await request.post("/api/auth/login", { headers: { Origin: "http://127.0.0.1:4173" }, data: { username: "nobody", password: "wrong" } });
-  expect(blocked.status()).toBe(429);
+  expect((await request.post("/api/auth/login", { data: {} })).status()).toBe(404);
+  expect((await request.post("/api/auth/logout")).status()).toBe(404);
+  expect((await request.get("/api/me")).status()).toBe(404);
 });

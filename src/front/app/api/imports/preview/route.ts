@@ -40,7 +40,7 @@ export async function POST(request: NextRequest) {
     const summary = { filename: file.name.slice(0, 255), suggestedTitle: parsed.title || file.name.replace(/\.[^.]+$/, "").slice(0, 160), category: parsed.category, originalId: parsed.originalId, totalRows: parsed.entries.length + parsed.errors.length, validRows: parsed.entries.length, invalidRows: parsed.errors.length, duplicates };
     db.transaction(() => {
       db.prepare("DELETE FROM import_previews WHERE expires_at<?").run(new Date().toISOString());
-      db.prepare("INSERT INTO import_previews(preview_id,owner_id,mime,format,source_hash,source_blob,mapping_json,summary_json,expires_at,committed_at) VALUES (?,'owner',?,?,?,?,?,?,?,NULL)")
+      db.prepare("INSERT INTO import_previews(preview_id,mime,format,source_hash,source_blob,mapping_json,summary_json,expires_at,committed_at) VALUES (?,?,?,?,?,?,?,?,NULL)")
         .run(previewId, file.type || "application/octet-stream", format, sourceHash, source, JSON.stringify(parsed.mapping), JSON.stringify(summary), expiresAt);
     })();
     return apiJson({

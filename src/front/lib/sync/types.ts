@@ -36,5 +36,4 @@ export type SyncState =
   | { state: "pending"; pending: number; conflicts: number }
   | { state: "offline"; pending: number; conflicts: number }
   | { state: "conflict"; pending: number; conflicts: number }
-  | { state: "auth"; pending: number; conflicts: number }
   | { state: "error"; pending: number; conflicts: number };

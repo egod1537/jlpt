@@ -43,18 +43,10 @@ export function subscribeSync(listener: Listener) {
   return () => listeners.delete(listener);
 }
 
-async function csrfToken() {
-  const response = await fetch("/api/me", { cache: "no-store" });
-  if (response.status === 401) throw new Error("AUTH");
-  if (!response.ok) throw new Error("CSRF");
-  return (await response.json() as { csrfToken: string }).csrfToken;
-}
-
 async function bootstrapIfNeeded() {
   const db = await clientDatabase();
   if (await db.get("meta", "bootstrapped")) return;
   const response = await fetch("/api/bootstrap", { cache: "no-store" });
-  if (response.status === 401) throw new Error("AUTH");
   if (!response.ok) throw new Error("BOOTSTRAP");
   await storeBootstrap(await response.json());
 }
@@ -63,17 +55,15 @@ async function pushOutbox() {
   const db = await clientDatabase();
   const pending = (await db.getAllFromIndex("outbox", "status", "pending")).sort((a, b) => a.createdAt.localeCompare(b.createdAt)).slice(0, 20);
   if (!pending.length) return;
-  const token = await csrfToken();
   const attemptedAt = new Date().toISOString();
   const attemptTx = db.transaction("outbox", "readwrite");
   for (const record of pending) await attemptTx.store.put({ ...record, attempts: record.attempts + 1, lastAttemptAt: attemptedAt });
   await attemptTx.done;
   const response = await fetch("/api/sync/mutations", {
     method: "POST",
-    headers: { "Content-Type": "application/json", "X-CSRF-Token": token },
+    headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ deviceId: await deviceId(), mutations: pending.map((record) => record.mutation) }),
   });
-  if (response.status === 401) throw new Error("AUTH");
   if (!response.ok) throw new Error("PUSH");
   const body = await response.json() as { results: Array<{ operationId: string; status: string; error?: { code: string; message: string }; entity?: unknown }> };
   const tx = db.transaction("outbox", "readwrite");
@@ -108,7 +98,6 @@ async function pullChanges() {
   let hasMore = true;
   while (hasMore) {
     const response = await fetch(`/api/sync/changes?after=${cursor}&limit=200`, { cache: "no-store" });
-    if (response.status === 401) throw new Error("AUTH");
     if (!response.ok) throw new Error("PULL");
     const body = await response.json() as { changes: SyncChange[]; nextCursor: number; hasMore: boolean };
     await applyChanges(body.changes, body.nextCursor);
@@ -138,10 +127,9 @@ async function executeSync() {
     const channel = new BroadcastChannel("jlpt-sync");
     channel.postMessage({ type: "synced" });
     channel.close();
-  } catch (error) {
+  } catch {
     const counts = await outboxCounts();
-    if (error instanceof Error && error.message === "AUTH") { cancelScheduledRetry(); emit({ state: "auth", ...counts }); }
-    else if (!navigator.onLine) emit({ state: "offline", ...counts });
+    if (!navigator.onLine) emit({ state: "offline", ...counts });
     else { emit({ state: "error", ...counts }); scheduleRetry(); }
   }
 }

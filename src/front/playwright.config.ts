@@ -1,5 +1,7 @@
 import { defineConfig, devices } from "@playwright/test";
 
+const e2ePort = Number(process.env.JLPT_E2E_PORT || 4174);
+
 export default defineConfig({
   testDir: "./e2e",
   outputDir: "/tmp/jlpt-playwright-results",
@@ -7,8 +9,8 @@ export default defineConfig({
   workers: 1,
   retries: 0,
   reporter: "list",
-  use: { baseURL: "http://127.0.0.1:4173", trace: "retain-on-failure" },
-  webServer: { command: "tsx scripts/e2e-server.ts", url: "http://127.0.0.1:4173/healthz", reuseExistingServer: false, timeout: 120_000 },
+  use: { baseURL: `http://127.0.0.1:${e2ePort}`, trace: "retain-on-failure" },
+  webServer: { command: "tsx scripts/e2e-server.ts", url: `http://127.0.0.1:${e2ePort}/healthz`, reuseExistingServer: false, timeout: 120_000 },
   projects: [
     { name: "desktop", use: { ...devices["Desktop Chrome"], viewport: { width: 1280, height: 800 } } },
     { name: "mobile-360", use: { ...devices["iPhone 13"], browserName: "chromium", viewport: { width: 360, height: 800 } } },

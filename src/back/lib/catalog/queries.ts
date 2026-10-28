@@ -82,7 +82,7 @@ export function searchCatalog(db: AppDatabase, query: string, scope: "books" | "
   return rows.filter((row) => (!status || row.status === status) && (!needle || normalizeSearch(`${row.term} ${row.reading || ""} ${row.meanings_json} ${row.tags_json}`).includes(needle))).slice(0, max).map((row) => ({ ...entryFromRow(row), bookTitle: String(row.book_title) }));
 }
 
-export function bootstrap(db: AppDatabase, username: string) {
+export function bootstrap(db: AppDatabase) {
   return db.transaction(() => {
     const folders = listFolders(db);
     const books = listBooks(db, { limit: 500 }).books;
@@ -103,6 +103,6 @@ export function bootstrap(db: AppDatabase, username: string) {
     const activeSessions = (db.prepare("SELECT * FROM study_sessions WHERE status IN ('active','paused') AND deleted_at IS NULL ORDER BY updated_at DESC").all() as Array<Record<string, unknown>>).map(studySessionFromRow);
     const preferences = Object.fromEntries((db.prepare("SELECT key,value_json FROM preferences").all() as Array<{ key: string; value_json: string }>).map((row) => [row.key, JSON.parse(row.value_json)]));
     const cursor = Number((db.prepare("SELECT COALESCE(MAX(seq),0) value FROM sync_changes").get() as { value: number }).value);
-    return { schemaVersion: 1, serverTime: new Date().toISOString(), cursor, owner: { username }, folders, books, reviewStates, activeSessions, preferences };
+    return { schemaVersion: 1, serverTime: new Date().toISOString(), cursor, folders, books, reviewStates, activeSessions, preferences };
   })();
 }

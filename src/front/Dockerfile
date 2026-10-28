@@ -43,7 +43,6 @@ COPY --chown=node:node --from=builder /workspace/src/front/.next/static/ ./src/f
 COPY --chown=node:node --from=builder /workspace/src/back/db/migrations/ ./migrations/
 COPY --chown=node:node --from=builder /workspace/jlpt-vocabulary-dataset/data/ ./seed-data/
 COPY --chown=node:node --from=builder /workspace/src/back/scripts/backup.mjs ./ops/backup.mjs
-COPY --chown=node:node --from=builder /workspace/src/back/scripts/owner.mjs ./ops/owner.mjs
 
 USER node
 EXPOSE 3000

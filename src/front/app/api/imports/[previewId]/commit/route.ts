@@ -28,7 +28,7 @@ export async function POST(request: NextRequest, context: { params: Promise<{ pr
     if (!input.success) return apiError(400, "VALIDATION", "가져오기 설정을 확인해 주세요.");
     const { previewId } = await context.params;
     const db = getDatabase();
-    const preview = db.prepare("SELECT * FROM import_previews WHERE preview_id=? AND owner_id='owner'").get(previewId) as Record<string, unknown> | undefined;
+    const preview = db.prepare("SELECT * FROM import_previews WHERE preview_id=?").get(previewId) as Record<string, unknown> | undefined;
     if (!preview) return apiError(404, "NOT_FOUND", "가져오기 미리보기를 찾을 수 없습니다.");
     const priorSummary = JSON.parse(String(preview.summary_json)) as Record<string, unknown> & { result?: unknown; originalId?: string | null };
     if (preview.committed_at) return apiJson(priorSummary.result);

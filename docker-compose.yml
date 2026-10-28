@@ -20,7 +20,6 @@ services:
       JLPT_MIGRATIONS_DIR: /app/migrations
       JLPT_BACKUP_DIR: /app/backup
       JLPT_APP_ORIGIN: ${JLPT_APP_ORIGIN:-https://jlpt.mangagaki.net}
-      JLPT_TRUST_PROXY: "true"
       JLPT_GIT_REVISION: ${JLPT_GIT_REVISION:-unknown}
     volumes:
       - ${JLPT_DATA_DIR:-./var}:/app/var

@@ -47,15 +47,14 @@ export function AddContentDialog({ children }: { children: ReactNode }) {
     }
     if (!file) { setMessage("파일을 선택해 주세요."); return; }
     try {
-      const me = await fetch("/api/me", { cache: "no-store" }).then((response) => response.json()) as { csrfToken: string };
       if (!preview) {
         const upload = new FormData(); upload.set("file", file);
-        const response = await fetch("/api/imports/preview", { method: "POST", headers: { "X-CSRF-Token": me.csrfToken }, body: upload });
+        const response = await fetch("/api/imports/preview", { method: "POST", body: upload });
         const body = await response.json();
         if (!response.ok) throw new Error(body.error?.message || "미리보기에 실패했습니다.");
         setPreview(body); setMapping(body.mapping || {}); setMessage(`정상 ${body.validRows}행, 오류 ${body.invalidRows}행을 확인했습니다.`);
       } else {
-        const response = await fetch(`/api/imports/${preview.previewId}/commit`, { method: "POST", headers: { "Content-Type": "application/json", "X-CSRF-Token": me.csrfToken }, body: JSON.stringify({ title: form.get("title") || preview.suggestedTitle, category: form.get("category") || null, folderId: form.get("folderId") || null, mapping, validRowsOnly: form.get("validRowsOnly") === "on", duplicatePolicy: "keep-separate" }) });
+        const response = await fetch(`/api/imports/${preview.previewId}/commit`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ title: form.get("title") || preview.suggestedTitle, category: form.get("category") || null, folderId: form.get("folderId") || null, mapping, validRowsOnly: form.get("validRowsOnly") === "on", duplicatePolicy: "keep-separate" }) });
         const body = await response.json();
         if (!response.ok) throw new Error(body.error?.message || "가져오기에 실패했습니다.");
         setImportedBookId(body.bookId); setMessage(`${body.insertedEntries}개 단어를 가져왔습니다.`); window.dispatchEvent(new CustomEvent("jlpt-data-changed"));

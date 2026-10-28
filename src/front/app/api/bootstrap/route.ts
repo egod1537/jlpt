@@ -10,5 +10,5 @@ export const dynamic = "force-dynamic";
 export function GET(request: NextRequest) {
   const auth = authorize(request);
   if (!auth.ok) return auth.response;
-  return apiJson(bootstrap(getDatabase(), auth.session.owner.username));
+  return apiJson(bootstrap(getDatabase()));
 }
