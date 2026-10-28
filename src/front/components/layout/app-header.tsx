@@ -37,7 +37,7 @@ export function AppHeader() {
         </nav>
       </div>
     </header>
-    <nav aria-label="주요 메뉴" className="fixed inset-x-0 bottom-0 z-40 grid grid-cols-3 border-t border-app-border bg-app-surface/95 pb-[env(safe-area-inset-bottom)] backdrop-blur md:sticky md:top-[calc(3.5rem+env(safe-area-inset-top))] md:mx-auto md:max-w-md md:rounded-b-2xl md:border-x">
+    <nav aria-label="주요 메뉴" className="fixed inset-x-0 bottom-0 z-40 mx-auto grid grid-cols-3 border-t border-app-border bg-app-surface/95 pb-[env(safe-area-inset-bottom)] backdrop-blur md:max-w-md md:rounded-t-2xl md:border-x">
       {navigation.map(({ href, label, icon: Icon }) => {
         const active = pathname.startsWith(href);
         return <Link key={href} href={href} aria-current={active ? "page" : undefined} className={cn("flex min-h-16 flex-col items-center justify-center gap-1 text-xs font-bold text-app-muted", active && "text-app-accent")}><Icon aria-hidden="true" className="h-5 w-5" />{label}</Link>;

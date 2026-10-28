@@ -36,6 +36,12 @@ test("dark metadata, icons, accessibility and layout hold on every required view
   await expect(page.locator('meta[name="theme-color"]')).toHaveAttribute("content", "#0f1218");
   expect(await page.evaluate(() => getComputedStyle(document.body).backgroundColor)).toBe("rgb(15, 18, 24)");
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= document.documentElement.clientWidth)).toBe(true);
+  const bottomNavigation = await page.getByRole("navigation", { name: "주요 메뉴" }).evaluate((element) => {
+    const rect = element.getBoundingClientRect();
+    return { position: getComputedStyle(element).position, bottomGap: window.innerHeight - rect.bottom };
+  });
+  expect(bottomNavigation.position).toBe("fixed");
+  expect(Math.abs(bottomNavigation.bottomGap)).toBeLessThan(1);
   const unnamed = await page.locator("button, input, select, a").evaluateAll((elements) => elements.filter((element) => {
     const rect = element.getBoundingClientRect();
     if (!rect.width || !rect.height || element.getAttribute("aria-label") === "Open Next.js Dev Tools") return false;
