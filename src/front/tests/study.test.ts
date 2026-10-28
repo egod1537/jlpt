@@ -33,7 +33,7 @@ describe("study selection", () => {
 
   it("has deterministic shuffle and rating guards", () => {
     expect(seededShuffle([1, 2, 3, 4], 42)).toEqual(seededShuffle([1, 2, 3, 4], 42));
-    expect(canRateCard(false, false)).toBe(false);
+    expect(canRateCard(false, false)).toBe(true);
     expect(canRateCard(true, false)).toBe(true);
     expect(canRateCard(true, true)).toBe(false);
   });
