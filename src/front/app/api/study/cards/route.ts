@@ -24,6 +24,14 @@ export function GET(request: NextRequest) {
   const seed = Number(query.get("seed") || 0);
   if (!new Set(["all", "unseen", "due", "weak"]).has(mode) || !Number.isInteger(limit) || !Number.isFinite(seed) || bookIds.some((id) => !/^[A-Za-z0-9][A-Za-z0-9_-]{0,127}$/.test(id))) return apiError(400, "VALIDATION", "학습 조건을 확인해 주세요.");
   const db = getDatabase();
+  // Count-only requests must not load or group every vocabulary entry.
+  if (query.get("countOnly") === "true" && mode === "due" && bookIds.length === 0) {
+    const due = Number((db.prepare(`SELECT COUNT(DISTINCT r.word_id) count
+      FROM review_states r JOIN book_entries e ON e.word_id=r.word_id JOIN books b ON b.id=e.book_id
+      WHERE r.due_at IS NOT NULL AND r.due_at<=? AND e.deleted_at IS NULL AND e.status='ready' AND b.deleted_at IS NULL`)
+      .get(new Date().toISOString()) as { count: number }).count);
+    return apiJson({ cards: [], totalMatches: due, dueCount: due, serverTime: new Date().toISOString() });
+  }
   const whereBooks = bookIds.length ? ` AND e.book_id IN (${bookIds.map(() => "?").join(",")})` : "";
   const rows = db.prepare(`SELECT e.*,b.title book_title,r.due_at,r.last_reviewed_at,r.last_rating
     FROM book_entries e JOIN books b ON b.id=e.book_id LEFT JOIN review_states r ON r.word_id=e.word_id
