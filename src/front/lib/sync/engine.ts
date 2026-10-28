@@ -43,18 +43,19 @@ export function subscribeSync(listener: Listener) {
   return () => listeners.delete(listener);
 }
 
-async function bootstrapIfNeeded() {
+async function bootstrapIfNeeded(): Promise<boolean> {
   const db = await clientDatabase();
-  if (await db.get("meta", "bootstrapped")) return;
+  if (await db.get("meta", "bootstrapped")) return false;
   const response = await fetch("/api/bootstrap", { cache: "no-store" });
   if (!response.ok) throw new Error("BOOTSTRAP");
   await storeBootstrap(await response.json());
+  return true;
 }
 
-async function pushOutbox() {
+async function pushOutbox(): Promise<boolean> {
   const db = await clientDatabase();
   const pending = (await db.getAllFromIndex("outbox", "status", "pending")).sort((a, b) => a.createdAt.localeCompare(b.createdAt)).slice(0, 20);
-  if (!pending.length) return;
+  if (!pending.length) return false;
   const attemptedAt = new Date().toISOString();
   const attemptTx = db.transaction("outbox", "readwrite");
   for (const record of pending) await attemptTx.store.put({ ...record, attempts: record.attempts + 1, lastAttemptAt: attemptedAt });
@@ -74,6 +75,7 @@ async function pushOutbox() {
     else await tx.store.put({ ...record, status: result.status === "conflict" ? "conflict" : "rejected", error: result.error, serverEntity: result.entity });
   }
   await tx.done;
+  return body.results.some((result) => result.status === "applied" || result.status === "duplicate");
 }
 
 async function applyChanges(changes: SyncChange[], nextCursor: number) {
@@ -92,41 +94,50 @@ async function applyChanges(changes: SyncChange[], nextCursor: number) {
   await tx.done;
 }
 
-async function pullChanges() {
+async function pullChanges(): Promise<boolean> {
   const db = await clientDatabase();
   let cursor = Number(await db.get("meta", "lastAppliedCursor") || 0);
   let hasMore = true;
+  let changed = false;
   while (hasMore) {
     const response = await fetch(`/api/sync/changes?after=${cursor}&limit=200`, { cache: "no-store" });
     if (!response.ok) throw new Error("PULL");
     const body = await response.json() as { changes: SyncChange[]; nextCursor: number; hasMore: boolean };
-    await applyChanges(body.changes, body.nextCursor);
+    if (body.changes.length) {
+      await applyChanges(body.changes, body.nextCursor);
+      changed = true;
+    }
     cursor = body.nextCursor;
     hasMore = body.hasMore;
   }
+  return changed;
 }
 
 async function executeSync() {
   const before = await outboxCounts();
   if (!navigator.onLine) { cancelScheduledRetry(); emit({ state: "offline", ...before }); return; }
   try {
-    await bootstrapIfNeeded();
+    const initialized = await bootstrapIfNeeded();
+    let pushed = false;
     for (;;) {
       const pending = await (await clientDatabase()).getAllFromIndex("outbox", "status", "pending");
       if (!pending.length) break;
-      await pushOutbox();
+      pushed = await pushOutbox() || pushed;
     }
-    await pullChanges();
+    const pulled = await pullChanges();
     const counts = await outboxCounts();
     retryAttempt = 0;
     cancelScheduledRetry();
     if (counts.conflicts) emit({ state: "conflict", ...counts });
     else if (counts.pending) emit({ state: "pending", ...counts });
     else emit({ state: "synced", pending: 0, conflicts: 0, syncedAt: new Date().toISOString() });
-    window.dispatchEvent(new CustomEvent("jlpt-data-changed"));
-    const channel = new BroadcastChannel("jlpt-sync");
-    channel.postMessage({ type: "synced" });
-    channel.close();
+    // A no-op sync should not force every screen to re-fetch its API data.
+    if (initialized || pushed || pulled) {
+      window.dispatchEvent(new CustomEvent("jlpt-data-changed"));
+      const channel = new BroadcastChannel("jlpt-sync");
+      channel.postMessage({ type: "synced" });
+      channel.close();
+    }
   } catch {
     const counts = await outboxCounts();
     if (!navigator.onLine) emit({ state: "offline", ...counts });
