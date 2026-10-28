@@ -1,11 +1,10 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
-import { ArrowLeft, ArrowRight, Eye, Pause, RotateCcw, Shuffle, Sparkles } from "lucide-react";
+import { ArrowLeft, Pause, RotateCcw, Shuffle, Sparkles } from "lucide-react";
 import { useSearchParams } from "next/navigation";
 import { clientDatabase } from "@/lib/sync/client-db";
 import { useSync } from "@/components/sync/sync-provider";
-import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Select } from "@/components/ui/select";
 
