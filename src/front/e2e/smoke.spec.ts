@@ -16,6 +16,36 @@ test("app and data APIs open without login", async ({ page, request }) => {
   expect((await request.get("/data/wordbooks/session-008.json")).status()).toBe(404);
 });
 
+test("favicon and home-screen icons are linked on every viewport", async ({ page, request }, testInfo) => {
+  await page.goto("/books");
+  await expect(page.locator('link[rel="manifest"]')).toHaveAttribute("href", "/manifest.webmanifest");
+  await expect(page.locator('link[rel="icon"][type="image/png"][sizes="16x16"]')).toHaveAttribute("href", "/icons/icon-16x16.png");
+  await expect(page.locator('link[rel="icon"][type="image/png"][sizes="32x32"]')).toHaveAttribute("href", "/icons/icon-32x32.png");
+  await expect(page.locator('link[rel="apple-touch-icon"][sizes="180x180"]')).toHaveAttribute("href", "/icons/apple-touch-icon-180x180.png");
+  await expect(page.locator('meta[name="theme-color"]')).toHaveAttribute("content", "#047857");
+  if (testInfo.project.name !== "desktop") return;
+
+  const manifestResponse = await request.get("/manifest.webmanifest");
+  expect(manifestResponse.status()).toBe(200);
+  expect(manifestResponse.headers()["content-type"]).toContain("application/manifest+json");
+  const manifest = await manifestResponse.json() as { start_url: string; display: string; icons: Array<{ src: string; sizes: string }> };
+  expect(manifest).toMatchObject({ start_url: "/books", display: "standalone" });
+  expect(new Set(manifest.icons.map((icon) => icon.sizes))).toEqual(new Set(["any", "16x16", "32x32", "180x180", "192x192", "512x512"]));
+
+  for (const [path, size] of [["/icons/icon-16x16.png", 16], ["/icons/icon-32x32.png", 32], ["/icons/apple-touch-icon-180x180.png", 180], ["/icons/icon-192x192.png", 192], ["/icons/icon-512x512.png", 512]] as const) {
+    const response = await request.get(path);
+    expect(response.status(), path).toBe(200);
+    expect(response.headers()["content-type"], path).toContain("image/png");
+    const bytes = Buffer.from(await response.body());
+    expect(bytes.readUInt32BE(16), path).toBe(size);
+    expect(bytes.readUInt32BE(20), path).toBe(size);
+  }
+  const svgResponse = await request.get("/icons/jlpt-book.svg");
+  expect(svgResponse.status()).toBe(200);
+  expect(await svgResponse.text()).toContain('fill="#047857"');
+  expect((await request.get("/favicon.ico")).status()).toBe(200);
+});
+
 test("library search and book detail work while the old login URL redirects", async ({ page }) => {
   await openLibrary(page);
   await expect(page.getByRole("heading", { name: "단어장" })).toBeVisible();

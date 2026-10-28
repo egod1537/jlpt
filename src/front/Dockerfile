@@ -40,6 +40,7 @@ ENV NODE_ENV=production \
 WORKDIR /app
 COPY --chown=node:node --from=builder /workspace/src/front/.next/standalone/ ./
 COPY --chown=node:node --from=builder /workspace/src/front/.next/static/ ./src/front/.next/static/
+COPY --chown=node:node --from=builder /workspace/src/front/public/ ./src/front/public/
 COPY --chown=node:node --from=builder /workspace/src/back/db/migrations/ ./migrations/
 COPY --chown=node:node --from=builder /workspace/jlpt-vocabulary-dataset/data/ ./seed-data/
 COPY --chown=node:node --from=builder /workspace/src/back/scripts/backup.mjs ./ops/backup.mjs
