@@ -32,7 +32,7 @@ export function MobileStudyPage() {
   const [resume, setResume] = useState<Session | null>(null); const [phase, setPhase] = useState<Phase>("config"); const [cards, setCards] = useState<Card[]>([]);
   const [position, setPosition] = useState(0); const [revealed, setRevealed] = useState(false); const [sessionId, setSessionId] = useState("");
   const [rated, setRated] = useState<Record<string, Rating>>({}); const [message, setMessage] = useState("");
-  const [notice, setNotice] = useState("");
+  const [notice, setNotice] = useState(""); const [showReading, setShowReading] = useState(false); const [showMeaning, setShowMeaning] = useState(false);
   const revision = useRef(1); const ratingLock = useRef(false);
 
   useEffect(() => { void (async () => {
@@ -69,7 +69,7 @@ export function MobileStudyPage() {
   }
 
   async function begin(existing?: Session) {
-    setPhase("loading"); setMessage(""); setNotice("");
+    setPhase("loading"); setMessage(""); setNotice(""); setShowReading(false); setShowMeaning(false);
     ratingLock.current = false;
     const selectedBooks = existing?.bookIds || booksForScope(bookId); const selectedMode = existing?.mode || mode; const selectedReview = existing?.includeReview ?? includeReview;
     if (existing) { setMode(existing.mode); setIncludeReview(existing.includeReview); setBookId(existing.bookIds.length === 1 ? existing.bookIds[0] : ""); }
@@ -101,33 +101,64 @@ export function MobileStudyPage() {
   const move = useCallback((next: number) => {
     if (next < 0 || next >= cards.length || next === position) return;
     ratingLock.current = false;
-    setPosition(next); setRevealed(false);
+    setPosition(next); setRevealed(false); setShowReading(false); setShowMeaning(false);
     void saveSession({ position: next, revealed: false, ratings: rated, status: "active" });
   }, [cards.length, position, rated, saveSession]);
   const rate = useCallback(async (rating: Rating) => {
-    const card = cards[position]; if (!card || !revealed || rated[card.wordId] || ratingLock.current) return; ratingLock.current = true;
+    const card = cards[position]; if (!card || rated[card.wordId] || ratingLock.current) return; ratingLock.current = true;
     const operationId = crypto.randomUUID();
     try { await queue({ operationId, type: "review.rate", payload: { wordId: card.wordId, rating, sessionId, context: mode === "due" ? "scheduled" : card.review.lastReviewedAt ? "manual" : "new" } }); }
     catch { setNotice("평가를 기기에 저장하지 못했습니다. 저장 공간을 확인한 뒤 다시 평가해 주세요."); ratingLock.current = false; return; }
     const nextRatings = { ...rated, [card.wordId]: rating }; setRated(nextRatings);
     if (position >= cards.length - 1) { await saveSession({ position, revealed: true, ratings: nextRatings, status: "completed" }); setPhase("complete"); }
-    else { const next = position + 1; setPosition(next); setRevealed(false); await saveSession({ position: next, revealed: false, ratings: nextRatings, status: "active" }); ratingLock.current = false; }
+    else { const next = position + 1; setPosition(next); setRevealed(false); setShowReading(false); setShowMeaning(false); await saveSession({ position: next, revealed: false, ratings: nextRatings, status: "active" }); ratingLock.current = false; }
   }, [cards, mode, position, queue, rated, revealed, saveSession, sessionId]);
   const restartWrong = useCallback(async () => {
     const wrong = cards.filter((card) => rated[card.wordId] === "again" || rated[card.wordId] === "hard");
     if (!wrong.length) { setPhase("config"); setResume(null); return; }
     const id = `study-${crypto.randomUUID()}`; const wordIds = wrong.map((card) => card.wordId); const bookIds = [...new Set(wrong.flatMap((card) => card.occurrences.map((entry) => entry.bookId)))];
     await queue({ type: "session.create", payload: { id, bookIds, mode: "weak", includeReview: true, wordIds, position: 0, revealed: false, ratings: {}, status: "active" } });
-    setCards(wrong); setPosition(0); setRevealed(false); setRated({}); setSessionId(id); revision.current = 1; ratingLock.current = false; setMode("weak"); setPhase("study");
+    setCards(wrong); setPosition(0); setRevealed(false); setShowReading(false); setShowMeaning(false); setRated({}); setSessionId(id); revision.current = 1; ratingLock.current = false; setMode("weak"); setPhase("study");
   }, [cards, queue, rated]);
   useEffect(() => { const key = (event: KeyboardEvent) => { if (phase !== "study" || (event.target as HTMLElement)?.closest("input,select,textarea,button,a")) return; if (!revealed && (event.key === " " || event.key === "Enter")) { event.preventDefault(); reveal(); } else if (revealed && /^[1-4]$/.test(event.key)) void rate(ratings[Number(event.key) - 1].value); else if (event.key === "ArrowLeft") move(position - 1); else if (event.key === "ArrowRight") move(position + 1); }; window.addEventListener("keydown", key); return () => window.removeEventListener("keydown", key); }, [move, phase, position, rate, reveal, revealed]);
 
   if (phase === "loading") return <div className="mx-auto max-w-xl space-y-4"><div className="h-8 w-40 animate-pulse rounded bg-slate-200" /><div className="h-96 animate-pulse rounded-3xl bg-slate-200" /></div>;
   if (phase === "study") {
     const card = cards[position]; const entry = card.representative;
-    return <div className="mx-auto flex min-h-[calc(100dvh-9rem-env(safe-area-inset-top)-env(safe-area-inset-bottom))] max-w-xl flex-col">{notice ? <p role="status" className="mb-3 rounded-xl bg-amber-50 p-3 text-sm text-amber-900">{notice}</p> : null}<div className="flex items-center justify-between"><div><p className="font-black tabular-nums">{position + 1} / {cards.length}</p><p className="text-xs text-slate-500">남은 카드 {cards.length - position - 1}개</p></div><Button variant="ghost" onClick={() => void pause()}><Pause className="h-4 w-4" />그만하기</Button></div><div className="mt-3 h-2 overflow-hidden rounded-full bg-slate-200"><div className="h-full bg-emerald-600" style={{ width: `${(position + 1) / cards.length * 100}%` }} /></div>
-      <article className="mt-5 flex min-h-[22rem] flex-1 flex-col items-center justify-center rounded-3xl border border-slate-200 bg-white p-6 text-center shadow-sm"><div className="flex gap-2">{entry.status === "needs-review" ? <Badge variant="warning">검수 필요</Badge> : null}{card.occurrences.length > 1 ? <Badge variant="outline">출처 {card.occurrences.length}</Badge> : null}</div><h1 className="jp mt-6 text-4xl font-black leading-tight sm:text-5xl">{entry.term}</h1>{revealed ? <div className="mt-8 w-full border-t border-slate-200 pt-7"><p className="jp text-lg text-slate-500">{entry.reading || "읽기 미확인"}</p><ul className="mt-4 space-y-2 text-lg font-bold">{entry.meanings.length ? entry.meanings.map((meaning, index) => <li key={`${meaning}-${index}`}>{meaning}</li>) : <li>뜻 미확인</li>}</ul>{entry.examples[0] ? <div className="mt-6 rounded-xl bg-slate-50 p-4 text-left"><p className="jp">{entry.examples[0].ja}</p>{entry.examples[0].ko ? <p className="mt-1 text-sm text-slate-600">{entry.examples[0].ko}</p> : null}</div> : null}<p className="mt-5 text-xs text-slate-500">{entry.bookTitle}</p>{card.occurrences.length > 1 ? <details className="mt-5 rounded-xl border border-slate-200 p-3 text-left"><summary className="min-h-11 cursor-pointer py-2 text-sm font-bold">다른 세트의 의미</summary><ul className="mt-2 space-y-3">{card.occurrences.filter((occurrence) => occurrence.entryId !== entry.entryId).map((occurrence) => <li key={occurrence.entryId} className="text-sm"><p className="font-bold">{occurrence.bookTitle}</p><p className="mt-1 text-slate-600">{occurrence.meanings.join(" · ") || "뜻 미확인"}</p></li>)}</ul></details> : null}</div> : <Button size="lg" className="mt-10" onClick={reveal}><Eye className="h-5 w-5" />정답 보기</Button>}</article>
-      <div className="sticky bottom-[calc(4rem+env(safe-area-inset-bottom))] mt-4 bg-slate-50 py-2"><div className="grid grid-cols-2 gap-2 min-[400px]:grid-cols-4">{ratings.map((item) => <button key={item.value} disabled={!revealed || Boolean(rated[card.wordId])} onClick={() => void rate(item.value)} className={`min-h-14 rounded-xl border bg-white px-2 text-sm font-black disabled:opacity-40 ${item.style}`}><span className="mr-1 text-xs font-normal">{item.key}</span>{item.label}</button>)}</div><div className="mt-2 flex justify-between"><Button variant="ghost" disabled={position === 0} onClick={() => move(position - 1)}><ArrowLeft className="h-4 w-4" />이전</Button><Button variant="ghost" disabled={position === cards.length - 1} onClick={() => move(position + 1)}>다음<ArrowRight className="h-4 w-4" /></Button></div></div></div>;
+    const done = Object.keys(rated).length;
+    return <section className="jlpt-flash mx-auto flex min-h-[calc(100dvh-8rem)] max-w-[480px] flex-col">
+      {notice && <p role="status" className="mx-4 rounded-lg bg-amber-950 p-2 text-sm text-amber-200">{notice}</p>}
+      <header className="flex shrink-0 items-center gap-2 px-3 pt-2">
+        <button aria-label="학습 중단" onClick={() => void pause()} className="flex h-11 w-11 items-center justify-center text-[#9aa5b6]"><ArrowLeft size={22}/></button>
+        <strong className="min-w-0 flex-1 truncate text-sm">{entry.bookTitle}</strong>
+        <span className="text-sm tabular-nums text-[#9aa5b6]">{position + 1} / {cards.length}</span>
+      </header>
+      <div className="flex shrink-0 justify-center gap-6 py-3 text-xs text-[#9aa5b6]">
+        <span>남음 {cards.length - done}</span>
+        <button aria-label="발음 듣기" onClick={() => { if (typeof window === "undefined" || !window.speechSynthesis) return; window.speechSynthesis.cancel(); const utterance = new SpeechSynthesisUtterance(entry.reading || entry.term); utterance.lang = "ja-JP"; utterance.rate = 0.9; window.speechSynthesis.speak(utterance); }}>🔊</button>
+      </div>
+      <article className="flex min-h-0 flex-1 flex-col items-center justify-center overflow-y-auto px-5 text-center">
+        <h1 className="jp text-[clamp(44px,14vw,80px)] font-light leading-tight text-[#4ab8bf]">{entry.term}</h1>
+        {entry.examples[0] && <p className="jp mt-5 text-base leading-7 text-[#9aa5b6]">{entry.examples[0].ja}</p>}
+        <div className="my-5 h-px w-3/5 bg-[#2a313d]" />
+        {showMeaning && <><p className="text-lg font-medium text-[#f97316]">{entry.meanings.join(", ") || "뜻 미확인"}</p>{entry.examples[0]?.ko && <p className="mt-2 text-sm text-[#c2622a]">{entry.examples[0].ko}</p>}</>}
+        {showReading && <p className="jp mt-3 text-lg text-[#f97316]">{entry.reading || "읽기 미확인"}</p>}
+      </article>
+      <div className="shrink-0 px-4">
+        <div className="h-[5px] overflow-hidden rounded-full bg-[#1f2530]"><div className="h-full bg-[#4ab8bf]" style={{ width: (done / cards.length * 100) + "%" }}/></div>
+        <div className="mt-1 flex justify-between text-[11px] text-[#9aa5b6]"><span>완료 {done}</span><span>남음 {cards.length - done}</span></div>
+      </div>
+      <footer className="shrink-0 space-y-2 px-4 pb-[max(20px,env(safe-area-inset-bottom))] pt-2">
+        <div className="grid grid-cols-2 gap-2">
+          <button aria-pressed={showMeaning} onClick={() => { setShowMeaning((v) => !v); setRevealed(true); }} className={"min-h-14 rounded-xl border px-2 " + (showMeaning ? "border-[#4ab8bf] bg-[#1e5f65]" : "border-[#2a313d] bg-[#1f2530]")}>한국어</button>
+          <button aria-pressed={showReading} onClick={() => { setShowReading((v) => !v); setRevealed(true); }} className={"jp min-h-14 rounded-xl border px-2 " + (showReading ? "border-[#4ab8bf] bg-[#1e5f65]" : "border-[#2a313d] bg-[#1f2530]")}>ひらがな</button>
+        </div>
+        <div className="grid grid-cols-2 gap-2">
+          <button onClick={() => void rate("again")} className="min-h-14 rounded-xl bg-[#2a4a6e] px-2 font-bold text-white">✎ 공부하겠음</button>
+          <button onClick={() => void rate("good")} className="min-h-14 rounded-xl bg-[#2e9098] px-2 font-bold text-white">✓ 알고있음</button>
+        </div>
+      </footer>
+    </section>;
   }
   if (phase === "complete") {
     const wrong = Object.values(rated).filter((rating) => rating === "again" || rating === "hard").length;
