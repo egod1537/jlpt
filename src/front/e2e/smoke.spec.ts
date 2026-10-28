@@ -12,6 +12,12 @@ async function expandFolder(page: Page, name: string) {
   if (await row.getAttribute("aria-expanded") === "false") await row.click();
 }
 
+async function chooseAllCards(page: Page, total?: number) {
+  await expect(page.getByRole("heading", { name: "학습 범위 선택" })).toBeVisible();
+  if (total) await expect(page.getByText(`총 ${total}장`, { exact: true })).toBeVisible();
+  await page.getByRole("link", { name: total ? `전체 ${total}장 학습` : /전체 \d+장 학습/ }).click();
+}
+
 test("app, HTML seed and private data APIs open without login", async ({ page, request }, testInfo) => {
   if (testInfo.project.name === "desktop-1280") {
     await page.goto("/study");
@@ -88,7 +94,7 @@ test("dark metadata, icons, accessibility and layout hold on every required view
   }
 });
 
-test("one book tap starts flashcards while its menu keeps details available", async ({ page }) => {
+test("one book tap starts flashcards while its menu keeps details available", async ({ page }, testInfo) => {
   await openLibrary(page);
   const search = page.getByPlaceholder("폴더·세트 검색...");
   await search.fill("N1 유의표현");
@@ -96,6 +102,7 @@ test("one book tap starts flashcards while its menu keeps details available", as
   await expect(directStudy).toBeVisible();
   await directStudy.click();
   await expect(page).toHaveURL(/\/study\?books=html-n1-yuui-79-84&start=1/);
+  await chooseAllCards(page, 268);
   await expect(page.getByRole("heading", { name: "暗示" })).toBeVisible();
   await expect(page.getByText("1 / 268", { exact: true })).toBeVisible();
   await expect(page.getByText("새 학습 설정")).toHaveCount(0);
@@ -130,9 +137,31 @@ test("one book tap starts flashcards while its menu keeps details available", as
   await expect(page.getByText("1 / 268", { exact: true })).toBeVisible();
   await page.getByRole("button", { name: "학습 중단" }).click();
 
+  if (testInfo.project.name === "desktop-1280") {
+    await page.goto("/study?books=html-n1-yuui-79-84&chunk=1&start=1");
+    await expect(page.getByRole("heading", { name: "학습 범위 선택" })).toHaveCount(0);
+    await expect(page.getByRole("heading", { name: "暗示" })).toBeVisible();
+    await expect(page.getByText("1 / 50", { exact: true })).toBeVisible();
+    await page.getByRole("button", { name: "학습 중단" }).click();
+
+    await page.goto("/study?books=session-045&start=1");
+    await expect(page.getByRole("region", { name: "50장씩" }).getByRole("link", { name: "201–244 44장 학습" })).toBeVisible();
+    await expect(page.getByRole("region", { name: "150장씩" }).getByRole("link", { name: "151–244 94장 학습" })).toBeVisible();
+    await page.getByRole("link", { name: "201–244 44장 학습" }).click();
+    await expect(page.getByText("1 / 44", { exact: true })).toBeVisible();
+    await page.getByRole("button", { name: "학습 중단" }).click();
+  }
+
   await page.goto("/study?books=session-045&start=1");
+  await chooseAllCards(page, 244);
   await expect(page.getByRole("heading", { name: "暗示" })).toBeVisible();
   await expect(page.getByText("1 / 244", { exact: true })).toBeVisible();
+  await page.getByRole("button", { name: "학습 중단" }).click();
+
+  await page.goto("/study?books=session-024&start=1");
+  await expect(page.getByRole("heading", { name: "학습 범위 선택" })).toHaveCount(0);
+  await expect(page.getByRole("heading", { name: "もはや" })).toBeVisible();
+  await expect(page.getByText("1 / 32", { exact: true })).toBeVisible();
   await page.getByRole("button", { name: "학습 중단" }).click();
 
   await openLibrary(page);
@@ -214,6 +243,7 @@ test("entry edits propagate to SQL search and the two independent hints", async 
   await page.goto("/search?q=E2E%20편집%20뜻&scope=words");
   await expect(page.getByText("E2E 편집 뜻", { exact: true })).toBeVisible();
   await page.goto("/study?books=session-013&start=1");
+  await chooseAllCards(page);
   await page.getByRole("button", { name: /ひらがな/ }).click();
   await expect(page.getByText("e2e-よみ", { exact: true })).toBeVisible();
   await expect(page.getByText("E2E 편집 뜻", { exact: true })).toBeHidden();
@@ -230,6 +260,7 @@ test("HTML flashcards restart safely and preserve review data, bookmarks and dur
   const reviewCount = async () => (await (await request.get("/api/stats/overview?from=2026-01-01&to=" + today)).json() as { totalReviewEvents: number }).totalReviewEvents;
   const firstWordId = ((await (await request.get("/api/study/cards?books=html-n1-yuui-79-84&limit=1")).json()) as { cards: Array<{ wordId: string }> }).cards[0].wordId;
   await page.goto("/study?books=html-n1-yuui-79-84&start=1");
+  await chooseAllCards(page, 268);
   await expect(page.getByText("1 / 268", { exact: true })).toBeVisible();
   await expect(page.getByRole("heading", { name: "暗示" })).toBeVisible();
   await page.keyboard.press("b");
@@ -312,6 +343,7 @@ test("a second browser receives one synced evaluation", async ({ browser }, test
     });
     const before = await count(pageB);
     await pageA.goto("/study?books=session-014&start=1");
+    await chooseAllCards(pageA);
     await pageA.getByRole("button", { name: /알고있음/ }).click();
     await pageA.getByRole("button", { name: "학습 중단" }).click();
     await pageB.reload();
@@ -330,6 +362,7 @@ test("an offline evaluation survives reload and syncs exactly once", async ({ br
     });
     const before = await count();
     await page.goto("/study?books=session-015&start=1");
+    await chooseAllCards(page);
     await expect(page.getByRole("button", { name: /공부하겠음/ })).toBeVisible();
     await context.setOffline(true);
     await page.getByRole("button", { name: /공부하겠음/ }).click();

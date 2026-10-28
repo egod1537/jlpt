@@ -18,12 +18,21 @@ type Entry = { entryId: string; bookId: string; wordId: string; term: string; re
 type Card = { wordId: string; representative: Entry; occurrences: Entry[]; review: { dueAt: string | null; lastReviewedAt: string | null; lastRating: string | null } };
 type Result = { wordId: string; rating: Rating; occurredAt: string };
 type Session = { id: string; bookIds: string[]; mode: Mode; includeReview: boolean; wordIds: string[]; position: number; revealed: boolean; ratings: Record<string, Rating>; queue?: string[]; loopMode?: boolean; results?: Result[]; status: string; revision: number; createdAt: string; updatedAt?: string };
-type Phase = "initializing" | "loading" | "study" | "complete" | "empty";
+type Phase = "initializing" | "loading" | "range" | "study" | "complete" | "empty";
 type Filters = { minStar: number; bookmarks: boolean; pos: string; chunk: string };
+type CardRange = { start: number; end: number; count: number };
 
 function formatElapsed(milliseconds: number) {
   const seconds = Math.max(0, Math.floor(milliseconds / 1000));
   return String(Math.floor(seconds / 60)).padStart(2, "0") + ":" + String(seconds % 60).padStart(2, "0");
+}
+
+function cardRanges(total: number, size: number): CardRange[] {
+  return Array.from({ length: Math.ceil(total / size) }, (_, index) => {
+    const start = index * size;
+    const end = Math.min(start + size, total);
+    return { start, end, count: end - start };
+  });
 }
 
 function highlightedExample(value: string): ReactNode[] {
@@ -52,6 +61,9 @@ export function MobileStudyPage() {
   const requestedLimitValue = search.get("limit");
   const requestedLimit = requestedLimitValue === null || requestedLimitValue === "all" ? 10_000 : Math.min(Math.max(Number(requestedLimitValue) || 1, 1), 10_000);
   const requestedIncludeReview = search.get("includeReview") !== "false";
+  const requestedRangeStart = Number(search.get("rangeStart"));
+  const requestedRangeSize = Number(search.get("rangeSize"));
+  const hasRequestedRange = search.get("range") === "all" || (Number.isInteger(requestedRangeStart) && requestedRangeStart >= 0 && Number.isInteger(requestedRangeSize) && requestedRangeSize > 0);
   const requestedFilters = useMemo<Filters>(() => ({
     minStar: Math.min(Math.max(Number(search.get("minStar") || 0) || 0, 0), 3),
     bookmarks: search.get("bookmarks") === "true",
@@ -64,6 +76,7 @@ export function MobileStudyPage() {
   const [resumableSessions, setResumableSessions] = useState<Session[]>([]);
   const [initialized, setInitialized] = useState(false);
   const [phase, setPhase] = useState<Phase>("initializing");
+  const [rangeCards, setRangeCards] = useState<Card[]>([]);
   const [cards, setCards] = useState<Card[]>([]);
   const [roundQueue, setRoundQueue] = useState<string[]>([]);
   const [initialWordIds, setInitialWordIds] = useState<string[]>([]);
@@ -92,9 +105,12 @@ export function MobileStudyPage() {
   const card = roundQueue.length ? cardByWordId.get(roundQueue[0]) : undefined;
   const entry = card?.representative;
   const completed = Math.max(0, initialWordIds.length - new Set(roundQueue).size);
+  const rangeTitle = requestedScope.startsWith("folder:")
+    ? folders.find((folder) => folder.id === requestedScope.slice(7))?.name || "폴더 학습"
+    : books.find((book) => book.id === requestedScope)?.title || (requestedMode === "due" ? "복습 카드" : "학습 카드");
 
   useEffect(() => {
-    const active = phase === "loading" || phase === "study" || phase === "complete";
+    const active = phase === "loading" || phase === "range" || phase === "study" || phase === "complete";
     window.dispatchEvent(new CustomEvent("jlpt-study-active", { detail: { active } }));
     return () => { window.dispatchEvent(new CustomEvent("jlpt-study-active", { detail: { active: false } })); };
   }, [phase]);
@@ -207,7 +223,13 @@ export function MobileStudyPage() {
         setPhase("empty");
         return;
       }
-      const list = await getCards({ bookIds: selectedBooks, mode: selectedMode, includeReview: selectedReview, limit: existing ? 10_000 : requestedLimit, seed: existing ? 0 : search.get("shuffle") === "true" ? Date.now() : 0, filters: existing ? { minStar: 0, bookmarks: false, pos: "", chunk: "" } : requestedFilters });
+      const available = await getCards({ bookIds: selectedBooks, mode: selectedMode, includeReview: selectedReview, limit: existing ? 10_000 : requestedLimit, seed: existing ? 0 : search.get("shuffle") === "true" ? Date.now() : 0, filters: existing ? { minStar: 0, bookmarks: false, pos: "", chunk: "" } : requestedFilters });
+      if (!existing && !hasRequestedRange && available.length > 50) {
+        setRangeCards(available);
+        setPhase("range");
+        return;
+      }
+      const list = !existing && search.get("range") !== "all" && hasRequestedRange ? available.slice(requestedRangeStart, requestedRangeStart + requestedRangeSize) : available;
       const byId = new Map(list.map((item) => [item.wordId, item]));
       const originalIds = existing?.wordIds || list.map((item) => item.wordId);
       const queueIds = existing ? (existing.queue?.length ? existing.queue : existing.wordIds.slice(existing.position || 0)).filter((id) => byId.has(id)) : originalIds;
@@ -218,7 +240,7 @@ export function MobileStudyPage() {
         return;
       }
       if (existing && queueIds.length !== (existing.queue?.length || existing.wordIds.length - existing.position)) setNotice("삭제되었거나 범위에서 빠진 카드는 건너뛰었습니다.");
-      setCards(ordered); setRoundQueue(queueIds); setInitialWordIds(originalIds); setResults(existing?.results || []); setLoopMode(existing?.loopMode || false);
+      setRangeCards([]); setCards(ordered); setRoundQueue(queueIds); setInitialWordIds(originalIds); setResults(existing?.results || []); setLoopMode(existing?.loopMode || false);
       if (existing) {
         setMode(existing.mode);
         setIncludeReview(existing.includeReview);
@@ -244,7 +266,7 @@ export function MobileStudyPage() {
     } finally {
       startLock.current = false;
     }
-  }, [booksForScope, getCards, queueMutation, requestedFilters, requestedIncludeReview, requestedLimit, requestedMode, requestedScope, resumableSessions, search]);
+  }, [booksForScope, getCards, hasRequestedRange, queueMutation, requestedFilters, requestedIncludeReview, requestedLimit, requestedMode, requestedRangeSize, requestedRangeStart, requestedScope, resumableSessions, search, setCards, setElapsed, setIncludeReview, setInitialWordIds, setLoopMode, setMessage, setMode, setNotice, setPhase, setRangeCards, setResults, setRoundQueue, setSessionId, setSessionStartedAt, setShowMeaning, setShowReading]);
 
   useEffect(() => {
     if (!initialized || initializationHandled.current) return;
@@ -261,13 +283,13 @@ export function MobileStudyPage() {
     try { await saveSession({ queue: roundQueue, loopMode, results, position: results.length, revealed: false, status: "paused" }); }
     catch { setNotice("학습 상태를 저장하지 못해 화면을 닫지 않았습니다."); return; }
     router.push("/books");
-  }, [loopMode, results, roundQueue, router, saveSession]);
+  }, [loopMode, results, roundQueue, router, saveSession, setNotice]);
 
   const toggleLoop = useCallback(async () => {
     const next = !loopMode;
     try { await saveSession({ loopMode: next, queue: roundQueue, results, status: "active" }); setLoopMode(next); }
     catch { setNotice("반복 설정을 저장하지 못했습니다."); }
-  }, [loopMode, results, roundQueue, saveSession]);
+  }, [loopMode, results, roundQueue, saveSession, setLoopMode, setNotice]);
 
   const toggleBookmark = useCallback(async () => {
     if (!entry) return;
@@ -276,7 +298,7 @@ export function MobileStudyPage() {
       await queueMutation({ type: "bookmark.set", ...(entry.bookmarkRevision ? { expectedRevision: entry.bookmarkRevision } : {}), payload: { entryId: entry.entryId, bookmarked: next } });
       setCards((current) => current.map((item) => item.wordId !== card?.wordId ? item : { ...item, representative: { ...item.representative, bookmarked: next, bookmarkRevision: next ? item.representative.bookmarkRevision : 0 }, occurrences: item.occurrences.map((occurrence) => occurrence.entryId === entry.entryId ? { ...occurrence, bookmarked: next, bookmarkRevision: next ? occurrence.bookmarkRevision : 0 } : occurrence) }));
     } catch { setNotice("북마크를 저장하지 못했습니다."); }
-  }, [card?.wordId, entry, queueMutation]);
+  }, [card?.wordId, entry, queueMutation, setCards, setNotice]);
 
   const speak = useCallback(() => {
     if (!entry || !speechAvailable) return;
@@ -308,7 +330,7 @@ export function MobileStudyPage() {
     requestAnimationFrame(() => { performance.mark("study-card-transition-end"); performance.measure("study-card-transition", "study-card-transition-start", "study-card-transition-end"); });
     if (!nextQueue.length) setPhase("complete");
     ratingLock.current = false;
-  }, [card, loopMode, mode, queueMutation, results, roundQueue, saveSession, sessionId]);
+  }, [card, loopMode, mode, queueMutation, results, roundQueue, saveSession, sessionId, setNotice, setPhase, setResults, setRoundQueue, setShowMeaning, setShowReading]);
 
   const restart = useCallback(async (onlyWrong: boolean) => {
     if (restartLock.current || !sessionId) return;
@@ -329,7 +351,7 @@ export function MobileStudyPage() {
       restartLock.current = false;
       setRestartPending(false);
     }
-  }, [cards, includeReview, mode, queueMutation, results, router, sessionId]);
+  }, [cards, includeReview, mode, queueMutation, results, router, sessionId, setCards, setElapsed, setInitialWordIds, setLoopMode, setNotice, setPhase, setRestartOpen, setRestartPending, setResults, setRoundQueue, setSessionId, setSessionStartedAt, setShowMeaning, setShowReading]);
 
   useEffect(() => {
     const key = (event: KeyboardEvent) => {
@@ -370,6 +392,7 @@ export function MobileStudyPage() {
   }
 
   if (phase === "initializing" || phase === "loading") return <div className="fixed inset-0 z-50 bg-app-bg px-4 pt-8"><div className="mx-auto max-w-[480px] space-y-4"><div className="h-8 w-40 animate-pulse rounded bg-app-border" /><div className="h-[70dvh] animate-pulse rounded-3xl bg-app-surface" /></div></div>;
+  if (phase === "range" && rangeCards.length > 50) return <StudyRangeMenu title={rangeTitle} total={rangeCards.length} baseQuery={search.toString()} />;
   if (phase === "study" && card && entry) {
     const priority = sourcePriority(entry);
     return <><section className="fixed inset-0 z-50 bg-app-bg text-app-text">
@@ -439,6 +462,52 @@ export function MobileStudyPage() {
   }
 
   return <div className="mx-auto max-w-md rounded-2xl border border-app-border bg-app-surface p-6 text-center"><p role="alert" className="text-sm text-app-muted">{message || "학습할 카드를 찾지 못했습니다."}</p><Button asChild variant="outline" className="mt-5 w-full"><Link href="/books">단어장으로</Link></Button></div>;
+}
+
+function rangeHref(baseQuery: string, range: CardRange | null) {
+  const query = new URLSearchParams(baseQuery);
+  query.delete("range"); query.delete("rangeStart"); query.delete("rangeSize");
+  if (range) { query.set("rangeStart", String(range.start)); query.set("rangeSize", String(range.count)); }
+  else query.set("range", "all");
+  return "/study?" + query.toString();
+}
+
+function StudyRangeMenu({ title, total, baseQuery }: { title: string; total: number; baseQuery: string }) {
+  const fifty = cardRanges(total, 50);
+  const oneFifty = cardRanges(total, 150);
+  return <section className="fixed inset-0 z-50 overflow-y-auto bg-app-bg text-app-text">
+    <div className="mx-auto min-h-[100dvh] w-full max-w-[480px] px-4 pb-[max(24px,env(safe-area-inset-bottom))] pt-[max(8px,env(safe-area-inset-top))]">
+      <header className="flex min-h-11 items-center gap-2">
+        <Link href="/books" aria-label="단어장으로" className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg text-app-muted"><ArrowLeft className="h-5 w-5" /></Link>
+        <div className="min-w-0">
+          <p className="truncate text-xs text-app-muted">{title}</p>
+          <h1 className="text-xl font-black">학습 범위 선택</h1>
+        </div>
+      </header>
+      <div className="mt-5 rounded-2xl border border-app-border bg-app-surface p-5">
+        <p className="text-sm text-app-muted">학습할 카드 묶음을 선택하세요.</p>
+        <p className="mt-2 text-3xl font-black text-app-accent">총 {total}장</p>
+      </div>
+      <RangeGroup title="50장씩" description="짧게 나누어 학습" ranges={fifty} baseQuery={baseQuery} />
+      <RangeGroup title="150장씩" description="길게 이어서 학습" ranges={oneFifty} baseQuery={baseQuery} />
+      <section aria-labelledby="range-all-heading" className="mt-6">
+        <h2 id="range-all-heading" className="text-sm font-black">전체 세트</h2>
+        <a href={rangeHref(baseQuery, null)} aria-label={`전체 ${total}장 학습`} className="mt-3 flex min-h-16 w-full items-center justify-between rounded-2xl border border-app-accent bg-app-accent-surface px-5 text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-app-focus">
+          <span className="font-black">전체 학습</span><span className="text-sm font-bold text-app-accent">{total}장</span>
+        </a>
+      </section>
+    </div>
+  </section>;
+}
+
+function RangeGroup({ title, description, ranges, baseQuery }: { title: string; description: string; ranges: CardRange[]; baseQuery: string }) {
+  const headingId = title === "50장씩" ? "range-50-heading" : "range-150-heading";
+  return <section aria-labelledby={headingId} className="mt-6">
+    <div className="flex items-end justify-between gap-3"><h2 id={headingId} className="text-sm font-black">{title}</h2><p className="text-xs text-app-muted">{description}</p></div>
+    <div className="mt-3 grid grid-cols-2 gap-2">
+      {ranges.map((range) => <a href={rangeHref(baseQuery, range)} key={range.start} aria-label={`${range.start + 1}–${range.end} ${range.count}장 학습`} className="flex min-h-16 flex-col justify-center rounded-xl border border-app-border bg-app-surface px-4 text-left hover:border-app-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-app-focus"><span className="font-black tabular-nums">{range.start + 1}–{range.end}</span><span className="mt-1 text-xs text-app-muted">{range.count}장</span></a>)}
+    </div>
+  </section>;
 }
 
 function RestartDialog({ open, pending, onOpenChange, onConfirm }: { open: boolean; pending: boolean; onOpenChange: (open: boolean) => void; onConfirm: () => void }) {
