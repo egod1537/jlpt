@@ -258,6 +258,7 @@ export function MobileStudyPage() {
         setMode(requestedMode);
         setIncludeReview(selectedReview);
         setSessionId(id); setSessionStartedAt(startedAt); setElapsed(0); revision.current = 1;
+        window.history.replaceState(window.history.state, "", "/study");
       }
       setPhase("study");
     } catch {

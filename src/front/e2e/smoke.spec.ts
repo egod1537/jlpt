@@ -148,7 +148,12 @@ test("one book tap starts flashcards while its menu keeps details available", as
     await expect(page.getByRole("region", { name: "50장씩" }).getByRole("link", { name: "201–244 44장 학습" })).toBeVisible();
     await expect(page.getByRole("region", { name: "150장씩" }).getByRole("link", { name: "151–244 94장 학습" })).toBeVisible();
     await page.getByRole("link", { name: "201–244 44장 학습" }).click();
+    await expect(page).toHaveURL(/\/study$/);
     await expect(page.getByText("1 / 44", { exact: true })).toBeVisible();
+    await page.getByRole("button", { name: /알고있음/ }).click();
+    await expect(page.getByText("2 / 44", { exact: true })).toBeVisible();
+    await page.reload();
+    await expect(page.getByText("2 / 44", { exact: true })).toBeVisible();
     await page.getByRole("button", { name: "학습 중단" }).click();
   }
 
