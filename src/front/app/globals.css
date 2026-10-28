@@ -31,9 +31,9 @@
   --known: #2e9098;
 }
 * { box-sizing: border-box; }
-html { min-width: 320px; scroll-behavior: smooth; background: var(--bg); }
-body { margin: 0; background-color: #0f1218 !important; color: var(--text-primary); font-family: Inter, Pretendard, "Noto Sans KR", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
-.jp { font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif; overflow-wrap: anywhere; }
+html { min-width: 320px; scroll-behavior: smooth; background: var(--bg); -webkit-text-size-adjust: 100%; }
+body { margin: 0; background-color: #0f1218 !important; color: var(--text-primary); font-family: Inter, Pretendard, "Noto Sans KR", "Apple SD Gothic Neo", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+.jp { font-family: "Hiragino Sans", "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", YuGothic, Meiryo, system-ui, sans-serif; overflow-wrap: anywhere; }
 button, input, select { font: inherit; }
 button, a, input, select, textarea { -webkit-tap-highlight-color: transparent; }
 :focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }

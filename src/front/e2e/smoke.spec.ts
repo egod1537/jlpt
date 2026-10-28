@@ -102,18 +102,22 @@ test("one book tap starts flashcards while its menu keeps details available", as
   await expect(page.getByText("오늘 복습 0개")).toHaveCount(0);
   const readingField = page.getByRole("group", { name: "히라가나 텍스트 필드" });
   const meaningField = page.getByRole("group", { name: "한국어 뜻 텍스트 필드" });
+  await expect(readingField.getByText("아래 버튼을 눌러 확인")).toBeVisible();
+  await expect(meaningField.getByText("아래 버튼을 눌러 확인")).toBeVisible();
   const hintLayout = async () => page.locator("h1, [aria-label='히라가나 텍스트 필드'], [aria-label='한국어 뜻 텍스트 필드']").evaluateAll((elements) => elements.map((element) => {
     const rect = element.getBoundingClientRect();
     return { top: rect.top, left: rect.left, width: rect.width, height: rect.height };
   }));
   const hiddenLayout = await hintLayout();
   await page.getByRole("button", { name: /ひらがな/ }).click();
-  await expect(readingField.getByText("あんじ", { exact: true })).toBeVisible();
+  const readingText = readingField.getByText("あんじ", { exact: true });
+  await expect(readingText).toBeVisible();
+  expect(await readingText.evaluate((element) => ({ visibility: getComputedStyle(element).visibility, height: element.getBoundingClientRect().height }))).toEqual({ visibility: "visible", height: 24 });
   expect(await hintLayout()).toEqual(hiddenLayout);
   await page.getByRole("button", { name: /한국어/ }).click();
   const meaningText = meaningField.getByText("암시", { exact: true });
   await expect(meaningText).toBeVisible();
-  expect(await meaningText.evaluate((element) => ({ whiteSpace: getComputedStyle(element).whiteSpace, textOverflow: getComputedStyle(element).textOverflow }))).toEqual({ whiteSpace: "normal", textOverflow: "clip" });
+  expect(await meaningText.evaluate((element) => ({ visibility: getComputedStyle(element).visibility, height: element.getBoundingClientRect().height, whiteSpace: getComputedStyle(element).whiteSpace, textOverflow: getComputedStyle(element).textOverflow }))).toEqual({ visibility: "visible", height: 24, whiteSpace: "normal", textOverflow: "clip" });
   expect(await hintLayout()).toEqual(hiddenLayout);
   await page.getByRole("button", { name: /알고있음/ }).click();
   await expect(page.getByRole("heading", { name: "一蹴" })).toBeVisible();

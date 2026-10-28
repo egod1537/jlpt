@@ -388,20 +388,26 @@ export function MobileStudyPage() {
         </div>
         <article onTouchStart={touchBegin} onTouchEnd={touchEnd} className="flex min-h-0 flex-1 touch-pan-y flex-col items-center justify-center overflow-y-auto px-5 text-center">
           <p className="min-h-5 text-xs text-app-muted">{entry.partOfSpeech.join(" · ")} {priority ? <span className="ml-1 text-app-warning" aria-label={"출처 중요도 " + priority}>{"★".repeat(priority)}</span> : null}</p>
-          <h1 className={"jp mt-1 font-light leading-tight text-app-accent " + (entry.term.length > 7 ? "text-[clamp(34px,10vw,54px)]" : "text-[clamp(48px,16vw,80px)]")}>{entry.term}</h1>
+          <h1 lang="ja" className={"jp mt-1 font-light leading-tight text-app-accent " + (entry.term.length > 7 ? "text-[clamp(34px,10vw,54px)]" : "text-[clamp(48px,16vw,80px)]")}>{entry.term}</h1>
           {entry.nuance ? <p className="mt-2 text-sm font-medium text-app-warning">{entry.nuance}</p> : null}
-          {entry.examples[0] ? <p className="jp mt-4 max-w-full text-[clamp(14px,4vw,17px)] leading-7 text-app-muted">{highlightedExample(entry.examples[0].ja)}</p> : null}
+          {entry.examples[0] ? <p lang="ja" className="jp mt-4 max-w-full text-[clamp(14px,4vw,17px)] leading-7 text-app-muted">{highlightedExample(entry.examples[0].ja)}</p> : null}
           <div className="my-4 h-px w-3/5 bg-app-border" />
           <div className="grid w-full max-w-md grid-rows-[3.5rem_5rem] gap-2">
-            <div role="group" aria-label="히라가나 텍스트 필드" className="grid min-w-0 overflow-hidden grid-cols-[4.5rem_minmax(0,1fr)] items-center gap-3 rounded-xl border border-app-border bg-app-raised px-3">
-              <span className="jp text-left text-xs font-bold text-app-muted">ひらがな</span>
-              <p aria-hidden={!showReading} className={"jp max-h-full min-w-0 overflow-y-auto break-words text-left text-[clamp(14px,4vw,18px)] font-medium leading-6 text-app-meaning " + (showReading ? "visible" : "invisible")}>{entry.reading || "읽기 미확인"}</p>
+            <div role="group" aria-label="히라가나 텍스트 필드" aria-live="polite" aria-atomic="true" className="grid min-w-0 overflow-hidden grid-cols-[4.5rem_minmax(0,1fr)] items-center gap-3 rounded-xl border border-app-border bg-app-raised px-3">
+              <span lang="ja" className="jp text-left text-xs font-bold text-app-muted">ひらがな</span>
+              <div className="flex h-full min-h-0 min-w-0 items-center overflow-y-auto py-2 text-left">
+                {showReading
+                  ? <p lang="ja" className="jp min-w-0 break-words text-[clamp(14px,4vw,18px)] font-medium leading-6 text-app-meaning">{entry.reading || "읽기 미확인"}</p>
+                  : <p className="text-xs text-app-muted">아래 버튼을 눌러 확인</p>}
+              </div>
             </div>
-            <div role="group" aria-label="한국어 뜻 텍스트 필드" className="grid min-w-0 overflow-hidden grid-cols-[4.5rem_minmax(0,1fr)] items-center gap-3 rounded-xl border border-app-border bg-app-raised px-3">
+            <div role="group" aria-label="한국어 뜻 텍스트 필드" aria-live="polite" aria-atomic="true" className="grid min-w-0 overflow-hidden grid-cols-[4.5rem_minmax(0,1fr)] items-center gap-3 rounded-xl border border-app-border bg-app-raised px-3">
               <span className="text-left text-xs font-bold text-app-muted">한국어</span>
-              <div aria-hidden={!showMeaning} className={"max-h-full min-w-0 overflow-y-auto py-1 text-left " + (showMeaning ? "visible" : "invisible")}>
-                <p className="break-words text-[clamp(15px,4.5vw,19px)] font-medium leading-6 text-app-meaning">{entry.meanings.join(", ") || "뜻 미확인"}</p>
-                {entry.examples[0]?.ko ? <p className="break-words text-sm leading-5 text-orange-400">{entry.examples[0].ko}</p> : null}
+              <div className="flex h-full min-h-0 min-w-0 flex-col justify-center overflow-y-auto py-2 text-left">
+                {showMeaning ? <>
+                  <p className="break-words text-[clamp(15px,4.5vw,19px)] font-medium leading-6 text-app-meaning">{entry.meanings.join(", ") || "뜻 미확인"}</p>
+                  {entry.examples[0]?.ko ? <p className="break-words text-sm leading-5 text-orange-400">{entry.examples[0].ko}</p> : null}
+                </> : <p className="text-xs text-app-muted">아래 버튼을 눌러 확인</p>}
               </div>
             </div>
           </div>
@@ -413,7 +419,7 @@ export function MobileStudyPage() {
         <footer className="shrink-0 space-y-2 px-4 pb-[max(20px,env(safe-area-inset-bottom))] pt-2">
           <div className="grid grid-cols-2 gap-2">
             <button aria-pressed={showMeaning} onClick={() => toggleHint("meaning")} className={"min-h-14 rounded-xl border px-2 font-medium " + (showMeaning ? "border-app-accent bg-app-accent-surface" : "border-app-border bg-app-raised")}>한국어 <kbd className="ml-1 text-[10px] opacity-60">Q/1</kbd></button>
-            <button aria-pressed={showReading} onClick={() => toggleHint("reading")} className={"jp min-h-14 rounded-xl border px-2 font-medium " + (showReading ? "border-app-accent bg-app-accent-surface" : "border-app-border bg-app-raised")}>ひらがな <kbd className="ml-1 text-[10px] opacity-60">W/2</kbd></button>
+            <button lang="ja" aria-pressed={showReading} onClick={() => toggleHint("reading")} className={"jp min-h-14 rounded-xl border px-2 font-medium " + (showReading ? "border-app-accent bg-app-accent-surface" : "border-app-border bg-app-raised")}>ひらがな <kbd className="ml-1 text-[10px] opacity-60">W/2</kbd></button>
           </div>
           <div className="grid grid-cols-2 gap-2">
             <button onClick={() => void rate("again")} className="min-h-14 rounded-xl bg-[var(--study)] px-2 font-bold text-white"><span className="text-app-warning">✎</span> 공부하겠음 <kbd className="ml-1 text-[10px] opacity-60">A/←</kbd></button>
