@@ -1,13 +1,14 @@
 # JLPT 개인 단어장
 
-개인용 JLPT 단어장·학습 웹 앱입니다. Next.js Node 서버와 SQLite를 사용하며, 원본 27개 세트는 private seed 경로에서 DB로 한 번만 가져옵니다. 브라우저의 IndexedDB는 캐시와 오프라인 outbox이고 서버 DB가 정본입니다.
+개인용 JLPT 단어장·학습 웹 앱입니다. Next.js Node 서버와 SQLite를 사용하며, 기존 원본 27개 세트와 HTML에서 정규화한 N1 세트 1개를 private seed 경로에서 증분·멱등 방식으로 가져옵니다. 브라우저의 IndexedDB는 캐시와 오프라인 outbox이고 서버 DB가 정본입니다.
 
 ## 구조
 
 ```text
 src/front/  Next.js 화면, route handlers, IndexedDB 동기화
 src/back/   SQLite migration, 서비스, seed, 운영 CLI
-jlpt-vocabulary-dataset/data/  변경하지 않는 원본 seed
+dataset/       변경하지 않는 HTML 원본과 검증·정규화 도구
+dataset/data/  기존 27개 원본 seed와 생성된 HTML 정규화 JSON
 spec/       구현 명세(로컬 작업 자료)
 ```
 
@@ -33,7 +34,7 @@ npm run db:seed
 npm run dev
 ```
 
-기본 DB는 `var/jlpt.sqlite`이고 원본은 `jlpt-vocabulary-dataset/data`입니다.
+기본 DB는 `var/jlpt.sqlite`이고 원본은 `dataset/data`입니다.
 
 검증 명령:
 
@@ -43,7 +44,8 @@ npm run typecheck
 npm test
 npm run build
 npm run test:e2e
-npm --prefix jlpt-vocabulary-dataset test
+npm --prefix dataset test
+npm run benchmark
 ```
 
 ## Docker 최초 설정

@@ -22,6 +22,7 @@
     "lint": "npm run lint --workspace src/front",
     "typecheck": "npm run typecheck --workspace src/front",
     "test": "npm run test --workspace src/front",
+    "benchmark": "npm run benchmark --workspace src/front",
     "test:e2e": "npm run test:e2e --workspace src/front"
   }
 }
