@@ -64,14 +64,24 @@ test("dark metadata, icons, accessibility and layout hold on every required view
   }
 });
 
-test("flat library search opens book details and legacy login redirects", async ({ page }) => {
+test("one book tap starts flashcards while its menu keeps details available", async ({ page }) => {
   await openLibrary(page);
   const search = page.getByPlaceholder("폴더·세트 검색...");
+  await search.fill("N1 유의표현");
+  const directStudy = page.getByRole("link", { name: "N1 유의표현 예상 어휘 79–84 바로 학습" });
+  await expect(directStudy).toBeVisible();
+  await directStudy.click();
+  await expect(page).toHaveURL(/\/study\?books=html-n1-yuui-79-84&start=1/);
+  await expect(page.getByRole("heading", { name: "暗示" })).toBeVisible();
+  await expect(page.getByText("1 / 20", { exact: true })).toBeVisible();
+  await page.getByRole("button", { name: "학습 중단" }).click();
+
+  await openLibrary(page);
   await search.fill("한끝");
-  const book = page.getByRole("link", { name: /한끝 단어장1/ }).first();
-  await expect(book).toBeVisible();
-  await page.waitForTimeout(300);
-  await book.click();
+  const menu = page.getByRole("button", { name: /한끝 단어장1.*메뉴/ }).first();
+  await expect(menu).toBeVisible();
+  await menu.click();
+  await page.getByRole("link", { name: "단어 목록·편집" }).click();
   await expect(page).toHaveURL(/\/books\/session-013/);
   await expect(page.getByRole("heading", { level: 1, name: /한끝 단어장1/ })).toBeVisible();
   await expect(page.locator("ol button").first()).toBeVisible();

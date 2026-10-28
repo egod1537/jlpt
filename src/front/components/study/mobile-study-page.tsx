@@ -46,6 +46,7 @@ function sourceIndex(entry: Entry) {
 
 export function MobileStudyPage() {
   const search = useSearchParams();
+  const autoStart = search.get("start") === "1";
   const { queue: queueMutation } = useSync();
   const [books, setBooks] = useState<Book[]>([]);
   const [folders, setFolders] = useState<Folder[]>([]);
@@ -74,6 +75,7 @@ export function MobileStudyPage() {
   const revision = useRef(1);
   const ratingLock = useRef(false);
   const touchStart = useRef<{ x: number; y: number } | null>(null);
+  const autoStartHandled = useRef(false);
 
   const cardByWordId = useMemo(() => new Map(cards.map((card) => [card.wordId, card])), [cards]);
   const card = roundQueue.length ? cardByWordId.get(roundQueue[0]) : undefined;
@@ -157,7 +159,7 @@ export function MobileStudyPage() {
     }
   }, []);
 
-  function booksForScope(value: string) {
+  const booksForScope = useCallback((value: string) => {
     if (!value) return [];
     if (!value.startsWith("folder:")) return [value];
     const root = value.slice(7);
@@ -168,7 +170,7 @@ export function MobileStudyPage() {
       for (const folder of folders) if (folder.parentId && included.has(folder.parentId) && !included.has(folder.id)) { included.add(folder.id); changed = true; }
     }
     return books.filter((book) => book.folderId && included.has(book.folderId)).map((book) => book.id);
-  }
+  }, [books, folders]);
 
   const saveSession = useCallback(async (payload: Record<string, unknown>) => {
     if (!sessionId) return;
@@ -177,7 +179,7 @@ export function MobileStudyPage() {
     revision.current = expected + 1;
   }, [queueMutation, sessionId]);
 
-  async function begin(existing?: Session) {
+  const begin = useCallback(async (existing?: Session) => {
     setPhase("loading"); setMessage(""); setNotice(""); setShowReading(false); setShowMeaning(false); ratingLock.current = false;
     const selectedBooks = existing?.bookIds || booksForScope(scope);
     const selectedMode = existing ? "all" : mode;
@@ -188,7 +190,7 @@ export function MobileStudyPage() {
     const queueIds = existing ? (existing.queue?.length ? existing.queue : existing.wordIds.slice(existing.position || 0)).filter((id) => byId.has(id)) : originalIds;
     const ordered = originalIds.flatMap((id) => byId.get(id) || []);
     if (!ordered.length || !queueIds.length) {
-      setMessage(mode === "due" ? "현재 복습할 단어가 없습니다." : "조건에 맞는 학습 카드가 없습니다. 오프라인이라면 먼저 해당 세트를 열어 캐시해 주세요.");
+      setMessage(selectedMode === "due" ? "현재 복습할 단어가 없습니다." : "조건에 맞는 학습 카드가 없습니다. 오프라인이라면 먼저 해당 세트를 열어 캐시해 주세요.");
       setPhase("config");
       return;
     }
@@ -202,14 +204,20 @@ export function MobileStudyPage() {
       const id = "study-" + crypto.randomUUID();
       const startedAt = new Date().toISOString();
       try {
-        await queueMutation({ type: "session.create", payload: { id, bookIds: selectedBooks, mode, includeReview: selectedReview, wordIds: originalIds, queue: queueIds, loopMode: false, results: [], position: 0, revealed: false, ratings: {}, status: "active" } });
+        await queueMutation({ type: "session.create", payload: { id, bookIds: selectedBooks, mode: selectedMode, includeReview: selectedReview, wordIds: originalIds, queue: queueIds, loopMode: false, results: [], position: 0, revealed: false, ratings: {}, status: "active" } });
       } catch {
         setMessage("학습 세션을 기기에 저장하지 못했습니다. 저장 공간을 확인한 뒤 다시 시도해 주세요."); setPhase("config"); return;
       }
       setSessionId(id); setSessionStartedAt(startedAt); revision.current = 1;
     }
     setPhase("study");
-  }
+  }, [booksForScope, filters, getCards, includeReview, mode, queueMutation, scope, shuffle, size]);
+
+  useEffect(() => {
+    if (!autoStart || autoStartHandled.current) return;
+    autoStartHandled.current = true;
+    void begin();
+  }, [autoStart, begin]);
 
   const pause = useCallback(async () => {
     try { await saveSession({ queue: roundQueue, loopMode, results, position: results.length, revealed: false, status: "paused" }); }
