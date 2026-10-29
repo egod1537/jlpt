@@ -148,6 +148,8 @@ test("one book tap starts flashcards while its menu keeps details available", as
   await directStudy.click();
   await expect(page).toHaveURL(/\/study\?books=html-n1-yuui-79-84&start=1/);
   await chooseAllCards(page, 268);
+  await page.getByRole("button", { name: "학습 처음부터 시작" }).click();
+  await page.getByRole("dialog").getByRole("button", { name: "처음부터 시작", exact: true }).click();
   await expect(page.getByRole("heading", { name: "暗示" })).toBeVisible();
   await expect(page.getByText("1 / 268", { exact: true })).toBeVisible();
   await expect(page.getByText("새 학습 설정")).toHaveCount(0);
@@ -200,6 +202,25 @@ test("one book tap starts flashcards while its menu keeps details available", as
     await page.getByRole("button", { name: /알고있음/ }).click();
     await expect(page.getByText("2 / 44", { exact: true })).toBeVisible();
     await page.reload();
+    await expect(page.getByText("2 / 44", { exact: true })).toBeVisible();
+    await page.getByRole("button", { name: "학습 중단" }).click();
+
+    await page.goto("/study?books=session-045&start=1");
+    const firstFifty = page.getByRole("region", { name: "50장씩" }).getByRole("link", { name: /1–50 50장 학습/ });
+    const lastFifty = page.getByRole("region", { name: "50장씩" }).getByRole("link", { name: /201–244 44장 학습/ });
+    await expect(firstFifty).toContainText("미학습 0/50");
+    await expect(lastFifty).toContainText("진행 1/44");
+    await firstFifty.click();
+    await expect(page.getByText("1 / 50", { exact: true })).toBeVisible();
+    await page.getByRole("button", { name: /알고있음/ }).click();
+    await expect(page.getByText("2 / 50", { exact: true })).toBeVisible();
+    await page.getByRole("button", { name: "학습 중단" }).click();
+
+    await page.goto("/study?books=session-045&start=1");
+    await expect(page.getByRole("region", { name: "50장씩" }).getByRole("link", { name: /1–50 50장 학습/ })).toContainText("진행 1/50");
+    const preservedLastFifty = page.getByRole("region", { name: "50장씩" }).getByRole("link", { name: /201–244 44장 학습/ });
+    await expect(preservedLastFifty).toContainText("진행 1/44");
+    await preservedLastFifty.click();
     await expect(page.getByText("2 / 44", { exact: true })).toBeVisible();
     await page.getByRole("button", { name: "학습 중단" }).click();
   }
@@ -356,9 +377,9 @@ test("HTML flashcards restart safely and preserve review data, favorites and dur
   await expect(page.getByRole("button", { name: "모르는 카드 반복" })).toHaveAttribute("aria-pressed", "false");
   await expect(page.getByRole("group", { name: "히라가나 텍스트 필드" }).getByText("あんじ", { exact: true })).toBeHidden();
   await expect(page.getByRole("button", { name: "즐겨찾기 해제" })).toHaveAttribute("aria-pressed", "true");
-  await expect.poll(async () => ((await (await request.get("/api/bootstrap")).json()) as { activeSessions: Array<{ results: unknown[]; position: number }> }).activeSessions.length, { timeout: 15_000 }).toBe(1);
-  const bootstrapAfterRestart = (await (await request.get("/api/bootstrap")).json()) as { activeSessions: Array<{ results: unknown[]; position: number }>; reviewStates: Array<{ wordId: string; dueAt: string | null; lastRating: string | null }> };
-  expect(bootstrapAfterRestart.activeSessions[0]).toMatchObject({ results: [], position: 0 });
+  await expect.poll(async () => ((await (await request.get("/api/bootstrap")).json()) as { activeSessions: Array<{ status: string }> }).activeSessions.filter((session) => session.status === "active").length, { timeout: 15_000 }).toBe(1);
+  const bootstrapAfterRestart = (await (await request.get("/api/bootstrap")).json()) as { activeSessions: Array<{ status: string; results: unknown[]; position: number }>; reviewStates: Array<{ wordId: string; dueAt: string | null; lastRating: string | null }> };
+  expect(bootstrapAfterRestart.activeSessions.find((session) => session.status === "active")).toMatchObject({ results: [], position: 0 });
   expect(bootstrapAfterRestart.reviewStates.find((state) => state.wordId === firstWordId)).toMatchObject({ dueAt: stateBeforeRestart?.dueAt, lastRating: stateBeforeRestart?.lastRating });
   expect(await reviewCount()).toBe(eventsBeforeRestart);
 

@@ -5,6 +5,7 @@ import { describe, expect, it } from "vitest";
 import { openDatabase } from "@back/lib/db/database";
 import { applyMutation } from "@back/lib/sync/mutations";
 import { initialRecord, schedule } from "@back/lib/study/scheduler";
+import { bootstrap } from "@back/lib/catalog/queries";
 
 describe("server review events and sessions", () => {
   it("keeps the established scheduling rules", () => {
@@ -43,6 +44,13 @@ describe("server review events and sessions", () => {
         { id: nextSessionId, status: "active", revision: 1 },
       ]));
       expect(db.prepare("SELECT COUNT(*) count FROM study_sessions").get()).toEqual({ count: 2 });
+      expect(bootstrap(db)).toMatchObject({
+        activeSessions: [{ id: nextSessionId, status: "active" }],
+        studySessions: expect.arrayContaining([
+          expect.objectContaining({ id: sessionId, status: "completed" }),
+          expect.objectContaining({ id: nextSessionId, status: "active" }),
+        ]),
+      });
     } finally { db.close(); }
   });
 });

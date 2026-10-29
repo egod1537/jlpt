@@ -62,6 +62,7 @@ export async function storeBootstrap(value: {
   books: Array<Record<string, unknown>>;
   reviewStates: Array<Record<string, unknown>>;
   activeSessions: Array<Record<string, unknown>>;
+  studySessions?: Array<Record<string, unknown>>;
   bookmarks: Array<Record<string, unknown>>;
   preferences: Record<string, unknown>;
 }) {
@@ -75,7 +76,8 @@ export async function storeBootstrap(value: {
   await Promise.all(value.folders.map((folder) => tx.objectStore("folders").put(folder)));
   await Promise.all(value.books.map((book) => tx.objectStore("books").put(book)));
   await Promise.all(value.reviewStates.map((state) => tx.objectStore("reviewStates").put(state)));
-  await Promise.all(value.activeSessions.map((session) => tx.objectStore("studySessions").put(session)));
+  const sessions = new Map([...(value.studySessions || []), ...value.activeSessions].map((session) => [String(session.id), session]));
+  await Promise.all([...sessions.values()].map((session) => tx.objectStore("studySessions").put(session)));
   await Promise.all(value.bookmarks.map((bookmark) => tx.objectStore("bookmarks").put(bookmark)));
   await Promise.all(Object.entries(value.preferences).map(([key, preference]) => tx.objectStore("preferences").put({ key, value: preference })));
   await tx.objectStore("meta").put(value.cursor, "lastAppliedCursor");

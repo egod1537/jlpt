@@ -23,6 +23,7 @@ type Session = { id: string; bookIds: string[]; mode: Mode; includeReview: boole
 type Phase = "initializing" | "loading" | "range" | "study" | "complete" | "empty";
 type Filters = { minStar: number; bookmarks: boolean; pos: string; chunk: string };
 type CardRange = { start: number; end: number; count: number };
+type RangeMenu = { cards: Card[]; bookIds: string[]; mode: Mode; includeReview: boolean };
 
 function formatElapsed(milliseconds: number) {
   const seconds = Math.max(0, Math.floor(milliseconds / 1000));
@@ -35,6 +36,46 @@ function cardRanges(total: number, size: number): CardRange[] {
     const end = Math.min(start + size, total);
     return { start, end, count: end - start };
   });
+}
+
+function sessionUpdatedAt(session: Session) {
+  return session.updatedAt || session.createdAt;
+}
+
+function sortSessions(sessions: Session[]) {
+  const activeRank = (session: Session) => session.status === "active" ? 2 : session.status === "paused" ? 1 : 0;
+  return [...sessions].sort((a, b) => sessionUpdatedAt(b).localeCompare(sessionUpdatedAt(a)) || activeRank(b) - activeRank(a));
+}
+
+function mergeSessions(...groups: Session[][]) {
+  const merged = new Map<string, Session>();
+  for (const session of groups.flat()) {
+    const current = merged.get(session.id);
+    if (!current || session.revision > current.revision || (session.revision === current.revision && sessionUpdatedAt(session) > sessionUpdatedAt(current))) merged.set(session.id, session);
+  }
+  return sortSessions([...merged.values()]);
+}
+
+function sameIds(left: string[], right: string[], orderMatters = true) {
+  if (left.length !== right.length) return false;
+  const a = orderMatters ? left : [...left].sort();
+  const b = orderMatters ? right : [...right].sort();
+  return a.every((value, index) => value === b[index]);
+}
+
+function sessionForRange(sessions: Session[], bookIds: string[], mode: Mode, includeReview: boolean, wordIds: string[], resumableOnly = false) {
+  return sessions.find((session) => (!resumableOnly || session.status === "active" || session.status === "paused")
+    && sameIds(session.bookIds, bookIds, false)
+    && session.mode === mode
+    && session.includeReview === includeReview
+    && sameIds(session.wordIds, wordIds));
+}
+
+function sessionProgress(session: Session | undefined, total: number) {
+  if (!session) return 0;
+  if (session.status === "completed") return total;
+  const remaining = new Set(session.queue?.length ? session.queue : session.wordIds.slice(session.position || 0)).size;
+  return Math.max(0, Math.min(total, total - remaining));
 }
 
 function highlightedExample(value: string): ReactNode[] {
@@ -75,10 +116,10 @@ export function MobileStudyPage() {
   const { queue: queueMutation } = useSync();
   const [books, setBooks] = useState<Book[]>([]);
   const [folders, setFolders] = useState<Folder[]>([]);
-  const [resumableSessions, setResumableSessions] = useState<Session[]>([]);
+  const [studySessions, setStudySessions] = useState<Session[]>([]);
   const [initialized, setInitialized] = useState(false);
   const [phase, setPhase] = useState<Phase>("initializing");
-  const [rangeCards, setRangeCards] = useState<Card[]>([]);
+  const [rangeMenu, setRangeMenu] = useState<RangeMenu | null>(null);
   const [cards, setCards] = useState<Card[]>([]);
   const [roundQueue, setRoundQueue] = useState<string[]>([]);
   const [initialWordIds, setInitialWordIds] = useState<string[]>([]);
@@ -104,6 +145,7 @@ export function MobileStudyPage() {
   const initializationHandled = useRef(false);
 
   const cardByWordId = useMemo(() => new Map(cards.map((card) => [card.wordId, card])), [cards]);
+  const resumableSessions = useMemo(() => studySessions.filter((session) => session.status === "active" || session.status === "paused"), [studySessions]);
   const card = roundQueue.length ? cardByWordId.get(roundQueue[0]) : undefined;
   const entry = card?.representative;
   const completed = Math.max(0, initialWordIds.length - new Set(roundQueue).size);
@@ -121,20 +163,19 @@ export function MobileStudyPage() {
       const [cachedBooks, cachedFolders, cachedSessions] = await Promise.all([db.getAll("books"), db.getAll("folders"), db.getAll("studySessions")]);
       let nextBooks = cachedBooks as unknown as Book[];
       let nextFolders = cachedFolders as unknown as Folder[];
-      let nextSessions = (cachedSessions as unknown as Session[]).filter((session) => session.status === "active" || session.status === "paused");
+      let nextSessions = sortSessions(cachedSessions as unknown as Session[]);
       try {
         const response = await fetch("/api/bootstrap", { cache: "no-store" });
         if (response.ok) {
-          const bootstrap = await response.json() as { books: Book[]; folders: Folder[]; activeSessions: Session[] };
+          const bootstrap = await response.json() as { books: Book[]; folders: Folder[]; activeSessions: Session[]; studySessions?: Session[] };
           nextBooks = bootstrap.books;
           nextFolders = bootstrap.folders;
-          nextSessions = bootstrap.activeSessions;
+          nextSessions = mergeSessions(nextSessions, bootstrap.studySessions || [], bootstrap.activeSessions);
         }
       } catch { /* offline cache remains available */ }
-      nextSessions.sort((a, b) => (b.updatedAt || b.createdAt).localeCompare(a.updatedAt || a.createdAt));
       setBooks(nextBooks);
       setFolders(nextFolders);
-      setResumableSessions(nextSessions);
+      setStudySessions(nextSessions);
       setInitialized(true);
     })();
   }, []);
@@ -223,42 +264,57 @@ export function MobileStudyPage() {
       }
       const available = await getCards({ bookIds: selectedBooks, mode: selectedMode, includeReview: selectedReview, limit: existing ? 10_000 : requestedLimit, seed: existing ? 0 : search.get("shuffle") === "true" ? Date.now() : 0, filters: existing ? { minStar: 0, bookmarks: false, pos: "", chunk: "" } : requestedFilters });
       if (!existing && !hasRequestedRange && available.length > 50) {
-        setRangeCards(available);
+        setRangeMenu({ cards: available, bookIds: selectedBooks, mode: requestedMode, includeReview: selectedReview });
         setPhase("range");
         return;
       }
       const list = !existing && search.get("range") !== "all" && hasRequestedRange ? available.slice(requestedRangeStart, requestedRangeStart + requestedRangeSize) : available;
+      const matchingSession = existing || sessionForRange(studySessions, selectedBooks, requestedMode, selectedReview, list.map((item) => item.wordId), true);
       const byId = new Map(list.map((item) => [item.wordId, item]));
-      const originalIds = existing?.wordIds || list.map((item) => item.wordId);
-      const queueIds = existing ? (existing.queue?.length ? existing.queue : existing.wordIds.slice(existing.position || 0)).filter((id) => byId.has(id)) : originalIds;
+      const originalIds = matchingSession?.wordIds || list.map((item) => item.wordId);
+      const queueIds = matchingSession ? (matchingSession.queue?.length ? matchingSession.queue : matchingSession.wordIds.slice(matchingSession.position || 0)).filter((id) => byId.has(id)) : originalIds;
       const ordered = originalIds.flatMap((id) => byId.get(id) || []);
       if (!ordered.length || !queueIds.length) {
         setMessage(selectedMode === "due" ? "현재 복습할 단어가 없습니다." : "조건에 맞는 학습 카드가 없습니다. 오프라인이라면 먼저 해당 단어장을 열어 캐시해 주세요.");
         setPhase("empty");
         return;
       }
-      if (existing && queueIds.length !== (existing.queue?.length || existing.wordIds.length - existing.position)) setNotice("삭제되었거나 범위에서 빠진 카드는 건너뛰었습니다.");
-      setSessionTitle(resolveStudyTitle({ scope: existing ? "" : requestedScope, bookIds: selectedBooks, mode: existing?.mode || requestedMode, books, folders }));
-      setRangeCards([]); setCards(ordered); setRoundQueue(queueIds); setInitialWordIds(originalIds); setResults(existing?.results || []); setLoopMode(existing?.loopMode || false);
-      if (existing) {
-        setMode(existing.mode);
-        setIncludeReview(existing.includeReview);
-        setSessionId(existing.id); setSessionStartedAt(existing.createdAt); revision.current = existing.revision;
+      if (matchingSession && queueIds.length !== (matchingSession.queue?.length || matchingSession.wordIds.length - matchingSession.position)) setNotice("삭제되었거나 범위에서 빠진 카드는 건너뛰었습니다.");
+      setSessionTitle(resolveStudyTitle({ scope: existing ? "" : requestedScope, bookIds: selectedBooks, mode: matchingSession?.mode || requestedMode, books, folders }));
+      setRangeMenu(null); setCards(ordered); setRoundQueue(queueIds); setInitialWordIds(originalIds); setResults(matchingSession?.results || []); setLoopMode(matchingSession?.loopMode || false);
+      const changedAt = new Date().toISOString();
+      const otherActiveSessions = studySessions.filter((session) => session.status === "active" && session.id !== matchingSession?.id);
+      for (const activeSession of otherActiveSessions) {
+        await queueMutation({ type: "session.update", targetId: activeSession.id, expectedRevision: activeSession.revision, payload: { status: "paused" } });
+      }
+      if (matchingSession) {
+        let nextRevision = matchingSession.revision;
+        if (matchingSession.status !== "active") {
+          await queueMutation({ type: "session.update", targetId: matchingSession.id, expectedRevision: matchingSession.revision, payload: { status: "active" } });
+          nextRevision += 1;
+        }
+        setStudySessions((current) => sortSessions(current.map((session) => {
+          if (session.id === matchingSession.id && matchingSession.status !== "active") return { ...session, status: "active", revision: nextRevision, updatedAt: changedAt };
+          if (otherActiveSessions.some((activeSession) => activeSession.id === session.id)) return { ...session, status: "paused", revision: session.revision + 1, updatedAt: changedAt };
+          return session;
+        })));
+        setMode(matchingSession.mode);
+        setIncludeReview(matchingSession.includeReview);
+        setSessionId(matchingSession.id); setSessionStartedAt(matchingSession.createdAt); revision.current = nextRevision;
       } else {
         const id = "study-" + crypto.randomUUID();
-        const startedAt = new Date().toISOString();
+        const startedAt = changedAt;
         const payload = { id, bookIds: selectedBooks, mode: requestedMode, includeReview: selectedReview, wordIds: originalIds, queue: queueIds, loopMode: false, results: [], position: 0, revealed: false, ratings: {}, status: "active" };
-        const previous = resumableSessions[0];
-        if (previous) await queueMutation({ type: "session.restart", targetId: previous.id, expectedRevision: previous.revision, payload });
-        else await queueMutation({ type: "session.create", payload });
-        for (const stale of resumableSessions.slice(1)) {
-          await queueMutation({ type: "session.update", targetId: stale.id, expectedRevision: stale.revision, payload: { status: "completed" } });
-        }
+        await queueMutation({ type: "session.create", payload });
+        setStudySessions((current) => sortSessions([
+          { ...payload, revision: 1, createdAt: startedAt, updatedAt: startedAt } as Session,
+          ...current.map((session) => otherActiveSessions.some((activeSession) => activeSession.id === session.id) ? { ...session, status: "paused", revision: session.revision + 1, updatedAt: changedAt } : session),
+        ]));
         setMode(requestedMode);
         setIncludeReview(selectedReview);
         setSessionId(id); setSessionStartedAt(startedAt); setElapsed(0); revision.current = 1;
-        window.history.replaceState(window.history.state, "", "/study");
       }
+      if (explicitStart) window.history.replaceState(window.history.state, "", "/study");
       setPhase("study");
     } catch {
       setMessage("학습 세션을 기기에 저장하지 못했습니다. 저장 공간과 동기화 상태를 확인한 뒤 다시 시도해 주세요.");
@@ -266,7 +322,7 @@ export function MobileStudyPage() {
     } finally {
       startLock.current = false;
     }
-  }, [books, booksForScope, folders, getCards, hasRequestedRange, queueMutation, requestedFilters, requestedIncludeReview, requestedLimit, requestedMode, requestedRangeSize, requestedRangeStart, requestedScope, resumableSessions, search, setCards, setElapsed, setIncludeReview, setInitialWordIds, setLoopMode, setMessage, setMode, setNotice, setPhase, setRangeCards, setResults, setRoundQueue, setSessionId, setSessionStartedAt, setSessionTitle, setShowMeaning, setShowReading]);
+  }, [books, booksForScope, explicitStart, folders, getCards, hasRequestedRange, queueMutation, requestedFilters, requestedIncludeReview, requestedLimit, requestedMode, requestedRangeSize, requestedRangeStart, requestedScope, search, setCards, setElapsed, setIncludeReview, setInitialWordIds, setLoopMode, setMessage, setMode, setNotice, setPhase, setRangeMenu, setResults, setRoundQueue, setSessionId, setSessionStartedAt, setSessionTitle, setShowMeaning, setShowReading, setStudySessions, studySessions]);
 
   useEffect(() => {
     if (!initialized || initializationHandled.current) return;
@@ -381,7 +437,7 @@ export function MobileStudyPage() {
   }
 
   if (phase === "initializing" || phase === "loading") return <div className="fixed inset-0 z-50 bg-app-bg px-4 pt-8"><div className="mx-auto max-w-[480px] space-y-4"><div className="h-8 w-40 animate-pulse rounded bg-app-border" /><div className="h-[70dvh] animate-pulse rounded-3xl bg-app-surface" /></div></div>;
-  if (phase === "range" && rangeCards.length > 50) return <StudyRangeMenu title={rangeTitle} total={rangeCards.length} baseQuery={search.toString()} />;
+  if (phase === "range" && rangeMenu && rangeMenu.cards.length > 50) return <StudyRangeMenu title={rangeTitle} rangeMenu={rangeMenu} baseQuery={search.toString()} sessions={studySessions} />;
   if (phase === "study" && card && entry) {
     const priority = sourcePriority(entry);
     return <><section className="fixed inset-0 z-50 bg-app-bg text-app-text">
@@ -449,7 +505,8 @@ function rangeHref(baseQuery: string, range: CardRange | null) {
   return "/study?" + query.toString();
 }
 
-function StudyRangeMenu({ title, total, baseQuery }: { title: string; total: number; baseQuery: string }) {
+function StudyRangeMenu({ title, rangeMenu, baseQuery, sessions }: { title: string; rangeMenu: RangeMenu; baseQuery: string; sessions: Session[] }) {
+  const total = rangeMenu.cards.length;
   const fifty = cardRanges(total, 50);
   const oneFifty = cardRanges(total, 150);
   return <section className="fixed inset-0 z-50 overflow-y-auto bg-app-bg text-app-text">
@@ -465,26 +522,38 @@ function StudyRangeMenu({ title, total, baseQuery }: { title: string; total: num
         <p className="text-sm text-app-muted">학습할 카드 묶음을 선택하세요.</p>
         <p className="mt-2 text-3xl font-black text-app-accent">총 {total}장</p>
       </div>
-      <RangeGroup title="50장씩" description="짧게 나누어 학습" ranges={fifty} baseQuery={baseQuery} />
-      <RangeGroup title="150장씩" description="길게 이어서 학습" ranges={oneFifty} baseQuery={baseQuery} />
+      <RangeGroup title="50장씩" description="짧게 나누어 학습" ranges={fifty} baseQuery={baseQuery} rangeMenu={rangeMenu} sessions={sessions} />
+      <RangeGroup title="150장씩" description="길게 이어서 학습" ranges={oneFifty} baseQuery={baseQuery} rangeMenu={rangeMenu} sessions={sessions} />
       <section aria-labelledby="range-all-heading" className="mt-6">
         <h2 id="range-all-heading" className="text-sm font-black">전체 세트</h2>
-        <a href={rangeHref(baseQuery, null)} aria-label={`전체 ${total}장 학습`} className="mt-3 flex min-h-16 w-full items-center justify-between rounded-2xl border border-app-accent bg-app-accent-surface px-5 text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-app-focus">
-          <span className="font-black">전체 학습</span><span className="text-sm font-bold text-app-accent">{total}장</span>
-        </a>
+        <RangeLink range={null} baseQuery={baseQuery} rangeMenu={rangeMenu} sessions={sessions} featured />
       </section>
     </div>
   </section>;
 }
 
-function RangeGroup({ title, description, ranges, baseQuery }: { title: string; description: string; ranges: CardRange[]; baseQuery: string }) {
+function RangeGroup({ title, description, ranges, baseQuery, rangeMenu, sessions }: { title: string; description: string; ranges: CardRange[]; baseQuery: string; rangeMenu: RangeMenu; sessions: Session[] }) {
   const headingId = title === "50장씩" ? "range-50-heading" : "range-150-heading";
   return <section aria-labelledby={headingId} className="mt-6">
     <div className="flex items-end justify-between gap-3"><h2 id={headingId} className="text-sm font-black">{title}</h2><p className="text-xs text-app-muted">{description}</p></div>
     <div className="mt-3 grid grid-cols-2 gap-2">
-      {ranges.map((range) => <a href={rangeHref(baseQuery, range)} key={range.start} aria-label={`${range.start + 1}–${range.end} ${range.count}장 학습`} className="flex min-h-16 flex-col justify-center rounded-xl border border-app-border bg-app-surface px-4 text-left hover:border-app-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-app-focus"><span className="font-black tabular-nums">{range.start + 1}–{range.end}</span><span className="mt-1 text-xs text-app-muted">{range.count}장</span></a>)}
+      {ranges.map((range) => <RangeLink range={range} baseQuery={baseQuery} rangeMenu={rangeMenu} sessions={sessions} key={range.start} />)}
     </div>
   </section>;
+}
+
+function RangeLink({ range, baseQuery, rangeMenu, sessions, featured = false }: { range: CardRange | null; baseQuery: string; rangeMenu: RangeMenu; sessions: Session[]; featured?: boolean }) {
+  const cards = range ? rangeMenu.cards.slice(range.start, range.end) : rangeMenu.cards;
+  const total = cards.length;
+  const session = sessionForRange(sessions, rangeMenu.bookIds, rangeMenu.mode, rangeMenu.includeReview, cards.map((card) => card.wordId));
+  const progress = sessionProgress(session, total);
+  const state = progress >= total ? "완료" : progress ? "진행" : "미학습";
+  const label = range ? `${range.start + 1}–${range.end}` : "전체 학습";
+  const ariaLabel = range ? `${label} ${total}장 학습, ${state} ${progress}/${total}` : `전체 ${total}장 학습, ${state} ${progress}/${total}`;
+  return <a href={rangeHref(baseQuery, range)} aria-label={ariaLabel} className={(featured ? "mt-3 min-h-[84px] rounded-2xl border-app-accent bg-app-accent-surface px-5" : "min-h-[84px] rounded-xl border-app-border bg-app-surface px-4 hover:border-app-accent") + " flex w-full flex-col justify-center border text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-app-focus"}>
+    <span className="flex items-center justify-between gap-2"><span className="font-black tabular-nums">{label}</span><span className={"text-xs font-bold " + (state === "완료" ? "text-app-accent" : "text-app-muted")}>{state} {progress}/{total}</span></span>
+    <span className="mt-2 h-1.5 overflow-hidden rounded-full bg-app-raised" aria-hidden="true"><span className="block h-full rounded-full bg-app-accent" style={{ width: `${total ? progress / total * 100 : 0}%` }} /></span>
+  </a>;
 }
 
 function RestartDialog({ open, pending, onOpenChange, onConfirm }: { open: boolean; pending: boolean; onOpenChange: (open: boolean) => void; onConfirm: () => void }) {

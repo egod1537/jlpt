@@ -111,9 +111,10 @@ export function bootstrap(db: AppDatabase) {
       };
     });
     const activeSessions = (db.prepare("SELECT * FROM study_sessions WHERE status IN ('active','paused') AND deleted_at IS NULL ORDER BY updated_at DESC").all() as Array<Record<string, unknown>>).map(studySessionFromRow);
+    const studySessions = (db.prepare("SELECT * FROM study_sessions WHERE deleted_at IS NULL ORDER BY updated_at DESC LIMIT 1000").all() as Array<Record<string, unknown>>).map(studySessionFromRow);
     const preferences = Object.fromEntries((db.prepare("SELECT key,value_json FROM preferences").all() as Array<{ key: string; value_json: string }>).map((row) => [row.key, JSON.parse(row.value_json)]));
     const bookmarks = (db.prepare("SELECT * FROM bookmarks ORDER BY updated_at DESC").all() as Array<Record<string, unknown>>).map((row) => ({ ...bookmarkFromRow(row), bookmarked: true }));
     const cursor = Number((db.prepare("SELECT COALESCE(MAX(seq),0) value FROM sync_changes").get() as { value: number }).value);
-    return { schemaVersion: 2, serverTime: new Date().toISOString(), cursor, folders, books, reviewStates, activeSessions, bookmarks, preferences };
+    return { schemaVersion: 2, serverTime: new Date().toISOString(), cursor, folders, books, reviewStates, activeSessions, studySessions, bookmarks, preferences };
   })();
 }

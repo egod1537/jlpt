@@ -14,6 +14,8 @@ test("long words fit without scrolling and resize back for short words", async (
     await route.fulfill({ response, json: body });
   });
   await page.goto("/study?books=html-n1-yuui-79-84&rangeStart=0&rangeSize=2&start=1");
+  await page.getByRole("button", { name: "학습 처음부터 시작" }).click();
+  await page.getByRole("dialog").getByRole("button", { name: "처음부터 시작", exact: true }).click();
   await expect(page.locator("article h1")).toHaveText(longTerm);
   await page.getByRole("button", { name: /한국어/ }).click();
   await page.getByRole("button", { name: /ひらがな/ }).click();
