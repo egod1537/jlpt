@@ -2,13 +2,15 @@
 
 import Link from "next/link";
 import { useCallback, useEffect, useMemo, useRef, useState, type ReactNode, type TouchEvent } from "react";
-import { ArrowLeft, Bookmark, Infinity as InfinityIcon, MoreHorizontal, RotateCcw, Volume2 } from "lucide-react";
+import { ArrowLeft, Infinity as InfinityIcon, RotateCcw, Star } from "lucide-react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { clientDatabase } from "@/lib/sync/client-db";
 import { useSync } from "@/components/sync/sync-provider";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogDescription, DialogTitle } from "@/components/ui/dialog";
 import { nextStudyQueue } from "@/lib/study-queue";
+import { resolveStudyTitle } from "@/lib/study-title";
+import { FittedStudyTerm, FittedStudyDetails } from "@/components/study/fitted-study-term";
 
 type Rating = "again" | "hard" | "good" | "easy";
 type Mode = "all" | "unseen" | "due" | "weak";
@@ -87,11 +89,11 @@ export function MobileStudyPage() {
   const [mode, setMode] = useState<Mode>(requestedMode);
   const [includeReview, setIncludeReview] = useState(requestedIncludeReview);
   const [sessionId, setSessionId] = useState("");
+  const [sessionTitle, setSessionTitle] = useState("학습 카드");
   const [sessionStartedAt, setSessionStartedAt] = useState("");
   const [elapsed, setElapsed] = useState(0);
   const [message, setMessage] = useState("");
   const [notice, setNotice] = useState("");
-  const [speechAvailable, setSpeechAvailable] = useState(false);
   const [restartOpen, setRestartOpen] = useState(false);
   const [restartPending, setRestartPending] = useState(false);
   const revision = useRef(1);
@@ -105,9 +107,7 @@ export function MobileStudyPage() {
   const card = roundQueue.length ? cardByWordId.get(roundQueue[0]) : undefined;
   const entry = card?.representative;
   const completed = Math.max(0, initialWordIds.length - new Set(roundQueue).size);
-  const rangeTitle = requestedScope.startsWith("folder:")
-    ? folders.find((folder) => folder.id === requestedScope.slice(7))?.name || "폴더 학습"
-    : books.find((book) => book.id === requestedScope)?.title || (requestedMode === "due" ? "복습 카드" : "학습 카드");
+  const rangeTitle = resolveStudyTitle({ scope: requestedScope, bookIds: [], mode: requestedMode, books, folders });
 
   useEffect(() => {
     const active = phase === "loading" || phase === "range" || phase === "study" || phase === "complete";
@@ -116,7 +116,6 @@ export function MobileStudyPage() {
   }, [phase]);
 
   useEffect(() => {
-    const speechTimer = window.setTimeout(() => setSpeechAvailable("speechSynthesis" in window && "SpeechSynthesisUtterance" in window), 0);
     void (async () => {
       const db = await clientDatabase();
       const [cachedBooks, cachedFolders, cachedSessions] = await Promise.all([db.getAll("books"), db.getAll("folders"), db.getAll("studySessions")]);
@@ -138,7 +137,6 @@ export function MobileStudyPage() {
       setResumableSessions(nextSessions);
       setInitialized(true);
     })();
-    return () => window.clearTimeout(speechTimer);
   }, []);
 
   useEffect(() => {
@@ -240,6 +238,7 @@ export function MobileStudyPage() {
         return;
       }
       if (existing && queueIds.length !== (existing.queue?.length || existing.wordIds.length - existing.position)) setNotice("삭제되었거나 범위에서 빠진 카드는 건너뛰었습니다.");
+      setSessionTitle(resolveStudyTitle({ scope: existing ? "" : requestedScope, bookIds: selectedBooks, mode: existing?.mode || requestedMode, books, folders }));
       setRangeCards([]); setCards(ordered); setRoundQueue(queueIds); setInitialWordIds(originalIds); setResults(existing?.results || []); setLoopMode(existing?.loopMode || false);
       if (existing) {
         setMode(existing.mode);
@@ -267,7 +266,7 @@ export function MobileStudyPage() {
     } finally {
       startLock.current = false;
     }
-  }, [booksForScope, getCards, hasRequestedRange, queueMutation, requestedFilters, requestedIncludeReview, requestedLimit, requestedMode, requestedRangeSize, requestedRangeStart, requestedScope, resumableSessions, search, setCards, setElapsed, setIncludeReview, setInitialWordIds, setLoopMode, setMessage, setMode, setNotice, setPhase, setRangeCards, setResults, setRoundQueue, setSessionId, setSessionStartedAt, setShowMeaning, setShowReading]);
+  }, [books, booksForScope, folders, getCards, hasRequestedRange, queueMutation, requestedFilters, requestedIncludeReview, requestedLimit, requestedMode, requestedRangeSize, requestedRangeStart, requestedScope, resumableSessions, search, setCards, setElapsed, setIncludeReview, setInitialWordIds, setLoopMode, setMessage, setMode, setNotice, setPhase, setRangeCards, setResults, setRoundQueue, setSessionId, setSessionStartedAt, setSessionTitle, setShowMeaning, setShowReading]);
 
   useEffect(() => {
     if (!initialized || initializationHandled.current) return;
@@ -292,24 +291,14 @@ export function MobileStudyPage() {
     catch { setNotice("반복 설정을 저장하지 못했습니다."); }
   }, [loopMode, results, roundQueue, saveSession, setLoopMode, setNotice]);
 
-  const toggleBookmark = useCallback(async () => {
+  const toggleFavorite = useCallback(async () => {
     if (!entry) return;
     const next = !entry.bookmarked;
     try {
       await queueMutation({ type: "bookmark.set", ...(entry.bookmarkRevision ? { expectedRevision: entry.bookmarkRevision } : {}), payload: { entryId: entry.entryId, bookmarked: next } });
       setCards((current) => current.map((item) => item.wordId !== card?.wordId ? item : { ...item, representative: { ...item.representative, bookmarked: next, bookmarkRevision: next ? item.representative.bookmarkRevision : 0 }, occurrences: item.occurrences.map((occurrence) => occurrence.entryId === entry.entryId ? { ...occurrence, bookmarked: next, bookmarkRevision: next ? occurrence.bookmarkRevision : 0 } : occurrence) }));
-    } catch { setNotice("북마크를 저장하지 못했습니다."); }
+    } catch { setNotice("즐겨찾기를 저장하지 못했습니다."); }
   }, [card?.wordId, entry, queueMutation, setCards, setNotice]);
-
-  const speak = useCallback(() => {
-    if (!entry || !speechAvailable) return;
-    window.speechSynthesis.cancel();
-    const utterance = new SpeechSynthesisUtterance((entry.reading || entry.term).split("（")[0]);
-    utterance.lang = "ja-JP"; utterance.rate = 0.9;
-    const voice = window.speechSynthesis.getVoices().find((item) => item.lang?.startsWith("ja"));
-    if (voice) utterance.voice = voice;
-    window.speechSynthesis.speak(utterance);
-  }, [entry, speechAvailable]);
 
   const rate = useCallback(async (rating: Rating) => {
     if (!card || ratingLock.current) return;
@@ -363,14 +352,13 @@ export function MobileStudyPage() {
       else if (code === "KeyW" || event.key === "2") setShowReading((value) => !value);
       else if (code === "KeyA" || event.key === "ArrowLeft") void rate("again");
       else if (code === "KeyS" || event.key === "ArrowRight") void rate("good");
-      else if (code === "KeyB") void toggleBookmark();
-      else if (code === "Space") speak();
+      else if (code === "KeyB" || code === "KeyF") void toggleFavorite();
       else return;
       event.preventDefault();
     };
     window.addEventListener("keydown", key);
     return () => window.removeEventListener("keydown", key);
-  }, [phase, rate, speak, toggleBookmark]);
+  }, [phase, rate, toggleFavorite]);
 
   function touchBegin(event: TouchEvent) {
     const touch = event.changedTouches[0]; touchStart.current = { x: touch.clientX, y: touch.clientY };
@@ -400,49 +388,37 @@ export function MobileStudyPage() {
       <div className="mx-auto flex h-[100dvh] max-w-[480px] flex-col overflow-hidden">
         {notice ? <p role="alert" className="mx-3 mt-[max(8px,env(safe-area-inset-top))] rounded-lg border border-amber-900 bg-amber-950 p-2 text-xs text-amber-200">{notice}</p> : null}
         <header className="flex shrink-0 items-center gap-2 px-3 pt-[max(8px,env(safe-area-inset-top))]">
-          <button aria-label="학습 중단" onClick={() => void pause()} className="flex h-11 w-11 items-center justify-center rounded-lg text-app-muted"><ArrowLeft className="h-5 w-5" /></button>
-          <strong className="min-w-0 flex-1 truncate text-sm">{entry.bookTitle}</strong>
-          <span className="text-xs tabular-nums text-app-muted">{completed + 1} / {initialWordIds.length}</span>
-          <button aria-label="새로 시작" title="새로 시작" onClick={() => setRestartOpen(true)} className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg text-app-muted hover:bg-app-raised focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-app-accent"><MoreHorizontal className="h-5 w-5" /></button>
+          <button aria-label="학습 중단" onClick={() => void pause()} className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg text-app-muted"><ArrowLeft className="h-5 w-5" /></button>
+          <strong aria-label="학습 범위" className="min-w-0 flex-1 truncate text-sm">{sessionTitle}</strong>
+          <span className="shrink-0 whitespace-nowrap text-xs tabular-nums text-app-muted">{completed + 1} / {initialWordIds.length}</span>
+          <button aria-label="학습 처음부터 시작" onClick={() => setRestartOpen(true)} className="flex h-11 shrink-0 items-center gap-1.5 rounded-lg px-2 text-xs font-bold text-app-muted hover:bg-app-raised hover:text-app-text focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-app-accent"><RotateCcw className="h-4 w-4" /><span>처음부터</span></button>
         </header>
         <div className="shrink-0 text-center text-xs tabular-nums text-app-muted" aria-label="경과 시간">{formatElapsed(elapsed)}</div>
         <div className="flex shrink-0 items-center justify-center gap-2 py-2">
-          <button aria-pressed={entry.bookmarked} aria-label={entry.bookmarked ? "북마크 해제" : "북마크"} onClick={() => void toggleBookmark()} className={"flex h-11 w-11 items-center justify-center rounded-full border " + (entry.bookmarked ? "border-app-warning text-app-warning" : "border-app-border text-app-muted")}><Bookmark className={"h-4 w-4 " + (entry.bookmarked ? "fill-current" : "")} /></button>
+          <button aria-pressed={entry.bookmarked} aria-label={entry.bookmarked ? "즐겨찾기 해제" : "즐겨찾기 추가"} title={entry.bookmarked ? "즐겨찾기 해제 (F)" : "즐겨찾기 추가 (F)"} onClick={() => void toggleFavorite()} className={"flex h-11 w-11 items-center justify-center rounded-full border transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-app-focus " + (entry.bookmarked ? "border-app-warning bg-app-warning/10 text-app-warning" : "border-app-border text-app-muted hover:border-app-warning hover:text-app-warning")}><Star className={"h-5 w-5 " + (entry.bookmarked ? "fill-current" : "")} /></button>
           <button aria-pressed={loopMode} aria-label="모르는 카드 반복" onClick={() => void toggleLoop()} className={"flex h-11 w-11 items-center justify-center rounded-full border " + (loopMode ? "border-app-accent text-app-accent" : "border-app-border text-app-muted")}><InfinityIcon className="h-5 w-5" /></button>
           <span className="flex h-11 min-w-11 items-center justify-center rounded-full border border-app-border px-3 text-xs font-bold" aria-label={"남은 카드 " + roundQueue.length + "개"}>{roundQueue.length}</span>
-          <button aria-label="일본어 발음 듣기" disabled={!speechAvailable} onClick={speak} className="flex h-11 w-11 items-center justify-center rounded-full border border-app-border text-app-muted disabled:opacity-30"><Volume2 className="h-4 w-4" /></button>
         </div>
-        <article onTouchStart={touchBegin} onTouchEnd={touchEnd} className="flex min-h-0 flex-1 touch-pan-y flex-col items-center justify-center overflow-y-auto px-5 text-center">
-          <p className="min-h-5 text-xs text-app-muted">{entry.partOfSpeech.join(" · ")} {priority ? <span className="ml-1 text-app-warning" aria-label={"출처 중요도 " + priority}>{"★".repeat(priority)}</span> : null}</p>
-          <h1 lang="ja" className={"jp mt-1 font-light leading-tight text-app-accent " + (entry.term.length > 7 ? "text-[clamp(34px,10vw,54px)]" : "text-[clamp(48px,16vw,80px)]")}>{entry.term}</h1>
-          {entry.nuance ? <p className="mt-2 text-sm font-medium text-app-warning">{entry.nuance}</p> : null}
-          {entry.examples[0] ? <p lang="ja" className="jp mt-4 max-w-full text-[clamp(14px,4vw,17px)] leading-7 text-app-muted">{highlightedExample(entry.examples[0].ja)}</p> : null}
-          <div className="my-4 h-px w-3/5 bg-app-border" />
-          <div className="grid w-full max-w-md grid-rows-[3.5rem_5rem] gap-2">
-            <div role="group" aria-label="히라가나 텍스트 필드" aria-live="polite" aria-atomic="true" className="grid min-w-0 overflow-hidden grid-cols-[4.5rem_minmax(0,1fr)] items-center gap-3 rounded-xl border border-app-border bg-app-raised px-3">
-              <span lang="ja" className="jp text-left text-xs font-bold text-app-muted">ひらがな</span>
-              <div className="flex h-full min-h-0 min-w-0 items-center overflow-y-auto py-2 text-left">
-                {showReading
-                  ? <p lang="ja" className="jp min-w-0 break-words text-[clamp(14px,4vw,18px)] font-medium leading-6 text-app-meaning">{entry.reading || "읽기 미확인"}</p>
-                  : <p className="text-xs text-app-muted">아래 버튼을 눌러 확인</p>}
-              </div>
-            </div>
-            <div role="group" aria-label="한국어 뜻 텍스트 필드" aria-live="polite" aria-atomic="true" className="grid min-w-0 overflow-hidden grid-cols-[4.5rem_minmax(0,1fr)] items-center gap-3 rounded-xl border border-app-border bg-app-raised px-3">
-              <span className="text-left text-xs font-bold text-app-muted">한국어</span>
-              <div className="flex h-full min-h-0 min-w-0 flex-col justify-center overflow-y-auto py-2 text-left">
-                {showMeaning ? <>
-                  <p className="break-words text-[clamp(15px,4.5vw,19px)] font-medium leading-6 text-app-meaning">{entry.meanings.join(", ") || "뜻 미확인"}</p>
-                  {entry.examples[0]?.ko ? <p className="break-words text-sm leading-5 text-orange-400">{entry.examples[0].ko}</p> : null}
-                </> : <p className="text-xs text-app-muted">아래 버튼을 눌러 확인</p>}
-              </div>
-            </div>
-          </div>
+        <article onTouchStart={touchBegin} onTouchEnd={touchEnd} className="study-card flex min-h-0 flex-1 touch-pan-y flex-col items-center justify-start overflow-hidden px-5 py-1 text-center">
+          <p className="h-5 shrink-0 overflow-hidden text-xs text-app-muted">{entry.partOfSpeech.join(" · ")} {priority ? <span className="ml-1 text-app-warning" aria-label={"출처 중요도 " + priority}>{"★".repeat(priority)}</span> : null}</p>
+          <FittedStudyTerm term={entry.term} />
+          <FittedStudyDetails contentKey={JSON.stringify([entry.reading, entry.meanings, entry.nuance, entry.examples[0]])}>
+            <p role="group" aria-label="히라가나 텍스트 필드" aria-live="polite" aria-atomic="true" className="jp font-medium text-app-meaning">
+              <span lang="ja" className={showReading ? "" : "invisible"}>{entry.reading || "읽기 미확인"}</span>
+            </p>
+            <p role="group" aria-label="한국어 뜻 텍스트 필드" aria-live="polite" aria-atomic="true" className="font-medium text-app-meaning">
+              <span className={showMeaning ? "" : "invisible"}>{entry.meanings.join(", ") || "뜻 미확인"}</span>
+            </p>
+            {entry.nuance ? <p data-testid="study-nuance-slot" className="text-app-warning">{entry.nuance}</p> : null}
+            {entry.examples[0] ? <p data-testid="study-example-slot" lang="ja" className="jp">{highlightedExample(entry.examples[0].ja)}</p> : null}
+            {entry.examples[0]?.ko ? <p className={"text-orange-400 " + (showMeaning ? "" : "invisible")}>{entry.examples[0].ko}</p> : null}
+          </FittedStudyDetails>
         </article>
         <div className="shrink-0 px-4">
           <div className="h-[5px] overflow-hidden rounded-full bg-app-raised"><div className="h-full bg-app-accent transition-[width] duration-200" style={{ width: String(initialWordIds.length ? completed / initialWordIds.length * 100 : 0) + "%" }} /></div>
           <div className="mt-1 flex justify-between text-[11px] text-app-muted"><span>완료 {completed}</span><span>남음 {roundQueue.length}</span></div>
         </div>
-        <footer className="shrink-0 space-y-2 px-4 pb-[max(20px,env(safe-area-inset-bottom))] pt-2">
+        <footer className="study-controls shrink-0 space-y-2 px-4 pb-[max(12px,env(safe-area-inset-bottom))] pt-2">
           <div className="grid grid-cols-2 gap-2">
             <button aria-pressed={showMeaning} onClick={() => toggleHint("meaning")} className={"min-h-14 rounded-xl border px-2 font-medium " + (showMeaning ? "border-app-accent bg-app-accent-surface" : "border-app-border bg-app-raised")}>한국어 <kbd className="ml-1 text-[10px] opacity-60">Q/1</kbd></button>
             <button lang="ja" aria-pressed={showReading} onClick={() => toggleHint("reading")} className={"jp min-h-14 rounded-xl border px-2 font-medium " + (showReading ? "border-app-accent bg-app-accent-surface" : "border-app-border bg-app-raised")}>ひらがな <kbd className="ml-1 text-[10px] opacity-60">W/2</kbd></button>

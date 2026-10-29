@@ -20,9 +20,10 @@ const environment: NodeJS.ProcessEnv = {
   JLPT_SEED_DATA: seedPath,
   JLPT_MIGRATIONS_DIR: migrationsPath,
   JLPT_APP_ORIGIN: `http://127.0.0.1:${port}`,
+  JLPT_EXTERNAL_API_KEY: "e2e-external-api-key",
 };
-const next = path.resolve(process.cwd(), "node_modules", ".bin", "next");
-const child = spawn(next, ["start", "--hostname", "127.0.0.1", "--port", port], { cwd: process.cwd(), env: environment, stdio: "inherit" });
+const next = path.resolve(process.cwd(), "node_modules", "next", "dist", "bin", "next");
+const child = spawn(process.execPath, [next, "start", "--hostname", "127.0.0.1", "--port", port], { cwd: process.cwd(), env: environment, stdio: "inherit" });
 const cleanup = () => { try { rmSync(temporary, { recursive: true, force: true }); } catch { /* best effort test cleanup */ } };
 child.on("exit", (code) => { cleanup(); process.exit(code ?? 0); });
 for (const signal of ["SIGINT", "SIGTERM"] as const) process.on(signal, () => child.kill(signal));

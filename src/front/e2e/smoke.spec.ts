@@ -43,11 +43,56 @@ test("app, HTML seed and private data APIs open without login", async ({ page, r
   const htmlCards = await (await request.get("/api/study/cards?books=html-n1-yuui-79-84&limit=300")).json() as { cards: unknown[]; totalMatches: number };
   expect(htmlCards.cards).toHaveLength(268);
   expect(htmlCards.totalMatches).toBe(268);
+  const scopedCards = await (await request.get("/api/study/cards?books=session-008&includeReview=true&limit=300")).json() as { cards: Array<{ representative: { bookId: string }; occurrences: Array<{ bookId: string }> }> };
+  expect(scopedCards.cards.every((card) => card.representative.bookId === "session-008" && card.occurrences.every((occurrence) => occurrence.bookId === "session-008"))).toBe(true);
   expect((await (await request.get("/api/study/cards?books=html-n1-yuui-79-84&minStar=2&countOnly=true")).json()).totalMatches).toBe(31);
   expect((await (await request.get("/api/study/cards?books=html-n1-yuui-79-84&chunk=1&countOnly=true")).json()).totalMatches).toBe(50);
   expect((await (await request.get("/api/study/cards?books=html-n1-yuui-79-84&chunk=6&countOnly=true")).json()).totalMatches).toBe(18);
   expect((await request.get("/data/collections.json")).status()).toBe(404);
   expect((await request.get("/flashcard-template.html")).status()).toBe(404);
+});
+
+test("folder flashcards keep the selected learning scope title", async ({ page }) => {
+  await page.goto("/study?folder=folder-reading&rangeStart=0&rangeSize=2&start=1");
+  const title = page.getByLabel("학습 범위");
+  await expect(title).toHaveText("독해");
+  await page.getByRole("button", { name: /알고있음/ }).click();
+  await expect(title).toHaveText("독해");
+});
+
+test("flashcards show optional nuance and example translations", async ({ page }) => {
+  await page.goto("/study?books=html-n1-yuui-79-84&rangeStart=6&rangeSize=1&start=1");
+  await expect(page.getByRole("heading", { name: "生地" })).toBeVisible();
+  await expect(page.getByText("타고난 바탕", { exact: true })).toBeVisible();
+  await expect(page.getByText("뉘앙스", { exact: true })).toHaveCount(0);
+  await expect(page.getByText(/酒が入ると彼の生地が出る。/)).toBeVisible();
+  const translation = page.getByText("술이 들어가면 그의 본바탕이 드러난다.", { exact: true });
+  await expect(translation).toBeHidden();
+  await page.getByRole("button", { name: /한국어/ }).click();
+  await expect(translation).toBeVisible();
+});
+
+test("short flashcards center the word and keep details accessible below it", async ({ page }) => {
+  await page.setViewportSize({ width: 320, height: 568 });
+  await page.goto("/study?books=html-n1-yuui-79-84&rangeStart=6&rangeSize=1&start=1");
+  await expect(page.getByRole("heading", { name: "生地" })).toBeVisible();
+  const slots = page.locator("article [data-testid], article [role='group']");
+  const positions = () => slots.evaluateAll((elements) => elements.map((element) => element.getBoundingClientRect().toJSON()));
+  const before = await positions();
+  const word = await page.locator("article h1").boundingBox();
+  expect(Math.abs(word!.y + word!.height / 2 - 568 / 2)).toBeLessThan(1);
+  await page.getByRole("button", { name: /한국어/ }).click();
+  await page.getByRole("button", { name: /ひらがな/ }).click();
+  expect(await positions()).toEqual(before);
+  const article = page.locator("article");
+  expect(await article.evaluate((element) => element.scrollHeight <= element.clientHeight + 1)).toBe(true);
+  await page.locator(".study-details").evaluate((element) => { element.scrollTop = element.scrollHeight; });
+  expect(await page.locator("article h1").boundingBox()).toEqual(word);
+  const example = await page.getByTestId("study-example-slot").boundingBox();
+  const footer = await page.locator("footer").boundingBox();
+  expect(example!.y + example!.height).toBeLessThanOrEqual(footer!.y);
+  expect(footer!.y + footer!.height).toBeLessThanOrEqual(568);
+  expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBe(320);
 });
 
 test("dark metadata, icons, accessibility and layout hold on every required viewport", async ({ page, request }, testInfo) => {
@@ -109,29 +154,31 @@ test("one book tap starts flashcards while its menu keeps details available", as
   await expect(page.getByText("오늘 복습 0개")).toHaveCount(0);
   const readingField = page.getByRole("group", { name: "히라가나 텍스트 필드" });
   const meaningField = page.getByRole("group", { name: "한국어 뜻 텍스트 필드" });
-  await expect(readingField.getByText("아래 버튼을 눌러 확인")).toBeVisible();
-  await expect(meaningField.getByText("아래 버튼을 눌러 확인")).toBeVisible();
-  const hintLayout = async () => page.locator("h1, [aria-label='히라가나 텍스트 필드'], [aria-label='한국어 뜻 텍스트 필드']").evaluateAll((elements) => elements.map((element) => {
+  const readingText = readingField.getByText("あんじ", { exact: true });
+  const meaningText = meaningField.getByText("암시", { exact: true });
+  await expect(readingText).toBeHidden();
+  await expect(meaningText).toBeHidden();
+  expect(await readingField.evaluate((element) => ({ border: getComputedStyle(element).borderTopWidth, background: getComputedStyle(element).backgroundColor }))).toEqual({ border: "0px", background: "rgba(0, 0, 0, 0)" });
+  expect(await meaningField.evaluate((element) => ({ border: getComputedStyle(element).borderTopWidth, background: getComputedStyle(element).backgroundColor }))).toEqual({ border: "0px", background: "rgba(0, 0, 0, 0)" });
+  const cardLayout = () => page.locator("[data-testid='study-term-slot'], [data-testid='study-nuance-slot'], [aria-label='히라가나 텍스트 필드'], [aria-label='한국어 뜻 텍스트 필드'], [data-testid='study-example-slot']").evaluateAll((elements) => elements.map((element) => {
     const rect = element.getBoundingClientRect();
     return { top: rect.top, left: rect.left, width: rect.width, height: rect.height };
   }));
-  const hiddenLayout = await hintLayout();
+  const hiddenLayout = await cardLayout();
   await page.getByRole("button", { name: /ひらがな/ }).click();
-  const readingText = readingField.getByText("あんじ", { exact: true });
   await expect(readingText).toBeVisible();
-  expect(await readingText.evaluate((element) => ({ visibility: getComputedStyle(element).visibility, height: element.getBoundingClientRect().height }))).toEqual({ visibility: "visible", height: 24 });
-  expect(await hintLayout()).toEqual(hiddenLayout);
+  await expect(readingField).toHaveText("あんじ");
+  expect(await cardLayout()).toEqual(hiddenLayout);
   await page.getByRole("button", { name: /한국어/ }).click();
-  const meaningText = meaningField.getByText("암시", { exact: true });
   await expect(meaningText).toBeVisible();
-  expect(await meaningText.evaluate((element) => ({ visibility: getComputedStyle(element).visibility, height: element.getBoundingClientRect().height, whiteSpace: getComputedStyle(element).whiteSpace, textOverflow: getComputedStyle(element).textOverflow }))).toEqual({ visibility: "visible", height: 24, whiteSpace: "normal", textOverflow: "clip" });
-  expect(await hintLayout()).toEqual(hiddenLayout);
+  await expect(meaningField).toHaveText("암시");
+  expect(await cardLayout()).toEqual(hiddenLayout);
   await page.getByRole("button", { name: /알고있음/ }).click();
   await expect(page.getByRole("heading", { name: "一蹴" })).toBeVisible();
-  await page.getByRole("button", { name: "새로 시작" }).click();
+  await page.getByRole("button", { name: "학습 처음부터 시작" }).click();
   await page.getByRole("dialog").getByRole("button", { name: "취소" }).click();
   await expect(page.getByRole("heading", { name: "一蹴" })).toBeVisible();
-  await page.getByRole("button", { name: "새로 시작" }).click();
+  await page.getByRole("button", { name: "학습 처음부터 시작" }).click();
   await page.getByRole("dialog").getByRole("button", { name: "처음부터 시작", exact: true }).click();
   await expect(page.getByRole("heading", { name: "暗示" })).toBeVisible();
   await expect(page.getByText("1 / 268", { exact: true })).toBeVisible();
@@ -171,7 +218,12 @@ test("one book tap starts flashcards while its menu keeps details available", as
 
   await openLibrary(page);
   await search.fill("한끝");
-  await page.getByRole("link", { name: /한끝 단어장1.*통계/ }).first().click();
+  await expect(page.getByRole("link", { name: /한끝 단어장1.*통계/ })).toHaveCount(0);
+  await expect(page.getByRole("region", { name: "모든 단어장" }).getByRole("button", { name: "즐겨찾기" })).toHaveCount(0);
+  await page.getByRole("button", { name: /한끝 단어장1.*메뉴/ }).first().click();
+  const bookMenu = page.getByRole("dialog");
+  await expect(bookMenu.getByRole("button", { name: "즐겨찾기" })).toBeVisible();
+  await bookMenu.getByRole("link", { name: "통계" }).click();
   await expect(page).toHaveURL(/\/stats\?bookId=session-013/);
   await expect(page.getByLabel("통계 범위")).toHaveValue("book:session-013");
 
@@ -259,7 +311,7 @@ test("entry edits propagate to SQL search and the two independent hints", async 
   await page.getByRole("button", { name: "학습 중단" }).click();
 });
 
-test("HTML flashcards restart safely and preserve review data, bookmarks and durable resume", async ({ page, request }, testInfo) => {
+test("HTML flashcards restart safely and preserve review data, favorites and durable resume", async ({ page, request }, testInfo) => {
   test.skip(testInfo.project.name !== "desktop-1280", "study journey runs once");
   const today = new Date(Date.now() + 9 * 60 * 60 * 1_000).toISOString().slice(0, 10);
   const reviewCount = async () => (await (await request.get("/api/stats/overview?from=2026-01-01&to=" + today)).json() as { totalReviewEvents: number }).totalReviewEvents;
@@ -268,13 +320,15 @@ test("HTML flashcards restart safely and preserve review data, bookmarks and dur
   await chooseAllCards(page, 268);
   await expect(page.getByText("1 / 268", { exact: true })).toBeVisible();
   await expect(page.getByRole("heading", { name: "暗示" })).toBeVisible();
-  await page.keyboard.press("b");
-  await expect(page.getByRole("button", { name: "북마크 해제" })).toBeVisible();
+  await expect(page.getByRole("button", { name: "일본어 발음 듣기" })).toHaveCount(0);
+  await page.keyboard.press("f");
+  await expect(page.getByRole("button", { name: "즐겨찾기 해제" })).toHaveAttribute("aria-pressed", "true");
   await expect.poll(() => page.evaluate(async () => (await (await fetch("/api/study/cards?books=html-n1-yuui-79-84&bookmarks=true&countOnly=true")).json()).totalMatches as number), { timeout: 15_000 }).toBeGreaterThan(0);
   await page.getByRole("button", { name: "모르는 카드 반복" }).click();
   await expect(page.getByRole("button", { name: "모르는 카드 반복" })).toHaveAttribute("aria-pressed", "true");
   await page.keyboard.press("a");
   await expect(page.getByRole("heading", { name: "一蹴" })).toBeVisible();
+  await expect(page.getByRole("button", { name: "즐겨찾기 추가" })).toHaveAttribute("aria-pressed", "false");
   const transitionDuration = await page.evaluate(() => performance.getEntriesByName("study-card-transition").at(-1)?.duration || 0);
   expect(transitionDuration).toBeLessThan(200);
   await expect.poll(reviewCount, { timeout: 15_000 }).toBeGreaterThan(0);
@@ -282,26 +336,26 @@ test("HTML flashcards restart safely and preserve review data, bookmarks and dur
   const stateBeforeRestart = ((await (await request.get("/api/bootstrap")).json()) as { reviewStates: Array<{ wordId: string; dueAt: string | null; lastRating: string | null }> }).reviewStates.find((state) => state.wordId === firstWordId);
   expect(stateBeforeRestart).toBeTruthy();
 
-  await page.getByRole("button", { name: "새로 시작" }).click();
+  await page.getByRole("button", { name: "학습 처음부터 시작" }).click();
   const restartDialog = page.getByRole("dialog");
   await expect(restartDialog.getByRole("heading", { name: "학습을 처음부터 시작할까요?" })).toBeVisible();
   await restartDialog.getByRole("button", { name: "취소" }).click();
   await expect(page.getByRole("heading", { name: "一蹴" })).toBeVisible();
   expect(await reviewCount()).toBe(eventsBeforeRestart);
 
-  await page.getByRole("button", { name: "새로 시작" }).click();
+  await page.getByRole("button", { name: "학습 처음부터 시작" }).click();
   await page.keyboard.press("Escape");
   await expect(restartDialog).toBeHidden();
   await expect(page.getByRole("heading", { name: "一蹴" })).toBeVisible();
 
   await page.getByRole("button", { name: /ひらがな/ }).click();
-  await page.getByRole("button", { name: "새로 시작" }).click();
+  await page.getByRole("button", { name: "학습 처음부터 시작" }).click();
   await restartDialog.getByRole("button", { name: "처음부터 시작", exact: true }).click();
   await expect(page.getByRole("heading", { name: "暗示" })).toBeVisible();
   await expect(page.getByText("1 / 268", { exact: true })).toBeVisible();
   await expect(page.getByRole("button", { name: "모르는 카드 반복" })).toHaveAttribute("aria-pressed", "false");
   await expect(page.getByRole("group", { name: "히라가나 텍스트 필드" }).getByText("あんじ", { exact: true })).toBeHidden();
-  await expect(page.getByRole("button", { name: "북마크 해제" })).toBeVisible();
+  await expect(page.getByRole("button", { name: "즐겨찾기 해제" })).toHaveAttribute("aria-pressed", "true");
   await expect.poll(async () => ((await (await request.get("/api/bootstrap")).json()) as { activeSessions: Array<{ results: unknown[]; position: number }> }).activeSessions.length, { timeout: 15_000 }).toBe(1);
   const bootstrapAfterRestart = (await (await request.get("/api/bootstrap")).json()) as { activeSessions: Array<{ results: unknown[]; position: number }>; reviewStates: Array<{ wordId: string; dueAt: string | null; lastRating: string | null }> };
   expect(bootstrapAfterRestart.activeSessions[0]).toMatchObject({ results: [], position: 0 });

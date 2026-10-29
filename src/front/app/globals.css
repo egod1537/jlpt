@@ -34,9 +34,26 @@
 html { min-width: 320px; scroll-behavior: smooth; background: var(--bg); -webkit-text-size-adjust: 100%; }
 body { margin: 0; background-color: #0f1218 !important; color: var(--text-primary); font-family: Inter, Pretendard, "Noto Sans KR", "Apple SD Gothic Neo", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
 .jp { font-family: "Hiragino Sans", "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", YuGothic, Meiryo, system-ui, sans-serif; overflow-wrap: anywhere; }
-button, input, select { font: inherit; }
+button, input, select { font-family: inherit; }
 button, a, input, select, textarea { -webkit-tap-highlight-color: transparent; }
 :focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
 ::selection { background: var(--accent-surface); color: var(--text-primary); }
 * { scrollbar-color: var(--border) var(--bg); }
+.study-card > *, .study-card p { overflow-wrap: anywhere; }
+.study-card { --term-height: 96px; }
+.study-card::before {
+  content: "";
+  /* Header, timer, toolbar (120px), top safe area, and word label (24px). */
+  flex: 0 0 max(0px, calc(50dvh - 144px - max(8px, env(safe-area-inset-top)) - var(--term-height) / 2));
+}
+.study-term { height: var(--term-height); }
+/* Reserve the same space before and after hints appear, while fitting short screens. */
+@media (max-height: 700px) {
+  .study-card { --term-height: 64px; }
+  .study-controls button { min-height: 48px; }
+}
+@media (max-width: 480px) {
+  .study-controls kbd { display: none; }
+  .study-controls button { font-size: 14px; }
+}
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; } }

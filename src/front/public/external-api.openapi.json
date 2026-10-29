@@ -1,0 +1,263 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "JLPT External Book API",
+    "version": "1.0.0",
+    "description": "단어장을 조회하고 단어와 함께 원자적으로 생성하는 서버 간 API"
+  },
+  "servers": [{ "url": "/", "description": "현재 JLPT 앱 서버" }],
+  "security": [{ "bearerAuth": [] }],
+  "paths": {
+    "/api/v1": {
+      "get": {
+        "summary": "API 탐색 정보",
+        "responses": {
+          "200": { "description": "사용 가능한 리소스" },
+          "401": { "$ref": "#/components/responses/Unauthorized" }
+        }
+      }
+    },
+    "/api/v1/books": {
+      "get": {
+        "summary": "단어장 목록",
+        "parameters": [
+          { "name": "limit", "in": "query", "schema": { "type": "integer", "minimum": 1, "maximum": 100, "default": 50 } },
+          { "name": "cursor", "in": "query", "schema": { "type": "string", "pattern": "^[0-9]+$", "default": "0" } },
+          { "name": "q", "in": "query", "schema": { "type": "string", "maxLength": 200 } },
+          { "name": "sort", "in": "query", "schema": { "type": "string", "enum": ["updated", "name", "created", "studied", "custom"], "default": "updated" } },
+          { "name": "folderId", "in": "query", "schema": { "type": "string" } },
+          { "name": "favorite", "in": "query", "schema": { "type": "boolean" } }
+        ],
+        "responses": {
+          "200": {
+            "description": "단어장 페이지",
+            "content": { "application/json": { "schema": { "$ref": "#/components/schemas/BookListResponse" } } }
+          },
+          "401": { "$ref": "#/components/responses/Unauthorized" }
+        }
+      },
+      "post": {
+        "summary": "단어장과 단어 일괄 생성",
+        "parameters": [
+          { "name": "Idempotency-Key", "in": "header", "required": false, "schema": { "type": "string", "minLength": 1, "maxLength": 128 } }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": { "application/json": { "schema": { "$ref": "#/components/schemas/CreateBookRequest" } } }
+        },
+        "responses": {
+          "201": {
+            "description": "생성됨",
+            "headers": { "Location": { "schema": { "type": "string" } } },
+            "content": { "application/json": { "schema": { "$ref": "#/components/schemas/CreateBookResponse" } } }
+          },
+          "200": { "description": "멱등 요청 재실행" },
+          "400": { "$ref": "#/components/responses/BadRequest" },
+          "401": { "$ref": "#/components/responses/Unauthorized" },
+          "409": { "$ref": "#/components/responses/Conflict" },
+          "413": { "description": "요청 본문 5MB 초과" }
+        }
+      }
+    },
+    "/api/v1/books/{bookId}": {
+      "get": {
+        "summary": "단어장 메타데이터",
+        "parameters": [{ "$ref": "#/components/parameters/BookId" }],
+        "responses": {
+          "200": {
+            "description": "단어장",
+            "content": { "application/json": { "schema": { "type": "object", "required": ["data"], "properties": { "data": { "$ref": "#/components/schemas/Book" } } } } }
+          },
+          "401": { "$ref": "#/components/responses/Unauthorized" },
+          "404": { "$ref": "#/components/responses/NotFound" }
+        }
+      }
+    },
+    "/api/v1/books/{bookId}/entries": {
+      "get": {
+        "summary": "단어 목록",
+        "parameters": [
+          { "$ref": "#/components/parameters/BookId" },
+          { "name": "limit", "in": "query", "schema": { "type": "integer", "minimum": 1, "maximum": 200, "default": 100 } },
+          { "name": "cursor", "in": "query", "schema": { "type": "string", "pattern": "^-?[0-9]+$", "default": "-1" } }
+        ],
+        "responses": {
+          "200": {
+            "description": "단어 페이지",
+            "content": { "application/json": { "schema": { "$ref": "#/components/schemas/EntryListResponse" } } }
+          },
+          "401": { "$ref": "#/components/responses/Unauthorized" },
+          "404": { "$ref": "#/components/responses/NotFound" }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "bearerAuth": { "type": "http", "scheme": "bearer", "bearerFormat": "API key" }
+    },
+    "parameters": {
+      "BookId": { "name": "bookId", "in": "path", "required": true, "schema": { "type": "string", "pattern": "^book-[A-Za-z0-9_-]+$" } }
+    },
+    "responses": {
+      "BadRequest": {
+        "description": "입력 오류",
+        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/ErrorResponse" } } }
+      },
+      "Unauthorized": {
+        "description": "Bearer API 키 누락 또는 불일치",
+        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/ErrorResponse" } } }
+      },
+      "NotFound": {
+        "description": "리소스 없음",
+        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/ErrorResponse" } } }
+      },
+      "Conflict": {
+        "description": "ID 또는 멱등 키 충돌",
+        "content": { "application/json": { "schema": { "$ref": "#/components/schemas/ErrorResponse" } } }
+      }
+    },
+    "schemas": {
+      "Book": {
+        "type": "object",
+        "required": ["id", "title", "category", "folderId", "favorite", "revision", "createdAt", "updatedAt"],
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "category": { "type": ["string", "null"] },
+          "folderId": { "type": ["string", "null"] },
+          "favorite": { "type": "boolean" },
+          "revision": { "type": "integer" },
+          "entryCount": { "type": "integer" },
+          "studiedCount": { "type": "integer" },
+          "createdAt": { "type": "string", "format": "date-time" },
+          "updatedAt": { "type": "string", "format": "date-time" }
+        }
+      },
+      "WordInput": {
+        "type": "object",
+        "required": ["term"],
+        "additionalProperties": false,
+        "properties": {
+          "entryId": { "type": "string" },
+          "wordId": { "type": "string" },
+          "term": { "type": "string", "minLength": 1, "maxLength": 200 },
+          "reading": { "type": ["string", "null"], "maxLength": 200 },
+          "meanings": { "type": "array", "maxItems": 50, "items": { "type": "string", "minLength": 1, "maxLength": 1000 }, "default": [] },
+          "primaryMeaning": { "type": ["string", "null"], "maxLength": 1000 },
+          "nuance": { "type": ["string", "null"], "maxLength": 4000 },
+          "partOfSpeech": { "type": "array", "items": { "type": "string" }, "default": [] },
+          "jlptLevels": { "type": "array", "items": { "type": "string", "enum": ["N1", "N2", "N3", "N4", "N5"] }, "default": [] },
+          "years": { "type": "array", "items": { "type": "integer", "minimum": 1900, "maximum": 2200 }, "default": [] },
+          "categories": { "type": "array", "items": { "type": "string" }, "default": [] },
+          "relatedTerms": { "type": "array", "items": { "type": "string" }, "default": [] },
+          "examples": { "type": "array", "maxItems": 1, "items": { "$ref": "#/components/schemas/Example" }, "default": [] },
+          "sources": { "type": "array", "items": { "type": "object" }, "default": [] },
+          "status": { "type": "string", "enum": ["ready", "needs-review"], "default": "ready" },
+          "tags": { "type": "array", "items": { "type": "string" }, "default": [] }
+        }
+      },
+      "Example": {
+        "type": "object",
+        "required": ["ja"],
+        "additionalProperties": false,
+        "properties": {
+          "ja": { "type": "string", "minLength": 1, "maxLength": 4000 },
+          "ko": { "type": ["string", "null"], "maxLength": 4000 }
+        }
+      },
+      "Entry": {
+        "type": "object",
+        "required": ["entryId", "bookId", "wordId", "position", "term", "meanings", "examples", "revision", "createdAt", "updatedAt"],
+        "properties": {
+          "entryId": { "type": "string" },
+          "bookId": { "type": "string" },
+          "wordId": { "type": "string" },
+          "position": { "type": "integer" },
+          "term": { "type": "string" },
+          "reading": { "type": ["string", "null"] },
+          "meanings": { "type": "array", "items": { "type": "string" } },
+          "primaryMeaning": { "type": ["string", "null"] },
+          "nuance": { "type": ["string", "null"] },
+          "partOfSpeech": { "type": "array", "items": { "type": "string" } },
+          "jlptLevels": { "type": "array", "items": { "type": "string" } },
+          "years": { "type": "array", "items": { "type": "integer" } },
+          "categories": { "type": "array", "items": { "type": "string" } },
+          "relatedTerms": { "type": "array", "items": { "type": "string" } },
+          "examples": { "type": "array", "items": { "$ref": "#/components/schemas/Example" } },
+          "sources": { "type": "array", "items": { "type": "object" } },
+          "status": { "type": "string", "enum": ["ready", "needs-review"] },
+          "tags": { "type": "array", "items": { "type": "string" } },
+          "revision": { "type": "integer" },
+          "createdAt": { "type": "string", "format": "date-time" },
+          "updatedAt": { "type": "string", "format": "date-time" }
+        }
+      },
+      "CreateBookRequest": {
+        "type": "object",
+        "required": ["title"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string", "pattern": "^book-[A-Za-z0-9_-]+$" },
+          "title": { "type": "string", "minLength": 1, "maxLength": 160 },
+          "category": { "type": ["string", "null"], "maxLength": 100, "default": null },
+          "folderId": { "type": ["string", "null"], "default": null },
+          "words": { "type": "array", "maxItems": 5000, "items": { "$ref": "#/components/schemas/WordInput" }, "default": [] }
+        }
+      },
+      "CreateBookResponse": {
+        "type": "object",
+        "required": ["data"],
+        "properties": {
+          "data": {
+            "type": "object",
+            "required": ["book", "entries"],
+            "properties": {
+              "book": { "$ref": "#/components/schemas/Book" },
+              "entries": { "type": "array", "items": { "$ref": "#/components/schemas/Entry" } }
+            }
+          }
+        }
+      },
+      "Pagination": {
+        "type": "object",
+        "required": ["limit", "nextCursor"],
+        "properties": {
+          "limit": { "type": "integer" },
+          "nextCursor": { "type": ["string", "null"] }
+        }
+      },
+      "BookListResponse": {
+        "type": "object",
+        "required": ["data", "pagination"],
+        "properties": {
+          "data": { "type": "array", "items": { "$ref": "#/components/schemas/Book" } },
+          "pagination": { "$ref": "#/components/schemas/Pagination" }
+        }
+      },
+      "EntryListResponse": {
+        "type": "object",
+        "required": ["data", "pagination"],
+        "properties": {
+          "data": { "type": "array", "items": { "$ref": "#/components/schemas/Entry" } },
+          "pagination": { "$ref": "#/components/schemas/Pagination" }
+        }
+      },
+      "ErrorResponse": {
+        "type": "object",
+        "required": ["error"],
+        "properties": {
+          "error": {
+            "type": "object",
+            "required": ["code", "message"],
+            "properties": {
+              "code": { "type": "string" },
+              "message": { "type": "string" },
+              "details": { "type": "object" }
+            }
+          }
+        }
+      }
+    }
+  }
+}

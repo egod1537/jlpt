@@ -53,8 +53,9 @@ export function GET(request: NextRequest) {
   let wordIds = eligible.map((row) => String(row.word_id));
   if (seed) wordIds = shuffled(wordIds, seed).slice(0, limit);
   if (!wordIds.length) return apiJson({ cards: [], totalMatches, dueCount, serverTime: new Date().toISOString() });
+  const occurrenceScope = bookIds.length ? ` AND e.book_id IN (${bookIds.map(() => "?").join(",")})` : "";
   const rows = db.prepare(`SELECT e.*,b.title book_title,r.due_at,r.last_reviewed_at,r.last_rating,CASE WHEN bm.entry_id IS NULL THEN 0 ELSE 1 END bookmarked,COALESCE(bm.revision,0) bookmark_revision
-    ${from} WHERE e.word_id IN (${wordIds.map(() => "?").join(",")}) AND e.deleted_at IS NULL AND b.deleted_at IS NULL ORDER BY b.order_index,e.position,e.entry_id`).all(...wordIds) as Array<Record<string, unknown>>;
+    ${from} WHERE e.word_id IN (${wordIds.map(() => "?").join(",")})${occurrenceScope} AND e.deleted_at IS NULL AND b.deleted_at IS NULL ORDER BY b.order_index,e.position,e.entry_id`).all(...wordIds, ...bookIds) as Array<Record<string, unknown>>;
   const grouped = new Map<string, Array<Record<string, unknown>>>();
   for (const row of rows) grouped.set(String(row.word_id), [...(grouped.get(String(row.word_id)) || []), row]);
   const byId = new Map(wordIds.map((id, index) => [id, index]));

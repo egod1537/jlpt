@@ -36,6 +36,24 @@ npm run dev
 
 기본 DB는 `var/jlpt.sqlite`이고 원본은 `dataset/data`입니다.
 
+Windows 로컬 환경에서는 네이티브 패키지에 포함된 사전 빌드를 사용하도록 아래 명령으로 한 번에 설정할 수 있습니다. 개발 서버는 기본 포트와 겹치지 않는 `http://127.0.0.1:3100`에서 실행됩니다.
+
+```bash
+npm run setup:local
+npm run dev:local
+```
+
+## 외부 단어장 API
+
+서버 간 연동용 API는 `/api/v1` 아래에 있으며 모든 요청에 `Authorization: Bearer <API_KEY>`가 필요합니다. `.env` 또는 `src/front/.env.local`의 `JLPT_EXTERNAL_API_KEY`에 16자 이상의 임의 값을 설정한 뒤 서버를 다시 시작하세요. 값이 비어 있으면 외부 API는 503으로 비활성화됩니다.
+
+- `GET /api/v1/books`: 단어장 목록 조회
+- `POST /api/v1/books`: 단어와 함께 단어장 일괄 생성
+- `GET /api/v1/books/{bookId}`: 단어장 메타데이터 조회
+- `GET /api/v1/books/{bookId}/entries`: 단어 목록 조회
+
+요청·응답 예시, 페이지네이션, 멱등 재시도와 오류 형식은 [외부 API 안내](docs/EXTERNAL_API.md)에 정리되어 있습니다. 기계 판독용 명세는 실행 서버의 `/external-api.openapi.json`에서 제공합니다.
+
 검증 명령:
 
 ```bash
