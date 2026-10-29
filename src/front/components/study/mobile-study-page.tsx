@@ -9,6 +9,7 @@ import { useSync } from "@/components/sync/sync-provider";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogDescription, DialogTitle } from "@/components/ui/dialog";
 import { nextStudyQueue } from "@/lib/study-queue";
+import { isResumableStudySession, studySessionProgress } from "@/lib/study-session-progress";
 import { resolveStudyTitle } from "@/lib/study-title";
 import { FittedStudyTerm, FittedStudyDetails } from "@/components/study/fitted-study-term";
 
@@ -64,18 +65,22 @@ function sameIds(left: string[], right: string[], orderMatters = true) {
 }
 
 function sessionForRange(sessions: Session[], bookIds: string[], mode: Mode, includeReview: boolean, wordIds: string[], resumableOnly = false) {
-  return sessions.find((session) => (!resumableOnly || session.status === "active" || session.status === "paused")
-    && sameIds(session.bookIds, bookIds, false)
-    && session.mode === mode
-    && session.includeReview === includeReview
-    && sameIds(session.wordIds, wordIds));
+  const session = sessions.find((candidate) => sameIds(candidate.bookIds, bookIds, false)
+    && candidate.mode === mode
+    && candidate.includeReview === includeReview
+    && sameIds(candidate.wordIds, wordIds));
+  if (!session) return undefined;
+  return !resumableOnly || isResumableStudySession(session) ? session : undefined;
 }
 
-function sessionProgress(session: Session | undefined, total: number) {
-  if (!session) return 0;
-  if (session.status === "completed") return total;
-  const remaining = new Set(session.queue?.length ? session.queue : session.wordIds.slice(session.position || 0)).size;
-  return Math.max(0, Math.min(total, total - remaining));
+function latestResumableSessions(sessions: Session[]) {
+  const seen = new Set<string>();
+  return sessions.filter((session) => {
+    const key = [session.mode, String(session.includeReview), [...session.bookIds].sort().join("\u0000"), session.wordIds.join("\u0000")].join("\u0001");
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return isResumableStudySession(session);
+  });
 }
 
 function highlightedExample(value: string): ReactNode[] {
@@ -145,7 +150,7 @@ export function MobileStudyPage() {
   const initializationHandled = useRef(false);
 
   const cardByWordId = useMemo(() => new Map(cards.map((card) => [card.wordId, card])), [cards]);
-  const resumableSessions = useMemo(() => studySessions.filter((session) => session.status === "active" || session.status === "paused"), [studySessions]);
+  const resumableSessions = useMemo(() => latestResumableSessions(studySessions), [studySessions]);
   const card = roundQueue.length ? cardByWordId.get(roundQueue[0]) : undefined;
   const entry = card?.representative;
   const completed = Math.max(0, initialWordIds.length - new Set(roundQueue).size);
@@ -546,7 +551,7 @@ function RangeLink({ range, baseQuery, rangeMenu, sessions, featured = false }: 
   const cards = range ? rangeMenu.cards.slice(range.start, range.end) : rangeMenu.cards;
   const total = cards.length;
   const session = sessionForRange(sessions, rangeMenu.bookIds, rangeMenu.mode, rangeMenu.includeReview, cards.map((card) => card.wordId));
-  const progress = sessionProgress(session, total);
+  const progress = studySessionProgress(session, total);
   const state = progress >= total ? "완료" : progress ? "진행" : "미학습";
   const label = range ? `${range.start + 1}–${range.end}` : "전체 학습";
   const ariaLabel = range ? `${label} ${total}장 학습, ${state} ${progress}/${total}` : `전체 ${total}장 학습, ${state} ${progress}/${total}`;
