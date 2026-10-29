@@ -16,10 +16,19 @@ if [ -n "$(git status --porcelain --untracked-files=no)" ]; then
 fi
 
 git fetch origin main
-deployment_local_revision=$(git rev-parse HEAD)
 deployment_remote_revision=$(git rev-parse origin/main)
-if [ "$deployment_local_revision" != "$deployment_remote_revision" ]; then
-  echo "배포 중단: 로컬 main과 origin/main이 일치하지 않습니다." >&2
+if ! git merge --ff-only "$deployment_remote_revision"; then
+  echo "배포 중단: 로컬 main을 origin/main 최신 커밋으로 fast-forward할 수 없습니다." >&2
+  exit 1
+fi
+deployment_revision=$(git rev-parse HEAD)
+if [ "$deployment_revision" != "$deployment_remote_revision" ]; then
+  echo "배포 중단: 배포 커밋과 origin/main 최신 커밋이 일치하지 않습니다." >&2
+  exit 1
+fi
+
+if [ -n "$(git status --porcelain --untracked-files=all -- package.json package-lock.json docker-compose.yml src/front src/back dataset/data)" ]; then
+  echo "배포 중단: Docker 빌드 입력에 커밋되지 않은 파일이 있습니다." >&2
   exit 1
 fi
 
@@ -53,7 +62,7 @@ if docker inspect jlpt-vocabulary-web >/dev/null 2>&1; then
   fi
 fi
 
-JLPT_GIT_REVISION="$deployment_local_revision" JLPT_IMAGE_TAG=local docker compose up -d --build
+JLPT_GIT_REVISION="$deployment_revision" JLPT_IMAGE_TAG="$deployment_revision" docker compose up -d --build
 
 deployment_attempt=0
 while [ "$deployment_attempt" -lt 30 ]; do
@@ -72,21 +81,28 @@ if [ "${deployment_health:-}" != "healthy" ]; then
   exit 1
 fi
 
-if ! curl -fsS http://127.0.0.1:${JLPT_WEB_PORT:-8081}/healthz >/dev/null; then
+if ! curl -fsS "http://127.0.0.1:${JLPT_WEB_PORT:-8081}/healthz" >/dev/null; then
   echo "배포 실패: localhost health 확인에 실패했습니다." >&2
   rollback_deployment
   exit 1
 fi
-deployment_api_status=$(curl -sS -o /dev/null -w '%{http_code}' http://127.0.0.1:${JLPT_WEB_PORT:-8081}/api/books)
+deployment_api_status=$(curl -sS -o /dev/null -w '%{http_code}' "http://127.0.0.1:${JLPT_WEB_PORT:-8081}/api/books")
 if [ "$deployment_api_status" != "200" ]; then
   echo "배포 실패: 공개 데이터 API가 200을 반환하지 않았습니다 ($deployment_api_status)." >&2
   rollback_deployment
   exit 1
 fi
-deployment_data_status=$(curl -sS -o /dev/null -w '%{http_code}' http://127.0.0.1:${JLPT_WEB_PORT:-8081}/data/collections.json)
+deployment_data_status=$(curl -sS -o /dev/null -w '%{http_code}' "http://127.0.0.1:${JLPT_WEB_PORT:-8081}/data/collections.json")
 if [ "$deployment_data_status" != "404" ]; then
   echo "배포 실패: 구 정적 데이터 URL이 404가 아닙니다 ($deployment_data_status)." >&2
   rollback_deployment
   exit 1
 fi
-echo "main 배포 완료: $deployment_local_revision"
+deployment_running_revision=$(docker inspect --format '{{ index .Config.Labels "org.opencontainers.image.revision" }}' jlpt-vocabulary-web)
+if [ "$deployment_running_revision" != "$deployment_revision" ]; then
+  echo "배포 실패: 실행 중인 컨테이너 revision이 배포 커밋과 다릅니다 ($deployment_running_revision)." >&2
+  rollback_deployment
+  exit 1
+fi
+
+echo "main 최신 커밋 배포 완료: $deployment_revision"

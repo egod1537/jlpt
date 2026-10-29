@@ -108,13 +108,13 @@ docker compose exec -T web node /app/ops/backup.mjs --prune
 
 ## main 배포와 롤백
 
-배포는 추적 변경이 없고 로컬 `main`이 `origin/main`과 일치할 때만 실행됩니다.
+배포는 추적 변경이 없는 로컬 `main`에서만 실행됩니다. 스크립트가 `origin/main`을 fetch한 뒤 로컬 `main`을 최신 원격 커밋으로 fast-forward하며, 이력이 갈라져 있거나 Docker 빌드 입력에 커밋되지 않은 파일이 있으면 중단합니다.
 
 ```bash
 ./src/front/scripts/deploy-main.sh
 ```
 
-스크립트는 기존 동적 컨테이너의 DB를 먼저 백업하고 이전 이미지를 `jlpt-vocabulary-web:rollback`으로 태그합니다. 새 이미지를 올린 뒤 health, 공개 `/api/books`의 200, 구 `/data/collections.json` 비노출을 확인합니다. health 실패 시 이전 이미지를 다시 시작합니다. migration 이후 새 서버 쓰기가 있었다면 이미지 롤백만으로 DB schema를 되돌리지 말고, 중단 공지 후 배포 직전 DB 백업 복원이 필요한지 판단해야 합니다.
+스크립트는 fetch 시점의 `origin/main` SHA를 Docker 이미지 태그와 OCI revision label로 고정합니다. 기존 동적 컨테이너의 DB를 먼저 백업하고 이전 이미지를 `jlpt-vocabulary-web:rollback`으로 태그한 뒤, 새 이미지의 health, 실행 revision, 공개 `/api/books`의 200, 구 `/data/collections.json` 비노출을 확인합니다. 검증 실패 시 이전 이미지를 다시 시작합니다. migration 이후 새 서버 쓰기가 있었다면 이미지 롤백만으로 DB schema를 되돌리지 말고, 중단 공지 후 배포 직전 DB 백업 복원이 필요한지 판단해야 합니다.
 
 Caddy upstream은 Docker network alias `jlpt-vocabulary-web:3000`입니다. host port는 계속 `127.0.0.1:8081`에만 바인딩하며 Docker socket은 mount하지 않습니다.
 
