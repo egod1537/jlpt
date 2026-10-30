@@ -297,16 +297,19 @@ export async function runListeningWorkerLoop(options: {
   const requestedIdleMs = Number(options.idleMs ?? 1_000);
   const concurrency = Number.isFinite(requestedConcurrency) ? Math.min(4, Math.max(1, Math.trunc(requestedConcurrency))) : 1;
   const idleMs = Number.isFinite(requestedIdleMs) ? Math.min(30_000, Math.max(100, Math.trunc(requestedIdleMs))) : 1_000;
-  while (!options.signal?.aborted) {
-    const results = await Promise.all(Array.from({ length: concurrency }, () => runListeningWorkerOnce(db, { signal: options.signal }).catch((error: unknown) => {
-      const code = error instanceof Error ? error.name : "UNKNOWN";
-      console.error(JSON.stringify({ component: "listening-worker", code }));
-      return false;
-    })));
-    if (results.some(Boolean)) continue;
-    await options.onIdle?.();
-    await abortableDelay(idleMs, options.signal);
-  }
+  const runSlot = async () => {
+    while (!options.signal?.aborted) {
+      const worked = await runListeningWorkerOnce(db, { signal: options.signal }).catch((error: unknown) => {
+        const code = error instanceof Error ? error.name : "UNKNOWN";
+        console.error(JSON.stringify({ component: "listening-worker", code }));
+        return false;
+      });
+      if (worked) continue;
+      await options.onIdle?.();
+      await abortableDelay(idleMs, options.signal);
+    }
+  };
+  await Promise.all(Array.from({ length: concurrency }, () => runSlot()));
 }
 
 function abortableDelay(ms: number, signal?: AbortSignal) {
