@@ -98,6 +98,8 @@ const setSummarySql = `
 export function listListeningLibrary(db: AppDatabase, options: {
   q?: string;
   filter?: "all" | "recent" | "favorites" | "unfiled";
+  folderId?: string | null;
+  sort?: "updated" | "name" | "created" | "custom";
   limit?: number;
   offset?: number;
 } = {}) {
@@ -117,7 +119,10 @@ export function listListeningLibrary(db: AppDatabase, options: {
   if (options.filter === "favorites") where.push("s.favorite=1");
   if (options.filter === "unfiled") where.push("s.folder_id IS NULL");
   if (options.filter === "recent") where.push("(s.updated_at >= datetime('now','-30 days') OR EXISTS (SELECT 1 FROM listening_audio recent_audio WHERE recent_audio.set_id=s.id AND recent_audio.last_played_at >= datetime('now','-30 days')))");
-  const sets = db.prepare(`${setSummarySql} WHERE ${where.join(" AND ")} GROUP BY s.id ORDER BY s.sort_index, s.updated_at DESC, s.id LIMIT ? OFFSET ?`)
+  if (options.folderId === null) where.push("s.folder_id IS NULL");
+  else if (options.folderId) { where.push("s.folder_id=?"); params.push(options.folderId); }
+  const order = options.sort === "name" ? "s.title COLLATE NOCASE,s.id" : options.sort === "created" ? "s.created_at DESC,s.id" : options.sort === "custom" ? "s.sort_index,s.id" : "s.updated_at DESC,s.id";
+  const sets = db.prepare(`${setSummarySql} WHERE ${where.join(" AND ")} GROUP BY s.id ORDER BY ${order} LIMIT ? OFFSET ?`)
     .all(...params, limit, offset).map((row) => setFrom(row as Row));
   return { folders, sets, page: { limit, offset, hasMore: sets.length === limit } };
 }
@@ -150,6 +155,14 @@ export function updateListeningFolder(db: AppDatabase, folderId: string, input: 
     favorite: input.favorite === undefined ? current.favorite : Boolean(input.favorite),
   };
   if (next.parentId === folderId) throw new ListeningFailure(400, "VALIDATION", "폴더 자신을 상위 폴더로 지정할 수 없습니다.");
+  if (next.parentId && !db.prepare("SELECT 1 FROM listening_folders WHERE id=? AND deleted_at IS NULL").get(next.parentId)) throw new ListeningFailure(404, "NOT_FOUND", "상위 폴더를 찾을 수 없습니다.");
+  if (next.parentId) {
+    const descendant = db.prepare(`WITH RECURSIVE descendants(id) AS (
+      SELECT id FROM listening_folders WHERE parent_id=? AND deleted_at IS NULL
+      UNION ALL SELECT f.id FROM listening_folders f JOIN descendants d ON f.parent_id=d.id WHERE f.deleted_at IS NULL
+    ) SELECT 1 FROM descendants WHERE id=? LIMIT 1`).get(folderId, next.parentId);
+    if (descendant) throw new ListeningFailure(400, "VALIDATION", "하위 폴더를 상위 폴더로 지정할 수 없습니다.");
+  }
   const timestamp = now();
   const result = db.prepare(`UPDATE listening_folders SET parent_id=?,name=?,sort_index=?,favorite=?,revision=revision+1,updated_at=? WHERE id=? AND revision=? AND deleted_at IS NULL`)
     .run(next.parentId, next.name, next.sortIndex, Number(next.favorite), timestamp, folderId, revision);
@@ -162,6 +175,7 @@ export function deleteListeningFolder(db: AppDatabase, folderId: string, revisio
   const result = db.prepare("UPDATE listening_folders SET deleted_at=?,updated_at=?,revision=revision+1 WHERE id=? AND revision=? AND deleted_at IS NULL")
     .run(timestamp, timestamp, folderId, expectedRevision(revision));
   if (!result.changes) throw new ListeningFailure(409, "CONFLICT", "폴더를 찾을 수 없거나 revision이 다릅니다.");
+  db.prepare("UPDATE listening_folders SET parent_id=NULL,updated_at=?,revision=revision+1 WHERE parent_id=? AND deleted_at IS NULL").run(timestamp, folderId);
   db.prepare("UPDATE listening_sets SET folder_id=NULL,updated_at=?,revision=revision+1 WHERE folder_id=? AND deleted_at IS NULL").run(timestamp, folderId);
 }
 
@@ -229,15 +243,18 @@ export function getListeningAudio(db: AppDatabase, audioId: string, includeDelet
   return audioFrom(row);
 }
 
-export function updateListeningAudio(db: AppDatabase, audioId: string, input: Partial<{ favorite: boolean; lastPlayedAt: string | null; status: string }> & { revision: number }) {
+export function updateListeningAudio(db: AppDatabase, audioId: string, input: Partial<{ originalName: string; setId: string; favorite: boolean; lastPlayedAt: string | null; status: string }> & { revision: number }) {
   const current = getListeningAudio(db, audioId);
   const revision = expectedRevision(input.revision);
   if (current.revision !== revision) throw new ListeningFailure(409, "CONFLICT", "음원이 다른 곳에서 수정되었습니다.");
   const status = input.status ?? current.status;
   if (!new Set(["uploaded","queued","transcribing","transcribed","correcting","ready","failed","missing"]).has(status)) throw new ListeningFailure(400, "VALIDATION", "음원 상태가 올바르지 않습니다.");
+  const originalName = input.originalName === undefined ? current.originalName : requiredLabel(input.originalName, "음원 제목", 255);
+  const setId = input.setId === undefined ? current.setId : input.setId;
+  if (!db.prepare("SELECT 1 FROM listening_sets WHERE id=? AND deleted_at IS NULL").get(setId)) throw new ListeningFailure(404, "NOT_FOUND", "세트를 찾을 수 없습니다.");
   const timestamp = now();
-  const result = db.prepare("UPDATE listening_audio SET favorite=?,last_played_at=?,status=?,revision=revision+1,updated_at=? WHERE id=? AND revision=? AND deleted_at IS NULL")
-    .run(Number(input.favorite ?? current.favorite), input.lastPlayedAt === undefined ? current.lastPlayedAt : input.lastPlayedAt, status, timestamp, audioId, revision);
+  const result = db.prepare("UPDATE listening_audio SET set_id=?,original_name=?,favorite=?,last_played_at=?,status=?,revision=revision+1,updated_at=? WHERE id=? AND revision=? AND deleted_at IS NULL")
+    .run(setId, originalName, Number(input.favorite ?? current.favorite), input.lastPlayedAt === undefined ? current.lastPlayedAt : input.lastPlayedAt, status, timestamp, audioId, revision);
   if (!result.changes) throw new ListeningFailure(409, "CONFLICT", "음원이 다른 곳에서 수정되었습니다.");
   return getListeningAudio(db, audioId);
 }

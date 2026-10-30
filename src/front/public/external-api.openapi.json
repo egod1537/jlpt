@@ -1,12 +1,12 @@
 {
   "openapi": "3.1.0",
   "info": {
-    "title": "JLPT External Book API",
-    "version": "1.0.0",
-    "description": "단어장을 조회하고 단어와 함께 원자적으로 생성하는 서버 간 API"
+    "title": "JLPT External API",
+    "version": "1.1.0",
+    "description": "단어장과 청해 라이브러리를 관리하는 서버 간 API"
   },
   "servers": [{ "url": "/", "description": "현재 JLPT 앱 서버" }],
-  "security": [{ "bearerAuth": [] }],
+  "security": [{ "httpBearer": [] }],
   "paths": {
     "/api/v1": {
       "get": {
@@ -16,6 +16,79 @@
           "401": { "$ref": "#/components/responses/Unauthorized" }
         }
       }
+    },
+    "/api/v1/listening": {
+      "get": { "summary": "청해 API 탐색 정보", "responses": { "200": { "description": "청해 리소스 URL" }, "401": { "$ref": "#/components/responses/Unauthorized" } } }
+    },
+    "/api/v1/listening/folders": {
+      "get": {
+        "summary": "청해 폴더 목록",
+        "parameters": [{ "$ref": "#/components/parameters/Limit" }, { "$ref": "#/components/parameters/Cursor" }, { "name": "q", "in": "query", "schema": { "type": "string", "maxLength": 200 } }],
+        "responses": { "200": { "description": "폴더 페이지", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/ListeningFolderListResponse" } } } }, "401": { "$ref": "#/components/responses/Unauthorized" } }
+      },
+      "post": {
+        "summary": "청해 폴더 생성", "parameters": [{ "$ref": "#/components/parameters/IdempotencyKey" }],
+        "requestBody": { "required": true, "content": { "application/json": { "schema": { "type": "object", "required": ["name"], "properties": { "name": { "type": "string", "maxLength": 120 }, "parentId": { "type": ["string", "null"] }, "favorite": { "type": "boolean" } } } } } },
+        "responses": { "201": { "description": "생성됨" }, "400": { "$ref": "#/components/responses/BadRequest" }, "401": { "$ref": "#/components/responses/Unauthorized" } }
+      }
+    },
+    "/api/v1/listening/folders/{folderId}": {
+      "patch": { "summary": "청해 폴더 수정 또는 이동", "parameters": [{ "$ref": "#/components/parameters/FolderId" }, { "$ref": "#/components/parameters/IfMatch" }, { "$ref": "#/components/parameters/IdempotencyKey" }], "requestBody": { "$ref": "#/components/requestBodies/RevisionMutation" }, "responses": { "200": { "description": "수정됨" }, "409": { "$ref": "#/components/responses/Conflict" } } },
+      "delete": { "summary": "폴더 삭제; 직계 하위 폴더와 세트는 루트로 이동", "parameters": [{ "$ref": "#/components/parameters/FolderId" }, { "$ref": "#/components/parameters/ExpectedRevision" }, { "$ref": "#/components/parameters/IdempotencyKey" }], "responses": { "200": { "description": "삭제됨" }, "409": { "$ref": "#/components/responses/Conflict" } } }
+    },
+    "/api/v1/listening/sets": {
+      "get": {
+        "summary": "청해 세트 목록",
+        "parameters": [{ "$ref": "#/components/parameters/Limit" }, { "$ref": "#/components/parameters/Cursor" }, { "name": "q", "in": "query", "schema": { "type": "string" } }, { "name": "folderId", "in": "query", "schema": { "type": "string" } }, { "name": "sort", "in": "query", "schema": { "type": "string", "enum": ["updated", "name", "created", "custom"] } }],
+        "responses": { "200": { "description": "세트 페이지", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/ListeningSetListResponse" } } } } }
+      },
+      "post": { "summary": "청해 세트 생성", "parameters": [{ "$ref": "#/components/parameters/IdempotencyKey" }], "requestBody": { "required": true, "content": { "application/json": { "schema": { "type": "object", "required": ["title"], "properties": { "title": { "type": "string", "maxLength": 200 }, "description": { "type": "string" }, "folderId": { "type": ["string", "null"] } } } } } }, "responses": { "201": { "description": "생성됨" } } }
+    },
+    "/api/v1/listening/sets/{setId}": {
+      "get": { "summary": "세트 상세와 음원 목록", "parameters": [{ "$ref": "#/components/parameters/SetId" }], "responses": { "200": { "description": "세트 상세" }, "404": { "$ref": "#/components/responses/NotFound" } } },
+      "patch": { "summary": "세트 수정", "parameters": [{ "$ref": "#/components/parameters/SetId" }, { "$ref": "#/components/parameters/IfMatch" }, { "$ref": "#/components/parameters/IdempotencyKey" }], "requestBody": { "$ref": "#/components/requestBodies/RevisionMutation" }, "responses": { "200": { "description": "수정됨" }, "409": { "$ref": "#/components/responses/Conflict" } } },
+      "delete": { "summary": "세트와 소속 음원 soft delete", "parameters": [{ "$ref": "#/components/parameters/SetId" }, { "$ref": "#/components/parameters/ExpectedRevision" }, { "$ref": "#/components/parameters/IdempotencyKey" }], "responses": { "200": { "description": "삭제됨" } } }
+    },
+    "/api/v1/listening/sets/{setId}/audio": {
+      "post": {
+        "summary": "음원 스트리밍 업로드 후 전사 자동 시작", "parameters": [{ "$ref": "#/components/parameters/SetId" }, { "$ref": "#/components/parameters/IdempotencyKey" }],
+        "requestBody": { "required": true, "content": { "multipart/form-data": { "schema": { "type": "object", "required": ["file"], "properties": { "file": { "type": "string", "format": "binary" } } } } } },
+        "responses": { "201": { "description": "업로드됨", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/ListeningUploadResponse" } } } }, "413": { "description": "파일 제한 초과" }, "415": { "description": "지원하지 않는 음원" } }
+      }
+    },
+    "/api/v1/listening/audio/{audioId}": {
+      "get": { "summary": "음원 메타데이터와 스크립트 상태", "parameters": [{ "$ref": "#/components/parameters/AudioId" }], "responses": { "200": { "description": "음원", "content": { "application/json": { "schema": { "type": "object", "properties": { "data": { "$ref": "#/components/schemas/ListeningAudio" } } } } } } } },
+      "patch": { "summary": "음원 이름·세트·즐겨찾기 수정", "parameters": [{ "$ref": "#/components/parameters/AudioId" }, { "$ref": "#/components/parameters/IfMatch" }, { "$ref": "#/components/parameters/IdempotencyKey" }], "requestBody": { "$ref": "#/components/requestBodies/RevisionMutation" }, "responses": { "200": { "description": "수정됨" }, "409": { "$ref": "#/components/responses/Conflict" } } },
+      "delete": { "summary": "음원 soft delete", "parameters": [{ "$ref": "#/components/parameters/AudioId" }, { "$ref": "#/components/parameters/ExpectedRevision" }, { "$ref": "#/components/parameters/IdempotencyKey" }], "responses": { "200": { "description": "삭제됨" } } }
+    },
+    "/api/v1/listening/audio/{audioId}/stream": {
+      "get": { "summary": "인증된 원본 음원 Range 스트림", "parameters": [{ "$ref": "#/components/parameters/AudioId" }, { "name": "Range", "in": "header", "schema": { "type": "string", "example": "bytes=0-65535" } }], "responses": { "200": { "description": "전체 음원", "content": { "audio/*": { "schema": { "type": "string", "format": "binary" } } } }, "206": { "description": "부분 음원", "headers": { "Content-Range": { "schema": { "type": "string" } } }, "content": { "audio/*": { "schema": { "type": "string", "format": "binary" } } } }, "416": { "description": "잘못된 범위" } } },
+      "head": { "summary": "음원 스트림 헤더", "parameters": [{ "$ref": "#/components/parameters/AudioId" }], "responses": { "200": { "description": "음원 헤더" }, "206": { "description": "부분 음원 헤더" } } }
+    },
+    "/api/v1/listening/audio/{audioId}/transcribe": {
+      "post": { "summary": "Whisper 전사 작업 시작", "parameters": [{ "$ref": "#/components/parameters/AudioId" }, { "$ref": "#/components/parameters/IdempotencyKey" }], "responses": { "202": { "description": "비동기 작업 대기", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/ListeningJobResponse" } } } } } }
+    },
+    "/api/v1/listening/audio/{audioId}/reprocess": {
+      "post": { "summary": "GPT 교정·번역 작업 시작", "parameters": [{ "$ref": "#/components/parameters/AudioId" }, { "$ref": "#/components/parameters/IdempotencyKey" }], "responses": { "202": { "description": "비동기 작업 대기", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/ListeningJobResponse" } } } } } }
+    },
+    "/api/v1/listening/jobs/{jobId}": {
+      "get": { "summary": "작업 진행 상태", "parameters": [{ "$ref": "#/components/parameters/JobId" }], "responses": { "200": { "description": "작업", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/ListeningJobResponse" } } } } } }
+    },
+    "/api/v1/listening/jobs/{jobId}/retry": {
+      "post": { "summary": "실패·인증대기·취소 작업 재시도", "parameters": [{ "$ref": "#/components/parameters/JobId" }, { "$ref": "#/components/parameters/IdempotencyKey" }], "responses": { "202": { "description": "재시도 대기" } } }
+    },
+    "/api/v1/listening/audio/{audioId}/script": {
+      "get": { "summary": "현재 스크립트와 문장", "parameters": [{ "$ref": "#/components/parameters/AudioId" }], "responses": { "200": { "description": "스크립트", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/ListeningScriptResponse" } } } } } },
+      "patch": { "summary": "새 manual 버전으로 문장 수정·분할·병합", "parameters": [{ "$ref": "#/components/parameters/AudioId" }, { "$ref": "#/components/parameters/IfMatch" }, { "$ref": "#/components/parameters/IdempotencyKey" }], "requestBody": { "$ref": "#/components/requestBodies/RevisionMutation" }, "responses": { "200": { "description": "새 버전" }, "409": { "$ref": "#/components/responses/Conflict" } } }
+    },
+    "/api/v1/listening/audio/{audioId}/versions": {
+      "get": { "summary": "raw·GPT·manual 버전 목록", "parameters": [{ "$ref": "#/components/parameters/AudioId" }], "responses": { "200": { "description": "버전 목록" } } }
+    },
+    "/api/v1/listening/audio/{audioId}/activate": {
+      "post": { "summary": "활성 스크립트 버전 변경", "parameters": [{ "$ref": "#/components/parameters/AudioId" }, { "$ref": "#/components/parameters/IfMatch" }, { "$ref": "#/components/parameters/IdempotencyKey" }], "requestBody": { "$ref": "#/components/requestBodies/RevisionMutation" }, "responses": { "200": { "description": "활성화됨" } } }
+    },
+    "/api/v1/listening/audio/{audioId}/export": {
+      "get": { "summary": "스크립트 내보내기", "parameters": [{ "$ref": "#/components/parameters/AudioId" }, { "name": "format", "in": "query", "schema": { "type": "string", "enum": ["json", "txt", "srt"], "default": "json" } }, { "name": "lang", "in": "query", "schema": { "type": "string", "enum": ["ja", "ko", "bilingual"], "default": "bilingual" } }], "responses": { "200": { "description": "내보낸 파일" } } }
     },
     "/api/v1/books": {
       "get": {
@@ -94,10 +167,22 @@
   },
   "components": {
     "securitySchemes": {
-      "bearerAuth": { "type": "http", "scheme": "bearer", "bearerFormat": "API key" }
+      "httpBearer": { "type": "http", "scheme": "bearer", "bearerFormat": "API key" }
     },
     "parameters": {
-      "BookId": { "name": "bookId", "in": "path", "required": true, "schema": { "type": "string", "pattern": "^book-[A-Za-z0-9_-]+$" } }
+      "BookId": { "name": "bookId", "in": "path", "required": true, "schema": { "type": "string", "pattern": "^book-[A-Za-z0-9_-]+$" } },
+      "FolderId": { "name": "folderId", "in": "path", "required": true, "schema": { "type": "string" } },
+      "SetId": { "name": "setId", "in": "path", "required": true, "schema": { "type": "string" } },
+      "AudioId": { "name": "audioId", "in": "path", "required": true, "schema": { "type": "string" } },
+      "JobId": { "name": "jobId", "in": "path", "required": true, "schema": { "type": "string" } },
+      "Limit": { "name": "limit", "in": "query", "schema": { "type": "integer", "minimum": 1, "maximum": 100, "default": 50 } },
+      "Cursor": { "name": "cursor", "in": "query", "schema": { "type": "string", "pattern": "^[0-9]+$" } },
+      "IdempotencyKey": { "name": "Idempotency-Key", "in": "header", "schema": { "type": "string", "minLength": 1, "maxLength": 128 } },
+      "IfMatch": { "name": "If-Match", "in": "header", "schema": { "type": "string", "example": "W/\"3\"" } },
+      "ExpectedRevision": { "name": "expectedRevision", "in": "query", "required": true, "schema": { "type": "integer", "minimum": 1 } }
+    },
+    "requestBodies": {
+      "RevisionMutation": { "required": true, "content": { "application/json": { "schema": { "type": "object", "properties": { "expectedRevision": { "type": "integer", "minimum": 1 }, "versionId": { "type": "string" }, "operations": { "type": "array", "items": { "type": "object" } } } } } } }
     },
     "responses": {
       "BadRequest": {
@@ -118,6 +203,16 @@
       }
     },
     "schemas": {
+      "ListeningFolder": { "type": "object", "required": ["id", "name", "revision"], "properties": { "id": { "type": "string" }, "parentId": { "type": ["string", "null"] }, "name": { "type": "string" }, "favorite": { "type": "boolean" }, "revision": { "type": "integer" } } },
+      "ListeningSet": { "type": "object", "required": ["id", "title", "revision", "audioCount"], "properties": { "id": { "type": "string" }, "folderId": { "type": ["string", "null"] }, "title": { "type": "string" }, "description": { "type": "string" }, "favorite": { "type": "boolean" }, "revision": { "type": "integer" }, "audioCount": { "type": "integer" }, "durationMs": { "type": "integer" } } },
+      "ListeningAudio": { "type": "object", "required": ["id", "setId", "originalName", "status", "revision", "streamUrl"], "properties": { "id": { "type": "string" }, "setId": { "type": "string" }, "originalName": { "type": "string" }, "mimeType": { "type": "string" }, "sizeBytes": { "type": "integer" }, "durationMs": { "type": ["integer", "null"] }, "status": { "type": "string", "enum": ["uploaded", "queued", "transcribing", "transcribed", "correcting", "ready", "failed", "missing"] }, "versionId": { "type": ["string", "null"] }, "favorite": { "type": "boolean" }, "revision": { "type": "integer" }, "streamUrl": { "type": "string" } } },
+      "ListeningSegment": { "type": "object", "required": ["id", "ordinal", "startMs", "endMs", "ja", "needsReview"], "properties": { "id": { "type": "string" }, "ordinal": { "type": "integer" }, "startMs": { "type": "integer" }, "endMs": { "type": "integer" }, "speaker": { "type": ["string", "null"] }, "ja": { "type": "string" }, "ko": { "type": ["string", "null"] }, "needsReview": { "type": "boolean" }, "reviewNote": { "type": ["string", "null"] }, "sourceSegmentIds": { "type": "array", "items": { "type": "string" } } } },
+      "ListeningJob": { "type": "object", "required": ["jobId", "audioId", "state", "stage", "progress"], "properties": { "jobId": { "type": "string" }, "audioId": { "type": "string" }, "type": { "type": "string", "enum": ["transcribe", "gpt_process"] }, "state": { "type": "string", "enum": ["queued", "running", "waiting_auth", "completed", "failed", "canceled"] }, "stage": { "type": "string" }, "progress": { "type": "number", "minimum": 0, "maximum": 1 }, "error": { "type": ["object", "null"] } } },
+      "ListeningFolderListResponse": { "type": "object", "required": ["data", "pagination"], "properties": { "data": { "type": "array", "items": { "$ref": "#/components/schemas/ListeningFolder" } }, "pagination": { "$ref": "#/components/schemas/Pagination" } } },
+      "ListeningSetListResponse": { "type": "object", "required": ["data", "pagination"], "properties": { "data": { "type": "array", "items": { "$ref": "#/components/schemas/ListeningSet" } }, "pagination": { "$ref": "#/components/schemas/Pagination" } } },
+      "ListeningUploadResponse": { "type": "object", "required": ["data"], "properties": { "data": { "type": "object", "required": ["audio", "jobId", "autoTranscribe"], "properties": { "audio": { "$ref": "#/components/schemas/ListeningAudio" }, "jobId": { "type": "string" }, "autoTranscribe": { "const": true } } } } },
+      "ListeningJobResponse": { "type": "object", "required": ["data"], "properties": { "data": { "$ref": "#/components/schemas/ListeningJob" } } },
+      "ListeningScriptResponse": { "type": "object", "required": ["data"], "properties": { "data": { "type": "object", "required": ["audioId", "versionId", "revision", "durationMs", "language", "segments"], "properties": { "audioId": { "type": "string" }, "versionId": { "type": ["string", "null"] }, "revision": { "type": "integer" }, "durationMs": { "type": ["integer", "null"] }, "language": { "type": "string" }, "segments": { "type": "array", "items": { "$ref": "#/components/schemas/ListeningSegment" } } } } } },
       "Book": {
         "type": "object",
         "required": ["id", "title", "category", "folderId", "favorite", "revision", "createdAt", "updatedAt"],

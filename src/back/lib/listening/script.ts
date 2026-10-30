@@ -41,7 +41,7 @@ export function editListeningScript(db: AppDatabase, audioId: string, input: { r
   return { audio: activation.audio, script: version };
 }
 
-export function exportListeningScript(db: AppDatabase, audioId: string, format: "json" | "txt" | "srt") {
+export function exportListeningScript(db: AppDatabase, audioId: string, format: "json" | "txt" | "srt", lang: "ja" | "ko" | "bilingual" = "bilingual") {
   const { audio, script } = getActiveTranscript(db, audioId);
   if (!script) throw new ListeningFailure(404, "NOT_FOUND", "내보낼 스크립트가 없습니다.");
   const baseName = safeExportName(audio.originalName.replace(/\.[^.]+$/, "") || "transcript");
@@ -54,15 +54,16 @@ export function exportListeningScript(db: AppDatabase, audioId: string, format: 
   }
   if (format === "txt") {
     const body = script.segments.map((segment) => {
-      const lines = [`[${formatClock(segment.startMs)}] ${segment.speaker ? `${segment.speaker}: ` : ""}${segment.ja}`];
-      if (segment.ko !== null) lines.push(segment.ko);
+      const lines = lang === "ko" ? [`[${formatClock(segment.startMs)}] ${segment.speaker ? `${segment.speaker}: ` : ""}${segment.ko || ""}`] : [`[${formatClock(segment.startMs)}] ${segment.speaker ? `${segment.speaker}: ` : ""}${segment.ja}`];
+      if (lang === "bilingual" && segment.ko !== null) lines.push(segment.ko);
       return lines.join("\n");
     }).join("\n\n");
     return { body: `${body}\n`, contentType: "text/plain; charset=utf-8", filename: `${baseName}.txt` };
   }
   const body = script.segments.map((segment, index) => {
-    const lines = [String(index + 1), `${formatSrtTime(segment.startMs)} --> ${formatSrtTime(segment.endMs)}`, `${segment.speaker ? `${segment.speaker}: ` : ""}${segment.ja}`];
-    if (segment.ko !== null) lines.push(segment.ko);
+    const primary = lang === "ko" ? segment.ko || "" : segment.ja;
+    const lines = [String(index + 1), `${formatSrtTime(segment.startMs)} --> ${formatSrtTime(segment.endMs)}`, `${segment.speaker ? `${segment.speaker}: ` : ""}${primary}`];
+    if (lang === "bilingual" && segment.ko !== null) lines.push(segment.ko);
     return lines.join("\n");
   }).join("\n\n");
   return { body: `${body}\n`, contentType: "application/x-subrip; charset=utf-8", filename: `${baseName}.srt` };

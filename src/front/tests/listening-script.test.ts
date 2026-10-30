@@ -71,6 +71,8 @@ describe("versioned listening scripts", () => {
     expect(srt.body).not.toContain("null");
     expect(srt.filename).not.toMatch(/[\\/:*?"<>|]/);
     expect(exportListeningScript(db, audio.id, "txt").body).toContain("[01:01.234] 長い文");
+    expect(exportListeningScript(db, audio.id, "txt", "ko").body).not.toContain("長い文");
+    expect(exportListeningScript(db, audio.id, "srt", "ja").body).not.toContain("null");
     expect(JSON.parse(exportListeningScript(db, audio.id, "json").body).segments[0]).toMatchObject({ startMs: 61_234, endMs: 3_661_005, ko: null });
   });
 });

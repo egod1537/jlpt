@@ -1,4 +1,4 @@
-# 외부 단어장 API v1
+# 외부 단어장·청해 API v1
 
 외부 프로그램에서 단어장을 조회하거나 단어와 함께 새 단어장을 생성하는 서버 간 JSON API입니다. 기본 URL은 앱 주소 뒤의 `/api/v1`입니다.
 
@@ -130,3 +130,78 @@ curl -fsS "http://127.0.0.1:3100/api/v1/books/book-api-sample/entries?limit=100"
 ## 기계 판독 명세
 
 OpenAPI 3.1 명세는 `/external-api.openapi.json`에서 인증 없이 조회할 수 있습니다. API 탐색 정보는 인증 후 `GET /api/v1`에서 확인할 수 있습니다.
+
+## 청해 라이브러리 API
+
+청해 API의 기본 경로는 `/api/v1/listening`입니다. 위와 같은 Bearer 키가 모든 요청에 필요하며, 브라우저 URL·query·localStorage에 API 키를 넣지 마세요. 서버 간 HTTPS 호출, VPN 또는 별도 접근 경계 안에서 사용하는 것을 권장합니다. CORS wildcard는 제공하지 않습니다.
+
+폴더와 세트 목록은 안정적인 offset cursor를 사용합니다. `limit` 기본값은 50, 최댓값은 100이며, 다음 요청에는 응답의 `pagination.nextCursor`를 그대로 전달합니다. 세트는 `q`, `folderId`(`unfiled` 포함), `sort=updated|name|created|custom`을 지원합니다.
+
+```bash
+curl -fsS "http://127.0.0.1:3100/api/v1/listening/sets?limit=50&sort=updated" \
+  -H "Authorization: Bearer $JLPT_EXTERNAL_API_KEY"
+```
+
+폴더·세트 생성과 수정:
+
+```bash
+curl -fsS -X POST "http://127.0.0.1:3100/api/v1/listening/sets" \
+  -H "Authorization: Bearer $JLPT_EXTERNAL_API_KEY" \
+  -H "Content-Type: application/json" \
+  -H "Idempotency-Key: listening-set-001" \
+  -d '{"title":"N1 실전 청해","folderId":null}'
+
+curl -fsS -X PATCH "http://127.0.0.1:3100/api/v1/listening/sets/ls-..." \
+  -H "Authorization: Bearer $JLPT_EXTERNAL_API_KEY" \
+  -H "Content-Type: application/json" \
+  -H 'If-Match: W/"1"' \
+  -d '{"title":"N1 실전 청해 1"}'
+```
+
+PATCH는 본문의 `expectedRevision` 또는 `If-Match`가 필요합니다. DELETE는 `?expectedRevision=1`을 사용합니다. 버전이 다르면 `409 CONFLICT`이며 기존 데이터는 바뀌지 않습니다. 폴더를 삭제하면 그 폴더의 직계 하위 폴더와 세트는 루트/미분류로 이동하고, 세트·음원 삭제는 soft delete입니다.
+
+### 음원 업로드와 비동기 처리
+
+한 요청에 음원 하나를 `file` 필드로 보냅니다. MP3, M4A, WAV, OGG, WEBM을 지원하며 서버의 `JLPT_MAX_AUDIO_BYTES` 제한을 적용합니다. 업로드는 메모리에 전체 파일을 올리지 않고 검증·저장하며, 성공하면 Whisper 전사 작업을 자동으로 큐에 넣습니다.
+
+```bash
+curl -fsS -X POST "http://127.0.0.1:3100/api/v1/listening/sets/ls-.../audio" \
+  -H "Authorization: Bearer $JLPT_EXTERNAL_API_KEY" \
+  -H "Idempotency-Key: audio-upload-001" \
+  -F "file=@./lesson.mp3;type=audio/mpeg"
+```
+
+`201` 응답의 `data.audio.id`와 `data.jobId`를 보관합니다. `autoTranscribe`는 항상 `true`입니다. 같은 멱등 키와 같은 파일을 다시 보내면 파일이나 작업을 중복 생성하지 않고 `Idempotency-Replayed: true`를 반환합니다. 같은 키를 다른 파일에 사용하면 `409`입니다.
+
+```bash
+curl -fsS "http://127.0.0.1:3100/api/v1/listening/jobs/lj-..." \
+  -H "Authorization: Bearer $JLPT_EXTERNAL_API_KEY"
+```
+
+작업 상태는 `queued`, `running`, `waiting_auth`, `completed`, `failed`, `canceled` 중 하나입니다. `stage`, 0~1 범위의 `progress`, 실패 시 `error`가 함께 옵니다. 전사나 GPT 교정 요청은 외부 AI 완료까지 HTTP 연결을 유지하지 않고 항상 `202` 작업을 반환합니다. `POST .../jobs/{jobId}/retry`는 실패·인증대기·취소된 단계만 재시도합니다.
+
+### 스크립트, 버전과 스트리밍
+
+```bash
+curl -fsS "http://127.0.0.1:3100/api/v1/listening/audio/la-.../script" \
+  -H "Authorization: Bearer $JLPT_EXTERNAL_API_KEY"
+
+curl -fsS "http://127.0.0.1:3100/api/v1/listening/audio/la-.../stream" \
+  -H "Authorization: Bearer $JLPT_EXTERNAL_API_KEY" \
+  -H "Range: bytes=0-65535" -o first-part.bin
+```
+
+스트림은 `200`, 단일 byte range에는 `206`, 잘못된 range에는 `416`을 반환하며 파일 전체를 서버 메모리에 버퍼링하지 않습니다. URL에 API 키를 넣지 마세요.
+
+`GET .../versions`는 raw/GPT/manual 버전을, `POST .../activate`는 `{ "versionId":"...", "expectedRevision":3 }`로 활성 버전을 바꿉니다. `PATCH .../script`는 같은 revision 규칙 아래 `update`, `split`, `merge` 작업 배열을 받아 원본을 덮어쓰지 않고 새 manual 버전을 만듭니다.
+
+내보내기는 다음과 같습니다.
+
+```bash
+curl -fsS "http://127.0.0.1:3100/api/v1/listening/audio/la-.../export?format=srt&lang=bilingual" \
+  -H "Authorization: Bearer $JLPT_EXTERNAL_API_KEY" -OJ
+```
+
+`format=json|txt|srt`, `lang=ja|ko|bilingual`을 지원합니다. 외부 응답에는 서버 파일 경로, Whisper 설정·토큰, ChatGPT OAuth access/refresh token이 포함되지 않습니다.
+
+청해 API의 주요 상태 코드는 `400` 입력 오류, `401` 인증 실패, `404` 없음, `409` revision/멱등 충돌, `413` 크기 제한, `415` 미지원 미디어, `503` API 키 또는 필수 백엔드 미설정입니다.
