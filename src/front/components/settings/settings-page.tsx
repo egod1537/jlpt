@@ -37,7 +37,7 @@ export function SettingsPage() {
     setError(""); setMessage(`휴지통을 비웠습니다. 폴더 ${body.deleted.folders}개 · 세트 ${body.deleted.books}개 · 단어 ${body.deleted.entries}개를 완전 삭제했고 학습 이력은 보존했습니다.`);
     retry();
   }
-  return <div className="mx-auto max-w-3xl"><h1 className="text-2xl font-black">설정</h1><section className="mt-6 rounded-2xl border border-app-border bg-app-surface p-5"><h2 className="font-black">개인 모드</h2><p className="mt-2 text-sm leading-6 text-app-muted">로그인 없이 바로 사용합니다.</p></section>
+  return <div className="mx-auto max-w-3xl"><h1 className="text-2xl font-black">설정</h1><section className="mt-6 rounded-2xl border border-app-border bg-app-surface p-5"><h2 className="font-black">개인 서버 접근</h2><p className="mt-2 text-sm leading-6 text-app-muted">외부 배포에서는 HttpOnly 접근 세션으로 단어·음원·OAuth 정보를 보호합니다. 개발 모드의 loopback 접속은 접근 암호 없이 사용할 수 있습니다.</p><form action="/api/access/logout" method="post" className="mt-3"><Button type="submit" variant="outline">접근 세션 종료</Button></form></section>
     <OpenAiConnection />
     <section className="mt-5 rounded-2xl border border-app-border bg-app-surface p-5"><div className="flex items-center justify-between"><div><h2 className="font-black">동기화</h2><div className="mt-1"><SyncStatus /></div></div><Button variant="outline" size="icon" aria-label="지금 동기화" onClick={retry}><RefreshCw className="h-4 w-4" /></Button></div></section>
     <SyncConflicts />

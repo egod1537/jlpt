@@ -1,10 +1,14 @@
+import type { NextRequest } from "next/server";
 import { apiError, apiJson } from "@/lib/server/api";
 import { getOpenAiAccessToken, OpenAiAuthError, OpenAiUpstreamError } from "@/lib/server/openai-oauth";
+import { authorize } from "@/lib/server/authorize";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
-export async function GET() {
+export async function GET(request: NextRequest) {
+  const auth = authorize(request);
+  if (!auth.ok) return auth.response;
   try {
     const token = await getOpenAiAccessToken();
     const response = await fetch("https://api.openai.com/v1/models", {

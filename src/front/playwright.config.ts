@@ -1,6 +1,9 @@
 import { defineConfig, devices } from "@playwright/test";
+import { createHmac } from "node:crypto";
 
 const e2ePort = Number(process.env.JLPT_E2E_PORT || 4174);
+const accessSecret = "e2e-host-access-secret";
+const accessCookie = createHmac("sha256", accessSecret).update("jlpt-access-session-v1").digest("base64url");
 
 export default defineConfig({
   testDir: "./e2e",
@@ -9,7 +12,7 @@ export default defineConfig({
   workers: 1,
   retries: 0,
   reporter: "list",
-  use: { baseURL: `http://127.0.0.1:${e2ePort}`, trace: "retain-on-failure" },
+  use: { baseURL: `http://127.0.0.1:${e2ePort}`, trace: "retain-on-failure", extraHTTPHeaders: { Cookie: `jlpt_access=${accessCookie}` } },
   webServer: { command: "tsx scripts/e2e-server.ts", url: `http://127.0.0.1:${e2ePort}/healthz`, reuseExistingServer: false, timeout: 120_000 },
   projects: [
     { name: "desktop-1280", use: { ...devices["Desktop Chrome"], viewport: { width: 1280, height: 800 } } },

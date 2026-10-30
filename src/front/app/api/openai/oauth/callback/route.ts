@@ -1,11 +1,14 @@
 import type { NextRequest } from "next/server";
 import { NextResponse } from "next/server";
 import { finishOpenAiAuthorization, OpenAiAuthError, OpenAiUpstreamError } from "@/lib/server/openai-oauth";
+import { authorize } from "@/lib/server/authorize";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
 export async function GET(request: NextRequest) {
+  const auth = authorize(request);
+  if (!auth.ok) return auth.response;
   const params = request.nextUrl.searchParams;
   try {
     await finishOpenAiAuthorization({
