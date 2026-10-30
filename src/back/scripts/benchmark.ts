@@ -4,6 +4,7 @@ import { openDatabase } from "@back/lib/db/database";
 import { listBooks, searchCatalog } from "@back/lib/catalog/queries";
 import { normalizeSearch } from "@back/lib/catalog/normalize";
 import { seedDatabase } from "@back/lib/seed/seed";
+import { listListeningLibrary } from "@back/lib/listening/repository";
 
 const db = openDatabase(":memory:");
 seedDatabase(db, path.resolve(process.cwd(), "..", "..", "dataset", "data"));
@@ -43,6 +44,15 @@ const optimizedStudyStatement = db.prepare(`WITH eligible AS (
     FROM eligible q JOIN book_entries e ON e.word_id=q.word_id JOIN books b ON b.id=e.book_id
     WHERE e.deleted_at IS NULL AND b.deleted_at IS NULL ORDER BY q.book_order,q.entry_order,e.entry_id`);
 
+const benchmarkTimestamp = new Date().toISOString();
+const insertListeningFixtures = db.transaction(() => {
+  const folder = db.prepare("INSERT INTO listening_folders(id,parent_id,name,sort_index,favorite,revision,created_at,updated_at) VALUES (?,?,?,0,0,1,?,?)");
+  const set = db.prepare("INSERT INTO listening_sets(id,folder_id,title,description,sort_index,favorite,revision,created_at,updated_at) VALUES (?,?,?,'',0,0,1,?,?)");
+  for (let index = 0; index < 20; index += 1) folder.run(`benchmark-folder-${index}`, null, `Benchmark ${index}`, benchmarkTimestamp, benchmarkTimestamp);
+  for (let index = 0; index < 10_000; index += 1) set.run(`benchmark-set-${index}`, `benchmark-folder-${index % 20}`, `Listening target-${String(index).padStart(5, "0")}`, benchmarkTimestamp, benchmarkTimestamp);
+});
+insertListeningFixtures();
+
 const report = {
   environment: { node: process.version, sqlite: (db.prepare("SELECT sqlite_version() version").get() as { version: string }).version, runs: 20, warmups: 5, rows: Number((db.prepare("SELECT COUNT(*) count FROM book_entries").get() as { count: number }).count) },
   books: {
@@ -58,6 +68,14 @@ const report = {
     before: measure(() => legacyStudyStatement.all()),
     after: measure(() => optimizedStudyStatement.all()),
     optimizedPlan: db.prepare("EXPLAIN QUERY PLAN " + optimizedStudyStatement.source).all(),
+  },
+  listeningLibrary10k: {
+    firstPage: measure(() => listListeningLibrary(db, { limit: 50, sort: "updated" })),
+    searchedPage: measure(() => listListeningLibrary(db, { q: "target-09999", limit: 50, sort: "updated" })),
+    plan: db.prepare(`EXPLAIN QUERY PLAN SELECT s.id FROM listening_sets s
+      WHERE s.deleted_at IS NULL AND (s.title LIKE ? OR s.description LIKE ? OR EXISTS (
+        SELECT 1 FROM listening_folders f WHERE f.id=s.folder_id AND f.name LIKE ?
+      )) ORDER BY s.updated_at DESC,s.id LIMIT 50`).all("%target-09999%", "%target-09999%", "%target-09999%"),
   },
 };
 

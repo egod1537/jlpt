@@ -14,11 +14,11 @@
     "db:backup": "node ../back/scripts/backup.mjs",
     "db:restore": "node ../back/scripts/restore.mjs",
     "listening:fsck": "node ../back/scripts/listening-fsck.mjs",
-    "worker:listening": "tsx ../back/scripts/listening-worker.ts",
+    "worker:listening": "node --conditions=react-server --import tsx ../back/scripts/listening-worker.ts",
     "lint": "eslint .",
     "typecheck": "next typegen && tsc --noEmit",
     "test": "vitest run",
-    "benchmark": "tsx ../back/scripts/benchmark.ts",
+    "benchmark": "node --conditions=react-server --import tsx ../back/scripts/benchmark.ts",
     "pretest:e2e": "npm run build",
     "test:e2e": "playwright test"
   },

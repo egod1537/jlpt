@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { memo, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { ArrowLeft, ChevronLeft, ChevronRight, Download, History, Languages, LoaderCircle, Pause, Pencil, Play, Repeat2, RotateCcw } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogDescription, DialogTitle } from "@/components/ui/dialog";
@@ -139,6 +139,10 @@ export function ListeningPlayerPage({ audioId }: { audioId: string }) {
     const current = activeIndex < 0 ? 0 : activeIndex;
     seek(segments[Math.max(0, Math.min(segments.length - 1, current + direction))].startMs, playing);
   };
+  const selectSegment = useCallback((segment: Segment) => {
+    setAutoFollow(true);
+    seek(segment.startMs, !(audioRef.current?.paused ?? true));
+  }, [seek]);
   const togglePlayback = async () => {
     const element = audioRef.current;
     if (!element) return;
@@ -203,12 +207,7 @@ export function ListeningPlayerPage({ audioId }: { audioId: string }) {
       {error ? <StateMessage text={error}><Button onClick={() => void load()}>다시 시도</Button></StateMessage> : null}
       {!loading && !error && !script ? <StateMessage icon={<Languages className="h-8 w-8" />} text={audio?.status === "failed" ? "스크립트 처리에 실패했습니다. 음원은 바로 재생할 수 있습니다." : "스크립트를 준비하고 있습니다. 음원은 먼저 재생할 수 있습니다."}><Button disabled={actionBusy} onClick={() => void retry()}>{actionBusy ? <LoaderCircle className="h-4 w-4 animate-spin" /> : <RotateCcw className="h-4 w-4" />}{audio?.status === "failed" ? "다시 처리" : "처리 요청"}</Button></StateMessage> : null}
       {script ? <div role="list" aria-label="청해 스크립트" className="space-y-1 pb-3">
-        {segments.map((segment, index) => <button id={`listening-segment-${index}`} role="listitem" key={segment.id} type="button" onClick={() => { setAutoFollow(true); seek(segment.startMs, playing); }} className={`block min-h-14 w-full rounded-xl border px-4 py-3 text-left [content-visibility:auto] [contain-intrinsic-size:auto_80px] ${index === activeIndex ? "border-app-accent bg-app-accent-surface/35" : "border-transparent hover:bg-app-surface"}`}>
-          <span className="mb-1 flex items-center gap-2 text-[10px] font-bold text-app-muted"><span>{formatClock(segment.startMs)}</span>{segment.speaker ? <span>{segment.speaker}</span> : null}{segment.needsReview ? <span className="text-app-warning">검토 필요</span> : null}</span>
-          {showJa ? <span className="jp block text-base leading-7">{segment.ja || "…"}</span> : null}
-          {showKo ? <span className={`block leading-6 text-app-muted ${showJa ? "mt-1 text-sm" : "text-base"}`}>{segment.ko || "번역 대기 중"}</span> : null}
-          {!showJa && !showKo ? <span className="block text-sm text-app-muted">문장 {index + 1}</span> : null}
-        </button>)}
+        {segments.map((segment, index) => <SegmentRow key={segment.id} segment={segment} index={index} active={index === activeIndex} showJa={showJa} showKo={showKo} onSelect={selectSegment} />)}
       </div> : null}
     </div>
 
@@ -236,6 +235,15 @@ export function ListeningPlayerPage({ audioId }: { audioId: string }) {
     {audio && script ? <ScriptEditorDialog key={script.id} open={editorOpen} onOpenChange={setEditorOpen} audio={audio} script={script} versions={versions} loadingVersions={versionsLoading} currentPositionMs={positionMs} onChanged={async () => { await load(true); await loadVersions(); }} /> : null}
   </div>;
 }
+
+const SegmentRow = memo(function SegmentRow({ segment, index, active, showJa, showKo, onSelect }: { segment: Segment; index: number; active: boolean; showJa: boolean; showKo: boolean; onSelect: (segment: Segment) => void }) {
+  return <button id={`listening-segment-${index}`} role="listitem" type="button" onClick={() => onSelect(segment)} className={`block min-h-14 w-full rounded-xl border px-4 py-3 text-left [content-visibility:auto] [contain-intrinsic-size:auto_80px] ${active ? "border-app-accent bg-app-accent-surface/35" : "border-transparent hover:bg-app-surface"}`}>
+    <span className="mb-1 flex items-center gap-2 text-[10px] font-bold text-app-muted"><span>{formatClock(segment.startMs)}</span>{segment.speaker ? <span>{segment.speaker}</span> : null}{segment.needsReview ? <span className="text-app-warning">검토 필요</span> : null}</span>
+    {showJa ? <span className="jp block text-base leading-7">{segment.ja || "…"}</span> : null}
+    {showKo ? <span className={`block leading-6 text-app-muted ${showJa ? "mt-1 text-sm" : "text-base"}`}>{segment.ko || "번역 대기 중"}</span> : null}
+    {!showJa && !showKo ? <span className="block text-sm text-app-muted">문장 {index + 1}</span> : null}
+  </button>;
+});
 
 function ScriptEditorDialog({ open, onOpenChange, audio, script, versions, loadingVersions, currentPositionMs, onChanged }: {
   open: boolean; onOpenChange: (value: boolean) => void; audio: AudioMetadata; script: Script; versions: Script[];

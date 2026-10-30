@@ -166,6 +166,8 @@ curl -fsS -X PATCH "http://127.0.0.1:3100/api/v1/listening/sets/ls-..." \
 
 PATCH는 본문의 `expectedRevision` 또는 `If-Match`가 필요합니다. DELETE는 `?expectedRevision=1`을 사용합니다. 버전이 다르면 `409 CONFLICT`이며 기존 데이터는 바뀌지 않습니다. 폴더를 삭제하면 그 폴더의 직계 하위 폴더와 세트는 루트/미분류로 이동하고, 세트·음원 삭제는 soft delete입니다.
 
+soft delete 복구는 `POST .../folders/{id}/restore`, `POST .../sets/{id}/restore`, `POST .../audio/{id}/restore`에 현재 삭제 레코드의 `expectedRevision`을 보냅니다. 세트 복구는 그 세트 삭제와 같은 시각에 삭제된 소속 음원도 함께 복구하며, 상위 폴더가 남아 있지 않으면 미분류에 둡니다. 음원 파일이 실제로 누락된 경우 운영 `listening-fsck.mjs`로 식별해야 합니다.
+
 ### 음원 업로드와 비동기 처리
 
 한 요청에 음원 하나를 `file` 필드로 보냅니다. MP3, M4A, WAV, OGG, WEBM을 지원하며 서버의 `JLPT_MAX_AUDIO_BYTES` 제한을 적용합니다. 업로드는 메모리에 전체 파일을 올리지 않고 검증·저장하며, 성공하면 Whisper 전사 작업을 자동으로 큐에 넣습니다.

@@ -7,6 +7,9 @@ import { Button } from "@/components/ui/button";
 type ConnectionStatus = {
   connected: boolean;
   canUseResponses: boolean;
+  ready: boolean;
+  verifiedAt?: string;
+  verifiedModel?: string;
   account?: { email?: string; name?: string; expiresAt?: string };
 };
 
@@ -50,9 +53,20 @@ export function OpenAiConnection() {
       const response = await fetch("/api/openai/disconnect", { method: "POST" });
       const body = await response.json();
       if (!response.ok) throw new Error(body.error?.message || "연결을 해제하지 못했습니다.");
-      setStatus({ connected: false, canUseResponses: false, account: status?.account });
+      setStatus({ connected: false, canUseResponses: false, ready: false, account: status?.account });
       if (!body.revoked) setError("로컬 연결은 해제했지만 OpenAI 원격 세션 폐기는 확인하지 못했습니다. ChatGPT 설정에서도 연결을 확인해 주세요.");
     } catch (caught) { setError(caught instanceof Error ? caught.message : "연결을 해제하지 못했습니다."); }
+    finally { setBusy(false); }
+  };
+
+  const verify = async () => {
+    setBusy(true); setError("");
+    try {
+      const response = await fetch("/api/openai/verify", { method: "POST" });
+      const body = await response.json();
+      if (!response.ok) throw new Error(body.error?.message || "실제 Responses 호출을 검증하지 못했습니다.");
+      await load();
+    } catch (caught) { setError(caught instanceof Error ? caught.message : "실제 Responses 호출을 검증하지 못했습니다."); }
     finally { setBusy(false); }
   };
 
@@ -64,7 +78,8 @@ export function OpenAiConnection() {
         {!status ? <p className="mt-2 text-sm text-app-muted">연결 상태를 확인하는 중입니다…</p> : status.connected ? <>
           <p className="mt-2 truncate text-sm font-bold">{status.account?.name || status.account?.email || "연결된 ChatGPT 계정"}</p>
           {status.account?.name && status.account.email ? <p className="mt-1 truncate text-xs text-app-muted">{status.account.email}</p> : null}
-          <p className="mt-2 text-sm leading-6 text-app-muted">이 계정의 OAuth access token으로 공개 Responses API 스트리밍을 사용합니다.</p>
+          <p className={`mt-2 text-sm font-bold ${status.ready ? "text-app-accent" : "text-app-warning"}`}>{status.ready ? `GPT 준비됨 · ${status.verifiedModel}` : "OAuth 연결됨 · 실제 모델 호출 미검증"}</p>
+          <p className="mt-1 text-xs leading-5 text-app-muted">{status.ready && status.verifiedAt ? `${new Date(status.verifiedAt).toLocaleString("ko-KR")}에 모델 목록과 단일 Responses 스트림을 확인했습니다.` : "검증 버튼은 모델 목록 조회와 짧은 실제 요청을 한 번 실행합니다."}</p>
         </> : <>
           <p className="mt-2 text-sm leading-6 text-app-muted">내 ChatGPT Plus 또는 Pro 계정을 OAuth로 승인해 Responses API를 사용합니다. API 키는 필요하지 않습니다.</p>
           {status.account?.email ? <p className="mt-2 text-xs text-app-muted">이전에 연결한 계정: {status.account.email}</p> : null}
@@ -74,6 +89,7 @@ export function OpenAiConnection() {
     {error ? <p role="alert" className="mt-4 rounded-xl bg-red-950 p-3 text-sm text-red-200">{error}</p> : null}
     <div className="mt-4 flex flex-wrap gap-2">
       {status?.connected ? <>
+        <Button disabled={busy} onClick={() => void verify()}>{busy ? <RefreshCw aria-hidden="true" className="h-4 w-4 animate-spin" /> : null}GPT 연결 검증</Button>
         <Button asChild variant="outline"><a href="/api/openai/oauth/start"><RefreshCw aria-hidden="true" className="h-4 w-4" />다시 인증</a></Button>
         <Button asChild variant="ghost"><a href="/api/openai/oauth/start?new=1">다른 계정</a></Button>
         <Button variant="ghost" disabled={busy} onClick={() => void disconnect()}><LogOut aria-hidden="true" className="h-4 w-4" />연결 해제</Button>

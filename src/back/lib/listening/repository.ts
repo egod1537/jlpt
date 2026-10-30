@@ -179,6 +179,19 @@ export function deleteListeningFolder(db: AppDatabase, folderId: string, revisio
   db.prepare("UPDATE listening_sets SET folder_id=NULL,updated_at=?,revision=revision+1 WHERE folder_id=? AND deleted_at IS NULL").run(timestamp, folderId);
 }
 
+export function restoreListeningFolder(db: AppDatabase, folderId: string, input: { revision: number; parentId?: string | null }) {
+  const row = db.prepare("SELECT * FROM listening_folders WHERE id=?").get(folderId) as Row | undefined;
+  if (!row) throw new ListeningFailure(404, "NOT_FOUND", "폴더를 찾을 수 없습니다.");
+  const current = folderFrom(row); const revision = expectedRevision(input.revision);
+  if (row.deleted_at === null || current.revision !== revision) throw new ListeningFailure(409, "CONFLICT", "복구할 폴더가 없거나 revision이 다릅니다.");
+  const parentId = input.parentId ?? null;
+  if (parentId && !db.prepare("SELECT 1 FROM listening_folders WHERE id=? AND deleted_at IS NULL").get(parentId)) throw new ListeningFailure(404, "NOT_FOUND", "상위 폴더를 찾을 수 없습니다.");
+  const timestamp = now();
+  db.prepare("UPDATE listening_folders SET parent_id=?,deleted_at=NULL,revision=revision+1,updated_at=? WHERE id=? AND revision=? AND deleted_at IS NOT NULL")
+    .run(parentId, timestamp, folderId, revision);
+  return folderFrom(db.prepare("SELECT * FROM listening_folders WHERE id=?").get(folderId) as Row);
+}
+
 export function createListeningSet(db: AppDatabase, input: { title: string; description?: string; folderId?: string | null; sortIndex?: number; favorite?: boolean }) {
   if (input.folderId && !db.prepare("SELECT 1 FROM listening_folders WHERE id=? AND deleted_at IS NULL").get(input.folderId)) {
     throw new ListeningFailure(404, "NOT_FOUND", "폴더를 찾을 수 없습니다.");
@@ -224,6 +237,23 @@ export function deleteListeningSet(db: AppDatabase, setId: string, revision: num
   transaction();
 }
 
+export function restoreListeningSet(db: AppDatabase, setId: string, input: { revision: number; folderId?: string | null }) {
+  const row = db.prepare("SELECT * FROM listening_sets WHERE id=?").get(setId) as Row | undefined;
+  if (!row) throw new ListeningFailure(404, "NOT_FOUND", "세트를 찾을 수 없습니다.");
+  const revision = expectedRevision(input.revision); const deletedAt = nullableText(row.deleted_at);
+  if (!deletedAt || Number(row.revision) !== revision) throw new ListeningFailure(409, "CONFLICT", "복구할 세트가 없거나 revision이 다릅니다.");
+  const requestedFolder = input.folderId === undefined ? nullableText(row.folder_id) : input.folderId;
+  const folderId = requestedFolder && db.prepare("SELECT 1 FROM listening_folders WHERE id=? AND deleted_at IS NULL").get(requestedFolder) ? requestedFolder : null;
+  const timestamp = now();
+  const transaction = db.transaction(() => {
+    db.prepare("UPDATE listening_sets SET folder_id=?,deleted_at=NULL,revision=revision+1,updated_at=? WHERE id=? AND revision=? AND deleted_at IS NOT NULL")
+      .run(folderId, timestamp, setId, revision);
+    db.prepare("UPDATE listening_audio SET deleted_at=NULL,revision=revision+1,updated_at=? WHERE set_id=? AND deleted_at=?")
+      .run(timestamp, setId, deletedAt);
+  });
+  transaction(); return getListeningSet(db, setId);
+}
+
 export function registerListeningAudio(db: AppDatabase, input: {
   setId: string; originalName: string; storedKey: string; mimeType: string; sizeBytes: number; sha256: string;
   durationMs?: number | null; sampleRate?: number | null; channels?: number | null; codecName?: string | null;
@@ -266,6 +296,20 @@ export function deleteListeningAudio(db: AppDatabase, audioId: string, revision:
   if (!result.changes) throw new ListeningFailure(409, "CONFLICT", "음원을 찾을 수 없거나 revision이 다릅니다.");
   db.prepare("UPDATE listening_jobs SET state='canceled',stage='canceled',canceled_at=?,updated_at=? WHERE audio_id=? AND state IN ('queued','running','waiting_auth')").run(timestamp, timestamp, audioId);
   recordListeningAudit(db, "audio.delete", { audioId });
+}
+
+export function restoreListeningAudio(db: AppDatabase, audioId: string, input: { revision: number; setId?: string }) {
+  const row = db.prepare("SELECT * FROM listening_audio WHERE id=?").get(audioId) as Row | undefined;
+  if (!row) throw new ListeningFailure(404, "NOT_FOUND", "음원을 찾을 수 없습니다.");
+  const revision = expectedRevision(input.revision);
+  if (row.deleted_at === null || Number(row.revision) !== revision) throw new ListeningFailure(409, "CONFLICT", "복구할 음원이 없거나 revision이 다릅니다.");
+  const setId = input.setId ?? text(row.set_id);
+  if (!db.prepare("SELECT 1 FROM listening_sets WHERE id=? AND deleted_at IS NULL").get(setId)) throw new ListeningFailure(404, "NOT_FOUND", "복구할 대상 세트를 찾을 수 없습니다.");
+  const timestamp = now();
+  db.prepare("UPDATE listening_audio SET set_id=?,deleted_at=NULL,revision=revision+1,updated_at=? WHERE id=? AND revision=? AND deleted_at IS NOT NULL")
+    .run(setId, timestamp, audioId, revision);
+  recordListeningAudit(db, "audio.restore", { audioId });
+  return getListeningAudio(db, audioId);
 }
 
 export function enqueueListeningJob(db: AppDatabase, audioId: string, type: ListeningJob["type"], idempotencyKey?: string) {

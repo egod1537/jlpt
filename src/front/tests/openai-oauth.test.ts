@@ -18,6 +18,7 @@ import {
   getOpenAiAuthStatus,
   OpenAiAuthError,
   resolveOpenAiRedirectUri,
+  verifyOpenAiConnection,
 } from "@/lib/server/openai-oauth";
 
 describe("ChatGPT OAuth service", () => {
@@ -84,6 +85,12 @@ describe("ChatGPT OAuth service", () => {
     });
     await expect(getOpenAiAccessToken()).resolves.toBe("access-token");
     expect(fetchMock).toHaveBeenCalledTimes(1);
+
+    fetchMock.mockReset()
+      .mockResolvedValueOnce(Response.json({ models: [{ slug: "gpt-test", visibility: "list" }] }))
+      .mockResolvedValueOnce(new Response('data: {"type":"response.completed"}\n\n', { headers: { "Content-Type": "text/event-stream" } }));
+    await expect(verifyOpenAiConnection()).resolves.toMatchObject({ ready: true, model: "gpt-test" });
+    await expect(getOpenAiAuthStatus()).resolves.toMatchObject({ ready: true, verifiedModel: "gpt-test" });
   });
 
   it("rejects non-loopback callbacks and callback state replay", async () => {

@@ -9,11 +9,17 @@ import {
   createListeningFolder,
   createListeningSet,
   createTranscriptVersion,
+  deleteListeningAudio,
   deleteListeningFolder,
+  deleteListeningSet,
   getActiveTranscript,
+  getListeningAudio,
   getListeningSet,
   listListeningLibrary,
   registerListeningAudio,
+  restoreListeningAudio,
+  restoreListeningFolder,
+  restoreListeningSet,
   updateListeningFolder,
 } from "@back/lib/listening/repository";
 
@@ -92,5 +98,25 @@ describe("listening repository", () => {
 
     deleteListeningFolder(db, folder.id, updated.revision);
     expect(getListeningSet(db, set.id).folderId).toBeNull();
+  });
+
+  it("restores soft-deleted folders, sets, and audio without losing their records", () => {
+    db = openDatabase(":memory:");
+    const folder = createListeningFolder(db, { name: "복구" });
+    const set = createListeningSet(db, { folderId: folder.id, title: "복구 세트" });
+    const audio = registerListeningAudio(db, { setId: set.id, originalName: "restore.wav", storedKey: "restore.wav", mimeType: "audio/wav", sizeBytes: 44, sha256: "f".repeat(64) });
+
+    deleteListeningAudio(db, audio.id, audio.revision);
+    const restoredAudio = restoreListeningAudio(db, audio.id, { revision: getListeningAudio(db, audio.id, true).revision });
+    expect(restoredAudio).toMatchObject({ id: audio.id, setId: set.id });
+
+    deleteListeningSet(db, set.id, set.revision);
+    const deletedSetRevision = Number((db.prepare("SELECT revision FROM listening_sets WHERE id=?").get(set.id) as { revision: number }).revision);
+    const restoredSet = restoreListeningSet(db, set.id, { revision: deletedSetRevision });
+    expect(restoredSet.audio.map((item) => item.id)).toContain(audio.id);
+
+    deleteListeningFolder(db, folder.id, folder.revision);
+    const deletedFolderRevision = Number((db.prepare("SELECT revision FROM listening_folders WHERE id=?").get(folder.id) as { revision: number }).revision);
+    expect(restoreListeningFolder(db, folder.id, { revision: deletedFolderRevision })).toMatchObject({ id: folder.id, parentId: null });
   });
 });

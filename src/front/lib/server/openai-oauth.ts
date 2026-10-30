@@ -35,6 +35,8 @@ type StoredAccount = {
   refreshToken?: string;
   scopes: string[];
   expiresAt?: string;
+  verifiedAt?: string;
+  verifiedModel?: string;
 };
 
 type AuthStore = {
@@ -57,6 +59,9 @@ type TokenResponse = {
 export type OpenAiAuthStatus = {
   connected: boolean;
   canUseResponses: boolean;
+  ready: boolean;
+  verifiedAt?: string;
+  verifiedModel?: string;
   account?: { email?: string; name?: string; expiresAt?: string };
 };
 
@@ -267,13 +272,50 @@ export async function finishOpenAiAuthorization(input: { code?: string; state?: 
 export async function getOpenAiAuthStatus(): Promise<OpenAiAuthStatus> {
   return withStore(async (store) => {
     const account = activeAccount(store);
-    if (!account?.accessToken) return { connected: false, canUseResponses: false, account: account ? { email: account.email, name: account.name } : undefined };
+    if (!account?.accessToken) return { connected: false, canUseResponses: false, ready: false, account: account ? { email: account.email, name: account.name } : undefined };
     return {
       connected: true,
       canUseResponses: account.scopes.includes(requiredScope),
+      ready: Boolean(account.verifiedAt && account.verifiedModel),
+      verifiedAt: account.verifiedAt,
+      verifiedModel: account.verifiedModel,
       account: { email: account.email, name: account.name, expiresAt: account.expiresAt },
     };
   });
+}
+
+export async function verifyOpenAiConnection() {
+  const token = await getOpenAiAccessToken();
+  const modelResponse = await fetch("https://api.openai.com/v1/models", { headers: { Authorization: `Bearer ${token}` }, cache: "no-store" });
+  const modelRequestId = modelResponse.headers.get("openai-request-id") || modelResponse.headers.get("x-request-id") || undefined;
+  if (!modelResponse.ok) throw new OpenAiUpstreamError(modelResponse.status, "OpenAI 모델 목록 검증에 실패했습니다.", modelRequestId);
+  const modelBody = await modelResponse.json() as { models?: Array<{ slug?: unknown; visibility?: unknown }> };
+  const model = modelBody.models?.find((candidate) => candidate.visibility === "list" && typeof candidate.slug === "string")?.slug;
+  if (typeof model !== "string") throw new OpenAiAuthError("NO_RESPONSE_MODEL", "사용 가능한 Responses 모델을 찾지 못했습니다.", 409);
+
+  const response = await fetch("https://api.openai.com/v1/responses", {
+    method: "POST",
+    headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
+    body: JSON.stringify({ model, input: "Reply with OK.", max_output_tokens: 16, store: false, stream: true }),
+    cache: "no-store",
+  });
+  const requestId = response.headers.get("openai-request-id") || response.headers.get("x-request-id") || undefined;
+  if (!response.ok || !response.body) throw new OpenAiUpstreamError(response.status || 502, "OpenAI Responses 실제 호출 검증에 실패했습니다.", requestId);
+  const reader = response.body.getReader(); let received = "";
+  while (received.length < 1_000_000) {
+    const { done, value } = await reader.read(); if (done) break;
+    received += Buffer.from(value).toString("utf8");
+    if (received.includes('"type":"response.completed"') || received.includes('"type": "response.completed"')) break;
+    if (received.includes('"type":"response.failed"') || received.includes('"type": "response.failed"')) throw new OpenAiUpstreamError(502, "OpenAI Responses 검증 응답이 실패했습니다.", requestId);
+  }
+  if (!received.includes("response.completed")) throw new OpenAiUpstreamError(502, "OpenAI Responses 검증 스트림이 완료되지 않았습니다.", requestId);
+  const verifiedAt = new Date().toISOString();
+  await withStore(async (store) => {
+    const account = activeAccount(store);
+    if (!account?.accessToken) throw new OpenAiAuthError("NOT_CONNECTED", "ChatGPT 계정이 연결되지 않았습니다.", 401);
+    account.verifiedAt = verifiedAt; account.verifiedModel = model; await writeStore(store);
+  });
+  return { ready: true, verifiedAt, model, requestId };
 }
 
 export async function getOpenAiAccessToken() {
@@ -334,6 +376,8 @@ export async function disconnectOpenAi() {
     delete account.accessToken;
     delete account.refreshToken;
     delete account.expiresAt;
+    delete account.verifiedAt;
+    delete account.verifiedModel;
     account.scopes = [];
     await writeStore(store);
     return { revoked };

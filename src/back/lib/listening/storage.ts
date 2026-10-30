@@ -211,10 +211,11 @@ export async function probeAudioFile(filePath: string, detectedKind: AcceptedKin
   const durationSeconds = Number(parsed.format?.duration);
   const sampleRate = Number(audio.sample_rate);
   const channels = Number(audio.channels);
+  if (Number.isFinite(durationSeconds) && durationSeconds <= 0) throw new AudioStorageFailure(415, "UNSUPPORTED", "길이가 없는 음원은 업로드할 수 없습니다.");
   return {
     kind: detectedKind,
     mimeType: accepted[detectedKind].mimeType,
-    durationMs: Number.isFinite(durationSeconds) && durationSeconds >= 0 ? Math.round(durationSeconds * 1_000) : null,
+    durationMs: Number.isFinite(durationSeconds) && durationSeconds > 0 ? Math.round(durationSeconds * 1_000) : null,
     sampleRate: Number.isInteger(sampleRate) && sampleRate > 0 ? sampleRate : null,
     channels: Number.isInteger(channels) && channels > 0 ? channels : null,
     codecName: typeof audio.codec_name === "string" ? audio.codec_name : null,

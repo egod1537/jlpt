@@ -146,7 +146,7 @@ function CreateListeningDialog({ open, onOpenChange, folders, sets, onCreated }:
       let firstAudioId: string | undefined;
       for (const file of files) {
         const uploaded = await uploadFile(targetSetId, file, (percent) => setProgress((current) => ({ ...current, [fileKey(file)]: percent })), (request) => { uploadRef.current = request; });
-        for (const audio of uploaded.audio) { firstAudioId ||= audio.id; await jsonRequest(`/api/listening/audio/${audio.id}/transcribe`, "POST", undefined, { "Idempotency-Key": `web:${audio.id}` }); }
+        for (const audio of uploaded.audio) firstAudioId ||= audio.id;
       }
       setMessage(`${files.length}개 음원을 업로드하고 전사를 시작했습니다.`); setFiles([]); setProgress({}); await onCreated(targetSetId, firstAudioId);
     } catch (reason) { setMessage(reason instanceof Error ? reason.message : "저장하지 못했습니다."); }

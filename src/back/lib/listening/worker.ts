@@ -45,6 +45,7 @@ type WorkerDependencies = {
   now?: () => Date;
   random?: () => number;
   wait?: (ms: number, signal?: AbortSignal) => Promise<void>;
+  signal?: AbortSignal;
 };
 
 export class TranscriptValidationFailure extends Error {
@@ -63,14 +64,14 @@ export async function runListeningWorkerOnce(db: AppDatabase, dependencies: Work
     try {
       await processGptJob(db, job, workerId, dependencies);
     } catch (error) {
-      failOrRetry(db, job, error, now(), dependencies.random);
+      if (dependencies.signal?.aborted) releaseForShutdown(db, job, now()); else failOrRetry(db, job, error, now(), dependencies.random);
     }
     return true;
   }
   try {
     await processTranscriptionJob(db, job, workerId, dependencies);
   } catch (error) {
-    failOrRetry(db, job, error, now(), dependencies.random);
+    if (dependencies.signal?.aborted) releaseForShutdown(db, job, now()); else failOrRetry(db, job, error, now(), dependencies.random);
   }
   return true;
 }
@@ -80,7 +81,7 @@ async function processGptJob(db: AppDatabase, job: ClaimedJob, workerId: string,
   const inputVersion = getTranscriptVersion(db, job.inputVersionId);
   if (inputVersion.audioId !== job.audioId) throw new OpenAiListeningFailure("GPT_INPUT_MISMATCH", "GPT 원본 전사가 음원과 일치하지 않습니다.", false);
   const adapter = dependencies.gptAdapter ?? new ResponsesGptListeningAdapter();
-  const result = await adapter.process(inputVersion.segments);
+  const result = await adapter.process(inputVersion.segments, dependencies.signal);
   const finalize = db.transaction(() => {
     const version = createTranscriptVersion(db, {
       audioId: job.audioId,
@@ -116,6 +117,7 @@ async function processTranscriptionJob(db: AppDatabase, job: ClaimedJob, workerI
       originalName: audio.originalName,
       mimeType: audio.mimeType,
       idempotencyKey: job.idempotencyKey,
+      signal: dependencies.signal,
     });
     const updated = db.prepare("UPDATE listening_jobs SET provider_job_id=?,updated_at=? WHERE id=? AND state='running' AND lease_owner=?")
       .run(providerJobId, timestamp, job.id, workerId);
@@ -124,6 +126,7 @@ async function processTranscriptionJob(db: AppDatabase, job: ClaimedJob, workerI
   const result = await waitForWhisperResult(adapter, providerJobId, {
     timeoutMs: Number(process.env.WHISPER_TIMEOUT_MS || 600_000),
     wait: dependencies.wait,
+    signal: dependencies.signal,
     onPoll: async (providerJob) => {
       const current = getListeningJob(db, job.id);
       if (current.state === "canceled") throw new WhisperProviderFailure("JOB_CANCELED", "작업이 취소되었습니다.", false);
@@ -244,6 +247,14 @@ function failOrRetry(db: AppDatabase, job: ClaimedJob, error: unknown, at: Date,
   recordListeningAudit(db, "job.failure", { audioId: job.audioId, jobId: job.id, detailCode: code });
 }
 
+function releaseForShutdown(db: AppDatabase, job: ClaimedJob, at: Date) {
+  const timestamp = at.toISOString();
+  db.prepare("UPDATE listening_jobs SET state='queued',stage='queued',next_run_at=?,lease_owner=NULL,lease_expires_at=NULL,updated_at=? WHERE id=? AND state='running'")
+    .run(timestamp, timestamp, job.id);
+  db.prepare("UPDATE listening_audio SET status='queued',updated_at=?,revision=revision+1 WHERE id=? AND deleted_at IS NULL").run(timestamp, job.audioId);
+  recordListeningAudit(db, "job.shutdown.requeue", { audioId: job.audioId, jobId: job.id });
+}
+
 function timestampMs(milliseconds: unknown, seconds: unknown) {
   if (typeof milliseconds === "number" && Number.isFinite(milliseconds)) return Math.round(milliseconds);
   if (typeof seconds === "number" && Number.isFinite(seconds)) return Math.round(seconds * 1_000);
@@ -286,7 +297,7 @@ export async function runListeningWorkerLoop(options: {
   const concurrency = Number.isFinite(requestedConcurrency) ? Math.min(4, Math.max(1, Math.trunc(requestedConcurrency))) : 1;
   const idleMs = Number.isFinite(requestedIdleMs) ? Math.min(30_000, Math.max(100, Math.trunc(requestedIdleMs))) : 1_000;
   while (!options.signal?.aborted) {
-    const results = await Promise.all(Array.from({ length: concurrency }, () => runListeningWorkerOnce(db).catch((error: unknown) => {
+    const results = await Promise.all(Array.from({ length: concurrency }, () => runListeningWorkerOnce(db, { signal: options.signal }).catch((error: unknown) => {
       const code = error instanceof Error ? error.name : "UNKNOWN";
       console.error(JSON.stringify({ component: "listening-worker", code }));
       return false;
