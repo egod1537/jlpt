@@ -161,7 +161,14 @@ export async function waitForWhisperResult(adapter: WhisperAdapter, providerJobI
   const pollMs = options.pollMs ?? 1_500;
   const wait = options.wait ?? delay;
   while (Date.now() - started < timeoutMs) {
-    const job = await adapter.getJob(providerJobId, options.signal);
+    let job: WhisperProviderJob;
+    try {
+      job = await adapter.getJob(providerJobId, options.signal);
+    } catch (error) {
+      if (!(error instanceof WhisperProviderFailure) || !error.retryable) throw error;
+      await wait(Math.max(pollMs, 5_000), options.signal);
+      continue;
+    }
     await options.onPoll?.(job);
     if (job.status === "completed") return adapter.getResult(providerJobId, options.signal);
     if (job.status === "failed" || job.status === "canceled") throw new WhisperProviderFailure(job.error?.code || `WHISPER_${job.status.toUpperCase()}`, "Whisper 작업이 완료되지 못했습니다.", job.status === "failed");

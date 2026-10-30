@@ -17,7 +17,7 @@ import {
   registerListeningAudio,
 } from "@back/lib/listening/repository";
 import type { WhisperAdapter, WhisperProviderResult } from "@back/lib/listening/whisper";
-import { WhisperProviderFailure } from "@back/lib/listening/whisper";
+import { waitForWhisperResult, WhisperProviderFailure } from "@back/lib/listening/whisper";
 import { normalizeWhisperResult, runListeningWorkerOnce } from "@back/lib/listening/worker";
 import { OpenAiListeningFailure } from "@/lib/server/openai-listening";
 
@@ -154,6 +154,24 @@ it("drops zero-duration Whisper artifacts while preserving source indices", () =
     { startMs: 0, endMs: 100, ja: "一", sourceSegmentIds: ["whisper:0"] },
     { startMs: 100, endMs: 200, ja: "二", sourceSegmentIds: ["whisper:2"] },
   ]);
+});
+
+it("keeps polling the same Whisper job after a transient rate limit", async () => {
+  let statusCalls = 0;
+  const waits: number[] = [];
+  const result = await waitForWhisperResult({
+    submit: async () => "provider-job-1",
+    getJob: async () => {
+      statusCalls += 1;
+      if (statusCalls === 1) throw new WhisperProviderFailure("WHISPER_HTTP_429", "rate limited", true, 429);
+      return { id: "provider-job-1", status: "completed", phase: null, error: null };
+    },
+    getResult: async () => ({ segments: [{ startMs: 0, endMs: 100, text: "完了" }] }),
+  }, "provider-job-1", { pollMs: 10, wait: async (milliseconds) => { waits.push(milliseconds); } });
+
+  expect(statusCalls).toBe(2);
+  expect(waits).toEqual([5_000]);
+  expect(result.segments[0].text).toBe("完了");
 });
 
 function fakeAdapter(result: WhisperProviderResult): WhisperAdapter & { submittedKeys: string[] } {
