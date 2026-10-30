@@ -145,6 +145,17 @@ it("normalizes both millisecond and second provider timestamps", () => {
   expect(normalizeWhisperResult({ segments: [{ startMs: 100, endMs: 900, text: "ms" }] }, 1_000)[0]).toMatchObject({ startMs: 100, endMs: 900 });
 });
 
+it("drops zero-duration Whisper artifacts while preserving source indices", () => {
+  expect(normalizeWhisperResult({ segments: [
+    { startMs: 0, endMs: 100, text: "一" },
+    { startMs: 100, endMs: 100, text: "artifact" },
+    { startMs: 100, endMs: 200, text: "二" },
+  ] }, 200)).toMatchObject([
+    { startMs: 0, endMs: 100, ja: "一", sourceSegmentIds: ["whisper:0"] },
+    { startMs: 100, endMs: 200, ja: "二", sourceSegmentIds: ["whisper:2"] },
+  ]);
+});
+
 function fakeAdapter(result: WhisperProviderResult): WhisperAdapter & { submittedKeys: string[] } {
   const submittedKeys: string[] = [];
   return {

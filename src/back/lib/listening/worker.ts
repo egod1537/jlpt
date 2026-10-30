@@ -165,20 +165,22 @@ async function processTranscriptionJob(db: AppDatabase, job: ClaimedJob, workerI
 export function normalizeWhisperResult(result: WhisperProviderResult, durationMs: number | null) {
   if (!Array.isArray(result.segments) || result.segments.length > 10_000) throw new TranscriptValidationFailure("WHISPER_SEGMENTS_INVALID", "Whisper 문장 수가 올바르지 않습니다.");
   let previousStart = -1;
-  return result.segments.map((segment, index) => {
+  const normalized = [];
+  for (const [index, segment] of result.segments.entries()) {
     const startMs = timestampMs(segment.startMs, segment.start);
     const endMs = timestampMs(segment.endMs, segment.end);
-    if (!Number.isInteger(startMs) || !Number.isInteger(endMs) || startMs < 0 || endMs <= startMs || startMs < previousStart) {
+    if (!Number.isInteger(startMs) || !Number.isInteger(endMs) || startMs < 0 || endMs < startMs || startMs < previousStart) {
       throw new TranscriptValidationFailure("WHISPER_TIMING_INVALID", "Whisper 타임스탬프가 올바르지 않습니다.");
     }
+    previousStart = startMs;
+    if (endMs === startMs) continue;
     if (durationMs !== null && endMs > durationMs + 1_500) {
       throw new TranscriptValidationFailure("WHISPER_TIMING_OUT_OF_BOUNDS", "Whisper 타임스탬프가 음원 길이를 벗어났습니다.");
     }
     if (typeof segment.text !== "string" || !segment.text.trim() || segment.text.length > 10_000) {
       throw new TranscriptValidationFailure("WHISPER_TEXT_INVALID", "Whisper 문장 텍스트가 올바르지 않습니다.");
     }
-    previousStart = startMs;
-    return {
+    normalized.push({
       startMs,
       endMs,
       speaker: null,
@@ -187,8 +189,9 @@ export function normalizeWhisperResult(result: WhisperProviderResult, durationMs
       needsReview: typeof segment.confidence === "number" && segment.confidence < 0.65,
       reviewNote: typeof segment.confidence === "number" && segment.confidence < 0.65 ? "Whisper confidence가 낮습니다." : null,
       sourceSegmentIds: [`whisper:${index}`],
-    };
-  });
+    });
+  }
+  return normalized;
 }
 
 function claimNextJob(db: AppDatabase, workerId: string, at: Date): ClaimedJob | null {
