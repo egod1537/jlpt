@@ -91,15 +91,14 @@ describe("durable listening worker", () => {
     expect(getListeningAudio(db, audioId).status).toBe("ready");
   });
 
-  it("rejects hallucinated timestamps while preserving the uploaded audio", async () => {
-    const queued = enqueueListeningJob(db, audioId, "transcribe", "worker-invalid").job;
+  it("clamps a hallucinated final timestamp to the uploaded audio duration", async () => {
+    const queued = enqueueListeningJob(db, audioId, "transcribe", "worker-out-of-bounds").job;
     const adapter = fakeAdapter({ segments: [{ startMs: 0, endMs: 29_980, text: "ご視聴ありがとうございました。" }] });
 
     await runListeningWorkerOnce(db, { adapter, workerId: "test-worker" });
 
-    expect(getListeningJob(db, queued.id)).toMatchObject({ state: "failed", errorCode: "WHISPER_TIMING_OUT_OF_BOUNDS" });
-    expect(db.prepare("SELECT COUNT(*) count FROM listening_transcript_versions WHERE audio_id=?").get(audioId)).toEqual({ count: 0 });
-    expect(getListeningAudio(db, audioId)).toMatchObject({ id: audioId, status: "failed" });
+    expect(getListeningJob(db, queued.id)).toMatchObject({ state: "completed", stage: "transcribed" });
+    expect(getActiveTranscript(db, audioId).script?.segments[0]).toMatchObject({ startMs: 0, endMs: 3_000 });
   });
 
   it("backs off retryable failures and recovers an expired lease", async () => {
@@ -154,6 +153,13 @@ it("drops zero-duration Whisper artifacts while preserving source indices", () =
     { startMs: 0, endMs: 100, ja: "一", sourceSegmentIds: ["whisper:0"] },
     { startMs: 100, endMs: 200, ja: "二", sourceSegmentIds: ["whisper:2"] },
   ]);
+});
+
+it("drops Whisper segments that begin after the audio ends", () => {
+  expect(normalizeWhisperResult({ segments: [
+    { startMs: 0, endMs: 100, text: "本編" },
+    { startMs: 250, endMs: 500, text: "artifact" },
+  ] }, 200)).toMatchObject([{ startMs: 0, endMs: 100, ja: "本編" }]);
 });
 
 it("keeps polling the same Whisper job after a transient rate limit", async () => {

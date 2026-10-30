@@ -173,16 +173,14 @@ export function normalizeWhisperResult(result: WhisperProviderResult, durationMs
       throw new TranscriptValidationFailure("WHISPER_TIMING_INVALID", "Whisper 타임스탬프가 올바르지 않습니다.");
     }
     previousStart = startMs;
-    if (endMs === startMs) continue;
-    if (durationMs !== null && endMs > durationMs + 1_500) {
-      throw new TranscriptValidationFailure("WHISPER_TIMING_OUT_OF_BOUNDS", "Whisper 타임스탬프가 음원 길이를 벗어났습니다.");
-    }
+    if (endMs === startMs || (durationMs !== null && startMs >= durationMs)) continue;
+    const boundedEndMs = durationMs === null ? endMs : Math.min(endMs, durationMs);
     if (typeof segment.text !== "string" || !segment.text.trim() || segment.text.length > 10_000) {
       throw new TranscriptValidationFailure("WHISPER_TEXT_INVALID", "Whisper 문장 텍스트가 올바르지 않습니다.");
     }
     normalized.push({
       startMs,
-      endMs,
+      endMs: boundedEndMs,
       speaker: null,
       ja: segment.text.trim(),
       ko: null,
