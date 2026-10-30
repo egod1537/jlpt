@@ -352,6 +352,38 @@ export function getActiveTranscript(db: AppDatabase, audioId: string) {
   return { audio, script: audio.scriptVersionId ? getTranscriptVersion(db, audio.scriptVersionId) : null };
 }
 
+export function getListeningProgress(db: AppDatabase, audioId: string) {
+  getListeningAudio(db, audioId);
+  const row = db.prepare("SELECT * FROM listening_audio_progress WHERE audio_id=?").get(audioId) as Row | undefined;
+  return row ? {
+    audioId,
+    positionMs: Number(row.position_ms),
+    playbackRate: Number(row.playback_rate),
+    completed: bool(row.completed),
+    revision: Number(row.revision),
+    updatedAt: text(row.updated_at),
+  } : { audioId, positionMs: 0, playbackRate: 1, completed: false, revision: 0, updatedAt: null };
+}
+
+export function updateListeningProgress(db: AppDatabase, audioId: string, input: { positionMs: number; playbackRate: number; completed: boolean; revision: number }) {
+  const audio = getListeningAudio(db, audioId);
+  if (!Number.isInteger(input.positionMs) || input.positionMs < 0 || (audio.durationMs !== null && input.positionMs > audio.durationMs + 5_000)) throw new ListeningFailure(400, "VALIDATION", "재생 위치를 확인해 주세요.");
+  if (!Number.isFinite(input.playbackRate) || input.playbackRate < 0.5 || input.playbackRate > 3) throw new ListeningFailure(400, "VALIDATION", "재생 속도를 확인해 주세요.");
+  const current = getListeningProgress(db, audioId);
+  if (!Number.isInteger(input.revision) || input.revision !== current.revision) throw new ListeningFailure(409, "CONFLICT", "재생 진도가 다른 곳에서 변경되었습니다.");
+  const timestamp = now();
+  if (current.revision === 0) {
+    db.prepare("INSERT INTO listening_audio_progress(audio_id,position_ms,playback_rate,completed,revision,updated_at) VALUES (?,?,?,?,1,?)")
+      .run(audioId, input.positionMs, input.playbackRate, Number(input.completed), timestamp);
+  } else {
+    const result = db.prepare("UPDATE listening_audio_progress SET position_ms=?,playback_rate=?,completed=?,revision=revision+1,updated_at=? WHERE audio_id=? AND revision=?")
+      .run(input.positionMs, input.playbackRate, Number(input.completed), timestamp, audioId, input.revision);
+    if (!result.changes) throw new ListeningFailure(409, "CONFLICT", "재생 진도가 다른 곳에서 변경되었습니다.");
+  }
+  db.prepare("UPDATE listening_audio SET last_played_at=? WHERE id=?").run(timestamp, audioId);
+  return getListeningProgress(db, audioId);
+}
+
 export function requestFingerprint(value: unknown) {
   return createHash("sha256").update(JSON.stringify(value)).digest("hex");
 }

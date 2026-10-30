@@ -1,164 +1,194 @@
 "use client";
 
-import { useState } from "react";
-import { AudioLines, ChevronDown, ChevronRight, Clock3, Folder, Search, Star } from "lucide-react";
+import Link from "next/link";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { AudioLines, ChevronDown, ChevronRight, Clock3, FileAudio, Folder, LoaderCircle, MoreVertical, Plus, Search, Star, Upload } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Dialog, DialogContent, DialogDescription, DialogTitle } from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
 
+type ListeningFolder = { id: string; parentId: string | null; name: string; sortIndex: number; favorite: boolean; revision: number };
 type ListeningSet = {
-  id: string;
-  title: string;
-  audioCount: number;
-  questionCount: number;
-  duration: string;
-  favorite?: boolean;
-  recent?: boolean;
+  id: string; folderId: string | null; title: string; description: string; favorite: boolean; revision: number;
+  audioCount: number; durationMs: number; lastPlayedAt: string | null;
 };
-
-type ListeningFolder = {
-  id: string;
-  name: string;
-  sets: ListeningSet[];
+type ListeningAudio = {
+  id: string; setId: string; originalName: string; mimeType: string; sizeBytes: number; durationMs: number | null;
+  status: string; scriptVersionId: string | null; favorite: boolean; revision: number; streamUrl: string;
 };
+type SetDetail = ListeningSet & { audio: ListeningAudio[] };
+type Filter = "all" | "recent" | "favorites" | "unfiled";
 
-const folders: ListeningFolder[] = [
-  {
-    id: "n1-mock",
-    name: "JLPT N1 실전",
-    sets: [
-      { id: "mock-01", title: "실전 모의고사 1회", audioCount: 5, questionCount: 24, duration: "28분", favorite: true, recent: true },
-      { id: "mock-02", title: "실전 모의고사 2회", audioCount: 5, questionCount: 24, duration: "31분" },
-    ],
-  },
-  {
-    id: "question-types",
-    name: "유형별 연습",
-    sets: [
-      { id: "task", title: "과제 이해", audioCount: 8, questionCount: 8, duration: "16분", recent: true },
-      { id: "point", title: "포인트 이해", audioCount: 10, questionCount: 10, duration: "18분", favorite: true },
-      { id: "overview", title: "개요 이해", audioCount: 6, questionCount: 6, duration: "12분" },
-    ],
-  },
-  {
-    id: "daily",
-    name: "일상 회화",
-    sets: [
-      { id: "office", title: "회사에서 자주 듣는 표현", audioCount: 12, questionCount: 0, duration: "14분", recent: true },
-    ],
-  },
-];
-
-const unfiledSets: ListeningSet[] = [
-  { id: "quick-note", title: "빠르게 다시 들을 표현", audioCount: 4, questionCount: 0, duration: "5분" },
-];
-
-const filters = [
-  ["all", "전체"],
-  ["recent", "최근"],
-  ["favorites", "즐겨찾기"],
-  ["unfiled", "미분류"],
-] as const;
-
-type Filter = typeof filters[number][0];
-
-function normalize(value: string) { return value.normalize("NFKC").toLocaleLowerCase(); }
+const filters: Array<[Filter, string]> = [["all", "전체"], ["recent", "최근"], ["favorites", "즐겨찾기"], ["unfiled", "미분류"]];
+const statusLabel: Record<string, string> = {
+  uploaded: "업로드됨", queued: "대기 중", transcribing: "전사 중", transcribed: "전사 완료",
+  correcting: "교정·번역 중", ready: "준비됨", failed: "처리 실패", missing: "파일 누락",
+};
 
 export function ListeningLibraryPage() {
   const [query, setQuery] = useState("");
   const [filter, setFilter] = useState<Filter>("all");
-  const [expanded, setExpanded] = useState(() => new Set(folders.map((folder) => folder.id)));
-  const needle = normalize(query.trim());
+  const [folders, setFolders] = useState<ListeningFolder[]>([]);
+  const [sets, setSets] = useState<ListeningSet[]>([]);
+  const [details, setDetails] = useState<Record<string, SetDetail>>({});
+  const [expandedFolders, setExpandedFolders] = useState<Set<string>>(new Set());
+  const [expandedSets, setExpandedSets] = useState<Set<string>>(new Set());
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+  const [addOpen, setAddOpen] = useState(false);
+  const [menu, setMenu] = useState<string | null>(null);
+  const requestRef = useRef<AbortController | null>(null);
 
-  const matchesSet = (set: ListeningSet) => {
-    if (filter === "recent" && !set.recent) return false;
-    if (filter === "favorites" && !set.favorite) return false;
-    return !needle || normalize(set.title).includes(needle);
+  const loadLibrary = useCallback(async () => {
+    requestRef.current?.abort();
+    const controller = new AbortController();
+    requestRef.current = controller;
+    setLoading(true);
+    try {
+      const params = new URLSearchParams({ filter, limit: "100" });
+      if (query.trim()) params.set("q", query.trim());
+      const response = await fetch(`/api/listening/sets?${params}`, { cache: "no-store", signal: controller.signal });
+      const body = await response.json() as { folders?: ListeningFolder[]; sets?: ListeningSet[]; error?: { message?: string } };
+      if (!response.ok) throw new Error(body.error?.message || "청해 목록을 불러오지 못했습니다.");
+      setFolders(body.folders || []);
+      setSets(body.sets || []);
+      setExpandedFolders((current) => current.size ? current : new Set((body.folders || []).map((folder) => folder.id)));
+      setError(null);
+    } catch (reason) {
+      if (reason instanceof DOMException && reason.name === "AbortError") return;
+      setError(reason instanceof Error ? reason.message : "청해 목록을 불러오지 못했습니다.");
+    } finally {
+      if (!controller.signal.aborted) setLoading(false);
+    }
+  }, [filter, query]);
+
+  useEffect(() => {
+    const timer = setTimeout(() => { void loadLibrary(); }, 250);
+    return () => { clearTimeout(timer); requestRef.current?.abort(); };
+  }, [loadLibrary]);
+
+  const loadSet = useCallback(async (setId: string) => {
+    const response = await fetch(`/api/listening/sets/${encodeURIComponent(setId)}`, { cache: "no-store" });
+    const body = await response.json() as { set?: SetDetail; error?: { message?: string } };
+    if (!response.ok || !body.set) throw new Error(body.error?.message || "세트를 불러오지 못했습니다.");
+    setDetails((current) => ({ ...current, [setId]: body.set! }));
+    return body.set;
+  }, []);
+
+  useEffect(() => {
+    const pendingSetIds = Object.values(details).filter((detail) => detail.audio.some((audio) => ["queued", "transcribing", "transcribed", "correcting"].includes(audio.status))).map((detail) => detail.id);
+    if (!pendingSetIds.length) return;
+    const timer = setInterval(() => { pendingSetIds.forEach((setId) => { void loadSet(setId); }); }, 3_000);
+    return () => clearInterval(timer);
+  }, [details, loadSet]);
+
+  const toggleSet = async (setId: string) => {
+    const opening = !expandedSets.has(setId);
+    setExpandedSets((current) => toggleInSet(current, setId));
+    if (opening && !details[setId]) {
+      try { await loadSet(setId); } catch (reason) { setError(reason instanceof Error ? reason.message : "세트를 불러오지 못했습니다."); }
+    }
   };
 
-  const visibleFolders = filter === "unfiled" ? [] : folders.map((folder) => {
-    const folderMatch = needle && normalize(folder.name).includes(needle);
-    const sets = folder.sets.filter((set) => {
-      if (filter === "recent" && !set.recent) return false;
-      if (filter === "favorites" && !set.favorite) return false;
-      return !needle || folderMatch || normalize(set.title).includes(needle);
-    });
-    return { ...folder, sets };
-  }).filter((folder) => folder.sets.length || (filter === "all" && needle && normalize(folder.name).includes(needle)));
+  const foldersWithSets = useMemo(() => folders.map((folder) => ({ ...folder, sets: sets.filter((set) => set.folderId === folder.id) })), [folders, sets]);
+  const unfiled = sets.filter((set) => set.folderId === null);
 
-  const visibleUnfiled = (filter === "unfiled" || filter === "all" ? unfiledSets : []).filter(matchesSet);
-  const totalSets = folders.reduce((total, folder) => total + folder.sets.length, 0) + unfiledSets.length;
-  const hasResults = visibleFolders.length > 0 || visibleUnfiled.length > 0;
+  const mutate = async (url: string, method: "PATCH" | "DELETE", body?: unknown) => {
+    const response = await fetch(url, { method, headers: body ? { "Content-Type": "application/json" } : undefined, body: body ? JSON.stringify(body) : undefined });
+    if (!response.ok) {
+      const payload = await response.json().catch(() => null) as { error?: { message?: string } } | null;
+      throw new Error(payload?.error?.message || "변경하지 못했습니다.");
+    }
+    setMenu(null);
+    await loadLibrary();
+  };
 
-  const toggleFolder = (id: string) => setExpanded((current) => {
-    const next = new Set(current);
-    if (next.has(id)) next.delete(id); else next.add(id);
-    return next;
-  });
+  const renameFolder = async (folder: ListeningFolder) => {
+    const name = window.prompt("폴더 이름", folder.name);
+    if (name && name.trim() !== folder.name) await mutate(`/api/listening/folders/${folder.id}`, "PATCH", { revision: folder.revision, name });
+  };
+  const deleteFolder = async (folder: ListeningFolder) => {
+    if (window.confirm(`'${folder.name}' 폴더를 삭제할까요? 세트는 미분류로 이동합니다.`)) await mutate(`/api/listening/folders/${folder.id}?revision=${folder.revision}`, "DELETE");
+  };
+  const renameSet = async (set: ListeningSet) => {
+    const title = window.prompt("세트 제목", set.title);
+    if (title && title.trim() !== set.title) await mutate(`/api/listening/sets/${set.id}`, "PATCH", { revision: set.revision, title });
+  };
+  const deleteSet = async (set: ListeningSet) => {
+    if (window.confirm(`'${set.title}' 세트와 음원을 삭제할까요?`)) await mutate(`/api/listening/sets/${set.id}?revision=${set.revision}`, "DELETE");
+  };
 
   return <div className="mx-auto max-w-3xl">
-    <div className="flex items-end justify-between gap-3">
-      <div>
-        <div className="flex items-center gap-2">
-          <h1 className="text-2xl font-black tracking-tight">청해</h1>
-          <span className="rounded-full bg-app-accent-surface px-2 py-1 text-[10px] font-black text-app-text">레이아웃 샘플</span>
-        </div>
-        <p className="mt-1 text-sm text-app-muted">{folders.length}개 폴더 · {totalSets}개 세트</p>
-      </div>
+    <div className="flex items-center justify-between gap-3">
+      <div><h1 className="text-2xl font-black tracking-tight">청해</h1><p className="mt-1 text-sm text-app-muted">{folders.length}개 폴더 · {sets.length}개 세트</p></div>
+      <Button size="icon" aria-label="청해 추가" onClick={() => setAddOpen(true)}><Plus aria-hidden="true" className="h-5 w-5" /></Button>
     </div>
-
-    <div className="relative mt-5">
-      <label htmlFor="listening-search" className="sr-only">청해 폴더·세트 검색</label>
-      <Search aria-hidden="true" className="absolute left-3 top-3.5 h-4 w-4 text-app-muted" />
-      <Input id="listening-search" className="pl-10" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="폴더·세트 검색..." />
-    </div>
-
-    <div className="-mx-4 mt-3 flex gap-2 overflow-x-auto px-4 pb-1" aria-label="청해 빠른 필터">
-      {filters.map(([value, label]) => <button key={value} type="button" onClick={() => setFilter(value)} aria-pressed={filter === value} className={"min-h-11 shrink-0 rounded-full px-4 text-sm font-bold " + (filter === value ? "bg-app-accent-surface text-app-text" : "bg-app-surface text-app-muted ring-1 ring-app-border")}>{label}</button>)}
-    </div>
-
+    <div className="relative mt-5"><label htmlFor="listening-search" className="sr-only">청해 폴더·세트 검색</label><Search aria-hidden="true" className="absolute left-3 top-3.5 h-4 w-4 text-app-muted" /><Input id="listening-search" className="pl-10" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="폴더·세트 검색..." /></div>
+    <div className="-mx-4 mt-3 flex gap-2 overflow-x-auto px-4 pb-1" aria-label="청해 빠른 필터">{filters.map(([value, label]) => <button key={value} type="button" onClick={() => setFilter(value)} aria-pressed={filter === value} className={`min-h-11 shrink-0 rounded-full px-4 text-sm font-bold ${filter === value ? "bg-app-accent-surface text-app-text" : "bg-app-surface text-app-muted ring-1 ring-app-border"}`}>{label}</button>)}</div>
     <section className="mt-6 rounded-xl border border-app-border bg-app-surface p-2" aria-labelledby="listening-tree-heading">
-      <div className="flex items-center justify-between px-2 py-2">
-        <h2 id="listening-tree-heading" className="text-xs font-black uppercase tracking-wider text-app-muted">모든 청해</h2>
-        <span className="text-[11px] font-bold text-app-accent">샘플 구조</span>
-      </div>
-
-      {hasResults ? <div>
-        {visibleFolders.map((folder) => {
-          const open = expanded.has(folder.id) || Boolean(needle);
-          return <div key={folder.id}>
-            <button type="button" onClick={() => toggleFolder(folder.id)} aria-expanded={open} className="flex min-h-12 w-full items-center gap-2 rounded-lg px-2 text-left hover:bg-app-raised">
-              {open ? <ChevronDown aria-hidden="true" className="h-4 w-4 shrink-0 text-app-muted" /> : <ChevronRight aria-hidden="true" className="h-4 w-4 shrink-0 text-app-muted" />}
-              <Folder aria-hidden="true" className="h-4 w-4 shrink-0 text-app-accent" />
-              <span className="truncate text-sm font-bold">{folder.name}</span>
-              <span className="ml-auto text-[11px] text-app-muted">{folder.sets.length}</span>
-            </button>
-            {open ? <div>{folder.sets.map((set) => <ListeningSetRow key={set.id} set={set} />)}</div> : null}
-          </div>;
-        })}
-
-        {visibleUnfiled.length ? <div className="mt-1 border-t border-app-border pt-1">
-          <div className="flex min-h-11 items-center gap-2 px-2 text-sm font-bold text-app-muted">
-            <Folder aria-hidden="true" className="h-4 w-4" />미분류<span className="ml-auto text-xs">{visibleUnfiled.length}</span>
-          </div>
-          {visibleUnfiled.map((set) => <ListeningSetRow key={set.id} set={set} />)}
-        </div> : null}
-      </div> : <p className="px-4 py-10 text-center text-sm text-app-muted">조건에 맞는 청해 폴더나 세트가 없습니다.</p>}
+      <div className="flex items-center justify-between px-2 py-2"><h2 id="listening-tree-heading" className="text-xs font-black uppercase tracking-wider text-app-muted">모든 청해</h2>{loading ? <LoaderCircle aria-label="불러오는 중" className="h-4 w-4 animate-spin text-app-accent" /> : null}</div>
+      {error ? <div className="rounded-lg bg-red-950/40 px-3 py-3 text-sm text-red-200">{error}<button className="ml-2 underline" onClick={() => void loadLibrary()}>다시 시도</button></div> : null}
+      {!loading && !sets.length && !folders.length ? <div className="px-4 py-12 text-center"><AudioLines aria-hidden="true" className="mx-auto h-9 w-9 text-app-muted" /><p className="mt-3 text-sm text-app-muted">아직 저장된 청해가 없습니다.</p><Button className="mt-4" onClick={() => setAddOpen(true)}>첫 음원 추가</Button></div> : null}
+      {foldersWithSets.map((folder) => {
+        const open = expandedFolders.has(folder.id) || Boolean(query.trim());
+        return <div key={folder.id} className="relative">
+          <div className="flex items-center"><button type="button" onClick={() => setExpandedFolders((current) => toggleInSet(current, folder.id))} aria-expanded={open} className="flex min-h-12 min-w-0 flex-1 items-center gap-2 rounded-lg px-2 text-left hover:bg-app-raised">{open ? <ChevronDown aria-hidden="true" className="h-4 w-4 shrink-0 text-app-muted" /> : <ChevronRight aria-hidden="true" className="h-4 w-4 shrink-0 text-app-muted" />}<Folder aria-hidden="true" className="h-4 w-4 shrink-0 text-app-accent" /><span className="truncate text-sm font-bold">{folder.name}</span><span className="ml-auto text-[11px] text-app-muted">{folder.sets.length}</span></button><button className="h-11 w-11 shrink-0 rounded-lg text-app-muted hover:bg-app-raised" aria-label={`${folder.name} 메뉴`} onClick={() => setMenu(menu === `f:${folder.id}` ? null : `f:${folder.id}`)}><MoreVertical aria-hidden="true" className="mx-auto h-4 w-4" /></button></div>
+          {menu === `f:${folder.id}` ? <RowMenu><button onClick={() => void mutate(`/api/listening/folders/${folder.id}`, "PATCH", { revision: folder.revision, favorite: !folder.favorite })}>{folder.favorite ? "즐겨찾기 해제" : "즐겨찾기"}</button><button onClick={() => void renameFolder(folder)}>이름 변경</button><button onClick={() => void deleteFolder(folder)}>삭제</button></RowMenu> : null}
+          {open ? folder.sets.map((set) => <SetRow key={set.id} set={set} detail={details[set.id]} open={expandedSets.has(set.id)} menuOpen={menu === `s:${set.id}`} onMenu={() => setMenu(menu === `s:${set.id}` ? null : `s:${set.id}`)} onToggle={() => void toggleSet(set.id)} onFavorite={() => void mutate(`/api/listening/sets/${set.id}`, "PATCH", { revision: set.revision, favorite: !set.favorite })} onRename={() => void renameSet(set)} onDelete={() => void deleteSet(set)} />) : null}
+        </div>;
+      })}
+      {unfiled.length ? <div className="mt-1 border-t border-app-border pt-1"><div className="flex min-h-11 items-center gap-2 px-2 text-sm font-bold text-app-muted"><Folder aria-hidden="true" className="h-4 w-4" />미분류<span className="ml-auto text-xs">{unfiled.length}</span></div>{unfiled.map((set) => <SetRow key={set.id} set={set} detail={details[set.id]} open={expandedSets.has(set.id)} menuOpen={menu === `s:${set.id}`} onMenu={() => setMenu(menu === `s:${set.id}` ? null : `s:${set.id}`)} onToggle={() => void toggleSet(set.id)} onFavorite={() => void mutate(`/api/listening/sets/${set.id}`, "PATCH", { revision: set.revision, favorite: !set.favorite })} onRename={() => void renameSet(set)} onDelete={() => void deleteSet(set)} />)}</div> : null}
     </section>
-
-    <p className="mt-4 text-center text-xs leading-5 text-app-muted">현재 항목은 폴더와 세트 구조를 확인하기 위한 샘플이며 저장된 데이터가 아닙니다.</p>
+    <CreateListeningDialog open={addOpen} onOpenChange={setAddOpen} folders={folders} sets={sets} onCreated={async (setId) => { await loadLibrary(); if (setId) { setExpandedSets((current) => new Set(current).add(setId)); await loadSet(setId); } }} />
   </div>;
 }
 
-function ListeningSetRow({ set }: { set: ListeningSet }) {
-  return <div className="ml-6 flex min-h-16 items-center gap-3 rounded-lg px-2 py-2 hover:bg-app-raised">
-    <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-app-raised text-app-accent">
-      <AudioLines aria-hidden="true" className="h-5 w-5" />
-    </span>
-    <span className="min-w-0 flex-1">
-      <span className="block truncate text-sm font-semibold">{set.title}</span>
-      <span className="mt-1 flex items-center gap-1 text-[11px] text-app-muted">
-        음원 {set.audioCount}개{set.questionCount ? ` · 문제 ${set.questionCount}개` : ""}<span aria-hidden="true">·</span><Clock3 aria-hidden="true" className="h-3 w-3" />{set.duration}
-      </span>
-    </span>
-    {set.favorite ? <Star aria-label="즐겨찾기" className="h-4 w-4 shrink-0 fill-app-warning text-app-warning" /> : null}
+function SetRow({ set, detail, open, menuOpen, onMenu, onToggle, onFavorite, onRename, onDelete }: { set: ListeningSet; detail?: SetDetail; open: boolean; menuOpen: boolean; onMenu: () => void; onToggle: () => void; onFavorite: () => void; onRename: () => void; onDelete: () => void }) {
+  return <div className="relative ml-4 sm:ml-6"><div className="flex items-center rounded-lg hover:bg-app-raised"><button type="button" onClick={onToggle} aria-expanded={open} className="flex min-h-16 min-w-0 flex-1 items-center gap-3 px-2 py-2 text-left"><span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-app-raised text-app-accent"><AudioLines aria-hidden="true" className="h-5 w-5" /></span><span className="min-w-0 flex-1"><span className="block truncate text-sm font-semibold">{set.title}</span><span className="mt-1 flex items-center gap-1 text-[11px] text-app-muted">음원 {set.audioCount}개<span aria-hidden="true">·</span><Clock3 aria-hidden="true" className="h-3 w-3" />{formatDuration(set.durationMs)}</span></span>{set.favorite ? <Star aria-label="즐겨찾기" className="h-4 w-4 shrink-0 fill-app-warning text-app-warning" /> : null}{open ? <ChevronDown aria-hidden="true" className="h-4 w-4 text-app-muted" /> : <ChevronRight aria-hidden="true" className="h-4 w-4 text-app-muted" />}</button><button type="button" aria-label={`${set.title} 메뉴`} onClick={onMenu} className="h-11 w-11 shrink-0 rounded-lg text-app-muted"><MoreVertical aria-hidden="true" className="mx-auto h-4 w-4" /></button></div>
+    {menuOpen ? <RowMenu><button onClick={onFavorite}>{set.favorite ? "즐겨찾기 해제" : "즐겨찾기"}</button><button onClick={onRename}>이름 변경</button><button onClick={onDelete}>삭제</button></RowMenu> : null}
+    {open ? <div className="ml-5 border-l border-app-border pl-3">{!detail ? <p className="py-3 text-xs text-app-muted">음원을 불러오는 중...</p> : detail.audio.length ? detail.audio.map((audio) => <Link key={audio.id} href={`/listening/audio/${audio.id}`} className="flex min-h-14 items-center gap-3 rounded-lg px-2 py-2 hover:bg-app-raised"><FileAudio aria-hidden="true" className="h-4 w-4 shrink-0 text-app-accent" /><span className="min-w-0 flex-1"><span className="block truncate text-sm">{audio.originalName}</span><span className={`text-[11px] ${audio.status === "failed" ? "text-red-300" : "text-app-muted"}`}>{statusLabel[audio.status] || audio.status}{audio.durationMs !== null ? ` · ${formatDuration(audio.durationMs)}` : ""}</span></span><ChevronRight aria-hidden="true" className="h-4 w-4 text-app-muted" /></Link>) : <p className="py-3 text-xs text-app-muted">이 세트에는 아직 음원이 없습니다.</p>}</div> : null}
   </div>;
 }
+
+function RowMenu({ children }: { children: React.ReactNode }) { return <div role="dialog" aria-label="항목 메뉴" className="absolute right-2 top-12 z-20 flex min-w-36 flex-col rounded-xl border border-app-border bg-app-raised p-1 shadow-xl [&>button]:min-h-11 [&>button]:rounded-lg [&>button]:px-3 [&>button]:text-left [&>button]:text-sm [&>button]:hover:bg-app-surface">{children}</div>; }
+
+function CreateListeningDialog({ open, onOpenChange, folders, sets, onCreated }: { open: boolean; onOpenChange: (value: boolean) => void; folders: ListeningFolder[]; sets: ListeningSet[]; onCreated: (setId?: string) => Promise<void> }) {
+  const [mode, setMode] = useState<"upload" | "set" | "folder">("upload");
+  const [name, setName] = useState(""); const [folderId, setFolderId] = useState(""); const [setId, setSetId] = useState("");
+  const [files, setFiles] = useState<File[]>([]); const [progress, setProgress] = useState<Record<string, number>>({});
+  const [message, setMessage] = useState<string | null>(null); const [busy, setBusy] = useState(false);
+  const submit = async () => {
+    setBusy(true); setMessage(null);
+    try {
+      if (mode === "folder") { await jsonRequest("/api/listening/folders", "POST", { name, parentId: folderId || null }); setMessage("폴더를 만들었습니다."); setName(""); await onCreated(); return; }
+      if (mode === "set") { const body = await jsonRequest<{ set: ListeningSet }>("/api/listening/sets", "POST", { title: name, folderId: folderId || null }); setMessage("세트를 만들었습니다."); setName(""); await onCreated(body.set.id); return; }
+      let targetSetId = setId;
+      if (!targetSetId) { const body = await jsonRequest<{ set: ListeningSet }>("/api/listening/sets", "POST", { title: name || files[0]?.name.replace(/\.[^.]+$/, "") || "새 청해", folderId: folderId || null }); targetSetId = body.set.id; }
+      if (!files.length) throw new Error("업로드할 음원을 선택해 주세요.");
+      for (const file of files) { const uploaded = await uploadFile(targetSetId, file, (percent) => setProgress((current) => ({ ...current, [fileKey(file)]: percent }))); for (const audio of uploaded.audio) await jsonRequest(`/api/listening/audio/${audio.id}/transcribe`, "POST", undefined, { "Idempotency-Key": `web:${audio.id}` }); }
+      setMessage(`${files.length}개 음원을 업로드하고 전사를 시작했습니다.`); setFiles([]); setProgress({}); await onCreated(targetSetId);
+    } catch (reason) { setMessage(reason instanceof Error ? reason.message : "저장하지 못했습니다."); } finally { setBusy(false); }
+  };
+  return <Dialog open={open} onOpenChange={onOpenChange}><DialogContent><DialogTitle className="pr-12 text-xl font-black">청해 추가</DialogTitle><DialogDescription className="mt-1 text-sm text-app-muted">폴더와 세트를 만들거나 음원을 업로드합니다.</DialogDescription>
+    <div className="mt-5 grid grid-cols-3 gap-2" role="tablist" aria-label="추가 방식">{(["upload", "set", "folder"] as const).map((value) => <button key={value} role="tab" aria-selected={mode === value} className={`min-h-11 rounded-xl text-sm font-bold ${mode === value ? "bg-app-accent-surface" : "bg-app-raised text-app-muted"}`} onClick={() => setMode(value)}>{value === "upload" ? "음원" : value === "set" ? "세트" : "폴더"}</button>)}</div>
+    {mode === "upload" ? <div className="mt-5 space-y-4"><label className="block text-sm font-bold">대상 세트<select className="mt-2 min-h-11 w-full rounded-xl border border-app-border bg-app-bg px-3" value={setId} onChange={(event) => setSetId(event.target.value)}><option value="">새 세트 만들기</option>{sets.map((set) => <option key={set.id} value={set.id}>{set.title}</option>)}</select></label>{!setId ? <><label className="block text-sm font-bold">새 세트 제목<Input className="mt-2" value={name} onChange={(event) => setName(event.target.value)} placeholder="파일 이름을 사용하려면 비워두세요" /></label><FolderSelect folders={folders} value={folderId} onChange={setFolderId} /></> : null}<label onDragOver={(event) => event.preventDefault()} onDrop={(event) => { event.preventDefault(); setFiles(Array.from(event.dataTransfer.files)); }} className="flex min-h-32 cursor-pointer flex-col items-center justify-center rounded-xl border border-dashed border-app-border bg-app-bg p-4 text-center"><Upload aria-hidden="true" className="h-6 w-6 text-app-accent" /><span className="mt-2 text-sm font-bold">음원을 놓거나 눌러 선택</span><span className="mt-1 text-xs text-app-muted">MP3, M4A, WAV, OGG, WEBM · 최대 200MB</span><input className="sr-only" type="file" accept="audio/mpeg,audio/mp4,audio/wav,audio/ogg,audio/webm,.mp3,.m4a,.wav,.ogg,.webm" multiple onChange={(event) => setFiles(Array.from(event.target.files || []))} /></label>{files.map((file) => <div key={fileKey(file)} className="rounded-lg bg-app-raised p-3 text-sm"><div className="flex justify-between gap-2"><span className="truncate">{file.name}</span><span>{progress[fileKey(file)] ?? 0}%</span></div><div className="mt-2 h-1.5 overflow-hidden rounded bg-app-border"><div className="h-full bg-app-accent" style={{ width: `${progress[fileKey(file)] ?? 0}%` }} /></div></div>)}</div> : <div className="mt-5 space-y-4"><label className="block text-sm font-bold">{mode === "folder" ? "폴더 이름" : "세트 제목"}<Input className="mt-2" value={name} onChange={(event) => setName(event.target.value)} /></label><FolderSelect folders={folders} value={folderId} onChange={setFolderId} label={mode === "folder" ? "상위 폴더" : "위치"} /></div>}
+    {message ? <p role="status" className={`mt-4 text-sm ${message.includes("못") || message.includes("선택") ? "text-red-300" : "text-app-accent"}`}>{message}</p> : null}<Button className="mt-5 w-full" disabled={busy || (mode !== "upload" && !name.trim())} onClick={() => void submit()}>{busy ? <LoaderCircle aria-hidden="true" className="h-4 w-4 animate-spin" /> : null}{mode === "upload" ? "업로드" : "저장"}</Button>
+  </DialogContent></Dialog>;
+}
+
+function FolderSelect({ folders, value, onChange, label = "위치" }: { folders: ListeningFolder[]; value: string; onChange: (value: string) => void; label?: string }) { return <label className="block text-sm font-bold">{label}<select className="mt-2 min-h-11 w-full rounded-xl border border-app-border bg-app-bg px-3" value={value} onChange={(event) => onChange(event.target.value)}><option value="">미분류</option>{folders.map((folder) => <option key={folder.id} value={folder.id}>{folder.name}</option>)}</select></label>; }
+
+async function jsonRequest<T = unknown>(url: string, method: string, body?: unknown, extraHeaders: Record<string, string> = {}) {
+  const response = await fetch(url, { method, headers: { ...(body === undefined ? {} : { "Content-Type": "application/json" }), ...extraHeaders }, body: body === undefined ? undefined : JSON.stringify(body) });
+  const payload = response.status === 204 ? null : await response.json().catch(() => null) as T & { error?: { message?: string } };
+  if (!response.ok) throw new Error(payload?.error?.message || "요청을 처리하지 못했습니다.");
+  return payload as T;
+}
+
+function uploadFile(setId: string, file: File, onProgress: (percent: number) => void) {
+  return new Promise<{ audio: ListeningAudio[] }>((resolve, reject) => { const form = new FormData(); form.append("file", file); const request = new XMLHttpRequest(); request.open("POST", `/api/listening/sets/${encodeURIComponent(setId)}/audio`); request.upload.onprogress = (event) => { if (event.lengthComputable) onProgress(Math.round(event.loaded / event.total * 100)); }; request.onerror = () => reject(new Error("업로드 연결이 끊겼습니다.")); request.onabort = () => reject(new Error("업로드가 취소되었습니다.")); request.onload = () => { let payload: { audio?: ListeningAudio[]; error?: { message?: string } } = {}; try { payload = JSON.parse(request.responseText) as typeof payload; } catch { /* handled below */ } if (request.status >= 200 && request.status < 300 && payload.audio) { onProgress(100); resolve({ audio: payload.audio }); } else reject(new Error(payload.error?.message || "음원을 업로드하지 못했습니다.")); }; request.send(form); });
+}
+
+function toggleInSet(current: Set<string>, value: string) { const next = new Set(current); if (next.has(value)) next.delete(value); else next.add(value); return next; }
+function formatDuration(milliseconds: number) { const seconds = Math.max(0, Math.round(milliseconds / 1_000)); return `${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2, "0")}`; }
+function fileKey(file: File) { return `${file.name}:${file.size}:${file.lastModified}`; }

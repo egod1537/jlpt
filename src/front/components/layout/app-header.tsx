@@ -21,7 +21,7 @@ export function AppHeader() {
     window.addEventListener("jlpt-study-active", changed);
     return () => window.removeEventListener("jlpt-study-active", changed);
   }, []);
-  if (pathname.startsWith("/study") && studyActive) return null;
+  if (pathname.startsWith("/listening/audio/") || (pathname.startsWith("/study") && studyActive)) return null;
   return <>
     <header className="sticky top-0 z-40 border-b border-app-border bg-app-surface/95 pt-[env(safe-area-inset-top)] backdrop-blur">
       <div className="mx-auto flex h-14 max-w-4xl items-center justify-between px-3 sm:px-4">

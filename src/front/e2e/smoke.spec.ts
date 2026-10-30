@@ -28,8 +28,8 @@ test("bottom navigation opens the listening workspace", async ({ page }) => {
   await expect(page).toHaveURL(/\/listening$/);
   await expect(page.getByRole("heading", { name: "청해", exact: true })).toBeVisible();
   await expect(page.getByRole("heading", { name: "모든 청해" })).toBeVisible();
-  await expect(page.getByRole("button", { name: /JLPT N1 실전/ })).toHaveAttribute("aria-expanded", "true");
-  await expect(page.getByText("실전 모의고사 1회", { exact: true })).toBeVisible();
+  await expect(page.getByText("아직 저장된 청해가 없습니다.", { exact: true })).toBeVisible();
+  await expect(page.getByText("JLPT N1 실전", { exact: true })).toHaveCount(0);
   await expect(listeningLink).toHaveAttribute("aria-current", "page");
 });
 
