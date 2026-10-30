@@ -45,8 +45,12 @@ type WorkerDependencies = {
   now?: () => Date;
   random?: () => number;
   wait?: (ms: number, signal?: AbortSignal) => Promise<void>;
+  leaseHeartbeatMs?: number;
   signal?: AbortSignal;
 };
+
+const JOB_LEASE_MS = 120_000;
+const GPT_LEASE_HEARTBEAT_MS = 30_000;
 
 export class TranscriptValidationFailure extends Error {
   constructor(readonly code: string, message: string) {
@@ -64,14 +68,14 @@ export async function runListeningWorkerOnce(db: AppDatabase, dependencies: Work
     try {
       await processGptJob(db, job, workerId, dependencies);
     } catch (error) {
-      if (dependencies.signal?.aborted) releaseForShutdown(db, job, now()); else failOrRetry(db, job, error, now(), dependencies.random);
+      if (dependencies.signal?.aborted) releaseForShutdown(db, job, workerId, now()); else failOrRetry(db, job, workerId, error, now(), dependencies.random);
     }
     return true;
   }
   try {
     await processTranscriptionJob(db, job, workerId, dependencies);
   } catch (error) {
-    if (dependencies.signal?.aborted) releaseForShutdown(db, job, now()); else failOrRetry(db, job, error, now(), dependencies.random);
+    if (dependencies.signal?.aborted) releaseForShutdown(db, job, workerId, now()); else failOrRetry(db, job, workerId, error, now(), dependencies.random);
   }
   return true;
 }
@@ -81,27 +85,38 @@ async function processGptJob(db: AppDatabase, job: ClaimedJob, workerId: string,
   const inputVersion = getTranscriptVersion(db, job.inputVersionId);
   if (inputVersion.audioId !== job.audioId) throw new OpenAiListeningFailure("GPT_INPUT_MISMATCH", "GPT 원본 전사가 음원과 일치하지 않습니다.", false);
   const adapter = dependencies.gptAdapter ?? new ResponsesGptListeningAdapter();
-  const result = await adapter.process(inputVersion.segments, dependencies.signal);
-  const finalize = db.transaction(() => {
-    const version = createTranscriptVersion(db, {
-      audioId: job.audioId,
-      kind: "gpt_processed",
-      basedOnId: inputVersion.id,
-      language: "ja-ko",
-      rawPayload: result.rawPayload,
-      modelName: result.model,
-      promptVersion: result.promptVersion,
-      segments: result.segments,
+  const heartbeat = startLeaseHeartbeat(db, job.id, workerId, dependencies);
+  try {
+    const result = await adapter.process(inputVersion.segments, heartbeat.signal);
+    heartbeat.assertActive();
+    const finalize = db.transaction(() => {
+      const completedAt = dependencies.now?.() ?? new Date();
+      assertJobLease(db, job.id, workerId, completedAt);
+      const version = createTranscriptVersion(db, {
+        audioId: job.audioId,
+        kind: "gpt_processed",
+        basedOnId: inputVersion.id,
+        language: "ja-ko",
+        rawPayload: result.rawPayload,
+        modelName: result.model,
+        promptVersion: result.promptVersion,
+        segments: result.segments,
+      });
+      const currentAudio = getListeningAudio(db, job.audioId);
+      activateTranscriptVersion(db, job.audioId, version.id, currentAudio.revision, false);
+      const completedTimestamp = completedAt.toISOString();
+      const completed = db.prepare(`UPDATE listening_jobs SET state='completed',stage='ready',progress=100,output_version_id=?,lease_owner=NULL,lease_expires_at=NULL,completed_at=?,updated_at=? WHERE id=? AND state='running' AND lease_owner=?`)
+        .run(version.id, completedTimestamp, completedTimestamp, job.id, workerId);
+      if (!completed.changes) throw jobLeaseLost();
+      db.prepare("UPDATE listening_audio SET status='ready',updated_at=?,revision=revision+1 WHERE id=?").run(completedTimestamp, job.audioId);
+      recordListeningAudit(db, "transcript.gpt.created", { audioId: job.audioId, jobId: job.id, versionId: version.id });
     });
-    const currentAudio = getListeningAudio(db, job.audioId);
-    activateTranscriptVersion(db, job.audioId, version.id, currentAudio.revision, false);
-    const completedAt = (dependencies.now?.() ?? new Date()).toISOString();
-    db.prepare(`UPDATE listening_jobs SET state='completed',stage='ready',progress=100,output_version_id=?,lease_owner=NULL,lease_expires_at=NULL,completed_at=?,updated_at=? WHERE id=? AND state='running' AND lease_owner=?`)
-      .run(version.id, completedAt, completedAt, job.id, workerId);
-    db.prepare("UPDATE listening_audio SET status='ready',updated_at=?,revision=revision+1 WHERE id=?").run(completedAt, job.audioId);
-    recordListeningAudit(db, "transcript.gpt.created", { audioId: job.audioId, jobId: job.id, versionId: version.id });
-  });
-  finalize();
+    finalize();
+  } catch (error) {
+    throw heartbeat.failure() ?? error;
+  } finally {
+    heartbeat.stop();
+  }
 }
 
 async function processTranscriptionJob(db: AppDatabase, job: ClaimedJob, workerId: string, dependencies: WorkerDependencies) {
@@ -138,6 +153,7 @@ async function processTranscriptionJob(db: AppDatabase, job: ClaimedJob, workerI
   });
   const segments = normalizeWhisperResult(result, audio.durationMs);
   const finalize = db.transaction(() => {
+    assertJobLease(db, job.id, workerId, dependencies.now?.() ?? new Date());
     const version = createTranscriptVersion(db, {
       audioId: audio.id,
       kind: "whisper_raw",
@@ -149,8 +165,9 @@ async function processTranscriptionJob(db: AppDatabase, job: ClaimedJob, workerI
     const currentAudio = getListeningAudio(db, audio.id);
     const activation = activateTranscriptVersion(db, audio.id, version.id, currentAudio.revision, false);
     const completedAt = (dependencies.now?.() ?? new Date()).toISOString();
-    db.prepare(`UPDATE listening_jobs SET state='completed',stage='transcribed',progress=100,output_version_id=?,lease_owner=NULL,lease_expires_at=NULL,completed_at=?,updated_at=? WHERE id=? AND state='running' AND lease_owner=?`)
+    const completed = db.prepare(`UPDATE listening_jobs SET state='completed',stage='transcribed',progress=100,output_version_id=?,lease_owner=NULL,lease_expires_at=NULL,completed_at=?,updated_at=? WHERE id=? AND state='running' AND lease_owner=?`)
       .run(version.id, completedAt, completedAt, job.id, workerId);
+    if (!completed.changes) throw jobLeaseLost();
     if (activation.activated) {
       enqueueListeningJob(db, audio.id, "gpt_process", `gpt:${version.id}`);
     } else {
@@ -200,7 +217,7 @@ function claimNextJob(db: AppDatabase, workerId: string, at: Date): ClaimedJob |
       .run(timestamp, timestamp, timestamp);
     const row = db.prepare(`SELECT id,audio_id,type,attempt,max_attempts,idempotency_key,provider_job_id,input_version_id FROM listening_jobs WHERE state='queued' AND next_run_at<=? ORDER BY created_at,id LIMIT 1`).get(timestamp) as Record<string, unknown> | undefined;
     if (!row) return null;
-    const leaseExpiresAt = new Date(at.getTime() + 120_000).toISOString();
+    const leaseExpiresAt = new Date(at.getTime() + JOB_LEASE_MS).toISOString();
     const result = db.prepare(`UPDATE listening_jobs SET state='running',stage=?,attempt=attempt+1,lease_owner=?,lease_expires_at=?,started_at=COALESCE(started_at,?),updated_at=?,error_code=NULL,error_message=NULL WHERE id=? AND state='queued'`)
       .run(row.type === "transcribe" ? "transcribing" : "correcting", workerId, leaseExpiresAt, timestamp, timestamp, row.id);
     if (!result.changes) return null;
@@ -216,13 +233,48 @@ function claimNextJob(db: AppDatabase, workerId: string, at: Date): ClaimedJob |
 
 function renewLease(db: AppDatabase, jobId: string, workerId: string, at: Date) {
   const timestamp = at.toISOString();
-  const expires = new Date(at.getTime() + 120_000).toISOString();
+  const expires = new Date(at.getTime() + JOB_LEASE_MS).toISOString();
   const result = db.prepare("UPDATE listening_jobs SET lease_expires_at=?,updated_at=? WHERE id=? AND state='running' AND lease_owner=?")
     .run(expires, timestamp, jobId, workerId);
-  if (!result.changes) throw new WhisperProviderFailure("JOB_LEASE_LOST", "작업 lease가 만료되었습니다.", true);
+  if (!result.changes) throw jobLeaseLost();
 }
 
-function failOrRetry(db: AppDatabase, job: ClaimedJob, error: unknown, at: Date, random = Math.random) {
+function startLeaseHeartbeat(db: AppDatabase, jobId: string, workerId: string, dependencies: WorkerDependencies) {
+  const controller = new AbortController();
+  let heartbeatFailure: Error | null = null;
+  const intervalMs = Math.min(JOB_LEASE_MS / 2, Math.max(10, dependencies.leaseHeartbeatMs ?? GPT_LEASE_HEARTBEAT_MS));
+  const timer = setInterval(() => {
+    try {
+      renewLease(db, jobId, workerId, dependencies.now?.() ?? new Date());
+    } catch (error) {
+      heartbeatFailure = error instanceof Error ? error : jobLeaseLost();
+      controller.abort();
+    }
+  }, intervalMs);
+  timer.unref();
+  const signal = dependencies.signal ? AbortSignal.any([dependencies.signal, controller.signal]) : controller.signal;
+  return {
+    signal,
+    failure: () => heartbeatFailure,
+    assertActive: () => {
+      if (heartbeatFailure) throw heartbeatFailure;
+      assertJobLease(db, jobId, workerId, dependencies.now?.() ?? new Date());
+    },
+    stop: () => clearInterval(timer),
+  };
+}
+
+function assertJobLease(db: AppDatabase, jobId: string, workerId: string, at: Date) {
+  const active = db.prepare("SELECT 1 FROM listening_jobs WHERE id=? AND state='running' AND lease_owner=? AND lease_expires_at>?")
+    .get(jobId, workerId, at.toISOString());
+  if (!active) throw jobLeaseLost();
+}
+
+function jobLeaseLost() {
+  return new WhisperProviderFailure("JOB_LEASE_LOST", "작업 lease가 만료되었습니다.", true);
+}
+
+function failOrRetry(db: AppDatabase, job: ClaimedJob, workerId: string, error: unknown, at: Date, random = Math.random) {
   const providerFailure = error instanceof WhisperProviderFailure ? error : null;
   const openAiFailure = error instanceof OpenAiListeningFailure ? error : null;
   const validationFailure = error instanceof TranscriptValidationFailure ? error : null;
@@ -230,29 +282,34 @@ function failOrRetry(db: AppDatabase, job: ClaimedJob, error: unknown, at: Date,
   const code = providerFailure?.code || openAiFailure?.code || validationFailure?.code || "LISTENING_JOB_FAILED";
   const message = providerFailure?.message || openAiFailure?.message || validationFailure?.message || "작업을 처리하지 못했습니다.";
   const timestamp = at.toISOString();
+  let updated = 0;
   if (openAiFailure?.waitingAuth) {
-    db.prepare(`UPDATE listening_jobs SET state='waiting_auth',stage='correcting',lease_owner=NULL,lease_expires_at=NULL,error_code=?,error_message=?,updated_at=? WHERE id=?`)
-      .run(code, message, timestamp, job.id);
+    updated = db.prepare(`UPDATE listening_jobs SET state='waiting_auth',stage='correcting',lease_owner=NULL,lease_expires_at=NULL,error_code=?,error_message=?,updated_at=? WHERE id=? AND state='running' AND lease_owner=?`)
+      .run(code, message, timestamp, job.id, workerId).changes;
+    if (!updated) return;
     const activeKind = db.prepare(`SELECT v.kind FROM listening_audio a LEFT JOIN listening_transcript_versions v ON v.id=a.script_version_id WHERE a.id=?`).get(job.audioId) as { kind?: string } | undefined;
     db.prepare("UPDATE listening_audio SET status=?,updated_at=?,revision=revision+1 WHERE id=?").run(activeKind?.kind === "gpt_processed" || activeKind?.kind === "manual_edit" ? "ready" : "transcribed", timestamp, job.audioId);
   } else if (retryable && job.attempt < job.maxAttempts) {
     const backoffMs = Math.min(300_000, 2_000 * 2 ** Math.max(0, job.attempt - 1)) + Math.floor(random() * 1_000);
     const nextRunAt = new Date(at.getTime() + backoffMs).toISOString();
-    db.prepare(`UPDATE listening_jobs SET state='queued',stage='queued',next_run_at=?,lease_owner=NULL,lease_expires_at=NULL,error_code=?,error_message=?,updated_at=? WHERE id=?`)
-      .run(nextRunAt, code, message, timestamp, job.id);
+    updated = db.prepare(`UPDATE listening_jobs SET state='queued',stage='queued',next_run_at=?,lease_owner=NULL,lease_expires_at=NULL,error_code=?,error_message=?,updated_at=? WHERE id=? AND state='running' AND lease_owner=?`)
+      .run(nextRunAt, code, message, timestamp, job.id, workerId).changes;
+    if (!updated) return;
     db.prepare("UPDATE listening_audio SET status='queued',updated_at=?,revision=revision+1 WHERE id=?").run(timestamp, job.audioId);
   } else {
-    db.prepare(`UPDATE listening_jobs SET state='failed',stage='failed',lease_owner=NULL,lease_expires_at=NULL,error_code=?,error_message=?,completed_at=?,updated_at=? WHERE id=?`)
-      .run(code, message, timestamp, timestamp, job.id);
+    updated = db.prepare(`UPDATE listening_jobs SET state='failed',stage='failed',lease_owner=NULL,lease_expires_at=NULL,error_code=?,error_message=?,completed_at=?,updated_at=? WHERE id=? AND state='running' AND lease_owner=?`)
+      .run(code, message, timestamp, timestamp, job.id, workerId).changes;
+    if (!updated) return;
     db.prepare("UPDATE listening_audio SET status='failed',updated_at=?,revision=revision+1 WHERE id=?").run(timestamp, job.audioId);
   }
   recordListeningAudit(db, "job.failure", { audioId: job.audioId, jobId: job.id, detailCode: code });
 }
 
-function releaseForShutdown(db: AppDatabase, job: ClaimedJob, at: Date) {
+function releaseForShutdown(db: AppDatabase, job: ClaimedJob, workerId: string, at: Date) {
   const timestamp = at.toISOString();
-  db.prepare("UPDATE listening_jobs SET state='queued',stage='queued',next_run_at=?,lease_owner=NULL,lease_expires_at=NULL,updated_at=? WHERE id=? AND state='running'")
-    .run(timestamp, timestamp, job.id);
+  const released = db.prepare("UPDATE listening_jobs SET state='queued',stage='queued',next_run_at=?,lease_owner=NULL,lease_expires_at=NULL,updated_at=? WHERE id=? AND state='running' AND lease_owner=?")
+    .run(timestamp, timestamp, job.id, workerId);
+  if (!released.changes) return;
   db.prepare("UPDATE listening_audio SET status='queued',updated_at=?,revision=revision+1 WHERE id=? AND deleted_at IS NULL").run(timestamp, job.audioId);
   recordListeningAudit(db, "job.shutdown.requeue", { audioId: job.audioId, jobId: job.id });
 }

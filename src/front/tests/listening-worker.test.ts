@@ -137,6 +137,81 @@ describe("durable listening worker", () => {
     expect(getActiveTranscript(db, audioId).script?.id).toBe(raw.id);
     expect(getListeningAudio(db, audioId).status).toBe("transcribed");
   });
+
+  it("renews the job lease while GPT correction is still running", async () => {
+    const audio = getListeningAudio(db, audioId);
+    const raw = createTranscriptVersion(db, {
+      audioId, kind: "whisper_raw", rawPayload: { fixture: true },
+      segments: [{ startMs: 0, endMs: 1_000, speaker: null, ja: "長い原文", ko: null, needsReview: false, reviewNote: null, sourceSegmentIds: ["whisper:0"] }],
+    });
+    const { activateTranscriptVersion } = await import("@back/lib/listening/repository");
+    activateTranscriptVersion(db, audioId, raw.id, audio.revision);
+    const queued = enqueueListeningJob(db, audioId, "gpt_process", "gpt-long-running").job;
+    let releaseResponse = () => {};
+    let markStarted = () => {};
+    const started = new Promise<void>((resolve) => { markStarted = resolve; });
+    const responseGate = new Promise<void>((resolve) => { releaseResponse = resolve; });
+
+    const processing = runListeningWorkerOnce(db, {
+      workerId: "gpt-heartbeat-worker",
+      leaseHeartbeatMs: 10,
+      gptAdapter: {
+        process: async (segments) => {
+          markStarted();
+          await responseGate;
+          return translatedResult(segments);
+        },
+      },
+    });
+    await started;
+    const initial = db.prepare("SELECT lease_expires_at,updated_at FROM listening_jobs WHERE id=?").get(queued.id) as { lease_expires_at: string; updated_at: string };
+
+    await vi.waitFor(() => {
+      const current = db.prepare("SELECT lease_expires_at,updated_at FROM listening_jobs WHERE id=?").get(queued.id) as { lease_expires_at: string; updated_at: string };
+      expect(current.updated_at).not.toBe(initial.updated_at);
+      expect(current.lease_expires_at > initial.lease_expires_at).toBe(true);
+    }, { timeout: 500 });
+
+    releaseResponse();
+    await processing;
+    expect(getListeningJob(db, queued.id).state).toBe("completed");
+    expect(getActiveTranscript(db, audioId).script?.kind).toBe("gpt_processed");
+  });
+
+  it("does not save stale GPT output after another worker owns the lease", async () => {
+    const audio = getListeningAudio(db, audioId);
+    const raw = createTranscriptVersion(db, {
+      audioId, kind: "whisper_raw", rawPayload: { fixture: true },
+      segments: [{ startMs: 0, endMs: 1_000, speaker: null, ja: "原文", ko: null, needsReview: false, reviewNote: null, sourceSegmentIds: ["whisper:0"] }],
+    });
+    const { activateTranscriptVersion } = await import("@back/lib/listening/repository");
+    activateTranscriptVersion(db, audioId, raw.id, audio.revision);
+    const queued = enqueueListeningJob(db, audioId, "gpt_process", "gpt-stale-owner").job;
+    let releaseResponse = () => {};
+    let markStarted = () => {};
+    const started = new Promise<void>((resolve) => { markStarted = resolve; });
+    const responseGate = new Promise<void>((resolve) => { releaseResponse = resolve; });
+
+    const processing = runListeningWorkerOnce(db, {
+      workerId: "old-worker",
+      leaseHeartbeatMs: 10,
+      gptAdapter: {
+        process: async (segments) => {
+          markStarted();
+          await responseGate;
+          return translatedResult(segments);
+        },
+      },
+    });
+    await started;
+    db.prepare("UPDATE listening_jobs SET lease_owner='new-worker',lease_expires_at='2099-01-01T00:00:00.000Z' WHERE id=?").run(queued.id);
+    releaseResponse();
+    await processing;
+
+    expect(db.prepare("SELECT state,lease_owner FROM listening_jobs WHERE id=?").get(queued.id)).toEqual({ state: "running", lease_owner: "new-worker" });
+    expect(getActiveTranscript(db, audioId).script?.id).toBe(raw.id);
+    expect(db.prepare("SELECT COUNT(*) count FROM listening_transcript_versions WHERE audio_id=?").get(audioId)).toEqual({ count: 1 });
+  });
 });
 
 it("normalizes both millisecond and second provider timestamps", () => {
@@ -198,5 +273,23 @@ function fakeAdapter(result: WhisperProviderResult): WhisperAdapter & { submitte
     submit: async (input) => { submittedKeys.push(input.idempotencyKey); return "provider-job-1"; },
     getJob: async () => ({ id: "provider-job-1", status: "completed", phase: null, error: null }),
     getResult: async () => result,
+  };
+}
+
+function translatedResult(segments: Array<{ startMs: number; endMs: number; ja: string; sourceSegmentIds: string[] }>) {
+  return {
+    model: "gpt-test",
+    promptVersion: "test-v1",
+    rawPayload: { fixture: true },
+    segments: segments.map((segment) => ({
+      startMs: segment.startMs,
+      endMs: segment.endMs,
+      speaker: null,
+      ja: segment.ja,
+      ko: `번역: ${segment.ja}`,
+      needsReview: false,
+      reviewNote: null,
+      sourceSegmentIds: segment.sourceSegmentIds,
+    })),
   };
 }
