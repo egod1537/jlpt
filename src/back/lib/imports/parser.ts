@@ -51,7 +51,7 @@ export interface ParsedImport {
   errors: Array<{ row: number; field: string; message: string }>;
 }
 
-const importEntrySchema = z.object({
+export const importEntrySchema = z.object({
   term: z.string().trim().min(1).max(200), reading: z.string().max(200).nullable(), meanings: z.array(z.string().max(1_000)).max(50),
   primaryMeaning: z.string().max(1_000).nullable(), nuance: z.string().max(4_000).nullable(), partOfSpeech: z.array(z.string().max(200)).max(50),
   jlptLevels: z.array(z.enum(["N1", "N2", "N3", "N4", "N5"])).max(5), years: z.array(z.number().int().min(1900).max(2200)).max(100),

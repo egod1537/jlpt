@@ -147,7 +147,7 @@ export function validateGptListeningOutput(payload: unknown, sourceSegments: Lis
   return output;
 }
 
-async function readResponsesSse(stream: ReadableStream<Uint8Array>, maxBytes = 10 * 1024 * 1024) {
+export async function readResponsesSse(stream: ReadableStream<Uint8Array>, maxBytes = 10 * 1024 * 1024) {
   const reader = stream.getReader();
   const decoder = new TextDecoder();
   let buffer = "";

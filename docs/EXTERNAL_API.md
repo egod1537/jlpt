@@ -127,6 +127,12 @@ curl -fsS "http://127.0.0.1:3100/api/v1/books/book-api-sample/entries?limit=100"
 
 다음 페이지가 있으면 응답의 `pagination.nextCursor`를 다음 요청의 `cursor`로 그대로 전달합니다.
 
+### GPT 의미 구분 미리보기
+
+새 단어장을 저장하기 전에 `POST /api/v1/books/sense-preview`에 기존 생성 요청과 같은 `words` 배열을 보내면, 서로 다른 실제 의미별 카드 후보를 받을 수 있습니다. 단순 번역 동의어는 합치고, 각 결과는 원본 record/예문만 참조하도록 서버가 검증합니다. 결과의 `words`를 확인·수정한 뒤 일반 `POST /api/v1/books`에 보내 저장합니다.
+
+이 분석 API는 선택 사항입니다. ChatGPT 연결이 없거나 분류가 실패해도 기존 단어장 생성 API는 막히지 않으며 원본 `words`를 그대로 저장할 수 있습니다. 이미 저장된 단어와 학습 기록은 이 API로 자동 재분류하지 않습니다. 동일 입력·모델·프롬프트 결과는 서버에서 캐시합니다.
+
 ## 기계 판독 명세
 
 OpenAPI 3.1 명세는 `/external-api.openapi.json`에서 인증 없이 조회할 수 있습니다. API 탐색 정보는 인증 후 `GET /api/v1`에서 확인할 수 있습니다.

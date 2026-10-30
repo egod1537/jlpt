@@ -5,6 +5,7 @@ import { getDatabase } from "@back/lib/db/database";
 import { parseImport, type ImportMapping } from "@back/lib/imports/parser";
 import { applyMutation } from "@back/lib/sync/mutations";
 import { getBook } from "@back/lib/catalog/queries";
+import { materializeSenseSplit, resolveExistingSenseWordId, type SenseSplitOverride, type SenseSplitResult } from "@back/lib/vocab/sense-split";
 import { apiError, apiJson, PayloadTooLargeError, readLimitedJson } from "@/lib/server/api";
 import { authorize } from "@/lib/server/authorize";
 
@@ -18,6 +19,10 @@ const commitSchema = z.object({
   mapping: z.record(z.string(), z.string()).optional(),
   validRowsOnly: z.boolean().default(false),
   duplicatePolicy: z.literal("keep-separate").default("keep-separate"),
+  senseSplit: z.object({
+    enabled: z.boolean(),
+    groups: z.array(z.object({ groupId: z.string().max(40), merge: z.boolean().optional(), labels: z.record(z.string(), z.string().max(200)).optional() }).strict()).max(5_000).default([]),
+  }).strict().optional(),
 }).strict();
 
 export async function POST(request: NextRequest, context: { params: Promise<{ previewId: string }> }) {
@@ -30,13 +35,18 @@ export async function POST(request: NextRequest, context: { params: Promise<{ pr
     const db = getDatabase();
     const preview = db.prepare("SELECT * FROM import_previews WHERE preview_id=?").get(previewId) as Record<string, unknown> | undefined;
     if (!preview) return apiError(404, "NOT_FOUND", "가져오기 미리보기를 찾을 수 없습니다.");
-    const priorSummary = JSON.parse(String(preview.summary_json)) as Record<string, unknown> & { result?: unknown; originalId?: string | null };
+    const priorSummary = JSON.parse(String(preview.summary_json)) as Record<string, unknown> & { result?: unknown; originalId?: string | null; senseSplit?: { result?: SenseSplitResult } };
     if (preview.committed_at) return apiJson(priorSummary.result);
     if (new Date(String(preview.expires_at)) < new Date()) return apiError(404, "NOT_FOUND", "가져오기 미리보기가 만료되었습니다.");
     const mapping = { ...(JSON.parse(String(preview.mapping_json)) as ImportMapping), ...input.data.mapping };
     const parsed = parseImport(Buffer.from(preview.source_blob as Buffer), String(preview.format) as "csv" | "json", mapping);
     if (parsed.errors.length && !input.data.validRowsOnly) return apiError(400, "VALIDATION", "오류가 있는 행을 먼저 수정하거나 정상 행만 가져오기를 선택해 주세요.", { errors: parsed.errors.slice(0, 100) });
     if (!parsed.entries.length) return apiError(400, "VALIDATION", "가져올 수 있는 단어가 없습니다.");
+    const senseEnabled = input.data.senseSplit?.enabled === true;
+    if (senseEnabled && !priorSummary.senseSplit?.result) return apiError(409, "CONFLICT", "저장된 GPT 의미 분류 미리보기가 없습니다. 다시 분석해 주세요.");
+    const entriesToImport = senseEnabled
+      ? materializeSenseSplit(parsed.entries, priorSummary.senseSplit!.result!, input.data.senseSplit!.groups as SenseSplitOverride[])
+      : parsed.entries;
     const result = db.transaction(() => {
       if (input.data.folderId) {
         const folder = db.prepare("SELECT 1 FROM folders WHERE id=? AND deleted_at IS NULL").get(input.data.folderId);
@@ -48,19 +58,22 @@ export async function POST(request: NextRequest, context: { params: Promise<{ pr
         payload: { id: bookId, title: input.data.title, category: input.data.category, folderId: input.data.folderId, orderIndex: 0, origin: "import", originRef: { previewId, sourceHash: preview.source_hash, originalId: priorSummary.originalId || null } },
       });
       if (bookOperation.status !== "applied") throw new Error(bookOperation.error?.message || "세트를 만들지 못했습니다.");
-      parsed.entries.forEach((entry, position) => {
+      entriesToImport.forEach((entry, position) => {
+        const reusableWordId = senseEnabled ? resolveExistingSenseWordId(db, entry) : null;
         const entryOperation = applyMutation(db, `import:${previewId}`, {
           operationId: randomUUID(), type: "entry.create",
           payload: {
-            entryId: `entry-${randomUUID()}`, bookId, position,
+            entryId: `entry-${randomUUID()}`, bookId, position, ...(reusableWordId ? { wordId: reusableWordId } : {}),
             fields: { ...entry, sources: entry.originalWordId ? [...entry.sources, { sourceType: "import", originalWordId: entry.originalWordId }] : entry.sources },
           },
         });
         if (entryOperation.status !== "applied") throw new Error(entryOperation.error?.message || `${position + 1}번째 단어를 저장하지 못했습니다.`);
       });
       const imported = {
-        bookId, insertedEntries: parsed.entries.length, skippedEntries: parsed.errors.length,
-        mergedEntries: 0, warnings: parsed.errors.slice(0, 100), book: getBook(db, bookId),
+        bookId, insertedEntries: entriesToImport.length, skippedEntries: parsed.errors.length,
+        mergedEntries: senseEnabled ? Math.max(0, parsed.entries.length - entriesToImport.length) : 0,
+        senseSplit: senseEnabled ? { originalEntries: parsed.entries.length, cards: entriesToImport.length } : null,
+        warnings: parsed.errors.slice(0, 100), book: getBook(db, bookId),
       };
       db.prepare("UPDATE import_previews SET mapping_json=?,summary_json=?,source_blob=X'',committed_at=? WHERE preview_id=? AND committed_at IS NULL")
         .run(JSON.stringify(mapping), JSON.stringify({ ...priorSummary, result: imported }), new Date().toISOString(), previewId);

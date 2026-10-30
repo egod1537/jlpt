@@ -13,6 +13,7 @@ export function GET(request: NextRequest) {
       version: "v1",
       resources: {
         books: "/api/v1/books",
+        bookSensePreview: "/api/v1/books/sense-preview",
         book: "/api/v1/books/{bookId}",
         entries: "/api/v1/books/{bookId}/entries",
         listening: "/api/v1/listening",
