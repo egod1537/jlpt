@@ -19,7 +19,12 @@ services:
       JLPT_SEED_DATA: /app/seed-data
       JLPT_MIGRATIONS_DIR: /app/migrations
       JLPT_BACKUP_DIR: /app/backup
+      JLPT_AUDIO_DIR: /app/var/listening/audio
+      JLPT_AUDIO_TMP_DIR: /app/var/listening/tmp
+      JLPT_MAX_AUDIO_BYTES: ${JLPT_MAX_AUDIO_BYTES:-209715200}
+      JLPT_LISTENING_WORKER_ENABLED: "false"
       JLPT_APP_ORIGIN: ${JLPT_APP_ORIGIN:-https://jlpt.mangagaki.net}
+      JLPT_ACCESS_TOKEN: ${JLPT_ACCESS_TOKEN:-}
       JLPT_EXTERNAL_API_KEY: ${JLPT_EXTERNAL_API_KEY:-}
       JLPT_GIT_REVISION: ${JLPT_GIT_REVISION:-unknown}
     volumes:
@@ -41,6 +46,41 @@ services:
       - no-new-privileges:true
     cap_drop:
       - ALL
+
+  worker:
+    container_name: jlpt-vocabulary-worker
+    image: jlpt-vocabulary-web:${JLPT_IMAGE_TAG:-local}
+    command: ["node", "/app/ops/listening-worker.mjs"]
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      JLPT_DB_PATH: /app/var/jlpt.sqlite
+      JLPT_SEED_DATA: /app/seed-data
+      JLPT_MIGRATIONS_DIR: /app/migrations
+      JLPT_AUDIO_DIR: /app/var/listening/audio
+      JLPT_AUDIO_TMP_DIR: /app/var/listening/tmp
+      JLPT_LISTENING_WORKER_CONCURRENCY: ${JLPT_LISTENING_WORKER_CONCURRENCY:-1}
+      JLPT_WORKER_HEARTBEAT_PATH: /app/var/listening/worker-heartbeat
+      JLPT_GIT_REVISION: ${JLPT_GIT_REVISION:-unknown}
+    volumes:
+      - ${JLPT_DATA_DIR:-./var}:/app/var
+    networks:
+      - default
+    restart: unless-stopped
+    read_only: true
+    tmpfs:
+      - /tmp:size=16m,mode=1777
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    healthcheck:
+      interval: 15s
+      timeout: 5s
+      start_period: 20s
+      retries: 5
+      test: ["CMD", "node", "-e", "const s=require('node:fs').statSync('/app/var/listening/worker-heartbeat');if(Date.now()-s.mtimeMs>30000)process.exit(1)"]
 
 networks:
   edge:

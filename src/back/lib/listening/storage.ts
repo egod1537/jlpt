@@ -46,12 +46,18 @@ export class AudioStorageFailure extends Error {
 }
 
 export function audioStorageConfig() {
-  const base = path.resolve(process.cwd(), "..", "..", "var", "listening");
-  const audioDir = path.resolve(process.env.JLPT_AUDIO_DIR || path.join(base, "audio"));
-  const tmpDir = path.resolve(process.env.JLPT_AUDIO_TMP_DIR || path.join(base, "tmp"));
+  const base = path.join(process.cwd(), "..", "..", "var", "listening");
+  const audioDir = configuredStoragePath(process.env.JLPT_AUDIO_DIR, path.join(base, "audio"), "JLPT_AUDIO_DIR");
+  const tmpDir = configuredStoragePath(process.env.JLPT_AUDIO_TMP_DIR, path.join(base, "tmp"), "JLPT_AUDIO_TMP_DIR");
   const configuredMax = Number(process.env.JLPT_MAX_AUDIO_BYTES || 209_715_200);
   const maxBytes = Number.isSafeInteger(configuredMax) && configuredMax > 0 ? configuredMax : 209_715_200;
   return { audioDir, tmpDir, maxBytes };
+}
+
+function configuredStoragePath(value: string | undefined, fallback: string, label: string) {
+  if (!value?.trim()) return path.normalize(fallback);
+  if (!path.isAbsolute(value)) throw new AudioStorageFailure(500, "INTERNAL", `${label}은(는) 절대 경로여야 합니다.`);
+  return path.normalize(value);
 }
 
 export async function ensureAudioStorage() {

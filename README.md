@@ -12,7 +12,7 @@ dataset/data/  기존 27개 원본 seed와 생성된 HTML 정규화 JSON
 spec/       구현 명세(로컬 작업 자료)
 ```
 
-`src/front/public/data`에는 단어 자료를 두지 않습니다. 앱 로그인은 없으며 페이지와 데이터 API에 바로 접근할 수 있습니다. 쓰기 API는 브라우저의 교차 사이트 요청을 줄이기 위해 설정한 `JLPT_APP_ORIGIN`과 요청 Origin이 같은지 확인합니다.
+`src/front/public/data`에는 단어 자료를 두지 않습니다. 프로덕션의 페이지와 내부 API는 `JLPT_ACCESS_TOKEN`으로 만든 HttpOnly 세션이 있어야 접근할 수 있습니다. 쓰기 API는 세션 검사에 더해 `JLPT_APP_ORIGIN`과 요청 Origin이 같은지도 확인합니다. 서버 간 `/api/v1`은 별도의 Bearer 키를 사용합니다.
 
 ## 기능 범위와 제한
 
@@ -110,14 +110,15 @@ docker compose up -d --build
 curl -fsS http://127.0.0.1:8081/healthz
 ```
 
-컨테이너 시작 시 migration과 해시 기반 seed를 실행합니다. 동일 seed 재실행은 no-op이고 사용자 편집을 덮어쓰지 않습니다. DB는 `/app/var/jlpt.sqlite`, 백업은 별도 `/app/backup` mount에 있습니다. 애플리케이션 코드와 루트 파일시스템은 읽기 전용입니다.
+컨테이너 시작 시 migration과 해시 기반 seed를 실행합니다. 동일 seed 재실행은 no-op이고 사용자 편집을 덮어쓰지 않습니다. DB는 `/app/var/jlpt.sqlite`, 음원은 `/app/var/listening/audio`, 백업은 별도 `/app/backup` mount에 있습니다. `worker` 서비스는 같은 WAL DB와 음원 볼륨을 사용하며 전사·교정 작업을 lease 기반으로 이어받습니다. 이미지에는 FFmpeg/ffprobe와 번들된 worker 진입점이 들어 있고, 두 컨테이너의 코드와 루트 파일시스템은 읽기 전용입니다.
 
 ## 백업과 복원
 
-온라인 SQLite backup API를 사용하므로 실행 중인 WAL 파일을 복사하지 않습니다. 결과 DB와 migration·revision·건수 메타데이터는 mode `0600`으로 생성되고 복제 DB에서 `integrity_check`를 수행합니다.
+온라인 SQLite backup API를 사용하므로 실행 중인 WAL 파일을 복사하지 않습니다. 각 스냅샷 디렉터리에는 같은 기준의 `database.sqlite`, DB가 참조하는 음원, SHA-256 `manifest.json`이 함께 들어갑니다. 복제 DB에서 `integrity_check`를 실행하고 파일 크기·해시가 맞지 않으면 완성된 백업으로 승격하지 않습니다. OAuth 토큰과 API/접근 키는 포함하지 않습니다.
 
 ```bash
 docker compose exec -T web node /app/ops/backup.mjs --prune
+docker compose exec -T web node /app/ops/restore.mjs --snapshot /app/backup/jlpt-... --verify-only
 ```
 
 `--prune`은 최신 7개와 추가 주간 백업 4개를 유지합니다. macOS/Linux host scheduler 예시(매일 03:20):
@@ -126,7 +127,7 @@ docker compose exec -T web node /app/ops/backup.mjs --prune
 20 3 * * * cd /path/to/jlpt && docker compose exec -T web node /app/ops/backup.mjs --prune >>/var/log/jlpt-backup.log 2>&1
 ```
 
-복원은 서비스를 중단하고 기존 DB를 별도 이름으로 보존한 뒤 검증된 `.sqlite`를 `JLPT_DATA_DIR/jlpt.sqlite`로 배치하고 UID 1000, mode 0600을 적용합니다. 먼저 별도 임시 경로에서 `PRAGMA integrity_check`, 세트·항목·이벤트 건수를 백업 메타데이터와 대조하세요. 설정 화면의 JSON 백업은 보조 수단이며 운영 DB 백업을 대체하지 않습니다.
+복원은 먼저 `--verify-only`를 통과시킨 뒤 `web`과 `worker`를 모두 중단하고 `--force`로 실행합니다. 도구는 새 DB·음원을 스테이징한 뒤 기존 대상을 `.pre-restore-*`로 보존하고 교체합니다. 복구 후 `listening-fsck.mjs`로 누락 파일과 고아 파일을 점검하며, `--quarantine`은 고아 파일을 삭제하지 않고 격리합니다. 설정 화면의 JSON 백업은 보조 수단이며 운영 스냅샷을 대체하지 않습니다. 전체 절차와 프록시 설정은 [운영 안내](docs/OPERATIONS.md)를 따릅니다.
 
 ## main 배포와 롤백
 
@@ -142,7 +143,7 @@ Caddy upstream은 Docker network alias `jlpt-vocabulary-web:3000`입니다. host
 
 ## 운영 주의
 
-- 로그인 없이 공개 주소로 서비스하므로 URL에 접근할 수 있는 사람은 데이터 API를 읽고 쓸 수 있습니다. 접근 제한이 필요하면 애플리케이션 밖의 프록시나 VPN에서 설정합니다.
+- `JLPT_ACCESS_TOKEN`은 16자 이상의 무작위 값으로 설정하고, 공개 주소 앞단에도 VPN·SSO·Basic Auth 같은 별도 접근 경계를 두는 것을 권장합니다.
 - 교재·기출·신문 등 원자료의 재배포 권한은 별도 확인해야 합니다.
 - 로그에 백업 본문이나 단어 원문 전체를 남기지 않습니다.
 - 구 앱 localStorage 키 `jlpt-vocab:progress:v1`, `jlpt-vocab:session:v1`은 설정에서 미리보기 후 병합하며 자동 삭제하지 않습니다.

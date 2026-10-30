@@ -47,7 +47,7 @@ rollback_deployment() {
       --label net.mangagaki.deployment.branch=main \
       jlpt-vocabulary-web:rollback >/dev/null
   else
-    JLPT_IMAGE_TAG=rollback docker compose up -d --no-build web
+    JLPT_IMAGE_TAG=rollback docker compose up -d --no-build web worker
   fi
 }
 
@@ -87,8 +87,8 @@ if ! curl -fsS "http://127.0.0.1:${JLPT_WEB_PORT:-8081}/healthz" >/dev/null; the
   exit 1
 fi
 deployment_api_status=$(curl -sS -o /dev/null -w '%{http_code}' "http://127.0.0.1:${JLPT_WEB_PORT:-8081}/api/books")
-if [ "$deployment_api_status" != "200" ]; then
-  echo "배포 실패: 공개 데이터 API가 200을 반환하지 않았습니다 ($deployment_api_status)." >&2
+if [ "$deployment_api_status" != "401" ]; then
+  echo "배포 실패: 비인증 데이터 API가 401을 반환하지 않았습니다 ($deployment_api_status)." >&2
   rollback_deployment
   exit 1
 fi
@@ -101,6 +101,22 @@ fi
 deployment_running_revision=$(docker inspect --format '{{ index .Config.Labels "org.opencontainers.image.revision" }}' jlpt-vocabulary-web)
 if [ "$deployment_running_revision" != "$deployment_revision" ]; then
   echo "배포 실패: 실행 중인 컨테이너 revision이 배포 커밋과 다릅니다 ($deployment_running_revision)." >&2
+  rollback_deployment
+  exit 1
+fi
+deployment_worker_attempt=0
+deployment_worker_health=""
+while [ "$deployment_worker_attempt" -lt 30 ]; do
+  deployment_worker_health=$(docker inspect --format '{{.State.Health.Status}}' jlpt-vocabulary-worker 2>/dev/null || true)
+  if [ "$deployment_worker_health" = "healthy" ]; then
+    break
+  fi
+  deployment_worker_attempt=$((deployment_worker_attempt + 1))
+  sleep 1
+done
+if [ "$deployment_worker_health" != "healthy" ]; then
+  echo "배포 실패: listening worker 헬스체크가 통과하지 못했습니다 ($deployment_worker_health)." >&2
+  docker compose logs --tail=100 worker >&2
   rollback_deployment
   exit 1
 fi
