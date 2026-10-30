@@ -57,6 +57,14 @@ test("listening player remains usable and fixed across the viewport matrix", asy
   await rows.nth(8).click();
   await expect.poll(() => audio.evaluate((element: HTMLAudioElement) => element.currentTime)).toBeCloseTo(0.2, 1);
   expect(await audio.evaluate((element: HTMLAudioElement) => element.paused)).toBe(true);
+  await page.getByRole("button", { name: "5초 앞으로" }).click();
+  await expect.poll(() => audio.evaluate((element: HTMLAudioElement) => element.currentTime)).toBeCloseTo(5.2, 1);
+  await page.getByRole("button", { name: "5초 뒤로" }).click();
+  await expect.poll(() => audio.evaluate((element: HTMLAudioElement) => element.currentTime)).toBeCloseTo(0.2, 1);
+  await page.keyboard.press("ArrowRight");
+  await expect.poll(() => audio.evaluate((element: HTMLAudioElement) => element.currentTime)).toBeCloseTo(5.2, 1);
+  await page.keyboard.press("ArrowLeft");
+  await expect.poll(() => audio.evaluate((element: HTMLAudioElement) => element.currentTime)).toBeCloseTo(0.2, 1);
   await page.getByRole("button", { name: "이전 문장" }).click();
   await expect.poll(() => audio.evaluate((element: HTMLAudioElement) => element.currentTime)).toBeCloseTo(0.175, 2);
   await page.getByRole("button", { name: /재생 속도 1배/ }).click();
@@ -76,7 +84,7 @@ test("listening player remains usable and fixed across the viewport matrix", asy
 });
 
 function silentWav() {
-  const sampleRate = 8_000; const samples = sampleRate; const dataBytes = samples * 2;
+  const sampleRate = 8_000; const samples = sampleRate * 12; const dataBytes = samples * 2;
   const buffer = Buffer.alloc(44 + dataBytes);
   buffer.write("RIFF", 0); buffer.writeUInt32LE(36 + dataBytes, 4); buffer.write("WAVE", 8); buffer.write("fmt ", 12);
   buffer.writeUInt32LE(16, 16); buffer.writeUInt16LE(1, 20); buffer.writeUInt16LE(1, 22); buffer.writeUInt32LE(sampleRate, 24);

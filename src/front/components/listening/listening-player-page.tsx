@@ -130,10 +130,20 @@ export function ListeningPlayerPage({ audioId }: { audioId: string }) {
   const seek = useCallback((milliseconds: number, shouldPlay = false) => {
     const element = audioRef.current;
     if (!element) return;
-    element.currentTime = Math.max(0, milliseconds) / 1_000;
-    setPositionMs(Math.max(0, milliseconds));
+    const nextPosition = Math.max(0, milliseconds);
+    element.currentTime = nextPosition / 1_000;
+    setPositionMs(nextPosition);
+    setActiveIndex(findActiveSegment(segments, nextPosition));
     if (shouldPlay) void element.play();
-  }, []);
+  }, [segments]);
+  const seekBy = useCallback((deltaMs: number) => {
+    const element = audioRef.current;
+    if (!element) return;
+    const measuredDuration = Number.isFinite(element.duration) && element.duration > 0 ? Math.round(element.duration * 1_000) : 0;
+    const upperBound = measuredDuration || durationMs || audio?.durationMs || 0;
+    const target = Math.max(0, Math.round(element.currentTime * 1_000) + deltaMs);
+    seek(upperBound > 0 ? Math.min(target, upperBound) : target, !element.paused);
+  }, [audio?.durationMs, durationMs, seek]);
   const moveSegment = (direction: -1 | 1) => {
     if (!segments.length) return;
     const current = activeIndex < 0 ? 0 : activeIndex;
@@ -158,9 +168,10 @@ export function ListeningPlayerPage({ audioId }: { audioId: string }) {
     const onKeyDown = (event: KeyboardEvent) => {
       const target = event.target as HTMLElement | null;
       if (target?.matches("input,textarea,select,[contenteditable='true']")) return;
+      if (event.altKey || event.ctrlKey || event.metaKey) return;
       if (event.code === "Space") { event.preventDefault(); void togglePlayback(); }
-      else if (event.key === "ArrowLeft") { event.preventDefault(); moveSegment(-1); }
-      else if (event.key === "ArrowRight") { event.preventDefault(); moveSegment(1); }
+      else if (event.key === "ArrowLeft") { event.preventDefault(); seekBy(-5_000); }
+      else if (event.key === "ArrowRight") { event.preventDefault(); seekBy(5_000); }
       else if (event.key.toLowerCase() === "j") setShowJa((value) => !value);
       else if (event.key.toLowerCase() === "k") setShowKo((value) => !value);
     };
@@ -219,14 +230,16 @@ export function ListeningPlayerPage({ audioId }: { audioId: string }) {
         <div className="-mt-1 flex justify-between text-[10px] tabular-nums text-app-muted"><span>{formatClock(positionMs)}</span><span>{formatClock(durationMs)}</span></div>
         <div className="mt-1 grid grid-cols-5 items-center gap-1">
           <button type="button" onClick={changeRate} aria-label={`재생 속도 ${rate}배, 눌러 변경`} className="min-h-12 rounded-xl text-xs font-black text-app-muted">{rate}×</button>
-          <button type="button" onClick={() => moveSegment(-1)} aria-label="이전 문장" className="min-h-12 rounded-xl text-app-muted hover:bg-app-raised"><ChevronLeft aria-hidden="true" className="mx-auto h-6 w-6" /></button>
+          <button type="button" onClick={() => seekBy(-5_000)} aria-label="5초 뒤로" className="min-h-12 rounded-xl text-xs font-black text-app-muted hover:bg-app-raised">−5초</button>
           <button type="button" onClick={() => void togglePlayback()} aria-label={playing ? "일시 정지" : "재생"} className="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-app-accent-surface text-white">{playing ? <Pause aria-hidden="true" className="h-6 w-6 fill-current" /> : <Play aria-hidden="true" className="ml-0.5 h-6 w-6 fill-current" />}</button>
-          <button type="button" onClick={() => moveSegment(1)} aria-label="다음 문장" className="min-h-12 rounded-xl text-app-muted hover:bg-app-raised"><ChevronRight aria-hidden="true" className="mx-auto h-6 w-6" /></button>
+          <button type="button" onClick={() => seekBy(5_000)} aria-label="5초 앞으로" className="min-h-12 rounded-xl text-xs font-black text-app-muted hover:bg-app-raised">+5초</button>
           <button type="button" aria-pressed={repeat} onClick={() => { setCustomRange(null); setRangeStartMs(null); setRepeat((value) => !value); }} aria-label="현재 문장 반복" className={`min-h-12 rounded-xl ${repeat ? "text-app-accent" : "text-app-muted"}`}><Repeat2 aria-hidden="true" className="mx-auto h-5 w-5" /></button>
         </div>
-        <div className="mt-1 flex min-h-11 items-center justify-center gap-1 text-[11px] text-app-muted">
+        <div className="mt-1 flex min-h-11 flex-wrap items-center justify-center gap-1 text-[11px] text-app-muted">
+          <button type="button" onClick={() => moveSegment(-1)} aria-label="이전 문장" className="min-h-11 min-w-11 rounded-xl px-2 hover:bg-app-raised"><ChevronLeft aria-hidden="true" className="mx-auto h-5 w-5" /></button>
           <button type="button" className="min-h-11 px-2" onClick={() => { setRepeat(false); setCustomRange(null); setRangeStartMs(positionMs); }} aria-label="A 구간 시작 설정">A</button>
           <button type="button" disabled={rangeStartMs === null || positionMs <= rangeStartMs} className="min-h-11 px-2 disabled:opacity-30" onClick={() => { if (rangeStartMs !== null && positionMs > rangeStartMs) { setRepeat(false); setCustomRange({ startMs: rangeStartMs, endMs: positionMs }); } }} aria-label="B 구간 끝 설정">B</button>
+          <button type="button" onClick={() => moveSegment(1)} aria-label="다음 문장" className="min-h-11 min-w-11 rounded-xl px-2 hover:bg-app-raised"><ChevronRight aria-hidden="true" className="mx-auto h-5 w-5" /></button>
           {customRange ? <button type="button" className="min-h-11 px-2 text-app-accent" onClick={() => { setCustomRange(null); setRangeStartMs(null); }}>A–B {formatClock(customRange.startMs)}–{formatClock(customRange.endMs)}</button> : null}
           {script ? <><Download aria-hidden="true" className="ml-1 h-3 w-3" />{(["json", "txt", "srt"] as const).map((format) => <a key={format} className="min-h-11 px-2 py-3 uppercase hover:text-app-text" href={`/api/listening/audio/${encodeURIComponent(audioId)}/script/export?format=${format}`}>{format}</a>)}</> : null}
         </div>
