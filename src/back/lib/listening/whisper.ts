@@ -158,7 +158,7 @@ export async function waitForWhisperResult(adapter: WhisperAdapter, providerJobI
 } = {}) {
   const started = Date.now();
   const timeoutMs = options.timeoutMs ?? 600_000;
-  const pollMs = options.pollMs ?? 1_500;
+  const pollMs = options.pollMs ?? 5_000;
   const wait = options.wait ?? delay;
   while (Date.now() - started < timeoutMs) {
     let job: WhisperProviderJob;
