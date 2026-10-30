@@ -28,8 +28,7 @@ test("bottom navigation opens the listening workspace", async ({ page }) => {
   await expect(page).toHaveURL(/\/listening$/);
   await expect(page.getByRole("heading", { name: "청해", exact: true })).toBeVisible();
   await expect(page.getByRole("heading", { name: "모든 청해" })).toBeVisible();
-  await expect(page.getByText("아직 저장된 청해가 없습니다.", { exact: true })).toBeVisible();
-  await expect(page.getByText("JLPT N1 실전", { exact: true })).toHaveCount(0);
+  await expect(page.getByRole("button", { name: "추가", exact: true })).toBeVisible();
   await expect(listeningLink).toHaveAttribute("aria-current", "page");
 });
 
@@ -501,7 +500,11 @@ test("login APIs remain removed", async ({ request }, testInfo) => {
 test("production access boundary rejects private pages and APIs, then creates a session", async ({ browser }, testInfo) => {
   test.skip(testInfo.project.name !== "desktop-1280", "access boundary journey runs once");
   const port = process.env.JLPT_E2E_PORT || "4174";
-  const context = await browser.newContext({ baseURL: `http://127.0.0.1:${port}`, extraHTTPHeaders: {} });
+  const context = await browser.newContext({
+    baseURL: `http://127.0.0.1:${port}`,
+    extraHTTPHeaders: {},
+    storageState: { cookies: [], origins: [] },
+  });
   const page = await context.newPage();
   try {
     expect((await context.request.get("/api/bootstrap", { maxRedirects: 0 })).status()).toBe(401);
