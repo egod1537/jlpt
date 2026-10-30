@@ -6,4 +6,6 @@ export async function register() {
     import("@back/lib/seed/seed"),
   ]);
   seedDatabase(getDatabase(), seedDataPath());
+  const { startListeningWorker } = await import("@back/lib/listening/worker");
+  startListeningWorker();
 }

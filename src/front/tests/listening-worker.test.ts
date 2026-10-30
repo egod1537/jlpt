@@ -1,0 +1,118 @@
+import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
+
+vi.mock("server-only", () => ({}));
+
+import { mkdir, mkdtemp, rm, writeFile } from "node:fs/promises";
+import os from "node:os";
+import path from "node:path";
+import type { AppDatabase } from "@back/lib/db/database";
+import { openDatabase } from "@back/lib/db/database";
+import {
+  createListeningSet,
+  enqueueListeningJob,
+  getActiveTranscript,
+  getListeningAudio,
+  getListeningJob,
+  registerListeningAudio,
+} from "@back/lib/listening/repository";
+import type { WhisperAdapter, WhisperProviderResult } from "@back/lib/listening/whisper";
+import { WhisperProviderFailure } from "@back/lib/listening/whisper";
+import { normalizeWhisperResult, runListeningWorkerOnce } from "@back/lib/listening/worker";
+
+describe("durable listening worker", () => {
+  let db: AppDatabase;
+  let temporary = "";
+  let audioId = "";
+
+  beforeEach(async () => {
+    temporary = await mkdtemp(path.join(os.tmpdir(), "jlpt-worker-test-"));
+    process.env.JLPT_AUDIO_DIR = path.join(temporary, "audio");
+    process.env.JLPT_AUDIO_TMP_DIR = path.join(temporary, "tmp");
+    const storedKey = "aa/bb/fixture.wav";
+    const storedPath = path.join(process.env.JLPT_AUDIO_DIR, "aa", "bb", "fixture.wav");
+    await mkdir(path.dirname(storedPath), { recursive: true });
+    await writeFile(storedPath, Buffer.from("fixture audio bytes"));
+    db = openDatabase(":memory:");
+    const set = createListeningSet(db, { title: "worker" });
+    audioId = registerListeningAudio(db, {
+      setId: set.id, originalName: "fixture.wav", storedKey, mimeType: "audio/wav", sizeBytes: 19,
+      sha256: "c".repeat(64), durationMs: 3_000, sampleRate: 16_000, channels: 1, codecName: "pcm_s16le",
+    }).id;
+  });
+
+  afterEach(async () => {
+    db.close();
+    delete process.env.JLPT_AUDIO_DIR;
+    delete process.env.JLPT_AUDIO_TMP_DIR;
+    await rm(temporary, { recursive: true, force: true });
+  });
+
+  it("stores immutable provider output, converts seconds, and queues GPT processing", async () => {
+    const queued = enqueueListeningJob(db, audioId, "transcribe", "worker-success").job;
+    const adapter = fakeAdapter({
+      text: "こんにちは。次です。",
+      languageDetected: "japanese",
+      segments: [
+        { start: 0, end: 1.25, text: "こんにちは。", confidence: 0.9 },
+        { start: 1.25, end: 2.8, text: "次です。", confidence: 0.5 },
+      ],
+      postProcessingMetadata: { provider: "chatgpt_plan" },
+    });
+
+    expect(await runListeningWorkerOnce(db, { adapter, workerId: "test-worker" })).toBe(true);
+
+    expect(getListeningJob(db, queued.id)).toMatchObject({ state: "completed", stage: "transcribed", progress: 100 });
+    const active = getActiveTranscript(db, audioId);
+    expect(active.script?.kind).toBe("whisper_raw");
+    expect(active.script?.segments).toMatchObject([
+      { startMs: 0, endMs: 1_250, ja: "こんにちは。", needsReview: false },
+      { startMs: 1_250, endMs: 2_800, ja: "次です。", needsReview: true },
+    ]);
+    expect(db.prepare("SELECT state FROM listening_jobs WHERE audio_id=? AND type='gpt_process'").get(audioId)).toEqual({ state: "queued" });
+    expect(adapter.submittedKeys).toEqual(["worker-success"]);
+  });
+
+  it("rejects hallucinated timestamps while preserving the uploaded audio", async () => {
+    const queued = enqueueListeningJob(db, audioId, "transcribe", "worker-invalid").job;
+    const adapter = fakeAdapter({ segments: [{ startMs: 0, endMs: 29_980, text: "ご視聴ありがとうございました。" }] });
+
+    await runListeningWorkerOnce(db, { adapter, workerId: "test-worker" });
+
+    expect(getListeningJob(db, queued.id)).toMatchObject({ state: "failed", errorCode: "WHISPER_TIMING_OUT_OF_BOUNDS" });
+    expect(db.prepare("SELECT COUNT(*) count FROM listening_transcript_versions WHERE audio_id=?").get(audioId)).toEqual({ count: 0 });
+    expect(getListeningAudio(db, audioId)).toMatchObject({ id: audioId, status: "failed" });
+  });
+
+  it("backs off retryable failures and recovers an expired lease", async () => {
+    const queued = enqueueListeningJob(db, audioId, "transcribe", "worker-retry").job;
+    const failing: WhisperAdapter = {
+      submit: async () => { throw new WhisperProviderFailure("WHISPER_HTTP_503", "일시 오류", true, 503); },
+      getJob: async () => { throw new Error("not reached"); },
+      getResult: async () => { throw new Error("not reached"); },
+    };
+    const firstAt = new Date("2030-01-01T00:00:00.000Z");
+    await runListeningWorkerOnce(db, { adapter: failing, workerId: "worker-a", now: () => firstAt, random: () => 0 });
+    expect(getListeningJob(db, queued.id)).toMatchObject({ state: "queued", attempt: 1, errorCode: "WHISPER_HTTP_503" });
+
+    db.prepare("UPDATE listening_jobs SET state='running',lease_owner='dead-worker',lease_expires_at='2025-01-01T00:00:00.000Z',next_run_at='2025-01-01T00:00:00.000Z' WHERE id=?").run(queued.id);
+    const recovered = fakeAdapter({ segments: [{ startMs: 0, endMs: 1_000, text: "復旧" }] });
+    await runListeningWorkerOnce(db, { adapter: recovered, workerId: "worker-b", now: () => firstAt });
+    expect(getListeningJob(db, queued.id).state).toBe("completed");
+    expect(recovered.submittedKeys).toEqual(["worker-retry"]);
+  });
+});
+
+it("normalizes both millisecond and second provider timestamps", () => {
+  expect(normalizeWhisperResult({ segments: [{ start: 0.1, end: 0.9, text: "秒" }] }, 1_000)[0]).toMatchObject({ startMs: 100, endMs: 900 });
+  expect(normalizeWhisperResult({ segments: [{ startMs: 100, endMs: 900, text: "ms" }] }, 1_000)[0]).toMatchObject({ startMs: 100, endMs: 900 });
+});
+
+function fakeAdapter(result: WhisperProviderResult): WhisperAdapter & { submittedKeys: string[] } {
+  const submittedKeys: string[] = [];
+  return {
+    submittedKeys,
+    submit: async (input) => { submittedKeys.push(input.idempotencyKey); return "provider-job-1"; },
+    getJob: async () => ({ id: "provider-job-1", status: "completed", phase: null, error: null }),
+    getResult: async () => result,
+  };
+}
