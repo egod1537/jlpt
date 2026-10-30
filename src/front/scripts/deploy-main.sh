@@ -33,6 +33,7 @@ if [ -n "$(git status --porcelain --untracked-files=all -- package.json package-
 fi
 
 deployment_previous_legacy=false
+deployment_previous_worker=false
 rollback_deployment() {
   if ! docker image inspect jlpt-vocabulary-web:rollback >/dev/null 2>&1; then
     echo "롤백 이미지가 없어 자동 복구할 수 없습니다." >&2
@@ -47,7 +48,12 @@ rollback_deployment() {
       --label net.mangagaki.deployment.branch=main \
       jlpt-vocabulary-web:rollback >/dev/null
   else
-    JLPT_IMAGE_TAG=rollback docker compose up -d --no-build web worker
+    docker rm -f jlpt-vocabulary-worker >/dev/null 2>&1 || true
+    if [ "$deployment_previous_worker" = "true" ]; then
+      JLPT_IMAGE_TAG=rollback docker compose up -d --no-build web worker
+    else
+      JLPT_IMAGE_TAG=rollback docker compose up -d --no-build web
+    fi
   fi
 }
 
@@ -56,6 +62,9 @@ if docker inspect jlpt-vocabulary-web >/dev/null 2>&1; then
   docker image tag "$deployment_previous_image" jlpt-vocabulary-web:rollback
   if docker compose exec -T web test -f /app/ops/backup.mjs >/dev/null 2>&1; then
     docker compose exec -T web node /app/ops/backup.mjs --prune
+    if docker compose exec -T web test -f /app/ops/listening-worker.mjs >/dev/null 2>&1; then
+      deployment_previous_worker=true
+    fi
   else
     deployment_previous_legacy=true
     echo "안내: 현재 컨테이너는 구 정적 버전이므로 SQLite 백업을 건너뜁니다."

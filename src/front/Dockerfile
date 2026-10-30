@@ -18,10 +18,11 @@ COPY src/back/ ./src/back/
 COPY dataset/data/ ./dataset/data/
 
 RUN npm run build \
-  && ./src/front/node_modules/.bin/esbuild src/back/scripts/listening-worker.ts --bundle --platform=node --target=node24 --format=esm --conditions=react-server --tsconfig=src/front/tsconfig.json --external:better-sqlite3 --outfile=src/front/.next/listening-worker.mjs \
+  && ./src/front/node_modules/.bin/esbuild src/back/scripts/listening-worker.ts --bundle --platform=node --target=node24 --format=esm --conditions=react-server --tsconfig=src/front/tsconfig.json --external:better-sqlite3 --banner:js="import { createRequire } from 'node:module'; const require = createRequire(import.meta.url);" --outfile=src/front/.next/listening-worker.mjs \
   && test -f src/front/.next/standalone/src/front/server.js \
   && test -f src/front/.next/listening-worker.mjs \
   && test -d src/front/.next/standalone/node_modules/better-sqlite3 \
+  && (worker_status=0; JLPT_DB_PATH=/tmp/jlpt-worker-smoke.sqlite JLPT_MIGRATIONS_DIR=/workspace/src/back/db/migrations JLPT_WORKER_HEARTBEAT_PATH=/tmp/jlpt-worker-heartbeat timeout 2s node src/front/.next/listening-worker.mjs >/tmp/jlpt-worker-smoke.log 2>&1 || worker_status=$?; test "$worker_status" -eq 124) \
   && test ! -d src/front/public/data
 
 FROM node:24.14.0-bookworm-slim AS runtime

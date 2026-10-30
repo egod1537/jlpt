@@ -137,7 +137,15 @@ docker compose exec -T web node /app/ops/restore.mjs --snapshot /app/backup/jlpt
 ./src/front/scripts/deploy-main.sh
 ```
 
-스크립트는 fetch 시점의 `origin/main` SHA를 Docker 이미지 태그와 OCI revision label로 고정합니다. 기존 동적 컨테이너의 DB를 먼저 백업하고 이전 이미지를 `jlpt-vocabulary-web:rollback`으로 태그한 뒤, 새 이미지의 health, 실행 revision, 공개 `/api/books`의 200, 구 `/data/collections.json` 비노출을 확인합니다. 검증 실패 시 이전 이미지를 다시 시작합니다. migration 이후 새 서버 쓰기가 있었다면 이미지 롤백만으로 DB schema를 되돌리지 말고, 중단 공지 후 배포 직전 DB 백업 복원이 필요한지 판단해야 합니다.
+스크립트는 fetch 시점의 `origin/main` SHA를 Docker 이미지 태그와 OCI revision label로 고정합니다. 기존 동적 컨테이너의 DB를 먼저 백업하고 이전 이미지를 `jlpt-vocabulary-web:rollback`으로 태그한 뒤, 새 이미지의 health, 실행 revision, 비인증 `/api/books`의 401, 구 `/data/collections.json` 비노출을 확인합니다. 검증 실패 시 이전 이미지를 다시 시작합니다. migration 이후 새 서버 쓰기가 있었다면 이미지 롤백만으로 DB schema를 되돌리지 말고, 중단 공지 후 배포 직전 DB 백업 복원이 필요한지 판단해야 합니다.
+
+macOS 운영 호스트에서는 사용자 LaunchAgent가 5분마다 `origin/main`과 실행 중인 web/worker 상태를 확인하도록 설치할 수 있습니다. revision과 두 health가 모두 정상이면 빌드하지 않습니다. 런타임 배포가 실패한 revision은 `.git/jlpt-main-deploy/failed-revision`에 기록해 같은 결함을 반복 배포하지 않고, 다음 `main` 커밋부터 다시 시도합니다. 환경 문제를 고친 뒤 같은 revision을 수동 재시도하려면 `deploy-main.sh`를 직접 실행하면 됩니다.
+
+```bash
+./src/front/scripts/install-main-deploy-launch-agent.sh
+launchctl print gui/$(id -u)/net.mangagaki.jlpt.deploy-main
+tail -f ~/Library/Logs/jlpt-deploy-main.log
+```
 
 Caddy upstream은 Docker network alias `jlpt-vocabulary-web:3000`입니다. host port는 계속 `127.0.0.1:8081`에만 바인딩하며 Docker socket은 mount하지 않습니다.
 
