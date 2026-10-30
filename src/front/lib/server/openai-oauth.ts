@@ -296,7 +296,13 @@ export async function verifyOpenAiConnection() {
   const response = await fetch("https://api.openai.com/v1/responses", {
     method: "POST",
     headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
-    body: JSON.stringify({ model, input: "Reply with OK.", max_output_tokens: 16, store: false, stream: true }),
+    body: JSON.stringify({
+      model,
+      input: [{ role: "user", content: [{ type: "input_text", text: "Reply with OK." }] }],
+      max_output_tokens: 16,
+      store: false,
+      stream: true,
+    }),
     cache: "no-store",
   });
   const requestId = response.headers.get("openai-request-id") || response.headers.get("x-request-id") || undefined;

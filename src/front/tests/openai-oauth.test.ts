@@ -90,6 +90,8 @@ describe("ChatGPT OAuth service", () => {
       .mockResolvedValueOnce(Response.json({ models: [{ slug: "gpt-test", visibility: "list" }] }))
       .mockResolvedValueOnce(new Response('data: {"type":"response.completed"}\n\n', { headers: { "Content-Type": "text/event-stream" } }));
     await expect(verifyOpenAiConnection()).resolves.toMatchObject({ ready: true, model: "gpt-test" });
+    const verificationBody = JSON.parse(String(fetchMock.mock.calls[1]?.[1]?.body));
+    expect(verificationBody.input).toEqual([{ role: "user", content: [{ type: "input_text", text: "Reply with OK." }] }]);
     await expect(getOpenAiAuthStatus()).resolves.toMatchObject({ ready: true, verifiedModel: "gpt-test" });
   });
 
