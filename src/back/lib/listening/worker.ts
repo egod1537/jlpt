@@ -175,9 +175,10 @@ export function normalizeWhisperResult(result: WhisperProviderResult, durationMs
     previousStart = startMs;
     if (endMs === startMs || (durationMs !== null && startMs >= durationMs)) continue;
     const boundedEndMs = durationMs === null ? endMs : Math.min(endMs, durationMs);
-    if (typeof segment.text !== "string" || !segment.text.trim() || segment.text.length > 10_000) {
+    if (typeof segment.text !== "string" || segment.text.length > 10_000) {
       throw new TranscriptValidationFailure("WHISPER_TEXT_INVALID", "Whisper 문장 텍스트가 올바르지 않습니다.");
     }
+    if (!segment.text.trim()) continue;
     normalized.push({
       startMs,
       endMs: boundedEndMs,

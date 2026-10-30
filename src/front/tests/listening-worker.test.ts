@@ -155,6 +155,17 @@ it("drops zero-duration Whisper artifacts while preserving source indices", () =
   ]);
 });
 
+it("drops empty Whisper text artifacts while preserving valid segments", () => {
+  expect(normalizeWhisperResult({ segments: [
+    { startMs: 0, endMs: 100, text: "有効" },
+    { startMs: 100, endMs: 200, text: "   " },
+    { startMs: 200, endMs: 300, text: "文" },
+  ] }, 300)).toMatchObject([
+    { ja: "有効", sourceSegmentIds: ["whisper:0"] },
+    { ja: "文", sourceSegmentIds: ["whisper:2"] },
+  ]);
+});
+
 it("drops Whisper segments that begin after the audio ends", () => {
   expect(normalizeWhisperResult({ segments: [
     { startMs: 0, endMs: 100, text: "本編" },

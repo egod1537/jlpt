@@ -51,7 +51,7 @@ export class ResponsesGptListeningAdapter implements GptListeningAdapter {
       if (error instanceof OpenAiAuthError) throw new OpenAiListeningFailure("OPENAI_REAUTH_REQUIRED", error.message, false, true, error.status);
       throw error;
     }
-    const timeoutMs = Math.min(600_000, Math.max(10_000, Number(process.env.JLPT_OPENAI_TIMEOUT_MS || 180_000)));
+    const timeoutMs = Math.min(600_000, Math.max(10_000, Number(process.env.JLPT_OPENAI_TIMEOUT_MS || 600_000)));
     const timeout = AbortSignal.timeout(timeoutMs);
     const combinedSignal = signal ? AbortSignal.any([signal, timeout]) : timeout;
     let response: Response;
@@ -81,7 +81,14 @@ export class ResponsesGptListeningAdapter implements GptListeningAdapter {
       throw new OpenAiListeningFailure(waitingAuth ? "OPENAI_REAUTH_REQUIRED" : `OPENAI_HTTP_${response.status}`, requestId ? `OpenAI 요청에 실패했습니다. (${requestId})` : "OpenAI 요청에 실패했습니다.", retryable, waitingAuth, response.status);
     }
     if (!response.body) throw new OpenAiListeningFailure("OPENAI_EMPTY_STREAM", "OpenAI 응답 스트림이 비어 있습니다.", true);
-    const outputText = await readResponsesSse(response.body);
+    let outputText: string;
+    try {
+      outputText = await readResponsesSse(response.body);
+    } catch (error) {
+      if (combinedSignal.aborted) throw new OpenAiListeningFailure("OPENAI_TIMEOUT", "OpenAI 응답 시간이 초과되었습니다.", true);
+      if (error instanceof OpenAiListeningFailure) throw error;
+      throw new OpenAiListeningFailure("OPENAI_STREAM_FAILED", "OpenAI 응답 스트림 연결이 중단되었습니다.", true);
+    }
     let rawPayload: unknown;
     try { rawPayload = JSON.parse(outputText); }
     catch { throw new OpenAiListeningFailure("OPENAI_INVALID_JSON", "OpenAI가 올바른 JSON을 반환하지 않았습니다.", true); }

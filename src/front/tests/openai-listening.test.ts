@@ -50,4 +50,10 @@ describe("OpenAI listening correction", () => {
     const adapter = new ResponsesGptListeningAdapter("gpt-test", vi.fn<typeof fetch>().mockResolvedValue(new Response("secret upstream body", { status: 429 })), async () => "oauth-token");
     await expect(adapter.process(source)).rejects.toMatchObject({ code: "OPENAI_HTTP_429", retryable: true, waitingAuth: false });
   });
+
+  it("classifies a stream abort after response headers as a retryable timeout", async () => {
+    const abortedStream = new ReadableStream<Uint8Array>({ start(controller) { controller.error(new DOMException("aborted", "AbortError")); } });
+    const adapter = new ResponsesGptListeningAdapter("gpt-test", vi.fn<typeof fetch>().mockResolvedValue(new Response(abortedStream, { status: 200 })), async () => "oauth-token");
+    await expect(adapter.process(source, AbortSignal.abort())).rejects.toMatchObject({ code: "OPENAI_TIMEOUT", retryable: true });
+  });
 });
