@@ -62,7 +62,7 @@ if docker inspect jlpt-vocabulary-web >/dev/null 2>&1; then
   fi
 fi
 
-JLPT_GIT_REVISION="$deployment_revision" JLPT_IMAGE_TAG="$deployment_revision" docker compose up -d --build
+JLPT_GIT_BRANCH="$deployment_branch" JLPT_GIT_REVISION="$deployment_revision" JLPT_IMAGE_TAG="$deployment_revision" docker compose up -d --build
 
 deployment_attempt=0
 while [ "$deployment_attempt" -lt 30 ]; do

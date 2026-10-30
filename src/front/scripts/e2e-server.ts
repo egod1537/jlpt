@@ -24,6 +24,8 @@ const environment: NodeJS.ProcessEnv = {
   JLPT_APP_ORIGIN: `http://127.0.0.1:${port}`,
   JLPT_EXTERNAL_API_KEY: "e2e-external-api-key",
   JLPT_ACCESS_TOKEN: "e2e-host-access-secret",
+  JLPT_GIT_BRANCH: "e2e-main",
+  JLPT_GIT_REVISION: "0123456789abcdef0123456789abcdef01234567",
   WHISPER_BASE_URL: `http://127.0.0.1:${whisperPort}`,
   WHISPER_ALLOWED_HOSTS: `127.0.0.1:${whisperPort}`,
   WHISPER_TIMEOUT_MS: "10000",

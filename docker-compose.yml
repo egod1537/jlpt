@@ -9,6 +9,7 @@ services:
       dockerfile: src/front/Dockerfile
       args:
         VCS_REF: "${JLPT_GIT_REVISION:-unknown}"
+        VCS_BRANCH: "${JLPT_GIT_BRANCH:-unknown}"
     ports:
       - "127.0.0.1:${JLPT_WEB_PORT:-8081}:3000"
     env_file:
@@ -26,7 +27,6 @@ services:
       JLPT_APP_ORIGIN: ${JLPT_APP_ORIGIN:-https://jlpt.mangagaki.net}
       JLPT_ACCESS_TOKEN: ${JLPT_ACCESS_TOKEN:-}
       JLPT_EXTERNAL_API_KEY: ${JLPT_EXTERNAL_API_KEY:-}
-      JLPT_GIT_REVISION: ${JLPT_GIT_REVISION:-unknown}
     volumes:
       - ${JLPT_DATA_DIR:-./var}:/app/var
       - ${JLPT_BACKUP_HOST_DIR:-./backups}:/app/backup
@@ -37,7 +37,7 @@ services:
           - jlpt-vocabulary-web
     restart: unless-stopped
     labels:
-      net.mangagaki.deployment.branch: main
+      net.mangagaki.deployment.branch: "${JLPT_GIT_BRANCH:-unknown}"
       org.opencontainers.image.revision: "${JLPT_GIT_REVISION:-unknown}"
     read_only: true
     mem_limit: ${JLPT_WEB_MEMORY_LIMIT:-1g}
@@ -64,7 +64,6 @@ services:
       JLPT_AUDIO_TMP_DIR: /app/var/listening/tmp
       JLPT_LISTENING_WORKER_CONCURRENCY: ${JLPT_LISTENING_WORKER_CONCURRENCY:-1}
       JLPT_WORKER_HEARTBEAT_PATH: /app/var/listening/worker-heartbeat
-      JLPT_GIT_REVISION: ${JLPT_GIT_REVISION:-unknown}
     volumes:
       - ${JLPT_DATA_DIR:-./var}:/app/var
     networks:

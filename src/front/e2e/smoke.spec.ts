@@ -36,6 +36,9 @@ test("settings exposes the local ChatGPT OAuth connection", async ({ page, reque
   await page.goto("/settings");
   await expect(page.getByRole("heading", { name: "Responses API OAuth" })).toBeVisible();
   await expect(page.getByRole("link", { name: "Continue with ChatGPT" })).toHaveAttribute("href", "/api/openai/oauth/start");
+  const deployment = page.getByRole("region", { name: "배포 정보" });
+  await expect(deployment).toContainText("e2e-main");
+  await expect(deployment).toContainText("0123456789abcdef0123456789abcdef01234567");
   await expect.poll(async () => (await request.get("/api/openai/status")).json()).toMatchObject({ connected: false, canUseResponses: false });
 });
 

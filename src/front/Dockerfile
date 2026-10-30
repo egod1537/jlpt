@@ -31,8 +31,10 @@ RUN apt-get update \
   && rm -rf /var/lib/apt/lists/*
 
 ARG VCS_REF=unknown
+ARG VCS_BRANCH=unknown
 LABEL org.opencontainers.image.revision="${VCS_REF}" \
-  org.opencontainers.image.source="https://github.com/egod1537/jlpt"
+  org.opencontainers.image.source="https://github.com/egod1537/jlpt" \
+  net.mangagaki.deployment.branch="${VCS_BRANCH}"
 
 ENV NODE_ENV=production \
   NEXT_TELEMETRY_DISABLED=1 \
@@ -43,7 +45,9 @@ ENV NODE_ENV=production \
   JLPT_MIGRATIONS_DIR=/app/migrations \
   JLPT_BACKUP_DIR=/app/backup \
   JLPT_AUDIO_DIR=/app/var/listening/audio \
-  JLPT_AUDIO_TMP_DIR=/app/var/listening/tmp
+  JLPT_AUDIO_TMP_DIR=/app/var/listening/tmp \
+  JLPT_GIT_BRANCH=${VCS_BRANCH} \
+  JLPT_GIT_REVISION=${VCS_REF}
 
 WORKDIR /app
 COPY --chown=node:node --from=builder /workspace/src/front/.next/standalone/ ./
