@@ -44,6 +44,11 @@ test("listening player remains usable and fixed across the viewport matrix", asy
   await expect(page.getByText(longJa)).toBeVisible();
   await expect(page.getByText(longKo)).toHaveCount(0);
 
+  const downloadPromise = page.waitForEvent("download");
+  await page.getByRole("link", { name: "스크립트 다운로드" }).click();
+  const download = await downloadPromise;
+  expect(download.suggestedFilename()).toBe(`player-${suffix}.txt`);
+
   await page.getByRole("button", { name: "한" }).click();
   await expect(page.getByText(longJa)).toBeVisible(); await expect(page.getByText(longKo)).toBeVisible();
   await page.getByRole("button", { name: "日" }).click();

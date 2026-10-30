@@ -217,9 +217,20 @@ export function ListeningPlayerPage({ audioId }: { audioId: string }) {
       {loading ? <StateMessage icon={<LoaderCircle className="h-7 w-7 animate-spin" />} text="음원과 스크립트를 불러오는 중입니다." /> : null}
       {error ? <StateMessage text={error}><Button onClick={() => void load()}>다시 시도</Button></StateMessage> : null}
       {!loading && !error && !script ? <StateMessage icon={<Languages className="h-8 w-8" />} text={audio?.status === "failed" ? "스크립트 처리에 실패했습니다. 음원은 바로 재생할 수 있습니다." : "스크립트를 준비하고 있습니다. 음원은 먼저 재생할 수 있습니다."}><Button disabled={actionBusy} onClick={() => void retry()}>{actionBusy ? <LoaderCircle className="h-4 w-4 animate-spin" /> : <RotateCcw className="h-4 w-4" />}{audio?.status === "failed" ? "다시 처리" : "처리 요청"}</Button></StateMessage> : null}
-      {script ? <div role="list" aria-label="청해 스크립트" className="space-y-1 pb-3">
-        {segments.map((segment, index) => <SegmentRow key={segment.id} segment={segment} index={index} active={index === activeIndex} showJa={showJa} showKo={showKo} onSelect={selectSegment} />)}
-      </div> : null}
+      {script ? <>
+        <div className="mb-3 flex min-h-11 items-center justify-between gap-3">
+          <p className="text-xs font-bold text-app-muted">{segments.length.toLocaleString("ko-KR")}개 문장</p>
+          <Button asChild variant="outline" size="sm">
+            <a href={`/api/listening/audio/${encodeURIComponent(audioId)}/script/export?format=txt`} download>
+              <Download aria-hidden="true" className="h-4 w-4" />
+              스크립트 다운로드
+            </a>
+          </Button>
+        </div>
+        <div role="list" aria-label="청해 스크립트" className="space-y-1 pb-3">
+          {segments.map((segment, index) => <SegmentRow key={segment.id} segment={segment} index={index} active={index === activeIndex} showJa={showJa} showKo={showKo} onSelect={selectSegment} />)}
+        </div>
+      </> : null}
     </div>
 
     {!autoFollow && script ? <button type="button" onClick={() => setAutoFollow(true)} className="absolute bottom-36 left-1/2 min-h-11 -translate-x-1/2 rounded-full border border-app-border bg-app-raised px-4 text-xs font-bold shadow-lg">현재 문장 따라가기</button> : null}
@@ -241,7 +252,6 @@ export function ListeningPlayerPage({ audioId }: { audioId: string }) {
           <button type="button" disabled={rangeStartMs === null || positionMs <= rangeStartMs} className="min-h-11 px-2 disabled:opacity-30" onClick={() => { if (rangeStartMs !== null && positionMs > rangeStartMs) { setRepeat(false); setCustomRange({ startMs: rangeStartMs, endMs: positionMs }); } }} aria-label="B 구간 끝 설정">B</button>
           <button type="button" onClick={() => moveSegment(1)} aria-label="다음 문장" className="min-h-11 min-w-11 rounded-xl px-2 hover:bg-app-raised"><ChevronRight aria-hidden="true" className="mx-auto h-5 w-5" /></button>
           {customRange ? <button type="button" className="min-h-11 px-2 text-app-accent" onClick={() => { setCustomRange(null); setRangeStartMs(null); }}>A–B {formatClock(customRange.startMs)}–{formatClock(customRange.endMs)}</button> : null}
-          {script ? <><Download aria-hidden="true" className="ml-1 h-3 w-3" />{(["json", "txt", "srt"] as const).map((format) => <a key={format} className="min-h-11 px-2 py-3 uppercase hover:text-app-text" href={`/api/listening/audio/${encodeURIComponent(audioId)}/script/export?format=${format}`}>{format}</a>)}</> : null}
         </div>
       </div>
     </footer>
