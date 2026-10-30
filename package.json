@@ -22,6 +22,7 @@
     "db:seed": "npm run db:seed --workspace src/front",
     "db:backup": "npm run db:backup --workspace src/front",
     "db:restore": "npm run db:restore --workspace src/front --",
+    "import:siwon-n1": "npm run import:siwon-n1 --workspace src/front",
     "listening:fsck": "npm run listening:fsck --workspace src/front --",
     "lint": "npm run lint --workspace src/front",
     "typecheck": "npm run typecheck --workspace src/front",

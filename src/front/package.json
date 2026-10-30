@@ -13,6 +13,7 @@
     "db:seed": "tsx ../back/scripts/seed.ts",
     "db:backup": "node ../back/scripts/backup.mjs",
     "db:restore": "node ../back/scripts/restore.mjs",
+    "import:siwon-n1": "node --conditions=react-server --import tsx ../back/scripts/import-siwon-n1.ts",
     "listening:fsck": "node ../back/scripts/listening-fsck.mjs",
     "worker:listening": "node --conditions=react-server --import tsx ../back/scripts/listening-worker.ts",
     "lint": "eslint .",
