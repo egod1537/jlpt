@@ -13,9 +13,11 @@ export async function PATCH(request: NextRequest, context: RouteContext<"/api/li
   if (!auth.ok) return auth.response;
   try {
     const { audioId } = await context.params;
-    const input = await readLimitedJson(request) as { revision?: number; favorite?: boolean; lastPlayedAt?: string | null };
+    const input = await readLimitedJson(request) as { revision?: number; originalName?: string; setId?: string; favorite?: boolean; lastPlayedAt?: string | null };
     const audio = updateListeningAudio(getDatabase(), audioId, {
       revision: Number(input.revision),
+      originalName: typeof input.originalName === "string" ? input.originalName : undefined,
+      setId: typeof input.setId === "string" ? input.setId : undefined,
       favorite: typeof input.favorite === "boolean" ? input.favorite : undefined,
       lastPlayedAt: input.lastPlayedAt === null || typeof input.lastPlayedAt === "string" ? input.lastPlayedAt : undefined,
     });

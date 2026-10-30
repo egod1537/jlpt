@@ -12,7 +12,7 @@ import {
 import type { ListeningSegment } from "@back/lib/listening/types";
 
 export type ScriptEditOperation =
-  | { type: "update"; segmentId: string; ja?: string; ko?: string | null; speaker?: string | null; needsReview?: boolean; reviewNote?: string | null }
+  | { type: "update"; segmentId: string; startMs?: number; endMs?: number; ja?: string; ko?: string | null; speaker?: string | null; needsReview?: boolean; reviewNote?: string | null }
   | { type: "split"; segmentId: string; atMs: number; ja: [string, string]; ko?: [string | null, string | null] }
   | { type: "merge"; segmentIds: string[]; ja?: string; ko?: string | null };
 
@@ -29,6 +29,7 @@ export function editListeningScript(db: AppDatabase, audioId: string, input: { r
     else if (operation.type === "merge") segments = applyMerge(segments, operation);
     else throw new ListeningFailure(400, "VALIDATION", "지원하지 않는 편집 작업입니다.");
   }
+  validateEditedSegments(segments, audio.durationMs);
   const version = createTranscriptVersion(db, {
     audioId,
     kind: "manual_edit",
@@ -80,6 +81,8 @@ function applyUpdate(segments: ListeningSegment[], operation: Extract<ScriptEdit
   const current = segments[index];
   const next = {
     ...current,
+    startMs: operation.startMs === undefined ? current.startMs : operation.startMs,
+    endMs: operation.endMs === undefined ? current.endMs : operation.endMs,
     ja: operation.ja === undefined ? current.ja : validText(operation.ja, "일본어 문장"),
     ko: operation.ko === undefined ? current.ko : operation.ko === null ? null : validText(operation.ko, "한국어 문장", true),
     speaker: operation.speaker === undefined ? current.speaker : validSpeaker(operation.speaker),
@@ -87,6 +90,17 @@ function applyUpdate(segments: ListeningSegment[], operation: Extract<ScriptEdit
     reviewNote: operation.reviewNote === undefined ? current.reviewNote : operation.reviewNote === null ? null : validText(operation.reviewNote, "검토 메모", true, 500),
   };
   return segments.with(index, next);
+}
+
+function validateEditedSegments(segments: ListeningSegment[], durationMs: number | null) {
+  let previousStart = -1;
+  for (const segment of segments) {
+    if (!Number.isInteger(segment.startMs) || !Number.isInteger(segment.endMs) || segment.startMs < 0 || segment.endMs <= segment.startMs || segment.startMs < previousStart) {
+      throw new ListeningFailure(400, "VALIDATION", "문장 시간 범위를 확인해 주세요.");
+    }
+    if (durationMs !== null && segment.endMs > durationMs + 1_500) throw new ListeningFailure(400, "VALIDATION", "문장 시간이 음원 길이를 벗어났습니다.");
+    previousStart = segment.startMs;
+  }
 }
 
 function applySplit(segments: ListeningSegment[], operation: Extract<ScriptEditOperation, { type: "split" }>) {

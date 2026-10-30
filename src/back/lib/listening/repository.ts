@@ -109,9 +109,9 @@ export function listListeningLibrary(db: AppDatabase, options: {
   const like = `%${q.replaceAll("%", "\\%").replaceAll("_", "\\_")}%`;
   const folders = db.prepare(`
     SELECT * FROM listening_folders
-    WHERE deleted_at IS NULL AND (?='' OR name LIKE ? ESCAPE '\\')
-    ORDER BY sort_index, name, id LIMIT ? OFFSET ?
-  `).all(q, like, limit, offset).map((row) => folderFrom(row as Row));
+    WHERE deleted_at IS NULL
+    ORDER BY sort_index, name, id LIMIT 1000
+  `).all().map((row) => folderFrom(row as Row));
 
   const where = ["s.deleted_at IS NULL"];
   const params: unknown[] = [];

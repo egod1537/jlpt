@@ -2,16 +2,19 @@
 
 import Link from "next/link";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { ArrowLeft, ChevronLeft, ChevronRight, Download, Languages, LoaderCircle, Pause, Play, Repeat2, RotateCcw } from "lucide-react";
+import { ArrowLeft, ChevronLeft, ChevronRight, Download, History, Languages, LoaderCircle, Pause, Pencil, Play, Repeat2, RotateCcw } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Dialog, DialogContent, DialogDescription, DialogTitle } from "@/components/ui/dialog";
+import { Input } from "@/components/ui/input";
 
 type AudioMetadata = {
   id: string; originalName: string; durationMs: number | null; status: string; streamUrl: string; revision: number;
 };
 type Segment = {
   id: string; ordinal: number; startMs: number; endMs: number; speaker: string | null; ja: string; ko: string | null; needsReview: boolean;
+  reviewNote?: string | null; sourceSegmentIds?: string[];
 };
-type Script = { id: string; versionNo: number; kind: string; segments: Segment[] };
+type Script = { id: string; versionNo: number; kind: string; basedOnId?: string | null; createdAt?: string; segments: Segment[] };
 type Progress = { positionMs: number; playbackRate: number; completed: boolean; revision: number };
 
 const processingStatuses = new Set(["uploaded", "queued", "transcribing", "transcribed", "correcting"]);
@@ -32,12 +35,17 @@ export function ListeningPlayerPage({ audioId }: { audioId: string }) {
   const [durationMs, setDurationMs] = useState(0);
   const [rate, setRate] = useState(1);
   const [repeat, setRepeat] = useState(false);
+  const [customRange, setCustomRange] = useState<{ startMs: number; endMs: number } | null>(null);
+  const [rangeStartMs, setRangeStartMs] = useState<number | null>(null);
   const [showJa, setShowJa] = useState(true);
   const [showKo, setShowKo] = useState(false);
   const [autoFollow, setAutoFollow] = useState(true);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [actionBusy, setActionBusy] = useState(false);
+  const [editorOpen, setEditorOpen] = useState(false);
+  const [versions, setVersions] = useState<Script[]>([]);
+  const [versionsLoading, setVersionsLoading] = useState(false);
 
   useEffect(() => {
     const timer = window.setTimeout(() => { const settings = readLanguageSettings(); languageLoadedRef.current = true; setShowJa(settings.ja); setShowKo(settings.ko); }, 0);
@@ -78,6 +86,15 @@ export function ListeningPlayerPage({ audioId }: { audioId: string }) {
     const timer = window.setInterval(() => void load(true), 2_500);
     return () => window.clearInterval(timer);
   }, [audio, load]);
+
+  const loadVersions = useCallback(async () => {
+    setVersionsLoading(true);
+    try {
+      const response = await fetch(`/api/listening/audio/${encodeURIComponent(audioId)}/script/versions`, { cache: "no-store" });
+      if (!response.ok) throw new Error(await responseMessage(response));
+      setVersions((await response.json() as { versions: Script[] }).versions);
+    } finally { setVersionsLoading(false); }
+  }, [audioId]);
 
   const saveProgress = useCallback(async (force = false) => {
     const element = audioRef.current;
@@ -133,6 +150,19 @@ export function ListeningPlayerPage({ audioId }: { audioId: string }) {
     if (audioRef.current) audioRef.current.playbackRate = next;
     void saveProgress(true);
   };
+  useEffect(() => {
+    const onKeyDown = (event: KeyboardEvent) => {
+      const target = event.target as HTMLElement | null;
+      if (target?.matches("input,textarea,select,[contenteditable='true']")) return;
+      if (event.code === "Space") { event.preventDefault(); void togglePlayback(); }
+      else if (event.key === "ArrowLeft") { event.preventDefault(); moveSegment(-1); }
+      else if (event.key === "ArrowRight") { event.preventDefault(); moveSegment(1); }
+      else if (event.key.toLowerCase() === "j") setShowJa((value) => !value);
+      else if (event.key.toLowerCase() === "k") setShowKo((value) => !value);
+    };
+    window.addEventListener("keydown", onKeyDown);
+    return () => window.removeEventListener("keydown", onKeyDown);
+  });
   const retry = async () => {
     if (!audio) return;
     setActionBusy(true);
@@ -150,7 +180,8 @@ export function ListeningPlayerPage({ audioId }: { audioId: string }) {
     if (!element) return;
     const currentMs = Math.round(element.currentTime * 1_000);
     setPositionMs(currentMs);
-    if (repeat && activeIndex >= 0 && currentMs >= segments[activeIndex].endMs - 40) { seek(segments[activeIndex].startMs, true); return; }
+    const repeatRange = customRange || (repeat && activeIndex >= 0 ? { startMs: segments[activeIndex].startMs, endMs: segments[activeIndex].endMs } : null);
+    if (repeatRange && currentMs >= repeatRange.endMs - 40) { seek(repeatRange.startMs, true); return; }
     const index = findActiveSegment(segments, currentMs);
     setActiveIndex(index);
     void saveProgress();
@@ -161,6 +192,7 @@ export function ListeningPlayerPage({ audioId }: { audioId: string }) {
       <div className="mx-auto flex h-14 max-w-3xl items-center gap-2 px-2">
         <Link href="/listening" aria-label="청해 목록으로" className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-xl text-app-muted hover:bg-app-raised"><ArrowLeft aria-hidden="true" className="h-5 w-5" /></Link>
         <div className="min-w-0 flex-1"><h1 className="truncate text-sm font-bold">{audio?.originalName || "청해"}</h1><p className="text-[11px] text-app-muted">{audio ? statusText(audio.status, Boolean(script)) : "불러오는 중"}</p></div>
+        <button type="button" disabled={!script} onClick={() => { setEditorOpen(true); void loadVersions(); }} aria-label="스크립트 편집과 버전" className="min-h-11 min-w-11 rounded-xl text-app-muted disabled:opacity-30"><Pencil aria-hidden="true" className="mx-auto h-4 w-4" /></button>
         <button type="button" aria-pressed={showJa} onClick={() => setShowJa((value) => !value)} className={`min-h-11 rounded-xl px-3 text-xs font-black ${showJa ? "bg-app-accent-surface text-white" : "text-app-muted"}`}>日</button>
         <button type="button" aria-pressed={showKo} onClick={() => setShowKo((value) => !value)} className={`min-h-11 rounded-xl px-3 text-xs font-black ${showKo ? "bg-app-accent-surface text-white" : "text-app-muted"}`}>한</button>
       </div>
@@ -171,7 +203,7 @@ export function ListeningPlayerPage({ audioId }: { audioId: string }) {
       {error ? <StateMessage text={error}><Button onClick={() => void load()}>다시 시도</Button></StateMessage> : null}
       {!loading && !error && !script ? <StateMessage icon={<Languages className="h-8 w-8" />} text={audio?.status === "failed" ? "스크립트 처리에 실패했습니다. 음원은 바로 재생할 수 있습니다." : "스크립트를 준비하고 있습니다. 음원은 먼저 재생할 수 있습니다."}><Button disabled={actionBusy} onClick={() => void retry()}>{actionBusy ? <LoaderCircle className="h-4 w-4 animate-spin" /> : <RotateCcw className="h-4 w-4" />}{audio?.status === "failed" ? "다시 처리" : "처리 요청"}</Button></StateMessage> : null}
       {script ? <div role="list" aria-label="청해 스크립트" className="space-y-1 pb-3">
-        {segments.map((segment, index) => <button id={`listening-segment-${index}`} role="listitem" key={segment.id} type="button" onClick={() => { setAutoFollow(true); seek(segment.startMs, true); }} className={`block min-h-14 w-full rounded-xl border px-4 py-3 text-left [content-visibility:auto] [contain-intrinsic-size:auto_80px] ${index === activeIndex ? "border-app-accent bg-app-accent-surface/35" : "border-transparent hover:bg-app-surface"}`}>
+        {segments.map((segment, index) => <button id={`listening-segment-${index}`} role="listitem" key={segment.id} type="button" onClick={() => { setAutoFollow(true); seek(segment.startMs, playing); }} className={`block min-h-14 w-full rounded-xl border px-4 py-3 text-left [content-visibility:auto] [contain-intrinsic-size:auto_80px] ${index === activeIndex ? "border-app-accent bg-app-accent-surface/35" : "border-transparent hover:bg-app-surface"}`}>
           <span className="mb-1 flex items-center gap-2 text-[10px] font-bold text-app-muted"><span>{formatClock(segment.startMs)}</span>{segment.speaker ? <span>{segment.speaker}</span> : null}{segment.needsReview ? <span className="text-app-warning">검토 필요</span> : null}</span>
           {showJa ? <span className="jp block text-base leading-7">{segment.ja || "…"}</span> : null}
           {showKo ? <span className={`block leading-6 text-app-muted ${showJa ? "mt-1 text-sm" : "text-base"}`}>{segment.ko || "번역 대기 중"}</span> : null}
@@ -183,7 +215,7 @@ export function ListeningPlayerPage({ audioId }: { audioId: string }) {
     {!autoFollow && script ? <button type="button" onClick={() => setAutoFollow(true)} className="absolute bottom-36 left-1/2 min-h-11 -translate-x-1/2 rounded-full border border-app-border bg-app-raised px-4 text-xs font-bold shadow-lg">현재 문장 따라가기</button> : null}
     <footer className="shrink-0 border-t border-app-border bg-app-surface pb-[env(safe-area-inset-bottom)]">
       <div className="mx-auto max-w-3xl px-3 pb-2 pt-3">
-        <audio ref={audioRef} src={audio?.streamUrl} preload="metadata" onLoadedMetadata={(event) => { const element = event.currentTarget; const restored = Math.min(initialSeekRef.current || 0, Math.max(0, element.duration * 1_000 - 500)); element.currentTime = restored / 1_000; element.playbackRate = rate; setPositionMs(restored); setDurationMs(Math.round(element.duration * 1_000)); }} onDurationChange={(event) => setDurationMs(Math.round(event.currentTarget.duration * 1_000) || audio?.durationMs || 0)} onTimeUpdate={onTimeUpdate} onPlay={() => setPlaying(true)} onPause={() => { setPlaying(false); void saveProgress(true); }} onEnded={() => { setPlaying(false); void saveProgress(true); }} />
+        <audio ref={audioRef} src={audio?.streamUrl} preload="metadata" onLoadedMetadata={(event) => { const element = event.currentTarget; const restored = Math.min(initialSeekRef.current || 0, Math.max(0, element.duration * 1_000 - 500)); element.currentTime = restored / 1_000; element.playbackRate = rate; setPositionMs(restored); setDurationMs(Math.round(element.duration * 1_000)); }} onDurationChange={(event) => setDurationMs(Math.round(event.currentTarget.duration * 1_000) || audio?.durationMs || 0)} onTimeUpdate={onTimeUpdate} onPlay={() => setPlaying(true)} onPause={() => { setPlaying(false); void saveProgress(true); }} onEnded={() => { if (customRange) { seek(customRange.startMs, true); return; } setPlaying(false); void saveProgress(true); }} />
         <label className="sr-only" htmlFor="listening-position">재생 위치</label><input id="listening-position" type="range" min={0} max={Math.max(durationMs, 1)} step={100} value={Math.min(positionMs, Math.max(durationMs, 1))} onChange={(event) => seek(Number(event.target.value))} className="h-6 w-full accent-[var(--accent)]" />
         <div className="-mt-1 flex justify-between text-[10px] tabular-nums text-app-muted"><span>{formatClock(positionMs)}</span><span>{formatClock(durationMs)}</span></div>
         <div className="mt-1 grid grid-cols-5 items-center gap-1">
@@ -191,12 +223,96 @@ export function ListeningPlayerPage({ audioId }: { audioId: string }) {
           <button type="button" onClick={() => moveSegment(-1)} aria-label="이전 문장" className="min-h-12 rounded-xl text-app-muted hover:bg-app-raised"><ChevronLeft aria-hidden="true" className="mx-auto h-6 w-6" /></button>
           <button type="button" onClick={() => void togglePlayback()} aria-label={playing ? "일시 정지" : "재생"} className="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-app-accent-surface text-white">{playing ? <Pause aria-hidden="true" className="h-6 w-6 fill-current" /> : <Play aria-hidden="true" className="ml-0.5 h-6 w-6 fill-current" />}</button>
           <button type="button" onClick={() => moveSegment(1)} aria-label="다음 문장" className="min-h-12 rounded-xl text-app-muted hover:bg-app-raised"><ChevronRight aria-hidden="true" className="mx-auto h-6 w-6" /></button>
-          <button type="button" aria-pressed={repeat} onClick={() => setRepeat((value) => !value)} aria-label="현재 문장 반복" className={`min-h-12 rounded-xl ${repeat ? "text-app-accent" : "text-app-muted"}`}><Repeat2 aria-hidden="true" className="mx-auto h-5 w-5" /></button>
+          <button type="button" aria-pressed={repeat} onClick={() => { setCustomRange(null); setRangeStartMs(null); setRepeat((value) => !value); }} aria-label="현재 문장 반복" className={`min-h-12 rounded-xl ${repeat ? "text-app-accent" : "text-app-muted"}`}><Repeat2 aria-hidden="true" className="mx-auto h-5 w-5" /></button>
         </div>
-        {script ? <div className="mt-1 flex items-center justify-center gap-1 text-[11px] text-app-muted"><Download aria-hidden="true" className="h-3 w-3" />{(["json", "txt", "srt"] as const).map((format) => <a key={format} className="min-h-11 px-2 py-3 uppercase hover:text-app-text" href={`/api/listening/audio/${encodeURIComponent(audioId)}/script/export?format=${format}`}>{format}</a>)}</div> : null}
+        <div className="mt-1 flex min-h-11 items-center justify-center gap-1 text-[11px] text-app-muted">
+          <button type="button" className="min-h-11 px-2" onClick={() => { setRepeat(false); setCustomRange(null); setRangeStartMs(positionMs); }} aria-label="A 구간 시작 설정">A</button>
+          <button type="button" disabled={rangeStartMs === null || positionMs <= rangeStartMs} className="min-h-11 px-2 disabled:opacity-30" onClick={() => { if (rangeStartMs !== null && positionMs > rangeStartMs) { setRepeat(false); setCustomRange({ startMs: rangeStartMs, endMs: positionMs }); } }} aria-label="B 구간 끝 설정">B</button>
+          {customRange ? <button type="button" className="min-h-11 px-2 text-app-accent" onClick={() => { setCustomRange(null); setRangeStartMs(null); }}>A–B {formatClock(customRange.startMs)}–{formatClock(customRange.endMs)}</button> : null}
+          {script ? <><Download aria-hidden="true" className="ml-1 h-3 w-3" />{(["json", "txt", "srt"] as const).map((format) => <a key={format} className="min-h-11 px-2 py-3 uppercase hover:text-app-text" href={`/api/listening/audio/${encodeURIComponent(audioId)}/script/export?format=${format}`}>{format}</a>)}</> : null}
+        </div>
       </div>
     </footer>
+    {audio && script ? <ScriptEditorDialog key={script.id} open={editorOpen} onOpenChange={setEditorOpen} audio={audio} script={script} versions={versions} loadingVersions={versionsLoading} currentPositionMs={positionMs} onChanged={async () => { await load(true); await loadVersions(); }} /> : null}
   </div>;
+}
+
+function ScriptEditorDialog({ open, onOpenChange, audio, script, versions, loadingVersions, currentPositionMs, onChanged }: {
+  open: boolean; onOpenChange: (value: boolean) => void; audio: AudioMetadata; script: Script; versions: Script[];
+  loadingVersions: boolean; currentPositionMs: number; onChanged: () => Promise<void>;
+}) {
+  const [selectedIndex, setSelectedIndex] = useState(0);
+  const [draft, setDraft] = useState(() => draftFor(script.segments[0]));
+  const [busy, setBusy] = useState(false);
+  const [message, setMessage] = useState<string | null>(null);
+  const segment = script.segments[Math.min(selectedIndex, Math.max(0, script.segments.length - 1))];
+
+  const apply = async (operations: unknown[]) => {
+    setBusy(true); setMessage(null);
+    try {
+      const response = await fetch(`/api/listening/audio/${encodeURIComponent(audio.id)}/script`, {
+        method: "PATCH", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ revision: audio.revision, operations }),
+      });
+      if (!response.ok) throw new Error(await responseMessage(response));
+      setMessage("새 수동 편집 버전으로 저장했습니다.");
+      await onChanged();
+    } catch (reason) { setMessage(reason instanceof Error ? reason.message : "스크립트를 저장하지 못했습니다."); }
+    finally { setBusy(false); }
+  };
+
+  const save = async () => {
+    if (!segment) return;
+    await apply([{ type: "update", segmentId: segment.id, startMs: Math.round(Number(draft.start) * 1_000), endMs: Math.round(Number(draft.end) * 1_000), speaker: draft.speaker || null, ja: draft.ja, ko: draft.ko || null, needsReview: draft.needsReview }]);
+  };
+  const split = async () => {
+    if (!segment) return;
+    if (draft.ja.trim().length < 2 || (draft.ko.trim() && draft.ko.trim().length < 2)) { setMessage("분할하려면 각 문장을 두 부분으로 나눌 수 있어야 합니다."); return; }
+    const atMs = currentPositionMs > segment.startMs && currentPositionMs < segment.endMs ? currentPositionMs : Math.round((segment.startMs + segment.endMs) / 2);
+    const ja = splitText(draft.ja); const ko = draft.ko ? splitText(draft.ko) : [null, null] as [null, null];
+    await apply([{ type: "split", segmentId: segment.id, atMs, ja, ko }]);
+  };
+  const mergeNext = async () => {
+    const next = script.segments[selectedIndex + 1];
+    if (!segment || !next) return;
+    await apply([{ type: "merge", segmentIds: [segment.id, next.id] }]);
+  };
+  const activate = async (versionId: string) => {
+    setBusy(true); setMessage(null);
+    try {
+      const response = await fetch(`/api/listening/audio/${encodeURIComponent(audio.id)}/script/versions/${encodeURIComponent(versionId)}/activate`, {
+        method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ revision: audio.revision }),
+      });
+      if (!response.ok) throw new Error(await responseMessage(response));
+      setMessage("선택한 버전을 활성화했습니다.");
+      await onChanged();
+    } catch (reason) { setMessage(reason instanceof Error ? reason.message : "버전을 복원하지 못했습니다."); }
+    finally { setBusy(false); }
+  };
+  const raw = versions.find((version) => version.kind === "whisper_raw");
+  const processed = versions.find((version) => version.kind === "gpt_processed");
+
+  return <Dialog open={open} onOpenChange={onOpenChange}><DialogContent className="max-h-[92dvh] max-w-3xl overflow-y-auto">
+    <DialogTitle className="pr-12 text-xl font-black">스크립트 편집</DialogTitle>
+    <DialogDescription className="mt-1 text-sm text-app-muted">수정할 때마다 기존 버전을 보존한 새 수동 편집 버전이 생성됩니다.</DialogDescription>
+    <div className="mt-4 flex gap-2 overflow-x-auto pb-1" aria-label="편집할 문장">{script.segments.map((item, index) => <button key={item.id} type="button" onClick={() => { setSelectedIndex(index); setDraft(draftFor(item)); setMessage(null); }} aria-pressed={index === selectedIndex} className={`min-h-11 shrink-0 rounded-lg px-3 text-xs font-bold ${index === selectedIndex ? "bg-app-accent-surface" : "bg-app-raised text-app-muted"}`}>{index + 1} · {formatClock(item.startMs)}</button>)}</div>
+    {segment ? <div className="mt-4 space-y-3 rounded-xl border border-app-border p-3">
+      <div className="grid grid-cols-2 gap-3"><label className="text-xs font-bold">시작(초)<Input type="number" min="0" step="0.001" className="mt-1" value={draft.start} onChange={(event) => setDraft({ ...draft, start: event.target.value })} /></label><label className="text-xs font-bold">끝(초)<Input type="number" min="0" step="0.001" className="mt-1" value={draft.end} onChange={(event) => setDraft({ ...draft, end: event.target.value })} /></label></div>
+      <label className="block text-xs font-bold">화자<Input className="mt-1" maxLength={50} value={draft.speaker} onChange={(event) => setDraft({ ...draft, speaker: event.target.value })} /></label>
+      <label className="block text-xs font-bold">일본어<textarea className="mt-1 min-h-24 w-full rounded-xl border border-app-border bg-app-bg p-3 text-base leading-7" value={draft.ja} onChange={(event) => setDraft({ ...draft, ja: event.target.value })} /></label>
+      <label className="block text-xs font-bold">한국어<textarea className="mt-1 min-h-20 w-full rounded-xl border border-app-border bg-app-bg p-3 text-sm leading-6" value={draft.ko} onChange={(event) => setDraft({ ...draft, ko: event.target.value })} placeholder="번역이 없으면 비워 둡니다." /></label>
+      <label className="flex min-h-11 items-center gap-2 text-sm"><input type="checkbox" checked={draft.needsReview} onChange={(event) => setDraft({ ...draft, needsReview: event.target.checked })} />검토 필요</label>
+      <div className="grid grid-cols-3 gap-2"><Button disabled={busy} onClick={() => void save()}>저장</Button><Button variant="outline" disabled={busy || segment.endMs - segment.startMs < 2} onClick={() => void split()}>현재 위치 분할</Button><Button variant="outline" disabled={busy || selectedIndex >= script.segments.length - 1} onClick={() => void mergeNext()}>다음과 합치기</Button></div>
+      <p className="text-[11px] text-app-muted">분할 위치가 현재 문장 안이면 재생 위치를, 아니면 문장 중간을 사용합니다. 분할된 텍스트는 저장 후 각각 다시 편집할 수 있습니다.</p>
+    </div> : null}
+    {raw || processed ? <section className="mt-5"><h3 className="text-sm font-black">원본과 GPT 비교</h3><div className="mt-2 grid gap-2 sm:grid-cols-2"><CompareVersion label="Whisper 원본" version={raw} index={selectedIndex} /><CompareVersion label="GPT 교정·번역" version={processed} index={selectedIndex} /></div></section> : null}
+    <section className="mt-5"><h3 className="flex items-center gap-2 text-sm font-black"><History aria-hidden="true" className="h-4 w-4" />버전 기록</h3>{loadingVersions ? <p className="mt-2 text-sm text-app-muted">버전을 불러오는 중...</p> : <div className="mt-2 space-y-2">{versions.map((version) => <div key={version.id} className="flex items-center gap-3 rounded-xl bg-app-raised p-3"><div className="min-w-0 flex-1"><p className="text-sm font-bold">v{version.versionNo} · {versionKind(version.kind)}</p><p className="text-[11px] text-app-muted">{version.segments.length}문장{version.createdAt ? ` · ${new Date(version.createdAt).toLocaleString("ko-KR")}` : ""}</p></div>{version.id === script.id ? <span className="text-xs font-bold text-app-accent">사용 중</span> : <Button size="sm" variant="outline" disabled={busy} onClick={() => void activate(version.id)}>복원</Button>}</div>)}</div>}</section>
+    {message ? <p role="status" className={`mt-4 text-sm ${message.includes("못") || message.includes("확인") || message.includes("변경") ? "text-red-300" : "text-app-accent"}`}>{message}</p> : null}
+  </DialogContent></Dialog>;
+}
+
+function CompareVersion({ label, version, index }: { label: string; version?: Script; index: number }) {
+  const segment = version?.segments[index];
+  return <div className="min-h-28 rounded-xl border border-app-border p-3"><p className="text-xs font-black text-app-muted">{label}</p>{segment ? <><p className="jp mt-2 text-sm leading-6">{segment.ja}</p><p className="mt-1 text-xs leading-5 text-app-muted">{segment.ko || "번역 없음"}</p></> : <p className="mt-2 text-xs text-app-muted">대응 문장이 없습니다.</p>}</div>;
 }
 
 function StateMessage({ icon, text, children }: { icon?: React.ReactNode; text: string; children?: React.ReactNode }) {
@@ -215,5 +331,14 @@ function readLanguageSettings() {
   catch { return { ja: true, ko: false }; }
 }
 function formatClock(milliseconds: number) { if (!Number.isFinite(milliseconds)) return "0:00"; const seconds = Math.max(0, Math.floor(milliseconds / 1_000)); return `${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2, "0")}`; }
+function splitText(value: string): [string, string] {
+  const midpoint = Math.max(1, Math.min(value.length - 1, Math.round(value.length / 2)));
+  const candidates = [value.lastIndexOf("。", midpoint), value.lastIndexOf("、", midpoint), value.lastIndexOf(" ", midpoint)].filter((index) => index > 0);
+  const splitAt = candidates.length ? Math.max(...candidates) + 1 : midpoint;
+  const first = value.slice(0, splitAt).trim(); const second = value.slice(splitAt).trim();
+  return [first || value.slice(0, midpoint).trim(), second || value.slice(midpoint).trim()];
+}
+function draftFor(segment?: Segment) { return segment ? { start: String(segment.startMs / 1_000), end: String(segment.endMs / 1_000), speaker: segment.speaker || "", ja: segment.ja, ko: segment.ko || "", needsReview: segment.needsReview } : { start: "0", end: "0", speaker: "", ja: "", ko: "", needsReview: false }; }
+function versionKind(value: string) { return ({ whisper_raw: "Whisper 원본", gpt_processed: "GPT 교정", manual_edit: "수동 편집" } as Record<string, string>)[value] || value; }
 function statusText(status: string, hasScript: boolean) { if (hasScript) return "스크립트 준비됨"; return ({ uploaded: "처리 요청 전", queued: "처리 대기 중", transcribing: "음성 인식 중", transcribed: "음성 인식 완료", correcting: "교정·번역 중", failed: "처리 실패", missing: "음원 파일 없음" } as Record<string, string>)[status] || status; }
 async function responseMessage(response: Response) { const body = await response.json().catch(() => null) as { error?: { message?: string } } | null; return body?.error?.message || `요청에 실패했습니다 (${response.status}).`; }

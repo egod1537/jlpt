@@ -43,13 +43,23 @@ describe("versioned listening scripts", () => {
       { startMs: 2_000, endMs: 4_000, ja: "三つ" },
     ]);
 
-    const merged = editListeningScript(db, audio.id, {
+    const timed = editListeningScript(db, audio.id, {
       revision: split.audio.revision,
-      operations: [{ type: "merge", segmentIds: split.script.segments.slice(0, 2).map((segment) => segment.id), ja: "一つ、二つ", ko: "하나, 둘" }],
+      operations: [{ type: "update", segmentId: split.script.segments[0].id, startMs: 100, endMs: 900, speaker: "화자 1" }],
+    });
+    expect(timed.script.segments[0]).toMatchObject({ startMs: 100, endMs: 900, speaker: "화자 1" });
+    expect(() => editListeningScript(db!, audio.id, {
+      revision: timed.audio.revision,
+      operations: [{ type: "update", segmentId: timed.script.segments[2].id, endMs: 8_000 }],
+    })).toThrow(/음원 길이/);
+
+    const merged = editListeningScript(db, audio.id, {
+      revision: timed.audio.revision,
+      operations: [{ type: "merge", segmentIds: timed.script.segments.slice(0, 2).map((segment) => segment.id), ja: "一つ、二つ", ko: "하나, 둘" }],
     });
     expect(merged.script.segments).toHaveLength(2);
-    expect(merged.script.segments[0]).toMatchObject({ startMs: 0, endMs: 2_000, ja: "一つ、二つ", ko: "하나, 둘" });
-    expect(listTranscriptVersions(db, audio.id).map((version) => version.kind)).toEqual(["manual_edit", "manual_edit", "whisper_raw"]);
+    expect(merged.script.segments[0]).toMatchObject({ startMs: 100, endMs: 2_000, ja: "一つ、二つ", ko: "하나, 둘" });
+    expect(listTranscriptVersions(db, audio.id).map((version) => version.kind)).toEqual(["manual_edit", "manual_edit", "manual_edit", "whisper_raw"]);
 
     const undone = activateScriptVersion(db, audio.id, raw.id, merged.audio.revision);
     expect(undone.activated).toBe(true);
