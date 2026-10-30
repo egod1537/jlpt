@@ -18,6 +18,28 @@ async function chooseAllCards(page: Page, total?: number) {
   await page.getByRole("link", { name: total ? `전체 ${total}장 학습` : /전체 \d+장 학습/ }).click();
 }
 
+test("bottom navigation opens the listening workspace", async ({ page }) => {
+  await page.goto("/books");
+  const bottomNavigation = page.getByRole("navigation", { name: "주요 메뉴" });
+  await expect(bottomNavigation.getByRole("link", { name: "학습" })).toHaveCount(0);
+  const listeningLink = bottomNavigation.getByRole("link", { name: "청해" });
+  await expect(listeningLink).toBeVisible();
+  await listeningLink.click();
+  await expect(page).toHaveURL(/\/listening$/);
+  await expect(page.getByRole("heading", { name: "청해", exact: true })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "모든 청해" })).toBeVisible();
+  await expect(page.getByRole("button", { name: /JLPT N1 실전/ })).toHaveAttribute("aria-expanded", "true");
+  await expect(page.getByText("실전 모의고사 1회", { exact: true })).toBeVisible();
+  await expect(listeningLink).toHaveAttribute("aria-current", "page");
+});
+
+test("settings exposes the local ChatGPT OAuth connection", async ({ page, request }) => {
+  await page.goto("/settings");
+  await expect(page.getByRole("heading", { name: "Responses API OAuth" })).toBeVisible();
+  await expect(page.getByRole("link", { name: "Continue with ChatGPT" })).toHaveAttribute("href", "/api/openai/oauth/start");
+  await expect.poll(async () => (await request.get("/api/openai/status")).json()).toMatchObject({ connected: false, canUseResponses: false });
+});
+
 test("app, HTML seed and private data APIs open without login", async ({ page, request }, testInfo) => {
   if (testInfo.project.name === "desktop-1280") {
     await page.goto("/study");

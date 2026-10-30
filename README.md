@@ -54,6 +54,28 @@ npm run dev:local
 
 요청·응답 예시, 페이지네이션, 멱등 재시도와 오류 형식은 [외부 API 안내](docs/EXTERNAL_API.md)에 정리되어 있습니다. 기계 판독용 명세는 실행 서버의 `/external-api.openapi.json`에서 제공합니다.
 
+## ChatGPT OAuth와 Responses API
+
+로컬 오픈소스 실행에서는 API 키 대신 ChatGPT Plus/Pro 계정을 OAuth로 연결할 수 있습니다. `http://127.0.0.1:3100/settings`의 **Continue with ChatGPT**를 누르면 Authorization Code + PKCE 흐름을 시작합니다. 공식 오픈소스 흐름은 loopback callback만 허용하므로 `localhost`나 공개 HTTPS 주소가 아닌 `127.0.0.1`로 앱을 열어야 합니다.
+
+연결 후 사용할 수 있는 서버 API는 다음과 같습니다.
+
+- `GET /api/openai/status`: 연결 상태
+- `GET /api/openai/models`: 연결 계정에서 사용 가능한 모델
+- `POST /api/openai/responses`: Responses API SSE 스트림 프록시
+- `POST /api/openai/disconnect`: 갱신 세션 폐기 및 로컬 토큰 제거
+
+Responses 프록시는 공식 ChatGPT 요금제 사용 계약에 맞춰 `store: false`, `stream: true`를 항상 강제합니다. OAuth 토큰은 `var/openai-auth.json` 또는 `JLPT_OPENAI_AUTH_PATH`의 서버 전용 파일에만 저장되며 브라우저 저장소·SQLite·JSON 백업에는 포함되지 않습니다.
+
+```bash
+curl --no-buffer http://127.0.0.1:3100/api/openai/responses \
+  -H 'Origin: http://127.0.0.1:3100' \
+  -H 'Content-Type: application/json' \
+  -d '{"model":"<GET /api/openai/models에서 받은 slug>","input":"こんにちは"}'
+```
+
+구현 계약은 OpenAI의 [Sign in with ChatGPT 등록 안내](https://developers.openai.com/siwc/token-sharing-open-source/sign-in)와 [Models and inference](https://developers.openai.com/siwc/token-sharing-open-source/models-and-inference)를 따릅니다. 공개 웹 서비스용 Sign in with ChatGPT는 별도 파트너 등록과 발급된 OAuth client가 필요한 다른 흐름입니다.
+
 검증 명령:
 
 ```bash

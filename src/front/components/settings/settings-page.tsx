@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { SyncStatus } from "@/components/sync/sync-status";
 import { SyncConflicts } from "@/components/sync/sync-conflicts";
 import { useSync } from "@/components/sync/sync-provider";
+import { OpenAiConnection } from "@/components/settings/openai-connection";
 import { PROGRESS_KEY, SESSION_KEY } from "@/lib/progress";
 
 type Trash = { folders: Array<{ id: string; name: string; revision: number }>; books: Array<{ id: string; title: string; revision: number }>; entries: Array<{ entryId: string; term: string; revision: number }> };
@@ -37,6 +38,7 @@ export function SettingsPage() {
     retry();
   }
   return <div className="mx-auto max-w-3xl"><h1 className="text-2xl font-black">설정</h1><section className="mt-6 rounded-2xl border border-app-border bg-app-surface p-5"><h2 className="font-black">개인 모드</h2><p className="mt-2 text-sm leading-6 text-app-muted">로그인 없이 바로 사용합니다.</p></section>
+    <OpenAiConnection />
     <section className="mt-5 rounded-2xl border border-app-border bg-app-surface p-5"><div className="flex items-center justify-between"><div><h2 className="font-black">동기화</h2><div className="mt-1"><SyncStatus /></div></div><Button variant="outline" size="icon" aria-label="지금 동기화" onClick={retry}><RefreshCw className="h-4 w-4" /></Button></div></section>
     <SyncConflicts />
     <section className="mt-5 rounded-2xl border border-app-border bg-app-surface p-5"><h2 className="font-black">내 데이터 백업</h2><p className="mt-2 text-sm leading-6 text-app-muted">개인 단어와 학습 기록이 포함된 민감한 파일입니다. 안전한 위치에 보관하세요.</p><div className="mt-4 grid grid-cols-2 gap-2"><Button asChild><a href="/api/backup/export?scope=all"><Download className="h-4 w-4" />전체 백업</a></Button><Button asChild variant="outline"><a href="/api/backup/export?scope=progress"><Download className="h-4 w-4" />진도만</a></Button></div><input ref={backupInput} type="file" accept="application/json,.json" className="mt-4 block w-full text-sm file:mr-3 file:min-h-11 file:rounded-lg file:border-0 file:bg-app-raised file:px-3 file:font-bold" onChange={(event) => void backupCheck(event.target.files?.[0])} />{backupPreview ? <div className="mt-4 rounded-xl border border-app-accent bg-app-accent-surface p-4"><p className="font-bold"><ShieldCheck className="mr-2 inline h-4 w-4" />검증 완료 · {backupPreview.scope}</p><p className="mt-2 text-xs text-app-accent">병합은 동일 ID의 현재 데이터를 보존합니다. 교체는 현재 범위의 데이터를 지운 뒤 복원합니다.</p><div className="mt-3 grid grid-cols-2 gap-2"><Button onClick={() => void backupRestore("merge")}><Upload className="h-4 w-4" />백업 병합</Button><Button variant="destructive" onClick={() => void backupRestore("replace")}>교체 복원</Button></div></div> : null}</section>

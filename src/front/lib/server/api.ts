@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 
-export type ApiErrorCode = "VALIDATION" | "FORBIDDEN" | "NOT_FOUND" | "CONFLICT" | "TOO_LARGE" | "INTERNAL";
+export type ApiErrorCode = "VALIDATION" | "UNAUTHORIZED" | "FORBIDDEN" | "NOT_FOUND" | "CONFLICT" | "TOO_LARGE" | "UPSTREAM" | "INTERNAL";
 
 const noStoreHeaders = { "Cache-Control": "private, no-store, max-age=0" };
 
