@@ -9,6 +9,7 @@ import type { AppDatabase } from "@back/lib/db/database";
 import { openDatabase } from "@back/lib/db/database";
 import {
   createListeningSet,
+  createTranscriptVersion,
   enqueueListeningJob,
   getActiveTranscript,
   getListeningAudio,
@@ -18,6 +19,7 @@ import {
 import type { WhisperAdapter, WhisperProviderResult } from "@back/lib/listening/whisper";
 import { WhisperProviderFailure } from "@back/lib/listening/whisper";
 import { normalizeWhisperResult, runListeningWorkerOnce } from "@back/lib/listening/worker";
+import { OpenAiListeningFailure } from "@/lib/server/openai-listening";
 
 describe("durable listening worker", () => {
   let db: AppDatabase;
@@ -70,6 +72,23 @@ describe("durable listening worker", () => {
     ]);
     expect(db.prepare("SELECT state FROM listening_jobs WHERE audio_id=? AND type='gpt_process'").get(audioId)).toEqual({ state: "queued" });
     expect(adapter.submittedKeys).toEqual(["worker-success"]);
+
+    await runListeningWorkerOnce(db, {
+      workerId: "test-gpt-worker",
+      gptAdapter: {
+        process: async (segments) => ({
+          model: "gpt-test",
+          promptVersion: "test-v1",
+          rawPayload: { fixture: true },
+          segments: segments.map((segment) => ({
+            startMs: segment.startMs, endMs: segment.endMs, speaker: null, ja: segment.ja,
+            ko: `번역: ${segment.ja}`, needsReview: false, reviewNote: null, sourceSegmentIds: segment.sourceSegmentIds,
+          })),
+        }),
+      },
+    });
+    expect(getActiveTranscript(db, audioId).script).toMatchObject({ kind: "gpt_processed", modelName: "gpt-test", promptVersion: "test-v1" });
+    expect(getListeningAudio(db, audioId).status).toBe("ready");
   });
 
   it("rejects hallucinated timestamps while preserving the uploaded audio", async () => {
@@ -99,6 +118,25 @@ describe("durable listening worker", () => {
     await runListeningWorkerOnce(db, { adapter: recovered, workerId: "worker-b", now: () => firstAt });
     expect(getListeningJob(db, queued.id).state).toBe("completed");
     expect(recovered.submittedKeys).toEqual(["worker-retry"]);
+  });
+
+  it("keeps the raw transcript and waits for reauthentication when OAuth expires", async () => {
+    const audio = getListeningAudio(db, audioId);
+    const raw = createTranscriptVersion(db, {
+      audioId, kind: "whisper_raw", rawPayload: { fixture: true },
+      segments: [{ startMs: 0, endMs: 1_000, speaker: null, ja: "原文", ko: null, needsReview: false, reviewNote: null, sourceSegmentIds: ["whisper:0"] }],
+    });
+    const { activateTranscriptVersion } = await import("@back/lib/listening/repository");
+    activateTranscriptVersion(db, audioId, raw.id, audio.revision);
+    const queued = enqueueListeningJob(db, audioId, "gpt_process", "gpt-auth-expired").job;
+    await runListeningWorkerOnce(db, {
+      workerId: "gpt-auth-worker",
+      gptAdapter: { process: async () => { throw new OpenAiListeningFailure("OPENAI_REAUTH_REQUIRED", "다시 연결", false, true, 401); } },
+    });
+
+    expect(getListeningJob(db, queued.id)).toMatchObject({ state: "waiting_auth", errorCode: "OPENAI_REAUTH_REQUIRED" });
+    expect(getActiveTranscript(db, audioId).script?.id).toBe(raw.id);
+    expect(getListeningAudio(db, audioId).status).toBe("transcribed");
   });
 });
 
