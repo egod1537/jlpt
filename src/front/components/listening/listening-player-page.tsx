@@ -261,7 +261,7 @@ export function ListeningPlayerPage({ audioId }: { audioId: string }) {
 
 const SegmentRow = memo(function SegmentRow({ segment, index, active, showJa, showKo, onSelect }: { segment: Segment; index: number; active: boolean; showJa: boolean; showKo: boolean; onSelect: (segment: Segment) => void }) {
   return <button id={`listening-segment-${index}`} role="listitem" type="button" onClick={() => onSelect(segment)} className={`block min-h-14 w-full rounded-xl border px-4 py-3 text-left [content-visibility:auto] [contain-intrinsic-size:auto_80px] ${active ? "border-app-accent bg-app-accent-surface/35" : "border-transparent hover:bg-app-surface"}`}>
-    <span className="mb-1 flex items-center gap-2 text-[10px] font-bold text-app-muted"><span>{formatClock(segment.startMs)}</span>{segment.speaker ? <span>{segment.speaker}</span> : null}{segment.needsReview ? <span className="text-app-warning">검토 필요</span> : null}</span>
+    <span className="mb-1 flex items-center gap-2 text-[10px] font-bold text-app-muted"><span>{formatClock(segment.startMs)}</span>{segment.speaker ? <span>{segment.speaker}</span> : null}</span>
     {showJa ? <span className="jp block text-base leading-7">{segment.ja || "…"}</span> : null}
     {showKo ? <span className={`block leading-6 text-app-muted ${showJa ? "mt-1 text-sm" : "text-base"}`}>{segment.ko || "번역 대기 중"}</span> : null}
     {!showJa && !showKo ? <span className="block text-sm text-app-muted">문장 {index + 1}</span> : null}
@@ -293,7 +293,7 @@ function ScriptEditorDialog({ open, onOpenChange, audio, script, versions, loadi
 
   const save = async () => {
     if (!segment) return;
-    await apply([{ type: "update", segmentId: segment.id, startMs: Math.round(Number(draft.start) * 1_000), endMs: Math.round(Number(draft.end) * 1_000), speaker: draft.speaker || null, ja: draft.ja, ko: draft.ko || null, needsReview: draft.needsReview }]);
+    await apply([{ type: "update", segmentId: segment.id, startMs: Math.round(Number(draft.start) * 1_000), endMs: Math.round(Number(draft.end) * 1_000), speaker: draft.speaker || null, ja: draft.ja, ko: draft.ko || null }]);
   };
   const split = async () => {
     if (!segment) return;
@@ -331,7 +331,6 @@ function ScriptEditorDialog({ open, onOpenChange, audio, script, versions, loadi
       <label className="block text-xs font-bold">화자<Input className="mt-1" maxLength={50} value={draft.speaker} onChange={(event) => setDraft({ ...draft, speaker: event.target.value })} /></label>
       <label className="block text-xs font-bold">일본어<textarea className="mt-1 min-h-24 w-full rounded-xl border border-app-border bg-app-bg p-3 text-base leading-7" value={draft.ja} onChange={(event) => setDraft({ ...draft, ja: event.target.value })} /></label>
       <label className="block text-xs font-bold">한국어<textarea className="mt-1 min-h-20 w-full rounded-xl border border-app-border bg-app-bg p-3 text-sm leading-6" value={draft.ko} onChange={(event) => setDraft({ ...draft, ko: event.target.value })} placeholder="번역이 없으면 비워 둡니다." /></label>
-      <label className="flex min-h-11 items-center gap-2 text-sm"><input type="checkbox" checked={draft.needsReview} onChange={(event) => setDraft({ ...draft, needsReview: event.target.checked })} />검토 필요</label>
       <div className="grid grid-cols-3 gap-2"><Button disabled={busy} onClick={() => void save()}>저장</Button><Button variant="outline" disabled={busy || segment.endMs - segment.startMs < 2} onClick={() => void split()}>현재 위치 분할</Button><Button variant="outline" disabled={busy || selectedIndex >= script.segments.length - 1} onClick={() => void mergeNext()}>다음과 합치기</Button></div>
       <p className="text-[11px] text-app-muted">분할 위치가 현재 문장 안이면 재생 위치를, 아니면 문장 중간을 사용합니다. 분할된 텍스트는 저장 후 각각 다시 편집할 수 있습니다.</p>
     </div> : null}
@@ -369,7 +368,7 @@ function splitText(value: string): [string, string] {
   const first = value.slice(0, splitAt).trim(); const second = value.slice(splitAt).trim();
   return [first || value.slice(0, midpoint).trim(), second || value.slice(midpoint).trim()];
 }
-function draftFor(segment?: Segment) { return segment ? { start: String(segment.startMs / 1_000), end: String(segment.endMs / 1_000), speaker: segment.speaker || "", ja: segment.ja, ko: segment.ko || "", needsReview: segment.needsReview } : { start: "0", end: "0", speaker: "", ja: "", ko: "", needsReview: false }; }
+function draftFor(segment?: Segment) { return segment ? { start: String(segment.startMs / 1_000), end: String(segment.endMs / 1_000), speaker: segment.speaker || "", ja: segment.ja, ko: segment.ko || "" } : { start: "0", end: "0", speaker: "", ja: "", ko: "" }; }
 function versionKind(value: string) { return ({ whisper_raw: "Whisper 원본", gpt_processed: "GPT 교정", manual_edit: "수동 편집" } as Record<string, string>)[value] || value; }
 function statusText(status: string, hasScript: boolean) { if (hasScript) return "스크립트 준비됨"; return ({ uploaded: "처리 요청 전", queued: "처리 대기 중", transcribing: "음성 인식 중", transcribed: "음성 인식 완료", correcting: "교정·번역 중", failed: "처리 실패", missing: "음원 파일 없음" } as Record<string, string>)[status] || status; }
 async function responseMessage(response: Response) { const body = await response.json().catch(() => null) as { error?: { message?: string } } | null; return body?.error?.message || `요청에 실패했습니다 (${response.status}).`; }

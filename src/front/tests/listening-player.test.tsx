@@ -12,7 +12,7 @@ describe("listening player", () => {
     vi.stubGlobal("fetch", vi.fn((input: RequestInfo | URL) => {
       const url = String(input);
       if (url.endsWith("/metadata")) return Promise.resolve(Response.json({ audio: { id: "a1", originalName: "test.mp3", durationMs: 2_000, status: "ready", revision: 1, streamUrl: "/stream" } }));
-      if (url.endsWith("/script")) return Promise.resolve(Response.json({ script: { id: "v1", versionNo: 1, kind: "gpt_processed", segments: [{ id: "s1", ordinal: 0, startMs: 0, endMs: 2_000, speaker: null, ja, ko, needsReview: false }] } }));
+      if (url.endsWith("/script")) return Promise.resolve(Response.json({ script: { id: "v1", versionNo: 1, kind: "gpt_processed", segments: [{ id: "s1", ordinal: 0, startMs: 0, endMs: 2_000, speaker: null, ja, ko, needsReview: true }] } }));
       if (url.endsWith("/progress")) return Promise.resolve(Response.json({ progress: { positionMs: 0, playbackRate: 1, completed: false, revision: 0 } }));
       return Promise.resolve(new Response(null, { status: 404 }));
     }));
@@ -32,6 +32,7 @@ describe("listening player", () => {
     render(<ListeningPlayerPage audioId="a1" />);
     await screen.findByText(ja);
     expect(screen.queryByText(ko)).toBeNull();
+    expect(screen.queryByText("검토 필요")).toBeNull();
 
     await user.click(screen.getByRole("button", { name: "한" }));
     expect(screen.getByText(ja)).toBeVisible();
