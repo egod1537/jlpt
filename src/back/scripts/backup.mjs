@@ -68,7 +68,7 @@ try {
     migrations,
     counts,
     audio: { root: "audio", files: audioFiles },
-    excludedSecrets: ["JLPT_OPENAI_AUTH_PATH", "JLPT_EXTERNAL_API_KEY", "JLPT_ACCESS_TOKEN", "WHISPER_AUTH_TOKEN"],
+    excludedSecrets: ["JLPT_OPENAI_AUTH_PATH", "JLPT_EXTERNAL_API_KEY", "WHISPER_AUTH_TOKEN"],
   };
   await writeFile(path.join(staging, "manifest.json"), `${JSON.stringify(manifest, null, 2)}\n`, { mode: 0o600 });
   await rename(staging, destination);

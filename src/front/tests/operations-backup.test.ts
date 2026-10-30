@@ -29,7 +29,7 @@ describe("operator listening snapshots", () => {
     registerListeningAudio(db, { setId: set.id, originalName: "fixture.wav", storedKey, mimeType: "audio/wav", sizeBytes: bytes.length, sha256: createHash("sha256").update(bytes).digest("hex") });
     db.close();
 
-    const environment = { ...process.env, JLPT_DB_PATH: dbPath, JLPT_AUDIO_DIR: audioDir, JLPT_BACKUP_DIR: backupDir, JLPT_EXTERNAL_API_KEY: "must-not-appear", JLPT_ACCESS_TOKEN: "must-not-appear" };
+    const environment = { ...process.env, JLPT_DB_PATH: dbPath, JLPT_AUDIO_DIR: audioDir, JLPT_BACKUP_DIR: backupDir, JLPT_EXTERNAL_API_KEY: "must-not-appear" };
     await execute(process.execPath, [path.resolve(process.cwd(), "..", "back", "scripts", "backup.mjs")], { env: environment });
     const snapshot = path.join(backupDir, (await readdir(backupDir))[0]);
     const manifest = await readFile(path.join(snapshot, "manifest.json"), "utf8");

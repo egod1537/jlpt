@@ -2,7 +2,7 @@
 
 ## Production configuration
 
-Set `JLPT_ACCESS_TOKEN`, `JLPT_APP_ORIGIN`, the durable DB/audio paths, and provider secrets in `.env`. The web service never starts the job loop in Compose; the separate `worker` service runs the bundled `/app/ops/listening-worker.mjs` from the same image. Both services share `/app/var`, while only web mounts `/app/backup`.
+Set `JLPT_APP_ORIGIN`, the durable DB/audio paths, and provider secrets in `.env`. The browser app and internal APIs intentionally have no login or access password. The web service never starts the job loop in Compose; the separate `worker` service runs the bundled `/app/ops/listening-worker.mjs` from the same image. Both services share `/app/var`, while only web mounts `/app/backup`.
 
 The reverse proxy must preserve `Range`, `If-Range`, `Content-Range`, `ETag`, and `Accept-Ranges` headers, allow request bodies slightly above `JLPT_MAX_AUDIO_BYTES` (recommended 210 MB), disable request buffering for the upload route, and use an upload timeout longer than the slowest expected client. Keep the application port bound to loopback or a private Docker network.
 
@@ -19,7 +19,7 @@ docker compose config
 docker compose build
 ```
 
-After startup, require healthy states for both containers, verify an unauthenticated `/api/books` request returns 401, then test login, a small owned WAV upload, 206 byte range playback, mock/real provider processing, script export, and the Bearer API. A missing Whisper or ChatGPT connection is a soft provider error: existing audio and raw versions remain playable.
+After startup, require healthy states for both containers, verify public `/api/books` returns 200 and the removed `/login` and `/api/access/*` routes return 404, then test a small owned WAV upload, 206 byte range playback, mock/real provider processing, script export, and the Bearer API. A missing Whisper or ChatGPT connection is a soft provider error: existing audio and raw versions remain playable.
 
 ## Consistent snapshots
 
@@ -63,7 +63,7 @@ The restore preserves prior DB/audio paths as `.pre-restore-*`; keep them until 
 5. Observe disk growth, queued/running/failed jobs, provider latency, and memory during a maximum-size streaming upload.
 6. Keep the worker alive for at least 24 hours in staging; restart it during a leased mock job and confirm the job returns to queued after lease expiry.
 
-Image rollback alone is not a data rollback after new writes. Stop both services and restore the matching DB+audio snapshot. The deployment script tags the prior image, checks the access boundary, web health, worker heartbeat, image revision, and legacy public-data removal.
+Image rollback alone is not a data rollback after new writes. Stop both services and restore the matching DB+audio snapshot. The deployment script tags the prior image, checks the public browser API, web health, worker heartbeat, image revision, and legacy public-data removal.
 
 ## Verification status
 

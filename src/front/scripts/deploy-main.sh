@@ -96,8 +96,8 @@ if ! curl -fsS "http://127.0.0.1:${JLPT_WEB_PORT:-8081}/healthz" >/dev/null; the
   exit 1
 fi
 deployment_api_status=$(curl -sS -o /dev/null -w '%{http_code}' "http://127.0.0.1:${JLPT_WEB_PORT:-8081}/api/books")
-if [ "$deployment_api_status" != "401" ]; then
-  echo "배포 실패: 비인증 데이터 API가 401을 반환하지 않았습니다 ($deployment_api_status)." >&2
+if [ "$deployment_api_status" != "200" ]; then
+  echo "배포 실패: 공개 데이터 API가 200을 반환하지 않았습니다 ($deployment_api_status)." >&2
   rollback_deployment
   exit 1
 fi

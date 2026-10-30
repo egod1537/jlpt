@@ -42,7 +42,7 @@ test("settings exposes the local ChatGPT OAuth connection", async ({ page, reque
   await expect.poll(async () => (await request.get("/api/openai/status")).json()).toMatchObject({ connected: false, canUseResponses: false });
 });
 
-test("app, HTML seed and private data APIs open without login", async ({ page, request }, testInfo) => {
+test("app, HTML seed and browser data APIs open without login", async ({ page, request }, testInfo) => {
   if (testInfo.project.name === "desktop-1280") {
     await page.goto("/study");
     await expect(page).toHaveURL(/\/books$/);
@@ -287,9 +287,7 @@ test("one book tap starts flashcards while its menu keeps details available", as
   await expect(page.getByRole("heading", { name: "단어 편집" })).toBeVisible();
   await page.keyboard.press("Escape");
   await page.goto("/settings");
-  await expect(page.getByText(/HttpOnly 접근 세션/)).toBeVisible();
-  await page.goto("/login");
-  await expect(page).toHaveURL(/\/books/);
+  await expect(page.getByRole("heading", { name: "설정" })).toBeVisible();
 });
 
 test("folder tree pin, creation, move and reload persist", async ({ page, request }, testInfo) => {
@@ -493,15 +491,18 @@ test("an offline evaluation survives reload and syncs exactly once", async ({ br
   } finally { await context.close(); }
 });
 
-test("login APIs remain removed", async ({ request }, testInfo) => {
+test("app access login remains absent", async ({ request }, testInfo) => {
   test.skip(testInfo.project.name !== "desktop-1280", "security journey runs once");
   expect((await request.post("/api/auth/login", { data: {} })).status()).toBe(404);
   expect((await request.post("/api/auth/logout")).status()).toBe(404);
   expect((await request.get("/api/me")).status()).toBe(404);
+  expect((await request.post("/api/access/login", { data: {} })).status()).toBe(404);
+  expect((await request.post("/api/access/logout")).status()).toBe(404);
+  expect((await request.get("/login")).status()).toBe(404);
 });
 
-test("production access boundary rejects private pages and APIs, then creates a session", async ({ browser }, testInfo) => {
-  test.skip(testInfo.project.name !== "desktop-1280", "access boundary journey runs once");
+test("production pages and internal APIs stay public without a session", async ({ browser }, testInfo) => {
+  test.skip(testInfo.project.name !== "desktop-1280", "public access journey runs once");
   const port = process.env.JLPT_E2E_PORT || "4174";
   const context = await browser.newContext({
     baseURL: `http://127.0.0.1:${port}`,
@@ -510,14 +511,10 @@ test("production access boundary rejects private pages and APIs, then creates a 
   });
   const page = await context.newPage();
   try {
-    expect((await context.request.get("/api/bootstrap", { maxRedirects: 0 })).status()).toBe(401);
-    expect((await context.request.get("/api/openai/status", { maxRedirects: 0 })).status()).toBe(401);
-    expect((await context.request.get("/api/listening/audio/missing/stream", { maxRedirects: 0 })).status()).toBe(401);
+    expect((await context.request.get("/api/bootstrap", { maxRedirects: 0 })).status()).toBe(200);
+    expect((await context.request.get("/api/openai/status", { maxRedirects: 0 })).status()).toBe(200);
     await page.goto("/listening");
-    await expect(page).toHaveURL(/\/login$/);
-    await page.getByLabel("접근 암호").fill("e2e-host-access-secret");
-    await page.getByRole("button", { name: "접속" }).click();
-    await expect(page).toHaveURL(/\/books$/);
-    expect((await context.request.get("/api/bootstrap")).status()).toBe(200);
+    await expect(page).toHaveURL(/\/listening$/);
+    await expect(page.getByRole("heading", { name: "청해", exact: true })).toBeVisible();
   } finally { await context.close(); }
 });

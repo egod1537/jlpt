@@ -25,7 +25,6 @@ services:
       JLPT_MAX_AUDIO_BYTES: ${JLPT_MAX_AUDIO_BYTES:-209715200}
       JLPT_LISTENING_WORKER_ENABLED: "false"
       JLPT_APP_ORIGIN: ${JLPT_APP_ORIGIN:-https://jlpt.mangagaki.net}
-      JLPT_ACCESS_TOKEN: ${JLPT_ACCESS_TOKEN:-}
       JLPT_EXTERNAL_API_KEY: ${JLPT_EXTERNAL_API_KEY:-}
     volumes:
       - ${JLPT_DATA_DIR:-./var}:/app/var
