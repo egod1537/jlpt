@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { buildStudyCards, canRateCard, seededShuffle } from "@/lib/study";
+import { buildStudyCards, canRateCard, seededShuffle, shuffleNewRound } from "@/lib/study";
 import { emptyProgress } from "@/lib/progress";
 import type { Word, WordBook } from "@/lib/types";
 
@@ -33,6 +33,8 @@ describe("study selection", () => {
 
   it("has deterministic shuffle and rating guards", () => {
     expect(seededShuffle([1, 2, 3, 4], 42)).toEqual(seededShuffle([1, 2, 3, 4], 42));
+    expect(shuffleNewRound([1, 2, 3, 4], () => 0.999)).toEqual([2, 1, 3, 4]);
+    expect(shuffleNewRound([1], () => 0.999)).toEqual([1]);
     expect(canRateCard(false, false)).toBe(true);
     expect(canRateCard(true, false)).toBe(true);
     expect(canRateCard(true, true)).toBe(false);

@@ -39,3 +39,15 @@ export function seededShuffle<T>(items: T[], seed: number): T[] {
   }
   return result;
 }
+
+export function shuffleNewRound<T>(items: T[], random: () => number = Math.random): T[] {
+  const result = [...items];
+  for (let index = result.length - 1; index > 0; index -= 1) {
+    const target = Math.floor(random() * (index + 1));
+    [result[index], result[target]] = [result[target], result[index]];
+  }
+  if (result.length > 1 && result.every((item, index) => item === items[index])) {
+    [result[0], result[1]] = [result[1], result[0]];
+  }
+  return result;
+}

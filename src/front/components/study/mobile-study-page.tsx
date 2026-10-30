@@ -10,6 +10,7 @@ import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogDescription, DialogTitle } from "@/components/ui/dialog";
 import { nextStudyQueue } from "@/lib/study-queue";
 import { isResumableStudySession, studySessionProgress } from "@/lib/study-session-progress";
+import { shuffleNewRound } from "@/lib/study";
 import { resolveStudyTitle } from "@/lib/study-title";
 import { FittedStudyTerm, FittedStudyDetails } from "@/components/study/fitted-study-term";
 
@@ -68,7 +69,7 @@ function sessionForRange(sessions: Session[], bookIds: string[], mode: Mode, inc
   const session = sessions.find((candidate) => sameIds(candidate.bookIds, bookIds, false)
     && candidate.mode === mode
     && candidate.includeReview === includeReview
-    && sameIds(candidate.wordIds, wordIds));
+    && sameIds(candidate.wordIds, wordIds, false));
   if (!session) return undefined;
   return !resumableOnly || isResumableStudySession(session) ? session : undefined;
 }
@@ -76,7 +77,7 @@ function sessionForRange(sessions: Session[], bookIds: string[], mode: Mode, inc
 function latestResumableSessions(sessions: Session[]) {
   const seen = new Set<string>();
   return sessions.filter((session) => {
-    const key = [session.mode, String(session.includeReview), [...session.bookIds].sort().join("\u0000"), session.wordIds.join("\u0000")].join("\u0001");
+    const key = [session.mode, String(session.includeReview), [...session.bookIds].sort().join("\u0000"), [...session.wordIds].sort().join("\u0000")].join("\u0001");
     if (seen.has(key)) return false;
     seen.add(key);
     return isResumableStudySession(session);
@@ -386,7 +387,7 @@ export function MobileStudyPage() {
   const restart = useCallback(async (onlyWrong: boolean) => {
     if (restartLock.current || !sessionId) return;
     const latest = new Map(results.map((item) => [item.wordId, item.rating]));
-    const nextCards = onlyWrong ? cards.filter((item) => ["again", "hard"].includes(latest.get(item.wordId) || "")) : cards;
+    const nextCards = shuffleNewRound(onlyWrong ? cards.filter((item) => ["again", "hard"].includes(latest.get(item.wordId) || "")) : cards);
     if (!nextCards.length) { router.push("/books"); return; }
     restartLock.current = true;
     setRestartPending(true);

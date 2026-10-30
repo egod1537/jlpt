@@ -1,21 +1,21 @@
 import { expect, test } from "@playwright/test";
 
-test("long words fit without scrolling and resize back for short words", async ({ page }) => {
+test("long words fit without scrolling and resize back for short words", async ({ page }, testInfo) => {
   const longTerm = "国際連合教育科学文化機関".repeat(20).slice(0, 200);
+  const projectOrder = ["desktop-1280", "tablet-768", "mobile-320", "mobile-360", "mobile-390", "mobile-430"];
+  const rangeStart = projectOrder.indexOf(testInfo.project.name) * 2;
   await page.route("**/api/study/cards?*", async (route) => {
     const response = await route.fetch();
     const body = await response.json();
-    body.cards[0].representative.term = longTerm;
-    body.cards[0].representative.reading = "こくさいれんごうきょういくかがくぶんかきかん".repeat(6);
-    body.cards[0].representative.meanings = ["국제적인 교육과 과학 및 문화 분야에서 협력하는 기관이라는 뜻입니다. ".repeat(8)];
-    body.cards[0].representative.nuance = "공식적인 문맥에서 쓰는 표현입니다. ".repeat(8);
-    body.cards[0].representative.examples = [{ ja: "国際的な教育と文化について話し合いました。".repeat(8), ko: "국제적인 교육과 문화에 대해 의견을 나누었습니다. ".repeat(8) }];
-    body.cards[1].representative.term = "日本";
+    body.cards[rangeStart].representative.term = longTerm;
+    body.cards[rangeStart].representative.reading = "こくさいれんごうきょういくかがくぶんかきかん".repeat(6);
+    body.cards[rangeStart].representative.meanings = ["국제적인 교육과 과학 및 문화 분야에서 협력하는 기관이라는 뜻입니다. ".repeat(8)];
+    body.cards[rangeStart].representative.nuance = "공식적인 문맥에서 쓰는 표현입니다. ".repeat(8);
+    body.cards[rangeStart].representative.examples = [{ ja: "国際的な教育と文化について話し合いました。".repeat(8), ko: "국제적인 교육과 문화에 대해 의견을 나누었습니다. ".repeat(8) }];
+    body.cards[rangeStart + 1].representative.term = "日本";
     await route.fulfill({ response, json: body });
   });
-  await page.goto("/study?books=html-n1-yuui-79-84&rangeStart=0&rangeSize=2&start=1");
-  await page.getByRole("button", { name: "학습 처음부터 시작" }).click();
-  await page.getByRole("dialog").getByRole("button", { name: "처음부터 시작", exact: true }).click();
+  await page.goto(`/study?books=html-n1-yuui-79-84&rangeStart=${rangeStart}&rangeSize=2&start=1`);
   await expect(page.locator("article h1")).toHaveText(longTerm);
   await page.getByRole("button", { name: /한국어/ }).click();
   await page.getByRole("button", { name: /ひらがな/ }).click();
