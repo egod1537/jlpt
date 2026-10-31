@@ -348,6 +348,63 @@ export function retryListeningJob(db: AppDatabase, jobId: string) {
   return getListeningJob(db, jobId);
 }
 
+export function countRetryableFailedListeningAudio(db: AppDatabase) {
+  return Number((db.prepare(`
+    SELECT COUNT(*) AS count
+    FROM listening_audio a
+    WHERE a.deleted_at IS NULL
+      AND a.status='failed'
+      AND NOT EXISTS (
+        SELECT 1 FROM listening_jobs active
+        WHERE active.audio_id=a.id AND active.state IN ('queued','running','waiting_auth')
+      )
+  `).get() as { count: number }).count);
+}
+
+export function retryFailedListeningAudio(db: AppDatabase) {
+  const retry = db.transaction(() => {
+    const candidates = db.prepare(`
+      WITH latest_failed AS (
+        SELECT j.id,j.audio_id,j.type,
+          ROW_NUMBER() OVER (PARTITION BY j.audio_id ORDER BY j.updated_at DESC,j.created_at DESC,j.id DESC) AS row_number
+        FROM listening_jobs j
+        WHERE j.state='failed'
+      )
+      SELECT a.id AS audio_id,a.script_version_id,a.revision,
+        latest_failed.id AS failed_job_id,latest_failed.type AS failed_job_type
+      FROM listening_audio a
+      LEFT JOIN latest_failed ON latest_failed.audio_id=a.id AND latest_failed.row_number=1
+      WHERE a.deleted_at IS NULL
+        AND a.status='failed'
+        AND NOT EXISTS (
+          SELECT 1 FROM listening_jobs active
+          WHERE active.audio_id=a.id AND active.state IN ('queued','running','waiting_auth')
+        )
+      ORDER BY a.updated_at,a.id
+      LIMIT 10000
+    `).all() as Array<{
+      audio_id: string;
+      script_version_id: string | null;
+      revision: number;
+      failed_job_id: string | null;
+      failed_job_type: "transcribe" | "gpt_process" | null;
+    }>;
+    let queuedCount = 0;
+    for (const candidate of candidates) {
+      const type = candidate.failed_job_type === "gpt_process" && candidate.script_version_id ? "gpt_process" : "transcribe";
+      const retryKey = `bulk-retry:${candidate.failed_job_id || `${candidate.audio_id}:${candidate.revision}`}`;
+      const result = enqueueListeningJob(db, candidate.audio_id, type, retryKey);
+      if (!result.replayed) queuedCount += 1;
+    }
+    return {
+      failedCount: candidates.length,
+      queuedCount,
+      remainingFailedCount: countRetryableFailedListeningAudio(db),
+    };
+  });
+  return retry();
+}
+
 export function createTranscriptVersion(db: AppDatabase, input: {
   audioId: string;
   kind: ListeningScriptVersion["kind"];

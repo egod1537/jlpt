@@ -1,6 +1,6 @@
 import type { NextRequest } from "next/server";
 import { getDatabase } from "@back/lib/db/database";
-import { createListeningSet, listListeningLibrary } from "@back/lib/listening/repository";
+import { countRetryableFailedListeningAudio, createListeningSet, listListeningLibrary } from "@back/lib/listening/repository";
 import { apiError, apiJson, readLimitedJson } from "@/lib/server/api";
 import { authorize } from "@/lib/server/authorize";
 import { listeningErrorResponse } from "@/lib/server/listening-api";
@@ -19,7 +19,7 @@ export function GET(request: NextRequest) {
     const offset = Number(query.get("offset") || 0);
     if (!Number.isInteger(limit) || limit < 1 || limit > 100 || !Number.isInteger(offset) || offset < 0) return apiError(400, "VALIDATION", "페이지 값을 확인해 주세요.");
     const result = listListeningLibrary(getDatabase(), { q: query.get("q") || undefined, filter: filter as "all" | "recent" | "favorites" | "unfiled", limit, offset });
-    return apiJson({ folders: result.folders, sets: result.sets, page: result.page });
+    return apiJson({ folders: result.folders, sets: result.sets, page: result.page, failedCount: countRetryableFailedListeningAudio(getDatabase()) });
   } catch (error) {
     return listeningErrorResponse(error);
   }

@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { AudioLines, ChevronDown, ChevronRight, Clock3, FileAudio, Folder, LoaderCircle, MoreVertical, Plus, Search, Star, Upload } from "lucide-react";
+import { AudioLines, ChevronDown, ChevronRight, Clock3, FileAudio, Folder, LoaderCircle, MoreVertical, Plus, RotateCcw, Search, Star, Upload } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogDescription, DialogTitle } from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
@@ -25,6 +25,7 @@ export function ListeningLibraryPage() {
   const [expandedFolders, setExpandedFolders] = useState<Set<string>>(new Set()); const [expandedSets, setExpandedSets] = useState<Set<string>>(new Set());
   const [loading, setLoading] = useState(true); const [loadingMore, setLoadingMore] = useState(false); const [hasMore, setHasMore] = useState(false);
   const [error, setError] = useState<string | null>(null); const [addOpen, setAddOpen] = useState(false); const [menu, setMenu] = useState<string | null>(null);
+  const [failedCount, setFailedCount] = useState(0); const [retryingFailed, setRetryingFailed] = useState(false); const [batchMessage, setBatchMessage] = useState<string | null>(null);
   const requestRef = useRef<AbortController | null>(null); const setCountRef = useRef(0);
   useEffect(() => { setCountRef.current = sets.length; }, [sets.length]);
 
@@ -35,11 +36,12 @@ export function ListeningLibraryPage() {
       const params = new URLSearchParams({ filter, limit: "50", offset: append ? String(setCountRef.current) : "0" });
       if (query.trim()) params.set("q", query.trim());
       const response = await fetch(`/api/listening/sets?${params}`, { cache: "no-store", signal: controller.signal });
-      const body = await response.json() as { folders?: ListeningFolder[]; sets?: ListeningSet[]; page?: { hasMore?: boolean }; error?: { message?: string } };
+      const body = await response.json() as { folders?: ListeningFolder[]; sets?: ListeningSet[]; page?: { hasMore?: boolean }; failedCount?: number; error?: { message?: string } };
       if (!response.ok) throw new Error(body.error?.message || "청해 목록을 불러오지 못했습니다.");
       setFolders(body.folders || []);
       setSets((current) => append ? uniqueById([...current, ...(body.sets || [])]) : body.sets || []);
       setHasMore(Boolean(body.page?.hasMore));
+      if (typeof body.failedCount === "number") setFailedCount(body.failedCount);
       setExpandedFolders((current) => current.size ? current : new Set((body.folders || []).map((folder) => folder.id)));
       setError(null);
     } catch (reason) {
@@ -49,6 +51,20 @@ export function ListeningLibraryPage() {
   }, [filter, query]);
 
   useEffect(() => { const timer = setTimeout(() => { setCountRef.current = 0; void loadLibrary(false); }, 220); return () => { clearTimeout(timer); requestRef.current?.abort(); }; }, [loadLibrary]);
+
+  useEffect(() => {
+    let stopped = false;
+    const refreshFailedCount = async () => {
+      try {
+        const response = await fetch("/api/listening/jobs/retry-failed", { cache: "no-store" });
+        const body = await response.json() as { failedCount?: number };
+        if (!stopped && response.ok && typeof body.failedCount === "number") setFailedCount(body.failedCount);
+      } catch { /* the library request still reports actionable errors */ }
+    };
+    void refreshFailedCount();
+    const timer = setInterval(() => void refreshFailedCount(), 5_000);
+    return () => { stopped = true; clearInterval(timer); };
+  }, []);
 
   const loadSet = useCallback(async (setId: string) => {
     const response = await fetch(`/api/listening/sets/${encodeURIComponent(setId)}`, { cache: "no-store" });
@@ -90,11 +106,28 @@ export function ListeningLibraryPage() {
     if (action === "delete") { if (window.confirm(`'${audio.originalName}' 음원을 삭제할까요?`)) await mutate(`/api/listening/audio/${audio.id}?revision=${audio.revision}`, "DELETE", undefined, audio.setId); return; }
     try { const response = await fetch(`/api/listening/audio/${audio.id}/${audio.scriptVersionId ? "reprocess" : "transcribe"}`, { method: "POST", headers: { "Idempotency-Key": `library:${audio.id}:${Date.now()}` } }); if (!response.ok) throw new Error(await responseMessage(response)); setMenu(null); await loadSet(audio.setId); } catch (reason) { setError(reason instanceof Error ? reason.message : "다시 처리하지 못했습니다."); }
   };
+  const retryAllFailed = async () => {
+    if (!failedCount || retryingFailed || !window.confirm(`처리 실패한 ${failedCount}개 음원을 모두 다시 시도할까요?`)) return;
+    setRetryingFailed(true); setBatchMessage(null); setError(null);
+    try {
+      const response = await fetch("/api/listening/jobs/retry-failed", { method: "POST" });
+      const body = await response.json() as { queuedCount?: number; remainingFailedCount?: number; error?: { message?: string } };
+      if (!response.ok) throw new Error(body.error?.message || "실패한 작업을 다시 대기시키지 못했습니다.");
+      const queuedCount = Number(body.queuedCount || 0);
+      setFailedCount(Number(body.remainingFailedCount || 0));
+      setBatchMessage(queuedCount ? `${queuedCount}개 작업을 다시 처리합니다.` : "다시 시도할 실패 작업이 없습니다.");
+      await loadLibrary(false);
+      await Promise.allSettled(Object.keys(details).map((setId) => loadSet(setId)));
+    } catch (reason) {
+      setError(reason instanceof Error ? reason.message : "실패한 작업을 다시 대기시키지 못했습니다.");
+    } finally { setRetryingFailed(false); }
+  };
 
   return <div className="mx-auto max-w-3xl">
     <div className="flex items-center justify-between gap-3"><div><h1 className="text-2xl font-black tracking-tight">청해</h1><p className="mt-1 text-sm text-app-muted">{folders.length}개 폴더 · {sets.length}개 세트{hasMore ? "+" : ""}</p></div><Button size="icon" aria-label="청해 추가" onClick={() => setAddOpen(true)}><Plus aria-hidden="true" className="h-5 w-5" /></Button></div>
     <div className="relative mt-5"><label htmlFor="listening-search" className="sr-only">청해 폴더·세트 검색</label><Search aria-hidden="true" className="absolute left-3 top-3.5 h-4 w-4 text-app-muted" /><Input id="listening-search" className="pl-10" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="폴더·세트 검색..." /></div>
     <div className="-mx-4 mt-3 flex gap-2 overflow-x-auto px-4 pb-1" aria-label="청해 빠른 필터">{filters.map(([value, label]) => <button key={value} type="button" onClick={() => setFilter(value)} aria-pressed={filter === value} className={`min-h-11 shrink-0 rounded-full px-4 text-sm font-bold ${filter === value ? "bg-app-accent-surface text-app-text" : "bg-app-surface text-app-muted ring-1 ring-app-border"}`}>{label}</button>)}</div>
+    <div className={`mt-3 flex min-h-14 items-center justify-between gap-3 rounded-xl border px-3 py-2 ${failedCount ? "border-red-900/70 bg-red-950/30" : "border-app-border bg-app-surface"}`}><div className="min-w-0"><p className={`text-sm font-bold ${failedCount ? "text-red-200" : "text-app-muted"}`}>{failedCount ? `처리 실패 ${failedCount}개` : "처리 실패 없음"}</p>{batchMessage ? <p className="mt-0.5 truncate text-xs text-app-muted" aria-live="polite">{batchMessage}</p> : null}</div><Button type="button" variant="outline" className="min-h-11 shrink-0" disabled={!failedCount || retryingFailed} onClick={() => void retryAllFailed()}>{retryingFailed ? <LoaderCircle aria-hidden="true" className="h-4 w-4 animate-spin" /> : <RotateCcw aria-hidden="true" className="h-4 w-4" />}모두 다시 시도</Button></div>
     <section className="mt-6 rounded-xl border border-app-border bg-app-surface p-2" aria-labelledby="listening-tree-heading">
       <div className="flex items-center justify-between px-2 py-2"><h2 id="listening-tree-heading" className="text-xs font-black uppercase tracking-wider text-app-muted">모든 청해</h2>{loading ? <LoaderCircle aria-label="불러오는 중" className="h-4 w-4 animate-spin text-app-accent" /> : null}</div>
       {error ? <div className="rounded-lg bg-red-950/40 px-3 py-3 text-sm text-red-200">{error}<button className="ml-2 underline" onClick={() => void loadLibrary(false)}>다시 시도</button></div> : null}
