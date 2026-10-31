@@ -12,7 +12,7 @@ import { Input } from "@/components/ui/input";
 import { Select } from "@/components/ui/select";
 
 type FolderItem = { id: string; name: string; parentId: string | null; pinned: boolean; orderIndex: number; revision: number; bookCount: number; childCount: number };
-type BookItem = { id: string; title: string; category: string | null; folderId: string | null; favorite: boolean; orderIndex: number; revision: number; entryCount: number; studiedCount: number; updatedAt: string };
+type BookItem = { id: string; title: string; category: string | null; folderId: string | null; favorite: boolean; orderIndex: number; revision: number; entryCount: number; studiedCount: number; roundCount: number; updatedAt: string };
 type EditTarget = { kind: "folder"; item: FolderItem } | { kind: "book"; item: BookItem };
 
 const expandedStorageKey = "jlpt-library-expanded-v1";
@@ -177,7 +177,7 @@ export function LibraryPage() {
     return <div key={book.id} className={"group flex min-h-12 items-center gap-1 rounded-lg border border-transparent pr-1 hover:border-app-border hover:bg-app-raised " + (checked ? "border-app-accent bg-app-accent-surface" : "")} style={{ marginLeft: Math.min(depth, 2) * 16 }}>
       {selecting ? <button onClick={() => toggleSelected(book.id)} role="checkbox" aria-checked={checked} aria-label={book.title + " 선택"} className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg text-app-accent">{checked ? "✓" : "○"}</button> : <span className="flex h-11 w-8 shrink-0 items-center justify-center text-app-accent"><BookOpen className="h-4 w-4" /></span>}
       <Link href={selecting ? "#" : "/study?books=" + encodeURIComponent(book.id) + "&start=1"} onClick={(event) => { if (selecting) { event.preventDefault(); toggleSelected(book.id); } }} className="flex min-h-11 min-w-0 flex-1 items-center py-1.5" aria-label={book.title + " 바로 학습"}>
-        <span className="min-w-0"><span className="block truncate text-sm font-semibold">{book.title}</span><span className="block truncate text-[11px] text-app-muted">{book.entryCount || 0}단어 · 학습 {progress}%</span></span>
+        <span className="min-w-0"><span className="block truncate text-sm font-semibold">{book.title}</span><span className="block truncate text-[11px] text-app-muted">{book.entryCount || 0}단어 · 학습 {progress}% · {book.roundCount || 0}회독</span></span>
       </Link>
       {!selecting ? <button onClick={() => setEdit({ kind: "book", item: book })} aria-label={book.title + " 메뉴"} className="flex h-11 w-11 items-center justify-center rounded-lg text-app-muted hover:bg-app-surface"><MoreHorizontal className="h-4 w-4" /></button> : null}
     </div>;

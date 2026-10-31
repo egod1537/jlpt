@@ -2,13 +2,30 @@ import type { AppDatabase } from "@back/lib/db/database";
 import { bookmarkFromRow, bookFromRow, entryFromRow, folderFromRow, studySessionFromRow } from "@back/lib/catalog/rows";
 import { normalizeSearch } from "@back/lib/catalog/normalize";
 
-const BOOK_SELECT = `WITH entry_stats AS (
+const BOOK_SELECT = `WITH completed_session_words AS (
+    SELECT DISTINCT s.id session_id,CAST(book.value AS TEXT) book_id,CAST(word.value AS TEXT) word_id
+    FROM study_sessions s
+    JOIN json_each(s.book_ids_json) book
+    JOIN json_each(s.word_ids_json) word
+    WHERE s.deleted_at IS NULL
+      AND s.status='completed'
+      AND s.mode='all'
+      AND json_array_length(COALESCE(s.queue_json,'[]'))=0
+      AND json_array_length(COALESCE(s.results_json,'[]'))>=json_array_length(s.word_ids_json)
+  ), book_word_rounds AS (
+    SELECT book_id,word_id,COUNT(DISTINCT session_id) completed_count
+    FROM completed_session_words
+    GROUP BY book_id,word_id
+  ), entry_stats AS (
     SELECT e.book_id,COUNT(*) entry_count,
       COUNT(DISTINCT CASE WHEN r.last_reviewed_at IS NOT NULL THEN e.word_id END) studied_count,
-      MAX(r.last_reviewed_at) last_studied_at
-    FROM book_entries e LEFT JOIN review_states r ON r.word_id=e.word_id
+      MAX(r.last_reviewed_at) last_studied_at,
+      MIN(COALESCE(rounds.completed_count,0)) round_count
+    FROM book_entries e
+    LEFT JOIN review_states r ON r.word_id=e.word_id
+    LEFT JOIN book_word_rounds rounds ON rounds.book_id=e.book_id AND rounds.word_id=e.word_id
     WHERE e.deleted_at IS NULL GROUP BY e.book_id
-  ) SELECT b.*,COALESCE(s.entry_count,0) entry_count,COALESCE(s.studied_count,0) studied_count,s.last_studied_at
+  ) SELECT b.*,COALESCE(s.entry_count,0) entry_count,COALESCE(s.studied_count,0) studied_count,s.last_studied_at,COALESCE(s.round_count,0) round_count
   FROM books b LEFT JOIN entry_stats s ON s.book_id=b.id`;
 
 export function listFolders(db: AppDatabase) {

@@ -37,6 +37,7 @@ export function bookFromRow(row: Record<string, unknown>) {
     ...(row.entry_count !== undefined ? { entryCount: Number(row.entry_count) } : {}),
     ...(row.studied_count !== undefined ? { studiedCount: Number(row.studied_count) } : {}),
     ...(row.last_studied_at !== undefined ? { lastStudiedAt: row.last_studied_at === null ? null : String(row.last_studied_at) } : {}),
+    ...(row.round_count !== undefined ? { roundCount: Number(row.round_count) } : {}),
   };
 }
 
