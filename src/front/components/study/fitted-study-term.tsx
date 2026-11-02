@@ -44,12 +44,9 @@ function useFitText(slotRef: RefObject<HTMLElement | null>, textRef: RefObject<H
   }, [contentKey, maximum, isTerm, slotRef, textRef]);
 }
 
-export function FittedStudyDetails({ children, contentKey }: { children: ReactNode; contentKey: string }) {
-  const slotRef = useRef<HTMLDivElement>(null);
-  const textRef = useRef<HTMLDivElement>(null);
-  useFitText(slotRef, textRef, contentKey, 18);
-  return <div ref={slotRef} className="study-details min-h-0 w-full max-w-md flex-1 overflow-hidden">
-    <div ref={textRef} data-fitted-text className="flex w-full flex-col [overflow-wrap:anywhere]" style={{ fontSize: 18, lineHeight: 1.5, gap: "1.5em" }}>{children}</div>
+export function FittedStudyDetails({ children }: { children: ReactNode }) {
+  return <div aria-label="카드 세부 정보" tabIndex={0} className="study-details min-h-0 w-full max-w-md flex-1 overscroll-contain overflow-x-hidden overflow-y-auto">
+    <div data-fitted-text className="flex w-full flex-col pb-1 [overflow-wrap:anywhere]" style={{ fontSize: 18, lineHeight: 1.5, gap: "1em" }}>{children}</div>
   </div>;
 }
 

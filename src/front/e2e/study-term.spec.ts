@@ -1,6 +1,6 @@
 import { expect, test } from "@playwright/test";
 
-test("long words fit without scrolling and resize back for short words", async ({ page }, testInfo) => {
+test("long terms fit while detail text stays readable and scrolls independently", async ({ page }, testInfo) => {
   const longTerm = "国際連合教育科学文化機関".repeat(20).slice(0, 200);
   const projectOrder = ["desktop-1280", "tablet-768", "mobile-320", "mobile-360", "mobile-390", "mobile-430"];
   const rangeStart = projectOrder.indexOf(testInfo.project.name) * 2;
@@ -28,15 +28,12 @@ test("long words fit without scrolling and resize back for short words", async (
         && text.scrollHeight <= slot.clientHeight && Math.abs(rect.y + rect.height / 2 - innerHeight / 2) < 1;
     })).toBe(true);
     await expect.poll(() => page.locator(".study-details").evaluate((details) => {
-      const rect = details.getBoundingClientRect();
-      return details.scrollHeight <= details.clientHeight
-        && [...details.querySelectorAll<HTMLElement>("[data-fitted-text]")].every((text) => {
-          const slot = text.parentElement!;
-          const bounds = text.getBoundingClientRect();
-          return slot.scrollHeight <= slot.clientHeight && slot.scrollWidth <= slot.clientWidth
-            && text.scrollHeight <= slot.clientHeight && text.scrollWidth <= slot.clientWidth
-            && bounds.top >= rect.top - 1 && bounds.bottom <= rect.bottom + 1;
-        });
+      const text = details.querySelector<HTMLElement>("[data-fitted-text]")!;
+      return details.clientHeight > 0
+        && details.scrollHeight > details.clientHeight
+        && details.scrollWidth <= details.clientWidth
+        && text.scrollWidth <= details.clientWidth
+        && parseFloat(getComputedStyle(text).fontSize) === 18;
     })).toBe(true);
   }
   const smallSize = await page.locator("article h1").evaluate((element) => parseFloat(getComputedStyle(element).fontSize));

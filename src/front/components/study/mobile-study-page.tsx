@@ -464,7 +464,7 @@ export function MobileStudyPage() {
         <article onTouchStart={touchBegin} onTouchEnd={touchEnd} className="study-card flex min-h-0 flex-1 touch-pan-y flex-col items-center justify-start overflow-hidden px-5 py-1 text-center">
           <p className="h-5 shrink-0 overflow-hidden text-xs text-app-muted">{entry.partOfSpeech.join(" · ")} {priority ? <span className="ml-1 text-app-warning" aria-label={"출처 중요도 " + priority}>{"★".repeat(priority)}</span> : null}</p>
           <FittedStudyTerm term={entry.term} />
-          <FittedStudyDetails contentKey={JSON.stringify([entry.reading, entry.meanings, entry.nuance, entry.examples[0]])}>
+          <FittedStudyDetails>
             <p role="group" aria-label="히라가나 텍스트 필드" aria-live="polite" aria-atomic="true" className="jp font-medium text-app-meaning">
               <span lang="ja" className={showReading ? "" : "invisible"}>{entry.reading || "읽기 미확인"}</span>
             </p>
