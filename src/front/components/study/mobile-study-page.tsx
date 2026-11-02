@@ -275,9 +275,10 @@ export function MobileStudyPage() {
         return;
       }
       const list = !existing && search.get("range") !== "all" && hasRequestedRange ? available.slice(requestedRangeStart, requestedRangeStart + requestedRangeSize) : available;
-      const matchingSession = existing || sessionForRange(studySessions, selectedBooks, requestedMode, selectedReview, list.map((item) => item.wordId), true);
+      const sourceIds = list.map((item) => item.wordId);
+      const matchingSession = existing || sessionForRange(studySessions, selectedBooks, requestedMode, selectedReview, sourceIds, true);
       const byId = new Map(list.map((item) => [item.wordId, item]));
-      const originalIds = matchingSession?.wordIds || list.map((item) => item.wordId);
+      const originalIds = matchingSession?.wordIds || shuffleNewRound(sourceIds);
       const queueIds = matchingSession ? (matchingSession.queue?.length ? matchingSession.queue : matchingSession.wordIds.slice(matchingSession.position || 0)).filter((id) => byId.has(id)) : originalIds;
       const ordered = originalIds.flatMap((id) => byId.get(id) || []);
       if (!ordered.length || !queueIds.length) {

@@ -46,8 +46,9 @@ export function shuffleNewRound<T>(items: T[], random: () => number = Math.rando
     const target = Math.floor(random() * (index + 1));
     [result[index], result[target]] = [result[target], result[index]];
   }
-  if (result.length > 1 && result.every((item, index) => item === items[index])) {
-    [result[0], result[1]] = [result[1], result[0]];
+  if (result.length > 1 && result[0] === items[0]) {
+    const differentIndex = result.findIndex((item, index) => index > 0 && item !== items[0]);
+    if (differentIndex > 0) [result[0], result[differentIndex]] = [result[differentIndex], result[0]];
   }
   return result;
 }

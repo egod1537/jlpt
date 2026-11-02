@@ -414,6 +414,7 @@ test("HTML flashcards restart safely and preserve review data, favorites and dur
   expect(restartedSession).toMatchObject({ results: [], position: 0 });
   expect(restartedSession.id).not.toBe(sessionBeforeRestart.id);
   expect(restartedSession.wordIds).not.toEqual(sessionBeforeRestart.wordIds);
+  expect(restartedSession.wordIds[0]).not.toBe(sessionBeforeRestart.wordIds[0]);
   expect([...restartedSession.wordIds].sort()).toEqual([...sessionBeforeRestart.wordIds].sort());
   expect(bootstrapAfterRestart.reviewStates.find((state) => state.wordId === currentWordId)).toMatchObject({ dueAt: stateBeforeRestart?.dueAt, lastRating: stateBeforeRestart?.lastRating });
   expect(await bookmarkCount()).toBe(bookmarksAfterToggle);
