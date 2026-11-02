@@ -1,12 +1,13 @@
 import { Badge } from "@/components/ui/badge";
 import { DialogContent, DialogDescription, DialogTitle } from "@/components/ui/dialog";
+import { formatNuance } from "@/lib/format-nuance";
 import type { Word, WordBook } from "@/lib/types";
 
 function Section({ title, children }: { title: string; children: React.ReactNode }) { return <section className="mt-5"><h3 className="text-sm font-bold text-app-muted">{title}</h3><div className="mt-2 leading-7 text-app-muted">{children}</div></section>; }
 
 export function WordDetail({ word, book }: { word: Word; book: WordBook }) {
   return <DialogContent aria-describedby={`description-${word.id}`}>
-    <div className="pr-10"><div className="flex flex-wrap gap-2">{word.status === "needs-review" && <Badge variant="warning">데이터 검수 필요</Badge>}{word.jlptLevels.map((level) => <Badge key={level}>{level}</Badge>)}</div><DialogTitle className="jp mt-3 text-3xl font-black">{word.term}</DialogTitle>{word.nuance && <p className="mt-2 font-semibold text-app-accent">문맥: {word.nuance}</p>}<DialogDescription id={`description-${word.id}`} className="jp mt-2 text-base text-app-muted">{word.reading ?? "읽기 미확인"}</DialogDescription></div>
+    <div className="pr-10"><div className="flex flex-wrap gap-2">{word.status === "needs-review" && <Badge variant="warning">데이터 검수 필요</Badge>}{word.jlptLevels.map((level) => <Badge key={level}>{level}</Badge>)}</div><DialogTitle className="jp mt-3 text-3xl font-black">{word.term}</DialogTitle>{word.nuance && <p className="mt-2 font-semibold text-app-accent">문맥: {formatNuance(word.nuance)}</p>}<DialogDescription id={`description-${word.id}`} className="jp mt-2 text-base text-app-muted">{word.reading ?? "읽기 미확인"}</DialogDescription></div>
     <Section title="뜻">{word.meanings.length ? <ul className="list-disc space-y-1 pl-5">{word.meanings.map((meaning, index) => <li key={`${meaning}-${index}`}>{meaning}</li>)}</ul> : <p>뜻 미확인</p>}</Section>
     {!!word.partOfSpeech.length && <Section title="품사"><div className="flex flex-wrap gap-2">{word.partOfSpeech.map((item) => <Badge variant="muted" key={item}>{item}</Badge>)}</div></Section>}
     {!!word.relatedTerms.length && <Section title="관련 표현"><p className="jp">{word.relatedTerms.join(" · ")}</p></Section>}

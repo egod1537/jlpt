@@ -13,6 +13,7 @@ import { isResumableStudySession, studySessionProgress } from "@/lib/study-sessi
 import { shuffleNewRound } from "@/lib/study";
 import { resolveStudyTitle } from "@/lib/study-title";
 import { FittedStudyTerm, FittedStudyDetails } from "@/components/study/fitted-study-term";
+import { formatNuance } from "@/lib/format-nuance";
 
 type Rating = "again" | "hard" | "good" | "easy";
 type Mode = "all" | "unseen" | "due" | "weak";
@@ -472,7 +473,7 @@ export function MobileStudyPage() {
             <p role="group" aria-label="한국어 뜻 텍스트 필드" aria-live="polite" aria-atomic="true" className="font-medium text-app-meaning">
               <span className={showMeaning ? "" : "invisible"}>{entry.meanings.join(", ") || "뜻 미확인"}</span>
             </p>
-            {entry.nuance ? <p data-testid="study-nuance-slot" className="text-app-warning">{entry.nuance}</p> : null}
+            {entry.nuance ? <p data-testid="study-nuance-slot" className="text-app-warning">{formatNuance(entry.nuance)}</p> : null}
             {entry.examples[0] ? <p data-testid="study-example-slot" lang="ja" className="jp">{highlightedExample(entry.examples[0].ja)}</p> : null}
             {entry.examples[0]?.ko ? <p className={"text-orange-400 " + (showMeaning ? "" : "invisible")}>{entry.examples[0].ko}</p> : null}
           </FittedStudyDetails>

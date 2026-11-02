@@ -87,7 +87,7 @@ test("folder flashcards keep the selected learning scope title", async ({ page }
 test("flashcards show optional nuance and example translations", async ({ page }) => {
   await page.goto("/study?books=html-n1-yuui-79-84&rangeStart=6&rangeSize=1&start=1");
   await expect(page.getByRole("heading", { name: "生地" })).toBeVisible();
-  await expect(page.getByText("타고난 바탕", { exact: true })).toBeVisible();
+  await expect(page.getByText("「타고난 바탕」", { exact: true })).toBeVisible();
   await expect(page.getByText("뉘앙스", { exact: true })).toHaveCount(0);
   await expect(page.getByText(/酒が入ると彼の生地が出る。/)).toBeVisible();
   const translation = page.getByText("술이 들어가면 그의 본바탕이 드러난다.", { exact: true });
