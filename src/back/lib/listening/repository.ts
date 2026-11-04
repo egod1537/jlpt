@@ -331,6 +331,29 @@ export function enqueueListeningJob(db: AppDatabase, audioId: string, type: List
   return { job: getListeningJob(db, jobId), replayed: false };
 }
 
+export function reprocessListeningSet(db: AppDatabase, setId: string, idempotencyKey?: string) {
+  const rawKey = idempotencyKey?.trim() || randomUUID();
+  if (rawKey.length > 200) throw new ListeningFailure(400, "VALIDATION", "Idempotency-Key가 너무 깁니다.");
+  const batchKey = createHash("sha256").update(rawKey).digest("hex");
+  const reprocess = db.transaction(() => {
+    const set = getListeningSet(db, setId);
+    let queuedCount = 0;
+    let activeCount = 0;
+    let skippedCount = 0;
+    let replayedCount = 0;
+    for (const audio of set.audio) {
+      if (audio.status === "missing") { skippedCount += 1; continue; }
+      const active = db.prepare("SELECT 1 FROM listening_jobs WHERE audio_id=? AND state IN ('queued','running','waiting_auth') LIMIT 1").get(audio.id);
+      if (active) { activeCount += 1; continue; }
+      const type: ListeningJob["type"] = audio.scriptVersionId ? "gpt_process" : "transcribe";
+      const result = enqueueListeningJob(db, audio.id, type, `set-reprocess:${batchKey}:${audio.id}`);
+      if (result.replayed) replayedCount += 1; else queuedCount += 1;
+    }
+    return { totalCount: set.audio.length, queuedCount, activeCount, skippedCount, replayedCount };
+  });
+  return reprocess();
+}
+
 export function getListeningJob(db: AppDatabase, jobId: string) {
   const row = db.prepare("SELECT * FROM listening_jobs WHERE id=?").get(jobId) as Row | undefined;
   if (!row) throw new ListeningFailure(404, "NOT_FOUND", "작업을 찾을 수 없습니다.");

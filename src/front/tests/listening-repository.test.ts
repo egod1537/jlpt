@@ -1,3 +1,4 @@
+// @vitest-environment node
 import { afterEach, describe, expect, it, vi } from "vitest";
 
 vi.mock("server-only", () => ({}));
@@ -19,6 +20,7 @@ import {
   getListeningSet,
   listListeningLibrary,
   registerListeningAudio,
+  reprocessListeningSet,
   restoreListeningAudio,
   restoreListeningFolder,
   restoreListeningSet,
@@ -155,6 +157,29 @@ describe("listening repository", () => {
     ]));
     expect(db.prepare("SELECT COUNT(*) count FROM listening_jobs WHERE state='failed'").get()).toEqual({ count: 3 });
     expect(retryFailedListeningAudio(db)).toEqual({ failedCount: 0, queuedCount: 0, remainingFailedCount: 0 });
+  });
+
+  it("regenerates every available script in a set without duplicating active jobs", () => {
+    db = openDatabase(":memory:");
+    const set = createListeningSet(db, { title: "세트 일괄 재생성" });
+    const rawAudio = registerListeningAudio(db, { setId: set.id, originalName: "raw.wav", storedKey: "raw.wav", mimeType: "audio/wav", sizeBytes: 44, sha256: "1".repeat(64) });
+    const scriptedAudio = registerListeningAudio(db, { setId: set.id, originalName: "scripted.wav", storedKey: "scripted.wav", mimeType: "audio/wav", sizeBytes: 44, sha256: "2".repeat(64) });
+    const missingAudio = registerListeningAudio(db, { setId: set.id, originalName: "missing.wav", storedKey: "missing.wav", mimeType: "audio/wav", sizeBytes: 44, sha256: "3".repeat(64) });
+    const raw = createTranscriptVersion(db, {
+      audioId: scriptedAudio.id, kind: "whisper_raw", rawPayload: {},
+      segments: [{ startMs: 0, endMs: 1_000, speaker: null, ja: "原文", ko: null, needsReview: false, reviewNote: null, sourceSegmentIds: ["whisper:0"] }],
+    });
+    activateTranscriptVersion(db, scriptedAudio.id, raw.id, scriptedAudio.revision);
+    db.prepare("UPDATE listening_audio SET status='missing' WHERE id=?").run(missingAudio.id);
+
+    expect(reprocessListeningSet(db, set.id, "set-batch-1")).toEqual({ totalCount: 3, queuedCount: 2, activeCount: 0, skippedCount: 1, replayedCount: 0 });
+    const queued = db.prepare("SELECT audio_id,type,state,input_version_id FROM listening_jobs WHERE state='queued' ORDER BY audio_id").all() as Array<Record<string, unknown>>;
+    expect(queued).toEqual(expect.arrayContaining([
+      expect.objectContaining({ audio_id: rawAudio.id, type: "transcribe", state: "queued", input_version_id: null }),
+      expect.objectContaining({ audio_id: scriptedAudio.id, type: "gpt_process", state: "queued", input_version_id: raw.id }),
+    ]));
+    expect(reprocessListeningSet(db, set.id, "set-batch-2")).toEqual({ totalCount: 3, queuedCount: 0, activeCount: 2, skippedCount: 1, replayedCount: 0 });
+    expect(db.prepare("SELECT COUNT(*) count FROM listening_jobs").get()).toEqual({ count: 2 });
   });
 });
 
