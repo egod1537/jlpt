@@ -73,20 +73,25 @@ describe("durable listening worker", () => {
     expect(db.prepare("SELECT state FROM listening_jobs WHERE audio_id=? AND type='gpt_process'").get(audioId)).toEqual({ state: "queued" });
     expect(adapter.submittedKeys).toEqual(["worker-success"]);
 
+    let receivedAudio: unknown;
     await runListeningWorkerOnce(db, {
       workerId: "test-gpt-worker",
       gptAdapter: {
-        process: async (segments) => ({
-          model: "gpt-test",
-          promptVersion: "test-v1",
-          rawPayload: { fixture: true },
-          segments: segments.map((segment) => ({
-            startMs: segment.startMs, endMs: segment.endMs, speaker: null, ja: segment.ja,
-            ko: `번역: ${segment.ja}`, needsReview: false, reviewNote: null, sourceSegmentIds: segment.sourceSegmentIds,
-          })),
-        }),
+        process: async (segments, audioInput) => {
+          receivedAudio = audioInput;
+          return {
+            model: "gpt-test",
+            promptVersion: "test-v1",
+            rawPayload: { fixture: true },
+            segments: segments.map((segment) => ({
+              startMs: segment.startMs, endMs: segment.endMs, speaker: null, ja: segment.ja,
+              ko: `번역: ${segment.ja}`, needsReview: false, reviewNote: null, sourceSegmentIds: segment.sourceSegmentIds,
+            })),
+          };
+        },
       },
     });
+    expect(receivedAudio).toEqual({ data: Buffer.from("fixture audio bytes").toString("base64"), format: "wav" });
     expect(getActiveTranscript(db, audioId).script).toMatchObject({ kind: "gpt_processed", modelName: "gpt-test", promptVersion: "test-v1" });
     expect(getListeningAudio(db, audioId).status).toBe("ready");
   });

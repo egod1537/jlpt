@@ -24,6 +24,7 @@ import {
 import {
   type GptListeningAdapter,
   OpenAiListeningFailure,
+  prepareGptListeningAudio,
   ResponsesGptListeningAdapter,
 } from "@/lib/server/openai-listening";
 
@@ -87,7 +88,14 @@ async function processGptJob(db: AppDatabase, job: ClaimedJob, workerId: string,
   const adapter = dependencies.gptAdapter ?? new ResponsesGptListeningAdapter();
   const heartbeat = startLeaseHeartbeat(db, job.id, workerId, dependencies);
   try {
-    const result = await adapter.process(inputVersion.segments, heartbeat.signal);
+    const audio = getListeningAudio(db, job.audioId);
+    const stored = await openStoredAudio(audio.storedKey);
+    const audioInput = await prepareGptListeningAudio({
+      filePath: stored.absolutePath,
+      mimeType: audio.mimeType,
+      sizeBytes: stored.size,
+    }, heartbeat.signal);
+    const result = await adapter.process(inputVersion.segments, audioInput, heartbeat.signal);
     heartbeat.assertActive();
     const finalize = db.transaction(() => {
       const completedAt = dependencies.now?.() ?? new Date();
