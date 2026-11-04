@@ -9,7 +9,6 @@ const source: ListeningSegment[] = [
   { id: "s0", ordinal: 0, startMs: 0, endMs: 1_000, speaker: null, ja: "価格は100円です。", ko: null, needsReview: false, reviewNote: null, sourceSegmentIds: ["whisper:0"] },
   { id: "s1", ordinal: 1, startMs: 1_000, endMs: 2_000, speaker: null, ja: "安いですね。", ko: null, needsReview: false, reviewNote: null, sourceSegmentIds: ["whisper:1"] },
 ];
-const audio = { data: Buffer.from("fixture mp3 bytes").toString("base64"), format: "mp3" as const };
 
 describe("OpenAI listening correction", () => {
   it("uses OAuth Responses streaming constraints and validates structured output", async () => {
@@ -27,7 +26,7 @@ describe("OpenAI listening correction", () => {
       { status: 200, headers: { "Content-Type": "text/event-stream" } },
     ));
     const adapter = new ResponsesGptListeningAdapter("gpt-test", fetcher, async () => "oauth-token");
-    const result = await adapter.process(source, audio);
+    const result = await adapter.process(source);
 
     expect(result.segments).toMatchObject([{ startMs: 0, endMs: 2_000, ja: "価格は100円です。安いですね。", ko: "가격은 100엔입니다. 싸네요." }]);
     const [, init] = fetcher.mock.calls[0];
@@ -36,10 +35,7 @@ describe("OpenAI listening correction", () => {
     expect(requestBody).toMatchObject({ model: "gpt-test", store: false, stream: true, text: { format: { type: "json_schema", strict: true } } });
     expect(requestBody).not.toHaveProperty("background");
     expect(requestBody).not.toHaveProperty("previous_response_id");
-    expect(requestBody.input[0].content).toEqual(expect.arrayContaining([
-      expect.objectContaining({ type: "input_text" }),
-      { type: "input_audio", input_audio: audio },
-    ]));
+    expect(String(init?.body)).not.toContain("input_audio");
   });
 
   it("rejects invented sources, timings, changed numbers, and omitted translations", () => {
@@ -52,12 +48,12 @@ describe("OpenAI listening correction", () => {
 
   it("classifies rate limits as retryable without exposing upstream content", async () => {
     const adapter = new ResponsesGptListeningAdapter("gpt-test", vi.fn<typeof fetch>().mockResolvedValue(new Response("secret upstream body", { status: 429 })), async () => "oauth-token");
-    await expect(adapter.process(source, audio)).rejects.toMatchObject({ code: "OPENAI_HTTP_429", retryable: true, waitingAuth: false });
+    await expect(adapter.process(source)).rejects.toMatchObject({ code: "OPENAI_HTTP_429", retryable: true, waitingAuth: false });
   });
 
   it("classifies a stream abort after response headers as a retryable timeout", async () => {
     const abortedStream = new ReadableStream<Uint8Array>({ start(controller) { controller.error(new DOMException("aborted", "AbortError")); } });
     const adapter = new ResponsesGptListeningAdapter("gpt-test", vi.fn<typeof fetch>().mockResolvedValue(new Response(abortedStream, { status: 200 })), async () => "oauth-token");
-    await expect(adapter.process(source, audio, AbortSignal.abort())).rejects.toMatchObject({ code: "OPENAI_TIMEOUT", retryable: true });
+    await expect(adapter.process(source, AbortSignal.abort())).rejects.toMatchObject({ code: "OPENAI_TIMEOUT", retryable: true });
   });
 });
