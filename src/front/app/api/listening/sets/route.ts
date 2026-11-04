@@ -42,6 +42,7 @@ function setDto(set: ReturnType<typeof createListeningSet>) {
     id: set.id, folderId: set.folderId, title: set.title, description: set.description,
     sortIndex: set.sortIndex, favorite: set.favorite, revision: set.revision,
     audioCount: set.audioCount, durationMs: set.durationMs, lastPlayedAt: set.lastPlayedAt,
+    activeJobCount: set.activeJobCount, queuedJobCount: set.queuedJobCount, runningJobCount: set.runningJobCount,
     createdAt: set.createdAt, updatedAt: set.updatedAt,
   };
 }

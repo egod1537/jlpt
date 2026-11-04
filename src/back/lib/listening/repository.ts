@@ -59,6 +59,8 @@ function setFrom(row: Row): ListeningSetSummary {
     description: text(row.description), sortIndex: Number(row.sort_index), favorite: bool(row.favorite),
     revision: Number(row.revision), audioCount: Number(row.audio_count ?? 0),
     durationMs: Number(row.duration_ms ?? 0), lastPlayedAt: nullableText(row.last_played_at),
+    activeJobCount: Number(row.active_job_count ?? 0), queuedJobCount: Number(row.queued_job_count ?? 0),
+    runningJobCount: Number(row.running_job_count ?? 0),
     createdAt: text(row.created_at), updatedAt: text(row.updated_at),
   };
 }
@@ -90,7 +92,10 @@ const setSummarySql = `
   SELECT s.*,
     COUNT(a.id) AS audio_count,
     COALESCE(SUM(a.duration_ms), 0) AS duration_ms,
-    MAX(a.last_played_at) AS last_played_at
+    MAX(a.last_played_at) AS last_played_at,
+    (SELECT COUNT(*) FROM listening_jobs j JOIN listening_audio ja ON ja.id=j.audio_id WHERE ja.set_id=s.id AND ja.deleted_at IS NULL AND j.state IN ('queued','running','waiting_auth')) AS active_job_count,
+    (SELECT COUNT(*) FROM listening_jobs j JOIN listening_audio ja ON ja.id=j.audio_id WHERE ja.set_id=s.id AND ja.deleted_at IS NULL AND j.state='queued') AS queued_job_count,
+    (SELECT COUNT(*) FROM listening_jobs j JOIN listening_audio ja ON ja.id=j.audio_id WHERE ja.set_id=s.id AND ja.deleted_at IS NULL AND j.state='running') AS running_job_count
   FROM listening_sets s
   LEFT JOIN listening_audio a ON a.set_id=s.id AND a.deleted_at IS NULL
 `;
@@ -352,6 +357,27 @@ export function reprocessListeningSet(db: AppDatabase, setId: string, idempotenc
     return { totalCount: set.audio.length, queuedCount, activeCount, skippedCount, replayedCount };
   });
   return reprocess();
+}
+
+export function listActiveListeningJobsForSet(db: AppDatabase, setId: string) {
+  const rows = db.prepare(`
+    WITH queued_positions AS (
+      SELECT id,ROW_NUMBER() OVER (ORDER BY created_at,id) AS queue_position
+      FROM listening_jobs WHERE state='queued'
+    ), ranked AS (
+      SELECT j.*,q.queue_position,
+        ROW_NUMBER() OVER (
+          PARTITION BY j.audio_id
+          ORDER BY CASE j.state WHEN 'running' THEN 0 WHEN 'waiting_auth' THEN 1 ELSE 2 END,j.created_at DESC,j.id DESC
+        ) AS audio_rank
+      FROM listening_jobs j
+      JOIN listening_audio a ON a.id=j.audio_id AND a.deleted_at IS NULL
+      LEFT JOIN queued_positions q ON q.id=j.id
+      WHERE a.set_id=? AND j.state IN ('queued','running','waiting_auth')
+    )
+    SELECT * FROM ranked WHERE audio_rank=1 ORDER BY created_at,id
+  `).all(setId) as Row[];
+  return rows.map((row) => ({ ...jobFrom(row), queuePosition: nullableNumber(row.queue_position) }));
 }
 
 export function getListeningJob(db: AppDatabase, jobId: string) {

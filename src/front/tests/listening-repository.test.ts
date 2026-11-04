@@ -18,6 +18,7 @@ import {
   getActiveTranscript,
   getListeningAudio,
   getListeningSet,
+  listActiveListeningJobsForSet,
   listListeningLibrary,
   registerListeningAudio,
   reprocessListeningSet,
@@ -73,7 +74,7 @@ describe("listening repository", () => {
     });
     const activated = activateTranscriptVersion(db, audio.id, raw.id, audio.revision);
 
-    expect(getListeningSet(db, set.id)).toMatchObject({ audioCount: 1, durationMs: 2_000 });
+    expect(getListeningSet(db, set.id)).toMatchObject({ audioCount: 1, durationMs: 2_000, activeJobCount: 0, queuedJobCount: 0, runningJobCount: 0 });
     expect(listListeningLibrary(db, { q: "모의" }).sets).toHaveLength(1);
     expect(activated.activated).toBe(true);
     expect(getActiveTranscript(db, audio.id).script?.segments[0]).toMatchObject({ ja: "今日は。", startMs: 0, endMs: 1_000 });
@@ -173,6 +174,11 @@ describe("listening repository", () => {
     db.prepare("UPDATE listening_audio SET status='missing' WHERE id=?").run(missingAudio.id);
 
     expect(reprocessListeningSet(db, set.id, "set-batch-1")).toEqual({ totalCount: 3, queuedCount: 2, activeCount: 0, skippedCount: 1, replayedCount: 0 });
+    expect(getListeningSet(db, set.id)).toMatchObject({ activeJobCount: 2, queuedJobCount: 2, runningJobCount: 0 });
+    expect(listActiveListeningJobsForSet(db, set.id).map((job) => ({ audioId: job.audioId, state: job.state, queuePosition: job.queuePosition }))).toEqual(expect.arrayContaining([
+      { audioId: rawAudio.id, state: "queued", queuePosition: expect.any(Number) },
+      { audioId: scriptedAudio.id, state: "queued", queuePosition: expect.any(Number) },
+    ]));
     const queued = db.prepare("SELECT audio_id,type,state,input_version_id FROM listening_jobs WHERE state='queued' ORDER BY audio_id").all() as Array<Record<string, unknown>>;
     expect(queued).toEqual(expect.arrayContaining([
       expect.objectContaining({ audio_id: rawAudio.id, type: "transcribe", state: "queued", input_version_id: null }),

@@ -9,8 +9,9 @@ import { Dialog, DialogContent, DialogDescription, DialogTitle } from "@/compone
 import { Input } from "@/components/ui/input";
 
 type ListeningFolder = { id: string; parentId: string | null; name: string; sortIndex: number; favorite: boolean; revision: number };
-type ListeningSet = { id: string; folderId: string | null; title: string; description: string; favorite: boolean; revision: number; audioCount: number; durationMs: number; lastPlayedAt: string | null };
-type ListeningAudio = { id: string; setId: string; originalName: string; mimeType: string; sizeBytes: number; durationMs: number | null; status: string; scriptVersionId: string | null; favorite: boolean; revision: number; streamUrl: string };
+type ListeningSet = { id: string; folderId: string | null; title: string; description: string; favorite: boolean; revision: number; audioCount: number; durationMs: number; lastPlayedAt: string | null; activeJobCount: number; queuedJobCount: number; runningJobCount: number };
+type ListeningActiveJob = { id: string; audioId: string; type: "transcribe" | "gpt_process"; state: "queued" | "running" | "waiting_auth"; stage: string; progress: number; attempt: number; maxAttempts: number; queuePosition: number | null };
+type ListeningAudio = { id: string; setId: string; originalName: string; mimeType: string; sizeBytes: number; durationMs: number | null; status: string; scriptVersionId: string | null; favorite: boolean; revision: number; streamUrl: string; activeJob?: ListeningActiveJob | null };
 type SetDetail = ListeningSet & { audio: ListeningAudio[] };
 type Filter = "all" | "recent" | "favorites" | "unfiled";
 
@@ -30,9 +31,9 @@ export function ListeningLibraryPage() {
   const requestRef = useRef<AbortController | null>(null); const setCountRef = useRef(0);
   useEffect(() => { setCountRef.current = sets.length; }, [sets.length]);
 
-  const loadLibrary = useCallback(async (append = false) => {
+  const loadLibrary = useCallback(async (append = false, silent = false) => {
     requestRef.current?.abort(); const controller = new AbortController(); requestRef.current = controller;
-    if (append) setLoadingMore(true); else setLoading(true);
+    if (append) setLoadingMore(true); else if (!silent) setLoading(true);
     try {
       const params = new URLSearchParams({ filter, limit: "50", offset: append ? String(setCountRef.current) : "0" });
       if (query.trim()) params.set("q", query.trim());
@@ -48,7 +49,7 @@ export function ListeningLibraryPage() {
     } catch (reason) {
       if (reason instanceof DOMException && reason.name === "AbortError") return;
       setError(reason instanceof Error ? reason.message : "청해 목록을 불러오지 못했습니다.");
-    } finally { if (!controller.signal.aborted) { setLoading(false); setLoadingMore(false); } }
+    } finally { if (!controller.signal.aborted) { if (!silent) setLoading(false); setLoadingMore(false); } }
   }, [filter, query]);
 
   useEffect(() => { const timer = setTimeout(() => { setCountRef.current = 0; void loadLibrary(false); }, 220); return () => { clearTimeout(timer); requestRef.current?.abort(); }; }, [loadLibrary]);
@@ -75,10 +76,16 @@ export function ListeningLibraryPage() {
   }, []);
 
   useEffect(() => {
-    const pending = Object.values(details).filter((detail) => detail.audio.some((audio) => ["queued", "transcribing", "transcribed", "correcting"].includes(audio.status))).map((detail) => detail.id);
+    const pending = Object.values(details).filter((detail) => detail.audio.some((audio) => audio.activeJob || ["queued", "transcribing", "transcribed", "correcting"].includes(audio.status))).map((detail) => detail.id);
     if (!pending.length) return;
     const timer = setInterval(() => pending.forEach((setId) => void loadSet(setId)), 3_000); return () => clearInterval(timer);
   }, [details, loadSet]);
+
+  useEffect(() => {
+    if (!sets.some((set) => set.activeJobCount > 0)) return;
+    const timer = setInterval(() => void loadLibrary(false, true), 5_000);
+    return () => clearInterval(timer);
+  }, [loadLibrary, sets]);
 
   const toggleSet = async (setId: string) => {
     const opening = !expandedSets.has(setId); setExpandedSets((current) => toggleInSet(current, setId));
@@ -86,6 +93,7 @@ export function ListeningLibraryPage() {
   };
   const tree = useMemo(() => buildFolderTree(folders, sets), [folders, sets]);
   const unfiled = sets.filter((set) => set.folderId === null || !folders.some((folder) => folder.id === set.folderId));
+  const jobTotals = sets.reduce((total, set) => ({ active: total.active + Number(set.activeJobCount || 0), queued: total.queued + Number(set.queuedJobCount || 0), running: total.running + Number(set.runningJobCount || 0) }), { active: 0, queued: 0, running: 0 });
 
   const mutate = async (url: string, method: "PATCH" | "DELETE", body?: unknown, refreshSetId?: string) => {
     try {
@@ -136,7 +144,7 @@ export function ListeningLibraryPage() {
       if (replayed) details.push(`${replayed}개 이미 요청됨`);
       if (skipped) details.push(`${skipped}개 파일 누락`);
       setBatchMessage(`${set.title}: ${details.join(" · ")}`);
-      await loadSet(set.id);
+      await Promise.all([loadSet(set.id), loadLibrary(false, true)]);
     } catch (reason) {
       setError(reason instanceof Error ? reason.message : "세트 스크립트를 다시 생성하지 못했습니다.");
     } finally {
@@ -149,6 +157,7 @@ export function ListeningLibraryPage() {
     <div className="relative mt-5"><label htmlFor="listening-search" className="sr-only">청해 폴더·세트 검색</label><Search aria-hidden="true" className="absolute left-3 top-3.5 h-4 w-4 text-app-muted" /><Input id="listening-search" className="pl-10" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="폴더·세트 검색..." /></div>
     <div className="-mx-4 mt-3 flex gap-2 overflow-x-auto px-4 pb-1" aria-label="청해 빠른 필터">{filters.map(([value, label]) => <button key={value} type="button" onClick={() => setFilter(value)} aria-pressed={filter === value} className={`min-h-11 shrink-0 rounded-full px-4 text-sm font-bold ${filter === value ? "bg-app-accent-surface text-app-text" : "bg-app-surface text-app-muted ring-1 ring-app-border"}`}>{label}</button>)}</div>
     <div className={`mt-3 flex min-h-14 items-center justify-between gap-3 rounded-xl border px-3 py-2 ${failedCount ? "border-red-900/70 bg-red-950/30" : "border-app-border bg-app-surface"}`}><div className="min-w-0"><p className={`text-sm font-bold ${failedCount ? "text-red-200" : "text-app-muted"}`}>{failedCount ? `처리 실패 ${failedCount}개` : "처리 실패 없음"}</p>{batchMessage ? <p className="mt-0.5 truncate text-xs text-app-muted" aria-live="polite">{batchMessage}</p> : null}</div><Button type="button" variant="outline" className="min-h-11 shrink-0" disabled={!failedCount || retryingFailed} onClick={() => void retryAllFailed()}>{retryingFailed ? <LoaderCircle aria-hidden="true" className="h-4 w-4 animate-spin" /> : <RotateCcw aria-hidden="true" className="h-4 w-4" />}모두 다시 시도</Button></div>
+    <div className="mt-3 rounded-xl border border-app-border bg-app-surface px-4 py-3" aria-label="스크립트 처리 큐" aria-live="polite"><div className="flex items-center justify-between gap-3"><p className="text-sm font-black">스크립트 처리 큐</p>{jobTotals.active ? <span className="text-xs font-bold text-app-accent">총 {jobTotals.active}개</span> : null}</div>{jobTotals.active ? <div className="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-xs text-app-muted"><span>처리 중 <b className="text-app-text">{jobTotals.running}</b></span><span>대기 <b className="text-app-text">{jobTotals.queued}</b></span><span>연결 대기 <b className="text-app-text">{Math.max(0, jobTotals.active - jobTotals.running - jobTotals.queued)}</b></span></div> : <p className="mt-1 text-xs text-app-muted">현재 처리 중인 스크립트가 없습니다.</p>}</div>
     <section className="mt-6 rounded-xl border border-app-border bg-app-surface p-2" aria-labelledby="listening-tree-heading">
       <div className="flex items-center justify-between px-2 py-2"><h2 id="listening-tree-heading" className="text-xs font-black uppercase tracking-wider text-app-muted">모든 청해</h2>{loading ? <LoaderCircle aria-label="불러오는 중" className="h-4 w-4 animate-spin text-app-accent" /> : null}</div>
       {error ? <div className="rounded-lg bg-red-950/40 px-3 py-3 text-sm text-red-200">{error}<button className="ml-2 underline" onClick={() => void loadLibrary(false)}>다시 시도</button></div> : null}
@@ -175,8 +184,46 @@ type AudioAction = "favorite" | "rename" | "move" | "delete" | "retry";
 function SetRow({ set, detail, depth, open, reprocessing, menu, onMenu, onToggle, onFavorite, onRename, onMove, onDelete, onReprocess, onAudioAction }: { set: ListeningSet; detail?: SetDetail; depth: number; open: boolean; reprocessing: boolean; menu: string | null; onMenu: (id: string | null) => void; onToggle: () => void; onFavorite: () => void; onRename: () => void; onMove: () => void; onDelete: () => void; onReprocess: () => void; onAudioAction: (action: AudioAction, audio: ListeningAudio) => void }) {
   return <div className="relative ml-4 sm:ml-6" style={{ marginLeft: `${16 + Math.min(depth, 5) * 4}px` }}><div className="flex items-center rounded-lg hover:bg-app-raised"><button type="button" onClick={onToggle} aria-expanded={open} aria-label={`${set.title} ${open ? "접기" : "펼치기"}`} className="flex min-h-16 min-w-0 flex-1 items-center gap-3 px-2 py-2 text-left"><span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-app-raised text-app-accent"><AudioLines className="h-5 w-5" /></span><span className="min-w-0 flex-1"><span className="block truncate text-sm font-semibold">{set.title}</span><span className="mt-1 flex items-center gap-1 text-[11px] text-app-muted">음원 {set.audioCount}개 · <Clock3 className="h-3 w-3" />{formatDuration(set.durationMs)}</span></span>{set.favorite ? <Star className="h-4 w-4 shrink-0 fill-app-warning text-app-warning" /> : null}{open ? <ChevronDown className="h-4 w-4 text-app-muted" /> : <ChevronRight className="h-4 w-4 text-app-muted" />}</button><button type="button" aria-label={`${set.title} 메뉴`} onClick={() => onMenu(menu === `s:${set.id}` ? null : `s:${set.id}`)} className="h-11 w-11 shrink-0 rounded-lg text-app-muted"><MoreVertical className="mx-auto h-4 w-4" /></button></div>
     {menu === `s:${set.id}` ? <RowMenu><button onClick={onFavorite}>{set.favorite ? "즐겨찾기 해제" : "즐겨찾기"}</button><button onClick={onRename}>이름 변경</button><button onClick={onMove}>폴더 이동</button><button onClick={onDelete}>삭제</button></RowMenu> : null}
-    {open ? <div className="ml-5 border-l border-app-border pl-2">{!detail ? <p className="py-3 text-xs text-app-muted">음원을 불러오는 중...</p> : <><Button type="button" variant="outline" className="my-2 min-h-11 w-full" aria-label={`${set.title} 스크립트 다시 생성`} disabled={!detail.audio.length || reprocessing} onClick={onReprocess}>{reprocessing ? <LoaderCircle aria-hidden="true" className="h-4 w-4 animate-spin" /> : <RotateCcw aria-hidden="true" className="h-4 w-4" />}{reprocessing ? "요청 중…" : "스크립트 다시 생성"}</Button>{detail.audio.length ? detail.audio.map((audio) => <div key={audio.id} className="relative flex items-center rounded-lg hover:bg-app-raised"><Link href={`/listening/audio/${audio.id}`} className="flex min-h-14 min-w-0 flex-1 items-center gap-3 px-2 py-2"><FileAudio className="h-4 w-4 shrink-0 text-app-accent" /><span className="min-w-0 flex-1"><span className="block truncate text-sm">{audio.originalName}</span><span className={`text-[11px] ${audio.status === "failed" ? "text-red-300" : "text-app-muted"}`}>{statusLabel[audio.status] || audio.status}{audio.durationMs !== null ? ` · ${formatDuration(audio.durationMs)}` : ""}</span></span>{audio.favorite ? <Star className="h-3 w-3 fill-app-warning text-app-warning" /> : null}<ChevronRight className="h-4 w-4 text-app-muted" /></Link><button type="button" className="h-11 w-11 shrink-0 text-app-muted" aria-label={`${audio.originalName} 메뉴`} onClick={() => onMenu(menu === `a:${audio.id}` ? null : `a:${audio.id}`)}><MoreVertical className="mx-auto h-4 w-4" /></button>{menu === `a:${audio.id}` ? <RowMenu><button onClick={() => onAudioAction("favorite", audio)}>{audio.favorite ? "즐겨찾기 해제" : "즐겨찾기"}</button><button onClick={() => onAudioAction("rename", audio)}>이름 변경</button><button onClick={() => onAudioAction("move", audio)}>세트 이동</button><button onClick={() => onAudioAction("retry", audio)}>GPT/Whisper 다시 처리</button><button onClick={() => onAudioAction("delete", audio)}>삭제</button></RowMenu> : null}</div>) : <p className="py-3 text-xs text-app-muted">이 세트에는 아직 음원이 없습니다.</p>}</>}</div> : null}
+    {open ? <SetDetailBody set={set} detail={detail} reprocessing={reprocessing} menu={menu} onMenu={onMenu} onReprocess={onReprocess} onAudioAction={onAudioAction} /> : null}
   </div>;
+}
+
+function SetDetailBody({ set, detail, reprocessing, menu, onMenu, onReprocess, onAudioAction }: { set: ListeningSet; detail?: SetDetail; reprocessing: boolean; menu: string | null; onMenu: (id: string | null) => void; onReprocess: () => void; onAudioAction: (action: AudioAction, audio: ListeningAudio) => void }) {
+  if (!detail) return <div className="ml-5 border-l border-app-border pl-2"><p className="py-3 text-xs text-app-muted">음원을 불러오는 중...</p></div>;
+  const eligible = detail.audio.filter((audio) => audio.status !== "missing");
+  const active = eligible.filter((audio) => audio.activeJob);
+  const queued = active.filter((audio) => audio.activeJob?.state === "queued").length;
+  const ready = eligible.filter((audio) => audio.status === "ready").length;
+  const failed = eligible.filter((audio) => audio.status === "failed").length;
+  const processing = active.length > 0 || eligible.some((audio) => ["queued", "transcribing", "transcribed", "correcting"].includes(audio.status));
+  const overall = eligible.length ? Math.round(eligible.reduce((sum, audio) => sum + audioProgress(audio), 0) / eligible.length) : 0;
+  return <div className="ml-5 border-l border-app-border pl-2">
+    <Button type="button" variant="outline" className="my-2 min-h-11 w-full" aria-label={`${set.title} 스크립트 다시 생성`} disabled={!detail.audio.length || reprocessing} onClick={onReprocess}>{reprocessing ? <LoaderCircle aria-hidden="true" className="h-4 w-4 animate-spin" /> : <RotateCcw aria-hidden="true" className="h-4 w-4" />}{reprocessing ? "요청 중…" : "스크립트 다시 생성"}</Button>
+    {processing ? <div className="mb-2 rounded-lg bg-app-bg p-3" aria-label={`${set.title} 스크립트 처리 진행 상황`}><div className="flex items-center justify-between gap-2 text-xs"><span className="font-bold">세트 처리 진행</span><span className="tabular-nums text-app-accent">{overall}%</span></div><div className="mt-2 h-2 overflow-hidden rounded-full bg-app-border" role="progressbar" aria-label={`${set.title} 전체 진행률`} aria-valuemin={0} aria-valuemax={100} aria-valuenow={overall}><div className="h-full rounded-full bg-app-accent transition-[width] duration-300" style={{ width: `${overall}%` }} /></div><p className="mt-2 text-[11px] text-app-muted">완료 {ready}/{eligible.length} · 처리 중 {active.length - queued} · 대기 {queued}{failed ? ` · 실패 ${failed}` : ""}</p></div> : null}
+    {detail.audio.length ? detail.audio.map((audio) => <AudioProgressRow key={audio.id} audio={audio} menu={menu} onMenu={onMenu} onAudioAction={onAudioAction} />) : <p className="py-3 text-xs text-app-muted">이 세트에는 아직 음원이 없습니다.</p>}
+  </div>;
+}
+
+function AudioProgressRow({ audio, menu, onMenu, onAudioAction }: { audio: ListeningAudio; menu: string | null; onMenu: (id: string | null) => void; onAudioAction: (action: AudioAction, audio: ListeningAudio) => void }) {
+  const progress = audioProgress(audio);
+  const job = audio.activeJob;
+  return <div className="relative flex items-center rounded-lg hover:bg-app-raised"><Link href={`/listening/audio/${audio.id}`} className="flex min-h-14 min-w-0 flex-1 items-center gap-3 px-2 py-2"><FileAudio className="h-4 w-4 shrink-0 text-app-accent" /><span className="min-w-0 flex-1"><span className="block truncate text-sm">{audio.originalName}</span><span className={`block text-[11px] ${audio.status === "failed" ? "text-red-300" : "text-app-muted"}`}>{statusLabel[audio.status] || audio.status}{audio.durationMs !== null ? ` · ${formatDuration(audio.durationMs)}` : ""}</span>{job ? <><span className="mt-0.5 block text-[11px] font-semibold text-app-accent">{jobStatus(job)}{job.state !== "waiting_auth" ? ` · ${progress}%` : ""}</span><span className="mt-1 block h-1.5 overflow-hidden rounded-full bg-app-border" role="progressbar" aria-label={`${audio.originalName} 처리 진행률`} aria-valuemin={0} aria-valuemax={100} aria-valuenow={progress}><span className={`block h-full rounded-full bg-app-accent ${job.type === "gpt_process" && job.state === "running" ? "animate-pulse" : "transition-[width] duration-300"}`} style={{ width: `${Math.max(progress, job.state === "running" ? 8 : 0)}%` }} /></span></> : null}</span>{audio.favorite ? <Star className="h-3 w-3 fill-app-warning text-app-warning" /> : null}<ChevronRight className="h-4 w-4 text-app-muted" /></Link><button type="button" className="h-11 w-11 shrink-0 text-app-muted" aria-label={`${audio.originalName} 메뉴`} onClick={() => onMenu(menu === `a:${audio.id}` ? null : `a:${audio.id}`)}><MoreVertical className="mx-auto h-4 w-4" /></button>{menu === `a:${audio.id}` ? <RowMenu><button onClick={() => onAudioAction("favorite", audio)}>{audio.favorite ? "즐겨찾기 해제" : "즐겨찾기"}</button><button onClick={() => onAudioAction("rename", audio)}>이름 변경</button><button onClick={() => onAudioAction("move", audio)}>세트 이동</button><button onClick={() => onAudioAction("retry", audio)}>GPT/Whisper 다시 처리</button><button onClick={() => onAudioAction("delete", audio)}>삭제</button></RowMenu> : null}</div>;
+}
+
+function audioProgress(audio: ListeningAudio) {
+  const job = audio.activeJob;
+  if (job) {
+    if (job.state === "queued" || job.state === "waiting_auth") return 0;
+    if (job.progress > 0) return Math.min(99, job.progress);
+    return job.type === "gpt_process" ? 90 : 10;
+  }
+  return ({ uploaded: 0, queued: 0, transcribing: 10, transcribed: 85, correcting: 90, ready: 100, failed: 100, missing: 0 } as Record<string, number>)[audio.status] ?? 0;
+}
+
+function jobStatus(job: ListeningActiveJob) {
+  if (job.state === "waiting_auth") return "OpenAI 연결 대기";
+  if (job.state === "queued") return `대기열 ${job.queuePosition ? `${job.queuePosition}번` : "대기 중"}`;
+  return job.type === "transcribe" ? "Whisper 전사 중" : "GPT 교정·번역 중";
 }
 
 function RowMenu({ children }: { children: React.ReactNode }) { return <div role="dialog" aria-label="항목 메뉴" className="absolute right-2 top-12 z-30 flex min-w-44 flex-col rounded-xl border border-app-border bg-app-raised p-1 shadow-xl [&>button]:min-h-11 [&>button]:rounded-lg [&>button]:px-3 [&>button]:text-left [&>button]:text-sm [&>button]:hover:bg-app-surface">{children}</div>; }

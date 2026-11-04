@@ -1,6 +1,6 @@
 import type { NextRequest } from "next/server";
 import { getDatabase } from "@back/lib/db/database";
-import { deleteListeningSet, getListeningSet, updateListeningSet } from "@back/lib/listening/repository";
+import { deleteListeningSet, getListeningSet, listActiveListeningJobsForSet, updateListeningSet } from "@back/lib/listening/repository";
 import { apiJson, readLimitedJson } from "@/lib/server/api";
 import { authorize } from "@/lib/server/authorize";
 import { audioDto, listeningErrorResponse } from "@/lib/server/listening-api";
@@ -13,7 +13,8 @@ export async function GET(request: NextRequest, context: RouteContext<"/api/list
   if (!auth.ok) return auth.response;
   try {
     const { setId } = await context.params;
-    return apiJson({ set: setDetailDto(getListeningSet(getDatabase(), setId)) });
+    const db = getDatabase();
+    return apiJson({ set: setDetailDto(getListeningSet(db, setId), listActiveListeningJobsForSet(db, setId)) });
   } catch (error) {
     return listeningErrorResponse(error);
   }
@@ -25,8 +26,9 @@ export async function PATCH(request: NextRequest, context: RouteContext<"/api/li
   try {
     const { setId } = await context.params;
     const input = await readLimitedJson(request) as { revision?: number; title?: string; description?: string; folderId?: string | null; sortIndex?: number; favorite?: boolean };
-    const set = updateListeningSet(getDatabase(), setId, { ...input, revision: Number(input.revision) });
-    return apiJson({ set: setDetailDto(set) });
+    const db = getDatabase();
+    const set = updateListeningSet(db, setId, { ...input, revision: Number(input.revision) });
+    return apiJson({ set: setDetailDto(set, listActiveListeningJobsForSet(db, setId)) });
   } catch (error) {
     return listeningErrorResponse(error);
   }
@@ -44,6 +46,7 @@ export async function DELETE(request: NextRequest, context: RouteContext<"/api/l
   }
 }
 
-function setDetailDto<T extends { audio: Parameters<typeof audioDto>[0][] }>(set: T) {
-  return { ...set, audio: set.audio.map(audioDto) };
+function setDetailDto<T extends { audio: Parameters<typeof audioDto>[0][] }>(set: T, activeJobs: ReturnType<typeof listActiveListeningJobsForSet>) {
+  const byAudio = new Map(activeJobs.map((job) => [job.audioId, job]));
+  return { ...set, audio: set.audio.map((audio) => ({ ...audioDto(audio), activeJob: byAudio.get(audio.id) || null })) };
 }

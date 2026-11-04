@@ -20,6 +20,9 @@ export type ListeningSetSummary = {
   audioCount: number;
   durationMs: number;
   lastPlayedAt: string | null;
+  activeJobCount: number;
+  queuedJobCount: number;
+  runningJobCount: number;
   createdAt: string;
   updatedAt: string;
 };
