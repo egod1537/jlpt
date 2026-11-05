@@ -1,4 +1,5 @@
 import type { NextRequest } from "next/server";
+import { createHash } from "node:crypto";
 import { Readable } from "node:stream";
 import { getDatabase } from "@back/lib/db/database";
 import {
@@ -7,7 +8,11 @@ import {
   listListeningLibrary, listTranscriptVersions, ListeningFailure, registerListeningAudio, retryListeningJob, updateListeningAudio,
   restoreListeningAudio, restoreListeningFolder, restoreListeningSet, updateListeningFolder, updateListeningSet,
 } from "@back/lib/listening/repository";
-import { activateScriptVersion, editListeningScript, exportListeningScript, type ScriptEditOperation } from "@back/lib/listening/script";
+import {
+  activateScriptVersion, detectScriptUploadFormat, editListeningScript, exportListeningScript,
+  importListeningScript, MAX_SCRIPT_UPLOAD_BYTES, replaceListeningScript,
+  type ScriptEditOperation,
+} from "@back/lib/listening/script";
 import { parseByteRange } from "@back/lib/listening/range";
 import { AudioStorageFailure, createAudioReadStream, openStoredAudio, receiveAudioMultipart, removeStoredAudio } from "@back/lib/listening/storage";
 import { authorizeExternalApi, externalApiError, externalApiHeaders } from "@back/lib/external-api/auth";
@@ -26,6 +31,7 @@ type MutationResult = { data: unknown; status?: number; location?: string | null
 export async function GET(request: NextRequest, context: Context) { return dispatch(request, context, "GET"); }
 export async function HEAD(request: NextRequest, context: Context) { return dispatch(request, context, "HEAD"); }
 export async function POST(request: NextRequest, context: Context) { return dispatch(request, context, "POST"); }
+export async function PUT(request: NextRequest, context: Context) { return dispatch(request, context, "PUT"); }
 export async function PATCH(request: NextRequest, context: Context) { return dispatch(request, context, "PATCH"); }
 export async function DELETE(request: NextRequest, context: Context) { return dispatch(request, context, "DELETE"); }
 
@@ -82,6 +88,7 @@ async function readRoute(request: NextRequest, path: string[], head: boolean) {
 async function mutationRoute(request: NextRequest, path: string[], method: string) {
   const db = getDatabase();
   if (method === "POST" && path.length === 3 && path[0] === "sets" && path[2] === "audio") return uploadAudio(request, path[1]);
+  if (method === "POST" && path.length === 3 && path[0] === "audio" && path[2] === "script") return uploadScriptFile(request, path[1]);
   const bodyOptional = method === "POST" && ((path[0] === "audio" && new Set(["transcribe", "reprocess"]).has(path[2])) || (path[0] === "jobs" && path[2] === "retry"));
   const payload = method === "DELETE" ? { expectedRevision: expectedRevision(request, undefined) } : bodyOptional ? {} : await readLimitedJson(request, 2 * 1_024 * 1_024) as Record<string, unknown>;
   const scope = `${method}:${path.map((part, index) => index % 2 ? "{id}" : part).join("/")}`;
@@ -101,8 +108,44 @@ async function mutationRoute(request: NextRequest, path: string[], method: strin
     if (path.length === 3 && path[0] === "audio" && path[2] === "reprocess" && method === "POST") { if (!getActiveTranscript(db, path[1]).script) throw new ListeningFailure(409, "CONFLICT", "먼저 Whisper 전사를 완료해 주세요."); const result = enqueueListeningJob(db, path[1], "gpt_process", jobKey(request, path[1], "reprocess")); return { data: externalJobDto(result.job), status: 202 }; }
     if (path.length === 3 && path[0] === "jobs" && path[2] === "retry" && method === "POST") return { data: externalJobDto(retryListeningJob(db, path[1])), status: 202 };
     if (path.length === 3 && path[0] === "audio" && path[2] === "script" && method === "PATCH") { const result = editListeningScript(db, path[1], { revision: expectedRevision(request, payload), operations: (payload.operations || []) as ScriptEditOperation[] }); return { data: externalScriptDto(result.audio, result.script) }; }
+    if (path.length === 3 && path[0] === "audio" && path[2] === "script" && method === "PUT") {
+      const revision = expectedRevision(request, payload);
+      const content = typeof payload.content === "string" ? payload.content : null;
+      const filename = optionalString(payload.filename) || undefined;
+      let result;
+      if (content !== null) {
+        const requestedFormat = optionalString(payload.format);
+        if (payload.format !== undefined && requestedFormat !== "json" && requestedFormat !== "srt" && requestedFormat !== "txt") throw new ExternalListeningFailure(400, "VALIDATION", "format은 json, srt, txt 중 하나여야 합니다.");
+        const format = requestedFormat === "json" || requestedFormat === "srt" || requestedFormat === "txt" ? requestedFormat : detectScriptUploadFormat(filename || "script", content);
+        result = importListeningScript(db, path[1], { revision, content, format, filename, source: "external_api" });
+      } else {
+        result = replaceListeningScript(db, path[1], { revision, segments: payload.segments, source: "external_api", format: "json", filename });
+      }
+      return { data: externalScriptDto(result.audio, result.script) };
+    }
     if (path.length === 3 && path[0] === "audio" && path[2] === "activate" && method === "POST") { const result = activateScriptVersion(db, path[1], String(payload.versionId || ""), expectedRevision(request, payload)); return { data: { audio: externalAudioDto(result.audio), activated: result.activated } }; }
     throw new ExternalListeningFailure(404, "NOT_FOUND", "외부 청해 API 경로를 찾을 수 없습니다.");
+  });
+}
+
+async function uploadScriptFile(request: NextRequest, audioId: string) {
+  const declared = Number(request.headers.get("content-length"));
+  if (Number.isFinite(declared) && declared > MAX_SCRIPT_UPLOAD_BYTES + 128 * 1024) throw new ListeningFailure(413, "TOO_LARGE", "스크립트 파일은 2MB까지 업로드할 수 있습니다.");
+  let form: FormData;
+  try { form = await request.formData(); }
+  catch { throw new ExternalListeningFailure(400, "VALIDATION", "multipart/form-data 요청을 확인해 주세요."); }
+  const file = form.get("file");
+  if (!(file instanceof File) || file.size < 1) throw new ExternalListeningFailure(400, "VALIDATION", "업로드할 스크립트 파일이 필요합니다.");
+  if (file.size > MAX_SCRIPT_UPLOAD_BYTES) throw new ListeningFailure(413, "TOO_LARGE", "스크립트 파일은 2MB까지 업로드할 수 있습니다.");
+  const content = await file.text();
+  const revisionValue = form.get("expectedRevision") ?? form.get("revision");
+  const revisionPayload = typeof revisionValue === "string" && revisionValue ? { expectedRevision: Number(revisionValue) } : {};
+  const revision = expectedRevision(request, revisionPayload);
+  const format = detectScriptUploadFormat(file.name, content);
+  const payload = { audioId, revision, filename: file.name, format, sha256: createHash("sha256").update(content).digest("hex") };
+  return idempotentJsonMutation(request, "POST:audio/{id}/script", payload, () => {
+    const result = importListeningScript(getDatabase(), audioId, { revision, content, format, filename: file.name, source: "external_api" });
+    return { data: externalScriptDto(result.audio, result.script), status: 201 };
   });
 }
 

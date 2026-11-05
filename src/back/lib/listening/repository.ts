@@ -16,7 +16,7 @@ type Row = Record<string, unknown>;
 export class ListeningFailure extends Error {
   constructor(
     readonly status: number,
-    readonly code: "VALIDATION" | "NOT_FOUND" | "CONFLICT" | "INTERNAL",
+    readonly code: "VALIDATION" | "NOT_FOUND" | "CONFLICT" | "TOO_LARGE" | "INTERNAL",
     message: string,
   ) {
     super(message);

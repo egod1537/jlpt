@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { memo, useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { ArrowLeft, ChevronLeft, ChevronRight, Download, History, Languages, LoaderCircle, Pause, Pencil, Play, Repeat2, RotateCcw } from "lucide-react";
+import { memo, type ChangeEvent, useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { ArrowLeft, ChevronLeft, ChevronRight, Download, History, Languages, LoaderCircle, Pause, Pencil, Play, Repeat2, RotateCcw, Upload } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogDescription, DialogTitle } from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
@@ -22,6 +22,7 @@ const rates = [0.75, 1, 1.25, 1.5, 2];
 
 export function ListeningPlayerPage({ audioId }: { audioId: string }) {
   const audioRef = useRef<HTMLAudioElement>(null);
+  const scriptFileRef = useRef<HTMLInputElement>(null);
   const scriptRef = useRef<HTMLDivElement>(null);
   const progressRef = useRef<Progress>({ positionMs: 0, playbackRate: 1, completed: false, revision: 0 });
   const lastSavedRef = useRef(0);
@@ -43,6 +44,8 @@ export function ListeningPlayerPage({ audioId }: { audioId: string }) {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [actionBusy, setActionBusy] = useState(false);
+  const [uploadMessage, setUploadMessage] = useState<string | null>(null);
+  const [uploadFailed, setUploadFailed] = useState(false);
   const [editorOpen, setEditorOpen] = useState(false);
   const [versions, setVersions] = useState<Script[]>([]);
   const [versionsLoading, setVersionsLoading] = useState(false);
@@ -189,6 +192,23 @@ export function ListeningPlayerPage({ audioId }: { audioId: string }) {
     } catch (reason) { setError(reason instanceof Error ? reason.message : "다시 처리하지 못했습니다."); }
     finally { setActionBusy(false); }
   };
+  const uploadScript = async (event: ChangeEvent<HTMLInputElement>) => {
+    const file = event.target.files?.[0];
+    event.target.value = "";
+    if (!file || !audio) return;
+    setActionBusy(true); setUploadMessage(null); setUploadFailed(false);
+    try {
+      const form = new FormData();
+      form.set("file", file);
+      form.set("revision", String(audio.revision));
+      const response = await fetch(`/api/listening/audio/${encodeURIComponent(audio.id)}/script`, { method: "POST", body: form });
+      if (!response.ok) throw new Error(await responseMessage(response));
+      setUploadMessage("스크립트를 새 버전으로 업로드했습니다.");
+      await load(true);
+      if (editorOpen) await loadVersions();
+    } catch (reason) { setUploadFailed(true); setUploadMessage(reason instanceof Error ? reason.message : "스크립트를 업로드하지 못했습니다."); }
+    finally { setActionBusy(false); }
+  };
 
   const onTimeUpdate = () => {
     const element = audioRef.current;
@@ -203,6 +223,7 @@ export function ListeningPlayerPage({ audioId }: { audioId: string }) {
   };
 
   return <div className="fixed inset-0 z-50 flex min-w-80 flex-col bg-app-bg text-app-text">
+    <input ref={scriptFileRef} type="file" accept=".json,.srt,.txt,application/json,application/x-subrip,text/plain" aria-label="청해 스크립트 파일 선택" className="sr-only" onChange={(event) => void uploadScript(event)} />
     <header className="shrink-0 border-b border-app-border bg-app-surface pt-[env(safe-area-inset-top)]">
       <div className="mx-auto flex h-14 max-w-3xl items-center gap-2 px-2">
         <Link href="/listening" aria-label="청해 목록으로" className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-xl text-app-muted hover:bg-app-raised"><ArrowLeft aria-hidden="true" className="h-5 w-5" /></Link>
@@ -216,17 +237,13 @@ export function ListeningPlayerPage({ audioId }: { audioId: string }) {
     <div ref={scriptRef} onWheel={() => setAutoFollow(false)} onTouchMove={() => setAutoFollow(false)} className="mx-auto min-h-0 w-full max-w-3xl flex-1 overflow-y-auto overscroll-contain px-3 py-4">
       {loading ? <StateMessage icon={<LoaderCircle className="h-7 w-7 animate-spin" />} text="음원과 스크립트를 불러오는 중입니다." /> : null}
       {error ? <StateMessage text={error}><Button onClick={() => void load()}>다시 시도</Button></StateMessage> : null}
-      {!loading && !error && !script ? <StateMessage icon={<Languages className="h-8 w-8" />} text={audio?.status === "failed" ? "스크립트 처리에 실패했습니다. 음원은 바로 재생할 수 있습니다." : "스크립트를 준비하고 있습니다. 음원은 먼저 재생할 수 있습니다."}><Button disabled={actionBusy} onClick={() => void retry()}>{actionBusy ? <LoaderCircle className="h-4 w-4 animate-spin" /> : <RotateCcw className="h-4 w-4" />}{audio?.status === "failed" ? "다시 처리" : "처리 요청"}</Button></StateMessage> : null}
+      {!loading && !error && !script ? <StateMessage icon={<Languages className="h-8 w-8" />} text={audio?.status === "failed" ? "스크립트 처리에 실패했습니다. 음원은 바로 재생할 수 있습니다." : "스크립트를 준비하고 있습니다. 음원은 먼저 재생할 수 있습니다."}><div className="flex flex-wrap justify-center gap-2"><Button disabled={actionBusy} onClick={() => void retry()}>{actionBusy ? <LoaderCircle className="h-4 w-4 animate-spin" /> : <RotateCcw className="h-4 w-4" />}{audio?.status === "failed" ? "다시 처리" : "처리 요청"}</Button><Button variant="outline" disabled={actionBusy || !audio} onClick={() => scriptFileRef.current?.click()}><Upload className="h-4 w-4" />스크립트 업로드</Button></div>{uploadMessage ? <p role="status" className={uploadFailed ? "text-red-300" : "text-app-accent"}>{uploadMessage}</p> : null}</StateMessage> : null}
       {script ? <>
         <div className="mb-3 flex min-h-11 items-center justify-between gap-3">
           <p className="text-xs font-bold text-app-muted">{segments.length.toLocaleString("ko-KR")}개 문장</p>
-          <Button asChild variant="outline" size="sm">
-            <a href={`/api/listening/audio/${encodeURIComponent(audioId)}/script/export?format=txt`} download>
-              <Download aria-hidden="true" className="h-4 w-4" />
-              스크립트 다운로드
-            </a>
-          </Button>
+          <div className="flex gap-2"><Button type="button" variant="outline" size="sm" disabled={actionBusy} onClick={() => scriptFileRef.current?.click()}><Upload aria-hidden="true" className="h-4 w-4" />업로드</Button><Button asChild variant="outline" size="sm"><a href={`/api/listening/audio/${encodeURIComponent(audioId)}/script/export?format=txt`} download><Download aria-hidden="true" className="h-4 w-4" />다운로드</a></Button></div>
         </div>
+        {uploadMessage ? <p role="status" className={`mb-3 text-xs ${uploadFailed ? "text-red-300" : "text-app-accent"}`}>{uploadMessage}</p> : null}
         <div role="list" aria-label="청해 스크립트" className="space-y-1 pb-3">
           {segments.map((segment, index) => <SegmentRow key={segment.id} segment={segment} index={index} active={index === activeIndex} showJa={showJa} showKo={showKo} onSelect={selectSegment} />)}
         </div>

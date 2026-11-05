@@ -1,5 +1,6 @@
 import "server-only";
 
+import { createHash } from "node:crypto";
 import type { AppDatabase } from "@back/lib/db/database";
 import {
   activateTranscriptVersion,
@@ -15,6 +16,9 @@ export type ScriptEditOperation =
   | { type: "update"; segmentId: string; startMs?: number; endMs?: number; ja?: string; ko?: string | null; speaker?: string | null; needsReview?: boolean; reviewNote?: string | null }
   | { type: "split"; segmentId: string; atMs: number; ja: [string, string]; ko?: [string | null, string | null] }
   | { type: "merge"; segmentIds: string[]; ja?: string; ko?: string | null };
+
+export type ScriptUploadFormat = "json" | "srt" | "txt";
+export const MAX_SCRIPT_UPLOAD_BYTES = 2 * 1024 * 1024;
 
 export function editListeningScript(db: AppDatabase, audioId: string, input: { revision: number; operations: ScriptEditOperation[] }) {
   const { audio, script } = getActiveTranscript(db, audioId);
@@ -70,10 +74,165 @@ export function exportListeningScript(db: AppDatabase, audioId: string, format: 
   return { body: `${body}\n`, contentType: "application/x-subrip; charset=utf-8", filename: `${baseName}.srt` };
 }
 
+export function importListeningScript(db: AppDatabase, audioId: string, input: {
+  revision: number;
+  content: string;
+  format: ScriptUploadFormat;
+  filename?: string;
+  source?: "ui_upload" | "external_api";
+}) {
+  if (typeof input.content !== "string" || !input.content.trim()) throw new ListeningFailure(400, "VALIDATION", "스크립트 파일이 비어 있습니다.");
+  if (Buffer.byteLength(input.content, "utf8") > MAX_SCRIPT_UPLOAD_BYTES) throw new ListeningFailure(413, "TOO_LARGE", "스크립트 파일은 2MB까지 업로드할 수 있습니다.");
+  const segments = input.format === "json" ? parseJsonScript(input.content) : input.format === "srt" ? parseSrtScript(input.content) : parseTxtScript(input.content);
+  return replaceListeningScript(db, audioId, {
+    revision: input.revision,
+    segments,
+    source: input.source ?? "ui_upload",
+    format: input.format,
+    filename: input.filename,
+    contentHash: createHash("sha256").update(input.content).digest("hex"),
+  });
+}
+
+export function replaceListeningScript(db: AppDatabase, audioId: string, input: {
+  revision: number;
+  segments: unknown;
+  source?: "ui_upload" | "external_api";
+  format?: ScriptUploadFormat;
+  filename?: string;
+  contentHash?: string;
+}) {
+  const { audio, script } = getActiveTranscript(db, audioId);
+  if (!Number.isInteger(input.revision) || input.revision !== audio.revision) throw new ListeningFailure(409, "CONFLICT", "스크립트가 다른 곳에서 변경되었습니다.");
+  const source = input.source ?? "external_api";
+  const contentHash = input.contentHash || createHash("sha256").update(JSON.stringify(input.segments)).digest("hex");
+  const segments = normalizeUploadedSegments(input.segments, `upload:${contentHash.slice(0, 16)}`);
+  const last = segments.at(-1);
+  if (input.format === "txt" && last && audio.durationMs !== null && audio.durationMs > last.startMs) {
+    segments[segments.length - 1] = { ...last, endMs: audio.durationMs };
+  }
+  validateEditedSegments(segments, audio.durationMs);
+  const version = createTranscriptVersion(db, {
+    audioId,
+    kind: "manual_edit",
+    basedOnId: script?.id ?? null,
+    language: segments.some((segment) => segment.ko !== null) ? "ja-ko" : "ja",
+    rawPayload: {
+      source,
+      format: input.format ?? "json",
+      filename: safeUploadName(input.filename),
+      sha256: contentHash,
+      segmentCount: segments.length,
+    },
+    segments,
+  });
+  const activation = activateTranscriptVersion(db, audioId, version.id, input.revision);
+  return { audio: activation.audio, script: version };
+}
+
+export function detectScriptUploadFormat(filename: string, content: string): ScriptUploadFormat {
+  const extension = /\.([^.]+)$/.exec(filename.trim().toLowerCase())?.[1];
+  if (extension === "json" || extension === "srt" || extension === "txt") return extension;
+  const normalized = content.replace(/^\uFEFF/, "").trimStart();
+  if (normalized.startsWith("{") || normalized.startsWith("[")) return "json";
+  if (/\d{1,3}:\d{2}:\d{2}[,.]\d{3}\s*-->/.test(normalized)) return "srt";
+  if (/^\[\d+:\d{2}[,.]\d{3}\]/m.test(normalized)) return "txt";
+  throw new ListeningFailure(400, "VALIDATION", "JSON, SRT 또는 TXT 스크립트 파일을 업로드해 주세요.");
+}
+
 export function activateScriptVersion(db: AppDatabase, audioId: string, versionId: string, revision: number) {
   getTranscriptVersion(db, versionId);
   return activateTranscriptVersion(db, audioId, versionId, revision, true);
 }
+
+function parseJsonScript(content: string) {
+  let parsed: unknown;
+  try { parsed = JSON.parse(content.replace(/^\uFEFF/, "")); }
+  catch { throw new ListeningFailure(400, "VALIDATION", "스크립트 JSON 형식이 올바르지 않습니다."); }
+  if (Array.isArray(parsed)) return parsed;
+  if (isRecord(parsed) && Array.isArray(parsed.segments)) return parsed.segments;
+  if (isRecord(parsed) && isRecord(parsed.data) && Array.isArray(parsed.data.segments)) return parsed.data.segments;
+  throw new ListeningFailure(400, "VALIDATION", "JSON에 segments 배열이 필요합니다.");
+}
+
+function parseSrtScript(content: string) {
+  const blocks = normalizedUploadText(content).split(/\n{2,}/).filter(Boolean);
+  const segments = blocks.map((block, index) => {
+    const lines = block.split("\n").map((line) => line.trimEnd());
+    if (/^\d+$/.test(lines[0]?.trim() || "")) lines.shift();
+    const timing = /^(\d{1,3}:\d{2}:\d{2}[,.]\d{3})\s*-->\s*(\d{1,3}:\d{2}:\d{2}[,.]\d{3})(?:\s+.*)?$/.exec(lines.shift()?.trim() || "");
+    if (!timing) throw new ListeningFailure(400, "VALIDATION", `SRT ${index + 1}번 문장의 시간 형식을 확인해 주세요.`);
+    const textLines = lines.map((line) => line.trim()).filter(Boolean);
+    if (!textLines.length) throw new ListeningFailure(400, "VALIDATION", `SRT ${index + 1}번 문장이 비어 있습니다.`);
+    const primary = extractSpeaker(textLines[0]);
+    return {
+      startMs: parseSrtTimestamp(timing[1]), endMs: parseSrtTimestamp(timing[2]), speaker: primary.speaker,
+      ja: primary.text, ko: textLines.length > 1 ? textLines.slice(1).join("\n") : null,
+      needsReview: false, reviewNote: null,
+    };
+  });
+  if (!segments.length) throw new ListeningFailure(400, "VALIDATION", "SRT 문장을 찾을 수 없습니다.");
+  return segments;
+}
+
+function parseTxtScript(content: string) {
+  const blocks = normalizedUploadText(content).split(/\n{2,}/).filter(Boolean);
+  const parsed = blocks.map((block, index) => {
+    const lines = block.split("\n").map((line) => line.trim()).filter(Boolean);
+    const timestamp = /^\[(\d+):(\d{2})[.,](\d{3})\]\s*(.*)$/.exec(lines.shift() || "");
+    if (!timestamp || !timestamp[4].trim()) throw new ListeningFailure(400, "VALIDATION", `TXT ${index + 1}번 문장의 시간 또는 일본어를 확인해 주세요.`);
+    const primary = extractSpeaker(timestamp[4]);
+    return {
+      startMs: Number(timestamp[1]) * 60_000 + Number(timestamp[2]) * 1_000 + Number(timestamp[3]),
+      speaker: primary.speaker, ja: primary.text, ko: lines.length ? lines.join("\n") : null,
+    };
+  });
+  if (!parsed.length) throw new ListeningFailure(400, "VALIDATION", "TXT 문장을 찾을 수 없습니다.");
+  return parsed.map((segment, index) => ({
+    ...segment,
+    endMs: index + 1 < parsed.length ? parsed[index + 1].startMs : segment.startMs + 5_000,
+    needsReview: false,
+    reviewNote: null,
+  }));
+}
+
+function normalizeUploadedSegments(value: unknown, sourcePrefix: string): Array<Omit<ListeningSegment, "id" | "ordinal">> {
+  if (!Array.isArray(value) || value.length < 1 || value.length > 10_000) throw new ListeningFailure(400, "VALIDATION", "스크립트 문장 수가 올바르지 않습니다.");
+  return value.map((item, index) => {
+    if (!isRecord(item)) throw new ListeningFailure(400, "VALIDATION", `${index + 1}번 문장 형식을 확인해 주세요.`);
+    const speaker = item.speaker === undefined || item.speaker === null ? null : validSpeaker(item.speaker);
+    const ko = item.ko === undefined || item.ko === null || item.ko === "" ? null : validText(item.ko, "한국어 문장", false);
+    const reviewNote = item.reviewNote === undefined || item.reviewNote === null || item.reviewNote === "" ? null : validText(item.reviewNote, "검토 메모", false, 500);
+    return {
+      startMs: Number(item.startMs),
+      endMs: Number(item.endMs),
+      speaker,
+      ja: validText(item.ja, "일본어 문장"),
+      ko,
+      needsReview: typeof item.needsReview === "boolean" ? item.needsReview : false,
+      reviewNote,
+      sourceSegmentIds: [`${sourcePrefix}:${index}`],
+    };
+  });
+}
+
+function parseSrtTimestamp(value: string) {
+  const match = /^(\d{1,3}):(\d{2}):(\d{2})[,.](\d{3})$/.exec(value);
+  if (!match || Number(match[2]) > 59 || Number(match[3]) > 59) throw new ListeningFailure(400, "VALIDATION", "SRT 시간 형식을 확인해 주세요.");
+  return Number(match[1]) * 3_600_000 + Number(match[2]) * 60_000 + Number(match[3]) * 1_000 + Number(match[4]);
+}
+
+function normalizedUploadText(value: string) { return value.replace(/^\uFEFF/, "").replace(/\r\n?/g, "\n").trim(); }
+function extractSpeaker(value: string) {
+  const match = /^([^:：\n]{1,50})[:：]\s+(.+)$/.exec(value.trim());
+  return match ? { speaker: match[1].trim(), text: match[2].trim() } : { speaker: null, text: value.trim() };
+}
+function safeUploadName(value: string | undefined) {
+  if (!value) return null;
+  const name = value.replaceAll("\0", "").split(/[\\/]/).pop()?.trim() || "";
+  return [...name].filter((character) => character.charCodeAt(0) > 31 && character.charCodeAt(0) !== 127).join("").slice(0, 255) || null;
+}
+function isRecord(value: unknown): value is Record<string, unknown> { return typeof value === "object" && value !== null && !Array.isArray(value); }
 
 function applyUpdate(segments: ListeningSegment[], operation: Extract<ScriptEditOperation, { type: "update" }>) {
   const index = segments.findIndex((segment) => segment.id === operation.segmentId);
@@ -92,7 +251,7 @@ function applyUpdate(segments: ListeningSegment[], operation: Extract<ScriptEdit
   return segments.with(index, next);
 }
 
-function validateEditedSegments(segments: ListeningSegment[], durationMs: number | null) {
+function validateEditedSegments(segments: Array<Pick<ListeningSegment, "startMs" | "endMs">>, durationMs: number | null) {
   let previousStart = -1;
   for (const segment of segments) {
     if (!Number.isInteger(segment.startMs) || !Number.isInteger(segment.endMs) || segment.startMs < 0 || segment.endMs <= segment.startMs || segment.startMs < previousStart) {
