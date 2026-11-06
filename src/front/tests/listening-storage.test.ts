@@ -2,14 +2,14 @@ import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
 vi.mock("server-only", () => ({}));
 
-import { mkdtemp, readFile, rm } from "node:fs/promises";
+import { mkdtemp, readFile, rm, writeFile } from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
 import type { AppDatabase } from "@back/lib/db/database";
 import { openDatabase } from "@back/lib/db/database";
 import { createListeningSet } from "@back/lib/listening/repository";
 import { parseByteRange } from "@back/lib/listening/range";
-import { detectAudioKind, receiveAudioMultipart, storeUploadedAudio } from "@back/lib/listening/storage";
+import { createAudioWebStream, detectAudioKind, receiveAudioMultipart, storeUploadedAudio } from "@back/lib/listening/storage";
 
 describe("listening audio storage", () => {
   let temporary = "";
@@ -65,6 +65,18 @@ describe("listening audio storage", () => {
 
     process.env.JLPT_MAX_AUDIO_BYTES = "16";
     await expect(receiveAudioMultipart(multipartRequest(Buffer.concat([Buffer.from("RIFF0000WAVE"), Buffer.alloc(64)]), "large.wav", "audio/wav"))).rejects.toMatchObject({ status: 413 });
+  });
+
+  it("streams byte ranges and safely releases a cancelled response", async () => {
+    const filePath = path.join(temporary, "stream.bin");
+    await writeFile(filePath, Buffer.from("0123456789"));
+
+    await expect(new Response(createAudioWebStream(filePath, { start: 2, end: 5 })).text()).resolves.toBe("2345");
+
+    const reader = createAudioWebStream(filePath).getReader();
+    const firstRead = await reader.read();
+    expect(firstRead.done).toBe(false);
+    await expect(reader.cancel()).resolves.toBeUndefined();
   });
 });
 

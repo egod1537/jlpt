@@ -1,9 +1,8 @@
 import type { NextRequest } from "next/server";
-import { Readable } from "node:stream";
 import { getDatabase } from "@back/lib/db/database";
 import { getListeningAudio } from "@back/lib/listening/repository";
 import { parseByteRange } from "@back/lib/listening/range";
-import { createAudioReadStream, openStoredAudio } from "@back/lib/listening/storage";
+import { createAudioWebStream, openStoredAudio } from "@back/lib/listening/storage";
 import { authorize } from "@/lib/server/authorize";
 import { listeningErrorResponse } from "@/lib/server/listening-api";
 
@@ -28,7 +27,7 @@ async function streamAudio(request: NextRequest, context: RouteContext<"/api/lis
     const range = parseByteRange(request.headers.get("range"), file.size);
     const commonHeaders = {
       "Accept-Ranges": "bytes",
-      "Cache-Control": "private, no-store, max-age=0",
+      "Cache-Control": "private, max-age=86400",
       "Content-Type": audio.mimeType,
       ETag: `"${audio.sha256}"`,
       "X-Content-Type-Options": "nosniff",
@@ -40,8 +39,7 @@ async function streamAudio(request: NextRequest, context: RouteContext<"/api/lis
       ? { ...commonHeaders, "Content-Length": String(range.end - range.start + 1), "Content-Range": `bytes ${range.start}-${range.end}/${file.size}` }
       : { ...commonHeaders, "Content-Length": String(file.size) };
     if (head) return new Response(null, { status: range ? 206 : 200, headers });
-    const nodeStream = createAudioReadStream(file.absolutePath, range || undefined);
-    const body = Readable.toWeb(nodeStream) as ReadableStream<Uint8Array>;
+    const body = createAudioWebStream(file.absolutePath, range || undefined);
     return new Response(body, { status: range ? 206 : 200, headers });
   } catch (error) {
     return listeningErrorResponse(error);

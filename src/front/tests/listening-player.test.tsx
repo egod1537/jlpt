@@ -1,4 +1,4 @@
-import { cleanup, render, screen, waitFor } from "@testing-library/react";
+import { act, cleanup, fireEvent, render, screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { findActiveSegment, ListeningPlayerPage } from "@/components/listening/listening-player-page";
@@ -62,5 +62,33 @@ describe("listening player", () => {
     const form = uploadCall?.[1]?.body as FormData;
     expect(form.get("revision")).toBe("1");
     expect((form.get("file") as File).name).toBe("script.srt");
+  });
+
+  it("preloads audio and reconnects a stalled stream at the same position", async () => {
+    vi.useFakeTimers();
+    const play = vi.spyOn(HTMLMediaElement.prototype, "play").mockResolvedValue();
+    try {
+      const { container } = render(<ListeningPlayerPage audioId="a1" />);
+      await act(async () => { await Promise.resolve(); });
+      const element = container.querySelector("audio");
+      expect(element).not.toBeNull();
+      if (!element) return;
+      expect(element).toHaveAttribute("preload", "auto");
+      Object.defineProperty(element, "readyState", { configurable: true, value: 0 });
+      Object.defineProperty(element, "duration", { configurable: true, value: 2 });
+      element.currentTime = 0.75;
+      fireEvent.play(element);
+      fireEvent.waiting(element);
+
+      await act(async () => { vi.advanceTimersByTime(8_000); });
+      expect(element.getAttribute("src")).toBe("/stream?playback_retry=1");
+
+      element.currentTime = 0;
+      fireEvent.loadedMetadata(element);
+      expect(element.currentTime).toBe(0.75);
+      expect(play).toHaveBeenCalled();
+    } finally {
+      vi.useRealTimers();
+    }
   });
 });

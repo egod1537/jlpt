@@ -240,6 +240,43 @@ export function createAudioReadStream(absolutePath: string, range?: { start: num
   return createReadStream(absolutePath, range ? { start: range.start, end: range.end } : undefined);
 }
 
+export function createAudioWebStream(absolutePath: string, range?: { start: number; end: number }) {
+  const source = createAudioReadStream(absolutePath, range);
+  const iterator = source[Symbol.asyncIterator]();
+  let state: "open" | "closed" | "cancelled" = "open";
+
+  return new ReadableStream<Uint8Array>({
+    async pull(controller) {
+      try {
+        const result = await iterator.next();
+        if (state !== "open") return;
+        if (result.done) {
+          state = "closed";
+          controller.close();
+          return;
+        }
+        const chunk = Buffer.isBuffer(result.value) ? result.value : Buffer.from(result.value);
+        controller.enqueue(new Uint8Array(chunk.buffer, chunk.byteOffset, chunk.byteLength));
+      } catch (error) {
+        if (state !== "open") return;
+        state = "closed";
+        controller.error(error);
+      }
+    },
+    async cancel() {
+      if (state !== "open") return;
+      state = "cancelled";
+      source.destroy();
+      try {
+        await iterator.return?.();
+      } catch {
+        // A client disconnect can reject an in-flight file read. The response is
+        // already cancelled, so there is no stream controller left to notify.
+      }
+    },
+  });
+}
+
 export async function fileSha256(filePath: string) {
   const hash = createHash("sha256");
   await pipeline(createReadStream(filePath), new Transform({ transform(chunk, _encoding, callback) { hash.update(chunk); callback(); } }));

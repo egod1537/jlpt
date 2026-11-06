@@ -28,6 +28,11 @@ export function ListeningPlayerPage({ audioId }: { audioId: string }) {
   const lastSavedRef = useRef(0);
   const initialSeekRef = useRef<number | null>(null);
   const languageLoadedRef = useRef(false);
+  const stallTimerRef = useRef<number | null>(null);
+  const recoveryPositionRef = useRef<number | null>(null);
+  const recoveryAttemptsRef = useRef(0);
+  const recoveringRef = useRef(false);
+  const playbackWantedRef = useRef(false);
   const [audio, setAudio] = useState<AudioMetadata | null>(null);
   const [script, setScript] = useState<Script | null>(null);
   const [activeIndex, setActiveIndex] = useState(-1);
@@ -49,6 +54,9 @@ export function ListeningPlayerPage({ audioId }: { audioId: string }) {
   const [editorOpen, setEditorOpen] = useState(false);
   const [versions, setVersions] = useState<Script[]>([]);
   const [versionsLoading, setVersionsLoading] = useState(false);
+  const [playbackRetry, setPlaybackRetry] = useState(0);
+  const [buffering, setBuffering] = useState(false);
+  const [playbackIssue, setPlaybackIssue] = useState<string | null>(null);
 
   useEffect(() => {
     const timer = window.setTimeout(() => { const settings = readLanguageSettings(); languageLoadedRef.current = true; setShowJa(settings.ja); setShowKo(settings.ko); }, 0);
@@ -125,6 +133,48 @@ export function ListeningPlayerPage({ audioId }: { audioId: string }) {
   }, [saveProgress]);
 
   const segments = useMemo(() => script?.segments || [], [script]);
+  const streamUrl = !audio?.streamUrl || playbackRetry === 0
+    ? audio?.streamUrl
+    : `${audio.streamUrl}${audio.streamUrl.includes("?") ? "&" : "?"}playback_retry=${playbackRetry}`;
+
+  const clearStallTimer = useCallback(() => {
+    if (stallTimerRef.current === null) return;
+    window.clearTimeout(stallTimerRef.current);
+    stallTimerRef.current = null;
+  }, []);
+
+  const schedulePlaybackRecovery = useCallback((delayMs = 8_000) => {
+    clearStallTimer();
+    const element = audioRef.current;
+    if (!element || !playbackWantedRef.current || element.ended) return;
+    setBuffering(true);
+    stallTimerRef.current = window.setTimeout(() => {
+      stallTimerRef.current = null;
+      const current = audioRef.current;
+      if (!current || !playbackWantedRef.current || current.ended) {
+        setBuffering(false);
+        return;
+      }
+      if (!current.error && current.readyState >= 3) {
+        setBuffering(false);
+        return;
+      }
+      if (recoveryAttemptsRef.current >= 3) {
+        playbackWantedRef.current = false;
+        recoveringRef.current = false;
+        current.pause();
+        setBuffering(false);
+        setPlaybackIssue("재생 연결이 불안정합니다. 재생 버튼을 눌러 다시 연결해 주세요.");
+        return;
+      }
+      recoveryAttemptsRef.current += 1;
+      recoveryPositionRef.current = Math.max(0, Math.round(current.currentTime * 1_000));
+      recoveringRef.current = true;
+      setPlaybackRetry((value) => value + 1);
+    }, delayMs);
+  }, [clearStallTimer]);
+
+  useEffect(() => () => clearStallTimer(), [clearStallTimer]);
   useEffect(() => {
     if (!autoFollow || activeIndex < 0) return;
     document.getElementById(`listening-segment-${activeIndex}`)?.scrollIntoView({ block: "center", behavior: "smooth" });
@@ -159,7 +209,29 @@ export function ListeningPlayerPage({ audioId }: { audioId: string }) {
   const togglePlayback = async () => {
     const element = audioRef.current;
     if (!element) return;
-    if (element.paused) await element.play(); else element.pause();
+    if (playbackIssue) {
+      recoveryAttemptsRef.current = 0;
+      recoveryPositionRef.current = Math.max(0, Math.round(element.currentTime * 1_000));
+      recoveringRef.current = true;
+      playbackWantedRef.current = true;
+      setPlaybackIssue(null);
+      setBuffering(true);
+      setPlaybackRetry((value) => value + 1);
+      return;
+    }
+    if (element.paused) {
+      playbackWantedRef.current = true;
+      try { await element.play(); }
+      catch {
+        playbackWantedRef.current = false;
+        setPlaybackIssue("음원을 재생하지 못했습니다. 다시 시도해 주세요.");
+      }
+    } else {
+      playbackWantedRef.current = false;
+      clearStallTimer();
+      setBuffering(false);
+      element.pause();
+    }
   };
   const changeRate = () => {
     const next = rates[(rates.indexOf(rate) + 1) % rates.length];
@@ -213,6 +285,11 @@ export function ListeningPlayerPage({ audioId }: { audioId: string }) {
   const onTimeUpdate = () => {
     const element = audioRef.current;
     if (!element) return;
+    clearStallTimer();
+    recoveryAttemptsRef.current = 0;
+    recoveringRef.current = false;
+    setBuffering(false);
+    setPlaybackIssue(null);
     const currentMs = Math.round(element.currentTime * 1_000);
     setPositionMs(currentMs);
     const repeatRange = customRange || (repeat && activeIndex >= 0 ? { startMs: segments[activeIndex].startMs, endMs: segments[activeIndex].endMs } : null);
@@ -253,9 +330,26 @@ export function ListeningPlayerPage({ audioId }: { audioId: string }) {
     {!autoFollow && script ? <button type="button" onClick={() => setAutoFollow(true)} className="absolute bottom-36 left-1/2 min-h-11 -translate-x-1/2 rounded-full border border-app-border bg-app-raised px-4 text-xs font-bold shadow-lg">현재 문장 따라가기</button> : null}
     <footer className="shrink-0 border-t border-app-border bg-app-surface pb-[env(safe-area-inset-bottom)]">
       <div className="mx-auto max-w-3xl px-3 pb-2 pt-3">
-        <audio ref={audioRef} src={audio?.streamUrl} preload="metadata" onLoadedMetadata={(event) => { const element = event.currentTarget; const restored = Math.min(initialSeekRef.current || 0, Math.max(0, element.duration * 1_000 - 500)); element.currentTime = restored / 1_000; element.playbackRate = rate; setPositionMs(restored); setDurationMs(Math.round(element.duration * 1_000)); }} onDurationChange={(event) => setDurationMs(Math.round(event.currentTarget.duration * 1_000) || audio?.durationMs || 0)} onTimeUpdate={onTimeUpdate} onPlay={() => setPlaying(true)} onPause={() => { setPlaying(false); void saveProgress(true); }} onEnded={() => { if (customRange) { seek(customRange.startMs, true); return; } setPlaying(false); void saveProgress(true); }} />
+        <audio ref={audioRef} src={streamUrl} preload="auto" onLoadedMetadata={(event) => {
+          const element = event.currentTarget;
+          const requested = recoveryPositionRef.current ?? initialSeekRef.current ?? 0;
+          const restored = Math.min(requested, Math.max(0, element.duration * 1_000 - 500));
+          const shouldResume = recoveringRef.current && playbackWantedRef.current;
+          recoveryPositionRef.current = null;
+          element.currentTime = restored / 1_000;
+          element.playbackRate = rate;
+          setPositionMs(restored);
+          setDurationMs(Math.round(element.duration * 1_000));
+          if (shouldResume) void element.play().catch(() => {
+            playbackWantedRef.current = false;
+            recoveringRef.current = false;
+            setPlaying(false);
+            setBuffering(false);
+            setPlaybackIssue("음원을 다시 연결하지 못했습니다. 재생 버튼으로 다시 시도해 주세요.");
+          });
+        }} onDurationChange={(event) => setDurationMs(Math.round(event.currentTarget.duration * 1_000) || audio?.durationMs || 0)} onTimeUpdate={onTimeUpdate} onPlay={() => { playbackWantedRef.current = true; setPlaying(true); }} onPlaying={() => { clearStallTimer(); recoveryAttemptsRef.current = 0; recoveringRef.current = false; setBuffering(false); setPlaybackIssue(null); }} onCanPlay={() => { clearStallTimer(); setBuffering(false); }} onWaiting={() => schedulePlaybackRecovery()} onStalled={() => schedulePlaybackRecovery()} onError={() => schedulePlaybackRecovery(1_000)} onPause={() => { if (!recoveringRef.current) playbackWantedRef.current = false; setPlaying(false); void saveProgress(true); }} onEnded={() => { if (customRange) { seek(customRange.startMs, true); return; } playbackWantedRef.current = false; clearStallTimer(); setBuffering(false); setPlaying(false); void saveProgress(true); }} />
         <label className="sr-only" htmlFor="listening-position">재생 위치</label><input id="listening-position" type="range" min={0} max={Math.max(durationMs, 1)} step={100} value={Math.min(positionMs, Math.max(durationMs, 1))} onChange={(event) => seek(Number(event.target.value))} className="h-6 w-full accent-[var(--accent)]" />
-        <div className="-mt-1 flex justify-between text-[10px] tabular-nums text-app-muted"><span>{formatClock(positionMs)}</span><span>{formatClock(durationMs)}</span></div>
+        <div className="-mt-1 grid grid-cols-[1fr_auto_1fr] items-center text-[10px] tabular-nums text-app-muted"><span>{formatClock(positionMs)}</span><span role="status" className={playbackIssue ? "text-red-300" : "text-app-accent"}>{playbackIssue || (buffering ? "재생 연결 중…" : "")}</span><span className="text-right">{formatClock(durationMs)}</span></div>
         <div className="mt-1 grid grid-cols-5 items-center gap-1">
           <button type="button" onClick={changeRate} aria-label={`재생 속도 ${rate}배, 눌러 변경`} className="min-h-12 rounded-xl text-xs font-black text-app-muted">{rate}×</button>
           <button type="button" onClick={() => seekBy(-5_000)} aria-label="5초 뒤로" className="min-h-12 rounded-xl text-xs font-black text-app-muted hover:bg-app-raised">−5초</button>

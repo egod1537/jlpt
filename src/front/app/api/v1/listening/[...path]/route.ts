@@ -1,6 +1,5 @@
 import type { NextRequest } from "next/server";
 import { createHash } from "node:crypto";
-import { Readable } from "node:stream";
 import { getDatabase } from "@back/lib/db/database";
 import {
   createListeningFolder, createListeningSet, deleteListeningAudio, deleteListeningFolder, deleteListeningSet,
@@ -14,7 +13,7 @@ import {
   type ScriptEditOperation,
 } from "@back/lib/listening/script";
 import { parseByteRange } from "@back/lib/listening/range";
-import { AudioStorageFailure, createAudioReadStream, openStoredAudio, receiveAudioMultipart, removeStoredAudio } from "@back/lib/listening/storage";
+import { AudioStorageFailure, createAudioWebStream, openStoredAudio, receiveAudioMultipart, removeStoredAudio } from "@back/lib/listening/storage";
 import { authorizeExternalApi, externalApiError, externalApiHeaders } from "@back/lib/external-api/auth";
 import {
   ExternalListeningFailure, externalAudioDto, externalJobDto, externalScriptDto, listExternalListeningFolders,
@@ -192,11 +191,11 @@ async function uploadAudio(request: NextRequest, setId: string) {
 async function streamAudio(request: NextRequest, audioId: string, head: boolean) {
   const audio = getListeningAudio(getDatabase(), audioId); const file = await openStoredAudio(audio.storedKey);
   const range = parseByteRange(request.headers.get("range"), file.size);
-  const common = externalApiHeaders({ "Accept-Ranges": "bytes", "Cache-Control": "private, no-store", "Content-Type": audio.mimeType, ETag: `\"${audio.sha256}\"`, "X-Content-Type-Options": "nosniff" });
+  const common = externalApiHeaders({ "Accept-Ranges": "bytes", "Cache-Control": "private, max-age=86400", "Content-Type": audio.mimeType, ETag: `\"${audio.sha256}\"`, "X-Content-Type-Options": "nosniff" });
   if (range === "invalid") return new Response(null, { status: 416, headers: { ...common, "Content-Range": `bytes */${file.size}` } });
   const headers = range ? { ...common, "Content-Length": String(range.end - range.start + 1), "Content-Range": `bytes ${range.start}-${range.end}/${file.size}` } : { ...common, "Content-Length": String(file.size) };
   if (head) return new Response(null, { status: range ? 206 : 200, headers });
-  return new Response(Readable.toWeb(createAudioReadStream(file.absolutePath, range || undefined)) as ReadableStream<Uint8Array>, { status: range ? 206 : 200, headers });
+  return new Response(createAudioWebStream(file.absolutePath, range || undefined), { status: range ? 206 : 200, headers });
 }
 
 function parsePaging(limitValue: string | null, cursorValue: string | null) { const limit = limitValue === null ? 50 : Number(limitValue); const offset = cursorValue === null ? 0 : Number(cursorValue); if (!Number.isInteger(limit) || limit < 1 || limit > 100 || !Number.isInteger(offset) || offset < 0) throw new ExternalListeningFailure(400, "VALIDATION", "limit 또는 cursor를 확인해 주세요."); return { limit, offset }; }
