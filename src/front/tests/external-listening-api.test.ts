@@ -45,6 +45,10 @@ describe("external listening API contract", () => {
       "/api/v1/listening/audio/{audioId}/versions", "/api/v1/listening/audio/{audioId}/activate",
       "/api/v1/listening/audio/{audioId}/export",
     ]) expect(document.paths).toHaveProperty(path);
+    for (const path of [
+      "/api/v1/grammar", "/api/v1/grammar/books", "/api/v1/grammar/books/{bookId}",
+      "/api/v1/grammar/books/{bookId}/notes", "/api/v1/grammar/books/{bookId}/notes/{noteId}",
+    ]) expect(document.paths).toHaveProperty(path);
     expect(document.paths["/api/v1/listening/audio/{audioId}/script"]).toMatchObject({ post: expect.any(Object), put: expect.any(Object), patch: expect.any(Object) });
     const serialized = JSON.stringify(document);
     expect(serialized).toContain("multipart/form-data");

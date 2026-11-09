@@ -32,7 +32,7 @@ export type GrammarSet = {
   id: string;
   title: string;
   description: string;
-  level: "N1";
+  level: string;
   type: GrammarSetType;
   pointIds: string[];
   markdown?: string;

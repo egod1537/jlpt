@@ -10,6 +10,7 @@ import { MarkdownDocument } from "@/components/grammar/markdown-document";
 import { GrammarSetTypeIcon } from "@/components/grammar/set-type-icon";
 import { Dialog, DialogContent, DialogDescription, DialogTitle } from "@/components/ui/dialog";
 import { FittedStudyDetails, FittedStudyTerm } from "@/components/study/fitted-study-term";
+import type { GrammarBookDetail, GrammarNoteRecord } from "@back/lib/grammar/types";
 import { grammarChapters, grammarPointById, grammarSetById, type GrammarPoint, type GrammarSet } from "@/lib/grammar";
 
 type GrammarRating = "again" | "good";
@@ -20,10 +21,11 @@ function formatElapsed(milliseconds: number) {
   return String(Math.floor(seconds / 60)).padStart(2, "0") + ":" + String(seconds % 60).padStart(2, "0");
 }
 
-export function GrammarSetPage({ setId }: { setId: string }) {
-  const set = grammarSetById.get(setId);
+export function GrammarSetPage({ setId, book }: { setId: string; book?: GrammarBookDetail }) {
+  const set = book ? recordToSet(book) : grammarSetById.get(setId);
   if (!set) return null;
-  const points = set.pointIds.map((id) => grammarPointById.get(id)).filter((point): point is GrammarPoint => point !== undefined);
+  const points = book ? book.notes.map(recordToPoint) : set.pointIds.map((id) => grammarPointById.get(id)).filter((point): point is GrammarPoint => point !== undefined);
+  const pointById = new Map(points.map((point) => [point.id, point]));
 
   return <div className="mx-auto max-w-5xl">
     <Link href="/grammar" className={`${set.type === "book" ? "hidden lg:inline-flex" : "inline-flex"} min-h-11 items-center gap-2 rounded-lg pr-3 text-sm font-bold text-app-muted hover:bg-app-raised hover:text-app-text`}><ArrowLeft aria-hidden="true" className="h-4 w-4" />문법 세트</Link>
@@ -31,8 +33,24 @@ export function GrammarSetPage({ setId }: { setId: string }) {
       <div className="flex items-start gap-4"><GrammarSetTypeIcon type={set.type} size="lg" /><div className="min-w-0"><div className="flex flex-wrap gap-2"><Badge>{set.level}</Badge><Badge variant="muted">{set.type === "flashcard" ? "플래시카드" : "책"}</Badge></div><h1 className="mt-3 text-3xl font-black tracking-tight sm:text-4xl">{set.title}</h1></div></div>
       <p className="mt-2 max-w-2xl text-sm leading-6 text-app-muted">{set.description}</p>
     </header>
-    {set.type === "flashcard" ? <FlashCardSet set={set} /> : <GrammarBookSet set={set} points={points} />}
+    {set.type === "flashcard" ? <FlashCardSet set={set} pointById={pointById} /> : <GrammarBookSet set={set} points={points} pointById={pointById} />}
   </div>;
+}
+
+function recordToSet(book: GrammarBookDetail): GrammarSet {
+  return {
+    id: book.id, title: book.title, description: book.description, level: book.level, type: book.type,
+    pointIds: book.notes.map((note) => note.id), markdown: book.markdown ?? undefined,
+    sourceFile: book.sourceFile ?? undefined, sortOrder: book.sortOrder,
+  };
+}
+
+function recordToPoint(note: GrammarNoteRecord): GrammarPoint {
+  return {
+    id: note.id, pattern: note.pattern, reading: note.reading, meaning: note.meaning, connection: note.connection,
+    explanation: note.explanation, caution: note.caution ?? undefined, examples: note.examples, keywords: note.keywords,
+    notesMarkdown: note.notesMarkdown ?? undefined, sourceFile: note.sourceFile ?? undefined,
+  };
 }
 
 type MobileBookPage = {
@@ -90,7 +108,7 @@ function mobileBookPages(points: GrammarPoint[]) {
   ]);
 }
 
-function FlashCardSet({ set }: { set: GrammarSet }) {
+function FlashCardSet({ set, pointById }: { set: GrammarSet; pointById: Map<string, GrammarPoint> }) {
   const router = useRouter();
   const [queue, setQueue] = useState(() => [...set.pointIds]);
   const [showMeaning, setShowMeaning] = useState(false);
@@ -102,7 +120,7 @@ function FlashCardSet({ set }: { set: GrammarSet }) {
   const [elapsed, setElapsed] = useState(0);
   const [restartOpen, setRestartOpen] = useState(false);
   const touchStart = useRef<{ x: number; y: number } | null>(null);
-  const point = queue.length ? grammarPointById.get(queue[0]) : undefined;
+  const point = queue.length ? pointById.get(queue[0]) : undefined;
   const completed = Math.max(0, set.pointIds.length - new Set(queue).size);
   const favorite = point ? favorites.has(point.id) : false;
 
@@ -235,7 +253,7 @@ function GrammarRestartDialog({ open, onOpenChange, onConfirm }: { open: boolean
   return <Dialog open={open} onOpenChange={onOpenChange}><DialogContent className="sm:max-w-md"><DialogTitle className="pr-10 text-xl font-black">학습을 처음부터 시작할까요?</DialogTitle><DialogDescription className="mt-2 text-sm leading-6 text-app-muted">현재 카드 위치와 이번 라운드 결과를 초기화합니다. 즐겨찾기는 유지됩니다.</DialogDescription><div className="mt-6 grid grid-cols-2 gap-3"><Button variant="outline" onClick={() => onOpenChange(false)}>취소</Button><Button variant="destructive" onClick={onConfirm}>처음부터 시작</Button></div></DialogContent></Dialog>;
 }
 
-function GrammarBookSet({ set, points }: { set: GrammarSet; points: GrammarPoint[] }) {
+function GrammarBookSet({ set, points, pointById }: { set: GrammarSet; points: GrammarPoint[]; pointById: Map<string, GrammarPoint> }) {
   const [query, setQuery] = useState("");
   const [mobilePage, setMobilePage] = useState(0);
   const mobileTouchStart = useRef<{ x: number; y: number } | null>(null);
@@ -246,6 +264,7 @@ function GrammarBookSet({ set, points }: { set: GrammarSet; points: GrammarPoint
   }), [normalized, points]);
   const visibleIds = useMemo(() => new Set(visiblePoints.map((point) => point.id)), [visiblePoints]);
   const resultCount = visibleIds.size;
+  const hasChapterPoints = grammarChapters.some((chapter) => chapter.pointIds.some((id) => set.pointIds.includes(id)));
   const mobilePages = useMemo(() => mobileBookPages(visiblePoints), [visiblePoints]);
   const currentMobilePage = mobilePages[Math.min(mobilePage, Math.max(mobilePages.length - 1, 0))];
   const mobilePointNumber = currentMobilePage ? visiblePoints.findIndex((point) => point.id === currentMobilePage.point.id) + 1 : 0;
@@ -306,7 +325,7 @@ function GrammarBookSet({ set, points }: { set: GrammarSet; points: GrammarPoint
     <div className="mt-6 hidden gap-8 lg:grid lg:grid-cols-[220px_minmax(0,1fr)]">
       <aside className="hidden lg:block"><nav aria-label="문법 책 목차" className="sticky top-24 rounded-2xl border border-app-border bg-app-surface p-4">
         <p className="mb-3 text-xs font-black uppercase tracking-wider text-app-muted">목차</p>
-        <ol className="max-h-[calc(100vh-10rem)] space-y-1 overflow-y-auto">{set.markdown ? points.filter((point) => visibleIds.has(point.id)).map((point, index) => <li key={point.id}><a href={`#${point.id}`} className="flex min-h-10 items-center gap-2 rounded-lg px-2 text-sm font-semibold text-app-muted hover:bg-app-raised hover:text-app-text"><span className="shrink-0 text-xs tabular-nums">{index + 1}</span><span className="jp line-clamp-2">{point.pattern}</span></a></li>) : grammarChapters.map((chapter) => {
+        <ol className="max-h-[calc(100vh-10rem)] space-y-1 overflow-y-auto">{set.markdown || !hasChapterPoints ? points.filter((point) => visibleIds.has(point.id)).map((point, index) => <li key={point.id}><a href={`#${point.id}`} className="flex min-h-10 items-center gap-2 rounded-lg px-2 text-sm font-semibold text-app-muted hover:bg-app-raised hover:text-app-text"><span className="shrink-0 text-xs tabular-nums">{index + 1}</span><span className="jp line-clamp-2">{point.pattern}</span></a></li>) : grammarChapters.map((chapter) => {
           const count = chapter.pointIds.filter((id) => set.pointIds.includes(id) && visibleIds.has(id)).length;
           if (!count) return null;
           return <li key={chapter.id}><a href={`#${chapter.id}`} className="flex min-h-10 items-center justify-between gap-2 rounded-lg px-2 text-sm font-semibold text-app-muted hover:bg-app-raised hover:text-app-text"><span>{chapter.title}</span><span className="text-xs">{count}</span></a></li>;
@@ -323,11 +342,11 @@ function GrammarBookSet({ set, points }: { set: GrammarSet; points: GrammarPoint
           <div className="mt-6 flex flex-wrap gap-2"><Badge variant="outline">{grammarChapters.filter((chapter) => chapter.pointIds.some((id) => set.pointIds.includes(id))).length}개 장</Badge><Badge variant="outline">{points.length}개 문형</Badge><Badge variant="outline">예문 {points.reduce((total, point) => total + point.examples.length, 0)}개</Badge></div>
         </header> : <p role="status" className="mb-8 text-sm text-app-muted"><strong className="text-app-accent">{resultCount}개</strong> 문형을 찾았습니다.</p>}
 
-        {set.markdown && normalized && resultCount ? <div className="space-y-10">{points.filter((point) => visibleIds.has(point.id)).map((point) => <GrammarArticle key={point.id} point={point} />)}</div> : set.markdown && !normalized ? <div className="space-y-10">{points.map((point) => <GrammarArticle key={point.id} point={point} />)}</div> : resultCount ? grammarChapters.map((chapter) => {
-          const chapterPoints = chapter.pointIds.map((id) => grammarPointById.get(id)).filter((point): point is GrammarPoint => point !== undefined && set.pointIds.includes(point.id) && visibleIds.has(point.id));
+        {set.markdown && normalized && resultCount ? <div className="space-y-10">{points.filter((point) => visibleIds.has(point.id)).map((point) => <GrammarArticle key={point.id} point={point} />)}</div> : set.markdown && !normalized ? <div className="space-y-10">{points.map((point) => <GrammarArticle key={point.id} point={point} />)}</div> : resultCount && hasChapterPoints ? grammarChapters.map((chapter) => {
+          const chapterPoints = chapter.pointIds.map((id) => pointById.get(id)).filter((point): point is GrammarPoint => point !== undefined && set.pointIds.includes(point.id) && visibleIds.has(point.id));
           if (!chapterPoints.length) return null;
           return <section key={chapter.id} id={chapter.id} className="mb-12 scroll-mt-24 last:mb-0"><h2 className="text-2xl font-black">{chapter.title}</h2><p className="mt-2 text-sm leading-6 text-app-muted">{chapter.description}</p><div className="mt-7 space-y-10">{chapterPoints.map((point) => <GrammarArticle key={point.id} point={point} />)}</div></section>;
-        }) : <div className="rounded-2xl border border-dashed border-app-border px-5 py-14 text-center"><p className="font-bold">검색 결과가 없습니다.</p><p className="mt-2 text-sm text-app-muted">문형이나 한국어 의미를 다른 단어로 찾아보세요.</p></div>}
+        }) : resultCount ? <div className="space-y-10">{visiblePoints.map((point) => <GrammarArticle key={point.id} point={point} />)}</div> : <div className="rounded-2xl border border-dashed border-app-border px-5 py-14 text-center"><p className="font-bold">검색 결과가 없습니다.</p><p className="mt-2 text-sm text-app-muted">문형이나 한국어 의미를 다른 단어로 찾아보세요.</p></div>}
       </article>
     </div>
   </section>;

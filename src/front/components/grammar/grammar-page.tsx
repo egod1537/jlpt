@@ -5,6 +5,7 @@ import { useMemo, useState } from "react";
 import { ChevronRight, Search } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { GrammarSetTypeIcon } from "@/components/grammar/set-type-icon";
+import type { GrammarBookRecord } from "@back/lib/grammar/types";
 import { grammarSets, type GrammarSetType } from "@/lib/grammar";
 
 type TypeFilter = "all" | GrammarSetType;
@@ -14,14 +15,15 @@ const typeLabels: Record<GrammarSetType, string> = {
   book: "책",
 };
 
-export function GrammarPage() {
+export function GrammarPage({ books }: { books?: GrammarBookRecord[] }) {
   const [query, setQuery] = useState("");
   const [type, setType] = useState<TypeFilter>("all");
+  const available = books ?? grammarSets.map((set) => ({ ...set, noteCount: set.pointIds.length }));
   const normalized = query.trim().toLocaleLowerCase();
-  const visible = useMemo(() => grammarSets.filter((set) => {
+  const visible = useMemo(() => available.filter((set) => {
     if (type !== "all" && set.type !== type) return false;
     return !normalized || [set.title, set.description, set.level, typeLabels[set.type]].join(" ").toLocaleLowerCase().includes(normalized);
-  }), [normalized, type]);
+  }), [available, normalized, type]);
 
   return <div className="mx-auto max-w-4xl">
     <header>
@@ -45,7 +47,7 @@ export function GrammarPage() {
 
     <div className="mt-5 flex items-center justify-between gap-3">
       <p className="text-sm font-bold">전체 세트 <span className="text-app-accent">{visible.length}</span></p>
-      <p className="text-xs text-app-muted">카드 {grammarSets.filter((set) => set.type === "flashcard").length} · 책 {grammarSets.filter((set) => set.type === "book").length}</p>
+      <p className="text-xs text-app-muted">카드 {available.filter((set) => set.type === "flashcard").length} · 책 {available.filter((set) => set.type === "book").length}</p>
     </div>
 
     {visible.length ? <div className="mt-4 grid gap-3 sm:grid-cols-2">{visible.map((set) => {
@@ -56,7 +58,7 @@ export function GrammarPage() {
         </div>
         <h2 className="mt-5 text-lg font-black group-hover:text-app-accent">{set.title}</h2>
         <p className="mt-2 flex-1 text-sm leading-6 text-app-muted">{set.description}</p>
-        <div className="mt-4 flex items-center justify-between text-xs font-bold text-app-muted"><span>{set.pointIds.length}개 문형</span><span className="inline-flex items-center text-app-accent">열기<ChevronRight aria-hidden="true" className="h-4 w-4" /></span></div>
+        <div className="mt-4 flex items-center justify-between text-xs font-bold text-app-muted"><span>{set.noteCount}개 문형</span><span className="inline-flex items-center text-app-accent">열기<ChevronRight aria-hidden="true" className="h-4 w-4" /></span></div>
       </Link>;
     })}</div> : <div className="mt-4 rounded-2xl border border-dashed border-app-border px-5 py-14 text-center">
       <p className="font-bold">조건에 맞는 문법 세트가 없습니다.</p>

@@ -2,8 +2,8 @@
   "openapi": "3.1.0",
   "info": {
     "title": "JLPT External API",
-    "version": "1.1.0",
-    "description": "단어장과 청해 라이브러리를 관리하는 서버 간 API"
+    "version": "1.2.0",
+    "description": "단어장, 청해 라이브러리, 문법 단어장과 노트를 관리하는 서버 간 API"
   },
   "servers": [{ "url": "/", "description": "현재 JLPT 앱 서버" }],
   "security": [{ "httpBearer": [] }],
@@ -16,6 +16,35 @@
           "401": { "$ref": "#/components/responses/Unauthorized" }
         }
       }
+    },
+    "/api/v1/grammar": {
+      "get": { "summary": "문법 API 탐색 정보", "responses": { "200": { "description": "문법 리소스 URL" }, "401": { "$ref": "#/components/responses/Unauthorized" } } }
+    },
+    "/api/v1/grammar/books": {
+      "get": {
+        "summary": "문법 단어장 목록",
+        "parameters": [{ "$ref": "#/components/parameters/GrammarLimit" }, { "$ref": "#/components/parameters/Cursor" }, { "name": "q", "in": "query", "schema": { "type": "string", "maxLength": 200 } }, { "name": "type", "in": "query", "schema": { "type": "string", "enum": ["book", "flashcard"] } }],
+        "responses": { "200": { "description": "문법 단어장 페이지" }, "401": { "$ref": "#/components/responses/Unauthorized" } }
+      },
+      "post": {
+        "summary": "문법 단어장 생성; notes 배열로 노트 동시 생성 가능",
+        "requestBody": { "required": true, "content": { "application/json": { "schema": { "$ref": "#/components/schemas/GrammarBookInput" } } } },
+        "responses": { "201": { "description": "생성됨" }, "400": { "$ref": "#/components/responses/BadRequest" }, "409": { "$ref": "#/components/responses/Conflict" } }
+      }
+    },
+    "/api/v1/grammar/books/{bookId}": {
+      "get": { "summary": "문법 단어장과 전체 노트 조회", "parameters": [{ "$ref": "#/components/parameters/GrammarBookId" }], "responses": { "200": { "description": "문법 단어장 상세" }, "404": { "$ref": "#/components/responses/NotFound" } } },
+      "patch": { "summary": "문법 단어장 수정", "parameters": [{ "$ref": "#/components/parameters/GrammarBookId" }, { "$ref": "#/components/parameters/IfMatch" }], "requestBody": { "required": true, "content": { "application/json": { "schema": { "$ref": "#/components/schemas/GrammarBookPatch" } } } }, "responses": { "200": { "description": "수정됨" }, "409": { "$ref": "#/components/responses/Conflict" } } },
+      "delete": { "summary": "문법 단어장과 소속 노트 soft delete", "parameters": [{ "$ref": "#/components/parameters/GrammarBookId" }, { "$ref": "#/components/parameters/ExpectedRevision" }], "responses": { "200": { "description": "삭제됨" }, "409": { "$ref": "#/components/responses/Conflict" } } }
+    },
+    "/api/v1/grammar/books/{bookId}/notes": {
+      "get": { "summary": "문법 노트 목록", "parameters": [{ "$ref": "#/components/parameters/GrammarBookId" }, { "$ref": "#/components/parameters/GrammarLimit" }, { "$ref": "#/components/parameters/Cursor" }, { "name": "q", "in": "query", "schema": { "type": "string" } }], "responses": { "200": { "description": "문법 노트 페이지" } } },
+      "post": { "summary": "문법 노트 생성", "parameters": [{ "$ref": "#/components/parameters/GrammarBookId" }], "requestBody": { "required": true, "content": { "application/json": { "schema": { "$ref": "#/components/schemas/GrammarNoteInput" } } } }, "responses": { "201": { "description": "생성됨" }, "400": { "$ref": "#/components/responses/BadRequest" } } }
+    },
+    "/api/v1/grammar/books/{bookId}/notes/{noteId}": {
+      "get": { "summary": "문법 노트 조회", "parameters": [{ "$ref": "#/components/parameters/GrammarBookId" }, { "$ref": "#/components/parameters/GrammarNoteId" }], "responses": { "200": { "description": "문법 노트" }, "404": { "$ref": "#/components/responses/NotFound" } } },
+      "patch": { "summary": "문법 노트 수정", "parameters": [{ "$ref": "#/components/parameters/GrammarBookId" }, { "$ref": "#/components/parameters/GrammarNoteId" }, { "$ref": "#/components/parameters/IfMatch" }], "requestBody": { "required": true, "content": { "application/json": { "schema": { "$ref": "#/components/schemas/GrammarNotePatch" } } } }, "responses": { "200": { "description": "수정됨" }, "409": { "$ref": "#/components/responses/Conflict" } } },
+      "delete": { "summary": "문법 노트 soft delete", "parameters": [{ "$ref": "#/components/parameters/GrammarBookId" }, { "$ref": "#/components/parameters/GrammarNoteId" }, { "$ref": "#/components/parameters/ExpectedRevision" }], "responses": { "200": { "description": "삭제됨" }, "409": { "$ref": "#/components/responses/Conflict" } } }
     },
     "/api/v1/listening": {
       "get": { "summary": "청해 API 탐색 정보", "responses": { "200": { "description": "청해 리소스 URL" }, "401": { "$ref": "#/components/responses/Unauthorized" } } }
@@ -190,10 +219,13 @@
     },
     "parameters": {
       "BookId": { "name": "bookId", "in": "path", "required": true, "schema": { "type": "string", "pattern": "^book-[A-Za-z0-9_-]+$" } },
+      "GrammarBookId": { "name": "bookId", "in": "path", "required": true, "schema": { "type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9_-]{0,127}$" } },
+      "GrammarNoteId": { "name": "noteId", "in": "path", "required": true, "schema": { "type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9_-]{0,127}$" } },
       "FolderId": { "name": "folderId", "in": "path", "required": true, "schema": { "type": "string" } },
       "SetId": { "name": "setId", "in": "path", "required": true, "schema": { "type": "string" } },
       "AudioId": { "name": "audioId", "in": "path", "required": true, "schema": { "type": "string" } },
       "JobId": { "name": "jobId", "in": "path", "required": true, "schema": { "type": "string" } },
+      "GrammarLimit": { "name": "limit", "in": "query", "schema": { "type": "integer", "minimum": 1, "maximum": 500, "default": 50 } },
       "Limit": { "name": "limit", "in": "query", "schema": { "type": "integer", "minimum": 1, "maximum": 100, "default": 50 } },
       "Cursor": { "name": "cursor", "in": "query", "schema": { "type": "string", "pattern": "^[0-9]+$" } },
       "IdempotencyKey": { "name": "Idempotency-Key", "in": "header", "schema": { "type": "string", "minLength": 1, "maxLength": 128 } },
@@ -222,6 +254,82 @@
       }
     },
     "schemas": {
+      "GrammarExampleInput": {
+        "type": "object",
+        "required": ["japanese"],
+        "additionalProperties": false,
+        "properties": {
+          "japanese": { "type": "string", "minLength": 1, "maxLength": 5000 },
+          "korean": { "type": "string", "maxLength": 5000, "default": "" }
+        }
+      },
+      "GrammarNoteInput": {
+        "type": "object",
+        "required": ["pattern"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9_-]{0,127}$" },
+          "position": { "type": "integer", "minimum": 0, "maximum": 1000000 },
+          "pattern": { "type": "string", "minLength": 1, "maxLength": 500 },
+          "reading": { "type": "string", "maxLength": 500, "default": "" },
+          "meaning": { "type": "string", "maxLength": 2000, "default": "" },
+          "connection": { "type": "array", "maxItems": 50, "items": { "type": "string", "minLength": 1, "maxLength": 500 }, "default": [] },
+          "explanation": { "type": "string", "maxLength": 20000, "default": "" },
+          "caution": { "type": ["string", "null"], "maxLength": 10000 },
+          "examples": { "type": "array", "maxItems": 100, "items": { "$ref": "#/components/schemas/GrammarExampleInput" }, "default": [] },
+          "keywords": { "type": "array", "maxItems": 50, "items": { "type": "string", "minLength": 1, "maxLength": 100 }, "default": [] },
+          "notesMarkdown": { "type": ["string", "null"], "maxLength": 524288 },
+          "sourceFile": { "type": ["string", "null"], "maxLength": 500 }
+        }
+      },
+      "GrammarBookInput": {
+        "type": "object",
+        "required": ["title"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9_-]{0,127}$" },
+          "title": { "type": "string", "minLength": 1, "maxLength": 200 },
+          "description": { "type": "string", "maxLength": 4000, "default": "" },
+          "level": { "type": "string", "maxLength": 20, "default": "N1" },
+          "type": { "type": "string", "enum": ["book", "flashcard"], "default": "book" },
+          "markdown": { "type": ["string", "null"], "maxLength": 2097152 },
+          "sourceFile": { "type": ["string", "null"], "maxLength": 500 },
+          "sortOrder": { "type": "integer", "minimum": 0, "maximum": 1000000, "default": 0 },
+          "notes": { "type": "array", "maxItems": 1000, "items": { "$ref": "#/components/schemas/GrammarNoteInput" }, "default": [] }
+        }
+      },
+      "GrammarBookPatch": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "expectedRevision": { "type": "integer", "minimum": 1 },
+          "title": { "type": "string", "minLength": 1, "maxLength": 200 },
+          "description": { "type": "string", "maxLength": 4000 },
+          "level": { "type": "string", "maxLength": 20 },
+          "type": { "type": "string", "enum": ["book", "flashcard"] },
+          "markdown": { "type": ["string", "null"], "maxLength": 2097152 },
+          "sourceFile": { "type": ["string", "null"], "maxLength": 500 },
+          "sortOrder": { "type": "integer", "minimum": 0, "maximum": 1000000 }
+        }
+      },
+      "GrammarNotePatch": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "expectedRevision": { "type": "integer", "minimum": 1 },
+          "position": { "type": "integer", "minimum": 0, "maximum": 1000000 },
+          "pattern": { "type": "string", "minLength": 1, "maxLength": 500 },
+          "reading": { "type": "string", "maxLength": 500 },
+          "meaning": { "type": "string", "maxLength": 2000 },
+          "connection": { "type": "array", "maxItems": 50, "items": { "type": "string", "minLength": 1, "maxLength": 500 } },
+          "explanation": { "type": "string", "maxLength": 20000 },
+          "caution": { "type": ["string", "null"], "maxLength": 10000 },
+          "examples": { "type": "array", "maxItems": 100, "items": { "$ref": "#/components/schemas/GrammarExampleInput" } },
+          "keywords": { "type": "array", "maxItems": 50, "items": { "type": "string", "minLength": 1, "maxLength": 100 } },
+          "notesMarkdown": { "type": ["string", "null"], "maxLength": 524288 },
+          "sourceFile": { "type": ["string", "null"], "maxLength": 500 }
+        }
+      },
       "ListeningFolder": { "type": "object", "required": ["id", "name", "revision"], "properties": { "id": { "type": "string" }, "parentId": { "type": ["string", "null"] }, "name": { "type": "string" }, "favorite": { "type": "boolean" }, "revision": { "type": "integer" } } },
       "ListeningSet": { "type": "object", "required": ["id", "title", "revision", "audioCount"], "properties": { "id": { "type": "string" }, "folderId": { "type": ["string", "null"] }, "title": { "type": "string" }, "description": { "type": "string" }, "favorite": { "type": "boolean" }, "revision": { "type": "integer" }, "audioCount": { "type": "integer" }, "durationMs": { "type": "integer" } } },
       "ListeningAudio": { "type": "object", "required": ["id", "setId", "originalName", "status", "revision", "streamUrl"], "properties": { "id": { "type": "string" }, "setId": { "type": "string" }, "originalName": { "type": "string" }, "mimeType": { "type": "string" }, "sizeBytes": { "type": "integer" }, "durationMs": { "type": ["integer", "null"] }, "status": { "type": "string", "enum": ["uploaded", "queued", "transcribing", "transcribed", "correcting", "ready", "failed", "missing"] }, "versionId": { "type": ["string", "null"] }, "favorite": { "type": "boolean" }, "revision": { "type": "integer" }, "streamUrl": { "type": "string" } } },

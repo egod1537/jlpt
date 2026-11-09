@@ -17,6 +17,7 @@ export function GET(request: NextRequest) {
         book: "/api/v1/books/{bookId}",
         entries: "/api/v1/books/{bookId}/entries",
         listening: "/api/v1/listening",
+        grammar: "/api/v1/grammar",
       },
       openapi: "/external-api.openapi.json",
     },
