@@ -10,6 +10,7 @@ import { Dialog, DialogContent, DialogDescription, DialogTitle } from "@/compone
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Select } from "@/components/ui/select";
+import { prioritizeRecentBooks, readRecentBookIds, recentBooksStorageKey, rememberRecentBook } from "@/lib/library-recency";
 
 type FolderItem = { id: string; name: string; parentId: string | null; pinned: boolean; orderIndex: number; revision: number; bookCount: number; childCount: number };
 type BookItem = { id: string; title: string; category: string | null; folderId: string | null; favorite: boolean; orderIndex: number; revision: number; entryCount: number; studiedCount: number; roundCount: number; updatedAt: string };
@@ -39,6 +40,7 @@ export function LibraryPage() {
   const [selecting, setSelecting] = useState(false);
   const [selected, setSelected] = useState<string[]>([]);
   const [moveOpen, setMoveOpen] = useState(false);
+  const [recentBookIds, setRecentBookIds] = useState<string[]>([]);
   const loadGeneration = useRef(0);
 
   const setParams = useCallback((changes: Record<string, string | null>) => {
@@ -100,6 +102,18 @@ export function LibraryPage() {
     return () => { controller.abort(); window.removeEventListener("jlpt-data-changed", changed); };
   }, [load]);
 
+  useEffect(() => {
+    const refresh = () => setRecentBookIds(readRecentBookIds(localStorage));
+    const changed = (event: StorageEvent) => { if (event.key === recentBooksStorageKey) refresh(); };
+    refresh();
+    window.addEventListener("storage", changed);
+    return () => window.removeEventListener("storage", changed);
+  }, []);
+
+  const markBookOpened = useCallback((bookId: string) => {
+    setRecentBookIds(rememberRecentBook(localStorage, bookId));
+  }, []);
+
   const folderById = useMemo(() => new Map(folders.map((folder) => [folder.id, folder])), [folders]);
   const childrenByParent = useMemo(() => {
     const map = new Map<string | null, FolderItem[]>();
@@ -115,9 +129,9 @@ export function LibraryPage() {
     if (quick === "recent") source = source.sort((a, b) => b.updatedAt.localeCompare(a.updatedAt)).slice(0, 20);
     const compare = sort === "name" ? (a: BookItem, b: BookItem) => a.title.localeCompare(b.title) : sort === "updated" ? (a: BookItem, b: BookItem) => b.updatedAt.localeCompare(a.updatedAt) : (a: BookItem, b: BookItem) => a.orderIndex - b.orderIndex || a.title.localeCompare(b.title);
     for (const book of source) map.set(book.folderId, [...(map.get(book.folderId) || []), book]);
-    for (const items of map.values()) items.sort(compare);
+    for (const [folderId, items] of map) map.set(folderId, prioritizeRecentBooks(items, recentBookIds, compare));
     return map;
-  }, [books, quick, sort]);
+  }, [books, quick, recentBookIds, sort]);
 
   const needle = normalized(debouncedQuery);
   const matchesBook = useCallback((book: BookItem) => !needle || normalized(book.title + " " + (book.category || "") + " " + book.id).includes(needle), [needle]);
@@ -176,7 +190,7 @@ export function LibraryPage() {
     const checked = selected.includes(book.id);
     return <div key={book.id} className={"group flex min-h-12 items-center gap-1 rounded-lg border border-transparent pr-1 hover:border-app-border hover:bg-app-raised " + (checked ? "border-app-accent bg-app-accent-surface" : "")} style={{ marginLeft: Math.min(depth, 2) * 16 }}>
       {selecting ? <button onClick={() => toggleSelected(book.id)} role="checkbox" aria-checked={checked} aria-label={book.title + " 선택"} className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg text-app-accent">{checked ? "✓" : "○"}</button> : <span className="flex h-11 w-8 shrink-0 items-center justify-center text-app-accent"><BookOpen className="h-4 w-4" /></span>}
-      <Link href={selecting ? "#" : "/study?books=" + encodeURIComponent(book.id) + "&start=1"} onClick={(event) => { if (selecting) { event.preventDefault(); toggleSelected(book.id); } }} className="flex min-h-11 min-w-0 flex-1 items-center py-1.5" aria-label={book.title + " 바로 학습"}>
+      <Link href={selecting ? "#" : "/study?books=" + encodeURIComponent(book.id) + "&start=1"} onClick={(event) => { if (selecting) { event.preventDefault(); toggleSelected(book.id); } }} onNavigate={selecting ? undefined : () => markBookOpened(book.id)} className="flex min-h-11 min-w-0 flex-1 items-center py-1.5" aria-label={book.title + " 바로 학습"}>
         <span className="min-w-0"><span className="block truncate text-sm font-semibold">{book.title}</span><span className="block truncate text-[11px] text-app-muted">{book.entryCount || 0}단어 · 학습 {progress}% · {book.roundCount || 0}회독</span></span>
       </Link>
       {!selecting ? <button onClick={() => setEdit({ kind: "book", item: book })} aria-label={book.title + " 메뉴"} className="flex h-11 w-11 items-center justify-center rounded-lg text-app-muted hover:bg-app-surface"><MoreHorizontal className="h-4 w-4" /></button> : null}
@@ -211,7 +225,7 @@ export function LibraryPage() {
     <div className="relative mt-5"><label htmlFor="library-search" className="sr-only">폴더·세트 검색</label><Search aria-hidden="true" className="absolute left-3 top-3.5 h-4 w-4 text-app-muted" /><Input id="library-search" className="pl-10" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="폴더·세트 검색..." /></div>
     <div className="-mx-4 mt-3 flex gap-2 overflow-x-auto px-4 pb-1" aria-label="빠른 필터">{[["all", "전체"], ["recent", "최근"], ["favorites", "즐겨찾기"], ["unfiled", "미분류"]].map(([value, label]) => <button key={value} onClick={() => setParams({ filter: value === "all" ? null : value })} aria-pressed={quick === value} className={"min-h-11 shrink-0 rounded-full px-4 text-sm font-bold " + (quick === value ? "bg-app-accent-surface text-app-text" : "bg-app-surface text-app-muted ring-1 ring-app-border")}>{label}</button>)}</div>
 
-    {(pinnedFolders.length || favoriteBooks.length) ? <section className="mt-6 rounded-xl border border-app-border bg-app-surface p-2" aria-labelledby="pinned-heading"><h2 id="pinned-heading" className="px-2 py-2 text-xs font-black uppercase tracking-wider text-app-warning">고정</h2>{pinnedFolders.map((folder) => <button key={folder.id} onClick={() => { setExpanded((current) => new Set(current).add(folder.id)); document.getElementById("folder-" + folder.id)?.scrollIntoView({ behavior: "smooth", block: "center" }); }} className="flex min-h-11 w-full items-center gap-2 rounded-lg px-2 text-left hover:bg-app-raised"><Pin className="h-4 w-4 fill-app-warning text-app-warning" /><span className="truncate text-sm font-semibold">{folder.name}</span><span className="ml-auto text-xs text-app-muted">폴더</span></button>)}{favoriteBooks.slice(0, 8).map((book) => <Link key={book.id} href={"/study?books=" + encodeURIComponent(book.id) + "&start=1"} aria-label={book.title + " 바로 학습"} className="flex min-h-11 items-center gap-2 rounded-lg px-2 hover:bg-app-raised"><Star className="h-4 w-4 fill-app-warning text-app-warning" /><span className="truncate text-sm font-semibold">{book.title}</span></Link>)}</section> : null}
+    {(pinnedFolders.length || favoriteBooks.length) ? <section className="mt-6 rounded-xl border border-app-border bg-app-surface p-2" aria-labelledby="pinned-heading"><h2 id="pinned-heading" className="px-2 py-2 text-xs font-black uppercase tracking-wider text-app-warning">고정</h2>{pinnedFolders.map((folder) => <button key={folder.id} onClick={() => { setExpanded((current) => new Set(current).add(folder.id)); document.getElementById("folder-" + folder.id)?.scrollIntoView({ behavior: "smooth", block: "center" }); }} className="flex min-h-11 w-full items-center gap-2 rounded-lg px-2 text-left hover:bg-app-raised"><Pin className="h-4 w-4 fill-app-warning text-app-warning" /><span className="truncate text-sm font-semibold">{folder.name}</span><span className="ml-auto text-xs text-app-muted">폴더</span></button>)}{favoriteBooks.slice(0, 8).map((book) => <Link key={book.id} href={"/study?books=" + encodeURIComponent(book.id) + "&start=1"} onNavigate={() => markBookOpened(book.id)} aria-label={book.title + " 바로 학습"} className="flex min-h-11 items-center gap-2 rounded-lg px-2 hover:bg-app-raised"><Star className="h-4 w-4 fill-app-warning text-app-warning" /><span className="truncate text-sm font-semibold">{book.title}</span></Link>)}</section> : null}
 
     <section className="mt-6 rounded-xl border border-app-border bg-app-surface p-2" aria-labelledby="tree-heading"><div className="flex items-center justify-between px-2 py-2"><h2 id="tree-heading" className="text-xs font-black uppercase tracking-wider text-app-muted">모든 단어장</h2><Select aria-label="단어장 정렬" value={sort} onChange={(event) => setParams({ sort: event.target.value === "custom" ? null : event.target.value })} className="h-11 text-xs"><option value="custom">사용자순</option><option value="updated">최근 수정순</option><option value="name">이름순</option></Select></div>
       {loading ? <div className="space-y-2 p-2" aria-label="단어장 트리 로딩 중">{[1,2,3].map((item) => <div key={item} className="h-12 animate-pulse rounded-lg bg-app-border" />)}</div> : <div>{(childrenByParent.get(null) || []).map((folder) => <div id={"folder-" + folder.id} key={folder.id}>{renderFolder(folder, 0)}</div>)}{rootBooks.length ? <div className="mt-1 border-t border-app-border pt-1"><div className="flex min-h-11 items-center gap-2 px-2 text-sm font-bold text-app-muted"><Folder className="h-4 w-4" />미분류 <span className="ml-auto text-xs">{rootBooks.length}</span></div>{rootBooks.slice(0, showAll.has("unfiled") || needle ? rootBooks.length : 8).map((book) => renderBook(book, 1))}{rootBooks.length > 8 && !showAll.has("unfiled") && !needle ? <button onClick={() => setShowAll((current) => new Set(current).add("unfiled"))} className="min-h-11 w-full text-xs font-bold text-app-accent">전체 {rootBooks.length}개 보기</button> : null}</div> : null}{!(childrenByParent.get(null)?.length || rootBooks.length) ? <p className="px-4 py-10 text-center text-sm text-app-muted">조건에 맞는 단어장이 없습니다.</p> : null}</div>}
