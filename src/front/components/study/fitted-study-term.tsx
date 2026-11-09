@@ -33,13 +33,13 @@ function useFitText(slotRef: RefObject<HTMLElement | null>, textRef: RefObject<H
     const observer = new ResizeObserver(fit);
     observer.observe(slot);
     window.addEventListener("resize", fit);
-    document.fonts.addEventListener("loadingdone", fit);
-    void document.fonts.ready.then(fit);
+    document.fonts?.addEventListener("loadingdone", fit);
+    void document.fonts?.ready.then(fit);
     return () => {
       disposed = true;
       observer.disconnect();
       window.removeEventListener("resize", fit);
-      document.fonts.removeEventListener("loadingdone", fit);
+      document.fonts?.removeEventListener("loadingdone", fit);
     };
   }, [contentKey, maximum, isTerm, slotRef, textRef]);
 }

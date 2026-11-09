@@ -3,13 +3,14 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { BookOpen, Headphones, Plus, Search, Settings } from "lucide-react";
+import { BookOpen, Headphones, Languages, Plus, Search, Settings } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { SyncStatus } from "@/components/sync/sync-status";
 import { AddContentDialog } from "@/components/library/add-content-dialog";
 
 const navigation = [
   { href: "/books", label: "단어장", icon: BookOpen },
+  { href: "/grammar", label: "문법", icon: Languages },
   { href: "/listening", label: "청해", icon: Headphones },
 ];
 
@@ -21,7 +22,7 @@ export function AppHeader() {
     window.addEventListener("jlpt-study-active", changed);
     return () => window.removeEventListener("jlpt-study-active", changed);
   }, []);
-  if (pathname.startsWith("/listening/audio/") || (pathname.startsWith("/study") && studyActive)) return null;
+  if (pathname.startsWith("/listening/audio/") || ((pathname.startsWith("/study") || pathname.startsWith("/grammar/")) && studyActive)) return null;
   return <>
     <header className="sticky top-0 z-40 border-b border-app-border bg-app-surface/95 pt-[env(safe-area-inset-top)] backdrop-blur">
       <div className="mx-auto flex h-14 max-w-4xl items-center justify-between px-3 sm:px-4">
@@ -36,7 +37,7 @@ export function AppHeader() {
         </nav>
       </div>
     </header>
-    <nav aria-label="주요 메뉴" className="fixed inset-x-0 bottom-0 z-40 mx-auto grid grid-cols-2 border-t border-app-border bg-app-surface/95 pb-[env(safe-area-inset-bottom)] backdrop-blur md:max-w-md md:rounded-t-2xl md:border-x">
+    <nav aria-label="주요 메뉴" className="fixed inset-x-0 bottom-0 z-40 mx-auto grid grid-cols-3 border-t border-app-border bg-app-surface/95 pb-[env(safe-area-inset-bottom)] backdrop-blur md:max-w-md md:rounded-t-2xl md:border-x">
       {navigation.map(({ href, label, icon: Icon }) => {
         const active = pathname === href || pathname.startsWith(`${href}/`);
         return <Link key={href} href={href} aria-current={active ? "page" : undefined} className={cn("flex min-h-16 flex-col items-center justify-center gap-1 text-xs font-bold text-app-muted", active && "text-app-accent")}><Icon aria-hidden="true" className="h-5 w-5" />{label}</Link>;
